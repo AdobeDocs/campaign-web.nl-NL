@@ -2,13 +2,13 @@
 audience: end-user
 title: Een stijl voor koppelingen definiëren
 description: Leer hoe u een stijl voor koppelingen definieert
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
+source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 2%
 
 ---
-
 
 # Een stijl voor koppelingen definiëren {#styling-links}
 
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de e-mailontwerper.
 
-1. In een tekst **[!UICONTROL Content component]** wanneer een koppeling wordt ingevoegd, selecteert u de koppeling.
+1. In een **[!UICONTROL Text]** Selecteer de koppeling waar een koppeling wordt ingevoegd.
 
-1. In de **[!UICONTROL Component settings]** menu, controle **[!UICONTROL Underline link]** om de labeltekst van uw koppeling te onderstrepen.
+1. In de **[!UICONTROL Component settings]** menu, controle **[!UICONTROL Underline link]** om het label onderstreept te hebben.
 
    ![](assets/link_1.png)
 
@@ -34,10 +34,8 @@ U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de
 
    ![](assets/link_2.png)
 
-1. Als u de kleur van de koppeling wilt wijzigen, klikt u op **[!UICONTROL Link color]**.
+1. Als u de kleur van de koppeling wilt wijzigen, klikt u op **[!UICONTROL Link color]** in het rechterdeelvenster.
 
    ![](assets/link_3.png)
-
-1. Kies de gewenste kleur.
 
 1. Sla uw wijzigingen op.

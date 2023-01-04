@@ -5,10 +5,10 @@ description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 Web docs
 hide: true
-source-git-commit: c90d8a5eff6169945d381f3250cb3e4d06194d31
+source-git-commit: 655e0525c445b3bbf82011db84672835ea81b8ed
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 4%
+source-wordcount: '165'
+ht-degree: 6%
 
 ---
 
@@ -23,32 +23,34 @@ ht-degree: 4%
 + [De interface detecteren](get-started/user-interface.md)
 + [Uw eerste e-mail maken](email/create-email.md)
 + E-mailinhoud maken {#content}
-   + [E-mailinhoud configureren](content/edit-content.md)
-   + Beginnen met het maken van uw inhoud {#start-design}
-      + [Opnieuw starten ](content/create-email-content.md)
-      + [Uw e-mailinhoud importeren](content/existing-content.md)
-      + [Uw eigen inhoud coderen](content/code-content.md)
-      + [Werken met sjablonen](content/email-templates.md)
-      + [Werken met aanbiedingen](content/offers.md)
-   + Structuur en ontwerp uw e-mail {#design-content}
+   + [E-mailinhoud bewerken](content/edit-content.md)
+   + Uw e-mail ontwerpen {#design-content}
+      + Beginnen met het ontwerpen van uw inhoud {#start-design}
+         + [Opnieuw starten ](content/create-email-content.md)
+         + [Uw e-mailinhoud importeren](content/existing-content.md)
+         + [Uw eigen inhoud coderen](content/code-content.md)
       + [Inhoudscomponenten gebruiken](content/content-components.md)
-      + [Afbeeldingen toevoegen](content/add-assets.md)
       + [De tekstversie genereren](content/text-version-email.md)
       + [Een preheader toevoegen](content/preheader.md)
       + [Koppelingen toevoegen en berichten bijhouden](content/message-tracking.md)
    + Stijl uw inhoud {#style}
-      + [Achtergrondinstellingen](content/backgrounds.md)
-      + [Verticale uitlijning en opvulling aanpassen](content/adjusting-vertical-alignment-and-padding.md)
+      + [Aan de slag met e-mailstijl](content/get-started-email-style.md)
+      + [Achtergrondinstellingen bewerken](content/backgrounds.md)
+      + [Verticale uitlijning en opvulling aanpassen](content/alignment-and-padding.md)
       + [Een stijl voor koppelingen definiëren](content/styling-links.md)
-      + [Inline-opmaakkenmerken toevoegen](content/adding-inline-styling-attributes.md)
+      + [Inline-opmaakkenmerken toevoegen](content/inline-styling.md)
    + Uw inhoud aanpassen {#personalize}
       + [Aan de slag met personalisatie](personalization/personalize.md)
-      + [Persoonlijke context](personalization/personalization-contexts.md)
+   + [Aanbiedingen verzenden](content/offers.md)
 + Selecteer het e-mailpubliek {#audience}
-   + [Een publiek toevoegen](audience/add-audience.md)
+   + [Informatie over doelgroepen](audience/about-audiences.md)
+   + [Een publiek selecteren](audience/add-audience.md)
    + [Een controlegroep instellen](audience/control-group.md)
    + [Werken met de Segment Builder](audience/segment-builder.md)
-+ [Uw e-mail voorvertonen en testen](preview-test/preview-test.md)
++ Uw e-mail voorvertonen en testen {#preview-test}
+   + [Voorvertoning en proefdrukken](preview-test/preview-test.md)
+   + [E-mailinhoud voorvertonen](preview-test/preview-content.md)
+   + [Verzend proeven](preview-test/proofs.md)
 + E-mail verzenden en controleren {#monitor}
    + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
    + [Leveringslogboeken controleren](monitor/delivery-logs.md)

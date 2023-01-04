@@ -2,7 +2,8 @@
 audience: end-user
 title: Rapportage
 description: Campagne v8 Webdocumentatie
-source-git-commit: d8958be5085518fc180959992649684f328053cd
+exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 0%
@@ -54,6 +55,3 @@ Niet-te leveren items en stootcijfers: Dit verslag geeft een overzicht van de ni
 **Hotclicks**
 
 Dit rapport toont de berichtinhoud (HTML en/of tekst) met, op elke verbinding, het percentage klikt op verbindingen. De belemmeringen van de verpersoonlijking unsubscription verbindingen, spiegelpaginakoppelingen en aanbiedingsverbindingen worden in de totale gecumuleerde kliks in aanmerking genomen maar niet getoond in het rapport.
-
-
-

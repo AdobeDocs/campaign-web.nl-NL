@@ -2,13 +2,13 @@
 audience: end-user
 title: Uw e-mailinhoud importeren
 description: Leer hoe u e-mailinhoud importeert
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
-
 
 # Uw e-mailinhoud importeren {#existing-content}
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
 
-Met Journey Optimizer kunt u bestaande HTML-inhoud importeren om uw e-mails te ontwerpen. Deze inhoud kan als volgt zijn:
+Met de e-mailontwerper kunt u bestaande HTML-inhoud importeren. Deze inhoud kan:
 
 * An **HTML-bestand** met een model in een ingebouwde stijlpagina,
 * A **.zip-map** met het HTML-bestand, de stijlpagina (.css) en afbeeldingen.
@@ -31,14 +31,8 @@ Voer de volgende stappen uit om een bestand met HTML-inhoud te importeren:
 
    ![](assets/import-html_2.png)
 
-1. Sleep het HTML- of ZIP-bestand met de inhoud van uw HTML.
+1. Sleep het HTML- of ZIP-bestand met de inhoud van uw HTML en klik op **[!UICONTROL Import]**.
 
 1. Zodra de HTML-inhoud is geüpload, kunt u de e-mailfuncties van E-mailontwerper gebruiken om uw e-mailadres te bewerken en er een voorvertoning van weer te geven. [Meer informatie in deze sectie](create-email-content.md).
 
    ![](assets/html-imported.png)
-
-## Hoe kan ik-video {#video}
-
-Leer hoe u bestaande HTML-inhoud importeert, het ontwerp afstemt, de spiegelpagina toevoegt en de abonnementkoppelingen opheft en hoe u de inhoud codeert.
-
->[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

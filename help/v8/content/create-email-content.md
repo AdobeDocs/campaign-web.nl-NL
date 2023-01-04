@@ -1,14 +1,14 @@
 ---
 audience: end-user
-title: E-mails ontwerpen in Journey Optimizer
+title: E-mails ontwerpen in de e-mailontwerper
 description: Leer hoe u uw e-mailinhoud helemaal zelf ontwerpt
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 23e71da3-434d-4619-a48a-334281592d85
+source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
-
 
 # Opnieuw starten {#create-email-content}
 
@@ -59,23 +59,23 @@ ht-degree: 0%
 
 Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van uw e-mail binnen seconden ontwerpen.
 
-Voer de onderstaande stappen uit om uw e-mailinhoud samen te stellen met de e-mailontwerper:
+Voer de onderstaande stappen uit om uw e-mailinhoud te gaan samenstellen:
 
 1. Selecteer op de introductiepagina E-mail Designer de optie **[!UICONTROL Design from scratch]** optie.
 
    ![](assets/email_designer.png)
 
-1. Begin met het ontwerpen van uw e-mailinhoud door te slepen en neer te zetten **[!UICONTROL Structure components]** om de indeling van uw e-mail te definiëren.
+1. Begin met het ontwerpen van uw e-mailinhoud door te slepen en neer te zetten **[!UICONTROL Structure components]** in het canvas om de lay-out van uw e-mail te definiëren.
 
    >[!NOTE]
    >
-   >Kolommen zijn niet compatibel met alle e-mailprogramma&#39;s. Kolommen worden niet gestapeld als deze functie niet wordt ondersteund.
-   >
-   >Nadat u de onderdelen in de e-mail hebt geplaatst, kunt u deze alleen verplaatsen of verwijderen als er al een inhoudscomponent of een fragment in de e-mail is geplaatst.
+   >Kolommen stapelen is niet compatibel met alle e-mailprogramma&#39;s. Kolommen worden niet gestapeld als deze functie niet wordt ondersteund.
+
+   <!--Once placed in the email, you cannot move nor remove your components unless there is already a content component or a fragment placed inside. This is not true in AJO - TBC?-->
 
    ![](assets/email_designer_2.png)
 
-1. Zoveel toevoegen **[!UICONTROL Structure components]** indien nodig.
+1. Zoveel toevoegen **[!UICONTROL Structure components]** en bewerk de instellingen in het daarvoor bestemde venster aan de rechterkant.
 
    Selecteer **[!UICONTROL n:n column]** om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
 
@@ -83,47 +83,27 @@ Voer de onderstaande stappen uit om uw e-mailinhoud samen te stellen met de e-ma
    >
    >Elke kolomgrootte mag niet kleiner zijn dan 10% van de totale breedte van de structuurcomponent. U kunt geen kolom verwijderen die niet leeg is.
 
-1. Van de **[!UICONTROL Content components]** vervolgkeuzelijst, kunt u zoveel toevoegen **[!UICONTROL Content components]** zoals u nodig hebt in de structuurcomponent. [Meer informatie over inhoudscomponenten](content-components.md).
+1. Breid uit **[!UICONTROL Content components]** en voegt zo veel elementen toe als u nodig hebt in een of meer structuurcomponenten. [Meer informatie over inhoudscomponenten](content-components.md)
 
-   ![](assets/email_designer_3.png)
-
-1. Elke component kan verder worden aangepast met de **[!UICONTROL Component settings]** sectie. U kunt bijvoorbeeld de tekststijl, de opvulling of marge van de component wijzigen. [Meer informatie over uitlijning en opvulling](adjusting-vertical-alignment-and-padding.md).
-
-   ![](assets/email_designer_4.png)
-
-1. Van de **[!UICONTROL Assets picker]** kunt u rechtstreeks elementen toevoegen die zijn opgeslagen in het dialoogvenster **[!UICONTROL Assets library]** naar uw e-mail.
-
-   Dubbelklik op de map met uw elementen en sleep het element dat u aan uw e-mail wilt toevoegen.
+1. Elke component kan verder worden aangepast met de **[!UICONTROL Component settings]** aan de rechterkant. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
 
    ![](assets/email_designer_5.png)
 
-1. Voeg verpersoonlijkingsgebieden toe om de inhoud van uw profielgegevens aan te passen.
+1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud van profielgegevens aan te passen. [Meer informatie over content personalization](../personalization/personalize.md)
 
-   ![](assets/email_designer_6.png)
-
-1. Voeg dynamische inhoud toe om de inhoud aan te passen aan de doelprofielen op basis van voorwaardelijke regels.
-
-   ![](assets/email_designer_dynamic-content.png)
-
-1. In de **[!UICONTROL Links]** in het linkerdeelvenster, controleert u de lijst van alle URL&#39;s van de inhoud die wordt bijgehouden. U kunt de **[!UICONTROL Tracking Type]**, **[!UICONTROL Label]** en **[!UICONTROL Tags]** indien nodig.
+1. Klik op de knop **[!UICONTROL Links]** in het linkerdeelvenster om alle URL&#39;s weer te geven van de inhoud die wordt bijgehouden. U kunt de **[!UICONTROL Tracking Type]** of **[!UICONTROL Label]** en toevoegen **[!UICONTROL Tags]** indien nodig. [Meer informatie over koppelingen en berichtregistratie](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
-   >[!NOTE]
+1. Indien nodig kunt u uw e-mail verder aanpassen door op **[!UICONTROL Switch to code editor]** in het geavanceerde menu. [Meer informatie over de code-editor](code-content.md)
+
+   >[!CAUTION]
    >
-   >Meer informatie over koppelingen en berichttracering vindt u in [deze pagina](message-tracking.md).
+   >U zult niet terug naar de visuele ontwerper voor deze e-mail kunnen terugkeren nadat het schakelen naar de coderedacteur.
 
-1. Indien nodig kunt u overschakelen naar de code-editor om uw e-mail verder aan te passen door op **[!UICONTROL Switch to code editor]** in het geavanceerde menu. Voor meer informatie over de coderedacteur, verwijs naar [deze pagina](code-content.md#).
+1. Wanneer de inhoud gereed is, klikt u op **[!UICONTROL Simulate content]** om de rendering van uw e-mail te controleren. U kunt kiezen voor de weergave Computer of Mobiel. [Meer informatie over een voorbeeld van uw e-mail](../preview-test/preview-test.md)
 
-   >[!NOTE]
-   >
-   >U zult niet de visuele ontwerper voor deze e-mail na omschakeling aan de coderedacteur kunnen gebruiken.
+   ![](assets/email_designer_28.png)
 
-   ![](assets/email_designer_26.png)
-
-1. Klikken **[!UICONTROL Show preview]** om de rendering van uw e-mail te controleren. U kunt kiezen voor de weergave Computer of Mobiel.
-
-   ![](assets/email_designer_8.png)
-
-1. Wanneer uw e-mail gereed is, klikt u op **[!UICONTROL Save & Close]**.
+1. Wanneer uw e-mail gereed is, klikt u op **[!UICONTROL Save]**.
 

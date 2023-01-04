@@ -2,13 +2,13 @@
 audience: end-user
 product: campaign
 title: Werken met e-mailsjablonen
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: 114c482f-8291-418a-bd81-667f40267a7d
+source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 7%
+source-wordcount: '173'
+ht-degree: 6%
 
 ---
-
 
 # Werken met sjablonen voor e-mailinhoud {#email-content-templates}
 
@@ -19,10 +19,6 @@ ht-degree: 7%
 Gebruik de **[!UICONTROL Select design template]** om uw inhoud op te bouwen van een sjabloon.
 
 ![](assets/email_designer-templates.png)
-
-U kunt kiezen uit:
-* 20 e-mailsjablonen buiten de box.
-* Opgeslagen sjablonen. [Meer informatie](#save-as-template)
 
 ## Opslaan als sjabloon {#save-as-template}
 

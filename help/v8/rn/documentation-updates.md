@@ -2,7 +2,8 @@
 audience: end-user
 title: Documentatieupdates Campagne Web v8
 description: Documentatieupdates Campagne Web v8
-source-git-commit: 9564af61e0ff323e46545f9cf0ca0cc9ef0cea2a
+exl-id: d65fcd92-ce3c-49ff-9dce-16a41d0558bf
+source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
 workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 4%
@@ -16,4 +17,3 @@ ht-degree: 4%
 >Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
 
 Deze pagina bevat een lijst met alle documentatieupdates voor Campagne Web v8.
-

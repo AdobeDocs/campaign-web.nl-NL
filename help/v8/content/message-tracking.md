@@ -2,13 +2,13 @@
 audience: end-user
 title: Je berichten bijhouden
 description: Leer hoe u koppelingen toevoegt en verzonden berichten bijhoudt
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
+source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
-
 
 # Koppelingen toevoegen en berichten bijhouden {#tracking}
 
@@ -16,22 +16,7 @@ ht-degree: 0%
 >
 >Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
 
-Gebruiken [!DNL Journey Optimizer] om koppelingen naar uw inhoud toe te voegen en de verzonden berichten te volgen om het gedrag van de ontvangers te controleren.
-
-## Tekstspatiëring inschakelen {#enable-tracking}
-
-U kunt het bijhouden van wijzigingen op berichtniveau inschakelen door de optie **[!UICONTROL Email opens]** en/of **[!UICONTROL Click on email]** opties bij het maken van uw bericht.
-
-![](assets/message-tracking.png)
-
->[!NOTE]
->
->Beide opties zijn standaard ingeschakeld.
-
-Zo kunt u het gedrag van de ontvangers bijhouden via:
-
-* **[!UICONTROL Email opens]**: Berichten die zijn geopend.
-* **[!UICONTROL Click on email]**: Klik op koppelingen in een e-mail.
+Gebruik de e-mailontwerper om koppelingen naar uw inhoud toe te voegen en de verzonden berichten bij te houden om het gedrag van de ontvangers te controleren.
 
 ## Koppelingen invoegen {#insert-links}
 
@@ -39,7 +24,7 @@ Bij het ontwerpen van een bericht kunt u koppelingen naar uw inhoud toevoegen.
 
 >[!NOTE]
 >
->Wanneer [tracking is ingeschakeld](#enable-tracking), worden alle koppelingen in de inhoud van het bericht bijgehouden.
+>Wanneer het volgen wordt toegelaten, worden alle verbindingen inbegrepen in de berichtinhoud gevolgd.
 
 Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
@@ -47,29 +32,13 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
    ![](assets/message-tracking-insert-link.png)
 
-1. Kies het type koppeling dat u wilt maken:
-
-   * **[!UICONTROL External link]**: Voeg een koppeling naar een externe URL in.
-
-   * **[!UICONTROL Landing page]**: Koppelingen naar bestemmingspagina&#39;s invoegen.
-
-   * **[!UICONTROL One click Opt-out]**: Voeg een koppeling in om gebruikers in staat te stellen zich snel af te melden voor uw communicatie zonder dat ze hoeven te bevestigen dat ze het abonnement willen opzeggen.
-
-   * **[!UICONTROL External Opt-in/Subscription]**: Voeg een koppeling in om het ontvangen van communicatie van uw merk te accepteren.
-
-   * **[!UICONTROL External Opt-out/Unsubscription]**: Voeg een koppeling in om uw abonnement op te zeggen dat u geen communicatie van uw merk wilt ontvangen.
-
-   * **[!UICONTROL Mirror page]**: Voeg een koppeling in om de e-mailinhoud in een webbrowser weer te geven. Meer informatie in [deze sectie](#mirror-page).
-
-   ![](assets/message-tracking-links.png)
-
-1. U kunt uw koppelingen aanpassen.
+1. Voeg een **[!UICONTROL Label]** en **[!UICONTROL Link]**.
 
 1. Sla uw wijzigingen op.
 
 1. Als de koppeling eenmaal is gemaakt, kunt u deze nog steeds wijzigen in het menu **[!UICONTROL Component settings]** aan de rechterkant.
 
-   * U kunt de koppeling bewerken en het type van de koppeling wijzigen.
+   * U kunt de koppeling bewerken en de koppeling wijzigen **[!UICONTROL Target]**.
    * U kunt de koppeling onderstrepen of niet door de bijbehorende optie in te schakelen.
 
    ![](assets/message-tracking-link-settings.png)
@@ -82,9 +51,19 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 De spiegelpagina is een HTML-pagina die online toegankelijk is via een webbrowser. De inhoud is identiek aan de inhoud van uw e-mail.
 
-Als u een koppeling wilt toevoegen aan een spiegel in uw e-mailbericht, [een koppeling invoegen](#insert-links) en selecteert u **[!UICONTROL Mirror page]** als het type koppeling.
+Een koppeling toevoegen aan een spiegel in uw e-mail:
 
-![](assets/message-tracking-mirror-page.png)
+1. Selecteer een element en klik op **[!UICONTROL Insert link]** in de contextuele werkbalk.
+
+   ![](assets/message-tracking-mirror-page.png)
+
+1. Selecteer **[!UICONTROL Insert link]** pictogram voor toegang tot het verpersoonlijkingsmenu.
+
+   ![](assets/message-tracking-mirror-page_2.png)
+
+1. Van de **[!UICONTROL Content block]** menu, selecteert u **[!UICONTROL Mirror page URL]** en klik op **[!UICONTROL Add]**.
+
+   ![](assets/message-tracking-mirror-page_3.png)
 
 De spiegelpagina wordt automatisch gemaakt.
 
@@ -123,4 +102,3 @@ De [E-mailontwerper](create-email-content.md) Hiermee kunt u de bijgehouden URL&
    * **[!UICONTROL Mirror page]**: beschouwt deze URL als een URL van een spiegelpagina.
    * **[!UICONTROL Never]**: Hiermee activeert u het bijhouden van deze URL nooit. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-Rapportage over openingen en klikken vindt u in het Live-rapport en in het Global-rapport.

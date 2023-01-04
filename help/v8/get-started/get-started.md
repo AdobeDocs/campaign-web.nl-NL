@@ -2,10 +2,11 @@
 audience: end-user
 title: Aan de slag
 description: Campagne v8 Webdocumentatie
-source-git-commit: fe06419e429f48dbcc71802c372130be22e68d52
+exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
+source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 6%
+source-wordcount: '332'
+ht-degree: 8%
 
 ---
 
@@ -14,8 +15,6 @@ ht-degree: 6%
 >[!NOTE]
 >
 >Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
-
-## Adobe Campaign V8 Web {#web-interface}
 
 <!--
 V8 web overview
@@ -34,31 +33,31 @@ only existing customers
 
 >[!NOTE]
 >
->Campagne v8 Web is momenteel in Alpha- versie. De toegang wordt beperkt tot een kleine reeks Alpha- klanten. Houd er rekening mee dat zowel de productinterface als de mogelijkheden en gebruiksstromen zonder kennisgeving kunnen veranderen.
+>Campagne v8 Web is momenteel in Alpha- versie. De toegang wordt beperkt tot een kleine reeks Alpha- klanten. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
 
 Adobe Campaign biedt een platform voor het ontwerpen van de ervaringen van klanten over meerdere kanalen en een omgeving voor visuele campagneorchestratie, real-time interactiebeheer en uitvoering via meerdere kanalen.
 
-Naast alle bestaande functies die beschikbaar zijn met de console, hebben we een webinterface voor gebruikers gemaakt die een geïntegreerde, intuïtieve en consistente gebruikerservaring biedt.
+Naast alle bestaande functies die beschikbaar zijn met de console, hebben we een webinterface ontworpen om artsen een geïntegreerde, intuïtieve en consistente gebruikerservaring te bieden.
 
 ## Alfa-functies
 
-Deze moderne webinterface is momenteel alleen beschikbaar voor alfamoepassingen met de volgende mogelijkheden:
+Deze moderne, webgebaseerde interface is momenteel alleen beschikbaar voor alfakantoren met de volgende mogelijkheden:
 
 **Moderne, intuïtieve en verenigde ervaring**
 
 * Toegang tot de nieuwe interface en andere toepassingen met één enkele en gedeelde gebruikerszitting
-* Unified Shell-integratie: toegang tot gemeenschapslessen, helpcentrum, oplossingsschakelaar
+* Uniforme Shell-integratie: toegang tot gemeenschapslessen, helpcentrum, oplossingsschakelaar
 <!--
 No search and pulse notifications in Alpha
 -->
 * Ervaar de nieuwe navigatie met linkermenu&#39;s en mappen
 
-**Uw enige e-mailcampagne maken, starten en meten**
+**Uw e-mailcampagne maken, starten en meten**
 
 * Ontwerp persoonlijke e-mailinhoud met de e-maileditor
-* Bepaal Soorten publiek met de segmentbouwer
+* Bepaal publiek met de segmentbouwer
 * E-mailberichten voorvertonen, testen en verzenden
-* Het verzenden van en de meetresultaten van de monitor met ingebouwde rapporten
+* De monitor verzendt en meet resultaten met ingebouwde rapporten
 
 <!--
 add info somewhere to remind users that
@@ -68,7 +67,7 @@ add info somewhere to remind users that
 
 ## De clientconsole
 
-Als u een Campagne v8-functie moet gebruiken die niet beschikbaar is in de webinterface, kunt u de clientconsole gebruiken. Voor meer informatie over het gebruik van Campagne v8 raadpleegt u de [documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=en).
+Als u een Campagne v8-functie moet gebruiken die niet beschikbaar is in de webinterface, kunt u de clientconsole gebruiken. Voor meer informatie over het gebruik van Campagne v8 raadpleegt u de [documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl).
 
 De gegevens worden gedeeld tussen de console en de web-UI. Bijvoorbeeld, als u een leveringsmalplaatje gebruikend de console creeerde, zal het in de Webinterface beschikbaar zijn.
 
@@ -76,8 +75,8 @@ De gegevens worden gedeeld tussen de console en de web-UI. Bijvoorbeeld, als u e
 
 ![](assets/connect.png)
 
-1. Verbinden met [Adobe Experience Cloud](http://experience.adobe.com)
-1. Aanmelden met uw Adobe IMS-gebruikersgegevens
+1. Verbinden met [Adobe Experience Cloud](http://experience.adobe.com).
+1. Meld u aan met uw Adobe IMS-referenties.
 1. In de **Snelle toegang** sectie, klikt u op **Campagne**.
 
 <!--
