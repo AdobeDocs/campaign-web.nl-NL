@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailinhoud bewerken
 description: Campagne v8 Webdocumentatie
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 6557a4285ff03359e1d2c6772bc0de58eb9c4e0d
+source-git-commit: 2e8f262b684696c0a24319b135a1f855f1c05073
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="E-mailinhoud maken"
->abstract="TBC"
+>abstract="In deze sectie kunt u de inhoud voor uw e-mail maken en de e-mailontwerper gebruiken om deze een gepolijst uiterlijk te geven."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
