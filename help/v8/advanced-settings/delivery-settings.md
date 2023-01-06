@@ -3,10 +3,10 @@ audience: end-user
 title: Geavanceerde instellingen
 description: Campagne v8 Webdocumentatie
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 4fbb5e2eb0211712d17f1437986038c40ed15602
+source-git-commit: 3c7aa37bb74349e88176f1fc75a26bc52e34c628
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 18%
+source-wordcount: '1077'
+ht-degree: 15%
 
 ---
 
@@ -31,8 +31,14 @@ Documentation on this part is targeted for december 2022
 -->
 
 Alle technische leveringsparameters van het malplaatje.
-Wijzig alleen parameters, geen ontwerp hier.
-Volgens toestemmingen zouden de Praktijken dit, voorzichtigheid niet moeten wijzigen. Alleen typologieregel controleren en wijzigen -> rest gedefinieerd in sjabloon
+
+>[!NOTE]
+>
+> Wijzig alleen parameters, geen ontwerp hier. Volgens machtigingen.
+
+>[!NOTE]
+>
+> Praktijken moeten dit niet wijzigen, voorzichtigheid. Controleer en wijzig alleen de typologieregel.
 
 ## Typologie {#typology}
 
@@ -56,11 +62,11 @@ In deze sectie kunt u met drukparameters een drempel definiëren. Dit is het max
 
 Drempelwaarden kunnen constant of variabel zijn. Dit betekent dat drempelwaarden voor een bepaalde periode kunnen variëren van het ene profiel tot het andere, of zelfs voor hetzelfde profiel.
 
-In de **Type dikte** veld zijn drie opties beschikbaar:
+In de **Type dikte** veld zijn drie opties beschikbaar: (formule ontbreekt, afhankelijk van optie..)
 
-De **Afleveringsgewicht** veld
+De **Afleveringsgewicht** field: Elke levering heeft een gewicht dat overeenkomt met het prioriteitsniveau. Standaard is het gewicht van een levering ingesteld op 5. Met drukregels kunt u het gewicht van de leveringen bepalen waarop ze worden toegepast. Het gewicht kan worden ingesteld of berekend met behulp van een formule die geschikt is voor de geadresseerden. U kunt bijvoorbeeld het gewicht van een levering bepalen op basis van de belangen van de ontvanger.
 
-De **Leveringsmodus** veld..
+De **Leveringsmodus** veld.. ??
 
 ### Capaciteitsinstellingen {#capacity-settings}
 
@@ -75,13 +81,15 @@ De **belang van de begunstigde** het veld is een formule die wordt gebruikt om t
 
 ## Doelgroep {#audience}
 
-In deze sectie kunt u een doeltoewijzing kiezen die is gedefinieerd in de Adobe Campaign v8-console. Het maken van doeltoewijzingen is nodig als u een andere ontvangertabel gebruikt dan de tabel die door Adobe Campaign wordt geleverd.
+In deze sectie kunt u een **doeltoewijzing** gedefinieerd in de Adobe Campaign v8-console. Het maken van doeltoewijzingen is nodig als u een andere ontvangertabel gebruikt dan de tabel die door Adobe Campaign wordt geleverd.
 
 ## Levering {#delivery}
 
-SMTP-levering testen: gebruik deze optie om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel van SMTP DATA.
+**Routering** selectie: de externe account selecteren....
 
-BCC e-mailen: Gebruik deze optie om e-mails op te slaan op een extern systeem via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel.
+**SMTP-levering testen**: gebruik deze optie om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel van SMTP DATA.
+
+**BCC e-mailen**: Gebruik deze optie om e-mails op te slaan op een extern systeem via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel.
 
 ### Hernieuwde pogingen {#retries}
 
@@ -94,16 +102,17 @@ Voor tijdelijk niet-geleverde berichten vanwege een fout Zacht of Genegeerd word
 
 ## Goedkeuring {#approval}
 
-**Handmatig**
-
-**Halfautomatisch**
-
-**Automatisch**
-
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Goedkeuringsmodus"
 >abstract="Elke leveringsstap kan worden goedgekeurd om volledige controle en controle van de verschillende processen te waarborgen."
+
+**Handmatig**: Aan het einde van de analysefase moet de gebruiker de levering bevestigen om te beginnen met het verzenden.
+
+**Halfautomatisch**: Het verzenden begint automatisch als de analysefase geen waarschuwingsberichten produceert.
+
+**Automatisch**: De verzending begint automatisch aan het einde van de analysefase, ongeacht het resultaat ervan.
+
 
 ## Geldigheid {#validity}
 
@@ -118,15 +127,16 @@ Voor tijdelijk niet-geleverde berichten vanwege een fout Zacht of Genegeerd word
 >abstract="Het veld Geldigheidslimiet wordt gebruikt voor geüploade bronnen, voornamelijk voor de spiegelpagina en afbeeldingen. De bronnen op deze pagina zijn gedurende een beperkte periode geldig."
 
 
-In het veld Leveringsduur kunt u de limiet voor algemene leveringspogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, regelmatig, configureerbare herpogingen worden uitgevoerd tot de geldigheidsgrens wordt bereikt.
+De **Leveringsduur** in dit veld kunt u de limiet voor algemene leveringspogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, regelmatig, configureerbare herpogingen worden uitgevoerd tot de geldigheidsgrens wordt bereikt.
 
-U kunt ook datums opgeven. Selecteer hiervoor Expliciet geldigheidsdatums instellen. In dit geval kunt u ook de leverings- en geldigheidstermijn opgeven. De huidige tijd wordt standaard gebruikt, maar u kunt deze rechtstreeks wijzigen in het invoerveld.
+U kunt ook datums opgeven. Selecteer **Geldigheidsdatums expliciet instellen**. In dit geval kunt u ook de leverings- en geldigheidstermijn opgeven. De huidige tijd wordt standaard gebruikt, maar u kunt deze rechtstreeks wijzigen in het invoerveld.
 
-Geldigheidslimiet van middelen: Het veld Geldigheidslimiet wordt gebruikt voor geüploade bronnen, voornamelijk voor de spiegelpagina en afbeeldingen. De bronnen op deze pagina zijn gedurende een beperkte tijd geldig (om schijfruimte te besparen).
+**Geldigheidslimiet voor bronnen** wordt gebruikt voor geüploade bronnen, voornamelijk voor de spiegelpagina en afbeeldingen. De bronnen op deze pagina zijn gedurende een beperkte tijd geldig (om schijfruimte te besparen).
 
 ### Paginabeheer spiegelen {#mirror}
 
-**Paginabeheer spiegelen**
+**Paginabeheer spiegelen** bevat vier opties:
+
 
 ### Tracking {#tracking}
 
@@ -140,14 +150,14 @@ Geldigheidslimiet van middelen: Het veld Geldigheidslimiet wordt gebruikt voor g
 **Vervangende URL voor verlopen URL&#39;s**: TBC
 
 
-## Testinstellingen{#test-setttings}
+## Testinstellingen {#test-setttings}
 
-**Dubbel houden**
+**Dubbel houden** Hiermee kunt u meerdere leveringen toestaan aan ontvangers die aan verschillende doelcriteria voldoen.
 
 **Op de lijst met ongewenste personen staan adressen behouden**
 
-**Houd quarantineadressen**
+**Houd quarantineadressen** Hiermee kunt u profielen met een adres dat niet reageert, behouden van het doel.
 
-**De leveringscode voor de proefdruk behouden**
+**De leveringscode voor de proefdruk behouden** Hiermee geeft u het bewijs dezelfde leveringscode als die welke is gedefinieerd voor de levering waarop het betrekking heeft.
 
-**Label, voorvoegsel**
+Standaard wordt het onderwerp van het bewijs voorafgegaan door &quot;Bewijs nr.&quot;, waarbij # het nummer van het bewijs is. U kunt dit voorvoegsel wijzigen in het dialoogvenster **Label, voorvoegsel** veld.
