@@ -3,7 +3,7 @@ audience: end-user
 title: E-mails ontwerpen in de e-mailontwerper
 description: Leer hoe u uw e-mailinhoud helemaal zelf ontwerpt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: a05203cb66420c74e443cb6de3abe628c3ef9353
+source-git-commit: 557a02dc8d24676c5678b2a5d9fc8eef7c228e9f
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 >title="Sjabloonkolommen definiëren"
 >abstract="Met de E-mailontwerper kunt u de indeling van uw sjabloon eenvoudig definiëren door de kolomstructuur te definiëren."
 
-Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van uw e-mail binnen seconden ontwerpen.
+Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u het lichaam van uw e-mail binnen seconden ontwerpen.
 
 Voer de onderstaande stappen uit om uw e-mailinhoud te gaan samenstellen:
 
@@ -91,7 +91,7 @@ Voer de onderstaande stappen uit om uw e-mailinhoud te gaan samenstellen:
 
 1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud van profielgegevens aan te passen. [Meer informatie over content personalization](../personalization/personalize.md)
 
-1. Klik op de knop **[!UICONTROL Links]** in het linkerdeelvenster om alle URL&#39;s weer te geven van de inhoud die wordt bijgehouden. U kunt de **[!UICONTROL Tracking Type]** of **[!UICONTROL Label]** en toevoegen **[!UICONTROL Tags]** indien nodig. [Meer informatie over koppelingen en berichtregistratie](message-tracking.md)
+1. Klik op de knop **[!UICONTROL Links]** in het linkerdeelvenster om alle URL&#39;s weer te geven van de inhoud die wordt bijgehouden. U kunt de **[!UICONTROL Tracking Type]** of **[!UICONTROL Label]** en toevoegen **[!UICONTROL Categories]** indien nodig. [Meer informatie over koppelingen en berichtregistratie](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
