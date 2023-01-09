@@ -1,8 +1,8 @@
 ---
-source-git-commit: 91649bdf1e6561c9af93d22bd4980f6f5a87bf7c
+source-git-commit: 0c332499fb39fa6dd80bff82e6e358e3f3016ac7
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 24%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 # Bijdragen
@@ -18,7 +18,7 @@ Dit project voldoet aan de Adobe-[gedragscode](code-of-conduct.md). Als u deelne
 
 ## Documentatie voor de bijdragegids
 
-Zie de [Handleiding voor contribuanten](https://docs.adobe.com/content/help/nl/contributor/contributor-guide/introduction.html).
+Zie de [Handleiding voor contribuanten](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## Heb je een vraag?
 
