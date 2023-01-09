@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailinhoud voorvertonen
 description: Campagne v8 Webdocumentatie
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Met Adobe Campaign kunt u profielen gebruiken om een voorvertoning van de inhoud
 
 Berichten kunnen worden voorvertoond met:
 
-* **Testprofielen**: een voorvertoning van de e-mail weergeven met zaadadressen. Dit zijn extra ontvangers in de database die geen deel uitmaken van het e-maildoel.
+* **Testprofielen**: een voorvertoning van de e-mail weergeven met zaadadressen, die aanvullende en fictieve ontvangers zijn in de database;
 * **Profielen**: Geef een voorvertoning van de e-mail weer met een bestaand profiel.
 
 Voer de volgende stappen uit om een voorvertoning van de inhoud van uw e-mail weer te geven:
@@ -36,5 +36,7 @@ Voer de volgende stappen uit om een voorvertoning van de inhoud van uw e-mail we
 1. Nadat u profielen hebt geselecteerd, wordt in het rechterdeelvenster een voorbeeld van de e-mail weergegeven. De gepersonaliseerde elementen worden vervangen door de gegevens van het profiel dat in de linkerruit wordt geselecteerd.
 
    Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen in de lijst schakelen om een voorbeeld van de bijbehorende e-mail te bekijken.
+
+   U kunt ook een voorvertoning van de rendering van uw inhoud weergeven op verschillende apparaten (bureaublad, mobiel, tablet...).
 
    ![](assets/preview.png)

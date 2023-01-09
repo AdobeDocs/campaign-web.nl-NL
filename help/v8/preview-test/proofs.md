@@ -3,9 +3,9 @@ audience: end-user
 title: Verzend proeven
 description: Campagne v8 Webdocumentatie
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '373'
 ht-degree: 2%
 
 ---
@@ -16,12 +16,11 @@ ht-degree: 2%
 >
 >Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
 
-Door proefdrukken te verzenden, kunt u uw e-mail valideren en verschillende elementen controleren, zoals koppelingen, opt-out-koppelingen en het spiegelen van pagina&#39;s, afbeeldingen en mogelijke fouten opsporen.
+Door teste-mails te verzenden, kunt u uw e-mail valideren en verschillende elementen controleren, zoals koppelingen, uitschakelkoppelingen en het spiegelen van pagina&#39;s, afbeeldingen en mogelijke fouten opsporen.
 
 De proefdrukken kunnen naar twee soorten ontvangers worden verzonden:
 
-* **Testprofielen/publiek**: Verzend proef naar zaadadressen, die extra ontvangers in het gegevensbestand zijn die geen deel van het e-maildoel uitmaken,
-
+* **Testprofielen**: bewijzen verzenden naar zaadadressen, die extra en fictieve ontvangers in het gegevensbestand zijn;
 * **Vervangende profielen**: proefdrukken naar een specifiek e-mailadres verzenden met een bestaand profiel. Op deze manier kunt u uzelf in de positie van de profielen plaatsen en een exacte weergave krijgen van het bericht dat het profiel ontvangt.
 
 ## Ontvangers met proefdrukken selecteren {#recipients}
@@ -38,7 +37,7 @@ De proefdrukken kunnen naar twee soorten ontvangers worden verzonden:
 
 1. Voeg de testprofielen toe waarop de e-mails over de test worden weergegeven.
 
-   U kunt ook een publiek maken om testprofielen te selecteren op basis van uw eigen criteria met de opdracht **[!UICONTROL Add test audience]** knop.
+   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
 
    ![](assets/test-profiles-audience.png)
 
@@ -68,8 +67,14 @@ Als u de proefdrukken naar de geselecteerde ontvangers wilt verzenden, klikt u o
 
 ![](assets/send-proof.png)
 
-Zodra de proefdrukken zijn verzonden, kunt u tot specifieke logboeken van toegang hebben **[!UICONTROL View test email log]** knop. Met deze logboeken hebt u toegang tot de verzonden proefdrukken en tot specifieke statistieken over het verzenden van bewijzen.
+Verzend zoveel proefdrukken als nodig zijn tot u de inhoud van uw levering hebt voltooid. Zodra dit wordt gedaan, kunt u e-mail naar het belangrijkste doel verzenden. [Leer hoe u uw e-mail voorbereidt en verzendt](../monitor/prepare-send.md)
+
+## Toegang verzonden proefdrukken {#access-proofs}
+
+Zodra de proefdrukken zijn verzonden, kunt u tot specifieke logboeken van toegang hebben **[!UICONTROL View test email log]** knop. Deze logboeken staan u toe om tot alle proeven toegang te hebben die voor de geselecteerde levering worden verzonden, en om specifieke statistieken met betrekking tot hun het verzenden te visualiseren.
 
 ![](assets/proof-log.png)
 
-Verzend zoveel proefdrukken als nodig zijn tot u de inhoud van uw levering hebt voltooid. Zodra dit wordt gedaan, kunt u e-mail naar het belangrijkste doel verzenden. [Leer hoe u uw e-mail voorbereidt en verzendt](../monitor/prepare-send.md)
+U kunt ook proefdrukken vanuit de lijst met leveringen openen, net als bij elke levering.
+
+![](assets/delivery-list.png)
