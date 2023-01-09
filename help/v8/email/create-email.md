@@ -3,9 +3,9 @@ audience: end-user
 title: Uw eerste e-mail maken
 description: Campagne v8 Webdocumentatie
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1133'
 ht-degree: 1%
 
 ---
@@ -116,9 +116,11 @@ In dit geval sturen we de e-mail naar een bestaand publiek. Aanvullende informat
 
    >[!NOTE]
    >
-   >Het publiek dat in de lijst beschikbaar is, is afkomstig uit uw Campagne V8-instantie of uit Adobe Experience Platform als de integratie Doel/Bronnen op uw exemplaar is geïmplementeerd.
+   >Het publiek beschikbaar in de lijst komt of van uw instantie van de Campagne V8 of van Adobe Experience Platform voort als de Bestemming/Bronintegratie op uw instantie is gevormd.
+   >
+   >Met de integratie Doel/Bronnen kunt u de segmenten Experience Platform naar Adobe Campaign verzenden en de bezorging en tracering van campagnes naar Adobe Experience Platform verzenden. [Leer hoe u met Campagne en Adobe Experience Platform werkt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
 
-1. Nadat u het publiek hebt geselecteerd, kunt u indien nodig de desbetreffende regel bewerken.
+1. Nadat u het publiek hebt geselecteerd, kunt u het doel verfijnen aan de hand van extra regels.
 
    U kunt ook een controlegroep instellen om het gedrag van de e-mailontvangers te analyseren in vergelijking met het gedrag van profielen die niet als doelprofielen werden gebruikt. [Leer hoe u met besturingsgroepen werkt](../audience/control-group.md)
 
@@ -131,7 +133,7 @@ In dit geval sturen we de e-mail naar een bestaand publiek. Aanvullende informat
 
 Als u het verzenden van de e-mail wilt plannen, klikt u op **[!UICONTROL Enable]** en geeft u de gewenste datum en tijd voor de verzending op.
 
-Standaard worden de **[!UICONTROL Confirm before sending]** is ingeschakeld. Dit betekent dat u de verzending op de opgegeven datum en tijd moet bevestigen om de e-mail te verzenden. Schakel deze optie uit als u het e-mailbericht op de geplande datum en tijd wilt verzenden zonder dat een bevestiging nodig is.
+Standaard worden de **[!UICONTROL Confirm before sending]** is ingeschakeld. Dit betekent dat u het verzenden moet bevestigen om het verzenden van de e-mail op de opgegeven datum en tijd toe te staan. Schakel deze optie uit als u het e-mailbericht op de geplande datum en tijd wilt verzenden zonder dat een bevestiging nodig is.
 
 ![](assets/schedule.png)
 
@@ -139,7 +141,7 @@ Standaard worden de **[!UICONTROL Confirm before sending]** is ingeschakeld. Dit
 
 Zodra uw e-mail klaar is, kunt u een voorbeeld bekijken en testen voordat u de verzending start.
 
-In dit geval bekijken we de e-mail met bestaande profielen en sturen we een proefdruk naar een testprofiel dat geen deel uitmaakt van het doel.
+In dit geval bekijken we een voorbeeld van de e-mail en sturen we een proefdruk met behulp van bestaande profielen.
 
 Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in [deze sectie](../preview-test/preview-test.md).
 
@@ -161,7 +163,7 @@ Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in
 
 1. Als u proefdrukken van uw e-mail wilt verzenden, klikt u op de knop **[!UICONTROL Test]** selecteert u vervolgens de profielen die de proefdruk ontvangen.
 
-   In dit voorbeeld, willen wij de proeven naar een specifiek testprofiel verzenden, dat een zaadadres is dat geen deel van het doel uitmaakt. [Leer hoe u met zaadadressen werkt](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target=&quot;_blank&quot;}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
 
    ![](assets/proof-test-profile.png)
 
