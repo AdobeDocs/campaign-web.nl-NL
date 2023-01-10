@@ -3,14 +3,19 @@ audience: end-user
 title: E-mailinhoud voorvertonen
 description: Campagne v8 Webdocumentatie
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # E-mailinhoud voorvertonen {#preview}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card4"
+>title="Slimme voorvertoning van uw inhoud"
+>abstract="Met Adobe Campaign kunt u profielen gebruiken om een voorvertoning van de inhoud van uw e-mail weer te geven voordat u deze verzendt. Zo kunt u controleren of de inhoud is aangepast en hoe de ontvangers deze zullen zien."
 
 >[!NOTE]
 >

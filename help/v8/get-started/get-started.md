@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag
 description: Campagne v8 Webdocumentatie
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '312'
 ht-degree: 8%
 
 ---
@@ -25,11 +25,6 @@ only existing customers
 >id="acw_homepage_card1"
 >title="Aan de slag"
 >abstract="Leer meer over belangrijke functies, de gebruikersinterface en algemene richtlijnen."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Taken maken en beheren"
->abstract="Met Adobe Campaign kunt u taken maken en de volledige levenscyclus ervan rechtstreeks binnen de toepassing beheren."
 
 >[!NOTE]
 >
