@@ -3,10 +3,10 @@ audience: end-user
 title: Geavanceerde instellingen
 description: Campagne v8 Webdocumentatie
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3c7aa37bb74349e88176f1fc75a26bc52e34c628
+source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 15%
+source-wordcount: '1241'
+ht-degree: 17%
 
 ---
 
@@ -16,29 +16,13 @@ ht-degree: 15%
 >
 >Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
 
-Deze instellingen zijn technische leveringsparameters die in de e-mailsjabloon zijn gedefinieerd. Als u om het even welk van hen voor een specifieke levering wilt wijzigen, ga met voorzichtigheid te werk.
+Deze instellingen zijn **technische leveringsparameters** die zijn gedefinieerd in de e-mailsjabloon. Als u om het even welk van hen voor een specifieke levering wilt wijzigen, ga met voorzichtigheid te werk.
 
 ## E-mailleveringsinstellingen {#email-delivery-settings}
 
-<!--
-October 2022 
-
-Note that this page is for now a placeholder to host Contextualhelp blocks
-
-Do not delete these blocks 
-
-Documentation on this part is targeted for december 2022
--->
-
-Alle technische leveringsparameters van het malplaatje.
-
 >[!NOTE]
 >
-> Wijzig alleen parameters, geen ontwerp hier. Volgens machtigingen.
-
->[!NOTE]
->
-> Praktijken moeten dit niet wijzigen, voorzichtigheid. Controleer en wijzig alleen de typologieregel.
+> Alleen instellingen wijzigen. Nieuwe instellingen zijn niet toegestaan. Behoudens toegangsrechten.
 
 ## Typologie {#typology}
 
@@ -47,7 +31,7 @@ Alle technische leveringsparameters van het malplaatje.
 >title="Typologie"
 >abstract="Met de typologie kunt u het verzenden van leveringen controleren, filteren en controleren."
 
-Typologieën zijn reeksen typologieregels die tijdens de fase van de berichtanalyse worden uitgevoerd. Ze staan u toe te controleren of uw e-mails altijd bepaalde elementen (zoals een koppeling voor een uitschrijving of een onderwerpregel) of filterregels bevatten om groepen van uw beoogde doel (zoals uitgeschreven abonnees, concurrenten of niet-loyale klanten) uit te sluiten.
+Typologieën zijn reeksen **typologieregels** die tijdens de fase van de berichtanalyse worden uitgevoerd. Ze staan u toe te controleren of uw e-mails altijd bepaalde elementen (zoals een koppeling voor een uitschrijving of een onderwerpregel) of filterregels bevatten om groepen van uw beoogde doel (zoals uitgeschreven abonnees, concurrenten of niet-loyale klanten) uit te sluiten.
 
 Wanneer u een typologie aan een bericht of berichtsjabloon koppelt, worden de typologieregels die in de typologie zijn opgenomen, uitgevoerd om de berichtgeldigheid te controleren.
 
@@ -58,15 +42,23 @@ Wanneer u een typologie aan een bericht of berichtsjabloon koppelt, worden de ty
 >title="Afleveringsgewicht"
 >abstract="Met leveringsgewichten kunt u topprioriteit-leveringen identificeren in het kader van drukbeheer. Berichten met het hoogste gewicht hebben prioriteit."
 
-In deze sectie kunt u met drukparameters een drempel definiëren. Dit is het maximumaantal berichten dat over een bepaalde periode naar één profiel kan worden verzonden. Zodra deze drempelwaarde is bereikt, kunnen tot het einde van de in aanmerking genomen periode geen leveringen meer plaatsvinden. Met dit proces kunt u automatisch een profiel uitsluiten van een levering als een bericht de ingestelde drempelwaarde overschrijdt. Op deze manier voorkomt u dat een profiel te vaak wordt benaderd.
+In deze sectie kunt u met drukparameters een **drempel**. Dit is het maximumaantal berichten dat over een bepaalde periode naar één profiel kan worden verzonden. Zodra deze drempelwaarde is bereikt, kunnen tot het einde van de in aanmerking genomen periode geen leveringen meer plaatsvinden. Met dit proces kunt u automatisch een profiel uitsluiten van een levering als een bericht de ingestelde drempelwaarde overschrijdt. Op deze manier voorkomt u dat een profiel te vaak wordt benaderd.
 
 Drempelwaarden kunnen constant of variabel zijn. Dit betekent dat drempelwaarden voor een bepaalde periode kunnen variëren van het ene profiel tot het andere, of zelfs voor hetzelfde profiel.
 
 In de **Type dikte** veld zijn drie opties beschikbaar: (formule ontbreekt, afhankelijk van optie..)
 
+* **Constante**
+* **Afhankelijk van de ontvanger**
+* **Gedefinieerd in elke regel**
+
 De **Afleveringsgewicht** field: Elke levering heeft een gewicht dat overeenkomt met het prioriteitsniveau. Standaard is het gewicht van een levering ingesteld op 5. Met drukregels kunt u het gewicht van de leveringen bepalen waarop ze worden toegepast. Het gewicht kan worden ingesteld of berekend met behulp van een formule die geschikt is voor de geadresseerden. U kunt bijvoorbeeld het gewicht van een levering bepalen op basis van de belangen van de ontvanger.
 
 De **Leveringsmodus** veld.. ??
+
+* **Doelschatting en berichtpersonalisatie**
+* **Schatting en goedkeuring van de voorlopige doelstelling**
+* **Doelevaluatie**
 
 ### Capaciteitsinstellingen {#capacity-settings}
 
@@ -85,7 +77,7 @@ In deze sectie kunt u een **doeltoewijzing** gedefinieerd in de Adobe Campaign v
 
 ## Levering {#delivery}
 
-**Routering** selectie: de externe account selecteren....
+**Routering** selectie: De geïntegreerde e-mail die externe rekening verplettert wordt verstrekt door gebrek. Het bevat de technische parameters waarmee de applicatie e-mailberichten kan verzenden.
 
 **SMTP-levering testen**: gebruik deze optie om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel van SMTP DATA.
 
@@ -137,6 +129,11 @@ U kunt ook datums opgeven. Selecteer **Geldigheidsdatums expliciet instellen**. 
 
 **Paginabeheer spiegelen** bevat vier opties:
 
+* **De spiegelpagina genereren als er een spiegelkoppeling wordt weergegeven in de e-mailinhoud**: De spiegelpagina wordt geproduceerd als de verbinding in de postinhoud wordt opgenomen.
+* **Force the generation of the mirror page**: zelfs als geen koppeling naar de spiegelpagina in de berichten wordt opgenomen, wordt de spiegelpagina gemaakt.
+* **Do not generate the mirror page**: er wordt geen spiegelpagina gegenereerd, zelfs niet als de koppeling zich in de berichten bevindt.
+* **Genereert een spiegelpagina toegankelijk gebruikend slechts het bericht herkenningsteken**: deze optie laat u tot de inhoud van de spiegelpagina, met verpersoonlijkingsinformatie, in het venster van het leveringslogboek toegang hebben.
+
 
 ### Tracking {#tracking}
 
@@ -147,14 +144,14 @@ U kunt ook datums opgeven. Selecteer **Geldigheidsdatums expliciet instellen**. 
 
 **Geldigheidslimiet voor bijhouden**: Met deze optie bepaalt u de duur waarvoor de tracering wordt geactiveerd op de URL&#39;s.
 
-**Vervangende URL voor verlopen URL&#39;s**: TBC
+**Vervangende URL voor verlopen URL&#39;s**: Gebruik deze optie om een URL in te voeren naar een fallback-webpagina: wordt weergegeven nadat de reeksspatiëring is verlopen.
 
 
 ## Testinstellingen {#test-setttings}
 
 **Dubbel houden** Hiermee kunt u meerdere leveringen toestaan aan ontvangers die aan verschillende doelcriteria voldoen.
 
-**Op de lijst met ongewenste personen staan adressen behouden**
+**Op de lijst met ongewenste personen staan adressen behouden** Hiermee kunt u profielen die niet meer het doelprofiel zijn van levering, zoals na een abonnement (opt-out), niet meer als doel instellen.
 
 **Houd quarantineadressen** Hiermee kunt u profielen met een adres dat niet reageert, behouden van het doel.
 
