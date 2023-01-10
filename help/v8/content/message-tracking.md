@@ -3,9 +3,9 @@ audience: end-user
 title: Je berichten bijhouden
 description: Leer hoe u koppelingen toevoegt en verzonden berichten bijhoudt
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c1fc5bd98969ab43680daf613e4050f9cd2185bf
+source-git-commit: c1d433ba1d12e840c5ae219b319e80c1bcdc7686
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -102,3 +102,8 @@ De [E-mailontwerper](create-email-content.md) Hiermee kunt u de bijgehouden URL&
    * **[!UICONTROL Mirror page]**: beschouwt deze URL als een URL van een spiegelpagina.
    * **[!UICONTROL Never]**: Hiermee activeert u het bijhouden van deze URL nooit. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
+1. Voeg een **[!UICONTROL Category]** naar uw koppeling om bijgehouden koppelingen te groeperen en klik op **[!UICONTROL Save]**.
+
+   ![](assets/message-tracking-edit-a-link_2.png)
+
+1. Na het verzenden van de levering hebt u toegang tot uw leveringsrapport. Onder de **[!UICONTROL Tracking]** in het menu **[!UICONTROL URLs and click streams]** het rapport toont welke URLs van uw levering het meest bezochte is. [Meer informatie](../reporting/reports.md)
