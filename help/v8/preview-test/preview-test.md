@@ -3,18 +3,16 @@ audience: end-user
 title: Voorvertoning en proefdrukken
 description: Campagne v8 Webdocumentatie
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
 # Voorvertoning en proefdrukken {#about-preview-proofs}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 Nadat u de e-mailinhoud hebt gedefinieerd, kunt u controleren hoe deze wordt weergegeven voordat u deze verzendt. Zo kunt u het e-mailbericht testen om mogelijke fouten in de inhoud of de instellingen voor personalisatie te detecteren.
 

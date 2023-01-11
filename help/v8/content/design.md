@@ -2,18 +2,16 @@
 audience: end-user
 title: Werken met de e-mailontwerper
 description: Campagne v8 Webdocumentatie
-source-git-commit: 9def5ea791e4ef42968cd34536f3ddeac7fc238c
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '14'
 ht-degree: 0%
 
 ---
 
 # Werken met de e-mailontwerper {#email-designer}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 
 

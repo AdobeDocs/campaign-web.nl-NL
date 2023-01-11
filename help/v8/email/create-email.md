@@ -3,18 +3,16 @@ audience: end-user
 title: Uw eerste e-mail maken
 description: Campagne v8 Webdocumentatie
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1114'
 ht-degree: 1%
 
 ---
 
 # Uw eerste e-mail verzenden {#first-email}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 In deze gebruiksaanwijzing wordt uitgelegd hoe u uw eerste e-mail kunt maken. We gaan de verzending van een e-mail op een specifieke datum plannen voor klanten met zilveren en gouden loyaliteit. Dit e-mailbericht wordt ontworpen met behulp van een vooraf gedefinieerde sjabloon en bevat personalisatie met behulp van profielkenmerken.
 

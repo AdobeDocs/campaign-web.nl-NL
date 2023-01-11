@@ -3,18 +3,16 @@ audience: end-user
 title: Een stijl voor koppelingen definiëren
 description: Leer hoe u een stijl voor koppelingen definieert
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-source-git-commit: c537850a1c0dfb2e7d951477291f2f6da7c9bddf
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '128'
 ht-degree: 2%
 
 ---
 
 # Een stijl voor koppelingen definiëren {#styling-links}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de e-mailontwerper.
 

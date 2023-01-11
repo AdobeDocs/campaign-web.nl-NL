@@ -3,14 +3,16 @@ audience: end-user
 title: Aanbiedingen verzenden
 description: Aanbiedingen verzenden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
 # Aanbiedingen verzenden {#offers-content}
+
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
@@ -21,10 +23,6 @@ ht-degree: 0%
 >id="acw_deliveries_email_offers_advanced_settings"
 >title="Geavanceerde instellingen voor aanbiedingen"
 >abstract="TBC"
-
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
 
 Met Adobe Campaign v8 Web kunt u met uw e-mailaanbiedingen die in de console zijn gemaakt, verzenden via de **[!UICONTROL Interaction]** module. Voor meer informatie over Interactie en hoe te om een aanbiedingencatalogus in de console te beheren, verwijs naar [Campagne V8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
 

@@ -3,18 +3,16 @@ audience: end-user
 title: Uw e-mailinhoud importeren
 description: Leer hoe u e-mailinhoud importeert
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
 # Uw e-mailinhoud importeren {#existing-content}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 Met de e-mailontwerper kunt u bestaande HTML-inhoud importeren. Deze inhoud kan:
 

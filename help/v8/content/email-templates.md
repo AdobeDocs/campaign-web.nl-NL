@@ -3,18 +3,16 @@ audience: end-user
 product: campaign
 title: Werken met e-mailsjablonen
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: a493777bea8b9139f2e3570a5ec9c3086f1d023f
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 6%
+source-wordcount: '154'
+ht-degree: 7%
 
 ---
 
 # Werken met sjablonen voor e-mailinhoud {#email-content-templates}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 Gebruik de **[!UICONTROL Select design template]** om uw inhoud op te bouwen van een sjabloon.
 

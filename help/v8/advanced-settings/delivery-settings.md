@@ -3,18 +3,16 @@ audience: end-user
 title: Geavanceerde instellingen
 description: Campagne v8 Webdocumentatie
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 60bd1b795a44019929eae2267304e45b1fd570a9
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 17%
+source-wordcount: '1222'
+ht-degree: 18%
 
 ---
 
 # Geavanceerde instellingen {#advanced-settings}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 Deze instellingen zijn **technische leveringsparameters** die zijn gedefinieerd in de e-mailsjabloon. Als u om het even welk van hen voor een specifieke levering wilt wijzigen, ga met voorzichtigheid te werk.
 

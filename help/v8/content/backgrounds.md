@@ -3,18 +3,16 @@ audience: end-user
 title: Uw e-mailachtergrond aanpassen
 description: Leer hoe u uw e-mailachtergrond kunt aanpassen
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 6f9816092e4eef12e443ecd49dd1f6ef38e324b0
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
 # Uw e-mailachtergrond aanpassen {#backgrounds}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"

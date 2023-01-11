@@ -3,18 +3,16 @@ audience: end-user
 title: Een voorkop toevoegen in de e-mailontwerper
 description: Leer hoe u e-mailinhoud ontwerpt
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
 
 # Een preheader toevoegen {#preheader}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"

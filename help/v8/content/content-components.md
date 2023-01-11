@@ -3,18 +3,16 @@ audience: end-user
 title: Componenten voor inhoud van e-mailontwerpers gebruiken
 description: Leer hoe u inhoudcomponenten in uw e-mails kunt gebruiken
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 5f4d5e69415dc26baab5780e96088e22172fe35e
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
 
 # De inhoudcomponenten van de e-mailontwerper gebruiken {#content-components}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"

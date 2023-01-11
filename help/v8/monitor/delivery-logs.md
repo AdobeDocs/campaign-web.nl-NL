@@ -3,18 +3,16 @@ audience: end-user
 title: Leveringslogboeken controleren
 description: Campagne v8 Webdocumentatie
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 13765b02288ec4682c5d55603c68f8ea1a5758f8
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 19%
+source-wordcount: '294'
+ht-degree: 21%
 
 ---
 
 # Leveringslogboeken controleren {#delivery-logs}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"

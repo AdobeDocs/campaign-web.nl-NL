@@ -3,18 +3,16 @@ audience: end-user
 title: De tekstversie van een e-mailbericht maken
 description: Leer hoe u de tekstversie van een e-mailbericht maakt
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
 
 # De tekstversie van een e-mailbericht maken {#text-version-email}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 U wordt aangeraden een tekstversie van de berichttekst te maken die wordt gebruikt wanneer HTML-inhoud niet kan worden weergegeven.
 

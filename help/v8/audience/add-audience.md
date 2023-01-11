@@ -3,23 +3,21 @@ audience: end-user
 title: Een publiek toevoegen
 description: Campagne v8 Webdocumentatie
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '236'
 ht-degree: 2%
 
 ---
 
 # Een publiek selecteren {#add-audience}
 
+![](../assets/do-not-localize/badge.png)
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Bestaande doelgroep selecteren"
 >abstract="Het publiek wordt gedefinieerd in de Adobe Campaign v8-console. Als er een Adobe Experience Platform-integratie beschikbaar is, kunt u ook een bepaald publiek met Platform zien."
-
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
 
 In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren bij het definiëren van de doelpopulatie van een e-maillevering. Als u een nieuw publiek wilt creëren, verwijs naar dit [sectie](segment-builder.md).
 

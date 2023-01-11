@@ -3,18 +3,16 @@ audience: end-user
 title: E-mailrendering testen
 description: Campagne v8 Webdocumentatie
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 28cada1d6b645bd6f0c365528c9302bf4b03ad65
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 1%
+source-wordcount: '149'
+ht-degree: 2%
 
 ---
 
 # De rendering van e-mail testen {#rendering}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 Voordat u uw e-mail verzendt, moet u ervoor zorgen dat uw bericht optimaal aan de ontvangers wordt weergegeven op verschillende webclients, webmails en apparaten.
 

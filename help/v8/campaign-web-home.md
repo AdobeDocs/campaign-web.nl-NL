@@ -3,18 +3,14 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
 # Adobe Campaign v8-webdocumentatie {#campaign-documentation}
-
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
 
 ![](assets/do-not-localize/banner-documentationv8.png)
 

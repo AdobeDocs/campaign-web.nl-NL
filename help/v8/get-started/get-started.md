@@ -3,18 +3,16 @@ audience: end-user
 title: Aan de slag
 description: Campagne v8 Webdocumentatie
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '313'
 ht-degree: 7%
 
 ---
 
 # Aan de slag {#get-started}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 <!--
 V8 web overview

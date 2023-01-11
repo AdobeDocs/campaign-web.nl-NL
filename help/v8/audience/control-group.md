@@ -3,18 +3,14 @@ audience: end-user
 title: Een controlegroep instellen
 description: Campagne v8 Webdocumentatie
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 37%
+source-wordcount: '521'
+ht-degree: 38%
 
 ---
 
 # Een controlegroep instellen {#control-group}
-
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
 
 U kunt controlegroepen gebruiken om het verzenden van berichten naar een gedeelte van uw doelgroep te vermijden, zodat u het effect van uw campagnes kunt meten.
 

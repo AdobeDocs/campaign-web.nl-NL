@@ -3,15 +3,13 @@ audience: end-user
 title: Elementen toevoegen
 description: Leer hoe u elementen toevoegt
 exl-id: 0c3f47fa-7e8e-4ec1-bac3-9e2d8ee19433
-source-git-commit: 4bf4e80ea7ea6457e659e1bd8344702db199e584
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '28'
+source-wordcount: '9'
 ht-degree: 0%
 
 ---
 
 # Elementen toevoegen {#add-assets}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)

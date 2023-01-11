@@ -3,18 +3,16 @@ audience: end-user
 title: Verzend proeven
 description: Campagne v8 Webdocumentatie
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 9c9daba092b69cc7a5c8141cd6a04cd65069fdd2
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '354'
 ht-degree: 2%
 
 ---
 
 # Verzend proeven {#send-proofs}
 
->[!NOTE]
->
->Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
+![](../assets/do-not-localize/badge.png)
 
 Door teste-mails te verzenden, kunt u uw e-mail valideren en verschillende elementen controleren, zoals koppelingen, uitschakelkoppelingen en het spiegelen van pagina&#39;s, afbeeldingen en mogelijke fouten opsporen.
 
