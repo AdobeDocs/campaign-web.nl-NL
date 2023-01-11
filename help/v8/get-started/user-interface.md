@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >title="Interface"
 >abstract="De nieuwe Campagne v8-webinterface biedt een geïntegreerde, intuïtieve en consistente gebruikerservaring."
 
-De nieuwe Campagne v8-webinterface biedt een moderne, geïntegreerde en intuïtieve gebruikerservaring om workflows, het ontwerp en de levering van marketingcampagnes en de ervaring van Adobe Experience Platform-toepassingen te vereenvoudigen.
+De nieuwe Campagne v8-webinterface biedt een moderne en intuïtieve gebruikerservaring om het ontwerp en de levering van marketingcampagnes te vereenvoudigen. Deze nieuwe interface is geïntegreerd met Adobe Experience Platform.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -39,13 +39,13 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 ## Linkernavigatiemenu
 
-Blader links naar de koppelingen voor toegang tot de webmogelijkheden van Campagne v8. Met verschillende koppelingen worden lijsten weergegeven met objecten die kunnen worden gesorteerd en gefilterd. U kunt kolommen ook vormen om alle informatie te tonen u wenst. Zie dit [sectie](#list-screens). Alle lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen. Klik op een lijstitem voor editie/weergave is niet beschikbaar in Alfa.
+Blader links naar de koppelingen voor toegang tot de webmogelijkheden van Campagne v8. Met verschillende koppelingen worden lijsten weergegeven met objecten die kunnen worden gesorteerd en gefilterd. U kunt kolommen ook vormen om alle informatie te tonen u wenst. Zie dit [sectie](#list-screens). Alle lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen. Klik op een lijstitem voor editie/weergave is niet beschikbaar in Alfa. Alle lijsten zijn bewerkbaar in bètaversie- en GA-versie. Welke items in het navigatiemenu links worden weergegeven, is afhankelijk van uw gebruikersmachtigingen.
 
 ![](assets/home.png)
 
 ### Home
 
-Dit scherm bevat belangrijke koppelingen en bronnen voor snelle toegang tot de belangrijkste webfuncties van Campagne versie 8. De **Recenten** lijst bevat sneltoetsen voor de onlangs gemaakte leveringen. In deze lijst staan de datum en status van het maken en wijzigen van de bestanden.
+Dit scherm bevat belangrijke koppelingen en bronnen voor snelle toegang tot de belangrijkste webfuncties van Campagne versie 8. De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum en status van het maken en wijzigen van de bestanden.
 
 <!--
 * Banner
@@ -140,8 +140,8 @@ Navtree view depends on permissions (same as console).
 
 De hoogste bar van de interface staat u toe:
 
-* deel uw terugkoppelen als Alpha- klant
-* schakelen tussen IMS-organisaties
+* Uw feedback delen als een alfakanaal
+* schakelen tussen organisaties en instanties
 * schakelen tussen Adobe Experience Cloud-toepassingen
 * toegang tot Help-pagina&#39;s, contact opnemen met ondersteuning en feedback delen. U kunt Help-artikelen en video&#39;s zoeken in het zoekveld.
 

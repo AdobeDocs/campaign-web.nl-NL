@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag
 description: Campagne v8 Webdocumentatie
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '332'
 ht-degree: 7%
 
 ---
@@ -32,7 +32,7 @@ only existing customers
 
 Adobe Campaign biedt een platform voor het ontwerpen van de ervaringen van klanten over meerdere kanalen en een omgeving voor visuele campagneorchestratie, real-time interactiebeheer en uitvoering via meerdere kanalen.
 
-Naast alle bestaande functies die beschikbaar zijn met de console, hebben we een nieuwe, moderne, webgebaseerde gebruikersinterface gemaakt om het ontwerp en de levering van marketingcampagnes te vereenvoudigen en in overeenstemming te brengen met de ervaring die in Adobe Experience Platform met native toepassingen wordt opgedaan.
+Naast alle bestaande functies die beschikbaar zijn met de console, hebben we een nieuwe, moderne, webgebaseerde gebruikersinterface gemaakt om het ontwerp en de levering van marketingcampagnes te vereenvoudigen, en consistent met Adobe Experience Platform.
 
 ## Alfa-functies
 
@@ -49,8 +49,8 @@ No search and pulse notifications in Alpha
 
 **Uw e-mailcampagne maken, starten en meten**
 
-* Ontwerp persoonlijke e-mailinhoud met de e-maileditor
-* Bepaal doelpubliek met de segmentbouwer
+* Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper
+* Bepaal doelpubliek met de regelbouwer
 * E-mailberichten voorvertonen, testen en verzenden
 * De monitor verzendt en meet resultaten met ingebouwde rapporten
 
@@ -59,6 +59,10 @@ add info somewhere to remind users that
 * they still have access to their console (+ link to v8 console doc)
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
+
+>[!NOTE]
+>
+>Houd er rekening mee dat kanaaloverschrijdende campagnes en mogelijkheden voor workflowbeheer beschikbaar zijn in het bètaprogramma.
 
 ## De clientconsole
 
@@ -71,7 +75,7 @@ De gegevens worden gedeeld tussen de console en de web-UI. Bijvoorbeeld, als u e
 ![](assets/connect.png)
 
 1. Verbinden met [Adobe Experience Cloud](http://experience.adobe.com).
-1. Meld u aan met uw Adobe IMS-referenties.
+1. Meld u aan met uw Adobe-referenties.
 1. In de **Snelle toegang** sectie, klikt u op **Campagne**.
 
 <!--
