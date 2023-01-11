@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: a9cea928d8c447fbd8435e49928d6328a1209640
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >title="Interface"
 >abstract="De nieuwe Campagne v8-webinterface biedt een geïntegreerde, intuïtieve en consistente gebruikerservaring."
 
-De nieuwe Campagne v8-webinterface biedt een geïntegreerde, intuïtieve en consistente gebruikerservaring.
+De nieuwe Campagne v8-webinterface biedt een moderne, geïntegreerde en intuïtieve gebruikerservaring om workflows, het ontwerp en de levering van marketingcampagnes en de ervaring van Adobe Experience Platform-toepassingen te vereenvoudigen.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.

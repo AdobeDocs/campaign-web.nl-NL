@@ -3,10 +3,10 @@ audience: end-user
 title: Aan de slag
 description: Campagne v8 Webdocumentatie
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: b5d0c2538b99aabafd04f6314a8135269c8555c0
+source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 8%
+source-wordcount: '320'
+ht-degree: 7%
 
 ---
 
@@ -32,11 +32,11 @@ only existing customers
 
 Adobe Campaign biedt een platform voor het ontwerpen van de ervaringen van klanten over meerdere kanalen en een omgeving voor visuele campagneorchestratie, real-time interactiebeheer en uitvoering via meerdere kanalen.
 
-Naast alle bestaande functies die beschikbaar zijn met de console, hebben we een webinterface ontworpen om artsen een geïntegreerde, intuïtieve en consistente gebruikerservaring te bieden.
+Naast alle bestaande functies die beschikbaar zijn met de console, hebben we een nieuwe, moderne, webgebaseerde gebruikersinterface gemaakt om het ontwerp en de levering van marketingcampagnes te vereenvoudigen en in overeenstemming te brengen met de ervaring die in Adobe Experience Platform met native toepassingen wordt opgedaan.
 
 ## Alfa-functies
 
-Deze moderne, webgebaseerde interface is momenteel alleen beschikbaar voor alfakantoren met de volgende mogelijkheden:
+Deze webinterface is momenteel alleen beschikbaar voor alfakantoren met de volgende mogelijkheden:
 
 **Moderne, intuïtieve en verenigde ervaring**
 
@@ -50,7 +50,7 @@ No search and pulse notifications in Alpha
 **Uw e-mailcampagne maken, starten en meten**
 
 * Ontwerp persoonlijke e-mailinhoud met de e-maileditor
-* Bepaal publiek met de segmentbouwer
+* Bepaal doelpubliek met de segmentbouwer
 * E-mailberichten voorvertonen, testen en verzenden
 * De monitor verzendt en meet resultaten met ingebouwde rapporten
 
