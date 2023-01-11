@@ -3,10 +3,10 @@ audience: end-user
 title: Een controlegroep instellen
 description: Campagne v8 Webdocumentatie
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 43%
+source-wordcount: '540'
+ht-degree: 37%
 
 ---
 
@@ -56,6 +56,28 @@ Onder de **Extraheren uit doel** in, kiest u een **Het type Uitsluiting**:
 
 Definieer vervolgens de **Groottebeperking**: u moet instellen hoe u het aantal profielen dat u uit het hoofddoel extraheert, gaat beperken.
 
+**Voorbeeld**
+
+U kunt de logboeken bekijken om de uitgesloten profielen te controleren en te identificeren. Laten we het voorbeeld nemen van een willekeurige uitsluiting op vijf profielen.
+
+![](assets/control-group4.png)
+
+Na de voorbereiding van de levering kunt u de uitsluitingen op de volgende schermen bekijken:
+
+* De **Uitsluiten** KPI in het leveringsdashboard, vóór het verzenden.
+
+   ![](assets/control-group5.png)
+
+* De **Uitsluitingslogboeken** elk profiel en de bijbehorende excusie weergeven **Reden**.
+
+   ![](assets/control-group6.png)
+
+* De **Uitsluiting veroorzaakt** Geef het aantal uitgesloten profielen voor elke typologieregel weer.
+
+   ![](assets/control-group7.png)
+
+Voor meer informatie over leveringslogboeken, verwijs naar dit [sectie](../monitor/delivery-logs.md).
+
 ## Extra populatie {#extra-population}
 
 >[!CONTEXTUALHELP]
@@ -71,6 +93,6 @@ Van de **Extra populatie** van de **Controlegroep** definitiescherm, klik **[!UI
 
 * Als u een bestaand publiek wilt gebruiken, klikt u op **Doelgroep selecteren**. Zie dit [sectie](add-audience.md).
 
-* Als u een nieuwe query wilt definiëren, selecteert u **Maak uw eigen** en definieert u de uitsluitingscriteria met behulp van de segmentbouwer. Zie dit [sectie](segment-builder.md).
+* Als u een nieuwe query wilt definiëren, selecteert u **Maak uw eigen** en definieert u de uitsluitingscriteria met behulp van de regelbouwer. Zie dit [sectie](segment-builder.md).
 
 De profielen die zijn opgenomen in het publiek of die overeenkomen met het resultaat van de query, worden uitgesloten van het doel.

@@ -3,7 +3,7 @@ audience: end-user
 title: Een e-mail voorbereiden en verzenden
 description: Campagne v8 Webdocumentatie
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 75d579975023639840f35f673e63aab2a2d3a811
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 4%
@@ -60,7 +60,7 @@ Volg de onderstaande stappen:
    * **Om te leveren**: het aantal berichten dat wordt verzonden
    * **Uitsluiten**: het aantal berichten dat door een typologieregel is uitgesloten
 
-1. Klik op de knop **Logboeken** en controleert u of er geen fout optreedt. In het laatste logbericht worden foutberichten en het aantal fouten weergegeven. Zie [deze sectie](#send) voor meer informatie.
+1. Klik op de knop **Logboeken** en controleert u of er geen fout optreedt. In het laatste logbericht worden foutberichten en het aantal fouten weergegeven. Zie [deze sectie](delivery-logs.md) voor meer informatie.
 
    ![](assets/prepare-logs.png)
 
@@ -82,7 +82,7 @@ Voer de volgende stappen uit:
 
    ![](assets/send.png)
 
-1. De verzendvoortgang wordt weergegeven. Controleer de getoonde KPIs. U kunt ook de logbestanden controleren. Zie [deze sectie](#send) voor meer informatie.
+1. De verzendvoortgang wordt weergegeven. Controleer de getoonde KPIs. U kunt ook de logbestanden controleren. Zie [deze sectie](delivery-logs.md) voor meer informatie.
 
    ![](assets/send2.png)
 

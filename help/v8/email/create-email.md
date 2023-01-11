@@ -3,7 +3,7 @@ audience: end-user
 title: Uw eerste e-mail maken
 description: Campagne v8 Webdocumentatie
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4bc12928a6dac79d09f918a0bc34e3f98d9984d3
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 1%
@@ -104,7 +104,7 @@ In dit geval, gaan wij e-mail ontwerpen gebruikend een vooraf bepaalde malplaatj
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="De doelgroep definiëren"
->abstract="Selecteer het beste publiek voor uw marketingbericht. U kunt een bestaand publiek kiezen dat al is gedefinieerd in een Campagne v8-instantie of in Adobe Experience Platform, of u kunt een nieuw publiek maken met de gesegmenteerde ontwikkelaar."
+>abstract="Selecteer het beste publiek voor uw marketingbericht. U kunt een bestaand publiek kiezen dat al is gedefinieerd in een Campagne v8-instantie of in Adobe Experience Platform, of u kunt een nieuw publiek maken met de regelbouwer."
 
 In dit geval sturen we de e-mail naar een bestaand publiek. Aanvullende informatie over het werken met het publiek is beschikbaar in [deze sectie](../audience/about-audiences.md).
 

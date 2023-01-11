@@ -3,7 +3,7 @@ audience: end-user
 title: Een publiek toevoegen
 description: Campagne v8 Webdocumentatie
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: 6d678442c0fe396f45a635c60837932f424d0763
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 2%
@@ -43,7 +43,7 @@ In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren bij he
 
    ![](assets/create-audience3.png)
 
-1. Met de segmentbuilder kunt u het publiek verrijken met extra filters of door verschillende soorten publiek te combineren. Zie dit [sectie](segment-builder.md).
+1. Gebruikend de regelbouwer, kunt u uw publiek met extra filters verrijken of door verschillende soorten publiek te combineren. Zie dit [sectie](segment-builder.md).
 
    ![](assets/create-audience4.png)
 
