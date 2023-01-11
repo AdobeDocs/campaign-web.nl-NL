@@ -3,9 +3,9 @@ audience: end-user
 title: Informatie over doelgroepen
 description: Informatie over doelgroepen
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9df9b4ee9f8d583747cdf197450efb5ec23d6506
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: '128'
 ht-degree: 4%
 
 ---
@@ -42,11 +42,11 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-Nadat u de inhoud hebt ontworpen, moet u het publiek van de e-mail definiëren. Dit is het doel van uw levering, de ontvangers die de e-mail zullen ontvangen. Het type publiek is afhankelijk van de doeltoewijzing.
+In deze sectie leert u hoe u het publiek van de e-mail definieert. Dit is het doel van uw levering, de ontvangers die de e-mail zullen ontvangen. Het type publiek is afhankelijk van de doeltoewijzing.
 
 Om het publiek te bepalen, kunt u:
 
-* een bestaand publiek gebruiken dat is gedefinieerd in de Adobe Campaign-console. Zie dit [sectie](add-audience.md).
+* gebruik een bestaand publiek, zie dit [sectie](add-audience.md).
 * een nieuw publiek maken dat voor de e-mail wordt gebruikt. Zie dit [sectie](segment-builder.md).
 
 U kunt controlegroepen ook bepalen om het verzenden van berichten naar een gedeelte van uw publiek te vermijden om het effect van uw campagnes te meten. Zie dit [sectie](control-group.md).

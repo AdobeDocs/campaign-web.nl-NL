@@ -3,10 +3,10 @@ audience: end-user
 title: Een controlegroep instellen
 description: Campagne v8 Webdocumentatie
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: bc076bb4c841dd8e259ac007ecef8e3cb496a08d
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 44%
+source-wordcount: '458'
+ht-degree: 43%
 
 ---
 
@@ -50,7 +50,7 @@ Onder de **Extraheren uit doel** in, kiest u een **Het type Uitsluiting**:
 
    ![](assets/control-group.png)
 
-* **Gerangschikt op kenmerk(en)**: met deze optie kunt u een beperking definiëren op basis van een of meer sorteervolgorden.
+* **Gerangschikt op kenmerk(en)**: Met deze optie kunt u een set profielen op basis van specifieke kenmerken in een specifieke sorteervolgorde uitsluiten.
 
    ![](assets/control-group2.png)
 

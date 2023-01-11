@@ -3,14 +3,14 @@ audience: end-user
 title: Werken met de segmentmanager
 description: Campagne v8 Webdocumentatie
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 0%
+source-wordcount: '557'
+ht-degree: 1%
 
 ---
 
-# Werken met de Segment Builder {#segment-builder}
+# Bepaal een publiek met de regelbouwer {#segment-builder}
 
 >[!NOTE]
 >
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 In deze sectie wordt beschreven hoe u een publiek kunt maken tijdens het ontwerpen van een nieuwe e-mail. Het nieuwe publiek kan alleen in deze e-mail worden gebruikt.
 
-De segmentbouwer staat u toe om de bevolking te bepalen die door uw bericht wordt gericht door gegevens te filtreren in het gegevensbestand van Adobe Campaign. Als u een bestaand publiek wilt selecteren, raadpleegt u deze [sectie](add-audience.md).
+De regelbouwer staat u toe om de bevolking te bepalen die door uw bericht wordt gericht door gegevens te filtreren in het gegevensbestand. Als u een bestaand publiek wilt selecteren, raadpleegt u deze [sectie](add-audience.md).
 
-Voor meer informatie over de Bouwer van het Segment, verwijs naar [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+Voor meer informatie over de regelbouwer, verwijs naar [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
 Voer de volgende stappen uit om een nieuw publiek te maken tijdens het ontwerpen van een e-mail:
 
@@ -28,7 +28,7 @@ Voer de volgende stappen uit om een nieuw publiek te maken tijdens het ontwerpen
 
    ![](assets/segment-builder0.png)
 
-1. Selecteren **Maak uw eigen**. De Segment Builder wordt weergegeven.
+1. Selecteren **Maak uw eigen**. De regelbouwer wordt weergegeven.
 
    ![](assets/segment-builder.png)
 
@@ -40,9 +40,13 @@ Het palet aan de linkerkant bevat alle elementen waarop u kunt filteren om een p
 
    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Soorten publiek**: op dit tabblad kunt u filteren met een van de bestaande soorten publiek die in de Campaign Classic-console zijn gedefinieerd.
+* **Soorten publiek**: op dit tabblad kunt u filteren met een van de bestaande soorten publiek die zijn gedefinieerd in de Campaign Classic-console of vanuit Adobe Experience Platform.
 
    ![](assets/segment-builder3.png){width="70%" align="left"}
+
+   >[!NOTE]
+   >
+   >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl).
 
 U kunt de zoekbalk gebruiken om snel naar elementen te zoeken.
 
@@ -87,7 +91,7 @@ In dit voorbeeld bouwen we een publiek dat gericht is op alle klanten die in Atl
 
    ![](assets/segment-builder10.png)
 
-1. Klikken **Resultaten weergeven** om de lijst en het aantal ontvangers te tonen die de vraag aanpassen.
+1. Klikken **Resultaten weergeven** om de lijst en het aantal ontvangers te tonen die de vraag aanpassen. U kunt ook kolommen toevoegen om de gegevens te visualiseren en te controleren. In ons voorbeeld voegt u de opdracht **Plaats** kolom en zie Atlanta en Seattle.
 
    ![](assets/segment-builder11.png)
 

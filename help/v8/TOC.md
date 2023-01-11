@@ -5,9 +5,9 @@ description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 Web docs
 hide: true
-source-git-commit: 655e0525c445b3bbf82011db84672835ea81b8ed
+source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '167'
 ht-degree: 6%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 6%
    + [Informatie over doelgroepen](audience/about-audiences.md)
    + [Een publiek selecteren](audience/add-audience.md)
    + [Een controlegroep instellen](audience/control-group.md)
-   + [Werken met de Segment Builder](audience/segment-builder.md)
+   + [Bepaal een publiek met de regelbouwer](audience/segment-builder.md)
 + Uw e-mail voorvertonen en testen {#preview-test}
    + [Voorvertoning en proefdrukken](preview-test/preview-test.md)
    + [E-mailinhoud voorvertonen](preview-test/preview-content.md)
