@@ -3,7 +3,7 @@ audience: end-user
 title: Aanbiedingen verzenden
 description: Aanbiedingen verzenden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: bf55b13011f7d2bdafcc55b1b2539c4ce590dd85
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >Deze documentatie is in opbouw en wordt regelmatig bijgewerkt. De definitieve versie van deze inhoud zal in Januari 2023 klaar zijn.
 
-Met Adobe Campaign v8 Web kunt u met uw e-mailaanbiedingen die in de console zijn gemaakt verzenden via **[!UICONTROL Interaction]** module. Voor meer informatie over Interactie en hoe te om een aanbiedingencatalogus in de console te beheren, verwijs naar [Campagne V8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
+Met Adobe Campaign v8 Web kunt u met uw e-mailaanbiedingen die in de console zijn gemaakt, verzenden via de **[!UICONTROL Interaction]** module. Voor meer informatie over Interactie en hoe te om een aanbiedingencatalogus in de console te beheren, verwijs naar [Campagne V8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html)
 
 De stappen voor het verzenden van voorstellen met een e-mail zijn als volgt:
 

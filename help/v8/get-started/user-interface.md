@@ -3,7 +3,7 @@ audience: end-user
 title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e14dd2984756cc8cd30de1a44f7d7b3af2ae7f49
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
 source-wordcount: '1172'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Interface"
->abstract="De nieuwe Campagne v8-webinterface biedt een geïntegreerde, intuïtieve en consistente gebruikerservaring."
+>abstract="De nieuwe Campagne v8 Web interface biedt een geïntegreerde, intuïtieve en consistente gebruikerservaring."
 
-De nieuwe Campagne v8-webinterface biedt een moderne en intuïtieve gebruikerservaring om het ontwerp en de levering van marketingcampagnes te vereenvoudigen. Deze nieuwe interface is geïntegreerd met Adobe Experience Platform.
+De nieuwe Campagne v8 Web interface biedt een moderne en intuïtieve gebruikerservaring om het ontwerpen en leveren van marketingcampagnes te vereenvoudigen. Deze nieuwe interface is geïntegreerd met Adobe Experience Platform.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -45,7 +45,7 @@ Blader links naar de koppelingen voor toegang tot de webmogelijkheden van Campag
 
 ### Home
 
-Dit scherm bevat belangrijke koppelingen en bronnen voor snelle toegang tot de belangrijkste webfuncties van Campagne versie 8. De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum en status van het maken en wijzigen van de bestanden.
+Dit scherm bevat belangrijke koppelingen en bronnen voor snelle toegang tot de belangrijkste functies van het Web van Campagne v8. De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum en status van het maken en wijzigen van de bestanden.
 
 <!--
 * Banner
@@ -54,7 +54,7 @@ Dit scherm bevat belangrijke koppelingen en bronnen voor snelle toegang tot de b
 * Learning cards
 -->
 
-Toegang tot de webpagina&#39;s met Help op de pagina onder aan de startpagina van Campagne v8.
+Toegang tot Help-pagina&#39;s voor Campagne v8 Web key vanaf de onderste sectie van de startpagina.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -156,7 +156,7 @@ De interface bevat een contextafhankelijke Help. Klik op de knop **?** pictogram
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Er is ook een gids voor on-boarding beschikbaar om u te helpen aan de slag te gaan met Campaign v8 web. Klik op het pictogram in de rechterbenedenhoek, kies een van de beschikbare stapsgewijze scenario&#39;s en volg de instructies.
+Er is ook een gids voor on-boarding beschikbaar om u te helpen aan de slag te gaan met Campagne v8 Web. Klik op het pictogram in de rechterbenedenhoek, kies een van de beschikbare stapsgewijze scenario&#39;s en volg de instructies.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 

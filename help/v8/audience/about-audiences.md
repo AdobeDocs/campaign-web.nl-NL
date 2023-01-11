@@ -3,9 +3,9 @@ audience: end-user
 title: Informatie over doelgroepen
 description: Informatie over doelgroepen
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: e5a2f07dd4904813c5f848b0303b5da89e633835
+source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '136'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-In deze sectie leert u hoe u het publiek van de e-mail definieert. Dit is het doel van uw levering, de ontvangers die de e-mail zullen ontvangen. Het type publiek is afhankelijk van de doeltoewijzing.
+In deze sectie leert u hoe u het publiek van de e-mail definieert. Dit is het doel van uw levering, de ontvangers die de e-mail zullen ontvangen. Het type publiek hangt van de doelafbeelding af die in het leveringsmalplaatje wordt bepaald. Zie dit [sectie](../email/create-email.md).
 
 Om het publiek te bepalen, kunt u:
 
