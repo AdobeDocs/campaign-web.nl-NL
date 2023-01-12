@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailinhoud bewerken
 description: Campagne v8 Webdocumentatie
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 72ce0a77704b2592e1186f70ea7aef308989d8c4
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ U definieert de inhoud van uw e-mail als volgt:
 
    <!--limitation on size + number of files?-->
 
-1. E-mailtracking is standaard ingeschakeld voor het openen en klikken. Als u deze opties wilt uitschakelen, maakt u de selectie ongedaan in het menu **[!UICONTROL Optional features]** sectie. [Leer hoe u koppelingen kunt toevoegen en bijhouden](message-tracking.md)
+1. Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie uitschakelen in het menu **[!UICONTROL Optional features]** sectie. [Leer hoe u koppelingen kunt toevoegen en bijhouden](message-tracking.md)
 
 Als de inhoud van uw e-mail eenmaal is gedefinieerd, gebruikt u de opdracht **[!UICONTROL Simulate content]** om te controleren hoe het zal tonen alvorens het te verzenden. [Leer hoe u uw e-mail kunt bekijken en testen](../preview-test/preview-test.md)
 
