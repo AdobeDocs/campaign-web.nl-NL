@@ -3,7 +3,7 @@ audience: end-user
 title: Werken met de segmentmanager
 description: Campagne v8 Webdocumentatie
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Het palet aan de linkerkant bevat alle elementen waarop u kunt filteren om een p
 
    >[!NOTE]
    >
-   >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl).
+   >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
 
 U kunt de zoekbalk gebruiken om snel naar elementen te zoeken.
 

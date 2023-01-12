@@ -3,7 +3,7 @@ audience: end-user
 title: Een publiek toevoegen
 description: Campagne v8 Webdocumentatie
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 2%
@@ -33,7 +33,7 @@ In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren bij he
 
    >[!NOTE]
    >
-   >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl).
+   >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
 
 1. Kies een publiek en klik op **Selecteren**.
 
