@@ -1,26 +1,26 @@
 ---
 audience: end-user
-title: Geavanceerde instellingen
+title: E-mailleveringsinstellingen
 description: Campagne v8 Webdocumentatie
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: ed814fbb9d3f9daeb725f44a7a1929217d1d48d2
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 18%
+source-wordcount: '1414'
+ht-degree: 11%
 
 ---
 
-# Geavanceerde instellingen {#advanced-settings}
+# E-mailleveringsinstellingen {#email-del-settings}
 
 ![](../assets/do-not-localize/badge.png)
 
-Deze instellingen zijn **technische leveringsparameters** die zijn gedefinieerd in de e-mailsjabloon. Als u om het even welk van hen voor een specifieke levering wilt wijzigen, ga met voorzichtigheid te werk.
+Deze instellingen zijn **technische leveringsparameters** die zijn gedefinieerd in de e-mailsjabloon.
 
 ## E-mailleveringsinstellingen {#email-delivery-settings}
 
->[!NOTE]
+>[!CAUTION]
 >
-> Alleen instellingen wijzigen. Nieuwe instellingen zijn niet toegestaan. Behoudens toegangsrechten.
+> Deze instellingen worden alleen ter informatie beschreven. Sommige van hen hangen van uw configuratie en toestemmingen af. Deze mogen niet in deze versie van het product worden gewijzigd.
 
 ## Typologie {#typology}
 
@@ -31,7 +31,10 @@ Deze instellingen zijn **technische leveringsparameters** die zijn gedefinieerd 
 
 Typologieën zijn reeksen **typologieregels** die tijdens de fase van de berichtanalyse worden uitgevoerd. Ze staan u toe te controleren of uw e-mails altijd bepaalde elementen (zoals een koppeling voor een uitschrijving of een onderwerpregel) of filterregels bevatten om groepen van uw beoogde doel (zoals uitgeschreven abonnees, concurrenten of niet-loyale klanten) uit te sluiten.
 
-Wanneer u een typologie aan een bericht of berichtsjabloon koppelt, worden de typologieregels die in de typologie zijn opgenomen, uitgevoerd om de berichtgeldigheid te controleren.
+Wanneer het associëren van een typologie met een bericht of berichtmalplaatje, worden de typologische regels inbegrepen in de typologie uitgevoerd om de berichtgeldigheid tijdens berichtvoorbereiding te controleren.
+
+![](assets/delivery-settings-1.png)
+
 
 ### Drukparameters {#pressure-parameters}
 
@@ -44,19 +47,22 @@ In deze sectie kunt u met drukparameters een **drempel**. Dit is het maximumaant
 
 Drempelwaarden kunnen constant of variabel zijn. Dit betekent dat drempelwaarden voor een bepaalde periode kunnen variëren van het ene profiel tot het andere, of zelfs voor hetzelfde profiel.
 
-In de **Type dikte** veld zijn drie opties beschikbaar: (formule ontbreekt, afhankelijk van optie..)
+In de **Type dikte** veld zijn drie opties beschikbaar:
 
 * **Constante**
 * **Afhankelijk van de ontvanger**
 * **Gedefinieerd in elke regel**
 
-De **Afleveringsgewicht** field: Elke levering heeft een gewicht dat overeenkomt met het prioriteitsniveau. Standaard is het gewicht van een levering ingesteld op 5. Met drukregels kunt u het gewicht van de leveringen bepalen waarop ze worden toegepast. Het gewicht kan worden ingesteld of berekend met behulp van een formule die geschikt is voor de geadresseerden. U kunt bijvoorbeeld het gewicht van een levering bepalen op basis van de belangen van de ontvanger.
+Gebruik de **Afleveringsgewicht** veld om de leveringsprioriteit te bepalen. Elke levering heeft een gewicht dat overeenkomt met het prioriteitsniveau. Standaard is het gewicht van een levering ingesteld op 5. Met drukregels kunt u het gewicht van de leveringen bepalen waarop ze worden toegepast. Het gewicht kan worden ingesteld of berekend met behulp van een formule die geschikt is voor de geadresseerden. U kunt bijvoorbeeld het gewicht van een levering bepalen op basis van de belangen van de ontvanger.
 
-De **Leveringsmodus** veld.. ??
+
+Gebruik de **Leveringsmodus** veld om de evaluatiemodus voor het doel te selecteren. Er zijn drie modi beschikbaar:
 
 * **Doelschatting en berichtpersonalisatie**
 * **Schatting en goedkeuring van de voorlopige doelstelling**
 * **Doelevaluatie**
+
+Moeilijkheidsbeheer wordt geleverd met **Campagne optimaliseren** invoegtoepassing. Meer informatie over drukregels en hoe u vermoeidheidsbeheer kunt configureren in [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Capaciteitsinstellingen {#capacity-settings}
 
@@ -69,17 +75,26 @@ In deze sectie kunt u een capaciteitsregel selecteren die is gedefinieerd in de 
 
 De **belang van de begunstigde** het veld is een formule die wordt gebruikt om te bepalen welke ontvangers worden gehouden wanneer de voorschriften inzake capaciteitstypologie worden overschreden .
 
+Leer meer over consistentie en capaciteitsregels en hoe te om hen te vormen in [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+
+
 ## Doelgroep {#audience}
 
-In deze sectie kunt u een **doeltoewijzing** gedefinieerd in de Adobe Campaign v8-console. Het maken van doeltoewijzingen is nodig als u een andere ontvangertabel gebruikt dan de tabel die door Adobe Campaign wordt geleverd.
+In deze sectie kunt u een **doeltoewijzing** onder de beschikbare groepen. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console.
+
+Meer informatie over doeltoewijzingen in [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 ## Levering {#delivery}
 
-**Routering** selectie: De geïntegreerde e-mail die externe rekening verplettert wordt verstrekt door gebrek. Het bevat de technische parameters waarmee de applicatie e-mailberichten kan verzenden.
+De parameters van de levering zijn technische montages die op uw levering van toepassing zijn.
 
-**SMTP-levering testen**: gebruik deze optie om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel van SMTP DATA.
+* **Routering**: de geïntegreerde e-mail die externe rekening verplettert wordt door gebrek verstrekt. Het bevat de technische parameters waarmee de applicatie e-mailberichten kan verzenden.
 
-**BCC e-mailen**: Gebruik deze optie om e-mails op te slaan op een extern systeem via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel.
+* **SMTP-levering testen**: deze optie wordt gebruikt om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel van SMTP DATA.
+
+* **BCC e-mailen**: deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel. Meer informatie over BCC via e-mail in [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+
+
 
 ### Hernieuwde pogingen {#retries}
 
@@ -88,7 +103,9 @@ In deze sectie kunt u een **doeltoewijzing** gedefinieerd in de Adobe Campaign v
 >title="Maximum aantal pogingen"
 >abstract="Als een bericht mislukt als gevolg van een tijdelijke fout, worden de pogingen opnieuw uitgevoerd tijdens de leveringsduur."
 
-Voor tijdelijk niet-geleverde berichten vanwege een fout Zacht of Genegeerd wordt het automatisch opnieuw geprobeerd. Door gebrek, zijn vijf herpogingen gepland voor de eerste dag van de levering met een minimuminterval van één uur uitgespreid over de 24 uren van de dag. Elke dag opnieuw proberen wordt geprogrammeerd na dat en tot de leveringsdeadline, die in het lusje van de Geldigheid wordt bepaald.
+<!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
+
+Meer informatie over het beheer van nieuwe pogingen vindt u in [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## Goedkeuring {#approval}
 
@@ -97,11 +114,15 @@ Voor tijdelijk niet-geleverde berichten vanwege een fout Zacht of Genegeerd word
 >title="Goedkeuringsmodus"
 >abstract="Elke leveringsstap kan worden goedgekeurd om volledige controle en controle van de verschillende processen te waarborgen."
 
-**Handmatig**: Aan het einde van de analysefase moet de gebruiker de levering bevestigen om te beginnen met het verzenden.
+Als de waarschuwingen tijdens de leveringsvoorbereiding worden geproduceerd, kunt u de levering vormen om te bepalen al dan niet het nog zou moeten worden uitgevoerd. Door gebrek, moet de gebruiker het verzenden van berichten aan het eind van de analysefase bevestigen: is **handmatig** validatie.
 
-**Halfautomatisch**: Het verzenden begint automatisch als de analysefase geen waarschuwingsberichten produceert.
+U kunt een andere goedkeuringsmodus in het desbetreffende veld selecteren. Beschikbare modi zijn:
 
-**Automatisch**: De verzending begint automatisch aan het einde van de analysefase, ongeacht het resultaat ervan.
+* **Handmatig**: Aan het einde van de analysefase moet de gebruiker de levering bevestigen om te beginnen met het verzenden.
+
+* **Halfautomatisch**: Het verzenden begint automatisch als de analysefase geen waarschuwingsberichten produceert.
+
+* **Automatisch**: De verzending begint automatisch aan het einde van de analysefase, ongeacht het resultaat.
 
 
 ## Geldigheid {#validity}
@@ -123,14 +144,20 @@ U kunt ook datums opgeven. Selecteer **Geldigheidsdatums expliciet instellen**. 
 
 **Geldigheidslimiet voor bronnen** wordt gebruikt voor geüploade bronnen, voornamelijk voor de spiegelpagina en afbeeldingen. De bronnen op deze pagina zijn gedurende een beperkte tijd geldig (om schijfruimte te besparen).
 
+![](assets/delivery-settings-2.png)
+
+
+Meer informatie over de geldigheidsperiode van de levering in [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+
 ### Paginabeheer spiegelen {#mirror}
 
-**Paginabeheer spiegelen** bevat vier opties:
+De spiegelpagina is een HTML-pagina die online toegankelijk is via een webbrowser. De inhoud is identiek aan de e-mail. Standaard wordt de spiegelpagina gegenereerd als de koppeling wordt ingevoegd in de inhoud van de e-mail.
 
-* **De spiegelpagina genereren als er een spiegelkoppeling wordt weergegeven in de e-mailinhoud**: De spiegelpagina wordt geproduceerd als de verbinding in de postinhoud wordt opgenomen.
-* **Force the generation of the mirror page**: zelfs als geen koppeling naar de spiegelpagina in de berichten wordt opgenomen, wordt de spiegelpagina gemaakt.
-* **Do not generate the mirror page**: er wordt geen spiegelpagina gegenereerd, zelfs niet als de koppeling zich in de berichten bevindt.
-* **Genereert een spiegelpagina toegankelijk gebruikend slechts het bericht herkenningsteken**: deze optie laat u tot de inhoud van de spiegelpagina, met verpersoonlijkingsinformatie, in het venster van het leveringslogboek toegang hebben.
+Naast de standaardmodus zijn ook de volgende opties beschikbaar:
+
+* **[!UICONTROL Force the generation of the mirror page]**: zelfs als geen verbinding aan de spiegelpagina in de levering wordt opgenomen, zal de spiegelpagina worden gecreeerd.
+* **[!UICONTROL Do not generate the mirror page]**: er wordt geen spiegelpagina gegenereerd, zelfs niet als de koppeling aanwezig is in de levering.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: deze optie laat u tot de inhoud van de spiegelpagina, met verpersoonlijkingsinformatie, in het venster van het leveringslogboek toegang hebben. Als u dit wilt doen, klikt u na afloop van de levering op de knop **[!UICONTROL Delivery]** en selecteert u de regel van de ontvanger waarvan u de spiegelpagina wilt weergeven. Klik op de koppeling **[!UICONTROL Display the mirror page for this message...]**.
 
 
 ### Tracking {#tracking}
@@ -140,19 +167,24 @@ U kunt ook datums opgeven. Selecteer **Geldigheidsdatums expliciet instellen**. 
 >title="Geldigheidsperiode"
 >abstract="Met deze optie bepaalt u de duur waarvoor de tracering wordt geactiveerd op de URL&#39;s."
 
-**Geldigheidslimiet voor bijhouden**: Met deze optie bepaalt u de duur waarvoor de tracering wordt geactiveerd op de URL&#39;s.
+De volgende parameters worden bepaald in de verwante sectie. Mogelijke opties zijn:
+
+**Geldigheidslimiet voor bijhouden**: Gebruik deze optie om de duur te wijzigen waarvoor het volgen op URLs zal worden geactiveerd.
 
 **Vervangende URL voor verlopen URL&#39;s**: Gebruik deze optie om een URL in te voeren naar een fallback-webpagina: wordt weergegeven nadat de reeksspatiëring is verlopen.
 
-
 ## Testinstellingen {#test-setttings}
 
-**Dubbel houden** Hiermee kunt u meerdere leveringen toestaan aan ontvangers die aan verschillende doelcriteria voldoen.
+U kunt de uitsluitingsparameters in deze sectie instellen. Beschikbare opties zijn:
 
-**Op de lijst met ongewenste personen staan adressen behouden** Hiermee kunt u profielen die niet meer het doelprofiel zijn van levering, zoals na een abonnement (opt-out), niet meer als doel instellen.
+* **Dubbel houden** Hiermee kunt u meerdere leveringen toestaan aan ontvangers die aan verschillende doelcriteria voldoen.
 
-**Houd quarantineadressen** Hiermee kunt u profielen met een adres dat niet reageert, behouden van het doel.
+* **Op de lijst met ongewenste personen staan adressen behouden** Hiermee kunt u profielen die niet meer het doelprofiel zijn van levering, zoals na een abonnement (opt-out), niet meer als doel instellen.
 
-**De leveringscode voor de proefdruk behouden** Hiermee geeft u het bewijs dezelfde leveringscode als die welke is gedefinieerd voor de levering waarop het betrekking heeft.
+* **Houd quarantineadressen** Hiermee kunt u profielen met een adres dat niet reageert, behouden van het doel.
 
-Standaard wordt het onderwerp van het bewijs voorafgegaan door &quot;Bewijs nr.&quot;, waarbij # het nummer van het bewijs is. U kunt dit voorvoegsel wijzigen in het dialoogvenster **Label, voorvoegsel** veld.
+U kunt ook de naam van de proefdrukken aanpassen.
+
+Gebruik de **De leveringscode voor de proefdruk behouden** aan het bewijs dezelfde leveringscode te koppelen als die welke is vastgesteld voor de levering waarop het betrekking heeft.
+
+Standaard wordt het onderwerp van het bewijs voorafgegaan door &quot;PROOF #&quot;, waarbij # het nummer van het bewijs is. U kunt dit voorvoegsel wijzigen in het dialoogvenster **Label, voorvoegsel** veld.
