@@ -3,10 +3,10 @@ audience: end-user
 title: Aan de slag
 description: Campagne v8 Webdocumentatie
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 7%
+source-wordcount: '374'
+ht-degree: 6%
 
 ---
 
@@ -30,53 +30,36 @@ only existing customers
 
 Adobe Campaign biedt een platform voor het ontwerpen van de ervaringen van klanten over meerdere kanalen en een omgeving voor visuele campagneorchestratie, real-time interactiebeheer en uitvoering via meerdere kanalen.
 
-Naast alle bestaande functies die beschikbaar zijn met de console, hebben we een nieuwe, moderne, webgebaseerde gebruikersinterface gemaakt om het ontwerp en de levering van marketingcampagnes te vereenvoudigen, en consistent met Adobe Experience Platform.
+In eerste instantie alleen beschikbaar via een rijke [clientconsole](#ac-client), Campagne biedt nu een nieuwe webgebruikersinterface met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp om uw gebruikerservaring aanzienlijk te verbeteren. Deze nieuwe moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie met andere Adobe-oplossingen, waaronder Adobe Experience Platform.
 
-## Alfa-functies
 
-Deze webinterface is momenteel alleen beschikbaar voor alfakantoren met de volgende mogelijkheden:
+![](assets/home.png)
 
-**Moderne, intuïtieve en verenigde ervaring**
+Deze nieuwe interface voldoet eerst aan de behoeften van de **beroepsbeoefenaar** - alle typische beheertaken zijn niet beschikbaar in deze eerste versie, maar worden in latere versies behandeld. Merk op dat niet elke enkele functionaliteit of optie beschikbaar in de cliëntconsole voor nu in nieuwe UI beschikbaar is. Nieuwe gebruiksgevallen, opties en functies zijn beschikbaar in toekomstige versies.
 
-* Toegang tot de nieuwe interface en andere toepassingen met één enkele en gedeelde gebruikerszitting
-* Uniforme Shell-integratie: toegang tot gemeenschapslessen, helpcentrum, oplossingsschakelaar
-<!--
-No search and pulse notifications in Alpha
--->
-* Ervaar de nieuwe navigatie met linkermenu&#39;s en mappen
+Als u toegang moet krijgen tot de mogelijkheden van Campagne v8 die niet beschikbaar zijn in de webinterface, kunt u de opdracht [clientconsole](#ac-client).
 
-**Uw e-mailcampagne maken, starten en meten**
+## Info over Campagne-clientconsole{#ac-client}
 
-* Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper
-* Bepaal doelpubliek met de regelbouwer
-* E-mailberichten voorvertonen, testen en verzenden
-* De monitor verzendt en meet resultaten met ingebouwde rapporten
+De de cliëntconsole van de Campagne is een browser-gebaseerde toepassing die op uw systeem geïnstalleerd is. De webservices-API wordt gebruikt om verbinding te maken met uw Campagnetoepassingsserver.
 
-<!--
-add info somewhere to remind users that
-* they still have access to their console (+ link to v8 console doc)
-* they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
--->
+Leer hoe u de clientconsole kunt downloaden en installeren in [deze sectie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
 
->[!NOTE]
->
->Houd er rekening mee dat kanaaloverschrijdende campagnes en mogelijkheden voor workflowbeheer beschikbaar zijn in het bètaprogramma.
+Voor meer informatie over het gebruik van Campagne v8 raadpleegt u de [documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl){target="_blank"}.
 
-## De clientconsole
-
-Als u een Campagne v8-functie moet gebruiken die niet beschikbaar is in de webinterface, kunt u de clientconsole gebruiken. Voor meer informatie over het gebruik van Campagne v8 raadpleegt u de [documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl).
-
-De gegevens worden gedeeld tussen de console en de web-UI. Bijvoorbeeld, als u een leveringsmalplaatje gebruikend de console creeerde, zal het in de Webinterface beschikbaar zijn.
+Campagnegegevens worden opgeslagen in de toepassingsserver. Gegevens zijn zowel beschikbaar via de clientconsole als via de webinterface. Als u bijvoorbeeld een leveringssjabloon maakt met de clientconsole, is deze ook beschikbaar in de webinterface. En als u een e-maillevering maakt in de webinterface, is deze levering ook toegankelijk vanaf de clientconsole.
 
 ## Verbinding maken met Campaign
 
 ![](assets/connect.png)
 
-1. Verbinden met [Adobe Experience Cloud](http://experience.adobe.com).
+1. Verbinden met [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. Meld u aan met uw Adobe-referenties.
 1. In de **Snelle toegang** sectie, klikt u op **Campagne**.
+1. Klik op de volgende pagina op de knop **Starten** van uw instantie Campagne.
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8
 -> or Campaign v8 web if direct URL
 -->
+
