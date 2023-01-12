@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag
 description: Campagne v8 Webdocumentatie
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: d654a75c802effbb98844557102d0ec19300cd8d
+source-git-commit: a57630deb9368dc483925bcbbce362ba4ec79a41
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 6%
@@ -51,11 +51,12 @@ Campagnegegevens worden opgeslagen in de toepassingsserver. Gegevens zijn zowel 
 
 ## Verbinding maken met Campaign
 
-![](assets/connect.png)
 
 1. Verbinden met [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
 1. Meld u aan met uw Adobe-referenties.
 1. In de **Snelle toegang** sectie, klikt u op **Campagne**.
+   ![](assets/connect.png)
+
 1. Klik op de volgende pagina op de knop **Starten** van uw instantie Campagne.
 
 <!--
