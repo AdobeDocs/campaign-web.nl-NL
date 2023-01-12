@@ -5,9 +5,9 @@ description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 Web docs
 hide: true
-source-git-commit: db197206700d3d3973d9cad459aa2f56ab76f213
+source-git-commit: 4e29e2e65fff1eac60d4c0c88c2e56b55b7f79c9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '168'
 ht-degree: 6%
 
 ---
@@ -54,5 +54,5 @@ ht-degree: 6%
 + E-mail verzenden en controleren {#monitor}
    + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
    + [Leveringslogboeken controleren](monitor/delivery-logs.md)
+   + [E-mailleveringsinstellingen](advanced-settings/delivery-settings.md)
 + [Rapportage](reporting/reports.md)
-+ [Geavanceerde instellingen](advanced-settings/delivery-settings.md)
