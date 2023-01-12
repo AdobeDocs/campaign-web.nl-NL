@@ -3,9 +3,9 @@ audience: end-user
 title: Uw eerste e-mail maken
 description: Campagne v8 Webdocumentatie
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1158'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ In deze gebruiksaanwijzing wordt uitgelegd hoe u uw eerste e-mail kunt maken. We
 
    >[!NOTE]
    >
-   >Een sjabloon is een specifieke leveringsconfiguratie die als sjabloon is opgeslagen om opnieuw te worden gebruikt. Leveringssjablonen worden geconfigureerd door beheerders in de Adobe Campaign-console. [Meer informatie over het werken met leveringssjablonen](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target=&quot;_blank&quot;}
+   >Een sjabloon is een specifieke leveringsconfiguratie die als sjabloon is opgeslagen om opnieuw te worden gebruikt. Leveringssjablonen worden geconfigureerd door beheerders in de Adobe Campaign-console. [Meer informatie over het werken met leveringssjablonen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
    ![](assets/channel-template.png)
 
@@ -116,7 +116,7 @@ In dit geval sturen we de e-mail naar een bestaand publiek. Aanvullende informat
    >
    >Het publiek beschikbaar in de lijst komt of van uw instantie van de Campagne V8 of van Adobe Experience Platform voort als de Bestemming/Bronintegratie op uw instantie is gevormd.
    >
-   >Met de integratie Doel/Bronnen kunt u de segmenten Experience Platform naar Adobe Campaign verzenden en de bezorging en tracering van campagnes naar Adobe Experience Platform verzenden. [Leer hoe u met Campagne en Adobe Experience Platform werkt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html)
+   >Met de integratie Doel/Bronnen kunt u de segmenten Experience Platform naar Adobe Campaign verzenden en de bezorging en tracering van campagnes naar Adobe Experience Platform verzenden. [Leer hoe u met Campagne en Adobe Experience Platform werkt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. Nadat u het publiek hebt geselecteerd, kunt u het doel verfijnen aan de hand van extra regels.
 
@@ -161,7 +161,9 @@ Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in
 
 1. Als u proefdrukken van uw e-mail wilt verzenden, klikt u op de knop **[!UICONTROL Test]** selecteert u vervolgens de profielen die de proefdruk ontvangen.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->In this example, we want to send the proofs to a specific test profile, which is a seed address that is not part of the target. [Learn how to work with seed addresses](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+
+   In dit voorbeeld, willen wij de proeven naar een specifiek testprofiel verzenden, dat een zaadadres is dat geen deel van het doel uitmaakt. Leer hoe u met zaadadressen werkt in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
    ![](assets/proof-test-profile.png)
 

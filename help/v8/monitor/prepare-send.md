@@ -3,9 +3,9 @@ audience: end-user
 title: Een e-mail voorbereiden en verzenden
 description: Campagne v8 Webdocumentatie
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '524'
 ht-degree: 4%
 
 ---
@@ -34,7 +34,7 @@ send also KPIs
 
 ## De verzending voorbereiden{#prepare}
 
-Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw bericht voor te bereiden. Tijdens de voorbereiding, wordt de doelbevolking berekend en de berichtinhoud geproduceerd voor elk profiel inbegrepen in het doel. Zodra de voorbereiding is voltooid, zijn de berichten klaar om te worden verzonden, of onmiddellijk of op de geplande datum en tijd. De validatieregels die tijdens de analyse worden gebruikt, worden in deze [sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies).
+Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw bericht voor te bereiden. Tijdens de voorbereiding, wordt de doelbevolking berekend en de berichtinhoud geproduceerd voor elk profiel inbegrepen in het doel. Zodra de voorbereiding is voltooid, zijn de berichten klaar om te worden verzonden, of onmiddellijk of op de geplande datum en tijd. De validatieregels die tijdens de analyse worden gebruikt, worden in deze [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
 Volg de onderstaande stappen:
 
