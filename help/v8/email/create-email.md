@@ -3,9 +3,9 @@ audience: end-user
 title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 384c7ac2dd2b1d90ba6ff78f59aacce396de91f0
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1222'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ In deze gebruiksaanwijzing wordt uitgelegd hoe u uw eerste e-mail kunt maken. We
 
 1. Een nieuwe levering maken via de **[!UICONTROL Deliveries]** -menu.
 
-1. Selecteer **[!UICONTROL Email]** kanaal en de sjabloon die u wilt gebruiken en klik vervolgens op **[!UICONTROL Create]**.
+1. Selecteer **[!UICONTROL Email]** kanaal en de sjabloon die u wilt gebruiken en klik vervolgens op **[!UICONTROL Create delivery]**.
 
    >[!NOTE]
    >
@@ -47,7 +47,6 @@ In deze gebruiksaanwijzing wordt uitgelegd hoe u uw eerste e-mail kunt maken. We
    * **[!UICONTROL Delivery code]**: gebruik dit veld om uw leveringen te ordenen op basis van uw eigen naamgevingsconventie,
    * **[!UICONTROL Description]**: een omschrijving van de levering,
    * **[!UICONTROL Nature]**: de aard van het e-mailbericht voor classificatiedoeleinden specificeren.<!--The content of the list is defined in the delivery template selected when creating the email.-->
-
    >[!NOTE]
    >
    >Als u uw schema met specifieke douanevelden hebt uitgebreid, kunt u tot hen van toegang hebben **[!UICONTROL Custom options]** sectie.
@@ -79,7 +78,7 @@ In dit geval, gaan wij e-mail ontwerpen gebruikend een vooraf bepaalde malplaatj
 
    Kies de methode die u wilt gebruiken om uw e-mailinhoud te maken. In dit voorbeeld willen we een bestaande ontwerpsjabloon gebruiken.
 
-   ![](assets/import-html.png)
+   ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -93,7 +92,7 @@ In dit geval, gaan wij e-mail ontwerpen gebruikend een vooraf bepaalde malplaatj
 
    ![](assets/add-perso.png)
 
-1. Als de inhoud gereed is, slaat u deze op en klikt u op de pijl om terug te keren naar het scherm voor het maken van e-mail.
+1. Wanneer uw inhoud klaar is, slaat u uw ontwerp op en sluit u het vervolgens op **[!UICONTROL Save]** om terug te keren naar het scherm voor het maken van e-mail.
 
    ![](assets/save-content.png)
 
@@ -122,6 +121,8 @@ In dit geval sturen we de e-mail naar een bestaand publiek. Aanvullende informat
 
    U kunt ook een controlegroep instellen om het gedrag van de e-mailontvangers te analyseren in vergelijking met het gedrag van profielen die niet als doelprofielen werden gebruikt. [Leer hoe u met besturingsgroepen werkt](../audience/control-group.md)
 
+   ![](assets/audience-selected.png)
+
 ## Plan de verzending {#schedule}
 
 >[!CONTEXTUALHELP]
@@ -139,11 +140,11 @@ Standaard worden de **[!UICONTROL Confirm before sending]** is ingeschakeld. Dit
 
 Zodra uw e-mail klaar is, kunt u een voorbeeld bekijken en testen voordat u de verzending start.
 
-In dit geval bekijken we een voorbeeld van de e-mail en sturen we een proefdruk met behulp van bestaande profielen.
+In dit geval bekijken we een voorbeeld van het e-mailbericht en sturen we proefdrukken naar specifieke e-mailadressen terwijl we tegelijkertijd een aantal van de beoogde profielen nastreven.
 
 Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in [deze sectie](../preview-test/preview-test.md).
 
-1. Klik op **[!UICONTROL Review to send]**. Een voorbeeld van uw e-mailvertoningen, samen met alle gevormde eigenschappen, publiek en programma. U kunt al deze elementen bewerken met de knop Wijzigen.
+1. Klik op **[!UICONTROL Review and send]**. Een voorbeeld van uw e-mailvertoningen, samen met alle gevormde eigenschappen, publiek en programma. U kunt al deze elementen bewerken met de knop Wijzigen.
 
 1. Klik op de knop **[!UICONTROL Simulate content]** om een voorbeeld van de e-mail te bekijken en proefdrukken te verzenden.
 
@@ -159,21 +160,25 @@ Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. Als u proefdrukken van uw e-mail wilt verzenden, klikt u op de knop **[!UICONTROL Test]** selecteert u vervolgens de profielen die de proefdruk ontvangen.
+1. Als u proefdrukken van uw e-mail wilt verzenden, klikt u op de knop **[!UICONTROL Test]** kiest u vervolgens de modus die u wilt gebruiken om uw proefdrukken te verzenden.
 
-   <!--TO REPLACE WITH SUBSTITUTION PROFILE-->
+   In dit voorbeeld gebruiken we Substitute vanuit de hoofddoelmodus. Dit houdt in dat we proefdrukken naar specifieke e-mailadressen verzenden en tegelijkertijd enkele profielen nastreven die voor de levering zijn bedoeld.
 
-   In dit voorbeeld, willen wij de proeven naar een specifiek testprofiel verzenden, dat een zaadadres is dat geen deel van het doel uitmaakt. Leer hoe u met zaadadressen werkt in [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+   ![](assets/proof-mode.png)
+
+1. Klik op Adres toevoegen en geef vervolgens het e-mailadres of de e-mailadressen op waarop de proefdrukken worden uitgevoerd.
+
+   Selecteer voor elk e-mailadres het profiel in het doel dat u wilt nadoen. U kunt Adobe Campaign ook een willekeurig profiel van het doel laten selecteren.
 
    ![](assets/proof-test-profile.png)
 
-   >[!NOTE]
-   >
-   >U kunt uw berichten ook testen door u voor te doen met bepaalde profielen en het proefdrukbericht naar het e-mailadres van uw keuze te sturen. [Ontdek hoe u proeven verzendt](../preview-test/preview-test.md)
-
 1. Klikken **[!UICONTROL Send test email ]** bevestig vervolgens de verzending.
 
-   Nadat de proefdrukken zijn verzonden, kunt u de status controleren door op de knop **[!UICONTROL View test email log]** knop.
+   Proefdrukken worden naar de opgegeven e-mailadressen verzonden met het geselecteerde profiel, met de **[Proef x]** voorvoegsel.
+
+   ![](assets/proof-sent.png)
+
+   U kunt de status van de verzendende persoon controleren en de verzonden proefdrukken op elk gewenst moment openen door op de knop **[!UICONTROL View test email log]** in het scherm Inhoud simuleren.
 
 ## E-mail verzenden en controleren {#prepare-send}
 
@@ -183,11 +188,15 @@ Nadat u uw e-mail hebt bekeken en getest, kunt u de voorbereiding starten en ver
 
    ![](assets/preparation.png)
 
-1. Klik op **[!UICONTROL Send]** bevestig vervolgens de verzending.
+1. Klik op **[!UICONTROL Send]** of **[!UICONTROL Send as scheduled]** bevestig vervolgens de verzending.
 
-   U kunt het verzenden in real time, samen met statistieken volgen. Daarnaast worden de **[!UICONTROL Logs]** toegang tot gedetailleerde informatie over het verzenden van e-mail. [Leer hoe u leveringslogboeken kunt controleren](../monitor/delivery-logs.md)
-   ![](assets/logs.png)
+1. Zodra het verzenden van uw e-mail is begonnen, of onmiddellijk of op de geplande datum, kunt u het verzenden in real time in dit scherm, samen met statistieken volgen.
 
-1. Nadat het e-mailbericht is verzonden, hebt u toegang tot uw toegewezen [rapporten](../reporting/reports.md) voor verdere analyse.
+   ![](assets/sent-mail.png)
 
+   >[!NOTE]
+   >
+   >Daarnaast worden de **[!UICONTROL Logs]** toegang tot gedetailleerde informatie over het verzenden van e-mail. [Leer hoe u leveringslogboeken kunt controleren](../monitor/delivery-logs.md)
+
+1. Nadat u het e-mailbericht hebt verzonden, kunt u speciale rapporten openen voor verdere analysedoeleinden. [Leer hoe u met rapporten werkt](../reporting/reports.md)
    ![](assets/reports.png)
