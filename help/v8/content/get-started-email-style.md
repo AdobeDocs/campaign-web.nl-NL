@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met e-mailstijl
 description: Ontdek de verschillende manieren waarop u de stijl van uw e-mailinhoud kunt aanpassen
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Nadat u uw e-mailinhoud hebt gemaakt in [!DNL Journey Optimizer], kunt u een aantal opmaakparameters en -kenmerken aanpassen in het instellingenvenster E-mailontwerper.
+Nadat u uw e-mailinhoud hebt gemaakt in [!DNL Adobe Campaign], kunt u een aantal opmaakparameters en -kenmerken aanpassen in het instellingenvenster E-mailontwerper.
 
 U kunt de wijzigingen toepassen op de hoofdtekst van de e-mail, op een structuurcomponent of op een inhoudscomponent.
 
