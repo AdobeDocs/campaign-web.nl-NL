@@ -5,10 +5,10 @@ description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 Web docs
 hide: true
-source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
+source-git-commit: e67f941d59b38a5dfa5985cacfc7403314e9c71f
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 6%
+source-wordcount: '165'
+ht-degree: 5%
 
 ---
 
@@ -39,11 +39,10 @@ ht-degree: 6%
       + [Verticale uitlijning en opvulling aanpassen](content/alignment-and-padding.md)
       + [Een stijl voor koppelingen definiëren](content/styling-links.md)
       + [Inline-opmaakkenmerken toevoegen](content/inline-styling.md)
-   + Uw inhoud aanpassen {#personalize}
-      + [Aanpassing toevoegen](personalization/personalize.md)
+   + [Aanpassing toevoegen](personalization/personalize.md)
    + [Aanbiedingen verzenden](content/offers.md)
 + Selecteer het e-mailpubliek {#audience}
-   + [Informatie over doelgroepen](audience/about-audiences.md)
+   + [Aan de slag met het publiek](audience/about-audiences.md)
    + [Een publiek selecteren](audience/add-audience.md)
    + [Een controlegroep instellen](audience/control-group.md)
    + [Bepaal een publiek met de regelbouwer](audience/segment-builder.md)
