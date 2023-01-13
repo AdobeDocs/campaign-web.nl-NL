@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: E-mailleveringsinstellingen
-description: Campagne v8 Webdocumentatie
+description: Meer informatie over instellingen voor e-maillevering in de gebruikersinterface van het campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: bd028d11d9468c0d5752691cb08ebd7a49608374
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1422'
 ht-degree: 11%
 
 ---

@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: E-mailinhoud voorvertonen
-description: Campagne v8 Webdocumentatie
+description: Leer hoe u uw e-mailinhoud kunt voorvertonen met de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---

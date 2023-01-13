@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Uw eerste e-mail maken
-description: Campagne v8 Webdocumentatie
+title: Uw eerste e-mail verzenden
+description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: bc58f1f9ebb5f73dbd23539ca14aa5c0be4c841d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1165'
 ht-degree: 1%
 
 ---

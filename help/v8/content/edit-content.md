@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: E-mailinhoud bewerken
-description: Campagne v8 Webdocumentatie
+description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 72ce0a77704b2592e1186f70ea7aef308989d8c4
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---

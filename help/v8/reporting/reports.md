@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Rapportage
-description: Campagne v8 Webdocumentatie
+title: Leveringsrapporten
+description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 0%
+source-wordcount: '387'
+ht-degree: 1%
 
 ---
 
-# Rapportage {#reports}
+# Leveringsrapporten {#reports}
 
 ![](../assets/do-not-localize/badge.png)
 

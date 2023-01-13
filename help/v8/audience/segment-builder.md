@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Werken met de segmentmanager
-description: Campagne v8 Webdocumentatie
+title: Bepaal een publiek met de regelbouwer
+description: Leer hoe u met de Segment Builder werkt
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: 045025367a826eece052367be557e47aaf37dc99
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
