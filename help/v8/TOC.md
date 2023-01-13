@@ -5,7 +5,7 @@ description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 Web docs
 hide: true
-source-git-commit: 4e29e2e65fff1eac60d4c0c88c2e56b55b7f79c9
+source-git-commit: 568a86845c19b1df95d55e11f119aa6305b57ca4
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 6%
@@ -15,7 +15,7 @@ ht-degree: 6%
 
 # Adobe Campaign v8-webdocumentatie {#v8}
 
-+ [Campagne Web v8-documentatie](campaign-web-home.md)
++ [Campagne v8 Webdocumentatie](campaign-web-home.md)
 + Nieuwe functies? {#whats-new}
    + [Opmerkingen bij de laatste release](rn/release-notes.md)
    + [Documentatie-updates](rn/documentation-updates.md)
