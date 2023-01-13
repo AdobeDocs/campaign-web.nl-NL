@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
+source-git-commit: 0d74cababf2b4d66d3b2ce9b0ae2a0f00cb1cdef
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ U kunt de inhoud van het bericht aanpassen door:
 
 * Dynamisch invoegen **personalisatievelden**
 
-   De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering, kunt u om het even welk gebied selecteren met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of de tekst van uw berichten worden opgenomen.
+   De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering, kunt u om het even welk gebied selecteren met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen.
 
    ![](assets/perso-subject-line.png)
 
-   De bovenstaande syntaxis voegt de plaats van de ontvanger in uw inhoud in: &lt;%= receiving.location.city %>.
+   De volgende syntaxis voegt de plaats van de ontvanger in uw inhoud in: &lt;%= receiving.location.city %>.
 
 * Vooraf gedefinieerde invoegen **inhoudsblokken**
 
@@ -44,7 +44,7 @@ Om verpersoonlijking in toe te voegen **[!UICONTROL Subject line]** Voer in het 
 
 1. Klik op de knop **Dialoogvenster voor aanpassen openen** pictogram rechts van **Onderwerpregel** veld.
 1. Voer de inhoud van de onderwerpregel in en selecteer de personalisatiekenmerken die u wilt toevoegen.
-1. Klik op Bevestigen om te valideren. De personalisatiekenmerken worden toegevoegd aan de onderwerpregel.
+1. Klikken **Bevestigen** om te valideren. De personalisatiekenmerken worden toegevoegd aan de onderwerpregel.
 
 ![](assets/perso-subject.png)
 
@@ -81,4 +81,4 @@ Een **link**:
 
 ## Je aanbiedingen aanpassen {#personalize-offers}
 
-U kunt tot de verpersoonlijkingsredacteur ook toegang hebben wanneer het toevoegen van tekst-type inhoud aan uw aanbiedingen&#39; vertegenwoordiging.
+U kunt tot de verpersoonlijkingsredacteur ook toegang hebben wanneer het toevoegen van tekst-type inhoud aan uw aanbiedingen&#39; vertegenwoordiging. Meer informatie in [deze sectie](../content/offers.md).
