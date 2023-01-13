@@ -3,9 +3,9 @@ audience: end-user
 title: Leveringsrapporten
 description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '385'
 ht-degree: 1%
 
 ---
@@ -44,9 +44,9 @@ Niet-te leveren items en stootcijfers: Dit verslag geeft een overzicht van de ni
 
 * **URL&#39;s en klik op streams**: Dit rapport bevat de lijst met bezochte pagina&#39;s na een levering.
 
-* **Gebruikersactiviteiten**: Dit rapport toont de uitsplitsing van opent, klikt en transacties per half uur, uur of dag, in de vorm van een grafiek.
+* **Gebruikersactiviteiten**: Dit rapport toont de uitsplitsing van opent en klikt per half uur, uur of dag, in de vorm van een grafiek.
 
-* **Statistieken bijhouden**: Dit rapport bevat statistieken over openen, klikken en transacties.
+* **Statistieken bijhouden**: Dit rapport bevat statistieken over het openen en klikken.
 
 * **Indeling van openen**: In dit rapport wordt de uitsplitsing van de openingen per besturingssysteem, apparaat en browser voor de betrokken periode weergegeven. Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele apparaten. In het tweede voorbeeld worden alleen statistieken weergegeven over het openen op mobiele apparaten.
 

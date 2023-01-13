@@ -3,9 +3,9 @@ audience: end-user
 title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '551'
 ht-degree: 4%
 
 ---
@@ -86,12 +86,12 @@ Voer de volgende stappen uit:
 
    Hier worden de verschillende KPI&#39;s weergegeven:
 
-   * **Geleverd**: het aantal berichten dat is verzonden. Het percentage is gebaseerd op het totale aantal beoogde ontvangers.
-   * **Openen**: het aantal geopende berichten. Het percentage is gebaseerd op het aantal geleverde berichten.
-   * **Klikken**: het aantal ontvangers dat ten minste één keer in de e-mail heeft geklikt. Het percentage is gebaseerd op het aantal geleverde berichten.
+   * **Geleverd**: het aantal berichten dat is afgeleverd. Het getoonde percentage is gebaseerd op het totale aantal verzonden berichten.
+   * **Openen**: het aantal geopende berichten. Het getoonde percentage is de verhouding van het aantal verschillende opent in vergelijking met het aantal geleverde berichten.
+   * **Klikken**: het aantal ontvangers dat ten minste één keer in de e-mail heeft geklikt. Het getoonde percentage is de verhouding van het aantal verschillende kliks in vergelijking met het aantal geleverde berichten.
 
    >[!NOTE]
    >
-   >De **Openen** en **Klikken** indicatoren worden in real time bijgewerkt.
+   >De **Openen** en **Klikken** de indicatoren worden na 5 minuten bijgewerkt .
 
    U kunt het verzenden op elk ogenblik pauzeren en dan hervatten. Als u de levering tegenhoudt terwijl het wordt verzonden, zult u niet kunnen hervatten.
