@@ -3,10 +3,10 @@ audience: end-user
 title: Opmerkingen bij de release Campagne Web v8
 description: Opmerkingen bij de release Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 99ad5ec9fddb0790738f45b41b17baca8e3953bd
+source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
+source-wordcount: '154'
+ht-degree: 1%
 
 ---
 
@@ -14,13 +14,11 @@ ht-degree: 2%
 
 ![](../assets/do-not-localize/badge.png)
 
-Deze pagina bevat een overzicht van alle nieuwe functies en verbeteringen voor Campagne Web v8. U kunt ook de [meest recente documentatie-updates](documentation-updates.md) pagina voor meer wijzigingen.
+Deze pagina bevat een overzicht van alle nieuwste functies en verbeteringen voor Campagne Web v8.
 
+## Alfa-release{#alpha-release}
 
-
-## Alfa-functies
-
-Deze webinterface is momenteel alleen beschikbaar voor alfakantoren met de volgende mogelijkheden:
+Deze nieuwe webinterface voor campagnes is momenteel alleen beschikbaar voor **Alfa-artsen** met de volgende mogelijkheden:
 
 **Moderne, intuïtieve en verenigde ervaring**
 
@@ -31,12 +29,14 @@ No search and pulse notifications in Alpha
 -->
 * Ervaar de nieuwe navigatie met linkermenu&#39;s en mappen
 
+Meer informatie over de nieuwe gebruikersinterface vindt u in [deze pagina](../get-started/user-interface.md).
+
 **Uw e-mailcampagne maken, starten en meten**
 
-* Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper
-* Bepaal doelpubliek met de regelbouwer
-* E-mailberichten voorvertonen, testen en verzenden
-* De monitor verzendt en meet resultaten met ingebouwde rapporten
+* Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper - [Meer informatie](../content/edit-content.md)
+* Bepaal doelpubliek met de regelbouwer - [Meer informatie](../audience/about-audiences.md)
+* Je e-mailberichten voorvertonen, testen en verzenden - [Meer informatie](../monitor/prepare-send.md)
+* Bewaak verzenden en meten resultaten met ingebouwde rapporten - [Meer informatie](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that
