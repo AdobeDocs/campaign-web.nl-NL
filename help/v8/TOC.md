@@ -5,9 +5,9 @@ description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 Web docs
 hide: true
-source-git-commit: 568a86845c19b1df95d55e11f119aa6305b57ca4
+source-git-commit: 2d23b04b81ab625de0936fdf058f6ac8bd1017c3
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 6%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 6%
       + [Een stijl voor koppelingen definiëren](content/styling-links.md)
       + [Inline-opmaakkenmerken toevoegen](content/inline-styling.md)
    + Uw inhoud aanpassen {#personalize}
-      + [Aan de slag met personalisatie](personalization/personalize.md)
+      + [Aanpassing toevoegen](personalization/personalize.md)
    + [Aanbiedingen verzenden](content/offers.md)
 + Selecteer het e-mailpubliek {#audience}
    + [Informatie over doelgroepen](audience/about-audiences.md)
