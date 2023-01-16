@@ -3,9 +3,9 @@ audience: end-user
 title: Aanbiedingen verzenden
 description: Aanbiedingen verzenden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: d5fa13813a22b21fdedd90475ee9258f5003e22d
+source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,13 @@ De stappen voor het verzenden van voorstellen met een e-mail zijn als volgt:
 
 ## Configureer de aanbiedingen die u wilt voorstellen {#configure}
 
-Klik op de knop **[!UICONTROL Offers]** van het e-mailinhoudsopgavescherm en configureer de aanbiedingen die u wilt voorstellen.
+1. Klik op de knop **[!UICONTROL Offers]** in het scherm E-mailinhoud.
 
-![](assets/create-content-offers.png)
+   ![](assets/setup-offers.png)
 
-1. Selecteer **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving.
+1. Vorm welke aanbiedingen aan de ontvangers zouden moeten worden voorgesteld. Selecteer eerst de **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving.
+
+   ![](assets/create-content-offers.png)
 
 1. Selecteer een specifieke **[!UICONTROL Offer category]** waarin de aanbiedingen worden gesorteerd.
 
@@ -67,10 +69,10 @@ Nadat u de voorstellen hebt geconfigureerd voor voorstellen in uw e-mail, kunt u
 
 ## Aanbiedingen in de e-mail invoegen {#insert}
 
-Aanbiedingen worden aan een e-mail toegevoegd met de Expressieeditor. Zij kunnen worden ingevoegd:
+Aanbiedingen kunnen in de e-mail worden toegevoegd met de Expressieeditor. Zij kunnen worden ingevoegd:
 
-* in de onderwerpregel van de e-mail,
-* in de hoofdtekst van de e-mail door personalisatie toe te staan in om het even welke inhoudscomponent. [Leer hoe u inhoudscomponenten kunt toevoegen](content-components.md)
+* In de onderwerpregel van de e-mail:
+* In de e-mailhoofdtekst door personalisatie toe te staan in een inhoudscomponent. [Leer hoe u inhoudscomponenten kunt toevoegen](content-components.md)
 
 >[!NOTE]
 >
