@@ -3,9 +3,9 @@ audience: end-user
 title: Opmerkingen bij de release Campagne Web v8
 description: Opmerkingen bij de release Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 370f0fe14d19c9dc2a20653fb3f54da1ec6d2811
+source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '195'
 ht-degree: 1%
 
 ---
@@ -22,16 +22,21 @@ Deze nieuwe webinterface voor campagnes is momenteel alleen beschikbaar voor **A
 
 **Moderne, intuïtieve en verenigde ervaring**
 
+De nieuwe webinterface van Campagne biedt een nieuwe gebruikerservaring die is afgestemd op alle Adobe Experience Cloud-oplossingen en -apps. Het biedt:
+
 * Toegang tot de nieuwe interface en andere oplossingen van de Adobe met één enkele en gedeelde gebruikerszitting
-* Uniforme Shell-integratie: toegang tot gemeenschapslessen, helpcentrum, oplossingsschakelaar
+* Nieuwe navigatie-ervaring, met alle menu&#39;s en mappen beschikbaar via de linkertrack
+* Oplossing- en organisatie-switches van de bovenste balk
+* De verenigde integratie van Shell, met een directe toegang tot gemeenschap, hulpcentrum, en steun
 <!--
 No search and pulse notifications in Alpha
 -->
-* Ervaar de nieuwe navigatie met linkermenu&#39;s en mappen
 
 Meer informatie over de nieuwe gebruikersinterface vindt u in [deze pagina](../get-started/user-interface.md).
 
 **Uw e-mailcampagne maken, starten en meten**
+
+Gebruik de nieuwe UI van het Web van de Campagne:
 
 * Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper - [Meer informatie](../content/edit-content.md)
 * Bepaal doelpubliek met de regelbouwer - [Meer informatie](../audience/about-audiences.md)
@@ -46,4 +51,4 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Houd er rekening mee dat kanaaloverschrijdende campagnes en mogelijkheden voor workflowbeheer beschikbaar zijn in het bètaprogramma.
+>Houd er rekening mee dat kanaaloverschrijdende campagnes en mogelijkheden voor workflowbeheer beschikbaar zijn met de bètaversie.

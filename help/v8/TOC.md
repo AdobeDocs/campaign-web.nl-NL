@@ -5,10 +5,10 @@ description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van campagnes
 title: Campagne v8 Web docs
 hide: true
-source-git-commit: e67f941d59b38a5dfa5985cacfc7403314e9c71f
+source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 5%
+source-wordcount: '164'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 + [Campagne v8 Webdocumentatie](campaign-web-home.md)
 + Nieuwe functies? {#whats-new}
-   + [Opmerkingen bij de laatste release](rn/release-notes.md)
+   + [Aanvullende informatie ](rn/release-notes.md)
    + [Documentatie-updates](rn/documentation-updates.md)
 + [Aan de slag](get-started/get-started.md)
 + [De interface detecteren](get-started/user-interface.md)
