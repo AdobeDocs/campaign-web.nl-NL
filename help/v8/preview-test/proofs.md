@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: Verzend proeven
-description: Leer proefdrukberichten definiëren en verzenden
+title: Test-e-mails verzenden
+description: Leer teste-mails definiëren en verzenden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 2%
+source-wordcount: '378'
+ht-degree: 1%
 
 ---
 
-# Verzend proeven {#send-proofs}
+# Test-e-mails verzenden {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Door teste-mails te verzenden, kunt u uw e-mail valideren en verschillende elementen controleren, zoals koppelingen, uitschakelkoppelingen en het spiegelen van pagina&#39;s, afbeeldingen en mogelijke fouten opsporen.
+Het verzenden van e-mails over tests is een belangrijke stap in het valideren van uw e-mailcampagne en het identificeren van mogelijke problemen. Door teste-mails te verzenden, kunt u verschillende elementen controleren, zoals koppelingen, opt-out-koppelingen, afbeeldingen en spiegelpagina&#39;s, en eventuele fouten opsporen.
 
-De proefdrukken kunnen naar twee soorten ontvangers worden verzonden:
+U kunt teste-mails verzenden naar twee typen ontvangers:
 
-* **Testprofielen**: bewijzen verzenden naar zaadadressen, die extra en fictieve ontvangers in het gegevensbestand zijn;
-* **Vervangende profielen**: proefdrukken naar een specifiek e-mailadres verzenden met een bestaand profiel. Op deze manier kunt u uzelf in de positie van de profielen plaatsen en een exacte weergave krijgen van het bericht dat het profiel ontvangt.
+* **Testprofielen**: teste-mails sturen naar zaadadressen, die aanvullende en fictieve ontvangers in de database zijn;
+* **Vervangende profielen**: U kunt teste-mails verzenden naar een specifiek e-mailadres terwijl u een bestaand profiel imiteert. Zo kunt u het e-mailbericht net zo ervaren als de ontvangers, zodat u het bericht dat het profiel ontvangt, op de juiste wijze kunt weergeven.
 
 ## Ontvangers met proefdrukken selecteren {#recipients}
 
