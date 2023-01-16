@@ -3,7 +3,7 @@ audience: end-user
 title: Opmerkingen bij de release Campagne Web v8
 description: Opmerkingen bij de release Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: b021a693277ba61a580e1fcaa8ec287f0dbeadb9
+source-git-commit: 0f7775d2c079c7d7c228249d81d9cba8e0d9619c
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Deze nieuwe webinterface voor campagnes is momenteel alleen beschikbaar voor **A
 
 **Moderne, intuïtieve en verenigde ervaring**
 
-De nieuwe webinterface van Campagne biedt een nieuwe gebruikerservaring die is afgestemd op alle Adobe Experience Cloud-oplossingen en -apps. Het biedt:
+De nieuwe webinterface van Campagne biedt een nieuwe gebruikerservaring die is afgestemd op alle Adobe Experience Cloud-oplossingen en -toepassingen. Het biedt:
 
 * Toegang tot de nieuwe interface en andere oplossingen van de Adobe met één enkele en gedeelde gebruikerszitting
 * Nieuwe navigatie-ervaring, met alle menu&#39;s en mappen beschikbaar via de linkertrack
