@@ -3,10 +3,10 @@ audience: end-user
 title: Opmerkingen bij de release Campagne Web v8
 description: Opmerkingen bij de release Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: bbd1266ec1b7ee80f923e96e1824509556efc65f
+source-git-commit: a06e695f9e2942112c2e8d516d26cef8903ca5ff
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 1%
+source-wordcount: '288'
+ht-degree: 0%
 
 ---
 
@@ -52,3 +52,12 @@ add info somewhere to remind users that
 >[!NOTE]
 >
 >Houd er rekening mee dat kanaaloverschrijdende campagnes en mogelijkheden voor workflowbeheer beschikbaar zijn met de bètaversie.
+
+## Terminologie-updates
+
+Als bestaande campagnegebruiker merk op dat sommige concepten zijn hernoemd om zich aan de recentste terminologienormen in de industrie aan te passen. Deze wijzigingen zijn alleen van toepassing op de webinterface en worden niet weerspiegeld in de clientconsole. Deze worden hieronder samengevat.
+
+* Proefdrukken zijn nu **E-mailberichten testen**. Als u een bewijs wilt verzenden, gebruikt u de **Testen** in de gebruikersinterface voor e-maillevering
+* De leveringsanalyse is nu de **voorbereiding van levering**. Wanneer u de analyse wilt starten, klikt u op de knop **Voorbereiden** knop
+* E-mailvoorvertoning is nu beschikbaar via **Inhoud simuleren** knop
+* Lijsten zijn nu **Soorten publiek**
