@@ -3,10 +3,10 @@ audience: end-user
 title: Test-e-mails verzenden
 description: Leer teste-mails definiëren en verzenden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 1%
+source-wordcount: '501'
+ht-degree: 0%
 
 ---
 
@@ -19,60 +19,61 @@ Het verzenden van e-mails over tests is een belangrijke stap in het valideren va
 U kunt teste-mails verzenden naar twee typen ontvangers:
 
 * **Testprofielen**: teste-mails sturen naar zaadadressen, die aanvullende en fictieve ontvangers in de database zijn;
-* **Vervangende profielen**: U kunt teste-mails verzenden naar een specifiek e-mailadres terwijl u een bestaand profiel imiteert. Zo kunt u het e-mailbericht net zo ervaren als de ontvangers, zodat u het bericht dat het profiel ontvangt, op de juiste wijze kunt weergeven.
 
-## Ontvangers met proefdrukken selecteren {#recipients}
+* **Vervanging van hoofddoel**: U kunt teste-mails verzenden naar een specifiek e-mailadres terwijl u een bestaand profiel imiteert. Zo kunt u het e-mailbericht net zo ervaren als de ontvangers, zodat u het bericht dat het profiel ontvangt, op de juiste wijze kunt weergeven.
 
-1. Open het scherm voor het maken van e-mailinhoud en klik vervolgens op **[!UICONTROL Simulate content]**.
+## Selecteer de testontvangers {#recipients}
 
-1. Klik op de knop **[!UICONTROL Test]** en gebruikt vervolgens de knop **[!UICONTROL Mode]** vervolgkeuzelijst om het type ontvangers te kiezen dat de proefdrukken ontvangt:
+1. Open het scherm voor het simuleren van e-mailinhoud en klik op **[!UICONTROL Test]** knop.
 
-<!-- to check: by default, profiles selected in previous screen are pre-selected for proofs. Can add addtitional profiles + remove preselected?-->
+   ![](assets/test-button.png)
 
-### Proefdrukken naar testprofielen verzenden
+1. Gebruik de **[!UICONTROL Mode]** vervolgkeuzelijst om het type ontvangers te kiezen dat de teste-mail ontvangt:
 
-1. Kies de optie **[!UICONTROL Use test profiles]** in.
+   * **Testprofielen**: de test-e-mail verzenden naar zaadadressen, die aanvullende en fictieve ontvangers in de database zijn;
 
-1. Voeg de testprofielen toe waarop de e-mails over de test worden weergegeven.
+   * **Vervanging van hoofddoel**: Stuur de test-e-mail naar een specifiek e-mailadres en imiteer een bestaand profiel. Zo kunt u het e-mailbericht net zo ervaren als de ontvangers, zodat u het bericht dat het profiel ontvangt, op de juiste wijze kunt weergeven.
 
-   <!--FOR BETA: You can also build an audience to select test profiles based on your own criteria using the **[!UICONTROL Add test audience]** button.-->
-
-   ![](assets/test-profiles-audience.png)
-
-### Proefdrukken naar vervangingsprofielen verzenden
-
-1. Kies de optie **[!UICONTROL Substitution from target]** in.
-
-1. Voeg het e-mailadres of de e-mailadressen toe waarop de proefdrukken worden weergegeven.
+   ![](assets/test-mode.png)
 
    >[!NOTE]
    >
-   >U kunt elk e-mailadres opgeven. Op deze manier kunt u proefdrukken naar alle gebruikers verzenden, zelfs als zij geen gebruikers van Adobe Campaign V8 zijn.
+   >Standaard worden de **[!UICONTROL Test profiles]** is geselecteerd. Als u al profielen hebt geselecteerd om een voorvertoning van de e-mail weer te geven in het scherm voor het simuleren van de inhoud, worden deze profielen vooraf geselecteerd als testontvangers. U kunt uw selectie wissen en/of extra ontvangers toevoegen.
 
-1. Selecteer voor elk e-mailadres het profiel in het doel dat u wilt gebruiken. U kunt Adobe Campaign ook een willekeurig profiel van het doel laten selecteren.
+1. Kies de optie **[!UICONTROL Substitution from target]** Voer vervolgens de volgende stappen uit:
 
-   ![](assets/substitution.png)
+   1. Klik op de knop **[!UICONTROL Add address]** en geeft u het e-mailadres op dat de teste-mail ontvangt.
 
-Nadat de proefontvangers zijn geselecteerd, kunt u de teste-mail verzenden. [Ontdek hoe u proeven verzendt](#send)
+      U kunt elk e-mailadres invoeren. Op deze manier kunt u teste-mails sturen naar gebruikers, zelfs als zij geen gebruikers van Adobe Campaign V8 zijn.
 
->[!NOTE]
->
->Als u het laatste e-mailbericht naar de ontvangers van de proefdrukken wilt verzenden, schakelt u de optie **[!UICONTROL Include test population in the main target]** optie ingeschakeld.
+   1. Selecteer het profiel in het doel dat u wilt gebruiken om de test-e-mail te verzenden. U kunt Adobe Campaign ook een willekeurig profiel van het doel laten selecteren.
 
-## Proefdrukken verzenden {#send}
+   1. Bevestig de ontvanger en herhaal de bewerking om zoveel adressen toe te voegen als nodig is.
 
-Als u de proefdrukken naar de geselecteerde ontvangers wilt verzenden, klikt u op **[!UICONTROL Send test email]** bevestig vervolgens de verzending.
+      ![](assets/substitution.png)
+
+1. Nadat u de testontvangers hebt geselecteerd, kunt u de teste-mail verzenden. [Leer hoe u e-mailberichten over tests verzendt](#send)
+
+   >[!NOTE]
+   >
+   >Als u het laatste e-mailbericht naar de ontvangers van de teste-mail wilt verzenden, schakelt u de optie **[!UICONTROL Include test population in the main target]** optie ingeschakeld.
+
+## De test-e-mail verzenden {#send}
+
+Als u het testbericht naar de geselecteerde ontvangers wilt verzenden, klikt u op **[!UICONTROL Send test email]** bevestig vervolgens de verzending.
 
 ![](assets/send-proof.png)
 
-Verzend zoveel proefdrukken als nodig zijn tot u de inhoud van uw levering hebt voltooid. Zodra dit wordt gedaan, kunt u e-mail naar het belangrijkste doel verzenden. [Leer hoe u uw e-mail voorbereidt en verzendt](../monitor/prepare-send.md)
+U kunt zoveel teste-mails verzenden als u nodig hebt, totdat u de inhoud van uw levering hebt voltooid. Zodra dit wordt gedaan, kunt u e-mail naar het belangrijkste doel verzenden. [Leer hoe u uw e-mail voorbereidt en verzendt](../monitor/prepare-send.md)
 
-## Toegang verzonden proefdrukken {#access-proofs}
+## E-mails over verzonden testberichten openen {#access-proofs}
 
-Zodra de proefdrukken zijn verzonden, kunt u tot specifieke logboeken van toegang hebben **[!UICONTROL View test email log]** knop. Deze logboeken staan u toe om tot alle proeven toegang te hebben die voor de geselecteerde levering worden verzonden, en om specifieke statistieken met betrekking tot hun het verzenden te visualiseren.
+Zodra de teste-mails zijn verzonden, hebt u toegang tot toegewezen logbestanden via de **[!UICONTROL View test email log]** knop.
+
+Met deze logboeken hebt u toegang tot alle teste-mails die voor de geselecteerde levering zijn verzonden en kunt u specifieke statistieken over het verzenden van deze mails visualiseren. [Leer hoe u leveringslogboeken kunt controleren](../monitor/delivery-logs.md)
 
 ![](assets/proof-log.png)
 
-U kunt ook proefdrukken vanuit de lijst met leveringen openen, net als bij elke levering.
+U kunt de verzonden teste-mails ook vanuit de lijst met leveringen openen, net als elke levering.
 
 ![](assets/delivery-list.png)

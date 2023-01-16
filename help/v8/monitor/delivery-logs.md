@@ -3,9 +3,9 @@ audience: end-user
 title: Leveringslogboeken controleren
 description: Leer hoe u leveringslogboeken kunt controleren
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '295'
 ht-degree: 21%
 
 ---
@@ -39,7 +39,7 @@ Alle validatiestappen, waarschuwingen en fouten worden weergegeven. De gekleurde
 
 ## Leveringen
 
-De **Leveringen** biedt een geschiedenis van elk exemplaar van deze levering aan. De lijst met verzonden berichten en hun status is hier opgeslagen. Op dit tabblad kunt u de leveringsstatus voor elke ontvanger bekijken.
+De **Logboeken verzenden** biedt een geschiedenis van elk exemplaar van deze levering aan. De lijst met verzonden berichten en hun status is hier opgeslagen. Op dit tabblad kunt u de leveringsstatus voor elke ontvanger bekijken.
 
 ![](assets/logs2.png)
 

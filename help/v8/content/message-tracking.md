@@ -3,9 +3,9 @@ audience: end-user
 title: Je berichten bijhouden
 description: Leer hoe u koppelingen toevoegt en verzonden berichten bijhoudt
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Wanneer de e-mail is verzonden en de ontvangers op de koppeling voor de spiegelp
 
 >[!NOTE]
 >
->In de proefdruk die naar de testprofielen wordt verzonden, is de verbinding aan de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
+>In de testmail die naar de testprofielen wordt verzonden, is de verbinding aan de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
 
 De retentieperiode voor een spiegelpagina is 60 dagen. Na die vertraging is de spiegelpagina niet meer beschikbaar.
 

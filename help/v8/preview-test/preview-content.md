@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailinhoud voorvertonen
 description: Leer hoe u uw e-mailinhoud kunt voorvertonen met de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8438c7ab35c2423beddbb36db2fcf52f661876bf
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Voer de volgende stappen uit om een voorvertoning van de inhoud van uw e-mail we
 
 1. Open het scherm voor het maken van e-mailinhoud en klik op **[!UICONTROL Simulate content]** knop.
 
+   ![](assets/simulate.png)
+
 1. Selecteer een of meerdere profielen door op de knop **[!UICONTROL Select profile(s)]** en vervolgens de knop **[!UICONTROL Test profiles]** en **[!UICONTROL Profiles]** tabs waaruit u kunt kiezen.
 
    U kunt testprofielen en profielen combineren om een voorbeeld van uw e-mail te bekijken.
@@ -40,6 +42,10 @@ Voer de volgende stappen uit om een voorvertoning van de inhoud van uw e-mail we
 
    Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen in de lijst schakelen om een voorbeeld van de bijbehorende e-mail te bekijken.
 
-   U kunt ook een voorvertoning van de rendering van uw inhoud weergeven op verschillende apparaten (bureaublad, mobiel, tablet) door op het toegewezen pictogram in de rechterbovenhoek te klikken.
+   >[!NOTE]
+   >
+   >U kunt de rendering van uw inhoud op verschillende apparaten (bureaublad, mobiel, tablet) voorvertonen door op het toegewezen pictogram in de rechterbovenhoek te klikken.
 
    ![](assets/preview.png)
+
+

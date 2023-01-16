@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailleveringsinstellingen
 description: Meer informatie over instellingen voor e-maillevering in de gebruikersinterface van het campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1441'
 ht-degree: 11%
 
 ---
@@ -183,8 +183,8 @@ U kunt de uitsluitingsparameters in deze sectie instellen. Beschikbare opties zi
 
 * **Houd quarantineadressen** Hiermee kunt u profielen met een adres dat niet reageert, behouden van het doel.
 
-U kunt ook de naam van de proefdrukken aanpassen.
+U kunt ook de naam van de teste-mails aanpassen.
 
-Gebruik de **De leveringscode voor de proefdruk behouden** aan het bewijs dezelfde leveringscode te koppelen als die welke is vastgesteld voor de levering waarop het betrekking heeft.
+Gebruik de **De leveringscode voor de proefdruk behouden** om aan de teste-mail de zelfde leveringscode te associëren die voor de levering wordt bepaald waarop het betrekking heeft.
 
-Standaard wordt het onderwerp van het bewijs voorafgegaan door &quot;PROOF #&quot;, waarbij # het nummer van het bewijs is. U kunt dit voorvoegsel wijzigen in het dialoogvenster **Label, voorvoegsel** veld.
+Standaard wordt het onderwerp van de teste-mail voorafgegaan door &quot;PROOF #&quot;, waarbij # het nummer van de teste-mail is. U kunt dit voorvoegsel wijzigen in het dialoogvenster **Label, voorvoegsel** veld.
