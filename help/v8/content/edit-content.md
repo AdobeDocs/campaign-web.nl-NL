@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,8 @@ U definieert de inhoud van uw e-mail als volgt:
    * [Stijl uw inhoud](get-started-email-style.md)
 
 1. Als u een bestand bij de e-mail wilt voegen, klikt u op de knop **[!UICONTROL Add attachment]** Selecteer vervolgens een of meerdere bestanden.
+
+   Om prestatieproblemen te voorkomen, wordt aanbevolen niet meer dan één bijlage per e-mail op te nemen.
 
    <!--limitation on size + number of files?-->
 

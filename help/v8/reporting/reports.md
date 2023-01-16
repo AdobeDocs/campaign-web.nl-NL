@@ -5,8 +5,8 @@ description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: 542d31b8a869628ed93f2729af844753b4e7921c
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
