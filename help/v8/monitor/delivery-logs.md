@@ -3,10 +3,10 @@ audience: end-user
 title: Leveringslogboeken controleren
 description: Leer hoe u leveringslogboeken kunt controleren
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 20%
+source-wordcount: '294'
+ht-degree: 21%
 
 ---
 
@@ -45,13 +45,13 @@ De **Leveringen** biedt een geschiedenis van elk exemplaar van deze levering aan
 
 ## Uitsluitingen
 
-De **Uitsluitingslogboeken** het lusje maakt een lijst van alle berichten die van het verzonden doel zijn uitgesloten en specificeert de reden voor de verzendmislukking.
+De **Uitsluitingslogboeken** bevat een lijst met alle berichten die zijn uitgesloten van het doel en geeft de reden voor de verzendfout op.
 
 ![](assets/logs3.png)
 
 ## Uitsluitingsoorzaken
 
-De **Uitsluiting veroorzaakt** toont het volume (in aantal berichten) van berichten die van het doel werden uitgesloten verzendt.
+De **Uitsluiting veroorzaakt** toont het volume (in aantal berichten) van berichten die van het doel werden uitgesloten.
 
 ![](assets/logs4.png)
 

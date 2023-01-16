@@ -3,7 +3,7 @@ audience: end-user
 title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het Web UI van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 38%
@@ -64,11 +64,11 @@ Na de voorbereiding van de levering kunt u de uitsluitingen op de volgende scher
 
    ![](assets/control-group5.png)
 
-* De **Uitsluitingslogboeken** elk profiel en de bijbehorende excusie weergeven **Reden**.
+* De **Uitsluitingslogboeken** elk profiel en de gerelateerde uitsluiting weergeven **Reden**.
 
    ![](assets/control-group6.png)
 
-* De **Uitsluiting veroorzaakt** Geef het aantal uitgesloten profielen voor elke typologieregel weer.
+* De **Uitsluiting veroorzaakt** het aantal uitgesloten profielen voor elke typologieregel weergeven.
 
    ![](assets/control-group7.png)
 

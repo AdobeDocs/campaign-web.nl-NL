@@ -3,7 +3,7 @@ audience: end-user
 title: Bepaal een publiek met de regelbouwer
 description: Leer hoe u met de Segment Builder werkt
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 1%
@@ -60,7 +60,7 @@ Aan de rechterkant **Eigenschappen van Rule** kunt u de volgende handelingen uit
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **Resultaten weergeven:** toont de lijst van ontvangers die door het publiek worden gericht
+* **Resultaten weergeven:** geeft de lijst weer van ontvangers die het doelpubliek als doel heeft.
 * **Codeweergave**: toont een op code-gebaseerde versie van het publiek in SQL.
 * **Geavanceerde kenmerken weergeven**: Schakel deze optie in als u de volledige lijst met kenmerken in het linkerpalet wilt weergeven: knooppunten, groepen, 1-1 koppelingen, 1-N koppelingen.
 * **Attributen**: geeft een beschrijving van het gemaakte publiek weer.

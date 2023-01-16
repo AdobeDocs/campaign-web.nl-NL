@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -97,6 +97,10 @@ Navtree view depends on permissions (same as console).
 * **Campagnes** - Dit is de lijst met uw campagnes. Standaard kunt u de begin- en einddatum en de laatste wijzigingsdatum en de status van de datums weergeven. U kunt de lijst filteren op status of begin-/einddatum. De sjablonen voor campagnes zijn ook beschikbaar. Deze lijsten zijn alleen-lezen.
 
 * **Leveringen** - Blader door de lijst met leveringen. Door gebrek, kunt u hun staat, laatste wijzigingsdatum evenals zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-maillevering om het dashboard te openen voor een overzicht van de leveringsgegevens. Leveringen op andere kanalen zijn alleen-lezen. De leveringsmalplaatjes zijn ook beschikbaar in read-only wijze. U kunt de clientconsole gebruiken om ze te bewerken. Zie dit [documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+
+   Gebruik de **Meer handelingen** om een levering te verwijderen of te dupliceren.
+
+   ![](assets/more-actions.png){width="70%" align="left"}
 
 ### Klantenbeheer
 
