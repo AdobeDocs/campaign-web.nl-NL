@@ -3,9 +3,9 @@ audience: end-user
 title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 9f33cd1bfcd32fb79b38d2da0ae88cda462b81c8
+source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1219'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Met behulp van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepe
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Leer hoe u uw e-mailinhoud ontwerpt met de e-mailontwerper."
->abstract="Leer hoe u uw inhoud ontwerpt"
+>title="Leer hoe u uw e-mailinhoud ontwerpt"
+>abstract="Leer hoe u de e-mailontwerper gebruikt."
 
 In dit geval gebruiken we een vooraf gedefinieerde sjabloon om onze e-mail te ontwerpen.
 
