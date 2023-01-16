@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 0d74cababf2b4d66d3b2ce9b0ae2a0f00cb1cdef
+source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -67,17 +67,49 @@ Als u de e-mailinhoud wilt aanpassen, opent u het bericht in de e-mailontwerper 
 
    ![](assets/perso-rendering.png)
 
+Als u een inhoudsblok aan uw e-mail wilt toevoegen, voert u dezelfde stappen uit en selecteert u een inhoudsblok van het laatste pictogram:
+
+![](assets/perso-insert-block.png)
+
+Nadat het inhoudsblok is ingevoegd, wordt het toegevoegd aan de e-mailinhoud, zoals hieronder wordt weergegeven. Het wordt automatisch aangepast aan het ontvankelijke profiel wanneer de verpersoonlijking, bij de leveringsvoorbereidingsstap wordt geproduceerd.
+
+![](assets/perso-content-block-in-email.png)
+
+
+Ingebouwde inhoudsblokken zijn:
+* **[!UICONTROL Enabled by Adobe Campaign]** : voegt het logo &quot;Enabled by Adobe Campaign&quot; in.
+* **[!UICONTROL Formatting function for proper nouns]** : genereert de **[!UICONTROL toSmartCase]** De functie Javascript, die de eerste letter van elk woord in hoofdletters verandert.
+* **[!UICONTROL Greetings]** : voegt begroetingen met de naam van de ontvanger in. Voorbeeld: &quot;Hallo JanDoe,&quot;.
+* **[!UICONTROL Insert logo]** : voegt een logo in dat in de instantie-instellingen is gedefinieerd.
+* **[!UICONTROL Link to mirror page]** : voegt een koppeling naar de spiegelpagina in: &quot;Klik hier als je dit bericht niet juist kunt weergeven.&quot;
+* **[!UICONTROL Mirror page URL]** : voegt de URL van de spiegelpagina in, waardoor de leveringsontwerpers de koppeling kunnen controleren.
+* **[!UICONTROL Offer acceptance URL in unitary mode]** : voegt een URL in waarmee een aanbieding kan worden ingesteld op **[!UICONTROL Accepted]**.
+* **[!UICONTROL Registration page URL]** : voegt een abonnement-URL in.
+* **[!UICONTROL Registration link]** : voegt een abonnementkoppeling in. Deze koppeling wordt gedefinieerd in de instantie-instellingen. De standaardinhoud is: &quot;Klik hier om te registreren.&quot;
+* **[!UICONTROL Registration link (with referrer)]** : voegt een abonnementkoppeling in, waarmee de bezoeker en de levering kunnen worden geïdentificeerd. Deze koppeling wordt gedefinieerd in de instantie-instellingen.
+* **[!UICONTROL Registration confirmation]** : voegt een koppeling in waarmee u het abonnement kunt bevestigen.
+* **[!UICONTROL Social network sharing links]** : voegt knopen op die de ontvanger toelaten om een verbinding aan de inhoud van de spiegelpagina te delen.
+* **[!UICONTROL Style of content emails]** en **[!UICONTROL Notification style]** : genereren code waarmee een e-mailbericht wordt opgemaakt met vooraf gedefinieerde HTML-stijlen.
+* **[!UICONTROL Unsubscription link]** : voegt een koppeling in waarmee u zich kunt afmelden bij alle leveringen (lijst van gewezen personen). De standaard gekoppelde inhoud is: &quot;U ontvangt dit bericht omdat u contact hebt gehad met ***uw organisatienaam*** of een gelieerde. Als u geen berichten meer wilt ontvangen van ***uw organisatienaam*** klik hier.&quot;
+
 
 ## Koppelingen in e-mails aanpassen {#personalize-links}
 
 Een **link**:
 
 1. Selecteer een tekstblok of een afbeelding.
-1. Selecteer in de contextafhankelijke werkbalk **Aanpassing toevoegen**.
+1. Selecteer in de contextafhankelijke werkbalk **Koppeling invoegen**.
 
    ![](assets/perso-link.png)
 
-1. Gebruik de verpersoonlijkingsredacteur om de verbinding te bepalen en te personaliseren.
+1. Voer het koppelingslabel in en gebruik de **Koppeling invoegen** om de koppeling aan te passen.
+
+   ![](assets/perso-link-insert-icon.png)
+
+1. Gebruik de verpersoonlijkingsredacteur om de verbinding te bepalen en te personaliseren, en te bevestigen.
+
+   ![](assets/perso-link-edit.png)
+
 
 ## Je aanbiedingen aanpassen {#personalize-offers}
 
