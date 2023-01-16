@@ -3,7 +3,7 @@ audience: end-user
 title: E-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 46d8ac555e554faef91bcc817890466780387d0d
+source-git-commit: 27dacb863699538c770054805ed3a5f6fa74fa84
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -48,9 +48,9 @@ U definieert de inhoud van uw e-mail als volgt:
 
 1. De e-mail definiëren **[!UICONTROL Subject line]**. Om dit te doen, typ uw onderwerp direct in het specifieke gebied, of open de Redacteur van de Uitdrukking om te bepalen om verpersoonlijking toe te voegen gebruikend diverse attributen en inhoudsblokken of aanbiedingen. [Leer hoe u inhoud kunt aanpassen](../personalization/personalize.md)
 
-1. Als u aanbiedingen met uw e-mail wilt verzenden, selecteert u deze met de **[!UICONTROL Offers]** knop. Vervolgens kunt u ze in de e-mail invoegen met behulp van personalisatievelden. [Meer informatie over het verzenden van voorstellen](offers.md)
+1. Als u aanbiedingen met uw e-mail wilt verzenden, selecteert u deze met de **[!UICONTROL Set up offers]** knop. Vervolgens kunt u ze in de e-mail invoegen met behulp van personalisatievelden. [Meer informatie over het verzenden van voorstellen](offers.md)
 
-1. Klik op de knop **[!UICONTROL Email Designer]** om de inhoud van de e-mail te structureren en te ontwerpen. In deze secties vindt u aanvullende informatie over het ontwerpen van e-mailinhoud:
+1. Klik op de knop **[!UICONTROL Edit email body]** om de inhoud van de e-mail te structureren en te ontwerpen. In deze secties vindt u aanvullende informatie over het ontwerpen van e-mailinhoud:
 
    * [Leer hoe u e-mails ontwerpt](create-email-content.md)
    * [Stijl uw inhoud](get-started-email-style.md)
@@ -64,5 +64,3 @@ U definieert de inhoud van uw e-mail als volgt:
 1. Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie uitschakelen in het menu **[!UICONTROL Optional features]** sectie. [Leer hoe u koppelingen kunt toevoegen en bijhouden](message-tracking.md)
 
 Als de inhoud van uw e-mail eenmaal is gedefinieerd, gebruikt u de opdracht **[!UICONTROL Simulate content]** om te controleren hoe het zal tonen alvorens het te verzenden. [Leer hoe u uw e-mail kunt bekijken en testen](../preview-test/preview-test.md)
-
-<!-- show screenshot showing an email fully configured + highlight the simulate content button-->
