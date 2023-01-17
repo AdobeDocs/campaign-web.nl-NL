@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Voorvertonen en testen
-description: Leer berichten voor te vertonen en e-mails te testen
+title: Informatie over e-mailvoorvertoning en testen
+description: Leer hoe u e-mailberichten kunt bekijken en testen
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
-# E-mails voorvertonen en testen {#about-preview-proofs}
+# Informatie over e-mailvoorvertoning en testen {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 

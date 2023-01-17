@@ -3,9 +3,9 @@ audience: end-user
 title: Test-e-mails verzenden
 description: Leer teste-mails definiëren en verzenden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Het verzenden van e-mails over tests is een belangrijke stap in het valideren va
 
 U kunt teste-mails verzenden naar twee typen ontvangers:
 
-* **Testprofielen**: teste-mails sturen naar zaadadressen, die aanvullende en fictieve ontvangers in de database zijn;
+* **Testprofielen**: stuur teste-mails naar zaadadressen, die extra en fictieve ontvangers in het gegevensbestand zijn. Ze kunnen in de Adobe Campaign-console worden gemaakt in de **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** map.
 
 * **Vervanging van hoofddoel**: U kunt teste-mails verzenden naar een specifiek e-mailadres terwijl u een bestaand profiel imiteert. Zo kunt u het e-mailbericht net zo ervaren als de ontvangers, zodat u het bericht dat het profiel ontvangt, op de juiste wijze kunt weergeven.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailinhoud voorvertonen
 description: Leer hoe u uw e-mailinhoud kunt voorvertonen met de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -21,18 +21,16 @@ ht-degree: 0%
 
 Met Adobe Campaign kunt u een voorvertoning van de inhoud van uw e-mail weergeven voordat u deze verzendt om de personalisatie te controleren en na te gaan hoe deze eruit zal zien voor de ontvangers.
 
-U kunt een voorbeeld van een e-mail bekijken met:
-
-* **Testprofielen**: Geef een voorvertoning van de e-mail weer met behulp van zaadadressen. Dit zijn aanvullende en fictieve ontvangers in de database.
-* **Profielen**: Geef een voorvertoning van de e-mail weer met een bestaand profiel.
-
 Voer de volgende stappen uit om een voorvertoning van de inhoud van uw e-mail weer te geven:
 
 1. Open het scherm voor het maken van e-mailinhoud en klik op **[!UICONTROL Simulate content]** knop.
 
    ![](assets/simulate.png)
 
-1. Selecteer een of meerdere profielen door op de knop **[!UICONTROL Select profile(s)]** en vervolgens de knop **[!UICONTROL Test profiles]** en **[!UICONTROL Profiles]** tabs waaruit u kunt kiezen.
+1. Selecteer een of meerdere profielen door op de knop **[!UICONTROL Select profile(s)]** en vervolgens de knop **[!UICONTROL Test profiles]** en **[!UICONTROL Profiles]** te kiezen tabbladen:
+
+   * De **Testprofielen** tab bevat zaadadressen, die extra en fictieve ontvangers in het gegevensbestand zijn. Ze kunnen in de Adobe Campaign-console worden gemaakt in de **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** map.
+   * De **Profielen** worden alle ontvangers weergegeven die in het tabblad **[!UICONTROL Profiles and Targets]** uit de campagneconsole.
 
    U kunt testprofielen en profielen combineren om een voorbeeld van uw e-mail te bekijken.
 
