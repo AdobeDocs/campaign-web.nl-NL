@@ -3,7 +3,7 @@ audience: end-user
 title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
+source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 0%
@@ -184,16 +184,26 @@ Campagne v8 Web is ontworpen om optimaal te werken in de nieuwste versie van Goo
 
 Campagne v8 Web is momenteel beschikbaar in de volgende talen:
 
-* Engels (VS) - EN-US
-* Frans - FR
-* Duits - DE
-* Italiaans - IT
-* Spaans - ES
-* Portugees (Braziliaans) - PTBR
-* Japans - JP
-* Koreaans - KR
-* Vereenvoudigd Chinees - CHS
-* Traditioneel Chinees - CHT
+<table>
+<tr>
+<td>
+<p>Engels (VS) - EN-US</p>
+<p>Frans - FR</p>
+<p>Duits - DE</p>
+<p>Italiaans - IT</p>
+</td>
+<td>
+<p>Spaans - ES</p>
+<p>Portugees (Braziliaans) - PTBR</p>
+<p>Japans - JP</p>
+</td>
+<td>
+<p>Koreaans - KR</p>
+<p>Vereenvoudigd Chinees - CHS</p>
+<p>Traditioneel Chinees - CHT</p>
+</td>
+</tr>
+</table>
 
 Uw standaardinterfacetaal wordt bepaald door de aangewezen taal die in uw gebruikersprofiel wordt gespecificeerd.
 
