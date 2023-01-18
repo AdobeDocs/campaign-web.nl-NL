@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b203d1e2adb1b41cdc4adf398934707f6093b317
+source-git-commit: e8226b571986d099dcf0277c4ef2f3076ea1592d
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1301'
 ht-degree: 0%
 
 ---
@@ -182,7 +182,7 @@ Campagne v8 Web is ontworpen om optimaal te werken in de nieuwste versie van Goo
 
 ## Taalvoorkeuren {#language-pref}
 
-De gebruikersinterface is momenteel beschikbaar in de volgende talen:
+Campagne v8 Web is momenteel beschikbaar in de volgende talen:
 
 * Engels (VS) - EN-US
 * Frans - FR
@@ -199,10 +199,16 @@ Uw standaardinterfacetaal wordt bepaald door de aangewezen taal die in uw gebrui
 
 De taal wijzigen:
 
-* Klikken **Voorkeuren** vanaf uw avatar, rechtsboven.
-   ![](assets/preferences.png)
-* Klik vervolgens op de taal die onder uw e-mailadres wordt weergegeven
-* Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
+1. Klik op het profielpictogram, rechtsboven, en selecteer **Voorkeuren**.
+
+   ![](assets/preferences.png){width="70%" align="left"}
+
+1. Klik vervolgens op de taal die onder uw e-mailadres wordt weergegeven.
+
+   ![](assets/preferences2.png)
+
+1. Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
+
    ![](assets/select-language.png)
 
 <!--
