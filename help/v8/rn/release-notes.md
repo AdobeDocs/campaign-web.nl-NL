@@ -3,9 +3,9 @@ audience: end-user
 title: Opmerkingen bij de release Campagne Web v8
 description: Opmerkingen bij de release Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 0f7775d2c079c7d7c228249d81d9cba8e0d9619c
+source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,7 @@ add info somewhere to remind users that
 Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoemd om zich aan de recentste terminologienormen te richten. Deze veranderingen zijn slechts op het Web UI van de Campagne van toepassing en niet weerspiegeld in de Console van de Cliënt. Deze worden hieronder samengevat.
 
 * Proefdrukken zijn nu **E-mailberichten testen**: als u een bewijs wilt verzenden, gebruikt u de **Testen** in de gebruikersinterface voor e-maillevering. Het doel van de proefdrukken wordt nu aangeduid als **Testprofielen**
+* Zaadadressen worden nu gebruikt als **Testprofielen**: stuur de test-e-mail naar zaadadressen, die extra en fictieve ontvangers in het gegevensbestand zijn
 * De leveringsanalyse is nu de **voorbereiding van levering**. Wanneer u de analyse wilt starten, klikt u op de knop **Voorbereiden** knop
 * E-mailvoorvertoning is nu beschikbaar via **Inhoud simuleren** knop
 * Lijsten zijn nu **Soorten publiek**
