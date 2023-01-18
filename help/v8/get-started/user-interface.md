@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: df114a97c80b4ad1fc1fff9f7f34ec42df84c835
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -152,16 +152,6 @@ De hoogste bar van de interface staat u toe:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Contextafhankelijke hulp en handleiding bij het instappen
-
-De interface bevat een contextafhankelijke Help. Klik op de knop **?** pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
-
-![](assets/context-help.png){width="70%" align="left"}
-
-Er is ook een gids voor on-boarding beschikbaar om u te helpen aan de slag te gaan met Campagne v8 Web. Klik op het pictogram in de rechterbenedenhoek, kies een van de beschikbare stapsgewijze scenario&#39;s en volg de instructies.
-
-![](assets/onboarding.png){width="70%" align="left"}
-
 ## Lijstschermen configureren {#list-screens}
 
 Verscheidene verbindingen van het linkernavigatiemenu, bijvoorbeeld **Leveringen** of **Campagnes**, weergaveoverzichten van objecten. Deze lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen.
@@ -175,6 +165,43 @@ De lijsten worden weergegeven in kolommen. U kunt extra informatie tonen door de
 ![](assets/columns.png){width="70%" align="left"}
 
 U kunt items in de lijst sorteren door op een kolomkop te klikken. Er wordt een pijl weergegeven (omhoog of omlaag) die aangeeft dat de lijst in die kolom wordt gesorteerd. Voor numerieke kolommen of datumkolommen geeft de pijl-omhoog aan dat de lijst in oplopende volgorde wordt gesorteerd en de pijl-omlaag een aflopende volgorde aangeeft. Voor tekenreeks- of alfanumerieke kolommen worden waarden in alfabetische volgorde weergegeven.
+
+## Contextafhankelijke hulp en handleiding bij het instappen
+
+De interface bevat een contextafhankelijke Help. Klik op de knop **?** pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
+
+![](assets/context-help.png){width="70%" align="left"}
+
+Er is ook een gids voor on-boarding beschikbaar om u te helpen aan de slag te gaan met Campagne v8 Web. Klik op het pictogram in de rechterbenedenhoek, kies een van de beschikbare stapsgewijze scenario&#39;s en volg de instructies.
+
+![](assets/onboarding.png){width="70%" align="left"}
+
+## Ondersteunde browsers {#browsers}
+
+Campagne v8 Web is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome, Safari en Microsoft Edge. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
+
+## Taalvoorkeuren {#language-pref}
+
+De gebruikersinterface is momenteel beschikbaar in de volgende talen:
+
+* Engels
+* Frans
+* Duits
+* Italiaans
+* Spaans
+* Portugees (Braziliaans)
+* Japans
+* Koreaans
+
+Uw standaardinterfacetaal wordt bepaald door de aangewezen taal die in uw gebruikersprofiel wordt gespecificeerd.
+
+De taal wijzigen:
+
+* Klikken **Voorkeuren** vanaf uw avatar, rechtsboven.
+   ![](assets/preferences.png)
+* Klik vervolgens op de taal die onder uw e-mailadres wordt weergegeven
+* Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
+   ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}
