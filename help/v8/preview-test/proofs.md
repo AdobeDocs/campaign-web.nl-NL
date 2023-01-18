@@ -3,9 +3,9 @@ audience: end-user
 title: Test-e-mails verzenden
 description: Leer teste-mails definiëren en verzenden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ U kunt teste-mails verzenden naar twee typen ontvangers:
 
    ![](assets/test-button.png)
 
-1. Gebruik de **[!UICONTROL Mode]** vervolgkeuzelijst om het type ontvangers te kiezen dat de teste-mail ontvangt:
+1. Gebruik de **[!UICONTROL Mode]** vervolgkeuzelijst om het type ontvangers te kiezen die de teste-mail ontvangen:
 
    * **Testprofielen**: de test-e-mail verzenden naar zaadadressen, die aanvullende en fictieve ontvangers in de database zijn;
 

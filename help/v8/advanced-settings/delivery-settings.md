@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailleveringsinstellingen
 description: Meer informatie over instellingen voor e-maillevering in de gebruikersinterface van het campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1440'
 ht-degree: 11%
 
 ---
@@ -53,7 +53,7 @@ In de **Type dikte** veld zijn drie opties beschikbaar:
 * **Afhankelijk van de ontvanger**
 * **Gedefinieerd in elke regel**
 
-Gebruik de **Afleveringsgewicht** veld om de leveringsprioriteit te bepalen. Elke levering heeft een gewicht dat overeenkomt met het prioriteitsniveau. Standaard is het gewicht van een levering ingesteld op 5. Met drukregels kunt u het gewicht van de leveringen bepalen waarop ze worden toegepast. Het gewicht kan worden ingesteld of berekend met behulp van een formule die geschikt is voor de geadresseerden. U kunt bijvoorbeeld het gewicht van een levering bepalen op basis van de belangen van de ontvanger.
+Gebruik de **Afleveringsgewicht** veld om de leveringsprioriteit te bepalen. Elke levering heeft een gewicht dat overeenkomt met het prioriteitsniveau. Standaard is het gewicht van een levering ingesteld op 5. Aan de hand van drukregels kunt u het gewicht bepalen van de leveringen waarop ze worden toegepast. U kunt het gewicht instellen of berekenen met behulp van een formule die geschikt is voor de ontvanger. U kunt bijvoorbeeld het gewicht van een levering bepalen op basis van de belangen van de ontvanger.
 
 
 Gebruik de **Leveringsmodus** veld om de evaluatiemodus voor het doel te selecteren. Er zijn drie modi beschikbaar:
@@ -101,7 +101,7 @@ De parameters van de levering zijn technische montages die op uw levering van to
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_retries"
 >title="Maximum aantal pogingen"
->abstract="Als een bericht mislukt als gevolg van een tijdelijke fout, worden de pogingen opnieuw uitgevoerd tijdens de leveringsduur."
+>abstract="Als een bericht mislukt als gevolg van een tijdelijke fout, worden opnieuw pogingen uitgevoerd tot het einde van de leveringsduur."
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
@@ -155,7 +155,7 @@ De spiegelpagina is een HTML-pagina die online toegankelijk is via een webbrowse
 
 Naast de standaardmodus zijn ook de volgende opties beschikbaar:
 
-* **[!UICONTROL Force the generation of the mirror page]**: zelfs als geen verbinding aan de spiegelpagina in de levering wordt opgenomen, zal de spiegelpagina worden gecreeerd.
+* **[!UICONTROL Force the generation of the mirror page]**: zelfs als geen verbinding aan de spiegelpagina in de levering wordt opgenomen, wordt de spiegelpagina gecreeerd.
 * **[!UICONTROL Do not generate the mirror page]**: er wordt geen spiegelpagina gegenereerd, zelfs niet als de koppeling aanwezig is in de levering.
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: deze optie laat u tot de inhoud van de spiegelpagina, met verpersoonlijkingsinformatie, in het venster van het leveringslogboek toegang hebben. Als u dit wilt doen, klikt u na afloop van de levering op de knop **[!UICONTROL Delivery]** en selecteert u de regel van de ontvanger waarvan u de spiegelpagina wilt weergeven. Klik op de koppeling **[!UICONTROL Display the mirror page for this message...]**.
 
@@ -169,7 +169,7 @@ Naast de standaardmodus zijn ook de volgende opties beschikbaar:
 
 De volgende parameters worden bepaald in de verwante sectie. Mogelijke opties zijn:
 
-**Geldigheidslimiet voor bijhouden**: Gebruik deze optie om de duur te wijzigen waarvoor het volgen op URLs zal worden geactiveerd.
+**Geldigheidslimiet voor bijhouden**: gebruik deze optie om de duur te veranderen waarvoor het volgen op URLs wordt geactiveerd.
 
 **Vervangende URL voor verlopen URL&#39;s**: Gebruik deze optie om een URL in te voeren naar een fallback-webpagina: wordt weergegeven nadat de reeksspatiëring is verlopen.
 

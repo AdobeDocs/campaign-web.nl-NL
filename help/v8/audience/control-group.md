@@ -3,10 +3,10 @@ audience: end-user
 title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het Web UI van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 38%
+source-wordcount: '520'
+ht-degree: 24%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 38%
 
 U kunt controlegroepen gebruiken om het verzenden van berichten naar een gedeelte van uw doelgroep te vermijden, zodat u het effect van uw campagnes kunt meten.
 
-Om dit te doen, creeer een controlegroep wanneer het bepalen van het publiek van uw levering. Profielen worden willekeurig aan de controlegroep toegevoegd, gefilterd of niet, of gebaseerd op criteria. Vervolgens kunt u de gedragingen van de doelgroep die het bericht heeft ontvangen, vergelijken met de gedragingen van contactpersonen die niet zijn getarget.
+Om dit te doen, creeer een controlegroep wanneer het bepalen van het publiek van uw levering. Profielen worden willekeurig aan de controlegroep toegevoegd, gefilterd of niet, of gebaseerd op criteria. Vervolgens kunt u het gedrag van de doelpopulatie die de boodschap heeft ontvangen vergelijken met het gedrag van contacten die niet als doelgroep werden beschouwd.
 
 De controlegroep kan willekeurig uit de hoofdtarget worden geëxtraheerd, en/of uit een specifieke populatie worden geselecteerd. Dit betekent dat u een controlegroep op twee manieren kunt definiëren:
 
@@ -23,7 +23,7 @@ De controlegroep kan willekeurig uit de hoofdtarget worden geëxtraheerd, en/of 
 
 Voor het definiëren van een controlegroep kunt u beide methoden gebruiken.
 
-Alle profielen die deel uitmaken van de controlegroep bij de voorbereidingsstap voor levering worden uit de hoofdtarget verwijderd. Ze zullen het bericht niet meer ontvangen als het eenmaal is verzonden.
+Alle profielen die deel uitmaken van de controlegroep bij de voorbereidingsstap voor levering worden verwijderd van het hoofddoel. Ze ontvangen het bericht niet.
 
 Om een controlegroep tot stand te brengen, klik **[!UICONTROL Set Control Group]** van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking.
 
@@ -38,11 +38,11 @@ Om een controlegroep tot stand te brengen, klik **[!UICONTROL Set Control Group]
 
 Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren.
 
-Definieer eerst hoe de profielen uit de target worden geëxtraheerd: willekeurig of op basis van een sortering.
+Definieer eerst de manier waarop de profielen uit het doel worden geëxtraheerd: willekeurig of gebaseerd op een sortering.
 
 Onder de **Extraheren uit doel** in, kiest u een **Het type Uitsluiting**:
 
-* **Willekeurig**: bij het voorbereiden van de levering haalt Adobe Campaign willekeurig een aantal profielen op dat overeenkomt met het percentage of het maximumaantal dat u instelt als groottelimiet.
+* **Willekeurig**: bij het voorbereiden van de levering haalt Adobe Campaign willekeurig een aantal profielen op dat overeenkomt met het percentage of het maximumaantal dat als de groottebeperking is ingesteld.
 
    ![](assets/control-group.png)
 

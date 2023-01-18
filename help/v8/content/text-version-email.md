@@ -3,9 +3,9 @@ audience: end-user
 title: De tekstversie van een e-mailbericht maken
 description: Leer hoe u de tekstversie van een e-mailbericht maakt
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---

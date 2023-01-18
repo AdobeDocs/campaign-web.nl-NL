@@ -3,9 +3,9 @@ audience: end-user
 title: Bepaal een publiek met de regelbouwer
 description: Leer hoe u met de Segment Builder werkt
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ U kunt de zoekbalk gebruiken om snel naar elementen te zoeken.
 
 ## Het canvas
 
-Het canvas is de centrale zone waarin u regels kunt configureren en combineren op basis van de elementen die vanuit het palet worden toegevoegd. Als u een nieuwe regel wilt toevoegen, sleept u een tegel uit het palet en zet u de tegel neer op het canvas. Vervolgens krijgt u contextspecifieke opties, afhankelijk van het type gegevens dat u wilt toevoegen.
+Het canvas is de centrale zone waarin u regels kunt configureren en combineren op basis van de elementen die vanuit het palet worden toegevoegd. Als u een nieuwe regel wilt toevoegen, sleept u een tegel uit het palet en zet u de tegel neer op het canvas. Vervolgens kunt u contextspecifieke opties weergeven, afhankelijk van het type gegevens dat wordt toegevoegd.
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 

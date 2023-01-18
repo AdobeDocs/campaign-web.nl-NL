@@ -3,9 +3,9 @@ audience: end-user
 title: E-mails ontwerpen in de e-mailontwerper
 description: Leer hoe u uw e-mailinhoud helemaal zelf ontwerpt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Voer de onderstaande stappen uit om uw e-mailinhoud te gaan samenstellen:
 
 1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud van profielgegevens aan te passen. [Meer informatie over content personalization](../personalization/personalize.md)
 
-1. Klik op de knop **[!UICONTROL Links]** in het linkerdeelvenster om alle URL&#39;s weer te geven van de inhoud die wordt bijgehouden. U kunt de **[!UICONTROL Tracking Type]** of **[!UICONTROL Label]** en toevoegen **[!UICONTROL Categories]** indien nodig. [Meer informatie over koppelingen en berichtregistratie](message-tracking.md)
+1. Klik op de knop **[!UICONTROL Links]** van het linkerdeelvenster om alle URL&#39;s van uw inhoud weer te geven die moeten worden bijgehouden. U kunt de **[!UICONTROL Tracking Type]** of **[!UICONTROL Label]** en toevoegen **[!UICONTROL Categories]** indien nodig. [Meer informatie over koppelingen en berichtregistratie](message-tracking.md)
 
    ![](assets/email_designer_7.png)
 
@@ -97,7 +97,7 @@ Voer de onderstaande stappen uit om uw e-mailinhoud te gaan samenstellen:
 
    >[!CAUTION]
    >
-   >U zult niet terug naar de visuele ontwerper voor deze e-mail kunnen terugkeren nadat het schakelen naar de coderedacteur.
+   >U kunt niet terugkeren naar de visuele ontwerper voor deze e-mail na het schakelen naar de coderedacteur.
 
 1. Wanneer de inhoud gereed is, klikt u op **[!UICONTROL Simulate content]** om de rendering van uw e-mail te controleren. U kunt kiezen voor de weergave Computer of Mobiel. [Meer informatie over een voorbeeld van uw e-mail](../preview-test/preview-test.md)
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '546'
 ht-degree: 4%
 
 ---
@@ -92,6 +92,6 @@ Voer de volgende stappen uit:
 
    >[!NOTE]
    >
-   >De **Openen** en **Klikken** de indicatoren worden na 5 minuten bijgewerkt .
+   >De **Openen** en **Klikken** de indicatoren worden na 5 minuten bijgewerkt.
 
-   U kunt het verzenden op elk ogenblik pauzeren en dan hervatten. Als u de levering tegenhoudt terwijl het wordt verzonden, zult u niet kunnen hervatten.
+   U kunt het verzenden op elk ogenblik pauzeren en dan hervatten. Als u de levering beëindigt terwijl het wordt verzonden, kunt u niet hervatten.

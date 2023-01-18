@@ -3,9 +3,9 @@ audience: end-user
 title: Componenten voor inhoud van e-mailontwerpers gebruiken
 description: Leer hoe u inhoudcomponenten in uw e-mails kunt gebruiken
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ U kunt maximaal **[!UICONTROL Content components]** zoals u nodig hebt in een **
 
 ## Container {#container}
 
-U kunt een eenvoudige container toevoegen waarin u een andere inhoudscomponent kunt toevoegen. Op deze manier kunt u een specifieke stijl op de container toepassen. Deze stijl verschilt van de binnenste component.
+U kunt een eenvoudige container toevoegen waarin u een andere inhoudscomponent toevoegt. Op deze manier kunt u een specifieke stijl op de container toepassen, die anders is dan de component die binnen wordt gebruikt.
 
 Voeg bijvoorbeeld een **[!UICONTROL Container]** en voegt vervolgens een [Knop](#button) in die container. U kunt een specifieke achtergrond voor de container, en een andere voor de knoop gebruiken.
 
@@ -81,7 +81,7 @@ Gebruik de **[!UICONTROL Button]** om een of meerdere knoppen in te voegen in uw
 
 1. In de **[!UICONTROL Link]** , voegt u de URL toe waarnaar u wilt omleiden wanneer u op de knop klikt.
 
-1. Kies hoe de doelgroep wordt omgeleid met de **[!UICONTROL Target]** vervolgkeuzelijst:
+1. Kies hoe de inhoud wordt weergegeven met de **[!UICONTROL Target]** vervolgkeuzelijst:
 
    * **[!UICONTROL None]**: Hiermee opent u de koppeling in hetzelfde frame als waarop u hebt geklikt (standaard).
    * **[!UICONTROL Blank]**: Hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.

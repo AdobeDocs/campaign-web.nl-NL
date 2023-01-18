@@ -3,7 +3,7 @@ audience: end-user
 title: Een publiek selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 045025367a826eece052367be557e47aaf37dc99
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 2%
@@ -47,4 +47,4 @@ In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren bij he
 
 1. Klikken **Opslaan**.
 
-U kunt ook een controlegroep instellen om het effect van uw campagnes te meten. De controlegroep zal niet het bericht ontvangen. Dit staat u toe om het gedrag van de bevolking te vergelijken die het bericht met het gedrag van contacten ontving die niet. Zie [sectie](control-group.md).
+U kunt ook een controlegroep instellen om het effect van uw campagnes te meten. De controlegroep ontvangt niet het bericht. Dit staat u toe om het gedrag van de bevolking te vergelijken die het bericht met het gedrag van contacten ontving die niet. Zie [sectie](control-group.md).

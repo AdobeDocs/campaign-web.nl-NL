@@ -3,10 +3,10 @@ audience: end-user
 title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 871737ba2ab444eaaafde2a3822879629d956e1c
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 0%
+source-wordcount: '1191'
+ht-degree: 1%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ![](../assets/do-not-localize/badge.png)
 
-Leer hoe u in dit geval uw eerste e-mailadres kunt maken. We plannen de verzending van een e-mail naar klanten van Silver en Gold loyalty&#39;s op een specifieke datum.
+Leer hoe u uw eerste e-mailadres maakt waarvoor u een e-mail wilt schrijven. In dit geval plant u het verzenden van een e-mail naar leden van Silver en Gold-loyaliteit op een bepaalde datum.
 
-Met behulp van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepersonaliseerde inhoud op basis van de kenmerken van het klantprofiel.
+Op basis van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepersonaliseerde inhoud op basis van de kenmerken van het klantprofiel.
 
 ![](assets/delivery-list.png)
 
@@ -25,7 +25,7 @@ Met behulp van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepe
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
 >title="Een e-mailsjabloon selecteren"
->abstract="Een sjabloon wordt gedefinieerd in de Adobe Campaign v8-console. Dit is een specifieke leveringsconfiguratie die vooraf bepaalde parameters zoals typologieregels, verpersoonlijking of het verpletteren van parameters bevat."
+>abstract="Een e-mailmalplaatje is een specifieke leveringsconfiguratie die vooraf bepaalde montages, zoals typologieregels, verpersoonlijking of het verpletteren van parameters bevat. De malplaatjes worden bepaald in de de cliëntconsole van de Campagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
@@ -65,9 +65,9 @@ Met behulp van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepe
 >title="Leer hoe u uw e-mailinhoud ontwerpt"
 >abstract="Leer hoe u de e-mailontwerper gebruikt."
 
-In dit geval gebruiken we een vooraf gedefinieerde sjabloon om onze e-mail te ontwerpen.
+In dit geval gebruikt u een vooraf gedefinieerde sjabloon om ons e-mailbericht te ontwerpen.
 
-gaat het e-mailbericht ontwerpen met een vooraf gedefinieerde sjabloon. Gedetailleerde instructies voor het configureren van e-mailinhoud zijn beschikbaar in [deze sectie](../content/edit-content.md).
+Gedetailleerde instructies over het configureren van de e-mailinhoud zijn beschikbaar in [deze sectie](../content/edit-content.md).
 
 1. Klik op de knop **[!UICONTROL Edit content]** knop.
 
@@ -75,13 +75,13 @@ gaat het e-mailbericht ontwerpen met een vooraf gedefinieerde sjabloon. Gedetail
 
    ![](assets/edit-content.png)
 
-1. Typ de onderwerpregel van uw e-mail en pas deze aan met de Expressieeditor. [Leer hoe u uw inhoud kunt aanpassen](../personalization/personalize.md)
+1. Voer de onderwerpregel van uw e-mail in en pas deze aan met de Expressieeditor. [Leer hoe u uw inhoud kunt aanpassen](../personalization/personalize.md)
 
    ![](assets/subject-line.png)
 
 1. Als u de hoofdtekst van de e-mail wilt ontwerpen, klikt u op de knop **[!UICONTROL Edit email body]** knop.
 
-   Kies de methode die u wilt gebruiken om uw e-mailinhoud te maken. In dit voorbeeld gebruiken we een vooraf gedefinieerde ontwerpsjabloon.
+   Kies de methode die u wilt gebruiken om uw e-mailinhoud te maken. In dit voorbeeld gebruikt u een vooraf gedefinieerde ontwerpsjabloon.
 
    ![](assets/select-template.png)
 
@@ -106,9 +106,9 @@ gaat het e-mailbericht ontwerpen met een vooraf gedefinieerde sjabloon. Gedetail
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="De doelgroep definiëren"
->abstract="Selecteer het beste publiek voor uw marketingbericht. U kunt een bestaand publiek kiezen dat al is gedefinieerd in een Campagne v8-instantie of in Adobe Experience Platform, of u kunt een nieuw publiek maken met de regelbouwer."
+>abstract="Selecteer het beste publiek voor uw marketingbericht. U kunt een bestaand publiek kiezen dat al is gedefinieerd in een Campagne v8-instantie of in Adobe Experience Platform, of u kunt een nieuw publiek maken met de functie voor het maken van regels."
 
-In dit geval sturen we de e-mail naar een bestaand publiek. Aanvullende instructies over het werken met het publiek zijn beschikbaar in [deze sectie](../audience/about-audiences.md).
+In dit geval stuurt u de e-mail naar een bestaand publiek. Aanvullende instructies over het werken met het publiek zijn beschikbaar in [deze sectie](../audience/about-audiences.md).
 
 1. Als u het publiek voor de e-mail wilt selecteren, klikt u op de knop **[!UICONTROL Select audience]** en kiest u een bestaand publiek in de lijst.
 
@@ -118,7 +118,7 @@ In dit geval sturen we de e-mail naar een bestaand publiek. Aanvullende instruct
 
    >[!NOTE]
    >
-   >Het publiek beschikbaar in de lijst komt of van uw instantie van de Campagne V8 of van Adobe Experience Platform voort als de Bestemming/Bronintegratie op uw instantie is gevormd.
+   >Het publiek beschikbaar in de lijst komt van uw instantie van de Campagne v8 of van Adobe Experience Platform voort als de Bestemming/Bronintegratie op uw instantie is gevormd.
    >
    >Met de integratie Doel/Bronnen kunt u de segmenten Experience Platform naar Adobe Campaign verzenden en de bezorging en tracering van campagnes naar Adobe Experience Platform verzenden. [Leer hoe u met Campagne en Adobe Experience Platform werkt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
@@ -133,7 +133,7 @@ In dit geval sturen we de e-mail naar een bestaand publiek. Aanvullende instruct
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
 >title="Plan de verzending"
->abstract="Bepaal de datum en de nauwkeurige tijd voor uw verzendend. Door de meest geschikte tijd voor uw marketingbericht te kiezen, maximaliseert u de open tarieven."
+>abstract="Bepaal de datum en de nauwkeurige tijd voor uw verzendend. Door de meest geschikte tijd voor uw marketingbericht te kiezen, kunt u de open tarieven maximaliseren."
 
 Als u het verzenden van de e-mail wilt plannen, klikt u op **[!UICONTROL Enable]** en stelt u de gewenste datum en tijd voor verzending in.
 
@@ -145,19 +145,19 @@ Standaard worden de **[!UICONTROL Confirm before sending]** is ingeschakeld, zod
 
 Voordat u uw e-mail verzendt, kunt u een voorbeeld bekijken en testen of deze voldoet aan uw verwachtingen.
 
-In dit geval bekijken we een voorbeeld van de e-mail en sturen we testversies naar specifieke e-mailadressen terwijl we tegelijkertijd een aantal van de beoogde profielen nastreven.
+In dit geval bekijkt u een voorbeeld van de e-mail en verzendt u testversies naar specifieke e-mailadressen terwijl u zich aan enkele van de beoogde profielen aanpast.
 
 Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in [deze sectie](../preview-test/preview-test.md).
 
-1. Klik op **[!UICONTROL Review and send]**. Dit zal een voorproef van uw e-mail, samen met alle gevormde eigenschappen, publiek en programma tonen. U kunt al deze elementen bewerken door op de knop Wijzigen te klikken.
+1. Klik op **[!UICONTROL Review and send]**. Dit toont een voorproef van uw e-mail, samen met alle gevormde eigenschappen, publiek en programma. U kunt al deze elementen bewerken door op de knop Wijzigen te klikken.
 
-1. Klik op de knop **[!UICONTROL Simulate content]** knop. Hiermee wordt de interface voor voorvertoningen geopend.
+1. Klik op de knop **[!UICONTROL Simulate content]** knop.
 
    ![](assets/review-email.png)
 
 1. Selecteer links het profiel of de profielen die u wilt gebruiken voor een voorbeeld van het e-mailbericht.
 
-   In het rechterdeelvenster wordt een voorbeeld van de e-mail weergegeven op basis van het geselecteerde profiel. Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen schakelen om een voorbeeld van de bijbehorende e-mail te bekijken.
+   In het rechterdeelvenster ziet u een voorbeeld van het e-mailbericht op basis van het geselecteerde profiel. Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen schakelen om een voorbeeld van de bijbehorende e-mail te bekijken.
 
    ![](assets/preview.png)
 
@@ -167,11 +167,11 @@ Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in
 
 1. Als u testversies van uw e-mail wilt verzenden, klikt u op de knop **[!UICONTROL Test]** kiest u vervolgens de gewenste modus.
 
-   In dit voorbeeld gebruiken we de **[!UICONTROL Substitute from main target]** -modus, die testversies naar specifieke e-mailadressen verzendt en tegelijkertijd enkele profielen nastreeft die in de e-mail worden genoemd.
+   In dit voorbeeld gebruikt u de opdracht **[!UICONTROL Substitute from main target]** -modus, die testversies naar specifieke e-mailadressen verzendt en tegelijkertijd enkele profielen nastreeft die in de e-mail worden genoemd.
 
    ![](assets/proof-mode.png)
 
-1. Klikken **[!UICONTROL Add address]** en geef het e-mailadres of de e-mailadressen op die de testversies zullen ontvangen.
+1. Klikken **[!UICONTROL Add address]** en vermeld het e-mailadres of de e-mailadressen die de testversies ontvangen.
 
    Selecteer voor elk e-mailadres het profiel dat u wilt beleven. U kunt Adobe Campaign ook een willekeurig profiel van het doel laten selecteren.
 
@@ -179,7 +179,7 @@ Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in
 
 1. Klikken **[!UICONTROL Send test email ]** en de verzending bevestigen.
 
-   Testversies worden met het geselecteerde profiel naar de opgegeven e-mailadressen verzonden **[Proef x]** voorvoegsel.
+   Testversies worden naar de opgegeven e-mailadressen verzonden met behulp van het geselecteerde profiel met het **[Proef x]** voorvoegsel.
 
    ![](assets/proof-sent.png)
 

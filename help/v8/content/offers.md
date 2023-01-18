@@ -3,9 +3,9 @@ audience: end-user
 title: Aanbiedingen verzenden
 description: Aanbiedingen verzenden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: de7f135b9ac25c5fe13df6a4033d8ef53d081e44
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ De stappen voor het verzenden van voorstellen met een e-mail zijn als volgt:
 
 1. Selecteer een specifieke **[!UICONTROL Offer category]** waarin de aanbiedingen worden gesorteerd.
 
-   Als er geen categorie is opgegeven, zal de motor van de aanbieding rekening houden met alle aanbiedingen in de omgeving, tenzij een **[!UICONTROL Offer theme]** is geselecteerd.
+   Als er geen categorie is opgegeven, houdt de Offertenmotor rekening met alle aanbiedingen in de omgeving, tenzij een **[!UICONTROL Offer theme]** is geselecteerd.
 
    >[!NOTE]
    >
@@ -55,15 +55,15 @@ De stappen voor het verzenden van voorstellen met een e-mail zijn als volgt:
 
    Met deze optie kunt u de uitsluiting activeren of deactiveren van ontvangers voor wie onvoldoende geschikte voorstellen zijn.
 
-   * Als de optie wordt toegelaten, zullen de ontvangers die niet genoeg voorstellen hebben van de levering worden uitgesloten.
-   * Als de optie is uitgeschakeld, worden deze ontvangers niet uitgesloten, maar hebben ze niet het gewenste aantal voorstellen.
+   * Als de optie is ingeschakeld, worden ontvangers die onvoldoende voorstellen hebben, uitgesloten van de levering.
+   * Als de optie is uitgeschakeld, worden deze ontvangers niet uitgesloten, maar kunnen ze niet het gewenste aantal voorstellen hebben.
 
 1. Selecteer indien nodig de **[!UICONTROL Hide everything if no offer is selected]** optie.
 
    Met deze optie kunt u kiezen hoe het bericht wordt verwerkt als een van de voorstellen niet bestaat.
 
    * Als de optie is ingeschakeld, wordt de representatie van het ontbrekende voorstel niet weergegeven en wordt er geen inhoud weergegeven in het bericht voor dit voorstel.
-   * Als de optie is uitgeschakeld, wordt het bericht zelf geannuleerd tijdens het verzenden en ontvangen de ontvangers geen berichten meer.
+   * Als de optie is uitgeschakeld, wordt het bericht zelf geannuleerd tijdens het verzenden en kunnen ontvangers geen berichten meer ontvangen.
 
 Nadat u de voorstellen hebt geconfigureerd voor voorstellen in uw e-mail, kunt u deze invoegen in de e-mail met de Expressieeditor. [Leer hoe u aanbiedingen in de e-mail invoegt](#insert)
 

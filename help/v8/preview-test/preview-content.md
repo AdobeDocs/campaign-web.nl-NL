@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailinhoud voorvertonen
 description: Leer hoe u uw e-mailinhoud kunt voorvertonen met de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Slimme voorvertoning van uw inhoud"
->abstract="Met Adobe Campaign kunt u profielen gebruiken om een voorvertoning van de inhoud van uw e-mail weer te geven voordat u deze verzendt. Zo kunt u controleren of de inhoud is aangepast en hoe de ontvangers deze zullen zien."
+>abstract="Met Adobe Campaign kunt u profielen gebruiken om de inhoud van uw e-mail voor te vertonen voordat u deze verzendt. Controleer de personalisatie en hoe de ontvangers deze zullen zien."
 
-Met Adobe Campaign kunt u een voorvertoning van de inhoud van uw e-mail weergeven voordat u deze verzendt om de personalisatie te controleren en na te gaan hoe deze eruit zal zien voor de ontvangers.
+Met Adobe Campaign kunt u de inhoud van uw e-mail voorvertonen voordat u deze verzendt. Zo kunt u controleren of de e-mail op maat is gemaakt en hoe deze wordt weergegeven aan de ontvangers.
 
 Voer de volgende stappen uit om een voorvertoning van de inhoud van uw e-mail weer te geven:
 
@@ -36,7 +36,7 @@ Voer de volgende stappen uit om een voorvertoning van de inhoud van uw e-mail we
 
    ![](assets/preview-profile.png)
 
-1. Als profielen zijn geselecteerd, wordt een voorbeeld van het e-mailbericht weergegeven in het rechterdeelvenster. De gepersonaliseerde elementen zullen door de gegevens van het profiel worden vervangen dat in de linkerruit wordt geselecteerd.
+1. Nadat u profielen hebt geselecteerd, wordt in het rechterdeelvenster een voorbeeld van de e-mail weergegeven. De gepersonaliseerde elementen worden vervangen door de gegevens van het profiel dat in de linkerruit wordt geselecteerd.
 
    Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen in de lijst schakelen om een voorbeeld van de bijbehorende e-mail te bekijken.
 
