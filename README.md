@@ -1,61 +1,54 @@
----
-source-git-commit: 0c332499fb39fa6dd80bff82e6e358e3f3016ac7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+# Contribute article
 
----
-# Bijdragen aan een artikel
+We welcome contributions from our community as well as from Adobe employees from outside the documentation teams.
 
-We accepteren graag de bijdragen van onze community en van Adobe-werknemers van buiten de documentatieteams.
+## Adobe Open Source Code of Conduct
 
-## Adobe Open-Source-gedragscode
-
-Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of de [.NET Foundation-gedragscode](https://dotnetfoundation.org/code-of-conduct) overgenomen. Zie het artikel [Bijdragen](contributing.md) voor meer informatie.
+This project has adopted the [Adobe Open Source Code of Conduct](code-of-conduct.md) or the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). For more information, see the [Contributing](contributing.md) article.
 
 
-## Over uw bijdragen aan Adobe-content
+## About your contributions to Adobe content
 
-Zie de [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
-Hoe u een bijdrage levert, hangt af van wie u bent en van het soort wijzigingen dat u wilt bijdragen:
+How you contribute depends on who you are and the sort of changes you'd like to contribute:
 
-### Kleine wijzigingen
+### Minor changes
 
-Als u minder belangrijke updates bijdraagt uit de goedheid van uw hart, gaat u naar het artikel en klikt u op de koppeling **Bewerken** naar de GitHub-source voor het artikel. Gebruik vervolgens gewoon de GitHub-interface om uw updates aan te brengen. Raadpleeg de algemene handleiding voor [Adobe Docs-contributors](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) voor meer informatie.
+If you are contributing minor updates out of the goodness of your heart, visit the article and click the **Edit** link in the article that goes to the GitHub source for the article. Then, just use the GitHub UI to make your updates. See the general [Adobe Docs contributor guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) for more information.
 
-Kleine correcties of verduidelijkingen die u verzendt voor documentatie en codevoorbeelden in deze repository, worden gedekt door de gebruiksvoorwaarden van Adobe.
+Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the Adobe terms of use.
 
-### Belangrijke wijzigingen of nieuwe artikelen van leden van de community
+### Major changes or new articles from community members
 
-Als u deel uitmaakt van de Adobe-community en u een nieuw artikel wilt schrijven of belangrijke veranderingen voorstelt, gebruikt u het tabblad Problemen in de Git-repository om een probleem te melden en een gesprek te beginnen met het documentatieteam. Zodra u met een plan hebt ingestemd, zult u met een medewerker moeten samenwerken om de nieuwe content te publiceren via een combinatie van werk in de openbare en privérepository&#39;s.
+If you're part of the Adobe community and you want to create a new article or submit major changes, please use the Issues tab in the Git repository to submit an issue to start a conversation with the documentation team. Once you've agreed to a plan, you'll need to work with an employee to help bring that new content in through a combination of work in the public and private repositories.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Belangrijke wijzigingen van Adobe-medewerkers
+### Major changes from Adobe Employees
 
-Als u een technisch schrijver, programmamanager of ontwikkelaar van het productteam voor een Adobe Experience Cloud-oplossing bent en het uw taak is om bij te dragen aan technische artikelen of deze te schrijven, gebruikt u de privérepository via `https://git.adobe.com/AdobeDocs`.
+If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository at `https://git.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
-## Tools en instellingen
+## Tools and setup
 
-Community-contributors kunnen de GitHub-interface gebruiken voor eenvoudige bewerkingen of kunnen de repository als beginpunt gebruiken voor belangrijke bijdragen.
+Community contributors can use the GitHub UI for basic editing or fork the repo to make major contributions.
 
-Zie de handleiding [Adobe Docs Contributor](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) voor meer informatie.
+See the [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) for details.
 
-## Markdown gebruiken voor de opmaak van uw onderwerp
+## How to use markdown to format your topic
 
-Alle artikelen in deze repository gebruiken een GitHub-markdown. Als u niet vertrouwd bent met markdown, raadpleegt u:
+All the articles in this repository use GitHub flavored markdown. If you are not familiar with markdown, see:
 
-* [Basisprincipes voor markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Afdrukbaar markdown-cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Markdown basics](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Printable markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Labels
 
-In de openbare repository worden geautomatiseerde labels toegewezen om verzoeken op te vragen. Daardoor kunnen we de workflow voor het opvragen van verzoeken beheren en u laten weten wat er met uw opvraagverzoek gebeurt:
+In the public repository, automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
 
-* **Wijziging naar auteur verzonden**: de auteur is ingelicht over het opvraagverzoek dat in behandeling is.
-* **klaar-voor-samenvoegen**: gereed voor review door ons revisieteam voor opvraagverzoeken.
+* **Change sent to author**: The author has been notified of the pending pull request.
+* **ready-to-merge**: Ready for review by our pull request review team.

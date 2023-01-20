@@ -1,79 +1,73 @@
 ---
 audience: end-user
-title: Test-e-mails verzenden
-description: Leer teste-mails definiëren en verzenden
+title: Send test emails
+description: Learn how to define and send test emails
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
-
 ---
-
-# Test-e-mails verzenden {#send-proofs}
+# Send test emails {#send-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Het verzenden van e-mails over tests is een belangrijke stap in het valideren van uw e-mailcampagne en het identificeren van mogelijke problemen. Door teste-mails te verzenden, kunt u verschillende elementen controleren, zoals koppelingen, opt-out-koppelingen, afbeeldingen en spiegelpagina&#39;s, en eventuele fouten opsporen.
+Sending test emails is an important step in validating your email campaign and identifying potential issues. By sending test emails, you can check various elements such as links, opt-out links, images, and mirror pages, as well as detect any errors.
 
-U kunt teste-mails verzenden naar twee typen ontvangers:
+Test emails can be sent to two types of recipients: 
 
-* **Testprofielen**: stuur teste-mails naar zaadadressen, die extra en fictieve ontvangers in het gegevensbestand zijn. Ze kunnen in de Adobe Campaign-console worden gemaakt in de **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** map.
+* **Test profiles**: send test emails to seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
+    
+* **Substitution from main target**: send test emails to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile receives.
 
-* **Vervanging van hoofddoel**: U kunt teste-mails verzenden naar een specifiek e-mailadres terwijl u een bestaand profiel imiteert. Zo kunt u het e-mailbericht net zo ervaren als de ontvangers, zodat u het bericht dat het profiel ontvangt, op de juiste wijze kunt weergeven.
+## Select the test recipients {#recipients}
 
-## Selecteer de testontvangers {#recipients}
+1. Access the email content simulation screen, then click the **[!UICONTROL Test]** button.
 
-1. Open het scherm voor het simuleren van e-mailinhoud en klik op **[!UICONTROL Test]** knop.
+    ![](assets/test-button.png)
 
-   ![](assets/test-button.png)
+1. Use the **[!UICONTROL Mode]** drop-down list to choose the type of recipients that receive the test email:
 
-1. Gebruik de **[!UICONTROL Mode]** vervolgkeuzelijst om het type ontvangers te kiezen die de teste-mail ontvangen:
+    * **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database,
+    
+    * **Substitution from main target**: send the test email to a specific email address while impersonating an existing profile. This allows you to experience the email as the recipients would, giving you an accurate representation of the message that the profile will receive.
 
-   * **Testprofielen**: de test-e-mail verzenden naar zaadadressen, die aanvullende en fictieve ontvangers in de database zijn;
+    ![](assets/test-mode.png)
 
-   * **Vervanging van hoofddoel**: Stuur de test-e-mail naar een specifiek e-mailadres en imiteer een bestaand profiel. Zo kunt u het e-mailbericht net zo ervaren als de ontvangers, zodat u het bericht dat het profiel ontvangt, op de juiste wijze kunt weergeven.
+    >[!NOTE]
+    >
+    >By default, the **[!UICONTROL Test profiles]** mode is selected. If you have already selected profiles to preview the email in the content simulation screen, those profiles are pre-selected as test recipients. You can clear your selection and/or add additional recipients.
 
-   ![](assets/test-mode.png)
+1. To send test emails to substitution profiles, choose the **[!UICONTROL Substitution from target]** mode then follow these steps:
 
-   >[!NOTE]
-   >
-   >Standaard worden de **[!UICONTROL Test profiles]** is geselecteerd. Als u al profielen hebt geselecteerd om een voorvertoning van de e-mail weer te geven in het scherm voor het simuleren van de inhoud, worden deze profielen vooraf geselecteerd als testontvangers. U kunt uw selectie wissen en/of extra ontvangers toevoegen.
+    1. Click the **[!UICONTROL Add address]** button and specify the email address that receives the test email.
 
-1. Kies de optie **[!UICONTROL Substitution from target]** Voer vervolgens de volgende stappen uit:
+        You can enter any email address. This allows you to send test emails to any users, even if they are not users of Adobe Campaign V8.
 
-   1. Klik op de knop **[!UICONTROL Add address]** en geeft u het e-mailadres op dat de teste-mail ontvangt.
+    1. Select the profile from the target to use to send the test email. You can also let Adobe Campaign select a random profile from the target.
 
-      U kunt elk e-mailadres invoeren. Op deze manier kunt u teste-mails sturen naar gebruikers, zelfs als zij geen gebruikers van Adobe Campaign V8 zijn.
+    1. Confirm the recipient and repeat the operation to add as many addresses as needed.
 
-   1. Selecteer het profiel in het doel dat u wilt gebruiken om de test-e-mail te verzenden. U kunt Adobe Campaign ook een willekeurig profiel van het doel laten selecteren.
+        ![](assets/substitution.png)
 
-   1. Bevestig de ontvanger en herhaal de bewerking om zoveel adressen toe te voegen als nodig is.
+1. Once the test recipients have been selected, you can send the test email. [Learn how to send test emails](#send)
 
-      ![](assets/substitution.png)
+    >[!NOTE]
+    >
+    >If you want to send the final email message to the recipients of the test email, enable the **[!UICONTROL Include test population in the main target]** option on.
 
-1. Nadat u de testontvangers hebt geselecteerd, kunt u de teste-mail verzenden. [Leer hoe u e-mailberichten over tests verzendt](#send)
+## Send the test email {#send}
 
-   >[!NOTE]
-   >
-   >Als u het laatste e-mailbericht naar de ontvangers van de teste-mail wilt verzenden, schakelt u de optie **[!UICONTROL Include test population in the main target]** optie ingeschakeld.
-
-## De test-e-mail verzenden {#send}
-
-Als u het testbericht naar de geselecteerde ontvangers wilt verzenden, klikt u op **[!UICONTROL Send test email]** bevestig vervolgens de verzending.
+To send the test email to the selected recipients, click **[!UICONTROL Send test email]** then confirm the sending.
 
 ![](assets/send-proof.png)
 
-U kunt zoveel teste-mails verzenden als u nodig hebt, totdat u de inhoud van uw levering hebt voltooid. Zodra dit wordt gedaan, kunt u e-mail naar het belangrijkste doel verzenden. [Leer hoe u uw e-mail voorbereidt en verzendt](../monitor/prepare-send.md)
+Send as many test emails as necessary until you have finalized the content of your delivery. Once this is done, you can send the email to the main target. [Learn how to prepare and send your email](../monitor/prepare-send.md)
 
-## E-mails over verzonden testberichten openen {#access-proofs}
+## Access sent test emails {#access-proofs}
 
-Zodra de teste-mails zijn verzonden, hebt u toegang tot toegewezen logbestanden via de **[!UICONTROL View test email log]** knop.
+Once the test emails have been sent, you can access dedicated logs from the **[!UICONTROL View test email log]** button.
 
-Met deze logboeken hebt u toegang tot alle teste-mails die voor de geselecteerde levering zijn verzonden en kunt u specifieke statistieken over het verzenden van deze mails visualiseren. [Leer hoe u leveringslogboeken kunt controleren](../monitor/delivery-logs.md)
+These logs allow you to access all the test emails sent for the selected delivery, and to visualize specific statistics related to their sending. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)
 
 ![](assets/proof-log.png)
 
-U kunt de verzonden teste-mails ook vanuit de lijst met leveringen openen, net als elke levering.
+You can also access sent test emails from the deliveries list, like any delivery.
 
 ![](assets/delivery-list.png)

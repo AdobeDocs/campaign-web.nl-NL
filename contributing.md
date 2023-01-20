@@ -1,46 +1,53 @@
----
-source-git-commit: 0c332499fb39fa6dd80bff82e6e358e3f3016ac7
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+# Contributing
 
----
-# Bijdragen
+Thanks for choosing to contribute!
 
-Bedankt dat u hebt gekozen om bij te dragen!
+The following are a set of guidelines to follow when contributing to this project.
 
-Hieronder volgt een reeks richtlijnen die moeten worden gevolgd wanneer u een bijdrage levert aan dit project.
+## Code Of Conduct
 
-## Gedragscode
-
-Dit project voldoet aan de Adobe-[gedragscode](code-of-conduct.md). Als u deelneemt, wordt van u verwacht dat u zich aan deze code houdt. Geef een onacceptabel gedrag aan
+This project adheres to the Adobe [code of conduct](code-of-conduct.md). By participating,
+you are expected to uphold this code. Please report unacceptable behavior to
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Documentatie voor de bijdragegids
+## Contributor Guide Documentation
 
-Zie de [Handleiding voor contribuanten](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+See the [Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
-## Heb je een vraag?
+## Have A Question?
 
-Begin met het indienen van een probleem. De bestaande comités voor dit project werken aan consensus over de richting van het project en leveren oplossingen aan binnen de thema&#39;s (indien van toepassing).
+Start by filing an issue. The existing committers on this project work to reach
+consensus around project direction and issue solutions within issue threads
+(when appropriate).
 
-## Licentieovereenkomst voor contribuant
+## Contributor License Agreement
 
-Alle bijdragen van derden aan dit project moeten vergezeld gaan van een ondertekende contributieovereenkomst. Dit geeft Adobe de toestemming om uw bijdragen als deel van het project opnieuw te verdelen. [CLA ondertekenen](http://opensource.adobe.com/cla.html). U hoeft slechts één keer een Adobe CLA in te dienen, dus als u eerder een CLA hebt verzonden, kunt u het beste gaan!
+All third-party contributions to this project must be accompanied by a signed contributor
+license agreement. This gives Adobe permission to redistribute your contributions
+as part of the project. [Sign our CLA](http://opensource.adobe.com/cla.html). You
+only need to submit an Adobe CLA one time, so if you have submitted one previously,
+you are good to go!
 
-## Codebeoordelingen
+## Code Reviews
 
-Alle inzendingen moeten in de vorm van pull-aanvragen gebeuren en moeten door projectcommitters worden gecontroleerd. Lees de documentatie [over pull-aanvragen van GitHub](https://help.github.com/articles/about-pull-requests/) voor meer informatie over het indienen van pull-aanvragen.
+All submissions should come in the form of pull requests and need to be reviewed
+by project committers. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
+for more information on sending pull requests.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## Van contribuant aan vastleggingen
+## From Contributor To Committer
 
-We houden van bijdragen van onze gemeenschap! Als u een stap verder wilt gaan dan contribuant en een medeplichtige met volledige schrijftoegang en een mening in het project wilt worden, moet u aan het project worden uitgenodigd. De bestaande commissies maken gebruik van een intern benoemingsproces dat een luie consensus moet bereiken (stilte is goedkeuring) voordat uitnodigingen worden gedaan. Als u vindt dat u gekwalificeerd bent en dieper betrokken wilt worden, voelt u vrij om bestaande toezeggingen te bereiken om daarover een gesprek te voeren.
+We love contributions from our community! If you'd like to go a step beyond contributor
+and become a committer with full write access and a say in the project, you must
+be invited to the project. The existing committers employ an internal nomination
+process that must reach lazy consensus (silence is approval) before invitations
+are issued. If you feel you are qualified and want to get more deeply involved,
+feel free to reach out to existing committers to have a conversation about that.
 
-## Beveiligingsproblemen
+## Security Issues
 
-Beveiligingsproblemen moeten niet worden gerapporteerd in deze Issue Tracker. In plaats daarvan, [een probleem indienen bij onze beveiligingsexperts](https://helpx.adobe.com/security/alertus.html)
+Security issues shouldn't be reported on this issue tracker. Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)

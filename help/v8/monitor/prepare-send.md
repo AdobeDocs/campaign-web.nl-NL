@@ -1,23 +1,17 @@
 ---
 audience: end-user
-title: Een e-mail voorbereiden en verzenden
-description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
+title: Prepare and send an email
+description: Learn how to prepare and send an email with Campaign Web UI
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 4%
-
 ---
-
-# Uw e-mail voorbereiden en verzenden {#prepare-send}
+# Prepare and send your email {#prepare-send}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
->title="Uw e-mail voorbereiden en verzenden"
->abstract="Ontdek hoe u uw e-mail kunt voorbereiden en meer kunt leren over het verzenden van KPI&#39;s."
+>title="Prepare and send your email"
+>abstract="Discover how to prepare your email and learn more about sending KPIs."
 
 <!--
 
@@ -32,66 +26,66 @@ exclusion logs, causes
 send also KPIs
 -->
 
-## De verzending voorbereiden{#prepare}
+## Prepare the send{#prepare}
 
-Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw bericht voor te bereiden. Tijdens de voorbereiding, wordt de doelbevolking berekend en de berichtinhoud geproduceerd voor elk profiel inbegrepen in het doel. Zodra de voorbereiding is voltooid, zijn de berichten klaar om te worden verzonden, of onmiddellijk of op de geplande datum en tijd. De validatieregels die tijdens de analyse worden gebruikt, worden beschreven in de [Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
+When you have defined your content, audience and schedule, you're ready to prepare your message. During the preparation, the target population is calculated and the message content generated for each profile included in the target. Once the preparation is finished, the messages are ready to be sent, either immediately or at the scheduled date and time. The validation rules used during analysis are described in the [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#validation-process-with-typologies){target="_blank"}.
 
-Volg de onderstaande stappen:
+Follow the steps below: 
 
-1. Klik op het bezorgdashboard op de knop **Voorbereiden** in de rechterbovenhoek en bevestig.
+1. From the delivery dashboard, click the **Prepare** button located in the top right corner and confirm.
 
-   ![](assets/prepare.png)
+    ![](assets/prepare.png)
 
-   De voortgang van de voorbereiding wordt weergegeven. Afhankelijk van de omvang van de doelpopulatie kan deze operatie enige tijd in beslag nemen.
+   The preparation progress is displayed. Depending on the size of the targeted population, this operation may take some time.
 
-   >[!NOTE]
-   >
-   >U kunt de bereiding op elk gewenst moment stoppen met de **Voorbereiding stoppen** knop. Tijdens de voorbereidingsfase worden geen berichten verzonden. U kunt dit daarom starten of stoppen zonder het risico te lopen iets te beïnvloeden.
+    >[!NOTE]
+    >
+    >You can stop the preparation at any time using the **Stop preparation** button. During the preparation phase, no messages are sent. You can therefore start or stop this without risk of impacting anything.
 
-1. Controleer de PKI&#39;s wanneer de bereiding is voltooid. Als het aantal berichten dat u wilt verzenden niet overeenkomt met uw verwachtingen, wijzigt u het publiek en start u de voorbereiding opnieuw.
+1. When the preparation is finished, check the KPIs. If the number of messages to send does not match your expectations, modify your audience and restart the preparation. 
 
-   ![](assets/prepare2.png)
+    ![](assets/prepare2.png)
+    
+    Here are the different KPIs displayed:
 
-   Hier worden de verschillende KPI&#39;s weergegeven:
+    * **Targeted**: the number of recipients targeted
+    * **To deliver**: the number of messages that will be sent 
+    * **To exclude**: the number of messages excluded by a typology rule
 
-   * **Gericht**: het aantal doelgroepen
-   * **Om te leveren**: het aantal berichten dat wordt verzonden
-   * **Uitsluiten**: het aantal berichten dat door een typologieregel is uitgesloten
+1. Click the **Logs** button and check that there is no error. The last log message displays any error messages and the number of errors. For more on this, see this [section](delivery-logs.md).
 
-1. Klik op de knop **Logboeken** en controleert u of er geen fout optreedt. In het laatste logbericht worden foutberichten en het aantal fouten weergegeven. Zie [deze sectie](delivery-logs.md) voor meer informatie.
+    ![](assets/prepare-logs.png)
 
-   ![](assets/prepare-logs.png)
-
-Als in het preparaat een kritieke fout wordt aangetroffen waardoor de levering niet kan worden verzonden, wordt de status van het preparaat in het leveringsdashboard weergegeven als mislukt.
+If the preparation detects a critical error preventing the delivery from being sent, the preparation status appears as failed in the delivery dashboard.
 
 ![](assets/prepare-error.png)
 
-Als u na de bereiding wijzigingen in uw aflevering moet aanbrengen, moet u de voorbereiding opnieuw starten om met deze wijzigingen rekening te houden.
+If you need to make any changes to your delivery after the preparation, you need to restart the preparation for those changes to be taken into account. 
 
-Zodra de voorbereiding zonder fout volledig is, is uw bericht klaar om te worden verzonden. Zie [deze sectie](#send) voor meer informatie.
+Once the preparation is complete with no error, your message is ready to be sent. For more on this, see this [section](#send).
 
-## Bericht verzenden{#send}
+## Send the message{#send}
 
-Zodra de voorbereiding volledig is, kunt u uw bericht nu verzenden. Deze stap is alleen vereist voor berichten die direct worden verzonden. Als het bericht gepland is, wordt het verzonden op de bepaalde datum.
+Once the preparation is complete, you can now send your message. This step is only required for messages sent immediately. If the message is scheduled, it is sent at the defined date. 
 
-Voer de volgende stappen uit:
+Follow these steps:
 
-1. Klik op het bezorgdashboard op de knop **Verzenden** in de rechterbovenhoek en bevestigen.
+1. From the delivery dashboard, click the **Send** button in the top right corner and confirm.
 
-   ![](assets/send.png)
+    ![](assets/send.png)
 
-1. De verzendvoortgang wordt weergegeven. Controleer de getoonde KPIs. U kunt ook de logbestanden controleren. Zie [deze sectie](delivery-logs.md) voor meer informatie.
+1. The sending progress is displayed. Check the KPIs displayed. You can also check the logs. For more on this, see this [section](delivery-logs.md).
 
-   ![](assets/send2.png)
+    ![](assets/send2.png)
 
-   Hier worden de verschillende KPI&#39;s weergegeven:
+    Here are the different KPIs displayed:
 
-   * **Geleverd**: het aantal berichten dat is afgeleverd. Het getoonde percentage is gebaseerd op het totale aantal verzonden berichten.
-   * **Openen**: het aantal geopende berichten. Het getoonde percentage is de verhouding van het aantal verschillende opent in vergelijking met het aantal geleverde berichten.
-   * **Klikken**: het aantal ontvangers dat ten minste één keer in de e-mail heeft geklikt. Het getoonde percentage is de verhouding van het aantal verschillende kliks in vergelijking met het aantal geleverde berichten.
+    * **Delivered**: the number of messages successfully delivered. The percentage displayed is based on the total number of sent messages.
+    * **Opens**: the number of opened messages. The percentage displayed is the ratio of the number of distinct opens compared with the number of delivered messages.
+    * **Clicks**: the number of recipient who clicked at least once in the email. The percentage displayed is the ratio of the number of distinct clicks compared with the number of delivered messages.
 
-   >[!NOTE]
-   >
-   >De **Openen** en **Klikken** de indicatoren worden na 5 minuten bijgewerkt.
+    >[!NOTE]
+    >
+    >The **Opens** and **Clicks** indicators are updated after 5 minutes.  
 
-   U kunt het verzenden op elk ogenblik pauzeren en dan hervatten. Als u de levering beëindigt terwijl het wordt verzonden, kunt u niet hervatten.
+   You can pause the sending at any time and then resume. If you stop the delivery while it is being sent, you cannot resume.

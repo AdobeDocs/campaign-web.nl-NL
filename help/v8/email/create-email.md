@@ -1,89 +1,83 @@
 ---
 audience: end-user
-title: Uw eerste e-mail verzenden
-description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
+title: Send your first email
+description: Learn how to send your first email with Campaign Web UI
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 1%
-
 ---
-
-# Uw eerste e-mail verzenden {#first-email}
+# Send your first email {#first-email}
 
 ![](../assets/do-not-localize/badge.png)
 
-Leer hoe u uw eerste e-mailadres maakt waarvoor u een e-mail wilt schrijven. In dit geval plant u het verzenden van een e-mail naar leden van Silver en Gold-loyaliteit op een bepaalde datum.
+Learn how to create your first targeted email. In this use case, you schedule the sending of an email to Silver and Gold loyalty members on a specific date.
 
-Op basis van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepersonaliseerde inhoud op basis van de kenmerken van het klantprofiel.
+Based on a predefined design template, the email also features personalized content based on customer profile attributes.
 
 ![](assets/delivery-list.png)
 
-## E-mail maken {#create-email}
+## Create the email {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
->title="Een e-mailsjabloon selecteren"
->abstract="Een e-mailmalplaatje is een specifieke leveringsconfiguratie die vooraf bepaalde montages, zoals typologieregels, verpersoonlijking of het verpletteren van parameters bevat. De malplaatjes worden bepaald in de de cliëntconsole van de Campagne."
+>title="Select an email template"
+>abstract="An email template is a specific delivery configuration that contains predefined settings, such as typology rules, personnalization or routing parameters. Templates are defined in the Campaign client console."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="E-maileigenschappen"
->abstract="De eigenschappen zijn de gemeenschappelijke leveringsparameters die u helpen om uw levering te noemen en te classificeren. Als uw levering is gebaseerd op een uitgebreid schema dat is gedefinieerd in de Adobe Campaign v8-console, zijn er enkele specifieke **Aangepaste opties** zijn beschikbaar."
+>title="Email Properties"
+>abstract="The properties are the common delivery parameters that helps you to name and classify your delivery. If your delivery is based on an extended schema defined in the Adobe Campaign v8 console, some specific **Custom Options** fields are available."
 
-1. Als u een nieuwe levering wilt maken, gaat u naar de **[!UICONTROL Deliveries]** en selecteert u **[!UICONTROL Email]** als het kanaal.
+1. To create a new delivery, go to the **[!UICONTROL Deliveries]** menu and select **[!UICONTROL Email]** as the channel.
 
-1. Selecteer de sjabloon die u wilt gebruiken en klik op **[!UICONTROL Create delivery]**.
+1. Select the template you want to use and click **[!UICONTROL Create delivery]**.
 
-   >[!NOTE]
-   >
-   >Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die zijn opgeslagen voor toekomstig gebruik. Ze kunnen door beheerders in de Adobe Campaign-console worden gemaakt. [Meer informatie over het werken met leveringssjablonen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+    >[!NOTE]
+    >
+    >Templates are pre-configured delivery settings saved for future use. They can be created by admin users in Adobe Campaign console. [Learn how to work with delivery templates](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
-   ![](assets/channel-template.png)
+    ![](assets/channel-template.png)
 
-1. Geef een label voor de e-mail en configureer aanvullende opties op basis van uw behoeften:
+1. Provide a label for the email and configure additional options based on your needs:
 
-   * **[!UICONTROL Internal name]**: een unieke identificatiecode aan de levering toewijzen;
-   * **[!UICONTROL Folder]**: de levering opslaan in een specifieke map,
-   * **[!UICONTROL Delivery code]**: gebruik dit veld om uw leveringen te ordenen op basis van uw eigen naamgevingsconventie,
-   * **[!UICONTROL Description]**: een omschrijving van de levering,
-   * **[!UICONTROL Nature]**: de aard van het e-mailbericht voor classificatiedoeleinden specificeren.<!--The content of the list is defined in the delivery template selected when creating the email.-->
+    * **[!UICONTROL Internal name]**: assign a unique identifier to the delivery,
+    * **[!UICONTROL Folder]**: store the delivery in a specific folder,
+    * **[!UICONTROL Delivery code]**: use this field to organize your deliveries based on your own naming convention,
+    * **[!UICONTROL Description]**: specify a description for the delivery,
+    * **[!UICONTROL Nature]**: specify the nature of the email for classification purposes.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
-   >[!NOTE]
-   >
-   >Als u uw schema met specifieke douanevelden hebt uitgebreid, kunt u tot hen in toegang hebben **[!UICONTROL Custom options]** sectie.
+    >[!NOTE]
+    >
+    >If you have extended your schema with specific custom fields, you can access them in the **[!UICONTROL Custom options]** section.
 
-   ![](assets/email-properties.png)
+    ![](assets/email-properties.png)
 
-   Bovendien, kunnen de geavanceerde montages, zoals typologieregels en doelafbeeldingen, worden betreden door de knoop te klikken die naast de leveringsnaam wordt gevestigd. Deze instellingen zijn vooraf geconfigureerd in de geselecteerde sjabloon, maar kunnen zo nodig worden bewerkt voor deze specifieke e-mail.
+    Additionally, advanced settings, such as typology rules and target mappings, can be accessed by clicking the button located next to the delivery name. These settings are pre-configured in the selected template, but can be edited as needed for this specific email.
 
-## E-mailinhoud maken {#create-content}
+## Create the email content {#create-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card3"
->title="Leer hoe u uw e-mailinhoud ontwerpt"
->abstract="Leer hoe u de e-mailontwerper gebruikt."
+>title="Learn how to design your email content"
+>abstract="Learn how to use the Email Designer."
 
-In dit geval gebruikt u een vooraf gedefinieerde sjabloon om ons e-mailbericht te ontwerpen.
+In this use case, you use a predefined template to design our email.
 
-Gedetailleerde instructies over het configureren van de e-mailinhoud zijn beschikbaar in [deze sectie](../content/edit-content.md).
+Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).
 
-1. Klik op de knop **[!UICONTROL Edit content]** knop.
+1. To start creating the email content, click the **[!UICONTROL Edit content]** button. 
 
-   Hiermee gaat u naar een speciale interface waar u de e-mailinhoud kunt configureren en ontwerpen met de e-mailontwerper.
+   This brings you to a dedicated interface where you can configure the email content and design it using the Email Designer. 
 
-   ![](assets/edit-content.png)
+    ![](assets/edit-content.png)
 
-1. Voer de onderwerpregel van uw e-mail in en pas deze aan met de Expressieeditor. [Leer hoe u uw inhoud kunt aanpassen](../personalization/personalize.md)
+1. Enter the subject line of your email and personalize it using the Expression Editor. [Learn how to personalize your content](../personalization/personalize.md)
 
-   ![](assets/subject-line.png)
+    ![](assets/subject-line.png)
 
-1. Als u de hoofdtekst van de e-mail wilt ontwerpen, klikt u op de knop **[!UICONTROL Edit email body]** knop.
+1. To design the body of the email, click the **[!UICONTROL Edit email body]** button.
 
-   Kies de methode die u wilt gebruiken om uw e-mailinhoud te maken. In dit voorbeeld gebruikt u een vooraf gedefinieerde ontwerpsjabloon.
+    Choose the method to use to create your email content. In this example, use a predefined design template.
 
-   ![](assets/select-template.png)
+    ![](assets/select-template.png)
 
 <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
@@ -91,116 +85,116 @@ Gedetailleerde instructies over het configureren van de e-mailinhoud zijn beschi
 
     ![](assets/import-folder.png)-->
 
-1. Nadat u de sjabloon hebt geselecteerd, wordt deze weergegeven in de e-mailontwerper, waar u eventueel noodzakelijke bewerkingen kunt uitvoeren en personalisatie kunt toevoegen.
+1. Once you have selected the template, it is displayed in the Email Designer, where you can make any necessary edits and add personalization.
 
-   Als u bijvoorbeeld personalisatie wilt toevoegen aan de e-mailtitel, selecteert u het componentblok en klikt u op **[!UICONTROL Add Personalization]**.
+    For example, to add personalization to the email title, select the component block and click **[!UICONTROL Add Personalization]**.
 
-   ![](assets/add-perso.png)
+    ![](assets/add-perso.png)
 
-1. Als u tevreden bent met de inhoud, slaat u het ontwerp op en sluit u het. Klikken **[!UICONTROL Save]** om terug te keren naar het scherm voor het maken van e-mail.
+1. Once you are satisfied with the content, save and close your design. Click **[!UICONTROL Save]** to return to the email creation screen.
 
-   ![](assets/save-content.png)
+    ![](assets/save-content.png)
 
-## De doelgroep definiëren {#define-audience}
+## Define the audience {#define-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
->title="De doelgroep definiëren"
->abstract="Selecteer het beste publiek voor uw marketingbericht. U kunt een bestaand publiek kiezen dat al is gedefinieerd in een Campagne v8-instantie of in Adobe Experience Platform, of u kunt een nieuw publiek maken met de functie voor het maken van regels."
+>title="Define the audience"
+>abstract="Select the best audience for your marketing message. You can choose an existing audience already defined in a Campaign v8 instance or from Adobe Experience Platform, or you can create a new audience with the rule builder."
 
-In dit geval stuurt u de e-mail naar een bestaand publiek. Aanvullende instructies over het werken met het publiek zijn beschikbaar in [deze sectie](../audience/about-audiences.md).
+In this use case, you send the email to an existing audience. Additional instructions on how to work with audiences are available in [this section](../audience/about-audiences.md).
 
-1. Als u het publiek voor de e-mail wilt selecteren, klikt u op de knop **[!UICONTROL Select audience]** en kiest u een bestaand publiek in de lijst.
+1. To select the audience for the email, click the **[!UICONTROL Select audience]** button and choose an existing audience from the list.
 
-   In dit voorbeeld willen we een bestaand publiek gebruiken dat zich richt op klanten die behoren tot het niveau van de zilveren- en goudloyaliteitspunten.
+    In this example, we want to use an existing audience targeting customers belonging to the silver and gold loyalty points levels.
 
-   ![](assets/create-audience.png)
+    ![](assets/create-audience.png)
 
-   >[!NOTE]
-   >
-   >Het publiek beschikbaar in de lijst komt van uw instantie van de Campagne v8 of van Adobe Experience Platform voort als de Bestemming/Bronintegratie op uw instantie is gevormd.
-   >
-   >Met de integratie Doel/Bronnen kunt u de segmenten Experience Platform naar Adobe Campaign verzenden en de bezorging en tracering van campagnes naar Adobe Experience Platform verzenden. [Leer hoe u met Campagne en Adobe Experience Platform werkt](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+    >[!NOTE]
+    >
+    >Audiences available in the list originate either from your Campaign v8 instance or from Adobe Experience Platform if the Destination / Sources integration has been configured on your instance.
+    >
+    >The Destination / Sources integration allows you to send Experience Platform segments to Adobe Campaign, and to send Campaign delivery and tracking logs over to Adobe Experience Platform. [Learn how work with Campaign and Adobe Experience Platform](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
-1. Als het publiek is geselecteerd, kunt u het doel verder verfijnen door aanvullende regels toe te passen.
+1. Once the audience is selected, you can further refine the target by applying additional rules.
 
-   U kunt ook een controlegroep instellen om het gedrag van de e-mailontvangers te analyseren in vergelijking met degenen die niet als doelgroep werden gebruikt. [Leer hoe u met besturingsgroepen werkt](../audience/control-group.md)
+    You can also set a control group to analyze the behavior of the email recipients compared to those who were not targeted. [Learn how to work with control groups](../audience/control-group.md)
 
-   ![](assets/audience-selected.png)
+    ![](assets/audience-selected.png)
 
-## Plan de verzending {#schedule}
+## Schedule the sending {#schedule}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Plan de verzending"
->abstract="Bepaal de datum en de nauwkeurige tijd voor uw verzendend. Door de meest geschikte tijd voor uw marketingbericht te kiezen, kunt u de open tarieven maximaliseren."
+>title="Schedule the sending"
+>abstract="Define the date and the exact time for your sending. By choosing the most appropriate time for your marketing message, you can maximise open rates."
 
-Als u het verzenden van de e-mail wilt plannen, klikt u op **[!UICONTROL Enable]** en stelt u de gewenste datum en tijd voor verzending in.
+To schedule the sending of the email, click **[!UICONTROL Enable]** and set the desired date and time for sending. 
 
-Standaard worden de **[!UICONTROL Confirm before sending]** is ingeschakeld, zodat u de verzending moet bevestigen voordat het e-mailbericht op de geplande datum en tijd wordt verzonden. Als u het e-mailbericht automatisch wilt verzenden op de geplande datum en tijd, kunt u deze optie uitschakelen.
+By default, the **[!UICONTROL Confirm before sending]** option is enabled, requiring you to confirm the sending before the email is sent at the scheduled date and time. If you wish to send the email automatically on the scheduled date and time, you can disable this option.
 
 ![](assets/schedule.png)
 
-## E-mail voorvertonen en testen {#preview-test}
+## Preview and test the email {#preview-test}
 
-Voordat u uw e-mail verzendt, kunt u een voorbeeld bekijken en testen of deze voldoet aan uw verwachtingen.
+Before sending your email, you can preview and test it to ensure it meets your expectations.
 
-In dit geval bekijkt u een voorbeeld van de e-mail en verzendt u testversies naar specifieke e-mailadressen terwijl u zich aan enkele van de beoogde profielen aanpast.
+In this use case, you preview the email and send test versions to specific email addresses while impersonating some of the targeted profiles.
 
-Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in [deze sectie](../preview-test/preview-test.md).
+Additional information on how to preview and test emails are available in [this section](../preview-test/preview-test.md).
 
-1. Klik op **[!UICONTROL Review and send]**. Dit toont een voorproef van uw e-mail, samen met alle gevormde eigenschappen, publiek en programma. U kunt al deze elementen bewerken door op de knop Wijzigen te klikken.
+1. To review and send the email, click **[!UICONTROL Review and send]**. This displays a preview of your email, along with al the configured properties, audience and schedule. You can edit any of these elements by clicking the modify button.
 
-1. Klik op de knop **[!UICONTROL Simulate content]** knop.
+1. To preview the email and send test verrsions, click the **[!UICONTROL Simulate content]** button. 
 
-   ![](assets/review-email.png)
+    ![](assets/review-email.png)
 
-1. Selecteer links het profiel of de profielen die u wilt gebruiken voor een voorbeeld van het e-mailbericht.
+1. On the left-hand side, select the profile(s) you want to use to preview the email.
 
-   In het rechterdeelvenster ziet u een voorbeeld van het e-mailbericht op basis van het geselecteerde profiel. Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen schakelen om een voorbeeld van de bijbehorende e-mail te bekijken.
+    The right pane displays a preview of the email based on the selected profile. If you have added multiple profiles, you can switch between them to preview the corresponding email.
 
-   ![](assets/preview.png)
+    ![](assets/preview.png)
 
    <!-- !NOTE
     >
     >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
 
-1. Als u testversies van uw e-mail wilt verzenden, klikt u op de knop **[!UICONTROL Test]** kiest u vervolgens de gewenste modus.
+1. To send test versions of your email, click the **[!UICONTROL Test]** button then choose the mode you want to use.
 
-   In dit voorbeeld gebruikt u de opdracht **[!UICONTROL Substitute from main target]** -modus, die testversies naar specifieke e-mailadressen verzendt en tegelijkertijd enkele profielen nastreeft die in de e-mail worden genoemd.
+    In this example, use the **[!UICONTROL Substitute from main target]** mode, which sends test versions to specific email addresses while impersonating some of the profiles targeted by the email.
 
-   ![](assets/proof-mode.png)
+    ![](assets/proof-mode.png)
 
-1. Klikken **[!UICONTROL Add address]** en vermeld het e-mailadres of de e-mailadressen die de testversies ontvangen.
+1. Click **[!UICONTROL Add address]** and specify the email address(es) which receive the test versions.
 
-   Selecteer voor elk e-mailadres het profiel dat u wilt beleven. U kunt Adobe Campaign ook een willekeurig profiel van het doel laten selecteren.
+    For each email address, select the profile to impersonate. You can also let Adobe Campaign select a random profile from the target.
 
-   ![](assets/proof-test-profile.png)
+    ![](assets/proof-test-profile.png)
 
-1. Klikken **[!UICONTROL Send test email ]** en de verzending bevestigen.
+1. Click **[!UICONTROL Send test email ]** and confirm the sending.
 
-   Testversies worden naar de opgegeven e-mailadressen verzonden met behulp van het geselecteerde profiel met het **[Proef x]** voorvoegsel.
+    Test versions are sent to the specified email addresses using the selected profile with the **[Proof x]** prefix.
 
-   ![](assets/proof-sent.png)
+    ![](assets/proof-sent.png)
 
-   U kunt de status van de verzendende e-mail controleren en de verzonden teste-mails op elk gewenst moment openen door op de knop **[!UICONTROL View test email log]** in het scherm Inhoud simuleren.
+    You can check the status of the sending and access the sent test emails at any time by clicking the **[!UICONTROL View test email log]** button in the simulate content screen.
 
-## E-mail verzenden en controleren {#prepare-send}
+## Send and monitor the email {#prepare-send}
 
-Nadat u uw e-mail hebt bekeken en getest, kunt u de voorbereiding starten en verzenden.
+After reviewing and testing your email, you can launch its preparation and send it.
 
-1. Klik op **[!UICONTROL Prepare]**. [Leer hoe u een e-mail voorbereidt](../monitor/prepare-send.md)
+1. To launch the preparation of the email, click **[!UICONTROL Prepare]**. [Learn how to prepare an email](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png)
+    ![](assets/preparation.png)
+ 
+1. Once your email is ready to be sent, click the **[!UICONTROL Send]** button (or **[!UICONTROL Send as scheduled]** if you have scheduled its sending) and confirm the sending.
 
-1. Als je e-mail klaar is om te worden verzonden, klik je op de knop **[!UICONTROL Send]** knop (of **[!UICONTROL Send as scheduled]** (als u de verzending hebt gepland) en bevestig de verzending.
+1. During the sending process, you can track its progress and view statistics in real-time directly in this screen.
 
-1. Tijdens het verzendende proces, kunt u zijn vooruitgang volgen en statistieken in real time direct in dit scherm bekijken.
+    ![](assets/sent-mail.png)
 
-   ![](assets/sent-mail.png)
+    You can also access detailed information on the sending by clicking the **[!UICONTROL Logs]** button. [Learn how to monitor delivery logs](../monitor/delivery-logs.md)     
 
-   U kunt gedetailleerde informatie over het verzenden ook toegang hebben door te klikken op **[!UICONTROL Logs]** knop. [Leer hoe u leveringslogboeken kunt controleren](../monitor/delivery-logs.md)
-
-1. Nadat u het e-mailbericht hebt verzonden, kunt u specifieke rapporten voor verdere analyse openen door op de knop **[!UICONTROL Reporting]** knop.
+1. After the email has been sent, you can access dedicated reports for further analysis by clicking the **[!UICONTROL Reporting]** button.
 
 ![](assets/reports.png)

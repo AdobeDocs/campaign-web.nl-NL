@@ -1,32 +1,25 @@
 ---
 audience: end-user
-title: Informatie over e-mailvoorvertoning en testen
-description: Leer hoe u e-mailberichten kunt bekijken en testen
+title: About email preview and test
+description: Learn how to preview and test emails
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
-workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 0%
-
 ---
-
-# Informatie over e-mailvoorvertoning en testen {#about-preview-proofs}
+# About email preview and test {#about-preview-proofs}
 
 ![](../assets/do-not-localize/badge.png)
 
-Voordat u een e-mail verzendt, is het belangrijk dat u de inhoud ervan controleert en test om te controleren of deze correct is en dat er geen fouten optreden in de instellingen voor inhoud of personalisatie.
+Before sending an email, it is important to review and test its content to ensure that it is accurate and free of errors in content or personalization settings.
 
-Om dit te doen, staat Adobe Campaign u toe:
+To do this, Adobe Campaign allows you to:
 
-* [Voorbeeld van e-mailinhoud en personalisatie bekijken](#preview),
-
+* [Preview the email content and personalization](#preview),
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Test-e-mails verzenden](#send-proofs) aan specifieke ontvangers voor tests en validatie.
+* [Send test emails](#send-proofs) to specific recipients for testing and validation.
 
-Deze handelingen kunnen worden uitgevoerd via de **[!UICONTROL Simulate content]** -knop die toegankelijk is wanneer u de inhoud maakt van uw e-mailbericht van e-mailontwerper:
+These actions can be performed from the **[!UICONTROL Simulate content]** button which is accessible when creating the content of your email of from the Email Designer:
 
 ![](assets/simulate.png)
 
 >[!NOTE]
 >
->De simulatie van de inhoud is ook beschikbaar bij de leveringssamenvatting nadat u op de knop **[!UICONTROL Review and send]** knop.
+>Content simulation is also available from the delivery summary after clicking the **[!UICONTROL Review and send]** button.

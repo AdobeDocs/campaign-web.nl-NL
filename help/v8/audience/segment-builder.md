@@ -1,98 +1,92 @@
 ---
 audience: end-user
-title: Bepaal een publiek met de regelbouwer
-description: Leer hoe u met de Segment Builder werkt
+title: Define an audience with the rule builder
+description: Learn how to work with the Segment Buidler
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 1%
-
 ---
-
-# Bepaal een publiek met de regelbouwer {#segment-builder}
+# Define an audience with the rule builder {#segment-builder}
 
 ![](../assets/do-not-localize/badge.png)
 
-In deze sectie wordt beschreven hoe u een publiek kunt maken tijdens het ontwerpen van een nieuwe e-mail. Het nieuwe publiek kan alleen in deze e-mail worden gebruikt.
+This section describes how to create an audience when designing a new email. The created audience can only be used in this email. 
 
-De regelbouwer staat u toe om de bevolking te bepalen die door uw bericht wordt gericht door gegevens te filtreren in het gegevensbestand. Als u een bestaand publiek wilt selecteren, raadpleegt u deze [sectie](add-audience.md).
+The rule builder allows you to define the population targeted by your message by filtering data contained in the database. If you want to select an existing audience, refer to this [section](add-audience.md). 
 
-Voor meer informatie over de regelbouwer, verwijs naar [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
+For more information on the rule builder, refer to the [Segmentation Service documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
 
-Voer de volgende stappen uit om een nieuw publiek te maken tijdens het ontwerpen van een e-mail:
+To create a new audience when designing an email, follow these steps: 
 
-1. Van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking, klik **[!UICONTROL Select audience]** knop.
+1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
 
-   ![](assets/segment-builder0.png)
+    ![](assets/segment-builder0.png)
 
-1. Selecteren **Maak uw eigen**. De regelbouwer wordt weergegeven.
+1. Select **Create your own**. The rule builder is displayed.
 
-   ![](assets/segment-builder.png)
+    ![](assets/segment-builder.png)
 
-## Het palet
+## The palette
 
-Het palet aan de linkerkant bevat alle elementen waarop u kunt filteren om een publiek te maken. De tegels in het palet moeten naar het middelste canvas worden verplaatst om geconfigureerd en meegenomen te kunnen worden. Het palet bestaat uit twee tabbladen:
+The palette, located on the left side contains all the elements that you can filter on to create your audience. The tiles contained in the palette must be moved into the center canvas in order to be configured and taken into account. The palette is divided into two tabs:
 
-* **Attributen**: op dit tabblad hebt u vanuit het schema toegang tot alle beschikbare velden. De lijst met velden is afhankelijk van het doelschema dat in de e-mailsjabloon is gedefinieerd.
+* **Attributes**: this tab allows you to access all available fields from the schema. The list of fields depends on the targeting schema defined in the email template.
 
-   ![](assets/segment-builder2.png){width="70%" align="left"}
+    ![](assets/segment-builder2.png){width="70%" align="left"}
 
-* **Soorten publiek**: op dit tabblad kunt u filteren met een van de bestaande soorten publiek die zijn gedefinieerd in de Campaign Classic-console of vanuit Adobe Experience Platform.
+* **Audiences**: this tab allows you to filter using one of the existing audiences defined in the Campaign Classic console or from Adobe Experience Platform.
 
-   ![](assets/segment-builder3.png){width="70%" align="left"}
+    ![](assets/segment-builder3.png){width="70%" align="left"}
 
-   >[!NOTE]
-   >
-   >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
+    >[!NOTE]
+    >
+    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
 
-U kunt de zoekbalk gebruiken om snel naar elementen te zoeken.
+You can use the search bar to find elements quickly.
 
-## Het canvas
+## The canvas
 
-Het canvas is de centrale zone waarin u regels kunt configureren en combineren op basis van de elementen die vanuit het palet worden toegevoegd. Als u een nieuwe regel wilt toevoegen, sleept u een tegel uit het palet en zet u de tegel neer op het canvas. Vervolgens kunt u contextspecifieke opties weergeven, afhankelijk van het type gegevens dat wordt toegevoegd.
+The canvas is the central zone in which you can configure and combine rules based on the elements added from the palette. To add a new rule, drag a tile from the palette and drop it onto the canvas. You can then be presented with context-specific options according to the type of data being added. 
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
-## Het deelvenster Eigenschappen van regel
+## The rule properties pane
 
-Aan de rechterkant **Eigenschappen van Rule** kunt u de volgende handelingen uitvoeren:
+On the right side, the **Rule properties** pane allows you to perform the following actions:
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
-* **Resultaten weergeven:** geeft de lijst weer van ontvangers die het doelpubliek als doel heeft.
-* **Codeweergave**: toont een op code-gebaseerde versie van het publiek in SQL.
-* **Geavanceerde kenmerken weergeven**: Schakel deze optie in als u de volledige lijst met kenmerken in het linkerpalet wilt weergeven: knooppunten, groepen, 1-1 koppelingen, 1-N koppelingen.
-* **Attributen**: geeft een beschrijving van het gemaakte publiek weer.
+* **View results:** displays the list of recipients targeted by the audience.
+* **Code view**: displays a code-based version of the audience in SQL.
+* **Display advanced attributes**: check this option if you want to view the complete list of attributes in the left palette: nodes, groupings, 1-1 links, 1-N links.
+* **Attributes**: displays a description of the created audience.
 
-## Voorbeeld
+## Example
 
-In dit voorbeeld bouwen we een publiek dat gericht is op alle klanten die in Atlanta of Seattle wonen en na 1980 geboren zijn.
+In this example, we build an audience to target all customers living in Atlanta or Seattle and born after 1980. 
 
-1. In de **Attributen** tabblad van het palet, zoekt u naar de **Geboortedatum** veld. Sleep de tegel naar het canvas.
+1. In the **Attributes** tab of the palette, search for the **Date of birth** field. Drag the tile and drop it onto the canvas. 
 
-   ![](assets/segment-builder6.png)
+    ![](assets/segment-builder6.png)
 
-1. Kies op het canvas de optie **Na** en voert u de gewenste datum in.
+1. In the canvas, choose the **After** operator and enter the desired date.
 
-   ![](assets/segment-builder7.png)
+    ![](assets/segment-builder7.png)
 
-1. Zoek in het palet naar de **Plaats** en voeg het toe aan het canvas onder de eerste regel.
+1. In the palette, search for the **City** field and add it to the canvas below the first rule. 
 
-   ![](assets/segment-builder8.png)
+    ![](assets/segment-builder8.png)
 
-1. Voer in het tekstveld de eerste plaatsnaam in en druk op Enter.
+1. In the text field, enter the first city name, then press enter. 
 
-   ![](assets/segment-builder9.png)
+    ![](assets/segment-builder9.png)
 
-1. Herhaal deze handeling voor de tweede plaatsnaam.
+1. Repeat this action for the second city name.
 
-   ![](assets/segment-builder10.png)
+    ![](assets/segment-builder10.png)
 
-1. Klikken **Resultaten weergeven** om de lijst en het aantal ontvangers te tonen die de vraag aanpassen. U kunt ook kolommen toevoegen om de gegevens te visualiseren en te controleren. In ons voorbeeld voegt u de opdracht **Plaats** kolom en zie Atlanta en Seattle.
+1. Click **View results** to display the list and number of recipients matching the query. You can also add columns to visualize and check the data. In our example, add the **City** column and should see Atlanta and Seattle.
 
-   ![](assets/segment-builder11.png)
+    ![](assets/segment-builder11.png)
 
-1. Klikken **Bevestigen**.
+1. Click **Confirm**.
 
-Uw publiek is gedefinieerd en kan in uw e-mail worden gebruikt.
+Your audience is defined and ready to be used in your email.

@@ -1,35 +1,29 @@
 ---
 audience: end-user
-title: Uw eigen e-mailinhoud coderen
-description: Leer hoe u uw eigen e-mailinhoud codeert
+title: Code your own email content
+description: Learn how to code your own email content
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
-workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 0%
-
 ---
-
-# Uw eigen inhoud coderen {#code-content}
+# Code your own content {#code-content}
 
 ![](../assets/do-not-localize/badge.png)
 
-Gebruik de **[!UICONTROL Code your own]** om onbewerkte HTML te importeren en/of uw e-mailinhoud te coderen. Deze methode vereist HTML-vaardigheden.
+Use the **[!UICONTROL Code your own]** mode to import raw HTML and/or code your email content. This method requires HTML skills.
 
-1. Selecteer op de introductiepagina E-mail Designer de optie **[!UICONTROL Code your own]**.
+1. In the Email Designer home page, select **[!UICONTROL Code your own]**.
 
-   ![](assets/code-your-own.png)
+    ![](assets/code-your-own.png)
 
-1. Voer de onbewerkte HTML-code in of plak deze.
+1. Enter or paste your raw HTML code. 
 
-1. Gebruik het linkerdeelvenster om mogelijkheden voor personalisatie te benutten.
+1. Use the left pane to leverage personalization capabilities.
 
-1. Als u de e-mailontwerper wilt openen om uw e-mail te starten vanuit een nieuw ontwerp, selecteert u **[!UICONTROL Change your design]** in het optiemenu.
+1. If you want to open the Email Designer to start your email from a new design, select **[!UICONTROL Change your design]** from the options menu.
+    
+    ![](assets/code-editor-change-design.png)
 
-   ![](assets/code-editor-change-design.png)
+1. Click the **[!UICONTROL Simulate content]** button to check the message design and personalization using test profiles.
 
-1. Klik op de knop **[!UICONTROL Simulate content]** om het berichtontwerp en de verpersoonlijking te controleren gebruikend testprofielen.
+1. Once your code is ready, click **[!UICONTROL Save]** then go back to the message creation screen to finalize your message.
 
-1. Wanneer de code gereed is, klikt u op **[!UICONTROL Save]** ga dan terug naar het scherm van de berichtverwezenlijking om uw bericht te voltooien.
-
-   ![](assets/code-editor-save.png)
+    ![](assets/code-editor-save.png)

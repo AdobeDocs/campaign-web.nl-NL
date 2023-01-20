@@ -1,47 +1,41 @@
 ---
 audience: end-user
-title: Opmerkingen bij de release Campagne Web v8
-description: Opmerkingen bij de release Campagne Web v8
+title: Campaign Web v8 Release Notes
+description: Campaign Web v8 Release Notes
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
-workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 0%
-
 ---
-
-# Aanvullende informatie {#release-notes}
+# Release Notes {#release-notes}
 
 ![](../assets/do-not-localize/badge.png)
 
-Deze pagina bevat een overzicht van alle nieuwste functies en verbeteringen voor Campagne Web v8.
+This page lists all the latest features and improvements for Campaign Web v8. 
 
-## Alfa-release{#alpha-release}
+## Alpha release{#alpha-release}
 
-Deze nieuwe webinterface voor campagnes is momenteel alleen beschikbaar voor **Alfa-artsen** met de volgende mogelijkheden:
+This new Campaign web interface is currently only available to **Alpha practitioners** with the following capabilities:
 
-**Moderne, intuïtieve en verenigde ervaring**
+**Modern, intuitive and unified experience**
 
-De nieuwe webinterface van Campagne biedt een nieuwe gebruikerservaring die is afgestemd op alle Adobe Experience Cloud-oplossingen en -toepassingen. Het biedt:
+Campaign new Web UI offers a new user experience, aligned with all Adobe Experience Cloud solutions and apps. It offers:
 
-* Toegang tot de nieuwe interface en andere oplossingen van de Adobe met één enkele en gedeelde gebruikerszitting
-* Nieuwe navigatie-ervaring, met alle menu&#39;s en mappen beschikbaar via de linkertrack
-* Oplossing- en organisatie-switches van de bovenste balk
-* De verenigde integratie van Shell, met een directe toegang tot gemeenschap, hulpcentrum, en steun
+* Access to the new interface and other Adobe solutions with a single and shared user session
+* New navigation experience, with all menus and folders available from the left rail
+* Solution and organization switchers from the top bar
+* Unified Shell integration, with a direct access to community, help center, and support
 <!--
 No search and pulse notifications in Alpha
 -->
 
-Meer informatie over de nieuwe gebruikersinterface vindt u in [deze pagina](../get-started/user-interface.md).
+Learn more about the new UI in [this page](../get-started/user-interface.md).
 
-**Uw e-mailcampagne maken, starten en meten**
+**Create, launch and measure your email campaign**
 
-Gebruik de nieuwe UI van het Web van de Campagne:
+Use the new Campaign Web UI to:
 
-* Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper - [Meer informatie](../content/edit-content.md)
-* Bepaal doelpubliek met de regelbouwer - [Meer informatie](../audience/about-audiences.md)
-* Je e-mailberichten voorvertonen, testen en verzenden - [Meer informatie](../monitor/prepare-send.md)
-* Bewaak verzenden en meten resultaten met ingebouwde rapporten - [Meer informatie](../reporting/reports.md)
+* Design personalized email content with the email designer - [Learn more](../content/edit-content.md)
+* Define target audiences with the rule builder - [Learn more](../audience/about-audiences.md)
+* Preview, test and send your email messages - [Learn more](../monitor/prepare-send.md)
+* Monitor send and measure results with built-in reports - [Learn more](../reporting/reports.md)
 
 <!--
 add info somewhere to remind users that
@@ -51,14 +45,14 @@ add info somewhere to remind users that
 
 >[!NOTE]
 >
->Houd er rekening mee dat kanaaloverschrijdende campagnes en mogelijkheden voor workflowbeheer beschikbaar zijn met de bètaversie.
+>Please note that cross-channel campaigns and workflow management capabilities will be available with the beta release. 
 
-## Terminologie-updates
+## Terminology updates
 
-Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoemd om zich aan de recentste terminologienormen te richten. Deze veranderingen zijn slechts op het Web UI van de Campagne van toepassing en niet weerspiegeld in de Console van de Cliënt. Deze worden hieronder samengevat.
+As an existing Campaign user, note that some concepts have been renamed to align with the latest terminology standards. These changes only apply to Campaign Web UI and are not reflected in the Client Console. They are summarized below.
 
-* Proefdrukken zijn nu **E-mailberichten testen**: als u een bewijs wilt verzenden, gebruikt u de **Testen** in de gebruikersinterface voor e-maillevering. Het doel van de proefdrukken wordt nu aangeduid als **Testprofielen**
-* Zaadadressen worden nu gebruikt als **Testprofielen**: stuur de test-e-mail naar zaadadressen, die extra en fictieve ontvangers in het gegevensbestand zijn
-* De leveringsanalyse is nu de **voorbereiding van levering**. Wanneer u de analyse wilt starten, klikt u op de knop **Voorbereiden** knop
-* E-mailvoorvertoning is nu beschikbaar via **Inhoud simuleren** knop
-* Lijsten zijn nu **Soorten publiek**
+* Proofs are now **Test emails**: to send a proof, use the **Test** button in the email delivery UI. The target of the proofs target is now refered as **Test profiles**
+* Seed addresses are now used as **Test profiles**: send the test email to seed addresses, which are additional and fictitious recipients in the database
+* Delivery analysis is now the **delivery preparation**. When you need to launch the analysis, click the **Prepare** button
+* Email Preview is now available throught the **Simulate content** button
+* Lists are now **Audiences**

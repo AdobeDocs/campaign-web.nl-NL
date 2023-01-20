@@ -1,72 +1,66 @@
 ---
 audience: end-user
-title: Leveringslogboeken controleren
-description: Leer hoe u leveringslogboeken kunt controleren
+title: Monitor delivery logs
+description: Learn how to monitor delivery logs
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
-workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 21%
-
 ---
-
-# Leveringslogboeken controleren {#delivery-logs}
+# Monitor delivery logs {#delivery-logs}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
->title="Leveringslogboeken"
+>title="Delivery logs"
 >abstract="TBC"
 
-Nadat u een e-mail hebt voorbereid en verzonden, kunt u met de leveringslogboeken controleren of er geen fout is opgetreden. Deze logboeken kunnen direct van het berichtdashboard worden betreden. Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
+After preparing and sending an email, the delivery logs allow you to verify that there is no error. These logs can be accessed directly from the message dashboard. They show the detail of the sending, which target has been excluded and why, as well as the tracking information such as opens and clicks.
 
-Als u de logbestanden wilt weergeven, opent u het dashboard voor de levering en klikt u op de knop **Logboeken** knop.
+To view the logs, access your delivery dashboard and click the **Logs** button.
 
-Er zijn verschillende tabbladen beschikbaar:
+Several tabs are available:
 
-## Logboeken
+## Logs
 
-De **Logboeken** bevat alle berichten met betrekking tot de levering en de proefdrukken. Met specifieke pictogrammen kunt u fouten of waarschuwingen identificeren.
+The **Logs** tab contains all messages relating to the delivery and the proofs. Specific icons allow you to identify errors or warnings. 
 
-Alle validatiestappen, waarschuwingen en fouten worden weergegeven. De gekleurde pictogrammen tonen het berichttype:
+All the validation steps, warnings and errors are listed. Colored icons show the message type:
 
-* Het grijze pictogram geeft een informatief bericht aan.
-* Het gele pictogram geeft een niet-kritieke verwerkingsfout aan.
-* Het rode pictogram geeft een kritieke fout aan die het verzenden van de levering verhindert.
+* The grey icon indicates an informative message.
+* The yellow icon indicates a non-critical processing error.
+* The red icon indicates a critical error that prevents sending the delivery. 
 
 ![](assets/logs.png)
 
-## Leveringen
+## Deliveries
 
-De **Logboeken verzenden** biedt een geschiedenis van elk exemplaar van deze levering aan. De lijst met verzonden berichten en hun status is hier opgeslagen. Op dit tabblad kunt u de leveringsstatus voor elke ontvanger bekijken.
+The **Sending logs** tab offers a history of every occurrence of this delivery. The list of sent messages and their statuses is stored here. It allows you to view the delivery status for each recipient.
 
 ![](assets/logs2.png)
 
-## Uitsluitingen
+## Exclusions
 
-De **Uitsluitingslogboeken** bevat een lijst met alle berichten die zijn uitgesloten van het doel en geeft de reden voor de verzendfout op.
+The **Exclusion logs** tab lists all the messages that have been excluded from the target and specifies the reason for the send failure.
 
 ![](assets/logs3.png)
 
-## Uitsluitingsoorzaken
+## Exclusion causes
 
-De **Uitsluiting veroorzaakt** toont het volume (in aantal berichten) van berichten die van het doel werden uitgesloten.
+The **Exclusion causes** tab displays the volume (in number of messages) of messages that were excluded from the target.
 
 ![](assets/logs4.png)
 
-## Bijgehouden URL&#39;s
+## Tracked URLs
 
-De **Bijgehouden URL&#39;s** wordt de URL&#39;s in het verzonden bericht opnieuw gegroepeerd, inclusief hun URL-type en hun bron-URL.
+The **Tracked URLs** tab regroups the URLs contained in the sent message, including their URL type and their source URL.
 
 ![](assets/logs5.png)
 
 ## Tracking
 
-De **Tekstspatiëring** wordt de volggeschiedenis voor deze levering weergegeven. Op dit tabblad worden volggegevens weergegeven voor de verzonden berichten, d.w.z. alle URL&#39;s die door Adobe Campaign moeten worden gevolgd.
+The **Tracking** tab lists the tracking history for this delivery. This tab displays tracking data for the messages sent, i.e. all URLs subject to tracking by Adobe Campaign.
 
 >[!NOTE]
 >
->Als &#39;tracking&#39; niet is ingeschakeld voor levering, wordt dit tabblad niet weergegeven.
+>If tracking is not enabled for a delivery, this tab is not displayed.
 
 ![](assets/logs6.png)

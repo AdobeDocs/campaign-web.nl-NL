@@ -1,16 +1,10 @@
 ---
 audience: end-user
-title: Aan de slag met Campagne v8 Web
-description: Aan de slag met Campagne v8 Web
+title: Get started with Campaign v8 Web
+description: Get started with Campaign v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
-workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 4%
-
 ---
-
-# Aan de slag met Campagne v8 Web {#get-started}
+# Get started with Campaign v8 Web {#get-started}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -21,44 +15,44 @@ only existing customers
 -->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
->title="Aan de slag"
->abstract="Leer meer over belangrijke functies, de gebruikersinterface en algemene richtlijnen."
+>title="Get started"
+>abstract="Discover key capabilities, user interface and global guidelines."
 
 >[!NOTE]
 >
->Campagne v8 Web is momenteel in Alpha- versie. De toegang wordt beperkt tot een kleine reeks Alpha- klanten. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
+>Campaign v8 Web is currently in Alpha version. Access is restricted to a small set of Alpha customers. Please be aware that product interface, capabilities and usage flows can change without notice.
 
-Adobe Campaign biedt een platform voor het ontwerpen van de ervaringen van klanten over meerdere kanalen en een omgeving voor visuele campagneorchestratie, real-time interactiebeheer en uitvoering via meerdere kanalen.
+Adobe Campaign provides a platform for designing cross-channel customer experiences and an environment for visual campaign orchestration, real-time interaction management and cross channel execution.
 
-Aanvankelijk slechts beschikbaar door rijk [clientconsole](#ac-client), Campagne biedt nu een nieuwe webgebruikersinterface met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp om uw gebruikerservaring aanzienlijk te verbeteren. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere Adobe-oplossingen, waaronder Adobe Experience Platform.
+Initially only available through a rich [client console](#ac-client), Campaign now provides a new web user interface with enhanced usability, accessibility, and a new design to significantly improve your user experience. This new modern UI simplifies marketing campaign design and delivery, and brings consistency, along with other Adobe solutions, including Adobe Experience Platform.
 
 
 ![](assets/home.png)
 
-Deze nieuwe interface voldoet eerst aan de behoeften van de **beroepsbeoefenaar** - alle typische beheertaken zijn niet beschikbaar in deze eerste versie, maar worden in latere versies behandeld. Merk op dat niet elke enkele functionaliteit of optie beschikbaar in de cliëntconsole voor nu in nieuwe UI beschikbaar is. Nieuwe gebruiksgevallen, opties en functies zijn beschikbaar in toekomstige versies.
+This new UI first serves the needs of the **business practitioner** – all typical administration tasks are not available in this first version, but will be addressed in subsequent versions. Note that not every single functionality or option available in the client console is available for now in the new UI. New use-cases, options and features will be available in future releases.
 
-Als u toegang moet krijgen tot de mogelijkheden van Campagne v8 die niet beschikbaar zijn in de webinterface, kunt u de opdracht [clientconsole](#ac-client).
+If you need to access Campaign v8 capabilities which are not available in the web UI, you can use the [client console](#ac-client). 
 
-## Info over Campagne-clientconsole{#ac-client}
+## About Campaign client console{#ac-client}
 
-De de cliëntconsole van de Campagne is een browser-gebaseerde toepassing die op uw systeem geïnstalleerd is. De webservices-API wordt gebruikt om verbinding te maken met uw Campagnetoepassingsserver.
+The Campaign client console is a browser-based application which is installed on your system. It uses the web services API to connect to your Campaign application server.
 
-Leer hoe u de clientconsole kunt downloaden en installeren in [deze sectie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
+Learn how to download and install the client console in [this section](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
 
-Voor meer informatie over het gebruik van Campagne v8 raadpleegt u de [documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl){target="_blank"}.
+For more information on how to use Campaign v8, refer to the [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html){target="_blank"}.
 
-Campagnegegevens worden opgeslagen in de toepassingsserver. Gegevens zijn zowel beschikbaar via de clientconsole als via de webinterface. Als u bijvoorbeeld een leveringssjabloon maakt met de clientconsole, is deze ook beschikbaar in de webinterface. En als u een e-maillevering maakt in de webinterface, is deze levering ook toegankelijk vanaf de clientconsole.
+Campaign data is stored in the application server. Data is available both from the client console and from the web UI. For example, if you create a delivery template using the client console, it is also available in the web UI. And if you create an email delivery in the web UI, this delivery is also accessible from the client console.
 
-## Verbinding maken met Campaign
+## Connect to Campaign
 
 
-1. Verbinden met [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
-1. Meld u aan met uw Adobe-referenties.
-1. In de **Snelle toegang** sectie, klikt u op **Campagne**.
-   ![](assets/connect.png)
+1. Connect to [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
+1. Log in with your Adobe credentials.
+1. In the **Quick access** section, click **Campaign**.
+    ![](assets/connect.png)
 
-1. Klik op de volgende pagina op de knop **Starten** van uw instantie Campagne.
-U bent nu verbonden met Campagne. Leer hoe u begint met het gebruik van de gebruikersinterface in [deze pagina](user-interface.md).
+1. In the next page, click the **Launch** button of your Campaign instance.
+    You are now connected to Campaign. Learn how to start using the user interface in [this page](user-interface.md).
 
 <!--
 -> experience cloud home: "Campaign" -> home campaign v8

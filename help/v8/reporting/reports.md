@@ -1,16 +1,10 @@
 ---
 audience: end-user
-title: Leveringsrapporten
-description: Leer hoe u leveringsrapporten kunt openen en gebruiken
+title: Delivery reports
+description: Learn how to access and use delivery reports
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: a915902b6a4c5423492e87718681e783554fbc01
-workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 1%
-
 ---
-
-# Leveringsrapporten {#reports}
+# Delivery reports {#reports}
 
 ![](../assets/do-not-localize/badge.png)
 
@@ -20,60 +14,60 @@ detail delivery reports and how to access them
 same content as in v7 (excepted for the navigation that is similar to AJO
 -->
 
-Adobe Campaign biedt verschillende typen rapporten die voor elke levering toegankelijk zijn. Met deze rapporten kunt u de impact en prestaties van uw berichten in een ingebouwd dashboard meten en visualiseren.
+Adobe Campaign offers several types of reports, accessible for each delivery. These reports allow you to measure and visualize the impact and performances of your messages in a built-in dashboard.
 
-Voer de volgende stappen uit om rapporten weer te geven:
+To display reports, follow these steps:
 
-1. Open uw e-maillevering en klik op **Rapport** knop.
+1. Access your email delivery and click the **Report** button.
 
-   ![](assets/reporting.png)
+    ![](assets/reporting.png)
 
-1. Selecteer in het linkermenu een rapport in de lijst.
+1. From the left menu, select a report from the list.
 
-   ![](assets/reporting2.png){width="70%" align="left"}
+    ![](assets/reporting2.png){width="70%" align="left"}
 
-## Verzenden
+## Sending
 
-* **Overzicht van levering**: Dit rapport bevat alle belangrijke informatie over de levering. Doelpopulatie, Uitsluitingsoorzaken, Leveringsstatistieken
+* **Delivery summary**: This report provides all the main information on the delivery. Target population, Causes of exclusion, Delivery statistics.
 
-   ![](assets/reporting3.png)
+    ![](assets/reporting3.png)
 
-* **Leveringsdoorvoer**: Dit verslag bevat informatie over de leveringsproductie voor een bepaalde periode. Om de snelheid te meten waarbij de berichten worden geleverd, zijn de criteria het aantal berichten die per uur worden verzonden en de grootte van de berichten (in beetjes per seconde). In het onderstaande voorbeeld ziet u in de eerste grafiek de geslaagde leveringen in blauw en het aantal onjuiste leveringen in oranje.
+* **Delivery throughput**: This report contains information on the delivery throughput for a given period. To measure the speed at which the messages are delivered, the criteria are the number of messages sent per hour and the size of the messages (in bits per second). In the example below, the first graph shows the successful deliveries in blue, and the number of erroneous deliveries in orange.
 
-   ![](assets/reporting3bis.png)
+    ![](assets/reporting3bis.png)
 
-* **Uitzendstatistieken**: Dit rapport toont de uitsplitsing naar internetdomein van alle verwerkte en verzonden berichten, van harde en zachte geluiden, opent, klikt en afmeldt.
+* **Broadcast statistics**: This report shows the breakdown by internet domain, of all messages processed and sent, of hard and soft bounces, opens, clicks and unsubscriptions.
 
-   ![](assets/reporting4.png)
+    ![](assets/reporting4.png)
 
-* **Niet-te leveren producten en bedragen**: Dit verslag geeft een overzicht van de niet-te leveren posten en een uitsplitsing van de bedragen per internetdomein.
+* **Non-deliverables and bounces**: This report shows the breakdown of non-deliverables as well as a breakdown of bounces per internet domain.
 
-   ![](assets/reporting5.png)
+    ![](assets/reporting5.png)
 
 ## Tracking
 
-* **Traceringsindicatoren**: Dit rapport combineert de belangrijkste indicatoren voor het volgen van het gedrag van ontvangers bij het ontvangen van de levering. Het geeft toegang tot levering en ontvangststatistieken, open en klikthrough tarieven, geproduceerde klikstromen, Web het volgen en het delen van activiteiten aan sociale netwerken.
+* **Tracking indicators**: This report combines the key indicators for tracking the behavior of recipients upon receiving the delivery. It gives access to delivery and reception statistics, open and click-through rates, generated click streams, web tracking as well as sharing activities to social networks.
 
-   ![](assets/reporting6.png)
+    ![](assets/reporting6.png)
 
-* **URL&#39;s en klik op streams**: Dit rapport bevat de lijst met bezochte pagina&#39;s na een levering.
+* **URLs and click streams**: This report shows the list of pages visited following a delivery.
 
-   ![](assets/reporting7.png)
+    ![](assets/reporting7.png)
 
-* **Gebruikersactiviteiten**: Dit rapport toont de uitsplitsing van opent en klikt per half uur, uur of dag, in de vorm van een grafiek.
+* **User Activities**: This report shows the breakdown of opens and clicks per half-hour, hour or day, in the form of a chart.
 
-   ![](assets/reporting8.png)
+    ![](assets/reporting8.png)
 
-* **Statistieken bijhouden**: Dit rapport bevat statistieken over het openen en klikken.
+* **Tracking Statistics**: This report provides statistics on opens and clicks.
 
-   ![](assets/reporting9.png)
+    ![](assets/reporting9.png)
 
-* **Indeling van openen**: In dit rapport wordt de uitsplitsing van de openingen per besturingssysteem, apparaat en browser voor de betrokken periode weergegeven. Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele apparaten. In het tweede voorbeeld worden alleen statistieken weergegeven over het openen op mobiele apparaten.
+* **Breakdown of opens**: This report shows the breakdown of opens by operating system, device and browser for the period concerned. For each category, two charts are used. The first displays statistics regarding opens on a computer and mobile devices. The second displays statistics relating only to opens on mobile devices.
 
-   ![](assets/reporting10.png)
+    ![](assets/reporting10.png)
 
 ## Hotclicks
 
-Dit rapport toont de berichtinhoud (HTML en/of tekst) met, op elke verbinding, het percentage klikt op verbindingen. De belemmeringen van de verpersoonlijking unsubscription verbindingen, spiegelpaginakoppelingen en aanbiedingsverbindingen worden in de totale gecumuleerde kliks in aanmerking genomen maar niet getoond in het rapport.
+This report shows the message content (HTML and/or text) with, on each link, the percentage of clicks on links. Personalization blocks unsubscription links, mirror page links and offer links are taken into account in the total cumulated clicks but are not displayed in the report.
 
 ![](assets/reporting11.png)

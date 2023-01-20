@@ -1,62 +1,56 @@
 ---
 audience: end-user
-title: Uw e-mailachtergrond aanpassen
-description: Leer hoe u uw e-mailachtergrond kunt aanpassen
+title: Personalize your email background
+description: Learn how to personalize your email background
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 0%
-
 ---
-
-# Uw e-mailachtergrond aanpassen {#backgrounds}
+# Personalize your email background {#backgrounds}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
->title="Achtergrondinstellingen"
->abstract="U kunt de achtergrondkleur of achtergrondafbeelding voor uw inhoud aanpassen. Achtergrondafbeelding wordt niet door alle e-mailclients ondersteund."
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients." 
 
-Als het gaat om het instellen van achtergronden met de e-mailontwerper, raadt Adobe het volgende aan:
+When it comes to setting backgrounds with the Email Designer, Adobe recommends the following:
 
-1. Pas een achtergrondkleur toe op de tekst van uw e-mail, indien dat door uw ontwerp wordt vereist.
-1. Stel de achtergrondkleuren meestal in op kolomniveau.
-1. Probeer geen achtergrondkleuren te gebruiken voor afbeeldings- of tekstcomponenten, omdat deze moeilijk te beheren zijn.
+1. Apply a background color to the body of your email if required by your design.
+1. Usually, set background colors at the column level.
+1. Try not to use background colors on image or text components as they are difficult to manage.
 
-Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
+Below are the available background settings that you can use.
 
-* Een **[!UICONTROL Background color]** voor de hele e-mail. Selecteer de instellingen voor de hoofdtekst in de navigatiestructuur die toegankelijk is vanuit het linkerdeelvenster.
+* Set a **[!UICONTROL Background color]** for the whole email. Make sure you select the body settings in the navigation tree accessible from the left pane.
 
-   ![](assets/background_1.png)
+  ![](assets/background_1.png)
 
-* Dezelfde achtergrondkleur voor alle structuurcomponenten instellen door **[!UICONTROL Viewport background color]**. Met deze optie kunt u een andere instelling selecteren dan de achtergrondkleur.
+* Set the same background color for all structure components by selecting **[!UICONTROL Viewport background color]**. This option enables you to select a different setting from the background color.
 
-   ![](assets/background_2.png)
+  ![](assets/background_2.png)
 
-* Stel een andere achtergrondkleur in voor elke structuurcomponent. Selecteer een structuur in de navigatiestructuur in het linkerdeelvenster om alleen een specifieke achtergrondkleur op die structuur toe te passen.
+* Set a different background color for each structure component. Select a structure in the navigation tree on the left pane to apply a specific background color only to that structure.
 
-   ![](assets/background_3.png)
+  ![](assets/background_3.png)
 
-   >[!NOTE]
-   >
-   >Zorg ervoor dat u geen achtergrondkleur voor de viewport instelt, omdat hierdoor de achtergrondkleuren van de structuur kunnen worden verborgen.
+  >[!NOTE]
+  >
+  >Make sure you do not set a viewport background color as it may hide the structure background colors.
 
-* Een **[!UICONTROL Background image]** voor de inhoud van een structuurcomponent.
+* Set a **[!UICONTROL Background image]** for the content of a structure component.
 
-   ![](assets/background_4.png)
+  ![](assets/background_4.png)
 
-   >[!NOTE]
-   >
-   >Sommige e-mailprogramma&#39;s ondersteunen achtergrondafbeeldingen niet. Als deze optie niet wordt ondersteund, wordt in plaats daarvan de achtergrondkleur van de rij gebruikt. Selecteer de gewenste achtergrondkleur voor fallback voor het geval de afbeelding niet kan worden weergegeven.
+  >[!NOTE]
+  >
+  >Some email programs do not support background images. When not supported, the row background color is used instead. Make sure you select an appropriate fallback background color in case the image cannot be displayed.
 
-* Stel een achtergrondkleur in op kolomniveau.
+* Set a background color at the column level.
 
-   ![](assets/background_5.png)
+  ![](assets/background_5.png)
 
-   >[!NOTE]
-   >
-   >Dit is het meest gebruikte geval. Adobe raadt aan achtergrondkleuren in te stellen op kolomniveau, omdat dit meer flexibiliteit biedt bij het bewerken van de volledige e-mailinhoud.
+  >[!NOTE]
+  >
+  >This is the most common use case. Adobe recommends setting background colors at the column level as this allows for more flexibility when editing the whole email content.
 
-   U kunt ook een achtergrondafbeelding instellen op kolomniveau, maar dit wordt zelden gebruikt.
+  You can also set a background image at the column level, but this is rarely used.

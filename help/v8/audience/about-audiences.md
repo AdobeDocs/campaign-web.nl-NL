@@ -1,23 +1,17 @@
 ---
 audience: end-user
-title: Aan de slag met het publiek
-description: Leer hoe te om publiek in het Web UI van de Campagne te gebruiken
+title: Get started with audiences
+description: Learn how to use audiences in Campaign Web UI
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 0%
-
 ---
-
-# Aan de slag met het publiek {#about-audiences}
+# Get started with audiences {#about-audiences}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Aan de slag met het publiek"
->abstract="Leer hoe u het publiek voor uw e-mailinhoud beheert."
+>title="Get started with audiences"
+>abstract="Learn how to manage audience for your email content."
 
 <!--
 Audience only created for the delivery, not available later-->
@@ -40,13 +34,13 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
-Leer in deze sectie hoe u het publiek van e-mail kunt definiëren. Het publiek is het belangrijkste doel van uw levering: de ontvangers die de e-mail ontvangen. Het type publiek hangt van de doelafbeelding af die in het leveringsmalplaatje wordt bepaald. Zie dit [sectie](../email/create-email.md).
+In this section, learn how to define the audience of email. The audience is the main target of your delivery: the recipients who receive the email. The type of audience depends on the target mapping defined in the delivery template. See this [section](../email/create-email.md). 
 
-Om het publiek te bepalen, kunt u:
+To define the audience, you can:
 
-* gebruik een bestaand publiek, zie dit [sectie](add-audience.md).
-* een nieuw publiek te maken. Zie dit [sectie](segment-builder.md).
+* use an existing audience, see this [section](add-audience.md).
+* create a new audience. See this [section](segment-builder.md).
 
-U kunt controlegroepen ook bepalen om het verzenden van berichten naar een gedeelte van uw publiek te vermijden om het effect van uw campagnes te meten. Zie dit [sectie](control-group.md).
+You can also define control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns. See this [section](control-group.md).
 
 ![](assets/about-audience.png)

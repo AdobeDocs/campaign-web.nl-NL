@@ -1,94 +1,88 @@
 ---
 audience: end-user
-title: Een controlegroep instellen
-description: Leer hoe te om een controlegroep voor uw berichten in het Web UI van de Campagne te plaatsen
+title: Set a control group
+description: Learn how to set a control group for your messages in Campaign Web UI
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
-workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 24%
-
 ---
+# Set a control group {#control-group}
 
-# Een controlegroep instellen {#control-group}
+You can use control groups to avoid sending messages to a portion of your audience in order to measure the impact of your campaigns.
 
-U kunt controlegroepen gebruiken om het verzenden van berichten naar een gedeelte van uw doelgroep te vermijden, zodat u het effect van uw campagnes kunt meten.
+To do this, create a control group when defining the audience of your delivery. Profiles are added to the control group randomly, filtered or not, or based on criteria. You can then compare the behavior of the target population which did receive the message with the behavior of contacts which were not targeted. 
 
-Om dit te doen, creeer een controlegroep wanneer het bepalen van het publiek van uw levering. Profielen worden willekeurig aan de controlegroep toegevoegd, gefilterd of niet, of gebaseerd op criteria. Vervolgens kunt u het gedrag van de doelpopulatie die de boodschap heeft ontvangen vergelijken met het gedrag van contacten die niet als doelgroep werden beschouwd.
+The control group can be extracted randomly from the main target and/or selected from a specific population. Consequently, there are two main ways you can define a control group:
 
-De controlegroep kan willekeurig uit de hoofdtarget worden geëxtraheerd, en/of uit een specifieke populatie worden geselecteerd. Dit betekent dat u een controlegroep op twee manieren kunt definiëren:
+* Extract a number of profiles from the main target.
+* Exclude some profiles based on criteria defined in a query.
 
-* Een aantal profielen extraheren uit de hoofdtarget.
-* Bepaalde profielen uitsluiten op basis van criteria die in een query zijn gedefinieerd.
+You can use both methods when defining a control group.
 
-Voor het definiëren van een controlegroep kunt u beide methoden gebruiken.
+All profiles being part of the control group at the delivery preparation step are removed from the main target. They do not receive the message.
 
-Alle profielen die deel uitmaken van de controlegroep bij de voorbereidingsstap voor levering worden verwijderd van het hoofddoel. Ze ontvangen het bericht niet.
-
-Om een controlegroep tot stand te brengen, klik **[!UICONTROL Set Control Group]** van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking.
+To create a control group, click the **[!UICONTROL Set Control Group]** button, from the **Audience** section of the delivery creation assistant.
 
 ![](assets/control-group1.png)
 
-## Extraheren uit doel {#extract-target}
+## Extract from target {#extract-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
->title="Extraheren uit doel"
+>title="Extract from target"
 >abstract="TBC"
 
-Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren.
+To define a control group, you can choose to extract, randomly or based on a sorting, a percentage or a fixed number of profiles from the target population.
 
-Definieer eerst de manier waarop de profielen uit het doel worden geëxtraheerd: willekeurig of gebaseerd op een sortering.
+First, define the way the profiles are e extracted from the target: randomly or based on a sorting.
 
-Onder de **Extraheren uit doel** in, kiest u een **Het type Uitsluiting**:
+Under the **Extract from target** section, choose an **Exclusion type**:
 
-* **Willekeurig**: bij het voorbereiden van de levering haalt Adobe Campaign willekeurig een aantal profielen op dat overeenkomt met het percentage of het maximumaantal dat als de groottebeperking is ingesteld.
+* **Random**: when preparing the delivery, Adobe Campaign  randomly extracts a number of profiles corresponding to the percentage or to the maximum number that is set as the size limit.
 
-   ![](assets/control-group.png)
+    ![](assets/control-group.png)
 
-* **Gerangschikt op kenmerk(en)**: Met deze optie kunt u een set profielen op basis van specifieke kenmerken in een specifieke sorteervolgorde uitsluiten.
+* **Ranked by attribute(s)**: this option enables you to exclude a set of profiles based on specific attribute(s) in a specific sorting order(s).
 
-   ![](assets/control-group2.png)
+    ![](assets/control-group2.png)
 
-Definieer vervolgens de **Groottebeperking**: u moet instellen hoe u het aantal profielen dat u uit het hoofddoel extraheert, gaat beperken.
+Then define the **Size limit**: you must set how you are going to limit the number of profiles that you extract from the main target. 
 
-**Voorbeeld**
+**Example**
 
-U kunt de logboeken bekijken om de uitgesloten profielen te controleren en te identificeren. Laten we het voorbeeld nemen van een willekeurige uitsluiting op vijf profielen.
+You can view the logs to check and identify the exluded profiles. Let's take the example of a random exclusion on five profiles.
 
 ![](assets/control-group4.png)
 
-Na de voorbereiding van de levering kunt u de uitsluitingen op de volgende schermen bekijken:
+After the delivery preparation, you can view the exclusions on the following screens:
 
-* De **Uitsluiten** KPI in het leveringsdashboard, vóór het verzenden.
+* The **To exclude** KPI in the delivery dashboard, before the sending.
 
-   ![](assets/control-group5.png)
+    ![](assets/control-group5.png)
 
-* De **Uitsluitingslogboeken** elk profiel en de gerelateerde uitsluiting weergeven **Reden**.
+* The **Exclusion logs** display each profile and the related exclusion **Reason**.
 
-   ![](assets/control-group6.png)
+    ![](assets/control-group6.png)
 
-* De **Uitsluiting veroorzaakt** het aantal uitgesloten profielen voor elke typologieregel weergeven.
+* The **Exclusion causes** display the number of excluded profile for each typology rule.
 
-   ![](assets/control-group7.png)
+    ![](assets/control-group7.png)
 
-Voor meer informatie over leveringslogboeken, verwijs naar dit [sectie](../monitor/delivery-logs.md).
+For more information on delivery logs, refer to this [section](../monitor/delivery-logs.md).
 
-## Extra populatie {#extra-population}
+## Extra population {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
->title="Extra populatie"
+>title="Extra population"
 >abstract="TBC"
 
-Een andere manier om een controlegroep te bepalen is een specifieke bevolking van het doel uit te sluiten gebruikend een bestaand publiek of door een vraag te bepalen.
+Another way to define a control group is to exclude a specific population from the target using an existing audience or by defining a query.
 
-Van de **Extra populatie** van de **Controlegroep** definitiescherm, klik **[!UICONTROL Select Audience]** knop.
+From the **Extra population** section of the **Control Group** definition screen, click the **[!UICONTROL Select Audience]** button.
 
 ![](assets/control-group3.png)
 
-* Als u een bestaand publiek wilt gebruiken, klikt u op **Doelgroep selecteren**. Zie dit [sectie](add-audience.md).
+* To use an existing audience, click **Select audience**. Refer to this [section](add-audience.md). 
 
-* Als u een nieuwe query wilt definiëren, selecteert u **Maak uw eigen** en definieert u de uitsluitingscriteria met behulp van de regelbouwer. Zie dit [sectie](segment-builder.md).
+* To define a new query, select **Create your own** and define the exclusion criteria using the rule builder. Refer to this [section](segment-builder.md). 
 
-De profielen die zijn opgenomen in het publiek of die overeenkomen met het resultaat van de query, worden uitgesloten van het doel.
+The profiles included in the audience or matching the result of the query are excluded from the target.
