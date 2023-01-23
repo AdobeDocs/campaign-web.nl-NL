@@ -1,27 +1,33 @@
 ---
 audience: end-user
-title: Test email rendering
-description: Learn how to test your email rendering in Campaign Web UI
+title: E-mailrendering testen
+description: Leer hoe u uw e-mailrendering kunt testen in de interface van het campagneweb
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 1%
+
 ---
-# Test the email rendering {#rendering}
+
+# De rendering van e-mail testen {#rendering}
 
 ![](../assets/do-not-localize/badge.png)
 
-Before sending your email, make sure that your message is displayed to the recipients in an optimal way on a variety of web clients, web mails and devices.
+Voordat u uw e-mail verzendt, moet u ervoor zorgen dat uw bericht op een optimale manier aan de ontvangers wordt weergegeven op verschillende webclients, webmails en apparaten.
 
-To do this, Adobe Campaign allows you to preview the sent message in the different contexts in which it may be received and check the compatibility in major desktops and applications (webmail, message service, mobile, etc.).
+Hiervoor kunt u in Adobe Campaign een voorvertoning van het verzonden bericht weergeven in de verschillende contexten waarin het kan worden ontvangen en de compatibiliteit controleren in belangrijke desktops en toepassingen (webmail, berichtservice, mobiel, enz.).
 
-To test the email rendering, follow these steps:
+Voer de volgende stappen uit om de rendering van e-mail te testen:
 
-1. Access the email content creation screen, then click **[!UICONTROL Simulate content]**.
+1. Open het scherm voor het maken van e-mailinhoud en klik vervolgens op **[!UICONTROL Simulate content]**.
 
-1. Click the **[!UICONTROL Render email]** button.
+1. Klik op de knop **[!UICONTROL Render email]**.
 
-    The left pane provides various desktop, mobile and web-based email clients. Select the desired email client to display a preview of your email in the right pane. 
+   Het linkerdeelvenster bevat verschillende e-mailclients voor computers, mobiele apparaten en het web. Selecteer de gewenste e-mailclient om een voorbeeld van uw e-mail weer te geven in het rechterdeelvenster.
 
-    ![](assets/render-context.png)
+   ![](assets/render-context.png)
 
-    >[!NOTE]
-    >
-    >The email clients list provides a sample of the major mail clients. Additional email clients are available from the filter button next to the top search bar.
+   >[!NOTE]
+   >
+   >De lijst met e-mailclients bevat een voorbeeld van de belangrijkste e-mailclients. Er zijn extra e-mailclients beschikbaar via de filterknop naast de bovenste zoekbalk.

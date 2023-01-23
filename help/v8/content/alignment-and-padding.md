@@ -1,37 +1,43 @@
 ---
 audience: end-user
-title: Adjust vertical alignment and padding in Email Designer
-description: Learn how to adjust vertical alignment and padding
+title: Verticale uitlijning en opvulling aanpassen in E-mailontwerper
+description: Leer hoe u de verticale uitlijning en opvulling kunt aanpassen
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 1%
+
 ---
-# Adjust vertical alignment and padding {#alignment-and-padding}
+
+# Verticale uitlijning en opvulling aanpassen {#alignment-and-padding}
 
 ![](../assets/do-not-localize/badge.png)
 
-In this example, we adjust padding and vertical alignment inside a structure component composed of three columns.
+In dit voorbeeld passen we opvulling en verticale uitlijning aan binnen een structuurcomponent die uit drie kolommen bestaat.
 
-1. Select the structure component directly in the email or using the **[!UICONTROL Navigation tree]** available in the left pane.
+1. Selecteer de structuurcomponent rechtstreeks in de e-mail of met de opdracht **[!UICONTROL Navigation tree]** beschikbaar in het linkerdeelvenster.
 
    ![](assets/alignment_1.png)
 
-1. From the contextual toolbar, click **[!UICONTROL Select a column]** and choose the one that you want to edit. You can also select it from the structure tree on the left.
+1. Klik in de contextafhankelijke werkbalk op **[!UICONTROL Select a column]** en kiest u het bestand dat u wilt bewerken. U kunt het ook selecteren in de boomstructuur aan de linkerkant.
 
    ![](assets/alignment_2.png)
 
-1. The editable parameters for that column are displayed in the **[!UICONTROL Column settings]** menu on the right. Adjust the **[!UICONTROL Vertical alignment]** using the dedicated section.
+1. De bewerkbare parameters voor die kolom worden weergegeven in het dialoogvenster **[!UICONTROL Column settings]** rechts. Pas de **[!UICONTROL Vertical alignment]** met de desbetreffende sectie.
 
    ![](assets/alignment_3.png)
 
-   For example, select **[!UICONTROL Bottom]**. The content component moves to the bottom of the column.
+   Selecteer bijvoorbeeld **[!UICONTROL Bottom]**. De inhoudscomponent wordt naar de onderkant van de kolom verplaatst.
 
-1. Under **[!UICONTROL Padding]**, define the top padding inside the column, and set the left and right padding for that column.
+1. Onder **[!UICONTROL Padding]** definieert u de opvulling bovenaan in de kolom en stelt u de opvulling links en rechts in voor die kolom.
 
    >[!NOTE]
    >
-   >Click the lock icon to break synchronization between the top/bottom or left/right padding.
+   >Klik op het vergrendelingspictogram om de synchronisatie tussen de opvulling boven/onder of links/rechts te verbreken.
 
    ![](assets/alignment_4.png)
 
-1. Proceed similarly to adjust the other columns' alignment and padding.
+1. Ga op dezelfde manier te werk om de uitlijning en opvulling van de andere kolommen aan te passen.
 
-1. Save your changes.
+1. Sla uw wijzigingen op.

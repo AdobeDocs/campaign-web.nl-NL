@@ -1,110 +1,116 @@
 ---
-title: Personalize your content in Campaign
-description: Learn how to personalize your content in Adobe Campaign web UI
+title: Uw inhoud aanpassen in campagne
+description: Leer hoe u uw inhoud kunt aanpassen in de gebruikersinterface van Adobe Campaign
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
+source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
+workflow-type: tm+mt
+source-wordcount: '601'
+ht-degree: 0%
+
 ---
-# Personalize your content{#add-personalization}
+
+# Uw inhoud aanpassen{#add-personalization}
 
 ![](../assets/do-not-localize/badge.png)
 
-You can personalize the message content by:
+U kunt de inhoud van het bericht aanpassen door:
 
-* Inserting dynamic **personalization fields**
+* Dynamisch invoegen **personalisatievelden**
 
-    Personalization fields are used for first-level personalization of your messages. You can select any field available in the database from the personalization editor. For a delivery, you can select any field related to the recipient, the message or the delivery. These personalization attributes can be inserted in the subject line or the body of your messages.
+   De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering, kunt u om het even welk gebied selecteren met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen.
 
-    ![](assets/perso-subject-line.png)
+   ![](assets/perso-subject-line.png)
 
-    The following syntax inserts the city of the recipient in your content: <%= recipient.location.city %>.
-    
-* Inserting pre-defined **content blocks**
-    
-    Campaign comes with a set of personalization blocks which contain a specific rendering that you can insert into your deliveries. For example, you can add a logo, a greeting message, or a link to the mirror page of the message. Content blocks are available from a dedicated entry un the personalization editor.
+   De volgende syntaxis voegt de plaats van de ontvanger in uw inhoud in: &lt;%= receiving.location.city %>.
 
-    ![](assets/perso-content-blocks.png)
+* Vooraf gedefinieerde invoegen **inhoudsblokken**
+
+   De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de personalisatie-editor.
+
+   ![](assets/perso-content-blocks.png)
 <!--
 * Create **conditional content**
 
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## Personalize the email subject line {#personalize-subject-line}
+## De onderwerpregel van de e-mail aanpassen {#personalize-subject-line}
 
-To add personalization in the **[!UICONTROL Subject line]** field of the message, follow the steps below:
+Om verpersoonlijking in toe te voegen **[!UICONTROL Subject line]** Voer in het veld van het bericht de onderstaande stappen uit:
 
-1. Click the **Open personalization dialog** icon on the right of the **Subject line** field.
-1. Enter the subject line content and select the personalization attributes to add.
-1. Click **Confirm** to validate. The personalization attributes are added to the subject line.
+1. Klik op de knop **Dialoogvenster voor aanpassen openen** pictogram rechts van **Onderwerpregel** veld.
+1. Voer de inhoud van de onderwerpregel in en selecteer de personalisatiekenmerken die u wilt toevoegen.
+1. Klikken **Bevestigen** om te valideren. De personalisatiekenmerken worden toegevoegd aan de onderwerpregel.
 
 ![](assets/perso-subject.png)
 
-## Personalize your email content {#personalize-emails}
+## Uw e-mailinhoud aanpassen {#personalize-emails}
 
-To personalize the email content, open the message in the Email designer and:
+Als u de e-mailinhoud wilt aanpassen, opent u het bericht in de e-mailontwerper en:
 
-1. Click inside a text block.
-1. In the contextual toolbar, select **Add personalization**.
+1. Klik in een tekstblok.
+1. Selecteer in de contextafhankelijke werkbalk **Aanpassing toevoegen**.
 
-    ![](assets/perso-add-to-content.png)
+   ![](assets/perso-add-to-content.png)
 
-1. Insert the name of the recipient in the personalization editor and confirm.
+1. Voeg de naam van de ontvanger in de verpersoonlijkingseditor in en bevestig deze.
 
-    ![](assets/perso-add-name.png)
+   ![](assets/perso-add-name.png)
 
-    The personalization attribute is added to the email content. 
-    
-    You can simulate the content to check rendering. [Learn more](../preview-test/preview-content.md)
+   Het personalisatiekenmerk wordt toegevoegd aan de e-mailinhoud.
 
-    ![](assets/perso-rendering.png)
+   U kunt de inhoud simuleren om de rendering te controleren. [Meer informatie](../preview-test/preview-content.md)
 
-To add a content block to your email, apply the same steps and select a content block from the last icon:
+   ![](assets/perso-rendering.png)
+
+Als u een inhoudsblok aan uw e-mail wilt toevoegen, voert u dezelfde stappen uit en selecteert u een inhoudsblok van het laatste pictogram:
 
 ![](assets/perso-insert-block.png)
 
-Once inserted, the content block is added to the email content, as shown below. It is automatically adapted to the recipient profile when personalization is generated, at the delivery preparation step.
+Nadat het inhoudsblok is ingevoegd, wordt het toegevoegd aan de e-mailinhoud, zoals hieronder wordt weergegeven. Het wordt automatisch aangepast aan het ontvankelijke profiel wanneer de verpersoonlijking, bij de leveringsvoorbereidingsstap wordt geproduceerd.
 
 ![](assets/perso-content-block-in-email.png)
 
 
-Built-in content blocks are:
-* **[!UICONTROL Enabled by Adobe Campaign]** : inserts the "Enabled by Adobe Campaign" logo.
-* **[!UICONTROL Formatting function for proper nouns]** : generates the **[!UICONTROL toSmartCase]** Javascript function, which changes the first letter of each word to uppercase. 
-* **[!UICONTROL Greetings]** : inserts greetings with the recipient's name. Example: "Hello John Doe,".
-* **[!UICONTROL Insert logo]** : inserts a logo which is is defined in the instance settings.
-* **[!UICONTROL Link to mirror page]** : inserts a link to the mirror page: "If you are unable to view this message correctly, click here".
-* **[!UICONTROL Mirror page URL]** : inserts the mirror page URL, enabling Delivery Designers to check the link.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** : inserts an URL enabling to set an offer to **[!UICONTROL Accepted]**.
-* **[!UICONTROL Registration page URL]** : inserts a subscription URL.
-* **[!UICONTROL Registration link]** : inserts a subscription link. This link is defined in the instance settings. The default content is: "To register click here."
-* **[!UICONTROL Registration link (with referrer)]** : inserts a subscription link, enabling to identify the visitor and delivery. This link is defined in the instance settings.
-* **[!UICONTROL Registration confirmation]** : inserts a link enabling to confirm subscription.
-* **[!UICONTROL Social network sharing links]** : inserts buttons that enable the recipient to share a link to the mirror page content.
-* **[!UICONTROL Style of content emails]** and **[!UICONTROL Notification style]** : generate code that format an email with predefined HTML styles. 
-* **[!UICONTROL Unsubscription link]** : inserts a link enabling to unsubscribe from all deliveries (denylist). The default associated content is: "You are receiving this message because you have been in contact with ***your organization name*** or an affiliate. To no longer receive messages from ***your organization name*** click here."
+Ingebouwde inhoudsblokken zijn:
+* **[!UICONTROL Enabled by Adobe Campaign]** : voegt het logo &quot;Enabled by Adobe Campaign&quot; in.
+* **[!UICONTROL Formatting function for proper nouns]** : genereert de **[!UICONTROL toSmartCase]** De functie Javascript, die de eerste letter van elk woord in hoofdletters verandert.
+* **[!UICONTROL Greetings]** : voegt begroetingen met de naam van de ontvanger in. Voorbeeld: &quot;Hallo JanDoe,&quot;.
+* **[!UICONTROL Insert logo]** : voegt een logo in dat in de instantie-instellingen is gedefinieerd.
+* **[!UICONTROL Link to mirror page]** : voegt een koppeling naar de spiegelpagina in: &quot;Klik hier als je dit bericht niet juist kunt weergeven.&quot;
+* **[!UICONTROL Mirror page URL]** : voegt de URL van de spiegelpagina in, waardoor de leveringsontwerpers de koppeling kunnen controleren.
+* **[!UICONTROL Offer acceptance URL in unitary mode]** : voegt een URL in waarmee een aanbieding kan worden ingesteld op **[!UICONTROL Accepted]**.
+* **[!UICONTROL Registration page URL]** : voegt een abonnement-URL in.
+* **[!UICONTROL Registration link]** : voegt een abonnementkoppeling in. Deze koppeling wordt gedefinieerd in de instantie-instellingen. De standaardinhoud is: &quot;Klik hier om te registreren.&quot;
+* **[!UICONTROL Registration link (with referrer)]** : voegt een abonnementkoppeling in, waarmee de bezoeker en de levering kunnen worden geïdentificeerd. Deze koppeling wordt gedefinieerd in de instantie-instellingen.
+* **[!UICONTROL Registration confirmation]** : voegt een koppeling in waarmee u het abonnement kunt bevestigen.
+* **[!UICONTROL Social network sharing links]** : voegt knopen op die de ontvanger toelaten om een verbinding aan de inhoud van de spiegelpagina te delen.
+* **[!UICONTROL Style of content emails]** en **[!UICONTROL Notification style]** : genereren code waarmee een e-mailbericht wordt opgemaakt met vooraf gedefinieerde HTML-stijlen.
+* **[!UICONTROL Unsubscription link]** : voegt een koppeling in waarmee u zich kunt afmelden bij alle leveringen (lijst van gewezen personen). De standaard gekoppelde inhoud is: &quot;U ontvangt dit bericht omdat u contact hebt gehad met ***uw organisatienaam*** of een gelieerde. Als u geen berichten meer wilt ontvangen van ***uw organisatienaam*** klik hier.&quot;
 
 
-## Personalize links in your emails {#personalize-links}
+## Koppelingen in e-mails aanpassen {#personalize-links}
 
-To personalize a **link**:
+Een **link**:
 
-1. Select a text block or an image.
-1. In the contextual toolbar, select **Insert link**.
+1. Selecteer een tekstblok of een afbeelding.
+1. Selecteer in de contextafhankelijke werkbalk **Koppeling invoegen**.
 
-    ![](assets/perso-link.png)
+   ![](assets/perso-link.png)
 
-1. Enter the link label and use the **Insert link** button to personalize the link.
+1. Voer het koppelingslabel in en gebruik de **Koppeling invoegen** om de koppeling aan te passen.
 
-    ![](assets/perso-link-insert-icon.png)
+   ![](assets/perso-link-insert-icon.png)
 
-1. Use the personalization editor to define and personalize the link, and confirm.
+1. Gebruik de verpersoonlijkingsredacteur om de verbinding te bepalen en te personaliseren, en te bevestigen.
 
-    ![](assets/perso-link-edit.png)
+   ![](assets/perso-link-edit.png)
 
 
-## Personalize your offers {#personalize-offers}
+## Je aanbiedingen aanpassen {#personalize-offers}
 
-You can also access the personalization editor when adding text-type content to your offers' representations. Learn more in [this section](../content/offers.md).
+U kunt tot de verpersoonlijkingsredacteur ook toegang hebben wanneer het toevoegen van tekst-type inhoud aan uw aanbiedingen&#39; vertegenwoordiging. Meer informatie in [deze sectie](../content/offers.md).

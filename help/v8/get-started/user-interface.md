@@ -1,19 +1,25 @@
 ---
 audience: end-user
-title: Discover the interface
-description: Campaign v8 Web user interface
+title: De interface detecteren
+description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
+source-git-commit: 86b4b26ffcb5c8a43f3c91be02fc0fb72253cbbe
+workflow-type: tm+mt
+source-wordcount: '1301'
+ht-degree: 0%
+
 ---
-# Discover the interface {#user-interface}
+
+# De interface detecteren {#user-interface}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
->title="Discover the interface"
->abstract="The new Campaign v8 Web interface offers an integrated, intuitive and consistent user experience."
+>title="De interface detecteren"
+>abstract="De nieuwe Campagne v8 Web interface biedt een geïntegreerde, intuïtieve en consistente gebruikerservaring."
 
-The new Campaign v8 Web interface offers a modern and intuitive user experience to simplify marketing campaign design and delivery. This new interface is integrated with Adobe Experience Platform. 
+De nieuwe Campagne v8 Web interface biedt een moderne en intuïtieve gebruikerservaring om het ontwerpen en leveren van marketingcampagnes te vereenvoudigen. Deze nieuwe interface is geïntegreerd met Adobe Experience Platform.
 
 <!--
 Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
@@ -21,7 +27,7 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 
 >[!NOTE]
 >
->This documentation is frequently updated to reflect latest changes in the product user interface. However, some screenshots can slightly differ from your user interface.
+>Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
 
 
 <!--
@@ -29,15 +35,15 @@ Key concepts when browsing the user interface are common with Adobe Experience P
 * web UI made up of read-only lists that can be configured, show how to add columns
 -->
 
-## Left navigation menu
+## Linkernavigatiemenu
 
-Browse the links on the left to access Campaign v8 Web capabilities. Several links display lists of objects which can be sorted and filtered. You can also configure columns to display all the information you need. See this [section](#list-screens). All list screens are read-only, except the email delivery list. Clicking on any list item for edition/viewing is not available in Alpha. All lists will be editable in future versions. The items displayed in the left navigation menu depend on your user permissions.
+Blader links naar de koppelingen voor toegang tot de webmogelijkheden van Campagne v8. Met verschillende koppelingen worden lijsten weergegeven met objecten die kunnen worden gesorteerd en gefilterd. U kunt kolommen ook vormen om alle informatie te tonen u wenst. Zie dit [sectie](#list-screens). Alle lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen. Klik op een lijstitem voor editie/weergave is niet beschikbaar in Alfa. Alle lijsten kunnen in toekomstige versies worden bewerkt. Welke items in het navigatiemenu links worden weergegeven, is afhankelijk van uw gebruikersmachtigingen.
 
 ![](assets/home.png)
 
 ### Home
 
-This screen includes key links and resources for a quick access to the main Campaign v8 Web features. The **Recents** list provides shortcuts to the recently created and modified deliveries. This list shows their creation and modification dates and status.
+Dit scherm bevat belangrijke koppelingen en bronnen voor snelle toegang tot de belangrijkste functies van het Web van Campagne v8. De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum en status van het maken en wijzigen van de bestanden.
 
 <!--
 * Banner
@@ -46,7 +52,7 @@ This screen includes key links and resources for a quick access to the main Camp
 * Learning cards
 -->
 
-Access Campaign v8 Web key help pages from the lower section of the home page.
+Toegang tot Help-pagina&#39;s voor Campagne v8 Web key vanaf de onderste sectie van de startpagina.
 
 <!--
 show global KPIs, recent items + left menu to access features)
@@ -54,20 +60,20 @@ CONTROL PANEL not alpha
 Global report not alpha
 -->
 
-### Explorer
+### Verkenner
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
->title="Explorer"
->abstract="The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list."
+>title="Verkenner"
+>abstract="De **Verkenner** wordt dezelfde maphiërarchie weergegeven als in de clientconsole. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8. Alle lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen."
 
-The **Explorer** menu displays the same folder hierarchy as the one in the client console. Browse all your Campaign v8 components, folders and schemas. All list screens are read-only, except the email delivery list. 
+De **Verkenner** wordt dezelfde maphiërarchie weergegeven als in de clientconsole. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8. Alle lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen.
 
-The items displayed in the Explorer depend on your user permissions. 
+De items die in de Verkenner worden weergegeven, zijn afhankelijk van uw gebruikersmachtigingen.
 
-Like in any list screen, you can configure columns to personalize the display to view all the information you need. See this [section](#list-screens).
+Zoals in om het even welk lijstscherm, kunt u kolommen vormen om de vertoning te personaliseren om alle informatie te bekijken u wenst. Zie dit [sectie](#list-screens).
 
-For more information on the Campaign explorer, refer to this [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Raadpleeg voor meer informatie over de Campagneverkenner deze [documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -80,140 +86,140 @@ Navtree view depends on permissions (same as console).
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
->title="Campaigns"
->abstract="This is the list of your campaigns. You can view useful information such as their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only."
+>title="Campagnes"
+>abstract="Dit is de lijst van uw campagnes. U kunt nuttige informatie zoals hun begin/eind/laatste wijzigingsdata, evenals hun status bekijken. U kunt de lijst filteren op status of begin-/einddatum. De sjablonen voor campagnes zijn ook beschikbaar. Deze lijsten zijn alleen-lezen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
->title="Deliveries"
->abstract="Browse through your list of deliveries. You can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard. Other items are read-only. Delivery templates are also available."
+>title="Leveringen"
+>abstract="Blader door de lijst met leveringen. U kunt hun staat, laatste wijzigingsdatum evenals zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-maillevering om het dashboard te openen. Andere items zijn alleen-lezen. Leveringssjablonen zijn ook beschikbaar."
 
-* **Campaigns** - This is the list of your campaigns. By default, you can view their start/end/last modification dates, as well as their status. You can filter the list by status or start/end dates. Campaign templates are also available. These lists are read-only. 
+* **Campagnes** - Dit is de lijst met uw campagnes. Standaard kunt u de begin- en einddatum en de laatste wijzigingsdatum en de status van de datums weergeven. U kunt de lijst filteren op status of begin-/einddatum. De sjablonen voor campagnes zijn ook beschikbaar. Deze lijsten zijn alleen-lezen.
 
-* **Deliveries** - Browse through your list of deliveries. By default, you can view their state, last modification date as well as key KPIs. You can filter the list by state, contact date or channel. Click an email delivery to open its dashboard to get an overview of the delivery details. Deliveries on other channels are read-only. Delivery templates are also available in read-only mode. You can use the Client Console to edit them. See this [documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **Leveringen** - Blader door de lijst met leveringen. Door gebrek, kunt u hun staat, laatste wijzigingsdatum evenals zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-maillevering om het dashboard te openen voor een overzicht van de leveringsgegevens. Leveringen op andere kanalen zijn alleen-lezen. De leveringsmalplaatjes zijn ook beschikbaar in read-only wijze. U kunt de clientconsole gebruiken om ze te bewerken. Zie dit [documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
-    Use the **More actions** button to delete or duplicate a delivery.
+   Gebruik de **Meer handelingen** om een levering te verwijderen of te dupliceren.
 
-    ![](assets/more-actions.png){width="70%" align="left"}
+   ![](assets/more-actions.png){width="70%" align="left"}
 
-### Customer Management
+### Klantenbeheer
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="Recipients"
->abstract="Access your recipient database. You can view useful information such as their email address, first name and last name. This list is read-only."
+>title="Ontvangers"
+>abstract="Open de ontvangende database. U kunt nuttige informatie zoals hun e-mailadres, voornaam en achternaam bekijken. Deze lijst is alleen-lezen."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
->title="Audiences"
->abstract="This is your list of audiences. You can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only."
+>title="Doelgroepen"
+>abstract="Dit is uw lijst van publiek. U kunt het type, de oorsprong, de datum en het label van de aanmaak/laatste wijziging bekijken. U kunt de lijst filteren op oorsprong. Deze lijst is alleen-lezen."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
->title="Subscriptions lists"
->abstract="Browse through your subscriptions lists. You can view their type, mode and label. This list is read-only."
+>title="Abonnementenlijsten"
+>abstract="Blader door uw abonnementenlijsten. U kunt het type, de modus en het label weergeven. Deze lijst is alleen-lezen."
 
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
->title="Targeting workflows"
->abstract="Access your list of Campaign workflows. You can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only."
+>title="Targetingworkflows"
+>abstract="Open uw lijst met campagneworkflows. U kunt de staat, de laatste/volgende verwerkingsdatums en de omgeving bekijken. U kunt de lijst filteren op status, datum van laatste verwerking en type workflow. Workflowsjablonen zijn ook beschikbaar. Deze lijsten zijn alleen-lezen."
 
-* **Recipients** - Access your recipient database. By default, you can view their email address, first name and last name. This list is read-only. 
-* **Audiences** - This is your list of audiences. By default, you can view their type, origin, creation/last modification dates and label. You can filter the list by origin. This list is read-only. 
-* **Subscriptions lists** - Browse through your subscriptions lists. By default, you can view their type, mode and label. This list is read-only. 
-* **Targeting workflows** - Access your list of Campaign workflows. By default, you can view their state, last/next processing dates and environment. You can filter the list by state, last processing date and workflow type. Workflow templates are also available. These lists are read-only. 
+* **Ontvangers** - Open de ontvangende database. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Deze lijst is alleen-lezen.
+* **Soorten publiek** - Dit is uw lijst met doelgroepen. Standaard kunt u het type, de oorsprong, de datum en het label van de wijziging bekijken. U kunt de lijst filteren op oorsprong. Deze lijst is alleen-lezen.
+* **Abonnementenlijsten** - Blader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Deze lijst is alleen-lezen.
+* **Workflows voorbereiden** - Ga naar uw lijst met campagneworkflows. Standaard kunt u de status, de laatste/volgende verwerkingsdatum en de omgeving van de datums bekijken. U kunt de lijst filteren op status, datum van laatste verwerking en type workflow. Workflowsjablonen zijn ook beschikbaar. Deze lijsten zijn alleen-lezen.
 
-### Decision Management
+### Beslissingsbeheer
 
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
->title="Offers"
->abstract="Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only."
+>title="Aanbiedingen"
+>abstract="Blader door de lijst met interactievoorstellen. Standaard kunt u hun status, begin- en einddatum en omgeving bekijken. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar. Deze lijsten zijn alleen-lezen."
 
-* **Offers** - Browse through your list of Interaction offers. By default, you can view their status, start/end dates and environment. You can filter the list by state and start/end dates. Offer templates are also available. These lists are read-only. 
+* **Aanbiedingen** - Blader door de lijst met interactievoorstellen. Standaard kunt u hun status, begin- en einddatum en omgeving bekijken. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar. Deze lijsten zijn alleen-lezen.
 
-## Top bar
+## Bovenste balk
 
-The top bar of the interface allows you to:
+De hoogste bar van de interface staat u toe:
 
-* share your feedback as an Alpha tester
-* switch between organizations and instances
-* switch between your Adobe Experience Cloud applications
-* access help pages, contact support and share feedback. You can search help articles and videos from the search field.
+* Uw feedback delen als een alfakanaal
+* schakelen tussen organisaties en instanties
+* schakelen tussen Adobe Experience Cloud-toepassingen
+* toegang tot Help-pagina&#39;s, contact opnemen met ondersteuning en feedback delen. U kunt Help-artikelen en video&#39;s zoeken in het zoekveld.
 
 ![](assets/unified-shell.png){width="70%" align="left"}
 <!--
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Configure list screens {#list-screens}
+## Lijstschermen configureren {#list-screens}
 
-Several links from the left navigation menu, for example **Deliveries** or **Campaigns**, display lists of objects. These list screens are read-only, except the email delivery list. 
+Verscheidene verbindingen van het linkernavigatiemenu, bijvoorbeeld **Leveringen** of **Campagnes**, weergaveoverzichten van objecten. Deze lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen.
 
-To find items quicker, you can use the search bar or filter the list based on contextual criteria. 
+Als u items sneller wilt zoeken, gebruikt u de zoekbalk of filtert u de lijst op basis van contextuele criteria.
 
 ![](assets/filter.png){width="70%" align="left"}
 
-The lists are displayed in columns. You can display additional information by changing the column configuration. To do this, click the icon in the top right corner of the list. You can add or remove columns and change the order in which they are displayed.
+De lijsten worden weergegeven in kolommen. U kunt extra informatie tonen door de kolomconfiguratie te veranderen. Klik hiertoe op het pictogram in de rechterbovenhoek van de lijst. U kunt kolommen toevoegen of verwijderen en de volgorde wijzigen waarin ze worden weergegeven.
 
 ![](assets/columns.png){width="70%" align="left"}
 
-You can sort items in the list by clicking any column header. An arrow is displayed (Up or Down) indicating that the list is sorted on that column. For numeric or date columns, the Up arrow indicates that the list is sorted in ascending order while the Down arrow indicates a descending order. For string or alphanumeric columns, values are listed in alphabetical order.
+U kunt items in de lijst sorteren door op een kolomkop te klikken. Er wordt een pijl weergegeven (omhoog of omlaag) die aangeeft dat de lijst in die kolom wordt gesorteerd. Voor numerieke kolommen of datumkolommen geeft de pijl-omhoog aan dat de lijst in oplopende volgorde wordt gesorteerd en de pijl-omlaag een aflopende volgorde aangeeft. Voor tekenreeks- of alfanumerieke kolommen worden waarden in alfabetische volgorde weergegeven.
 
-## Contextual help and on-boarding guide
+## Contextafhankelijke hulp en handleiding bij het instappen
 
-A contextual help is available in the interface. When available, click on the **?** icon to display help information and related documentation links. 
+De interface bevat een contextafhankelijke Help. Klik op de knop **?** pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
+Er is ook een gids voor on-boarding beschikbaar om u te helpen aan de slag te gaan met Campagne v8 Web. Klik op het pictogram in de rechterbenedenhoek, kies een van de beschikbare stapsgewijze scenario&#39;s en volg de instructies.
 
 ![](assets/onboarding.png){width="70%" align="left"}
 
-## Supported browsers {#browsers}
+## Ondersteunde browsers {#browsers}
 
-Campaign v8 Web is designed to work optimally in the latest version of Google Chrome, Safari and Microsoft Edge. You might have trouble using certain features on older versions or other browsers.
+Campagne v8 Web is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome, Safari en Microsoft Edge. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
 
-## Language preferences {#language-pref}
+## Taalvoorkeuren {#language-pref}
 
-Campaign v8 Web is currently available in the following languages:
+Campagne v8 Web is momenteel beschikbaar in de volgende talen:
 
 <table>
 <tr>
 <td>
-<p>English (US) - EN-US</p>
-<p>French - FR</p>
-<p>German - DE</p>
-<p>Italian - IT</p>
+<p>Engels (VS) - EN-US</p>
+<p>Frans - FR</p>
+<p>Duits - DE</p>
+<p>Italiaans - IT</p>
 </td>
 <td>
-<p>Spanish - ES</p>
-<p>Portuguese (Brazilian) - PTBR</p>
-<p>Japanese - JP</p>
+<p>Spaans - ES</p>
+<p>Portugees (Braziliaans) - PTBR</p>
+<p>Japans - JP</p>
 </td>
 <td>
-<p>Korean - KR</p>
-<p>Simplified Chinese - CHS</p>
-<p>Traditional Chinese - CHT</p>
+<p>Koreaans - KR</p>
+<p>Vereenvoudigd Chinees - CHS</p>
+<p>Traditioneel Chinees - CHT</p>
 </td>
 </tr>
 </table>
 
-Your default interface language is determined by the preferred language specified in your user profile.
+Uw standaardinterfacetaal wordt bepaald door de aangewezen taal die in uw gebruikersprofiel wordt gespecificeerd.
 
-To change your language:
+De taal wijzigen:
 
-1. Click on your profile icon, on the top right, then select **Preferences**.
+1. Klik op het profielpictogram, rechtsboven, en selecteer **Voorkeuren**.
 
-    ![](assets/preferences.png){width="70%" align="left"}
+   ![](assets/preferences.png){width="70%" align="left"}
 
-1. Then click the language displayed under your email address.
+1. Klik vervolgens op de taal die onder uw e-mailadres wordt weergegeven.
 
-    ![](assets/preferences2.png)
+   ![](assets/preferences2.png)
 
-1. Select your preferred language and click **Save**. You can select a second language in case the component you are using is not localized in your first language.
+1. Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
 
-    ![](assets/select-language.png)
+   ![](assets/select-language.png)
 
 <!--
 ## Supported browsers {#browsers}

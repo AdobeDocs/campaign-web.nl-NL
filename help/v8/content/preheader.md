@@ -1,46 +1,52 @@
 ---
 audience: end-user
-title: Add a preheader in the Email Designer
-description: Learn how to design your emails content
+title: Een voorkop toevoegen in de e-mailontwerper
+description: Leer hoe u e-mailinhoud ontwerpt
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
+source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+workflow-type: tm+mt
+source-wordcount: '190'
+ht-degree: 0%
+
 ---
-# Add a preheader {#preheader}
+
+# Een preheader toevoegen {#preheader}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="Adding a preheader"
->abstract="A preheader is a short summary text that follows the subject line when viewing an email from your email client. In many cases, it provides a short summary of the email, and is typically one sentence long."
+>title="Een preheader toevoegen"
+>abstract="Een preheader is een korte samenvattingstekst die op de onderwerpregel volgt wanneer een e-mailbericht van uw e-mailclient wordt weergegeven. In veel gevallen geeft het een korte samenvatting van de e-mail en is het doorgaans één zin lang."
 
-A preheader is a short summary text that follows the subject line when viewing an email from your email client. 
+Een preheader is een korte samenvattingstekst die op de onderwerpregel volgt wanneer een e-mailbericht van uw e-mailclient wordt weergegeven.
 
-In many cases, it provides a short summary of the email, and is typically one sentence long. 
+In veel gevallen geeft het een korte samenvatting van de e-mail en is het doorgaans één zin lang.
 
 >[!NOTE]
 >
->Preheaders are not supported by all email clients. When not supported, the preheader does not display.
+>Preheaders worden niet door alle e-mailclients ondersteund. Als deze optie niet wordt ondersteund, wordt de preheader niet weergegeven.
 
-To define the email preheader, follow the steps below:
+Voer de volgende stappen uit om de e-mailvoorheader te definiëren:
 
-1. From the Email Designer, add at least a **[!UICONTROL Structure components]** to start designing your email.
+1. Voeg minstens een **[!UICONTROL Structure components]** om uw e-mail te gaan ontwerpen.
 
-1. Click the **[!UICONTROL Navigation tree]** icon from the left pane and select **[!UICONTROL Body]**.
+1. Klik op de knop **[!UICONTROL Navigation tree]** pictogram in het linkervenster en selecteer **[!UICONTROL Body]**.
 
-    ![](assets/preheader_body.png)
+   ![](assets/preheader_body.png)
 
-1. From the **[!UICONTROL Body settings]** right pane, click the edit icon next to the **[!UICONTROL Preheader]** field to add content.
+1. Van de **[!UICONTROL Body settings]** in het rechterdeelvenster klikt u op het pictogram Bewerken naast het pictogram **[!UICONTROL Preheader]** veld om inhoud toe te voegen.
 
-    ![](assets/preheader_body_settings.png)
+   ![](assets/preheader_body_settings.png)
 
-1. Add your preheader. You can further personalize it by clicking the **[!UICONTROL Add personalization]** icon.
+1. Voeg de preheader toe. U kunt de afbeelding verder aanpassen door op de knop **[!UICONTROL Add personalization]** pictogram.
 
-    ![](assets/preheader_3.png)
+   ![](assets/preheader_3.png)
 
-1. From the **[!UICONTROL Edit Personalization]** window, you can add **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** or **[!UICONTROL Personalization fields]**.
+1. Van de **[!UICONTROL Edit Personalization]** venster, kunt u toevoegen **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** of **[!UICONTROL Personalization fields]**.
 
-1. Click **[!UICONTROL Validate]** to check your personalization syntax.
+1. Klikken **[!UICONTROL Validate]** om uw personalisatiesyntaxis te controleren.
 
-1. Click **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]**.
 
-Your preheader is now configured for your email.
+Uw preheader is nu geconfigureerd voor uw e-mail.

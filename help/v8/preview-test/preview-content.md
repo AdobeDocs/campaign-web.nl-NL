@@ -1,43 +1,49 @@
 ---
 audience: end-user
-title: Preview email content
-description: Learn how to preview your email content with Campaign Web UI
+title: E-mailinhoud voorvertonen
+description: Leer hoe u uw e-mailinhoud kunt voorvertonen met de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 0%
+
 ---
-# Preview email content {#preview}
+
+# E-mailinhoud voorvertonen {#preview}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
->title="Smart preview of your content"
->abstract="Adobe Campaign lets you use profiles to preview the content of your email before sending, check personalization and how your recipients will see it."
+>title="Slimme voorvertoning van uw inhoud"
+>abstract="Met Adobe Campaign kunt u profielen gebruiken om de inhoud van uw e-mail voor te vertonen voordat u deze verzendt. Controleer de personalisatie en hoe de ontvangers deze zullen zien."
 
-Adobe Campaign allows you to preview the content of your email before sending it, to check personalization, and how it is displayed to your recipients.
+Met Adobe Campaign kunt u de inhoud van uw e-mail voorvertonen voordat u deze verzendt. Zo kunt u controleren of de e-mail op maat is gemaakt en hoe deze wordt weergegeven aan de ontvangers.
 
-To preview the content of your email, follow these steps:
+Voer de volgende stappen uit om een voorvertoning van de inhoud van uw e-mail weer te geven:
 
-1. Access the email content creation screen and click the **[!UICONTROL Simulate content]** button.
+1. Open het scherm voor het maken van e-mailinhoud en klik op **[!UICONTROL Simulate content]** knop.
 
-    ![](assets/simulate.png)
+   ![](assets/simulate.png)
 
-1. Select one or multiple profiles by clicking the **[!UICONTROL Select profile(s)]** button, then use the **[!UICONTROL Test profiles]** and **[!UICONTROL Profiles]** tabs to choose from:
+1. Selecteer een of meerdere profielen door op de knop **[!UICONTROL Select profile(s)]** en vervolgens de knop **[!UICONTROL Test profiles]** en **[!UICONTROL Profiles]** te kiezen tabbladen:
 
-    * The **Test profiles** tab contains seed addresses, which are additional and fictitious recipients in the database. They can be created in Adobe Campaign console into the **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** folder.
-    * The **Profiles** tab lists all the recipients stored into the **[!UICONTROL Profiles and Targets]** folder from the Campaign console.
+   * De **Testprofielen** tab bevat zaadadressen, die extra en fictieve ontvangers in het gegevensbestand zijn. Ze kunnen in de Adobe Campaign-console worden gemaakt in de **[!UICONTROL Resources]** / **[!UICONTROL Campaign Management]** / **[!UICONTROL Seed addresses]** map.
+   * De **Profielen** worden alle ontvangers weergegeven die in het tabblad **[!UICONTROL Profiles and Targets]** uit de campagneconsole.
 
-    You can combine both test profiles and profiles to preview your email.
+   U kunt testprofielen en profielen combineren om een voorbeeld van uw e-mail te bekijken.
 
-    ![](assets/preview-profile.png)
+   ![](assets/preview-profile.png)
 
-1. Once profiles have been selected, a preview of the email is displayed in the right pane. Personalized elements are replaced by the data from the profile selected in the left pane.
+1. Nadat u profielen hebt geselecteerd, wordt in het rechterdeelvenster een voorbeeld van de e-mail weergegeven. De gepersonaliseerde elementen worden vervangen door de gegevens van het profiel dat in de linkerruit wordt geselecteerd.
 
-    If you have added multiple profiles, you can switch between them in the list to preview the corresponding email.
+   Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen in de lijst schakelen om een voorbeeld van de bijbehorende e-mail te bekijken.
 
-    >[!NOTE]
-    >
-    >You can preview the rendering of your content on different devices (desktop, mobile, tablet), by clicking the dedicated icon in the top right corner.
+   >[!NOTE]
+   >
+   >U kunt de rendering van uw inhoud op verschillende apparaten (bureaublad, mobiel, tablet) voorvertonen door op het toegewezen pictogram in de rechterbovenhoek te klikken.
 
-    ![](assets/preview.png)
+   ![](assets/preview.png)
 
 

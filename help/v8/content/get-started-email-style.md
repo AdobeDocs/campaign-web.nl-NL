@@ -1,22 +1,28 @@
 ---
 audience: end-user
-title: Get started with email style
-description: Discover the different ways you can adjust your email content style
+title: Aan de slag met e-mailstijl
+description: Ontdek de verschillende manieren waarop u de stijl van uw e-mailinhoud kunt aanpassen
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
+source-git-commit: 00e2f0bad4cb64e2142ad85947fd92ebebc20365
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
+
 ---
-# Get started with email style {#get-started-email-style}
+
+# Aan de slag met e-mailstijl {#get-started-email-style}
 
 ![](../assets/do-not-localize/badge.png)
 
-Once you started creating your email content in [!DNL Adobe Campaign], you can adjust a number of styling parameters and attributes from the Email Designer settings pane.
+Nadat u uw e-mailinhoud hebt gemaakt in [!DNL Adobe Campaign], kunt u een aantal opmaakparameters en -kenmerken aanpassen in het instellingenvenster E-mailontwerper.
 
-You can either apply your changes to the email body, to a structure component or to a content component.
+U kunt de wijzigingen toepassen op de hoofdtekst van de e-mail, op een structuurcomponent of op een inhoudscomponent.
 
 ![](assets/email_designer_content_components_settings.png)
 
-Follow the links below to discover how to adjust some of the style settings in your email.
+Volg de onderstaande koppelingen om te zien hoe u bepaalde stijlinstellingen in uw e-mail kunt aanpassen.
 
-* Learn how to [personalize your email background](backgrounds.md)
-* Learn how to [manage vertical alignment and padding](alignment-and-padding.md)
-* Learn how to [define a style for the links in your email](styling-links.md)
-* Learn how to [customize inline styling attributes](inline-styling.md)
+* Leer hoe u [uw e-mailachtergrond aanpassen](backgrounds.md)
+* Leer hoe u [verticale uitlijning en opvulling beheren](alignment-and-padding.md)
+* Leer hoe u [een stijl definiëren voor de koppelingen in uw e-mail](styling-links.md)
+* Leer hoe u [inline-opmaakkenmerken aanpassen](inline-styling.md)

@@ -1,44 +1,50 @@
 ---
 audience: end-user
-title: Select an audience
-description: Learn how to select an audience
+title: Een publiek selecteren
+description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 2%
+
 ---
-# Select an audience {#add-audience}
+
+# Een publiek selecteren {#add-audience}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="Select an existing audience"
->abstract="The audiences are defined in the Adobe Campaign v8 Console. If you have an Adobe Experience Platform integration available, you should be able to see Platform defined audiences too."
+>title="Bestaande doelgroep selecteren"
+>abstract="Het publiek wordt gedefinieerd in de Adobe Campaign v8-console. Als er een Adobe Experience Platform-integratie beschikbaar is, kunt u ook een bepaald publiek met Platform zien."
 
-This section explains how to select an existing audience, when defining the target population of an email delivery. If you want to create a new audience, refer to this [section](segment-builder.md).
+In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren bij het definiëren van de doelpopulatie van een e-maillevering. Als u een nieuw publiek wilt creëren, verwijs naar dit [sectie](segment-builder.md).
 
-1. From the **Audience** section of the delivery creation assistant, click the **[!UICONTROL Select audience]** button.
+1. Van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking, klik **[!UICONTROL Select audience]** knop.
 
    ![](assets/create-audience.png)
 
-1. Choose **[!UICONTROL Select audience]** to use an existing audience. To create a new audience to be used in this email, choose **Create your own**. Refer to this [section](segment-builder.md).
+1. Kies **[!UICONTROL Select audience]** om een bestaand publiek te gebruiken. Kies **Maak uw eigen**. Zie dit [sectie](segment-builder.md).
 
-    This screen displays all existing audiences defined in the Adobe Campaign console or from Adobe Experience Platform.
+   Dit scherm geeft alle bestaande soorten publiek weer die zijn gedefinieerd in de Adobe Campaign-console of vanuit Adobe Experience Platform.
 
-    ![](assets/create-audience2.png)
+   ![](assets/create-audience2.png)
 
-    >[!NOTE]
-    >
-    >To leverage Adobe Experience Platform audiences, you need to configure the integration with Destinations. Refer to the [Destinations documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html){target="_blank"}.
+   >[!NOTE]
+   >
+   >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
 
-1. Choose an audience and click **Select**.
+1. Kies een publiek en klik op **Selecteren**.
 
-1. Click **Edit rules** if you want to refine your audience.
+1. Klikken **Regels bewerken** als u uw publiek wilt verfijnen.
 
    ![](assets/create-audience3.png)
 
-1. Using the rule builder, you can enrich your audience with additional filters or by combining different audiences. See this [section](segment-builder.md).
+1. Gebruikend de regelbouwer, kunt u uw publiek met extra filters verrijken of door verschillende soorten publiek te combineren. Zie dit [sectie](segment-builder.md).
 
    ![](assets/create-audience4.png)
 
-1. Click **Save**. 
+1. Klikken **Opslaan**.
 
-You can also set a control group to measure the impact of your campaigns. The control group do not receive the message. This allows you to compare the behavior of the population which received the message with the behavior of contacts which did not. See [section](control-group.md).
+U kunt ook een controlegroep instellen om het effect van uw campagnes te meten. De controlegroep ontvangt niet het bericht. Dit staat u toe om het gedrag van de bevolking te vergelijken die het bericht met het gedrag van contacten ontving die niet. Zie [sectie](control-group.md).

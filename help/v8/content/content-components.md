@@ -1,183 +1,189 @@
 ---
 audience: end-user
-title: Use email designer content components
-description: Learn how to use content components in your emails
+title: Componenten voor inhoud van e-mailontwerpers gebruiken
+description: Leer hoe u inhoudcomponenten in uw e-mails kunt gebruiken
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 0%
+
 ---
-# Use the Email designer content components {#content-components}
+
+# De inhoudcomponenten van de e-mailontwerper gebruiken {#content-components}
 
 ![](../assets/do-not-localize/badge.png)
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_email"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of an email."
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een e-mail te maken."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_landing_page"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a landing page."
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_fragment"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a fragment."
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een fragment te maken."
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components_template"
->title="About Content components"
->abstract="Content components are empty content placeholders that you can use to create the layout of a template."
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een sjabloon te maken."
 
-## Add content components {#add-content-components}
+## Inhoudscomponenten toevoegen {#add-content-components}
 
-To add content components to your email and adjust them to your needs, follow the steps below.
+Voer de onderstaande stappen uit om inhoudcomponenten aan uw e-mail toe te voegen en deze aan uw wensen aan te passen.
 
-1. In the Email Designer, use an existing content or drag and drop **[!UICONTROL Structure components]** into your empty content to define the layout of your email. [Learn how](create-email-content.md)
+1. Gebruik in de e-mailontwerper een bestaande inhoud of sleep en zet **[!UICONTROL Structure components]** in uw lege inhoud om de lay-out van uw e-mail te bepalen. [Meer informatie](create-email-content.md)
 
-1. To access the **[!UICONTROL Content components]** section, select the corresponding button from the Email Designer left pane.
+1. Om toegang te krijgen tot **[!UICONTROL Content components]** selecteert u de bijbehorende knop in het linkerdeelvenster van E-mailontwerper.
 
-    ![](assets/email_designer_content_components.png)
+   ![](assets/email_designer_content_components.png)
 
-1. Drag and drop the content components of your choice inside the relevant structure components.
+1. Sleep de inhoudcomponenten van uw keuze naar keuze binnen de relevante structuurcomponenten.
 
-    ![](assets/email_designer_add_content_components.png)
+   ![](assets/email_designer_add_content_components.png)
 
-    >[!NOTE]
-    >
-    >You can add several components into a single structure component and into each column of a structure component.
+   >[!NOTE]
+   >
+   >U kunt meerdere componenten toevoegen aan één structuurcomponent en aan elke kolom van een structuurcomponent.
 
-1. Adjust the styling attributes for each component using the **[!UICONTROL Component settings]** pane on the right. For example, you can change the text style, padding or margin of each component. [Learn more about alignment and padding](alignment-and-padding.md)
+1. Pas de opmaakkenmerken voor elke component aan met de opdracht **[!UICONTROL Component settings]** aan de rechterkant. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
 
-    ![](assets/email_designer_content_components_settings.png)
+   ![](assets/email_designer_content_components_settings.png)
 
-When creating your email content from scratch, **[!UICONTROL Content components]** allows you to further personalize your email with raw, empty components that you can use once placed in an email.
-You can add as many **[!UICONTROL Content components]** as you need inside a **[!UICONTROL Structure component]** which defines the layout of your email.
+Als u uw e-mailinhoud helemaal zelf maakt, **[!UICONTROL Content components]** kunt u uw e-mail verder aanpassen met onbewerkte, lege onderdelen die u kunt gebruiken wanneer u een e-mail hebt geplaatst.
+U kunt maximaal **[!UICONTROL Content components]** zoals u nodig hebt in een **[!UICONTROL Structure component]** Hiermee definieert u de indeling van uw e-mail.
 
 ## Container {#container}
 
-You can add a simple container inside which you add another content component. This allows you to apply a specific styling to the container, which is different from the component used inside.
+U kunt een eenvoudige container toevoegen waarin u een andere inhoudscomponent toevoegt. Op deze manier kunt u een specifieke stijl op de container toepassen, die anders is dan de component die binnen wordt gebruikt.
 
-For example, add a **[!UICONTROL Container]** component and then add a [Button](#button) component inside that container. You can use a specific background for the container, and another one for the button.
+Voeg bijvoorbeeld een **[!UICONTROL Container]** en voegt vervolgens een [Knop](#button) in die container. U kunt een specifieke achtergrond voor de container, en een andere voor de knoop gebruiken.
 
 ![](assets/email_designer_container_component.png)
 
-## Button {#buttons}
+## Knop {#buttons}
 
-Use the **[!UICONTROL Button]** component to insert one or multiple buttons into your email and redirect your email audience to another page.
+Gebruik de **[!UICONTROL Button]** om een of meerdere knoppen in te voegen in uw e-mail en uw e-mailpubliek om te leiden naar een andere pagina.
 
-1. From **[!UICONTROL Content components]**, drag and drop the **[!UICONTROL Button]** component into a **[!UICONTROL Structure component]**.
+1. Van **[!UICONTROL Content components]**, slepen en neerzetten **[!UICONTROL Button]** in een **[!UICONTROL Structure component]**.
 
-    ![](assets/email_designer_13.png)
+   ![](assets/email_designer_13.png)
 
-1. Click your newly added button to personalize the text and to have access to the **[!UICONTROL Components settings]** in the Email Designer right pane.
+1. Klik op de knop die u net hebt toegevoegd om de tekst aan te passen en toegang te krijgen tot de knop **[!UICONTROL Components settings]** in het rechterdeelvenster van E-mailontwerper.
 
-    ![](assets/email_designer_14.png)
+   ![](assets/email_designer_14.png)
 
-1. In the **[!UICONTROL Link]** field, add the URL you want to redirect to when clicking the button.
+1. In de **[!UICONTROL Link]** , voegt u de URL toe waarnaar u wilt omleiden wanneer u op de knop klikt.
 
-1. Choose how your the content is displayed with the **[!UICONTROL Target]** drop-down list:
+1. Kies hoe de inhoud wordt weergegeven met de **[!UICONTROL Target]** vervolgkeuzelijst:
 
-    * **[!UICONTROL None]**: opens the link in the same frame as it was clicked (default).
-    * **[!UICONTROL Blank]**: opens the link in a new window or tab.
-    * **[!UICONTROL Self]**: opens the link in the same frame as it was clicked.
-    * **[!UICONTROL Parent]**: opens the link in the parent frame.
-    * **[!UICONTROL Top]**: opens the link in the full body of the window.
+   * **[!UICONTROL None]**: Hiermee opent u de koppeling in hetzelfde frame als waarop u hebt geklikt (standaard).
+   * **[!UICONTROL Blank]**: Hiermee opent u de koppeling in een nieuw venster of op een nieuw tabblad.
+   * **[!UICONTROL Self]**: Hiermee opent u de koppeling in hetzelfde frame als waarop u hebt geklikt.
+   * **[!UICONTROL Parent]**: Hiermee opent u de koppeling in het bovenliggende frame.
+   * **[!UICONTROL Top]**: Hiermee opent u de koppeling in de volledige tekst van het venster.
 
-    ![](assets/email_designer_15.png)
+   ![](assets/email_designer_15.png)
 
-1. You can further personalize your button by changing styling attributes such as **[!UICONTROL Border]**, **[!UICONTROL Size]**, **[!UICONTROL Margin]**, etc. from the **[!UICONTROL Component settings]** pane.
+1. U kunt de knop verder aanpassen door opmaakkenmerken te wijzigen, zoals **[!UICONTROL Border]**, **[!UICONTROL Size]**, **[!UICONTROL Margin]**, enz. van de **[!UICONTROL Component settings]** venster.
 
-## Text {#text}
+## Tekst {#text}
 
-Use the **[!UICONTROL Text]** component to insert text into your email, and adjust the style (border, size, padding, etc.) using the **[!UICONTROL Component settings]** pane.
+Gebruik de **[!UICONTROL Text]** om tekst in te voegen in uw e-mail, en de stijl (rand, grootte, opvulling, enz.) aan te passen met de **[!UICONTROL Component settings]** venster.
 
-1. From **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL Text]** in a **[!UICONTROL Structure component]**.
+1. Van **[!UICONTROL Content Components]**, slepen en neerzetten **[!UICONTROL Text]** in een **[!UICONTROL Structure component]**.
 
-    ![](assets/email_designer_11.png)
+   ![](assets/email_designer_11.png)
 
-1. Click on your newly added component to personalize the text and to have access to the **[!UICONTROL Components Settings]** in the right pane of the email designer.
+1. Klik op de nieuwe component om de tekst aan te passen en toegang te krijgen tot de component **[!UICONTROL Components Settings]** in het rechterdeelvenster van de e-mailontwerper.
 
-1. Change your text with the following options available in the toolbar:
+1. Wijzig de tekst met de volgende opties beschikbaar op de werkbalk:
 
-    ![](assets/email_designer_27.png)
+   ![](assets/email_designer_27.png)
 
-    * **[!UICONTROL Change text style]**: apply bold, italic, underline or strike through to your text.
-    * **Change alignment**: choose between left, right, center or justified alignment for your text.
-    * **[!UICONTROL Create list]**: add bullet or number list to your text.
-    * **[!UICONTROL Set heading]**: add up to six heading levels to your text.
-    * **Font size**: select the font size of your text in pixels.
-    * **[!UICONTROL Edit image]**: add an image or an asset to your text component.
-    * **[!UICONTROL Show the source code]**: display the source code of your text. It cannot be modified.
-    * **[!UICONTROL Duplicate]**: add a copy of your text component.
-    * **[!UICONTROL Delete]**: delete the selected text component from your email.
-    * **[!UICONTROL Add personalization]**: add personalization fields to customize the content from your profiles data.
-    * **[!UICONTROL Enable conditional content]**: add conditional content to adapt the content of the component to the targeted profiles.
+   * **[!UICONTROL Change text style]**: u kunt uw tekst vet, cursief, onderstrepen of doorhalen.
+   * **Uitlijning wijzigen**: kiest u tussen links, rechts, centreren of uitvullen voor de tekst.
+   * **[!UICONTROL Create list]**: Voeg opsommingstekens of nummers toe aan uw tekst.
+   * **[!UICONTROL Set heading]**: Voeg maximaal zes kopniveaus aan uw tekst toe.
+   * **Fontgrootte**: Selecteer de tekengrootte van de tekst in pixels.
+   * **[!UICONTROL Edit image]**: Voeg een afbeelding of een element toe aan uw tekstcomponent.
+   * **[!UICONTROL Show the source code]**: de broncode van de tekst weergeven. Het kan niet worden gewijzigd.
+   * **[!UICONTROL Duplicate]**: Voeg een kopie van de tekstcomponent toe.
+   * **[!UICONTROL Delete]**: Verwijder de geselecteerde tekstcomponent uit uw e-mail.
+   * **[!UICONTROL Add personalization]**: Voeg verpersoonlijkingsgebieden toe om de inhoud van uw profielgegevens aan te passen.
+   * **[!UICONTROL Enable conditional content]**: Voeg voorwaardelijke inhoud toe om de inhoud van de component aan de beoogde profielen aan te passen.
 
-1. Adjust the other styling attributes such as text color, font family, border, padding, margin, etc. from the **[!UICONTROL Component settings]** pane.
+1. Pas de andere opmaakkenmerken aan, zoals tekstkleur, lettertypefamilie, rand, opvulling, marge, enzovoort. van de **[!UICONTROL Component settings]** venster.
 
-    ![](assets/email_designer_12.png)
+   ![](assets/email_designer_12.png)
 
-## Divider {#divider}
+## Scheidingslijn {#divider}
 
-Use the **[!UICONTROL Divider]** component to insert a dividing line to organize the layout and content of your email.
+Gebruik de **[!UICONTROL Divider]** om een scheidingslijn in te voegen om de lay-out en inhoud van uw e-mail te ordenen.
 
-You can adjust styling attributes such as the line color, style and height from the **[!UICONTROL Component settings]** pane.
+U kunt opmaakkenmerken zoals lijnkleur, -stijl en -hoogte aanpassen vanuit het dialoogvenster **[!UICONTROL Component settings]** venster.
 
 ![](assets/email_designer_16.png)
 
 ## HTML {#HTML}
 
-Use the **[!UICONTROL HTML]** component to copy-paste the different parts of your existing HTML. This enables you to create free modular HTML components to reuse some external content.
+Gebruik de **[!UICONTROL HTML]** om de verschillende onderdelen van uw bestaande HTML te kopiëren en te plakken. Hierdoor kunt u gratis modulaire HTML-componenten maken om externe inhoud opnieuw te gebruiken.
 
-1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL HTML]** component into a **[!UICONTROL Structure component]**.
+1. Van **[!UICONTROL Content Components]**, slepen en neerzetten **[!UICONTROL HTML]** in een **[!UICONTROL Structure component]**.
 
-    ![](assets/email_designer_22.png)
+   ![](assets/email_designer_22.png)
 
-1. Click on your newly added component, then select **[!UICONTROL Show the source code]** from the contextual toolbar to add your HTML.
+1. Klik op de zojuist toegevoegde component en selecteer vervolgens **[!UICONTROL Show the source code]** van de contextafhankelijke werkbalk om uw HTML toe te voegen.
 
-    ![](assets/email_designer_23.png)
+   ![](assets/email_designer_23.png)
 
 >[!NOTE]
 >
->To simply make an external content compliant with the Email Designer, Adobe recommends creating a message from scratch and copy the content from your existing email into components.
+>Om een externe inhoud eenvoudig compatibel te maken met de e-mailontwerper, raadt Adobe u aan een geheel nieuw bericht te maken en de inhoud van uw bestaande e-mail naar componenten te kopiëren.
 
-## Image {#image}
+## Afbeelding {#image}
 
-Use the **[!UICONTROL Image]** component to insert an image file from your computer in your email.
+Gebruik de **[!UICONTROL Image]** om een afbeeldingsbestand van uw computer in te voegen in uw e-mail.
 
-1. In **[!UICONTROL Content Components]**, drag and drop **[!UICONTROL Image]** in a **[!UICONTROL Structure component]**.
+1. In **[!UICONTROL Content Components]**, slepen en neerzetten **[!UICONTROL Image]** in een **[!UICONTROL Structure component]**.
 
-    ![](assets/email_designer_9.png)
+   ![](assets/email_designer_9.png)
 
-1. Click **[!UICONTROL Browse]** to choose an image file from your assets.
+1. Klikken **[!UICONTROL Browse]** om een afbeeldingsbestand te kiezen uit uw elementen.
 
-1. Click your newly added component and set up your image properties using the **[!UICONTROL Components settings]** pane:
+1. Klik op de nieuwe component en stel de afbeeldingseigenschappen in met de opdracht **[!UICONTROL Components settings]** deelvenster:
 
-    * **[!UICONTROL Image title]** lets you define a title to your image.
-    * **[!UICONTROL Alt text]** lets you define the caption linked to your image. This corresponds to the alt HTML attribute.
+   * **[!UICONTROL Image title]** Hiermee kunt u een titel voor de afbeelding definiëren.
+   * **[!UICONTROL Alt text]** Hiermee kunt u het bijschrift definiëren dat aan de afbeelding is gekoppeld. Dit komt overeen met het kenmerk alt HTML.
 
-    ![](assets/email_designer_10.png)
+   ![](assets/email_designer_10.png)
 
-1. Adjust the other styling attributes such as margin, border, etc. or adding a link to redirect your audience to another content from the **[!UICONTROL Component settings]** pane.
+1. Pas de andere opmaakkenmerken aan, zoals marge, rand, enz. of u voegt een koppeling toe om uw publiek om te leiden naar een andere inhoud vanuit de **[!UICONTROL Component settings]** venster.
 
-## Social {#social}
+## Sociaal {#social}
 
-Use the **[!UICONTROL Social]** component to insert links to social media pages into your email content.
+Gebruik de **[!UICONTROL Social]** om koppelingen naar pagina&#39;s met sociale media in te voegen in uw e-mailinhoud.
 
-1. From **[!UICONTROL Content Components]**, drag and drop the **[!UICONTROL Social]** component into a **[!UICONTROL Structure component]**.
+1. Van **[!UICONTROL Content Components]**, slepen en neerzetten **[!UICONTROL Social]** in een **[!UICONTROL Structure component]**.
 
-1. Click your newly added component.
+1. Klik op de nieuwe component.
 
-1. In the **[!UICONTROL Social]** field of the **[!UICONTROL Components settings]** pane, choose which social media you want to add or remove.
+1. In de **[!UICONTROL Social]** van het **[!UICONTROL Components settings]** kiest u welke sociale media u wilt toevoegen of verwijderen.
 
-    ![](assets/email_designer_20.png)
+   ![](assets/email_designer_20.png)
 
-1. Choose the size of your icons in the **[!UICONTROL Size of images]** field.
+1. Kies de grootte van de pictogrammen in het dialoogvenster **[!UICONTROL Size of images]** veld.
 
-1. Click on each of your social media icons to configure the **[!UICONTROL URL]** to which your audience is redirected.
+1. Klik op elk van uw pictogrammen voor sociale media om de **[!UICONTROL URL]** waarnaar uw publiek wordt omgeleid.
 
-    ![](assets/email_designer_21.png)
+   ![](assets/email_designer_21.png)
 
-1. You can also change the icons of each of your social media if needed in the **[!UICONTROL Image]** field.
+1. U kunt de pictogrammen van elk van uw sociale media desgewenst ook wijzigen in het dialoogvenster **[!UICONTROL Image]** veld.
 
-1. Adjust the other styling attributes such as style, margin, border, etc. from the **[!UICONTROL Component settings]** pane.
+1. Pas de andere opmaakkenmerken aan, zoals stijl, marge, rand, enzovoort. van de **[!UICONTROL Component settings]** venster.

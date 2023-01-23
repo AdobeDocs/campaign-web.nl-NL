@@ -1,101 +1,107 @@
 ---
 audience: end-user
-title: Track your messages
-description: Learn how to add links and track sent messages
+title: Je berichten bijhouden
+description: Leer hoe u koppelingen toevoegt en verzonden berichten bijhoudt
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
+source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 0%
+
 ---
-# Add links and track messages {#tracking}
+
+# Koppelingen toevoegen en berichten bijhouden {#tracking}
 
 ![](../assets/do-not-localize/badge.png)
 
-Use the Email designer to add links to your content and track the messages sent in order to monitor the behavior of your recipients.
+Gebruik de e-mailontwerper om koppelingen naar uw inhoud toe te voegen en de verzonden berichten bij te houden om het gedrag van de ontvangers te controleren.
 
-## Insert links {#insert-links}
+## Koppelingen invoegen {#insert-links}
 
-When designing a message, you can add links to your content.
-
->[!NOTE]
->
->When tracking is enabled, all links included in the message content are tracked.
-
-To insert links into your email content, follow the steps below:
-
-1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
-
-    ![](assets/message-tracking-insert-link.png)
-
-1. Add a **[!UICONTROL Label]** and a **[!UICONTROL Link]**.
-
-1. Save your changes.
-
-1. Once the link is created, you can still modify it from the **[!UICONTROL Component settings]** pane on the right. 
-
-    * You can edit the link and change its **[!UICONTROL Target]**.
-    * You can choose to underline the link or not by checking the corresponding option.
-
-    ![](assets/message-tracking-link-settings.png)
+Bij het ontwerpen van een bericht kunt u koppelingen naar uw inhoud toevoegen.
 
 >[!NOTE]
 >
->Marketing-type email messages must include an opt-out link, which is not required for transactional messages. The message category (**[!UICONTROL Marketing]** or **[!UICONTROL Transactional]**) is defined at the channel surface (i.e. message preset) level and when creating the message.
+>Wanneer het volgen wordt toegelaten, worden alle verbindingen inbegrepen in de berichtinhoud gevolgd.
 
-## Link to a mirror page {#mirror-page}
+Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
-The mirror page is an HTML page accessible online via a web browser. Its content is identical to the content of your email.
+1. Selecteer een element en klik op **[!UICONTROL Insert link]** in de contextuele werkbalk.
 
-To add a link to a mirror page in your email:
+   ![](assets/message-tracking-insert-link.png)
 
-1. Select an element and click **[!UICONTROL Insert link]** from the contextual toolbar.
+1. Voeg een **[!UICONTROL Label]** en **[!UICONTROL Link]**.
 
-    ![](assets/message-tracking-mirror-page.png)
+1. Sla uw wijzigingen op.
 
-1. Select the **[!UICONTROL Insert link]** icon to access the personalization menu.
+1. Als de koppeling eenmaal is gemaakt, kunt u deze nog steeds wijzigen in het menu **[!UICONTROL Component settings]** aan de rechterkant.
 
-    ![](assets/message-tracking-mirror-page_2.png)
+   * U kunt de koppeling bewerken en de koppeling wijzigen **[!UICONTROL Target]**.
+   * U kunt de koppeling onderstrepen of niet door de bijbehorende optie in te schakelen.
 
-1. From the **[!UICONTROL Content block]** menu, select **[!UICONTROL Mirror page URL]** and click **[!UICONTROL Add]**.
+   ![](assets/message-tracking-link-settings.png)
 
-    ![](assets/message-tracking-mirror-page_3.png)
+>[!NOTE]
+>
+>E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op het niveau van het kanaaloppervlak (d.w.z. de berichtvoorinstelling) en bij het maken van het bericht.
 
-The mirror page is automatically created.
+## Koppelen naar een spiegelpagina {#mirror-page}
+
+De spiegelpagina is een HTML-pagina die online toegankelijk is via een webbrowser. De inhoud is identiek aan de inhoud van uw e-mail.
+
+Een koppeling toevoegen aan een spiegel in uw e-mail:
+
+1. Selecteer een element en klik op **[!UICONTROL Insert link]** in de contextuele werkbalk.
+
+   ![](assets/message-tracking-mirror-page.png)
+
+1. Selecteer **[!UICONTROL Insert link]** pictogram voor toegang tot het verpersoonlijkingsmenu.
+
+   ![](assets/message-tracking-mirror-page_2.png)
+
+1. Van de **[!UICONTROL Content block]** menu, selecteert u **[!UICONTROL Mirror page URL]** en klik op **[!UICONTROL Add]**.
+
+   ![](assets/message-tracking-mirror-page_3.png)
+
+De spiegelpagina wordt automatisch gemaakt.
 
 >[!IMPORTANT]
 >
->Mirror pages links are auto-generated and cannot be edited. They contain all the encrypted personalized data that is required to render the original email. As a result, using personalised attributes with large values may generate lengthy mirror pages URLs, which can prevent the link from working in web browsers that have a maximum URLs length.
+>Koppelingen naar spiegelpagina&#39;s worden automatisch gegenereerd en kunnen niet worden bewerkt. Ze bevatten alle gecodeerde, gepersonaliseerde gegevens die nodig zijn om de oorspronkelijke e-mail te renderen. Als gevolg hiervan kan het gebruik van gepersonaliseerde kenmerken met grote waarden langdurige spiegel-pagina&#39;s-URL&#39;s genereren, waardoor de koppeling niet kan werken in webbrowsers met een maximale URL-lengte.
 
-Once the email is sent, when the recipients click the mirror page link, the content of the email is displayed in their default web browser.
+Wanneer de e-mail is verzonden en de ontvangers op de koppeling voor de spiegelpagina klikken, wordt de inhoud van de e-mail in hun standaardwebbrowser weergegeven.
 
 >[!NOTE]
 >
->In the test email sent to the test profiles, the link to the mirror page is not active. It is only activated in the final messages.
+>In de testmail die naar de testprofielen wordt verzonden, is de verbinding aan de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
 
-The retention period for a mirror page is 60 days. After that delay, the mirror page is no longer available.
+De retentieperiode voor een spiegelpagina is 60 dagen. Na die vertraging is de spiegelpagina niet meer beschikbaar.
 
-## Manage tracking {#manage-tracking}
+## Beheer van bijhouden {#manage-tracking}
 
-The [Email Designer](create-email-content.md) allows you to manage the tracked URLs, such as editing the tracking type for each link.
+De [E-mailontwerper](create-email-content.md) Hiermee kunt u de bijgehouden URL&#39;s beheren, zoals het bewerken van het trackingtype voor elke koppeling.
 
-1. Click the **[!UICONTROL Links]** icon from the left pane to display the list of all the URLs of your content to be tracked.
+1. Klik op de knop **[!UICONTROL Links]** in het linkerdeelvenster om de lijst weer te geven met alle URL&#39;s van de inhoud die u wilt bijhouden.
 
-    This list enables you to have a centralized view and to locate each URL in the email content.
+   In deze lijst kunt u een gecentraliseerde weergave gebruiken en elke URL in de e-mailinhoud opzoeken.
 
-1. To edit a link, click the corresponding pencil icon.
+1. Als u een koppeling wilt bewerken, klikt u op het bijbehorende potloodpictogram.
 
-    ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png)
 
-1. You can modify the **[!UICONTROL Tracking Type]** if needed:
+1. U kunt de **[!UICONTROL Tracking Type]** indien nodig:
 
    ![](assets/message-tracking-edit-a-link.png)
 
-    For each tracked URL, you can set the tracking mode to one of these values:
+   Voor elke bijgehouden URL kunt u de modus Tekstspatiëring instellen op een van de volgende waarden:
 
-    * **[!UICONTROL Tracked]**: Activates tracking on this URL.
-    * **[!UICONTROL Opt out]**: Considers this URL as an opt-out or unsubscription URL.
-    * **[!UICONTROL Mirror page]**: Considers this URL is a mirror page URL.
-    * **[!UICONTROL Never]**: Never activates tracking of this URL. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Tracked]**: Hiermee activeert u het bijhouden van wijzigingen op deze URL.
+   * **[!UICONTROL Opt out]**: beschouwt deze URL als een opt-out- of niet-abonnements-URL.
+   * **[!UICONTROL Mirror page]**: beschouwt deze URL als een URL van een spiegelpagina.
+   * **[!UICONTROL Never]**: Hiermee activeert u het bijhouden van deze URL nooit. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
-1. Add a **[!UICONTROL Category]** to your link to group tracked links and click **[!UICONTROL Save]**.
+1. Voeg een **[!UICONTROL Category]** naar uw koppeling om bijgehouden koppelingen te groeperen en klik op **[!UICONTROL Save]**.
 
-    ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png)
 
-1. After sending your delivery, access your delivery report. Under the **[!UICONTROL Tracking]** menu, the **[!UICONTROL URLs and click streams]** report displays which URLs from your delivery are the most visited. [Learn more](../reporting/reports.md)
+1. Na het verzenden van de levering hebt u toegang tot uw leveringsrapport. Onder de **[!UICONTROL Tracking]** in het menu **[!UICONTROL URLs and click streams]** het rapport toont welke URLs van uw levering het meest bezochte is. [Meer informatie](../reporting/reports.md)
