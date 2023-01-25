@@ -3,9 +3,9 @@ audience: end-user
 title: Opmerkingen bij de release Campagne Web v8
 description: Opmerkingen bij de release Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 54bcb9b0ba8704cde8beaf1b0400eaa01bba0b15
+source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,8 @@ add info somewhere to remind users that
 * they keep their existing data (example: will be able to use their existing delivery templates to create deliveries)
 -->
 
->[!NOTE]
->
->Houd er rekening mee dat kanaaloverschrijdende campagnes en mogelijkheden voor workflowbeheer beschikbaar zijn met de bètaversie.
 
-## Terminologie-updates
+## Terminologie-updates{#terminology-updates}
 
 Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoemd om zich aan de recentste terminologienormen te richten. Deze veranderingen zijn slechts op het Web UI van de Campagne van toepassing en niet weerspiegeld in de Console van de Cliënt. Deze worden hieronder samengevat.
 
@@ -62,3 +59,17 @@ Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoe
 * De leveringsanalyse is nu de **voorbereiding van levering**. Wanneer u de analyse wilt starten, klikt u op de knop **Voorbereiden** knop
 * E-mailvoorvertoning is nu beschikbaar via **Inhoud simuleren** knop
 * Lijsten zijn nu **Soorten publiek**
+
+## Beperkingen{#limitations-alpha}
+
+Bepaalde mogelijkheden voor de campagne, zoals kanaaloverschrijdende campagnes en workflowbeheer, zijn beschikbaar in de bètaversie.
+
+De onderstaande beperkingen gelden voor deze Alfa-versie:
+
+* De enige bewerkbare objecten zijn Deliveries. De andere zijn alleen-lezen. Gebruik filters om door alle filters te bladeren.
+* Deze versie is ontworpen voor één e-mailcampagne. Andere kanalen worden nog niet ondersteund.
+* De gebruikersinterface van het Beleid is niet beschikbaar.
+* De rapporteringsmetriek (zoals opent en het volgen gegevens) wordt bijgewerkt elk uur.
+* KPI&#39;s voor het leveringsdashboard worden elke 5 minuten bijgewerkt. - maar de voorbereiding van de levering is in real-time.
+* Adobe Experience Cloud-meldingen en de Unified Help die beschikbaar zijn in de bovenste balk, zijn nog niet geïntegreerd.
+
