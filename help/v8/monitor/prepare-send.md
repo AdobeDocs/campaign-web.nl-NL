@@ -3,9 +3,9 @@ audience: end-user
 title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 1a7ed05b974e72b76cf8a48e36ae86bd166db048
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '648'
 ht-degree: 4%
 
 ---
@@ -72,6 +72,22 @@ Zodra de voorbereiding zonder fout volledig is, is uw bericht klaar om te worden
 
 ## Bericht verzenden{#send}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Geleverd"
+>abstract="Het aantal berichten dat is afgeleverd. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is gebaseerd op het totale aantal verzonden berichten."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Geopende items"
+>abstract="Het aantal geopende berichten. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is de verhouding van het aantal verschillende opent in vergelijking met het aantal geleverde berichten."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Klikken"
+>abstract="Het aantal ontvangers dat ten minste één keer in de e-mail heeft geklikt. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is de verhouding van het aantal verschillende kliks in vergelijking met het aantal geleverde berichten."
+
+
 Zodra de voorbereiding volledig is, kunt u uw bericht nu verzenden. Deze stap is alleen vereist voor berichten die direct worden verzonden. Als het bericht gepland is, wordt het verzonden op de bepaalde datum.
 
 Voer de volgende stappen uit:
@@ -92,6 +108,6 @@ Voer de volgende stappen uit:
 
    >[!NOTE]
    >
-   >De **Openen** en **Klikken** de indicatoren worden na 5 minuten bijgewerkt.
+   >Alle indicatoren worden elke 5 minuten na de start van de levering bijgewerkt. De indicatoren voor de voorbereiding van de levering zijn realtime.
 
    U kunt het verzenden op elk ogenblik pauzeren en dan hervatten. Als u de levering beëindigt terwijl het wordt verzonden, kunt u niet hervatten.
