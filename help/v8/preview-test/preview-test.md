@@ -3,7 +3,7 @@ audience: end-user
 title: Informatie over e-mailvoorvertoning en testen
 description: Leer hoe u e-mailberichten kunt bekijken en testen
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: d305cc7055008ecf25e41a51fabe1e5ece683b72
+source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 0%
@@ -18,10 +18,10 @@ Voordat u een e-mail verzendt, is het belangrijk dat u de inhoud ervan controlee
 
 Om dit te doen, staat Adobe Campaign u toe:
 
-* [Voorbeeld van e-mailinhoud en personalisatie bekijken](#preview),
+* [Voorbeeld van e-mailinhoud en personalisatie bekijken](preview-content.md),
 
 <!--* [Check the email rendering](#rendering) in popular desktop, mobile and web-based clients,-->
-* [Test-e-mails verzenden](#send-proofs) aan specifieke ontvangers voor tests en validatie.
+* [Test-e-mails verzenden](proofs.md) aan specifieke ontvangers voor tests en validatie.
 
 Deze handelingen kunnen worden uitgevoerd via de **[!UICONTROL Simulate content]** -knop die toegankelijk is wanneer u de inhoud maakt van uw e-mailbericht van e-mailontwerper:
 
