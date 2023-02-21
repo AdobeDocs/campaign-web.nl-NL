@@ -3,10 +3,10 @@ audience: end-user
 title: Aan de slag met Campagne v8 Web
 description: Aan de slag met Campagne v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: a59c133254632c49618fae6ad3d61a2f6e0a1eea
+source-git-commit: d3cbac2dfe1f5a0a6f1d79b2671e6c0a07efa156
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ only existing customers
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Aan de slag"
->abstract="Leer meer over belangrijke functies, de gebruikersinterface en algemene richtlijnen."
+>abstract="Belangrijke mogelijkheden, gebruikersinterface en globale richtlijnen ontdekken."
 
 >[!NOTE]
 >
