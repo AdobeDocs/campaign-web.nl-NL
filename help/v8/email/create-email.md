@@ -3,9 +3,9 @@ audience: end-user
 title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 4332facf1b7853cb36c9de752ff48bb68e97d6e0
+source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1235'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,9 @@ Op basis van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepers
 >title="E-maileigenschappen"
 >abstract="De eigenschappen zijn de gemeenschappelijke leveringsparameters die u helpen om uw levering te noemen en te classificeren. Als uw levering is gebaseerd op een uitgebreid schema dat is gedefinieerd in de Adobe Campaign v8-console, zijn er enkele specifieke **Aangepaste opties** zijn beschikbaar."
 
-1. Als u een nieuwe levering wilt maken, gaat u naar de **[!UICONTROL Deliveries]** en selecteert u **[!UICONTROL Email]** als het kanaal.
+1. Blader naar de **[!UICONTROL Deliveries]** op de linkerspoorstaaf en klik op  **[!UICONTROL Create delivery]** knop.
 
-1. Selecteer de sjabloon die u wilt gebruiken en klik op **[!UICONTROL Create delivery]**.
+1. Selecteren **[!UICONTROL Email]** als het kanaal en kies een sjabloon.
 
    >[!NOTE]
    >
@@ -42,7 +42,8 @@ Op basis van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepers
 
    ![](assets/channel-template.png)
 
-1. Geef een label voor de e-mail en configureer aanvullende opties op basis van uw behoeften:
+1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
+1. Voer een label voor de levering in en configureer aanvullende opties op basis van uw behoeften:
 
    * **[!UICONTROL Internal name]**: een unieke identificatiecode aan de levering toewijzen;
    * **[!UICONTROL Folder]**: de levering opslaan in een specifieke map,
@@ -65,11 +66,11 @@ Op basis van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepers
 >title="Leer hoe u uw e-mailinhoud ontwerpt"
 >abstract="Leer hoe u de e-mailontwerper gebruikt."
 
-In dit geval gebruikt u een vooraf gedefinieerde sjabloon om ons e-mailbericht te ontwerpen.
-
 Gedetailleerde instructies over het configureren van de e-mailinhoud zijn beschikbaar in [deze sectie](../content/edit-content.md).
 
-1. Klik op de knop **[!UICONTROL Edit content]** knop.
+In dit geval gebruikt u een vooraf gedefinieerde sjabloon om ons e-mailbericht te ontwerpen.
+
+1. Als u de e-mailinhoud wilt gaan maken, opent u de e-maillevering en klikt u op de knop **[!UICONTROL Edit content]** knop.
 
    Hiermee gaat u naar een speciale interface waar u de e-mailinhoud kunt configureren en ontwerpen met de e-mailontwerper.
 
@@ -79,7 +80,7 @@ Gedetailleerde instructies over het configureren van de e-mailinhoud zijn beschi
 
    ![](assets/subject-line.png)
 
-1. Als u de hoofdtekst van de e-mail wilt ontwerpen, klikt u op de knop **[!UICONTROL Edit email body]** knop.
+1. Als u de inhoud van de e-mail wilt ontwerpen, klikt u op de knop **[!UICONTROL Edit email body]** knop.
 
    Kies de methode die u wilt gebruiken om uw e-mailinhoud te maken. In dit voorbeeld gebruikt u een vooraf gedefinieerde ontwerpsjabloon.
 
@@ -135,9 +136,9 @@ In dit geval stuurt u de e-mail naar een bestaand publiek. Aanvullende instructi
 >title="Plan de verzending"
 >abstract="Bepaal de datum en de nauwkeurige tijd voor uw verzendend. Door de meest geschikte tijd voor uw marketingbericht te kiezen, kunt u de open tarieven maximaliseren."
 
-Als u het verzenden van de e-mail wilt plannen, klikt u op **[!UICONTROL Enable]** en stelt u de gewenste datum en tijd voor verzending in.
+Als u de verzending van het e-mailbericht wilt plannen, opent u het bericht en bladert u naar de **Schema** sectie. Gebruik de **[!UICONTROL Enable scheduling]** om het te activeren en de gewenste datum en tijd voor verzending in te stellen. Nadat u de levering hebt verzonden, begint de daadwerkelijke verzending op de door u gedefinieerde contactdatum.
 
-Standaard worden de **[!UICONTROL Confirm before sending]** is ingeschakeld, zodat u de verzending moet bevestigen voordat het e-mailbericht op de geplande datum en tijd wordt verzonden. Als u het e-mailbericht automatisch wilt verzenden op de geplande datum en tijd, kunt u deze optie uitschakelen.
+Standaard worden de **[!UICONTROL Enable confirmation before sending]** is ingeschakeld. Voor deze optie moet u de verzending bevestigen voordat het e-mailbericht op de geplande datum en tijd wordt verzonden. Als u het e-mailbericht automatisch wilt verzenden op de geplande datum en tijd, kunt u deze optie uitschakelen.
 
 ![](assets/schedule.png)
 
