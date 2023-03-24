@@ -3,10 +3,10 @@ audience: end-user
 title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het Web UI van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 24%
+source-wordcount: '571'
+ht-degree: 27%
 
 ---
 
@@ -34,7 +34,7 @@ Om een controlegroep tot stand te brengen, klik **[!UICONTROL Set Control Group]
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extraheren uit doel"
->abstract="TBC"
+>abstract="Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren."
 
 Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren.
 
@@ -79,7 +79,7 @@ Voor meer informatie over leveringslogboeken, verwijs naar dit [sectie](../monit
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Extra populatie"
->abstract="TBC"
+>abstract="Een andere manier om een controlegroep te bepalen is een specifieke bevolking van het doel uit te sluiten gebruikend een bestaand publiek of door een vraag te bepalen."
 
 Een andere manier om een controlegroep te bepalen is een specifieke bevolking van het doel uit te sluiten gebruikend een bestaand publiek of door een vraag te bepalen.
 

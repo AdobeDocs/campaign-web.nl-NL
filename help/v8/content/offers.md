@@ -3,9 +3,9 @@ audience: end-user
 title: Aanbiedingen verzenden
 description: Aanbiedingen verzenden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
@@ -13,16 +13,6 @@ ht-degree: 0%
 # Aanbiedingen verzenden {#offers-content}
 
 ![](../assets/do-not-localize/badge.png)
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_settings"
->title="Aanbiedingsinstellingen"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_offers_advanced_settings"
->title="Geavanceerde instellingen voor aanbiedingen"
->abstract="TBC"
 
 Met Adobe Campaign v8 Web kunt u met uw e-mailaanbiedingen die in de console zijn gemaakt, verzenden via de **[!UICONTROL Interaction]** module. Voor meer informatie over Interactie en hoe te om een aanbiedingencatalogus in de console te beheren, verwijs naar [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
@@ -32,6 +22,16 @@ De stappen voor het verzenden van voorstellen met een e-mail zijn als volgt:
 1. [De aanbiedingen in de e-mail invoegen](#insert).
 
 ## Configureer de aanbiedingen die u wilt voorstellen {#configure}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_settings"
+>title="Aanbiedingsinstellingen"
+>abstract="Vorm welke aanbiedingen aan de ontvangers zouden moeten worden voorgesteld."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_offers_advanced_settings"
+>title="Geavanceerde instellingen voor aanbiedingen"
+>abstract="Vorm geavanceerde opties op aanbiedingen."
 
 1. Klik op de knop **[!UICONTROL Offers]** in het scherm E-mailinhoud.
 

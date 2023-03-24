@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
 >title="E-mailkoptekst"
->abstract="TBC"
+>abstract="In deze sectie kunt u de waarden voor Van naam en Van e-mail bepalen die in de e-mailsjabloon zijn gedefinieerd. Het veld Onderwerpregel kan worden aangepast met de expressieeditor."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="E-mailbijlage"
->abstract="TBC"
+>abstract="Selecteer één of meerdere dossiers in uw bericht op te nemen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Traceeropties"
->abstract="TBC"
+>abstract="Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie hier uitschakelen."
 
 Als u de inhoud van een e-mail wilt gaan maken, klikt u op de knop **[!UICONTROL Edit content]** in het scherm voor het maken van e-mail.
 
@@ -61,6 +61,6 @@ U definieert de inhoud van uw e-mail als volgt:
 
    <!--limitation on size + number of files?-->
 
-1. Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie uitschakelen in het menu **[!UICONTROL Optional features]** sectie. [Leer hoe u koppelingen kunt toevoegen en bijhouden](message-tracking.md)
+1. Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie uitschakelen in het dialoogvenster **[!UICONTROL Optional features]** sectie. [Leer hoe u koppelingen kunt toevoegen en bijhouden](message-tracking.md)
 
 Als de inhoud van uw e-mail eenmaal is gedefinieerd, gebruikt u de opdracht **[!UICONTROL Simulate content]** om te controleren hoe het toont alvorens het te verzenden. [Leer hoe u uw e-mail kunt bekijken en testen](../preview-test/preview-test.md)

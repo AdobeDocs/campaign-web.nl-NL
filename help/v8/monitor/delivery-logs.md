@@ -3,10 +3,10 @@ audience: end-user
 title: Leveringslogboeken controleren
 description: Leer hoe u leveringslogboeken kunt controleren
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 21%
+source-wordcount: '306'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_preparation_logs"
 >title="Leveringslogboeken"
->abstract="TBC"
+>abstract="Met de leveringslogboeken kunt u controleren of er geen fout is."
 
 Nadat u een e-mail hebt voorbereid en verzonden, kunt u met de leveringslogboeken controleren of er geen fout is opgetreden. Deze logboeken kunnen direct van het berichtdashboard worden betreden. Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
 
