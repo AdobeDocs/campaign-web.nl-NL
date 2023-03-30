@@ -3,10 +3,10 @@ audience: end-user
 title: Je berichten bijhouden
 description: Leer hoe u koppelingen toevoegt en verzonden berichten bijhoudt
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 0%
+source-wordcount: '344'
+ht-degree: 1%
 
 ---
 
@@ -45,37 +45,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 >
 >E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op het niveau van het kanaaloppervlak (d.w.z. de berichtvoorinstelling) en bij het maken van het bericht.
 
-## Koppelen naar een spiegelpagina {#mirror-page}
-
-De spiegelpagina is een HTML-pagina die online toegankelijk is via een webbrowser. De inhoud is identiek aan de inhoud van uw e-mail.
-
-Een koppeling toevoegen aan een spiegel in uw e-mail:
-
-1. Selecteer een element en klik op **[!UICONTROL Insert link]** in de contextuele werkbalk.
-
-   ![](assets/message-tracking-mirror-page.png)
-
-1. Selecteer **[!UICONTROL Insert link]** pictogram voor toegang tot het verpersoonlijkingsmenu.
-
-   ![](assets/message-tracking-mirror-page_2.png)
-
-1. Van de **[!UICONTROL Content block]** menu, selecteert u **[!UICONTROL Mirror page URL]** en klik op **[!UICONTROL Add]**.
-
-   ![](assets/message-tracking-mirror-page_3.png)
-
-De spiegelpagina wordt automatisch gemaakt.
-
->[!IMPORTANT]
->
->Koppelingen naar spiegelpagina&#39;s worden automatisch gegenereerd en kunnen niet worden bewerkt. Ze bevatten alle gecodeerde, gepersonaliseerde gegevens die nodig zijn om de oorspronkelijke e-mail te renderen. Als gevolg hiervan kan het gebruik van gepersonaliseerde kenmerken met grote waarden langdurige spiegel-pagina&#39;s-URL&#39;s genereren, waardoor de koppeling niet kan werken in webbrowsers met een maximale URL-lengte.
-
-Wanneer de e-mail is verzonden en de ontvangers op de koppeling voor de spiegelpagina klikken, wordt de inhoud van de e-mail in hun standaardwebbrowser weergegeven.
-
->[!NOTE]
->
->In de testmail die naar de testprofielen wordt verzonden, is de verbinding aan de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
-
-De retentieperiode voor een spiegelpagina is 60 dagen. Na die vertraging is de spiegelpagina niet meer beschikbaar.
+In al uw e-mailberichten moet een specifieke koppeling naar de spiegel worden toegevoegd. Meer informatie over de spiegelpagina vindt u in [deze sectie](mirror-page.md).
 
 ## Beheer van bijhouden {#manage-tracking}
 

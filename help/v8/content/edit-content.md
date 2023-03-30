@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 4faf949f061f62accc80b5e11f99318c18f59d2e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="E-mailkoptekst"
->abstract="In deze sectie kunt u de waarden voor Van naam en Van e-mail bepalen die in de e-mailsjabloon zijn gedefinieerd. Het veld Onderwerpregel kan worden aangepast met de expressieeditor."
+>title="E-mailparameters"
+>abstract="De waarden Van naam en Van e-mail worden gedefinieerd in de e-mailsjabloon. De Onderwerpregel kan worden gepersonaliseerd gebruikend de uitdrukkingsredacteur."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"

@@ -5,9 +5,9 @@ description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 title: Campaign v8 Webdocumenten
 hide: true
-source-git-commit: 8398c0cacb2e6e2198e295787bb5e4e25af74e6e
+source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '172'
 ht-degree: 7%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 7%
          + [Uw eigen inhoud coderen](content/code-content.md)
       + [Inhoudscomponenten gebruiken](content/content-components.md)
       + [De tekstversie genereren](content/text-version-email.md)
+      + [Een koppeling toevoegen aan de spiegelpagina](content/mirror-page.md)
       + [Een preheader toevoegen](content/preheader.md)
       + [Koppelingen toevoegen en berichten bijhouden](content/message-tracking.md)
    + Stijl uw inhoud {#style}
