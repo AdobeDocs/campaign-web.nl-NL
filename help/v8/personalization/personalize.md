@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 51bd6f405ad151e2264d69c57ffe5e1783077203
+source-git-commit: 85dd75a0b8e078a946e0ac140fa27d7232d03219
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -77,20 +77,21 @@ Nadat het inhoudsblok is ingevoegd, wordt het toegevoegd aan de e-mailinhoud, zo
 
 
 Ingebouwde inhoudsblokken zijn:
-* **[!UICONTROL Enabled by Adobe Campaign]** : voegt het logo &quot;Enabled by Adobe Campaign&quot; in.
-* **[!UICONTROL Formatting function for proper nouns]** : genereert de **[!UICONTROL toSmartCase]** De functie Javascript, die de eerste letter van elk woord in hoofdletters verandert.
-* **[!UICONTROL Greetings]** : voegt begroetingen met de naam van de ontvanger in. Voorbeeld: &quot;Hallo JanDoe,&quot;.
-* **[!UICONTROL Insert logo]** : voegt een logo in dat in de instantie-instellingen is gedefinieerd.
-* **[!UICONTROL Link to mirror page]** : voegt een koppeling naar de spiegelpagina in: &quot;Klik hier als je dit bericht niet juist kunt weergeven.&quot;
-* **[!UICONTROL Mirror page URL]** : voegt de URL van de spiegelpagina in, waardoor de leveringsontwerpers de koppeling kunnen controleren.
-* **[!UICONTROL Offer acceptance URL in unitary mode]** : voegt een URL in waarmee een aanbieding kan worden ingesteld op **[!UICONTROL Accepted]**.
-* **[!UICONTROL Registration page URL]** : voegt een abonnement-URL in.
-* **[!UICONTROL Registration link]** : voegt een abonnementkoppeling in. Deze koppeling wordt gedefinieerd in de instantie-instellingen. De standaardinhoud is: &quot;Klik hier om te registreren.&quot;
-* **[!UICONTROL Registration link (with referrer)]** : voegt een abonnementkoppeling in, waarmee de bezoeker en de levering kunnen worden geïdentificeerd. Deze koppeling wordt gedefinieerd in de instantie-instellingen.
-* **[!UICONTROL Registration confirmation]** : voegt een koppeling in waarmee u het abonnement kunt bevestigen.
-* **[!UICONTROL Social network sharing links]** : voegt knopen op die de ontvanger toelaten om een verbinding aan de inhoud van de spiegelpagina te delen.
-* **[!UICONTROL Style of content emails]** en **[!UICONTROL Notification style]** : genereren code waarmee een e-mailbericht wordt opgemaakt met vooraf gedefinieerde HTML-stijlen.
-* **[!UICONTROL Unsubscription link]** : voegt een koppeling in waarmee u zich kunt afmelden bij alle leveringen (lijst van gewezen personen). De standaard gekoppelde inhoud is: &quot;U ontvangt dit bericht omdat u contact hebt gehad met ***uw organisatienaam*** of een gelieerde. Als u geen berichten meer wilt ontvangen van ***uw organisatienaam*** klik hier.&quot;
+
+* **[!UICONTROL Enabled by Adobe Campaign]**: voegt het logo &quot;Enabled by Adobe Campaign&quot; in.
+* **[!UICONTROL Formatting function for proper nouns]**: genereert de **[!UICONTROL toSmartCase]** De functie Javascript, die de eerste letter van elk woord in hoofdletters verandert.
+* **[!UICONTROL Greetings]**: voegt begroetingen met de volledige naam van de ontvanger in, gevolgd door een komma. Voorbeeld: &quot;Hallo JanDoe,&quot;.
+* **[!UICONTROL Insert logo]**: voegt een logo in dat in de instantie-instellingen is gedefinieerd.
+* **[!UICONTROL Link to mirror page]**: voegt een koppeling in naar de [spiegelpagina](mirror-page.md). Standaardindeling is: &quot;Klik hier als je dit bericht niet juist kunt weergeven.&quot;
+* **[!UICONTROL Mirror page URL]**: voegt de URL van de spiegelpagina in, waardoor de leveringsontwerpers de koppeling kunnen controleren.
+* **[!UICONTROL Offer acceptance URL in unitary mode]**: voegt een URL in waarmee een aanbieding kan worden ingesteld op **[!UICONTROL Accepted]**. (Dit blok is beschikbaar als de module van de Interactie wordt toegelaten)
+* **[!UICONTROL Registration confirmation]**: voegt een koppeling in waarmee u het abonnement kunt bevestigen.
+* **[!UICONTROL Registration link]**: voegt een abonnementkoppeling in. Deze koppeling wordt gedefinieerd in de instantie-instellingen. De standaardinhoud is: &quot;Klik hier om te registreren.&quot;
+* **[!UICONTROL Registration link (with referrer)]**: voegt een abonnementkoppeling in, waarmee de bezoeker en de levering kunnen worden geïdentificeerd. Deze koppeling wordt gedefinieerd in de instantie-instellingen.
+* **[!UICONTROL Registration page URL]**: voegt een abonnement-URL in
+* **[!UICONTROL Style of content emails]** en **[!UICONTROL Notification style]**: genereren code waarmee een e-mailbericht wordt opgemaakt met vooraf gedefinieerde HTML-stijlen.
+* **[!UICONTROL Unsubscription link]**: voegt een koppeling in waarmee u zich kunt afmelden bij alle leveringen (lijst van gewezen personen). De standaard gekoppelde inhoud is: &quot;U ontvangt dit bericht omdat u contact hebt gehad met ***uw organisatienaam*** of een gelieerde. Als u geen berichten meer wilt ontvangen van ***uw organisatienaam*** klik hier.&quot;
+
 
 
 ## Koppelingen in e-mails aanpassen {#personalize-links}
