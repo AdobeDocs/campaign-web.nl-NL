@@ -5,9 +5,9 @@ description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 title: Campaign v8 Webdocumenten
 hide: true
-source-git-commit: 694085f49f2722cc8eefb08196503bc210e36ffa
+source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 13%
 
 ---
@@ -62,8 +62,9 @@ ht-degree: 13%
 + Soorten publiek en ontvangers {#audiences}
    + [Aan de slag met het publiek](audience/about-audiences.md)
    + [Een publiek selecteren](audience/add-audience.md)
+   + [Creeer een publiek met de regelbouwer](audience/segment-builder.md)
+   + [Een publiek importeren](audience/import-audience.md)
    + [Een controlegroep instellen](audience/control-group.md)
-   + [Bepaal een publiek met de regelbouwer](audience/segment-builder.md)
 + Kanaalcampagnes {#campaigns}
    + [Aan de slag met campagnes](campaigns/gs-campaigns.md)
    + [Uw eerste campagne maken](campaigns/create-campaigns.md)
