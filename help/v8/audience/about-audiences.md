@@ -4,9 +4,9 @@ title: Aan de slag met het publiek
 description: Leer hoe te om publiek in het Web UI van de Campagne te gebruiken
 badge: label="Alpha" type="Positief"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -44,9 +44,11 @@ Leer in deze sectie hoe u het publiek van e-mail kunt definiëren. Het publiek i
 
 Om het publiek te bepalen, kunt u:
 
-* gebruik een bestaand publiek, zie dit [sectie](add-audience.md).
-* een nieuw publiek te maken. Zie dit [sectie](segment-builder.md).
+* Gebruik een bestaand publiek. [Meer informatie](add-audience.md)
+* Maak een nieuw publiek. [Meer informatie](segment-builder.md)
+* Importeer een publiek uit een bestand. [Meer informatie](import-audience.md)
+* Gebruik een Adobe Experience Platform-publiek. [Meer informatie](aep-audience.md)
 
-U kunt controlegroepen ook bepalen om het verzenden van berichten naar een gedeelte van uw publiek te vermijden om het effect van uw campagnes te meten. Zie dit [sectie](control-group.md).
+Bovendien kunt u controlegroepen bepalen vermijden verzendend berichten naar een gedeelte van uw publiek, en de invloed van uw campagnes meten. [Meer informatie](control-group.md)
 
 ![](assets/about-audience.png)
