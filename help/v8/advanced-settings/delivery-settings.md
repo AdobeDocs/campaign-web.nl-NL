@@ -3,16 +3,16 @@ audience: end-user
 title: E-mailleveringsinstellingen
 description: Meer informatie over instellingen voor e-maillevering in de gebruikersinterface van het campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: b85bf75da466502e4579a061c02a2c4ce4361cd5
+badge: label="Alpha" type="Informatief"
+source-git-commit: 5ae59f72739943a7073e7cbd0d4d8cec0b7eb7ee
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1450'
 ht-degree: 10%
 
 ---
 
-# E-mailleveringsinstellingen {#email-del-settings}
 
-![Alfa-versie](../assets/do-not-localize/badge.png)
+# E-mailleveringsinstellingen {#email-del-settings}
 
 Deze instellingen zijn **technische leveringsparameters** die zijn gedefinieerd in de e-mailsjabloon. Deze zijn beschikbaar via de **Leveringsinstellingen configureren** pictogram beschikbaar bij het bewerken van een e-maillevering.
 
