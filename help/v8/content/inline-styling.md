@@ -3,16 +3,16 @@ audience: end-user
 title: Inline-opmaakkenmerken toevoegen
 description: Leer hoe u inline-opmaakkenmerken kunt toevoegen
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informatief"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Inline-opmaakkenmerken toevoegen {#adding-inline-styling-attributes}
 
-![](../assets/do-not-localize/badge.png)
+# Inline-opmaakkenmerken toevoegen {#adding-inline-styling-attributes}
 
 Wanneer u in de interface E-mailontwerper een element selecteert en de instellingen van het element in het rechterdeelvenster weergeeft, kunt u de inline-kenmerken en de bijbehorende waarde voor dat specifieke element aanpassen.
 

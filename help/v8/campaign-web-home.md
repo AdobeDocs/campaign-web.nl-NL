@@ -3,19 +3,17 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 42d28b988444c9a6dc7b816485fa28bbe6cda5ca
+badge: label="Alpha" type="Informatief"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Adobe Campaign v8-webdocumentatie {#campaign-documentation}
 
 ![](assets/do-not-localize/banner-documentationv8.png)
-
-![](assets/do-not-localize/badge.png)
-
 
 De campagne biedt nu een nieuwe webgebruikersinterface met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u de gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere Adobe-oplossingen, waaronder Adobe Experience Platform. [Meer informatie](get-started/get-started.md)
 

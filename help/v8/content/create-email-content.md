@@ -3,16 +3,15 @@ audience: end-user
 title: E-mails ontwerpen in de e-mailontwerper
 description: Leer hoe u uw e-mailinhoud helemaal zelf ontwerpt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informatief"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Opnieuw starten {#create-email-content}
-
-![](../assets/do-not-localize/badge.png)
+# Uw e-mailinhoud helemaal opnieuw starten {#create-email-content}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"

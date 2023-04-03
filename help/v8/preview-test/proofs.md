@@ -3,16 +3,15 @@ audience: end-user
 title: Test-e-mails verzenden
 description: Leer teste-mails definiëren en verzenden
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informatief"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Test-e-mails verzenden {#send-proofs}
-
-![](../assets/do-not-localize/badge.png)
 
 Het verzenden van e-mails over tests is een belangrijke stap in het valideren van uw e-mailcampagne en het identificeren van mogelijke problemen. Door teste-mails te verzenden, kunt u verschillende elementen controleren, zoals koppelingen, opt-out-koppelingen, afbeeldingen en spiegelpagina&#39;s, en eventuele fouten opsporen.
 

@@ -3,16 +3,16 @@ audience: end-user
 title: Verticale uitlijning en opvulling aanpassen in E-mailontwerper
 description: Leer hoe u de verticale uitlijning en opvulling kunt aanpassen
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informatief"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Verticale uitlijning en opvulling aanpassen {#alignment-and-padding}
 
-![](../assets/do-not-localize/badge.png)
+# Verticale uitlijning en opvulling aanpassen {#alignment-and-padding}
 
 In dit voorbeeld passen we opvulling en verticale uitlijning aan binnen een structuurcomponent die uit drie kolommen bestaat.
 

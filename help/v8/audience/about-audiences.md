@@ -2,17 +2,17 @@
 audience: end-user
 title: Aan de slag met het publiek
 description: Leer hoe te om publiek in het Web UI van de Campagne te gebruiken
+badge: label="Alpha" type="Informatief"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
-# Aan de slag met het publiek {#about-audiences}
 
-![](../assets/do-not-localize/badge.png)
+# Aan de slag met het publiek {#about-audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"

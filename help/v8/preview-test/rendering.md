@@ -3,16 +3,17 @@ audience: end-user
 title: E-mailrendering testen
 description: Leer hoe u uw e-mailrendering kunt testen in de interface van het campagneweb
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informatief"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
+
 # De rendering van e-mail testen {#rendering}
 
-![](../assets/do-not-localize/badge.png)
 
 Voordat u uw e-mail verzendt, moet u ervoor zorgen dat uw bericht op een optimale manier aan de ontvangers wordt weergegeven op verschillende webclients, webmails en apparaten.
 

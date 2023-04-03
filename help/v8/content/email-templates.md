@@ -3,59 +3,60 @@ audience: end-user
 product: campaign
 title: Werken met e-mailsjablonen
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informatief"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 7%
+source-wordcount: '284'
+ht-degree: 0%
 
 ---
 
-# Werken met sjablonen voor e-mailinhoud {#email-content-templates}
+# Werken met e-mailsjablonen {#email-content-templates}
 
-![](../assets/do-not-localize/badge.png)
-
-Gebruik de **[!UICONTROL Select design template]** om uw inhoud op te bouwen van een sjabloon.
+Als u toegang hebt tot de e-mailinhoud, gebruikt u de opdracht **[!UICONTROL Select design template]** sectie van de interface beginnen uw inhoud van een malplaatje te bouwen.
 
 ![](assets/email_designer-templates.png)
 
+De campagne wordt geleverd met een set ingebouwde sjablonen, die beschikbaar zijn in de **Voorbeeldsjablonen** tab. U kunt uw eigen sjablonen toevoegen en deze gebruiken om uw e-mailinhoud samen te stellen. Aangepaste sjablonen worden opgeslagen in de **Opgeslagen sjablonen** tab. Leer hoe u een e-mailbericht opslaat als een sjabloon en hoe u dit kunt gebruiken in de onderstaande secties.
+
 ## Opslaan als sjabloon {#save-as-template}
 
-Nadat u de e-mailinhoud hebt ontworpen, kunt u deze opslaan voor toekomstig hergebruik. Volg de onderstaande stappen om dit te doen.
+Nadat u de e-mailinhoud hebt ontworpen, kunt u deze opslaan als een sjabloon voor toekomstig hergebruik. Opgeslagen sjablonen zijn beschikbaar voor alle gebruikers van uw Adobe Campaign-omgeving.
 
-1. Klik op de ellips rechtsboven in het scherm.
+Voer de onderstaande stappen uit om e-mailinhoud als sjabloon op te slaan:
+
+1. Klik in de e-mailontwerper op de ellips rechtsboven in het scherm.
 
 1. Selecteren **[!UICONTROL Save design template]** in het keuzemenu.
 
    ![](assets/email_designer-save-template.png)
 
-1. Voeg een naam voor deze sjabloon toe.
+1. Voer een naam in voor deze sjabloon en sla deze op
 
    ![](assets/email_designer-template-name.png)
 
-1. Klik op **[!UICONTROL Save]**.
-
-De volgende keer dat u een e-mail maakt, kunt u deze sjabloon gebruiken om uw inhoud samen te stellen. [Meer informatie](#use-saved-template)
+U kunt nu [deze sjabloon gebruiken](#use-saved-template) om nieuwe inhoud te maken: deze is beschikbaar op het tabblad Opgeslagen sjablonen van de e-mailontwerper.
 
 ![](assets/email_designer-saved-template.png)
 
 ## Een opgeslagen sjabloon gebruiken {#use-saved-template}
 
+Opgeslagen sjablonen worden gegroepeerd in een specifieke tabel in de e-mailontwerper. Voer de volgende stappen uit om e-mailinhoud te maken op basis van een bestaande aangepaste sjabloon:
+
 1. Open de [e-mailontwerper](create-email-content.md).
 
-1. Op de **[!UICONTROL Create your email screen]** de **[!UICONTROL Sample templates]** is standaard geselecteerd. Selecteer het tabblad **[!UICONTROL Saved templates]**. 
+1. Op de **[!UICONTROL Create your email]** scherm, de **[!UICONTROL Sample templates]** is standaard geselecteerd. Bladeren naar de **[!UICONTROL Saved templates]** gebruiken om uw aangepaste sjablonen te openen.
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. De lijst van alle vorige [opgeslagen sjablonen](#save-as-template) worden weergegeven. U kunt ze sorteren **[!UICONTROL By name]**, **[!UICONTROL Last modified]** en **[!UICONTROL Last created]**.
+1. De lijst van alle [opgeslagen sjablonen](#save-as-template) worden weergegeven. U kunt ze sorteren **[!UICONTROL By name]**, **[!UICONTROL Last modified]** en **[!UICONTROL Last created]**.
 
    ![](assets/email_designer-saved-templates.png)
 
-1. Selecteer de gewenste sjabloon in de lijst.
-
-1. Als deze optie is geselecteerd, kunt u met de pijl-rechts en de pijl-links tussen alle opgeslagen sjablonen navigeren.
+1. Selecteer een sjabloon in de lijst om de inhoud ervan weer te geven. Gebruik de rechter- en linkerpijlen om door sjablonen te bladeren.
 
    ![](assets/email_designer-saved-templates-navigate.png)
 
-1. Klikken **[!UICONTROL Use this email]** rechtsboven op het scherm.
+1. Klikken **[!UICONTROL Use this email]** rechtsboven in het scherm om een sjabloon te selecteren.
 
-1. Bewerk de inhoud naar wens met de e-mailontwerper.
+1. Bewerk de inhoud naar wens met de e-mailontwerper. [Meer informatie](create-email-content.md)

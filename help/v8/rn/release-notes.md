@@ -3,16 +3,16 @@ audience: end-user
 title: Opmerkingen bij de release Campagne Web v8
 description: Opmerkingen bij de release Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 5b552f038413cc2624adef6c76d3f69d56eb18ee
+badge: label="Alpha" type="Informatief"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Aanvullende informatie {#release-notes}
 
-![](../assets/do-not-localize/badge.png)
+# Aanvullende informatie {#release-notes}
 
 Deze pagina bevat een overzicht van alle nieuwste functies en verbeteringen voor Campagne Web v8.
 

@@ -3,16 +3,16 @@ audience: end-user
 title: E-mailinhoud voorvertonen
 description: Leer hoe u uw e-mailinhoud kunt voorvertonen met de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 773d15912aba9804cbd1ad681f7c02a7433ffa66
+badge: label="Alpha" type="Informatief"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# E-mailinhoud voorvertonen {#preview}
 
-![](../assets/do-not-localize/badge.png)
+# E-mailinhoud voorvertonen {#preview}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"

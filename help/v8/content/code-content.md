@@ -3,16 +3,15 @@ audience: end-user
 title: Uw eigen e-mailinhoud coderen
 description: Leer hoe u uw eigen e-mailinhoud codeert
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-source-git-commit: 1157113798f95329651e71b726d6132f9d8c7544
+badge: label="Alpha" type="Informatief"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Uw eigen inhoud coderen {#code-content}
-
-![](../assets/do-not-localize/badge.png)
+# Uw eigen e-mailinhoud coderen {#code-content}
 
 Gebruik de **[!UICONTROL Code your own]** om onbewerkte HTML te importeren en/of uw e-mailinhoud te coderen. Deze methode vereist HTML-vaardigheden.
 

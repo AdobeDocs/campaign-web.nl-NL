@@ -3,16 +3,15 @@ audience: end-user
 title: Bepaal een publiek met de regelbouwer
 description: Leer hoe u met de Segment Builder werkt
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: c92e6c1455266fe3430720117d61114ba027b187
+badge: label="Alpha" type="Informatief"
+source-git-commit: 15c37b0651b1d15dd80571c504aaca59d848b619
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Bepaal een publiek met de regelbouwer {#segment-builder}
-
-![](../assets/do-not-localize/badge.png)
 
 In deze sectie wordt beschreven hoe u een publiek kunt maken tijdens het ontwerpen van een nieuwe e-mail. Het nieuwe publiek kan alleen in deze e-mail worden gebruikt.
 
