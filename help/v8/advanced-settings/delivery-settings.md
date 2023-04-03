@@ -3,8 +3,8 @@ audience: end-user
 title: E-mailleveringsinstellingen
 description: Meer informatie over instellingen voor e-maillevering in de gebruikersinterface van het campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alpha" type="Informatief"
-source-git-commit: 5ae59f72739943a7073e7cbd0d4d8cec0b7eb7ee
+badge: label="Alpha" type="Positief"
+source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 10%
