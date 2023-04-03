@@ -5,9 +5,9 @@ description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 title: Campaign v8 Webdocumenten
 hide: true
-source-git-commit: 39276ec96d582b9a64f83f412abf1e44fffa99c8
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '229'
 ht-degree: 13%
 
 ---
@@ -61,9 +61,10 @@ ht-degree: 13%
       + [Aan de slag met SMS-berichten](sms/gs-sms.md)
 + Soorten publiek en ontvangers {#audiences}
    + [Aan de slag met het publiek](audience/about-audiences.md)
-   + [Een publiek selecteren](audience/add-audience.md)
+   + [Bestaande doelgroep selecteren](audience/add-audience.md)
    + [Creeer een publiek met de regelbouwer](audience/segment-builder.md)
    + [Een publiek importeren](audience/import-audience.md)
+   + [Een Adobe Experience Platform-publiek gebruiken](audience/aep-audience.md)
    + [Een controlegroep instellen](audience/control-group.md)
 + Kanaalcampagnes {#campaigns}
    + [Aan de slag met campagnes](campaigns/gs-campaigns.md)

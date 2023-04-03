@@ -4,22 +4,31 @@ title: Een publiek selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Een publiek selecteren {#add-audience}
+# Bestaande doelgroep selecteren {#add-audience}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Bestaande doelgroep selecteren"
 >abstract="Het publiek wordt gedefinieerd in de Adobe Campaign v8-console. Als er een Adobe Experience Platform-integratie beschikbaar is, kunt u ook een bepaald publiek met Platform zien."
 
-In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren bij het definiëren van de doelpopulatie van een e-maillevering. Als u een nieuw publiek wilt creëren, verwijs naar dit [sectie](segment-builder.md).
+In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren bij het definiëren van de doelpopulatie van een e-maillevering.
+
+U kunt ook het volgende doen:
+
+* Maak een nieuw publiek. [Meer informatie](segment-builder.md)
+* Importeer een publiek uit een bestand. [Meer informatie](import-audience.md)
+* Gebruik een Adobe Experience Platform-publiek. [Meer informatie](aep-audience.md).
+
+
+Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
 1. Van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking, klik **[!UICONTROL Select audience]** knop.
 
