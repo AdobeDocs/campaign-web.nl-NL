@@ -3,10 +3,10 @@ audience: end-user
 title: Werken met gegevensbeheeractiviteiten voor workflows
 description: Leer hoe u gegevensbeheeractiviteiten kunt gebruiken in Adobe Campaign Web-workflows
 badge: label="Alpha" type="Positief"
-source-git-commit: ee418ea42bc4568f2ff1f0fe9080825764fee65d
+source-git-commit: 5efcdf2da104b86bf3ee37ee7162495c2d99fb48
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 2%
+source-wordcount: '314'
+ht-degree: 1%
 
 ---
 
@@ -18,14 +18,28 @@ lijst beschikbare activiteiten + korte beschrijving + verwijzing naar sectie
 
 ## Verrijking {#enrichment}
 
-beschrijving: Voeg een of meerdere verrijkingsgegevens toe, zodat u de gebruikte hoofdletters/kleine letters voor leveringen kunt gebruiken: de laatste aankoop of het laatste digitale abonnement en het totale bedrag van een aankoop ophalen en een e-mailadres aanpassen
+De verrijkingsactiviteit wordt vaak gebruikt in een werkstroom na het richten van activiteiten. Hiermee kunt u de doelgegevens verbeteren met aanvullende informatie uit de database.
 
-procesgebruiksvoorbeeld: 4 nieuwste aankopen van minder dan 100$ ophalen en een e-mail hieraan aanpassen
+Verrijkingsgegevens kunnen worden verkregen:
+
+* **Van dezelfde werktabel** als doelversie in uw workflow:
+
+   *Stel een groep klanten in en voeg het veld Geboortedatum toe aan de huidige tabel*
+
+* **Van een andere werktabel**:
+
+   *Selecteer een groep klanten en voeg de velden Bedrag en Type product uit de tabel Aankoop toe*.
+
+Zodra de verrijkingsgegevens aan het werkschema zijn toegevoegd, kan het dan in de activiteiten worden gebruikt die na de activiteit van de Verrijking worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes te creëren die eerder met uw doelpubliek zullen resoneren.
+
+U kunt bijvoorbeeld informatie over aankopen van klanten toevoegen aan de werkstroomwerktabel en deze gegevens gebruiken om de e-mails aan te passen aan de laatste aankoop of het bedrag dat aan deze aankopen is besteed.
+
+Voer de volgende stappen uit om een verrijkingsactiviteit toe te voegen aan uw workflow:
+
 1. activiteit toevoegen
 1. kenmerk selecteren dat moet worden gebruikt als verrijkingsgegevens
 
-   + geavanceerde velden weergeven, optie
-   + i-knop
+   Optie Geavanceerde velden weergeven i-knop
 
    opmerking: kenmerken van de doeldimensie
 
@@ -33,9 +47,7 @@ procesgebruiksvoorbeeld: 4 nieuwste aankopen van minder dan 100$ ophalen en een 
 1. aantal records dat moet worden opgehaald als u een verzameling van meerdere records wilt ophalen
 1. Filters toepassen en regel bouwen
 
-   + een bestaand filter selecteren
-   + filter opslaan voor hergebruik
-   + de resultaten van het filter visueel of in de codeweergave bekijken
+   Selecteer een bestaand filter om het filter op te slaan, zodat u de weergaveresultaten van het filter visueel of in de codeweergave kunt hergebruiken
 
 1. records sorteren met een kenmerk
 
