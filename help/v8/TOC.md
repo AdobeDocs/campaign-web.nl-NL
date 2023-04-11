@@ -5,9 +5,9 @@ description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 title: Campaign v8 Webdocumenten
 hide: true
-source-git-commit: cf94ea6f5bbb287c5cd56f5af023a40d1f8538d6
+source-git-commit: d97824b27f8738b1bedf29b58dd87c1d2cc4a2f0
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '245'
 ht-degree: 13%
 
 ---
@@ -72,5 +72,10 @@ ht-degree: 13%
 + Workflows {#wf}
    + [Aan de slag met workflows](workflows/gs-workflows.md)
    + [Uw eerste workflow maken](workflows/create-workflows.md)
+   + Werken met workflowactiviteiten {#activities}
+      + [Aan de slag met workflowactiviteiten](workflows/get-started-activities.md)
+      + [Doelactiviteiten](workflows/targeting-activities.md)
+      + [Kanaalactiviteiten](workflows/channel-activities.md)
+      + [Data-managementactiviteiten](workflows/data-management-activities.md)
 + [Rapportage](reporting/reports.md)
 
