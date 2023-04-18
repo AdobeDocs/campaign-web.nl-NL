@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 7c5ea340eb99b4cbacd5697b7d059f3e9c09f049
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
@@ -117,11 +117,6 @@ Navtree view depends on permissions (same as console).
 >id="acw_subscriptions_list"
 >title="Abonnementenlijsten"
 >abstract="Blader door uw abonnementenlijsten. U kunt het type, de modus en het label weergeven. Deze lijst is alleen-lezen."
-
->[!CONTEXTUALHELP]
->id="acw_targeting_workflow_list"
->title="Targetingworkflows"
->abstract="Open uw lijst met campagneworkflows. U kunt de staat, de laatste/volgende verwerkingsdatums en de omgeving bekijken. U kunt de lijst filteren op status, datum van laatste verwerking en type workflow. Workflowsjablonen zijn ook beschikbaar. Deze lijsten zijn alleen-lezen."
 
 * **Ontvangers** - Open de ontvangende database. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Deze lijst is alleen-lezen.
 * **Soorten publiek** - Dit is uw lijst met doelgroepen. Standaard kunt u het type, de oorsprong, de datum en het label van de wijziging bekijken. U kunt de lijst filteren op oorsprong. Deze lijst is alleen-lezen.

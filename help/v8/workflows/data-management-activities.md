@@ -3,9 +3,10 @@ audience: end-user
 title: Werken met gegevensbeheeractiviteiten voor workflows
 description: Leer hoe u gegevensbeheeractiviteiten kunt gebruiken in Adobe Campaign Web-workflows
 badge: label="Alpha" type="Positief"
-source-git-commit: 5efcdf2da104b86bf3ee37ee7162495c2d99fb48
+exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
+source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -18,7 +19,12 @@ lijst beschikbare activiteiten + korte beschrijving + verwijzing naar sectie
 
 ## Verrijking {#enrichment}
 
-De verrijkingsactiviteit wordt vaak gebruikt in een werkstroom na het richten van activiteiten. Hiermee kunt u de doelgegevens verbeteren met aanvullende informatie uit de database.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_data"
+>title="Verrijkingsactiviteit"
+>abstract="Met de verrijkingsactiviteit kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkstroom na het richten van activiteiten.<br/>Zodra de verrijkingsgegevens aan het werkschema zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de activiteit van de Verrijking worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes te creëren die eerder met uw doelpubliek zullen resoneren."
+
+Met de verrijkingsactiviteit kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkstroom na het richten van activiteiten.
 
 Verrijkingsgegevens kunnen worden verkregen:
 
