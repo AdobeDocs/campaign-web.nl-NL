@@ -4,16 +4,16 @@ title: Aan de slag met workflows
 description: Leer hoe u begint met workflows
 badge: label="Alpha" type="Positief"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0b5bfea60b65fd52f397f276e0c31e854adddb7b
+source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 2%
+source-wordcount: '358'
+ht-degree: 3%
 
 ---
 
 # Aan de slag met workflows {#workflows}
 
-## Wat zijn Adobe Campaign-workflows?
+## Wat is een workflow?
 
 Cross-channel marketing is essentieel voor elk bedrijf dat zijn klanten effectief wil bereiken. Adobe Campaign biedt een uitgebreide grafische omgeving die u in staat stelt complexe processen te ontwerpen die u kunnen helpen uw marketingcampagnes eenvoudig te beheren.
 
