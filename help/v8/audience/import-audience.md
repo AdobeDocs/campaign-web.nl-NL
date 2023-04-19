@@ -3,9 +3,10 @@ audience: end-user
 title: Ontvangers uit een bestand importeren
 description: Leer hoe u ontvangers kunt importeren uit een extern bestand
 badge: label="Alpha" type="Positief"
-source-git-commit: c44518e6e760fd7afcb90d3aec86e229ae1e2daf
+exl-id: e6e0dd01-5573-4261-aace-fd173827c383
+source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,3 +29,21 @@ Voer de volgende stappen uit om profielen uit een lokaal bestand rechtstreeks va
 1. Klikken **Bevestigen** als de instellingen correct zijn.
 
 Wanneer u de inhoud van het bericht maakt en aanpast, kunt u velden uit het invoerbestand selecteren in de Persoonlijke editor.
+
+## Voorbeeldbestand {#sample-file}
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="Voorbeeldbestand"
+>abstract="Ondersteunde bestandsindelingen: txt, csv, xls. Eerste regel gebruiken als kolomkop."
+
+
+```json
+{
+lastname,firstname,birthdate,email,crmID
+Smith,Hayden,23/05/1989,hayden.smith@example.com,124365
+Mars,Daniel,17/11/1987,dannymars@example.com,123545
+Smith,Clara,08/02/1989,clara.smith@example.com,124567
+Durance,Allison,15/12/1978,allison.durance@example.com,120987
+}
+```
