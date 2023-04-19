@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: a77437a9d008be56980ce601df5708c4d72d678c
+source-git-commit: 403f1e5fcb353f4c89f12066854853b51861293b
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
@@ -242,21 +242,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_import_from_a_file"
->title="Een publiek importeren uit een bestand"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_formatting"
->title="Indelingsinstellingen"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_import_from_a_file_columns"
->title="Kolominstellingen"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
 >title="Sjabloon voor pushmelding"
 >abstract="TBD"
@@ -332,6 +317,11 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_samplefile"
+>title="Voorbeeldbestand"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Kolomdefinitie"
 >abstract="TBD"
@@ -372,25 +362,9 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
->id="acw_campaign_schedule"
->title="Campagne"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Werkstroomlijst"
 >abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Campagne maken"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Campagne"
->abstract="TBD"
-
 
 <!--BETA-->
 >[!CONTEXTUALHELP]
