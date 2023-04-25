@@ -4,9 +4,9 @@ title: E-mails ontwerpen in de e-mailontwerper
 description: Leer hoe u uw e-mailinhoud helemaal zelf ontwerpt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 00396926f461b4cecfc3766ed7222337aa1aef60
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Voer de onderstaande stappen uit om uw e-mailinhoud te gaan samenstellen:
 
    ![](assets/email_designer_7.png)
 
-1. Indien nodig kunt u uw e-mail verder aanpassen door op **[!UICONTROL Switch to code editor]** in het geavanceerde menu. [Meer informatie over de code-editor](code-content.md)
+1. Indien nodig kunt u uw e-mail verder aanpassen door op **[!UICONTROL Switch to code editor]** in het menu Geavanceerd om rechtstreeks aan de broncode van uw e-mail te werken. [Meer informatie over de code-editor](code-content.md)
 
    >[!CAUTION]
    >
