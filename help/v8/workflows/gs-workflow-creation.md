@@ -4,15 +4,17 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: d7e19b2d8730cacbbff1ad42f1956b32c84a309a
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 
 # Belangrijkste principes voor het maken van werkstromen {#gs-workflow-creation}
+
+inhoud-TBD
 
 Een werkstroom is een procesdefinitie: het werkstroomdiagram, dat een weergave is van wat er moet gebeuren. Een workflow is ook een instantie van dit proces: een werkstroominstantie, die een voorstelling is van wat er eigenlijk gebeurt.
 
@@ -43,3 +45,5 @@ TBD: specifieke details tussen standalone &amp; campagneworkflows.
 De belangrijkste stappen voor het maken van workflows zijn:
 
 TBD: afbeelding die het hele proces weergeeft met uitleg en verwijzing naar documentpagina&#39;s
+
+eigenschappen maken en definiëren > activiteiten op het canvas ordenen > indien nodig instellingen configureren > de uitvoering starten en controleren
