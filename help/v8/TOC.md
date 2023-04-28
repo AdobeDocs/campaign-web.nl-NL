@@ -5,9 +5,9 @@ description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 title: Campaign v8 Webdocumenten
 hide: true
-source-git-commit: d9d1666e0903d78560230dd81af32b53608686c5
+source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '262'
 ht-degree: 13%
 
 ---
@@ -74,12 +74,13 @@ ht-degree: 13%
    + Uw eerste workflow maken {#create-workflow}
       + [Belangrijkste principes voor het maken van werkstromen](workflows/gs-workflow-creation.md)
       + [Een workflow maken](workflows/create-workflow.md)
-      + [Workflowuitvoering starten en controleren](workflows/start-monitor-workflows.md)
-   + Workflows ontwerpen {#design-workflows}
-      + [Aan de slag met het workflowcanvas](workflows/gs-canvas.md)
+      + [Workflowactiviteiten ordenen](workflows/build-workflow.md)
+      + [Workflowinstellingen configureren](workflows/workflow-settings.md)
+      + [Een workflow starten en controleren](workflows/start-monitor-workflows.md)
+   + [Toegang tot en beheer uw workflows](workflows/access-monitor.md)
+   + Werken met workflowactiviteiten {#design-workflows}
       + [Doelactiviteiten](workflows/targeting-activities.md)
       + [Kanaalactiviteiten](workflows/channel-activities.md)
       + [Data-managementactiviteiten](workflows/data-management-activities.md)
-   + [Workflows openen en bewaken](workflows/access-monitor.md)
 + [Rapportage](reporting/reports.md)
 
