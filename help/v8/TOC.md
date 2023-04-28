@@ -1,13 +1,13 @@
 ---
 audience: end-user
 user-guide-title: Campagne v8 Web
+title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
-title: Campaign v8 Webdocumenten
 hide: true
-source-git-commit: 1dabd8669dbf6483ec8c2bdae4b9567711fcfc4c
+source-git-commit: 370485f8d353d1d9140afbcb1a377db51a23800f
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '258'
 ht-degree: 13%
 
 ---
