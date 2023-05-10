@@ -4,9 +4,9 @@ title: Ontvangers uit een bestand importeren
 description: Leer hoe u ontvangers kunt importeren uit een extern bestand
 badge: label="Alpha" type="Positief"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f103fe804deccc83638a3e56a03f6e715e68e550
+source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Wanneer u de inhoud van het bericht maakt en aanpast, kunt u velden uit het invo
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
 >title="Voorbeeldbestand"
->abstract="Ondersteunde bestandsindelingen: txt, csv, xls. Eerste regel gebruiken als kolomkop."
+>abstract="Ondersteunde bestandsindelingen: txt, csv. Eerste regel gebruiken als kolomkop."
 
 
 ```json
