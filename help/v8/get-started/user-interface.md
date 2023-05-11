@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: ef8418294540ee0462725cdaf6824ba7ee4d9b59
+source-git-commit: 3ab348b26069188048af46e8f3555c4983c4d644
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,6 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >title="Werkstroomlijst"
 >abstract="TBD"
 
-<!--BETA-->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Deduplicatievelden"
@@ -400,4 +399,14 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Geavanceerde velden voor regelbuilder"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_properties"
+>title="Eigenschappen van SMS-berichten"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_properties"
+>title="Eigenschappen voor punaise"
 >abstract="TBD"
