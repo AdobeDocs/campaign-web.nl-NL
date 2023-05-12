@@ -5,10 +5,10 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 370485f8d353d1d9140afbcb1a377db51a23800f
+source-git-commit: 4bfe96782dc34d641144e4a6e744c262a79a1a7e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 13%
+source-wordcount: '259'
+ht-degree: 11%
 
 ---
 
@@ -71,13 +71,13 @@ ht-degree: 13%
    + [Uw eerste campagne maken](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Aan de slag met workflows](workflows/gs-workflows.md)
+   + [Workflows openen en beheren](workflows/access-monitor.md)
    + Uw eerste workflow maken {#create-workflow}
       + [Belangrijkste principes voor het maken van werkstromen](workflows/gs-workflow-creation.md)
-      + [Een workflow maken](workflows/create-workflow.md)
-      + [Workflowactiviteiten ordenen](workflows/build-workflow.md)
+      + [De workflow maken](workflows/create-workflow.md)
+      + [Workflowactiviteiten toevoegen en configureren](workflows/build-workflow.md)
       + [Workflowinstellingen configureren](workflows/workflow-settings.md)
       + [Een workflow starten en controleren](workflows/start-monitor-workflows.md)
-   + [Toegang tot en beheer uw workflows](workflows/access-monitor.md)
    + Werken met workflowactiviteiten {#design-workflows}
       + [Doelactiviteiten](workflows/targeting-activities.md)
       + [Kanaalactiviteiten](workflows/channel-activities.md)
