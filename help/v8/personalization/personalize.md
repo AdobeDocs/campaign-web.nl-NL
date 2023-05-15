@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -38,43 +38,6 @@ U kunt de inhoud van het bericht aanpassen door:
     Configure conditional content to add dynamic personalization based on the recipient’s profile for example. Text blocks and/or images are inserted when a particular condition is true.
 -->
 
-## De onderwerpregel van de e-mail aanpassen {#personalize-subject-line}
-
-Om verpersoonlijking in toe te voegen **[!UICONTROL Subject line]** Voer in het veld van het bericht de onderstaande stappen uit:
-
-1. Klik op de knop **Dialoogvenster voor aanpassen openen** pictogram rechts van **Onderwerpregel** veld.
-1. Voer de inhoud van de onderwerpregel in en selecteer de personalisatiekenmerken die u wilt toevoegen.
-1. Klikken **Bevestigen** om te valideren. De personalisatiekenmerken worden toegevoegd aan de onderwerpregel.
-
-![](assets/perso-subject.png)
-
-## Uw e-mailinhoud aanpassen {#personalize-emails}
-
-Als u de e-mailinhoud wilt aanpassen, opent u het bericht in de e-mailontwerper en:
-
-1. Klik in een tekstblok.
-1. Selecteer in de contextafhankelijke werkbalk **Aanpassing toevoegen**.
-
-   ![](assets/perso-add-to-content.png)
-
-1. Voeg de naam van de ontvanger in de verpersoonlijkingseditor in en bevestig deze.
-
-   ![](assets/perso-add-name.png)
-
-   Het personalisatiekenmerk wordt toegevoegd aan de e-mailinhoud.
-
-   U kunt de inhoud simuleren om de rendering te controleren. [Meer informatie](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-Als u een inhoudsblok aan uw e-mail wilt toevoegen, voert u dezelfde stappen uit en selecteert u een inhoudsblok van het laatste pictogram:
-
-![](assets/perso-insert-block.png)
-
-Nadat het inhoudsblok is ingevoegd, wordt het toegevoegd aan de e-mailinhoud, zoals hieronder wordt weergegeven. Het wordt automatisch aangepast aan het ontvankelijke profiel wanneer de verpersoonlijking, bij de leveringsvoorbereidingsstap wordt geproduceerd.
-
-![](assets/perso-content-block-in-email.png)
-
 
 Ingebouwde inhoudsblokken zijn:
 
@@ -92,7 +55,44 @@ Ingebouwde inhoudsblokken zijn:
 * **[!UICONTROL Style of content emails]** en **[!UICONTROL Notification style]**: genereren code waarmee een e-mailbericht wordt opgemaakt met vooraf gedefinieerde HTML-stijlen.
 * **[!UICONTROL Unsubscription link]**: voegt een koppeling in waarmee u zich kunt afmelden bij alle leveringen (lijst van gewezen personen). De standaard gekoppelde inhoud is: &quot;U ontvangt dit bericht omdat u contact hebt gehad met ***uw organisatienaam*** of een gelieerde. Als u geen berichten meer wilt ontvangen van ***uw organisatienaam*** klik hier.&quot;
 
+## De onderwerpregel van de e-mail aanpassen {#personalize-subject-line}
 
+Om verpersoonlijking in toe te voegen **[!UICONTROL Subject line]** Voer in het veld van het bericht de onderstaande stappen uit:
+
+1. Klik op de knop **[!UICONTROL Open personalization dialog]** pictogram rechts van **[!UICONTROL Subject line]** veld.
+
+   ![](assets/perso-subject.png){width="600"}
+
+1. Voer de inhoud van de onderwerpregel in en selecteer de personalisatiekenmerken die u wilt toevoegen.
+
+1. Klikken **[!UICONTROL Confirm]**** om te valideren. De personalisatiekenmerken worden toegevoegd aan de onderwerpregel.
+
+## Uw e-mailinhoud aanpassen {#personalize-emails}
+
+Als u de e-mailinhoud wilt aanpassen, opent u het bericht in de e-mailontwerper en:
+
+1. Klik in een tekstblok.
+1. Selecteer in de contextafhankelijke werkbalk **[!UICONTROL Add personalization]**.
+
+   ![](assets/perso-add-to-content.png)
+
+1. Voeg de naam van de ontvanger in de verpersoonlijkingseditor in en bevestig deze.
+
+   ![](assets/perso-add-name.png)
+
+   Het personalisatiekenmerk wordt toegevoegd aan de e-mailinhoud.
+
+   U kunt de inhoud simuleren om de rendering te controleren. [Meer informatie](../preview-test/preview-content.md)
+
+   ![](assets/perso-rendering.png)
+
+1. Als u een inhoudsblok aan uw e-mail wilt toevoegen, voert u dezelfde stappen uit en selecteert u een inhoudsblok van het laatste pictogram:
+
+   ![](assets/perso-insert-block.png)
+
+1. Zodra opgenomen, wordt het inhoudsblok toegevoegd aan de e-mailinhoud Het wordt automatisch aangepast aan het ontvankelijke profiel wanneer de verpersoonlijking, bij de leveringsvoorbereidingsstap wordt geproduceerd.
+
+   ![](assets/perso-content-block-in-email.png)
 
 ## Koppelingen in e-mails aanpassen {#personalize-links}
 

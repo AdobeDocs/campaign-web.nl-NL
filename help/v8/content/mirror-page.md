@@ -3,13 +3,13 @@ audience: end-user
 title: Een koppeling toevoegen aan de spiegelpagina
 description: Leer hoe u de koppeling naar de spiegel toevoegt en beheert
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 0%
 
 ---
-
 
 # Een koppeling toevoegen aan de spiegelpagina{#mirror-page}
 
@@ -33,7 +33,7 @@ Een koppeling toevoegen aan een spiegel in uw e-mail:
 
    ![](assets/message-tracking-mirror-page.png)
 
-1. Selecteer **[!UICONTROL Insert link]** pictogram voor toegang tot het verpersoonlijkingsmenu.
+1. Selecteer **[!UICONTROL Add personalization]** pictogram voor toegang tot het verpersoonlijkingsmenu.
 
    ![](assets/message-tracking-mirror-page_2.png)
 

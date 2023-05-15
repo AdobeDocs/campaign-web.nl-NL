@@ -4,9 +4,9 @@ title: Verticale uitlijning en opvulling aanpassen in E-mailontwerper
 description: Leer hoe u de verticale uitlijning en opvulling kunt aanpassen
 exl-id: 32e613e4-60ce-43b4-90a6-794af0e3976b
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '160'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ In dit voorbeeld passen we opvulling en verticale uitlijning aan binnen een stru
 
    ![](assets/alignment_2.png)
 
-1. De bewerkbare parameters voor die kolom worden weergegeven in het dialoogvenster **[!UICONTROL Column settings]** rechts. Pas de **[!UICONTROL Vertical alignment]** met de desbetreffende sectie.
+1. De bewerkbare parameters voor die kolom worden weergegeven in het dialoogvenster **[!UICONTROL Styles]** tab. Pas de **[!UICONTROL Alignment]** met de desbetreffende sectie.
 
    ![](assets/alignment_3.png)
 

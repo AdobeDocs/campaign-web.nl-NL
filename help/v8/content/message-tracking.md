@@ -4,9 +4,9 @@ title: Je berichten bijhouden
 description: Leer hoe u koppelingen toevoegt en verzonden berichten bijhoudt
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 1. Sla uw wijzigingen op.
 
-1. Als de koppeling eenmaal is gemaakt, kunt u deze nog steeds wijzigen in het menu **[!UICONTROL Component settings]** aan de rechterkant.
+1. Als de koppeling eenmaal is gemaakt, kunt u deze nog steeds wijzigen in het menu **[!UICONTROL Settings]** tab.
 
    * U kunt de koppeling bewerken en de koppeling wijzigen **[!UICONTROL Target]**.
    * U kunt de koppeling onderstrepen of niet door de bijbehorende optie in te schakelen.

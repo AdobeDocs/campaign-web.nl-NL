@@ -4,9 +4,9 @@ title: Inline-opmaakkenmerken toevoegen
 description: Leer hoe u inline-opmaakkenmerken kunt toevoegen
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Wanneer u in de interface E-mailontwerper een element selecteert en de instellin
 
 1. Selecteer een component rechtstreeks in de inhoud of met de **[!UICONTROL Navigation tree]** beschikbaar in het linkerdeelvenster.
 
-1. Van de **[!UICONTROL Component settings]** menu aan de rechterkant, zoek naar **[!UICONTROL Styles Inline]** sectie.
+1. Van de **[!UICONTROL Styles]** klikt u op de knop **[!UICONTROL Advanced]** vervolgkeuzelijst.
 
    ![](assets/styles_1.png)
 

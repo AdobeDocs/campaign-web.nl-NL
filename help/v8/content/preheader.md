@@ -4,9 +4,9 @@ title: Een voorkop toevoegen in de e-mailontwerper
 description: Leer hoe u e-mailinhoud ontwerpt
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,9 @@ Voer de volgende stappen uit om de e-mailvoorheader te definiëren:
 
    ![](assets/preheader_body.png)
 
-1. Van de **[!UICONTROL Body settings]** in het rechterdeelvenster klikt u op het pictogram Bewerken naast het pictogram **[!UICONTROL Preheader]** veld om inhoud toe te voegen.
+1. Van de **[!UICONTROL Settings]** toevoegen. U kunt de afbeelding verder aanpassen door op de knop **[!UICONTROL Add personalization]** pictogram.
 
    ![](assets/preheader_body_settings.png)
-
-1. Voeg de preheader toe. U kunt de afbeelding verder aanpassen door op de knop **[!UICONTROL Add personalization]** pictogram.
-
-   ![](assets/preheader_3.png)
 
 1. Van de **[!UICONTROL Edit Personalization]** venster, kunt u toevoegen **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** of **[!UICONTROL Personalization fields]**.
 

@@ -4,9 +4,9 @@ title: Een stijl voor koppelingen definiëren
 description: Leer hoe u een stijl voor koppelingen definieert
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '130'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de
 
 1. In een **[!UICONTROL Text]** Selecteer de koppeling waar een koppeling wordt ingevoegd.
 
-1. In de **[!UICONTROL Component settings]** menu, controle **[!UICONTROL Underline link]** om het label onderstreept te hebben.
+1. In de **[!UICONTROL Settings]** tab, check **[!UICONTROL Underline link]** om het label onderstreept te hebben.
 
    ![](assets/link_1.png)
 
@@ -32,7 +32,7 @@ U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de
 
    ![](assets/link_2.png)
 
-1. Als u de kleur van de koppeling wilt wijzigen, klikt u op **[!UICONTROL Link color]** in het rechterdeelvenster.
+1. Als u de kleur van de koppeling wilt wijzigen, klikt u op **[!UICONTROL Link color]** van de **[!UICONTROL Styles]** tab.
 
    ![](assets/link_3.png)
 
