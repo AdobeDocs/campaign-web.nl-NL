@@ -5,7 +5,7 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 4bfe96782dc34d641144e4a6e744c262a79a1a7e
+source-git-commit: 7f6da4222f789fb83e7c8074ef03ad121478b3f4
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 11%
@@ -72,10 +72,10 @@ ht-degree: 11%
 + Workflows {#wf}
    + [Aan de slag met workflows](workflows/gs-workflows.md)
    + [Workflows openen en beheren](workflows/access-monitor.md)
-   + Uw eerste workflow maken {#create-workflow}
+   + Uw eerste workflow maken en uitvoeren {#create-workflow}
       + [Belangrijkste principes voor het maken van werkstromen](workflows/gs-workflow-creation.md)
       + [De workflow maken](workflows/create-workflow.md)
-      + [Workflowactiviteiten toevoegen en configureren](workflows/build-workflow.md)
+      + [Workflowactiviteiten toevoegen en ordenen](workflows/build-workflow.md)
       + [Workflowinstellingen configureren](workflows/workflow-settings.md)
       + [Een workflow starten en controleren](workflows/start-monitor-workflows.md)
    + Werken met workflowactiviteiten {#design-workflows}
