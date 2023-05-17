@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 8b29c98e9cc4ca1d9c41fcc92230856bd9d140bb
+source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -228,7 +228,7 @@ Adobe Campaign interface is designed to work optimally in the latest version of 
 ######## These blocks should be dispatched in the appropriate pages when available ###########
 ######## PLEASE DO NOT DELETE ###########
 REFER TO 
-https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
+https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
 >[!CONTEXTUALHELP]
@@ -249,12 +249,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Eigenschappen voor het maken van campagnes"
->abstract="TBD"
+>abstract="Definieer eigenschappen en metagegevens voor de campagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Tijdschema voor het maken van campagnes"
->abstract="TBD"
+>abstract="Bepaal het programma voor de campagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,12 +264,12 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Verzonden cijfers"
->abstract="TBD"
+>abstract="Aantal geleverde e-mailberichten."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Metrische fouten"
->abstract="TBD"
+>abstract="Aantal e-mails met de foutstatus."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
@@ -284,22 +284,22 @@ https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CALPHA%3E
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS-inhoud"
->abstract="TBD"
+>abstract="Definieer de content van de sms."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="App-abonnees"
->abstract="TBD"
+>abstract="Geef een voorvertoning van het bericht weer en test het bericht door abonnees van de app aan het hoofddoel toe te voegen. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
->title="Testbevolking"
->abstract="TBD"
+>title="Testpopulatie"
+>abstract="Selecteer een testpopulatiemodus."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_mode"
 >title="Voorvertoningsmodus"
->abstract="TBD"
+>abstract="Geef een voorvertoning van het bericht weer en test het bericht door de testpopulatie op te nemen in het hoofddoel."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
