@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
 workflow-type: tm+mt
-source-wordcount: '1455'
+source-wordcount: '1558'
 ht-degree: 0%
 
 ---
@@ -234,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Overzicht van SMS-rapporten"
->abstract="TBD"
+>abstract="Ontdek de rapportgegevens voor je SMS-levering."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Overzicht van pushrapport"
->abstract="TBD"
+>abstract="Ontdek de rapportgegevens voor uw pushbestelling."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_notification_template"
@@ -250,7 +250,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
 >title="Geavanceerde kenmerken van Rule Builder"
->abstract="TBD"
+>abstract="Gebruik geavanceerde attributen om uw regel te bepalen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
@@ -265,12 +265,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Android-inhoud induwen"
->abstract="TBD"
+>abstract="Definieer de inhoud van de push-Android."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="iOS-inhoud doordrukken"
->abstract="TBD"
+>abstract="Definieer de push-iOS-inhoud."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
@@ -320,32 +320,32 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
 >title="Rapportage verzenden"
->abstract="TBD"
+>abstract="Raadpleeg de verzendende indicatoren voor de campagnerapportage."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Rapportage bijhouden"
->abstract="TBD"
+>abstract="Raadpleeg de traceringsindicatoren voor de campagnerapportage."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Overzicht van rapportage"
->abstract="TBD"
+>abstract="Belangrijke cijfers voor de levering."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Rapportage van doelstatistieken"
->abstract="TBD"
+>abstract="In deze sectie worden specifieke maatstaven weergegeven op basis van het publiek."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
->title="Samengevoegde rapportage selecteren een levering"
->abstract="TBD"
+>title="Geaggregeerde rapportage voor leveringen"
+>abstract="Selecteer ten minste twee leveringen voor de weergave van een samengevoegd gegevensrapport."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Werkstroomlijst"
->abstract="TBD"
+>abstract="Lijst met workflows die beschikbaar zijn voor uw campagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
@@ -370,12 +370,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Machtiging vereist"
->abstract="TBD"
+>abstract="Uw beheerder moet u toestemming verlenen alvorens u een segment kunt tot stand brengen."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_overview_edit"
 >title="Machtiging vereist"
->abstract="TBD"
+>abstract="Uw beheerder moet u toestemming verlenen alvorens u een segment kunt tot stand brengen."
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
@@ -402,3 +402,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Nieuwe metrische quarantines"
 >abstract="Nieuwe quarantaine-meting."
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="Sjabloonselectie via SMS"
+>abstract="Selecteer een vooraf gedefinieerde sjabloon om de SMS-levering te starten."
