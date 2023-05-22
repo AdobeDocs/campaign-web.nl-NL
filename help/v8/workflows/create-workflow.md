@@ -4,10 +4,10 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 3e62aa2aae959e8c59fe6482be7620f05a93b275
+source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '99'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,14 @@ ht-degree: 13%
 >title="Workfloweigenschappen"
 >abstract="TBD"
 
-inhoud-TBD
+De eerste stap om uw werkschema in Campagne v8 Web tot stand te brengen is het of als standalone werkschema tot stand te brengen of het direct binnen een campagne te creëren, en zijn eigenschappen te bepalen.
 
-* de workflow maken op basis van workflows of campagnes
-* zijn eigenschappen definiëren
+Voer hiertoe de volgende stappen uit:
+
+1. xxxx
+1. xxxx
+1. xxxx
+
+TBD-inhoud:
+
+Nu uw werkstroom is gemaakt, kunt u beginnen met het ordenen van de verschillende taken die worden uitgevoerd in een speciaal visueel canvas. [Leer hoe u workflowactiviteiten kunt ordenen](build-workflow.md)
