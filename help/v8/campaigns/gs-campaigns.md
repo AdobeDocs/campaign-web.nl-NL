@@ -4,9 +4,9 @@ title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Alpha" type="Positief"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: b542553ebde67211241bfbcf16b7b608eed275bb
+source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '282'
 ht-degree: 12%
 
 ---
@@ -28,6 +28,11 @@ In een cross-channel campagne wordt één marketingmededeling verzonden via vers
 >id="acw_campaign_creation_properties"
 >title="Eigenschappen voor het maken van campagnes"
 >abstract="Definieer eigenschappen en metagegevens voor de campagne."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Campagneigenschappen"
+>abstract="Definieer de instellingen en metagegevens van uw campagne."
 
 Campagneeigenschappen worden weergegeven bij het maken van een nieuwe campagne.
 
