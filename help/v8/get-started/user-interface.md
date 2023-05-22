@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: ad37bf6df203bde6eaf57d35c49534e75557ae6a
+source-git-commit: 39f59160e3def8f54c61cfab9f872bc692683aa3
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -246,15 +246,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Sjabloon voor pushmelding"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_properties"
->title="Eigenschappen voor het maken van campagnes"
->abstract="Definieer eigenschappen en metagegevens voor de campagne."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Tijdschema voor het maken van campagnes"
->abstract="Bepaal het programma voor de campagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -319,12 +310,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Kolomdefinitie"
->abstract="TBD"
+>abstract="Selecteer de kolommen die u uit het bestand wilt invoegen."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Parameters opmaken"
->abstract="TBD"
+>abstract="Definieer de opmaakparameters voor het bestand."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
@@ -394,25 +385,25 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Geavanceerde velden kenmerkkiezer"
->abstract="TBD"
+>abstract="Kolommen met geavanceerde velden configureren."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Geavanceerde velden voor regelbuilder"
->abstract="TBD"
+>abstract="Kolommen met geavanceerde velden configureren."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_properties"
 >title="Eigenschappen van SMS-berichten"
->abstract="TBD"
+>abstract="De eigenschappen voor SMS-levering beheren."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Eigenschappen voor punaise"
->abstract="TBD"
+>abstract="Beheer de eigenschappen voor de levering van de push."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Nieuwe metrische quarantines"
->abstract="TBD"
+>abstract="Nieuwe quarantaine-meting."
 
