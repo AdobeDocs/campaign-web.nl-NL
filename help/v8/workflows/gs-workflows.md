@@ -4,7 +4,7 @@ title: Aan de slag met workflows
 description: Leer hoe u begint met workflows
 badge: label="Alpha" type="Positief"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 9a4ca68d475cfbbcccb7a5b0d84f841589824288
+source-git-commit: dd006d1e161dec49d9a1a6bcb8cb67503178479b
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Hier volgen enkele voorbeelden van het gebruik van workflows met Adobe Campaign:
 
 ## Laten we dieper duiken
 
-Nu u weet welke workflows er zijn en wat u ermee kunt doen in Adobe Campaign, is het tijd om dieper in de documentatiegedeelten te duiken om met de functie te gaan werken.
+Nu u weet welke workflows er zijn en wat u ermee kunt doen in Adobe Campaign, is het tijd om dieper in deze documentatiegedeelten te duiken om met de functie te gaan werken.
 
 * Uw eerste workflow maken
 * Workflows ontwerpen
