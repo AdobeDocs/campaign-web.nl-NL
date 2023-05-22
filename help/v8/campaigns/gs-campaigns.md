@@ -4,10 +4,10 @@ title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Alpha" type="Positief"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6219abe62193e3947b9d18f1b3d3e89648f3aede
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 12%
+source-wordcount: '303'
+ht-degree: 11%
 
 ---
 
@@ -19,6 +19,14 @@ Ontwerp en voer e-mailcampagnes met een hoog volume uit om persoonlijke berichte
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Met de segmenteringsmogelijkheden van Adobe Campaign, kunt u vragen tegen een hoog-volumegegevensbestand in werking stellen, en gemakkelijk dynamische marketing segmenten bepalen die uw campagnes perfect richten.
 
 ## Een campagne voor meerdere kanalen maken {#cross-channel-campaign}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Werkstroomlijst"
+>abstract="Lijst met workflows die beschikbaar zijn voor uw campagne. Met de knop &#39;Workflow maken&#39; kunt u een workflow toevoegen aan uw campagne."
+
+
 
 In een cross-channel campagne wordt één marketingmededeling verzonden via verschillende kanalen. Data worden doorgegeven tussen de kanalen. De klant ontvangt een mededeling via meerdere kanalen die bijvoorbeeld op zijn of haar reactie op de vorige mededeling zijn gebaseerd.
 

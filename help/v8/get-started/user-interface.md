@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 679034d3ebae2120868ff5cd96ad2935302f86c6
+source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -342,10 +342,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Geaggregeerde rapportage voor leveringen"
 >abstract="Selecteer ten minste twee leveringen voor de weergave van een samengevoegd gegevensrapport."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="Werkstroomlijst"
->abstract="Lijst met workflows die beschikbaar zijn voor uw campagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
