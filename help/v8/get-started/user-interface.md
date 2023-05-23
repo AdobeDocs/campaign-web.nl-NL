@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
+source-git-commit: 9ec7870b54c08c86314c19693b783a0a0cfad937
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1527'
 ht-degree: 0%
 
 ---
@@ -302,20 +302,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Personalisatie"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_select"
->title="Bestandselectie"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_columns"
->title="Kolomdefinitie"
->abstract="Selecteer de kolommen die u uit het bestand wilt invoegen."
-
->[!CONTEXTUALHELP]
->id="acw_audience_fromfile_formatting"
->title="Parameters opmaken"
->abstract="Definieer de opmaakparameters voor het bestand."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
