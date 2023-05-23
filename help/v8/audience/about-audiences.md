@@ -4,10 +4,10 @@ title: Aan de slag met het publiek
 description: Leer hoe te om publiek in het Web UI van de Campagne te gebruiken
 badge: label="Alpha" type="Positief"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 74c2ef1376d4089968c984768ddbd63420ae2b22
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '138'
+ht-degree: 7%
 
 ---
 
@@ -46,7 +46,7 @@ Om het publiek te bepalen, kunt u:
 
 * Gebruik een bestaand publiek. [Meer informatie](add-audience.md)
 * Maak een nieuw publiek. [Meer informatie](segment-builder.md)
-* Importeer een publiek uit een bestand. [Meer informatie](import-audience.md)
+* Gebruik een publiek uit een extern bestand. [Meer informatie](file-audience.md)
 * Gebruik een Adobe Experience Platform-publiek. [Meer informatie](aep-audience.md)
 
 Bovendien kunt u controlegroepen bepalen vermijden verzendend berichten naar een gedeelte van uw publiek, en de invloed van uw campagnes meten. [Meer informatie](control-group.md)

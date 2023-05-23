@@ -5,7 +5,7 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 7f6da4222f789fb83e7c8074ef03ad121478b3f4
+source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 11%
@@ -63,7 +63,7 @@ ht-degree: 11%
    + [Aan de slag met het publiek](audience/about-audiences.md)
    + [Bestaande doelgroep selecteren](audience/add-audience.md)
    + [Creeer een publiek met de regelbouwer](audience/segment-builder.md)
-   + [Een publiek importeren](audience/import-audience.md)
+   + [Een publiek importeren](audience/file-audience.md)
    + [Een Adobe Experience Platform-publiek gebruiken](audience/aep-audience.md)
    + [Een controlegroep instellen](audience/control-group.md)
 + Kanaalcampagnes {#campaigns}
