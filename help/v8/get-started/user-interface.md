@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 9ec7870b54c08c86314c19693b783a0a0cfad937
+source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -273,11 +273,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Definieer de push-iOS-inhoud."
 
 >[!CONTEXTUALHELP]
->id="acw_deliveries_sms_content"
->title="SMS-inhoud"
->abstract="Definieer de content van de sms."
-
->[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="App-abonnees"
 >abstract="Geef een voorvertoning van het bericht weer en test het bericht door abonnees van de app aan het hoofddoel toe te voegen. "
@@ -368,11 +363,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_rulebuilder_advancedfields"
 >title="Geavanceerde velden voor regelbuilder"
 >abstract="Kolommen met geavanceerde velden configureren."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_properties"
->title="Eigenschappen van SMS-berichten"
->abstract="De eigenschappen voor SMS-levering beheren."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
