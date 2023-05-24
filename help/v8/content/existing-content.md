@@ -7,7 +7,7 @@ badge: label="Alpha" type="Positief"
 source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -30,6 +30,6 @@ Voer de volgende stappen uit om een bestand met HTML-inhoud te importeren:
 
 1. Sleep het HTML- of ZIP-bestand met de inhoud van uw HTML en klik op **[!UICONTROL Import]**.
 
-1. Zodra de HTML-inhoud is geüpload, kunt u de e-mailfuncties van E-mailontwerper gebruiken om uw e-mailadres te bewerken en er een voorvertoning van weer te geven. [Meer informatie in deze sectie](create-email-content.md).
+1. Zodra de HTML-inhoud is geüpload, kunt u de e-mailfuncties van E-mailontwerper gebruiken om uw e-mailadres te bewerken en er een voorvertoning van weer te geven. [Meer informatie in dit gedeelte](create-email-content.md).
 
    ![](assets/html-imported.png)
