@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+source-git-commit: 25082a853fb095c24d7c22d00310992ac4e97be9
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1535'
 ht-degree: 0%
 
 ---
@@ -86,12 +86,12 @@ Navtree view depends on permissions (same as console).
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campagnes"
->abstract="Dit is de lijst van uw campagnes. U kunt nuttige informatie zoals hun begin/eind/laatste wijzigingsdata, evenals hun status bekijken. U kunt de lijst filteren op status of begin-/einddatum. De sjablonen voor campagnes zijn ook beschikbaar. Deze lijsten zijn alleen-lezen."
+>abstract="Dit is de lijst van uw campagnes. U kunt nuttige informatie zoals hun begin/eind/laatste wijzigingsdata, evenals hun status bekijken. U kunt de lijst filteren op status of begin-/einddatum. Klik op de knop &#39;Campagne maken&#39; om een nieuwe campagne toe te voegen. Selecteer een campagne om de inhoud, leveringen en details ervan weer te geven. Blader naar het tabblad &#39;Sjablonen&#39; om sjablonen weer te geven en te maken."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Leveringen"
->abstract="Blader door de lijst met leveringen. U kunt hun staat, laatste wijzigingsdatum evenals zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-maillevering om het dashboard te openen. Andere items zijn alleen-lezen. Leveringssjablonen zijn ook beschikbaar."
+>abstract="Blader door de lijst met leveringen. U kunt hun status, contact en wijzigingsdata, zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op de knop Levering maken om een nieuwe levering toe te voegen. Selecteer een levering om de inhoud, het publiek en de details ervan weer te geven."
 
 * **Campagnes** - Dit is de lijst met uw campagnes. Standaard kunt u de begin- en einddatum en de laatste wijzigingsdatum en de status van de datums weergeven. U kunt de lijst filteren op status of begin-/einddatum. De sjablonen voor campagnes zijn ook beschikbaar. Deze lijsten zijn alleen-lezen.
 
