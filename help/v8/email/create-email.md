@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ In dit geval gebruikt u een vooraf gedefinieerde sjabloon om ons e-mailbericht t
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience"
 >title="De doelgroep definiëren"
->abstract="Selecteer het beste publiek voor uw marketingbericht. U kunt een bestaand publiek kiezen dat al is gedefinieerd in een Campagne v8-instantie of in Adobe Experience Platform, of u kunt een nieuw publiek maken met de functie voor het maken van regels."
+>abstract="Selecteer het beste publiek voor uw marketingbericht. U kunt een bestaand publiek kiezen dat al is gedefinieerd in een Campagne v8-instantie of in Adobe Experience Platform, of u kunt een nieuw publiek maken met de functie voor het maken van regels. Besturingsgroepen zijn niet ingeschakeld voor &#39;Selecteren uit bestand&#39; en andersom."
 
 In dit geval stuurt u de e-mail naar een bestaand publiek. Aanvullende instructies over het werken met het publiek zijn beschikbaar in [deze sectie](../audience/about-audiences.md).
 
