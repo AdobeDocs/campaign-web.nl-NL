@@ -4,9 +4,9 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe te met leveringen te werken en berichten met het Web van de Campagne te verzenden
 badge: label="Alpha" type="Positief"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
+source-git-commit: cd00fcf90283c99e4790789ab2375c3a1da0ce50
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '928'
 ht-degree: 1%
 
 ---
@@ -34,6 +34,9 @@ U kunt zelfstandige leveringen maken via de **[!UICONTROL Deliveries]** van het 
 Voer de volgende stappen uit om een zelfstandige levering te maken:
 
 1. Bladeren naar de **[!UICONTROL Deliveries]** en klik op de knop **[!UICONTROL Create delivery]** knop.
+
+   ![](assets/create-a-delivery.png)
+
 1. Kies een kanaal voor de levering. Meer informatie over leveringskanalen en hoe u in deze secties leveringsinhoud kunt definiëren:
 
    * [E-mailkanaal](../email/create-email.md)
@@ -108,3 +111,21 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u deze voorvertonen om de w
 ## Logbestanden voor aflevering en bijhouden{#gs-tracking-logs}
 
 Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke stap om ervoor te zorgen dat uw marketingcampagnes efficiënt zijn en uw klanten bereiken. U kunt controleren na het verzenden van een levering, evenals begrijpen hoe de leveringsmislukkingen en quarantines worden beheerd.
+
+## Een levering dupliceren{#delivery-duplicate}
+
+U kunt een kopie van een bestaande levering maken, vanuit de leveringslijst of vanaf het bezorgdashboard.
+
+Voer de volgende stappen uit om een levering te dupliceren uit de lijst met leveringen:
+
+1. Klik op de drie puntenknop rechts naast de naam van de levering die u wilt dupliceren.
+1. Selecteer  **[!UICONTROL Duplicate]**.
+1. Herhaling bevestigen: het nieuwe leveringsdashboard opent in het centrale scherm.
+
+
+Voer de volgende stappen uit om een levering te dupliceren vanaf het dashboard:
+
+1. Open de levering en klik op de knop  **[!UICONTROL ...More]** op de bovenste sectie van het scherm.
+1. Selecteer  **[!UICONTROL Duplicate]**.
+1. Herhaling bevestigen: de nieuwe levering vervangt de huidige levering in het centrale scherm.
+
