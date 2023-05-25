@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: a1e515b1a70e8959755cace78a6999e973564153
+source-git-commit: cd1bf4a134e302ea928f0c1ae4ef6b06a98ee6f2
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1598'
 ht-degree: 0%
 
 ---
@@ -95,15 +95,15 @@ Navtree view depends on permissions (same as console).
 
 In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, leveringen en workflows.
 
-* **Campagnes** - Dit is de lijst van uw campagnes, en campagnemalplaatjes. Standaard kunt u voor elke campagne de begin-/einddatum/aanmaakdatum/laatste wijzigingsdatum, de huidige status en de naam weergeven van de Campagneoperator die de campagne heeft gemaakt. U kunt de lijst filteren op status, begin-/einddatums, map of een geavanceerd filter maken om uw eigen filtercriteria te definiëren.
+* **Campagnes** - Dit is de lijst van uw campagnes, en campagnemalplaatjes. Standaard kunt u voor elke campagne de begin-/einddatum/aanmaakdatum/laatste wijzigingsdatum, de huidige status en de naam weergeven van de Campagneoperator die de campagne heeft gemaakt. U kunt de lijst filteren op status, begin-/einddatums, map of een geavanceerd filter maken om uw eigen filtercriteria te definiëren. Meer informatie over campagnes [in deze sectie](../campaigns/gs-campaigns.md).
 
-* **Leveringen** - Blader door de lijst met leveringen. Door gebrek, kunt u hun staat, laatste wijzigingsdatum evenals zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-maillevering om het dashboard te openen voor een overzicht van de leveringsgegevens. Leveringen op andere kanalen zijn alleen-lezen. De leveringsmalplaatjes zijn ook beschikbaar in read-only wijze. U kunt de clientconsole gebruiken om ze te bewerken. Zie dit [documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+* **Leveringen** - Blader door de lijst met leveringen. Door gebrek, kunt u hun staat, laatste wijzigingsdatum evenals zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-maillevering om het dashboard te openen voor een overzicht van de leveringsgegevens. Leveringen op andere kanalen zijn alleen-lezen. Meer informatie over leveringen [in deze sectie](../email/gs-messages.md).
 
    Gebruik de **Meer handelingen** om een levering te verwijderen of te dupliceren.
 
    ![](assets/more-actions.png){width="70%" align="left"}
 
-* **Workflows** - In dit scherm hebt u toegang tot de volledige lijst met workflows en workflowsjablonen. U kunt hun status, de laatste/volgende uitvoeringsdata controleren en een nieuwe werkstroom of een nieuw werkschemamalplaatje creëren. U kunt de lijst filteren met dezelfde criteria als voor andere objecten. Bovendien kunt u workflows filteren die wel of niet tot een campagne behoren.
+* **Workflows** - In dit scherm hebt u toegang tot de volledige lijst met workflows en workflowsjablonen. U kunt hun status, de laatste/volgende uitvoeringsdata controleren en een nieuwe werkstroom of een nieuw werkschemamalplaatje creëren. U kunt de lijst filteren met dezelfde criteria als voor andere objecten. Bovendien kunt u workflows filteren die wel of niet tot een campagne behoren. Meer informatie over workflows [in deze sectie](../workflows/gs-workflows.md).
 
 
 ### Klantenbeheer
@@ -126,7 +126,6 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 * **Ontvangers** - Open de ontvangende database. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Deze lijst is alleen-lezen.
 * **Soorten publiek** - Dit is uw lijst met doelgroepen. Standaard kunt u het type, de oorsprong, de datum en het label van de wijziging bekijken. U kunt de lijst filteren op oorsprong. Deze lijst is alleen-lezen.
 * **Abonnementenlijsten** - Blader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Deze lijst is alleen-lezen.
-* **Workflows voorbereiden** - Ga naar uw lijst met campagneworkflows. Standaard kunt u de status, de laatste/volgende verwerkingsdatum en de omgeving van de datums bekijken. U kunt de lijst filteren op status, datum van laatste verwerking en type workflow. Workflowsjablonen zijn ook beschikbaar. Deze lijsten zijn alleen-lezen.
 
 ### Beslissingsbeheer
 
