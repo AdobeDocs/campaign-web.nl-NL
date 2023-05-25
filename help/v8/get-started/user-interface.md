@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: e3a2c67ceb2be7e1a5735aff6f59f4fb902750bd
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Global report not alpha
 >title="Verkenner"
 >abstract="De **Verkenner** wordt dezelfde maphiërarchie weergegeven als in de clientconsole. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8. Alle lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen."
 
-De **Verkenner** wordt dezelfde maphiërarchie weergegeven als in de clientconsole. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8. Alle lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen.
+De **Verkenner** wordt dezelfde maphiërarchie weergegeven als in de clientconsole. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8.
 
 De items die in de Verkenner worden weergegeven, zijn afhankelijk van uw gebruikersmachtigingen.
 
@@ -93,13 +93,18 @@ Navtree view depends on permissions (same as console).
 >title="Leveringen"
 >abstract="Blader door de lijst met leveringen. U kunt hun status, contact en wijzigingsdata, zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op de knop Levering maken om een nieuwe levering toe te voegen. Selecteer een levering om de inhoud, het publiek en de details ervan weer te geven."
 
-* **Campagnes** - Dit is de lijst met uw campagnes. Standaard kunt u de begin- en einddatum en de laatste wijzigingsdatum en de status van de datums weergeven. U kunt de lijst filteren op status of begin-/einddatum. De sjablonen voor campagnes zijn ook beschikbaar. Deze lijsten zijn alleen-lezen.
+In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, leveringen en workflows.
+
+* **Campagnes** - Dit is de lijst van uw campagnes, en campagnemalplaatjes. Standaard kunt u voor elke campagne de begin-/einddatum/aanmaakdatum/laatste wijzigingsdatum, de huidige status en de naam weergeven van de Campagneoperator die de campagne heeft gemaakt. U kunt de lijst filteren op status, begin-/einddatums, map of een geavanceerd filter maken om uw eigen filtercriteria te definiëren.
 
 * **Leveringen** - Blader door de lijst met leveringen. Door gebrek, kunt u hun staat, laatste wijzigingsdatum evenals zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-maillevering om het dashboard te openen voor een overzicht van de leveringsgegevens. Leveringen op andere kanalen zijn alleen-lezen. De leveringsmalplaatjes zijn ook beschikbaar in read-only wijze. U kunt de clientconsole gebruiken om ze te bewerken. Zie dit [documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
 
    Gebruik de **Meer handelingen** om een levering te verwijderen of te dupliceren.
 
    ![](assets/more-actions.png){width="70%" align="left"}
+
+* **Workflows** - In dit scherm hebt u toegang tot de volledige lijst met workflows en workflowsjablonen. U kunt hun status, de laatste/volgende uitvoeringsdata controleren en een nieuwe werkstroom of een nieuw werkschemamalplaatje creëren. U kunt de lijst filteren met dezelfde criteria als voor andere objecten. Bovendien kunt u workflows filteren die wel of niet tot een campagne behoren.
+
 
 ### Klantenbeheer
 

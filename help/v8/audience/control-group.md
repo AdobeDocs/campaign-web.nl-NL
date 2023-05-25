@@ -4,9 +4,9 @@ title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het Web UI van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '589'
 ht-degree: 26%
 
 ---
@@ -29,6 +29,11 @@ Alle profielen die deel uitmaken van de controlegroep bij de voorbereidingsstap 
 Om een controlegroep tot stand te brengen, klik **[!UICONTROL Set Control Group]** van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking.
 
 ![](assets/control-group1.png)
+
+>[!CAUTION]
+>
+>U kunt geen controlegroepen gebruiken wanneer het laden van de doelpopulatie [van een extern bestand](file-audience.md).
+
 
 ## Extraheren uit doel {#extract-target}
 

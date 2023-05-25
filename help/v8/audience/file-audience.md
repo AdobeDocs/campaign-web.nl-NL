@@ -4,9 +4,9 @@ title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 badge: label="Alpha" type="Positief"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 231d117247462645fe2b72f324486c4ea9122faf
+source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,10 @@ Voer de volgende stappen uit als u profielen rechtstreeks vanuit de interface wi
 Wanneer u de inhoud van het bericht maakt en aanpast, kunt u velden uit het invoerbestand selecteren in de Persoonlijke editor.
 
 ![](assets/select-external-perso.png)
+
+>[!CAUTION]
+>
+>U kunt niet [controlegroepen](control-group.md) bij het laden van de doelpopulatie uit een extern bestand.
 
 ## Voorbeeldbestand {#sample-file}
 
