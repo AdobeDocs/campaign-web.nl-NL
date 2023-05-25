@@ -4,10 +4,10 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe te met leveringen te werken en berichten met het Web van de Campagne te verzenden
 badge: label="Alpha" type="Positief"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 14e9ef2a45a1c7a2c8e089c536abd950cdb1b0a3
+source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 0%
+source-wordcount: '593'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen:
 
 ## Een levering maken
 
-U kunt zelfstandige leveringen maken via de **Aflevering** hoofdmenu, of leveranties maken in het kader van een marketingcampagne.
+U kunt zelfstandige leveringen maken via de **Leveringen** van het linkermenu, of creeer leveringen in het kader van een marketing campagne, van **Campagnes** links.
 
 >[!BEGINTABS]
 
@@ -54,6 +54,16 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
 Voer de volgende stappen uit om een levering in een campagne te maken:
 
 1. Maak een campagne of open een bestaande campagne.
+1. Maak een workflow of open een bestaande workflow.
+1. Een **publiek opbouwen** en klik op de knop `+`knop.
+   ![](assets/add-delivery-in-wf.png)
+1. Selecteer een leveringsactiviteit: E-mail, SMS, pushmelding (Android) of pushmelding (iOS). Meer informatie over leveringskanalen en hoe u in deze secties leveringsinhoud kunt definiëren:
+
+   * [E-mailkanaal](../email/create-email.md)
+   * [Push-meldingskanaal](../push/gs-push.md)
+   * [Sms-kanaal](../sms/create-sms.md)
+
+1. Start de workflow en controleer logbestanden.
 
 Voor meer informatie over hoe te om een campagne te vormen,
 
