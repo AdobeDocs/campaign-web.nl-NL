@@ -4,9 +4,9 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe te met leveringen te werken en berichten met het Web van de Campagne te verzenden
 badge: label="Alpha" type="Positief"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 9f9b5b9ce08aa50986c75f1dd3afba8e2bc4f700
+source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '827'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,9 @@ Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen:
 
 * **Mobiel toepassingskanaal**: Met levering voor mobiele apps kunt u meldingen verzenden naar iOS- en Android-systemen.  Meer informatie over het maken en verzenden van pushmeldingen in [deze pagina](../push/gs-push.md).
 
-## Een levering maken
+## Een levering maken {#create-delivery}
 
-U kunt zelfstandige leveringen maken via de **Leveringen** van het linkermenu, of creeer leveringen in het kader van een marketing campagne, van **Campagnes** links.
+U kunt zelfstandige leveringen maken via de **[!UICONTROL Deliveries]** van het linkermenu, of creeer leveringen in het kader van een marketing campagne, van **[!UICONTROL Campaigns]** links.
 
 >[!BEGINTABS]
 
@@ -47,45 +47,62 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
 1. Gebruik de  **[!UICONTROL Simulate content]** om uw levering, en verpersoonlijkingsmontages te testen. Meer informatie over berichtsimulatie vindt u in [deze sectie](../preview-test/preview-test.md).
 1. Klik op de knop  **[!UICONTROL Prepare]** om de doelpopulatie te berekenen en de berichten te genereren. De voorbereidingsstap kan een paar minuten duren. Wanneer de voorbereiding volledig is, zijn de berichten klaar om te verzenden. Blader in het geval van een fout naar de **Logboeken** om waarschuwingen en waarschuwingen te controleren.
 1. Controleer de resultaten en klik op de knop  **[!UICONTROL Send]** om te beginnen met het verzenden van berichten.
-1. Wanneer berichten zijn verzonden, bladert u naar de sectie Rapporten om toegang te krijgen tot de belangrijkste gegevens. Meer informatie over leveringsrapporten vindt u in [deze sectie](../reporting/reports.md).
+1. Blader naar de **Rapporten** voor toegang tot belangrijke metriek. Meer informatie over leveringsrapporten vindt u in [deze sectie](../reporting/reports.md).
 
 >[!TAB Een levering maken in een campagne]
 
 Voer de volgende stappen uit om een levering in een campagne te maken:
 
-1. Maak een campagne of open een bestaande campagne.
+1. Maak een campagne of open een bestaande campagne. Meer informatie over [marketingcampagnes](../campaigns/gs-campaigns.md).
 1. Maak een workflow of open een bestaande workflow.
-1. Een **publiek opbouwen** en klik op de knop `+`knop.
+1. Een **[!UICONTROL Build audience]** en klik op de knop `+`knop.
+
    ![](assets/add-delivery-in-wf.png)
-1. Selecteer een leveringsactiviteit: E-mail, SMS, pushmelding (Android) of pushmelding (iOS). Meer informatie over leveringskanalen en hoe u in deze secties leveringsinhoud kunt definiëren:
 
-   * [E-mailkanaal](../email/create-email.md)
-   * [Push-meldingskanaal](../push/gs-push.md)
-   * [Sms-kanaal](../sms/create-sms.md)
+   De **[!UICONTROL Build audience]** activiteit wordt nader omschreven in [deze sectie](../workflows/targeting-activities.md).
 
+1. Selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van het leveringskanaal in een workflow en hoe u in deze [sectie](../workflows/channel-activities.md).
 1. Start de workflow en controleer logbestanden.
 
-Voor meer informatie over hoe te om een campagne te vormen,
+U kunt ook leveringen in een campagne toevoegen zonder een workflow te maken. Om dit te bereiken, doorblader aan **[!UICONTROL Deliveries]** tabblad van uw campagne en klik op de knop **[!UICONTROL Create delivery]** knop.
+
+![](assets/new-campaign-delivery.png)
+
+De stappen van de configuratie zijn gelijkaardig zoals voor standalone leveringen.
+
+Voor meer informatie over hoe te om een campagne te vormen en leveringen te beheren die tot een campagne behoren, verwijs naar [deze sectie](../campaigns/gs-campaigns.md).
 
 >[!ENDTABS]
 
 
-## Geef op hoe berichten moeten worden verzonden{#gs-send-msg}
-
-Nadat u het bericht hebt gemaakt en de inhoud ervan hebt ontworpen en getest, kunt u kiezen hoe u het bericht wilt verzenden.
-
-De campagne biedt een reeks mogelijkheden aan:
-
-* Handmatig berichten verzenden naar het hoofddoel
-
-* Berichten verzenden die zijn gekoppeld aan een [marketingcampagne](../campaigns/gs-campaigns.md)
-
-* Berichten verzenden via een [werkstroom](../workflows/channel-activities.md)
-
-
 ## Aanpassing toevoegen{#personalization}
 
-Berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd
+Berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. [Meer informatie over personalisatiemogelijkheden](../personalization/personalize.md).
+
+Met Campagne kunt u dynamische inhoud maken en persoonlijke berichten verzenden. U kunt aanpassingsmogelijkheden combineren om uw berichten te verbeteren en een aangepaste gebruikerservaring te creëren.
+
+U kunt de inhoud van het bericht aanpassen door:
+
+* Dynamisch invoegen **personalisatievelden**
+
+   De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering, kunt u om het even welk gebied selecteren met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. [Meer informatie](../personalization/personalize.md)
+
+* Vooraf gedefinieerde invoegen **inhoudsblokken**
+
+   De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de personalisatie-editor. [Meer informatie](../personalization/personalize.md#ootb-content-blocks)
+
+* Maken **voorwaardelijke inhoud**
+
+   Configureer voorwaardelijke inhoud om bijvoorbeeld dynamische personalisatie toe te voegen op basis van het profiel van de ontvanger. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is. [Meer informatie](../personalization/conditions.md)
+
+* Toevoegen **persoonlijke aanbiedingen**
+
+   Voeg persoonlijke aanbiedingen in uw berichtinhoud in, afhankelijk van de locatie van de ontvanger, het huidige weer of de laatste kooporder.
+
+
+## Bekijk uw leveringen en test deze
+
+Nadat de inhoud van uw bericht is gedefinieerd, kunt u deze voorvertonen om de weergave van uw berichten te bepalen en de instellingen voor de personalisatie te controleren met testprofielen. [Meer informatie](preview.md)
 
 
 ## Logbestanden voor aflevering en bijhouden{#gs-tracking-logs}
