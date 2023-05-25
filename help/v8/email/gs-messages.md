@@ -4,7 +4,7 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe te met leveringen te werken en berichten met het Web van de Campagne te verzenden
 badge: label="Alpha" type="Positief"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: c5a0103cc630e3ec44747211977988145cb75a25
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 1%
@@ -102,7 +102,7 @@ U kunt de inhoud van het bericht aanpassen door:
 
 ## Bekijk uw leveringen en test deze
 
-Nadat de inhoud van uw bericht is gedefinieerd, kunt u deze voorvertonen om de weergave van uw berichten te bepalen en de instellingen voor de personalisatie te controleren met testprofielen. [Meer informatie](preview.md)
+Nadat de inhoud van uw bericht is gedefinieerd, kunt u deze voorvertonen om de weergave van uw berichten te bepalen en de instellingen voor de personalisatie te controleren met testprofielen. [Meer informatie](../preview-test/preview-test.md)
 
 
 ## Logbestanden voor aflevering en bijhouden{#gs-tracking-logs}
