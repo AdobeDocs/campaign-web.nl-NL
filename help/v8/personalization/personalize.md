@@ -7,15 +7,19 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positief"
-source-git-commit: 048f754005744bcab5b64f265e9e9cdf9776dca8
+source-git-commit: 48d5684201f006add0ceb467129dbbcf98465c5b
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
 
 
 # Uw inhoud aanpassen{#add-personalization}
+
+Om optimaal te profiteren van elke marketingcampagne, biedt Adobe Campaign u een manier om aangepaste inhoud te leveren die klanten op hun niveau spreekt. Op basis van profielgegevens kunt u personalisatiefuncties gebruiken om een aangepaste ervaring voor verschillende groepen en personen te maken: u kunt uw berichten aan elke specifieke ontvanger aanpassen door de gegevens en de informatie leveraging u over hen hebt. Het kan hun voornaam zijn, belangen, waar ze wonen, wat ze hebben gekocht, en nog veel meer.
+
+Met Campagne kunt u dynamische inhoud maken en persoonlijke berichten verzenden. U kunt aanpassingsmogelijkheden combineren om uw berichten te verbeteren en een aangepaste gebruikerservaring te creëren.
 
 U kunt de inhoud van het bericht aanpassen door:
 
@@ -29,26 +33,27 @@ U kunt de inhoud van het bericht aanpassen door:
 
 * Vooraf gedefinieerde invoegen **inhoudsblokken**
 
-   De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de personalisatie-editor.
+   De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van een e-mailbericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de verpersoonlijkingseditor.
 
    ![](assets/perso-content-blocks.png)
 
 * Maken **voorwaardelijke inhoud**
 
-   Configureer voorwaardelijke inhoud om bijvoorbeeld dynamische personalisatie toe te voegen op basis van het profiel van de ontvanger. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is.
+   Configureer voorwaardelijke inhoud om bijvoorbeeld dynamische personalisatie toe te voegen op basis van het profiel van de ontvanger. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is. U kunt de alternatieve versie van de inhoud definiëren als de voorwaarde niet true is.
 
 
-## De onderwerpregel van de e-mail aanpassen {#personalize-subject-line}
+## De onderwerpregel van een bericht aanpassen {#personalize-subject-line}
 
 Om verpersoonlijking in toe te voegen **[!UICONTROL Subject line]** Voer in het veld van het bericht de onderstaande stappen uit:
 
-1. Klik op de knop **[!UICONTROL Open personalization dialog]** pictogram rechts van **[!UICONTROL Subject line]** veld.
+1. Open een levering en klik op **[!UICONTROL Edit content]**.
+1. Klik op de knop **[!UICONTROL Open personalization dialog]** pictogram rechts van **[!UICONTROL Subject line]** veld voor e-mailberichten, of de **[!UICONTROL Title]** velden voor push/SMS-leveringen.
 
    ![](assets/perso-subject.png){width="600"}
 
-1. Voer de inhoud van de onderwerpregel in en selecteer de personalisatiekenmerken die u wilt toevoegen.
+1. Voer de onderwerpregel of titel in en selecteer de personalisatiekenmerken die u wilt toevoegen.
 
-1. Klikken **[!UICONTROL Confirm]**** om te valideren. De personalisatiekenmerken worden toegevoegd aan de onderwerpregel.
+1. Klikken **[!UICONTROL Confirm]** om te valideren. De personalisatiekenmerken worden toegevoegd aan de inhoud.
 
 ## Uw e-mailinhoud aanpassen {#personalize-emails}
 
