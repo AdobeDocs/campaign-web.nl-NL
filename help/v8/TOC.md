@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: b75c5a86f18d3750de203ea1a24b51d697946d94
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '284'
 ht-degree: 12%
 
 ---
@@ -86,5 +86,7 @@ ht-degree: 12%
       + [Doelactiviteiten](workflows/targeting-activities.md)
       + [Kanaalactiviteiten](workflows/channel-activities.md)
       + [Data-managementactiviteiten](workflows/data-management-activities.md)
-+ [Rapportage](reporting/reports.md)
++ Rapportage {#reports}
+   + [Aan de slag met rapporten](reporting/gs-reports.md)
+   + [Toegang tot leveringsrapporten](reporting/delivery-reports.md)
 

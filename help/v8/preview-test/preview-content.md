@@ -4,9 +4,9 @@ title: E-mailinhoud voorvertonen
 description: Leer hoe u uw e-mailinhoud kunt voorvertonen met de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,6 @@ ht-degree: 0%
 
 # E-mailinhoud voorvertonen {#preview}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Slimme voorvertoning van uw inhoud"
->abstract="Gebruik profielgegevens om een voorvertoning van de inhoud van uw e-mail te bekijken voordat u deze verzendt, om personalisatiekenmerken te beheren en om te controleren hoe de ontvangers de inhoud van het bericht kunnen zien."
 
 Gebruik de mogelijkheid om inhoud te simuleren in Adobe Campaign om een voorbeeld van de inhoud van uw e-mail te bekijken voordat u deze verzendt, om de personalisatie te beheren en te controleren hoe deze wordt weergegeven aan uw ontvangers.
 
