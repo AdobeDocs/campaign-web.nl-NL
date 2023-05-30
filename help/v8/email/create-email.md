@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positief"
-source-git-commit: 6322e9cd45b9158c207415d662670becab2c3332
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '1251'
+source-wordcount: '1276'
 ht-degree: 1%
 
 ---
@@ -14,13 +14,18 @@ ht-degree: 1%
 
 # Uw eerste e-mail verzenden {#first-email}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card3"
+>title="Uw eerste e-mail verzenden met Adobe Campaign"
+>abstract="Leer hoe u met de e-mailontwerper uw inhoud kunt maken, deze kunt voorvertonen en testen en een e-mail naar een bestaand publiek kunt sturen in een gebruiksscenario van begin tot eind."
+
 Leer hoe u uw eerste e-mailadres maakt waarvoor u een e-mail wilt schrijven. In dit geval plant u het verzenden van een e-mail naar leden van Silver en Gold-loyaliteit op een bepaalde datum.
 
 Op basis van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepersonaliseerde inhoud op basis van de kenmerken van het klantprofiel.
 
 ![](assets/delivery-list.png)
 
-## E-mail maken {#create-email}
+## E-maillevering maken {#create-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_template_selection"
@@ -32,7 +37,9 @@ Op basis van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepers
 >title="E-maileigenschappen"
 >abstract="De eigenschappen zijn de gemeenschappelijke leveringsparameters die u helpen om uw levering te noemen en te classificeren. Als uw levering is gebaseerd op een uitgebreid schema dat is gedefinieerd in de Adobe Campaign v8-console, zijn er enkele specifieke **Aangepaste opties** zijn beschikbaar."
 
-1. Blader naar de **[!UICONTROL Deliveries]** op de linkerspoorstaaf en klik op  **[!UICONTROL Create delivery]** knop.
+Ga als volgt te werk om een nieuwe levering te maken:
+
+1. Bladeren naar de **[!UICONTROL Deliveries]** op de linkerspoorstaaf en klik op  **[!UICONTROL Create delivery]** knop.
 
 1. Selecteren **[!UICONTROL Email]** als het kanaal en kies een sjabloon.
 
@@ -60,11 +67,6 @@ Op basis van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepers
    Bovendien, kunnen de geavanceerde montages, zoals typologieregels en doelafbeeldingen, worden betreden door de knoop te klikken die naast de leveringsnaam wordt gevestigd. Deze instellingen zijn vooraf geconfigureerd in de geselecteerde sjabloon, maar kunnen zo nodig worden bewerkt voor deze specifieke e-mail.
 
 ## E-mailinhoud maken {#create-content}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Leer hoe u uw e-mailinhoud ontwerpt"
->abstract="Leer hoe u de e-mailontwerper gebruikt."
 
 Gedetailleerde instructies over het configureren van de e-mailinhoud zijn beschikbaar in [deze sectie](../content/edit-content.md).
 

@@ -4,16 +4,21 @@ title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Alpha" type="Positief"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 96b4159890c1cc03e85cb93843606e810b630930
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 11%
+source-wordcount: '340'
+ht-degree: 10%
 
 ---
 
 # Aan de slag met campagnes {#campaigns}
 
-Gebruik Adobe Campaign om kanaalcampagnes te maken. Met zijn marketing campagneorchestratiemogelijkheden, kunt u klantengegevens beheren en centraliseren, klantenmededelingen en campagnes ontwerpen, om gepersonaliseerde ervaringen over verschillende kanalen tot stand te brengen. Er zijn e-mail-, push- en SMS-kanalen beschikbaar.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Kanaaloverschrijdende campagnes ontwerpen en verzenden"
+>abstract="Met zijn marketing campagneorchestratiemogelijkheden, kunt u klantengegevens beheren en centraliseren, klantenmededelingen en campagnes ontwerpen, en gepersonaliseerde ervaringen over verschillende kanalen tot stand brengen. Er zijn e-mail-, push- en SMS-kanalen beschikbaar."
+
+Gebruik Adobe Campaign om kanaalcampagnes te maken. Met zijn marketing campagneorchestratiemogelijkheden, kunt u klantengegevens beheren en centraliseren, klantenmededelingen en campagnes ontwerpen, en gepersonaliseerde ervaringen over verschillende kanalen tot stand brengen. Er zijn e-mail-, push- en SMS-kanalen beschikbaar.
 
 Ontwerp en voer e-mailcampagnes met een hoog volume uit om persoonlijke berichten voor alle platforms en schermgrootten te leveren.
 <!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Met de segmenteringsmogelijkheden van Adobe Campaign, kunt u vragen tegen een hoog-volumegegevensbestand in werking stellen, en gemakkelijk dynamische marketing segmenten bepalen die uw campagnes perfect richten.
@@ -25,8 +30,6 @@ Ontwerp en voer e-mailcampagnes met een hoog volume uit om persoonlijke berichte
 >id="acw_campaign_creation_workflow"
 >title="Werkstroomlijst"
 >abstract="Lijst met workflows die beschikbaar zijn voor uw campagne. Met de knop &#39;Workflow maken&#39; kunt u een workflow toevoegen aan uw campagne."
-
-
 
 In een cross-channel campagne wordt één marketingmededeling verzonden via verschillende kanalen. Data worden doorgegeven tussen de kanalen. De klant ontvangt een mededeling via meerdere kanalen die bijvoorbeeld op zijn of haar reactie op de vorige mededeling zijn gebaseerd.
 
