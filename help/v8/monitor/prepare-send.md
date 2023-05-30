@@ -4,20 +4,16 @@ title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 3%
+source-wordcount: '635'
+ht-degree: 4%
 
 ---
 
 
 # Uw e-mail voorbereiden en verzenden {#prepare-send}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Uw e-mail voorbereiden en verzenden"
->abstract="Ontdek hoe u uw e-mail kunt voorbereiden en meer kunt leren over het verzenden van KPI&#39;s."
 
 <!--
 
