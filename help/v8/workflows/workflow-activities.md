@@ -4,9 +4,9 @@ title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
 badge: label="Alpha" type="Positief"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
+source-git-commit: 7aab2145b861d411053d9490003d1dcafd3c025b
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '904'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,12 @@ Om een bestaand publiek te selecteren,
 ### Combineren {#combine}
 
 De **Combineren** activiteit kan na enige andere activiteit worden geplaatst, maar niet aan het begin van het werkschema. Elke activiteit kan na de **Combineren**.
+
+Unie: Hiermee kunt u het resultaat van verschillende activiteiten groeperen in één doel. Zie de sectie Unie.
+
+Doorsnede: laat u slechts de bevolking met de zelfde binnenkomende activiteitenresultaten halen
+
+Uitsluiting: Hiermee kunt u een doel maken op basis van een hoofddoel waaruit een of meer andere doelen worden gehaald.
 
 ### Verrijking {#enrichment}
 
