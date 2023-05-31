@@ -4,9 +4,9 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 3730c628fe2d0d04332f1d0eb7d2b69f60682cab
+source-git-commit: b47e64fc876b38c7ce59690b7a1ce162eee89cbf
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -21,27 +21,12 @@ ht-degree: 0%
 
 ## De workflow maken {#create-workflow}
 
-De eerste stap om uw werkschema in Campagne v8 Web tot stand te brengen is het of als standalone werkschema of direct binnen een campagne te creëren, en zijn eigenschappen te bepalen.
+De eerste stap om uw werkschema in Campagne v8 Web tot stand te brengen is het of als standalone werkschema of direct binnen een campagne te creëren en zijn algemene eigenschappen te bepalen. Voer hiertoe de volgende stappen uit:
 
-Voer hiertoe de volgende stappen uit:
+1. Begin door te beslissen of u een standalone werkschema wilt tot stand brengen of het direct binnen een campagne integreren:
 
-1. Begin door te beslissen of u een standalone werkschema wilt tot stand brengen of het direct binnen een campagne wilt integreren.
-
->[!BEGINTABS]
-
->[!TAB Een zelfstandige workflow maken]
-
-Navigeer naar het menu Worklows en klik op de knop Create workflow in de rechterbovenhoek.
-
-![](assets/workflow-create-standalone.png)
-
->[!TAB Een campagneworkflow maken]
-
-Navigeer naar het menu Campagnes en open de campagne waar u een nieuwe workflow wilt maken. Klik op de knop Workflow maken in de rechterbovenhoek van het tabblad Workflows.
-
-![](assets/workflow-create-campaign.png)
-
->[!ENDTABS]
+   * **Zelfstandige workflow**: Navigeer naar het menu Worklows en klik op de knop Create workflow in de rechterbovenhoek.
+   * **Workflow voor campagnes:** Navigeer naar het menu Campagnes en open de campagne waar u een nieuwe workflow wilt maken. Klik op de knop Workflow maken in de rechterbovenhoek van het tabblad Workflows.
 
 1. Het dialoogvenster Eigenschappen van workflow wordt geopend. Selecteer de sjabloon die u wilt gebruiken voor het maken van de workflow en geef een naam op voor de sjabloon.
 
@@ -61,15 +46,13 @@ Als uw workflow is gemaakt, kunt u nu beginnen met het orchestreren van de versc
 
 ## Workflowactiviteiten ordenen {#build}
 
-Zodra u [een workflow hebben gemaakt](create-workflow.md)Of u nu het workflowmenu of een campagne gebruikt, u kunt de verschillende taken die het uitvoert gaan ordenen.
-
-Hiervoor wordt een visueel canvas verschaft, zodat u een workflowdiagram kunt maken. Binnen dit diagram, kunt u diverse activiteiten toevoegen en hen in een opeenvolgende orde verbinden.
+Zodra u [een workflow hebben gemaakt](create-workflow.md)Of u nu het workflowmenu of een campagne gebruikt, u kunt de verschillende taken die het uitvoert gaan ordenen. Hiervoor wordt een visueel canvas verschaft, zodat u een workflowdiagram kunt maken. Binnen dit diagram, kunt u diverse activiteiten toevoegen en hen in een opeenvolgende orde verbinden.
 
 In dit stadium van de configuratie, wordt het diagram getoond met een beginpictogram, dat het begin van uw werkschema vertegenwoordigt. Als u de eerste activiteit wilt toevoegen, klikt u op de knop + die is verbonden met het startpictogram.
 
-![](assets/workflow-start.png)
+Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten zijn afhankelijk van uw positie binnen het werkstroomdiagram. Wanneer u bijvoorbeeld uw eerste activiteit toevoegt, kunt u de workflow starten door zich te richten op een publiek, het workflowpad te splitsen of een wachtactiviteit in te stellen om de uitvoering van de workflow uit te stellen. Anderzijds, na een het publieksactiviteit van de Bouwstijl, kunt u uw doel met het richten van activiteiten verfijnen, een levering naar uw publiek met kanaalactiviteiten verzenden, of het werkschemaproces met debietcontroleactiviteiten organiseren.
 
-Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten zijn afhankelijk van uw positie binnen het werkstroomdiagram. Wanneer u bijvoorbeeld uw eerste activiteit toevoegt, kunt u de workflow starten door zich te richten op een publiek, het workflowpad te splitsen of een wachtactiviteit in te stellen om de uitvoering van de workflow uit te stellen. Anderzijds, als wanneer het toevoegen van een activiteit na een het publieksactiviteit van de Bouwstijl, kunt u uw doel met het richten van activiteiten verfijnen, een levering naar uw publiek met kanaalactiviteiten verzenden, of het werkschemaproces met de activiteiten van de stroomcontrole organiseren.
+![](assets/workflow-start.png)
 
 Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, toestaand u om de onlangs toegevoegde activiteit met specifieke montages te vormen. Gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [deze sectie](workflow-activities.md).
 
