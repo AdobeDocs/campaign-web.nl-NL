@@ -4,9 +4,9 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: ad5a995563c3192a73e1658878eeb58ce55fc24c
+source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -32,6 +32,9 @@ instellingen definiëren die beschikbaar zijn via de knop in het werkstroomcanva
 * Interne naam
 * Map
 * Gekoppelde campagne > kan deze wijzigen. Als dat het geval is, verdwijnt de workflow uit de huidige campagne en wordt deze weergegeven in de nieuwe gekoppelde campagne
+
+   Wanneer u een workflow binnen een campagne maakt, vindt u een extra veld Campagne waarmee u de campagne die aan de workflow is gekoppeld gemakkelijk kunt identificeren en openen.
+
 * Tijdzone: een specifieke tijdzone definiëren die standaard in alle activiteiten van de workflow moet worden gebruikt. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
 * Supervisor: Wanneer een workflow een fout bevat, worden de operatoren die tot de groep voor workflowtoezicht behoren, via e-mail op de hoogte gebracht, zolang hun e-mailadres in hun profiel wordt vermeld. Deze groep is geselecteerd in het dialoogvenster **[!UICONTROL Supervisor(s)]** veld van de workfloweigenschappen.
 * beschrijving
