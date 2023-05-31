@@ -3,7 +3,8 @@ audience: end-user
 title: Een sms-levering maken
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
+source-git-commit: 78cd7bb4857475b8ccd815feda885024948f62d3
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 6%
@@ -42,4 +43,3 @@ ht-degree: 6%
 1. Klikken **[!UICONTROL Edit content]** om de inhoud van je SMS-bericht te ontwerpen.
 
 1. Als u de levering wilt plannen op een bepaalde datum en tijd, schakelt u de optie **[!UICONTROL Enable scheduling]** optie. Nadat u de levering in werking stelt, zal het bericht automatisch op de nauwkeurige datum en de tijd worden verzonden die u voor de ontvanger hebt bepaald.
-
