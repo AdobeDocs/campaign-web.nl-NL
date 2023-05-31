@@ -4,10 +4,10 @@ title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
 badge: label="Alpha" type="Positief"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: c134f930b253a8d4463f438176fc54e09ea21a48
+source-git-commit: ec569f7d5acc06a027416794c056328d5fce1567
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 2%
+source-wordcount: '853'
+ht-degree: 1%
 
 ---
 
@@ -16,13 +16,30 @@ ht-degree: 2%
 
 ## Targetingactiviteiten {#targeting}
 
-inhoud-TBD
-
-<!--à reformuler-->Met deze activiteiten kunt u een of meer doelen maken door sets te definiëren en deze sets te splitsen of te combineren met behulp van doorsnede-, samenvoegings- of uitsluitingsbewerkingen.
+Met deze activiteiten kunt u een of meer doelen maken door sets te definiëren en deze sets te splitsen of te combineren met behulp van doorsnede-, samenvoegings- of uitsluitingsbewerkingen.
 
 ### publiek opbouwen {#build-audience}
 
+Met deze activiteit kunt u een publiek definiëren. U kunt of een bestaande kandidaat van de Campagne selecteren of de regelbouwer gebruiken om uw eigen vraag te bepalen.
+
+De **publiek opbouwen** activiteit kan aan het begin van de werkstroom of na enige andere activiteit worden geplaatst. Elke activiteit kan na de **publiek opbouwen**.
+
+Uw eigen query maken:
+
+1. Selecteren **Uw eigen (query) maken**.
+1. Kies de optie **Doeldimensie**. Met de doeldimensie kunt u de doelgroep voor de bewerking definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers. Zie de [v8-documentatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. Klikken **Doorgaan**.
+1. Gebruik de bouwer van de regel om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. Zie dit [sectie](../audience/segment-builder.md).
+
+Om een bestaand publiek te selecteren,
+
+1. Selecteren **Lees publiek**.
+1. Klikken **Doorgaan**.
+1. Selecteer uw publiek, zoals u een publiek gebruikt bij het ontwerpen van een nieuwe e-mail. Zie dit [sectie](../audience/add-audience.md).
+
 ### Combineren {#combine}
+
+De **Combineren** activiteit kan na enige andere activiteit worden geplaatst, maar niet aan het begin van het werkschema. Elke activiteit kan na de **Combineren**.
 
 ### Verrijking {#enrichment}
 
