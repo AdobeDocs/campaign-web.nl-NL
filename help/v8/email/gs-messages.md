@@ -4,7 +4,7 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe te met leveringen te werken en berichten met het Web van de Campagne te verzenden
 badge: label="Alpha" type="Positief"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: acc3f2cdc50fc8727a472d427c2f8077775a8744
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 1%
@@ -63,9 +63,9 @@ Voer de volgende stappen uit om een levering in een campagne te maken:
 
    ![](assets/add-delivery-in-wf.png)
 
-   De **[!UICONTROL Build audience]** activiteit wordt nader omschreven in [deze sectie](../workflows/targeting-activities.md).
+   De **[!UICONTROL Build audience]** activiteit wordt nader omschreven in [deze sectie](../workflows/workflow-activities.md#targeting).
 
-1. Selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van het leveringskanaal in een workflow en hoe u in deze [sectie](../workflows/channel-activities.md).
+1. Selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van het leveringskanaal in een workflow en hoe u in deze [sectie](../workflows/workflow-activities.md#channel).
 1. Start de workflow en controleer logbestanden.
 
 U kunt ook leveringen in een campagne toevoegen zonder een workflow te maken. Om dit te bereiken, doorblader aan **[!UICONTROL Deliveries]** tabblad van uw campagne en klik op de knop **[!UICONTROL Create delivery]** knop.
