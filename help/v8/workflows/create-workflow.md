@@ -4,9 +4,9 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: f3474086eb3b44f07ab1020f1ddc6cad394c50c4
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -28,13 +28,15 @@ De eerste stap om uw werkschema in Campagne v8 Web tot stand te brengen is het o
    * **Zelfstandige workflow**: Navigeer naar het menu Worklows en klik op de knop Create workflow in de rechterbovenhoek.
    * **Workflow voor campagnes:** Navigeer naar het menu Campagnes en open de campagne waar u een nieuwe workflow wilt maken. Klik op de knop Workflow maken in de rechterbovenhoek van het tabblad Workflows.
 
-1. Het dialoogvenster Eigenschappen van workflow wordt geopend. Selecteer de sjabloon die u wilt gebruiken voor het maken van de workflow en geef een naam op voor de sjabloon.
-
-   De malplaatjes van het werkschema bevatten pre-gevormde activiteiten en algemene bezitsconfiguraties die voor het creëren van nieuwe werkschema&#39;s kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole. [Leer hoe u met sjablonen werkt](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+   Het dialoogvenster Eigenschappen van workflow wordt geopend.
 
    ![](assets/workflow-create.png)
 
-1. In de Extra optiessectie, vorm specifieke montages voor het werkschema, zoals het opslaan omslag en timezone. [Leer hoe u werkstroomeigenschappen configureert](workflow-settings.md)
+1. Selecteer de sjabloon die u wilt gebruiken om de workflow te maken en geef een label voor de workflow op.
+
+   De malplaatjes van het werkschema bevatten pre-gevormde activiteiten en algemene bezitsconfiguraties die voor het creëren van nieuwe werkschema&#39;s kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole. [Leer hoe u met sjablonen werkt](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+
+1. Vouw de sectie Aanvullende opties uit als u specifieke instellingen voor de workflow wilt configureren, zoals de opslagmap en de tijdzone. [Leer hoe u werkstroomeigenschappen configureert](workflow-settings.md)
 
 1. Klik op de knop Workflow maken om te bevestigen dat u een workflow maakt.
 
