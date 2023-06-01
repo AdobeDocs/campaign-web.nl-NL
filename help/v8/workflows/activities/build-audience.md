@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 badge: label="Alpha" type="Positief"
-source-git-commit: 4c0157c0457d1d6fa3194463adef8572017af8f0
+source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ Met deze activiteit kunt u een publiek definiëren. U kunt of een bestaand publi
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
+
+## Configuratie
 
 Voer de volgende stappen uit om de **publiek opbouwen** activiteit:
 
@@ -37,3 +39,9 @@ Voer de volgende stappen uit om een bestaand publiek te selecteren:
 1. Selecteren **Lees publiek**.
 1. Klikken **Doorgaan**.
 1. Selecteer uw publiek, zoals u een publiek gebruikt bij het ontwerpen van een nieuwe e-mail. Zie dit [sectie](../../audience/add-audience.md).
+
+## Voorbeeld
+
+Hier is een voorbeeld van een worststroom met twee **publiek opbouwen** activiteiten. De eerste is gericht op het publiek van pokerspelers, gevolgd door een e-mailbezorging. De tweede is gericht op het publiek van VIP klanten, gevolgd door een SMS-levering.
+
+![](../assets/workflow-audience-example.png)
