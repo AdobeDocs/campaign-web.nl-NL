@@ -4,9 +4,9 @@ title: Aan de slag met workflows
 description: Leer hoe u begint met workflows
 badge: label="Alpha" type="Positief"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 6927b92155e601656caecef1702cb774d6c895fd
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '399'
 ht-degree: 3%
 
 ---
@@ -47,3 +47,31 @@ Nu u weet welke workflows er zijn en wat u ermee kunt doen in Adobe Campaign, is
 * Toegang en monitor
 
 (link naar subsectie TBD)
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="access-monitor.md">
+<img alt="Workflows openen en beheren" src="assets/do-not-localize/workflow-access.jpeg">
+</a>
+<div>
+<a href="access-monitor.md"><strong>Workflows openen en beheren</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="create-workflow.md">
+<img alt="Lood" src="assets/do-not-localize/workflow-create.jpeg">
+</a>
+<div><a href="create-workflow.md"><strong>Uw eerste workflow maken en uitvoeren</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="activities/about-activities.md">
+<img alt="Onfrequent" src="assets/do-not-localize/workflow-activities.jpeg">
+</a>
+<div>
+<a href="activities/about-activities.md"><strong>Werken met workflowactiviteiten</strong></a>
+</div>
+<p></td>
+</tr></table>
