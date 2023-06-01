@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positief"
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -15,9 +15,10 @@ ht-degree: 1%
 # Uw eerste e-mail verzenden {#first-email}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
+>id="acw_homepage_card2"
 >title="Uw eerste e-mail verzenden met Adobe Campaign"
->abstract="Leer hoe u met de e-mailontwerper uw inhoud kunt maken, deze kunt voorvertonen en testen en een e-mail naar een bestaand publiek kunt sturen in een gebruiksscenario van begin tot eind."
+>abstract="Begin met een sjabloon of gebruik de nieuwe e-mailontwerper van Adobe Campaign om e-mails te maken zonder dat u één regel code hoeft te schrijven. Leer hoe u met de e-mailontwerper uw inhoud kunt maken, deze kunt voorvertonen en testen en een e-mail naar een bestaand publiek kunt sturen in een gebruiksscenario van begin tot eind."
+
 
 Leer hoe u uw eerste e-mailadres maakt waarvoor u een e-mail wilt schrijven. In dit geval plant u het verzenden van een e-mail naar leden van Silver en Gold-loyaliteit op een bepaalde datum.
 

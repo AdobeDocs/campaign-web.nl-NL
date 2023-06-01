@@ -4,10 +4,10 @@ title: Aan de slag met workflows
 description: Leer hoe u begint met workflows
 badge: label="Alpha" type="Positief"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
+source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 3%
+source-wordcount: '403'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Weergegeven interface werkstroomcanvas"
->abstract="Dankzij ons uitgebreide grafische canvas kunt u eenvoudig processen ontwerpen, zoals segmentatie, uitvoering van campagnes en nog veel meer."
+>abstract="Dankzij ons uitgebreide grafische canvas kunt u eenvoudig processen ontwerpen, zoals segmentatie, uitvoering van campagnes en nog veel meer. Met dit geavanceerde gereedschap binnen handbereik kunt u uw workflow stroomlijnen en uw campagnes verhogen."
 
 
 ## Wat is een workflow?
