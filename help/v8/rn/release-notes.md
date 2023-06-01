@@ -4,9 +4,9 @@ title: Opmerkingen bij de release Campagne Web v8
 description: Opmerkingen bij de release Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positief"
-source-git-commit: 0703b872bb8f452773e76f2524d47bf774c687e0
+source-git-commit: 8a6d5d0144d3efd5bcf7f6a20fa4d5a6bc13d12d
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,7 @@ Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoe
 De onderstaande beperkingen gelden voor deze Alfa-versie:
 
 * De enige bewerkbare objecten zijn Afleveringen, Campagnes, Workflows, Soorten publiek en Sjablonen. De andere zijn alleen-lezen. Gebruik filters om door alle filters te bladeren.
+* Soorten publiek kan niet worden opgeslagen voor toekomstig gebruik.
 * De gebruikersinterface van het Beleid is niet beschikbaar.
 * De rapporteringsmetriek (zoals opent en het volgen gegevens) wordt bijgewerkt elk uur.
 * KPI&#39;s voor het leveringsdashboard worden elke 5 minuten bijgewerkt. - maar de voorbereiding van de levering is in real-time.
