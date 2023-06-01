@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Bouw een publiek met de regelbouwer
-description: Leer hoe u met de Segment Builder werkt
+title: Een publiek maken met de bouwer van de campagneregel
+description: Leer hoe te met de regelbouwer te werken
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Alpha" type="Positief"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 1%
 
 ---
 
-# Bouw een publiek met de regelbouwer {#segment-builder}
+# Bepaal een publiek met de regelbouwer {#segment-builder}
 
 In deze sectie wordt beschreven hoe u een publiek kunt maken tijdens het ontwerpen van een nieuwe e-mail. Het nieuwe publiek kan alleen in deze e-mail worden gebruikt.
 
