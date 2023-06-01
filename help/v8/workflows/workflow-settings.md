@@ -4,19 +4,20 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 696fa6192c16f8fd1d2dd77ad533203277f8a2dd
+source-git-commit: 806e465b7c1df6cd26d68103c45b175371d73485
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '790'
 ht-degree: 2%
 
 ---
 
-# Workflowinstellingen configureren {#workflow-settings}
+# Geavanceerde workflowinstellingen configureren {#workflow-settings}
 
-inhoud-TBD
+Wanneer u workflowactiviteiten op het canvas ordent, hebt u toegang tot geavanceerde instellingen die betrekking hebben op de workflow. U kunt bijvoorbeeld een specifieke tijdzone voor de workflow instellen, beheren hoe de workflow zich moet gedragen als er een fout optreedt, of de vertraging beheren waarna de werkstroomgeschiedenis moet worden gewist.
 
-instellingen definiëren die beschikbaar zijn via de knop in het werkstroomcanvas
-<!--à reformuler-->
+Om dit te doen, klik **[!UICONTROL Workflow settings]** in de linkerbovenhoek van het canvas, naast het workflowlabel.
+
+![](assets/workflow-settings.png)
 
 ## Workfloweigenschappen {#properties}
 
@@ -25,19 +26,15 @@ instellingen definiëren die beschikbaar zijn via de knop in het werkstroomcanva
 >title="Workfloweigenschappen"
 >abstract="TBD"
 
-(= hetzelfde als bij het maken van de workflow? te controleren)
+De sectie met workfloweigenschappen biedt algemene eigenschappen die ook toegankelijk zijn wanneer u de workflow maakt.
 
-* Label
-* Aanvullende opties
-* Interne naam
-* Map
-* Gekoppelde campagne > kan deze wijzigen. Als dat het geval is, verdwijnt de workflow uit de huidige campagne en wordt deze weergegeven in de nieuwe gekoppelde campagne
-
-   Wanneer u een workflow binnen een campagne maakt, vindt u een extra veld Campagne waarmee u de campagne die aan de workflow is gekoppeld gemakkelijk kunt identificeren en openen.
-
-* Tijdzone: een specifieke tijdzone definiëren die standaard in alle activiteiten van de workflow moet worden gebruikt. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
-* Supervisor: Wanneer een workflow een fout bevat, worden de operatoren die tot de groep voor workflowtoezicht behoren, via e-mail op de hoogte gebracht, zolang hun e-mailadres in hun profiel wordt vermeld. Deze groep is geselecteerd in het dialoogvenster **[!UICONTROL Supervisor(s)]** veld van de workfloweigenschappen.
-* beschrijving
+* **[!UICONTROL Label]**: Het label van de workflow die in de lijst wordt weergegeven.
+* **[!UICONTROL Internal name]**: De interne naam van de workflow.
+* **[!UICONTROL Folder]**: De map waarin de workflow moet worden opgeslagen.
+* **[!UICONTROL Linked campaign]**: Dit gebied toont als het werkschema binnen een campagne is gecreeerd. Hiermee kunt u de bijbehorende campagne openen.
+* **[!UICONTROL Timezone]**: Definieer een specifieke tijdzone die standaard moet worden gebruikt in alle activiteiten van de workflow. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
+* **[!UICONTROL Supervisor]**: Wanneer een workflow een fout bevat, worden de operatoren die tot de groep voor workflowtoezicht behoren, via e-mail op de hoogte gebracht, zolang hun e-mailadres in hun profiel wordt vermeld.
+* **[!UICONTROL Description]**: Gebruik dit veld om een beschrijving van uw workflow te geven.
 
 ## Segmenteringsinstellingen
 
@@ -46,17 +43,10 @@ instellingen definiëren die beschikbaar zijn via de knop in het werkstroomcanva
 >title="Segmenteringsinstellingen"
 >abstract="TBD"
 
-* doelgerichtheid:
+* **[!UICONTROL Targeting dimension]**: Selecteer de doeldimensie die u wilt gebruiken voor de doelprofielen: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz.
+* **[!UICONTROL Keep the result of interim populations between two executions]**: Standaard blijven alleen de werktabellen van de laatste uitvoering van de workflow behouden. De werklijsten van vorige uitvoeringen worden gezuiverd door een technische werkschema, die op een dagelijkse basis loopt.
 
-   Tijdens de verrichtingen van de gegevenssegmentatie, wordt de het richten sleutel in kaart gebracht aan een het filtreren dimensie. Met de doeldimensie kunt u de doelgroep voor de bewerking definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz. Met de filterdimensie kunt u de populatie selecteren op basis van bepaalde criteria: contractanten, abonnees van nieuwsbrieven enz.
-
-* resultaten behouden: De **Behoud het resultaat van tussentijdse populaties tussen twee executies** houdt tijdelijke lijsten tussen twee uitvoeringen van een werkschema.  Het is beschikbaar in de eigenschappen van de workflow. **[!UICONTROL General]** en kan worden gebruikt voor ontwikkelings- en testdoeleinden om gegevens te controleren en de resultaten te controleren. U kunt deze optie in ontwikkelomgevingen gebruiken, maar nooit in productieomgevingen. Het houden van tijdelijke lijsten zou in de grootte van het gegevensbestand kunnen resulteren die beduidend en uiteindelijk de groottegrens wordt bereikt. Bovendien zal het de back-up vertragen.
-
-   Alleen de werktabellen van de laatste uitvoering van de workflow worden bewaard. Werktabellen van eerdere uitvoeringen worden door de **[!UICONTROL cleanup]** werkschema, dat dagelijks loopt.
-
-   >[!CAUTION]
-   >
-   >Deze optie moet **nooit** worden gecontroleerd in een **productie** workflow. Deze optie wordt gebruikt om de resultaten te analyseren en is alleen ontworpen voor testdoeleinden en moet daarom alleen worden gebruikt in ontwikkelings- of testomgevingen.
+   Als deze optie is ingeschakeld, worden werktabellen ook bewaard nadat de workflow is uitgevoerd. U kunt het voor testdoeleinden gebruiken en moet daarom alleen worden gebruikt in ontwikkelings- of testomgevingen. Het mag nooit worden gecontroleerd in een productiewerkstroom,
 
 ## Instellingen voor workflowuitvoering
 
