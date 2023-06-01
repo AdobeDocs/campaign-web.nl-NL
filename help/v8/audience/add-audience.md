@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Een publiek selecteren
+title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positief"
-source-git-commit: 7893f3132689446db388613ad5ec033ca5f26bf5
+source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 5%
 
 ---
@@ -24,7 +24,7 @@ In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren bij he
 U kunt ook het volgende doen:
 
 * Maak een nieuw publiek. [Meer informatie](segment-builder.md)
-* Gebruik een publiek uit een extern bestand. [Meer informatie](file-audience.md)
+* Laad een publiek vanuit een extern bestand. [Meer informatie](file-audience.md)
 * Gebruik een Adobe Experience Platform-publiek. [Meer informatie](aep-audience.md).
 
 
