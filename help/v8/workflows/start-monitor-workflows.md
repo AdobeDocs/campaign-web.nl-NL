@@ -6,8 +6,8 @@ badge: label="Alpha" type="Positief"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
 source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '506'
+ht-degree: 3%
 
 ---
 
