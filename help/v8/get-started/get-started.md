@@ -4,9 +4,9 @@ title: Aan de slag met Campagne v8 Web
 description: Aan de slag met Campagne v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positief"
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '439'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Nieuwe functies"
->abstract="Ontdek nieuwe gebruikersinterface van het Web van de Campagne, recentste verbeteringen, zeer belangrijke mogelijkheden, en hoe te om hen te gebruiken om kanaalcampagnes voor uw publiek te bouwen. Met de gebruiksvriendelijke functies helpt Campagne u het maken van gepersonaliseerde campagnes over meerdere kanalen te stroomlijnen, resultaten te stimuleren en een concurrentievoordeel te behalen. "
+>abstract="Ontdek nieuwe gebruikersinterface van het Web van de Campagne, recentste verbeteringen, zeer belangrijke mogelijkheden, en leer hoe te om hen te gebruiken om kanaalcampagnes voor uw publiek te bouwen. Met de gebruiksvriendelijke functies helpt Campagne u het maken van gepersonaliseerde campagnes over meerdere kanalen te stroomlijnen, resultaten te stimuleren en een concurrentievoordeel te behalen. "
 
 
 

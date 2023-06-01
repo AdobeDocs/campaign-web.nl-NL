@@ -4,10 +4,10 @@ title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Alpha" type="Positief"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 598caf335db5b46036c8b6da92f4a9591089a0f4
+source-git-commit: dc7555bd593efc126fa29fbb87ff6811a1e1b132
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 10%
+source-wordcount: '353'
+ht-degree: 9%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Kanaaloverschrijdende campagnes ontwerpen en verzenden"
->abstract="Met zijn marketing campagneorchestratiemogelijkheden, kunt u klantengegevens beheren en centraliseren, klantenmededelingen en campagnes ontwerpen, en gepersonaliseerde ervaringen over verschillende kanalen tot stand brengen. Er zijn e-mail-, push- en SMS-kanalen beschikbaar."
+>abstract="De mogelijkheden van Adobe Campaign helpen u gecentraliseerde klantengegevens beheren, klantenmededelingen en campagnes ontwerpen, en persoonlijke ervaringen over verschillende kanalen creëren: E-mail, push en SMS."
 
-Gebruik Adobe Campaign om kanaalcampagnes te maken. Met zijn marketing campagneorchestratiemogelijkheden, kunt u klantengegevens beheren en centraliseren, klantenmededelingen en campagnes ontwerpen, en gepersonaliseerde ervaringen over verschillende kanalen tot stand brengen. Er zijn e-mail-, push- en SMS-kanalen beschikbaar.
+Gebruik Adobe Campaign om kanaalcampagnes te maken. Met zijn marketing campagneorchestratiemogelijkheden, kunt u klantengegevens beheren en centraliseren, klantenmededelingen en campagnes ontwerpen, en gepersonaliseerde ervaringen over verschillende kanalen tot stand brengen. In deze versie zijn e-mail-, push- en SMS-kanalen beschikbaar.
 
 Ontwerp en voer e-mailcampagnes met een hoog volume uit om persoonlijke berichten voor alle platforms en schermgrootten te leveren.
-<!--Measure the effectiveness of your deliveries with detailed reports including thecounts of opens, clicks, forwards, and more.--> Met de segmenteringsmogelijkheden van Adobe Campaign, kunt u vragen tegen een hoog-volumegegevensbestand in werking stellen, en gemakkelijk dynamische marketing segmenten bepalen die uw campagnes perfect richten.
+Meet de doeltreffendheid van uw leveringen met gedetailleerde rapporten, met inbegrip van de verslagen van opent, klikt, door:sturen, en meer. Met de segmenteringsmogelijkheden van Adobe Campaign, kunt u vragen tegen een hoog-volumegegevensbestand in werking stellen, en gemakkelijk dynamische marketing segmenten bepalen die uw campagnes perfect richten.
 
 ## Een campagne voor meerdere kanalen maken {#cross-channel-campaign}
 
