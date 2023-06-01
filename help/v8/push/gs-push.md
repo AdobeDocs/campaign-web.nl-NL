@@ -4,11 +4,49 @@ title: Aan de slag met pushmeldingen
 description: Meer informatie over het maken en verzenden van pushberichten via Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '26'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met pushmeldingen {#push}
+
+Pushmeldingen zijn essentieel voor het bereiken van gebruikers van uw mobiele app, zelfs als zij uw app niet actief gebruiken. Zij dienen diverse doeleinden zoals het verstrekken van updates, het drijven van specifieke acties, en het op de hoogte brengen van overeenkomsten. Gebruikers moeten zich aanmelden om deze melding te ontvangen.
+
+Voor het maken van pushberichten hebt u drie opties:
+
+* Workflows: Nadat u een Push-kanaalactiviteit aan uw workflow hebt toegevoegd en de basisinstellingen hebt geconfigureerd, kunt u de inhoud van uw pushberichten opnieuw ordenen vanuit het rechterdeelvenstermenu. Raadpleeg deze pagina voor gedetailleerde instructies over het configureren van de workflow.
+
+* Campagnes: Nadat u een campagne hebt gemaakt, kunt u een pushmelding maken. Raadpleeg deze pagina voor meer informatie over het instellen van uw campagne.
+
+* Zelfstandige leveringen: Neem direct en direct contact op met klanten met individuele pushberichten, zonder dat ze werkstromen of campagnes nodig hebben.
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="create-push.md">
+<img alt="Lood" src="assets/do-not-localize/push_create.jpeg">
+</a>
+<div><a href="create-push.md"><strong>Een pushbericht maken</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="content-push.md">
+<img alt="Onfrequent" src="assets/do-not-localize/push_design.jpeg">
+</a>
+<div>
+<a href="content-push.md">Een pushaanbieding ontwerpen<strong></strong></a>
+</div>
+<p></td>
+<td>
+<a href="send-push.md">
+<img alt="Validatie" src="assets/do-not-localize/push_send.jpeg">
+</a>
+<div>
+<a href="send-push.md"><strong>Een pushbericht verzenden</strong></a>
+</div>
+<p>
+</td>
+</tr></table>

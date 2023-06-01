@@ -4,10 +4,10 @@ title: Aan de slag met SMS-berichten
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 4ae66feeedc554d6e055f566338fdcd2de45c6d3
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 0%
+source-wordcount: '136'
+ht-degree: 2%
 
 ---
 
@@ -23,32 +23,30 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 
 * Zelfstandige leveringen: Creeer individuele leveringen van SMS voor snelle en directe communicatie met uw klanten, zonder de behoefte aan werkschema&#39;s of campagnes.
 
-<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="Lead" src="">
+<img alt="Lood" src="assets/do-not-localize/create_sms.png">
 </a>
-<div><a href="create-sms.md"><strong>Create an SMS message</strong>
+<div><a href="create-sms.md"><strong>Een sms-levering maken</strong>
 </div>
 <p>
 </td>
 <td>
-<a href="">
-<img alt="Infrequent" src="">
+<a href="content-sms.md">
+<img alt="Onfrequent" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
-<a href=""><strong>Send an SMS message</strong></a>
+<a href="content-sms.md">Een SMS-verzending ontwerpen<strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="">
-<img alt="Validation" src="">
+<a href="send-sms.md">
+<img alt="Validatie" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
-<a href=""><strong>SMS opt-out management</strong></a>
+<a href="send-sms.md"><strong>Verzend een SMS-levering</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
--->

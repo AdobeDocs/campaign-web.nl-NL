@@ -5,10 +5,10 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 13%
+source-wordcount: '307'
+ht-degree: 12%
 
 ---
 
@@ -59,10 +59,14 @@ ht-degree: 13%
          + [E-mailleveringsinstellingen](advanced-settings/delivery-settings.md)
    + Pushmeldingen {#push}
       + [Aan de slag met pushmeldingen](push/gs-push.md)
+      + [Een pushmelding maken](push/create-push.md)
+      + [Een pushaanbieding ontwerpen](push/content-push.md)
+      + [Een pushmelding verzenden](push/send-push.md)
    + Sms {#sms}
       + [Aan de slag met SMS-berichten](sms/gs-sms.md)
       + [Een sms-levering maken](sms/create-sms.md)
-      + [Een SMS-levering ontwerpen ](sms/content-sms.md)
+      + [Een SMS-verzending ontwerpen ](sms/content-sms.md)
+      + [Verzend een SMS-levering ](sms/send-sms.md)
 + Soorten publiek en ontvangers {#audiences}
    + [Aan de slag met het publiek](audience/about-audiences.md)
    + [Bestaande doelgroep selecteren](audience/add-audience.md)
