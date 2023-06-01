@@ -4,7 +4,7 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: f3474086eb3b44f07ab1020f1ddc6cad394c50c4
+source-git-commit: c842829915784654b7130563d36dea188e84ff3d
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worde
 
 ![](assets/workflow-start.png)
 
-Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, toestaand u om de onlangs toegevoegde activiteit met specifieke montages te vormen. Gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [deze sectie](workflow-activities.md).
+Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, toestaand u om de onlangs toegevoegde activiteit met specifieke montages te vormen. Gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [deze sectie](activities/about-activities.md).
 
 ![](assets/workflow-configure-activities.png)
 
