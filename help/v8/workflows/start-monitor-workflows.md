@@ -4,10 +4,10 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 0e9ea3df38912669d3402118613bd78b9e65b28a
+source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,29 +17,50 @@ Nadat u de workflow hebt gemaakt en de taken hebt ontworpen die u op het canvas 
 
 ## De workflow starten {#start}
 
-Als u de workflow wilt starten, opent u deze vanuit het menu Workflows of de bijbehorende campagne en klikt u op de knop Start in de rechterbovenhoek van het canvas.
+Navigeer naar de **[!UICONTROL Workflows]** menu of de bijbehorende campagne en klik op **[!UICONTROL Start]** in de rechterbovenhoek van het canvas.
 
 Zodra de workflow is gestart, wordt elke activiteit op het canvas in volgorde uitgevoerd, totdat het einde van de workflow is bereikt.
 
-U kunt de voortgang van de doelprofielen in de workflow in real-time bijhouden dankzij een visuele stroom. Op deze manier kunt u snel de status van elke activiteit bepalen en hoeveel profielen er bij elke overgang navigeren.
+U kunt de voortgang van doelprofielen in real time volgen gebruikend een visuele stroom. Hierdoor kunt u snel de status van elke activiteit en het aantal profielen identificeren dat tussen de activiteiten overgaat.
+
+![](assets/workflow-execution.png)
 
 >[!NOTE]
 >
->U kunt de visuele stroom uitschakelen met de knop Voortgang verbergen op de bovenste werkbalk van het canvas.
+>U kunt de visuele stroom uitschakelen met de **[!UICONTROL Hide progression]** in de bovenste actiebalk van het canvas.
 
-## Uitvoering van activiteiten controleren {#activities}
+## Activiteitenuitvoering controleren {#activities}
 
-De visuele indicatoren in de hoger-juiste hoek van elke activiteit staan u toe om hun uitvoering te controleren:
+De visuele indicatoren in de hoger-juiste hoek van elke activiteitendoos staan u toe om hun uitvoering te controleren:
 
 | Visuele indicator | Beschrijving |
 |-----|------------|
-| ![](assets/activity-status-pending.png) | De activiteit wordt uitgevoerd. |
-| ![](assets/activity-status-orange.png) | De activiteit vereist uw aandacht. Er kan enige actie nodig zijn, zoals bijvoorbeeld het bevestigen van de verzending van een levering. |
-| ![](assets/activity-status-red.png) | Er is een fout opgetreden in de activiteit. Open de werkstroomlogboeken voor meer informatie en om het probleem op te lossen. |
+| ![](assets/activity-status-pending.png) | De activiteit wordt momenteel uitgevoerd. |
+| ![](assets/activity-status-orange.png) | De activiteit vereist uw aandacht. Dit kan inhouden dat de verzending van een levering wordt bevestigd of dat de nodige actie wordt ondernomen. |
+| ![](assets/activity-status-red.png) | Er is een fout opgetreden in de activiteit. Open de logbestanden van de workflow voor meer informatie om het probleem op te lossen. |
 | ![](assets/activity-status-green.png) | De activiteit is met succes uitgevoerd. |
 
 ## Logboeken en taken controleren
 
-## Een workflow pauzeren en stoppen
+Het controleren van werkstromen logboeken en taken is een zeer belangrijke stap om uw werkschema&#39;s te analyseren en ervoor te zorgen zij behoorlijk lopen. Ze zijn toegankelijk vanuit de **[!UICONTROL Logs]** pictogram dat beschikbaar is in de actiewerkbalk en in het eigenschappenvenster van elke activiteit.
 
-* De werkstroom onderbreken/stoppen. hervat een werkstroom na het worden gepauzeerd.
+De **[!UICONTROL Logs and tasks]** bevat een historie van de workflowuitvoering, waarin alle handelingen van de gebruiker zijn opgenomen en fouten zijn aangetroffen. Deze geschiedenis wordt opgeslagen voor de duur die is opgegeven in de workflow [uitvoeringsopties](workflow-settings.md). Tijdens deze periode worden alle berichten opgeslagen, zelfs nadat de workflow opnieuw is opgestart. Als u de berichten uit een vorige uitvoering niet wilt opslaan, klikt u op de knop **[!UICONTROL Purge history]** knop.
+
+![](assets/workflow-logs.png)
+
+Er zijn twee soorten informatie beschikbaar:
+
+* De **[!UICONTROL Log]** bevat de uitvoeringsgeschiedenis van alle werkstroomactiviteiten. De uitgevoerde bewerkingen en uitvoeringsfouten worden in chronologische volgorde geïndexeerd.
+* De **[!UICONTROL Tasks]** tabblad bevat de volgorde van uitvoering van de activiteiten.
+
+Op beide tabbladen kunt u de weergegeven kolommen en hun volgorde kiezen, filters toepassen en het zoekveld gebruiken om snel de gewenste informatie te zoeken.
+
+## Opdrachten voor workflowuitvoering {#execution-commands}
+
+De actiebalk in de rechterbovenhoek bevat opdrachten waarmee u de uitvoering van de workflow kunt beheren. U kunt:
+
+* **[!UICONTROL Start]** / **[!UICONTROL Resume]** de uitvoering van de workflow, die vervolgens de status In uitvoering krijgt. Als de werkstroom is gepauzeerd, wordt deze hervat, anders wordt deze gestart en worden de initiële activiteiten geactiveerd.
+
+* **[!UICONTROL Pause]** de uitvoering van de workflow, die vervolgens de status Gepauzeerd krijgt. Er zullen geen nieuwe activiteiten worden geactiveerd totdat de activiteiten worden hervat, maar de lopende activiteiten worden niet opgeschort.
+
+* **[!UICONTROL Stop]** een workflow die wordt uitgevoerd en die vervolgens de status Voltooid krijgt. De lopende bewerkingen worden indien mogelijk onderbroken. U kunt de workflow niet hervatten vanaf de plaats waar deze is gestopt.
