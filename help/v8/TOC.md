@@ -5,10 +5,10 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: b07d30f93f100f97e972b933710a7850c55f8d70
+source-git-commit: 2172d159b9d43b18ebb56f5bbbb806884db14346
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 11%
+source-wordcount: '287'
+ht-degree: 13%
 
 ---
 
@@ -81,7 +81,18 @@ ht-degree: 11%
       + [De workflow maken](workflows/create-workflow.md)
       + [Workflowinstellingen configureren](workflows/workflow-settings.md)
       + [Een workflow starten en controleren](workflows/start-monitor-workflows.md)
-   + [Workflowactiviteiten](workflows/workflow-activities.md)
+   + Werken met workflowactiviteiten {#design-workflows}
+      + [Informatie over workflowactiviteiten](workflows/activities/about-activities.md)
+      + [En-join](workflows/activities/and-join.md)
+      + [publiek opbouwen](workflows/activities/build-audience.md)
+      + [Combineren](workflows/activities/combine.md)
+      + [Email](workflows/activities/email.md)
+      + [Einde](workflows/activities/end.md)
+      + [Verrijking](workflows/activities/enrichment.md)
+      + [Vertakking](workflows/activities/fork.md)
+      + [Push](workflows/activities/push.md)
+      + [Sms](workflows/activities/sms.md)
+      + [Wachten](workflows/activities/wait.md)
 + Rapportage {#reports}
    + [Aan de slag met rapporten](reporting/gs-reports.md)
    + [Toegang tot leveringsrapporten](reporting/delivery-reports.md)
