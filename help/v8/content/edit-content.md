@@ -4,9 +4,9 @@ title: E-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: f04e8aa5ecb12fca02da640b0037441d4cd7d4d3
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -33,33 +33,46 @@ ht-degree: 0%
 >title="Traceeropties"
 >abstract="Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie hier uitschakelen."
 
-Als u de inhoud van een e-mail wilt gaan maken, klikt u op de knop **[!UICONTROL Edit content]** in het scherm voor het maken van e-mail.
+Als u de inhoud van een e-mail wilt gaan maken, klikt u op de knop **[!UICONTROL Edit content]** van de knop [e-mailontwerp](../email/create-email.md) scherm.
 
-![](assets/edit-content.png)
+![](assets/email-edit-content.png)
 
-In dit scherm kunt u de inhoud van uw e-mail definiëren en de e-mailontwerper openen om deze te ontwerpen.
+In het scherm dat nu wordt geopend, kunt u basisgegevens definiëren, aanvullende handelingen uitvoeren, zoals het toevoegen van bijlagen of het instellen van aanbiedingen, en toegang krijgen tot de e-mailontwerper om uw inhoud samen te stellen.
 
-![](assets/content-dashboard.png)
+![](assets/email-edit-content-dashboard.png)
 
-U definieert de inhoud van uw e-mail als volgt:
+U kunt de inhoud van uw e-mail als volgt bewerken:
 
-1. Controleer de **[!UICONTROL From name]** en **[!UICONTROL From email]** informatie. Deze velden zijn alleen-lezen. Ze zijn geconfigureerd in de e-mailsjabloon die is geselecteerd bij het maken van de e-mail.
+1. In de **[!UICONTROL From name]** gebruiken, een naam die gemakkelijk door de ontvangers, zoals de naam van uw merk, kan worden geïdentificeerd om het openingstarief van uw leveringen te verhogen.
 
 1. De e-mail definiëren **[!UICONTROL Subject line]**. Om dit te doen, typ uw onderwerp direct in het specifieke gebied, of open de Redacteur van de Uitdrukking om te bepalen om verpersoonlijking toe te voegen gebruikend diverse attributen en inhoudsblokken of aanbiedingen. [Leer hoe u inhoud kunt aanpassen](../personalization/personalize.md)
+Om de ervaring van de ontvanger verder te verbeteren, kunt u de naam van een persoon toevoegen, bijvoorbeeld &quot;Emma van Megastore&quot;.
 
-1. Als u aanbiedingen met uw e-mail wilt verzenden, selecteert u deze met de **[!UICONTROL Set up offers]** knop. U kunt ze vervolgens in de e-mail invoegen met behulp van personalisatievelden. [Meer informatie over het verzenden van voorstellen](offers.md)
+1. In de **[!UICONTROL From email]** adresgebied, zorg ervoor het adresdomein het zelfde als subdomein is dat u aan Adobe delegeerde.
+
+   U kunt het deel vóór &#39;@&#39; wijzigen, maar niet het domeinadres.
+
+   <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+
+1. De e-mail definiëren **[!UICONTROL Subject line]**. Typ het onderwerp rechtstreeks in het desbetreffende veld of open de Expressieeditor om personalisatie toe te voegen met behulp van verschillende kenmerken en inhoudsblokken of aanbiedingen. [Leer hoe u inhoud kunt aanpassen](../personalization/personalize.md)
+
+1. Als u een bestand bij de e-mail wilt voegen, klikt u op de knop **[!UICONTROL Add attachment]** Selecteer vervolgens een of meerdere bestanden.
+
+   >[!NOTE]
+   >
+   >    Om prestatieproblemen te voorkomen, wordt aanbevolen niet meer dan één bijlage per e-mail op te nemen.
+
+   <!--limitation on size + number of files?-->
+
+1. Als u aanbiedingen met uw e-mail wilt verzenden, selecteert u deze met de **[!UICONTROL Set up offers]** knop.
+
+   U kunt ze vervolgens in de e-mail invoegen met behulp van personalisatievelden. [Meer informatie over het verzenden van voorstellen](offers.md)
 
 1. Klik op de knop **[!UICONTROL Edit email body]** om de inhoud van de e-mail te structureren en te ontwerpen. In deze secties vindt u aanvullende informatie over het ontwerpen van e-mailinhoud:
 
    * [Leer hoe u e-mails ontwerpt](create-email-content.md)
    * [Stijl uw inhoud](get-started-email-style.md)
 
-1. Als u een bestand bij de e-mail wilt voegen, klikt u op de knop **[!UICONTROL Add attachment]** Selecteer vervolgens een of meerdere bestanden.
-
-   Om prestatieproblemen te voorkomen, wordt aanbevolen niet meer dan één bijlage per e-mail op te nemen.
-
-   <!--limitation on size + number of files?-->
-
 1. Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie uitschakelen in het dialoogvenster **[!UICONTROL Optional features]** sectie. [Leer hoe u koppelingen kunt toevoegen en bijhouden](message-tracking.md)
 
-Als de inhoud van uw e-mail eenmaal is gedefinieerd, gebruikt u de opdracht **[!UICONTROL Simulate content]** om te controleren hoe het toont alvorens het te verzenden. [Leer hoe u uw e-mail kunt bekijken en testen](../preview-test/preview-test.md)
+1. Als de inhoud van uw e-mail eenmaal is gedefinieerd, gebruikt u de opdracht **[!UICONTROL Simulate content]** om te controleren hoe het toont alvorens het te verzenden. [Leer hoe u uw e-mail kunt bekijken en testen](../preview-test/preview-test.md)
