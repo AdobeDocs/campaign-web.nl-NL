@@ -4,9 +4,9 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
+source-git-commit: eed308685edc00c61d59f1529f363ac9b57d25cf
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '797'
 ht-degree: 2%
 
 ---
@@ -65,9 +65,7 @@ De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk 
 
 * **[!UICONTROL Default affinity]**: Als uw installatie meerdere workflowservers bevat, gebruikt u dit veld om de computer te kiezen waarop de workflow wordt uitgevoerd. Als de waarde die in dit veld wordt gedefinieerd, op geen enkele server bestaat, blijft de workflow in behandeling.
 
-* **[!UICONTROL Save SQL queries in log]**: Hiermee kunt u de SQL-query&#39;s uit de workflow opslaan in de logbestanden. Deze functionaliteit is gereserveerd voor geavanceerde gebruikers. Het is van toepassing op werkstromen die gericht activiteiten zoals bevatten **[!UICONTROL Build audience]**. Als deze optie is ingeschakeld, worden de SQL-query&#39;s die tijdens de uitvoering van de workflow naar de database worden verzonden, weergegeven in Adobe Campaign, zodat u ze kunt analyseren om query&#39;s te optimaliseren of problemen op te sporen.
-
-   Vragen worden weergegeven in een **[!UICONTROL SQL logs]** tabblad dat wordt toegevoegd aan de workflow (behalve workflows voor campagnes) en de **[!UICONTROL Properties]** activiteit wanneer de optie wordt toegelaten. <!-- where?-->
+* **[!UICONTROL Save SQL queries in log]**: Hiermee kunt u de SQL-query&#39;s uit de workflow opslaan in de logbestanden. Deze functionaliteit is gereserveerd voor geavanceerde gebruikers. Het is van toepassing op werkstromen die gericht activiteiten zoals bevatten **[!UICONTROL Build audience]**. Als deze optie is ingeschakeld, worden de SQL-query&#39;s die tijdens de uitvoering van de workflow naar de database worden verzonden, weergegeven in de logbestanden van de workflow, zodat u ze kunt analyseren om query&#39;s te optimaliseren of problemen op te sporen.
 
 ## Instellingen voor foutbeheer
 
