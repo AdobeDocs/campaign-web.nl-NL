@@ -4,10 +4,10 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 1a608d2042ae257d89acbd67d99a0ce05d89f382
+source-git-commit: 7e694f46239f782131524eed6b34bff4c4d98dca
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ Om dit te doen, klik **[!UICONTROL Workflow settings]** in de linkerbovenhoek va
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_properties"
 >title="Workfloweigenschappen"
->abstract="TBD"
+>abstract="Deze sectie biedt algemene workfloweigenschappen die ook toegankelijk zijn wanneer u de workflow maakt. U kunt de sjabloon kiezen die u wilt gebruiken om de workflow te maken en een label opgeven. Vouw de sectie Aanvullende opties uit om specifieke instellingen te configureren, zoals de workflow waarin de map of tijdzone wordt opgeslagen."
 
 De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk zijn wanneer u de workflow maakt.
 
@@ -43,7 +43,7 @@ De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
 >title="Segmenteringsinstellingen"
->abstract="TBD"
+>abstract="In deze sectie kunt u de doeldimensie selecteren voor doelprofielen in de workflow en ervoor kiezen om de werkstroomresultaten tussen twee uitvoeringen te houden. Deze optie mag alleen voor testdoeleinden worden gebruikt en mag nooit in een productiewerkstroom worden ingeschakeld."
 
 * **[!UICONTROL Targeting dimension]**: Selecteer de doeldimensie die u wilt gebruiken voor de doelprofielen: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz.
 * **[!UICONTROL Keep the result of interim populations between two executions]**: Standaard blijven alleen de werktabellen van de laatste uitvoering van de workflow behouden. De werklijsten van vorige uitvoeringen worden gezuiverd door een technische werkschema, die op een dagelijkse basis loopt.
@@ -55,7 +55,7 @@ De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
 >title="Instellingen voor uitvoering"
->abstract="TBD"
+>abstract="In deze sectie kunt u instellingen configureren die betrekking hebben op de uitvoering van de workflow, zoals het aantal dagen dat de werkstroomgeschiedenis wordt bewaard."
 
 * **[!UICONTROL History in days]**: Hier geeft u het aantal dagen op waarna de historie moet worden gewist. De geschiedenis bevat elementen die gerelateerd zijn aan de workflow: logbestanden, taken, gebeurtenissen (technische objecten die zijn gekoppeld aan de workflowbewerking). De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box. De geschiedenis wordt gewist door de technische workflow voor het opschonen van databases, die standaard dagelijks wordt uitgevoerd
 
@@ -74,7 +74,7 @@ De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Instellingen voor foutbeheer"
->abstract="TBD"
+>abstract="In deze sectie kunt u beheren hoe de workflow moet werken wanneer een fout optreedt tijdens de uitvoering (het pauzeren/stoppen of negeren van fouten)."
 
 * **[!UICONTROL Error management]**: In dit veld kunt u de acties definiëren die moeten worden uitgevoerd als een workflowtaak fouten bevat. Er zijn twee mogelijke opties:
 
