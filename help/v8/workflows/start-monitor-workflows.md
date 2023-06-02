@@ -4,14 +4,14 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1e1f1bbdd5c1a8e659c455078b5995b23209c511
+source-git-commit: cc9566d1781d5a190b488182a8b05a99d396ac8c
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 3%
 
 ---
 
-# Workflowuitvoering starten en controleren {#start-monitor}
+# De workflow starten en controleren {#start-monitor}
 
 Nadat u de workflow hebt gemaakt en de taken hebt ontworpen die u op het canvas wilt uitvoeren, kunt u deze starten en controleren hoe deze wordt uitgevoerd.
 
@@ -40,7 +40,7 @@ De visuele indicatoren in de hoger-juiste hoek van elke activiteitendoos staan u
 | ![](assets/activity-status-red.png) | Er is een fout opgetreden in de activiteit. Open de logbestanden van de workflow voor meer informatie om het probleem op te lossen. |
 | ![](assets/activity-status-green.png) | De activiteit is met succes uitgevoerd. |
 
-## Logboeken en taken controleren
+## Logboeken en taken controleren {#logs-tasks}
 
 Het controleren van werkstromen logboeken en taken is een zeer belangrijke stap om uw werkschema&#39;s te analyseren en ervoor te zorgen zij behoorlijk lopen. Ze zijn toegankelijk vanuit de **[!UICONTROL Logs]** pictogram dat beschikbaar is in de actiewerkbalk en in het eigenschappenvenster van elke activiteit.
 
