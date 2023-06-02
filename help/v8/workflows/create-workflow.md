@@ -4,9 +4,9 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
+source-git-commit: d9736ff5e6634b03d15e13ba1b0b9fdea7e779f4
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Workfloweigenschappen"
->abstract="TBD"
+>abstract="Kies in dit scherm de sjabloon die u wilt gebruiken om de workflow te maken en geef een label op. Vouw de sectie Aanvullende opties uit om specifieke instellingen te configureren, zoals de workflow waarin de map of tijdzone wordt opgeslagen."
 
 De eerste stap om uw werkschema in Campagne v8 Web tot stand te brengen is het of als standalone werkschema of direct binnen een campagne te creëren en zijn algemene eigenschappen te bepalen. Voer hiertoe de volgende stappen uit:
 
