@@ -4,9 +4,9 @@ title: E-mailrendering testen
 description: Leer hoe u uw e-mailrendering kunt testen in de interface van het campagneweb
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 10259e9c071fc20ef20677033abbbfecc886d4fc
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '215'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 1%
 Voordat u uw e-mail verzendt, moet u ervoor zorgen dat uw bericht op een optimale manier aan de ontvangers wordt weergegeven op verschillende webclients, webmails en apparaten.
 
 Hiervoor kunt u in Adobe Campaign een voorvertoning van het verzonden bericht weergeven in de verschillende contexten waarin het kan worden ontvangen en de compatibiliteit controleren in belangrijke desktops en toepassingen (webmail, berichtservice, mobiel, enz.).
+
+>[!CAUTION]
+>
+>Als u e-mailrendering gebruikt in Campagne, wordt een e-mailtest verzonden naar een systeem van een andere fabrikant dat niet onder de controle van Adobe staat. Als u dergelijke gegevens wilt openen of verwijderen, moet u rechtstreeks contact opnemen met die derde. Door e-mailrendering te gebruiken, geeft u aan dat Adobe niet verantwoordelijk is voor de gegevens die u naar dat externe systeem kunt verzenden.
 
 Voer de volgende stappen uit om de rendering van e-mail te testen:
 
@@ -32,3 +36,4 @@ Voer de volgende stappen uit om de rendering van e-mail te testen:
    >[!NOTE]
    >
    >De lijst met e-mailclients bevat een voorbeeld van de belangrijkste e-mailclients. Er zijn extra e-mailclients beschikbaar via de filterknop naast de bovenste zoekbalk.
+
