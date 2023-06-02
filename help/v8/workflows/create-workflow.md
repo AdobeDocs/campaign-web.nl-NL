@@ -4,9 +4,9 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 5c3e76ae3c28908144a219d77d82a1b868cdbbdc
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,8 @@ De eerste stap om uw werkschema in Campagne v8 Web tot stand te brengen is het o
 
    De malplaatjes van het werkschema bevatten pre-gevormde activiteiten en algemene bezitsconfiguraties die voor het creëren van nieuwe werkschema&#39;s kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole. [Leer hoe u met sjablonen werkt](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
 
-1. Vouw de sectie Aanvullende opties uit als u specifieke instellingen voor de workflow wilt configureren, zoals de opslagmap en de tijdzone. [Leer hoe u werkstroomeigenschappen configureert](workflow-settings.md)
+1. Breid uit **[!UICONTROL Additional options]** als u specifieke instellingen voor de workflow wilt configureren, zoals de opslagmap en tijdzone. [Leer hoe u werkstroomeigenschappen configureert](workflow-settings.md)
 
-1. Klik op de knop Workflow maken om te bevestigen dat u een workflow maakt.
+1. Klik op de knop **[!UICONTROL Create workflow]** om het maken van uw workflow te bevestigen.
 
 Als uw workflow is gemaakt, kunt u nu beginnen met het orchestreren van de verschillende taken die worden uitgevoerd met een speciaal visueel canvas. [Leer hoe u workflowactiviteiten kunt ordenen](orchestrate-activities.md)

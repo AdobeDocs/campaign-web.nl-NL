@@ -3,9 +3,9 @@ audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
-source-git-commit: 422f2d2cbef424a95540f359c4a5e978eace6c9f
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,23 @@ Als u een activiteit wilt verwijderen, selecteert u deze op het canvas en klikt 
 >
 >U kunt de naam van de overgangen tussen elke activiteit aanpassen. U doet dit door de overgang te selecteren en het label ervan te wijzigen in het rechterdeelvenster.
 
-Nadat u de workflow hebt voltooid, voegt u de activiteit &#39;en End&#39; aan het einde van het diagram toe. Met deze activiteit kunt u visueel het einde van een werkstroom markeren en heeft dit geen invloed op de functionaliteit.
+Hier volgt een voorbeeld van een workflow die is ontworpen om een e-mail naar alle klanten (andere dan VIP klanten) te sturen met een e-mail die geïnteresseerd is in koffiecomputers.
+
+![](assets/workflow-example.png)
+
+Hiervoor zijn de volgende activiteiten toegevoegd:
+
+* A **[!UICONTROL Fork]** activiteit die de werkstroom in drie wegen (één voor elke reeks klant) verdeelt;
+* **[!UICONTROL Build audience]** activiteiten om de drie categorieën klanten te bereiken:
+
+   * Klanten met een e-mail,
+   * Klanten die behoren tot het reeds bestaande publiek &quot;Interrested in Coffee Machine(s)&quot;,
+   * Klanten die tot het reeds bestaande &quot;VIP of beloning&quot; publiek behoren.
+
+* A **[!UICONTROL Combine]** activiteiten die klanten met een e-mail en degenen die geïnteresseerd zijn in koffiemachines verenigen;
+* A **[!UICONTROL Combine]** activiteiten die VIP klanten uitsluiten;
+* An **[!UICONTROL Email delivery]** activiteit die een e-mail naar de resulterende klanten verzendt.
+
+Nadat u de workflow hebt voltooid, voegt u **[!UICONTROL End]** activiteit aan het einde van het diagram. Met deze activiteit kunt u visueel het einde van een werkstroom markeren en heeft dit geen invloed op de functionaliteit.
 
 Nadat u het werkstroomdiagram hebt ontworpen, kunt u de werkstroom uitvoeren en de voortgang van de verschillende taken volgen. [Leer hoe u een workflow kunt starten en de uitvoering ervan kunt controleren](start-monitor-workflows.md)

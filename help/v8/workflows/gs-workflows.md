@@ -4,10 +4,10 @@ title: Aan de slag met workflows
 description: Leer hoe u begint met workflows
 badge: label="Alpha" type="Positief"
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 6e1f7a553bce9f359691aa4086b2daf3580cb1c6
+source-git-commit: 880f02c460d75c50347fb5716fbcdf7cd3908422
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 2%
+source-wordcount: '390'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 2%
 >id="acw_homepage_card4"
 >title="Weergegeven interface werkstroomcanvas"
 >abstract="Dankzij ons uitgebreide grafische canvas kunt u eenvoudig processen ontwerpen, zoals segmentatie, uitvoering van campagnes en nog veel meer. Met dit geavanceerde gereedschap binnen handbereik kunt u uw workflow stroomlijnen en uw campagnes verhogen."
-
 
 ## Wat is een workflow?
 
@@ -35,8 +34,9 @@ Met de uitgebreide grafische omgeving van Adobe Campaign kunt u processen ontwer
 
 Hier volgen enkele voorbeelden van het gebruik van workflows met Adobe Campaign:
 
-* Download een bestand van een server, pak het uit en importeer records in de Adobe Campaign-database.
-* Creeer een leveringsactie, wijs een taak aan één of meerdere exploitanten toe om aan inhoud te werken, doelstellingen te specificeren, en proefdrukken goed te keuren alvorens de levering te beginnen.
+* Een follow-upcampagne starten voor niet-actieve klanten,
+* Stuur een welkomstbericht naar alle nieuwe abonnees op een service.
+* Personaliseer over-kanaalleveringen die op de status van het klantenloyaliteitsprogramma of punten van belangstelling worden gebaseerd.
 
 ## Laten we dieper duiken
 
