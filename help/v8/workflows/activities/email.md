@@ -3,7 +3,7 @@ audience: end-user
 title: De e-mailworkflowactiviteit gebruiken
 description: Leer hoe u de e-mailworkflowactiviteit gebruikt
 badge: label="Alpha" type="Positief"
-source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
+source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Hier volgen de stappen om een **Kanaal** activiteit in een werkstroom:
 
 1. Selecteer een **Sjabloon**. Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die zijn opgeslagen voor toekomstig gebruik. [Meer informatie](../../msg/delivery-template.md)
 
-1. Klikken **Levering maken** en definieer uw bericht op dezelfde manier als wanneer u een zelfstandige levering maakt. [Meer informatie](../../msg/gs-message.md)
+1. Klikken **Levering maken** en definieer uw bericht op dezelfde manier als wanneer u een zelfstandige levering maakt. [Meer informatie](../../msg/gs-messages.md)
 
 
 1. Start de workflow en controleer logbestanden.
