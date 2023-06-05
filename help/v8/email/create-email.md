@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positief"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1272'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Ga als volgt te werk om een nieuwe levering te maken:
 
    >[!NOTE]
    >
-   >Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die zijn opgeslagen voor toekomstig gebruik. Ze kunnen door beheerders in de Adobe Campaign-console worden gemaakt. [Meer informatie over het werken met leveringssjablonen](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/create-templates.html){target="_blank"}.
+   >Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die zijn opgeslagen voor toekomstig gebruik. [Meer informatie](../msg/delivery-template.md)
 
    ![](assets/channel-template.png)
 
@@ -89,7 +89,7 @@ In dit geval gebruikt u een vooraf gedefinieerde sjabloon om ons e-mailbericht t
 
    ![](assets/select-template.png)
 
-<!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
+   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
 
     If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
 
