@@ -4,9 +4,9 @@ title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
 badge: label="Alpha" type="Positief"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 3bbdd45571d09258bba34e22de39f5281c02d248
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '366'
 ht-degree: 4%
 
 ---
@@ -34,11 +34,11 @@ Deze activiteiten zijn specifiek gericht op het richten, manipuleren en verrijke
 
 ## Kanaalactiviteiten {#channel}
 
-Met Adobe Campaign Web kunt u marketingcampagnes automatiseren en uitvoeren op meerdere kanalen, zoals e-mail, SMS of push. Met Adobe Campaign-workflows kunt u kanaalactiviteiten combineren tot het canvas om kanaalworkflows te maken die acties op basis van klantgedrag kunnen activeren.
+Met Adobe Campaign Web kunt u marketingcampagnes automatiseren en uitvoeren op meerdere kanalen, zoals e-mail, SMS of push. U kunt kanaalactiviteiten in het canvas combineren om kanaalworkflows te maken die acties op basis van klantgedrag kunnen activeren.
 
 U kunt bijvoorbeeld een welkomstcampagne voor e-mail maken met een reeks berichten via verschillende kanalen, zoals e-mail, SMS en push. U kunt ook een e-mail verzenden nadat een klant een aankoop heeft voltooid of een gepersonaliseerd verjaardagsbericht via SMS naar een klant sturen.
 
-Door kanaalactiviteiten te gebruiken, kunt u uitvoerige, gepersonaliseerde campagnes tot stand brengen die klanten over veelvoudige touchpoints en aandrijvingsomzettingen in dienst nemen.
+Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde campagnes tot stand brengen die klanten over veelvoudige touchpoints en aandrijvingsomzettingen in dienst nemen.
 
 * [Email](email.md)
 * [Push](push.md)
@@ -49,7 +49,7 @@ Door kanaalactiviteiten te gebruiken, kunt u uitvoerige, gepersonaliseerde campa
 De volgende activiteiten zijn specifiek voor het organiseren en uitvoeren van workflows. Hun voornaamste taak is de coördinatie van de andere activiteiten:
 
 * De [En-join](and-join.md) Met activiteit kunt u meerdere uitvoertakken van een workflow synchroniseren.
-* De [Einde](end.md) Met activiteit kunt u het einde van een werkstroom grafisch markeren. Deze activiteiten hebben geen functioneel effect en zijn daarom optioneel.
+* De [Einde](end.md) Met activiteit kunt u het einde van een werkstroom grafisch markeren. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
 * De [Vork](fork.md) de activiteit staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.
 * De [Wachten](wait.md) activiteit onderbreekt tijdelijk het uitvoeren van een deel van een werkstroom.
 

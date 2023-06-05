@@ -3,17 +3,27 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 badge: label="Alpha" type="Positief"
-source-git-commit: 9b639a533e75822570d6cc2b9752fc9380d069dd
+source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 1%
 
 ---
 
 
 # publiek opbouwen {#build-audience}
 
-Met deze activiteit kunt u een publiek definiëren. U kunt of een bestaand publiek selecteren of de regelbouwer gebruiken om uw eigen vraag te bepalen.
+De **publiek opbouwen** activiteit is **Doelstelling** activiteit. Met deze activiteit kunt u het publiek definiëren dat de workflow zal betreden. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit.
+
+Om de publieksbevolking te bepalen, kunt u:
+
+* Selecteer een bestaand publiek dat als een lijst in de Console van de Cliënt wordt gecreeerd.
+* Selecteer een Adobe Experience Platform-publiek.
+* Bouw een nieuw publiek met de regelbouwer door het filtreren criteria te bepalen en te combineren.
+
+>[!NOTE]
+>
+>In deze context kunt u geen publiek uit een bestand laden. Hiervoor moet u een zelfstandige levering maken. [Meer informatie](../../audience/about-audience.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
@@ -23,7 +33,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Voer de volgende stappen uit om de **publiek opbouwen** activiteit:
 
-1. Voeg een de publieksactiviteit van de Bouwstijl toe.
+1. Voeg een **publiek opbouwen** activiteit.
 1. Definieer een label.
 1. Bepaal het publiekstype: **Maak uw eigen** of **Lees publiek**.
 
