@@ -4,83 +4,87 @@ title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het Web UI van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positief"
-source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
+source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 26%
+source-wordcount: '628'
+ht-degree: 15%
 
 ---
 
 # Een controlegroep instellen {#control-group}
 
-U kunt controlegroepen gebruiken om het verzenden van berichten naar een gedeelte van uw doelgroep te vermijden, zodat u het effect van uw campagnes kunt meten.
+Een controlegroep is een subpopulatie die van de levering is uitgesloten. U kunt een controlegroep bepalen vermijden verzendend berichten naar een gedeelte van uw publiek, en post-levering gedrag met het belangrijkste doel vergelijken. Met deze optie kunt u de impact van uw campagne meten.
 
-Om dit te doen, creeer een controlegroep wanneer het bepalen van het publiek van uw levering. Profielen worden willekeurig aan de controlegroep toegevoegd, gefilterd of niet, of gebaseerd op criteria. Vervolgens kunt u het gedrag van de doelpopulatie die de boodschap heeft ontvangen vergelijken met het gedrag van contacten die niet als doelgroep werden beschouwd.
-
-De controlegroep kan willekeurig uit de hoofdtarget worden geëxtraheerd, en/of uit een specifieke populatie worden geselecteerd. Dit betekent dat u een controlegroep op twee manieren kunt definiëren:
+Om een controlegroep toe te voegen, laat de optie toe wanneer het bepalen van het publiek van uw levering. De controlegroep kan willekeurig uit de hoofdtarget worden geëxtraheerd, en/of uit een specifieke populatie worden geselecteerd. Dit betekent dat u een controlegroep op twee manieren kunt definiëren:
 
 * Een aantal profielen extraheren uit de hoofdtarget.
-* Bepaalde profielen uitsluiten op basis van criteria die in een query zijn gedefinieerd.
+* Sluit enkele profielen uit van een lijst of op basis van criteria die zijn gedefinieerd in een query.
 
-Voor het definiëren van een controlegroep kunt u beide methoden gebruiken.
+U kunt beide methoden combineren bij het definiëren van een besturingsgroep.
 
 Alle profielen die deel uitmaken van de controlegroep bij de voorbereidingsstap voor levering worden verwijderd van het hoofddoel. Ze ontvangen het bericht niet.
-
-Om een controlegroep tot stand te brengen, klik **[!UICONTROL Set Control Group]** van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking.
-
-![](assets/control-group1.png)
 
 >[!CAUTION]
 >
 >U kunt geen controlegroepen gebruiken wanneer het laden van de doelpopulatie [van een extern bestand](file-audience.md).
+
+Als u een controlegroep wilt toevoegen aan een levering, activeert u de optie **[!UICONTROL Enable control group]** schakelen tussen **Publiek** van het scherm voor het maken van de levering.
+
+![De optie Besturingsgroep inschakelen](assets/control-group1.png)
 
 
 ## Extraheren uit doel {#extract-target}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
->title="Extraheren uit doel"
+>title="Extractiemodus"
 >abstract="Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren."
 
-Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren.
+
+### Een controlegroep samenstellen {#build-extract-target}
+
+Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren. Als u liever een extra populatie toevoegt, kiest u de optie **Geen extractie** en selecteert u de extra populatie [zoals hier beschreven](#extra-population).
 
 Definieer eerst de manier waarop de profielen uit het doel worden geëxtraheerd: willekeurig of gebaseerd op een sortering.
 
-Onder de **Extraheren uit doel** in, kiest u een **Het type Uitsluiting**:
+Onder de **Controlegroep** in, kiest u een **Extractiemodus**:
 
 * **Willekeurig**: bij het voorbereiden van de levering haalt Adobe Campaign willekeurig een aantal profielen op dat overeenkomt met het percentage of het maximumaantal dat als de groottebeperking is ingesteld.
-
-   ![](assets/control-group.png)
 
 * **Gerangschikt op kenmerk(en)**: Met deze optie kunt u een set profielen op basis van specifieke kenmerken in een specifieke sorteervolgorde uitsluiten.
 
    ![](assets/control-group2.png)
 
-Definieer vervolgens de **Groottebeperking**: u moet instellen hoe u het aantal profielen dat u uit het hoofddoel extraheert, gaat beperken.
+Gebruik vervolgens de **Groottebeperking** om het aantal profielen in te stellen dat u uit het hoofddoel moet extraheren. Het kan een onbewerkt getal of een percentage van het eerste publiek zijn.
 
-**Voorbeeld**
+### Controleer uw controlegroep {#check-extract-target}
 
 U kunt de logboeken bekijken om de uitgesloten profielen te controleren en te identificeren. Laten we het voorbeeld nemen van een willekeurige uitsluiting op vijf profielen.
 
 ![](assets/control-group4.png)
 
-Na de voorbereiding van de levering kunt u de uitsluitingen op de volgende schermen bekijken:
+Na de voorbereiding van de levering kunt u bekijken hoe de uitsluitingen werden toegepast:
 
-* De **Uitsluiten** KPI in het leveringsdashboard, vóór het verzenden.
+* Controleer in het bezorgdashboard, vóór de verzending, het **Uitsluiten** KPI.
 
    ![](assets/control-group5.png)
 
-* De **Uitsluitingslogboeken** elk profiel en de gerelateerde uitsluiting weergeven **Reden**.
+* In de leveringslogboeken, toont het lusje van Logs de uitsluitingsstap.
+
+   ![](assets/control-group-sample-logs.png)
+
+
+* De **Uitsluitingslogboeken** tabblad geeft elk profiel en de gerelateerde uitsluiting weer **Reden**.
 
    ![](assets/control-group6.png)
 
-* De **Uitsluiting veroorzaakt** het aantal uitgesloten profielen voor elke typologieregel weergeven.
+* De **Uitsluiting veroorzaakt** wordt het aantal uitgesloten profielen voor elke typeregel weergegeven.
 
    ![](assets/control-group7.png)
 
 Voor meer informatie over leveringslogboeken, verwijs naar dit [sectie](../monitor/delivery-logs.md).
 
-## Extra populatie {#extra-population}
+## Een extra populatie toevoegen {#extra-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
