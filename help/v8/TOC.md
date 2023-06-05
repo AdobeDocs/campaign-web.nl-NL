@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: f53fce6ee89e5b384e5385304c54c4898f21c63f
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '316'
 ht-degree: 12%
 
 ---
@@ -46,8 +46,6 @@ ht-degree: 12%
             + [Verticale uitlijning en opvulling aanpassen](content/alignment-and-padding.md)
             + [Een stijl voor koppelingen definiëren](content/styling-links.md)
             + [Inline-opmaakkenmerken toevoegen](content/inline-styling.md)
-         + [Aanpassing toevoegen](personalization/personalize.md)
-         + [Voorwaardelijke inhoud toevoegen](personalization/conditions.md)
          + [Aanbiedingen verzenden](content/offers.md)
       + Uw e-mail voorvertonen en testen {#preview-test}
          + [Voorvertonen en testen](preview-test/preview-test.md)
@@ -67,6 +65,10 @@ ht-degree: 12%
       + [Een sms-levering maken](sms/create-sms.md)
       + [Een SMS-verzending ontwerpen ](sms/content-sms.md)
       + [Verzend een SMS-levering ](sms/send-sms.md)
+   + Uw inhoud dynamisch maken {#dynamic-content}
+      + [Aan de slag met dynamische inhoud](personalization/gs-personalization.md)
+      + [Aanpassing toevoegen](personalization/personalize.md)
+      + [Voorwaardelijke inhoud toevoegen](personalization/conditions.md)
 + Soorten publiek en ontvangers {#audiences}
    + [Aan de slag met het publiek](audience/about-audiences.md)
    + [Bestaande doelgroep selecteren](audience/add-audience.md)
