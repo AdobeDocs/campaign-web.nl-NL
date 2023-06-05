@@ -3,15 +3,36 @@ audience: end-user
 title: De e-mailworkflowactiviteit gebruiken
 description: Leer hoe u de e-mailworkflowactiviteit gebruikt
 badge: label="Alpha" type="Positief"
-source-git-commit: 6af0b460a3c81f063a855b2fabba221b43e4ebb9
+source-git-commit: 941e57e2ffdcaa87553fb36c66bdb3c383fe330e
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '253'
 ht-degree: 2%
 
 ---
 
 
-# Email {#email}
+# E-mail, SMS, Push {#email}
+
+Met Adobe Campaign Web kunt u marketingcampagnes automatiseren en uitvoeren op meerdere kanalen, zoals e-mail, SMS of push. U kunt kanaalactiviteiten in het canvas combineren om kanaalworkflows te maken die acties op basis van klantgedrag kunnen activeren.
+
+U kunt bijvoorbeeld een welkomstcampagne voor e-mail maken met een reeks berichten via verschillende kanalen, zoals e-mail, SMS en push. U kunt ook een e-mail verzenden nadat een klant een aankoop heeft voltooid of een gepersonaliseerd verjaardagsbericht via SMS naar een klant sturen.
+
+Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde campagnes tot stand brengen die klanten over veelvoudige touchpoints en aandrijvingsomzettingen in dienst nemen.
+
+Hier volgen de stappen om een **Kanaal** activiteit in een werkstroom:
+
+1. Controleer of u een **publiek opbouwen** activiteit. Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit. Zie [deze sectie](build-audience.md).
+
+   ![](../../msg/assets/add-delivery-in-wf.png)
+
+1. Selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**.
+
+1. Selecteer een **Sjabloon**. Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die zijn opgeslagen voor toekomstig gebruik. [Meer informatie](../../msg/delivery-template.md)
+
+1. Klikken **Levering maken** en definieer uw bericht op dezelfde manier als wanneer u een zelfstandige levering maakt. [Meer informatie](../../msg/gs-message.md)
+
+
+1. Start de workflow en controleer logbestanden.
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
@@ -19,11 +40,11 @@ description, which use case you can perform (common other activities that you ca
 how to add and configure the activity
 
 example of a configured activity within a workflow
+The Email delivery activity allows you to configure the sending an email in a workflow. 
 
 -->
 
 
-Met de activiteit E-mail verzenden kunt u het verzenden van een e-mail configureren in een workflow.
 
 <!-- Scheduled emails available?
 
