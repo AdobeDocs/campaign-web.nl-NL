@@ -5,7 +5,7 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: ec6a9f604c0ce06c503da36b6d8fbccd3557aded
+source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 12%
@@ -23,8 +23,8 @@ ht-degree: 12%
    + [Aan de slag](get-started/get-started.md)
    + [De interface detecteren](get-started/user-interface.md)
 + Berichten en leveringen {#msg}
-   + [Aan de slag met berichten](email/gs-messages.md)
-   + [Werken met leveringssjablonen](email/delivery-template.md)
+   + [Aan de slag met berichten](msg/gs-messages.md)
+   + [Werken met leveringssjablonen](msg/delivery-template.md)
    + E-mails {#email}
       + [Uw eerste e-mail maken](email/create-email.md)
       + E-mailinhoud maken {#content}

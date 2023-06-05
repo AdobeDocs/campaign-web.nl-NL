@@ -4,10 +4,10 @@ title: Aan de slag met het publiek
 description: Leer hoe te om publiek in het Web UI van de Campagne te gebruiken
 badge: label="Alpha" type="Positief"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,14 +35,16 @@ show use case with a new audience creation (or import from file?)
 control groups like acc: exract, random, based on attribute
 -->
 
+
+Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Het type publiek hangt van de doelafbeelding af die in het leveringsmalplaatje wordt bepaald. Zie dit [sectie](../msg/delivery-template.md).
+
 Leer hoe te om de regelbouwer van de Campagne te gebruiken en het filtreren criteria te bepalen om het publiek van uw berichten te selecteren. U kunt eenvoudig gegevens uit een extern bestand gebruiken of een Adobe Experience Platform-publiek als doel instellen.
 
-Het publiek is het belangrijkste doel van uw levering: de ontvangers die de e-mail ontvangen. Het type publiek hangt van de doelafbeelding af die in het leveringsmalplaatje wordt bepaald. Zie dit [sectie](../email/create-email.md).
 
 Om het publiek te bepalen, kunt u:
 
-* Gebruik een bestaand publiek. [Meer informatie](add-audience.md)
-* Maak een nieuw publiek. [Meer informatie](segment-builder.md)
+* Selecteer een bestaand publiek dat u in de clientconsole hebt gemaakt. [Meer informatie](add-audience.md)
+* Bouw een nieuw publiek met de regelbouwer. [Meer informatie](segment-builder.md)
 * Gebruik een publiek uit een extern bestand. [Meer informatie](file-audience.md)
 * Gebruik een Adobe Experience Platform-publiek. [Meer informatie](aep-audience.md)
 
