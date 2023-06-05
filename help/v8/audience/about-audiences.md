@@ -4,10 +4,10 @@ title: Aan de slag met het publiek
 description: Leer hoe te om publiek in het Web UI van de Campagne te gebruiken
 badge: label="Alpha" type="Positief"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '217'
+ht-degree: 4%
 
 ---
 
@@ -36,17 +36,16 @@ control groups like acc: exract, random, based on attribute
 -->
 
 
-Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Het type publiek hangt van de doelafbeelding af die in het leveringsmalplaatje wordt bepaald. Zie dit [sectie](../msg/delivery-template.md).
+Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Het type publiek hangt van de doelafbeelding af die in het leveringsmalplaatje wordt bepaald. Meer weten over een leveringssjabloon [in deze sectie](../msg/delivery-template.md).
 
-Leer hoe te om de regelbouwer van de Campagne te gebruiken en het filtreren criteria te bepalen om het publiek van uw berichten te selecteren. U kunt eenvoudig gegevens uit een extern bestand gebruiken of een Adobe Experience Platform-publiek als doel instellen.
+Om de publieksbevolking te bepalen, kunt u:
 
+* Selecteer een bestaand publiek dat als een lijst in de Console van de Cliënt wordt gecreeerd. [Meer informatie](add-audience.md)
+* Selecteer een Adobe Experience Platform-publiek. [Meer informatie](aep-audience.md)
+* Bouw een nieuw publiek met de regelbouwer door het filtreren criteria te bepalen en te combineren. [Meer informatie](segment-builder.md)
+* Een publiek uit een extern bestand gebruiken: deze optie is alleen beschikbaar voor zelfstandige e-mailleveringen en kan niet worden gebruikt in campagneleveringen. [Meer informatie](file-audience.md)
 
-Om het publiek te bepalen, kunt u:
-
-* Selecteer een bestaand publiek dat u in de clientconsole hebt gemaakt. [Meer informatie](add-audience.md)
-* Bouw een nieuw publiek met de regelbouwer. [Meer informatie](segment-builder.md)
-* Gebruik een publiek uit een extern bestand. [Meer informatie](file-audience.md)
-* Gebruik een Adobe Experience Platform-publiek. [Meer informatie](aep-audience.md)
+Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het publiek bepaald in een specifiek **Lees publiek** workflowactiviteit. In deze context kunt u geen publiek uit een bestand laden voor e-maillevering en wordt het publiek alleen gedefinieerd in deze toegewijde activiteit. Leer hoe u het publiek van uw levering kunt definiëren in een campagneworkflow [in deze sectie](../workflows/orchestrate-activities.md).
 
 Bovendien kunt u controlegroepen bepalen vermijden verzendend berichten naar een gedeelte van uw publiek, en de invloed van uw campagnes meten. [Meer informatie](control-group.md)
 
