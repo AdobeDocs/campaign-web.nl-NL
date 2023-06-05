@@ -4,7 +4,7 @@ title: E-mailleveringsinstellingen
 description: Meer informatie over instellingen voor e-maillevering in de gebruikersinterface van het campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positief"
-source-git-commit: b5af5099d62e0e424fffdd8eb74d67f12777b0f2
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 10%
@@ -174,7 +174,7 @@ De volgende parameters worden bepaald in de verwante sectie. Mogelijke opties zi
 
 **Vervangende URL voor verlopen URL&#39;s**: Gebruik deze optie om een URL in te voeren naar een fallback-webpagina: wordt weergegeven nadat de reeksspatiëring is verlopen.
 
-## Testinstellingen {#test-setttings}
+## Instellingen testen {#test-setttings}
 
 U kunt de uitsluitingsparameters in deze sectie instellen. Beschikbare opties zijn:
 
@@ -188,4 +188,4 @@ U kunt ook de naam van de teste-mails aanpassen.
 
 Gebruik de **De leveringscode voor de proefdruk behouden** om aan de teste-mail de zelfde leveringscode te associëren die voor de levering wordt bepaald waarop het betrekking heeft.
 
-Standaard wordt het onderwerp van de teste-mail voorafgegaan door &quot;PROOF #&quot;, waarbij # het nummer van de teste-mail is. U kunt dit voorvoegsel wijzigen in het dialoogvenster **Label, voorvoegsel** veld.
+Standaard wordt het onderwerp van de teste-mail voorafgegaan door &#39;PROOF #&#39;, waarbij # het nummer van de teste-mail is. U kunt dit voorvoegsel wijzigen in het dialoogvenster **Label, voorvoegsel** veld.

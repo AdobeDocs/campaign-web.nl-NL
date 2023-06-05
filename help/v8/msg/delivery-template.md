@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '906'
 ht-degree: 3%
 
 ---
@@ -19,14 +19,13 @@ Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om 
 
 Een sjabloon kan het volgende bevatten:
 
-<!--[Typologies](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html)?
-Sender and reply-to addresses?-->
+* [Typologieën](../advanced-settings/delivery-settings.md#typology)
+* Het adres van de afzender
 * An [publiek](../audience/about-audiences.md), met inbegrip van [controlegroepen](../audience/control-group.md)
-* Aangepast [content](../content/edit-content.md)<!--company logo, or signature-->
-* [Persoonlijke velden](../personalization/personalize.md) en [voorwaardelijke inhoud](../personalization/conditions.md) <!--basic [personalization blocks](../personalization/personalize.md#ootb-content-blocks)-->
+* Aangepast [content](../content/edit-content.md)
+* [Persoonlijke velden](../personalization/personalize.md) en [voorwaardelijke inhoud](../personalization/conditions.md)
 * Koppelingen naar [spiegelpagina](../content/mirror-page.md) en uit-abonnement [koppelingen](../content/message-tracking.md)
-
-<!--Other delivery properties, such as resource validity, retry parameters, or quarantine settings.-->
+* Andere leveringseigenschappen, zoals middelgeldigheid, retry parameters, of quarantaine montages.
 
 ## Sjablonen openen en beheren {#access-manage-templates}
 

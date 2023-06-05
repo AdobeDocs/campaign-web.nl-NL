@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha" type="Positief"
-source-git-commit: db3bb5c9805ce5c04ea657cf2d71c5528a9980d3
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1269'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Ga als volgt te werk om een nieuwe levering te maken:
 
 1. Bladeren naar de **[!UICONTROL Deliveries]** op de linkerspoorstaaf en klik op  **[!UICONTROL Create delivery]** knop.
 
-1. Selecteren **[!UICONTROL Email]** als het kanaal en kies een sjabloon.
+1. Selecteren **[!UICONTROL Email]** als het kanaal en kies een sjabloon voor e-maillevering in de lijst.
 
    >[!NOTE]
    >
@@ -67,15 +67,19 @@ Ga als volgt te werk om een nieuwe levering te maken:
 
    Bovendien, kunnen de geavanceerde montages, zoals typologieregels en doelafbeeldingen, worden betreden door de knoop te klikken die naast de leveringsnaam wordt gevestigd. Deze instellingen zijn vooraf geconfigureerd in de geselecteerde sjabloon, maar kunnen zo nodig worden bewerkt voor deze specifieke e-mail.
 
-## E-mailinhoud maken {#create-content}
+## De e-mailcontent opgeven {#create-content}
 
-Gedetailleerde instructies over het configureren van de e-mailinhoud zijn beschikbaar in [deze sectie](../content/edit-content.md).
+Volg onderstaande stappen om uw e-mailinhoud te maken.
 
-In dit geval gebruikt u een vooraf gedefinieerde sjabloon om ons e-mailbericht te ontwerpen.
+<!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
 
-1. Als u de e-mailinhoud wilt gaan maken, opent u de e-maillevering en klikt u op de knop **[!UICONTROL Edit content]** knop.
+In dit geval gebruikt u een vooraf gedefinieerde e-mail [leveringssjabloon](../msg/delivery-template.md) om uw e-mail te ontwerpen.
 
-   Hiermee gaat u naar een speciale interface waar u de e-mailinhoud kunt configureren en ontwerpen met de e-mailontwerper.
+1. Klik op het dashboard voor e-maillevering op de knop **[!UICONTROL Edit content]** knop.
+
+   ![](assets/email-edit-content.png)
+
+   Hiermee gaat u naar een speciale interface waar u de e-mailinhoud kunt configureren en toegang kunt krijgen tot de e-mailontwerper. [Meer informatie](../content/edit-content.md)
 
    ![](assets/edit-content.png)
 
@@ -85,7 +89,7 @@ In dit geval gebruikt u een vooraf gedefinieerde sjabloon om ons e-mailbericht t
 
 1. Als u de inhoud van de e-mail wilt ontwerpen, klikt u op de knop **[!UICONTROL Edit email body]** knop.
 
-   Kies de methode die u wilt gebruiken om uw e-mailinhoud te maken. In dit voorbeeld gebruikt u een vooraf gedefinieerde ontwerpsjabloon.
+   Kies de methode die u wilt gebruiken om uw e-mailinhoud te maken. In dit voorbeeld gebruikt u een [vooraf gedefinieerde inhoudssjabloon](../msg/delivery-template.md).
 
    ![](assets/select-template.png)
 
@@ -95,7 +99,7 @@ In dit geval gebruikt u een vooraf gedefinieerde sjabloon om ons e-mailbericht t
 
     ![](assets/import-folder.png)-->
 
-1. Nadat u de sjabloon hebt geselecteerd, wordt deze weergegeven in de e-mailontwerper, waar u eventueel noodzakelijke bewerkingen kunt uitvoeren en personalisatie kunt toevoegen.
+1. Nadat u de sjabloon hebt geselecteerd, wordt deze weergegeven in het dialoogvenster [E-mailontwerper](../content/create-email-content.md), waar u eventueel noodzakelijke bewerkingen kunt uitvoeren en personalisatie kunt toevoegen.
 
    Als u bijvoorbeeld personalisatie wilt toevoegen aan de e-mailtitel, selecteert u het componentblok en klikt u op **[!UICONTROL Add Personalization]**.
 

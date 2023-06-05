@@ -5,10 +5,10 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 12%
+source-wordcount: '322'
+ht-degree: 13%
 
 ---
 
@@ -27,14 +27,15 @@ ht-degree: 12%
    + [Werken met leveringssjablonen](msg/delivery-template.md)
    + E-mails {#email}
       + [Uw eerste e-mail maken](email/create-email.md)
-      + E-mailinhoud maken {#content}
-         + [E-mailinhoud bewerken](content/edit-content.md)
-         + Uw e-mail ontwerpen {#design-content}
-            + Beginnen met het ontwerpen van uw inhoud {#start-design}
-               + [Opnieuw starten ](content/create-email-content.md)
-               + [Uw e-mailinhoud importeren](content/existing-content.md)
-               + [Uw eigen inhoud coderen](content/code-content.md)
-               + [Sjablonen voor e-mailinhoud gebruiken](content/email-sample-templates.md)
+      + E-mailinhoud definiëren {#content}
+         + [Uw e-mailinhoud configureren](content/edit-content.md)
+         + Uw e-mail beginnen te vormen {#start-design}
+            + [Aan de slag met Email Designer](content/get-started-email-designer.md)
+            + [Opnieuw starten ](content/create-email-content.md)
+            + [Uw e-mailinhoud importeren](content/existing-content.md)
+            + [Uw eigen inhoud coderen](content/code-content.md)
+            + [Sjablonen voor e-mailinhoud gebruiken](content/email-templates.md)
+         + Uw inhoud ontwerpen {#design-content}
             + [Inhoudscomponenten gebruiken](content/content-components.md)
             + [De tekstversie genereren](content/text-version-email.md)
             + [Een koppeling toevoegen aan de spiegelpagina](content/mirror-page.md)
