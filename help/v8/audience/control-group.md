@@ -4,10 +4,10 @@ title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het Web UI van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positief"
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 15%
+source-wordcount: '738'
+ht-degree: 12%
 
 ---
 
@@ -53,9 +53,21 @@ Onder de **Controlegroep** in, kiest u een **Extractiemodus**:
 
 * **Gerangschikt op kenmerk(en)**: Met deze optie kunt u een set profielen op basis van specifieke kenmerken in een specifieke sorteervolgorde uitsluiten.
 
+
+Gebruik vervolgens de **Groottebeperking** om het aantal profielen in te stellen dat u uit het hoofddoel moet extraheren. Dit kan een onbewerkt getal zijn (bijvoorbeeld 50 profielen om uit te sluiten) of een percentage van het oorspronkelijke publiek (bijvoorbeeld 5% van het hoofddoel).
+
+
+### Monster van controlegroep
+
+Bijvoorbeeld, om een controlegroep met de 100 nieuwe jongste ontvangers tot stand te brengen, volg deze stappen:
+
+1. Selecteer **Leeftijd** veld als sorteercriterium. Laat de **Oplopend** sorteeroptie.
+1. Voeg de **Aanmaakdatum** veld. Wijzigen in de **Aflopend** sorteeroptie.
+1. Definieer 100 als de drempel in het dialoogvenster **Groottebeperking** sectie.
+
    ![](assets/control-group2.png)
 
-Gebruik vervolgens de **Groottebeperking** om het aantal profielen in te stellen dat u uit het hoofddoel moet extraheren. Het kan een onbewerkt getal of een percentage van het eerste publiek zijn.
+Deze 100 nieuwe jongste ontvangers worden dan uitgesloten van het hoofddoel.
 
 ### Controleer uw controlegroep {#check-extract-target}
 
@@ -89,7 +101,7 @@ Voor meer informatie over leveringslogboeken, verwijs naar dit [sectie](../monit
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Extra populatie"
->abstract="Een andere manier om een controlegroep te bepalen is een specifieke bevolking van het doel uit te sluiten gebruikend een bestaand publiek of door een vraag te bepalen."
+>abstract="U kunt een specifieke populatie van het doel uitsluiten door een bestaand publiek te selecteren of door een query te definiëren."
 
 Een andere manier om een controlegroep te bepalen is een specifieke bevolking van het doel uit te sluiten gebruikend een bestaand publiek of door een vraag te bepalen.
 
@@ -102,3 +114,8 @@ Van de **Extra populatie** van de **Controlegroep** definitiescherm, klik **[!UI
 * Als u een nieuwe query wilt definiëren, selecteert u **Maak uw eigen** en definieert u de uitsluitingscriteria met behulp van de regelbouwer. Zie dit [sectie](segment-builder.md).
 
 De profielen die zijn opgenomen in het publiek of die overeenkomen met het resultaat van de query, worden uitgesloten van het doel.
+
+## De resultaten vergelijken{#control-group-results}
+
+Zodra de levering wordt verzonden, kunt u de verzendende logboeken halen om gedrag tussen de profielen te vergelijken die niet de mededeling en het efficiënte doel ontvingen. U kunt de leveringslogboeken ook gebruiken om een nieuwe het richten te bouwen.
+
