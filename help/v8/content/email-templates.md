@@ -4,7 +4,7 @@ product: campaign
 title: Werken met e-mailsjablonen
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Alpha" type="Positief"
-source-git-commit: 1916b0f7787bf1881bd51de26173157e7d60d3bb
+source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -29,7 +29,7 @@ In de onderstaande secties vindt u informatie over het gebruik van sjablonen en 
 
 Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van de voorbeeldsjablonen of opgeslagen sjablonen.
 
-1. Open de [e-mailontwerper](create-email-content.md).
+1. Open de [E-mailontwerper](create-email-content.md).
 
 1. Op de **[!UICONTROL Create your email]** scherm, de **[!UICONTROL Sample templates]** is standaard geselecteerd.
 
@@ -67,6 +67,6 @@ Voer de onderstaande stappen uit om e-mailinhoud als sjabloon op te slaan:
 
    ![](assets/email_designer-template-name.png)
 
-U kunt nu [deze sjabloon gebruiken](#use-templates) om nieuwe inhoud te maken: het is beschikbaar in de **[!UICONTROL Saved templates]** tabblad van de e-mailontwerper.
+U kunt nu [deze sjabloon gebruiken](#use-templates) om nieuwe inhoud te maken: het is beschikbaar in de **[!UICONTROL Saved templates]** tabblad van e-mailontwerper.
 
 ![](assets/email_designer-saved-template.png)
