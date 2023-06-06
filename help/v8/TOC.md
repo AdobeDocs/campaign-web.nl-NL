@@ -5,10 +5,10 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
+source-git-commit: 467a2475c7610e8124c8babea6f63bd521a3aba4
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 13%
+ht-degree: 12%
 
 ---
 
@@ -94,12 +94,10 @@ ht-degree: 13%
       + [En-join](workflows/activities/and-join.md)
       + [publiek opbouwen](workflows/activities/build-audience.md)
       + [Combineren](workflows/activities/combine.md)
-      + [Email](workflows/activities/email.md)
+      + [E-mail, SMS, Push](workflows/activities/email.md)
       + [Einde](workflows/activities/end.md)
       + [Verrijking](workflows/activities/enrichment.md)
       + [Vertakking](workflows/activities/fork.md)
-      + [Push](workflows/activities/push.md)
-      + [Sms](workflows/activities/sms.md)
       + [Wachten](workflows/activities/wait.md)
 + Rapportage {#reports}
    + [Aan de slag met rapporten](reporting/gs-reports.md)
