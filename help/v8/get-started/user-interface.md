@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1591'
 ht-degree: 0%
 
 ---
@@ -405,3 +405,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_spam"
 >title="Spam"
 >abstract="Spam KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="Fouten"
+>abstract="Fouten in KPI"
