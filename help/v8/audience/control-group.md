@@ -4,9 +4,9 @@ title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het Web UI van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positief"
-source-git-commit: 6624821f70a7ef75c97cb3f3ca233dd7446b8922
+source-git-commit: a92066cf5cf2a8b86ebad2098624259792eb8afd
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '759'
 ht-degree: 12%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 12%
 # Een controlegroep instellen {#control-group}
 
 Een controlegroep is een subpopulatie die van de levering is uitgesloten. U kunt een controlegroep bepalen vermijden verzendend berichten naar een gedeelte van uw publiek, en post-levering gedrag met het belangrijkste doel vergelijken. Met deze optie kunt u de impact van uw campagne meten.
+
+## Controlegroep inschakelen{#add-a-control-group}
 
 Om een controlegroep toe te voegen, laat de optie toe wanneer het bepalen van het publiek van uw levering. De controlegroep kan willekeurig uit de hoofdtarget worden geëxtraheerd, en/of uit een specifieke populatie worden geselecteerd. Dit betekent dat u een controlegroep op twee manieren kunt definiëren:
 
@@ -57,7 +59,7 @@ Onder de **Controlegroep** in, kiest u een **Extractiemodus**:
 Gebruik vervolgens de **Groottebeperking** om het aantal profielen in te stellen dat u uit het hoofddoel moet extraheren. Dit kan een onbewerkt getal zijn (bijvoorbeeld 50 profielen om uit te sluiten) of een percentage van het oorspronkelijke publiek (bijvoorbeeld 5% van het hoofddoel).
 
 
-### Monster van controlegroep
+### Monster van controlegroep{#control-group-sample}
 
 Bijvoorbeeld, om een controlegroep met de 100 nieuwe jongste ontvangers tot stand te brengen, volg deze stappen:
 
@@ -69,7 +71,7 @@ Bijvoorbeeld, om een controlegroep met de 100 nieuwe jongste ontvangers tot stan
 
 Deze 100 nieuwe jongste ontvangers worden dan uitgesloten van het hoofddoel.
 
-### Controleer uw controlegroep {#check-extract-target}
+### Controleer uw controlegroep {#check-control-group}
 
 U kunt de logboeken bekijken om de uitgesloten profielen te controleren en te identificeren. Laten we het voorbeeld nemen van een willekeurige uitsluiting op vijf profielen.
 
@@ -118,4 +120,7 @@ De profielen die zijn opgenomen in het publiek of die overeenkomen met het resul
 ## De resultaten vergelijken{#control-group-results}
 
 Zodra de levering wordt verzonden, kunt u de verzendende logboeken halen om gedrag tussen de profielen te vergelijken die niet de mededeling en het efficiënte doel ontvingen. U kunt de leveringslogboeken ook gebruiken om een nieuwe het richten te bouwen.
+
+Als u wilt zien welke profielen uit het doel zijn verwijderd, controleert u de knop **Leveringslogboeken**. Meer informatie [in deze sectie](#check-control-group).
+
 
