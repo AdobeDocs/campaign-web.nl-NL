@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 8f2273c1551fb02ec6ea7ea2286e196684c85f33
 workflow-type: tm+mt
-source-wordcount: '1506'
+source-wordcount: '1508'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ De items die in de Verkenner worden weergegeven, zijn afhankelijk van uw gebruik
 
 Zoals in om het even welk lijstscherm, kunt u kolommen vormen om de vertoning te personaliseren om alle informatie te bekijken u wenst. Zie dit [sectie](#list-screens).
 
-Raadpleeg voor meer informatie over de Campagneverkenner deze [documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/ac-ui/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Raadpleeg voor meer informatie over de Campagneverkenner het volgende [Campagne v8 Console-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
