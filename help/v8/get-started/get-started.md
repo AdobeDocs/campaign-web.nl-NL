@@ -4,7 +4,7 @@ title: Aan de slag met Campagne v8 Web
 description: Aan de slag met Campagne v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positief"
-source-git-commit: 656ca0801757cb8e781063bed8c77c3cfbe27e99
+source-git-commit: ff50eeb6fe5e84834a9bb7bffa0dc52e4b7cd174
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Campagnegegevens worden opgeslagen in de toepassingsserver. Gegevens zijn zowel 
 ## Verbinding maken met Campaign
 
 
-1. Verbinden met [Adobe Experience Cloud](http://experience.adobe.com){target="_blank"}.
+1. Verbinden met [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
 1. Meld u aan met uw Adobe-referenties.
 1. In de **Snelle toegang** sectie, klikt u op **Campagne**.
    ![](assets/connect.png)
