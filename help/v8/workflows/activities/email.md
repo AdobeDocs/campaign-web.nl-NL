@@ -3,15 +3,15 @@ audience: end-user
 title: De e-mailworkflowactiviteit gebruiken
 description: Leer hoe u de e-mailworkflowactiviteit gebruikt
 badge: label="Alpha" type="Positief"
-source-git-commit: 3df57348b82b4efc871166a5b5a6163f3a950b44
+source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '308'
 ht-degree: 2%
 
 ---
 
 
-# E-mail, SMS, Push {#email}
+# E-mail, SMS, Push {#channel}
 
 Met Adobe Campaign Web kunt u marketingcampagnes automatiseren en uitvoeren op meerdere kanalen, zoals e-mail, SMS of push. U kunt kanaalactiviteiten in het canvas combineren om kanaalworkflows te maken die acties op basis van klantgedrag kunnen activeren.
 
@@ -29,10 +29,18 @@ Hier volgen de stappen om een **Kanaal** activiteit in een werkstroom:
 
 1. Selecteer een **Sjabloon**. Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die zijn opgeslagen voor toekomstig gebruik. [Meer informatie](../../msg/delivery-template.md)
 
-1. Klikken **Levering maken** en definieer uw bericht op dezelfde manier als wanneer u een zelfstandige levering maakt. [Meer informatie](../../msg/gs-messages.md)
+1. Klikken **Levering maken** en definieer uw bericht op dezelfde manier als wanneer u een zelfstandige levering maakt. Op deze manier definieert u ook de leveringsinstellingen, plant en simuleert u de inhoud. [Meer informatie](../../msg/gs-messages.md)
 
+1. Ga terug naar uw workflow en klik op **Start** om uw workflow te starten.
 
-1. Start de workflow en controleer logbestanden.
+   Door gebrek, leidt het in werking stellen van een leveringswerkschema tot het stadium van de berichtvoorbereiding, zonder onmiddellijk het bericht te verzenden.
+
+1. Klikken **Controleren en verzenden** van de kanaalactiviteit om het verzenden te bevestigen.
+
+1. Van uw leveringsdashboard, klik **Verzenden**.
+
+## Voorbeeld
+
 
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
