@@ -3,9 +3,9 @@ audience: end-user
 title: De e-mailworkflowactiviteit gebruiken
 description: Leer hoe u de e-mailworkflowactiviteit gebruikt
 badge: label="Alpha" type="Positief"
-source-git-commit: 262f3bbbacb7bf22fe288bbf65b84f544eedec3c
+source-git-commit: caa994a1f390248c9fe11da198ab73197b129263
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '357'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,9 @@ Hier volgen de stappen om een **Kanaal** activiteit in een werkstroom:
 
 ## Voorbeeld
 
+Hier volgt een voorbeeld van een workflow tussen kanalen met een segmentatie en twee leveringen. De workflow is gericht op alle klanten die een e-mailadres hebben en die geïnteresseerd zijn in koffiezetapparaten. Onder deze populatie wordt een e-mail verzonden naar de gewone klanten en een SMS-bericht verzonden naar de VIP.
 
+![](../assets/workflow-channel-example.png)
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
