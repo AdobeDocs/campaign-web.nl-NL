@@ -4,9 +4,9 @@ title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
 badge: label="Alpha" type="Positief"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
+source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '307'
 ht-degree: 5%
 
 ---
@@ -38,9 +38,11 @@ Met Adobe Campaign Web kunt u marketingcampagnes automatiseren en uitvoeren op m
 
 Het volgende **Kanaal** de activiteiten zijn beschikbaar :
 
-* [Email](email.md)
-* [Push](push.md)
-* [Sms](sms.md)
+* Email
+* Push
+* Sms
+
+Zie dit [sectie](enrichment.md).
 
 ## Stroombeheeractiviteiten {#flow-control}
 
