@@ -4,14 +4,14 @@ title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 badge: label="Alpha" type="Positief"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: fd9a5724aa9b97bffc6d143853742e0107bd3483
+source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
-# Ontvangers uit een bestand laden {#audience-from-file}
+# Een e-mailpubliek laden vanuit een bestand {#audience-from-file}
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_select"
@@ -28,32 +28,33 @@ ht-degree: 0%
 >title="Parameters opmaken"
 >abstract="Controleer de opmaakparameters voor het bestand."
 
-U kunt contactpersonen uploaden vanuit een extern bestand. Deze mogelijkheid is alleen beschikbaar voor e-mailleveringen. Ondersteunde bestandsindelingen zijn: tekst (TXT) en komma-gescheiden waarde (CSV). Profielen worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor personalisatie.
+U kunt contactpersonen uploaden vanuit een extern bestand. Profielen worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../personalization/gs-personalization.md). Ondersteunde bestandsindelingen zijn: tekst (TXT) en komma-gescheiden waarde (CSV).
 
->[!NOTE]
+>[!CAUTION]
 >
->U kunt een importworkflow maken om meerdere profielen aan de database toe te voegen of bij te werken. Meer informatie
+>* Deze mogelijkheid is alleen beschikbaar voor **zelfstandige e-maillevering**. Het kan niet in werkschema&#39;s, noch met SMS of de levering van de Duw worden gebruikt.
+>
+>* U kunt niet [controlegroepen](control-group.md) bij het laden van de doelpopulatie uit een extern bestand.
 
 
-Voer de volgende stappen uit als u profielen rechtstreeks vanuit de interface wilt richten op een lokaal bestand:
 
+Voer de volgende stappen uit als u profielen rechtstreeks vanuit de e-mailinterface in een lokaal bestand als doel wilt instellen:
+
+1. Open een bestaande e-maillevering, of [een nieuwe e-maillevering maken](../email/create-email.md).
 1. In het venster voor het maken van de e-maillevering, vanuit het dialoogvenster **Publiek** klikt u op de **Doelgroep selecteren** en kiest u **Selecteren uit bestand** optie.
 
    ![](assets/select-from-file.png)
 
-1. Selecteer het lokale bestand dat u wilt uploaden.
+1. Selecteer het lokale bestand dat u wilt uploaden. De indeling moet zijn afgestemd op de [voorbeeldbestand](#sample-file).
 1. In het centrale gedeelte van het scherm kunt u bekijken en controleren hoe gegevens worden toegewezen.
 1. Kies de kolom die het e-mailadres bevat in het menu **Adresveld** vervolgkeuzelijst. U kunt de kolom van de lijst van gewezen personen ook selecteren als u dergelijke informatie in het inputdossier hebt.
 1. Pas de kolominstellingen aan en maak gegevens op van de beschikbare opties.
 1. Klikken **Bevestigen** als de instellingen correct zijn.
 
-Wanneer u de inhoud van het bericht maakt en aanpast, kunt u velden uit het invoerbestand selecteren in de Persoonlijke editor.
+Wanneer u de inhoud van het bericht maakt en aan uw wensen aanpast, kunt u velden selecteren uit het invoerbestand in het dialoogvenster [Personalisatie-editor](../personalization/gs-personalization.md).
 
 ![](assets/select-external-perso.png)
 
->[!CAUTION]
->
->U kunt niet [controlegroepen](control-group.md) bij het laden van de doelpopulatie uit een extern bestand.
 
 ## Voorbeeldbestand {#sample-file}
 
@@ -62,12 +63,15 @@ Wanneer u de inhoud van het bericht maakt en aanpast, kunt u velden uit het invo
 >title="Voorbeeldbestand"
 >abstract="Ondersteunde bestandsindelingen: txt, csv. Eerste regel gebruiken als kolomkop."
 
+Ondersteunde indelingen zijn TXT en CSV. De eerste regel is de kolomkop.
 
-```json
+Lijn de bestandsindeling uit met het onderstaande voorbeeldbestand:
+
+```javascript
 {
 lastname,firstname,city,birthdate,email,denylist
 Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
-Mars,Daniel,London,17/11/1999,dannymars@example.com,0
+Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
 Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
