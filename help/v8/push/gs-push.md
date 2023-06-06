@@ -4,9 +4,9 @@ title: Aan de slag met pushmeldingen
 description: Meer informatie over het maken en verzenden van pushberichten via Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Voor het maken van pushberichten hebt u drie opties:
 <img alt="Onfrequent" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
-<a href="content-push.md">Een pushaanbieding ontwerpen<strong></strong></a>
+<a href="content-push.md"><strong>Een pushaanbieding ontwerpen<strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -46,6 +46,15 @@ Voor het maken van pushberichten hebt u drie opties:
 </a>
 <div>
 <a href="send-push.md"><strong>Een pushbericht verzenden</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="send-push.md">
+<img alt="Validatie" src="assets/do-not-localize/push_report.jpeg">
+</a>
+<div>
+<a href="send-push.md"><strong>Push-leveringsrapport</strong></a>
 </div>
 <p>
 </td>

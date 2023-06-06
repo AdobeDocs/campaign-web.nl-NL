@@ -4,9 +4,9 @@ title: Een sms-levering maken
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '274'
 ht-degree: 6%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 6%
 >id="acw_deliveries_sms_properties"
 >title="Eigenschappen van SMS-berichten"
 >abstract="De eigenschappen omvatten de gemeenschappelijke leveringsparameters die u in zowel het noemen als het classificeren van uw levering helpen. Als uw levering op een uitgebreid schema gebaseerd is, zijn de specifieke de optiesgebieden van de Douane beschikbaar."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_audience"
+>title="Het SMS-publiek definiëren"
+>abstract="Selecteer het beste publiek voor uw SMS-bericht."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_template_selection"
+>title="Sjabloonselectie via SMS"
+>abstract="Selecteer een vooraf gedefinieerde sjabloon om de SMS-levering te starten."
 
 1. Van de **[!UICONTROL Deliveries]** homepage, klik **[!UICONTROL Create delivery]**.
 

@@ -3,14 +3,24 @@ audience: end-user
 title: Een levering met pushberichten ontwerpen
 description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
-source-git-commit: 965c2d72d81233c98beb4e4bc3c76692c7bf3990
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '742'
 ht-degree: 6%
 
 ---
 
 # Een pushaanbieding ontwerpen {#content-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_content"
+>title="Android-inhoud induwen"
+>abstract="Definieer de inhoud van de push-Android."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_content"
+>title="iOS-inhoud doordrukken"
+>abstract="Definieer de push-iOS-inhoud."
 
 ## Bericht {#push-message}
 

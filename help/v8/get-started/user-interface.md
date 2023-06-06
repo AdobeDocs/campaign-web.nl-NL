@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 641b504766138830ab30352d73d5e6a82ceadc27
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1506'
 ht-degree: 0%
 
 ---
@@ -235,20 +235,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_audience"
->title="Het SMS-publiek definiëren"
->abstract="Selecteer het beste publiek voor uw SMS-bericht."
-
->[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="Overzicht van SMS-rapporten"
->abstract="Ontdek de rapportgegevens voor je SMS-levering."
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Overzicht van pushrapport"
->abstract="Ontdek de rapportgegevens voor uw pushbestelling."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -264,21 +250,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_deliveries_email_metrics_errors"
 >title="Metrische fouten"
 >abstract="Aantal e-mails met de foutstatus."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_android_content"
->title="Android-inhoud induwen"
->abstract="Definieer de inhoud van de push-Android."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_ios_content"
->title="iOS-inhoud doordrukken"
->abstract="Definieer de push-iOS-inhoud."
-
->[!CONTEXTUALHELP]
->id="acw_sms_preview_option_app_target"
->title="App-abonnees"
->abstract="Geef een voorvertoning van het bericht weer en test het bericht door abonnees van de app aan het hoofddoel toe te voegen. "
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
@@ -366,20 +337,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Geavanceerde velden voor regelbuilder"
 >abstract="Kolommen met geavanceerde velden configureren."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_properties"
->title="Eigenschappen voor punaise"
->abstract="Beheer de eigenschappen voor de levering van de push."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_metrics_newquarantines"
 >title="Nieuwe metrische quarantines"
 >abstract="Nieuwe quarantaine-meting."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_sms_template_selection"
->title="Sjabloonselectie via SMS"
->abstract="Selecteer een vooraf gedefinieerde sjabloon om de SMS-levering te starten."
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"

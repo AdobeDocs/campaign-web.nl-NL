@@ -3,10 +3,10 @@ audience: end-user
 title: Een pushmelding maken
 description: Leer hoe u een pushmelding maakt met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 4%
+source-wordcount: '283'
+ht-degree: 3%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 4%
 >id="acw_push_notification_template"
 >title="Sjabloon voor pushmelding"
 >abstract="Selecteer een sjabloon voor pushmeldingen om de pushlevering te starten."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_properties"
+>title="Eigenschappen voor punaise"
+>abstract="Beheer de eigenschappen voor de levering van de push."
 
 1. Van de **[!UICONTROL Deliveries]** homepage, klik **[!UICONTROL Create delivery]**.
 

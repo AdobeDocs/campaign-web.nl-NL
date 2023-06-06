@@ -4,9 +4,9 @@ title: Een SMS-levering ontwerpen
 description: Meer weten over het ontwerpen van je SMS-aanbieding?
 badge: label="Alpha" type="Positief"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 0%
 >id="acw_deliveries_sms_content"
 >title="SMS-inhoud"
 >abstract="Maak de inhoud van uw SMS-berichten en verbeter deze aan de hand van verpersoonlijkingsvelden, inhoudsblokken en dynamische inhoud."
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="App-abonnees"
+>abstract="Geef een voorvertoning van het bericht weer en test het bericht door abonnees van de app aan het hoofddoel toe te voegen."
 
 1. Klik op de leveringspagina op de knop **[!UICONTROL Edit content]** om uw SMS-inhoud te ontwerpen.
 
