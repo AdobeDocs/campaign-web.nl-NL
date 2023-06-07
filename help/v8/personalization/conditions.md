@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positief"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 5598a82bf745659b8c1db8cb51b1a82cfd184093
+source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 2%
@@ -21,14 +21,11 @@ ht-degree: 2%
 >title="Voorwaardelijke content maken"
 >abstract="Maak voorwaardelijke inhoud om dynamische personalisatie te definiëren op basis van het profiel van de ontvanger, waarbij tekstblokken en afbeeldingen automatisch worden vervangen wanneer aan bepaalde voorwaarden wordt voldaan. Met deze functie kunt u uw campagnes op een hoger niveau brengen en uw publiek een zeer doelgerichte, persoonlijke ervaring bieden."
 
-
 Voorwaardelijke inhoud is een krachtige functie waarmee u een dynamische personalisatie kunt maken op basis van het profiel van de ontvanger, waarbij tekstblokken en afbeeldingen automatisch worden vervangen wanneer aan bepaalde voorwaarden wordt voldaan. Met deze functie kunt u uw campagnes op een hoger niveau brengen en uw publiek een zeer doelgerichte, persoonlijke ervaring bieden.
 
 Door voorwaardelijke inhoudsgebieden te vormen, kunt u geavanceerde dynamische verpersoonlijking tot stand brengen die op het profiel van de ontvanger bijvoorbeeld wordt gebaseerd. Tekstblokken, koppelingen, onderwerpregel en/of afbeeldingen worden vervangen in de inhoud van het bericht als aan een bepaalde voorwaarde is voldaan. U kunt bijvoorbeeld &#39;Mr&#39; of &#39;Mevrouw&#39; weergeven op basis van de waarde van het genderveld in de database van Adobe Campaign, of een andere link opnemen op basis van de voorkeurstaal van de ontvanger.
 
 ## Personalisatiesyntaxis{#perso-syntax}
-
-
 
 ## Werken met voorwaarden in de verpersoonlijkingseditor{#condition-perso-editor}
 
@@ -44,9 +41,6 @@ Een voorwaardelijke inhoud definiëren voor een levering:
    `<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 1. Vervangen `<FIELD>` door een verpersoonlijkingsveld. Bijvoorbeeld het bedrijf van de ontvanger: `recipient.company`.
 1. Vervangen `<VALUE>` met een waarde waaraan moet worden voldaan. Bijvoorbeeld, `ADOBE`.
-
-
-
 
 ## Voorbeeld: voorwaardelijke SMS-onderwerpregel{#condition-subject-line}
 
