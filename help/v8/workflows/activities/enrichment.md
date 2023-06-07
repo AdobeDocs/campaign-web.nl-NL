@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow kunt gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: 79e839a99b41f8ae918a5651990149c864f201e7
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >title="Verrijkingsactiviteit"
 >abstract="Met de verrijkingsactiviteit kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkstroom na het richten van activiteiten.<br/>Zodra de verrijkingsgegevens aan het werkschema zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de activiteit van de Verrijking worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes te creëren die eerder met uw doelpubliek zullen resoneren."
 
-Met de verrijkingsactiviteit kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkstroom na het richten van activiteiten.
+De **Verrijking** activiteit is **Doelstelling** activiteit. Hiermee kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten.
 
 Verrijkingsgegevens kunnen worden verkregen:
 
@@ -30,28 +30,111 @@ Verrijkingsgegevens kunnen worden verkregen:
 
    *Selecteer een groep klanten en voeg de velden Bedrag en Type product uit de tabel Aankoop toe*.
 
-Zodra de verrijkingsgegevens aan het werkschema zijn toegevoegd, kan het dan in de activiteiten worden gebruikt die na de activiteit van de Verrijking worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes te creëren die eerder met uw doelpubliek zullen resoneren.
+Zodra de verrijkingsgegevens aan de workflow zijn toegevoegd, kunnen deze worden gebruikt in de activiteiten die na de **Verrijking** activiteit om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of gepersonaliseerde marketing berichten en campagnes te creëren die eerder aan uw doelpubliek zullen resoneren.
 
 U kunt bijvoorbeeld informatie over aankopen van klanten toevoegen aan de werkstroomwerktabel en deze gegevens gebruiken om de e-mails aan te passen aan de laatste aankoop of het bedrag dat aan deze aankopen is besteed.
 
-Voer de volgende stappen uit om een verrijkingsactiviteit toe te voegen aan uw workflow:
+## Algemene configuratie
 
-1. activiteit toevoegen
-1. kenmerk selecteren dat moet worden gebruikt als verrijkingsgegevens
+Voer de volgende stappen uit om de **Verrijking** activiteit:
 
-   Optie Geavanceerde velden weergeven i-knop
+1. Voeg activiteiten toe zoals **publiek opbouwen** en **Combineren** activiteiten.
+1. Een **Verrijking** activiteit.
+1. Klikken **Verrijkingsgegevens toevoegen**.
 
-   opmerking: kenmerken van de doeldimensie
+![](../assets/workflow-enrichment1.png)
 
-1. Selecteer hoe de gegevens worden verzameld
-1. aantal records dat moet worden opgehaald als u een verzameling van meerdere records wilt ophalen
-1. Filters toepassen en regel bouwen
+U kunt twee typen gegevens selecteren: één enkel attribuut van de doelafmeting, of een inzamelingsverbinding.
 
-   Selecteer een bestaand filter om het filter op te slaan, zodat u de weergaveresultaten van het filter visueel of in de codeweergave kunt hergebruiken
+## Enkel kenmerk
 
-1. records sorteren met een kenmerk
+Hier voegen we slechts één verrijkingskenmerk toe, bijvoorbeeld de geboortedatum. Voer de volgende stappen uit:
 
-hefboomwerking verrijkingsgegevens in campagne
+1. Klik in het dialoogvenster **Kenmerk** veld.
+1. Selecteer een eenvoudig veld in de doeldimensie, de geboortedatum in ons voorbeeld.
+1. Klikken **Bevestigen**.
 
-waar we de verrijkingsgegevens kunnen gebruiken : e-mail, andere gebruiksgevallen personaliseren?
+![](../assets/workflow-enrichment2.png)
 
+## Verzamelingskoppeling
+
+In dit complexere gebruiksgeval, zullen wij een inzamelingsverbinding selecteren die een verbinding met een 1-N kardinaliteit tussen lijsten is. Laten we de drie laatste aankopen ophalen die minder dan 100 dollar bedragen. Hiervoor moet u definiëren:
+
+* een kenmerk: de **Totaal bedrag** field
+* het aantal regels dat moet worden opgehaald: 3
+* een filter: items van meer dan 100$ filteren
+* een sortering: afstammende sortering op de **Datum van bestelling** veld.
+
+Voer de volgende stappen uit:
+
+### Het kenmerk toevoegen
+
+Hier selecteert u de verzamelingskoppeling die u als verrijkingsgegevens wilt gebruiken.
+
+1. Klik in het dialoogvenster **Kenmerk** veld.
+1. Klikken **Geavanceerde kenmerken weergeven**.
+1. Selecteer **Totaal bedrag** veld van **Aankopen** tabel.
+
+![](../assets/workflow-enrichment3.png)
+
+### De verzamelingsinstellingen definiëren
+
+Definieer vervolgens hoe de gegevens worden verzameld en hoeveel records moeten worden opgehaald.
+
+1. Selecteren **Gegevens verzamelen** in de **Selecteer hoe de gegevens worden verzameld** vervolgkeuzelijst.
+1. Type &quot;3&quot; in het dialoogvenster **Op te halen regels (te maken kolommen)** veld.
+
+![](../assets/workflow-enrichment4.png)
+
+Als u bijvoorbeeld het gemiddelde aantal aankopen voor een klant wilt ophalen, selecteert u **Geaggregeerde gegevens** en selecteert u **Gemiddeld** in de **Samengevoegde functie** vervolgkeuzelijst.
+
+![](../assets/workflow-enrichment5.png)
+
+### Filters definiëren
+
+Hier, bepalen wij de maximumwaarde voor de attributen. We filteren items die groter zijn dan 100$.
+
+1. Klikken **Filters bewerken**.
+1. Voeg de twee volgende filters toe: **Totaal bedrag** bestaat EN **Totaal bedrag** is kleiner dan 100. De eerste filtert NULL-waarden op dezelfde manier als de hoogste waarde.
+1. Klikken **Bevestigen**.
+
+![](../assets/workflow-enrichment6.png)
+
+### Het sorteren definiëren
+
+We moeten nu sorteren om de drie bestanden op te halen **nieuwste** aankopen.
+
+1. De **Sorteren inschakelen** optie.
+1. Klik in het dialoogvenster **Kenmerk** veld.
+1. Selecteer **Datum van bestelling** veld.
+1. Klikken **Bevestigen**.
+1. Selecteren **Aflopend** van de **Sorteren** vervolgkeuzelijst.
+
+![](../assets/workflow-enrichment7.png)
+
+<!--
+cardinality between the tables (1-N)
+1. select attribute to use as enrichment data
+
+    display advanced fields option
+    i button
+
+    note: attributes from the target dimension
+
+1. Select how the data is collected
+1. number of records to retrieve if want to retrieve a collection of multiple records
+1. Apply filters and build rule
+
+    select an existing filter
+    save the filter for reuse
+    view results of the filter visually or in code view
+
+1. sort records using an attribute
+
+leverage enrichment data in campaign
+
+where we can use the enrichment data: personalize email, other use cases?
+
+## Example
+
+-->

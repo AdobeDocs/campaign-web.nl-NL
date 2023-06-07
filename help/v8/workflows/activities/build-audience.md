@@ -3,7 +3,7 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 badge: label="Alpha" type="Positief"
-source-git-commit: 07da5f804e25382c6202b7438e15dafaee413f27
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -52,6 +52,6 @@ Voer de volgende stappen uit om een bestaand publiek te selecteren:
 
 ## Voorbeeld
 
-Hier is een voorbeeld van een worststroom met twee **publiek opbouwen** activiteiten. De eerste is gericht op het publiek van pokerspelers, gevolgd door een e-mailbezorging. De tweede is gericht op het publiek van VIP klanten, gevolgd door een SMS-levering.
+Hier is een voorbeeld van een workflow met twee **publiek opbouwen** activiteiten. De eerste is gericht op het publiek van pokerspelers, gevolgd door een e-mailbezorging. De tweede is gericht op het publiek van VIP klanten, gevolgd door een SMS-levering.
 
 ![](../assets/workflow-audience-example.png)

@@ -3,9 +3,9 @@ audience: end-user
 title: Werkstroomactiviteit combineren gebruiken
 description: Leer hoe u de workflowactiviteit combineren gebruikt
 badge: label="Alpha" type="Positief"
-source-git-commit: bdf569913dfcf9bee549c6ae3252f5a92a5f34e8
+source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '547'
 ht-degree: 13%
 
 ---
@@ -65,11 +65,8 @@ In het volgende voorbeeld wordt het **intersection** tussen twee zoekactiviteite
 
 ![](../assets/workflow-intersection-example.png)
 
-Het volgende **uitsluiting** In het voorbeeld worden twee query&#39;s weergegeven die zijn geconfigureerd voor filterprofielen die 18 tot 27 jaar oud zijn en een e-maildomein van Adobe hebben. De profielen met een Adobe-e-maildomein worden dan uitgesloten van de eerste set.
+Het volgende **uitsluiting** Het voorbeeld toont twee vragen die aan filterprofielen worden gevormd die tussen 18 en 27 jaar oud zijn en een Adobe e-maildomein hebben. De profielen met een domein van de Adobe e-mail worden dan uitgesloten van de eerste reeks.
 
 ![](../assets/workflow-exclusion-example.png)
-
-
-
 
 
