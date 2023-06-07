@@ -3,19 +3,17 @@ audience: end-user
 title: De workflowactiviteit Wachten gebruiken
 description: Leer hoe u de workflowactiviteit Wacht gebruikt
 badge: label="Alpha" type="Positief"
-source-git-commit: 9be56c3c9c7a339e1f348ac9c74d425b501c317d
+source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 37%
+source-wordcount: '149'
+ht-degree: 28%
 
 ---
 
 
 # Wachten {#wait}
 
-De **Wachten** activiteit onderbreekt tijdelijk het uitvoeren van een deel van een werkstroom. De uitgaande overgang wordt na een vertraging (van een paar seconden tot meerdere maanden) weer geactiveerd, zodat de later geplaatste activiteiten worden uitgevoerd.
-
-De **Wachten** de activiteit wordt gebruikt om een bepaalde hoeveelheid tijd tussen twee uit te voeren activiteiten toe te staan. Bijvoorbeeld als u een aantal dagen wilt wachten na een e-mailleveringsactiviteit om het aantal open- en klikacties tijdens die periode te analyseren voordat u follow-upbewerkingen gaat uitvoeren (herinneringsmail, doelgroep maken, enz.).
+De **Wachten** activiteit is **Stroomregeling** activiteit. Het wordt gebruikt om een bepaalde hoeveelheid tijd toe te staan om tussen twee uit te voeren activiteiten over te gaan. Bijvoorbeeld als u een aantal dagen wilt wachten na een e-mailleveringsactiviteit om het aantal open- en klikacties tijdens die periode te analyseren voordat u follow-upbewerkingen gaat uitvoeren (herinneringsmail, doelgroep maken, enz.).
 
 ## Configuratie
 
@@ -23,9 +21,9 @@ Voer de volgende stappen uit om de **Wachten** activiteit:
 
 1. Voeg een **Wachten** in uw workflow.
 
-1. Geef de **Duur** van de wachttijd tussen wanneer de binnenkomende en uitgaande overgangen van de activiteit worden geactiveerd.
+1. Geef de **Duur** van de wachttijd tussen de binnenkomende en uitgaande overgangen.
 
-1. De tijdeenheid selecteren **Periode**: seconden, minuten, uren.
+1. Selecteer de tijdeenheid in het dialoogvenster **Punten** veld: seconden, minuten, uren.
 
 ## Voorbeeld
 
