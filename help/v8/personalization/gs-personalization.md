@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ U kunt de inhoud van uw bericht dynamisch maken door in te voegen:
 
 * **Voorwaardelijke content**
 
-   Configureer voorwaardelijke inhoud om bijvoorbeeld dynamische personalisatie toe te voegen op basis van het profiel van de ontvanger. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is. U kunt de alternatieve versie van de inhoud definiëren als de voorwaarde niet true is.
+   Configureer voorwaardelijke inhoud om inhoud toe te voegen op basis van bijvoorbeeld het profiel van de ontvanger. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is. U kunt de alternatieve versie van de inhoud definiëren als de voorwaarde niet true is.
 
 * **Ingebouwde inhoudsblokken**
 
@@ -46,11 +46,13 @@ U kunt de inhoud van uw bericht dynamisch maken door in te voegen:
 
 Adobe Campaign V8 Web verstrekt een uitdrukkingsredacteur waar u kunt selecteren, rangschikken, aanpassen en bevestigen alle gegevens om een aangepaste ervaring voor uw inhoud tot stand te brengen.
 
-De expressie-editor is beschikbaar voor alle kanalen, in alle velden met het pictogram van het dialoogvenster Verpersoonlijking openen, zoals het veld voor de onderwerpregel of de componenten voor tekst en knopinhoud in e-mails.
+De expressie-editor is beschikbaar voor alle kanalen, in alle velden met het pictogram van het dialoogvenster Aanpassing openen, zoals het veld voor de onderwerpregel, of voor e-mailkoppelingen en tekst-/knopinhoudcomponenten.
 
 ![](assets/expression-editor-access.png)
 
 ![](assets/expression-editor-access-email.png)
+
+![](assets/perso-link-insert-icon.png)
 
 Bovendien is een speciale voorwaardelijke inhoudsontwikkelaar toegankelijk wanneer u een e-mail ontwerpt. [Meer informatie over het maken van voorwaardelijke inhoud in e-mails](conditions.md)
 

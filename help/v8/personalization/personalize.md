@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positief"
-source-git-commit: 218f433eb72a0ed928732c96ebee64294daee852
+source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -17,18 +17,31 @@ ht-degree: 0%
 
 # Uw inhoud aanpassen{#add-personalization}
 
-## De onderwerpregel van een bericht aanpassen {#personalize-subject-line}
+Personalisatie kan aan om het even welke levering worden toegevoegd gebruikend de uitdrukkingsredacteur.
 
-Om verpersoonlijking in toe te voegen **[!UICONTROL Subject line]** Voer in het veld van het bericht de onderstaande stappen uit:
+Voor een personalisatietag wordt altijd de volgende syntaxis gebruikt: `<%=table.field%>`.Als u bijvoorbeeld de naam van de ontvanger wilt invoegen, die in de tabel met ontvangers is opgeslagen, gebruikt de personalisatietag de syntaxis &lt;%= receiver.lastName %>.
 
-1. Open een levering en klik op **[!UICONTROL Edit content]**.
-1. Klik op de knop **[!UICONTROL Open personalization dialog]** pictogram rechts van **[!UICONTROL Subject line]** veld voor e-mailberichten, of de **[!UICONTROL Title]** velden voor push/SMS-leveringen.
+Wanneer een levering wordt voorbereid, worden deze markeringen automatisch geïnterpreteerd door Adobe Campaign en door de waarde van het gebied voor een bepaalde ontvanger vervangen. De fysieke vervanging kan dan worden bekeken wanneer het simuleren van uw inhoud.
 
-   ![](assets/perso-subject.png){width="600"}
+Als u personalisatietags wilt toevoegen aan een levering, klikt u op het pictogram van het dialoogvenster Verpersoonlijking openen dat toegankelijk is vanuit tekstbewerkingsvelden, zoals de onderwerpregel of de SMS-tekst.
 
-1. Voer de onderwerpregel of titel in en selecteer de personalisatiekenmerken die u wilt toevoegen.
+![](assets/perso-access.png)
 
-1. Klikken **[!UICONTROL Confirm]** om te valideren. De personalisatiekenmerken worden toegevoegd aan de inhoud.
+De uitdrukkingsredacteur toont. De gebieden van de aanpassing worden georganiseerd in drie menu&#39;s, die links van het scherm worden gevestigd. Deze menu&#39;s geven toegang tot alle velden die beschikbaar zijn in de Adobe Campaign-database.
+
+| Menu | Beschrijving |
+|-----|------------|
+| ![](assets/do-not-localize/perso-recipients-menu.png) | De **[!UICONTROL Recipient]** worden alle velden weergegeven die in de tabel met ontvangers zijn gedefinieerd, zoals de naam, de leeftijd of het adres van de ontvangers. |
+| ![](assets/do-not-localize/perso-message-menu.png) | De **[!UICONTROL Message]** worden alle velden weergegeven die betrekking hebben op de leveringslogboeken, d.w.z. alle berichten die naar ontvangers of apparaten worden verzonden via alle kanalen, zoals de datum van de laatste gebeurtenis met een bepaalde ontvanger |
+| ![](assets/do-not-localize/perso-delivery-menu.png) | De **[!UICONTROL Delivery]** worden alle velden weergegeven die betrekking hebben op de parameters die vereist zijn voor het uitvoeren van leveringen, zoals het leveringskanaal, label, enz. |
+
+>[!NOTE]
+>
+>Standaard worden in de lijst alle velden in de geselecteerde tabel weergegeven (Ontvangers, Bericht / Aflevering). Als u velden wilt opnemen uit tabellen die zijn gekoppeld aan de geselecteerde tabel, schakelt u de optie **[!UICONTROL Display advanced attributes]** onder de lijst.
+
+Als u een verpersoonlijkingsveld wilt toevoegen, plaatst u de cursor op de gewenste locatie in de inhoud en klikt u op + om het veld in te voegen.
+
+![](assets/perso-insert-field.png)
 
 ## Uw e-mailinhoud aanpassen {#personalize-emails}
 
@@ -56,23 +69,6 @@ Als u de e-mailinhoud wilt aanpassen, opent u het bericht in de e-mailontwerper 
 1. Zodra opgenomen, wordt het inhoudsblok toegevoegd aan de e-mailinhoud Het wordt automatisch aangepast aan het ontvankelijke profiel wanneer de verpersoonlijking, bij de leveringsvoorbereidingsstap wordt geproduceerd.
 
    ![](assets/perso-content-block-in-email.png)
-
-## Koppelingen in e-mails aanpassen {#personalize-links}
-
-Een **link**:
-
-1. Selecteer een tekstblok of een afbeelding.
-1. Selecteer in de contextafhankelijke werkbalk **Koppeling invoegen**.
-
-   ![](assets/perso-link.png)
-
-1. Voer het koppelingslabel in en gebruik de **Koppeling invoegen** om de koppeling aan te passen.
-
-   ![](assets/perso-link-insert-icon.png)
-
-1. Gebruik de verpersoonlijkingsredacteur om de verbinding te bepalen en te personaliseren, en te bevestigen.
-
-   ![](assets/perso-link-edit.png)
 
 
 ## Je aanbiedingen aanpassen {#personalize-offers}
