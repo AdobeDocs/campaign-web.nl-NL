@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positief"
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: d12c3019fb47164864259ecc40225fcb04de0e6c
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -42,36 +42,3 @@ De uitdrukkingsredacteur toont. De gebieden van de aanpassing worden georganisee
 Als u een verpersoonlijkingsveld wilt toevoegen, plaatst u de cursor op de gewenste locatie in de inhoud en klikt u op + om het veld in te voegen.
 
 ![](assets/perso-insert-field.png)
-
-## Uw e-mailinhoud aanpassen {#personalize-emails}
-
-Als u de e-mailinhoud wilt aanpassen, opent u het bericht in de e-mailontwerper en:
-
-1. Klik in een tekstblok.
-1. Selecteer in de contextafhankelijke werkbalk **[!UICONTROL Add personalization]**.
-
-   ![](assets/perso-add-to-content.png)
-
-1. Voeg de naam van de ontvanger in de verpersoonlijkingseditor in en bevestig deze.
-
-   ![](assets/perso-add-name.png)
-
-   Het personalisatiekenmerk wordt toegevoegd aan de e-mailinhoud.
-
-   U kunt de inhoud simuleren om de rendering te controleren. [Meer informatie](../preview-test/preview-content.md)
-
-   ![](assets/perso-rendering.png)
-
-1. Als u een inhoudsblok aan uw e-mail wilt toevoegen, voert u dezelfde stappen uit en selecteert u een inhoudsblok van het laatste pictogram:
-
-   ![](assets/perso-insert-block.png)
-
-1. Zodra opgenomen, wordt het inhoudsblok toegevoegd aan de e-mailinhoud Het wordt automatisch aangepast aan het ontvankelijke profiel wanneer de verpersoonlijking, bij de leveringsvoorbereidingsstap wordt geproduceerd.
-
-   ![](assets/perso-content-block-in-email.png)
-
-
-## Je aanbiedingen aanpassen {#personalize-offers}
-
-U kunt tot de verpersoonlijkingsredacteur ook toegang hebben wanneer het toevoegen van tekst-type inhoud aan uw aanbiedingen&#39; vertegenwoordiging. Meer informatie in [deze sectie](../content/offers.md).
-
