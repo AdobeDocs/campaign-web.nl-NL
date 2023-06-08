@@ -4,9 +4,9 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe te met leveringen te werken en berichten met het Web van de Campagne te verzenden
 badge: label="Alpha" type="Positief"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 84ef79098494236d3ea2d3b46b72280603ad5c94
+source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen:
 ## Een levering maken {#create-delivery}
 
 U kunt zelfstandige leveringen maken via de **[!UICONTROL Deliveries]** van het linkermenu, of creeer leveringen in het kader van een marketing campagne, van **[!UICONTROL Campaigns]** links.
+
+Blader op de onderstaande tabbladen voor meer informatie over het maken van een levering:
 
 >[!BEGINTABS]
 
@@ -113,7 +115,7 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u deze voorvertonen om de w
 
 Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke stap om ervoor te zorgen dat uw marketingcampagnes efficiënt zijn en uw klanten bereiken. U kunt controleren na het verzenden van een levering, evenals begrijpen hoe de leveringsmislukkingen en quarantines worden beheerd.
 
-## Een levering dupliceren{#delivery-duplicate}
+## Een levering dupliceren {#delivery-duplicate}
 
 U kunt een kopie van een bestaande levering maken, vanuit de leveringslijst of vanaf het bezorgdashboard.
 
@@ -129,4 +131,6 @@ Voer de volgende stappen uit om een levering te dupliceren vanaf het dashboard:
 1. Open de levering en klik op de knop  **[!UICONTROL ...More]** op de bovenste sectie van het scherm.
 1. Selecteer  **[!UICONTROL Duplicate]**.
 1. Herhaling bevestigen: de nieuwe levering vervangt de huidige levering in het centrale scherm.
+
+
 
