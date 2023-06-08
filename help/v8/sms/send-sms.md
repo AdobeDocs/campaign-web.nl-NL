@@ -3,14 +3,30 @@ audience: end-user
 title: Verzend een SMS-levering
 description: Meer informatie over het verzenden van SMS via Adobe Campaign Web
 badge: label="Alpha" type="Positief"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
-# Verzend een SMS-levering {#send-sms}
+# Een SMS-verzending bekijken en verzenden {#send-sms}
+
+## Je SMS-aanbieding bekijken{#preview-push}
+
+Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u gepersonaliseerde inhoud hebt opgenomen, kunt u onderzoeken hoe deze inhoud in het bericht wordt getoond door de gegevens van het testprofiel te gebruiken. Op deze manier kunt u ervoor zorgen dat het bericht op de gewenste manier wordt weergegeven en dat alle gepersonaliseerde gegevens correct worden weergegeven.
+
+1. Vanaf de pagina met inhoud voor levering kunt u **[!UICONTROL Simulate content]** om een voorvertoning van uw persoonlijke inhoud weer te geven.
+
+1. Klikken **[!UICONTROL Add test profile(s)]** om een of meerdere testprofielen of profielen te selecteren.
+
+1. Als uw testprofielen zijn geselecteerd, klikt u op **[!UICONTROL Select]**.
+
+1. In het rechterdeelvenster ziet u een voorbeeld van het e-mailbericht waarin gepersonaliseerde elementen dynamisch worden vervangen door gegevens uit het geselecteerde profiel.
+
+Je kunt je SMS-bericht nu bekijken en naar je publiek sturen.
+
+## Verstuur je SMS-verzending {#preview-send-push}
 
 1. Nadat u de SMS-inhoud hebt aangepast, klikt u op **[!UICONTROL Review & send]** van uw **[!UICONTROL Delivery]** pagina.
 

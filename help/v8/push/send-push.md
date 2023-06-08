@@ -3,14 +3,30 @@ audience: end-user
 title: Een pushmelding verzenden
 description: Meer informatie over het verzenden van pushberichten via Adobe Campaign Web
 badge: label="Alpha" type="Positief"
-source-git-commit: ec61c17d5a72b4d324d9a9a2cc71c85093c124ea
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
 
-# Een pushmelding verzenden {#send-push}
+# Een voorbeeld bekijken en een pushmelding verzenden {#send-push}
+
+## Geef een voorvertoning van de pushmelding weer {#preview-push}
+
+Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van het bericht te bekijken en het bericht te testen. Als u gepersonaliseerde inhoud hebt opgenomen, kunt u onderzoeken hoe deze inhoud in het bericht wordt getoond door de gegevens van het testprofiel te gebruiken. Dit staat u toe om ervoor te zorgen dat het bericht correct wordt teruggegeven en dat de gepersonaliseerde elementen correct worden opgenomen.
+
+1. Vanaf de pagina met inhoud voor levering kunt u **[!UICONTROL Simulate content]** om een voorvertoning van uw persoonlijke inhoud weer te geven.
+
+1. Klikken **[!UICONTROL Add test profile(s)]** om een of meerdere testprofielen of profielen te selecteren.
+
+1. Als uw testprofielen zijn geselecteerd, klikt u op **[!UICONTROL Select]**.
+
+1. In het rechterdeelvenster ziet u een voorbeeld van het e-mailbericht waarin gepersonaliseerde elementen dynamisch worden vervangen door gegevens uit het geselecteerde profiel.
+
+Je kunt je SMS-bericht nu bekijken en naar je publiek sturen.
+
+## Verzend uw pushmelding {#preview-send-push}
 
 1. Nadat u de inhoud van uw pushmelding hebt aangepast, klikt u op **[!UICONTROL Review & send]** van uw **[!UICONTROL Delivery]** pagina.
 

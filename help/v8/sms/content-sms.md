@@ -4,9 +4,9 @@ title: Een SMS-levering ontwerpen
 description: Meer weten over het ontwerpen van je SMS-aanbieding?
 badge: label="Alpha" type="Positief"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0f292bd597905dcd4a7295c639d6dbe488b511e2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -35,14 +35,8 @@ ht-degree: 0%
 
 1. Standaard is het bijhouden van gegevens ingeschakeld voor leveringen. U kunt deze optie uitschakelen in het dialoogvenster **[!UICONTROL Optional features section]**.
 
+1. Toegang krijgen tot **[!UICONTROL Simulate content]** om een voorvertoning van uw persoonlijke inhoud weer te geven.
+
 1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning.
-
-1. U kunt **[!UICONTROL Simulate content]** om een voorvertoning van uw persoonlijke inhoud weer te geven.
-
-1. Klikken **[!UICONTROL Add test profile(s)]** om een of meerdere testprofielen of profielen te selecteren.
-
-1. Als uw testprofielen zijn geselecteerd, klikt u op **[!UICONTROL Select]**.
-
-1. In het rechterdeelvenster ziet u een voorbeeld van het e-mailbericht waarin gepersonaliseerde elementen dynamisch worden vervangen door gegevens uit het geselecteerde profiel.
 
 Je kunt je SMS-bericht nu bekijken en naar je publiek sturen.
