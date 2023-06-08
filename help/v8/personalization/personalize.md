@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positief"
-source-git-commit: fc9f6ffd8b242f608e05e51dee8299035518c533
+source-git-commit: 551e6b9efa8b29475bd2f0a71ce016681bf70289
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Als u personalisatietags wilt toevoegen aan een levering, opent u de expressieed
 
 ![](assets/perso-access.png)
 
-De uitdrukkingsredacteur toont. De gebieden van de aanpassing worden georganiseerd in drie menu&#39;s, die links van het scherm worden gevestigd. Deze menu&#39;s geven toegang tot alle velden die beschikbaar zijn in de Adobe Campaign-database.
+De uitdrukkingsredacteur toont. De gebieden van de aanpassing worden georganiseerd in verscheidene menu&#39;s, die links van het scherm worden gevestigd. Deze menu&#39;s geven toegang tot alle velden die beschikbaar zijn in de Adobe Campaign-database.
 
 ![](assets/perso-insert-field.png)
 
