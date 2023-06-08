@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: b8b1cb62c11b66eaade5937fa798d58a9c376127
+source-git-commit: 0b50c0d136bb5e9a7074d570cafe69a7b5ae061b
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -24,37 +24,37 @@ Met Campagne kunt u dynamische inhoud maken en persoonlijke berichten verzenden.
 
 U kunt de inhoud van uw bericht dynamisch maken door in te voegen:
 
-* **Personalisatievelden**
-
-   De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering, kunt u om het even welk gebied selecteren met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen.
-
-   ![](assets/perso-subject-line.png)
+* **Velden aanpassen**: De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering, kunt u om het even welk gebied selecteren met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen.
 
    De volgende syntaxis voegt de plaats van de ontvanger in uw inhoud in: &lt;%= receiving.location.city %>.
 
-* **Voorwaardelijke content**
+   ![](assets/perso-subject-line.png)
 
-   Configureer voorwaardelijke inhoud om inhoud toe te voegen op basis van bijvoorbeeld het profiel van de ontvanger. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is. U kunt de alternatieve versie van de inhoud definiëren als de voorwaarde niet true is.
+* **Voorwaardelijke inhoud**: Configureer voorwaardelijke inhoud om inhoud toe te voegen op basis van bijvoorbeeld het profiel van de ontvanger. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is. U kunt de alternatieve versie van de inhoud definiëren als de voorwaarde niet true is.
 
-* **Ingebouwde inhoudsblokken**
-
-   De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van een e-mailbericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de verpersoonlijkingseditor.
+* **Ingebouwde inhoudsblokken**: De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van een e-mailbericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de verpersoonlijkingseditor.
 
    ![](assets/perso-content-blocks.png)
 
 ## Waar kan ik dynamische inhoud toevoegen?
 
-Adobe Campaign V8 Web verstrekt een uitdrukkingsredacteur waar u kunt selecteren, rangschikken, aanpassen en bevestigen alle gegevens om een aangepaste ervaring voor uw inhoud tot stand te brengen.
+Adobe Campaign V8 Web verstrekt een uitdrukkingsredacteur waar u kunt selecteren, rangschikken, aanpassen en bevestigen alle gegevens om een aangepaste ervaring voor uw inhoud tot stand te brengen. De expressie-editor is beschikbaar voor alle kanalen, in alle velden met de **[!UICONTROL Open personalization dialog]** -pictogram, zoals het veld voor de onderwerpregel, of e-mailkoppelingen en componenten voor tekst/knopinhoud.
 
-De expressie-editor is beschikbaar voor alle kanalen, in alle velden met het pictogram van het dialoogvenster Aanpassing openen, zoals het veld voor de onderwerpregel, of voor e-mailkoppelingen en tekst-/knopinhoudcomponenten.
+>[!NOTE]
+>
+>Naast de expressie-editor kunt u ook een speciale, voorwaardelijke inhoudsontwikkelaar gebruiken bij het ontwerpen van een e-mail. [Meer informatie over het maken van voorwaardelijke inhoud in e-mails](conditions.md)
+
+*De uitdrukkingsredacteur van het de naamgebied van de Afzender toegang hebben*
 
 ![](assets/expression-editor-access.png)
 
+*De expressie-editor openen vanuit een e-mailtekstcomponent*
+
 ![](assets/expression-editor-access-email.png)
 
-![](assets/perso-link-insert-icon.png)
+*Expressieeditor openen via een koppeling in een e-mailbericht*
 
-Bovendien is een speciale voorwaardelijke inhoudsontwikkelaar toegankelijk wanneer u een e-mail ontwerpt. [Meer informatie over het maken van voorwaardelijke inhoud in e-mails](conditions.md)
+![](assets/perso-link-insert-icon.png)
 
 ## Laten we dieper duiken
 
