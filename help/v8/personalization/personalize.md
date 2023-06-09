@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positief"
-source-git-commit: 551e6b9efa8b29475bd2f0a71ce016681bf70289
+source-git-commit: 1e5bc39adfeae4f956fc208ef9763eb020552364
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -17,43 +17,45 @@ ht-degree: 0%
 
 # Uw inhoud aanpassen {#add-personalization}
 
-Personalisatie kan aan om het even welke levering worden toegevoegd gebruikend de uitdrukkingsredacteur, die op elke gebieden met **[!UICONTROL Open personalization dialog]** -pictogram, zoals het veld voor de onderwerpregel, of e-mailkoppelingen en componenten voor tekst/knopinhoud. [Leer waar u dynamische inhoud wilt toevoegen](gs-personalization.md/#access)
+U kunt elke levering personaliseren door de uitdrukkingsredacteur te gebruiken, die in gebieden met te gebruiken **[!UICONTROL Open personalization dialog]** -pictogram, zoals de onderwerpregel, e-mailkoppelingen en tekst-/knopinhoudcomponenten. [Leer hoe u toegang krijgt tot de expressie-editor](gs-personalization.md/#access)
 
 ## Personalisatiesyntaxis {#syntax}
 
-Voor een personalisatietag wordt altijd de volgende syntaxis gebruikt: `<%=table.field%>`. Als u bijvoorbeeld de naam van de ontvanger wilt invoegen, die is opgeslagen in de tabel met ontvangers, gebruikt de personalisatietag de syntaxis &lt;%= receiver.lastName %>.
+Voor personalisatietags wordt een specifieke syntaxis gebruikt: `<%=table.field%>`. Als u bijvoorbeeld de achternaam van de ontvanger wilt invoegen in de tabel van de ontvanger, gebruikt u de opdracht `<%= recipient.lastName %>` syntaxis.
 
-Wanneer een levering wordt voorbereid, worden deze markeringen automatisch geïnterpreteerd door Adobe Campaign en door de waarde van het gebied voor een bepaalde ontvanger vervangen. De fysieke vervanging kan dan worden bekeken wanneer het simuleren van uw inhoud.
+Tijdens de voorbereiding van de levering, interpreteert Adobe Campaign automatisch deze markeringen en vervangt hen met de overeenkomstige gebiedswaarden voor elke ontvanger. U kunt de daadwerkelijke vervanging bekijken door uw inhoud te simuleren.
 
 ## Aanpersonalisatietags toevoegen {#add}
 
-Als u personalisatietags wilt toevoegen aan een levering, opent u de expressieeditor met de **[!UICONTROL Open personalization dialog]** pictogram dat toegankelijk is vanuit tekstbewerkingsvelden, zoals de onderwerpregel of de SMS-tekst. [Leer waar u dynamische inhoud wilt toevoegen](gs-personalization.md/#access)
+Voer de volgende stappen uit om personalisatietags toe te voegen aan een levering:
 
-![](assets/perso-access.png)
+1. De expressie-editor openen met de **[!UICONTROL Open personalization dialog]** pictogram dat toegankelijk is vanuit tekstbewerkingsvelden, zoals de onderwerpregel of de SMS-tekst. [Leer hoe u toegang krijgt tot de expressie-editor](gs-personalization.md/#access)
 
-De uitdrukkingsredacteur toont. De gebieden van de aanpassing worden georganiseerd in verscheidene menu&#39;s, die links van het scherm worden gevestigd. Deze menu&#39;s geven toegang tot alle velden die beschikbaar zijn in de Adobe Campaign-database.
+   ![](assets/perso-access.png)
+
+1. De expressie-editor wordt geopend. De gebieden van de verpersoonlijking beschikbaar in het gegevensbestand van Adobe Campaign worden georganiseerd in verscheidene menu&#39;s op de linkerkant van het scherm:
 
 ![](assets/perso-insert-field.png)
 
 | Menu | Beschrijving |
 |-----|------------|
-| ![](assets/do-not-localize/perso-subscribers-menu.png) | De **[!UICONTROL Subscribers application]** worden alle velden weergegeven die betrekking hebben op de abonnees van een toepassing, zoals de terminal of het besturingssysteem. *Dit menu is alleen beschikbaar voor pushmeldingen* |
-| ![](assets/do-not-localize/perso-recipients-menu.png) | De **[!UICONTROL Recipient]** worden alle velden weergegeven die in de tabel met ontvangers zijn gedefinieerd, zoals de naam, de leeftijd of het adres van de ontvangers. |
-| ![](assets/do-not-localize/perso-message-menu.png) | De **[!UICONTROL Message]** worden alle velden weergegeven die betrekking hebben op de leveringslogboeken, d.w.z. alle berichten die naar ontvangers of apparaten worden verzonden via alle kanalen, zoals de datum van de laatste gebeurtenis met een bepaalde ontvanger |
-| ![](assets/do-not-localize/perso-delivery-menu.png) | De **[!UICONTROL Delivery]** worden alle velden weergegeven die betrekking hebben op de parameters die vereist zijn voor het uitvoeren van leveringen, zoals het leveringskanaal, label, enz. |
+| ![](assets/do-not-localize/perso-subscribers-menu.png) | De **[!UICONTROL Subscribers application]** bevat velden die betrekking hebben op de abonnees van een toepassing, zoals de gebruikte terminal of het besturingssysteem. *Dit menu is alleen beschikbaar voor pushmeldingen* |
+| ![](assets/do-not-localize/perso-recipients-menu.png) | De **[!UICONTROL Recipient]** worden de velden weergegeven die zijn gedefinieerd in de tabel met ontvangers, zoals namen, pagina&#39;s of adressen van ontvangers. |
+| ![](assets/do-not-localize/perso-message-menu.png) | De **[!UICONTROL Message]** menu maakt een lijst van gebieden met betrekking tot de leveringslogboeken, met inbegrip van alle berichten die naar ontvangers of apparaten over alle kanalen worden verzonden, zoals de datum van de laatste gebeurtenis met een bepaalde ontvanger |
+| ![](assets/do-not-localize/perso-delivery-menu.png) | De **[!UICONTROL Delivery]** bevat velden die betrekking hebben op de parameters die vereist zijn voor het uitvoeren van leveringen, zoals het leveringskanaal of label. |
 
 >[!NOTE]
 >
 >Standaard worden in elk menu alle velden in de geselecteerde tabel weergegeven (Ontvangers, Bericht / Aflevering). Als u velden wilt opnemen uit tabellen die zijn gekoppeld aan de geselecteerde tabel, schakelt u de optie **[!UICONTROL Display advanced attributes]** onder de lijst.
 
-Als u een verpersoonlijkingsveld wilt toevoegen, plaatst u de cursor op de gewenste locatie in de inhoud en klikt u op + om het veld in te voegen.
+1. Als u een verpersoonlijkingsveld wilt toevoegen, plaatst u de cursor op de gewenste locatie in de inhoud en klikt u op de knop `+` om het in te voegen.
 
-Wanneer de inhoud gereed is, kunt u deze opslaan en de rendering van de personalisatie testen door de inhoud te simuleren. In het onderstaande voorbeeld personaliseren we een SMS-bericht met de voornamen van de beoogde profielen.
+1. Wanneer de inhoud gereed is, kunt u deze opslaan en de rendering van de personalisatie testen door de inhoud te simuleren. In het onderstaande voorbeeld ziet u de personalisatie van een SMS-bericht met de voornamen van de ontvangers.
 
-*Voeg de personalisatiemarkering in de berichtinhoud toe*
+   *Voeg de personalisatiemarkering in de berichtinhoud toe*
 
-![](assets/perso-preview1.png)
+   ![](assets/perso-preview1.png)
 
-*Simuleer de weergave van de personalisatie voor een bepaald testprofiel*
+   *Simuleer de weergave van de personalisatie voor een bepaald testprofiel*
 
-![](assets/perso-preview2.png)
+   ![](assets/perso-preview2.png)
