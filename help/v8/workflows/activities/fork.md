@@ -3,17 +3,20 @@ audience: end-user
 title: De werkstroomactiviteit voor vork gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: 55a5d09dcd8d98f7a848b2e4ace388e54f6f896e
+source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 2%
+source-wordcount: '113'
+ht-degree: 17%
 
 ---
 
 
 # Vertakking {#fork}
 
-De **Vork** activiteit is **Stroomregeling** activiteit. Het staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_fork_transitions"
+>title="Vorkactiviteit"
+>abstract="Met de activiteit Vertakking kunt u uitgaande overgangen maken om verschillende activiteiten tegelijk te starten."
 
 ## Configuratie
 
