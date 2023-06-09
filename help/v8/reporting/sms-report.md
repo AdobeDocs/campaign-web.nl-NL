@@ -3,7 +3,7 @@ audience: end-user
 title: Verzendrapporten via SMS
 description: Leer hoe u sms-leveringsrapporten kunt openen en gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%
@@ -18,8 +18,6 @@ ht-degree: 1%
 >abstract="Ontdek de rapportgegevens voor je SMS-levering."
 
 ## Leveringsoverzicht {#delivery-summary}
-
-![](assets/reporting_sms.png)
 
 * **[!UICONTROL Delivery overview]** biedt prestatiekernindicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop bezoekers uw SMS-berichten gebruiken.
 
