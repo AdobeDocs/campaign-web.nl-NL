@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporten over levering verzenden
 description: Leer hoe u pushrapporten kunt openen en gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: fbedfc5d1886b86932c156574037549270480f44
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 ## Overzicht van push {#push-summary}
 
-![](assets/reporting_push.png)
+* **[!UICONTROL Delivery overview]** verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over hoe uw bezoekers met uw Push berichten in dienst nemen.
 
-* **[!UICONTROL Delivery overview]** verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over hoe uw bezoekers met uw Push berichten in dienst nemen. Deze KPI&#39;s omvatten:
+  +++Meer weten over cijfers van verzendrapporten.
 
    * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
 
@@ -31,13 +31,25 @@ ht-degree: 0%
 
    * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
++++
+
+  ![](assets/reporting_push_3.png)
+
 * **Doelpopulatie** grafiek en lijstvertoningsgegevens met betrekking tot uw publiek:
+
+  +++Meer weten over cijfers van verzendrapporten.
 
    * **[!UICONTROL To deliver]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
 
    * **[!UICONTROL Exclusions]**: Aantal profielen dat is uitgesloten van de analyse.
 
++++
+
+  ![](assets/reporting_push_4.png)
+
 * **Algemene statistieken** bevat gegevens voor de verzonden pushberichten, waaronder:
+
+  +++Meer weten over cijfers van verzendrapporten.
 
    * **[!UICONTROL Success]**: Aantal berichten dat is verwerkt.
 
@@ -45,4 +57,16 @@ ht-degree: 0%
 
    * **[!UICONTROL New quarantine]**: Aantal profielen dat is uitgesloten en toegevoegd aan de quarantaine.
 
++++
+
+  ![](assets/reporting_push_5.png)
+
 * **[!UICONTROL Exclusions]** de grafiek en de lijst tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen.
+
+  ![](assets/reporting_push_6.png)
+
+## Leveringsdoorvoer {#delivery-throughput}
+
+Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een opgegeven tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
+
+![](assets/reporting_push_2.png)

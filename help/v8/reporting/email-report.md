@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: d44cbd6b9bd417f79b07b735ac571a9bcf7a04f4
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 0%
 ## Verzenden
 
 * **Overzicht van levering**: Dit rapport bevat alle belangrijke informatie over de levering. Doelpopulatie, Uitsluitingsoorzaken, Leveringsstatistieken
-
-  +++Configureer de volgende instellingen op basis van uw vereisten.
-Testen
-+++
 
   ![](assets/reporting3.png)
 

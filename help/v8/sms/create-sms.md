@@ -4,9 +4,9 @@ title: Een sms-levering maken
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '261'
 ht-degree: 6%
 
 ---
@@ -30,9 +30,11 @@ ht-degree: 6%
 
 1. Van de **[!UICONTROL Deliveries]** homepage, klik **[!UICONTROL Create delivery]**.
 
-1. Onder de **[!UICONTROL Channel]** , kiest u SMS als het kanaal en selecteert u een sjabloon. Meer informatie over sjablonen
+1. Onder de **[!UICONTROL Channel]** , kiest u SMS als het kanaal en selecteert u een sjabloon. [Meer informatie over sjablonen](../msg/delivery-template.md)
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
+
+   ![](assets/sms_create_1.png)
 
 1. Voer een **[!UICONTROL Label]** voor levering en toegang tot **[!UICONTROL Additional options]** vervolgkeuzelijst.
 
@@ -44,11 +46,11 @@ ht-degree: 6%
    * **[!UICONTROL Nature]**: Geef de aard van de e-mail op voor classificatiedoeleinden.
 +++
 
-1. Van de **[!UICONTROL Custom options]** vervolgkeuzelijst, kunt u tot uw uitgebreide schema met specifieke douanevelden toegang hebben.
+1. Klik op de knop **[!UICONTROL Select audience]** om een bestaand publiek als doel in te stellen of uw eigen publiek te maken. [Meer informatie](../audience/about-audiences.md).
 
-1. Klik op de knop **[!UICONTROL Select audience]** om een bestaand publiek als doel in te stellen of uw eigen publiek te maken. Meer informatie.
+   ![](assets/sms_create_2.png)
 
-1. Schakel de **[!UICONTROL Enable control]** groepoptie om een controlegroep te plaatsen om het effect van uw levering te meten toelatend u om het gedrag van de bevolking te vergelijken die het bericht met het gedrag van contacten ontving die niet. Meer informatie
+1. Schakel de **[!UICONTROL Enable control]** groepoptie om een controlegroep te plaatsen om het effect van uw levering te meten toelatend u om het gedrag van de bevolking te vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](../audience/control-group.md)
 
 1. Klikken **[!UICONTROL Edit content]** om de inhoud van je SMS-bericht te ontwerpen.
 

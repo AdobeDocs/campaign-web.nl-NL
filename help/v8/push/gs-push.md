@@ -4,16 +4,16 @@ title: Aan de slag met pushmeldingen
 description: Meer informatie over het maken en verzenden van pushberichten via Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 7fa6a5adb22b4fc4569b93383a8e269703944582
+source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met pushmeldingen {#push}
 
-Pushmeldingen zijn essentieel voor het bereiken van gebruikers van uw mobiele app, zelfs als zij uw app niet actief gebruiken. Zij dienen diverse doeleinden zoals het verstrekken van updates, het drijven van specifieke acties, en het op de hoogte brengen van overeenkomsten. Gebruikers moeten zich aanmelden om deze melding te ontvangen.
+Pushberichten zijn essentieel voor het bereiken van een mobiele app-gebruiker, zelfs als deze uw app niet actief gebruikt. Zij dienen diverse doeleinden zoals het verstrekken van updates, het drijven van specifieke acties, en het op de hoogte brengen van overeenkomsten. Gebruikers moeten zich aanmelden om deze melding te ontvangen.
 
 Voor het maken van pushberichten hebt u drie opties:
 
@@ -22,6 +22,8 @@ Voor het maken van pushberichten hebt u drie opties:
 * Campagnes: Nadat u een campagne hebt gemaakt, kunt u een pushmelding maken. Raadpleeg deze pagina voor meer informatie over het instellen van uw campagne.
 
 * Zelfstandige leveringen: Neem direct en direct contact op met klanten met individuele pushberichten, zonder dat ze werkstromen of campagnes nodig hebben.
+
+![](../assets/do-not-localize/book.png) Leer hoe te om het kanaal van de pushmelding in dit te vormen [page](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=en).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
