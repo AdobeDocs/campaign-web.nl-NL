@@ -4,9 +4,9 @@ title: E-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Alpha" type="Positief"
-source-git-commit: 666a1c2d4b31fed8e956f0b2984c1f39d74a2221
+source-git-commit: 3aee085da2031a497469fa826bbca3498d3dd0aa
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -36,29 +36,33 @@ ht-degree: 0%
 De e-mail **[!UICONTROL Edit content]** scherm kunt u:
 * Definieer basiselementen van uw bericht, zoals het adres van de afzender en de onderwerpregel
 * Extra handelingen uitvoeren, zoals bijlagen toevoegen of aanbiedingen instellen
-* Toegang krijgen tot [E-mailontwerper](get-started-email-designer.md) om de juiste inhoud van uw e-mail te gaan samenstellen
+* Toegang krijgen tot [E-mailontwerper](get-started-email-designer.md#start-authoring) om de juiste inhoud van uw e-mail te gaan samenstellen
 
 Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewerken.
 
 1. Klik op de knop **[!UICONTROL Edit content]** van de knop [dashboard voor e-maillevering](../email/create-email.md) scherm.
 
-   ![](assets/email-edit-content.png)
+   ![](assets/email-edit-content-button.png)
 
-1. Het e-mailinhoudsopgavescherm wordt geopend. Als u een nieuwe e-mail configureert, **[!UICONTROL From name]** en **[!UICONTROL From email]** velden zijn al ingevuld.
+1. Het e-mailinhoudsopgavescherm wordt geopend.
 
    ![](assets/email-edit-content-dashboard.png)
+
+   >[!NOTE]
+   >
+   >Als u een nieuwe e-mail configureert, **[!UICONTROL From name]** en **[!UICONTROL From email]** velden zijn al ingevuld.
 
 1. De **[!UICONTROL From name]** wordt gedefinieerd in de e-mailsjabloon. Als u deze wilt wijzigen, gebruikt u een naam die gemakkelijk kan worden herkend door de ontvangers, zoals de naam van uw merk, om de openingssnelheid van uw leveringen te verhogen.
 
    >[!NOTE]
    >
-   >    Om de ervaring van de ontvanger verder te verbeteren, kunt u de naam van een persoon toevoegen, bijvoorbeeld &quot;Emma van Megastore&quot;.
+   >Als u de ervaring van de ontvanger verder wilt verbeteren, kunt u de naam van een persoon toevoegen, bijvoorbeeld &quot;Oefen van luminantie&quot;.
 
 1. De **[!UICONTROL From email]** Het adresveld wordt ook gedefinieerd in de e-mailsjabloon. Zorg ervoor het adresdomein het zelfde als subdomein is dat u aan Adobe delegeerde.
 
    >[!NOTE]
    >
-   >    U kunt het deel vóór &#39;@&#39; wijzigen, maar niet het domeinadres.
+   >U kunt het deel vóór &#39;@&#39; wijzigen, maar niet het domeinadres.
 
    <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
 
@@ -80,6 +84,10 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
    * [E-mails van auteur helemaal opnieuw](create-email-content.md)
    * [Stijl uw inhoud](get-started-email-style.md)
+
+   >[!NOTE]
+   >
+   >U kunt de muisaanwijzer ook boven de e-mailvoorvertoning plaatsen en **[!UICONTROL Open email designer]**.
 
 1. Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie uitschakelen in het dialoogvenster **[!UICONTROL Optional features]** sectie. [Leer hoe u koppelingen kunt toevoegen en bijhouden](message-tracking.md)
 

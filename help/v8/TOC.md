@@ -5,7 +5,7 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 0944c19e75aa7f074aff3898b66fec1f253ecbdc
+source-git-commit: 8d558e39f30c21cd64ab89d14020076232c6b567
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 12%
@@ -28,19 +28,19 @@ ht-degree: 12%
    + E-mails {#email}
       + [Uw eerste e-mail maken](email/create-email.md)
       + E-mailinhoud definiëren {#content}
-         + [Uw e-mailinhoud configureren](content/edit-content.md)
+         + [E-mailinhoud configureren](content/edit-content.md)
          + Uw e-mail beginnen te vormen {#start-design}
             + [Aan de slag met Email Designer](content/get-started-email-designer.md)
-            + [Opnieuw starten ](content/create-email-content.md)
+            + [Opnieuw starten](content/create-email-content.md)
             + [Uw e-mailinhoud importeren](content/existing-content.md)
             + [Uw eigen inhoud coderen](content/code-content.md)
             + [Sjablonen voor e-mailinhoud gebruiken](content/email-templates.md)
          + Uw inhoud ontwerpen {#design-content}
             + [Inhoudscomponenten gebruiken](content/content-components.md)
-            + [De tekstversie genereren](content/text-version-email.md)
+            + [Koppelingen toevoegen en berichten bijhouden](content/message-tracking.md)
             + [Een koppeling toevoegen aan de spiegelpagina](content/mirror-page.md)
             + [Een preheader toevoegen](content/preheader.md)
-            + [Koppelingen toevoegen en berichten bijhouden](content/message-tracking.md)
+            + [De tekstversie genereren](content/text-version-email.md)
          + Stijl uw inhoud {#style}
             + [Aan de slag met e-mailstijl](content/get-started-email-style.md)
             + [Achtergrondinstellingen bewerken](content/backgrounds.md)
@@ -65,8 +65,8 @@ ht-degree: 12%
    + Sms {#sms}
       + [Aan de slag met SMS-berichten](sms/gs-sms.md)
       + [Een sms-levering maken](sms/create-sms.md)
-      + [Een SMS-verzending ontwerpen ](sms/content-sms.md)
-      + [Verzend een SMS-levering ](sms/send-sms.md)
+      + [Een SMS-verzending ontwerpen](sms/content-sms.md)
+      + [Verzend een SMS-levering](sms/send-sms.md)
    + Uw inhoud dynamisch maken {#dynamic-content}
       + [Aan de slag met dynamische inhoud](personalization/gs-personalization.md)
       + [Aanpassing toevoegen](personalization/personalize.md)

@@ -3,16 +3,22 @@ audience: end-user
 title: E-mailinhoud bewerken
 description: Leer hoe u inhoud gaat maken met de gebruikersinterface E-mailontwerper in de webinterface van Campagne
 badge: label="Alpha" type="Positief"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 3%
+source-wordcount: '382'
+ht-degree: 7%
 
 ---
 
 # Aan de slag met Email Designer {#get-started-email-designer}
 
-U kunt bestaande inhoud importeren in [!DNL Journey Optimizer] of mogelijkheden voor inhoudsontwerp benutten:
+Nadat u in Adobe Campaign een e-mailbericht hebt gemaakt, moet u de content definiëren.
+
+Met de e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve interface voor slepen en neerzetten. Of u nu op een lege site begint, bestaande inhoud importeert of bestaande sjablonen gebruikt, u ontwerpt en verfijnen alle inhoud voor elke e-mail, of het nu gaat om speciale acties of transacties.
+
+<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+
+The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
 * Gebruiken [!DNL Campaign] e-mailontwerpmogelijkheden om responsieve e-mails te maken. [Meer informatie](create-email-content.md)
 
@@ -38,5 +44,5 @@ Ga vanaf het dashboard voor e-maillevering door de [Inhoud bewerken](edit-conten
 
 * **Bestaande inhoud selecteren** uit een lijst met ingebouwde of aangepaste sjablonen. Leer hoe u met e-mailsjablonen werkt [deze sectie](email-templates.md).
 
-   ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png)
 

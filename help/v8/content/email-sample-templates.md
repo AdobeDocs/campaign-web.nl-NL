@@ -3,7 +3,7 @@ audience: end-user
 product: campaign
 title: Werken met e-mailsjablonen
 badge: label="Alpha" type="Positief"
-source-git-commit: 6e7b5974a0e8da454d436cd220f25dac80ec726c
+source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Werken met e-mailsjablonen {#email-saved-content-templates}
 
-Wanneer [een e-mail maken](#create-email), gebruikt u de **[!UICONTROL Select design template]** van de **[!UICONTROL Create your email]** interface om uw inhoud van een malplaatje te beginnen bouwen.
+Wanneer [een e-mail maken](../email/create-email.md), gebruikt u de **[!UICONTROL Select design template]** van de **[!UICONTROL Create your email]** interface om uw inhoud van een malplaatje te beginnen bouwen.
 
 ![](assets/email_designer-sample-templates.png)
 
