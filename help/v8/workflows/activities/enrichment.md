@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow kunt gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: 3fb46f0535c8511f21b62949e7604bd54f9993f7
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -24,17 +24,17 @@ Verrijkingsgegevens kunnen worden verkregen:
 
 * **Van dezelfde werktabel** als doelversie in uw workflow:
 
-   *Stel een groep klanten in en voeg het veld Geboortedatum toe aan de huidige tabel*
+  *Stel een groep klanten in en voeg het veld Geboortedatum toe aan de huidige tabel*
 
 * **Van een andere werktabel**:
 
-   *Selecteer een groep klanten en voeg de velden Bedrag en Type product uit de tabel Aankoop toe*.
+  *Selecteer een groep klanten en voeg de velden Bedrag en Type product uit de tabel Aankoop toe*.
 
 Zodra de verrijkingsgegevens aan de workflow zijn toegevoegd, kunnen deze worden gebruikt in de activiteiten die na de **Verrijking** activiteit om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of gepersonaliseerde marketing berichten en campagnes te creëren die eerder aan uw doelpubliek zullen resoneren.
 
 U kunt bijvoorbeeld informatie over aankopen van klanten toevoegen aan de werkstroomwerktabel en deze gegevens gebruiken om de e-mails aan te passen aan de laatste aankoop of het bedrag dat aan deze aankopen is besteed.
 
-## Algemene configuratie
+## Algemene configuratie {#general}
 
 Voer de volgende stappen uit om de **Verrijking** activiteit:
 
@@ -44,9 +44,9 @@ Voer de volgende stappen uit om de **Verrijking** activiteit:
 
 ![](../assets/workflow-enrichment1.png)
 
-U kunt twee typen gegevens selecteren: één enkel attribuut van de doelafmeting, of een inzamelingsverbinding.
+U kunt twee typen verrijkingsgegevens selecteren: a [enkel verrijkingsattribuut](#single-attribute) van de doeldimensie, of [verzamelingskoppeling](#collection-link).
 
-## Enkel kenmerk
+## Enkel verrijkingskenmerk {#single-attribute}
 
 Hier voegen we slechts één verrijkingskenmerk toe, bijvoorbeeld de geboortedatum. Voer de volgende stappen uit:
 
@@ -56,16 +56,14 @@ Hier voegen we slechts één verrijkingskenmerk toe, bijvoorbeeld de geboortedat
 
 ![](../assets/workflow-enrichment2.png)
 
-## Verzamelingskoppeling
+## Verzamelingskoppeling {#collection-link}
 
 In dit complexere gebruiksgeval, zullen wij een inzamelingsverbinding selecteren die een verbinding met een 1-N kardinaliteit tussen lijsten is. Laten we de drie laatste aankopen ophalen die minder dan 100 dollar bedragen. Hiervoor moet u definiëren:
 
-* een kenmerk: de **Totaal bedrag** field
+* een verrijkingskenmerk: de **Totaal bedrag** field
 * het aantal regels dat moet worden opgehaald: 3
 * een filter: items van meer dan 100$ filteren
 * een sortering: afstammende sortering op de **Datum van bestelling** veld.
-
-Voer de volgende stappen uit:
 
 ### Het kenmerk toevoegen
 
@@ -92,7 +90,7 @@ Als u bijvoorbeeld het gemiddelde aantal aankopen voor een klant wilt ophalen, s
 
 ### Filters definiëren
 
-Hier, bepalen wij de maximumwaarde voor de attributen. We filteren items die groter zijn dan 100$.
+Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren items die groter zijn dan 100$.
 
 1. Klikken **Filters bewerken**.
 1. Voeg de twee volgende filters toe: **Totaal bedrag** bestaat EN **Totaal bedrag** is kleiner dan 100. De eerste filtert NULL-waarden op dezelfde manier als de hoogste waarde.
@@ -113,6 +111,11 @@ We moeten nu sorteren om de drie bestanden op te halen **nieuwste** aankopen.
 ![](../assets/workflow-enrichment7.png)
 
 <!--
+
+Add other fields
+use it in delivery
+
+
 cardinality between the tables (1-N)
 1. select attribute to use as enrichment data
 
