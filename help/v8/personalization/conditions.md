@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Alpha" type="Positief"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 548bc638ed24433550c322bce5fc55439e8d938d
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ Door voorwaardelijke inhoudsgebieden te vormen, kunt u geavanceerde dynamische v
 
 ## Voorwaardelijke inhoud maken
 
-Als u voorwaardelijke inhoud wilt maken, moet u voorwaarden maken in het dialoogvenster **expressie-editor** met een specifieke hulpfunctie. Deze methode is beschikbaar voor alle leveringskanalen, op om het even welk gebied waar u tot de uitdrukkingsredacteur, zoals de onderwerpregel, of e-mailverbindingen en tekst/knoop inhoudcomponenten kunt toegang hebben. [Leer waar u dynamische inhoud wilt toevoegen](gs-personalization.md/#access)
+Als u voorwaardelijke inhoud wilt maken, moet u voorwaarden maken in het dialoogvenster **expressie-editor** specifieke hulpfuncties gebruiken. Deze methode is beschikbaar voor alle leveringskanalen, op om het even welk gebied waar u tot de uitdrukkingsredacteur, zoals de onderwerpregel, of e-mailverbindingen en tekst/knoop inhoudcomponenten kunt toegang hebben. [Leer hoe u toegang krijgt tot de expressie-editor](gs-personalization.md/#access)
 
-Naast de expressie-editor kunt u een speciale editor gebruiken **voorwaardelijk maken van inhoud** bij het ontwerpen van een e-mailbericht waarin u alleen profielkenmerken kunt gebruiken om voorwaarden te maken.
+Naast de expressie-editor kunt u een speciale editor gebruiken **voorwaardelijk maken van inhoud** bij het ontwerpen van een e-mailbericht waarin u alleen profielkenmerken kunt gebruiken om voorwaarden te maken. [Meer informatie over het maken van voorwaardelijke inhoud in e-mails](#condition-condition-builder)
 
 ## Voorwaarden maken in de expressie-editor {#condition-perso-editor}
 
@@ -45,53 +45,53 @@ Voer de onderstaande stappen uit om voorwaardelijke inhoud voor een levering te 
 
 1. Blader in de verpersoonlijkingseditor naar de **[!UICONTROL Helper functions]** links.
 
-* Als u wilt beginnen met het bouwen van uw voorwaarde, klikt u op het plusteken (+) naast de knop **Indien** functie. De volgende regel wordt toegevoegd aan het centrale scherm:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
+1. Als u wilt beginnen met het bouwen van uw voorwaarde, klikt u op het plusteken (+) naast de knop **Indien** functie. De volgende regel wordt toegevoegd aan het centrale scherm:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
    * Vervangen `<FIELD>` met een verpersoonlijkingsgebied, zoals de taal van de ontvanger: `recipient.language`.
    * Vervangen `<VALUE>` met de waarde waaraan moet worden voldaan. Bijvoorbeeld, `'French'`.
    * Vervangen `Ìnsert content here` met de inhoud die u wilt weergeven voor de profielen die aan de opgegeven voorwaarde voldoen.
 
-     ![](assets/condition-sample1.png)
+     ![](assets/condition-sample1.png){width="800" align="center"}
 
-1. Geef de inhoud op die moet worden weergegeven als de ontvangers niet aan de voorwaarde voldoen. Dit doet u als volgt:
+1. Geef de inhoud op die moet worden weergegeven als de ontvangers niet aan de voorwaarde voldoen. Om dit te doen gebruik **else** helperfunctie:
 
-   1. Een **else** helperfunctie: Plaats de cursor vóór de afsluitingstag voor de expressie `%>` en klik op de knop `+` naast de **Else** functie.
-
-      >[!NOTE]
-      >
-      >Elke keer dat een hulpfunctie wordt toegevoegd, wordt het openen (`<%`) en sluiten (`%>`) automatisch worden toegevoegd voor en na de functie. Voorbeeld na het toevoegen van een hulpfunctie &quot;Else&quot; binnen een expressie:
-      >
-      >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
-      >
-      >Verwijder deze tags om syntaxisfouten te voorkomen. In dit voorbeeld wordt de gecorrigeerde expressie na het verwijderen van de **else** functietags zijn:
-      >
-      >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
+   1. Plaats de cursor vóór de afsluitingstag voor de expressie `%>` en klik op de knop `+` naast de **Else** functie.
 
    1. Vervangen `Ìnsert content here` met de inhoud die u wilt weergeven voor de profielen die niet voldoen aan de voorwaarde van de if-functie.
 
-      ![](assets/condition-sample2.png)
+      ![](assets/condition-sample2.png){width="800" align="center"}
 
-   U kunt ook de opdracht **else if** de hulpfunctie om voorwaarden met veelvoudige inhoudvarianten te bouwen. De onderstaande expressie geeft bijvoorbeeld drie varianten van een bericht weer, afhankelijk van de taal van de ontvanger:
+      U kunt ook de opdracht **else if** de hulpfunctie om voorwaarden met veelvoudige inhoudvarianten te bouwen. De onderstaande expressie geeft bijvoorbeeld drie varianten van een bericht weer, afhankelijk van de taal van de ontvanger:
 
-   ![](assets/condition-sample3.png)
+      ![](assets/condition-sample3.png){width="800" align="center"}
+
+   >[!NOTE]
+   >
+   >Elke keer dat een hulpfunctie wordt toegevoegd, wordt het openen (`<%`) en sluiten (`%>`) automatisch worden toegevoegd voor en na de functie.
+   >
+   >Voorbeeld na het toevoegen van een hulpfunctie &quot;Else&quot; binnen een expressie: >
+   >
+   >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
+   >
+   >Verwijder deze tags om syntaxisfouten te voorkomen. In dit voorbeeld wordt de gecorrigeerde expressie na het verwijderen van de **else** functietags zijn:
+   >
+   >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
 
 1. Zodra uw voorwaarde klaar is, kunt u uw inhoud opslaan en de rendering ervan controleren door uw inhoud te simuleren.
 
-## Voorwaardelijke inhoud maken in e-mails  {#condition-condition-builder}
+## Voorwaardelijke inhoud maken in e-mails {#condition-condition-builder}
 
 Voorwaardelijke inhoud in e-mails kan op twee manieren worden gemaakt:
 * In de uitdrukkingsredacteur door een voorwaarde met helperfuncties te bouwen,
 * In een speciale voorwaardelijke inhoudsontwikkelaar die toegankelijk is wanneer u een e-mail ontwerpt.
 
-Gedetailleerde informatie over het maken van voorwaarden met de expressieeditor is beschikbaar [hier](#condition-perso-editor).
-
-In de volgende sectie vindt u stapsgewijze instructies voor het maken van voorwaarden met behulp van de voorwaardelijke inhoud van de e-mailontwerper. In dit voorbeeld willen we een e-mailbericht maken met meerdere varianten op basis van de taal van de ontvangers. Voer de volgende stappen uit:
+Gedetailleerde informatie over het maken van voorwaarden met de expressieeditor is beschikbaar [hier](#condition-perso-editor). In de volgende sectie vindt u stapsgewijze instructies voor het maken van voorwaarden met behulp van de voorwaardelijke inhoud van de e-mailontwerper. In dit voorbeeld willen we een e-mailbericht maken met meerdere varianten op basis van de taal van de ontvangers. Voer de volgende stappen uit:
 
 1. Maak of open een e-maillevering, bewerk de inhoud en klik op de knop **[!UICONTROL Edit email body]** om de werkruimte voor het ontwerpen van e-mail te openen.
 
 1. Selecteer een inhoudscomponent en klik op de knop **[!UICONTROL Enable conditional content]** pictogram.
 
-   ![](assets/condition-email-enable.png)
+   ![](assets/condition-email-enable.png){width="800" align="center"}
 
 1. De **[!UICONTROL Conditional Content]** wordt aan de linkerkant van het scherm geopend. In dit deelvenster kunt u meerdere varianten van de geselecteerde inhoudscomponent maken aan de hand van voorwaarden.
 
@@ -99,13 +99,13 @@ In de volgende sectie vindt u stapsgewijze instructies voor het maken van voorwa
 
 1. Er wordt een regelbouwer weergegeven. Gebruik profielkenmerken om de voorwaarde voor de eerste variant van het bericht te maken en klik op **[!UICONTROL Confirm]**. In dit voorbeeld creëren we een regel die gericht is op ontvangers die &#39;Frans&#39; zijn.
 
-   ![](assets/condition-email-rule.png)
+   ![](assets/condition-email-rule.png){width="800" align="center"}
 
 1. De regel is nu gekoppeld aan de variant. Voor betere leesbaarheid raden we u aan de naam van de variant te wijzigen door op het ellipsmenu te klikken.
 
 1. Vorm hoe de component zou moeten tonen als de regel wordt ontmoet wanneer het verzenden van het bericht. In dit voorbeeld willen we de tekst in het Frans weergeven als dit de voorkeurstaal van de ontvanger is.
 
-   ![](assets/condition-email-variant1.png)
+   ![](assets/condition-email-variant1.png){width="800" align="center"}
 
 1. Voeg zoveel varianten toe als nodig zijn voor de inhoudscomponent. U kunt op elk gewenst moment schakelen tussen de varianten om te controleren hoe de inhoudscomponent wordt weergegeven op basis van hun voorwaardelijke regels.
 

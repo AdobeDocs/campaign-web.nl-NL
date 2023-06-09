@@ -8,9 +8,9 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 45f4d070c95861f5f96038df82ae7100860159e0
+source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -26,38 +26,37 @@ Met Campagne kunt u dynamische inhoud maken en persoonlijke berichten verzenden.
 
 U kunt de inhoud van uw bericht dynamisch maken door in te voegen:
 
-* **Velden aanpassen**: De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering, kunt u om het even welk gebied selecteren met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen.
+* **Velden aanpassen**: De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering, kunt u om het even welk gebied selecteren met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. De volgende syntaxis voegt de plaats van de ontvanger in uw inhoud in: &lt;%= receiving.location.city %>.
 
-   De volgende syntaxis voegt de plaats van de ontvanger in uw inhoud in: &lt;%= receiving.location.city %>.
-
-   ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){width="800" align="center"}
 
 * **Voorwaardelijke inhoud**: Configureer voorwaardelijke inhoud om inhoud toe te voegen op basis van bijvoorbeeld het profiel van de ontvanger. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is. U kunt de alternatieve versie van de inhoud definiëren als de voorwaarde niet true is.
 
 * **Ingebouwde inhoudsblokken**: De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van een e-mailbericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de verpersoonlijkingseditor.
 
-   ![](assets/perso-content-blocks.png){width="800" align="center"}
+  ![](assets/perso-content-blocks.png){width="800" align="center"}
 
 ## De expressie-editor openen {#access}
 
 Adobe Campaign V8 Web verstrekt een uitdrukkingsredacteur waar u kunt selecteren, rangschikken, aanpassen en bevestigen alle gegevens om een aangepaste ervaring voor uw inhoud tot stand te brengen. De expressie-editor is beschikbaar voor alle kanalen, in alle velden met de **[!UICONTROL Open personalization dialog]** -pictogram, zoals het veld voor de onderwerpregel, of e-mailkoppelingen en componenten voor tekst/knopinhoud.
 
+Hier volgen enkele voorbeelden van hoe u toegang kunt krijgen tot de expressieeditor, afhankelijk van de inhoud die u dynamisch wilt maken
+
+* *De uitdrukkingsredacteur van het de naamgebied van de Afzender toegang hebben*
+
+  ![](assets/expression-editor-access.png){width="800" align="center"}
+
+* *De expressie-editor openen vanuit een e-mailtekstcomponent*
+
+  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+
+* *Expressieeditor openen via een koppeling in een e-mailbericht*
+
+  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+
 >[!NOTE]
 >
 >Naast de expressie-editor kunt u ook een speciale, voorwaardelijke inhoudsontwikkelaar gebruiken bij het ontwerpen van een e-mail. [Meer informatie over het maken van voorwaardelijke inhoud in e-mails](conditions.md)
-
-*De uitdrukkingsredacteur van het de naamgebied van de Afzender toegang hebben*
-
-![](assets/expression-editor-access.png){width="800" align="center"}
-
-*De expressie-editor openen vanuit een e-mailtekstcomponent*
-
-![](assets/expression-editor-access-email.png){width="800" align="center"}
-
-*Expressieeditor openen via een koppeling in een e-mailbericht*
-
-![](assets/perso-link-insert-icon.png){width="800" align="center"}
-
 
 ## Laten we dieper duiken
 
