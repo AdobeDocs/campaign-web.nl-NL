@@ -5,7 +5,7 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 8d558e39f30c21cd64ab89d14020076232c6b567
+source-git-commit: bdc06a14ffcb83c0f6822e8626ae42be68ee905e
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 12%
@@ -34,7 +34,7 @@ ht-degree: 12%
             + [Opnieuw starten](content/create-email-content.md)
             + [Uw e-mailinhoud importeren](content/existing-content.md)
             + [Uw eigen inhoud coderen](content/code-content.md)
-            + [Sjablonen voor e-mailinhoud gebruiken](content/email-templates.md)
+            + [Sjablonen voor e-mailinhoud gebruiken](content/email-sample-templates.md)
          + Uw inhoud ontwerpen {#design-content}
             + [Inhoudscomponenten gebruiken](content/content-components.md)
             + [Koppelingen toevoegen en berichten bijhouden](content/message-tracking.md)
