@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
+source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -16,72 +16,46 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="De interface detecteren"
->abstract="De nieuwe Campagne v8 Web interface biedt een geïntegreerde, intuïtieve en consistente gebruikerservaring."
+>abstract="De nieuwe Campagne v8 Web interface biedt een geïntegreerde, intuïtieve, en verenigbare gebruikerservaring."
 
 De nieuwe Campagne v8 Web interface biedt een moderne en intuïtieve gebruikerservaring om het ontwerpen en leveren van marketingcampagnes te vereenvoudigen. Deze nieuwe interface is geïntegreerd met Adobe Experience Platform.
 
-<!--
-Key concepts when browsing the user interface are common with Adobe Experience Platform. Refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-ui/ui-guide.html#adobe-experience-platform-ui-guide) for more details.
--->
 
 >[!NOTE]
 >
 >Deze documentatie wordt vaak bijgewerkt om de laatste wijzigingen in de gebruikersinterface van het product te weerspiegelen. Sommige schermafbeeldingen kunnen echter enigszins afwijken van uw gebruikersinterface.
 
 
-<!--
-* console + web interface (overview, why use each of them)
-* web UI made up of read-only lists that can be configured, show how to add columns
--->
-
-## Linkernavigatiemenu
+## Linkernavigatiemenu {#user-interface-left-nav}
 
 Blader links naar de koppelingen voor toegang tot de webmogelijkheden van Campagne v8. Met verschillende koppelingen worden lijsten weergegeven met objecten die kunnen worden gesorteerd en gefilterd. U kunt kolommen ook vormen om alle informatie te tonen u wenst. Zie dit [sectie](#list-screens). Alle lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen. Klik op een lijstitem voor editie/weergave is niet beschikbaar in Alfa. Alle lijsten kunnen in toekomstige versies worden bewerkt. Welke items in het navigatiemenu links worden weergegeven, is afhankelijk van uw gebruikersmachtigingen.
 
 ![](assets/home.png)
 
-### Home
+### Home {#user-interface-home}
 
-Dit scherm bevat belangrijke koppelingen en bronnen voor snelle toegang tot de belangrijkste functies van het Web van Campagne v8. De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum en status van het maken en wijzigen van de bestanden.
+Dit scherm bevat belangrijke koppelingen en bronnen voor snelle toegang tot de belangrijkste functies van het Web van Campagne v8.
 
-<!--
-* Banner
-* KPIs on email channel (cross-deliveries): open rate, delivery rate, etc
-* Recent items
-* Learning cards
--->
+De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum van het kanaal, de status, de eigenaar, het maken en de wijziging van de datums.
 
-Toegang tot Help-pagina&#39;s voor Campagne v8 Web key vanaf de onderste sectie van de startpagina.
+Toegang krijgen tot de Help-pagina&#39;s voor Campagne v8 Web **Leren** van de startpagina.
 
-<!--
-show global KPIs, recent items + left menu to access features)
-CONTROL PANEL not alpha
-Global report not alpha
--->
-
-### Verkenner
+### Verkenner {#user-interface-explorer}
 
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Verkenner"
->abstract="De **Verkenner** wordt dezelfde maphiërarchie weergegeven als in de clientconsole. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8. Alle lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen."
+>abstract="De **Verkenner** worden alle Campagne-componenten en -objecten met dezelfde mappenhiërarchie als de component in de clientconsole weergegeven. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8 en maak leveringen, workflows en campagnes. Alle andere lijsten zijn alleen-lezen."
 
-De **Verkenner** wordt dezelfde maphiërarchie weergegeven als in de clientconsole. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8.
+De **Verkenner** worden alle campagnebronnen en -objecten met dezelfde maphiërarchie als de map in de clientconsole weergegeven. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8 en maak leveringen, workflows en campagnes. Alle andere lijsten zijn alleen-lezen.
 
 De items die in de Verkenner worden weergegeven, zijn afhankelijk van uw gebruikersmachtigingen.
 
 Zoals in om het even welk lijstscherm, kunt u kolommen vormen om de vertoning te personaliseren om alle informatie te bekijken u wenst. Zie dit [sectie](#list-screens).
 
-Raadpleeg voor meer informatie over de Campagneverkenner het volgende [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
-<!--
-Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
+Raadpleeg voor meer informatie over de campagnedeskundige, maphiërarchie en bronnen [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
-If you need to view your lists of recipients (age, gender), transactions or live transactional messages. To view each/edit -> console.
-
-Navtree view depends on permissions (same as console).
--->
-
-### Campaign Management
+### Campaign Management {#user-interface-campaign-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
@@ -106,7 +80,7 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 * **Workflows** - In dit scherm hebt u toegang tot de volledige lijst met workflows en workflowsjablonen. U kunt hun status, de laatste/volgende uitvoeringsdata controleren en een nieuwe werkstroom of een nieuw werkschemamalplaatje creëren. U kunt de lijst filteren met dezelfde criteria als voor andere objecten. Bovendien kunt u workflows filteren die wel of niet tot een campagne behoren. Meer informatie over workflows [in deze sectie](../workflows/gs-workflows.md).
 
 
-### Klantenbeheer
+### Klantenbeheer {#user-interface-customer-management}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -123,9 +97,12 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 >title="Abonnementenlijsten"
 >abstract="Blader door uw abonnementenlijsten. U kunt het type, de modus en het label weergeven. Deze lijst is alleen-lezen."
 
-* **Ontvangers** - Open de ontvangende database. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Deze lijst is alleen-lezen.
-* **Soorten publiek** - Dit is uw lijst met doelgroepen. Standaard kunt u het type, de oorsprong, de datum en het label van de wijziging bekijken. U kunt de lijst filteren op oorsprong. Deze lijst is alleen-lezen.
-* **Abonnementenlijsten** - Blader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Deze lijst is alleen-lezen.
+
+In de sectie KLANTBEHEER kunt u uw ontvangers, publiek en abonnementen bekijken. Deze lijsten zijn alleen-lezen.
+
+* **Ontvangers** - Open de ontvangende database. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Meer informatie over ontvangers in [Adobe Campaign v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
+* **Soorten publiek** - Dit is uw lijst met doelgroepen. Standaard kunt u het type, de oorsprong, de datum en het label van de wijziging bekijken. U kunt de lijst filteren op oorsprong. Meer informatie over soorten publiek en lijsten in [Adobe Campaign v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **Abonnementen** - Blader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Leer hoe u abonnementen en abonnementen beheert in [Adobe Campaign v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
 
 ### Beslissingsbeheer
 
@@ -136,9 +113,11 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 
 * **Aanbiedingen** - Blader door de lijst met interactievoorstellen. Standaard kunt u hun status, begin- en einddatum en omgeving bekijken. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar. Deze lijsten zijn alleen-lezen.
 
+Leer hoe u aanbiedingen kunt beheren in [Adobe Campaign v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+
 ## Bovenste balk
 
-De hoogste bar van de interface staat u toe:
+Gebruik de hoogste bar van de interface aan:
 
 * Uw feedback delen als een alfakanaal
 * schakelen tussen organisaties en instanties
