@@ -3,9 +3,9 @@ audience: end-user
 title: Campagnerapporten
 description: Meer informatie over het openen en gebruiken van campagnerapporten
 badge: label="Alpha" type="Positief"
-source-git-commit: 00f6c8622fbeb740a354d612e866f603139dfee0
+source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1336'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 ### Leveringsoverzicht {#delivery-summary-email}
 
 * **[!UICONTROL Delivery Overview]** Hier vindt u belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop bezoekers uw e-maillevering uitvoeren.
+
+  ![](assets/campaign_report_email_1.png)
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -32,9 +34,9 @@ ht-degree: 1%
 
 +++
 
-  ![](assets/campaign_report_email_1.png)
+* **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers:
 
-* **[!UICONTROL Initial target audience statistics]**
+  ![](assets/campaign_report_email_2.png)
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -46,9 +48,9 @@ ht-degree: 1%
 
 +++
 
-  ![](assets/campaign_report_email_2.png)
+* **[!UICONTROL Execution statistics]** de tabel geeft het succes van uw levering aan .
 
-* **[!UICONTROL Execution statistics]**
+  ![](assets/campaign_report_email_3.png)
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -62,9 +64,9 @@ ht-degree: 1%
 
 +++
 
-  ![](assets/campaign_report_email_3.png)
+* **[!UICONTROL Reaction statistics]** de lijst bevat de beschikbare gegevens voor ontvankelijke activiteit voor uw levering.
 
-* **[!UICONTROL Reaction statistics]**
+  ![](assets/campaign_report_email_4.png)
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -77,11 +79,9 @@ ht-degree: 1%
    * **[!UICONTROL Mirror page]**: Aantal ontvangers die op de verbinding van de spiegelpagina klikte.
 
    * **[!UICONTROL Forwards]**: Aantal ontvangers dat heeft geklikt en het e-mailbericht heeft doorgestuurd.
-
-  ![](assets/campaign_report_email_4.png)
 +++
 
-* **[!UICONTROL Generated click streams]**
+* **[!UICONTROL Generated click streams]** de lijst toont gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden.
 
   ![](assets/campaign_report_email_5.png)
 
@@ -97,7 +97,9 @@ ht-degree: 1%
 
 ### Niet-te leveren items {#non-deliverables-email}
 
-* **[!UICONTROL Breakdown of errors per type]** en **[!UICONTROL Breakdown of errors per browsers]**
+* **[!UICONTROL Breakdown of errors per type]** en **[!UICONTROL Breakdown of errors per domain]** tabellen en grafieken bevatten de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen.
+
+  ![](assets/campaign_report_email_6.png)
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -109,11 +111,11 @@ ht-degree: 1%
 
 +++
 
-  ![](assets/campaign_report_email_6.png)
-
 ### Trackingsindicatoren {#tracking-indicators-email}
 
-* **[!UICONTROL Delivery statistics]**
+* **[!UICONTROL Delivery statistics]** biedt prestatiekernindicatoren (KPI&#39;s) die gedetailleerde informatie geven over gegevens die beschikbaar zijn voor verzonden e-mails.
+
+  ![](assets/campaign_report_email_7.png)
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -130,9 +132,9 @@ ht-degree: 1%
    * **[!UICONTROL Estimation of forwards]**: Schatting van het aantal e-mails dat door de beoogde ontvangers is doorgestuurd.
 +++
 
-  ![](assets/campaign_report_email_7.png)
+* **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers.
 
-* **[!UICONTROL Open and click-through rate]**
+  ![](assets/campaign_report_email_8.png)
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -147,11 +149,11 @@ ht-degree: 1%
    * **[!UICONTROL Raw reactivity]**: Percentage van het aantal ontvangers dat ten minste één keer op een levering heeft geklikt in vergelijking met het aantal ontvangers dat een levering ten minste één keer heeft geopend.
 +++
 
-  ![](assets/campaign_report_email_8.png)
-
 ### URL&#39;s en klikpaden {#url-email}
 
-* **[!UICONTROL URLs and click streams]**
+* **[!UICONTROL URLs and click streams]** verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt.
+
+  ![](assets/campaign_report_email_9.png)
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -163,9 +165,9 @@ ht-degree: 1%
 
 +++
 
-  ![](assets/campaign_report_email_9.png)
+* **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding.
 
-* **[!UICONTROL Top 10 most visited links]**
+  ![](assets/campaign_report_email_10.png)
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -175,23 +177,23 @@ ht-degree: 1%
 
 +++
 
-  ![](assets/campaign_report_email_10.png)
-
-* **[!UICONTROL Breakdown of clicks over time]**, aantal klikken
+* **[!UICONTROL Breakdown of clicks over time]** de grafiek bevat de beschikbare gegevens voor het gedrag van de ontvanger per koppeling.
 
   ![](assets/campaign_report_email_11.png)
 
 ### Gebruikersactiviteiten {#user-activities-email}
 
-* **[!UICONTROL User activities]**
+* **[!UICONTROL User activities]** toont de uitsplitsing van opent en klikt in de vorm van een grafiek.
+
+  ![](assets/campaign_report_email_12.png)
+
+  +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
    * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
    * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens eenmaal hebben geopend.
 
 +++
-
-  ![](assets/campaign_report_email_12.png)
 
 ## Sms-kanaal {#sms-channel}
 
@@ -211,7 +213,7 @@ ht-degree: 1%
 
 +++
 
-* **[!UICONTROL Initial target audience statistics]**
+* **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers:
 
   +++Meer weten over de metriek van het SMS-campagnerapport?
 
@@ -223,7 +225,7 @@ ht-degree: 1%
 
 +++
 
-* **[!UICONTROL Execution statistics]**
+* **[!UICONTROL Execution statistics]** de tabel geeft het succes van uw levering aan :
 
   +++Meer weten over de metriek van het SMS-campagnerapport?
 
@@ -237,7 +239,7 @@ ht-degree: 1%
 
 +++
 
-* **[!UICONTROL Generated click streams]**
+* **[!UICONTROL Generated click streams]** de lijst toont gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden:
 
   +++Meer weten over de metriek van het SMS-campagnerapport?
 
@@ -267,7 +269,7 @@ ht-degree: 1%
 
 +++
 
-* **[!UICONTROL Initial target audience statistics]**
+* **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers:
 
   +++Meer weten over cijfers voor pushcampagnerapporten?
 
@@ -279,7 +281,7 @@ ht-degree: 1%
 
 +++
 
-* **[!UICONTROL Execution statistics]**
+* **[!UICONTROL Execution statistics]** de tabel geeft het succes van uw levering aan :
 
   +++Meer weten over cijfers voor pushcampagnerapporten?
 
@@ -293,7 +295,7 @@ ht-degree: 1%
 
 +++
 
-* **[!UICONTROL Generated click streams]**
+* **[!UICONTROL Generated click streams]** de lijst toont gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden:
 
   +++Meer weten over cijfers voor pushcampagnerapporten?
 
