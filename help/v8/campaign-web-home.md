@@ -4,10 +4,10 @@ description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positief"
-source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
+source-git-commit: 39b4ec268ba7b1383ad887ab35e66b67d1d4a2ef
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 6%
+source-wordcount: '310'
+ht-degree: 1%
 
 ---
 
@@ -19,40 +19,76 @@ De campagne biedt nu een nieuwe webgebruikersinterface (UI) met verbeterde bruik
 
 >Campagne v8 Web is momenteel in Alpha- versie. De toegang wordt beperkt tot een kleine reeks Alpha- klanten. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen. [Meer informatie](rn/release-notes.md)
 
-
+<!--
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="get-started/user-interface.md">
-<img alt="nieuwe interface" src="assets/do-not-localize/email-create.jpeg">
+<img alt="new UI" src="assets/do-not-localize/email-create.jpeg">
 </a>
-<div><a href="get-started/user-interface.md"><strong>Nieuwe interface voor campagne</strong>
+<div><a href="get-started/user-interface.md"><strong>Discover the new user interface</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="content/create-email-content.md">
-<img alt="Onfrequent" src="assets/do-not-localize/email-design.jpg">
+<img alt="Infrequent" src="assets/do-not-localize/email-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Een e-mail ontwerpen</strong></a>
+<a href="content/create-email-content.md"><strong>Meet the Email Designer</strong></a>
 </div>
 <p></td>
 <td>
 <a href="audience/about-audiences.md">
-<img alt="Doelgroepen" src="assets/do-not-localize/email-audience.jpg">
+<img alt="Audiences" src="assets/do-not-localize/email-audience.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>Een publiek selecteren</strong></a>
+<a href="audience/about-audiences.md"><strong>Make your content dynamic</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="preview-test/proofs.md">
-<img alt="Validatie" src="assets/do-not-localize/email-preview.jpg">
+<img alt="Validation" src="assets/do-not-localize/email-preview.jpg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Een e-mail voorvertonen en testen</strong></a>
+<a href="preview-test/proofs.md"><strong>Send cross-channel deliveries</strong></a>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="Validation" src="assets/do-not-localize/email-preview.jpg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>Reimagined workflow canvas interface</strong></a>
 </div>
 <p>
 </td>
 </tr></table>
+-->
+
+<table style="table-layout:fixed">
+<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<img alt="nieuwe interface" src="assets/do-not-localize/menu-ui.jpeg">
+</a></td><td>Ontdek de nieuwe gebruikersinterface van het Web van de Campagne, recentste verbeteringen, zeer belangrijke mogelijkheden. Leer hoe u ze kunt gebruiken om kanaalcampagnes voor uw publiek te maken. Met de gebruiksvriendelijke functies helpt Campagne u het maken van gepersonaliseerde campagnes over meerdere kanalen te stroomlijnen, resultaten te stimuleren en een concurrentievoordeel te behalen.</td></tr>
+<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<img alt="nieuwe interface" src="assets/do-not-localize/menu-workflows.jpeg">
+</a></td><td>Dankzij ons uitgebreide grafische canvas kunt u eenvoudig processen ontwerpen, zoals segmentatie, uitvoering van campagnes en nog veel meer. Met dit geavanceerde gereedschap binnen handbereik kunt u uw workflow stroomlijnen en uw campagnes verhogen.</td></tr>
+<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<img alt="nieuwe interface" src="assets/do-not-localize/menu-design.jpg">
+</a></td><td>Begin met een sjabloon of gebruik de nieuwe e-mailontwerper van Adobe Campaign om e-mails te maken zonder dat u één regel code hoeft te schrijven. Leer hoe u met de e-mailontwerper uw inhoud kunt maken, deze kunt voorvertonen en testen en een e-mail naar een bestaand publiek kunt sturen in een gebruiksscenario van begin tot eind.</td></tr>
+<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<img alt="nieuwe interface" src="assets/do-not-localize/menu-dynamic.jpg">
+</a></td><td>Maak voorwaardelijke inhoud om dynamische personalisatie te definiëren op basis van het profiel van de ontvanger, waarbij tekstblokken en afbeeldingen automatisch worden vervangen wanneer aan bepaalde voorwaarden wordt voldaan. Met deze functie kunt u uw campagnes op een hoger niveau brengen en een zeer doelgerichte, persoonlijke ervaring aan uw publiek aanbieden</td></tr>
+<tr style="border: 0;"><td><a href="get-started/user-interface.md">
+<img alt="nieuwe interface" src="assets/do-not-localize/menu-campaign.jpeg">
+</a></td><td>De mogelijkheden van Adobe Campaign helpen u gecentraliseerde klantengegevens beheren, klantenmededelingen en campagnes ontwerpen, en persoonlijke ervaringen over verschillende kanalen creëren: E-mail, push en SMS.</td></tr>
+</table>
+
+
+
+
+
+
+
+
