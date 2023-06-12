@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
+source-git-commit: fe1afdc3995d09058bcffe85a54af6ccfea93bb8
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1769'
 ht-degree: 0%
 
 ---
@@ -186,8 +186,7 @@ Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voo
 
 Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken en de filterconfiguratieschermen.
 
-Gebruik de **Geavanceerde kenmerken weergeven** Schakel onder de lijst in om alle beschikbare kenmerken voor de huidige lijst weer te geven.
-
+Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst weer te geven.
 
 ## Contextuele hulp {#contextual-help}
 
