@@ -4,9 +4,9 @@ title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het Web UI van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Alpha" type="Positief"
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '754'
 ht-degree: 12%
 
 ---
@@ -81,11 +81,11 @@ Na de voorbereiding van de levering kunt u bekijken hoe de uitsluitingen werden 
 
 * Controleer in het bezorgdashboard, vóór de verzending, het **Uitsluiten** KPI.
 
-   ![](assets/control-group5.png)
+  ![](assets/control-group5.png)
 
 * In de leveringslogboeken, toont het lusje van Logs de uitsluitingsstap.
 
-   ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png)
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -95,7 +95,7 @@ Na de voorbereiding van de levering kunt u bekijken hoe de uitsluitingen werden 
 
 * De **Uitsluiting veroorzaakt** wordt het aantal uitgesloten profielen voor elke typeregel weergegeven.
 
-   ![](assets/control-group7.png)
+  ![](assets/control-group7.png)
 
 Voor meer informatie over leveringslogboeken, verwijs naar dit [sectie](../monitor/delivery-logs.md).
 
@@ -104,19 +104,19 @@ Voor meer informatie over leveringslogboeken, verwijs naar dit [sectie](../monit
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Extra populatie"
->abstract="U kunt een specifieke populatie van het doel uitsluiten door een bestaand publiek te selecteren of door een query te definiëren."
+>abstract="U kunt een specifieke populatie van het leveringspubliek uitsluiten door een bestaand publiek te selecteren, of door een vraag te bepalen."
 
-Een andere manier om een controlegroep te bepalen is een specifieke bevolking van het doel uit te sluiten gebruikend een bestaand publiek of door een vraag te bepalen.
+Een andere manier om een controlegroep te bepalen is een specifieke bevolking in een bestaand publiek te selecteren of door een vraag te bepalen.
 
 Van de **Extra populatie** van de **Controlegroep** definitiescherm, klik **[!UICONTROL Select Audience]** knop.
 
 ![](assets/control-group3.png)
 
-* Als u een bestaand publiek wilt gebruiken, klikt u op **Doelgroep selecteren**. Zie dit [sectie](add-audience.md).
+* Als u een bestaand publiek wilt gebruiken, klikt u op **Doelgroep selecteren**. Meer informatie in [deze sectie](add-audience.md).
 
-* Als u een nieuwe query wilt definiëren, selecteert u **Maak uw eigen** en definieert u de uitsluitingscriteria met behulp van de regelbouwer. Zie dit [sectie](segment-builder.md).
+* Als u een nieuwe query wilt definiëren, selecteert u **Maak uw eigen** en definieert u de uitsluitingscriteria met behulp van de regelbouwer. Meer informatie in [deze sectie](segment-builder.md).
 
-De profielen die zijn opgenomen in het publiek of die overeenkomen met het resultaat van de query, worden uitgesloten van het doel.
+De profielen die zijn opgenomen in het publiek of die overeenkomen met het resultaat van de query, zijn **uitgesloten** vanaf het leveringdoel: zij ontvangen geen bericht .
 
 ## De resultaten vergelijken{#control-group-results}
 
