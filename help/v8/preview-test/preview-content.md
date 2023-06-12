@@ -4,7 +4,7 @@ title: E-mailinhoud voorvertonen
 description: Leer hoe u uw e-mailinhoud kunt voorvertonen met de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha" type="Positief"
-source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
+source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Volg onderstaande stappen om een voorvertoning van de inhoud van uw e-mail weer 
 
      >[!NOTE]
      >
-     >U kunt testprofielen maken in het dialoogvenster [!DNL Campaign] in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Meer informatie in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/creating-seed-addresses.html){target="_blank"}
+     >U kunt testprofielen maken in het dialoogvenster [!DNL Campaign] in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Meer informatie in [Campagne v8 (console)-documentatie](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    * De **[!UICONTROL Profiles]** worden alle ontvangers weergegeven die in het tabblad **[!UICONTROL Profiles and Targets]** uit de [!DNL Campaign] console. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}
 
