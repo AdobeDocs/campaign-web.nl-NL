@@ -4,25 +4,52 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe te met leveringen te werken en berichten met het Web van de Campagne te verzenden
 badge: label="Alpha" type="Positief"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 00d4e8a16161541f6e1801d2d326dd174c437886
+source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 1%
+source-wordcount: '1039'
+ht-degree: 2%
 
 ---
 
 # Aan de slag met berichten{#gs-messages}
 
+Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mailberichten, SMS-berichten en pushmeldingen, en de doeltreffendheid ervan meten aan de hand van verschillende speciale rapporten.
 
-Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mailberichten, SMS-berichten en pushmeldingen, en de doeltreffendheid ervan meten aan de hand van verschillende speciale rapporten. Deze berichten worden ontworpen en verzonden door leveringen, en kunnen voor elke ontvanger worden gepersonaliseerd. Deze leveringen kunnen op zichzelf staan of in de context van een marketingcampagne worden opgenomen.
+Deze berichten worden ontworpen en verzonden door leveringen, en kunnen voor elke ontvanger worden gepersonaliseerd. Deze leveringen kunnen op zichzelf staan of in de context van een marketingcampagne worden opgenomen.
 
-Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen:
+Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen: E-mail-, SMS- en mobiele apps.
 
-* **E-mailkanaal**: Met e-mailleveringen kunt u persoonlijke e-mails sturen naar de doelgroep. Leer hoe u een e-mail maakt en verzendt in [deze pagina](../email/create-email.md).
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+    <td>
+    <a href="../email/create-email.md">
+    <img alt="Email" src="assets/do-not-localize/email.jpg">
+    </a>
+    <div><a href="../email/create-email.md"><strong>E-mails maken</strong>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../push/create-push.md">
+      <img alt="Push" src="assets/do-not-localize/push.jpg">
+    </a>
+    <div>
+    <a href="../push/gs-push.md"><strong>Pushberichten maken</strong></a>
+    </div>
+    <p>
+    </td>
+    <td>
+    <a href="../sms/create-sms.md">
+      <img alt="Sms" src="assets/do-not-localize/sms.jpg">
+    </a>
+    <div>
+    <a href="../sms/create-sms.md"><strong>SMS-berichten maken</strong></a>
+    </div>
+    <p>
+    </td>
+    </tr>
+    </table>
 
-* **SMS-kanaal**: Met leveringen op mobiele kanalen kunt u persoonlijke SMS naar de doelgroep sturen.  Meer informatie over het maken en verzenden van SMS [deze pagina](../sms/create-sms.md).
-
-* **Mobiel toepassingskanaal**: Met levering voor mobiele apps kunt u meldingen verzenden naar iOS- en Android-systemen.  Meer informatie over het maken en verzenden van pushmeldingen in [deze pagina](../push/gs-push.md).
 
 ## Een levering maken {#create-delivery}
 
@@ -83,7 +110,7 @@ Voor meer informatie over hoe te om een campagne te vormen en leveringen te behe
 
 ## Aanpassing toevoegen{#personalization}
 
-Berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. [Meer informatie over personalisatiemogelijkheden](../personalization/personalize.md).
+Berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. [Meer informatie over personalisatiemogelijkheden](../personalization/gs-personalization.md).
 
 Met Campagne kunt u dynamische inhoud maken en persoonlijke berichten verzenden. U kunt aanpassingsmogelijkheden combineren om uw berichten te verbeteren en een aangepaste gebruikerservaring te creëren.
 
@@ -91,19 +118,19 @@ U kunt de inhoud van het bericht aanpassen door:
 
 * Dynamisch invoegen **personalisatievelden**
 
-   De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering, kunt u om het even welk gebied selecteren met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. [Meer informatie](../personalization/personalize.md)
+  De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering, kunt u om het even welk gebied selecteren met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. [Meer informatie](../personalization/personalize.md)
 
 * Vooraf gedefinieerde invoegen **inhoudsblokken**
 
-   De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de personalisatie-editor. [Meer informatie](../personalization/personalize.md#ootb-content-blocks)
+  De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de personalisatie-editor. [Meer informatie](../personalization/personalize.md#ootb-content-blocks)
 
 * Maken **voorwaardelijke inhoud**
 
-   Configureer voorwaardelijke inhoud om bijvoorbeeld dynamische personalisatie toe te voegen op basis van het profiel van de ontvanger. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is. [Meer informatie](../personalization/conditions.md)
+  Configureer voorwaardelijke inhoud om bijvoorbeeld dynamische personalisatie toe te voegen op basis van het profiel van de ontvanger. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is. [Meer informatie](../personalization/conditions.md)
 
 * Toevoegen **persoonlijke aanbiedingen**
 
-   Voeg persoonlijke aanbiedingen in uw berichtinhoud in, afhankelijk van de locatie van de ontvanger, het huidige weer of de laatste kooporder.
+  Voeg persoonlijke aanbiedingen in uw berichtinhoud in, afhankelijk van de locatie van de ontvanger, het huidige weer of de laatste kooporder.
 
 
 ## Bekijk uw leveringen en test deze
@@ -111,9 +138,13 @@ U kunt de inhoud van het bericht aanpassen door:
 Nadat de inhoud van uw bericht is gedefinieerd, kunt u deze voorvertonen om de weergave van uw berichten te bepalen en de instellingen voor de personalisatie te controleren met testprofielen. [Meer informatie](../preview-test/preview-test.md)
 
 
-## Logbestanden voor aflevering en bijhouden{#gs-tracking-logs}
+## Logbestanden bijhouden en bijhouden{#gs-tracking-logs}
 
-Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke stap om ervoor te zorgen dat uw marketingcampagnes efficiënt zijn en uw klanten bereiken. U kunt controleren na het verzenden van een levering, evenals begrijpen hoe de leveringsmislukkingen en quarantines worden beheerd.
+Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke stap om ervoor te zorgen dat uw marketingcampagnes efficiënt zijn en uw klanten bereiken.
+
+U kunt controleren na het verzenden van een levering, evenals begrijpen hoe de leveringsmislukkingen en quarantines worden beheerd.
+
+Meer informatie over de mogelijkheden voor controle en bijhouden in [deze sectie](../reporting/gs-reports.md).
 
 ## Een levering dupliceren {#delivery-duplicate}
 
@@ -125,12 +156,30 @@ Voer de volgende stappen uit om een levering te dupliceren uit de lijst met leve
 1. Selecteer  **[!UICONTROL Duplicate]**.
 1. Herhaling bevestigen: het nieuwe leveringsdashboard opent in het centrale scherm.
 
-
 Voer de volgende stappen uit om een levering te dupliceren vanaf het dashboard:
 
 1. Open de levering en klik op de knop  **[!UICONTROL ...More]** op de bovenste sectie van het scherm.
-1. Selecteer  **[!UICONTROL Duplicate]**.
+1. Selecteer **[!UICONTROL Duplicate]**.
 1. Herhaling bevestigen: de nieuwe levering vervangt de huidige levering in het centrale scherm.
 
+## Een levering verwijderen {#delivery-delete}
 
+De leveringen worden uit de leveringslijst geschrapt - hetzij van de hoofdlevering in de linkerspoorstaaf, hetzij van de leveringslijst van een campagne.
 
+Voer de volgende stappen uit om een levering te verwijderen uit de lijst met leveringen:
+
+1. Klik op de drie puntenknop rechts naast de naam van de levering die u wilt dupliceren.
+1. Selecteer  **[!UICONTROL Delete]**.
+1. Verwijderen bevestigen.
+
+![Een levering verwijderen uit de leveringslijst](assets/delete-delivery-from-list.png)
+
+Alle leveringen zijn beschikbaar in deze lijsten, maar leveringen die in een workflow zijn gemaakt, kunnen daar niet van worden verwijderd. Als u een levering wilt verwijderen die in de context van een workflow is gemaakt, moet u de leveringsactiviteit uit de workflow verwijderen.
+
+Ga als volgt te werk om een levering uit een workflow te verwijderen:
+
+1. Selecteer de leveringsactiviteit.
+1. Klik op de knop  **[!UICONTROL Delete]** in het rechterdeelvenster.
+1. Verwijderen bevestigen. Als de levering kindknopen heeft, kunt u verkiezen om hen ook te schrappen, of hen te houden.
+
+![Een levering in een workflow verwijderen](assets/delete-delivery-from-wf.png)
