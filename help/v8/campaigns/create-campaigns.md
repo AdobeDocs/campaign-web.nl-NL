@@ -4,11 +4,125 @@ title: Campagnes maken met Adobe Campaign Web
 description: Meer informatie over het maken van kanaalcampagnes met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: a048ce9384f458f4cf94b38ceac46e2c04bcc231
+source-git-commit: 9ccc69844c813f5c8828fade442c766e9331bfbb
 workflow-type: tm+mt
-source-wordcount: '23'
-ht-degree: 13%
+source-wordcount: '260'
+ht-degree: 3%
 
 ---
 
+
 # Cross-channel campagnes maken {#create-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_properties"
+>title="Eigenschappen voor het maken van campagnes"
+>abstract="Definieer eigenschappen en metagegevens voor de campagne."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_properties"
+>title="Campagneigenschappen"
+>abstract="Definieer de instellingen en metagegevens van uw campagne."
+
+Voer de volgende stappen uit om een nieuwe campagne te maken:
+
+1. Klik op de knop **[!UICONTROL Campaigns]** en klikt u op de knop **[!UICONTROL Create campaign]** knop.
+1. Selecteer **Sjabloon** een label voor de campagne te gebruiken en te verstrekken. De malplaatjes van de campagne zijn vooraf gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole.
+   [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
+1. Indien nodig kunt u de **Aanvullende opties**. Zie dit [sectie](#campaign-options).
+1. Definieer de **Schema** van uw campagne. De campagne begint wanneer de begindatum is bereikt. Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt. Zie dit [sectie](gs-campaigns.md#access-campaigns).
+
+   ![De campagneeigenschappen definiëren](assets/campaign-properties.png)
+
+   >[!NOTE]
+   >
+   >U kunt de campagneeigenschappen ook openen via het dialoogvenster **Campagne-instellingen configureren** naast het campagnelabel. Zie dit [sectie](gs-campaigns.md#campaign-dashboard)
+
+1. Klikken **Maken**.
+1. Voeg een workflow of zelfstandige levering toe aan uw campagne.
+   * Van de **Werkstromen** tabblad, klikt u op **Workflow maken**. Er wordt automatisch een standaardworkflow toegevoegd wanneer u een campagne maakt. Meer informatie over hoe [een workflow maken](../workflows/create-workflow.md)
+   * Van de **Leveringen** tabblad, klikt u op **Levering maken**. [Meer informatie](../msg/gs-messages.md)
+
+## Aanvullende opties {#campaign-options}
+
+Campagneeigenschappen worden weergegeven wanneer u een nieuwe campagne maakt.
+
+Onder **Aanvullende opties** kunt u de volgende instellingen configureren:
+
+* Interne naam:
+* Map: Selecteer de map waarin de campagne wordt opgeslagen
+* Toegewezen aan:
+* Beschrijving:
+* Aard: de aard van de campagne voor classificatiedoeleinden specificeren
+
+<!--
+## Create a cross-channel campaign {#cross-channel-campaign}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Workflow list"
+>abstract="List of workflows available for your campaign. Use the 'Create workflow' button to add a workflow in your campaign."
+
+In a cross-channel campaign, a single marketing communication uses different channels. Data is passed between the channels. The customer receives communication through multiple channels based on, for example, their interaction with the previous communication.
+
+-->
+<!--
+existing campaign: settings button -> properties like when creation
+schedule in header
+
+
+About plans, programs and campaigns
+Adobe Campaign allows you to plan marketing campaigns in which you can create and manage different types of activities: emails, SMS messages, push notifications, workflows, landing pages. These campaigns and their contents can be gathered into programs.
+
+The programs and campaigns allow you to regroup and view the different marketing activities that are linked to them.
+
+A program may contain other programs as well as campaigns, workflows, and landing pages. It appears in the timeline and help you organize your marketing activities: you can separate them by country, by brand, by unit, etc.
+A campaign enables you to gather all the marketing activities of your choice under a single entity. A campaign may contain emails, SMS, push notifications, direct mails, workflows, and landing pages.
+To better organize your marketing plans, Adobe recommends the following hierarchy: Program > Sub-programs > Campaigns > Workflows > Deliveries.
+
+Reports on programs and campaigns allow you to analyze their impact. For example, you can build reports at the campaign level to aggregate data on all deliveries contained in that campaign.
+
+Related topics:
+
+Timeline
+About dynamic reports
+Creating a campaign
+In programs and sub-programs, you can add campaigns. Campaigns can contain marketing activities such as emails, SMS, push notifications, workflows, and landing pages.
+
+From the Adobe Campaign home page, select the Programs & Campaigns card and access a program or sub-program.
+
+Click on the Create button and select Campaign.
+
+In the Creation mode screen, select a campaign type.
+
+
+
+The campaign types available are based on templates defined in Resources > Templates > Campaign templates. For more on this, refer to the Managing templates section.
+
+In the Properties screen, enter the name and ID of the campaign.
+
+Select a start and end date to your campaign. These dates only apply to the campaign itself.
+
+
+
+Click on Create to confirm the creation of the campaign.
+
+The campaign is created and displayed. Use the Create button to add marketing activities to your campaign.
+
+NOTE
+Depending on your license agreement, you may access only some of these activities.
+
+You can also create a campaign from the marketing activity list. You can choose to link the marketing activity to a parent program or sub-program via the properties window of the campaign.
+
+
+Programs and campaigns icons and statuses
+Each program and each campaign in the list has a visual symbol and an icon whose color indicates the execution status. This status depends on the validity period of the program or the campaign.
+
+Gray: the program/campaign has not yet started - Editing status.
+Blue: the program/campaign is in progress - In progress status.
+Green: the program/campaign has finished - Finished status. By default, the current date is automatically shown as the validity start date and the end date is calculated according to the start date (D+186 days). You can change these dates in the program or campaign properties.
+
+
+Business.Adobe.com resources
+-->
