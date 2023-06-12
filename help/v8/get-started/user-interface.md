@@ -4,7 +4,7 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 8f2273c1551fb02ec6ea7ea2286e196684c85f33
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -72,7 +72,7 @@ De items die in de Verkenner worden weergegeven, zijn afhankelijk van uw gebruik
 
 Zoals in om het even welk lijstscherm, kunt u kolommen vormen om de vertoning te personaliseren om alle informatie te bekijken u wenst. Zie dit [sectie](#list-screens).
 
-Raadpleeg voor meer informatie over de Campagneverkenner het volgende [Campagne v8 Console-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Raadpleeg voor meer informatie over de Campagneverkenner het volgende [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 <!--
 Explorer' menu in web UI to navigate through console content: console navtree second view in addition to the left menu lists with filters. The Explorer gives the real folder hierarchy from the console. Make sure you find your deliveries in sub-folders. All lists can be accessed in read-only. No Create/Edit. You can configure lists (colums). All schema fields, linked tables are available. 
 
@@ -99,9 +99,9 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 
 * **Leveringen** - Blader door de lijst met leveringen. Door gebrek, kunt u hun staat, laatste wijzigingsdatum evenals zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-maillevering om het dashboard te openen voor een overzicht van de leveringsgegevens. Leveringen op andere kanalen zijn alleen-lezen. Meer informatie over leveringen [in deze sectie](../msg/gs-messages.md).
 
-   Gebruik de **Meer handelingen** om een levering te verwijderen of te dupliceren.
+  Gebruik de **Meer handelingen** om een levering te verwijderen of te dupliceren.
 
-   ![](assets/more-actions.png){width="70%" align="left"}
+  ![](assets/more-actions.png){width="70%" align="left"}
 
 * **Workflows** - In dit scherm hebt u toegang tot de volledige lijst met workflows en workflowsjablonen. U kunt hun status, de laatste/volgende uitvoeringsdata controleren en een nieuwe werkstroom of een nieuw werkschemamalplaatje creëren. U kunt de lijst filteren met dezelfde criteria als voor andere objecten. Bovendien kunt u workflows filteren die wel of niet tot een campagne behoren. Meer informatie over workflows [in deze sectie](../workflows/gs-workflows.md).
 
@@ -164,7 +164,7 @@ De lijsten worden weergegeven in kolommen. U kunt extra informatie tonen door de
 
 U kunt items in de lijst sorteren door op een kolomkop te klikken. Er wordt een pijl weergegeven (omhoog of omlaag) die aangeeft dat de lijst in die kolom wordt gesorteerd. Voor numerieke kolommen of datumkolommen geeft de pijl-omhoog aan dat de lijst in oplopende volgorde wordt gesorteerd en de pijl-omlaag een aflopende volgorde aangeeft. Voor tekenreeks- of alfanumerieke kolommen worden waarden in alfabetische volgorde weergegeven.
 
-## Contextafhankelijke hulp en handleiding bij het instappen
+## Contextafhankelijke hulp en handleiding bij het instappen {#contextual-help}
 
 De interface bevat een contextafhankelijke Help. Klik op de knop **?** pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
 
@@ -218,12 +218,6 @@ De taal wijzigen:
 1. Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
 
    ![](assets/select-language.png)
-
-<!--
-## Supported browsers {#browsers}
-
-Adobe Campaign interface is designed to work optimally in the latest version of Google Chrome. You might have trouble using certain features on older versions or other browsers.
--->
 
 
 

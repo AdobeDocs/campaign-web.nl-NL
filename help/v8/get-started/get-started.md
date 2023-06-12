@@ -4,9 +4,9 @@ title: Aan de slag met Campagne v8 Web
 description: Aan de slag met Campagne v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positief"
-source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
+source-git-commit: c801a96605eac09cd1b1753c3a22e4b61f81e97e
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '469'
 ht-degree: 2%
 
 ---
@@ -34,19 +34,6 @@ Als u toegang moet krijgen tot de mogelijkheden van Campagne v8 die niet beschik
 >
 >Campagne v8 Web is momenteel in Alpha- versie. De toegang wordt beperkt tot een kleine reeks Alpha- klanten. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
 
-## Info over Campagne-clientconsole{#ac-client}
-
-De de cliëntconsole van de Campagne is een browser-gebaseerde toepassing die op uw systeem geïnstalleerd is. De webservices-API wordt gebruikt om verbinding te maken met uw Campagnetoepassingsserver.
-
-Leer hoe u de clientconsole kunt downloaden en installeren in [deze sectie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/connect.html){target="_blank"}.
-
-Voor meer informatie over het gebruik van Campagne v8 raadpleegt u [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl){target="_blank"}.
-
-Campagnegegevens worden opgeslagen in de toepassingsserver. Gegevens zijn zowel beschikbaar via de clientconsole als via de webinterface. Als u bijvoorbeeld een leveringssjabloon maakt met de clientconsole, is deze ook beschikbaar in de webinterface. En als u een e-maillevering maakt in de webinterface, is deze levering ook toegankelijk vanaf de clientconsole.
-
-
-Sommige objecten kunnen alleen in de clientconsole worden gemaakt en beheerd. Zij kunnen zichtbaar zijn en in het Web UI van de Campagne worden gebruikt, maar kunnen niet van dit milieu worden gecreeerd of worden gewijzigd. Alle Campagneobjecten en -componenten zijn beschikbaar in de Explorer-weergave, beschikbaar in de linkernavigatie.
-
 ## Verbinding maken met Campaign
 
 
@@ -63,3 +50,13 @@ U bent nu verbonden met Campagne. Leer hoe u begint met het gebruik van de gebru
 -> or Campaign v8 web if direct URL
 -->
 
+
+## Info over Campagne-clientconsole{#ac-client}
+
+De de cliëntconsole van de Campagne is een browser-gebaseerde toepassing die op uw systeem geïnstalleerd is. De webservices-API wordt gebruikt om verbinding te maken met uw Campagnetoepassingsserver.
+
+Campagnegegevens worden opgeslagen in de toepassingsserver. Gegevens zijn zowel beschikbaar via de clientconsole als via de webinterface. Als u bijvoorbeeld een leveringssjabloon maakt met de clientconsole, is deze ook beschikbaar in de webinterface. En als u een e-maillevering maakt in de webinterface, is deze levering ook toegankelijk vanaf de clientconsole.
+
+Sommige objecten kunnen alleen in de clientconsole worden gemaakt en beheerd. Zij kunnen zichtbaar zijn en in het Web UI van de Campagne worden gebruikt, maar kunnen niet van dit milieu worden gecreeerd of worden gewijzigd. Alle Campagneobjecten en -componenten zijn beschikbaar in de Explorer-weergave, beschikbaar in de linkernavigatie.
+
+Voor meer informatie over het gebruik van Campagne v8 raadpleegt u [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl){target="_blank"}.
