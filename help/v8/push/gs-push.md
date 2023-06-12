@@ -4,9 +4,9 @@ title: Aan de slag met pushmeldingen
 description: Meer informatie over het maken en verzenden van pushberichten via Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 73af561b5609b0f538969d96173fc61751c4812a
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voor het maken van pushberichten hebt u drie opties:
 
 * Zelfstandige leveringen: Neem direct en direct contact op met klanten met individuele pushberichten, zonder dat ze werkstromen of campagnes nodig hebben.
 
-![](../assets/do-not-localize/book.png) Leer hoe te om het kanaal van de pushmelding in dit te vormen [page](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=en).
+![](../assets/do-not-localize/book.png) Leer hoe u het pushmeldingskanaal in dit dialoogvenster configureert [page](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html).
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
