@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 3d1d52fd91ed22c4e024bed0f5ae2f9a71e7d7f0
+source-git-commit: 1d4ee5a10eb1a739bb11f45e8ca1232f740ecfa2
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1772'
 ht-degree: 0%
 
 ---
@@ -129,29 +129,75 @@ Gebruik de hoogste bar van de interface aan:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Lijstschermen configureren {#list-screens}
+## Bladeren en lijsten filteren {#list-screens}
 
-Verscheidene verbindingen van het linkernavigatiemenu, bijvoorbeeld **Leveringen** of **Campagnes**, weergaveoverzichten van objecten. Deze lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen.
+De meeste koppelingen in het linkernavigatiemenu bevatten lijsten met objecten, zoals de lijst met **Leveringen** of **Campagnes**. Sommige lijstschermen zijn alleen-lezen. U kunt de lijstweergave aanpassen en deze lijsten filteren, zoals hieronder wordt beschreven.
+
+Als u een filter wilt verwijderen, klikt u op de knop **Alles wissen** knop.
+
+### Lijstschermen aanpassen {#custom-lists}
+
+De lijsten worden weergegeven in kolommen. U kunt extra informatie tonen door de kolomconfiguratie te veranderen. Om dit te doen, klik **Kolom voor een aangepaste indeling configureren** in de rechterbovenhoek van de lijst.
+
+![](assets/config-columns.png){width="70%" align="left"}
+
+In de **Kolommen configureren** , kolommen toevoegen of verwijderen en de volgorde wijzigen waarin ze worden weergegeven.
+
+Voor bijvoorbeeld deze instellingen:
+
+![](assets/columns.png){width="70%" align="left"}
+
+In de lijst worden de volgende kolommen weergegeven:
+
+![](assets/column-sample.png){width="70%" align="left"}
+
+Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voor de huidige lijst weer te geven. [Meer informatie](#adv-attributes)
+
+### Gegevens sorteren {#sort-lists}
+
+U kunt de items in de lijst ook sorteren door op een kolomkop te klikken. Er wordt een pijl weergegeven (omhoog of omlaag) die aangeeft dat de lijst in die kolom wordt gesorteerd.
+
+Voor numerieke kolommen of datumkolommen geldt het **Omhoog** De pijl geeft aan dat de lijst oplopend wordt gesorteerd terwijl de **Omlaag** geeft een aflopende volgorde aan. Voor tekenreeks- of alfanumerieke kolommen worden waarden in alfabetische volgorde weergegeven.
+
+### Ingebouwde filters {#list-built-in-filters}
 
 Als u items sneller wilt zoeken, gebruikt u de zoekbalk of filtert u de lijst op basis van contextuele criteria.
 
 ![](assets/filter.png){width="70%" align="left"}
 
-De lijsten worden weergegeven in kolommen. U kunt extra informatie tonen door de kolomconfiguratie te veranderen. Klik hiertoe op het pictogram in de rechterbovenhoek van de lijst. U kunt kolommen toevoegen of verwijderen en de volgorde wijzigen waarin ze worden weergegeven.
+U kunt leveringen bijvoorbeeld filteren op de status, het kanaal, de contactdatum of de map. U kunt tests ook verbergen.
 
-![](assets/columns.png){width="70%" align="left"}
+### Aangepaste filters{#list-custom-filters}
 
-U kunt items in de lijst sorteren door op een kolomkop te klikken. Er wordt een pijl weergegeven (omhoog of omlaag) die aangeeft dat de lijst in die kolom wordt gesorteerd. Voor numerieke kolommen of datumkolommen geeft de pijl-omhoog aan dat de lijst in oplopende volgorde wordt gesorteerd en de pijl-omlaag een aflopende volgorde aangeeft. Voor tekenreeks- of alfanumerieke kolommen worden waarden in alfabetische volgorde weergegeven.
+Als u aangepaste filters voor gegevens wilt maken, bladert u naar de onderkant van de filters en klikt u op de knop **Regels toevoegen** knop.
 
-## Contextafhankelijke hulp en handleiding bij het instappen {#contextual-help}
+Sleep kenmerken om uw filtercriteria op te bouwen in het dialoogvenster **Geavanceerde filters** scherm.
 
-De interface bevat een contextafhankelijke Help. Klik op de knop **?** pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
+![](assets/custom-filter.png){width="70%" align="left"}
+
+Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voor de huidige lijst weer te geven. [Meer informatie](#adv-attributes)
+
+### Geavanceerde kenmerken gebruiken {#adv-attributes}
+
+>[!CONTEXTUALHELP]
+>id="acw_attributepicker_advancedfields"
+>title="Geavanceerde kenmerken weergeven"
+>abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Met deze schakeloptie kunt u een filter met geavanceerde kenmerken maken."
+
+Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken en de filterconfiguratieschermen.
+
+Gebruik de **Geavanceerde kenmerken weergeven** Schakel onder de lijst in om alle beschikbare kenmerken voor de huidige lijst weer te geven.
+
+
+## Contextuele hulp {#contextual-help}
+
+De interface bevat een contextafhankelijke Help. Klik op de knop `?` pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
 
 ![](assets/context-help.png){width="70%" align="left"}
 
-Er is ook een gids voor on-boarding beschikbaar om u te helpen aan de slag te gaan met Campagne v8 Web. Klik op het pictogram in de rechterbenedenhoek, kies een van de beschikbare stapsgewijze scenario&#39;s en volg de instructies.
+<!--An on-boarding guide is also available to help you get started with Campaign v8 Web. Click the icon in the bottom right corner, choose one of the available step-by-step scenarios, and simply follow the instructions.
 
-![](assets/onboarding.png){width="70%" align="left"}
+![](assets/onboarding.png){width="70%" align="left"}-->
 
 ## Ondersteunde browsers {#browsers}
 
@@ -187,17 +233,8 @@ Uw standaardinterfacetaal wordt bepaald door de aangewezen taal die in uw gebrui
 De taal wijzigen:
 
 1. Klik op het profielpictogram, rechtsboven, en selecteer **Voorkeuren**.
-
-   ![](assets/preferences.png){width="70%" align="left"}
-
-1. Klik vervolgens op de taal die onder uw e-mailadres wordt weergegeven.
-
-   ![](assets/preferences2.png)
-
+1. Klik vervolgens op de taalkoppeling die onder uw e-mailadres wordt weergegeven.
 1. Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
-
-   ![](assets/select-language.png)
-
 
 
 <!--
@@ -208,6 +245,11 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Geavanceerde velden voor regelbuilder"
+>abstract="Kolommen met geavanceerde velden configureren."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
@@ -300,15 +342,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Machtiging vereist"
 >abstract="Uw beheerder moet u toestemming verlenen alvorens u een segment kunt tot stand brengen."
 
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Geavanceerde velden kenmerkkiezer"
->abstract="Kolommen met geavanceerde velden configureren."
 
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Geavanceerde velden voor regelbuilder"
->abstract="Kolommen met geavanceerde velden configureren."
+
 
 
 
