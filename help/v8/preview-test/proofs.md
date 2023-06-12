@@ -4,7 +4,7 @@ title: Test-e-mails verzenden
 description: Leer teste-mails definiëren en verzenden
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha" type="Positief"
-source-git-commit: 6671d4c18da5655d67b9fd30c05fd2e9052d000b
+source-git-commit: acc6cdd89b78a26f7c2435e19fba148a71e4f18f
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -23,7 +23,7 @@ De ontvangers van een test kunnen verschillende elementen controleren, zoals ver
 
 U kunt teste-mails verzenden naar twee typen ontvangers:
 
-* **Testprofielen** - teste-mails sturen naar zaadadressen, die aanvullende en fictieve ontvangers in de database zijn. Ze kunnen worden gemaakt in de [!DNL Campaign] in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Meer informatie in [Campagne v8 (console)-documentatie](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* **Testprofielen** - teste-mails sturen naar zaadadressen, die aanvullende en fictieve ontvangers in de database zijn. Ze kunnen worden gemaakt in de [!DNL Campaign] in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Meer informatie in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 * **Vervangen van hoofddoel** - stuur teste-mails naar een specifiek e-mailadres terwijl u een bestaand profiel imiteert. Zo kunt u het e-mailbericht net zo ervaren als de ontvangers, zodat u het bericht dat het profiel ontvangt, op de juiste wijze kunt weergeven.
 
