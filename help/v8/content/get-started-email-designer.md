@@ -3,7 +3,7 @@ audience: end-user
 title: E-mailinhoud bewerken
 description: Leer hoe u inhoud gaat maken met de gebruikersinterface E-mailontwerper in de webinterface van Campagne
 badge: label="Alpha" type="Positief"
-source-git-commit: 97c65771f9302bb188de0a8dae05f0d607519d4a
+source-git-commit: 208647ea17f6e0d824ff119a4d046c8041a04777
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 7%
@@ -42,7 +42,7 @@ Ga vanaf het dashboard voor e-maillevering door de [Inhoud bewerken](edit-conten
 
 * **Bestaande HTML-inhoud importeren** uit een bestand of een ZIP-map. Leer hoe u e-mailinhoud importeert in [deze sectie](existing-content.md).
 
-* **Bestaande inhoud selecteren** uit een lijst met ingebouwde of aangepaste sjablonen. Leer hoe u met e-mailsjablonen werkt [deze sectie](email-templates.md).
+* **Bestaande inhoud selecteren** uit een lijst met ingebouwde of aangepaste sjablonen. Leer hoe u met e-mailsjablonen werkt [deze sectie](email-sample-templates.md).
 
   ![](assets/email_designer_create_options.png)
 
