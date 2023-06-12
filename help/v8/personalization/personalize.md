@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Alpha" type="Positief"
-source-git-commit: dbb86e2e835ce114cd47380cd256c5873a9eae43
+source-git-commit: bf5ff77b695a5a8584bad7784597bf1521bcb23e
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,11 @@ U kunt elke levering personaliseren door de uitdrukkingsredacteur te gebruiken, 
 
 ## Personalisatiesyntaxis {#syntax}
 
-Voor personalisatietags wordt een specifieke syntaxis gebruikt: `<%=table.field%>`. Als u bijvoorbeeld de achternaam van de ontvanger wilt invoegen in de tabel van de ontvanger, gebruikt u de opdracht `<%= recipient.lastName %>` syntaxis.
+Voor personalisatietags wordt een specifieke syntaxis gebruikt: `<%= table.field %>`. Als u bijvoorbeeld de achternaam van de ontvanger wilt invoegen in de tabel van de ontvanger, gebruikt u de opdracht `<%= recipient.lastName %>` syntaxis.
 
 Tijdens de voorbereiding van de levering, interpreteert Adobe Campaign automatisch deze markeringen en vervangt hen met de overeenkomstige gebiedswaarden voor elke ontvanger. U kunt de daadwerkelijke vervanging bekijken door uw inhoud te simuleren.
+
+Wanneer u contactpersonen uit een extern bestand uploadt voor een zelfstandige e-maillevering, zijn alle velden in het invoerbestand beschikbaar voor personalisatie. De syntaxis is als volgt: `<%= dataSource.field %>`.
 
 ## Aanpersonalisatietags toevoegen {#add}
 
@@ -40,7 +42,7 @@ Voer de volgende stappen uit om personalisatietags toe te voegen aan een leverin
    | Menu | Beschrijving |
    |-----|------------|
    | ![](assets/do-not-localize/perso-subscribers-menu.png) | De **[!UICONTROL Subscribers application]** bevat velden die betrekking hebben op de abonnees van een toepassing, zoals de gebruikte terminal of het besturingssysteem. *Dit menu is alleen beschikbaar voor pushmeldingen* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | De **[!UICONTROL Recipient]** worden de velden weergegeven die zijn gedefinieerd in de tabel met ontvangers, zoals namen, pagina&#39;s of adressen van ontvangers. |
+   | ![](assets/do-not-localize/perso-recipients-menu.png) | De **[!UICONTROL Recipient]** worden de velden weergegeven die zijn gedefinieerd in de tabel met ontvangers, zoals namen, pagina&#39;s of adressen van ontvangers. Wanneer [contactpersonen uit een extern bestand uploaden](../audience/file-audience.md) voor een zelfstandige e-maillevering worden in dit menu alle velden weergegeven die beschikbaar zijn in het invoerbestand. |
    | ![](assets/do-not-localize/perso-message-menu.png) | De **[!UICONTROL Message]** menu maakt een lijst van gebieden met betrekking tot de leveringslogboeken, met inbegrip van alle berichten die naar ontvangers of apparaten over alle kanalen worden verzonden, zoals de datum van de laatste gebeurtenis met een bepaalde ontvanger |
    | ![](assets/do-not-localize/perso-delivery-menu.png) | De **[!UICONTROL Delivery]** bevat velden die betrekking hebben op de parameters die vereist zijn voor het uitvoeren van leveringen, zoals het leveringskanaal of label. |
 
