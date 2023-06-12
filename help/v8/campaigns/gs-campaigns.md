@@ -4,9 +4,9 @@ title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Alpha" type="Positief"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7324098ba401f471b988e2df33022f0f898833b4
+source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 Gebruik Adobe Campaign om kanaalcampagnes te maken. Met zijn marketing campagneorchestratiemogelijkheden, kunt u klantengegevens beheren en centraliseren, klantenmededelingen en campagnes ontwerpen, en gepersonaliseerde ervaringen over verschillende kanalen tot stand brengen. In deze versie zijn e-mail-, push- en SMS-kanalen beschikbaar.
 
 Ontwerp en voer e-mailcampagnes op hoog volume uit om persoonlijke berichten voor alle platforms en schermgrootten te leveren.
-Meet de doeltreffendheid van uw leveringen met gedetailleerde rapporten, met inbegrip van de verslagen van opent, klikt, door:sturen, en meer. Met de segmenteringsmogelijkheden van Adobe Campaign, kunt u vragen tegen een hoog-volumegegevensbestand in werking stellen, en gemakkelijk dynamische marketing segmenten bepalen die uw campagnes perfect richten.
+Meet de doeltreffendheid van uw leveringen met gedetailleerde rapporten met inbegrip van de tellingen van opent, klikt, vooruit, en meer. Met de segmenteringsmogelijkheden van Adobe Campaign, kunt u vragen tegen een hoog-volumegegevensbestand in werking stellen, en gemakkelijk dynamische marketing segmenten bepalen die uw campagnes perfect richten.
 
 <!--
 Get Started with campaigns
@@ -37,7 +37,7 @@ Als u een nieuwe campagne wilt maken of bestaande campagnes wilt beheren, klikt 
 
 * De **Bladeren** worden alle bestaande campagnes weergegeven. U kunt op een campagne klikken om het dashboard te openen of een nieuwe campagne te maken door op de knop **Campagne maken** knop. Zie dit [sectie](create-campaigns.md#create-campaigns)
 
-* De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. De malplaatjes van de campagne zijn vooraf gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
+* De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. De malplaatjes van de campagne zijn pre-gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 
 U kunt de weergegeven kolommen aanpassen door op de knop **Kolom voor een aangepaste indeling configureren** in de rechterbovenhoek van de lijst. Op deze manier kunt u aanvullende informatie aan de lijst toevoegen. Bovendien zijn er een zoekbalk en filters beschikbaar waarmee u gemakkelijk in de lijst kunt zoeken. [Meer informatie](../get-started/user-interface.md#list-screens)
 
@@ -56,7 +56,7 @@ In de **Bladeren** klikt u op een campagne om het dashboard weer te geven. Er zi
 
 De **Campagne-instellingen configureren** kunt u de eigenschappen van de campagne wijzigen die tijdens het maken van de campagne zijn gedefinieerd. Zie dit [sectie](create-campaigns.md#create-campaigns)
 
-## Bewaking en tracering{#campaign-monitoring}
+## Logbestanden bijhouden en bijhouden{#campaign-monitoring}
 
 Campagne-controle is een belangrijke stap om uw campagnes te analyseren. Ze zijn toegankelijk vanuit de **Logboeken** knop.
 
