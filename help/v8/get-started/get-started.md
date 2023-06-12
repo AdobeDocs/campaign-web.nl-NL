@@ -4,7 +4,7 @@ title: Aan de slag met Campagne v8 Web
 description: Aan de slag met Campagne v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positief"
-source-git-commit: 9a0aaf311ae964b12fd55a749cf82fa0024c0643
+source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 2%
@@ -17,7 +17,6 @@ ht-degree: 2%
 >id="acw_homepage_card1"
 >title="Nieuwe functies"
 >abstract="Ontdek de nieuwe gebruikersinterface van het Web van de Campagne, recentste verbeteringen, zeer belangrijke mogelijkheden. Leer hoe u ze kunt gebruiken om kanaalcampagnes voor uw publiek te maken. Met de gebruiksvriendelijke functies helpt Campagne u het maken van gepersonaliseerde campagnes over meerdere kanalen te stroomlijnen, resultaten te stimuleren en een concurrentievoordeel te behalen. "
-
 
 
 Adobe Campaign biedt een platform voor het ontwerpen van de ervaringen van klanten over meerdere kanalen en een omgeving voor visuele campagneorchestratie, real-time interactiebeheer en uitvoering via meerdere kanalen.
