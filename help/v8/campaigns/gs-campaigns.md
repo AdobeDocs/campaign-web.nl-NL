@@ -4,9 +4,9 @@ title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Alpha" type="Positief"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,18 @@ ht-degree: 0%
 >title="Kanaaloverschrijdende campagnes ontwerpen en verzenden"
 >abstract="De mogelijkheden van Adobe Campaign helpen u gecentraliseerde klantengegevens beheren, klantenmededelingen en campagnes ontwerpen, en persoonlijke ervaringen over verschillende kanalen creëren: E-mail, push en SMS."
 
-Gebruik Adobe Campaign om kanaalcampagnes te maken. Met zijn marketing campagneorchestratiemogelijkheden, kunt u klantengegevens beheren en centraliseren, klantenmededelingen en campagnes ontwerpen, en gepersonaliseerde ervaringen over verschillende kanalen tot stand brengen. In deze versie zijn e-mail-, push- en SMS-kanalen beschikbaar.
+Met Adobe Campaign kunt u uw gerichte marketinginitiatieven eenvoudig ordenen met behulp van de ingebouwde mogelijkheden voor campagnemanagement. Met de mogelijkheid om een planning te definiëren, kunt u de duur en het tijdstip van uw campagnes zodanig plannen dat deze in overeenstemming zijn met strategische doelstellingen en de betrokkenheid van het publiek maximaliseren.
 
-Ontwerp en voer e-mailcampagnes op hoog volume uit om persoonlijke berichten voor alle platforms en schermgrootten te leveren.
-Meet de doeltreffendheid van uw leveringen met gedetailleerde rapporten met inbegrip van de tellingen van opent, klikt, vooruit, en meer. Met de segmenteringsmogelijkheden van Adobe Campaign, kunt u vragen tegen een hoog-volumegegevensbestand in werking stellen, en gemakkelijk dynamische marketing segmenten bepalen die uw campagnes perfect richten.
+Door veelvoudige werkschema&#39;s en leveranties toe te voegen specifiek voor de campagne, kunt u gepersonaliseerde ervaringen over diverse kanalen tot stand brengen, ervoor zorgen dat elk aanraakpunt met het voorgenomen publiek resoneert.
+
+De campagnes bieden specifieke rapporteringsmetriek aan om uitvoerige inzichten in de prestaties van uw volledige campagne te bereiken, toelatend u om zijn doeltreffendheid te beoordelen, tendensen te identificeren, en gegeven-gedreven besluiten te nemen om toekomstige inspanningen te optimaliseren.
+
+<!--
+Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
+
+Design and execute high-volume email campaigns to deliver personalized messages, for all platforms and screen sizes. 
+Measure the effectiveness of your deliveries with detailed reports including the counts of opens, clicks, forwards, and more. With Adobe Campaign segmentation capabilities, you can run queries against a high-volume database, and easily define dynamic marketing segments which perfectly target your campaigns.
+-->
 
 <!--
 Get Started with campaigns
@@ -39,34 +47,20 @@ Als u een nieuwe campagne wilt maken of bestaande campagnes wilt beheren, klikt 
 
 * De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. De malplaatjes van de campagne zijn pre-gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 
+Elke campagne in de lijst bevat informatie over de huidige status, de aanmaakdatum, de laatste keer dat de campagne is gewijzigd, enzovoort.
+
 U kunt de weergegeven kolommen aanpassen door op de knop **Kolom voor een aangepaste indeling configureren** in de rechterbovenhoek van de lijst. Op deze manier kunt u aanvullende informatie aan de lijst toevoegen. Bovendien zijn er een zoekbalk en filters beschikbaar waarmee u gemakkelijk in de lijst kunt zoeken. [Meer informatie](../get-started/user-interface.md#list-screens)
 
 U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het deelvenster Filters en gebruik de knop **Begin - Einddatum** sectie:
 
 ![Lijst met campagnes](assets/campaign-filter-on-dates.png)
 
-Elke campagne in de lijst bevat informatie over de huidige status, de aanmaakdatum, de laatste keer dat de campagne is gewijzigd, enzovoort.
-
 ## Het campagnemashboard{#campaign-dashboard}
 
-In de **Bladeren** klikt u op een campagne om het dashboard weer te geven. Er zijn twee tabbladen beschikbaar:
+In de **Bladeren** klikt u op een campagne om het dashboard van de campagne weer te geven. Er zijn twee tabbladen beschikbaar:
 
 * De **Workflows** worden alle workflows weergegeven die aan de campagne zijn gekoppeld. Op dit tabblad kunt u ook een nieuwe workflow in de campagne maken. Zie dit [sectie](create-campaigns.md#create-campaigns)
-* De **Leveringen** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld. Op dit tabblad kunt u ook een nieuwe levering maken in de campagne. Zie dit [sectie](create-campaigns.md#create-campaigns)
+* De **Leveringen** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld. U kunt ook een nieuwe levering maken in de campagne. Zie dit [sectie](create-campaigns.md#create-campaigns)
 
 De **Campagne-instellingen configureren** kunt u de eigenschappen van de campagne wijzigen die tijdens het maken van de campagne zijn gedefinieerd. Zie dit [sectie](create-campaigns.md#create-campaigns)
-
-## Logbestanden bijhouden en bijhouden{#campaign-monitoring}
-
-Campagne-controle is een belangrijke stap om uw campagnes te analyseren. Ze zijn toegankelijk vanuit de **Logboeken** knop.
-
-U kunt de toegewezen rapporten ook weergeven door op de knop **Rapporten** knop . Zie dit [sectie](../reporting/campaign-reports.md)
-
-## Dupliceren en verwijderen
-
-Als u een campagne wilt dupliceren of verwijderen, klikt u op de knop Ovaal en selecteert u **Dupliceren** of **Verwijderen**. U kunt ook een workflow of levering dupliceren of verwijderen via het dashboard van een campagne.
-
->[!NOTE]
->
->Als u een levering in een workflow wilt verwijderen, moet u deze uit de workflow verwijderen.
 

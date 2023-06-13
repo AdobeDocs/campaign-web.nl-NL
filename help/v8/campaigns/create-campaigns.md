@@ -4,10 +4,10 @@ title: Campagnes maken met Adobe Campaign Web
 description: Meer informatie over het maken van kanaalcampagnes met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 7cc8f08293d88a896e80038d83d7cd47d9273a10
+source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 3%
+source-wordcount: '353'
+ht-degree: 1%
 
 ---
 
@@ -24,36 +24,46 @@ ht-degree: 3%
 >title="Campagneigenschappen"
 >abstract="Definieer de instellingen en metagegevens van uw campagne."
 
+De campagnes kunnen werkschema&#39;s en standalone leveringen omvatten.
+
 Voer de volgende stappen uit om een nieuwe campagne te maken:
 
 1. Klik op de knop **[!UICONTROL Campaigns]** en klikt u op de knop **[!UICONTROL Create campaign]** knop.
 1. Selecteer **Sjabloon** een label voor de campagne te gebruiken en te verstrekken. De malplaatjes van de campagne zijn pre-gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole.
    [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
-1. Indien nodig kunt u de **Aanvullende opties**. Zie dit [sectie](#campaign-options).
+1. Indien nodig kunt u het volgende wijzigen **Aanvullende opties**: interne naam, map, ontvanger, beschrijving en aard.
 1. Definieer de **Schema** van uw campagne. De campagne begint wanneer de begindatum is bereikt. Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt. Zie dit [sectie](gs-campaigns.md#access-campaigns).
 
    ![De campagneeigenschappen definiëren](assets/campaign-properties.png)
 
    >[!NOTE]
    >
-   >U kunt de campagneeigenschappen ook openen via het dialoogvenster **Campagne-instellingen configureren** naast het campagnelabel. Zie dit [sectie](gs-campaigns.md#campaign-dashboard)
+   >U kunt deze eigenschappen altijd later wijzigen, via het dialoogvenster **Campagne-instellingen configureren** naast het campagnelabel. Zie dit [sectie](gs-campaigns.md#campaign-dashboard)
 
 1. Klikken **Maken**.
-1. Voeg een workflow of zelfstandige levering toe aan uw campagne.
+1. Voeg workflows en leveringen toe aan uw campagne.
+
    * Van de **Workflows** tabblad, klikt u op **Workflow maken**. Er wordt automatisch een standaardworkflow toegevoegd wanneer u een campagne maakt. Meer informatie over hoe [een workflow maken](../workflows/create-workflow.md)
    * Van de **Leveringen** tabblad, klikt u op **Levering maken**. [Meer informatie](../msg/gs-messages.md)
+1. Gebruik de **Logboeken** en **Rapportage** knoppen om uw campagne te analyseren.
 
-## Aanvullende opties {#campaign-options}
+## Logbestanden bijhouden en bijhouden{#campaign-monitoring}
 
-Campagneeigenschappen worden weergegeven wanneer u een nieuwe campagne maakt.
+Campagne-controle is een belangrijke stap om uw campagnes te analyseren. Open uw campagne en klik op de knop **Logboeken** knop.
 
-Onder **Aanvullende opties** kunt u de volgende instellingen configureren:
+U kunt de toegewezen rapporten ook weergeven door op de knop **Rapporten** knop. Zie dit [sectie](../reporting/campaign-reports.md).
 
-* Interne naam:
-* Map: Selecteer de map waarin de campagne wordt opgeslagen
-* Toegewezen aan:
-* Beschrijving:
-* Aard: de aard van de campagne voor classificatiedoeleinden specificeren
+## Een campagne dupliceren en verwijderen
+
+U kunt een campagne dupliceren of verwijderen:
+
+* Klik in de lijst met campagnes op de knop voor weglatingsteken en selecteer **Dupliceren** of **Verwijderen**.
+* van de campagne zelf klikt u op de knop **Meer** dan selecteert u **Dupliceren** of **Verwijderen**.
+
+>[!NOTE]
+>
+>De **Aflevering** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld, maar in een workflow gemaakte leveringen kunnen daar niet worden verwijderd. Als u een levering wilt verwijderen die in de context van een workflow is gemaakt, moet u de leveringsactiviteit uit de workflow verwijderen.
+
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}
