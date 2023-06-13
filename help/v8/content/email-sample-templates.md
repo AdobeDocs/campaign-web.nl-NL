@@ -2,10 +2,10 @@
 audience: end-user
 product: campaign
 title: Werken met e-mailsjablonen
-badge: label="Alpha" type="Positief"
-source-git-commit: 1d6f61c3e39459d1e82fee15c5b6b903feb5b42f
+badge: label="Alpha"
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ De campagne wordt geleverd met een reeks ingebouwde sjablonen waaruit u kunt kie
 
 Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van de voorbeeldsjablonen.
 
-1. Open de [E-mailontwerper](create-email-content.md).
+1. Open de [E-mailontwerper](get-started-email-designer.md).
 
 1. Op de **[!UICONTROL Create your email]** screen, de lijst van **[!UICONTROL Sample templates]**  worden weergegeven.
 

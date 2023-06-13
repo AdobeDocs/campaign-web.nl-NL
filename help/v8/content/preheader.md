@@ -3,10 +3,10 @@ audience: end-user
 title: Een voorkop toevoegen in de e-mailontwerper
 description: Leer hoe u e-mailinhoud ontwerpt
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Alpha" type="Positief"
-source-git-commit: 0272475635bb1376b62e3904551e02a5f86d4046
+badge: label="Alpha"
+source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -28,20 +28,22 @@ In veel gevallen wordt een korte samenvatting van de inhoud gegeven en is deze d
 
 Volg onderstaande stappen om de e-mailvoorheader te definiëren.
 
-1. Voeg minstens een **[!UICONTROL Structure]** om uw e-mail te ontwerpen.
+1. Van de [E-mailontwerper](create-email-content.md)ten minste een **[!UICONTROL Structure]** om uw e-mail te ontwerpen.
 
 1. Klik op de knop **[!UICONTROL Navigation tree]** pictogram in het linkervenster en selecteer **[!UICONTROL Body]**.
 
    ![](assets/preheader_body.png)
 
-1. Van de **[!UICONTROL Settings]** toevoegen. U kunt de afbeelding verder aanpassen door op de knop **[!UICONTROL Add personalization]** pictogram.
+1. Van de **[!UICONTROL Settings]** voert u tekst in voor de preheader.
+
+1. Klik op de knop **[!UICONTROL Add personalization]** links van het pictogram **[!UICONTROL Preheader]** veld.
 
    ![](assets/preheader_body_settings.png)
 
-1. Van de **[!UICONTROL Edit Personalization]** venster, kunt u toevoegen **[!UICONTROL Content blocks]**, **[!UICONTROL Dynamic content]** of **[!UICONTROL Personalization fields]**.
+1. Van de **[!UICONTROL Edit Personalization]** venster, kunt u toevoegen [personalisatievelden](../personalization/personalize.md), [inhoudsblokken](../personalization/content-blocks.md) en [voorwaardelijke inhoud](../personalization/conditions.md) met behulp van de toegewijde vermeldingen aan de linkerkant.
 
-1. Klikken **[!UICONTROL Validate]** om uw personalisatiesyntaxis te controleren.
+   ![](assets/preheader_body_personalization.png)
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Confirm]**.
 
 Uw preheader is nu geconfigureerd voor uw e-mail.
