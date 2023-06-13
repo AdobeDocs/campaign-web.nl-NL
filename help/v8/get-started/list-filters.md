@@ -3,7 +3,7 @@ audience: end-user
 title: Bladeren, zoeken en filteren
 description: Ontdek hoe u kunt bladeren en filteren in lijsten met Campagne Web v8
 badge: label="Alpha" type="Positief"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Als u een filter wilt verwijderen, klikt u op de knop **Alles wissen** knop.
 
 De lijsten worden weergegeven in kolommen. U kunt extra informatie tonen door de kolomconfiguratie te veranderen. Om dit te doen, klik **Kolom voor een aangepaste indeling configureren** in de rechterbovenhoek van de lijst.
 
-![](assets/config-columns.png){width="70%" align="left"}
+![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
 
 In de **Kolommen configureren** , kolommen toevoegen of verwijderen en de volgorde wijzigen waarin ze worden weergegeven.
 
