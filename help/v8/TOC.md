@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
+source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '351'
 ht-degree: 11%
 
 ---
@@ -79,8 +79,9 @@ ht-degree: 11%
    + [Een e-mailpubliek laden vanuit een bestand](audience/file-audience.md)
    + [Een Adobe Experience Platform-publiek gebruiken](audience/aep-audience.md)
    + [Een controlegroep instellen](audience/control-group.md)
-+ Kanaalcampagnes {#campaigns}
++ Kanaaloverschrijdende campagnes {#campaigns}
    + [Aan de slag met campagnes](campaigns/gs-campaigns.md)
+   + [Uw campagnes beheren](campaigns/manage-campaigns.md)
    + [Uw eerste campagne maken](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Aan de slag met workflows](workflows/gs-workflows.md)
@@ -97,7 +98,6 @@ ht-degree: 11%
       + [publiek opbouwen](workflows/activities/build-audience.md)
       + [Combineren](workflows/activities/combine.md)
       + [E-mail, SMS, Push](workflows/activities/email.md)
-      + [Einde](workflows/activities/end.md)
       + [Verrijking](workflows/activities/enrichment.md)
       + [Vertakking](workflows/activities/fork.md)
       + [Wachten](workflows/activities/wait.md)
