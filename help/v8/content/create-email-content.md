@@ -3,10 +3,10 @@ audience: end-user
 title: E-mails ontwerpen in de e-mailontwerper
 description: Leer hoe u uw e-mailinhoud helemaal zelf ontwerpt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="Alpha" type="Positief"
-source-git-commit: 22fdc1713ed893504cba7ad93bb69c7b3f2db7fe
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---

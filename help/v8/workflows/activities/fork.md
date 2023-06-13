@@ -2,11 +2,11 @@
 audience: end-user
 title: De werkstroomactiviteit voor vork gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
-badge: label="Alpha" type="Positief"
-source-git-commit: 1ac80ffaabea210bbc02588475ad6e81af4820b1
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 17%
+source-wordcount: '111'
+ht-degree: 18%
 
 ---
 

@@ -2,11 +2,11 @@
 audience: end-user
 title: Een Adobe Experience Platform-publiek gebruiken
 description: Leer hoe u een publiek van Adobe Experience Platform kunt gebruiken
-badge: label="Alpha" type="Positief"
+badge: label="Alpha"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '285'
 ht-degree: 2%
 
 ---

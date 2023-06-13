@@ -3,10 +3,10 @@ audience: end-user
 title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Alpha" type="Positief"
-source-git-commit: e7ca27215434be94d5db252afb9e4fe0b04f0139
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -185,16 +185,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Geavanceerde velden voor regelbuilder"
->abstract="Kolommen met geavanceerde velden configureren."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="Geavanceerde kenmerken van Rule Builder"
->abstract="Gebruik geavanceerde attributen om uw regel te bepalen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"

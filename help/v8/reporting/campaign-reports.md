@@ -2,10 +2,10 @@
 audience: end-user
 title: Campagnerapporten
 description: Meer informatie over het openen en gebruiken van campagnerapporten
-badge: label="Alpha" type="Positief"
-source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---

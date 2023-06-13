@@ -2,11 +2,11 @@
 audience: end-user
 title: Aan de slag met SMS-berichten
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
-badge: label="Alpha" type="Positief"
+badge: label="Alpha"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 2%
 
 ---

@@ -3,10 +3,10 @@ audience: end-user
 title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Alpha" type="Positief"
-source-git-commit: 7a58b8323dbecc7cca0ba513d98a5afb213d3bc2
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '634'
 ht-degree: 4%
 
 ---

@@ -3,10 +3,10 @@ audience: end-user
 title: Een stijl voor koppelingen definiëren
 description: Leer hoe u een stijl voor koppelingen definieert
 exl-id: b4b79bd5-a96c-49ca-b3fe-95befef00dff
-badge: label="Alpha" type="Positief"
-source-git-commit: 05d87fc9ff8f5e2038eba4cc9438e058566e04c8
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '128'
 ht-degree: 2%
 
 ---

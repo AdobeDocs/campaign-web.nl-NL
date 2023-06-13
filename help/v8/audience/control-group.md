@@ -3,10 +3,10 @@ audience: end-user
 title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het Web UI van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alpha" type="Positief"
-source-git-commit: 89865d8994c77d017bdebea726db5c8c97075d90
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '752'
 ht-degree: 12%
 
 ---

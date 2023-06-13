@@ -2,11 +2,11 @@
 audience: end-user
 title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
-badge: label="Alpha" type="Positief"
+badge: label="Alpha"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f60f0e34dc5d85808c208223d83d234e22a41c34
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ U kunt contactpersonen uploaden vanuit een extern bestand. Profielen worden niet
 >* Deze mogelijkheid is alleen beschikbaar voor **zelfstandige e-maillevering**. Het kan niet in werkschema&#39;s, noch met SMS of de levering van de Duw worden gebruikt.
 >
 >* U kunt niet [controlegroepen](control-group.md) bij het laden van de doelpopulatie uit een extern bestand.
-
 
 
 Voer de volgende stappen uit als u profielen rechtstreeks vanuit de e-mailinterface in een lokaal bestand als doel wilt instellen:

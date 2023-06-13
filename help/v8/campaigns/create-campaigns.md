@@ -2,17 +2,17 @@
 audience: end-user
 title: Campagnes maken met Adobe Campaign Web
 description: Meer informatie over het maken van kanaalcampagnes met Adobe Campaign Web
-badge: label="Alpha" type="Positief"
+badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
 
 
-# Cross-channel campagnes maken {#create-campaigns}
+# Uw eerste campagne maken {#create-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,7 +24,9 @@ ht-degree: 1%
 >title="Campagneigenschappen"
 >abstract="Definieer de instellingen en metagegevens van uw campagne."
 
-De campagnes kunnen werkschema&#39;s en standalone leveringen omvatten.
+De campagnes kunnen werkschema&#39;s en standalone leveringen omvatten. Eigenschappen, planning, werk, levering plus een flitsschema
+
+## Maak de campagne
 
 Voer de volgende stappen uit om een nieuwe campagne te maken:
 
@@ -32,7 +34,7 @@ Voer de volgende stappen uit om een nieuwe campagne te maken:
 1. Selecteer **Sjabloon** een label voor de campagne te gebruiken en te verstrekken. De malplaatjes van de campagne zijn pre-gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole.
    [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 1. Indien nodig kunt u het volgende wijzigen **Aanvullende opties**: interne naam, map, ontvanger, beschrijving en aard.
-1. Definieer de **Schema** van uw campagne. De campagne begint wanneer de begindatum is bereikt. Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt. Zie dit [sectie](gs-campaigns.md#access-campaigns).
+1. Definieer de **Schema** van uw campagne. De campagne begint wanneer de begindatum is bereikt. Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt. Zie dit [sectie](manage-campaigns.md#access-campaigns).
 
    ![De campagneeigenschappen definiëren](assets/campaign-properties.png)
 
@@ -48,23 +50,13 @@ Voer de volgende stappen uit om een nieuwe campagne te maken:
 
 1. Gebruik de **Logboeken** en **Rapportage** knoppen om de prestaties van uw campagne te analyseren.
 
-## Logbestanden bijhouden en bijhouden{#campaign-monitoring}
+## Uw campagne volgen{#campaign-monitoring}
 
 Campagne-controle is een belangrijke stap om uw campagnes te analyseren. Open uw campagne en klik op de knop **Logboeken** knop.
 
 U kunt de toegewezen rapporten ook weergeven door op de knop **Rapporten** knop. Zie dit [sectie](../reporting/campaign-reports.md).
 
-## Een campagne dupliceren en verwijderen
-
-U kunt een campagne dupliceren of verwijderen:
-
-* Klik in de lijst met campagnes op de knop voor weglatingsteken en selecteer **Dupliceren** of **Verwijderen**.
-* van de campagne zelf klikt u op de knop **Meer** dan selecteert u **Dupliceren** of **Verwijderen**.
-
->[!NOTE]
->
->De **Leveringen** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld. Leveringen die in een workflow zijn gemaakt, kunnen daar echter niet van worden verwijderd. Als u een levering wilt verwijderen die in de context van een workflow is gemaakt, moet u de leveringsactiviteit uit de workflow verwijderen.
-
++++WORKF + scherm
 
 <!--
 ## Create a cross-channel campaign {#cross-channel-campaign}

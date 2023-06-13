@@ -2,11 +2,11 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Alpha" type="Positief"
+badge: label="Alpha"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: eed308685edc00c61d59f1529f363ac9b57d25cf
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '795'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk 
 * **[!UICONTROL Targeting dimension]**: Selecteer de doeldimensie die u wilt gebruiken voor de doelprofielen: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz.
 * **[!UICONTROL Keep the result of interim populations between two executions]**: Standaard blijven alleen de werktabellen van de laatste uitvoering van de workflow behouden. De werklijsten van vorige uitvoeringen worden gezuiverd door een technische werkschema, die op een dagelijkse basis loopt.
 
-   Als deze optie is ingeschakeld, worden werktabellen ook bewaard nadat de workflow is uitgevoerd. U kunt het voor testdoeleinden gebruiken en moet daarom alleen worden gebruikt in ontwikkelings- of testomgevingen. Deze mag nooit in een productiewerkstroom worden gecontroleerd.
+  Als deze optie is ingeschakeld, worden werktabellen ook bewaard nadat de workflow is uitgevoerd. U kunt het voor testdoeleinden gebruiken en moet daarom alleen worden gebruikt in ontwikkelings- of testomgevingen. Deze mag nooit in een productiewerkstroom worden gecontroleerd.
 
 ## Instellingen voor uitvoering
 
@@ -59,9 +59,9 @@ De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk 
 
 * **[!UICONTROL History in days]**: Hier geeft u het aantal dagen op waarna de historie moet worden gewist. De geschiedenis bevat elementen die gerelateerd zijn aan de workflow: logbestanden, taken, gebeurtenissen (technische objecten die zijn gekoppeld aan de workflowbewerking). De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box. De geschiedenis wordt gewist door de technische workflow voor het opschonen van databases, die standaard dagelijks wordt uitgevoerd
 
-   >[!IMPORTANT]
-   >
-   >Als de **[!UICONTROL History in days]** veld blanco gelaten, wordt de waarde ervan beschouwd als &quot;1&quot;, wat betekent dat de geschiedenis na 1 dag wordt gewist.
+  >[!IMPORTANT]
+  >
+  >Als de **[!UICONTROL History in days]** veld blanco gelaten, wordt de waarde ervan beschouwd als &quot;1&quot;, wat betekent dat de geschiedenis na 1 dag wordt gewist.
 
 * **[!UICONTROL Default affinity]**: Als uw installatie meerdere workflowservers bevat, gebruikt u dit veld om de computer te kiezen waarop de workflow wordt uitgevoerd. Als de waarde die in dit veld wordt gedefinieerd, op geen enkele server bestaat, blijft de workflow in behandeling.
 

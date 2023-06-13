@@ -2,10 +2,10 @@
 audience: end-user
 title: De workflowactiviteit voor pushmeldingen gebruiken
 description: Leer hoe u de workflowactiviteit voor pushmeldingen kunt gebruiken
-badge: label="Alpha" type="Positief"
-source-git-commit: c0e5902d3ee504aa5aa4e55f18416facfe4020b1
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---

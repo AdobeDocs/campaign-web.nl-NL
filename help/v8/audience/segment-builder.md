@@ -3,10 +3,10 @@ audience: end-user
 title: Een publiek maken met de bouwer van de campagneregel
 description: Leer hoe te met de regelbouwer te werken
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha" type="Positief"
-source-git-commit: 1d7c6b94a962e141fb929fa45369326972e5ac04
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -35,15 +35,15 @@ Het palet aan de linkerkant bevat alle elementen waarop u kunt filteren om een p
 
 * **Attributen**: op dit tabblad hebt u vanuit het schema toegang tot alle beschikbare velden. De lijst met velden is afhankelijk van het doelschema dat in de e-mailsjabloon is gedefinieerd.
 
-   ![](assets/segment-builder2.png){width="70%" align="left"}
+  ![](assets/segment-builder2.png){width="70%" align="left"}
 
 * **Soorten publiek**: op dit tabblad kunt u filteren met een van de bestaande soorten publiek die zijn gedefinieerd in de Campaign Classic-console of vanuit Adobe Experience Platform.
 
-   ![](assets/segment-builder3.png){width="70%" align="left"}
+  ![](assets/segment-builder3.png){width="70%" align="left"}
 
-   >[!NOTE]
-   >
-   >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
+  >[!NOTE]
+  >
+  >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
 
 U kunt de zoekbalk gebruiken om snel naar elementen te zoeken.
 
