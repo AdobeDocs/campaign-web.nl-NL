@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha" type="Positief"
-source-git-commit: 53a834f7a00e1119ecbaaa0d2ad39102bd7c0e83
+source-git-commit: e7ca27215434be94d5db252afb9e4fe0b04f0139
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1413'
 ht-degree: 0%
 
 ---
@@ -129,65 +129,6 @@ Gebruik de hoogste bar van de interface aan:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
-## Bladeren en lijsten filteren {#list-screens}
-
-De meeste koppelingen in het linkernavigatiemenu bevatten lijsten met objecten, zoals de lijst met **Leveringen** of **Campagnes**. Sommige lijstschermen zijn alleen-lezen. U kunt de lijstweergave aanpassen en deze lijsten filteren, zoals hieronder wordt beschreven.
-
-Als u een filter wilt verwijderen, klikt u op de knop **Alles wissen** knop.
-
-### Lijstschermen aanpassen {#custom-lists}
-
-De lijsten worden weergegeven in kolommen. U kunt extra informatie tonen door de kolomconfiguratie te veranderen. Om dit te doen, klik **Kolom voor een aangepaste indeling configureren** in de rechterbovenhoek van de lijst.
-
-![](assets/config-columns.png){width="70%" align="left"}
-
-In de **Kolommen configureren** , kolommen toevoegen of verwijderen en de volgorde wijzigen waarin ze worden weergegeven.
-
-Voor bijvoorbeeld deze instellingen:
-
-![](assets/columns.png){width="70%" align="left"}
-
-In de lijst worden de volgende kolommen weergegeven:
-
-![](assets/column-sample.png){width="70%" align="left"}
-
-Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voor de huidige lijst weer te geven. [Meer informatie](#adv-attributes)
-
-### Gegevens sorteren {#sort-lists}
-
-U kunt de items in de lijst ook sorteren door op een kolomkop te klikken. Er wordt een pijl weergegeven (omhoog of omlaag) die aangeeft dat de lijst in die kolom wordt gesorteerd.
-
-Voor numerieke kolommen of datumkolommen geldt het **Omhoog** De pijl geeft aan dat de lijst oplopend wordt gesorteerd terwijl de **Omlaag** geeft een aflopende volgorde aan. Voor tekenreeks- of alfanumerieke kolommen worden waarden in alfabetische volgorde weergegeven.
-
-### Ingebouwde filters {#list-built-in-filters}
-
-Als u items sneller wilt zoeken, gebruikt u de zoekbalk of filtert u de lijst op basis van contextuele criteria.
-
-![](assets/filter.png){width="70%" align="left"}
-
-U kunt leveringen bijvoorbeeld filteren op de status, het kanaal, de contactdatum of de map. U kunt tests ook verbergen.
-
-### Aangepaste filters{#list-custom-filters}
-
-Als u aangepaste filters voor gegevens wilt maken, bladert u naar de onderkant van de filters en klikt u op de knop **Regels toevoegen** knop.
-
-Sleep kenmerken om uw filtercriteria op te bouwen in het dialoogvenster **Geavanceerde filters** scherm.
-
-![](assets/custom-filter.png){width="70%" align="left"}
-
-Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voor de huidige lijst weer te geven. [Meer informatie](#adv-attributes)
-
-### Geavanceerde kenmerken gebruiken {#adv-attributes}
-
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Geavanceerde kenmerken weergeven"
->abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Met deze schakeloptie kunt u een filter met geavanceerde kenmerken maken."
-
-Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken en de filterconfiguratieschermen.
-
-Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst weer te geven.
-
 ## Contextuele hulp {#contextual-help}
 
 De interface bevat een contextafhankelijke Help. Klik op de knop `?` pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
@@ -279,12 +220,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetdata_personalization_enrichmentdata"
 >title="Verrijkingsgegevens"
 >abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_targetdata_personalization_dashboard"
->title="Personalisatie"
->abstract="TBD"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_sending"
