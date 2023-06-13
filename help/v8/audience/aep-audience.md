@@ -4,9 +4,9 @@ title: Een Adobe Experience Platform-publiek gebruiken
 description: Leer hoe u een publiek van Adobe Experience Platform kunt gebruiken
 badge: label="Alpha" type="Positief"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
+source-git-commit: 958d3ca6ab7eb05a3201ed3344d4659a8756e3ef
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
@@ -22,13 +22,13 @@ Zodra u een publiek van Adobe Experience Platform hebt gecreeerd en het in de cl
 >Om het publiek van Adobe Experience Platform in Campaign te gebruiken, moet u de integratie met de Bronnen en Doelen van Adobe vormen. Zie [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 
-U kunt ook het volgende doen:
+Als u het publiek van een levering wilt selecteren, kunt u ook:
 
 * Maak een nieuw publiek. [Meer informatie](segment-builder.md)
 * Laad een publiek vanuit een extern bestand. [Meer informatie](file-audience.md)
 * Gebruik een bestaand publiek van de Campagne. [Meer informatie](add-audience.md).
 
-Volg onderstaande stappen om een Adobe Experience Platform-publiek voor uw bericht te selecteren:
+Volg onderstaande stappen om een Adobe Experience Platform-publiek voor uw levering te selecteren:
 
 1. Van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking, klik **[!UICONTROL Select audience]** knop.
 
@@ -54,5 +54,4 @@ Volg onderstaande stappen om een Adobe Experience Platform-publiek voor uw beric
 
 1. Klikken **Opslaan**.
 
-U kunt ook een controlegroep instellen om het effect van uw campagnes te meten. De controlegroep ontvangt niet het bericht. Dit staat u toe om het gedrag van de bevolking te vergelijken die het bericht met het gedrag van contacten ontving die niet. Zie [sectie](control-group.md).
 
