@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers:
 
-  ![](assets/reporting_email_1.png){align="center"}
+  ![](assets/reporting_email_1.png){align="left"}
 
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 * **[!UICONTROL Delivery statistics]** de tabel geeft het succes van uw levering aan .
 
-  ![](assets/reporting_email_2.png){align="center"}
+  ![](assets/reporting_email_2.png){align="left"}
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -46,6 +46,24 @@ ht-degree: 1%
 * **[!UICONTROL Causes of exclusion]** de grafiek en de tabel geven de uitsplitsing per regel van tijdens de analyse afgewezen berichten weer.
 
   ![](assets/reporting_email_3.png){align="center"}
+
+  +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
+
+   * **[!UICONTROL User unknown]**: Fouttype dat tijdens de levering wordt gegenereerd om aan te geven dat het e-mailadres ongeldig is.
+
+   * **[!UICONTROL Invalid domain]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het domein van het e-mailadres onjuist is of niet bestaat.
+
+   * **[!UICONTROL Mailbox full]**: Het type van fout na vijf leveringspogingen wordt geproduceerd om erop te wijzen dat de ontvangers&#39; inbox teveel berichten bevat.
+
+   * **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
+
+   * **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door IAP (Internet Access Provider) wordt verworpen, bijvoorbeeld na de toepassing van een veiligheidsregel (anti-spamsoftware).
+
+   * **[!UICONTROL Unreachable]**: Fouttype dat optreedt in de tekenreeks voor berichtdistributie: incident op het SMTP relais, tijdelijk onbereikbaar domein, enz.
+
+   * **[!UICONTROL Not connected]**: Fouttype om aan te geven dat de mobiele telefoon van de ontvanger op het moment van verzending wordt uitgeschakeld of losgekoppeld van het netwerk.
+
++++
 
 ## Leveringsdoorvoer {#delivery-throughtput}
 
@@ -78,13 +96,23 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 * **[!UICONTROL Breakdown of errors per type]** en **[!UICONTROL Breakdown of errors per domain]** tabellen en grafieken bevatten de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen.
 
+  ![](assets/campaign_report_email_6.png)
+
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
-   * **[!UICONTROL Errors]**: Het totale aantal fouten dat is gecumuleerd tijdens leveringen en automatische oplaadbewerking, in verhouding tot het aantal te leveren berichten.
+   * **[!UICONTROL User unknown]**: Fouttype dat tijdens de levering wordt gegenereerd om aan te geven dat het e-mailadres ongeldig is.
 
-   * **[!UICONTROL Contribution]**:
+   * **[!UICONTROL Invalid domain]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het domein van het e-mailadres onjuist is of niet bestaat.
 
-   * **[!UICONTROL Breakdown]**:
+   * **[!UICONTROL Mailbox full]**: Het type van fout na vijf leveringspogingen wordt geproduceerd om erop te wijzen dat de ontvangers&#39; inbox teveel berichten bevat.
+
+   * **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
+
+   * **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door IAP (Internet Access Provider) wordt verworpen, bijvoorbeeld na de toepassing van een veiligheidsregel (anti-spamsoftware).
+
+   * **[!UICONTROL Unreachable]**: Fouttype dat optreedt in de tekenreeks voor berichtdistributie: incident op het SMTP relais, tijdelijk onbereikbaar domein, enz.
+
+   * **[!UICONTROL Not connected]**: Fouttype om aan te geven dat de mobiele telefoon van de ontvanger op het moment van verzending wordt uitgeschakeld of losgekoppeld van het netwerk.
 
 +++
 

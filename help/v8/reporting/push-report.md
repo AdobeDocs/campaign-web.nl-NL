@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporten over levering verzenden
 description: Leer hoe u pushrapporten kunt openen en gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -46,8 +46,6 @@ ht-degree: 0%
    * **[!UICONTROL Exclusions]**: Aantal profielen dat is uitgesloten van de analyse.
 
 +++
-
-
 
 * **Algemene statistieken** bevat gegevens voor de verzonden pushberichten, waaronder:
 

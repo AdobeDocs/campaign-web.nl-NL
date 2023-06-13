@@ -3,9 +3,9 @@ audience: end-user
 title: Campagnerapporten
 description: Meer informatie over het openen en gebruiken van campagnerapporten
 badge: label="Alpha" type="Positief"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1489'
 ht-degree: 1%
 
 ---
@@ -115,11 +115,19 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
-   * **[!UICONTROL Errors]**: Het totale aantal fouten dat is gecumuleerd tijdens leveringen en automatische oplaadbewerking, in verhouding tot het aantal te leveren berichten.
+   * **[!UICONTROL User unknown]**: Fouttype dat tijdens de levering wordt gegenereerd om aan te geven dat het e-mailadres ongeldig is.
 
-   * **[!UICONTROL Contribution]**:
+   * **[!UICONTROL Invalid domain]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het domein van het e-mailadres onjuist is of niet bestaat.
 
-   * **[!UICONTROL Breakdown]**:
+   * **[!UICONTROL Mailbox full]**: Het type van fout na vijf leveringspogingen wordt geproduceerd om erop te wijzen dat de ontvangers&#39; inbox teveel berichten bevat.
+
+   * **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
+
+   * **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door IAP (Internet Access Provider) wordt verworpen, bijvoorbeeld na de toepassing van een veiligheidsregel (anti-spamsoftware).
+
+   * **[!UICONTROL Unreachable]**: Fouttype dat optreedt in de tekenreeks voor berichtdistributie: incident op het SMTP relais, tijdelijk onbereikbaar domein, enz.
+
+   * **[!UICONTROL Not connected]**: Fouttype om aan te geven dat de mobiele telefoon van de ontvanger op het moment van verzending wordt uitgeschakeld of losgekoppeld van het netwerk.
 
 +++
 
@@ -213,6 +221,8 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
 * **[!UICONTROL Delivery Overview]** biedt prestatiekernindicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop bezoekers uw SMS-levering gebruiken.
 
+  ![](assets/campaign_report_sms_1.png)
+
   +++Meer weten over de metriek van het SMS-campagnerapport?
 
    * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
@@ -227,6 +237,8 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
 * **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers:
 
+  ![](assets/campaign_report_sms_2.png)
+
   +++Meer weten over de metriek van het SMS-campagnerapport?
 
    * **[!UICONTROL Initial audience]**: Totaal aantal beoogde ontvangers.
@@ -238,6 +250,8 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 +++
 
 * **[!UICONTROL Execution statistics]** de tabel geeft het succes van uw levering aan :
+
+  ![](assets/campaign_report_sms_3.png)
 
   +++Meer weten over de metriek van het SMS-campagnerapport?
 
@@ -252,6 +266,8 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 +++
 
 * **[!UICONTROL Generated click streams]** de lijst toont gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden:
+
+  ![](assets/campaign_report_sms_4.png)
 
   +++Meer weten over de metriek van het SMS-campagnerapport?
 

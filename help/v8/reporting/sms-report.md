@@ -3,7 +3,7 @@ audience: end-user
 title: Verzendrapporten via SMS
 description: Leer hoe u sms-leveringsrapporten kunt openen en gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
+source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%
@@ -60,6 +60,8 @@ ht-degree: 1%
 +++
 
 * **[!UICONTROL Exclusions]** de grafiek en de lijst tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen.
+
+  ![](assets/reporting_sms_6.png)
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
