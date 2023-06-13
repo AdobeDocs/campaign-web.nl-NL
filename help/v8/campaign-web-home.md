@@ -4,9 +4,9 @@ description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positief"
-source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
+source-git-commit: 563b5d78a48938a44f7d4bdcf89d2a0180b95920
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '484'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ De nieuwe Campagne v8 Web interface biedt een moderne en intuïtieve gebruikerse
 
 **Weergegeven interface werkstroomcanvas**
 
-Dankzij ons uitgebreide grafische canvas kunt u eenvoudig processen ontwerpen, zoals segmentatie, uitvoering van campagnes en nog veel meer. Met dit geavanceerde gereedschap binnen handbereik kunt u uw workflow stroomlijnen en uw campagnes verhogen.
+Onze uitgebreide grafische omgeving stelt u in staat complexe processen te ontwerpen die u kunnen helpen uw marketingcampagnes eenvoudig te beheren. Met werkschema&#39;s, kunt u de volledige waaier van processen en taken organiseren, de snelheid en de schaal van elk aspect van uw marketing campagnes verbeteren, van het creëren van segmenten en het voorbereiden van berichten aan levering. Bovendien kunt u uw kanalen synchroon maken met één gebruiksvriendelijke interface voor het organiseren van campagnes.
 
 **Maak kennis met de e-mailontwerper**
 
@@ -35,11 +35,11 @@ Begin met een sjabloon of gebruik de nieuwe e-mailontwerper van Adobe Campaign o
 
 **Uw inhoud dynamisch maken**
 
-Maak voorwaardelijke inhoud om dynamische personalisatie te definiëren op basis van het profiel van de ontvanger, waarbij tekstblokken en afbeeldingen automatisch worden vervangen wanneer aan bepaalde voorwaarden wordt voldaan. Met deze functie kunt u uw campagnes op een hoger niveau brengen en een zeer doelgerichte, persoonlijke ervaring aan uw publiek aanbieden
+Pas de inhoud aan op basis van de gegevens die u over de ontvangers hebt verzameld. Door het gebruik van dynamische inhoud wordt de inhoud aantrekkelijker en wordt de leeskans groter. Pas uw berichten aan elke specifieke ontvanger aan door profielgegevens zoals hun voornaam, interesses, waar zij wonen, wat zij hebben gekocht, en nog veel meer te gebruiken. Creeer voorwaardelijke inhoud om uw leveringen aan elke ontvanger aan te passen en slechts de inhoud te tonen die voor een bepaalde klant relevant is die op de informatie wordt gebaseerd u over hen hebt.
 
 **Kanaalleveringen verzenden**
 
-De mogelijkheden van Adobe Campaign helpen u gecentraliseerde klantengegevens beheren, klantenmededelingen en campagnes ontwerpen, en persoonlijke ervaringen over verschillende kanalen creëren: E-mail, push en SMS.
+Gebruik Adobe Campaign om kanaalcampagnes te maken. Met zijn marketing campagneorchestratiemogelijkheden, kunt u klantengegevens beheren en centraliseren, klantenmededelingen en campagnes ontwerpen, en gepersonaliseerde ervaringen over verschillende kanalen tot stand brengen. In deze versie zijn e-mail-, push- en SMS-kanalen beschikbaar. Meet de doeltreffendheid van uw leveringen met gedetailleerde rapporten met inbegrip van de tellingen van opent, klikt, vooruit, en meer.
 
 ## Laten we dieper duiken
 
