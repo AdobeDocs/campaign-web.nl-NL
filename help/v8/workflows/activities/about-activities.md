@@ -2,11 +2,11 @@
 audience: end-user
 title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
-badge: label="Alpha" type="Positief"
+badge: label="Alpha"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 40ca8ca9825706be7b82a58136627911132bc14a
+source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '305'
 ht-degree: 5%
 
 ---
@@ -49,7 +49,7 @@ Zie dit [sectie](enrichment.md).
 De volgende activiteiten zijn specifiek voor het organiseren en uitvoeren van workflows. Hun voornaamste taak is de coördinatie van de andere activiteiten:
 
 * De [En-join](and-join.md) Met activiteit kunt u meerdere uitvoertakken van een workflow synchroniseren.
-* De [Einde](end.md) Met activiteit kunt u het einde van een werkstroom grafisch markeren. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
+* De **Einde** Met activiteit kunt u het einde van een werkstroom grafisch markeren. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
 * De [Vork](fork.md) de activiteit staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.
 * De [Wachten](wait.md) activiteit onderbreekt tijdelijk het uitvoeren van een deel van een werkstroom.
 
