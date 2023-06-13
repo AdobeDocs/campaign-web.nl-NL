@@ -4,9 +4,9 @@ description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positief"
-source-git-commit: 8c3d379152188bedae97d50cdf774b6937b54884
+source-git-commit: 6b695eab0c58b655ead91ef07c9cae4972eeb82a
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ De nieuwe Campagne v8 Web interface biedt een moderne en intuïtieve gebruikerse
 
 Dankzij ons uitgebreide grafische canvas kunt u eenvoudig processen ontwerpen, zoals segmentatie, uitvoering van campagnes en nog veel meer. Met dit geavanceerde gereedschap binnen handbereik kunt u uw workflow stroomlijnen en uw campagnes verhogen.
 
-**E-mails ontwerpen**
+**Maak kennis met de e-mailontwerper**
 
 Begin met een sjabloon of gebruik de nieuwe e-mailontwerper van Adobe Campaign om e-mails te maken zonder dat u één regel code hoeft te schrijven. Leer hoe u met de e-mailontwerper uw inhoud kunt maken, deze kunt voorvertonen en testen en een e-mail naar een bestaand publiek kunt sturen in een gebruiksscenario van begin tot eind.
 
@@ -51,6 +51,15 @@ Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze
 <img alt="nieuwe interface" src="assets/do-not-localize/menu-ui.jpeg">
 </a>
 <div><a href="get-started/user-interface.md"><strong>De nieuwe gebruikersinterface detecteren</strong>
+</div>
+<p>
+</td>
+<td>
+<a href="preview-test/proofs.md">
+<img alt="Validatie" src="assets/do-not-localize/menu-workflows.jpeg">
+</a>
+<div>
+<a href="preview-test/proofs.md"><strong>Weergegeven interface werkstroomcanvas</strong></a>
 </div>
 <p>
 </td>
@@ -77,15 +86,6 @@ Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze
 </a>
 <div>
 <a href="preview-test/proofs.md"><strong>Kanaalleveringen verzenden</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="preview-test/proofs.md">
-<img alt="Validatie" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="preview-test/proofs.md"><strong>Weergegeven interface werkstroomcanvas</strong></a>
 </div>
 <p>
 </td>
