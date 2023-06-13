@@ -8,7 +8,7 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-source-git-commit: 323dc9ccb9d04d2d7085a26a17f6944e999b1dec
+source-git-commit: 234537017b1bd990be1540d28b8a618e242eaafc
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 ---
 
 
-# Aan de slag met dynamische inhoud
+# Aan de slag met dynamische inhoud {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
@@ -27,7 +27,7 @@ Als marktleider, is het essentieel om klanten te richten die werkelijk in uw die
 
 Met de Adobe Campaign-mogelijkheden voor dynamische inhoud op het web kunt u uw inhoud aanpassen op basis van de gegevens die u hebt verzameld over de ontvangers. Door dynamische inhoud te gebruiken, zorgt u ervoor dat uw marketing inspanningen relevanter zijn, vermijdend marketing ongewenste of onnodige producten of de diensten. Deze aanpak maakt uw inhoud aantrekkelijker en vergroot de kans dat deze wordt gelezen. Bovendien kunt u uw inhoud aanpassen, zodat ontvangers het gevoel krijgen dat ze informatie van een persoon ontvangen in plaats van van van een computer.
 
-## Hoe kan ik uw inhoud dynamisch maken?
+## Hoe kan ik uw inhoud dynamisch maken? {#make-content-dyn}
 
 U kunt de inhoud van uw bericht dynamisch maken door JavaScript-constructies in te voegen in de Campagne Web expression editor. Bij het verzenden van berichten worden deze expressies door Adobe Campaign geïnterpreteerd om de juiste inhoud aan elk van uw ontvangers te leveren:
 
@@ -65,7 +65,7 @@ Hier volgen enkele voorbeelden van hoe u toegang krijgt tot de expressieeditor, 
 >
 >Naast de expressie-editor kunt u ook een speciale, voorwaardelijke inhoudsontwikkelaar gebruiken bij het ontwerpen van een e-mail. [Meer informatie over het maken van voorwaardelijke inhoud in e-mails](conditions.md)
 
-## Laten we dieper duiken
+## Laten we dieper duiken {#dive-deeper}
 
 Nu u inzicht hebt in hoe te om uw inhoud dynamisch te maken, is het tijd om dieper in deze documentatiesecties te duiken beginnen met het werken met de eigenschap.
 
