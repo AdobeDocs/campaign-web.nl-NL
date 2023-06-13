@@ -3,7 +3,7 @@ audience: end-user
 title: Bladeren, zoeken en filteren
 description: Ontdek hoe u kunt bladeren en filteren in lijsten met Campagne Web v8
 badge: label="Alpha" type="Positief"
-source-git-commit: 1503f07f72bf654594422fd861233d871047be4d
+source-git-commit: ee93f052e297c205cac3894acd2b04b1ba46ebdc
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 1%
@@ -27,11 +27,11 @@ In de **Kolommen configureren** , kolommen toevoegen of verwijderen en de volgor
 
 Voor bijvoorbeeld deze instellingen:
 
-![](assets/columns.png){width="70%" align="left"}
+![](assets/columns.png){width="70%" align="left" zoomable="yes"}
 
 In de lijst worden de volgende kolommen weergegeven:
 
-![](assets/column-sample.png){width="70%" align="left"}
+![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
 Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voor de huidige lijst weer te geven. [Meer informatie](#adv-attributes)
 
@@ -45,7 +45,7 @@ Voor numerieke kolommen of datumkolommen geldt het **Omhoog** De pijl geeft aan 
 
 Als u items sneller wilt zoeken, gebruikt u de zoekbalk of filtert u de lijst op basis van contextuele criteria.
 
-![](assets/filter.png){width="70%" align="left"}
+![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
 U kunt leveringen bijvoorbeeld filteren op de status, het kanaal, de contactdatum of de map. U kunt tests ook verbergen.
 
@@ -55,7 +55,7 @@ Als u aangepaste filters voor gegevens wilt maken, bladert u naar de onderkant v
 
 Sleep kenmerken om uw filtercriteria op te bouwen in het dialoogvenster **Geavanceerde filters** scherm.
 
-![](assets/custom-filter.png){width="70%" align="left"}
+![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
 Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voor de huidige lijst weer te geven. [Meer informatie](#adv-attributes)
 
