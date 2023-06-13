@@ -3,7 +3,7 @@ audience: end-user
 title: Bladeren, zoeken en filteren
 description: Ontdek hoe u kunt bladeren en filteren in lijsten met Campagne Web v8
 badge: label="Alpha" type="Positief"
-source-git-commit: 31e5d314ed0b7792d6a28614699fbe6a41b8a783
+source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 1%
@@ -69,3 +69,6 @@ Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voo
 Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken en de filterconfiguratieschermen. Kenmerken die zijn ingesteld als `advanced` kenmerken in het gegevensschema worden verborgen in de configuratievensters.
 
 De **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst weer te geven: De kenmerkenlijst wordt onmiddellijk bijgewerkt.
+
+
+![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
