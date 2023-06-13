@@ -3,9 +3,9 @@ audience: end-user
 title: Campagnerapporten
 description: Meer informatie over het openen en gebruiken van campagnerapporten
 badge: label="Alpha" type="Positief"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 1833f4eafced860592c8419938bc09fe0fe27351
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1558'
 ht-degree: 1%
 
 ---
@@ -111,6 +111,8 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
 * **[!UICONTROL Breakdown of errors per type]** en **[!UICONTROL Breakdown of errors per domain]** tabellen en grafieken bevatten de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen.
 
+  De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer informatie over quarantainebeheer raadpleegt u [Quarantainebeheer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html).
+
   ![](assets/campaign_report_email_6.png)
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
@@ -183,6 +185,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
+   * **[!UICONTROL Platform average]** : Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die in de voorafgaande zes maanden werden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
 +++
 
 * **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding.
