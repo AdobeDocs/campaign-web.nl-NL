@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporten over levering verzenden
 description: Leer hoe u pushrapporten kunt openen en gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: 0463bc48bcee20b9f97d5b98053b77956dc4ef53
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 0%
@@ -21,6 +21,8 @@ ht-degree: 0%
 
 * **[!UICONTROL Delivery overview]** verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over hoe uw bezoekers met uw Push berichten in dienst nemen.
 
+  ![](assets/reporting_push_3.png)
+
   +++Meer weten over cijfers van verzendrapporten.
 
    * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
@@ -33,9 +35,9 @@ ht-degree: 0%
 
 +++
 
-  ![](assets/reporting_push_3.png)
-
 * **Doelpopulatie** grafiek en lijstvertoningsgegevens met betrekking tot uw publiek:
+
+  ![](assets/reporting_push_4.png)
 
   +++Meer weten over cijfers van verzendrapporten.
 
@@ -45,9 +47,11 @@ ht-degree: 0%
 
 +++
 
-  ![](assets/reporting_push_4.png)
+
 
 * **Algemene statistieken** bevat gegevens voor de verzonden pushberichten, waaronder:
+
+  ![](assets/reporting_push_5.png)
 
   +++Meer weten over cijfers van verzendrapporten.
 
@@ -58,8 +62,6 @@ ht-degree: 0%
    * **[!UICONTROL New quarantine]**: Aantal profielen dat is uitgesloten en toegevoegd aan de quarantaine.
 
 +++
-
-  ![](assets/reporting_push_5.png)
 
 * **[!UICONTROL Exclusions]** de grafiek en de lijst tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen.
 

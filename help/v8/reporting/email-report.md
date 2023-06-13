@@ -3,7 +3,7 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 1%
@@ -16,6 +16,8 @@ ht-degree: 1%
 
 * **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers:
 
+  ![](assets/reporting_email_1.png){align="center"}
+
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
    * **[!UICONTROL Initial audience]**: Totaal aantal beoogde ontvangers.
@@ -26,6 +28,8 @@ ht-degree: 1%
 +++
 
 * **[!UICONTROL Delivery statistics]** de tabel geeft het succes van uw levering aan .
+
+  ![](assets/reporting_email_2.png){align="center"}
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -41,6 +45,8 @@ ht-degree: 1%
 
 * **[!UICONTROL Causes of exclusion]** de grafiek en de tabel geven de uitsplitsing per regel van tijdens de analyse afgewezen berichten weer.
 
+  ![](assets/reporting_email_3.png){align="center"}
+
 ## Leveringsdoorvoer {#delivery-throughtput}
 
 Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een opgegeven tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
@@ -48,6 +54,8 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 ## Uitzendstatistieken {#broadcast-statistics}
 
 * **[!UICONTROL Broadcast statistics]** de tabel bevat de beschikbare gegevens voor mogelijke fouten die met elk domein zijn aangetroffen.
+
+  ![](assets/reporting_email_4.png){align="center"}
 
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
@@ -84,6 +92,8 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 * **[!UICONTROL Delivery statistics]** biedt prestatiekernindicatoren (KPI&#39;s) die gedetailleerde informatie geven over gegevens die beschikbaar zijn voor verzonden e-mails.
 
+  ![](assets/reporting_email_5.png){align="center"}
+
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
    * **[!UICONTROL Success]**: Aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
@@ -100,6 +110,8 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 +++
 
 * **[!UICONTROL Open and click-through rate]** de lijst toont gegevens met betrekking tot uw ontvangers.
+
+  ![](assets/reporting_email_6.png){align="center"}
 
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
@@ -118,6 +130,8 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 * **[!UICONTROL URLs and click streams]** verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt.
 
+  ![](assets/reporting_email_7.png){align="center"}
+
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
    * **[!UICONTROL Reactivity]**: Verhouding van het aantal ontvangers voor wie de levering is bedoeld en waarop op de levering is geklikt, in verhouding tot het geschatte aantal ontvangers voor wie de levering is geopend.
@@ -130,6 +144,8 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 * **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding.
 
+  ![](assets/reporting_email_8.png){align="center"}
+
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
    * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
@@ -140,9 +156,13 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 * **[!UICONTROL Breakdown of clicks over time]** de grafiek bevat de beschikbare gegevens voor het gedrag van de ontvanger per koppeling.
 
+  ![](assets/reporting_email_9.png){align="center"}
+
 ## Gebruikersactiviteiten {#user-activities-email}
 
 * **[!UICONTROL User activities]** toont de uitsplitsing van opent en klikt in de vorm van een grafiek.
+
+  ![](assets/reporting_email_10.png){align="center"}
 
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
@@ -156,6 +176,8 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 * **[!UICONTROL Tracking Statistics]** de grafiek verstrekt statistieken over opent en klikt.
 
+  ![](assets/reporting_email_11.png){align="center"}
+
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
    * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
@@ -167,6 +189,8 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 ## Indeling van openen {#breakdown-opens}
 
 In dit rapport wordt de uitsplitsing van de openingen per besturingssysteem, apparaat en browser voor de betrokken periode weergegeven. Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele apparaten. In het tweede voorbeeld worden alleen statistieken weergegeven over het openen op mobiele apparaten.
+
+![](assets/reporting_email_13.png){align="center"}
 
 ## Hotclicks
 

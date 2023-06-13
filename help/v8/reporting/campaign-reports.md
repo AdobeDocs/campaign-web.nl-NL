@@ -3,14 +3,26 @@ audience: end-user
 title: Campagnerapporten
 description: Meer informatie over het openen en gebruiken van campagnerapporten
 badge: label="Alpha" type="Positief"
-source-git-commit: 988350e5117b8593823cb59f9b999b0d7c1d5cff
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
 
 # Campagnerapporten {#campaign-reports}
+
+Het campagnerapport bestaat uit verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven.
+
+De pagina van het campagnerapport zal met de volgende lusjes worden getoond:
+
+* [E-mailkanaal](#email-channel)
+* [Sms-kanaal](#sms-channel)
+* [Push-kanaal](#push-channel)
+
+Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van uw campagne.
+
+![](assets/campaign_report_email_13.png)
 
 ## E-mailkanaal {#email-channel}
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Verzendrapporten via SMS
 description: Leer hoe u sms-leveringsrapporten kunt openen en gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: b18fb70aa498e3592f88f698bb6b526c9fb1439b
+source-git-commit: 535ab4238c9937d716a20ac8019b44da091bdd6c
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%
@@ -21,6 +21,8 @@ ht-degree: 1%
 
 * **[!UICONTROL Delivery overview]** biedt prestatiekernindicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop bezoekers uw SMS-berichten gebruiken.
 
+  ![](assets/reporting_sms_3.png)
+
   +++Meer informatie over de cijfers van SMS-verzendrapporten.
 
    * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
@@ -32,9 +34,9 @@ ht-degree: 1%
    * **[!UICONTROL Errors]**: Het totale aantal fouten dat is opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 +++
 
-  ![](assets/reporting_sms_3.png)
-
 * **Doelpopulatie** grafiek en lijstvertoningsgegevens met betrekking tot uw publiek.
+
+  ![](assets/reporting_sms_4.png)
 
   +++Meer informatie over de cijfers van SMS-verzendrapporten.
 
@@ -43,9 +45,10 @@ ht-degree: 1%
    * **[!UICONTROL Exclusions]**: Aantal profielen dat is uitgesloten van de analyse.
 +++
 
-  ![](assets/reporting_sms_4.png)
 
 * **Algemene statistieken** bevat gegevens voor de verzonden SMS-berichten, waaronder:
+
+  ![](assets/reporting_sms_5.png)
 
   +++Meer informatie over de cijfers van SMS-verzendrapporten.
 
@@ -55,8 +58,6 @@ ht-degree: 1%
 
    * **[!UICONTROL New quarantine]**: Aantal profielen dat is uitgesloten en toegevoegd aan de quarantaine.
 +++
-
-  ![](assets/reporting_sms_5.png)
 
 * **[!UICONTROL Exclusions]** de grafiek en de lijst tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen.
 
