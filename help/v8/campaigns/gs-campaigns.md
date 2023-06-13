@@ -2,11 +2,11 @@
 audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
-badge: label="Alpha" type="Positief"
+badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,9 @@ Door veelvoudige werkschema&#39;s en leveranties toe te voegen specifiek voor de
 
 De campagnes bieden specifieke rapporteringsmetriek aan om uitvoerige inzichten in de prestaties van uw volledige campagne te bereiken, toelatend u om zijn doeltreffendheid te beoordelen, tendensen te identificeren, en gegeven-gedreven besluiten te nemen om toekomstige inspanningen te optimaliseren.
 
+![Campagnestroom](assets/campaign-flow.png)
+
+
 <!--
 Use Adobe Campaign to create cross-channel campaigns. With its marketing campaign orchestration capabilities, you can manage and centralize customer data, design customer communications and campaigns, and create personalized experiences across different channels. In this version, email, push and SMS channels are available.
 
@@ -38,38 +41,3 @@ Adobe Campaign offers a set of solutions that help you personalize and deliver c
 
 Campaigns include actions (deliveries) and processes (importing or extracting files), as well as resources (marketing documents, delivery outlines). They are used in marketing campaigns. Campaigns are part of a program, and programs are included in a campaign plan.
 -->
-
-## Toegang tot en beheer uw campagnes{#access-campaigns}
-
-Als u een nieuwe campagne wilt maken of bestaande campagnes wilt beheren, klikt u op de knop **[!UICONTROL Campaigns]** -menu.
-
-![Lijst met campagnes](assets/campaign-list.png)
-
-Er zijn twee tabbladen beschikbaar:
-
-* De **Bladeren** worden alle bestaande campagnes weergegeven. U kunt op een campagne klikken om het dashboard te openen of een nieuwe campagne te maken door op de knop **Campagne maken** knop. Zie dit [sectie](create-campaigns.md#create-campaigns).
-
-* De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. De malplaatjes van de campagne worden pre-gevormd zodat zij kunnen worden opnieuw gebruikt wanneer het creëren van nieuwe campagnes. Zij worden gecreeerd van de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
-
-Elke campagne in de lijst bevat informatie over de huidige status, de aanmaakdatum, de laatste keer dat de campagne is gewijzigd, enzovoort.
-
-U kunt de weergegeven kolommen aanpassen door op de knop **Kolom voor een aangepaste indeling configureren** in de rechterbovenhoek van de lijst. Op deze manier kunt u aanvullende informatie aan de lijst toevoegen. Bovendien zijn er een zoekbalk en filters beschikbaar waarmee u gemakkelijk in de lijst kunt zoeken. [Meer informatie](../get-started/user-interface.md#list-screens)
-
-U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het filterdeelvenster en gebruik de **Begin - Einddatum** sectie:
-
-![Campagne, filter](assets/campaign-filter-on-dates.png)
-
-## Het campagnemashboard{#campaign-dashboard}
-
-In de **Bladeren** klikt u op een campagne om het dashboard van de campagne weer te geven.
-
-![Campagne-dashboard](assets/campaign-dashboard.png)
-
-De status en het schema van de campagne worden boven aan het scherm weergegeven. U kunt de **Campagne-instellingen configureren** pictogram om de eigenschappen van de campagne te wijzigen die tijdens het maken van de campagne zijn gedefinieerd. Er zijn drie knoppen beschikbaar waarmee u logbestanden kunt weergeven, rapporteren, dupliceren of verwijderen van de campagne. Zie dit [sectie](create-campaigns.md#create-campaigns)
-
-Er zijn twee tabbladen beschikbaar:
-
-* De **Workflows** worden alle workflows weergegeven die aan de campagne zijn gekoppeld. Op dit tabblad kunt u ook een nieuwe workflow in de campagne maken. Zie dit [sectie](create-campaigns.md#create-campaigns)
-
-* De **Leveringen** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld. U kunt ook een nieuwe levering maken in de campagne. Zie dit [sectie](create-campaigns.md#create-campaigns)
-

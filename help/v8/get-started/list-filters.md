@@ -2,11 +2,11 @@
 audience: end-user
 title: Bladeren, zoeken en filteren
 description: Ontdek hoe u kunt bladeren en filteren in lijsten met Campagne Web v8
-badge: label="Alpha" type="Positief"
-source-git-commit: 7c8aa54fc267ca4db3ed5e77a0d86af2f242f4fe
+badge: label="Alpha"
+source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 1%
+source-wordcount: '415'
+ht-degree: 0%
 
 ---
 
@@ -65,6 +65,17 @@ Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voo
 >id="acw_attributepicker_advancedfields"
 >title="Geavanceerde kenmerken weergeven"
 >abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Met deze schakeloptie kunt u een filter met geavanceerde kenmerken maken."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_advancedfields"
+>title="Geavanceerde velden voor regelbuilder"
+>abstract="Kolommen met geavanceerde velden configureren."
+
+>[!CONTEXTUALHELP]
+>id="acw_rulebuilder_properties_advanced"
+>title="Geavanceerde kenmerken van Rule Builder"
+>abstract="Gebruik geavanceerde attributen om uw regel te bepalen."
+
 
 Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken en de filterconfiguratieschermen. Kenmerken die zijn ingesteld als `advanced` kenmerken in het gegevensschema worden verborgen in de configuratievensters.
 
