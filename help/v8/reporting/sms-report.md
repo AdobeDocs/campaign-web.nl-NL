@@ -3,9 +3,9 @@ audience: end-user
 title: Verzendrapporten via SMS
 description: Leer hoe u sms-leveringsrapporten kunt openen en gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: 3647cea1728d96ef5d65c767ba5dca97152e6d92
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '287'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 >id="acw_sms_report_overview"
 >title="Overzicht van SMS-rapporten"
 >abstract="Ontdek de rapportgegevens voor je SMS-levering."
+
+De **SMS-leveringsrapport** biedt een uitgebreid overzicht van het SMS-kanaal, met uitgebreide inzichten en specifieke gegevens. Het verstrekt uitvoerige informatie over de prestaties, de doeltreffendheid, en de resultaten van elke levering.
 
 ## Leveringsoverzicht {#delivery-summary}
 
