@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: dea30dcf033306e90f5838370e3970a0d833ecd9
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '350'
 ht-degree: 11%
 
 ---
@@ -61,12 +61,12 @@ ht-degree: 11%
       + [Aan de slag met pushmeldingen](push/gs-push.md)
       + [Een pushmelding maken](push/create-push.md)
       + [Een pushaanbieding ontwerpen](push/content-push.md)
-      + [Een pushmelding verzenden](push/send-push.md)
+      + [Een voorbeeld bekijken en een pushmelding verzenden](push/send-push.md)
    + Sms {#sms}
       + [Aan de slag met SMS-berichten](sms/gs-sms.md)
       + [Een sms-levering maken](sms/create-sms.md)
       + [Een SMS-verzending ontwerpen](sms/content-sms.md)
-      + [Verzend een SMS-levering](sms/send-sms.md)
+      + [Een SMS-verzending bekijken en verzenden](sms/send-sms.md)
    + Uw inhoud dynamisch maken {#dynamic-content}
       + [Aan de slag met dynamische inhoud](personalization/gs-personalization.md)
       + [Aanpassing toevoegen](personalization/personalize.md)
