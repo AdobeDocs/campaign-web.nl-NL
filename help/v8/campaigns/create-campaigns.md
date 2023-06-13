@@ -4,7 +4,7 @@ title: Campagnes maken met Adobe Campaign Web
 description: Meer informatie over het maken van kanaalcampagnes met Adobe Campaign Web
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 ---
 
 
-# Uw eerste campagne maken {#create-campaigns}
+# Uw eerste campagne maken {#create-first-campaigns}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
@@ -24,9 +24,9 @@ ht-degree: 1%
 >title="Campagneigenschappen"
 >abstract="Definieer de instellingen en metagegevens van uw campagne."
 
-De campagnes kunnen werkschema&#39;s en standalone leveringen omvatten. Eigenschappen, planning, werk, levering plus een flitsschema
+Om een nieuwe campagne te creëren, moet u zijn eigenschappen, programma bepalen en werkschema&#39;s en leveringen omvatten.
 
-## Maak de campagne
+## Maak de campagne{#campaign-create}
 
 Voer de volgende stappen uit om een nieuwe campagne te maken:
 
@@ -40,25 +40,27 @@ Voer de volgende stappen uit om een nieuwe campagne te maken:
 
    >[!NOTE]
    >
-   >U kunt deze eigenschappen altijd later wijzigen, via het dialoogvenster **Campagne-instellingen configureren** naast het campagnelabel. Zie dit [sectie](gs-campaigns.md#campaign-dashboard)
+   >U kunt deze eigenschappen altijd later wijzigen, via het dialoogvenster **Campagne-instellingen configureren** naast het campagnelabel. Zie dit [sectie](gs-campaigns.md#campaign-dashboard).
 
 1. Klikken **Maken**.
 1. Workflows en leveringen toevoegen aan uw campagne:
 
-   * Van de **Workflows** tabblad, klikt u op **Workflow maken**. Er wordt automatisch een standaardworkflow toegevoegd wanneer u een campagne maakt. Meer informatie over hoe [een workflow maken](../workflows/create-workflow.md)
+   * Van de **Workflows** tabblad, klikt u op **Workflow maken**. Er wordt automatisch een standaardworkflow toegevoegd wanneer u een campagne maakt. Meer informatie over hoe [een workflow maken](../workflows/create-workflow.md).
    * Van de **Leveringen** tabblad, klikt u op **Levering maken**. [Meer informatie](../msg/gs-messages.md)
 
 1. Gebruik de **Logboeken** en **Rapportage** knoppen om de prestaties van uw campagne te analyseren.
 
 ## Uw campagne volgen{#campaign-monitoring}
 
-Campagne-controle is een belangrijke stap om uw campagnes te analyseren. Open uw campagne en klik op de knop **Logboeken** knop.
+Campagne-controle is een belangrijke stap om de doeltreffendheid van uw campagne te analyseren. Open uw campagne en klik op de knop **Logboeken** knop.
 
 U kunt de toegewezen rapporten ook weergeven door op de knop **Rapporten** knop. Zie dit [sectie](../reporting/campaign-reports.md).
 
-+++WORKF + scherm
+
 
 <!--
+	+++WORKF
+++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 
 
