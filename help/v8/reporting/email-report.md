@@ -3,20 +3,22 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Alpha" type="Positief"
-source-git-commit: 875b7edac9696af227273a02357d5431f6a1e8ab
+source-git-commit: a8bc3317bc97d429ab6c9abdf5f503a5123f591e
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1279'
 ht-degree: 1%
 
 ---
 
 # E-mailleveringsrapport {#email-report}
 
+De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specifiek zijn voor het e-mailkanaal. Het biedt gedetailleerde informatie over de prestaties, effectiviteit en resultaten van uw afzonderlijke leveringen, zodat u een uitgebreid overzicht krijgt.
+
 ## Leveringsoverzicht {#delivery-summary-email}
 
 * **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers:
 
-  ![](assets/reporting_email_1.png){align="left"}
+  ![](assets/reporting_email_1.png){align="left" zoomable="yes"}
 
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
@@ -96,6 +98,8 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 * **[!UICONTROL Breakdown of errors per type]** en **[!UICONTROL Breakdown of errors per domain]** tabellen en grafieken bevatten de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen.
 
+  De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer informatie over quarantainebeheer raadpleegt u [Quarantainebeheer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html)
+
   ![](assets/campaign_report_email_6.png)
 
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
@@ -168,6 +172,8 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
    * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
+   * **[!UICONTROL Platform average]** : Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die in de voorafgaande zes maanden werden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
+
 +++
 
 * **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding.
@@ -188,7 +194,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 ## Gebruikersactiviteiten {#user-activities-email}
 
-* **[!UICONTROL User activities]** toont de uitsplitsing van opent en klikt in de vorm van een grafiek.
+* **[!UICONTROL User activities]** toont de uitsplitsing van opent en klikt in de vorm van een grafiek. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag of uur of 30 minuten.
 
   ![](assets/reporting_email_10.png){align="center"}
 
@@ -202,7 +208,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 ## Statistieken bijhouden {#tracking-statistics}
 
-* **[!UICONTROL Tracking Statistics]** de grafiek verstrekt statistieken over opent en klikt.
+* **[!UICONTROL Tracking Statistics]** de grafiek verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens.
 
   ![](assets/reporting_email_11.png){align="center"}
 
@@ -217,10 +223,11 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 ## Indeling van openen {#breakdown-opens}
 
 In dit rapport wordt de uitsplitsing van de openingen per besturingssysteem, apparaat en browser voor de betrokken periode weergegeven. Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele apparaten. In het tweede voorbeeld worden alleen statistieken weergegeven over het openen op mobiele apparaten.
+U hebt de flexibiliteit om over te schakelen van **[!UICONTROL Fix & mobile]** uitsluitend **[!UICONTROL Mobile only]** voor een nauwkeuriger doelgerichtheid.
 
 ![](assets/reporting_email_13.png){align="center"}
 
-## Hotclicks
+## Hotclicks {#hotclicks}
 
 Dit rapport toont de berichtinhoud (HTML en/of tekst) met, op elke verbinding, het percentage klikt op verbindingen. De belemmeringen van de verpersoonlijking unsubscription verbindingen, spiegelpaginakoppelingen en aanbiedingsverbindingen worden in de totale gecumuleerde kliks in aanmerking genomen maar niet getoond in het rapport.
 
