@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Aan de slag met pushmeldingen {#push}
 
-Pushmeldingen zijn essentieel voor het bereiken van gebruikers van uw mobiele app, zelfs als zij uw app niet actief gebruiken. Zij dienen diverse doeleinden zoals het verstrekken van updates, het drijven van specifieke acties, en het op de hoogte brengen van overeenkomsten. Gebruikers moeten zich aanmelden om deze melding te ontvangen.
+Pushberichten zijn essentieel voor het bereiken van een mobiele app-gebruiker, zelfs als deze uw app niet actief gebruikt. Zij dienen diverse doeleinden zoals het verstrekken van updates, het drijven van specifieke acties, en het op de hoogte brengen van overeenkomsten. Gebruikers moeten zich aanmelden om deze melding te ontvangen.
 
 Voor het maken van pushberichten hebt u drie opties:
 
