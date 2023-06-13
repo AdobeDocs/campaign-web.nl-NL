@@ -4,7 +4,7 @@ title: Aan de slag met Campagne v8 Web
 description: Aan de slag met Campagne v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positief"
-source-git-commit: c4b06445c23c82d02bd34b64f96445ca994c0a24
+source-git-commit: c0dd90540e4347612bf60ba8c6d4a739aed502cb
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 2%
@@ -50,7 +50,7 @@ Ga als volgt te werk om verbinding te maken met het Adobe Campaign-web:
 
 Als u al bent verbonden met een andere Adobe Experience Cloud-oplossing, kunt u ook vanuit de oplossingsschakelaar rechtsboven in het scherm naar uw Campagne-omgeving bladeren.
 
-## Info over Campagne-clientconsole{#ac-client}
+## Info over Campagne-clientconsole {#ac-client}
 
 De de cliëntconsole van de Campagne is een browser-gebaseerde toepassing die op uw systeem geïnstalleerd is. De webservices-API wordt gebruikt om verbinding te maken met uw Campagnetoepassingsserver.
 
