@@ -4,7 +4,7 @@ title: Campagnes maken met Adobe Campaign Web
 description: Meer informatie over het maken van kanaalcampagnes met Adobe Campaign Web
 badge: label="Alpha" type="Positief"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 3f2fc84132eab0f75aa405ba16f996601b21b784
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -41,12 +41,12 @@ Voer de volgende stappen uit om een nieuwe campagne te maken:
    >U kunt deze eigenschappen altijd later wijzigen, via het dialoogvenster **Campagne-instellingen configureren** naast het campagnelabel. Zie dit [sectie](gs-campaigns.md#campaign-dashboard)
 
 1. Klikken **Maken**.
-1. Voeg workflows en leveringen toe aan uw campagne.
+1. Workflows en leveringen toevoegen aan uw campagne:
 
    * Van de **Workflows** tabblad, klikt u op **Workflow maken**. Er wordt automatisch een standaardworkflow toegevoegd wanneer u een campagne maakt. Meer informatie over hoe [een workflow maken](../workflows/create-workflow.md)
    * Van de **Leveringen** tabblad, klikt u op **Levering maken**. [Meer informatie](../msg/gs-messages.md)
 
-1. Gebruik de **Logboeken** en **Rapportage** knoppen om uw campagne te analyseren.
+1. Gebruik de **Logboeken** en **Rapportage** knoppen om de prestaties van uw campagne te analyseren.
 
 ## Logbestanden bijhouden en bijhouden{#campaign-monitoring}
 
@@ -63,7 +63,7 @@ U kunt een campagne dupliceren of verwijderen:
 
 >[!NOTE]
 >
->De **Aflevering** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld. Leveringen die in een workflow zijn gemaakt, kunnen daar echter niet van worden verwijderd. Als u een levering wilt verwijderen die in de context van een workflow is gemaakt, moet u de leveringsactiviteit uit de workflow verwijderen.
+>De **Leveringen** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld. Leveringen die in een workflow zijn gemaakt, kunnen daar echter niet van worden verwijderd. Als u een levering wilt verwijderen die in de context van een workflow is gemaakt, moet u de leveringsactiviteit uit de workflow verwijderen.
 
 
 <!--

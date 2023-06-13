@@ -4,7 +4,7 @@ title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Alpha" type="Positief"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
+source-git-commit: 4619cffbe2f172637357668b2b4f50cebc27af09
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -49,13 +49,13 @@ Er zijn twee tabbladen beschikbaar:
 
 * De **Bladeren** worden alle bestaande campagnes weergegeven. U kunt op een campagne klikken om het dashboard te openen of een nieuwe campagne te maken door op de knop **Campagne maken** knop. Zie dit [sectie](create-campaigns.md#create-campaigns).
 
-* De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. De malplaatjes van de campagne zijn pre-gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
+* De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. De malplaatjes van de campagne worden pre-gevormd zodat zij kunnen worden opnieuw gebruikt wanneer het creëren van nieuwe campagnes. Zij worden gecreeerd van de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
 
 Elke campagne in de lijst bevat informatie over de huidige status, de aanmaakdatum, de laatste keer dat de campagne is gewijzigd, enzovoort.
 
 U kunt de weergegeven kolommen aanpassen door op de knop **Kolom voor een aangepaste indeling configureren** in de rechterbovenhoek van de lijst. Op deze manier kunt u aanvullende informatie aan de lijst toevoegen. Bovendien zijn er een zoekbalk en filters beschikbaar waarmee u gemakkelijk in de lijst kunt zoeken. [Meer informatie](../get-started/user-interface.md#list-screens)
 
-U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het deelvenster Filters en gebruik de knop **Begin - Einddatum** sectie:
+U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het filterdeelvenster en gebruik de **Begin - Einddatum** sectie:
 
 ![Campagne, filter](assets/campaign-filter-on-dates.png)
 
@@ -70,5 +70,6 @@ De status en het schema van de campagne worden boven aan het scherm weergegeven.
 Er zijn twee tabbladen beschikbaar:
 
 * De **Workflows** worden alle workflows weergegeven die aan de campagne zijn gekoppeld. Op dit tabblad kunt u ook een nieuwe workflow in de campagne maken. Zie dit [sectie](create-campaigns.md#create-campaigns)
+
 * De **Leveringen** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld. U kunt ook een nieuwe levering maken in de campagne. Zie dit [sectie](create-campaigns.md#create-campaigns)
 

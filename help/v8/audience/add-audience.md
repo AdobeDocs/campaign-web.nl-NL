@@ -4,7 +4,7 @@ title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Alpha" type="Positief"
-source-git-commit: d4645689ebaa5439a01b2f558f398cbeb79089a7
+source-git-commit: f7d59309979a063f4491f24c4a9e6deab83a4351
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 5%
@@ -36,7 +36,7 @@ Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
 1. Kies **[!UICONTROL Select audience]** om een bestaand publiek te gebruiken. Kies **Maak uw eigen**. Zie dit [sectie](segment-builder.md).
 
-   Dit scherm geeft alle bestaande soorten publiek weer die zijn gedefinieerd in de Adobe Campaign-console of vanuit Adobe Experience Platform.
+   In dit scherm worden alle bestaande soorten publiek weergegeven die zijn gedefinieerd in de Adobe Campaign-clientconsole, voor de huidige map.
 
    ![](assets/create-audience2.png)
 
