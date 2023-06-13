@@ -4,7 +4,7 @@ title: Aan de slag met Campagne v8 Web
 description: Aan de slag met Campagne v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Alpha" type="Positief"
-source-git-commit: c0dd90540e4347612bf60ba8c6d4a739aed502cb
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Adobe Campaign biedt een platform voor het ontwerpen van de ervaringen van klanten over meerdere kanalen en een omgeving voor visuele campagneorchestratie, real-time interactiebeheer en uitvoering via meerdere kanalen.
 
-Aanvankelijk slechts beschikbaar door rijk [Clientconsole](#ac-client), biedt Campagne nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u uw gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere Adobe-oplossingen, waaronder Adobe Experience Platform.
+Aanvankelijk slechts beschikbaar door rijk [clientconsole](#ac-client), biedt Campagne nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u uw gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere Adobe-oplossingen, waaronder Adobe Experience Platform.
 
 ![](assets/home.png)
 

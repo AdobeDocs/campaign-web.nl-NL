@@ -4,7 +4,7 @@ title: Aan de slag met het publiek
 description: Leer hoe te om publiek in het Web UI van de Campagne te gebruiken
 badge: label="Alpha" type="Positief"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 3ebe92659916cf2fa4cacb8d28b79d7b6d5359f3
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 4%
@@ -40,7 +40,7 @@ Het publiek is het belangrijkste doel van uw levering: de ontvangers die de beri
 
 Om de publieksbevolking te bepalen, kunt u:
 
-* Selecteer een bestaand publiek dat als een lijst in de Console van de Cliënt wordt gecreeerd. [Meer informatie](add-audience.md)
+* Selecteer een bestaand publiek dat als een lijst in de cliëntconsole wordt gecreeerd. [Meer informatie](add-audience.md)
 * Selecteer een Adobe Experience Platform-publiek. [Meer informatie](aep-audience.md)
 * Bouw een nieuw publiek met de regelbouwer door het filtreren criteria te bepalen en te combineren. [Meer informatie](segment-builder.md)
 * Een publiek uit een extern bestand gebruiken: deze optie is alleen beschikbaar voor zelfstandige e-mailleveringen en kan niet worden gebruikt in campagneleveringen. [Meer informatie](file-audience.md)

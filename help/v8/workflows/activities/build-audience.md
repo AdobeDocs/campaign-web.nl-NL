@@ -3,7 +3,7 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 badge: label="Alpha" type="Positief"
-source-git-commit: 773d2476232f4e0609346f4f4518c3250c26985a
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 1%
@@ -17,7 +17,7 @@ De **publiek opbouwen** activiteit is **Doelstelling** activiteit. Met deze acti
 
 Om de publieksbevolking te bepalen, kunt u:
 
-* Selecteer een bestaand publiek dat als een lijst in de Console van de Cliënt wordt gecreeerd.
+* Selecteer een bestaand publiek dat als een lijst in de cliëntconsole wordt gecreeerd.
 * Selecteer een Adobe Experience Platform-publiek.
 * Bouw een nieuw publiek met de regelbouwer door het filtreren criteria te bepalen en te combineren.
 

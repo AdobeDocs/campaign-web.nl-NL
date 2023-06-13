@@ -4,7 +4,7 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha" type="Positief"
-source-git-commit: 9f9cb4423d098ae57f429fb2a49e335d413399c1
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Bovendien zijn al uw gegevens en montages reeds beschikbaar in de cliëntconsole
 
 ## Terminologie-updates {#terminology-updates}
 
-Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoemd om zich aan de recentste terminologienormen te richten. Deze veranderingen zijn slechts op het Web UI van de Campagne van toepassing en niet weerspiegeld in de Console van de Cliënt. Deze worden hieronder samengevat.
+Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoemd om zich aan de recentste terminologienormen te richten. Deze veranderingen zijn slechts op het Web UI van de Campagne van toepassing en niet weerspiegeld in de cliëntconsole. Deze worden hieronder samengevat.
 
 * Proefdrukken zijn nu **E-mailberichten testen**: als u een bewijs wilt verzenden, gebruikt u de **Testen** in de gebruikersinterface voor e-maillevering. Het doel van de proefdrukken wordt nu aangeduid als **Testprofielen**
 * Zaadadressen worden nu gebruikt als **Testprofielen**: stuur de test-e-mail naar zaadadressen, die extra en fictieve ontvangers in het gegevensbestand zijn

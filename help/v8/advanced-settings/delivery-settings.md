@@ -4,7 +4,7 @@ title: E-mailleveringsinstellingen
 description: Meer informatie over instellingen voor e-maillevering in de gebruikersinterface van het campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alpha" type="Positief"
-source-git-commit: 983541f5dea47102ae9ee3c5351a7149484a1fa5
+source-git-commit: bbebd9dc462a189618cbf6e71467bb0935e1317a
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 10%
@@ -158,7 +158,7 @@ Naast de standaardmodus zijn ook de volgende opties beschikbaar:
 
 * **[!UICONTROL Force the generation of the mirror page]**: Gebruik deze wijze om de spiegelpagina te produceren zelfs als geen verbinding aan de spiegelpagina in de levering wordt opgenomen.
 * **[!UICONTROL Do not generate the mirror page]**: Gebruik deze modus om te voorkomen dat een spiegelpagina wordt gegenereerd, zelfs als de koppeling aanwezig is in de levering.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: als de koppeling naar de spiegelpagina niet aanwezig is in de e-mailinhoud, gebruikt u deze optie om toegang tot de inhoud van de spiegelpagina, in het venster van het leveringslogboek, vanuit de clientconsole in te schakelen.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: wanneer de spiegelpagina geen verbinding in de e-mailinhoud aanwezig is, gebruik deze optie om toegang tot de inhoud van de spiegelpagina, in het venster van het leveringslogboek, van de cliëntconsole toe te laten.
 
 
 ### Tracking {#tracking}
