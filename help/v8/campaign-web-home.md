@@ -4,10 +4,10 @@ description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Alpha" type="Positief"
-source-git-commit: 795e9ae41ac7f021e30262985240bb43dbb52e54
+source-git-commit: 01759418cd193de0a83a7758ee6620a2ad74ff38
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ Begin met een sjabloon of gebruik de nieuwe e-mailontwerper van Adobe Campaign o
 
 Pas de inhoud aan op basis van de gegevens die u over de ontvangers hebt verzameld. Door het gebruik van dynamische inhoud wordt de inhoud aantrekkelijker en wordt de leeskans groter. Pas uw berichten aan elke specifieke ontvanger aan door profielgegevens zoals hun voornaam, interesses, waar zij wonen, wat zij hebben gekocht, en nog veel meer te gebruiken. Creeer voorwaardelijke inhoud om uw leveringen aan elke ontvanger aan te passen en slechts de inhoud te tonen die voor een bepaalde klant relevant is die op de informatie wordt gebaseerd u over hen hebt.
 
-**Kanaalleveringen verzenden**
+**Cross-channel campagnes maken**
 
 Gebruik Adobe Campaign om kanaalcampagnes te maken. Met zijn marketing campagneorchestratiemogelijkheden, kunt u klantengegevens beheren en centraliseren, klantenmededelingen en campagnes ontwerpen, en gepersonaliseerde ervaringen over verschillende kanalen tot stand brengen. In deze versie zijn e-mail-, push- en SMS-kanalen beschikbaar. Meet de doeltreffendheid van uw leveringen met gedetailleerde rapporten met inbegrip van de tellingen van opent, klikt, vooruit, en meer.
 
@@ -55,37 +55,37 @@ Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="workflows/gs-workflows.md">
 <img alt="Validatie" src="assets/do-not-localize/menu-workflows.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Weergegeven interface werkstroomcanvas</strong></a>
+<a href="workflows/gs-workflows.md"><strong>Weergegeven interface werkstroomcanvas</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="content/create-email-content.md">
+<a href="content/get-started-email-designer.md">
 <img alt="Onfrequent" src="assets/do-not-localize/menu-design.jpg">
 </a>
 <div>
-<a href="content/create-email-content.md"><strong>Maak kennis met de e-mailontwerper</strong></a>
+<a href="content/get-started-email-designer.md"><strong>Maak kennis met de e-mailontwerper</strong></a>
 </div>
 <p></td>
 <td>
-<a href="audience/about-audiences.md">
+<a href="personalization/gs-personalization.md">
 <img alt="Doelgroepen" src="assets/do-not-localize/menu-dynamic.jpg">
 </a>
 <div>
-<a href="audience/about-audiences.md"><strong>Uw inhoud dynamisch maken</strong></a>
+<a href="personalization/gs-personalization.md"><strong>Uw inhoud dynamisch maken</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="preview-test/proofs.md">
+<a href="campaigns/gs-campaigns.md">
 <img alt="Validatie" src="assets/do-not-localize/menu-campaign.jpeg">
 </a>
 <div>
-<a href="preview-test/proofs.md"><strong>Kanaalleveringen verzenden</strong></a>
+<a href="campaigns/gs-campaigns.md"><strong>Cross-channel campagnes maken</strong></a>
 </div>
 <p>
 </td>
