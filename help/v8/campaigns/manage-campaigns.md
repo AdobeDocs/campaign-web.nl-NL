@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 97322acd2a1cdb4584118875be0bf2fa0da4f82b
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Als u een nieuwe campagne wilt maken of bestaande campagnes wilt beheren, klikt 
 
 In de lijst met campagnes zijn twee tabbladen beschikbaar:
 
-![Lijst met campagnes](assets/campaign-list.png)
-
 * De **Bladeren** worden alle bestaande campagnes weergegeven. U kunt op een campagne klikken om het dashboard te openen of een nieuwe campagne te maken door op de knop **Campagne maken** knop. Zie dit [sectie](create-campaigns.md#create-campaigns).
 
 * De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. De malplaatjes van de campagne worden pre-gevormd zodat zij kunnen worden opnieuw gebruikt wanneer het creëren van nieuwe campagnes. Zij worden gecreeerd van de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
+
+![Lijst met campagnes](assets/campaign-list.png)
 
 Elke campagne in de lijst bevat informatie over de huidige status, de aanmaakdatum, de laatste keer dat de campagne is gewijzigd, enzovoort.
 
@@ -43,9 +43,9 @@ De status en het schema van de campagne worden boven aan het scherm weergegeven.
 
 Er zijn twee tabbladen beschikbaar:
 
-* De **Workflows** worden alle workflows weergegeven die aan de campagne zijn gekoppeld. Op dit tabblad kunt u ook een nieuwe workflow in de campagne maken. Zie dit [sectie](create-campaigns.md#create-campaigns)
+* De **Workflows** worden alle workflows weergegeven die aan de campagne zijn gekoppeld. Op dit tabblad kunt u ook een nieuwe workflow in de campagne maken. Zie dit [sectie](create-campaigns.md#create-campaigns).
 
-* De **Leveringen** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld. U kunt ook een nieuwe levering maken in de campagne. Zie dit [sectie](create-campaigns.md#create-campaigns)
+* De **Leveringen** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld. U kunt ook een nieuwe levering maken in de campagne. Zie dit [sectie](create-campaigns.md#create-campaigns).
 
 ## Een campagne dupliceren en verwijderen
 
