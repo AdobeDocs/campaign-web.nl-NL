@@ -4,9 +4,9 @@ title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Alpha" type="Positief"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 7daead11e097f6179c99adb0e9496dec567cb29a
+source-git-commit: 6e9c9133a3ac3c8e6a47e01afc4d32f7bed81ab1
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,15 @@ Campaigns include actions (deliveries) and processes (importing or extracting fi
 
 ## Toegang tot en beheer uw campagnes{#access-campaigns}
 
-Als u een nieuwe campagne wilt maken of bestaande campagnes wilt beheren, klikt u op de knop **[!UICONTROL Campaigns]** -menu. Er zijn twee tabbladen beschikbaar:
+Als u een nieuwe campagne wilt maken of bestaande campagnes wilt beheren, klikt u op de knop **[!UICONTROL Campaigns]** -menu.
 
-* De **Bladeren** worden alle bestaande campagnes weergegeven. U kunt op een campagne klikken om het dashboard te openen of een nieuwe campagne te maken door op de knop **Campagne maken** knop. Zie dit [sectie](create-campaigns.md#create-campaigns)
+![Lijst met campagnes](assets/campaign-list.png)
 
-* De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. De malplaatjes van de campagne zijn pre-gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
+Er zijn twee tabbladen beschikbaar:
+
+* De **Bladeren** worden alle bestaande campagnes weergegeven. U kunt op een campagne klikken om het dashboard te openen of een nieuwe campagne te maken door op de knop **Campagne maken** knop. Zie dit [sectie](create-campaigns.md#create-campaigns).
+
+* De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. De malplaatjes van de campagne zijn pre-gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
 
 Elke campagne in de lijst bevat informatie over de huidige status, de aanmaakdatum, de laatste keer dat de campagne is gewijzigd, enzovoort.
 
@@ -53,14 +57,18 @@ U kunt de weergegeven kolommen aanpassen door op de knop **Kolom voor een aangep
 
 U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het deelvenster Filters en gebruik de knop **Begin - Einddatum** sectie:
 
-![Lijst met campagnes](assets/campaign-filter-on-dates.png)
+![Campagne, filter](assets/campaign-filter-on-dates.png)
 
 ## Het campagnemashboard{#campaign-dashboard}
 
-In de **Bladeren** klikt u op een campagne om het dashboard van de campagne weer te geven. Er zijn twee tabbladen beschikbaar:
+In de **Bladeren** klikt u op een campagne om het dashboard van de campagne weer te geven.
+
+![Campagne-dashboard](assets/campaign-dashboard.png)
+
+De status en het schema van de campagne worden boven aan het scherm weergegeven. U kunt de **Campagne-instellingen configureren** pictogram om de eigenschappen van de campagne te wijzigen die tijdens het maken van de campagne zijn gedefinieerd. Er zijn drie knoppen beschikbaar waarmee u logbestanden kunt weergeven, rapporteren, dupliceren of verwijderen van de campagne. Zie dit [sectie](create-campaigns.md#create-campaigns)
+
+Er zijn twee tabbladen beschikbaar:
 
 * De **Workflows** worden alle workflows weergegeven die aan de campagne zijn gekoppeld. Op dit tabblad kunt u ook een nieuwe workflow in de campagne maken. Zie dit [sectie](create-campaigns.md#create-campaigns)
 * De **Leveringen** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld. U kunt ook een nieuwe levering maken in de campagne. Zie dit [sectie](create-campaigns.md#create-campaigns)
-
-De **Campagne-instellingen configureren** kunt u de eigenschappen van de campagne wijzigen die tijdens het maken van de campagne zijn gedefinieerd. Zie dit [sectie](create-campaigns.md#create-campaigns)
 
