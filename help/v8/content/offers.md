@@ -4,9 +4,9 @@ title: Aanbiedingen verzenden
 description: Aanbiedingen verzenden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 3de1ff02f095abf49a5ac23ad291408a81f80b51
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,11 @@ De stappen voor het verzenden van voorstellen met een e-mail zijn als volgt:
 
    ![](assets/create-content-offers.png)
 
-1. Selecteer een specifieke **[!UICONTROL Offer category]** waarin de aanbiedingen worden gesorteerd.
+1. Selecteer een specifieke **[!UICONTROL Offer category]** waarin de aanbiedingen worden gesorteerd. Wanneer u een map selecteert, worden alle submappen automatisch opgenomen en kunnen deze niet worden verwijderd. De interface weerspiegelt dit gedrag niet.
 
    Als er geen categorie is opgegeven, houdt de Offertenmotor rekening met alle aanbiedingen in de omgeving, tenzij een **[!UICONTROL Offer theme]** is geselecteerd.
 
-   >[!NOTE]
-   >
-   >Thema&#39;s zijn sleutelwoorden die stroomopwaarts in de categorieën worden gedefinieerd. Ze fungeren als een filter en u kunt het aantal voorstellen dat moet worden gepresenteerd, verfijnen door ze in een set categorieën te selecteren.
+1. (optioneel) Voer een thema in om categorieën te filteren. Thema&#39;s zijn sleutelwoorden die stroomopwaarts in de categorieën worden gedefinieerd. Ze fungeren als een filter en u kunt het aantal voorstellen dat moet worden gepresenteerd, verfijnen door ze in een set categorieën te selecteren.
 
 1. Gebruik de **[!UICONTROL Propositions]** veld voor het aantal voorstellen dat u in de e-mail wilt invoegen.
 
