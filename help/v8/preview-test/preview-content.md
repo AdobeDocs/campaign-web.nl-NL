@@ -1,32 +1,38 @@
 ---
 audience: end-user
-title: E-mailinhoud voorvertonen
-description: Leer hoe u uw e-mailinhoud kunt voorvertonen met de webinterface voor campagnes
+title: Voorvertoning van leveringsinhoud
+description: Leer hoe u een voorvertoning van uw inhoud voor levering kunt weergeven via de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 1%
+source-wordcount: '312'
+ht-degree: 3%
 
 ---
 
 
-# E-mailinhoud voorvertonen {#preview-content}
+# Voorvertoning van leveringsinhoud {#preview-content}
 
-Gebruik de [!DNL Campaign] de mogelijkheid om inhoud te simuleren om de inhoud van uw e-mail voor te vertonen voordat deze wordt verzonden. Dit staat u toe om verpersoonlijking te controleren en te controleren hoe het aan uw ontvangers wordt getoond.
+Gebruik de [!DNL Campaign] de mogelijkheid van de inhoudsimulatie om de inhoud van uw bericht voor te vertonen alvorens het te verzenden. Dit staat u toe om verpersoonlijking te controleren en te controleren hoe het aan uw ontvangers wordt getoond.
 
-Volg onderstaande stappen om een voorvertoning van de inhoud van uw e-mail weer te geven.
+Volg onderstaande stappen om een voorvertoning van de inhoud van uw levering weer te geven.
 
-1. Bladeren naar de e-mail [Inhoud bewerken](../content/edit-content.md) of de [E-mailontwerper](../content/get-started-email-designer.md).
+1. Blader naar het scherm Inhoud bewerken van uw levering.
+
+   <!--email [Edit content](../content/edit-content.md) screen or to the [Email Designer](../content/get-started-email-designer.md).-->
 
 1. Klik op de knop **[!UICONTROL Simulate content]**.
 
    ![](assets/simulate-button.png)
 
-1. Gebruik de **[!UICONTROL Add test profile(s)]** om de profielen te selecteren die worden gebruikt voor een voorvertoning van uw gepersonaliseerde inhoud.
+1. Als u de profielen wilt selecteren waarmee u een voorvertoning van uw persoonlijke inhoud wilt weergeven, gebruikt u:
 
-1. U kunt testprofielen en profielen combineren om een voorbeeld van uw e-mail te bekijken.
+   * **[!UICONTROL Add test profile(s)]** voor een voorbeeld van e-mail- en sms-berichten
+
+   * **[!UICONTROL Add subscribers]** voor een voorvertoning van de levering via push
+
+1. U kunt testprofielen en -profielen combineren om een voorbeeld van uw e-mail- of SMS-bericht te bekijken.
 
    * De **[!UICONTROL Test profiles]** op het tabblad worden alle adressen weergegeven die aanvullende en fictieve ontvangers in de database zijn.
 
@@ -38,19 +44,20 @@ Volg onderstaande stappen om een voorvertoning van de inhoud van uw e-mail weer 
 
    ![](assets/simulate-select-profiles.png)
 
-1. Klikken **[!UICONTROL Select]** om uw selectie op beide tabbladen te bevestigen.
+1. Klik op **[!UICONTROL Select]** om uw selectie te bevestigen.
 
-   Een voorbeeld van de e-mail wordt weergegeven in het rechterdeelvenster van het dialoogvenster **[!UICONTROL Simulate]** scherm. Gepersonaliseerde elementen worden vervangen door de gegevens van het profiel dat in het linkerdeelvenster is geselecteerd.
+   Er wordt een voorvertoning van de inhoud van de levering weergegeven in het rechterdeelvenster van het dialoogvenster **[!UICONTROL Simulate]** scherm. Gepersonaliseerde elementen worden vervangen door de gegevens van het profiel dat in het linkerdeelvenster is geselecteerd.
 
    ![](assets/simulate-preview.png)
 
-1. Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen in de lijst schakelen om een voorvertoning van de bijbehorende e-mailinhoud weer te geven. U kunt ook meer testprofielen toevoegen en de selectie wissen met de desbetreffende knoppen in het linkerdeelvenster.
+1. Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen in de lijst schakelen om een voorvertoning van de bijbehorende leveringsinhoud weer te geven. U kunt ook meer testprofielen toevoegen en de selectie wissen met de desbetreffende knoppen in het linkerdeelvenster.
 
-1. U kunt de **[!UICONTROL Zoom level]** en bekijk een voorvertoning van uw inhoud op het bureaublad of mobiele apparaat met behulp van het toegewezen pictogram in de rechterbovenhoek.
+1. Voor e-mailleveringen kunt u de **[!UICONTROL Zoom level]** en bekijk een voorvertoning van uw inhoud op het bureaublad of mobiele apparaat met behulp van het toegewezen pictogram in de rechterbovenhoek.
 
 1. Van de **[!UICONTROL Simulate]** scherm kunt u ook:
-   * Controleer de rendering van e-mailberichten in populaire e-mailclients - [Meer informatie](email-rendering.md)
-   * Verzend teste-mails naar specifieke ontvangers voor validatie - [Meer informatie](proofs.md)
+   * Verstuur testleveringen naar specifieke ontvangers voor validatie - [Meer informatie](proofs.md)
+   * Open de logboeken van de verzonden testleveringen - [Meer informatie](proofs.md#access-proofs)
+   * Alleen voor e-mail: controleer de weergave van berichtinhoud in populaire e-mailclients - [Meer informatie](email-rendering.md)
 
 
 

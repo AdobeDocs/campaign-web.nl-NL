@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 26d9f35e724f3f692e7f75dd74da7d6fae4cb310
+source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 11%
 
 ---
@@ -48,11 +48,6 @@ ht-degree: 11%
             + [Een stijl voor koppelingen definiëren](content/styling-links.md)
             + [Inline-opmaakkenmerken toevoegen](content/inline-styling.md)
          + [Aanbiedingen verzenden](content/offers.md)
-      + Uw e-mail voorvertonen en testen {#preview-test}
-         + [Voorvertonen en testen](preview-test/preview-test.md)
-         + [E-mailinhoud voorvertonen](preview-test/preview-content.md)
-         + [Uw e-mail renderen](preview-test/email-rendering.md)
-         + [Test-e-mails verzenden](preview-test/proofs.md)
       + E-mail verzenden en controleren {#monitor}
          + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
          + [Leveringslogboeken controleren](monitor/delivery-logs.md)
@@ -72,6 +67,11 @@ ht-degree: 11%
       + [Aanpassing toevoegen](personalization/personalize.md)
       + [Voorwaardelijke inhoud toevoegen](personalization/conditions.md)
       + [Ingebouwde inhoudsblokken toevoegen](personalization/content-blocks.md)
+   + Voorbeeld en test de levering {#preview-test}
+      + [Voorvertonen en testen](preview-test/preview-test.md)
+      + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
+      + [Testleveringen verzenden](preview-test/proofs.md)
+      + [Uw e-mail renderen](preview-test/email-rendering.md)
 + Soorten publiek en ontvangers {#audiences}
    + [Aan de slag met het publiek](audience/about-audiences.md)
    + [Bestaande doelgroep selecteren](audience/add-audience.md)
