@@ -4,7 +4,7 @@ title: Voorvertoning van leveringsinhoud
 description: Leer hoe u een voorvertoning van uw inhoud voor levering kunt weergeven via de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 890141a65fcacd0362acda49ff4066961d5ea371
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 3%
@@ -28,9 +28,9 @@ Volg onderstaande stappen om een voorvertoning van de inhoud van uw levering wee
 
 1. Als u de profielen wilt selecteren waarmee u een voorvertoning van uw persoonlijke inhoud wilt weergeven, gebruikt u:
 
-   * **[!UICONTROL Add test profile(s)]** voor een voorbeeld van e-mail- en sms-berichten
+   * **[!UICONTROL Add test profile(s)]** voor het bekijken van een voorbeeld van e-mail- en sms-berichten
 
-   * **[!UICONTROL Add subscribers]** voor een voorvertoning van de levering via push
+   * **[!UICONTROL Add subscriber(s)]** voor het voorvertonen van pushberichten
 
 1. U kunt testprofielen en -profielen combineren om een voorbeeld van uw e-mail- of SMS-bericht te bekijken.
 
