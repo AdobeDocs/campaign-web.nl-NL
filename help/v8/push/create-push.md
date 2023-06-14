@@ -3,10 +3,10 @@ audience: end-user
 title: Een pushmelding maken
 description: Leer hoe u een pushmelding maakt met Adobe Campaign Web
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 3%
+source-wordcount: '302'
+ht-degree: 4%
 
 ---
 
@@ -55,7 +55,11 @@ ht-degree: 3%
 
 1. Schakel de **[!UICONTROL Enable control]** groepoptie om een controlegroep te plaatsen om het effect van uw levering te meten toelatend u om het gedrag van de bevolking te vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](../audience/control-group.md)
 
-1. Klikken **[!UICONTROL Edit content]** om de inhoud van uw pushmelding te ontwerpen.
+1. Klikken **[!UICONTROL Edit content]** om de inhoud van uw pushmelding te ontwerpen. [Meer informatie](content-push.md)
+
+   ![](assets/push_create_5.png)
+
+   Vanuit dit scherm kunt u ook [simuleren, inhoud](../preview-test/preview-test.md) en [aanbiedingen instellen](../content/offers.md).
 
 1. Als u de levering wilt plannen op een bepaalde datum en tijd, schakelt u de optie **[!UICONTROL Enable scheduling]** optie. Nadat u de levering in werking stelt, zal het bericht automatisch op de nauwkeurige datum en de tijd worden verzonden die u voor de ontvanger hebt bepaald.
 

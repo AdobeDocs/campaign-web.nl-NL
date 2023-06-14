@@ -4,9 +4,9 @@ title: Aanbiedingen verzenden
 description: Aanbiedingen verzenden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Alpha"
-source-git-commit: a66fe155aa1543d53c3ba1b5620159240d50bf3a
+source-git-commit: 9203d2bcfbe75b584ecab65637b5ded202435d29
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 # Aanbiedingen verzenden {#offers-content}
 
-Met Adobe Campaign v8 Web kunt u met uw e-mailaanbiedingen die in de console zijn gemaakt, verzenden via de **[!UICONTROL Interaction]** module. Voor meer informatie over Interactie en hoe te om een aanbiedingencatalogus in de console te beheren, verwijs naar [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Met Adobe Campaign v8 Web kunt u aanbiedingen die in de console zijn gemaakt, verzenden met de **[!UICONTROL Interaction]** module. Voor meer informatie over Interactie en hoe te om een aanbiedingencatalogus in de console te beheren, verwijs naar [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
-De stappen voor het verzenden van voorstellen met een e-mail zijn als volgt:
+De stappen voor het verzenden van voorstellen met levering zijn als volgt:
 
-1. [Configureer de aanbiedingen die u wilt voorstellen](#configure),
-1. [De aanbiedingen in de e-mail invoegen](#insert).
+1. [Configureer de aanbiedingen die u wilt voorstellen](#configure)
+1. [Voeg de voorstellen in de levering in](#insert)
 
 ## Configureer de aanbiedingen die u wilt voorstellen {#configure}
 
@@ -30,24 +30,30 @@ De stappen voor het verzenden van voorstellen met een e-mail zijn als volgt:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Geavanceerde instellingen voor aanbiedingen"
+>title="Geavanceerde instellingen worden aangeboden"
 >abstract="Vorm geavanceerde opties op aanbiedingen."
 
-1. Klik op de knop **[!UICONTROL Offers]** in het scherm E-mailinhoud.
+1. Klik op de knop **[!UICONTROL Set up offers]** van het scherm voor de editie van de inhoud van de levering.
 
    ![](assets/setup-offers.png)
 
-1. Vorm welke aanbiedingen aan de ontvangers zouden moeten worden voorgesteld. Selecteer eerst de **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving.
+1. Vorm welke aanbiedingen aan de ontvangers zouden moeten worden voorgesteld.
+
+   Selecteer eerst de **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving. Leer hoe u een aanbiedingsruimte maakt in het dialoogvenster [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
 
    ![](assets/create-content-offers.png)
 
-1. Selecteer een specifieke **[!UICONTROL Offer category]** waarin de aanbiedingen worden gesorteerd. Wanneer u een map selecteert, worden alle submappen automatisch opgenomen en kunnen deze niet worden verwijderd. De interface weerspiegelt dit gedrag niet.
+1. Selecteer een specifieke **[!UICONTROL Offer category]** waarin de aanbiedingen worden gesorteerd.
 
-   Als er geen categorie is opgegeven, houdt de Offertenmotor rekening met alle aanbiedingen in de omgeving, tenzij een **[!UICONTROL Offer theme]** is geselecteerd.
+   Wanneer u een map selecteert, worden alle submappen automatisch opgenomen en kunnen deze niet worden verwijderd. De [!DNL Campaign] interface weerspiegelt dit gedrag niet.
+
+   >[!NOTE]
+   >
+   >Als er geen categorie is opgegeven, houdt de Offertenmotor rekening met alle aanbiedingen in de omgeving, tenzij een **[!UICONTROL Offer theme]** is geselecteerd.
 
 1. (optioneel) Voer een thema in om categorieën te filteren. Thema&#39;s zijn sleutelwoorden die stroomopwaarts in de categorieën worden gedefinieerd. Ze fungeren als een filter en u kunt het aantal voorstellen dat moet worden gepresenteerd, verfijnen door ze in een set categorieën te selecteren.
 
-1. Gebruik de **[!UICONTROL Propositions]** veld voor het aantal voorstellen dat u in de e-mail wilt invoegen.
+1. Gebruik de **[!UICONTROL Propositions]** veld om het aantal voorstellen op te geven dat u in de levering wilt invoegen.
 
 1. Selecteer **[!UICONTROL Exclude non-eligible recipients]** indien nodig.
 
@@ -63,27 +69,40 @@ De stappen voor het verzenden van voorstellen met een e-mail zijn als volgt:
    * Als de optie is ingeschakeld, wordt de representatie van het ontbrekende voorstel niet weergegeven en wordt er geen inhoud weergegeven in het bericht voor dit voorstel.
    * Als de optie is uitgeschakeld, wordt het bericht zelf geannuleerd tijdens het verzenden en kunnen ontvangers geen berichten meer ontvangen.
 
-Nadat u de voorstellen hebt geconfigureerd voor voorstellen in uw e-mail, kunt u deze invoegen in de e-mail met de Expressieeditor. [Leer hoe u aanbiedingen in de e-mail invoegt](#insert)
+Zodra u de aanbiedingen hebt gevormd om in uw levering voor te stellen, kunt u hen in de leveringsinhoud opnemen gebruikend de Redacteur van de Uitdrukking.
 
-## Aanbiedingen in de e-mail invoegen {#insert}
+## Aanbiedingen in de levering invoegen {#insert}
 
-Aanbiedingen kunnen in de e-mail worden toegevoegd met de Expressieeditor. Zij kunnen worden ingevoegd:
+Aanbiedingen kunnen in de levering worden toegevoegd met de [Expressieeditor](../personalization/gs-personalization.md#access). Zij kunnen in de onderwerpregel of in het leveringsorgaan worden ingevoegd.
 
-* In de onderwerpregel van de e-mail:
-* In de e-mailhoofdtekst door personalisatie toe te staan in een inhoudscomponent. [Leer hoe u inhoudscomponenten kunt toevoegen](content-components.md)
-
->[!NOTE]
+>[!CAUTION]
 >
->Voordat u een voorstel invoegt, moet u controleren of u [geconfigureerd voor voorstellen via e-mail](#configure).
+>Voordat u een voorstel in een levering invoegt, moet u ervoor zorgen dat u [geconfigureerd voor voorstellen met die levering](#configure).
 
-Voer de volgende stappen uit om een aanbieding in te voegen met de Expressieeditor:
+Volg onderstaande stappen om een aanbieding in te voegen met de Expressieeditor.
 
-1. Open de Expressieeditor en selecteer vervolgens de **[!UICONTROL Propositions]** -menu.
+1. Open de onderwerpregel of de inhoud van een levering.
 
-   De beschikbare voorstellingen worden in de lijst weergegeven. Het aantal voorstellen wordt bepaald wanneer het vormen van de aanbiedingen om voor te stellen.
+1. Plaats de cursor van de muis op de plaats waar u de aanbieding wilt invoegen en open de Expressieeditor met behulp van het verpersoonlijkingspictogram.
+
+1. Selecteer **[!UICONTROL Propositions]** -menu. De beschikbare voorstellingen worden in de lijst weergegeven.
+
+   >[!NOTE]
+   >
+   >Het aantal voorstellen wordt gedefinieerd wanneer [aanbiedingen instellen](#configure) voor de huidige levering.
 
    ![](assets/offer-insertion.png)
 
-1. Voeg de voorstellen in het e-mailonderwerp of de tekst toe met behulp van de verpersoonlijkingsgebieden, renderfuncties of kenmerken die beschikbaar zijn voor elk voorstel.
+1. Voeg de voorstellen in de levering onderwerpregel of het lichaam toe gebruikend de verpersoonlijkingsgebieden, die functies teruggeven of kenmerken aanbieden beschikbaar voor elk voorstel.
 
    ![](assets/offer-inserted.png)
+
+   >[!NOTE]
+   >
+   >Het aantal beschikbare voorstellen hangt van de manier af de motorvraag wordt gevormd en hun orde hangt van de prioriteit van aanbiedingen af.
+
+1. Sla uw wijzigingen op.
+
+1. Voltooi de inhoud, test en verzend uw levering.
+
+Wanneer een ontvanger de levering ontvangt, wordt de juiste aanbieding getoond aan dat specifieke profiel.

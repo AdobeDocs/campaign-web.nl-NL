@@ -5,7 +5,7 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 304956e6de9f4f092e994c168f075f3555f53b38
+source-git-commit: 34bed4f276fd0eeb54ad23ddd02e833a0547f707
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 11%
@@ -47,7 +47,6 @@ ht-degree: 11%
             + [Verticale uitlijning en opvulling aanpassen](content/alignment-and-padding.md)
             + [Een stijl voor koppelingen definiëren](content/styling-links.md)
             + [Inline-opmaakkenmerken toevoegen](content/inline-styling.md)
-         + [Aanbiedingen verzenden](content/offers.md)
       + E-mail verzenden en controleren {#monitor}
          + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
          + [Leveringslogboeken controleren](monitor/delivery-logs.md)
@@ -67,6 +66,7 @@ ht-degree: 11%
       + [Aanpassing toevoegen](personalization/personalize.md)
       + [Voorwaardelijke inhoud toevoegen](personalization/conditions.md)
       + [Ingebouwde inhoudsblokken toevoegen](personalization/content-blocks.md)
+   + [Aanbiedingen verzenden](content/offers.md)
    + Voorbeeld en test de levering {#preview-test}
       + [Voorvertonen en testen](preview-test/preview-test.md)
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
