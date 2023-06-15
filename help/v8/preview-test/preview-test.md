@@ -4,9 +4,9 @@ title: Informatie over e-mailvoorvertoning en testen
 description: Leer hoe u e-mailberichten kunt bekijken en testen
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Alpha"
-source-git-commit: 861a16500b5faf947dd1545976f3c4bbe6548467
+source-git-commit: 6edc22b574e3a655774a8ecb5e8e6c0fab5c89c8
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,8 @@ ht-degree: 0%
 >id="acw_deliveries_simulate"
 >title="Berichten voorvertonen en testen"
 >abstract="Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/preview-content.html?lang=en" text="Voorbeeld van de inhoud van de levering bekijken"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/preview-test/proofs.html?lang=en" text="Testberichten verzenden"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Voorbeeld van de inhoud van de levering bekijken"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-test.html" text="Testberichten verzenden"
 
 Nadat u de inhoud van de levering hebt gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen en te testen voordat u het bericht verzendt.
 
