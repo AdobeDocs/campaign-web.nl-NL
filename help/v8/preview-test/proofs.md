@@ -4,9 +4,9 @@ title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 27ea0847bfeee3d99347e0dafa5d0f8eb92446b1
+source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '836'
 ht-degree: 1%
 
 ---
@@ -49,13 +49,9 @@ Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaand
 
    ![](assets/simulate-test-button-email.png)
 
-1. Gebruik de **[!UICONTROL Mode]** vervolgkeuzelijst om het type ontvangers te kiezen die de test-e-mail of SMS-levering ontvangen:
+1. Van de **[!UICONTROL Mode]** vervolgkeuzelijst kiest u **Testprofielen** om fictieve ontvangers te richten die de test e-mail of levering van SMS zullen ontvangen.
 
-   * **Testprofielen** om fictieve ontvangers te richten
-
-   Als u al profielen hebt geselecteerd voor [voorvertoning van het bericht](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testontvangers. U kunt uw selectie wissen en/of extra ontvangers toevoegen met de opdracht **[!UICONTROL Add test profile(s)]** knop.
-
-   * **Vervangen van hoofddoel** om een test naar een specifiek e-mailadres of telefoonnummer te verzenden terwijl de gegevens van een bestaand profiel worden weergegeven. [Meer informatie](#substitution-profiles)
+1. Als u al profielen hebt geselecteerd voor [voorvertoning van het bericht](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testontvangers. U kunt uw selectie wissen en/of extra ontvangers toevoegen met de opdracht **[!UICONTROL Add test profile(s)]** knop.
 
    ![](assets/simulate-profile-mode.png)
 
@@ -69,9 +65,21 @@ Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaand
 
 ### Vervangende profielen {#substitution-profiles}
 
-Gebruik vervangingsprofielen als u een test-e-mail of -SMS naar een specifiek e-mailadres of telefoonnummer wilt verzenden terwijl gegevens uit een bestaand profiel van de Campagne-database worden weergegeven.
+Een test-e-mail of -SMS verzenden naar een specifiek e-mailadres of telefoonnummer terwijl gegevens uit een bestaand profiel van het deelvenster [!DNL Campaign] database, gebruik vervangende profielen.
 
-Hiervoor zijn de eerste stappen hetzelfde als bij het selecteren [testprofielen](#test-profiles), maar kies **[!UICONTROL Substitute from target]** en voert u de onderstaande stappen uit.
+1. Alvorens een test te verzenden, zorg ervoor u een publiek voor u levering bepaalt. [Meer informatie](../audience/about-audiences.md)
+
+1. Blader naar het scherm Inhoud bewerken van uw e-mail- of SMS-verzending en klik vervolgens op de knop **[!UICONTROL Simulate content]** knop.
+
+1. Klik op de knop **[!UICONTROL Test]**.
+
+   >[!NOTE]
+   >
+   >Als u al profielen hebt geselecteerd voor [voorvertoning van uw levering](preview-content.md), worden deze weergegeven in het linkervenster.
+
+   ![](assets/simulate-test-button-email.png)
+
+1. Van de **[!UICONTROL Mode]** vervolgkeuzelijst kiest u **Vervangen van hoofddoel** om een test naar een specifiek e-mailadres of telefoonnummer te verzenden terwijl de gegevens van een bestaand profiel worden weergegeven.
 
 1. Klik op de knop **[!UICONTROL Add address]** en geeft u het e-mailadres of telefoonnummer op dat de testlevering ontvangt.
 
