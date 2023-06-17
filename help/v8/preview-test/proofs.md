@@ -4,9 +4,9 @@ title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: b4598f8c1574330bc14b3f100d4ab66190353843
+source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '839'
 ht-degree: 1%
 
 ---
@@ -49,11 +49,11 @@ Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaand
 
    ![](assets/simulate-test-button-email.png)
 
-1. Van de **[!UICONTROL Mode]** vervolgkeuzelijst kiest u **Testprofielen** om fictieve ontvangers te richten die de test e-mail of levering van SMS zullen ontvangen.
-
-1. Als u al profielen hebt geselecteerd voor [voorvertoning van het bericht](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testontvangers. U kunt uw selectie wissen en/of extra ontvangers toevoegen met de opdracht **[!UICONTROL Add test profile(s)]** knop.
+1. Van de **[!UICONTROL Mode]** vervolgkeuzelijst kiest u **[!UICONTROL Test profiles]** om fictieve ontvangers te richten die de test e-mail of levering van SMS zullen ontvangen.
 
    ![](assets/simulate-profile-mode.png)
+
+1. Als u al profielen hebt geselecteerd voor [voorvertoning van het bericht](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testontvangers. U kunt uw selectie wissen en/of extra ontvangers toevoegen met de opdracht **[!UICONTROL Add test profile(s)]** knop.
 
    >[!NOTE]
    >
@@ -73,17 +73,21 @@ Een test-e-mail of -SMS verzenden naar een specifiek e-mailadres of telefoonnumm
 
 1. Klik op de knop **[!UICONTROL Test]**.
 
-   >[!NOTE]
-   >
-   >Als u al profielen hebt geselecteerd voor [voorvertoning van uw levering](preview-content.md), worden deze weergegeven in het linkervenster.
-
    ![](assets/simulate-test-button-email.png)
 
-1. Van de **[!UICONTROL Mode]** vervolgkeuzelijst kiest u **Vervangen van hoofddoel** om een test naar een specifiek e-mailadres of telefoonnummer te verzenden terwijl de gegevens van een bestaand profiel worden weergegeven.
+1. Van de **[!UICONTROL Mode]** vervolgkeuzelijst kiest u **[!UICONTROL Substitute from main target]** om een test naar een specifiek e-mailadres of telefoonnummer te verzenden terwijl de gegevens van een bestaand profiel worden weergegeven.
+
+   >[!CAUTION]
+   >
+   >Als u geen [publiek](../audience/about-audiences.md) voor uw levering **[!UICONTROL Substitute from main target]** Deze optie wordt grijs weergegeven en u kunt geen vervangingsprofielen selecteren.
 
 1. Klik op de knop **[!UICONTROL Add address]** en geeft u het e-mailadres of telefoonnummer op dat de testlevering ontvangt.
 
-   U kunt elk e-mailadres of telefoonnummer invoeren. Hierdoor kunt u testleveringen naar alle ontvangers verzenden, zelfs als deze geen gebruikers van [!DNL Adobe Campaign].
+   ![](assets/simulate-add-substitution-address.png)
+
+   >[!NOTE]
+   >
+   >U kunt elk e-mailadres of telefoonnummer invoeren. Hierdoor kunt u testleveringen naar alle ontvangers verzenden, zelfs als deze geen gebruikers van [!DNL Adobe Campaign].
 
 1. Selecteer het profiel in de database dat u als vervanging wilt gebruiken. U kunt ook [!DNL Adobe Campaign] Selecteer een willekeurig profiel. De profielgegevens van het geselecteerde profiel worden in de testlevering weergegeven.
 
@@ -105,7 +109,9 @@ Als u werkt met pushberichten, kunnen testleveringen alleen naar abonnees worden
 
    ![](assets/simulate-test-button-push.png)
 
-1. Als u al abonnees hebt geselecteerd op [voorvertoning van levering](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testabonnees. U kunt uw selectie wissen en/of extra abonnees toevoegen met behulp van de toegewezen knop.
+1. Als u al abonnees hebt geselecteerd op [voorvertoning van levering](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testabonnees.
+
+   U kunt uw selectie wissen en/of extra abonnees toevoegen met behulp van de toegewezen knop.
 
    ![](assets/simulate-test-subscribers.png)
 
