@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1318'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,7 @@ Raadpleeg voor meer informatie over de campagnedeskundige, maphiërarchie en bro
 >title="Campagnes"
 >abstract="Dit is de lijst van uw campagnes. U kunt nuttige informatie zoals hun begin/eind/laatste wijzigingsdata, evenals hun status bekijken. U kunt de lijst filteren op status of begin-/einddatum. Klik op de knop &#39;Campagne maken&#39; om een nieuwe campagne toe te voegen. Selecteer een campagne om de inhoud, leveringen en details ervan weer te geven. Blader naar het tabblad &#39;Sjablonen&#39; om sjablonen weer te geven en te maken."
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_list"
->title="Leveringen"
->abstract="Blader door de lijst met leveringen. U kunt hun status, contact en wijzigingsdata, zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op de knop Levering maken om een nieuwe levering toe te voegen. Selecteer een levering om de inhoud, het publiek en de details ervan weer te geven."
+
 
 In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, leveringen en workflows.
 
@@ -196,15 +193,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Metrische fouten"
 >abstract="Aantal e-mails met de foutstatus."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_option_test_target"
->title="Testpopulatie"
->abstract="Selecteer een testpopulatiemodus."
 
->[!CONTEXTUALHELP]
->id="acw_email_preview_mode"
->title="Voorvertoningsmodus"
->abstract="Geef een voorvertoning van het bericht weer en test het bericht door de testpopulatie op te nemen in het hoofddoel."
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"

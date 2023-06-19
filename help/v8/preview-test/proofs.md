@@ -4,14 +4,19 @@ title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0e06e5aa066b7b8fd49352dee4b5f85d0fb6e1ce
+source-git-commit: 7c9388d5a406779f91180835e39e6dd2408d8a90
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '862'
 ht-degree: 1%
 
 ---
 
 # Testleveringen verzenden {#send-test-deliveries}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_mode"
+>title="Voorvertoningsmodus"
+>abstract="Geef een voorvertoning van het bericht weer en test het bericht door de testpopulatie op te nemen in het hoofddoel."
 
 **[!UICONTROL Adobe Campaign]** Hiermee kunt u een bericht testen voordat u het naar het hoofdpubliek stuurt.
 
@@ -20,6 +25,15 @@ Het verzenden van testleveringen is een belangrijke stap in het valideren van uw
 De ontvangers van een test kunnen diverse elementen controleren zoals verbindingen, opt-out verbindingen, beelden, of spiegelpagina&#39;s, evenals om het even welke fouten in het teruggeven, de inhoud, verpersoonlijkingsmontages en leveringsconfiguratie ontdekken.
 
 ## Selecteer de testontvangers {#test-recipients}
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_preview_option_test_target"
+>title="Testpopulatie"
+>abstract="Selecteer een testpopulatiemodus."
+
+
 
 Afhankelijk van het kanaal dat u gebruikt, kunnen testberichten naar drie soorten ontvangers worden verzonden:
 
@@ -38,6 +52,7 @@ Afhankelijk van het kanaal dat u gebruikt, kunnen testberichten naar drie soorte
 Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaande stappen op basis van het type profielen dat u wilt gebruiken.
 
 ### Test profiles {#test-profiles}
+
 
 1. Blader naar het scherm Inhoud bewerken van uw e-mail- of SMS-verzending en klik vervolgens op de knop **[!UICONTROL Simulate content]** knop.
 
