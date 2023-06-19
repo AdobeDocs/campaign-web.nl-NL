@@ -5,10 +5,10 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 11%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 0%
    + [Een controlegroep instellen](audience/control-group.md)
 + Kanaaloverschrijdende campagnes {#campaigns}
    + [Aan de slag met campagnes](campaigns/gs-campaigns.md)
-   + [Uw campagnes beheren](campaigns/manage-campaigns.md)
+   + [Campagnes openen en beheren](campaigns/manage-campaigns.md)
    + [Uw eerste campagne maken](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Aan de slag met workflows](workflows/gs-workflows.md)

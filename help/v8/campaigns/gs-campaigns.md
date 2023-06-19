@@ -4,9 +4,9 @@ title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Alpha"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Met Adobe Campaign kunt u uw gerichte marketinginitiatieven eenvoudig ordenen me
 
 Door veelvoudige werkschema&#39;s en leveranties toe te voegen specifiek voor de campagne, kunt u gepersonaliseerde ervaringen over diverse kanalen tot stand brengen, ervoor zorgen dat elk aanraakpunt met het voorgenomen publiek resoneert.
 
-De campagnes bieden specifieke rapporteringsmetriek aan om uitvoerige inzichten in de prestaties van uw volledige campagne te bereiken, toelatend u om zijn doeltreffendheid te beoordelen, tendensen te identificeren, en gegeven-gedreven besluiten te nemen om toekomstige inspanningen te optimaliseren.
+De campagnes bieden specifieke rapporteringsmetriek aan om uitvoerige inzichten in de prestaties van uw volledige campagne te bereiken, toelatend u om zijn doeltreffendheid te beoordelen, tendensen te identificeren, en gegeven-gedreven besluiten te nemen om toekomstige inspanningen te optimaliseren. Ontdek hoe u campagnerapporten kunt openen en begrijpen in [deze sectie](../reporting/campaign-reports.md).
 
 ![Campagnestroom](assets/campaign-flow.png)
 
-Raadpleeg de volgende secties:
+Leer in de volgende secties campagnes te maken en te beheren:
 
 * [Toegang tot en beheer uw campagnes](manage-campaigns.md)
 * [Uw eerste campagne maken](create-campaigns.md)

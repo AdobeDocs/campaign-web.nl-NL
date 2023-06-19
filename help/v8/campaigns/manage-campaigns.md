@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Alpha"
-source-git-commit: f8d3e227d99387cc82b8db2ab602cd58404ee7ee
+source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '422'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Toegang tot en beheer uw campagnes{#manage-campaigns}
 
-Als u een nieuwe campagne wilt maken of bestaande campagnes wilt beheren, klikt u op de knop **[!UICONTROL Campaigns]** -menu.
+Als u een nieuwe campagne wilt maken of bestaande campagnes wilt beheren, klikt u op de knop **[!UICONTROL Campaigns]** op de linkernavigatie.
 
 ## De campagnemelijst{#access-campaigns}
 
@@ -25,9 +25,9 @@ In de lijst met campagnes zijn twee tabbladen beschikbaar:
 
 ![Lijst met campagnes](assets/campaign-list.png)
 
-Elke campagne in de lijst bevat informatie over de huidige status, de aanmaakdatum, de laatste keer dat de campagne is gewijzigd, enzovoort.
+Standaard geeft elke campagne in de lijst informatie weer over de huidige status, de aanmaakdatum, de laatste keer dat de campagne is gewijzigd, enzovoort.
 
-U kunt de weergegeven kolommen aanpassen door op de knop **Kolom voor een aangepaste indeling configureren** in de rechterbovenhoek van de lijst. Op deze manier kunt u aanvullende informatie aan de lijst toevoegen. Bovendien zijn er een zoekbalk en filters beschikbaar waarmee u gemakkelijk in de lijst kunt zoeken. [Meer informatie](../get-started/user-interface.md#list-screens)
+U kunt de weergegeven kolommen aanpassen door op de knop **Kolom voor een aangepaste indeling configureren** in de rechterbovenhoek van de lijst. Op deze manier kunt u aanvullende informatie aan de lijst toevoegen. Bovendien zijn er een zoekbalk en filters beschikbaar waarmee u gemakkelijk in de lijst kunt zoeken. [Meer informatie](../get-started/user-interface.md#list-screens).
 
 U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het filterdeelvenster en gebruik de **Begin - Einddatum** sectie:
 
@@ -45,7 +45,7 @@ Er zijn twee tabbladen beschikbaar:
 
 * De **Workflows** worden alle workflows weergegeven die aan de campagne zijn gekoppeld. Op dit tabblad kunt u ook een nieuwe workflow in de campagne maken. Zie dit [sectie](create-campaigns.md#create-campaigns).
 
-* De **Leveringen** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld. U kunt ook een nieuwe levering maken in de campagne. Zie dit [sectie](create-campaigns.md#create-campaigns).
+* De **Leveringen** worden alle leveringen weergegeven die aan de huidige campagne zijn gekoppeld. U kunt ook een nieuwe levering maken in de campagne. Zie dit [sectie](create-campaigns.md#create-campaigns).
 
 ## Een campagne dupliceren en verwijderen
 
