@@ -4,10 +4,10 @@ title: Voorvertoning van leveringsinhoud
 description: Leer hoe u een voorvertoning van uw inhoud voor levering kunt weergeven via de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '317'
+ht-degree: 2%
 
 ---
 
@@ -55,8 +55,8 @@ Volg onderstaande stappen om een voorvertoning van de inhoud van uw levering wee
 1. Voor e-mailleveringen kunt u de **[!UICONTROL Zoom level]** en bekijk een voorvertoning van uw inhoud op het bureaublad of mobiele apparaat met behulp van het toegewezen pictogram in de rechterbovenhoek.
 
 1. Van de **[!UICONTROL Simulate]** scherm kunt u ook:
-   * Verstuur testleveringen naar specifieke ontvangers voor validatie - [Meer informatie](proofs.md)
-   * Open de logboeken van de verzonden testleveringen - [Meer informatie](proofs.md#access-proofs)
+   * Verstuur testleveringen naar specifieke ontvangers voor validatie - [Meer informatie](test-deliveries.md)
+   * Open de logboeken van de verzonden testleveringen - [Meer informatie](test-deliveries.md#access-proofs)
    * Alleen voor e-mail: controleer de weergave van berichtinhoud in populaire e-mailclients - [Meer informatie](email-rendering.md)
 
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Een pushmelding verzenden
 description: Meer informatie over het verzenden van pushberichten via Adobe Campaign Web
 badge: label="Alpha"
-source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -39,7 +39,7 @@ U kunt nu uw pushmelding bekijken en verzenden naar uw publiek.
 Gebruiken **Adobe Campaign**, kunt u pushmeldingen testen voordat u ze naar het hoofdpubliek stuurt. Deze stap is belangrijk voor het valideren van uw levering en het identificeren van eventuele problemen.
 De ontvangers van de test kunnen elementen zoals verbindingen, beelden, en verpersoonlijkingsmontages herzien, die optimale prestaties verzekeren en om het even welke fouten ontdekken. Met dit proces kunt u uw pushmeldingen verfijnen en optimaliseren voordat u het grote publiek bereikt.
 
-![](../assets/do-not-localize/book.png) Leer hoe u pushmeldingen voor tests verzendt in [deze sectie](../preview-test/proofs.md#subscribers).
+![](../assets/do-not-localize/book.png) Leer hoe u pushmeldingen voor tests verzendt in [deze sectie](../preview-test/test-deliveries.md#subscribers).
 
 ![](assets/push_send_6.png)
 

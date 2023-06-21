@@ -3,7 +3,7 @@ audience: end-user
 title: Verzend een SMS-levering
 description: Meer informatie over het verzenden van SMS via Adobe Campaign Web
 badge: label="Alpha"
-source-git-commit: c24b53ee17e81805f0717682202d2d4154c96c1e
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Met **Adobe Campaign**, kunt u een bericht testen voordat u het naar het hoofdpu
 
 Het verzenden van testSMS is een belangrijke stap in het verzekeren van de kwaliteit en de doeltreffendheid van uw levering. De ontvangers van de test kunnen diverse elementen zoals verbindingen, opt-out verbindingen en beelden herzien, evenals om het even welke fouten in het teruggeven, inhoud, verpersoonlijkingsmontages, en de configuratie van SMS identificeren. Dit proces helpt u uw SMS grondig evalueren en optimaliseren alvorens uw belangrijkste publiek te bereiken.
 
-![](../assets/do-not-localize/book.png) Leer hoe je SMS-test verzendt in [deze sectie](../preview-test/proofs.md).
+![](../assets/do-not-localize/book.png) Leer hoe je SMS-test verzendt in [deze sectie](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png)
 

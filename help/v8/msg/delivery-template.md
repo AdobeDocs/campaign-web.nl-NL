@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 8d026a247ffe9a3568f589403e82562c51b44a49
+source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 3%
@@ -150,7 +150,6 @@ Voer de onderstaande stappen uit om een volledig nieuwe leveringssjabloon te con
    > * [Push-meldingskanaal](../push/gs-push.md)
    > * [Sms-kanaal](../sms/create-sms.md)
 
-
 1. Klik op de knop **[!UICONTROL Review]** om de sjabloon op te slaan en te bekijken. U kunt nog steeds alle instellingen bewerken, verwijderen en dupliceren.
 
 1. Test indien nodig de rendering van de sjabloon. [Meer informatie](#test-template)
@@ -171,7 +170,7 @@ U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul 
 
 1. Schakel tussen de verschillende profielen om een persoonlijke weergave van het bericht te krijgen op basis van het geselecteerde profiel.
 
-   <!--[Learn moreon test profiles](../preview-test/proofs.md#recipients)-->
+   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    U kunt ook het zoomniveau aanpassen en de weergave voor bureaublad of mobiel kiezen.
 
