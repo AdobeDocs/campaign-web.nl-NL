@@ -4,9 +4,9 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Bovendien zijn al uw gegevens en montages reeds beschikbaar in de cliëntconsole
 Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoemd om zich aan de recentste terminologienormen te richten. Deze veranderingen zijn slechts op het Web UI van de Campagne van toepassing en niet weerspiegeld in de cliëntconsole. Deze worden hieronder samengevat.
 
 * Proefdrukken zijn nu **E-mailberichten testen**: als u een bewijs wilt verzenden, gebruikt u de **Testen** in de gebruikersinterface voor e-maillevering. Het doel van de proefdrukken wordt nu aangeduid als **Testprofielen**
-* Zaadadressen worden nu gebruikt als **Testprofielen**: stuur de test-e-mail naar zaadadressen, die extra en fictieve ontvangers in het gegevensbestand zijn
+* Zaadadressen worden nu gebruikt als **Testprofielen**: Stuur de test-e-mail naar zaadadressen, die extra ontvangers in het gegevensbestand zijn
 * De leveringsanalyse is nu de **voorbereiding van levering**. Wanneer u de analyse wilt starten, klikt u op de knop **Voorbereiden** knop
 * E-mailvoorvertoning is nu beschikbaar via **Inhoud simuleren** knop
 * Lijsten zijn nu **Soorten publiek**
