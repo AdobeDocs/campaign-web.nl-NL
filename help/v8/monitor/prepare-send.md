@@ -4,71 +4,71 @@ title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 4%
+source-wordcount: '795'
+ht-degree: 1%
 
 ---
 
 
 # Uw e-mail voorbereiden en verzenden {#prepare-send}
 
+## De verzending voorbereiden {#prepare}
 
-<!--
+Wanneer u uw [content](../content/edit-content.md), [publiek](../audience/add-audience.md) en uw planning, bent u bereid om uw e-maillevering voor te bereiden.
 
-	show how to prepare and send the email + the live kpis in the dashboard
-
-like acc when preparation, target calculated then send
-real time KPIs, not in AJO. similar to ACS.
-exclusion logs, causes
--->
-
-<!--
-send also KPIs
--->
-
-## De verzending voorbereiden{#prepare}
-
-Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw bericht voor te bereiden. Tijdens de voorbereiding, wordt de doelbevolking berekend en de berichtinhoud geproduceerd voor elk profiel inbegrepen in het doel. Zodra de voorbereiding is voltooid, zijn de berichten klaar om te worden verzonden, of onmiddellijk of op de geplande datum en tijd.
+Tijdens de voorbereiding, wordt de doelbevolking berekend en de berichtinhoud geproduceerd voor elk profiel inbegrepen in het doel. Zodra de voorbereiding is voltooid, zijn de berichten klaar om te worden verzonden, of onmiddellijk of op de geplande datum en tijd.
 
 De validatieregels die worden gebruikt tijdens de voorbereiding van de levering worden beschreven in de [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
-Volg de onderstaande stappen:
+De belangrijkste stappen voor het voorbereiden van de verzending worden hieronder vermeld.
 
-1. Klik op het bezorgdashboard op de knop **Voorbereiden** in de rechterbovenhoek en bevestig.
+1. Van het leveringsdashboard, klik **[!UICONTROL Review and send]**.
 
-   ![](assets/prepare.png)
+   ![](assets/email-review-and-send.png)
 
-   De voortgang van de voorbereiding wordt weergegeven. Afhankelijk van de omvang van de doelpopulatie kan deze operatie enige tijd in beslag nemen.
+
+1. Klik op de knop **[!UICONTROL Prepare]** in de rechterbovenhoek en bevestig.
+
+   ![](assets/email-prepare.png)
 
    >[!NOTE]
    >
-   >U kunt de bereiding op elk gewenst moment stoppen met de **Voorbereiding stoppen** knop. Tijdens de voorbereidingsfase worden geen berichten verzonden. U kunt dit daarom starten of stoppen zonder het risico te lopen iets te beïnvloeden.
+   >Als u de levering hebt gepland en de optie **[!UICONTROL Enable confirmation before sending]** , worden de voorbereidings- en verzendingsstappen gegroepeerd onder de **[!UICONTROL Prepare and send]** knop. [Meer informatie over plannen](../email/create-email.md#schedule)
+
+1. De voortgang van de voorbereiding wordt weergegeven. Afhankelijk van de omvang van de doelpopulatie kan deze operatie enige tijd in beslag nemen.
+
+   U kunt de bereiding op elk gewenst moment stoppen met de **[!UICONTROL Stop preparation]** knop.
+
+   ![](assets/email-stop-preparation.png)
+
+   >[!NOTE]
+   >Tijdens de voorbereidingsfase worden geen berichten verzonden. U kunt dit daarom starten of stoppen zonder het risico te lopen iets te beïnvloeden.
 
 1. Controleer de PKI&#39;s wanneer de bereiding is voltooid. Als het aantal berichten dat u wilt verzenden niet overeenkomt met uw verwachtingen, wijzigt u het publiek en start u de voorbereiding opnieuw.
 
-   ![](assets/prepare2.png)
+   ![](assets/email-preparation-complete.png)
 
    Hier worden de verschillende KPI&#39;s weergegeven:
 
-   * **Gericht**: het aantal doelgroepen
-   * **Om te leveren**: het aantal berichten dat wordt verzonden
-   * **Uitsluiten**: het aantal berichten dat door een typologieregel is uitgesloten
+   * **[!UICONTROL Targeted]**: het aantal doelgroepen.
+   * **[!UICONTROL To deliver]**: het aantal berichten dat wordt verzonden.
+   * **[!UICONTROL To exclude]**: het aantal berichten dat door een [typologieregel](../advanced-settings/delivery-settings.md#typology).
 
-1. Klik op de knop **Logboeken** en controleert u of er geen fout optreedt. In het laatste logbericht worden foutberichten en het aantal fouten weergegeven. Zie [deze sectie](delivery-logs.md) voor meer informatie.
+1. Klik op de knop **[!UICONTROL Logs]** en controleert u of er geen fout optreedt. In het laatste logbericht worden foutberichten en het aantal fouten weergegeven. [Meer informatie](delivery-logs.md)
 
-   ![](assets/prepare-logs.png)
+   ![](assets/email-prepare-logs.png)
 
-Als in het preparaat een kritieke fout wordt aangetroffen waardoor de levering niet kan worden verzonden, wordt de status van het preparaat in het leveringsdashboard weergegeven als mislukt.
+1. Als in het preparaat een kritieke fout wordt aangetroffen waardoor de levering niet kan worden verzonden, wordt de status van het preparaat in het leveringsdashboard weergegeven als mislukt.
 
-![](assets/prepare-error.png)
+   ![](assets/email-prepare-error.png)
 
-Als u na de bereiding wijzigingen in uw aflevering moet aanbrengen, moet u de voorbereiding opnieuw starten om met deze wijzigingen rekening te houden.
+1. Als u na de bereiding wijzigingen aanbrengt in uw aflevering, moet u de voorbereiding opnieuw starten om met deze wijzigingen rekening te houden.
 
-Zodra de voorbereiding zonder fout volledig is, is uw bericht klaar om te worden verzonden. Zie [deze sectie](#send) voor meer informatie.
+Zodra de voorbereiding zonder fout volledig is, is uw bericht klaar om te worden verzonden.
 
-## Bericht verzenden{#send}
+## Bericht verzenden {#send}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_delivered"
@@ -85,27 +85,66 @@ Zodra de voorbereiding zonder fout volledig is, is uw bericht klaar om te worden
 >title="Klikken"
 >abstract="Het aantal ontvangers dat ten minste één keer in de e-mail heeft geklikt. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is de verhouding van het aantal verschillende kliks in vergelijking met het aantal geleverde berichten."
 
+Wanneer de [voorbereiding](#prepare) is voltooid, kunt u uw e-mail nu verzenden.
 
-Zodra de voorbereiding volledig is, kunt u uw bericht nu verzenden. Deze stap is alleen vereist voor berichten die direct worden verzonden. Als het bericht gepland is, wordt het verzonden op de bepaalde datum.
+Als het bericht gepland is, zal het op de bepaalde datum en de tijd worden verzonden. [Meer informatie](#schedule-the-send)
 
-Voer de volgende stappen uit:
+### Direct verzenden {#send-immediately}
 
-1. Klik op het bezorgdashboard op de knop **Verzenden** in de rechterbovenhoek en bevestigen.
+Voer de onderstaande stappen uit als u direct een e-mail wilt verzenden.
 
-   ![](assets/send.png)
+1. Klik op het bezorgdashboard op de knop **[!UICONTROL Send]** in de rechterbovenhoek.
 
-1. De verzendvoortgang wordt weergegeven. Controleer de getoonde KPIs. U kunt ook de logbestanden controleren. Zie [deze sectie](delivery-logs.md) voor meer informatie.
+   ![](assets/email-send.png)
 
-   ![](assets/send2.png)
+1. Bevestig deze actie om het bericht aan het belangrijkste doel onmiddellijk te verzenden.
 
-   Hier worden de verschillende KPI&#39;s weergegeven:
+1. De verzendvoortgang wordt weergegeven.
 
-   * **Geleverd**: het aantal berichten dat is afgeleverd. Het getoonde percentage is gebaseerd op het totale aantal verzonden berichten.
-   * **Openen**: het aantal geopende berichten. Het getoonde percentage is de verhouding van het aantal verschillende opent in vergelijking met het aantal geleverde berichten.
-   * **Klikken**: het aantal ontvangers dat ten minste één keer in de e-mail heeft geklikt. Het getoonde percentage is de verhouding van het aantal verschillende kliks in vergelijking met het aantal geleverde berichten.
+### Plan de verzending {#schedule-the-send}
+
+Voer de onderstaande stappen uit als u uw e-mail op een latere datum en tijd wilt verzenden.
+
+1. Voordat u op de knop **[!UICONTROL Review and send]** controleert u of u een schema voor uw e-mail hebt gedefinieerd. [Meer informatie](../email/create-email.md#schedule)
+
+1. Klik op het bezorgdashboard op de knop **[!UICONTROL Send as scheduled button]** in de rechterbovenhoek.
+
+   ![](assets/email-send-as-scheduled.png)
+
+1. Klik op **[!UICONTROL Confirm sending]**. De levering zal op de geplande datum aan het belangrijkste doel worden verzonden.
 
    >[!NOTE]
    >
-   >Alle indicatoren worden elke 5 minuten na de start van de levering bijgewerkt. De indicatoren voor de voorbereiding van de levering zijn realtime.
+   >Als u de optie **[!UICONTROL Enable confirmation before sending]** , worden de voorbereidings- en verzendingsstappen gegroepeerd onder de **[!UICONTROL Prepare and send]** knop. [Meer informatie over plannen](../email/create-email.md#schedule)
 
-   U kunt het verzenden op elk ogenblik pauzeren en dan hervatten. Als u de levering beëindigt terwijl het wordt verzonden, kunt u niet hervatten.
+## De verzending onderbreken of stoppen {#pause-stop-sending}
+
+Of uw levering gepland of niet is, kunnen twee acties op elk ogenblik tijdens het verzendende proces worden uitgevoerd:
+
+* Klikken **[!UICONTROL Pause sending]** om het verzenden van de berichten te onderbreken. U kunt het verzenden op elk gewenst moment hervatten.
+
+* Klikken **[!UICONTROL Stop sending]** om het verzenden onmiddellijk te onderbreken. Na stopzetting kan noch de bereiding noch de verzending worden hervat.
+
+![](assets/email-send-pause-or-stop.png)
+
+## De KPI&#39;s controleren {#check-kpis}
+
+Zodra verzenden volledig is, kunt u getoonde KPIs controleren:
+
+![](assets/email-send-kpis.png)
+
+* **[!UICONTROL Sent]**: het aantal geleverde berichten. Het getoonde percentage is gebaseerd op het totale aantal te leveren berichten.
+
+* **[!UICONTROL Delivered]**: het aantal berichten dat is afgeleverd. Het getoonde percentage is gebaseerd op het totale aantal verzonden berichten.
+
+* **[!UICONTROL Opens]**: het aantal geopende berichten. Het getoonde percentage is het aantal verschillende opent in vergelijking met het aantal geleverde berichten.
+
+* **[!UICONTROL Clicks]**: het aantal ontvangers dat ten minste één keer in de e-mail heeft geklikt. Het getoonde percentage is het aantal verschillende kliks in vergelijking met het aantal geleverde berichten.
+
+* **[!UICONTROL Errors]**: het aantal e-mailberichten met de foutstatus. Het getoonde percentage is gebaseerd op het totale aantal verzonden berichten.
+
+>[!NOTE]
+>
+>Alle indicatoren worden elke 5 minuten na de start van de levering bijgewerkt. De indicatoren voor de voorbereiding van de levering zijn realtime.
+
+U kunt ook de logbestanden controleren. [Meer informatie](delivery-logs.md)
