@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -34,10 +34,8 @@ Ga als volgt te werk om een inhoudsblok toe te voegen aan een levering:
 
 Ingebouwde inhoudsblokken zijn:
 
-* **[!UICONTROL Approval of Purl personalization]**
 * **[!UICONTROL Default opt-out banner]**
 * **[!UICONTROL Enabled by Adobe Campaign]**: voegt het logo &quot;Enabled by Adobe Campaign&quot; in.
-* **[!UICONTROL Facebook pre-entering]**
 * **[!UICONTROL Formatting function for proper nouns]**: genereert de **[!UICONTROL toSmartCase]** De functie Javascript, die de eerste letter van elk woord in hoofdletters verandert.
 * **[!UICONTROL Greetings]**: voegt begroetingen met de volledige naam van de ontvanger in, gevolgd door een komma. Voorbeeld: &quot;Hallo JanDoe,&quot;.
 * **[!UICONTROL Insert Logo]**: voegt een logo in dat in de instantie-instellingen is gedefinieerd.

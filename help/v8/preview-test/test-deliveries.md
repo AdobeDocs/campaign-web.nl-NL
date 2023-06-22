@@ -4,9 +4,9 @@ title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '873'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaand
 
 Een test-e-mail of -SMS verzenden naar een specifiek e-mailadres of telefoonnummer terwijl gegevens uit een bestaand profiel van het deelvenster [!DNL Campaign] database, gebruik vervangende profielen.
 
-1. Alvorens een test te verzenden, zorg ervoor u een publiek voor u levering bepaalt. [Meer informatie](../audience/about-audiences.md)
+1. Alvorens een test te verzenden, zorg ervoor u een doelpubliek voor u levering bepaalt. [Meer informatie](../audience/about-audiences.md)
 
 1. Blader naar het scherm Inhoud bewerken van uw e-mail- of SMS-verzending en klik vervolgens op de knop **[!UICONTROL Simulate content]** knop.
 
@@ -104,7 +104,7 @@ Een test-e-mail of -SMS verzenden naar een specifiek e-mailadres of telefoonnumm
    >
    >U kunt elk e-mailadres of telefoonnummer invoeren. Hierdoor kunt u testleveringen naar alle ontvangers verzenden, zelfs als deze geen gebruikers van [!DNL Adobe Campaign].
 
-1. Selecteer het profiel in de database dat u als vervanging wilt gebruiken. U kunt ook [!DNL Adobe Campaign] Selecteer een willekeurig profiel. De profielgegevens van het geselecteerde profiel worden in de testlevering weergegeven.
+1. Selecteer het profiel in het doel dat u voor de levering hebt gedefinieerd om als vervangend profiel te gebruiken. U kunt ook [!DNL Adobe Campaign] Selecteer een willekeurig profiel in het doel. De profielgegevens van het geselecteerde profiel worden in de testlevering weergegeven.
 
 1. Bevestig de ontvanger en herhaal de bewerking om zoveel e-mailadressen of telefoonnummers toe te voegen als nodig is.
 

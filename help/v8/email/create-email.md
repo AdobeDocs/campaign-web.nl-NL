@@ -4,10 +4,10 @@ title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1272'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,6 @@ ht-degree: 0%
 >id="acw_homepage_card2"
 >title="Aan de slag met e-mails"
 >abstract="Begin met een sjabloon of gebruik de nieuwe e-mailontwerper van Adobe Campaign om e-mails te maken zonder dat u één regel code hoeft te schrijven. Leer hoe u met de e-mailontwerper uw inhoud kunt maken, deze kunt voorvertonen en testen en een e-mail naar een bestaand publiek kunt sturen in een gebruiksscenario van begin tot eind."
-
 
 Leer hoe u uw eerste e-mailadres maakt waarvoor u een e-mail wilt schrijven. In dit geval plant u het verzenden van een e-mail naar leden van Silver en Gold-loyaliteit op een bepaalde datum.
 
@@ -93,12 +92,6 @@ In dit geval gebruikt u een vooraf gedefinieerde e-mail [leveringssjabloon](../m
 
    ![](assets/select-template.png)
 
-   <!--1. Select the HTML or ZIP file to import then click **[!UICONTROL Next]**.
-
-    If your folder contains assets, choose the instance and folder where they should be stored then click **[!UICONTROL Import]**. (+ link to doc on assets?)
-
-    ![](assets/import-folder.png)-->
-
 1. Nadat u de sjabloon hebt geselecteerd, wordt deze weergegeven in het dialoogvenster [E-mailontwerper](../content/create-email-content.md), waar u eventueel noodzakelijke bewerkingen kunt uitvoeren en personalisatie kunt toevoegen.
 
    Als u bijvoorbeeld personalisatie wilt toevoegen aan de e-mailtitel, selecteert u het componentblok en klikt u op **[!UICONTROL Add Personalization]**.
@@ -169,9 +162,8 @@ Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in
 
    ![](assets/preview.png)
 
-   <!-- !NOTE
-    >
-    >Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering-->
+   <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
+    -->
 
 1. Als u testversies van uw e-mail wilt verzenden, klikt u op de knop **[!UICONTROL Test]** kiest u vervolgens de gewenste modus.
 
