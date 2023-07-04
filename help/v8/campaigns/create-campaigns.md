@@ -4,9 +4,9 @@ title: Campagnes maken met Adobe Campaign Web
 description: Meer informatie over het maken van kanaalcampagnes met Adobe Campaign Web
 badge: label="Alpha"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 5dec05aeffa1268ec3d9b371f4ea91f830247a4f
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,11 @@ ht-degree: 1%
 Om een nieuwe campagne te creëren, moet u zijn eigenschappen, programma bepalen en werkschema&#39;s en leveringen omvatten.
 
 ## Maak de campagne{#campaign-create}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Campagne"
+>abstract="Geef uw campagneschema op tijdens het maken van de campagne."
 
 Voer de volgende stappen uit om een nieuwe campagne te maken:
 
@@ -59,7 +64,7 @@ U kunt de toegewezen rapporten ook weergeven door op de knop **Rapporten** knop.
 
 
 <!--
-	+++WORKF
+    +++WORKF
 ++screen
 ## Create a cross-channel campaign {#cross-channel-campaign}
 

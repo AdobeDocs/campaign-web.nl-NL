@@ -3,15 +3,20 @@ audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Alpha"
-source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
+source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '430'
 ht-degree: 1%
 
 ---
 
 
 # Toegang tot en beheer uw campagnes{#manage-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_schedule"
+>title="Campagne"
+>abstract="Plaats of wijzig uw campagneprogramma."
 
 Als u een nieuwe campagne wilt maken of bestaande campagnes wilt beheren, klikt u op de knop **[!UICONTROL Campaigns]** op de linkernavigatie.
 
