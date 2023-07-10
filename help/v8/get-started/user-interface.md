@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alpha"
-source-git-commit: 99e66a77c3451a4a43fa3e29f080191b2b51c074
+source-git-commit: 4a3591d917aedd028666eca99b8cf1c4aeb45e8f
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -297,7 +297,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Fouten in KPI"
 
 
-
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Werkstroomlijst"
+>abstract="Lijst met workflows die beschikbaar zijn voor uw campagne. Met de knop &#39;Workflow maken&#39; kunt u een workflow toevoegen aan uw campagne."
 
 <!-- delivery template settings-->
 
