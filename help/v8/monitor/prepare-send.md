@@ -3,10 +3,10 @@ audience: end-user
 title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Alpha"
-source-git-commit: d1a56f48e1b4253bad053745a3771a9527816d6b
+badge: label="Alfa"
+source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '826'
 ht-degree: 1%
 
 ---
@@ -128,6 +128,16 @@ Of uw levering gepland of niet is, kunnen twee acties op elk ogenblik tijdens he
 ![](assets/email-send-pause-or-stop.png)
 
 ## De KPI&#39;s controleren {#check-kpis}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_sent"
+>title="Verzonden cijfers"
+>abstract="Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_errors"
+>title="Metrische fouten"
+>abstract="Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd."
 
 Zodra verzenden volledig is, kunt u getoonde KPIs controleren:
 
