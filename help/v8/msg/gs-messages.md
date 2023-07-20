@@ -2,11 +2,11 @@
 audience: end-user
 title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe te met leveringen te werken en berichten met het Web van de Campagne te verzenden
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 22134d69721796f43bab74ccf411300d411a5d90
+source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1085'
 ht-degree: 2%
 
 ---
@@ -133,7 +133,7 @@ U kunt de inhoud van het bericht aanpassen door:
 
 * Maken **voorwaardelijke inhoud**
 
-  Configureer voorwaardelijke inhoud om bijvoorbeeld dynamische personalisatie toe te voegen op basis van het profiel van de ontvanger. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is. [Meer informatie](../personalization/conditions.md)
+  Vorm voorwaardelijke inhoud om dynamische verpersoonlijking toe te voegen die op het profiel van de ontvanger bijvoorbeeld wordt gebaseerd. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is. [Meer informatie](../personalization/conditions.md)
 
 * Toevoegen **persoonlijke aanbiedingen**
 

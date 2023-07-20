@@ -2,10 +2,10 @@
 audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '429'
 ht-degree: 1%
 
 ---

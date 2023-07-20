@@ -4,7 +4,7 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
+source-git-commit: 23104c91c01575ad393ef3702819ad2dc6a5fe23
 workflow-type: tm+mt
 source-wordcount: '1530'
 ht-degree: 0%
