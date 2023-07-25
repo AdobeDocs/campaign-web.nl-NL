@@ -2,11 +2,11 @@
 audience: end-user
 title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: b66afeedbfcb342102c833899756afc35de9d504
+source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '316'
 ht-degree: 5%
 
 ---
@@ -31,6 +31,7 @@ Deze activiteiten zijn specifiek gericht op het richten, manipuleren en verrijke
 * De [publiek opbouwen](build-audience.md) Met activiteit kunt u de doelpopulatie definiëren. U kunt of een bestaand publiek selecteren of de regelbouwer gebruiken om uw eigen vraag te bepalen.
 * De [Combineren](combine.md) activiteit staat toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
 * De [Verrijking](enrichment.md) Met activiteiten kunt u aanvullende gegevens definiëren die in uw workflow moeten worden verwerkt. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
+* De [Splitsen](split.md) de activiteit staat u toe om inkomende bevolking in verscheidene subsets te segmenteren.
 
 ## Kanaalactiviteiten {#channel}
 
