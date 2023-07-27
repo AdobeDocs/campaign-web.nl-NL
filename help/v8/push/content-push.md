@@ -3,9 +3,9 @@ audience: end-user
 title: Een levering met pushberichten ontwerpen
 description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
 badge: label="Alfa"
-source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
+source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1256'
 ht-degree: 1%
 
 ---
@@ -70,6 +70,13 @@ In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar
 >[!ENDTABS]
 
 ## Geavanceerde instellingen voor pushmeldingen {#push-advanced}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings"
+>title="Geavanceerde instellingen voor pushberichten"
+>abstract="Definieer geavanceerde instellingen voor uw pushmelding, zoals de prioriteit, het aantal meldingen dat eraan is gekoppeld, toepassingsvariabelen en meer."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
