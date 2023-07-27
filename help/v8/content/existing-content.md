@@ -3,15 +3,21 @@ audience: end-user
 title: Uw e-mailinhoud importeren
 description: Leer hoe u e-mailinhoud importeert
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-badge: label="Alpha"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+badge: label="Alfa"
+source-git-commit: 01f6becfdfbdbb071f4ddc275d9b0907e42143ce
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '168'
 ht-degree: 1%
 
 ---
 
 # Uw e-mailinhoud importeren {#existing-content}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_import_content"
+>title="Bestaande e-mailinhoud gebruiken"
+>abstract="Met de e-mailontwerper kunt u bestaande HTML-inhoud importeren. Deze inhoud kan bestaan uit een HTML-bestand met een ingebouwde stijlpagina of uit een ZIP-map met het HTML-bestand, de stijlpagina (.css) en afbeeldingen."
 
 Met de e-mailontwerper kunt u bestaande HTML-inhoud importeren. Deze inhoud kan:
 
@@ -24,7 +30,7 @@ Met de e-mailontwerper kunt u bestaande HTML-inhoud importeren. Deze inhoud kan:
 
 Voer de volgende stappen uit om een bestand met HTML-inhoud te importeren:
 
-1. Op de [E-mailontwerper](get-started-email-designer.md) homepage, selecteren **[!UICONTROL Import HTML]**.
+1. Op de [E-mailDesigner](get-started-email-designer.md) homepage, selecteren **[!UICONTROL Import HTML]**.
 
    ![](assets/html-import.png)
 
