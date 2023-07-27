@@ -2,11 +2,11 @@
 audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
 source-git-commit: d73deb59ef6b4b4833da42b62515c474ba154f2c
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Kanaaloverschrijdende campagnes ontwerpen en verzenden"
->abstract="De mogelijkheden van Adobe Campaign helpen u gecentraliseerde klantengegevens beheren, klantenmededelingen en campagnes ontwerpen, en persoonlijke ervaringen over verschillende kanalen creëren: E-mail, push en SMS."
+>abstract="De mogelijkheden van Adobe Campaign helpen u gecentraliseerde klantengegevens beheren, klantenmededelingen en campagnes ontwerpen, en persoonlijke ervaringen over verschillende kanalen tot stand brengen: E-mail, Duw en SMS."
 
 Met Adobe Campaign kunt u uw gerichte marketinginitiatieven eenvoudig ordenen met behulp van de ingebouwde mogelijkheden voor campagnemanagement. Met de mogelijkheid om een planning te definiëren, kunt u de duur en het tijdstip van uw campagnes zodanig plannen dat deze in overeenstemming zijn met strategische doelstellingen en de betrokkenheid van het publiek maximaliseren.
 

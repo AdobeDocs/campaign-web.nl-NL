@@ -3,10 +3,10 @@ audience: end-user
 title: E-mails ontwerpen in de e-mailontwerper
 description: Leer hoe u uw e-mailinhoud helemaal zelf ontwerpt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Structuren toevoegen"
->abstract="Structuren bepalen de lay-out van het fragment. Sleep een **Structuur** op het canvas om de fragmentinhoud te ontwerpen."
+>abstract="Structuren bepalen de lay-out van het fragment. Sleep een **Structuur** op het canvas om uw fragmentinhoud te ontwerpen."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -58,7 +58,7 @@ Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. 
 
 Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
-1. Van de [E-mailontwerper](get-started-email-designer.md#start-authoring) homepage, selecteer **[!UICONTROL Design from scratch]** optie.
+1. Van de [E-mailDesigner](get-started-email-designer.md#start-authoring) homepage, selecteer **[!UICONTROL Design from scratch]** -optie.
 
    ![](assets/email_designer-from-scratch.png)
 
@@ -78,7 +78,7 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
    >
    >Elke kolomgrootte mag niet kleiner zijn dan 10% van de totale breedte van de structuurcomponent. U kunt geen kolom verwijderen die niet leeg is.
 
-1. Van de **[!UICONTROL Components]** kunt u zoveel elementen naar een of meer structuren slepen en neerzetten als u nodig hebt. [Meer informatie over inhoudscomponenten](content-components.md)
+1. Van de **[!UICONTROL Components]** kunt u zoveel elementen naar een of meer structuren slepen. [Meer informatie over inhoudscomponenten](content-components.md)
 
 1. Elke component kan verder worden aangepast met de **[!UICONTROL Settings]** of **[!UICONTROL Style]** aan de rechterkant. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
 

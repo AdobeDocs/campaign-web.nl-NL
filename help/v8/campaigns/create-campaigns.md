@@ -36,7 +36,7 @@ Om een nieuwe campagne te creëren, moet u zijn eigenschappen, programma bepalen
 Voer de volgende stappen uit om een nieuwe campagne te maken:
 
 1. Klik op de knop **[!UICONTROL Campaigns]** en klikt u op de knop **[!UICONTROL Create campaign]** knop.
-1. Selecteer **Sjabloon** een label voor de campagne te gebruiken en te verstrekken. De malplaatjes van de campagne zijn pre-gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole.
+1. Selecteer de **Sjabloon** een label voor de campagne te gebruiken en te verstrekken. De malplaatjes van de campagne zijn pre-gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole.
    [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 1. Indien nodig kunt u het volgende wijzigen **Aanvullende opties**: interne naam, map, ontvanger, beschrijving en aard.
 1. Definieer de **Schema** van uw campagne. De campagne begint wanneer de begindatum is bereikt. Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt. Zie dit [sectie](manage-campaigns.md#access-campaigns).
@@ -57,7 +57,7 @@ Voer de volgende stappen uit om een nieuwe campagne te maken:
 
 ## Uw campagne volgen{#campaign-monitoring}
 
-Campagne-controle is een belangrijke stap om de doeltreffendheid van uw campagne te analyseren. Open uw campagne en klik op de knop **Logboeken** knop.
+Campagne-controle is een belangrijke stap om de doeltreffendheid van uw campagne te analyseren. Open uw campagne en klik op **Logboeken** knop.
 
 U kunt de toegewezen rapporten ook weergeven door op de knop **Rapporten** knop. Zie dit [sectie](../reporting/campaign-reports.md).
 

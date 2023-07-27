@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 23104c91c01575ad393ef3702819ad2dc6a5fe23
+source-git-commit: d98c7d9edce5971e01ec983f0d1d3e0a55004c1b
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1541'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Toegang krijgen tot de Help-pagina&#39;s voor Campagne v8 Web **Leren** van de s
 >title="Verkenner"
 >abstract="De **Verkenner** worden alle Campagne-componenten en -objecten met dezelfde mappenhiërarchie als de component in de clientconsole weergegeven. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8 en maak leveringen, workflows en campagnes. Alle andere lijsten zijn alleen-lezen."
 
-De **Verkenner** worden alle campagnebronnen en -objecten met dezelfde maphiërarchie als de map in de clientconsole weergegeven. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8 en maak leveringen, workflows en campagnes. Alle andere lijsten zijn alleen-lezen.
+De **Verkenner** worden alle campagnebronnen en -objecten met dezelfde mappenhiërarchie als de map in de clientconsole weergegeven. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8 en maak leveringen, workflows en campagnes. Alle andere lijsten zijn alleen-lezen.
 
 De items die in de Verkenner worden weergegeven, zijn afhankelijk van uw gebruikersmachtigingen.
 
@@ -60,7 +60,7 @@ Raadpleeg voor meer informatie over de campagnedeskundige, maphiërarchie en bro
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campagnes"
->abstract="Dit is de lijst van uw campagnes. U kunt nuttige informatie zoals hun begin/eind/laatste wijzigingsdata, evenals hun status bekijken. U kunt de lijst filteren op status of begin-/einddatum. Klik op de knop &#39;Campagne maken&#39; om een nieuwe campagne toe te voegen. Selecteer een campagne om de inhoud, leveringen en details ervan weer te geven. Blader naar het tabblad &#39;Sjablonen&#39; om sjablonen weer te geven en te maken."
+>abstract="Dit is de lijst van uw campagnes. U kunt nuttige informatie zoals hun begin/eind/laatste wijzigingsdata, evenals hun status bekijken. U kunt de lijst filteren op status of begin-/einddatum. Klik op de knop Campagne maken om een nieuwe campagne toe te voegen. Selecteer een campagne om de inhoud, leveringen en details ervan weer te geven. Blader naar het tabblad &#39;Sjablonen&#39; om sjablonen weer te geven en te maken."
 
 
 
@@ -128,7 +128,7 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 
 ## Contextuele hulp {#contextual-help}
 
-De interface bevat een contextafhankelijke Help. Klik op de knop `?` pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
+De interface bevat een contextafhankelijke Help. Klik, indien beschikbaar, op de knop `?` pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
 
 ![](assets/context-help.png){width="40%" align="left"}
 
@@ -198,7 +198,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
->title="Rapportage bijhouden"
+>title="Reeksspatiëring rapporteren"
 >abstract="Raadpleeg de traceringsindicatoren voor de campagnerapportage."
 
 >[!CONTEXTUALHELP]
@@ -218,7 +218,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Deduplicatievelden"
+>title="Oplossingvelden"
 >abstract="TBD"
 
 >[!CONTEXTUALHELP]
@@ -280,12 +280,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Werkstroomlijst"
->abstract="Lijst met workflows die beschikbaar zijn voor uw campagne. Met de knop &#39;Workflow maken&#39; kunt u een workflow toevoegen aan uw campagne."
+>abstract="Lijst met workflows beschikbaar voor uw campagne. Gebruik de knop &#39;Workflow maken&#39; om een workflow toe te voegen aan uw campagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_saveaudience_outbound"
 >title="Uitgaande overgang voor publiek opslaan"
 >abstract="tbc"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_activity"
+>title="Een publiek opslaan"
+>abstract="Gebruik deze activiteit om het werkschemapubliek te bewaren."
 
 
 <!-- delivery template settings-->
@@ -298,12 +303,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_delivery_duration"
 >title="Leveringsduur"
->abstract="In het veld Leveringsduur kunt u de limiet voor algemene leveringspogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, regelmatig, configureerbare herpogingen worden uitgevoerd tot de geldigheidsgrens wordt bereikt."
+>abstract="In het veld Leveringsduur kunt u de limiet voor algemene leveringpogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, regelmatig, configureerbare herpogingen worden uitgevoerd tot de geldigheidsgrens wordt bereikt."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_resources_validity"
 >title="Geldigheidslimiet voor bronnen"
->abstract="Het veld Geldigheidslimiet wordt gebruikt voor geüploade bronnen, zoals de spiegelpagina of afbeeldingen. Deze bronnen gelden voor een beperkte tijd: zodra de limiet is bereikt , zijn de middelen niet meer beschikbaar ."
+>abstract="Het veld Geldigheidslimiet wordt gebruikt voor geüploade bronnen, zoals de spiegelpagina of afbeeldingen. Deze bronnen gelden voor een beperkte periode: wanneer de limiet is bereikt, zijn er geen bronnen meer beschikbaar."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_approval"

@@ -2,11 +2,11 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Alfa"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '794'
 ht-degree: 2%
 
 ---
@@ -33,10 +33,10 @@ De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk 
 * **[!UICONTROL Label]**: Het label van de workflow die in de lijst wordt weergegeven.
 * **[!UICONTROL Name]**: De interne naam van de workflow.
 * **[!UICONTROL Folder]**: De map waarin de workflow moet worden opgeslagen.
-* **[!UICONTROL Linked campaign]**: Dit gebied toont als het werkschema binnen een campagne is gecreeerd. Hiermee kunt u de bijbehorende campagne openen.
+* **[!UICONTROL Linked campaign]**: Dit veld wordt weergegeven als de workflow in een campagne is gemaakt. Hiermee kunt u de bijbehorende campagne openen.
 * **[!UICONTROL Timezone]**: Definieer een specifieke tijdzone die standaard moet worden gebruikt in alle activiteiten van de workflow. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
-* **[!UICONTROL Supervisor(s)]**: Wanneer een workflow een fout bevat, worden de operatoren die tot de groep voor workflowtoezicht behoren, via e-mail op de hoogte gebracht, zolang hun e-mailadres in hun profiel wordt vermeld.
-* **[!UICONTROL Description]**: Gebruik dit veld om een beschrijving van uw workflow te geven.
+* **[!UICONTROL Supervisor(s)]**: Als een workflow een fout bevat, worden de operatoren die tot de groep voor workflowtoezicht behoren, via e-mail op de hoogte gebracht, zolang hun e-mailadres in hun profiel wordt vermeld.
+* **[!UICONTROL Description]**: Gebruik dit veld om een beschrijving van de workflow te geven.
 
 ## Segmenteringsinstellingen
 
@@ -45,7 +45,7 @@ De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk 
 >title="Segmenteringsinstellingen"
 >abstract="In deze sectie kunt u de doeldimensie selecteren voor doelprofielen in de workflow en ervoor kiezen om de werkstroomresultaten tussen twee uitvoeringen te houden. Deze optie mag alleen voor testdoeleinden worden gebruikt en mag nooit in een productiewerkstroom worden ingeschakeld."
 
-* **[!UICONTROL Targeting dimension]**: Selecteer de doeldimensie die u wilt gebruiken voor de doelprofielen: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz.
+* **[!UICONTROL Targeting dimension]**: Selecteer de doeldimensie die u wilt gebruiken voor doelprofielen: ontvangers, begunstigden van contracten, exploitant, abonnees, enz.
 * **[!UICONTROL Keep the result of interim populations between two executions]**: Standaard blijven alleen de werktabellen van de laatste uitvoering van de workflow behouden. De werklijsten van vorige uitvoeringen worden gezuiverd door een technische werkschema, die op een dagelijkse basis loopt.
 
   Als deze optie is ingeschakeld, worden werktabellen ook bewaard nadat de workflow is uitgevoerd. U kunt het voor testdoeleinden gebruiken en moet daarom alleen worden gebruikt in ontwikkelings- of testomgevingen. Deze mag nooit in een productiewerkstroom worden gecontroleerd.
@@ -55,9 +55,9 @@ De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
 >title="Instellingen voor uitvoering"
->abstract="In deze sectie kunt u instellingen configureren die betrekking hebben op de uitvoering van de workflow, zoals het aantal dagen dat de werkstroomgeschiedenis wordt bewaard."
+>abstract="In deze sectie kunt u instellingen configureren die betrekking hebben op de uitvoering van de workflow, zoals het aantal dagen dat de werkstroomgeschiedenis wordt bijgehouden."
 
-* **[!UICONTROL History in days]**: Hier geeft u het aantal dagen op waarna de historie moet worden gewist. De geschiedenis bevat elementen die gerelateerd zijn aan de workflow: logbestanden, taken, gebeurtenissen (technische objecten die zijn gekoppeld aan de workflowbewerking). De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box. De geschiedenis wordt gewist door de technische workflow voor het opschonen van databases, die standaard dagelijks wordt uitgevoerd
+* **[!UICONTROL History in days]**: Geeft het aantal dagen aan waarna de historie moet worden gewist. De geschiedenis bevat elementen die verwant zijn aan de workflow: logboeken, taken, gebeurtenissen (technische objecten die zijn gekoppeld aan de workflowbewerking). De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box. De geschiedenis wordt gewist door de technische workflow voor het opschonen van databases, die standaard dagelijks wordt uitgevoerd
 
   >[!IMPORTANT]
   >
@@ -65,18 +65,18 @@ De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk 
 
 * **[!UICONTROL Default affinity]**: Als uw installatie meerdere workflowservers bevat, gebruikt u dit veld om de computer te kiezen waarop de workflow wordt uitgevoerd. Als de waarde die in dit veld wordt gedefinieerd, op geen enkele server bestaat, blijft de workflow in behandeling.
 
-* **[!UICONTROL Save SQL queries in log]**: Hiermee kunt u de SQL-query&#39;s uit de workflow opslaan in de logbestanden. Deze functionaliteit is gereserveerd voor geavanceerde gebruikers. Het is van toepassing op werkstromen die gericht activiteiten zoals bevatten **[!UICONTROL Build audience]**. Als deze optie is ingeschakeld, worden de SQL-query&#39;s die tijdens de uitvoering van de workflow naar de database worden verzonden, weergegeven in de logbestanden van de workflow, zodat u ze kunt analyseren om query&#39;s te optimaliseren of problemen op te sporen.
+* **[!UICONTROL Save SQL queries in log]**: hiermee kunt u de SQL-query&#39;s uit de workflow opslaan in de logbestanden. Deze functionaliteit is gereserveerd voor geavanceerde gebruikers. Het is van toepassing op werkstromen die gericht activiteiten zoals bevatten **[!UICONTROL Build audience]**. Als deze optie is ingeschakeld, worden de SQL-query&#39;s die tijdens de uitvoering van de workflow naar de database worden verzonden, weergegeven in de logbestanden van de workflow, zodat u ze kunt analyseren om query&#39;s te optimaliseren of problemen op te sporen.
 
 ## Instellingen voor foutbeheer
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Instellingen voor foutbeheer"
->abstract="In deze sectie kunt u beheren hoe de workflow moet werken wanneer een fout optreedt tijdens de uitvoering (het pauzeren/stoppen of negeren van fouten)."
+>abstract="In deze sectie kunt u beheren hoe de workflow moet werken wanneer een fout optreedt tijdens de uitvoering (de uitvoering pauzeren/stoppen of fouten negeren)."
 
-* **[!UICONTROL Error management]**: In dit veld kunt u de acties definiëren die moeten worden uitgevoerd als een workflowtaak fouten bevat. Er zijn twee mogelijke opties:
+* **[!UICONTROL Error management]**: In dit veld kunt u de handelingen definiëren die moeten worden uitgevoerd als een werkstroomtaak fouten bevat. Er zijn twee mogelijke opties:
 
-   * **[!UICONTROL Suspend the process]**: De werkstroom wordt automatisch onderbroken en de status wordt gewijzigd in **[!UICONTROL Failed]**. Als het probleem is opgelost, hervat u de workflow met de **[!UICONTROL Resume]** knoppen.
+   * **[!UICONTROL Suspend the process]**: De workflow wordt automatisch gepauzeerd en de status verandert in **[!UICONTROL Failed]**. Als het probleem is opgelost, hervat u de workflow met de **[!UICONTROL Resume]** knoppen.
    * **[!UICONTROL Ignore]**: De status van de taak die de fout heeft veroorzaakt, verandert in **[!UICONTROL Failed]**, maar de workflow houdt de **[!UICONTROL Started]** status. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
    * **[!UICONTROL Abord the process]**: De workflow wordt automatisch beëindigd en de status ervan verandert in **[!UICONTROL Failed]**. Als het probleem is opgelost, start u de workflow opnieuw met de **[!UICONTROL Start]** knoppen.
 

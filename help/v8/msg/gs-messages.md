@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Aan de slag met berichten en leveringen in Campagne v8 Web
-description: Leer hoe te met leveringen te werken en berichten met het Web van de Campagne te verzenden
+description: Leer hoe u met leveringen werkt en berichten verzendt met Campagne Web
 badge: label="Alfa"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
 source-git-commit: eaa45c6801ddcc5f4cdc3ec944a61b348ab57603
@@ -16,14 +16,14 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Leveringen"
->abstract="Blader door de lijst met leveringen. U kunt hun status, contact en wijzigingsdata, zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op de knop Levering maken om een nieuwe levering toe te voegen. Selecteer een levering om de inhoud, het publiek en de details ervan weer te geven."
+>abstract="Blader door de lijst met leveringen. U kunt hun status, contact en wijzigingsdata, zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op Levering maken om een nieuwe levering toe te voegen. Selecteer een levering om de inhoud, het publiek en de details ervan weer te geven."
 
 
 Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mailberichten, SMS-berichten en pushmeldingen, en de doeltreffendheid ervan meten aan de hand van verschillende speciale rapporten.
 
 Deze berichten worden ontworpen en verzonden door leveringen, en kunnen voor elke ontvanger worden gepersonaliseerd. Deze leveringen kunnen op zichzelf staan of in de context van een marketingcampagne worden opgenomen.
 
-Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen: E-mail-, SMS- en mobiele apps.
+Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen: e-mail-, sms- en mobiele apps.
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
@@ -85,7 +85,7 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
 1. (optioneel) Bepaal het leveringsschema. Als geen programma wordt bepaald, worden de berichten verzonden onmiddellijk na het klikken van **[!UICONTROL Send]** knop.
 1. Klik op de knop  **[!UICONTROL Review and send]** om uw instellingen te controleren.
 1. Gebruik de  **[!UICONTROL Simulate content]** om uw levering, en verpersoonlijkingsmontages te testen. Meer informatie over berichtsimulatie vindt u in [deze sectie](../preview-test/preview-test.md).
-1. Klik op de knop  **[!UICONTROL Prepare]** om de doelpopulatie te berekenen en de berichten te genereren. De voorbereidingsstap kan een paar minuten duren. Wanneer de voorbereiding volledig is, zijn de berichten klaar om te verzenden. Blader in het geval van een fout naar de **Logboeken** om waarschuwingen en waarschuwingen te controleren.
+1. Klik op de knop  **[!UICONTROL Prepare]** om de doelpopulatie te berekenen en de berichten te genereren. De voorbereidingsstap kan een paar minuten duren. Wanneer de voorbereiding volledig is, zijn de berichten klaar om te verzenden. Blader bij een fout naar de **Logboeken** om waarschuwingen en waarschuwingen te controleren.
 1. Controleer de resultaten en klik op de knop  **[!UICONTROL Send]** om te beginnen met het verzenden van berichten.
 1. Blader naar de **Rapporten** voor toegang tot belangrijke metriek. Meer informatie over leveringsrapporten vindt u in [deze sectie](../reporting/delivery-reports.md).
 
@@ -101,10 +101,10 @@ Voer de volgende stappen uit om een levering in een campagne te maken:
 
    De **[!UICONTROL Build audience]** activiteit wordt nader omschreven in [deze sectie](../workflows/activities/build-audience.md).
 
-1. Selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van het leveringskanaal in een workflow en hoe u in deze [sectie](../workflows/activities/about-activities.md#channel).
+1. Selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van het leveringskanaal in een workflow en over het definiëren van inhoud voor levering in deze [sectie](../workflows/activities/about-activities.md#channel).
 1. Start de workflow en controleer logbestanden.
 
-U kunt ook leveringen in een campagne toevoegen zonder een workflow te maken. Om dit te bereiken, doorblader aan **[!UICONTROL Deliveries]** tabblad van uw campagne en klik op de knop **[!UICONTROL Create delivery]** knop.
+U kunt ook leveringen in een campagne toevoegen zonder een workflow te maken. Om dit te bereiken, doorblader aan **[!UICONTROL Deliveries]** tabblad van uw campagne en klik op **[!UICONTROL Create delivery]** knop.
 
 ![](assets/new-campaign-delivery.png)
 
@@ -117,7 +117,7 @@ Voor meer informatie over hoe te om een campagne te vormen en leveringen te behe
 
 ## Aanpassing toevoegen{#personalization}
 
-Berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. [Meer informatie over personalisatiemogelijkheden](../personalization/gs-personalization.md).
+Berichten van Adobe Campaign kunnen op verschillende manieren worden gepersonaliseerd. [Meer informatie over personalisatiemogelijkheden](../personalization/gs-personalization.md).
 
 Met Campagne kunt u dynamische inhoud maken en persoonlijke berichten verzenden. U kunt aanpassingsmogelijkheden combineren om uw berichten te verbeteren en een aangepaste gebruikerservaring te creëren.
 
@@ -125,7 +125,7 @@ U kunt de inhoud van het bericht aanpassen door:
 
 * Dynamisch invoegen **personalisatievelden**
 
-  De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering, kunt u om het even welk gebied selecteren met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. [Meer informatie](../personalization/personalize.md)
+  De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering kunt u elk veld selecteren dat betrekking heeft op de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. [Meer informatie](../personalization/personalize.md)
 
 * Vooraf gedefinieerde invoegen **inhoudsblokken**
 
@@ -140,7 +140,7 @@ U kunt de inhoud van het bericht aanpassen door:
   Voeg persoonlijke aanbiedingen in uw berichtinhoud in, afhankelijk van de locatie van de ontvanger, het huidige weer of de laatste kooporder.
 
 
-## Bekijk uw leveringen en test deze
+## Geef een voorvertoning van uw leveringen weer en test deze
 
 Nadat de inhoud van uw bericht is gedefinieerd, kunt u deze voorvertonen om de weergave van uw berichten te bepalen en de instellingen voor de personalisatie te controleren met testprofielen. [Meer informatie](../preview-test/preview-test.md)
 
@@ -161,11 +161,11 @@ Voer de volgende stappen uit om een levering te dupliceren uit de lijst met leve
 
 1. Klik op de drie puntenknop rechts naast de naam van de levering die u wilt dupliceren.
 1. Selecteer  **[!UICONTROL Duplicate]**.
-1. Herhaling bevestigen: het nieuwe leveringsdashboard opent in het centrale scherm.
+1. Herhaling bevestigen: het nieuwe bezorgdashboard wordt in het centrale scherm geopend.
 
 Voer de volgende stappen uit om een levering te dupliceren vanaf het dashboard:
 
-1. Open de levering en klik op de knop  **[!UICONTROL ...More]** op de bovenste sectie van het scherm.
+1. Open de levering en klik op  **[!UICONTROL ...More]** op de bovenste sectie van het scherm.
 1. Selecteer **[!UICONTROL Duplicate]**.
 1. Herhaling bevestigen: de nieuwe levering vervangt de huidige levering in het centrale scherm.
 

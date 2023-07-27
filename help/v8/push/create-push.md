@@ -2,10 +2,10 @@
 audience: end-user
 title: Een pushmelding maken
 description: Leer hoe u een pushmelding maakt met Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: 4f7cedc4197a983d4d13294744e30836a0263d3a
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 4%
 
 ---
@@ -24,12 +24,12 @@ ht-degree: 4%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
->title="Eigenschappen voor punaise"
+>title="Eigenschappen van push-levering"
 >abstract="Beheer de eigenschappen voor de levering van de push."
 
 1. Van de **[!UICONTROL Deliveries]** homepage, klik **[!UICONTROL Create delivery]**.
 
-1. Onder de **[!UICONTROL Channel]** kiest u Push-melding als het kanaal en selecteert u een sjabloon afhankelijk van het gekozen besturingssysteem: Android of iOS. [Meer informatie over sjablonen](../msg/delivery-template.md)
+1. Onder de **[!UICONTROL Channel]** kiest u pushmelding als het kanaal en selecteert u een sjabloon afhankelijk van het gekozen besturingssysteem: Android of iOS. [Meer informatie over sjablonen](../msg/delivery-template.md)
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 
@@ -40,7 +40,7 @@ ht-degree: 4%
    +++Configureer de volgende instellingen op basis van uw vereisten.
    * **[!UICONTROL Internal name]**: Wijs een unieke id toe aan de levering.
    * **[!UICONTROL Folder]**: Sla de levering op in een specifieke map.
-   * **[!UICONTROL Delivery code]**: Organiseer uw leveringen met behulp van uw eigen naamgevingsconventie.
+   * **[!UICONTROL Delivery code]**: Organiseer uw leveringen met uw eigen naamgevingsconventie.
    * **[!UICONTROL Description]**: Geef een beschrijving voor de levering.
    * **[!UICONTROL Nature]**: Geef de aard van de e-mail op voor classificatiedoeleinden.
 +++
@@ -61,7 +61,7 @@ ht-degree: 4%
 
    Vanuit dit scherm kunt u ook [simuleren, inhoud](../preview-test/preview-test.md) en [aanbiedingen instellen](../content/offers.md).
 
-1. Als u de levering wilt plannen op een bepaalde datum en tijd, schakelt u de optie **[!UICONTROL Enable scheduling]** optie. Nadat u de levering in werking stelt, zal het bericht automatisch op de nauwkeurige datum en de tijd worden verzonden die u voor de ontvanger hebt bepaald.
+1. Als u de levering wilt plannen op een bepaalde datum en tijd, schakelt u de optie **[!UICONTROL Enable scheduling]** -optie. Nadat u de levering in werking stelt, zal het bericht automatisch op de nauwkeurige datum en de tijd worden verzonden die u voor de ontvanger hebt bepaald.
 
    ![](assets/push_create_3.png)
 

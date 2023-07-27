@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
-description: Leer hoe u de activiteit van de verrijkingsworkflow kunt gebruiken
-badge: label="Alpha"
+description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Verrijkingsactiviteit"
->abstract="Met de verrijkingsactiviteit kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkstroom na het richten van activiteiten.<br/>Zodra de verrijkingsgegevens aan het werkschema zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de activiteit van de Verrijking worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes te creëren die eerder met uw doelpubliek zullen resoneren."
+>abstract="Met de verrijkingsactiviteit kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkstroom na het richten van activiteiten.<br/>Zodra de verrijkingsgegevens aan het werkschema zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de activiteit van de Verrijking worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes te creëren die eerder aan uw doelpubliek zullen resoneren."
 
-De **Verrijking** activiteit is **Doelstelling** activiteit. Hiermee kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten.
+De **Verrijking** activiteit is **Targeting** activiteit. Hiermee kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten.
 
 Verrijkingsgegevens kunnen worden verkregen:
 
@@ -44,7 +44,7 @@ Voer de volgende stappen uit om de **Verrijking** activiteit:
 
 ![](../assets/workflow-enrichment1.png)
 
-U kunt twee typen verrijkingsgegevens selecteren: a [enkel verrijkingsattribuut](#single-attribute) van de doeldimensie, of [verzamelingskoppeling](#collection-link).
+U kunt twee typen verrijkingsgegevens selecteren: een [enkel verrijkingsattribuut](#single-attribute) van de doeldimensie, of [verzamelingskoppeling](#collection-link).
 
 ## Enkel verrijkingskenmerk {#single-attribute}
 
@@ -61,8 +61,8 @@ Hier voegen we slechts één verrijkingskenmerk toe, bijvoorbeeld de geboortedat
 In dit complexere gebruiksgeval, zullen wij een inzamelingsverbinding selecteren die een verbinding met een 1-N kardinaliteit tussen lijsten is. Laten we de drie laatste aankopen ophalen die minder dan 100 dollar bedragen. Hiervoor moet u definiëren:
 
 * een verrijkingskenmerk: de **Totaal bedrag** field
-* het aantal regels dat moet worden opgehaald: 3
-* een filter: items van meer dan 100$ filteren
+* het aantal op te halen lijnen: 3
+* een filter: items uitfilteren die groter zijn dan 100$
 * een sortering: afstammende sortering op de **Datum van bestelling** veld.
 
 ### Het kenmerk toevoegen
@@ -71,7 +71,7 @@ Hier selecteert u de verzamelingskoppeling die u als verrijkingsgegevens wilt ge
 
 1. Klik in het dialoogvenster **Kenmerk** veld.
 1. Klikken **Geavanceerde kenmerken weergeven**.
-1. Selecteer **Totaal bedrag** veld van **Aankopen** tabel.
+1. Selecteer de **Totaal bedrag** veld van de **Aankopen** tabel.
 
 ![](../assets/workflow-enrichment3.png)
 
@@ -98,13 +98,13 @@ Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren it
 
 ![](../assets/workflow-enrichment6.png)
 
-### Het sorteren definiëren
+### De sortering definiëren
 
 We moeten nu sorteren om de drie bestanden op te halen **nieuwste** aankopen.
 
-1. De **Sorteren inschakelen** optie.
+1. Activeer **Sorteren inschakelen** -optie.
 1. Klik in het dialoogvenster **Kenmerk** veld.
-1. Selecteer **Datum van bestelling** veld.
+1. Selecteer de **Datum van bestelling** veld.
 1. Klikken **Bevestigen**.
 1. Selecteren **Aflopend** van de **Sorteren** vervolgkeuzelijst.
 

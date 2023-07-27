@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: E-mailinhoud bewerken
+title: De e-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,13 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Traceeropties"
+>title="Opties voor tekstspatiëring"
 >abstract="Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie hier uitschakelen."
 
 De e-mail **[!UICONTROL Edit content]** scherm kunt u:
-* Definieer basiselementen van uw bericht, zoals het adres van de afzender en de onderwerpregel
+* Definieer de basiselementen van uw bericht, zoals het adres van de afzender en de onderwerpregel
 * Extra handelingen uitvoeren, zoals bijlagen toevoegen of aanbiedingen instellen
-* Toegang krijgen tot [E-mailontwerper](get-started-email-designer.md#start-authoring) om de juiste inhoud van uw e-mail te gaan samenstellen
+* Toegang krijgen tot de [E-mailDesigner](get-started-email-designer.md#start-authoring) om de juiste inhoud van uw e-mail te gaan samenstellen
 
 Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewerken.
 
@@ -80,7 +80,7 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
    U kunt ze vervolgens in de e-mail invoegen met behulp van personalisatievelden. [Meer informatie over het verzenden van voorstellen](offers.md)
 
-1. Klik op de knop **[!UICONTROL Edit email body]** om de inhoud van de e-mail te structureren en te ontwerpen met de [E-mailontwerper](#start-authoring). In deze secties vindt u aanvullende informatie over het ontwerpen van e-mailinhoud:
+1. Klik op de knop **[!UICONTROL Edit email body]** om de inhoud van de e-mail te structureren en te ontwerpen met de [E-mailDesigner](#start-authoring). In deze secties vindt u aanvullende informatie over het ontwerpen van e-mailinhoud:
 
    * [E-mails van auteur helemaal opnieuw](create-email-content.md)
    * [Stijl uw inhoud](get-started-email-style.md)
@@ -91,5 +91,5 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
 1. Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie uitschakelen in het dialoogvenster **[!UICONTROL Optional features]** sectie. [Leer hoe u koppelingen kunt toevoegen en bijhouden](message-tracking.md)
 
-1. Als de inhoud van uw e-mail eenmaal is gedefinieerd, gebruikt u de opdracht **[!UICONTROL Simulate content]** om te controleren hoe het toont alvorens het te verzenden. [Leer hoe u uw e-mail kunt bekijken en testen](../preview-test/preview-test.md)
+1. Als de inhoud van uw e-mail eenmaal is gedefinieerd, gebruikt u de opdracht **[!UICONTROL Simulate content]** om te controleren hoe het toont alvorens het te verzenden. [Leer hoe u een voorbeeld van uw e-mail kunt bekijken en deze kunt testen](../preview-test/preview-test.md)
 

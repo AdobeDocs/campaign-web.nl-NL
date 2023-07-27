@@ -3,11 +3,11 @@ audience: end-user
 title: E-mailleveringsinstellingen
 description: Meer informatie over instellingen voor e-maillevering in de gebruikersinterface van het campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1451'
+ht-degree: 10%
 
 ---
 
@@ -90,7 +90,7 @@ De parameters van de levering zijn technische montages die op uw levering van to
 
 * **Routering**: de geïntegreerde e-mail die externe rekening verplettert wordt door gebrek verstrekt. Het bevat de technische parameters waarmee de applicatie e-mailberichten kan verzenden.
 
-* **SMTP-levering testen**: deze optie wordt gebruikt om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel van SMTP DATA.
+* **SMTP-levering testen**: deze optie wordt gebruikt om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
 
 * **BCC e-mailen**: deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel. Meer informatie over BCC via e-mail in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
@@ -114,13 +114,13 @@ Meer informatie over het beheer van nieuwe pogingen vindt u in [Campagne v8 (con
 >title="Goedkeuringsmodus"
 >abstract="Elke leveringsstap kan worden goedgekeurd om volledige controle en controle van de verschillende processen te waarborgen."
 
-Als de waarschuwingen tijdens de leveringsvoorbereiding worden geproduceerd, kunt u de levering vormen om te bepalen al dan niet het nog zou moeten worden uitgevoerd. Door gebrek, moet de gebruiker het verzenden van berichten aan het eind van de analysefase bevestigen: is **handmatig** validatie.
+Als de waarschuwingen tijdens de leveringsvoorbereiding worden geproduceerd, kunt u de levering vormen om te bepalen al dan niet het nog zou moeten worden uitgevoerd. Door gebrek, moet de gebruiker het verzenden van berichten aan het eind van de analysefase bevestigen: dit is **handmatig** validatie.
 
 U kunt een andere goedkeuringsmodus in het desbetreffende veld selecteren. Beschikbare modi zijn:
 
-* **Handmatig**: Aan het einde van de analysefase moet de gebruiker de levering bevestigen om te beginnen met het verzenden.
+* **Handmatig**: Aan het einde van de analysefase moet de gebruiker de levering bevestigen om te beginnen met verzenden.
 
-* **Halfautomatisch**: Het verzenden begint automatisch als de analysefase geen waarschuwingsberichten produceert.
+* **Halfautomatisch**: Het verzenden begint automatisch als er tijdens de analysefase geen waarschuwingsberichten worden gegenereerd.
 
 * **Automatisch**: De verzending begint automatisch aan het einde van de analysefase, ongeacht het resultaat.
 
@@ -130,12 +130,12 @@ U kunt een andere goedkeuringsmodus in het desbetreffende veld selecteren. Besch
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_duration"
 >title="Leveringsduur"
->abstract="In het veld Leveringsduur kunt u de limiet voor algemene leveringspogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, regelmatig, configureerbare herpogingen worden uitgevoerd tot de geldigheidsgrens wordt bereikt."
+>abstract="In het veld Leveringsduur kunt u de limiet voor algemene leveringpogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, regelmatig, configureerbare herpogingen worden uitgevoerd tot de geldigheidsgrens wordt bereikt."
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
 >title="Geldigheidslimiet voor bronnen"
->abstract="Het veld Geldigheidslimiet wordt gebruikt voor geüploade bronnen, zoals de spiegelpagina of afbeeldingen. Deze bronnen gelden voor een beperkte tijd: zodra de limiet is bereikt , zijn de middelen niet meer beschikbaar ."
+>abstract="Het veld Geldigheidslimiet wordt gebruikt voor geüploade bronnen, zoals de spiegelpagina of afbeeldingen. Deze bronnen gelden voor een beperkte periode: wanneer de limiet is bereikt, zijn er geen bronnen meer beschikbaar."
 
 
 De **Leveringsduur** in dit veld kunt u de limiet voor algemene leveringspogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, regelmatig, configureerbare herpogingen worden uitgevoerd tot de geldigheidsgrens wordt bereikt.
@@ -156,9 +156,9 @@ De spiegelpagina is een HTML-pagina die online toegankelijk is via een webbrowse
 Naast de standaardmodus zijn ook de volgende opties beschikbaar:
 
 
-* **[!UICONTROL Force the generation of the mirror page]**: Gebruik deze wijze om de spiegelpagina te produceren zelfs als geen verbinding aan de spiegelpagina in de levering wordt opgenomen.
-* **[!UICONTROL Do not generate the mirror page]**: Gebruik deze modus om te voorkomen dat een spiegelpagina wordt gegenereerd, zelfs als de koppeling aanwezig is in de levering.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: wanneer de spiegelpagina geen verbinding in de e-mailinhoud aanwezig is, gebruik deze optie om toegang tot de inhoud van de spiegelpagina, in het venster van het leveringslogboek, van de cliëntconsole toe te laten.
+* **[!UICONTROL Force the generation of the mirror page]**: gebruik deze modus om de spiegelpagina te genereren, zelfs als er geen koppeling naar de spiegelpagina is ingevoegd in de levering.
+* **[!UICONTROL Do not generate the mirror page]**: gebruik deze modus om te voorkomen dat een spiegelpagina wordt gegenereerd, zelfs als de koppeling aanwezig is in de levering.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: wanneer de koppeling naar de spiegelpagina niet aanwezig is in de e-mailinhoud, gebruikt u deze optie om toegang tot de inhoud van de spiegelpagina, in het venster van het leveringslogboek, vanaf de clientconsole in te schakelen.
 
 
 ### Tracking {#tracking}
@@ -170,9 +170,9 @@ Naast de standaardmodus zijn ook de volgende opties beschikbaar:
 
 De volgende parameters worden bepaald in de verwante sectie. Mogelijke opties zijn:
 
-**Geldigheidslimiet voor bijhouden**: gebruik deze optie om de duur te veranderen waarvoor het volgen op URLs wordt geactiveerd.
+**Geldigheidslimiet voor bijhouden**: gebruik deze optie om de duur te wijzigen waarvoor de tekstspatiëring wordt geactiveerd op de URL&#39;s.
 
-**Vervangende URL voor verlopen URL&#39;s**: Gebruik deze optie om een URL in te voeren naar een fallback-webpagina: wordt weergegeven nadat de reeksspatiëring is verlopen.
+**Vervangende URL voor verlopen URL&#39;s**: gebruik deze optie om een URL in te voeren naar een fallback-webpagina: deze wordt weergegeven zodra de tekstspatiëring is verlopen.
 
 ## Instellingen testen {#test-setttings}
 
