@@ -2,11 +2,11 @@
 audience: end-user
 title: Een levering met pushberichten ontwerpen
 description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Alfa"
+source-git-commit: 1873e6105d9880295a3ace8f8be9ff7c02a3e683
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 2%
+source-wordcount: '1232'
+ht-degree: 1%
 
 ---
 
@@ -19,10 +19,22 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
->title="iOS-inhoud doordrukken"
+>title="IOS-inhoud doordrukken"
 >abstract="Definieer de push-iOS-inhoud."
 
-## Bericht {#push-message}
+## De inhoud van het bericht definiëren {#push-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_msg"
+>title="IOS-bericht induwen"
+>abstract="Definieer de titel en inhoud van je push-iOS-bericht. In het dialoogvenster Verpersoonlijkingen kunt u inhoud aanpassen en voorwaarden toevoegen."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_ios_silent"
+>title="Stil bericht voor iOS"
+>abstract="In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar een mobiele toepassing. De gebruiker wordt niet op de hoogte gebracht van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen."
+
+
 
 >[!BEGINTABS]
 
@@ -30,15 +42,16 @@ ht-degree: 2%
 
 Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
-* De **[!UICONTROL Data messag]e** wordt afgehandeld door de clienttoepassing. Deze berichten worden rechtstreeks verzonden naar de mobiele toepassing die een Android-melding genereert en weergeeft op het apparaat. Gegevensberichten bevatten alleen aangepaste toepassingsvariabelen.
+* De **[!UICONTROL Data message]** wordt afgehandeld door de clienttoepassing. Deze berichten worden rechtstreeks verzonden naar de mobiele toepassing die een Android-melding genereert en weergeeft op het apparaat. Gegevensberichten bevatten alleen aangepaste toepassingsvariabelen.
 
-  Als u de inhoud wilt definiëren, gegevens wilt aanpassen en dynamische inhoud wilt toevoegen, klikt u op de knop **[!UICONTROL Message]** en gebruikt u de expressie-editor. U kunt tot deze redacteur toegang hebben om uw berichten in aan te passen **[!UICONTROL Application variables]** worden toepassingsvariabelen automatisch toegevoegd. Met deze variabelen kunt u berichtgedrag definiëren. U kunt bijvoorbeeld een specifiek toepassingsscherm configureren dat wordt weergegeven wanneer de gebruiker het bericht activeert.
+  Als u de inhoud wilt definiëren, gegevens wilt aanpassen en dynamische inhoud wilt toevoegen, klikt u op de knop **[!UICONTROL Message]** en gebruikt u de expressie-editor. U kunt tot deze redacteur toegang hebben om uw berichten aan te passen.
+In de **[!UICONTROL Application variables]** worden toepassingsvariabelen automatisch toegevoegd. Met deze variabelen kunt u berichtgedrag definiëren. U kunt bijvoorbeeld een specifiek toepassingsscherm configureren dat wordt weergegeven wanneer de gebruiker het bericht activeert.
 
   ![](assets/push_content_4.png)
 
 * De **[!UICONTROL Notification message]**, automatisch afgehandeld door de FCM SDK. FCM geeft automatisch het bericht weer op de apparaten van uw gebruikers namens de client-app. Meldingsberichten bevatten een vooraf gedefinieerde set parameters en opties, maar kunnen nog steeds verder worden aangepast met aangepaste toepassingsvariabelen.
 
-  Als u uw bericht wilt samenstellen, klikt u op de knop **[!UICONTROL Title]** en **[!UICONTROL Body]** velden. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen.
+  Klik op de knop **[!UICONTROL Title]** en **[!UICONTROL Body]** velden. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen.
 
   Als u uw pushmelding verder wilt aanpassen, kunt u een afbeelding kiezen die u aan uw pushmelding wilt toevoegen, het pictogram van het bericht dat u op de apparaten van uw profielen wilt weergeven en de kleur van het bericht.
 
@@ -46,17 +59,47 @@ Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
 >[!TAB iOS]
 
-Als u uw bericht wilt samenstellen, klikt u op de knop **[!UICONTROL Title]** en **[!UICONTROL Body]** velden. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen.
+Klik op de knop **[!UICONTROL Title]** en **[!UICONTROL Body]** velden. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen.
 
 U kunt een **[!UICONTROL Subtitle]**, waarde van de ondertitelparameter van de iOS-berichtlading. Zie deze sectie.
 
-In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar een mobiele toepassing. De gebruiker wordt niet op de hoogte gesteld van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen.
+In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar een mobiele toepassing. De gebruiker wordt niet op de hoogte gebracht van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen.
 
 ![](assets/push_content_1.png)
 
 >[!ENDTABS]
 
-## Geavanceerde instellingen {#push-advanced}
+## Geavanceerde instellingen voor pushmeldingen {#push-advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_critical"
+>title="Kritieke waarschuwingsmodus voor iOS"
+>abstract="Schakel deze optie in om geluid aan uw melding toe te voegen, zelfs wanneer de telefoon van de gebruiker is ingesteld op de focusmodus of wanneer het apparaat wordt gedempt. Dit zorgt ervoor dat gebruikers in elk geval op de hoogte worden gesteld van belangrijke waarschuwingen."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_count"
+>title="Badge-nummer voor iOS"
+>abstract="Gebruik deze optie om het aantal nieuwe ongelezen gegevens in te stellen dat rechtstreeks op het app-pictogram moet worden weergegeven. Hierdoor kan de gebruiker snel zien hoeveel meldingen in behandeling zijn."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_mutable"
+>title="Tabelinhoud voor iOS"
+>abstract="Gebruik deze optie als u wilt dat de mobiele toepassing media-inhoud kan downloaden die aan het bericht is gekoppeld."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_score"
+>title="Releventiescore voor iOS"
+>abstract="Plaats een relevantiescore van 0 tot 100 om de orde van berichten in de berichtsamenvatting voorrang te geven. Hogere scores duiden op belangrijkere meldingen."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_app_variables"
+>title="Toepassingsvariabelen voor iOS"
+>abstract="Gebruik toepassingsvariabelen om berichtgedrag te bepalen. Deze variabelen kunnen volledig worden aangepast en worden opgenomen in de berichtlading die naar het mobiele apparaat wordt verzonden."
+
+
 
 >[!BEGINTABS]
 
@@ -82,13 +125,13 @@ In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar
 
 | Parameter | Beschrijving |
 |---------|---------|
-| **[!UICONTROL Critical alert mode]** | Schakel deze optie in om geluid aan uw melding toe te voegen, zelfs als de telefoon van de gebruiker is ingesteld op de focusmodus of als de iPhone is gedempt. Dit zorgt ervoor dat belangrijke alarm door de gebruiker wordt opgemerkt. |
+| **[!UICONTROL Critical alert mode]** | Schakel deze optie in om geluid aan uw melding toe te voegen, zelfs wanneer de telefoon van de gebruiker is ingesteld op de focusmodus of wanneer het apparaat wordt gedempt. Dit zorgt ervoor dat belangrijke alarm door de gebruiker wordt opgemerkt. |
 | **[!UICONTROL Clean Badge]** | Schakel deze optie in om de waarde van de badge die op het toepassingspictogram wordt weergegeven, te vernieuwen. Het zorgt ervoor dat de badge het aantal nieuwe ongelezen informatie nauwkeurig weerspiegelt. |
 | **[!UICONTROL Notification count]** | Stel een nummer in dat rechtstreeks op het toepassingspictogram wordt weergegeven en dat het aantal nieuwe ongelezen gegevens aangeeft. Dit biedt een snelle visuele referentie voor de gebruiker. |
 | **[!UICONTROL Volume]** | Volume van het geluid van 0 tot 100. |
 | **[!UICONTROL Mutable content]** | Schakel deze optie in als u wilt dat de mobiele toepassing media-inhoud kan downloaden die aan het bericht is gekoppeld. Zie [Apple Developer documentatie](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html) voor meer informatie hierover. |
 | **[!UICONTROL Relevance score]** | Plaats een relevantiescore van 0 tot 100 om de orde van berichten in de berichtsamenvatting voorrang te geven. Hogere scores duiden op belangrijkere meldingen. |
-| **[!UICONTROL Interruption level]** | <ul> <li>**[!UICONTROL Active]**: Het systeem stelt de melding standaard in, licht het scherm aan en kan een geluid afspelen. Meldingen doorbreken niet door de focusmodi.</li><li>**[!UICONTROL Passive]**: Het systeem voegt het bericht toe aan de meldingslijst zonder het scherm te belichten of een geluid af te spelen. Meldingen doorbreken niet door de focusmodi.</li><li>**[!UICONTROL Time sensitive]**: Het systeem presenteert de melding onmiddellijk, licht het scherm op, kan een geluid afspelen en door de modus Focus breken. Voor dit niveau is geen speciale toestemming van Apple vereist.</li> <li>**[!UICONTROL Critical]**: Het systeem presenteert onmiddellijk het bericht, licht omhoog het scherm, en mijdt de demtschakelaar of nadrukwijzen. Voor dit niveau is een speciale machtiging van Apple vereist.</ul> |
+| **[!UICONTROL Interruption level]** | <ul> <li>**[!UICONTROL Active]**: Standaard ingesteld, geeft het systeem de melding direct weer, licht het scherm omhoog en kan een geluid worden afgespeeld. Meldingen doorbreken niet door de focusmodi.</li><li>**[!UICONTROL Passive]**: Het systeem voegt het bericht toe aan de meldingslijst zonder het scherm te belichten of een geluid af te spelen. Meldingen doorbreken niet door de focusmodi.</li><li>**[!UICONTROL Time sensitive]**: Het systeem presenteert de melding direct, licht het scherm op, kan een geluid afspelen en de modus Focus doorbreken. Voor dit niveau is geen speciale toestemming van Apple vereist.</li> <li>**[!UICONTROL Critical]**: Het systeem presenteert de melding direct, licht het scherm op en laat de modi voor demtschakelaar of focus over. Voor dit niveau is een speciale machtiging van Apple vereist.</ul> |
 | **[!UICONTROL Thread-id]** | Identifier die wordt gebruikt om gerelateerde meldingen te groeperen. De berichten met zelfde draadidentiteitskaart worden georganiseerd als één enkel gesprek of draad in de berichtlijst. |
 | **[!UICONTROL Category]** | Geef de naam op van de categorie-id die aan het bericht is gekoppeld. Hierdoor kunnen actieknoppen worden weergegeven, zodat de gebruiker verschillende taken rechtstreeks vanuit het bericht kan uitvoeren zonder de toepassing te openen. |
 | **[!UICONTROL Target content ID]** | Identifier die wordt gebruikt om aan te geven welk toepassingsvenster naar voren moet worden gebracht wanneer het bericht wordt geopend. |
