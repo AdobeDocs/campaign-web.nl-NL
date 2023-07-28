@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: d98c7d9edce5971e01ec983f0d1d3e0a55004c1b
+source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
 workflow-type: tm+mt
-source-wordcount: '1541'
+source-wordcount: '1582'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,11 @@ De taal wijzigen:
 1. Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
 
 
+## Meer informatie {#learn-more}
+
+Leer hoe u in uw Campagne-omgeving kunt bladeren, zoeken en filterlijsten kunt gebruiken [op deze pagina](list-filters.md).
+
+
 <!--
 ######## This part stores the contextualHelp definition for WebUI BETA ###########
 ######## These blocks should be dispatched in the appropriate pages when available ###########
@@ -181,9 +186,6 @@ De taal wijzigen:
 REFER TO 
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
-
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -276,6 +278,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Fouten"
 >abstract="Fouten in KPI"
 
+<!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
@@ -292,6 +295,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Een publiek opslaan"
 >abstract="Gebruik deze activiteit om het werkschemapubliek te bewaren."
 
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Deze workflow is alleen-lezen"
+>abstract="U hebt geen machtigingen om deze workflow te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
 
 <!-- delivery template settings-->
 
