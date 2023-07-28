@@ -3,9 +3,9 @@ audience: end-user
 title: Een levering met pushberichten ontwerpen
 description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
 badge: label="Alfa"
-source-git-commit: 2caa3e55812c4176946dc5998efb6d5e9ba50d32
+source-git-commit: 20a518d846d046aed92648fa0cdcd89b7731bca6
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1293'
 ht-degree: 1%
 
 ---
@@ -106,6 +106,11 @@ In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar
 >title="Toepassingsvariabelen voor iOS"
 >abstract="Gebruik toepassingsvariabelen om berichtgedrag te bepalen. Deze variabelen kunnen volledig worden aangepast en worden opgenomen in de berichtlading die naar het mobiele apparaat wordt verzonden."
 
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_advanced_settings_category"
+>title="Categorie-id voor iOS"
+>abstract="Geef de naam op van de categorie-id die aan het bericht is gekoppeld. Hierdoor kunnen actieknoppen worden weergegeven, zodat de gebruiker verschillende taken rechtstreeks vanuit het bericht kan uitvoeren zonder de toepassing te openen."
 
 
 >[!BEGINTABS]
