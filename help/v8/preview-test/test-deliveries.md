@@ -3,10 +3,10 @@ audience: end-user
 title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Alpha"
-source-git-commit: 1b8657b7f91a1d83e3b65801b6593dfe3dfbac82
+badge: label="Alfa"
+source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '932'
 ht-degree: 1%
 
 ---
@@ -26,14 +26,10 @@ De ontvangers van een test kunnen diverse elementen controleren zoals verbinding
 
 ## Selecteer de testontvangers {#test-recipients}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Testpopulatie"
 >abstract="Selecteer een testpopulatiemodus."
-
-
 
 Afhankelijk van het kanaal dat u gebruikt, kunnen testberichten naar drie soorten ontvangers worden verzonden:
 
@@ -45,7 +41,7 @@ Afhankelijk van het kanaal dat u gebruikt, kunnen testberichten naar drie soorte
 
   Op deze manier kunt u het bericht net zo ervaren als de ontvangers, zodat u een nauwkeurige weergave krijgt van de inhoud die het profiel zal ontvangen.
 
-* [Abonnees](#subscribers) - Verzenden **pushmeldingen testen** aan fictieve abonnees die aan het gegevensbestand worden toegevoegd.
+* [Abonnees](#subscribers) - Verzenden **pushmeldingen testen** aan fictieve abonnees toegevoegd aan het gegevensbestand.
 
   Net als testprofielen kunnen ze worden gemaakt in het dialoogvenster [!DNL Campaign] in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Meer informatie in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
@@ -53,6 +49,15 @@ Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaand
 
 ### Test profiles {#test-profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_mode"
+>title="Doel van het bewijs"
+>abstract="U kunt een tweede bestand uploaden als &#39;doel van de proefdruk&#39; als u de levering wilt testen voordat u het hoofddoel bereikt."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_upload"
+>title="Profielen uploaden"
+>abstract="U kunt een tweede bestand met aanvullende profielen uploaden als u de levering wilt testen met een andere set dan de set die u voor het hoofddoel hebt gebruikt."
 
 1. Blader naar het scherm Inhoud bewerken van uw e-mail- of SMS-verzending en klik vervolgens op de knop **[!UICONTROL Simulate content]** knop.
 
@@ -60,7 +65,7 @@ Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaand
 
    >[!NOTE]
    >
-   >Als u al profielen hebt geselecteerd voor [voorvertoning van uw levering](preview-content.md), worden deze weergegeven in het linkervenster.
+   >Als u al profielen hebt geselecteerd voor [voorvertoning van levering](preview-content.md), worden deze weergegeven in het linkervenster.
 
    ![](assets/simulate-test-button-email.png)
 
@@ -74,7 +79,7 @@ Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaand
    >
    >Standaard worden de **[!UICONTROL Use test profiles]** is geselecteerd.
 
-1. Om het definitieve bericht aan de ontvangers van de testlevering ook te verzenden, selecteer **[!UICONTROL Include test population in the main target]** optie.
+1. Om het definitieve bericht aan de ontvangers van de testlevering ook te verzenden, selecteer **[!UICONTROL Include test population in the main target]** -optie.
 
 1. Nadat de testprofielen zijn geselecteerd, kunt u [verzendt de testlevering](#send-test).
 
@@ -94,7 +99,7 @@ Een test-e-mail of -SMS verzenden naar een specifiek e-mailadres of telefoonnumm
 
    >[!CAUTION]
    >
-   >Als u geen [publiek](../audience/about-audiences.md) voor uw levering **[!UICONTROL Substitute from main target]** Deze optie wordt grijs weergegeven en u kunt geen vervangingsprofielen selecteren.
+   >Als u geen [publiek](../audience/about-audiences.md) voor uw levering, **[!UICONTROL Substitute from main target]** Deze optie wordt grijs weergegeven en u kunt geen vervangingsprofielen selecteren.
 
 1. Klik op de knop **[!UICONTROL Add address]** en geeft u het e-mailadres of telefoonnummer op dat de testlevering ontvangt.
 
@@ -110,7 +115,7 @@ Een test-e-mail of -SMS verzenden naar een specifiek e-mailadres of telefoonnumm
 
    ![](assets/simulate-profile-substitute.png)
 
-1. Om het definitieve bericht aan de ontvangers van de testlevering ook te verzenden, selecteer **[!UICONTROL Include test population in the main target]** optie.
+1. Om het definitieve bericht aan de ontvangers van de testlevering ook te verzenden, selecteer **[!UICONTROL Include test population in the main target]** -optie.
 
 1. Als de vervangende profielen zijn geselecteerd, kunt u [verzendt de testlevering](#send-test).
 
@@ -124,13 +129,13 @@ Als u werkt met pushberichten, kunnen testleveringen alleen naar abonnees worden
 
    ![](assets/simulate-test-button-push.png)
 
-1. Als u al abonnees hebt geselecteerd op [voorvertoning van levering](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testabonnees.
+1. Als u al abonnees hebt geselecteerd op [voorvertoning van de levering](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testabonnees.
 
    U kunt uw selectie wissen en/of extra abonnees toevoegen met behulp van de toegewezen knop.
 
    ![](assets/simulate-test-subscribers.png)
 
-1. Als u het laatste pushbericht ook naar de testabonnees wilt verzenden, selecteert u de optie **[!UICONTROL Include test population in the main target]** optie.
+1. Als u het laatste pushbericht ook naar de testabonnees wilt verzenden, selecteert u de optie **[!UICONTROL Include test population in the main target]** -optie.
 
 1. Als de abonnees zijn geselecteerd, kunt u [verzendt de testlevering](#send-test).
 
