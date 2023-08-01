@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: b2f10ef260826d3655d80c7a3ddce2eb218dbab8
+source-git-commit: 1d811a854b95caa556152a9c9923f53483a3bde9
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
@@ -277,6 +277,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_keyindicators_errors"
 >title="Fouten"
 >abstract="Fouten in KPI"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Deze campagne is alleen-lezen"
+>abstract="U hebt geen machtigingen om deze campagne te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Deze levering is alleen-lezen"
+>abstract="U hebt geen machtigingen om deze levering te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
 
 <!-- Workflows-->
 
