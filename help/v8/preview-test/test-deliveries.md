@@ -4,9 +4,9 @@ title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Alfa"
-source-git-commit: 31f74f1a0cb04ca08abc9f455183f7ea1cbb1cb5
+source-git-commit: f7921a1baf5564fc59ecaa1e16370ec2670576ce
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '962'
 ht-degree: 1%
 
 ---
@@ -58,6 +58,11 @@ Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaand
 >id="acw_deliveries_simulate_test_upload"
 >title="Profielen uploaden"
 >abstract="U kunt een tweede bestand met aanvullende profielen uploaden als u de levering wilt testen met een andere set dan de set die u voor het hoofddoel hebt gebruikt."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_simulate_test_sample"
+>title="Sjabloonbestand"
+>abstract="De opmaak van het bestand moet gelijk zijn aan die van het oorspronkelijke bestand.<br/>Ondersteunde bestandsindelingen: txt, csv. Maximale bestandsgrootte: 15 MB. Eerste regel gebruiken als kolomkop."
 
 1. Blader naar het scherm Inhoud bewerken van uw e-mail- of SMS-verzending en klik vervolgens op de knop **[!UICONTROL Simulate content]** knop.
 
