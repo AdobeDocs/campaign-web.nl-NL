@@ -3,10 +3,10 @@ audience: end-user
 title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Alpha"
+badge: label="Alfa"
 source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '270'
 ht-degree: 5%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
 >title="Bestaande doelgroep selecteren"
->abstract="Het publiek wordt gedefinieerd in de Adobe Campaign v8-console. Als er een Adobe Experience Platform-integratie beschikbaar is, kunt u ook een bepaald publiek met Platform zien."
+>abstract="Het publiek wordt gedefinieerd in de Adobe Campaign v8-console. Als u een Adobe Experience Platform-integratie beschikbaar hebt, kunt u ook een door Platform gedefinieerd publiek zien."
 
 In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren bij het definiëren van de doelpopulatie van een e-maillevering.
 
@@ -34,7 +34,7 @@ Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
    ![](assets/create-audience.png)
 
-1. Kies **[!UICONTROL Select audience]** om een bestaand publiek te gebruiken. Kies **Maak uw eigen**. Zie dit [sectie](segment-builder.md).
+1. Kies **[!UICONTROL Select audience]** om een bestaand publiek te gebruiken. Als u een nieuw publiek wilt maken dat in deze e-mail wordt gebruikt, kiest u **Maak uw eigen**. Zie dit [sectie](segment-builder.md).
 
    In dit scherm worden alle bestaande soorten publiek weergegeven die zijn gedefinieerd in de Adobe Campaign-clientconsole, voor de huidige map.
 
