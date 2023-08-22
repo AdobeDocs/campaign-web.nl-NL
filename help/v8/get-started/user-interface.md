@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
+source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
 workflow-type: tm+mt
-source-wordcount: '2263'
+source-wordcount: '2286'
 ht-degree: 0%
 
 ---
@@ -38,10 +38,12 @@ Dit scherm bevat belangrijke koppelingen en bronnen voor snelle toegang tot de b
 
 De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum van het kanaal, de status, de eigenaar, het maken en de wijziging van de datums.
 
+De **Belangrijkste prestatie-indicatoren** Hiermee kunt u de doeltreffendheid van uw platform controleren aan de hand van algemene KPI&#39;s.
+
 Toegang krijgen tot de Help-pagina&#39;s voor Campagne v8 Web **Leren** van de startpagina.
 
 
-#### Belangrijkste prestatie-indicatoren {#user-interface-key-indicators}
+### Belangrijkste prestatie-indicatoren {#user-interface-key-indicators}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
@@ -126,6 +128,8 @@ De **Abonnementen** de indicator toont de volgende KPIs, voor elk kanaal:
 >id="acw_keyindicators_errors"
 >title="Fouten"
 >abstract="Het totale aantal fouten dat is gecumuleerd tijdens leveringen en automatische stuitverwerking. Het bijbehorende tarief is de verhouding met het aantal te leveren berichten."
+
+De **Fouten** de indicator toont de volgende KPIs, voor elk kanaal:
 
 * Percentage van het aantal fouten in verhouding tot het totale aantal te leveren berichten.
 
