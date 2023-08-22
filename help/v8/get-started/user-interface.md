@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 2e0e63e4a120ffb7a377b403c4bd912fdf40ed92
+source-git-commit: 25cae1698334403e18f6dbede90b3c50b270d30b
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '2263'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,98 @@ Dit scherm bevat belangrijke koppelingen en bronnen voor snelle toegang tot de b
 De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum van het kanaal, de status, de eigenaar, het maken en de wijziging van de datums.
 
 Toegang krijgen tot de Help-pagina&#39;s voor Campagne v8 Web **Leren** van de startpagina.
+
+
+#### Belangrijkste prestatie-indicatoren {#user-interface-key-indicators}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_spam"
+>title="Spam"
+>abstract="Spam KPI"
+
+Blader naar de startpagina om de belangrijkste prestatie-indicatoren voor uw platform te controleren. Deze indicatoren tonen het aantal en het percentage geleverde, geopende, geklikte berichten, unsubscription, en foutenpercentages.
+
+Metrische gegevens worden standaard berekend voor leveringen die in de afgelopen 7 dagen zijn verzonden. U kunt de punt van de drop-down lijst op de hogere juiste sectie van de kaart veranderen. Berichten die naar testprofielen worden verzonden, worden uitgesloten.
+
+U kunt het kanaal selecteren dat u wilt weergeven. Deze indicatoren weerspiegelen standaard de cijfers voor het e-mailkanaal.
+
+![](assets/kpi.png)
+
+#### Bericht bezorgd {#ui-delivered-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_delivered"
+>title="Geleverd"
+>abstract="Deze metrische toont, voor het geselecteerde kanaal, de som van alle berichten die met succes worden verwerkt, en het percentage van bericht dat met succes in vergelijking met het totale aantal verzonden berichten wordt geleverd."
+
+
+De **Geleverd** de indicator toont de volgende KPIs, voor elk kanaal:
+
+* Percentage van het aantal met succes geleverde berichten in verhouding tot het totale aantal te verzenden berichten.
+
+* De som van alle berichten die met succes zijn verwerkt.
+
+In Adobe Campaign geldt de regel om een bericht te markeren als &quot;Afgeleverd&quot;:
+
+Aantal berichten waarvoor het veld &quot;zaadadres&quot; gelijk is aan &quot;Nee&quot; en met een status die gelijk is aan &quot;Rekening gehouden door de dienstverlener&quot; (voor SMS) of &quot;Verzonden&quot; (voor e-mails) of &quot;Ontvangen op de mobiele telefoon&quot; (voor pushberichten).
+
+
+#### Totaal openen {#ui-open-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_opens"
+>title="Geopende items"
+>abstract="Deze metrische toont, voor het geselecteerde kanaal, de som van alle geopende berichten, en het percentage van geopend bericht vergeleken met het totale aantal berichten die met succes worden geleverd."
+
+De **Openen** de indicator toont de volgende KPIs, voor elk kanaal:
+
+* Percentage van het aantal geopende berichten in verhouding tot het totale aantal met succes geleverde berichten.
+
+* Som van alle geopende berichten, per kanaal.
+
+Adobe Campaign detecteert dat het bericht wordt geopend wanneer de ontvanger de afbeeldingen in de e-mail downloadt. HTML- en Multipart-/Alternatieve e-mailberichten bevatten een afbeelding van 0 pixels, waarmee u berichten kunt detecteren die zijn geopend. Aangezien berichten in tekstopmaak geen afbeeldingen bevatten, is het onmogelijk om te bepalen of ze zijn geopend of niet. Waarden die worden berekend op basis van het bericht dat wordt geopend, zijn altijd schattingen vanwege de foutmarge die is gekoppeld aan de beeldweergave.
+
+#### Klikpercentages {#ui-click-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_clicks"
+>title="Klikken"
+>abstract="Deze metrisch toont, voor het geselecteerde kanaal, de som van al URL klikte in berichten, en het percentage kliks in vergelijking met het totale aantal berichten die met succes worden geleverd."
+
+De **Klikken** de indicator toont de volgende KPIs, voor elk kanaal:
+
+* Percentage van het aantal klikken in verhouding tot het totale aantal berichten dat met succes wordt geleverd.
+
+* Aantal verschillende personen dat ten minste één keer in een levering heeft geklikt. Koppelingen zonder abonnement en koppelingen naar spiegel worden niet opgenomen.
+
+Deze cijfers zijn gebaseerd op de Geconsolideerde tabel voor reeksspatiëring (`nms:trackingStats`). Deze bijeengevoegde lijst wordt gebruikt voor prestatiesredenen wanneer het tonen van rapporten, in de plaats van de Ontvanger het volgen logboeklijst (`nms:trackingLogRcp`) en wordt niet in real time berekend. De tabel wordt een paar minuten nadat de logbestanden voor bijhouden zijn opgehaald, gegenereerd.
+
+
+#### Abonnementstarieven {#ui-unsub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_unsubscriptions"
+>title="Uitschrijvingen"
+>abstract="Deze metrisch toont, voor het geselecteerde kanaal, de som van alle abonnementen van de dienst, en het percentage van abonnementen in vergelijking met het totale aantal berichten die met succes worden geleverd."
+
+De **Abonnementen** de indicator toont de volgende KPIs, voor elk kanaal:
+
+* Percentage van het aantal afboekingen in verhouding tot het totale aantal met succes geleverde berichten.
+
+* De som van alle klikken op een koppeling zonder abonnement, d.w.z. met een categorie URL is gelijk aan &quot;Opt-out&quot;.
+
+
+#### Foutsnelheden {#ui-error-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_errors"
+>title="Fouten"
+>abstract="Het totale aantal fouten dat is gecumuleerd tijdens leveringen en automatische stuitverwerking. Het bijbehorende tarief is de verhouding met het aantal te leveren berichten."
+
+* Percentage van het aantal fouten in verhouding tot het totale aantal te leveren berichten.
+
+* Totaal aantal fouten gecumuleerd tijdens leveringen en automatische terugkerende verwerking.
+
 
 ### Verkenner {#user-interface-explorer}
 
@@ -248,35 +340,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Machtiging vereist"
 >abstract="Uw beheerder moet u toestemming verlenen alvorens u een segment kunt tot stand brengen."
 
->[!CONTEXTUALHELP]
->id="acw_keyindicators_delivered"
->title="Geleverd"
->abstract="Leverde KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_opens"
->title="Geopende items"
->abstract="Opent KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_clicks"
->title="Klikken"
->abstract="Klik op KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_unsubscriptions"
->title="Uitschrijvingen"
->abstract="KPI voor abonnementen"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_spam"
->title="Spam"
->abstract="Spam KPI"
-
->[!CONTEXTUALHELP]
->id="acw_keyindicators_errors"
->title="Fouten"
->abstract="Fouten in KPI"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
