@@ -4,10 +4,10 @@ title: E-mailleveringsinstellingen
 description: Meer informatie over instellingen voor e-maillevering in de gebruikersinterface van het campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Alfa"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 761a6d318ccb8b4075d5a25e2c9de573b998d424
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 10%
+source-wordcount: '1369'
+ht-degree: 11%
 
 ---
 
@@ -37,12 +37,12 @@ Wanneer het associëren van een typologie met een bericht of berichtmalplaatje, 
 
 
 ### Drukparameters {#pressure-parameters}
-
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery_weight"
->title="Afleveringsgewicht"
->abstract="Met leveringsgewichten kunt u topprioriteit-leveringen identificeren in het kader van drukbeheer. Berichten met het hoogste gewicht hebben prioriteit."
-
+>title="Delivery weight"
+>abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
+-->
 In deze sectie kunt u met drukparameters een **drempel**. Dit is het maximumaantal berichten dat over een bepaalde periode naar één profiel kan worden verzonden. Zodra deze drempelwaarde is bereikt, kunnen tot het einde van de in aanmerking genomen periode geen leveringen meer plaatsvinden. Met dit proces kunt u automatisch een profiel uitsluiten van een levering als een bericht de ingestelde drempelwaarde overschrijdt. Op deze manier voorkomt u dat een profiel te vaak wordt benaderd.
 
 Drempelwaarden kunnen constant of variabel zijn. Dit betekent dat drempelwaarden voor een bepaalde periode kunnen variëren van het ene profiel tot het andere, of zelfs voor hetzelfde profiel.
@@ -67,9 +67,9 @@ Moeilijkheidsbeheer wordt geleverd met **Campagne optimaliseren** invoegtoepassi
 ### Capaciteitsinstellingen {#capacity-settings}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_recipient_importance"
->title="Belang van de begunstigde"
->abstract="Het belang van de ontvanger is een formule die wordt gebruikt om te bepalen welke ontvangers worden gehouden wanneer de regels inzake capaciteitstypologie worden overschreden."
+>id="acw_email_settings_capacity_settings"
+>title="Capaciteitsinstellingen"
+>abstract="Selecteer een capaciteitsregel die is gedefinieerd in de Adobe Campaign v8-console. Deze regel is gekoppeld aan het e-mailkanaal."
 
 In deze sectie kunt u een capaciteitsregel selecteren die is gedefinieerd in de Adobe Campaign v8-console. Deze regel is gekoppeld aan het e-mailkanaal.
 
@@ -86,6 +86,11 @@ Meer informatie over doeltoewijzingen in [Campagne v8 (console)-documentatie](ht
 
 ## Levering {#delivery}
 
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_delivery"
+>title="Afleveringsinstellingen"
+>abstract="De parameters van de levering zijn technische montages die op uw levering van toepassing zijn."
+
 De parameters van de levering zijn technische montages die op uw levering van toepassing zijn.
 
 * **Routering**: de geïntegreerde e-mail die externe rekening verplettert wordt door gebrek verstrekt. Het bevat de technische parameters waarmee de applicatie e-mailberichten kan verzenden.
@@ -98,21 +103,18 @@ De parameters van de levering zijn technische montages die op uw levering van to
 
 ### Hernieuwde pogingen {#retries}
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_retries"
->title="Maximum aantal pogingen"
->abstract="Als een bericht mislukt als gevolg van een tijdelijke fout, worden opnieuw pogingen uitgevoerd tot het einde van de leveringsduur."
-
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
 Meer informatie over het beheer van nieuwe pogingen vindt u in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## Goedkeuring {#approval}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Goedkeuringsmodus"
->abstract="Elke leveringsstap kan worden goedgekeurd om volledige controle en controle van de verschillende processen te waarborgen."
+>title="Approval mode"
+>abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
+-->
 
 Als de waarschuwingen tijdens de leveringsvoorbereiding worden geproduceerd, kunt u de levering vormen om te bepalen al dan niet het nog zou moeten worden uitgevoerd. Door gebrek, moet de gebruiker het verzenden van berichten aan het eind van de analysefase bevestigen: dit is **handmatig** validatie.
 
@@ -128,19 +130,20 @@ U kunt een andere goedkeuringsmodus in het desbetreffende veld selecteren. Besch
 ## Geldigheid {#validity}
 
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_duration"
->title="Leveringsduur"
->abstract="In het veld Leveringsduur kunt u de limiet voor algemene leveringpogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, regelmatig, configureerbare herpogingen worden uitgevoerd tot de geldigheidsgrens wordt bereikt."
+>id="acw_email_settings_validity"
+>title="Geldigheid van instellingen"
+>abstract="In het veld Leveringsduur kunt u de limiet voor algemene leveringpogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, worden de regelmatige, configureerbare pogingen uitgevoerd tot de geldigheidsgrens wordt bereikt.Het gebied van de Geldigheidsgrens wordt gebruikt voor geüploade middelen, zoals de spiegelpagina of beelden. Deze bronnen gelden voor een beperkte periode: wanneer de limiet is bereikt, zijn er geen bronnen meer beschikbaar."
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
->title="Geldigheidslimiet voor bronnen"
->abstract="Het veld Geldigheidslimiet wordt gebruikt voor geüploade bronnen, zoals de spiegelpagina of afbeeldingen. Deze bronnen gelden voor een beperkte periode: wanneer de limiet is bereikt, zijn er geen bronnen meer beschikbaar."
-
+>title="Resources validity limit"
+>abstract="The Validity limit field is used for uploaded resources, such as the mirror page or images. These resources are valid for a limited time: once the limit is reached, resources are no longer available."
+-->
 
 De **Leveringsduur** in dit veld kunt u de limiet voor algemene leveringspogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, regelmatig, configureerbare herpogingen worden uitgevoerd tot de geldigheidsgrens wordt bereikt.
 
-U kunt ook datums opgeven. Selecteer **Geldigheidsdatums expliciet instellen**. In dit geval kunt u ook de leverings- en geldigheidstermijn opgeven. De huidige tijd wordt standaard gebruikt, maar u kunt deze rechtstreeks wijzigen in het invoerveld.
+U kunt ook datums opgeven. Selecteer **Geldigheidsdatums expliciet instellen**. In dit geval kunt u ook de tijd opgeven op basis van de uiterste datum voor levering en geldigheid. De huidige tijd wordt standaard gebruikt, maar u kunt deze rechtstreeks wijzigen in het invoerveld.
 
 **Geldigheidslimiet voor bronnen** wordt gebruikt voor geüploade bronnen, voornamelijk voor de spiegelpagina en afbeeldingen. De bronnen op deze pagina zijn gedurende een beperkte tijd geldig (om schijfruimte te besparen). Na deze limiet zijn deze bronnen niet meer beschikbaar.
 
@@ -163,10 +166,12 @@ Naast de standaardmodus zijn ook de volgende opties beschikbaar:
 
 ### Tracking {#tracking}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_tracking_validity"
->title="Geldigheidsperiode"
->abstract="Met deze optie bepaalt u de duur waarvoor de tracering wordt geactiveerd op de URL&#39;s."
+>title="Validity period"
+>abstract="This option defines the duration for which the tracking is activated on the URLs."
+-->
 
 De volgende parameters worden bepaald in de verwante sectie. Mogelijke opties zijn:
 
