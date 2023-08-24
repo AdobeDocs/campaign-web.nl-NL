@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 2ce793e148866e1f4c1a36d365e8aacb319a1dfb
+source-git-commit: f4d72c5dfb1aa4fbc73ab8ffc13d42396d9a1136
 workflow-type: tm+mt
-source-wordcount: '2286'
+source-wordcount: '2549'
 ht-degree: 0%
 
 ---
@@ -65,10 +65,11 @@ U kunt het kanaal selecteren dat u wilt weergeven. Deze indicatoren weerspiegele
 >title="Geleverd"
 >abstract="Deze metrische toont, voor het geselecteerde kanaal, de som van alle berichten die met succes worden verwerkt, en het percentage van bericht dat met succes in vergelijking met het totale aantal verzonden berichten wordt geleverd."
 
+Het aantal geleverde berichten komt overeen met de snelheid van de levering. Het kan nooit 100% om de volgende redenen zijn: sommige adressen of telefoonnummers kunnen onjuist zijn, spamblokkers bij e-mailproviders kunnen uw berichten afwijzen of er kunnen zich problemen voordoen met de leverantie.
 
 De **Geleverd** de indicator toont de volgende KPIs, voor elk kanaal:
 
-* Percentage van het aantal met succes geleverde berichten in verhouding tot het totale aantal te verzenden berichten.
+* Percentage van het aantal berichten dat met succes wordt geleverd in verhouding tot het totale aantal verzonden berichten.
 
 * De som van alle berichten die met succes zijn verwerkt.
 
@@ -84,6 +85,8 @@ Aantal berichten waarvoor het veld &quot;zaadadres&quot; gelijk is aan &quot;Nee
 >title="Geopende items"
 >abstract="Deze metrische toont, voor het geselecteerde kanaal, de som van alle geopende berichten, en het percentage van geopend bericht vergeleken met het totale aantal berichten die met succes worden geleverd."
 
+Totaal opent wordt berekend door het totale aantal tijden te volgen een bericht wordt geopend, ongeacht hoeveel individuele ontvangers die opent door worden geproduceerd. Deze indicator is alleen beschikbaar voor e-mails.
+
 De **Openen** de indicator toont de volgende KPIs, voor elk kanaal:
 
 * Percentage van het aantal geopende berichten in verhouding tot het totale aantal met succes geleverde berichten.
@@ -92,18 +95,22 @@ De **Openen** de indicator toont de volgende KPIs, voor elk kanaal:
 
 Adobe Campaign detecteert dat het bericht wordt geopend wanneer de ontvanger de afbeeldingen in de e-mail downloadt. HTML- en Multipart-/Alternatieve e-mailberichten bevatten een afbeelding van 0 pixels, waarmee u berichten kunt detecteren die zijn geopend. Aangezien berichten in tekstopmaak geen afbeeldingen bevatten, is het onmogelijk om te bepalen of ze zijn geopend of niet. Waarden die worden berekend op basis van het bericht dat wordt geopend, zijn altijd schattingen vanwege de foutmarge die is gekoppeld aan de beeldweergave.
 
-#### Klikpercentages {#ui-click-kpi}
+
+
+#### Doorklikfrequentie {#ui-click-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_clicks"
 >title="Klikken"
 >abstract="Deze metrisch toont, voor het geselecteerde kanaal, de som van al URL klikte in berichten, en het percentage kliks in vergelijking met het totale aantal berichten die met succes worden geleverd."
 
+U kunt URLs in uw berichtinhoud toevoegen, die ontvangers aan een bepaalde pagina opnieuw richt. Het klikthrough tarief meet het aantal en het percentage ontvangers die op een verbinding in het bericht klikte.
+
 De **Klikken** de indicator toont de volgende KPIs, voor elk kanaal:
 
 * Percentage van het aantal klikken in verhouding tot het totale aantal berichten dat met succes wordt geleverd.
 
-* Aantal verschillende personen dat ten minste één keer in een levering heeft geklikt. Koppelingen zonder abonnement en koppelingen naar spiegel worden niet opgenomen.
+* Aantal verschillende personen dat ten minste één keer in een levering heeft geklikt. Koppelingen zonder abonnement en koppelingen naar de spiegel voor e-mail zijn uitgesloten.
 
 Deze cijfers zijn gebaseerd op de Geconsolideerde tabel voor reeksspatiëring (`nms:trackingStats`). Deze bijeengevoegde lijst wordt gebruikt voor prestatiesredenen wanneer het tonen van rapporten, in de plaats van de Ontvanger het volgen logboeklijst (`nms:trackingLogRcp`) en wordt niet in real time berekend. De tabel wordt een paar minuten nadat de logbestanden voor bijhouden zijn opgehaald, gegenereerd.
 
@@ -114,6 +121,8 @@ Deze cijfers zijn gebaseerd op de Geconsolideerde tabel voor reeksspatiëring (`
 >id="acw_keyindicators_unsubscriptions"
 >title="Uitschrijvingen"
 >abstract="Deze metrisch toont, voor het geselecteerde kanaal, de som van alle abonnementen van de dienst, en het percentage van abonnementen in vergelijking met het totale aantal berichten die met succes worden geleverd."
+
+Ontvangers moeten zich kunnen afmelden bij e-mail en SMS via een speciale koppeling om hun abonnement op te zeggen in de e-mailinhoud of door STOP op een SMS te beantwoorden.
 
 De **Abonnementen** de indicator toont de volgende KPIs, voor elk kanaal:
 
@@ -128,6 +137,10 @@ De **Abonnementen** de indicator toont de volgende KPIs, voor elk kanaal:
 >id="acw_keyindicators_errors"
 >title="Fouten"
 >abstract="Het totale aantal fouten dat is gecumuleerd tijdens leveringen en automatische stuitverwerking. Het bijbehorende tarief is de verhouding met het aantal te leveren berichten."
+
+Sommige berichten die door je Adobe Campaign-platform worden verzonden, bereiken de bestemming mogelijk niet. Het kan gebeuren wanneer het gebruikersadres of de telefoon typos hebben, of als de ontvanger hun e-mailadres veranderde, of als hun brievenbus volledig is. Als een bericht niet naar een profiel kan worden verzonden, verzendt de externe server automatisch een foutbericht naar Adobe Campaign. Deze fout is gekwalificeerd om te bepalen of het e-mailadres, het telefoonnummer of het apparaat in quarantaine moet worden geplaatst.
+
+Dit betekent dat u de database altijd moet controleren en bijwerken en ervoor moet zorgen dat alle profielen actief en reëel zijn. De fouten van de levering kunnen tijdelijk of permanent zijn - zacht of hard stuiteren - afhankelijk van waarom het bericht niet werd geleverd.
 
 De **Fouten** de indicator toont de volgende KPIs, voor elk kanaal:
 
@@ -435,3 +448,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Uitvoer"
 >abstract="U kunt alleen de geselecteerde pagina exporteren."
 
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Afleveringslijst in een campagne"
+>abstract="Afleveringslijst in een campagne"
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_workflow_list"
+>title="Workflowlijst in een campagne"
+>abstract="Workflowlijst in een campagne"
