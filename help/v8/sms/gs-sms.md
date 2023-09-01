@@ -2,12 +2,12 @@
 audience: end-user
 title: Aan de slag met SMS-berichten
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '155'
+ht-degree: 2%
 
 ---
 
@@ -19,11 +19,11 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 
 * **[!UICONTROL Workflows]**: Voeg een activiteit van SMS toe, bepaal basismontages, en stel uw inhoud van SMS binnen een grotere automatiseringsopeenvolging samen.
 
-* **[!UICONTROL Campaigns]**: Neem SMS-leveringen op in speciale campagnes, waarbij parameters worden ingesteld zoals doelpubliek en leveringsschema.
+* **[!UICONTROL Campaigns]**: Neem SMS-leveringen op in specifieke campagnes, waarbij parameters worden ingesteld zoals doelpubliek en leveringsschema.
 
-* **Zelfstandige leveringen**: Creeer individuele leveringen van SMS voor snelle en directe communicatie met uw klanten, zonder de behoefte aan werkschema&#39;s of campagnes.
+* **Zelfstandige leveringen**: Maak afzonderlijke SMS-leveringen voor snelle en rechtstreekse communicatie met uw klanten, zonder dat u workflows of campagnes hoeft te volgen.
 
-![](../assets/do-not-localize/book.png) Leer hoe u het SMS-kanaal configureert in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Leer hoe u het SMS-kanaal configureert in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

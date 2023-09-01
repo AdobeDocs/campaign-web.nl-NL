@@ -3,10 +3,10 @@ audience: end-user
 title: E-mailrendering testen
 description: Leer hoe u uw e-mailrendering kunt testen in de interface van het campagneweb
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '222'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Hiervoor kunt u uw **Litmus** account [!DNL Adobe Campaign] om direct een voorve
 
 >[!CAUTION]
 >
->Als u e-mailrendering gebruikt in Campagne, wordt een test-e-mail verzonden naar een systeem van derden. Door uw rekening van Litmus met aan te sluiten [!DNL Campaign], erkent u dat Adobe niet verantwoordelijk is voor de gegevens die u naar die derde kunt verzenden. Het beleid voor het bewaren van gegevens per e-mail is van toepassing op deze e-mailberichten, inclusief personalisatiegegevens die in deze testberichten kunnen worden opgenomen. Als u dergelijke gegevens wilt openen of verwijderen, moet u rechtstreeks contact opnemen met Litmus.
+>Als u e-mailrendering gebruikt in Campagne, wordt een test-e-mail verzonden naar een systeem van derden. Door uw rekening van Litmus met aan te sluiten [!DNL Campaign], erkent u dat Adobe niet verantwoordelijk is voor gegevens die u naar die derde kunt verzenden. Het beleid voor het bewaren van gegevens per e-mail is van toepassing op deze e-mailberichten, inclusief personalisatiegegevens die in deze testberichten kunnen worden opgenomen. Als u dergelijke gegevens wilt openen of verwijderen, moet u rechtstreeks contact opnemen met Litmus.
 
 Voor toegang tot rendermogelijkheden via e-mail moet u:
 
@@ -29,7 +29,7 @@ Voor toegang tot rendermogelijkheden via e-mail moet u:
 
 Voer vervolgens de onderstaande stappen uit.
 
-1. In de [Inhoud bewerken](../content/edit-content.md) of in de [E-mailontwerper](../content/get-started-email-designer.md)klikt u op de knop **[!UICONTROL Simulate content]** knop.
+1. In de [Inhoud bewerken](../content/edit-content.md) of in de [E-mailDesigner](../content/get-started-email-designer.md)klikt u op de knop **[!UICONTROL Simulate content]** knop.
 
 1. Selecteer de knop **[!UICONTROL Render email]**.
 

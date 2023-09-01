@@ -2,10 +2,10 @@
 audience: end-user
 title: De workflowactiviteit Wachten gebruiken
 description: Leer hoe u de workflowactiviteit Wacht gebruikt
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 29%
 
 ---
@@ -27,6 +27,6 @@ Voer de volgende stappen uit om de **Wachten** activiteit:
 
 ## Voorbeeld
 
-In het volgende voorbeeld wordt het **Wachten** activiteit in een typisch geval van gebruik. U stuurt een e-mailuitnodiging voor een evenement. 24 uur nadat het is verzonden, wordt een SMS-verzending naar dezelfde populatie verzonden.
+In het volgende voorbeeld wordt het **Wachten** in een typisch geval. U stuurt een e-mailuitnodiging voor een evenement. 24 uur nadat het is verzonden, wordt een SMS-verzending naar dezelfde populatie verzonden.
 
 ![](../assets/workflow-wait-example.png)

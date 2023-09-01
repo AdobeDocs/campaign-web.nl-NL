@@ -2,10 +2,10 @@
 audience: end-user
 title: De workflowactiviteit voor pushmeldingen gebruiken
 description: Leer hoe u de workflowactiviteit voor pushmeldingen kunt gebruiken
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Pushmelding {#push-activity}
 
-De **Pushmelding** de leveringsactiviteit staat u toe om het verzenden van een duw bericht in een werkschema te vormen.
+De **Pushmelding** Met leveringsactiviteit kunt u het verzenden van een pushmelding configureren in een workflow.
 
 >[!BEGINTABS]
 

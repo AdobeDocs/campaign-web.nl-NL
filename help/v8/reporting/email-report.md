@@ -2,11 +2,11 @@
 audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
-badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1279'
+ht-degree: 1%
 
 ---
 
@@ -26,10 +26,10 @@ De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specif
 
    * **[!UICONTROL To deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
 
-   * **[!UICONTROL Exclusion]**: Het totale aantal berichten die zijn uitgesloten van het verzonden doel.
+   * **[!UICONTROL Exclusion]**: Het totale aantal berichten dat is uitgesloten van het verzonden doel.
 +++
 
-* **[!UICONTROL Delivery statistics]** de tabel geeft het succes van uw levering aan .
+* **[!UICONTROL Delivery statistics]** in de tabel wordt aangegeven hoe succesvol de levering is .
 
   ![](assets/reporting_email_2.png){align="left"}
 
@@ -37,15 +37,15 @@ De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specif
 
    * **[!UICONTROL Message sent]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
 
-   * **[!UICONTROL Success]**: Aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
+   * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-   * **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
+   * **[!UICONTROL Errors]**: Totaal aantal fouten bij leveringen en automatische oplevering in verhouding tot het aantal te leveren berichten.
 
-   * **[!UICONTROL New quarantines]**: Het totale aantal adressen quarantined na een ontbroken levering (onbekend gebruiker, ongeldig domein) met betrekking tot het aantal te leveren berichten.
+   * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (onbekend, ongeldig domein) in verhouding tot het aantal te leveren berichten.
 
 +++
 
-* **[!UICONTROL Causes of exclusion]** de grafiek en de tabel geven de uitsplitsing per regel van tijdens de analyse afgewezen berichten weer.
+* **[!UICONTROL Causes of exclusion]** de grafiek en de tabel geven de uitsplitsing per regel van de tijdens de analyse afgewezen berichten weer.
 
   ![](assets/reporting_email_3.png){align="center"}
 
@@ -59,9 +59,9 @@ De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specif
 
    * **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
 
-   * **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door IAP (Internet Access Provider) wordt verworpen, bijvoorbeeld na de toepassing van een veiligheidsregel (anti-spamsoftware).
+   * **[!UICONTROL Refused]**: Fouttype dat wordt gegenereerd wanneer een adres wordt afgewezen door de IAP (Internet Access Provider), bijvoorbeeld na toepassing van een beveiligingsregel (anti-spamsoftware).
 
-   * **[!UICONTROL Unreachable]**: Fouttype dat optreedt in de tekenreeks voor berichtdistributie: incident op het SMTP relais, tijdelijk onbereikbaar domein, enz.
+   * **[!UICONTROL Unreachable]**: Het type van fout dat in het koord van de berichtdistributie voorkomt: incident op het relais SMTP, domein tijdelijk onbereikbaar etc.
 
    * **[!UICONTROL Not connected]**: Fouttype om aan te geven dat de mobiele telefoon van de ontvanger op het moment van verzending wordt uitgeschakeld of losgekoppeld van het netwerk.
 
@@ -81,15 +81,15 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
    * **[!UICONTROL Processed emails]**: Het totale aantal berichten dat door de leveringsserver wordt verwerkt.
 
-   * **[!UICONTROL Delivered]**: Percentage van het aantal met succes verwerkte berichten vergeleken met het totale aantal verwerkte berichten.
+   * **[!UICONTROL Delivered]**: Percentage van het aantal succesvol verwerkte berichten vergeleken met het totale aantal verwerkte berichten.
 
    * **[!UICONTROL Hard bounces]**: Percentage van het aantal &#39;harde&#39; grenzen, permanente fouten, zoals een onjuist e-mailadres, in vergelijking met het totale aantal verwerkte berichten.
 
-   * **[!UICONTROL Soft bounces]**: Percentage van het aantal &quot;zachte&quot; grenzen, tijdelijke fouten zoals een volledig inbox, vergeleken met het totale aantal verwerkte berichten
+   * **[!UICONTROL Soft bounces]**: Percentage van het aantal &quot;zachte&quot; grenzen, tijdelijke fouten zoals een volledig postvak, vergeleken met het totale aantal verwerkte berichten
 
    * **[!UICONTROL Opens]**: Percentage van het aantal beoogde ontvangers die een bericht ten minste eenmaal hebben geopend in vergelijking met het aantal berichten dat met succes is verwerkt.
 
-   * **[!UICONTROL Clicks]**: Percentage van het aantal mensen die in een levering minstens eens in vergelijking met het aantal met succes verwerkte berichten klikte.
+   * **[!UICONTROL Clicks]**: Percentage van het aantal personen dat ten minste eenmaal op een levering heeft geklikt in verhouding tot het aantal berichten dat met succes is verwerkt.
 
    * **[!UICONTROL Unsubscriptions]**: Percentage van het aantal klikken op een koppeling zonder abonnement in verhouding tot het aantal berichten dat met succes is verwerkt.
 +++
@@ -98,7 +98,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 * **[!UICONTROL Breakdown of errors per type]** en **[!UICONTROL Breakdown of errors per domain]** tabellen en grafieken bevatten de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen.
 
-  De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer informatie over quarantainebeheer raadpleegt u [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+  De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer informatie over quarantainebeheer raadpleegt u [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
   ![](assets/campaign_report_email_6.png)
 
@@ -112,9 +112,9 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
    * **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
 
-   * **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door IAP (Internet Access Provider) wordt verworpen, bijvoorbeeld na de toepassing van een veiligheidsregel (anti-spamsoftware).
+   * **[!UICONTROL Refused]**: Fouttype dat wordt gegenereerd wanneer een adres wordt afgewezen door de IAP (Internet Access Provider), bijvoorbeeld na toepassing van een beveiligingsregel (anti-spamsoftware).
 
-   * **[!UICONTROL Unreachable]**: Fouttype dat optreedt in de tekenreeks voor berichtdistributie: incident op het SMTP relais, tijdelijk onbereikbaar domein, enz.
+   * **[!UICONTROL Unreachable]**: Het type van fout dat in het koord van de berichtdistributie voorkomt: incident op het relais SMTP, domein tijdelijk onbereikbaar etc.
 
    * **[!UICONTROL Not connected]**: Fouttype om aan te geven dat de mobiele telefoon van de ontvanger op het moment van verzending wordt uitgeschakeld of losgekoppeld van het netwerk.
 
@@ -128,15 +128,15 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
-   * **[!UICONTROL Success]**: Aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
+   * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-   * **[!UICONTROL Distinct opens]**: Het totale aantal beoogde ontvangers dat een bericht ten minste één keer heeft geopend.
+   * **[!UICONTROL Distinct opens]**: Het totale aantal beoogde ontvangers dat een bericht ten minste eenmaal heeft geopend.
 
-   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens eenmaal hebben geopend.
+   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
-   * **[!UICONTROL Clicks on the opt-out link]**: Aantal klikken op de verbinding van het unsubscription.
+   * **[!UICONTROL Clicks on the opt-out link]**: Het aantal klikken op de koppeling voor het opzeggen van abonnementen.
 
-   * **[!UICONTROL Clicks on the mirror link]**: Aantal klikken op de verbinding aan de spiegelpagina.
+   * **[!UICONTROL Clicks on the mirror link]**: Het aantal klikken op de koppeling naar de spiegelpagina.
 
    * **[!UICONTROL Estimation of forwards]**: Schatting van het aantal e-mails dat door de beoogde ontvangers is doorgestuurd.
 +++
@@ -147,13 +147,13 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
-   * **[!UICONTROL Sent]**: Het totale aantal verzonden berichten.
+   * **[!UICONTROL Sent]**: Totaal aantal verzonden berichten.
 
-   * **[!UICONTROL Complaints]**: Aantal berichten voor dit domein die als ongewenst door de ontvanger zijn gemeld.
+   * **[!UICONTROL Complaints]**: Het aantal berichten voor dit domein dat door de ontvanger als ongewenst is gemeld.
 
-   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens eenmaal hebben geopend.
+   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
-   * **[!UICONTROL Clicks]**: Aantal afzonderlijke beoogde ontvangers die minstens één keer op dezelfde levering hebben geklikt.
+   * **[!UICONTROL Clicks]**: Aantal verschillende beoogde ontvangers die minstens één keer op dezelfde levering hebben geklikt.
 
    * **[!UICONTROL Raw reactivity]**: Percentage van het aantal ontvangers dat ten minste één keer op een levering heeft geklikt in vergelijking met het aantal ontvangers dat een levering ten minste één keer heeft geopend.
 +++
@@ -166,7 +166,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
   +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
-   * **[!UICONTROL Reactivity]**: Verhouding van het aantal ontvangers voor wie de levering is bedoeld en waarop op de levering is geklikt, in verhouding tot het geschatte aantal ontvangers voor wie de levering is geopend.
+   * **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
    * **[!UICONTROL Distinct clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer op een levering heeft geklikt.
 
@@ -194,7 +194,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 ## Gebruikersactiviteiten {#user-activities-email}
 
-* **[!UICONTROL User activities]** toont de uitsplitsing van opent en klikt in de vorm van een grafiek. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag of uur of 30 minuten.
+* **[!UICONTROL User activities]** toont de uitsplitsing van opent en klikt in de vorm van een grafiek. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag, afgelopen uur of 30 minuten.
 
   ![](assets/reporting_email_10.png){align="center"}
 
@@ -202,7 +202,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
    * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens eenmaal hebben geopend.
+   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
 +++
 
@@ -216,7 +216,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
    * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens eenmaal hebben geopend.
+   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
 +++
 

@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: E-mailinhoud bewerken
+title: De e-mailinhoud bewerken
 description: Leer hoe u inhoud gaat maken met de gebruikersinterface E-mailontwerper in de webinterface van Campagne
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '379'
 ht-degree: 7%
 
 ---

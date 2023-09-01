@@ -2,8 +2,8 @@
 audience: end-user
 title: De werkstroomactiviteit Splitsen gebruiken
 description: Leer hoe u de activiteit van de gesplitste workflow gebruikt
-badge: label="Alfa"
-source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Splitsen {#split}
 
-De **Splitsen** activiteit is **Doelstelling** activiteit die u toestaat om inkomende populaties in veelvoudige subsets te segmenteren die op verschillende selectiecriteria, zoals het filtreren regels of populatiegrootte worden gebaseerd.
+De **Splitsen** activiteit is **Targeting** activiteit die u toestaat om inkomende populaties in veelvoudige subsets te segmenteren die op verschillende selectiecriteria, zoals het filtreren regels of populatiegrootte worden gebaseerd.
 
 ## Configuratie {#general}
 
@@ -39,15 +39,15 @@ Voer de volgende stappen uit om de **Splitsen** activiteit:
 
    1. Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en vorm de gewenste het filtreren regel. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres voorkomt in de database.
 
-   1. Schakel het selectievakje **[!UICONTROL Enable limit]** en geeft het aantal of de percentages van de populatie aan die moeten worden opgenomen.
+   1. Als u het aantal profielen dat door de subset is geselecteerd, wilt beperken, schakelt u het **[!UICONTROL Enable limit]** en geeft het aantal of de percentages van de populatie aan die moeten worden opgenomen.
 
       >[!NOTE]
       >
-      >Wanneer u een populatielimiet voor een subset instelt, kunt u de geselecteerde profielen op basis van een specifiek profielkenmerk in oplopende of aflopende volgorde rangschikken. Om dit te doen, knevel op **[!UICONTROL Enable sorting]** optie. U kunt bijvoorbeeld een subset beperken tot alleen de bovenste 50 profielen met het hoogste aankoopbedrag.
+      >Wanneer u een populatielimiet voor een subset instelt, kunt u de geselecteerde profielen op basis van een specifiek profielkenmerk in oplopende of aflopende volgorde rangschikken. Om dit te doen, knevel op **[!UICONTROL Enable sorting]** -optie. U kunt bijvoorbeeld een subset beperken tot alleen de bovenste 50 profielen met het hoogste aankoopbedrag.
 
    ![](../assets/workflow-split-subset.png)
 
-1. Zodra u alle subsets hebt gevormd, kunt u de resterende populatie selecteren die geen van de subsets aanpast en hen in een extra uitgaande overgang omvat. Om dit te doen, knevel op **[!UICONTROL Generate complement]** optie.
+1. Zodra u alle subsets hebt gevormd, kunt u de resterende populatie selecteren die geen van de subsets aanpast en hen in een extra uitgaande overgang omvat. Om dit te doen, knevel op **[!UICONTROL Generate complement]** -optie.
 
    ![](../assets/workflow-split-complement.png)
 
@@ -58,7 +58,7 @@ De activiteit wordt nu gevormd. Bij de uitvoering van de workflow wordt de popul
 In het volgende voorbeeld wordt **[!UICONTROL Split]** De activiteit wordt gebruikt om een publiek in verschillende subsets te segmenteren die op het communicatiekanaal worden gebaseerd dat wij willen gebruiken:
 
 * **Subset 1 &quot;push&quot;**: Deze subset bestaat uit alle profielen die onze mobiele toepassing hebben geïnstalleerd.
-* **Subset 2 &quot;sms&quot;**: Gebruikers van mobiele telefoons: Voor de resterende populatie die niet in Subset 1 viel, past subset 2 een het filtreren regel op uitgezochte profielen met mobiele telefoons in het gegevensbestand toe.
+* **Subset 2 &quot;sms&quot;**: Gebruikers van mobiele telefoons: voor de resterende populatie die niet in Subset 1 viel, past subset 2 een filterregel toe op het selecteren van profielen met mobiele telefoons in de database.
 * **Overgang aanvullen**: Deze overgang legt alle resterende profielen vast die niet overeenkomen met Subset 1 of Subset 2. Het bevat met name profielen die de mobiele toepassing niet hebben geïnstalleerd en geen mobiele telefoon hebben, zoals gebruikers die de mobiele app niet hebben geïnstalleerd of die geen geregistreerd mobiel nummer hebben.
 
 ![](../assets/workflow-split-example.png)

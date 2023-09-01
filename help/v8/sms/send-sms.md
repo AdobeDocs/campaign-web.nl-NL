@@ -2,8 +2,8 @@
 audience: end-user
 title: Verzend een SMS-levering
 description: Meer informatie over het verzenden van SMS via Adobe Campaign Web
-badge: label="Alfa"
-source-git-commit: 554e839c2ac715ddc69ed6acfea0844c5436c07a
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Het verzenden van testSMS is een belangrijke stap in het verzekeren van de kwali
 
    Als er fouten optreden, raadpleegt u het menu Logs voor meer informatie over de fout.
 
-1. De berichten verzenden door op **[!UICONTROL Send]** om door te gaan met het definitieve verzendingsproces.
+1. Verzend de berichten door op te klikken **[!UICONTROL Send]** om door te gaan met het definitieve verzendingsproces.
 
    ![](assets/sms_send_5.png)
 
@@ -68,7 +68,7 @@ Het verzenden van testSMS is een belangrijke stap in het verzekeren van de kwali
 
 Zodra uw levering wordt verzonden, kunt u uw KPIs (Zeer belangrijke Indicator van Prestaties) gegevens van uw leveringspagina en gegevens van volgen **[!UICONTROL Logs]** -menu.
 
-U kunt nu de impact van uw bericht meten met ingebouwde rapporten. [Meer informatie](../reporting/sms-report.md)
+U kunt nu beginnen de impact van uw bericht te meten met ingebouwde rapporten. [Meer informatie](../reporting/sms-report.md)
 
 
 

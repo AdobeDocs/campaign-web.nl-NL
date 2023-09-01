@@ -2,9 +2,9 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Alfa"
+badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 2%

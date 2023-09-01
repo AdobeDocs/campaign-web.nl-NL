@@ -2,28 +2,28 @@
 audience: end-user
 title: Aan de slag met pushmeldingen
 description: Meer informatie over het maken en verzenden van pushberichten via Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met pushmeldingen {#push}
 
-Pushmeldingen zijn essentieel voor het bereiken van gebruikers van uw mobiele app, zelfs als zij uw app niet actief gebruiken. Zij dienen diverse doeleinden zoals het verstrekken van updates, het drijven van specifieke acties, en het op de hoogte brengen van overeenkomsten. Gebruikers moeten zich aanmelden om deze melding te ontvangen.
+Pushberichten zijn essentieel voor het bereiken van een mobiele app-gebruiker, zelfs als deze uw app niet actief gebruikt. Zij dienen diverse doeleinden zoals het verstrekken van updates, het drijven van specifieke acties, en het op de hoogte brengen van overeenkomsten. Gebruikers moeten zich aanmelden om deze melding te ontvangen.
 
 Voor het maken van pushberichten hebt u drie opties:
 
-* Workflows: Nadat u een Push-kanaalactiviteit aan uw workflow hebt toegevoegd en de basisinstellingen hebt geconfigureerd, kunt u de inhoud van uw pushberichten opnieuw ordenen vanuit het rechterdeelvenstermenu. Raadpleeg deze pagina voor gedetailleerde instructies over het configureren van de workflow.
+* Workflows: nadat u een Push-kanaalactiviteit aan uw workflow hebt toegevoegd en de basisinstellingen hebt geconfigureerd, kunt u de inhoud van uw pushberichten opnieuw ordenen via het menu in het rechterdeelvenster. Raadpleeg deze pagina voor gedetailleerde instructies over het configureren van de workflow.
 
-* Campagnes: Nadat u een campagne hebt gemaakt, kunt u een pushmelding maken. Raadpleeg deze pagina voor meer informatie over het instellen van uw campagne.
+* Campagnes: Zodra u een campagne hebt gecreeerd, kunt u een de berichtlevering van de Duw tot stand brengen. Raadpleeg deze pagina voor meer informatie over het instellen van uw campagne.
 
-* Zelfstandige leveringen: Neem direct en direct contact op met klanten met individuele pushberichten, zonder dat ze werkstromen of campagnes nodig hebben.
+* Zelfstandige leveringen: neem klanten direct en direct contact op met individuele pushberichten, zonder dat ze werkstromen of campagnes nodig hebben.
 
-![](../assets/do-not-localize/book.png) Leer hoe u het pushmeldingskanaal configureert in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Leer hoe u het pushmeldingskanaal configureert in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -3,10 +3,10 @@ audience: end-user
 title: Aanbiedingen verzenden
 description: Aanbiedingen verzenden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Aanbiedingen verzenden {#offers-content}
 
-Met Adobe Campaign v8 Web kunt u aanbiedingen die in de console zijn gemaakt, verzenden met de **[!UICONTROL Interaction]** module. Voor meer informatie over Interactie en hoe te om een aanbiedingencatalogus in de console te beheren, verwijs naar [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Met Adobe Campaign v8 Web kunt u aanbiedingen die in de console zijn gemaakt, verzenden met de **[!UICONTROL Interaction]** -module. Voor meer informatie over Interactie en hoe te om een aanbiedingscatalogus in de console te beheren, verwijs naar [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
-De stappen voor het verzenden van voorstellen met levering zijn als volgt:
+De stappen voor het verzenden van voorstellen met een levering zijn als volgt:
 
 1. [Configureer de aanbiedingen die u wilt voorstellen](#configure)
 1. [Voeg de voorstellen in de levering in](#insert)
@@ -39,13 +39,13 @@ De stappen voor het verzenden van voorstellen met levering zijn als volgt:
 
 1. Vorm welke aanbiedingen aan de ontvangers zouden moeten worden voorgesteld.
 
-   Selecteer eerst de **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving. Leer hoe u een aanbiedingsruimte maakt in het dialoogvenster [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+   Selecteer eerst de optie **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving. Leer hoe u een aanbiedingsruimte maakt in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
 
    ![](assets/create-content-offers.png)
 
-1. Selecteer een specifieke **[!UICONTROL Offer category]** waarin de aanbiedingen worden gesorteerd.
+1. Als u de keuze van de motor met aanbiedingen wilt verfijnen, selecteert u een specifieke **[!UICONTROL Offer category]** waarin de aanbiedingen worden gesorteerd.
 
-   Wanneer u een map selecteert, worden alle submappen automatisch opgenomen en kunnen deze niet worden verwijderd. De [!DNL Campaign] interface weerspiegelt dit gedrag niet.
+   Wanneer u een map selecteert, worden alle submappen automatisch opgenomen en kunnen deze niet worden verwijderd. Let erop dat de [!DNL Campaign] interface weerspiegelt dit gedrag niet.
 
    >[!NOTE]
    >
@@ -55,14 +55,14 @@ De stappen voor het verzenden van voorstellen met levering zijn als volgt:
 
 1. Gebruik de **[!UICONTROL Propositions]** veld om het aantal voorstellen op te geven dat u in de levering wilt invoegen.
 
-1. Selecteer **[!UICONTROL Exclude non-eligible recipients]** indien nodig.
+1. Selecteer de **[!UICONTROL Exclude non-eligible recipients]** indien nodig.
 
    Met deze optie kunt u de uitsluiting activeren of deactiveren van ontvangers voor wie onvoldoende geschikte voorstellen zijn.
 
    * Als de optie is ingeschakeld, worden ontvangers die onvoldoende voorstellen hebben, uitgesloten van de levering.
    * Als de optie is uitgeschakeld, worden deze ontvangers niet uitgesloten, maar kunnen ze niet het gewenste aantal voorstellen hebben.
 
-1. Selecteer indien nodig de **[!UICONTROL Hide everything if no offer is selected]** optie.
+1. Selecteer indien nodig de **[!UICONTROL Hide everything if no offer is selected]** -optie.
 
    Met deze optie kunt u kiezen hoe het bericht wordt verwerkt als een van de voorstellen niet bestaat.
 
@@ -85,7 +85,7 @@ Volg onderstaande stappen om een aanbieding in te voegen met de Expressieeditor.
 
 1. Plaats de cursor van de muis op de plaats waar u de aanbieding wilt invoegen en open de Expressieeditor met behulp van het verpersoonlijkingspictogram.
 
-1. Selecteer **[!UICONTROL Propositions]** -menu. De beschikbare voorstellingen worden in de lijst weergegeven.
+1. Selecteer de **[!UICONTROL Propositions]** -menu. De beschikbare voorstellingen worden in de lijst weergegeven.
 
    >[!NOTE]
    >

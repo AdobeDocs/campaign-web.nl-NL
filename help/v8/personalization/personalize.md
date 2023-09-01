@@ -6,16 +6,16 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 
-# Uw inhoud aanpassen {#add-personalization}
+# Uw inhoud personaliseren {#add-personalization}
 
 U kunt elke levering personaliseren door de uitdrukkingsredacteur te gebruiken, die in gebieden met te gebruiken **[!UICONTROL Open personalization dialog]** -pictogram, zoals de onderwerpregel, e-mailkoppelingen en tekst-/knopinhoudcomponenten. [Leer hoe u toegang krijgt tot de expressie-editor](gs-personalization.md/#access)
 
@@ -42,9 +42,9 @@ Voer de volgende stappen uit om personalisatietags toe te voegen aan een leverin
    | Menu | Beschrijving |
    |-----|------------|
    | ![](assets/do-not-localize/perso-subscribers-menu.png) | De **[!UICONTROL Subscribers application]** bevat velden die betrekking hebben op de abonnees van een toepassing, zoals de gebruikte terminal of het besturingssysteem. *Dit menu is alleen beschikbaar voor pushmeldingen* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png) | De **[!UICONTROL Recipient]** worden de velden weergegeven die zijn gedefinieerd in de tabel met ontvangers, zoals namen, pagina&#39;s of adressen van ontvangers. Wanneer [contactpersonen uit een extern bestand uploaden](../audience/file-audience.md) voor een zelfstandige e-maillevering worden in dit menu alle velden weergegeven die beschikbaar zijn in het invoerbestand. |
+   | ![](assets/do-not-localize/perso-recipients-menu.png) | De **[!UICONTROL Recipient]** worden de velden weergegeven die zijn gedefinieerd in de tabel met ontvangers, zoals namen, pagina&#39;s of adressen van ontvangers. Wanneer [contactpersonen uit een extern bestand uploaden](../audience/file-audience.md) voor een standalone e-maillevering, maakt dit menu een lijst van alle gebieden beschikbaar in het inputdossier. |
    | ![](assets/do-not-localize/perso-message-menu.png) | De **[!UICONTROL Message]** menu maakt een lijst van gebieden met betrekking tot de leveringslogboeken, met inbegrip van alle berichten die naar ontvangers of apparaten over alle kanalen worden verzonden, zoals de datum van de laatste gebeurtenis met een bepaalde ontvanger |
-   | ![](assets/do-not-localize/perso-delivery-menu.png) | De **[!UICONTROL Delivery]** bevat velden die betrekking hebben op de parameters die vereist zijn voor het uitvoeren van leveringen, zoals het leveringskanaal of label. |
+   | ![](assets/do-not-localize/perso-delivery-menu.png) | De **[!UICONTROL Delivery]** worden de velden weergegeven die betrekking hebben op de parameters die vereist zijn voor het uitvoeren van leveringen, zoals het leveringskanaal of label. |
 
    >[!NOTE]
    >

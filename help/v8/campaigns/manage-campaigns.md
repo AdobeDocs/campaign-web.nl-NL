@@ -2,8 +2,8 @@
 audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
-badge: label="Alfa"
-source-git-commit: c9954ce69e50e1c8db2532be3292f71ff20f9f74
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Standaard geeft elke campagne in de lijst informatie weer over de huidige status
 
 U kunt de weergegeven kolommen aanpassen door op de knop **Kolom voor een aangepaste indeling configureren** in de rechterbovenhoek van de lijst. Op deze manier kunt u aanvullende informatie aan de lijst toevoegen. Bovendien zijn er een zoekbalk en filters beschikbaar waarmee u gemakkelijk in de lijst kunt zoeken. [Meer informatie](../get-started/user-interface.md#list-screens).
 
-U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het filterdeelvenster en gebruik de **Begin - Einddatum** sectie:
+U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het filterdeelvenster en gebruik de knop **Begin - Einddatum** sectie:
 
 ![Campagne, filter](assets/campaign-filter-on-dates.png)
 
@@ -56,8 +56,8 @@ Er zijn twee tabbladen beschikbaar:
 
 U kunt een campagne dupliceren of verwijderen:
 
-* Klik in de lijst met campagnes op de knop voor weglatingsteken en selecteer **Dupliceren** of **Verwijderen**.
-* van de campagne zelf klikt u op de knop **Meer** dan selecteert u **Dupliceren** of **Verwijderen**.
+* in de lijst met campagnes klikt u op de knop voor ovaal en selecteert u **Dupliceren** of **Verwijderen**.
+* Klik in de campagne zelf op de knop **Meer** dan selecteert u **Dupliceren** of **Verwijderen**.
 
 >[!NOTE]
 >

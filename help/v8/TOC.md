@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '359'
 ht-degree: 11%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 11%
    + [Aan de slag](get-started/get-started.md)
    + [De interface detecteren](get-started/user-interface.md)
    + [Bladeren, zoeken en filteren](get-started/list-filters.md)
+   + [Toegang en machtigingen](get-started/permissions.md)
 + Berichten en leveringen {#msg}
    + [Aan de slag met berichten](msg/gs-messages.md)
    + [Werken met leveringssjablonen](msg/delivery-template.md)
@@ -104,9 +105,10 @@ ht-degree: 11%
       + [Wachten](workflows/activities/wait.md)
 + Rapportage {#reports}
    + [Aan de slag met rapporten](reporting/gs-reports.md)
+   + [Belangrijkste prestatie-indicatoren](reporting/kpis.md)
    + Leveringsrapporten {#delivery-report}
       + [Toegang tot leveringsrapporten](reporting/delivery-reports.md)
       + [E-mailleveringsrapport](reporting/email-report.md)
       + [Push-leveringsrapport](reporting/push-report.md)
       + [SMS-leveringsrapport](reporting/sms-report.md)
-   + [Campagnerapporten](reporting/campaign-reports.md)
+   + [Campagneverslagen](reporting/campaign-reports.md)

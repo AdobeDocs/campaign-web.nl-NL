@@ -2,11 +2,11 @@
 audience: end-user
 title: Een SMS-levering ontwerpen
 description: Meer weten over het ontwerpen van je SMS-aanbieding?
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 1a70d033-6f1b-482b-9948-59ef75871750
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '160'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 >title="App-abonnees"
 >abstract="Geef een voorvertoning van het bericht weer en test het bericht door abonnees van de app aan het hoofddoel toe te voegen."
 
-1. Klik op de leveringspagina op de knop **[!UICONTROL Edit content]** om uw SMS-inhoud te ontwerpen.
+1. Klik op de leveringspagina op **[!UICONTROL Edit content]** om uw SMS-inhoud te ontwerpen.
 
 1. Op de **[!UICONTROL Edit content]** pagina, kunt u de afzendernaam aanpassen door tot **[!UICONTROL Sender field]** en voert u de voorkeursnaam in.
 
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 1. Standaard is het bijhouden van gegevens ingeschakeld voor leveringen. U kunt deze optie uitschakelen in het dialoogvenster **[!UICONTROL Optional features section]**.
 
-1. Toegang krijgen tot **[!UICONTROL Simulate content]** om een voorvertoning van uw persoonlijke inhoud weer te geven. [Meer informatie](send-sms.md#preview-sms)
+1. Toegang krijgen tot de **[!UICONTROL Simulate content]** om een voorvertoning van uw persoonlijke inhoud weer te geven. [Meer informatie](send-sms.md#preview-sms)
 
 1. Klikken **[!UICONTROL Save]** en controleer uw bericht in de voorvertoning.
 

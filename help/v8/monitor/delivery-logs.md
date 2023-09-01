@@ -3,10 +3,10 @@ audience: end-user
 title: Leveringslogboeken controleren
 description: Leer hoe u leveringslogboeken kunt controleren
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Alpha"
-source-git-commit: f7ffa5daaff1ad57bba365bc09ed24fa08a277f0
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '358'
 ht-degree: 25%
 
 ---
@@ -70,7 +70,7 @@ De **Bijgehouden URL&#39;s** worden de URL&#39;s in de verzonden berichten opnie
 
 ## Tracking {#tracking-tab}
 
-De **Tekstspatiëring** wordt de volggeschiedenis voor deze levering weergegeven. Op dit tabblad worden volggegevens weergegeven voor de verzonden berichten, d.w.z. alle URL&#39;s die door Adobe Campaign moeten worden gevolgd.
+De **Tekstspatiëring** wordt de volggeschiedenis voor deze levering weergegeven. Op dit tabblad worden trackinggegevens weergegeven voor de verzonden berichten, d.w.z. alle URL&#39;s die door Adobe Campaign moeten worden gevolgd.
 
 
 ![](assets/logs6.png)

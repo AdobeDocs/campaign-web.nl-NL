@@ -3,10 +3,10 @@ audience: end-user
 title: Leveringsrapporten
 description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '85'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Adobe Campaign biedt verschillende typen rapporten die voor elke levering toegan
 
 Voer de volgende stappen uit om rapporten weer te geven:
 
-1. Als u een rapport voor een specifieke levering wilt genereren, navigeert u naar de **[!UICONTROL Deliveries]** en selecteer de levering u wenst om te melden.
+1. Als u een rapport voor een specifieke levering wilt genereren, navigeert u naar de **[!UICONTROL Deliveries]** en selecteert u de levering waarvoor u een melding wilt maken.
 
 1. Van uw **[!UICONTROL Delivery]** dashboard, klik **[!UICONTROL Reports]**.
 

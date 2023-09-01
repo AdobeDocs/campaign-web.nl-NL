@@ -2,10 +2,10 @@
 audience: end-user
 title: Werkstroomactiviteit combineren gebruiken
 description: Leer hoe u de workflowactiviteit combineren gebruikt
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '687'
 ht-degree: 11%
 
 ---
@@ -50,16 +50,16 @@ Voer de volgende algemene stappen uit om de configuratie van de **Combineren** a
 >title="Doorsnede afstemmingsopties"
 >abstract="Selecteer het afstemmingstype om te bepalen hoe duplicaten worden verwerkt."
 
-Voor de **Unie** selecteert u de **Type afstemming** om te bepalen hoe duplicaten worden verwerkt:
+Voor de **Unie**, moet u de **Type afstemming** om te bepalen hoe duplicaten worden verwerkt:
 
 * **Alleen toetsen**: dit is de standaardmodus. De activiteit behoudt slechts één element wanneer elementen van de verschillende binnenkomende overgangen dezelfde sleutel hebben. Deze optie kan alleen worden gebruikt als de binnenkomende populaties homogeen zijn.
-* **Een selectie van kolommen**: Selecteer deze optie om de lijst met kolommen te definiëren waarop de afstemming van gegevens wordt toegepast. U moet eerst de primaire set (de set met de brondata) selecteren en vervolgens de kolommen die u voor de samenvoeging wilt gebruiken.
+* **Een selectie van kolommen**: selecteer deze optie om de lijst met kolommen te definiëren waarop de afstemming van gegevens wordt toegepast. U moet eerst de primaire set (de set met de brondata) selecteren en vervolgens de kolommen die u voor de samenvoeging wilt gebruiken.
 
 ## Doorsnede {#intersection}
 
 Voor de **Intersectie**, moet u deze extra stappen volgen:
 
-1. Selecteer **Type afstemming** om te bepalen hoe duplicaten worden verwerkt. Zie de [Unie](#union) sectie.
+1. Selecteer de **Type afstemming** om te bepalen hoe duplicaten worden verwerkt. Zie de [Unie](#union) sectie.
 1. U kunt de **Voltooiing genereren** als u de resterende populatie wilt verwerken. Het complement zal de samenvoeging bevatten van de resultaten van alle binnenkomende activiteiten min de doorsnede. Een extra uitgaande overgang zal dan aan de activiteit worden toegevoegd.
 
 ## Uitsluiting {#exclusion}
@@ -72,12 +72,12 @@ Voor de **Intersectie**, moet u deze extra stappen volgen:
 Voor de **Uitsluiting**, moet u deze extra stappen volgen:
 
 1. In de **Stelt in om te verbinden** selecteert u de **Primaire set** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set.
-1. Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Klik op **Een regel toevoegen** in de **Uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van de dimensie op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie.
+1. Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Om dit te doen, klik **Een regel toevoegen** in de **Uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van de dimensie op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie.
 1. U kunt de **Voltooiing genereren** als u de resterende populatie wilt verwerken. Zie de [Intersectie](#intersection) sectie.
 
 ## Voorbeelden
 
-In het volgende voorbeeld hebben we een **union** dat alle profielen van de twee vragen terugwint: personen tussen 18 en 27 jaar oud en personen tussen 34 en 40 jaar oud.
+In het volgende voorbeeld hebben we een **union** dat geeft alle profielen van de twee zoekopdrachten weer : personen tussen 18 en 27 jaar en personen tussen 34 en 40 jaar oud .
 
 ![](../assets/workflow-union-example.png)
 
@@ -85,7 +85,7 @@ In het volgende voorbeeld wordt het **intersection** tussen twee zoekactiviteite
 
 ![](../assets/workflow-intersection-example.png)
 
-Het volgende **uitsluiting** Het voorbeeld toont twee vragen die aan filterprofielen worden gevormd die tussen 18 en 27 jaar oud zijn en een Adobe e-maildomein hebben. De profielen met een domein van de Adobe e-mail worden dan uitgesloten van de eerste reeks.
+Het volgende **uitsluiting** Het voorbeeld toont twee vragen die aan filterprofielen worden gevormd die tussen 18 en 27 jaar oud zijn en een Adobe e-maildomein hebben. De profielen met een Adobe e-maildomein worden dan uitgesloten van de eerste set.
 
 ![](../assets/workflow-exclusion-example.png)
 

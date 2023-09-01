@@ -1,10 +1,10 @@
 ---
 audience: end-user
 title: Uw eerste e-mail verzenden
-description: Leer hoe u uw eerste e-mail verzendt met de interface van het Web van de Campagne
+description: Meer informatie over het verzenden van uw eerste e-mail via de webinterface voor campagnes
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Alpha"
-source-git-commit: 09a05a886b0ef509cf0e0178609315264c8f56a1
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 1%
@@ -53,10 +53,10 @@ Ga als volgt te werk om een nieuwe levering te maken:
 1. Voer een label voor de levering in en configureer aanvullende opties op basis van uw behoeften:
 
    * **[!UICONTROL Internal name]**: een unieke identificatiecode aan de levering toewijzen;
-   * **[!UICONTROL Folder]**: de levering opslaan in een specifieke map,
+   * **[!UICONTROL Folder]**: sla de levering op in een specifieke map,
    * **[!UICONTROL Delivery code]**: gebruik dit veld om uw leveringen te ordenen op basis van uw eigen naamgevingsconventie,
    * **[!UICONTROL Description]**: een omschrijving van de levering,
-   * **[!UICONTROL Nature]**: de aard van het e-mailbericht voor classificatiedoeleinden specificeren.<!--The content of the list is defined in the delivery template selected when creating the email.-->
+   * **[!UICONTROL Nature]**: specificeer de aard van de e-mail voor classificatiedoeleinden.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ In dit geval gebruikt u een vooraf gedefinieerde e-mail [leveringssjabloon](../m
 
    ![](assets/select-template.png)
 
-1. Nadat u de sjabloon hebt geselecteerd, wordt deze weergegeven in het dialoogvenster [E-mailontwerper](../content/create-email-content.md), waar u eventueel noodzakelijke bewerkingen kunt uitvoeren en personalisatie kunt toevoegen.
+1. Nadat u de sjabloon hebt geselecteerd, wordt deze weergegeven in het dialoogvenster [E-mailDesigner](../content/create-email-content.md), waar u eventueel noodzakelijke bewerkingen kunt uitvoeren en personalisatie kunt toevoegen.
 
    Als u bijvoorbeeld personalisatie wilt toevoegen aan de e-mailtitel, selecteert u het componentblok en klikt u op **[!UICONTROL Add Personalization]**.
 
@@ -121,7 +121,7 @@ In dit geval stuurt u de e-mail naar een bestaand publiek. Aanvullende instructi
    >
    >Het publiek beschikbaar in de lijst komt van uw instantie van de Campagne v8 of van Adobe Experience Platform voort als de Bestemming/Bronintegratie op uw instantie is gevormd.
    >
-   >Met de integratie Doel/Bronnen kunt u de segmenten Experience Platform naar Adobe Campaign verzenden en de bezorging en tracering van campagnes naar Adobe Experience Platform verzenden. Meer informatie over het werken met Campagne en Adobe Experience Platform in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
+   >Met de integratie Doel/Bronnen kunt u de segmenten Experience Platform naar Adobe Campaign verzenden en de bezorging en tracering van campagnes naar Adobe Experience Platform verzenden. Meer informatie over het werken met Campagne en Adobe Experience Platform in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
 
 1. Als het publiek is geselecteerd, kunt u het doel verder verfijnen door aanvullende regels toe te passen.
 
@@ -150,15 +150,15 @@ In dit geval bekijkt u een voorbeeld van de e-mail en verzendt u testversies naa
 
 Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in [deze sectie](../preview-test/preview-test.md).
 
-1. Klik op **[!UICONTROL Review and send]**. Dit toont een voorproef van uw e-mail, samen met alle gevormde eigenschappen, publiek en programma. U kunt al deze elementen bewerken door op de knop Wijzigen te klikken.
+1. Als u uw e-mail wilt bekijken, klikt u op **[!UICONTROL Review and send]**. Dit toont een voorproef van uw e-mail, samen met alle gevormde eigenschappen, publiek en programma. U kunt al deze elementen bewerken door op de knop Wijzigen te klikken.
 
-1. Klik op de knop **[!UICONTROL Simulate content]** knop.
+1. Als u een voorbeeld van de e-mail wilt bekijken en testversies wilt verzenden, klikt u op de knop **[!UICONTROL Simulate content]** knop.
 
    ![](assets/review-email.png)
 
 1. Selecteer links het profiel of de profielen die u wilt gebruiken voor een voorbeeld van het e-mailbericht.
 
-   In het rechterdeelvenster ziet u een voorbeeld van het e-mailbericht op basis van het geselecteerde profiel. Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen schakelen om een voorbeeld van de bijbehorende e-mail te bekijken.
+   In het rechterdeelvenster ziet u een voorbeeld van de e-mail op basis van het geselecteerde profiel. Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen schakelen om een voorbeeld van de bijbehorende e-mail te bekijken.
 
    ![](assets/preview.png)
 
@@ -179,7 +179,7 @@ Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in
 
 1. Klikken **[!UICONTROL Send test email]** en de verzending bevestigen.
 
-   Testversies worden naar de opgegeven e-mailadressen verzonden met behulp van het geselecteerde profiel met het **[Proef x]** voorvoegsel.
+   Testversies worden naar de opgegeven e-mailadressen verzonden met behulp van het geselecteerde profiel met het **[Proef x]** voorvoegsel
 
    ![](assets/proof-sent.png)
 
@@ -189,7 +189,7 @@ Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in
 
 Nadat u uw e-mail hebt bekeken en getest, kunt u de voorbereiding starten en verzenden.
 
-1. Klik op **[!UICONTROL Prepare]**. [Leer hoe u een e-mail voorbereidt](../monitor/prepare-send.md)
+1. Als u het voorbereiden van de e-mail wilt starten, klikt u op **[!UICONTROL Prepare]**. [Leer hoe u een e-mail voorbereidt](../monitor/prepare-send.md)
 
    ![](assets/preparation.png)
 

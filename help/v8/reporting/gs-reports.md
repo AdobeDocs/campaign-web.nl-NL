@@ -2,8 +2,8 @@
 audience: end-user
 title: Aan de slag met rapporten
 description: Leer om tot rapporten in het Web van de Campagne toegang te hebben en te leiden
-badge: label="Alfa"
-source-git-commit: 12578ed208ba9261b69ba5907c0083e483248a49
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%

@@ -2,10 +2,10 @@
 audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '311'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # publiek opbouwen {#build-audience}
 
-De **publiek opbouwen** activiteit is **Doelstelling** activiteit. Met deze activiteit kunt u het publiek definiëren dat de workflow zal betreden. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit.
+De **publiek opbouwen** activiteit is **Targeting** activiteit. Met deze activiteit kunt u het publiek definiëren dat de workflow zal betreden. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit.
 
 Om de publieksbevolking te bepalen, kunt u:
 
@@ -39,8 +39,8 @@ Voer de volgende stappen uit om de **publiek opbouwen** activiteit:
 
 Voer de volgende extra stappen uit om uw eigen query te maken:
 
-1. Selecteren **Uw eigen (query) maken**.
-1. Kies de optie **Doeldimensie**. Met de doeldimensie kunt u de doelgroep voor de bewerking definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers. Zie de [v8-documentatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
+1. Selecteren **Uw eigen bestand maken (query)**.
+1. Kies de optie **Doeldimensie**. Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers. Zie de [v8-documentatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#targeting-and-filtering-dimensions){target="_blank"}.
 1. Klikken **Doorgaan**.
 1. Gebruik de bouwer van de regel om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. Zie dit [sectie](../../audience/segment-builder.md).
 

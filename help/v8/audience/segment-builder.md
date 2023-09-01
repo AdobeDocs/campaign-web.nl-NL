@@ -3,10 +3,10 @@ audience: end-user
 title: Een publiek maken met de bouwer van de campagneregel
 description: Leer hoe te met de regelbouwer te werken
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Voer de volgende stappen uit om een nieuw publiek te maken tijdens het ontwerpen
 
 Het palet aan de linkerkant bevat alle elementen waarop u kunt filteren om een publiek te maken. De tegels in het palet moeten naar het middelste canvas worden verplaatst om geconfigureerd en meegenomen te kunnen worden. Het palet bestaat uit twee tabbladen:
 
-* **Attributen**: op dit tabblad hebt u vanuit het schema toegang tot alle beschikbare velden. De lijst met velden is afhankelijk van het doelschema dat in de e-mailsjabloon is gedefinieerd.
+* **Attributen**: op dit tabblad hebt u toegang tot alle beschikbare velden via het schema. De lijst met velden is afhankelijk van het doelschema dat in de e-mailsjabloon is gedefinieerd.
 
   ![](assets/segment-builder2.png){width="70%" align="left"}
 
@@ -43,13 +43,13 @@ Het palet aan de linkerkant bevat alle elementen waarop u kunt filteren om een p
 
   >[!NOTE]
   >
-  >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
+  >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Adobe Experience Platform-bestemmingsdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
 
 U kunt de zoekbalk gebruiken om snel naar elementen te zoeken.
 
 ## Het canvas
 
-Het canvas is de centrale zone waarin u regels kunt configureren en combineren op basis van de elementen die vanuit het palet worden toegevoegd. Als u een nieuwe regel wilt toevoegen, sleept u een tegel uit het palet en zet u de tegel neer op het canvas. Vervolgens kunt u contextspecifieke opties weergeven, afhankelijk van het type gegevens dat wordt toegevoegd.
+Het canvas is de centrale zone waarin u regels kunt configureren en combineren op basis van de elementen die vanuit het palet worden toegevoegd. Als u een nieuwe regel wilt toevoegen, sleept u een tegel uit het palet en zet u deze neer op het canvas. Vervolgens kunt u contextspecifieke opties weergeven, afhankelijk van het type gegevens dat wordt toegevoegd.
 
 ![](assets/segment-builder4.png){width="70%" align="left"}
 
@@ -60,8 +60,8 @@ Aan de rechterkant **Eigenschappen van Rule** kunt u de volgende handelingen uit
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
 * **Resultaten weergeven:** geeft de lijst weer van ontvangers die het doelpubliek als doel heeft.
-* **Codeweergave**: toont een op code-gebaseerde versie van het publiek in SQL.
-* **Geavanceerde kenmerken weergeven**: Schakel deze optie in als u de volledige lijst met kenmerken in het linkerpalet wilt weergeven: knooppunten, groepen, 1-1 koppelingen, 1-N koppelingen.
+* **Codeweergave**: geeft een op code gebaseerde versie van het publiek in SQL weer.
+* **Geavanceerde kenmerken weergeven**: controleer deze optie als u de volledige lijst met kenmerken in het linkerpalet wilt weergeven: knooppunten, groepen, 1-1 koppelingen, 1-N koppelingen.
 * **Attributen**: geeft een beschrijving van het gemaakte publiek weer.
 
 ## Voorbeeld
@@ -80,7 +80,7 @@ In dit voorbeeld bouwen we een publiek dat gericht is op alle klanten die in Atl
 
    ![](assets/segment-builder8.png)
 
-1. Voer in het tekstveld de eerste plaatsnaam in en druk op Enter.
+1. Voer in het tekstveld de naam van de eerste plaats in en druk op Enter.
 
    ![](assets/segment-builder9.png)
 
@@ -88,7 +88,7 @@ In dit voorbeeld bouwen we een publiek dat gericht is op alle klanten die in Atl
 
    ![](assets/segment-builder10.png)
 
-1. Klikken **Resultaten weergeven** om de lijst en het aantal ontvangers te tonen die de vraag aanpassen. U kunt ook kolommen toevoegen om de gegevens te visualiseren en te controleren. In ons voorbeeld voegt u de opdracht **Plaats** kolom en zie Atlanta en Seattle.
+1. Klikken **Resultaten weergeven** om de lijst en het aantal ontvangers te tonen die de vraag aanpassen. U kunt ook kolommen toevoegen om de gegevens te visualiseren en te controleren. Voeg in ons voorbeeld de opdracht **Plaats** kolom en zie Atlanta en Seattle.
 
    ![](assets/segment-builder11.png)
 

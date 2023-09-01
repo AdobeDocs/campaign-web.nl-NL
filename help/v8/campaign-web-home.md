@@ -3,10 +3,10 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 2%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 2%
 
 ![](assets/do-not-localize/banner-documentationv8.png)
 
-De campagne biedt nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u de gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere Adobe-oplossingen, waaronder Adobe Experience Platform. [Meer informatie](get-started/get-started.md)
+De campagne biedt nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u de gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere oplossingen voor Adoben, waaronder Adobe Experience Platform. [Meer informatie](get-started/get-started.md)
 
 >Campagne v8 Web is momenteel in Alpha- versie. De toegang wordt beperkt tot een kleine reeks Alpha- klanten. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen. [Meer informatie](rn/whats-new.md)
 
-## Nieuwe mogelijkheden voor Campagne op het web
+## Nieuwe mogelijkheden voor Campagne Web
 
 **Nieuwe gebruikersinterface van Campagne v8 Web ontdekken**
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Alfa"
-source-git-commit: 768484c1fc67ac9aa2a2fbac6d00183fb81dbe63
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '827'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Wanneer u uw [content](../content/edit-content.md), [publiek](../audience/add-au
 
 Tijdens de voorbereiding, wordt de doelbevolking berekend en de berichtinhoud geproduceerd voor elk profiel inbegrepen in het doel. Zodra de voorbereiding is voltooid, zijn de berichten klaar om te worden verzonden, of onmiddellijk of op de geplande datum en tijd.
 
-De validatieregels die worden gebruikt tijdens de voorbereiding van de levering worden beschreven in de [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
+De validatieregels die worden gebruikt tijdens de voorbereiding van de levering worden beschreven in de [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
 De belangrijkste stappen voor het voorbereiden van de verzending worden hieronder vermeld.
 
@@ -37,7 +37,7 @@ De belangrijkste stappen voor het voorbereiden van de verzending worden hieronde
    >
    >Als u de levering hebt gepland en de optie **[!UICONTROL Enable confirmation before sending]** , worden de voorbereidings- en verzendingsstappen gegroepeerd onder de **[!UICONTROL Prepare and send]** knop. [Meer informatie over plannen](../email/create-email.md#schedule)
 
-1. De voortgang van de voorbereiding wordt weergegeven. Afhankelijk van de omvang van de doelpopulatie kan deze operatie enige tijd in beslag nemen.
+1. De voortgang van de voorbereiding wordt weergegeven. Afhankelijk van de omvang van de doelpopulatie kan deze operatie enige tijd duren.
 
    U kunt de bereiding op elk gewenst moment stoppen met de **[!UICONTROL Stop preparation]** knop.
 
@@ -52,7 +52,7 @@ De belangrijkste stappen voor het voorbereiden van de verzending worden hieronde
 
    Hier worden de verschillende KPI&#39;s weergegeven:
 
-   * **[!UICONTROL Targeted]**: het aantal doelgroepen.
+   * **[!UICONTROL Targeted]**: het aantal beoogde ontvangers.
    * **[!UICONTROL To deliver]**: het aantal berichten dat wordt verzonden.
    * **[!UICONTROL To exclude]**: het aantal berichten dat door een [typologieregel](../advanced-settings/delivery-settings.md#typology).
 
@@ -93,7 +93,7 @@ Als het bericht gepland is, zal het op de bepaalde datum en de tijd worden verzo
 
 Voer de onderstaande stappen uit als u direct een e-mail wilt verzenden.
 
-1. Klik op het bezorgdashboard op de knop **[!UICONTROL Send]** in de rechterbovenhoek.
+1. Klik op het leveringdashboard op de knop **[!UICONTROL Send]** in de rechterbovenhoek
 
    ![](assets/email-send.png)
 
@@ -107,7 +107,7 @@ Voer de onderstaande stappen uit als u uw e-mail op een latere datum en tijd wil
 
 1. Voordat u op de knop **[!UICONTROL Review and send]** controleert u of u een schema voor uw e-mail hebt gedefinieerd. [Meer informatie](../email/create-email.md#schedule)
 
-1. Klik op het bezorgdashboard op de knop **[!UICONTROL Send as scheduled button]** in de rechterbovenhoek.
+1. Klik op het leveringdashboard op de knop **[!UICONTROL Send as scheduled button]** in de rechterbovenhoek
 
    ![](assets/email-send-as-scheduled.png)
 
@@ -145,7 +145,7 @@ Zodra verzenden volledig is, kunt u getoonde KPIs controleren:
 
 * **[!UICONTROL Sent]**: het aantal geleverde berichten. Het getoonde percentage is gebaseerd op het totale aantal te leveren berichten.
 
-* **[!UICONTROL Delivered]**: het aantal berichten dat is afgeleverd. Het getoonde percentage is gebaseerd op het totale aantal verzonden berichten.
+* **[!UICONTROL Delivered]**: Het aantal berichten dat is afgeleverd. Het getoonde percentage is gebaseerd op het totale aantal verzonden berichten.
 
 * **[!UICONTROL Opens]**: het aantal geopende berichten. Het getoonde percentage is het aantal verschillende opent in vergelijking met het aantal geleverde berichten.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-badge: label="Alpha"
-source-git-commit: 0a4d4295f8c460298dcc61fcfc78e8cb09fe963e
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Deze nieuwe webinterface voor campagnes is momenteel alleen beschikbaar voor **A
 
 De nieuwe webinterface van Campagne biedt een nieuwe gebruikerservaring die is afgestemd op alle Adobe Experience Cloud-oplossingen en -toepassingen. Het biedt:
 
-* Toegang tot de nieuwe interface en uw andere oplossingen van Adobe met één enkele en gedeelde gebruikerszitting
+* Toegang tot de nieuwe interface en uw andere oplossingen voor Adobe met één enkele en gedeelde gebruikerssessie
 * Nieuwe navigatie-ervaring, met alle menu&#39;s en mappen beschikbaar via de linkertrack
 * Oplossing- en organisatie-switches van de bovenste balk
 * De verenigde integratie van Shell, met een directe toegang tot gemeenschap, hulpcentrum, en steun
@@ -43,15 +43,15 @@ Gebruik de nieuwe UI van het Web van de Campagne:
 * Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper - [Meer informatie](../content/edit-content.md)
 * Campagnes voor meerdere kanalen verzenden, inclusief SMS- en pushberichten.
 * Bepaal doelpubliek met de regelbouwer - [Meer informatie](../audience/about-audiences.md)
-* Je e-mailberichten voorvertonen, testen en verzenden - [Meer informatie](../monitor/prepare-send.md)
+* U kunt uw e-mailberichten voorvertonen, testen en verzenden - [Meer informatie](../monitor/prepare-send.md)
 * Bewaak verzenden en meten resultaten met ingebouwde rapporten - [Meer informatie](../reporting/delivery-reports.md)
 
 
-## Overgang naar UI van het Web van de Campagne
+## Overgang naar interface van het Web van de Campagne
 
 Als gebruiker van de Campagne, kunt u tot de cliëntconsole nog toegang hebben om de middelen en de componenten van de Campagne te bouwen en te beheren. Gegevens en instellingen worden gesynchroniseerd van een omgeving naar een andere. Meer informatie in [deze sectie](../get-started/get-started.md#about-campaign-client-consoleac-client).
 
-Bovendien zijn al uw gegevens en montages reeds beschikbaar in de cliëntconsole zichtbaar in het Web UI van de Campagne, van de Ontdekkingsreiziger linkernavigatie. Meer informatie over de Explorer-weergave vindt u in [deze sectie](../get-started/user-interface.md#explorer-user-interface-explorer).
+Bovendien zijn al uw gegevens en montages reeds beschikbaar in de cliëntconsole zichtbaar in het Web UI van de Campagne, van de Ontdekkingsreiziger linkernavigatie. Meer informatie over de weergave Explorer in [deze sectie](../get-started/user-interface.md#explorer-user-interface-explorer).
 
 
 ## Terminologie-updates {#terminology-updates}
@@ -59,7 +59,7 @@ Bovendien zijn al uw gegevens en montages reeds beschikbaar in de cliëntconsole
 Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoemd om zich aan de recentste terminologienormen te richten. Deze veranderingen zijn slechts op het Web UI van de Campagne van toepassing en niet weerspiegeld in de cliëntconsole. Deze worden hieronder samengevat.
 
 * Proefdrukken zijn nu **E-mailberichten testen**: als u een bewijs wilt verzenden, gebruikt u de **Testen** in de gebruikersinterface voor e-maillevering. Het doel van de proefdrukken wordt nu aangeduid als **Testprofielen**
-* Zaadadressen worden nu gebruikt als **Testprofielen**: Stuur de test-e-mail naar zaadadressen, die extra ontvangers in het gegevensbestand zijn
+* Zaadadressen worden nu gebruikt als **Testprofielen**: verzend de test-e-mail naar zaadadressen, die extra ontvangers in het gegevensbestand zijn
 * De leveringsanalyse is nu de **voorbereiding van levering**. Wanneer u de analyse wilt starten, klikt u op de knop **Voorbereiden** knop
 * E-mailvoorvertoning is nu beschikbaar via **Inhoud simuleren** knop
 * Lijsten zijn nu **Soorten publiek**

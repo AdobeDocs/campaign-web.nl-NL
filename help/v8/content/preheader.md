@@ -3,10 +3,10 @@ audience: end-user
 title: Een voorkop toevoegen in de e-mailontwerper
 description: Leer hoe u e-mailinhoud ontwerpt
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Alpha"
-source-git-commit: f59194334d5262e4270e2caef276b71b27d1b81f
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ In veel gevallen wordt een korte samenvatting van de inhoud gegeven en is deze d
 >
 >Preheaders worden niet door alle e-mailclients ondersteund. Als deze optie niet wordt ondersteund, wordt de preheader niet weergegeven.
 
-Volg onderstaande stappen om de e-mailvoorheader te definiëren.
+Voer de onderstaande stappen uit om de e-mailvoorheader te definiëren.
 
-1. Van de [E-mailontwerper](create-email-content.md)ten minste een **[!UICONTROL Structure]** om uw e-mail te ontwerpen.
+1. Van de [E-mailDesigner](create-email-content.md)ten minste een **[!UICONTROL Structure]** om uw e-mail te ontwerpen.
 
 1. Klik op de knop **[!UICONTROL Navigation tree]** pictogram in het linkervenster en selecteer **[!UICONTROL Body]**.
 
@@ -40,7 +40,7 @@ Volg onderstaande stappen om de e-mailvoorheader te definiëren.
 
    ![](assets/preheader_body_settings.png)
 
-1. Van de **[!UICONTROL Edit Personalization]** venster, kunt u toevoegen [personalisatievelden](../personalization/personalize.md), [inhoudsblokken](../personalization/content-blocks.md) en [voorwaardelijke inhoud](../personalization/conditions.md) met behulp van de toegewijde vermeldingen aan de linkerkant.
+1. Van de **[!UICONTROL Edit Personalization]** venster kunt toevoegen [personalisatievelden](../personalization/personalize.md), [inhoudsblokken](../personalization/content-blocks.md) en [voorwaardelijke inhoud](../personalization/conditions.md) met behulp van de toegewijde vermeldingen aan de linkerkant.
 
    ![](assets/preheader_body_personalization.png)
 

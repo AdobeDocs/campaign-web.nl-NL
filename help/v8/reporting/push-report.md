@@ -2,10 +2,10 @@
 audience: end-user
 title: Rapporten over levering verzenden
 description: Leer hoe u pushrapporten kunt openen en gebruiken
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ De **Push-leveringsrapport** biedt een grondig overzicht van het pushkanaal, met
 
 ## Overzicht van push {#push-summary}
 
-* **[!UICONTROL Delivery overview]** verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over hoe uw bezoekers met uw Push berichten in dienst nemen.
+* **[!UICONTROL Delivery overview]** verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over geven hoe uw bezoekers met uw Push berichten in dienst nemen.
 
   ![](assets/reporting_push_3.png)
 
@@ -57,7 +57,7 @@ De **Push-leveringsrapport** biedt een grondig overzicht van het pushkanaal, met
 
    * **[!UICONTROL Success]**: Aantal berichten dat is verwerkt.
 
-   * **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens de levering is opgetreden, zodat de berichten niet naar bepaalde profielen kunnen worden verzonden.
+   * **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens de levering is opgetreden, zodat berichten niet naar bepaalde profielen kunnen worden verzonden.
 
    * **[!UICONTROL New quarantine]**: Aantal profielen dat is uitgesloten en toegevoegd aan de quarantaine.
 

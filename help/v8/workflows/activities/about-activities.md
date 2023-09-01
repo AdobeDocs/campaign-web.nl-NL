@@ -2,9 +2,9 @@
 audience: end-user
 title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
-badge: label="Alfa"
+badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 1527d9474e7b3d42d8c6db00f67cbfe927c1348c
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 5%
@@ -26,7 +26,7 @@ Alle activiteiten worden beschreven in de volgende onderdelen:
 
 ## Targetingactiviteiten {#targeting}
 
-Deze activiteiten zijn specifiek gericht op het richten, manipuleren en verrijken van bevolkingsgegevens. Met deze instructies kunt u een of meer doelen maken door een publiek te definiëren en deze soorten publiek te splitsen of te combineren met een doorsnede, samenvoeging of uitsluitingsactie.
+Deze activiteiten zijn specifiek gericht op het richten, manipuleren en verrijken van bevolkingsgegevens. Met deze instructies kunt u een of meer doelen maken door een publiek te definiëren en deze soorten publiek te splitsen of te combineren met een doorsnede-, samenvoegings- of uitsluitingsbewerking.
 
 * De [publiek opbouwen](build-audience.md) Met activiteit kunt u de doelpopulatie definiëren. U kunt of een bestaand publiek selecteren of de regelbouwer gebruiken om uw eigen vraag te bepalen.
 * De [Combineren](combine.md) activiteit staat toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.

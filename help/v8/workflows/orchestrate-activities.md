@@ -2,10 +2,10 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,6 @@ Hiervoor zijn de volgende activiteiten toegevoegd:
 * A **[!UICONTROL Combine]** activiteiten die VIP klanten uitsluiten;
 * An **[!UICONTROL Email delivery]** activiteit die een e-mail naar de resulterende klanten verzendt.
 
-Nadat u de workflow hebt voltooid, voegt u **[!UICONTROL End]** activiteit aan het einde van het diagram. Met deze activiteit kunt u visueel het einde van een werkstroom markeren en heeft dit geen invloed op de functionaliteit.
+Nadat u de workflow hebt voltooid, voegt u **[!UICONTROL End]** activiteit aan het einde van het diagram. Met deze activiteit kunt u visueel het einde van een werkstroom markeren en heeft deze geen invloed op de functionaliteit.
 
 Nadat u het werkstroomdiagram hebt ontworpen, kunt u de werkstroom uitvoeren en de voortgang van de verschillende taken volgen. [Leer hoe u een workflow kunt starten en de uitvoering ervan kunt controleren](start-monitor-workflows.md)

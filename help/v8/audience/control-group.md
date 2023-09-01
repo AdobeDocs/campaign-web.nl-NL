@@ -3,10 +3,10 @@ audience: end-user
 title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het Web UI van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '775'
 ht-degree: 12%
 
 ---
@@ -40,20 +40,20 @@ Als u een controlegroep wilt toevoegen aan een levering, activeert u de optie **
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_target"
 >title="Extractiemodus"
->abstract="Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren."
+>abstract="Een controlegroep is een reeks profielen die van de levering worden uitgesloten. Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren."
 
 
 ### Een controlegroep samenstellen {#build-extract-target}
 
 Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren. Als u liever een extra populatie toevoegt, kiest u de optie **Geen extractie** en selecteert u de extra populatie [zoals hier beschreven](#extra-population).
 
-Definieer eerst de manier waarop de profielen uit het doel worden geëxtraheerd: willekeurig of gebaseerd op een sortering.
+Definieer eerst de manier waarop de profielen uit het doel worden geëxtraheerd: willekeurig of op basis van een sortering.
 
 Onder de **Controlegroep** in, kiest u een **Extractiemodus**:
 
-* **Willekeurig**: bij het voorbereiden van de levering haalt Adobe Campaign willekeurig een aantal profielen op dat overeenkomt met het percentage of het maximumaantal dat als de groottebeperking is ingesteld.
+* **Willekeurig**: bij het voorbereiden van de levering extraheert Adobe Campaign willekeurig een aantal profielen dat overeenkomt met het percentage of het maximumaantal dat is ingesteld als de maximale grootte.
 
-* **Gerangschikt op kenmerk(en)**: Met deze optie kunt u een set profielen op basis van specifieke kenmerken in een specifieke sorteervolgorde uitsluiten.
+* **Gerangschikt op kenmerk(en)**: met deze optie kunt u een set profielen uitsluiten op basis van specifieke kenmerken in een specifieke sorteervolgorde.
 
 
 Gebruik vervolgens de **Groottebeperking** om het aantal profielen in te stellen dat u uit het hoofddoel moet extraheren. Dit kan een onbewerkt getal zijn (bijvoorbeeld 50 profielen om uit te sluiten) of een percentage van het oorspronkelijke publiek (bijvoorbeeld 5% van het hoofddoel).
@@ -63,7 +63,7 @@ Gebruik vervolgens de **Groottebeperking** om het aantal profielen in te stellen
 
 Bijvoorbeeld, om een controlegroep met de 100 nieuwe jongste ontvangers tot stand te brengen, volg deze stappen:
 
-1. Selecteer **Leeftijd** veld als sorteercriterium. Laat de **Oplopend** sorteeroptie.
+1. Selecteer de **Leeftijd** veld als sorteercriterium. Laat de **Oplopend** sorteeroptie.
 1. Voeg de **Aanmaakdatum** veld. Wijzigen in de **Aflopend** sorteeroptie.
 1. Definieer 100 als de drempel in het dialoogvenster **Groottebeperking** sectie.
 
@@ -104,7 +104,7 @@ Voor meer informatie over leveringslogboeken, verwijs naar dit [sectie](../monit
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_controlgroup_extra"
 >title="Extra populatie"
->abstract="U kunt een specifieke populatie van het leveringspubliek uitsluiten door een bestaand publiek te selecteren, of door een vraag te bepalen."
+>abstract="Een controlegroep is een reeks profielen die van de levering worden uitgesloten. U kunt een specifieke populatie van het leveringspubliek uitsluiten door een bestaand publiek te selecteren, of door een vraag te bepalen."
 
 Een andere manier om een controlegroep te bepalen is een specifieke bevolking in een bestaand publiek te selecteren of door een vraag te bepalen.
 
@@ -112,11 +112,11 @@ Van de **Extra populatie** van de **Controlegroep** definitiescherm, klik **[!UI
 
 ![](assets/control-group3.png)
 
-* Als u een bestaand publiek wilt gebruiken, klikt u op **Doelgroep selecteren**. Meer informatie in [deze sectie](add-audience.md).
+* Om een bestaand publiek te gebruiken, klik **Doelgroep selecteren**. Meer informatie in [deze sectie](add-audience.md).
 
 * Als u een nieuwe query wilt definiëren, selecteert u **Maak uw eigen** en definieert u de uitsluitingscriteria met behulp van de regelbouwer. Meer informatie in [deze sectie](segment-builder.md).
 
-De profielen die zijn opgenomen in het publiek of die overeenkomen met het resultaat van de query, zijn **uitgesloten** vanaf het leveringdoel: zij ontvangen geen bericht .
+De profielen die zijn opgenomen in het publiek of die overeenkomen met het resultaat van de query, zijn **uitgesloten** van het leveringsdoel: zij ontvangen geen bericht.
 
 ## De resultaten vergelijken{#control-group-results}
 

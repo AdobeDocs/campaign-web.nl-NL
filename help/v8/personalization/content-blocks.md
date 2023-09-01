@@ -5,8 +5,8 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Alpha"
-source-git-commit: d3ee5ac080e810cf6d9db6240f88079490d4af9a
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -37,9 +37,9 @@ Ingebouwde inhoudsblokken zijn:
 * **[!UICONTROL Default opt-out banner]**
 * **[!UICONTROL Enabled by Adobe Campaign]**: voegt het logo &quot;Enabled by Adobe Campaign&quot; in.
 * **[!UICONTROL Formatting function for proper nouns]**: genereert de **[!UICONTROL toSmartCase]** De functie Javascript, die de eerste letter van elk woord in hoofdletters verandert.
-* **[!UICONTROL Greetings]**: voegt begroetingen met de volledige naam van de ontvanger in, gevolgd door een komma. Voorbeeld: &quot;Hallo JanDoe,&quot;.
+* **[!UICONTROL Greetings]**: voegt begroetingen in met de volledige naam van de ontvanger, gevolgd door een komma. Voorbeeld: &quot;Hello John Doe,&quot;.
 * **[!UICONTROL Insert Logo]**: voegt een logo in dat in de instantie-instellingen is gedefinieerd.
-* **[!UICONTROL Link to mirror page]**: voegt een koppeling in naar de [spiegelpagina](../content/mirror-page.md). Standaardindeling is: &quot;Klik hier als je dit bericht niet juist kunt weergeven.&quot;
+* **[!UICONTROL Link to mirror page]**: voegt een koppeling in naar de [spiegelpagina](../content/mirror-page.md). De standaardnotatie is: &quot;Als u dit bericht niet correct kunt weergeven, klikt u hier&quot;.
 * **[!UICONTROL Mirror page URL]**: voegt de URL van de spiegelpagina in, waardoor de leveringsontwerpers de koppeling kunnen controleren.
 * **[!UICONTROL Notification style]**
 * **[!UICONTROL Offer acceptance URL in unitary mode]**: voegt een URL in waarmee een aanbieding kan worden ingesteld op **[!UICONTROL Accepted]**. (Dit blok is beschikbaar als de module van de Interactie wordt toegelaten)
@@ -49,9 +49,9 @@ Ingebouwde inhoudsblokken zijn:
 * **[!UICONTROL Registration page URL]**: voegt een abonnement-URL in
 * Koppelingen voor delen van sociale netwerken
 * **[!UICONTROL Style of content emails]** en **[!UICONTROL Notification style]**: genereren code waarmee een e-mailbericht wordt opgemaakt met vooraf gedefinieerde HTML-stijlen.
-* **[!UICONTROL Unsubscription link]**: voegt een koppeling in waarmee u zich kunt afmelden bij alle leveringen (lijst van gewezen personen). De standaard gekoppelde inhoud is: &quot;U ontvangt dit bericht omdat u contact hebt gehad met ***uw organisatienaam*** of een gelieerde. Als u geen berichten meer wilt ontvangen van ***uw organisatienaam*** klik hier.&quot;
+* **[!UICONTROL Unsubscription link]**: voegt een koppeling in waarmee u zich kunt afmelden bij alle leveringen (lijst van gewezen personen). De standaard gekoppelde inhoud is: &quot;U ontvangt dit bericht omdat u in contact bent geweest met ***uw organisatienaam*** of een gelieerde. Als u geen berichten meer wilt ontvangen van ***uw organisatienaam*** klik hier.&quot;
 
 >[!NOTE]
 >
->U kunt nieuwe blokken definiëren vanuit de Adobe Campaign v8-console waarmee u uw leveringen kunt optimaliseren. Meer informatie in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
+>U kunt nieuwe blokken definiëren vanuit de Adobe Campaign v8-console waarmee u uw leveringen kunt optimaliseren. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
 

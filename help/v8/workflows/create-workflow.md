@@ -2,11 +2,11 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -38,4 +38,4 @@ De eerste stap om uw werkschema in Campagne v8 Web tot stand te brengen is het o
 
 1. Klik op de knop **[!UICONTROL Create workflow]** om het maken van uw workflow te bevestigen.
 
-Als uw workflow is gemaakt, kunt u nu beginnen met het orchestreren van de verschillende taken die worden uitgevoerd met een speciaal visueel canvas. [Leer hoe u workflowactiviteiten kunt ordenen](orchestrate-activities.md)
+Als uw workflow is gemaakt, kunt u nu beginnen met het orchestreren van de verschillende taken die worden uitgevoerd met een speciaal visueel canvas. [Leer workflowactiviteiten te ordenen](orchestrate-activities.md)

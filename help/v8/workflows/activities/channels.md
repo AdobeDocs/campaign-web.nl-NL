@@ -2,8 +2,8 @@
 audience: end-user
 title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
-badge: label="Alpha"
-source-git-commit: d70c671e558613a27acc5252091e1e2836b675c7
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Hier volgen de stappen om een **Kanaal** activiteit in een werkstroom:
    ![](../assets/delivery-activity-in-wf.png)
 
 
-   U kunt een andere sjabloon selecteren in het linkerdeelvenster van de configuratie van de kanaalactiviteit. Als het eerder geselecteerde publiek niet compatibel is met het kanaal, kunt u geen sjabloon selecteren. Als u dit wilt oplossen, werkt u de **publiek opbouwen** activiteit om een publiek met de correcte doelafbeelding te selecteren. Meer informatie over doeltoewijzingen in [Adobe Campaign v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   U kunt een andere sjabloon selecteren in het linkerdeelvenster van de configuratie van de kanaalactiviteit. Als het eerder geselecteerde publiek niet compatibel is met het kanaal, kunt u geen sjabloon selecteren. Als u dit wilt oplossen, werkt u de **publiek opbouwen** activiteit om een publiek met de correcte doelafbeelding te selecteren. Meer informatie over doeltoewijzingen in [Adobe Campaign v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 1. Klikken **Levering maken**. Definieer de berichtinstellingen en de inhoud op dezelfde manier als u een zelfstandige levering maakt. U kunt de inhoud ook plannen en simuleren. [Meer informatie](../../msg/gs-messages.md).
 

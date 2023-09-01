@@ -2,10 +2,10 @@
 audience: end-user
 title: Een pushmelding verzenden
 description: Meer informatie over het verzenden van pushberichten via Adobe Campaign Web
-badge: label="Alpha"
-source-git-commit: 8bb189837a2d9c7134188e39efa47ce2ccbe12db
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ De ontvangers van de test kunnen elementen zoals verbindingen, beelden, en verpe
 
 ## Verzend uw pushmelding {#send-push}
 
-1. Nadat u de inhoud van uw pushmelding hebt aangepast, klikt u op **[!UICONTROL Review & send]** van uw **[!UICONTROL Delivery]** pagina.
+1. Klik op **[!UICONTROL Review & send]** van uw **[!UICONTROL Delivery]** pagina.
 
    ![](assets/push_send_2.png)
 
@@ -55,7 +55,7 @@ De ontvangers van de test kunnen elementen zoals verbindingen, beelden, en verpe
 
    ![](assets/push_send_3.png)
 
-1. De berichten verzenden door op **[!UICONTROL Send]** om door te gaan met het definitieve verzendingsproces.
+1. Verzend de berichten door op te klikken **[!UICONTROL Send]** om door te gaan met het definitieve verzendingsproces.
 
 1. Bevestig de verzendactie door op de knop **[!UICONTROL Send]** of **[!UICONTROL Send as scheduled]** knop.
 
@@ -63,4 +63,4 @@ De ontvangers van de test kunnen elementen zoals verbindingen, beelden, en verpe
 
 Zodra uw levering wordt verzonden, kunt u uw KPIs (Zeer belangrijke Indicator van Prestaties) gegevens van uw leveringspagina en gegevens van volgen **[!UICONTROL Logs]** -menu.
 
-U kunt nu de impact van uw bericht meten met ingebouwde rapporten. [Meer informatie](../reporting/push-report.md)
+U kunt nu beginnen de impact van uw bericht te meten met ingebouwde rapporten. [Meer informatie](../reporting/push-report.md)

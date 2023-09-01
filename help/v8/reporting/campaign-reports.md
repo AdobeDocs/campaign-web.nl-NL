@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Campagnerapporten
+title: Campagneverslagen
 description: Meer informatie over het openen en gebruiken van campagnerapporten
-badge: label="Alpha"
-source-git-commit: a653fe4329f449a94f8056e4b5f2247bd839b87a
+badge: label="Beta"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
 source-wordcount: '1558'
 ht-degree: 1%
 
 ---
 
-# Campagnerapporten {#campaign-reports}
+# Campagneverslagen {#campaign-reports}
 
 Het campagnerapport bestaat uit verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven.
 
@@ -38,9 +38,9 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
-   * **[!UICONTROL Bounces]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
+   * **[!UICONTROL Bounces]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
 
-   * **[!UICONTROL Distinct opens]**: Het totale aantal beoogde ontvangers dat een bericht ten minste één keer heeft geopend.
+   * **[!UICONTROL Distinct opens]**: Het totale aantal beoogde ontvangers dat een bericht ten minste eenmaal heeft geopend.
 
    * **[!UICONTROL Distinct clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer op een levering heeft geklikt.
 
@@ -56,11 +56,11 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
 
-   * **[!UICONTROL Rejected by rules]**: Totaal aantal adressen genegeerd tijdens de analyse wanneer het toepassen van regels: het adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
+   * **[!UICONTROL Rejected by rules]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels: adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
 
 +++
 
-* **[!UICONTROL Execution statistics]** de tabel geeft het succes van uw levering aan .
+* **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succesvol de levering is .
 
   ![](assets/campaign_report_email_3.png)
 
@@ -68,11 +68,11 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
 
-   * **[!UICONTROL Success]**: Aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
+   * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-   * **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
+   * **[!UICONTROL Errors]**: Totaal aantal fouten bij leveringen en automatische oplevering in verhouding tot het aantal te leveren berichten.
 
-   * **[!UICONTROL New quarantines]**: Het totale aantal adressen quarantined na een ontbroken levering (onbekend gebruiker, ongeldig domein) met betrekking tot het aantal te leveren berichten.
+   * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (onbekend, ongeldig domein) in verhouding tot het aantal te leveren berichten.
 
 +++
 
@@ -82,13 +82,13 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
-   * **[!UICONTROL Distinct opens]**: Het totale aantal beoogde ontvangers dat een bericht ten minste één keer heeft geopend.
+   * **[!UICONTROL Distinct opens]**: Het totale aantal beoogde ontvangers dat een bericht ten minste eenmaal heeft geopend.
 
-   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens eenmaal hebben geopend.
+   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
-   * **[!UICONTROL Unsubscriptions]**: Aantal ontvangers dat op afboekingen voor de betrokken periode heeft geklikt.
+   * **[!UICONTROL Unsubscriptions]**: Aantal ontvangers die op afboekingen voor de betrokken periode hebben geklikt.
 
-   * **[!UICONTROL Mirror page]**: Aantal ontvangers die op de verbinding van de spiegelpagina klikte.
+   * **[!UICONTROL Mirror page]**: Aantal ontvangers die op de koppeling van de spiegelpagina hebben geklikt.
 
    * **[!UICONTROL Forwards]**: Aantal ontvangers dat heeft geklikt en het e-mailbericht heeft doorgestuurd.
 +++
@@ -103,7 +103,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-   * **[!UICONTROL Reactivity]**: Verhouding van het aantal ontvangers voor wie de levering is bedoeld en waarop op de levering is geklikt, in verhouding tot het geschatte aantal ontvangers voor wie de levering is geopend.
+   * **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
 +++
 
@@ -111,7 +111,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
 * **[!UICONTROL Breakdown of errors per type]** en **[!UICONTROL Breakdown of errors per domain]** tabellen en grafieken bevatten de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen.
 
-  De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer informatie over quarantainebeheer raadpleegt u [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+  De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer informatie over quarantainebeheer raadpleegt u [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
   ![](assets/campaign_report_email_6.png)
 
@@ -125,9 +125,9 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
 
-   * **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door IAP (Internet Access Provider) wordt verworpen, bijvoorbeeld na de toepassing van een veiligheidsregel (anti-spamsoftware).
+   * **[!UICONTROL Refused]**: Fouttype dat wordt gegenereerd wanneer een adres wordt afgewezen door de IAP (Internet Access Provider), bijvoorbeeld na toepassing van een beveiligingsregel (anti-spamsoftware).
 
-   * **[!UICONTROL Unreachable]**: Fouttype dat optreedt in de tekenreeks voor berichtdistributie: incident op het SMTP relais, tijdelijk onbereikbaar domein, enz.
+   * **[!UICONTROL Unreachable]**: Het type van fout dat in het koord van de berichtdistributie voorkomt: incident op het relais SMTP, domein tijdelijk onbereikbaar etc.
 
    * **[!UICONTROL Not connected]**: Fouttype om aan te geven dat de mobiele telefoon van de ontvanger op het moment van verzending wordt uitgeschakeld of losgekoppeld van het netwerk.
 
@@ -141,15 +141,15 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
-   * **[!UICONTROL Success]**: Aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
+   * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-   * **[!UICONTROL Distinct opens]**: Het totale aantal beoogde ontvangers dat een bericht ten minste één keer heeft geopend.
+   * **[!UICONTROL Distinct opens]**: Het totale aantal beoogde ontvangers dat een bericht ten minste eenmaal heeft geopend.
 
-   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens eenmaal hebben geopend.
+   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
-   * **[!UICONTROL Clicks on the opt-out link]**: Aantal klikken op de verbinding van het unsubscription.
+   * **[!UICONTROL Clicks on the opt-out link]**: Het aantal klikken op de koppeling voor het opzeggen van abonnementen.
 
-   * **[!UICONTROL Clicks on the mirror link]**: Aantal klikken op de verbinding aan de spiegelpagina.
+   * **[!UICONTROL Clicks on the mirror link]**: Het aantal klikken op de koppeling naar de spiegelpagina.
 
    * **[!UICONTROL Estimation of forwards]**: Schatting van het aantal e-mails dat door de beoogde ontvangers is doorgestuurd.
 +++
@@ -160,13 +160,13 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
-   * **[!UICONTROL Sent]**: Het totale aantal verzonden berichten.
+   * **[!UICONTROL Sent]**: Totaal aantal verzonden berichten.
 
-   * **[!UICONTROL Complaints]**: Aantal berichten voor dit domein die als ongewenst door de ontvanger zijn gemeld.
+   * **[!UICONTROL Complaints]**: Het aantal berichten voor dit domein dat door de ontvanger als ongewenst is gemeld.
 
-   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens eenmaal hebben geopend.
+   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
-   * **[!UICONTROL Clicks]**: Aantal afzonderlijke beoogde ontvangers die minstens één keer op dezelfde levering hebben geklikt.
+   * **[!UICONTROL Clicks]**: Aantal verschillende beoogde ontvangers die minstens één keer op dezelfde levering hebben geklikt.
 
    * **[!UICONTROL Raw reactivity]**: Percentage van het aantal ontvangers dat ten minste één keer op een levering heeft geklikt in vergelijking met het aantal ontvangers dat een levering ten minste één keer heeft geopend.
 +++
@@ -179,7 +179,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
-   * **[!UICONTROL Reactivity]**: Verhouding van het aantal ontvangers voor wie de levering is bedoeld en waarop op de levering is geklikt, in verhouding tot het geschatte aantal ontvangers voor wie de levering is geopend.
+   * **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
    * **[!UICONTROL Distinct clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer op een levering heeft geklikt.
 
@@ -214,7 +214,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens eenmaal hebben geopend.
+   * **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
 +++
 
@@ -232,7 +232,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
-   * **[!UICONTROL Errors]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
+   * **[!UICONTROL Errors]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
 
    * **[!UICONTROL Distinct clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer op een levering heeft geklikt.
 
@@ -248,7 +248,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
 
-   * **[!UICONTROL Rejected by rules]**: Totaal aantal adressen genegeerd tijdens de analyse wanneer het toepassen van regels: het adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
+   * **[!UICONTROL Rejected by rules]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels: adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
 
 +++
 
@@ -260,11 +260,11 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
 
-   * **[!UICONTROL Success]**: Aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
+   * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-   * **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
+   * **[!UICONTROL Errors]**: Totaal aantal fouten bij leveringen en automatische oplevering in verhouding tot het aantal te leveren berichten.
 
-   * **[!UICONTROL New quarantines]**: Het totale aantal adressen quarantined na een ontbroken levering (onbekend gebruiker, ongeldig domein) met betrekking tot het aantal te leveren berichten.
+   * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (onbekend, ongeldig domein) in verhouding tot het aantal te leveren berichten.
 
 +++
 
@@ -278,7 +278,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-   * **[!UICONTROL Reactivity]**: Verhouding van het aantal ontvangers voor wie de levering is bedoeld en waarop op de levering is geklikt, in verhouding tot het geschatte aantal ontvangers voor wie de levering is geopend.
+   * **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
 +++
 
@@ -294,7 +294,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
-   * **[!UICONTROL Errors]**: Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd.
+   * **[!UICONTROL Errors]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
 
    * **[!UICONTROL Distinct clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer op een levering heeft geklikt.
 
@@ -308,7 +308,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
 
-   * **[!UICONTROL Rejected by rules]**: Totaal aantal adressen genegeerd tijdens de analyse wanneer het toepassen van regels: het adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
+   * **[!UICONTROL Rejected by rules]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels: adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
 
 +++
 
@@ -318,11 +318,11 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
 
-   * **[!UICONTROL Success]**: Aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
+   * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-   * **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
+   * **[!UICONTROL Errors]**: Totaal aantal fouten bij leveringen en automatische oplevering in verhouding tot het aantal te leveren berichten.
 
-   * **[!UICONTROL New quarantines]**: Het totale aantal adressen quarantined na een ontbroken levering (onbekend gebruiker, ongeldig domein) met betrekking tot het aantal te leveren berichten.
+   * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (onbekend, ongeldig domein) in verhouding tot het aantal te leveren berichten.
 
 +++
 
@@ -334,6 +334,6 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-   * **[!UICONTROL Reactivity]**: Verhouding van het aantal ontvangers voor wie de levering is bedoeld en waarop op de levering is geklikt, in verhouding tot het geschatte aantal ontvangers voor wie de levering is geopend.
+   * **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
 +++

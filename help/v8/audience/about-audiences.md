@@ -2,11 +2,11 @@
 audience: end-user
 title: Aan de slag met het publiek
 description: Leer hoe te om publiek in het Web UI van de Campagne te gebruiken
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '214'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ Om de publieksbevolking te bepalen, kunt u:
 * Selecteer een bestaand publiek dat als een lijst in de cliëntconsole wordt gecreeerd. [Meer informatie](add-audience.md)
 * Selecteer een Adobe Experience Platform-publiek. [Meer informatie](aep-audience.md)
 * Bouw een nieuw publiek met de regelbouwer door het filtreren criteria te bepalen en te combineren. [Meer informatie](segment-builder.md)
-* Een publiek uit een extern bestand gebruiken: deze optie is alleen beschikbaar voor zelfstandige e-mailleveringen en kan niet worden gebruikt in campagneleveringen. [Meer informatie](file-audience.md)
+* Gebruik een publiek uit een extern bestand: deze optie is alleen beschikbaar voor zelfstandige e-mailleveringen en kan niet worden gebruikt in campagneleveringen. [Meer informatie](file-audience.md)
 
 Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het publiek bepaald in een specifiek **Lees publiek** workflowactiviteit. In deze context kunt u geen publiek uit een bestand laden voor e-maillevering en wordt het publiek alleen gedefinieerd in deze toegewijde activiteit. Leer hoe u het publiek van uw levering kunt definiëren in een campagneworkflow [in deze sectie](../workflows/orchestrate-activities.md).
 

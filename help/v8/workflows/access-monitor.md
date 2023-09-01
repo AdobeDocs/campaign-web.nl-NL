@@ -2,11 +2,11 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,9 @@ Als u een workflow wilt dupliceren of verwijderen, klikt u op de knop voor ovaal
 Workflows kunnen meerdere statussen hebben:
 
 * **[!UICONTROL Draft]**: De workflow is gemaakt en opgeslagen.
-* **[!UICONTROL In progress]**: De workflow is momenteel actief.
+* **[!UICONTROL In progress]**: De workflow wordt momenteel uitgevoerd.
 * **[!UICONTROL Finished]**: De uitvoering van de workflow is voltooid.
-* **[!UICONTROL Paused]**: De werkstroom is onderbroken.
+* **[!UICONTROL Paused]**: De werkstroom is gepauzeerd.
 * **[!UICONTROL Erroneous]**: Er is een fout opgetreden in de workflow. Open de workflow en open de logboeken en taken om de fout te identificeren en op te lossen. [Leer hoe u logbestanden en taken kunt controleren](start-monitor-workflows.md#logs-tasks)
 
 Gedetailleerde informatie over het starten en controleren van de uitvoering van de workflow is beschikbaar in [deze pagina](start-monitor-workflows.md).

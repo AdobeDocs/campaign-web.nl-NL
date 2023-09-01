@@ -2,10 +2,10 @@
 audience: end-user
 title: Verzendrapporten via SMS
 description: Leer hoe u sms-leveringsrapporten kunt openen en gebruiken
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '284'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ De **SMS-leveringsrapport** biedt een uitgebreid overzicht van het SMS-kanaal, m
 
    * **[!UICONTROL Success]**: Aantal berichten dat is verwerkt.
 
-   * **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens de levering is opgetreden, zodat de berichten niet naar bepaalde profielen kunnen worden verzonden.
+   * **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens de levering is opgetreden, zodat berichten niet naar bepaalde profielen kunnen worden verzonden.
 
    * **[!UICONTROL New quarantine]**: Aantal profielen dat is uitgesloten en toegevoegd aan de quarantaine.
 +++

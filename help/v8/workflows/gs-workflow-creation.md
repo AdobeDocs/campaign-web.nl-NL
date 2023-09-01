@@ -2,11 +2,11 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Elke werkstroom bevat:
 
   In een werkschemadiagram, kan een bepaalde activiteit veelvoudige taken veroorzaken, in het bijzonder wanneer er een lijn of terugkerende acties is.
 
-* **Overgangen**: Overgangen koppelen een bronactiviteit aan een bestemmingsactiviteit en bepalen hun opeenvolging.
+* **Overgangen**: Overgangen koppelen een bronactiviteit aan een doelactiviteit en definiëren hun volgorde.
 
 * **Worktables**: De werktabel bevat alle informatie die door de overgang wordt overgedragen. Voor elke workflow worden meerdere werktabellen gebruikt. De gegevens in deze tabellen kunnen gedurende de gehele levenscyclus van de workflow worden gebruikt.
 

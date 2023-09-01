@@ -2,11 +2,11 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '503'
 ht-degree: 3%
 
 ---
@@ -17,7 +17,7 @@ Nadat u de workflow hebt gemaakt en de taken hebt ontworpen die u op het canvas 
 
 ## De workflow starten {#start}
 
-Navigeer naar de **[!UICONTROL Workflows]** menu of de bijbehorende campagne en klik op **[!UICONTROL Start]** in de rechterbovenhoek van het canvas.
+Navigeer naar de **[!UICONTROL Workflows]** menu of de bijbehorende campagne en klik op **[!UICONTROL Start]** in de rechterbovenhoek van het canvas
 
 Zodra de workflow is gestart, wordt elke activiteit op het canvas in volgorde uitgevoerd, totdat het einde van de workflow is bereikt.
 
@@ -51,7 +51,7 @@ De **[!UICONTROL Logs and tasks]** bevat een historie van de workflowuitvoering,
 Er zijn twee soorten informatie beschikbaar:
 
 * De **[!UICONTROL Log]** bevat de uitvoeringsgeschiedenis van alle werkstroomactiviteiten. De uitgevoerde bewerkingen en uitvoeringsfouten worden in chronologische volgorde geïndexeerd.
-* De **[!UICONTROL Tasks]** tabblad bevat de volgorde van uitvoering van de activiteiten.
+* De **[!UICONTROL Tasks]** tabblad bevat informatie over de volgorde van uitvoering van de activiteiten.
 
 Op beide tabbladen kunt u de weergegeven kolommen en hun volgorde kiezen, filters toepassen en het zoekveld gebruiken om snel de gewenste informatie te zoeken.
 

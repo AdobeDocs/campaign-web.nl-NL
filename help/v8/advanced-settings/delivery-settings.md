@@ -3,11 +3,11 @@ audience: end-user
 title: E-mailleveringsinstellingen
 description: Meer informatie over instellingen voor e-maillevering in de gebruikersinterface van het campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Alfa"
-source-git-commit: 64b947fe6fc18f7452058de26a88444120c5af4b
+badge: label="Beta"
+source-git-commit: c2f26d1dc7d8804672de25076a0355b734a0b335
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 11%
+source-wordcount: '1471'
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ Deze instellingen zijn **technische leveringsparameters** die zijn gedefinieerd 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="Met de typologie kunt u het verzenden van leveringen controleren, filteren en controleren."
+>abstract="De typologieën zijn reeksen regels die tijdens de berichtvoorbereiding worden uitgevoerd. Hiermee kunt u de verzending van leveringen controleren, filteren en controleren."
 
 Typologieën zijn reeksen **typologieregels** die tijdens de fase van de berichtanalyse worden uitgevoerd. Ze staan u toe te controleren of uw e-mails altijd bepaalde elementen (zoals een koppeling voor een uitschrijving of een onderwerpregel) of filterregels bevatten om groepen van uw beoogde doel (zoals uitgeschreven abonnees, concurrenten of niet-loyale klanten) uit te sluiten.
 
@@ -38,12 +38,12 @@ Wanneer het associëren van een typologie met een bericht of berichtmalplaatje, 
 
 ### Drukparameters {#pressure-parameters}
 
-<!--
+
 >[!CONTEXTUALHELP]
->id="acw_email_settings_delivery_weight"
->title="Delivery weight"
->abstract="Delivery weights let you identify top-priority deliveries within the framework of pressure management. Messages with the highest weight have priority."
--->
+>id="acw_email_settings_pressure_parameters"
+>title="Drukparameters"
+>abstract="Met leveringsgewichten kunt u topprioriteit-leveringen identificeren in het kader van drukbeheer. Berichten met het hoogste gewicht hebben prioriteit."
+
 
 In deze sectie kunt u met drukparameters een **drempel**. Dit is het maximumaantal berichten dat over een bepaalde periode naar één profiel kan worden verzonden. Zodra deze drempelwaarde is bereikt, kunnen tot het einde van de in aanmerking genomen periode geen leveringen meer plaatsvinden. Met dit proces kunt u automatisch een profiel uitsluiten van een levering als een bericht de ingestelde drempelwaarde overschrijdt. Op deze manier voorkomt u dat een profiel te vaak wordt benaderd.
 
@@ -64,34 +64,34 @@ Gebruik de **Leveringsmodus** veld om de evaluatiemodus voor het doel te selecte
 * **Schatting en goedkeuring van de voorlopige doelstelling**
 * **Doelevaluatie**
 
-Moeilijkheidsbeheer wordt geleverd met **Campagne optimaliseren** invoegtoepassing. Meer informatie over drukregels en hoe u vermoeidheidsbeheer kunt configureren in [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+Moeilijkheidsbeheer wordt geleverd met **Campagne optimaliseren** invoegtoepassing. Meer informatie over drukregels en hoe u vermoeidheidsbeheer kunt configureren in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Capaciteitsinstellingen {#capacity-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
 >title="Capaciteitsinstellingen"
->abstract="Selecteer een capaciteitsregel die is gedefinieerd in de Adobe Campaign v8-console. Deze regel is gekoppeld aan het e-mailkanaal."
+>abstract="Alvorens berichten te leveren, gebruik capaciteitsregels om ervoor te zorgen uw organisatie de levering, de binnenkomende berichten kan verwerken die de levering, en het aantal vraag kan produceren om abonnees bijvoorbeeld te contacteren. De capaciteitsregels worden gedefinieerd in de Adobe Campaign v8-console. Selecteer in dit scherm een regel die aan het e-mailkanaal is gekoppeld."
 
 In deze sectie kunt u een capaciteitsregel selecteren die is gedefinieerd in de Adobe Campaign v8-console. Deze regel is gekoppeld aan het e-mailkanaal.
 
 De **belang van de begunstigde** het veld is een formule die wordt gebruikt om te bepalen welke ontvangers worden gehouden wanneer de voorschriften inzake capaciteitstypologie worden overschreden .
 
-Leer meer over consistentie en capaciteitsregels en hoe te om hen te vormen in [Campagne v8-documentatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+Leer meer over consistentie en capaciteitsregels en hoe te om hen te vormen in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
 ## Doelgroep {#audience}
 
 In deze sectie kunt u een **doeltoewijzing** onder de beschikbare groepen. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console.
 
-Meer informatie over doeltoewijzingen in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+Meer informatie over doeltoewijzingen in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 ## Levering {#delivery}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Afleveringsinstellingen"
->abstract="De parameters van de levering zijn technische montages die op uw levering van toepassing zijn."
+>abstract="De parameters van de levering zijn technische montages die op uw levering van toepassing zijn. U kunt BCC voor de levering activeren, en de levering en routinewijzen veranderen. Deze opties zijn beperkt tot deskundige gebruikers."
 
 De parameters van de levering zijn technische montages die op uw levering van toepassing zijn.
 
@@ -99,7 +99,7 @@ De parameters van de levering zijn technische montages die op uw levering van to
 
 * **SMTP-levering testen**: deze optie wordt gebruikt om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
 
-* **BCC e-mailen**: deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel. Meer informatie over BCC via e-mail in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+* **BCC e-mailen**: deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel. Meer informatie over BCC via e-mail in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 
@@ -107,7 +107,7 @@ De parameters van de levering zijn technische montages die op uw levering van to
 
 <!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
 
-Meer informatie over het beheer van nieuwe pogingen vindt u in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+Meer informatie over het beheer van nieuwe pogingen vindt u in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 ## Goedkeuring {#approval}
 
@@ -152,7 +152,7 @@ U kunt ook datums opgeven. Selecteer **Geldigheidsdatums expliciet instellen**. 
 ![](assets/delivery-settings-2.png)
 
 
-Meer informatie over de geldigheidsperiode van de levering in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
+Meer informatie over de geldigheidsperiode van de levering in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
 ### Paginabeheer spiegelen {#mirror}
 

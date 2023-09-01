@@ -3,10 +3,10 @@ audience: end-user
 title: Je berichten bijhouden
 description: Leer hoe u koppelingen toevoegt en verzonden berichten bijhoudt
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '342'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ In al uw e-mailberichten moet een specifieke koppeling naar de spiegel worden to
 
 ## Beheer van bijhouden {#manage-tracking}
 
-De [E-mailontwerper](create-email-content.md) Hiermee kunt u de bijgehouden URL&#39;s beheren, zoals het bewerken van het trackingtype voor elke koppeling.
+De [E-mailDesigner](create-email-content.md) Hiermee kunt u de bijgehouden URL&#39;s beheren, zoals het bewerken van het trackingtype voor elke koppeling.
 
 1. Klik op de knop **[!UICONTROL Links]** in het linkerdeelvenster om de lijst weer te geven met alle URL&#39;s van de inhoud die u wilt bijhouden.
 
@@ -64,10 +64,10 @@ De [E-mailontwerper](create-email-content.md) Hiermee kunt u de bijgehouden URL&
 
    Voor elke bijgehouden URL kunt u de modus Tekstspatiëring instellen op een van de volgende waarden:
 
-   * **[!UICONTROL Tracked]**: Hiermee activeert u het bijhouden van wijzigingen op deze URL.
+   * **[!UICONTROL Tracked]**: activeert tracering op deze URL.
    * **[!UICONTROL Opt out]**: beschouwt deze URL als een opt-out- of niet-abonnements-URL.
    * **[!UICONTROL Mirror page]**: beschouwt deze URL als een URL van een spiegelpagina.
-   * **[!UICONTROL Never]**: Hiermee activeert u het bijhouden van deze URL nooit. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
+   * **[!UICONTROL Never]**: activeert het bijhouden van deze URL nooit. <!--This information is saved: if the URL appears again in a future message, its tracking is automatically deactivated.-->
 
 1. Voeg een **[!UICONTROL Category]** naar uw koppeling om bijgehouden koppelingen te groeperen en klik op **[!UICONTROL Save]**.
 

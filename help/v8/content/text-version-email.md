@@ -3,10 +3,10 @@ audience: end-user
 title: De tekstversie van een e-mailbericht maken
 description: Leer hoe u de tekstversie van een e-mailbericht maakt
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Alpha"
-source-git-commit: fb6e389c25aebae8bfc17c4d88e33273aac427dd
+badge: label="Beta"
+source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ U wordt aangeraden een tekstversie van de berichttekst te maken die wordt gebrui
 
 Standaard maakt de e-mailontwerper een **[!UICONTROL Plain text]** versie van uw e-mail, inclusief personalisatievelden. Deze versie wordt automatisch gegenereerd en gesynchroniseerd met de HTML-versie van uw inhoud.
 
-Voer de onderstaande stappen uit als u liever een andere inhoud gebruikt voor de versie zonder opmaak:
+Als u liever een andere inhoud gebruikt voor de versie zonder opmaak, voert u de onderstaande stappen uit:
 
-1. Selecteer in uw e-mail de optie **[!UICONTROL Plain text]** tab.
+1. Selecteer de optie **[!UICONTROL Plain text]** tab.
 
    ![](assets/text_version_3.png)
 
