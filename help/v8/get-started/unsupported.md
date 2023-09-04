@@ -5,15 +5,15 @@ description: Lijst met niet-ondersteunde functies in de gebruikersinterface van 
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 7%
+source-wordcount: '350'
+ht-degree: 6%
 
 ---
 
 
-# Niet-ondersteunde functies in de gebruikersinterface van het campagneweb {#unsupported-capabilities}
+# Niet-ondersteunde functies in Campagne Web {#unsupported-capabilities}
 
 De volgende mogelijkheden zijn toegankelijk in de Console van de Cliënt van de Campagne, maar nog niet beschikbaar in het Gebruikersinterface van het Web. Sommige zijn beschikbaar in een latere versie, andere niet.
 
@@ -22,17 +22,13 @@ De volgende mogelijkheden zijn toegankelijk in de Console van de Cliënt van de 
 * Startpagina-dashboard
 * Aanpassing van startpagina
 
-
 **Campaign Management**
 
 * Marketingkalender/tijdlijn
 * Begroting en kostenbeheer
 * Taakbeheer
-* Gedistribueerde marketing
+* Distributed Marketing (Central/Local Marketing)
 * Responsbeheer
-
-**Campagneoptimalisatie**
-
 * A/B-tests
 * Marketing Resource Management (MRM), doelstellingen, simulaties, budget en kosten
 
@@ -46,6 +42,7 @@ De volgende mogelijkheden zijn toegankelijk in de Console van de Cliënt van de 
 **Webinhoud**
 
 * Aanlandingspagina&#39;s maken en publiceren
+* Web-apps, webformulieren
 * Enquêtebeheer
 
 **Profielen en ontvangers**
@@ -66,16 +63,16 @@ De volgende mogelijkheden zijn toegankelijk in de Console van de Cliënt van de 
 
 * Inhoud van openbare middelen
 * Lussen/verzamelingsbeheer
-* Een HTML-inhoud opslaan als een sjabloon (niet beschikbaar in de clientconsole)
+* Een HTML-inhoud opslaan als een sjabloon`*`
 * Synchronisatie van e-mailsjablonen vanuit Adobe Experience Manager
 * Middelen van Adobe Experience Manager 6.5 in e-mailinhoud
 * Inhoudsblok maken
 * Inhoud uit aangepaste formulieren
-* Inhoud van een URL (niet beschikbaar in de clientconsole)
+* Inhoud van een URL`*`
 * E-mailfragmenten
 * AMP voor e-mails
-* E-mailfragmenten (niet beschikbaar in de clientconsole)
-* Multivariant/meertalig gebruik (niet beschikbaar in de clientconsole)
+* E-mailfragmenten`*`
+* Meervariant/meertalig gebruik`*`
 
 **Typologieregels**
 
@@ -125,3 +122,4 @@ De volgende mogelijkheden zijn toegankelijk in de Console van de Cliënt van de 
 * Doelgoedkeuring
 
 
+`*` Niet beschikbaar in de clientconsole
