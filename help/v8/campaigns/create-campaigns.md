@@ -4,10 +4,10 @@ title: Campagnes maken met Adobe Campaign Web
 description: Meer informatie over het maken van kanaalcampagnes met Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 1%
+source-wordcount: '471'
+ht-degree: 0%
 
 ---
 
@@ -17,21 +17,16 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_properties"
 >title="Eigenschappen voor het maken van campagnes"
->abstract="Definieer eigenschappen en metagegevens voor de campagne."
+>abstract="Definieer in dit scherm de instellingen voor uw campagne: selecteer een sjabloon en voer een label voor uw campagne in. Blader naar de aanvullende instellingen om de interne standaardnaam, -map, een beschrijving en -toewijzing te wijzigen."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_properties"
 >title="Campagneigenschappen"
->abstract="Definieer de instellingen en metagegevens van uw campagne."
+>abstract="In dit scherm kunt u de instellingen van uw campagne controleren en bijwerken: label, interne naam, map en beschrijving. U kunt ook bekijken aan welke gebruiker het wordt toegewezen."
 
-Om een nieuwe campagne te creëren, moet u zijn eigenschappen, programma bepalen en werkschema&#39;s en leveringen omvatten.
+Als u een nieuwe campagne wilt maken, moet u de eigenschappen en het schema van de campagne definiëren en werkstromen en leveringen opnemen.
 
 ## Maak de campagne{#campaign-create}
-
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_schedule"
->title="Campagne"
->abstract="Geef uw campagneschema op tijdens het maken van de campagne."
 
 Voer de volgende stappen uit om een nieuwe campagne te maken:
 
@@ -39,14 +34,7 @@ Voer de volgende stappen uit om een nieuwe campagne te maken:
 1. Selecteer de **Sjabloon** een label voor de campagne te gebruiken en te verstrekken. De malplaatjes van de campagne zijn pre-gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole.
    [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
 1. Indien nodig kunt u het volgende wijzigen **Aanvullende opties**: interne naam, map, ontvanger, beschrijving en aard.
-1. Definieer de **Schema** van uw campagne. De campagne begint wanneer de begindatum is bereikt. Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt. Zie dit [sectie](manage-campaigns.md#access-campaigns).
-
-   ![De campagneeigenschappen definiëren](assets/campaign-properties.png)
-
-   >[!NOTE]
-   >
-   >U kunt deze eigenschappen altijd later wijzigen, via het dialoogvenster **Campagne-instellingen configureren** naast het campagnelabel. Zie dit [sectie](gs-campaigns.md#campaign-dashboard).
-
+1. Definieer de **Schema** van uw campagne. Meer informatie over het instellen van uw campagneschema in [deze sectie](#campaign-schedule)
 1. Klikken **Maken**.
 1. Workflows en leveringen toevoegen aan uw campagne:
 
@@ -61,6 +49,29 @@ Campagne-controle is een belangrijke stap om de doeltreffendheid van uw campagne
 
 U kunt de toegewezen rapporten ook weergeven door op de knop **Rapporten** knop. Zie dit [sectie](../reporting/campaign-reports.md).
 
+
+## Het campagnereschema definiëren {#campaign-schedule}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_schedule"
+>title="Campagne"
+>abstract="Selecteer het campagneprogramma. U kunt de campagne maken en deze start wanneer de begindatum is bereikt. Standaard is de startdatum van de campagne de aanmaakdatum en duurt deze vijf dagen. Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt."
+
+
+De campagne begint wanneer de begindatum is bereikt. Zolang de begindatum niet is bereikt, heeft de campagne de **[!UICONTROL Draft]** status. Wanneer de begindatum is bereikt, wordt het ingesteld op **[!UICONTROL In progress]**. Wanneer de einddatum is bereikt, wordt de campagne ingesteld op **[!UICONTROL Completed]**.
+
+Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt. Zie dit [sectie](manage-campaigns.md#access-campaigns).
+
+![De campagneeigenschappen definiëren](assets/campaign-properties.png)
+
+>[!NOTE]
+>
+>U kunt deze eigenschappen altijd later wijzigen, via het dialoogvenster **Campagne-instellingen configureren** naast het campagnelabel. Zie dit [sectie](gs-campaigns.md#campaign-dashboard).
+
+
+
+Nadat de datum is bereikt, worden de leveringen die in die campagne zijn gemaakt in het kader van een werkstroom die klaar zijn om te worden verzonden, daadwerkelijk verzonden. Hiervoor moet de workflow zijn gestart.
 
 
 <!--
