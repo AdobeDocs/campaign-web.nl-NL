@@ -4,15 +4,18 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 1%
 
 ---
 
 
 # Nieuwe functies {#new}
+
+
+We zijn blij met de invoering van de BETA-versie van de webinterface van Adobe Campaign. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen.
 
 ## Bètaversie{#beta-release}
 
@@ -46,6 +49,54 @@ Gebruik de nieuwe UI van het Web van de Campagne:
 * U kunt uw e-mailberichten voorvertonen, testen en verzenden - [Meer informatie](../monitor/prepare-send.md)
 * Bewaak verzenden en meten resultaten met ingebouwde rapporten - [Meer informatie](../reporting/delivery-reports.md)
 
+
+## Laatste updates
+
+
+**Bètaoverzicht**
+
+* Gegevenscompositie (gefedereerd) inschakelen voor soorten publiek en persoonlijke voorkeur.
+* Gebruik AI-technologie om het genereren van e-mailinhoud te verbeteren.
+* Synchroniseer naadloos elementen en volledige HTML sjablonen.
+* Organiseer en beheer uw mappen en bronnen op efficiënte wijze.
+* Maak aansprekende en effectieve bestemmingspagina&#39;s.
+* Meer workflowactiviteiten: toegang tot extra activiteiten zoals wijzigingsdimensie, deduplicatie en terugkerende leveringen om de workflows van de campagne te verbeteren.
+
+**Belangrijke nieuwe mogelijkheden**
+
+* Meer Campagneworkflowactiviteiten
+
+  Verbeter uw marketingcampagnes met onze uitgebreide reeks workflowactiviteiten. Ontgrendel nieuwe mogelijkheden voor automatisering en optimalisering, die u toestaan om dynamischere en gepersonaliseerde klantenreizen te creëren.
+
+  Van geavanceerde segmentatie tot voorwaardelijke triggers, onze extra werkschemaactiviteiten stellen u in staat om gerichte berichten te leveren en betere campagneprestaties te drijven.
+
+* Gen AI voor e-mailinhoud
+
+  Neem afscheid van het handmatig maken van inhoud en begroet efficiënte, door gegevens gestuurde campagnes met de kracht van Gen AI.  Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen om bijzonder boeiende en gepersonaliseerde inhoud te genereren. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI.
+
+  Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud.
+
+
+* Vooraf gedefinieerd filterbeheer
+
+  Introductie van vooraf gedefinieerd filterbeheer. De interface van het Web van de campagne biedt u nu een gebruikersvriendelijke interface om vooraf bepaalde filters gemakkelijk te beheren en aan te passen om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik.
+
+
+* Doelpubliek
+
+  Het is nooit eenvoudiger om een leveringsdoel te maken! Met onze recentste regelbouwer, hebt u nu de capaciteit om het filtreren criteria voor ontvangers of een andere het richten dimensie van het gegevensbestand te bepalen. Bovendien kunt u uw AEP-publiek (Adobe Experience Platform) gebruiken om uw doelgroep verder te verfijnen en de impact van uw campagne te maximaliseren.
+
+* Aanbiedingen met SMS en Push
+
+  Met de nieuwe webinterface kunt u nu naast e-mail ook aanbiedingen integreren met SMS en pushberichten. Bereik uw publiek op hun mobiele apparaten, leverend bevorderingen en geschikte berichten.
+
+  Verhoog uw marketinginspanningen door gebruik te maken van de kracht van geïntegreerde aanbiedingen via SMS en pushberichten op ons geavanceerde webplatform.
+
+* Adobe Experience Manager (AEM)-integratie
+
+  Met onze AEM integratie uitgebreid tot web UI, kunt u activa eenvoudig beheren en volledige malplaatjes synchroniseren van de HTML, die u machtigen om het fascineren van digitale ervaringen zonder enige moeite tot stand te brengen.
+
+  Met deze integratie kunt u de mogelijkheden voor inhoudsbeheer op de webinterface verhogen en stroomlijnen om de productiviteit te verhogen.
 
 ## Overgang naar interface van het Web van de Campagne
 

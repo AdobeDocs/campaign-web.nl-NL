@@ -4,14 +4,20 @@ title: Een publiek maken met de bouwer van de campagneregel
 description: Leer hoe te met de regelbouwer te werken
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '600'
 ht-degree: 1%
 
 ---
 
 # Bepaal een publiek met de regelbouwer {#segment-builder}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Doelpubliek"
+>abstract="Het is nooit eenvoudiger om een leveringsdoel te maken! Met onze recentste regelbouwer, hebt u nu de capaciteit om het filtreren criteria voor ontvangers of een andere het richten dimensie van het gegevensbestand te bepalen. Profiteer van uw Adobe Experience Platform-publiek om uw doelgroep verder te verfijnen en de impact van uw campagne te maximaliseren."
 
 In deze sectie wordt beschreven hoe u een publiek kunt maken tijdens het ontwerpen van een nieuwe e-mail. Het nieuwe publiek kan alleen in deze e-mail worden gebruikt.
 

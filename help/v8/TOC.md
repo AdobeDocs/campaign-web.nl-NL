@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 86934e4f00ddde2edb1ef4fd3b162f0b6e514db6
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '366'
 ht-degree: 11%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 11%
       + [Aanpassing toevoegen](personalization/personalize.md)
       + [Voorwaardelijke inhoud toevoegen](personalization/conditions.md)
       + [Ingebouwde inhoudsblokken toevoegen](personalization/content-blocks.md)
+      + [Vooraf gedefinieerde filters maken en gebruiken](personalization/predefined-filters.md)
    + [Aanbiedingen verzenden](content/offers.md)
    + Voorbeeld en test de levering {#preview-test}
       + [Voorvertonen en testen](preview-test/preview-test.md)

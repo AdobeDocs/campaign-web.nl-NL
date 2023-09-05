@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Meer informatie over het verzenden van uw eerste e-mail via de webinterface voor campagnes
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1267'
 ht-degree: 1%
 
 ---
@@ -16,8 +16,8 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
->title="Aan de slag met e-mails"
->abstract="Begin met een sjabloon of gebruik de nieuwe e-mailontwerper van Adobe Campaign om e-mails te maken zonder dat u één regel code hoeft te schrijven. Leer hoe u met de e-mailontwerper uw inhoud kunt maken, deze kunt voorvertonen en testen en een e-mail naar een bestaand publiek kunt sturen in een gebruiksscenario van begin tot eind."
+>title="Gen AI voor e-mailinhoud"
+>abstract="Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen om bijzonder boeiende en gepersonaliseerde inhoud te genereren. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI. Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud."
 
 Leer hoe u uw eerste e-mailadres maakt waarvoor u een e-mail wilt schrijven. In dit geval plant u het verzenden van een e-mail naar leden van Silver en Gold-loyaliteit op een bepaalde datum.
 

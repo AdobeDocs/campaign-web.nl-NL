@@ -7,21 +7,14 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: b650a859-e27d-4a36-a725-a1f5bb31e014
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 # Voorwaardelijke inhoud maken{#add-conditions}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Voorwaardelijke content maken"
->abstract="Maak voorwaardelijke inhoud om dynamische personalisatie te definiëren op basis van het profiel van de ontvanger, waarbij tekstblokken en afbeeldingen automatisch worden vervangen als aan bepaalde voorwaarden wordt voldaan. Met deze functie kunt u uw campagnes op een hoger niveau brengen en uw publiek een zeer doelgerichte, persoonlijke ervaring bieden."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_conditional_content"
