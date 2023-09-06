@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 60362fadc63546158a6a6e7f7067f3dd520993a4
+source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >title="Vooraf gedefinieerde filters"
 >abstract="Campagne Web biedt u nu een gebruikersvriendelijke interface om vooraf gedefinieerde filters moeiteloos te beheren en aan te passen aan uw specifieke behoeften. Maak één keer en sla dit op voor toekomstig gebruik."
 
-Vooraf gedefinieerde filters zijn aangepaste filters die beschikbaar zijn voor toekomstig gebruik. Zij kunnen als kortere weg tijdens het filtreren verrichtingen met de regelbouwer worden gebruikt.
+Vooraf gedefinieerde filters zijn aangepaste filters die beschikbaar zijn voor toekomstig gebruik. Zij kunnen als kortere weg tijdens het filtreren verrichtingen met de regelbouwer worden gebruikt. U kunt bestaande ingebouwde filters gebruiken om toegang te krijgen tot een specifieke subset van uw gegevens of uw eigen vooraf gedefinieerde filter maken.
 
 
 ## Een vooraf gedefinieerd filter maken {#create-predefined-filter}
@@ -65,3 +65,5 @@ Uw aangepaste filter is nu beschikbaar in het dialoogvenster **Vooraf gedefiniee
 
 ## Uw vooraf gedefinieerde filters beheren {#manage-predefined-filter}
 
+
+## Geïntegreerde voorgedefinieerde filters {#ootb-predefined-filter}
