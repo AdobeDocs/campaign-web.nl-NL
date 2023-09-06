@@ -4,9 +4,9 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '962'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Gebruik de nieuwe UI van het Web van de Campagne:
 
 * Vooraf gedefinieerd filterbeheer
 
-  Introductie van vooraf gedefinieerd filterbeheer. De interface van het Web van de campagne biedt u nu een gebruikersvriendelijke interface om vooraf bepaalde filters gemakkelijk te beheren en aan te passen om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik.
+  Introductie van vooraf gedefinieerd filterbeheer. De interface van het Web van de campagne biedt u nu een gebruikersvriendelijke interface om vooraf bepaalde filters gemakkelijk te beheren en aan te passen om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik. [Meer informatie](../personalization/predefined-filters.md)
 
 
 * Doelpubliek
