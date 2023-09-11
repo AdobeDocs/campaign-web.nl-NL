@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 8c99e49e6c75fc25699636ac1dfd803178c109c6
+source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ ht-degree: 0%
 >title="Vooraf gedefinieerde filters"
 >abstract="Campagne Web biedt u nu een gebruikersvriendelijke interface om vooraf gedefinieerde filters moeiteloos te beheren en aan te passen aan uw specifieke behoeften. Maak één keer en sla dit op voor toekomstig gebruik."
 
-Vooraf gedefinieerde filters zijn aangepaste filters die beschikbaar zijn voor toekomstig gebruik. Zij kunnen als kortere weg tijdens het filtreren verrichtingen met de regelbouwer worden gebruikt. U kunt bestaande ingebouwde filters gebruiken om toegang te krijgen tot een specifieke subset van uw gegevens of uw eigen vooraf gedefinieerde filter maken.
+Vooraf gedefinieerde filters zijn aangepaste filters die worden gemaakt en opgeslagen om in de toekomst beschikbaar te zijn. Zij kunnen als kortere weg tijdens om het even welke het filtreren verrichtingen met de regelbouwer, bijvoorbeeld worden gebruikt wanneer het filtreren van een lijst van gegevens, of het creëren van het publiek van een levering.
+
+U kunt bestaande ingebouwde filters gebruiken om toegang te krijgen tot een specifieke subset van uw gegevens, of uw eigen vooraf gedefinieerde filters maken en deze opslaan.
 
 
 ## Een vooraf gedefinieerd filter maken {#create-predefined-filter}
@@ -52,18 +54,73 @@ Voer de onderstaande stappen uit om een aangepast filter op te slaan in de regel
 
 1. (optioneel) Schakel de optie **Opslaan als favoriet** als u dit vooraf gedefinieerde filter wilt zien in uw favorieten.
 
+
+   Wanneer een filter als favoriet wordt opgeslagen, is het beschikbaar voor alle gebruikers in **Favoriete filters** sectie van de lijst van de filterverwezenlijking, zoals hieronder getoond:
+
    ![](assets/predefined-filters-favorite.png)
+
 
 1. Klikken **Bevestigen** om uw wijzigingen op te slaan.
 
 Uw aangepaste filter is nu beschikbaar in het dialoogvenster **Vooraf gedefinieerde filters** en toegankelijk voor alle campagnegebruikers.
 
+U kunt ook een filter maken op basis van het **Vooraf gedefinieerde filters** in het linkermenu. Volg onderstaande stappen om dit te doen:
+
+1. Bladeren in het dialoogvenster **Vooraf gedefinieerde filters** in het linkermenu.
+1. Klik op de knop **Filter maken** knop.
+1. Voer de filternaam in en typ **Documenttype** selecteert u het schema waarop het van toepassing is. Het standaardschema is `Recipients(nms)`.
+1. Definieer de regel voor het filter. Profielen die ouder zijn dan 30.
+
+   ![](assets/filter-30+.png)
+
+1. Sla uw wijzigingen op. Het filter wordt toegevoegd aan de vooraf gedefinieerde filterlijst.
 
 ## Een vooraf gedefinieerd filter gebruiken {#use-predefined-filter}
 
+Vooraf gedefinieerde filters zijn beschikbaar wanneer u regeleigenschappen definieert. Als u toegang wilt tot vooraf gedefinieerde filters, kiest u **Aangepast filter selecteren** in de drop-down van de regelbouwer.
 
+Vervolgens hebt u toegang tot de volledige lijst met vooraf gedefinieerde filters die beschikbaar zijn voor de huidige context.
+
+U kunt ook de filtersneltoetsen gebruiken die beschikbaar zijn in het dialoogvenster **Favoriete filters** van de vervolgkeuzelijst.
+
+
+Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd filter, voert u de volgende stappen uit:
+
+1. Bladeren in het dialoogvenster **Soorten publiek** in het linkermenu.
+1. Klik op de knop **Publiek maken** knop.
+1. Voer de naam van het publiek in en klik op **Publiek maken** knop.
+1. Selecteer de **Query** activiteit, en, van de juiste ruit, klik **publiek maken** knop.
+
+   ![](assets//build-audience-from-filter.png)
+
+1. Van de **Filterknop selecteren of opslaan**, kiest u de **Aangepast filter selecteren** -optie.
+
+   ![](assets/build-audience-select-custom-filter.png)
+
+1. Blader naar het vooraf gedefinieerde filter dat u wilt gebruiken om het publiek te maken, selecteer het en bevestig het.
+
+   ![](assets/build-audience-filter-list.png)
+
+1. Controleer de regeleigenschappen voor dit filter en bevestig.
+
+   ![](assets/build-audience-check.png)
+
+   Het filter wordt nu gebruikt als een query in het dialoogvenster **Query** activiteit.
+
+   ![](assets/build-audience-confirm.png)
+
+1. Sla uw wijzigingen op en klik op de knop **Start** om het publiek te maken en beschikbaar te maken in de lijst met doelgroepen.
 
 ## Uw vooraf gedefinieerde filters beheren {#manage-predefined-filter}
 
+Vooraf gedefinieerde filters worden allemaal gegroepeerd in de toegewezen vermelding van het navigatiemenu links.
+
+In deze lijst kunt u een nieuw filter maken, zoals hierboven beschreven, en:
+
+* een bestaand filter bewerken en de regels en eigenschappen ervan wijzigen
+* Een vooraf gedefinieerd filter dupliceren
+* een vooraf gedefinieerd filter verwijderen
 
 ## Geïntegreerde voorgedefinieerde filters {#ootb-predefined-filter}
+
+De campagne komt met een reeks vooraf bepaalde filters, die van de cliëntconsole worden gebouwd. Deze filters kunnen worden gebruikt om uw publiek, en regels te bepalen. Ze mogen niet worden gewijzigd.
