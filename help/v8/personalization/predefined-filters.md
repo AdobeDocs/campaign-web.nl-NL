@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
+source-git-commit: 52b41f27da9c43c935c5a33c3f836b0030941dbd
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -39,14 +39,14 @@ U kunt bestaande ingebouwde filters gebruiken om toegang te krijgen tot een spec
 >title="Een vooraf gedefinieerd filter maken"
 >abstract="Voer een label in voor het vooraf gedefinieerde filter en selecteer de tabel waarop het van toepassing is. Open de aanvullende opties om een beschrijving toe te voegen en stel dit filter in als favoriet. Vervolgens gebruikt u de knop &#39;Regel maken&#39; om de filtervoorwaarden te definiëren."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-rules"
 >title="Vooraf gedefinieerde filterregels maken"
 >abstract="Als u de filtervoorwaarden van het aangepaste filter wilt definiëren, klikt u op de knop Regel maken."
 
+### Creeer een filter van de regelbouwer {#create-from-rule-builder}
 
-Voer de onderstaande stappen uit om een aangepast filter op te slaan in de regelbuilder:
+U kunt een douanefilter van de regelbouwer bewaren om het voor toekomstig gebruik beschikbaar te hebben. Voer de volgende stappen uit:
 
 1. Open de regelbouwer en bepaal uw het filtreren voorwaarden. In het onderstaande voorbeeld filtert u ontvangers die in Madrid wonen.
 1. Klik op de knop **Filter selecteren of opslaan** en selecteert u **Opslaan als filter**.
@@ -57,28 +57,40 @@ Voer de onderstaande stappen uit om een aangepast filter op te slaan in de regel
 
    ![](assets/predefined-filters-save-filter.png)
 
-1. (optioneel) Schakel de optie **Opslaan als favoriet** als u dit vooraf gedefinieerde filter wilt zien in uw favorieten.
-
-
-   Wanneer een filter als favoriet wordt opgeslagen, is het beschikbaar voor alle gebruikers in **Favoriete filters** sectie van de lijst van de filterverwezenlijking, zoals hieronder getoond:
-
-   ![](assets/predefined-filters-favorite.png)
-
+   U kunt het filter indien nodig opslaan als favoriet. Meer informatie in [deze sectie](#fav-filter).
 
 1. Klikken **Bevestigen** om uw wijzigingen op te slaan.
 
 Uw aangepaste filter is nu beschikbaar in het dialoogvenster **Vooraf gedefinieerde filters** en toegankelijk voor alle campagnegebruikers.
 
-U kunt ook een filter maken op basis van het **Vooraf gedefinieerde filters** in het linkermenu. Volg onderstaande stappen om dit te doen:
+
+### Een filter maken in de filterlijst {#create-filter-from-list}
+
+
+U kunt een filter maken op basis van het **Vooraf gedefinieerde filters** in het linkermenu. Volg onderstaande stappen om dit te doen:
 
 1. Bladeren in het dialoogvenster **Vooraf gedefinieerde filters** in het linkermenu.
 1. Klik op de knop **Filter maken** knop.
 1. Voer de filternaam in en typ **Documenttype** selecteert u het schema waarop het van toepassing is. Het standaardschema is `Recipients(nms)`.
+
+   U kunt het filter indien nodig opslaan als favoriet. Meer informatie in [deze sectie](#fav-filter).
+
 1. Definieer de regel voor het filter. Profielen die ouder zijn dan 30.
 
    ![](assets/filter-30+.png)
 
 1. Sla uw wijzigingen op. Het filter wordt toegevoegd aan de vooraf gedefinieerde filterlijst.
+
+
+## Filter opslaan als favoriet {#fav-filter}
+
+Wanneer u een vooraf gedefinieerd filter maakt, kunt u **Opslaan als favoriet** als u dit vooraf gedefinieerde filter wilt zien in uw favorieten.
+
+
+Wanneer een filter als favoriet wordt opgeslagen, is het beschikbaar voor alle gebruikers in **Favoriete filters** sectie van de lijst van de filterverwezenlijking, zoals hieronder getoond:
+
+![](assets/predefined-filters-favorite.png)
+
 
 ## Een vooraf gedefinieerd filter gebruiken {#use-predefined-filter}
 
@@ -86,7 +98,7 @@ Vooraf gedefinieerde filters zijn beschikbaar wanneer u regeleigenschappen defin
 
 Vervolgens hebt u toegang tot de volledige lijst met vooraf gedefinieerde filters die beschikbaar zijn voor de huidige context.
 
-U kunt ook de filtersneltoetsen gebruiken die beschikbaar zijn in het dialoogvenster **Favoriete filters** van de vervolgkeuzelijst.
+U kunt ook de filtersneltoetsen gebruiken die beschikbaar zijn in het dialoogvenster **Favoriete filters** van de vervolgkeuzelijst. Meer informatie over favorieten vindt u in [deze sectie](#fav-filter).
 
 Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd filter, voert u de volgende stappen uit:
 
@@ -125,7 +137,7 @@ In deze lijst kunt u een nieuw filter maken, zoals hierboven beschreven, en:
 * Een vooraf gedefinieerd filter dupliceren
 * een vooraf gedefinieerd filter verwijderen
 
-U kunt een vooraf gedefinieerd filter als favoriet voor een snelle toegang toevoegen wanneer het bouwen van uw regels. Deze mogelijkheid wordt beschreven in [deze sectie](#create-predefined-filter).
+U kunt een vooraf gedefinieerd filter als favoriet voor een snelle toegang toevoegen wanneer het bouwen van uw regels. Meer informatie in [deze sectie](#fav-filter).
 
 ## Geïntegreerde voorgedefinieerde filters {#ootb-predefined-filter}
 
