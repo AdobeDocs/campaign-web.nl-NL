@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 23a8f5521fd5acd88c0f7ae852ff7e54a081e03a
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Vooraf gedefinieerde filters zijn aangepaste filters die worden gemaakt en opges
 
 U kunt bestaande ingebouwde filters gebruiken om toegang te krijgen tot een specifieke subset van uw gegevens, of uw eigen vooraf gedefinieerde filters maken en deze opslaan.
 
+![](assets/predefined-filters-menu.png)
+
 
 ## Een vooraf gedefinieerd filter maken {#create-predefined-filter}
 
@@ -37,9 +39,12 @@ U kunt bestaande ingebouwde filters gebruiken om toegang te krijgen tot een spec
 >title="Een vooraf gedefinieerd filter maken"
 >abstract="Voer een label in voor het vooraf gedefinieerde filter en selecteer de tabel waarop het van toepassing is. Open de aanvullende opties om een beschrijving toe te voegen en stel dit filter in als favoriet. Vervolgens gebruikt u de knop &#39;Regel maken&#39; om de filtervoorwaarden te definiëren."
 
-Wanneer u een filter maakt met de regelbouwer, kunt u het opslaan voor toekomstig gebruik. Als het filter wordt opgeslagen als een aangepast filter, is het beschikbaar voor toekomstig gebruik. U kunt ook een vooraf gedefinieerd filter maken en bewerken via het toegewezen menu in de linkernavigatie.
 
-![](assets/predefined-filters-menu.png)
+>[!CONTEXTUALHELP]
+>id="acw_predefined-filters-rules"
+>title="Vooraf gedefinieerde filterregels maken"
+>abstract="Als u de filtervoorwaarden van het aangepaste filter wilt definiëren, klikt u op de knop Regel maken."
+
 
 Voer de onderstaande stappen uit om een aangepast filter op te slaan in de regelbuilder:
 
@@ -83,7 +88,6 @@ Vervolgens hebt u toegang tot de volledige lijst met vooraf gedefinieerde filter
 
 U kunt ook de filtersneltoetsen gebruiken die beschikbaar zijn in het dialoogvenster **Favoriete filters** van de vervolgkeuzelijst.
 
-
 Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd filter, voert u de volgende stappen uit:
 
 1. Bladeren in het dialoogvenster **Soorten publiek** in het linkermenu.
@@ -120,6 +124,8 @@ In deze lijst kunt u een nieuw filter maken, zoals hierboven beschreven, en:
 * een bestaand filter bewerken en de regels en eigenschappen ervan wijzigen
 * Een vooraf gedefinieerd filter dupliceren
 * een vooraf gedefinieerd filter verwijderen
+
+U kunt een vooraf gedefinieerd filter als favoriet voor een snelle toegang toevoegen wanneer het bouwen van uw regels. Deze mogelijkheid wordt beschreven in [deze sectie](#create-predefined-filter).
 
 ## Geïntegreerde voorgedefinieerde filters {#ootb-predefined-filter}
 
