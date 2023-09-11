@@ -2,10 +2,10 @@
 audience: end-user
 title: Bladeren, zoeken en filteren
 description: Ontdek hoe u kunt bladeren en filteren in lijsten met Campagne Web v8
-badge: label="Alpha"
-source-git-commit: 065108e7ac4d682dc3f3de63303be8353b145757
+badge: label="Alfa"
+source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De meeste koppelingen in het linkernavigatiemenu bevatten lijsten met objecten, zoals de lijst met **Leveringen** of **Campagnes**. Sommige lijstschermen zijn alleen-lezen. U kunt de lijstweergave aanpassen en deze lijsten filteren, zoals hieronder wordt beschreven.
 
-Als u een filter wilt verwijderen, klikt u op de knop **Alles wissen** knop.
+Klik op de knop **Alles wissen** knop.
 
 ## Lijstschermen aanpassen {#custom-lists}
 
@@ -79,7 +79,7 @@ Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voo
 
 Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken en de filterconfiguratieschermen. Kenmerken die zijn ingesteld als `advanced` kenmerken in het gegevensschema worden verborgen in de configuratievensters.
 
-De **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst weer te geven: De kenmerkenlijst wordt onmiddellijk bijgewerkt.
+Activeer **Geavanceerde kenmerken weergeven** schakelt u naar alle beschikbare kenmerken voor de huidige lijst: de lijst met kenmerken wordt direct bijgewerkt.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
