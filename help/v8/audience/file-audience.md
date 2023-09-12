@@ -4,9 +4,9 @@ title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ Wanneer u de inhoud van het bericht maakt en aan uw wensen aanpast, kunt u velde
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_samplefile"
->title="Voorbeeldbestand"
->abstract="Ondersteunde bestandsindelingen: txt, csv. Eerste regel gebruiken als kolomkop."
+>title="Een publiek uit een bestand laden"
+>abstract="Ondersteunde bestandsindelingen zijn TXT en CSV. Eerste regel gebruiken als kolomkop. Lijn de bestandsindeling uit met het voorbeeldbestand in de onderstaande koppeling."
 
 Ondersteunde indelingen zijn TXT en CSV. De eerste regel is de kolomkop.
 
