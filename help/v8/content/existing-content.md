@@ -4,10 +4,10 @@ title: Uw e-mailinhoud importeren
 description: Leer hoe u e-mailinhoud importeert
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f83bdea5c051bfec52e6df71f0edd0258827815a
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 1%
+source-wordcount: '231'
+ht-degree: 0%
 
 ---
 
@@ -36,6 +36,19 @@ Voer de volgende stappen uit om een bestand met HTML-inhoud te importeren:
 
 1. Sleep het HTML- of ZIP-bestand met de inhoud van uw HTML en klik op **[!UICONTROL Import]**.
 
-1. Nadat de HTML-inhoud is geüpload, kunt u de e-mailfuncties van E-mailontwerper gebruiken om uw e-mailadres te bewerken en er een voorvertoning van weer te geven. [Meer informatie](create-email-content.md)
+1. Nadat de HTML-inhoud is geüpload, wordt uw inhoud weergegeven in **[!UICONTROL Compatibility mode]**.
+
+   In deze modus kunt u alleen uw tekst aanpassen, koppelingen toevoegen of elementen aan uw inhoud toevoegen.
 
    ![](assets/html-imported.png)
+
+1. Als u de inhoudcomponenten van E-mailontwerper wilt gebruiken, opent u de **[!UICONTROL HTML converter]** en klik op **[!UICONTROL Convert]**.
+
+   ![](assets/html-imported-2.png)
+
+   >[!NOTE]
+   >
+   > Een `<table>` -tag als de eerste laag in een HTML-bestand kan leiden tot stijlverlies, inclusief de instellingen voor achtergrond en breedte in de bovenste laagtag.
+
+1. U kunt uw geïmporteerde bestand nu naar wens aanpassen met de functies van E-mailontwerper [Meer informatie](content-components.md).
+
