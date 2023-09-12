@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 11ebb88d44733d3bebddd4d28268a77c2489e867
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '370'
 ht-degree: 11%
 
 ---
@@ -78,6 +78,7 @@ ht-degree: 11%
       + [Uw e-mail renderen](preview-test/email-rendering.md)
 + Soorten publiek en ontvangers {#audiences}
    + [Aan de slag met het publiek](audience/about-audiences.md)
+   + [Werken met ontvangers](audience/about-recipients.md)
    + [Bestaande doelgroep selecteren](audience/add-audience.md)
    + [Bepaal een publiek met de regelbouwer](audience/segment-builder.md)
    + [Een e-mailpubliek laden vanuit een bestand](audience/file-audience.md)

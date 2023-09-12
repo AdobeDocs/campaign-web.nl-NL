@@ -4,7 +4,7 @@ title: Campagnes maken met Adobe Campaign Web
 description: Meer informatie over het maken van kanaalcampagnes met Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -68,8 +68,6 @@ Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als 
 >[!NOTE]
 >
 >U kunt deze eigenschappen altijd later wijzigen, via het dialoogvenster **Campagne-instellingen configureren** naast het campagnelabel. Zie dit [sectie](gs-campaigns.md#campaign-dashboard).
-
-
 
 Nadat de datum is bereikt, worden de leveringen die in die campagne zijn gemaakt in het kader van een werkstroom die klaar zijn om te worden verzonden, daadwerkelijk verzonden. Hiervoor moet de workflow zijn gestart.
 
