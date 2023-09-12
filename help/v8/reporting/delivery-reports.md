@@ -4,10 +4,10 @@ title: Leveringsrapporten
 description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 9c8677038dcf91a7476da4c09ba5ae22c26f2822
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 2%
+source-wordcount: '114'
+ht-degree: 1%
 
 ---
 
@@ -27,4 +27,8 @@ Voer de volgende stappen uit om rapporten weer te geven:
 
    ![](assets/reporting.png)
 
+1. Als uw levering terugkomt, kunt u een specifieke levering selecteren om over te melden door te klikken **[!UICONTROL Select deliveries]**.
 
+   U kunt ook een tijdsperiode op uw rapport toepassen door de optie **[!UICONTROL Contact date]**.
+
+   ![](assets/delivery-recurring.png)
