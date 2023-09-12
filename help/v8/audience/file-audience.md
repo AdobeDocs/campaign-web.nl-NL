@@ -4,9 +4,9 @@ title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Met Campagne Web kunt u teste-mails voorvertonen en verzenden wanneer u een publ
 1. Controles die op dossierformaat worden uitgevoerd
 1. klikken op verzenden
 
-+ koppeling naar voorvertoning en testsectie
+koppeling toevoegen aan voorvertoning en testsectie
 
 **vragen:**
 * geen vervanging van bestand beschikbaar?
