@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 95848730772a2dd3d09a299ab9856f22e21d287b
+source-git-commit: ba449ee0b5a4b41db8efbbabeb37ce7cd7cc3720
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '374'
 ht-degree: 11%
 
 ---
@@ -79,10 +79,12 @@ ht-degree: 11%
 + Soorten publiek en ontvangers {#audiences}
    + [Aan de slag met het publiek](audience/about-audiences.md)
    + [Werken met ontvangers](audience/about-recipients.md)
-   + [Bestaande doelgroep selecteren](audience/add-audience.md)
-   + [Bepaal een publiek met de regelbouwer](audience/segment-builder.md)
-   + [Een e-mailpubliek laden vanuit een bestand](audience/file-audience.md)
-   + [Een Adobe Experience Platform-publiek gebruiken](audience/aep-audience.md)
+   + [Soorten publiek maken](audience/create-audience.md)
+   + Doelpubliek {#target-audiences}
+      + [Bestaande doelgroep selecteren](audience/add-audience.md)
+      + [Bepaal een publiek met de regelbouwer](audience/segment-builder.md)
+      + [Een e-mailpubliek laden vanuit een bestand](audience/file-audience.md)
+      + [Een Adobe Experience Platform-publiek gebruiken](audience/aep-audience.md)
    + [Een controlegroep instellen](audience/control-group.md)
 + Kanaaloverschrijdende campagnes {#campaigns}
    + [Aan de slag met campagnes](campaigns/gs-campaigns.md)
