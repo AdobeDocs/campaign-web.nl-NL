@@ -3,9 +3,9 @@ audience: end-user
 title: Machtigingsbeheer in het campagneweb
 description: Meer informatie over machtigingen in Campagne web v8
 badge: label="Beta"
-source-git-commit: 5c7d60b3f59de2a5176a55d9556a3f1c6d2a7651
+source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,17 @@ ht-degree: 0%
 
 # Toegang en machtigingen {#access-and-permissions}
 
-Met toegangsbeheer kunt u de toegang tot objecten en gegevens uit hoofdlijsten beperken, zoals leveringen, ontvangers of workflows. Deze beperkingen zijn ook van toepassing in de boomstructuur van de Explorer. Daarnaast hebt u machtigingen nodig om objecten te maken, verwijderen, dupliceren en bewerken vanuit de gebruikersinterface. Toegangsbeheer wordt beheerd in de clientconsole. Alle toestemmingen in het Web van de Campagne worden gesynchroniseerd omhoog met de toestemmingen van de Console van de Cliënt van de Campagne. Alleen campagnebeheerders kunnen gebruikersmachtigingen definiëren en wijzigen. Meer informatie over gebruikersmachtigingen vindt u in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}.
+
+>[!CONTEXTUALHELP]
+>id="acw_explorer_permissions_create"
+>title="Machtiging vereist"
+>abstract="Uw beheerder moet u toestemming verlenen alvorens u dit voorwerp kunt tot stand brengen."
+
+
+
+Met toegangsbeheer kunt u de toegang tot objecten en gegevens uit hoofdlijsten beperken, zoals leveringen, ontvangers of workflows. Deze beperkingen zijn ook van toepassing in de boomstructuur van de Explorer. Daarnaast hebt u machtigingen nodig om objecten te maken, verwijderen, dupliceren en bewerken vanuit de gebruikersinterface.
+
+Toegangsbeheer wordt beheerd in de clientconsole. Alle toestemmingen in het Web van de Campagne worden gesynchroniseerd omhoog met de toestemmingen van de Console van de Cliënt van de Campagne. Alleen campagnebeheerders kunnen gebruikersmachtigingen definiëren en wijzigen. Meer informatie over gebruikersmachtigingen vindt u in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html){target="_blank"}.
 
 Terwijl u door de gebruikersinterface van het Web van de Campagne bladert, kunt u tot gegevens, tot voorwerpen en tot mogelijkheden afhankelijk van uw toestemmingen toegang hebben. Als u bijvoorbeeld geen toegangsmachtigingen hebt voor een map, kunt u deze niet zien. Uw machtigingen zijn ook van toepassing op objecten en gegevensbeheer. Zonder Schrijfmachtigingen voor een specifieke map kunt u geen levering in die map maken, zelfs niet als u deze kunt zien in de gebruikersinterface.
 

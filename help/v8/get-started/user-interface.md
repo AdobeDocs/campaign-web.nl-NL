@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Alfa"
-source-git-commit: 25513fb699e7e9fb2503b78cd9d92b6cc1204d3d
+source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1701'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ De nieuwe Campagne v8 Web interface biedt een moderne en intuïtieve gebruikerse
 
 ## Linkernavigatiemenu {#user-interface-left-nav}
 
-Blader links naar de koppelingen voor toegang tot de webmogelijkheden van Campagne v8. Met verschillende koppelingen worden lijsten weergegeven met objecten die kunnen worden gesorteerd en gefilterd. U kunt kolommen ook vormen om alle informatie te tonen u wenst. Zie dit [sectie](#list-screens). Alle lijstschermen zijn alleen-lezen, behalve de lijst met e-mailbezorgingen. Klik op een lijstitem voor editie/weergave is niet beschikbaar in Alfa. Alle lijsten kunnen in toekomstige versies worden bewerkt. Welke items in het navigatiemenu links worden weergegeven, is afhankelijk van uw gebruikersmachtigingen.
+Blader links naar de koppelingen voor toegang tot de webmogelijkheden van Campagne v8. Met verschillende koppelingen worden lijsten weergegeven met objecten die kunnen worden gesorteerd en gefilterd. U kunt kolommen ook vormen om alle informatie te tonen u wenst. Zie dit [sectie](#list-screens). Sommige lijstschermen zijn alleen-lezen. Welke items in het navigatiemenu links en in de lijsten worden weergegeven, is afhankelijk van uw gebruikersmachtigingen. Meer informatie over machtigingen in [deze sectie](permissions.md).
 
 ![](assets/home.png)
 
@@ -47,11 +47,11 @@ Toegang krijgen tot de Help-pagina&#39;s voor Campagne v8 Web **Leren** van de s
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Verkenner"
->abstract="De **Verkenner** worden alle Campagne-componenten en -objecten met dezelfde mappenhiërarchie als de component in de clientconsole weergegeven. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8 en maak leveringen, workflows en campagnes. Alle andere lijsten zijn alleen-lezen."
+>abstract="De **Verkenner** worden alle Campagne-componenten en -objecten met dezelfde mappenhiërarchie als de component in de clientconsole weergegeven. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8, controleer de bijbehorende machtigingen en maak mappen en submappen vanuit dit menu."
 
-De **Verkenner** worden alle campagnebronnen en -objecten met dezelfde mappenhiërarchie als de map in de clientconsole weergegeven. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8 en maak leveringen, workflows en campagnes. Alle andere lijsten zijn alleen-lezen.
+De **Verkenner** worden alle campagnebronnen en -objecten met dezelfde mappenhiërarchie als de map in de clientconsole weergegeven. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8 en maak leveringen, workflows en campagnes.
 
-De items die in de Verkenner worden weergegeven, zijn afhankelijk van uw gebruikersmachtigingen.
+De items die worden weergegeven in de **Verkenner** zijn afhankelijk van uw gebruikersmachtigingen.  U kunt ook mappen en submappen toevoegen als u de juiste machtigingen hebt. Meer informatie over machtigingen in [deze sectie](permissions.md).
 
 Zoals in om het even welk lijstscherm, kunt u kolommen vormen om de vertoning te personaliseren om alle informatie te bekijken u wenst. Zie dit [sectie](#list-screens).
 
@@ -81,10 +81,6 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 
 ### Klantenbeheer {#user-interface-customer-management}
 
->[!CONTEXTUALHELP]
->id="acw_recipients_list"
->title="Ontvangers"
->abstract="Open de ontvangende database. U kunt nuttige informatie zoals hun e-mailadres, voornaam en achternaam bekijken. Deze lijst is alleen-lezen."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
@@ -99,8 +95,8 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 
 In de sectie KLANTBEHEER kunt u uw ontvangers, publiek en abonnementen bekijken. Deze lijsten zijn alleen-lezen.
 
-* **Ontvangers** - Open de ontvangende database. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Meer informatie over ontvangers in [Adobe Campaign v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/gs-audiences.html){target="_blank"}.
-* **Soorten publiek** - Dit is uw lijst met doelgroepen. Standaard kunt u het type, de oorsprong, de datum en het label van de wijziging bekijken. U kunt de lijst filteren op oorsprong. Meer informatie over soorten publiek en lijsten in [Adobe Campaign v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **Ontvangers** - Open de ontvangende database. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Meer informatie over ontvangers in [deze sectie](../audience/about-recipients.md).
+* **Soorten publiek** - Dit is uw lijst met doelgroepen. Standaard kunt u het type, de oorsprong, de datum en het label van de wijziging bekijken. U kunt de lijst filteren op oorsprong. Meer informatie over soorten publiek en lijsten in [deze sectie](../audience/about-audiences.md).
 * **Abonnementen** - Blader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Leer hoe u abonnementen en abonnementen beheert in [Adobe Campaign v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
 
 ### Beslissingsbeheer
@@ -392,9 +388,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_template_for_campaign"
 >title="Workflowsjabloon in campagne"
 >abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_explorer_permissions_create"
->title="Machtiging vereist"
->abstract="Uw beheerder moet u toestemming verlenen alvorens u dit voorwerp kunt tot stand brengen."
-
