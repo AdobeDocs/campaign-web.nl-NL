@@ -4,10 +4,10 @@ title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: d14a461d558dec06613d7f009b347e1191c3400f
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 0%
+source-wordcount: '442'
+ht-degree: 1%
 
 ---
 
@@ -36,6 +36,7 @@ U kunt contactpersonen uploaden vanuit een extern bestand. Profielen worden niet
 >
 >* U kunt niet [controlegroepen](control-group.md) bij het laden van de doelpopulatie uit een extern bestand.
 
+## Uw bestand uploaden {#upload}
 
 Voer de volgende stappen uit als u profielen rechtstreeks vanuit de e-mailinterface in een lokaal bestand als doel wilt instellen:
 
@@ -54,6 +55,22 @@ Wanneer u de inhoud van het bericht maakt en aan uw wensen aanpast, kunt u velde
 
 ![](assets/select-external-perso.png)
 
+## Uw e-mail voorvertonen en testen {#test}
+
+Met Campagne Web kunt u teste-mails voorvertonen en verzenden wanneer u een publiek gebruikt dat vanuit een bestand is geüpload. Ga als volgt te werk om dit te doen:
+
+1. Inhoud simuleren
+1. Hiermee opent u de voorvertoning. Klik op Profiel(en) selecteren: selecteer profielen uit het bestand dat u wilt gebruiken
+1. om teste-mail te verzenden, klik test
+1. testmodus: doel van proefdrukken definiëren
+1. Upload doel van de teste-mail vanuit een tweede bestand (of gebruik hetzelfde). bestandsindeling volgt hetzelfde als geüploade bestand
+1. Controles die op dossierformaat worden uitgevoerd
+1. klikken op verzenden
+
++ koppeling naar voorvertoning en testsectie
+
+**vragen:**
+* geen vervanging van bestand beschikbaar?
 
 ## Voorbeeldbestand {#sample-file}
 

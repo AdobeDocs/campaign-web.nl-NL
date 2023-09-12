@@ -4,7 +4,7 @@ title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 1%
@@ -33,17 +33,11 @@ De ontvangers van een test kunnen diverse elementen controleren zoals verbinding
 
 Afhankelijk van het kanaal dat u gebruikt, kunnen testberichten naar drie soorten ontvangers worden verzonden:
 
-* [Testprofielen](#test-profiles) - Verzenden **e-mails en SMS testen** aan zaadadressen, die extra ontvangers in het gegevensbestand zijn.
+* [Testprofielen](#test-profiles) - Verzenden **e-mails en SMS testen** aan zaadadressen, die extra ontvangers in het gegevensbestand zijn. Ze kunnen worden gemaakt in de [!DNL Campaign] in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-  Ze kunnen worden gemaakt in de [!DNL Campaign] in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* [Vervangen van hoofddoel](#substitution-profiles) - Verzenden **e-mails en SMS testen** naar een specifiek e-mailadres of telefoonnummer wanneer u een bestaand profiel imiteert. Op deze manier kunt u het bericht net zo ervaren als de ontvangers, zodat u een nauwkeurige weergave krijgt van de inhoud die het profiel zal ontvangen.
 
-* [Vervangen van hoofddoel](#substitution-profiles) - Verzenden **e-mails en SMS testen** naar een specifiek e-mailadres of telefoonnummer wanneer u een bestaand profiel imiteert.
-
-  Op deze manier kunt u het bericht net zo ervaren als de ontvangers, zodat u een nauwkeurige weergave krijgt van de inhoud die het profiel zal ontvangen.
-
-* [Abonnees](#subscribers) - Verzenden **pushmeldingen testen** aan fictieve abonnees toegevoegd aan het gegevensbestand.
-
-  Net als testprofielen kunnen ze worden gemaakt in het dialoogvenster [!DNL Campaign] in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+* [Abonnees](#subscribers) - Verzenden **pushmeldingen testen** aan fictieve abonnees toegevoegd aan het gegevensbestand. Net als testprofielen kunnen ze worden gemaakt in het dialoogvenster [!DNL Campaign] in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
 Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaande stappen op basis van het type profielen dat u wilt gebruiken.
 
