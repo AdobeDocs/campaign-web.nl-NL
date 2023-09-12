@@ -4,9 +4,9 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,13 @@ De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk 
 * **[!UICONTROL Folder]**: De map waarin de workflow moet worden opgeslagen.
 * **[!UICONTROL Linked campaign]**: Dit veld wordt weergegeven als de workflow in een campagne is gemaakt. Hiermee kunt u de bijbehorende campagne openen.
 * **[!UICONTROL Timezone]**: Definieer een specifieke tijdzone die standaard moet worden gebruikt in alle activiteiten van de workflow. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
-* **[!UICONTROL Supervisor(s)]**: Als een workflow een fout bevat, worden de operatoren die tot de groep voor workflowtoezicht behoren, via e-mail op de hoogte gebracht, zolang hun e-mailadres in hun profiel wordt vermeld.
+Andere mogelijke waarden zijn:
+   * **Tijdzone van server** de tijdzone van de Adobe Campaign-toepassingsserver gebruiken
+   * **Tijdzone van exploitant** om de tijdzone te gebruiken van de Adobe Campaign-operator die de workflow uitvoert, zoals gedefinieerd in het profiel van de operator, in de clientconsole
+   * **Tijdzone van de database** om de tijdzone van de gegevensbestandserver te gebruiken
+   * Een specifieke tijdzone
+
+* **[!UICONTROL Supervisor(s)]**: Wanneer een workflow mislukt, worden de operatoren die tot de groep met operatoren behoren die in dit veld is geselecteerd, via e-mail op de hoogte gebracht.
 * **[!UICONTROL Description]**: Gebruik dit veld om een beschrijving van de workflow te geven.
 
 ## Segmenteringsinstellingen
