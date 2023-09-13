@@ -4,9 +4,9 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: e2ff9efcedbfc46f9d943c30fabb1b3b39c43b74
+source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '903'
 ht-degree: 1%
 
 ---
@@ -52,15 +52,13 @@ Gebruik de nieuwe UI van het Web van de Campagne:
 
 ## Laatste updates
 
-
 **Bètaoverzicht**
 
-* Gegevenscompositie (gefedereerd) inschakelen voor soorten publiek en persoonlijke voorkeur.
-* Gebruik AI-technologie om het genereren van e-mailinhoud te verbeteren.
-* Synchroniseer naadloos elementen en volledige HTML sjablonen.
-* Organiseer en beheer uw mappen en bronnen op efficiënte wijze.
-* Maak aansprekende en effectieve bestemmingspagina&#39;s.
-* Meer workflowactiviteiten: toegang tot extra activiteiten zoals wijzigingsdimensie, deduplicatie en terugkerende leveringen om de workflows van de campagne te verbeteren.
+* Gegevenscompositie (gefedereerd) inschakelen voor soorten publiek en persoonlijke voorkeur
+* AI-technologie gebruiken om e-mailinhoud te genereren
+* Elementen en volledige HTML-sjablonen naadloos synchroniseren
+* Uw mappen en bronnen efficiënt organiseren en beheren
+* Toegang tot extra activiteiten zoals veranderingsdimensie, deduplicatie, en terugkerende leveringen om campagneworkflows te verbeteren
 
 **Belangrijke nieuwe mogelijkheden**
 
@@ -92,11 +90,14 @@ Gebruik de nieuwe UI van het Web van de Campagne:
 
   Verhoog uw marketinginspanningen door gebruik te maken van de kracht van geïntegreerde aanbiedingen via SMS en pushberichten op ons geavanceerde webplatform.
 
-* Adobe Experience Manager (AEM)-integratie
+<!--
+* Adobe Experience Manager (AEM) Integration
+    
+    With our AEM integration extended to web UI, you can easily manage assets and synchronize full HTML templates, empowering you to create captivating digital experiences without any hassle. 
+    
+    Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
+-->
 
-  Met onze AEM integratie uitgebreid tot web UI, kunt u activa eenvoudig beheren en volledige malplaatjes synchroniseren van de HTML, die u machtigen om het fascineren van digitale ervaringen zonder enige moeite tot stand te brengen.
-
-  Met deze integratie kunt u de mogelijkheden voor inhoudsbeheer op de webinterface verhogen en stroomlijnen om de productiviteit te verhogen.
 
 ## Overgang naar interface van het Web van de Campagne
 
