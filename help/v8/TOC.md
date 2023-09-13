@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 20de61c502c205adbb87505a36b5fcd264bb938c
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '380'
 ht-degree: 11%
 
 ---
@@ -22,7 +22,9 @@ ht-degree: 11%
    + [Aan de slag](get-started/get-started.md)
    + [De interface detecteren](get-started/user-interface.md)
    + [Bladeren, zoeken en filteren](get-started/list-filters.md)
+   + [Werken met vooraf gedefinieerde filters](get-started/predefined-filters.md)
    + [Toegang en machtigingen](get-started/permissions.md)
+   + [Afvoerkanalen en beperkingen](get-started/guardrails.md)
    + [Niet-ondersteunde mogelijkheden](get-started/unsupported.md)
    + [AI gebruiken](get-started/using-ai.md)
 + Berichten en leveringen {#msg}
@@ -69,7 +71,6 @@ ht-degree: 11%
       + [Aanpassing toevoegen](personalization/personalize.md)
       + [Voorwaardelijke inhoud toevoegen](personalization/conditions.md)
       + [Ingebouwde inhoudsblokken toevoegen](personalization/content-blocks.md)
-      + [Werken met vooraf gedefinieerde filters](personalization/predefined-filters.md)
    + [Aanbiedingen verzenden](content/offers.md)
    + Voorbeeld en test de levering {#preview-test}
       + [Voorvertonen en testen](preview-test/preview-test.md)

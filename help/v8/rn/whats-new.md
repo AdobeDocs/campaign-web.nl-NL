@@ -4,9 +4,9 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 371055202d9d3e2f4ded9fe4d3c43acd9498728e
+source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -77,18 +77,18 @@ Gebruik de nieuwe UI van het Web van de Campagne:
 
 * Vooraf gedefinieerd filterbeheer
 
-  Introductie van vooraf gedefinieerd filterbeheer. De interface van het Web van de campagne biedt u nu een gebruikersvriendelijke interface om vooraf bepaalde filters gemakkelijk te beheren en aan te passen om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik. [Meer informatie](../personalization/predefined-filters.md)
+  Introductie van vooraf gedefinieerd filterbeheer. De interface van het Web van de campagne biedt u nu een gebruikersvriendelijke interface om vooraf bepaalde filters gemakkelijk te beheren en aan te passen om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik. [Meer informatie](predefined-filters.md)
 
 
 * Doelpubliek
 
   Het is nooit eenvoudiger om een leveringsdoel te maken! Met onze recentste regelbouwer, hebt u nu de capaciteit om het filtreren criteria voor ontvangers of een andere het richten dimensie van het gegevensbestand te bepalen. Bovendien kunt u uw AEP-publiek (Adobe Experience Platform) gebruiken om uw doelgroep verder te verfijnen en de impact van uw campagne te maximaliseren.
 
-* Aanbiedingen met SMS en Push
+* Aanbiedingen met SMS
 
-  Met de nieuwe webinterface kunt u nu naast e-mail ook aanbiedingen integreren met SMS en pushberichten. Bereik uw publiek op hun mobiele apparaten, leverend bevorderingen en geschikte berichten.
+  Met de nieuwe webinterface kunt u nu naast e-mail ook aanbiedingen met SMS integreren. Bereid uw publiek op hun mobiele apparaten, leverend bevorderingen, en geschikte berichten.
 
-  Verhoog uw marketinginspanningen door gebruik te maken van de kracht van geïntegreerde aanbiedingen via SMS en pushberichten op ons geavanceerde webplatform.
+  Verhoog uw marketinginspanningen door gebruik te maken van de kracht van geïntegreerde aanbiedingen via SMS op ons geavanceerde webplatform.
 
 <!--
 * Adobe Experience Manager (AEM) Integration
