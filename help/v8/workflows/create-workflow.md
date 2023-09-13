@@ -1,13 +1,13 @@
 ---
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
-description: Leer hoe u workflows kunt maken met Adobe Campaign Web
+description: Leer hoe u een workflow maakt met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: a3cc0a65d6016c28cfe65b025bb971245720b181
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 0%
+source-wordcount: '636'
+ht-degree: 1%
 
 ---
 
@@ -17,25 +17,79 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Workfloweigenschappen"
->abstract="Kies in dit scherm de sjabloon die u wilt gebruiken om de workflow te maken en geef een label op. Vouw de sectie Aanvullende opties uit om specifieke instellingen te configureren, zoals de workflow waarin de map of tijdzone wordt opgeslagen."
+>abstract="Kies in dit scherm de sjabloon die u wilt gebruiken om de workflow te maken en geef een label op. Vouw de sectie EXTRA OPTIONS uit om meer instellingen te configureren, zoals de interne naam van de workflow, de map, de tijdzone en de supervisorgroep. Het wordt hoogst geadviseerd om een supervisorgroep te selecteren zodat de exploitanten worden gealarmeerd als een fout voorkomt."
 
-De eerste stap om uw werkschema in Campagne v8 Web tot stand te brengen is het of als standalone werkschema of direct binnen een campagne te creëren en zijn algemene eigenschappen te bepalen. Voer hiertoe de volgende stappen uit:
+U kunt zelfstandige workflows of workflows in een campagne maken. De eerste stap bestaat uit het selecteren van een sjabloon en het definiëren van de algemene eigenschappen ervan. Vervolgens kunt u zo nodig aanvullende instellingen configureren.
 
-1. Begin door te beslissen of u een standalone werkschema wilt tot stand brengen of het direct binnen een campagne integreren:
+Voer hiertoe de volgende stappen uit:
 
-   * **Zelfstandige workflow**: Navigeer naar het menu Worklows en klik op de knop Create workflow in de rechterbovenhoek.
-   * **Workflow voor campagnes:** Navigeer naar het menu Campagnes en open de campagne waar u een nieuwe workflow wilt maken. Klik op de knop Workflow maken in de rechterbovenhoek van het tabblad Workflows.
+1. Een **Zelfstandige workflow**, bladert u naar de **Werknemers** -menu.
 
-   Het dialoogvenster Eigenschappen van workflow wordt geopend.
+   Een **Campagne-workflow**, bladert u naar de **Campagnes** en opent u de campagne waarvoor u een nieuwe workflow wilt maken.
+
+1. Klik op de knop **[!UICONTROL Create workflow]** rechtsboven in het scherm.
 
    ![](assets/workflow-create.png)
 
-1. Selecteer de sjabloon die u wilt gebruiken om de workflow te maken en geef een label voor de workflow op.
+1. In workflow **Eigenschappen** selecteert u de sjabloon die u wilt gebruiken om de workflow te maken (u kunt ook de standaard ingebouwde sjabloon gebruiken). Meer informatie over sjablonen in [het onderstaande gedeelte](#work-with-workflow-templates-workflow-templates).
 
-   De malplaatjes van het werkschema bevatten pre-gevormde activiteiten en algemene bezitsconfiguraties die voor het creëren van nieuwe werkschema&#39;s kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole. [Leer hoe u met sjablonen werkt](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html#workflow-templates)
+1. Voer een label in voor de workflow. Daarnaast raden we u ten zeerste aan een beschrijving toe te voegen aan uw workflow, in het specifieke veld van het dialoogvenster **[!UICONTROL Additional options]** van het scherm.
 
-1. Breid uit **[!UICONTROL Additional options]** als u specifieke instellingen voor de workflow wilt configureren, zoals de opslagmap en tijdzone. [Leer hoe u werkstroomeigenschappen configureert](workflow-settings.md)
+1. Breid uit **[!UICONTROL Additional options]** om meer instellingen voor de workflow te configureren. Leer hoe u de eigenschappen van de workflow kunt configureren in [deze pagina](workflow-settings.md#properties)
+
+   ![](assets/workflow-additional-options.png)
 
 1. Klik op de knop **[!UICONTROL Create workflow]** om het maken van uw workflow te bevestigen.
 
-Als uw workflow is gemaakt, kunt u nu beginnen met het orchestreren van de verschillende taken die worden uitgevoerd met een speciaal visueel canvas. [Leer workflowactiviteiten te ordenen](orchestrate-activities.md)
+Uw workflow wordt nu gemaakt en beschikbaar in de lijst met workflows. U kunt nu het visuele canvas openen en de taken die het gaat uitvoeren, toevoegen, configureren en ordenen. Leer hoe u workflowactiviteiten kunt ordenen in [deze pagina](orchestrate-activities.md).
+
+## Werken met workflowsjablonen {#workflow-templates}
+
+Workflowsjablonen bevatten vooraf geconfigureerde instellingen en activiteiten die opnieuw kunnen worden gebruikt voor het maken van nieuwe workflows. U kunt bij het maken van een workflow de sjabloon van uw workflow selecteren uit de workfloweigenschappen. Er wordt standaard een lege sjabloon weergegeven.
+
+U kunt een sjabloon maken op basis van een bestaande workflow of een geheel nieuwe sjabloon maken. Beide methoden worden hieronder beschreven.
+
+
+>[!BEGINTABS]
+
+>[!TAB Een sjabloon maken op basis van een bestaande workflow]
+
+Voer de volgende stappen uit om een werkstroomsjabloon te maken op basis van een bestaande workflow:
+
+1. Openen voor de **Workflows** en blader aan het werkschema om als malplaatje te bewaren.
+1. Klik op de drie stippen rechts van de naam van de workflow en kies **Kopiëren als sjabloon**.
+
+   ![](assets/wf-copy-as-template.png)
+
+1. Bevestig het maken van de sjabloon in het pop-upvenster.
+1. In het canvas van het werkschemamalplaatje, controleer, voeg, en vorm de activiteiten toe zoals nodig.
+1. Blader naar de instellingen om de naam van de werkstroomsjabloon te wijzigen en voer een beschrijving in.
+1. Sla uw wijzigingen op.
+
+Het werkstroomsjabloon is nu beschikbaar in de sjabloonlijst. U kunt een workflow maken op basis van deze sjabloon. Deze workflow wordt vooraf geconfigureerd met de instellingen en activiteiten die in de sjabloon zijn gedefinieerd.
+
+
+>[!TAB Een geheel nieuwe sjabloon maken]
+
+
+Ga als volgt te werk om een werkstroomsjabloon helemaal zelf te maken:
+
+1. Openen voor de **Workflows** en blader aan **Sjablonen** tab. U kunt de lijst met beschikbare werkstroomsjablonen bekijken.
+1. Klik op de knop **[!UICONTROL Create template]** rechtsboven in het scherm.
+1. Voer het label in en open de aanvullende opties om een beschrijving van de werkstroomsjabloon in te voeren.
+1. Selecteer de map en de uitvoeringsmap van de sjabloon. De map is de locatie waar het werkstroomsjabloon wordt opgeslagen. De uitvoeringsmap is de map waarin workflows worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
+
+   De andere eigenschappen komen veel voor in workflows. Meer informatie in [deze pagina](workflow-settings.md#properties)
+
+   ![](assets/new-wf-template.png)
+
+1. Klik op de knop **Maken** om uw instellingen te bevestigen.
+1. In het canvas van het werkschemamalplaatje, voeg en vorm de activiteiten toe zoals nodig.
+
+   ![](assets/wf-template-activities.png)
+
+1. Sla uw wijzigingen op.
+
+Het werkstroomsjabloon is nu beschikbaar in de sjabloonlijst. U kunt een workflow maken op basis van deze sjabloon. Deze workflow wordt vooraf geconfigureerd met de instellingen en activiteiten die in de sjabloon zijn gedefinieerd.
+
+>[!ENDTABS]
