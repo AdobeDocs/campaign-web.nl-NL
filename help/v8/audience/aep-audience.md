@@ -4,9 +4,9 @@ title: Een Adobe Experience Platform-publiek gebruiken
 description: Leer hoe u een publiek van Adobe Experience Platform kunt gebruiken
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -19,8 +19,7 @@ Zodra u een publiek van Adobe Experience Platform hebt gecreeerd en het in de cl
 
 >[!NOTE]
 >
->Om het publiek van Adobe Experience Platform in Campaign te gebruiken, moet u de integratie met de Bronnen en Doelen van de Adobe vormen. Zie [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
-
+>Om het publiek van Adobe Experience Platform in Campaign te gebruiken, moet u de integratie met de Bronnen en Doelen van de Adobe vormen. Zie [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
 Als u het publiek van een levering wilt selecteren, kunt u ook:
 
