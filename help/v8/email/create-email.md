@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Meer informatie over het verzenden van uw eerste e-mail via de webinterface voor campagnes
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1173'
 ht-degree: 1%
 
 ---
@@ -131,16 +131,11 @@ In dit geval stuurt u de e-mail naar een bestaand publiek. Aanvullende instructi
 
 ## Plan de verzending {#schedule}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_schedule"
->title="Plan de verzending"
->abstract="Bepaal de datum en de nauwkeurige tijd voor uw verzendend. Door de meest geschikte tijd voor uw marketingbericht te kiezen, kunt u de open tarieven maximaliseren."
-
-Als u de verzending van het e-mailbericht wilt plannen, opent u het bericht en bladert u naar de **Schema** sectie. Gebruik de **[!UICONTROL Enable scheduling]** om het te activeren en de gewenste datum en tijd voor verzending in te stellen. Nadat u de levering hebt verzonden, begint de daadwerkelijke verzending op de door u gedefinieerde contactdatum.
-
-Standaard worden de **[!UICONTROL Enable confirmation before sending]** is ingeschakeld. Voor deze optie moet u de verzending bevestigen voordat het e-mailbericht op de geplande datum en tijd wordt verzonden. Als u het e-mailbericht automatisch wilt verzenden op de geplande datum en tijd, kunt u deze optie uitschakelen.
+Als u de verzending van het e-mailbericht wilt plannen, opent u het bericht en bladert u naar de **Schema** sectie.
 
 ![](assets/schedule.png)
+
+Leer hoe u de verzending van de levering kunt plannen [deze sectie](../msg/gs-messages.md#gs-schedule)
 
 ## E-mail voorvertonen en testen {#preview-test}
 

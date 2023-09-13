@@ -4,7 +4,7 @@ title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 1%
@@ -35,7 +35,7 @@ De belangrijkste stappen voor het voorbereiden van de verzending worden hieronde
 
    >[!NOTE]
    >
-   >Als u de levering hebt gepland en de optie **[!UICONTROL Enable confirmation before sending]** , worden de voorbereidings- en verzendingsstappen gegroepeerd onder de **[!UICONTROL Prepare and send]** knop. [Meer informatie over plannen](../email/create-email.md#schedule)
+   >Als u de levering hebt gepland en de optie **[!UICONTROL Enable confirmation before sending]** , worden de voorbereidings- en verzendingsstappen gegroepeerd onder de **[!UICONTROL Prepare and send]** knop. [Meer informatie over plannen](../msg/gs-messages.md#gs-schedule)
 
 1. De voortgang van de voorbereiding wordt weergegeven. Afhankelijk van de omvang van de doelpopulatie kan deze operatie enige tijd duren.
 
@@ -87,7 +87,7 @@ Zodra de voorbereiding zonder fout volledig is, is uw bericht klaar om te worden
 
 Wanneer de [voorbereiding](#prepare) is voltooid, kunt u uw e-mail nu verzenden.
 
-Als het bericht gepland is, zal het op de bepaalde datum en de tijd worden verzonden. [Meer informatie](#schedule-the-send)
+Als het bericht gepland is, zal het op de bepaalde datum en de tijd worden verzonden. [Meer informatie](../msg/gs-messages.md#gs-schedule)
 
 ### Direct verzenden {#send-immediately}
 
@@ -105,7 +105,7 @@ Voer de onderstaande stappen uit als u direct een e-mail wilt verzenden.
 
 Voer de onderstaande stappen uit als u uw e-mail op een latere datum en tijd wilt verzenden.
 
-1. Voordat u op de knop **[!UICONTROL Review and send]** controleert u of u een schema voor uw e-mail hebt gedefinieerd. [Meer informatie](../email/create-email.md#schedule)
+1. Voordat u op de knop **[!UICONTROL Review and send]** controleert u of u een schema voor uw e-mail hebt gedefinieerd. [Meer informatie](../msg/gs-messages.md#gs-schedule)
 
 1. Klik op het leveringdashboard op de knop **[!UICONTROL Send as scheduled button]** in de rechterbovenhoek
 
@@ -115,7 +115,7 @@ Voer de onderstaande stappen uit als u uw e-mail op een latere datum en tijd wil
 
    >[!NOTE]
    >
-   >Als u de optie **[!UICONTROL Enable confirmation before sending]** , worden de voorbereidings- en verzendingsstappen gegroepeerd onder de **[!UICONTROL Prepare and send]** knop. [Meer informatie over plannen](../email/create-email.md#schedule)
+   >Als u de optie **[!UICONTROL Enable confirmation before sending]** , worden de voorbereidings- en verzendingsstappen gegroepeerd onder de **[!UICONTROL Prepare and send]** knop. [Meer informatie over plannen](../msg/gs-messages.md#gs-schedule)
 
 ## De verzending onderbreken of stoppen {#pause-stop-sending}
 

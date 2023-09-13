@@ -4,9 +4,9 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe u met leveringen werkt en berichten verzendt met Campagne Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1261'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
 
 1. Bepaal het leveringspubliek, voor het belangrijkste doel en de controlegroep. Meer informatie over publiek in [deze sectie](../audience/about-audiences.md).
 1. Bepaal de berichtinhoud.
-1. (optioneel) Bepaal het leveringsschema. Als geen programma wordt bepaald, worden de berichten verzonden onmiddellijk na het klikken van **[!UICONTROL Send]** knop.
+1. (optioneel) Bepaal de levering [schema](#gs-schedule). Als geen programma wordt bepaald, worden de berichten verzonden onmiddellijk na het klikken van **[!UICONTROL Send]** knop.
 1. Klik op de knop  **[!UICONTROL Review and send]** om uw instellingen te controleren.
 1. Gebruik de  **[!UICONTROL Simulate content]** om uw levering, en verpersoonlijkingsmontages te testen. Meer informatie over berichtsimulatie vindt u in [deze sectie](../preview-test/preview-test.md).
 1. Klik op de knop  **[!UICONTROL Prepare]** om de doelpopulatie te berekenen en de berichten te genereren. De voorbereidingsstap kan een paar minuten duren. Wanneer de voorbereiding volledig is, zijn de berichten klaar om te verzenden. Blader bij een fout naar de **Logboeken** om waarschuwingen en waarschuwingen te controleren.
@@ -144,8 +144,24 @@ U kunt de inhoud van het bericht aanpassen door:
 
 Nadat de inhoud van uw bericht is gedefinieerd, kunt u deze voorvertonen om de weergave van uw berichten te bepalen en de instellingen voor de personalisatie te controleren met testprofielen. [Meer informatie](../preview-test/preview-test.md)
 
+## De verzending van de levering plannen {#gs-schedule}
 
-## Logbestanden bijhouden en bijhouden{#gs-tracking-logs}
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_schedule"
+>title="Plan de verzending"
+>abstract="Bepaal de datum en de nauwkeurige tijd voor het verzenden van berichten. Door de meest geschikte tijd voor uw marketingbericht te kiezen, kunt u de open tarieven maximaliseren."
+
+U kunt de datum en het exacte tijdstip voor het verzenden van uw berichten instellen. Door de meest geschikte tijd voor uw marketingbericht te kiezen, kunt u de open tarieven maximaliseren.
+
+Als u de verzending van de levering wilt plannen, opent u de levering en bladert u naar de **Schema** sectie. Gebruik de **[!UICONTROL Enable scheduling]** om het te activeren en de gewenste datum en tijd voor verzending in te stellen. Nadat u de levering hebt verzonden, begint de daadwerkelijke verzending op de door u gedefinieerde contactdatum.
+
+![](assets/schedule.png)
+
+Standaard worden de **[!UICONTROL Enable confirmation before sending]** is ingeschakeld. Voor deze optie moet u de verzending bevestigen voordat de levering op de geplande datum en tijd wordt verzonden. Als u de levering automatisch op de geplande datum en tijd moet verzenden, kunt u deze optie onbruikbaar maken.
+
+Meer informatie over het verzenden van een geplande levering in [deze sectie](../monitor/prepare-send.md#schedule-the-send).
+
+## Logbestanden bijhouden en bijhouden {#gs-tracking-logs}
 
 Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke stap om ervoor te zorgen dat uw marketingcampagnes efficiënt zijn en uw klanten bereiken.
 
