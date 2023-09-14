@@ -3,7 +3,7 @@ audience: end-user
 title: De workflowactiviteit Change-dimensie gebruiken
 description: Leer hoe u de workflowactiviteit Wijzigen kunt gebruiken
 badge: label="Beta"
-source-git-commit: 62343d35cab4ad78821fb96951557e9de58766e0
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Voer de volgende stappen uit om de **dimensie wijzigen** activiteit:
 
 1. Voeg een **Dimensie wijzigen** activiteit aan uw werkschema.
 
-       &lt;!—![](../assets/workflow-change-dimension.png)—>
+       ![../assets/workflow-change-dimension.png]
    
 1. Selecteer de nieuwe doeldimensie via het veld Dimensie wijzigen.
 

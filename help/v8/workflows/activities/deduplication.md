@@ -3,7 +3,7 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 6%
@@ -26,7 +26,7 @@ Voer de volgende stappen uit om de **Planner** activiteit:
 
 1. Voeg een **Deduplicatie** activiteit aan uw werkschema.
 
-   <!--![](../assets/workflow-deduplication.png)-->
+   ![](../assets/workflow-deduplication.png)
 
 1. In de **Velden om duplicaten te identificeren** klikt u op de **Kenmerk toevoegen** om aan te geven voor welke velden de identieke waarden het mogelijk maken de duplicaten te identificeren: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt.
 

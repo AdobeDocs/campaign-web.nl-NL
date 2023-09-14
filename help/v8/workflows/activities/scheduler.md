@@ -3,7 +3,7 @@ audience: end-user
 title: De workflowactiviteit van de planner gebruiken
 description: Leer hoe u de workflowactiviteit van de planner gebruikt
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ea57053910aa98e79ceb7ef683f890a366a9001b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 15%
@@ -30,7 +30,7 @@ Voer de volgende stappen uit om de **Planner** activiteit:
 
 1. Voeg een **Planner** activiteit aan uw werkschema.
 
-   <!--![](../assets/workflow-scheduler.png)-->
+   ![](../assets/workflow-scheduler.png)
 
 1. Vorm **Uitvoerfrequentie**:
 
@@ -58,7 +58,7 @@ Voer de volgende stappen uit om de **Planner** activiteit:
 
 In het volgende voorbeeld, wordt de activiteit gevormd zodat het werkschema verscheidene keren per dag om 9 en 12 AM, elke dag van de week van 1 Oktober, 2023 tot 1 Januari, 2024 begint.
 
-<!--![](../assets/workflow-scheduler2.png)-->
+![](../assets/workflow-scheduler2.png)
 
 
 
