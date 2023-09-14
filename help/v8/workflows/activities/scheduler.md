@@ -3,10 +3,10 @@ audience: end-user
 title: De workflowactiviteit van de planner gebruiken
 description: Leer hoe u de workflowactiviteit van de planner gebruikt
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 15%
+source-wordcount: '367'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 15%
 
 De **Planner** activiteit is **Stroomregeling** activiteit. Hiermee kunt u plannen wanneer de workflow wordt gestart. Deze activiteit moet worden beschouwd als een geplande start. Deze kan alleen worden gebruikt als de eerste activiteit van de workflow.
 
-## Beste praktijken
+## Best practices
 
 Plan geen workflow die meer dan om de 15 minuten wordt uitgevoerd, aangezien dit de algehele systeemprestaties kan belemmeren en blokken in de database kan maken.
 
@@ -55,6 +55,13 @@ Voer de volgende stappen uit om de **Planner** activiteit:
    * **Permanent (nooit verlopen)**: de werkstroom wordt uitgevoerd volgens de opgegeven frequentie, zonder enige beperking van het tijdkader of het aantal herhalingen.
 
    * **Geldigheidsperiode**: de workflow wordt uitgevoerd volgens de opgegeven frequentie, tot een bepaalde datum. U moet begin- en einddatums opgeven.
+
+>[!NOTE]
+>
+>Als u de workflow meteen wilt starten, klikt u op de knop **Taak in behandeling uitvoeren** in de hoogste actiebar van de planner. Deze knop is alleen beschikbaar wanneer u de workflow hebt gestart.
+
+Opmerkingen:
+
 
 ## Voorbeeld
 
