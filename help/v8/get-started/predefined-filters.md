@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: ccae13b0105b0c662cb513bb12d7bc43a3881819
+source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Wanneer u een vooraf gedefinieerd filter maakt, kunt u **Opslaan als favoriet** 
 
 Wanneer een filter als favoriet wordt opgeslagen, is het beschikbaar voor alle gebruikers in **Favoriete filters** sectie van de lijst van de filterverwezenlijking, zoals hieronder getoond:
 
-![](assets/predefined-filters-favorite.png)
+![](assets/predefined-filters-favorite.png){width="70%" align="left"}
 
 
 ## Een vooraf gedefinieerd filter gebruiken {#use-predefined-filter}

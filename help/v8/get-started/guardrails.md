@@ -2,9 +2,9 @@
 title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 badge: label="Beta"
-source-git-commit: ff95b563784ae507245e6690feedda33ea6a111b
+source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,48 @@ In de Campagne cliëntconsole, **Verrijking** deze activiteit kan zowel verzoeni
 
 ## Vooraf gedefinieerde filters {#filters-guardrails-limitations}
 
-
 Bepaalde vooraf gedefinieerde filters zijn niet beschikbaar wanneer u het publiek van een levering selecteert of wanneer u een publiek maakt in een workflow. Er wordt een specifiek foutbericht weergegeven. U kunt de vraag nog gebruiken, en zien: de het filtreren voorwaarde en de resultaten, maar u kunt niet de nauwkeurige vraag in de regelbouwer bekijken, en kunt niet de filter uitgeven.
 
-![](assets/filter-unavailable.png)
+![](assets/filter-unavailable.png){width="70%" align="left"}
+
+
+### Niet-ondersteunde gegevenstypen {#unsupported-data-type}
+
+De volgende gegevenstypes beschikbaar in de cliëntconsole worden niet gesteund wanneer het tonen van een filter of een regel in de interface van het Web:
+
+* datetime
+* tijd
+* timespan
+* double
+* zweven
+
+### Niet-ondersteunde filtermogelijkheden {#unsupported-filtering-capabilities}
+
+Wanneer een filter met complexe uitdrukkingen en functies in de cliëntconsole wordt gebouwd, kan het niet in de interface van het Web worden uitgegeven.
+
+Bovendien worden de volgende operatoren niet ondersteund:
+
+* Numerieke tekst
+   * is opgenomen in
+   * geen in
+
+* Het type String
+   * groter dan
+   * minder dan
+   * groter dan of gelijk aan
+   * kleiner dan of gelijk aan
+   * leuk
+   * niet leuk
+
+* Het type Date
+   * op of na
+   * op of voor
+   * niet gelijk aan
+   * is leeg
+   * is niet leeg
+   * is opgenomen in
+   * niet in
+   * laatste
+
+* 1-N koppelingen
+   * COUNT, SUM, AVG, MIN, MAX
