@@ -3,7 +3,7 @@ audience: end-user
 title: Een pushmelding maken
 description: Leer hoe u een pushmelding maakt met Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 3%
@@ -27,7 +27,7 @@ ht-degree: 3%
 >title="Eigenschappen van push-levering"
 >abstract="Beheer de eigenschappen voor de levering van de push."
 
-U kunt een zelfstandige levering van pushberichten maken of een pushmelding maken in de context van een campagneworkflow. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) pushlevering. Als u in de context van een campagneworkflow werkt, zijn de stappen voor het maken van bestanden meer informatie in [deze sectie](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+U kunt een zelfstandige levering van pushberichten maken of een pushmelding maken in de context van een campagneworkflow. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) pushlevering. Als u in de context van een campagnewerkstroom werkt, zijn de aanmaakstappen details in [deze sectie](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
 Ga als volgt te werk om een nieuwe zelfstandige pushaanbieding te maken:

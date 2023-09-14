@@ -3,9 +3,9 @@ audience: end-user
 title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
 badge: label="Beta"
-source-git-commit: 6788290e21f18794c028769bd09f83b99b1dd1ad
+source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '483'
 ht-degree: 1%
 
 ---
@@ -27,9 +27,9 @@ Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde cam
 >* [Zelfstandige pushlevering maken](../../push/create-push.md)
 >
 
-## Een levering maken in een campagneworkflow{#create-a-delivery-in-a-workflow}
+## Levering maken in een workflow{#create-a-delivery-in-a-workflow}
 
-Volg onderstaande stappen om een e-mail, een SMS-bericht of een pushbericht te maken in de context van een campagneworkflow:
+Voer de volgende stappen uit om een e-mail, een SMS-bericht of een pushbericht te maken in de context van een workflow:
 
 1. Controleer of u een **publiek opbouwen** activiteit. Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit. Zie [deze sectie](build-audience.md).
 
@@ -56,7 +56,7 @@ Volg onderstaande stappen om een e-mail, een SMS-bericht of een pushbericht te m
 
 1. Van uw leveringsdashboard, klik **Verzenden**.
 
-## Voorbeeld{#cross-channel-workflow-sample}
+## Voorbeeld {#cross-channel-workflow-sample}
 
 Hier volgt een voorbeeld van een workflow tussen kanalen met een segmentatie en twee leveringen. De workflow is gericht op alle klanten die in Parijs wonen en die geïnteresseerd zijn in koffiezetapparaten. Onder deze populatie wordt een e-mail verzonden naar de gewone klanten en een SMS-bericht verzonden naar de VIP.
 
