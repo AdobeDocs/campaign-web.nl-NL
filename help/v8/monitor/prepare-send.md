@@ -4,9 +4,9 @@ title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '879'
 ht-degree: 1%
 
 ---
@@ -70,20 +70,6 @@ Zodra de voorbereiding zonder fout volledig is, is uw bericht klaar om te worden
 
 ## Bericht verzenden {#send}
 
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_delivered"
->title="Geleverd"
->abstract="Het aantal berichten dat is afgeleverd. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is gebaseerd op het totale aantal verzonden berichten."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_opens"
->title="Geopende items"
->abstract="Het aantal geopende berichten. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is de verhouding van het aantal verschillende opent in vergelijking met het aantal geleverde berichten."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_metrics_clicks"
->title="Klikken"
->abstract="Het aantal ontvangers dat ten minste één keer in de e-mail heeft geklikt. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is de verhouding van het aantal verschillende kliks in vergelijking met het aantal geleverde berichten."
 
 Wanneer de [voorbereiding](#prepare) is voltooid, kunt u uw e-mail nu verzenden.
 
@@ -130,14 +116,38 @@ Of uw levering gepland of niet is, kunnen twee acties op elk ogenblik tijdens he
 ## De KPI&#39;s controleren {#check-kpis}
 
 >[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_delivered"
+>title="Geleverd"
+>abstract="Het aantal berichten dat is afgeleverd. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is gebaseerd op het totale aantal verzonden berichten."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI&#39;s begrijpen"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_opens"
+>title="Geopende items"
+>abstract="Het aantal geopende berichten. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is de verhouding van het aantal verschillende opent in vergelijking met het aantal geleverde berichten."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI&#39;s begrijpen"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_metrics_clicks"
+>title="Klikken"
+>abstract="Het aantal ontvangers dat ten minste één keer in de e-mail heeft geklikt. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is de verhouding van het aantal verschillende kliks in vergelijking met het aantal geleverde berichten."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI&#39;s begrijpen"
+
+
+>[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Verzonden cijfers"
 >abstract="Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI&#39;s begrijpen"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Metrische fouten"
 >abstract="Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/reports/kpis.html" text="KPI&#39;s begrijpen"
+
 
 Zodra verzenden volledig is, kunt u getoonde KPIs controleren:
 
@@ -156,5 +166,7 @@ Zodra verzenden volledig is, kunt u getoonde KPIs controleren:
 >[!NOTE]
 >
 >Alle indicatoren worden elke 5 minuten na de start van de levering bijgewerkt. De indicatoren voor de voorbereiding van de levering zijn realtime.
+
+Meer informatie over KPI&#39;s vindt u in [deze pagina](../reporting/kpis.md).
 
 U kunt ook de logbestanden controleren. [Meer informatie](delivery-logs.md)
