@@ -3,20 +3,22 @@ audience: end-user
 title: De workflowactiviteit voor het publiek opslaan gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
+source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 6%
+source-wordcount: '323'
+ht-degree: 7%
 
 ---
 
 
 # Doelgroep opslaan {#save-audience}
 
+<!--
 >[!CONTEXTUALHELP]
 >id="???"
->title="Activiteit van publiek opslaan"
->abstract="Met de publieksactiviteit Opslaan kunt u..."
+>title="Save audience activity"
+>abstract="The Save audience activity allows you to..."
+-->
 
 De **Adviezen opslaan** activiteit is **Targeting** activiteit. Met deze activiteit kunt u een bestaand publiek bijwerken of een nieuw publiek maken van de populatie die stroomopwaarts in een workflow is berekend. Het publiek dat wordt gemaakt, wordt toegevoegd aan de lijst met doelgroepen van toepassingen en wordt beschikbaar gesteld via de **Soorten publiek** -menu.
 
