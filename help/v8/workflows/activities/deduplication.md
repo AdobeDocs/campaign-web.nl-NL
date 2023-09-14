@@ -3,9 +3,9 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: bbb22de6ff1398dbb1431f51a55350d206b4690a
+source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '279'
 ht-degree: 6%
 
 ---
@@ -19,6 +19,16 @@ ht-degree: 6%
 >title="Fork activity"
 >abstract="The Deduplication activity allows you to..."
 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_complement"
+>title="Deduplicatiefunctie"
+>abstract="TBD"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_deduplication_settings"
+>title="Instellingen voor deduplicatie"
+>abstract="TBD"
 
 De **Deduplicatie** activiteit is **Targeting** activiteit. Met deze activiteit kunt u duplicaten verwijderen uit het resultaat of de resultaten van de binnenkomende activiteiten. De **Deduplicatie** de activiteit wordt over het algemeen gebruikt na gerichte activiteiten en vóór activiteiten die het gebruik van gerichte gegevens mogelijk maken.
 

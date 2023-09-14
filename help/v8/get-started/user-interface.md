@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
+source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -223,16 +223,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Selecteer ten minste twee leveringen voor de weergave van een samengevoegd gegevensrapport."
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_settings"
->title="Instellingen voor deduplicatie"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_deduplication_complement"
->title="Deduplicatiefunctie"
->abstract="TBD"
-
->[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Machtiging vereist"
 >abstract="Uw beheerder moet u toestemming verlenen alvorens u een segment kunt tot stand brengen."
@@ -241,7 +231,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Machtiging vereist"
 >abstract="Uw beheerder moet u toestemming verlenen alvorens u een segment kunt tot stand brengen."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"
@@ -253,33 +242,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Deze levering is alleen-lezen"
 >abstract="U hebt geen machtigingen om deze levering te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
 
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="Deze service is alleen-lezen"
->abstract="U hebt geen machtigingen om deze service te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
-
->[!CONTEXTUALHELP]
->id="acw_audiences_read_only"
->title="Dit publiek is alleen-lezen"
->abstract="U hebt geen machtigingen om dit publiek te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
-
 <!-- Workflows-->
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Werkstroomlijst"
 >abstract="Lijst met workflows beschikbaar voor uw campagne. Gebruik de knop &#39;Workflow maken&#39; om een workflow toe te voegen aan uw campagne."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Uitgaande overgang voor publiek opslaan"
->abstract="tbc"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_activity"
->title="Een publiek opslaan"
->abstract="Gebruik deze activiteit om het werkschemapubliek te bewaren."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
