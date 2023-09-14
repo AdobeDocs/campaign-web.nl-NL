@@ -3,9 +3,9 @@ audience: end-user
 title: Soorten publiek maken
 description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -46,4 +46,4 @@ Voer de volgende stappen uit om een publiek te maken:
 
 1. Wanneer uw workflow gereed is, klikt u op **[!UICONTROL Start]** om het uit te voeren.
 
-1. De workflow wordt opgeslagen in de **[!UICONTROL Workflows]** en de resulterende doelgroep(en) in de **[!UICONTROL Audiences]** lijst. [Leer hoe u toegang krijgt tot publiek](access-audiences.md)
+1. De workflow wordt opgeslagen in de **[!UICONTROL Workflows]** en de resulterende doelgroep(en) in de **[!UICONTROL Audiences]** lijst. [Leer hoe u het publiek kunt bewaken en beheren](access-audiences.md)

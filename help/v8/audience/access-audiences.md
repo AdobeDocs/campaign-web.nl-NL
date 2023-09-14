@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Toegangspubliek
-description: Meer informatie over toegang tot publiek in Adobe Campaign Web
+title: Het publiek bewaken en beheren
+description: Leer hoe u het publiek in Adobe Campaign Web kunt bewaken en beheren
 badge: label="Beta"
-source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
 
-# Toegangspubliek {#create-audiences}
+# Het publiek bewaken en beheren {#create-audiences}
 
 De lijst met publiek beschikbaar voor gebruik in het Web van de Campagne is toegankelijk van **[!UICONTROL Audiences]** -menu.
 

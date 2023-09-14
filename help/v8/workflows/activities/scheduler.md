@@ -3,10 +3,10 @@ audience: end-user
 title: De workflowactiviteit van de planner gebruiken
 description: Leer hoe u de workflowactiviteit van de planner gebruikt
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 30%
+source-wordcount: '340'
+ht-degree: 15%
 
 ---
 
@@ -18,13 +18,11 @@ ht-degree: 30%
 >title="Activiteit Planner"
 >abstract="Met de planningsactiviteit kunt u..."
 
-Met de activiteit Planner kunt u plannen wanneer een workflow of activiteit wordt gestart.
-
-De activiteit van de Planner zou als een geplande aanvang moeten worden beschouwd. Deze activiteit kan slechts als eerste activiteit van het werkschema worden gebruikt.
+De **Planner** activiteit is **Stroomregeling** activiteit. Hiermee kunt u plannen wanneer de workflow wordt gestart. Deze activiteit moet worden beschouwd als een geplande start. Deze kan alleen worden gebruikt als de eerste activiteit van de workflow.
 
 ## Beste praktijken
 
-* Plan geen workflow die meer dan om de 15 minuten wordt uitgevoerd, aangezien dit de algehele systeemprestaties kan belemmeren en blokken in de database kan maken.
+Plan geen workflow die meer dan om de 15 minuten wordt uitgevoerd, aangezien dit de algehele systeemprestaties kan belemmeren en blokken in de database kan maken.
 
 ## Configuratie
 
@@ -32,27 +30,35 @@ Voer de volgende stappen uit om de **Planner** activiteit:
 
 1. Voeg een **Planner** activiteit aan uw werkschema.
 
+   <!--![](../assets/workflow-scheduler.png)-->
+
 1. Vorm **Uitvoerfrequentie**:
 
-   * Eenmaal: de workflow wordt één keer uitgevoerd.
+   * **Eenmaal**: de workflow wordt één keer uitgevoerd.
 
-   * Dagelijks: de workflow wordt op een bepaald tijdstip, eenmaal per dag, uitgevoerd.
+   * **Dagelijks**: de workflow wordt op een bepaald tijdstip, eenmaal per dag, uitgevoerd.
 
-   * Meerdere keren per dag: de workflow wordt regelmatig meerdere keren per dag uitgevoerd. U kunt uitvoeringen instellen op specifieke tijdstippen of periodiek.
+   * **Meerdere keren per dag:** de workflow wordt regelmatig verscheidene keren per dag uitgevoerd . U kunt uitvoeringen instellen op specifieke tijdstippen of periodiek.
 
-   * Wekelijks: de workflow wordt uitgevoerd op een bepaald moment, één keer of meerdere keren per week.
+   * **Wekelijks**: de workflow wordt op een bepaald moment, één keer of meerdere keren per week uitgevoerd.
 
-   * Maandelijks: de workflow wordt uitgevoerd op een bepaald moment, één keer of meerdere keren per maand. U kunt aangeven in welke maanden u de workflow wilt uitvoeren. U kunt uitvoeringen ook instellen op de opgegeven weekdag van de maand, zoals de tweede dinsdag van de maand.
+   * **Maandelijks**: de workflow wordt uitgevoerd op een bepaald moment, één keer of meerdere keren per maand. U kunt aangeven in welke maanden u de workflow wilt uitvoeren. U kunt uitvoeringen ook instellen op bepaalde weekdagen van de maand, zoals de tweede dinsdag van de maand.
+
 1. Definieer de details van de uitvoering op basis van de geselecteerde frequentie. De detailvelden variëren, afhankelijk van de gebruikte frequentie (tijd, herhalingsfrequentie, opgegeven dagen, enz.).
 
 1. Klikken **Voorvertoning van opstartij** om het schema van de volgende tien uitvoeringen van uw werkschema te controleren.
 
 1. Bepaal de geldigheidsperiode van de planner:
 
-   * Permanent (nooit verloopt): de workflow zal worden uitgevoerd volgens de opgegeven frequentie, zonder beperkingen aan het tijdskader of het aantal herhalingen.
+   * **Permanent (nooit verlopen)**: de werkstroom wordt uitgevoerd volgens de opgegeven frequentie, zonder enige beperking van het tijdkader of het aantal herhalingen.
 
-   * Geldigheidsperiode: de workflow wordt uitgevoerd volgens de opgegeven frequentie, tot een bepaalde datum. Hierbij moet dus de uitvoeringstermijn worden vastgesteld.
+   * **Geldigheidsperiode**: de workflow wordt uitgevoerd volgens de opgegeven frequentie, tot een bepaalde datum. U moet begin- en einddatums opgeven.
 
 ## Voorbeeld
+
+In het volgende voorbeeld, wordt de activiteit gevormd zodat het werkschema verscheidene keren per dag om 9 en 12 AM, elke dag van de week van 1 Oktober, 2023 tot 1 Januari, 2024 begint.
+
+<!--![](../assets/workflow-scheduler2.png)-->
+
 
 

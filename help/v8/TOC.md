@@ -5,10 +5,10 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 2e1f7f2a0f3e7116c57c56d9abb6866113402401
+source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 11%
+source-wordcount: '389'
+ht-degree: 12%
 
 ---
 
@@ -81,6 +81,7 @@ ht-degree: 11%
    + [Aan de slag met het publiek](audience/about-audiences.md)
    + [Werken met ontvangers](audience/about-recipients.md)
    + [Soorten publiek maken](audience/create-audience.md)
+   + [Het publiek bewaken en beheren](audience/access-audiences.md)
    + Doelpubliek {#target-audiences}
       + [Bestaande doelgroep selecteren](audience/add-audience.md)
       + [Bepaal een publiek met de regelbouwer](audience/segment-builder.md)
@@ -105,10 +106,14 @@ ht-degree: 11%
       + [Informatie over workflowactiviteiten](workflows/activities/about-activities.md)
       + [En-join](workflows/activities/and-join.md)
       + [publiek opbouwen](workflows/activities/build-audience.md)
+      + [Dimensie wijzigen](workflows/activities/change-dimension.md)
       + [Combineren](workflows/activities/combine.md)
+      + [Deduplicatie](workflows/activities/deduplication.md)
       + [E-mail, SMS, Push](workflows/activities/channels.md)
       + [Verrijking](workflows/activities/enrichment.md)
       + [Vertakking](workflows/activities/fork.md)
+      + [Doelgroep opslaan](workflows/activities/save-audience.md)
+      + [Planner](workflows/activities/scheduler.md)
       + [Splitsen](workflows/activities/split.md)
       + [Wachten](workflows/activities/wait.md)
 + Rapportage {#reports}
