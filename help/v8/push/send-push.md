@@ -3,9 +3,9 @@ audience: end-user
 title: Een pushmelding verzenden
 description: Meer informatie over het verzenden van pushberichten via Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,9 @@ De ontvangers van de test kunnen elementen zoals verbindingen, beelden, en verpe
 
 1. Verzend de berichten door op te klikken **[!UICONTROL Send]** om door te gaan met het definitieve verzendingsproces.
 
-1. Bevestig de verzendactie door op de knop **[!UICONTROL Send]** of **[!UICONTROL Send as scheduled]** knop.
+1. Bevestig de verzendactie door op de knop **[!UICONTROL Send]**.
+
+   Als de aflevering is gepland, klikt u op de knop **[!UICONTROL Send as scheduled]** knop. Meer informatie over de planning van de levering in [deze sectie](../msg/gs-messages.md#schedule-the-delivery-sending).
 
    ![](assets/push_send_4.png)
 

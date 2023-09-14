@@ -3,9 +3,9 @@ audience: end-user
 title: Verzend een SMS-levering
 description: Meer informatie over het verzenden van SMS via Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 51d237a2651cc4a24630138b5761b4b14e7cac4f
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,9 @@ Het verzenden van testSMS is een belangrijke stap in het verzekeren van de kwali
 1. Verzend de berichten door op te klikken **[!UICONTROL Send]** om door te gaan met het definitieve verzendingsproces.
 
    ![](assets/sms_send_5.png)
+
+   Als de levering van SMS gepland is, klik **[!UICONTROL Send as scheduled]** knop. Meer informatie over de planning van de levering in [deze sectie](../msg/gs-messages.md#schedule-the-delivery-sending).
+
 
 1. Bevestig de verzendactie door op de knop **[!UICONTROL Send]** knop.
 
