@@ -4,9 +4,9 @@ description: Het gebruiken van AI aangedreven knowlegde assistent in het Web van
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: c110c118cc45da0fa0db4249f4f24ebf7c3c21a8
+source-git-commit: 368f716e72abfe9ac22893798cf11f6fd90f2cd4
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '399'
 ht-degree: 1%
 
 ---
@@ -33,5 +33,15 @@ Antwoorden kunnen onjuist of misleidend zijn. Dientengevolge, kan de Adobe kenni
 
 Kunstmatige intelligentie en modellen voor machinaal leren verbeteren in de loop der tijd om specifieke gebruiksgevallen beter aan te pakken. De komende maanden zal de door AI aangedreven kennisassistent beter worden. We raden u ten zeerste aan de ? ??? knopen op om het even welk ogenblik u een anker leest, om het even welke ongepaste reacties aan onze ingenieurs te vlaggen.
 
+## Aanbevelingen  {#recommendations-ai}
 
+Wanneer u een vraag stelt in de contextuele Help, wordt rekening gehouden met de huidige productcontext.
+
+Om het beste van de medewerker te krijgen, wanneer het stellen van een vraag, adviseren wij u om:
+
+* Wees zo nauwkeurig en specifiek mogelijk en vermijd dubbelzinnigheid. Het antwoord zal nauwkeuriger en nuttiger zijn.
+* Om de kennisassistent te helpen de correcte informatie vinden, voeg zoveel mogelijk details over wat toe u probeert te leren.
+* Verfijn en verfris uw vragen om betere antwoorden te krijgen. Als het antwoord niet nauwkeurig of nuttig is, probeert u verschillende benaderingen en voegt u context toe voor betere resultaten.
+* Gebruik de juiste termen en bewoordingen, met een neutrale toon.
+* Beoordeel de antwoorden en geef feedback zodat onze technici van uw ervaring kunnen leren en de resultaten kunnen verbeteren.
 
