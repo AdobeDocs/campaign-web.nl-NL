@@ -5,10 +5,10 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 12%
+source-wordcount: '410'
+ht-degree: 11%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 12%
             + [Een koppeling toevoegen aan de spiegelpagina](content/mirror-page.md)
             + [Een preheader toevoegen](content/preheader.md)
             + [De tekstversie genereren](content/text-version-email.md)
+         + Inhoudsassistent {#content-assistant}
+            + [Tekst genereren met de inhoudsassistent](content/generative-content.md)
+            + [Afbeelding genereren met de inhoudsassistent](content/generative-image.md)
+            + [Een e-mail genereren met de Inhoudsassistent](content/generative-email.md)
          + Stijl uw inhoud {#style}
             + [Aan de slag met e-mailstijl](content/get-started-email-style.md)
             + [Achtergrondinstellingen bewerken](content/backgrounds.md)
