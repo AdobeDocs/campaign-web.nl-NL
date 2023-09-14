@@ -4,7 +4,7 @@ title: Een sms-levering maken
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: a67a692cf9b74015323954eca5b4c554f7fe8eb6
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 5%
@@ -28,7 +28,7 @@ ht-degree: 5%
 >title="Sjabloonselectie via SMS"
 >abstract="Selecteer een vooraf gedefinieerde sjabloon om de SMS-levering te starten."
 
-U kunt een standalone levering van SMS tot stand brengen, of SMS in de context van een campagnewerkschema tot stand brengen. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) SMS-levering. Als u in de context van een campagneworkflow werkt, zijn de stappen voor het maken van bestanden meer informatie in [deze sectie](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+U kunt een standalone levering van SMS tot stand brengen, of SMS in de context van een campagnewerkschema tot stand brengen. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) SMS-levering. Als u in de context van een campagnewerkstroom werkt, zijn de aanmaakstappen details in [deze sectie](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
 Ga als volgt te werk om een nieuwe, zelfstandige SMS-levering te maken:
