@@ -3,7 +3,7 @@ audience: end-user
 title: Het publiek bewaken en beheren
 description: Leer hoe u het publiek in Adobe Campaign Web kunt bewaken en beheren
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Het publiek kan uit veelvoudige bronnen voortkomen. De **[!UICONTROL Origin]** k
 
 * **[!UICONTROL Adobe Experience Platform:]** Dit publiek is gecreeerd in Adobe Experience Platform en beschikbaar gemaakt in het Web van de Campagne gebruikend de integratie met de Bronnen en de Doelen van de Adobe. Leer hoe u deze integratie instelt in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**: Deze doelgroepen zijn gemaakt met behulp van een webworkflow voor campagnes. [Leer hoe u een publiek kunt maken](create-audiences.md)
+* **[!UICONTROL Adobe Campaign]**: Deze doelgroepen zijn gemaakt met behulp van een webworkflow voor campagnes. [Leer hoe u een publiek kunt maken](create-audience.md)
 
 *wat zijn de andere oorsprong ? Zijn ze aangepast? Waar definiëren we ze?*
 
