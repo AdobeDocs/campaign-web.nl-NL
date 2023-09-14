@@ -4,9 +4,9 @@ title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 4feb84d7e22d90d60917e8079e0ce7a84efbda00
+source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 ## De verzending voorbereiden {#prepare}
 
-Wanneer u uw [content](../content/edit-content.md), [publiek](../audience/add-audience.md) en uw planning, bent u bereid om uw e-maillevering voor te bereiden.
+Wanneer u uw [content](../content/edit-content.md), [publiek](../audience/add-audience.md), en [schema](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), je kunt je e-maillevering voorbereiden.
 
-Tijdens de voorbereiding, wordt de doelbevolking berekend en de berichtinhoud geproduceerd voor elk profiel inbegrepen in het doel. Zodra de voorbereiding is voltooid, zijn de berichten klaar om te worden verzonden, of onmiddellijk of op de geplande datum en tijd.
+Tijdens de voorbereiding van de levering, wordt de doelbevolking berekend en de berichtinhoud geproduceerd voor elk profiel inbegrepen in het doel. Zodra de voorbereiding is voltooid, zijn de berichten klaar om te worden verzonden, of onmiddellijk of op de geplande datum en tijd.
 
 De validatieregels die worden gebruikt tijdens de voorbereiding van de levering worden beschreven in de [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/validate/delivery-analysis.html){target="_blank"}.
 
