@@ -3,10 +3,10 @@ audience: end-user
 title: De workflowactiviteit voor het publiek opslaan gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: b2cd72ce06e1b18689be4c40c80f3abde85f922e
+source-git-commit: 058327a9beaca30a2d5ac84d71a8fef2333732ab
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 5%
+source-wordcount: '333'
+ht-degree: 6%
 
 ---
 
@@ -18,16 +18,6 @@ ht-degree: 5%
 >title="Activiteit van publiek opslaan"
 >abstract="Met de publieksactiviteit Opslaan kunt u..."
 
-Mode Audience-label Adobe Campaign komt dit label overeen met het bestaande publiek. Als er een overeenkomst wordt gevonden, wordt dat publiek bijgewerkt. Als dit niet het geval is, wordt er een nieuw publiek gemaakt.
-Methode Update
-
-Personen vervangen door nieuwe gegevens
-
-Volledig publiek met nieuwe lijsten met gegevensmappen (/Profielen en doelen/Lijsten/)
-
-Een uitgaande overgang genereren
-
-
 De **Adviezen opslaan** activiteit is **Targeting** activiteit. Met deze activiteit kunt u een bestaand publiek bijwerken of een nieuw publiek maken van de populatie die stroomopwaarts in een workflow is berekend. Het publiek dat wordt gemaakt, wordt toegevoegd aan de lijst met doelgroepen van toepassingen en wordt beschikbaar gesteld via de **Soorten publiek** -menu.
 
 Deze activiteit wordt hoofdzakelijk gebruikt om populatiegroepen in de zelfde werkschema gegevens te bewaren, door hen in herbruikbaar publiek om te zetten. Verbind het met andere gerichte activiteiten zoals **publiek opbouwen** of **Combineren** activiteit.
@@ -38,7 +28,7 @@ Voer de volgende stappen uit om de **Adviezen opslaan** activiteit:
 
 1. Voeg een **Adviezen opslaan** activiteit aan uw werkschema.
 
-   <!--![](../assets/workflow-save-audience.png)-->
+   ![](../assets/workflow-save-audience.png)
 
 1. In de **Modus** selecteert u de actie die u wilt uitvoeren:
 
