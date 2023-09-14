@@ -3,10 +3,10 @@ audience: end-user
 title: De workflowactiviteit voor het publiek opslaan gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: 4924653e67f77a2108574e743c9016c6fc95a7e6
+source-git-commit: 7c8acd17fec3f6aa3d12346c2daaac9f64755098
 workflow-type: tm+mt
-source-wordcount: '17'
-ht-degree: 11%
+source-wordcount: '323'
+ht-degree: 7%
 
 ---
 
@@ -18,57 +18,37 @@ ht-degree: 11%
 >id="acw_orchestration_saveaudience_activity"
 >title="Save an audience"
 >abstract="Use this activity to save the workflow audience."
+-->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_saveaudience_outbound"
->title="Outbound transition for save audience"
->abstract="tbc"
+De **Adviezen opslaan** activiteit is **Targeting** activiteit. Met deze activiteit kunt u een bestaand publiek bijwerken of een nieuw publiek maken van de populatie die stroomopwaarts in een workflow is berekend. Het publiek dat wordt gemaakt, wordt toegevoegd aan de lijst met doelgroepen van toepassingen en wordt beschikbaar gesteld via de **Soorten publiek** -menu.
 
-Mode
-Audience label
-Adobe Campaign is going to match this label against existing audiences. If it finds a match, it will update that audience, otherwise it will create a new audience.
-Update method
+Deze activiteit wordt hoofdzakelijk gebruikt om populatiegroepen in de zelfde werkschema gegevens te bewaren, door hen in herbruikbaar publiek om te zetten. Verbind het met andere gerichte activiteiten zoals **publiek opbouwen** of **Combineren** activiteit.
 
-Replace audience with new data
+## Configuratie
 
-Complete audience with new data
-Folder
-Lists (/Profiles and Targets/Lists/)
+Voer de volgende stappen uit om de **Adviezen opslaan** activiteit:
 
-Generate an outbound transition
-
-
-The **Save audience** activity is a **Targeting** activity. This activity allows you to update an existing audience or create a new audience from the population computed upstream in a workflow. The audiences created are added to the list of application audiences, and are made available via the **Audiences** menu.
-
-This activity is essentially used to keep population groups computed in the same workflow, by converting them into reusable audiences. Connect it to other targeting activities such as a **Build audience** or a **Combine** activity. 
-
-## Configuration
-
-Follow these steps to configure the **Save audience** activity:
-
-1. Add a **Save audience** activity to your workflow.
+1. Voeg een **Adviezen opslaan** activiteit aan uw werkschema.
 
    ![](../assets/workflow-save-audience.png)
 
-1. In the **Mode** drop-down, select the action that you would like to carry out:
+1. In de **Modus** selecteert u de actie die u wilt uitvoeren:
 
-    * **Create or update an existing audience**: define an **Audience label**. If the audience already exists, it will be updated, otherwise a new audience will be created.
+   * **Een bestaand publiek maken of bijwerken**: definieer een **Label publiek**. Als het publiek reeds bestaat, zal het worden bijgewerkt, anders zal een nieuw publiek worden gecreeerd.
 
-    * **Update an existing audience**: choose the **Audience** you wish to update among the list of existing audiences. 
+   * **Een bestaand publiek bijwerken**: kies de optie **Publiek** U wilt een update uitvoeren in de lijst met bestaande doelgroepen.
 
-1. Select the **Update mode** which will apply for existing audiences:
+1. Selecteer de **Modus Bijwerken** die van toepassing zijn op bestaande doelgroepen:
 
-    * **Replace audience content with new data**: all audience content is replaced. The old data is lost. Only the data from the inbound transition of the save audience activity is kept. This option erases the audience type and the targeting dimension of the updated audience.
+   * **De inhoud van het publiek vervangen door nieuwe gegevens**: alle publieksinhoud wordt vervangen. De oude data gaan verloren. Alleen de data van de binnenkomende overgang van de activiteit voor het opslaan van de doelgroep blijven behouden. Met deze optie wist u het publiekstype en de doeldimensie van het bijgewerkte publiek.
 
-    * **Complete audience with new data**: the old audience content is kept and the data from the save audience activity's inbound transition is added to it.
+   * **Volledige doelgroep met nieuwe gegevens**: de oude publieksinhoud wordt bewaard en de gegevens van de binnenkomende overgang van de activiteit van het sparen publiek worden toegevoegd aan het.
 
-1. Check the **Generate complement** option if you wish to exploit the remaining population. An additional transition will then be added to the activity.
+1. Controleer de **Complement genereren** als u de overblijvende bevolking wilt uitbuiten. Er wordt dan een aanvullende overgang toegevoegd aan de activiteit.
 
-The content of the saved audience is then available in the detail view of the audience, which can be accessed from the **Audiences** menu. The columns available from this view correspond to the columns of the inbound transition of the workflow's **SAve audience** activity. 
-
-
-## Example
+De inhoud van het opgeslagen publiek is dan beschikbaar in de gedetailleerde weergave van het publiek, die toegankelijk is vanuit het **Soorten publiek** -menu. De kolommen beschikbaar van deze mening beantwoorden aan de kolommen van de binnenkomende overgang van het werkschema **SAve-publiek** activiteit.
 
 
+## Voorbeeld
 
--->
+
