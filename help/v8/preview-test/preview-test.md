@@ -4,9 +4,9 @@ title: Voorvertoning en test voor levering
 description: Leer hoe u leveringen kunt voorvertonen en testen
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 5c99883215d89c72d1076df1b379c91c49ed9551
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -39,3 +39,5 @@ Deze handelingen kunnen worden uitgevoerd met de opdracht **[!UICONTROL Simulate
 >[!NOTE]
 >
 >De simulatie van de inhoud is ook beschikbaar bij [Overzicht van levering](../monitor/prepare-send.md) nadat u op de knop **[!UICONTROL Review and send]** knop.
+>
+>Als u een publiek wilt bereiken dat vanuit een bestand is geüpload, raadpleegt u [deze sectie](../audience/file-audience.md#preview--test-your-email-test) om te leren hoe u een voorbeeld van uw levering kunt bekijken en deze kunt testen.
