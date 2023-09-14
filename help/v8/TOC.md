@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: 1c90630ecff177e402dfb049c1952de22bd9bdb4
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '409'
 ht-degree: 11%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 11%
          + Inhoudsassistent {#content-assistant}
             + [Tekst genereren met de inhoudsassistent](content/generative-content.md)
             + [Afbeelding genereren met de inhoudsassistent](content/generative-image.md)
-            + [Een e-mail genereren met de Inhoudsassistent](content/generative-email.md)
+            + [E-mailgeneratie met de inhoudsassistent](content/generative-email.md)
          + Stijl uw inhoud {#style}
             + [Aan de slag met e-mailstijl](content/get-started-email-style.md)
             + [Achtergrondinstellingen bewerken](content/backgrounds.md)
