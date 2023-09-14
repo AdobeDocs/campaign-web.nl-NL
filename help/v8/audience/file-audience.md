@@ -4,9 +4,9 @@ title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 77ff2714db5640aca367c41b717e4d20d672767a
+source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -55,23 +55,6 @@ Wanneer u de inhoud van het bericht maakt en aan uw wensen aanpast, kunt u velde
 
 ![](assets/select-external-perso.png)
 
-## Uw e-mail voorvertonen en testen {#test}
-
-Met Campagne Web kunt u teste-mails voorvertonen en verzenden wanneer u een publiek gebruikt dat vanuit een bestand is geüpload. Ga als volgt te werk om dit te doen:
-
-1. Inhoud simuleren
-1. Hiermee opent u de voorvertoning. Klik op Profiel(en) selecteren: selecteer profielen uit het bestand dat u wilt gebruiken
-1. om teste-mail te verzenden, klik test
-1. testmodus: doel van proefdrukken definiëren
-1. Upload doel van de teste-mail vanuit een tweede bestand (of gebruik hetzelfde). bestandsindeling volgt hetzelfde als geüploade bestand
-1. Controles die op dossierformaat worden uitgevoerd
-1. klikken op verzenden
-
-koppeling toevoegen aan voorvertoning en testsectie
-
-**vragen:**
-* geen vervanging van bestand beschikbaar?
-
 ## Voorbeeldbestand {#sample-file}
 
 >[!CONTEXTUALHELP]
@@ -92,3 +75,29 @@ Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
 Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 }
 ```
+
+## Uw e-mail voorvertonen en testen {#test}
+
+Met Campagne Web kunt u teste-mails voorvertonen en verzenden wanneer u een publiek gebruikt dat vanuit een bestand is geüpload. Ga als volgt te werk om dit te doen:
+
+1. Klik op de knop **[!UICONTROL Simulate content button]** vanuit het bewerkingsscherm voor de inhoud van de levering en klik op de knop **[!UICONTROL Add test profile(s)]** knop.
+
+1. De profielen in de geüploade bestandsweergave. Selecteer de profielen die u wilt gebruiken voor de voorvertoning van uw inhoud en klik op **[!UICONTROL Select]**.
+
+1. Een voorvertoning van de leveringsinhoud wordt weergegeven in het rechterdeelvenster van het scherm. Gepersonaliseerde elementen worden vervangen door de gegevens van het profiel dat in het linkerdeelvenster is geselecteerd. [Meer informatie over de voorvertoning van inhoud voor levering](../preview-test/preview-content.md)
+
+   ![](assets/file-upload-preview.png)
+
+1. Als u e-mailberichten wilt verzenden, klikt u op de knop **[!UICONTROL Test]** knop.
+
+1. Klik op de knop **[!UICONTROL Upload proof profiles]** en selecteert u het .txt- of .csv-bestand met de proefdrukontvangers.
+
+   >[!CAUTION]
+   >
+   >Zorg ervoor dat de bestandsindeling overeenkomt met de indeling die wordt gebruikt voor het uploaden van uw publiek. Bij indelingsfouten wordt een waarschuwing weergegeven.
+
+1. Als de proefontvangers zijn toegevoegd en u klaar bent om de proefdrukken te verzenden, klikt u op de knop **[!UICONTROL Send test email]** en bevestig de verzendende.
+
+   ![](assets/file-upload-test.png)
+
+1. U kunt het verzenden van de teste-mail op elk ogenblik controleren gebruikend de knoop van het de teste-maillogboek van de Mening. [Meer informatie over e-mailcontrole tijdens tests](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
