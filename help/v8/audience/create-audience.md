@@ -3,9 +3,9 @@ audience: end-user
 title: Soorten publiek maken
 description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: ba449ee0b5a4b41db8efbbabeb37ce7cd7cc3720
+source-git-commit: 44a280446f9e7f801607dd40326b56fd79ec34e9
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '256'
 ht-degree: 0%
 
 ---
@@ -13,30 +13,37 @@ ht-degree: 0%
 
 # Soorten publiek maken {#create-audiences}
 
-menu publiek
+Met Campagne Web kunt u workflows maken waarin u bestaande soorten publiek kunt combineren tot een visueel canvas en verschillende activiteiten (splitsen, uitsluiten...) kunt gebruiken om nieuwe soorten publiek te maken.
 
-kunnen deze in zelfstandige leveringen of campagnes maken en als doel instellen
+Als dit eenmaal is gedaan, worden de resulterende doelgroepen opgeslagen in Campagne Web, samen met het bestaande publiek, en kunnen ze worden gebruikt in zelfstandige leveringen of campagnes voor het doelpubliek.
 
 ## Uw eerste publiek maken {#create}
 
-1. Publiek > menu
-1. publiek maken
-1. Eigenschappen: label en aanvullende opties
-1. Workflowcanvas met activiteit voor publiek maken
-1. Activiteiten bewerken, workflow bewerken afhankelijk van zijn behoeften
-1. de workflow starten (alleen doelactiviteiten toevoegen)? Geen kanaalactiviteiten?) = Creeert het publiek en het werkschema
+Voer de volgende stappen uit om een publiek te maken:
 
-## Uw publiek bewaken en beheren {#monitor}
+1. Ga naar de **[!UICONTROL Audiences]** menu en klik op **[!UICONTROL Create Audience]** in de rechterbovenhoek
+1. Geef een label voor het publiek op.
+1. Vouw de sectie Aanvullende opties uit om de parameters voor de doelgroep te configureren.
 
-In het gemaakte publiek bevat het dashboard twee tabbladen:
-* overzicht: eigenschappen + workflowstatus en aantal ontvangers van deel van dit publiek door te klikken op calculate + kan de workflow van hier openen en bewerken
-* gegevens: gegevensprofielen weergeven die deel uitmaken van het publiek. U kunt desgewenst nieuwe kolommen toevoegen. Zie verrijkte gegevens
+   >[!NOTE]
+   >
+   >Standaard wordt een publiek gemaakt in het menu Profielen en doelen / Lijsten. U kunt de standaardopslaglocatie wijzigen in het dialoogvenster **[!UICONTROL Folder]** veld.
 
-publiekslijst: dupliceren, verwijderen
+1. Als de publieksinstellingen zijn geconfigureerd, klikt u op **[!UICONTROL Create Audience]** knop.
 
-**vragen:**
+1. Er wordt een werkstroomcanvas weergegeven met twee standaardactiviteiten:
 
-Workflow in &quot;publieksmodus&quot; => die kanaalactiviteiten niet beschikbaar maken
+   * **[!UICONTROL Build audience]**: het beginpunt van de workflow. Met deze activiteit kunt u een of meer soorten publiek selecteren als basis voor uw workflow.
+   * **[!UICONTROL Save audience]**: de laatste stap van uw workflow. Met deze activiteit kunt u het resultaat van uw workflow opslaan in een nieuw publiek.
 
-* in werkgebiedinstantie: we kunnen de laatste opslagactiviteit verwijderen en een kanaalactiviteit toevoegen
-* hoe herkennen we een workflow in de modus &quot;publiek&quot; ?
+1. Configureer uw workflow door zoveel activiteiten toe te voegen als u nodig hebt. Voor meer informatie over hoe vormen de diverse activiteiten, verwijs naar [werkstroomdocumentatie](../workflows/activities/about-activities.md).
+
+   >[!NOTE]
+   >
+   >Kanaalactiviteiten zijn niet beschikbaar voor gebruik in publieksworkflows.
+
+   ![](assets/audience-creation-canvas.png)
+
+1. Wanneer uw workflow gereed is, klikt u op **[!UICONTROL Start]** om het uit te voeren.
+
+1. De workflow wordt opgeslagen in de **[!UICONTROL Workflows]** en de resulterende doelgroep(en) in de **[!UICONTROL Audiences]** lijst. [Leer hoe u toegang krijgt tot publiek](access-audiences.md)
