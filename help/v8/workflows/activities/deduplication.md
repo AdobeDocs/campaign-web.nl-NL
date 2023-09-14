@@ -3,10 +3,10 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: 0c6369c8099831dca1e0d38dbed818f3c7ab1867
+source-git-commit: 0aa5778a79fda55005096dc680a02903cf1b4508
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 12%
+source-wordcount: '281'
+ht-degree: 6%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 12%
 >title="Vorkactiviteit"
 >abstract="Met de deduplicatieactiviteit kunt u..."
 
-Met de activiteit Deduplicatie kunt u duplicaten in het resultaat of de resultaten van de binnenkomende activiteiten verwijderen.
-
-De deduplicatieactiviteit wordt over het algemeen gebruikt na gerichte activiteiten en vóór activiteiten die het gebruik van gerichte gegevens mogelijk maken.
+De **Deduplicatie** activiteit is **Targeting** activiteit. Met deze activiteit kunt u duplicaten verwijderen uit het resultaat of de resultaten van de binnenkomende activiteiten. De **Deduplicatie** de activiteit wordt over het algemeen gebruikt na gerichte activiteiten en vóór activiteiten die het gebruik van gerichte gegevens mogelijk maken.
 
 ## Configuratie
 
 Voer de volgende stappen uit om de **Planner** activiteit:
 
 1. Voeg een **Deduplicatie** activiteit aan uw werkschema.
+
+   <!--![](../assets/workflow-deduplication.png)-->
 
 1. In de **Velden om duplicaten te identificeren** klikt u op de **Kenmerk toevoegen** om aan te geven voor welke velden de identieke waarden het mogelijk maken de duplicaten te identificeren: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt.
 
@@ -48,3 +48,6 @@ Voer de volgende stappen uit om de **Planner** activiteit:
    * **Na een lijst met waarden**: hiermee kunt u een waardeprioriteit voor een of meer velden definiëren. Klik op **Kenmerk** als u een veld wilt selecteren of een expressie wilt maken, voegt u de waarde(n) toe aan de desbetreffende tabel. Klik op de knop Toevoegen boven de lijst met waarden om een nieuw veld te definiëren. ++ sorteren
 
 1. Controleer de **Complement genereren** als u de overblijvende bevolking wilt uitbuiten. Het complement bestaat uit alle duplicaten. Er wordt dan een aanvullende overgang toegevoegd aan de activiteit.
+
+## Voorbeeld
+
