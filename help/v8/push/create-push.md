@@ -3,10 +3,10 @@ audience: end-user
 title: Een pushmelding maken
 description: Leer hoe u een pushmelding maakt met Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 4%
+source-wordcount: '378'
+ht-degree: 3%
 
 ---
 
@@ -27,9 +27,14 @@ ht-degree: 4%
 >title="Eigenschappen van push-levering"
 >abstract="Beheer de eigenschappen voor de levering van de push."
 
-1. Van de **[!UICONTROL Deliveries]** homepage, klik **[!UICONTROL Create delivery]**.
+U kunt een zelfstandige levering van pushberichten maken of een pushmelding maken in de context van een campagneworkflow. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) pushlevering. Als u in de context van een campagneworkflow werkt, zijn de stappen voor het maken van bestanden meer informatie in [deze sectie](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-1. Onder de **[!UICONTROL Channel]** kiest u pushmelding als het kanaal en selecteert u een sjabloon afhankelijk van het gekozen besturingssysteem: Android of iOS. [Meer informatie over sjablonen](../msg/delivery-template.md)
+
+Ga als volgt te werk om een nieuwe zelfstandige pushaanbieding te maken:
+
+1. Bladeren naar de **[!UICONTROL Deliveries]** op de linkerspoorstaaf en klik op  **[!UICONTROL Create delivery]** knop.
+
+1. Onder de **[!UICONTROL Channel]** sectie, kiest u **Pushmelding** als het kanaal en selecteer een sjabloon, afhankelijk van het gekozen besturingssysteem van het apparaat: Android of iOS. [Meer informatie over sjablonen](../msg/delivery-template.md)
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 

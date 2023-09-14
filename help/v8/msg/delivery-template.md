@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 4a439abca9c7b1f2cc5d82214efb0aae033a996c
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '910'
 ht-degree: 3%
 
 ---
@@ -21,13 +21,13 @@ Een sjabloon kan het volgende bevatten:
 
 * [Typologieën](../advanced-settings/delivery-settings.md#typology)
 * Het adres van de afzender
-* An [publiek](../audience/about-audiences.md), met inbegrip van [controlegroepen](../audience/control-group.md)
+* An [publiek](../audience/about-audiences.md), inclusief [controlegroepen](../audience/control-group.md)
 * Aangepast [content](../content/edit-content.md)
 * [Persoonlijke velden](../personalization/personalize.md) en [voorwaardelijke inhoud](../personalization/conditions.md)
 * Koppelingen naar [spiegelpagina](../content/mirror-page.md) en uit-abonnement [koppelingen](../content/message-tracking.md)
 * Andere leveringseigenschappen, zoals middelgeldigheid, retry parameters, of quarantaine montages.
 
-## Sjablonen openen en beheren {#access-manage-templates}
+## Leveringssjablonen openen en beheren {#access-manage-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
@@ -36,7 +36,7 @@ Een sjabloon kan het volgende bevatten:
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Een bestaande sjabloon dupliceren"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Een levering converteren naar een sjabloon"
 
-Selecteer **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** van het linkermenu, en doorblader aan **Sjablonen** tab.
+Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** van het linkermenu, en doorblader aan **Sjablonen** tab.
 
 ![](assets/templates-tab.png)
 
@@ -59,18 +59,18 @@ Om te schrappen of [dupliceren](#copy-an-existing-template) een sjabloon, select
 
 >[!NOTE]
 >
->Wanneer een sjabloon wordt bewerkt of verwijderd, worden leveringen die met deze sjabloon zijn gemaakt, niet beïnvloed.
+>Wanneer een sjabloon wordt bewerkt of verwijderd, hebben leveringen die met deze sjabloon zijn gemaakt, geen invloed op deze sjabloon.
 
-## Een sjabloon maken {#create-a-delivery-template}
+## Een leveringssjabloon maken {#create-a-delivery-template}
 
 Als u een leveringssjabloon wilt maken, kunt u:
 * Een bestaande sjabloon dupliceren - [Meer informatie](#copy-an-existing-template)
 * Een bestaande levering converteren naar een sjabloon - [Meer informatie](#convert-an-existing-delivery)
 * Een volledig nieuwe leveringssjabloon maken - [Meer informatie](#create-a-new-template)
 
-### Een bestaande sjabloon dupliceren {#copy-an-existing-template}
+### Een bestaande leveringssjabloon dupliceren {#copy-an-existing-template}
 
-De campagne komt met een reeks ingebouwde malplaatjes voor elk kanaal: email, push, SMS. De gemakkelijkste manier om een leveringsmalplaatje tot stand te brengen is een ingebouwde malplaatje te dupliceren en aan te passen.
+De campagne wordt geleverd met een reeks ingebouwde sjablonen voor elk kanaal: e-mail, push, SMS. De gemakkelijkste manier om een leveringsmalplaatje tot stand te brengen is een ingebouwde malplaatje te dupliceren en aan te passen.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ De campagne komt met een reeks ingebouwde malplaatjes voor elk kanaal: email, pu
 
 Voer de onderstaande stappen uit om een leveringssjabloon te dupliceren:
 
-1. Bladeren naar de **Sjablonen** van de **Leveringen** links. [Meer informatie](#access-manage-templates)
+1. Bladeren naar de **Sjablonen** tabblad, van de **Leveringen** links. [Meer informatie](#access-manage-templates)
 1. Klik op de knop **[!UICONTROL More actions]** rechts van de gewenste sjabloonnaam en selecteert u  **[!UICONTROL Duplicate]**.
 
    U kunt ook een sjabloon selecteren in de lijst en deze optie selecteren in het scherm Sjablooneditie.
@@ -120,15 +120,15 @@ Volg onderstaande stappen om een levering als een sjabloon op te slaan:
 
 De nieuwe sjabloon wordt toegevoegd aan de [**Sjablonen** list](#access-manage-templates). U kunt deze nu selecteren wanneer u een nieuwe levering maakt.
 
-### Een nieuwe sjabloon maken {#create-a-new-template}
+### Een nieuwe leveringssjabloon maken {#create-a-new-template}
 
 >[!NOTE]
 >
->Om configuratiefouten te vermijden, adviseert Adobe u [een ingebouwde sjabloon dupliceren](#copy-an-existing-template) en pas de eigenschappen aan in plaats van een nieuwe sjabloon te maken.
+>Om configuratiefouten te vermijden, adviseert de Adobe dat u [een ingebouwde sjabloon dupliceren](#copy-an-existing-template) en pas de eigenschappen aan in plaats van een nieuwe sjabloon te maken.
 
 Voer de onderstaande stappen uit om een volledig nieuwe leveringssjabloon te configureren:
 
-1. Bladeren naar de **Sjablonen** van de **Leveringen** links. [Meer informatie](#access-manage-templates)
+1. Bladeren naar de **Sjablonen** tabblad, van de **Leveringen** links. [Meer informatie](#access-manage-templates)
 1. Klik op de knop **[!UICONTROL Create template]**.
 
    ![](assets/templates-create-button.png)

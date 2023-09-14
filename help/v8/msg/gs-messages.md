@@ -4,9 +4,9 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe u met leveringen werkt en berichten verzendt met Campagne Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: e934bc041b76511c0f4fec22b6abc41c647e1cb3
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1264'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mailberichten, SMS-berichten en pushmeldingen, en de doeltreffendheid ervan meten aan de hand van verschillende speciale rapporten.
 
-Deze berichten worden ontworpen en verzonden door leveringen, en kunnen voor elke ontvanger worden gepersonaliseerd. Deze leveringen kunnen op zichzelf staan of in de context van een marketingcampagne worden opgenomen.
+Deze berichten worden ontworpen en verzonden door leveringen, en kunnen voor elke ontvanger worden gepersonaliseerd. Deze leveringen kunnen in het kader van een marketingcampagne op zichzelf staan of in workflows worden opgenomen.
 
 Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen: e-mail-, sms- en mobiele apps.
 
@@ -59,7 +59,6 @@ Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen: e-mail-, sms-
 
 ## Een levering maken {#create-delivery}
 
-
 U kunt zelfstandige leveringen maken via de **[!UICONTROL Deliveries]** van het linkermenu, of creeer leveringen in het kader van een marketing campagne, van **[!UICONTROL Campaigns]** links.
 
 Blader op de onderstaande tabbladen voor meer informatie over het maken van een levering:
@@ -89,7 +88,7 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
 1. Controleer de resultaten en klik op de knop  **[!UICONTROL Send]** om te beginnen met het verzenden van berichten.
 1. Blader naar de **Rapporten** voor toegang tot belangrijke metriek. Meer informatie over leveringsrapporten vindt u in [deze sectie](../reporting/delivery-reports.md).
 
->[!TAB Een levering maken in een campagne]
+>[!TAB Een levering maken in een campagneworkflow]
 
 Voer de volgende stappen uit om een levering in een campagne te maken:
 

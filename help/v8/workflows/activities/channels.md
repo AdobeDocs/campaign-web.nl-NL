@@ -3,15 +3,15 @@ audience: end-user
 title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 207328a32ba74159d555616f046240100787f20e
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
 
 
-# E-mail, SMS, Push {#channel}
+# E-mail-, sms- en pushactiviteiten {#channel}
 
 Met Adobe Campaign Web kunt u marketingcampagnes automatiseren en uitvoeren via e-mail-, sms- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren.
 
@@ -19,7 +19,17 @@ U kunt bijvoorbeeld een welkomstcampagne voor e-mail maken met een reeks bericht
 
 Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde campagnes tot stand brengen die klanten over veelvoudige touchpoints en aandrijvingsomzettingen in dienst nemen.
 
-Hier volgen de stappen om een **Kanaal** activiteit in een werkstroom:
+>[!NOTE]
+>
+>U kunt ook een eenmalige levering maken, buiten de context van een campagneworkflow. Meer informatie vindt u in de volgende secties:
+>* [Zelfstandige e-maillevering maken](../../email/create-email.md
+>* [Zelfstandige SMS-levering maken](../../sms/create-sms.md)
+>* [Zelfstandige pushlevering maken](../../push/create-push.md)
+>
+
+## Een levering maken in een campagneworkflow{#create-a-delivery-in-a-workflow}
+
+Volg onderstaande stappen om een e-mail, een SMS-bericht of een pushbericht te maken in de context van een campagneworkflow:
 
 1. Controleer of u een **publiek opbouwen** activiteit. Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit. Zie [deze sectie](build-audience.md).
 
@@ -36,7 +46,7 @@ Hier volgen de stappen om een **Kanaal** activiteit in een werkstroom:
 
 1. Klikken **Levering maken**. Definieer de berichtinstellingen en de inhoud op dezelfde manier als u een zelfstandige levering maakt. U kunt de inhoud ook plannen en simuleren. [Meer informatie](../../msg/gs-messages.md).
 
-1. Ga terug naar uw workflow en sla uw wijzigingen op.
+1. Ga terug naar uw workflow. Kies of u de workflow wilt voortzetten **Een uitgaande overgang genereren** als u een overgang wilt toevoegen na de kanaalactiviteit.
 
 1. Klikken **Start** om uw workflow te starten.
 
@@ -46,7 +56,7 @@ Hier volgen de stappen om een **Kanaal** activiteit in een werkstroom:
 
 1. Van uw leveringsdashboard, klik **Verzenden**.
 
-## Voorbeeld
+## Voorbeeld{#cross-channel-workflow-sample}
 
 Hier volgt een voorbeeld van een workflow tussen kanalen met een segmentatie en twee leveringen. De workflow is gericht op alle klanten die in Parijs wonen en die geïnteresseerd zijn in koffiezetapparaten. Onder deze populatie wordt een e-mail verzonden naar de gewone klanten en een SMS-bericht verzonden naar de VIP.
 
