@@ -4,9 +4,9 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe u met leveringen werkt en berichten verzendt met Campagne Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1250'
 ht-degree: 2%
 
 ---
@@ -88,11 +88,10 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
 1. Controleer de resultaten en klik op de knop  **[!UICONTROL Send]** om te beginnen met het verzenden van berichten.
 1. Blader naar de **Rapporten** voor toegang tot belangrijke metriek. Meer informatie over leveringsrapporten vindt u in [deze sectie](../reporting/delivery-reports.md).
 
->[!TAB Een levering maken in een campagneworkflow]
+>[!TAB Levering maken in een workflow]
 
-Voer de volgende stappen uit om een levering in een campagne te maken:
+Ga als volgt te werk om een levering in een workflow te maken:
 
-1. Maak een campagne of open een bestaande campagne. Meer informatie over [marketingcampagnes](../campaigns/gs-campaigns.md).
 1. Maak een workflow of open een bestaande workflow.
 1. Een **[!UICONTROL Build audience]** en klik op de knop `+`knop.
 
@@ -100,7 +99,7 @@ Voer de volgende stappen uit om een levering in een campagne te maken:
 
    De **[!UICONTROL Build audience]** activiteit wordt nader omschreven in [deze sectie](../workflows/activities/build-audience.md).
 
-1. Selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van het leveringskanaal in een workflow en over het definiëren van inhoud voor levering in deze [sectie](../workflows/activities/about-activities.md#channel).
+1. Selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van het leveringskanaal in een workflow en over het definiëren van inhoud voor levering in deze [sectie](../workflows/activities/channels.md).
 1. Start de workflow en controleer logbestanden.
 
 U kunt ook leveringen in een campagne toevoegen zonder een workflow te maken. Om dit te bereiken, doorblader aan **[!UICONTROL Deliveries]** tabblad van uw campagne en klik op **[!UICONTROL Create delivery]** knop.
