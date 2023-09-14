@@ -3,9 +3,9 @@ audience: end-user
 title: Het publiek bewaken en beheren
 description: Leer hoe u het publiek in Adobe Campaign Web kunt bewaken en beheren
 badge: label="Beta"
-source-git-commit: ab6f44b1be2c1c66c2bdf4ea6535f8f9e013aa84
+source-git-commit: f9693c08e1f0a5b5644e8026b7dfe788ee6499c4
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ De lijst met publiek beschikbaar voor gebruik in het Web van de Campagne is toeg
 
 Het publiek kan uit veelvoudige bronnen voortkomen. De **[!UICONTROL Origin]** kolommen geven aan waar een bepaald publiek is gemaakt:
 
-* **[!UICONTROL Adobe Experience Platform:]** Dit publiek is gecreeerd in Adobe Experience Platform en beschikbaar gemaakt in het Web van de Campagne gebruikend de integratie met de Bronnen en de Doelen van de Adobe. Leer hoe u deze integratie instelt in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+* **[!UICONTROL Adobe Experience Platform:]** Dit publiek wordt gecreeerd binnen Adobe Experience Platform en is geïntegreerd in het Web van de Campagne gebruikend de Adobe Bronnen en de integratie van Doelen. Leer hoe u deze integratie instelt in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
 
-* **[!UICONTROL Adobe Campaign]**: Deze doelgroepen zijn gemaakt met behulp van een webworkflow voor campagnes. [Leer hoe u een publiek kunt maken](create-audience.md)
+* **[!UICONTROL Adobe Campaign]**: Deze doelgroepen zijn gemaakt met workflows voor het publiek van Campagne Web. [Leer hoe u een publiek kunt maken](create-audience.md)
 
 *wat zijn de andere oorsprong ? Zijn ze aangepast? Waar definiëren we ze?*
 
@@ -29,7 +29,7 @@ Het publiek kan uit veelvoudige bronnen voortkomen. De **[!UICONTROL Origin]** k
 
 Voor meer informatie over een publiek opent u deze vanuit de lijst. De publiekseigenschappen worden weergegeven, samen met het aantal profielen dat is opgenomen in het publiek. U kunt het aantal gebruikers op elk gewenst moment vernieuwen met de opdracht **[!UICONTROL Calculate]** knop.
 
-Op het tabblad Gegevens kunt u de profielen die deel uitmaken van het publiek, vizualiseren. U kunt deze weergave aanpassen door meer kolommen toe te voegen. U kunt ook geavanceerde filters gebruiken om de weergegeven gegevens te verfijnen.
+De **[!UICONTROL Data]** kunt u de profielen die deel uitmaken van het publiek, vizualiseren. U kunt deze weergave aanpassen door meer kolommen toe te voegen of geavanceerde filters te gebruiken om de weergegeven gegevens te verfijnen.
 
 ![](assets/audiences-details.png)
 
