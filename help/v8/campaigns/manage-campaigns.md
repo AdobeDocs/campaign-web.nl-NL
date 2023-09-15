@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '467'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 1%
 
 Als u een nieuwe campagne wilt maken of bestaande campagnes wilt beheren, klikt u op de knop **[!UICONTROL Campaigns]** op de linkernavigatie.
 
-## De campagnemelijst{#access-campaigns}
+## Lijst met campagnes {#access-campaigns}
+
 
 In de lijst met campagnes zijn twee tabbladen beschikbaar:
 
@@ -38,7 +39,13 @@ U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het filterdeelvenster
 
 ![Campagne, filter](assets/campaign-filter-on-dates.png)
 
-## Het campagnemashboard{#campaign-dashboard}
+## Campagne-dashboard{#campaign-dashboard}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_delivery_list"
+>title="Lijst van leveringen in de campagne"
+>abstract="De **Leveringen** worden alle leveringen weergegeven die aan de huidige campagne zijn gekoppeld. Klik op de naam van een levering om deze te bewerken. Met de knop Levering maken kunt u een nieuwe levering voor deze campagne toevoegen."
 
 In de **Bladeren** klikt u op een campagne om de details ervan weer te geven.
 

@@ -4,10 +4,10 @@ title: E-mailleveringsinstellingen
 description: Meer informatie over instellingen voor e-maillevering in de gebruikersinterface van het campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: b2ac88aba987086c9e2893d48beb03ff57075270
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 8%
+source-wordcount: '1806'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,7 @@ Deze instellingen zijn **technische leveringsparameters** die zijn gedefinieerd 
 >
 > Deze instellingen worden alleen ter informatie beschreven. Sommige van hen hangen van uw configuratie en toestemmingen af. Deze mogen niet in deze versie van het product worden gewijzigd.
 
-## Typologie {#typology}
+## Typologische instellingen {#typology}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
@@ -32,7 +32,7 @@ Deze instellingen zijn **technische leveringsparameters** die zijn gedefinieerd 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
->title="Typologie"
+>title="Typologische instellingen voor de levering"
 >abstract="De typologische regels staan marketers toe om bedrijfspraktijken, over alle leveringen te standaardiseren. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. Profielen die voldoen aan criteria binnen een typologieregel worden bij de voorbereidingsfase uitgesloten van de toedieningsdoelgroepen."
 
 
@@ -52,7 +52,7 @@ Wanneer het associëren van een typologie met een bericht of berichtmalplaatje, 
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_pressure_parameters"
->title="Drukparameters"
+>title="Drukparameters voor de levering"
 >abstract="Met leveringsgewichten kunt u topprioriteit-leveringen identificeren in het kader van vermoeidheidsbeheer. Berichten met het hoogste gewicht hebben prioriteit."
 
 
@@ -81,7 +81,7 @@ Moeilijkheidsbeheer wordt geleverd met **Campagne optimaliseren** invoegtoepassi
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_capacity_settings"
->title="Capaciteitsinstellingen"
+>title="Capaciteitsinstellingen voor de levering"
 >abstract="Alvorens berichten te leveren, gebruik capaciteitsregels om ervoor te zorgen uw organisatie de levering, de binnenkomende berichten kan verwerken die de levering, en het aantal vraag kan produceren om abonnees bijvoorbeeld te contacteren. De capaciteitsregels worden gedefinieerd in de Adobe Campaign v8-console. Selecteer in dit scherm een regel die aan het e-mailkanaal is gekoppeld."
 
 In deze sectie kunt u een capaciteitsregel selecteren die is gedefinieerd in de Adobe Campaign v8-console. Deze regel is gekoppeld aan het e-mailkanaal.
@@ -91,7 +91,14 @@ De **belang van de begunstigde** het veld is een formule die wordt gebruikt om t
 Leer meer over consistentie en capaciteitsregels en hoe te om hen te vormen in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
-## Doelgroep {#audience}
+## Instellingen voor publiek {#audience}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_audience"
+>title="Instellingen voor het publiek voor de levering"
+>abstract="Selecteer een **doeltoewijzing** onder de beschikbare groepen. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console. U kunt ook de uitsluitingsparameters voor de levering instellen. "
+
 
 In deze sectie kunt u een **doeltoewijzing** onder de beschikbare groepen. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console.
 
@@ -101,7 +108,7 @@ Meer informatie over doeltoewijzingen in [Campagne v8-documentatie (clientconsol
 
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
->title="Afleveringsinstellingen"
+>title="Leveringsinstellingen voor de levering"
 >abstract="De parameters van de levering zijn technische montages die op uw levering van toepassing zijn. U kunt BCC voor de levering activeren, en de levering en routinewijzen veranderen. Deze opties zijn beperkt tot deskundige gebruikers."
 
 De parameters van de levering zijn technische montages die op uw levering van toepassing zijn.
@@ -112,6 +119,19 @@ De parameters van de levering zijn technische montages die op uw levering van to
 
 * **BCC e-mailen**: deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel. Meer informatie over BCC via e-mail in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
+### Web Analytics {#web-analytics}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_webanalytics"
+>title="Webanalytische instellingen voor levering"
+>abstract="Selecteer een account voor webanalyse. Dit account is geconfigureerd in de Campagne-clientconsole. U kunt ook de tags definiëren die worden gedeeld met het analyseprogramma dat u gebruikt."
+
+In deze sectie kunt u een account voor webanalyse selecteren. Dit account is geconfigureerd in de Campagne-clientconsole.
+
+U kunt ook de tags definiëren die worden gedeeld met het analyseprogramma dat u gebruikt.
+
+Meer informatie over webanalyse en campagne in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 ### Hernieuwde pogingen {#retries}
@@ -122,12 +142,10 @@ Meer informatie over het beheer van nieuwe pogingen vindt u in [Campagne v8-docu
 
 ## Goedkeuring {#approval}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
->title="Approval mode"
->abstract="Each step of a delivery can be subject to approval in order to ensure full monitoring and control of the various processes."
--->
+>title="Goedkeuringsmodus voor levering"
+>abstract="Selecteer de goedkeuringsmodus. Als de waarschuwingen tijdens de leveringsvoorbereiding worden geproduceerd, kunt u de levering vormen om te bepalen al dan niet het nog zou moeten worden uitgevoerd. "
 
 Als de waarschuwingen tijdens de leveringsvoorbereiding worden geproduceerd, kunt u de levering vormen om te bepalen al dan niet het nog zou moeten worden uitgevoerd. Door gebrek, moet de gebruiker het verzenden van berichten aan het eind van de analysefase bevestigen: dit is **handmatig** validatie.
 
@@ -193,6 +211,11 @@ De volgende parameters worden bepaald in de verwante sectie. Mogelijke opties zi
 **Vervangende URL voor verlopen URL&#39;s**: gebruik deze optie om een URL in te voeren naar een fallback-webpagina: deze wordt weergegeven zodra de tekstspatiëring is verlopen.
 
 ## Instellingen testen {#test-setttings}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_testsettings"
+>title="Testinstellingen voor levering"
+>abstract="Selecteer de uitsluitingsparameters en pas het label van de teste-mails aan."
 
 U kunt de uitsluitingsparameters in deze sectie instellen. Beschikbare opties zijn:
 

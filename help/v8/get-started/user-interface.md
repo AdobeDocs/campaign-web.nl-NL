@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1661'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,11 @@ Raadpleeg voor meer informatie over de campagnedeskundige, maphiërarchie en bro
 
 ### Contextafhankelijke Help {#user-interface-help}
 
-Stel vragen en vind direct hulp van het productgebruikersinterface. De nieuwe, door AI aangedreven kennisassistent, ingebed in de contextafhankelijke help popovers, helpt u uw expertise op het gebied van nieuwe campagnefuncties te leren en uit te breiden. Op basis van de meest recente productdocumentatie helpt het u om hulp te zoeken en stap voor stap hulp te krijgen, aangezien u uw gebruiksgevallen bouwt.
+De **Medewerker kennis met Gen AI** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
+
+Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze Knowledge Assistant met Gen AI is uw ultieme partner, die bij elke interactie een ongekende efficiëntie en nauwkeurigheid biedt.
+
+Meer informatie in [deze sectie](using-ai.md).
 
 
 ### Campaign Management {#user-interface-campaign-management}
@@ -244,10 +248,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- Workflows-->
 
->[!CONTEXTUALHELP]
->id="acw_campaign_creation_workflow"
->title="Werkstroomlijst"
->abstract="Lijst met workflows beschikbaar voor uw campagne. Gebruik de knop &#39;Workflow maken&#39; om een workflow toe te voegen aan uw campagne."
 
 >[!CONTEXTUALHELP]
 >id="acw_wf_read_only"
@@ -311,10 +311,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Globale rapporten bijhouden"
 >abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_delivery_list"
->title="Afleveringslijst in een campagne"
->abstract="Afleveringslijst in een campagne"
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
@@ -323,25 +319,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery settings-->
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_audience"
->title="Doelgroep van leveringsinstellingen"
->abstract="TBC"
 
->[!CONTEXTUALHELP]
->id="acw_email_settings_approval"
->title="Goedkeuring van leveringsinstellingen"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_testsettings"
->title="Testinstellingen voor leveringsinstellingen"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_email_settings_webanalytics"
->title="Delivery settings web analytics"
->abstract="TBC"
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"

@@ -4,9 +4,9 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u een workflow maakt met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 0bdd138bab21fae7af0b2bdd636e719780fbc56d
+source-git-commit: 2afec0260566c2393c96063037adbf1902497289
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '726'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,13 @@ ht-degree: 1%
 >id="acw_workflow_creation_properties"
 >title="Workfloweigenschappen"
 >abstract="Kies in dit scherm de sjabloon die u wilt gebruiken om de workflow te maken en geef een label op. Vouw de sectie EXTRA OPTIONS uit om meer instellingen te configureren, zoals de interne naam van de workflow, de map, de tijdzone en de supervisorgroep. Het wordt hoogst geadviseerd om een supervisorgroep te selecteren zodat de exploitanten worden gealarmeerd als een fout voorkomt."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_creation_workflow"
+>title="Lijst met workflows in de campagne"
+>abstract="De **Leveringen** worden alle workflows weergegeven die aan de huidige campagne zijn gekoppeld. Klik op de naam van een workflow om deze te bewerken. Gebruik de knop Workflow maken om een nieuwe workflow voor deze campagne toe te voegen."
+
 
 U kunt zelfstandige workflows of workflows in een campagne maken. De eerste stap bestaat uit het selecteren van een sjabloon en het definiëren van de algemene eigenschappen ervan. Vervolgens kunt u zo nodig aanvullende instellingen configureren.
 
@@ -63,8 +70,8 @@ Voer de volgende stappen uit om een werkstroomsjabloon te maken op basis van een
 
 1. Bevestig het maken van de sjabloon in het pop-upvenster.
 1. In het canvas van het werkschemamalplaatje, controleer, voeg, en vorm de activiteiten toe zoals nodig.
-1. Blader naar de instellingen om de naam van de werkstroomsjabloon te wijzigen en voer een beschrijving in.
-1. Selecteer de map en de uitvoeringsmap van de sjabloon. De map is de locatie waar het werkstroomsjabloon wordt opgeslagen. De uitvoeringsmap is de map waarin workflows worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
+1. Bladeren naar de instellingen, via het dialoogvenster **Instellingen** om de naam van de werkstroomsjabloon te wijzigen en een beschrijving in te voeren.
+1. Selecteer de **map** en **uitvoeringsmap** van de template. De map is de locatie waar het werkstroomsjabloon wordt opgeslagen. De uitvoeringsmap is de map waarin workflows worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
 
    ![](assets/wf-settings-template.png)
 
