@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
+source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,9 @@ De taal wijzigen:
 1. Klik vervolgens op de taalkoppeling die onder uw e-mailadres wordt weergegeven.
 1. Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
 
+## Donker thema {#dark-theme}
+
+U kunt vanuit het profielpictogram overschakelen naar het donkere thema. Gebruik de **Donker thema** schakelen om deze in-/uit te schakelen.
 
 ## Meer informatie {#learn-more}
 
