@@ -4,9 +4,9 @@ title: Componenten voor inhoud van e-mailontwerpers gebruiken
 description: Leer hoe u inhoudcomponenten in uw e-mails kunt gebruiken
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 813bf43fc67b98a1bb32d5ae63cc94ba6a4a581c
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,18 @@ Gebruik de **[!UICONTROL Image]** om een afbeeldingsbestand van uw computer in t
 
    ![](assets/email_designer_9.png)
 
-1. Klikken **[!UICONTROL Browse]** om een afbeeldingsbestand te kiezen uit uw elementen.
+1. Klikken **[!UICONTROL Browse]** om een afbeeldingsbestand te kiezen uit uw elementen. U kunt ook **[!UICONTROL Import your media]**.
+
+   Voor meer informatie over het uploaden en toevoegen van elementen in Assets Essentials raadpleegt u [Adobe Experience Manager Assets Essentials-documentatie](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html).
+
+   ![](assets/email_designer_28.png)
+
+1. Navigeer door uw mappen naar het specifieke element dat u nodig hebt of zoek het efficiënt met de zoekbalk.
+
+   Nadat u het gewenste element hebt gevonden, klikt u op **[!UICONTROL Select]**.
+
+   ![](assets/email_designer_29.png)
+
 
 1. Klik op de nieuwe component en stel de afbeeldingseigenschappen in met de opdracht **[!UICONTROL Settings]** tab:
 
