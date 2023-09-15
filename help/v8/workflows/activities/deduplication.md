@@ -3,7 +3,7 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: ff3edc4aa7a8150e5f68865c9c27ca7e44e7024a
+source-git-commit: 73387436eeb67645a7ba1fc48ffd13a22a739259
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 6%
@@ -34,7 +34,7 @@ De **Deduplicatie** activiteit is **Targeting** activiteit. Met deze activiteit 
 
 ## Configuratie
 
-Voer de volgende stappen uit om de **Planner** activiteit:
+Voer de volgende stappen uit om de **Deduplicatie** activiteit:
 
 1. Voeg een **Deduplicatie** activiteit aan uw werkschema.
 
