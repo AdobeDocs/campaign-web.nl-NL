@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a6d3f7dccbf862017d7dde61ac138ef6a59f05f8
+source-git-commit: 0af85ae6c368ff3e04c55e88eb5b66437294aece
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1487'
 ht-degree: 0%
 
 ---
@@ -57,21 +57,6 @@ Zoals in om het even welk lijstscherm, kunt u kolommen vormen om de vertoning te
 
 Raadpleeg voor meer informatie over de campagnedeskundige, maphiërarchie en bronnen [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
-
-### Contextafhankelijke Help {#user-interface-help}
-
-De interface bevat een contextafhankelijke Help. Klik, indien beschikbaar, op de knop `?` pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
-
-![](assets/context-help.png){width="40%" align="left"}
-
-Met de nieuwe bètaversie **Medewerker kennis met Gen AI** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
-
-![](assets/ask-a-question.png)
-
-
-Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze Knowledge Assistant met Gen AI is uw ultieme partner, die bij elke interactie een ongekende efficiëntie en nauwkeurigheid biedt.
-
-Meer informatie in [deze sectie](using-ai.md).
 
 
 ### Campaign Management {#user-interface-campaign-management}
@@ -141,6 +126,22 @@ Gebruik de hoogste bar van de interface aan:
 Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
 -->
 
+
+### Contextafhankelijke Help {#user-interface-help}
+
+De interface bevat een contextafhankelijke Help. Klik, indien beschikbaar, op de knop `?` pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
+
+![](assets/context-help.png){width="40%" align="left"}
+
+Met de nieuwe bètaversie **Medewerker kennis met Gen AI** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
+
+![](assets/ask-a-question.png)
+
+
+Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze Knowledge Assistant met Gen AI is uw ultieme partner, die bij elke interactie een ongekende efficiëntie en nauwkeurigheid biedt.
+
+Meer informatie in [deze sectie](using-ai.md).
+
 ## Ondersteunde browsers {#browsers}
 
 Campagne v8 Web is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome, Safari en Microsoft Edge. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
@@ -149,28 +150,19 @@ Campagne v8 Web is ontworpen om optimaal te werken in de nieuwste versie van Goo
 
 Campagne v8 Web is momenteel beschikbaar in de volgende talen:
 
-<table>
-<tr>
-<td>
-<p>Engels (VS) - EN-US</p>
-<p>Frans - FR</p>
-<p>Duits - DE</p>
-<p>Italiaans - IT</p>
-</td>
-<td>
-<p>Spaans - ES</p>
-<p>Portugees (Braziliaans) - PTBR</p>
-<p>Japans - JP</p>
-</td>
-<td>
-<p>Koreaans - KR</p>
-<p>Vereenvoudigd Chinees - CHS</p>
-<p>Traditioneel Chinees - CHT</p>
-</td>
-</tr>
-</table>
+* Engels (VS) - EN-US
+* Frans - FR
+* Duits - DE
+* Italiaans - IT
+* Spaans - ES
+* Portugees (Braziliaans) - PTBR
+* Japans - JP
+* Koreaans - KR
+* Vereenvoudigd Chinees - CHS
+* Traditioneel Chinees - CHT
 
-Uw standaardinterfacetaal wordt bepaald door de aangewezen taal die in uw gebruikersprofiel wordt gespecificeerd.
+
+Uw standaardtaal voor het Web van de Campagne wordt bepaald door de aangewezen taal die in uw gebruikersprofiel wordt gespecificeerd. Het heeft geen betrekking op de taal van uw Campagneserver en cliëntconsole.
 
 De taal wijzigen:
 
