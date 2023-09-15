@@ -4,9 +4,9 @@ title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: d05b6f9fec0e56f90d3fe51014fc11d2ed87bb66
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '330'
 ht-degree: 5%
 
 ---
@@ -43,6 +43,10 @@ Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
    Soorten publiek wordt gemaakt op basis van de **Publiek** links. Ze kunnen ook worden gemaakt in de clientconsole.
 
    Om het publiek van Adobe Experience Platform te gebruiken, moet u de integratie met Doelen vormen. Zie de [Adobe Experience Platform-bestemmingsdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
+
+   >[!IMPORTANT]
+   >
+   >In die versie van het product, wanneer het bouwen van regels, het selecteren van het publiek van een levering, of wanneer het bouwen van een publiek in een werkschema, zijn sommige vooraf bepaalde filters niet beschikbaar in het gebruikersinterface. U kunt ze nog steeds gebruiken. [Meer informatie](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 1. Kies een publiek en klik op **Selecteren**.
 1. Gebruik de **Filters tonen** pictogram om filteropties weer te geven. Klikken **Regels toevoegen** om tot de regelbouwer toegang te hebben: het gebruiken van de regelbouwer laat u geavanceerde filters voor de lijst van publiek tot stand brengen. Leer hoe te om de regelbouwer in dit te gebruiken [sectie](segment-builder.md).
