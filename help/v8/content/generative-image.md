@@ -3,9 +3,9 @@ audience: end-user
 title: Afbeelding genereren met de inhoudsassistent
 description: Aan de slag met de inhoudsassistent
 badge: label="Beta"
-source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Afbeelding genereren met de inhoudsassistent {#generative-image}
 
-Nadat u uw e-mails hebt gemaakt en gepersonaliseerd, kunt u uw inhoud verbeteren met de Inhoudsassistent. Deze functie vereenvoudigt het proces van personalisatie en contentverbetering.
+Nadat u uw e-mails hebt gemaakt en gepersonaliseerd, kunt u uw inhoud verbeteren met de Content Assistant, aangedreven door generatieve AI. Deze functie vereenvoudigt het proces van personalisatie en contentverbetering.
 
 In het onderstaande voorbeeld leert u hoe u de Inhoudsassistent kunt gebruiken om uw inhoud te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt. Voer de volgende stappen uit:
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Tekst met de inhoudsassistent
 description: Aan de slag met de inhoudsassistent
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '301'
 ht-degree: 1%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Tekst genereren met de inhoudsassistent {#generative-content}
 
-Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de Inhoudsassistent om uw inhoud naar het volgende niveau te brengen.
+Als u eenmaal e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de Content Assistant die wordt aangedreven door generatieve AI om uw inhoud naar het volgende niveau te brengen.
 
 De Inhoudsassistent kan u helpen de impact van uw leveringen te optimaliseren door andere inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
 

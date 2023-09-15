@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailgeneratie met de inhoudsassistent
 description: Aan de slag met de inhoudsassistent
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: c1eff2fdf8687704e2eb98a2626fdb3532d093e2
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 1%
 # Een e-mail genereren met de Inhoudsassistent {#generative-email}
 
 De Inhoudsassistent verbetert de impact van uw communicatie door automatisch volledige e-mailinhoud te genereren, zodat u tijd bespaart en een consistente kwaliteit gegarandeerd is.
+
+Met Generative AI kunt u moeiteloos aantrekkelijke e-mails maken die op uw publiek zijn afgestemd, waardoor uw communicatie effectiever en efficiënter wordt.
 
 1. Nadat u de e-maillevering hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Create content]**.
 
