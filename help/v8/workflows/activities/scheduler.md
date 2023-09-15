@@ -3,10 +3,10 @@ audience: end-user
 title: De workflowactiviteit van de planner gebruiken
 description: Leer hoe u de workflowactiviteit van de planner gebruikt
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 9c48a6e02eed7ac14bfa42de59932d6cbd6e8534
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 11%
+source-wordcount: '499'
+ht-degree: 10%
 
 ---
 
@@ -30,6 +30,10 @@ De **Planner** activiteit is **Stroomregeling** activiteit. Hiermee kunt u plann
 
 ## Configuratie
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_schedule_validity"
+>title="Geldigheid van planner"
+>abstract="U kunt een geldigheidsperiode voor de planner bepalen. Het kan permanent zijn, of kan tot een specifieke datum geldig zijn."
 
 Voer de volgende stappen uit om de **Planner** activiteit:
 
