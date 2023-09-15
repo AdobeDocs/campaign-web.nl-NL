@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit van de planner gebruiken
 description: Leer hoe u de workflowactiviteit van de planner gebruikt
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '476'
 ht-degree: 11%
 
 ---
@@ -13,12 +13,12 @@ ht-degree: 11%
 
 # Planner {#scheduler}
 
-<!--
+
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Scheduler activity"
->abstract="The Scheduler activity allows you..."
--->
+>title="Activiteit Planner"
+>abstract="De **Planner** activiteit is **Stroomregeling** activiteit. Hiermee kunt u plannen wanneer de workflow wordt gestart. Deze activiteit moet worden beschouwd als een geplande start. Deze kan alleen worden gebruikt als de eerste activiteit van de workflow."
+
 
 De **Planner** activiteit is **Stroomregeling** activiteit. Hiermee kunt u plannen wanneer de workflow wordt gestart. Deze activiteit moet worden beschouwd als een geplande start. Deze kan alleen worden gebruikt als de eerste activiteit van de workflow.
 
@@ -29,6 +29,7 @@ De **Planner** activiteit is **Stroomregeling** activiteit. Hiermee kunt u plann
 * Als u een terugkerende levering in uw werkstroom wilt verzenden, moet u een **Planner** en stelt de uitvoeringsfrequentie in. Met de terugkerende leveringsactiviteit kunt u geen schema definiëren.
 
 ## Configuratie
+
 
 Voer de volgende stappen uit om de **Planner** activiteit:
 

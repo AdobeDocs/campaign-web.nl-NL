@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit Splitsen gebruiken
 description: Leer hoe u de activiteit van de gesplitste workflow gebruikt
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '586'
 ht-degree: 1%
 
 ---
@@ -13,9 +13,26 @@ ht-degree: 1%
 
 # Splitsen {#split}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split"
+>title="Gesplitste activiteit"
+>abstract="De **Splitsen** activiteit is **Targeting** activiteit die u toestaat om inkomende populaties in veelvoudige subsets te segmenteren die op verschillende selectiecriteria, zoals het filtreren regels of populatiegrootte worden gebaseerd."
+
+
 De **Splitsen** activiteit is **Targeting** activiteit die u toestaat om inkomende populaties in veelvoudige subsets te segmenteren die op verschillende selectiecriteria, zoals het filtreren regels of populatiegrootte worden gebaseerd.
 
 ## Configuratie {#general}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_filter"
+>title="Activiteitsfilter splitsen"
+>abstract="Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en vorm de gewenste het filtreren regel. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres voorkomt in de database."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_limit"
+>title="Limiet voor gesplitste activiteit"
+>abstract="Als u het aantal profielen dat door de subset is geselecteerd, wilt beperken, schakelt u het **[!UICONTROL Enable limit]** en geeft het aantal of de percentages van de populatie aan die moeten worden opgenomen."
+
 
 Voer de volgende stappen uit om de **Splitsen** activiteit:
 

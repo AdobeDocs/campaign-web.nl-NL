@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de AND-join-workflow gebruiken
 description: Leer hoe u de workflowactiviteit AND-join gebruikt
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '232'
 ht-degree: 1%
 
 ---
@@ -13,11 +13,24 @@ ht-degree: 1%
 
 # AND-join {#join}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_and-join"
+>title="AND-join-activiteit"
+>abstract="De **En-join** activiteit is **Stroomregeling** activiteit. Hiermee kunt u meerdere uitvoeringstakken van een workflow synchroniseren."
+
+
+
 De **En-join** activiteit is **Stroomregeling** activiteit. Hiermee kunt u meerdere uitvoeringstakken van een workflow synchroniseren.
 
 Deze activiteit brengt slechts zijn uitgaande overgang teweeg zodra alle binnenkomende overgangen worden geactiveerd, met andere woorden, zodra alle voorafgaande activiteiten zijn geëindigd. Op deze manier kunt u ervoor zorgen dat bepaalde activiteiten zijn voltooid voordat u doorgaat met het uitvoeren van de workflow.
 
 ## Configuratie
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_and-join_merging"
+>title="Vorm EN-verbind activiteit"
+>abstract="Selecteer de activiteiten waaraan u wilt deelnemen. In de **Primaire set** keuzelijst, kies welke binnenkomende overgangspopulatie u wilt houden."
 
 Voer de volgende stappen uit om de **AND-join** activiteit:
 

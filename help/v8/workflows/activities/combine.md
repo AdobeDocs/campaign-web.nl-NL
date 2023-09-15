@@ -3,15 +3,21 @@ audience: end-user
 title: Werkstroomactiviteit combineren gebruiken
 description: Leer hoe u de workflowactiviteit combineren gebruikt
 badge: label="Beta"
-source-git-commit: d5b0777ba51f595733c6b7e366d0a9a21a13d84a
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 10%
+source-wordcount: '829'
+ht-degree: 11%
 
 ---
 
 
 # Combineren {#combine}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine"
+>title="Combineer activiteit"
+>abstract="De **Combineren** activiteit is **Targeting** activiteit. Deze activiteit staat u toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor meerdere doelen."
+
 
 De **Combineren** activiteit is **Targeting** activiteit. Deze activiteit staat u toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor verschillende doelen. Hier volgen de beschikbare segmentatietypen:
 
@@ -35,6 +41,11 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >title="Samenvoegopties voor uitsluiting"
 >abstract="Met deze uitsluiting kunt u elementen op basis van bepaalde criteria uitsluiten van één populatie. Controleer in de sectie Sets to join alle vorige activiteiten waaraan u wilt deelnemen."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_options"
+>title="Selecteer het segmentatietype"
+>abstract="Selecteer hoe u het publiek wilt combineren: verenigen, doorsnijden of uitsluiten."
+
 Voer de volgende algemene stappen uit om de configuratie van de **Combineren** activiteit:
 
 1. Meerdere activiteiten toevoegen, zoals **publiek opbouwen** activiteiten om ten minste twee verschillende uitvoerende bijkantoren te vormen.
@@ -49,6 +60,11 @@ Voer de volgende algemene stappen uit om de configuratie van de **Combineren** a
 >id="acw_orchestration_intersection_reconciliation_options"
 >title="Doorsnede afstemmingsopties"
 >abstract="Selecteer het afstemmingstype om te bepalen hoe duplicaten worden verwerkt."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_reconciliation"
+>title="Afstemmingsopties"
+>abstract="Selecteer de **Type afstemming** om te definiëren hoe duplicaten moeten worden verwerkt."
 
 In de **Combineren** activiteit, kunt u vormen **Unie**. Hiervoor moet u de optie **Type afstemming** om te bepalen hoe duplicaten worden verwerkt:
 
@@ -68,6 +84,12 @@ In de **Combineren** activiteit, kunt u vormen **Intersectie**. Hiervoor moet u 
 >id="acw_orchestration_exclusion_options"
 >title="Uitsluitingsregels"
 >abstract="Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Om dit te doen, voegt de klik een regel in de sectie van de Regels van de Uitsluiting toe en specificeert de voorwaarden van de afmetingsverandering. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_sets"
+>title="Te combineren sets selecteren"
+>abstract="In de **Stelt in om te verbinden** selecteert u de **Primaire set** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set."
+
 
 In de **Combineren** activiteit, kunt u vormen **Uitsluiting**. Hiervoor moet u de volgende extra stappen volgen:
 

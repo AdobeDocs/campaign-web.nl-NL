@@ -3,15 +3,22 @@ audience: end-user
 title: De workflowactiviteit Wachten gebruiken
 description: Leer hoe u de workflowactiviteit Wacht gebruikt
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 29%
+source-wordcount: '172'
+ht-degree: 25%
 
 ---
 
 
 # Wachten {#wait}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_wait"
+>title="Wachten"
+>abstract="De **Wachten** activiteit is **Stroomregeling** activiteit. Het wordt gebruikt om een bepaalde hoeveelheid tijd toe te staan om tussen twee uit te voeren activiteiten over te gaan."
+
 
 De **Wachten** activiteit is **Stroomregeling** activiteit. Het wordt gebruikt om een bepaalde hoeveelheid tijd toe te staan om tussen twee uit te voeren activiteiten over te gaan. Bijvoorbeeld als u een aantal dagen wilt wachten na een e-mailleveringsactiviteit om het aantal open- en klikacties tijdens die periode te analyseren voordat u follow-upbewerkingen gaat uitvoeren (herinneringsmail, doelgroep maken, enz.).
 

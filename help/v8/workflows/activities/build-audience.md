@@ -3,15 +3,21 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 1%
+source-wordcount: '369'
+ht-degree: 0%
 
 ---
 
 
 # publiek opbouwen {#build-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience"
+>title="publiek opbouwen"
+>abstract="De **publiek opbouwen** activiteit is **Targeting** activiteit. Met deze activiteit kunt u het publiek definiëren dat de workflow zal betreden."
+
 
 De **publiek opbouwen** activiteit is **Targeting** activiteit. Met deze activiteit kunt u het publiek definiëren dat de workflow zal betreden. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit.
 
@@ -29,7 +35,13 @@ Om de publieksbevolking te bepalen, kunt u:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Configuratie
+## Vorm de het publieksactiviteit van de Bouwstijl
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_build_audience_dimension"
+>title="Doeldimensie selecteren"
+>abstract="Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers."
+
 
 Voer de volgende stappen uit om de **publiek opbouwen** activiteit:
 

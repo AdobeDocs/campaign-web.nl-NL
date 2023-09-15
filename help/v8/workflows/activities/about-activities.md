@@ -4,9 +4,9 @@ title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '341'
 ht-degree: 5%
 
 ---
@@ -46,6 +46,12 @@ Het volgende **Kanaal** de activiteiten zijn beschikbaar :
 Zie dit [sectie](channels.md).
 
 ## Stroombeheeractiviteiten {#flow-control}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end"
+>title="Eindactiviteit"
+>abstract="De **Einde** Met activiteit kunt u het einde van een werkstroom grafisch markeren. Deze activiteit heeft geen functioneel effect en is daarom optioneel."
 
 De volgende activiteiten zijn specifiek voor het organiseren en uitvoeren van workflows. Hun voornaamste taak is de coördinatie van de andere activiteiten:
 
