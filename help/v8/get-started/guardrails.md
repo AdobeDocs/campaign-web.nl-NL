@@ -2,9 +2,9 @@
 title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 badge: label="Beta"
-source-git-commit: 68eb1529f6780682256f4b36bd77d336cf560d21
+source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,13 @@ Wanneer u in de interface van het campagneweb werkt met componenten die zijn gem
 
 ## Workflows {#wf-guardrails-limitations}
 
-Dezelfde workflow is toegankelijk voor zowel de console- als de webinterface. Houd er echter rekening mee dat bepaalde beperkingen van toepassing zijn.
-
 **Activity Edition**
 
-* Wanneer u een consoleworkflow opent in de webinterface, kunt u alleen activiteiten wijzigen die compatibel zijn.
+* Workflowactiviteiten die nog niet in de webinterface worden ondersteund, zijn alleen-lezen. U kunt de workflow nog steeds uitvoeren, berichten verzenden, de logbestanden controleren, enz.
+
+| Console | Webinterface |
+| --- | --- |
+| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
 
 **Canvaseditie**
 
@@ -41,17 +43,6 @@ Dezelfde workflow is toegankelijk voor zowel de console- als de webinterface. Ho
 | Console | Webinterface |
 | --- | --- |
 | ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
-
-<table>
-<tr>
-<th>Console</th>
-<th>Webinterface</th>
-</tr>
-<tr>
-<td><img src="assets/limitations-loops-console.png"></td>
-<td><img src="assets/limitations-loops-web.png"></td>
-</tr>
-</table>
 
 **Verzoening en verrijking**
 
