@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ Vooraf gedefinieerde filters zijn aangepaste filters die worden gemaakt en opges
 U kunt bestaande ingebouwde filters gebruiken om toegang te krijgen tot een specifieke subset van uw gegevens, of uw eigen vooraf gedefinieerde filters maken en deze opslaan.
 
 ![](assets/predefined-filters-menu.png)
+
+>[!CAUTION]
+>
+>In die versie van het product, wanneer het bouwen van regels, het selecteren van het publiek van een levering, of wanneer het bouwen van een publiek in een werkschema, zijn sommige vooraf bepaalde filters niet beschikbaar in het gebruikersinterface. U kunt ze nog steeds gebruiken. [Meer informatie](guardrails.md#predefined-filters-filters-guardrails-limitations)
 
 
 ## Een vooraf gedefinieerd filter maken {#create-predefined-filter}
@@ -55,7 +59,7 @@ U kunt een douanefilter van de regelbouwer bewaren om het voor toekomstig gebrui
 
 1. Selecteren **Een nieuw filter maken** en voert u een naam en een beschrijving voor dat filter in.
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){width="70%" align="left"}
 
    U kunt het filter indien nodig opslaan als favoriet. Meer informatie in [deze sectie](#fav-filter).
 
@@ -89,7 +93,7 @@ Wanneer u een vooraf gedefinieerd filter maakt, kunt u **Opslaan als favoriet** 
 
 Wanneer een filter als favoriet wordt opgeslagen, is het beschikbaar voor alle gebruikers in **Favoriete filters** sectie van de lijst van de filterverwezenlijking, zoals hieronder getoond:
 
-![](assets/predefined-filters-favorite.png){width="70%" align="left"}
+![](assets/predefined-filters-favorite.png){width="30%" align="left"}
 
 
 ## Een vooraf gedefinieerd filter gebruiken {#use-predefined-filter}
@@ -139,6 +143,8 @@ In deze lijst kunt u een nieuw filter maken, zoals hierboven beschreven, en:
 
 U kunt een vooraf gedefinieerd filter als favoriet voor een snelle toegang toevoegen wanneer het bouwen van uw regels. Meer informatie in [deze sectie](#fav-filter).
 
-## Geïntegreerde voorgedefinieerde filters {#ootb-predefined-filter}
+<!--
+## Built-in predefined filters {#ootb-predefined-filter}
 
-De campagne komt met een reeks vooraf bepaalde filters, die van de cliëntconsole worden gebouwd. Deze filters kunnen worden gebruikt om uw publiek, en regels te bepalen. Ze mogen niet worden gewijzigd.
+Campaign comes with a set of predefined filters, built from the client console. These filters can be used to define your audiences, and rules. They must not be modified.
+-->

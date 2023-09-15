@@ -2,9 +2,9 @@
 title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 badge: label="Beta"
-source-git-commit: 9ab03458bbd9606537c0b42d72643cf1efefcc81
+source-git-commit: 86d87e9a3ac9028634a08c2c0969cd232dff15f5
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -16,17 +16,29 @@ Wanneer u in de interface van het campagneweb werkt met componenten die zijn gem
 
 ## Workflows {#wf-guardrails-limitations}
 
-**Activity Edition**
+**Activiteiten**
 
-* Workflowactiviteiten die nog niet in de webinterface worden ondersteund, zijn alleen-lezen. U kunt de workflow nog steeds uitvoeren, berichten verzenden, de logbestanden controleren, enz.
+* Workflowactiviteiten die nog niet in de webinterface worden ondersteund, zijn alleen-lezen. U kunt de workflow nog steeds uitvoeren, berichten verzenden, de logbestanden controleren, enz. De activiteiten van het werkschema die zowel in WebUI als de cliëntconsole beschikbaar zijn zijn editable.
 
 | Console | Webinterface |
 | --- | --- |
-| ![](assets/limitations-activities-console.png) | ![](assets/limitations-activities-web.png) |
+| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
 
-**Canvaseditie**
+**Canvas**
 
-* Als een consolewerkschema veelvoudige beginknopen/takken of drijvende activiteiten heeft, moet u een beginactiviteit en een vork toevoegen om beginknopen aan de belangrijkste knoop aan te sluiten. U moet ook zwevende activiteiten verwijderen.
+* Wanneer u een nieuwe workflow maakt in de webinterface, ondersteunt het canvas slechts één ingangspunt. Nochtans, als u een werkstroom in de console met veelvoudige ingangspunten creeerde,
+
+Maar zelfs als uw workflow is gemaakt in het canvas van de clientconsole met meerdere ingangspunten, kan deze ook worden bewerkt in de webinterface. U kunt nog steeds openen en bewerken
+
+
+
+Om dit scenario te proberen, creeer een werkschema van de cliëntconsole met veelvoudige ingangspunten en open het van Web UI om het resultaat te zien.
+
+
+
+Natuurlijk kunt u de activiteiten bewerken en de workflow zoals gebruikelijk starten en uitvoeren.
+
+
 
 **Positie activiteit**
 
@@ -38,11 +50,11 @@ Wanneer u in de interface van het campagneweb werkt met componenten die zijn gem
 
 **Lussen**
 
-* Lussen zijn nog niet beschikbaar in de webinterface. Als u een werkstroom met een lijn gebruikend de console hebt gecreeerd, zal het niet in Web UI toegankelijk zijn. Er wordt een foutbericht weergegeven.
+* Lussen zijn nog niet beschikbaar in de webinterface. Als u een werkstroom met een lijn gebruikend de console creeerde, kunt u tot het niet van Web UI toegang hebben. Er wordt een foutbericht weergegeven.
 
 | Console | Webinterface |
 | --- | --- |
-| ![](assets/limitations-loops-console.png) | ![](assets/limitations-loops-web.png) |
+| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
 
 **Verzoening en verrijking**
 
@@ -53,12 +65,11 @@ In de Campagne cliëntconsole, **Verrijking** deze activiteit kan zowel verzoeni
 
 ## Vooraf gedefinieerde filters {#filters-guardrails-limitations}
 
-Wanneer het selecteren van het publiek van een levering, of wanneer het bouwen van een publiek in een werkschema, zijn sommige vooraf bepaalde filters niet beschikbaar in het gebruikersinterface, in die versie van het product.
+In die versie van het product zijn sommige vooraf gedefinieerde filters niet beschikbaar in de gebruikersinterface wanneer u het publiek van een levering selecteert of wanneer u een publiek in een workflow maakt.
 
 Er wordt een specifiek foutbericht weergegeven. Zelfs als u niet de grafische vertegenwoordiging van de vraag in de regelbouwer kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden, en de resultaten zien. U kunt de SQL-query ook openen om de exacte instellingen te controleren.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
-
 
 Merk op dat als u een filter in de interface van het Web bouwt en het in de console met niet gestaafde attributen wijzigt, de grafische vertegenwoordiging niet meer in de interface van het Web beschikbaar kan zijn. In elk geval kunt u het filter nog steeds gebruiken.
 
