@@ -4,9 +4,9 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '991'
 ht-degree: 1%
 
 ---
@@ -102,6 +102,12 @@ De belangrijkste mogelijkheden die met het Webbètaprogramma van de Campagne kom
   Stel vragen en vind direct hulp van het productgebruikersinterface. De nieuwe, door AI aangedreven kennisassistent, ingebed in de contextafhankelijke help popovers, helpt u uw expertise op het gebied van nieuwe campagnefuncties te leren en uit te breiden. Op basis van de meest recente productdocumentatie helpt het u om hulp te zoeken en stap voor stap hulp te krijgen, aangezien u uw gebruiksgevallen bouwt.
 
   Meer informatie in [deze sectie](../get-started/using-ai.md).
+
+* **HTML Converter voor e-mailontwerp**
+
+  U kunt nu alle HTML-inhoud importeren en converteren in de e-maileditor van de campagne. Inhoudsblokken worden automatisch geïdentificeerd en zijn beschikbaar in de e-mailontwerper: gebruik zijn krachtige ontwerpmogelijkheden om de inhoud bij te werken en aan te passen!
+
+  Meer informatie in [deze sectie](../content/existing-content.md).
 
 
 ## Overgang naar interface van het Web van de Campagne

@@ -4,7 +4,7 @@ title: Uw e-mailinhoud importeren
 description: Leer hoe u e-mailinhoud importeert
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 badge: label="Beta"
-source-git-commit: f83bdea5c051bfec52e6df71f0edd0258827815a
+source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -13,13 +13,12 @@ ht-degree: 0%
 
 # Uw e-mailinhoud importeren {#existing-content}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_import_content"
 >title="Bestaande e-mailinhoud gebruiken"
 >abstract="Met de e-mailontwerper kunt u bestaande HTML-inhoud importeren. Deze inhoud kan bestaan uit een HTML-bestand met een ingebouwde stijlpagina of uit een ZIP-map met het HTML-bestand, de stijlpagina (.css) en afbeeldingen."
 
-Met de e-mailontwerper kunt u bestaande HTML-inhoud importeren. Deze inhoud kan:
+U kunt bestaande HTML-inhoud importeren in de e-mailontwerper. Deze inhoud kan:
 
 * An **HTML-bestand** met een model in een ingebouwde stijlpagina,
 * A **.zip-map** met het HTML-bestand, de stijlpagina (.css) en afbeeldingen.
