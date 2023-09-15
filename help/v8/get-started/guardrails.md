@@ -2,9 +2,9 @@
 title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 badge: label="Beta"
-source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
+source-git-commit: 492d49c37c8d63d3e3867f897b76a54ebe8bdb11
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,18 @@ Dezelfde workflow is toegankelijk voor zowel de console- als de webinterface. Ho
 
 **Lussen**
 
-* Workflows inclusief lussen worden niet weergegeven in de webinterface. Er wordt een foutbericht weergegeven.
+* Lussen zijn nog niet beschikbaar in de webinterface. Als u een werkstroom met een lijn gebruikend de console hebt gecreeerd, zal het niet in Web UI toegankelijk zijn. Er wordt een foutbericht weergegeven.
+
+<table>
+<tr>
+<th>Console</th>
+<th>Webinterface</th>
+</tr>
+<tr>
+<td><img src="assets/limitations-loops-console.png"></td>
+<td><img src="assets/limitations-loops-web.png"></td>
+</tr>
+</table>
 
 **Verzoening en verrijking**
 
