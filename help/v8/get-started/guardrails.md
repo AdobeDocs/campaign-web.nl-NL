@@ -2,9 +2,9 @@
 title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 badge: label="Beta"
-source-git-commit: 86d87e9a3ac9028634a08c2c0969cd232dff15f5
+source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -16,60 +16,54 @@ Wanneer u in de interface van het campagneweb werkt met componenten die zijn gem
 
 ## Workflows {#wf-guardrails-limitations}
 
-**Activiteiten**
+### Activiteiten
 
-* Workflowactiviteiten die nog niet in de webinterface worden ondersteund, zijn alleen-lezen. U kunt de workflow nog steeds uitvoeren, berichten verzenden, de logbestanden controleren, enz. De activiteiten van het werkschema die zowel in WebUI als de cliëntconsole beschikbaar zijn zijn editable.
-
-| Console | Webinterface |
-| --- | --- |
-| ![](assets/limitations-activities-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="50%" align="left" zoomable="yes"} |
-
-**Canvas**
-
-* Wanneer u een nieuwe workflow maakt in de webinterface, ondersteunt het canvas slechts één ingangspunt. Nochtans, als u een werkstroom in de console met veelvoudige ingangspunten creeerde,
-
-Maar zelfs als uw workflow is gemaakt in het canvas van de clientconsole met meerdere ingangspunten, kan deze ook worden bewerkt in de webinterface. U kunt nog steeds openen en bewerken
-
-
-
-Om dit scenario te proberen, creeer een werkschema van de cliëntconsole met veelvoudige ingangspunten en open het van Web UI om het resultaat te zien.
-
-
-
-Natuurlijk kunt u de activiteiten bewerken en de workflow zoals gebruikelijk starten en uitvoeren.
-
-
-
-**Positie activiteit**
-
-* De positionering van de knooppunten wordt pas opnieuw berekend (de eerste positionering van de activiteiten wordt daarom gewijzigd) wanneer een activiteit is toegevoegd of verwijderd (niet altijd).
-
-**Onbelichte opties**
-
-* Niet-compatibele opties worden niet weergegeven in de webinterface.
-
-**Lussen**
-
-* Lussen zijn nog niet beschikbaar in de webinterface. Als u een werkstroom met een lijn gebruikend de console creeerde, kunt u tot het niet van Web UI toegang hebben. Er wordt een foutbericht weergegeven.
+Workflowactiviteiten die nog niet worden ondersteund in de webinterface, zijn alleen-lezen en worden weergegeven als incompatibele activiteiten. U kunt de workflow nog steeds uitvoeren, berichten verzenden, de logbestanden controleren, enz. De activiteiten van het werkschema die zowel in WebUI als de cliëntconsole beschikbaar zijn zijn editable.
 
 | Console | Webinterface |
 | --- | --- |
-| ![](assets/limitations-loops-console.png){width="50%" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="50%" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-**Verzoening en verrijking**
+Workflowactiviteitinstellingen die nog niet worden ondersteund in de webinterface, worden niet weergegeven. Wanneer de werkstroom echter wordt uitgevoerd, zijn deze instellingen van toepassing.
 
-In de Campagne cliëntconsole, **Verrijking** deze activiteit kan zowel verzoening als verrijking tot stand brengen . In het Web UI van de Campagne, zijn de verzoeningsmogelijkheden nog niet beschikbaar. Als u verzoening in de consoleactiviteit hebt geplaatst, zal het als niet-compatibele activiteit in Web UI worden getoond.
+| Console | Webinterface |
+| --- | --- |
+| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-* Als de **Verrijking** activiteit in de console voert slechts een verrijking uit, **Verrijking** activiteit wordt weergegeven op het web.
-* Als de **Verrijking** de activiteit in de console voert slechts een verenigbaarheid uit, wordt een incompatibele activiteit getoond.
+In de console, **Verrijking** deze activiteit kan zowel verzoening als verrijking tot stand brengen . In het Web UI, zijn de aanpassingsmogelijkheden nog niet beschikbaar. Als u, in de console hebt bepaald, verzoeningsmontages in **Verrijking** activiteit, wordt deze weergegeven als een niet-compatibele alleen-lezen activiteit in de webinterface.
+
+| Console | Webinterface |
+| --- | --- |
+| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+
+### Canvas
+
+Wanneer u een nieuwe workflow maakt in de webinterface, ondersteunt het canvas slechts één ingangspunt. Nochtans, als u een werkstroom in de console met veelvoudige ingangspunten creeerde, kunt u het in Web UI openen en uitgeven.
+
+| Console | Webinterface |
+| --- | --- |
+| ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
+
+Lussen zijn nog niet beschikbaar in de webinterface. Als u een werkstroom met een lijn gebruikend de console creeerde, kunt u tot het niet van Web UI toegang hebben. Er wordt een foutbericht weergegeven.
+
+| Console | Webinterface |
+| --- | --- |
+| ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
+
+De positionering van de knooppunten wordt elke keer dat een activiteit wordt toegevoegd of verwijderd, vernieuwd. Als u een werkstroom in de console creeert, wijzig het gebruikend het Web UI en open het in de console opnieuw, kunt u sommige minder belangrijke plaatsen onvolkomenheden opmerken. Dit heeft geen invloed op de
+
+| Beginworkflow | Positiewijziging |
+| --- | --- |
+| ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
 
 ## Vooraf gedefinieerde filters {#filters-guardrails-limitations}
 
-In die versie van het product zijn sommige vooraf gedefinieerde filters niet beschikbaar in de gebruikersinterface wanneer u het publiek van een levering selecteert of wanneer u een publiek in een workflow maakt.
+Wanneer het selecteren van het publiek van een levering, of wanneer het bouwen van een publiek in een werkschema, zijn sommige vooraf bepaalde filters niet beschikbaar in het gebruikersinterface, in die versie van het product.
 
 Er wordt een specifiek foutbericht weergegeven. Zelfs als u niet de grafische vertegenwoordiging van de vraag in de regelbouwer kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden, en de resultaten zien. U kunt de SQL-query ook openen om de exacte instellingen te controleren.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
+
 
 Merk op dat als u een filter in de interface van het Web bouwt en het in de console met niet gestaafde attributen wijzigt, de grafische vertegenwoordiging niet meer in de interface van het Web beschikbaar kan zijn. In elk geval kunt u het filter nog steeds gebruiken.
 
