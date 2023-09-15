@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 332e4963e7124c36d2cefa91156372c4773c633b
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
@@ -31,7 +31,7 @@ U kunt bestaande ingebouwde filters gebruiken om toegang te krijgen tot een spec
 
 ![](assets/predefined-filters-menu.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >In die versie van het product, wanneer het bouwen van regels, het selecteren van het publiek van een levering, of wanneer het bouwen van een publiek in een werkschema, zijn sommige vooraf bepaalde filters niet beschikbaar in het gebruikersinterface. U kunt ze nog steeds gebruiken. [Meer informatie](guardrails.md#predefined-filters-filters-guardrails-limitations)
 

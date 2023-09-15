@@ -2,9 +2,9 @@
 title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 badge: label="Beta"
-source-git-commit: f286fa73d0d2643dbe9b2887a59b33c15bd2bb03
+source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,21 @@ De positionering van de knooppunten wordt elke keer dat een activiteit wordt toe
 
 Wanneer het selecteren van het publiek van een levering, of wanneer het bouwen van een publiek in een werkschema, zijn sommige vooraf bepaalde filters niet beschikbaar in het gebruikersinterface, in die versie van het product.
 
-Er wordt een specifiek foutbericht weergegeven. Zelfs als u niet de grafische vertegenwoordiging van de vraag in de regelbouwer kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden, en de resultaten zien. U kunt de SQL-query ook openen om de exacte instellingen te controleren.
+Er wordt een specifiek foutbericht weergegeven.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+Zelfs als u niet de grafische vertegenwoordiging van de vraag in de regelbouwer kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden in zien **Attributen** van het scherm.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
+
+U kunt de SQL-query ook openen om de exacte instellingen te controleren. Om dit te doen, klik **Codeweergave** knop.
+
+![](assets/rule-code-view.png){width="70%" align="left"}
+
+Klik op de knop **Berekenen** om te controleren hoeveel items voldoen aan de criteria van het filter. Gebruik de **Resultaten weergeven** om deze items weer te geven.
+
+![](assets/rule-view-results.png){width="70%" align="left"}
 
 Merk op dat als u een filter in de interface van het Web bouwt en het in de console met niet gestaafde attributen wijzigt, de grafische vertegenwoordiging niet meer in de interface van het Web beschikbaar kan zijn. In elk geval kunt u het filter nog steeds gebruiken.
 
