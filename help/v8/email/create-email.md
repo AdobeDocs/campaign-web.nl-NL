@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Meer informatie over het verzenden van uw eerste e-mail via de webinterface voor campagnes
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -21,9 +21,7 @@ ht-degree: 1%
 
 Leer hoe u uw eerste e-mailadres maakt waarvoor u een e-mail wilt schrijven. In dit geval plant u het verzenden van een e-mail naar leden van Silver en Gold-loyaliteit op een bepaalde datum.
 
-Op basis van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepersonaliseerde inhoud op basis van de kenmerken van het klantprofiel.
-
-![](assets/delivery-list.png)
+Gebaseerd op een vooraf gedefinieerde [ontwerpsjabloon](../content/email-templates.md)Bovendien bevat de e-mail ook gepersonaliseerde inhoud op basis van de kenmerken van het klantprofiel.
 
 ## E-maillevering maken {#create-email}
 
@@ -34,14 +32,16 @@ Op basis van een vooraf gedefinieerde ontwerpsjabloon bevat de e-mail ook gepers
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_properties"
->title="E-maileigenschappen"
->abstract="De eigenschappen zijn de gemeenschappelijke leveringsparameters die u helpen om uw levering te noemen en te classificeren. Als uw levering is gebaseerd op een uitgebreid schema dat is gedefinieerd in de Adobe Campaign v8-console, zijn er enkele specifieke **Aangepaste opties** zijn beschikbaar."
+>title="Uw e-maileigenschappen definiëren"
+>abstract="De eigenschappen zijn de gemeenschappelijke leveringsparameters die u helpen om uw levering te noemen en te classificeren. De extra instellingen zijn optioneel. Als uw levering is gebaseerd op een uitgebreid schema dat is gedefinieerd in de Adobe Campaign v8-console, zijn er enkele specifieke **Aangepaste opties** zijn beschikbaar."
 
 U kunt een zelfstandige e-maillevering maken of een e-mailbericht maken in de context van een campagneworkflow. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) e-maillevering. Als u in de context van een campagnewerkstroom werkt, zijn de aanmaakstappen details in [deze sectie](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
-Voer de volgende stappen uit om een nieuwe, zelfstandige e-maillevering te maken:
+Volg onderstaande stappen om een nieuwe, zelfstandige e-maillevering te maken.
 
 1. Bladeren naar de **[!UICONTROL Deliveries]** op de linkerspoorstaaf en klik op  **[!UICONTROL Create delivery]** knop.
+
+   ![](assets/delivery-list.png)
 
 1. Selecteren **[!UICONTROL Email]** als het kanaal en kies een sjabloon voor e-maillevering in de lijst.
 
@@ -54,10 +54,10 @@ Voer de volgende stappen uit om een nieuwe, zelfstandige e-maillevering te maken
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 1. Voer een label voor de levering in en configureer aanvullende opties op basis van uw behoeften:
 
-   * **[!UICONTROL Internal name]**: een unieke identificatiecode aan de levering toewijzen;
-   * **[!UICONTROL Folder]**: sla de levering op in een specifieke map,
-   * **[!UICONTROL Delivery code]**: gebruik dit veld om uw leveringen te ordenen op basis van uw eigen naamgevingsconventie,
-   * **[!UICONTROL Description]**: een omschrijving van de levering,
+   * **[!UICONTROL Internal name]**: wijs een unieke id toe aan de levering.
+   * **[!UICONTROL Folder]**: sla de levering op in een specifieke map.
+   * **[!UICONTROL Delivery code]**: gebruik dit veld om uw leveringen te ordenen op basis van uw eigen naamgevingsconventie.
+   * **[!UICONTROL Description]**: geef een beschrijving voor de levering.
    * **[!UICONTROL Nature]**: specificeer de aard van de e-mail voor classificatiedoeleinden.<!--The content of the list is defined in the delivery template selected when creating the email.-->
 
    >[!NOTE]
@@ -66,15 +66,42 @@ Voer de volgende stappen uit om een nieuwe, zelfstandige e-maillevering te maken
 
    ![](assets/email-properties.png)
 
-   Bovendien, kunnen de geavanceerde montages, zoals typologieregels en doelafbeeldingen, worden betreden door de knoop te klikken die naast de leveringsnaam wordt gevestigd. Deze instellingen zijn vooraf geconfigureerd in de geselecteerde sjabloon, maar kunnen zo nodig worden bewerkt voor deze specifieke e-mail.
+5. Bovendien zijn geavanceerde instellingen, zoals typologische regels en doeltoewijzingen, toegankelijk via de **[!UICONTROL Settings]** op de knop rechtsboven in het scherm. Deze instellingen zijn vooraf geconfigureerd in de geselecteerde sjabloon, maar kunnen zo nodig worden bewerkt voor deze specifieke e-mail.
+
+## De doelgroep definiëren {#define-audience}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_audience"
+>title="Selecteer een publiek voor uw levering"
+>abstract="Selecteer het beste publiek voor uw marketingbericht. U kunt een bestaand publiek kiezen (al gedefinieerd in een Campagne v8-instantie of in Adobe Experience Platform), een nieuw publiek maken met de functie voor het maken van regels of een bestand uploaden dat uw publiek bevat. Besturingsgroepen zijn niet ingeschakeld voor de **Selecteren uit bestand** en omgekeerd."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Doelpubliek"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Een controlegroep instellen"
+
+In dit geval stuurt u de e-mail naar een bestaand publiek.
+
+Aanvullende instructies over het werken met het publiek zijn beschikbaar in [deze sectie](../audience/about-audiences.md).
+
+1. Als u het publiek voor de e-mail wilt selecteren, klikt u op de knop **[!UICONTROL Select audience]** en kiest u een bestaand publiek in de lijst.
+
+   In dit voorbeeld willen we een bestaand publiek gebruiken dat zich richt op klanten die behoren tot het niveau van de zilveren- en goudloyaliteitspunten.
+
+   ![](assets/create-audience.png)
+
+   >[!NOTE]
+   >
+   >De soorten publiek die beschikbaar zijn in de lijst komen uit uw Campagne v8-instantie of uit Adobe Experience Platform als de integratie Doel/Bron op uw instantie is geconfigureerd. Dankzij deze integratie kunt u segmenten van het Experience Platform naar Adobe Campaign verzenden en de bezorging en het bijhouden van logbestanden van de campagne naar Adobe Experience Platform verzenden. Meer informatie over het werken met Campagne en Adobe Experience Platform in de [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+
+1. Als het publiek is geselecteerd, kunt u het doel verder verfijnen door aanvullende regels toe te passen.
+
+   ![](assets/audience-selected.png)
+
+1. U kunt ook een controlegroep instellen om het gedrag van de e-mailontvangers te analyseren in vergelijking met degenen die niet als doelgroep werden gebruikt. [Leer hoe u met besturingsgroepen werkt](../audience/control-group.md)
 
 ## De e-mailcontent opgeven {#create-content}
 
-Volg onderstaande stappen om uw e-mailinhoud te maken.
+Volg onderstaande stappen om uw e-mailinhoud te maken. In dit geval gebruikt u een vooraf gedefinieerde e-mail [leveringssjabloon](../msg/delivery-template.md) om uw e-mail te ontwerpen.<!--TBC delivery template or email content template?-->
 
 <!--Detailed instructions on how to configure the email content are available in [this section](../content/edit-content.md).-->
-
-In dit geval gebruikt u een vooraf gedefinieerde e-mail [leveringssjabloon](../msg/delivery-template.md) om uw e-mail te ontwerpen.
 
 1. Klik op het dashboard voor e-maillevering op de knop **[!UICONTROL Edit content]** knop.
 
@@ -104,40 +131,21 @@ In dit geval gebruikt u een vooraf gedefinieerde e-mail [leveringssjabloon](../m
 
    ![](assets/save-content.png)
 
-## De doelgroep definiëren {#define-audience}
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_email_audience"
->title="De doelgroep definiëren"
->abstract="Selecteer het beste publiek voor uw marketingbericht. U kunt een bestaand publiek kiezen dat al is gedefinieerd in een Campagne v8-instantie of in Adobe Experience Platform, of u kunt een nieuw publiek maken met de functie voor het maken van regels. Besturingsgroepen zijn niet ingeschakeld voor &#39;Selecteren uit bestand&#39; en andersom."
-
-In dit geval stuurt u de e-mail naar een bestaand publiek. Aanvullende instructies over het werken met het publiek zijn beschikbaar in [deze sectie](../audience/about-audiences.md).
-
-1. Als u het publiek voor de e-mail wilt selecteren, klikt u op de knop **[!UICONTROL Select audience]** en kiest u een bestaand publiek in de lijst.
-
-   In dit voorbeeld willen we een bestaand publiek gebruiken dat zich richt op klanten die behoren tot het niveau van de zilveren- en goudloyaliteitspunten.
-
-   ![](assets/create-audience.png)
-
-   >[!NOTE]
-   >
-   >Het publiek beschikbaar in de lijst komt van uw instantie van de Campagne v8 of van Adobe Experience Platform voort als de Bestemming/Bronintegratie op uw instantie is gevormd.
-   >
-   >Met de integratie Doel/Bronnen kunt u de segmenten Experience Platform naar Adobe Campaign verzenden en de bezorging en tracering van campagnes naar Adobe Experience Platform verzenden. Meer informatie over het werken met Campagne en Adobe Experience Platform in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep.html){target="_blank"}.
-
-1. Als het publiek is geselecteerd, kunt u het doel verder verfijnen door aanvullende regels toe te passen.
-
-   U kunt ook een controlegroep instellen om het gedrag van de e-mailontvangers te analyseren in vergelijking met degenen die niet als doelgroep werden gebruikt. [Leer hoe u met besturingsgroepen werkt](../audience/control-group.md)
-
-   ![](assets/audience-selected.png)
-
 ## Plan de verzending {#schedule}
 
-Als u de verzending van het e-mailbericht wilt plannen, opent u het bericht en bladert u naar de **Schema** sectie.
+Volg onderstaande stappen om het verzenden van de e-mail te plannen.
 
-![](assets/schedule.png)
+Aanvullende instructies voor het plannen van de verzending van de levering worden nader toegelicht in [deze sectie](../msg/gs-messages.md#gs-schedule).
 
-Leer hoe u de verzending van de levering kunt plannen [deze sectie](../msg/gs-messages.md#gs-schedule)
+1. Bladeren naar de **[!UICONTROL Schedule]** sectie.
+
+1. Gebruik de **[!UICONTROL Enable scheduling]** schakelen om het te activeren.
+
+1. Stel de gewenste datum en tijd in voor het verzenden.
+
+   ![](assets/schedule.png)
+
+Nadat u de levering hebt verzonden, begint de daadwerkelijke verzending op de door u gedefinieerde contactdatum.
 
 ## E-mail voorvertonen en testen {#preview-test}
 

@@ -4,10 +4,10 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe u met leveringen werkt en berichten verzendt met Campagne Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1263'
+ht-degree: 1%
 
 ---
 
@@ -113,7 +113,7 @@ Voor meer informatie over hoe te om een campagne te vormen en leveringen te behe
 >[!ENDTABS]
 
 
-## Aanpassing toevoegen{#personalization}
+## Aanpassing toevoegen {#personalization}
 
 Berichten van Adobe Campaign kunnen op verschillende manieren worden gepersonaliseerd. [Meer informatie over personalisatiemogelijkheden](../personalization/gs-personalization.md).
 
@@ -135,8 +135,7 @@ U kunt de inhoud van het bericht aanpassen door:
 
 * Toevoegen **persoonlijke aanbiedingen**
 
-  Voeg persoonlijke aanbiedingen in uw berichtinhoud in, afhankelijk van de locatie van de ontvanger, het huidige weer of de laatste kooporder.
-
+  Voeg persoonlijke aanbiedingen in uw berichtinhoud in, afhankelijk van de locatie van de ontvanger, het huidige weer of de laatste kooporder. [Meer informatie](../content/offers.md)
 
 ## Geef een voorvertoning van uw leveringen weer en test deze
 
@@ -146,12 +145,12 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u deze voorvertonen om de w
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_schedule"
->title="Plan de verzending"
->abstract="Bepaal de datum en de nauwkeurige tijd voor het verzenden van berichten. Door de meest geschikte tijd voor uw marketingbericht te kiezen, kunt u de open tarieven maximaliseren."
+>title="Een contactdatum en -tijd instellen"
+>abstract="Bepaal de datum en de exacte tijd voor het verzenden van de levering. Door de meest geschikte tijd voor uw marketingbericht te kiezen, kunt u de open tarieven maximaliseren."
 
 U kunt de datum en het exacte tijdstip voor het verzenden van uw berichten instellen. Door de meest geschikte tijd voor uw marketingbericht te kiezen, kunt u de open tarieven maximaliseren.
 
-Als u de verzending van de levering wilt plannen, opent u de levering en bladert u naar de **Schema** sectie. Gebruik de **[!UICONTROL Enable scheduling]** om het te activeren en de gewenste datum en tijd voor verzending in te stellen. Nadat u de levering hebt verzonden, begint de daadwerkelijke verzending op de door u gedefinieerde contactdatum.
+Als u de verzending van de levering wilt plannen, opent u de levering en bladert u naar de **[!UICONTROL Schedule]** sectie. Gebruik de **[!UICONTROL Enable scheduling]** om het te activeren en de gewenste datum en tijd voor verzending in te stellen. Nadat u de levering hebt verzonden, begint de daadwerkelijke verzending op de door u gedefinieerde contactdatum.
 
 ![](assets/schedule.png)
 

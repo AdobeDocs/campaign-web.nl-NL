@@ -6,16 +6,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 207328a32ba74159d555616f046240100787f20e
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '931'
 ht-degree: 3%
 
 ---
 
 # Werken met leveringssjablonen {#work-with-delivery-templates}
 
-Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om aangepaste inhoud in al uw campagnes eenvoudig te hergebruiken. Met deze functie kunt u de creatieve vormgeving standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren.
+Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om aangepaste inhoud en instellingen in al uw campagnes eenvoudig te hergebruiken. Met deze functie kunt u de creatieve vormgeving standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren.
 
 Een sjabloon kan het volgende bevatten:
 
@@ -26,6 +26,10 @@ Een sjabloon kan het volgende bevatten:
 * [Persoonlijke velden](../personalization/personalize.md) en [voorwaardelijke inhoud](../personalization/conditions.md)
 * Koppelingen naar [spiegelpagina](../content/mirror-page.md) en uit-abonnement [koppelingen](../content/message-tracking.md)
 * Andere leveringseigenschappen, zoals middelgeldigheid, retry parameters, of quarantaine montages.
+
+>[!NOTE]
+>
+>Afleveringssjablonen verschillen van [E-mailinhoudssjablonen](../content/email-templates.md), waarmee u alleen de inhoud van uw berichten kunt hergebruiken.
 
 ## Leveringssjablonen openen en beheren {#access-manage-templates}
 
@@ -162,7 +166,7 @@ U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul 
 
 1. Bladeren naar de **Sjablonen** door de **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** en selecteert u een sjabloon. [Meer informatie](#access-manage-templates)
 
-1. Klik op de knop **[!UICONTROL Simulate Content]** op de rechterbovenhoek van het scherm.
+1. Klik op de knop **[!UICONTROL Simulate content]** op de rechterbovenhoek van het scherm.
 
    ![](assets/templates-simulate-button.png)
 
@@ -170,7 +174,7 @@ U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul 
 
 1. Schakel tussen de verschillende profielen om een persoonlijke weergave van het bericht te krijgen op basis van het geselecteerde profiel.
 
-   <!--[Learn moreon test profiles](../preview-test/test-deliveries.md#recipients)-->
+   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
 
    U kunt ook het zoomniveau aanpassen en de weergave voor bureaublad of mobiel kiezen.
 

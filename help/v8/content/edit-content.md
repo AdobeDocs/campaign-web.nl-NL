@@ -4,10 +4,10 @@ title: De e-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 0%
+source-wordcount: '539'
+ht-degree: 1%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
->title="E-mailinhoud maken"
->abstract="In deze sectie kunt u de inhoud voor uw e-mail maken en de e-mailontwerper gebruiken om deze een gepolijst uiterlijk te geven."
+>title="De e-mailcontent opgeven"
+>abstract="De **Inhoud bewerken** in het scherm kunt u basiselementen van uw bericht definiëren, zoals het adres van de afzender en de onderwerpregel, aanvullende handelingen uitvoeren, zoals het toevoegen van bijlagen of aanbiedingen, en de e-mailontwerper openen om uw bericht een gepolijst uiterlijk te geven."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -64,7 +64,9 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
    >
    >U kunt het deel vóór &#39;@&#39; wijzigen, maar niet het domeinadres.
 
-   <!--In the Reply address text fields, the sender's address is used by default for replies. However, Adobe recommends using an existing real address such as your brand's customer care. In this case, if a recipient sends a reply, the customer care will be able to handle it.-->
+1. Vouw de sectie **[!UICONTROL Reply-to fields]** uit. Het adres van de afzender wordt standaard gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
+
+   ![](assets/email-edit-content-reply-to.png)
 
 1. De e-mail definiëren **[!UICONTROL Subject line]**. Typ het onderwerp rechtstreeks in het desbetreffende veld of open de Expressieeditor om personalisatie toe te voegen met behulp van verschillende kenmerken en inhoudsblokken of aanbiedingen. [Leer hoe u inhoud kunt aanpassen](../personalization/personalize.md)
 
