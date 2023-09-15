@@ -5,8 +5,8 @@ description: Leer hoe u een pushmelding maakt met Adobe Campaign Web
 badge: label="Beta"
 source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

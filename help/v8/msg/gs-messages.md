@@ -4,10 +4,10 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe u met leveringen werkt en berichten verzendt met Campagne Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 220eddacdc15266d12e511285ecb306cbd9aa42f
+source-git-commit: 2aa3413f0b20c50e328d54a66288b94e1476676f
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen: e-mail-, sms-
 
 ## Een levering maken {#create-delivery}
 
-U kunt zelfstandige leveringen maken via de **[!UICONTROL Deliveries]** van het linkermenu, of creeer leveringen in het kader van een marketing campagne, van **[!UICONTROL Campaigns]** links.
+U kunt zelfstandige leveringen maken via de **[!UICONTROL Deliveries]** links menu, of levering maken in de context van een werkstroom, inbegrepen of niet in een campagne.
 
 Blader op de onderstaande tabbladen voor meer informatie over het maken van een levering:
 
@@ -92,7 +92,7 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
 
 Ga als volgt te werk om een levering in een workflow te maken:
 
-1. Maak een workflow of open een bestaande workflow.
+1. Maak een workflow of open een bestaande workflow. Meer informatie over workflows in [deze pagina](../workflows/gs-workflow-creation.md#gs-workflow-steps)
 1. Een **[!UICONTROL Build audience]** en klik op de knop `+`knop.
 
    ![](assets/add-delivery-in-wf.png)
