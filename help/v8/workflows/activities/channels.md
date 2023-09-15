@@ -3,15 +3,38 @@ audience: end-user
 title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
 badge: label="Beta"
-source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '778'
 ht-degree: 1%
 
 ---
 
 
 # E-mail-, sms- en pushactiviteiten {#channel}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_email"
+>title="E-mailactiviteit"
+>abstract="Automatiseer en voer marketingcampagnes uit via e-mail-, SMS- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_sms"
+>title="E-mailactiviteit"
+>abstract="Automatiseer en voer marketingcampagnes uit via e-mail-, SMS- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_ios"
+>title="E-mailactiviteit"
+>abstract="Automatiseer en voer marketingcampagnes uit via e-mail-, SMS- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren. "
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_android"
+>title="E-mailactiviteit"
+>abstract="Automatiseer en voer marketingcampagnes uit via e-mail-, SMS- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren. "
 
 Met Adobe Campaign Web kunt u marketingcampagnes automatiseren en uitvoeren via e-mail-, sms- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Werkstroomactiviteit combineren gebruiken
 description: Leer hoe u de workflowactiviteit combineren gebruikt
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 11%
+source-wordcount: '891'
+ht-degree: 10%
 
 ---
 
@@ -89,6 +89,12 @@ In de **Combineren** activiteit, kunt u vormen **Intersectie**. Hiervoor moet u 
 >id="acw_orchestration_combine_sets"
 >title="Te combineren sets selecteren"
 >abstract="In de **Stelt in om te verbinden** selecteert u de **Primaire set** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_exclusion"
+>title="Uitsluitingsregels"
+>abstract="Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Om dit te doen, voegt de klik een regel in de sectie van de Regels van de Uitsluiting toe en specificeert de voorwaarden van de afmetingsverandering. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
+
 
 
 In de **Combineren** activiteit, kunt u vormen **Uitsluiting**. Hiervoor moet u de volgende extra stappen volgen:

@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a04fcf79f8c60afa9ffc7428526e36d930db34c4
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
@@ -88,11 +88,6 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 >id="acw_audiences_list"
 >title="Doelgroepen"
 >abstract="Dit is uw lijst van publiek. U kunt het type, de oorsprong, de datum en het label van de aanmaak/laatste wijziging bekijken. U kunt de lijst filteren op oorsprong. Deze lijst is alleen-lezen."
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_list"
->title="Abonnementenlijsten"
->abstract="Blader door uw abonnementenlijsten. U kunt het type, de modus en het label weergeven. Deze lijst is alleen-lezen."
 
 
 In de sectie KLANTBEHEER kunt u uw ontvangers, publiek en abonnementen bekijken. Deze lijsten zijn alleen-lezen.

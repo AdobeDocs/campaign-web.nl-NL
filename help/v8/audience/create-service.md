@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het maken van services op Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '304'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,11 @@ ht-degree: 1%
 >id="acw_subscription_services_read_only"
 >title="Deze service is alleen-lezen"
 >abstract="U hebt geen machtigingen om deze service te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list"
+>title="Abonnementen"
+>abstract="Gebruik Adobe Campaign om uw services, zoals nieuwsbrieven, te maken en te controleren en om de abonnementen of abonnementen op deze services te controleren. Abonnementen gelden alleen voor verzending via e-mail en SMS."
 
 Gebruik Adobe Campaign om uw services, zoals nieuwsbrieven, te maken en te controleren en om de abonnementen of abonnementen op deze services te controleren. Abonnementen gelden alleen voor verzending via e-mail en SMS.
 
@@ -36,22 +41,33 @@ De lijst met alle bestaande abonnementsservices wordt weergegeven. U kunt de ser
 
 ## Uw eerste abonnementenservice maken {#create-service}
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list_properties"
+>title="Abonnementsserviceeigenschappen"
+>abstract="Voer het label van de abonnementenservice in en definieer aanvullende opties."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_list_confirm"
+>title="Abonnementenservice bevestigingsberichten"
+>abstract="Wanneer een gebruiker zich op de dienst abonneert of van de dienst afmeldt, kunt u een bevestigingsbericht verzenden. Selecteer de sjablonen die u voor deze berichten wilt gebruiken."
+
+
 Voer de volgende stappen uit om een abonnementenservice te maken:
 
 1. Selecteer de knop **[!UICONTROL Create subscription service]**.
 
    ![](assets/service-create-button.png)
 
-1. Selecteer een kanaal. **[!UICONTROL Email]** en **[!UICONTROL SMS]** zijn beschikbaar.
+1. Selecteer een kanaal: **[!UICONTROL Email]** of **[!UICONTROL SMS]**.
 
 1. Voer in de service-eigenschappen een label in en definieer zo nodig aanvullende opties.
 
    ![](assets/service-create-properties.png)
 
-1. Selecteer de bevestigingsberichten.
+1. Wanneer een gebruiker zich op de dienst abonneert of van de dienst afmeldt, kunt u een bevestigingsbericht verzenden. Selecteer de sjablonen die u voor deze berichten wilt gebruiken.
 
    ![](assets/service-create-confirmation-msg.png)
 
-1. Klik op **[!UICONTROL Save and review]**.
+1. Klik op **[!UICONTROL Save]**.
 
 
