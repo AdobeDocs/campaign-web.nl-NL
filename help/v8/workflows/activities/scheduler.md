@@ -3,10 +3,10 @@ audience: end-user
 title: De workflowactiviteit van de planner gebruiken
 description: Leer hoe u de workflowactiviteit van de planner gebruikt
 badge: label="Beta"
-source-git-commit: 0d3a20aa02a48af5ffd34843295ed53afd61acde
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 14%
+source-wordcount: '435'
+ht-degree: 11%
 
 ---
 
@@ -24,7 +24,9 @@ De **Planner** activiteit is **Stroomregeling** activiteit. Hiermee kunt u plann
 
 ## Best practices
 
-Plan geen workflow die meer dan om de 15 minuten wordt uitgevoerd, aangezien dit de algehele systeemprestaties kan belemmeren en blokken in de database kan maken.
+* Plan geen workflow die meer dan om de 15 minuten wordt uitgevoerd, aangezien dit de algehele systeemprestaties kan belemmeren en blokken in de database kan maken.
+* Als u één-schot levering in uw werkschema wilt verzenden, kunt u een planneractiviteit toevoegen en het plaatsen om in werking te stellen **Eenmaal**. U kunt ook de **Schema** in de leveringsinstellingen.
+* Als u een terugkerende levering in uw werkstroom wilt verzenden, moet u een **Planner** en stelt de uitvoeringsfrequentie in. Met de terugkerende leveringsactiviteit kunt u geen schema definiëren.
 
 ## Configuratie
 
@@ -65,7 +67,7 @@ Opmerkingen:
 
 ## Voorbeeld
 
-In het volgende voorbeeld, wordt de activiteit gevormd zodat het werkschema verscheidene keren per dag om 9 en 12 AM, elke dag van de week van 1 Oktober, 2023 tot 1 Januari, 2024 begint.
+In het volgende voorbeeld, wordt de activiteit gevormd zodat het werkschema verscheidene keren per dag om 9 en 12 AM, elke dag van de week van 1 Oktober, 2023 tot 1 Januari, 2024 loopt.
 
 ![](../assets/workflow-scheduler2.png)
 

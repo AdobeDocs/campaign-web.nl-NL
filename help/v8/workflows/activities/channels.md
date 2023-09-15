@@ -3,9 +3,9 @@ audience: end-user
 title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 2bb086fdf8ad3f6df767343c2a4c66b5af325c10
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '634'
 ht-degree: 1%
 
 ---
@@ -25,17 +25,27 @@ Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde cam
 >* [Zelfstandige e-maillevering maken](../../email/create-email.md)
 >* [Zelfstandige SMS-levering maken](../../sms/create-sms.md)
 >* [Zelfstandige pushlevering maken](../../push/create-push.md)
->
 
-## Levering maken in een workflow{#create-a-delivery-in-a-workflow}
+## Uw workflow samenstellen{#build-your-workflow}
 
-Voer de volgende stappen uit om een e-mail, een SMS-bericht of een pushbericht te maken in de context van een workflow:
+Begin uw werkschema met de relevante activiteiten te bouwen alvorens de levering te plaatsen:
 
-1. Controleer of u een **publiek opbouwen** activiteit. Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit. Zie [deze sectie](build-audience.md).
+* Als u een bevestiging wilt verzenden, start u de workflow met een **Planner** activiteit. Als u één-schot levering wilt verzenden, kunt u de contactdatum bepalen gebruikend **Planner** activiteit of bepaal het programma in de montages van de levering. Zie [deze sectie](scheduler.md).
 
-   ![](../../msg/assets/add-delivery-in-wf.png)
+* Voeg een **publiek opbouwen** activiteit. Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit. Zie [deze sectie](build-audience.md).
 
-1. Selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**.
+  ![](../../msg/assets/add-delivery-in-wf.png)
+
+## De levering instellen {#create-a-delivery-in-a-workflow}
+
+Volg onderstaande stappen om een levering in te stellen in de context van een workflow:
+
+1. Kanaalactiviteit toevoegen: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**.
+
+1. Selecteer de **Soort levering**: enkelvoudig of herhaald.
+
+   * **Eén levering**: dit is een eenmalige levering, die slechts eenmaal is verzonden, bijvoorbeeld een e-mail op de zwarte vrijdag.
+   * **Terugkerende levering**: voor dit type levering stelt u de uitvoeringsfrequentie in met behulp van een [planningsactiviteit](scheduler.md). Elke keer dat de workflow wordt uitgevoerd, wordt het publiek opnieuw berekend en wordt de levering verzonden met de bijgewerkte inhoud. Dit kan een wekelijkse nieuwsbrief of een terugkerende verjaardagsmail zijn.
 
 1. Selecteer een levering **Sjabloon**. Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die specifiek zijn voor een kanaal. Een ingebouwde sjabloon is beschikbaar voor elk kanaal en wordt standaard vooraf ingevuld. [Meer informatie](../../msg/delivery-template.md)
 
@@ -56,7 +66,7 @@ Voer de volgende stappen uit om een e-mail, een SMS-bericht of een pushbericht t
 
 1. Van uw leveringsdashboard, klik **Verzenden**.
 
-## Voorbeeld {#cross-channel-workflow-sample}
+## Voorbeelden {#cross-channel-workflow-sample}
 
 Hier volgt een voorbeeld van een workflow tussen kanalen met een segmentatie en twee leveringen. De workflow is gericht op alle klanten die in Parijs wonen en die geïnteresseerd zijn in koffiezetapparaten. Onder deze populatie wordt een e-mail verzonden naar de gewone klanten en een SMS-bericht verzonden naar de VIP.
 
@@ -71,7 +81,7 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-
+U kunt ook een terugkerende workflow maken om elke eerste dag van de maand om 21.00 uur een persoonlijke pushmelding te sturen naar de abonnees van uw mobiele toepassing, afhankelijk van hun tijdzone.
 
 <!-- Scheduled emails available?
 
