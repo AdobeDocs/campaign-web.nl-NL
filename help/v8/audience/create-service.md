@@ -1,40 +1,42 @@
 ---
 audience: end-user
-title: Services maken
+title: Werken met abonnementsservices
 description: Meer informatie over het maken van services op Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 38eda4025c95998108739b021e5b47b20df86d07
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '209'
+ht-degree: 1%
 
 ---
 
 
-# Services maken {#create-services}
+# Werken met abonnementsservices {#create-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Deze service is alleen-lezen"
 >abstract="U hebt geen machtigingen om deze service te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
 
-Met Adobe Campaign kunt u informatieservices zoals nieuwsbrieven maken en controleren en kunt u de abonnementen of abonnementen op deze services controleren.
+Gebruik Adobe Campaign om uw services, zoals nieuwsbrieven, te maken en te controleren en om de abonnementen of abonnementen op deze services te controleren. Abonnementen gelden alleen voor verzending via e-mail en SMS.
 
-Verschillende diensten kunnen parallel worden gedefinieerd, bijvoorbeeld: gespecialiseerde nieuwsbrieven voor bepaalde productcategorieën, thema&#39;s of gebieden van een website, abonnementen op verschillende typen waarschuwingsberichten en realtime meldingen.
+Verschillende services kunnen parallel worden gedefinieerd, bijvoorbeeld: nieuwsbrieven voor specifieke productcategorieën, thema&#39;s of gebieden van een website, abonnementen op verschillende typen waarschuwingsberichten en realtime meldingen.
 
 Raadpleeg voor meer informatie over het beheren van abonnementen en abonnementen de [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## Toegang tot abonnementsservices {#access-services}
 
-1. Ga naar **[!UICONTROL Access management]** > **[!UICONTROL Subscription services]** -menu.
+Blader naar de **[!UICONTROL Subscription services]** op de linkernavigatieregel.
 
-   ![](assets/service-list.png)
+![](assets/service-list.png)
 
-1. De lijst van alle tot nu toe gecreëerde diensten wordt getoond. U kunt de services doorzoeken en filteren op het kanaal, de map of geavanceerde filters gebruiken.
+De lijst met alle bestaande abonnementsservices wordt weergegeven. U kunt de services doorzoeken en filteren op het kanaal, de map of geavanceerde filters gebruiken.
 
-   ![](assets/service-filters.png)
+![](assets/service-filters.png)
 
-## Uw eerste service maken {#create-service}
+## Uw eerste abonnementenservice maken {#create-service}
+
+Voer de volgende stappen uit om een abonnementenservice te maken:
 
 1. Selecteer de knop **[!UICONTROL Create subscription service]**.
 

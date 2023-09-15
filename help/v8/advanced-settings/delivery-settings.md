@@ -1,26 +1,29 @@
 ---
 audience: end-user
-title: E-mailleveringsinstellingen
-description: Meer informatie over instellingen voor e-maillevering in de gebruikersinterface van het campagneweb
+title: Afleveringsinstellingen
+description: Meer informatie over de leveringsinstellingen in Campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 7%
+source-wordcount: '2071'
+ht-degree: 6%
 
 ---
 
 
-# E-mailleveringsinstellingen {#email-del-settings}
+# Afleveringsinstellingen {#email-del-settings}
 
-Deze instellingen zijn **technische leveringsparameters** die zijn gedefinieerd in de e-mailsjabloon. Deze zijn beschikbaar via de **Leveringsinstellingen configureren** pictogram beschikbaar bij het bewerken van een e-maillevering.
+E-mailleveringsinstellingen zijn **technische leveringsparameters** die zijn gedefinieerd in de e-mailsjabloon. Deze kunnen voor elke levering worden overbelast.
+
+Deze instellingen zijn beschikbaar via de **Leveringsinstellingen configureren** pictogram beschikbaar bij het bewerken van een leveringssjabloon voor e-mail of een leveringssjabloon voor e-mail.
+
 
 ## E-mailleveringsinstellingen {#email-delivery-settings}
 
 >[!CAUTION]
 >
-> Deze instellingen worden alleen ter informatie beschreven. Sommige van hen hangen van uw configuratie en toestemmingen af. Deze mogen niet in deze versie van het product worden gewijzigd.
+>Deze instellingen worden alleen ter informatie beschreven. Sommige van hen hangen van uw configuratie en toestemmingen af. Deze mogen niet in deze versie van het product worden gewijzigd.
 
 ## Typologische instellingen {#typology}
 
@@ -56,6 +59,11 @@ Wanneer het associëren van een typologie met een bericht of berichtmalplaatje, 
 >abstract="Met leveringsgewichten kunt u topprioriteit-leveringen identificeren in het kader van vermoeidheidsbeheer. Berichten met het hoogste gewicht hebben prioriteit."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_weight"
+>title="Afleveringsgewicht"
+>abstract="Met leveringsgewichten kunt u topprioriteit-leveringen identificeren in het kader van drukbeheer. Berichten met het hoogste gewicht hebben prioriteit."
+
 In deze sectie kunt u met drukparameters een **drempel** het opstellen van regels voor vermoeidheidsbeheer. Dit is het maximumaantal berichten dat over een bepaalde periode naar één profiel kan worden verzonden. Zodra deze drempelwaarde is bereikt, kunnen tot het einde van de in aanmerking genomen periode geen leveringen meer plaatsvinden. Met dit proces kunt u automatisch een profiel uitsluiten van een levering als een bericht de ingestelde drempelwaarde overschrijdt. Op deze manier voorkomt u dat een profiel te vaak wordt benaderd.
 
 Drempelwaarden kunnen constant of variabel zijn. Dit betekent dat drempelwaarden voor een bepaalde periode kunnen variëren van het ene profiel tot het andere, of zelfs voor hetzelfde profiel.
@@ -83,6 +91,13 @@ Moeilijkheidsbeheer wordt geleverd met **Campagne optimaliseren** invoegtoepassi
 >id="acw_email_settings_capacity_settings"
 >title="Capaciteitsinstellingen voor de levering"
 >abstract="Alvorens berichten te leveren, gebruik capaciteitsregels om ervoor te zorgen uw organisatie de levering, de binnenkomende berichten kan verwerken die de levering, en het aantal vraag kan produceren om abonnees bijvoorbeeld te contacteren. De capaciteitsregels worden gedefinieerd in de Adobe Campaign v8-console. Selecteer in dit scherm een regel die aan het e-mailkanaal is gekoppeld."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_recipient_importance"
+>title="Belang van de begunstigde"
+>abstract="Het belang van de ontvanger is een formule die wordt gebruikt om te bepalen welke ontvangers worden gehouden wanneer de regels inzake capaciteitstypologie worden overschreden."
+
 
 In deze sectie kunt u een capaciteitsregel selecteren die is gedefinieerd in de Adobe Campaign v8-console. Deze regel is gekoppeld aan het e-mailkanaal.
 
@@ -136,7 +151,12 @@ Meer informatie over webanalyse en campagne in [Campagne v8-documentatie (client
 
 ### Hernieuwde pogingen {#retries}
 
-<!--Temporarily undelivered messages due to a Soft or Ignored error are subject to an automatic retry. By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. -->
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_retries"
+>title="Maximum aantal pogingen"
+>abstract="Als een bericht mislukt als gevolg van een tijdelijke fout, worden opnieuw pogingen uitgevoerd tot het einde van de leveringsduur."
+
+Voor tijdelijk niet-geleverde berichten vanwege een fout Zacht of Genegeerd wordt het automatisch opnieuw geprobeerd. Door gebrek, zijn vijf herpogingen gepland voor de eerste dag van de levering met een minimuminterval van één uur uitgespreid over de 24 uren van de dag.
 
 Meer informatie over het beheer van nieuwe pogingen vindt u in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
@@ -145,7 +165,13 @@ Meer informatie over het beheer van nieuwe pogingen vindt u in [Campagne v8-docu
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_approval"
 >title="Goedkeuringsmodus voor levering"
->abstract="Selecteer de goedkeuringsmodus. Als de waarschuwingen tijdens de leveringsvoorbereiding worden geproduceerd, kunt u de levering vormen om te bepalen al dan niet het nog zou moeten worden uitgevoerd. "
+>abstract="Selecteer de goedkeuringsmodus. Als de waarschuwingen tijdens de leveringsvoorbereiding worden geproduceerd, kunt u de levering vormen om te bepalen al dan niet het nog zou moeten worden uitgevoerd."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_approval"
+>title="Goedkeuringsmodus voor de leveringen"
+>abstract="Selecteer de goedkeuringsmodus voor leveringen op basis van deze sjabloon. Als de waarschuwingen tijdens de leveringsvoorbereiding worden geproduceerd, kunt u de levering vormen om te bepalen al dan niet het nog zou moeten worden uitgevoerd."
 
 Als de waarschuwingen tijdens de leveringsvoorbereiding worden geproduceerd, kunt u de levering vormen om te bepalen al dan niet het nog zou moeten worden uitgevoerd. Door gebrek, moet de gebruiker het verzenden van berichten aan het eind van de analysefase bevestigen: dit is **handmatig** validatie.
 
@@ -165,6 +191,18 @@ U kunt een andere goedkeuringsmodus in het desbetreffende veld selecteren. Besch
 >title="Geldigheid van instellingen"
 >abstract="In het veld Leveringsduur kunt u de limiet voor algemene leveringpogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, worden de regelmatige, configureerbare pogingen uitgevoerd tot de geldigheidsgrens wordt bereikt.Het gebied van de Geldigheidsgrens wordt gebruikt voor geüploade middelen, zoals de spiegelpagina of beelden. Deze bronnen gelden voor een beperkte periode: wanneer de limiet is bereikt, zijn er geen bronnen meer beschikbaar."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_resources_validity"
+>title="Geldigheidslimiet voor bronnen"
+>abstract="Het veld Geldigheidslimiet wordt gebruikt voor geüploade bronnen, zoals de spiegelpagina of afbeeldingen. Deze bronnen gelden voor een beperkte periode: wanneer de limiet is bereikt, zijn er geen bronnen meer beschikbaar."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_delivery_duration"
+>title="Leveringsduur"
+>abstract="In het veld Leveringsduur kunt u de limiet voor algemene leveringpogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, regelmatig, configureerbare herpogingen worden uitgevoerd tot de geldigheidsgrens wordt bereikt."
 <!--
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_resources_validity"
@@ -203,6 +241,15 @@ Naast de standaardmodus zijn ook de volgende opties beschikbaar:
 >title="Validity period"
 >abstract="This option defines the duration for which the tracking is activated on the URLs."
 -->
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_settings_tracking_validity"
+>title="Geldigheidsperiode"
+>abstract="De geldigheidsperiode bepaalt de duur waarvoor het volgen op bericht URLs wordt geactiveerd."
+
 
 De volgende parameters worden bepaald in de verwante sectie. Mogelijke opties zijn:
 

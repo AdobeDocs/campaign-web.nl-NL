@@ -4,7 +4,7 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -64,9 +64,9 @@ Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoe
 * E-mailvoorvertoning is nu beschikbaar via **Inhoud simuleren** knop
 * Lijsten zijn nu **Soorten publiek**
 
-## Beperkingen{#limitations-alpha}
+## Beperkingen{#limitations-beta}
 
-De onderstaande beperkingen gelden voor deze Alfa-versie:
+De onderstaande beperkingen gelden voor deze bètaversie:
 
 * De enige bewerkbare objecten zijn Afleveringen, Campagnes, Workflows, Soorten publiek en Sjablonen. De andere zijn alleen-lezen. Gebruik filters om door alle filters te bladeren.
 * Soorten publiek kan niet worden opgeslagen voor toekomstig gebruik.

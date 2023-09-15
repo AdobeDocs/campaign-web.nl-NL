@@ -6,14 +6,20 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '953'
 ht-degree: 3%
 
 ---
 
 # Werken met leveringssjablonen {#work-with-delivery-templates}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_template_for_campaign"
+>title="Afleveringssjablonen"
+>abstract="Gebruik leveringssjablonen om de creatieve vormgeving te standaardiseren, zodat campagnes sneller kunnen worden uitgevoerd en gestart"
+
 
 Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om aangepaste inhoud en instellingen in al uw campagnes eenvoudig te hergebruiken. Met deze functie kunt u de creatieve vormgeving standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren.
 

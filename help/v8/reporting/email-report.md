@@ -3,7 +3,7 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 1%
@@ -55,7 +55,7 @@ De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specif
 
    * **[!UICONTROL Invalid domain]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het domein van het e-mailadres onjuist is of niet bestaat.
 
-   * **[!UICONTROL Mailbox full]**: Het type van fout na vijf leveringspogingen wordt geproduceerd om erop te wijzen dat de ontvangers&#39; inbox teveel berichten bevat.
+   * **[!UICONTROL Mailbox full]**: Fouttype dat wordt gegenereerd na vijf leveringspogingen om aan te geven dat het postvak van de ontvanger te veel berichten bevat.
 
    * **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
 
@@ -108,7 +108,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
    * **[!UICONTROL Invalid domain]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het domein van het e-mailadres onjuist is of niet bestaat.
 
-   * **[!UICONTROL Mailbox full]**: Het type van fout na vijf leveringspogingen wordt geproduceerd om erop te wijzen dat de ontvangers&#39; inbox teveel berichten bevat.
+   * **[!UICONTROL Mailbox full]**: Fouttype dat wordt gegenereerd na vijf leveringspogingen om aan te geven dat het postvak van de ontvanger te veel berichten bevat.
 
    * **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
 
@@ -121,6 +121,8 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 +++
 
 ## Trackingsindicatoren {#tracking-indicators-email}
+
+
 
 * **[!UICONTROL Delivery statistics]** biedt prestatiekernindicatoren (KPI&#39;s) die gedetailleerde informatie geven over gegevens die beschikbaar zijn voor verzonden e-mails.
 
@@ -207,6 +209,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 +++
 
 ## Statistieken bijhouden {#tracking-statistics}
+
 
 * **[!UICONTROL Tracking Statistics]** de grafiek verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens.
 

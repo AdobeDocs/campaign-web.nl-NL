@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -261,40 +261,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery template settings-->
 
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_tracking_validity"
->title="Geldigheidsperiode"
->abstract="De geldigheidsperiode bepaalt de duur waarvoor het volgen op bericht URLs wordt geactiveerd."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_delivery_duration"
->title="Leveringsduur"
->abstract="In het veld Leveringsduur kunt u de limiet voor algemene leveringpogingen invoeren. Dit betekent dat Adobe Campaign de berichten verzendt die op de begindatum beginnen, en dan, voor berichten die een fout slechts terugkeren, regelmatig, configureerbare herpogingen worden uitgevoerd tot de geldigheidsgrens wordt bereikt."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_resources_validity"
->title="Geldigheidslimiet voor bronnen"
->abstract="Het veld Geldigheidslimiet wordt gebruikt voor geüploade bronnen, zoals de spiegelpagina of afbeeldingen. Deze bronnen gelden voor een beperkte periode: wanneer de limiet is bereikt, zijn er geen bronnen meer beschikbaar."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_approval"
->title="Goedkeuringsmodus"
->abstract="Elke leveringsstap kan worden goedgekeurd om volledige controle en controle van de verschillende processen te waarborgen."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_retries"
->title="Maximum aantal pogingen"
->abstract="Als een bericht mislukt als gevolg van een tijdelijke fout, worden opnieuw pogingen uitgevoerd tot het einde van de leveringsduur."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_recipient_importance"
->title="Belang van de begunstigde"
->abstract="Het belang van de ontvanger is een formule die wordt gebruikt om te bepalen welke ontvangers worden gehouden wanneer de regels inzake capaciteitstypologie worden overschreden."
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_settings_delivery_weight"
->title="Afleveringsgewicht"
->abstract="Met leveringsgewichten kunt u topprioriteit-leveringen identificeren in het kader van drukbeheer. Berichten met het hoogste gewicht hebben prioriteit."
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
@@ -304,12 +270,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
 >title="Globale rapporten verzenden"
->abstract="TBC"
+>abstract="Metrische gegevens voor het bijhouden van rapporten zijn zichtbaar in dit scherm"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
 >title="Globale rapporten bijhouden"
->abstract="TBC"
+>abstract="Metrische gegevens voor het bijhouden van rapporten zijn zichtbaar in dit scherm"
+
 
 
 >[!CONTEXTUALHELP]
@@ -320,13 +287,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
-
->[!CONTEXTUALHELP]
->id="acw_delivery_template_for_campaign"
->title="Afleveringssjabloon in campagne"
->abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_workflow_template_for_campaign"
->title="Workflowsjabloon in campagne"
->abstract="TBC"

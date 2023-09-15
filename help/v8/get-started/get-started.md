@@ -4,7 +4,7 @@ title: Aan de slag met Campagne v8 Web
 description: Aan de slag met Campagne v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 2%
@@ -32,7 +32,7 @@ Als u toegang moet krijgen tot de mogelijkheden van Campagne v8 die niet beschik
 
 >[!NOTE]
 >
->Campagne v8 Web is momenteel in Alpha- versie. De toegang wordt beperkt tot een kleine reeks Alpha- klanten. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
+>Campagne v8 Web bevindt zich momenteel in bètaversie. De toegang wordt beperkt tot een kleine reeks klanten van Beta. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
 
 ## Verbinding maken met Campaign
 
