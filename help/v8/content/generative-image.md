@@ -3,9 +3,9 @@ audience: end-user
 title: Afbeelding genereren met de inhoudsassistent
 description: Aan de slag met de inhoudsassistent
 badge: label="Beta"
-source-git-commit: 900d2e2870d176726ba26e98e2a1231a499c9641
+source-git-commit: d917c5bdf2da6f94f301273970945b4e961d8835
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '266'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Nadat u uw e-mails hebt gemaakt en gepersonaliseerd, kunt u uw inhoud verbeteren met de Inhoudsassistent. Deze functie vereenvoudigt het proces van personalisatie en contentverbetering.
 
-In het onderstaande voorbeeld ziet u hoe u de Inhoudsassistent kunt gebruiken om uw inhoud te optimaliseren en te verbeteren en zo een gebruiksvriendelijker ervaring te garanderen. Voer de volgende stappen uit:
+In het onderstaande voorbeeld leert u hoe u de Inhoudsassistent kunt gebruiken om uw inhoud te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt. Voer de volgende stappen uit:
 
 1. Nadat u de e-maillevering hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Edit content]**.
 
