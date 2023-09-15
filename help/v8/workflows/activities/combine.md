@@ -3,17 +3,17 @@ audience: end-user
 title: Werkstroomactiviteit combineren gebruiken
 description: Leer hoe u de workflowactiviteit combineren gebruikt
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d5b0777ba51f595733c6b7e366d0a9a21a13d84a
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 11%
+source-wordcount: '727'
+ht-degree: 10%
 
 ---
 
 
 # Combineren {#combine}
 
-Deze activiteit staat u toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor verschillende doelen. Hier volgen de beschikbare segmentatietypen:
+De **Combineren** activiteit is **Targeting** activiteit. Deze activiteit staat u toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor verschillende doelen. Hier volgen de beschikbare segmentatietypen:
 
 <!--
 The **Combine** activity can be placed after any other activity, but not at the beginning of the workflow. Any activity can be placed after the **Combine**.
@@ -50,14 +50,14 @@ Voer de volgende algemene stappen uit om de configuratie van de **Combineren** a
 >title="Doorsnede afstemmingsopties"
 >abstract="Selecteer het afstemmingstype om te bepalen hoe duplicaten worden verwerkt."
 
-Voor de **Unie**, moet u de **Type afstemming** om te bepalen hoe duplicaten worden verwerkt:
+In de **Combineren** activiteit, kunt u vormen **Unie**. Hiervoor moet u de optie **Type afstemming** om te bepalen hoe duplicaten worden verwerkt:
 
 * **Alleen toetsen**: dit is de standaardmodus. De activiteit behoudt slechts één element wanneer elementen van de verschillende binnenkomende overgangen dezelfde sleutel hebben. Deze optie kan alleen worden gebruikt als de binnenkomende populaties homogeen zijn.
 * **Een selectie van kolommen**: selecteer deze optie om de lijst met kolommen te definiëren waarop de afstemming van gegevens wordt toegepast. U moet eerst de primaire set (de set met de brondata) selecteren en vervolgens de kolommen die u voor de samenvoeging wilt gebruiken.
 
 ## Doorsnede {#intersection}
 
-Voor de **Intersectie**, moet u deze extra stappen volgen:
+In de **Combineren** activiteit, kunt u vormen **Intersectie**. Hiervoor moet u de volgende extra stappen volgen:
 
 1. Selecteer de **Type afstemming** om te bepalen hoe duplicaten worden verwerkt. Zie de [Unie](#union) sectie.
 1. U kunt de **Voltooiing genereren** als u de resterende populatie wilt verwerken. Het complement zal de samenvoeging bevatten van de resultaten van alle binnenkomende activiteiten min de doorsnede. Een extra uitgaande overgang zal dan aan de activiteit worden toegevoegd.
@@ -69,7 +69,7 @@ Voor de **Intersectie**, moet u deze extra stappen volgen:
 >title="Uitsluitingsregels"
 >abstract="Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Om dit te doen, voegt de klik een regel in de sectie van de Regels van de Uitsluiting toe en specificeert de voorwaarden van de afmetingsverandering. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
 
-Voor de **Uitsluiting**, moet u deze extra stappen volgen:
+In de **Combineren** activiteit, kunt u vormen **Uitsluiting**. Hiervoor moet u de volgende extra stappen volgen:
 
 1. In de **Stelt in om te verbinden** selecteert u de **Primaire set** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set.
 1. Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Om dit te doen, klik **Een regel toevoegen** in de **Uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van de dimensie op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie.
@@ -77,7 +77,7 @@ Voor de **Uitsluiting**, moet u deze extra stappen volgen:
 
 ## Voorbeelden
 
-In het volgende voorbeeld hebben we een **union** dat geeft alle profielen van de twee zoekopdrachten weer : personen tussen 18 en 27 jaar en personen tussen 34 en 40 jaar oud .
+In het volgende voorbeeld gebruiken we een **Combineren** en wij voegen een **union** om alle profielen van de twee vragen op te halen : personen tussen 18 en 27 jaar en personen tussen 34 en 40 jaar oud .
 
 ![](../assets/workflow-union-example.png)
 
