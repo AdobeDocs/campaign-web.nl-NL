@@ -2,9 +2,9 @@
 title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 badge: label="Beta"
-source-git-commit: 2ce9dc99fd88f4731ed0d5ac934e66d4934a2c02
+source-git-commit: 4b01e31edeadfa76546da1f906f5e3d2eb74ec13
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -47,10 +47,16 @@ In de Campagne cliëntconsole, **Verrijking** deze activiteit kan zowel verzoeni
 
 ## Vooraf gedefinieerde filters {#filters-guardrails-limitations}
 
-Bepaalde vooraf gedefinieerde filters zijn niet beschikbaar wanneer u het publiek van een levering selecteert of wanneer u een publiek maakt in een workflow. Er wordt een specifiek foutbericht weergegeven. U kunt de vraag nog gebruiken, en zien: de het filtreren voorwaarde en de resultaten, maar u kunt niet de nauwkeurige vraag in de regelbouwer bekijken, en kunt niet de filter uitgeven.
+Wanneer het selecteren van het publiek van een levering, of wanneer het bouwen van een publiek in een werkschema, zijn sommige vooraf bepaalde filters niet beschikbaar in het gebruikersinterface, in die versie van het product.
+
+Er wordt een specifiek foutbericht weergegeven. Zelfs als u niet de grafische vertegenwoordiging van de vraag in de regelbouwer kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden, en de resultaten zien. U kunt de SQL-query ook openen om de exacte instellingen te controleren.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
+
+Merk op dat als u een filter in de interface van het Web bouwt en het in de console met niet gestaafde attributen wijzigt, de grafische vertegenwoordiging niet meer in de interface van het Web beschikbaar kan zijn. In elk geval kunt u het filter nog steeds gebruiken.
+
+Niet-ondersteunde kenmerken worden hieronder weergegeven.
 
 ### Niet-ondersteunde gegevenstypen {#unsupported-data-type}
 
