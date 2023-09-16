@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Meer informatie over het verzenden van uw eerste e-mail via de webinterface voor campagnes
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 883463ef70bfd908ae0ec66863fa61ec2334442b
+source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1297'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Volg onderstaande stappen om een nieuwe, zelfstandige e-maillevering te maken.
 >id="acw_deliveries_email_audience"
 >title="Selecteer een publiek voor uw levering"
 >abstract="Selecteer het beste publiek voor uw marketingbericht. U kunt een bestaand publiek kiezen (al gedefinieerd in een Campagne v8-instantie of in Adobe Experience Platform), een nieuw publiek maken met de functie voor het maken van regels of een bestand uploaden dat uw publiek bevat. Besturingsgroepen zijn niet ingeschakeld voor de **Selecteren uit bestand** en omgekeerd."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Doelpubliek"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Het grote publiek selecteren"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/control-group.html" text="Een controlegroep instellen"
 
 In dit geval stuurt u de e-mail naar een bestaand publiek.
