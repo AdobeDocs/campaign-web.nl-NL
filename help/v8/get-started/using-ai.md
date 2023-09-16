@@ -2,7 +2,7 @@
 title: Het gebruiken van AI aangedreven knowlegde assistent in het Web van de Campagne
 description: Het gebruiken van AI aangedreven knowlegde assistent in het Web van de Campagne
 badge: label="Beta"
-source-git-commit: 18fc6233582fc0bfe0aeb682dfa90ba4f7ce85ce
+source-git-commit: 4062288a3e215a9d178cdc20099180ad77374d4f
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 1%
@@ -16,6 +16,9 @@ U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocument
 De **Medewerker kennis met Gen AI** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
 
 Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze Knowledge Assistant met Gen AI is uw ultieme partner, die bij elke interactie een ongekende efficiëntie en nauwkeurigheid biedt.
+
+![](assets/ask-a-question.png)
+
 
 ## Toestemming {#consent-ai}
 
