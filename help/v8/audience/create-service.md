@@ -3,20 +3,15 @@ audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het maken van services op Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
 
 
 # Werken met abonnementsservices {#create-services}
-
->[!CONTEXTUALHELP]
->id="acw_subscription_services_read_only"
->title="Deze service is alleen-lezen"
->abstract="U hebt geen machtigingen om deze service te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"

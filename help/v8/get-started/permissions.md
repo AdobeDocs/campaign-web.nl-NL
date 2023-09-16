@@ -3,9 +3,9 @@ audience: end-user
 title: Machtigingsbeheer in het campagneweb
 description: Meer informatie over machtigingen in Campagne web v8
 badge: label="Beta"
-source-git-commit: 3cd540af6ccccdecc4d41983d4d11ffb1ea72c43
+source-git-commit: dce8351463f898ccf02816a521d9db3f80ce3dbc
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,44 @@ ht-degree: 0%
 
 # Toegang en machtigingen {#access-and-permissions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_explorer_permissions_create"
 >title="Machtiging vereist"
 >abstract="Uw beheerder moet u toestemming verlenen alvorens u dit voorwerp kunt tot stand brengen."
 
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_read_only"
+>title="Dit publiek is alleen-lezen"
+>abstract="U hebt geen machtigingen om dit publiek te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscription_services_read_only"
+>title="Deze service is alleen-lezen"
+>abstract="U hebt geen machtigingen om deze service te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_read_only"
+>title="Deze campagne is alleen-lezen"
+>abstract="U hebt geen machtigingen om deze campagne te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_read_only"
+>title="Deze levering is alleen-lezen"
+>abstract="U hebt geen machtigingen om deze levering te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only"
+>title="Deze workflow is alleen-lezen"
+>abstract="U hebt geen machtigingen om deze workflow te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
+
+>[!CONTEXTUALHELP]
+>id="acw_wf_read_only_canvas"
+>title="Deze workflow is alleen-lezen"
+>abstract="U kunt deze workflow niet bewerken vanwege niet-ondersteund of incompatibel canvas."
 
 Met toegangsbeheer kunt u de toegang tot objecten en gegevens uit hoofdlijsten beperken, zoals leveringen, ontvangers of workflows. Deze beperkingen zijn ook van toepassing in de boomstructuur van de Explorer. Daarnaast hebt u machtigingen nodig om objecten te maken, verwijderen, dupliceren en bewerken vanuit de gebruikersinterface.
 
@@ -30,7 +61,6 @@ Terwijl u door de gebruikersinterface van het Web van de Campagne bladert, kunt 
 ## Machtigingen weergeven {#view-permissions}
 
 Van de **Verkenner** kunt u machtigingen voor elke map bladeren. Deze toestemmingen worden geplaatst in de cliëntconsole, en worden gebruikt om toegang tot de gegevens van de Campagne te organiseren en te controleren.
-
 
 Voer de volgende stappen uit om machtigingen voor een map weer te geven:
 
