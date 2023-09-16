@@ -4,10 +4,10 @@ title: Aan de slag met het publiek
 description: Leer hoe te om publiek in het Web UI van de Campagne te gebruiken
 badge: label="Beta"
 exl-id: 21bb5082-82ce-47d6-a4d4-becf44490f13
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 4%
+source-wordcount: '220'
+ht-degree: 5%
 
 ---
 
@@ -40,6 +40,7 @@ Het publiek is het belangrijkste doel van uw levering: de ontvangers die de beri
 
 Om de publieksbevolking te bepalen, kunt u:
 
+* Maak en combineer publiek. [Meer informatie](create-audience.md)
 * Selecteer een bestaand publiek dat als een lijst in de cliëntconsole wordt gecreeerd. [Meer informatie](add-audience.md)
 * Selecteer een Adobe Experience Platform-publiek. [Meer informatie](aep-audience.md)
 * Bouw een nieuw publiek met de regelbouwer door het filtreren criteria te bepalen en te combineren. [Meer informatie](segment-builder.md)

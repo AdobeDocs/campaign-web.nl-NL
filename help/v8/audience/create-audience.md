@@ -3,9 +3,9 @@ audience: end-user
 title: Soorten publiek maken
 description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: a61eb527f22346c51b935e4170e1a56bed428f78
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,16 @@ ht-degree: 0%
 
 # Soorten publiek maken {#create-audiences}
 
+>[!CONTEXTUALHELP]
+>id="acw_audiences_list"
+>title="Doelgroepen"
+>abstract="Vanuit dit scherm kunt u soorten publiek maken en combineren tot een visueel canvas. Diverse workflowactiviteiten toevoegen, zoals **Splitsen** of **Uitsluiten** nieuwe en verfijnde doelgroepen te creëren."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
 >title="Instellingen voor publiek"
->abstract="Voer de naam van het publiek en aanvullende opties in."
+>abstract="Voer de naam van het publiek en aanvullende opties in en klik op de knop **Publiek maken** knop."
 
 Met Campagne Web kunt u workflows maken waarin u bestaande soorten publiek kunt combineren tot een visueel canvas. Door diverse workflowactiviteiten op te nemen, zoals **Splitsen** of **Uitsluiten**, kunt u nieuwe en verfijnde doelgroepen genereren.
 
