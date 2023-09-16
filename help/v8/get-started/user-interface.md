@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 76e8de4398c06e088d412e5033c063d1e6e891df
 workflow-type: tm+mt
-source-wordcount: '1490'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -61,13 +61,6 @@ Raadpleeg voor meer informatie over de campagnedeskundige, maphiërarchie en bro
 
 ### Campaign Management {#user-interface-campaign-management}
 
->[!CONTEXTUALHELP]
->id="acw_campaigns_list"
->title="Campagnes"
->abstract="Dit is de lijst van uw campagnes. U kunt nuttige informatie zoals hun begin/eind/laatste wijzigingsdata, evenals hun status bekijken. U kunt de lijst filteren op status of begin-/einddatum. Klik op de knop Campagne maken om een nieuwe campagne toe te voegen. Selecteer een campagne om de inhoud, leveringen en details ervan weer te geven. Blader naar het tabblad &#39;Sjablonen&#39; om sjablonen weer te geven en te maken."
-
-
-
 In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, leveringen en workflows.
 
 * **Campagnes** - Dit is de lijst van uw campagnes, en campagnemalplaatjes. Standaard kunt u voor elke campagne de begin-/einddatum/aanmaakdatum/laatste wijzigingsdatum, de huidige status en de naam weergeven van de Campagneoperator die de campagne heeft gemaakt. U kunt de lijst filteren op status, begin-/einddatums, map of een geavanceerd filter maken om uw eigen filtercriteria te definiëren. Meer informatie over campagnes [in deze sectie](../campaigns/gs-campaigns.md).
@@ -83,13 +76,6 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 
 ### Klantenbeheer {#user-interface-customer-management}
 
-
->[!CONTEXTUALHELP]
->id="acw_audiences_list"
->title="Doelgroepen"
->abstract="Dit is uw lijst van publiek. U kunt het type, de oorsprong, de datum en het label van de aanmaak/laatste wijziging bekijken. U kunt de lijst filteren op oorsprong. Deze lijst is alleen-lezen."
-
-
 In de sectie KLANTBEHEER kunt u uw ontvangers, publiek en abonnementen bekijken. Deze lijsten zijn alleen-lezen.
 
 * **Ontvangers** - Open de ontvangende database. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Meer informatie over ontvangers in [deze sectie](../audience/about-recipients.md).
@@ -102,6 +88,7 @@ In de sectie KLANTBEHEER kunt u uw ontvangers, publiek en abonnementen bekijken.
 >id="acw_offers_list"
 >title="Aanbiedingen"
 >abstract="Blader door de lijst met interactievoorstellen. Standaard kunt u hun status, begin- en einddatum en omgeving bekijken. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar. Deze lijsten zijn alleen-lezen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Een voorstel toevoegen in een levering"
 
 * **Aanbiedingen** - Blader door de lijst met interactievoorstellen. Standaard kunt u hun status, begin- en einddatum en omgeving bekijken. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar. Deze lijsten zijn alleen-lezen.
 
@@ -122,16 +109,13 @@ Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: i
 -->
 
 
-### Contextafhankelijke Help {#user-interface-help}
+## Contextafhankelijke Help {#user-interface-help}
 
 De interface bevat een contextafhankelijke Help. Klik, indien beschikbaar, op de knop `?` pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
 
 ![](assets/context-help.png){width="40%" align="left"}
 
 Met de nieuwe bètaversie **Medewerker kennis met Gen AI** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
-
-![](assets/ask-a-question.png)
-
 
 Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze Knowledge Assistant met Gen AI is uw ultieme partner, die bij elke interactie een ongekende efficiëntie en nauwkeurigheid biedt.
 
@@ -223,28 +207,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Machtiging vereist"
 >abstract="Uw beheerder moet u toestemming verlenen alvorens u een segment kunt tot stand brengen."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_read_only"
->title="Deze campagne is alleen-lezen"
->abstract="U hebt geen machtigingen om deze campagne te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_read_only"
->title="Deze levering is alleen-lezen"
->abstract="U hebt geen machtigingen om deze levering te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
-
 <!-- Workflows-->
 
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only"
->title="Deze workflow is alleen-lezen"
->abstract="U hebt geen machtigingen om deze workflow te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
-
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="Deze workflow is alleen-lezen"
->abstract="U kunt deze workflow niet bewerken vanwege niet-ondersteund of incompatibel canvas."
 
 <!-- delivery template settings-->
 
