@@ -3,9 +3,9 @@ audience: end-user
 title: Bladeren, zoeken en filteren
 description: Ontdek hoe u kunt bladeren en filteren in lijsten met Campagne Web v8
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f9c780b5e832badb64ec0ee0a3514769c3e49b1e
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voo
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Geavanceerde kenmerken weergeven"
->abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Met deze schakeloptie kunt u een filter met geavanceerde kenmerken maken."
+>abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Met deze schakeloptie kunt u geavanceerde kenmerken weergeven."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
