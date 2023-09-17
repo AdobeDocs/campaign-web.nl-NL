@@ -3,38 +3,15 @@ audience: end-user
 title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
 badge: label="Beta"
-source-git-commit: 4b005f3feb70b8c5cf0f4cd9c5ba54547bd9261a
+source-git-commit: 58abba55328480cd6cd47c8666146acdf637204e
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '780'
 ht-degree: 1%
 
 ---
 
 
 # E-mail-, sms- en pushactiviteiten {#channel}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_email"
->title="E-mailactiviteit"
->abstract="Automatiseer en voer marketingcampagnes uit via e-mail-, SMS- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren. "
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_sms"
->title="E-mailactiviteit"
->abstract="Automatiseer en voer marketingcampagnes uit via e-mail-, SMS- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren. "
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_push_ios"
->title="E-mailactiviteit"
->abstract="Automatiseer en voer marketingcampagnes uit via e-mail-, SMS- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren. "
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_push_android"
->title="E-mailactiviteit"
->abstract="Automatiseer en voer marketingcampagnes uit via e-mail-, SMS- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren. "
 
 Met Adobe Campaign Web kunt u marketingcampagnes automatiseren en uitvoeren via e-mail-, sms- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren.
 
@@ -60,6 +37,30 @@ Begin uw werkschema met de relevante activiteiten te bouwen alvorens de levering
   ![](../../msg/assets/add-delivery-in-wf.png)
 
 ## De levering instellen {#create-a-delivery-in-a-workflow}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_email"
+>title="E-mailactiviteit"
+>abstract="Automatiseer en voer marketingcampagnes uit via e-mail-, SMS- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_sms"
+>title="SMS-activiteit"
+>abstract="Automatiseer en voer marketingcampagnes uit via e-mail-, SMS- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_ios"
+>title="IOS-activiteit in duwen"
+>abstract="Automatiseer en voer marketingcampagnes uit via e-mail-, SMS- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_push_android"
+>title="Android-activiteit duwen"
+>abstract="Automatiseer en voer marketingcampagnes uit via e-mail-, SMS- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
 
 Volg onderstaande stappen om een levering in te stellen in de context van een workflow:
 
