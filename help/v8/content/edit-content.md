@@ -4,9 +4,9 @@ title: De e-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '562'
 ht-degree: 1%
 
 ---
@@ -20,18 +20,19 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="E-mailparameters"
->abstract="De waarden voor Van-naam en Van-e-mail worden gedefinieerd in de e-mailsjabloon. De onderwerpregel kan worden gepersonaliseerd gebruikend de Redacteur van de Uitdrukking."
+>title="Eenvoudige e-maileigenschappen instellen"
+>abstract="De **Basisdetails** kunt u het adres en het antwoord van de afzender bijwerken en de onderwerpregel definiëren met de Expressieeditor."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
->title="E-mailbijlage"
+>title="Bestanden bijvoegen bij uw e-mail"
 >abstract="Selecteer een of meerdere bestanden die u in uw bericht wilt invoegen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
->title="Opties voor tekstspatiëring"
+>title="Tekstspatiëring bewerken"
 >abstract="Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie hier uitschakelen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Koppelingen toevoegen en berichten bijhouden"
 
 De e-mail **[!UICONTROL Edit content]** scherm kunt u:
 * Definieer de basiselementen van uw bericht, zoals het adres van de afzender en de onderwerpregel
