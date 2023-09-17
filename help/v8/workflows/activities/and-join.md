@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de AND-join-workflow gebruiken
 description: Leer hoe u de workflowactiviteit AND-join gebruikt
 badge: label="Beta"
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '254'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"
 >title="AND-join-activiteit"
->abstract="De **En-join** activiteit is **Stroomregeling** activiteit. Hiermee kunt u meerdere uitvoeringstakken van een workflow synchroniseren."
-
-
+>abstract="De **En-join** Met activiteit kunt u meerdere uitvoertakken van een workflow synchroniseren. De regeling wordt in werking gesteld zodra alle voorgaande activiteiten zijn beëindigd. Op deze manier kunt u ervoor zorgen dat bepaalde activiteiten zijn voltooid voordat u doorgaat met het uitvoeren van de workflow."
 
 De **En-join** activiteit is **Stroomregeling** activiteit. Hiermee kunt u meerdere uitvoeringstakken van een workflow synchroniseren.
 
