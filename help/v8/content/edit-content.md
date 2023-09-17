@@ -4,9 +4,9 @@ title: De e-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
    >
    >U kunt het deel vóór &#39;@&#39; wijzigen, maar niet het domeinadres.
 
-1. Vouw de sectie **[!UICONTROL Reply-to fields]** uit. Het adres van de afzender wordt standaard gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
+1. Vouw de sectie **[!UICONTROL Reply-to fields]** uit. De naam en het adres van de afzender worden door gebrek gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
 
    ![](assets/email-edit-content-reply-to.png)
 

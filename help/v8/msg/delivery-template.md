@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '982'
 ht-degree: 3%
 
 ---
@@ -25,12 +25,12 @@ Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om 
 
 Een sjabloon kan het volgende bevatten:
 
-* [Typologieën](../advanced-settings/delivery-settings.md#typology)
-* Het adres van de afzender
-* An [publiek](../audience/about-audiences.md), inclusief [controlegroepen](../audience/control-group.md)
-* Aangepast [content](../content/edit-content.md)
-* [Persoonlijke velden](../personalization/personalize.md) en [voorwaardelijke inhoud](../personalization/conditions.md)
-* Koppelingen naar [spiegelpagina](../content/mirror-page.md) en uit-abonnement [koppelingen](../content/message-tracking.md)
+* [Typologieën](../advanced-settings/delivery-settings.md#typology),
+* Het adres van de afzender,
+* An [publiek](../audience/about-audiences.md), inclusief [controlegroepen](../audience/control-group.md),
+* Aangepast [content](../content/edit-content.md),
+* [Persoonlijke velden](../personalization/personalize.md) en [voorwaardelijke inhoud](../personalization/conditions.md),
+* Koppelingen naar [spiegelpagina](../content/mirror-page.md) en uit-abonnement [koppelingen](../content/message-tracking.md),
 * Andere leveringseigenschappen, zoals middelgeldigheid, retry parameters, of quarantaine montages.
 
 >[!NOTE]
@@ -159,6 +159,8 @@ Voer de onderstaande stappen uit om een volledig nieuwe leveringssjabloon te con
    > * [E-mailkanaal](../email/create-email.md)
    > * [Push-meldingskanaal](../push/gs-push.md)
    > * [Sms-kanaal](../sms/create-sms.md)
+
+1. Voor e-mailsjablonen kunt u bovendien geavanceerde instellingen, zoals typologische regels en doeltoewijzingen, gebruiken via de **[!UICONTROL Settings]** op de knop rechtsboven in het scherm. [Meer informatie](../advanced-settings/delivery-settings.md)
 
 1. Klik op de knop **[!UICONTROL Review]** om de sjabloon op te slaan en te bekijken. U kunt nog steeds alle instellingen bewerken, verwijderen en dupliceren.
 

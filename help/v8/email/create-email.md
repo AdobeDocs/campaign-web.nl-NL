@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Meer informatie over het verzenden van uw eerste e-mail via de webinterface voor campagnes
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Volg onderstaande stappen om een nieuwe, zelfstandige e-maillevering te maken.
 
    ![](assets/email-properties.png)
 
-1. Bovendien zijn geavanceerde instellingen, zoals typologische regels en doeltoewijzingen, toegankelijk via de **[!UICONTROL Settings]** op de knop rechtsboven in het scherm. Deze instellingen zijn vooraf geconfigureerd in de geselecteerde sjabloon, maar kunnen zo nodig worden bewerkt voor deze specifieke e-mail.
+1. Bovendien zijn geavanceerde instellingen, zoals typologische regels en doeltoewijzingen, toegankelijk via de **[!UICONTROL Settings]** op de knop rechtsboven in het scherm. Deze instellingen zijn vooraf geconfigureerd in de geselecteerde sjabloon, maar kunnen zo nodig worden bewerkt voor deze specifieke e-mail. [Meer informatie](../advanced-settings/delivery-settings.md)
 
 ## De doelgroep definiëren {#define-audience}
 
@@ -157,7 +157,7 @@ Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in
 
 1. Als u uw e-mail wilt bekijken, klikt u op **[!UICONTROL Review and send]**. Dit toont een voorproef van uw e-mail, samen met alle gevormde eigenschappen, publiek en programma. U kunt al deze elementen bewerken door op de knop Wijzigen te klikken.
 
-1. Als u een voorbeeld van de e-mail wilt bekijken en testversies wilt verzenden, klikt u op de knop **[!UICONTROL Simulate content]** knop.
+1. Klik op de knop **[!UICONTROL Simulate content]** knop.
 
    ![](assets/review-email.png)
 
