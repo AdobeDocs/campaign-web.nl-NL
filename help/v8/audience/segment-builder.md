@@ -4,7 +4,7 @@ title: Een publiek maken met de bouwer van de campagneregel
 description: Leer hoe te met de regelbouwer te werken
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 351b60464d8623c34dea2c19bf86b2fa7b4fa45a
+source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 1%
@@ -12,7 +12,6 @@ ht-degree: 1%
 ---
 
 # Bepaal een publiek met de regelbouwer {#segment-builder}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
