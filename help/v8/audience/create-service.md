@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Werken met abonnementsservices
-description: Meer informatie over het maken van services op Adobe Campaign Web
+description: Meer informatie over het maken en beheren van services op Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: dd8e8acb37cf9a68768c5da48335275c09d67cc8
+source-git-commit: 307d1e65850fcbdb51ca0016e4f3f30ca74997be
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '331'
 ht-degree: 1%
 
 ---
@@ -44,14 +44,13 @@ Als u een bestaande service wilt bewerken, klikt u op de naam van de service.
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="Abonnementsserviceeigenschappen"
->abstract="Voer het label van de abonnementenservice in en definieer aanvullende opties."
+>title="Definieer de serviceeigenschappen"
+>abstract="Voer het label van de abonnementsservice in en definieer aanvullende opties, zoals een geldigheidsperiode voor de service."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
->title="Abonnementenservice bevestigingsberichten"
->abstract="Wanneer een gebruiker zich op de dienst abonneert of van de dienst afmeldt, kunt u een bevestigingsbericht verzenden. Selecteer de sjablonen die u voor deze berichten wilt gebruiken."
-
+>title="Selecteer een bevestigingsbericht"
+>abstract="Wanneer een gebruiker zich abonneert op of zich niet abonneert op een service, kunt u een bevestigingsbericht verzenden. Selecteer de sjablonen die u voor dat bericht wilt gebruiken."
 
 Voer de volgende stappen uit om een abonnementenservice te maken:
 

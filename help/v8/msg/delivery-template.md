@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Werken met leveringssjablonen
-description: Leer hoe u leveringssjablonen maakt en gebruikt in Campagne
+description: Leer hoe te om leveringsmalplaatjes in het Web van de Campagne te creëren en te gebruiken
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: d584683de8c64849e103667ee1ca0c1d24c910a6
+source-git-commit: 7a9e5f36bbf4f0e478d48f88cf2c96fa63517118
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '983'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 3%
 >id="acw_delivery_template_for_campaign"
 >title="Afleveringssjablonen"
 >abstract="Gebruik leveringssjablonen om de creatieve vormgeving te standaardiseren, zodat campagnes sneller kunnen worden uitgevoerd en gestart"
-
 
 Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om aangepaste inhoud en instellingen in al uw campagnes eenvoudig te hergebruiken. Met deze functie kunt u de creatieve vormgeving standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren.
 
