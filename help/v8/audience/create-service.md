@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het maken en beheren van services op Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 6e48c44b7c192b0d401d75dedbac24f21ee2e78f
+source-git-commit: 79fe928453af15743546a4bb28cdc992c9a2058b
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '883'
 ht-degree: 2%
 
 ---
@@ -158,7 +158,15 @@ Eenmaal [een abonnementenservice gemaakt](#create-service), je kunt je abonnees 
 
    ![](assets/service-audience-subscribers.png)
 
-1. Maak een campagne en richt zich op het publiek dat u hebt gemaakt.
+1. [Een levering maken](../msg/gs-messages.md) en selecteer het publiek dat u hierboven hebt gemaakt.
+
+   ![](assets/service-delivery-targeting-subscribers.png)
+
+1. Bewerk de inhoud van het bericht naar wens en verzend de levering.
+
+   ![](assets/service-delivery-ready.png)
+
+Uw levering wordt alleen naar de abonnees van die service verzonden.
 
 
 
