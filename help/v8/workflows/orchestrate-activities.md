@@ -3,9 +3,9 @@ audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Orchestraten {#orchestrate}
 
 Zodra u [een workflow hebben gemaakt](create-workflow.md)Of u nu het workflowmenu of een campagne gebruikt, u kunt de verschillende taken die het uitvoert gaan ordenen. Hiervoor wordt een visueel canvas verschaft, zodat u een workflowdiagram kunt maken. Binnen dit diagram, kunt u diverse activiteiten toevoegen en hen in een opeenvolgende orde verbinden.
+
+## Activiteiten toevoegen {#add}
 
 In dit stadium van de configuratie, wordt het diagram getoond met een beginpictogram, dat het begin van uw werkschema vertegenwoordigt. Als u de eerste activiteit wilt toevoegen, klikt u op de knop + die is verbonden met het startpictogram.
 
@@ -32,6 +34,20 @@ Als u een activiteit wilt verwijderen, selecteert u deze op het canvas en klikt 
 >[!TIP]
 >
 >U kunt de naam van de overgangen tussen elke activiteit aanpassen. U doet dit door de overgang te selecteren en het label ervan te wijzigen in het rechterdeelvenster.
+
+## Activiteiten beheren {#manage}
+
+Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelvenster Eigenschappen, zodat u meerdere bewerkingen kunt uitvoeren. U kunt:
+
+* **Verwijderen** de activiteit van het canvas.
+* **Uitschakelen/inschakelen** de activiteit. Wanneer de workflow wordt uitgevoerd, worden uitgeschakelde activiteiten niet uitgevoerd en wordt de workflow gepauzeerd?
+* **Kopiëren** de activiteit. Vervolgens kunt u de afbeelding in een willekeurige workflow plakken door op de knop &quot;+&quot; in een overgang te klikken en &quot;Activiteiten plakken 1&quot; te selecteren.
+* Toegang krijgen tot de activiteiten **Logboeken en taken**.
+* **Pauzeren/hervatten** de activiteit. Wanneer de workflow wordt uitgevoerd, wordt de gepauzeerde activiteit gepauzeerd. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
+
+![](assets/activity-action.png){width="70%"}
+
+## Voorbeeld {#example}
 
 Hier volgt een voorbeeld van een workflow die is ontworpen om een e-mail naar alle klanten (andere dan VIP klanten) te sturen met een e-mail die geïnteresseerd is in koffiecomputers.
 
