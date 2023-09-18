@@ -3,9 +3,9 @@ audience: end-user
 title: Soorten publiek maken
 description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
+source-git-commit: 3de56ccc5f96c4a13ba5d1211b3d5320a01e979d
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -23,18 +23,9 @@ ht-degree: 0%
 >title="Instellingen voor publiek"
 >abstract="Voer de naam van het publiek en aanvullende opties in en klik op de knop **Publiek maken** knop."
 
-Met Campagne Web kunt u nieuwe soorten publiek maken tot een visueel workflowcanvas. U kunt workflowactiviteiten niet alleen helemaal vanaf het begin gebruiken om een eenvoudig publiek te maken, maar ook om het publiek te verfijnen. U kunt bijvoorbeeld meerdere soorten publiek in één publiek opnemen, het publiek verrijken met externe kenmerken of een bepaald publiek opsplitsen in meerdere.
+Met Campagne Web kunt u nieuwe soorten publiek maken tot een visueel workflowcanvas. U kunt workflowactiviteiten niet alleen helemaal vanaf het begin gebruiken om een eenvoudig publiek te maken, maar ook om het publiek te verfijnen. U kunt bijvoorbeeld meerdere soorten publiek combineren tot één publiek, uw publiek verrijken met externe kenmerken of een publiek opsplitsen in meerdere soorten publiek op basis van uw eigen regels.
 
 Zodra u uw werkschema hebt gecreeerd, worden de resulterende publiek automatisch opgeslagen binnen het gegevensbestand van de Campagne naast uw bestaande degenen. Deze doelgroepen kunnen zich dan richten op campagnes of op zelfstandige leveringen.
-
-De belangrijkste stappen om een publiek tot stand te brengen zijn als volgt:
-
-1. Maak een publieksworkflow.
-1. Vorm een het publieksactiviteit van de Bouwstijl om het gegevensbestand te vragen dat op uw behoeften wordt gebaseerd.
-1. Workflowactiviteiten toevoegen om het publiek te verfijnen (optioneel).
-1. Configureer een publieksactiviteit Opslaan.
-1. Voer de workflow uit om de resulterende groep(en) in de database op te slaan.
-
 
 ## Uw eerste publiek maken {#create}
 
@@ -48,15 +39,15 @@ Voer de volgende stappen uit om een publiek te maken:
 
    ![](assets/audiences-settings.png)
 
-1. Als u de publieksinstellingen hebt geconfigureerd, klikt u op de knop **[!UICONTROL Create Audience]** knop.
+1. Als u de publieksinstellingen hebt geconfigureerd, klikt u op de knop **[!UICONTROL Create Audience]** knop. Er wordt een werkstroomcanvas weergegeven met twee standaardactiviteiten:
 
-1. Er wordt een werkstroomcanvas weergegeven met twee standaardactiviteiten:
+   * **[!UICONTROL Build audience]**: Dit is het beginpunt van uw workflow, zodat u een publiek kunt maken en dit kunt gebruiken als basis voor uw workflow.
 
-   * **[!UICONTROL Build audience]**: Dit is het beginpunt van uw workflow, zodat u een publiek kunt maken en dit kunt gebruiken als basis voor uw workflow. [Leer hoe te om een het publieksactiviteit van de Bouwstijl te vormen](../workflows/activities/build-audience.md)
+   * **[!UICONTROL Save audience]**: Dit is de laatste stap in uw workflow, zodat u de workflowresultaten kunt opslaan als een nieuw publiek.
 
-   * **[!UICONTROL Save audience]**: Dit is de laatste stap in uw workflow, zodat u de resultaten kunt opslaan als een nieuw publiek. [Leer hoe u een activiteit voor het opslaan van het publiek configureert](../workflows/activities/save-audience.md)
+1. Open de **[!UICONTROL Build audience]** activiteit en gebruik de regelbouwer om de bevolking te bepalen om in uw publiek te omvatten door gegevens te filtreren in het gegevensbestand. [Leer hoe te om een het publieksactiviteit van de Bouwstijl te vormen](../workflows/activities/build-audience.md)
 
-1. Als u na de **[!UICONTROL Build audience]** activiteit, voegt zo veel activiteiten toe zoals vereist in uw werkschema. Voor meer informatie over hoe vormen de werkschemaactiviteiten, naar [werkstroomdocumentatie](../workflows/activities/about-activities.md).
+1. Als u aanvullende bewerkingen wilt uitvoeren op de doelpopulatie in de workflow, voegt u zoveel activiteiten toe als nodig zijn en verbindt u deze met elkaar. Voor meer informatie over hoe vormen de werkschemaactiviteiten, naar [werkstroomdocumentatie](../workflows/activities/about-activities.md).
 
    >[!NOTE]
    >
@@ -64,17 +55,19 @@ Voer de volgende stappen uit om een publiek te maken:
 
    ![](assets/audience-creation-canvas.png)
 
+1. Vorm **[!UICONTROL Save audience]** activiteit om te specificeren hoe u de bevolking wilt bewaren die stroomopwaarts in het werkschema wordt berekend. [Leer hoe u een activiteit voor het opslaan van het publiek configureert](../workflows/activities/save-audience.md)
+
 1. Wanneer uw workflow gereed is, klikt u op **[!UICONTROL Start]** om het uit te voeren.
 
-1. De workflow wordt opgeslagen in het dialoogvenster **[!UICONTROL Workflows]** en de resulterende doelgroep(en) toegankelijk zijn in de **[!UICONTROL Audiences]** lijst. [Leer hoe u het publiek kunt bewaken en beheren](access-audiences.md)
+De workflow wordt opgeslagen in het dialoogvenster **[!UICONTROL Workflows]** en de resulterende doelgroep(en) toegankelijk zijn in de **[!UICONTROL Audiences]** lijst. [Leer hoe u het publiek kunt bewaken en beheren](access-audiences.md)
 
 ## Voorbeeld van een publiek werkstroom {#example}
 
-In het onderstaande voorbeeld ziet u een publieksworkflow die is geconfigureerd voor vrouwelijke klanten die in New York wonen en die twee nieuwe doelgroepen creëert, afhankelijk van hun interesse in Yoga of Running tandwielen. De twee doelgroepen worden verrijkt met aanvullende informatie over de aankopen van de klanten.
+In het onderstaande voorbeeld ziet u een publieksworkflow die is geconfigureerd voor vrouwelijke klanten die in New York wonen en die twee nieuwe soorten publiek maakt, afhankelijk van hun laatste aankoop (Yoga of Running tandwieltje).
 
-SCREENSHOT TOEVOEGEN
+![](assets/audiences-example.png)
 
-1. De activiteiten van het publiek Build richten zich op alle Vrouwelijke profielen die in New York wonen.
-1. De verrijkingsactiviteit verrijkt het publiek met attributen van de lijst van Aankopen.
-1. De gesplitste activiteit verdeelt de werkstroom in twee wegen die op de centra van de klanten van belang worden gebaseerd.
-1. De sparen publieksactiviteiten aan het eind van elke weg om elk publiek in het gegevensbestand te bewaren.
+1. De **[!UICONTROL Build audience]** de activiteit is gericht op alle vrouwelijke profielen die in New York wonen.
+1. De **[!UICONTROL Enrichment]** de activiteit verrijkt het publiek met informatie van de lijst van Aankopen om te identificeren welk type van product de klanten kochten.
+1. De **[!UICONTROL Split]** de activiteit verdeelt het werkschema in twee wegen die op de recentste aankoop van klanten worden gebaseerd.
+1. De **[!UICONTROL Save audience]** de activiteiten aan het eind van elk pad creëren twee nieuwe soorten publiek in de database , met inbegrip van de populatie die in elk pad is berekend .
