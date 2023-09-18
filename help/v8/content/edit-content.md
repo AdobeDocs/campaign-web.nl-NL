@@ -4,9 +4,9 @@ title: De e-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 694fc312ddf9e31e0a4a993954b0fb8d85b64fbe
+source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -20,18 +20,18 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
->title="Eenvoudige e-maileigenschappen instellen"
+>title="E-maileigenschappen instellen"
 >abstract="De **Basisdetails** kunt u het adres en het antwoord van de afzender bijwerken en de onderwerpregel definiëren met de Expressieeditor."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_attachment"
 >title="Bestanden bijvoegen bij uw e-mail"
->abstract="Selecteer een of meerdere bestanden die u in uw bericht wilt invoegen."
+>abstract="Selecteer een of meerdere bestanden die u in uw bericht wilt invoegen. Om prestatieproblemen te voorkomen, wordt aanbevolen niet meer dan één bijlage per e-mail op te nemen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_options"
 >title="Tekstspatiëring bewerken"
->abstract="Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie hier uitschakelen."
+>abstract="Door gebrek, wordt het volgen toegelaten voor de levering, die betekent alle verbindingen inbegrepen in de berichtinhoud worden gevolgd. U kunt deze optie hier uitschakelen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Koppelingen toevoegen en berichten bijhouden"
 
 De e-mail **[!UICONTROL Edit content]** scherm kunt u:
