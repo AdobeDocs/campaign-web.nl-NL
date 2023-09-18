@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 badge: label="Beta"
-source-git-commit: 2be8b4143edb720dea85dad352072028c36f0aca
+source-git-commit: d43d32f8ba6177e27f53bbe3297495cfde8cd3b9
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Voer de volgende stappen uit om een bestaand publiek te selecteren:
 
 >[!IMPORTANT]
 >
->Als u meerdere **[!UICONTROL Build audience]** activiteiten in een werkstroom, waaronder een publiek in een Experience Platform, moet u een **[!UICONTROL Change dimension]** activiteiten daarna, om ervoor te zorgen dat alle doelgroepen behoren tot de doeldimensie &quot;Ontvanger&quot;. Onder aan deze pagina vindt u een voorbeeld van de workflow.
+>Als u een **[!UICONTROL Build audience]** activiteit gericht op een publiek van het Experience Platform, moet u toevoegen **[!UICONTROL Change dimension]** activiteit daarna, om ervoor te zorgen dat de doelgerichte dimensie van het publiek aan &quot;Ontvanger&quot;wordt geplaatst. Onder aan deze pagina vindt u een voorbeeld van de workflow.
 
 ## Voorbeelden
 
