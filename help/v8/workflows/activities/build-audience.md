@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: ff3e93a6c8e66c8160f132772ea1a8bfd769ec5b
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,16 @@ Voer de volgende stappen uit om een bestaand publiek te selecteren:
 1. Klikken **Doorgaan**.
 1. Selecteer uw publiek, zoals u een publiek gebruikt bij het ontwerpen van een nieuwe e-mail. Zie dit [sectie](../../audience/add-audience.md).
 
-## Voorbeeld
+>[!IMPORTANT]
+>
+>Als u meerdere **[!UICONTROL Build audience]** activiteiten in een werkstroom, waaronder een publiek in een Experience Platform, moet u een **[!UICONTROL Change dimension]** activiteiten daarna, om ervoor te zorgen dat alle doelgroepen behoren tot de doeldimensie &quot;Ontvanger&quot;. Onder aan deze pagina vindt u een voorbeeld van de workflow.
+
+## Voorbeelden
 
 Hier is een voorbeeld van een workflow met twee **publiek opbouwen** activiteiten. De eerste is gericht op het publiek van pokerspelers, gevolgd door een e-mailbezorging. De tweede is gericht op het publiek van VIP klanten, gevolgd door een SMS-levering.
 
 ![](../assets/workflow-audience-example.png)
+
+Hier is nog een voorbeeld van een combinatie van een Adobe Experience Platform-publiek met een Adobe Campaign-publiek. Om deze doelgroepen te kunnen combineren, moet u **[Dimensie iUICONTROL-wijziging]** activiteit met de &quot;Ontvanger&quot;het richten dimensie wordt toegevoegd na het publiek van Adobe Experience Platform.
+
+![](../assets/workflow-audience-aep.png)
