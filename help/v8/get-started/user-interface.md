@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 82cefed06353ce91ab75128bc4e0459570a95617
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
@@ -85,10 +85,12 @@ In de sectie KLANTBEHEER kunt u uw ontvangers, publiek en abonnementen bekijken.
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Aanbiedingen"
->abstract="Blader door de lijst met interactievoorstellen. Standaard kunt u hun status, begin- en einddatum en omgeving bekijken. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar. Deze lijsten zijn alleen-lezen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Een voorstel toevoegen in een levering"
+>abstract="Blader door de lijsten van aanbiedingen en aanbiedingsmalplaatjes die in de console gebruikend zijn gecreeerd **Interactie** -module. Deze lijsten zijn alleen-lezen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Aanbiedingen toevoegen aan een levering"
 
-* **Aanbiedingen** - Blader door de lijst met interactievoorstellen. Standaard kunt u hun status, begin- en einddatum en omgeving bekijken. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar. Deze lijsten zijn alleen-lezen.
+In de sectie KLANTENBEHEER kunt u de aanbiedingen weergeven en sjablonen aanbieden. Deze lijsten zijn alleen-lezen.
+
+* **Aanbiedingen** - Blader door de lijst met aanbiedingen en aanbiedingstemplates die in de console zijn gemaakt met de **Interactie** -module. Standaard kunt u hun status, begin- en einddatum en omgeving bekijken. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar.
 
 Meer informatie over het maken en verzenden van aanbiedingen in e-mails en SMS in [deze sectie](../content/offers.md).
 

@@ -4,9 +4,9 @@ title: Aanbiedingen verzenden
 description: Aanbiedingen verzenden
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,17 @@ De stappen voor het verzenden van voorstellen met een levering zijn als volgt:
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_settings"
->title="Aanbiedingsinstellingen"
->abstract="Vorm welke aanbiedingen aan de ontvangers zouden moeten worden voorgesteld."
+>title="Definieer de parameters voor aanbiedingen"
+>abstract="Vorm welke aanbiedingen aan de ontvangers zouden moeten worden voorgesteld door een aanbiedingsruimte, naar keuze een categorie en een thema te bepalen, en specificeer het aantal aanbiedingen u in de levering wilt opnemen."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_offers_advanced_settings"
->title="Geavanceerde instellingen worden aangeboden"
->abstract="Vorm geavanceerde opties op aanbiedingen."
+>title="Geavanceerde instellingen voor aanbiedingen instellen"
+>abstract="U kunt de uitsluiting inschakelen van ontvangers voor wie er onvoldoende geschikte aanbiedingen zijn en u kunt kiezen hoe het bericht wordt verwerkt als een van de voorstellen niet bestaat."
+
+Met Adobe Campaign kunt u een of meer specifieke voorstellen doen aan een bepaalde contactpersoon. De module van de interactie die u in real time tijdens een interactie aan een bepaald contact laat antwoorden door hen één of verscheidene specifieke aanbiedingen voor te stellen. Deze aanbiedingen kunnen eenvoudige communicatie berichten, speciale aanbiedingen op één of verscheidene producten of de dienst zijn.
+
+Volg onderstaande stappen om de voorstellen te selecteren die u aan uw levering wilt toevoegen.
 
 1. Klik op de knop **[!UICONTROL Set up offers]** van het scherm voor de editie van de inhoud van de levering.
 
@@ -99,7 +103,7 @@ Volg onderstaande stappen om een aanbieding in te voegen met de Expressieeditor.
 
    >[!NOTE]
    >
-   >Het aantal beschikbare voorstellen hangt van de manier af de motorvraag wordt gevormd en hun orde hangt van de prioriteit van aanbiedingen af.
+   >Het aantal beschikbare voorstellen hangt van de manier af de motorvraag wordt gevormd en hun orde hangt van de prioriteit van aanbiedingen af. Meer informatie in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"}.
 
 1. Sla uw wijzigingen op.
 
