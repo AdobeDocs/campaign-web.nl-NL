@@ -4,9 +4,9 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 7ac8eedf-c141-4a61-b4d3-d81f99247c6d
-source-git-commit: 3e4cdd2ece8fc000bc71b366549fd63f18201ff7
+source-git-commit: 140c12fbfb40ec2df2c25aacc762f344f78d9a5a
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '843'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Wanneer u workflowactiviteiten op het canvas ordent, hebt u toegang tot geavance
 
 Deze instellingen zijn vooraf geconfigureerd in de sjabloon die is geselecteerd tijdens het maken van de workflow, maar kunnen zo nodig worden bewerkt voor deze specifieke workflow.
 
-Om dit te doen, klik **[!UICONTROL Workflow settings]** in de linkerbovenhoek van het canvas, naast het workflowlabel.
+Om dit te doen, klik **[!UICONTROL Settings]** in de actiebalk boven het werkstroomcanvas beschikbaar.
 
 ![](assets/workflow-settings.png)
 
