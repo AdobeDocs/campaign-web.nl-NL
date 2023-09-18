@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Beta"
-source-git-commit: 2afec0260566c2393c96063037adbf1902497289
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '450'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ In de lijst met campagnes zijn twee tabbladen beschikbaar:
 
 * De **Bladeren** worden alle bestaande campagnes weergegeven. U kunt op een campagne klikken om het dashboard te openen of een nieuwe campagne te maken door op de knop **Campagne maken** knop. Zie dit [sectie](create-campaigns.md#create-campaigns).
 
-* De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. De malplaatjes van de campagne worden pre-gevormd zodat zij kunnen worden opnieuw gebruikt wanneer het creëren van nieuwe campagnes. Zij worden gecreeerd van de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html)
+* De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. U kunt een bestaande sjabloon weergeven of een nieuwe sjabloon maken. [Meer informatie](manage-campaign-templates.md).
 
 ![Lijst met campagnes](assets/campaign-list.png)
 

@@ -4,9 +4,9 @@ title: Campagnes maken met Adobe Campaign Web
 description: Meer informatie over het maken van kanaalcampagnes met Adobe Campaign Web
 badge: label="Beta"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: ef459ca97bbe327128d790f77029521ed12cc6c9
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,7 @@ Als u een nieuwe campagne wilt maken, moet u de eigenschappen en het schema van 
 Voer de volgende stappen uit om een nieuwe campagne te maken:
 
 1. Klik op de knop **[!UICONTROL Campaigns]** en klikt u op de knop **[!UICONTROL Create campaign]** knop.
-1. Selecteer de **Sjabloon** een label voor de campagne te gebruiken en te verstrekken. De malplaatjes van de campagne zijn pre-gevormd zodat zij voor het creëren van nieuwe campagnes kunnen worden opnieuw gebruikt. Zij worden gecreeerd van de cliëntconsole.
-   [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html).
+1. Selecteer de **Sjabloon** een label voor de campagne te gebruiken en te verstrekken. [Meer informatie](manage-campaign-templates.md).
 1. Indien nodig kunt u het volgende wijzigen **Aanvullende opties**: interne naam, map, ontvanger, beschrijving en aard.
 1. Definieer de **Schema** van uw campagne. Meer informatie over het instellen van uw campagneschema in [deze sectie](#campaign-schedule)
 1. Klikken **Maken**.

@@ -3,9 +3,9 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: 253889459de03cf4df72be5a5fbc223588e9b86c
+source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '427'
 ht-degree: 4%
 
 ---
@@ -13,13 +13,10 @@ ht-degree: 4%
 
 # Deduplicatie {#deduplication}
 
-<!--
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Fork activity"
->abstract="The Deduplication activity allows you to..."
--->
-
+>title="Deduplicatiekenmerken"
+>abstract="Op deze manier kunt u opgeven voor welke velden de duplicaten met dezelfde waarden kunnen worden geïdentificeerd: e-mailadres, voornaam, achternaam, enzovoort. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
