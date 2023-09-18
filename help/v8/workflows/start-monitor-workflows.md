@@ -4,9 +4,9 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: d4326498669e190bbc0a6ec087c44ac713ae97ca
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '568'
 ht-degree: 3%
 
 ---
@@ -29,16 +29,27 @@ U kunt de voortgang van doelprofielen in real time volgen gebruikend een visuele
 >
 >U kunt de visuele stroom uitschakelen met de **[!UICONTROL Hide progression]** in de bovenste actiebalk van het canvas.
 
+## Workflowovergangen {#transitions}
+
+In werkstromen, worden de gegevens die van één activiteit aan een andere door overgangen worden vervoerd opgeslagen in een tijdelijke het werklijst.
+
+Deze gegevens kunnen voor elke overgang worden weergegeven. Selecteer hiertoe een overgang om de eigenschappen ervan in de rechterkant van het scherm te openen.
+
+* Klikken **[!UICONTROL Preview schema]** om het schema van de het werklijst te tonen.
+* Klikken **[!UICONTROL Preview results]** om de gegevens te visualiseren die in de geselecteerde overgang worden vervoerd.
+
+![](assets/transition.png)
+
 ## Activiteitenuitvoering controleren {#activities}
 
 De visuele indicatoren in de hoger-juiste hoek van elke activiteitendoos staan u toe om hun uitvoering te controleren:
 
 | Visuele indicator | Beschrijving |
 |-----|------------|
-| ![](assets/activity-status-pending.png) | De activiteit wordt momenteel uitgevoerd. |
-| ![](assets/activity-status-orange.png) | De activiteit vereist uw aandacht. Dit kan inhouden dat de verzending van een levering wordt bevestigd of dat de nodige actie wordt ondernomen. |
-| ![](assets/activity-status-red.png) | Er is een fout opgetreden in de activiteit. Open de logbestanden van de workflow voor meer informatie om het probleem op te lossen. |
-| ![](assets/activity-status-green.png) | De activiteit is met succes uitgevoerd. |
+| ![](assets/activity-status-pending.png){width="70%"} | De activiteit wordt momenteel uitgevoerd. |
+| ![](assets/activity-status-orange.png){width="70%"} | De activiteit vereist uw aandacht. Dit kan inhouden dat de verzending van een levering wordt bevestigd of dat de nodige actie wordt ondernomen. |
+| ![](assets/activity-status-red.png){width="70%"} | Er is een fout opgetreden in de activiteit. Open de logbestanden van de workflow voor meer informatie om het probleem op te lossen. |
+| ![](assets/activity-status-green.png){width="70%"} | De activiteit is met succes uitgevoerd. |
 
 ## Logboeken en taken controleren {#logs-tasks}
 
