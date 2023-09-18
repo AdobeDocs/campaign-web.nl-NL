@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit voor het publiek opslaan gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: 7c8acd17fec3f6aa3d12346c2daaac9f64755098
+source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '319'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ Voer de volgende stappen uit om de **Adviezen opslaan** activiteit:
 
    * **Volledige doelgroep met nieuwe gegevens**: de oude publieksinhoud wordt bewaard en de gegevens van de binnenkomende overgang van de activiteit van het sparen publiek worden toegevoegd aan het.
 
-1. Controleer de **Complement genereren** als u de overblijvende bevolking wilt uitbuiten. Er wordt dan een aanvullende overgang toegevoegd aan de activiteit.
+1. Controleer de **Een uitgaande overgang genereren** als u een overgang wilt toevoegen na de **Adviezen opslaan** activiteit.
 
 De inhoud van het opgeslagen publiek is dan beschikbaar in de gedetailleerde weergave van het publiek, die toegankelijk is vanuit het **Soorten publiek** -menu. De kolommen beschikbaar van deze mening beantwoorden aan de kolommen van de binnenkomende overgang van het werkschema **SAve-publiek** activiteit.
 
