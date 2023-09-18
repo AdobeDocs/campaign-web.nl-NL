@@ -4,7 +4,7 @@ title: Een Adobe Experience Platform-publiek gebruiken
 description: Leer hoe u een publiek van Adobe Experience Platform kunt gebruiken
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: d66305f656d127f6480567462c998ab18fecbcc3
+source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 2%
@@ -52,5 +52,3 @@ Volg onderstaande stappen om een Adobe Experience Platform-publiek voor uw lever
 1. Gebruikend de regelbouwer, kunt u uw publiek met extra filters verrijken of door verschillende soorten publiek te combineren. Zie dit [sectie](segment-builder.md).
 
 1. Klikken **Opslaan**.
-
-
