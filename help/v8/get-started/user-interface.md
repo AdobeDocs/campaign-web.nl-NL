@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
@@ -172,30 +172,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Verrijkingsgegevens"
 >abstract="TBD"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_sending"
->title="Rapportage verzenden"
->abstract="Raadpleeg de verzendende indicatoren voor de campagnerapportage."
 
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_tracking"
->title="Reeksspatiëring rapporteren"
->abstract="Raadpleeg de traceringsindicatoren voor de campagnerapportage."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_overview"
->title="Overzicht van rapportage"
->abstract="Belangrijke cijfers voor de levering."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_target"
->title="Rapportage van doelstatistieken"
->abstract="In deze sectie worden specifieke maatstaven weergegeven op basis van het publiek."
-
->[!CONTEXTUALHELP]
->id="acw_campaign_reporting_deliveries_selection"
->title="Geaggregeerde rapportage voor leveringen"
->abstract="Selecteer ten minste twee leveringen voor de weergave van een samengevoegd gegevensrapport."
 
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
@@ -227,8 +204,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_global_reporting_tracking"
 >title="Globale rapporten bijhouden"
 >abstract="Metrische gegevens voor het bijhouden van rapporten zijn zichtbaar in dit scherm"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"

@@ -3,14 +3,34 @@ audience: end-user
 title: Campagneverslagen
 description: Meer informatie over het openen en gebruiken van campagnerapporten
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1658'
 ht-degree: 1%
 
 ---
 
 # Campagneverslagen {#campaign-reports}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_sending"
+>title="Rapportage verzenden"
+>abstract="Het tabblad Verzenden in uw rapport biedt diepgaande inzichten in de interacties van uw bezoekers met uw leveringen en eventuele fouten die deze hebben aangetroffen."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_tracking"
+>title="Reeksspatiëring rapporteren"
+>abstract="Het verzendende lusje in uw rapport biedt waardevolle gegevens, met inbegrip van ontvankelijk gedrag per verbinding, onderbreking van opent en klikt, evenals gedetailleerde informatie over meest vaak klikte URLs tijdens een levering aan."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_overview"
+>title="Overzicht van levering"
+>abstract="Het leveringsoverzicht biedt belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over hoe uw bezoekers uw e-maillevering uitvoeren."
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_deliveries_target"
+>title="Eerste doelstatistieken"
+>abstract="De aanvankelijke lijst van de doelpubliek toont gegevens met betrekking tot uw ontvangers"
 
 Het campagnerapport bestaat uit verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven.
 
