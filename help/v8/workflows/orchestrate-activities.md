@@ -3,9 +3,9 @@ audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 72faa94a1a63042f6a275ca3252ad0fa5b57e51c
+source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ Als u een activiteit wilt verwijderen, selecteert u deze op het canvas en klikt 
 Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelvenster Eigenschappen, zodat u meerdere bewerkingen kunt uitvoeren. U kunt:
 
 * **Verwijderen** de activiteit van het canvas.
-* **Uitschakelen/inschakelen** de activiteit. Wanneer de workflow wordt uitgevoerd, worden uitgeschakelde activiteiten niet uitgevoerd en wordt de workflow gepauzeerd?
-* **Kopiëren** de activiteit. Vervolgens kunt u de afbeelding in een willekeurige workflow plakken door op de knop &quot;+&quot; in een overgang te klikken en &quot;Activiteiten plakken 1&quot; te selecteren.
+* **Uitschakelen/inschakelen** de activiteit. Wanneer de workflow wordt uitgevoerd, worden uitgeschakelde activiteiten en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de workflow gestopt.
+* **Kopiëren** de activiteit. Vervolgens kunt u de afbeelding in een willekeurige workflow plakken door op de knop &quot;+&quot; te klikken in een overgang en vervolgens &quot;Activiteiten plakken 1&quot; te selecteren.
 * Toegang krijgen tot de activiteiten **Logboeken en taken**.
 * **Pauzeren/hervatten** de activiteit. Wanneer de workflow wordt uitgevoerd, wordt de gepauzeerde activiteit gepauzeerd. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
 
