@@ -4,9 +4,9 @@ title: De e-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '602'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,10 @@ De e-mail **[!UICONTROL Edit content]** scherm kunt u:
 * Extra handelingen uitvoeren, zoals bijlagen toevoegen of aanbiedingen instellen
 * Toegang krijgen tot de [E-mailDesigner](get-started-email-designer.md#start-authoring) om de juiste inhoud van uw e-mail te gaan samenstellen
 
+>[!NOTE]
+>
+>Alle bewerkbare tekstvelden van dit scherm kunnen worden ingevuld met verpersoonlijkingsvelden. [Leer hoe u inhoud kunt aanpassen](../personalization/personalize.md)
+
 Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewerken.
 
 1. Klik op de knop **[!UICONTROL Edit content]** van de knop [dashboard voor e-maillevering](../email/create-email.md) scherm.
@@ -69,7 +73,7 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
    ![](assets/email-edit-content-reply-to.png)
 
-1. De e-mail definiëren **[!UICONTROL Subject line]**. Typ het onderwerp rechtstreeks in het desbetreffende veld of open de Expressieeditor om personalisatie toe te voegen met behulp van verschillende kenmerken en inhoudsblokken of aanbiedingen. [Leer hoe u inhoud kunt aanpassen](../personalization/personalize.md)
+1. De e-mail definiëren **[!UICONTROL Subject line]**. Typ het onderwerp rechtstreeks in het desbetreffende veld of open de Expressieeditor om het toe te voegen [personalisatie](../personalization/personalize.md) het gebruiken van diverse attributen en inhoudsblokken, of aanbiedingen.
 
 1. Als u een bestand bij de e-mail wilt voegen, klikt u op de knop **[!UICONTROL Add attachment]** Selecteer vervolgens een of meerdere bestanden.
 
