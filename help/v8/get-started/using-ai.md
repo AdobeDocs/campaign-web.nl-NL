@@ -2,9 +2,9 @@
 title: Het gebruiken van AI aangedreven knowlegde assistent in het Web van de Campagne
 description: Het gebruiken van AI aangedreven knowlegde assistent in het Web van de Campagne
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: ece1f62e3c1e1378c576e55d8918ee145e17271f
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Kunstmatige intelligentie en modellen voor machinaal leren verbeteren in de loop
 
 ## Aanbevelingen  {#recommendations-ai}
 
-Wanneer u een vraag stelt in de door AI aangedreven Knowledge Assistant, wordt rekening gehouden met de huidige productcontext, dat wil zeggen het campagnescherm waarin u zich bevindt.
+Bij het stellen van een vraag in de door AI aangedreven Medewerker van de Kennis, wordt rekening gehouden met de huidige productcontext, d.w.z. het scherm van de Campagne u binnen en de inhoud van het huidige hulpvakje bent.
 
 Om het beste van de AI-Aanwezige Medewerker van de Kennis te krijgen, wanneer het stellen van een vraag, adviseren wij u:
 
