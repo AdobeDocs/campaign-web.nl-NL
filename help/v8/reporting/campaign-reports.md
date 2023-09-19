@@ -3,7 +3,7 @@ audience: end-user
 title: Campagneverslagen
 description: Meer informatie over het openen en gebruiken van campagnerapporten
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
 source-wordcount: '1658'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_tracking"
 >title="Reeksspatiëring rapporteren"
->abstract="Het verzendende lusje in uw rapport biedt waardevolle gegevens, met inbegrip van ontvankelijk gedrag per verbinding, onderbreking van opent en klikt, evenals gedetailleerde informatie over meest vaak klikte URLs tijdens een levering aan."
+>abstract="Het lusje van het Volgen binnen uw rapport biedt waardevolle gegevens, met inbegrip van ontvankelijk gedrag per verbinding, onderbreking van opent en klikt, evenals gedetailleerde informatie over meest vaak klikte URLs tijdens een levering."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
@@ -141,7 +141,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Invalid domain]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het domein van het e-mailadres onjuist is of niet bestaat.
 
-   * **[!UICONTROL Mailbox full]**: Het type van fout na vijf leveringspogingen wordt geproduceerd om erop te wijzen dat de ontvangers&#39; inbox teveel berichten bevat.
+   * **[!UICONTROL Mailbox full]**: Fouttype dat wordt gegenereerd na vijf leveringspogingen om aan te geven dat het postvak van de ontvanger te veel berichten bevat.
 
    * **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
 

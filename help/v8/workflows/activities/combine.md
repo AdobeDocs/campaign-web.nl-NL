@@ -3,9 +3,9 @@ audience: end-user
 title: Werkstroomactiviteit combineren gebruiken
 description: Leer hoe u de workflowactiviteit combineren gebruikt
 badge: label="Beta"
-source-git-commit: b81fb2bf4cc0accadce47627865379e564c8bd94
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '887'
 ht-degree: 10%
 
 ---
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * De **Intersectie** Hiermee kunt u alleen de elementen behouden die gemeenschappelijk zijn voor de verschillende binnenkomende populaties in de activiteit.
 * De **Uitsluiting** kunt u elementen op basis van bepaalde criteria uitsluiten van één populatie.
 
-## Algemene configuratie {#general}
+## De gecombineerde activiteit bevestigen {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
@@ -48,13 +48,15 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 Voer de volgende algemene stappen uit om de configuratie van de **Combineren** activiteit:
 
+![](../assets/workflow-combine.png)
+
 1. Meerdere activiteiten toevoegen, zoals **publiek opbouwen** activiteiten om ten minste twee verschillende uitvoerende bijkantoren te vormen.
 1. Voeg een **Combineren** activiteiten aan een van de vorige bijkantoren.
 1. Selecteer het segmentatietype: [union](#union), [intersection](#intersection) of [uitsluiting](#exclusion).
 1. Klikken **Doorgaan**.
 1. In de **Stelt in om te verbinden** , controleert u alle vorige activiteiten waaraan u wilt deelnemen.
 
-## Samenvoegen {#union}
+## Samenvoegen {#combine-union}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
@@ -71,14 +73,14 @@ In de **Combineren** activiteit, kunt u vormen **Unie**. Hiervoor moet u de opti
 * **Alleen toetsen**: dit is de standaardmodus. De activiteit behoudt slechts één element wanneer elementen van de verschillende binnenkomende overgangen dezelfde sleutel hebben. Deze optie kan alleen worden gebruikt als de binnenkomende populaties homogeen zijn.
 * **Een selectie van kolommen**: selecteer deze optie om de lijst met kolommen te definiëren waarop de afstemming van gegevens wordt toegepast. U moet eerst de primaire set (de set met de brondata) selecteren en vervolgens de kolommen die u voor de samenvoeging wilt gebruiken.
 
-## Doorsnede {#intersection}
+## Doorsnede {#combine-intersection}
 
 In de **Combineren** activiteit, kunt u vormen **Intersectie**. Hiervoor moet u de volgende extra stappen volgen:
 
 1. Selecteer de **Type afstemming** om te bepalen hoe duplicaten worden verwerkt. Zie de [Unie](#union) sectie.
 1. U kunt de **Voltooiing genereren** als u de resterende populatie wilt verwerken. Het complement zal de samenvoeging bevatten van de resultaten van alle binnenkomende activiteiten min de doorsnede. Een extra uitgaande overgang zal dan aan de activiteit worden toegevoegd.
 
-## Uitsluiting {#exclusion}
+## Uitsluiting {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_options"
@@ -103,7 +105,7 @@ In de **Combineren** activiteit, kunt u vormen **Uitsluiting**. Hiervoor moet u 
 1. Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Om dit te doen, klik **Een regel toevoegen** in de **Uitsluitingsregels** en geeft u de voorwaarden voor het wijzigen van de dimensie op. Afstemming van gegevens vindt plaats via een attribuut of een join-functie.
 1. U kunt de **Voltooiing genereren** als u de resterende populatie wilt verwerken. Zie de [Intersectie](#intersection) sectie.
 
-## Voorbeelden
+## Voorbeelden{#combine-examples}
 
 In het volgende voorbeeld gebruiken we een **Combineren** en wij voegen een **union** om alle profielen van de twee vragen op te halen : personen tussen 18 en 27 jaar en personen tussen 34 en 40 jaar oud .
 

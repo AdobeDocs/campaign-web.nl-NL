@@ -3,9 +3,9 @@ audience: end-user
 title: Verzendrapporten via SMS
 description: Leer hoe u sms-leveringsrapporten kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
+source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '332'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 1%
 >id="acw_sms_report_overview"
 >title="Overzicht van SMS-rapporten"
 >abstract="Ontdek de rapportgegevens voor je SMS-levering."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sending_sms"
+>title="Rapportage verzenden"
+>abstract="Het tabblad Verzenden in uw rapport biedt diepgaande inzichten in de interacties van uw bezoekers met uw leveringen en eventuele fouten die deze hebben aangetroffen."
 
 De **SMS-leveringsrapport** biedt een uitgebreid overzicht van het SMS-kanaal, met uitgebreide inzichten en specifieke gegevens. Het verstrekt uitvoerige informatie over de prestaties, de doeltreffendheid, en de resultaten van elke levering.
 
@@ -66,6 +71,11 @@ De **SMS-leveringsrapport** biedt een uitgebreid overzicht van het SMS-kanaal, m
   ![](assets/reporting_sms_6.png)
 
 ## Leveringsdoorvoer {#delivery-throughput}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_throughput_sms"
+>title="Menu Productie"
+>abstract="Het rapport Productie-doorvoer bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een opgegeven tijdsbestek."
 
 Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een opgegeven tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
 

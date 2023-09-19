@@ -3,9 +3,9 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '430'
 ht-degree: 4%
 
 ---
@@ -36,13 +36,13 @@ ht-degree: 4%
 
 De **Deduplicatie** activiteit is **Targeting** activiteit. Met deze activiteit kunt u duplicaten verwijderen uit het resultaat of de resultaten van de binnenkomende activiteiten. De **Deduplicatie** de activiteit wordt over het algemeen gebruikt na gerichte activiteiten en vóór activiteiten die het gebruik van gerichte gegevens mogelijk maken.
 
-## Configuratie
+## De deduplicatieactiviteit configureren{#deduplication-configuration}
 
 Voer de volgende stappen uit om de **Deduplicatie** activiteit:
 
-1. Voeg een **Deduplicatie** activiteit aan uw werkschema.
+![](../assets/workflow-deduplication.png)
 
-   ![](../assets/workflow-deduplication.png)
+1. Voeg een **Deduplicatie** activiteit aan uw werkschema.
 
 1. In de **Velden om duplicaten te identificeren** klikt u op de **Kenmerk toevoegen** om aan te geven voor welke velden de identieke waarden het mogelijk maken de duplicaten te identificeren: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt.
 
@@ -65,5 +65,5 @@ Voer de volgende stappen uit om de **Deduplicatie** activiteit:
 
 1. Controleer de **Complement genereren** als u de overblijvende bevolking wilt uitbuiten. Het complement bestaat uit alle duplicaten. Er wordt dan een aanvullende overgang toegevoegd aan de activiteit.
 
-## Voorbeeld
+## Voorbeeld{#example}
 
