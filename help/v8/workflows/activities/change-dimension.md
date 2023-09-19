@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit Change-dimensie gebruiken
 description: Leer hoe u de workflowactiviteit Wijzigen kunt gebruiken
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '210'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 De **Dimensie wijzigen** activiteit is **Targeting** activiteit. Met deze activiteit kunt u de doeldimensie wijzigen terwijl u een publiek maakt. Deze activiteit verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie. U kunt bijvoorbeeld van de dimensie &quot;contracten&quot; naar de dimensie &quot;clients&quot; schakelen.
 
-## Configuratie
+## Vorm de de afmetingsactiviteit van de Verandering {#configure}
 
 Voer de volgende stappen uit om de **Dimensie wijzigen** activiteit:
 
@@ -37,5 +37,6 @@ Voer de volgende stappen uit om de **Dimensie wijzigen** activiteit:
 
 1. Voer de workflow uit om het resultaat weer te geven. Vergelijk de gegevens in de tabellen voor en na de activiteit voor de veranderingsdimensie en vergelijk de structuur van de workflowtabellen.
 
+## Voorbeeld {#example}
 
 

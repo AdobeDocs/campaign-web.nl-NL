@@ -4,7 +4,7 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: b811ce7649e833c5df2e73ca787e0c314c28035e
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 0%
@@ -77,7 +77,7 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 In de sectie KLANTBEHEER kunt u uw ontvangers, publiek en abonnementen bekijken. Deze lijsten zijn alleen-lezen.
 
 * **Ontvangers** - Open de ontvangende database. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Meer informatie over ontvangers in [deze sectie](../audience/about-recipients.md).
-* **Soorten publiek** - Dit is uw lijst met doelgroepen. Standaard kunt u het type, de oorsprong, de datum en het label van de wijziging bekijken. U kunt de lijst filteren op oorsprong. Meer informatie over soorten publiek en lijsten in [deze sectie](../audience/about-audiences.md).
+* **Soorten publiek** - Dit is uw lijst met doelgroepen. Standaard kunt u het type, de oorsprong, de datum en het label van de wijziging bekijken. U kunt de lijst filteren op oorsprong. Meer informatie over soorten publiek en lijsten in [deze sectie](../audience/about-recipients.md).
 * **Abonnementen** - Blader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Leer hoe u abonnementen en abonnementen beheert in [Adobe Campaign v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
 
 ### Beslissingsbeheer {#decision-management}

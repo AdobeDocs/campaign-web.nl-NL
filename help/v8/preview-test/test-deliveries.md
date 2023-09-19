@@ -4,7 +4,7 @@ title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: ed9d67c5d84826035785e9543f4ed7655aa094f1
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 1%
@@ -86,7 +86,7 @@ Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaand
 
 Een test-e-mail of -SMS verzenden naar een specifiek e-mailadres of telefoonnummer terwijl gegevens uit een bestaand profiel van het deelvenster [!DNL Campaign] database, gebruik vervangende profielen.
 
-1. Alvorens een test te verzenden, zorg ervoor u een doelpubliek voor u levering bepaalt. [Meer informatie](../audience/about-audiences.md)
+1. Alvorens een test te verzenden, zorg ervoor u een doelpubliek voor u levering bepaalt. [Meer informatie](../audience/about-recipients.md)
 
 1. Blader naar het scherm Inhoud bewerken van uw e-mail- of SMS-verzending en klik vervolgens op de knop **[!UICONTROL Simulate content]** knop.
 
@@ -98,7 +98,7 @@ Een test-e-mail of -SMS verzenden naar een specifiek e-mailadres of telefoonnumm
 
    >[!CAUTION]
    >
-   >Als u geen [publiek](../audience/about-audiences.md) voor uw levering, **[!UICONTROL Substitute from main target]** Deze optie wordt grijs weergegeven en u kunt geen vervangingsprofielen selecteren.
+   >Als u geen [publiek](../audience/about-recipients.md) voor uw levering, **[!UICONTROL Substitute from main target]** Deze optie wordt grijs weergegeven en u kunt geen vervangingsprofielen selecteren.
 
 1. Klik op de knop **[!UICONTROL Add address]** en geeft u het e-mailadres of telefoonnummer op dat de testlevering ontvangt.
 

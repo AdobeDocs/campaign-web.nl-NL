@@ -3,10 +3,10 @@ audience: end-user
 title: Een pushmelding maken
 description: Leer hoe u een pushmelding maakt met Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 48e4baa2cc0e37537c75214f84df3d2e08d771a9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 3%
 
 ---
 
@@ -52,7 +52,7 @@ Ga als volgt te werk om een nieuwe zelfstandige pushaanbieding te maken:
 
 1. Van de **[!UICONTROL Audience]** selecteert u de toepassing die u voor deze levering wilt gebruiken.
 
-1. Klik op de knop **[!UICONTROL Select audience]** om een bestaand publiek als doel in te stellen of uw eigen publiek te maken. [Meer informatie](../audience/about-audiences.md)
+1. Klik op de knop **[!UICONTROL Select audience]** om een bestaand publiek als doel in te stellen of uw eigen publiek te maken. [Meer informatie](../audience/about-recipients.md)
 
    Merk op dat uw pushmelding standaard wordt verzonden naar alle abonnees van de toepassing.
 

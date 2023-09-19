@@ -4,7 +4,7 @@ title: Uw eerste e-mail verzenden
 description: Meer informatie over het verzenden van uw eerste e-mail via de webinterface voor campagnes
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 4fdeaacaa2998bf66b53fd93857bd14d65b98b33
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 1%
@@ -79,7 +79,7 @@ Volg onderstaande stappen om een nieuwe, zelfstandige e-maillevering te maken.
 
 In dit geval stuurt u de e-mail naar een bestaand publiek.
 
-Aanvullende instructies over het werken met het publiek zijn beschikbaar in [deze sectie](../audience/about-audiences.md).
+Aanvullende instructies over het werken met het publiek zijn beschikbaar in [deze sectie](../audience/about-recipients.md).
 
 1. Als u het publiek voor de e-mail wilt selecteren, klikt u op de knop **[!UICONTROL Select audience]** en kiest u een bestaand publiek in de lijst.
 

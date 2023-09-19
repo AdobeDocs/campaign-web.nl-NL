@@ -4,7 +4,7 @@ title: Een sms-levering maken
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 89c9da76-1e04-41cd-9636-0d3b957875b6
-source-git-commit: a67a692cf9b74015323954eca5b4c554f7fe8eb6
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 5%
@@ -51,7 +51,7 @@ Ga als volgt te werk om een nieuwe, zelfstandige SMS-levering te maken:
    * **[!UICONTROL Nature]**: Geef de aard van de e-mail op voor classificatiedoeleinden.
 +++
 
-1. Klik op de knop **[!UICONTROL Select audience]** om een bestaand publiek als doel in te stellen of uw eigen publiek te maken. [Meer informatie](../audience/about-audiences.md).
+1. Klik op de knop **[!UICONTROL Select audience]** om een bestaand publiek als doel in te stellen of uw eigen publiek te maken. [Meer informatie](../audience/about-recipients.md).
 
    ![](assets/sms_create_2.png)
 

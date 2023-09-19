@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 4a8513bb-8290-432a-8e40-822cd1337cb3
-source-git-commit: 2156ad1929e1f17abd1ceff81107fb9305943219
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Een sjabloon kan het volgende bevatten:
 
 * [Typologieën](../advanced-settings/delivery-settings.md#typology),
 * Het adres van de afzender,
-* An [publiek](../audience/about-audiences.md), inclusief [controlegroepen](../audience/control-group.md),
+* An [publiek](../audience/about-recipients.md), inclusief [controlegroepen](../audience/control-group.md),
 * Aangepast [content](../content/edit-content.md),
 * [Persoonlijke velden](../personalization/personalize.md) en [voorwaardelijke inhoud](../personalization/conditions.md),
 * Koppelingen naar [spiegelpagina](../content/mirror-page.md) en uit-abonnement [koppelingen](../content/message-tracking.md),

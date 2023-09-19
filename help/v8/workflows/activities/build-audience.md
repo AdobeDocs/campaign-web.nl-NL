@@ -3,7 +3,7 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 badge: label="Beta"
-source-git-commit: 4028fabf0aca85ace97316b4e072c2b1dfa5dc5f
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Om de publieksbevolking te bepalen, kunt u:
 
 >[!NOTE]
 >
->In deze context kunt u geen publiek uit een bestand laden. Hiervoor moet u een zelfstandige e-maillevering maken. [Meer informatie](../../audience/about-audiences.md)
+>In deze context kunt u geen publiek uit een bestand laden. Hiervoor moet u een zelfstandige e-maillevering maken. [Meer informatie](../../audience/about-recipients.md)
 
 <!--
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.

@@ -4,7 +4,7 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Gebruik de nieuwe UI van het Web van de Campagne:
 
 * Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper - [Meer informatie](../content/edit-content.md)
 * Campagnes voor meerdere kanalen verzenden, inclusief SMS- en pushberichten.
-* Bepaal doelpubliek met de regelbouwer - [Meer informatie](../audience/about-audiences.md)
+* Bepaal doelpubliek met de regelbouwer - [Meer informatie](../audience/about-recipients.md)
 * U kunt uw e-mailberichten voorvertonen, testen en verzenden - [Meer informatie](../monitor/prepare-send.md)
 * Bewaak verzenden en meten resultaten met ingebouwde rapporten - [Meer informatie](../reporting/delivery-reports.md)
 

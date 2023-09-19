@@ -4,7 +4,7 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe u met leveringen werkt en berichten verzendt met Campagne Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2fcebcdeb11a950a7441369341b3b8ba26048cda
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 1%
@@ -79,7 +79,7 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
    * [Push-meldingskanaal](../push/gs-push.md)
    * [Sms-kanaal](../sms/create-sms.md)
 
-1. Bepaal het leveringspubliek, voor het belangrijkste doel en de controlegroep. Meer informatie over publiek in [deze sectie](../audience/about-audiences.md).
+1. Bepaal het leveringspubliek, voor het belangrijkste doel en de controlegroep. Meer informatie over publiek in [deze sectie](../audience/about-recipients.md).
 1. Bepaal de berichtinhoud.
 1. (optioneel) Bepaal de levering [schema](#gs-schedule). Als geen programma wordt bepaald, worden de berichten verzonden onmiddellijk na het klikken van **[!UICONTROL Send]** knop.
 1. Klik op de knop  **[!UICONTROL Review and send]** om uw instellingen te controleren.

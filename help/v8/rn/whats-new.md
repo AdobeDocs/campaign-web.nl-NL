@@ -4,7 +4,7 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
+source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 1%
@@ -44,7 +44,7 @@ Gebruik de nieuwe UI van het Web van de Campagne:
 
 * Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper - [Meer informatie](../content/edit-content.md)
 * Campagnes voor meerdere kanalen verzenden, waaronder SMS- en pushberichten - [Meer informatie](../workflows/activities/channels.md)
-* Bepaal doelpubliek met de regelbouwer - [Meer informatie](../audience/about-audiences.md)
+* Bepaal doelpubliek met de regelbouwer - [Meer informatie](../audience/about-recipients.md)
 * Je berichten voorvertonen, testen en verzenden - [Meer informatie](../monitor/prepare-send.md)
 * Bewaak verzenden en meten resultaten met ingebouwde rapporten - [Meer informatie](../reporting/delivery-reports.md)
 
@@ -124,7 +124,7 @@ Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoe
 * Zaadadressen worden nu gebruikt als **Testprofielen**: verzend de test-e-mail naar zaadadressen, die extra ontvangers in het gegevensbestand zijn. [Meer informatie](../preview-test/test-deliveries.md).
 * De leveringsanalyse is nu de **voorbereiding van levering**. Wanneer u de voorbereiding van het bericht moet starten, klikt u op de knop **Voorbereiden** knop. [Meer informatie](../monitor/prepare-send.md).
 * E-mailvoorvertoning is nu beschikbaar via **Inhoud simuleren** knop. [Meer informatie](../preview-test/preview-test.md)
-* Lijsten zijn nu **Soorten publiek**. [Meer informatie](../audience/about-audiences.md).
+* Lijsten zijn nu **Soorten publiek**. [Meer informatie](../audience/about-recipients.md).
 
 ## Beperkingen{#limitations-beta}
 
