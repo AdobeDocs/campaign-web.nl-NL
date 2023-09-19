@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: a7a7a345e7e01f30516d2925afc46cfe32738aa4
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 1%
@@ -22,7 +22,6 @@ Als u een nieuwe campagne wilt maken of bestaande campagnes wilt beheren, klikt 
 
 ## Lijst met campagnes {#access-campaigns}
 
-
 In de lijst met campagnes zijn twee tabbladen beschikbaar:
 
 * De **Bladeren** worden alle bestaande campagnes weergegeven. U kunt op een campagne klikken om het dashboard te openen of een nieuwe campagne te maken door op de knop **Campagne maken** knop. Zie dit [sectie](create-campaigns.md#create-campaigns).
@@ -40,7 +39,6 @@ U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het filterdeelvenster
 ![Campagne, filter](assets/campaign-filter-on-dates.png)
 
 ## Campagne-dashboard{#campaign-dashboard}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_delivery_list"
