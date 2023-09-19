@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit van de planner gebruiken
 description: Leer hoe u de workflowactiviteit van de planner gebruikt
 badge: label="Beta"
-source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
+source-git-commit: 4f53f8765aeb2254a52eb48591d5e14250afc69d
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 10%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 10%
 
 De **Planner** activiteit is **Stroomregeling** activiteit. Hiermee kunt u plannen wanneer de workflow wordt gestart. Deze activiteit moet worden beschouwd als een geplande start. Deze kan alleen worden gebruikt als de eerste activiteit van de workflow.
 
-## Best practices
+## Best practices{#scheduler-best-practices}
 
 * Plan geen workflow die meer dan om de 15 minuten wordt uitgevoerd, aangezien dit de algehele systeemprestaties kan belemmeren en blokken in de database kan maken.
 * Als u één-schot levering in uw werkschema wilt verzenden, kunt u een planneractiviteit toevoegen en het plaatsen om in werking te stellen **Eenmaal**. U kunt ook de **Schema** in de leveringsinstellingen.
-* Als u een terugkerende levering in uw werkstroom wilt verzenden, moet u een **Planner** en stelt de uitvoeringsfrequentie in. Met de terugkerende leveringsactiviteit kunt u geen schema definiëren.
+* Als u een terugkerende levering in uw werkstroom wilt verzenden, moet u een **Planner** en stelt de uitvoeringsfrequentie in. De terugkomende leveringsactiviteit staat u niet toe om een programma te bepalen.
 
-## Configuratie
+## Configuratie{#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
@@ -43,9 +43,9 @@ De **Planner** activiteit is **Stroomregeling** activiteit. Hiermee kunt u plann
 
 Voer de volgende stappen uit om de **Planner** activiteit:
 
-1. Voeg een **Planner** activiteit aan uw werkschema.
+![](../assets/workflow-scheduler.png)
 
-   ![](../assets/workflow-scheduler.png)
+1. Voeg een **Planner** activiteit aan uw werkschema.
 
 1. Vorm **Uitvoerfrequentie**:
 
@@ -73,9 +73,7 @@ Voer de volgende stappen uit om de **Planner** activiteit:
 >
 >Als u de workflow meteen wilt starten, klikt u op de knop **Taak in behandeling uitvoeren** in de hoogste actiebar van de planner. Deze knop is alleen beschikbaar wanneer u de workflow hebt gestart.
 
-Opmerkingen:
-
-## Voorbeeld
+## Voorbeeld{#scheduler-example}
 
 In het volgende voorbeeld, wordt de activiteit gevormd zodat het werkschema verscheidene keren per dag om 9 en 12 AM, elke dag van de week van 1 Oktober, 2023 tot 1 Januari, 2024 loopt.
 

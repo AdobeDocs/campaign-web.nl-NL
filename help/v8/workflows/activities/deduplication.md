@@ -3,9 +3,9 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '481'
 ht-degree: 3%
 
 ---
@@ -65,8 +65,8 @@ Voer de volgende stappen uit om de **Deduplicatie** activiteit:
 
 1. Controleer de **Complement genereren** als u de overblijvende bevolking wilt uitbuiten. Het complement bestaat uit alle duplicaten. Er wordt dan een aanvullende overgang toegevoegd aan de activiteit.
 
-## Voorbeeld{#example}
+## Voorbeeld{#deduplication-example}
 
-In het volgende voorbeeld, gebruiken wij een deduplicatieactiviteit om duplicaten van het doel uit te sluiten alvorens een levering te verzenden. De geïdentificeerde duplicaten worden toegevoegd aan een specifiek gedupliceerd publiek dat indien nodig opnieuw kan worden gebruikt. We gebruiken de **E-mail** veld om de duplicaten te identificeren. We kiezen ervoor om 1 item te behouden en de **Willekeurig** deduplicatiemethode.
+In het volgende voorbeeld, gebruiken wij een deduplicatieactiviteit om duplicaten van het doel uit te sluiten alvorens een levering te verzenden. De geïdentificeerde duplicaten worden toegevoegd aan een specifiek publiek dat indien nodig opnieuw kan worden gebruikt. We gebruiken de **E-mail** veld om de duplicaten te identificeren. We kiezen ervoor om 1 item te behouden en de **Willekeurig** deduplicatiemethode.
 
 ![](../assets/workflow-deduplication-example.png)

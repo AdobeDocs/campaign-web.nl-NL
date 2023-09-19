@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
 badge: label="Beta"
-source-git-commit: 1c99f8cecea8d53af463f5d37e6f28f227f93d6a
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Zodra de verrijkingsgegevens aan de workflow zijn toegevoegd, kunnen deze worden
 
 U kunt bijvoorbeeld informatie over aankopen van klanten toevoegen aan de werkstroomwerktabel en deze gegevens gebruiken om de e-mails aan te passen aan de laatste aankoop of het bedrag dat aan deze aankopen is besteed.
 
-## Algemene configuratie {#general}
+## De verrijkingsactiviteit configureren {#enrichment-configuration}
 
 Voer de volgende stappen uit om de **Verrijking** activiteit:
 
@@ -76,7 +76,7 @@ In dit complexere gebruiksgeval, zullen wij een inzamelingsverbinding selecteren
 * een filter: items uitfilteren die groter zijn dan 100$
 * een sortering: afstammende sortering op de **Datum van bestelling** veld.
 
-### Het kenmerk toevoegen
+### Het kenmerk toevoegen {#add-attribute}
 
 Hier selecteert u de verzamelingskoppeling die u als verrijkingsgegevens wilt gebruiken.
 
@@ -86,7 +86,7 @@ Hier selecteert u de verzamelingskoppeling die u als verrijkingsgegevens wilt ge
 
 ![](../assets/workflow-enrichment3.png)
 
-### De verzamelingsinstellingen definiëren
+### De verzamelingsinstellingen definiëren{#collection-settings}
 
 Definieer vervolgens hoe de gegevens worden verzameld en hoeveel records moeten worden opgehaald.
 
@@ -99,7 +99,7 @@ Als u bijvoorbeeld het gemiddelde aantal aankopen voor een klant wilt ophalen, s
 
 ![](../assets/workflow-enrichment5.png)
 
-### Filters definiëren
+### Filters definiëren{#collection-filters}
 
 Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren items die groter zijn dan 100$.
 
@@ -109,7 +109,7 @@ Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren it
 
 ![](../assets/workflow-enrichment6.png)
 
-### De sortering definiëren
+### De sortering definiëren{#collection-sorting}
 
 We moeten nu sorteren om de drie bestanden op te halen **nieuwste** aankopen.
 

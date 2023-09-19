@@ -4,10 +4,10 @@ title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
 badge: label="Beta"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 74e64ded74db7aa69a059b785a8b29387c446648
+source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 5%
+source-wordcount: '410'
+ht-degree: 4%
 
 ---
 
@@ -28,10 +28,13 @@ Alle activiteiten worden beschreven in de volgende onderdelen:
 
 Deze activiteiten zijn specifiek gericht op het richten, manipuleren en verrijken van bevolkingsgegevens. Met deze instructies kunt u een of meer doelen maken door een publiek te definiëren en deze soorten publiek te splitsen of te combineren met een doorsnede-, samenvoegings- of uitsluitingsbewerking.
 
+* De [Adviezen opslaan](save-audience.md) met activiteit kunt u een bestaand publiek bijwerken of een nieuw publiek maken van de bevolking die stroomopwaarts in een workflow is berekend.
 * De [publiek opbouwen](build-audience.md) Met activiteit kunt u de doelpopulatie definiëren. U kunt of een bestaand publiek selecteren of de regelbouwer gebruiken om uw eigen vraag te bepalen.
 * De [Combineren](combine.md) activiteit staat toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
-* De [Verrijking](enrichment.md) Met activiteiten kunt u aanvullende gegevens definiëren die in uw workflow moeten worden verwerkt. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
 * De [Splitsen](split.md) de activiteit staat u toe om inkomende bevolking in verscheidene subsets te segmenteren.
+* De [Verrijking](enrichment.md) Met activiteiten kunt u aanvullende gegevens definiëren die in uw workflow moeten worden verwerkt. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
+* De [Deduplicatie](deduplication.md) Met activiteit kunt u duplicaten verwijderen uit het resultaat of de resultaten van de binnenkomende activiteiten.
+* De [Dimensie wijzigen](change-dimension.md) Met activiteit kunt u de doeldimensie wijzigen terwijl u uw workflow bouwt.
 
 ## Kanaalactiviteiten {#channel}
 
@@ -55,6 +58,7 @@ Zie dit [sectie](channels.md).
 
 De volgende activiteiten zijn specifiek voor het organiseren en uitvoeren van workflows. Hun voornaamste taak is de coördinatie van de andere activiteiten:
 
+* De [Planner](scheduler.md) Met deze activiteit kunt u plannen wanneer de workflow wordt gestart.
 * De [En-join](and-join.md) Met activiteit kunt u meerdere uitvoertakken van een workflow synchroniseren.
 * De **Einde** Met activiteit kunt u het einde van een werkstroom grafisch markeren. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
 * De [Vork](fork.md) de activiteit staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.

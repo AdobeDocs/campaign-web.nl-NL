@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit voor vork gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: 173141ec198b4d451a7b388f0e28a29230a11396
+source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '165'
 ht-degree: 1%
 
 ---
@@ -26,15 +26,17 @@ ht-degree: 1%
 
 De **Vork** activiteit is **Stroomregeling** activiteit. Het staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.
 
-## Configuratie
+## De vorkactiviteit configureren{#fork-configuration}
 
 Voer de volgende stappen uit om de **Vork** activiteit:
+
+![](../assets/workflow-fork.png)
 
 1. Voeg een **Vork** activiteit aan uw werkschema.
 1. Klikken **Overgang toevoegen** een nieuwe uitgaande overgang toevoegen. Standaard zijn twee overgangen gedefinieerd.
 1. Voeg een label toe aan elk van uw overgangen.
 
-## Voorbeeld
+## Voorbeeld{#fork-example}
 
 In het volgende voorbeeld gebruiken we twee **Vork** activiteiten:
 

@@ -3,10 +3,10 @@ audience: end-user
 title: De workflowactiviteit voor het publiek opslaan gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: d0bfb97c3c06f80a6c429fc0c924b339397447d2
+source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 7%
+source-wordcount: '385'
+ht-degree: 5%
 
 ---
 
@@ -24,13 +24,13 @@ De **Adviezen opslaan** activiteit is **Targeting** activiteit. Met deze activit
 
 Deze activiteit wordt hoofdzakelijk gebruikt om populatiegroepen in de zelfde werkschema gegevens te bewaren, door hen in herbruikbaar publiek om te zetten. Verbind het met andere gerichte activiteiten zoals **publiek opbouwen** of **Combineren** activiteit.
 
-## Configuratie
+## Vorm sparen publieksactiviteit{#save-audience-configuration}
 
 Voer de volgende stappen uit om de **Adviezen opslaan** activiteit:
 
-1. Voeg een **Adviezen opslaan** activiteit aan uw werkschema.
+![](../assets/workflow-save-audience.png)
 
-   ![](../assets/workflow-save-audience.png)
+1. Voeg een **Adviezen opslaan** activiteit aan uw werkschema.
 
 1. In de **Modus** selecteert u de actie die u wilt uitvoeren:
 
@@ -49,6 +49,8 @@ Voer de volgende stappen uit om de **Adviezen opslaan** activiteit:
 De inhoud van het opgeslagen publiek is dan beschikbaar in de gedetailleerde weergave van het publiek, die toegankelijk is vanuit het **Soorten publiek** -menu. De kolommen beschikbaar van deze mening beantwoorden aan de kolommen van de binnenkomende overgang van het werkschema **SAve-publiek** activiteit.
 
 
-## Voorbeeld
+## Voorbeeld{#save-audience-example}
+
+In het volgende voorbeeld ziet u hoe u een eenvoudige publieksupdate maakt. Een planner wordt toegevoegd om het werkschema eens per maand in werking te stellen. Met een query worden alle profielen hersteld die zijn geabonneerd op de verschillende beschikbare toepassingsservices. De **Adviezen opslaan** de activiteit werkt het publiek door profielen te schrappen die van de dienst sinds de laatste werkschemauitvoering hebben losgemaakt en door de onlangs geabonneerde profielen toe te voegen.
 
 
