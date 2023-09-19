@@ -3,7 +3,7 @@ audience: end-user
 title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
 badge: label="Beta"
-source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde cam
 
 Begin uw werkschema met de relevante activiteiten te bouwen alvorens de levering te plaatsen:
 
-* Als u een bevestiging wilt verzenden, start u de workflow met een **Planner** activiteit. Als u één-schot levering wilt verzenden, kunt u de contactdatum bepalen gebruikend **Planner** activiteit of bepaal het programma in de montages van de levering. Zie [deze sectie](scheduler.md).
+* Als u een terugkerende levering wilt verzenden, start u de workflow met een **Planner** activiteit. Als u één-schot levering wilt verzenden, kunt u de contactdatum bepalen gebruikend **Planner** activiteit of bepaal het programma in de montages van de levering. Zie [deze sectie](scheduler.md).
 
 * Voeg een **publiek opbouwen** activiteit. Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit. Zie [deze sectie](build-audience.md).
 

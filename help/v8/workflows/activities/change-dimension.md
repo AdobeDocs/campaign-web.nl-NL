@@ -3,7 +3,7 @@ audience: end-user
 title: De workflowactiviteit Change-dimensie gebruiken
 description: Leer hoe u de workflowactiviteit Wijzigen kunt gebruiken
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Voer de volgende stappen uit om de **Dimensie wijzigen** activiteit:
 
 ## Voorbeeld {#example}
 
-In dit voorbeeld willen we een SMS-levering verzenden naar alle profielen die een aankoop hebben gedaan. Om dit te doen, gebruiken wij eerst **[!UICONTROL Build audience]** activiteit gekoppeld aan een aangepaste &#39;Aankoop&#39;-dimensie om alle aankopen die hebben plaatsgevonden te richten.
+In dit voorbeeld willen we een SMS-levering verzenden naar alle profielen die een aankoop hebben gedaan. Om dit te doen, gebruiken wij eerst **[!UICONTROL Build audience]** activiteit gekoppeld aan een aangepaste &#39;Aankoop&#39;-dimensie om alle aankopen te richten die hebben plaatsgevonden.
 
 Daarna gebruiken we een **[!UICONTROL Change dimension]** activiteit om de werkschema het richten dimensie op &quot;Ontvangers&quot;te schakelen. Dit staat ons toe om de ontvangers te kunnen richten die de vraag aanpassen.
 

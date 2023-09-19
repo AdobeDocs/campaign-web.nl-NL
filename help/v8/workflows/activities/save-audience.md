@@ -3,7 +3,7 @@ audience: end-user
 title: De workflowactiviteit voor het publiek opslaan gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 5%
@@ -46,7 +46,7 @@ Voer de volgende stappen uit om de **Adviezen opslaan** activiteit:
 
 1. Controleer de **Een uitgaande overgang genereren** als u een overgang wilt toevoegen na de **Adviezen opslaan** activiteit.
 
-De inhoud van het opgeslagen publiek is dan beschikbaar in de gedetailleerde weergave van het publiek, die toegankelijk is vanuit het **Soorten publiek** -menu. De kolommen beschikbaar van deze mening beantwoorden aan de kolommen van de binnenkomende overgang van het werkschema **SAve-publiek** activiteit.
+De inhoud van het opgeslagen publiek is dan beschikbaar in de gedetailleerde weergave van het publiek, die toegankelijk is vanuit het **Soorten publiek** -menu. De kolommen beschikbaar van deze mening beantwoorden aan de kolommen van de binnenkomende overgang van het werkschema **Adviezen opslaan** activiteit.
 
 
 ## Voorbeeld{#save-audience-example}

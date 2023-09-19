@@ -3,7 +3,7 @@ audience: end-user
 title: Werkstroomactiviteit combineren gebruiken
 description: Leer hoe u de workflowactiviteit combineren gebruikt
 badge: label="Beta"
-source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '887'
 ht-degree: 10%
@@ -29,7 +29,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 * De **Intersectie** Hiermee kunt u alleen de elementen behouden die gemeenschappelijk zijn voor de verschillende binnenkomende populaties in de activiteit.
 * De **Uitsluiting** kunt u elementen op basis van bepaalde criteria uitsluiten van één populatie.
 
-## De gecombineerde activiteit bevestigen {#combine-configuration}
+## De combinatieactiviteit configureren {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"

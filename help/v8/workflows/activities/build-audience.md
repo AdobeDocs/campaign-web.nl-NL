@@ -3,7 +3,7 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 badge: label="Beta"
-source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
+source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -74,6 +74,6 @@ Hier is een voorbeeld van een workflow met twee **publiek opbouwen** activiteite
 
 ![](../assets/workflow-audience-example.png)
 
-Hier is nog een voorbeeld van een workflow waarbij een Adobe Experience Platform-publiek wordt gecombineerd met een Adobe Campaign-publiek. Om deze doelgroepen te kunnen combineren, moet u **[!UICONTROL Change dimension]** activiteit met de &quot;Ontvanger&quot;het richten dimensie wordt toegevoegd na het publiek van Adobe Experience Platform. [Leer hoe te om een activiteit van de Dimensie van de Verandering te vormen](change-dimension.md)
+Hier is nog een voorbeeld van een workflow waarbij een Adobe Experience Platform-publiek wordt gecombineerd met een Adobe Campaign-publiek. Om deze doelgroepen te kunnen combineren, moet u **[!UICONTROL Change dimension]** activiteit met de &quot;Ontvanger&quot;het richten dimensie wordt toegevoegd na het publiek van Adobe Experience Platform. [Leer hoe te om een de dimensie van de Verandering activiteit te vormen](change-dimension.md)
 
 ![](../assets/workflow-audience-aep.png)
