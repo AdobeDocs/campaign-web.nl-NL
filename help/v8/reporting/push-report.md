@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporten over levering verzenden
 description: Leer hoe u pushrapporten kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_push_report_overview"
 >title="Overzicht van pushrapport"
->abstract="Ontdek de rapportgegevens voor uw pushbestelling."
+>abstract="De **Overzicht van pushbezorging** biedt een uitgebreid overzicht van uw pushaanbieding, met uitgebreide inzichten en specifieke gegevens. Het verstrekt uitvoerige informatie over de prestaties, de doeltreffendheid, en de resultaten van uw levering."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Rapportage verzenden"
->abstract="Het tabblad Verzenden in uw rapport biedt diepgaande inzichten in de interacties van uw bezoekers met uw leveringen en eventuele fouten die deze hebben aangetroffen."
+>abstract="hij **Verzenden** in uw rapport biedt diepgaande inzichten in de interactie van uw bezoekers met uw leveringen en eventuele fouten die deze hebben aangetroffen."
 
 De **Push-leveringsrapport** biedt een grondig overzicht van het pushkanaal, met uitgebreide inzichten en specifieke gegevens. Het biedt uitvoerige informatie over de prestaties, de doeltreffendheid, en de resultaten van elke levering aan.
 

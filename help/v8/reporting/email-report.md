@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: 5307387d63df5ae3af1b849fa0a1181c42cc1879
+source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specif
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Rapportage verzenden"
->abstract="Het menu Verzenden in uw rapport biedt diepgaande inzichten in de interacties van uw bezoekers met uw leveringen en eventuele fouten die deze hebben aangetroffen."
+>abstract="hij **Verzenden** in uw rapport biedt diepgaande inzichten in de interactie van uw bezoekers met uw leveringen en eventuele fouten die deze hebben aangetroffen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="Oorspronkelijke doelpopulatie-widget"
->abstract="De aanvankelijke grafiek van de doelpopulatie toont gegevens met betrekking tot uw ontvangers en het succes van uw levering."
+>abstract="De **Eerste doelgroep** de grafiek toont gegevens met betrekking tot uw ontvangers en het succes van uw levering."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Widget Afleveringsstatistieken"
->abstract="De grafiek van de statistiek van de Levering detailleert het succes van uw levering en fouten die voorkwamen."
+>abstract="De **Leveringsstatistieken** de grafiek geeft het succes van uw levering en fouten die voorkwamen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
@@ -92,7 +92,7 @@ De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specif
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
 >title="Widget voor productie"
->abstract="Het rapport Productie-doorvoer bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een opgegeven tijdsbestek."
+>abstract="De **Leveringsdoorvoer** het rapport bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een bepaald tijdsbestek."
 
 Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een opgegeven tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
 
@@ -101,7 +101,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="Widget statistiek uitzenden"
->abstract="De lijst van de statistiek van de Uitzending bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden ontmoet."
+>abstract="De **Uitzendstatistieken** de tabel bevat de beschikbare gegevens voor mogelijke fouten die met elk domein zijn aangetroffen."
 
 * **[!UICONTROL Broadcast statistics]** de tabel bevat de beschikbare gegevens voor mogelijke fouten die met elk domein zijn aangetroffen.
 
@@ -129,12 +129,12 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Uitsplitsing van fouten per widget type"
->abstract="De indeling van fouten per tabel en grafiek bevat de beschikbare gegevens voor elk aangetroffen fouttype."
+>abstract="De **Uitsplitsing van fouten per type** tabel en grafiek bevatten de beschikbare gegevens voor elk aangetroffen fouttype."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Uitsplitsing van fouten per domeinwidget"
->abstract="De indeling van fouten per tabel en grafiek bevat de beschikbare gegevens voor elk type fout dat afhankelijk van elk domein wordt aangetroffen."
+>abstract="De **Uitsplitsing van fouten per domein** tabel en grafiek bevatten de beschikbare gegevens voor elk type fout dat afhankelijk van elk domein wordt aangetroffen."
 
 * **[!UICONTROL Breakdown of errors per type]** en **[!UICONTROL Breakdown of errors per domain]** tabellen en grafieken bevatten de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen.
 
@@ -165,17 +165,17 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_tracking_email"
 >title="Reeksspatiëring rapporteren"
->abstract="Het lusje van het Volgen binnen uw rapport biedt waardevolle gegevens, met inbegrip van ontvankelijk gedrag per verbinding, onderbreking van opent en klikt, evenals gedetailleerde informatie over meest vaak klikte URLs tijdens een levering."
+>abstract="De **Tekstspatiëring** bevat waardevolle gegevens, zoals het gedrag van de ontvanger per koppeling, de manier waarop wordt geopend en geklikt, en gedetailleerde informatie over de URL&#39;s waarop het vaakst wordt geklikt tijdens de levering."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" Widget Afleveringsstatistieken"
->abstract="De widget voor leveringsstatistieken biedt belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over gegevens die beschikbaar zijn voor verzonden e-mails."
+>abstract="De **Leveringsstatistieken** widget biedt belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de gegevens die beschikbaar zijn voor verzonden e-mails."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="Widget voor Open- en doorkliksnelheid"
->abstract="In de tabel met Open- en Doorklikfrequenties worden gegevens weergegeven die betrekking hebben op de betrokkenheid van uw ontvangers bij uw levering."
+>abstract="De **Open- en doorklikfrequentie** in de tabel worden gegevens weergegeven die betrekking hebben op de betrokkenheid van uw ontvangers bij uw levering."
 
 * **[!UICONTROL Delivery statistics]** biedt prestatiekernindicatoren (KPI&#39;s) die gedetailleerde informatie geven over gegevens die beschikbaar zijn voor verzonden e-mails.
 
@@ -218,7 +218,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL&#39;s en klik op de widget Streams"
->abstract="URLs en klik stromen verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt."
+>abstract="De **URL&#39;s en klik op streams** verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt."
 
 * **[!UICONTROL URLs and click streams]** verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt.
 
@@ -257,7 +257,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="Widget gebruikersactiviteiten"
->abstract="In de grafiek Gebruikersactiviteiten wordt de uitsplitsing van geopend en geklikt in de vorm van een diagram. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag, afgelopen uur of 30 minuten."
+>abstract="De **Gebruikersactiviteiten** de grafiek toont de uitsplitsing van opent en klikt in de vorm van een grafiek. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag, afgelopen uur of 30 minuten."
 
 * **[!UICONTROL User activities]** toont de uitsplitsing van opent en klikt in de vorm van een grafiek. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag, afgelopen uur of 30 minuten.
 
@@ -276,7 +276,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="Widget Statistieken bijhouden"
->abstract="De grafiek van de Statistieken van het Volgen verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens."
+>abstract="De **Statistieken bijhouden** de grafiek verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens."
 
 * **[!UICONTROL Tracking Statistics]** de grafiek verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens.
 
@@ -294,15 +294,16 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
->title="Onderverdeling per apparaatwidget"
->abstract="De indeling per apparaat"
+>title="Uitsplitsing per apparaat"
+>abstract="De **Uitsplitsing per apparaat** de uitsplitsing van de openingen naar soort voorziening voor de betrokken periode. In het eerste diagram worden statistieken over de mogelijkheden van een computer en een mobiel apparaat weergegeven. In het tweede voorbeeld worden alleen statistieken weergegeven over het openen op mobiele apparaten."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
->title="Onderverdeling op besturingssysteemwidget"
->abstract="Uitsplitsing door besturingssysteem"
+>title="Uitsplitsing naar besturingssysteem"
+>abstract="De **Uitsplitsing naar besturingssysteem** de uitsplitsing van de openingen naar besturingssysteem voor de betrokken periode. In het eerste diagram worden statistieken over de mogelijkheden van een computer en een mobiel apparaat weergegeven. In het tweede voorbeeld worden alleen statistieken weergegeven over het openen op mobiele apparaten."
 
 In dit rapport wordt de uitsplitsing van de openingen per besturingssysteem, apparaat en browser voor de betrokken periode weergegeven. Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele apparaten. In het tweede voorbeeld worden alleen statistieken weergegeven over het openen op mobiele apparaten.
+
 U hebt de flexibiliteit om over te schakelen van **[!UICONTROL Fix & mobile]** uitsluitend **[!UICONTROL Mobile only]** voor een nauwkeuriger doelgerichtheid.
 
 ![](assets/reporting_email_13.png){align="center"}
@@ -312,8 +313,8 @@ U hebt de flexibiliteit om over te schakelen van **[!UICONTROL Fix & mobile]** u
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
 >title="Hotclicks-rapport"
->abstract="Het rapport Hotclicks geeft de inhoud van het bericht weer met het percentage klikken op elke koppeling."
+>abstract="De **Hotclicks** In dit rapport wordt de e-mailinhoud (HTML en/of tekst) weergegeven met het percentage klikken op koppelingen voor elke koppeling. De blokken van de verpersoonlijking, unsubscription verbindingen, de verbindingen van de spiegel, en aanbiedingsverbindingen worden in de totale gecumuleerde klikken in aanmerking genomen, maar niet getoond in het rapport."
 
-Dit rapport toont de berichtinhoud (HTML en/of tekst) met, op elke verbinding, het percentage klikt op verbindingen. De belemmeringen van de verpersoonlijking unsubscription verbindingen, spiegelpaginakoppelingen en aanbiedingsverbindingen worden in de totale gecumuleerde kliks in aanmerking genomen maar niet getoond in het rapport.
+Dit rapport toont de berichtinhoud (HTML en/of tekst) met, op elke verbinding, het percentage klikt op verbindingen. De blokken van de verpersoonlijking, unsubscription verbindingen, de verbindingen van de spiegel, en aanbiedingsverbindingen worden in de totale gecumuleerde klikken in aanmerking genomen, maar niet getoond in het rapport.
 
 ![](assets/reporting11.png)
