@@ -4,9 +4,9 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: ed12d289c1180fe8705d2c143bd9dce4ed96e313
+source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Gebruik de nieuwe UI van het Web van de Campagne:
 * Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper - [Meer informatie](../content/edit-content.md)
 * Campagnes voor meerdere kanalen verzenden, waaronder SMS- en pushberichten - [Meer informatie](../workflows/activities/channels.md)
 * Bepaal doelpubliek met de regelbouwer - [Meer informatie](../audience/about-audiences.md)
-* U kunt uw e-mailberichten voorvertonen, testen en verzenden - [Meer informatie](../monitor/prepare-send.md)
+* Je berichten voorvertonen, testen en verzenden - [Meer informatie](../monitor/prepare-send.md)
 * Bewaak verzenden en meten resultaten met ingebouwde rapporten - [Meer informatie](../reporting/delivery-reports.md)
 
 
@@ -63,9 +63,7 @@ De belangrijkste mogelijkheden die met het Webbètaprogramma van de Campagne kom
 
 * **Gen AI voor e-mailinhoud**
 
-  Neem afscheid van het handmatig maken van inhoud en begroet efficiënte, door gegevens gestuurde campagnes met de kracht van Gen AI.  Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen om bijzonder boeiende en gepersonaliseerde inhoud te genereren. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI.
-
-  Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud.
+  Neem afscheid van het handmatig maken van inhoud en begroet efficiënte, door gegevens gestuurde campagnes met de kracht van Gen AI.  Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen om bijzonder boeiende en gepersonaliseerde inhoud te genereren. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI. Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud. Deze mogelijkheid zal begin oktober beschikbaar zijn.
 
   Meer informatie in [deze sectie](../content/generative-gs.md).
 
@@ -99,7 +97,7 @@ De belangrijkste mogelijkheden die met het Webbètaprogramma van de Campagne kom
 
 * **Medewerker kennis met Gen AI**
 
-  Stel vragen en vind direct hulp van het productgebruikersinterface. De nieuwe, door AI aangedreven kennisassistent, ingebed in de contextafhankelijke help popovers, helpt u uw expertise op het gebied van nieuwe campagnefuncties te leren en uit te breiden. Op basis van de meest recente productdocumentatie helpt het u om hulp te zoeken en stap voor stap hulp te krijgen, aangezien u uw gebruiksgevallen bouwt.
+  Stel vragen en vind direct hulp van het productgebruikersinterface. De nieuwe, door AI aangedreven kennisassistent, ingebed in de contextafhankelijke help popovers, helpt u uw expertise op het gebied van nieuwe campagnefuncties te leren en uit te breiden. Op basis van de meest recente productdocumentatie helpt het u om hulp te zoeken en stap voor stap hulp te krijgen, aangezien u uw gebruiksgevallen bouwt. Deze mogelijkheid zal begin oktober beschikbaar zijn.
 
   Meer informatie in [deze sectie](../get-started/using-ai.md).
 
