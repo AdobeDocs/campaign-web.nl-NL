@@ -3,9 +3,9 @@ audience: end-user
 title: Tekst met de inhoudsassistent
 description: Aan de slag met de inhoudsassistent
 badge: label="Beta"
-source-git-commit: 54012ba8df59600298ba8f2f9bca19ea56808466
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 1%
 Als u eenmaal e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de Content Assistant die wordt aangedreven door generatieve AI om uw inhoud naar het volgende niveau te brengen.
 
 De Inhoudsassistent kan u helpen de impact van uw leveringen te optimaliseren door andere inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
+
+
+>[!AVAILABILITY]
+>
+>Deze mogelijkheid zal begin oktober beschikbaar zijn.
 
 1. Nadat u de e-maillevering hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Edit content]**.
 

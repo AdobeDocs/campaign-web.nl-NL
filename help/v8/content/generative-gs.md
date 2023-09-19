@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met de inhoudsassistent
 description: Aan de slag met de inhoudsassistent
 badge: label="Beta"
-source-git-commit: 9e47edb0b38390a9afd7a1ad2d4b25050d0b1306
+source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 0%
 De Content Assistant, aangedreven door generatieve AI, is een waardevol hulpmiddel voor het verbeteren van e-mailinhoud. Het vereenvoudigt personalisatie en inhoudsuitbreiding, die uw e-mailleveringen optimaliseren om beter op uw publiek af te stemmen.
 
 Met deze functie bespaart u tijd en bent u verzekerd van consistente kwaliteit door automatisch volledige e-mailinhoud te genereren. Door gebruik te maken van Generative AI kunt u moeiteloos aansprekende e-mails maken, waardoor de effectiviteit en efficiëntie van uw communicatie worden verbeterd.
+
+>[!AVAILABILITY]
+>
+>Deze mogelijkheid zal begin oktober beschikbaar zijn.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
