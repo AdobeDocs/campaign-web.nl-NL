@@ -2,7 +2,7 @@
 title: Werken met ontvangers en publiek
 description: Leer hoe te met ontvangers het Web van de Campagne werken
 badge: label="Beta"
-source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
+source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 2%
@@ -45,7 +45,7 @@ U kunt ontvangers ook benaderen via de **Verkenner** mappen en submappen weergev
 >
 >Afhankelijk van uw machtigingen hebt u mogelijk geen toegang tot de volledige lijst met ontvangers die in de database zijn opgeslagen. Meer informatie over machtigingen in [deze sectie](../get-started/permissions.md).
 
-Bovendien kunt u het abonnement op en het abonnement van uw ontvangers op services zoals nieuwsbrieven beheren. [Leer hoe u met abonnementsservices werkt](create-service.md)
+Bovendien kunt u het abonnement op en het abonnement van uw ontvangers op services zoals nieuwsbrieven beheren. [Leer hoe u met abonnementsservices werkt](manage-services.md)
 
 ## Wat zijn de doelgroepen? {#audiences}
 
