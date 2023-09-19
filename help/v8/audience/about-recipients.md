@@ -1,16 +1,18 @@
 ---
-title: Werken met ontvangers
+title: Werken met ontvangers en publiek
 description: Leer hoe te met ontvangers het Web van de Campagne werken
 badge: label="Beta"
-source-git-commit: 0dc5d7d32c743a4e01f539b9c1fc1733ce1fcffe
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 4%
+source-wordcount: '581'
+ht-degree: 2%
 
 ---
 
 
-# Werken met ontvangers {#about-recipients}
+# Werken met ontvangers en publiek {#about-recipients}
+
+## Ontvangers {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -43,3 +45,22 @@ U kunt ontvangers ook benaderen via de **Verkenner** mappen en submappen weergev
 >
 >Afhankelijk van uw machtigingen hebt u mogelijk geen toegang tot de volledige lijst met ontvangers die in de database zijn opgeslagen. Meer informatie over machtigingen in [deze sectie](../get-started/permissions.md).
 
+Bovendien kunt u het abonnement op en het abonnement van uw ontvangers op services zoals nieuwsbrieven beheren. [Leer hoe u met abonnementsservices werkt](create-service.md)
+
+## Doelgroepen {#audiences}
+
+Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Het type publiek hangt van de doelafbeelding af die in het leveringsmalplaatje wordt bepaald. [Meer weten over een leveringssjabloon](../msg/delivery-template.md).
+
+Om de populatie van een publiek te bepalen, kunt u:
+
+* [Nieuw publiek maken](create-audience.md) van de **[!UICONTROL Audiences]** menu,
+* [Bestaande doelgroep selecteren](add-audience.md) gemaakt als een lijst in de clientconsole,
+* [Een Adobe Experience Platform-publiek selecteren](aep-audience.md),
+* [Een nieuw publiek maken](segment-builder.md) met de regelbouwer door filtercriteria te definiëren en te combineren,
+* [Een publiek uit een extern bestand gebruiken](file-audience.md). Deze optie is alleen beschikbaar voor zelfstandige e-mailleveringen en kan niet worden gebruikt in campagneleveringen.
+
+Wanneer u zich richt op een publiek, kunt u ook definiëren **controlegroepen** om te voorkomen dat berichten naar een deel van uw publiek worden verzonden en om de impact van uw campagnes te meten. [Leer hoe u een controlegroep instelt](control-group.md)
+
+>[!NOTE]
+>
+>Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het publiek bepaald in een specifiek **publiek opbouwen** workflowactiviteit. In deze context kunt u geen publiek uit een bestand laden voor e-maillevering en wordt het publiek alleen gedefinieerd in deze toegewijde activiteit. Leer hoe u het publiek van uw levering kunt definiëren in een campagneworkflow [in deze sectie](../workflows/activities/build-audience.md)

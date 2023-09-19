@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 5ea7ee7cc9046c80d28ea413cd11641e0b213ccf
+source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '415'
 ht-degree: 11%
 
 ---
@@ -83,8 +83,7 @@ ht-degree: 11%
       + [Testleveringen verzenden](preview-test/test-deliveries.md)
       + [Uw e-mail renderen](preview-test/email-rendering.md)
 + Soorten publiek en ontvangers {#audiences}
-   + [Aan de slag met het publiek](audience/about-audiences.md)
-   + [Werken met ontvangers](audience/about-recipients.md)
+   + [Werken met ontvangers en publiek](audience/about-recipients.md)
    + [Soorten publiek maken](audience/create-audience.md)
    + [Het publiek bewaken en beheren](audience/access-audiences.md)
    + Doelpubliek {#target-audiences}
@@ -92,7 +91,7 @@ ht-degree: 11%
       + [Bepaal een publiek met de regelbouwer](audience/segment-builder.md)
       + [Een e-mailpubliek laden vanuit een bestand](audience/file-audience.md)
       + [Een Adobe Experience Platform-publiek gebruiken](audience/aep-audience.md)
-   + [Een controlegroep instellen](audience/control-group.md)
+      + [Een controlegroep instellen](audience/control-group.md)
    + [Werken met abonnementsservices](audience/create-service.md)
 + Kanaaloverschrijdende campagnes {#campaigns}
    + [Aan de slag met campagnes](campaigns/gs-campaigns.md)
