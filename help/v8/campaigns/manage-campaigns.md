@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Beta"
-source-git-commit: d9273f383e2301ea761ac67eeb47f6d9fd769d44
+source-git-commit: 9b945dcd4151e536e8a8be904100730c86e483b7
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '600'
 ht-degree: 1%
 
 ---
@@ -69,3 +69,22 @@ U kunt een campagne dupliceren of verwijderen:
 >[!NOTE]
 >
 >De **Leveringen** worden alle leveringen weergegeven die aan de campagne zijn gekoppeld. Leveringen die in een workflow zijn gemaakt, kunnen daar echter niet van worden verwijderd. Als u een levering wilt verwijderen die in de context van een workflow is gemaakt, moet u de leveringsactiviteit uit de workflow verwijderen. [Meer informatie](../msg/gs-messages.md#delivery-delete).
+
+## Werken met campagneresjablonen{#manage-campaign-templates}
+
+Campagnemasjablonen bevatten vooraf geconfigureerde instellingen die opnieuw kunnen worden gebruikt voor het maken van nieuwe workflows. Er is een set ingebouwde sjablonen beschikbaar om u te helpen aan de slag te gaan. U kunt uw campagnemalplaatjes tot stand brengen en vormen en dan campagnes van deze malplaatjes tot stand brengen.
+
+Een campagnemalplaatje kan de volgende informatie opslaan:
+
+* de campagne **Eigenschappen** en **Schema** instellingen
+* werkstroomsjablonen
+* leveringssjablonen
+
+Volg onderstaande stappen om een campagnemalplaatje te maken:
+
+1. Klik op de knop **[!UICONTROL Campaigns]** , bladert u naar de **Sjablonen** en klikt u op de knop **[!UICONTROL Create template]** knop.
+1. Selecteer de **Sjabloon** een label voor de campagne te gebruiken en te verstrekken. Zo kunt u de nieuwe sjabloon baseren op een sjabloon die al is gemaakt.
+1. Indien nodig kunt u het volgende wijzigen **Aanvullende opties**: interne naam, map, ontvanger, beschrijving en aard.
+1. Definieer de **Schema** van uw campagne. Meer informatie over het instellen van uw campagneschema in [deze sectie](create-campaigns.md#campaign-schedule)
+1. Klikken **Maken**.
+1. Workflows en leveringssjablonen toevoegen aan uw campagne.
