@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Beta"
-source-git-commit: a7a7a345e7e01f30516d2925afc46cfe32738aa4
+source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 1%
@@ -26,7 +26,7 @@ In de lijst met campagnes zijn twee tabbladen beschikbaar:
 
 * De **Bladeren** worden alle bestaande campagnes weergegeven. U kunt op een campagne klikken om het dashboard te openen of een nieuwe campagne te maken door op de knop **Campagne maken** knop. Zie dit [sectie](create-campaigns.md#create-campaigns).
 
-* De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. U kunt een bestaande sjabloon weergeven of een nieuwe sjabloon maken. [Meer informatie](manage-campaign-templates.md).
+* De **Sjablonen** worden alle beschikbare campagnemalplaatjes vermeld. U kunt een bestaande sjabloon weergeven of een nieuwe sjabloon maken. [Meer informatie](#manage-campaign-templates).
 
 ![Lijst met campagnes](assets/campaign-list.png)
 
