@@ -4,9 +4,9 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: f38c4e53275e5d5feb4d93957995dc962cefb03b
+source-git-commit: 9903074ba5da52d2aedd02d60bc56f0e0df91b26
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -122,7 +122,7 @@ Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoe
 
 * Proefdrukken zijn nu **E-mailberichten testen**: als u een bewijs wilt verzenden, gebruikt u de **Testen** in de gebruikersinterface voor e-maillevering. Het doel van de proefdrukken wordt nu **Testprofielen**. [Meer informatie](../preview-test/test-deliveries.md).
 * Zaadadressen worden nu gebruikt als **Testprofielen**: verzend de test-e-mail naar zaadadressen, die extra ontvangers in het gegevensbestand zijn. [Meer informatie](../preview-test/test-deliveries.md).
-* De leveringsanalyse is nu de **voorbereiding van levering**. Wanneer u de analyse wilt starten, klikt u op de knop **Voorbereiden** knop. [Meer informatie](../monitor/prepare-send.md).
+* De leveringsanalyse is nu de **voorbereiding van levering**. Wanneer u de voorbereiding van het bericht moet starten, klikt u op de knop **Voorbereiden** knop. [Meer informatie](../monitor/prepare-send.md).
 * E-mailvoorvertoning is nu beschikbaar via **Inhoud simuleren** knop. [Meer informatie](../preview-test/preview-test.md)
 * Lijsten zijn nu **Soorten publiek**. [Meer informatie](../audience/about-audiences.md).
 
