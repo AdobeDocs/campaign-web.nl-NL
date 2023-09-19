@@ -4,7 +4,7 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c48b0a7dc897e169180586492a991b189453b1fb
+source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Toegang krijgen tot de Help-pagina&#39;s voor Campagne v8 Web **Leren** van de s
 
 De **Verkenner** worden alle campagnebronnen en -objecten met dezelfde mappenhiërarchie als de map in de clientconsole weergegeven. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8 en maak leveringen, workflows en campagnes.
 
-De items die worden weergegeven in de **Verkenner** zijn afhankelijk van uw gebruikersmachtigingen.  U kunt ook mappen en submappen toevoegen als u de juiste machtigingen hebt. Meer informatie over machtigingen in [deze sectie](permissions.md).
+De items die worden weergegeven in de **Verkenner** zijn afhankelijk van uw gebruikersmachtigingen. U kunt ook mappen en submappen toevoegen als u de juiste rechten hebt. Meer informatie over machtigingen in [deze sectie](permissions.md).
 
 Zoals in om het even welk lijstscherm, kunt u kolommen vormen om de vertoning te personaliseren om alle informatie te bekijken u wenst. Zie dit [sectie](#list-screens).
 
