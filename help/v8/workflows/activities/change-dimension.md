@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit Change-dimensie gebruiken
 description: Leer hoe u de workflowactiviteit Wijzigen kunt gebruiken
 badge: label="Beta"
-source-git-commit: 9bb80d10f20bb36162b74982d51ed67c1600f831
+source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '292'
 ht-degree: 1%
 
 ---
@@ -23,10 +23,9 @@ ht-degree: 1%
 >title="Dimensieactiviteit wijzigen"
 >abstract="Met deze activiteit kunt u de doeldimensie wijzigen terwijl u een publiek maakt. Het verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie. U kunt bijvoorbeeld van de dimensie &quot;contracten&quot; naar de dimensie &quot;clients&quot; schakelen."
 
-De **Dimensie wijzigen** activiteit is **Targeting** activiteit. Met deze activiteit kunt u de doeldimensie wijzigen terwijl u uw workflow bouwt.
-Deze activiteit verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie.
+De **Dimensie wijzigen** activiteit is **Targeting** activiteit. Met deze activiteit kunt u de doeldimensie wijzigen terwijl u uw workflow bouwt. Het verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie. [Meer informatie over doelgerichte dimensies](../../audience/about-recipients.md#targeting-dimensions)
 
-U kunt bijvoorbeeld de doeldimensie van een workflow veranderen van &quot;Ontvangers&quot; in &quot;toepassing Abonnees&quot; om pushberichten naar de beoogde ontvangers te verzenden.
+U kunt bijvoorbeeld de doeldimensie van een workflow veranderen van &quot;Ontvangers&quot; in &quot;Abonnees&quot; om pushberichten naar de beoogde ontvangers te verzenden.
 
 ## Vorm de de afmetingsactiviteit van de Verandering {#configure}
 
@@ -47,4 +46,3 @@ In dit voorbeeld willen we een SMS-levering verzenden naar alle profielen die ee
 Daarna gebruiken we een **[!UICONTROL Change dimension]** activiteit om de werkschema het richten dimensie op &quot;Ontvangers&quot;te schakelen. Dit staat ons toe om de ontvangers te kunnen richten die de vraag aanpassen.
 
 ![](../assets/workflow-change-dimension-example.png)
-

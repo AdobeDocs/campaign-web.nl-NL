@@ -2,9 +2,9 @@
 title: Werken met ontvangers en publiek
 description: Leer hoe te met ontvangers het Web van de Campagne werken
 badge: label="Beta"
-source-git-commit: 269cbb51f070b0f9f771691497ffa07bb94e2d49
+source-git-commit: fb144e4b7186717dd0c4049d8ce884998a1adefe
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '877'
 ht-degree: 2%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Werken met ontvangers en publiek {#about-recipients}
 
-## Ontvangers {#recipients}
+## Wat zijn ontvangers? {#recipients}
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
@@ -47,7 +47,7 @@ U kunt ontvangers ook benaderen via de **Verkenner** mappen en submappen weergev
 
 Bovendien kunt u het abonnement op en het abonnement van uw ontvangers op services zoals nieuwsbrieven beheren. [Leer hoe u met abonnementsservices werkt](create-service.md)
 
-## Doelgroepen {#audiences}
+## Wat zijn de doelgroepen? {#audiences}
 
 Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Het type publiek hangt van de doelafbeelding af die in het leveringsmalplaatje wordt bepaald. [Meer weten over een leveringssjabloon](../msg/delivery-template.md).
 
@@ -64,3 +64,27 @@ Wanneer u zich richt op een publiek, kunt u ook definiëren **controlegroepen** 
 >[!NOTE]
 >
 >Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het publiek bepaald in een specifiek **publiek opbouwen** workflowactiviteit. In deze context kunt u geen publiek uit een bestand laden voor e-maillevering en wordt het publiek alleen gedefinieerd in deze toegewijde activiteit. Leer hoe u het publiek van uw levering kunt definiëren in een campagneworkflow [in deze sectie](../workflows/activities/build-audience.md)
+
+## Doelafmetingen {#targeting-dimensions}
+
+De het richten dimensie is het type van gegevens dat een verrichting behandelt. Hiermee kunt u de doelgroep definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz.
+
+De doeldimensie van een workflow wordt gedefinieerd door de eerste **[!UICONTROL Build audience]** en wordt gebruikt voor alle verdere activiteiten tot het einde van de werkstroom. Bijvoorbeeld, als u een vraag op de ontvangers van het gegevensbestand uitvoert, zal de uitgaande overgang gegevens van type ontvanger bevatten en het zal aan de volgende activiteit worden overgebracht.
+
+Let op: u kunt de doeldimensie in een workflow wijzigen met een **[!UICONTROL Change dimension]** activiteit. [Meer informatie](../workflows/activities/change-dimension.md)
+
+Standaard wordt in sjablonen voor e-mail- en sms-verzending de doelstelling **[!UICONTROL Recipients]**. Hun doeldimensie gebruikt daarom de gebieden van **nms:ontvanger** tabel. Voor pushberichten is de standaarddoeldimensie: **Toepassingen voor abonnees nms:appSubscriptionRcp**, die is gekoppeld aan de tabel met ontvangers.
+
+U kunt ook andere ingebouwde doeltoewijzingen gebruiken voor uw leveringen die hieronder worden vermeld:
+
+| Naam | Gebruiken voor | Schema |
+|---|---|---|
+| Ontvangers | Leveren aan ontvangers (ingebouwde ontvankelijke lijst) | nms:ontvanger |
+| Bezoekers | Leveren aan bezoekers van wie de profielen via verwijzing (virale marketing) voor bv zijn verzameld. | mns:bezoeker |
+| Lidmaatschappen | Leveren aan ontvangers die zijn geabonneerd op een informatiedienst zoals een nieuwsbrief | nms:abonnement |
+| Abonnementen van bezoekers | Leveren aan bezoekers die zijn geabonneerd op een informatiedienst | nms:bezoekerSub |
+| Operatoren | Leveren aan Adobe Campaign-operatoren | nms:operator |
+| Extern bestand | Afleveren via een bestand dat alle benodigde informatie voor levering bevat | Geen gekoppeld schema, geen doel ingevoerd |
+| Abonnementstoepassingen | Leveren aan ontvangers die zijn geabonneerd op een toepassing | nms:appSubscriptionRcp |
+
+Bovendien kunt u een nieuwe doelafbeelding maken, afhankelijk van uw behoeften. Dit wordt uitgevoerd vanaf de clientconsole. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
