@@ -2,10 +2,10 @@
 title: Het gebruiken van AI aangedreven knowlegde assistent in het Web van de Campagne
 description: Het gebruiken van AI aangedreven knowlegde assistent in het Web van de Campagne
 badge: label="Beta"
-source-git-commit: 4062288a3e215a9d178cdc20099180ad77374d4f
+source-git-commit: f5132968d041b82b88dbc62a8c8678be2cdd0e0c
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
@@ -19,18 +19,19 @@ Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw erva
 
 ![](assets/ask-a-question.png)
 
+<!--
+## Consent {#consent-ai}
 
-## Toestemming {#consent-ai}
-
-De hulp van de kennis van de campagne ingebed in de contextafhankelijke hulpvakjes gebruikt AI. Uw gebruik van deze mogelijkheid betekent dat u ermee instemt dat de informatie die u in uw sessie opgeeft, door de Adobe wordt verzameld, gebruikt, openbaar gemaakt en bewaard in overeenstemming met de voorwaarden van het feedbackprogramma voor klanten van de Adobe. Gelieve te verstrekken geen persoonlijke informatie over zich of andere partijen (met inbegrip van uw naam of contactinformatie) in de kennismedewerker.
+Campaign knowledge assistant embeeded in the contextual help boxes uses AI. Your use of this capability constitutes consent that the information you provide in your session will be collected, used, disclosed, and retained by Adobe in accordance with the terms of Adobe's Customer Feedback Program. Please do not provide any personal information about yourself or other parties (including your name or contact information) in the knowledge assistant.
 
 ## Privacy {#privacy-ai}
 
-Uw gegevens worden gecodeerd en privé volgens onze standaardprocedures voor gegevensbescherming. Meer informatie over [Privacybeleid Adobe](https://www.adobe.com/nl/privacy/policy.html){target="_blank"}.
+Your data is encrypted and private following our standard data protection practices. Learn more about [Adobe Privacy Policies](https://www.adobe.com/privacy/policy.html){target="_blank"}.
 
-De AI-functie van de kennisassistent maakt geen gebruik van uw gegevens om onze modellen op te leiden. Wij staan geen partners of derden toe uw gegevens te gebruiken voor het trainen van hun modellen of enig ander doel.
+The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or 3rd parties to use your data for training their models or any other purpose.
 
-Voor informatie specifiek voor Adobe AI beleid in Experience Cloud apps en oplossingen, verwijs naar [deze pagina](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/products/sensei/adobe-sensei.html){target="_blank"}.
+-->
 
 ## Antwoorden {#answers-ai}
 
