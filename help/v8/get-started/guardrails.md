@@ -2,15 +2,15 @@
 title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 badge: label="Beta"
-source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
 
 
-# Afvoerkanalen en beperkingen {#guardrails-limitations}
+# Afbeeldingen en beperkingen {#guardrails-limitations}
 
 Wanneer u in de interface van het campagneweb werkt met componenten die zijn gemaakt of gewijzigd in de clientconsole van Campagne, zijn de onderstaande instructies en beperkingen van toepassing.
 

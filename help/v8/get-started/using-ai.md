@@ -2,16 +2,16 @@
 title: Het gebruiken van AI aangedreven knowlegde assistent in het Web van de Campagne
 description: Het gebruiken van AI aangedreven knowlegde assistent in het Web van de Campagne
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
 
-# De door AI aangedreven kennisassistent gebruiken {#using-ai}
+# De door AI aangedreven Knowledge Assistant gebruiken {#using-ai}
 
-U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocumentatie en uw huidige productcontext, met de door AI aangedreven knowkedge-assistent beschikbaar in de contextafhankelijke Help-vakken voor producten.
+U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocumentatie en uw huidige productcontext, met de door AI aangedreven Knowkedge Assistant beschikbaar in de contextafhankelijke Help-vakken voor producten.
 
 >[!AVAILABILITY]
 >
@@ -45,12 +45,12 @@ Kunstmatige intelligentie en modellen voor machinaal leren verbeteren in de loop
 
 ## Aanbevelingen  {#recommendations-ai}
 
-Wanneer u een vraag stelt in de contextuele Help, wordt rekening gehouden met de huidige productcontext.
+Wanneer u een vraag stelt in de door AI aangedreven Knowledge Assistant, wordt rekening gehouden met de huidige productcontext, dat wil zeggen het campagnescherm waarin u zich bevindt.
 
-Om het beste van de medewerker te krijgen, wanneer het stellen van een vraag, adviseren wij u om:
+Om het beste van de AI-Aanwezige Medewerker van de Kennis te krijgen, wanneer het stellen van een vraag, adviseren wij u:
 
 * Wees zo nauwkeurig en specifiek mogelijk en vermijd dubbelzinnigheid. Het antwoord zal nauwkeuriger en nuttiger zijn.
-* Om de kennisassistent te helpen de correcte informatie vinden, voeg zoveel mogelijk details over wat toe u probeert te leren.
+* Om de AI-Medewerker van de Kennis te helpen de correcte informatie vinden, voeg zoveel mogelijk details over wat toe u probeert te leren.
 * Verfijn en verfris uw vragen om betere antwoorden te krijgen. Als het antwoord niet nauwkeurig of nuttig is, probeert u verschillende benaderingen en voegt u context toe voor betere resultaten.
 * Gebruik de juiste termen en bewoordingen, met een neutrale toon.
 * Beoordeel de antwoorden en geef feedback zodat onze technici van uw ervaring kunnen leren en de resultaten kunnen verbeteren.

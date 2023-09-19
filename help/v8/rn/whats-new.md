@@ -4,9 +4,9 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1016'
 ht-degree: 1%
 
 ---
@@ -55,35 +55,31 @@ De belangrijkste mogelijkheden die met het Webbètaprogramma van de Campagne kom
 
 * **Meer Campagneworkflowactiviteiten**
 
-  Verbeter uw marketingcampagnes met onze uitgebreide reeks workflowactiviteiten. Ontgrendel nieuwe mogelijkheden voor automatisering en optimalisering, die u toestaan om dynamischere en gepersonaliseerde klantenreizen te creëren.
-
-  Van geavanceerde segmentatie tot voorwaardelijke triggers, onze extra werkschemaactiviteiten stellen u in staat om gerichte berichten te leveren en betere campagneprestaties te drijven.
+  Geef je marketingcampagnes een extra boost met onze **uitgebreide reeks workflowactiviteiten**. Ontgrendel nieuwe mogelijkheden voor automatisering en optimalisering, die u toestaan om dynamischere en gepersonaliseerde klantenreizen te creëren. Van geavanceerde segmentatie tot voorwaardelijke triggers, onze extra werkschemaactiviteiten stellen u in staat om gerichte berichten te leveren en betere campagneprestaties te drijven.
 
   Meer informatie in [deze sectie](../workflows/gs-workflows.md).
 
 * **Gen AI voor e-mailinhoud**
 
-  Neem afscheid van het handmatig maken van inhoud en begroet efficiënte, door gegevens gestuurde campagnes met de kracht van Gen AI.  Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen om bijzonder boeiende en gepersonaliseerde inhoud te genereren. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI. Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud. Deze mogelijkheid zal begin oktober beschikbaar zijn.
+  Neem afscheid van het handmatig maken van inhoud en begroet efficiënte, door gegevens gestuurde campagnes met de kracht van Gen AI.  Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen voor **zeer boeiende en gepersonaliseerde inhoud genereren**. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI. Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud. Deze mogelijkheid zal begin oktober beschikbaar zijn.
 
   Meer informatie in [deze sectie](../content/generative-gs.md).
 
 * **Vooraf gedefinieerde filters**
 
-  Introductie van vooraf gedefinieerd filterbeheer. De interface van het Web van de campagne biedt u nu een gebruikersvriendelijke interface om vooraf bepaalde filters gemakkelijk te beheren en aan te passen om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik.
+  Introductie van vooraf gedefinieerd filterbeheer. Campagne-webinterface biedt u nu een gebruiksvriendelijke interface zonder problemen **vooraf gedefinieerde filters beheren en aanpassen** om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik.
 
   Meer informatie in [deze sectie](../get-started/predefined-filters.md).
 
 * **Het publiek van het doel met de regelbouwer**
 
-  Het is nooit eenvoudiger om een leveringsdoel te maken! Met onze recentste regelbouwer, hebt u nu de capaciteit om het filtreren criteria voor ontvangers of een andere het richten dimensie van het gegevensbestand te bepalen. Bovendien kunt u uw AEP-publiek (Adobe Experience Platform) gebruiken om uw doelgroep verder te verfijnen en de impact van uw campagne te maximaliseren.
+  Het is nooit eenvoudiger om een leveringsdoel te maken! Met onze **meest recente regel builder**, hebt u nu de capaciteit om het filtreren criteria voor ontvangers of een andere het richten dimensie van het gegevensbestand te bepalen. Bovendien kunt u uw AEP-publiek (Adobe Experience Platform) gebruiken om uw doelgroep verder te verfijnen en de impact van uw campagne te maximaliseren.
 
   Meer informatie in [deze sectie](../audience/segment-builder.md).
 
 * **SMS met voorstellen**
 
-  Met de nieuwe webinterface kunt u nu naast e-mail ook aanbiedingen met SMS integreren. Bereid uw publiek op hun mobiele apparaten, leverend bevorderingen, en geschikte berichten.
-
-  Verhoog uw marketinginspanningen door gebruik te maken van de kracht van geïntegreerde aanbiedingen via SMS op ons geavanceerde webplatform.
+  Met de nieuwe webinterface kunt u nu **aanbiedingen met SMS integreren** naast E-mail. Bereid uw publiek op hun mobiele apparaten, leverend bevorderingen, en geschikte berichten. Verhoog uw marketinginspanningen door gebruik te maken van de kracht van geïntegreerde aanbiedingen via SMS op ons geavanceerde webplatform.
 
   Meer informatie in [deze sectie](../content/offers.md).
 
@@ -97,13 +93,13 @@ De belangrijkste mogelijkheden die met het Webbètaprogramma van de Campagne kom
 
 * **Medewerker kennis met Gen AI**
 
-  Stel vragen en vind direct hulp van het productgebruikersinterface. De nieuwe, door AI aangedreven kennisassistent, ingebed in de contextafhankelijke help popovers, helpt u uw expertise op het gebied van nieuwe campagnefuncties te leren en uit te breiden. Op basis van de meest recente productdocumentatie helpt het u om hulp te zoeken en stap voor stap hulp te krijgen, aangezien u uw gebruiksgevallen bouwt. Deze mogelijkheid zal begin oktober beschikbaar zijn.
+  Stel vragen en vind direct hulp van het productgebruikersinterface. De nieuwe **AI-assistent voor kennis**, ingebed in de contextafhankelijke help popovers, helpt u om uw expertise op het gebied van nieuwe campagnefuncties te leren en uit te breiden. Op basis van de meest recente productdocumentatie helpt het u om hulp te zoeken en stap voor stap hulp te krijgen, aangezien u uw gebruiksgevallen bouwt. Deze mogelijkheid zal begin oktober beschikbaar zijn.
 
   Meer informatie in [deze sectie](../get-started/using-ai.md).
 
 * **HTML Converter voor e-mailontwerp**
 
-  U kunt nu alle HTML-inhoud importeren en converteren in de e-maileditor van de campagne. Inhoudsblokken worden automatisch geïdentificeerd en zijn beschikbaar in de e-mailontwerper: gebruik zijn krachtige ontwerpmogelijkheden om de inhoud bij te werken en aan te passen!
+  U kunt nu **HTML-inhoud importeren en converteren** in de e-maileditor van Campaign. Inhoudsblokken worden automatisch geïdentificeerd en zijn beschikbaar in de e-mailontwerper: gebruik zijn krachtige ontwerpmogelijkheden om de inhoud bij te werken en aan te passen!
 
   Meer informatie in [deze sectie](../content/existing-content.md).
 
@@ -136,3 +132,4 @@ De onderstaande beperkingen gelden voor deze bètaversie:
 * KPI&#39;s voor het leveringsdashboard worden elke 5 minuten bijgewerkt. - maar de voorbereiding van de levering is in real-time.
 * Adobe Experience Cloud-meldingen en de Unified Help die beschikbaar zijn in de bovenste balk, zijn nog niet geïntegreerd.
 
+Meer instructies en beperkingen zijn beschikbaar in [deze pagina](../get-started/guardrails.md).
