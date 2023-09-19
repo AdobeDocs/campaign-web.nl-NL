@@ -3,7 +3,7 @@ audience: end-user
 title: Campagneverslagen
 description: Meer informatie over het openen en gebruiken van campagnerapporten
 badge: label="Beta"
-source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1658'
 ht-degree: 1%
@@ -54,7 +54,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
-   * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
+   * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
    * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
@@ -74,7 +74,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Initial audience]**: Totaal aantal beoogde ontvangers.
 
-   * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
+   * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na de voorbereiding van de levering moet worden bezorgd.
 
    * **[!UICONTROL Rejected by rules]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels: adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
 
@@ -86,7 +86,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
-   * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
+   * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na de voorbereiding van de levering moet worden bezorgd.
 
    * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
@@ -248,7 +248,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
   +++Meer weten over de metriek van het SMS-campagnerapport?
 
-   * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
+   * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
    * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
@@ -266,7 +266,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Initial audience]**: Totaal aantal beoogde ontvangers.
 
-   * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
+   * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na de voorbereiding van de levering moet worden bezorgd.
 
    * **[!UICONTROL Rejected by rules]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels: adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
 
@@ -278,7 +278,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
   +++Meer weten over de metriek van het SMS-campagnerapport?
 
-   * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
+   * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na de voorbereiding van de levering moet worden bezorgd.
 
    * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
@@ -310,7 +310,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
   +++Meer weten over cijfers voor pushcampagnerapporten?
 
-   * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
+   * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
    * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
@@ -326,7 +326,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
    * **[!UICONTROL Initial audience]**: Totaal aantal beoogde ontvangers.
 
-   * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
+   * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na de voorbereiding van de levering moet worden bezorgd.
 
    * **[!UICONTROL Rejected by rules]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels: adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
 
@@ -336,7 +336,7 @@ Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van
 
   +++Meer weten over cijfers voor pushcampagnerapporten?
 
-   * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
+   * **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na de voorbereiding van de levering moet worden bezorgd.
 
    * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 

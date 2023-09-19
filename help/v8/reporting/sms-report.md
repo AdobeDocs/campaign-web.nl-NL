@@ -3,7 +3,7 @@ audience: end-user
 title: Verzendrapporten via SMS
 description: Leer hoe u sms-leveringsrapporten kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 1%
@@ -27,7 +27,7 @@ De **SMS-leveringsrapport** biedt een uitgebreid overzicht van het SMS-kanaal, m
 
   +++Meer informatie over de cijfers van SMS-verzendrapporten.
 
-   * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
+   * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
    * **[!UICONTROL Success]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
@@ -42,7 +42,7 @@ De **SMS-leveringsrapport** biedt een uitgebreid overzicht van het SMS-kanaal, m
 
   +++Meer informatie over de cijfers van SMS-verzendrapporten.
 
-   * **[!UICONTROL To deliver]**: Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt.
+   * **[!UICONTROL To deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
    * **[!UICONTROL Exclusions]**: Aantal profielen dat is uitgesloten van de analyse.
 +++

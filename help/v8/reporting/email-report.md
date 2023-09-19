@@ -3,7 +3,7 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: d2497ad144e32f5d164d6be87ab690280c5e3dc9
+source-git-commit: f80a224665e8c70c2efce3af9a8f60a07fadd5dc
 workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 1%
@@ -24,7 +24,7 @@ De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specif
 
    * **[!UICONTROL Initial audience]**: Totaal aantal beoogde ontvangers.
 
-   * **[!UICONTROL To deliver]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
+   * **[!UICONTROL To deliver]**: Totaal aantal berichten dat na de voorbereiding van de levering moet worden bezorgd.
 
    * **[!UICONTROL Exclusion]**: Het totale aantal berichten dat is uitgesloten van het verzonden doel.
 +++
@@ -35,7 +35,7 @@ De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specif
 
   +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
-   * **[!UICONTROL Message sent]**: Totaal aantal berichten dat na leveringsanalyse moet worden bezorgd.
+   * **[!UICONTROL Message sent]**: Totaal aantal berichten dat na de voorbereiding van de levering moet worden bezorgd.
 
    * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
