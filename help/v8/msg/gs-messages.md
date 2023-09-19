@@ -4,10 +4,10 @@ title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe u met leveringen werkt en berichten verzendt met Campagne Web
 badge: label="Beta"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: e28b39c391259a06002506410d88245195d0ee8e
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 1%
+source-wordcount: '1250'
+ht-degree: 2%
 
 ---
 
@@ -16,8 +16,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Leveringen"
->abstract="Een levering is een marketingmededeling die naar een publiek op een specifiek kanaal wordt verzonden: e-mail, SMS of pushmelding. In uw lijst met leveringen kunt u bestaande leveringen bewerken en de status, contactgegevens en wijzigingsdatums, KPI&#39;s controleren. Klik op Levering maken om een nieuwe levering toe te voegen. Selecteer een levering om de inhoud, het programma, het publiek en de details ervan weer te geven."
-
+>abstract="Een levering is een communicatie die naar een publiek op een specifiek kanaal wordt verzonden: e-mail, SMS, of Duw. In dit scherm kunt u bestaande leveringen bewerken, dupliceren en verwijderen. U kunt ook rapporten weergeven voor voltooide leveringen. Klik op de knop **Levering maken** om een nieuwe levering toe te voegen."
 
 Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mailberichten, SMS-berichten en pushmeldingen, en de doeltreffendheid ervan meten aan de hand van verschillende speciale rapporten.
 
