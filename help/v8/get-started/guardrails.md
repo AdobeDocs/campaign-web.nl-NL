@@ -2,7 +2,7 @@
 title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 badge: label="Beta"
-source-git-commit: 29fbfa9bb802ba1dff26dee8898fcb728309983d
+source-git-commit: 9d1f6579d380352d6cc237cfcfdd4dc4171f2085
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -66,13 +66,17 @@ Er wordt een specifiek foutbericht weergegeven.
 
 Zelfs als u niet de grafische vertegenwoordiging van de vraag in de regelbouwer kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden in zien **Attributen** van het scherm.
 
-![](assets/rule-view-results.png){width="70%" align="left"}
+![](assets/rule-edit.png){width="70%" align="left"}
 
 U kunt de SQL-query ook openen om de exacte instellingen te controleren. Om dit te doen, klik **Codeweergave** knop.
 
 ![](assets/rule-code-view.png){width="70%" align="left"}
 
-Klik op de knop **Berekenen** om te controleren hoeveel items voldoen aan de criteria van het filter. Gebruik de **Resultaten weergeven** om deze items weer te geven.
+Klik op de knop **Berekenen** om te controleren hoeveel items voldoen aan de criteria van het filter.
+
+![](assets/rule-calculate.png){width="70%" align="left"}
+
+Gebruik de **Resultaten weergeven** om deze items weer te geven.
 
 ![](assets/rule-view-results.png){width="70%" align="left"}
 
