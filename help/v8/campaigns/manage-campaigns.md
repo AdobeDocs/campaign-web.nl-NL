@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Beta"
-source-git-commit: 1bbbcd0ad2e83bad2e35c28184d13a63da77c081
+source-git-commit: 7a04eb8c5b60b9a2545723fcb6a748c57e9d98e6
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '599'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ U kunt een campagne dupliceren of verwijderen:
 
 ## Werken met campagneresjablonen{#manage-campaign-templates}
 
-Campagnemasjablonen bevatten vooraf geconfigureerde instellingen die opnieuw kunnen worden gebruikt voor het maken van nieuwe workflows. Er is een set ingebouwde sjablonen beschikbaar om u te helpen aan de slag te gaan. U kunt uw campagnemalplaatjes tot stand brengen en vormen en dan campagnes van deze malplaatjes tot stand brengen.
+Campagnemasjablonen bevatten vooraf geconfigureerde instellingen die opnieuw kunnen worden gebruikt voor het maken van nieuwe campagnes. Er is een set ingebouwde sjablonen beschikbaar om u te helpen aan de slag te gaan. U kunt uw campagnemalplaatjes tot stand brengen en vormen en dan campagnes van deze malplaatjes tot stand brengen.
 
 Een campagnemalplaatje kan de volgende informatie opslaan:
 
@@ -81,7 +81,8 @@ Een campagnemalplaatje kan de volgende informatie opslaan:
 Volg onderstaande stappen om een campagnemalplaatje te maken:
 
 1. Klik op de knop **[!UICONTROL Campaigns]** , bladert u naar de **Sjablonen** en klikt u op de knop **[!UICONTROL Create template]** knop.
-1. Selecteer de **Sjabloon** een label voor de campagne te gebruiken en te verstrekken. Zo kunt u de nieuwe sjabloon baseren op een sjabloon die al is gemaakt.
+1. Selecteer de **Sjabloon** te gebruiken. Zo kunt u uw nieuwe sjabloon baseren op een eerder gemaakte sjabloon.
+1. Geef een label voor de sjabloon op.
 1. Indien nodig kunt u het volgende wijzigen **Aanvullende opties**: interne naam, map, ontvanger, beschrijving en aard.
 1. Definieer de **Schema** van uw campagne. Meer informatie over het instellen van uw campagneschema in [deze sectie](create-campaigns.md#campaign-schedule)
 1. Klikken **Maken**.
