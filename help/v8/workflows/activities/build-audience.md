@@ -3,7 +3,7 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: a69fff5f071ca0d5fbdb2bca0714695724190cde
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Om de publieksbevolking te bepalen, kunt u:
 The **Build audience** activity can be placed at the beginning of the workflow or after any other activity. Any activity can be placed after the **Build audience**.
 -->
 
-## Vorm de het publieksactiviteit van de Bouwstijl
+## Vorm de het publieksactiviteit van de Bouwstijl{#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
@@ -44,6 +44,8 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 
 Voer de volgende stappen uit om de **publiek opbouwen** activiteit:
+
+![](../assets/workflow-audience.png)
 
 1. Voeg een **publiek opbouwen** activiteit.
 1. Definieer een label.
@@ -66,7 +68,7 @@ Voer de volgende stappen uit om een bestaand publiek te selecteren:
 >
 >Als u een **[!UICONTROL Build audience]** activiteit gericht op een publiek van het Experience Platform, moet u toevoegen **[!UICONTROL Change dimension]** activiteit daarna, om ervoor te zorgen dat de doelgerichte dimensie van het publiek aan &quot;Ontvanger&quot;wordt geplaatst. Onder aan deze pagina vindt u een voorbeeld van de workflow.
 
-## Voorbeelden
+## Voorbeelden{#build-audience-examples}
 
 Hier is een voorbeeld van een workflow met twee **publiek opbouwen** activiteiten. De eerste is gericht op het publiek van pokerspelers, gevolgd door een e-mailbezorging. De tweede is gericht op het publiek van VIP klanten, gevolgd door een SMS-levering.
 
