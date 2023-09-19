@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het maken en beheren van services op Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 47c00b3520ea38d4afa173f8a221ae5e127dd7a9
+source-git-commit: 7a8057a0d57b28092711ca2d7f47fffefdc06df3
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1041'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Volg onderstaande stappen om abonnementsservices die beschikbaar zijn voor uw pl
 
 1. Als u een bestaande service wilt bewerken, klikt u op de naam van de service.
 
-1. U kunt elke service verwijderen of dupliceren met het pictogram met drie punten naast deze servicenaam.
+1. U kunt elke service verwijderen of dupliceren met het pictogram met drie punten naast deze servicenaam.<!--so all subscribers are unsuibscribed - need to mention?-->
 
 ## Uw eerste abonnementenservice maken {#create-service}
 
@@ -68,7 +68,11 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 
    ![](assets/service-create-properties.png)
 
-1. Abonnementen zijn standaard onbeperkt. U kunt de **[!UICONTROL  Unlimited validity period]** optie om een geldigheidstermijn voor de dienst te bepalen. In het onderstaande voorbeeld kunnen na 20 dagen geen gebruikers zich meer abonneren op deze service.
+1. Abonnementen zijn standaard onbeperkt. U kunt de **[!UICONTROL  Unlimited validity period]** optie om een geldigheidstermijn voor de dienst te bepalen.
+
+   In het onderstaande voorbeeld na 20 dagen:
+   * Geen ontvangers kunnen zich meer op deze service abonneren.
+   * Alle abonnees op deze service zullen na 20 dagen automatisch hun abonnement opzeggen. [Meer informatie](#automatic-unsubscription)
 
    ![](assets/service-create-validity-period.png)
 
@@ -80,7 +84,7 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 
 ## Een bevestigingsbericht maken {#create-confirmation-message}
 
-Als u een bevestigingsbericht wilt verzenden aan gebruikers die zich op uw service abonneren of zich niet abonneren, moet u een leveringssjabloon maken met de **[!UICONTROL Subscriptions]** doeltoewijzing, zonder een gedefinieerd doel. Hiervoor voert u de volgende stappen uit.
+Als u bevestigingsberichten wilt verzenden naar gebruikers die zich op uw service abonneren of zich niet abonneren, moet u een leveringssjabloon maken met de **[!UICONTROL Subscriptions]** doeltoewijzing, zonder een gedefinieerd doel. Hiervoor voert u de volgende stappen uit.
 
 1. Een leveringssjabloon maken voor de bevestiging van een abonnement. [Meer informatie](../msg/delivery-template.md)
 
@@ -102,7 +106,7 @@ Als u een bevestigingsbericht wilt verzenden aan gebruikers die zich op uw servi
 
 1. Herhaal bovenstaande stappen om een leveringssjabloon te maken voor de bevestiging van het abonnement.
 
-U kunt nu deze berichten selecteren wanneer [een abonnementenservice maken](#create-service). Gebruikers die zich abonneren op of zich niet abonneren op die service ontvangen het geselecteerde bevestigingsbericht.
+U kunt nu deze berichten selecteren wanneer [een abonnementenservice maken](#create-service). Gebruikers die zich abonneren op of zich niet abonneren op die service ontvangen de geselecteerde bevestigingsberichten.
 
 ## Abonnees toevoegen aan uw service {#add-subscribers}
 
@@ -118,7 +122,7 @@ Nadat u een service hebt gemaakt, kunt u handmatig abonnees toevoegen. Volg de o
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Klik op **[!UICONTROL Send]**. De geselecteerde ontvangers ontvangen het abonnement [bevestigingsbericht](#create-confirmation-message) die u hebt geselecteerd toen [de service maken](#create-service).
+1. Klik op **[!UICONTROL Send]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> De geselecteerde ontvangers ontvangen het abonnement [bevestigingsbericht](#create-confirmation-message) die u hebt geselecteerd toen [de service maken](#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
@@ -126,7 +130,9 @@ De toegevoegde profielen worden weergegeven in het dialoogvenster **[!UICONTROL 
 
 ## Abonnees van uw service verwijderen {#remove-subscribers}
 
-Zodra u abonnees aan uw dienst hebt toegevoegd, kunt u hen verwijderen. Volg de onderstaande stappen.
+### Ontvangers handmatig afmelden {#manual-unsubscription}
+
+Zodra u abonnees aan uw dienst toevoegt, kunt u elk van hen manueel opzeggen. Volg de onderstaande stappen.
 
 1. Selecteer een bestaande service in het menu **[!UICONTROL Subscription services]** lijst.
 
@@ -134,11 +140,21 @@ Zodra u abonnees aan uw dienst hebt toegevoegd, kunt u hen verwijderen. Volg de 
 
    ![](assets/service-subscribers-delete.png)
 
-1. Verwijderen bevestigen en klikken **[!UICONTROL Send]**. De geselecteerde ontvangers ontvangen het abonnement [bevestigingsbericht](#create-confirmation-message) die u hebt geselecteerd toen [de service maken](#create-service).
+1. Verwijderen bevestigen en klikken **[!UICONTROL Send]**. De geselecteerde ontvanger ontvangt het abonnement [bevestigingsbericht](#create-confirmation-message) die u hebt geselecteerd toen [de service maken](#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 
 De ontvanger wordt verwijderd uit de **[!UICONTROL Subscribers]** en is niet meer geabonneerd op uw service.
+
+### Ontvangers automatisch afmelden {#automatic-unsubscription}
+
+Een abonnementsservice kan een beperkte duur hebben. Ontvangers worden automatisch afgemeld wanneer de geldigheidsperiode verstrijkt.
+
+Deze periode wordt opgegeven wanneer [de service maken](#create-service). Van de **[!UICONTROL Additional options]**, schakelt u de **[!UICONTROL  Unlimited validity period]** en stelt een geldigheidsperiode voor de dienst vast.
+
+![](assets/service-create-validity-period.png)
+
+Nadat de gespecificeerde duur verloopt, worden alle abonnees automatisch geabonneerd van die dienst.
 
 ## Logboeken en rapporten van de abonnementendienst {#logs-and-reports}
 
@@ -162,7 +178,7 @@ Om de doeltreffendheid van uw abonnementsdiensten voor SMS en e-mailkanalen te m
 
    * De **[!UICONTROL Overall evolution of subscriptions]** in de grafiek wordt de uitsplitsing naar periode weergegeven, met inbegrip van abonnementen, abonnementen, abonnementen, de ontwikkeling van de aantallen en het loyaliteitspercentage.<!--what is Registered?-->
 
-   * Gebruik de **[!UICONTROL Reload]** om de laatste waarden op te halen uit de uitvoering en het schema van de workflow voor bijhouden.
+1. Gebruik de **[!UICONTROL Reload]** om de laatste waarden op te halen uit de uitvoering en het schema van de workflow voor bijhouden.
 
 ## Leveren aan de abonnees van een dienst
 
