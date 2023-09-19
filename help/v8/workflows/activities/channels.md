@@ -3,9 +3,9 @@ audience: end-user
 title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
 badge: label="Beta"
-source-git-commit: 58abba55328480cd6cd47c8666146acdf637204e
+source-git-commit: f5d2cb68b3df42105da9d6b346e6e9c57e14723a
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '773'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Begin uw werkschema met de relevante activiteiten te bouwen alvorens de levering
 
   ![](../../msg/assets/add-delivery-in-wf.png)
 
-## De levering instellen {#create-a-delivery-in-a-workflow}
+## De kanaalactiviteit configureren {#create-a-delivery-in-a-workflow}
 
 
 >[!CONTEXTUALHELP]
@@ -75,7 +75,6 @@ Volg onderstaande stappen om een levering in te stellen in de context van een wo
 
    ![](../assets/delivery-activity-in-wf.png)
 
-
    U kunt een andere sjabloon selecteren in het linkerdeelvenster van de configuratie van de kanaalactiviteit. Als het eerder geselecteerde publiek niet compatibel is met het kanaal, kunt u geen sjabloon selecteren. Als u dit wilt oplossen, werkt u de **publiek opbouwen** activiteit om een publiek met de correcte doelafbeelding te selecteren. Meer informatie over doeltoewijzingen in [Adobe Campaign v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 1. Klikken **Levering maken**. Definieer de berichtinstellingen en de inhoud op dezelfde manier als u een zelfstandige levering maakt. U kunt de inhoud ook plannen en simuleren. [Meer informatie](../../msg/gs-messages.md).
@@ -95,6 +94,7 @@ Volg onderstaande stappen om een levering in te stellen in de context van een wo
 Hier volgt een voorbeeld van een workflow tussen kanalen met een segmentatie en twee leveringen. De workflow is gericht op alle klanten die in Parijs wonen en die geïnteresseerd zijn in koffiezetapparaten. Onder deze populatie wordt een e-mail verzonden naar de gewone klanten en een SMS-bericht verzonden naar de VIP.
 
 ![](../assets/workflow-channel-example.png)
+
 <!--
 description, which use case you can perform (common other activities that you can link before of after the activity)
 
@@ -105,7 +105,9 @@ The Email delivery activity allows you to configure the sending an email in a wo
 
 -->
 
-U kunt ook een terugkerende workflow maken om elke eerste dag van de maand om 21.00 uur een persoonlijke pushmelding te sturen naar de abonnees van uw mobiele toepassing, afhankelijk van hun tijdzone.
+U kunt ook een terugkerende workflow maken om elke eerste dag van de maand om 21.00 uur een gepersonaliseerd sms te verzenden naar alle klanten in Parijs.
+
+![](../assets/workflow-channel-example2.png)
 
 <!-- Scheduled emails available?
 

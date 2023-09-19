@@ -4,7 +4,7 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 8139ec2f1e94bebacd89ea64af88d0b0babb8781
+source-git-commit: c48b0a7dc897e169180586492a991b189453b1fb
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 0%
@@ -88,7 +88,7 @@ In de sectie KLANTBEHEER kunt u uw ontvangers, publiek en abonnementen bekijken.
 >abstract="Blader door de lijsten van aanbiedingen en aanbiedingsmalplaatjes die in de console gebruikend zijn gecreeerd **Interactie** -module. Deze lijsten zijn alleen-lezen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Aanbiedingen toevoegen aan een levering"
 
-In de sectie KLANTENBEHEER kunt u de aanbiedingen weergeven en sjablonen aanbieden. Deze lijsten zijn alleen-lezen.
+In het gedeelte BESLUIT BEHEER kunt u de aanbiedingen en aanbiedingstemplates bekijken. Deze lijsten zijn alleen-lezen.
 
 * **Aanbiedingen** - Blader door de lijst met aanbiedingen en aanbiedingstemplates die in de console zijn gemaakt met de **Interactie** -module. Standaard kunt u hun status, begin- en einddatum en omgeving bekijken. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar.
 
