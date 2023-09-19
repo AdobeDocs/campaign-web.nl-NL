@@ -3,10 +3,10 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: 6baf29f6012eb35e247291289160cb1dd3db5d6f
+source-git-commit: 1f23eafc80e21b63485a774fd9052c8d03051685
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 4%
+source-wordcount: '482'
+ht-degree: 3%
 
 ---
 
@@ -60,10 +60,13 @@ Voer de volgende stappen uit om de **Deduplicatie** activiteit:
 1. Selecteer de **Deduplicatiemethode** te gebruiken:
 
    * **Willekeurige selectie**: hiermee selecteert u willekeurig de record die u uit de duplicaten wilt verwijderen.
-   * **Expressies gebruiken**: hiermee kunt u de records bijhouden waarin de waarde van de ingevoerde expressie het kleinst of het grootst is. ++ expression ++ Soort
-   * **Na een lijst met waarden**: hiermee kunt u een waardeprioriteit voor een of meer velden definiëren. Klik op **Kenmerk** als u een veld wilt selecteren of een expressie wilt maken, voegt u de waarde(n) toe aan de desbetreffende tabel. Klik op de knop Toevoegen boven de lijst met waarden om een nieuw veld te definiëren. ++ sorteren
+   * **Expressies gebruiken**: hiermee kunt u de records bijhouden waarin de waarde van de ingevoerde expressie het kleinst of het grootst is.
+   * **Na een lijst met waarden**: hiermee kunt u een waardeprioriteit voor een of meer velden definiëren. Klik op **Kenmerk** als u een veld wilt selecteren of een expressie wilt maken, voegt u de waarde(n) toe aan de desbetreffende tabel. Klik op de knop Toevoegen boven de lijst met waarden om een nieuw veld te definiëren.
 
 1. Controleer de **Complement genereren** als u de overblijvende bevolking wilt uitbuiten. Het complement bestaat uit alle duplicaten. Er wordt dan een aanvullende overgang toegevoegd aan de activiteit.
 
 ## Voorbeeld{#example}
 
+In het volgende voorbeeld, gebruiken wij een deduplicatieactiviteit om duplicaten van het doel uit te sluiten alvorens een levering te verzenden. De geïdentificeerde duplicaten worden toegevoegd aan een specifiek gedupliceerd publiek dat indien nodig opnieuw kan worden gebruikt. We gebruiken de **E-mail** veld om de duplicaten te identificeren. We kiezen ervoor om 1 item te behouden en de **Willekeurig** deduplicatiemethode.
+
+![](../assets/workflow-deduplication-example.png)
