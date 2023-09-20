@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Soorten publiek maken
-description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
+title: Soorten publiek maken en beheren
+description: Leer hoe u publiek kunt maken en beheren in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 3de56ccc5f96c4a13ba5d1211b3d5320a01e979d
+source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Voer de volgende stappen uit om een publiek te maken:
 
 1. Wanneer uw workflow gereed is, klikt u op **[!UICONTROL Start]** om het uit te voeren.
 
-De workflow wordt opgeslagen in het dialoogvenster **[!UICONTROL Workflows]** en de resulterende doelgroep(en) toegankelijk zijn in de **[!UICONTROL Audiences]** lijst. [Leer hoe u het publiek kunt bewaken en beheren](access-audiences.md)
+De workflow wordt opgeslagen in het dialoogvenster **[!UICONTROL Workflows]** en de resulterende doelgroep(en) toegankelijk zijn in de **[!UICONTROL Audiences]** lijst.
 
 ## Voorbeeld van een publiek werkstroom {#example}
 
@@ -71,3 +71,25 @@ In het onderstaande voorbeeld ziet u een publieksworkflow die is geconfigureerd 
 1. De **[!UICONTROL Enrichment]** de activiteit verrijkt het publiek met informatie van de lijst van Aankopen om te identificeren welk type van product de klanten kochten.
 1. De **[!UICONTROL Split]** de activiteit verdeelt het werkschema in twee wegen die op de recentste aankoop van klanten worden gebaseerd.
 1. De **[!UICONTROL Save audience]** de activiteiten aan het eind van elk pad creëren twee nieuwe soorten publiek in de database , met inbegrip van de populatie die in elk pad is berekend .
+
+## Het publiek bewaken en beheren {#monitor}
+
+De lijst met publiek beschikbaar voor gebruik in het Web van de Campagne is toegankelijk van **[!UICONTROL Audiences]** -menu.
+
+![](assets/audiences-list.png)
+
+Het publiek kan uit veelvoudige bronnen voortkomen. De **[!UICONTROL Origin]** kolommen geven aan waar een bepaald publiek is gemaakt:
+
+* **[!UICONTROL Adobe Campaign]**: Deze soorten publiek worden gemaakt in de Adobe Campaign V8-console. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+
+* **[!UICONTROL Adobe Experience Platform:]** Dit publiek wordt gecreeerd binnen Adobe Experience Platform en is geïntegreerd in het Web van de Campagne gebruikend de Adobe Bronnen en de integratie van Doelen. Leer hoe u deze integratie instelt in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html)
+
+* **[!UICONTROL Adobe Campaign WebUI]**: Deze doelgroepen worden gemaakt met de workflows voor het publiek van Campagne Web. [Leer hoe u een publiek kunt maken](create-audience.md)
+
+Voor meer informatie over een publiek opent u deze vanuit de lijst. De publiekseigenschappen worden weergegeven, samen met het aantal profielen dat is opgenomen in het publiek. U kunt het aantal gebruikers op elk gewenst moment vernieuwen met de opdracht **[!UICONTROL Calculate]** knop.
+
+De **[!UICONTROL Data]** kunt u de profielen die deel uitmaken van het publiek, vizualiseren. U kunt deze weergave aanpassen door meer kolommen toe te voegen of geavanceerde filters te gebruiken om de weergegeven gegevens te verfijnen.
+
+![](assets/audiences-details.png)
+
+Om een publiek te dupliceren of te schrappen, klik **[!UICONTROL More action]** in de lijst met soorten publiek naast de naam van het publiek of in het scherm met publieksdetails.
