@@ -3,9 +3,9 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+source-git-commit: d79828c19803b21e8414b8251388f694c465fd80
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '500'
 ht-degree: 3%
 
 ---
@@ -15,8 +15,8 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
->title="Deduplicatiekenmerken"
->abstract="Op deze manier kunt u opgeven voor welke velden de duplicaten met dezelfde waarden kunnen worden geïdentificeerd: e-mailadres, voornaam, achternaam, enzovoort. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt."
+>title="Velden om duplicaten te identificeren"
+>abstract="In de **Velden om duplicaten te identificeren** klikt u op de **Kenmerk toevoegen** om de velden op te geven waarvoor de identieke waarden het mogelijk maken duplicaten te identificeren, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
@@ -34,7 +34,7 @@ ht-degree: 3%
 >title="Instellingen voor deduplicatie"
 >abstract="Als u duplicaten van binnenkomende gegevens wilt verwijderen, definieert u de deduplicatiemethode in de onderstaande velden. Standaard wordt slechts één record bewaard. U moet ook de deduplicatiemodus selecteren op basis van een expressie of een kenmerk. Standaard wordt de record die buiten de duplicaten moet blijven, willekeurig geselecteerd."
 
-De **Deduplicatie** activiteit is **Targeting** activiteit. Met deze activiteit kunt u duplicaten verwijderen uit het resultaat of de resultaten van de binnenkomende activiteiten. De **Deduplicatie** de activiteit wordt over het algemeen gebruikt na gerichte activiteiten en vóór activiteiten die het gebruik van gerichte gegevens mogelijk maken.
+De **Deduplicatie** activiteit is **Targeting** activiteit. Met deze activiteit kunt u duplicaten verwijderen uit het resultaat of de resultaten van de binnenkomende activiteiten, bijvoorbeeld gedupliceerde profielen in de lijst met ontvangers. De **Deduplicatie** de activiteit wordt doorgaans gebruikt na doelgerichte activiteiten en vóór activiteiten die het gebruik van gerichte gegevens mogelijk maken.
 
 ## De deduplicatieactiviteit configureren{#deduplication-configuration}
 
@@ -44,7 +44,7 @@ Voer de volgende stappen uit om de **Deduplicatie** activiteit:
 
 1. Voeg een **Deduplicatie** activiteit aan uw werkschema.
 
-1. In de **Velden om duplicaten te identificeren** klikt u op de **Kenmerk toevoegen** om aan te geven voor welke velden de identieke waarden het mogelijk maken de duplicaten te identificeren: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt.
+1. In de **Velden om duplicaten te identificeren** klikt u op de **Kenmerk toevoegen** om de velden op te geven waarvoor de identieke waarden het mogelijk maken duplicaten te identificeren, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt.
 
 1. Selecteer het aantal unieke **Duplicaten om te behouden**. De standaardwaarde voor dit veld is 1. Met de waarde 0 kunt u alle duplicaten behouden.
 
@@ -67,6 +67,6 @@ Voer de volgende stappen uit om de **Deduplicatie** activiteit:
 
 ## Voorbeeld{#deduplication-example}
 
-In het volgende voorbeeld, gebruiken wij een deduplicatieactiviteit om duplicaten van het doel uit te sluiten alvorens een levering te verzenden. De geïdentificeerde duplicaten worden toegevoegd aan een specifiek publiek dat indien nodig opnieuw kan worden gebruikt. We gebruiken de **E-mail** veld om de duplicaten te identificeren. We kiezen ervoor om 1 item te behouden en de **Willekeurig** deduplicatiemethode.
+In het volgende voorbeeld gebruikt u een deduplicatie-activiteit om duplicaten uit te sluiten van het doel voordat u een levering verzendt. De geïdentificeerde gedupliceerde ontvangers worden toegevoegd aan een toegewezen publiek dat indien nodig opnieuw kan worden gebruikt. Kies de optie **E-mail** adres om de duplicaten te identificeren. 1 item behouden en selecteer de optie **Willekeurig** deduplicatiemethode.
 
 ![](../assets/workflow-deduplication-example.png)
