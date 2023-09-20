@@ -2,9 +2,9 @@
 title: Werken met ontvangers en publiek
 description: Leer hoe te met ontvangers het Web van de Campagne werken
 badge: label="Beta"
-source-git-commit: cf614cbbd726cd7b12510812c49068e9ed31b631
+source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '913'
 ht-degree: 2%
 
 ---
@@ -71,11 +71,11 @@ De het richten dimensie is het type van gegevens dat een verrichting behandelt. 
 
 De doeldimensie van een workflow wordt gedefinieerd door de eerste **[!UICONTROL Build audience]** en wordt gebruikt voor alle verdere activiteiten tot het einde van de werkstroom. Bijvoorbeeld, als u een vraag op de ontvangers van het gegevensbestand uitvoert, zal de uitgaande overgang gegevens van type ontvanger bevatten en het zal aan de volgende activiteit worden overgebracht.
 
-Let op: u kunt de doeldimensie in een workflow wijzigen met een **[!UICONTROL Change dimension]** activiteit. [Meer informatie](../workflows/activities/change-dimension.md)
+Let op: u kunt de doeldimensie in een workflow wijzigen met een **[!UICONTROL Change dimension]** activiteit. [Meer informatie](../workflows/activities/change-dimension.md). Dit staat u toe, bijvoorbeeld, om het gegevensbestand op een specifieke lijst zoals aankopen of abonnementen te vragen, en dan de het richten dimensie aan Ontvangers te veranderen om leveringen naar de overeenkomstige ontvangers te verzenden.
 
 Standaard wordt in sjablonen voor e-mail- en sms-verzending de doelstelling **[!UICONTROL Recipients]**. Hun doeldimensie gebruikt daarom de gebieden van **nms:ontvanger** tabel. Voor pushberichten is de standaarddoeldimensie: **Toepassingen voor abonnees nms:appSubscriptionRcp**, die is gekoppeld aan de tabel met ontvangers.
 
-U kunt ook andere ingebouwde doeltoewijzingen gebruiken voor uw leveringen die hieronder worden vermeld:
+U kunt ook andere ingebouwde doeltoewijzingen gebruiken in uw workflows en leveringen die hieronder worden vermeld:
 
 | Naam | Gebruiken voor | Schema |
 |---|---|---|
