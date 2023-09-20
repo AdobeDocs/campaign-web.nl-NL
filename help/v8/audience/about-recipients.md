@@ -2,9 +2,9 @@
 title: Werken met ontvangers en publiek
 description: Leer hoe te met ontvangers het Web van de Campagne werken
 badge: label="Beta"
-source-git-commit: c46f144441dcfec08ac1ccb2171d63c2772bc051
+source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '940'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 Een ontvanger is een profiel dat is bedoeld voor het ontvangen van berichten die door Adobe Campaign worden verzonden. In Adobe Campaign zijn ontvangers de standaardprofielen voor het verzenden van leveringen (e-mails, sms’en, enzovoort). De ontvangende gegevens die in het gegevensbestand worden opgeslagen laten u toe tot publiek dat om het even welke bepaalde levering zal ontvangen, en om verpersoonlijkingsgegevens in uw leveringsinhoud toe te voegen. Andere typen profielen worden opgeslagen in de database. Ze zijn ontworpen voor verschillende toepassingen. Zaadprofielen worden bijvoorbeeld gemaakt om uw leveringen te testen voordat ze naar het uiteindelijke publiek worden verzonden.
 
-Ontvangers kunnen alleen worden toegevoegd vanuit de Campagne-clientconsole. Ze zijn echter zichtbaar in het campagneweb, vanaf het **Ontvangers** de binnenkomst van de linkernavigatielijn.
+Ontvangers kunnen alleen worden toegevoegd vanuit de Campagne-clientconsole. Ze zijn echter zichtbaar in het campagneweb, vanaf het **Ontvangers** de binnenkomst van de linkernavigatielijn. U kunt de kenmerken van de ontvanger ook vanuit dat scherm bewerken.
 
 Als u de gegevens van de ontvanger wilt bewerken, klikt u op de drie stippen naast de naam en kiest u **Bewerken...**.
 
@@ -46,6 +46,8 @@ U kunt ontvangers ook benaderen via de **Verkenner** mappen en submappen weergev
 >Afhankelijk van uw machtigingen hebt u mogelijk geen toegang tot de volledige lijst met ontvangers die in de database zijn opgeslagen. Meer informatie over machtigingen in [deze sectie](../get-started/permissions.md).
 
 Bovendien kunt u het abonnement op en het abonnement van uw ontvangers op services zoals nieuwsbrieven beheren. [Leer hoe u met abonnementsservices werkt](manage-services.md)
+
+U kunt workflows maken om te dedupliceren, te verrijken, profielen te combineren en een publiek te maken. Meer informatie in [deze sectie](../workflows/gs-workflows.md).
 
 ## Wat zijn de doelgroepen? {#audiences}
 
