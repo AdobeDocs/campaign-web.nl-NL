@@ -1,18 +1,18 @@
 ---
 audience: end-user
-title: Aanbiedingen verzenden
-description: Aanbiedingen verzenden
+title: Aanbiedingen toevoegen aan uw berichten
+description: Meer informatie over het toevoegen en verzenden van aanbiedingen
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beta"
-source-git-commit: 9b672c3a0cc71e417a894f3d775070b13871d337
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
 
 
-# Aanbiedingen verzenden {#offers-content}
+# Aanbiedingen toevoegen aan uw berichten {#offers-content}
 
 Met Adobe Campaign v8 Web kunt u aanbiedingen die in de console zijn gemaakt, verzenden met de **[!UICONTROL Interaction]** -module. Voor meer informatie over Interactie en hoe te om een aanbiedingscatalogus in de console te beheren, verwijs naar [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 

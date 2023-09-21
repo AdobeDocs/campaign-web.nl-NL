@@ -3,17 +3,19 @@ audience: end-user
 title: De abonnees van een service beheren
 description: Leer hoe te om aan de abonnees van de dienst in Adobe Campaign Web te beheren en te leveren
 badge: label="Beta"
-source-git-commit: 5125de258edd4e3eda9a8507228156ee40215532
+source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 2%
+source-wordcount: '274'
+ht-degree: 1%
 
 ---
 
 
 # De abonnees van een service beheren {#manage-subscribers}
 
-Eenmaal [een service gemaakt](manage-services.md#create-service), kunt u abonnees toevoegen, ontvangers afmelden en aan de abonnees van die dienst leveren.
+Eenmaal [een service gemaakt](manage-services.md#create-service), kunt u abonnees toevoegen, ontvangers afmelden, en berichten naar de abonnees van die dienst verzenden.
+
+Abonneenbeheer wordt in deze pagina beschreven. Als u wilt leren hoe u berichten naar uw abonnees kunt verzenden, raadpleegt u [deze sectie](../content/send-to-subscribers.md).
 
 ## Abonnees toevoegen aan uw service {#add-subscribers}
 
@@ -57,30 +59,8 @@ De ontvanger wordt verwijderd uit de **[!UICONTROL Subscribers]** en is niet mee
 
 Een abonnementsservice kan een beperkte duur hebben. Ontvangers worden automatisch afgemeld wanneer de geldigheidsperiode verstrijkt.
 
-Deze periode wordt opgegeven wanneer [de service maken](manage-services.md#create-service). Van de **[!UICONTROL Additional options]**, schakelt u de **[!UICONTROL  Unlimited validity period]** en stelt een geldigheidsperiode voor de dienst vast.
+Deze periode wordt opgegeven wanneer [de service maken](manage-services.md#create-service). Van de **[!UICONTROL Additional options]**, schakelt u de **[!UICONTROL Unlimited validity period]** en stelt een geldigheidsperiode voor de dienst vast.
 
 ![](assets/service-create-validity-period.png)
 
 Nadat de gespecificeerde duur verloopt, worden alle abonnees automatisch geabonneerd van die dienst.
-
-## Leveren aan de abonnees van een dienst
-
-Eenmaal [een abonnementenservice gemaakt](manage-services.md#create-service), je kunt je abonnees richten op een levering. Volg de onderstaande stappen.
-
-1. [Een publiek maken](../audience/create-audience.md) inclusief de abonnees van de service die u hebt gemaakt:
-
-   * In de **[!UICONTROL Build audience]** activiteit, toon de geavanceerde attributen en selecteer **[!UICONTROL Recipient]** > **[!UICONTROL Subscriptions]** > **[!UICONTROL Service]**.
-
-   * In dit voorbeeld selecteert u de gebruikers die zijn geabonneerd op de service met de **Luma-nieuwsbrief** label.
-
-   ![](assets/service-audience-subscribers.png)
-
-1. [Een levering maken](../msg/gs-messages.md#create-delivery) en selecteer het publiek dat u hierboven hebt gemaakt.
-
-   ![](assets/service-delivery-targeting-subscribers.png)
-
-1. Bewerk de inhoud van het bericht naar wens en verzend de levering.
-
-   ![](assets/service-delivery-ready.png)
-
-Uw levering wordt alleen naar de abonnees van die service verzonden.
