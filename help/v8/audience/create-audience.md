@@ -3,9 +3,9 @@ audience: end-user
 title: Soorten publiek maken en beheren
 description: Leer hoe u publiek kunt maken en beheren in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 0db6b464ddad0226f7fdf53fa1eb62ba44024b3b
+source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Doelgroepen"
->abstract="Vanuit dit scherm kunt u soorten publiek maken en combineren tot een visueel canvas. Diverse workflowactiviteiten toevoegen, zoals **Splitsen** of **Uitsluiten** nieuwe en verfijnde doelgroepen te creëren."
+>abstract="Via dit scherm hebt u toegang tot de lijst met alle soorten publiek waarop u zich kunt richten. Klikken **Maken** nieuwe soorten publiek maken in een visueel canvas met behulp van diverse workflowactiviteiten, zoals **Splitsen** of **Uitsluiten**."
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"

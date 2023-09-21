@@ -4,9 +4,9 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 8aa76369-c9f3-4c5b-9a51-101b239727e6
-source-git-commit: 1adcfdaaf2752173911182ac8241706f878a12a1
+source-git-commit: 5305880fed452ce07b168c0001386c1836c5afda
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '551'
 ht-degree: 3%
 
 ---
@@ -24,10 +24,6 @@ Zodra de workflow is gestart, wordt elke activiteit op het canvas in volgorde ui
 U kunt de voortgang van doelprofielen in real time volgen gebruikend een visuele stroom. Hierdoor kunt u snel de status van elke activiteit en het aantal profielen identificeren dat tussen de activiteiten overgaat.
 
 ![](assets/workflow-execution.png)
-
->[!NOTE]
->
->U kunt de visuele stroom uitschakelen met de **[!UICONTROL Hide progression]** in de bovenste actiebalk van het canvas.
 
 ## Workflowovergangen {#transitions}
 

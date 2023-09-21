@@ -4,9 +4,9 @@ title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 badge: label="Beta"
 exl-id: f2b9f8e6-5ded-4a47-89e9-96650cd78229
-source-git-commit: 925f797b79ec1b42a613373f8af1931a8aff3319
+source-git-commit: 74f333a74eab3fbb7dce1f184270ed36284b959b
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_campaigns_list"
 >title="Campagnes"
->abstract="Dit is de lijst van uw campagnes. U kunt nuttige informatie zoals hun begin/eind/laatste wijzigingsdata, evenals hun status bekijken. U kunt de lijst filteren op status of begin-/einddatum. Klik op de knop Campagne maken om een nieuwe campagne toe te voegen. Selecteer een campagne om de inhoud, leveringen en details ervan weer te geven. Blader naar het tabblad &#39;Sjablonen&#39; om sjablonen weer te geven en te maken."
+>abstract="Blader door de lijst met campagnes. Selecteer een campagne om de inhoud, leveringen en details ervan weer te geven. U kunt filteren op status, begin-/einddatums of met aangepaste regels. U kunt ook rapporten weergeven voor voltooide campagnes. Klik op de knop **Campagne maken** om een nieuwe campagne toe te voegen. Bladeren naar de **Sjablonen** gebruiken om sjablonen weer te geven en te maken."
 
 
 Met Adobe Campaign kunt u uw gerichte marketinginitiatieven eenvoudig ordenen met behulp van de ingebouwde mogelijkheden voor campagnemanagement. Met de mogelijkheid om een planning te definiëren, kunt u de duur en het tijdstip van uw campagnes zodanig plannen dat deze in overeenstemming zijn met strategische doelstellingen en de betrokkenheid van het publiek maximaliseren.

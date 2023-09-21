@@ -4,9 +4,9 @@ title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 56909f59e0bd9d18bb6df9610b376f6a3a1a2bad
+source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '565'
 ht-degree: 1%
 
 ---
@@ -28,15 +28,17 @@ ht-degree: 1%
 >title="Parameters opmaken"
 >abstract="Controleer de opmaakparameters voor het bestand."
 
-U kunt contactpersonen uploaden vanuit een extern bestand. Profielen worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../personalization/gs-personalization.md). Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV).
+U kunt profielen die in een extern bestand zijn opgeslagen, niet rechtstreeks vanuit de interface uploaden naar Campagne. Profielen worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../personalization/gs-personalization.md). Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV).
 
 >[!CAUTION]
 >
 >* Deze mogelijkheid is alleen beschikbaar voor **zelfstandige e-maillevering**. Het kan niet in werkschema&#39;s, noch met SMS of de levering van de Duw worden gebruikt.
 >
 >* U kunt niet [controlegroepen](control-group.md) bij het laden van de doelpopulatie uit een extern bestand.
+>
+>* Profielen worden niet toegevoegd aan de database en alleen geladen en beschikbaar voor deze specifieke zelfstandige e-maillevering.
 
-## Uw bestand uploaden {#upload}
+## Uw bestand selecteren en configureren {#upload}
 
 Voer de volgende stappen uit als u profielen rechtstreeks vanuit de e-mailinterface in een lokaal bestand als doel wilt instellen:
 
@@ -45,7 +47,7 @@ Voer de volgende stappen uit als u profielen rechtstreeks vanuit de e-mailinterf
 
    ![](assets/select-from-file.png)
 
-1. Selecteer het lokale bestand dat u wilt uploaden. De indeling moet worden uitgelijnd met de [voorbeeldbestand](#sample-file).
+1. Selecteer het lokale bestand dat u wilt gebruiken. De indeling moet worden uitgelijnd met de [voorbeeldbestand](#sample-file).
 1. In het centrale gedeelte van het scherm kunt u bekijken en controleren hoe gegevens worden toegewezen.
 1. Kies de kolom die het e-mailadres bevat in het menu **Adresveld** vervolgkeuzelijst. U kunt de kolom van de lijst van gewezen personen ook selecteren als u dergelijke informatie in het inputdossier hebt.
 1. Pas de kolominstellingen aan en maak gegevens op van de beschikbare opties.
