@@ -2,9 +2,9 @@
 title: Werken met ontvangers en publiek
 description: Leer hoe te met ontvangers het Web van de Campagne werken
 badge: label="Beta"
-source-git-commit: 899d6306e1de90c4c9b38a30061f97fa72fe7123
+source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '943'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,7 @@ Wanneer u zich richt op een publiek, kunt u ook definiëren **controlegroepen** 
 
 ## Doelafmetingen {#targeting-dimensions}
 
-De het richten dimensie is het type van gegevens dat een verrichting behandelt. Hiermee kunt u de doelgroep definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz.
+De gerichte dimensie, ook bekend als. target mapping, is het type gegevens dat een bewerking verwerkt. Hiermee kunt u de doelgroep definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz.
 
 De doeldimensie van een workflow wordt gedefinieerd door de eerste **[!UICONTROL Build audience]** en wordt gebruikt voor alle verdere activiteiten tot het einde van de werkstroom. Bijvoorbeeld, als u een vraag op de ontvangers van het gegevensbestand uitvoert, zal de uitgaande overgang gegevens van type ontvanger bevatten en het zal aan de volgende activiteit worden overgebracht.
 
