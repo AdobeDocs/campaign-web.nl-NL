@@ -3,9 +3,9 @@ audience: end-user
 title: Berichten verzenden naar de abonnees van een service
 description: Leer hoe te om berichten naar de abonnees van een dienst te verzenden
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '158'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 U kunt abonnementsservices maken in Adobe Campaign en berichten verzenden naar abonnees. Leer hoe u abonnementenservices kunt maken in [deze pagina](../audience//manage-services.md#create-service).
 
-Als u berichten naar uw abonnees wilt verzenden, maakt u een specifiek publiek om de abonnees te identificeren en maakt u vervolgens de levering zoals hieronder beschreven. Voer de volgende stappen uit om dit te doen:
+Als u berichten naar uw abonnees wilt verzenden, maakt u een specifiek publiek om de abonnees te identificeren en maakt u vervolgens de levering zoals hieronder beschreven.
 
 1. Een doelgroep maken. Meer informatie over publiek in [deze pagina](../audience/create-audience.md).
 
