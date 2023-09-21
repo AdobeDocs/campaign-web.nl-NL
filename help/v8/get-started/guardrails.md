@@ -2,9 +2,9 @@
 title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: 65ae0d382f82e1acb1f66bc1140b4f7e857180d6
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Lussen zijn nog niet beschikbaar in de webinterface. Als u een werkstroom met ee
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-De positionering van de knooppunten wordt elke keer dat een activiteit wordt toegevoegd of verwijderd, vernieuwd. Als u een werkstroom in de console creeert, wijzig het gebruikend het Web UI en open het in de console opnieuw, kunt u sommige minder belangrijke plaatsen onvolkomenheden opmerken. Dit heeft geen invloed op de
+De positionering van de knooppunten wordt elke keer dat een activiteit wordt toegevoegd of verwijderd, vernieuwd. Als u een werkstroom in de console creeert, wijzig het gebruikend het Web UI en open het in de console opnieuw, kunt u sommige minder belangrijke plaatsen onvolkomenheden opmerken. Dit heeft geen invloed op de processen en taken van de workflow.
 
 | Beginworkflow | Positiewijziging |
 | --- | --- |
