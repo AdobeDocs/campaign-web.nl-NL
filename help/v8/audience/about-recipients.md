@@ -2,15 +2,17 @@
 title: Werken met ontvangers en publiek
 description: Leer hoe te met ontvangers het Web van de Campagne werken
 badge: label="Beta"
-source-git-commit: 2b4928f6e5897d04889f822921e355a7c1360c80
+source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 2%
+source-wordcount: '1016'
+ht-degree: 1%
 
 ---
 
 
 # Werken met ontvangers en publiek {#about-recipients}
+
+In Adobe Campaign is de doelpopulatie van een levering een publiek. Een publieksset van personen die vergelijkbare gedragingen en/of kenmerken delen. Deze verzameling personen kan worden gegenereerd, geselecteerd of geladen [zoals hieronder beschreven](#audiences). In de meeste gevallen bestaat het publiek uit profielen die worden opgeslagen als [ontvangers](#recipients) in Adobe Campaign. U kunt ook met andere doeltoewijzingen werken door de dimensie te wijzigen, zoals uitgelegd [in deze sectie](#targeting-dimensions).
 
 ## Wat zijn ontvangers? {#recipients}
 
