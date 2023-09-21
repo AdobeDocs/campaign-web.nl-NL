@@ -3,9 +3,9 @@ audience: end-user
 title: Berichten verzenden naar de abonnees van een service
 description: Leer hoe te om berichten naar de abonnees van een dienst te verzenden
 badge: label="Beta"
-source-git-commit: 073fc1ca89e5f76dfbac00db7b3d76801635dcc3
+source-git-commit: e5ef71de970468fce418cc06cb9d2c25c0c40306
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '180'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,11 @@ Als u berichten naar uw abonnees wilt verzenden, maakt u een specifiek publiek o
 
 1. Sla het publiek op.
 1. Een levering maken. De stappen voor het maken van een levering worden beschreven in [deze pagina](../msg/gs-messages.md#create-delivery).
-1. Selecteer het publiek dat u hierboven hebt gemaakt.
+1. Blader naar uw leveringsinstellingen en wijzig de standaarddoeltoewijzing in **Abonnementen (nms:abonnementen)**.
+
+   ![](assets/service-delivery-change-mapping.png)
+
+1. Selecteer in de hoofddoelsectie van de levering het publiek dat u hierboven hebt gemaakt.
 
    ![](assets/service-delivery-targeting-subscribers.png)
 
