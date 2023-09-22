@@ -3,9 +3,9 @@ audience: end-user
 title: Soorten publiek maken en beheren
 description: Leer hoe u publiek kunt maken en beheren in Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: d81c143b5ba45bf02558856a250868d43679a63a
+source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,11 @@ In het onderstaande voorbeeld ziet u een publieksworkflow die is geconfigureerd 
 1. De **[!UICONTROL Save audience]** de activiteiten aan het eind van elk pad creëren twee nieuwe soorten publiek in de database , met inbegrip van de populatie die in elk pad is berekend .
 
 ## Het publiek bewaken en beheren {#monitor}
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Auditiefout"
+>abstract="Poortgegevens zijn niet beschikbaar. Wacht tot de workflow is voltooid."
 
 De lijst met publiek beschikbaar voor gebruik in het Web van de Campagne is toegankelijk van **[!UICONTROL Audiences]** -menu.
 
