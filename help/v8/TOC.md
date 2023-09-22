@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '422'
 ht-degree: 11%
 
 ---
@@ -85,13 +85,14 @@ ht-degree: 11%
       + [Uw e-mail renderen](preview-test/email-rendering.md)
 + Soorten publiek en ontvangers {#audiences}
    + [Werken met ontvangers en publiek](audience/about-recipients.md)
-   + [Soorten publiek maken en beheren](audience/create-audience.md)
-   + Doelpubliek {#target-audiences}
+   + [Soorten publiek maken](audience/create-audience.md)
+   + Ontvangers selecteren {#target-audiences}
       + [Bestaande doelgroep selecteren](audience/add-audience.md)
-      + [Bepaal een publiek met de regelbouwer](audience/segment-builder.md)
-      + [Een e-mailpubliek laden vanuit een bestand](audience/file-audience.md)
-      + [Een Adobe Experience Platform-publiek gebruiken](audience/aep-audience.md)
+      + [Eenmalig publiek maken](audience/one-time-audience.md)
+      + [Een publiek uit een bestand laden](audience/file-audience.md)
       + [Een controlegroep instellen](audience/control-group.md)
+   + [Werken met de regelbouwer](audience/segment-builder.md)
+   + [Het publiek bewaken en beheren](audience/manage-audience.md)
    + Werken met abonnementsservices {#work-with-services}
       + [Services beheren](audience/manage-services.md)
       + [Abonnees beheren](audience/manage-subscribers.md)

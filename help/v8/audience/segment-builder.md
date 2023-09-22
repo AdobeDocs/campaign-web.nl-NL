@@ -4,53 +4,40 @@ title: Een publiek maken met de bouwer van de campagneregel
 description: Leer hoe te met de regelbouwer te werken
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: ffd668b220284c2e948d1757740dbf67b27e32bd
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
 
-# Bepaal een publiek met de regelbouwer {#segment-builder}
+# Werken met de regelbouwer {#segment-builder}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card5"
 >title="Doelpubliek"
 >abstract="Het is nooit eenvoudiger om een leveringsdoel te maken! Met onze recentste regelbouwer, hebt u nu de capaciteit om het filtreren criteria voor ontvangers of een andere het richten dimensie van het gegevensbestand te bepalen. Profiteer van uw Adobe Experience Platform-publiek om uw doelgroep verder te verfijnen en de impact van uw campagne te maximaliseren."
 
-In deze sectie wordt beschreven hoe u een publiek kunt maken tijdens het ontwerpen van een nieuwe e-mail. Het nieuwe publiek kan alleen in deze e-mail worden gebruikt.
+De regelbouwer staat u toe om de bevolking te bepalen die door uw levering wordt gericht door gegevens te filtreren in het gegevensbestand. U kunt het gebruiken om een publiek of van een werkschema te bouwen gebruikend **[!UICONTROL Build audience]** of rechtstreeks wanneer u een levering maakt om een eenmalig publiek te maken.
 
-De regelbouwer staat u toe om de bevolking te bepalen die door uw bericht wordt gericht door gegevens te filtreren in het gegevensbestand. Als u een bestaand publiek wilt selecteren, raadpleegt u deze [sectie](add-audience.md).
-
-Voor meer informatie over de regelbouwer, verwijs naar [Documentatie voor segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html).
-
-Voer de volgende stappen uit om een nieuw publiek te maken tijdens het ontwerpen van een e-mail:
-
-1. Van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking, klik **[!UICONTROL Select audience]** knop.
-
-   ![](assets/segment-builder0.png)
-
-1. Selecteren **Maak uw eigen**. De regelbouwer wordt weergegeven.
-
-   ![](assets/segment-builder.png)
+* [Leer hoe u een publiek kunt maken](create-audience.md)
+* [Leer hoe u een eenmalig publiek voor een levering kunt maken](one-time-audience.md)
 
 ## Het palet
 
-Het palet aan de linkerkant bevat alle elementen waarop u kunt filteren om een publiek te maken. De tegels in het palet moeten naar het middelste canvas worden verplaatst om geconfigureerd en meegenomen te kunnen worden. Het palet bestaat uit twee tabbladen:
+Het palet aan de linkerkant bevat alle elementen waarop u kunt filteren om een publiek te maken. U kunt de zoekbalk gebruiken om snel naar elementen te zoeken. De tegels in het palet moeten naar het middelste canvas worden verplaatst om geconfigureerd en meegenomen te kunnen worden.
+
+![](assets/segment-builder2.png){width="70%" align="left"}
+
+Het palet bestaat uit twee tabbladen:
 
 * **Attributen**: op dit tabblad hebt u toegang tot alle beschikbare velden via het schema. De lijst met velden is afhankelijk van het doelschema dat in de e-mailsjabloon is gedefinieerd.
 
-  ![](assets/segment-builder2.png){width="70%" align="left"}
-
-* **Soorten publiek**: op dit tabblad kunt u filteren met een van de bestaande soorten publiek die zijn gedefinieerd in de Campaign Classic-console of vanuit Adobe Experience Platform.
-
-  ![](assets/segment-builder3.png){width="70%" align="left"}
+* **Soorten publiek**: op dit tabblad kunt u filteren met een van de bestaande soorten publiek die zijn gedefinieerd in de Campaign Classic-console of vanuit Adobe Experience Platform. [Leer hoe u het publiek kunt bewaken en beheren](manage-audience.md)
 
   >[!NOTE]
   >
   >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Adobe Experience Platform-bestemmingsdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
-
-U kunt de zoekbalk gebruiken om snel naar elementen te zoeken.
 
 ## Het canvas
 
@@ -60,13 +47,20 @@ Het canvas is de centrale zone waarin u regels kunt configureren en combineren o
 
 ## Het deelvenster Eigenschappen van regel
 
-Aan de rechterkant **Eigenschappen van Rule** kunt u de volgende handelingen uitvoeren:
+Aan de rechterkant **Eigenschappen van Rule** kunt u de hieronder vermelde handelingen uitvoeren.
 
 ![](assets/segment-builder5.png){width="70%" align="left"}
 
 * **Resultaten weergeven:** geeft de lijst weer van ontvangers die het doelpubliek als doel heeft.
 * **Codeweergave**: geeft een op code gebaseerde versie van het publiek in SQL weer.
 * **Geavanceerde kenmerken weergeven**: controleer deze optie als u de volledige lijst met kenmerken in het linkerpalet wilt weergeven: knooppunten, groepen, 1-1 koppelingen, 1-N koppelingen.
+* **Berekenen**: werkt bij en toont het aantal profielen die door uw vraag worden bedoeld.
+* **Filter selecteren of opslaan**: gebruik een vooraf gedefinieerd filter om de query te filteren of sla de query op als een nieuw filter voor toekomstig hergebruik. [Leer hoe u met vooraf gedefinieerde filters werkt](../get-started/predefined-filters.md)
+
+  >[!IMPORTANT]
+  >
+  >In die versie van het product zijn sommige vooraf gedefinieerde filters niet beschikbaar in de gebruikersinterface. U kunt ze nog steeds gebruiken. [Meer informatie](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+
 * **Attributen**: geeft een beschrijving van het gemaakte publiek weer.
 
 ## Voorbeeld
@@ -98,5 +92,3 @@ In dit voorbeeld bouwen we een publiek dat gericht is op alle klanten die in Atl
    ![](assets/segment-builder11.png)
 
 1. Klikken **Bevestigen**.
-
-Uw publiek is gedefinieerd en kan in uw e-mail worden gebruikt.

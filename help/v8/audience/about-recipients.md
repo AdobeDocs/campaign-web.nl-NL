@@ -2,9 +2,9 @@
 title: Werken met ontvangers en publiek
 description: Leer hoe te met ontvangers het Web van de Campagne werken
 badge: label="Beta"
-source-git-commit: c4d1558f766e3e686a035e8e26adcdc3a978765a
+source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Werken met ontvangers en publiek {#about-recipients}
 
-In Adobe Campaign is de doelpopulatie van een levering een publiek. Een publieksset van personen die vergelijkbare gedragingen en/of kenmerken delen. Deze verzameling personen kan worden gegenereerd, geselecteerd of geladen [zoals hieronder beschreven](#audiences). In de meeste gevallen bestaat het publiek uit profielen die worden opgeslagen als [ontvangers](#recipients) in Adobe Campaign. U kunt ook met andere doeltoewijzingen werken door de dimensie te wijzigen, zoals uitgelegd [in deze sectie](#targeting-dimensions).
+In Adobe Campaign is de doelpopulatie van een levering een publiek. Een publiek is een groep personen die vergelijkbare gedragingen en/of kenmerken delen. Deze verzameling personen kan worden gegenereerd, geselecteerd of geladen [zoals hieronder beschreven](#audiences). In de meeste gevallen bestaat het publiek uit profielen die worden opgeslagen als [ontvangers](#recipients) in Adobe Campaign. U kunt ook met andere doeltoewijzingen werken door de dimensie te wijzigen, zoals uitgelegd [in deze sectie](#targeting-dimensions).
 
 ## Wat zijn ontvangers? {#recipients}
 
@@ -58,8 +58,7 @@ Het publiek is het belangrijkste doel van uw levering: de ontvangers die de beri
 Om de populatie van een publiek te bepalen, kunt u:
 
 * [Nieuw publiek maken](create-audience.md) van de **[!UICONTROL Audiences]** menu,
-* [Bestaande doelgroep selecteren](add-audience.md) gemaakt als een lijst in de clientconsole,
-* [Een Adobe Experience Platform-publiek selecteren](aep-audience.md),
+* [Bestaande doelgroep selecteren](add-audience.md) gemaakt als een lijst in de clientconsole of afkomstig uit Adobe Experience Platform;
 * [Een nieuw publiek maken](segment-builder.md) met de regelbouwer door filtercriteria te definiëren en te combineren,
 * [Een publiek uit een extern bestand gebruiken](file-audience.md). Deze optie is alleen beschikbaar voor zelfstandige e-mailleveringen en kan niet worden gebruikt in campagneleveringen.
 
@@ -75,7 +74,7 @@ De gerichte dimensie, ook bekend als. target mapping, is het type gegevens dat e
 
 De doeldimensie van een workflow wordt gedefinieerd door de eerste **[!UICONTROL Build audience]** en wordt gebruikt voor alle verdere activiteiten tot het einde van de werkstroom. Bijvoorbeeld, als u een vraag op de ontvangers van het gegevensbestand uitvoert, zal de uitgaande overgang gegevens van type ontvanger bevatten en het zal aan de volgende activiteit worden overgebracht.
 
-Let op: u kunt de doeldimensie in een workflow wijzigen met een **[!UICONTROL Change dimension]** activiteit. [Meer informatie](../workflows/activities/change-dimension.md). Dit staat u toe, bijvoorbeeld, om het gegevensbestand op een specifieke lijst zoals aankopen of abonnementen te vragen, en dan de het richten dimensie aan Ontvangers te veranderen om leveringen naar de overeenkomstige ontvangers te verzenden.
+Let op: u kunt de doeldimensie in een workflow wijzigen met een [Dimensieactiviteit wijzigen](../workflows/activities/change-dimension.md). Dit staat u toe, bijvoorbeeld, om het gegevensbestand op een specifieke lijst zoals aankopen of abonnementen te vragen, en dan de het richten dimensie aan Ontvangers te veranderen om leveringen naar de overeenkomstige ontvangers te verzenden.
 
 Standaard wordt in sjablonen voor e-mail- en sms-verzending de doelstelling **[!UICONTROL Recipients]**. Hun doeldimensie gebruikt daarom de gebieden van **nms:ontvanger** tabel. Voor pushberichten is de standaarddoeldimensie: **Toepassingen voor abonnees nms:appSubscriptionRcp**, die is gekoppeld aan de tabel met ontvangers.
 
