@@ -2,7 +2,7 @@
 title: Het gebruiken van AI aangedreven knowlegde assistent in het Web van de Campagne
 description: Het gebruiken van AI aangedreven knowlegde assistent in het Web van de Campagne
 badge: label="Beta"
-source-git-commit: ab445f332b62baa98f9f9e84a80cc336cd88efe0
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 0%
@@ -19,7 +19,7 @@ U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocument
 
 De **Medewerker kennis met Gen AI** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
 
-Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze Knowledge Assistant met Gen AI is uw ultieme partner, die bij elke interactie een ongekende efficiëntie en nauwkeurigheid biedt.
+Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze AI-Medewerker van de Kennis is uw ultieme metgezel, die ongeëvenaarde efficiëntie en nauwkeurigheid biedt in elke interactie.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
@@ -39,7 +39,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Antwoorden {#answers-ai}
 
-Antwoorden kunnen onjuist of misleidend zijn. Dientengevolge, kan de Adobe kennisassistent onjuiste informatie uitvoeren. Controleer de productdocumentatie die in elk Help-vak is gekoppeld.
+Antwoorden kunnen onjuist of misleidend zijn. Als gevolg hiervan kan de door Adobe Campaign AI aangedreven Knowledge Assistant onjuiste informatie uitvoeren. Controleer de productdocumentatie die in elk Help-vak is gekoppeld.
 
 Kunstmatige intelligentie en modellen voor machinaal leren verbeteren in de loop der tijd om specifieke gebruiksgevallen beter aan te pakken. De komende maanden zal de door AI aangedreven kennisassistent beter worden. We raden u ten zeerste aan de ? ??? knopen op om het even welk ogenblik u een anker leest, om het even welke ongepaste reacties aan onze ingenieurs te vlaggen.
 

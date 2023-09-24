@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1263'
 ht-degree: 0%
 
 ---
@@ -115,9 +115,9 @@ De interface bevat een contextafhankelijke Help. Klik, indien beschikbaar, op de
 
 ![](assets/context-help.png){width="40%" align="left"}
 
-Met de nieuwe bètaversie **Medewerker kennis met Gen AI** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
+Met de nieuwe bètaversie **AI-assistent voor kennis** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
 
-Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze Knowledge Assistant met Gen AI is uw ultieme partner, die bij elke interactie een ongekende efficiëntie en nauwkeurigheid biedt.
+Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze AI-Medewerker van de Kennis is uw ultieme metgezel, die ongeëvenaarde efficiëntie en nauwkeurigheid biedt in elke interactie.
 
 Meer informatie in [deze sectie](using-ai.md).
 
@@ -182,11 +182,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- delivery template settings-->
 
-
->[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="Uitvoer"
->abstract="U kunt alleen de geselecteerde pagina exporteren."
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
