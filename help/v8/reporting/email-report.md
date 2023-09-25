@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: c8bce23d78960fcc5c9adbb37d376d60319d8df9
+source-git-commit: 9693d4b0ca6f870b8f23b950050a68ac2674db5d
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
@@ -301,6 +301,12 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 >id="acw_delivery_reporting_breakdown_os"
 >title="Uitsplitsing naar besturingssysteem"
 >abstract="De **Uitsplitsing naar besturingssysteem** de uitsplitsing van de openingen naar besturingssysteem voor de betrokken periode. In het eerste diagram worden statistieken over de mogelijkheden van een computer en een mobiel apparaat weergegeven. In het tweede voorbeeld worden alleen statistieken weergegeven over het openen op mobiele apparaten."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_breakdown_browser"
+>title="Onderverdeling per browser"
+>abstract="De **Onderverdeling per browser** geeft de uitsplitsing van de open documenten per browser voor de betrokken periode weer. In het eerste diagram worden statistieken over de mogelijkheden van een computer en een mobiel apparaat weergegeven. In het tweede voorbeeld worden alleen statistieken weergegeven over het openen op mobiele apparaten."
+
 
 In dit rapport wordt de uitsplitsing van de openingen per besturingssysteem, apparaat en browser voor de betrokken periode weergegeven. Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele apparaten. In het tweede voorbeeld worden alleen statistieken weergegeven over het openen op mobiele apparaten.
 
