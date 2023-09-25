@@ -1,15 +1,21 @@
 ---
-title: Het gebruiken van AI aangedreven knowlegde assistent in het Web van de Campagne
-description: Het gebruiken van AI aangedreven knowlegde assistent in het Web van de Campagne
+title: Het gebruiken van AI aangedreven kennisassistent in het Web van de Campagne
+description: Het gebruiken van AI aangedreven kennisassistent in het Web van de Campagne
 badge: label="Beta"
-source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
+source-git-commit: 2744c62136af0c594452e35d7aa0eb79d0878efe
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
 
 # De door AI aangedreven Knowledge Assistant gebruiken {#using-ai}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card6"
+>title="AI-assistent voor kennis"
+>abstract="Krijg snelle, door AI gegenereerde antwoorden op basis van de productdocumentatie en uw huidige productcontext, met de door AI aangedreven Knowledge Assistant. In de contextafhankelijke Help-vakken voor producten is het een revolutie in het zoeken naar documentatie en het beantwoorden van &#39;Hoe kan ik&#39;-vragen, waarbij moeiteloos door grote documentatieruimten heen wordt gegrepen, waarbij direct wordt vastgesteld welke informatie u nodig hebt."
+
 
 U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocumentatie en uw huidige productcontext, met de door AI aangedreven Knowkedge Assistant beschikbaar in de contextafhankelijke Help-vakken voor producten.
 
@@ -19,7 +25,7 @@ U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocument
 
 De **Medewerker kennis met Gen AI** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
 
-Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze AI-Medewerker van de Kennis is uw ultieme metgezel, die ongeëvenaarde efficiëntie en nauwkeurigheid biedt in elke interactie.
+Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, de door AI aangedreven Knowledge Assistant is uw ultieme partner die bij elke interactie ongekende efficiëntie en nauwkeurigheid biedt.
 
 <img src="assets/AI_CH.gif" width="80%"/>
 
