@@ -3,14 +3,14 @@ audience: end-user
 title: Verzendrapporten via SMS
 description: Leer hoe u sms-leveringsrapporten kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: 8531bbe867e0d2fc42edef1a98b5a8ccc29be11c
+source-git-commit: 7ad4e011305eca7bad9a0f504543a25b155cfe59
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 1%
+source-wordcount: '466'
+ht-degree: 0%
 
 ---
 
-# SMS-leveringsrapport {#report}
+# Verzendrapporten via SMS {#sms-report}
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
@@ -26,49 +26,78 @@ De **Overzicht van SMS-verzending** biedt een uitgebreid overzicht van uw leveri
 
 ## Leveringsoverzicht {#delivery-summary}
 
-* **[!UICONTROL Delivery overview]** verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over succes en foutenpercentages, en hoe uw bezoekers met uw SMS berichten in dienst nemen.
+### Overzicht van levering {#sms-delivery-overview}
 
-  ![](assets/reporting_sms_3.png)
+De **[!UICONTROL Delivery overview]** Het rapport biedt belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over het succes en de foutenpercentages en over de manier waarop uw bezoekers uw SMS-berichten gebruiken.
 
-  +++Meer informatie over de cijfers van SMS-verzendrapporten.
+![](assets/reporting_sms_3.png)
 
-   * **[!UICONTROL Total sent]**: Percentage en totaal aantal berichten die tijdens de leveringsvoorbereiding worden verwerkt.
++++Meer informatie over de cijfers van SMS-verzendrapporten.
 
-   * **[!UICONTROL Success]**: Percentage en aantal berichten dat succesvol is verzonden, in verhouding tot het totale aantal verzonden berichten.
+* **[!UICONTROL Total sent]**: Percentage en totaal aantal berichten die tijdens de leveringsvoorbereiding worden verwerkt.
 
-   * **[!UICONTROL Click-through rate]**: Percentage en aantal gebruikers die interactie hebben gehad met koppelingen die in uw SMS-levering zijn opgenomen.
+* **[!UICONTROL Success]**: Percentage en aantal berichten dat succesvol is verzonden, in verhouding tot het totale aantal verzonden berichten.
 
-   * **[!UICONTROL Errors]**: Percentage en totaal aantal fouten die zijn opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
-+++
+* **[!UICONTROL Click-through rate]**: Percentage en aantal gebruikers die interactie hebben gehad met koppelingen die in uw SMS-levering zijn opgenomen.
 
-* **Doelpopulatie** grafiek en lijstvertoningsgegevens met betrekking tot uw publiek.
+* **[!UICONTROL Errors]**: Percentage en totaal aantal fouten die zijn opgetreden tijdens een levering waardoor deze niet naar profielen kan worden verzonden.
 
-  ![](assets/reporting_sms_4.png)
-
-  +++Meer informatie over de cijfers van SMS-verzendrapporten.
-
-   * **[!UICONTROL To deliver]**: Totaal aantal en percentage berichten die tijdens de levering voorbereiding worden verwerkt.
-
-   * **[!UICONTROL Exclusions]**: Aantal en percentage profielen dat van de analyse is uitgesloten.
 +++
 
 
-* **Algemene statistieken** bevat gegevens voor de verzonden SMS-berichten, waaronder:
+### Doelpopulatie {#sms-delivery-targeted-population}
 
-  ![](assets/reporting_sms_5.png)
 
-  +++Meer informatie over de cijfers van SMS-verzendrapporten.
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_targeted_population"
+>title="Doelpopulatie van SMS"
+>abstract="De **Doelpopulatie** grafiek en lijstvertoningsgegevens met betrekking tot uw publiek van SMS: te leveren berichten en uitsluitingen."
 
-   * **[!UICONTROL Success]**: Het aantal en het percentage berichten dat met succes is verwerkt.
+De **Doelpopulatie** grafiek en lijstvertoningsgegevens met betrekking tot uw publiek. De cijfers worden hieronder beschreven.
 
-   * **[!UICONTROL Errors]**: Het totale aantal fouten en het percentage fouten dat tijdens de levering is opgetreden, waardoor berichten niet naar bepaalde profielen kunnen worden verzonden.
+![](assets/reporting_sms_4.png)
 
-   * **[!UICONTROL New quarantine]**: Aantal en percentage profielen dat is uitgesloten en toegevoegd aan de quarantaine.
++++Meer informatie over de cijfers van SMS-verzendrapporten.
+
+* **[!UICONTROL To deliver]**: Totaal aantal en percentage berichten die tijdens de levering voorbereiding worden verwerkt.
+
+* **[!UICONTROL Exclusions]**: Aantal en percentage profielen dat van de analyse is uitgesloten.
 +++
+
+
+### Algemene statistieken {#sms-delivery-overall}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_overall_stats"
+>title="Globale statistieken opkrikken"
+>abstract="De **Algemene statistieken** het rapport presenteert gegevens voor verzonden SMS: succes, fouten en quarantines."
+
+De **Algemene statistieken** rapport bevat gegevens voor de verzonden SMS-berichten. De cijfers worden hieronder beschreven.
+
+![](assets/reporting_sms_5.png)
+
++++Meer informatie over de cijfers van SMS-verzendrapporten.
+
+* **[!UICONTROL Success]**: Het aantal en het percentage berichten dat met succes is verwerkt.
+
+* **[!UICONTROL Errors]**: Het totale aantal fouten en het percentage fouten dat tijdens de levering is opgetreden, waardoor berichten niet naar bepaalde profielen kunnen worden verzonden.
+
+* **[!UICONTROL New quarantine]**: Aantal en percentage profielen dat is uitgesloten en toegevoegd aan de quarantaine.
++++
+
+### Uitsluitingen {#sms-delivery-exclusions}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_sms_exclusions"
+>title="Algemene SMS-statistieken"
+>abstract="De **Uitsluitingen** de grafiek en de lijst tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen."
+
 
 * **[!UICONTROL Exclusions]** de grafiek en de lijst tonen de redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, het bericht ontvingen.
 
-  ![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png)
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
