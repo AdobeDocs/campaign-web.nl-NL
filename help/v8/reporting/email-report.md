@@ -3,7 +3,7 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: f2ae73ce56e2e5128fecd8b74a6bdb096b8b75ec
+source-git-commit: cc58e6bcf030885ba364df7dfd51de797117120c
 workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 0%
@@ -30,11 +30,11 @@ De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specif
 
 De **[!UICONTROL Initial target population]** de grafiek toont gegevens met betrekking tot uw ontvangers. De metriek worden berekend tijdens levering voorbereiding en toon: het aanvankelijke publiek, het aantal te verzenden berichten, het aantal uitgesloten ontvangers.
 
-![](assets/reporting_email_1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_1.png){width="50%" align="center" zoomable="yes"}
 
 Plaats de muis boven een gedeelte van de grafiek om het exacte getal weer te geven.
 
-![](assets/reporting_email_1.1.png){align="center" zoomable="yes"}
+![](assets/reporting_email_1.1.png){width="50%" align="center" zoomable="yes"}
 
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
@@ -57,7 +57,7 @@ Plaats de muis boven een gedeelte van de grafiek om het exacte getal weer te gev
 
 De **[!UICONTROL Delivery statistics]** grafiek geeft het succes van uw levering aan. De cijfers worden hieronder beschreven.
 
-![](assets/reporting_email_2.png){align="center" zoomable="yes"}
+![](assets/reporting_email_2.png){width="50%" align="center" zoomable="yes"}
 
 +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
