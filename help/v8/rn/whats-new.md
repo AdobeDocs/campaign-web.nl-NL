@@ -4,15 +4,21 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: f1351a4955605b82c6eddef441f3f76ec4850d9d
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1062'
 ht-degree: 1%
 
 ---
 
 
 # Nieuwe functies {#new}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card1"
+>title="Nieuwe functies"
+>abstract="Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/start/using-ai.html" text="Zoek hulp met de nieuwe AI-assistent voor kennis"
 
 We zijn blij met de invoering van de BETA-versie van de webinterface van Adobe Campaign. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen.
 

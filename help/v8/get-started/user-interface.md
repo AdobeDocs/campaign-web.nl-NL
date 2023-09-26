@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 943f328d33ba482a4264386cf17e73b32fbe47de
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ De **Verkenner** worden alle campagnebronnen en -objecten met dezelfde mappenhiÃ
 
 De items die worden weergegeven in de **Verkenner** zijn afhankelijk van uw gebruikersmachtigingen. U kunt ook mappen en submappen toevoegen als u de juiste rechten hebt. Meer informatie over machtigingen in [deze sectie](permissions.md).
 
-Zoals in om het even welk lijstscherm, kunt u kolommen vormen om de vertoning te personaliseren om alle informatie te bekijken u wenst. Zie dit [sectie](#list-screens).
+U kunt kolommen vormen om de vertoning aan te passen om alle informatie te bekijken u wenst. Zie dit [sectie](#list-screens). U kunt ook mappen en submappen toevoegen, zoals wordt beschreven in [deze sectie](permissions.md#folders).
 
 Raadpleeg voor meer informatie over de campagnedeskundige, maphiÃ«rarchie en bronnen [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 

@@ -2,20 +2,14 @@
 title: Het gebruiken van AI aangedreven kennisassistent in het Web van de Campagne
 description: Het gebruiken van AI aangedreven kennisassistent in het Web van de Campagne
 badge: label="Beta"
-source-git-commit: 2744c62136af0c594452e35d7aa0eb79d0878efe
+source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
 # De door AI aangedreven Knowledge Assistant gebruiken {#using-ai}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card6"
->title="AI-assistent voor kennis"
->abstract="Krijg snelle, door AI gegenereerde antwoorden op basis van de productdocumentatie en uw huidige productcontext, met de door AI aangedreven Knowledge Assistant. In de contextafhankelijke Help-vakken voor producten is het een revolutie in het zoeken naar documentatie en het beantwoorden van &#39;Hoe kan ik&#39;-vragen, waarbij moeiteloos door grote documentatieruimten heen wordt gegrepen, waarbij direct wordt vastgesteld welke informatie u nodig hebt."
-
 
 U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocumentatie en uw huidige productcontext, met de door AI aangedreven Knowkedge Assistant beschikbaar in de contextafhankelijke Help-vakken voor producten.
 
@@ -45,9 +39,9 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 ## Antwoorden {#answers-ai}
 
-Antwoorden kunnen onjuist of misleidend zijn. Als gevolg hiervan kan de door Adobe Campaign AI aangedreven Knowledge Assistant onjuiste informatie uitvoeren. Controleer de productdocumentatie die in elk Help-vak is gekoppeld.
+De Adobe Campaign AI-assistent biedt ondersteuning, maar u moet de feiten controleren. Het kan onjuiste informatie, onjuiste of misleidende antwoorden uitvoeren. Controleer de productdocumentatie die in elk Help-vak is gekoppeld.
 
-Kunstmatige intelligentie en modellen voor machinaal leren verbeteren in de loop der tijd om specifieke gebruiksgevallen beter aan te pakken. De komende maanden zal de door AI aangedreven kennisassistent beter worden. We raden u ten zeerste aan de ? ??? knopen op om het even welk ogenblik u een anker leest, om het even welke ongepaste reacties aan onze ingenieurs te vlaggen.
+Kunstmatige intelligentie en modellen voor machinaal leren verbeteren in de loop der tijd om specifieke gebruiksgevallen beter aan te pakken. De Campagne van de AI-Medewerker van de Kennis zal de komende maanden beter blijven worden. We raden u ten zeerste aan de ? ??? knopen op om het even welk ogenblik u een anker leest, om het even welke ongepaste reacties aan onze ingenieurs te vlaggen.
 
 ## Aanbevelingen  {#recommendations-ai}
 
