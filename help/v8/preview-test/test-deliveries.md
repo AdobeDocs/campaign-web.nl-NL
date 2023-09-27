@@ -4,10 +4,10 @@ title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: c7be20a41d3188f67225a60a5559ed3166cd3ca4
+source-git-commit: 04807983b59232da89bdec3e530585a017a17ab1
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 1%
+source-wordcount: '1082'
+ht-degree: 0%
 
 ---
 
@@ -22,24 +22,37 @@ Zodra uw berichtinhoud is bepaald, kunt u voorproef en het testen door testlever
 
 Om mogelijke fouten in de berichtinhoud of verpersoonlijkingsmontages te ontdekken, verzend testberichten naar testprofielen alvorens het naar het doelpubliek te verzenden. Telkens wanneer een wijziging wordt aangebracht, moet een testbericht worden verzonden om de meest recente inhoud te valideren. Het verzenden van testleveringen (voorheen &#39;proefdrukken&#39; genoemd) is een belangrijke stap in het valideren van uw campagne en het identificeren van mogelijke problemen. De ontvangers van een testbericht kunnen verschillende elementen controleren, zoals verbindingen, opt-out verbindingen, beelden, of spiegelpagina&#39;s, evenals om het even welke fouten in het teruggeven, de inhoud, verpersoonlijkingsmontages en leveringsconfiguratie ontdekken.
 
-## Selecteer de testontvangers {#test-recipients}
+## Inhoud simuleren met testontvangers {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"
 >title="Testpopulatie"
 >abstract="Selecteer een testpopulatiemodus."
 
-Afhankelijk van het kanaal dat u gebruikt, kunnen testberichten naar drie soorten ontvangers worden verzonden:
+Alvorens een test te verzenden, zorg ervoor u een doelpubliek voor u levering bepaalt. [Meer informatie](../audience/about-recipients.md)
 
-* [Testprofielen](#test-profiles) - Verzenden **e-mails en SMS testen** aan zaadadressen, die extra ontvangers in het gegevensbestand zijn. Ze kunnen worden gemaakt in de [!DNL Campaign] in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
-* [Vervangen van hoofddoel](#substitution-profiles) - Verzenden **e-mails en SMS testen** naar een specifiek e-mailadres of telefoonnummer wanneer u een bestaand profiel imiteert. Op deze manier kunt u het bericht net zo ervaren als de ontvangers, zodat u een nauwkeurige weergave krijgt van de inhoud die het profiel zal ontvangen.
+Uw berichtinhoud testen:
 
-* [Abonnees](#subscribers) - Verzenden **pushmeldingen testen** aan fictieve abonnees toegevoegd aan het gegevensbestand. Net als testprofielen kunnen ze worden gemaakt in het dialoogvenster [!DNL Campaign] in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+1. Bewerk de inhoud van je e-mail- of SMS-verzending.
+1. Klik op de knop **[!UICONTROL Simulate content]**.
+1. Klik op de knop **[!UICONTROL Test]** om testberichten te verzenden.
 
-Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaande stappen op basis van het type profielen dat u wilt gebruiken.
+   ![](assets/simulate-test-button-email.png)
 
-### Test profiles {#test-profiles}
+1. Selecteer de testontvangers.
+
+   Afhankelijk van het berichtkanaal, kunnen de testberichten naar de volgende types van ontvangers worden verzonden:
+
+   * Voor SMS en e-mail kunt u [testprofielen](#test-profiles), die specifieke extra ontvangers in de database zijn. Deze ontvangers worden gemaakt in het dialoogvenster [!DNL Campaign] clientconsole. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+
+   * Voor SMS en e-mail kunt u ook de opdracht [vervanging van het hoofddoel](#substitution-profiles) , die de testberichten naar e-mailtestadres of telefoonnummer verzendt, en verpersoonlijkingsgegevens van een bestaand profiel gebruiken. Op deze manier kunt u het bericht net zo ervaren als de ontvangers, zodat u een nauwkeurige weergave krijgt van de inhoud die het profiel zal ontvangen.
+
+   * Voor pushberichten kunt u [abonnees](#subscribers), die fictieve abonnees zijn die aan het gegevensbestand worden toegevoegd. Ze worden gemaakt in de [!DNL Campaign] console. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+
+   De gedetailleerde configuratie voor elke wijze is beschikbaar hieronder.
+
+## Testprofielen gebruiken {#test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_mode"
@@ -57,11 +70,9 @@ Als u de ontvangers van een testlevering wilt selecteren, volgt u de onderstaand
 >abstract="De opmaak van het bestand moet gelijk zijn aan die van het oorspronkelijke bestand.<br/>Ondersteunde bestandsindelingen: txt, csv. Maximale bestandsgrootte: 15 MB. Eerste regel gebruiken als kolomkop."
 
 
-De profielen van de test zijn zaadadressen, die extra ontvangers in het gegevensbestand zijn. Ze kunnen worden gemaakt in de [!DNL Adobe Campaign] clientconsole in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. De stappen om testberichten naar zaadadressen te verzenden zijn hieronder gedetailleerd.
+De profielen van de test zijn zaadadressen, die extra ontvangers in het gegevensbestand zijn. Ze kunnen worden gemaakt in de [!DNL Adobe Campaign] clientconsole. De stappen om testberichten naar zaadadressen te verzenden zijn hieronder gedetailleerd.
 
-1. Blader naar het scherm Inhoud bewerken van uw e-mail- of SMS-verzending en klik vervolgens op de knop **[!UICONTROL Simulate content]** knop.
-
-1. Klik op de knop **[!UICONTROL Test]**.
+1. Bewerk de inhoud van de levering en klik op de knop **[!UICONTROL Simulate content]** knop. Klik vervolgens op de knop **[!UICONTROL Test]** knop.
 
    >[!NOTE]
    >
@@ -83,15 +94,12 @@ De profielen van de test zijn zaadadressen, die extra ontvangers in het gegevens
 
 1. Nadat de testprofielen zijn geselecteerd, kunt u [verzendt de testlevering](#send-test).
 
-### Vervangende profielen {#substitution-profiles}
+## Vervangende profielgegevens {#substitution-profiles}
 
-Een test-e-mail of -SMS verzenden naar een specifiek e-mailadres of telefoonnummer terwijl gegevens uit een bestaand profiel van het deelvenster [!DNL Adobe Campaign] database, gebruik substitutieprofielen, zoals hieronder beschreven:
+Gebruik profielvervanging om testberichten naar een specifiek e-mailadres of telefoonnummer te verzenden, terwijl de gegevens van een bestaand profiel van het [!DNL Adobe Campaign] database. Volg onderstaande stappen om dit te doen:
 
-1. Alvorens een test te verzenden, zorg ervoor u een doelpubliek voor u levering bepaalt. [Meer informatie](../audience/about-recipients.md)
 
-1. Blader naar het scherm Inhoud bewerken van uw e-mail- of SMS-verzending en klik vervolgens op de knop **[!UICONTROL Simulate content]** knop.
-
-1. Klik op de knop **[!UICONTROL Test]**.
+1. Bewerk de inhoud van de levering en klik op de knop **[!UICONTROL Simulate content]** knop. Klik vervolgens op de knop **[!UICONTROL Test]** knop.
 
    ![](assets/simulate-test-button-email.png)
 
@@ -119,13 +127,11 @@ Een test-e-mail of -SMS verzenden naar een specifiek e-mailadres of telefoonnumm
 
 1. Als de vervangende profielen zijn geselecteerd, kunt u [verzendt de testlevering](#send-test).
 
-### Abonnees {#subscribers}
+## Tests verzenden naar abonnees {#subscribers}
 
 Als u werkt met pushberichten, kunnen testleveringen alleen naar uw app-abonnees worden verzonden. Volg onderstaande stappen om deze te selecteren.
 
-1. Blader naar het scherm Inhoud bewerken van uw levering en klik vervolgens op de knop **[!UICONTROL Simulate content]** knop.
-
-1. Klik op de knop **[!UICONTROL Test]**.
+1. Bewerk de inhoud van de levering en klik op de knop **[!UICONTROL Simulate content]** knop. Klik vervolgens op de knop **[!UICONTROL Test]** knop.
 
    ![](assets/simulate-test-button-push.png)
 
