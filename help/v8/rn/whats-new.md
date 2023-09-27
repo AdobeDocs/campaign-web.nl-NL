@@ -4,9 +4,9 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1046'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ De belangrijkste mogelijkheden die met het Webbètaprogramma van de Campagne kom
 
 * **Gen AI voor e-mailinhoud**
 
-  Neem afscheid van het handmatig maken van inhoud en begroet efficiënte, door gegevens gestuurde campagnes met de kracht van Gen AI.  Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen voor **zeer boeiende en gepersonaliseerde inhoud genereren**. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI. Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud. Deze mogelijkheid zal begin oktober beschikbaar zijn.
+  Neem afscheid van het handmatig maken van inhoud en begroet efficiënte, door gegevens gestuurde campagnes met de kracht van Gen AI.  Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen voor **zeer boeiende en gepersonaliseerde inhoud genereren**. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI. Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud.
 
   Meer informatie in [deze sectie](../content/generative-gs.md).
 
@@ -99,7 +99,7 @@ De belangrijkste mogelijkheden die met het Webbètaprogramma van de Campagne kom
 
 * **Medewerker kennis met Gen AI**
 
-  Stel vragen en vind direct hulp van het productgebruikersinterface. De nieuwe **AI-assistent voor kennis**, ingebed in de contextafhankelijke help popovers, helpt u om uw expertise op het gebied van nieuwe campagnefuncties te leren en uit te breiden. Op basis van de meest recente productdocumentatie helpt het u om hulp te zoeken en stap voor stap hulp te krijgen, aangezien u uw gebruiksgevallen bouwt. Deze mogelijkheid zal begin oktober beschikbaar zijn.
+  Stel vragen en vind direct hulp van het productgebruikersinterface. De nieuwe **AI-assistent voor kennis**, ingebed in de contextafhankelijke help popovers, helpt u om uw expertise op het gebied van nieuwe campagnefuncties te leren en uit te breiden. Op basis van de meest recente productdocumentatie helpt het u om hulp te zoeken en stap voor stap hulp te krijgen, aangezien u uw gebruiksgevallen bouwt.
 
   Meer informatie in [deze sectie](../get-started/using-ai.md).
 

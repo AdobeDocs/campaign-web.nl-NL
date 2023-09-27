@@ -3,9 +3,9 @@ audience: end-user
 title: Tekst met de Content Assistant
 description: Aan de slag met de Content Assistant
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
@@ -17,10 +17,9 @@ Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de Content Assis
 
 De Inhoudsassistent kan u helpen de impact van uw leveringen te optimaliseren door andere inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->Deze mogelijkheid zal begin oktober beschikbaar zijn.
+>Lees de verwante bestanden voordat u deze functie gaat gebruiken [Afvoerkanalen en beperkingen](generative-gs.md#guardrails-and-limitations).
 
 Volg onderstaande stappen om e-mailinhoud te genereren en te verbeteren met de Content Assistant. U kunt ook de volledige HTML-inhoud maken met de Content Assistant, zoals in [deze pagina](generative-email.md).
 
@@ -42,7 +41,7 @@ Volg onderstaande stappen om e-mailinhoud te genereren en te verbeteren met de C
 
    ![](assets/text-genai-3.png)
 
-1. Selecteren **[!UICONTROL Upload file]** als u merkmiddelen wilt toevoegen die inhoud bevatten die extra context de Inhoudsassistent kan verstrekken.
+1. Selecteren **[!UICONTROL Upload file]** om merkmiddelen toe te voegen die inhoud bevatten die extra context de Inhoudsassistent kan verstrekken.
 
    U kunt ook op **[!UICONTROL Uploaded content]** om eerder bijgewerkte bestanden te zoeken. De geüploade inhoud is exclusief beschikbaar voor hergebruik door de huidige gebruiker.
 

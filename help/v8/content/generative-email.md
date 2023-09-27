@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailgeneratie met Inhoudsassistent
 description: Aan de slag met de Content Assistant
 badge: label="Beta"
-source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
+source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -14,15 +14,10 @@ ht-degree: 0%
 
 De Inhoudsassistent verbetert de impact van uw communicatie door automatisch volledige e-mailinhoud te genereren, zodat u tijd bespaart en een consistente kwaliteit gegarandeerd is. Met Generative AI kunt u moeiteloos aantrekkelijke e-mails maken die op uw publiek zijn afgestemd, waardoor uw communicatie effectiever en efficiënter wordt.
 
-
->[!AVAILABILITY]
+>[!NOTE]
 >
->Deze mogelijkheid zal begin oktober beschikbaar zijn.
+>Lees de verwante bestanden voordat u deze functie gaat gebruiken [Afvoerkanalen en beperkingen](generative-gs.md#guardrails-and-limitations).
 
-
-
-
-## De HTML-inhoud genereren met AI {#generative-email-generate}
 
 Volg onderstaande stappen om e-mailinhoud te genereren met de Content Assistant. U kunt ook bestaande inhoud verbeteren met de Content Assistant, zoals in [deze pagina](generative-content.md).
 
