@@ -1,26 +1,30 @@
 ---
 audience: end-user
-title: E-mailgeneratie met de inhoudsassistent
-description: Aan de slag met de inhoudsassistent
+title: E-mailgeneratie met Inhoudsassistent
+description: Aan de slag met de Content Assistant
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 1%
+source-wordcount: '427'
+ht-degree: 0%
 
 ---
 
-# Een e-mail genereren met de Inhoudsassistent {#generative-email}
+# Een e-mail genereren met de Content Assistant {#generative-email}
 
-De Inhoudsassistent verbetert de impact van uw communicatie door automatisch volledige e-mailinhoud te genereren, zodat u tijd bespaart en een consistente kwaliteit gegarandeerd is.
-
-Met Generative AI kunt u moeiteloos aantrekkelijke e-mails maken die op uw publiek zijn afgestemd, waardoor uw communicatie effectiever en efficiënter wordt.
+De Inhoudsassistent verbetert de impact van uw communicatie door automatisch volledige e-mailinhoud te genereren, zodat u tijd bespaart en een consistente kwaliteit gegarandeerd is. Met Generative AI kunt u moeiteloos aantrekkelijke e-mails maken die op uw publiek zijn afgestemd, waardoor uw communicatie effectiever en efficiënter wordt.
 
 
 >[!AVAILABILITY]
 >
 >Deze mogelijkheid zal begin oktober beschikbaar zijn.
 
+
+
+
+## De HTML-inhoud genereren met AI {#generative-email-generate}
+
+Volg onderstaande stappen om e-mailinhoud te genereren met de Content Assistant. U kunt ook bestaande inhoud verbeteren met de Content Assistant, zoals in [deze pagina](generative-content.md).
 
 1. Nadat u de e-maillevering hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Create content]**.
 
@@ -46,7 +50,7 @@ Met Generative AI kunt u moeiteloos aantrekkelijke e-mails maken die op uw publi
 
    ![](assets/email-genai-2.png)
 
-1. Selecteren **[!UICONTROL Upload file]** als u merkmiddelen wilt toevoegen die inhoud bevatten die extra context de Hulp van de Inhoud kan verstrekken.
+1. Selecteren **[!UICONTROL Upload file]** als u merkmiddelen wilt toevoegen die inhoud bevatten die extra context de Inhoudsassistent kan verstrekken.
 
    U kunt ook op **[!UICONTROL Uploaded content]** om eerder bijgewerkte bestanden te zoeken. De geüploade inhoud is exclusief beschikbaar voor hergebruik door de huidige gebruiker.
 
@@ -75,4 +79,5 @@ Met Generative AI kunt u moeiteloos aantrekkelijke e-mails maken die op uw publi
    ![](assets/email-genai-6.png)
 
 1. Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
+
 

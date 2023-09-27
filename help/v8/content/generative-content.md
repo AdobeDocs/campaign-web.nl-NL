@@ -1,19 +1,19 @@
 ---
 audience: end-user
-title: Tekst met de inhoudsassistent
-description: Aan de slag met de inhoudsassistent
+title: Tekst met de Content Assistant
+description: Aan de slag met de Content Assistant
 badge: label="Beta"
-source-git-commit: 4203c828c1f112b0c50c06e2b76ba30e89d6cb54
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
 
 
-# Tekst genereren met de inhoudsassistent {#generative-content}
+# Tekst genereren met de Inhoudsassistent {#generative-content}
 
-Als u eenmaal e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de Content Assistant die wordt aangedreven door generatieve AI om uw inhoud naar het volgende niveau te brengen.
+Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de Content Assistant van generatieve AI om uw inhoud naar het volgende niveau te brengen.
 
 De Inhoudsassistent kan u helpen de impact van uw leveringen te optimaliseren door andere inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
 
@@ -21,6 +21,8 @@ De Inhoudsassistent kan u helpen de impact van uw leveringen te optimaliseren do
 >[!AVAILABILITY]
 >
 >Deze mogelijkheid zal begin oktober beschikbaar zijn.
+
+Volg onderstaande stappen om e-mailinhoud te genereren en te verbeteren met de Content Assistant. U kunt ook de volledige HTML-inhoud maken met de Content Assistant, zoals in [deze pagina](generative-email.md).
 
 1. Nadat u de e-maillevering hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Edit content]**.
 
@@ -36,11 +38,11 @@ De Inhoudsassistent kan u helpen de impact van uw leveringen te optimaliseren do
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren.
 
-   De optie **[!UICONTROL Enhance with current context]** optie voor de medewerker van de Inhoud om nieuwe inhoud te personaliseren die op uw levering, leveringsnaam, en geselecteerd publiek wordt gebaseerd.
+   De optie **[!UICONTROL Enhance with current context]** voor de Inhoudsassistent om nieuwe inhoud aan te passen op basis van uw levering, naam van de levering en geselecteerd publiek.
 
    ![](assets/text-genai-3.png)
 
-1. Selecteren **[!UICONTROL Upload file]** als u merkmiddelen wilt toevoegen die inhoud bevatten die extra context de Hulp van de Inhoud kan verstrekken.
+1. Selecteren **[!UICONTROL Upload file]** als u merkmiddelen wilt toevoegen die inhoud bevatten die extra context de Inhoudsassistent kan verstrekken.
 
    U kunt ook op **[!UICONTROL Uploaded content]** om eerder bijgewerkte bestanden te zoeken. De geüploade inhoud is exclusief beschikbaar voor hergebruik door de huidige gebruiker.
 

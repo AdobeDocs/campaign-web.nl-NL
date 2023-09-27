@@ -1,9 +1,9 @@
 ---
 audience: end-user
-title: Afbeelding genereren met de inhoudsassistent
-description: Aan de slag met de inhoudsassistent
+title: Afbeeldingen genereren met de Inhoudsassistent
+description: Aan de slag met de Content Assistant
 badge: label="Beta"
-source-git-commit: b597f6a03d89d478e7cf80c1dee99bf846c8c915
+source-git-commit: fb5e2efea2d67f5911eaf376306630183c422a0c
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -11,7 +11,7 @@ ht-degree: 1%
 ---
 
 
-# Afbeelding genereren met de inhoudsassistent {#generative-image}
+# Afbeeldingen genereren met de Inhoudsassistent {#generative-image}
 
 Nadat u uw e-mails hebt gemaakt en gepersonaliseerd, kunt u uw inhoud verbeteren met de Content Assistant, aangedreven door generatieve AI. Deze functie vereenvoudigt het proces van personalisatie en contentverbetering.
 
@@ -37,7 +37,7 @@ In het onderstaande voorbeeld leert u hoe u de Inhoudsassistent kunt gebruiken o
 
    ![](assets/image-genai-2.png)
 
-1. Selecteren **[!UICONTROL Upload file]** als u merkmiddelen wilt toevoegen die inhoud bevatten die extra context de Hulp van de Inhoud kan verstrekken.
+1. Selecteren **[!UICONTROL Upload file]** als u merkmiddelen wilt toevoegen die inhoud bevatten die extra context de Inhoudsassistent kan verstrekken.
 
    U kunt ook op **[!UICONTROL Uploaded content]** om eerder bijgewerkte bestanden te zoeken. De geüploade inhoud is exclusief beschikbaar voor hergebruik door de huidige gebruiker.
 
