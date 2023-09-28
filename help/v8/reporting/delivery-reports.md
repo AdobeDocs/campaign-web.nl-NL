@@ -4,9 +4,9 @@ title: Leveringsrapporten
 description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 173bed2c5651e09965a92a848b07d3368c10bb42
+source-git-commit: 91d61dffbc66590a0326ba3ac3c8b9d8cece91de
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 1%
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Geaggregeerde rapportage voor leveringen"
 >abstract="Selecteer ten minste twee leveringen voor de weergave van een samengevoegd gegevensrapport."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_reporting_email_exportation"
+>title="Opnieuw laden"
+>abstract="Klik op de knop **Opnieuw laden** om de laatste metriek terug te winnen, en gegevens te verfrissen."
 
 Adobe Campaign biedt verschillende typen rapporten die voor elke levering toegankelijk zijn. Met deze rapporten kunt u de impact en prestaties van uw berichten in een ingebouwd dashboard meten en visualiseren.
 
