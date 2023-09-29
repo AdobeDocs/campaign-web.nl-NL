@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met de Content Assistant
 description: Aan de slag met de Content Assistant
 badge: label="Beta"
-source-git-commit: 8c9c74423d1b034271c96239322dd369336d0df6
+source-git-commit: 2da9bdab7e8a5050d0e4e0531fc30f85870de70f
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 >id="acw_generation_settings"
 >title="Inhoudsassistent"
 >abstract="Nadat u de levering hebt gemaakt en gepersonaliseerd, kunt u de Inhoudsassistent gebruiken om de inhoud te verbeteren. Deze functie vereenvoudigt het proces van personalisatie en inhoudverbetering door u toe te staan om de inhoud te verfijnen door te beschrijven wat u wilt produceren."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generation_context"
+>title="Context definiëren voor het genereren van inhoud"
+>abstract="Als u de geselecteerde inhoud wilt gebruiken als invoer voor het genereren van inhoud, activeert u de optie **Verbeteren met huidige inhoud** schakelen. U kunt ook uw merkmiddelen uploaden om deze als bron te gebruiken. Als u de geselecteerde inhoud niet gebruikt, zijn het uploaden en selecteren van merkelementen verplicht."
 
 De Content Assistant, aangedreven door generatieve AI, is een waardevol hulpmiddel voor het verbeteren van e-mailinhoud. Het vereenvoudigt personalisatie en inhoudsuitbreiding, die uw e-mailleveringen optimaliseren om beter op uw publiek af te stemmen.
 
