@@ -3,10 +3,10 @@ audience: end-user
 title: Campagneverslagen
 description: Meer informatie over het openen en gebruiken van campagnerapporten
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 7%
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 
@@ -28,10 +28,13 @@ Klik op de knop **Rapporten** van het dashboard van uw campagne.
 
 ![](assets/campaign_report_email_13.png)
 
+U kunt ook de drie stippen gebruiken **Meer handelingen** knop naast de naam van de campagne in de lijst met campagnes, zoals hieronder wordt getoond:
 
-Het campagnerapport bestaat uit verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven.
+![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
 
-De pagina van het campagnerapport zal met de volgende lusjes worden getoond:
+Het campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven.
+
+De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is beschikbaar in de volgende pagina&#39;s:
 
 * [E-mailkanaal](campaign-reports-email.md)
 * [Sms-kanaal](campaign-reports-sms.md)

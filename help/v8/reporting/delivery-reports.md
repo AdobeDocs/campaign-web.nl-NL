@@ -4,9 +4,9 @@ title: Leveringsrapporten
 description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beta"
-source-git-commit: 91d61dffbc66590a0326ba3ac3c8b9d8cece91de
+source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
@@ -34,12 +34,22 @@ Voer de volgende stappen uit om rapporten weer te geven:
 
    ![](assets/reporting2.png)
 
+   U kunt ook de drie stippen gebruiken **Meer handelingen** naast de naam van de levering in de campagnemelijst, zoals hieronder wordt getoond:
+
+   ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
+
 1. Selecteer in het linkermenu een rapport in de lijst.
 
    ![](assets/reporting.png)
 
-1. Als uw levering terugkomt, kunt u een specifieke levering selecteren om over te melden door te klikken **[!UICONTROL Select deliveries]**.
+1. Als uw levering terugkomt, selecteer een specifieke levering aan rapport door te klikken **[!UICONTROL Select deliveries]**.
 
    U kunt ook een tijdsperiode op uw rapport toepassen door de optie **[!UICONTROL Contact date]**.
 
    ![](assets/delivery-recurring.png)
+
+De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is beschikbaar in de volgende pagina&#39;s:
+
+* [E-mailleveringsrapporten](email-report.md)
+* [Verzendrapporten via SMS](sms-report.md)
+* [Rapporten over levering verzenden](push-report.md)
