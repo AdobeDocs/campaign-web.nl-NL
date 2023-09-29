@@ -3,7 +3,7 @@ audience: end-user
 title: Tekst met de Content Assistant
 description: Aan de slag met de Content Assistant
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: 4c6cb39e33ac781cbb2cfe3a0945ef12ab39a243
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
@@ -12,6 +12,8 @@ ht-degree: 1%
 
 
 # Tekst genereren met de Inhoudsassistent {#generative-content}
+
+
 
 Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de Content Assistant van generatieve AI om uw inhoud naar het volgende niveau te brengen.
 

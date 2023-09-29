@@ -4,9 +4,9 @@ title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 04807983b59232da89bdec3e530585a017a17ab1
+source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 >title="Voorvertoningsmodus"
 >abstract="Geef een voorvertoning van het bericht weer en test het bericht door de testpopulatie op te nemen in het hoofddoel."
 
-Zodra uw berichtinhoud is bepaald, kunt u voorproef en het testen door testleveringen (alias te verzenden. proefdrukken) om profielen te testen. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
+Nadat de inhoud van uw bericht is gedefinieerd, kunt u een voorbeeld bekijken en testen door testleveringen naar testprofielen te verzenden. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
 Om mogelijke fouten in de berichtinhoud of verpersoonlijkingsmontages te ontdekken, verzend testberichten naar testprofielen alvorens het naar het doelpubliek te verzenden. Telkens wanneer een wijziging wordt aangebracht, moet een testbericht worden verzonden om de meest recente inhoud te valideren. Het verzenden van testleveringen (voorheen &#39;proefdrukken&#39; genoemd) is een belangrijke stap in het valideren van uw campagne en het identificeren van mogelijke problemen. De ontvangers van een testbericht kunnen verschillende elementen controleren, zoals verbindingen, opt-out verbindingen, beelden, of spiegelpagina&#39;s, evenals om het even welke fouten in het teruggeven, de inhoud, verpersoonlijkingsmontages en leveringsconfiguratie ontdekken.
 
@@ -34,7 +34,7 @@ Alvorens een test te verzenden, zorg ervoor u een doelpubliek voor u levering be
 
 Uw berichtinhoud testen:
 
-1. Bewerk de inhoud van je e-mail- of SMS-verzending.
+1. Bewerk de inhoud van de levering.
 1. Klik op de knop **[!UICONTROL Simulate content]**.
 1. Klik op de knop **[!UICONTROL Test]** om testberichten te verzenden.
 
@@ -72,23 +72,13 @@ Uw berichtinhoud testen:
 
 De profielen van de test zijn zaadadressen, die extra ontvangers in het gegevensbestand zijn. Ze kunnen worden gemaakt in de [!DNL Adobe Campaign] clientconsole. De stappen om testberichten naar zaadadressen te verzenden zijn hieronder gedetailleerd.
 
-1. Bewerk de inhoud van de levering en klik op de knop **[!UICONTROL Simulate content]** knop. Klik vervolgens op de knop **[!UICONTROL Test]** knop.
-
-   >[!NOTE]
-   >
-   >Als u al profielen hebt geselecteerd voor [voorvertoning van levering](preview-content.md), worden deze weergegeven in het linkervenster.
-
-   ![](assets/simulate-test-button-email.png)
+1. Klik vanaf de inhoud van de levering op de knop **[!UICONTROL Simulate content]** en de **[!UICONTROL Test]** knop.
 
 1. Van de **[!UICONTROL Mode]** vervolgkeuzelijst kiest u **[!UICONTROL Test profiles]** om fictieve ontvangers te richten die de test e-mail of levering van SMS zullen ontvangen.
 
    ![](assets/simulate-profile-mode.png)
 
 1. Als u al profielen hebt geselecteerd voor [voorvertoning van het bericht](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testontvangers. U kunt uw selectie wissen en/of extra ontvangers toevoegen met de opdracht **[!UICONTROL Add test profile(s)]** knop.
-
-   >[!NOTE]
-   >
-   >Standaard worden de **[!UICONTROL Use test profiles]** is geselecteerd.
 
 1. Om het definitieve bericht aan de ontvangers van de testlevering ook te verzenden, selecteer **[!UICONTROL Include test population in the main target]** -optie.
 
@@ -99,9 +89,7 @@ De profielen van de test zijn zaadadressen, die extra ontvangers in het gegevens
 Gebruik profielvervanging om testberichten naar een specifiek e-mailadres of telefoonnummer te verzenden, terwijl de gegevens van een bestaand profiel van het [!DNL Adobe Campaign] database. Volg onderstaande stappen om dit te doen:
 
 
-1. Bewerk de inhoud van de levering en klik op de knop **[!UICONTROL Simulate content]** knop. Klik vervolgens op de knop **[!UICONTROL Test]** knop.
-
-   ![](assets/simulate-test-button-email.png)
+1. Klik vanaf de inhoud van de levering op de knop **[!UICONTROL Simulate content]** en de **[!UICONTROL Test]** knop.
 
 1. Van de **[!UICONTROL Mode]** vervolgkeuzelijst kiest u **[!UICONTROL Substitute from main target]** om een test naar een specifiek e-mailadres of telefoonnummer te verzenden terwijl de gegevens van een bestaand profiel worden weergegeven.
 
@@ -131,7 +119,7 @@ Gebruik profielvervanging om testberichten naar een specifiek e-mailadres of tel
 
 Als u werkt met pushberichten, kunnen testleveringen alleen naar uw app-abonnees worden verzonden. Volg onderstaande stappen om deze te selecteren.
 
-1. Bewerk de inhoud van de levering en klik op de knop **[!UICONTROL Simulate content]** knop. Klik vervolgens op de knop **[!UICONTROL Test]** knop.
+1. Klik op de knop **[!UICONTROL Simulate content]** en de **[!UICONTROL Test]** knop.
 
    ![](assets/simulate-test-button-push.png)
 

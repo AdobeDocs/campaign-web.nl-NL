@@ -2,9 +2,9 @@
 title: Het gebruiken van AI aangedreven kennisassistent in het Web van de Campagne
 description: Het gebruiken van AI aangedreven kennisassistent in het Web van de Campagne
 badge: label="Beta"
-source-git-commit: 18dd8ef29c3feb1884a46f433b608ad4cf295703
+source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,12 @@ Kunstmatige intelligentie en modellen voor machinaal leren verbeteren in de loop
 
 ## Aanbevelingen  {#recommendations-ai}
 
-Bij het stellen van een vraag in de door AI aangedreven Medewerker van de Kennis, wordt rekening gehouden met de huidige productcontext, d.w.z. het scherm van de Campagne u binnen en de inhoud van het huidige hulpvakje bent.
+Wanneer u een vraag stelt in de AI-Knowledge Assistant, wordt rekening gehouden met de huidige productcontext, dat wil zeggen het scherm waarin u zich bevindt en de inhoud van het huidige Help-vak.
 
-Om het beste van de AI-Aanwezige Medewerker van de Kennis te krijgen, wanneer het stellen van een vraag, adviseren wij u:
+Het is daarom aan te raden vragen te stellen over de context van de gebruikersinterface. Als u bijvoorbeeld wilt leren hoe u een pushbericht in een workflow kunt verzenden, bladert u naar de **Workflow** en gebruik een contextueel Help-vak in die specifieke context. Als u meer wilt weten over het rapporteren van metriek, bladert u naar de campagne- of leveringsrapporten en begint u van daaruit.
+
+
+Bovendien adviseren wij u om, om het beste van de AI-Bediende Medewerker van de Kennis te krijgen, wanneer het stellen van een vraag, u om:
 
 * Wees zo nauwkeurig en specifiek mogelijk en vermijd dubbelzinnigheid. Het antwoord zal nauwkeuriger en nuttiger zijn.
 * Om de AI-Medewerker van de Kennis te helpen de correcte informatie vinden, voeg zoveel mogelijk details over wat toe u probeert te leren.
