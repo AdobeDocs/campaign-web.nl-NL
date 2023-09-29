@@ -3,9 +3,9 @@ audience: end-user
 title: Campagneverslagen
 description: Meer informatie over het openen en gebruiken van campagnerapporten
 badge: label="Beta"
-source-git-commit: 9ade4045b34f93620694218a8ed4e53242c49aae
+source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
 workflow-type: tm+mt
-source-wordcount: '55'
+source-wordcount: '57'
 ht-degree: 7%
 
 ---
@@ -24,6 +24,9 @@ ht-degree: 7%
 >abstract="The Tracking tab within your report offers valuable data, including recipient behavior per link, breakdown of opens and clicks, as well as detailed information about the most frequently clicked URLs during a delivery."
 -->
 
+Klik op de knop **Rapporten** van het dashboard van uw campagne.
+
+![](assets/campaign_report_email_13.png)
 
 
 Het campagnerapport bestaat uit verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven.
@@ -34,6 +37,3 @@ De pagina van het campagnerapport zal met de volgende lusjes worden getoond:
 * [Sms-kanaal](campaign-reports-sms.md)
 * [Push-kanaal](campaign-reports-push.md)
 
-Als u het campagnerapport wilt openen, klikt u op Rapporten op het dashboard van uw campagne.
-
-![](assets/campaign_report_email_13.png)

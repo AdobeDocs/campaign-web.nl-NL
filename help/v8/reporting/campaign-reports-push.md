@@ -3,9 +3,9 @@ audience: end-user
 title: Campagnerapporten voor het pushkanaal
 description: Campagnerapporten begrijpen voor het Push-kanaal
 badge: label="Beta"
-source-git-commit: 939ac543398568bfd72392860f90226b0b21a717
+source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,14 @@ ht-degree: 0%
 
 # Campagnerapporten voor het pushkanaal {#campaign-reports-push-channel}
 
+Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het pushkanaal worden de rapporten en metriek hieronder beschreven. Leer hoe u uw campagnerapporten kunt openen in [deze pagina](campaign-reports.md).
+
 ## Leveringsoverzicht {#delivery-summary-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_deliveries_overview"
+>title="Overzicht van levering"
+>abstract="De **Overzicht van levering** Deze rapporten bevatten belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop uw bezoekers de pushmelding verzenden."
 
 De **[!UICONTROL Delivery Overview]** Deze rapporten bevatten belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop uw bezoekers de pushmelding verzenden. De cijfers worden hieronder beschreven.
 
@@ -31,6 +38,12 @@ De **[!UICONTROL Delivery Overview]** Deze rapporten bevatten belangrijke presta
 
 ### Eerste doelstatistieken {#delivery-summary-push-initial-target}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_target"
+>title="Eerste doelstatistieken"
+>abstract="De **Eerste doelstatistieken** de lijst toont gegevens met betrekking tot uw ontvangers"
+
 De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers. De cijfers worden hieronder beschreven.
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
@@ -44,6 +57,11 @@ De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens m
 +++
 
 ### Uitvoeringsstatistieken {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_exec_stats"
+>title="Uitvoeringsstatistieken"
+>abstract="De **Uitvoeringsstatistieken** de lijst detailleert het succes van uw levering: te leveren berichten, succes, fouten, en nieuwe quarantines."
 
 De **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succesvol de levering is . De cijfers worden hieronder beschreven.
 
@@ -60,6 +78,11 @@ De **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succes
 +++
 
 ### Gegenereerde klikstromen {#delivery-summary-push-click-streams}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_push_click_streams"
+>title="Gegenereerde klikstromen"
+>abstract="De **Gegenereerde klikstromen** de lijst toont de beschikbare gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden."
 
 De **[!UICONTROL Generated click streams]** de lijst toont gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden. De cijfers worden hieronder beschreven.
 

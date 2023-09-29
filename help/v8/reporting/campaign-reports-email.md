@@ -3,9 +3,9 @@ audience: end-user
 title: Campagnerapporten voor het e-mailkanaal
 description: Meer informatie over campagnerapporten voor het e-mailkanaal
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1418'
 ht-degree: 0%
 
 ---
@@ -13,12 +13,14 @@ ht-degree: 0%
 
 # Campagnerapporten voor het e-mailkanaal {#campaign-reports-email-channel}
 
+Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het e-mailkanaal worden de rapporten en metriek hieronder beschreven. Leer hoe u uw campagnerapporten kunt openen in [deze pagina](campaign-reports.md).
+
 ## Leveringsoverzicht {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_overview"
 >title="Overzicht van levering"
->abstract="Het leveringsoverzicht biedt belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over hoe uw bezoekers uw e-maillevering uitvoeren."
+>abstract="De **Overzicht van levering** Hier vindt u belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop bezoekers uw e-maillevering uitvoeren."
 
 ### Overzicht van levering {#delivery-summary-email-ovv}
 
@@ -87,7 +89,6 @@ De **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succes
 +++
 
 ### Reactiestatistieken {#delivery-summary-email-reaction-stats}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_reaction_stats"
@@ -183,6 +184,12 @@ De **[!UICONTROL Breakdown of errors per domain]** tabel en grafiek bevatten de 
 
 ### Leveringsstatistieken {#delivery-summary-email-statistics}
 
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_campaign_delivery_statistics_summary"
+>title="Leveringsstatistieken"
+>abstract="De **Leveringsstatistieken** de grafiek geeft het succes van uw levering, en fouten die voorkwamen."
+
 De **[!UICONTROL Delivery statistics]** metriek verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over gegevens beschikbaar voor verzonden e-mail verstrekken. De cijfers worden hieronder beschreven.
 
 ![](assets/campaign_report_email_7.png)
@@ -207,7 +214,7 @@ De **[!UICONTROL Delivery statistics]** metriek verstrekt zeer belangrijke prest
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
->title="Widget voor Open- en doorkliksnelheid"
+>title="Open- en doorklikfrequentie"
 >abstract="De **Open- en doorklikfrequentie** in de tabel worden gegevens weergegeven die betrekking hebben op de betrokkenheid van uw ontvangers bij uw levering."
 
 
@@ -253,8 +260,6 @@ De **[!UICONTROL URLs and click streams]** Het rapport verstrekt zeer belangrijk
 
 ### De tien meest bezochte koppelingen bovenaan {#top10-campaign-report-email}
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams_top10"
 >title="De tien meest bezochte koppelingen bovenaan"
@@ -286,13 +291,19 @@ de **[!UICONTROL Breakdown of clicks over time]** de grafiek bevat de beschikbar
 
 ![](assets/campaign_report_email_11.png)
 
+
 ## Gebruikersactiviteiten {#user-activities-email}
 
-De  **[!UICONTROL User activities]** het rapport toont de uitsplitsing van opent en klikt in de vorm van een grafiek. De cijfers worden hieronder beschreven.
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_user_activities"
+>title="Gebruikersactiviteiten"
+>abstract="De **Gebruikersactiviteiten** de grafiek toont de uitsplitsing van opent en klikt in de vorm van een grafiek."
 
-![](assets/campaign_report_email_12.png)
+De **[!UICONTROL User activities]** het rapport toont de uitsplitsing van opent en klikt in de vorm van een grafiek. De cijfers voor dit rapport worden hieronder beschreven.
 
-+++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
+![](assets/campaign_report_email_10.png){align="center"}
+
++++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
