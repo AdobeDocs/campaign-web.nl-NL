@@ -3,7 +3,7 @@ audience: end-user
 title: Campagnerapporten voor het pushkanaal
 description: Campagnerapporten begrijpen voor het Push-kanaal
 badge: label="Beta"
-source-git-commit: 420a97b4f831eefdf12a867af6ca333d432f98e3
+source-git-commit: 8529f1b21469111fc8e72161d342c862d3e4fcbc
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -23,6 +23,9 @@ Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de
 >abstract="De **Overzicht van levering** Deze rapporten bevatten belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop uw bezoekers de pushmelding verzenden."
 
 De **[!UICONTROL Delivery Overview]** Deze rapporten bevatten belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop uw bezoekers de pushmelding verzenden. De cijfers worden hieronder beschreven.
+
+![](assets/campaign-reporting-push-summary.png)
+
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
 
@@ -46,6 +49,9 @@ De **[!UICONTROL Delivery Overview]** Deze rapporten bevatten belangrijke presta
 
 De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers. De cijfers worden hieronder beschreven.
 
+![](assets/campaign-reporting-push-target.png)
+
+
 +++Meer weten over cijfers voor pushcampagnerapporten?
 
 * **[!UICONTROL Initial audience]**: Totaal aantal beoogde ontvangers.
@@ -64,6 +70,9 @@ De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens m
 >abstract="De **Uitvoeringsstatistieken** de lijst detailleert het succes van uw levering: te leveren berichten, succes, fouten, en nieuwe quarantines."
 
 De **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succesvol de levering is . De cijfers worden hieronder beschreven.
+
+![](assets/campaign-reporting-push-exec.png)
+
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
 
@@ -85,6 +94,8 @@ De **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succes
 >abstract="De **Gegenereerde klikstromen** de lijst toont de beschikbare gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden."
 
 De **[!UICONTROL Generated click streams]** de lijst toont gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden. De cijfers worden hieronder beschreven.
+
+![](assets/campaign-reporting-push-clicks.png)
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
 
