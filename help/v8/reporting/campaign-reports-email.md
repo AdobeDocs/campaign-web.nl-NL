@@ -3,7 +3,7 @@ audience: end-user
 title: Campagnerapporten voor het e-mailkanaal
 description: Meer informatie over campagnerapporten voor het e-mailkanaal
 badge: label="Beta"
-source-git-commit: 0fee0bd74be36e2c5defc14021505f169776dcd3
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '1418'
 ht-degree: 0%
@@ -282,7 +282,7 @@ De **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_campaign_urls_clickstreams_breakdown"
+>id="acw_delivery_campaign_urls_click_breakdown"
 >title="Uitsplitsing van klikken in de tijd"
 >abstract="De **Uitsplitsing van klikken in de tijd** in de grafiek worden de beschikbare gegevens voor het gedrag van de ontvanger per koppeling weergegeven."
 

@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
-source-wordcount: '2134'
+source-wordcount: '2131'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specif
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Rapportage verzenden"
->abstract="hij **Verzenden** in uw rapport biedt diepgaande inzichten in de interactie van uw bezoekers met uw leveringen en eventuele fouten die deze hebben aangetroffen."
+>abstract="De **Verzenden** in uw rapport biedt diepgaande inzichten in de interactie van uw bezoekers met uw leveringen en eventuele fouten die deze hebben aangetroffen."
 
 ### Oorspronkelijke doelpopulatie {#email-delivery-targeted-population}
 
@@ -106,7 +106,7 @@ De **[!UICONTROL Causes of exclusion]** de grafiek en de tabel geven de uitsplit
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
->title="Widget voor productie"
+>title="Leveringsdoorvoer"
 >abstract="De **Leveringsdoorvoer** het rapport bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een bepaald tijdsbestek."
 
 Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een opgegeven tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
@@ -118,7 +118,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
->title="Widget statistiek uitzenden"
+>title="Uitzendstatistieken"
 >abstract="De **Uitzendstatistieken** bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen."
 
 De **[!UICONTROL Broadcast statistics]** de tabel bevat de beschikbare gegevens voor mogelijke fouten die met elk domein zijn aangetroffen. De cijfers worden hieronder beschreven.
@@ -235,7 +235,7 @@ De **[!UICONTROL Delivery statistics]** Het rapport biedt belangrijke prestatie-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
->title="Widget voor Open- en doorkliksnelheid"
+>title="Open- en doorklikfrequentie"
 >abstract="De **Open- en doorklikfrequentie** in de tabel worden gegevens weergegeven die betrekking hebben op de betrokkenheid van uw ontvangers bij uw levering."
 
 
@@ -306,7 +306,7 @@ De **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de
 
 
 >[!CONTEXTUALHELP]
->id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>id="acw_delivery_reporting_urls_click_breakdown"
 >title="Uitsplitsing van klikken in de tijd"
 >abstract="De **Uitsplitsing van klikken in de tijd** in de grafiek worden de beschikbare gegevens voor het gedrag van de ontvanger per koppeling weergegeven."
 

@@ -3,7 +3,7 @@ audience: end-user
 title: Verzendrapporten via SMS
 description: Leer hoe u sms-leveringsrapporten kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -13,11 +13,6 @@ ht-degree: 0%
 # Verzendrapporten via SMS {#sms-report}
 
 >[!CONTEXTUALHELP]
->id="acw_sms_report_overview"
->title="Overzicht van SMS-verzending"
->abstract="De **Overzicht van SMS-verzending** biedt een uitgebreid overzicht van uw levering van SMS, die uitgebreide inzichten en specifieke gegevens verstrekt. Het verstrekt uitvoerige informatie over de prestaties, de doeltreffendheid, en de resultaten van uw levering."
-
->[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_sms"
 >title="Rapportage verzenden"
 >abstract="De **Verzenden** in uw rapport biedt diepgaande inzichten in de interactie van uw bezoekers met uw leveringen en eventuele fouten die deze hebben aangetroffen."
@@ -25,6 +20,11 @@ ht-degree: 0%
 De **Overzicht van SMS-verzending** biedt een uitgebreid overzicht van uw levering van SMS, die uitgebreide inzichten en specifieke gegevens verstrekt. Het verstrekt uitvoerige informatie over de prestaties, de doeltreffendheid, en de resultaten van uw levering.
 
 ## Leveringsoverzicht {#delivery-summary}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_report_overview"
+>title="Overzicht van SMS-verzending"
+>abstract="De **Overzicht van SMS-verzending** biedt een uitgebreid overzicht van uw levering van SMS, die uitgebreide inzichten en specifieke gegevens verstrekt. Het verstrekt uitvoerige informatie over de prestaties, de doeltreffendheid, en de resultaten van uw levering."
 
 ### Overzicht van levering {#sms-delivery-overview}
 

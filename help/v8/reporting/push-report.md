@@ -3,7 +3,7 @@ audience: end-user
 title: Rapporten over levering verzenden
 description: Leer hoe u pushrapporten kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: dfa5e38945e40758f9e3aaa89576bdd2789525fd
+source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -11,11 +11,6 @@ ht-degree: 0%
 ---
 
 # Rapporten over levering verzenden {#push-report}
-
->[!CONTEXTUALHELP]
->id="acw_push_report_overview"
->title="Overzicht van pushbezorging"
->abstract="De **Overzicht van pushbezorging** biedt een uitgebreid overzicht van uw pushaanbieding, met uitgebreide inzichten en specifieke gegevens. Het verstrekt uitvoerige informatie over de prestaties, de doeltreffendheid, en de resultaten van uw levering."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
@@ -27,6 +22,11 @@ De **Push-leveringsrapport** biedt een grondig overzicht van het pushkanaal, met
 ## Overzicht van push {#push-summary}
 
 ### Overzicht van levering {#push-delivery-overview}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_report_overview"
+>title="Overzicht van pushbezorging"
+>abstract="De **Overzicht van pushbezorging** biedt een uitgebreid overzicht van uw pushaanbieding, met uitgebreide inzichten en specifieke gegevens. Het verstrekt uitvoerige informatie over de prestaties, de doeltreffendheid, en de resultaten van uw levering."
 
 De **[!UICONTROL Delivery overview]** Deze rapporten bevatten belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop bezoekers uw pushberichten gebruiken.
 
@@ -45,7 +45,6 @@ De **[!UICONTROL Delivery overview]** Deze rapporten bevatten belangrijke presta
 +++
 
 ### Doelpopulatie {#push-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_targeted_population"
