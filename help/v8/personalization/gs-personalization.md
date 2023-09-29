@@ -31,7 +31,7 @@ Met de Adobe Campaign-mogelijkheden voor dynamische inhoud op het web kunt u uw 
 
 U kunt de inhoud van uw bericht dynamisch maken door JavaScript-constructies in te voegen in de Campagne Web expression editor. Bij het verzenden van berichten worden deze expressies door Adobe Campaign geïnterpreteerd om de juiste inhoud aan elk van uw ontvangers te leveren:
 
-* **Je berichten personaliseren** aan elke specifieke ontvanger door profielgegevens zoals hun voornaam, belangen, waar zij wonen, wat zij hebben gekocht, en nog veel meer te gebruiken. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. De volgende syntaxis voegt de plaats van de ontvanger in uw inhoud in: &lt;%= receiving.location.city %>.
+* **Je berichten personaliseren** aan elke specifieke ontvanger door profielgegevens zoals hun voornaam, belangen, waar zij wonen, wat zij hebben gekocht, en nog veel meer te gebruiken. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. Met de volgende syntaxis wordt de plaats van de ontvanger in de inhoud ingevoegd: &lt;%= receiving.location.city %>.
 
   ![](assets/perso-subject-line.png){width="800" align="center"}
 
