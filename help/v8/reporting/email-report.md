@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: 36a3753a332d92ba4156770ccd6d37f4b404bd43
+source-git-commit: bd7d478d76c04d7dd644514ab08641b9e797f715
 workflow-type: tm+mt
-source-wordcount: '2082'
+source-wordcount: '2134'
 ht-degree: 0%
 
 ---
@@ -202,10 +202,6 @@ De beschikbare cijfers zijn gelijk aan die voor de [Uitsplitsing van fouten naar
 >title="Reeksspatiëring rapporteren"
 >abstract="De **Tekstspatiëring** bevat waardevolle gegevens, zoals het gedrag van de ontvanger per koppeling, de manier waarop wordt geopend en geklikt, en gedetailleerde informatie over de URL&#39;s waarop het vaakst wordt geklikt tijdens de levering."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_reporting_open_clickthrough"
->title="Widget voor Open- en doorkliksnelheid"
->abstract="De **Open- en doorklikfrequentie** in de tabel worden gegevens weergegeven die betrekking hebben op de betrokkenheid van uw ontvangers bij uw levering."
 
 ### Leveringsstatistieken  {#email-tracking-delivery-stats}
 
@@ -237,6 +233,13 @@ De **[!UICONTROL Delivery statistics]** Het rapport biedt belangrijke prestatie-
 
 ### Open- en doorklikfrequentie {#email-tracking-click-through}
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_open_clickthrough"
+>title="Widget voor Open- en doorkliksnelheid"
+>abstract="De **Open- en doorklikfrequentie** in de tabel worden gegevens weergegeven die betrekking hebben op de betrokkenheid van uw ontvangers bij uw levering."
+
+
+
 De **[!UICONTROL Open and click-through rate]** de lijst toont gegevens met betrekking tot uw ontvangers. De cijfers worden hieronder beschreven.
 
 ![](assets/reporting_email_6.png){align="center"}
@@ -258,40 +261,59 @@ De **[!UICONTROL Open and click-through rate]** de lijst toont gegevens met betr
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
->title="URL&#39;s en klik op de widget Streams"
+>title="URL&#39;s en klikpaden"
 >abstract="De **URL&#39;s en klik op streams** Het rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt."
 
-* De **[!UICONTROL URLs and click streams]** Het rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt.
 
-  ![](assets/reporting_email_7.png){align="center"}
+De **[!UICONTROL URLs and click streams]** Het rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt.
 
-  +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
+![](assets/reporting_email_7.png){align="center"}
 
-   * **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
++++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
-   * **[!UICONTROL Distinct clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer op een levering heeft geklikt.
+* **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
-   * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
+* **[!UICONTROL Distinct clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer op een levering heeft geklikt.
 
-   * **[!UICONTROL Platform average]** : Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die in de voorafgaande zes maanden werden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
+* **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-+++
-
-* **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding.
-
-  ![](assets/reporting_email_8.png){align="center"}
-
-  +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
-
-   * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
-
-   * **[!UICONTROL Percentage]**: Percentage gebruikers dat interactie had met de levering.
+* **[!UICONTROL Platform average]** : Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die in de voorafgaande zes maanden werden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
 
 +++
 
-* **[!UICONTROL Breakdown of clicks over time]** de grafiek bevat de beschikbare gegevens voor het gedrag van de ontvanger per koppeling.
+### De tien meest bezochte koppelingen bovenaan {#email-tracking-top10}
 
-  ![](assets/reporting_email_9.png){align="center"}
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_top10"
+>title="De tien meest bezochte koppelingen bovenaan"
+>abstract="De **De tien meest bezochte koppelingen bovenaan** De alinea en de tabel bevatten de beschikbare gegevens voor het gedrag van de ontvanger per koppeling."
+
+
+De **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding.
+
+![](assets/reporting_email_8.png){align="center"}
+
++++Meer informatie over de afmetingen van het e-mailleveringsrapport.
+
+* **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
+
+* **[!UICONTROL Percentage]**: Percentage gebruikers dat interactie had met de levering.
+
++++
+
+### Uitsplitsing van klikken in de tijd {#email-tracking-breakdown-over-time}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_urls_clickstreams_breakdown"
+>title="Uitsplitsing van klikken in de tijd"
+>abstract="De **Uitsplitsing van klikken in de tijd** in de grafiek worden de beschikbare gegevens voor het gedrag van de ontvanger per koppeling weergegeven."
+
+
+De **[!UICONTROL Breakdown of clicks over time]** de grafiek bevat de beschikbare gegevens voor het gedrag van de ontvanger per koppeling.
+
+![](assets/reporting_email_9.png){align="center"}
 
 ## Gebruikersactiviteiten {#user-activities-email}
 
@@ -332,7 +354,6 @@ De **[!UICONTROL Tracking Statistics]** de grafiek verstrekt statistieken over o
 +++
 
 ## Indeling van openen {#breakdown-opens}
-
 
 ### Onderverdeling van openen per apparaat {#breakdown-opens-devices}
 
