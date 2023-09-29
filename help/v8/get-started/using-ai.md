@@ -1,10 +1,10 @@
 ---
 title: Het gebruiken van AI aangedreven kennisassistent in het Web van de Campagne
 description: Het gebruiken van AI aangedreven kennisassistent in het Web van de Campagne
-badge: label="Beta"
-source-git-commit: c29864901482c226351fdde8521aebb65a9d673a
+badge: label="Alfa"
+source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,11 @@ ht-degree: 0%
 # De door AI aangedreven Knowledge Assistant gebruiken {#using-ai}
 
 U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocumentatie en uw huidige productcontext, met de door AI aangedreven Knowkedge Assistant beschikbaar in de contextafhankelijke Help-vakken voor producten.
+
+>[!NOTE]
+>
+>Deze mogelijkheid is beschikbaar in de versie van de Alpha en kan zonder voorafgaande kennisgeving worden gewijzigd.
+
 
 De **Medewerker kennis met Gen AI** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
 
