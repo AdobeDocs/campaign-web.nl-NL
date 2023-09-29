@@ -4,9 +4,9 @@ title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 27023835804d11e169b87239d6fe67c20bc987e5
+source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,14 @@ ht-degree: 1%
 >id="acw_audience_fromfile_formatting"
 >title="Parameters opmaken"
 >abstract="Controleer de opmaakparameters voor het bestand."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_audience_fromfile_preview"
+>title="Een voorbeeld van uw bestand bekijken"
+>abstract="Bekijk de voorvertoning van het bestand. Dit scherm bevat maar maximaal 30 records."
+
+
 
 U kunt profielen die in een extern bestand zijn opgeslagen, niet rechtstreeks vanuit de interface uploaden naar Campagne. Profielen worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../personalization/gs-personalization.md). Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV).
 
