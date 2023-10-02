@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met de Content Assistant
 description: Aan de slag met de Content Assistant
 badge: label="Alfa"
-source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
+source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ De Content Assistant, aangedreven door generatieve AI, is een waardevol hulpmidd
 
 Met deze functie bespaart u tijd en bent u verzekerd van consistente kwaliteit door automatisch volledige e-mailinhoud te genereren. Door gebruik te maken van Generative AI kunt u moeiteloos aansprekende e-mails maken, waardoor de effectiviteit en efficiëntie van uw communicatie worden verbeterd.
 
-<!--
-You can the Campaign Content Assistant in your emails to: [generate images](generative-image.md), [generate text content](generative-content.md), [generate the full HTML content](generative-email.md).-->
+
+U kunt de Inhoudsassistent voor campagne in uw e-mails gebruiken aan: [afbeeldingen genereren](generative-image.md), [tekstinhoud genereren](generative-content.md), [de volledige HTML-inhoud genereren](generative-email.md).
 
 >[!NOTE]
 >
@@ -53,33 +53,32 @@ Voor de Inhoudsassistent voor campagne gelden de volgende beperkingen:
 * U kunt meerdere merkmiddelen uploaden, maar u kunt slechts één voor een specifieke generatie gebruiken
 
 
-<!--
+
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="generative-content.md">
-<img alt="Text generation" src="assets/do-not-localize/text-genai.jpeg">
+<img alt="Tekst genereren" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong>Text generation with the Content Assistant</strong></a>
+<a href="generative-content.md"><strong>Tekst genereren met de Inhoudsassistent</strong></a>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-image.md">
-<img alt="Image generation" src="assets/do-not-localize/image-genai.jpeg">
+<img alt="Afbeelding genereren" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-image.md"><strong>Image generation with the Content Assistant</strong>
+<div><a href="generative-image.md"><strong>Afbeeldingen genereren met de Inhoudsassistent</strong>
 </div>
 <p>
 </td>
 <td>
 <a href="generative-email.md">
-<img alt="Email generation" src="assets/do-not-localize/email-genai.jpeg">
+<img alt="E-mailgeneratie" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>Email generation with the Content Assistant</strong></a>
+<a href="generative-email.md"><strong>E-mailgeneratie met Inhoudsassistent</strong></a>
 </div>
 <p></td>
 </tr></table>
--->
 
