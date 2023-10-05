@@ -2,13 +2,13 @@
 title: Werken met ontvangers en publiek
 description: Leer hoe te met ontvangers het Web van de Campagne werken
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
+source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
-
 
 # Werken met ontvangers en publiek {#about-recipients}
 
@@ -47,13 +47,13 @@ U kunt ontvangers ook benaderen via de **Verkenner** mappen en submappen weergev
 >
 >Afhankelijk van uw machtigingen hebt u mogelijk geen toegang tot de volledige lijst met ontvangers die in de database zijn opgeslagen. Meer informatie over machtigingen in [deze sectie](../get-started/permissions.md).
 
-Bovendien kunt u het abonnement op en het abonnement van uw ontvangers op services zoals nieuwsbrieven beheren. [Leer hoe u met abonnementsservices werkt](manage-services.md)
+Bovendien kunt u het abonnement op en het abonnement van uw ontvangers op services zoals nieuwsbrieven beheren. Leer hoe u met abonnementsservices werkt in [deze pagina](manage-services.md)
 
 U kunt workflows maken om te dedupliceren, te verrijken, profielen te combineren en een publiek te maken. Meer informatie in [deze sectie](../workflows/gs-workflows.md).
 
 ## Wat zijn de doelgroepen? {#audiences}
 
-Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Het type publiek hangt van de doelafbeelding af die in het leveringsmalplaatje wordt bepaald. [Meer weten over een leveringssjabloon](../msg/delivery-template.md).
+Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Het type publiek hangt van de doelafbeelding af die in het leveringsmalplaatje wordt bepaald. Meer informatie over leveringssjablonen vindt u in [deze pagina](../msg/delivery-template.md).
 
 Om de populatie van een publiek te bepalen, kunt u:
 
@@ -66,7 +66,7 @@ Wanneer u zich richt op een publiek, kunt u ook definiëren **controlegroepen** 
 
 >[!NOTE]
 >
->Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het publiek bepaald in een specifiek **publiek opbouwen** workflowactiviteit. In deze context kunt u geen publiek uit een bestand laden voor e-maillevering en wordt het publiek alleen gedefinieerd in deze toegewijde activiteit. Leer hoe u het publiek van uw levering kunt definiëren in een campagneworkflow [in deze sectie](../workflows/activities/build-audience.md)
+>Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het publiek bepaald in een specifiek **publiek opbouwen** workflowactiviteit. In deze context kunt u geen publiek uit een bestand laden voor e-maillevering en wordt het publiek alleen gedefinieerd in deze toegewijde activiteit. Leer hoe u het publiek van uw levering kunt definiëren in een campagneworkflow in [deze sectie](../workflows/activities/build-audience.md)
 
 ## Doelafmetingen {#targeting-dimensions}
 
