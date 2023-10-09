@@ -2,20 +2,23 @@
 title: Het gebruiken van AI aangedreven kennisassistent in het Web van de Campagne
 description: Het gebruiken van AI aangedreven kennisassistent in het Web van de Campagne
 badge: label="Alfa"
-source-git-commit: 2b499b854110cd317b47b9a7d3884467869624f1
+exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
+source-git-commit: 26472ea4bedd256fd4c63a691656373e7d08cafc
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
 
 # De door AI aangedreven Knowledge Assistant gebruiken {#using-ai}
 
-U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocumentatie en uw huidige productcontext, met de door AI aangedreven Knowkedge Assistant beschikbaar in de contextafhankelijke Help-vakken voor producten.
+U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocumentatie en uw huidige productcontext, met de Knowkedge Assistant van Q&amp;A van AI beschikbaar in de contextafhankelijke Help-vakken voor producten.
 
->[!NOTE]
+>[!CAUTION]
 >
 >Deze mogelijkheid is beschikbaar in de versie van de Alpha en kan zonder voorafgaande kennisgeving worden gewijzigd.
+>
+>Deze functie is alleen beschikbaar in **Engels**. Andere talen worden niet ondersteund in deze versie.
 
 
 De **Medewerker kennis met Gen AI** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
@@ -58,5 +61,3 @@ Bovendien adviseren wij u om, om het beste van de AI-Bediende Medewerker van de 
 * Verfijn en verfris uw vragen om betere antwoorden te krijgen. Als het antwoord niet nauwkeurig of nuttig is, probeert u verschillende benaderingen en voegt u context toe voor betere resultaten.
 * Gebruik de juiste termen en bewoordingen, met een neutrale toon.
 * Beoordeel de antwoorden en geef feedback zodat onze technici van uw ervaring kunnen leren en de resultaten kunnen verbeteren.
-
-
