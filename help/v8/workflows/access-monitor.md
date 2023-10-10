@@ -3,8 +3,8 @@ audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Beta"
-exl-id: 51648665-8400-426c-85cf-dbf5f4f81d20
-source-git-commit: 2cd46f37ed59d252c2c39da46274d970c9aaf5cf
+exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
+source-git-commit: 5649745c4c1c43d8d4e02dc0fc98d0ea365fb83e
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_targeting_workflow_list"
 >title="Workflows"
->abstract="In dit scherm, kunt u tot de volledige lijst van standalone en campagnewerkschema&#39;s toegang hebben, hun huidige status, laatste/volgende uitvoeringsdata controleren, en een nieuw werkschema creëren. Blader naar het tabblad &#39;Sjabloon&#39; voor toegang tot beschikbare workflowsjablonen."
+>abstract="In dit scherm, kunt u tot de volledige lijst van standalone en campagnewerkschema&#39;s toegang hebben, hun huidige status, laatste/volgende uitvoeringsdata controleren, en een nieuw werkschema creëren. Blader naar het tabblad &#39;Sjablonen&#39; voor toegang tot beschikbare werkstroomsjablonen."
 
 De **[!UICONTROL Workflows]** kunt u de volledige lijst met workflows openen. Deze lijst bevat beide **zelfstandige workflows** die op basis van dit scherm zijn gemaakt, en **campagneworkflows**, die in een campagne zijn gemaakt.
 
