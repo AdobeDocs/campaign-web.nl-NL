@@ -2,9 +2,9 @@
 title: Verbinding maken met de Adobe Campaign-webinterface
 description: Leer hoe u verbinding maakt met de gebruikersinterface van Adobe Campaign v8 Web
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '492'
 ht-degree: 1%
 
 ---
@@ -38,13 +38,13 @@ U kunt zich als volgt aanmelden bij Adobe Experience Cloud:
 
 Om tot uw milieu van de Campagne toegang te hebben, selecteer **Campagne** van Adobe Experience Cloud homepage.
 
-
 Als u toegang hebt tot meerdere omgevingen, waaronder het Configuratiescherm van de campagne, klikt u op de knop **Starten** in uw organisatiekaart.
 
 ![](assets/launch-campaign.png)
 
-U kunt ook de oplossingsschakelaar gebruiken om tussen uw oplossingen van Adobe Experience Cloud te doorbladeren.
+U kunt ook de oplossingsschakelaar gebruiken om tussen uw oplossingen en apps van Adobe Experience Cloud te doorbladeren.
 
+![](assets/solution-switcher.png)
 
 ## Bovenste Adobe Experience Cloud-navigatie {#top-bar}
 
@@ -57,6 +57,9 @@ Gebruik de hoogste bar van de interface aan:
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
+## Ondersteunde browsers {#browsers}
+
+Campagne v8 Web is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome, Safari en Microsoft Edge. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
 
 ## Taalvoorkeuren {#language-pref}
 

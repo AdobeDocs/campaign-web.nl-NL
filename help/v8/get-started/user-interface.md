@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1029'
 ht-degree: 0%
 
 ---
@@ -103,9 +103,7 @@ Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw erva
 
 Meer informatie in [deze sectie](using-ai.md).
 
-## Ondersteunde browsers {#browsers}
 
-Campagne v8 Web is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome, Safari en Microsoft Edge. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
 
 ## Meer informatie {#learn-more}
 
