@@ -4,9 +4,9 @@ title: Aan de slag met Campagne v8 Web
 description: Aan de slag met Campagne v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beta"
-source-git-commit: db3d47830cb07f9e69200a68377e695641f7b057
+source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '398'
 ht-degree: 2%
 
 ---
@@ -34,21 +34,7 @@ Als u toegang moet krijgen tot de mogelijkheden van Campagne v8 die niet beschik
 >
 >Campagne v8 Web bevindt zich momenteel in bètaversie. De toegang wordt beperkt tot een kleine reeks klanten van Beta. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
 
-## Verbinding maken met Campaign
-
-Ga als volgt te werk om verbinding te maken met het Adobe Campaign-web:
-
-1. Bladeren naar [Adobe Experience Cloud](https://experience.adobe.com){target="_blank"}.
-1. Meld u aan met uw Adobe.
-1. In de **Snelle toegang** sectie, klikken **Campagne**.
-
-   ![](assets/connect.png)
-
-1. Klik op de volgende pagina op de knop **Starten** van uw instantie Campagne.
-
-   U bent nu verbonden met Campagne. Leer hoe u de gebruikersinterface kunt gebruiken in [deze pagina](user-interface.md).
-
-Als u al bent verbonden met een andere Adobe Experience Cloud-oplossing, kunt u ook vanuit de oplossingsschakelaar rechtsboven in het scherm naar de Campagne-omgeving bladeren.
+Leer hoe u verbinding maakt met Adobe Campaign Web in [deze pagina](connect-to-campaign.md).
 
 ## Info over Campagne-clientconsole {#ac-client}
 

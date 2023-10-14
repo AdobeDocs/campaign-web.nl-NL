@@ -2,9 +2,9 @@
 title: Verbinding maken met de Adobe Campaign-webinterface
 description: Leer hoe u verbinding maakt met de gebruikersinterface van Adobe Campaign v8 Web
 badge: label="Beta"
-source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
+source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -36,15 +36,17 @@ U kunt zich als volgt aanmelden bij Adobe Experience Cloud:
 
 ## Toegang tot Adobe Campaign {#access-to-campaign}
 
-Om tot uw milieu van de Campagne toegang te hebben, selecteer **Campagne** van Adobe Experience Cloud homepage.
+Om tot uw milieu van de Campagne toegang te hebben, selecteer **Campagne** van de **Snelle toegang** van de startpagina van Adobe Experience Cloud.
 
-U kunt ook de oplossingsschakelaar gebruiken om tussen uw oplossingen en apps van Adobe Experience Cloud te doorbladeren.
+Als u al bent verbonden met een andere Adobe Experience Cloud-oplossing, kunt u ook vanuit de oplossingsschakelaar rechtsboven in het scherm naar de Campagne-omgeving bladeren.
 
 ![](assets/solution-switcher.png)
 
 Als u toegang hebt tot meerdere omgevingen, waaronder het Configuratiescherm van de campagne, klikt u op de knop **Starten** voor de juiste instantie.
 
 ![](assets/launch-campaign.png)
+
+U bent nu verbonden met Campagne. Leer hoe u de gebruikersinterface kunt gebruiken in [deze pagina](user-interface.md).
 
 ## Bovenste Adobe Experience Cloud-navigatie {#top-bar}
 
