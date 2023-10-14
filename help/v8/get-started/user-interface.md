@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 86a343aae763e753bc63ca2cab3c22cda07d7c16
+source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -89,19 +89,6 @@ In het gedeelte BESLUIT BEHEER kunt u de aanbiedingen en aanbiedingstemplates be
 
 Meer informatie over het maken en verzenden van aanbiedingen in e-mails en SMS in [deze sectie](../content/offers.md).
 
-## Bovenste balk {#top-bar}
-
-Gebruik de hoogste bar van de interface aan:
-
-* Uw feedback delen als bètatester
-* schakelen tussen organisaties en instanties
-* schakelen tussen Adobe Experience Cloud-toepassingen
-* toegang tot Help-pagina&#39;s, contact opnemen met ondersteuning en feedback delen. U kunt Help-artikelen en video&#39;s zoeken in het zoekveld.
-
-![](assets/unified-shell.png){width="50%" align="left"}
-<!--
-Org / Sub-org switcher to switch between instances. Only one for Alpha. Later: intermerdiate screen with Control Panel (beta). if v8 + ACS with one card per ACS instance. Maybe quickly explain the menu for Alpha?
--->
 
 
 ## Contextafhankelijke Help {#user-interface-help}
@@ -120,37 +107,10 @@ Meer informatie in [deze sectie](using-ai.md).
 
 Campagne v8 Web is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome, Safari en Microsoft Edge. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
 
-## Taalvoorkeuren {#language-pref}
-
-Campagne v8 Web is momenteel beschikbaar in de volgende talen:
-
-* Engels (VS) - EN-US
-* Frans - FR
-* Duits - DE
-* Italiaans - IT
-* Spaans - ES
-* Portugees (Braziliaans) - PTBR
-* Japans - JP
-* Koreaans - KR
-* Vereenvoudigd Chinees - CHS
-* Traditioneel Chinees - CHT
-
-
-Uw standaardtaal voor het Web van de Campagne wordt bepaald door de aangewezen taal die in uw gebruikersprofiel wordt gespecificeerd. Het heeft geen betrekking op de taal van uw Campagneserver en cliëntconsole.
-
-De taal wijzigen:
-
-1. Klik op het profielpictogram, rechtsboven, en selecteer **Voorkeuren**.
-1. Klik vervolgens op de taalkoppeling die onder uw e-mailadres wordt weergegeven.
-1. Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
-
-## Donker thema {#dark-theme}
-
-U kunt vanuit het profielpictogram overschakelen naar het donkere thema. Gebruik de **Donker thema** schakelen om deze in-/uit te schakelen.
-
 ## Meer informatie {#learn-more}
 
 Leer hoe u in uw Campagne-omgeving kunt bladeren, zoeken en filterlijsten kunt gebruiken [op deze pagina](list-filters.md).
+
 
 
 <!--

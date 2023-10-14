@@ -5,10 +5,10 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: cc47ed577bcdd884b886f78da484dcc266c19727
+source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 10%
+source-wordcount: '448'
+ht-degree: 11%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 10%
 + [Documentatie-updates](rn/documentation-updates.md)
 + Aan de slag met Adobe Campaign {#start}
    + [Aan de slag](get-started/get-started.md)
+   + [Verbinding maken met Campaign](get-started/connect-to-campaign.md)
    + [De interface detecteren](get-started/user-interface.md)
    + [Bladeren, zoeken en filteren](get-started/list-filters.md)
    + [Werken met vooraf gedefinieerde filters](get-started/predefined-filters.md)
