@@ -3,13 +3,13 @@ audience: end-user
 title: Bladeren, zoeken en filteren
 description: Ontdek hoe u kunt bladeren en filteren in lijsten met Campagne Web v8
 badge: label="Beta"
-source-git-commit: 8612e29aa16bce609a822e42d15e2f92a6874383
+exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
+source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
-
 
 # Bladeren, zoeken en filteren {#list-screens}
 
@@ -66,22 +66,22 @@ Het werkende beginsel van de regelbouwer voor douanefilters is gelijkaardig aan 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
 >title="Geavanceerde kenmerken weergeven"
->abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Met deze schakeloptie kunt u geavanceerde kenmerken weergeven."
+>abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Activeer **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst in het linkerpalet van de regelbouwer weer te geven, zoals knooppunten, groepen, 1-1 koppelingen, 1-N-koppelingen."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
 >title="Geavanceerde velden voor regelbuilder"
->abstract="Geavanceerde filters configureren met geavanceerde velden."
+>abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Activeer **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst in het linkerpalet van de regelbouwer weer te geven, zoals knooppunten, groepen, 1-1 koppelingen, 1-N-koppelingen."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
->title="Geavanceerde kenmerken van Rule Builder"
->abstract="Gebruik geavanceerde attributen om uw regel te bepalen."
+>title="Geavanceerde kenmerken van de builder van de regel"
+>abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Activeer **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst in het linkerpalet van de regelbouwer weer te geven, zoals knooppunten, groepen, 1-1 koppelingen, 1-N-koppelingen."
 
 
 Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken en de filterconfiguratieschermen. Kenmerken die zijn ingesteld als `advanced` kenmerken in het gegevensschema worden verborgen in de configuratievensters.
 
-Activeer **Geavanceerde kenmerken weergeven** schakelt u naar alle beschikbare kenmerken voor de huidige lijst: de lijst met kenmerken wordt direct bijgewerkt.
+Activeer **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst in het linkerpalet van de regelbouwer weer te geven, zoals knooppunten, groepen, 1-1 koppelingen, 1-N-koppelingen. De kenmerkenlijst wordt onmiddellijk bijgewerkt.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
