@@ -2,9 +2,9 @@
 title: Verbinding maken met de Adobe Campaign-webinterface
 description: Leer hoe u verbinding maakt met de gebruikersinterface van Adobe Campaign v8 Web
 badge: label="Beta"
-source-git-commit: f420ba4a63be82227121e06a664381add97a1ea1
+source-git-commit: 47a7eeceb6a25aba483dc0017235f50652c9682b
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -31,29 +31,28 @@ U kunt zich als volgt aanmelden bij Adobe Experience Cloud:
 
    ![](assets/exc-orgs.png){width="50%" align="left"}
 
-   Meer informatie over Organisatie in Adobe Experience Cloud in [dit artikel](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl){target="_blank"}.
+   Meer informatie over organisaties in Adobe Experience Cloud in [dit artikel](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl){target="_blank"}.
 
 
 ## Toegang tot Adobe Campaign {#access-to-campaign}
 
 Om tot uw milieu van de Campagne toegang te hebben, selecteer **Campagne** van Adobe Experience Cloud homepage.
 
-Als u toegang hebt tot meerdere omgevingen, waaronder het Configuratiescherm van de campagne, klikt u op de knop **Starten** in uw organisatiekaart.
-
-![](assets/launch-campaign.png)
-
 U kunt ook de oplossingsschakelaar gebruiken om tussen uw oplossingen en apps van Adobe Experience Cloud te doorbladeren.
 
 ![](assets/solution-switcher.png)
+
+Als u toegang hebt tot meerdere omgevingen, waaronder het Configuratiescherm van de campagne, klikt u op de knop **Starten** voor de juiste instantie.
+
+![](assets/launch-campaign.png)
 
 ## Bovenste Adobe Experience Cloud-navigatie {#top-bar}
 
 Gebruik de hoogste bar van de interface aan:
 
-* Uw feedback delen als bètatester
-* schakelen tussen organisaties en instanties
-* schakelen tussen Adobe Experience Cloud-toepassingen
-* toegang tot Help-pagina&#39;s, contact opnemen met ondersteuning en feedback delen. U kunt Help-artikelen en video&#39;s zoeken in het zoekveld.
+* Je feedback delen als bètagebruiker
+* schakelen tussen uw organisaties
+* schakelen tussen uw Adobe Experience Cloud-oplossingen en -toepassingen
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
