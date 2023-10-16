@@ -3,9 +3,10 @@ audience: end-user
 title: Verzendrapporten via SMS
 description: Leer hoe u sms-leveringsrapporten kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
+source-git-commit: 23ca6ee9008587923fe0102612abf41a764214cc
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -70,7 +71,7 @@ De **Doelpopulatie** grafiek en lijstvertoningsgegevens met betrekking tot uw pu
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
->title="Globale statistieken opkrikken"
+>title="Algemene SMS-statistieken"
 >abstract="De **Algemene statistieken** het rapport presenteert gegevens voor verzonden SMS: succes, fouten en quarantines."
 
 De **Algemene statistieken** rapport bevat gegevens voor de verzonden SMS-berichten. De cijfers worden hieronder beschreven.
@@ -91,7 +92,7 @@ De **Algemene statistieken** rapport bevat gegevens voor de verzonden SMS-berich
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
->title="Algemene SMS-statistieken"
+>title="Sms-uitsluitingen"
 >abstract="De **Uitsluitingen** de grafiek en de lijst tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen."
 
 
@@ -103,10 +104,9 @@ De **[!UICONTROL Exclusions]** de grafiek en de lijst tonen de redenen die gebru
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
->title="Menu Productie"
->abstract="Het rapport Productie-doorvoer bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een opgegeven tijdsbestek."
+>title="Productie van SMS-berichten"
+>abstract="De **Leveringsdoorvoer** het rapport bevat gedetailleerde informatie over de leveringproductie binnen een bepaald tijdsbestek.  Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden."
 
-Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een opgegeven tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
+Dit rapport bevat gedetailleerde informatie over de leveringsproductie binnen een bepaald tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
 
 ![](assets/reporting_sms_2.png)
-
