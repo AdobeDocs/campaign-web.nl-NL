@@ -3,7 +3,8 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Beta"
-source-git-commit: 3c679ad284f15a46885829b68c8ebea1e99e2b98
+exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
+source-git-commit: fa68c32b61583e41819cfe4e31bc17305126396c
 workflow-type: tm+mt
 source-wordcount: '2131'
 ht-degree: 0%
@@ -76,7 +77,7 @@ De **[!UICONTROL Delivery statistics]** grafiek geeft het succes van uw levering
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
->title="Leveringsstatistieken"
+>title="Uitsluitingsoorzaken"
 >abstract="De **Oorzaken van uitsluiting** de grafiek en de tabel geven de uitsplitsing per regel weer van berichten die tijdens de voorbereiding van de levering zijn afgewezen."
 
 
@@ -319,7 +320,7 @@ De **[!UICONTROL Breakdown of clicks over time]** de grafiek bevat de beschikbar
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
->title="Widget gebruikersactiviteiten"
+>title="Gebruikersactiviteiten"
 >abstract="De **Gebruikersactiviteiten** de grafiek toont de uitsplitsing van opent en klikt in de vorm van een grafiek. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag, afgelopen uur of 30 minuten."
 
 De **[!UICONTROL User activities]** het rapport toont de uitsplitsing van opent en klikt in de vorm van een grafiek. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag, afgelopen uur of 30 minuten.
@@ -338,7 +339,7 @@ De **[!UICONTROL User activities]** het rapport toont de uitsplitsing van opent 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
->title="Widget Statistieken bijhouden"
+>title="Statistieken bijhouden"
 >abstract="De **Statistieken bijhouden** de grafiek verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens."
 
 De **[!UICONTROL Tracking Statistics]** de grafiek verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens.
