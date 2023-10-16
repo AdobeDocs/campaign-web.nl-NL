@@ -3,13 +3,13 @@ audience: end-user
 title: Aan de slag met de Content Assistant
 description: Aan de slag met de Content Assistant
 badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
+source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
 
 ---
-
 
 # Aan de slag met de Content Assistant {#generative-gs}
 
@@ -40,7 +40,7 @@ U kunt de Inhoudsassistent voor campagne in uw e-mails gebruiken aan: [afbeeldin
 Algemene richtlijnen voor het gebruik van Content Assistant voor het genereren van e-mail worden hieronder weergegeven:
 
 * De kwaliteit van de gegenereerde inhoud wordt sterk beïnvloed door het marketingdoel dat/de marketingprompt die u definieert. Gebruik een duidelijk gedefinieerde prompt voor een juiste interpretatie van het GenAI-model. 
-* Upload merkmiddelen voor nauwkeurige informatie over de inhoud van het merk. Anders is de inhoud gebaseerd op algemeen beschikbare informatie. De geüploade inhoud kan de volgende zijn: PDF-bestanden, Microsoft Word-documenten, JPEG-, PNG- of ZIP-bestanden (met ondersteunde bestandsindelingen).
+* Upload merkmiddelen voor nauwkeurige informatie over de inhoud van het merk. Anders is de inhoud gebaseerd op algemeen beschikbare informatie. De geüploade inhoud kan de volgende indelingen hebben: PDF, JPEG, PNG- of ZIP-bestanden (met ondersteunde bestandsindelingen).
 * De aanbevolen grootte voor geüploade brandmiddelen is minder dan 10 MB. Grotere bestanden of veel afbeeldingen kunnen werken, maar de verwerkingstijd neemt toe.
 * Een door Adobe Campaign geschreven e-mailsjabloon gebruiken of bij voorkeur [ingebouwde e-mailsjablonen](../content/email-sample-templates.md) om uw e-mailinhoud te maken. E-mailsjabloon met maximaal 8-10 afbeeldingen wordt aanbevolen.
 
@@ -81,4 +81,3 @@ Voor de Inhoudsassistent voor campagne gelden de volgende beperkingen:
 </div>
 <p></td>
 </tr></table>
-
