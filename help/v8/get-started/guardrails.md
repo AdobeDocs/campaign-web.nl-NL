@@ -2,13 +2,13 @@
 title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 badge: label="Beta"
-source-git-commit: 65ae0d382f82e1acb1f66bc1140b4f7e857180d6
+exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
+source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
-
 
 # Afbeeldingen en beperkingen {#guardrails-limitations}
 
@@ -58,7 +58,12 @@ De positionering van de knooppunten wordt elke keer dat een activiteit wordt toe
 
 ## Vooraf gedefinieerde filters {#filters-guardrails-limitations}
 
-Wanneer het selecteren van het publiek van een levering, of wanneer het bouwen van een publiek in een werkschema, zijn sommige vooraf bepaalde filters niet beschikbaar in het gebruikersinterface, in die versie van het product.
+>[!CONTEXTUALHELP]
+>id="acw_predefined_filter_read_only"
+>title="Dit filter is alleen-lezen"
+>abstract="Sommige vooraf gedefinieerde filters zijn niet beschikbaar in de gebruikersinterface van die versie van het product. Deze filters worden gemarkeerd als alleen-lezen. Zelfs als u niet de grafische vertegenwoordiging van de vraag in de regelbouwer kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden in zien **Attributen** van het scherm."
+
+Wanneer het selecteren van het publiek van een levering, of wanneer het bouwen van een publiek in een werkschema, zijn sommige vooraf bepaalde filters niet beschikbaar in het gebruikersinterface, in die versie van het product. Deze filters worden gemarkeerd als alleen-lezen.
 
 Er wordt een specifiek foutbericht weergegeven.
 
