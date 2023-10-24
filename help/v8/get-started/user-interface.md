@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: c4d0b67ced6877ec38506b9083c843d09172a000
+source-git-commit: f1b8354edbaa8989f6c86015497e458deff2a6a8
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -154,6 +154,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
+
+
+
+
+<!-- FOR BETA (alignment) -->
+<!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
+
+
+
+
 <!-- FOR GA -->
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
@@ -216,3 +226,205 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="Voorvertoning van aanbiedingen van ontvangers"
 >abstract="TBC"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="Leveringssjabloon voor abonnementen"
+>abstract="TBC"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_menu"
+>title="Landingspagina&#39;s"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_properties"
+>title="Landingspagina&#39;s, eigenschappen"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_pages_list"
+>title="Pagina&#39;s met landingspagina&#39;s"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_schedule"
+>title="Planning met landingspagina&#39;s"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_primarypage"
+>title="Basispagina van bestemmingspagina&#39;s"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="Abonnement op bestemmingspagina&#39;s"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_calltoaction"
+>title="Aanroep van bestemmingspagina&#39;s naar actie"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_simulate"
+>title="Landingspagina&#39;s simuleren"
+>abstract="TBC"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_query_enrichment_noneditable"
+>title="Activiteit niet bewerkbaar"
+>abstract="TBC"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_menu"
+>title="Fragmenten"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_save"
+>title="Fragmenten opslaan"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_create"
+>title="Fragmenten maken"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_properties"
+>title="Eigenschappen van Fragmenten"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_type"
+>title="Type fragmenten"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_list"
+>title="Lijst met fragmenten"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_details"
+>title="Fragmentdetails"
+>abstract="TBC"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_menu"
+>title="Inhoudssjabloon"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_properties"
+>title="Eigenschappen van inhoudssjablonen"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_design"
+>title="Sjabloonontwerp voor inhoud"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_contenttemplate_selection"
+>title="Sjabloonselectie voor inhoud"
+>abstract="TBC"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_loadfile"
+>title="Bestandsactiviteit laden"
+>abstract="TBC"
+
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation"
+>title="Afstemmingsactiviteit"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting"
+>title="Verzoening gericht"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_rules"
+>title="Afstemmingsregels"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_targeting_selection"
+>title="Dimensie voor verzoeningsgericht"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_field"
+>title="Selectieveld Afstemmen"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_attribute"
+>title="Kenmerk Reconciliatie selecteren"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_condition"
+>title="Afstemming maken, voorwaarde"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_reconciliation_complement"
+>title="Afstemming genereren"
+>abstract="TBC"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_savefilter"
+>title="Voorwaardelijke inhoud opslaan, filter"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_selectfilter"
+>title="Voorwaardelijke inhoud selecteren, filter"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectline"
+>title="Voorwaardelijke inhoud op onderwerpregel"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_conditionalcontent_subjectlinecondition"
+>title="Voorwaardelijke onderwerpregel voor inhoud"
+>abstract="TBC"
+
