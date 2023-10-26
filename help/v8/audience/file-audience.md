@@ -4,7 +4,7 @@ title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 92882488c33cd0d7d8449ddfc6c50d2c37b47752
+source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
 workflow-type: tm+mt
 source-wordcount: '581'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Een voorbeeld van uw bestand bekijken"
->abstract="Bekijk de voorvertoning van het bestand. Dit scherm bevat maar maximaal 30 records."
+>abstract="Bekijk de voorvertoning van het bestand. Dit scherm toont slechts tot 30 verslagen."
 
 
 
