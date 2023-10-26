@@ -3,13 +3,13 @@ audience: end-user
 title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
 badge: label="Beta"
-source-git-commit: 2894766336d5ac52625175981c6969a0ac5882d8
+exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 1%
 
 ---
-
 
 # E-mail-, sms- en pushactiviteiten {#channel}
 

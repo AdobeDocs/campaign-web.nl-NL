@@ -3,13 +3,13 @@ audience: end-user
 title: De werkstroomactiviteit voor vork gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
 badge: label="Beta"
-source-git-commit: dfd3c62a8eeb6be3e5e63e7a1fdf352c280adbd0
+exl-id: 5c7ff58b-5504-4b8e-879f-44754b7dcf8a
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 1%
 
 ---
-
 
 # Vertakking {#fork}
 
@@ -44,4 +44,3 @@ In het volgende voorbeeld gebruiken we twee **Vork** activiteiten:
 * Eén na de doorsnede om een e-mail en een sms tegelijk naar de doelgroep te sturen.
 
 ![](../assets/workflow-fork-example.png)
-

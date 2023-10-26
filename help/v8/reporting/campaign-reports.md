@@ -3,7 +3,8 @@ audience: end-user
 title: Campagneverslagen
 description: Meer informatie over het openen en gebruiken van campagnerapporten
 badge: label="Beta"
-source-git-commit: 3a7b273f23590c60313b4deb4b141223699d14e3
+exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 4%
@@ -39,4 +40,3 @@ De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is besc
 * [E-mailkanaal](campaign-reports-email.md)
 * [Sms-kanaal](campaign-reports-sms.md)
 * [Push-kanaal](campaign-reports-push.md)
-

@@ -3,13 +3,13 @@ audience: end-user
 title: Het publiek bewaken en beheren
 description: Leer hoe u het publiek in Adobe Campaign Web kunt bewaken en beheren
 badge: label="Beta"
-source-git-commit: 21436695f6f4bc9e99bb7983e4705cbbe40f07eb
+exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
 
 ---
-
 
 # Het publiek bewaken en beheren {#monitor}
 

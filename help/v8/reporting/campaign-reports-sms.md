@@ -3,13 +3,13 @@ audience: end-user
 title: Campagnerapporten voor het SMS-kanaal
 description: Campagnerapporten voor het kanaal van SMS begrijpen
 badge: label="Beta"
-source-git-commit: 5d577c07c4d754e9265482f858c17740f304db42
+exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
 
 ---
-
 
 # Campagnerapporten voor het SMS-kanaal {#campaign-reports-sms-channel}
 

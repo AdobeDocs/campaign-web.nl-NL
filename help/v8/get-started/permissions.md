@@ -3,13 +3,13 @@ audience: end-user
 title: Machtigingsbeheer in het campagneweb
 description: Meer informatie over machtigingen in Campagne web v8
 badge: label="Beta"
-source-git-commit: 5e2af07f54fae9b0d64d173388be14639e6aaaa2
+exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%
 
 ---
-
 
 # Toegang en machtigingen {#access-and-permissions}
 
@@ -101,4 +101,3 @@ Ga als volgt te werk om een map te maken:
    De map wordt toegevoegd als een submap van de huidige map. Blader naar die nieuwe map om er direct componenten in te maken. U kunt ook een component maken vanuit elke gewenste map en deze opslaan in die nieuwe map, vanuit de **Aanvullende opties** sectie van de eigenschappen, zoals hieronder voor een levering getoond:
 
    ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
-

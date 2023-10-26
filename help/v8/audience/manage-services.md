@@ -3,13 +3,13 @@ audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
+source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 2%
 
 ---
-
 
 # Werken met abonnementsservices {#manage-services}
 
@@ -131,11 +131,3 @@ Om de doeltreffendheid van uw abonnementsdiensten voor SMS en e-mailkanalen te m
    * De **[!UICONTROL Overall evolution of subscriptions]** in de grafiek wordt de uitsplitsing naar periode weergegeven, met inbegrip van abonnementen, abonnementen, abonnementen, de ontwikkeling van de aantallen en het loyaliteitspercentage.<!--what is Registered?-->
 
 1. Gebruik de **[!UICONTROL Reload]** om de laatste waarden op te halen uit de uitvoering en het schema van de workflow voor bijhouden.
-
-
-
-
-
-
-
-
