@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: a875ba89417e5c50f7a1e767bf3430147fa7c4c0
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -170,62 +170,62 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_list"
 >title="Ontvangers maken"
->abstract="TBC"
+>abstract="Ontvangers maken"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_details"
 >title="Details ontvangers"
->abstract="TBC"
+>abstract="Details ontvangers"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_contactinformation"
 >title="Contactgegevens ontvangers"
->abstract="TBC"
+>abstract="Contactgegevens ontvangers"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
 >title="Ontvangeradres"
->abstract="TBC"
+>abstract="Ontvangeradres"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_account"
 >title="Account van ontvangers"
->abstract="TBC"
+>abstract="Account van ontvangers"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_customfields"
 >title="Ontvangers, aangepaste velden"
->abstract="TBC"
+>abstract="Ontvangers, aangepaste velden"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Overzicht van de ontvangerskaart"
->abstract="TBC"
+>abstract="Overzicht van de ontvangerskaart"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_touchpoints"
 >title="Aanraakpunten ontvangers"
->abstract="TBC"
+>abstract="Aanraakpunten ontvangers"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
 >title="Lijst met abonnementen voor ontvangers"
->abstract="TBC"
+>abstract="Lijst met abonnementen voor ontvangers"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
 >title="Selectie van abonnementen voor ontvangers"
->abstract="TBC"
+>abstract="Selectie van abonnementen voor ontvangers"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
 >title="Ontvangers bieden kwalificerende lijst aan"
->abstract="TBC"
+>abstract="Ontvangers bieden kwalificerende lijst aan"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_preview_proposition"
 >title="Voorvertoning van aanbiedingen van ontvangers"
->abstract="TBC"
+>abstract="Voorvertoning van aanbiedingen van ontvangers"
 
 
 
@@ -234,7 +234,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="Leveringssjabloon voor abonnementen"
->abstract="TBC"
+>abstract="Leveringssjabloon voor abonnementen"
 
 
 
@@ -243,42 +243,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Landingspagina&#39;s"
->abstract="TBC"
+>abstract="Landingspagina&#39;s"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="Landingspagina&#39;s, eigenschappen"
->abstract="TBC"
+>abstract="Landingspagina&#39;s, eigenschappen"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
 >title="Pagina&#39;s met landingspagina&#39;s"
->abstract="TBC"
+>abstract="Pagina&#39;s met landingspagina&#39;s"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="Planning met landingspagina&#39;s"
->abstract="TBC"
+>abstract="Planning met landingspagina&#39;s"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_primarypage"
 >title="Basispagina van bestemmingspagina&#39;s"
->abstract="TBC"
+>abstract="Basispagina van bestemmingspagina&#39;s"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_subscription"
 >title="Abonnement op bestemmingspagina&#39;s"
->abstract="TBC"
+>abstract="Abonnement op bestemmingspagina&#39;s"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_calltoaction"
 >title="Aanroep van bestemmingspagina&#39;s naar actie"
->abstract="TBC"
+>abstract="Aanroep van bestemmingspagina&#39;s naar actie"
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
 >title="Landingspagina&#39;s simuleren"
->abstract="TBC"
+>abstract="Landingspagina&#39;s simuleren"
 
 
 
@@ -286,7 +286,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="Activiteit niet bewerkbaar"
->abstract="TBC"
+>abstract="Activiteit niet bewerkbaar"
 
 
 
@@ -294,37 +294,37 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Fragmenten"
->abstract="TBC"
+>abstract="Fragmenten"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
 >title="Fragmenten opslaan"
->abstract="TBC"
+>abstract="Fragmenten opslaan"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_create"
 >title="Fragmenten maken"
->abstract="TBC"
+>abstract="Fragmenten maken"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_properties"
 >title="Eigenschappen van Fragmenten"
->abstract="TBC"
+>abstract="Eigenschappen van Fragmenten"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_type"
 >title="Type fragmenten"
->abstract="TBC"
+>abstract="Type fragmenten"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_list"
 >title="Lijst met fragmenten"
->abstract="TBC"
+>abstract="Lijst met fragmenten"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_details"
 >title="Fragmentdetails"
->abstract="TBC"
+>abstract="Fragmentdetails"
 
 
 
@@ -332,22 +332,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
 >title="Inhoudssjabloon"
->abstract="TBC"
+>abstract="Inhoudssjabloon"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Eigenschappen van inhoudssjablonen"
->abstract="TBC"
+>abstract="Eigenschappen van inhoudssjablonen"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Sjabloonontwerp voor inhoud"
->abstract="TBC"
+>abstract="Sjabloonontwerp voor inhoud"
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="Sjabloonselectie voor inhoud"
->abstract="TBC"
+>abstract="Sjabloonselectie voor inhoud"
 
 
 
@@ -357,7 +357,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Bestandsactiviteit laden"
->abstract="TBC"
+>abstract="Bestandsactiviteit laden"
 
 
 
@@ -367,42 +367,42 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Afstemmingsactiviteit"
->abstract="TBC"
+>abstract="Afstemmingsactiviteit"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
 >title="Verzoening gericht"
->abstract="TBC"
+>abstract="Verzoening gericht"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Afstemmingsregels"
->abstract="TBC"
+>abstract="Afstemmingsregels"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
 >title="Dimensie voor verzoeningsgericht"
->abstract="TBC"
+>abstract="Dimensie voor verzoeningsgericht"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="Selectieveld Afstemmen"
->abstract="TBC"
+>abstract="Selectieveld Afstemmen"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="Kenmerk Reconciliatie selecteren"
->abstract="TBC"
+>abstract="Kenmerk Reconciliatie selecteren"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
 >title="Afstemming maken, voorwaarde"
->abstract="TBC"
+>abstract="Afstemming maken, voorwaarde"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
 >title="Afstemming genereren"
->abstract="TBC"
+>abstract="Afstemming genereren"
 
 
 
@@ -411,22 +411,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_savefilter"
 >title="Voorwaardelijke inhoud opslaan, filter"
->abstract="TBC"
+>abstract="Voorwaardelijke inhoud opslaan, filter"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_selectfilter"
 >title="Voorwaardelijke inhoud selecteren, filter"
->abstract="TBC"
+>abstract="Voorwaardelijke inhoud selecteren, filter"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectline"
 >title="Voorwaardelijke inhoud op onderwerpregel"
->abstract="TBC"
+>abstract="Voorwaardelijke inhoud op onderwerpregel"
 
 >[!CONTEXTUALHELP]
 >id="acw_conditionalcontent_subjectlinecondition"
 >title="Voorwaardelijke onderwerpregel voor inhoud"
->abstract="TBC"
+>abstract="Voorwaardelijke onderwerpregel voor inhoud"
 
 
 
@@ -434,46 +434,46 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_audiences_properties"
 >title="Eigenschappen van publiek"
->abstract="TBC"
+>abstract="Eigenschappen van publiek"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_count"
 >title="Aantal deelnemers"
->abstract="TBC"
+>abstract="Aantal deelnemers"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="Testprofielen simuleren"
->abstract="TBC"
+>abstract="Testprofielen simuleren"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="Selectie van testprofielen simuleren"
->abstract="TBC"
+>abstract="Selectie van testprofielen simuleren"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="Testprofielen simuleren en verzenden"
->abstract="TBC"
+>abstract="Testprofielen simuleren en verzenden"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="E-maillogboek simuleren"
->abstract="TBC"
+>abstract="E-maillogboek simuleren"
 
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
 >title="Totaal aantal abonnementen"
->abstract="TBC"
+>abstract="Totaal aantal abonnementen"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
 >title="Abonnementen over de periode"
->abstract="TBC"
+>abstract="Abonnementen over de periode"
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Algemene ontwikkeling van abonnementen"
->abstract="TBC"
+>abstract="Algemene ontwikkeling van abonnementen"
