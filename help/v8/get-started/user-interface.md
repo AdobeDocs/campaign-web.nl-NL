@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
+source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1376'
 ht-degree: 0%
 
 ---
@@ -32,24 +32,14 @@ Blader links naar de koppelingen voor toegang tot de webmogelijkheden van Campag
 Dit scherm bevat belangrijke koppelingen en bronnen voor snelle toegang tot de belangrijkste functies van het Web van Campagne v8.
 
 >[!CONTEXTUALHELP]
->id="acw_home_recent"
+>id="acw_homepage_recent"
 >title="Recenten"
 >abstract="De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum van het kanaal, de status, de eigenaar, het maken en de wijziging van de datums."
 
-#### Toegang tot recente leveringen {#user-interface-recent}
-
 De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum van het kanaal, de status, de eigenaar, het maken en de wijziging van de datums. Klik op de knop **Meer weergeven** koppeling om meer leveringen te laden.
-
-#### Toetsmeetgegevens controleren {#user-interface-kpi}
 
 De **Belangrijkste prestatie-indicatoren** Hiermee kunt u de doeltreffendheid van uw platform controleren aan de hand van algemene KPI&#39;s. Meer informatie over deze KPI&#39;s vindt u in [deze pagina](../reporting/kpis.md).
 
-#### Toegangsdocumentatie {#user-interface-learn}
-
->[!CONTEXTUALHELP]
->id="acw_home_learn"
->title="Leren"
->abstract="Toegang krijgen tot de Help-pagina&#39;s voor Campagne v8 Web **Leren** de onderstaande vakken."
 
 Toegang krijgen tot de Help-pagina&#39;s voor Campagne v8 Web **Leren** van de startpagina.
 

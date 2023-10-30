@@ -3,7 +3,7 @@ title: Belangrijkste prestatie-indicatoren
 description: Leer hoe u belangrijke prestatie-indicatoren begrijpt
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 6bca060efec14d287fac46fa7e7e721af7bfcb13
+source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Belangrijkste prestatie-indicatoren {#kpis}
 
 >[!CONTEXTUALHELP]
->id="acw_home_kpi"
+>id="acw_homepage_kpi"
 >title="Belangrijkste prestatie-indicatoren"
 >abstract="De **Belangrijkste prestatie-indicatoren** kunt u de doeltreffendheid van uw platform controleren via veelgebruikte KPI&#39;s."
 
