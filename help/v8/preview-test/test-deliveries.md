@@ -4,9 +4,9 @@ title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2f065c6a0d4daef1cafbcb5f9d8d666fbe716932
+source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,10 @@ De profielen van de test zijn zaadadressen, die extra ontvangers in het gegevens
    ![](assets/simulate-profile-mode.png)
 
 1. Als u al profielen hebt geselecteerd voor [voorvertoning van het bericht](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testontvangers. U kunt uw selectie wissen en/of extra ontvangers toevoegen met de opdracht **[!UICONTROL Add test profile(s)]** knop.
+
+   >[!NOTE]
+   >
+   >Testprofielen worden gemaakt in het dialoogvenster [!DNL Campaign] clientconsole in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Leer hoe u zaadadressen maakt en beheert in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
 
 1. Om het definitieve bericht aan de ontvangers van de testlevering ook te verzenden, selecteer **[!UICONTROL Include test population in the main target]** -optie.
 
