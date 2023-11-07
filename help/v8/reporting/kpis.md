@@ -3,9 +3,9 @@ title: Belangrijkste prestatie-indicatoren
 description: Leer hoe u belangrijke prestatie-indicatoren begrijpt
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,10 @@ Deze cijfers zijn gebaseerd op de Geconsolideerde tabel voor reeksspatiëring (`
 >id="acw_keyindicators_unsubscriptions"
 >title="Uitschrijvingen"
 >abstract="Deze metrisch toont, voor het geselecteerde kanaal, de som van alle abonnementen van de dienst, en het percentage van abonnementen in vergelijking met het totale aantal berichten die met succes worden geleverd."
+
+>[!NOTE]
+>
+> De abonnement en unsubscription KPIs variëren gebaseerd op het de diensttype. E-mailabonnementen en abonnementen omvatten bijvoorbeeld alle e-mailservices, ongeacht of deze afkomstig zijn van handmatige handelingen of webformulieren. Het is belangrijk om deze benadering van levering-vlakke unsubscription metrisch te onderscheiden, die unsubscription verbindingskliks eerder dan daadwerkelijke unsubscribed gebruikers volgt.
 
 Ontvangers moeten zich kunnen afmelden bij e-mail en SMS via een speciale koppeling om hun abonnement op te zeggen in de e-mailinhoud of door STOP op een SMS te beantwoorden.
 
