@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 41d426b97dc836f60f21e80ce149ce93aec77d69
+source-git-commit: c5f57d85a65a4f17189586f7b83df5d45eed0781
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -410,6 +410,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Afstemming genereren"
 >abstract="Afstemming genereren"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Splitsen genereert complement"
+>abstract="Splitsen genereert complement"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_combine_complement"
+>title="Combineren genereert een complement"
+>abstract="Combineren genereert een complement"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_segments"
+>title="Segmenten voor splitsingsactiviteit"
+>abstract="Segmenten voor splitsingsactiviteit"
+
 
 
 
@@ -483,3 +498,5 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Algemene ontwikkeling van abonnementen"
 >abstract="Algemene ontwikkeling van abonnementen"
+
+
