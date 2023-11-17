@@ -3,9 +3,9 @@ title: Belangrijkste prestatie-indicatoren
 description: Leer hoe u belangrijke prestatie-indicatoren begrijpt
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
+source-git-commit: 53f1cc7776d56a42b4027f73cb3399a8c630cdfa
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1196'
 ht-degree: 0%
 
 ---
@@ -141,3 +141,23 @@ De **Fouten** de indicator toont de volgende KPIs, voor elk kanaal:
 * Percentage van het aantal fouten in verhouding tot het totale aantal te leveren berichten.
 
 * Totaal aantal fouten gecumuleerd tijdens leveringen en automatische terugkerende verwerking.
+
+## Bericht verzonden {#ui-sent-kpi}
+
+<!--DRAFT - This section requires a validation-->
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_sent"
+>title="Verzonden"
+>abstract="Deze metrisch toont, voor het directe postkanaal, de som van alle verzonden berichten, en het percentage van bericht dat naar de leverancier wordt verzonden, in vergelijking met het totale aantal berichten die tijdens de leveringsvoorbereidingsfase worden voorbereid."
+
+Tijdens de voorbereidingsfase wordt het bestand voor directe-mailextractie gegenereerd, maar wordt de informatie over ontvangers (d.w.z. leveringslogboeken) niet bijgewerkt.  De status van een levering die van In afwachting van levering aan Verzonden wordt bewogen wanneer de gebruiker van de Campagne de verzending van de levering bevestigt. Vervolgens wordt de levering ingesteld op Voltooid.
+
+Het kan nooit 100% van verzonden berichten zijn vergeleken bij het totaal van voorbereid bericht, aangezien sommige adressen of onvolledig kunnen ontbreken.
+
+De **Verzonden** De indicator toont de volgende KPIs, voor het Directe postkanaal:
+
+* Percentage van het aantal verzonden berichten in verhouding tot het totale aantal voorbereide berichten.
+
+* De som van alle verzonden berichten.
+
