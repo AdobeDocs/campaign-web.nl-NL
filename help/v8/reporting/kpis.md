@@ -3,9 +3,9 @@ title: Belangrijkste prestatie-indicatoren
 description: Leer hoe u belangrijke prestatie-indicatoren begrijpt
 badge: label="Beta"
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 3c6d086c1941b5f2e29b2eb18f58ab1fc541464a
+source-git-commit: 69550de063ad1713e78ab7e61e7ca073d6fc02c6
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,23 @@ De **Klikken** de indicator toont de volgende KPIs, voor elk kanaal:
 Deze cijfers zijn gebaseerd op de Geconsolideerde tabel voor reeksspatiëring (`nms:trackingStats`). Deze bijeengevoegde lijst wordt gebruikt voor prestatiesredenen wanneer het tonen van rapporten, in de plaats van de Ontvanger het volgen logboeklijst (`nms:trackingLogRcp`) en wordt niet in real time berekend. De tabel wordt een paar minuten nadat de logbestanden voor bijhouden zijn opgehaald, gegenereerd.
 
 
+## Abonnementskosten {#ui-sub-kpi}
+
+>[!CONTEXTUALHELP]
+>id="acw_keyindicators_subscriptions"
+>title="Lidmaatschappen"
+>abstract="Deze metrisch toont, voor het geselecteerde kanaal, de som alle abonnementen aan de dienst, en het percentage abonnementen in vergelijking met het totale aantal berichten die met succes worden geleverd."
+
+
+Ontvangers kunnen zich aanmelden bij e-mail- en sms-communicatie.
+
+De **Abonnementen** De indicator toont volgende KPIs, voor elk kanaal het percentage van het aantal abonnementen in vergelijking met het totale aantal berichten die met succes worden geleverd.
+
+
+>[!NOTE]
+>
+> De abonnement en unsubscription KPIs variëren gebaseerd op het de diensttype. E-mailabonnementen en abonnementen omvatten bijvoorbeeld alle e-mailservices, ongeacht of deze afkomstig zijn van handmatige handelingen of webformulieren. Het is belangrijk om deze benadering van levering-vlakke unsubscription metrisch te onderscheiden, die unsubscription verbindingskliks eerder dan daadwerkelijke unsubscribed gebruikers volgt.
+
 ## Abonnementstarieven {#ui-unsub-kpi}
 
 >[!CONTEXTUALHELP]
@@ -94,9 +111,6 @@ Deze cijfers zijn gebaseerd op de Geconsolideerde tabel voor reeksspatiëring (`
 >title="Uitschrijvingen"
 >abstract="Deze metrisch toont, voor het geselecteerde kanaal, de som van alle abonnementen van de dienst, en het percentage van abonnementen in vergelijking met het totale aantal berichten die met succes worden geleverd."
 
->[!NOTE]
->
-> De abonnement en unsubscription KPIs variëren gebaseerd op het de diensttype. E-mailabonnementen en abonnementen omvatten bijvoorbeeld alle e-mailservices, ongeacht of deze afkomstig zijn van handmatige handelingen of webformulieren. Het is belangrijk om deze benadering van levering-vlakke unsubscription metrisch te onderscheiden, die unsubscription verbindingskliks eerder dan daadwerkelijke unsubscribed gebruikers volgt.
 
 Ontvangers moeten zich kunnen afmelden bij e-mail en SMS via een speciale koppeling om hun abonnement op te zeggen in de e-mailinhoud of door STOP op een SMS te beantwoorden.
 
@@ -106,6 +120,10 @@ De **Abonnementen** de indicator toont de volgende KPIs, voor elk kanaal:
 
 * De som van alle klikken op een koppeling zonder abonnement, d.w.z. met een categorie URL is gelijk aan &quot;Opt-out&quot;.
 
+
+>[!NOTE]
+>
+> De abonnement en unsubscription KPIs variëren gebaseerd op het de diensttype. E-mailabonnementen en abonnementen omvatten bijvoorbeeld alle e-mailservices, ongeacht of deze afkomstig zijn van handmatige handelingen of webformulieren. Het is belangrijk om deze benadering van levering-vlakke unsubscription metrisch te onderscheiden, die unsubscription verbindingskliks eerder dan daadwerkelijke unsubscribed gebruikers volgt.
 
 ## Foutsnelheden {#ui-error-kpi}
 
