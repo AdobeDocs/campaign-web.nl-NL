@@ -4,9 +4,9 @@ title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beta"
-source-git-commit: 2618e36b5f42ca7e5c3791a15ac92847cdf3397a
+source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,10 @@ Uw berichtinhoud testen:
 >title="Sjabloonbestand"
 >abstract="De opmaak van het bestand moet gelijk zijn aan die van het oorspronkelijke bestand.<br/>Ondersteunde bestandsindelingen: txt, csv. Maximale bestandsgrootte: 15 MB. Eerste regel gebruiken als kolomkop."
 
+>[!CONTEXTUALHELP]
+>id="acw_sms_preview_option_app_target"
+>title="Testprofielen opnemen in het hoofdpubliek"
+>abstract="Schakel deze optie in om ook het laatste bericht naar de ontvangers van de testlevering te verzenden."
 
 De profielen van de test zijn zaadadressen, die extra ontvangers in het gegevensbestand zijn. Ze kunnen worden gemaakt in de [!DNL Adobe Campaign] clientconsole. De stappen om testberichten naar zaadadressen te verzenden zijn hieronder gedetailleerd.
 
@@ -90,7 +94,9 @@ De profielen van de test zijn zaadadressen, die extra ontvangers in het gegevens
 
 ## Vervangende profielgegevens {#substitution-profiles}
 
-Gebruik profielvervanging om testberichten naar een specifiek e-mailadres of telefoonnummer te verzenden, terwijl de gegevens van een bestaand profiel van het [!DNL Adobe Campaign] database. Volg onderstaande stappen om dit te doen:
+Gebruik profielvervanging om testberichten naar een specifiek e-mailadres of telefoonnummer te verzenden, terwijl de gegevens van een bestaand profiel van het [!DNL Adobe Campaign] database. Deze modus kan alleen worden geselecteerd als het publiek van de levering is gedefinieerd.
+
+Voer de volgende stappen uit om profielgegevens van het hoofddoel te vervangen:
 
 
 1. Klik vanaf de inhoud van de levering op de knop **[!UICONTROL Simulate content]** en de **[!UICONTROL Test]** knop.
@@ -119,9 +125,9 @@ Gebruik profielvervanging om testberichten naar een specifiek e-mailadres of tel
 
 1. Als de vervangende profielen zijn geselecteerd, kunt u [verzendt de testlevering](#send-test).
 
-## Tests verzenden naar abonnees {#subscribers}
+## Tests verzenden naar app-abonnees {#subscribers}
 
-Als u werkt met pushberichten, kunnen testleveringen alleen naar uw app-abonnees worden verzonden. Volg onderstaande stappen om deze te selecteren.
+Bij het ontwerpen met pushberichten kunnen testleveringen alleen naar abonnees van uw app worden verzonden. Volg onderstaande stappen om deze te selecteren.
 
 1. Klik op de knop **[!UICONTROL Simulate content]** en de **[!UICONTROL Test]** knop.
 
