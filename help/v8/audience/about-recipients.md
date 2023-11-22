@@ -3,7 +3,7 @@ title: Werken met ontvangers en publiek
 description: Leer hoe te met ontvangers het Web van de Campagne werken
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 332bcd3788ac137a60e7973d4e54b8cea22a9333
+source-git-commit: b06debf7fb36984ccd957125ad5597b5720d657a
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 1%
@@ -18,8 +18,8 @@ In Adobe Campaign is de doelpopulatie van een levering een publiek. Een publiek 
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
->title="Ontvangers"
->abstract="Een ontvanger is een profiel dat is bedoeld voor het ontvangen van berichten die door Adobe Campaign worden verzonden. In Adobe Campaign zijn ontvangers de standaardprofielen voor het verzenden van leveringen (e-mails, SMS). In deze lijst kunt u het profiel van de ontvanger weergeven op basis van uw machtigingen. Gebruik de filteropties om door deze lijst te bladeren. U kunt een kleine set kenmerken van de ontvanger bewerken en bijwerken."
+>title="Profielen"
+>abstract="Een profiel is een individu dat berichten ontvangt die door Adobe Campaign worden verzonden. In Adobe Campaign zijn ontvangers de standaardprofielen voor het verzenden van leveringen (e-mails, SMS). In deze lijst kunt u het profiel van de ontvanger weergeven op basis van uw machtigingen. Gebruik de filteropties om door deze lijst te bladeren. U kunt een kleine set kenmerken van de ontvanger bewerken en bijwerken."
 
 Een ontvanger is een profiel dat is bedoeld voor het ontvangen van berichten die door Adobe Campaign worden verzonden. In Adobe Campaign zijn ontvangers de standaardprofielen voor het verzenden van leveringen (e-mails, sms’en, enzovoort). De ontvangende gegevens die in het gegevensbestand worden opgeslagen laten u toe tot publiek dat om het even welke bepaalde levering zal ontvangen, en om verpersoonlijkingsgegevens in uw leveringsinhoud toe te voegen. Andere typen profielen worden opgeslagen in de database. Ze zijn ontworpen voor verschillende toepassingen. Zaadprofielen worden bijvoorbeeld gemaakt om uw leveringen te testen voordat ze naar het uiteindelijke publiek worden verzonden.
 
