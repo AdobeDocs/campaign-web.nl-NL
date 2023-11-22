@@ -4,9 +4,9 @@ title: Afleveringsinstellingen
 description: Meer informatie over de leveringsinstellingen in Campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: 47cc61510ae0dba139e0cb4d547fc4e737525931
+source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2136'
 ht-degree: 6%
 
 ---
@@ -30,13 +30,13 @@ Deze instellingen zijn beschikbaar via de **Leveringsinstellingen configureren**
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="De typologische regels staan marketers toe om bedrijfspraktijken, over alle leveringen te standaardiseren. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. Profielen die voldoen aan criteria binnen een typologieregel worden bij de voorbereidingsfase uitgesloten van de toedieningsdoelgroepen."
+>abstract="De typologische regels staan marketers toe om bedrijfspraktijken, over alle leveringen te standaardiseren. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. Profielen die voldoen aan criteria binnen een typologieregel worden bij de voorbereidingsfase uitgesloten van de toedieningsdoelgroepen. De typologieën en de typologieregels worden gecreeerd in de Console van de Cliënt van de Campagne."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Typologische instellingen voor de levering"
->abstract="De typologische regels staan marketers toe om bedrijfspraktijken, over alle leveringen te standaardiseren. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. Profielen die voldoen aan criteria binnen een typologieregel worden bij de voorbereidingsfase uitgesloten van de toedieningsdoelgroepen."
+>abstract="De typologische regels staan marketers toe om bedrijfspraktijken, over alle leveringen te standaardiseren. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. Profielen die voldoen aan criteria binnen een typologieregel worden bij de voorbereidingsfase uitgesloten van de toedieningsdoelgroepen. De typologieën en de typologieregels worden gecreeerd in de Console van de Cliënt van de Campagne."
 
 
 Typologieën zijn reeksen van **typologieregels**, die tijdens de voorbereidingsfase worden uitgevoerd. De typologische regels staan marketers toe om bedrijfspraktijken, over alle leveringen te standaardiseren. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. Profielen die voldoen aan criteria binnen een typologieregel, worden uitgesloten van de toedieningsdoelgroepen tijdens de voorbereidingsfase van de levering.  Ze staan u toe te controleren of uw e-mails altijd bepaalde elementen (zoals een koppeling voor een uitschrijving of een onderwerpregel) of filterregels bevatten om groepen van uw beoogde doel (zoals uitgeschreven abonnees, concurrenten of niet-loyale klanten) uit te sluiten.
@@ -48,7 +48,9 @@ Wanneer het associëren van een typologie met een bericht of berichtmalplaatje, 
 ![](assets/delivery-settings-1.png)
 
 
-
+>[!NOTE]
+>
+>De typologieën en de typologieregels worden gecreeerd in de Console van de Cliënt van de Campagne. Meer informatie over drukregels en hoe u vermoeidheidsbeheer kunt configureren in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html){target="_blank"}.
 
 ### Drukparameters {#pressure-parameters}
 
@@ -83,7 +85,9 @@ Gebruik de **Leveringsmodus** veld om de evaluatiemodus voor het doel te selecte
 * **Schatting en goedkeuring van de voorlopige doelstelling**
 * **Doelevaluatie**
 
-Moeilijkheidsbeheer wordt geleverd met **Campagne optimaliseren** invoegtoepassing. Meer informatie over drukregels en hoe u vermoeidheidsbeheer kunt configureren in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+>[!NOTE]
+>
+>Het beheer van de vermoeidheid wordt gevormd in de Console van de Cliënt van de Campagne. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Capaciteitsinstellingen {#capacity-settings}
 
@@ -103,7 +107,9 @@ In deze sectie kunt u een capaciteitsregel selecteren die is gedefinieerd in de 
 
 De **belang van de begunstigde** het veld is een formule die wordt gebruikt om te bepalen welke ontvangers worden gehouden wanneer de voorschriften inzake capaciteitstypologie worden overschreden .
 
-Leer meer over consistentie en capaciteitsregels en hoe te om hen te vormen in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+>[!NOTE]
+>
+>De typologieregels worden gevormd in de Console van de Cliënt van de Campagne. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 
 ## Instellingen voor publiek {#audience}
@@ -139,13 +145,15 @@ De parameters van de levering zijn technische montages die op uw levering van to
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_webanalytics"
 >title="Webanalytische instellingen voor levering"
->abstract="Selecteer een account voor webanalyse. Dit account is geconfigureerd in de Campagne-clientconsole. U kunt ook de tags definiëren die worden gedeeld met het analyseprogramma dat u gebruikt."
+>abstract="Selecteer een account voor webanalyse. Dit account is geconfigureerd in de Campagne Client Console. U kunt ook de tags definiëren die worden gedeeld met het analyseprogramma dat u gebruikt."
 
 In deze sectie kunt u een account voor webanalyse selecteren. Dit account is geconfigureerd in de Campagne-clientconsole.
 
 U kunt ook de tags definiëren die worden gedeeld met het analyseprogramma dat u gebruikt.
 
-Meer informatie over webanalyse en campagne in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+>[!NOTE]
+>
+>De mogelijkheden van de Analytics van het Web worden gevormd in de Console van de Cliënt van de Campagne. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
 ### Hernieuwde pogingen {#retries}
