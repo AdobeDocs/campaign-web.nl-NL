@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1015'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,7 @@ Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om 
 
 Een sjabloon kan het volgende bevatten:
 
+* De **map** en **uitvoeringsmap** van de template. De map is de locatie waar de leveringssjabloon is opgeslagen. De uitvoeringsmap is de map waarin leveringen worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
 * [Typologieën](../advanced-settings/delivery-settings.md#typology),
 * Het adres van de afzender,
 * An [publiek](../audience/about-recipients.md), inclusief [controlegroepen](../audience/control-group.md),
@@ -47,9 +48,8 @@ Een sjabloon kan het volgende bevatten:
 >[!CONTEXTUALHELP]
 >id="acw_delivery_templates"
 >title="Werken met leveringssjablonen"
->abstract="Gebruik leveringssjablonen om eenvoudig uw bestaande leveringen te maken en op te slaan voor toekomstig gebruik."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#copy-an-existing-template" text="Een bestaande sjabloon dupliceren"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html#convert-an-existing-delivery" text="Een levering converteren naar een sjabloon"
+>abstract="Gebruik leveringssjablonen om leveringsinstellingen te maken en op te slaan voor toekomstig gebruik in uw campagnes. U kunt leveringsmalplaatjes van kras tot stand brengen, een bestaand malplaatje dupliceren, of een levering in een malplaatje omzetten."
+
 
 Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** van het linkermenu, en doorblader aan **Sjablonen** tab.
 
@@ -120,7 +120,7 @@ Elke levering kan worden omgezet in een sjabloon voor toekomstige herhaalde leve
 
 Volg onderstaande stappen om een levering als een sjabloon op te slaan:
 
-1. Ga naar de **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** -menu.
+1. Bladeren naar de **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** -menu.
 1. Van de **[!UICONTROL Browse]** klikt u op de knop **[!UICONTROL More actions]** rechts van de gewenste levernaam en selecteert u **[!UICONTROL Copy as a template]**.
 
    ![](assets/templates-convert-delivery.png)
