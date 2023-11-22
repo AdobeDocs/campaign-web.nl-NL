@@ -4,9 +4,9 @@ title: De werkstroomactiviteit Splitsen gebruiken
 description: Leer hoe u de activiteit van de gesplitste workflow gebruikt
 badge: label="Beta"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '681'
 ht-degree: 1%
 
 ---
@@ -39,6 +39,10 @@ De **Splitsen** activiteit is **Targeting** activiteit die u toestaat om inkomen
 >title="Splitsen op activiteit"
 >abstract="Wanneer u een populatielimiet voor een subset instelt, kunt u de geselecteerde profielen op basis van een specifiek profielkenmerk in oplopende of aflopende volgorde rangschikken. Om dit te doen, knevel op **Sorteren inschakelen** -optie. U kunt bijvoorbeeld een subset beperken tot alleen de bovenste 50 profielen met het hoogste aankoopbedrag."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_complement"
+>title="Splitsen genereert complement"
+>abstract="Zodra u alle subsets hebt gevormd, kunt u de resterende populatie selecteren die geen van de subsets aanpast en hen in een extra uitgaande overgang omvat. Om dit te doen, knevel op **Complement genereren** -optie."
 
 Voer de volgende stappen uit om de **Splitsen** activiteit:
 
