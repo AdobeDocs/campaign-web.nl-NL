@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 98004501d735e3690d3e78dd0b002d183c71f3a0
+source-git-commit: bc0659ba0577eb16500eb339a75a8362a2f3ec41
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -501,3 +501,17 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Algemene ontwikkeling van abonnementen"
 
 
+>[!CONTEXTUALHELP]
+>id="acw_directmail_content"
+>title="Inhoud voor direct mail"
+>abstract="Inhoud voor direct mail"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_file"
+>title="Bestandseigenschappen voor Direct Mail"
+>abstract="Bestandseigenschappen voor Direct Mail"
+
+>[!CONTEXTUALHELP]
+>id="acw_directmail_properties_content"
+>title="Eigenschappen voor inhoud voor Direct Mail"
+>abstract="Eigenschappen voor inhoud voor Direct Mail"
