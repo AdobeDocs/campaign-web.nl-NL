@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 1f6fc0e2764fc4e083fe983f32f83ebe93594df1
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1501'
 ht-degree: 0%
 
 ---
@@ -512,3 +512,47 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Eigenschappen voor inhoud voor Direct Mail"
 >abstract="Eigenschappen voor inhoud voor Direct Mail"
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile"
+>title="Bestandsactiviteit laden"
+>abstract="Bestandsactiviteit laden"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_samplefile"
+>title="Voorbeeldbestand"
+>abstract="Voorbeeldbestand"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_nameofthefile"
+>title="Naam van het bestand"
+>abstract="Naam van het bestand"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetdb"
+>title="Doeldatabase"
+>abstract="Doeldatabase"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_rejectmgt"
+>title="Afwijzen van beheer voor het laden van bestandsactiviteiten"
+>abstract="Afwijzen van beheer voor het laden van bestandsactiviteiten"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition"
+>title="Uitgaande overgang van beheer afwijzen"
+>abstract="Uitgaande overgang van beheer afwijzen"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_outboundtransition_reject"
+>title="Uitgaande overgang van beheer afwijzen voor afwijzing"
+>abstract="Uitgaande overgang van beheer afwijzen voor afwijzing"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_formatting"
+>title="Opmaak voor het laden van bestandsactiviteit"
+>abstract="Opmaak voor het laden van bestandsactiviteit"
+
