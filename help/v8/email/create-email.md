@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Meer informatie over het verzenden van uw eerste e-mail via de webinterface voor campagnes
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: ef705291649c1223cb3ea8df8e803bde04e06102
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1273'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Gebaseerd op een vooraf gedefinieerde [ontwerpsjabloon](../content/email-sample-
 >title="Uw e-maileigenschappen definiëren"
 >abstract="De eigenschappen zijn de gemeenschappelijke leveringsparameters die u helpen om uw levering te noemen en te classificeren. De extra instellingen zijn optioneel. Als uw levering is gebaseerd op een uitgebreid schema dat is gedefinieerd in de Adobe Campaign v8-console, zijn er enkele specifieke **Aangepaste opties** zijn beschikbaar."
 
-U kunt een zelfstandige e-maillevering maken of een e-mailbericht maken in de context van een campagneworkflow. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) e-maillevering. Als u in de context van een campagnewerkstroom werkt, zijn de aanmaakstappen details in [deze sectie](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+U kunt een zelfstandige e-maillevering maken of een e-mailbericht maken in de context van een campagneworkflow. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) e-maillevering. Meer informatie over het maken van aanbiedingen in Adobe Campaign vindt u in [deze pagina](../msg/gs-deliveries.md).
 
 Volg onderstaande stappen om een nieuwe, zelfstandige e-maillevering te maken.
 
@@ -131,7 +131,7 @@ Volg onderstaande stappen om uw e-mailinhoud te maken. In dit geval gebruikt u e
 
    ![](assets/save-content.png)
 
-## Plan de verzending {#schedule}
+## Het verzenden plannen {#schedule}
 
 Volg onderstaande stappen om het verzenden van de e-mail te plannen.
 

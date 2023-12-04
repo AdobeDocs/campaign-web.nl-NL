@@ -5,10 +5,10 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: a0e0ebfb1a1bedc0429183cc246b7d1140d3b8b4
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 11%
+source-wordcount: '450'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 11%
 + [Documentatie-updates](rn/documentation-updates.md)
 + Aan de slag met Adobe Campaign {#start}
    + [Aan de slag](get-started/get-started.md)
-   + [Verbinding maken met Campaign](get-started/connect-to-campaign.md)
+   + [Verbinding maken met campagne](get-started/connect-to-campaign.md)
    + [De interface detecteren](get-started/user-interface.md)
    + [Bladeren, zoeken en filteren](get-started/list-filters.md)
    + [Werken met vooraf gedefinieerde filters](get-started/predefined-filters.md)
@@ -30,7 +30,8 @@ ht-degree: 11%
    + [Hulp en begeleiding zoeken](get-started/using-ai.md)
 + Berichten en leveringen {#msg}
    + [Aan de slag met berichten](msg/gs-messages.md)
-   + [Werken met leveringssjablonen](msg/delivery-template.md)
+   + [Werken met leveringen](msg/gs-deliveries.md)
+   + [Leveringssjablonen gebruiken](msg/delivery-template.md)
    + E-mails {#email}
       + [Uw eerste e-mail maken](email/create-email.md)
       + E-mailinhoud definiëren {#content}
@@ -47,7 +48,7 @@ ht-degree: 11%
             + [Een koppeling toevoegen aan de spiegelpagina](content/mirror-page.md)
             + [Een preheader toevoegen](content/preheader.md)
             + [De tekstversie genereren](content/text-version-email.md)
-            + [Middelen beheren met as a Cloud Service Adobe Experience Manager-middelen](content/aem-assets.md)
+            + [Middelen beheren met Adobe Experience Manager Assets as a Cloud Service](content/aem-assets.md)
          + Inhoudsassistent {#content-assistant}
             + [Aan de slag met de Content Assistant](content/generative-gs.md)
             + [Tekst genereren met de Inhoudsassistent](content/generative-content.md)
@@ -128,7 +129,7 @@ ht-degree: 11%
 + Rapportage {#reports}
    + [Aan de slag met rapporten](reporting/gs-reports.md)
    + [Belangrijkste prestatie-indicatoren](reporting/kpis.md)
-   + Leveringsrapporten {#delivery-report}
+   + Afleveringsrapporten {#delivery-report}
       + [Toegang tot leveringsrapporten](reporting/delivery-reports.md)
       + [E-mailleveringsrapport](reporting/email-report.md)
       + [Push-leveringsrapport](reporting/push-report.md)

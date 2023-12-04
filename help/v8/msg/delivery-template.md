@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Werken met leveringssjablonen
+title: Leveringssjablonen gebruiken
 description: Leer hoe te om leveringsmalplaatjes in het Web van de Campagne te creëren en te gebruiken
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: d9eb862d8fc5d03b26b230d8ffeb167e6c0b1f3b
+source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 3%
+source-wordcount: '1013'
+ht-degree: 2%
 
 ---
 
-# Werken met leveringssjablonen {#work-with-delivery-templates}
+# Leveringssjablonen gebruiken {#work-with-delivery-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
@@ -175,7 +175,7 @@ De nieuwe sjabloon wordt toegevoegd aan de [**Sjablonen** list](#access-manage-t
 
 ## Een leveringssjabloon testen {#test-template}
 
-U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul is gemaakt of van bestaande inhoud. Hiervoor voert u de volgende stappen uit.
+U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul is gemaakt of van bestaande inhoud. Volg de onderstaande stappen om dit te doen.
 
 1. Bladeren naar de **Sjablonen** door de **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** en selecteert u een sjabloon. [Meer informatie](#access-manage-templates)
 
