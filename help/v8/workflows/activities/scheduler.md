@@ -6,8 +6,8 @@ badge: label="Beta"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 10%
+source-wordcount: '523'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
->title="Activiteit Planner"
+>title="Planningsactiviteit"
 >abstract="De **Planner** Met deze activiteit kunt u plannen wanneer de workflow wordt gestart. Deze activiteit moet worden beschouwd als een geplande start. Deze kan alleen worden gebruikt als de eerste activiteit van de workflow."
 
 

@@ -6,8 +6,8 @@ exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
 source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 6%
+source-wordcount: '2090'
+ht-degree: 5%
 
 ---
 
@@ -139,7 +139,7 @@ De parameters van de levering zijn technische montages die op uw levering van to
 
 * **BCC e-mailen**: deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel. Meer informatie over BCC via e-mail in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
-### Web Analytics {#web-analytics}
+### Webanalyse {#web-analytics}
 
 
 >[!CONTEXTUALHELP]
@@ -156,7 +156,7 @@ U kunt ook de tags definiëren die worden gedeeld met het analyseprogramma dat u
 >De mogelijkheden van de Analytics van het Web worden gevormd in de Console van de Cliënt van de Campagne. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
 
-### Hernieuwde pogingen {#retries}
+### Opnieuw {#retries}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_retries"

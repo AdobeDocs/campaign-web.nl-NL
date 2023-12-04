@@ -6,7 +6,7 @@ badge: label="Beta"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
 source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '894'
 ht-degree: 10%
 
 ---
@@ -60,7 +60,7 @@ Voer de volgende algemene stappen uit om de configuratie van de **Combineren** a
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_reconciliation_options"
->title="Doorsnede afstemmingsopties"
+>title="Afstemmingsopties voor doorsnede"
 >abstract="Selecteer het afstemmingstype om te bepalen hoe duplicaten worden verwerkt."
 
 >[!CONTEXTUALHELP]
