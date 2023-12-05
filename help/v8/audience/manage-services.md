@@ -4,10 +4,10 @@ title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
 badge: label="Beta"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 2524756d888fa62149beda92ead898a9130dfb66
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 2%
+source-wordcount: '725'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,7 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 
    ![](assets/service-create-properties.png)
 
-1. Abonnementen zijn standaard onbeperkt. U kunt de **[!UICONTROL  Unlimited validity period]** optie om een geldigheidstermijn voor de dienst te bepalen.
+1. Abonnementen zijn standaard onbeperkt. U kunt de **[!UICONTROL Unlimited validity period]** optie om een geldigheidstermijn voor de dienst te bepalen.
 
    In het onderstaande voorbeeld na 20 dagen:
    * Geen ontvangers kunnen zich meer op deze service abonneren.
@@ -84,7 +84,7 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 
 ## Een bevestigingsbericht maken {#create-confirmation-message}
 
-Als u bevestigingsberichten wilt verzenden naar gebruikers die zich op uw service abonneren of zich niet abonneren, moet u een leveringssjabloon maken met de **[!UICONTROL Subscriptions]** doeltoewijzing, zonder een gedefinieerd doel. Hiervoor voert u de volgende stappen uit.
+Als u bevestigingsberichten wilt verzenden naar gebruikers die zich op uw service abonneren of zich niet abonneren, moet u een leveringssjabloon maken met de **[!UICONTROL Subscriptions]** doeltoewijzing, zonder een gedefinieerd doel. Volg de onderstaande stappen om dit te doen.
 
 1. Een leveringssjabloon maken voor de bevestiging van een abonnement. [Meer informatie](../msg/delivery-template.md)
 
