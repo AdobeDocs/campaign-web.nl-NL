@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e2b8fb6607fbcf1c347e8926a167296812945d4e
+source-git-commit: 24d62bab783e8a00b71d01e5bf44b206d52d6a4e
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1503'
 ht-degree: 0%
 
 ---
@@ -204,6 +204,16 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Ontvangers, aangepaste velden"
 
 >[!CONTEXTUALHELP]
+>id="acw_recipients_creation_nolongercontact"
+>title="Ontvangers nemen geen contact meer op"
+>abstract="Ontvangers nemen geen contact meer op"
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_creation_othersfields"
+>title="Overige ontvangers"
+>abstract="Overige ontvangers"
+
+>[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Overzicht van de ontvangerskaart"
 >abstract="Overzicht van de ontvangerskaart"
@@ -233,6 +243,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Voorvertoning van aanbiedingen van ontvangers"
 >abstract="Voorvertoning van aanbiedingen van ontvangers"
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Ontvangers lezen alleen-profiel"
+>abstract="Ontvangers lezen alleen-profiel"
+
+
+
+
+
+>[!CONTEXTUALHELP]
+>id="acw_recipients_testprofiles_additionaldata"
+>title="Testprofielen Aanvullende gegevens"
+>abstract="Testprofielen Aanvullende gegevens"
 
 
 
