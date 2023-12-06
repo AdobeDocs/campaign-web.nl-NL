@@ -4,10 +4,10 @@ title: Een levering met pushberichten ontwerpen
 description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 1%
+source-wordcount: '1264'
+ht-degree: 0%
 
 ---
 
@@ -81,36 +81,36 @@ In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
->title="Kritieke waarschuwingsmodus voor iOS"
+>title="Modus Kritieke waarschuwing"
 >abstract="Schakel deze optie in om geluid aan uw melding toe te voegen, zelfs wanneer de telefoon van de gebruiker is ingesteld op de focusmodus of wanneer het apparaat wordt gedempt. Dit zorgt ervoor dat gebruikers in elk geval op de hoogte worden gesteld van belangrijke waarschuwingen."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Badge-nummer voor iOS"
+>title="Badge-nummer"
 >abstract="Gebruik deze optie om het aantal nieuwe ongelezen gegevens in te stellen dat rechtstreeks op het app-pictogram moet worden weergegeven. Hierdoor kan de gebruiker snel zien hoeveel meldingen in behandeling zijn."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
->title="Tabelinhoud voor iOS"
+>title="Mabelinhoud"
 >abstract="Gebruik deze optie als u wilt dat de mobiele toepassing media-inhoud kan downloaden die aan het bericht is gekoppeld."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_score"
->title="Releventiescore voor iOS"
+>title="Relevantiescore"
 >abstract="Plaats een relevantiescore van 0 tot 100 om de orde van berichten in de berichtsamenvatting voorrang te geven. Hogere scores duiden op belangrijkere meldingen."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
->title="Toepassingsvariabelen voor iOS"
+>title="Toepassingsvariabelen"
 >abstract="Gebruik toepassingsvariabelen om berichtgedrag te bepalen. Deze variabelen kunnen volledig worden aangepast en worden opgenomen in de berichtlading die naar het mobiele apparaat wordt verzonden."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
->title="Categorie-id voor iOS"
+>title="Categorie-id"
 >abstract="Geef de naam op van de categorie-id die aan het bericht is gekoppeld. Hierdoor kunnen actieknoppen worden weergegeven, zodat de gebruiker verschillende taken rechtstreeks vanuit het bericht kan uitvoeren zonder de toepassing te openen."
 
 
