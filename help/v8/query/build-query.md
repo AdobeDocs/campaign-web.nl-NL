@@ -2,9 +2,9 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,12 @@ Door componenten te filteren kunt u de query verfijnen door:
 * **Soorten publiek**: Filter de query met een bestaand publiek.
 * **Vooraf gedefinieerd filter**: Filter de query met behulp van bestaande vooraf gedefinieerde filters.
 
-### Een aangepaste voorwaarde maken
+### Een aangepaste voorwaarde configureren
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_customcondition"
+>title="Aangepaste voorwaarde"
+>abstract="Aangepaste voorwaarde"
 
 Voer de volgende stappen uit om de query te filteren met behulp van een aangepaste voorwaarde:
 
@@ -96,6 +101,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 ### Een publiek selecteren
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_selectaudience"
+>title="Doelgroep selecteren"
+>abstract="Doelgroep selecteren"
+
 Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
 1. Klik op de +-knop op het gewenste knooppunt en selecteer **[!UICONTROL Select audience]**.
@@ -108,6 +118,11 @@ Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
 ### Een vooraf gedefinieerd filter gebruiken
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_predefinedfilter"
+>title="Vooraf gedefinieerd filter"
+>abstract="Vooraf gedefinieerd filter"
+
 Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd filter:
 
 1. Klik op de +-knop op het gewenste knooppunt en selecteer **[!UICONTROL Predefined filter]**.
@@ -119,6 +134,11 @@ Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd
    ![](assets/query-predefined-filter.png)
 
 ## Filtercomponenten combineren met operatoren
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Groep"
+>abstract="Groep"
 
 Wanneer het toevoegen van een het filtreren component aan uw vraag, wordt een nieuwe overgang automatisch gecreeerd op het vraagcanvas, en de nieuwe het filtreren component wordt verbonden met eerste door EN exploitant. Dit betekent dat de resultaten van zowel de het filtreren componenten in de vraagresultaten worden gecombineerd.
 
@@ -137,6 +157,11 @@ Beschikbare operatoren zijn:
 * EXCEPT (Uitsluiting): sluit resultaten uit van alle filtercomponenten in de uitgaande overgang.
 
 ## Uw query controleren en valideren
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_ruleproperties"
+>title="Eigenschappen van Rule"
+>abstract="Eigenschappen van Rule"
 
 Zodra u uw vraag in het canvas hebt gebouwd, kunt u het controleren gebruikend de de eigenschappen van de Regel ruit die op de rechterkant wordt gevestigd. De beschikbare bewerkingen zijn als volgt:
 
