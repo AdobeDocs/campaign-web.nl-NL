@@ -5,7 +5,7 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: acc8956c21c700b615bcd1b2a055a91b1d227f7b
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 8%
@@ -126,10 +126,10 @@ ht-degree: 8%
       + [Planner](workflows/activities/scheduler.md)
       + [Splitsen](workflows/activities/split.md)
       + [Wachten](workflows/activities/wait.md)
-   + De database opvragen {#query-database}
-      + [Werken met de querymodelfunctie](query/query-modeler-overview.md)
-      + [Uw eerste query samenstellen](query/build-query.md)
-      + [Voorbeelden van query’s](query/query-samples.md)
++ De database opvragen {#query-database}
+   + [Werken met de querymodelfunctie](query/query-modeler-overview.md)
+   + [Uw eerste query samenstellen](query/build-query.md)
+   + [Voorbeelden van query’s](query/query-samples.md)
 + Rapportage {#reports}
    + [Aan de slag met rapporten](reporting/gs-reports.md)
    + [Belangrijkste prestatie-indicatoren](reporting/kpis.md)
