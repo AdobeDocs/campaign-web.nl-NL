@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,7 @@ U kunt een douanefilter van de regelbouwer bewaren om het voor toekomstig gebrui
 
 Uw aangepaste filter is nu beschikbaar in het dialoogvenster **Vooraf gedefinieerde filters** en toegankelijk voor alle campagnegebruikers.
 
-
 ### Een filter maken in de filterlijst {#create-filter-from-list}
-
 
 U kunt een filter maken op basis van het **Vooraf gedefinieerde filters** in het linkermenu. Volg onderstaande stappen om dit te doen:
 
@@ -86,7 +84,6 @@ U kunt een filter maken op basis van het **Vooraf gedefinieerde filters** in het
 
 1. Sla uw wijzigingen op. Het filter wordt toegevoegd aan de vooraf gedefinieerde filterlijst.
 
-
 ## Filter opslaan als favoriet {#fav-filter}
 
 Wanneer u een vooraf gedefinieerd filter maakt, kunt u **Opslaan als favoriet** als u dit vooraf gedefinieerde filter wilt zien in uw favorieten.
@@ -95,7 +92,6 @@ Wanneer u een vooraf gedefinieerd filter maakt, kunt u **Opslaan als favoriet** 
 Wanneer een filter als favoriet wordt opgeslagen, is het beschikbaar voor alle gebruikers in **Favoriete filters** sectie van de lijst van de filterverwezenlijking, zoals hieronder getoond:
 
 ![](assets/predefined-filters-favorite.png){width="30%" align="left"}
-
 
 ## Een vooraf gedefinieerd filter gebruiken {#use-predefined-filter}
 
