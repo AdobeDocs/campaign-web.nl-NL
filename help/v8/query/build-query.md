@@ -2,32 +2,34 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
-source-git-commit: a974221fa5b46ea9463c98724b1f49a7edb0adb7
+source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
 
 # Uw eerste query samenstellen {#build-query}
 
-Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats van uw keus, afhankelijk van de actie u wilt uitvoeren. Het Query-model wordt geopend met een leeg canvas. Klik + knoop om de eerste knoop van uw vraag toe te voegen.
-
-![](assets/query-add-component.png)
+Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats van uw keus, afhankelijk van de actie u wilt uitvoeren. Het Query-model wordt geopend met een leeg canvas. Klik op de knop **+** knoop om de eerste knoop van uw vraag te vormen.
 
 U kunt twee typen elementen toevoegen:
 
-* Door componenten te filteren (aangepaste voorwaarde, publiek selecteren, vooraf gedefinieerd filter) kunt u uw eigen regels maken en een publiek of een vooraf gedefinieerd filter selecteren om de query te verfijnen.
+* **Componenten filteren** (De voorwaarde van de Douane, Uitgezochte publiek, Vooraf bepaald filter) staat u toe om uw eigen regels te bouwen, een publiek of een vooraf bepaald filter te selecteren om uw vraag te verfijnen. [Leer hoe u met filtercomponenten werkt](#filtering)
 
-  Voorbeeld *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &#39;Sport&#39;*. *Ontvangers in New York*, *Ontvangers in San Francisco*
+  Voorbeeld:
 
-* De exploitanten van de groep (EN, OF, BEHALVE) staan u toe om het filtreren componenten in het diagram te groeperen om uw behoeften aan te passen.
+  *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &#39;Sport&#39;*. *Ontvangers in New York*, *Ontvangers in San Francisco*
 
-  Voorbeeld: *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &quot;Sport&quot;**EN**die in New York wonen **OF**San Francisco*.
+* **Groepoperatoren** (EN, OF, BEHALVE) staat u toe om het filtreren componenten in het diagram te groeperen om uw behoeften aan te passen. [Leer werken met operatoren](#filtering)
 
-U vindt hieronder gedetailleerde stappen voor het toevoegen en combineren van filtercomponenten en groepoperatoren.
+  Voorbeeld:
 
-## Filtercomponenten toevoegen
+  *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &quot;Sport&quot;**EN**die in New York wonen **OF**San Francisco*.
+
+![](assets/query-add-component.png)
+
+## Filtercomponenten toevoegen {#filtering}
 
 Door componenten te filteren kunt u de query verfijnen door:
 
@@ -44,10 +46,9 @@ Door componenten te filteren kunt u de query verfijnen door:
 
 Voer de volgende stappen uit om de query te filteren met behulp van een aangepaste voorwaarde:
 
-1. Klik op de +-knop op het gewenste knooppunt en selecteer **[!UICONTROL Custom condition]**.
-1. Het deelvenster Eigenschappen voor aangepaste voorwaarde wordt aan de rechterkant geopend. Selecteer in het veld Kenmerk het kenmerk in de database dat u wilt gebruiken om de voorwaarde te maken.
+1. Klik op de knop **+** op de gewenste knoop en selecteer **[!UICONTROL Custom condition]**. Het deelvenster Eigenschappen voor aangepaste voorwaarde wordt aan de rechterkant geopend.
 
-   De beschikbare kenmerken vertegenwoordigen alle velden uit uw Campagne-database, inclusief velden uit tabellen die zijn gekoppeld aan de tabel Ontvangers.
+1. In de **Kenmerk** Selecteer in de database het kenmerk dat u wilt gebruiken om de voorwaarde te maken. De lijst met kenmerken bevat alle kenmerken van uw Campagne-database, inclusief kenmerken die aan uw tabel zijn gekoppeld.
 
    ![](assets/query-custom-condition-fields.png)
 
@@ -55,13 +56,9 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
    >
    >Met de knop Uitdrukking bewerken kunt u de editor voor de Campagne-webexpressie gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties.
 
-1. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen.
+1. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het geselecteerde kenmerk.
 
    +++Lijst met beschikbare operatoren
-
-   >[!NOTE]
-   >
-   >Beschikbare operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het geselecteerde kenmerk.
 
    | Operator | Doel | Voorbeeld |
    |  ---  |  ---  |  ---  |
@@ -84,20 +81,11 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
 +++
 
-1. Selecteer in het veld Waarde de verwachte waarde.
+1. In de **Waarde** -veld, definieert u de verwachte waarde. U kunt de uitdrukkingsredacteur van het Web van de gebruiksCampagne ook manueel om een uitdrukking te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. Om dit te doen, klik **Expressie bewerken** knop.
 
-   U kunt de uitdrukkingsredacteur van het Web van de gebruiksCampagne ook manueel om een uitdrukking te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. Klik hiertoe op de knop Expressie bewerken.
-
-   *Voorbeeld: query die alle profielen van 21 jaar of ouder retourneert*
+   *Voorbeeld van query met alle profielen van 21 jaar of ouder:*
 
    ![](assets/query-custom-condition.png)
-
-<!--
-querying linked tables
-collect additional information on the targeted population, e.g. contract numbers, subscriptions to newsletters or origin.
-Select the type of data you want to add. This can be data belonging to the filtering dimension or data stored in linked tables. Select the table which contains the information you want to collect and click Next.
-
-aggregates: Define a calculation mode for the field to be added, such as an aggregate for example.-->
 
 ### Een publiek selecteren
 
@@ -108,11 +96,11 @@ aggregates: Define a calculation mode for the field to be added, such as an aggr
 
 Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
-1. Klik op de +-knop op het gewenste knooppunt en selecteer **[!UICONTROL Select audience]**.
+1. Klik op de knop **+** op het gewenste knooppunt en kies **[!UICONTROL Select audience]**.
 
-1. Het deelvenster Eigenschappen voor geselecteerd publiek wordt aan de rechterkant geopend. Selecteer het publiek dat u wilt gebruiken om uw query te filteren.
+1. De **Doelgroep selecteren** eigenschappenvenster wordt aan de rechterkant geopend. Kies het publiek dat u wilt gebruiken om uw query te filteren.
 
-   *Voorbeeld: query die alle profielen retourneert die behoren tot het &quot;Festival Goers&quot;-publiek*
+   *Voorbeeld met zoekopdrachten waarin alle profielen worden geretourneerd die tot het publiek van het &quot;Festival Goers&quot; behoren:*
 
    ![](assets/query-audience.png)
 
@@ -125,36 +113,36 @@ Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
 Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd filter:
 
-1. Klik op de +-knop op het gewenste knooppunt en selecteer **[!UICONTROL Predefined filter]**.
+1. Klik op de knop **+** op de gewenste knoop en selecteer **[!UICONTROL Predefined filter]**.
 
-1. Het deelvenster Eigenschappen voor geselecteerd publiek wordt aan de rechterkant geopend. Selecteer een vooraf gedefinieerd filter in de lijst met aangepaste filters of uit favorieten.
+1. De **Vooraf gedefinieerd filter** eigenschappenvenster wordt aan de rechterkant geopend. Selecteer een vooraf gedefinieerd filter in de lijst met aangepaste filters of uit favorieten.
 
-   *Voorbeeld: query die alle profielen retourneert die overeenkomen met het vooraf gedefinieerde filter &quot;Inactieve klanten&quot;.*
+   *Voorbeeld van query met alle profielen die overeenkomen met het vooraf gedefinieerde filter &quot;Inactieve klanten&quot;:*
 
    ![](assets/query-predefined-filter.png)
 
-## Filtercomponenten combineren met operatoren
+## Filtercomponenten combineren met operatoren {#operators}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Groep"
 >abstract="Groep"
 
-Wanneer het toevoegen van een het filtreren component aan uw vraag, wordt een nieuwe overgang automatisch gecreeerd op het vraagcanvas, en de nieuwe het filtreren component wordt verbonden met eerste door EN exploitant. Dit betekent dat de resultaten van zowel de het filtreren componenten in de vraagresultaten worden gecombineerd.
+Telkens als u een nieuwe het filtreren component aan uw vraag toevoegt, is het automatisch verbonden met de andere component door een exploitant AND. Dit betekent dat de resultaten van zowel de het filtreren componenten in de vraagresultaten worden gecombineerd.
 
-In dit voorbeeld wordt een nieuwe filtercomponent van het publiekstype toegevoegd aan het canvas. Deze wordt automatisch toegevoegd aan een nieuwe overgang en gekoppeld aan de vooraf gedefinieerde filtertypevoorwaarde met de operator AND. In dit geval, omvat de vraagresultaten ontvangers die door de &quot;Madridians&quot;vooraf bepaalde filter EN worden gericht die tot het publiek van de &quot;Bezoekers van de Korting&quot;behoren.
+In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten op de tweede overgang toegevoegd. De component is verbonden met de vooraf bepaalde voorwaarde van het filtertype met een exploitant AND, betekenend dat de vraagresultaten ontvangers omvatten die door de &quot;Madridians&quot;vooraf bepaalde filter EN die tot het &quot;aantal van de Korting jagers&quot;publiek worden gericht.
 
 ![](assets/query-operator.png)
 
-Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen, klikt u erop en selecteert u de gewenste operator in het vak U kunt de operator wijzigen door erop te klikken en de gewenste operator te selecteren in het deelvenster Groep dat aan de rechterkant wordt geopend.
-
-![](assets/query-operator-change.png)
+Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen, klikt u erop en selecteert u de gewenste operator in het deelvenster Groep dat aan de rechterkant wordt geopend.
 
 Beschikbare operatoren zijn:
 
-* AND (Intersection): combineert resultaten van alle het filtreren componenten in de uitgaande overgangen.
-* OR (Union): omvat resultaten van minstens één van de filtercomponenten in de uitgaande overgangen.
-* EXCEPT (Uitsluiting): sluit resultaten uit van alle filtercomponenten in de uitgaande overgang.
+* **EN (Doorsnede)**: Combineert resultaten van alle filtercomponenten in de uitgaande overgangen.
+* **OF (Verenigen)**: Bevat resultaten van minstens één van de filtercomponenten in de uitgaande overgangen.
+* **BEHALVE (Uitsluiting)**: Hiermee sluit u de resultaten uit van alle filtercomponenten in de uitgaande overgang.
+
+![](assets/query-operator-change.png)
 
 ## Uw query controleren en valideren
 
@@ -163,12 +151,12 @@ Beschikbare operatoren zijn:
 >title="Eigenschappen van Rule"
 >abstract="Eigenschappen van Rule"
 
-Zodra u uw vraag in het canvas hebt gebouwd, kunt u het controleren gebruikend de de eigenschappen van de Regel ruit die op de rechterkant wordt gevestigd. De beschikbare bewerkingen zijn als volgt:
+Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met de opdracht **Eigenschappen van Rule** aan de rechterkant. Beschikbare bewerkingen zijn:
 
-* **Resultaten weergeven:** geeft de gegevens weer die het resultaat zijn van de query.
-* **Codeweergave**: geeft een op code gebaseerde versie van de query weer in SQL.
-* **Berekenen**: werkt en toont het aantal verslagen bij die door uw vraag worden bedoeld.
-* **Filter selecteren of opslaan**: kies een bestaand vooraf gedefinieerd filter dat u op het canvas wilt gebruiken, of sla uw query op als een vooraf gedefinieerd filter voor toekomstig hergebruik. [Leer hoe u met vooraf gedefinieerde filters werkt](../get-started/predefined-filters.md)
+* **Resultaten weergeven:** Hiermee geeft u de gegevens weer die het resultaat zijn van de query.
+* **Codeweergave**: Geeft een op code gebaseerde versie van de query in SQL weer.
+* **Berekenen**: Updates en geeft het aantal records weer dat wordt bedoeld door uw query.
+* **Filter selecteren of opslaan**: Kies een bestaand vooraf gedefinieerd filter dat u op het canvas wilt gebruiken of sla uw query op als een vooraf gedefinieerd filter voor toekomstig hergebruik. [Leer hoe u met vooraf gedefinieerde filters werkt](../get-started/predefined-filters.md)
 
   >[!IMPORTANT]
   >
