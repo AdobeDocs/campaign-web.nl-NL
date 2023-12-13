@@ -2,19 +2,14 @@
 audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: 8bf82784c9a55f9eb91bf8eba8c959b229efeef9
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
 # Werken met de querymodelfunctie {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Doelpubliek"
->abstract="Het is nooit eenvoudiger om een leveringsdoel te maken! Met onze recentste vraagmodeler, hebt u nu de capaciteit om het filtreren criteria voor ontvangers of een andere het richten dimensie van het gegevensbestand te bepalen. Profiteer van uw Adobe Experience Platform-publiek om uw doelgroep verder te verfijnen en de impact van uw campagne te maximaliseren."
 
 ## Overzicht van het querymodel {#overview}
 
