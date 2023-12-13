@@ -1,54 +1,94 @@
 ---
 audience: end-user
-title: Een Adobe Experience Platform-publiek gebruiken
-description: Leer hoe u een publiek van Adobe Experience Platform kunt gebruiken
+title: Een publiek maken met de bouwer van de campagneregel
+description: Leer hoe te met de regelbouwer te werken
+exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: cbf1021c722aeff5f7ce384a29467576d5f83ab2
+source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 2%
+source-wordcount: '610'
+ht-degree: 0%
 
 ---
 
-# Een Adobe Experience Platform-publiek gebruiken{#aep-audience}
+# Werken met de regelbouwer {#segment-builder}
 
-Met de Adobe Campaign Managed Cloud Service Destination and Source-connectors kunt u Adobe Campaign en Adobe Experience Platform naadloos integreren.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card5"
+>title="Doelpubliek"
+>abstract="Het is nooit eenvoudiger om een leveringsdoel te maken! Met onze recentste regelbouwer, hebt u nu de capaciteit om het filtreren criteria voor ontvangers of een andere het richten dimensie van het gegevensbestand te bepalen. Profiteer van uw Adobe Experience Platform-publiek om uw doelgroep verder te verfijnen en de impact van uw campagne te maximaliseren."
 
-Zodra u een publiek van Adobe Experience Platform hebt gecreeerd en het in de cliëntconsole beschikbaar is, kunt u het op de zelfde manier gebruiken zoals u voor een publiek van de Campagne zou personaliseren en berichten verzenden.
+De regelbouwer staat u toe om de bevolking te bepalen die door uw levering wordt gericht door gegevens te filtreren in het gegevensbestand. U kunt het gebruiken om een publiek of van een werkschema te bouwen gebruikend **[!UICONTROL Build audience]** of rechtstreeks wanneer u een levering maakt om een eenmalig publiek te maken.
 
->[!NOTE]
->
->Om het publiek van Adobe Experience Platform in Campaign te gebruiken, moet u de integratie met de Bronnen en Doelen van de Adobe vormen. Zie [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+* [Leer hoe u een publiek kunt maken](create-audience.md)
+* [Leer hoe u een eenmalig publiek voor een levering kunt maken](one-time-audience.md)
 
-Als u het publiek van een levering wilt selecteren, kunt u ook:
+## Het palet
 
-* Maak een nieuw publiek. [Meer informatie](segment-builder.md)
-* Laad een publiek vanuit een extern bestand. [Meer informatie](file-audience.md)
-* Gebruik een bestaand publiek van de Campagne. [Meer informatie](add-audience.md).
+Het palet aan de linkerkant bevat alle elementen waarop u kunt filteren om een publiek te maken. U kunt de zoekbalk gebruiken om snel naar elementen te zoeken. De tegels in het palet moeten naar het middelste canvas worden verplaatst om geconfigureerd en meegenomen te kunnen worden.
 
-Volg onderstaande stappen om een Adobe Experience Platform-publiek voor uw levering te selecteren:
+![](assets/segment-builder2.png){width="70%" align="left"}
 
-1. Van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking, klik **[!UICONTROL Select audience]** knop.
+Het palet bestaat uit twee tabbladen:
 
-   ![](assets/create-audience.png)
+* **Attributen**: op dit tabblad hebt u toegang tot alle beschikbare velden via het schema. De lijst met velden is afhankelijk van het doelschema dat in de e-mailsjabloon is gedefinieerd.
 
-1. Kies **[!UICONTROL Select audience]** om een bestaand publiek te gebruiken. Als u een nieuw publiek wilt maken dat in deze e-mail wordt gebruikt, kiest u **Maak uw eigen**. Zie dit [sectie](segment-builder.md).
+* **Soorten publiek**: op dit tabblad kunt u filteren met een van de bestaande soorten publiek die zijn gedefinieerd in de Campaign Classic-console of vanuit Adobe Experience Platform. [Leer hoe u het publiek kunt bewaken en beheren](manage-audience.md)
 
-   In dit scherm worden alle bestaande soorten publiek weergegeven die zijn gedefinieerd in de Adobe Campaign-clientconsole, voor de huidige map. Blader naar de `AEP Audiences folder` in het filtergedeelte van het scherm.
+  >[!NOTE]
+  >
+  >Om het publiek van Adobe Experience Platform te hefboomwerking, moet u de integratie met Doelen vormen. Zie de [Adobe Experience Platform-bestemmingsdocumentatie](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
 
-   ![](assets/select-audience-folder.png)
+## Het canvas
 
-   U kunt ook een regel definiëren om op de oorsprong van het publiek te filteren, zoals hieronder:
+Het canvas is de centrale zone waarin u regels kunt configureren en combineren op basis van de elementen die vanuit het palet worden toegevoegd. Als u een nieuwe regel wilt toevoegen, sleept u een tegel uit het palet en zet u deze neer op het canvas. Vervolgens kunt u contextspecifieke opties weergeven, afhankelijk van het type gegevens dat wordt toegevoegd.
 
-   ![](assets/filter-on-aep-audience.png)
+![](assets/segment-builder4.png){width="70%" align="left"}
 
-1. Kies een publiek en klik op **Selecteren**.
+## Het deelvenster Eigenschappen van regel
 
-1. Klikken **Regels bewerken** als u uw publiek wilt verfijnen.
+Aan de rechterkant **Eigenschappen van Rule** kunt u de hieronder vermelde handelingen uitvoeren.
 
-   ![](assets/refine-audience.png)
+![](assets/segment-builder5.png){width="70%" align="left"}
 
-1. Gebruikend de regelbouwer, kunt u uw publiek met extra filters verrijken of door verschillende soorten publiek te combineren. Zie dit [sectie](segment-builder.md).
+* **Resultaten weergeven:** geeft de lijst weer van ontvangers die het doelpubliek als doel heeft.
+* **Codeweergave**: geeft een op code gebaseerde versie van het publiek in SQL weer.
+* **Geavanceerde kenmerken weergeven**: controleer deze optie als u de volledige lijst met kenmerken in het linkerpalet wilt weergeven: knooppunten, groepen, 1-1 koppelingen, 1-N koppelingen.
+* **Berekenen**: werkt bij en toont het aantal profielen die door uw vraag worden bedoeld.
+* **Filter selecteren of opslaan**: gebruik een vooraf gedefinieerd filter om de query te filteren of sla de query op als een nieuw filter voor toekomstig hergebruik. [Leer hoe u met vooraf gedefinieerde filters werkt](../get-started/predefined-filters.md)
 
-1. Klikken **Opslaan**.
+  >[!IMPORTANT]
+  >
+  >In die versie van het product zijn sommige vooraf gedefinieerde filters niet beschikbaar in de gebruikersinterface. U kunt ze nog steeds gebruiken. [Meer informatie](../get-started/guardrails.md#predefined-filters-filters-guardrails-limitations)
+
+* **Attributen**: geeft een beschrijving van het gemaakte publiek weer.
+
+## Voorbeeld
+
+In dit voorbeeld bouwen we een publiek dat gericht is op alle klanten die in Atlanta of Seattle wonen en na 1980 geboren zijn.
+
+1. In de **Attributen** tabblad van het palet, zoekt u naar de **Geboortedatum** veld. Sleep de tegel naar het canvas.
+
+   ![](assets/segment-builder6.png)
+
+1. Kies op het canvas de optie **Na** en voert u de gewenste datum in.
+
+   ![](assets/segment-builder7.png)
+
+1. Zoek in het palet naar de **Plaats** en voeg het toe aan het canvas onder de eerste regel.
+
+   ![](assets/segment-builder8.png)
+
+1. Voer in het tekstveld de naam van de eerste plaats in en druk op Enter.
+
+   ![](assets/segment-builder9.png)
+
+1. Herhaal deze handeling voor de tweede plaatsnaam.
+
+   ![](assets/segment-builder10.png)
+
+1. Klikken **Resultaten weergeven** om de lijst en het aantal ontvangers te tonen die de vraag aanpassen. U kunt ook kolommen toevoegen om de gegevens te visualiseren en te controleren. Voeg in ons voorbeeld de opdracht **Plaats** kolom en zie Atlanta en Seattle.
+
+   ![](assets/segment-builder11.png)
+
+1. Klikken **Bevestigen**.
