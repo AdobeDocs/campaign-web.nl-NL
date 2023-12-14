@@ -4,9 +4,9 @@ title: Een levering met pushberichten ontwerpen
 description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Android-inhoud induwen"
->abstract="Definieer de inhoud van uw pushmelding voor Android-apparaten. Klik op de knop **Titel** en **Bericht** velden. Gebruik de uitdrukkingsredacteur om gegevens aan te passen en dynamische inhoud toe te voegen. Als u uw pushmelding verder wilt aanpassen, kunt u een afbeelding kiezen die u aan uw pushmelding wilt toevoegen, het pictogram van het bericht dat u op de apparaten van uw profielen wilt weergeven en de kleur van het bericht. Blader voor meer aangepaste configuratie naar de **Geavanceerde instellingen** sectie."
+>abstract="Definieer de inhoud van uw pushmelding voor Android-apparaten. Klik op de knop **Inhoud bewerken** knop."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="IOS-inhoud doordrukken"
->abstract="Definieer de inhoud van uw pushmelding voor iOS-apparaten. Klik op de knop **Titel** en **Bericht** velden. Gebruik de redacteur van de Uitdrukking om gegevens aan te passen, en dynamische inhoud toe te voegen. Blader voor meer aangepaste configuratie naar de **Geavanceerde instellingen** sectie."
+>abstract="Definieer de inhoud van uw pushmelding voor iOS-apparaten. Klik op de knop **Inhoud bewerken** knop."
 
 ## De inhoud van het bericht definiëren {#push-message}
 
