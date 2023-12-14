@@ -2,9 +2,9 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
-source-git-commit: cc909bdf7507e66e000297440e31f9b5260f1257
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
    >
    >Met de knop Uitdrukking bewerken kunt u de editor voor de Campagne-webexpressie gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties.
 
-1. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het geselecteerde kenmerk.
+1. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het kenmerk.
 
    +++Lijst met beschikbare operatoren
 
@@ -86,6 +86,32 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
    *Voorbeeld van query met alle profielen van 21 jaar of ouder:*
 
    ![](assets/query-custom-condition.png)
+
+**Aangepaste voorwaarden voor verafgelegen tabellen (1-1 en 1-N koppelingen)**
+
+Aan de hand van aangepaste voorwaarden kunt u zoeken in verafgelegen tabellen die zijn gekoppeld aan de tabel Ontvangers.
+
+Voor een **1-1 link** met een andere gegevensbestandbron, selecteer de waarde direct van de gerichte lijst.
+
++++voorbeeld van Query
+
+Hier is de zoekopdracht gericht op ontvangers waarvan het land of de regio in bepaalde waarden is opgenomen (vk en ons)
+
+![](assets/custom-condition-1-1.png)
+
++++
+
+Voor een **1-N link** met een andere gegevensbestandmiddel, kunt u subconditions op de gebieden van dit tweede middel bepalen.
+
+U kunt bijvoorbeeld de operator Exists selecteren bij de profielaankopen om alle profielen waarvoor aankopen bestaan, als doel in te stellen. Voeg vervolgens een aangepaste voorwaarde toe aan de uitgaande overgang en maak een filter dat aan uw behoeften voldoet.
+
++++voorbeeld van Query
+
+Hier richt de query zich op ontvangers die aankopen hebben gedaan met betrekking tot het BrewMaster-product, voor een totale hoeveelheid van ten minste 100$.
+
+![](assets/custom-condition-1-N.png)
+
++++
 
 ### Een publiek selecteren
 
@@ -138,9 +164,9 @@ Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elka
 
 Beschikbare operatoren zijn:
 
-* **EN (Doorsnede)**: Combineert resultaten van alle filtercomponenten in de uitgaande overgangen.
-* **OF (Verenigen)**: Bevat resultaten van minstens één van de filtercomponenten in de uitgaande overgangen.
-* **BEHALVE (Uitsluiting)**: Hiermee sluit u de resultaten uit van alle filtercomponenten in de uitgaande overgang.
+* **EN (Doorsnede)**: Combineert resultaten die overeenkomen met alle filtercomponenten in de uitgaande overgangen.
+* **OF (Verenigen)**: Deze groep bevat resultaten die overeenkomen met ten minste een van de filtercomponenten in de uitgaande overgangen.
+* **BEHALVE (Uitsluiting)**: Hiermee sluit u resultaten uit die overeenkomen met alle filtercomponenten in de uitgaande overgang.
 
 ![](assets/query-operator-change.png)
 

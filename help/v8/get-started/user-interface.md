@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 4bdf23ab5905602608f3982692c88d3a399ca76a
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '1549'
+source-wordcount: '1513'
 ht-degree: 0%
 
 ---
@@ -576,11 +576,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_orchestration_loadfile_formatting"
 >title="Opmaak voor het laden van bestandsactiviteit"
 >abstract="Opmaak voor het laden van bestandsactiviteit"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_querymessage"
->title="Query-modelleraar"
->abstract="Bepaal het filtreren criteria voor ontvangers of om het even welke andere gericht afmeting van het gegevensbestand. Profiteer van uw Adobe Experience Platform-publiek om uw doelgroep verder te verfijnen en de impact van uw campagne te maximaliseren."

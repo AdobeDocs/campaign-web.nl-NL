@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: acc8956c21c700b615bcd1b2a055a91b1d227f7b
+source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '466'
 ht-degree: 8%
 
 ---
@@ -129,6 +129,7 @@ ht-degree: 8%
 + De database opvragen {#query-database}
    + [Werken met de querymodelfunctie](query/query-modeler-overview.md)
    + [Uw eerste query samenstellen](query/build-query.md)
+   + [Expressies bewerken](query/expression-editor.md)
    + [Voorbeelden van query’s](query/query-samples.md)
 + Rapportage {#reports}
    + [Aan de slag met rapporten](reporting/gs-reports.md)
