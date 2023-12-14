@@ -4,10 +4,10 @@ title: Een SMS-levering ontwerpen
 description: Meer weten over het ontwerpen van je SMS-aanbieding?
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 2%
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 2%
 >title="SMS-inhoud"
 >abstract="Maak de inhoud van uw SMS-berichten en verbeter deze aan de hand van verpersoonlijkingsvelden, inhoudsblokken en dynamische inhoud. Klik op de knop **Inhoud bewerken** knop."
 
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_sms_msg"
+>title="SMS-berichtinhoud"
+>abstract="Bepaal de inhoud van uw SMS. Klik op de knop **Bericht** en voer de berichtinhoud in. Gebruik de uitdrukkingsredacteur om gepersonaliseerde gegevens en dynamische inhoud toe te voegen. U kunt ook de naam van de afzender aanpassen. Standaard is het bijhouden van gegevens ingeschakeld voor alle SMS-leveringen, zodat u kunt meten wanneer ontvangers op koppelingen klikken."
 
 
 Ga als volgt te werk om de inhoud van een SMS-levering te ontwerpen:

@@ -4,9 +4,9 @@ title: Een pushmelding maken
 description: Leer hoe u een pushmelding maakt met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 057a6b360093bc314aed6d6b0d84bfba7af3f464
+source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '624'
 ht-degree: 1%
 
 ---
@@ -45,7 +45,7 @@ Configureer uw leveringsinstellingen zoals hieronder beschreven:
 
 1. Voer een **[!UICONTROL Label]** voor de levering. Standaard wordt het label ingesteld met het label van de geselecteerde sjabloon. Het moet worden bijgewerkt.
 
-1. Bladeren in het dialoogvenster **[!UICONTROL Additional options]** , indien nodig, om de opties aan te passen.
+1. Bladeren in het dialoogvenster **[!UICONTROL Additional options]** , indien nodig, om de opties aan te passen. Als uw levering op een uitgebreid schema wordt gebaseerd, specifiek **Aangepaste opties** zijn beschikbaar.
 
    +++Configureer de volgende instellingen op basis van uw vereisten.
    * **[!UICONTROL Internal name]**: Wijs een unieke id toe aan de levering.
