@@ -4,9 +4,9 @@ title: Een levering met pushberichten ontwerpen
 description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: dc42d01fa33de79ebee92910d6d236449d749fd5
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
 >title="Android-inhoud induwen"
->abstract="Definieer de inhoud van de push-Android."
+>abstract="Definieer de inhoud van uw pushmelding voor Android-apparaten. Klik op de knop **Titel** en **Bericht** velden. Gebruik de uitdrukkingsredacteur om gegevens aan te passen en dynamische inhoud toe te voegen. Als u uw pushmelding verder wilt aanpassen, kunt u een afbeelding kiezen die u aan uw pushmelding wilt toevoegen, het pictogram van het bericht dat u op de apparaten van uw profielen wilt weergeven en de kleur van het bericht. Blader voor meer aangepaste configuratie naar de **Geavanceerde instellingen** sectie."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_content"
 >title="IOS-inhoud doordrukken"
->abstract="Definieer de push-iOS-inhoud."
+>abstract="Definieer de inhoud van uw pushmelding voor iOS-apparaten. Klik op de knop **Titel** en **Bericht** velden. Gebruik de redacteur van de Uitdrukking om gegevens aan te passen, en dynamische inhoud toe te voegen. Blader voor meer aangepaste configuratie naar de **Geavanceerde instellingen** sectie."
 
 ## De inhoud van het bericht definiëren {#push-message}
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 >title="Stil bericht voor iOS"
 >abstract="In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar een mobiele toepassing. De gebruiker wordt niet op de hoogte gebracht van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen."
 
-
+Nadat u de pushservice hebt gemaakt, kunt u de inhoud ervan definiëren. Parameters en instellingen zijn afhankelijk van het mobiele besturingssysteem: Android of iOS. Blader op de onderstaande tabbladen om te leren hoe u uw bericht voor elk besturingssysteem kunt samenstellen.
 
 >[!BEGINTABS]
 
@@ -113,6 +113,7 @@ In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar
 >title="Categorie-id"
 >abstract="Geef de naam op van de categorie-id die aan het bericht is gekoppeld. Hierdoor kunnen actieknoppen worden weergegeven, zodat de gebruiker verschillende taken rechtstreeks vanuit het bericht kan uitvoeren zonder de toepassing te openen."
 
+Geavanceerde opties zijn afhankelijk van het mobiele besturingssysteem: Android of iOS. Blader op de onderstaande tabbladen voor meer informatie over het definiëren van opties voor uw bericht voor elk besturingssysteem.
 
 >[!BEGINTABS]
 

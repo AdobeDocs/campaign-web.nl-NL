@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1036'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Afleveringssjablonen"
->abstract="Gebruik leveringssjablonen om de creatieve vormgeving te standaardiseren, zodat campagnes sneller kunnen worden uitgevoerd en gestart"
+>abstract="Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om aangepaste inhoud en instellingen in al uw campagnes eenvoudig te hergebruiken. Met deze functie kunt u de creatieve vormgeving standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren."
 
 Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om aangepaste inhoud en instellingen in al uw campagnes eenvoudig te hergebruiken. Met deze functie kunt u de creatieve vormgeving standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren.
 
@@ -79,6 +79,7 @@ Om te schrappen of [dupliceren](#copy-an-existing-template) een sjabloon, select
 ## Een leveringssjabloon maken {#create-a-delivery-template}
 
 Als u een leveringssjabloon wilt maken, kunt u:
+
 * Een bestaande sjabloon dupliceren - [Meer informatie](#copy-an-existing-template)
 * Een bestaande levering converteren naar een sjabloon - [Meer informatie](#convert-an-existing-delivery)
 * Een volledig nieuwe leveringssjabloon maken - [Meer informatie](#create-a-new-template)
