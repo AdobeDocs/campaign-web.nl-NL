@@ -4,8 +4,8 @@ title: Voorbeelden van query’s
 description: Leer hoe te met de regelbouwer te werken
 source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

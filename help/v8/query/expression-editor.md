@@ -4,8 +4,8 @@ title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 source-git-commit: e620df0ff9af0d32fc353a904e3dde37501495d0
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
