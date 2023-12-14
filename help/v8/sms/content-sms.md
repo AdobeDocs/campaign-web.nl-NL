@@ -4,9 +4,9 @@ title: Een SMS-levering ontwerpen
 description: Meer weten over het ontwerpen van je SMS-aanbieding?
 badge: label="Beta"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 969401ab1258eb60697d16b3dc0470620abd346d
+source-git-commit: 77742622a185a5105757a6823ed2c3169acd30b7
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '166'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS-inhoud"
->abstract="Maak de inhoud van uw SMS-berichten en verbeter deze aan de hand van verpersoonlijkingsvelden, inhoudsblokken en dynamische inhoud."
+>abstract="Maak de inhoud van uw SMS-berichten en verbeter deze aan de hand van verpersoonlijkingsvelden, inhoudsblokken en dynamische inhoud. Klik op de knop **Inhoud bewerken** knop."
 
 
 
