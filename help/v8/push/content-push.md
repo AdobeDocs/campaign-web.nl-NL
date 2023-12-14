@@ -4,9 +4,9 @@ title: Een levering met pushberichten ontwerpen
 description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: 70307edb288e9ce14aeb00870a2438aa92b74e1e
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,15 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_msg"
 >title="IOS-bericht induwen"
->abstract="Definieer de titel en inhoud van je push-iOS-bericht. In het dialoogvenster Verpersoonlijkingen kunt u inhoud aanpassen en voorwaarden toevoegen."
+>abstract="Definieer de inhoud van uw pushmelding voor iOS-apparaten. Klik op de knop **Titel** en **Bericht** velden. Gebruik de redacteur van de Uitdrukking om gegevens aan te passen, en dynamische inhoud toe te voegen. Blader voor meer aangepaste configuratie naar de **Geavanceerde instellingen** sectie."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_android_msg"
+>title="IOS-bericht induwen"
+>abstract="Definieer de inhoud van uw pushmelding voor Android-apparaten. Klik op de knop **Titel** en **Bericht** velden. Gebruik de uitdrukkingsredacteur om gegevens aan te passen en dynamische inhoud toe te voegen. Als u uw pushmelding verder wilt aanpassen, kunt u een afbeelding kiezen die u aan uw pushmelding wilt toevoegen, het pictogram van het bericht dat u op de apparaten van uw profielen wilt weergeven en de kleur van het bericht. Blader voor meer aangepaste configuratie naar de **Geavanceerde instellingen** sectie."
+
+
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
@@ -87,7 +95,7 @@ In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
->title="Badge-nummer"
+>title="Aantal meldingen"
 >abstract="Gebruik deze optie om het aantal nieuwe ongelezen gegevens in te stellen dat rechtstreeks op het app-pictogram moet worden weergegeven. Hierdoor kan de gebruiker snel zien hoeveel meldingen in behandeling zijn."
 
 
@@ -139,7 +147,7 @@ Geavanceerde opties zijn afhankelijk van het mobiele besturingssysteem: Android 
 
 | Parameter | Beschrijving |
 |---------|---------|
-| **[!UICONTROL Critical alert mode]** | Schakel deze optie in om geluid aan uw melding toe te voegen, zelfs wanneer de telefoon van de gebruiker is ingesteld op de focusmodus of wanneer het apparaat wordt gedempt. Dit zorgt ervoor dat belangrijke alarm door de gebruiker wordt opgemerkt. |
+| **[!UICONTROL Critical alert mode]** | Schakel deze optie in om geluid aan uw melding toe te voegen, zelfs wanneer de telefoon van de gebruiker is ingesteld op de focusmodus of wanneer het apparaat wordt gedempt. Dit zorgt ervoor dat belangrijke alarm door de gebruiker wordt opgemerkt. Als deze optie is geselecteerd, kunt u het volume van het bericht aanpassen met de balk Volume. Een getal tussen 0 en 100 boven de balk geeft uw instellingen weer. |
 | **[!UICONTROL Clean Badge]** | Schakel deze optie in om de waarde van de badge die op het toepassingspictogram wordt weergegeven, te vernieuwen. Het zorgt ervoor dat de badge het aantal nieuwe ongelezen informatie nauwkeurig weerspiegelt. |
 | **[!UICONTROL Notification count]** | Stel een nummer in dat rechtstreeks op het toepassingspictogram wordt weergegeven en dat het aantal nieuwe ongelezen gegevens aangeeft. Dit biedt een snelle visuele referentie voor de gebruiker. |
 | **[!UICONTROL Volume]** | Volume van het geluid van 0 tot 100. |
