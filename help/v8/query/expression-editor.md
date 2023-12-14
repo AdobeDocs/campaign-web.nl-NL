@@ -2,10 +2,10 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: e620df0ff9af0d32fc353a904e3dde37501495d0
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 86%
+source-wordcount: '920'
+ht-degree: 81%
 
 ---
 
@@ -20,7 +20,7 @@ Deze verrichtingen zijn beschikbaar bij de de uitdrukkingsknoop van de vraagmode
 De uitdrukkingsredacteur verstrekt:
 
 * Een invoerveld waarin de expressie wordt gedefinieerd.
-* De lijst met beschikbare velden die in de expressie kunnen worden gebruikt en overeenkomen met de doeldimensie van de query (zie [Doeldimensies en resources](../../automating/using/query.md#targeting-dimensions-and-resources)).
+* De lijst van beschikbare gebieden die in de uitdrukking kunnen worden gebruikt en aan de het richten dimensie van de vraag beantwoorden.
 * De lijst met beschikbare functies, gesorteerd op categorie.
 
 Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren of door de lijsten met beschikbare velden en functies te gebruiken. Plaats de cursor in de expressie waar u het element wilt toevoegen en dubbelklik op het gewenste veld of de gewenste expressie.
@@ -36,7 +36,7 @@ De standaardexpressies bestaan uit een of meer voorwaarden die voldoen aan de vo
 * Elke voorwaarde heeft de volgende vorm: **&lt;value1> &lt;comparison operator> &lt;value2>** waarbij:
 
    * **&lt;value1>** een veld of een functie is. Bijvoorbeeld **@created** voor de datum waarop een profiel is gemaakt of **Year(@created)** voor het jaar waarin een profiel is gemaakt.
-   * **&lt;comparison operator>** een van de operatoren is die worden vermeld in de sectie [Vergelijkingsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators). Deze operator definieert de vergelijkingsmethode tussen **&lt;value1>** en **&lt;value2>**.
+   * **&lt;comparison operator=&quot;&quot;>** is een van de operatoren die worden vermeld in het gedeelte Vergelijkingsoperatoren. Deze operator definieert de vergelijkingsmethode tussen **&lt;value1>** en **&lt;value2>**.
    * **&lt;value2>** een veld, een functie of een waarde is die handmatig wordt ingevoerd.
 
   >[!NOTE]
@@ -65,7 +65,7 @@ JavaScript-expressies bestaan uit een of meer voorwaarden en gebruiken de volgen
 * Elke voorwaarde heeft de volgende vorm: **&lt;context> &lt;comparison operator> &lt;value2>** waarbij:
 
    * **&lt;context>** een veld of functie is waarmee u de context kunt opgeven. Bijvoorbeeld **context.profile.@email** voor het e-mailadres van een profiel of **context.profile.firstName.length()** voor het aantal tekens in de voornaam van een profiel.
-   * **&lt;comparison operator>** een van de operatoren is die worden vermeld in de sectie [Vergelijkingsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators). Deze operator definieert de vergelijkingsmethode tussen **&lt;context>** en **&lt;value2>**.
+   * **&lt;comparison operator=&quot;&quot;>** is een van de operatoren die worden vermeld in het gedeelte Vergelijkingsoperatoren. Deze operator definieert de vergelijkingsmethode tussen **&lt;context>** en **&lt;value2>**.
    * **&lt;value2>** een veld, een functie of een waarde is die handmatig wordt ingevoerd.
 
   >[!NOTE]
