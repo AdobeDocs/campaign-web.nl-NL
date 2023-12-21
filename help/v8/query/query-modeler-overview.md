@@ -2,9 +2,9 @@
 audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: c89760f342c270a9bb775db1c0b5ba2e92fd64f7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -24,15 +24,58 @@ Het Web van Adobe Campaign kenmerkt een vraagmodeler die het proces van het filt
 De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens moet bepalen.
 
 * **Soorten publiek definiëren**: Geef de doelgroep op in uw berichten of workflows en maak moeiteloos nieuwe soorten publiek die zijn afgestemd op uw behoeften.
+
+  +++Example
+
+  ![](assets/access-audience.png)
+
++++
+
 * **Workflowactiviteiten aanpassen**: regels toepassen binnen workflowactiviteiten, zoals splitsen en afstemmen, om deze af te stemmen op uw specifieke vereisten,
-* **Inhoud dynamisch maken**: maak uw inhoud dynamisch door voorwaarden te creëren die bepalen welke inhoud aan verschillende ontvangers zou moeten worden getoond, die gepersonaliseerd en relevant overseinen verzekeren.
+
+  +++Example
+
+  ![](assets/access-workflow.png)
+
++++
+
+<!--* **Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
+
+    +++Example
+
+    ![](assets/access-audience.png)
+
+    +++
+-->
+
 * **Vooraf gedefinieerde filters**: Maak vooraf gedefinieerde filters die als sneltoetsen fungeren tijdens diverse filterbewerkingen, ongeacht of u werkt met gegevenslijsten of het publiek vormt voor een levering.
+
+  +++Example
+
+  ![](assets/access-predefined-filter.png)
+
++++
+
 * **Rapportgegevens filteren**: Voeg regel toe om de gegevens te filteren die in rapporten worden getoond.
+
+  +++Example
+
+  ![](assets/access-reports.png)
+
++++
+
+* **Lijsten aanpassen**: Maak aangepaste regels om de gegevens te filteren die worden weergegeven in lijsten zoals ontvangers, leveringslijsten, enz.
+
+  +++Example
+
+  ![](assets/access-lists.png)
+
++++
 
 ## Query-modellerinterface {#interface}
 
 De vraagmodeler verstrekt een centraal canvas waar u de verschillende componenten kunt toevoegen en combineren die uw vraag opbouwen.
 
-Aan de rechterkant bevat het deelvenster Eigenschappen regel informatie over uw query. Het staat u toe om diverse handelingen uit te voeren om uw vraag te controleren en ervoor te zorgen het uw behoeften aanpast. Leer hoe u uw query kunt controleren en valideren (koppeling TBD)
+Aan de rechterkant bevat het deelvenster Eigenschappen regel informatie over uw query. Het staat u toe om diverse handelingen uit te voeren om uw vraag te controleren en ervoor te zorgen het uw behoeften aanpast. Leer hoe u uw query kunt controleren en valideren
 
 ![](assets/query-interface.png)
