@@ -2,9 +2,9 @@
 audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
-source-git-commit: 35b5901c65bde0ca58de7849b5fad374abb28b83
+source-git-commit: 94350335df08ae9c24d88843c77554db1890ab4d
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -25,31 +25,13 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
 
 | Gebruik | Voorbeeld |
 |  ---  |  ---  |
-| **Soorten publiek definiëren**: Geef de doelgroep op in uw berichten of workflows en maak moeiteloos nieuwe soorten publiek die zijn afgestemd op uw behoeften. <!--(LINK TBD)--> | ![](assets/access-audience.png){width="50" align="center" zoomable="yes"} |
-| **Workflowactiviteiten aanpassen**: pas regels toe binnen workflowactiviteiten, zoals Splitsen en Verzoening, om deze aan te passen aan uw specifieke vereisten. | ![](assets/access-workflow.png){width="50" align="center" zoomable="yes"} |
-| **Vooraf gedefinieerde filters**: Maak vooraf gedefinieerde filters die als sneltoetsen fungeren tijdens diverse filterbewerkingen, ongeacht of u werkt met gegevenslijsten of het publiek vormt voor een levering. | ![](assets/access-predefined-filter.png){width="50" align="center" zoomable="yes"} |
-| **Rapportgegevens filteren**: Voeg regel toe om de gegevens te filteren die in rapporten worden getoond. | ![](assets/access-reports.png){width="50" align="center" zoomable="yes"} |
-| **Lijsten aanpassen**: Maak aangepaste regels om de gegevens te filteren die worden weergegeven in lijsten zoals ontvangers, leveringslijsten, enz. | ![](assets/access-lists.png){width="50" align="center" zoomable="yes"} |
+| **Soorten publiek definiëren**: Geef de doelgroep op in uw berichten of workflows en maak moeiteloos nieuwe soorten publiek die zijn afgestemd op uw behoeften. | ![](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
+| **Workflowactiviteiten aanpassen**: pas regels toe binnen workflowactiviteiten, zoals Splitsen en Verzoening, om deze aan te passen aan uw specifieke vereisten. | ![](assets/access-workflow.png){width="200" align="center" zoomable="yes"} |
+| **Vooraf gedefinieerde filters**: Maak vooraf gedefinieerde filters die als sneltoetsen fungeren tijdens diverse filterbewerkingen, ongeacht of u werkt met gegevenslijsten of het publiek vormt voor een levering. | ![](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **Rapportgegevens filteren**: Voeg regel toe om de gegevens te filteren die in rapporten worden getoond. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
+| **Lijsten aanpassen**: Maak aangepaste regels om de gegevens te filteren die worden weergegeven in lijsten zoals ontvangers, leveringslijsten, enz. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 
-## Heb toegang tot de vraagmodeller {#access}
 
-De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens moet bepalen.
-
-**Soorten publiek definiëren**: Geef de doelgroep op in uw berichten of workflows en maak moeiteloos nieuwe soorten publiek die zijn afgestemd op uw behoeften. <!--(LINK TBD)-->
-
-+++Example
-
-![](assets/access-audience.png)
-
-+++
-
-**Workflowactiviteiten aanpassen**: pas regels toe binnen workflowactiviteiten, zoals Splitsen en Verzoening, om deze aan te passen aan uw specifieke vereisten. <!--(LINK TBD)-->
-
-+++Example
-
-![](assets/access-workflow.png)
-
-+++
 
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
@@ -60,29 +42,6 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
  +++
 -->
 
-**Vooraf gedefinieerde filters**: Maak vooraf gedefinieerde filters die als sneltoetsen fungeren tijdens diverse filterbewerkingen, ongeacht of u werkt met gegevenslijsten of het publiek vormt voor een levering. <!--(LINK TBD)-->
-
-+++Example
-
-![](assets/access-predefined-filter.png)
-
-+++
-
-**Rapportgegevens filteren**: Voeg regel toe om de gegevens te filteren die in rapporten worden getoond. <!--(LINK TBD)-->
-
-+++Example
-
-![](assets/access-reports.png)
-
-+++
-
-**Lijsten aanpassen**: Maak aangepaste regels om de gegevens te filteren die worden weergegeven in lijsten zoals ontvangers, leveringslijsten, enz. <!--(LINK TBD)-->
-
-+++Example
-
-![](assets/access-lists.png)
-
-+++
 
 ## Query-modellerinterface {#interface}
 
