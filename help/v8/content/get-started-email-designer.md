@@ -3,14 +3,20 @@ audience: end-user
 title: De e-mailinhoud bewerken
 description: Leer hoe u inhoud gaat maken met de gebruikersinterface E-mailontwerper in de webinterface van Campagne
 badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 7%
+source-wordcount: '421'
+ht-degree: 6%
 
 ---
 
 # Aan de slag met Email Designer {#get-started-email-designer}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn3"
+>title="Nieuwe e-mailontwerper"
+>abstract="Met Campagne-e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve interface voor slepen en neerzetten. Of u nu op een lege site begint, bestaande inhoud importeert of bestaande sjablonen gebruikt, ontwerpt en verfijnen alle inhoud voor elke e-mail!"
 
 Nadat u in Adobe Campaign een e-mailbericht hebt gemaakt, moet u de content definiëren.
 
@@ -45,4 +51,3 @@ Ga vanaf het dashboard voor e-maillevering door de [Inhoud bewerken](edit-conten
 * **Bestaande inhoud selecteren** uit een lijst met ingebouwde of aangepaste sjablonen. Leer hoe u met e-mailsjablonen werkt [deze sectie](email-sample-templates.md).
 
   ![](assets/email_designer_create_options.png)
-

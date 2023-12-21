@@ -3,21 +3,25 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="Beta"
-source-git-commit: 6973a8c1bb4b590524d55d09cb0a88216e12eaf2
+badge: label="LA"
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '527'
 ht-degree: 2%
 
 ---
 
 # Adobe Campaign v8-webdocumentatie {#campaign-documentation}
 
-<!--![](assets/do-not-localize/banner-documentationv8.png)-->
+>[!CONTEXTUALHELP]
+>id="acw_homepage_card1"
+>title="Help en documentatie"
+>abstract="De campagne biedt nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u de gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe moderne UI vereenvoudigt het ontwerp en de levering van de marketing campagne, en brengt consistentie, samen met andere oplossingen van de Adobe."
 
 De campagne biedt nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u de gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere oplossingen voor Adoben, waaronder Adobe Experience Platform. [Meer informatie](get-started/get-started.md)
 
->Campagne v8 Web bevindt zich momenteel in bètaversie. De toegang wordt beperkt tot een kleine reeks klanten van Beta. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen. [Meer informatie](rn/whats-new.md)
+>[!AVAILABILITY]
+> Campagne v8 Web bevindt zich momenteel in de versie met beperkte beschikbaarheid (LA). De toegang is beperkt tot een kleine reeks klanten van LA. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen. [Meer informatie](rn/whats-new.md)
 
 ## Nieuwe mogelijkheden voor Campagne Web
 

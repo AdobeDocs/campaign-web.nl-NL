@@ -4,10 +4,10 @@ title: De e-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beta"
-source-git-commit: 26c1322a17e3659301982daadc7eadb45efdd2b0
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 1%
+source-wordcount: '593'
+ht-degree: 0%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 1%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/content/design-content/message-tracking.html" text="Koppelingen toevoegen en berichten bijhouden"
 
 De e-mail **[!UICONTROL Edit content]** scherm kunt u:
+
 * Definieer de basiselementen van uw bericht, zoals het adres van de afzender en de onderwerpregel
 * Extra handelingen uitvoeren, zoals bijlagen toevoegen of aanbiedingen instellen
 * Toegang krijgen tot de [E-mailDesigner](get-started-email-designer.md#start-authoring) om de juiste inhoud van uw e-mail te gaan samenstellen
@@ -69,7 +70,7 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
    >
    >U kunt het deel vóór &#39;@&#39; wijzigen, maar niet het domeinadres.
 
-1. Vouw de sectie **[!UICONTROL Reply-to fields]** uit. De naam en het adres van de afzender worden door gebrek gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
+1. Breid uit **[!UICONTROL Reply-to fields]** sectie. De naam en het adres van de afzender worden door gebrek gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
 
    ![](assets/email-edit-content-reply-to.png)
 
@@ -87,7 +88,7 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
    U kunt ze vervolgens in de e-mail invoegen met behulp van personalisatievelden. [Meer informatie over het verzenden van voorstellen](offers.md)
 
-1. Klik op de knop **[!UICONTROL Edit email body]** om de inhoud van de e-mail te structureren en te ontwerpen met de [E-mailDesigner](#start-authoring). In deze secties vindt u aanvullende informatie over het ontwerpen van e-mailinhoud:
+1. Klik op de knop **[!UICONTROL Edit email body]** om de inhoud van de e-mail te structureren en te ontwerpen met de [E-mailDesigner](get-started-email-designer.md#start-authoring). In deze secties vindt u aanvullende informatie over het ontwerpen van e-mailinhoud:
 
    * [E-mails van auteur helemaal opnieuw](create-email-content.md)
    * [Stijl uw inhoud](get-started-email-style.md)

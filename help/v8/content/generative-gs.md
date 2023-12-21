@@ -2,16 +2,22 @@
 audience: end-user
 title: Aan de slag met de Content Assistant
 description: Aan de slag met de Content Assistant
-badge: label="Alfa"
+badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: a34454c3c160f6a962fe064f35c26580bb7a4d94
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met de Content Assistant {#generative-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_rn5"
+>title="Gen AI voor e-mailinhoud"
+>abstract="Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen om bijzonder boeiende en gepersonaliseerde inhoud te genereren. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI. Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud."
+
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"

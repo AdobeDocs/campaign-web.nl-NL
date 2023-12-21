@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 badge: label="Beta"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 119b7a65cb39d3cdfb225a673ae6452d2a5359fc
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 # Werken met vooraf gedefinieerde filters {#predefined-filters}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_card3"
+>id="acw_homepage_card4"
 >title="Vooraf gedefinieerd filterbeheer"
 >abstract="Campagne Web biedt u nu een gebruikersvriendelijke interface om vooraf gedefinieerde filters moeiteloos te beheren en aan te passen aan uw specifieke behoeften. Maak één keer en sla dit op voor toekomstig gebruik."
 

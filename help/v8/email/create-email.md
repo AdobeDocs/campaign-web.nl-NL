@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Meer informatie over het verzenden van uw eerste e-mail via de webinterface voor campagnes
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beta"
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1259'
 ht-degree: 1%
 
 ---
@@ -14,10 +14,13 @@ ht-degree: 1%
 
 # Uw eerste e-mail verzenden {#first-email}
 
+
+
 >[!CONTEXTUALHELP]
->id="acw_homepage_card2"
->title="Gen AI voor e-mailinhoud"
->abstract="Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen om bijzonder boeiende en gepersonaliseerde inhoud te genereren. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI. Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud."
+>id="acw_homepage_card3"
+>title="Aan de slag met e-mails"
+>abstract="U kunt een zelfstandige e-maillevering maken of een e-mailbericht maken in de context van een campagneworkflow. Leer hoe u de levering maakt, het publiek selecteert en de e-mailinhoud ontwerpt."
+
 
 Leer hoe u uw eerste e-mailadres maakt waarvoor u een e-mail wilt schrijven. In dit geval plant u het verzenden van een e-mail naar leden van Silver en Gold-loyaliteit op een bepaalde datum.
 
