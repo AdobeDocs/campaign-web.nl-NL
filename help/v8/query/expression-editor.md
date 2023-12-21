@@ -2,10 +2,10 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
-source-git-commit: 7f491df76460e982c144c7ea324c9afa14901259
+source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 64%
+source-wordcount: '1846'
+ht-degree: 62%
 
 ---
 
@@ -127,6 +127,11 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
    <td> AddYear(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
   </tr>
   <tr> 
+   <td> <strong>ConvertNTZ</strong><br /> </td> 
+   <td> Hiermee wordt tijdstempel NTZ (tijdstempel zonder tijdzone) omgezet in TZ (tijdstempel met tijdzone) door gedefinieerde sessie TZ toe te passen<br/> </td> 
+   <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
    <td> Retourneert alleen de datum (met tijd om 00:00)*<br /> </td> 
    <td> DateOnly(&lt;datum&gt;)<br /> </td>  
@@ -205,6 +210,11 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
    <td> <strong>MonthsOld</strong><br /> </td> 
    <td> Retourneert de leeftijd in maanden van een datum<br /> </td> 
    <td> MonthsOld(&lt;datum&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>Oldest</strong><br /> </td> 
+   <td> Retourneert de oudste datum in een bereik<br /> </td> 
+   <td> Oudste (&lt;date date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
@@ -287,8 +297,8 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
    <td> TruncYear(&lt;datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Retourneert het getal dat de dag in de week van de datum vertegenwoordigt<br /> </td> 
+   <td> <strong>WeekDay</strong><br /> </td> 
+   <td> Retourneert een getal dat de dag in de week van de datum vertegenwoordigt (0=maandag, 6=zondag)<br /> </td> 
    <td> WeekDay(&lt;datum&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -300,6 +310,11 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
    <td> <strong>YearAnd Month</strong><br /> </td> 
    <td> Retourneert het getal dat het jaar en de maand van de datum vertegenwoordigt.<br /> </td> 
    <td> YearAndMonth(&lt;datum&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <td> <strong>JarenAgo</strong><br /> </td> 
+   <td> Retourneert het aantal jaren tussen twee opgegeven datums<br /> </td> 
+   <td> YearAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearDiff</strong><br /> </td> 
