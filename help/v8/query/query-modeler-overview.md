@@ -2,9 +2,9 @@
 audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
-source-git-commit: 3ee80257ded04bce0333396916df71ff296f3eca
+source-git-commit: 35b5901c65bde0ca58de7849b5fad374abb28b83
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,18 @@ ht-degree: 0%
 >abstract="Bepaal het filtreren criteria voor ontvangers of om het even welke andere gericht afmeting van het gegevensbestand. Profiteer van uw Adobe Experience Platform-publiek om uw doelgroep verder te verfijnen en de impact van uw campagne te maximaliseren."
 
 Het Web van Adobe Campaign kenmerkt een vraagmodeler die het proces van het filtreren van gegevensbestanden vereenvoudigt om specifieke doelstellingen te selecteren die op diverse criteria worden gebaseerd. Dit omvat het gebruik van geavanceerde expressies en operatoren.
+
+## Heb toegang tot de vraagmodeller
+
+De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens moet bepalen.
+
+| Gebruik | Voorbeeld |
+|  ---  |  ---  |
+| **Soorten publiek definiëren**: Geef de doelgroep op in uw berichten of workflows en maak moeiteloos nieuwe soorten publiek die zijn afgestemd op uw behoeften. <!--(LINK TBD)--> | ![](assets/access-audience.png){width="50" align="center" zoomable="yes"} |
+| **Workflowactiviteiten aanpassen**: pas regels toe binnen workflowactiviteiten, zoals Splitsen en Verzoening, om deze aan te passen aan uw specifieke vereisten. | ![](assets/access-workflow.png){width="50" align="center" zoomable="yes"} |
+| **Vooraf gedefinieerde filters**: Maak vooraf gedefinieerde filters die als sneltoetsen fungeren tijdens diverse filterbewerkingen, ongeacht of u werkt met gegevenslijsten of het publiek vormt voor een levering. | ![](assets/access-predefined-filter.png){width="50" align="center" zoomable="yes"} |
+| **Rapportgegevens filteren**: Voeg regel toe om de gegevens te filteren die in rapporten worden getoond. | ![](assets/access-reports.png){width="50" align="center" zoomable="yes"} |
+| **Lijsten aanpassen**: Maak aangepaste regels om de gegevens te filteren die worden weergegeven in lijsten zoals ontvangers, leveringslijsten, enz. | ![](assets/access-lists.png){width="50" align="center" zoomable="yes"} |
 
 ## Heb toegang tot de vraagmodeller {#access}
 
