@@ -4,19 +4,15 @@ title: Een publiek maken met de bouwer van de campagneregel
 description: Leer hoe te met de regelbouwer te werken
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 6425ad62b3176e07516bf61473cc1a76fdfe7a7e
+source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
 
 # Werken met de regelbouwer {#segment-builder}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="Doelpubliek"
->abstract="Het is nooit eenvoudiger om een leveringsdoel te maken! Met onze recentste regelbouwer, hebt u nu de capaciteit om het filtreren criteria voor ontvangers of een andere het richten dimensie van het gegevensbestand te bepalen. Profiteer van uw Adobe Experience Platform-publiek om uw doelgroep verder te verfijnen en de impact van uw campagne te maximaliseren."
 
 De regelbouwer staat u toe om de bevolking te bepalen die door uw levering wordt gericht door gegevens te filtreren in het gegevensbestand. U kunt het gebruiken om een publiek of van een werkschema te bouwen gebruikend **[!UICONTROL Build audience]** of rechtstreeks wanneer u een levering maakt om een eenmalig publiek te maken.
 
