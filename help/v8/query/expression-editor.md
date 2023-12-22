@@ -2,10 +2,10 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
-source-git-commit: fdc86a99ce629a0fe2df1b5287a828b9bed3f1d5
+source-git-commit: c3b9ab8cd9b234695f4aa730ca6cbd5d5bc4b186
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 62%
+source-wordcount: '1917'
+ht-degree: 60%
 
 ---
 
@@ -313,8 +313,8 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
   </tr>
   <tr> 
    <td> <strong>JarenAgo</strong><br /> </td> 
-   <td> Retourneert het aantal jaren tussen twee opgegeven datums<br /> </td> 
-   <td> YearAgo(&lt;end date=""&gt;, &lt;start date=""&gt;)<br /> </td>  
+   <td> Geeft als resultaat het aantal jaren tussen een bepaalde datum en de huidige datum<br /> </td> 
+   <td> YearAgo(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearDiff</strong><br /> </td> 
@@ -447,6 +447,11 @@ Deze tabel bevat de resterende beschikbare functies.
    <td> <strong>Beschrijving</strong><br /> </td> 
    <td> <strong>Syntaxis</strong><br /> </td> 
   </tr> 
+  <!--MISSING INFO<tr> 
+   <td> <strong>AESEncrypt</strong><br /> </td> 
+   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
+   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
+  </tr> -->
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Retourneert waarde 1 als de voorwaarde true is. Zo niet, dan wordt waarde 2 geretourneerd.<br /> </td> 
@@ -467,6 +472,11 @@ Deze tabel bevat de resterende beschikbare functies.
    <td> Retourneert waarde 3 als waarde 1 = waarde 2. Indien geen waarde 4.<br /> </td> 
    <td> Decode(&lt;waarde 1&gt;, &lt;waarde 2&gt;, &lt;waarde 3&gt;, &lt;waarde 4&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>DefaultFolder</strong><br /> </td> 
+   <td> Returns value 3 if value 1 = value 2. If not returns value 4.<br /> </td> 
+   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>Else</strong><br /> </td> 
    <td> Retourneert waarde 1 (mag alleen worden gebruikt als parameter van de case-functie)<br /> </td> 
@@ -497,6 +507,11 @@ Deze tabel bevat de resterende beschikbare functies.
    <td> Retourneert waarde 2 als tekenreeks 1 leeg is. Retourneert anders waarde 3<br /> </td> 
    <td> IsEmptyString()&lt;value&gt;, &lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
+  <!--<tr> 
+   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> Returns the empty string if the argument is NULL<br /> </td> 
+   <td> NoNull(&lt;value&gt;)<br /> </td>  
+  </tr> -->
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Retourneert de lege tekenreeks als het argument NULL is<br /> </td> 
@@ -562,6 +577,11 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
    <td> Charindex()&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
+   <td> <strong>dataLength</strong><br /> </td> 
+   <td> Geeft de grootte van de tekenreeks in bytes<br /> </td> 
+   <td> dataLength()&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> Retourneert de n-de (van 1 tot en met n) regel van de tekenreeks<br /> </td> 
    <td> GetLine()&lt;string&gt;)<br /></td> 
@@ -587,11 +607,6 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
    <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /></td>  
   </tr> 
   <tr> 
-   <td> <strong>LPad</strong><br /> </td> 
-   <td> Hiermee wordt de voltooide tekenreeks links geretourneerd<br /> </td> 
-   <td> LPad()&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
-  </tr> 
-  <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> Retourneert de eerste n tekens van de tekenreeks<br /> </td> 
    <td> Left(&lt;string&gt;, &lt;number&gt;)<br /></td> 
@@ -601,10 +616,20 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
    <td> Retourneert de lengte van de tekenreeks<br /> </td> 
    <td> Length()&lt;string&gt;)<br /></td> 
   </tr> 
+  <!--<tr> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Returns the string in lowercase<br /> </td> 
+   <td> Lower(&lt;string&gt;)<br /></td> 
+  </tr> -->
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Hiermee wordt de tekenreeks in kleine letters geretourneerd<br /> </td> 
    <td> Lower()&lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>LPad</strong><br /> </td> 
+   <td> Hiermee wordt de voltooide tekenreeks links geretourneerd<br /> </td> 
+   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -622,9 +647,9 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
    <td> MemoContains()&lt;memo&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>RPad</strong><br /> </td> 
-   <td> Hiermee wordt de voltooide tekenreeks aan de rechterkant geretourneerd<br /> </td> 
-   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> Hiermee wordt de waarde van een XML-veld opgehaald uit het XPath en de veldgegevens<br /> </td> 
+   <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -632,9 +657,24 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
    <td> Right(&lt;tekenreeks&gt;)<br /> </td> 
   </tr> 
   <tr> 
+   <td> <strong>RPad</strong><br /> </td> 
+   <td> Hiermee wordt de voltooide tekenreeks aan de rechterkant geretourneerd<br /> </td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /></td> 
+  </tr> 
+  <tr> 
    <td> <strong>Rtrim</strong><br /> </td> 
    <td> Hiermee worden spaties rechts van de tekenreeks verwijderd<br /> </td> 
    <td> Rtrim(&lt;tekenreeks&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha256Digest</strong><br /> </td> 
+   <td> Hexadecimale representatie van de SHA256-toets van een tekenreeks.<br /> </td> 
+   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Sha512Digest</strong><br /> </td> 
+   <td> Hexadecimale representatie van de SHA512-toets van een tekenreeks.<br /> </td> 
+   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -666,11 +706,6 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
    <td> Retourneert de externe sleutel (tekst) van een koppeling die als parameter wordt doorgegeven als de andere twee parameters gelijk zijn<br /> </td> 
    <td> VirtualLinkStr(&lt;tekenreeks&gt;, &lt;nummer&gt;, &lt;nummer&gt;)<br /> </td>  
   </tr> 
-  <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
-   <td> Retourneert de tekenreeksgrootte<br /> </td> 
-   <td> dataLength()&lt;string&gt;)<br /> </td>  
-  </tr> 
  </tbody> 
 </table>
 
@@ -682,6 +717,11 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
    <td> <strong>Naam</strong><br /> </td> 
    <td> <strong>Beschrijving</strong><br /> </td> 
    <td> <strong>Syntaxis</strong><br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <strong>_Over__</strong><br /> </td> 
+   <td> Voer de SQL functievraag uit ingegaan als 1st parameter, over Verdeling of Orde door de gebieden ingegaan als 2de parameter<br /> </td> 
+   <td> _Over_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
