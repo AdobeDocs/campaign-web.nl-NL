@@ -3,9 +3,9 @@ title: Werken met ontvangers en publiek
 description: Leer hoe te met ontvangers het Web van de Campagne werken
 badge: label="Beta"
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ In Adobe Campaign is de doelpopulatie van een levering een publiek. Een publiek 
 >id="acw_homepage_rn4"
 >title="Ontvangers"
 >abstract="Creeer nieuwe ontvangers, en controleer hen door krachtige rapporten en hulpmiddelen. Open het profiel van de ontvanger, gebruik de filteropties om door de lijst met ontvangers te bladeren, hun kenmerken te bewerken en bij te werken."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
