@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 0%
@@ -140,7 +140,7 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
 Deze sjabloon kan nu worden gebruikt wanneer u e-mailberichten maakt binnen [!DNL Adobe Campaign]. [Meer informatie](use-email-templates.md)
 
-## E-mailinhoud opslaan als sjabloon {#save-as-template}
+### E-mailinhoud opslaan als sjabloon {#save-as-template}
 
 Eenmaal [ontworpen als e-mail](create-email-content.md)kunt u deze inhoud opslaan als een sjabloon voor toekomstig hergebruik. Opgeslagen sjablonen zijn beschikbaar voor alle gebruikers van uw Adobe Campaign-omgeving.
 
