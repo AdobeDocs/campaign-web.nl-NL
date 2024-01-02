@@ -3,10 +3,10 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-badge: label="LA"
-source-git-commit: 686bcc06591d56c2827a6826286503659ee6b26c
+badge: label="Beperkte beschikbaarheid"
+source-git-commit: 544e56a43b03e954d5c9a1f8cce155212c1be180
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 2%
 
 ---
