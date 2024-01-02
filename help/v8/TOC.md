@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 8%
 
 ---
@@ -36,12 +36,13 @@ ht-degree: 8%
       + [Uw eerste e-mail maken](email/create-email.md)
       + E-mailinhoud definiëren {#content}
          + [E-mailinhoud configureren](content/edit-content.md)
+         + [Werken met inhoudssjablonen](content/create-email-templates.md)
          + Uw e-mail beginnen te vormen {#start-design}
             + [Aan de slag met Email Designer](content/get-started-email-designer.md)
             + [Opnieuw starten](content/create-email-content.md)
             + [Uw e-mailinhoud importeren](content/existing-content.md)
             + [Uw eigen inhoud coderen](content/code-content.md)
-            + [Sjablonen voor e-mailinhoud gebruiken](content/email-sample-templates.md)
+            + [Sjablonen voor e-mailinhoud gebruiken](content/use-email-templates.md)
          + Uw inhoud ontwerpen {#design-content}
             + [Inhoudscomponenten gebruiken](content/content-components.md)
             + [Koppelingen toevoegen en berichten bijhouden](content/message-tracking.md)

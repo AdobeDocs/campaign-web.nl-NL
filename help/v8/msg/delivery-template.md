@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 54f91769daff0a6043a345ee44ccd84229336c36
+source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1043'
 ht-degree: 2%
 
 ---
@@ -33,14 +33,9 @@ Een sjabloon kan het volgende bevatten:
 * Koppelingen naar [spiegelpagina](../content/mirror-page.md) en uit-abonnement [koppelingen](../content/message-tracking.md),
 * Andere leveringseigenschappen, zoals middelgeldigheid, retry parameters, of quarantaine montages.
 
-<!--
 >[!NOTE]
 >
->Delivery templates are different from email content templates, which allow you to reuse only the content of your messages.-->
-
->[!NOTE]
->
->Afleveringssjablonen verschillen van [inhoudssjablonen](../content/email-sample-templates.md), waarmee u inhoud kunt gaan samenstellen met een van de voorbeeldsjablonen voor e-mails die u hebt ontvangen.
+>Afleveringssjablonen verschillen van [inhoudssjablonen](../content/create-email-templates.md), waarmee u alleen de inhoud van uw e-mails kunt hergebruiken en inhoud kunt gaan samenstellen met een van de voorbeeldsjablonen die u offline hebt ontvangen.
 
 
 ## Leveringssjablonen openen en beheren {#access-manage-templates}

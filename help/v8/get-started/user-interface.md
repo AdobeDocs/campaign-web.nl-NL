@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 05dcd03ed7cec4ddb2628eb1c5c7182d7cafbc0f
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -357,36 +357,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_fragments_details"
 >title="Fragmentdetails"
 >abstract="Fragmentdetails"
-
-
-
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_menu"
->title="Inhoudssjabloon"
->abstract="Inhoudssjabloon"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_properties"
->title="Eigenschappen van inhoudssjablonen"
->abstract="Eigenschappen van inhoudssjablonen"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_design"
->title="Sjabloonontwerp voor inhoud"
->abstract="Sjabloonontwerp voor inhoud"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_selection"
->title="Sjabloonselectie voor inhoud"
->abstract="Sjabloonselectie voor inhoud"
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_edition"
->title="Content template Edition"
->abstract="Content template Edition"
-
-
 
 
 >[!CONTEXTUALHELP]
