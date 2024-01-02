@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit voor het laden van bestanden gebruiken
 description: Leer hoe u de workflowactiviteit Bestand laden gebruikt
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 6068e3695ebed22a94a75b9aded59d1e5fb6b47a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '294'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Bestandsactiviteit laden"
->abstract="De **Bestand laden** activiteit is **Gegevensbeheer** activiteit. Gebruik deze activiteit om met profielen te werken die in een extern dossier worden opgeslagen."
+>abstract="De **Bestand laden** activiteit is **Gegevensbeheer** activiteit. Gebruik deze activiteit om met gegevens te werken die in een extern dossier worden opgeslagen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -53,7 +53,7 @@ ht-degree: 1%
 >abstract="Opmaak voor het laden van bestandsactiviteit"
 
 
-De **Bestand laden** activiteit is **Gegevensbeheer** activiteit. Gebruik deze activiteit om met profielen te werken die in een extern dossier worden opgeslagen. Profielen worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../../personalization/gs-personalization.md)of profielen bijwerken.
+De **Bestand laden** activiteit is **Gegevensbeheer** activiteit. Gebruik deze activiteit om met profielen en gegevens te werken die in een extern dossier worden opgeslagen. Profielen en gegevens worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../../personalization/gs-personalization.md)of om profielen of een andere tabel bij te werken.
 
 
 >[!NOTE]
@@ -69,7 +69,7 @@ Voer de volgende stappen uit om de **Bestand laden** activiteit:
 
 
 1. Sleep een **Bestand laden** in uw workflow. Klik op de knop **Selecteren uit bestand** knop.
-1. Selecteer het lokale bestand dat u wilt gebruiken. De indeling moet worden uitgelijnd met de [voorbeeldbestand](../../audience/file-audience.md#sample-file).
+1. Selecteer het lokale bestand dat u wilt gebruiken. De indeling moet hiermee worden uitgelijnd [voorbeeldbestand](../../audience/file-audience.md#sample-file).
 1. In het centrale gedeelte van het scherm kunt u bekijken en controleren hoe gegevens worden toegewezen.
 1. Pas de kolominstellingen aan en maak gegevens op van de beschikbare opties.
 1. Klikken **Bevestigen** als de instellingen correct zijn.

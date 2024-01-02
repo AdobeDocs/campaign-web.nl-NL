@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de afstemmingsworkflow gebruiken
 description: Leer hoe u de workflowactiviteit Verzoening gebruikt
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 89372e4a6c60937c646de59eb1a65b86fa1b2528
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '801'
 ht-degree: 11%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Afstemmingsactiviteit"
->abstract="De **Verzoening** activiteit is **Targeting** activiteit. Hierdoor kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen. Bijvoorbeeld de **Verzoening** activiteit kan na een **Haakje laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de werktabel."
+>abstract="De **Verzoening** activiteit is **Targeting** activiteit die u toestaat om niet geïdentificeerde gegevens aan bestaande gegevens van de Campagne te verbinden. Bijvoorbeeld de **Verzoening** activiteit kan na een **Haakje laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de externe tabel."
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 
 
-De **Verzoening** activiteit is **Targeting** activiteit. Hierdoor kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen. Bijvoorbeeld de **Verzoening** activiteit kan na een **Haakje laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de werktabel.
+De **Verzoening** activiteit is **Targeting** activiteit die u toestaat om niet geïdentificeerde gegevens aan bestaande middelen te verbinden. Bijvoorbeeld de **Verzoening** activiteit kan na een **Haakje laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de werktabel.
 
 
 ## Best practices {#reconciliation-best-practices}
@@ -85,7 +85,7 @@ Voer de volgende stappen uit om de **Verzoening** activiteit:
 
 1. Selecteer het (de) afstemmingsveld(en) die u wilt gebruiken voor deduplicatie. U kunt een of meer verzoeningscriteria gebruiken.
 
-   1. Als u kenmerken wilt gebruiken om gegevens op elkaar af te stemmen, selecteert u de optie **Eenvoudige kenmerken** -optie. Selecteer bijvoorbeeld de **E-mail** velden voor het dupliceren van profielen op basis van hun e-mailadres. De **Bron** In dit veld worden de velden weergegeven die beschikbaar zijn in de invoerovergang en die moeten worden afgestemd. De **Doel** komt overeen met de velden van de geselecteerde doeldimensie. De gegevens worden in overeenstemming gebracht wanneer bron en bestemming gelijk zijn.
+   1. Als u kenmerken wilt gebruiken om gegevens op elkaar af te stemmen, selecteert u de optie **Eenvoudige kenmerken** -optie. De **Bron** In dit veld worden de velden weergegeven die beschikbaar zijn in de invoerovergang en die moeten worden afgestemd. De **Doel** komt overeen met de velden van de geselecteerde doeldimensie. De gegevens worden in overeenstemming gebracht wanneer bron en bestemming gelijk zijn. Selecteer bijvoorbeeld de **E-mail** velden voor het dupliceren van profielen op basis van hun e-mailadres.
 
       Klik op de knop **Regel toevoegen** knop. Als er meerdere samenvoegvoorwaarden zijn opgegeven, moeten deze ALLES worden gecontroleerd zodat de gegevens aan elkaar kunnen worden gekoppeld.
 
@@ -121,7 +121,7 @@ Het wordt gebouwd met de volgende activiteiten:
   REESE;Richard;rreese@testmail.com;02/08/1987;
   ```
 
-* A **Verzoening** activiteit die de binnenkomende gegevens als profielen identificeert, door **email** als verzoeningscriteria.
+* A **Verzoening** activiteit die de binnenkomende gegevens als profielen identificeert, door **email** en **Geboortedatum** velden als verzoeningscriteria.
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
