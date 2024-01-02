@@ -3,10 +3,10 @@ audience: end-user
 title: De activiteit van de afstemmingsworkflow gebruiken
 description: Leer hoe u de workflowactiviteit Verzoening gebruikt
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 11%
+source-wordcount: '840'
+ht-degree: 10%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Afstemmingsactiviteit"
->abstract="De **Verzoening** activiteit is **Targeting** activiteit die u toestaat om niet geïdentificeerde gegevens aan bestaande gegevens van de Campagne te verbinden. Bijvoorbeeld de **Verzoening** activiteit kan na een **Haakje laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de externe tabel."
+>abstract="De **Verzoening** activiteit is **Targeting** activiteit die u toestaat om het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen. Bijvoorbeeld de **Verzoening** activiteit kan na een **Haakje laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de externe tabel."
 
 
 >[!CONTEXTUALHELP]
@@ -36,7 +36,7 @@ ht-degree: 11%
 
 
 
-De **Verzoening** activiteit is **Targeting** activiteit die u toestaat om niet geïdentificeerde gegevens aan bestaande middelen te verbinden. Bijvoorbeeld de **Verzoening** activiteit kan na een **Haakje laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de werktabel.
+De **Verzoening** activiteit is **Targeting** activiteit die u toestaat om het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen. Bijvoorbeeld de **Verzoening** activiteit kan na een **Haakje laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de werktabel.
 
 
 ## Best practices {#reconciliation-best-practices}

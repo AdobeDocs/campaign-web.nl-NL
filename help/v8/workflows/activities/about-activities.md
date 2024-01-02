@@ -2,12 +2,12 @@
 audience: end-user
 title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: a8b73ba5664eedf473f09050602a61895993663e
+source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 4%
+source-wordcount: '468'
+ht-degree: 0%
 
 ---
 
@@ -18,38 +18,34 @@ Workflowactiviteiten worden gegroepeerd in drie categorieën. Afhankelijk van de
 
 Alle activiteiten worden beschreven in de volgende onderdelen:
 
-* [Targetingactiviteiten](#targeting)
+* [Gerichte activiteiten en gegevensbeheer](#targeting)
 * [Kanaalactiviteiten](#channel)
 * [Stroombeheeractiviteiten](#flow-control)
 
 ![](../assets/workflow-activities.png)
 
-## Targetingactiviteiten {#targeting}
+## Gerichte activiteiten en gegevensbeheer {#targeting}
 
 Deze activiteiten zijn specifiek gericht op het richten, manipuleren en verrijken van bevolkingsgegevens. Met deze instructies kunt u een of meer doelen maken door een publiek te definiëren en deze soorten publiek te splitsen of te combineren met een doorsnede-, samenvoegings- of uitsluitingsbewerking.
 
-* De [Adviezen opslaan](save-audience.md) met activiteit kunt u een bestaand publiek bijwerken of een nieuw publiek maken van de bevolking die stroomopwaarts in een workflow is berekend.
-* De [publiek opbouwen](build-audience.md) Met activiteit kunt u de doelpopulatie definiëren. U kunt of een bestaand publiek selecteren of de regelbouwer gebruiken om uw eigen vraag te bepalen.
-* De [Combineren](combine.md) activiteit staat toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
-* De [Splitsen](split.md) de activiteit staat u toe om inkomende bevolking in verscheidene subsets te segmenteren.
-* De [Verrijking](enrichment.md) Met activiteiten kunt u aanvullende gegevens definiëren die in uw workflow moeten worden verwerkt. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
-* De [Deduplicatie](deduplication.md) Met activiteit kunt u duplicaten verwijderen uit het resultaat of de resultaten van de binnenkomende activiteiten.
-* De [Dimensie wijzigen](change-dimension.md) Met activiteit kunt u de doeldimensie wijzigen terwijl u uw workflow bouwt.
+* Gebruik de [Adviezen opslaan](save-audience.md) activiteit om een bestaand publiek bij te werken of een nieuw publiek van de bevolking te creëren die stroomopwaarts in een werkschema wordt berekend.
+* Gebruik de [publiek opbouwen](build-audience.md) activiteit om uw doelpopulatie te bepalen. U kunt of een bestaand publiek selecteren of de regelbouwer gebruiken om uw eigen vraag te bepalen.
+* Gebruik de [Combineren](combine.md) activiteit om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
+* Gebruik de [Splitsen](split.md) activiteit om de binnenkomende bevolking in verschillende subgroepen te segmenteren.
+* Gebruik de [Verzoening](reconciliation.md) activiteit om de verbinding tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen.
+* Gebruik de [Verrijking](enrichment.md) om aanvullende gegevens te definiëren die in uw workflow moeten worden verwerkt. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
+* Gebruik de [Deduplicatie](deduplication.md) activiteit om duplicaten in het resultaat(en) van de binnenkomende activiteiten te verwijderen.
+* Gebruik de [Dimensie wijzigen](change-dimension.md) activiteit om de het richten dimensie te veranderen aangezien u uw werkschema bouwt.
+* Gebruik de [Bestand laden](load-file.md) om te werken met profielen en gegevens die in een extern bestand zijn opgeslagen.
+
 
 ## Kanaalactiviteiten {#channel}
 
-Met Adobe Campaign Web kunt u marketingcampagnes automatiseren en uitvoeren op meerdere kanalen, zoals e-mail, SMS of push. U kunt kanaalactiviteiten in het canvas combineren om kanaalworkflows te maken die acties op basis van klantgedrag kunnen activeren.
+Met Adobe Campaign Web kunt u marketingcampagnes op meerdere kanalen automatiseren en uitvoeren. U kunt kanaalactiviteiten in het canvas combineren om kanaalworkflows te maken die acties op basis van klantgedrag kunnen activeren. Het volgende **Kanaal** activiteiten zijn beschikbaar: e-mail-, SMS-, Android- en iOS Push-berichten.
 
-Het volgende **Kanaal** de activiteiten zijn beschikbaar :
-
-* Email
-* Push
-* Sms
-
-Zie dit [sectie](channels.md).
+Leer hoe u een levering instelt in de context van een workflow in deze [sectie](channels.md).
 
 ## Stroombeheeractiviteiten {#flow-control}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
@@ -58,11 +54,11 @@ Zie dit [sectie](channels.md).
 
 De volgende activiteiten zijn specifiek voor het organiseren en uitvoeren van workflows. Hun voornaamste taak is de coördinatie van de andere activiteiten:
 
-* De [Planner](scheduler.md) Met deze activiteit kunt u plannen wanneer de workflow wordt gestart.
-* De [En-join](and-join.md) Met activiteit kunt u meerdere uitvoertakken van een workflow synchroniseren.
-* De **Einde** Met activiteit kunt u het einde van een werkstroom grafisch markeren. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
-* De [Vork](fork.md) de activiteit staat u toe om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.
-* De [Wachten](wait.md) activiteit onderbreekt tijdelijk het uitvoeren van een deel van een werkstroom.
+* Gebruik de [Planner](scheduler.md) activiteit om te plannen wanneer de werkstroom begint.
+* Gebruik de [En-join](and-join.md) activiteit om veelvoudige uitvoertakken van een werkschema te synchroniseren.
+* Een **Einde** activiteit om het einde van een werkstroom grafisch te markeren. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
+* Gebruik de [Vork](fork.md) activiteit om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.
+* Voeg een [Wachten](wait.md) activiteit om de uitvoering van een deel van een werkstroom tijdelijk te pauzeren.
 
 <!--
 ## Data management activities {#data-management}
