@@ -4,9 +4,9 @@ title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 5dada8e96ff5b1db7ecc18b5a442fae56a4a31f2
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '597'
 ht-degree: 1%
 
 ---
@@ -21,26 +21,25 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_columns"
 >title="Kolomdefinitie"
->abstract="Controleer de indeling van de kolommen die u wilt invoegen vanuit uw lokale bestand."
+>abstract="Controleer de indeling van de kolommen in het externe bestand."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Parameters opmaken"
->abstract="Controleer de opmaakparameters voor het bestand."
+>abstract="Controleer de opmaakparameters voor het externe bestand."
 
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Een voorbeeld van uw bestand bekijken"
->abstract="Bekijk de voorvertoning van het bestand. Dit scherm toont slechts tot 30 verslagen."
+>abstract="Controleer de voorvertoning van de kolommen van het externe bestand. Dit scherm toont slechts tot 30 verslagen."
 
 
-
-U kunt profielen die in een extern bestand zijn opgeslagen, niet rechtstreeks vanuit de interface uploaden naar Campagne. Profielen worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../personalization/gs-personalization.md). Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV).
+U kunt doelprofielen opgeven die zijn opgeslagen in een extern bestand. Profielen worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../personalization/gs-personalization.md). Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV). In dit artikel wordt beschreven hoe u een extern profiel kunt laden wanneer u een zelfstandige e-maillevering maakt. Als u gegevens uit een bestand in een workflow wilt laden, raadpleegt u [deze pagina](../workflows/activities/load-file.md).
 
 >[!CAUTION]
 >
->* Deze mogelijkheid is alleen beschikbaar voor **zelfstandige e-maillevering**. Het kan niet in werkschema&#39;s, noch met SMS of de levering van de Duw worden gebruikt.
+>* Deze mogelijkheid is alleen beschikbaar voor **e-mailleveringen**. Deze kan niet worden gebruikt met SMS of Push-berichten.
 >
 >* U kunt niet [controlegroepen](control-group.md) bij het laden van de doelpopulatie uit een extern bestand.
 >

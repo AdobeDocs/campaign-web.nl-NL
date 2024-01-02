@@ -4,9 +4,9 @@ title: De workflowactiviteit van de planner gebruiken
 description: Leer hoe u de workflowactiviteit van de planner gebruikt
 badge: label="Beta"
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '526'
 ht-degree: 9%
 
 ---
@@ -28,7 +28,7 @@ De **Planner** activiteit is **Stroomregeling** activiteit. Hiermee kunt u plann
 * Als u één-schot levering in uw werkschema wilt verzenden, kunt u een planneractiviteit toevoegen en het plaatsen om in werking te stellen **Eenmaal**. U kunt ook de **Schema** in de leveringsinstellingen.
 * Als u een terugkerende levering in uw werkstroom wilt verzenden, moet u een **Planner** en stelt de uitvoeringsfrequentie in. De terugkomende leveringsactiviteit staat u niet toe om een programma te bepalen.
 
-## Configuratie{#scheduler-configuration}
+## De planningsactiviteit configureren {#scheduler-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"

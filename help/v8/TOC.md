@@ -5,10 +5,10 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: dfe2360d4a05b959b1094ccffd131fd703650f3e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '469'
+ht-degree: 8%
 
 ---
 
@@ -122,6 +122,8 @@ ht-degree: 0%
       + [E-mail, SMS, Push](workflows/activities/channels.md)
       + [Verrijking](workflows/activities/enrichment.md)
       + [Vertakking](workflows/activities/fork.md)
+      + [Bestand laden](workflows/activities/load-file.md)
+      + [Afstemming](workflows/activities/reconciliation.md)
       + [Doelgroep opslaan](workflows/activities/save-audience.md)
       + [Planner](workflows/activities/scheduler.md)
       + [Splitsen](workflows/activities/split.md)

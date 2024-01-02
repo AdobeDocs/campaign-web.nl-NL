@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -388,52 +388,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation"
->title="Afstemmingsactiviteit"
->abstract="Gebruik de **Verzoening** activiteit om niet-geïdentificeerde gegevens aan bestaande middelen te koppelen."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting"
->title="Verzoening gericht"
->abstract="Verzoening gericht"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_rules"
->title="Afstemmingsregels"
->abstract="Afstemmingsregels"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_targeting_selection"
->title="Dimensie voor verzoeningsgericht"
->abstract="Dimensie voor verzoeningsgericht"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_field"
->title="Selectieveld Afstemmen"
->abstract="Selectieveld Afstemmen"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_attribute"
->title="Kenmerk Reconciliatie selecteren"
->abstract="Kenmerk Reconciliatie selecteren"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_condition"
->title="Afstemming maken, voorwaarde"
->abstract="Afstemming maken, voorwaarde"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_reconciliation_complement"
->title="Afstemming genereren"
->abstract="Afstemming genereren"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_keep_unreconciled_data"
->title="Afstemming houdt niet-compatibele gegevensoptie in"
->abstract="Afstemming houdt niet-compatibele gegevensoptie in"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
@@ -537,42 +491,4 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile"
->title="Bestandsactiviteit laden"
->abstract="Bestandsactiviteit laden"
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_samplefile"
->title="Voorbeeldbestand"
->abstract="Voorbeeldbestand"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_nameofthefile"
->title="Naam van het bestand"
->abstract="Naam van het bestand"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_targetdb"
->title="Doeldatabase"
->abstract="Doeldatabase"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_rejectmgt"
->title="Afwijzen van beheer voor het laden van bestandsactiviteiten"
->abstract="Afwijzen van beheer voor het laden van bestandsactiviteiten"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition"
->title="Uitgaande overgang van beheer afwijzen"
->abstract="Uitgaande overgang van beheer afwijzen"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_outboundtransition_reject"
->title="Uitgaande overgang van beheer afwijzen voor afwijzing"
->abstract="Uitgaande overgang van beheer afwijzen voor afwijzing"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_formatting"
->title="Opmaak voor het laden van bestandsactiviteit"
->abstract="Opmaak voor het laden van bestandsactiviteit"
