@@ -4,9 +4,9 @@ title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b36de9228725e199497720d3fb3bc46427ca7663
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -109,4 +109,4 @@ Met Campagne Web kunt u teste-mails voorvertonen en verzenden wanneer u een publ
 
    ![](assets/file-upload-test.png)
 
-1. U kunt het verzenden van de teste-mail op elk ogenblik controleren gebruikend de knoop van het de teste-maillogboek van de Mening. [Meer informatie over e-mailcontrole tijdens tests](../preview-test/test-deliveries.md#access-sent-test-deliveries-access-proofs)
+1. U kunt de verzending van de teste-mail controleren met de **[!UICONTROL View test email log]** op elk gewenst moment. [Meer informatie over e-mailcontrole tijdens tests](../preview-test/test-deliveries.md#access-test-deliveries)

@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 2%
@@ -193,7 +193,7 @@ U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul 
 
 >[!NOTE]
 >
->U kunt geen rendering via e-mail gebruiken of proefdrukken verzenden in een leveringssjabloon.
+>U kunt geen e-mailrendering gebruiken of tests verzenden in een leveringssjabloon.
 
 * [Meer informatie over het voorvertonen van e-mailinhoud](../preview-test/preview-content.md)
 
