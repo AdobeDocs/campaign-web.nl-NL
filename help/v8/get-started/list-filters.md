@@ -4,9 +4,9 @@ title: Bladeren, zoeken en filteren
 description: Ontdek hoe u kunt bladeren en filteren in lijsten met Campagne Web v8
 badge: label="Beperkte beschikbaarheid"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,6 @@ In de lijst worden de volgende kolommen weergegeven:
 
 ![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
 
-Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voor de huidige lijst weer te geven. [Meer informatie](#adv-attributes)
-
 ## Gegevens sorteren {#sort-lists}
 
 U kunt de items in de lijst ook sorteren door op een kolomkop te klikken. Er wordt een pijl weergegeven (omhoog of omlaag) die aangeeft dat de lijst in die kolom wordt gesorteerd.
@@ -59,27 +57,29 @@ Definieer en combineer uw filtercriteria in het dialoogvenster **Geavanceerde fi
 
 Aangepaste filters zijn ontworpen met de zoekfunctie van Campagne. Gedetailleerde informatie over hoe het wordt gebruikt is beschikbaar in [deze sectie](../query/query-modeler-overview.md).
 
-## Geavanceerde kenmerken gebruiken {#adv-attributes}
+<!--
+## Use advanced attributes {#adv-attributes}
 
 >[!CONTEXTUALHELP]
 >id="acw_attributepicker_advancedfields"
->title="Geavanceerde kenmerken weergeven"
->abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Activeer **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst in het linkerpalet van de regelbouwer weer te geven, zoals knooppunten, groepen, 1-1 koppelingen, 1-N-koppelingen."
+>title="Display advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_advancedfields"
->title="Geavanceerde velden voor regelbuilder"
->abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Activeer **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst in het linkerpalet van de regelbouwer weer te geven, zoals knooppunten, groepen, 1-1 koppelingen, 1-N-koppelingen."
+>title="Rule builder advanced fields"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 >[!CONTEXTUALHELP]
 >id="acw_rulebuilder_properties_advanced"
->title="Geavanceerde kenmerken van de builder van de regel"
->abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Activeer **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst in het linkerpalet van de regelbouwer weer te geven, zoals knooppunten, groepen, 1-1 koppelingen, 1-N-koppelingen."
+>title="Rule builder advanced attributes"
+>abstract="Only the most common attributes are displayed by default in the attribute list. Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links."
 
 
-Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken en de filterconfiguratieschermen. Kenmerken die zijn ingesteld als `advanced` kenmerken in het gegevensschema worden verborgen in de configuratievensters.
+Only most common attributes are displayed by default in the attribute list and filter configuration screens. Attributes which were set as `advanced` attributes in the data schema are hidden from the configuration screens. 
 
-Activeer **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst in het linkerpalet van de regelbouwer weer te geven, zoals knooppunten, groepen, 1-1 koppelingen, 1-N-koppelingen. De kenmerkenlijst wordt onmiddellijk bijgewerkt.
+Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list is updated instantly.
 
 
 ![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+-->
