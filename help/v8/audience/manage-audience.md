@@ -4,9 +4,9 @@ title: Het publiek bewaken en beheren
 description: Leer hoe u het publiek in Adobe Campaign Web kunt bewaken en beheren
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 0%
 >id="acw_audiences_workflow_error_data_execution"
 >title="Auditiefout"
 >abstract="Poortgegevens zijn niet beschikbaar. Wacht tot de workflow is voltooid."
+
+Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Het type publiek hangt van de doelafbeelding af die in het leveringsmalplaatje wordt bepaald. Meer informatie over leveringssjablonen vindt u in [deze pagina](../msg/delivery-template.md).
+
+Om de populatie van een publiek te bepalen, kunt u:
+
+* [Nieuw publiek maken](create-audience.md) van de **[!UICONTROL Audiences]** menu,
+* [Bestaande doelgroep selecteren](add-audience.md) gemaakt als een lijst in de clientconsole of afkomstig uit Adobe Experience Platform;
+* [Een nieuw publiek maken](segment-builder.md) met de regelbouwer door filtercriteria te definiëren en te combineren,
+* [Een publiek uit een extern bestand gebruiken](file-audience.md). Deze optie is alleen beschikbaar voor zelfstandige e-mailleveringen en kan niet worden gebruikt in campagneleveringen.
+
+Wanneer u zich richt op een publiek, kunt u ook definiëren **controlegroepen** om te voorkomen dat berichten naar een deel van uw publiek worden verzonden en om de impact van uw campagnes te meten. [Leer hoe u een controlegroep instelt](control-group.md)
+
+>[!NOTE]
+>
+>Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het publiek bepaald in een specifiek **publiek opbouwen** workflowactiviteit. In deze context kunt u geen publiek uit een bestand laden voor e-maillevering en wordt het publiek alleen gedefinieerd in deze toegewijde activiteit. Leer hoe u het publiek van uw levering kunt definiëren in een campagneworkflow in [deze sectie](../workflows/activities/build-audience.md)
 
 De lijst met publiek beschikbaar voor gebruik in het Web van de Campagne is toegankelijk van **[!UICONTROL Audiences]** -menu.
 
