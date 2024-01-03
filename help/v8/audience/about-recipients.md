@@ -2,9 +2,9 @@
 title: Profielen bewaken en beheren
 description: Leer om profielen in het Web van de Campagne te controleren en te beheren.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ U kunt de profielenlijst filtreren gebruikend het onderzoeksgebied of de filters
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_address"
->title= "Address"
+>title="Adres"
 >abstract="Deze sectie biedt inzicht in het postadres van het profiel en de adreskwaliteit. Als u gegevens wilt wijzigen, brengt u de wijzigingen rechtstreeks aan in het desbetreffende veld en klikt u op de knop **Opslaan** in de rechterbovenhoek van het scherm."
 
 >[!CONTEXTUALHELP]
