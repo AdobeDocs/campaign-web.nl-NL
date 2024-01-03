@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 6ea9ab9a69f0eff5d996926e25dc679a43eca918
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -179,41 +179,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Ontvangers maken"
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_details"
->title="Details ontvangers"
->abstract="Details ontvangers"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_contactinformation"
->title="Contactgegevens ontvangers"
->abstract="Contactgegevens ontvangers"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_address"
->title="Ontvangeradres"
->abstract="Ontvangeradres"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_account"
->title="Account van ontvangers"
->abstract="Account van ontvangers"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_customfields"
->title="Ontvangers, aangepaste velden"
->abstract="Ontvangers, aangepaste velden"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_nolongercontact"
->title="Ontvangers nemen geen contact meer op"
->abstract="Ontvangers nemen geen contact meer op"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_creation_othersfields"
->title="Overige ontvangers"
->abstract="Overige ontvangers"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Overzicht van de ontvangerskaart"
 >abstract="Overzicht van de ontvangerskaart"
@@ -222,11 +187,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_creation_touchpoints"
 >title="Aanraakpunten ontvangers"
 >abstract="Aanraakpunten ontvangers"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_subscription_list"
->title="Lijst met abonnementen voor ontvangers"
->abstract="Lijst met abonnementen voor ontvangers"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"

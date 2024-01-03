@@ -2,9 +2,10 @@
 audience: end-user
 title: Filterlijsten
 description: Leer hoe u Adobe Campaign Web-lijsten filtert met ingebouwde en aangepaste filters.
-source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
+badge: label="Beperkte beschikbaarheid"
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---

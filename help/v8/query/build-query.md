@@ -2,9 +2,10 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+badge: label="Beperkte beschikbaarheid"
+source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
