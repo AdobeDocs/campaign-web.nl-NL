@@ -2,8 +2,11 @@
 audience: end-user
 title: E-mailgeneratie met Inhoudsassistent
 description: Aan de slag met de Content Assistant
-badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+badge: label="Alpha"
+exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -74,5 +77,3 @@ Volg onderstaande stappen om e-mailinhoud te genereren met de Content Assistant.
    ![](assets/email-genai-6.png)
 
 1. Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
-
-

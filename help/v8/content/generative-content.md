@@ -2,18 +2,18 @@
 audience: end-user
 title: Tekst met de Content Assistant
 description: Aan de slag met de Content Assistant
-badge: label="Alfa"
-source-git-commit: 2eea0827a1daf4af002587d09c11e2279aaf933c
+badge: label="Alpha"
+exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 1%
 
 ---
 
-
 # Tekst genereren met de Inhoudsassistent {#generative-content}
-
-
 
 Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de Content Assistant van generatieve AI om uw inhoud naar het volgende niveau te brengen.
 
@@ -70,4 +70,3 @@ Volg onderstaande stappen om e-mailinhoud te genereren en te verbeteren met de C
    ![](assets/text-genai-7.png)
 
 1. Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
-

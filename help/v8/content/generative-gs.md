@@ -4,7 +4,9 @@ title: Aan de slag met de Content Assistant
 description: Aan de slag met de Content Assistant
 badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d52b3c31cbb3a045e9fab4b15b0e69e3303f16d2
+hide: true
+hidefromtoc: true
+source-git-commit: 794b2571f44d160ce06b91b46e7e2f0c8b2eee38
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -18,8 +20,6 @@ ht-degree: 0%
 >title="Gen AI voor e-mailinhoud"
 >abstract="Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen om bijzonder boeiende en gepersonaliseerde inhoud te genereren. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI. Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
