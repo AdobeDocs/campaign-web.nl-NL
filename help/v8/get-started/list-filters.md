@@ -4,9 +4,9 @@ title: Bladeren, zoeken en filteren
 description: Ontdek hoe u kunt bladeren en filteren in lijsten met Campagne Web v8
 badge: label="Beperkte beschikbaarheid"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 564524185c6bea11d8159d57ee9c28b47df86f74
+source-git-commit: 843f3ad906d81892f45281ef5734d512b4c8f3d6
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 0%
 # Bladeren, zoeken en filteren {#list-screens}
 
 De meeste koppelingen in het linkernavigatiemenu bevatten lijsten met objecten, zoals de lijst met **Leveringen** of **Campagnes**. Sommige lijstschermen zijn alleen-lezen. U kunt de lijstweergave aanpassen en deze lijsten filteren, zoals hieronder wordt beschreven.
-
-Klik op de knop **Alles wissen** knop.
 
 ## Lijstschermen aanpassen {#custom-lists}
 
@@ -39,23 +37,13 @@ U kunt de items in de lijst ook sorteren door op een kolomkop te klikken. Er wor
 
 Voor numerieke kolommen of datumkolommen geldt het **Omhoog** De pijl geeft aan dat de lijst oplopend wordt gesorteerd terwijl de **Omlaag** geeft een aflopende volgorde aan. Voor tekenreeks- of alfanumerieke kolommen worden waarden in alfabetische volgorde weergegeven.
 
-## Ingebouwde filters {#list-built-in-filters}
+## Filters {#list-built-in-filters}
 
-Als u items sneller wilt zoeken, gebruikt u de zoekbalk of filtert u de lijst op basis van contextuele criteria.
+Als u sneller naar items wilt zoeken, kunt u de zoekbalk of ingebouwde en aangepaste filters gebruiken om de lijst aan te passen op basis van contextuele criteria.
 
 ![](assets/filter.png){width="70%" align="left" zoomable="yes"}
 
-U kunt leveringen bijvoorbeeld filteren op de status, het kanaal, de contactdatum of de map. U kunt tests ook verbergen.
-
-## Aangepaste filters{#list-custom-filters}
-
-Als u aangepaste filters voor gegevens wilt maken, bladert u naar de onderkant van de filters en klikt u op de knop **Regels toevoegen** knoop om tot de regelbouwer toegang te hebben.
-
-Definieer en combineer uw filtercriteria in het dialoogvenster **Geavanceerde filters** scherm.
-
-![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
-
-Aangepaste filters zijn ontworpen met de zoekfunctie van Campagne. Gedetailleerde informatie over hoe het wordt gebruikt is beschikbaar in [deze sectie](../query/query-modeler-overview.md).
+Gedetailleerde informatie over het gebruik van filters en het maken van uw eigen aangepaste filters is beschikbaar in [deze sectie](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}
