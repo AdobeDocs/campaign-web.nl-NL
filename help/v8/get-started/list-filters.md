@@ -2,11 +2,11 @@
 audience: end-user
 title: Bladeren, zoeken en filteren
 description: Ontdek hoe u kunt bladeren en filteren in lijsten met Campagne Web v8
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3e94514060a501a3a359c38606e5532beaf20f10
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,11 @@ U kunt leveringen bijvoorbeeld filteren op de status, het kanaal, de contactdatu
 
 Als u aangepaste filters voor gegevens wilt maken, bladert u naar de onderkant van de filters en klikt u op de knop **Regels toevoegen** knoop om tot de regelbouwer toegang te hebben.
 
-Sleep kenmerken om uw filtercriteria op te bouwen in het dialoogvenster **Geavanceerde filters** scherm.
+Definieer en combineer uw filtercriteria in het dialoogvenster **Geavanceerde filters** scherm.
 
 ![](assets/custom-filter.png){width="70%" align="left" zoomable="yes"}
 
-Gebruik de **Geavanceerde kenmerken weergeven** schakelt u om alle kenmerken voor de huidige lijst weer te geven. [Meer informatie](#adv-attributes)
-
-Het werkende beginsel van de regelbouwer voor douanefilters is gelijkaardig aan de regelbouwer die wordt gebruikt om publiek tot stand te brengen. Gedetailleerde informatie over het gebruik ervan is beschikbaar in de [Documentatie voor soorten publiek](../audience/segment-builder.md).
+Aangepaste filters zijn ontworpen met de zoekfunctie van Campagne. Gedetailleerde informatie over hoe het wordt gebruikt is beschikbaar in [deze sectie](../query/query-modeler-overview.md).
 
 ## Geavanceerde kenmerken gebruiken {#adv-attributes}
 

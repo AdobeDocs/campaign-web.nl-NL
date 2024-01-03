@@ -3,11 +3,11 @@ audience: end-user
 title: Aan de slag met Campagne v8 Web
 description: Aan de slag met Campagne v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Beta"
-source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
+badge: label="Beperkte beschikbaarheid"
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 2%
+source-wordcount: '396'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Als u toegang moet krijgen tot de mogelijkheden van Campagne v8 die niet beschik
 
 >[!NOTE]
 >
->Campagne v8 Web bevindt zich momenteel in bètaversie. De toegang wordt beperkt tot een kleine reeks klanten van Beta. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
+>Campagne v8 Web bevindt zich momenteel in de versie met beperkte beschikbaarheid (LA). De toegang is beperkt tot een kleine reeks klanten van LA. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
 
 Leer hoe u verbinding maakt met Adobe Campaign Web in [deze pagina](connect-to-campaign.md).
 

@@ -1,11 +1,12 @@
 ---
 title: Verbinding maken met de Adobe Campaign-webinterface
 description: Leer hoe u verbinding maakt met de gebruikersinterface van Adobe Campaign v8 Web
-badge: label="Beta"
-source-git-commit: 2a2bd37461d2218b5187d2a0dd202df6c0724fee
+badge: label="Beperkte beschikbaarheid"
+exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
+source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 0%
 
 ---
 
@@ -50,11 +51,13 @@ U bent nu verbonden met Campagne. Leer hoe u de gebruikersinterface kunt gebruik
 
 ## Bovenste Adobe Experience Cloud-navigatie {#top-bar}
 
-Gebruik de hoogste bar van de interface aan:
+Blader naar de bovenste balk van de interface:
 
-* Je feedback delen als bètagebruiker
 * schakelen tussen uw organisaties
 * schakelen tussen uw Adobe Experience Cloud-oplossingen en -toepassingen
+* zoek naar hulp op [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}
+* productmeldingen controleren
+* bewerk het profiel van de Adobe en beheer instellingen, zoals [uw favoriete taal bijwerken](#language-pref) of [schakelen naar licht/donker thema](#dark-theme)
 
 ![](assets/unified-shell.png){width="50%" align="left"}
 
@@ -86,11 +89,10 @@ De taal wijzigen:
 1. Klik vervolgens op de taalkoppeling die onder uw e-mailadres wordt weergegeven.
 1. Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
 
-## Donker thema {#dark-theme}
+## Donkere en lichte thema&#39;s {#dark-theme}
 
-U kunt vanuit het profielpictogram overschakelen naar het donkere thema. Gebruik de **Donker thema** schakelen om deze in-/uit te schakelen.
+Adobe Campaign is beschikbaar in lichte en donkere thema&#39;s. Standaard is de gebruikersinterface ingeschakeld in licht thema. Als u wilt overschakelen naar het donkere thema, klikt u op het profielpictogram en gebruikt u de knop **Donker thema** schakelen om deze in-/uit te schakelen.
 
 De instellingen voor gebruikersprofielen en accountvoorkeuren worden beschreven in [deze sectie](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}.
 
 Meer informatie over Experience Cloud Central Interface-componenten vindt u in [deze documentatie](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}.
-
