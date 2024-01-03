@@ -4,7 +4,7 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 29d230374230bc3da73f0cb113265facd2331b8a
+source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 1%
@@ -84,7 +84,7 @@ De belangrijkste mogelijkheden die met de Beperkte versie van de Beschikbaarheid
 
   Geef je marketingcampagnes een extra boost met onze **uitgebreide reeks workflowactiviteiten**. Ontgrendel nieuwe mogelijkheden voor automatisering en optimalisering, die u toestaan om dynamischere en gepersonaliseerde klantenreizen te creëren. Van geavanceerde segmentatie tot voorwaardelijke triggers, onze extra werkschemaactiviteiten stellen u in staat om gerichte berichten te leveren en betere campagneprestaties te drijven.
 
-  De nieuwe activiteiten die met de recentste versie van LA komen zijn: **Verzoening**, **Haakje laden**, en **Adviezen opslaan**.
+  De nieuwe activiteiten die met de recentste versie van LA komen zijn: **Verzoening**, **Bestand laden**, en **Adviezen opslaan**.
 
   Meer informatie in [deze sectie](../workflows/gs-workflows.md).
 
