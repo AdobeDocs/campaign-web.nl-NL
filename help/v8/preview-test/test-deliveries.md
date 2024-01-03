@@ -3,11 +3,11 @@ audience: end-user
 title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Beta"
-source-git-commit: 2ea6a9b93dc2a37101d6b404d637a3c3655cb493
+badge: label="LA"
+source-git-commit: 9ff8b19507f34afcaca95d5eed0ce45c71710463
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 0%
+source-wordcount: '1108'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +43,7 @@ Uw berichtinhoud testen:
 
    Afhankelijk van het berichtkanaal, kunnen de proeven naar de volgende soorten ontvangers worden verzonden:
 
-   * Voor SMS en e-mail kunt u [testprofielen](#test-profiles), die specifieke extra ontvangers in de database zijn. Deze ontvangers worden gemaakt in het dialoogvenster [!DNL Campaign] clientconsole. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+   * Voor SMS en e-mail kunt u [testprofielen](#test-profiles), die specifieke extra ontvangers in de database zijn. [Meer informatie](../audience/test-profiles.md)
 
    * Voor SMS en e-mail kunt u ook de opdracht [vervanging van het hoofddoel](#substitution-profiles) , die de proefdrukken naar het e-mailtestadres of telefoonnummer verzendt en verpersoonlijkingsgegevens van een bestaand profiel gebruikt. Op deze manier kunt u het bericht net zo ervaren als de ontvangers, zodat u een nauwkeurige weergave krijgt van de inhoud die het profiel zal ontvangen.
 
@@ -73,7 +73,9 @@ Uw berichtinhoud testen:
 >title="Testprofielen opnemen in het hoofdpubliek"
 >abstract="Schakel deze optie in om ook het laatste bericht naar de ontvangers van de testlevering te verzenden."
 
-De profielen van de test zijn zaadadressen, die extra ontvangers in het gegevensbestand zijn. Ze kunnen worden gemaakt in de [!DNL Adobe Campaign] clientconsole. De stappen om proeven naar zaadadressen te verzenden zijn hieronder gedetailleerd.
+De profielen van de test zijn zaadadressen, die extra ontvangers in het gegevensbestand zijn. Ze kunnen worden gemaakt op basis van de **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menu. [Meer informatie](../audience/test-profiles.md#create-test-profiles)
+
+De stappen om proeven naar zaadadressen te verzenden zijn hieronder gedetailleerd.
 
 1. Klik vanaf de inhoud van de levering op de knop **[!UICONTROL Simulate content]** en de **[!UICONTROL Test]** knop.
 
@@ -81,13 +83,23 @@ De profielen van de test zijn zaadadressen, die extra ontvangers in het gegevens
 
    ![](assets/simulate-profile-mode.png)
 
-1. Als u al profielen hebt geselecteerd voor [voorvertoning van het bericht](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testontvangers. U kunt uw selectie wissen en/of extra ontvangers toevoegen met de opdracht **[!UICONTROL Add test profile(s)]** knop.
-
    >[!NOTE]
    >
-   >Testprofielen worden gemaakt in het dialoogvenster [!DNL Campaign] clientconsole in de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** map. Leer hoe u zaadadressen maakt en beheert in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.
+   >Testprofielen worden gemaakt op basis van de **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menu. Leer hoe u ze kunt maken en beheren in [deze sectie](../audience/test-profiles.md#create-test-profiles).
+
+1. Als u al profielen hebt geselecteerd voor [voorvertoning van het bericht](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testontvangers. U kunt uw selectie wissen en/of extra ontvangers toevoegen met de opdracht **[!UICONTROL Add test profile(s)]** knop.
+
+1. Wanneer u in de lijst met testprofielen bladert, kunt u uw zoekopdracht verfijnen met filters.
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   U kunt bijvoorbeeld een regel definiëren om alle testprofielen te zoeken die **[!UICONTROL Prospect]** status. [Meer informatie over geavanceerde filters](../get-started/list-filters.md#adv-attributes)
+
+   ![](assets/simulate-test-profile-filter-ex.png)
 
 1. Om het definitieve bericht aan de ontvangers van de testlevering ook te verzenden, selecteer **[!UICONTROL Include test population in the main target]** -optie.
+
+   ![](assets/simulate-include-test.png)
 
 1. Nadat de testprofielen zijn geselecteerd, kunt u [verzendt de testlevering](#send-test).
 
