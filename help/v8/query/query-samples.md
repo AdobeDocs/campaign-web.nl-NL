@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: Voorbeelden van query’s
-description: Leer hoe te met de regelbouwer te werken
-source-git-commit: e78122b0788c04c39eac27231272cb96ad019bdc
+description: Leer hoe te met de regelbouwer te werken.
+badge: label="Beperkte beschikbaarheid"
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '179'
+ht-degree: 3%
 
 ---
 

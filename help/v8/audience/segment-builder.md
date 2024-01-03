@@ -4,7 +4,7 @@ title: Een publiek maken met de bouwer van de campagneregel
 description: Leer hoe te met de regelbouwer te werken
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: 9992ae7007b5af80e927dd96b6fff25840d8c3e1
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 0%
@@ -12,7 +12,6 @@ ht-degree: 0%
 ---
 
 # Werken met de regelbouwer {#segment-builder}
-
 
 De regelbouwer staat u toe om de bevolking te bepalen die door uw levering wordt gericht door gegevens te filtreren in het gegevensbestand. U kunt het gebruiken om een publiek of van een werkschema te bouwen gebruikend **[!UICONTROL Build audience]** of rechtstreeks wanneer u een levering maakt om een eenmalig publiek te maken.
 

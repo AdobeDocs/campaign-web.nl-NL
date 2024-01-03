@@ -1,9 +1,10 @@
 ---
 title: Profielen bewaken en beheren
 description: Leer om profielen in het Web van de Campagne te controleren en te beheren.
-source-git-commit: 543f8b2de616f63f747fbb622053f5edd492d90d
+badge: label="Beperkte beschikbaarheid"
+source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 Een profiel in het Web van Adobe Campaign is een individu dat in het gegevensbestand wordt opgeslagen, dat als zeer belangrijke component dient om publiek voor leveringen tot stand te brengen en verpersoonlijkingsgegevens aan uw inhoud toe te voegen. Verschillende typen profielen worden opgeslagen in de database, zoals testprofielen, die zijn ontworpen om de leveringen te testen voordat ze naar het uiteindelijke publiek worden verzonden. [Leer hoe u met testprofielen werkt](test-profiles.md)
 
-Profielen zijn toegankelijk via de **Profielen** in de linkernavigatieregel. U kunt ze ook openen via het dialoogvenster **Verkenner** Hiermee kunt u bladeren naar mappen, submappen en de bijbehorende machtigingen controleren.
+Profielen kunnen alleen vanaf de Campagne-clientconsole worden toegevoegd. Ze zijn echter toegankelijk via het webadres van Adobe Campaign **Profielen** in de linkernavigatieregel. U kunt ze ook openen via het dialoogvenster **Verkenner** Hiermee kunt u bladeren naar mappen, submappen en de bijbehorende machtigingen controleren.
 
 U kunt de profielenlijst filtreren gebruikend het onderzoeksgebied of de filters beschikbaar bij **Filters tonen** knop.
 
