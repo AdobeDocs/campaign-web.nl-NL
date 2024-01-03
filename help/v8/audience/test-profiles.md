@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 59094528cb3683dba7264e6b63b5166a0a91f8ed
+source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 4%
+source-wordcount: '498'
+ht-degree: 3%
 
 ---
 
@@ -31,13 +31,19 @@ De stappen om testberichten naar zaadadressen te verzenden zijn gedetailleerd in
 
 ## Testprofielen openen en beheren {#access-test-profiles}
 
-Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Customer Management]** > **[!UICONTROL Profiles]** in het linkermenu en selecteert u de **[!UICONTROL Test profiles]** tab.
+Als u de lijst met testprofielen wilt openen, selecteert u **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** in het linkermenu en klik op de knop **[!UICONTROL Test profiles]** tab.
+
+![](assets/test-profile-list.png)
 
 U kunt filteren op een specifieke [map](../get-started/permissions.md#folders) de vervolgkeuzelijst gebruiken of regels toevoegen met de [querymodel](../query/query-modeler-overview.md).
+
+![](assets/test-profile-list-filters.png)
 
 Als u een testprofiel wilt bewerken, klikt u op het gewenste item in de lijst.
 
 Als u een testprofiel wilt verwijderen, selecteert u de bijbehorende optie in het menu **[!UICONTROL More actions]** -menu.
+
+![](assets/test-profile-list-delete.png)
 
 ## Een testprofiel maken {#create-test-profile}
 
@@ -48,11 +54,7 @@ Als u een testprofiel wilt verwijderen, selecteert u de bijbehorende optie in he
 
 Voer de onderstaande stappen uit om een testprofiel te maken.
 
-1. Bladeren naar **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]**.
-
-1. Selecteer het tabblad **[!UICONTROL Test profiles]**. 
-
-   ![](assets/test-profile-list.png)
+1. Bladeren naar **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** en selecteert u de **[!UICONTROL Test profiles]** tab.
 
 1. Klik op de knop **[!UICONTROL Create test profile]**.
 
@@ -62,7 +64,7 @@ Voer de onderstaande stappen uit om een testprofiel te maken.
 
    >[!NOTE]
    >
-   >Het label van het adres wordt automatisch ingevuld met de voornaam en achternaam die u hebt gedefinieerd.
+   >De **[!UICONTROL Label]** wordt automatisch ingevuld met de voornaam en achternaam die u hebt gedefinieerd.
 
 1. Standaard worden testprofielen opgeslagen in het dialoogvenster **[!UICONTROL Seed addresses]** map. U kunt dit wijzigen door naar de gewenste locatie te bladeren. [Meer informatie](#seed-addresses-folders)
 
