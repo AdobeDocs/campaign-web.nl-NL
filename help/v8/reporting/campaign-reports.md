@@ -2,16 +2,16 @@
 audience: end-user
 title: Campagneverslagen
 description: Meer informatie over het openen en gebruiken van campagnerapporten
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '89'
 ht-degree: 4%
 
 ---
 
-# Campagneverslagen {#campaign-reports}
+# Aan de slag met campagnerapporten {#campaign-reports}
 
 <!-- CAN BE REMOVED___
 >[!CONTEXTUALHELP]
@@ -38,5 +38,5 @@ Het campagnerapport is verdeeld in verschillende widgets waarin het succes en de
 De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is beschikbaar in de volgende pagina&#39;s:
 
 * [E-mailkanaal](campaign-reports-email.md)
-* [Sms-kanaal](campaign-reports-sms.md)
+* [SMS-kanaal](campaign-reports-sms.md)
 * [Push-kanaal](campaign-reports-push.md)

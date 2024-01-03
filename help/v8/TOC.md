@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '508'
 ht-degree: 8%
 
 ---
@@ -143,17 +143,17 @@ ht-degree: 8%
    + [Aan de slag met rapporten](reporting/gs-reports.md)
    + [Belangrijkste prestatie-indicatoren](reporting/kpis.md)
    + Afleveringsrapporten {#delivery-report}
-      + [Toegang tot leveringsrapporten](reporting/delivery-reports.md)
+      + [Aan de slag met leveringsrapporten](reporting/delivery-reports.md)
       + [E-mailleveringsrapport](reporting/email-report.md)
       + [Push-leveringsrapport](reporting/push-report.md)
       + [SMS-leveringsrapport](reporting/sms-report.md)
    + Campagneverslagen {#campaign-report}
-      + [Campagnerapporten openen](reporting/campaign-reports.md)
+      + [Aan de slag met campagnerapporten](reporting/campaign-reports.md)
       + [E-mailcampagnerapport](reporting/campaign-reports-email.md)
       + [Push-campagnerapport](reporting/campaign-reports-push.md)
       + [Rapport voor SMS-campagne](reporting/campaign-reports-sms.md)
    + Algemene rapporten {#global-report}
-      + [Globale rapporten openen](reporting/global-reports.md)
+      + [Aan de slag met algemene rapporten](reporting/global-reports.md)
       + [Globaal e-mailrapport](reporting/global-report-email.md)
       + [Globaal rapport uitduwen](reporting/global-report-push.md)
       + [Globaal SMS-rapport](reporting/global-report-sms.md)

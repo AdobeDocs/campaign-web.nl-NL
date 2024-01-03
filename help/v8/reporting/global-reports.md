@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met Global-rapporten
 description: Globale rapporten begrijpen
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 6fbc6d477aac54e8cb7a1eeba40f7c32903c261f
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# Aan de slag met Global-rapporten {#global-report-gs}
+# Aan de slag met algemene rapporten {#global-report-gs}
 
 Globale rapporten bieden een uitgebreid overzicht van verkeer en betrokkenheid over alle kanalen, en bieden een verscheidenheid van widgets aan die unieke inzichten in campagnes en leveringsprestaties verstrekken.
 

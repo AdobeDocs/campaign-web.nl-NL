@@ -3,21 +3,20 @@ audience: end-user
 title: Leveringsrapporten
 description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Beta"
-source-git-commit: 4ba96c4407f95588630956bc9f38e5da66602fee
+badge: label="Beperkte beschikbaarheid"
+source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 1%
+source-wordcount: '200'
+ht-degree: 2%
 
 ---
 
-# Toegangsleveringsrapporten {#reports}
+# Aan de slag met leveringsrapporten {#reports}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Geaggregeerde rapportage voor leveringen"
 >abstract="Selecteer ten minste twee leveringen voor de weergave van een samengevoegd gegevensrapport."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
