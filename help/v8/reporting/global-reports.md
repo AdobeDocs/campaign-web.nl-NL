@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met Global-rapporten
 description: Globale rapporten begrijpen
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: 6470acfbba105097230b63d504f7a73c0a08484c
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -18,7 +18,7 @@ De **Algemene rapporten** fungeren als een effectief hulpmiddel en bieden een ge
 De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is beschikbaar in de volgende pagina&#39;s:
 
 * [Globale e-mailrapporten](global-report-email.md)
-* [Globale SMS-rapporten](global-report-email-sms.md)
+* [Globale SMS-rapporten](global-report-sms.md)
 * [Globale rapporten doorschuiven](global-report-push.md)
 
 ## Het rapportdashboard beheren {#manage-reports}
