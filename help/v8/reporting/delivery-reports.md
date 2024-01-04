@@ -4,7 +4,7 @@ title: Leveringsrapporten
 description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%
@@ -45,7 +45,7 @@ Voer de volgende stappen uit om rapporten weer te geven en te beheren:
 
    U kunt ook de drie stippen gebruiken **Meer handelingen** naast de naam van de levering in de lijst met leveringen en selecteer **[!UICONTROL View report]**.
 
-   ![](assets/manage_delivery_report_2.png){width="50%" zoomable="yes"}
+   ![](assets/manage_delivery_report_2.png)
 
 1. Selecteer in het linkermenu een rapport in de lijst.
 
