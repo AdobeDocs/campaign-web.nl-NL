@@ -4,7 +4,7 @@ title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 badge: label="Beta"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Voer de volgende extra stappen uit om uw eigen query te maken:
 1. Selecteren **Uw eigen bestand maken (query)**.
 1. Kies de optie **Doeldimensie**. Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers. Meer informatie over gerichte afmetingen in [deze sectie](../../audience/about-recipients.md#targeting-dimensions).
 1. Klikken **Doorgaan**.
-1. Gebruik de bouwer van de regel om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. Zie dit [sectie](../../audience/segment-builder.md).
+1. Gebruik de bouwer van de regel om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. Zie dit [sectie](../../audience/../query/query-modeler-overview.md).
 
 Voer de volgende stappen uit om een bestaand publiek te selecteren:
 

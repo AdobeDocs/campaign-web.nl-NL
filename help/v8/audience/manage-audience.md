@@ -4,7 +4,7 @@ title: Het publiek bewaken en beheren
 description: Leer hoe u het publiek in Adobe Campaign Web kunt bewaken en beheren
 badge: label="Beta"
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: 5183dd0045c7f13e79f65eca5b31dfd4cde2f31d
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Om de populatie van een publiek te bepalen, kunt u:
 
 * [Nieuw publiek maken](create-audience.md) van de **[!UICONTROL Audiences]** menu,
 * [Bestaande doelgroep selecteren](add-audience.md) gemaakt als een lijst in de clientconsole of afkomstig uit Adobe Experience Platform;
-* [Een nieuw publiek maken](segment-builder.md) met de regelbouwer door filtercriteria te definiëren en te combineren,
+* [Een nieuw publiek maken](../query/query-modeler-overview.md) met de regelbouwer door filtercriteria te definiëren en te combineren,
 * [Een publiek uit een extern bestand gebruiken](file-audience.md). Deze optie is alleen beschikbaar voor zelfstandige e-mailleveringen en kan niet worden gebruikt in campagneleveringen.
 
 Wanneer u zich richt op een publiek, kunt u ook definiëren **controlegroepen** om te voorkomen dat berichten naar een deel van uw publiek worden verzonden en om de impact van uw campagnes te meten. [Leer hoe u een controlegroep instelt](control-group.md)

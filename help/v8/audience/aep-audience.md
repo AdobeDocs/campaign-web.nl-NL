@@ -4,9 +4,9 @@ title: Een Adobe Experience Platform-publiek gebruiken
 description: Leer hoe u een publiek van Adobe Experience Platform kunt gebruiken
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 3ea9f885511bb7d192ae9004f6257c10f163cbb5
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '279'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Zodra u een publiek van Adobe Experience Platform hebt gecreeerd en het in de cl
 
 Als u het publiek van een levering wilt selecteren, kunt u ook:
 
-* Maak een nieuw publiek. [Meer informatie](segment-builder.md)
+* Maak een nieuw publiek. [Meer informatie](../query/query-modeler-overview.md)
 * Laad een publiek vanuit een extern bestand. [Meer informatie](file-audience.md)
 * Gebruik een bestaand publiek van de Campagne. [Meer informatie](add-audience.md).
 
@@ -33,7 +33,7 @@ Volg onderstaande stappen om een Adobe Experience Platform-publiek voor uw lever
 
    ![](assets/create-audience.png)
 
-1. Kies **[!UICONTROL Select audience]** om een bestaand publiek te gebruiken. Als u een nieuw publiek wilt maken dat in deze e-mail wordt gebruikt, kiest u **Maak uw eigen**. Zie dit [sectie](segment-builder.md).
+1. Kies **[!UICONTROL Select audience]** om een bestaand publiek te gebruiken. Als u een nieuw publiek wilt maken dat in deze e-mail wordt gebruikt, kiest u **Maak uw eigen**. Zie dit [sectie](../query/query-modeler-overview.md).
 
    In dit scherm worden alle bestaande soorten publiek weergegeven die zijn gedefinieerd in de Adobe Campaign-clientconsole, voor de huidige map. Blader naar de `AEP Audiences folder` in het filtergedeelte van het scherm.
 
@@ -49,6 +49,6 @@ Volg onderstaande stappen om een Adobe Experience Platform-publiek voor uw lever
 
    ![](assets/refine-audience.png)
 
-1. Gebruikend de regelbouwer, kunt u uw publiek met extra filters verrijken of door verschillende soorten publiek te combineren. Zie dit [sectie](segment-builder.md).
+1. Gebruikend de regelbouwer, kunt u uw publiek met extra filters verrijken of door verschillende soorten publiek te combineren. Zie dit [sectie](../query/query-modeler-overview.md).
 
 1. Klikken **Opslaan**.

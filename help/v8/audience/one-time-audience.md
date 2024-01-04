@@ -3,7 +3,8 @@ audience: end-user
 title: Een eenmalig publiek maken voor levering
 description: Leer hoe u een eenmalig publiek kunt maken voor een levering.
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
+source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Voer de volgende stappen uit om een nieuw publiek rechtstreeks vanaf een leverin
 
    ![](assets/segment-builder0.png)
 
-1. Selecteren **Maak uw eigen**. De regelbouwer wordt weergegeven. Het staat u toe om de bevolking te bepalen die door uw levering wordt gericht door gegevens te filtreren in het gegevensbestand. [Leer hoe u de regelbuilder gebruikt](segment-builder.md)
+1. Selecteren **Maak uw eigen**. De regelbouwer wordt weergegeven. Het staat u toe om de bevolking te bepalen die door uw levering wordt gericht door gegevens te filtreren in het gegevensbestand. [Leer hoe u de regelbuilder gebruikt](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 
