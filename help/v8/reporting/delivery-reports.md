@@ -4,10 +4,10 @@ title: Leveringsrapporten
 description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 2%
+source-wordcount: '324'
+ht-degree: 1%
 
 ---
 
@@ -21,25 +21,35 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
 >title="Exporteren"
->abstract="Klik op de knop **Exporteren** om deze gegevens te exporteren naar PDF- of CSV-indelingen, zodat u ze kunt delen of afdrukken. "
+>abstract="Klik op de knop **Exporteren** om deze gegevens te exporteren naar PDF- of CSV-indelingen, zodat u ze kunt delen of afdrukken."
+
+De **Afleveringsrapporten** biedt diepgaande inzichten en gegevens die uitsluitend zijn gericht op uw **leveringen** over elk kanaal. Deze rapporten verstrekken gedetailleerde informatie over de prestaties, de doeltreffendheid, en de resultaten van uw individuele leveringen, die u van een uitvoerig overzicht voorzien.
+
+De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is beschikbaar in de volgende pagina&#39;s:
+
+* [E-mailleveringsrapporten](email-report.md)
+* [Verzendrapporten via SMS](sms-report.md)
+* [Rapporten over levering verzenden](push-report.md)
+
+## Het rapportdashboard beheren {#manage-reports}
 
 Adobe Campaign biedt verschillende typen rapporten die voor elke levering toegankelijk zijn. Met deze rapporten kunt u de impact en prestaties van uw berichten in een ingebouwd dashboard meten en visualiseren.
 
-Voer de volgende stappen uit om rapporten weer te geven:
+Voer de volgende stappen uit om rapporten weer te geven en te beheren:
 
 1. Als u een rapport voor een specifieke levering wilt genereren, navigeert u naar de **[!UICONTROL Deliveries]** en selecteert u de levering waarvoor u een melding wilt maken.
 
 1. Van uw **[!UICONTROL Delivery]** dashboard, klik **[!UICONTROL Reports]**.
 
-   ![](assets/reporting2.png)
+   ![](assets/manage_delivery_report_1.png)
 
-   U kunt ook de drie stippen gebruiken **Meer handelingen** naast de naam van de levering in de campagnemelijst, zoals hieronder wordt getoond:
+   U kunt ook de drie stippen gebruiken **Meer handelingen** naast de naam van de levering in de lijst met leveringen en selecteer **[!UICONTROL View report]**.
 
-   ![](assets/campaign-reports-view.png){width="50%" align="left" zoomable="yes"}
+   ![](assets/manage_delivery_report_2.png){width="50%" zoomable="yes"}
 
 1. Selecteer in het linkermenu een rapport in de lijst.
 
-   ![](assets/reporting.png)
+   ![](assets/manage_delivery_report_3.png)
 
 1. Als uw levering terugkomt, selecteer een specifieke levering aan rapport door te klikken **[!UICONTROL Select deliveries]**.
 
@@ -47,8 +57,21 @@ Voer de volgende stappen uit om rapporten weer te geven:
 
    ![](assets/delivery-recurring.png)
 
-De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is beschikbaar in de volgende pagina&#39;s:
+1. Van de **[!UICONTROL URLs and click streams]** kunt u ook de optie **[!UICONTROL Top visited Links]** of de **[!UICONTROL Time period]**.
 
-* [E-mailleveringsrapporten](email-report.md)
-* [Verzendrapporten via SMS](sms-report.md)
-* [Rapporten over levering verzenden](push-report.md)
+   De **[!UICONTROL View by]** kunt u filteren op URL&#39;s, labels of categorieën.
+
+   ![](assets/manage_delivery_report_5.png)
+
+## Uw rapporten exporteren {#export-reports}
+
+U kunt uw verschillende rapporten gemakkelijk naar PDF of formaat CSV uitvoeren, dat u toelaat om hen te delen, te manipuleren of te drukken.
+
+1. Klik in uw rapport op **[!UICONTROL Export]** en selecteert u **[!UICONTROL Export as PDF file]** of **[!UICONTROL Export as CSV file]**.
+
+   ![](assets/export_delivery_report.png)
+
+1. Zoek de map waarin u het bestand wilt opslaan, geef het bestand een andere naam, indien nodig, en klik op **[!UICONTROL Save]**.
+
+Uw rapport is nu beschikbaar voor weergave of delen in een PDF- of CSV-bestand.
+

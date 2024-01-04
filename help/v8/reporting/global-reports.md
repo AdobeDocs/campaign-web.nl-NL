@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met Global-rapporten
 description: Globale rapporten begrijpen
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,13 @@ ht-degree: 0%
 
 # Aan de slag met algemene rapporten {#global-report-gs}
 
-Globale rapporten bieden een uitgebreid overzicht van verkeer en betrokkenheid over alle kanalen, en bieden een verscheidenheid van widgets aan die unieke inzichten in campagnes en leveringsprestaties verstrekken.
+De **Algemene rapporten** fungeren als een effectief hulpmiddel en bieden een geconsolideerde algemene samenvatting van verkeers- en betrokkenheidsgegevens voor elk kanaal in uw Campagne-instantie. Deze rapporten bestaan uit verschillende widgets, die elk een duidelijk perspectief bieden op uw campagne of leveringsprestaties.
+
+De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is beschikbaar in de volgende pagina&#39;s:
+
+* [Globale e-mailrapporten](global-report-email.md)
+* [Globale SMS-rapporten](global-report-email-sms.md)
+* [Globale rapporten doorschuiven](global-report-push.md)
 
 ## Het rapportdashboard beheren {#manage-reports}
 
@@ -29,7 +35,7 @@ Voer de volgende stappen uit om toegang te krijgen tot uw Global-rapporten en de
 
    ![](assets/global_report_manage_2.png)
 
-1. Klikken **[!UICONTROL Add rules]** beginnen vragen te bouwen aan betere filter het melden gegevens.
+1. Klikken **[!UICONTROL Add rules]** beginnen vragen te bouwen aan betere filter het melden gegevens. [Leer hoe te om de vraagmodeler te gebruiken](../query/query-modeler-overview.md)
 
 1. Van de **[!UICONTROL URLs and click streams]** kunt u ook de optie **[!UICONTROL Top visited Links]** of de **[!UICONTROL Time period]**.
 
