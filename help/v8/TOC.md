@@ -5,9 +5,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Overzicht van Campaign
 hide: true
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '504'
 ht-degree: 8%
 
 ---
@@ -87,10 +87,10 @@ ht-degree: 8%
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
       + [Testleveringen verzenden](preview-test/test-deliveries.md)
       + [Uw e-mail renderen](preview-test/email-rendering.md)
-+ Soorten publiek en ontvangers {#audiences}
-   + [Aan de slag met ontvangers en publiek](audience/gs-audiences-recipients.md)
-   + Werken met ontvangers {#work-with-recipients}
-      + [Profielen beheren](audience/about-recipients.md)
++ Profielen en doelgroepen {#audiences}
+   + [Aan de slag met profielen en publiek](audience/gs-audiences-recipients.md)
+   + Werken met profielen {#work-with-profiles}
+      + [Profielen bewaken en beheren](audience/about-recipients.md)
       + [Testprofielen maken en beheren](audience/test-profiles.md)
    + Werken met het publiek {#audiences}
       + [Soorten publiek maken](audience/create-audience.md)
@@ -100,7 +100,6 @@ ht-degree: 8%
       + [Eenmalig publiek maken](audience/one-time-audience.md)
       + [Een publiek uit een bestand laden](audience/file-audience.md)
       + [Een controlegroep instellen](audience/control-group.md)
-   + [Werken met de regelbouwer](audience/segment-builder.md)
    + Werken met abonnementsservices {#work-with-services}
       + [Services beheren](audience/manage-services.md)
       + [Abonnees beheren](audience/manage-subscribers.md)
