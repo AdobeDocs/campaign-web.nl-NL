@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="LA"
-source-git-commit: 28b6253cfd257c5522b728222aadc92a1736200d
+source-git-commit: 1dce1bf18dd16f1e4a0f78c6b699275904de8e19
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -106,15 +106,13 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
    ![](assets/content-template-create.png)
 
-1. Vul de sjabloondetails in.
+1. Vul de sjabloondetails in. U kunt de map selecteren waarin u de sjabloon wilt opslaan. Standaard worden inhoudssjablonen opgeslagen in een speciaal knooppunt van de Adobe Campaign-hiërarchie: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Leer hoe u mappen maakt](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
    >[!NOTE]
    >
    >Momenteel alleen de **E-mail** kanaal en **HTML** type worden ondersteund.
-
-1. Selecteer de map waarin u de sjabloon wilt opslaan. Standaard worden inhoudssjablonen opgeslagen in een speciaal knooppunt van de Adobe Campaign-hiërarchie: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Leer hoe u mappen maakt](../get-started/permissions.md#folders)
 
 1. Klikken **[!UICONTROL Create]** en kies uit de verschillende opties hoe u de sjabloon wilt ontwerpen:
 
