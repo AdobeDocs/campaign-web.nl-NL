@@ -3,7 +3,7 @@ title: Aan de slag met profielen en publiek
 description: Leer hoe u met profielen en publiek werkt in Campagne Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
@@ -26,15 +26,15 @@ Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="manage-audience.md"><strong>Profielen bewaken en beheren</strong></a>
+<a href="about-recipients.md"><strong>Profielen bewaken en beheren</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="test-profiles.md">
+<a href="create-audience.md">
 <img alt="Lood" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
-<div><a href="conditions.md"><strong>Soorten publiek maken</strong>
+<div><a href="create-audience.md"><strong>Soorten publiek maken</strong>
 </div>
 <p>
 </td>
@@ -43,7 +43,7 @@ Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze
 <img alt="Onfrequent" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Services beheren</strong></a>
+<a href="manage-services.md"><strong>Services beheren</strong></a>
 </div>
 <p></td>
 <td>
@@ -51,7 +51,7 @@ Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze
 <img alt="Onfrequent" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="content-blocks.md"><strong>Ontvangers selecteren</strong></a>
+<a href="add-audience.md"><strong>Ontvangers selecteren</strong></a>
 </div>
 <p></td>
 </tr></table>
