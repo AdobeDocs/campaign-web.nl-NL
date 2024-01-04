@@ -5,7 +5,8 @@ description: Leer hoe u uw eerste levering maakt in Campagne Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1161'
 ht-degree: 0%
@@ -97,7 +98,7 @@ U kunt de inhoud van het bericht aanpassen door:
 
 * Toevoegen **persoonlijke aanbiedingen**
 
-  Voeg persoonlijke aanbiedingen in uw berichtinhoud in, afhankelijk van de locatie van de ontvanger, het huidige weer of de laatste kooporder. [Meer informatie](../content/offers.md)
+  Voeg persoonlijke aanbiedingen in uw berichtinhoud in, afhankelijk van de locatie van de ontvanger, het huidige weer of de laatste kooporder. [Meer informatie](../msg/offers.md)
 
 ## Geef een voorvertoning van uw leveringen weer en test deze
 

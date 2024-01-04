@@ -4,7 +4,7 @@ title: E-mailrendering testen
 description: Leer hoe u uw e-mailrendering kunt testen in de interface van het campagneweb
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Voor toegang tot rendermogelijkheden via e-mail moet u:
 
 Voer vervolgens de onderstaande stappen uit.
 
-1. In de [Inhoud bewerken](../content/edit-content.md) of in de [E-mailDesigner](../content/get-started-email-designer.md)klikt u op de knop **[!UICONTROL Simulate content]** knop.
+1. In de [Inhoud bewerken](../email/edit-content.md) of in de [E-mailDesigner](../email/get-started-email-designer.md)klikt u op de knop **[!UICONTROL Simulate content]** knop.
 
 1. Selecteer de knop **[!UICONTROL Render email]**.
 

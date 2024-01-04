@@ -4,7 +4,7 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 0%
@@ -93,7 +93,7 @@ In het gedeelte BESLUIT BEHEER kunt u de aanbiedingen en aanbiedingstemplates be
 
 * **Aanbiedingen** - Blader door de lijst met aanbiedingen en aanbiedingstemplates die in de console zijn gemaakt met de **Interactie** -module. Standaard kunt u hun status, begin- en einddatum en omgeving bekijken. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar.
 
-Meer informatie over het maken en verzenden van aanbiedingen in e-mails en SMS in [deze sectie](../content/offers.md).
+Meer informatie over het maken en verzenden van aanbiedingen in e-mails en SMS in [deze sectie](../msg/offers.md).
 
 
 

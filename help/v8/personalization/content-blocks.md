@@ -6,13 +6,13 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 badge: label="Beta"
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
-
 
 # Ingebouwde inhoudsblokken {#ootb-content-blocks}
 
@@ -39,7 +39,7 @@ Ingebouwde inhoudsblokken zijn:
 * **[!UICONTROL Formatting function for proper nouns]**: genereert de **[!UICONTROL toSmartCase]** De functie Javascript, die de eerste letter van elk woord in hoofdletters verandert.
 * **[!UICONTROL Greetings]**: voegt begroetingen in met de volledige naam van de ontvanger, gevolgd door een komma. Voorbeeld: &quot;Hello John Doe,&quot;.
 * **[!UICONTROL Insert Logo]**: voegt een logo in dat in de instantie-instellingen is gedefinieerd.
-* **[!UICONTROL Link to mirror page]**: voegt een koppeling in naar de [spiegelpagina](../content/mirror-page.md). De standaardnotatie is: &quot;Als u dit bericht niet correct kunt weergeven, klikt u hier&quot;.
+* **[!UICONTROL Link to mirror page]**: voegt een koppeling in naar de [spiegelpagina](../email/mirror-page.md). De standaardnotatie is: &quot;Als u dit bericht niet correct kunt weergeven, klikt u hier&quot;.
 * **[!UICONTROL Mirror page URL]**: voegt de URL van de spiegelpagina in, waardoor de leveringsontwerpers de koppeling kunnen controleren.
 * **[!UICONTROL Notification style]**
 * **[!UICONTROL Offer acceptance URL in unitary mode]**: voegt een URL in waarmee een aanbieding kan worden ingesteld op **[!UICONTROL Accepted]**. (Dit blok is beschikbaar als de module van de Interactie wordt toegelaten)
@@ -54,4 +54,3 @@ Ingebouwde inhoudsblokken zijn:
 >[!NOTE]
 >
 >U kunt nieuwe blokken definiëren vanuit de Adobe Campaign v8-console waarmee u uw leveringen kunt optimaliseren. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}.
-

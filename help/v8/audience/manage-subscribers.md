@@ -3,19 +3,19 @@ audience: end-user
 title: De abonnees van een service beheren
 description: Leer hoe te om aan de abonnees van de dienst in Adobe Campaign Web te beheren en te leveren
 badge: label="Beta"
-source-git-commit: 6406be82c2bad9346f6743e18535fdfe132b2bd0
+exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
-
 
 # De abonnees van een service beheren {#manage-subscribers}
 
 Eenmaal [een service gemaakt](manage-services.md#create-service), kunt u abonnees toevoegen, ontvangers afmelden, en berichten naar de abonnees van die dienst verzenden.
 
-Abonneenbeheer wordt in deze pagina beschreven. Als u wilt leren hoe u berichten naar uw abonnees kunt verzenden, raadpleegt u [deze sectie](../content/send-to-subscribers.md).
+Abonneenbeheer wordt in deze pagina beschreven. Als u wilt leren hoe u berichten naar uw abonnees kunt verzenden, raadpleegt u [deze sectie](../msg/send-to-subscribers.md).
 
 ## Abonnees toevoegen aan uw service {#add-subscribers}
 
@@ -41,7 +41,7 @@ De toegevoegde profielen worden weergegeven in het dialoogvenster **[!UICONTROL 
 
 ### Ontvangers handmatig afmelden {#manual-unsubscription}
 
-Eenmaal [toegevoegde abonnees](#add-subscribers) voor uw service, kunt u elk van deze instellingen handmatig afmelden. Volg de onderstaande stappen.
+Eenmaal [toegevoegde abonnees](#add-subscribers) voor uw service, kunt u elk van deze instellingen handmatig afmelden. Voer de onderstaande stappen uit.
 
 1. Selecteer een bestaande service in het menu **[!UICONTROL Subscription services]** lijst.
 

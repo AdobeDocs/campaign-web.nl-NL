@@ -4,7 +4,7 @@ title: Voorvertoning van leveringsinhoud
 description: Leer hoe u een voorvertoning van uw inhoud kunt weergeven via de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 2%
@@ -18,7 +18,7 @@ Gebruik de [!DNL Campaign] de mogelijkheid van de inhoudsimulatie om de inhoud v
 
 Volg onderstaande stappen om een voorvertoning van de inhoud van uw levering weer te geven.
 
-1. Blader naar het scherm Inhoud bewerken van uw levering of naar het dialoogvenster [E-mailDesigner](../content/get-started-email-designer.md).
+1. Blader naar het scherm Inhoud bewerken van uw levering of naar het dialoogvenster [E-mailDesigner](../email/get-started-email-designer.md).
 
 1. Klik op de knop **[!UICONTROL Simulate content]**.
 

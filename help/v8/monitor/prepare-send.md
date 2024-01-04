@@ -4,9 +4,9 @@ title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
 badge: label="Beta"
-source-git-commit: 1fef8cd125d2688c70997bb44681f0832277f7fd
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## De verzending voorbereiden {#prepare}
 
-Wanneer u uw [content](../content/edit-content.md), [publiek](../audience/add-audience.md), en [schema](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), je kunt je e-maillevering voorbereiden.
+Wanneer u uw [content](../email/edit-content.md), [publiek](../audience/add-audience.md), en [schema](../msg/gs-messages.md#schedule-the-delivery-sending-gs-schedule), je kunt je e-maillevering voorbereiden.
 
 Tijdens de voorbereiding van de levering, wordt de doelbevolking berekend en de berichtinhoud geproduceerd voor elk profiel inbegrepen in het doel. Zodra de voorbereiding is voltooid, zijn de berichten klaar om te worden verzonden, of onmiddellijk of op de geplande datum en tijd.
 
@@ -87,7 +87,7 @@ Voer de onderstaande stappen uit als u direct een e-mail wilt verzenden.
 
 1. De verzendvoortgang wordt weergegeven.
 
-### Plan de verzending {#schedule-the-send}
+### Het verzenden plannen {#schedule-the-send}
 
 Voer de onderstaande stappen uit als u uw e-mail op een latere datum en tijd wilt verzenden.
 

@@ -6,7 +6,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 2%
@@ -28,14 +28,14 @@ Een sjabloon kan het volgende bevatten:
 * [Typologieën](../advanced-settings/delivery-settings.md#typology),
 * Het adres van de afzender,
 * An [publiek](../audience/about-recipients.md), inclusief [controlegroepen](../audience/control-group.md),
-* Aangepast [content](../content/edit-content.md),
+* Aangepast [content](../email/edit-content.md),
 * [Persoonlijke velden](../personalization/personalize.md) en [voorwaardelijke inhoud](../personalization/conditions.md),
-* Koppelingen naar [spiegelpagina](../content/mirror-page.md) en uit-abonnement [koppelingen](../content/message-tracking.md),
+* Koppelingen naar [spiegelpagina](../email/mirror-page.md) en uit-abonnement [koppelingen](../email/message-tracking.md),
 * Andere leveringseigenschappen, zoals middelgeldigheid, retry parameters, of quarantaine montages.
 
 >[!NOTE]
 >
->Afleveringssjablonen verschillen van [inhoudssjablonen](../content/create-email-templates.md), waarmee u alleen de inhoud van uw e-mails kunt hergebruiken en inhoud kunt gaan samenstellen met een van de voorbeeldsjablonen die u offline hebt ontvangen.
+>Afleveringssjablonen verschillen van [inhoudssjablonen](../email/create-email-templates.md), waarmee u alleen de inhoud van uw e-mails kunt hergebruiken en inhoud kunt gaan samenstellen met een van de voorbeeldsjablonen die u offline hebt ontvangen.
 
 
 ## Leveringssjablonen openen en beheren {#access-manage-templates}

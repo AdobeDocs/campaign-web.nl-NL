@@ -4,7 +4,7 @@ title: Voorvertoning en test voor levering
 description: Leer hoe u leveringen kunt voorvertonen en testen
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Om dit te doen, [!DNL Adobe Campaign] biedt de volgende mogelijkheden:
 * [Testleveringen verzenden](test-deliveries.md) (proefdrukken) voor specifieke ontvangers of abonnees voor tests en validatie
 * [De rendering van e-mail controleren](email-rendering.md) in populaire desktops, mobiele en webgebaseerde clients
 
-Deze handelingen kunnen worden uitgevoerd met de opdracht **[!UICONTROL Simulate content]** -knop, die toegankelijk is via het scherm Inhoud bewerken van uw levering - of via de [E-mailDesigner](../content/get-started-email-designer.md).
+Deze handelingen kunnen worden uitgevoerd met de opdracht **[!UICONTROL Simulate content]** -knop, die toegankelijk is via het scherm Inhoud bewerken van uw levering - of via de [E-mailDesigner](../email/get-started-email-designer.md).
 
 ![](assets/simulate-button.png)
 

@@ -4,7 +4,7 @@ title: Een pushmelding maken
 description: Leer hoe u een pushmelding maakt met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 4ea25f0877fd3f0ab02f3023f041bd040e0530a3
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 1%
@@ -85,7 +85,7 @@ Klik op **[!UICONTROL Edit content]**. [Meer informatie](content-push.md)
 
 ![](assets/push_create_5.png)
 
-Vanuit dit scherm kunt u ook [simuleren, inhoud](../preview-test/preview-test.md) en [aanbiedingen instellen](../content/offers.md).
+Vanuit dit scherm kunt u ook [simuleren, inhoud](../preview-test/preview-test.md) en [aanbiedingen instellen](../msg/offers.md).
 
 ## Plaats de verzending van de levering {#schedule-push}
 

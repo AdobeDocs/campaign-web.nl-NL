@@ -4,7 +4,7 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 1%
@@ -69,7 +69,7 @@ Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mailberichten, 
 Gebruik de nieuwe UI van het Web van de Campagne:
 
 * E-mail-, SMS- en pushberichten maken, ontwerpen, personaliseren, plannen en verzenden - [Meer informatie](../msg/gs-messages.md)
-* Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper - [Meer informatie](../content/edit-content.md)
+* Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper - [Meer informatie](../email/edit-content.md)
 * Campagnes voor meerdere kanalen verzenden, waaronder SMS- en pushberichten - [Meer informatie](../workflows/activities/channels.md)
 * Bepaal doelpubliek met de regelbouwer - [Meer informatie](../audience/about-recipients.md)
 * Je berichten voorvertonen, testen en verzenden - [Meer informatie](../monitor/prepare-send.md)
@@ -113,7 +113,7 @@ De belangrijkste mogelijkheden die met de Beperkte versie van de Beschikbaarheid
 
   Neem afscheid van het handmatig maken van inhoud en begroet efficiënte, door gegevens gestuurde campagnes met de kracht van Gen AI.  Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen voor **zeer boeiende en gepersonaliseerde inhoud genereren**. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI. Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud.
 
-  Meer informatie in [deze sectie](../content/generative-gs.md).
+  Meer informatie in [deze sectie](../email/generative-gs.md).
 
 
 * **Contextafhankelijke Help voor AI**
@@ -132,14 +132,14 @@ De belangrijkste mogelijkheden die met de Beperkte versie van de Beschikbaarheid
 
   U kunt nu **HTML-inhoud importeren en converteren** in de e-maileditor van Campaign. Inhoudsblokken worden automatisch geïdentificeerd en zijn beschikbaar in de e-mailontwerper: gebruik zijn krachtige ontwerpmogelijkheden om de inhoud bij te werken en aan te passen!
 
-  Meer informatie in [deze sectie](../content/existing-content.md).
+  Meer informatie in [deze sectie](../email/existing-content.md).
 
 
 * **SMS met voorstellen**
 
   Met de nieuwe webinterface kunt u nu **aanbiedingen met SMS integreren** naast E-mail. Bereid uw publiek op hun mobiele apparaten, leverend bevorderingen, en geschikte berichten. Verhoog uw marketinginspanningen door gebruik te maken van de kracht van geïntegreerde aanbiedingen via SMS op ons geavanceerde webplatform.
 
-  Meer informatie in [deze sectie](../content/offers.md).
+  Meer informatie in [deze sectie](../msg/offers.md).
 
 ## Overgang naar interface van het Web van de Campagne
 
