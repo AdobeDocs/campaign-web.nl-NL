@@ -4,7 +4,7 @@ title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 424caa898ff9d73f3520aa6d682eb1963d992069
+source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
    ![](assets/select-audience-folder.png)
 
-1. Met de filtersectie hebt u toegang tot filteropties om de lijst met doelgroepen te verfijnen. Om dit te doen, klik **Regels toevoegen** om tot de regelbouwer toegang te hebben, die u geavanceerde filters voor de lijst van publiek laat tot stand brengen. [Leer hoe u de regelbuilder gebruikt](segment-builder.md)
+1. Met de filtersectie hebt u toegang tot filteropties om de lijst met doelgroepen te verfijnen. Om dit te doen, klik **Regels toevoegen** om tot de regelbouwer toegang te hebben, die u geavanceerde filters voor de lijst van publiek laat tot stand brengen. [Leer hoe u de regelbuilder gebruikt](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
