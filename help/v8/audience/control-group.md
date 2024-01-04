@@ -4,10 +4,10 @@ title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het Web UI van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 badge: label="Beta"
-source-git-commit: 334014d3d89c878617b8e43ea73c9ff4e957f6d7
+source-git-commit: 2ff2411e34ef63c1ca4da355a577777394e2664f
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 12%
+source-wordcount: '780'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ Een controlegroep is een subpopulatie die van de levering is uitgesloten. U kunt
 
 Om een controlegroep toe te voegen, laat de optie toe wanneer het bepalen van het publiek van uw levering. De controlegroep kan willekeurig uit de hoofdtarget worden geëxtraheerd, en/of uit een specifieke populatie worden geselecteerd. Dit betekent dat u een controlegroep op twee manieren kunt definiëren:
 
-* Een aantal profielen extraheren uit de hoofdtarget.
+* Extraheer een aantal profielen uit het hoofddoel.
 * Sluit enkele profielen uit van een lijst of op basis van criteria die zijn gedefinieerd in een query.
 
 U kunt beide methoden combineren bij het definiëren van een besturingsgroep.
@@ -45,7 +45,7 @@ Als u een controlegroep wilt toevoegen aan een levering, activeert u de optie **
 
 ### Een controlegroep samenstellen {#build-extract-target}
 
-Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren. Als u liever een extra populatie toevoegt, kiest u de optie **Geen extractie** en selecteert u de extra populatie [zoals hier beschreven](#extra-population).
+Als u een controlegroep wilt definiëren, kunt u kiezen of u willekeurig of op basis van een sortering, een percentage of een vast aantal profielen wilt extraheren uit de doelpopulatie. Als u liever een extra populatie toevoegt, kiest u de optie **Geen extractie** en selecteert u de extra populatie [zoals hier beschreven](#extra-population).
 
 Definieer eerst de manier waarop de profielen uit het doel worden geëxtraheerd: willekeurig of op basis van een sortering.
 
@@ -114,7 +114,7 @@ Van de **Extra populatie** van de **Controlegroep** definitiescherm, klik **[!UI
 
 * Om een bestaand publiek te gebruiken, klik **Doelgroep selecteren**. Meer informatie in [deze sectie](add-audience.md).
 
-* Als u een nieuwe query wilt definiëren, selecteert u **Maak uw eigen** en definieert u de uitsluitingscriteria met behulp van de regelbouwer. Meer informatie in [deze sectie](segment-builder.md).
+* Als u een nieuwe query wilt definiëren, selecteert u **Maak uw eigen** en definieert u de uitsluitingscriteria met behulp van de regelbouwer. Meer informatie in [deze sectie](../query/query-modeler-overview.md).
 
 De profielen die zijn opgenomen in het publiek of die overeenkomen met het resultaat van de query, zijn **uitgesloten** van het leveringsdoel: zij ontvangen geen bericht.
 
