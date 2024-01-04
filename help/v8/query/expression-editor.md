@@ -3,10 +3,10 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '1919'
-ht-degree: 60%
+source-wordcount: '1905'
+ht-degree: 59%
 
 ---
 
@@ -16,17 +16,19 @@ ht-degree: 60%
 
 Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel te vormen. In deze modus kunt u geavanceerde functies gebruiken. Met deze functies kunt u de waarden bewerken die worden gebruikt voor het uitvoeren van specifieke query&#39;s, zoals het bewerken van datums, tekenreeksen, numerieke velden, sorteren, enzovoort.
 
-Deze verrichtingen zijn beschikbaar bij de de uitdrukkingsknoop van de vraagmodelleur Edit, beschikbaar voor de gebieden van Attributen en van de Waarde wanneer het vormen van een douanevoorwaarde.
+Deze verrichtingen zijn beschikbaar bij vraagmodeler **[!UICONTROL Edit expression]** , beschikbaar voor de **[!UICONTROL Attribute]** en **[!UICONTROL Value]** velden bij het configureren van een aangepaste voorwaarde.
 
 ![](assets/edit-expression.png)
 
 De uitdrukkingsredacteur verstrekt:
 
-* Een invoerveld waarin de expressie wordt gedefinieerd.
-* De lijst van beschikbare gebieden die in de uitdrukking kunnen worden gebruikt en aan de het richten dimensie van de vraag beantwoorden.
-* De lijst met beschikbare functies, gesorteerd op categorie.
+* An **invoerveld (1)** waarin de expressie wordt gedefinieerd.
+* De lijst met beschikbare **velden 2** die in de uitdrukking kunnen worden gebruikt en aan de het richten dimensie van de vraag beantwoorden.
+* **Helperfuncties (3)**, gesorteerd op categorie
 
-Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren of door de lijsten met beschikbare velden en functies te gebruiken. Plaats de cursor in de expressie waar u het element wilt toevoegen en dubbelklik op het gewenste veld of de gewenste expressie.
+![](assets/expression-editor.png)
+
+Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren. Als u een veld of hulpfunctie wilt toevoegen, plaatst u de cursor in de expressie waar u deze wilt toevoegen en klikt u op +.
 
 ## Helpfuncties
 

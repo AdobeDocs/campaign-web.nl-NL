@@ -4,9 +4,9 @@ title: Afleveringsinstellingen
 description: Meer informatie over de leveringsinstellingen in Campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beta"
-source-git-commit: fdb0d424fa7cb41bccba8283b8e07e038c2c6515
+source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2087'
 ht-degree: 5%
 
 ---
@@ -119,10 +119,9 @@ De **belang van de begunstigde** het veld is een formule die wordt gebruikt om t
 >title="Instellingen voor het publiek voor de levering"
 >abstract="Selecteer een **doeltoewijzing** onder de beschikbare groepen. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console. U kunt ook de uitsluitingsparameters voor de levering instellen. "
 
-In deze sectie kunt u een **doeltoewijzing** onder de beschikbare groepen. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console. De het richten dimensie, of doelafbeelding, is het type van gegevens dat een verrichting behandelt. Hiermee kunt u de doelgroep definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz.
+In deze sectie kunt u een **doeltoewijzing** onder de beschikbare groepen. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console. De doelafbeelding is het type gegevens dat een bewerking afhandelt. Hiermee kunt u de doelgroep definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz.
 
-
-Meer informatie over doeltoewijzingen in [deze sectie](../audience/about-recipients.md#targeting-dimensions).
+Meer informatie over doeltoewijzingen in [deze sectie](../audience/targeting-dimensions.md).
 
 ## Levering {#delivery}
 
