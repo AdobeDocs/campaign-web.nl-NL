@@ -3,22 +3,28 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '1905'
-ht-degree: 59%
+source-wordcount: '2000'
+ht-degree: 55%
 
 ---
 
 # Expressies bewerken {#expression}
 
-## Een expressie bewerken {#edit}
+Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel te vormen. In deze modus kunt u geavanceerde functies gebruiken waarmee u de waarden kunt bewerken die worden gebruikt voor het uitvoeren van specifieke query&#39;s, zoals datums, tekenreeksen, numerieke velden, sorteren, enzovoort.
 
-Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel te vormen. In deze modus kunt u geavanceerde functies gebruiken. Met deze functies kunt u de waarden bewerken die worden gebruikt voor het uitvoeren van specifieke query&#39;s, zoals het bewerken van datums, tekenreeksen, numerieke velden, sorteren, enzovoort.
+>[!IMPORTANT]
+>
+>De sectie hieronder verstrekt informatie over hoe te met de uitdrukkingsredacteur te werken om regels te bouwen. Onthoud dat de syntaxis die wordt gebruikt om regels te bouwen verschilt van de syntaxis die wordt gebruikt om personalisatie toe te voegen.
 
-Deze verrichtingen zijn beschikbaar bij vraagmodeler **[!UICONTROL Edit expression]** , beschikbaar voor de **[!UICONTROL Attribute]** en **[!UICONTROL Value]** velden bij het configureren van een aangepaste voorwaarde.
+## Werken met de expressie-editor {#edit}
 
-![](assets/edit-expression.png)
+De uitdrukkingsredacteur is beschikbaar bij vraagmodeler **[!UICONTROL Edit expression]** , beschikbaar voor de **[!UICONTROL Attribute]** en **[!UICONTROL Value]** velden bij het configureren van een aangepaste voorwaarde.
+
+| Toegang van de **Kenmerk** field | Toegang van de **Waarde** field |
+|  ---  |  ---  |
+| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
 
 De uitdrukkingsredacteur verstrekt:
 
@@ -29,6 +35,12 @@ De uitdrukkingsredacteur verstrekt:
 Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren. Als u een veld of hulpfunctie wilt toevoegen, plaatst u de cursor in de expressie waar u deze wilt toevoegen en klikt u op +.
 
 ![](assets/expression-editor.png)
+
+Wanneer uw uitdrukking klaar is, klik **[!UICONTROL Confirm]** knop. De expressie wordt weergegeven in het geselecteerde veld. Als u deze wilt bewerken, opent u de editor voor de expressie en brengt u de gewenste wijzigingen aan.
+
+In het onderstaande voorbeeld ziet u een expressie die is geconfigureerd voor het **[!UICONTROL Value]** veld. Als u de editor wilt bewerken, moet u de editor voor expressies openen met de opdracht **[!UICONTROL Edit expression]** knop.
+
+![](assets/edit-expression-value.png)
 
 ## Helpfuncties
 

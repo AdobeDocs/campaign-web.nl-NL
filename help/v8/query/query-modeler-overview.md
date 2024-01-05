@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: fd29d499bc84e381e7a8c016b468ce85837cac6a
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -54,15 +54,15 @@ De vraagmodeler verstrekt een centraal canvas waar u uw vraag bouwt, en een juis
 
 ### Het centrale canvas {#canvas}
 
-Het centrale canvas van de vraagmodeler is waar u toevoegt en de verschillende componenten combineert die uw vraag opbouwen.
+Het centrale canvas van de vraagmodeler is waar u toevoegt en de verschillende componenten combineert die uw vraag opbouwen. [Leer hoe u een query maakt](build-query.md)
 
 De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de querycomponenten eenvoudig kunt manipuleren en op het canvas kunt navigeren:
 
-* Meerdere selectiemodus: selecteer meerdere filtercomponenten om deze op de gewenste locatie te kopiëren en te plakken.
-* Roteren: draai het canvas verticaal.
-* Aanpassen aan scherm: Pas het zoomniveau van het canvas aan op het scherm.
-* Uitzoomen/Inzoomen: Uitzoomen of op het canvas.
-* Weergavekaart: hiermee opent u een opname van het canvas waarop u ziet waar u zich bevindt.
+* **Meerdere selectiemodus**: Selecteer meerdere filtercomponenten om deze op de gewenste locatie te kopiëren en te plakken.
+* **Roteren**: Verander het canvas verticaal.
+* **Aanpassen aan scherm**: Pas het zoomniveau van het canvas aan op het scherm.
+* **Uitzoomen** / **Inzoomen**: Uitzoomen of op het canvas.
+* **Kaart weergeven**: Hiermee opent u een opname van het canvas waarop u uw locatie ziet.
 
 ### Het deelvenster Eigenschappen van regel {#rule-properties}
 
