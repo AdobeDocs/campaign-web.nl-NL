@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,28 @@ Beschikbare operatoren zijn:
 * **BEHALVE (Uitsluiting)**: Hiermee sluit u resultaten uit die overeenkomen met alle filtercomponenten in de uitgaande overgang.
 
 ![](assets/query-operator-change.png)
+
+### Filtercomponenten kopiëren en plakken {#copy}
+
+Met de querymodelfunctie kunt u een of meer filtercomponenten kopiëren en deze aan het einde van een overgang plakken. Deze bewerking kan worden uitgevoerd binnen het huidige querycanvas of op elk canvas in uw instantie.
+
+>[!NOTE]
+>
+>De gekopieerde selectie blijft behouden zolang u in uw exemplaar werkt. Als u zich afmeldt en weer aanmeldt, is uw selectie niet meer beschikbaar voor plakken.
+
+Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
+
+1. Selecteer de filtercomponent die u wilt kopiëren door erop in het vraagcanvas te klikken. Als u meerdere componenten wilt selecteren, gebruikt u het gereedschap Meerdere selecties dat beschikbaar is in de werkbalk rechtsboven op het canvas.
+
+1. Klik op de knop **[!UICONTROL Copy]** in het deelvenster Eigenschappen van de component of in het blauwe lint onder aan het scherm als u meerdere componenten hebt geselecteerd.
+
+   | Eén component kopiëren | Meerdere componenten kopiëren |
+   |  ---  |  ---  |
+   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+
+1. Als u de component(en) wilt plakken, klikt u op de +-knop aan het einde van de gewenste overgang en selecteert u **In items plakken**.
+
+![](assets/copy-paste.png)
 
 ## Uw query controleren en valideren
 

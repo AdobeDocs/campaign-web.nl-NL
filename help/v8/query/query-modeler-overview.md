@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: e61878f325575377865186fb9cb63b831ac843fd
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,6 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
 | **Rapportgegevens filteren**: Voeg regel toe om de gegevens te filteren die in rapporten worden getoond. | ![](assets/access-reports.png){width="200" align="center" zoomable="yes"} |
 | **Lijsten aanpassen**: Maak aangepaste regels om de gegevens te filteren die worden weergegeven in lijsten zoals ontvangers, leveringslijsten, enz. | ![](assets/access-lists.png){width="200" align="center" zoomable="yes"} |
 
-
-
 <!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
 
 +++Example
@@ -48,11 +46,24 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
  +++
 -->
 
-
 ## Query-modellerinterface {#interface}
 
-De vraagmodeler verstrekt een centraal canvas waar u de verschillende componenten kunt toevoegen en combineren die uw vraag opbouwen.
-
-Aan de rechterkant bevat het deelvenster Eigenschappen regel informatie over uw query. Het staat u toe om diverse handelingen uit te voeren om uw vraag te controleren en ervoor te zorgen het uw behoeften aanpast. Leer hoe u uw query kunt controleren en valideren
+De vraagmodeler verstrekt een centraal canvas waar u uw vraag bouwt, en een juiste ruit die informatie over uw vraag verstrekt.
 
 ![](assets/query-interface.png)
+
+### Het centrale canvas {#canvas}
+
+Het centrale canvas van de vraagmodeler is waar u toevoegt en de verschillende componenten combineert die uw vraag opbouwen.
+
+De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de querycomponenten eenvoudig kunt manipuleren en op het canvas kunt navigeren:
+
+* Meerdere selectiemodus: selecteer meerdere filtercomponenten om deze op de gewenste locatie te kopiëren en te plakken.
+* Roteren: draai het canvas verticaal.
+* Aanpassen aan scherm: Pas het zoomniveau van het canvas aan op het scherm.
+* Uitzoomen/Inzoomen: Uitzoomen of op het canvas.
+* Weergavekaart: hiermee opent u een opname van het canvas waarop u ziet waar u zich bevindt.
+
+### Het deelvenster Eigenschappen van regel {#rule-properties}
+
+Aan de rechterkant **[!UICONTROL Rule properties]** verstrekt informatie over uw vraag. Het staat u toe om diverse handelingen uit te voeren om de vraag te controleren en ervoor te zorgen het uw behoeften aanpast. [Leer hoe u uw query kunt controleren en valideren](build-query.md#check-and-validate-your-query)

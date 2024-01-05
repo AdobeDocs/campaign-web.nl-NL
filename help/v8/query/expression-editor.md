@@ -3,7 +3,7 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7faf1e38f34184e518419a74d8c482b24a8a1ebe
+source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
 workflow-type: tm+mt
 source-wordcount: '1905'
 ht-degree: 59%
@@ -26,9 +26,9 @@ De uitdrukkingsredacteur verstrekt:
 * De lijst met beschikbare **velden 2** die in de uitdrukking kunnen worden gebruikt en aan de het richten dimensie van de vraag beantwoorden.
 * **Helperfuncties (3)**, gesorteerd op categorie
 
-![](assets/expression-editor.png)
-
 Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren. Als u een veld of hulpfunctie wilt toevoegen, plaatst u de cursor in de expressie waar u deze wilt toevoegen en klikt u op +.
+
+![](assets/expression-editor.png)
 
 ## Helpfuncties
 
