@@ -2,9 +2,9 @@
 title: Profielen bewaken en beheren
 description: Leer om profielen in het Web van de Campagne te controleren en te beheren.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 41c38ff3b18c28fbcb6fd07dd398600a207f53cb
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -24,17 +24,31 @@ ht-degree: 0%
 
 ## Aan de slag met profielen {#gs}
 
-Een profiel in het Web van Adobe Campaign is een individu dat in het gegevensbestand wordt opgeslagen, dat als zeer belangrijke component dient om publiek voor leveringen tot stand te brengen en verpersoonlijkingsgegevens aan uw inhoud toe te voegen. Verschillende typen profielen worden opgeslagen in de database, zoals testprofielen, die zijn ontworpen om de leveringen te testen voordat ze naar het uiteindelijke publiek worden verzonden. [Leer hoe u met testprofielen werkt](test-profiles.md)
+Een profiel in het Web van Adobe Campaign is een individu dat in het gegevensbestand wordt opgeslagen, dat als zeer belangrijke component dient om publiek voor leveringen tot stand te brengen en verpersoonlijkingsgegevens aan uw inhoud toe te voegen.
 
-Profielen kunnen alleen vanaf de Campagne-clientconsole worden toegevoegd. Ze zijn echter toegankelijk via het webadres van Adobe Campaign **Profielen** in de linkernavigatieregel. U kunt ze ook openen via het dialoogvenster **Verkenner** Hiermee kunt u bladeren naar mappen, submappen en de bijbehorende machtigingen controleren.
+Andere typen profielen worden opgeslagen in de database, zoals **[!UICONTROL Test profiles]**, die zijn ontworpen om uw leveringen te testen voordat ze naar het uiteindelijke publiek worden verzonden. [Leer hoe u met testprofielen werkt](test-profiles.md)
 
-U kunt de profielenlijst filtreren gebruikend het onderzoeksgebied of de filters beschikbaar bij **Filters tonen** knop.
-
-![](assets/profiles-list.png)
+Profielen kunnen alleen via de Adobe Campaign-clientconsole worden gemaakt - [leren hoe](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/create-profiles.html){target="_blank"}. Ze zijn echter toegankelijk en bewerkbaar op het Adobe Campaign Web via het **[!UICONTROL Customer management]** > **Profielen** in de linkernavigatieregel.
 
 >[!NOTE]
 >
 >Afhankelijk van uw machtigingen hebt u mogelijk geen toegang tot de volledige lijst met profielen die in de database zijn opgeslagen. Meer informatie over machtigingen in [deze sectie](../get-started/permissions.md).
+
+* U kunt het filter **[!UICONTROL Profiles]** lijst die het onderzoeksgebied of de filters gebruikt beschikbaar bij **Filters tonen** knop. U kunt de resultaten beperken tot een specifieke [map](../get-started/permissions.md#folders) het gebruiken van de drop-down lijst, of voegt regels toe gebruikend [querymodel](../query/query-modeler-overview.md).
+
+  ![](assets/profiles-list.png)
+
+* Als u een profiel wilt verwijderen, selecteert u de bijbehorende optie in het menu **[!UICONTROL More actions]** -menu.
+
+* Klik op het gewenste item in de lijst als u een profiel wilt bewerken. [Meer informatie](#access)
+
+U hebt ook toegang tot profielen via de **[!UICONTROL Explorer]** van de **[!UICONTROL Profiles & Targets]** > **[!UICONTROL Recipients]** knooppunt.
+
+Vervolgens kunt u mappen of submappen bladeren, maken en beheren en de bijbehorende machtigingen controleren. [Leer hoe u mappen maakt](../get-started/permissions.md#folders)
+
+![](assets/profiles-explorer-folder.png)
+
+Van de **[!UICONTROL Explorer]** kunt u ook filteren, verwijderen en [bewerken](#access) profielen.
 
 ## Kenmerken van profielen openen en bewerken {#access}
 
@@ -78,12 +92,36 @@ U kunt de profielenlijst filtreren gebruikend het onderzoeksgebied of de filters
 >title="Lijst met abonnementen voor ontvangers"
 >abstract="Dit tabblad bevat een lijst met alle services waarop het profiel is geabonneerd."
 
-Als u de details van een profiel wilt openen, klikt u op de naam van het profiel in de lijst met profielen.
+Voer de onderstaande stappen uit om toegang te krijgen tot de details van een profiel en deze te bewerken.
 
-![](assets/profiles-details.png)
+1. Bladeren naar **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]**.
 
-Via dit scherm hebt u toegang tot gedetailleerde informatie over het profiel:
+1. Klik op het gewenste item in het pop-upmenu **[!UICONTROL Profiles]** lijst.
 
-* De **[!UICONTROL Details]** kunt u door de ingebouwde en aangepaste kenmerken van het profiel bladeren. Als u een kenmerk wilt bewerken, brengt u wijzigingen aan in het gewenste veld en klikt u op de knop **[!UICONTROL Save]** knop.
-* De **[!UICONTROL Subscriptions]** bevat informatie over de services waarop het profiel is geabonneerd. [Leer hoe u met abonnementsservices werkt](manage-services.md)
-* De **[!UICONTROL Logs]** in de rechterbovenhoek van het scherm kunt u een geschiedenis van de interacties van het profiel weergeven door logbestanden te verzenden, uit te sluiten en te volgen en door de voorgestelde profielen naar het profiel te verzenden.
+1. U hebt toegang tot de gedetailleerde informatie over het profiel.
+
+   ![](assets/profile-details.png)
+
+1. De **[!UICONTROL Details]** kunt u door de ingebouwde en aangepaste kenmerken van het profiel bladeren. Als u een kenmerk wilt bewerken, brengt u wijzigingen aan in het gewenste veld en klikt u op de knop **[!UICONTROL Save]** knop.
+
+   1. Profielen worden standaard opgeslagen in de **[!UICONTROL Recipients]** map. U kunt dit wijzigen door naar de gewenste locatie te bladeren. [Leer hoe u met mappen werkt](../get-started/permissions.md#folders)
+
+      ![](assets/profile-folder.png)
+
+   1. In de **[!UICONTROL Contact information]** kunt u het e-mailadres en andere relevante gegevens bijwerken. Het e-mailadres wordt tussen haakjes weergegeven na het profiellabel.
+
+      ![](assets/profile-address.png)
+
+   1. Controleer de **[!UICONTROL No longer contact]** opties en werk deze zo nodig bij. Als een van deze opties is geselecteerd, wordt het profiel op lijst van gewezen personen weergegeven. Deze informatie wordt toegevoegd aan de contactgegevens als de ontvanger bijvoorbeeld op een koppeling voor niet-abonnementen in een nieuwsbrief heeft geklikt. Deze ontvanger is niet meer gericht op de geselecteerde kanalen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+
+      ![](assets/profile-no-longer-contact.png)
+
+   1. Als er **[!UICONTROL Custom fields]**, kunt u de waarden naar wens bijwerken. Aangepaste velden zijn aanvullende kenmerken die aan de **[!UICONTROL Profiles]** schema door de Adobe Campaign console. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
+
+      ![](assets/profile-custom-fields.png)
+
+1. Klik op de knop **[!UICONTROL Subscriptions]** voor toegang tot informatie over de services waarop het profiel is geabonneerd. [Leer hoe u met abonnementsservices werkt](manage-services.md)
+
+1. Klik op de knop **[!UICONTROL Logs]** in de rechterbovenhoek van het scherm om de geschiedenis van de interacties van het profiel te bekijken door logbestanden te verzenden, uit te sluiten en te volgen, en om de aanbiedingen aan het profiel weer te geven. [Meer informatie over leveringslogboeken](../monitor/delivery-logs.md)
+
+   ![](assets/profile-logs.png)

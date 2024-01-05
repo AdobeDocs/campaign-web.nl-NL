@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 78f9bba52f33fac0e444afb3476873d931a873d1
+source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 3%
+source-wordcount: '476'
+ht-degree: 2%
 
 ---
 
@@ -35,15 +35,25 @@ Als u de lijst met testprofielen wilt openen, selecteert u **[!UICONTROL Custome
 
 ![](assets/test-profile-list.png)
 
-U kunt filteren op een specifieke [map](../get-started/permissions.md#folders) de vervolgkeuzelijst gebruiken of regels toevoegen met de [querymodel](../query/query-modeler-overview.md).
+* U kunt filteren op een specifieke [map](../get-started/permissions.md#folders) de vervolgkeuzelijst gebruiken of regels toevoegen met de [querymodel](../query/query-modeler-overview.md).
 
-![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png)
 
-Als u een testprofiel wilt bewerken, klikt u op het gewenste item in de lijst.
+* U kunt elk testprofiel dupliceren en het zo nodig bewerken.
 
-Als u een testprofiel wilt verwijderen, selecteert u de bijbehorende optie in het menu **[!UICONTROL More actions]** -menu.
+* Als u een testprofiel wilt verwijderen, selecteert u de bijbehorende optie in het menu **[!UICONTROL More actions]** -menu.
 
-![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png)
+
+* Als u een testprofiel wilt bewerken, klikt u op het gewenste item in de lijst.
+
+U kunt testprofielen ook openen via de **[!UICONTROL Explorer]** van de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** knooppunt.
+
+Vervolgens kunt u mappen of submappen bladeren, maken en beheren en de bijbehorende machtigingen controleren. [Leer hoe u mappen maakt](../get-started/permissions.md#folders)
+
+![](assets/test-profiles-folders.png)
+
+Van de **[!UICONTROL Explorer]** kunt u ook filteren, verwijderen, bewerken en [maken](#create-test-profile) testprofielen.
 
 ## Een testprofiel maken {#create-test-profile}
 
@@ -66,7 +76,7 @@ Voer de onderstaande stappen uit om een testprofiel te maken.
    >
    >De **[!UICONTROL Label]** wordt automatisch ingevuld met de voornaam en achternaam die u hebt gedefinieerd.
 
-1. Standaard worden testprofielen opgeslagen in het dialoogvenster **[!UICONTROL Seed addresses]** map. U kunt dit wijzigen door naar de gewenste locatie te bladeren. [Meer informatie](#seed-addresses-folders)
+1. Standaard worden testprofielen opgeslagen in het dialoogvenster **[!UICONTROL Seed addresses]** map. U kunt dit wijzigen door naar de gewenste locatie te bladeren. [Leer hoe u met mappen werkt](../get-started/permissions.md#folders)
 
    ![](assets/test-profile-folder.png)
 
@@ -78,7 +88,7 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
    ![](assets/test-profile-address.png)
 
-1. Als u **[!UICONTROL No longer contact (by any channel)]** schakelt, is het profiel op lijst van gewezen personen. Deze ontvanger is niet langer gericht op enig kanaal (e-mail, SMS, enz.).
+1. Als u **[!UICONTROL No longer contact (by any channel)]** Als u dit inschakelt, wordt het testprofiel op lijst van gewezen personen weergegeven. Deze ontvanger is niet langer gericht op enig kanaal (e-mail, SMS, enz.).
 
 1. In de **[!UICONTROL Additional data]** voert u de aanpassingsgegevens in die worden gebruikt voor de leveringen die worden gemaakt in de workflows voor gegevensbeheer en waaraan u een specifieke waarde wilt toewijzen. [Meer informatie over workflows](../workflows/gs-workflows.md)
 
@@ -92,16 +102,5 @@ Het testprofiel dat u zojuist hebt gemaakt, kan nu worden gebruikt om een test t
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
 
-## Zaadadresmappen beheren {#seed-addresses-folders}
-
-Zaadadressen worden opgeslagen in een speciaal knooppunt van de Adobe Campaign-hiërarchie: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]**.
-
-Als u testprofielen wilt ordenen, kunt u submappen maken in de vervolgkeuzelijst Meer acties. [Leer hoe u mappen maakt](../get-started/permissions.md#folders)
-
-![](assets/test-profile-sub-folders.png)
-
-U kunt ook een testprofiel maken van elke **[!UICONTROL Seed addresses]** map of submap. Vul alle details in zoals u het van het **[!UICONTROL Customer Management]** > **[!UICONTROL Profiles]** -menu. [Meer informatie](#create-test-profile)
-
-Als u testprofielen wilt bewerken, klikt u op het label van het profiel in het menu **[!UICONTROL Test profiles]** of uit de map waarin deze is opgeslagen.
 
 
