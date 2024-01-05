@@ -3,9 +3,9 @@ audience: end-user
 title: Uw rapporten exporteren
 description: Begrijp hoe u uw rapporten exporteert
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_reporting_email_exportation"
->title="Exporteren"
+>title="Uw rapporten exporteren"
 >abstract="Klik op de knop **Exporteren** om deze gegevens te exporteren naar PDF- of CSV-indelingen, zodat u ze kunt delen of afdrukken."
 
 U kunt uw verschillende rapporten gemakkelijk naar PDF of formaat CSV uitvoeren, dat u toelaat om hen te delen, te manipuleren of te drukken.

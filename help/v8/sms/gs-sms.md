@@ -2,12 +2,12 @@
 audience: end-user
 title: Aan de slag met SMS-berichten
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 2%
+source-wordcount: '149'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 <a href="create-sms.md">
 <img alt="Lood" src="assets/do-not-localize/create_sms.png">
 </a>
-<div><a href="create-sms.md"><strong>Een sms-levering maken</strong>
+<div><a href="create-sms.md"><strong>Een SMS-verzending maken</strong>
 </div>
 <p>
 </td>

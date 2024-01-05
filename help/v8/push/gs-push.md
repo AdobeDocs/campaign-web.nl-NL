@@ -4,9 +4,9 @@ title: Aan de slag met pushmeldingen
 description: Meer informatie over het maken en verzenden van pushberichten via Adobe Campaign Web
 badge: label="Beta"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 95d44fa2c44a346aad3aab1962e84917532cc966
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ Pushberichten zijn essentieel voor het bereiken van een mobiele app-gebruiker, z
 
 Voor het maken van pushberichten hebt u drie opties:
 
-* Workflows: nadat u een Push-kanaalactiviteit aan uw workflow hebt toegevoegd en de basisinstellingen hebt geconfigureerd, kunt u de inhoud van uw pushberichten opnieuw ordenen via het menu in het rechterdeelvenster. Raadpleeg deze pagina voor gedetailleerde instructies over het configureren van de workflow.
+* **Workflows**: Nadat u een Push-kanaalactiviteit aan uw workflow hebt toegevoegd en de basisinstellingen hebt geconfigureerd, kunt u de inhoud van uw pushberichten opnieuw ordenen vanuit het rechterdeelvenstermenu. Raadpleeg deze pagina voor gedetailleerde instructies over het configureren van de workflow.
 
-* Campagnes: Zodra u een campagne hebt gecreeerd, kunt u een de berichtlevering van de Duw tot stand brengen. Raadpleeg deze pagina voor meer informatie over het instellen van uw campagne.
+* **Campagnes**: Nadat u een campagne hebt gemaakt, kunt u een pushmelding maken. Raadpleeg deze pagina voor meer informatie over het instellen van uw campagne.
 
-* Zelfstandige leveringen: neem klanten direct en direct contact op met individuele pushberichten, zonder dat ze werkstromen of campagnes nodig hebben.
+* **Zelfstandige leveringen**: Neem direct en direct contact op met klanten met individuele pushberichten, zonder dat ze werkstromen of campagnes nodig hebben.
 
 ![](../assets/do-not-localize/book.png) Leer hoe u het pushmeldingskanaal configureert in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
 

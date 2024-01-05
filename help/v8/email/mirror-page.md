@@ -2,11 +2,11 @@
 audience: end-user
 title: Een koppeling toevoegen aan de spiegelpagina
 description: Leer hoe u de koppeling naar de spiegel toevoegt en beheert
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
