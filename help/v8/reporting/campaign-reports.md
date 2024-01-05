@@ -4,9 +4,9 @@ title: Campagneverslagen
 description: Meer informatie over het openen en gebruiken van campagnerapporten
 badge: label="Beperkte beschikbaarheid"
 exl-id: 6a25a636-35d6-44c8-8635-7aec683af1f6
-source-git-commit: e6dde233084ccd38bd3588d60e1d26d5a1ef99ed
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -64,16 +64,3 @@ Voer de volgende stappen uit om uw campagnerapporten te openen en te beheren:
 1. Van de **[!UICONTROL URLs and click streams]** kunt u ook de optie **[!UICONTROL Top visited Links]** of de **[!UICONTROL Time period]**.
 
    De **[!UICONTROL View by]** kunt u filteren op URL&#39;s, labels of categorieën.
-
-## Uw rapporten exporteren {#export-reports}
-
-U kunt uw verschillende rapporten gemakkelijk naar PDF of formaat CSV uitvoeren, dat u toelaat om hen te delen, te manipuleren of te drukken.
-
-1. Klik in uw rapport op **[!UICONTROL Export]** en selecteert u **[!UICONTROL Export as PDF file]** of **[!UICONTROL Export as CSV file]**.
-
-   ![](assets/export_campaign_report.png)
-
-1. Zoek de map waarin u het bestand wilt opslaan, geef het bestand een andere naam, indien nodig, en klik op **[!UICONTROL Save]**.
-
-Uw rapport is nu beschikbaar voor weergave of delen in een PDF- of CSV-bestand.
-

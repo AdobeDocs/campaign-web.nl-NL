@@ -4,7 +4,7 @@ title: Campagnerapporten voor het e-mailkanaal
 description: Meer informatie over campagnerapporten voor het e-mailkanaal
 badge: label="Beperkte beschikbaarheid"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -290,7 +290,7 @@ De **[!UICONTROL Breakdown of clicks over time]** de grafiek bevat de beschikbar
 
 De **[!UICONTROL User activities]** het rapport toont de uitsplitsing van opent en klikt in de vorm van een grafiek. De cijfers voor dit rapport worden hieronder beschreven.
 
-![](assets/campaign_report_email_10.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){align="center"}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 

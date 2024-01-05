@@ -4,9 +4,9 @@ title: Leveringsrapporten
 description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: c6381387880cd967ff2c7687920c55d6936392ab
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,6 @@ ht-degree: 1%
 >id="acw_campaign_reporting_deliveries_selection"
 >title="Geaggregeerde rapportage voor leveringen"
 >abstract="Selecteer ten minste twee leveringen voor de weergave van een samengevoegd gegevensrapport."
-
->[!CONTEXTUALHELP]
->id="acw_reporting_email_exportation"
->title="Exporteren"
->abstract="Klik op de knop **Exporteren** om deze gegevens te exporteren naar PDF- of CSV-indelingen, zodat u ze kunt delen of afdrukken."
 
 De **Afleveringsrapporten** biedt diepgaande inzichten en gegevens die uitsluitend zijn gericht op uw **leveringen** over elk kanaal. Deze rapporten verstrekken gedetailleerde informatie over de prestaties, de doeltreffendheid, en de resultaten van uw individuele leveringen, die u van een uitvoerig overzicht voorzien.
 
@@ -62,16 +57,3 @@ Voer de volgende stappen uit om rapporten weer te geven en te beheren:
    De **[!UICONTROL View by]** kunt u filteren op URL&#39;s, labels of categorieën.
 
    ![](assets/manage_delivery_report_5.png)
-
-## Uw rapporten exporteren {#export-reports}
-
-U kunt uw verschillende rapporten gemakkelijk naar PDF of formaat CSV uitvoeren, dat u toelaat om hen te delen, te manipuleren of te drukken.
-
-1. Klik in uw rapport op **[!UICONTROL Export]** en selecteert u **[!UICONTROL Export as PDF file]** of **[!UICONTROL Export as CSV file]**.
-
-   ![](assets/export_delivery_report.png)
-
-1. Zoek de map waarin u het bestand wilt opslaan, geef het bestand een andere naam, indien nodig, en klik op **[!UICONTROL Save]**.
-
-Uw rapport is nu beschikbaar voor weergave of delen in een PDF- of CSV-bestand.
-

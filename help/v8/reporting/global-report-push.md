@@ -3,7 +3,7 @@ audience: end-user
 title: Globale rapporten voor het kanaal van de Duw
 description: Werken met algemene rapporten voor het pushkanaal
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -80,7 +80,7 @@ Typen pushmeldingen worden weergegeven in het dialoogvenster [Adobe Campaign v8-
 
 ## Leveringsdoorvoer {#delivery-throughput-sms}
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_throughput.png)
 
 Dit rapport bevat uitgebreide informatie over de leveringstijd binnen een opgegeven tijdsperiode.
 
