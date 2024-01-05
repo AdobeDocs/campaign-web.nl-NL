@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 95be832f5f5f330bb72f9abbf780965b452e2e5e
+source-git-commit: 1f66982391c7979bb6e4f09d442513ed46667d9a
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
 1. Klik op de knop **+** op de gewenste knoop en selecteer **[!UICONTROL Custom condition]**. Het deelvenster Eigenschappen voor aangepaste voorwaarde wordt aan de rechterkant geopend.
 
-1. In de **Kenmerk** Selecteer in de database het kenmerk dat u wilt gebruiken om de voorwaarde te maken. De lijst met kenmerken bevat alle kenmerken van uw Campagne-database, inclusief kenmerken die aan uw tabel zijn gekoppeld.
+1. In de **Kenmerk** Selecteer in de database het kenmerk dat u wilt gebruiken om de voorwaarde te maken. De lijst met kenmerken bevat alle kenmerken van uw Campagne-database, inclusief kenmerken van gekoppelde tabellen.
 
    ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
-   >Met de knop Uitdrukking bewerken kunt u de editor voor de Campagne-webexpressie gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties.
+   >Met de knop Uitdrukking bewerken kunt u de editor voor de Campagne-webexpressie gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. [Leer hoe u expressies kunt bewerken](expression-editor.md)
 
 1. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het kenmerk.
 
@@ -82,27 +82,33 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
 +++
 
-1. In de **Waarde** -veld, definieert u de verwachte waarde. U kunt de uitdrukkingsredacteur van het Web van de gebruiksCampagne ook manueel om een uitdrukking te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. Om dit te doen, klik **Expressie bewerken** knop.
+1. In de **Waarde** -veld, definieert u de verwachte waarde. U kunt de uitdrukkingsredacteur van het Web van de gebruiksCampagne ook manueel om een uitdrukking te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. Om dit te doen, klik **Expressie bewerken** knop. [Leer hoe u expressies kunt bewerken](expression-editor.md)
 
    *Voorbeeld van query met alle profielen van 21 jaar of ouder:*
 
    ![](assets/query-custom-condition.png)
 
-**Aangepaste voorwaarden voor verafgelegen tabellen (1-1 en 1-N koppelingen)**
+#### Aangepaste voorwaarden voor gekoppelde tabellen (1-1 en 1-N koppelingen){#links}
 
-Aan de hand van aangepaste voorwaarden kunt u zoeken in verafgelegen tabellen die zijn gekoppeld aan de tabel Ontvangers.
+De voorwaarden van de douane staan u toe om lijsten te vragen verbonden aan de lijst die momenteel door uw regel wordt gebruikt. Dit omvat lijsten met een 1-1 kardinaliteitsverbinding, of inzamelingstabellen (verbinding 1-N).
 
-Voor een **1-1 link** met een andere gegevensbestandbron, selecteer de waarde direct van de gerichte lijst.
+Voor een **1-1 link** selecteert u het kenmerk rechtstreeks in de doeltabel.
 
 +++voorbeeld van Query
 
-Hier is de zoekopdracht gericht op ontvangers waarvan het land of de regio in bepaalde waarden is opgenomen (vk en ons)
+Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
-![](assets/custom-condition-1-1.png)
+1. Navigeren in het deelvenster **Merk** en selecteer de **Label** kenmerk.
+
+   ![](assets/1-1-attribute.png)
+
+1. Definieer de verwachte waarde voor het kenmerk.
+
+   ![](assets/1-1-table.png)
 
 +++
 
-Voor een **1-N link** met een andere gegevensbestandmiddel, kunt u subconditions op de gebieden van dit tweede middel bepalen.
+Voor een **1-N link** U kunt subvoorwaarden definiëren om de query te verfijnen.
 
 U kunt bijvoorbeeld de operator Exists selecteren bij de profielaankopen om alle profielen waarvoor aankopen bestaan, als doel in te stellen. Voeg vervolgens een aangepaste voorwaarde toe aan de uitgaande overgang en maak een filter dat aan uw behoeften voldoet.
 
@@ -110,9 +116,35 @@ U kunt bijvoorbeeld de operator Exists selecteren bij de profielaankopen om alle
 
 Hier richt de query zich op ontvangers die aankopen hebben gedaan met betrekking tot het BrewMaster-product, voor een totale hoeveelheid van ten minste 100$.
 
-![](assets/custom-condition-1-N.png)
+1. Selecteer de **Aankopen** tabel en bevestiging.
+
+   ![](assets/1-n-collection.png)
+
+1. Een uitgaande overgang wordt toegevoegd, toestaand u om ondervoorwaarden tot stand te brengen.
+
+   ![](assets/1-n-subcondition.png)
+
+1. Selecteer de **Prijs** kenmerk- en doelaankopen van 1000$ of meer
+
+   ![](assets/1-n-price.png)
+
+1. Voeg subvoorwaarden toe die aan uw behoeften voldoen. Hier hebben we een voorwaarde toegevoegd aan de doelprofielen die een BrewMaster-product hebben aangeschaft.
+
+   ![](assets/custom-condition-1-N.png)
 
 +++
+
+#### Werken met geaggregeerde gegevens {#aggregate}
+
+Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoor moet u rechtstreeks een kenmerk in een verzamelingstabel selecteren:
+
+1. Navigeer binnen de gewenste inzamelingstabel en selecteer de attributen waarop u een gezamenlijke verrichting wilt uitvoeren.
+
+   ![](assets/aggregate-attribute.png)
+
+1. Schakel in het deelvenster Eigenschappen de optie **Samengevoegde gegevens** en selecteert u de gewenste statistische functie.
+
+   ![](assets/aggregate.png)
 
 ### Een publiek selecteren
 
@@ -148,30 +180,7 @@ Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd
 
    ![](assets/query-predefined-filter.png)
 
-## Filtercomponenten combineren met operatoren {#operators}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_group"
->title="Groep"
->abstract="Groep"
-
-Telkens als u een nieuwe het filtreren component aan uw vraag toevoegt, is het automatisch verbonden met de andere component door een exploitant AND. Dit betekent dat de resultaten van zowel de het filtreren componenten in de vraagresultaten worden gecombineerd.
-
-In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten op de tweede overgang toegevoegd. De component is verbonden met de vooraf bepaalde voorwaarde van het filtertype met een exploitant AND, betekenend dat de vraagresultaten ontvangers omvatten die door de &quot;Madridians&quot;vooraf bepaalde filter EN die tot het &quot;aantal van de Korting jagers&quot;publiek worden gericht.
-
-![](assets/query-operator.png)
-
-Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen, klikt u erop en selecteert u de gewenste operator in het deelvenster Groep dat aan de rechterkant wordt geopend.
-
-Beschikbare operatoren zijn:
-
-* **EN (Doorsnede)**: Combineert resultaten die overeenkomen met alle filtercomponenten in de uitgaande overgangen.
-* **OF (Verenigen)**: Deze groep bevat resultaten die overeenkomen met ten minste een van de filtercomponenten in de uitgaande overgangen.
-* **BEHALVE (Uitsluiting)**: Hiermee sluit u resultaten uit die overeenkomen met alle filtercomponenten in de uitgaande overgang.
-
-![](assets/query-operator-change.png)
-
-### Filtercomponenten kopiëren en plakken {#copy}
+### Componenten kopiëren en plakken {#copy}
 
 Met de querymodelfunctie kunt u een of meer filtercomponenten kopiëren en deze aan het einde van een overgang plakken. Deze bewerking kan worden uitgevoerd binnen het huidige querycanvas of op elk canvas in uw instantie.
 
@@ -193,6 +202,35 @@ Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
 
 ![](assets/copy-paste.png)
 
+## Filtercomponenten combineren met operatoren {#operators}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_querymodeler_group"
+>title="Groep"
+>abstract="Groep"
+
+Elke keer dat u een nieuwe filtercomponent aan uw query toevoegt, wordt deze automatisch aan de andere component gekoppeld door een component **EN** operator. Dit betekent dat de resultaten van de twee filtercomponenten worden gecombineerd.
+
+In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten op de tweede overgang toegevoegd. De component is gekoppeld aan de vooraf gedefinieerde filtertypevoorwaarde met een **EN** operator, wat betekent dat de zoekresultaten ontvangers omvatten die het voorgedefinieerde filter &quot;Madridians&quot; hebben, EN die tot het publiek &quot;Discount hunters&quot; behoren.
+
+![](assets/query-operator.png)
+
+Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen, klikt u erop en selecteert u de gewenste operator in het dialoogvenster **Groep** venster dat aan de rechterkant wordt geopend.
+
+Beschikbare operatoren zijn:
+
+* **EN (Doorsnede)**: Combineert resultaten die overeenkomen met alle filtercomponenten in de uitgaande overgangen.
+* **OF (Verenigen)**: Deze groep bevat resultaten die overeenkomen met ten minste een van de filtercomponenten in de uitgaande overgangen.
+* **BEHALVE (Uitsluiting)**: Hiermee sluit u resultaten uit die overeenkomen met alle filtercomponenten in de uitgaande overgang.
+
+![](assets/query-operator-change.png)
+
+Bovendien kunt u tussenliggende groepen componenten maken door op de knop **+** op een overgang. Dit staat u toe om een exploitant bij deze specifieke plaats toe te voegen om veelvoudige componenten samen te groeperen en uw vraag te verfijnen.
+
+In het onderstaande voorbeeld hebben we een tussengroep opgericht die resultaten opneemt van het publiek &quot;VIP te belonen&quot; of &quot;Super VIP&quot;.
+
+![](assets/query-intermediate-group.png)
+
 ## Uw query controleren en valideren
 
 >[!CONTEXTUALHELP]
@@ -210,3 +248,7 @@ Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met de opdr
   >[!IMPORTANT]
   >
   >Selecteer een vooraf gedefinieerd filter in het deelvenster Eigenschappen regel om de query die in het canvas is gemaakt te vervangen door het geselecteerde filter.
+
+Wanneer uw vraag klaar is, klik **[!UICONTROL Confirm]** in de rechterbovenhoek om het op te slaan.
+
+U kunt uw query op elk gewenst moment wijzigen door deze te openen. Houd er rekening mee dat als een bestaande query wordt geopend, deze in een vereenvoudigde weergave wordt weergegeven zonder dat de  **+** knoppen. Als u nieuwe elementen aan de query wilt toevoegen, selecteert u een component of operator op het canvas om de component of operator **+** knoppen.
