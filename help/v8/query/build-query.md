@@ -3,7 +3,7 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 1f66982391c7979bb6e4f09d442513ed46667d9a
+source-git-commit: bc3e4b0b099667ffcc8178d8c3d531a76ba135d7
 workflow-type: tm+mt
 source-wordcount: '1879'
 ht-degree: 0%
@@ -118,7 +118,7 @@ Hier richt de query zich op ontvangers die aankopen hebben gedaan met betrekking
 
 1. Selecteer de **Aankopen** tabel en bevestiging.
 
-   ![](assets/1-n-collection.png)
+   ![](assets/1-N-collection.png)
 
 1. Een uitgaande overgang wordt toegevoegd, toestaand u om ondervoorwaarden tot stand te brengen.
 
