@@ -2,14 +2,14 @@
 title: Profielen bewaken en beheren
 description: Leer om profielen in het Web van de Campagne te controleren en te beheren.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
 
-# Profielen bewaken en beheren {#profiles}
+# Profielen controleren en bewerken {#profiles}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
@@ -96,9 +96,7 @@ Voer de onderstaande stappen uit om toegang te krijgen tot de details van een pr
 
 1. Bladeren naar **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]**.
 
-1. Klik op het gewenste item in het pop-upmenu **[!UICONTROL Profiles]** lijst.
-
-1. U hebt toegang tot de gedetailleerde informatie over het profiel.
+1. Klik op het gewenste item in het pop-upmenu **[!UICONTROL Profiles]** lijst. De gedetailleerde informatie over het profiel wordt weergegeven.
 
    ![](assets/profile-details.png)
 
