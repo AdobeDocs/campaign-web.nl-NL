@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
-source-wordcount: '1852'
+source-wordcount: '1850'
 ht-degree: 0%
 
 ---
@@ -18,27 +18,23 @@ U kunt twee typen elementen toevoegen:
 
 * **Componenten filteren** (De voorwaarde van de Douane, Uitgezochte publiek, Vooraf bepaald filter) staat u toe om uw eigen regels te bouwen, een publiek of een vooraf bepaald filter te selecteren om uw vraag te verfijnen. [Leer hoe u met filtercomponenten werkt](#filtering)
 
-  Voorbeeld:
-
   *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &#39;Sport&#39;*. *Ontvangers in New York*, *Ontvangers in San Francisco*
 
 * **Groepoperatoren** (EN, OF, BEHALVE) staat u toe om het filtreren componenten in het diagram te groeperen om uw behoeften aan te passen. [Leer werken met operatoren](#filtering)
 
-  Voorbeeld:
-
   *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &quot;Sport&quot;**EN**die in New York wonen **OF**San Francisco*.
 
-![](assets/query-add-component.png){width="70%" align="center"}
+![](assets/query-add-component.png)
 
 ## Filtercomponenten toevoegen {#filtering}
 
 Door componenten te filteren kunt u de query verfijnen door:
 
-* **Aangepaste voorwaarden**: Filter uw query door uw eigen voorwaarde te maken met kenmerken uit de database en geavanceerde expressies.
-* **Soorten publiek**: Filter de query met een bestaand publiek.
-* **Vooraf gedefinieerd filter**: Filter de query met behulp van bestaande vooraf gedefinieerde filters.
+* **[Aangepaste voorwaarden](#custom-condition)**: Filter uw query door uw eigen voorwaarde te maken met kenmerken uit de database en geavanceerde expressies.
+* **[Soorten publiek](#audiences)**: Filter de query met een bestaand publiek.
+* **[Vooraf gedefinieerd filter](#predefined-filters)**: Filter de query met behulp van bestaande vooraf gedefinieerde filters.
 
-### Een aangepaste voorwaarde configureren
+### Een aangepaste voorwaarde configureren {#custom-condition}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
@@ -51,7 +47,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
 1. In de **Kenmerk** Selecteer in de database het kenmerk dat u wilt gebruiken om de voorwaarde te maken. De lijst met kenmerken bevat alle kenmerken van uw Campagne-database, inclusief kenmerken van gekoppelde tabellen.
 
-   ![](assets/query-custom-condition-fields.png){width="70%" align="center"}
+   ![](assets/query-custom-condition-fields.png)
 
    >[!NOTE]
    >
@@ -86,7 +82,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
    *Voorbeeld van query met alle profielen van 21 jaar of ouder:*
 
-   ![](assets/query-custom-condition.png){width="70%" align="center"}
+   ![](assets/query-custom-condition.png)
 
 #### Aangepaste voorwaarden voor gekoppelde tabellen (1-1 en 1-N koppelingen){#links}
 
@@ -100,11 +96,11 @@ Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
 1. Navigeren in het deelvenster **Merk** en selecteer de **Label** kenmerk.
 
-   ![](assets/1-1-attribute.png){width="70%" align="center"}
+   ![](assets/1-1-attribute.png){width="85%" align="center"}
 
 1. Definieer de verwachte waarde voor het kenmerk.
 
-   ![](assets/1-1-table.png){width="70%" align="center"}
+   ![](assets/1-1-table.png){width="85%" align="center"}
 
 +++
 
@@ -116,19 +112,19 @@ Hier richt de query zich op ontvangers die aankopen hebben gedaan met betrekking
 
 1. Selecteer de **Aankopen** tabel en bevestiging.
 
-   ![](assets/1-N-collection.png){width="70%" align="center"}
+   ![](assets/1-N-collection.png){width="50%" align="center"}
 
 1. Een uitgaande overgang wordt toegevoegd, toestaand u om ondervoorwaarden tot stand te brengen.
 
-   ![](assets/1-n-subcondition.png){width="70%" align="center"}
+   ![](assets/1-n-subcondition.png){width="85%" align="center"}
 
 1. Selecteer de **Prijs** kenmerk- en doelaankopen van 1000$ of meer
 
-   ![](assets/1-n-price.png){width="70%" align="center"}
+   ![](assets/1-n-price.png){width="85%" align="center"}
 
 1. Voeg subvoorwaarden toe die aan uw behoeften voldoen. Hier hebben we een voorwaarde toegevoegd aan de doelprofielen die een BrewMaster-product hebben aangeschaft.
 
-   ![](assets/custom-condition-1-N.png){width="70%" align="center"}
+   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
 
 +++
 
@@ -138,13 +134,13 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 
 1. Navigeer binnen de gewenste inzamelingstabel en selecteer de attributen waarop u een gezamenlijke verrichting wilt uitvoeren.
 
-   ![](assets/aggregate-attribute.png){width="70%" align="center"}
+   ![](assets/aggregate-attribute.png){width="85%" align="center"}
 
 1. Schakel in het deelvenster Eigenschappen de optie **Samengevoegde gegevens** en selecteert u de gewenste statistische functie.
 
-   ![](assets/aggregate.png){width="70%" align="center"}
+   ![](assets/aggregate.png){width="85%" align="center"}
 
-### Een publiek selecteren
+### Een publiek selecteren {#audiences}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
@@ -161,7 +157,7 @@ Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
    ![](assets/query-audience.png)
 
-### Een vooraf gedefinieerd filter gebruiken
+### Een vooraf gedefinieerd filter gebruiken {#predefined-filters}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
@@ -176,7 +172,7 @@ Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd
 
    *Voorbeeld van query met alle profielen die overeenkomen met het vooraf gedefinieerde filter &quot;Inactieve klanten&quot;:*
 
-   ![](assets/query-predefined-filter.png){width="70%" align="center"}
+   ![](assets/query-predefined-filter.png)
 
 ### Componenten kopiëren en plakken {#copy}
 
@@ -198,7 +194,7 @@ Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
 
 1. Als u de component(en) wilt plakken, klikt u op de +-knop aan het einde van de gewenste overgang en selecteert u **In items plakken**.
 
-![](assets/copy-paste.png){width="70%" align="center"}
+   ![](assets/copy-paste.png)
 
 ## Filtercomponenten combineren met operatoren {#operators}
 
@@ -211,7 +207,7 @@ Elke keer dat u een nieuwe filtercomponent aan uw query toevoegt, wordt deze aut
 
 In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten op de tweede overgang toegevoegd. De component is gekoppeld aan de vooraf gedefinieerde filtertypevoorwaarde met een **EN** operator, wat betekent dat de zoekresultaten ontvangers omvatten die het voorgedefinieerde filter &quot;Madridians&quot; hebben, EN die tot het publiek &quot;Discount hunters&quot; behoren.
 
-![](assets/query-operator.png){width="70%" align="center"}
+![](assets/query-operator.png)
 
 Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen, klikt u erop en selecteert u de gewenste operator in het dialoogvenster **Groep** venster dat aan de rechterkant wordt geopend.
 
@@ -221,13 +217,13 @@ Beschikbare operatoren zijn:
 * **OF (Verenigen)**: Deze groep bevat resultaten die overeenkomen met ten minste een van de filtercomponenten in de uitgaande overgangen.
 * **BEHALVE (Uitsluiting)**: Hiermee sluit u resultaten uit die overeenkomen met alle filtercomponenten in de uitgaande overgang.
 
-![](assets/query-operator-change.png){width="70%" align="center"}
+![](assets/query-operator-change.png)
 
 Bovendien kunt u tussenliggende groepen componenten maken door op de knop **+** op een overgang. Dit staat u toe om een exploitant bij deze specifieke plaats toe te voegen om veelvoudige componenten samen te groeperen en uw vraag te verfijnen.
 
 In het onderstaande voorbeeld hebben we een tussengroep opgericht die resultaten opneemt van het publiek &quot;VIP te belonen&quot; of &quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png){width="70%" align="center"}
+![](assets/query-intermediate-group.png)
 
 ## Uw query controleren en valideren
 
@@ -250,3 +246,5 @@ Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met de opdr
 Wanneer uw vraag klaar is, klik **[!UICONTROL Confirm]** in de rechterbovenhoek om het op te slaan.
 
 U kunt uw query op elk gewenst moment wijzigen door deze te openen. Houd er rekening mee dat als een bestaande query wordt geopend, deze in een vereenvoudigde weergave wordt weergegeven zonder dat de  **+** knoppen. Als u nieuwe elementen aan de query wilt toevoegen, selecteert u een component of operator op het canvas om de component of operator **+** knoppen.
+
+![](assets/edit-audience.png)

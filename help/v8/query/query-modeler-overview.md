@@ -3,7 +3,7 @@ audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -50,7 +50,7 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
 
 De vraagmodeler verstrekt een centraal canvas waar u uw vraag bouwt, en een juiste ruit die informatie over uw vraag verstrekt.
 
-![](assets/query-interface.png){width="70%" align="center"}
+![](assets/query-interface.png)
 
 ### Het centrale canvas {#canvas}
 

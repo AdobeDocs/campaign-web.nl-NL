@@ -3,7 +3,7 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: ac136ed0467b2fda4b3d9ba2a05ee6878523138f
+source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
 workflow-type: tm+mt
 source-wordcount: '2000'
 ht-degree: 55%
@@ -34,13 +34,13 @@ De uitdrukkingsredacteur verstrekt:
 
 Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren. Als u een veld of hulpfunctie wilt toevoegen, plaatst u de cursor in de expressie waar u deze wilt toevoegen en klikt u op +.
 
-![](assets/expression-editor.png){width="70%" align="center"}
+![](assets/expression-editor.png)
 
 Wanneer uw uitdrukking klaar is, klik **[!UICONTROL Confirm]** knop. De expressie wordt weergegeven in het geselecteerde veld. Als u deze wilt bewerken, opent u de editor voor de expressie en brengt u de gewenste wijzigingen aan.
 
 In het onderstaande voorbeeld ziet u een expressie die is geconfigureerd voor het **[!UICONTROL Value]** veld. Als u de editor wilt bewerken, moet u de editor voor expressies openen met de opdracht **[!UICONTROL Edit expression]** knop.
 
-![](assets/edit-expression-value.png){width="70%" align="center"}
+![](assets/edit-expression-value.png)
 
 ## Helpfuncties
 
