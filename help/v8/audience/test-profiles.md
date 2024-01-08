@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: ff8a8388cfe4124ccddeb789460be7845da41089
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '514'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ De stappen om testberichten naar zaadadressen te verzenden zijn gedetailleerd in
 
 >[!NOTE]
 >
->De profielen van de test worden automatisch uitgesloten van rapporten over de volgende leveringsstatistieken: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
+>De profielen van de test worden automatisch uitgesloten van rapporten over de volgende leveringsstatistieken: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**. [Meer informatie over rapporten]
 
 ## Testprofielen openen en beheren {#access-test-profiles}
 
@@ -39,13 +39,13 @@ Als u de lijst met testprofielen wilt openen, selecteert u **[!UICONTROL Custome
 
   ![](assets/test-profile-list-filters.png)
 
-* U kunt elk testprofiel dupliceren en het zo nodig bewerken.
+* U kunt elk testprofiel dupliceren en zo nodig bijwerken. De stappen om een testprofiel te bewerken zijn gelijk aan wanneer [een testprofiel maken](#create-test-profile).
 
 * Als u een testprofiel wilt verwijderen, selecteert u de bijbehorende optie in het menu **[!UICONTROL More actions]** -menu.
 
   ![](assets/test-profile-list-delete.png)
 
-* Als u een testprofiel wilt bewerken, klikt u op het gewenste item in de lijst.
+* Als u een testprofiel wilt bewerken, klikt u op het gewenste item in de lijst. De stappen om een testprofiel te bewerken zijn gelijk aan wanneer [een testprofiel maken](#create-test-profile).
 
 U kunt testprofielen ook openen via de **[!UICONTROL Explorer]** van de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** knooppunt.
 
@@ -68,7 +68,9 @@ Voer de onderstaande stappen uit om een testprofiel te maken.
 
 1. Klik op de knop **[!UICONTROL Create test profile]**.
 
-1. Vul de gegevens van het testprofiel in. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
+   ![](assets/test-profile-create.png)
+
+1. Vul zo nodig de gegevens van het testprofiel in. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
    ![](assets/test-profile-details.png)
 

@@ -2,9 +2,9 @@
 title: Profielen bewaken en beheren
 description: Leer om profielen in het Web van de Campagne te controleren en te beheren.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: e72069956490dc0febc2835568deb99cf41ead1c
+source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,19 @@ ht-degree: 0%
 
 ## Aan de slag met profielen {#gs}
 
-Een profiel in het Web van Adobe Campaign is een individu dat in het gegevensbestand wordt opgeslagen, dat als zeer belangrijke component dient om publiek voor leveringen tot stand te brengen en verpersoonlijkingsgegevens aan uw inhoud toe te voegen.
+Een profiel in het Web van Adobe Campaign is een individu dat in het gegevensbestand wordt opgeslagen, dat als zeer belangrijke component dient aan [publiek maken](create-audience.md) voor leveringen en [personalisatie toevoegen](../personalization/personalize.md) gegevens naar uw inhoud.
 
-Andere typen profielen worden opgeslagen in de database, zoals **[!UICONTROL Test profiles]**, die zijn ontworpen om uw leveringen te testen voordat ze naar het uiteindelijke publiek worden verzonden. [Leer hoe u met testprofielen werkt](test-profiles.md)
+Andere typen profielen worden opgeslagen in de database, zoals **[!UICONTROL Test profiles]**, die zijn ontworpen om uw leveringen te testen voordat ze naar het uiteindelijke publiek worden verzonden. [Meer informatie](test-profiles.md)
 
 Profielen kunnen alleen via de Adobe Campaign-clientconsole worden gemaakt - [leren hoe](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/create-profiles.html){target="_blank"}. Ze zijn echter toegankelijk en bewerkbaar op het Adobe Campaign Web via het **[!UICONTROL Customer management]** > **Profielen** in de linkernavigatieregel.
 
 >[!NOTE]
 >
->Afhankelijk van uw machtigingen hebt u mogelijk geen toegang tot de volledige lijst met profielen die in de database zijn opgeslagen. Meer informatie over machtigingen in [deze sectie](../get-started/permissions.md).
+>Afhankelijk van uw machtigingen hebt u mogelijk geen toegang tot de volledige lijst met profielen die in de database zijn opgeslagen. [Meer informatie over machtigingen](../get-started/permissions.md).
 
 * U kunt het filter **[!UICONTROL Profiles]** lijst die het onderzoeksgebied of de filters gebruikt beschikbaar bij **Filters tonen** knop. U kunt de resultaten beperken tot een specifieke [map](../get-started/permissions.md#folders) het gebruiken van de drop-down lijst, of voegt regels toe gebruikend [querymodel](../query/query-modeler-overview.md).
 
-  ![](assets/profiles-list.png)
+  ![](assets/profiles-list-filters.png)
 
 * Als u een profiel wilt verwijderen, selecteert u de bijbehorende optie in het menu **[!UICONTROL More actions]** -menu.
 
@@ -94,13 +94,15 @@ Van de **[!UICONTROL Explorer]** kunt u ook filteren, verwijderen en [bewerken](
 
 Voer de onderstaande stappen uit om toegang te krijgen tot de details van een profiel en deze te bewerken.
 
-1. Bladeren naar **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]**.
+1. Bladeren naar **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** en klik op het gewenste item in het pop-upmenu **[!UICONTROL Profiles]** lijst.
 
-1. Klik op het gewenste item in het pop-upmenu **[!UICONTROL Profiles]** lijst. De gedetailleerde informatie over het profiel wordt weergegeven.
+   ![](assets/profiles-list-select.png)
+
+1. De gedetailleerde informatie over het profiel wordt weergegeven.
+
+   De **[!UICONTROL Details]** kunt u door de ingebouwde en aangepaste kenmerken van het profiel bladeren. Als u een kenmerk wilt bewerken, brengt u wijzigingen aan in het gewenste veld en klikt u op de knop **[!UICONTROL Save]** knop.
 
    ![](assets/profile-details.png)
-
-1. De **[!UICONTROL Details]** kunt u door de ingebouwde en aangepaste kenmerken van het profiel bladeren. Als u een kenmerk wilt bewerken, brengt u wijzigingen aan in het gewenste veld en klikt u op de knop **[!UICONTROL Save]** knop.
 
    1. Profielen worden standaard opgeslagen in de **[!UICONTROL Recipients]** map. U kunt dit wijzigen door naar de gewenste locatie te bladeren. [Leer hoe u met mappen werkt](../get-started/permissions.md#folders)
 
@@ -110,7 +112,7 @@ Voer de onderstaande stappen uit om toegang te krijgen tot de details van een pr
 
       ![](assets/profile-address.png)
 
-   1. Controleer de **[!UICONTROL No longer contact]** opties en werk deze zo nodig bij. Als een van deze opties is geselecteerd, wordt het profiel op lijst van gewezen personen weergegeven. Deze informatie wordt toegevoegd aan de contactgegevens als de ontvanger bijvoorbeeld op een koppeling voor niet-abonnementen in een nieuwsbrief heeft geklikt. Deze ontvanger is niet meer gericht op de geselecteerde kanalen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+   1. Controleer de **[!UICONTROL No longer contact]** opties en werk deze zo nodig bij. Als een van deze opties is geselecteerd, wordt het profiel op lijst van gewezen personen weergegeven. Als de ontvanger bijvoorbeeld in een nieuwsbrief op een koppeling voor niet-abonnement heeft geklikt, wordt deze informatie aan de contactgegevens toegevoegd. Deze ontvanger is niet meer gericht op de geselecteerde kanalen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
       ![](assets/profile-no-longer-contact.png)
 
@@ -118,8 +120,12 @@ Voer de onderstaande stappen uit om toegang te krijgen tot de details van een pr
 
       ![](assets/profile-custom-fields.png)
 
-1. Klik op de knop **[!UICONTROL Subscriptions]** voor toegang tot informatie over de services waarop het profiel is geabonneerd. [Leer hoe u met abonnementsservices werkt](manage-services.md)
+1. Klik op de knop **[!UICONTROL Subscriptions]** voor toegang tot informatie over de services waarop het profiel is geabonneerd. [Meer informatie over abonnementsservices](manage-services.md)
 
-1. Klik op de knop **[!UICONTROL Logs]** in de rechterbovenhoek van het scherm om de geschiedenis van de interacties van het profiel te bekijken door logbestanden te verzenden, uit te sluiten en te volgen, en om de aanbiedingen aan het profiel weer te geven. [Meer informatie over leveringslogboeken](../monitor/delivery-logs.md)
+   ![](assets/profile-subscriptions.png)
+
+1. Klik op de knop **[!UICONTROL Logs]** in de rechterbovenhoek van het scherm om de geschiedenis van de interactie van het profiel weer te geven door logbestanden te verzenden, uit te sluiten en te volgen. [Meer informatie over leveringslogboeken](../monitor/delivery-logs.md)
+
+   U kunt ook de voorstellen bekijken die aan het profiel in worden voorgesteld in **[!UICONTROL Propositions]** tab. [Meer weten over aanbiedingen](../msg/offers.md)
 
    ![](assets/profile-logs.png)
