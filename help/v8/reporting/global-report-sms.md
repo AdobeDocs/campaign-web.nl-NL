@@ -3,10 +3,10 @@ audience: end-user
 title: Algemene rapporten voor het SMS-kanaal
 description: Werken met Global-rapporten voor het SMS-kanaal
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 2%
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
@@ -19,6 +19,11 @@ Ga naar de **[!UICONTROL Reports]** in het menu **[!UICONTROL Reporting]** secti
 ## Leveringsoverzicht {#delivery-summary-sms}
 
 ### Overzicht van levering {#delivery-overview-sms}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_global_report_overview"
+>title="Overzicht van SMS-verzending"
+>abstract="De **Overzicht van SMS-verzending** De KPIs verstrekt een grondig overzicht van uw levering van SMS, die gedetailleerde inzichten en specifieke gegevens aanbiedt. Het levert uitvoerige informatie over de prestaties, de doeltreffendheid, en de resultaten van uw levering."
 
 De **[!UICONTROL Delivery Overview]** Het rapport biedt uitvoerige zeer belangrijke prestatiesindicatoren (KPIs) die diepgaand inzicht in de interactiepatronen van uw bezoekers met elke levering van SMS verstrekken. De volgende cijfers worden hieronder beschreven.
 
@@ -38,6 +43,11 @@ De **[!UICONTROL Delivery Overview]** Het rapport biedt uitvoerige zeer belangri
 
 ### Gericht publiek {#delivery-summary-sms-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_targeted_audience"
+>title="Doelpopulatie van SMS"
+>abstract="De grafiek en tabel voor de **Gerichte opulatie** gegevens over uw SMS-publiek presenteren, waaronder informatie over te leveren berichten en uitsluitingen."
+
 De **[!UICONTROL Targeted audience]** tabel en grafiek geven gegevens weer met betrekking tot uw ontvangers voor elke verzonden SMS-levering. De cijfers worden hieronder beschreven.
 
 ![](assets/global_report_sms_targeted_audience.png)
@@ -53,6 +63,11 @@ De **[!UICONTROL Targeted audience]** tabel en grafiek geven gegevens weer met b
 +++
 
 ### Leveringsstatistieken {#delivery-summary-sms-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_delivery_stats"
+>title="Sms-leveringsstatistieken"
+>abstract="De **Leveringsstatistieken** Het rapport biedt uitgebreide inzichten in verzonden SMS en biedt een uitsplitsing van verschillende metingen, zoals succespercentages, voorvallen van fouten en in quarantaine geplaatste gebruikers. Deze gedetailleerde presentatie maakt een grondig onderzoek mogelijk van de algemene prestaties en resultaten van het SMS-leveringsproces."
 
 De **[!UICONTROL Delivery statistics]** in de tabel wordt aangegeven hoe succesvol je levering via SMS is. De cijfers worden hieronder beschreven.
 
@@ -74,6 +89,11 @@ De **[!UICONTROL Delivery statistics]** in de tabel wordt aangegeven hoe succesv
 
 ### Oorzaken van uitsluiting {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_sms_exclusions"
+>title="Sms-oorzaken van uitsluiting"
+>abstract="De **Oorzaken van uitsluiting** de grafiek en de lijst illustreren de diverse redenen die gebruikersprofielen beletten de berichten van SMS te ontvangen."
+
 De **[!UICONTROL Causes of exclusion]** de grafiek en de lijst tonen de redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, van het ontvangen van uw leveringen van SMS verhinderden.
 
 Fouttypen worden vermeld in het dialoogvenster [Adobe Campaign v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
@@ -82,6 +102,11 @@ Fouttypen worden vermeld in het dialoogvenster [Adobe Campaign v8-documentatie (
 
 ## Leveringsdoorvoer {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_sms"
+>title="Productie van SMS-berichten"
+>abstract="De **Leveringsdoorvoer** het rapport biedt uitgebreide inzichten in de efficiëntie van het systeem voor het leveren van SMS-berichten, met een gedetailleerd overzicht van het succes en de foutenpercentages binnen een bepaald tijdsbestek."
+
 ![](assets/global_report_sms_delivery_throughput.png)
 
-Dit rapport bevat uitgebreide informatie over de leveringstijd binnen een opgegeven tijdsperiode.
+De **[!UICONTROL Delivery Throughput]** het rapport biedt uitgebreide inzichten in de doeltreffendheid van het systeem voor de levering van SMS-berichten, met een gedetailleerde samenvatting van het succes en de foutenpercentages over een bepaalde periode.

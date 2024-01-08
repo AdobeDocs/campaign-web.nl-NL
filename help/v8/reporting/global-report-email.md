@@ -3,9 +3,9 @@ audience: end-user
 title: Algemene rapporten voor het e-mailkanaal
 description: Meer informatie over Global-rapporten voor het e-mailkanaal
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1467'
 ht-degree: 1%
 
 ---
@@ -19,6 +19,11 @@ Ga naar de **[!UICONTROL Reports]** in het menu **[!UICONTROL Reporting]** secti
 ## Leveringsoverzicht {#delivery-summary-email}
 
 ### Overzicht van levering {#delivery-overview-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_deliveries_overview_email"
+>title="Overzicht van levering"
+>abstract="De **Overzicht van levering** geeft belangrijke prestatie-indicatoren (KPI&#39;s) weer die diepgaande inzichten bieden in de manier waarop uw publiek communiceert met de e-mailleveringen en campagnes die u verzendt."
 
 De **[!UICONTROL Delivery Overview]** biedt belangrijke prestatiemetriek (KPIs) die diepgaande inzichten in de interactie van uw bezoekers met elke e-maillevering aanbieden. De meetgegevens worden hieronder beschreven.
 
@@ -41,6 +46,11 @@ De **[!UICONTROL Delivery Overview]** biedt belangrijke prestatiemetriek (KPIs) 
 
 ### Gericht publiek {#delivery-summary-email-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_email"
+>title="Eerste doelstatistieken"
+>abstract="De **Doelgericht publiek** tabel en grafiek geven inzicht in de betrokkenheid van ontvangers, zodat u de doeltreffendheid van uw campagnes en leveringen kunt beoordelen."
+
 De tabel en grafiek voor **[!UICONTROL Targeted Audience]** showcase-gegevens over uw ontvangers, met gedetailleerde hieronder verstrekte gegevens.
 
 ![](assets/global_report_email_targeted_audience.png){align="center"}
@@ -55,7 +65,12 @@ De tabel en grafiek voor **[!UICONTROL Targeted Audience]** showcase-gegevens ov
 
 +++
 
-### Leveringsstatistieken {#delivery-summary-email-exec-stats}
+### Leveringsstatistieken {#delivery-summary-email-delivery-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_email_delivery_stats"
+>title="Leveringsstatistieken"
+>abstract="De **Leveringsstatistieken** grafiek en lijst overzicht zeer belangrijke metriek, met inbegrip van succesvolle leveringen, fouten, en nieuwe quarantines, die een beknopt overzicht aanbieden om leveringsprestaties te evalueren."
 
 De **[!UICONTROL Delivery statistics]** tabel geeft een overzicht van het succes van elke e-maillevering , met gedetailleerde cijfers die hieronder worden beschreven .
 
@@ -75,6 +90,11 @@ De **[!UICONTROL Delivery statistics]** tabel geeft een overzicht van het succes
 
 ### Oorzaken van uitsluiting {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_exclusion_email"
+>title="Oorzaken van uitsluiting"
+>abstract="De **Uitsluitingsoorzaken** de grafiek en de tabel illustreren de specifieke redenen voor afwijzingen van berichten tijdens de voorbereiding van de levering, met een gedetailleerde uitsplitsing per regel."
+
 ![](assets/global_report_email_exclusions.png){align="center"}
 
 In de grafiek en de tabel met uitsluitingen worden de redenen weergegeven waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
@@ -83,13 +103,31 @@ E-mailfouttypen worden weergegeven in het dialoogvenster [Adobe Campaign v8-docu
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_email"
+>title="Leveringsdoorvoer"
+>abstract="Dit **Leveringsdoorvoer** biedt uitgebreide inzichten in de doorvoer van de resultaten, waardoor succes en foutpercentages binnen een opgegeven tijdsperiode worden benadrukt."
+
 ![](assets/global_report_email_delivery_throughput.png){align="center"}
 
-Dit rapport bevat uitgebreide informatie over de leveringstijd binnen een opgegeven tijdsperiode.
+Het rapport Leveringsdoorvoer biedt diepgaande inzichten in de efficiëntie van het leveringsproces en biedt een gedetailleerd overzicht van het succes en de foutenpercentages binnen een bepaald tijdsbestek.
+
++++ Meer informatie over de maatstaven van de leveringstijd.
+
+* **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
+
+* **[!UICONTROL Errors]**: Totaal aantal fouten bij leveringen en automatische oplevering in verhouding tot het aantal te leveren berichten.
+
++++
 
 ## Niet-te leveren items {#non-deliverables-email}
 
 ### Uitsplitsing van fouten per type {#delivery-summary-email-breakdown-per-type}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_error_type_email"
+>title="Uitsplitsing van fouten per type"
+>abstract="De tabel en de grafiek waarin de **Uitsplitsing van fouten per type** omvat informatie over diverse foutentypes die tijdens het proces, met inbegrip van onbekende gebruiker, brievenbus volledig, ongeldig domein, en anderen worden ontmoet."
 
 ![](assets/global_report_email_breakdown_type.png){align="center"}
 
@@ -117,6 +155,11 @@ De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces
 
 ### Uitsplitsing van fouten per domein {#delivery-summary-email-breakdown-per-domain}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_error_domain_email"
+>title="Uitsplitsing van fouten per domein"
+>abstract="De tabel en grafiek die het **Uitsplitsing van fouten per domein** geeft de gegevens weer die overeenkomen met elk aangetroffen fouttype, gecategoriseerd door specifieke domeinen."
+
 ![](assets/global_report_email_breakdown_domain.png){align="center"}
 
 De **[!UICONTROL Breakdown of errors per domain]** in tabel en grafiek worden de gegevens weergegeven die betrekking hebben op mogelijke fouten binnen elk domein. De metriek is gemeenschappelijk met **[!UICONTROL Breakdown of errors per type]** tabel en grafiek hierboven.
@@ -124,6 +167,11 @@ De **[!UICONTROL Breakdown of errors per domain]** in tabel en grafiek worden de
 ## Trackingsindicatoren {#tracking-indicators-email}
 
 ### Leveringsstatistieken {#delivery-summary-email-statistics}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_delivery_statistics_summary_email"
+>title="Leveringsstatistieken"
+>abstract="De **Leveringsstatistieken** De belangrijkste Indicatoren van Prestaties (KPIs) verstrekken een uitvoerig overzicht van uw leverings en campagneprestaties, die inzicht in zowel succesvolle levering, ontmoet fouten als gebruikersbetrokkenheid aanbieden."
 
 De **[!UICONTROL Delivery statistics]** De metriek biedt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie betreffende de gegevens verstrekken verbonden aan elke e-maillevering. Hieronder vindt u nadere informatie over deze cijfers.
 
@@ -148,6 +196,11 @@ De **[!UICONTROL Delivery statistics]** De metriek biedt zeer belangrijke presta
 
 ### Openen en klikken op dalingssnelheid {#delivery-summary-open-rate}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_open_clickthrough_email"
+>title="Open- en doorklikfrequentie"
+>abstract="De tabel voor **Open- en doorkliksnelheden** onthult de betrokkenheid van ontvangers bij uw levering, waarbij gegevens over open tarieven en doorkliksnelheden worden getoond voor een snel en inzichtelijk overzicht."
+
 De **[!UICONTROL Open and click-trough rate]** de lijst toont gegevens met betrekking tot uw ontvangers. De cijfers worden hieronder beschreven.
 
 ![](assets/global_report_email_opens.png){align="center"}
@@ -169,6 +222,11 @@ De **[!UICONTROL Open and click-trough rate]** de lijst toont gegevens met betre
 
 ### URL&#39;s en klik op streams KPI&#39;s {#url-email-kpis}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_urls_clickstreams_email"
+>title="URL&#39;s en klikpaden"
+>abstract="De **URL&#39;s en klik op streams** Het rapport verstrekt essentiële Belangrijkste Indicatoren van Prestaties (KPIs) die gedetailleerde inzichten in meest-geklikte URLs tijdens een levering aanbieden."
+
 De **[!UICONTROL URLs and click streams]** Het rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde inzichten in URLs verstrekken die het hoogste aantal kliks tijdens een levering ontvingen. De cijfers worden hieronder beschreven.
 
 ![](assets/campaign_report_email_9.png){align="center"}
@@ -184,7 +242,12 @@ De **[!UICONTROL URLs and click streams]** Het rapport verstrekt zeer belangrijk
 * **[!UICONTROL Platform average]** : Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die in de voorafgaande zes maanden werden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
 +++
 
-### De tien meest bezochte koppelingen bovenaan {#top10-campaign-report-email}
+### De tien meest bezochte koppelingen bovenaan {#top10-global-report-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_top10_email"
+>title="De tien meest bezochte koppelingen bovenaan"
+>abstract="De **De tien meest bezochte koppelingen bovenaan**  grafiek en tabel bevatten uitgebreide gegevens over de interactie tussen ontvangers en elke koppeling."
 
 De **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding. De cijfers worden hieronder beschreven.
 
@@ -198,13 +261,23 @@ De **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de
 
 +++
 
-### Uitsplitsing van klikken in de tijd {#campaign-report-email-breakdown-clicks}
+### Uitsplitsing van klikken in de tijd {#global-report-email-breakdown-clicks}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_urls_click_breakdown_email"
+>title="Uitsplitsing van klikken in de tijd"
+>abstract="De **Uitsplitsing van klikken in de tijd** grafiek biedt een uitvoerige mening van hoe de ontvangers met verbindingen door het aangewezen tijdkader in dienst nemen."
 
 De **[!UICONTROL Breakdown of clicks over time]** de grafiek bevat de beschikbare gegevens voor het gedrag van de ontvanger per koppeling.
 
 ![](assets/global_report_email_breakdown_clicks.png){align="center"}
 
 ## Gebruikersactiviteiten {#user-activities-email}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_user_activities_email"
+>title="Gebruikersactiviteiten"
+>abstract="De grafische weergave van **Gebruikersactiviteiten** biedt een gedetailleerde specificatie van ontvankelijke interactie aan, portrettering opent en door een informatief grafiekformaat klikt."
 
 De **[!UICONTROL User activities]** het rapport toont de uitsplitsing van opent en klikt in de vorm van een grafiek. De cijfers voor dit rapport worden hieronder beschreven.
 

@@ -4,7 +4,7 @@ title: Campagnerapporten voor het e-mailkanaal
 description: Meer informatie over campagnerapporten voor het e-mailkanaal
 badge: label="Beperkte beschikbaarheid"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 0%
@@ -47,7 +47,7 @@ De **[!UICONTROL Delivery Overview]** biedt prestatiekernindicatoren (KPI&#39;s)
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_deliveries_target"
 >title="Eerste doelstatistieken"
->abstract="De aanvankelijke lijst van de doelpubliek toont gegevens met betrekking tot uw ontvangers"
+>abstract="De aanvankelijke lijst van de doelpublieksstatistieken toont gegevens met betrekking tot uw ontvangers."
 
 De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers. De cijfers worden hieronder beschreven.
 

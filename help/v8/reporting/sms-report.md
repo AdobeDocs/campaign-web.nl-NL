@@ -4,7 +4,7 @@ title: Verzendrapporten via SMS
 description: Leer hoe u sms-leveringsrapporten kunt openen en gebruiken
 badge: label="Beperkte beschikbaarheid"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 1%
@@ -22,12 +22,12 @@ De **Overzicht van SMS-verzending** biedt een uitgebreid overzicht van uw leveri
 
 ## Leveringsoverzicht {#delivery-summary}
 
+### Overzicht van levering {#sms-delivery-overview}
+
 >[!CONTEXTUALHELP]
 >id="acw_sms_report_overview"
 >title="Overzicht van SMS-verzending"
 >abstract="De **Overzicht van SMS-verzending** biedt een uitgebreid overzicht van uw levering van SMS, die uitgebreide inzichten en specifieke gegevens verstrekt. Het verstrekt uitvoerige informatie over de prestaties, de doeltreffendheid, en de resultaten van uw levering."
-
-### Overzicht van levering {#sms-delivery-overview}
 
 De **[!UICONTROL Delivery overview]** Het rapport biedt belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over het succes en de foutenpercentages en over de manier waarop uw bezoekers uw SMS-berichten gebruiken.
 
@@ -45,9 +45,7 @@ De **[!UICONTROL Delivery overview]** Het rapport biedt belangrijke prestatie-in
 
 +++
 
-
 ### Doelpopulatie {#sms-delivery-targeted-population}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_targeted_population"
@@ -67,7 +65,6 @@ De **Doelpopulatie** grafiek en lijstvertoningsgegevens met betrekking tot uw pu
 
 
 ### Algemene statistieken {#sms-delivery-overall}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_overall_stats"
@@ -89,12 +86,10 @@ De **Algemene statistieken** rapport bevat gegevens voor de verzonden SMS-berich
 
 ### Uitsluitingen {#sms-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sms_exclusions"
 >title="Sms-uitsluitingen"
 >abstract="De **Uitsluitingen** de grafiek en de lijst tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen."
-
 
 De **[!UICONTROL Exclusions]** de grafiek en de lijst tonen de redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, het bericht ontvingen. De uitsluitingsregels worden nader toegelicht in de [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
@@ -105,7 +100,7 @@ De **[!UICONTROL Exclusions]** de grafiek en de lijst tonen de redenen die gebru
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_sms"
 >title="Productie van SMS-berichten"
->abstract="De **Leveringsdoorvoer** het rapport bevat gedetailleerde informatie over de leveringproductie binnen een bepaald tijdsbestek.  Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden."
+>abstract="De **Leveringsdoorvoer** het rapport bevat gedetailleerde informatie over de leveringproductie binnen een bepaald tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden."
 
 Dit rapport bevat gedetailleerde informatie over de leveringsproductie binnen een bepaald tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Globale rapporten voor het kanaal van de Duw
 description: Werken met algemene rapporten voor het pushkanaal
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 2%
+source-wordcount: '515'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +18,12 @@ Ga naar de **[!UICONTROL Reports]** in het menu **[!UICONTROL Reporting]** secti
 
 ## Leveringsoverzicht {#delivery-summary-push}
 
-### Leveringsoverzicht {#delivery-overview-push}
+### Overzicht van levering {#delivery-overview-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_push_global_report_overview"
+>title="Overzicht van pushbezorging"
+>abstract="De toets **leveringsoverzicht** De KPIs verstrekt een grondig onderzoek van uw dupleveringen, die gedetailleerde inzichten en specifieke gegevens leveren. Het verstrekt uitvoerige details betreffende de prestaties, de doeltreffendheid, en de resultaten van leveringen."
 
 De **[!UICONTROL Delivery Overview]** biedt prestatiekernindicatoren (KPI&#39;s) die gedetailleerde informatie geven over hoe uw bezoekers omgaan met elke levering van pushberichten. De cijfers worden hieronder beschreven.
 
@@ -38,6 +43,11 @@ De **[!UICONTROL Delivery Overview]** biedt prestatiekernindicatoren (KPI&#39;s)
 
 ### Gericht publiek {#delivery-summary-push-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_targeted_audience"
+>title="Doelpopulatie duwen"
+>abstract="De **Doelpopulatie** grafiek en lijst showcase gegevens met betrekking tot uw publiek van het drukkend overseinen, presenterend informatie over te leveren berichten en uitsluitingen."
+
 De **[!UICONTROL Targeted audience]** tabel en grafiek geven gegevens weer met betrekking tot uw ontvangers voor elke verzonden pushmelding. De cijfers worden hieronder beschreven.
 
 ![](assets/global_report_push_targeted_audience.png)
@@ -53,6 +63,11 @@ De **[!UICONTROL Targeted audience]** tabel en grafiek geven gegevens weer met b
 +++
 
 ### Leveringsstatistieken {#delivery-summary-push-exec-stats}
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_delivery_stats"
+>title="Statistieken betreffende onder druk geleverde goederen"
+>abstract="De **Algemene statistieken** het rapport biedt informatie over verzonden pushmeldingen, zoals succespercentages, fouten en quarantines."
 
 De **[!UICONTROL Delivery statistics]** de lijst specificeert het succes van elke Push berichtlevering. De cijfers worden hieronder beschreven.
 
@@ -74,13 +89,23 @@ De **[!UICONTROL Delivery statistics]** de lijst specificeert het succes van elk
 
 ### Oorzaken van uitsluiting {#causes-exclusion}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_push_exclusion"
+>title="Uitsluitingsoorzaken"
+>abstract="De **Uitsluitingsoorzaken** de grafiek en de lijst illustreren de diverse redenen die gebruikersprofielen beletten om de dupberichten te ontvangen."
+
 De **[!UICONTROL Causes of exclusion]** de grafiek en de lijst tonen de redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, het bericht ontvingen.
 
 Typen pushmeldingen worden weergegeven in het dialoogvenster [Adobe Campaign v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 ## Leveringsdoorvoer {#delivery-throughput-sms}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_throughput_push"
+>title="Leveringsrapport"
+>abstract="De **Leveringsdoorvoer** het rapport bevat gedetailleerde informatie over de doorvoer van de pushmelding van het gehele platform binnen een opgegeven tijdsbestek."
+
 ![](assets/global_report_push_delivery_throughput.png)
 
-Dit rapport bevat uitgebreide informatie over de leveringstijd binnen een opgegeven tijdsperiode.
+De **[!UICONTROL Delivery Throughput]** het rapport biedt uitgebreide inzichten in de doeltreffendheid van het systeem voor de levering van pushberichten, met een gedetailleerde samenvatting van het succes en de foutenpercentages over een bepaalde periode.
 

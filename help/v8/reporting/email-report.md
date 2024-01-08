@@ -4,7 +4,7 @@ title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 badge: label="Beperkte beschikbaarheid"
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
 workflow-type: tm+mt
 source-wordcount: '2121'
 ht-degree: 0%
@@ -74,12 +74,10 @@ De **[!UICONTROL Delivery statistics]** grafiek geeft het succes van uw levering
 
 ### Oorzaken van uitsluiting  {#email-delivery-exclusions}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="Uitsluitingsoorzaken"
 >abstract="De **Oorzaken van uitsluiting** de grafiek en de tabel geven de uitsplitsing per regel weer van berichten die tijdens de voorbereiding van de levering zijn afgewezen."
-
 
 De **[!UICONTROL Causes of exclusion]** de grafiek en de tabel geven de uitsplitsing per regel weer van berichten die tijdens de voorbereiding van de levering zijn afgewezen. De uitsluitingsregels worden nader toegelicht in de [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
@@ -288,7 +286,7 @@ De **[!UICONTROL URLs and click streams]** Het rapport verstrekt zeer belangrijk
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="De tien meest bezochte koppelingen bovenaan"
->abstract="De **De tien meest bezochte koppelingen bovenaan** De alinea en de tabel bevatten de beschikbare gegevens voor het gedrag van de ontvanger per koppeling."
+>abstract="De **De tien meest bezochte koppelingen bovenaan** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding."
 
 
 De **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding.
