@@ -2,12 +2,12 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 2%
+source-wordcount: '853'
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk 
 * **[!UICONTROL Name]**: De interne naam van de workflow.
 * **[!UICONTROL Folder]**: De map waarin de workflow moet worden opgeslagen.
 * **[!UICONTROL Linked campaign]**: Dit veld wordt weergegeven als de workflow in een campagne is gemaakt. Hiermee kunt u de bijbehorende campagne openen.
-* **[!UICONTROL Timezone]**: Definieer een specifieke tijdzone die standaard moet worden gebruikt in alle activiteiten van de workflow. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
+* **[!UICONTROL Timezone]**: Definieer een specifieke tijdzone die standaard moet worden gebruikt in alle activiteiten van de workflow. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campagneoperator.
 Andere mogelijke waarden zijn:
    * **Tijdzone van server** de tijdzone van de Adobe Campaign-toepassingsserver gebruiken
    * **Tijdzone van exploitant** om de tijdzone te gebruiken van de Adobe Campaign-operator die de workflow uitvoert, zoals gedefinieerd in het profiel van de operator, in de clientconsole
@@ -51,7 +51,8 @@ Andere mogelijke waarden zijn:
 >title="Segmenteringsinstellingen"
 >abstract="In deze sectie kunt u de doeldimensie selecteren voor doelprofielen in de workflow en ervoor kiezen om de werkstroomresultaten tussen twee uitvoeringen te houden. Deze optie mag alleen voor testdoeleinden worden gebruikt en mag nooit in een productiewerkstroom worden ingeschakeld."
 
-* **[!UICONTROL Targeting dimension]**: Selecteer de doeldimensie die u wilt gebruiken voor doelprofielen: ontvangers, begunstigden van contracten, exploitant, abonnees, enz.
+* **[!UICONTROL Targeting dimension]**: Selecteer de doeldimensie die u wilt gebruiken voor doelprofielen: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. [Meer informatie over doelgerichte dimensies](../audience/targeting-dimensions.md)
+
 * **[!UICONTROL Keep the result of interim populations between two executions]**: Standaard blijven alleen de werktabellen van de laatste uitvoering van de workflow behouden. De werklijsten van vorige uitvoeringen worden gezuiverd door een technische werkschema, die op een dagelijkse basis loopt.
 
   Als deze optie is ingeschakeld, worden werktabellen ook bewaard nadat de workflow is uitgevoerd. U kunt het voor testdoeleinden gebruiken en moet daarom alleen worden gebruikt in ontwikkelings- of testomgevingen. Deze mag nooit in een productiewerkstroom worden gecontroleerd.

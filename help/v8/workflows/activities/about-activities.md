@@ -4,9 +4,9 @@ title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
 badge: label="Beperkte beschikbaarheid"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,7 @@ Deze activiteiten zijn specifiek gericht op het richten, manipuleren en verrijke
 
 ## Kanaalactiviteiten {#channel}
 
-Met Adobe Campaign Web kunt u marketingcampagnes op meerdere kanalen automatiseren en uitvoeren. U kunt kanaalactiviteiten in het canvas combineren om kanaalworkflows te maken die acties op basis van klantgedrag kunnen activeren. Het volgende **Kanaal** activiteiten zijn beschikbaar: e-mail-, SMS-, Android- en iOS Push-berichten.
-
-Leer hoe u een levering instelt in de context van een workflow in deze [sectie](channels.md).
+Met Adobe Campaign Web kunt u marketingcampagnes op meerdere kanalen automatiseren en uitvoeren. U kunt kanaalactiviteiten in het canvas combineren om kanaalworkflows te maken die acties op basis van klantgedrag kunnen activeren. Het volgende **Kanaal** activiteiten zijn beschikbaar: e-mail-, SMS-, Android- en iOS Push-berichten. [Leer hoe u een levering instelt in de context van een workflow](channels.md).
 
 ## Stroombeheeractiviteiten {#flow-control}
 
