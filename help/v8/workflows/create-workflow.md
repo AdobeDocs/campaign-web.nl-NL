@@ -4,7 +4,7 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u een workflow maakt met Adobe Campaign Web
 badge: label="Beta"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 9272419162d95859147949717e294aa7ae24fc71
+source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 1%
@@ -52,7 +52,6 @@ Uw workflow wordt nu gemaakt en beschikbaar in de lijst met workflows. U kunt nu
 
 ## Werken met workflowsjablonen {#workflow-templates}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_template_for_campaign"
 >title="Workflowsjablonen"
@@ -61,7 +60,6 @@ Uw workflow wordt nu gemaakt en beschikbaar in de lijst met workflows. U kunt nu
 Workflowsjablonen bevatten vooraf geconfigureerde instellingen en activiteiten die opnieuw kunnen worden gebruikt voor het maken van nieuwe workflows. U kunt bij het maken van een workflow de sjabloon van uw workflow selecteren uit de workfloweigenschappen. Er wordt standaard een lege sjabloon weergegeven.
 
 U kunt een sjabloon maken op basis van een bestaande workflow of een geheel nieuwe sjabloon maken. Beide methoden worden hieronder beschreven.
-
 
 >[!BEGINTABS]
 
