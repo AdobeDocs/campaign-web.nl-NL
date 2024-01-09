@@ -2,18 +2,18 @@
 audience: end-user
 title: Aan de slag met berichten en leveringen in Campagne v8 Web
 description: Leer hoe u met leveringen werkt en berichten verzendt met Campagne Web
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 2c0f2135752a873f151443a1123a58c7c84d632f
+source-git-commit: 51cde630b5867662c40f79109f40f78a08eb758f
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 5%
+source-wordcount: '131'
+ht-degree: 6%
 
 ---
 
 # Aan de slag met berichten{#gs-messages}
 
-Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mailberichten, SMS-berichten en pushmeldingen, en de doeltreffendheid ervan meten aan de hand van verschillende speciale rapporten.
+Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mails, SMS en pushmeldingen, en de impact ervan meten aan de hand van verschillende speciale rapporten.
 
 Deze berichten worden ontworpen en verzonden door leveringen, en kunnen voor elke ontvanger worden gepersonaliseerd. Deze leveringen kunnen in het kader van een marketingcampagne op zichzelf staan of in workflows worden opgenomen. Leer hoe u leveringen maakt en beheert in Adobe Campaign in [deze sectie](gs-deliveries.md).
 

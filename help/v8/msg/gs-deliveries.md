@@ -2,14 +2,15 @@
 product: campaign
 title: Werken met leveringen
 description: Leer hoe u uw eerste levering maakt in Campagne Web
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
+badge: label="Beperkte beschikbaarheid"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 0%
+source-wordcount: '1164'
+ht-degree: 1%
 
 ---
 
@@ -36,14 +37,17 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
 
    ![](assets/create-a-delivery.png)
 
-1. Kies een kanaal voor de levering. Meer informatie over leveringskanalen en hoe u in deze secties leveringsinhoud kunt definiëren:
+1. Kies een kanaal voor de levering.
+1. Bepaal het leveringspubliek, voor het belangrijkste doel en de controlegroep. Meer informatie over publiek in [deze sectie](../audience/about-recipients.md).
+
+   ![](assets/select-audience.png){width="70%" align="left"}
+
+1. Bepaal de berichtinhoud. Meer informatie over leveringskanalen en hoe u in deze secties leveringsinhoud kunt definiëren:
 
    * [Email channel](../email/create-email.md)
    * [Push-meldingskanaal](../push/gs-push.md)
    * [SMS-kanaal](../sms/create-sms.md)
 
-1. Bepaal het leveringspubliek, voor het belangrijkste doel en de controlegroep. Meer informatie over publiek in [deze sectie](../audience/about-recipients.md).
-1. Bepaal de berichtinhoud.
 1. (optioneel) Bepaal de levering [schema](#gs-schedule). Als geen programma wordt bepaald, worden de berichten verzonden onmiddellijk na het klikken van **[!UICONTROL Send]** knop.
 1. Klik op de knop  **[!UICONTROL Review and send]** om uw instellingen te controleren.
 1. Gebruik de  **[!UICONTROL Simulate content]** om uw levering, en verpersoonlijkingsmontages te testen. Meer informatie over berichtsimulatie vindt u in [deze sectie](../preview-test/preview-test.md).
@@ -56,13 +60,11 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
 Ga als volgt te werk om een levering in een workflow te maken:
 
 1. Maak een workflow of open een bestaande workflow. Meer informatie over workflows in [deze pagina](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Een **[!UICONTROL Build audience]** en klik op de knop `+`knop.
+1. Een **[!UICONTROL Build audience]** activiteit. Meer informatie over de **[!UICONTROL Build audience]** activiteit in [deze sectie](../workflows/activities/build-audience.md).
+1. Klik op de knop `+` en selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van het leveringskanaal in een workflow en over het definiëren van inhoud voor levering in deze [sectie](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png)
 
-   De **[!UICONTROL Build audience]** activiteit wordt nader omschreven in [deze sectie](../workflows/activities/build-audience.md).
-
-1. Selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van het leveringskanaal in een workflow en over het definiëren van inhoud voor levering in deze [sectie](../workflows/activities/channels.md).
 1. Start de workflow en controleer logbestanden.
 
 U kunt ook leveringen in een campagne toevoegen zonder een workflow te maken. Om dit te bereiken, doorblader aan **[!UICONTROL Deliveries]** tabblad van uw campagne en klik op **[!UICONTROL Create delivery]** knop.
