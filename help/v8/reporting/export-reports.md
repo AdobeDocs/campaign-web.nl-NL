@@ -3,10 +3,10 @@ audience: end-user
 title: Uw rapporten exporteren
 description: Begrijp hoe u uw rapporten exporteert
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

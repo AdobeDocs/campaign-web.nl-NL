@@ -2,12 +2,12 @@
 audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 17%
+source-wordcount: '597'
+ht-degree: 18%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 17%
 >id="acw_orchestration_deduplication"
 >title="Deduplicatieactiviteit"
 >abstract="De **Deduplicatie** Met activiteit kunt u duplicaten uit de resultaten van de binnenkomende activiteiten verwijderen. Het wordt meestal gebruikt na doelgerichte activiteiten en vóór activiteiten die het gebruik van gerichte gegevens mogelijk maken."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
@@ -46,7 +45,7 @@ Voer de volgende stappen uit om de **Deduplicatie** activiteit:
 
 1. In de **Velden om duplicaten te identificeren** klikt u op de **Kenmerk toevoegen** om de velden op te geven waarvoor de identieke waarden het mogelijk maken duplicaten te identificeren, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt.
 
-1. Selecteer het aantal unieke **Duplicaten om te behouden**. De standaardwaarde voor dit veld is 1. Met de waarde 0 kunt u alle duplicaten behouden.
+1. In de **Instellingen voor deduplicatie** selecteert u het aantal unieke **Duplicaten om te behouden**. De standaardwaarde voor dit veld is 1. Met de waarde 0 kunt u alle duplicaten behouden.
 
    Stel bijvoorbeeld dat records A en B worden beschouwd als duplicaten van record Y en dat een record C wordt beschouwd als duplicaat van record Z:
 

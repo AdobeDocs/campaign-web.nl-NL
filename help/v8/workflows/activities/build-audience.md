@@ -2,12 +2,12 @@
 audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 0%
+source-wordcount: '492'
+ht-degree: 1%
 
 ---
 
@@ -18,14 +18,13 @@ ht-degree: 0%
 >title="Activiteit voor publiek opbouwen"
 >abstract="De **publiek opbouwen** Met deze activiteit kunt u het publiek definiëren dat de workflow zal betreden. Wanneer het verzenden van berichten in de context van een werkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit."
 
-
 De **publiek opbouwen** activiteit is **Targeting** activiteit. Met deze activiteit kunt u het publiek definiëren dat de workflow zal betreden. Wanneer het verzenden van berichten in de context van een werkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit.
 
 Om de publieksbevolking te bepalen, kunt u:
 
 * Selecteer een bestaand publiek dat als een lijst in de cliëntconsole wordt gecreeerd.
 * Selecteer een Adobe Experience Platform-publiek.
-* Bouw een nieuw publiek met de regelbouwer door het filtreren criteria te bepalen en te combineren.
+* Bouw een nieuw publiek met de bouwer van de vraagmodelleur door het filtreren criteria te bepalen en te combineren.
 
 >[!NOTE]
 >
@@ -42,7 +41,6 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 >title="Doeldimensie selecteren"
 >abstract="Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers."
 
-
 Voer de volgende stappen uit om de **publiek opbouwen** activiteit:
 
 ![](../assets/workflow-audience.png)
@@ -50,23 +48,32 @@ Voer de volgende stappen uit om de **publiek opbouwen** activiteit:
 1. Voeg een **publiek opbouwen** activiteit.
 1. Definieer een label.
 1. Bepaal het publiekstype: **Maak uw eigen** of **Lees publiek**.
+1. Configureer uw publiek door de stappen uit te voeren die in de onderstaande tabbladen worden beschreven.
 
-Voer de volgende extra stappen uit om uw eigen query te maken:
+>[!BEGINTABS]
+
+>[!TAB Uw eigen bestand maken (query)]
+
+Voer de volgende stappen uit om uw eigen query te maken:
 
 1. Selecteren **Uw eigen bestand maken (query)**.
-1. Kies de optie **Doeldimensie**. Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers. Meer informatie over gerichte afmetingen in [deze sectie](../../audience/about-recipients.md#targeting-dimensions).
+1. Kies de optie **Doeldimensie**. Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers. [Meer informatie over doelgerichte dimensies](../../audience/about-recipients.md#targeting-dimensions)
 1. Klikken **Doorgaan**.
-1. Gebruik de bouwer van de regel om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. Zie dit [sectie](../../audience/../query/query-modeler-overview.md).
+1. Gebruik de vraagmodeler om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. [Leer hoe te met vraagmodeler te werken](../../audience/../query/query-modeler-overview.md)
+
+>[!TAB Doelgroep lezen]
 
 Voer de volgende stappen uit om een bestaand publiek te selecteren:
 
 1. Selecteren **Lees publiek**.
 1. Klikken **Doorgaan**.
-1. Selecteer uw publiek, zoals u een publiek gebruikt bij het ontwerpen van een nieuwe e-mail. Zie dit [sectie](../../audience/add-audience.md).
+1. Selecteer uw publiek, de zelfde manier u een publiek gebruikt wanneer het ontwerpen van een nieuwe levering. Zie dit [sectie](../../audience/add-audience.md).
 
 >[!IMPORTANT]
 >
 >Als u een **[!UICONTROL Build audience]** activiteit gericht op een publiek van het Experience Platform, moet u toevoegen **[!UICONTROL Change dimension]** activiteit daarna, om ervoor te zorgen dat de doelgerichte dimensie van het publiek aan &quot;Ontvanger&quot;wordt geplaatst. Onder aan deze pagina vindt u een voorbeeld van de workflow.
+
+>[!ENDTABS]
 
 ## Voorbeelden{#build-audience-examples}
 

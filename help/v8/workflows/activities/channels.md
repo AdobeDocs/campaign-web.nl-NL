@@ -2,11 +2,11 @@
 audience: end-user
 title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 1336690b8abe4c3697341ee1d1d704f21f7ece20
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -38,24 +38,20 @@ Begin uw werkschema met de relevante activiteiten te bouwen alvorens de levering
 
 ## De kanaalactiviteit configureren {#create-a-delivery-in-a-workflow}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_email"
 >title="E-mailactiviteit"
 >abstract="De e-mailactiviteit vergemakkelijkt het verzenden van e-mail binnen uw werkstroom, die voor zowel eenmalige als terugkomende berichten toestaat. Hiermee wordt het verzenden van e-mails naar een doel dat binnen dezelfde workflow is berekend, geautomatiseerd. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_sms"
 >title="SMS-activiteit"
 >abstract="De activiteit van SMS vergemakkelijkt het verzenden van SMS binnen uw werkschema, die voor zowel eenmalige als terugkomende berichten toestaat. Het dient om het proces te automatiseren om SMS naar een doel te verzenden dat binnen de zelfde werkschema wordt berekend. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_ios"
 >title="IOS-activiteit in duwen"
 >abstract="De Push iOS-activiteit stroomlijnt het proces voor het verzenden van iOS Push-berichten als onderdeel van uw workflow. Hierdoor kunnen eenmalige en terugkerende berichten worden verzonden, waardoor de verzendende iOS Push-berichten naar een vooraf gedefinieerd doel binnen dezelfde workflow worden geautomatiseerd. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
@@ -75,11 +71,11 @@ Volg onderstaande stappen om een levering in te stellen in de context van een wo
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   U kunt een andere sjabloon selecteren in het linkerdeelvenster van de configuratie van de kanaalactiviteit. Als het eerder geselecteerde publiek niet compatibel is met het kanaal, kunt u geen sjabloon selecteren. Als u dit wilt oplossen, werkt u de **publiek opbouwen** activiteit om een publiek met de correcte doelafbeelding te selecteren. Meer informatie over doeltoewijzingen in [Adobe Campaign v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   U kunt een andere sjabloon selecteren in het linkerdeelvenster van de configuratie van de kanaalactiviteit. Als het eerder geselecteerde publiek niet compatibel is met het kanaal, kunt u geen sjabloon selecteren. Als u dit wilt oplossen, werkt u de **publiek opbouwen** activiteit om een publiek met de correcte doelafbeelding te selecteren. Meer informatie over doeltoewijzingen in [Adobe Campaign v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}
 
-1. Klikken **Levering maken**. Definieer de berichtinstellingen en de inhoud op dezelfde manier als u een zelfstandige levering maakt. U kunt de inhoud ook plannen en simuleren. [Meer informatie](../../msg/gs-messages.md).
+1. Klikken **Levering maken**. Definieer de berichtinstellingen en de inhoud op dezelfde manier als u een zelfstandige levering maakt. U kunt de inhoud ook plannen en simuleren. [Meer informatie](../../msg/gs-messages.md)
 
-1. Ga terug naar uw workflow. Kies of u de workflow wilt voortzetten **Een uitgaande overgang genereren** als u een overgang wilt toevoegen na de kanaalactiviteit.
+1. Ga terug naar uw workflow. Als u uw workflow wilt voortzetten, **Een uitgaande overgang genereren** om een overgang toe te voegen na de kanaalactiviteit.
 
 1. Klikken **Start** om uw workflow te starten.
 

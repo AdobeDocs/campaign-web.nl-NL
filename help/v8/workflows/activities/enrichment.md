@@ -2,11 +2,11 @@
 audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 >id="acw_orchestration_enrichment"
 >title="Verrijkingsactiviteit"
 >abstract="De **Verrijking** Met deze activiteit kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
@@ -35,7 +34,7 @@ Verrijkingsgegevens kunnen worden verkregen:
 
 * **Van dezelfde werktabel** als doelversie in uw workflow:
 
-  *Stel een groep klanten in en voeg het veld Geboortedatum toe aan de huidige tabel*
+  *Stel een groep klanten in en voeg het veld Geboortedatum toe aan de huidige tabel*.
 
 * **Van een andere werktabel**:
 
@@ -51,11 +50,15 @@ Voer de volgende stappen uit om de **Verrijking** activiteit:
 
 1. Voeg activiteiten toe zoals **publiek opbouwen** en **Combineren** activiteiten.
 1. Een **Verrijking** activiteit.
-1. Klikken **Verrijkingsgegevens toevoegen**.
+1. Klikken **Verrijkingsgegevens toevoegen** en selecteert u het kenmerk dat u wilt gebruiken om de gegevens te verrijken.
 
-![](../assets/workflow-enrichment1.png)
+   U kunt twee typen verrijkingsgegevens selecteren: een [enkel verrijkingsattribuut](#single-attribute) van de doeldimensie, of [verzamelingskoppeling](#collection-link).
 
-U kunt twee typen verrijkingsgegevens selecteren: een [enkel verrijkingsattribuut](#single-attribute) van de doeldimensie, of [verzamelingskoppeling](#collection-link).
+   >[!NOTE]
+   >
+   >De **De knop Expressie bewerken** in het selectiescherm voor kenmerken kunt u geavanceerde expressies maken om het kenmerk te selecteren. [Leer hoe u met de expressieeditor werkt](../../query/expression-editor.md)
+
+   ![](../assets/workflow-enrichment1.png)
 
 ## Enkel verrijkingskenmerk {#single-attribute}
 
@@ -101,7 +104,7 @@ Als u bijvoorbeeld het gemiddelde aantal aankopen voor een klant wilt ophalen, s
 
 ### Filters definiëren{#collection-filters}
 
-Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren items die groter zijn dan 100$.
+Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren items die groter zijn dan 100$. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md)
 
 1. Klikken **Filters bewerken**.
 1. Voeg de twee volgende filters toe: **Totaal bedrag** bestaat EN **Totaal bedrag** is kleiner dan 100. De eerste filtert NULL-waarden op dezelfde manier als de hoogste waarde.
