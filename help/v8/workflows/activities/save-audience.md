@@ -2,23 +2,21 @@
 audience: end-user
 title: De workflowactiviteit voor het publiek opslaan gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 091775bae73595cb209199b062508931dd3ea315
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 5%
+source-wordcount: '426'
+ht-degree: 2%
 
 ---
 
 # Doelgroep opslaan {#save-audience}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_save_audience"
 >title="Een publiek opslaan"
 >abstract="Gebruik deze activiteit om een bestaand publiek bij te werken of een nieuw publiek van de bevolking te creëren die stroomopwaarts in het werkschema wordt berekend. Het publiek dat wordt gemaakt, wordt toegevoegd aan de lijst met doelgroepen en is beschikbaar via de **Soorten publiek** -menu."
-
 
 De **Adviezen opslaan** activiteit is **Targeting** activiteit. Met deze activiteit kunt u een bestaand publiek bijwerken of een nieuw publiek maken van de populatie die stroomopwaarts in een workflow is berekend. Het publiek dat wordt gemaakt, wordt toegevoegd aan de lijst met doelgroepen van toepassingen en wordt beschikbaar gesteld via de **Soorten publiek** -menu.
 
@@ -40,7 +38,7 @@ Voer de volgende stappen uit om de **Adviezen opslaan** activiteit:
 
 1. Selecteer de **Modus Bijwerken** die van toepassing zijn op bestaande doelgroepen:
 
-   * **De inhoud van het publiek vervangen door nieuwe gegevens**: alle publieksinhoud wordt vervangen. De oude data gaan verloren. Alleen de data van de binnenkomende overgang van de activiteit voor het opslaan van de doelgroep blijven behouden. Met deze optie wist u het publiekstype en de doeldimensie van het bijgewerkte publiek.
+   * **De inhoud van het publiek vervangen door nieuwe gegevens**: alle publieksinhoud wordt vervangen. De oude data gaan verloren. Alleen de gegevens van de binnenkomende overgang van de activiteit voor het opslaan van het publiek blijven behouden. Met deze optie wist u het publiekstype en de doeldimensie van het bijgewerkte publiek.
 
    * **Volledige doelgroep met nieuwe gegevens**: de oude publieksinhoud wordt bewaard en de gegevens van de binnenkomende overgang van de activiteit van het sparen publiek worden toegevoegd aan het.
 

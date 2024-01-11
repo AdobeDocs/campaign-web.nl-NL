@@ -2,11 +2,11 @@
 audience: end-user
 title: De werkstroomactiviteit Splitsen gebruiken
 description: Leer hoe u de activiteit van de gesplitste workflow gebruikt
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 490debae92986e55f83fb42f34a629c16ab3d991
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '704'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 1%
 >id="acw_orchestration_split"
 >title="Gesplitste activiteit"
 >abstract="De **Splitsen** met activiteit kunt u inkomende populaties segmenteren in meerdere subsets op basis van verschillende selectiecriteria, zoals filterregels of populatiegrootte."
-
 
 De **Splitsen** activiteit is **Targeting** activiteit die u toestaat om inkomende populaties in veelvoudige subsets te segmenteren die op verschillende selectiecriteria, zoals het filtreren regels of populatiegrootte worden gebaseerd.
 
@@ -54,9 +53,9 @@ Voer de volgende stappen uit om de **Splitsen** activiteit:
 
    >[!IMPORTANT]
    >
-   >Wanneer de gesplitste activiteit wordt uitgevoerd, wordt de populatie gesegmenteerd over de verschillende subsets in de volgorde waarin ze aan de activiteit worden toegevoegd. Als de eerste subset bijvoorbeeld 70% van de oorspronkelijke populatie herstelt, past de volgende toegevoegde subset zijn selectiecriteria alleen toe op de resterende 30%, enzovoort.
+   >Wanneer de **Splitsen** de activiteit wordt uitgevoerd, wordt de populatie over de verschillende subsets verdeeld in de volgorde waarin ze aan de activiteit worden toegevoegd. Als de eerste subset bijvoorbeeld 70% van de oorspronkelijke populatie herstelt, past de volgende toegevoegde subset zijn selectiecriteria alleen toe op de resterende 30%, enzovoort.
    >
-   > Voordat u de subsets configureert, moet u ervoor zorgen dat u deze in de juiste volgorde hebt toegevoegd. De positie van deze subsets kan namelijk niet worden gewijzigd.
+   >Voordat u de workflow start, moet u ervoor zorgen dat u de subsets in de gewenste volgorde hebt geplaatst. Hiervoor gebruikt u de pijlknoppen om de positie van een subset te wijzigen.
 
 1. Nadat subsets zijn toegevoegd, toont de activiteit evenveel uitvoerovergangen als er subsets zijn. We raden u ten zeerste aan het label van elke subset te wijzigen om deze gemakkelijk te identificeren in het werkstroomcanvas.
 

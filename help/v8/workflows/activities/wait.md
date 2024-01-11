@@ -2,11 +2,11 @@
 audience: end-user
 title: De workflowactiviteit Wachten gebruiken
 description: Leer hoe u de workflowactiviteit Wacht gebruikt
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 970953a1-0091-477c-9f52-596af3a8857d
-source-git-commit: f4ffb1e033dae3d631772ef602e48e336c8c0f16
+source-git-commit: 023777b88fa5c80e110fcf334517f7cef1c7f1ee
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '165'
 ht-degree: 27%
 
 ---
@@ -28,7 +28,7 @@ Voer de volgende stappen uit om de **Wachten** activiteit:
 
 1. Geef de **Duur** van de wachttijd tussen de binnenkomende en uitgaande overgangen.
 
-1. Selecteer de tijdeenheid in het dialoogvenster **Punten** veld: seconden, minuten, uren.
+1. Selecteer de tijdeenheid in het dialoogvenster **Punten** veld: seconden, minuten, uren, dagen.
 
 ## Voorbeeld{#wait-example}
 
