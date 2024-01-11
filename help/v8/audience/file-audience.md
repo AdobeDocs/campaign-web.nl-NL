@@ -4,9 +4,9 @@ title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 badge: label="Beta"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '599'
 ht-degree: 1%
 
 ---
@@ -26,14 +26,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_formatting"
 >title="Parameters opmaken"
->abstract="Controleer de opmaakparameters voor het externe bestand."
-
+>abstract="Geef op hoe het externe bestand wordt opgemaakt om ervoor te zorgen dat de gegevens correct worden geïmporteerd."
 
 >[!CONTEXTUALHELP]
 >id="acw_audience_fromfile_preview"
 >title="Een voorbeeld van uw bestand bekijken"
 >abstract="Controleer de voorvertoning van de kolommen van het externe bestand. Dit scherm toont slechts tot 30 verslagen."
-
 
 U kunt doelprofielen opgeven die zijn opgeslagen in een extern bestand. Profielen worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../personalization/gs-personalization.md). Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV). In dit artikel wordt beschreven hoe u een extern profiel kunt laden wanneer u een zelfstandige e-maillevering maakt. Als u gegevens uit een bestand in een workflow wilt laden, raadpleegt u [deze pagina](../workflows/activities/load-file.md).
 

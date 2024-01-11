@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit voor het laden van bestanden gebruiken
 description: Leer hoe u de workflowactiviteit Bestand laden gebruikt
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
+source-git-commit: ae925f16aa39b2e1de9b9957c380d17d299ad114
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,6 @@ ht-degree: 1%
 >title="Opmaak voor het laden van bestandsactiviteit"
 >abstract="Opmaak voor het laden van bestandsactiviteit"
 
-
 De **Bestand laden** activiteit is **Gegevensbeheer** activiteit. Gebruik deze activiteit om met profielen en gegevens te werken die in een extern dossier worden opgeslagen. Profielen en gegevens worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../../personalization/gs-personalization.md)of om profielen of een andere tabel bij te werken.
 
 >[!NOTE]
@@ -72,10 +71,12 @@ Voer de volgende stappen uit om de **Bestand laden** activiteit:
 
    ![](../assets/load-file.png)
 
-1. Pas de kolominstellingen aan en maak gegevens op van de beschikbare opties.
+1. Gebruik de **Kolommen** in het linkerdeelvenster om het gegevenstype en de breedte voor elke kolom aan te passen.
+
+1. In de **Opmaak** onder de kolomconfiguratie, specificeer hoe het externe dossier wordt geformatteerd om ervoor te zorgen dat de gegevens correct worden ingevoerd.
 
 1. Klikken **Bevestigen** als de instellingen correct zijn.
 
 ## Voorbeeld{#load-example}
 
-Er is een voorbeeld van het laden van een extern bestand beschikbaar in het dialoogvenster **Verzoening** activiteit in [deze sectie](reconciliation.md#example).
+Een voorbeeld van een extern bestand dat wordt geladen en dat wordt gebruikt voor de **Verzoening** activiteit is beschikbaar in [deze sectie](reconciliation.md#example).
