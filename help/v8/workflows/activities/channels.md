@@ -4,9 +4,9 @@ title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
 badge: label="Beperkte beschikbaarheid"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+source-git-commit: 1435a8c2bc62e5064eaacf5e0cabf11d5642f152
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '893'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde cam
 >* [Zelfstandige SMS-levering maken](../../sms/create-sms.md)
 >* [Zelfstandige pushlevering maken](../../push/create-push.md)
 
-## Uw workflow samenstellen{#build-your-workflow}
+## Uw workflow samenstellen {#build-your-workflow}
 
 Begin uw werkschema met de relevante activiteiten te bouwen alvorens de levering te plaatsen:
 
@@ -35,6 +35,10 @@ Begin uw werkschema met de relevante activiteiten te bouwen alvorens de levering
 * Voeg een **publiek opbouwen** activiteit. Het publiek is het belangrijkste doel van uw levering: de ontvangers die de berichten ontvangen. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar in **publiek opbouwen** activiteit. Zie [deze sectie](build-audience.md).
 
   ![](../../msg/assets/add-delivery-in-wf.png)
+
+  >[!NOTE]
+  >
+  >U kunt zich ook richten een publiek dat van een dossier wordt geladen. Om dit te doen, gebruik **Bestand laden** activiteit gevolgd door een **Verzoening** activiteit. [Meer informatie](../../audience/about-recipients.md)
 
 ## De kanaalactiviteit configureren {#create-a-delivery-in-a-workflow}
 
