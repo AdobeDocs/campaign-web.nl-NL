@@ -3,7 +3,7 @@ audience: end-user
 title: De werkstroomactiviteit voor het laden van bestanden gebruiken
 description: Leer hoe u de workflowactiviteit Bestand laden gebruikt
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 88daf84e617595a80c5cd3fd536969618f0fdcf5
+source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -55,23 +55,25 @@ ht-degree: 1%
 
 De **Bestand laden** activiteit is **Gegevensbeheer** activiteit. Gebruik deze activiteit om met profielen en gegevens te werken die in een extern dossier worden opgeslagen. Profielen en gegevens worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../../personalization/gs-personalization.md)of om profielen of een andere tabel bij te werken.
 
-
 >[!NOTE]
 >Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV).
 
-
 Deze activiteit kan worden gebruikt met een [Verzoening](reconciliation.md) activiteit om niet-geïdentificeerde gegevens aan bestaande middelen te koppelen. Bijvoorbeeld de **Bestand laden** activiteit kan vóór een **Verzoening** activiteit als u niet-standaardgegevens in het gegevensbestand invoert.
-
 
 ## De activiteit van het bestand laden configureren {#load-configuration}
 
 Voer de volgende stappen uit om de **Bestand laden** activiteit:
 
-
 1. Sleep een **Bestand laden** in uw workflow. Klik op de knop **Selecteren uit bestand** knop.
+
 1. Selecteer het lokale bestand dat u wilt gebruiken. De indeling moet hiermee worden uitgelijnd [voorbeeldbestand](../../audience/file-audience.md#sample-file).
+
 1. In het centrale gedeelte van het scherm kunt u bekijken en controleren hoe gegevens worden toegewezen.
+
+   ![](../assets/load-file.png)
+
 1. Pas de kolominstellingen aan en maak gegevens op van de beschikbare opties.
+
 1. Klikken **Bevestigen** als de instellingen correct zijn.
 
 ## Voorbeeld{#load-example}

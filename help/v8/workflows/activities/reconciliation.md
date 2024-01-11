@@ -3,10 +3,10 @@ audience: end-user
 title: De activiteit van de afstemmingsworkflow gebruiken
 description: Leer hoe u de workflowactiviteit Verzoening gebruikt
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: edd8ab0705bfdd0228c9c651787ce289283469f2
+source-git-commit: 47fd0ab358a28ed09d9ab0de3b9dfab5a1592634
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 10%
+source-wordcount: '836'
+ht-degree: 11%
 
 ---
 
@@ -17,12 +17,10 @@ ht-degree: 10%
 >title="Afstemmingsactiviteit"
 >abstract="De **Verzoening** activiteit is **Targeting** activiteit die u toestaat om het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen. Bijvoorbeeld de **Verzoening** activiteit kan na een **Haakje laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de externe tabel."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
 >title="Selectieveld Afstemmen"
 >abstract="Selectieveld Afstemmen"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_condition"
@@ -34,10 +32,9 @@ ht-degree: 10%
 >title="Afstemming genereren"
 >abstract="Afstemming genereren"
 
+De **Verzoening** activiteit is **Targeting** activiteit die u toestaat om het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen.
 
-
-De **Verzoening** activiteit is **Targeting** activiteit die u toestaat om het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen. Bijvoorbeeld de **Verzoening** activiteit kan na een **Haakje laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de werktabel.
-
+Bijvoorbeeld de **Verzoening** activiteit kan na een **Haakje laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de werktabel.
 
 ## Best practices {#reconciliation-best-practices}
 
@@ -45,10 +42,8 @@ Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in
 
 >[!NOTE]
 >De afstemmingsoperatie houdt in dat de gegevens van de gekoppelde afmetingen al in de database staan.  Als u bijvoorbeeld een aankoopbestand importeert waarin wordt aangegeven welk product is gekocht, op welk moment, door welke klant, enzovoort, moeten het product en de klant al in de database aanwezig zijn.
->
 
 ## De afstemmingsactiviteit configureren {#reconciliation-configuration}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting"
@@ -71,7 +66,6 @@ Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in
 >title="Niet-compatibele gegevens behouden"
 >abstract="Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de uitgaande overgang en beschikbaar in de werklijst voor toekomstig gebruik. Als u niet-compatibele gegevens wilt verwijderen, desactiveert u het dialoogvenster **Niet-compatibele gegevens behouden** -optie."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="Afstemmingskenmerk"
@@ -81,9 +75,9 @@ Voer de volgende stappen uit om de **Verzoening** activiteit:
 
 1. Sleep een **Verzoening** in uw workflow. Deze activiteit moet worden toegevoegd na een overgang met een populatie waarvan de doeldimensie niet rechtstreeks uit Adobe Campaign afkomstig is.
 
-1. Selecteer de nieuwe doeldimensie. Met een dimensie kunt u de doelgroep definiëren: ontvangers, abonnees van apps, operators, abonnees, enzovoort. Meer informatie over doelmaten in [deze pagina](../../audience/about-recipients.md#targeting-dimensions).
+1. Selecteer de nieuwe doeldimensie. Met een dimensie kunt u de doelgroep definiëren: ontvangers, abonnees van apps, operators, abonnees, enzovoort. [Meer informatie over doelgerichte dimensies](../../audience/about-recipients.md#targeting-dimensions).
 
-1. Selecteer het (de) afstemmingsveld(en) die u wilt gebruiken voor deduplicatie. U kunt een of meer verzoeningscriteria gebruiken.
+1. Selecteer de velden die u wilt gebruiken voor de afstemming. U kunt een of meer verzoeningscriteria gebruiken.
 
    1. Als u kenmerken wilt gebruiken om gegevens op elkaar af te stemmen, selecteert u de optie **Eenvoudige kenmerken** -optie. De **Bron** In dit veld worden de velden weergegeven die beschikbaar zijn in de invoerovergang en die moeten worden afgestemd. De **Doel** komt overeen met de velden van de geselecteerde doeldimensie. De gegevens worden in overeenstemming gebracht wanneer bron en bestemming gelijk zijn. Selecteer bijvoorbeeld de **E-mail** velden voor het dupliceren van profielen op basis van hun e-mailadres.
 
