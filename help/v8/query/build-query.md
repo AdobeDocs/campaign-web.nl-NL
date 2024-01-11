@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,8 @@ De voorwaarden van de douane staan u toe om lijsten te vragen verbonden aan de l
 
 Voor een **1-1 link**, navigeert u naar de gekoppelde tabel, selecteert u het gewenste kenmerk en definieert u de verwachte waarde.
 
+U kunt ook rechtstreeks een tabelkoppeling selecteren in het dialoogvenster **Waarde** plukker en bevestig. In dat geval moeten de waarden die beschikbaar zijn voor de geselecteerde tabel, worden geselecteerd met een speciale kiezer, zoals in het onderstaande voorbeeld wordt getoond.
+
 +++voorbeeld van Query
 
 Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
@@ -101,6 +103,10 @@ Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 1. Definieer de verwachte waarde voor het kenmerk.
 
    ![](assets/1-1-table.png){width="85%" align="center"}
+
+Hier volgt een queryvoorbeeld waarin een tabelkoppeling rechtstreeks is geselecteerd. Beschikbare waarden voor deze tabel moeten worden geselecteerd in een speciale kiezer.
+
+![](assets/1-1-table-direct.png){width="85%" align="center"}
 
 +++
 
