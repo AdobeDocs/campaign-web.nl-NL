@@ -2,9 +2,9 @@
 title: Doelafmetingen
 description: Meer informatie over doelgerichte dimensies vindt u op Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 9fd523a04ac4bfb2d760202b1f7e9bd9e7097dfe
+source-git-commit: 2770ddc3d0253d40c4432f71d2b192570e632a8e
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -13,9 +13,17 @@ ht-degree: 1%
 
 De gerichte dimensie, ook bekend als. target mapping, is het type gegevens dat een bewerking verwerkt. Hiermee kunt u de doelgroep definiëren: profielen, begunstigden van contracten, exploitanten, abonnees, enz.
 
+## Doeldimensies van workflows {#workflow}
+
 De doeldimensie van een workflow wordt gedefinieerd door de eerste **[!UICONTROL Build audience]** en wordt gebruikt voor alle verdere activiteiten tot het einde van de werkstroom. Bijvoorbeeld, als u een vraag op de profielen van het gegevensbestand uitvoert, zal de uitgaande overgang gegevens van type &quot;ontvanger&quot;bevatten en het zal aan de volgende activiteit worden overgebracht.
 
 Let op: u kunt de doeldimensie in een workflow wijzigen met een [Dimensieactiviteit wijzigen](../workflows/activities/change-dimension.md). Hierdoor kunt u bijvoorbeeld de database opvragen in een specifieke tabel, zoals aankopen of abonnementen, en vervolgens de dimensie voor het opgeven van doelen wijzigen in Ontvangers om leveringen naar de bijbehorende profielen te verzenden.
+
+Wanneer u een doeldimensie selecteert (in de workflowinstellingen of in activiteiten zoals **publiek opbouwen**, **Verzoening** of **Dimensie wijzigen**), wordt een selectie van algemeen gebruikte schema&#39;s door gebrek getoond in de lijst. Als u alle beschikbare schema&#39;s wilt weergeven, schakelt u het **[!UICONTROL Show all schemas]** knop. De optie wordt voor elke gebruiker opgeslagen.
+
+![](assets/targeting-dimension-show-all.png)
+
+## Doelafmetingen {#list}
 
 Standaard zijn de profielen voor e-mail- en sms-leveringssjablonen bedoeld. Hun doeldimensie gebruikt daarom de gebieden van **nms:ontvanger** tabel. Voor pushberichten is de standaarddoeldimensie: **Toepassingen voor abonnees nms:appSubscriptionRcp**, die is gekoppeld aan de tabel met ontvangers.
 
