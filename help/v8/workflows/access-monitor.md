@@ -4,7 +4,7 @@ title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 6694976596909226cadbb0997c6663ec17a9e39b
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -52,4 +52,4 @@ De **[!UICONTROL Templates]** worden alle beschikbare werkstroomsjablonen weerge
 
 De malplaatjes van het werkschema bevatten pre-gevormde activiteiten en algemene bezitsconfiguraties die voor het creëren van nieuwe werkschema&#39;s kunnen worden opnieuw gebruikt.
 
-U kunt werkstroomsjablonen maken op basis van een bestaande workflow of helemaal zelf. [Leer hoe u werkstroomsjablonen maakt](create-workflow.md#work-with-workflow-templates-workflow-templates)
+U kunt werkstroomsjablonen maken op basis van een bestaande workflow of helemaal zelf. [Leer hoe u werkstroomsjablonen maakt](create-workflow.md#workflow-templates)

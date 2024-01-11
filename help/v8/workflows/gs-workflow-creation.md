@@ -2,15 +2,14 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Beta"
-exl-id: 687b13a4-7ec8-4d07-9d20-53eb4ebefd28
-source-git-commit: 53148300ecb5d52d89875519c44ae979d29a4d76
+badge: label="Beperkte beschikbaarheid"
+exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
-
 
 # Belangrijkste principes voor het maken van werkstromen {#gs-workflow-creation}
 
@@ -21,7 +20,7 @@ Met Campagne v8 Web, kunt u werkschema&#39;s in een visueel canvas bouwen om kan
 
 Het workflowdiagram is een weergave van wat er moet gebeuren. Hierin worden de verschillende taken beschreven die moeten worden uitgevoerd en hoe deze aan elkaar zijn gekoppeld.
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
 
 Elke werkstroom bevat:
 
@@ -57,4 +56,3 @@ Deze stappen worden beschreven in de volgende sectie:
 1. [Activiteiten ordenen en configureren](orchestrate-activities.md)
 1. [Geavanceerde workflowinstellingen configureren](workflow-settings.md)
 1. [Start uw workflow en controleer de uitvoering ervan](start-monitor-workflows.md)
-

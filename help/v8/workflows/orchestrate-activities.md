@@ -2,14 +2,14 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Beta"
-source-git-commit: a71bb945a9206c73043235b05732ec83ee851ca6
+badge: label="Beperkte beschikbaarheid"
+exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
+source-git-commit: 24521be2c796b5714712849355c3d033537847bc
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
-
 
 # Orchestraten {#orchestrate}
 
@@ -17,9 +17,9 @@ Zodra u [een workflow hebben gemaakt](create-workflow.md)Of u nu het workflowmen
 
 ## Activiteiten toevoegen {#add}
 
-In dit stadium van de configuratie, wordt het diagram getoond met een beginpictogram, dat het begin van uw werkschema vertegenwoordigt. Als u de eerste activiteit wilt toevoegen, klikt u op de knop + die is verbonden met het startpictogram.
+In dit stadium van de configuratie, wordt het diagram getoond met een beginpictogram, dat het begin van uw werkschema vertegenwoordigt. Als u uw eerste activiteit wilt toevoegen, klikt u op de knop **+** die is verbonden met het startpictogram.
 
-Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten zijn afhankelijk van uw positie binnen het werkstroomdiagram. Wanneer u bijvoorbeeld uw eerste activiteit toevoegt, kunt u de workflow starten door zich te richten op een publiek, het workflowpad te splitsen of een wachtactiviteit in te stellen om de uitvoering van de workflow uit te stellen. Anderzijds, na een het publieksactiviteit van de Bouwstijl, kunt u uw doel met het richten van activiteiten verfijnen, een levering naar uw publiek met kanaalactiviteiten verzenden, of het werkschemaproces met debietcontroleactiviteiten organiseren.
+Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten zijn afhankelijk van uw positie binnen het werkstroomdiagram. Wanneer u bijvoorbeeld uw eerste activiteit toevoegt, kunt u de workflow starten door zich te richten op een publiek, het workflowpad te splitsen of een **Wachten** activiteit om de uitvoering van de workflow uit te stellen. Aan de andere kant **publiek opbouwen** activiteit, kunt u uw doel verfijnen met het richten van activiteiten, een levering naar uw publiek met kanaalactiviteiten verzenden, of het werkschemaproces met debietcontroleactiviteiten organiseren.
 
 ![](assets/workflow-start.png)
 
@@ -27,9 +27,9 @@ Zodra een activiteit aan het diagram is toegevoegd, verschijnt een juiste ruit, 
 
 ![](assets/workflow-configure-activities.png)
 
-Herhaal dit proces om zoveel activiteiten toe te voegen als u wilt afhankelijk van de taken die u de workflow wilt uitvoeren. U kunt ook een nieuwe activiteit invoegen tussen twee activiteiten. Om dit te doen, klik + knoop op de overgang tussen de activiteiten, selecteer de gewenste activiteit en vorm het in de juiste ruit.
+Herhaal dit proces om zoveel activiteiten toe te voegen als u wilt, afhankelijk van de taken die de workflow moet uitvoeren. U kunt ook een nieuwe activiteit invoegen tussen twee activiteiten. Om dit te doen, klik **+** op de overgang tussen de activiteiten, selecteer de gewenste activiteit en vorm het in de juiste ruit.
 
-Als u een activiteit wilt verwijderen, selecteert u deze op het canvas en klikt u op het pictogram Verwijderen in de activiteitseigenschappen.
+Als u een activiteit wilt verwijderen, selecteert u deze op het canvas en klikt u op de knop **Verwijderen** in de eigenschappen activity.
 
 >[!TIP]
 >
@@ -41,17 +41,17 @@ Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelven
 
 * **Verwijderen** de activiteit van het canvas.
 * **Uitschakelen/inschakelen** de activiteit. Wanneer de workflow wordt uitgevoerd, worden uitgeschakelde activiteiten en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de workflow gestopt.
-* **Kopiëren** de activiteit. Vervolgens kunt u de afbeelding in een willekeurige workflow plakken door op de knop &quot;+&quot; te klikken in een overgang en vervolgens &quot;Activiteiten plakken 1&quot; te selecteren.
+* **Kopiëren** de activiteit. U kunt het vervolgens in elke workflow plakken door op de knop **+** op een overgang en selecteert u &quot;Activiteiten plakken 1&quot;.
 * Toegang krijgen tot de activiteiten **Logboeken en taken**.
 * **Pauzeren/hervatten** de activiteit. Wanneer de workflow wordt uitgevoerd, wordt de gepauzeerde activiteit gepauzeerd. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
 
-![](assets/activity-action.png){width="70%"}
+![](assets/activity-action.png){width="50%"}
 
 ## Voorbeeld {#example}
 
 Hier volgt een voorbeeld van een workflow die is ontworpen om een e-mail naar alle klanten (andere dan VIP klanten) te sturen met een e-mail die geïnteresseerd is in koffiecomputers.
 
-![](assets/workflow-example.png)
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;}
 
 Hiervoor zijn de volgende activiteiten toegevoegd:
 
