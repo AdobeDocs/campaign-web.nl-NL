@@ -3,10 +3,10 @@ audience: end-user
 title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de webinterface voor campagnes
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Beperkte beschikbaarheid"
+source-git-commit: 798675125820076d4e5e379a94a1d5575425f68c
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '847'
 ht-degree: 1%
 
 ---
@@ -105,7 +105,7 @@ Voer de onderstaande stappen uit als u uw e-mail op een latere datum en tijd wil
 
 ## De verzending onderbreken of stoppen {#pause-stop-sending}
 
-Of uw levering gepland of niet is, kunnen twee acties op elk ogenblik tijdens het verzendende proces worden uitgevoerd:
+Of je levering gepland is of niet<!--TBC-->, kunnen twee acties op elk moment tijdens het verzendingsproces worden uitgevoerd:
 
 * Klikken **[!UICONTROL Pause sending]** om het verzenden van de berichten te onderbreken. U kunt het verzenden op elk gewenst moment hervatten.
 
