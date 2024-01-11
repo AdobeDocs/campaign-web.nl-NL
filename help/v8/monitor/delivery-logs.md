@@ -3,11 +3,11 @@ audience: end-user
 title: Leveringslogboeken controleren
 description: Leer hoe u leveringslogboeken kunt controleren
 exl-id: 2eb7457e-32f7-4729-99c8-91bf287f0192
-badge: label="Beta"
-source-git-commit: 9fb4a5057ec05877ffbadc85d1198ab24faf8972
+badge: label="Beperkte beschikbaarheid"
+source-git-commit: 07faf8255ce6db643534fb59f7c118eef04b39ef
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 25%
+source-wordcount: '359'
+ht-degree: 21%
 
 ---
 
@@ -27,7 +27,7 @@ De volgende tabbladen zijn beschikbaar:
 * [Logboeken](#logs-tab)
 * [Leveringen](#deliveries-tab)
 * [Uitsluitingen](#exclusion-tab)
-* [Uitsluitingsoorzaken](#exclusion-causes)
+* [Uitsluiting veroorzaakt](#exclusion-causes)
 * [Bijgehouden URL&#39;s](#tracked-urls)
 * [Tracking](#tracking)
 
@@ -56,7 +56,7 @@ De **Uitsluitingslogboeken** bevat een lijst met alle berichten die zijn uitgesl
 
 ![](assets/logs3.png)
 
-## Uitsluitingsoorzaken {#exclusion-causes-tab}
+## Uitsluiting veroorzaakt {#exclusion-causes-tab}
 
 De **Uitsluiting veroorzaakt** wordt voor elke mogelijke oorzaak het aantal berichten weergegeven dat van het doel is uitgesloten.
 
