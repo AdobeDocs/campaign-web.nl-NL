@@ -4,7 +4,7 @@ title: Soorten publiek maken
 description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: bc1b4186b5869d104c6b14e09160f28bf3e28f95
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Voer de volgende stappen uit om een publiek te maken:
 
    * **[!UICONTROL Save audience]**: Dit is de laatste stap in uw workflow, zodat u de workflowresultaten kunt opslaan als een nieuw publiek.
 
-1. Open de **[!UICONTROL Build audience]** activiteit en gebruik de regelbouwer om de bevolking te bepalen om in uw publiek te omvatten door gegevens te filtreren in het gegevensbestand. [Leer hoe te om een het publieksactiviteit van de Bouwstijl te vormen](../workflows/activities/build-audience.md)
+1. Open de **[!UICONTROL Build audience]** activiteit en gebruik de vraagmodeler om de bevolking te bepalen om in uw publiek te omvatten door gegevens te filtreren in het gegevensbestand. [Leer hoe te om een het publieksactiviteit van de Bouwstijl te vormen](../workflows/activities/build-audience.md)
 
 1. Als u aanvullende bewerkingen wilt uitvoeren op de doelpopulatie in de workflow, voegt u zoveel activiteiten toe als nodig zijn en verbindt u deze met elkaar. Voor meer informatie over hoe vormen de werkschemaactiviteiten, naar [werkstroomdocumentatie](../workflows/activities/about-activities.md).
 

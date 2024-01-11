@@ -4,7 +4,7 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '1337'
 ht-degree: 1%
@@ -71,7 +71,7 @@ Gebruik de nieuwe UI van het Web van de Campagne:
 * E-mail-, SMS- en pushberichten maken, ontwerpen, personaliseren, plannen en verzenden - [Meer informatie](../msg/gs-messages.md)
 * Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper - [Meer informatie](../email/edit-content.md)
 * Campagnes voor meerdere kanalen verzenden, waaronder SMS- en pushberichten - [Meer informatie](../workflows/activities/channels.md)
-* Bepaal doelpubliek met de regelbouwer - [Meer informatie](../audience/about-recipients.md)
+* Bepaal doelpubliek met vraagmodeler - [Meer informatie](../audience/about-recipients.md)
 * Je berichten voorvertonen, testen en verzenden - [Meer informatie](../monitor/prepare-send.md)
 * Bewaak verzenden en meten resultaten met ingebouwde rapporten - [Meer informatie](../reporting/delivery-reports.md)
 

@@ -3,7 +3,7 @@ title: Vooraf gedefinieerde filters maken en gebruiken
 description: Leer hoe u vooraf gedefinieerde filters maakt en beheert in de gebruikersinterface van Adobe Campaign
 badge: label="Beperkte beschikbaarheid"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 1%
@@ -98,7 +98,7 @@ Wanneer een filter als favoriet wordt opgeslagen, is het beschikbaar voor alle g
 
 ## Een vooraf gedefinieerd filter gebruiken {#use-predefined-filter}
 
-Vooraf gedefinieerde filters zijn beschikbaar wanneer u regeleigenschappen definieert. Als u toegang wilt tot vooraf gedefinieerde filters, kiest u **Aangepast filter selecteren** in de drop-down van de regelbouwer.
+Vooraf gedefinieerde filters zijn beschikbaar wanneer u regeleigenschappen definieert. Als u toegang wilt tot vooraf gedefinieerde filters, kiest u **Aangepast filter selecteren** in de drop-down van vraagmodeler.
 
 Vervolgens hebt u toegang tot de volledige lijst met vooraf gedefinieerde filters die beschikbaar zijn voor de huidige context.
 

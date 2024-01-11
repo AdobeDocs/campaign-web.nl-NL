@@ -4,7 +4,7 @@ title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beta"
-source-git-commit: 7891ae64a8b5a5929a70974af317865b08cc0e68
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren wanneer u de doelpopulatie van een levering definieert. Wanneer u het hoofddoel van een levering definieert, kunt u ook:
 
-* [Eenmalig publiek maken](one-time-audience.md) het gebruiken van de regelbouwer.
+* [Eenmalig publiek maken](one-time-audience.md) het gebruiken van de vraagmodeler.
 * [Een publiek laden vanuit een extern bestand](file-audience.md) (alleen voor e-mails).
 
 De doelgroepen in de leveringen zijn toegankelijk via de **Publiek** links. Zij komen uit veelvoudige bronnen zoals de console van de Cliënt, de het publiekswerkschema&#39;s van het Web van de Campagne of Adobe Experience Platform voort. [Leer hoe u het publiek kunt controleren en beheren](manage-audience.md)
@@ -40,11 +40,11 @@ Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
    ![](assets/select-audience-folder.png)
 
-1. Met de filtersectie hebt u toegang tot filteropties om de lijst met doelgroepen te verfijnen. Om dit te doen, klik **Regels toevoegen** om tot de regelbouwer toegang te hebben, die u geavanceerde filters voor de lijst van publiek laat tot stand brengen. [Leer hoe u de regelbuilder gebruikt](../query/query-modeler-overview.md)
+1. Met de filtersectie hebt u toegang tot filteropties om de lijst met doelgroepen te verfijnen. Om dit te doen, klik **Regels toevoegen** om tot de vraagmodeler toegang te hebben, die u geavanceerde filters voor de lijst van publiek laat tot stand brengen. [Leer hoe te om de vraagmodeler te gebruiken](../query/query-modeler-overview.md)
 
    ![](assets/create-audience4.png)
 
-1. Klikken **Bevestigen** om uw publiek toe te voegen als belangrijkste doel voor levering. Zodra gedaan, kunt u het publiek nog verfijnen gebruikend de regelbouwer door te klikken **Regels bewerken** knop.
+1. Klikken **Bevestigen** om uw publiek toe te voegen als belangrijkste doel voor levering. Zodra gedaan, kunt u het publiek nog verfijnen gebruikend de vraagmodeler door te klikken **Regels bewerken** knop.
 
    ![](assets/refine-audience.png)
 

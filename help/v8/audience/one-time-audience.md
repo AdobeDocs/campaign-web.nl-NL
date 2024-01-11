@@ -4,7 +4,7 @@ title: Een eenmalig publiek maken voor levering
 description: Leer hoe u een eenmalig publiek kunt maken voor een levering.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Een eenmalig publiek maken voor levering {#sone-time}
 
-In deze sectie wordt beschreven hoe u een publiek kunt maken wanneer u een nieuwe levering maakt. In dit geval, worden de ontvangers om in het leveringspubliek te omvatten gericht door het gegevensbestand met de regelbouwer te vragen.
+In deze sectie wordt beschreven hoe u een publiek kunt maken wanneer u een nieuwe levering maakt. In dit geval, worden de ontvangers om in het leveringspubliek te omvatten gericht door het gegevensbestand met de vraagmodeler te vragen.
 
 Het resulterende publiek wordt slechts eenmaal gebruikt voor deze levering. Deze wordt niet opgeslagen in de lijst met soorten publiek.
 
@@ -28,7 +28,7 @@ Voer de volgende stappen uit om een nieuw publiek rechtstreeks vanaf een leverin
 
    ![](assets/segment-builder0.png)
 
-1. Selecteren **Maak uw eigen**. De regelbouwer wordt weergegeven. Het staat u toe om de bevolking te bepalen die door uw levering wordt gericht door gegevens te filtreren in het gegevensbestand. [Leer hoe u de regelbuilder gebruikt](../query/query-modeler-overview.md)
+1. Selecteren **Maak uw eigen**. De vraagmodeler wordt getoond. Het staat u toe om de bevolking te bepalen die door uw levering wordt gericht door gegevens te filtreren in het gegevensbestand. [Leer hoe te om de vraagmodeler te gebruiken](../query/query-modeler-overview.md)
 
    ![](assets/segment-builder.png)
 

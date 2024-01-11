@@ -3,7 +3,7 @@ title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 441add3d624ab730c3dce39a4305107998c5cc62
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 0%
@@ -61,7 +61,7 @@ De positionering van de knooppunten wordt elke keer dat een activiteit wordt toe
 >[!CONTEXTUALHELP]
 >id="acw_predefined_filter_read_only"
 >title="Dit filter is alleen-lezen"
->abstract="Sommige vooraf gedefinieerde filters zijn niet beschikbaar in de gebruikersinterface van die versie van het product. Deze filters worden gemarkeerd als alleen-lezen. Zelfs als u niet de grafische vertegenwoordiging van de vraag in de regelbouwer kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden in zien **Attributen** van het scherm."
+>abstract="Sommige vooraf gedefinieerde filters zijn niet beschikbaar in de gebruikersinterface van die versie van het product. Deze filters worden gemarkeerd als alleen-lezen. Zelfs als u niet de grafische vertegenwoordiging van de vraag in vraagmodeler kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden in zien **Attributen** van het scherm."
 
 Wanneer het selecteren van het publiek van een levering, of wanneer het bouwen van een publiek in een werkschema, zijn sommige vooraf bepaalde filters niet beschikbaar in het gebruikersinterface, in die versie van het product. Deze filters worden gemarkeerd als alleen-lezen.
 
@@ -69,7 +69,7 @@ Er wordt een specifiek foutbericht weergegeven.
 
 ![](assets/filter-unavailable.png){width="70%" align="left"}
 
-Zelfs als u niet de grafische vertegenwoordiging van de vraag in de regelbouwer kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden in zien **Attributen** van het scherm.
+Zelfs als u niet de grafische vertegenwoordiging van de vraag in vraagmodeler kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden in zien **Attributen** van het scherm.
 
 ![](assets/rule-edit.png){width="70%" align="left"}
 

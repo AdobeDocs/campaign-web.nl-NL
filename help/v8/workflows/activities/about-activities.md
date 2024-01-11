@@ -4,7 +4,7 @@ title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
 badge: label="Beperkte beschikbaarheid"
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: a0611ac41957b4bd7796c4c42c40232fba1dfc2b
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Alle activiteiten worden beschreven in de volgende onderdelen:
 Deze activiteiten zijn specifiek gericht op het richten, manipuleren en verrijken van bevolkingsgegevens. Met deze instructies kunt u een of meer doelen maken door een publiek te definiëren en deze soorten publiek te splitsen of te combineren met een doorsnede-, samenvoegings- of uitsluitingsbewerking.
 
 * Gebruik de [Adviezen opslaan](save-audience.md) activiteit om een bestaand publiek bij te werken of een nieuw publiek van de bevolking te creëren die stroomopwaarts in een werkschema wordt berekend.
-* Gebruik de [publiek opbouwen](build-audience.md) activiteit om uw doelpopulatie te bepalen. U kunt of een bestaand publiek selecteren of de regelbouwer gebruiken om uw eigen vraag te bepalen.
+* Gebruik de [publiek opbouwen](build-audience.md) activiteit om uw doelpopulatie te bepalen. U kunt of een bestaand publiek selecteren of de vraagmodeler gebruiken om uw eigen vraag te bepalen.
 * Gebruik de [Combineren](combine.md) activiteit om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
 * Gebruik de [Splitsen](split.md) activiteit om de binnenkomende bevolking in verschillende subgroepen te segmenteren.
 * Gebruik de [Verzoening](reconciliation.md) activiteit om de verbinding tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen.

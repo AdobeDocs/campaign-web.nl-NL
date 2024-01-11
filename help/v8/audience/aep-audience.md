@@ -4,7 +4,7 @@ title: Een Adobe Experience Platform-publiek gebruiken
 description: Leer hoe u een publiek van Adobe Experience Platform kunt gebruiken
 badge: label="Beta"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 1f2a6e0944f46c0e37ce9e2b174a08e69981d143
+source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 2%
@@ -49,6 +49,6 @@ Volg onderstaande stappen om een Adobe Experience Platform-publiek voor uw lever
 
    ![](assets/refine-audience.png)
 
-1. Gebruikend de regelbouwer, kunt u uw publiek met extra filters verrijken of door verschillende soorten publiek te combineren. Zie dit [sectie](../query/query-modeler-overview.md).
+1. Met behulp van de querymodelfunctie kunt u het publiek verrijken met extra filters of door verschillende soorten publiek te combineren. Zie dit [sectie](../query/query-modeler-overview.md).
 
 1. Klikken **Opslaan**.
