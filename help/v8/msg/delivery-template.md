@@ -5,11 +5,11 @@ description: Leer hoe te om leveringsmalplaatjes in het Web van de Campagne te c
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1055'
 ht-degree: 2%
 
 ---
@@ -122,6 +122,8 @@ Volg onderstaande stappen om een levering als een sjabloon op te slaan:
 
    ![](assets/templates-convert-delivery.png)
 
+   U kunt ook een sjabloon selecteren in de lijst en deze optie selecteren in het scherm Sjablooneditie.
+
 1. Herhaal dit.
 
 1. Het nieuwe sjabloondashboard wordt in het centrale scherm geopend. Bewerk de sjablooninstellingen naar wens.
@@ -180,13 +182,11 @@ U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul 
 
    ![](assets/templates-simulate-button.png)
 
-1. Selecteer een of meer testprofielen om de weergave van uw e-mail te controleren. U kunt ook echte profielen selecteren in uw database.
+1. Selecteer een of meer testprofielen om de weergave van uw e-mail te controleren. U kunt ook echte profielen selecteren in uw database. [Meer informatie over testprofielen](../audience/test-profiles.md)
 
-1. Schakel tussen de verschillende profielen om een persoonlijke weergave van het bericht te krijgen op basis van het geselecteerde profiel.
+1. Schakel tussen de verschillende profielen om een persoonlijke weergave van het bericht te krijgen op basis van het geselecteerde profiel. U kunt ook het zoomniveau aanpassen en de weergave voor bureaublad of mobiel kiezen.
 
-   <!--[Learn more on test profiles](../preview-test/test-deliveries.md#recipients)-->
-
-   U kunt ook het zoomniveau aanpassen en de weergave voor bureaublad of mobiel kiezen.
+[Meer informatie over het voorvertonen van inhoud](../preview-test/preview-content.md)
 
    ![](assets/templates-stimulate.png)
 
@@ -196,8 +196,4 @@ U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul 
 >
 >U kunt geen e-mailrendering gebruiken of tests verzenden in een leveringssjabloon.
 
-* [Meer informatie over het voorvertonen van e-mailinhoud](../preview-test/preview-content.md)
 
-* [Meer informatie over het voorvertonen van SMS-inhoud](../sms/content-sms.md)
-
-* [Meer informatie over het voorvertonen van push-inhoud](../push/gs-push.md)
