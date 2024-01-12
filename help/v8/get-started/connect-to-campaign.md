@@ -3,9 +3,9 @@ title: Verbinding maken met de Adobe Campaign-webinterface
 description: Leer hoe u verbinding maakt met de gebruikersinterface van Adobe Campaign v8 Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,12 @@ De taal wijzigen:
 1. Klik op het profielpictogram, rechtsboven, en selecteer **Voorkeuren**.
 1. Klik vervolgens op de taalkoppeling die onder uw e-mailadres wordt weergegeven.
 1. Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
+
+>[!CAUTION]
+>
+>Als u contextafhankelijke Help-functies van AI wilt gebruiken, moet u de voorkeurstaal instellen op Engels. Andere talen worden niet ondersteund.
+>
+
 
 ## Donkere en lichte thema&#39;s {#dark-theme}
 

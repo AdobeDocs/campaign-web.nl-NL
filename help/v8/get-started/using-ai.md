@@ -1,16 +1,16 @@
 ---
 title: Contextafhankelijke Help voor AI gebruiken in Campagne-web
 description: Vragen stellen in de pop-ups van Campagne Web
-badge: label="Alfa"
+badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 453e19351459cc86c4cbaf671be4de7625555374
+source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# De contextafhankelijke Help van AI gebruiken {#using-ai}
+# Contextafhankelijke Help voor AI {#using-ai}
 
 U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocumentatie en uw huidige productcontext, met de contextuele Help voor vragen en antwoorden van AI beschikbaar in de productcontextafhankelijke Help-vakken.
 
@@ -18,7 +18,7 @@ U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocument
 >
 >Deze mogelijkheid is beschikbaar in de versie van de Alpha en kan zonder voorafgaande kennisgeving worden gewijzigd.
 >
->Deze functie is alleen beschikbaar in **Engels**. Andere talen worden niet ondersteund in deze versie.
+>Deze functie is alleen beschikbaar in **Engels**. Andere talen worden niet ondersteund in deze versie. Daarom moet u ervoor zorgen dat [uw voorkeurstaal](connect-to-campaign.md#language-pref) wordt ingesteld op Engels voordat deze mogelijkheid wordt gebruikt.
 
 
 De **Contextuele hulp met Gen AI** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Contextuele Help van Adobe Campaign AI biedt ondersteuning, maar u moet de feiten controleren. Het kan onjuiste informatie, onjuiste of misleidende antwoorden uitvoeren. Controleer de productdocumentatie die in elk Help-vak is gekoppeld.
 
-Kunstmatige intelligentie en modellen voor machinaal leren verbeteren in de loop der tijd om specifieke gebruiksgevallen beter aan te pakken. De komende maanden zal de door AI aangedreven Contextuele Hulp beter blijven worden. We raden u ten zeerste aan de ? ??? knopen op om het even welk ogenblik u een anker leest, om het even welke ongepaste reacties aan onze ingenieurs te vlaggen.
+Kunstmatige intelligentie en modellen voor machinaal leren verbeteren in de loop der tijd om specifieke gebruiksgevallen beter aan te pakken. De komende maanden zal de door AI aangedreven Contextuele Hulp beter blijven worden. We raden u ten zeerste aan de knoppen ??? te gebruiken wanneer u een browser leest, om ongepaste reacties te markeren voor onze technici.
 
 ## Aanbevelingen  {#recommendations-ai}
 
