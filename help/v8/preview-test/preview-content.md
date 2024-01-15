@@ -4,15 +4,15 @@ title: Voorvertoning van leveringsinhoud
 description: Leer hoe u een voorvertoning van uw inhoud kunt weergeven via de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '320'
 ht-degree: 2%
 
 ---
 
 
-# Voorvertoning van leveringsinhoud {#preview-content}
+# Een voorvertoning weergeven van de inhoud van het bericht {#preview-content}
 
 Gebruik de [!DNL Campaign] de mogelijkheid van de inhoudsimulatie om de inhoud van uw bericht voor te vertonen alvorens het te verzenden. Dit staat u toe om verpersoonlijking te controleren en te controleren hoe het aan uw ontvangers wordt getoond.
 

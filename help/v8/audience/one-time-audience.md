@@ -4,14 +4,14 @@ title: Een eenmalig publiek maken voor levering
 description: Leer hoe u een eenmalig publiek kunt maken voor een levering.
 badge: label="Beta"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
-# Een eenmalig publiek maken voor levering {#sone-time}
+# Eenmalig publiek maken {#one-time}
 
 In deze sectie wordt beschreven hoe u een publiek kunt maken wanneer u een nieuwe levering maakt. In dit geval, worden de ontvangers om in het leveringspubliek te omvatten gericht door het gegevensbestand met de vraagmodeler te vragen.
 

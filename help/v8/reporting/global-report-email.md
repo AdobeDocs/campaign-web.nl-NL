@@ -1,9 +1,9 @@
 ---
 audience: end-user
 title: Algemene rapporten voor het e-mailkanaal
-description: Meer informatie over Global-rapporten voor het e-mailkanaal
+description: Meer informatie over algemene rapporten voor het e-mailkanaal
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: bf22214b992ff077c79afca0b5387173758863b6
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Algemene rapporten voor het e-mailkanaal {#global-report-direct}
 
-De globale rapporten verstrekken gebruikers van een uitvoerig overzicht van verkeer en betrokkenheidsmetriek op kanaal-niveau.
+De globale rapporten verstrekken gebruikers een uitvoerig overzicht van verkeer en betrokkenheidsmetriek op kanaal-niveau.
 
 Ga naar de **[!UICONTROL Reports]** in het menu **[!UICONTROL Reporting]** sectie. U kunt de gegevens filteren op basis van de rapportdatum, -map of -regels. [Meer informatie](global-reports.md)
 

@@ -4,14 +4,14 @@ title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
 badge: label="Beta"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 2524756d888fa62149beda92ead898a9130dfb66
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 1%
 
 ---
 
-# Werken met abonnementsservices {#manage-services}
+# Abonnementsservices maken en beheren {#manage-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"

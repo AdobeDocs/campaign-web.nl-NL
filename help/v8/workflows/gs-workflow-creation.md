@@ -1,15 +1,16 @@
 ---
 audience: end-user
-title: Workflows maken met Adobe Campaign Web
-description: Leer hoe u workflows kunt maken met Adobe Campaign Web
+title: Belangrijkste principes voor het maken van werkstromen
+description: Belangrijke principes van workflows leren met Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 24521be2c796b5714712849355c3d033537847bc
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
+
 
 # Belangrijkste principes voor het maken van werkstromen {#gs-workflow-creation}
 

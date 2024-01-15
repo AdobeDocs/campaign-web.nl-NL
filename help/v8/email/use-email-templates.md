@@ -1,22 +1,22 @@
 ---
 audience: end-user
 product: campaign
-title: E-mailsjablonen gebruiken
-description: Meer informatie over het gebruik van e-mailsjablonen in Adobe Campaign
+title: Sjablonen voor e-mailinhoud gebruiken
+description: Meer informatie over het gebruik van sjablonen voor e-mailinhoud in Adobe Campaign
 feature: Templates
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '232'
 ht-degree: 1%
 
 ---
 
-# E-mailsjablonen gebruiken {#use-email-templates}
+# Sjablonen voor e-mailinhoud gebruiken {#use-email-templates}
 
 Wanneer [een e-mail maken](../email/create-email.md), gebruikt u de **[!UICONTROL Select design template]** van de **[!UICONTROL Create your email]** interface om uw inhoud van een malplaatje te beginnen bouwen.
 

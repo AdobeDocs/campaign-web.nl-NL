@@ -4,14 +4,14 @@ title: Berichten verzenden naar de abonnees van een service
 description: Leer hoe te om berichten naar de abonnees van een dienst te verzenden
 badge: label="Beta"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
 
 ---
 
-# Berichten verzenden naar de abonnees van een service
+# Berichten verzenden naar de abonnees van een service {#send-to-subscribers}
 
 U kunt abonnementsservices maken in Adobe Campaign en berichten verzenden naar abonnees. Leer hoe u abonnementenservices kunt maken in [deze pagina](../audience//manage-services.md#create-service).
 

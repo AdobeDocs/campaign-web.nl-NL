@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: De abonnees van een service beheren
+title: Abonnees beheren
 description: Leer hoe te om aan de abonnees van de dienst in Adobe Campaign Web te beheren en te leveren
 badge: label="Beta"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# De abonnees van een service beheren {#manage-subscribers}
+# Abonnees beheren {#manage-subscribers}
 
 Eenmaal [een service gemaakt](manage-services.md#create-service), kunt u abonnees toevoegen, ontvangers afmelden, en berichten naar de abonnees van die dienst verzenden.
 

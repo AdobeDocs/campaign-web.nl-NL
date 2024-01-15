@@ -4,14 +4,14 @@ title: Een pushmelding verzenden
 description: Meer informatie over het verzenden van pushberichten via Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
 
-# Een voorbeeld bekijken en een pushmelding verzenden {#send-push-delivery}
+# Een pushbericht voorvertonen en verzenden {#send-push-delivery}
 
 ## Geef een voorvertoning van de pushmelding weer {#preview-push}
 
