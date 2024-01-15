@@ -4,9 +4,9 @@ title: Een publiek maken met de bouwer van de campagneregel
 description: Leer hoe te met de regelbouwer te werken
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
 badge: label="Beta"
-source-git-commit: a53f33360f0dc7ca80b235bd5814fd3ccc0ff698
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Het palet bestaat uit twee tabbladen:
 
 * **Attributen**: op dit tabblad hebt u toegang tot alle beschikbare velden via het schema. De lijst met velden is afhankelijk van het doelschema dat in de e-mailsjabloon is gedefinieerd.
 
-* **Soorten publiek**: op dit tabblad kunt u filteren met een van de bestaande soorten publiek die zijn gedefinieerd in de Campaign Classic-console of vanuit Adobe Experience Platform. [Leer hoe u het publiek kunt bewaken en beheren](manage-audience.md)
+* **Soorten publiek**: op dit tabblad kunt u filteren met een van de bestaande soorten publiek die zijn gedefinieerd in de Campaign Classic-console of vanuit Adobe Experience Platform. Leer hoe u het publiek kunt controleren en beheren in [deze sectie](manage-audience.md)
 
   >[!NOTE]
   >

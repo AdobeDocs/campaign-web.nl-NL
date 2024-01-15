@@ -3,14 +3,14 @@ title: Aan de slag met profielen en publiek
 description: Leer hoe u met profielen en publiek werkt in Campagne Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: f3e092abff7b1c84e20cce32be1011768cc96397
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: '204'
+ht-degree: 3%
 
 ---
 
-# Aan de slag met profielen en publiek {#about-profiles}
+# Aan de slag met profielen en doelgroepen {#about-profiles}
 
 In Adobe Campaign Web **profiel** is een individu dat in het gegevensbestand wordt opgeslagen, dienst als zeer belangrijke component om publiek voor leveringen tot stand te brengen en verpersoonlijkingsgegevens aan uw inhoud toe te voegen. Verschillende typen profielen worden in de database opgeslagen, zoals **Testprofielen**, die zijn ontworpen om uw leveringen te testen voordat ze naar het uiteindelijke publiek worden verzonden.
 

@@ -6,10 +6,10 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Campagne v8 Web
 hide: true
-source-git-commit: 1802cab67d8cd3d02cfe0a97010cd2c9e7bca624
+source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 8%
+source-wordcount: '531'
+ht-degree: 9%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 8%
    + [Aan de slag](get-started/get-started.md)
    + [Verbinding maken met campagne](get-started/connect-to-campaign.md)
    + [De interface detecteren](get-started/user-interface.md)
-   + [Bladeren, zoeken en filteren](get-started/list-filters.md)
+   + [Bladeren en lijsten filteren](get-started/list-filters.md)
    + [Werken met vooraf gedefinieerde filters](get-started/predefined-filters.md)
    + [Toegang en machtigingen](get-started/permissions.md)
-   + [Afbeeldingen en beperkingen](get-started/guardrails.md)
+   + [Afvoerkanalen en beperkingen](get-started/guardrails.md)
    + [Niet-ondersteunde mogelijkheden](get-started/unsupported.md)
    + [Contextafhankelijke Help voor AI](get-started/using-ai.md)
 + Berichten en leveringen {#msg}
@@ -70,7 +70,7 @@ ht-degree: 8%
       + [Aan de slag met pushmeldingen](push/gs-push.md)
       + [Een pushmelding maken](push/create-push.md)
       + [Een pushaanbieding ontwerpen](push/content-push.md)
-      + [Een voorbeeld bekijken en een pushmelding verzenden](push/send-push.md)
+      + [Een pushbericht voorvertonen en verzenden](push/send-push.md)
    + Sms {#sms}
       + [Aan de slag met SMS-berichten](sms/gs-sms.md)
       + [Een sms-levering maken](sms/create-sms.md)
@@ -79,7 +79,7 @@ ht-degree: 8%
    + Uw inhoud dynamisch maken {#dynamic-content}
       + [Aan de slag met dynamische inhoud](personalization/gs-personalization.md)
       + [Aanpassing toevoegen](personalization/personalize.md)
-      + [Voorwaardelijke inhoud toevoegen](personalization/conditions.md)
+      + [Voorwaardelijke inhoud maken](personalization/conditions.md)
       + [Ingebouwde inhoudsblokken toevoegen](personalization/content-blocks.md)
    + [Aanbiedingen toevoegen aan uw berichten](msg/offers.md)
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
@@ -87,9 +87,9 @@ ht-degree: 8%
       + [Voorvertonen en testen](preview-test/preview-test.md)
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
       + [Testleveringen verzenden](preview-test/test-deliveries.md)
-      + [Uw e-mail renderen](preview-test/email-rendering.md)
+      + [De rendering van e-mail testen](preview-test/email-rendering.md)
 + Profielen en doelgroepen {#audiences}
-   + [Aan de slag met profielen en publiek](audience/gs-audiences-recipients.md)
+   + [Aan de slag met profielen en doelgroepen](audience/gs-audiences-recipients.md)
    + [Doelafmetingen](audience/targeting-dimensions.md)
    + Werken met profielen {#work-with-profiles}
       + [Profielen bewaken en beheren](audience/about-recipients.md)
@@ -100,14 +100,14 @@ ht-degree: 8%
    + Ontvangers selecteren {#target-audiences}
       + [Bestaande doelgroep selecteren](audience/add-audience.md)
       + [Eenmalig publiek maken](audience/one-time-audience.md)
-      + [Een publiek uit een bestand laden](audience/file-audience.md)
+      + [Een e-mailpubliek laden vanuit een bestand](audience/file-audience.md)
       + [Een controlegroep instellen](audience/control-group.md)
    + Werken met abonnementsservices {#work-with-services}
-      + [Services beheren](audience/manage-services.md)
+      + [Abonnementsservices maken en beheren](audience/manage-services.md)
       + [Abonnees beheren](audience/manage-subscribers.md)
 + Kanaaloverschrijdende campagnes {#campaigns}
    + [Aan de slag met campagnes](campaigns/gs-campaigns.md)
-   + [Campagnes openen en beheren](campaigns/manage-campaigns.md)
+   + [Toegang tot en beheer uw campagnes](campaigns/manage-campaigns.md)
    + [Uw eerste campagne maken](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Aan de slag met workflows](workflows/gs-workflows.md)
@@ -117,7 +117,7 @@ ht-degree: 8%
       + [De workflow maken](workflows/create-workflow.md)
       + [Orchestraten](workflows/orchestrate-activities.md)
       + [Workflowinstellingen configureren](workflows/workflow-settings.md)
-      + [De workflow starten en controleren](workflows/start-monitor-workflows.md)
+      + [Uw workflows starten en controleren](workflows/start-monitor-workflows.md)
    + Werken met workflowactiviteiten {#design-workflows}
       + [Informatie over workflowactiviteiten](workflows/activities/about-activities.md)
       + [En-join](workflows/activities/and-join.md)
@@ -155,7 +155,7 @@ ht-degree: 8%
       + [Push-campagnerapport](reporting/campaign-reports-push.md)
       + [Rapport voor SMS-campagne](reporting/campaign-reports-sms.md)
    + Algemene rapporten {#global-report}
-      + [Aan de slag met Global-rapporten](reporting/global-reports.md)
+      + [Aan de slag met algemene rapporten](reporting/global-reports.md)
       + [Globaal e-mailrapport](reporting/global-report-email.md)
       + [Globaal rapport uitduwen](reporting/global-report-push.md)
       + [Globaal SMS-rapport](reporting/global-report-sms.md)
