@@ -4,9 +4,9 @@ title: De e-mailinhoud bewerken
 description: Leer hoe u inhoud gaat maken met de gebruikersinterface E-mailontwerper in de webinterface van Campagne
 badge: label="Beperkte beschikbaarheid"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '472'
 ht-degree: 6%
 
 ---
@@ -14,11 +14,20 @@ ht-degree: 6%
 # Aan de slag met Email Designer {#get-started-email-designer}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Nieuwe e-mailontwerper"
+>abstract="Met Campagne-e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve interface voor slepen en neerzetten. Of u nu op een lege site begint, bestaande inhoud importeert of bestaande sjablonen gebruikt, ontwerpt en verfijnen alle inhoud voor elke e-mail!"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
+
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_rn3"
 >title="Nieuwe e-mailontwerper"
 >abstract="Met Campagne-e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve interface voor slepen en neerzetten. Of u nu op een lege site begint, bestaande inhoud importeert of bestaande sjablonen gebruikt, ontwerpt en verfijnen alle inhoud voor elke e-mail!"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
 
+<!--TO REMOVE ABOVE-->
 
 Nadat u in Adobe Campaign een e-mailbericht hebt gemaakt, moet u de content definiëren.
 

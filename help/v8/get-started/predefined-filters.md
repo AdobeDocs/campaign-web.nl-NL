@@ -1,11 +1,11 @@
 ---
-title: Vooraf gedefinieerde filters maken en gebruiken
+title: Werken met vooraf gedefinieerde filters
 description: Leer hoe u vooraf gedefinieerde filters maakt en beheert in de gebruikersinterface van Adobe Campaign
 badge: label="Beperkte beschikbaarheid"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
@@ -13,9 +13,19 @@ ht-degree: 1%
 # Werken met vooraf gedefinieerde filters {#predefined-filters}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card4"
+>title="Vooraf gedefinieerd filterbeheer"
+>abstract="Campagne Web biedt u nu een gebruikersvriendelijke interface om vooraf gedefinieerde filters moeiteloos te beheren en aan te passen aan uw specifieke behoeften. Maak één keer en sla dit op voor toekomstig gebruik."
+
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card4"
 >title="Vooraf gedefinieerd filterbeheer"
 >abstract="Campagne Web biedt u nu een gebruikersvriendelijke interface om vooraf gedefinieerde filters moeiteloos te beheren en aan te passen aan uw specifieke behoeften. Maak één keer en sla dit op voor toekomstig gebruik."
+
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"

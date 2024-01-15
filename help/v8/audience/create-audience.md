@@ -4,9 +4,9 @@ title: Soorten publiek maken
 description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
 badge: label="Beta"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,21 @@ ht-degree: 0%
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_rn1"
+>id="acw_homepage_welcome_rn1"
 >title="Samenstelling publiek"
 >abstract="Maak een nieuw publiek in een visueel werkstroomcanvas. U kunt workflowactiviteiten niet alleen helemaal vanaf het begin gebruiken om een eenvoudig publiek te maken, maar ook om het publiek te verfijnen. Combineer meerdere soorten publiek in één publiek, verrijk uw publiek met externe kenmerken of verdeel een publiek in meerdere soorten publiek op basis van uw eigen regels."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
+
+<!--TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage__rn1"
+>title="Samenstelling publiek"
+>abstract="Maak een nieuw publiek in een visueel werkstroomcanvas. U kunt workflowactiviteiten niet alleen helemaal vanaf het begin gebruiken om een eenvoudig publiek te maken, maar ook om het publiek te verfijnen. Combineer meerdere soorten publiek in één publiek, verrijk uw publiek met externe kenmerken of verdeel een publiek in meerdere soorten publiek op basis van uw eigen regels."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
+
+<!--TO REMOVE ABOVE-->
+
 
 
 >[!CONTEXTUALHELP]
@@ -68,7 +79,7 @@ Voer de volgende stappen uit om een publiek te maken:
 
 1. Wanneer uw workflow gereed is, klikt u op **[!UICONTROL Start]** om het uit te voeren.
 
-De workflow wordt opgeslagen in het dialoogvenster **[!UICONTROL Workflows]** en de resulterende doelgroep(en) toegankelijk zijn in de **[!UICONTROL Audiences]** lijst. [Leer hoe u het publiek kunt bewaken en beheren](manage-audience.md)
+De workflow wordt opgeslagen in het dialoogvenster **[!UICONTROL Workflows]** en de resulterende doelgroep(en) toegankelijk zijn in de **[!UICONTROL Audiences]** lijst. Leer hoe u het publiek bewaakt en beheert [deze sectie](manage-audience.md)
 
 U kunt dit publiek nu gebruiken als het hoofddoel van een levering. [Meer informatie](add-audience.md)
 

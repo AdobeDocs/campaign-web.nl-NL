@@ -4,9 +4,9 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1368'
 ht-degree: 1%
 
 ---
@@ -15,9 +15,17 @@ ht-degree: 1%
 # Nieuwe functies {#new}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Aanvullende informatie"
+>abstract="Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen."
+
+<!--TO REMOVE BELOW-->
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card2"
 >title="Aanvullende informatie"
 >abstract="Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen."
+
+<!--TO REMOVE ABOVE-->
 
 
 We zijn blij om de nieuwe versie van Adobe Campaign Web User Interface te introduceren. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen.

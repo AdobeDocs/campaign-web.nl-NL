@@ -2,20 +2,30 @@
 title: Profielen bewaken en beheren
 description: Leer om profielen in het Web van de Campagne te controleren en te beheren.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
 
-# Profielen controleren en bewerken {#profiles}
+# Profielen bewaken en beheren {#profiles}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="360-weergave van uw profielen"
+>abstract="Maak nieuwe profielen en controleer deze met krachtige rapporten en gereedschappen. Open de kenmerken, interacties en logbestanden van uw profielen. Met de filteropties bladert u door de lijst met profielen, bewerkt en werkt u het profiel bij."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
+
+<!--TO REMOVE BELOW-->
 >[!CONTEXTUALHELP]
 >id="acw_homepage_rn4"
 >title="360-weergave van uw profielen"
 >abstract="Maak nieuwe profielen en controleer deze met krachtige rapporten en gereedschappen. Open de kenmerken, interacties en logbestanden van uw profielen. Met de filteropties bladert u door de lijst met profielen, bewerkt en werkt u het profiel bij."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
+
+<!--TO REMOVE ABOVE-->
+
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"

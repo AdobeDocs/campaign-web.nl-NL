@@ -4,19 +4,85 @@ description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 2%
+source-wordcount: '668'
+ht-degree: 1%
 
 ---
 
 # Adobe Campaign v8-webdocumentatie {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card1"
+>title="Help en documentatie"
+>abstract="De campagne biedt nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u de gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe moderne UI vereenvoudigt het ontwerp en de levering van de marketing campagne, en brengt consistentie, samen met andere oplossingen van de Adobe."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_title"
+>title="Ervaar de nieuwe Adobe Campaign-gebruikersinterface"
+>abstract="modernere, intuïtievere en dynamischer."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list1"
+>title="Item 1"
+>abstract="Nieuwe ontwerpervaring voor e-mail-, sms- en pushberichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list2"
+>title="Item 2"
+>abstract="Vereenvoudigde workflowcanvasinterface"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list3"
+>title="Item 3"
+>abstract="UX is ontworpen voor publiek, abonnement en services, AEM Assets"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list4"
+>title="Item 4"
+>abstract="E-mailgen. AI: snel e-mailen"
+
+<!--
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_list5"
+>title="Item 5"
+>abstract="Additional Item"-->
+
+<!-- TO REMOVE BELOW-->
+
+>[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Help en documentatie"
 >abstract="De campagne biedt nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u de gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe moderne UI vereenvoudigt het ontwerp en de levering van de marketing campagne, en brengt consistentie, samen met andere oplossingen van de Adobe."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_title"
+>title="Ervaar de nieuwe Adobe Campaign-gebruikersinterface"
+>abstract="modernere, intuïtievere en dynamischer."
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list1"
+>title="Item 1"
+>abstract="Nieuwe ontwerpervaring voor e-mail-, sms- en pushberichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list2"
+>title="Item 2"
+>abstract="Vereenvoudigde workflowcanvasinterface"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list3"
+>title="Item 3"
+>abstract="UX is ontworpen voor publiek, abonnement en services, AEM Assets"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_list4"
+>title="Item 4"
+>abstract="E-mailgen. AI: snel e-mailen"
+
+<!--TO REMOVE ABOVE-->
+
 
 De campagne biedt nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u de gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere oplossingen voor Adoben, waaronder Adobe Experience Platform. [Meer informatie](get-started/get-started.md)
 
