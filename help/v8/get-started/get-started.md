@@ -4,9 +4,9 @@ title: Aan de slag met Campagne v8 Web
 description: Aan de slag met Campagne v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: f12aebe0a87a15cf9560de61e28d68601e40bd2f
+source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '428'
 ht-degree: 2%
 
 ---
@@ -16,11 +16,6 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
->title="Aan de slag"
->abstract="De nieuwe Campagne v8 Web interface biedt een geïntegreerde, intuïtieve, en verenigbare gebruikerservaring."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_learnmore"
 >title="Aan de slag"
 >abstract="De nieuwe Campagne v8 Web interface biedt een geïntegreerde, intuïtieve, en verenigbare gebruikerservaring."
 
