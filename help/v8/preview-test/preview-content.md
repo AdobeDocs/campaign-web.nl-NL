@@ -4,9 +4,9 @@ title: Voorvertoning van leveringsinhoud
 description: Leer hoe u een voorvertoning van uw inhoud kunt weergeven via de webinterface voor campagnes
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '360'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,12 @@ Volg onderstaande stappen om een voorvertoning van de inhoud van uw levering wee
      >[!NOTE]
      >
      >U kunt profielen ook weergeven en beheren op het bijbehorende tabblad in de webinterface van Campagne. [Meer informatie](../audience/about-recipients.md)
+
+1. Wanneer u door het testprofiel of de profiellijsten bladert, kunt u filters gebruiken om uw zoekopdracht te verfijnen.
+
+   ![](assets/simulate-test-profile-filter.png)
+
+   U kunt bijvoorbeeld een regel definiëren om alle testprofielen te zoeken die **[!UICONTROL Prospect]** status. Leer hoe u regels kunt toevoegen met de opdracht [querymodel](../query/query-modeler-overview.md).
 
 1. Klikken **[!UICONTROL Select]** om uw selectie te bevestigen.
 

@@ -4,9 +4,9 @@ title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 6dcdfae8aa6d6346fc02217db77a96cf6d219fdc
+source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1126'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ De stappen om testleveringen naar zaadadressen te verzenden zijn hieronder gedet
 
 1. Als u al profielen hebt geselecteerd voor [voorvertoning van het bericht](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testontvangers. U kunt uw selectie wissen en/of extra ontvangers toevoegen met de opdracht **[!UICONTROL Add test profile(s)]** knop.
 
-1. Wanneer u in de lijst met testprofielen bladert, kunt u uw zoekopdracht verfijnen met filters.
+1. Wanneer u door het testprofiel of de profiellijsten bladert, kunt u filters gebruiken om uw zoekopdracht te verfijnen.
 
    ![](assets/simulate-test-profile-filter.png)
 
