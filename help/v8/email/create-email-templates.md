@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 929edb45cb8f0c79b878e8b5e9f1f62e3679688b
+source-git-commit: 0d9d61e8561d21bca00cb5c274884624119eaa53
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 0%
+source-wordcount: '753'
+ht-degree: 1%
 
 ---
 
@@ -106,7 +106,7 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
    ![](assets/content-template-create.png)
 
-1. Vul de sjabloondetails in. U kunt de map selecteren waarin u de sjabloon wilt opslaan. Standaard worden inhoudssjablonen opgeslagen in een speciaal knooppunt van de Adobe Campaign-hiërarchie: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Leer hoe u mappen maakt](../get-started/permissions.md#folders)
+1. Vul de sjabloondetails in. U kunt de map selecteren waarin u de sjabloon wilt opslaan. Standaard worden inhoudssjablonen opgeslagen in een speciale map in de Adobe Campaign-hiërarchie: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Leer hoe u mappen maakt](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
@@ -136,7 +136,11 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
    ![](assets/content-template-save-back.png)
 
-Deze sjabloon kan nu worden gebruikt wanneer u e-mailberichten maakt binnen [!DNL Adobe Campaign]. [Meer informatie](use-email-templates.md)
+De sjabloon wordt opgeslagen in de standaardmap van de Adobe Campaign-hiërarchie (**[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**). [Meer informatie over mappen](../get-started/permissions.md#folders)
+
+Het wordt ook weergegeven in het dialoogvenster **[!UICONTROL Content templates]** lijst. [Meer informatie](#access-manage-templates)
+
+U kunt deze sjabloon nu gebruiken om een nieuwe inhoud samen te stellen: deze is beschikbaar in het dialoogvenster **[!UICONTROL Saved templates]** tabblad van e-mailontwerper. [Meer informatie](use-email-templates.md)
 
 ### E-mailinhoud opslaan als sjabloon {#save-as-template}
 
@@ -154,11 +158,13 @@ Voer de onderstaande stappen uit om e-mailinhoud als sjabloon op te slaan:
 
    ![](assets/email_designer-template-name.png)
 
+De sjabloon wordt opgeslagen in de standaardmap van de Adobe Campaign-hiërarchie (**[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**). [Meer informatie over mappen](../get-started/permissions.md#folders)
+
+Het wordt ook weergegeven in het dialoogvenster **[!UICONTROL Content templates]** lijst. Het wordt een standalone inhoudsmalplaatje dat kan worden betreden, worden uitgegeven en worden geschrapt zoals om het even welk ander punt op die lijst. [Meer informatie](#access-manage-templates)
+
 U kunt deze sjabloon nu gebruiken om een nieuwe inhoud samen te stellen: deze is beschikbaar in het dialoogvenster **[!UICONTROL Saved templates]** tabblad van e-mailontwerper. [Meer informatie](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
-
-De sjabloon wordt opgeslagen in de **[!UICONTROL Content templates]** lijst, toegankelijk via de [!DNL Adobe Campaign] speciaal menu. Het wordt een standalone inhoudsmalplaatje dat kan worden betreden, worden uitgegeven en worden geschrapt zoals om het even welk ander punt op die lijst. [Meer informatie](#access-manage-templates)
 
 >[!NOTE]
 >
