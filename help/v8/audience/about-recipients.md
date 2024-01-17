@@ -2,7 +2,7 @@
 title: Profielen bewaken en beheren
 description: Leer om profielen in het Web van de Campagne te controleren en te beheren.
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profielen"
->abstract="Een profiel is een individu dat berichten ontvangt die door Adobe Campaign worden verzonden. In deze lijst kunt u op basis van uw machtigingen de details van de profielen weergeven. Gebruik de filteropties om door deze lijst te bladeren. U kunt een kleine set kenmerken van uw profielen bewerken en bijwerken."
+>abstract="Een profiel is een persoon die berichten ontvangt die door Adobe Campaign worden verzonden. In deze lijst kunt u op basis van uw machtigingen de details van de profielen weergeven. Gebruik de filteropties om door deze lijst te bladeren. U kunt een kleine set kenmerken van uw profielen bewerken en bijwerken."
 
 ## Aan de slag met profielen {#gs}
 
