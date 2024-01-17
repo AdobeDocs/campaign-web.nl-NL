@@ -3,9 +3,9 @@ title: Contextafhankelijke Help voor AI gebruiken in Campagne-web
 description: Vragen stellen in de pop-ups van Campagne Web
 badge: label="Alpha"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 856f855d88fe834f59665fc62e2b4df6f817cbab
+source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Contextuele Help van Adobe Campaign AI biedt ondersteuning, maar u moet de feiten controleren. Het kan onjuiste informatie, onjuiste of misleidende antwoorden uitvoeren. Controleer de productdocumentatie die in elk Help-vak is gekoppeld.
 
-Kunstmatige intelligentie en modellen voor machinaal leren verbeteren in de loop der tijd om specifieke gebruiksgevallen beter aan te pakken. De komende maanden zal de door AI aangedreven Contextuele Hulp beter blijven worden. We raden u ten zeerste aan de knoppen ??? te gebruiken wanneer u een browser leest, om ongepaste reacties te markeren voor onze technici.
+Kunstmatige intelligentie en modellen voor machinaal leren verbeteren in de loop der tijd om specifieke gebruiksgevallen beter aan te pakken. De komende maanden zal de door AI aangedreven Contextuele Hulp beter blijven worden. We raden u ten zeerste aan de <img src="assets/do-not-localize/thumb.png" width="10%"/> op elk moment dat u een browser leest, kunt u eventuele onjuiste antwoorden markeren voor onze technici.
 
 ## Aanbevelingen  {#recommendations-ai}
 
