@@ -3,10 +3,10 @@ audience: end-user
 title: Aanbiedingen toevoegen aan uw berichten
 description: Meer informatie over het toevoegen en verzenden van aanbiedingen
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Beta"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+badge: label="Beperkte beschikbaarheid"
+source-git-commit: 013d5ab21d3fda9e7b04ddd709185c2ff4bf23a3
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ De stappen voor het verzenden van voorstellen met een levering zijn als volgt:
 >title="Geavanceerde instellingen voor aanbiedingen instellen"
 >abstract="U kunt de uitsluiting inschakelen van ontvangers voor wie er onvoldoende geschikte aanbiedingen zijn en u kunt kiezen hoe het bericht wordt verwerkt als een van de voorstellen niet bestaat."
 
-Met Adobe Campaign kunt u een of meer specifieke voorstellen doen aan een bepaalde contactpersoon. De module van de interactie die u in real time tijdens een interactie aan een bepaald contact laat antwoorden door hen één of verscheidene specifieke aanbiedingen voor te stellen. Deze aanbiedingen kunnen eenvoudige communicatie berichten, speciale aanbiedingen op één of verscheidene producten of de dienst zijn.
+Met Adobe Campaign kunt u tijdens een interactie op een bepaald contact in real time reageren door een of meerdere specifieke aanbiedingen voor te stellen. Deze aanbiedingen kunnen eenvoudige communicatie berichten, speciale aanbiedingen op één of verscheidene producten, of de dienst zijn.
 
 Volg onderstaande stappen om de voorstellen te selecteren die u aan uw levering wilt toevoegen.
 
 1. Klik op de knop **[!UICONTROL Set up offers]** van het scherm voor de editie van de inhoud van de levering.
 
-   ![](assets/setup-offers.png)
+   ![](assets/offer-setup.png)
 
 1. Vorm welke aanbiedingen aan de ontvangers zouden moeten worden voorgesteld.
 
-   Selecteer eerst de optie **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving. Leer hoe u een aanbiedingsruimte maakt in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}
+   Selecteer eerst de optie **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving. Leer hoe u een aanbiedingsruimte maakt in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-   ![](assets/create-content-offers.png)
+   ![](assets/offer-create-content.png)
 
 1. Als u de keuze van de motor met aanbiedingen wilt verfijnen, selecteert u een specifieke **[!UICONTROL Offer category]** waarin de aanbiedingen worden gesorteerd.
 
@@ -55,39 +55,41 @@ Volg onderstaande stappen om de voorstellen te selecteren die u aan uw levering 
    >
    >Als er geen categorie is opgegeven, houdt de Offertenmotor rekening met alle aanbiedingen in de omgeving, tenzij een **[!UICONTROL Offer theme]** is geselecteerd.
 
-1. (optioneel) Voer een thema in om categorieën te filteren. Thema&#39;s zijn sleutelwoorden die stroomopwaarts in de categorieën worden gedefinieerd. Ze fungeren als een filter en u kunt het aantal voorstellen dat moet worden gepresenteerd, verfijnen door ze in een set categorieën te selecteren.
+1. (optioneel) Voer een thema in om categorieën te filteren. Thema&#39;s zijn trefwoorden die stroomopwaarts in de categorieën zijn gedefinieerd. Ze fungeren als een filter en u kunt het aantal voorstellen dat moet worden gepresenteerd, verfijnen door ze in een set categorieën te selecteren.
 
 1. Gebruik de **[!UICONTROL Propositions]** veld om het aantal voorstellen op te geven dat u in de levering wilt invoegen.
 
 1. Selecteer de **[!UICONTROL Exclude non-eligible recipients]** indien nodig.
 
-   Met deze optie kunt u de uitsluiting activeren of deactiveren van ontvangers voor wie onvoldoende geschikte voorstellen zijn.
+   Met deze optie kunt u de uitsluiting activeren of deactiveren van ontvangers voor wie onvoldoende geschikte aanbiedingen zijn:
 
    * Als de optie is ingeschakeld, worden ontvangers die onvoldoende voorstellen hebben, uitgesloten van de levering.
    * Als de optie is uitgeschakeld, worden deze ontvangers niet uitgesloten, maar kunnen ze niet het gewenste aantal voorstellen hebben.
 
 1. Selecteer indien nodig de **[!UICONTROL Hide everything if no offer is selected]** -optie.
 
-   Met deze optie kunt u kiezen hoe het bericht wordt verwerkt als een van de voorstellen niet bestaat.
+   Met deze optie kunt u kiezen hoe het bericht wordt verwerkt als een van de voorstellen niet bestaat:
 
    * Als de optie is ingeschakeld, wordt de representatie van het ontbrekende voorstel niet weergegeven en wordt er geen inhoud weergegeven in het bericht voor dit voorstel.
    * Als de optie is uitgeschakeld, wordt het bericht zelf geannuleerd tijdens het verzenden en kunnen ontvangers geen berichten meer ontvangen.
 
-Zodra u de aanbiedingen hebt gevormd om in uw levering voor te stellen, kunt u hen in de leveringsinhoud opnemen gebruikend de Redacteur van de Uitdrukking.
+Zodra u de voorstellen hebt gevormd om in uw levering voor te stellen, kunt u hen in de leveringsinhoud opnemen.
 
 ## Aanbiedingen in de levering invoegen {#insert}
 
-Aanbiedingen kunnen in de levering worden toegevoegd met de [Expressieeditor](../personalization/gs-personalization.md#access). Zij kunnen in de onderwerpregel of in het leveringsorgaan worden ingevoegd.
+Aanbiedingen kunnen in de levering worden toegevoegd met de [expressie-editor](../personalization/gs-personalization.md#access). Zij kunnen in de onderwerpregel of in het leveringsorgaan worden ingevoegd.
 
 >[!CAUTION]
 >
 >Voordat u een voorstel in een levering invoegt, moet u ervoor zorgen dat u [geconfigureerd voor voorstellen met die levering](#configure).
 
-Volg onderstaande stappen om een aanbieding in te voegen met de Expressieeditor.
+Volg onderstaande stappen om een aanbieding in te voegen met de expressieeditor.
 
 1. Open de onderwerpregel of de inhoud van een levering.
 
-1. Plaats de cursor van de muis op de plaats waar u de aanbieding wilt invoegen en open de Expressieeditor met behulp van het verpersoonlijkingspictogram.
+1. Plaats de cursor van de muis op de plaats waar u de aanbieding wilt invoegen en open de expressieeditor met behulp van het verpersoonlijkingspictogram.
+
+   ![](assets/offer-insert-perso-icon.png)
 
 1. Selecteer de **[!UICONTROL Propositions]** -menu. De beschikbare voorstellingen worden in de lijst weergegeven.
 
@@ -95,9 +97,7 @@ Volg onderstaande stappen om een aanbieding in te voegen met de Expressieeditor.
    >
    >Het aantal voorstellen wordt gedefinieerd wanneer [aanbiedingen instellen](#configure) voor de huidige levering.
 
-   ![](assets/offer-insertion.png)
-
-1. Voeg de voorstellen in de levering onderwerpregel of het lichaam toe gebruikend de verpersoonlijkingsgebieden, die functies teruggeven of kenmerken aanbieden beschikbaar voor elk voorstel.
+1. Definieer elke voorstelling met behulp van de personalisatievelden, renderfuncties of beschikbare kenmerken.
 
    ![](assets/offer-inserted.png)
 
@@ -107,6 +107,6 @@ Volg onderstaande stappen om een aanbieding in te voegen met de Expressieeditor.
 
 1. Sla uw wijzigingen op.
 
-1. Voltooi de inhoud, test en verzend uw levering.
+1. Voltooi de inhoud, test en verzend uw levering. [Meer informatie](gs-messages.md)
 
 Wanneer een ontvanger de levering ontvangt, wordt de juiste aanbieding getoond aan dat specifieke profiel.
