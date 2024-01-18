@@ -4,7 +4,7 @@ title: Rapporten over levering verzenden
 description: Leer hoe u pushrapporten kunt openen en gebruiken
 badge: label="Beperkte beschikbaarheid"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 9d3485293a6576e87e03d8691c403fcaeafbbeb1
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_push"
 >title="Rapportage verzenden"
->abstract="hij **Verzenden** in uw rapport biedt diepgaande inzichten in de interactie van uw bezoekers met uw leveringen en eventuele fouten die deze hebben aangetroffen."
+>abstract="De **Verzenden** in uw rapport biedt diepgaande inzichten in de interactie van uw bezoekers met uw leveringen en eventuele fouten die deze hebben aangetroffen."
 
 De **Push-leveringsrapport** biedt een grondig overzicht van het pushkanaal, met uitgebreide inzichten en specifieke gegevens. Het biedt uitvoerige informatie over de prestaties, de doeltreffendheid, en de resultaten van elke levering aan.
 
