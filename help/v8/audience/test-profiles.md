@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 1f8a6c9765350f1c39a009afd7c1852967835d73
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 2%
@@ -80,7 +80,7 @@ Voer de onderstaande stappen uit om een testprofiel te maken.
 
 1. Standaard worden testprofielen opgeslagen in het dialoogvenster **[!UICONTROL Seed addresses]** map. U kunt dit wijzigen door naar de gewenste locatie te bladeren. [Leer hoe u met mappen werkt](../get-started/permissions.md#folders)
 
-   ![](assets/test-profile-folder.png)
+   <!--![](assets/test-profile-folder.png)-->
 
 <!--
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)

@@ -2,11 +2,11 @@
 audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list"
->title="Uw services maken en beheren"
+>title="Services maken en beheren"
 >abstract="Gebruik Adobe Campaign om uw services, zoals nieuwsbrieven, te maken en te controleren en om de abonnementen op of het afmelden van deze services te controleren. Abonnementen gelden alleen voor verzending via e-mail en SMS."
 
 Gebruik het Adobe Campaign-web om uw services, zoals nieuwsbrieven, te beheren en te maken en om de abonnementen op of het afmelden van deze services te controleren.
@@ -36,19 +36,19 @@ Volg onderstaande stappen om abonnementsservices die beschikbaar zijn voor uw pl
 
    ![](assets/service-list.png)
 
-1. De lijst met alle bestaande abonnementsservices wordt weergegeven. U kunt de services doorzoeken en filteren op het kanaal, de map of geavanceerde filters gebruiken.
+1. De lijst met alle bestaande abonnementsservices wordt weergegeven. U kunt de services doorzoeken en filteren op het kanaal, de map of u kunt regels toevoegen met de opdracht [querymodel](../query/query-modeler-overview.md).
 
    ![](assets/service-filters.png)
 
 1. Als u een bestaande service wilt bewerken, klikt u op de naam van de service.
 
-1. U kunt elke service verwijderen of dupliceren met het pictogram met drie punten naast deze servicenaam.<!--so all subscribers are unsuibscribed - need to mention?-->
+1. U kunt elke service verwijderen of dupliceren met het pictogram met drie punten naast de servicenaam.<!--so all subscribers are unsubscribed - need to mention?-->
 
 ## Uw eerste abonnementenservice maken {#create-service}
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_properties"
->title="Definieer de serviceeigenschappen"
+>title="De service-eigenschappen definiëren"
 >abstract="Voer het label van de abonnementsservice in en definieer aanvullende opties, zoals een geldigheidsperiode voor de service."
 
 >[!CONTEXTUALHELP]
@@ -64,9 +64,11 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 
 1. Selecteer een kanaal: **[!UICONTROL Email]** of **[!UICONTROL SMS]**.
 
-1. In de de diensteigenschappen, ga een etiket in en bepaal extra opties zoals gewenst.
+1. Voer in de service-eigenschappen een label in en definieer **[!UICONTROL Additional options]** zoals gewenst.
 
    ![](assets/service-create-properties.png)
+
+1. Standaard worden services opgeslagen in de **[!UICONTROL Services and Subscriptions]** map. U kunt dit wijzigen door naar de gewenste locatie te bladeren. [Leer hoe u met mappen werkt](../get-started/permissions.md#folders)
 
 1. Abonnementen zijn standaard onbeperkt. U kunt de **[!UICONTROL Unlimited validity period]** optie om een geldigheidstermijn voor de dienst te bepalen.
 
@@ -82,19 +84,25 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 
 1. Klik op **[!UICONTROL Save and review]**. De nieuwe dienst wordt toegevoegd aan **[!UICONTROL Subscription services]** lijst.
 
+U kunt nu het volgende:
+
+* Voeg abonnees aan deze dienst toe, en trek ontvangers af. [Meer informatie](../msg/send-to-subscribers.md)
+
+* Verzend berichten naar de abonnees van deze dienst. [Meer informatie](../msg/send-to-subscribers.md)
+
 ## Een bevestigingsbericht maken {#create-confirmation-message}
 
 Als u bevestigingsberichten wilt verzenden naar gebruikers die zich op uw service abonneren of zich niet abonneren, moet u een leveringssjabloon maken met de **[!UICONTROL Subscriptions]** doeltoewijzing, zonder een gedefinieerd doel. Volg de onderstaande stappen om dit te doen.
 
-1. Een leveringssjabloon maken voor de bevestiging van een abonnement. [Meer informatie](../msg/delivery-template.md)
+1. Een leveringssjabloon maken voor de bevestiging van een abonnement. [Leer hoe u een sjabloon maakt](../msg/delivery-template.md)
 
-1. Selecteer geen publiek voor deze levering. In plaats daarvan opent u de **[!UICONTROL Delivery settings]**, ga naar de [Publiek](../advanced-settings/delivery-settings.md#audience) en selecteert u de **[!UICONTROL Subscriptions]** doeltoewijzing uit de lijst.
+1. Selecteer geen publiek voor deze levering. In plaats daarvan opent u de levering **[!UICONTROL Settings]**, ga naar de [Publiek](../advanced-settings/delivery-settings.md#audience) en selecteert u de **[!UICONTROL Subscriptions]** doeltoewijzing uit de lijst.
 
    ![](assets/service-confirmation-template-mapping.png)
 
    >[!NOTE]
    >
-   >Als u de optie  **[!UICONTROL Subscriptions]** target mapping, ontvangen uw abonnees het bevestigingsbericht niet. Doeltoewijzingen worden gedefinieerd in de Campagne v8-console. Meer informatie over [Adobe Campaign v8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   >Als u de optie  **[!UICONTROL Subscriptions]** target mapping, ontvangen uw abonnees het bevestigingsbericht niet. Doeltoewijzingen worden gedefinieerd in de Campagne v8-console. Meer informatie in het dialoogvenster [Adobe Campaign v8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 1. Bewerk de inhoud van de leveringssjabloon, sla deze op en sluit deze.
 
@@ -110,13 +118,30 @@ U kunt nu deze berichten selecteren wanneer [een abonnementenservice maken](#cre
 
 ## Abonnementenservices bewaken {#logs-and-reports}
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers"
+>title="Totaal aantal abonnees"
+>abstract="Klikken **Berekenen** krijgen het totale aantal abonnees voor deze dienst."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overtheperiod_subscribers"
+>title="Aantal abonnementen voor de periode"
+>abstract="Gebruik de vervolgkeuzelijst om het tijdbereik te wijzigen en het aantal abonnementen en abonnementen over de geselecteerde periode weer te geven."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_overallevolution_subscribers"
+>title="Algemene ontwikkeling van abonnementen"
+>abstract="Deze grafiek toont de uitsplitsing naar periode, met inbegrip van abonnementen, abonnementen, abonnementen, de ontwikkeling in aantallen en het loyaliteitspercentage."
+
 Om de doeltreffendheid van uw abonnementsdiensten voor SMS en e-mailkanalen te meten, kunt u tot de logboeken en de rapporten voor een bepaalde dienst toegang hebben.
 
-1. Selecteer een bestaande service in het menu **[!UICONTROL Subscription services]** lijst. Klikken **[!UICONTROL Calculate]** krijgen het aantal totale abonnees.
+1. Selecteer een bestaande service in het menu **[!UICONTROL Subscription services]** lijst. Klikken **[!UICONTROL Calculate]** krijgen het totale aantal abonnees.
 
-   ![](assets/service-logs-reports-buttons.png)
+   ![](assets/service-logs-subscribers-count.png)
 
-1. Selecteer in het servicedashboard de optie **[!UICONTROL Logs]** om de lijst van abonnees aan deze dienst te bekijken. U kunt het totale aantal abonnees controleren, de naam en het adres van elke ontvanger en wanneer zij of geabonneerd worden geabonneerd. U kunt er ook op filteren.
+1. Selecteer in het servicedashboard de optie **[!UICONTROL Logs]** om de lijst van abonnees aan deze dienst te bekijken.
+
+   U kunt het totale aantal abonnees, de naam en het adres van elke ontvanger controleren, en wanneer zij of geabonneerd worden geabonneerd. U kunt er ook op filteren.
 
    ![](assets/service-logs.png)
 

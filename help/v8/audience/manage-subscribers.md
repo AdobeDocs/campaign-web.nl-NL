@@ -2,11 +2,11 @@
 audience: end-user
 title: Abonnees beheren
 description: Leer hoe te om aan de abonnees van de dienst in Adobe Campaign Web te beheren en te leveren
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Voer de onderstaande stappen uit om uw abonnees handmatig toe te voegen.
 
 1. Selecteer een bestaande service in het menu **[!UICONTROL Subscription services]** lijst.
 
-1. Selecteer de **[!UICONTROL Subscribers]** en klik op **[!UICONTROL Add profiles]**.
+1. Ga naar de **[!UICONTROL Subscribers]** en klik op **[!UICONTROL Add subscribers]**.
 
    ![](assets/service-subscribers-tab.png)
 
@@ -31,11 +31,15 @@ Voer de onderstaande stappen uit om uw abonnees handmatig toe te voegen.
 
    ![](assets/service-subscribers-select-profiles.png)
 
-1. Klik op **[!UICONTROL Send]**.<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)--> De geselecteerde ontvangers ontvangen het abonnement [bevestigingsbericht](manage-services.md#create-confirmation-message) die u hebt geselecteerd toen [de service maken](manage-services.md#create-service).
+1. Klikken **[!UICONTROL Send]**<!--if you click cancel, does it mean that no message is sent but recipients are still subscribed, or they are not subscribed? it's 2 different actions in the console)-->om de geselecteerde ontvangers het abonnement te laten krijgen [bevestigingsbericht](manage-services.md#create-confirmation-message) die u hebt gedefinieerd toen [de service maken](manage-services.md#create-service).
 
    ![](assets/service-subscribers-confirmation-msg.png)
 
-De toegevoegde profielen worden weergegeven in het dialoogvenster **[!UICONTROL Subscribers]** lijst. Ze zijn nu geabonneerd op uw service.
+   >[!NOTE]
+   >
+   >Als u **[!UICONTROL Cancel]**, wordt er geen bevestigingsbericht verzonden naar de geselecteerde profielen, maar deze zijn geabonneerd.
+
+De toegevoegde profielen worden weergegeven in het dialoogvenster **[!UICONTROL Subscribers]** tab. Ze zijn nu geabonneerd op uw service.
 
 ## Abonnees van uw service verwijderen {#remove-subscribers}
 
@@ -49,7 +53,9 @@ Eenmaal [toegevoegde abonnees](#add-subscribers) voor uw service, kunt u elk van
 
    ![](assets/service-subscribers-delete.png)
 
-1. Verwijderen bevestigen en klikken **[!UICONTROL Send]**. De geselecteerde ontvanger ontvangt het abonnement [bevestigingsbericht](manage-services.md#create-confirmation-message) die u hebt geselecteerd toen [de service maken](manage-services.md#create-service).
+1. Verwijderen bevestigen.
+
+1. Klikken **[!UICONTROL Send]** om de geselecteerde ontvanger het abonnement te laten opzeggen [bevestigingsbericht](manage-services.md#create-confirmation-message) die u hebt gedefinieerd toen [de service maken](manage-services.md#create-service).
 
    ![](assets/service-subscribers-delete-confirmation.png)
 

@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beta"
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1410'
 ht-degree: 0%
 
 ---
@@ -325,9 +325,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Voorwaardelijke onderwerpregel voor inhoud"
 
 
-
-
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_testprofiles"
 >title="Testprofielen simuleren"
@@ -350,22 +347,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 >[!CONTEXTUALHELP]
->id="acw_subscriptions_totalnumber_subscribers"
->title="Totaal aantal abonnementen"
->abstract="Totaal aantal abonnementen"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_overtheperiod_subscribers"
->title="Abonnementen over de periode"
->abstract="Abonnementen over de periode"
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_overallevolution_subscribers"
->title="Algemene ontwikkeling van abonnementen"
->abstract="Algemene ontwikkeling van abonnementen"
-
-
->[!CONTEXTUALHELP]
 >id="acw_directmail_content"
 >title="Inhoud voor direct mail"
 >abstract="Inhoud voor direct mail"
@@ -379,8 +360,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Eigenschappen voor inhoud voor Direct Mail"
 >abstract="Eigenschappen voor inhoud voor Direct Mail"
-
-
 
 
 <!--
