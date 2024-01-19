@@ -4,9 +4,9 @@ description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '669'
 ht-degree: 1%
 
 ---
@@ -36,12 +36,12 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Item 3"
->abstract="UX is ontworpen voor publiek, abonnement en services, AEM Assets"
+>abstract="UX-bestand voor soorten publiek, abonnement, AEM Assets, bestemmingspagina&#39;s"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Item 4"
->abstract="E-mailgen. AI: snel e-mailen"
+>abstract="De volgende Generatie modelleermachine van de Vraag en E-mailontwerper"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -50,7 +50,7 @@ ht-degree: 1%
 >abstract="Additional Item"-->
 
 <!-- TO REMOVE BELOW-->
-
+L
 >[!CONTEXTUALHELP]
 >id="acw_homepage_card1"
 >title="Help en documentatie"

@@ -4,9 +4,9 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -116,13 +116,13 @@ De belangrijkste mogelijkheden die met de Beperkte versie van de Beschikbaarheid
     
     Elevate and streamline your content management capabilities on the web UI with this integration to boost productivity.
 -->
+<!--
+* **Gen AI for Email content**
 
-* **Gen AI voor e-mailinhoud**
+    Say goodbye to manual content creation and hello to efficient, data-driven campaigns with the power of Gen AI.  Our Gen AI technology utilizes advanced algorithms to **generate highly engaging and personalized content**. Drive higher open rates, click-through rates, and conversions with Gen AI's intelligent content generation. Stay ahead of the competition and elevate your email marketing game with Gen AI on email content.
 
-  Neem afscheid van het handmatig maken van inhoud en begroet efficiënte, door gegevens gestuurde campagnes met de kracht van Gen AI.  Onze Gen AI-technologie maakt gebruik van geavanceerde algoritmen voor **zeer boeiende en gepersonaliseerde inhoud genereren**. U kunt hogere open snelheden, doorkliksnelheden en conversies aansturen met de intelligente productie van content van Gen AI. Blijf de wedstrijd voor en verhoog uw game voor e-mailmarketing met Gen AI op e-mailinhoud.
-
-  Meer informatie in [deze sectie](../email/generative-gs.md).
-
+    Learn more in [this section](../email/generative-gs.md).
+-->
 
 * **Contextafhankelijke Help voor AI**
 
