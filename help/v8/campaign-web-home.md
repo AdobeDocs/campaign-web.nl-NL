@@ -4,10 +4,10 @@ description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 2e0386cbab15d076400fc86490f68f5229b1b779
+source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 1%
+source-wordcount: '692'
+ht-degree: 2%
 
 ---
 
@@ -83,109 +83,100 @@ ht-degree: 1%
 
 <!--TO REMOVE ABOVE-->
 
-
-De campagne biedt nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u de gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere oplossingen voor Adoben, waaronder Adobe Experience Platform. [Meer informatie](get-started/get-started.md)
+We zijn blij om de nieuwe versie van Adobe Campaign Web User Interface te introduceren. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere oplossingen voor Adoben, waaronder Adobe Experience Platform.
 
 >[!AVAILABILITY]
-> Campagne v8 Web bevindt zich momenteel in de versie met beperkte beschikbaarheid (LA). De toegang is beperkt tot een kleine reeks klanten van LA. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen. [Meer informatie](rn/whats-new.md)
+> Campagne v8 Web bevindt zich momenteel in de versie met beperkte beschikbaarheid (LA). De toegang is beperkt tot een kleine reeks klanten van LA. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
 
-## Nieuwe mogelijkheden voor Campagne Web
+## Nieuwe functies
 
-**Nieuwe gebruikersinterface van Campagne v8 Web ontdekken**
+Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign v8 Web product and documentation! Uitchecken voor een uitgebreide lijst met belangrijke mogelijkheden en functies voor updates van releases [deze pagina](rn/whats-new.md).
 
-De nieuwe Campagne v8 Web interface biedt een moderne en intuïtieve gebruikerservaring om het ontwerpen en leveren van marketingcampagnes te vereenvoudigen. Deze nieuwe interface is geïntegreerd met Adobe Experience Platform.
+>[!BEGINTABS]
 
-**Weergegeven interface werkstroomcanvas**
+>[!TAB Kanaalworkflows]
 
-Onze uitgebreide grafische omgeving stelt u in staat complexe processen te ontwerpen die u kunnen helpen uw marketingcampagnes eenvoudig te beheren. Met werkschema&#39;s, kunt u de volledige waaier van processen en taken organiseren, de snelheid en de schaal van elk aspect van uw marketing campagnes verbeteren, van het creëren van segmenten en het voorbereiden van berichten aan levering. Bovendien kunt u uw kanalen synchroon maken met één gebruiksvriendelijke interface voor het organiseren van campagnes.
+Ontgrendel nieuwe mogelijkheden voor automatisering en optimalisering, die u toestaan om dynamischere en gepersonaliseerde klantenreizen te creëren. Van geavanceerde segmentatie tot voorwaardelijke triggers, onze extra werkschemaactiviteiten stellen u in staat om gerichte berichten te leveren en betere campagneprestaties te drijven.
 
-**Maak kennis met de e-mailontwerper**
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
 
-Begin met een sjabloon of gebruik de nieuwe e-mailontwerper van Adobe Campaign om e-mails te maken zonder dat u één regel code hoeft te schrijven. Leer hoe u met de e-mailontwerper uw inhoud kunt maken, deze kunt voorvertonen en testen en een e-mail naar een bestaand publiek kunt sturen in een gebruiksscenario van begin tot eind.
+>[!TAB Samenstelling publiek]
 
-**Uw inhoud dynamisch maken**
+Maak een nieuw publiek in een visueel werkstroomcanvas. U kunt workflowactiviteiten niet alleen helemaal vanaf het begin gebruiken om een eenvoudig publiek te maken, maar ook om het publiek te verfijnen. Combineer meerdere soorten publiek in één publiek, verrijk uw publiek met externe kenmerken of verdeel een publiek in meerdere soorten publiek op basis van uw eigen regels.
 
-Pas de inhoud aan op basis van de gegevens die u over de ontvangers hebt verzameld. Door het gebruik van dynamische inhoud wordt de inhoud aantrekkelijker en wordt de leeskans groter. Pas uw berichten aan elke specifieke ontvanger aan door profielgegevens zoals hun voornaam, interesses, waar zij wonen, wat zij hebben gekocht, en nog veel meer te gebruiken. Creeer voorwaardelijke inhoud om uw leveringen aan elke ontvanger aan te passen en slechts de inhoud te tonen die voor een bepaalde klant relevant is die op de informatie wordt gebaseerd u over hen hebt.
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
 
-**Cross-channel campagnes maken**
+>[!TAB Email Designer]
 
-Gebruik Adobe Campaign om kanaalcampagnes te maken. Met zijn marketing campagneorchestratiemogelijkheden, kunt u klantengegevens beheren en centraliseren, klantenmededelingen en campagnes ontwerpen, en gepersonaliseerde ervaringen over verschillende kanalen tot stand brengen. In deze versie zijn e-mail-, push- en SMS-kanalen beschikbaar. Meet de doeltreffendheid van uw leveringen met gedetailleerde rapporten met inbegrip van de tellingen van opent, klikt, vooruit, en meer.
+Met Campagne-e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve interface voor slepen en neerzetten. Of u nu op een lege site begint, bestaande inhoud importeert of bestaande sjablonen gebruikt, ontwerpt en verfijnen alle inhoud voor elke e-mail!
 
-## Laten we dieper duiken
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
 
-Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze documentatiegedeelten te duiken om ermee te gaan werken.
+>[!TAB Profiel 360]
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="get-started/user-interface.md">
-<img alt="nieuwe interface" src="assets/do-not-localize/menu-ui.jpeg">
-</a>
-<div><a href="get-started/user-interface.md"><strong>De nieuwe gebruikersinterface detecteren</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="workflows/gs-workflows.md">
-<img alt="Validatie" src="assets/do-not-localize/menu-workflows.jpeg">
-</a>
-<div>
-<a href="workflows/gs-workflows.md"><strong>Weergegeven interface werkstroomcanvas</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="email/get-started-email-designer.md">
-<img alt="Onfrequent" src="assets/do-not-localize/menu-design.jpg">
-</a>
-<div>
-<a href="email/get-started-email-designer.md"><strong>Maak kennis met de e-mailontwerper</strong></a>
-</div>
-<p></td>
-<td>
-<a href="personalization/gs-personalization.md">
-<img alt="Doelgroepen" src="assets/do-not-localize/menu-dynamic.jpg">
-</a>
-<div>
-<a href="personalization/gs-personalization.md"><strong>Uw inhoud dynamisch maken</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="campaigns/gs-campaigns.md">
-<img alt="Validatie" src="assets/do-not-localize/menu-campaign.jpeg">
-</a>
-<div>
-<a href="campaigns/gs-campaigns.md"><strong>Cross-channel campagnes maken</strong></a>
-</div>
-<p>
-</td>
-</tr></table>
+Maak nieuwe profielen en controleer deze met krachtige rapporten en gereedschappen. Open de kenmerken, interacties en logbestanden van uw profielen. Met de filteropties bladert u door de lijst met profielen, bewerkt en werkt u het profiel bij.
 
-<!--
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
+
+>[!ENDTABS]
+
+## Starten met de basisprincipes
+
 <table style="table-layout:fixed">
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-ui.jpeg" width="150px">
-</a></td><td>Discover Campaign Web new user interface, latest improvements, key capabilities. Learn how to use them to build cross-channel campaigns for your audiences. With its user-friendly features, Campaign helps you streamline personalized cross-channel campaign creation process, drive results, and gain a competitive edge.</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-workflows.jpeg" width="150px">
-</a></td><td>Our comprehensive graphical canvas makes it easy for you to design processes such as segmentation, campaign execution, and more. With this advanced tool at your fingertips, you can streamline your workflow and elevate your campaigns.</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-design.jpg" width="150px">
-</a></td><td>Start from a template, or use Adobe Campaign's new Email Designer to create emails without having to write a single line of code. Learn how to use the Email Designer to create your content, preview and test it, and send an email to an existing audience in an end-to-end use case.</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-dynamic.jpg" width="150px">
-</a></td><td>Create conditional content to define dynamic personalization based on the recipient's profile, automatically replacing text blocks and images when certain conditions are met. This feature can take your campaigns to new heights and deliver highly targeted, personalized experiences to your audience</td></tr>
-<tr style="border: 0;"><td width="30%"><a href="get-started/user-interface.md">
-<img alt="new UI" src="assets/do-not-localize/menu-campaign.jpeg" width="150px">
-</a></td><td>Adobe Campaign capabilities help you manage centralized customer data, design customer communications and campaigns, and create personalized experiences across different channels: Email, Push and SMS.</td></tr>
+  <tr style="border: 0;">
+    <td>
+    <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
+    <div><strong>De nieuwe gebruikersinterface detecteren</strong><br/>Ontdek de nieuwe interface en navigatie-ervaring van Campagne v8 Web die is geïntegreerd met Adobe Experience Platform.</div>
+    </td>
+    <td>
+    <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
+    <div><strong>Beeld werkstroomcanvas</strong><br/>Leer hoe u workflows maakt om het volledige scala aan processen en taken te ordenen en de snelheid en schaal van elk aspect van uw marketingcampagnes te verbeteren.</div><br/>
+    </td>
+    <td>
+    <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
+    <div><strong>Maak kennis met de e-mailontwerper</strong><br/>Leer hoe u begint met een sjabloon of Adobe Campaign's nieuwe e-mailontwerper gebruikt om e-mails te maken zonder dat u één regel code hoeft te schrijven.
+    </div></td>
+    <td>
+    <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
+    <div><strong>Uw inhoud dynamisch maken</strong><br/>Leer hoe u uw inhoud kunt aanpassen op basis van de informatie die u hebt verzameld over de ontvangers, zodat uw inhoud aantrekkelijker wordt en de kans groter wordt dat de inhoud wordt gelezen.</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="get-started/user-interface.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
 </table>
--->
 
+## De documentatie verkennen
 
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon-start.svg" width="35px">
+    <br/>
+      <strong>Aan de slag</strong><br/><a href="get-started/user-interface.md">Gebruikersinterface</a> - <a href="get-started/connect-to-campaign.md">Verbinding maken met campagne</a> - <a href="get-started/using-ai.md">Contextafhankelijke Help voor AI</a> - <a href="get-started/permissions.md">Toegang en machtigingen</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-experience.svg" width="35px">
+    <br/>
+      <strong>Ervaring van de klant</strong><br/><a href="workflows/gs-workflows.md" target="_blank">Automatiseren met workflows</a> - <a href="campaigns/gs-campaigns.md" target="_blank">Campagne-orkestatie</a> - <a href="personalization/gs-personalization.md">Dynamische inhoud</a> - <a href="reporting/gs-reports.md">Rapportage en analyse</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-message.svg" width="35px">
+    <br/>
+      <strong>Berichten verzenden</strong><br/><a href="msg/gs-deliveries.md">Een levering maken</a> - <a href="email/create-email.md">E-mail</a> -  <a href="push/gs-push.md">Pushmeldingen</a> - <a href="sms/gs-sms.md">SMS</a> - <a href="msg/delivery-template.md">Afleveringssjablonen</a> - <a href="preview-test/preview-test.md">Voorvertonen en testen</a> 
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon_profile.svg" width="35px">
+    <br/>
+      <strong>Profielen en publiek</strong><br/><a href="audience/gs-audiences-recipients.md">Aan de slag</a> - <a href="audience/create-audience.md">Soorten publiek maken</a> - <a href="audience/test-profiles.md">Testprofielen</a> - <a href="audience/manage-services.md">Abonnementsdiensten</a> - <a href="query/query-modeler-overview.md">Query-modelleraar</a>
+    </td>
+  </tr>
+</table>
 
+## Verdere bronnen
 
-
-
-
-
-
+* [Adobe Campaign-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign V8-documentatie](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=nl){target="_blank"}
