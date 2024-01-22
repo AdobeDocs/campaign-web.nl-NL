@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Leer hoe u verbinding maakt met Adobe Campaign en de basisbeginselen van Experie
 
 De homepage van de campagne laat u snel en gemakkelijk doorbladeren zeer belangrijke middelen, indicatoren, en componenten.
 
-In de bovenste sectie van de startpagina vindt u meer informatie over de nieuwste updates en nieuwe mogelijkheden die beschikbaar zijn in het product, met een koppeling naar de opmerkingen bij de release en de bijbehorende documentatie.
+In het bovenste gedeelte van de startpagina vindt u meer informatie over de nieuwste updates en nieuwe mogelijkheden die beschikbaar zijn in het product, met een koppeling naar Opmerkingen bij de release en gedetailleerde documentatie. Gebruik de pijl-links om functiekaarten te schuiven.
 
 ![](assets/home.png)
 

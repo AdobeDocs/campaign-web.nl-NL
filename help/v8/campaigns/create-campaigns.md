@@ -2,12 +2,12 @@
 audience: end-user
 title: Campagnes maken met Adobe Campaign Web
 description: Meer informatie over het maken van kanaalcampagnes met Adobe Campaign Web
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 72065d4cbc3ce18caf88c7032660d944459463ed
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 0%
+source-wordcount: '437'
+ht-degree: 1%
 
 ---
 
@@ -24,23 +24,28 @@ ht-degree: 0%
 >title="Campagneigenschappen"
 >abstract="In dit scherm kunt u de instellingen van uw campagne controleren en bijwerken: label, interne naam, map en beschrijving. U kunt ook bekijken aan welke gebruiker het wordt toegewezen."
 
-Als u een nieuwe campagne wilt maken, moet u de eigenschappen en het schema van de campagne definiëren en werkstromen en leveringen opnemen.
+Als u een nieuwe campagne wilt maken, moet u de instellingen, het programma en workflows en leveringen definiëren.
 
-## Maak de campagne{#campaign-create}
+## Maak de campagne {#campaign-create}
 
 Voer de volgende stappen uit om een nieuwe campagne te maken:
 
 1. Klik op de knop **[!UICONTROL Campaigns]** en klikt u op de knop **[!UICONTROL Create campaign]** knop.
+
+   ![Nieuwe campagne maken](assets/create-campaign-button.png)
+
 1. Selecteer de **Sjabloon** een label voor de campagne te gebruiken en te verstrekken. [Meer informatie](manage-campaigns.md#manage-campaign-templates).
 1. Indien nodig kunt u het volgende wijzigen **Aanvullende opties**: interne naam, map, ontvanger, beschrijving en aard.
 1. Definieer de **Schema** van uw campagne. Meer informatie over het instellen van uw campagneschema in [deze sectie](#campaign-schedule)
 1. Klikken **Maken**.
+
+   ![Campagne-eigenschappen maken](assets/create-a-campaign-properties.png)
+
 1. Workflows en leveringen toevoegen aan uw campagne:
 
    * Van de **Workflows** tabblad, klikt u op **Workflow maken**. Er wordt automatisch een standaardworkflow toegevoegd wanneer u een campagne maakt. Meer informatie over hoe [een workflow maken](../workflows/create-workflow.md).
-   * Van de **Leveringen** tabblad, klikt u op **Levering maken**. [Meer informatie](../msg/gs-messages.md)
 
-1. Gebruik de **Logboeken** en **Rapportage** knoppen om de prestaties van uw campagne te analyseren.
+   * Van de **Leveringen** tabblad, klikt u op **Levering maken**. [Meer informatie](../msg/gs-messages.md)
 
 ## Uw campagne volgen{#campaign-monitoring}
 
@@ -51,7 +56,6 @@ U kunt de toegewezen rapporten ook weergeven door op de knop **Rapporten** knop.
 
 ## Het campagnereschema definiëren {#campaign-schedule}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_schedule"
 >title="Campagne"
@@ -61,8 +65,6 @@ U kunt de toegewezen rapporten ook weergeven door op de knop **Rapporten** knop.
 De campagne begint wanneer de begindatum is bereikt. Zolang de begindatum niet is bereikt, heeft de campagne de **[!UICONTROL Draft]** status. Wanneer de begindatum is bereikt, wordt het ingesteld op **[!UICONTROL In progress]**. Wanneer de einddatum is bereikt, wordt de campagne ingesteld op **[!UICONTROL Completed]**.
 
 Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt. Zie dit [sectie](manage-campaigns.md#access-campaigns).
-
-![De campagneeigenschappen definiëren](assets/campaign-properties.png)
 
 >[!NOTE]
 >

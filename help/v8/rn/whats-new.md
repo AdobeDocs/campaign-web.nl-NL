@@ -4,7 +4,7 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: f92ab1561bc4ed06276b6fd8bc9c329999e4410c
+source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 1%
@@ -64,7 +64,7 @@ Het Web van Adobe Campaign kenmerkt een krachtige vraagmodeler die het proces va
 * Bepaal publiek om in uw berichten of werkschema&#39;s te richten, en creeer moeiteloos nieuw publiek dat aan uw behoeften wordt aangepast
 * Pas regels toe binnen workflowactiviteiten, zoals splitsen en afstemmen, om deze aan te passen aan uw specifieke vereisten
 * Maak vooraf gedefinieerde filters die als sneltoetsen fungeren tijdens diverse filterbewerkingen, ongeacht of u werkt met gegevenslijsten of het publiek voor een levering vormt
-* Voeg regel toe om de gegevens te filteren die in rapporten worden getoond.
+* Voeg regel toe om de gegevens te filteren die in rapporten worden getoond
 * Creeer douaneregels om de gegevens te filtreren die in lijsten zoals ontvangers, leveringslijsten, en meer worden getoond
 
 Meer informatie in [deze sectie](../query/query-modeler-overview.md).
