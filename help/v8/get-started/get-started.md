@@ -4,10 +4,10 @@ title: Aan de slag met Campagne v8 Web
 description: Aan de slag met Campagne v8 Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 119060c56d8541724871a5e4f0289ca775bc0039
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 2%
+source-wordcount: '569'
+ht-degree: 1%
 
 ---
 
@@ -31,13 +31,22 @@ ht-degree: 2%
 
 Adobe Campaign biedt een platform voor het ontwerpen van de ervaringen van klanten over meerdere kanalen en een omgeving voor visuele campagneorchestratie, real-time interactiebeheer en uitvoering via meerdere kanalen.
 
+Adobe Campaign v8 is het volgende-gen campagnehulpmiddel dat voor diverse marketing kanalen zoals e-mail, dupberichten, SMS, en directe post wordt gebouwd. Het biedt robuuste ETL- en gegevensbeheermogelijkheden om de perfecte campagne te helpen kweken en beheren. De orkestmotor van het netwerk voorziet in rijke multi-touchmarketingprogramma&#39;s met een centrale focus op batchgeoriënteerde reizen. Het komt ook met een scalable Real-Time overseinenserver wordt geparseerd die marketing teams toelaat om vooraf bepaalde berichten te verzenden die op een alle-inclusieve lading van om het even welk systeem van IT voor mededelingen zoals wachtwoordterugstellen, orderbevestiging, e-kwitantie en veel meer worden gebaseerd.
+
+Campagne gebruiken om:
+
+* **Drive** personalisatie en betrokkenheid via één toegankelijke weergave van de klant
+* **Integreren** e-mail, mobiel, online en offline kanalen aan de reis van de klant
+* **Automatisch** de levering van zinvolle en tijdige berichten en aanbiedingen
+
+
 Aanvankelijk slechts beschikbaar door rijk [clientconsole](#ac-client), biedt Campagne nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u uw gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere oplossingen voor Adoben, waaronder Adobe Experience Platform.
 
 ![](assets/home.png)
 
 Deze nieuwe interface voldoet eerst aan de behoeften van de **beroepsbeoefenaar** - alle typische beheertaken zijn niet beschikbaar in deze eerste versie, maar worden in latere versies behandeld. Merk op dat niet elke enkele functionaliteit of optie beschikbaar in de cliëntconsole voor nu in nieuwe UI beschikbaar is. Nieuwe gebruiksgevallen, opties en functies zijn beschikbaar in toekomstige versies.
 
-Als u toegang moet krijgen tot de mogelijkheden van Campagne v8 die niet beschikbaar zijn in de webinterface, kunt u de opdracht [clientconsole](#ac-client).
+Als beheerder of deskundige gebruiker, als u tot de mogelijkheden van de Campagne v8 moet toegang hebben die niet beschikbaar in Web UI zijn, kunt u met [clientconsole](#ac-client).
 
 
 >[!NOTE]
@@ -54,4 +63,4 @@ Campagnegegevens worden opgeslagen in de toepassingsserver. Gegevens zijn zowel 
 
 Sommige objecten kunnen alleen in de clientconsole worden gemaakt en beheerd. Zij kunnen zichtbaar zijn en in het Web UI van de Campagne worden gebruikt, maar kunnen niet van dit milieu worden gecreeerd of worden gewijzigd. Alle Campagneobjecten en -componenten zijn beschikbaar in de Explorer-weergave, beschikbaar in de linkernavigatie.
 
-Voor meer informatie over het gebruik van Campagne v8 raadpleegt u [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl){target="_blank"}.
+Raadpleeg voor meer informatie over het gebruik van Campagne v8 met de clientconsole [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl){target="_blank"}.

@@ -5,19 +5,19 @@ description: Lijst met niet-ondersteunde functies in de gebruikersinterface van 
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: e72790238d9a8e23fe18131af436ffea9bacc3cc
+exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
+source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 6%
+source-wordcount: '348'
+ht-degree: 2%
 
 ---
-
 
 # Niet-ondersteunde functies in Campagne Web {#unsupported-capabilities}
 
 De volgende mogelijkheden zijn toegankelijk in de Console van de Cliënt van de Campagne, maar nog niet beschikbaar in het Gebruikersinterface van het Web. Sommige zijn beschikbaar in een latere versie, andere niet.
 
-**Startpagina**
+**Homepage**
 
 * Startpagina-dashboard
 * Aanpassing van startpagina
@@ -52,7 +52,7 @@ De volgende mogelijkheden zijn toegankelijk in de Console van de Cliënt van de 
 * Profiel maken testen
 * Profieldashboard testen
 
-**Transactionele berichten**
+**Transactieberichten**
 
 * Ontwerpen en uitvoeren van realtime berichten via e-mail, SMS en push
 * Verrijking en personalisatie van berichten
@@ -69,7 +69,6 @@ De volgende mogelijkheden zijn toegankelijk in de Console van de Cliënt van de 
 * Inhoudsblok maken
 * Inhoud uit aangepaste formulieren
 * Inhoud van een URL`*`
-* E-mailfragmenten
 * AMP voor e-mails
 * E-mailfragmenten`*`
 * Meervariant/meertalig gebruik`*`
@@ -91,7 +90,7 @@ De volgende mogelijkheden zijn toegankelijk in de Console van de Cliënt van de 
 
 * Ontwerpaanbiedingen met subsidiabiliteitsregels
 
-**Integraties met Adobe Experience Cloud-oplossingen***
+**Integratie met Adobe Experience Cloud-oplossingen***
 
 * Adobe Analytics-gegevensgebruik
 * Adobe Analytics KPI delen
