@@ -4,9 +4,9 @@ title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
 badge: label="Beperkte beschikbaarheid"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 0f420559fa49efbe7eea79474d2db7341e51fca8
+source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '892'
 ht-degree: 1%
 
 ---
@@ -28,15 +28,18 @@ Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde cam
 
 ## Uw workflow samenstellen {#build-your-workflow}
 
-Begin uw werkschema met de relevante activiteiten te bouwen alvorens de kanaalactiviteit op te nemen:
+Begin met het ontwikkelen van uw workflow met de relevante activiteiten:
 
-* Voordat u een leveringsactiviteit invoegt, moet u het publiek definiëren. Het publiek is het belangrijkste doel van uw levering: de profielen die de berichten ontvangen. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar binnen een specifieke activiteit, zoals:
+* Voordat u een kanaalactiviteit invoegt, moet u het publiek definiëren. Het publiek is het belangrijkste doel van uw levering: de profielen die de berichten ontvangen. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar binnen een specifieke activiteit, zoals:
 
    * A **publiek opbouwen** activiteit. [Meer informatie](build-audience.md).
 
-  ![](../../msg/assets/add-delivery-in-wf.png)
+     ![](../../msg/assets/add-delivery-in-wf.png)
 
    * A **Bestand laden** activiteit gevolgd door een **Verzoening** activiteit. [Meer informatie](load-file.md).
+
+     ![](../assets/workflow-reconciliation-criteria.png)
+
 
 
 * Als u een terugkerende levering wilt verzenden, start u de workflow met een **Planner** activiteit. U kunt ook een **Planner** activiteit voor één-ontsproten enige leveringen om de contactdatum voor die levering te plaatsen. Deze contactdatum kan ook worden ingesteld in de leveringsinstellingen. Zie [deze sectie](scheduler.md).
