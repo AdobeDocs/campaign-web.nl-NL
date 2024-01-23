@@ -2,11 +2,11 @@
 audience: end-user
 title: Werkstroomactiviteit combineren gebruiken
 description: Leer hoe u de workflowactiviteit combineren gebruikt
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '913'
 ht-degree: 10%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 10%
 >id="acw_orchestration_combine"
 >title="Combineer activiteit"
 >abstract="De **Combineren** de activiteit staat u toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor meerdere doelen."
-
 
 De **Combineren** activiteit is **Targeting** activiteit. Deze activiteit staat u toe om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor verschillende doelen. Hier volgen de beschikbare segmentatietypen:
 

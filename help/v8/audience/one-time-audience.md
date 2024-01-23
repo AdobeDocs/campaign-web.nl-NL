@@ -2,12 +2,12 @@
 audience: end-user
 title: Een eenmalig publiek maken voor levering
 description: Leer hoe u een eenmalig publiek kunt maken voor een levering.
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 0%
+source-wordcount: '225'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Voer de volgende stappen uit om een nieuw publiek rechtstreeks vanaf een leverin
 
 1. Selecteren **Maak uw eigen**. De vraagmodeler wordt getoond. Het staat u toe om de bevolking te bepalen die door uw levering wordt gericht door gegevens te filtreren in het gegevensbestand. [Leer hoe te om de vraagmodeler te gebruiken](../query/query-modeler-overview.md)
 
-   ![](assets/segment-builder.png)
+   ![](assets/query-modeler.png)
 
 1. Als de query gereed is, klikt u op **Bevestigen** om het publiek als belangrijkste doel van uw levering te gebruiken.
 
