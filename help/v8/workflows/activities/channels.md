@@ -4,9 +4,9 @@ title: Activiteit van leveringswerkstromen gebruiken
 description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
 badge: label="Beperkte beschikbaarheid"
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 74102899efa10e37705cbd3c7c6796eb6ac0b18e
+source-git-commit: f77b0771d51506d6685fd2c9c4135ef57352fc27
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde cam
 >* [Zelfstandige SMS-levering maken](../../sms/create-sms.md)
 >* [Zelfstandige pushlevering maken](../../push/create-push.md)
 
-## Uw workflow samenstellen {#build-your-workflow}
+## Vereisten {#channel-activity-prereq}
 
 Begin met het ontwikkelen van uw workflow met de relevante activiteiten:
 
