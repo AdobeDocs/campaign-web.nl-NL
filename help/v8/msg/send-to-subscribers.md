@@ -4,28 +4,33 @@ title: Berichten verzenden naar de abonnees van een service
 description: Leer hoe te om berichten naar de abonnees van een dienst te verzenden
 badge: label="Beperkte beschikbaarheid"
 exl-id: f6e14db5-261c-4fa6-bd19-fd8bdc04aaf1
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+source-git-commit: ad8d99ca73bebccae9ee7466bda566cdc465fb26
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 1%
+source-wordcount: '223'
+ht-degree: 0%
 
 ---
 
 # Berichten verzenden naar de abonnees van een service {#send-to-subscribers}
 
-U kunt abonnementsservices maken in Adobe Campaign en berichten verzenden naar abonnees. Leer hoe u abonnementenservices kunt maken in [deze pagina](../audience//manage-services.md#create-service).
+U kunt abonnementsservices maken in Adobe Campaign en berichten verzenden naar abonnees. Leer hoe u abonnementenservices kunt maken op [deze pagina](../audience//manage-services.md#create-service).
 
 Als u berichten naar uw abonnees wilt verzenden, maakt u een specifiek publiek om de abonnees te identificeren en maakt u vervolgens de levering zoals hieronder beschreven.
 
-1. Maak een publiek. Meer informatie over publiek in [deze pagina](../audience/create-audience.md).
+1. Maak een publiek. Er wordt automatisch een nieuwe workflow gemaakt. [Meer informatie over het publiek](../audience/create-audience.md)
 
-1. In de **[!UICONTROL Build audience]** activiteit, toon de geavanceerde attributen en selecteer **[!UICONTROL Recipient]** > **[!UICONTROL Subscriptions]** > **[!UICONTROL Service]**.
+1. Voor een betere leesbaarheid wijzigt u de naam van de workflow in de workflowinstellingen.&#39; **Label** veld. [Leer hoe u workflowinstellingen configureert](../workflows/workflow-settings.md)
 
-   In dit voorbeeld selecteert u de gebruikers die zijn geabonneerd op de service met de **Luma-nieuwsbrief** label.
+1. Open de **[!UICONTROL Build audience]** activiteit, en selecteer **[!UICONTROL Create audience]**. [Leer hoe te om een het publieksactiviteit van de Bouwstijl te vormen](../workflows/activities/build-audience.md)
+
+   ![](assets/service-create-audience.png)
+
+1. Selecteer de volgende aangepaste voorwaarden in de aanmaakstroom voor het publiek: **[!UICONTROL Susbscriptions]** bestaan **[!UICONTROL Service]** is gelijk aan de dienst u bepaalde. Selecteer in dit voorbeeld de optie **Luma-yoga nieuwsbrief**.
 
    ![](assets/service-audience-subscribers.png)
 
-1. Sla het publiek op.
+1. Selecteren **[!UICONTROL Confirm]** en klik op **[!UICONTROL Start]** om de workflow uit te voeren.
+
 1. Een levering maken. De stappen voor het maken van een levering worden beschreven in [deze pagina](../msg/gs-messages.md#create-delivery).
 1. Blader naar uw leveringsinstellingen en wijzig de standaarddoeltoewijzing in **Abonnementen (nms:abonnementen)**.
 
