@@ -3,11 +3,11 @@ audience: end-user
 title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Beta"
-source-git-commit: 68c3a19122912d730b739549ed5b37e8a34a61df
+badge: label="Beperkte beschikbaarheid"
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 0%
+source-wordcount: '313'
+ht-degree: 1%
 
 ---
 
@@ -28,15 +28,15 @@ De doelgroepen in de leveringen zijn toegankelijk via de **Publiek** links. Zij 
 
 Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
-1. Van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking, klik **[!UICONTROL Select audience]** en kies vervolgens
+1. Van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking, klik **[!UICONTROL Select audience]** en kies vervolgens **[!UICONTROL Select audience]** om een bestaand publiek te gebruiken.
 
    ![](assets/create-audience.png)
 
-1. Kies **[!UICONTROL Select audience]** om een bestaand publiek te gebruiken. In dit scherm worden alle bestaande soorten publiek voor de huidige map weergegeven.
+1. In dit scherm worden alle bestaande soorten publiek voor de huidige map weergegeven.
 
    ![](assets/create-audience2.png)
 
-   Blader naar de `AEP Audiences folder` in het filtergedeelte van het scherm.
+   Blader naar de `AEP Audiences folder` in het filtergedeelte van het scherm. [Leer hoe u een Adobe Experience Platform-publiek gebruikt](aep-audience.md)
 
    ![](assets/select-audience-folder.png)
 

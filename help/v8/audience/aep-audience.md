@@ -2,11 +2,11 @@
 audience: end-user
 title: Een Adobe Experience Platform-publiek gebruiken
 description: Leer hoe u een publiek van Adobe Experience Platform kunt gebruiken
-badge: label="Beta"
+badge: label="Beperkte beschikbaarheid"
 exl-id: beb73107-3d27-40ac-afef-ac2b66ae8d34
-source-git-commit: 97e2d37d0a91e50b516f2fa0b6d5559f89b6c096
+source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '323'
 ht-degree: 2%
 
 ---
@@ -40,6 +40,8 @@ Volg onderstaande stappen om een Adobe Experience Platform-publiek voor uw lever
    ![](assets/select-audience-folder.png)
 
    U kunt ook een regel definiëren om op de oorsprong van het publiek te filteren, zoals hieronder:
+
+   Met de filtersectie hebt u toegang tot filteropties om de lijst met doelgroepen te verfijnen. Om dit te doen, klik **Regels toevoegen** om tot de vraagmodeler toegang te hebben, die u geavanceerde filters voor de lijst van publiek laat tot stand brengen. [Leer hoe te om de vraagmodeler te gebruiken](../query/query-modeler-overview.md)
 
    ![](assets/filter-on-aep-audience.png)
 
