@@ -4,9 +4,9 @@ title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '910'
 ht-degree: 1%
 
 ---
@@ -91,6 +91,17 @@ U kunt nu het volgende:
 * Verzend berichten naar de abonnees van deze dienst. [Meer informatie](../msg/send-to-subscribers.md)
 
 ## Een bevestigingsbericht maken {#create-confirmation-message}
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_delivery_template"
+>title="De leveringssjabloon voor abonnementen selecteren"
+>abstract="Als u bevestigingsberichten wilt verzenden aan gebruikers die zich op uw service abonneren, moet u een specifieke leveringssjabloon selecteren op basis van de **[!UICONTROL Subscriptions]** doeltoewijzing, zonder een gedefinieerd doel."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_unsubscriptions_delivery_template"
+>title="Selecteer de leveringssjabloon voor abonnementen"
+>abstract="Als u bevestigingsberichten wilt verzenden naar gebruikers die zich niet meer abonneren op uw service, moet u een specifieke leveringssjabloon selecteren op basis van de **[!UICONTROL Subscriptions]** doeltoewijzing, zonder een gedefinieerd doel."
 
 Als u bevestigingsberichten wilt verzenden naar gebruikers die zich op uw service abonneren of zich niet abonneren, moet u een leveringssjabloon maken met de **[!UICONTROL Subscriptions]** doeltoewijzing, zonder een gedefinieerd doel. Volg de onderstaande stappen om dit te doen.
 
