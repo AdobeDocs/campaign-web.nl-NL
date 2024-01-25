@@ -4,9 +4,9 @@ title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '322'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,15 @@ Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
    ![](assets/create-audience2.png)
 
-   Blader naar de `AEP Audiences folder` in het filtergedeelte van het scherm. [Leer hoe u een Adobe Experience Platform-publiek gebruikt](aep-audience.md)
+   Blader naar de `AEP Audiences folder` in het filtergedeelte van het scherm.
 
    ![](assets/select-audience-folder.png)
 
 1. Met de filtersectie hebt u toegang tot filteropties om de lijst met doelgroepen te verfijnen. Om dit te doen, klik **Regels toevoegen** om tot de vraagmodeler toegang te hebben, die u geavanceerde filters voor de lijst van publiek laat tot stand brengen. [Leer hoe te om de vraagmodeler te gebruiken](../query/query-modeler-overview.md)
+
+   U kunt bijvoorbeeld een regel definiëren om op de oorsprong van het publiek te filteren, zoals hieronder wordt getoond:
+
+   ![](assets/filter-on-aep-audience.png)
 
 1. Klikken **Bevestigen** om uw publiek toe te voegen als belangrijkste doel voor levering. Zodra gedaan, kunt u het publiek nog verfijnen gebruikend de vraagmodeler door te klikken **Regels bewerken** knop.
 

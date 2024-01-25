@@ -6,9 +6,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Campagne v8 Web
 hide: true
-source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
+source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '536'
 ht-degree: 9%
 
 ---
@@ -103,7 +103,6 @@ ht-degree: 9%
       + [Bestaande doelgroep selecteren](audience/add-audience.md)
       + [Eenmalig publiek maken](audience/one-time-audience.md)
       + [Een e-mailpubliek laden vanuit een bestand](audience/file-audience.md)
-      + [Een Adobe Experience Platform-publiek gebruiken](audience/aep-audience.md)
       + [Een controlegroep instellen](audience/control-group.md)
    + Werken met abonnementsservices {#work-with-services}
       + [Abonnementsservices maken en beheren](audience/manage-services.md)
