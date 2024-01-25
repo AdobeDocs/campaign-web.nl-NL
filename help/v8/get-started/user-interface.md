@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Campagne v8 Web, gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: db318411c9271688b1982acd7f0a23349f18b984
+source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1703'
 ht-degree: 0%
 
 ---
@@ -153,6 +153,22 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Machtiging vereist"
 >abstract="Uw beheerder moet u toestemming verlenen alvorens u een segment kunt tot stand brengen."
+
+
+<!-- Waves-->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_waves_definition"
+>title="Waves-definitie"
+>abstract="Definieer golven om leveringen in verschillende batches te splitsen in plaats van tegelijkertijd hoge volumes berichten te verzenden."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_waves_size"
+>title="Grootte van de golf"
+>abstract="De grootte van de golf wordt vereist. Voer een numerieke waarde (aantal berichten) of een percentage (0-100%) in het veld Grootte in."
+
+
 
 <!-- Workflows-->
 
