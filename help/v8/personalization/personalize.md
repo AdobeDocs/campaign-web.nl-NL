@@ -1,15 +1,15 @@
 ---
 title: Uw inhoud aanpassen in campagne
-description: Leer hoe u uw inhoud kunt aanpassen in de gebruikersinterface van Adobe Campaign
+description: Leer hoe u uw inhoud kunt aanpassen op Adobe Campaign Web
 feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---

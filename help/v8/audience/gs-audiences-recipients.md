@@ -3,7 +3,7 @@ title: Aan de slag met profielen en publiek
 description: Leer hoe u met profielen en publiek werkt in Campagne Web
 exl-id: 71a1ec92-cd79-4654-9ae3-9a92a01c6279
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: bb3df3067c78311fa0ff3b9a52fe9713552fa0cf
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 3%
@@ -16,7 +16,7 @@ In Adobe Campaign Web **profiel** is een individu dat in het gegevensbestand wor
 
 **Soorten publiek** zijn groepen profielen met vergelijkbare gedragingen en/of kenmerken. Deze verzameling personen kan worden gegenereerd, geselecteerd of geladen.  Als het publiek eenmaal is gemaakt, kan het worden gebruikt als doelgroep voor uw leveringen.
 
-Daarnaast kan Adobe Campaign-web worden gebruikt voor het beheren en maken van **diensten** zoals nieuwsbrieven, en om de abonnementen of de onderbrekingen op deze diensten te controleren. Zodra gedaan, kunt u abonnees toevoegen, profielen opzeggen, en berichten verzenden naar de abonnees van uw diensten.
+Daarnaast kan Adobe Campaign Web worden gebruikt voor het beheren en maken van **diensten** zoals nieuwsbrieven, en om de abonnementen of de onderbrekingen op deze diensten te controleren. Zodra gedaan, kunt u abonnees toevoegen, profielen opzeggen, en berichten verzenden naar de abonnees van uw diensten.
 
 Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze documentatiegedeelten te duiken om ermee te gaan werken.
 

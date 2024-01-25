@@ -1,11 +1,11 @@
 ---
 title: Werken met vooraf gedefinieerde filters
-description: Leer hoe u vooraf gedefinieerde filters maakt en beheert in de gebruikersinterface van Adobe Campaign
+description: Leer hoe u vooraf gedefinieerde filters maakt en beheert in Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
