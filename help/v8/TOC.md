@@ -6,9 +6,9 @@ title: Adobe Campaign v8-webdocumentatie
 description: Campagne v8 Webdocumentatie
 breadcrumb-title: Campagne v8 Web
 hide: true
-source-git-commit: 703196ad2bb504eb1d50008af110f952d8045eaa
+source-git-commit: 22b183a739dd92d7c4245fb4694034a247511d75
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '542'
 ht-degree: 9%
 
 ---
@@ -92,8 +92,10 @@ ht-degree: 9%
    + [Aan de slag met profielen en doelgroepen](audience/gs-audiences-recipients.md)
    + [Doelafmetingen](audience/targeting-dimensions.md)
    + Werken met profielen {#work-with-profiles}
-      + [Profielen bewaken en beheren](audience/about-recipients.md)
-      + [Testprofielen maken en beheren](audience/test-profiles.md)
+      + [Aan de slag met profielen](audience/about-recipients.md)
+      + [Details van profielen verkennen](audience/profile-view.md)
+      + [Een profiel maken](audience/create-profile.md)
+      + [Werken met testprofielen](audience/test-profiles.md)
    + Werken met het publiek {#audiences}
       + [Soorten publiek maken](audience/create-audience.md)
       + [Het publiek bewaken en beheren](audience/manage-audience.md)
