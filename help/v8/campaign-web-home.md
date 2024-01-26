@@ -4,7 +4,7 @@ description: Campagne Web v8 Help Center
 title: Adobe Campaign Web v8 productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list1"
 >title="Item 1"
->abstract="Nieuwe ontwerpervaring voor e-mail-, sms- en pushberichten"
+>abstract="Nieuwe ontwerpervaring voor e-mail-, SMS- en pushberichten"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list2"
@@ -36,12 +36,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list3"
 >title="Item 3"
->abstract="UX-bestand voor soorten publiek, abonnement, AEM Assets, bestemmingspagina&#39;s"
+>abstract="UX-bestand voor publiek-, abonnement-, AEM Assets- en landingspagina&#39;s"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_list4"
 >title="Item 4"
->abstract="De volgende Generatie modelleermachine van de Vraag en E-mailontwerper"
+>abstract="Query-modelleerprogramma en e-mailontwerper van de volgende generatie"
 
 <!--
 >[!CONTEXTUALHELP]
@@ -134,7 +134,7 @@ Maak nieuwe profielen en controleer deze met krachtige rapporten en gereedschapp
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Maak kennis met de e-mailontwerper</strong><br/>Leer hoe u begint met een sjabloon of Adobe Campaign's nieuwe e-mailontwerper gebruikt om e-mails te maken zonder dat u één regel code hoeft te schrijven.
+    <div><strong>Maak kennis met de e-mailontwerper</strong><br/>Leer hoe u begint met een sjabloon of nieuwe e-mailontwerper voor Adobe Campaign gebruikt om e-mailberichten te maken zonder dat u één regel code hoeft te schrijven.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
