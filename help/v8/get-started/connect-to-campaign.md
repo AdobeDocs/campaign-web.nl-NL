@@ -1,18 +1,18 @@
 ---
 title: Verbinding maken met de Adobe Campaign-webinterface
-description: Leer hoe u verbinding maakt met de gebruikersinterface van Adobe Campaign v8 Web
+description: Leer hoe u verbinding maakt met de gebruikersinterface van Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 7e2345327e613a9606598fefd440ae97f5aac24b
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 # Verbinding maken met Adobe Campaign {#connect-to-campaign}
 
-Experience Cloud is de geïntegreerde familie van digitale marketingtoepassingen, producten en diensten van de Adobe. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services. Leer hoe u verbinding maakt met Adobe Experience Cloud en de Adobe Campaign v8-webinterface opent op deze pagina.
+Experience Cloud is de geïntegreerde familie van digitale marketingtoepassingen, producten en diensten van de Adobe. Via de intuïtieve interface hebt u snel toegang tot uw cloudtoepassingen, productfuncties en services. Leer hoe u verbinding maakt met Adobe Experience Cloud en de Adobe Campaign Web-interface opent op deze pagina.
 
 ## Aanmelden bij Adobe Experience Cloud {#sign-in-to-exc}
 
@@ -64,11 +64,11 @@ Blader naar de bovenste balk van de interface:
 
 ## Ondersteunde browsers {#browsers}
 
-Campagne v8 Web is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome, Safari en Microsoft Edge. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
+Adobe Campaign Web is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome, Safari en Microsoft Edge. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
 
 ## Taalvoorkeuren {#language-pref}
 
-Campagne v8 Web is momenteel beschikbaar in de volgende talen:
+Adobe Campaign Web is momenteel beschikbaar in de volgende talen:
 
 * Engels (VS) - EN-US
 * Frans - FR

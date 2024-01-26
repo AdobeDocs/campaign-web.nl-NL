@@ -1,32 +1,32 @@
 ---
 audience: end-user
-title: Aan de slag met Campagne v8 Web
-description: Aan de slag met Campagne v8 Web
+title: Aan de slag met Adobe Campaign Web
+description: Aan de slag met Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7c1776f71885cc6e7cea14af6bba9ec1c0f664b2
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
 
 ---
 
-# Aan de slag met Campagne v8 Web {#get-started}
+# Aan de slag met Adobe Campaign Web {#get-started}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_learnmore"
 >title="Aan de slag"
->abstract="De nieuwe Campagne v8 Web interface biedt een geïntegreerde, intuïtieve, en verenigbare gebruikerservaring."
+>abstract="De nieuwe Adobe Campaign-webinterface biedt een geïntegreerde, intuïtieve en consistente gebruikerservaring."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_learnmore"
 >title="Aan de slag"
->abstract="De nieuwe Campagne v8 Web interface biedt een geïntegreerde, intuïtieve, en verenigbare gebruikerservaring."
+>abstract="De nieuwe Adobe Campaign-webinterface biedt een geïntegreerde, intuïtieve en consistente gebruikerservaring."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learnmore"
 >title="Aan de slag"
->abstract="De nieuwe Campagne v8 Web interface biedt een geïntegreerde, intuïtieve, en verenigbare gebruikerservaring."
+>abstract="De nieuwe Adobe Campaign-webinterface biedt een geïntegreerde, intuïtieve en consistente gebruikerservaring."
 
 Adobe Campaign biedt een platform voor het ontwerpen van de ervaringen van klanten over meerdere kanalen en een omgeving voor visuele campagneorchestratie, real-time interactiebeheer en uitvoering via meerdere kanalen.
 
@@ -50,7 +50,7 @@ Als beheerder of deskundige gebruiker, als u tot de mogelijkheden van de Campagn
 
 >[!NOTE]
 >
->Campagne v8 Web bevindt zich momenteel in de versie met beperkte beschikbaarheid (LA). De toegang is beperkt tot een kleine reeks klanten van LA. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
+>Adobe Campaign Web bevindt zich momenteel in de versie met beperkte beschikbaarheid (LA). De toegang is beperkt tot een kleine reeks klanten van LA. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
 
 Leer hoe u verbinding maakt met Adobe Campaign Web in [deze pagina](connect-to-campaign.md).
 

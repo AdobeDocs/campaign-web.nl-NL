@@ -1,10 +1,10 @@
 ---
 audience: end-user
 title: De interface detecteren
-description: Campagne v8 Web, gebruikersinterface
+description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '1697'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # De interface detecteren {#user-interface}
 
-De nieuwe Campagne v8 Web interface biedt een moderne en intuïtieve gebruikerservaring om het ontwerpen en leveren van marketingcampagnes te vereenvoudigen. Deze nieuwe interface is geïntegreerd met Adobe Experience Cloud-toepassingen en -oplossingen.
+De nieuwe Adobe Campaign Web-interface biedt een moderne en intuïtieve gebruikerservaring om het ontwerpen en leveren van marketingcampagnes te vereenvoudigen. Deze nieuwe interface is geïntegreerd met Adobe Experience Cloud-toepassingen en -oplossingen.
 
 Leer hoe u verbinding maakt met Adobe Campaign en de basisbeginselen van Experience Cloud navigatie ontdekt [in dit artikel](connect-to-campaign.md).
 
@@ -39,11 +39,11 @@ De **Belangrijkste prestatie-indicatoren** Hiermee kunt u de doeltreffendheid va
 
 De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum van het kanaal, de status, de eigenaar, het maken en de wijziging van de datums. Klik op de knop **Meer weergeven** koppeling om meer leveringen te laden.
 
-Bovendien hebt u via de **Leren** van de pagina.
+Daarnaast kunt u de Help-pagina&#39;s voor Adobe Campaign Web openen via **Leren** van de pagina.
 
 ## Linkernavigatiemenu {#user-interface-left-nav}
 
-Blader links naar de koppelingen voor toegang tot de webmogelijkheden van Campagne v8. Met verschillende koppelingen worden lijsten weergegeven met objecten die kunnen worden gesorteerd en gefilterd. U kunt kolommen ook vormen om alle informatie te tonen u wenst. Zie dit [sectie](#list-screens). Sommige lijstschermen zijn alleen-lezen. Welke items in het navigatiemenu links en in de lijsten worden weergegeven, is afhankelijk van uw gebruikersmachtigingen. Meer informatie over machtigingen in [deze sectie](permissions.md).
+Blader links naar de links om toegang te krijgen tot Adobe Campaign Web-mogelijkheden. Met verschillende koppelingen worden lijsten weergegeven met objecten die kunnen worden gesorteerd en gefilterd. U kunt kolommen ook vormen om alle informatie te tonen u wenst. Zie dit [sectie](#list-screens). Sommige lijstschermen zijn alleen-lezen. Welke items in het navigatiemenu links en in de lijsten worden weergegeven, is afhankelijk van uw gebruikersmachtigingen. Meer informatie over machtigingen in [deze sectie](permissions.md).
 
 
 ### Verkenner {#user-interface-explorer}

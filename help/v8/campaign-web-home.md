@@ -1,17 +1,17 @@
 ---
 keywords: Campagne Web;huis;populaire onderwerpen
-description: Campagne Web v8 Help Center
-title: Adobe Campaign Web v8 productdocumentatie
+description: Campagne Web Help Center
+title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: ab58d8901da1b90609794ccd488b8d3a965675ec
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '688'
 ht-degree: 2%
 
 ---
 
-# Adobe Campaign v8-webdocumentatie {#campaign-documentation}
+# Adobe Campaign-webdocumentatie {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -86,11 +86,11 @@ ht-degree: 2%
 We zijn blij om de nieuwe versie van Adobe Campaign Web User Interface te introduceren. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere oplossingen voor Adoben, waaronder Adobe Experience Platform.
 
 >[!AVAILABILITY]
-> Campagne v8 Web bevindt zich momenteel in de versie met beperkte beschikbaarheid (LA). De toegang is beperkt tot een kleine reeks klanten van LA. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
+> Adobe Campaign Web bevindt zich momenteel in de versie met beperkte beschikbaarheid (LA). De toegang is beperkt tot een kleine reeks klanten van LA. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
 
 ## Nieuwe functies
 
-Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign v8 Web product and documentation! Uitchecken voor een uitgebreide lijst met belangrijke mogelijkheden en functies voor updates van releases [deze pagina](rn/whats-new.md).
+Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and documentation! Uitchecken voor een uitgebreide lijst met belangrijke mogelijkheden en functies voor updates van releases [deze pagina](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -126,7 +126,7 @@ Maak nieuwe profielen en controleer deze met krachtige rapporten en gereedschapp
   <tr style="border: 0;">
     <td>
     <a href="get-started/user-interface.md"><img src="assets/do-not-localize/menu-ui.jpeg"></a>
-    <div><strong>De nieuwe gebruikersinterface detecteren</strong><br/>Ontdek de nieuwe interface en navigatie-ervaring van Campagne v8 Web die is geïntegreerd met Adobe Experience Platform.</div>
+    <div><strong>De nieuwe gebruikersinterface detecteren</strong><br/>Ontdek de nieuwe interface en navigatie-ervaring van Adobe Campaign Web die is geïntegreerd met Adobe Experience Platform.</div>
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>

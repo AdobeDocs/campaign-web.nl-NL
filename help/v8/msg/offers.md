@@ -4,9 +4,9 @@ title: Aanbiedingen toevoegen aan uw berichten
 description: Meer informatie over het toevoegen en verzenden van aanbiedingen
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 013d5ab21d3fda9e7b04ddd709185c2ff4bf23a3
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aanbiedingen toevoegen aan uw berichten {#offers-content}
 
-Met Adobe Campaign v8 Web kunt u aanbiedingen die in de console zijn gemaakt, verzenden met de **[!UICONTROL Interaction]** -module. Voor meer informatie over Interactie en hoe te om een aanbiedingscatalogus in de console te beheren, verwijs naar [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Met Adobe Campaign Web kunt u aanbiedingen die in de console zijn gemaakt, verzenden met de **[!UICONTROL Interaction]** -module. Voor meer informatie over Interactie en hoe te om een aanbiedingscatalogus in de console te beheren, verwijs naar [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 De stappen voor het verzenden van voorstellen met een levering zijn als volgt:
 

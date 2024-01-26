@@ -1,10 +1,10 @@
 ---
 audience: end-user
-title: Aan de slag met berichten en leveringen in Campagne v8 Web
+title: Ga aan de slag met berichten en leveringen op Adobe Campaign Web
 description: Leer hoe u met leveringen werkt en berichten verzendt met Campagne Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: 51cde630b5867662c40f79109f40f78a08eb758f
+source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 6%
