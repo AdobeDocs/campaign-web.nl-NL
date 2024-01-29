@@ -4,9 +4,9 @@ title: Afleveringsinstellingen
 description: Meer informatie over de leveringsinstellingen in Campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 93402a91511cff9cb6510f696238e667ec812f8d
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2191'
 ht-degree: 4%
 
 ---
@@ -136,6 +136,8 @@ U kunt het volgende definiëren **[!UICONTROL Sending]** instellingen:
 * **[!UICONTROL Test SMTP delivery]**: Deze optie wordt gebruikt om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
 
 * **[!UICONTROL Email BCC]**: Deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
+
+* **[!UICONTROL Send using multiple waves]**: U kunt het verzonden volume progressief verhogen gebruikend golven. Zo voorkomt u dat uw berichten als spam worden gemarkeerd of dat u het aantal berichten per dag wilt beperken. Met golven kunt u leveringen in verschillende batches verdelen in plaats van tegelijkertijd grote volumes berichten te verzenden. [Meer informatie](send-using-waves.md)
 
 U kunt ook de indeling van de verzonden e-mailberichten wijzigen:
 

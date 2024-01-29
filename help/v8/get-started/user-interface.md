@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -153,22 +153,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_push_overview_edit"
 >title="Machtiging vereist"
 >abstract="Uw beheerder moet u toestemming verlenen alvorens u een segment kunt tot stand brengen."
-
-
-<!-- Waves-->
-
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_waves_definition"
->title="Waves-definitie"
->abstract="Definieer golven om leveringen in verschillende batches te splitsen in plaats van tegelijkertijd hoge volumes berichten te verzenden."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_waves_size"
->title="Grootte van de golf"
->abstract="De grootte van de golf wordt vereist. Voer een numerieke waarde (aantal berichten) of een percentage (0-100%) in het veld Grootte in."
-
-
 
 <!-- Workflows-->
 

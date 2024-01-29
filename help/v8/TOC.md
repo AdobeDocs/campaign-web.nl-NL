@@ -6,9 +6,9 @@ title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campagne Web
 hide: true
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '536'
 ht-degree: 9%
 
 ---
@@ -64,8 +64,9 @@ ht-degree: 9%
             + [Inline-opmaakkenmerken toevoegen](email/inline-styling.md)
       + E-mail verzenden en controleren {#monitor}
          + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
-         + [Leveringslogboeken controleren](monitor/delivery-logs.md)
          + [E-mailleveringsinstellingen](advanced-settings/delivery-settings.md)
+         + [Verzenden met meerdere golven](advanced-settings/send-using-waves.md)
+         + [Leveringslogboeken controleren](monitor/delivery-logs.md)
    + Pushmeldingen {#push}
       + [Aan de slag met pushmeldingen](push/gs-push.md)
       + [Een pushmelding maken](push/create-push.md)
