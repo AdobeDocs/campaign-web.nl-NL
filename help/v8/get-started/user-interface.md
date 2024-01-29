@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1596'
 ht-degree: 0%
 
 ---
@@ -178,14 +178,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- delivery settings-->
 
 
-
-
-
-
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
-
-
 
 
 <!-- FOR GA -->
@@ -227,55 +221,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Ontvangers lezen alleen-profiel"
 
 
->[!CONTEXTUALHELP]
->id="acw_landingpages_menu"
->title="Landingspagina&#39;s"
->abstract="Landingspagina&#39;s"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_properties"
->title="Landingspagina&#39;s, eigenschappen"
->abstract="Landingspagina&#39;s, eigenschappen"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_pages_list"
->title="Pagina&#39;s met landingspagina&#39;s"
->abstract="Pagina&#39;s met landingspagina&#39;s"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_schedule"
->title="Planning met landingspagina&#39;s"
->abstract="Planning met landingspagina&#39;s"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="Basispagina van bestemmingspagina&#39;s"
->abstract="Basispagina van bestemmingspagina&#39;s"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="Abonnement op bestemmingspagina&#39;s"
->abstract="Abonnement op bestemmingspagina&#39;s"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_calltoaction"
->title="Aanroep van bestemmingspagina&#39;s naar actie"
->abstract="Aanroep van bestemmingspagina&#39;s naar actie"
-
->[!CONTEXTUALHELP]
->id="acw_landingpages_simulate"
->title="Landingspagina&#39;s simuleren"
->abstract="Landingspagina&#39;s simuleren"
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="Activiteit niet bewerkbaar"
 >abstract="Activiteit niet bewerkbaar"
-
-
 
 
 >[!CONTEXTUALHELP]
@@ -312,8 +262,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_fragments_details"
 >title="Fragmentdetails"
 >abstract="Fragmentdetails"
-
-
 
 
 
