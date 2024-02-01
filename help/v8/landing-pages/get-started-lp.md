@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met bestemmingspagina's
 description: Meer informatie over het landen van pagina's in het campagneweb
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 93fe9fbaa38ae278ebbc2562e6d48c4c680cdfe8
+source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '197'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landingspagina&#39;s"
->abstract="Ontdek de nieuwe landingspagina-ervaring. Onmiddellijk landingspagina&#39;s maken, ontwerpen en delen om uw gebruikers naar online webpagina&#39;s te leiden waar u het aanschaffen van profielgegevens kunt beheren en de opt-in-/opt-out-stromen snel en naadloos."
+>abstract="Ontdek de nieuwe landingspagina-ervaring. Maak, ontwerp en deel meteen landingspagina&#39;s om uw gebruikers naar online webpagina&#39;s te leiden waar u, op basis van ingebouwde sjablonen, zaken voor het beheren, aanschaffen, abonnementen/abonnementen en het gebruik van lijsten van gewezen personen kunt beheren."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
 
 

@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 0d9d61e8561d21bca00cb5c274884624119eaa53
+exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
+source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 1%
+source-wordcount: '913'
+ht-degree: 0%
 
 ---
 
@@ -19,10 +20,10 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_menu"
->title="Uw eigen inhoud definiëren"
->abstract="Maak een volledig zelfstandig aangepaste sjabloon, zodat uw inhoud in meerdere e-mails opnieuw kan worden gebruikt."
+>title="Contentsjablonen"
+>abstract="Voor een versnelde en verbeterde ontwerpprocedure kunt u zelfstandige e-mailsjablonen maken om aangepaste inhoud eenvoudig te hergebruiken in Adobe Campaign. Deze inhoudssjablonen kunnen geheel nieuw worden ontworpen, op basis van ingebouwde of aangepaste sjablonen, op basis van bestaande inhoud of geïmporteerd in de inhoudssjablooneditor."
 
-Voor een versnelde en verbeterde ontwerpprocedure kunt u zelfstandige sjablonen maken om aangepaste inhoud eenvoudig te hergebruiken in [!DNL Adobe Campaign].
+Voor een versnelde en verbeterde ontwerpprocedure kunt u zelfstandige sjablonen maken om aangepaste inhoud eenvoudig te hergebruiken in [!DNL Adobe Campaign]. Deze inhoudssjablonen kunnen geheel nieuw worden ontworpen, op basis van ingebouwde of aangepaste sjablonen, op basis van bestaande inhoud of geïmporteerd in de inhoudssjablooneditor.
 
 Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan zelfstandige sjablonen werken, zodat marketinggebruikers deze opnieuw kunnen gebruiken en aanpassen in hun eigen e-mailcampagnes.
 
@@ -30,40 +31,23 @@ Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan zelfs
 >
 >Alleen op dit moment **email** inhoudssjablonen worden ondersteund.
 
-## Sjablonen openen en beheren {#access-manage-templates}
+## Sjablonen voor inhoud openen {#access-templates}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="Sjablooninhoud bewerken"
 >abstract="Klik op de knop **Inhoud bewerken** om uw inhoud bij te werken met de e-mailontwerper."
 
-Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** in het linkermenu.
+Blader naar de **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** van de linkerspoorstaaf.
 
 ![](assets/content-template-list.png)
 
-Alle sjablonen die zijn gemaakt - hetzij op basis van een e-mail met de [Opslaan als sjabloon](#save-as-template) van de **[!UICONTROL Content Templates]** menu - worden weergegeven.
-
-<!--You can sort content templates by creation or modification date. You can also choose to display only the items that you created or modified.-->
-
-U kunt filteren op een specifieke [map](../get-started/permissions.md#folders) de vervolgkeuzelijst gebruiken of regels toevoegen met de [querymodel](../query/query-modeler-overview.md).
+In dit dashboard worden alle beschikbare inhoudssjablonen als een lijst weergegeven. U kunt filteren op een specifieke [map](../get-started/permissions.md#folders) de vervolgkeuzelijst gebruiken of regels toevoegen met de [querymodel](../query/query-modeler-overview.md).
 
 ![](assets/content-template-list-filters.png)
 
-Als u sjablooninhoud wilt bewerken, klikt u op het gewenste item in de lijst. U kunt:
+In de lijst kunt u bestaande inhoudssjablonen bewerken, dupliceren of verwijderen. Gebruik de knop in de bovenste sectie om een inhoudssjabloon te maken.
 
-* Bewerk de eigenschappen ervan.
-
-* Klik op de knop **[!UICONTROL Edit content]** om uw inhoud bij te werken met de [E-mailDesigner](get-started-email-designer.md).
-
-![](assets/content-template-edition.png)
-
-Als u een sjabloon wilt verwijderen, selecteert u de bijbehorende optie in het menu **[!UICONTROL More actions]** -menu.
-
-![](assets/content-template-list-delete.png)
-
->[!NOTE]
->
->Wanneer een sjabloon wordt verwijderd, worden leveringen die met deze sjabloon zijn gemaakt, niet beïnvloed.
 
 ## Inhoudssjablonen maken {#create-content-templates}
 
@@ -77,13 +61,9 @@ Als u een sjabloon wilt verwijderen, selecteert u de bijbehorende optie in het m
 >title="Sjabloonselectie voor inhoud"
 >abstract="Sjabloonselectie voor inhoud"
 
-U kunt inhoudssjablonen op twee manieren maken:
+Inhoudssjablonen kunnen worden gemaakt door [opslaan van een bestaande e-mail als sjabloon](#save-as-template)of uit de lijst met e-mailsjablonen via de **Inhoudssjabloon maken** knop, [zoals hieronder beschreven](#create-template-from-scratch).
 
-* Een geheel nieuw inhoudssjabloon maken met de linkerrails **[!UICONTROL Content templates]** -menu. [Meer informatie](#create-template-from-scratch)
-
-* Sla uw e-mailinhoud op als sjabloon wanneer u een e-mailbericht ontwerpt. [Meer informatie](#save-as-template)
-
-Nadat u de sjabloon hebt opgeslagen, kunt u deze sjabloon nu gebruiken wanneer u een bestand maakt dat op basis van een blanco formulier of een vorige e-mail is gemaakt. [email](../email/create-email.md) binnen [!DNL Adobe Campaign]. [Meer informatie](use-email-templates.md)
+Nadat u de sjabloon hebt opgeslagen, kunt u deze sjabloon nu gebruiken bij het samenstellen van [email](../email/create-email.md) binnen [!DNL Adobe Campaign]. [Meer informatie](use-email-templates.md)
 
 >[!NOTE]
 >
@@ -91,32 +71,28 @@ Nadat u de sjabloon hebt opgeslagen, kunt u deze sjabloon nu gebruiken wanneer u
 >
 >* En als sjablonen worden gebruikt in een e-mailbericht, hebben wijzigingen die u aanbrengt in uw e-mailinhoud geen invloed op de eerder gebruikte inhoudssjabloon.
 
-### Een geheel nieuwe sjabloon maken {#create-template-from-scratch}
+### Een nieuwe inhoudssjabloon maken {#create-template-from-scratch}
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_properties"
 >title="Sjablooneigenschappen definiëren"
->abstract="Wanneer u een geheel nieuwe sjabloon maakt, definieert u de eigenschappen die u wilt ophalen eenvoudig wanneer dat nodig is."
+>abstract="De sjablooneigenschappen voor e-mailinhoud die u wilt ophalen, kunt u eenvoudig definiëren wanneer dat nodig is."
 
-Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken.
+Ga als volgt te werk om een nieuwe inhoudssjabloon te maken van het dashboard voor inhoudssjablonen:
 
-1. Open de lijst met inhoudssjablonen via **[!UICONTROL Content Management]** > **[!UICONTROL Content templates]** links.
+1. Bladeren naar de lijst met inhoudssjablonen in het menu **[!UICONTROL Content Management]** > **[!UICONTROL Content templates]** linker spoor.
 
 1. Selecteer **[!UICONTROL Create template]**.
 
    ![](assets/content-template-create.png)
 
-1. Vul de sjabloondetails in. U kunt de map selecteren waarin u de sjabloon wilt opslaan. Standaard worden inhoudssjablonen opgeslagen in een speciale map in de Adobe Campaign-hiërarchie: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. [Leer hoe u mappen maakt](../get-started/permissions.md#folders)
+1. Voer het sjabloonlabel en de eigenschappen in. U kunt de map selecteren waarin u de sjabloon wilt opslaan. Standaard worden inhoudssjablonen opgeslagen in een speciale map in de Adobe Campaign-hiërarchie: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Meer informatie over mappen in [deze pagina](../get-started/permissions.md#folders)
 
    ![](assets/content-template-details.png)
 
-   >[!NOTE]
-   >
-   >Momenteel alleen de **E-mail** kanaal en **HTML** type worden ondersteund.
-
 1. Klikken **[!UICONTROL Create]** en kies uit de verschillende opties hoe u de sjabloon wilt ontwerpen:
 
-   * [Ontwerp uw e-mail helemaal zelf](create-email-content.md) via de interface van E-mailontwerper.
+   * [Ontwerp uw inhoud helemaal zelf](create-email-content.md) via de interface van E-mailontwerper.
 
    * [Code of copy-paste onbewerkte HTML](code-content.md) rechtstreeks in de e-mailontwerper.
 
@@ -126,7 +102,7 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
    ![](assets/email_designer-templates.png)
 
-1. De [E-mailDesigner](get-started-email-designer.md) worden weergegeven. Bewerk de inhoud naar wens, net als voor alle e-mailberichten, afhankelijk van de optie die u hebt geselecteerd.
+1. In het dialoogvenster E-mailontwerper wordt weergegeven. Bewerk de inhoud naar wens, net als voor alle e-mailberichten, afhankelijk van de optie die u hebt geselecteerd. Meer informatie over het gebruik van de e-mailontwerper in [deze sectie](get-started-email-designer.md).
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
@@ -136,9 +112,7 @@ Voer de onderstaande stappen uit om een volledig nieuwe inhoudssjabloon te maken
 
    ![](assets/content-template-save-back.png)
 
-De sjabloon wordt opgeslagen in de standaardmap van de Adobe Campaign-hiërarchie (**[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**). [Meer informatie over mappen](../get-started/permissions.md#folders)
-
-Het wordt ook weergegeven in het dialoogvenster **[!UICONTROL Content templates]** lijst. [Meer informatie](#access-manage-templates)
+De sjabloon is beschikbaar in het dialoogvenster **[!UICONTROL Content templates]** lijst. [Meer informatie](#access-templates)
 
 U kunt deze sjabloon nu gebruiken om een nieuwe inhoud samen te stellen: deze is beschikbaar in het dialoogvenster **[!UICONTROL Saved templates]** tabblad van e-mailontwerper. [Meer informatie](use-email-templates.md)
 
@@ -158,13 +132,12 @@ Voer de onderstaande stappen uit om e-mailinhoud als sjabloon op te slaan:
 
    ![](assets/email_designer-template-name.png)
 
-De sjabloon wordt opgeslagen in de standaardmap van de Adobe Campaign-hiërarchie (**[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**). [Meer informatie over mappen](../get-started/permissions.md#folders)
-
-Het wordt ook weergegeven in het dialoogvenster **[!UICONTROL Content templates]** lijst. Het wordt een standalone inhoudsmalplaatje dat kan worden betreden, worden uitgegeven en worden geschrapt zoals om het even welk ander punt op die lijst. [Meer informatie](#access-manage-templates)
+De sjabloon wordt opgeslagen en weergegeven in het dialoogvenster **[!UICONTROL Content templates]** lijst. Het wordt een standalone inhoudsmalplaatje dat kan worden betreden, worden uitgegeven en worden geschrapt zoals om het even welk ander punt op die lijst. [Meer informatie](#access-manage-templates)
 
 U kunt deze sjabloon nu gebruiken om een nieuwe inhoud samen te stellen: deze is beschikbaar in het dialoogvenster **[!UICONTROL Saved templates]** tabblad van e-mailontwerper. [Meer informatie](use-email-templates.md)
 
 ![](assets/email_designer-saved-template.png)
+
 
 >[!NOTE]
 >
@@ -187,4 +160,43 @@ You can test the rendering of any email content template, whether created from s
 -->
 
 
+## Een inhoudssjabloon wijzigen {#modify-delete}
+
+Voer de volgende stappen uit om een bestaande inhoudssjabloon bij te werken:
+
+1. Klik in de lijst met inhoudssjablonen op het label van de sjabloon die u wilt wijzigen om deze te bewerken.
+
+1. Klik op de knop **[!UICONTROL Edit content]** om uw inhoud bij te werken met de [E-mailDesigner](get-started-email-designer.md).
+
+![](assets/content-template-edition.png)
+
+>[!NOTE]
+>
+>Wijzigingen die zijn aangebracht in inhoudssjablonen, worden niet doorgegeven aan e-mails met deze inhoudssjabloon.
+
+## Een inhoudssjabloon verwijderen {#content-delete}
+
+U kunt een inhoudssjabloon op twee manieren verwijderen:
+
+* in de lijst met inhoudssjablonen klikt u op de knop voor ovaal en selecteert u **Verwijderen**
+
+  ![Een inhoudssjabloon verwijderen uit het dashboard](assets/content-template-list-delete.png)
+
+* in de inhoudssjabloon zelf klikt u op de knop **Meer** dan selecteert u **Verwijderen**
+
+
+>[!NOTE]
+>
+>Het verwijderen van een inhoudssjabloon heeft geen invloed op leveringen die zijn gemaakt met deze sjabloon.
+
+
+## Een inhoudssjabloon dupliceren {#content-duplicate}
+
+U kunt een inhoudssjabloon op twee manieren dupliceren:
+
+* in de lijst met inhoudssjablonen klikt u op de knop voor ovaal en selecteert u **Dupliceren**
+
+* in de inhoudssjabloon zelf klikt u op de knop **Meer** dan selecteert u **Dupliceren**
+
+In beide gevallen bevestigt u de duplicatie om de nieuwe inhoudssjabloon te maken. Het label van de nieuwe inhoudssjabloon is **Kopie van`<label of the initial campaign`**. Blader naar de sjablooninstellingen om dit label bij te werken.
 
