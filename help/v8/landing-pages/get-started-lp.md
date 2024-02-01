@@ -3,14 +3,22 @@ audience: end-user
 title: Aan de slag met bestemmingspagina's
 description: Meer informatie over het landen van pagina's in het campagneweb
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: cfd648013a8ae16be30603f982d122d09781cd51
+source-git-commit: 05fff2623f1ddac7c2d39794e6c6c480bbd9486c
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 2%
+source-wordcount: '195'
+ht-degree: 3%
 
 ---
 
 # Aan de slag met bestemmingspagina&#39;s {#get-sarted-lp}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Landingspagina&#39;s"
+>abstract="Ontdek de nieuwe landingspagina-ervaring. Onmiddellijk landingspagina&#39;s maken, ontwerpen en delen om uw gebruikers naar online webpagina&#39;s te leiden waar u het aanschaffen van profielgegevens kunt beheren en de opt-in-/opt-out-stromen snel en naadloos.
+."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
+
 
 Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt verwezen nadat hij via een e-mail, website, advertentie of een andere digitale locatie heeft geklikt.
 
