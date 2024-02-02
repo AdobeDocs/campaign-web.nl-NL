@@ -1,22 +1,22 @@
 ---
 audience: end-user
-user-guide-title: Adobe Campaign Web
-user-guide-description: Productdocumentatie voor Adobe Campaign Web.
+user-guide-title: Adobe Campaign Web User Interface
+user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interface.
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
-breadcrumb-title: Campagne Web
+breadcrumb-title: Campagne Web User Interface
 hide: true
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Adobe Campaign Web-documentatie {#v8}
 
-+ [Adobe Campaign Web-documentatie](campaign-web-home.md)
++ [Adobe Campaign Web User Interface-documentatie](campaign-web-home.md)
 + [Nieuwe functies](rn/whats-new.md)
 + [Documentatie-updates](rn/documentation-updates.md)
 + Aan de slag met Adobe Campaign {#start}
