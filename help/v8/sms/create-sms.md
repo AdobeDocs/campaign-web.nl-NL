@@ -4,9 +4,9 @@ title: Een sms-levering maken
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '474'
 ht-degree: 4%
 
 ---
@@ -71,6 +71,10 @@ Ga als volgt te werk om een nieuwe, zelfstandige SMS-levering te maken:
    Vanuit dit scherm kunt u ook [simuleren, inhoud](../preview-test/preview-test.md) en [aanbiedingen instellen](../msg/offers.md).
 
 1. Als u de levering wilt plannen op een bepaalde datum en tijd, schakelt u de optie **[!UICONTROL Enable scheduling]** -optie. Nadat u de levering in werking stelt, zal het bericht automatisch op de nauwkeurige datum en de tijd worden verzonden die u voor de ontvanger hebt bepaald. Meer informatie over de planning van de levering in [deze sectie](../msg/gs-messages.md#gs-schedule).
+
+   >[!NOTE]
+   >
+   >Wanneer een levering in de context van een werkschema wordt verzonden, moet u gebruiken **Planner** activiteit. Meer informatie in [deze pagina](../workflows/activities/scheduler.md).
 
 1. Klikken **[!UICONTROL Settings]** voor toegang tot geavanceerde opties met betrekking tot uw leveringsmalplaatje. [Meer informatie](../advanced-settings/delivery-settings.md)
 

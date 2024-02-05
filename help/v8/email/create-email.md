@@ -4,9 +4,9 @@ title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de gebruikersinterface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1312'
 ht-degree: 1%
 
 ---
@@ -144,11 +144,9 @@ Volg onderstaande stappen om uw e-mailinhoud te maken. In dit geval gebruikt u e
 
 ## Het verzenden plannen {#schedule}
 
-Volg onderstaande stappen om het verzenden van de e-mail te plannen.
+Wanneer een levering in de context van een werkschema wordt verzonden, moet u gebruiken **Planner** activiteit. Meer informatie in [deze pagina](../workflows/activities/scheduler.md). Onderstaande stappen zijn alleen van toepassing op zelfstandige leveringen.
 
-Aanvullende instructies voor het plannen van de verzending van de levering worden nader toegelicht in [deze sectie](../msg/gs-messages.md#gs-schedule).
-
-1. Bladeren naar de **[!UICONTROL Schedule]** sectie.
+1. Bladeren naar de **[!UICONTROL Schedule]** van de leveringseigenschappen.
 
 1. Gebruik de **[!UICONTROL Enable scheduling]** schakelen om het te activeren.
 
@@ -156,7 +154,9 @@ Aanvullende instructies voor het plannen van de verzending van de levering worde
 
    ![](assets/schedule.png)
 
-Nadat u de levering hebt verzonden, begint de daadwerkelijke verzending op de door u gedefinieerde contactdatum.
+Zodra u de levering verzendt, begint de daadwerkelijke verzendende op de contactdatum u hebt bepaald.
+
+Meer informatie over de planning van de levering in [deze sectie](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
 ## E-mail voorvertonen en testen {#preview-test}
 

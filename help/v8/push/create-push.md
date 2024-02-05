@@ -4,10 +4,10 @@ title: Een pushmelding maken
 description: Leer hoe u een pushmelding maakt met Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 2%
+source-wordcount: '676'
+ht-degree: 1%
 
 ---
 
@@ -89,10 +89,21 @@ Vanuit dit scherm kunt u ook [simuleren, inhoud](../preview-test/preview-test.md
 
 ## Plaats de verzending van de levering {#schedule-push}
 
-Als u de levering wilt plannen op een bepaalde datum en tijd, schakelt u de optie **[!UICONTROL Enable scheduling]** -optie. Nadat u de levering in werking stelt, zal het bericht automatisch op de nauwkeurige datum en de tijd worden verzonden die u voor de ontvanger hebt bepaald. Meer informatie over de planning van de levering in [deze sectie](../msg/gs-messages.md#gs-schedule)
+Wanneer een levering in de context van een werkschema wordt verzonden, moet u gebruiken **Planner** activiteit. Meer informatie in [deze pagina](../workflows/activities/scheduler.md). Onderstaande stappen zijn alleen van toepassing op zelfstandige leveringen.
+
+Voer de volgende stappen uit om een zelfstandige pushlevering naar een bepaalde datum en tijd te plannen:
+
+1. Bladeren naar de **[!UICONTROL Schedule]** van de leveringseigenschappen.
+
+1. Gebruik de **[!UICONTROL Enable scheduling]** schakelen om het te activeren.
+
+1. Stel de gewenste datum en tijd in voor het verzenden.
+
+Nadat u de levering in werking stelt, wordt het bericht automatisch verzonden op de nauwkeurige datum en de tijd die u voor de ontvanger hebt bepaald.
 
 ![](assets/push_create_3.png)
 
+Meer informatie over de planning van de levering in [deze sectie](../msg/gs-messages.md#gs-schedule)
 
 ## Geavanceerde instellingen voor levering {#adv-push}
 
