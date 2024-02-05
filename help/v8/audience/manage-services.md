@@ -4,9 +4,9 @@ title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: d003de806a188b1b5c20a55ee1e308d5af1a19ea
+source-git-commit: daac6191623b9297378f3e36664cd0fa90e459aa
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '899'
 ht-degree: 1%
 
 ---
@@ -70,11 +70,11 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 
 1. Standaard worden services opgeslagen in de **[!UICONTROL Services and Subscriptions]** map. U kunt dit wijzigen door naar de gewenste locatie te bladeren. [Leer hoe u met mappen werkt](../get-started/permissions.md#folders)
 
-1. Abonnementen zijn standaard onbeperkt. U kunt de **[!UICONTROL Unlimited validity period]** optie om een geldigheidstermijn voor de dienst te bepalen.
+1. Abonnementen zijn standaard onbeperkt.
 
-   In het onderstaande voorbeeld na 20 dagen:
-   * Geen ontvangers kunnen zich meer op deze service abonneren.
-   * Alle abonnees op deze service zullen na 20 dagen automatisch hun abonnement opzeggen. [Meer informatie](#automatic-unsubscription)
+   U kunt de **[!UICONTROL Unlimited validity period]** optie om een geldigheidstermijn voor de dienst te bepalen. Na afloop van de geldigheidsperiode:
+   * Geen ontvangers kunnen zich meer abonneren op deze service
+   * Alle abonnees op deze service worden automatisch afgemeld
 
    ![](assets/service-create-validity-period.png)
 
