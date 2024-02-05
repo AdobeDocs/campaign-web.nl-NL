@@ -3,9 +3,9 @@ title: Verbinding maken met de Adobe Campaign-webinterface
 description: Leer hoe u verbinding maakt met de gebruikersinterface van Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ U bent nu verbonden met Campagne. Leer hoe u de gebruikersinterface kunt gebruik
 
 Blader naar de bovenste balk van de interface:
 
-* feedback over webinterface voor campagne delen
+* delen terugkoppelt over de gebruikersinterface van het Web van de Campagne
 * schakelen tussen uw organisaties
 * schakelen tussen uw Adobe Experience Cloud-oplossingen en -toepassingen
 * zoek naar hulp op [Adobe Experience League](https://experienceleague.adobe.com/docs/){target="_blank"}

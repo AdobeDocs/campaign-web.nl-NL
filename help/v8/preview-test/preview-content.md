@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Voorvertoning van leveringsinhoud
-description: Leer hoe u een voorvertoning van uw inhoud kunt weergeven via de webinterface voor campagnes
+description: Leer hoe u uw leveringsinhoud met de gebruikersinterface van het Web van de Campagne voorproef
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '356'
 ht-degree: 2%
 
 ---
@@ -30,21 +30,18 @@ Volg onderstaande stappen om een voorvertoning van de inhoud van uw levering wee
 
    * **[!UICONTROL Add subscriber(s)]** voor het voorvertonen van pushberichten
 
-1. U kunt testprofielen en -profielen combineren om een voorbeeld van uw e-mail- of sms-bericht te bekijken.
+1. U kunt profielen en testprofielen combineren om een voorbeeld van uw e-mail- of sms-bericht te bekijken.
 
    * De **[!UICONTROL Test profiles]** op het tabblad worden alle adressen weergegeven die aanvullende en fictieve ontvangers in de database zijn.
-
      ![](assets/simulate-select-profiles.png)
 
-     >[!NOTE]
-     >
-     >U kunt testprofielen maken op basis van de **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menu. [Meer informatie](../audience/test-profiles.md#create-test-profiles)
+     U kunt testprofielen maken op basis van de **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menu. [Meer informatie](../audience/test-profiles.md#create-test-profiles)
 
-   * De **[!UICONTROL Profiles]** worden alle ontvangers weergegeven die in het tabblad **[!UICONTROL Profiles and Targets]** uit de [!DNL Campaign] console. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
 
-     >[!NOTE]
-     >
-     >U kunt profielen ook weergeven en beheren op het bijbehorende tabblad in de webinterface van Campagne. [Meer informatie](../audience/about-recipients.md)
+   * De **[!UICONTROL Profiles]** worden alle ontvangers weergegeven die in het tabblad **[!UICONTROL Profiles and Targets]** uit de [!DNL Campaign] clientconsole. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
+
+     U kunt profielen weergeven, maken en beheren via het menu **[!UICONTROL Profiles]** tab. [Meer informatie](../audience/about-recipients.md)
+
 
 1. Wanneer u door het testprofiel of de profiellijsten bladert, kunt u filters gebruiken om uw zoekopdracht te verfijnen.
 

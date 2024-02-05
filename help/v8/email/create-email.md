@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: Uw eerste e-mail verzenden
-description: Meer informatie over het verzenden van uw eerste e-mail via de webinterface voor campagnes
+description: Leer hoe u uw eerste e-mail verzendt met de gebruikersinterface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 9c72d73b5279a01492ea3ccd295e513e91f0c050
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1297'
 ht-degree: 1%
 
 ---

@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 3bd4382d55f35427448c2d60ad5897146907c48f
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1597'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ De interface bevat een contextafhankelijke Help. Klik, indien beschikbaar, op de
 
 ![](assets/do-not-localize/context-help.png){width="40%" align="left"}
 
-Wordt momenteel uitgebracht als een bètaversie in de nieuwe interface van het campagneweb, de **AI-assistent voor kennis** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
+Momenteel vrijgegeven als versie van Bèta binnen het nieuwe de gebruikersinterface van het Web van de Campagne, **AI-assistent voor kennis** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
 
 Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze AI-Medewerker van de Kennis is uw ultieme metgezel, die ongeëvenaarde efficiëntie en nauwkeurigheid biedt in elke interactie.
 

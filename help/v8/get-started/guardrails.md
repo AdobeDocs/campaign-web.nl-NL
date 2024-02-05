@@ -1,56 +1,56 @@
 ---
-title: Instructies en beperkingen in de gebruikersinterface van het campagneweb
-description: Instructies en beperkingen in de gebruikersinterface van het campagneweb
+title: Hulplijnen en beperkingen in de gebruikersinterface van het web voor campagnes
+description: Hulplijnen en beperkingen in de gebruikersinterface van het web voor campagnes
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
 
 # Afvoerkanalen en beperkingen {#guardrails-limitations}
 
-Wanneer u in de interface van het campagneweb werkt met componenten die zijn gemaakt of gewijzigd in de clientconsole van Campagne, zijn de onderstaande instructies en beperkingen van toepassing.
+Wanneer het werken in het gebruikersinterface van het Web van de Campagne met componenten die in de cliëntconsole van de Campagne worden gecreeerd of worden gewijzigd, zijn de hieronder vermelde gidsen en beperkingen van toepassing.
 
 ## Workflows {#wf-guardrails-limitations}
 
 ### Activiteiten
 
-Workflowactiviteiten die nog niet worden ondersteund in de webinterface, zijn alleen-lezen en worden weergegeven als incompatibele activiteiten. U kunt de workflow nog steeds uitvoeren, berichten verzenden, de logbestanden controleren, enz. De activiteiten van het werkschema die zowel in WebUI als de cliëntconsole beschikbaar zijn zijn editable.
+De activiteiten van het werkschema die nog niet in het gebruikersinterface van het Web van de Campagne worden gesteund zijn read-only en getoond als onverenigbare activiteiten. U kunt de workflow nog steeds uitvoeren, berichten verzenden, de logbestanden controleren, enz. De activiteiten van het werkschema die zowel in het gebruikersinterface van het Web van de Campagne als de de cliëntconsole van de Campagne beschikbaar zijn zijn editable.
 
-| Console | Webinterface |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-Workflowactiviteitinstellingen die nog niet worden ondersteund in de webinterface, worden niet weergegeven. Wanneer de werkstroom echter wordt uitgevoerd, zijn deze instellingen van toepassing.
+De de activiteitenmontages van het werkschema die nog niet in het gebruikersinterface van het Web worden gesteund worden niet getoond. Wanneer de werkstroom echter wordt uitgevoerd, zijn deze instellingen van toepassing.
 
-| Console | Webinterface |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-In de console, **Verrijking** deze activiteit kan zowel verzoening als verrijking tot stand brengen . In het Web UI, zijn de aanpassingsmogelijkheden nog niet beschikbaar. Als u, in de console hebt bepaald, verzoeningsmontages in **Verrijking** activiteit, wordt deze weergegeven als een niet-compatibele alleen-lezen activiteit in de webinterface.
+In de console, **Verrijking** deze activiteit kan zowel verzoening als verrijking tot stand brengen . In het gebruikersinterface van het Web van de Campagne, zijn de verzoeningsmogelijkheden nog niet beschikbaar. Als u, in de cliëntconsole hebt bepaald, verzoeningsmontages in **Verrijking** activiteit, zal het als niet compatibele read-only activiteit in het gebruikersinterface van het Web van de Campagne worden getoond.
 
-| Console | Webinterface |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
 ### Canvas
 
-Wanneer u een nieuwe workflow maakt in de webinterface, ondersteunt het canvas slechts één ingangspunt. Nochtans, als u een werkstroom in de console met veelvoudige ingangspunten creeerde, kunt u het in Web UI openen en uitgeven.
+Wanneer het creëren van een nieuw werkschema in het gebruikersinterface van het Web van de Campagne, steunt het canvas slechts één ingangspunt. Nochtans, als u een werkstroom in de console met veelvoudige ingangspunten creeerde, kunt u het in het gebruikersinterface van het Web van de Campagne openen en uitgeven.
 
-| Console | Webinterface |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-Lussen zijn nog niet beschikbaar in de webinterface. Als u een werkstroom met een lijn gebruikend de console creeerde, kunt u tot het niet van Web UI toegang hebben. Er wordt een foutbericht weergegeven.
+Lussen zijn nog niet beschikbaar in de gebruikersinterface van het Web van de Campagne. Als u een werkstroom met inbegrip van een lijn gebruikend de console creeerde, kunt u tot het van het Web van de Campagne geen gebruikersinterface toegang hebben. Er wordt een foutbericht weergegeven.
 
-| Console | Webinterface |
+| Console | Web |
 | --- | --- |
 | ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
 
-De positionering van de knooppunten wordt elke keer dat een activiteit wordt toegevoegd of verwijderd, vernieuwd. Als u een werkstroom in de console creeert, wijzig het gebruikend het Web UI en open het in de console opnieuw, kunt u sommige minder belangrijke plaatsen onvolkomenheden opmerken. Dit heeft geen invloed op de processen en taken van de workflow.
+De positionering van de knooppunten wordt elke keer dat een activiteit wordt toegevoegd of verwijderd, vernieuwd. Als u een werkschema in de console creeert, wijzig het gebruikend het gebruikersinterface van het Web van de Campagne en open het in de console opnieuw, kunt u sommige minder belangrijke plaatsende onvolkomenheden opmerken. Dit heeft geen invloed op de processen en taken van de workflow.
 
 | Beginworkflow | Positiewijziging |
 | --- | --- |

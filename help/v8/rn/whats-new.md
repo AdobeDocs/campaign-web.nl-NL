@@ -4,9 +4,9 @@ title: Nieuw in Campagne Web v8
 description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1302'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ We zijn blij om de nieuwe versie van Adobe Campaign Web User Interface te introd
 
 ## Belangrijkste mogelijkheden {#key-features}
 
-Deze nieuwe webinterface voor campagnes is momenteel beschikbaar in **Beperkte beschikbaarheid** met de volgende mogelijkheden:
+Deze nieuwe gebruikersinterface van het Web van de Campagne komt met de volgende mogelijkheden:
 
 **Moderne, vriendelijke en verenigde ervaring**
 
-De nieuwe webinterface van Campagne biedt een nieuwe gebruikerservaring die is afgestemd op alle Adobe Experience Cloud-oplossingen en -toepassingen. Het biedt:
+De nieuwe gebruikersinterface van het Web van de campagne biedt een nieuwe gebruikerservaring, die aan alle oplossingen en apps van Adobe Experience Cloud wordt gericht. Het biedt:
 
 * Toegang tot de nieuwe interface van de Campagne, en uw andere oplossingen van de Adobe met één enkele en gedeelde gebruikerszitting
 * Nieuwe navigatie-ervaring, met alle menu&#39;s en mappen beschikbaar via de linkertrack
@@ -48,14 +48,14 @@ Meer informatie over aanmelden bij Adobe Experience Cloud en verbinding maken me
 
 **Nieuwe krachtige mogelijkheden en naadloze processen**
 
-Adobe Campaign Web UI verstrekt een uitvoerig grafisch milieu dat u machtigt om complexe processen te ontwerpen die u kunnen helpen uw marketing campagnes met gemak beheren. Het komt met:
+De gebruikersinterface van het Web van Adobe Campaign verstrekt een uitvoerig grafisch milieu dat u machtigt om complexe processen te ontwerpen die u kunnen helpen uw marketing campagnes met gemak beheren. Het komt met:
 
 * De nieuwe interface voor workflowcanvas voor het ontwerpen en beheren van uw processen
 * Dynamische inhoud die uw publiek een zeer gerichte en gepersonaliseerde ervaring biedt
 * Native integratie met het publiek van Adobe Experience Platform
 * Sjabloonbeheer voor workflows, leveringen, campagnes en inhoud
 
-Meer informatie over de nieuwe gebruikersinterface vindt u in [deze pagina](../get-started/user-interface.md).
+Meer informatie over de nieuwe webgebruikersinterface vindt u in [deze pagina](../get-started/user-interface.md).
 
 **Nieuwe vereenvoudigde en intuïtieve querymodelfunctie**
 
@@ -74,7 +74,7 @@ Meer informatie in [deze sectie](../query/query-modeler-overview.md).
 
 Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mailberichten, SMS-berichten en pushmeldingen, en de doeltreffendheid ervan meten aan de hand van verschillende speciale rapporten. Door veelvoudige werkschema&#39;s en leveranties toe te voegen specifiek voor de campagne, kunt u gepersonaliseerde ervaringen over diverse kanalen tot stand brengen, ervoor zorgen dat elk aanraakpunt met het voorgenomen publiek resoneert.
 
-Gebruik de nieuwe UI van het Web van de Campagne:
+Gebruik de nieuwe gebruikersinterface van het Web van de Campagne aan:
 
 * E-mail-, SMS- en pushberichten maken, ontwerpen, personaliseren, plannen en verzenden - [Meer informatie](../msg/gs-messages.md)
 * Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper - [Meer informatie](../email/edit-content.md)
@@ -105,7 +105,7 @@ De belangrijkste mogelijkheden die met de Beperkte versie van de Beschikbaarheid
 
 * **Eenvoudig profiel maken en beheren**
 
-  U kunt de nieuwe webinterface gebruiken voor **ontvangers maken en bijwerken** rechtstreeks in de database vanuit het menu Ontvangers. Met een vereenvoudigd formulier voor het bewerken van profielen kunt u de contactgegevens en -kenmerken van de ontvanger invoeren en een bestaande ontvanger bijwerken zonder deze te gebruiken op de clientconsole.
+  U kunt de nieuwe gebruikersinterface van het Web van de Campagne gebruiken aan **ontvangers maken en bijwerken** rechtstreeks in de database vanuit het menu Ontvangers. Met een vereenvoudigd formulier voor het bewerken van profielen kunt u de contactgegevens en -kenmerken van de ontvanger invoeren en een bestaande ontvanger bijwerken zonder deze te gebruiken op de clientconsole.
 
   Meer informatie in [deze sectie](../audience/about-recipients.md).
 
@@ -132,7 +132,7 @@ De belangrijkste mogelijkheden die met de Beperkte versie van de Beschikbaarheid
 
 * **Vooraf gedefinieerde filters**
 
-  Introductie van vooraf gedefinieerd filterbeheer. Campagne-webinterface biedt u nu een gebruiksvriendelijke interface zonder problemen **vooraf gedefinieerde filters beheren en aanpassen** om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik.
+  Introductie van vooraf gedefinieerd filterbeheer. De gebruikersinterface van het Web van de campagne biedt u een gebruikersvriendelijke interface aan moeiteloos **vooraf gedefinieerde filters beheren en aanpassen** om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik.
 
   Meer informatie in [deze sectie](../get-started/predefined-filters.md).
 
@@ -145,21 +145,21 @@ De belangrijkste mogelijkheden die met de Beperkte versie van de Beschikbaarheid
 
 * **SMS met voorstellen**
 
-  Met de nieuwe webinterface kunt u nu **aanbiedingen met SMS integreren** naast E-mail. Bereid uw publiek op hun mobiele apparaten, leverend bevorderingen, en geschikte berichten. Verhoog uw marketinginspanningen door gebruik te maken van de kracht van geïntegreerde aanbiedingen via SMS op ons geavanceerde webplatform.
+  De nieuwe gebruikersinterface van het Web van de Campagne laat u toe aan **aanbiedingen met SMS integreren** naast E-mail. Bereid uw publiek op hun mobiele apparaten, leverend bevorderingen, en geschikte berichten. Verhoog uw marketinginspanningen door gebruik te maken van de kracht van geïntegreerde aanbiedingen via SMS op ons geavanceerde webplatform.
 
   Meer informatie in [deze sectie](../msg/offers.md).
 
-## Overgang naar interface van het Web van de Campagne
+## Overgang naar de gebruikersinterface van het Web van de Campagne
 
 Als gebruiker van de Campagne, kunt u tot de cliëntconsole nog toegang hebben om de middelen en de componenten van de Campagne te bouwen en te beheren. Gegevens en instellingen worden gesynchroniseerd van een omgeving naar een andere. Meer informatie in [deze sectie](../get-started/get-started.md#about-campaign-client-consoleac-client).
 
-Bovendien zijn al uw gegevens en montages reeds beschikbaar in de cliëntconsole zichtbaar in het Web UI van de Campagne, van de Ontdekkingsreiziger linkernavigatie. Meer informatie over de weergave Explorer in [deze sectie](../get-started/user-interface.md#explorer-user-interface-explorer).
+Bovendien zijn al uw gegevens en montages reeds beschikbaar in de cliëntconsole zichtbaar in het gebruikersinterface van het Web van de Campagne, van de Ontdekkingsreiziger linkernavigatie. Meer informatie over de weergave Explorer in [deze sectie](../get-started/user-interface.md#explorer-user-interface-explorer).
 
-Met de versie van het Web UI van de Campagne, wijst het gebruikersinterface op de toestemmingen van de gebruiker. Meer informatie over machtigingen in [deze pagina](../get-started/permissions.md)
+Met het gebruikersinterface van het Web van de Campagne, wijst het gebruikersinterface op de toestemmingen van de gebruiker. Meer informatie over machtigingen in [deze pagina](../get-started/permissions.md)
 
 ## Terminologie-updates {#terminology-updates}
 
-Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoemd om zich aan de recentste terminologienormen te richten. Deze veranderingen zijn slechts op het Web UI van de Campagne van toepassing en niet weerspiegeld in de cliëntconsole. Deze worden hieronder samengevat.
+Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoemd om zich aan de recentste terminologienormen te richten. Deze veranderingen zijn slechts op het gebruikersinterface van het Web van de Campagne van toepassing en niet weerspiegeld in de cliëntconsole. Deze worden hieronder samengevat.
 
 * Proefdrukken zijn nu **E-mailberichten testen**: als u een bewijs wilt verzenden, gebruikt u de **Testen** in de gebruikersinterface voor e-maillevering. Het doel van de proefdrukken wordt nu **Testprofielen**. [Meer informatie](../preview-test/test-deliveries.md).
 * Zaadadressen worden nu gebruikt als **Testprofielen**: verzend de test-e-mail naar zaadadressen, die extra ontvangers in het gegevensbestand zijn. [Meer informatie](../preview-test/test-deliveries.md).

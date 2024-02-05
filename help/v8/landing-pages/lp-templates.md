@@ -3,7 +3,7 @@ audience: end-user
 title: Werken met sjablonen voor het plaatsen van pagina-inhoud
 description: Leer hoe u landende pagina-inhoud opslaat als ontwerpsjabloon en deze opnieuw gebruikt in Campagne Web
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 7%
@@ -56,4 +56,4 @@ De volgende keer dat u een openingspagina maakt, kunt u deze sjabloon gebruiken 
 
 1. Bewerk de inhoud naar wens met de ontwerper van de bestemmingspagina.
 
-<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web UI-->
+<!--Primary page templates and subpage templates are managed separately, meaning that you cannot use a primary page template to create a subpage, and vice versa. TBC in Web user interface-->

@@ -3,9 +3,9 @@ title: Werken met vooraf gedefinieerde filters
 description: Leer hoe u vooraf gedefinieerde filters maakt en beheert in Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card4"
 >title="Vooraf gedefinieerd filterbeheer"
->abstract="Campagne Web biedt u nu een gebruikersvriendelijke interface om vooraf gedefinieerde filters moeiteloos te beheren en aan te passen aan uw specifieke behoeften. Maak één keer en sla dit op voor toekomstig gebruik."
+>abstract="De gebruikersinterface van het Web van de campagne biedt een gebruikersvriendelijke interface aan moeiteloos beheren en vooraf bepaalde filters aanpassen om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik."
 
 
 <!--TO REMOVE BELOW-->
@@ -30,7 +30,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_predefined-filters-dashboard"
 >title="Vooraf gedefinieerde filters"
->abstract="Campagne Web biedt u nu een gebruikersvriendelijke interface om vooraf gedefinieerde filters moeiteloos te beheren en aan te passen aan uw specifieke behoeften. Maak één keer en sla dit op voor toekomstig gebruik."
+>abstract="De gebruikersinterface van het Web van de campagne biedt u een gebruikersvriendelijke interface aan moeiteloos beheer en aanpassingen vooraf bepaalde filters om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik."
 
 Vooraf gedefinieerde filters zijn aangepaste filters die worden gemaakt en opgeslagen om in de toekomst beschikbaar te zijn. Zij kunnen als kortere weg tijdens om het even welke het filtreren verrichtingen met de vraagmodeller, bijvoorbeeld worden gebruikt wanneer het filtreren van een lijst van gegevens, of het creëren van het publiek van een levering.
 

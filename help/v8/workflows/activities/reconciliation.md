@@ -3,9 +3,10 @@ audience: end-user
 title: De activiteit van de afstemmingsworkflow gebruiken
 description: Leer hoe u de workflowactiviteit Verzoening gebruikt
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 523a43bef4f179740a96039ac2fc5f4f858aa1dc
+exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '829'
 ht-degree: 11%
 
 ---
@@ -124,4 +125,4 @@ Het wordt gebouwd met de volgende activiteiten:
 
 ## Compatibiliteit {#reconciliation-compat}
 
-De **Verzoening** activiteit bestaat niet in de console van de Cliënt. Alles **Verbeteringen** activiteiten die zijn gemaakt in de clientconsole met de verzoeningsopties ingeschakeld, worden weergegeven als **Verzoening** activiteiten in de UI van het Web van de Campagne.
+De **Verzoening** activiteit bestaat niet in de console van de Cliënt. Alles **Verbeteringen** activiteiten die zijn gemaakt in de clientconsole met de verzoeningsopties ingeschakeld, worden weergegeven als **Verzoening** activiteiten in de gebruikersinterface van het Web van de Campagne.

@@ -1,12 +1,12 @@
 ---
 audience: end-user
 title: De e-mailinhoud bewerken
-description: Leer hoe u de e-mailinhoud kunt bewerken in de gebruikersinterface van het campagneweb
+description: Leer hoe u de e-mailinhoud bewerkt in de gebruikersinterface van het Campagne Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---

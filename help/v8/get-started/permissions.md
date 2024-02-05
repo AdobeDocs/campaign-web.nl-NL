@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Machtigingsbeheer in het campagneweb
-description: Meer informatie over machtigingen in Campagne web v8
+title: Machtigingsbeheer in de gebruikersinterface van het Web voor campagne
+description: Meer informatie over machtigingen in de gebruikersinterface van Campagne Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 3b90fa26ff015b3a74044782a1cf5d979657c853
+source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
