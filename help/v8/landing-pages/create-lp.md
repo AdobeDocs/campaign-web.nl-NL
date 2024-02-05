@@ -2,9 +2,9 @@
 title: Een landingspagina maken
 description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 2a02015d9d7a7de67f0bcffd328d37080c0f50c4
+source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '946'
 ht-degree: 1%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Landingspagina&#39;s maken en beheren"
->abstract="Met Adobe Campaign kunt u bestemmingspagina&#39;s maken en ontwerpen, zodat uw gebruikers naar onlineformulieren kunnen gaan waar zij uw communicatie kunnen in- of uitschakelen of zich kunnen abonneren op een specifieke service zoals een nieuwsbrief."
+>abstract="Met Adobe Campaign kunt u landingspagina&#39;s maken, ontwerpen en delen en uw gebruikers naar online webpagina&#39;s sturen waar u op basis van ingebouwde sjablonen zaken kunt beheren, aanschaffen, abonnementen/abonnementen en het gebruik van lijsten van gewezen personen."
 
-Als u uw klanten wilt doorverwijzen naar een gedefinieerde webpagina die u wilt weergeven wanneer ze op een specifieke koppeling klikken, maakt u een bestemmingspagina in [!DNL Adobe Campaign], ontwerpt de inhoud, test en publiceert deze.
+Met Adobe Campaign kunt u landingspagina&#39;s maken, ontwerpen en delen en uw gebruikers naar online webpagina&#39;s sturen waar u op basis van ingebouwde sjablonen zaken kunt beheren, aanschaffen, abonnementen/abonnementen en het gebruik van lijsten van gewezen personen.
 
 ## Openingspagina&#39;s openen {#access-landing-pages}
 
