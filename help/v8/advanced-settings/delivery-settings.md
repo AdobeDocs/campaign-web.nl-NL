@@ -4,9 +4,9 @@ title: Afleveringsinstellingen
 description: Meer informatie over de leveringsinstellingen in Campagneweb
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 96aec85933a47c1289549ba0696874a5f82e7fd5
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2201'
 ht-degree: 4%
 
 ---
@@ -125,9 +125,11 @@ In de **[!UICONTROL Exclusion]** in het veld kunt u selecteren om ontvangers uit
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_delivery"
 >title="Leveringsinstellingen voor de levering"
->abstract="De parameters van de levering zijn technische montages die op uw levering van toepassing zijn. U kunt BCC voor de levering activeren, en de levering en routinewijzen veranderen. Deze opties zijn beperkt tot deskundige gebruikers."
+>abstract="De parameters van de levering zijn technische montages die op uw levering van toepassing zijn. U kunt de bezorgings- en routinemodi wijzigen, e-mail-BCC activeren, verzenden met golven en ook de indeling van de verzonden e-mailberichten kiezen. Deze opties zijn beperkt tot deskundige gebruikers."
 
 **[!UICONTROL Delivery]** parameters zijn technische instellingen die van toepassing zijn op de levering.
+
+![](assets/delivery-settings-delivery.png)
 
 De geïntegreerde e-mail **[!UICONTROL Routing]** de externe rekening wordt standaard verschaft. Het bevat de technische parameters waarmee de applicatie e-mailberichten kan verzenden.
 

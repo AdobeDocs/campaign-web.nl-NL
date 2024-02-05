@@ -3,7 +3,7 @@ audience: end-user
 title: Verzenden met gebruik van golven
 description: Meer informatie over de leveringsinstellingen in Campagneweb
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 1d3e2ccbf4db5eb23531351572a4400754982e2d
+source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 1%
@@ -34,7 +34,11 @@ Als u de lading in evenwicht wilt brengen, kunt u leveringen in verscheidene par
 
 1. Om golven te vormen, kunt u of:
 
-   * **[!UICONTROL Schedule multiple waves of the same size]**. Als u bijvoorbeeld **[!UICONTROL 30%]** op het overeenkomstige gebied, zal elke golf 30% van de berichten vertegenwoordigen inbegrepen in de levering, behalve laatste, die 10% van de berichten zal vertegenwoordigen.
+   * **[!UICONTROL Schedule multiple waves of the same size]**.
+
+     Als u bijvoorbeeld **[!UICONTROL 30%]** op het overeenkomstige gebied, zal elke golf 30% van de berichten vertegenwoordigen inbegrepen in de levering, behalve laatste, die 10% van de berichten zal vertegenwoordigen.
+
+     ![](assets/waves-same-size.png)
 
      In de **[!UICONTROL Interval]** in, geeft u de vertraging op tussen het begin van twee opeenvolgende golven. Als u bijvoorbeeld **[!UICONTROL 2d]** De eerste golf begint onmiddellijk, de tweede golf begint over twee dagen, de derde golf over vier dagen, enzovoort.
 
@@ -44,7 +48,9 @@ Als u de lading in evenwicht wilt brengen, kunt u leveringen in verscheidene par
 
      In het volgende voorbeeld vertegenwoordigt de eerste golf 25% van het totale aantal berichten inbegrepen in de levering en zal onmiddellijk beginnen. De volgende twee golven voltooien de levering en zijn geplaatst om met intervallen van zes uur te beginnen.
 
-     een specifieke regel voor typologische controle; **[!UICONTROL Wave scheduling check]**, zorgt ervoor dat de laatste golf vóór de grens van de leveringsgeldigheid wordt gepland. De typologieën van de campagne en hun regels worden gevormd in **[!UICONTROL Typology]** tabblad van de leveringsinstellingen. Meer informatie over de besturingsregels in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html)
+     ![](assets/waves-calendar.png)
+
+     een specifieke regel voor typologische controle; **[!UICONTROL Wave scheduling check]**, zorgt ervoor dat de laatste golf vóór de grens van de leveringsgeldigheid wordt gepland. De typologieën van de campagne en hun regels worden gevormd in **[!UICONTROL Typology]** tabblad van de leveringsinstellingen. Meer informatie over de besturingsregels in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
 
      >[!IMPORTANT]
      >
@@ -66,6 +72,8 @@ De twee onderstaande voorbeelden zijn de meest gebruikte voorbeelden voor het ge
 
   Gebruik hiervoor de opdracht **[!UICONTROL Schedule waves according to a calendar]** -optie. Stel bijvoorbeeld de eerste golf in op 10%, de tweede op 15% enzovoort.
 
+  ![](assets/waves-ramp-up.png)
+
 * **Campagnes die een callcenter impliceren**
 
   Wanneer het leiden van een campagne van de telefoonloyaliteit, heeft uw organisatie een beperkte capaciteit om het aantal vraag te verwerken om abonnees te contacteren.
@@ -73,3 +81,5 @@ De twee onderstaande voorbeelden zijn de meest gebruikte voorbeelden voor het ge
   Gebruikend golven, kunt u het aantal berichten tot 20 per dag beperken, die de dagelijkse verwerkingscapaciteit van een vraagcentrum is.
 
   Selecteer de optie **[!UICONTROL Schedule multiple waves of the same size]** -optie. Enter **[!UICONTROL 20]** als de grootte van de golf en **[!UICONTROL 1d]** in de **[!UICONTROL Period]** veld.
+
+  ![](assets/waves-call-center.png)
