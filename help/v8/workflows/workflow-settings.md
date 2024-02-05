@@ -4,7 +4,7 @@ title: Workflowinstellingen configureren
 description: Leer hoe u workflowinstellingen configureert met Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 1611278f759fb29d014b918e5d1e0f792a4b05a0
+source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
 workflow-type: tm+mt
 source-wordcount: '896'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Mogelijke waarden zijn:
    * **Tijdzone van de database** om de tijdzone van de gegevensbestandserver te gebruiken
    * Een specifieke tijdzone
 * Wanneer een workflow mislukt, worden de operatoren die tot de groep met operatoren behoren, geselecteerd in het dialoogvenster **[!UICONTROL Supervisor(s)]** veld wordt per e-mail op de hoogte gesteld.
-* *U kunt ook een **[!UICONTROL Description]** van uw workflow.
+* U kunt ook een **[!UICONTROL Description]** van uw workflow.
 
 Wanneer de workflow [gekoppeld aan een campagne](create-workflow.md), wordt deze weergegeven in het dialoogvenster **[!UICONTROL Linked campaign]** veld. U kunt de bijbehorende campagne vanuit dat veld openen.
 
