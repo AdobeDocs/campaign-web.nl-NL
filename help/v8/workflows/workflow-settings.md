@@ -4,9 +4,9 @@ title: Workflowinstellingen configureren
 description: Leer hoe u workflowinstellingen configureert met Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '857'
 ht-degree: 1%
 
 ---
@@ -29,23 +29,24 @@ Om dit te doen, klik **[!UICONTROL Settings]** in de actiebalk boven het werkstr
 >title="Workfloweigenschappen"
 >abstract="Deze sectie biedt algemene workfloweigenschappen die ook toegankelijk zijn wanneer u de workflow maakt. U kunt de sjabloon kiezen die u wilt gebruiken om de workflow te maken en een label opgeven. Vouw de sectie Aanvullende opties uit om specifieke instellingen te configureren, zoals de workflow waarin de map of tijdzone wordt opgeslagen."
 
-De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk zijn wanneer u de workflow maakt.
+De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk zijn wanneer u de workflow maakt. Deze eigenschappen zijn:
 
-* **[!UICONTROL Label]**: Het label van de workflow die in de lijst wordt weergegeven.
-* **[!UICONTROL Name]**: De interne naam van de workflow.
-* **[!UICONTROL Folder]**: De map waarin de workflow moet worden opgeslagen.
-* **[!UICONTROL Linked campaign]**: Dit veld wordt weergegeven als de workflow in een campagne is gemaakt. Hiermee kunt u de bijbehorende campagne openen.
-* **[!UICONTROL Timezone]**: Definieer een specifieke tijdzone die standaard moet worden gebruikt in alle activiteiten van de workflow. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campagneoperator.
-Andere mogelijke waarden zijn:
+* De **[!UICONTROL Label]** van de workflow die in de lijst wordt weergegeven.
+* De interne **[!UICONTROL Name]** van de workflow.
+* De **[!UICONTROL Folder]** waar de workflow moet worden opgeslagen.
+* De standaardwaarde **[!UICONTROL Timezone]** te gebruiken in alle activiteiten van de workflow. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campagneoperator.
+Mogelijke waarden zijn:
    * **Tijdzone van server** de tijdzone van de Adobe Campaign-toepassingsserver gebruiken
    * **Tijdzone van exploitant** om de tijdzone te gebruiken van de Adobe Campaign-operator die de workflow uitvoert, zoals gedefinieerd in het profiel van de operator, in de clientconsole
    * **Tijdzone van de database** om de tijdzone van de gegevensbestandserver te gebruiken
    * Een specifieke tijdzone
+* Wanneer een workflow mislukt, worden de operatoren die tot de groep met operatoren behoren, geselecteerd in het dialoogvenster **[!UICONTROL Supervisor(s)]** veld wordt per e-mail op de hoogte gesteld.
+* *U kunt ook een **[!UICONTROL Description]** van uw workflow.
 
-* **[!UICONTROL Supervisor(s)]**: Wanneer een workflow mislukt, worden de operatoren die tot de groep met operatoren behoren die in dit veld is geselecteerd, via e-mail op de hoogte gebracht.
-* **[!UICONTROL Description]**: Gebruik dit veld om een beschrijving van de workflow te geven.
+Wanneer de workflow [gekoppeld aan een campagne](create-workflow.md), wordt deze weergegeven in het dialoogvenster **[!UICONTROL Linked campaign]** veld. U kunt de bijbehorende campagne vanuit dat veld openen.
 
-## Segmenteringsinstellingen
+
+## Segmenteringsinstellingen  {#segmentation-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_segmentation"
@@ -56,9 +57,9 @@ Andere mogelijke waarden zijn:
 
 * **[!UICONTROL Keep the result of interim populations between two executions]**: Standaard blijven alleen de werktabellen van de laatste uitvoering van de workflow behouden. De werklijsten van vorige uitvoeringen worden gezuiverd door een technische werkschema, die op een dagelijkse basis loopt.
 
-  Als deze optie is ingeschakeld, worden werktabellen ook bewaard nadat de workflow is uitgevoerd. U kunt het voor testdoeleinden gebruiken en moet daarom alleen worden gebruikt in ontwikkelings- of testomgevingen. Deze mag nooit in een productiewerkstroom worden gecontroleerd.
+  Als deze optie is ingeschakeld, worden werktabellen ook bewaard nadat de workflow is uitgevoerd. U kunt het voor testdoeleinden gebruiken en daarom moet het worden gebruikt **alleen** op ontwikkelings- of staging-omgevingen. Deze mag nooit in een productiewerkstroom worden gecontroleerd.
 
-## Instellingen voor uitvoering
+## Instellingen voor uitvoering  {#exec-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_execution"
@@ -73,16 +74,16 @@ Andere mogelijke waarden zijn:
 
 * **[!UICONTROL Default affinity]**: Als uw installatie meerdere workflowservers bevat, gebruikt u dit veld om de computer te kiezen waarop de workflow wordt uitgevoerd. Als de waarde die in dit veld wordt gedefinieerd, op geen enkele server bestaat, blijft de workflow in behandeling.
 
-* **[!UICONTROL Save SQL queries in log]**: hiermee kunt u de SQL-query&#39;s uit de workflow opslaan in de logbestanden. Deze functionaliteit is gereserveerd voor geavanceerde gebruikers. Het is van toepassing op werkstromen die gericht activiteiten zoals bevatten **[!UICONTROL Build audience]**. Als deze optie is ingeschakeld, worden de SQL-query&#39;s die tijdens de uitvoering van de workflow naar de database worden verzonden, weergegeven in de logbestanden van de workflow, zodat u ze kunt analyseren om query&#39;s te optimaliseren of problemen op te sporen.
+* **[!UICONTROL Save SQL queries in log]**: Schakel deze optie in om de SQL-query&#39;s uit de workflow op te slaan in de logbestanden. Deze functionaliteit is gereserveerd voor geavanceerde gebruikers. Het is van toepassing op werkstromen die gericht activiteiten zoals bevatten **[!UICONTROL Build audience]**. Als deze optie is ingeschakeld, worden de SQL-query&#39;s die tijdens de uitvoering van de workflow naar de database worden verzonden, weergegeven in de logbestanden van de workflow, zodat u ze kunt analyseren om query&#39;s te optimaliseren of problemen op te sporen.
 
-## Instellingen voor foutbeheer
+## Instellingen voor foutbeheer  {#error-settings}
 
 >[!CONTEXTUALHELP]
 >id="acw_workflow_settings_error"
 >title="Instellingen voor foutbeheer"
->abstract="In deze sectie kunt u beheren hoe de workflow moet werken wanneer een fout optreedt tijdens de uitvoering (de uitvoering pauzeren/stoppen of fouten negeren)."
+>abstract="In deze sectie kunt u definiëren hoe fouten tijdens de uitvoering in de workflow moeten worden beheerd. U kunt ervoor kiezen het proces te pauzeren, een bepaald aantal fouten te negeren of de uitvoering van de workflow te stoppen."
 
-* **[!UICONTROL Error management]**: In dit veld kunt u de handelingen definiëren die moeten worden uitgevoerd als een werkstroomtaak fouten bevat. Er zijn twee mogelijke opties:
+* **[!UICONTROL Error management]**: In dit veld kunt u de handelingen definiëren die moeten worden uitgevoerd als een werkstroomtaak fouten bevat. Er zijn drie mogelijke opties:
 
    * **[!UICONTROL Suspend the process]**: De workflow wordt automatisch gepauzeerd en de status verandert in **[!UICONTROL Failed]**. Als het probleem is opgelost, hervat u de workflow met de **[!UICONTROL Resume]** knoppen.
    * **[!UICONTROL Ignore]**: De status van de taak die de fout heeft veroorzaakt, verandert in **[!UICONTROL Failed]**, maar de workflow houdt de **[!UICONTROL Started]** status. <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
