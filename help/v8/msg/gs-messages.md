@@ -4,9 +4,9 @@ title: Ga aan de slag met berichten en leveringen op Adobe Campaign Web
 description: Leer hoe u met leveringen werkt en berichten verzendt met Campagne Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 2849b58b-6b75-4023-9ecc-eb243c37f00e
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: b1aedf944058ca3aa0edd61dab8308ef46d46205
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '149'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,9 @@ Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mails, SMS en p
 
 Deze berichten worden ontworpen en verzonden door leveringen, en kunnen voor elke ontvanger worden gepersonaliseerd. Deze leveringen kunnen in het kader van een marketingcampagne op zichzelf staan of in workflows worden opgenomen. Leer hoe u leveringen maakt en beheert in Adobe Campaign in [deze sectie](gs-deliveries.md).
 
-Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen: e-mail-, sms- en mobiele apps. Blader in de onderstaande secties voor meer informatie over het maken en verzenden van berichten.
+Adobe Campaign v8 wordt geleverd met de volgende leveringskanalen: e-mail, SMS en pushmelding. Andere kanalen zoals In-App overseinen, Directe post, of Sociale Marketing met X (Twitter) worden nog niet gesteund.
+
+Blader in de onderstaande secties voor meer informatie over het maken en verzenden van berichten.
 
 <table style="table-layout:fixed">
     <tr style="border: 0;">
