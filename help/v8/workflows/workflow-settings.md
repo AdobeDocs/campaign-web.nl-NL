@@ -4,9 +4,9 @@ title: Workflowinstellingen configureren
 description: Leer hoe u workflowinstellingen configureert met Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 973ae7191e75f549cebe0eea954e9cfc29fb43c4
+source-git-commit: 34931a776ef9c7b06afb0276576da685bc54726b
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '856'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ Deze instellingen zijn vooraf geconfigureerd in de sjabloon die is geselecteerd 
 
 Om dit te doen, klik **[!UICONTROL Settings]** in de actiebalk boven het werkstroomcanvas beschikbaar.
 
-![](assets/workflow-settings.png)
+![](assets/workflow-settings-button.png){width="70%" align="left"}
 
 ## Workfloweigenschappen {#properties}
 
@@ -29,10 +29,15 @@ Om dit te doen, klik **[!UICONTROL Settings]** in de actiebalk boven het werkstr
 >title="Workfloweigenschappen"
 >abstract="Deze sectie biedt algemene workfloweigenschappen die ook toegankelijk zijn wanneer u de workflow maakt. U kunt de sjabloon kiezen die u wilt gebruiken om de workflow te maken en een label opgeven. Vouw de sectie Aanvullende opties uit om specifieke instellingen te configureren, zoals de workflow waarin de map of tijdzone wordt opgeslagen."
 
-De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk zijn wanneer u de workflow maakt. Deze eigenschappen zijn:
+De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk zijn wanneer u de workflow maakt.
+
+![](assets/workflow-settings.png){width="70%" align="left"}
+
+
+Deze eigenschappen zijn:
 
 * De **[!UICONTROL Label]** van de workflow die in de lijst wordt weergegeven.
-* De interne **[!UICONTROL Name]** van de workflow.
+* De **[!UICONTROL Internal name]** van de workflow.
 * De **[!UICONTROL Folder]** waar de workflow moet worden opgeslagen.
 * De standaardwaarde **[!UICONTROL Timezone]** te gebruiken in alle activiteiten van de workflow. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campagneoperator.
 Mogelijke waarden zijn:
