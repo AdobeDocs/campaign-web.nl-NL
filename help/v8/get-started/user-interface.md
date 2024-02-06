@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
+source-git-commit: 5badcc46be14fb2cd218fd525b0c5eed8788a680
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1613'
 ht-degree: 0%
 
 ---
@@ -357,4 +357,19 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="Standaardbestemmingspagina&#39;s"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription"
+>title="Abonnementsdiensten"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_general"
+>title="Parameters voor abonnementsdiensten"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_outboundtransition"
+>title="Uitgaande overgang van abonnementsdiensten"
 >abstract="TBC"
