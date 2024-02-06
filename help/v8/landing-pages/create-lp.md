@@ -2,9 +2,9 @@
 title: Een landingspagina maken
 description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7d28b76b824d8bac1364e29e83bc07af51c9ac56
+source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Landingspagina&#39;s maken en beheren"
->abstract="Met Adobe Campaign kunt u landingspagina&#39;s maken, ontwerpen en delen en uw gebruikers naar online webpagina&#39;s sturen waar u op basis van ingebouwde sjablonen zaken kunt beheren, aanschaffen, abonnementen/abonnementen en het gebruik van lijsten van gewezen personen."
+>abstract="Met Adobe Campaign kunt u landingspagina&#39;s maken, ontwerpen en delen, zodat uw gebruikers naar online webpagina&#39;s kunnen gaan waar u aanschaf, abonnementen/abonnementen en gebruiksgevallen voor lijsten van gewezen personen kunt beheren op basis van ingebouwde sjablonen."
 
-Met Adobe Campaign kunt u landingspagina&#39;s maken, ontwerpen en delen en uw gebruikers naar online webpagina&#39;s sturen waar u op basis van ingebouwde sjablonen zaken kunt beheren, aanschaffen, abonnementen/abonnementen en het gebruik van lijsten van gewezen personen.
+Met Adobe Campaign kunt u landingspagina&#39;s maken, ontwerpen en delen, zodat uw gebruikers naar online webpagina&#39;s kunnen gaan waar u aanschaf, abonnementen/abonnementen en gebruiksgevallen voor lijsten van gewezen personen kunt beheren op basis van ingebouwde sjablonen.
 
 ## Openingspagina&#39;s openen {#access-landing-pages}
 
@@ -30,9 +30,9 @@ De **[!UICONTROL Landing pages]** Alle gemaakte items worden in de voorraad weer
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
->[!NOTE]
+>[!CAUTION]
 >
->U kunt landingspagina&#39;s niet tonen die van de cliëntconsole in het Web van de Campagne worden gecreeerd. Meer informatie in het dialoogvenster [Documentatie over de campagnecollecommissie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>U kunt landingspagina&#39;s niet tonen of uitgeven die van de cliëntconsole in het Web van de Campagne worden gecreeerd. Meer informatie in het dialoogvenster [Documentatie over de campagnecollecommissie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 

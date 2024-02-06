@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met bestemmingspagina's
 description: Meer informatie over het landen van pagina's in het campagneweb
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: bf4ee4b5f672dc91b7f5a494026c7df934a806f4
+source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '189'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landingspagina&#39;s"
->abstract="Ontdek de nieuwe landingspagina-ervaring. Maak, ontwerp en deel meteen landingspagina&#39;s om uw gebruikers naar online webpagina&#39;s te leiden waar u, op basis van ingebouwde sjablonen, zaken voor het beheren, aanschaffen, abonnementen/abonnementen en het gebruik van lijsten van gewezen personen kunt beheren."
+>abstract="Ontdek de nieuwe landingspagina-ervaring. Maak, ontwerp en deel meteen landingspagina&#39;s om uw gebruikers naar online webpagina&#39;s te leiden waar u aanschafmogelijkheden, abonnementen/abonnementen en gebruiksgevallen voor lijsten van gewezen personen kunt beheren op basis van ingebouwde sjablonen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
 
 
@@ -27,7 +27,7 @@ Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt ve
 * Instellen **opt-in- en opt-out-stromen** snel en naadloos.
 * Abonnementsservices maken waarmee gebruikers **abonneren op een service**. [Meer informatie](../audience/manage-services.md)
 * Geef uw ontvangers de **mogelijkheid om zich af te melden** van het ontvangen van uw mededelingen.
-* Een **bevestigingsbericht** bij deelname of opt-out.
+  <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
