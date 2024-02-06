@@ -4,9 +4,9 @@ title: Verzenden met gebruik van golven
 description: Meer informatie over de leveringsinstellingen in Campagneweb
 feature: Email
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,11 @@ Als u deze optie selecteert, moet u de begindag/tijd voor elke golf bepalen u, e
 
 * In de **[!UICONTROL Size]** Voer een vast getal of een percentage in.
 
-Voeg zoveel golven toe als u nodig hebt.
+Voeg zoveel golven toe als u wilt. U kunt de volgorde naar wens aanpassen.
+
+>[!NOTE]
+>
+>Als u percentages gebruikt, zou het totaal voor alle golven niet 100% moeten overschrijden.
 
 In het onderstaande voorbeeld vertegenwoordigt de eerste golf 25% van het totale aantal berichten dat is opgenomen in de levering en wordt deze onmiddellijk gestart. De volgende twee golven voltooien de levering en zijn geplaatst om met intervallen van zes uur te beginnen.
 
