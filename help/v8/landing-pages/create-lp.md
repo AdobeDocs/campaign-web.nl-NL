@@ -2,9 +2,9 @@
 title: Een landingspagina maken
 description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7635ab284900c8a4cd5ceca5675e57dbedb39f3a
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '974'
 ht-degree: 1%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
 >title="Landingspagina&#39;s maken en beheren"
->abstract="Met Adobe Campaign kunt u landingspagina&#39;s maken, ontwerpen en delen, zodat uw gebruikers naar online webpagina&#39;s kunnen gaan waar u aanschaf, abonnementen/abonnementen en gebruiksgevallen voor lijsten van gewezen personen kunt beheren op basis van ingebouwde sjablonen."
+>abstract="Met Adobe Campaign kunt u landingspagina&#39;s maken, ontwerpen en delen en uw gebruikers naar online webpagina&#39;s sturen waar u aanschafmogelijkheden, abonnementen/abonnementen en gebruiksgevallen voor lijsten van gewezen personen kunt beheren op basis van ingebouwde sjablonen."
 
-Met Adobe Campaign kunt u landingspagina&#39;s maken, ontwerpen en delen, zodat uw gebruikers naar online webpagina&#39;s kunnen gaan waar u aanschaf, abonnementen/abonnementen en gebruiksgevallen voor lijsten van gewezen personen kunt beheren op basis van ingebouwde sjablonen.
+Met Adobe Campaign kunt u bestemmingspagina&#39;s maken, ontwerpen en delen. In de context van marketingcampagnes is een landingspagina een zelfstandige webpagina waarop een bezoeker wordt geleid nadat hij op een koppeling in een e-mail, SMS, push-levering of in een website heeft geklikt. Adobe Campaign wordt geleverd met vier sjablonen die u kunt beheren **verwerving**, **abonnementen**, **afschrijving**, en **lijst van gewezen personen** gebruik.
 
 ## Openingspagina&#39;s openen {#access-landing-pages}
 

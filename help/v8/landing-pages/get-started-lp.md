@@ -3,10 +3,10 @@ audience: end-user
 title: Aan de slag met bestemmingspagina's
 description: Meer informatie over het landen van pagina's in het campagneweb
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 8d4a6e0139ee0199796ddd8c971c35a71b631e55
+source-git-commit: 2a7c7589e7b9d64c7a0f42dc5dc5d5dc01b39a3c
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 3%
+source-wordcount: '223'
+ht-degree: 2%
 
 ---
 
@@ -18,10 +18,11 @@ ht-degree: 3%
 >abstract="Ontdek de nieuwe landingspagina-ervaring. Maak, ontwerp en deel meteen landingspagina&#39;s om uw gebruikers naar online webpagina&#39;s te leiden waar u aanschafmogelijkheden, abonnementen/abonnementen en gebruiksgevallen voor lijsten van gewezen personen kunt beheren op basis van ingebouwde sjablonen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
 
+Met Adobe Campaign kunt u bestemmingspagina&#39;s maken, ontwerpen en delen. In de context van marketingcampagnes is een landingspagina een zelfstandige webpagina waarop een bezoeker wordt geleid nadat hij op een koppeling in een e-mail, SMS of push-service of op een website heeft geklikt.
 
-Een openingspagina is een zelfstandige webpagina waarnaar een gebruiker wordt verwezen nadat hij via een e-mail, website, advertentie of een andere digitale locatie heeft geklikt.
+[!DNL Adobe Campaign] kunt u bestemmingspagina&#39;s maken en ontwerpen om uw gebruikers naar onlineformulieren te leiden waar zij uw communicatie kunnen in- of uitschakelen of zich op een specifieke service zoals een nieuwsbrief abonneren. Adobe Campaign wordt geleverd met vier sjablonen voor het beheer van aanschaf-, abonnements-, abonnements- en gebruiksgevallen voor lijsten van gewezen personen.
 
-[!DNL Adobe Campaign] kunt u bestemmingspagina&#39;s maken en ontwerpen om uw gebruikers naar onlineformulieren te leiden waar zij zich kunnen aanmelden of ervoor kunnen kiezen uw communicatie niet te ontvangen, of u kunt zich abonneren op een specifieke service zoals een nieuwsbrief.
+De belangrijkste mogelijkheden worden hieronder vermeld:
 
 * Hefboomwerking [!DNL Adobe Campaign] mogelijkheden voor inhoudsontwerp om eenvoudig samen te stellen **responsieve openingspagina&#39;s**.
 * Instellen **opt-in- en opt-out-stromen** snel en naadloos.
