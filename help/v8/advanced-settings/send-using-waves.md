@@ -2,11 +2,12 @@
 audience: end-user
 title: Verzenden met gebruik van golven
 description: Meer informatie over de leveringsinstellingen in Campagneweb
+feature: Email
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 6676aa00e3ed7ea54f1ecd9b3e87d317e5208712
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 1%
+source-wordcount: '732'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 1%
 >title="De grootte van elke golf definiëren"
 >abstract="U moet een grootte invoeren voor alle golven die u toevoegt. Voer een numerieke waarde (aantal berichten voor elke golf) of een percentage (0-100%) in."
 
-Als u de lading in evenwicht wilt brengen, kunt u leveringen in verscheidene partijen verdelen. Vorm het aantal partijen en hun verhouding met betrekking tot de volledige levering, evenals het interval tussen twee golven.
+Als u de lading in evenwicht wilt brengen, kunt u de e-mailleveringen in verscheidene partijen verdelen. Vorm het aantal partijen en hun verhouding met betrekking tot de volledige levering, evenals het interval tussen twee golven.
 
 >[!NOTE]
 >
@@ -46,15 +47,11 @@ Volg onderstaande stappen om leveringen te verzenden met gebruik van golven.
 
    >[!CAUTION]
    >
-   >Zorg ervoor dat de laatste golven de leveringstermijn niet overschrijden, die in het dialoogvenster **[!UICONTROL Validity]** tab. Anders kunnen sommige berichten niet worden verzonden. [Meer informatie](delivery-settings.md#validity)
+   >Zorg ervoor dat de laatste golven de leveringstermijn niet overschrijden, zoals gedefinieerd in het dialoogvenster [Geldigheid](delivery-settings.md#validity) , anders worden sommige berichten mogelijk niet verzonden. een specifieke regel voor typologische controle; **[!UICONTROL Wave scheduling check]**, zorgt ervoor dat de laatste golf vóór de grens van de leveringsgeldigheid wordt gepland. Meer informatie over de besturingsregels in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
    >
    >U moet ook genoeg tijd voor pogingen toestaan wanneer het vormen van de laatste golven. [Meer informatie](delivery-settings.md#retries)
 
-1. Om uw te controleren verzendt, ga naar [leveringslogs](../monitor/delivery-logs.md).
-
-   De leveringen die al zijn verzonden in de verwerkte golven (**[!UICONTROL Sent]** status) en de in de resterende golven te verzenden leveringen (**[!UICONTROL Pending]** status).
-
-een specifieke regel voor typologische controle; **[!UICONTROL Wave scheduling check]**, zorgt ervoor dat de laatste golf vóór de grens van de leveringsgeldigheid wordt gepland. De typologieën van de campagne en hun regels worden gevormd in **[!UICONTROL Typology]** tabblad van de leveringsinstellingen. Meer informatie over de besturingsregels in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+1. Om uw te controleren verzendt, ga naar [leveringslogs](../monitor/delivery-logs.md). De leveringen die al zijn verzonden in de verwerkte golven (**[!UICONTROL Sent]** status) en de in de resterende golven te verzenden leveringen (**[!UICONTROL Pending]** status).
 
 ## Meerdere golven van dezelfde grootte plannen {#waves-same-size}
 
@@ -64,7 +61,7 @@ Als u deze optie selecteert, hebben alle golven de zelfde grootte (behalve laats
 
 * Geef de grootte op voor alle golven waarin u de levering wilt splitsen. U kunt een percentage of een numerieke waarde invoeren. Alleen de laatste golf kan in grootte variëren, omdat het resterende aantal berichten moet worden opgenomen.
 
-  Als u bijvoorbeeld **[!UICONTROL 30%]** op het overeenkomstige gebied vertegenwoordigen de eerste drie golven 30 % van alle berichten die in de levering zijn opgenomen , en de vierde 10 % .
+  Als u bijvoorbeeld **[!UICONTROL 30%]** in de **[!UICONTROL Waves size]** in het veld vertegenwoordigen de eerste drie golven 30 % van alle berichten die in de levering zijn opgenomen , en de vierde 10 % .
 
 * In de **[!UICONTROL Interval]** in, geeft u de vertraging op tussen het begin van twee opeenvolgende golven. Als u bijvoorbeeld **[!UICONTROL 2 days]** De eerste golf begint meteen, de tweede golf begint over twee dagen, de derde golf over vier dagen, enzovoort.
 
@@ -80,7 +77,7 @@ Selecteer de optie **[!UICONTROL Schedule multiple waves of the same size]** -op
 
 Als u deze optie selecteert, moet u de begindag/tijd voor elke golf bepalen u, evenals de grootte van elke golf verzendt.
 
-* In de **[!UICONTROL Start]** de vertraging tussen het begin van twee opeenvolgende golven opgeven.
+* In de **[!UICONTROL Start]** in de velden, geeft u de vertraging op tussen het begin van twee opeenvolgende golven.
 
 * In de **[!UICONTROL Size]** Voer een vast getal of een percentage in.
 

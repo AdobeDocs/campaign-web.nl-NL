@@ -2,11 +2,12 @@
 audience: end-user
 title: Afleveringsinstellingen
 description: Meer informatie over de leveringsinstellingen in Campagneweb
+feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 3bfcf3c5a5e054995993d38a073733fef8ea4be9
+source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2291'
 ht-degree: 4%
 
 ---
@@ -133,15 +134,23 @@ In de **[!UICONTROL Exclusion]** in het veld kunt u selecteren om ontvangers uit
 
 De geïntegreerde e-mail **[!UICONTROL Routing]** de externe rekening wordt standaard verschaft. Het bevat de technische parameters waarmee de applicatie e-mailberichten kan verzenden.
 
-U kunt het volgende definiëren **[!UICONTROL Sending]** instellingen:
+U kunt de **[!UICONTROL Sending]** instellingen hieronder.
 
-* **[!UICONTROL Test SMTP delivery]**: Deze optie wordt gebruikt om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
+* **[!UICONTROL Delivery priority]**: Gebruik deze optie om de verzendvolgorde voor uw leveringen te wijzigen door het prioriteitsniveau in te stellen op Normaal, Hoog of Laag.
+
+* **[!UICONTROL Message batch quantity]**: Gebruik deze optie om het aantal berichten te definiëren dat binnen hetzelfde XML-leveringspakket wordt gegroepeerd. Als de parameter op 0 wordt geplaatst, worden de berichten automatisch gegroepeerd. De pakketgrootte wordt gedefinieerd door de berekening `<delivery size>/1024`, met minimaal 8 en maximaal 256 berichten per pakket.
+
+  >[!IMPORTANT]
+  >
+  >Wanneer de levering door bestaande wordt gecreeerd te dupliceren, wordt deze parameter teruggesteld.
+
+* **[!UICONTROL Test SMTP delivery]**: Deze optie wordt gebruikt om het verzenden via SMTP te testen. De levering wordt verwerkt tot verbinding aan de server SMTP, maar wordt niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
 
 * **[!UICONTROL Email BCC]**: Deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door eenvoudig een BCC-e-mailadres toe te voegen aan uw berichtdoel. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/email-settings.html){target="_blank"}.
 
-* **[!UICONTROL Send using multiple waves]**: U kunt het verzonden volume progressief verhogen gebruikend golven. Zo voorkomt u dat uw berichten als spam worden gemarkeerd of dat u het aantal berichten per dag wilt beperken. Met golven kunt u leveringen in verschillende batches verdelen in plaats van tegelijkertijd grote volumes berichten te verzenden. [Meer informatie](send-using-waves.md)
+In de **[!UICONTROL Wave definition]** selecteert u de **[!UICONTROL Send using multiple waves]** optie om het verzonden volume geleidelijk te verhogen gebruikend golven. Zo voorkomt u dat uw berichten als spam worden gemarkeerd of dat u het aantal berichten per dag wilt beperken. Met golven kunt u leveringen in verschillende batches verdelen in plaats van tegelijkertijd grote volumes berichten te verzenden. [Meer informatie](send-using-waves.md)
 
-U kunt ook de indeling van de verzonden e-mailberichten wijzigen:
+U kunt ook de **[!UICONTROL Mail formats]** van de e-mailberichten die worden verzonden zoals hieronder wordt beschreven.
 
 * **[!UICONTROL Use recipient preferences]** (standaardmodus)
 
