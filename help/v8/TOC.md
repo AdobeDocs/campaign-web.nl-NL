@@ -6,10 +6,10 @@ title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campagne Web User Interface
 hide: true
-source-git-commit: 895494c976fbdf727b9c2a7466d83bf1a30eddfc
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '566'
+ht-degree: 9%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
    + [Werken met vooraf gedefinieerde filters](get-started/predefined-filters.md)
    + [Toegang en machtigingen](get-started/permissions.md)
    + [Afvoerkanalen en beperkingen](get-started/guardrails.md)
-   + [Niet-ondersteunde mogelijkheden](get-started/unsupported.md)
+   + [Niet-ondersteunde mogelijkheden](get-started/capability-matrix.md)
    + [Contextafhankelijke Help voor AI](get-started/using-ai.md)
 + Berichten en leveringen {#msg}
    + [Aan de slag met berichten](msg/gs-messages.md)

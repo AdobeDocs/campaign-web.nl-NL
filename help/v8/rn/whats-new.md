@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Nieuw in Campagne Web v8
-description: Ontdek nieuwe functie die wordt geleverd met Campagne Web v8
+title: Nieuw in de Gebruikersinterface van het Web van de Campagne
+description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 4b197f29898fcdad294cd03696a907ca665909b7
+source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1313'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,12 @@ ht-degree: 1%
 >title="Aanvullende informatie"
 >abstract="Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen."
 
-We zijn blij om de nieuwe versie van Adobe Campaign Web User Interface te introduceren. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen. De gebruikersinterface van het Web van de campagne brengt een verbonden canvas met Adobe Experience Platform voor een verenigde ervaring. Deze versie is beschikbaar voor alle gebruikers die beginnen met de release van Campagne versie 8.6.
+We zijn blij dat we de nieuwe versie van **Adobe Campaign Web User Interface**. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen. De gebruikersinterface van het Web van de campagne (UI) brengt een verbonden canvas met Adobe Experience Platform voor een verenigde ervaring.
+
+
+>[!AVAILABILITY]
+>
+>Deze versie is beschikbaar voor alle gebruikers die beginnen met de release van Campagne versie 8.6. Meer informatie over Adobe Campaign-releases in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 
 ## Belangrijkste mogelijkheden {#key-features}
@@ -28,7 +33,7 @@ Deze nieuwe gebruikersinterface van het Web van de Campagne komt met de volgende
 
 **Moderne, vriendelijke en verenigde ervaring**
 
-De nieuwe gebruikersinterface van het Web van de campagne biedt een nieuwe gebruikerservaring, die aan alle oplossingen en apps van Adobe Experience Cloud wordt gericht. Het biedt:
+De nieuwe gebruikersinterface van het Web van de campagne biedt een nieuwe gebruikerservaring, verbonden met alle oplossingen en apps van Adobe Experience Cloud. Het biedt:
 
 * Toegang tot de nieuwe interface van de Campagne, en uw andere oplossingen van de Adobe met één enkele en gedeelde gebruikerszitting
 * Nieuwe navigatie-ervaring, met alle menu&#39;s en mappen beschikbaar via de linkertrack
