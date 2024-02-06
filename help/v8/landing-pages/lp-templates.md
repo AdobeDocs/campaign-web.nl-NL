@@ -2,8 +2,9 @@
 audience: end-user
 title: Werken met sjablonen voor het plaatsen van pagina-inhoud
 description: Leer hoe u landende pagina-inhoud opslaat als ontwerpsjabloon en deze opnieuw gebruikt in Campagne Web
+feature: Landing Pages
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 7%
