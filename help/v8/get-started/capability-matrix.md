@@ -5,9 +5,9 @@ description: Lijst met functies die worden ondersteund in de gebruikersinterface
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: c7ced55fff91a480b58e033cc9a3d03d8f9f4115
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Gebruik de beschikbare koppelingen om te bladeren in de documentatie van Campagn
 * Het Beheer van het Middel van de marketing (MRM), doelstellingen, simulaties, en kostencontrole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
 * Taakbeheer. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
-## Communicatiekanalen{ #channel-capabilities}
+## Communicatiekanalen {#channels-capabilities}
 
 Met de gebruikersinterface van het Web van de Campagne, kunt u e-mail, SMS en dupberichten creëren, ontwerpen en verzenden, en hun effect meten gebruikend diverse specifieke rapporten, zoals gedetailleerd [in deze sectie](../msg/gs-messages.md). De volgende kanalen zijn echter niet beschikbaar in deze versie.
 
