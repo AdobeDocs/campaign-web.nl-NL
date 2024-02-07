@@ -5,16 +5,16 @@ description: Lijst met functies die worden ondersteund in de gebruikersinterface
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 7c48f8670f523a5ed8925ea70306af0fa99a6baa
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1484'
 ht-degree: 0%
 
 ---
 
 # Campagne Web-gebruikersinterface/client-consolematrix {#capabilities-matrix}
 
-De volgende mogelijkheden zijn alleen toegankelijk vanuit de Campagne Client Console. Sommige zullen in een recentere versie van het Web van de Campagne Gebruikersinterface beschikbaar zijn.
+De belangrijkste mogelijkheden van de Campagne zijn beschikbaar in het gebruikersinterface van het Web van de Campagne. Sommige instellingen en functies kunnen echter alleen worden benaderd, gemaakt of beheerd via de Campagne Client Console. Sommige zijn beschikbaar in een latere versie van de gebruikersinterface van het Web van de Campagne.
 
 <!--
 **Homepage**
