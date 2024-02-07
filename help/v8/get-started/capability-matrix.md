@@ -5,9 +5,9 @@ description: Lijst met functies die worden ondersteund in de gebruikersinterface
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3de864b097a3754d3a1bacf4c563ad62b1b46bc0
+source-git-commit: 7fa6d8e7afadbfb74e1d764ba8314eb284ffad65
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1511'
 ht-degree: 0%
 
 ---
@@ -184,8 +184,13 @@ Machtigingen worden in Adobe Admin Console en Adobe Campaign Client Console gede
 
 De mogelijkheden voor bewaking van het campagneraplatform zijn alleen beschikbaar in de clientconsole en het regelpaneel van de campagne. Ze worden niet weergegeven in de gebruikersinterface van Campagne Web.
 
-Blader naar de beschikbare koppelingen naar de [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl){target="_blank"} voor meer informatie.
+Blader naar de beschikbare koppelingen naar de documentatie van de Campagne v8 (clientconsole) en het Configuratiescherm voor meer informatie.
 
 * [Workflowbewaking](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-technical-workflows.html){target="_blank"}
 * [Workflowwarmtekaart](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html){target="_blank"}
+* [Prestatiebewaking](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=nl){target="_blank"}
+* [Leverbaarheidscontrole](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html){target="_blank"}
+
+
+
 
