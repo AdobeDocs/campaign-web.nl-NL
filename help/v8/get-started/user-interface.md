@@ -4,9 +4,9 @@ title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5badcc46be14fb2cd218fd525b0c5eed8788a680
+source-git-commit: f4caa10d14dca0e24efca8f7b8e118ce7c32158a
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,6 @@ REFER TO
 https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebUI+Contextual+Help+%3CALPHA%3E-+Official+list
 -->
 
-
 >[!CONTEXTUALHELP]
 >id="acw_push_permission_for_segment"
 >title="Machtiging vereist"
@@ -154,11 +153,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Machtiging vereist"
 >abstract="Uw beheerder moet u toestemming verlenen alvorens u een segment kunt tot stand brengen."
 
-<!-- Workflows-->
-
-
 <!-- delivery template settings-->
-
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
@@ -174,8 +169,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_campaign_workflow_list"
 >title="Workflowlijst in een campagne"
 >abstract="Workflowlijst in een campagne"
-
-<!-- delivery settings-->
 
 
 <!-- FOR BETA (alignment) -->
@@ -322,6 +315,13 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_directmail_properties_content"
 >title="Eigenschappen voor inhoud voor Direct Mail"
 >abstract="Eigenschappen voor inhoud voor Direct Mail"
+
+<!-- FOR POST-GA -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_change_data_source"
+>title="Gegevensbron wijzigen"
+>abstract="De **Gegevensbron wijzigen** U kunt een andere gegevensbron selecteren voor de werktabel van uw workflow."
 
 
 <!--
