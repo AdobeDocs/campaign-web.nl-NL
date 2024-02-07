@@ -5,9 +5,9 @@ description: Lijst met functies die worden ondersteund in de gebruikersinterface
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: bef5e0c93b32d5138df313dfd6c3051ec9303578
+source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ Leer hoe u levering, inhoud en doelgoedkeuringen beheert in campagnes in het dia
 
 ## Machtigingen  {#permissions-capabilities}
 
-De gebruikers van de campagne kunnen tot het Web van de Campagne slechts tot gebruikersinterface met hun Adobe ID toegang hebben, die op het Systeem van Adobe Identity Management (IMS) wordt gebaseerd.
+De gebruikers van de campagne kunnen tot het Web van de Campagne gebruikersinterface met hun Adobe ID, door het Systeem van Adobe Identity Management (IMS) slechts toegang hebben.
 
 Machtigingen worden in Adobe Admin Console en Adobe Campaign Client Console gedefinieerd als gedetailleerd [in deze sectie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html). Geen actie op toestemmingen is mogelijk van het gebruikersinterface van het Web van Adobe Campaign.
 

@@ -3,9 +3,9 @@ title: Verbinding maken met de Adobe Campaign-webinterface
 description: Leer hoe u verbinding maakt met de gebruikersinterface van Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Experience Cloud is de geïntegreerde familie van digitale marketingtoepassingen
 
 ## Aanmelden bij Adobe Experience Cloud {#sign-in-to-exc}
 
-Typisch, verlenen de beheerders van het Experience Cloud toegang tot toepassingen en de diensten. Voer de stappen in uw e-mailuitnodiging voor het Experience Cloud uit.
+U kunt Single Sign-On (SSO) alleen gebruiken om verbinding te maken met Campaign. Typisch, verlenen de beheerders van het Experience Cloud toegang tot toepassingen en de diensten. Voer de stappen in uw e-mailuitnodiging voor het Experience Cloud uit.
 
 U kunt zich als volgt aanmelden bij Adobe Experience Cloud:
 
