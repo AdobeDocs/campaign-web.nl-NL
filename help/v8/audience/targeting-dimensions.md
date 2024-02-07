@@ -3,9 +3,9 @@ title: Doelafmetingen
 description: Meer informatie over doelgerichte dimensies vindt u op Adobe Campaign Web
 badge: label="Beperkte beschikbaarheid"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: c26e050ef4933833425e21556c07d66ead72c5a3
+source-git-commit: a7c640c39e04443c5925f36ce966e7b5125e9a33
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 >id="acw_orchestration_build_audience_dimension"
 >title="Doeldimensie selecteren"
 >abstract="Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_reconciliation_targeting"
+>title="Doeldimensie"
+>abstract="Selecteer de nieuwe doeldimensie. Met een dimensie kunt u de doelgroep definiëren: ontvangers, abonnees van apps, operators, abonnees, enzovoort. Standaard is de huidige doeldimensie geselecteerd."
 
 De gerichte dimensie, ook bekend als. target mapping, is het type gegevens dat een bewerking verwerkt. Hiermee kunt u de doelgroep definiëren: profielen, begunstigden van contracten, exploitanten, abonnees, enz.
 
