@@ -5,7 +5,7 @@ description: Lijst met functies die worden ondersteund in de gebruikersinterface
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 7c48f8670f523a5ed8925ea70306af0fa99a6baa
+source-git-commit: 9a9a788e476ffc1461aa17a9aea66377a974efa7
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Dientengevolge, in de cliëntconsole van de Campagne, kunt u geen het landen pag
 
 ## Profielen, testprofielen en doelgroepen {#profiles-audiences-capabilities}
 
-U kunt profielen en testprofielen maken, beheren en bijwerken in zowel de clientconsole van de Campagne als de gebruikersinterface van het Web van de Campagne. Alle wijzigingen die in de ene interface worden uitgevoerd, zijn zichtbaar in de andere. Nochtans, kunnen sommige specifieke ontvankelijke montages en de geavanceerde parameters van het nieuwe de gebruikersinterface van het Web van de Campagne ontbreken.  De term &#39;ontvanger&#39; is gewijzigd in &#39;profiel&#39; in de nieuwe webgebruikersinterface.
+U kunt profielen en testprofielen maken, beheren en bijwerken in zowel de clientconsole van de Campagne als de gebruikersinterface van het Web van de Campagne. Alle wijzigingen die in de ene interface worden uitgevoerd, zijn zichtbaar in de andere. Nochtans, kunnen sommige specifieke ontvankelijke montages en de geavanceerde parameters van het nieuwe de gebruikersinterface van het Web van de Campagne ontbreken. De term &#39;ontvanger&#39; is gewijzigd in &#39;profiel&#39; in de nieuwe webgebruikersinterface.
 
 De samenstelling van het publiek is een nieuw vermogen dat met het gebruikersinterface van het Web van de Campagne komt. Als gevolg hiervan kunt u in de Campagne-clientconsole een [publiek dat is gemaakt met Query-modellen](../query/query-modeler-overview.md).
 
@@ -86,10 +86,10 @@ Met deze nieuwe gebruikersinterface kunt u ook Middelen van Adobe Experience Man
 
 De volgende mogelijkheden zijn niet beschikbaar in deze versie van het product. Gebruik de beschikbare koppelingen om te bladeren in de documentatie bij Campagne v8 (clientconsole) en meer informatie te krijgen over deze functies (functies met een `*` worden niet ondersteund in de Campagne-clientconsole).
 
-* AMP voor e-mails.  [Meer informatie in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * Inhoud van openbare middelen - SCOPË TO CONFIRM
 * Aangepaste verpersoonlijkingsblokken maken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Inhoud uit aangepaste formulieren (module Inhoudsbeheer). [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
+* AMP voor e-mails. [Meer informatie in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
 * Inhoud van een URL`*`
 * Een HTML-inhoud opslaan als een sjabloon`*`
 * E-mailfragmenten`*`
@@ -125,7 +125,7 @@ Meer informatie over beschikbare workflowactiviteiten in Adobe Campaign v8 (cons
 
 Met Adobe Campaign Web kunt u aanbiedingen die in de console zijn gemaakt, verzenden met de **[!UICONTROL Interaction]** -module. Het ontwerp van de aanbieding, geschiktheidsregels, en aanbiedingsbeheer zijn slechts beschikbaar in de de cliëntconsole van de Campagne. [Meer informatie](../msg/offers.md)
 
-Leer hoe u een aanbiedingscatalogus beheert in het dialoogvenster  [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+Leer hoe u een aanbiedingscatalogus beheert in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
 ## Integratie met Adobe Experience Cloud-oplossingen {#exc-capabilities}
 
@@ -166,13 +166,13 @@ Blader naar de beschikbare koppelingen om door de [Campagne v8-documentatie (cli
 
 De gebruikersinterface van het Web van de campagne omvat geen goedkeuringsbeheer voor inhoud, leveringen, werkschema&#39;s, campagnes en doelstellingen. Ze zijn alleen beschikbaar in de clientconsole.
 
-Leer hoe u goedkeuringen in workflows beheert in de  [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
+Leer hoe u goedkeuringen in workflows beheert in de [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/define-approvals.html){target="_blank"}.
 
 
 Leer hoe u levering, inhoud en doelgoedkeuringen beheert in campagnes in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html){target="_blank"}.
 
 
-## Machtigingen  {#permissions-capabilities}
+## Machtigingen {#permissions-capabilities}
 
 De gebruikers van de campagne kunnen tot het Web van de Campagne gebruikersinterface met hun Adobe ID, door het Systeem van Adobe Identity Management (IMS) slechts toegang hebben.
 
