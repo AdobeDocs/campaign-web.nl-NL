@@ -4,7 +4,7 @@ title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: f4caa10d14dca0e24efca8f7b8e118ce7c32158a
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
 source-wordcount: '1636'
 ht-degree: 0%
@@ -126,7 +126,6 @@ Momenteel vrijgegeven als versie van Bèta binnen het nieuwe de gebruikersinterf
 Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze AI-Medewerker van de Kennis is uw ultieme metgezel, die ongeëvenaarde efficiëntie en nauwkeurigheid biedt in elke interactie.
 
 Meer informatie in [deze sectie](using-ai.md).
-
 
 
 ## Meer informatie {#learn-more}

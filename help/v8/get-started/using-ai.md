@@ -1,11 +1,11 @@
 ---
 title: Contextafhankelijke Help voor AI gebruiken in Campagne-web
 description: Vragen stellen in de pop-ups van Campagne Web
-badge: label="Alpha"
+badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: 93b2be1309e451d151a44867a3ae22b62e00c8e3
+source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,21 @@ ht-degree: 0%
 
 U krijgt snelle, door AI gegenereerde antwoorden op basis van de productdocumentatie en uw huidige productcontext, met de contextuele Help voor vragen en antwoorden van AI beschikbaar in de productcontextafhankelijke Help-vakken.
 
->[!CAUTION]
->
->Deze mogelijkheid is beschikbaar in de versie van de Alpha en kan zonder voorafgaande kennisgeving worden gewijzigd.
->
->Deze functie is alleen beschikbaar in **Engels**. Andere talen worden niet ondersteund in deze versie. Daarom moet u ervoor zorgen dat [uw voorkeurstaal](connect-to-campaign.md#language-pref) wordt ingesteld op Engels voordat deze mogelijkheid wordt gebruikt.
-
-
 De **Contextuele hulp met Gen AI** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
 
 Dankzij de mogelijkheden van CampagneGen AI transformeert deze component uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu hulp zoekt bij een complexe taak of door uitgebreide documenten navigeert, de door AI aangedreven Contextual Help is de ultieme partner die bij elke interactie een ongeëvenaarde efficiëntie en nauwkeurigheid biedt.
 
 <img src="assets/AI_CH.gif" width="80%"/>
+
+
+>[!AVAILABILITY]
+>
+>Contextafhankelijke Help op basis van AI is beschikbaar in de bètaversie en kan zonder voorafgaande kennisgeving worden gewijzigd.
+>
+>Deze functie is alleen beschikbaar in **Engels**. Andere talen worden niet ondersteund in deze versie. Daarom moet u ervoor zorgen dat [uw voorkeurstaal](connect-to-campaign.md#language-pref) wordt ingesteld op Engels voordat deze mogelijkheid wordt gebruikt.
+>
+>Contextafhankelijke Help voor AI is momenteel niet beschikbaar in Campagne-e-mailDesigner.
+
 
 <!--
 ## Consent {#consent-ai}
@@ -46,6 +49,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 Contextuele Help van Adobe Campaign AI biedt ondersteuning, maar u moet de feiten controleren. Het kan onjuiste informatie, onjuiste of misleidende antwoorden uitvoeren. Controleer de productdocumentatie die in elk Help-vak is gekoppeld.
 
 Kunstmatige intelligentie en modellen voor machinaal leren verbeteren in de loop der tijd om specifieke gebruiksgevallen beter aan te pakken. De komende maanden zal de door AI aangedreven Contextuele Hulp beter blijven worden. We raden u ten zeerste aan de <img src="assets/do-not-localize/thumb.png" width="10%"/> op elk moment dat u een browser leest, kunt u eventuele onjuiste antwoorden markeren voor onze technici.
+
 
 ## Aanbevelingen  {#recommendations-ai}
 
