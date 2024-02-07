@@ -3,20 +3,22 @@ title: Hulplijnen en beperkingen in de gebruikersinterface van het web voor camp
 description: Hulplijnen en beperkingen in de gebruikersinterface van het web voor campagnes
 badge: label="Beta"
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
 
 # Afvoerkanalen en beperkingen {#guardrails-limitations}
 
-Wanneer het werken in het gebruikersinterface van het Web van de Campagne met componenten die in de cliëntconsole van de Campagne worden gecreeerd of worden gewijzigd, zijn de hieronder vermelde gidsen en beperkingen van toepassing.
+Wanneer het werken in het gebruikersinterface van het Web van de Campagne met werkschema&#39;s die in de cliëntconsole van de Campagne worden gecreeerd of worden gewijzigd, zijn de hieronder vermelde gidsen en beperkingen van toepassing.
 
-## Workflows {#wf-guardrails-limitations}
+Houd er rekening mee dat op deze pagina belangrijke overwegingen worden vermeld wanneer u werkt met workflows in de console en de webgebruikersinterface, maar dat deze pagina niet alle mogelijke oncompatibiliteit tussen de twee interfaces omvat.
 
-### Activiteiten
+## Workflowactiviteiten {#wkf-activities}
+
+De activiteiten van het werkschema die nog niet in het Web van de Campagne worden gesteund zijn read-only en getoond als onverenigbare activiteiten. U kunt de workflow nog steeds uitvoeren, berichten verzenden, de logbestanden controleren, enz. De activiteiten van het werkschema die zowel in het Web van de Campagne als de cliëntconsole beschikbaar zijn zijn editable.
 
 De activiteiten van het werkschema die nog niet in het gebruikersinterface van het Web van de Campagne worden gesteund zijn read-only en getoond als onverenigbare activiteiten. U kunt de workflow nog steeds uitvoeren, berichten verzenden, de logbestanden controleren, enz. De activiteiten van het werkschema die zowel in het gebruikersinterface van het Web van de Campagne als de de cliëntconsole van de Campagne beschikbaar zijn zijn editable.
 
@@ -24,19 +26,19 @@ De activiteiten van het werkschema die nog niet in het gebruikersinterface van h
 | --- | --- |
 | ![](assets/limitations-activities-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){width="800px" align="left" zoomable="yes"} |
 
-De de activiteitenmontages van het werkschema die nog niet in het gebruikersinterface van het Web worden gesteund worden niet getoond. Wanneer de werkstroom echter wordt uitgevoerd, zijn deze instellingen van toepassing.
+Wanneer een **Query** of een **Verrijking** De activiteit wordt gevormd met extra gegevens in de console, wordt de verrijkingsgegevens in het Web van de Campagne in aanmerking genomen en overgegaan in de uitgaande overgang, maar het kan niet worden uitgegeven.
 
 | Console | Web |
 | --- | --- |
 | ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
 
-In de console, **Verrijking** deze activiteit kan zowel verzoening als verrijking tot stand brengen . In het gebruikersinterface van het Web van de Campagne, zijn de verzoeningsmogelijkheden nog niet beschikbaar. Als u, in de cliëntconsole hebt bepaald, verzoeningsmontages in **Verrijking** activiteit, zal het als niet compatibele read-only activiteit in het gebruikersinterface van het Web van de Campagne worden getoond.
+In de console, **Verrijking** deze activiteit kan zowel verzoening als verrijking tot stand brengen . Als u, in de cliëntconsole hebt bepaald, verzoeningsmontages in **Verrijking** activiteit, wordt deze weergegeven als een **Verzoening** activiteit in de gebruikersinterface van het Web van de Campagne.
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-options-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-enrichment-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){width="800px" align="left" zoomable="yes"} |
 
-### Canvas
+## Workflowcanvas {#wkf-canvas}
 
 Wanneer het creëren van een nieuw werkschema in het gebruikersinterface van het Web van de Campagne, steunt het canvas slechts één ingangspunt. Nochtans, als u een werkstroom in de console met veelvoudige ingangspunten creeerde, kunt u het in het gebruikersinterface van het Web van de Campagne openen en uitgeven.
 
@@ -44,88 +46,8 @@ Wanneer het creëren van een nieuw werkschema in het gebruikersinterface van het
 | --- | --- |
 | ![](assets/limitations-multiple-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){width="800px" align="left" zoomable="yes"} |
 
-Lussen zijn nog niet beschikbaar in de gebruikersinterface van het Web van de Campagne. Als u een werkstroom met inbegrip van een lijn gebruikend de console creeerde, kunt u tot het van het Web van de Campagne geen gebruikersinterface toegang hebben. Er wordt een foutbericht weergegeven.
-
-| Console | Web |
-| --- | --- |
-| ![](assets/limitations-loops-console.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-loops-web.png){width="800px" align="left" zoomable="yes"} |
-
 De positionering van de knooppunten wordt elke keer dat een activiteit wordt toegevoegd of verwijderd, vernieuwd. Als u een werkschema in de console creeert, wijzig het gebruikend het gebruikersinterface van het Web van de Campagne en open het in de console opnieuw, kunt u sommige minder belangrijke plaatsende onvolkomenheden opmerken. Dit heeft geen invloed op de processen en taken van de workflow.
 
 | Beginworkflow | Positiewijziging |
 | --- | --- |
 | ![](assets/limitations-positioning1.png){width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){width="800px" align="left" zoomable="yes"} |
-
-## Vooraf gedefinieerde filters {#filters-guardrails-limitations}
-
->[!CONTEXTUALHELP]
->id="acw_predefined_filter_read_only"
->title="Dit filter is alleen-lezen"
->abstract="Sommige vooraf gedefinieerde filters zijn niet beschikbaar in de gebruikersinterface van die versie van het product. Deze filters worden gemarkeerd als alleen-lezen. Zelfs als u niet de grafische vertegenwoordiging van de vraag in vraagmodeler kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden in zien **Attributen** van het scherm."
-
-Wanneer het selecteren van het publiek van een levering, of wanneer het bouwen van een publiek in een werkschema, zijn sommige vooraf bepaalde filters niet beschikbaar in het gebruikersinterface, in die versie van het product. Deze filters worden gemarkeerd als alleen-lezen.
-
-Er wordt een specifiek foutbericht weergegeven.
-
-![](assets/filter-unavailable.png){width="70%" align="left"}
-
-Zelfs als u niet de grafische vertegenwoordiging van de vraag in vraagmodeler kunt bekijken, en niet de filter kunt uitgeven, kunt u het nog gebruiken, en de het filtreren voorwaarden in zien **Attributen** van het scherm.
-
-![](assets/rule-edit.png){width="70%" align="left"}
-
-U kunt de SQL-query ook openen om de exacte instellingen te controleren. Om dit te doen, klik **Codeweergave** knop.
-
-![](assets/rule-code-view.png){width="70%" align="left"}
-
-Klik op de knop **Berekenen** om te controleren hoeveel items voldoen aan de criteria van het filter.
-
-![](assets/rule-calculate.png){width="70%" align="left"}
-
-Gebruik de **Resultaten weergeven** om deze items weer te geven.
-
-![](assets/rule-view-results.png){width="70%" align="left"}
-
-Merk op dat als u een filter in de interface van het Web bouwt en het in de console met niet gestaafde attributen wijzigt, de grafische vertegenwoordiging niet meer in de interface van het Web beschikbaar kan zijn. In elk geval kunt u het filter nog steeds gebruiken.
-
-Niet-ondersteunde kenmerken worden hieronder weergegeven.
-
-### Niet-ondersteunde gegevenstypen {#unsupported-data-type}
-
-De volgende gegevenstypes beschikbaar in de cliëntconsole worden niet gesteund wanneer het tonen van een filter of een regel in de interface van het Web:
-
-* datetime
-* tijd
-* timespan
-* double
-* zweven
-
-### Niet-ondersteunde filtermogelijkheden {#unsupported-filtering-capabilities}
-
-Wanneer een filter met complexe uitdrukkingen en functies in de cliëntconsole wordt gebouwd, kan het niet in de interface van het Web worden uitgegeven.
-
-Bovendien worden de volgende operatoren niet ondersteund:
-
-* Numerieke tekst
-   * is opgenomen in
-   * geen in
-
-* Het type String
-   * groter dan
-   * minder dan
-   * groter dan of gelijk aan
-   * kleiner dan of gelijk aan
-   * leuk
-   * niet leuk
-
-* Het type Date
-   * op of na
-   * op of voor
-   * niet gelijk aan
-   * is leeg
-   * is niet leeg
-   * is opgenomen in
-   * niet in
-   * laatste
-
-* 1-N koppelingen
-   * COUNT, SUM, AVG, MIN, MAX

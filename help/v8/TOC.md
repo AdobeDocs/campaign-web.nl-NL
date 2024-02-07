@@ -6,7 +6,7 @@ title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campagne Web User Interface
 hide: true
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 9%
@@ -26,7 +26,6 @@ ht-degree: 9%
    + [Bladeren en lijsten filteren](get-started/list-filters.md)
    + [Werken met vooraf gedefinieerde filters](get-started/predefined-filters.md)
    + [Toegang en machtigingen](get-started/permissions.md)
-   + [Afvoerkanalen en beperkingen](get-started/guardrails.md)
    + [Niet-ondersteunde mogelijkheden](get-started/capability-matrix.md)
    + [Contextafhankelijke Help voor AI](get-started/using-ai.md)
 + Berichten en leveringen {#msg}
@@ -119,6 +118,7 @@ ht-degree: 9%
    + [Uw eerste campagne maken](campaigns/create-campaigns.md)
 + Workflows {#wf}
    + [Aan de slag met workflows](workflows/gs-workflows.md)
+   + [Afvoerkanalen en beperkingen](get-started/guardrails.md)
    + [Workflows openen en beheren](workflows/access-monitor.md)
    + Uw eerste workflow maken en uitvoeren {#create-workflow}
       + [Belangrijkste principes voor het maken van werkstromen](workflows/gs-workflow-creation.md)
