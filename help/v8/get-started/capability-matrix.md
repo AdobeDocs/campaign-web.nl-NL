@@ -5,9 +5,9 @@ description: Lijst met functies die worden ondersteund in de gebruikersinterface
 hide: true
 hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 4d421e4cee7fe98ed94280533e6f51038c071a62
+source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 De belangrijkste mogelijkheden van de Campagne zijn beschikbaar in het gebruikersinterface van het Web van de Campagne. Deze interface was primair ontworpen voor marketers om hun marketingcampagnes te plannen, te lanceren en te meten. Alle mogelijkheden worden vermeld [op deze pagina](../rn/whats-new.md).
 
-De het platformaanpassing van de campagne die op zaken en gegevensbehoeften wordt gebaseerd, en de verbinding aan andere systemen wordt beheerd in de de cliëntconsole van de Campagne. Daarom kunnen sommige instellingen en functies alleen worden geopend, gemaakt of beheerd vanuit de Campagne Client Console. Sommige zijn beschikbaar in een latere versie van de gebruikersinterface van het Web van de Campagne.
+De het platformaanpassing van de campagne die op zaken en gegevensbehoeften wordt gebaseerd, en de verbinding aan andere systemen wordt beheerd in de de cliëntconsole van de Campagne. Daarom kunnen sommige instellingen en functies alleen worden geopend, gemaakt of beheerd vanuit de Campagne Client Console. Sommige zijn beschikbaar in een latere update van de gebruikersinterface van het Web van de Campagne.
 
 <!--
 **Homepage**
@@ -26,7 +26,7 @@ De het platformaanpassing van de campagne die op zaken en gegevensbehoeften word
 
 ## Campaign Management {#campaign-mgt-capabilities}
 
-Met de gebruikersinterface van het Web van de Campagne, kunt u kanaalcampagnes zoals gedetailleerd tot stand brengen [in deze sectie](../campaigns/gs-campaigns.md). In de huidige versie zijn de volgende mogelijkheden alleen beschikbaar in de Campagne-clientconsole. Zij zijn niet toegankelijk in het gebruikersinterface van het Web van de Campagne - maar sommige kunnen van het [Menu Verkenner](user-interface.md#user-interface-explorer).
+Met de gebruikersinterface van het Web van de Campagne, kunt u kanaalcampagnes zoals gedetailleerd tot stand brengen [in deze sectie](../campaigns/gs-campaigns.md). De volgende mogelijkheden zijn alleen beschikbaar in de Campagne-clientconsole. Zij zijn niet toegankelijk in het gebruikersinterface van het Web van de Campagne - maar sommige kunnen van het [Menu Verkenner](user-interface.md#user-interface-explorer).
 
 Gebruik de beschikbare koppelingen om te bladeren in de documentatie van Campagne v8 (clientconsole) en te leren hoe u deze mogelijkheden kunt gebruiken.
 
@@ -39,7 +39,7 @@ Gebruik de beschikbare koppelingen om te bladeren in de documentatie van Campagn
 
 ## Communicatiekanalen {#channels-capabilities}
 
-Met de gebruikersinterface van het Web van de Campagne, kunt u e-mail, SMS en dupberichten creëren, ontwerpen en verzenden, en hun effect meten gebruikend diverse specifieke rapporten, zoals gedetailleerd [in deze sectie](../msg/gs-messages.md). De volgende kanalen zijn echter niet beschikbaar in deze versie.
+Met de gebruikersinterface van het Web van de Campagne, kunt u e-mail, SMS en dupberichten creëren, ontwerpen en verzenden, en hun effect meten gebruikend diverse specifieke rapporten, zoals gedetailleerd [in deze sectie](../msg/gs-messages.md). De volgende kanalen zijn momenteel echter niet beschikbaar.
 
 Gebruik de beschikbare koppelingen om te bladeren in de documentatie bij Campagne v8 (clientconsole) en meer informatie te krijgen over deze kanalen.
 
@@ -71,7 +71,7 @@ Eenmalige import-/exporttaken zoals beschreven in [Campagne v8-documentatie (cli
 
 ## Transactieberichten {#mc-capabilities}
 
-De transactionele overseinenmogelijkheden die met het het productpakket komen van het Centrum van het Bericht zijn niet beschikbaar in deze versie van het nieuwe de gebruikersinterface van het Web van de Campagne.
+De transactionele overseinenmogelijkheden die met het het productpakket komen van het Centrum van het Bericht zijn momenteel niet beschikbaar in het nieuwe gebruikersinterface van het Web van de Campagne.
 
 Bladeren in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} en meer over berichtmogelijkheden in real time, zoals:
 
@@ -86,9 +86,8 @@ Met de nieuwe e-mailontwerper die wordt geleverd met de Adobe Campaign Web-gebru
 
 Met deze nieuwe gebruikersinterface kunt u de synchronisatie van e-mailsjablonen vanuit Adobe Experience Manager beheren en integreren met Adobe Experience Manager as a Cloud Service.
 
-De volgende mogelijkheden zijn niet beschikbaar in deze versie van het product. Gebruik de beschikbare koppelingen om te bladeren in de documentatie bij Campagne v8 (clientconsole) en meer informatie te krijgen over deze functies.
+Merk op dat de volgende mogelijkheden niet voor nu in het gebruikersinterface van het Web van de Campagne beschikbaar zijn. Gebruik de beschikbare koppelingen om te bladeren in de documentatie bij Campagne v8 (clientconsole) en meer informatie te krijgen over deze functies.
 
-* Inhoud van openbare middelen - SCOPË TO CONFIRM
 * Aangepaste verpersoonlijkingsblokken maken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html#create-custom-personalization-blocks){target="_blank"}
 * Inhoud uit aangepaste formulieren (module Inhoudsbeheer). [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/about-content-management.html){target="_blank"}
 * AMP voor e-mails. [Meer informatie in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-interactive-content.html){target="_blank"}
@@ -114,7 +113,7 @@ Gebruik de beschikbare koppelingen om te bladeren in de documentatie bij Campagn
 
 ## Workflows {#wf-capabilities}
 
-De nieuwe gebruikersinterface van het Web van de Campagne brengt een herbedacht werkschemacanvasinterface om uw processen te ontwerpen en te beheren. De belangrijkste werkschemaactiviteiten zijn reeds beschikbaar in hun nieuw ontwerp, sommige zullen in een toekomstige versie komen. Meer informatie over workflowmogelijkheden, waaronder instructies en beperkingen [in deze sectie](../get-started/guardrails.md).
+De nieuwe gebruikersinterface van het Web van de Campagne brengt een herbedacht werkschemacanvasinterface om uw processen te ontwerpen en te beheren. Belangrijke workflowactiviteiten zijn al beschikbaar in hun nieuwe ontwerp, sommige zullen in een toekomstige update worden geplaatst. Meer informatie over workflowmogelijkheden, waaronder instructies en beperkingen [in deze sectie](../get-started/guardrails.md).
 
 Merk op dat de volgende mogelijkheden slechts in de de cliëntconsole van de Campagne beschikbaar zijn:
 
@@ -133,7 +132,7 @@ Leer hoe u een aanbiedingscatalogus beheert in het dialoogvenster [Campagne v8-d
 
 De nieuwe Campagne moderne UI vereenvoudigt het ontwerp en de levering van de marketing campagne, en brengt consistentie, samen met andere oplossingen van de Adobe, met inbegrip van Adobe Experience Platform en Adobe Experience Manager.
 
-De volgende integratie is beschikbaar bij de clientconsole van Adobe Campaign en nog niet beschikbaar in deze versie van de gebruikersinterface van het Web van de Campagne. Gebruik de beschikbare koppelingen om te bladeren in de documentatie bij Campagne v8 (clientconsole) en meer informatie te krijgen over deze integratie:
+De volgende integratie is beschikbaar bij de cliëntconsole van Adobe Campaign, en nog niet beschikbaar in het gebruikersinterface van het Web van de Campagne. Gebruik de beschikbare koppelingen om te bladeren in de documentatie bij Campagne v8 (clientconsole) en meer informatie te krijgen over deze integratie:
 
 * Adobe Analytics-gegevensgebruik en delen via KPI. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html){target="_blank"}
 * Publiek delen met Adobe Experience Cloud (Adobe Audience Manager). [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html){target="_blank"}
