@@ -4,9 +4,9 @@ title: Aan de slag met bestemmingspagina's
 description: Meer informatie over het landen van pagina's in het campagneweb
 feature: Landing Pages
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '249'
 ht-degree: 2%
 
 ---
@@ -16,14 +16,22 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landingspagina&#39;s"
->abstract="Ontdek de nieuwe landingspagina-ervaring. Maak, ontwerp en deel meteen landingspagina&#39;s om uw gebruikers naar online webpagina&#39;s te leiden waar u aanschafmogelijkheden, abonnementen/abonnementen en gebruiksgevallen voor lijsten van gewezen personen kunt beheren op basis van ingebouwde sjablonen."
+>abstract="Ontdek de nieuwe landingspagina-ervaring. Maak, ontwerp en deel meteen landingspagina&#39;s om uw gebruikers naar online webpagina&#39;s te leiden waar u aankopen, abonnementen en abonnementen en gebruiksgevallen voor lijsten van gewezen personen kunt beheren op basis van ingebouwde sjablonen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
 
-Met Adobe Campaign kunt u bestemmingspagina&#39;s maken, ontwerpen en delen. In de context van marketingcampagnes is een landingspagina een zelfstandige webpagina waarop een bezoeker wordt geleid nadat hij op een koppeling in een e-mail, SMS of push-service of op een website heeft geklikt.
+[!DNL Adobe Campaign] kunt u bestemmingspagina&#39;s maken, ontwerpen en delen.
 
-[!DNL Adobe Campaign] kunt u bestemmingspagina&#39;s maken en ontwerpen om uw gebruikers naar onlineformulieren te leiden waar zij uw communicatie kunnen in- of uitschakelen of zich op een specifieke service zoals een nieuwsbrief abonneren. Adobe Campaign wordt geleverd met vier sjablonen voor het beheer van aanschaf-, abonnements-, abonnements- en gebruiksgevallen voor lijsten van gewezen personen.
+In de context van marketingcampagnes is een landingspagina een zelfstandige webpagina waarop een bezoeker wordt geleid nadat hij op een koppeling in een e-mail, SMS, push-levering of op een website heeft geklikt.
 
-De belangrijkste mogelijkheden worden hieronder vermeld:
+Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen waar zij uw communicatie kunnen in- of uitschakelen of zich op een specifieke service zoals een nieuwsbrief abonneren.
+
+>[!CAUTION]
+>
+>Landing de pagina&#39;s die u in het de gebruikersinterface van het Web van de Campagne creeert zijn verschillend van de Webvormen die van de cliëntconsole worden gecreeerd. U kunt webformulieren niet weergeven of bewerken in de gebruikersinterface van Campagne Web.
+>
+>Meer informatie over webformulieren in het dialoogvenster [Documentatie over de campagnecollecommissie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+
+De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder vermeld:
 
 * Hefboomwerking [!DNL Adobe Campaign] mogelijkheden voor inhoudsontwerp om eenvoudig samen te stellen **responsieve openingspagina&#39;s**.
 * Instellen **opt-in- en opt-out-stromen** snel en naadloos.

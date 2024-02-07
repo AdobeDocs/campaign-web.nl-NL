@@ -4,9 +4,9 @@ title: Voorvertoning en test voor levering
 description: Leer hoe u leveringen kunt voorvertonen en testen
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '197'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,11 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
->title="Berichten voorvertonen en testen"
->abstract="Nadat de inhoud van uw bericht is gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen."
+>title="Inhoud voorvertonen en testen"
+>abstract="Nadat de inhoud is gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen en te testen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/preview-content.html" text="Een voorvertoning weergeven van de inhoud van het bericht"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Testleveringen verzenden"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testopeningspagina&#39;s"
 
 Nadat u de inhoud van de levering hebt gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen en te testen voordat u het bericht verzendt.
 
@@ -29,6 +30,7 @@ Om dit te doen, [!DNL Adobe Campaign] biedt de volgende mogelijkheden:
 * [Een voorvertoning weergeven van de inhoud en personalisatie van het bericht](preview-content.md)
 * [Testleveringen verzenden](test-deliveries.md) (proefdrukken) voor specifieke ontvangers of abonnees voor tests en validatie
 * [De rendering van e-mail controleren](email-rendering.md) in populaire desktops, mobiele en webgebaseerde clients
+* [De openingspagina&#39;s voorvertonen en testen](../landing-pages/create-lp.md#test-landing-page)
 
 Deze handelingen kunnen worden uitgevoerd met de opdracht **[!UICONTROL Simulate content]** -knop, die toegankelijk is via het scherm Inhoud bewerken van uw levering - of via de [E-mailDesigner](../email/get-started-email-designer.md).
 
