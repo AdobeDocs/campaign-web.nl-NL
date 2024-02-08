@@ -4,9 +4,9 @@ title: Nieuw in de Gebruikersinterface van het Web van de Campagne
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1292'
 ht-degree: 1%
 
 ---
@@ -168,7 +168,7 @@ Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoe
 
 De onderstaande beperkingen gelden voor deze versie:
 
-* Bewerkbare objecten zijn: Ontvangers, Leveringen, Campagnes, Workflows, Soorten publiek, Abonnementsservices, Vooraf gedefinieerde filters en Sjablonen. De andere zijn alleen-lezen. Gebruik filters en maak regels om door deze allemaal te bladeren.
+* Bewerkbare objecten zijn: Ontvangers, Leveringen, Campagnes, Workflows, Soorten publiek, Abonnementsservices, Vooraf gedefinieerde filters, Sjablonen en Landingpagina&#39;s. De andere zijn alleen-lezen. Gebruik filters en maak regels om door deze allemaal te bladeren.
 * Het Beleid en de geavanceerde configuratiemogelijkheden zijn niet beschikbaar in het gebruikersinterface van het Web van de Campagne.
 * De rapporteringsmetriek (zoals opent en het volgen gegevens) wordt bijgewerkt elk uur.
 * KPI&#39;s voor het leveringsdashboard worden elke 5 minuten bijgewerkt. - maar de voorbereiding van de levering is in real-time.
