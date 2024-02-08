@@ -6,8 +6,8 @@ exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Beperkte beschikbaarheid"
 source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '192'
+ht-degree: 1%
 
 ---
 
