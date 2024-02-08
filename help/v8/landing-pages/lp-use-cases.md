@@ -8,8 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: landen, landingspagina, hoofdletter gebruiken
-exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 40c1ac49e9c297e0431331df612cc4a1ae804723
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 0%
@@ -170,8 +169,6 @@ U kunt een **[!UICONTROL Denylist]** landingspagina waarmee gebruikers zich kunn
 Als u gebruikers de mogelijkheid wilt geven zich af te melden voor alle leveringen, moet u een **[!UICONTROL Denylist]** openingspagina.
 
 Wanneer een gebruiker op de koppeling naar de bestemmingspagina klikt, wordt de **[!UICONTROL No longer contact (by any channel)]** in het profiel wordt automatisch geselecteerd.
-
-![](assets/blocklisting_allchannels.png)
 
 een **[!UICONTROL Opt-out]** selectievakje en kies voor bijwerken **[!UICONTROL Channel (email)]**: het profiel dat het selectievakje Weigeren inschakelt op de bestemmingspagina wordt uitgeschakeld voor alle communicatie.
 
