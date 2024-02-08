@@ -3,7 +3,7 @@ title: Een landingspagina maken
 description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 feature: Landing Pages
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: 014d157e74de9f16c30c3fc364d5a89a449a2808
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 1%
@@ -78,8 +78,8 @@ U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een
 
 1. Selecteer een sjabloon:
    * **[!UICONTROL Acquisition]**: Dit is de standaardsjabloon voor het landen van pagina&#39;s, waarmee u profielgegevens kunt vastleggen en bijwerken.
-   * **[!UICONTROL Subscription]**: Gebruik deze sjabloon om gebruikers in staat te stellen zich op een specifieke sjabloon te abonneren [service](manage-services.md).
-   * **[!UICONTROL Unsubscription]**: Deze sjabloon kan worden gebruikt in een levering die naar de abonnees van een service wordt verzonden, zodat zij zich van deze service kunnen afmelden [service](manage-services.md).
+   * **[!UICONTROL Subscription]**: Gebruik deze sjabloon om gebruikers in staat te stellen zich op een specifieke sjabloon te abonneren [service](../audience/manage-services.md).
+   * **[!UICONTROL Unsubscription]**: Deze sjabloon kan worden gebruikt in een levering die naar de abonnees van een service wordt verzonden, zodat zij zich van deze service kunnen afmelden [service](../audience/manage-services.md).
    * **[!UICONTROL Denylist]**: Deze sjabloon moet worden gebruikt wanneer een profiel niet langer via Campagne kan worden benaderd. Meer informatie over beheer van lijst van gewezen personen
 
    ![](assets/lp-templates.png)
