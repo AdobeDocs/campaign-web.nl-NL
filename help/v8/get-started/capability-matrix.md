@@ -2,21 +2,19 @@
 audience: end-user
 title: Campagne Web-gebruikersinterface/client-consolematrix
 description: Lijst met functies die worden ondersteund in de gebruikersinterface van Campagne Web
-hide: true
-hidefromtoc: true
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 3c011a8f0958b7d0875fc18ec59309ef4b1f4103
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1499'
 ht-degree: 0%
 
 ---
 
-# Campagne Web-gebruikersinterface/client-consolematrix {#capabilities-matrix}
+# Campagne Web- en Campagne-clientconsole {#capabilities-matrix}
 
 De belangrijkste mogelijkheden van de Campagne zijn beschikbaar in het gebruikersinterface van het Web van de Campagne. Deze interface was primair ontworpen voor marketers om hun marketingcampagnes te plannen, te lanceren en te meten. Alle mogelijkheden worden vermeld [op deze pagina](../rn/whats-new.md).
 
-De het platformaanpassing van de campagne die op zaken en gegevensbehoeften wordt gebaseerd, en de verbinding aan andere systemen wordt beheerd in de de cliëntconsole van de Campagne. Daarom kunnen sommige instellingen en functies alleen worden geopend, gemaakt of beheerd vanuit de Campagne Client Console. Sommige zijn beschikbaar in een latere update van de gebruikersinterface van het Web van de Campagne.
+De het platformaanpassing van de campagne die op zaken en gegevensbehoeften wordt gebaseerd, en de verbinding aan andere systemen wordt beheerd in de de cliëntconsole van de Campagne. Dientengevolge, kunnen sommige montages en eigenschappen slechts van de cliëntconsole van de Campagne worden betreden, worden gecreeerd of worden beheerd. Sommige zijn beschikbaar in een latere update van de gebruikersinterface van het Web van de Campagne.
 
 <!--
 **Homepage**
@@ -61,7 +59,9 @@ Dientengevolge, in de cliëntconsole van de Campagne, kunt u geen het landen pag
 
 ## Profielen, testprofielen en doelgroepen {#profiles-audiences-capabilities}
 
-U kunt profielen en testprofielen maken, beheren en bijwerken in zowel de clientconsole van de Campagne als de gebruikersinterface van het Web van de Campagne. Alle wijzigingen die in de ene interface worden uitgevoerd, zijn zichtbaar in de andere. Nochtans, kunnen sommige specifieke ontvankelijke montages en de geavanceerde parameters van het nieuwe de gebruikersinterface van het Web van de Campagne ontbreken. De term &#39;ontvanger&#39; is gewijzigd in &#39;profiel&#39; in de nieuwe webgebruikersinterface.
+U kunt profielen en testprofielen maken, beheren en bijwerken in zowel de clientconsole van de Campagne als de gebruikersinterface van het Web van de Campagne. Alle wijzigingen die in de ene interface worden uitgevoerd, zijn zichtbaar in de andere. Nochtans, kunnen sommige specifieke ontvankelijke montages en de geavanceerde parameters van het nieuwe de gebruikersinterface van het Web van de Campagne ontbreken.
+
+Merk op dat de term &#39;ontvanger&#39; is gewijzigd in &#39;profiel&#39; in de nieuwe webgebruikersinterface en &#39;adressen van zaaizaad&#39; nu &#39;testprofielen&#39; zijn
 
 <!--Audience composition is a new capability coming with Campaign Web user interface. As a consequence, in Campaign client console, you cannot edit, update or modify an [audience created with the Query modeler](../query/query-modeler-overview.md). -->
 
@@ -155,7 +155,7 @@ Sommige mogelijkheden zijn alleen beschikbaar via de clientconsole. Blader naar 
 
 De gebruikersinterface van het Web van de campagne behandelt niet de volgende mogelijkheden. Ze zijn alleen beschikbaar in de clientconsole.
 
-Bladeren op de beschikbare koppelingen in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl){target="_blank"} en meer informatie.
+Bladeren op de beschikbare koppelingen in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl){target="_blank"} voor meer informatie.
 
 * Externe rekeningen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
 * Schema maken en uitbreiden. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}

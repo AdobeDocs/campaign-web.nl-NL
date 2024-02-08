@@ -4,9 +4,9 @@ title: Nieuw in de Gebruikersinterface van het Web van de Campagne
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 69c0ea49a4caff85cd56dbc114fbfaf888ceaf1e
+source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1290'
 ht-degree: 1%
 
 ---
@@ -158,20 +158,20 @@ Met het gebruikersinterface van het Web van de Campagne, wijst het gebruikersint
 
 Als bestaande campagnegebruiker, merk op dat sommige concepten zijn anders genoemd om zich aan de recentste terminologienormen te richten. Deze veranderingen zijn slechts op het gebruikersinterface van het Web van de Campagne van toepassing en niet weerspiegeld in de cliëntconsole. Deze worden hieronder samengevat.
 
-* Proefdrukken zijn nu **E-mailberichten testen**: als u een bewijs wilt verzenden, gebruikt u de **Testen** in de gebruikersinterface voor e-maillevering. Het doel van de proefdrukken wordt nu **Testprofielen**. [Meer informatie](../preview-test/test-deliveries.md).
-* Zaadadressen worden nu gebruikt als **Testprofielen**: verzend de test-e-mail naar zaadadressen, die extra ontvangers in het gegevensbestand zijn. [Meer informatie](../preview-test/test-deliveries.md).
+* Ontvangers zijn nu **Profielen**. [Meer informatie](../audience/gs-audiences-recipients.md).
+* Zaadadressen zijn nu **Testprofielen**. [Meer informatie](../preview-test/test-deliveries.md).
 * De leveringsanalyse is nu de **voorbereiding van levering**. Wanneer u de voorbereiding van het bericht moet starten, klikt u op de knop **Voorbereiden** knop. [Meer informatie](../monitor/prepare-send.md).
 * E-mailvoorvertoning is nu beschikbaar via **Inhoud simuleren** knop. [Meer informatie](../preview-test/preview-test.md)
-* Lijsten zijn nu **Soorten publiek**. [Meer informatie](../audience/about-recipients.md).
+* Lijsten zijn nu **Soorten publiek**. [Meer informatie](../audience/gs-audiences-recipients.md).
 
 ## Beperkingen{#limitations-beta}
 
 De onderstaande beperkingen gelden voor deze versie:
 
 * Bewerkbare objecten zijn: Ontvangers, Leveringen, Campagnes, Workflows, Soorten publiek, Abonnementsservices, Vooraf gedefinieerde filters en Sjablonen. De andere zijn alleen-lezen. Gebruik filters en maak regels om door deze allemaal te bladeren.
-* De gebruikersinterface van het Beleid is niet beschikbaar.
+* Het Beleid en de geavanceerde configuratiemogelijkheden zijn niet beschikbaar in het gebruikersinterface van het Web van de Campagne.
 * De rapporteringsmetriek (zoals opent en het volgen gegevens) wordt bijgewerkt elk uur.
 * KPI&#39;s voor het leveringsdashboard worden elke 5 minuten bijgewerkt. - maar de voorbereiding van de levering is in real-time.
 * Adobe Experience Cloud-meldingen en de Unified Help die beschikbaar zijn in de bovenste balk, zijn nog niet geïntegreerd.
 
-Raadpleeg voor meer instructies en beperkingen [deze pagina](../get-started/guardrails.md).
+Leer meer over gesteunde/niet gestaafde mogelijkheden en interoperabiliteit tussen de gebruikersinterface van het Web van de Campagne en de cliëntconsole van de Campagne, [op deze pagina](../get-started/capability-matrix.md).
