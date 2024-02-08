@@ -3,9 +3,9 @@ audience: end-user
 title: Campagne Web-gebruikersinterface/client-consolematrix
 description: Lijst met functies die worden ondersteund in de gebruikersinterface van Campagne Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
+source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -41,8 +41,8 @@ Met de gebruikersinterface van het Web van de Campagne, kunt u e-mail, SMS en du
 
 Gebruik de beschikbare koppelingen om te bladeren in de documentatie bij Campagne v8 (clientconsole) en meer informatie te krijgen over deze kanalen.
 
-* Directe post. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
-* REGELS. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **Directe post**. Met Direct mail kunt u een fysieke correspondentie verzenden naar uw klanten, klanten, leveranciers of anderen, zoals berichten, facturen, verklaringen, marketingaanbiedingen en nog veel meer. Dit kanaal is alleen beschikbaar in de clientconsole.  [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
+* **REGELS**. De LIJN is een toepassing voor vrij Onmiddellijk overseinen, stem en videovraag, beschikbaar op alle mobiele apparaten en op PC. Met Adobe Campaign kunt u alleen LINE-berichten verzenden vanaf de clientconsole.[Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * Het centrum van de vraag en de kanalen van de Douane. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * Sociale marketing met X (Twitter). [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
