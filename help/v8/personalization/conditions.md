@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 badge: label="Beperkte beschikbaarheid"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: 9f5d3d8ea7441641e037545d5bf22dda09a1f881
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Door voorwaardelijke inhoudsgebieden te vormen, kunt u geavanceerde dynamische v
 
 Als u voorwaardelijke inhoud wilt maken, moet u voorwaarden maken in het dialoogvenster **expressie-editor** specifieke hulpfuncties gebruiken. Deze methode is beschikbaar voor alle leveringskanalen, op om het even welk gebied waar u tot de uitdrukkingsredacteur, zoals de onderwerpregel, of e-mailverbindingen en tekst/knoop inhoudcomponenten kunt toegang hebben. [Leer hoe u toegang krijgt tot de expressie-editor](gs-personalization.md/#access)
 
-<!--In addition to the expression editor, you can leverage a dedicated **conditional content builder** when designing an email that allows you to build conditions using profile attributes only. [Learn how to create conditional content in emails](#condition-condition-builder)-->
+Naast de expressie-editor kunt u een speciale editor gebruiken **voorwaardelijk maken van inhoud** bij het ontwerpen van een e-mail waarmee u meerdere varianten voor een element van uw e-mailhoofdtekst kunt maken. [Meer informatie over het maken van voorwaardelijke inhoud in e-mails](#condition-condition-builder)
 
 ## Voorwaarden maken in de expressie-editor {#condition-perso-editor}
 
@@ -79,38 +79,45 @@ Voer de onderstaande stappen uit om voorwaardelijke inhoud voor een levering te 
 
 1. Zodra uw voorwaarde klaar is, kunt u uw inhoud opslaan en de rendering ervan controleren door uw inhoud te simuleren.
 
-<!--SECTION REMOVED FOR LA > CONDITIONAL CONTENT NOT AVAILABLE ANYMORE FROM THE DEDICATED MENU IN THE EMAIL DESIGNER. ONLY THE EXPRESSION EDITOR IS AVAILABLE FOR NOW
+## Voorwaardelijke inhoud maken in e-mails {#condition-condition-builder}
 
-## Create conditional content in emails {#condition-condition-builder}
+Voorwaardelijke inhoud in e-mails kan op twee manieren worden gemaakt:
+* In de uitdrukkingsredacteur door een voorwaarde met helperfuncties te bouwen,
+* In een speciale voorwaardelijke inhoudsontwikkelaar die toegankelijk is wanneer u een e-mail ontwerpt.
 
-Conditional content in emails can be created in two ways:
-* In the expression editor by building a condition with helper functions,
-* In a dedicated conditional content builder that is accessible when designing an email.
+In de volgende sectie vindt u stapsgewijze instructies voor het maken van voorwaarden met behulp van de voorwaardelijke inhoud van de e-mailontwerper. Gedetailleerde informatie over het maken van voorwaarden met de expressieeditor is beschikbaar [hier](#condition-perso-editor).
 
-Detailed information on how to create conditions using the expression editor is available [here](#condition-perso-editor). The following section provides step-by-step instructions on how to create conditions using the email designer's conditional content capability. In this example, we want to create an email message with multiple variants based on the recipients' language. Follow these steps:
+In dit voorbeeld willen we een e-mailbericht maken met meerdere varianten op basis van de taal van de ontvangers. Voer de volgende stappen uit:
 
-1. Create or open an email delivery, edit its content, and click the **[!UICONTROL Edit email body]** button to open the email designing workspace.
+1. Maak of open een e-maillevering, bewerk de inhoud en klik op de knop **[!UICONTROL Edit email body]** om de werkruimte voor het ontwerpen van e-mail te openen.
 
-1. Select a content component and click the **[!UICONTROL Enable conditional content]** icon.
+1. Selecteer een inhoudscomponent en klik op de knop **[!UICONTROL Enable conditional content]** pictogram.
 
-    ![](assets/condition-email-enable.png){width="800" align="center"}
+   ![](assets/condition-email-enable.png){width="800" align="center"}
 
-1. The **[!UICONTROL Conditional Content]** pane opens on the left-hand side of the screen. In this pane, you can create multiple variants of the selected content component using conditions.
+1. De **[!UICONTROL Conditional Content]** wordt aan de linkerkant van het scherm geopend. In dit deelvenster kunt u meerdere varianten van de geselecteerde inhoudscomponent maken aan de hand van voorwaarden.
 
-1. Configure your first variant. Hover over **[!UICONTROL Variant - 1]** in the **[!UICONTROL Conditional Content]** pane and click the **[!UICONTROL Add condition]** icon.
+1. Vorm uw eerste variant. Overslaan **[!UICONTROL Variant - 1]** in de **[!UICONTROL Conditional Content]** en klik op de knop **[!UICONTROL Add condition]** knop.
 
-1. A query modeler appears. Use profile attributes to create the condition for the first variant of the message and click **[!UICONTROL Confirm]**. In this example, we are creating a rule targeting recipients whose language is 'French'.
+   ![](assets/condition-add-condition.png){width="800" align="center"}
 
-    ![](assets/condition-email-rule.png){width="800" align="center"}
+1. Er wordt een regelbouwer weergegeven. Het biedt **Profiel**, **Bericht**, en **Aflevering** kenmerken die u kunt gebruiken om uw voorwaarde te maken.
 
-1. The rule is now associated to the variant. For better readability, we recommend renaming the variant by clicking the ellipsis menu.
+   Bovendien **Voorwaarden** biedt vooraf gebouwde voorwaarden die u aan het canvas kunt toevoegen om uw variant eenvoudig te bouwen. Klik op de knop **Toevoegen** dan vervangt u de elementen tussen `<` en `>`door de gewenste elementen. Zorg ervoor dat de waarde die u opgeeft voor het dialoogvenster `<value>` -object tussen aanhalingstekens staat.
 
-1. Configure how the component should display if the rule is met when sending the message. In this example, we want to display the text in French if it is the recipient's preferred language.
+   ![](assets/condition-syntax.png){width="800" align="center"}
 
-    ![](assets/condition-email-variant1.png){width="800" align="center"}
+1. Zodra de voorwaarde voor de eerste variant van het bericht klaar is, klik **[!UICONTROL Confirm]**. In dit voorbeeld creëren we een regel die gericht is op ontvangers die &#39;Frans&#39; zijn.
 
-1. Add as many variants as needed for the content component. You can switch between the variants at any time to check how the content component will display based on their conditional rules.
+   ![](assets/condition-example.png){width="800" align="center"}
 
-    >[!NOTE]
-    >If none of the rules defined in the variants are met when sending the message, the content component will display the content defined in the **[!UICONTROL Default variant]** from the **[!UICONTROL Conditional Content]** pane.
--->
+1. De regel is nu gekoppeld aan de variant. Voor betere leesbaarheid raden we u aan de naam van de variant te wijzigen door op het ellipsmenu te klikken.
+
+1. Vorm hoe de component zou moeten tonen als de regel wordt ontmoet wanneer het verzenden van het bericht. In dit voorbeeld willen we de tekst in het Frans weergeven als dit de voorkeurstaal van de ontvanger is.
+
+   ![](assets/condition-email-variant1.png){width="800" align="center"}
+
+1. Voeg zoveel varianten toe als nodig zijn voor de inhoudscomponent. U kunt op elk gewenst moment schakelen tussen de varianten om te controleren hoe de inhoudscomponent wordt weergegeven op basis van hun voorwaardelijke regels.
+
+   >[!NOTE]
+   >Als aan geen van de regels in de varianten wordt bepaald wanneer het verzenden van het bericht wordt voldaan, zal de inhoudscomponent de inhoud tonen die in wordt bepaald **[!UICONTROL Default variant]** van de **[!UICONTROL Conditional Content]** venster.
