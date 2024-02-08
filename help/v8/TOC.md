@@ -6,9 +6,9 @@ title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campagne Web User Interface
 hide: true
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 06ec541924c906980ed0e318556177e26a9f00b0
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '574'
 ht-degree: 9%
 
 ---
@@ -93,6 +93,7 @@ ht-degree: 9%
    + [Een openingspagina maken en publiceren](landing-pages/create-lp.md)
    + [Inhoud landingspagina ontwerpen](landing-pages/lp-content.md)
    + [Werken met sjablonen voor bestemmingspagina&#39;s](landing-pages/lp-templates.md)
+   + [Gebruikskwesties leren](landing-pages/lp-use-cases.md)
 + Profielen en doelgroepen {#audiences}
    + [Aan de slag met profielen en doelgroepen](audience/gs-audiences-recipients.md)
    + [Doelafmetingen](audience/targeting-dimensions.md)

@@ -4,7 +4,7 @@ title: Aan de slag met bestemmingspagina's
 description: Meer informatie over het landen van pagina's in het campagneweb
 feature: Landing Pages
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: e661517d68c2fe21f4209dbec2d98648740a3a86
+source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 In de context van marketingcampagnes is een landingspagina een zelfstandige webpagina waarop een bezoeker wordt geleid nadat hij op een koppeling in een e-mail, SMS, push-levering of op een website heeft geklikt.
 
-Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen waar zij uw communicatie kunnen in- of uitschakelen of zich op een specifieke service zoals een nieuwsbrief abonneren.
+Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen waar ze uw communicatie kunnen in- of uitschakelen of zich op een specifieke service zoals een nieuwsbrief abonneren.
 
 >[!CAUTION]
 >
