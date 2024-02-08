@@ -3,9 +3,9 @@ audience: end-user
 title: Campagne Web-gebruikersinterface/client-consolematrix
 description: Lijst met functies die worden ondersteund in de gebruikersinterface van Campagne Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 60fdb2d3a17bc4cd1d30d66aa7e9c5e7d624c5eb
+source-git-commit: 552f9d8fb3e7a4907f9c9830920e1c311fcecd5c
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1703'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ Met de gebruikersinterface van het Web van de Campagne, kunt u kanaalcampagnes z
 
 Gebruik de beschikbare koppelingen om te bladeren in de documentatie van Campagne v8 (clientconsole) en te leren hoe u deze mogelijkheden kunt gebruiken.
 
-* Marketing Kalender. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
-* Programma&#39;s en plannen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
-* Leveranciers, begroting en kostenbeheer. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
-* Distributed Marketing (Central/Local Marketing). [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html){target="_blank"}
-* Het Beheer van het Middel van de marketing (MRM), doelstellingen, simulaties, en kostencontrole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
-* Taakbeheer. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
+* **Verkoopkalender**. In de campagnemalender worden alle programma&#39;s, plannen, campagnes en leveringen in een algemene tijdslijn weergegeven. Deze mogelijkheid is alleen beschikbaar in de clientconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar){target="_blank"}
+* **Programma&#39;s en plannen**. Elke campagne behoort tot een programma dat deel uitmaakt van een plan. In het gebruikersinterface van het Web van de Campagne, worden alle campagnes geassocieerd aan een standaard ingebouwde plan en een programma. U kunt plannen en programma&#39;s alleen in de clientconsole maken en beheren. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program){target="_blank"}
+* **Leveranciers, begroting en kostenbeheer**. U kunt dienstverleners vormen betrokken bij de banen die binnen uw campagnes, met inbegrip van kostenstructuren worden uitgevoerd, en uw begrotingen binnen elk Programma en elke Campagne beheren. Deze mogelijkheid is alleen beschikbaar in de clientconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html){target="_blank"}
+* **Distributed Marketing** (Centrale/lokale marketing). Adobe Campaign biedt een Distributed Marketing-app voor het uitvoeren van samenwerkingscampagnes tussen centrale entiteiten (hoofdkantoor, marketingafdelingen, enz.) en lokale entiteiten (verkooppunten, regionale agentschappen, enz.). Deze mogelijkheid is alleen beschikbaar in de clientconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html){target="_blank"}
+* **Beheer van marketingbronnen** (MRM), doelstellingen, simulaties, en kostencontrole. Adobe Campaign biedt een MRM-app (Marketing Resource Management) waarmee u marketingacties in samenwerkingsverband kunt beheren en waarmee u de betrokken taken, budgetten en marketingbronnen in real-time volledig kunt beheren en bijhouden. Deze mogelijkheid is alleen beschikbaar in de clientconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html){target="_blank"}
+* **Taakbeheer**. Als onderdeel van de MRM-app kunnen campagnemochten worden gemaakt, toegewezen, bijgehouden en bewaakt vanaf het campagnemdashboard. Deze mogelijkheid is alleen beschikbaar in de clientconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html){target="_blank"}
 
 ## Communicatiekanalen {#channels-capabilities}
 
