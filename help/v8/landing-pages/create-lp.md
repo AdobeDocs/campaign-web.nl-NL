@@ -3,9 +3,9 @@ title: Een landingspagina maken
 description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 feature: Landing Pages
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 601cc62c5640069ce9e6ee4830f924c610e0915f
+source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1203'
 ht-degree: 1%
 
 ---
@@ -80,9 +80,13 @@ U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een
    * **[!UICONTROL Acquisition]**: Dit is de standaardsjabloon voor het landen van pagina&#39;s, waarmee u profielgegevens kunt vastleggen en bijwerken.
    * **[!UICONTROL Subscription]**: Gebruik deze sjabloon om gebruikers in staat te stellen zich op een specifieke sjabloon te abonneren [service](../audience/manage-services.md).
    * **[!UICONTROL Unsubscription]**: Deze sjabloon kan worden gebruikt in een levering die naar de abonnees van een service wordt verzonden, zodat zij zich van deze service kunnen afmelden [service](../audience/manage-services.md).
-   * **[!UICONTROL Denylist]**: Deze sjabloon moet worden gebruikt wanneer een profiel niet langer via Campagne kan worden benaderd. Meer informatie over beheer van lijst van gewezen personen
+   * **[!UICONTROL Denylist]**: Deze sjabloon moet worden gebruikt wanneer een profiel niet langer via Campagne kan worden benaderd.
 
    ![](assets/lp-templates.png)
+
+   >[!NOTE]
+   >
+   >Leer hoe u de verschillende gebruiksgevallen implementeert die overeenkomen met elke sjabloon in [deze sectie](lp-use-cases.md).
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -94,7 +98,7 @@ U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een
 
 1. In de **[!UICONTROL Data preload]** de twee onderstaande opties zijn standaard geselecteerd:
 
-   * De **[!UICONTROL Pre-fill with the data referenced in the form]** Met deze optie kunt u automatisch de gegevens laden die overeenkomen met de invoer- en samenvoegvelden in het formulier.
+   * Wanneer de **[!UICONTROL Pre-fill with the data referenced in the form]** is geselecteerd, als de bezoeker van de landingspagina een profiel uit de database aanpast, wordt de profielinformatie automatisch vooraf in het formulier geladen. De gebruiker hoeft alleen de ontbrekende velden in te vullen en de bestaande waarden indien nodig bij te werken. Hiermee kunt u gegevens voor bestaande profielen samenvoegen in plaats van duplicaten te maken.
 
    * De **[!UICONTROL Skip preloading if no ID]** Selecteer deze optie als u geen profielen wilt bijwerken. In dat geval wordt elk ingevoerde profiel na goedkeuring van het formulier toegevoegd aan de database. Deze optie wordt bijvoorbeeld gebruikt wanneer het formulier op een website wordt geplaatst.
 
@@ -118,7 +122,7 @@ U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een
      >
      >Als er geen begindatum is gedefinieerd, wordt de landingspagina actief zodra deze wordt gepubliceerd.
 
-   * Wanneer de pagina de einddatum bereikt, wordt de openingspagina automatisch niet gepubliceerd en is het formulier niet meer beschikbaar. De **[!UICONTROL Expiration]** wordt weergegeven.
+   * Wanneer de pagina de einddatum bereikt, <!--the landing page is automatically unpublished and -->het formulier is niet meer beschikbaar. De **[!UICONTROL Expiration]** wordt weergegeven.
 
      >[!NOTE]
      >

@@ -3,9 +3,9 @@ title: Paginaspecifieke inhoud definiëren
 description: Leer hoe u landende pagina-specifieke inhoud ontwerpt in Campagne Web
 feature: Landing Pages
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: e8b59db0608e1e307c4603b32d1dde3b176fc036
+source-git-commit: 5e5c731fa76684407080d9a1aa6f8a81de7ebc92
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '807'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Wanneer u de inhoud van een willekeurige pagina van de bestemmingspagina bewerkt, is deze al ingevuld.
 
-De eerste pagina, die onmiddellijk aan de gebruikers wordt getoond nadat zij de verbinding aan uw landende pagina klikken, is reeds vooraf ingevuld met [paginaspecifieke formuliercomponent landen](#use-form-component) voor de geselecteerde sjabloon om gebruikers in staat te stellen hun keuzes te selecteren en te verzenden. U kunt ook [paginaspecifieke stijlen plaatsen](#lp-form-styles).
+De eerste pagina, die onmiddellijk aan de gebruikers wordt getoond nadat zij de verbinding aan uw landende pagina klikken, is reeds vooraf ingevuld met [paginaspecifieke formuliercomponent landen](#use-form-component) voor de geselecteerde sjabloon<!-- to enable users to select and submit their choices-->. U kunt ook [stijlen voor de landingspagina](#lp-form-styles).
 
 Voor het verder ontwerpen van de inhoud van de bestemmingspagina kunt u dezelfde componenten gebruiken als voor een e-mail. [Meer informatie](../email/content-components.md#add-content-components)
 
@@ -53,7 +53,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
    >
    >Schakel over naar de **[!UICONTROL Styles]** kunt u op elk gewenst moment de stijlen van de inhoud van uw formuliercomponent bewerken. [Meer informatie](#lp-form-styles)
 
-1. Vouw het eerste tekstveld uit. Van de **[!UICONTROL Text field 1]** kunt u het veldtype, het veld uit de database, het label en de tekst bewerken die in het veld worden weergegeven voordat de gebruiker het veld invult.
+1. Vouw het eerste tekstveld, indien van toepassing, uit of voeg er een toe met behulp van het gereedschap **[!UICONTROL Add]** knop. Van de **[!UICONTROL Text field 1]** kunt u het veldtype, het databaseveld dat moet worden bijgewerkt, het label en de tekst bewerken die in het veld wordt weergegeven voordat gebruikers een waarde invoeren.
 
    ![](assets/lp-form-text-field.png)
 
@@ -63,18 +63,24 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
    >
    >Als een verplicht veld niet is ingevuld, wordt een foutbericht weergegeven wanneer de gebruiker de pagina verzendt.
 
-1. Voeg een selectievakje toe. Selecteer deze optie als u een service of een veld uit de database wilt bijwerken.
+1. Vouw het eventuele selectievakje uit of voeg er een toe met het gereedschap **[!UICONTROL Add]** knop. Selecteer deze optie als u een service of een veld uit de database wilt bijwerken.
 
    ![](assets/lp-form-checkbox.png)
 
-   Definieer of dit selectievakje gebruikers in- of uitschakelt. Kies een van de twee onderstaande opties:
+   Als u **[!UICONTROL Subscription & services]** selecteert u een service in de lijst en kiest u een van de twee onderstaande opties:
 
    * **[!UICONTROL Subscribe in if checked]**: Gebruikers moeten het selectievakje voor toestemming (opt-in) inschakelen.
    * **[!UICONTROL Unsubscribe if checked]**: Gebruikers moeten het selectievakje inschakelen om hun toestemming te verwijderen (opt-out).
 
-1. U kunt zo veel tekstvelden en/of selectievakjes verwijderen en toevoegen.
+   Als u **[!UICONTROL Field]** selecteert u een veld in de lijst met kenmerken en kiest u een van de volgende twee opties:
 
-1. Nadat u alle gewenste selectievakjes en/of tekstvelden hebt toegevoegd, klikt u op **[!UICONTROL Call to action]** om de bijbehorende sectie uit te vouwen. Hiermee kunt u het gedrag van de knop in het dialoogvenster **[!UICONTROL Form]** component.
+   * **[!UICONTROL Yes if checked]**<!--TBC-->
+
+   * **[!UICONTROL No if checked]**<!--TBC-->
+
+1. U kunt zoveel velden verwijderen en toevoegen (zoals tekstvelden, keuzerondjes, selectievakjes, vervolgkeuzelijst, enzovoort) indien nodig.
+
+1. Klik op Alle toegevoegde of bijgewerkte velden **[!UICONTROL Call to action]** om de bijbehorende sectie uit te vouwen. Hiermee kunt u het gedrag van de knop in het dialoogvenster **[!UICONTROL Form]** component.
 
    ![](assets/lp-call-to-action.png)
 
@@ -84,38 +90,34 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    * **[!UICONTROL Redirect URL]**: Voer de URL in van de pagina waarnaar de gebruikers worden omgeleid.
 
-1. Als u aanvullende updates wilt uitvoeren wanneer u het formulier verzendt, selecteert u **[!UICONTROL Additional updates]**, kiest u **[!UICONTROL Opt in]** of **[!UICONTROL Opt out]** en definieer of u een abonnementenlijst, het kanaal of alleen het gebruikte e-mailadres wilt bijwerken.
+1. Als u aanvullende updates wilt uitvoeren wanneer u het formulier verzendt, selecteert u **[!UICONTROL Additional updates]** en selecteer het item dat u wilt bijwerken:
+   * Een abonnementsservice: in dat geval definieert u of u gebruikers wilt aanmelden of afmelden bij het verzenden van het formulier.
+   * Het e-mailadres dat wordt gebruikt bij het invullen van het formulier.
+   * Alle kanalen - bij het verzenden van het formulier worden gebruikers (afhankelijk van de geselecteerde sjabloon) in- of uitgeschakeld voor alle communicatie van uw merk op alle kanalen
+   * Een veld in de database - selecteer een veld in de lijst met kenmerken en bepaal of het bij het verzenden van het formulier moet worden ingesteld op Waar of Onwaar.
 
    ![](assets/lp-form-additionnal-updates.png)
 
-1. Sla uw inhoud op om terug te gaan naar de [eigenschappen van bestemmingspagina](create-lp.md).
+1. Sla uw inhoud op om terug te gaan naar de [eigenschappen van bestemmingspagina](create-lp.md#create-landing-page).
 
 ## Landingspagina-formulierstijlen definiëren {#lp-form-styles}
 
-1. Als u de stijlen van de inhoud van een formuliercomponent wilt wijzigen, schakelt u op elk gewenst moment over naar de **[!UICONTROL Style]** tab.
+1. Als u de stijlen van de inhoud van een formuliercomponent wilt wijzigen, schakelt u op elk gewenst moment over naar de **[!UICONTROL Styles]** tab.
 
-   ![](assets/lp_designer-form-style.png)
+1. De **[!UICONTROL Text field]** wordt standaard uitgevouwen. Hiermee kunt u de weergave van de tekstvelden bewerken, zoals het lettertype van het label, de positie van het label, de achtergrondkleur van het veld of de veldrand.
 
-1. De **[!UICONTROL Fields]** wordt standaard uitgevouwen, zodat u de weergave van het tekstveld kunt bewerken, zoals het label- en plaatsaanduidingslettertype, de positie van het label, de achtergrondkleur van het veld of de veldrand.
+   ![](assets/lp-text-styles.png)
 
-   ![](assets/lp_designer-form-style-fields.png)
+1. Breid uit **[!UICONTROL Checkbox]** om de vormgeving van de selectievakjes en de bijbehorende tekst te definiëren. U kunt bijvoorbeeld de lettertypefamilie en -grootte of de randkleur van het selectievakje aanpassen.
 
-1. Breid uit **[!UICONTROL Checkboxes]** om de vormgeving van de selectievakjes en de bijbehorende tekst te definiëren. U kunt bijvoorbeeld de lettertypefamilie of -grootte of de randkleur van het selectievakje aanpassen.
+   ![](assets/lp-checkbox-style.png)
 
-   ![](assets/lp_designer-form-style-checkboxes.png)
+1. Andere secties uitbreiden en bewerken die overeenkomen met andere velden die u hebt toegevoegd (keuzerondje, vervolgkeuzelijst, datum en tijd, enz.) naar uw formulier.
 
-1. Breid uit **[!UICONTROL Buttons]** om de weergave van de knop in het deelformulier te wijzigen. U kunt bijvoorbeeld het lettertype wijzigen, een rand toevoegen, de labelkleur bewerken op de muisaanwijzer of de uitlijning van de knop aanpassen.
+1. Breid uit **[!UICONTROL Call to action]** om de weergave van de knop in het deelformulier te wijzigen. U kunt bijvoorbeeld het lettertype wijzigen, een rand toevoegen, de labelkleur bewerken op de muisaanwijzer of de uitlijning van de knop aanpassen.
 
-   ![](assets/lp_designer-form-style-buttons.png)
+   ![](assets/lp-call-to-action-style.png)
 
-   U kunt een voorvertoning van bepaalde instellingen, zoals de kleur van knoplabels op de muisaanwijzer, weergeven met de opdracht **[!UICONTROL Simulate content]** knop. Meer informatie over het testen van bestemmingspagina&#39;s [hier](create-lp.md#test-landing-page).
+   U kunt een voorvertoning van bepaalde instellingen, zoals de kleur van knoplabels op de muisaanwijzer, weergeven met de opdracht **[!UICONTROL Simulate content]** knop. [Meer informatie](create-lp.md#test-landing-page)
 
-1. Breid uit **[!UICONTROL Form layout]** om de layoutinstellingen zoals de achtergrondkleur, opvulling of marge te bewerken.
-
-   ![](assets/lp_designer-form-style-layout.png)
-
-<!--
-1. Expand the **[!UICONTROL Form error]** section to adjust the display of the error message that displays in case a problem occurs. Check the corresponding option to preview the error text on the form.
-
-    ![](assets/lp_designer-form-error-preview.png)-->
-
+1. Sla uw wijzigingen op.
