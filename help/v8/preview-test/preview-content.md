@@ -4,10 +4,10 @@ title: Voorvertoning van leveringsinhoud
 description: Leer hoe u uw leveringsinhoud met de gebruikersinterface van het Web van de Campagne voorproef
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 2%
+source-wordcount: '334'
+ht-degree: 1%
 
 ---
 
@@ -32,22 +32,17 @@ Volg onderstaande stappen om een voorvertoning van de inhoud van uw levering wee
 
 1. U kunt profielen en testprofielen combineren om een voorbeeld van uw e-mail- of sms-bericht te bekijken.
 
-   * De **[!UICONTROL Test profiles]** op het tabblad worden alle adressen weergegeven die aanvullende en fictieve ontvangers in de database zijn.
-     ![](assets/simulate-select-profiles.png)
+   * De **[!UICONTROL Test profiles]** worden alle testprofielen weergegeven, die aanvullende en fictieve ontvangers in de database zijn. [Leer hoe u met testprofielen werkt](../audience/test-profiles.md)
 
-     U kunt testprofielen maken op basis van de **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menu. [Meer informatie](../audience/test-profiles.md#create-test-profiles)
+   * De **[!UICONTROL Profiles]** worden alle profielen weergegeven die in de database zijn opgeslagen. [Leer hoe u met profielen werkt](../audience/about-recipients.md)
 
-
-   * De **[!UICONTROL Profiles]** worden alle ontvangers weergegeven die in het tabblad **[!UICONTROL Profiles and Targets]** uit de [!DNL Campaign] clientconsole. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/view-profiles.html){target="_blank"}.
-
-     U kunt profielen weergeven, maken en beheren via het menu **[!UICONTROL Profiles]** tab. [Meer informatie](../audience/about-recipients.md)
-
+   ![](assets/simulate-select-profiles.png)
 
 1. Wanneer u door het testprofiel of de profiellijsten bladert, kunt u filters gebruiken om uw zoekopdracht te verfijnen.
 
    ![](assets/simulate-test-profile-filter.png)
 
-   U kunt bijvoorbeeld een regel definiëren om alle testprofielen te zoeken die **[!UICONTROL Prospect]** status. Leer hoe u regels kunt toevoegen met de opdracht [querymodel](../query/query-modeler-overview.md).
+   U kunt bijvoorbeeld een regel definiëren om alle testprofielen te zoeken die **[!UICONTROL Prospect]** status. [Leer hoe te om regels toe te voegen gebruikend de vraagmodeler](../query/query-modeler-overview.md).
 
 1. Klikken **[!UICONTROL Select]** om uw selectie te bevestigen.
 

@@ -4,9 +4,9 @@ title: Voorvertoning en test voor levering
 description: Leer hoe u leveringen kunt voorvertonen en testen
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 17274023326462882f487c75de5df9fe2ba5df22
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate"
 >title="Inhoud voorvertonen en testen"
->abstract="Nadat de inhoud is gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen en te testen."
+>abstract="Nadat u de inhoud hebt gedefinieerd, kunt u profielen en testprofielen gebruiken om deze voor te vertonen en te testen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Testleveringen verzenden"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testopeningspagina&#39;s"
 
-Nadat u de inhoud van de levering hebt gedefinieerd, kunt u testprofielen gebruiken om deze voor te vertonen en te testen voordat u het bericht verzendt.
+Nadat u de inhoud van de levering hebt gedefinieerd, kunt u profielen en testprofielen gebruiken om deze voor te vertonen en te testen voordat u het bericht verzendt.
 
 Dit is een cruciale stap om ervoor te zorgen dat deze accuraat is, maar ook vrij van fouten in zowel de inhoud als de personalisatie-instellingen.
 

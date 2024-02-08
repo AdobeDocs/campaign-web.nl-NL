@@ -4,9 +4,9 @@ title: E-mailrendering testen
 description: Leer hoe u uw e-mailrendering kunt testen in de gebruikersinterface van het Campagne Web
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '227'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Hiervoor kunt u uw **Litmus** account [!DNL Adobe Campaign] om direct een voorve
 Voor toegang tot rendermogelijkheden via e-mail moet u:
 
 * Een Litmus-account hebben
-* Testprofielen selecteren - Leer hoe in [deze sectie](preview-content.md)
+* Profielen en/of testprofielen selecteren - Meer informatie in [deze sectie](preview-content.md)
 
 Voer vervolgens de onderstaande stappen uit.
 
