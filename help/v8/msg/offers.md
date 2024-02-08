@@ -4,9 +4,9 @@ title: Aanbiedingen toevoegen aan uw berichten
 description: Meer informatie over het toevoegen en verzenden van aanbiedingen
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
+source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,8 @@ ht-degree: 0%
 
 # Aanbiedingen toevoegen aan uw berichten {#offers-content}
 
-In de gebruikersinterface van Adobe Campaign Web kunt u aanbiedingen toevoegen aan uw leveringen. Deze aanbiedingen moeten in de de cliëntconsole van de Campagne zijn gecreeerd, gebruikend **[!UICONTROL Interaction]** -module. Voor meer informatie over Interactie en hoe te om een aanbiedingscatalogus in de console te beheren, verwijs naar [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+In de gebruikersinterface van Adobe Campaign Web kunt u aanbiedingen toevoegen aan uw leveringen. Deze aanbiedingen zijn beschikbaar op **Aanbiedingen** in het linkermenu hebt u toegang tot de lijst met aanbiedingen. Al deze aanbiedingen zijn read-only, en moeten in de de cliëntconsole van de Campagne worden gecreeerd, gebruikend **[!UICONTROL Interaction]** -module. Voor meer informatie over Interactie en hoe te om een aanbiedingscatalogus in de console te beheren, verwijs naar [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
+
 
 De stappen voor het verzenden van voorstellen met een levering zijn als volgt:
 
