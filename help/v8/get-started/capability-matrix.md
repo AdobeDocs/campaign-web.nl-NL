@@ -3,9 +3,9 @@ audience: end-user
 title: Campagne Web-gebruikersinterface/client-consolematrix
 description: Lijst met functies die worden ondersteund in de gebruikersinterface van Campagne Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 969c6c76654d4fb84cdf4a885b44924a1e46f524
+source-git-commit: 4da0df82cf95a23cce0d6bcee4e09d92833943db
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1778'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Met de gebruikersinterface van het Web van de Campagne, kunt u e-mail, SMS en du
 Gebruik de beschikbare koppelingen om te bladeren in de documentatie bij Campagne v8 (clientconsole) en meer informatie te krijgen over deze kanalen.
 
 * **Directe post**. Met Direct mail kunt u een fysieke correspondentie verzenden naar uw klanten, klanten, leveranciers of anderen, zoals berichten, facturen, verklaringen, marketingaanbiedingen en nog veel meer. Dit kanaal is alleen beschikbaar in de clientconsole.  [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
-* **REGELS**. De LIJN is een toepassing voor vrij Onmiddellijk overseinen, stem en videovraag, beschikbaar op alle mobiele apparaten en op PC. Met Adobe Campaign kunt u alleen LINE-berichten verzenden vanaf de clientconsole.[Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
+* **REGELS**. De LIJN is een toepassing voor vrij Onmiddellijk overseinen, stem en videovraag, beschikbaar op alle mobiele apparaten en op PC. Met Adobe Campaign kunt u alleen LINE-berichten verzenden vanaf de clientconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * Het centrum van de vraag en de kanalen van de Douane. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * Sociale marketing met X (Twitter). [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
 
@@ -124,7 +124,7 @@ Meer informatie over beschikbare workflowactiviteiten in Adobe Campaign v8 (cons
 
 ## Aanbiedingsbeheer {#offer-capabilities}
 
-Met Adobe Campaign Web kunt u aanbiedingen die in de console zijn gemaakt, verzenden met de **[!UICONTROL Interaction]** -module. Het ontwerp van de aanbieding, geschiktheidsregels, en aanbiedingsbeheer zijn slechts beschikbaar in de de cliëntconsole van de Campagne. [Meer informatie](../msg/offers.md)
+U kunt voorstellen verzenden in uw leveringen die in de gebruikersinterface van het Web van Adobe Campaign worden gecreeerd. Deze aanbiedingen moeten in de clientconsole zijn gemaakt met de **[!UICONTROL Interaction]** -module. Het ontwerp van de aanbieding, geschiktheidsregels, en aanbiedingsbeheer zijn slechts beschikbaar in de de cliëntconsole van de Campagne. [Meer informatie](../msg/offers.md)
 
 Leer hoe u een aanbiedingscatalogus beheert in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"}.
 
