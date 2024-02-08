@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: landen, landingspagina, hoofdletter gebruiken
-source-git-commit: 4666a74511c60cd006709bbfff6953669d2e2637
+source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1213'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,8 @@ Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de
 
 ## Abonnement opzeggen {#lp-unsubscription}
 
+U kunt uw klanten toelaten om van de dienst af te zien gebruikend een het landen pagina.
+
 1. Zorg ervoor u een bevestigingsmalplaatje voor gebruikers hebt gecreeerd die van uw dienst afmelden, zodat u het gemakkelijk kunt selecteren wanneer het creëren van de dienst. [Meer informatie](../audience/manage-services.md#create-confirmation-message)
 
 1. In uw [abonnementsservice](../audience/manage-services.md), selecteert u de sjabloon die u hebt gemaakt als de bevestigingse-mail die de gebruikers ontvangen wanneer ze zich niet meer abonneren.
@@ -167,11 +169,11 @@ Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de
 
 1. Herziening en [publish](create-lp.md#publish-landing-page) uw openingspagina.
 
-1. Een [email](../email/create-email.md) en [een koppeling toevoegen](../email/message-tracking.md#insert-links) om het verkeer naar de registratiepagina van de landing te leiden.
+1. Een [email](../email/create-email.md) en [een koppeling toevoegen](../email/message-tracking.md#insert-links) op de landingspagina.
 
-Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de bestemmingspagina klikken en het formulier verzenden, worden ze doorgestuurd naar de bevestigingspagina voor abonnementen en worden ze verwijderd uit de abonnementenlijst.
+Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de bestemmingspagina klikken en het formulier verzenden, worden ze doorgestuurd naar de bevestigingspagina voor abonnementen en worden ze verwijderd van de betreffende abonnementsservice.
 
-## Optie-out-bestemmingspagina&#39;s instellen {#lp-denylist}
+## Lijst van gewezen personen {#lp-denylist}
 
 Het is een wettelijke vereiste dat ontvangers de mogelijkheid krijgen om zich niet meer te abonneren op het ontvangen van communicatie van een merk. Daarom moet u altijd een **afmelden, koppeling** in elke e-mail die naar ontvangers wordt verzonden. Nadat u op deze koppeling hebt geklikt, worden de ontvangers naar een bestemmingspagina geleid, inclusief een knop om te bevestigen dat ze het programma willen afsluiten.
 
