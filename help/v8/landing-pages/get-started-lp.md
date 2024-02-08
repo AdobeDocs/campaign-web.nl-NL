@@ -4,10 +4,10 @@ title: Aan de slag met bestemmingspagina's
 description: Meer informatie over het landen van pagina's in het campagneweb
 feature: Landing Pages
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: b0ceaeaa3660f5723582365f78fc7870b81a4726
+source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '271'
+ht-degree: 5%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 2%
 
 [!DNL Adobe Campaign] kunt u bestemmingspagina&#39;s maken, ontwerpen en delen.
 
-In de context van marketingcampagnes is een landingspagina een zelfstandige webpagina waarop een bezoeker wordt geleid nadat hij op een koppeling in een e-mail, SMS, push-levering of op een website heeft geklikt.
+In de context van marketingcampagnes is een landingspagina een zelfstandige webpagina waarop een bezoeker wordt geleid nadat hij op een koppeling in een levering of op een website heeft geklikt.
 
-Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen waar ze uw communicatie kunnen in- of uitschakelen of zich op een specifieke service zoals een nieuwsbrief abonneren.
+Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen waar zij hun gegevens kunnen bijwerken, uw communicatie kunnen in- of uitschakelen of zich op een specifieke service zoals een nieuwsbrief kunnen abonneren.
 
 >[!CAUTION]
 >
@@ -33,10 +33,11 @@ Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen w
 
 De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder vermeld:
 
-* Hefboomwerking [!DNL Adobe Campaign] mogelijkheden voor inhoudsontwerp om eenvoudig samen te stellen **responsieve openingspagina&#39;s**.
-* Instellen **opt-in- en opt-out-stromen** snel en naadloos.
-* Abonnementsservices maken waarmee gebruikers **abonneren op een service**. [Meer informatie](../audience/manage-services.md)
-* Geef uw ontvangers de **mogelijkheid om zich af te melden** van het ontvangen van uw mededelingen.
+* Onmiddellijk landingspagina&#39;s maken, ontwerpen en delen met gebruiksklare **vooraf ingevulde sjablonen** verschillende gebruiksgevallen overeenkomen. [Meer informatie](create-lp.md)
+* Hefboomwerking [!DNL Adobe Campaign] mogelijkheden voor inhoudsontwerp om eenvoudig samen te stellen **responsieve openingspagina&#39;s**. [Meer informatie](lp-content.md)
+* Instellen **opt-in- en opt-out-stromen** snel en naadloos. [Meer informatie](lp-use-cases.md)
+* Abonnementsservices maken waarmee gebruikers **abonneren op een service**. [Meer informatie](lp-use-cases.md#lp-subscription)
+* Geef uw ontvangers de **mogelijkheid om zich af te melden** van het ontvangen van uw mededelingen. [Meer informatie](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
