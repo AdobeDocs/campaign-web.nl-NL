@@ -3,9 +3,9 @@ title: Contextafhankelijke Help voor AI gebruiken in Campagne-web
 description: Vragen stellen in de pop-ups van Campagne Web
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,17 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Vanuit het invoerveld stelt Adobe Campaign AI-powered Contextual Help drie vragen. Deze vragen zijn door AI gegenereerd en hebben betrekking op het Help-vak en de huidige productcontext. Selecteer een vraag om het antwoord te krijgen.
 
+![Contextuele Help stelde vragen voor](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+
+
 ## Antwoorden {#answers-ai}
 
 Contextuele Help van Adobe Campaign AI biedt ondersteuning, maar u moet de feiten controleren. Het kan onjuiste informatie, onjuiste of misleidende antwoorden uitvoeren. Controleer de productdocumentatie die in elk Help-vak is gekoppeld.
 
 U kunt een antwoord naar het klembord kopiëren met de opdracht **Kopiëren** onder aan het pop-upmenu Help.
+
+![Contextuele Help een antwoord kopiëren](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+
 
 ## Feedback {#feedback-ai}
 
