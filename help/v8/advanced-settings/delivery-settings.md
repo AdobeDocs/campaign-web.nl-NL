@@ -4,10 +4,9 @@ title: Afleveringsinstellingen
 description: Meer informatie over de leveringsinstellingen in Campagneweb
 feature: Email
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: da41eaf9987a3a2cc35ab132709ec127218422b1
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '2291'
+source-wordcount: '2295'
 ht-degree: 4%
 
 ---
@@ -44,7 +43,7 @@ Wanneer het associëren van een typologie met een bericht of berichtmalplaatje, 
 
 De technologieën staan u toe om ervoor te zorgen uw e-mails altijd bepaalde elementen (zoals een unsubscription verbinding of een onderwerpregel) of het filtreren regels bevatten om groepen van uw voorgenomen doel (zoals abonnees, concurrenten, of niet-loyaliteitklanten) uit te sluiten.
 
-![](assets/delivery-settings-typology.png)
+![](assets/delivery-settings-typology.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -130,7 +129,7 @@ In de **[!UICONTROL Exclusion]** in het veld kunt u selecteren om ontvangers uit
 
 **[!UICONTROL Delivery]** parameters zijn technische instellingen die van toepassing zijn op de levering.
 
-![](assets/delivery-settings-delivery.png)
+![](assets/delivery-settings-delivery.png){zoomable=&quot;yes&quot;}
 
 De geïntegreerde e-mail **[!UICONTROL Routing]** de externe rekening wordt standaard verschaft. Het bevat de technische parameters waarmee de applicatie e-mailberichten kan verzenden.
 
@@ -250,7 +249,7 @@ U kunt ook datums opgeven. Selecteer **[!UICONTROL Explicitly set validity dates
 
 **[!UICONTROL Resources validity limit]** wordt gebruikt voor geüploade bronnen, voornamelijk voor de spiegelpagina en afbeeldingen. De bronnen op deze pagina zijn gedurende een beperkte tijd geldig (om schijfruimte te besparen). Na deze limiet zijn deze bronnen niet meer beschikbaar.
 
-![](assets/delivery-settings-validity.png)
+![](assets/delivery-settings-validity.png){zoomable=&quot;yes&quot;}
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 

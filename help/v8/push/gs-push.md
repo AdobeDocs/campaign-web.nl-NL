@@ -2,12 +2,11 @@
 audience: end-user
 title: Aan de slag met pushmeldingen
 description: Meer informatie over het maken en verzenden van pushberichten via Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 73b87f94a2ac8478e44efb4ae74caf511baf0061
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 1%
+source-wordcount: '193'
+ht-degree: 0%
 
 ---
 

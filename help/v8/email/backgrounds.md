@@ -3,10 +3,9 @@ audience: end-user
 title: Uw e-mailachtergrond aanpassen
 description: Leer hoe u uw e-mailachtergrond kunt aanpassen
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -28,15 +27,15 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
 * Een **[!UICONTROL Background color]** voor de hele e-mail. Selecteer de instellingen voor de hoofdtekst in de navigatiestructuur die toegankelijk is vanuit het linkerdeelvenster.
 
-  ![](assets/background_1.png)
+  ![](assets/background_1.png){zoomable=&quot;yes&quot;}
 
 * Dezelfde achtergrondkleur voor alle structuurcomponenten instellen door **[!UICONTROL Viewport background color]**. Met deze optie kunt u een andere instelling selecteren dan de achtergrondkleur.
 
-  ![](assets/background_2.png)
+  ![](assets/background_2.png){zoomable=&quot;yes&quot;}
 
 * Stel een andere achtergrondkleur in voor elke structuurcomponent. Selecteer een structuur in de navigatiestructuur in het linkerdeelvenster om alleen een specifieke achtergrondkleur op die structuur toe te passen.
 
-  ![](assets/background_3.png)
+  ![](assets/background_3.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -44,7 +43,7 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
 * Een **[!UICONTROL Background image]** voor de inhoud van een structuurcomponent.
 
-  ![](assets/background_4.png)
+  ![](assets/background_4.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >
@@ -52,7 +51,7 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
 * Stel een achtergrondkleur in op kolomniveau.
 
-  ![](assets/background_5.png)
+  ![](assets/background_5.png){zoomable=&quot;yes&quot;}
 
   >[!NOTE]
   >

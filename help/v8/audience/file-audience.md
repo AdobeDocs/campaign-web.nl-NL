@@ -2,12 +2,11 @@
 audience: end-user
 title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
-badge: label="Beperkte beschikbaarheid"
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 1%
+source-wordcount: '607'
+ht-degree: 0%
 
 ---
 
@@ -50,7 +49,7 @@ Voer de volgende stappen uit als u profielen rechtstreeks vanuit de e-mailinterf
 1. Open een bestaande e-maillevering, of [een nieuwe e-maillevering maken](../email/create-email.md).
 1. In het venster voor het maken van de e-maillevering, vanuit het dialoogvenster **Publiek** klikt u op de **Doelgroep selecteren** en kiest u de **Selecteren uit bestand** -optie.
 
-   ![](assets/select-from-file.png)
+   ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
 1. Selecteer het lokale bestand dat u wilt gebruiken. De indeling moet worden uitgelijnd met de [voorbeeldbestand](#sample-file).
 1. In het centrale gedeelte van het scherm kunt u bekijken en controleren hoe gegevens worden toegewezen.
@@ -60,7 +59,7 @@ Voer de volgende stappen uit als u profielen rechtstreeks vanuit de e-mailinterf
 
 Wanneer u de inhoud van het bericht maakt en aan uw wensen aanpast, kunt u velden selecteren uit het invoerbestand in het dialoogvenster [Personalisatie-editor](../personalization/gs-personalization.md).
 
-![](assets/select-external-perso.png)
+![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
 ## Voorbeeldbestand {#sample-file}
 
@@ -93,7 +92,7 @@ Met Campagne Web kunt u teste-mails voorvertonen en verzenden wanneer u een publ
 
 1. Een voorvertoning van de leveringsinhoud wordt weergegeven in het rechterdeelvenster van het scherm. Gepersonaliseerde elementen worden vervangen door de gegevens van het profiel dat in het linkerdeelvenster is geselecteerd. [Meer informatie over de voorvertoning van inhoud voor levering](../preview-test/preview-content.md)
 
-   ![](assets/file-upload-preview.png)
+   ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
 1. Als u e-mailberichten wilt verzenden, klikt u op de knop **[!UICONTROL Test]** knop.
 
@@ -105,6 +104,6 @@ Met Campagne Web kunt u teste-mails voorvertonen en verzenden wanneer u een publ
 
 1. Als de proefontvangers zijn toegevoegd en u klaar bent om de proefdrukken te verzenden, klikt u op de knop **[!UICONTROL Send test email]** en bevestig de verzendende.
 
-   ![](assets/file-upload-test.png)
+   ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
 1. U kunt de verzending van de teste-mail controleren met de **[!UICONTROL View test email log]** op elk gewenst moment. [Meer informatie over e-mailcontrole tijdens tests](../preview-test/test-deliveries.md#access-test-deliveries)

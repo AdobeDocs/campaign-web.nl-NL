@@ -3,10 +3,9 @@ audience: end-user
 title: Componenten voor inhoud van e-mailontwerpers gebruiken
 description: Leer hoe u inhoudcomponenten in uw e-mails kunt gebruiken
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
@@ -45,7 +44,7 @@ Voer de onderstaande stappen uit om inhoudcomponenten aan uw e-mail toe te voege
 
 1. Sleep de **[!UICONTROL Content]** van uw keuze binnen de relevante structuren.
 
-   ![](assets/email_designer_add_content_components.png)
+   ![](assets/email_designer_add_content_components.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -55,7 +54,7 @@ Voer de onderstaande stappen uit om inhoudcomponenten aan uw e-mail toe te voege
 
 1. Pas de opmaakkenmerken voor elke component aan met de opdracht **[!UICONTROL Style]** tab. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
 
-   ![](assets/email_designer_content_components_settings.png)
+   ![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
 
 1. Via het geavanceerde menu van uw **[!UICONTROL Content]** in het rechterdeelvenster kunt u zo nodig alle inhoudscomponenten verwijderen of dupliceren.
 
@@ -65,7 +64,7 @@ U kunt een eenvoudige container toevoegen waarin u een andere inhoudscomponent t
 
 Voeg bijvoorbeeld een **[!UICONTROL Container]** en voegt vervolgens een [Knop](#button) in die container. U kunt een specifieke achtergrond voor de container, en een andere voor de knoop gebruiken.
 
-![](assets/email_designer_container_component.png)
+![](assets/email_designer_container_component.png){zoomable=&quot;yes&quot;}
 
 ## Knop {#buttons}
 
@@ -73,11 +72,11 @@ Gebruik de **[!UICONTROL Button]** om een of meerdere knoppen in te voegen in uw
 
 1. Van de **[!UICONTROL Contents]** de lijst, slepen en neerzetten **[!UICONTROL Button]** in een **[!UICONTROL Structure]** component.
 
-   ![](assets/email_designer_13.png)
+   ![](assets/email_designer_13.png){zoomable=&quot;yes&quot;}
 
 1. Klik op de knop die u net hebt toegevoegd om de tekst aan te passen en toegang te krijgen tot de knop **[!UICONTROL Settings]** en **[!UICONTROL Styles]** tabs.
 
-   ![](assets/email_designer_14.png)
+   ![](assets/email_designer_14.png){zoomable=&quot;yes&quot;}
 
 1. Van de **[!UICONTROL Settings]** tabs, in de **[!UICONTROL URL]** , voegt u de URL toe waarnaar u wilt omleiden wanneer u op de knop klikt.
 
@@ -89,7 +88,7 @@ Gebruik de **[!UICONTROL Button]** om een of meerdere knoppen in te voegen in uw
    * **[!UICONTROL Parent]**: hiermee opent u de koppeling in het bovenliggende frame.
    * **[!UICONTROL Top]**: hiermee opent u de koppeling in de volledige tekst van het venster.
 
-   ![](assets/email_designer_15.png)
+   ![](assets/email_designer_15.png){zoomable=&quot;yes&quot;}
 
 1. U kunt de knop verder aanpassen door opmaakkenmerken zoals **[!UICONTROL Border]**, **[!UICONTROL Size]**, **[!UICONTROL Margin]**, enz. van de **[!UICONTROL Styles]** tab.
 
@@ -99,13 +98,13 @@ Gebruik de **[!UICONTROL Text]** om tekst in te voegen in uw e-mail, en de stijl
 
 1. Van de **[!UICONTROL Contents]** menu, slepen en neerzetten **[!UICONTROL Text]** in een **[!UICONTROL Structure]** component.
 
-   ![](assets/email_designer_11.png)
+   ![](assets/email_designer_11.png){zoomable=&quot;yes&quot;}
 
 1. Klik op de nieuwe component om de tekst aan te passen en toegang te krijgen tot de component **[!UICONTROL Settings]** en **[!UICONTROL Styles]** tabs.
 
 1. Wijzig de tekst met de volgende opties beschikbaar op de contextafhankelijke werkbalk:
 
-   ![](assets/email_designer_27.png)
+   ![](assets/email_designer_27.png){zoomable=&quot;yes&quot;}
 
    * **[!UICONTROL Change text style]**: pas de tekst vet, cursief, onderstrepen of doorhalen.
    * **Uitlijning wijzigen**: kies tussen de uitlijning Links, Rechts, Centreren of Uitvullen voor de tekst.
@@ -121,7 +120,7 @@ Gebruik de **[!UICONTROL Text]** om tekst in te voegen in uw e-mail, en de stijl
 
 1. Pas de andere opmaakkenmerken aan, zoals tekstkleur, lettertypefamilie, rand, opvulling, marge, enzovoort. van de **[!UICONTROL Styles]** tab.
 
-   ![](assets/email_designer_12.png)
+   ![](assets/email_designer_12.png){zoomable=&quot;yes&quot;}
 
 ## Scheidingslijn {#divider}
 
@@ -129,7 +128,7 @@ Gebruik de **[!UICONTROL Divider]** om een scheidingslijn in te voegen om de lay
 
 U kunt opmaakkenmerken zoals lijnkleur, -stijl en -hoogte aanpassen vanuit het dialoogvenster **[!UICONTROL Styles]** tab.
 
-![](assets/email_designer_16.png)
+![](assets/email_designer_16.png){zoomable=&quot;yes&quot;}
 
 ## HTML {#HTML}
 
@@ -137,11 +136,11 @@ Gebruik de **[!UICONTROL HTML]** om de verschillende onderdelen van uw bestaande
 
 1. Van **[!UICONTROL Components]**, slepen en neerzetten **[!UICONTROL HTML]** in een **[!UICONTROL Structure]** component.
 
-   ![](assets/email_designer_22.png)
+   ![](assets/email_designer_22.png){zoomable=&quot;yes&quot;}
 
 1. Klik op de zojuist toegevoegde component en selecteer vervolgens **[!UICONTROL Show the source code]** van de contextafhankelijke werkbalk om uw HTML toe te voegen.
 
-   ![](assets/email_designer_23.png)
+   ![](assets/email_designer_23.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -153,26 +152,26 @@ Gebruik de **[!UICONTROL Image]** om een afbeeldingsbestand van uw computer in t
 
 1. Van de **[!UICONTROL Content]** menu, slepen en neerzetten **[!UICONTROL Image]** in een **[!UICONTROL Structure]** component.
 
-   ![](assets/email_designer_9.png)
+   ![](assets/email_designer_9.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **[!UICONTROL Browse]** om een afbeeldingsbestand te kiezen uit uw elementen. U kunt ook **[!UICONTROL Import your media]**.
 
    Raadpleeg voor meer informatie over het uploaden en toevoegen van middelen in Adobe Experience Manager de [Adobe Experience Manager as a Cloud Service-documentatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
 
-   ![](assets/email_designer_28.png)
+   ![](assets/email_designer_28.png){zoomable=&quot;yes&quot;}
 
 1. Navigeer door uw mappen naar het specifieke element dat u nodig hebt of zoek het efficiënt met de zoekbalk.
 
    Nadat u het gewenste element hebt gevonden, klikt u op **[!UICONTROL Select]**.
 
-   ![](assets/email_designer_29.png)
+   ![](assets/email_designer_29.png){zoomable=&quot;yes&quot;}
 
 1. Klik op de nieuwe component en stel de afbeeldingseigenschappen in met de opdracht **[!UICONTROL Settings]** tab:
 
    * **[!UICONTROL Image title]** Hiermee kunt u een titel voor de afbeelding definiëren.
    * **[!UICONTROL Alt text]** Hiermee kunt u het bijschrift definiëren dat aan de afbeelding is gekoppeld. Dit komt overeen met het kenmerk alt HTML.
 
-   ![](assets/email_designer_10.png)
+   ![](assets/email_designer_10.png){zoomable=&quot;yes&quot;}
 
 1. U kunt een koppeling toevoegen om de doelgroep om te leiden naar andere inhoud. [Meer informatie](message-tracking.md)
 
@@ -188,13 +187,13 @@ Gebruik de **[!UICONTROL Social]** om koppelingen naar pagina&#39;s met sociale 
 
 1. In de **[!UICONTROL Social]** van het **[!UICONTROL Settings]** kiest u welke sociale media u wilt toevoegen of verwijderen.
 
-   ![](assets/email_designer_20.png)
+   ![](assets/email_designer_20.png){zoomable=&quot;yes&quot;}
 
 1. Kies de grootte van de pictogrammen in het dialoogvenster **[!UICONTROL Size of images]** veld.
 
 1. Klik op elk van uw pictogrammen voor sociale media om de **[!UICONTROL URL]** waarnaar uw publiek wordt omgeleid.
 
-   ![](assets/email_designer_21.png)
+   ![](assets/email_designer_21.png){zoomable=&quot;yes&quot;}
 
 1. U kunt de pictogrammen van elk van uw sociale media desgewenst ook wijzigen in het dialoogvenster **[!UICONTROL Source]** veld.
 

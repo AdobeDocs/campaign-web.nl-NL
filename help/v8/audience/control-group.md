@@ -3,10 +3,9 @@ audience: end-user
 title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het gebruikersinterface van het Web van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '792'
 ht-degree: 7%
 
 ---
@@ -67,7 +66,7 @@ Bijvoorbeeld, om een controlegroep met de 100 nieuwe jongste ontvangers tot stan
 1. Voeg de **Aanmaakdatum** veld. Wijzigen in de **Aflopend** sorteeroptie.
 1. Definieer 100 als de drempel in het dialoogvenster **Groottebeperking** sectie.
 
-   ![](assets/control-group2.png)
+   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
 Deze 100 nieuwe jongste ontvangers worden dan uitgesloten van het hoofddoel.
 
@@ -75,27 +74,27 @@ Deze 100 nieuwe jongste ontvangers worden dan uitgesloten van het hoofddoel.
 
 U kunt de logboeken bekijken om de uitgesloten profielen te controleren en te identificeren. Laten we het voorbeeld nemen van een willekeurige uitsluiting op vijf profielen.
 
-![](assets/control-group4.png)
+![](assets/control-group4.png){zoomable=&quot;yes&quot;}
 
 Na de voorbereiding van de levering kunt u bekijken hoe de uitsluitingen werden toegepast:
 
 * Controleer in het bezorgdashboard, vóór de verzending, het **Uitsluiten** KPI.
 
-  ![](assets/control-group5.png)
+  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
 
 * In de leveringslogboeken, toont het lusje van Logs de uitsluitingsstap.
 
-  ![](assets/control-group-sample-logs.png)
+  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
 
-    ![](assets/control-group6.png)
+    ![](assets/control-group6.png){zoomable="yes"}
 -->
 
 * De **Uitsluiting veroorzaakt** wordt het aantal uitgesloten profielen voor elke typeregel weergegeven.
 
-  ![](assets/control-group7.png)
+  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
 
 Voor meer informatie over leveringslogboeken, verwijs naar dit [sectie](../monitor/delivery-logs.md).
 
@@ -110,7 +109,7 @@ Een andere manier om een controlegroep te bepalen is een specifieke bevolking in
 
 Van de **Extra populatie** van de **Controlegroep** definitiescherm, klik **[!UICONTROL Select Audience]** knop.
 
-![](assets/control-group3.png)
+![](assets/control-group3.png){zoomable=&quot;yes&quot;}
 
 * Om een bestaand publiek te gebruiken, klik **Doelgroep selecteren**. Meer informatie in [deze sectie](add-audience.md).
 

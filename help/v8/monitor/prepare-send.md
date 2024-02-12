@@ -3,10 +3,9 @@ audience: end-user
 title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de gebruikersinterface van het Web voor campagne
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '866'
 ht-degree: 1%
 
 ---
@@ -26,12 +25,12 @@ De belangrijkste stappen voor het voorbereiden van de verzending worden hieronde
 
 1. Van het leveringsdashboard, klik **[!UICONTROL Review and send]**.
 
-   ![](assets/email-review-and-send.png)
+   ![](assets/email-review-and-send.png){zoomable=&quot;yes&quot;}
 
 
 1. Klik op de knop **[!UICONTROL Prepare]** in de rechterbovenhoek en bevestig.
 
-   ![](assets/email-prepare.png)
+   ![](assets/email-prepare.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -41,14 +40,14 @@ De belangrijkste stappen voor het voorbereiden van de verzending worden hieronde
 
    U kunt de bereiding op elk gewenst moment stoppen met de **[!UICONTROL Stop preparation]** knop.
 
-   ![](assets/email-stop-preparation.png)
+   ![](assets/email-stop-preparation.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >Tijdens de voorbereidingsfase worden geen berichten verzonden. U kunt dit daarom starten of stoppen zonder het risico te lopen iets te beïnvloeden.
 
 1. Controleer de PKI&#39;s wanneer de bereiding is voltooid. Als het aantal berichten dat u wilt verzenden niet overeenkomt met uw verwachtingen, wijzigt u het publiek en start u de voorbereiding opnieuw.
 
-   ![](assets/email-preparation-complete.png)
+   ![](assets/email-preparation-complete.png){zoomable=&quot;yes&quot;}
 
    Hier worden de verschillende KPI&#39;s weergegeven:
 
@@ -58,11 +57,11 @@ De belangrijkste stappen voor het voorbereiden van de verzending worden hieronde
 
 1. Klik op de knop **[!UICONTROL Logs]** en controleert u of er geen fout optreedt. In het laatste logbericht worden foutberichten en het aantal fouten weergegeven. [Meer informatie](delivery-logs.md)
 
-   ![](assets/email-prepare-logs.png)
+   ![](assets/email-prepare-logs.png){zoomable=&quot;yes&quot;}
 
 1. Als in het preparaat een kritieke fout wordt aangetroffen waardoor de levering niet kan worden verzonden, wordt de status van het preparaat in het leveringsdashboard weergegeven als mislukt.
 
-   ![](assets/email-prepare-error.png)
+   ![](assets/email-prepare-error.png){zoomable=&quot;yes&quot;}
 
 1. Als u na de bereiding wijzigingen aanbrengt in uw aflevering, moet u de voorbereiding opnieuw starten om met deze wijzigingen rekening te houden.
 
@@ -81,7 +80,7 @@ Voer de onderstaande stappen uit als u direct een e-mail wilt verzenden.
 
 1. Klik op het leveringdashboard op de knop **[!UICONTROL Send]** in de rechterbovenhoek
 
-   ![](assets/email-send.png)
+   ![](assets/email-send.png){zoomable=&quot;yes&quot;}
 
 1. Bevestig deze actie om het bericht aan het belangrijkste doel onmiddellijk te verzenden.
 
@@ -95,7 +94,7 @@ Voer de onderstaande stappen uit als u uw e-mail op een latere datum en tijd wil
 
 1. Klik op het leveringdashboard op de knop **[!UICONTROL Send as scheduled button]** in de rechterbovenhoek
 
-   ![](assets/email-send-as-scheduled.png)
+   ![](assets/email-send-as-scheduled.png){zoomable=&quot;yes&quot;}
 
 1. Klik op **[!UICONTROL Confirm sending]**. De levering zal op de geplande datum aan het belangrijkste doel worden verzonden.
 
@@ -111,7 +110,7 @@ Of je levering gepland is of niet<!--TBC-->, kunnen twee acties op elk moment ti
 
 * Klikken **[!UICONTROL Stop sending]** om het verzenden onmiddellijk te onderbreken. Na stopzetting kan noch de bereiding noch de verzending worden hervat.
 
-![](assets/email-send-pause-or-stop.png)
+![](assets/email-send-pause-or-stop.png){zoomable=&quot;yes&quot;}
 
 ## De KPI&#39;s controleren {#check-kpis}
 
@@ -151,7 +150,7 @@ Of je levering gepland is of niet<!--TBC-->, kunnen twee acties op elk moment ti
 
 Zodra verzenden volledig is, kunt u getoonde KPIs controleren:
 
-![](assets/email-send-kpis.png)
+![](assets/email-send-kpis.png){zoomable=&quot;yes&quot;}
 
 * **[!UICONTROL Sent]**: het aantal geleverde berichten. Het getoonde percentage is gebaseerd op het totale aantal te leveren berichten.
 

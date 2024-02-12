@@ -2,12 +2,11 @@
 audience: end-user
 title: Campagnes maken met Adobe Campaign Web
 description: Meer informatie over het maken van kanaalcampagnes met Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: a6e01470-73e5-4973-aa6a-9836a6ee1cd2
-source-git-commit: 80e9937fcac0f1e66c317d3d31efab0d5f6ae2d8
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 1%
+source-wordcount: '435'
+ht-degree: 0%
 
 ---
 

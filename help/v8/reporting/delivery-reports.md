@@ -3,11 +3,10 @@ audience: end-user
 title: Leveringsrapporten
 description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: ac9a7918045e7ff02ef27c348b28a6ce09802caf
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 1%
+source-wordcount: '248'
+ht-degree: 0%
 
 ---
 
@@ -36,24 +35,24 @@ Voer de volgende stappen uit om rapporten weer te geven en te beheren:
 
 1. Van uw **[!UICONTROL Delivery]** dashboard, klik **[!UICONTROL Reports]**.
 
-   ![](assets/manage_delivery_report_1.png)
+   ![](assets/manage_delivery_report_1.png){zoomable=&quot;yes&quot;}
 
    U kunt ook de drie stippen gebruiken **Meer handelingen** naast de naam van de levering in de lijst met leveringen en selecteer **[!UICONTROL View report]**.
 
-   ![](assets/manage_delivery_report_2.png)
+   ![](assets/manage_delivery_report_2.png){zoomable=&quot;yes&quot;}
 
 1. Selecteer in het linkermenu een rapport in de lijst.
 
-   ![](assets/manage_delivery_report_3.png)
+   ![](assets/manage_delivery_report_3.png){zoomable=&quot;yes&quot;}
 
 1. Als uw levering terugkomt, selecteer een specifieke levering aan rapport door te klikken **[!UICONTROL Select deliveries]**.
 
    U kunt ook een tijdsperiode op uw rapport toepassen door de optie **[!UICONTROL Contact date]**.
 
-   ![](assets/delivery-recurring.png)
+   ![](assets/delivery-recurring.png){zoomable=&quot;yes&quot;}
 
 1. Van de **[!UICONTROL URLs and click streams]** kunt u ook de optie **[!UICONTROL Top visited Links]** of de **[!UICONTROL Time period]**.
 
    De **[!UICONTROL View by]** kunt u filteren op URL&#39;s, labels of categorieën.
 
-   ![](assets/manage_delivery_report_5.png)
+   ![](assets/manage_delivery_report_5.png){zoomable=&quot;yes&quot;}

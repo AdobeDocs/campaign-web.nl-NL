@@ -3,10 +3,9 @@ audience: end-user
 title: E-mails ontwerpen in de e-mailontwerper
 description: Leer hoe u uw e-mailinhoud helemaal zelf ontwerpt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -60,7 +59,7 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 1. Van de [E-mailDesigner](get-started-email-designer.md#start-authoring) homepage, selecteer **[!UICONTROL Design from scratch]** -optie.
 
-   ![](assets/email_designer-from-scratch.png)
+   ![](assets/email_designer-from-scratch.png){zoomable=&quot;yes&quot;}
 
 1. Begin met het ontwerpen van uw e-mailinhoud door te slepen en neer te zetten **[!UICONTROL Structures]** in het canvas om de lay-out van uw e-mail te definiëren.
 
@@ -70,7 +69,7 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 1. Zoveel toevoegen **[!UICONTROL Structures]** en bewerk de instellingen in het daarvoor bestemde venster aan de rechterkant.
 
-   ![](assets/email_designer_structure_components.png)
+   ![](assets/email_designer_structure_components.png){zoomable=&quot;yes&quot;}
 
 1. U kunt de **[!UICONTROL n:n column]** om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
 
@@ -82,7 +81,7 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 1. Elke component kan verder worden aangepast met de **[!UICONTROL Settings]** of **[!UICONTROL Style]** aan de rechterkant. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
 
-   ![](assets/email_designer-styles.png)
+   ![](assets/email_designer-styles.png){zoomable=&quot;yes&quot;}
 
 1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. [Meer informatie over content personalization](../personalization/personalize.md)
 
@@ -92,7 +91,7 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 [Meer informatie over koppelingen en berichtregistratie](message-tracking.md)
 
-   ![](assets/email_designer-links.png)
+   ![](assets/email_designer-links.png){zoomable=&quot;yes&quot;}
 
 1. Indien nodig kunt u uw e-mail verder aanpassen door op **[!UICONTROL Switch to code editor]** in het geavanceerde menu. Op deze manier kunt u de broncode van de e-mail bewerken, bijvoorbeeld door tags voor bijhouden of aangepaste HTML toe te voegen. [Meer informatie over de code-editor](code-content.md)
 
@@ -102,7 +101,7 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 1. Wanneer de inhoud gereed is, klikt u op **[!UICONTROL Simulate content]** om de rendering van uw e-mail te controleren. U kunt kiezen voor de weergave Computer of Mobiel. [Meer informatie over een voorbeeld van uw e-mail](../preview-test/preview-test.md)
 
-   ![](assets/email_designer-simulate.png)
+   ![](assets/email_designer-simulate.png){zoomable=&quot;yes&quot;}
 
 1. Wanneer uw e-mail gereed is, klikt u op **[!UICONTROL Save]**.
 

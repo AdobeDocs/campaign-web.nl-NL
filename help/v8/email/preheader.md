@@ -3,11 +3,10 @@ audience: end-user
 title: Een voorkop toevoegen in de e-mailontwerper
 description: Leer hoe u e-mailinhoud ontwerpt
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: ffca12b85a7de30e90b0554560a4245337b35e6b
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -32,17 +31,17 @@ Voer de onderstaande stappen uit om de e-mailvoorheader te definiëren.
 
 1. Klik op de knop **[!UICONTROL Navigation tree]** pictogram in het linkervenster en selecteer **[!UICONTROL Body]**.
 
-   ![](assets/preheader_body.png)
+   ![](assets/preheader_body.png){zoomable=&quot;yes&quot;}
 
 1. Van de **[!UICONTROL Settings]** voert u tekst in voor de preheader.
 
 1. Klik op de knop **[!UICONTROL Add personalization]** links van het pictogram **[!UICONTROL Preheader]** veld.
 
-   ![](assets/preheader_body_settings.png)
+   ![](assets/preheader_body_settings.png){zoomable=&quot;yes&quot;}
 
 1. Van de **[!UICONTROL Edit Personalization]** venster kunt toevoegen [personalisatievelden](../personalization/personalize.md), [inhoudsblokken](../personalization/content-blocks.md) en [voorwaardelijke inhoud](../personalization/conditions.md) met behulp van de toegewijde vermeldingen aan de linkerkant.
 
-   ![](assets/preheader_body_personalization.png)
+   ![](assets/preheader_body_personalization.png){zoomable=&quot;yes&quot;}
 
 1. Klik op **[!UICONTROL Confirm]**.
 

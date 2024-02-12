@@ -2,11 +2,10 @@
 audience: end-user
 title: Bladeren en lijsten filteren
 description: Ontdek hoe u kunt bladeren en filteren in lijsten met Campagne Web v8
-badge: label="Beperkte beschikbaarheid"
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -19,17 +18,17 @@ De meeste koppelingen in het linkernavigatiemenu bevatten lijsten met objecten, 
 
 De lijsten worden weergegeven in kolommen. U kunt extra informatie tonen door de kolomconfiguratie te veranderen. Om dit te doen, klik **Kolom voor een aangepaste indeling configureren** in de rechterbovenhoek van de lijst.
 
-![](assets/config-columns.png){width="70%" align="left" zoomable="yes"}
+![](assets/config-columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 In de **Kolommen configureren** , kolommen toevoegen of verwijderen en de volgorde wijzigen waarin ze worden weergegeven.
 
 Voor bijvoorbeeld deze instellingen:
 
-![](assets/columns.png){width="70%" align="left" zoomable="yes"}
+![](assets/columns.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 In de lijst worden de volgende kolommen weergegeven:
 
-![](assets/column-sample.png){width="70%" align="left" zoomable="yes"}
+![](assets/column-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 ## Gegevens sorteren {#sort-lists}
 
@@ -41,7 +40,7 @@ Voor numerieke kolommen of datumkolommen geldt het **Omhoog** De pijl geeft aan 
 
 Als u sneller naar items wilt zoeken, kunt u de zoekbalk of ingebouwde en aangepaste filters gebruiken om de lijst aan te passen op basis van contextuele criteria.
 
-![](assets/filter.png){width="70%" align="left" zoomable="yes"}
+![](assets/filter.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 Gedetailleerde informatie over het gebruik van filters en het maken van uw eigen aangepaste filters is beschikbaar in [deze sectie](../query/filter.md).
 
@@ -69,5 +68,5 @@ Only most common attributes are displayed by default in the attribute list and f
 Activate the **Display advanced attributes** toggle to see all available attributes for the current list in the left palette of the rule builder, such as nodes, groupings, 1-1 links, 1-N links. The attribute list is updated instantly.
 
 
-![](assets/adv-toggle.png){width="70%" align="left" zoomable="yes"}
+![](assets/adv-toggle.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 -->

@@ -3,11 +3,10 @@ audience: end-user
 title: Aan de slag met bestemmingspagina's
 description: Meer informatie over het landen van pagina's in het campagneweb
 feature: Landing Pages
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7e9195929c8e408b039da9f84594f5066f0c24fb
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 5%
+source-wordcount: '269'
+ht-degree: 4%
 
 ---
 

@@ -3,10 +3,9 @@ audience: end-user
 title: Testleveringen verzenden
 description: Leer hoe u testleveringen definieert en verzendt
 exl-id: b2677579-c95d-443d-b207-466af364c208
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7b42927b689bfc762c61fa52e4af23e8c283f486
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1146'
 ht-degree: 1%
 
 ---
@@ -37,7 +36,7 @@ Uw berichtinhoud testen:
 1. Klik op de knop **[!UICONTROL Simulate content]**.
 1. Klik op de knop **[!UICONTROL Test]** om testleveringen te verzenden.
 
-   ![](assets/simulate-test-button-email.png)
+   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
 
 1. Selecteer de testontvangers.
 
@@ -81,7 +80,7 @@ De stappen om testleveringen naar zaadadressen te verzenden zijn hieronder gedet
 
 1. Van de **[!UICONTROL Mode]** vervolgkeuzelijst kiest u **[!UICONTROL Test profiles]** om fictieve ontvangers te richten die de test e-mail of levering van SMS zullen ontvangen.
 
-   ![](assets/simulate-profile-mode.png)
+   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -91,13 +90,13 @@ De stappen om testleveringen naar zaadadressen te verzenden zijn hieronder gedet
 
 1. Wanneer u door het testprofiel of de profiellijsten bladert, kunt u filters gebruiken om uw zoekopdracht te verfijnen.
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    U kunt bijvoorbeeld een regel definiëren om alle testprofielen te zoeken die **[!UICONTROL Prospect]** status. Leer hoe u regels kunt toevoegen met de opdracht [querymodel](../query/query-modeler-overview.md).
 
 1. Om het definitieve bericht aan de ontvangers van de testlevering ook te verzenden, selecteer **[!UICONTROL Include test population in the main target]** -optie.
 
-   ![](assets/simulate-include-test.png)
+   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
 
 1. Nadat de testprofielen zijn geselecteerd, kunt u [verzendt de testlevering](#send-test).
 
@@ -118,7 +117,7 @@ Voer de volgende stappen uit om profielgegevens van het hoofddoel te vervangen:
 
 1. Klik op de knop **[!UICONTROL Add address]** en geeft u het e-mailadres of telefoonnummer op dat de testlevering ontvangt.
 
-   ![](assets/simulate-add-substitution-address.png)
+   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -128,7 +127,7 @@ Voer de volgende stappen uit om profielgegevens van het hoofddoel te vervangen:
 
 1. Bevestig de ontvanger en herhaal de bewerking om zoveel e-mailadressen of telefoonnummers toe te voegen als nodig is.
 
-   ![](assets/simulate-profile-substitute.png)
+   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
 
 1. Om het definitieve bericht aan de ontvangers van de testlevering ook te verzenden, selecteer **[!UICONTROL Include test population in the main target]** -optie.
 
@@ -140,13 +139,13 @@ Bij het ontwerpen met pushberichten kunnen testleveringen alleen naar abonnees v
 
 1. Klik op de knop **[!UICONTROL Simulate content]** en de **[!UICONTROL Test]** knop.
 
-   ![](assets/simulate-test-button-push.png)
+   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
 
 1. Als u al abonnees hebt geselecteerd op [voorvertoning van de levering](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testabonnees.
 
    U kunt uw selectie wissen en/of extra abonnees toevoegen met behulp van de toegewezen knop.
 
-   ![](assets/simulate-test-subscribers.png)
+   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
 
 1. Als u het laatste pushbericht ook naar de testabonnees wilt verzenden, selecteert u de optie **[!UICONTROL Include test population in the main target]** -optie.
 
@@ -160,7 +159,7 @@ Volg onderstaande stappen om de testlevering naar de geselecteerde ontvangers te
 
 1. Bevestig de verzendende.
 
-   ![](assets/simulate-send-test.png)
+   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
 
 1. Verzend zoveel tests als nodig zijn tot u de inhoud van uw levering hebt voltooid.
 
@@ -176,8 +175,8 @@ Zodra de testleveringen zijn verzonden, kunt u toegang krijgen tot toegewezen lo
 
 Deze logboeken staan u toe om tot alle tests toegang te hebben die voor de geselecteerde levering worden verzonden, en om specifieke statistieken met betrekking tot hun verzending te visualiseren. [Leer hoe u leveringslogboeken kunt controleren](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png)
+![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
 
 U kunt tot verzonden tests van ook toegang hebben [leveringslijst](../msg/gs-messages.md), zoals elke levering.
 
-![](assets/simulate-deliveries-list.png)
+![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}

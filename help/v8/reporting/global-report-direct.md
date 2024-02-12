@@ -2,10 +2,9 @@
 audience: end-user
 title: Algemene rapporten voor het directe-mailkanaal
 description: Meer informatie over Global-rapporten voor het directe e-mailkanaal
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '579'
 ht-degree: 1%
 
 ---
@@ -22,7 +21,7 @@ Ga naar de **[!UICONTROL Reports]** in het menu **[!UICONTROL Reporting]** secti
 
 De **[!UICONTROL Delivery Overview]** biedt belangrijke prestatiemetriek (KPIs) die diepgaande inzichten in de interactie van uw bezoekers met elke e-maillevering aanbieden. De meetgegevens worden hieronder beschreven.
 
-![](assets/global_report_email_delivery_overview.png){align="center"}
+![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++ Meer informatie over overzichtsmetriek voor levering.
 
@@ -39,7 +38,7 @@ De **[!UICONTROL Delivery Overview]** biedt belangrijke prestatiemetriek (KPIs) 
 
 De tabel en grafiek voor **[!UICONTROL Targeted Audience]** showcase-gegevens over uw ontvangers, met gedetailleerde hieronder verstrekte gegevens.
 
-![](assets/global_report_email_targeted_audience.png){align="center"}
+![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++ Meer informatie over de meetgegevens voor doelgroepen.
 
@@ -55,7 +54,7 @@ De tabel en grafiek voor **[!UICONTROL Targeted Audience]** showcase-gegevens ov
 
 De **[!UICONTROL Delivery statistics]** de tabel geeft een overzicht van het succes van elke directe postbestelling , met de hieronder beschreven gedetailleerde cijfers .
 
-![](assets/global_report_email_delivery_statistics.png){align="center"}
+![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++ Meer informatie over de statistieken van de Levering metriek.
 
@@ -71,7 +70,7 @@ De **[!UICONTROL Delivery statistics]** de tabel geeft een overzicht van het suc
 
 ### Oorzaken van uitsluiting {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){align="center"}
+![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 In de grafiek en de tabel met uitsluitingen worden de redenen weergegeven waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
 

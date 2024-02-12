@@ -3,11 +3,10 @@ audience: end-user
 title: De tekstversie van een e-mailbericht maken
 description: Leer hoe u de tekstversie van een e-mailbericht maakt
 exl-id: 8d0ce346-64a6-4adf-9f2d-36a900db797f
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 1%
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +20,15 @@ Als u liever een andere inhoud gebruikt voor de versie zonder opmaak, voert u de
 
 1. Selecteer de optie **[!UICONTROL Plain text]** tab.
 
-   ![](assets/text_version_3.png)
+   ![](assets/text_version_3.png){zoomable=&quot;yes&quot;}
 
 1. Gebruik de **[!UICONTROL Sync with HTML]** schakelen om synchronisatie uit te schakelen.
 
-   ![](assets/text_version_1.png)
+   ![](assets/text_version_1.png){zoomable=&quot;yes&quot;}
 
 1. Klik op het vinkje om uw keuze te bevestigen.
 
-   ![](assets/text_version_2.png)
+   ![](assets/text_version_2.png){zoomable=&quot;yes&quot;}
 
 1. Vervolgens kunt u de versie zonder tekst naar wens bewerken.
 

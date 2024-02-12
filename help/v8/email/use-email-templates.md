@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 114c482f-8291-418a-bd81-667f40267a7d
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 1%
+source-wordcount: '238'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +19,7 @@ ht-degree: 1%
 
 Wanneer [een e-mail maken](../email/create-email.md), gebruikt u de **[!UICONTROL Select design template]** van de **[!UICONTROL Create your email]** interface om uw inhoud van een malplaatje te beginnen bouwen.
 
-![](assets/email_designer-templates.png)
+![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
 
 U kunt kiezen uit:
 
@@ -42,17 +41,17 @@ Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van d
 
 1. Als u een bestaande aangepaste sjabloon wilt gebruiken, bladert u naar de **[!UICONTROL Saved templates]** tab.
 
-   ![](assets/email_designer-saved-templates-tab.png)
+   ![](assets/email_designer-saved-templates-tab.png){zoomable=&quot;yes&quot;}
 
 1. De lijst van alle [opgeslagen sjablonen](#save-as-template) worden weergegeven. U kunt ze sorteren **[!UICONTROL By name]**, **[!UICONTROL Last modified]** en **[!UICONTROL Last created]**.
 
-   ![](assets/email_designer-saved-templates.png)
+   ![](assets/email_designer-saved-templates.png){zoomable=&quot;yes&quot;}
 
 1. Selecteer een sjabloon in de lijst om de inhoud ervan weer te geven.
 
 1. Gebruik de rechter- en linkerpijlen om tussen de sjablonen te navigeren (voorbeeld of opgeslagen afhankelijk van uw selectie).
 
-   ![](assets/email_designer-saved-templates-navigate.png)
+   ![](assets/email_designer-saved-templates-navigate.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **[!UICONTROL Use this template]** rechtsboven op het scherm.
 

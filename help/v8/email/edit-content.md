@@ -3,11 +3,10 @@ audience: end-user
 title: De e-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud bewerkt in de gebruikersinterface van het Campagne Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 1%
+source-wordcount: '599'
+ht-degree: 0%
 
 ---
 
@@ -48,11 +47,11 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
 1. Klik op de knop **[!UICONTROL Edit content]** van de knop [dashboard voor e-maillevering](../email/create-email.md) scherm.
 
-   ![](assets/email-edit-content-button.png)
+   ![](assets/email-edit-content-button.png){zoomable=&quot;yes&quot;}
 
 1. Het e-mailinhoudsopgavescherm wordt geopend.
 
-   ![](assets/email-edit-content-dashboard.png)
+   ![](assets/email-edit-content-dashboard.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -72,7 +71,7 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
 1. Breid uit **[!UICONTROL Reply-to fields]** sectie. De naam en het adres van de afzender worden door gebrek gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
 
-   ![](assets/email-edit-content-reply-to.png)
+   ![](assets/email-edit-content-reply-to.png){zoomable=&quot;yes&quot;}
 
 1. De e-mail definiëren **[!UICONTROL Subject line]**. Typ het onderwerp rechtstreeks in het desbetreffende veld of open de Expressieeditor om het toe te voegen [personalisatie](../personalization/personalize.md) het gebruiken van diverse attributen en inhoudsblokken, of aanbiedingen.
 

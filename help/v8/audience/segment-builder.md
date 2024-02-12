@@ -3,10 +3,9 @@ audience: end-user
 title: Een publiek maken met de bouwer van de campagneregel
 description: Leer hoe te met de regelbouwer te werken
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-badge: label="Beta"
-source-git-commit: 51f29840941974f05a930023e41adb1bb2558974
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -22,7 +21,7 @@ De regelbouwer staat u toe om de bevolking te bepalen die door uw levering wordt
 
 Het palet aan de linkerkant bevat alle elementen waarop u kunt filteren om een publiek te maken. U kunt de zoekbalk gebruiken om snel naar elementen te zoeken. De tegels in het palet moeten naar het middelste canvas worden verplaatst om geconfigureerd en meegenomen te kunnen worden.
 
-![](assets/segment-builder2.png){width="70%" align="left"}
+![](assets/segment-builder2.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 Het palet bestaat uit twee tabbladen:
 
@@ -38,13 +37,13 @@ Het palet bestaat uit twee tabbladen:
 
 Het canvas is de centrale zone waarin u regels kunt configureren en combineren op basis van de elementen die vanuit het palet worden toegevoegd. Als u een nieuwe regel wilt toevoegen, sleept u een tegel uit het palet en zet u deze neer op het canvas. Vervolgens kunt u contextspecifieke opties weergeven, afhankelijk van het type gegevens dat wordt toegevoegd.
 
-![](assets/segment-builder4.png){width="70%" align="left"}
+![](assets/segment-builder4.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## Het deelvenster Eigenschappen van regel
 
 Aan de rechterkant **Eigenschappen van Rule** kunt u de hieronder vermelde handelingen uitvoeren.
 
-![](assets/segment-builder5.png){width="70%" align="left"}
+![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 * **Resultaten weergeven:** geeft de lijst weer van ontvangers die het doelpubliek als doel heeft.
 * **Codeweergave**: geeft een op code gebaseerde versie van het publiek in SQL weer.
@@ -64,26 +63,26 @@ In dit voorbeeld bouwen we een publiek dat gericht is op alle klanten die in Atl
 
 1. In de **Attributen** tabblad van het palet, zoekt u naar de **Geboortedatum** veld. Sleep de tegel naar het canvas.
 
-   ![](assets/segment-builder6.png)
+   ![](assets/segment-builder6.png){zoomable=&quot;yes&quot;}
 
 1. Kies op het canvas de optie **Na** en voert u de gewenste datum in.
 
-   ![](assets/segment-builder7.png)
+   ![](assets/segment-builder7.png){zoomable=&quot;yes&quot;}
 
 1. Zoek in het palet naar de **Plaats** en voeg het toe aan het canvas onder de eerste regel.
 
-   ![](assets/segment-builder8.png)
+   ![](assets/segment-builder8.png){zoomable=&quot;yes&quot;}
 
 1. Voer in het tekstveld de naam van de eerste plaats in en druk op Enter.
 
-   ![](assets/segment-builder9.png)
+   ![](assets/segment-builder9.png){zoomable=&quot;yes&quot;}
 
 1. Herhaal deze handeling voor de tweede plaatsnaam.
 
-   ![](assets/segment-builder10.png)
+   ![](assets/segment-builder10.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **Resultaten weergeven** om de lijst en het aantal ontvangers te tonen die de vraag aanpassen. U kunt ook kolommen toevoegen om de gegevens te visualiseren en te controleren. Voeg in ons voorbeeld de opdracht **Plaats** kolom en zie Atlanta en Seattle.
 
-   ![](assets/segment-builder11.png)
+   ![](assets/segment-builder11.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **Bevestigen**.

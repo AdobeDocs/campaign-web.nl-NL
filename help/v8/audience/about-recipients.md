@@ -1,8 +1,7 @@
 ---
 title: Aan de slag met profielen
 description: Leer om profielen in het Web van de Campagne te controleren en te beheren.
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -35,7 +34,7 @@ ht-degree: 0%
 
 A **profiel**, ook wel bekend als &quot;ontvangers&quot; in de clientconsole, vertegenwoordigt een individu dat is opgeslagen in de Campagne-database en dat fungeert als een sleutelcomponent voor [publiek maken](create-audience.md) voor leveringen en [personalisatie toevoegen](../personalization/personalize.md) gegevens naar uw inhoud. Met Adobe Campaign kunt u profielen naadloos beheren, van het maken van nieuwe vermeldingen tot het openen van een uitgebreide weergave van alle kenmerken en abonnementen van profielen en services, allemaal via de gebruikersinterface van het webpagina voor campagnes.
 
-Bovendien **[!UICONTROL test profiles]**, geïdentificeerd als &quot;zaadprofielen&quot;in de cliëntconsole, staat u toe om extra ontvangers te richten die niet de het richten criteria van een bepaalde levering aanpassen. Deze profielen bevatten fictieve contactinformatie, of contactinformatie die door de afzender wordt gecontroleerd. U kunt deze toevoegen aan het publiek van een bericht om te controleren of uw database van ontvangers op frauduleuze wijze wordt gebruikt of om ervoor te zorgen dat de e-mails in de postvakken worden binnengebracht. [Leer hoe u met testprofielen werkt](test-profiles.md)
+Bovendien **[!UICONTROL test profiles]**, geïdentificeerd als &quot;zaadprofielen&quot;in de cliëntconsole, staat u toe om extra ontvangers te richten die niet de het richten criteria van een bepaalde levering aanpassen. Deze profielen bevatten fictieve contactinformatie, of contactinformatie die door de afzender wordt gecontroleerd. Ze kunnen worden toegevoegd aan het publiek van een bericht om frauduleus gebruik van de database van de ontvanger op te sporen of om ervoor te zorgen dat de e-mails in de postvakken aankomen. [Leer hoe u met testprofielen werkt](test-profiles.md)
 
 Zowel profielen als testprofielen kunnen worden gebruikt om uw leveringen te testen voordat ze het beoogde publiek bereiken. Op deze manier kunt u de inhoud en personalisatie van het bericht voorvertonen, proefdrukken voor tests en validatie verzenden, de weergave van e-mail op verschillende platforms en apparaten evalueren en de bestemmingspagina&#39;s testen. [Leer hoe u leveringen kunt voorvertonen en testen](../preview-test/preview-test.md)
 
@@ -49,7 +48,7 @@ Profielen zijn toegankelijk en kunnen worden bewerkt op het web van Adobe Campai
 
 U kunt het filter **[!UICONTROL Profiles]** lijst die het onderzoeksgebied of de filters gebruikt beschikbaar bij **Filters tonen** knop. U kunt de resultaten beperken tot een specifieke [map](../get-started/permissions.md#folders) het gebruiken van de drop-down lijst, of voegt regels toe gebruikend [querymodel](../query/query-modeler-overview.md).
 
-![](assets/profiles-list-filters.png)
+![](assets/profiles-list-filters.png){zoomable=&quot;yes&quot;}
 
 Als u de details van een profiel wilt bekijken, klikt u in de lijst op de naam van het profiel. Er wordt een gedetailleerde weergave van het profiel geopend, zodat u de kenmerken en services kunt bekijken waarop u zich hebt geabonneerd. [Meer informatie over de details van profielen](create-profile.md)
 

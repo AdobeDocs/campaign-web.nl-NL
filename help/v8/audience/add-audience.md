@@ -3,11 +3,10 @@ audience: end-user
 title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 2c002620fbfeba140b6f80a37116b06d2199c93c
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 1%
+source-wordcount: '330'
+ht-degree: 0%
 
 ---
 
@@ -30,24 +29,24 @@ Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
 1. Van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking, klik **[!UICONTROL Select audience]** en kies vervolgens **[!UICONTROL Select audience]** om een bestaand publiek te gebruiken.
 
-   ![](assets/create-audience.png)
+   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 
 1. In dit scherm worden alle bestaande soorten publiek voor de huidige map weergegeven.
 
-   ![](assets/create-audience2.png)
+   ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
 
    Blader naar de `AEP Audiences folder` in het filtergedeelte van het scherm.
 
-   ![](assets/select-audience-folder.png)
+   ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
 
 1. Met de filtersectie hebt u toegang tot filteropties om de lijst met doelgroepen te verfijnen. Om dit te doen, klik **Regels toevoegen** om tot de vraagmodeler toegang te hebben, die u geavanceerde filters voor de lijst van publiek laat tot stand brengen. [Leer hoe te om de vraagmodeler te gebruiken](../query/query-modeler-overview.md)
 
    U kunt bijvoorbeeld een regel definiëren om op de oorsprong van het publiek te filteren, zoals hieronder wordt getoond:
 
-   ![](assets/filter-on-aep-audience.png)
+   ![](assets/filter-on-aep-audience.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **Bevestigen** om uw publiek toe te voegen als belangrijkste doel voor levering. Zodra gedaan, kunt u het publiek nog verfijnen gebruikend de vraagmodeler door te klikken **Regels bewerken** knop.
 
-   ![](assets/refine-audience.png)
+   ![](assets/refine-audience.png){zoomable=&quot;yes&quot;}
 
    U kunt ook een controlegroep instellen om het effect van uw campagnes te meten. De controlegroep ontvangt niet het bericht. Dit staat u toe om het gedrag van de bevolking te vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](control-group.md)

@@ -3,10 +3,9 @@ audience: end-user
 title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de gebruikersinterface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1348'
 ht-degree: 1%
 
 ---
@@ -60,7 +59,7 @@ Volg onderstaande stappen om een nieuwe, zelfstandige e-maillevering te maken.
    >
    >Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die zijn opgeslagen voor toekomstig gebruik. [Meer informatie](../msg/delivery-template.md)
 
-   ![](assets/channel-template.png)
+   ![](assets/channel-template.png){zoomable=&quot;yes&quot;}
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 1. Voer een label voor de levering in en configureer aanvullende opties op basis van uw behoeften:
@@ -75,7 +74,7 @@ Volg onderstaande stappen om een nieuwe, zelfstandige e-maillevering te maken.
    >
    >Als u uw schema met specifieke douanevelden hebt uitgebreid, kunt u tot hen in toegang hebben **[!UICONTROL Custom options]** sectie.
 
-   ![](assets/email-properties.png)
+   ![](assets/email-properties.png){zoomable=&quot;yes&quot;}
 
 1. Bovendien zijn geavanceerde instellingen, zoals typologische regels en doeltoewijzingen, toegankelijk via de **[!UICONTROL Settings]** op de knop rechtsboven in het scherm. Deze instellingen zijn vooraf geconfigureerd in de geselecteerde sjabloon, maar kunnen zo nodig worden bewerkt voor deze specifieke e-mail. [Meer informatie](../advanced-settings/delivery-settings.md)
 
@@ -96,7 +95,7 @@ Aanvullende instructies over het werken met het publiek zijn beschikbaar in [dez
 
    In dit voorbeeld willen we een bestaand publiek gebruiken dat zich richt op klanten die behoren tot het niveau van de zilveren- en goudloyaliteitspunten.
 
-   ![](assets/create-audience.png)
+   ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -104,7 +103,7 @@ Aanvullende instructies over het werken met het publiek zijn beschikbaar in [dez
 
 1. Als het publiek is geselecteerd, kunt u het doel verder verfijnen door aanvullende regels toe te passen.
 
-   ![](assets/audience-selected.png)
+   ![](assets/audience-selected.png){zoomable=&quot;yes&quot;}
 
 1. U kunt ook een controlegroep instellen om het gedrag van de e-mailontvangers te analyseren in vergelijking met degenen die niet als doelgroep werden gebruikt. [Leer hoe u met besturingsgroepen werkt](../audience/control-group.md)
 
@@ -116,31 +115,31 @@ Volg onderstaande stappen om uw e-mailinhoud te maken. In dit geval gebruikt u e
 
 1. Klik op het dashboard voor e-maillevering op de knop **[!UICONTROL Edit content]** knop.
 
-   ![](assets/email-edit-content.png)
+   ![](assets/email-edit-content.png){zoomable=&quot;yes&quot;}
 
    Hiermee gaat u naar een speciale interface waar u de e-mailinhoud kunt configureren en toegang kunt krijgen tot de e-mailontwerper. [Meer informatie](edit-content.md)
 
-   ![](assets/edit-content.png)
+   ![](assets/edit-content.png){zoomable=&quot;yes&quot;}
 
 1. Voer de onderwerpregel van uw e-mail in en pas deze aan met de Expressieeditor. [Leer hoe u uw inhoud kunt aanpassen](../personalization/personalize.md)
 
-   ![](assets/subject-line.png)
+   ![](assets/subject-line.png){zoomable=&quot;yes&quot;}
 
 1. Als u de inhoud van de e-mail wilt ontwerpen, klikt u op de knop **[!UICONTROL Edit email body]** knop.
 
    Kies de methode die u wilt gebruiken om uw e-mailinhoud te maken. In dit voorbeeld gebruikt u een [vooraf gedefinieerde inhoudssjabloon](create-email-templates.md).
 
-   ![](assets/select-template.png)
+   ![](assets/select-template.png){zoomable=&quot;yes&quot;}
 
 1. Nadat u de sjabloon hebt geselecteerd, wordt deze weergegeven in het dialoogvenster [E-mailDesigner](create-email-content.md), waar u eventueel noodzakelijke bewerkingen kunt uitvoeren en personalisatie kunt toevoegen.
 
    Als u bijvoorbeeld personalisatie wilt toevoegen aan de e-mailtitel, selecteert u het componentblok en klikt u op **[!UICONTROL Add Personalization]**.
 
-   ![](assets/add-perso.png)
+   ![](assets/add-perso.png){zoomable=&quot;yes&quot;}
 
 1. Als u tevreden bent met de inhoud, slaat u het ontwerp op en sluit u het. Klikken **[!UICONTROL Save]** om terug te keren naar het scherm voor het maken van e-mail.
 
-   ![](assets/save-content.png)
+   ![](assets/save-content.png){zoomable=&quot;yes&quot;}
 
 ## Het verzenden plannen {#schedule}
 
@@ -152,7 +151,7 @@ Wanneer een levering in de context van een werkschema wordt verzonden, moet u ge
 
 1. Stel de gewenste datum en tijd in voor het verzenden.
 
-   ![](assets/schedule.png)
+   ![](assets/schedule.png){zoomable=&quot;yes&quot;}
 
 Zodra u de levering verzendt, begint de daadwerkelijke verzendende op de contactdatum u hebt bepaald.
 
@@ -170,13 +169,13 @@ Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in
 
 1. Klik op de knop **[!UICONTROL Simulate content]** knop.
 
-   ![](assets/review-email.png)
+   ![](assets/review-email.png){zoomable=&quot;yes&quot;}
 
 1. Selecteer links het profiel of de profielen die u wilt gebruiken voor een voorbeeld van het e-mailbericht.
 
    In het rechterdeelvenster ziet u een voorbeeld van de e-mail op basis van het geselecteerde profiel. Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen schakelen om een voorbeeld van de bijbehorende e-mail te bekijken.
 
-   ![](assets/preview.png)
+   ![](assets/preview.png){zoomable=&quot;yes&quot;}
 
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
@@ -185,19 +184,19 @@ Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in
 
    In dit voorbeeld gebruikt u de opdracht **[!UICONTROL Substitute from main target]** -modus, die testversies naar specifieke e-mailadressen verzendt en tegelijkertijd enkele profielen nastreeft die in de e-mail worden genoemd.
 
-   ![](assets/proof-mode.png)
+   ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **[!UICONTROL Add address]** en vermeld het e-mailadres of de e-mailadressen die de testversies ontvangen.
 
    Selecteer voor elk e-mailadres het profiel dat u wilt beleven. U kunt Adobe Campaign ook een willekeurig profiel van het doel laten selecteren.
 
-   ![](assets/proof-test-profile.png)
+   ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **[!UICONTROL Send test email]** en de verzending bevestigen.
 
    Testversies worden naar de opgegeven e-mailadressen verzonden met behulp van het geselecteerde profiel met het **[Proef x]** voorvoegsel
 
-   ![](assets/proof-sent.png)
+   ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
    U kunt de status van de verzendende e-mail controleren en de verzonden teste-mails op elk gewenst moment openen door op de knop **[!UICONTROL View test email log]** in het scherm Inhoud simuleren.
 
@@ -207,19 +206,19 @@ Nadat u uw e-mail hebt bekeken en getest, kunt u de voorbereiding starten en ver
 
 1. Als u het voorbereiden van de e-mail wilt starten, klikt u op **[!UICONTROL Prepare]**. [Leer hoe u een e-mail voorbereidt](../monitor/prepare-send.md)
 
-   ![](assets/preparation.png)
+   ![](assets/preparation.png){zoomable=&quot;yes&quot;}
 
 1. Als je e-mail klaar is om te worden verzonden, klik je op de knop **[!UICONTROL Send]** knop (of **[!UICONTROL Send as scheduled]** (als u de verzending hebt gepland) en bevestig de verzending.
 
 1. Tijdens het verzendende proces, kunt u zijn vooruitgang volgen en statistieken in real time direct in dit scherm bekijken.
 
-   ![](assets/sending-email.png)
+   ![](assets/sending-email.png){zoomable=&quot;yes&quot;}
 
    <!--
-    ![](assets/sent-email.png)-->
+    ![](assets/sent-email.png){zoomable="yes"}-->
 
    U kunt gedetailleerde informatie over het verzenden ook toegang hebben door te klikken op **[!UICONTROL Logs]** knop. [Leer hoe u leveringslogboeken kunt controleren](../monitor/delivery-logs.md)
 
 1. Nadat u het e-mailbericht hebt verzonden, kunt u specifieke rapporten voor verdere analyse openen door op de knop **[!UICONTROL Reporting]** knop.
 
-![](assets/reports.png)
+![](assets/reports.png){zoomable=&quot;yes&quot;}

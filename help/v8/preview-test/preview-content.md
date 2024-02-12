@@ -3,11 +3,10 @@ audience: end-user
 title: Voorvertoning van leveringsinhoud
 description: Leer hoe u uw leveringsinhoud met de gebruikersinterface van het Web van de Campagne voorproef
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 462725104d28a967dd8a072ef6064b74dad91c58
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 1%
+source-wordcount: '340'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +21,7 @@ Volg onderstaande stappen om een voorvertoning van de inhoud van uw levering wee
 
 1. Klik op de knop **[!UICONTROL Simulate content]**.
 
-   ![](assets/simulate-button.png)
+   ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. Als u de profielen wilt selecteren waarmee u een voorvertoning van uw gepersonaliseerde inhoud wilt weergeven, gebruikt u:
 
@@ -36,11 +35,11 @@ Volg onderstaande stappen om een voorvertoning van de inhoud van uw levering wee
 
    * De **[!UICONTROL Profiles]** worden alle profielen weergegeven die in de database zijn opgeslagen. [Leer hoe u met profielen werkt](../audience/about-recipients.md)
 
-   ![](assets/simulate-select-profiles.png)
+   ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
 1. Wanneer u door het testprofiel of de profiellijsten bladert, kunt u filters gebruiken om uw zoekopdracht te verfijnen.
 
-   ![](assets/simulate-test-profile-filter.png)
+   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
 
    U kunt bijvoorbeeld een regel definiëren om alle testprofielen te zoeken die **[!UICONTROL Prospect]** status. [Leer hoe te om regels toe te voegen gebruikend de vraagmodeler](../query/query-modeler-overview.md).
 
@@ -48,7 +47,7 @@ Volg onderstaande stappen om een voorvertoning van de inhoud van uw levering wee
 
    Er wordt een voorvertoning van de inhoud van de levering weergegeven in het rechterdeelvenster van het dialoogvenster **[!UICONTROL Simulate]** scherm. Gepersonaliseerde elementen worden vervangen door de gegevens van het profiel dat in het linkerdeelvenster is geselecteerd.
 
-   ![](assets/simulate-preview.png)
+   ![](assets/simulate-preview.png){zoomable=&quot;yes&quot;}
 
 1. Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen in de lijst schakelen om een voorvertoning van de bijbehorende leveringsinhoud weer te geven. U kunt ook meer testprofielen toevoegen en de selectie wissen met de desbetreffende knoppen in het linkerdeelvenster.
 

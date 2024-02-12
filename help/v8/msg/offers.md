@@ -3,10 +3,9 @@ audience: end-user
 title: Aanbiedingen toevoegen aan uw berichten
 description: Meer informatie over het toevoegen en verzenden van aanbiedingen
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 0eae2b7f6890061a33ae2d75c0ebbe3f9f217759
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -40,13 +39,13 @@ Volg onderstaande stappen om de voorstellen te selecteren die u aan uw levering 
 
 1. Klik op de knop **[!UICONTROL Set up offers]** van het scherm voor de editie van de inhoud van de levering.
 
-   ![](assets/offer-setup.png)
+   ![](assets/offer-setup.png){zoomable=&quot;yes&quot;}
 
 1. Vorm welke aanbiedingen aan de ontvangers zouden moeten worden voorgesteld.
 
    Selecteer eerst de optie **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving. Leer hoe u een aanbiedingsruimte maakt in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"}.
 
-   ![](assets/offer-create-content.png)
+   ![](assets/offer-create-content.png){zoomable=&quot;yes&quot;}
 
 1. Als u de keuze van de motor met aanbiedingen wilt verfijnen, selecteert u een specifieke **[!UICONTROL Offer category]** waarin de aanbiedingen worden gesorteerd.
 
@@ -90,7 +89,7 @@ Volg onderstaande stappen om een aanbieding in te voegen met de expressieeditor.
 
 1. Plaats de cursor van de muis op de plaats waar u de aanbieding wilt invoegen en open de expressieeditor met behulp van het verpersoonlijkingspictogram.
 
-   ![](assets/offer-insert-perso-icon.png)
+   ![](assets/offer-insert-perso-icon.png){zoomable=&quot;yes&quot;}
 
 1. Selecteer de **[!UICONTROL Propositions]** -menu. De beschikbare voorstellingen worden in de lijst weergegeven.
 
@@ -100,7 +99,7 @@ Volg onderstaande stappen om een aanbieding in te voegen met de expressieeditor.
 
 1. Definieer elke voorstelling met behulp van de personalisatievelden, renderfuncties of beschikbare kenmerken.
 
-   ![](assets/offer-inserted.png)
+   ![](assets/offer-inserted.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >

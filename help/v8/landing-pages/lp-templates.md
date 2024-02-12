@@ -3,11 +3,10 @@ audience: end-user
 title: Werken met sjablonen voor het plaatsen van pagina-inhoud
 description: Leer hoe u landende pagina-inhoud opslaat als ontwerpsjabloon en deze opnieuw gebruikt in Campagne Web
 feature: Landing Pages
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5c3f02d4c95951693ac73de4a6e8810e1b662e53
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 7%
+source-wordcount: '192'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +20,7 @@ Zodra u uw [pagina-inhoud plaatsen](lp-content.md), kunt u deze opslaan voor toe
 
 1. Selecteren **[!UICONTROL Save as content template]** in het keuzemenu.
 
-   ![](assets/lp-save-as-template.png)
+   ![](assets/lp-save-as-template.png){zoomable=&quot;yes&quot;}
 
 1. Voeg een naam voor deze sjabloon toe.
 
@@ -29,7 +28,7 @@ Zodra u uw [pagina-inhoud plaatsen](lp-content.md), kunt u deze opslaan voor toe
 
 De volgende keer dat u een openingspagina maakt, kunt u deze sjabloon gebruiken om uw inhoud samen te stellen. Meer informatie in het dialoogvenster [sectie](#use-saved-template) hieronder.
 
-![](assets/lp-saved-template.png)
+![](assets/lp-saved-template.png){zoomable=&quot;yes&quot;}
 
 ## Een opgeslagen sjabloon gebruiken {#use-saved-template}
 
@@ -37,7 +36,7 @@ De volgende keer dat u een openingspagina maakt, kunt u deze sjabloon gebruiken 
 
 1. Als u de inhoud van een openingspagina bewerkt, klikt u op de knop **[!UICONTROL More]** en selecteert u **[!UICONTROL Change your design]**.
 
-   ![](assets/lp-change-your-design.png)
+   ![](assets/lp-change-your-design.png){zoomable=&quot;yes&quot;}
 
 1. Bevestig uw keuze.
 
@@ -47,11 +46,11 @@ De volgende keer dat u een openingspagina maakt, kunt u deze sjabloon gebruiken 
 
 1. De lijst met alle eerder opgeslagen sjablonen wordt weergegeven in het dialoogvenster **[!UICONTROL Saved templates]** tab. U kunt ze sorteren **[!UICONTROL By name]**, **[!UICONTROL Last modified]** en **[!UICONTROL Last created]**.
 
-   ![](assets/lp-saved-templates.png)
+   ![](assets/lp-saved-templates.png){zoomable=&quot;yes&quot;}
 
 1. Selecteer de gewenste sjabloon in de lijst. Als deze optie is geselecteerd, kunt u met de pijl-rechts en de pijl-links tussen alle opgeslagen sjablonen navigeren.
 
-   ![](assets/lp-select-saved-template.png)
+   ![](assets/lp-select-saved-template.png){zoomable=&quot;yes&quot;}
 
 1. Klik op **[!UICONTROL Use this template]**.
 

@@ -3,11 +3,10 @@ audience: end-user
 title: Uw eigen e-mailinhoud coderen
 description: Leer hoe u uw eigen e-mailinhoud codeert
 exl-id: a387bff6-3dc8-421c-9efd-043c16694ef0
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 6%
+source-wordcount: '101'
+ht-degree: 3%
 
 ---
 
@@ -21,13 +20,13 @@ Gebruik de **[!UICONTROL Code your own]** om onbewerkte HTML te importeren en/of
 
 1. Op de [E-mailDesigner](get-started-email-designer.md) homepage, selecteren **[!UICONTROL Code your own]**.
 
-   ![](assets/code-your-own.png)
+   ![](assets/code-your-own.png){zoomable=&quot;yes&quot;}
 
 1. Typ of plak de onbewerkte HTML-code in het hoofdcanvas.
 
 1. Gebruik het linkerdeelvenster om mogelijkheden voor personalisatie te benutten. [Meer informatie](../personalization/gs-personalization.md)
 
-   ![](assets/code-editor-personalization.png)
+   ![](assets/code-editor-personalization.png){zoomable=&quot;yes&quot;}
 
 1. Klik op de knop **[!UICONTROL Simulate content]** om het berichtontwerp en de verpersoonlijking te controleren gebruikend testprofielen. [Meer informatie](../preview-test/preview-test.md)
 

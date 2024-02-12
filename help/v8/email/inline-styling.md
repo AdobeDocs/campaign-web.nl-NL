@@ -3,11 +3,10 @@ audience: end-user
 title: Inline-opmaakkenmerken toevoegen
 description: Leer hoe u inline-opmaakkenmerken kunt toevoegen
 exl-id: 856e144a-cfd4-4931-86c9-0c1793ae399d
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 1%
+source-wordcount: '123'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +19,13 @@ Wanneer u in de interface E-mailontwerper een element selecteert en de instellin
 
 1. Van de **[!UICONTROL Styles]** klikt u op de knop **[!UICONTROL Advanced]** vervolgkeuzelijst.
 
-   ![](assets/styles_1.png)
+   ![](assets/styles_1.png){zoomable=&quot;yes&quot;}
 
 1. Wijzig de waarden van de bestaande kenmerken.
 
 1. U kunt nieuwe eigenschappen toevoegen met de opdracht **+** knop. U kunt alle kenmerken en waarden toevoegen die CSS-compatibel zijn.
 
-   ![](assets/styles_2.png)
+   ![](assets/styles_2.png){zoomable=&quot;yes&quot;}
 
 De opmaak wordt toegepast op het geselecteerde element.
 

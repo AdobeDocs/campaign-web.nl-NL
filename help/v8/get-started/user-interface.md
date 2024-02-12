@@ -3,10 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5588adb52157370e265fbff803b25a8c1489d565
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -33,7 +32,7 @@ De homepage van de campagne laat u snel en gemakkelijk doorbladeren zeer belangr
 
 In het bovenste gedeelte van de startpagina vindt u meer informatie over de nieuwste updates en nieuwe mogelijkheden die beschikbaar zijn in het product, met een koppeling naar Opmerkingen bij de release en gedetailleerde documentatie. Gebruik de pijl-links om functiekaarten te schuiven.
 
-![](assets/home.png)
+![](assets/home.png){zoomable=&quot;yes&quot;}
 
 De **Belangrijkste prestatie-indicatoren** Hiermee kunt u de doeltreffendheid van uw platform controleren aan de hand van algemene KPI&#39;s. Meer informatie over deze KPI&#39;s vindt u in [deze pagina](../reporting/kpis.md).
 
@@ -71,7 +70,7 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 
   Gebruik de **Meer handelingen** om een levering te verwijderen of te dupliceren.
 
-  ![](assets/more-actions.png){width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 * **Workflows** - In dit scherm hebt u toegang tot de volledige lijst met workflows en workflowsjablonen. U kunt hun status, de laatste/volgende uitvoeringsdata controleren en een nieuwe werkstroom of een nieuw werkschemamalplaatje creëren. U kunt de lijst filteren met dezelfde criteria als voor andere objecten. Bovendien kunt u workflows filteren die wel of niet tot een campagne behoren. Meer informatie over workflows [in deze sectie](../workflows/gs-workflows.md).
 
@@ -119,7 +118,7 @@ Meer informatie over het maken en verzenden van aanbiedingen in e-mails en SMS i
 
 De interface bevat een contextafhankelijke Help. Klik, indien beschikbaar, op de knop `?` pictogram om Help-informatie en verwante documentatiekoppelingen weer te geven.
 
-![](assets/do-not-localize/context-help.png){width="40%" align="left"}
+![](assets/do-not-localize/context-help.png){zoomable=&quot;yes&quot;}{width="40%" align="left"}
 
 Momenteel vrijgegeven als versie van Bèta binnen het nieuwe de gebruikersinterface van het Web van de Campagne, **AI-assistent voor kennis** ingebed in contextuele hulp revolutioneert documentatie het zoeken en het antwoorden van hoe te vragen met moeiteloze sifting door grote documentatiebewaarplaatsen, onmiddellijk het bepalen van de nauwkeurige informatie u nodig hebt.
 

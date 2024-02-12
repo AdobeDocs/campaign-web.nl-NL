@@ -2,11 +2,10 @@
 audience: end-user
 title: Een koppeling toevoegen aan de spiegelpagina
 description: Leer hoe u de koppeling naar de spiegel toevoegt en beheert
-badge: label="Beperkte beschikbaarheid"
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -31,15 +30,15 @@ Een koppeling toevoegen aan een spiegel in uw e-mail:
 
 1. Selecteer een element en klik op **[!UICONTROL Insert link]** in de contextuele werkbalk.
 
-   ![](assets/message-tracking-mirror-page.png)
+   ![](assets/message-tracking-mirror-page.png){zoomable=&quot;yes&quot;}
 
 1. Selecteer de **[!UICONTROL Add personalization]** pictogram voor toegang tot het verpersoonlijkingsmenu.
 
-   ![](assets/message-tracking-mirror-page_2.png)
+   ![](assets/message-tracking-mirror-page_2.png){zoomable=&quot;yes&quot;}
 
 1. Van de **[!UICONTROL Content block]** menu, selecteert u **[!UICONTROL Mirror page URL]** en klik op **[!UICONTROL Add]**.
 
-   ![](assets/message-tracking-mirror-page_3.png)
+   ![](assets/message-tracking-mirror-page_3.png){zoomable=&quot;yes&quot;}
 
    Raadpleeg voor meer informatie over het plaatsen van aangepaste inhoudblokken [deze sectie](../personalization/personalize.md#personalize-emails).
 

@@ -5,11 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Beta"
 exl-id: 45cdd310-7c0c-4b57-bb7f-0576d8eca19d
-source-git-commit: cbfd821173466c51e9073f01e8792cbdc069c6a2
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -24,13 +23,13 @@ Ga als volgt te werk om een inhoudsblok toe te voegen aan een levering:
 
 1. Zoek het veld waaraan u een inhoudsblok wilt toevoegen en klik op de knop **[!UICONTROL Open personalization dialog]** pictogram om de uitdrukkingsredacteur te openen.
 
-   ![](assets/content-block-access.png){width="800" align="center"}
+   ![](assets/content-block-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Blader in de expressieeditor naar de **[!UICONTROL Content blocks]** links.
 
 1. Als u een inhoudsblok wilt toevoegen, plaatst u de cursor op de gewenste locatie in de inhoud en klikt u op de knop &#39;+&#39; om het blok in te voegen.
 
-   ![](assets/content-blocks.png){width="800" align="center"}
+   ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 Ingebouwde inhoudsblokken zijn:
 

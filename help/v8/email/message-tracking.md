@@ -3,11 +3,10 @@ audience: end-user
 title: Je berichten bijhouden
 description: Leer hoe u koppelingen toevoegt en verzonden berichten bijhoudt
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 2%
+source-wordcount: '351'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +26,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 1. Selecteer een element en klik op **[!UICONTROL Insert link]** in de contextuele werkbalk.
 
-   ![](assets/message-tracking-insert-link.png)
+   ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
 
 1. Voeg een **[!UICONTROL Label]** en **[!UICONTROL Link]**.
 
@@ -38,7 +37,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
    * U kunt de koppeling bewerken en de koppeling wijzigen **[!UICONTROL Target]**.
    * U kunt de koppeling onderstrepen of niet door de bijbehorende optie in te schakelen.
 
-   ![](assets/message-tracking-link-settings.png)
+   ![](assets/message-tracking-link-settings.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -56,11 +55,11 @@ De [E-mailDesigner](create-email-content.md) Hiermee kunt u de bijgehouden URL&#
 
 1. Als u een koppeling wilt bewerken, klikt u op het bijbehorende potloodpictogram.
 
-   ![](assets/message-tracking-edit-links.png)
+   ![](assets/message-tracking-edit-links.png){zoomable=&quot;yes&quot;}
 
 1. U kunt de **[!UICONTROL Tracking Type]** indien nodig:
 
-   ![](assets/message-tracking-edit-a-link.png)
+   ![](assets/message-tracking-edit-a-link.png){zoomable=&quot;yes&quot;}
 
    Voor elke bijgehouden URL kunt u de modus Tekstspatiëring instellen op een van de volgende waarden:
 
@@ -71,6 +70,6 @@ De [E-mailDesigner](create-email-content.md) Hiermee kunt u de bijgehouden URL&#
 
 1. Voeg een **[!UICONTROL Category]** naar uw koppeling om bijgehouden koppelingen te groeperen en klik op **[!UICONTROL Save]**.
 
-   ![](assets/message-tracking-edit-a-link_2.png)
+   ![](assets/message-tracking-edit-a-link_2.png){zoomable=&quot;yes&quot;}
 
 1. Na het verzenden van de levering hebt u toegang tot uw leveringsrapport. Onder de **[!UICONTROL Tracking]** in het menu **[!UICONTROL URLs and click streams]** het rapport toont welke URLs van uw levering het meest bezochte is. [Meer informatie](../reporting/gs-reports.md)

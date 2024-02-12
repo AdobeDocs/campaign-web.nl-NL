@@ -3,10 +3,9 @@ audience: end-user
 title: Verzenden met gebruik van golven
 description: Meer informatie over de leveringsinstellingen in Campagneweb
 feature: Email
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 3f4f09ddae3a2e46adf99f288642acee561ce1f5
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -57,7 +56,7 @@ Volg onderstaande stappen om leveringen te verzenden met gebruik van golven.
 
 Als u deze optie selecteert, hebben alle golven de zelfde grootte (behalve laatste), en de vertraging tussen elke golf is altijd het zelfde.
 
-![](assets/waves-same-size.png)
+![](assets/waves-same-size.png){zoomable=&quot;yes&quot;}
 
 * Geef de grootte op voor alle golven waarin u de levering wilt splitsen. U kunt een percentage of een numerieke waarde invoeren. Alleen de laatste golf kan in grootte variëren, omdat het resterende aantal berichten moet worden opgenomen.
 
@@ -71,7 +70,7 @@ Gebruikend golven, kunt u het aantal berichten tot 20 per dag beperken, die de d
 
 Selecteer de optie **[!UICONTROL Schedule multiple waves of the same size]** -optie. Enter **[!UICONTROL 20]** als de grootte van de golven en **[!UICONTROL 1 day]** in de **[!UICONTROL Interval]** veld.
 
-![](assets/waves-call-center.png)
+![](assets/waves-call-center.png){zoomable=&quot;yes&quot;}
 
 ## Golven plannen volgens een kalender {#waves-calendar}
 
@@ -89,7 +88,7 @@ Voeg zoveel golven toe als u wilt. U kunt de volgorde naar wens aanpassen.
 
 In het onderstaande voorbeeld vertegenwoordigt de eerste golf 25% van het totale aantal berichten dat is opgenomen in de levering en wordt deze onmiddellijk gestart. De volgende twee golven voltooien de levering en zijn geplaatst om met intervallen van zes uur te beginnen.
 
-![](assets/waves-calendar.png)
+![](assets/waves-calendar.png){zoomable=&quot;yes&quot;}
 
 Eén veelgebruikte manier om meerdere golven volgens een kalender te gebruiken, is tijdens het opbladerproces.
 
@@ -99,7 +98,7 @@ Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume prog
 
 Gebruik hiervoor de opdracht **[!UICONTROL Schedule waves according to a calendar]** -optie. Stel bijvoorbeeld de eerste golf in op 10%, de tweede op 15%, de derde op 20% enzovoort.
 
-![](assets/waves-ramp-up.png)
+![](assets/waves-ramp-up.png){zoomable=&quot;yes&quot;}
 
 
 

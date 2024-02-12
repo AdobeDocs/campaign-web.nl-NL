@@ -3,8 +3,7 @@ audience: end-user
 title: Aan de slag met Adobe Campaign Web
 description: Aan de slag met Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 1%
@@ -41,7 +40,7 @@ Campagne gebruiken om:
 
 Aanvankelijk slechts beschikbaar door rijk [clientconsole](#ac-client), biedt Campagne nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u uw gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere oplossingen voor Adoben, waaronder Adobe Experience Platform.
 
-![](assets/home.png)
+![](assets/home.png){zoomable=&quot;yes&quot;}
 
 Deze nieuwe gebruikersinterface van het Web dient eerst de behoeften van **beroepsbeoefenaar** - alle typische beheertaken zijn niet beschikbaar in deze eerste versie, maar worden in latere versies behandeld. Merk op dat niet elke enkele functionaliteit of optie beschikbaar in de cliëntconsole voor nu in nieuwe UI beschikbaar is. Nieuwe gebruiksgevallen, opties en functies zijn beschikbaar in toekomstige versies.
 

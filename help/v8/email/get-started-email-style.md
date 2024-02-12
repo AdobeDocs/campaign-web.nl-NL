@@ -3,11 +3,10 @@ audience: end-user
 title: Aan de slag met e-mailstijl
 description: Ontdek de verschillende manieren waarop u de stijl van uw e-mailinhoud kunt aanpassen
 exl-id: e0489dcc-32d9-4bee-8562-36a96e64e20b
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -17,7 +16,7 @@ Nadat u uw e-mailinhoud hebt gemaakt in [!DNL Adobe Campaign], kunt u een aantal
 
 U kunt de wijzigingen toepassen op de hoofdtekst van de e-mail, op een structuurcomponent of op een inhoudscomponent.
 
-![](assets/email_designer_content_components_settings.png)
+![](assets/email_designer_content_components_settings.png){zoomable=&quot;yes&quot;}
 
 Volg de onderstaande koppelingen om te zien hoe u bepaalde stijlinstellingen in uw e-mail kunt aanpassen.
 
