@@ -3,14 +3,14 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '654'
 ht-degree: 2%
 
 ---
 
-# Adobe Campaign-webdocumentatie {#campaign-documentation}
+# Documentatie Adobe Campaign-webgebruikersinterface {#campaign-documentation}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
@@ -83,9 +83,6 @@ ht-degree: 2%
 <!--TO REMOVE ABOVE-->
 
 We zijn blij om de nieuwe versie van Adobe Campaign Web User Interface te introduceren. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere oplossingen voor Adoben, waaronder Adobe Experience Platform.
-
->[!AVAILABILITY]
-> Adobe Campaign Web bevindt zich momenteel in de versie met beperkte beschikbaarheid (LA). De toegang is beperkt tot een kleine reeks klanten van LA. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
 
 ## Nieuwe functies
 
