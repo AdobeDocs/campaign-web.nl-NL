@@ -3,7 +3,7 @@ title: Contextafhankelijke Help voor AI gebruiken in Campagne-web
 description: Vragen stellen in de pop-ups van Campagne Web
 badge: label="Beta"
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: a37745e89a6faf9ff3e986da311cd7cf25a4f05b
+source-git-commit: 27abc0c532ce6957eae55d5db342093efc8fe0a5
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
@@ -23,11 +23,11 @@ Dankzij de mogelijkheden van CampagneGen AI transformeert deze component uw erva
 
 >[!AVAILABILITY]
 >
->Contextafhankelijke Help op basis van AI is beschikbaar in de bètaversie en kan zonder voorafgaande kennisgeving worden gewijzigd.
+>* Contextafhankelijke Help op basis van AI is beschikbaar in de bètaversie en kan zonder voorafgaande kennisgeving worden gewijzigd.
 >
->Deze functie is alleen beschikbaar in **Engels**. Andere talen worden niet ondersteund in deze versie. Daarom moet u ervoor zorgen dat [uw voorkeurstaal](connect-to-campaign.md#language-pref) wordt ingesteld op Engels voordat deze mogelijkheid wordt gebruikt.
+>* Deze functie is alleen beschikbaar in **Engels**. Andere talen worden niet ondersteund in deze versie. Daarom moet u ervoor zorgen dat [uw voorkeurstaal](connect-to-campaign.md#language-pref) wordt ingesteld op Engels voordat deze mogelijkheid wordt gebruikt.
 >
->Contextafhankelijke Help voor AI is momenteel niet beschikbaar in Campagne-e-mailDesigner.
+>* Contextafhankelijke Help voor AI is momenteel niet beschikbaar in Campagne-e-mailDesigner.
 
 
 <!--
