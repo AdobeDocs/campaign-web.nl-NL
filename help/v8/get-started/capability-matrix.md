@@ -3,9 +3,9 @@ audience: end-user
 title: Campagne Web-gebruikersinterface/client-consolematrix
 description: Lijst met functies die worden ondersteund in de gebruikersinterface van Campagne Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: a144814b4bea95d2272ccaa32de4ff49e14ac60c
+source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
 workflow-type: tm+mt
-source-wordcount: '2142'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Gebruik de beschikbare koppelingen om te bladeren in de documentatie van Campagn
 
 ## Communicatiekanalen {#channels-capabilities}
 
-Met de gebruikersinterface van het Web van de Campagne, kunt u e-mail, SMS en dupberichten creëren, ontwerpen en verzenden, en hun effect meten gebruikend diverse specifieke rapporten, zoals gedetailleerd [in deze sectie](../msg/gs-messages.md). De volgende kanalen zijn momenteel echter niet beschikbaar.
+Met de gebruikersinterface van het Web van de Campagne kunt u creëren, ontwerpen en verzenden **email**, **SMS** en **pushmeldingen** en hun effect te meten aan de hand van diverse specifieke rapporten, zoals gedetailleerd [in deze sectie](../msg/gs-messages.md). De volgende kanalen zijn momenteel echter **niet** beschikbaar: in-app, direct mail, LINE, Call center/Custom channel, Sociale marketing met X (Twitter).
 
 Gebruik de beschikbare koppelingen om te bladeren in de documentatie bij Campagne v8 (clientconsole) en meer informatie te krijgen over deze kanalen.
 
