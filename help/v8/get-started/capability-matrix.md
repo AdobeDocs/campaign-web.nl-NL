@@ -3,9 +3,9 @@ audience: end-user
 title: Campagne Web-gebruikersinterface/client-consolematrix
 description: Lijst met functies die worden ondersteund in de gebruikersinterface van Campagne Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 0a7fbd4a316359915eedfc33ffb78515a233793c
+source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2150'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,6 @@ Bladeren in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https:
 
 * Ontwerpen en uitvoeren van realtime berichten via e-mail, SMS en push
 * Verrijking en personalisatie van berichten
-* Triggers (Adobe Analytics-winkelwagen)
 * Rapportage en toezicht op transactieberichten
 
 ## Inhoudsontwerp {#content-capabilities}
