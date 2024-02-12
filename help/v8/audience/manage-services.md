@@ -3,10 +3,10 @@ audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 1%
+source-wordcount: '892'
+ht-degree: 2%
 
 ---
 
@@ -19,13 +19,11 @@ ht-degree: 1%
 
 Gebruik Adobe Campaign Web om uw services, zoals nieuwsbrieven, te beheren en te maken en om de abonnementen op of het afmelden van deze services te controleren.
 
+Verschillende services kunnen parallel worden gedefinieerd, bijvoorbeeld: nieuwsbrieven voor specifieke productcategorieën, thema&#39;s of gebieden van een website, abonnementen op verschillende typen waarschuwingsberichten en realtime meldingen.
+
 >[!NOTE]
 >
 >Abonnementen gelden alleen voor verzending via e-mail en SMS.
-
-Verschillende services kunnen parallel worden gedefinieerd, bijvoorbeeld: nieuwsbrieven voor specifieke productcategorieën, thema&#39;s of gebieden van een website, abonnementen op verschillende typen waarschuwingsberichten en realtime meldingen.
-
-Raadpleeg voor meer informatie over het beheren van abonnementen en abonnementen de [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/subscriptions.html){target="_blank"}.
 
 ## Toegang tot abonnementsservices {#access-services}
 
@@ -102,7 +100,7 @@ U kunt nu het volgende:
 >title="Selecteer de leveringssjabloon voor abonnementen"
 >abstract="Als u bevestigingsberichten wilt verzenden naar gebruikers die zich niet meer abonneren op uw service, moet u een specifieke leveringssjabloon selecteren op basis van de **[!UICONTROL Subscriptions]** doeltoewijzing, zonder een gedefinieerd doel."
 
-Als u bevestigingsberichten wilt verzenden naar gebruikers die zich op uw service abonneren of zich niet abonneren, moet u een leveringssjabloon maken met de **[!UICONTROL Subscriptions]** doeltoewijzing, zonder een gedefinieerd doel. Volg de onderstaande stappen om dit te doen.
+Als u bevestigingsberichten wilt verzenden naar gebruikers die zich op uw service abonneren of zich niet abonneren, moet u een leveringssjabloon maken met de **[!UICONTROL Subscriptions]** doeltoewijzing, zonder een gedefinieerd doel. Hiervoor voert u de volgende stappen uit:
 
 1. Een leveringssjabloon maken voor de bevestiging van een abonnement. [Leer hoe u een sjabloon maakt](../msg/delivery-template.md)
 
@@ -112,7 +110,7 @@ Als u bevestigingsberichten wilt verzenden naar gebruikers die zich op uw servic
 
    >[!NOTE]
    >
-   >Als u de optie  **[!UICONTROL Subscriptions]** target mapping, ontvangen uw abonnees het bevestigingsbericht niet. Doeltoewijzingen worden gedefinieerd in de Campagne v8-console. Meer informatie in het dialoogvenster [Adobe Campaign v8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+   >Als u de optie  **[!UICONTROL Subscriptions]** target mapping, ontvangen uw abonnees het bevestigingsbericht niet. Meer informatie over doeltoewijzingen in [deze sectie](../audience/targeting-dimensions.md) .
 
 1. Bewerk de inhoud van de leveringssjabloon, sla deze op en sluit deze.
 
