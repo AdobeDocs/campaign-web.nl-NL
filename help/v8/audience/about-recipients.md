@@ -1,7 +1,7 @@
 ---
 title: Aan de slag met profielen
 description: Leer om profielen in het Web van de Campagne te controleren en te beheren.
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -28,11 +28,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_list"
 >title="Profielen"
->abstract="Een profiel is een persoon die berichten ontvangt die door Adobe Campaign worden verzonden. In deze lijst kunt u op basis van uw machtigingen de details van de profielen weergeven. Gebruik de filteropties om door deze lijst te bladeren. U kunt een kleine set kenmerken van uw profielen bewerken en bijwerken."
+>abstract="Een profiel is een record die berichten ontvangt die door Adobe Campaign worden verzonden. In deze lijst kunt u op basis van uw machtigingen de details van de profielen weergeven. Gebruik de filteropties om door deze lijst te bladeren. U kunt een kleine set kenmerken van uw profielen bewerken en bijwerken."
 
 ## Wat is een profiel? {#what}
 
-A **profiel**, ook wel bekend als &quot;ontvangers&quot; in de clientconsole, vertegenwoordigt een individu dat is opgeslagen in de Campagne-database en dat fungeert als een sleutelcomponent voor [publiek maken](create-audience.md) voor leveringen en [personalisatie toevoegen](../personalization/personalize.md) gegevens naar uw inhoud. Met Adobe Campaign kunt u profielen naadloos beheren, van het maken van nieuwe vermeldingen tot het openen van een uitgebreide weergave van alle kenmerken en abonnementen van profielen en services, allemaal via de gebruikersinterface van het webpagina voor campagnes.
+A **profiel**, ook wel bekend als &quot;ontvangers&quot; in de clientconsole, vertegenwoordigt een record dat is opgeslagen in de Campagne-database, en fungeert als een sleutelcomponent voor [publiek maken](create-audience.md) voor leveringen en [personalisatie toevoegen](../personalization/personalize.md) gegevens naar uw inhoud. Met Adobe Campaign kunt u profielen naadloos beheren, van het maken van nieuwe vermeldingen tot het openen van een uitgebreide weergave van alle kenmerken en abonnementen van profielen en services, allemaal via de gebruikersinterface van het webpagina voor campagnes.
 
 Bovendien **[!UICONTROL test profiles]**, geïdentificeerd als &quot;zaadprofielen&quot;in de cliëntconsole, staat u toe om extra ontvangers te richten die niet de het richten criteria van een bepaalde levering aanpassen. Deze profielen bevatten fictieve contactinformatie, of contactinformatie die door de afzender wordt gecontroleerd. Ze kunnen worden toegevoegd aan het publiek van een bericht om frauduleus gebruik van de database van de ontvanger op te sporen of om ervoor te zorgen dat de e-mails in de postvakken aankomen. [Leer hoe u met testprofielen werkt](test-profiles.md)
 
