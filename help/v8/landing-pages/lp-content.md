@@ -2,9 +2,9 @@
 title: Paginaspecifieke inhoud definiëren
 description: Leer hoe u landende pagina-specifieke inhoud ontwerpt in Campagne Web
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '818'
 ht-degree: 1%
 
 ---
@@ -16,13 +16,16 @@ ht-degree: 1%
 >title="Inhoudscomponenten gebruiken"
 >abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt gebruiken om de lay-out van een bestemmingspagina te maken. Gebruik de formuliercomponent om specifieke inhoud te definiëren waarmee gebruikers hun keuzes kunnen selecteren en verzenden."
 
-Wanneer u de inhoud van een willekeurige pagina van de bestemmingspagina bewerkt, is deze al ingevuld.
+U kunt de inhoud van elke pagina van de bestemmingspagina bewerken.
 
-De eerste pagina, die onmiddellijk aan de gebruikers wordt getoond nadat zij de verbinding aan uw landende pagina klikken, is reeds vooraf ingevuld met [paginaspecifieke formuliercomponent landen](#use-form-component) voor de geselecteerde sjabloon<!-- to enable users to select and submit their choices-->. U kunt ook [stijlen voor de landingspagina](#lp-form-styles).
 
-Voor het verder ontwerpen van de inhoud van de bestemmingspagina kunt u dezelfde componenten gebruiken als voor een e-mail. [Meer informatie](../email/content-components.md#add-content-components)
+De eerste pagina, die onmiddellijk aan de gebruikers wordt getoond nadat zij de verbinding aan uw landende pagina klikken, is reeds vooraf ingevuld met [paginaspecifieke formuliercomponent landen](#use-form-component) voor de geselecteerde sjabloon<!-- to enable users to select and submit their choices-->.
 
 De inhoud van de **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** en **[!UICONTROL Expiration]** pagina&#39;s worden ook vooraf ingevuld. Bewerk deze indien nodig.
+
+U kunt ook [stijlen voor de landingspagina](#lp-form-styles).
+
+Voor het verder ontwerpen van de inhoud van de bestemmingspagina kunt u dezelfde componenten gebruiken als voor een e-mail. [Meer informatie](../email/content-components.md#add-content-components)
 
 ## De formuliercomponent gebruiken {#use-form-component}
 
@@ -36,7 +39,7 @@ De inhoud van de **[!UICONTROL Confirmation]**, **[!UICONTROL Error]** en **[!UI
 >title="Wat gebeurt er als u op de knop klikt"
 >abstract="Bepaal wat er gebeurt wanneer gebruikers het formulier voor de landingspagina indienen."
 
-Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de bestemmingspagina kunnen selecteren en verzenden, gebruikt u de optie **[!UICONTROL Form]** component. Volg de onderstaande stappen om dit te doen.
+Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes op de bestemmingspagina kunnen selecteren en verzenden, bewerkt u de **[!UICONTROL Form]** component. Volg de onderstaande stappen om dit te doen.
 
 1. Specifieke landingspagina&#39;s **[!UICONTROL Form]** wordt al weergegeven op het canvas voor de geselecteerde sjabloon.
 

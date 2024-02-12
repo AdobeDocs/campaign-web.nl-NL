@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met bestemmingspagina's
 description: Meer informatie over het landen van pagina's in het campagneweb
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '275'
 ht-degree: 4%
 
 ---
@@ -26,9 +26,9 @@ Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen w
 
 >[!CAUTION]
 >
->Landing de pagina&#39;s die u in het de gebruikersinterface van het Web van de Campagne creeert zijn verschillend van de Webvormen die van de cliëntconsole worden gecreeerd. U kunt webformulieren niet weergeven of bewerken in de gebruikersinterface van Campagne Web.
+>Landing de pagina&#39;s die u in het de gebruikersinterface van het Web van de Campagne creeert zijn verschillend van de Webvormen die van de cliëntconsole worden gecreeerd. U kunt webformulieren die in de clientconsole zijn gemaakt, niet weergeven of bewerken in de gebruikersinterface van Campagne Web.
 >
->Meer informatie over webformulieren in het dialoogvenster [Documentatie over de campagnecollecommissie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Meer informatie over webformulieren in het dialoogvenster [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder vermeld:
 

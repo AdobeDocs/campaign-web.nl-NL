@@ -2,9 +2,9 @@
 title: Een landingspagina maken
 description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 feature: Landing Pages
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1264'
 ht-degree: 1%
 
 ---
@@ -71,6 +71,8 @@ U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een
 
 ![](assets/lp-creation-process.png){zoomable="yes"}-->
 
+Ga als volgt te werk om een bestemmingspagina te maken:
+
 1. Van de **[!UICONTROL Landing pages]** voorraad, klik **[!UICONTROL Create landing page]**.
 
    ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
@@ -79,13 +81,13 @@ U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een
    * **[!UICONTROL Acquisition]**: Dit is de standaardsjabloon voor het landen van pagina&#39;s, waarmee u profielgegevens kunt vastleggen en bijwerken.
    * **[!UICONTROL Subscription]**: Gebruik deze sjabloon om gebruikers in staat te stellen zich op een specifieke sjabloon te abonneren [service](../audience/manage-services.md).
    * **[!UICONTROL Unsubscription]**: Deze sjabloon kan worden gebruikt in een levering die naar de abonnees van een service wordt verzonden, zodat zij zich van deze service kunnen afmelden [service](../audience/manage-services.md).
-   * **[!UICONTROL Denylist]**: Deze sjabloon moet worden gebruikt wanneer een profiel niet langer via Campagne kan worden benaderd.
+   * **[!UICONTROL Denylist]**: Deze sjabloon moet worden gebruikt wanneer een profiel op een opt-out-koppeling in een levering klikt en er geen contact meer mee wenst te worden opgenomen.
 
    ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
-   >Leer hoe u de verschillende gebruiksgevallen implementeert die overeenkomen met elke sjabloon in [deze sectie](lp-use-cases.md).
+   >Leer hoe u de verschillende gebruiksgevallen implementeert die overeenkomen met elke sjabloon in [deze pagina](lp-use-cases.md).
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -101,7 +103,7 @@ U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een
 
    * De **[!UICONTROL Skip preloading if no ID]** Selecteer deze optie als u geen profielen wilt bijwerken. In dat geval wordt elk ingevoerde profiel na goedkeuring van het formulier toegevoegd aan de database. Deze optie wordt bijvoorbeeld gebruikt wanneer het formulier op een website wordt geplaatst.
 
-1. In de **[!UICONTROL Pages]** klikt u op de **[!UICONTROL Edit content]** voor elke pagina die u voor deze openingspagina wilt ontwerpen. De inhoud van elke pagina is al vooraf ingevuld. Bewerk deze indien nodig. [Meer informatie](lp-content.md)
+1. Een openingspagina kan volgende pagina&#39;s hebben. Blader door de **[!UICONTROL Pages]** en klikt u op de **[!UICONTROL Edit content]** voor elke pagina die u voor deze openingspagina wilt ontwerpen. De inhoud van elke pagina is al vooraf ingevuld. Bewerk deze indien nodig. [Meer informatie](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
@@ -129,7 +131,7 @@ U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een
 
 1. Klik op **[!UICONTROL Review and publish]**.
 
-Nadat u alle instellingen en [ontworpen](lp-content.md) alle pagina&#39;s [test](#test-landing-page) en [publish](#publish-landing-page) uw openingspagina.
+Nadat u alle instellingen en [ontworpen](lp-content.md) alle pagina&#39;s [test](#test-landing-page) en [publish](#publish-landing-page) de openingspagina, zoals hieronder wordt beschreven.
 
 ## De openingspagina testen {#test-landing-page}
 
@@ -148,6 +150,8 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 >[!CAUTION]
 >
 >U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. [Meer informatie over testprofielen](../audience/test-profiles.md)
+
+Voer de volgende stappen uit om de bestemmingspagina te testen:
 
 1. Nadat u op **[!UICONTROL Review and publish]**, selecteert u de **[!UICONTROL Simulate content]** vanaf het dashboard van de bestemmingspagina om toegang te krijgen tot de selectie van het testprofiel.
 
@@ -173,7 +177,7 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 
 ## De openingspagina publiceren {#publish-landing-page}
 
-Wanneer de landingspagina gereed is, publiceert u deze om deze beschikbaar te maken voor gebruik in een levering met de bijbehorende knop.
+Wanneer de landingspagina gereed en gevalideerd is, publiceert u deze om te kunnen worden gebruikt in een levering met de bijbehorende knop.
 
 Na publicatie:
 
