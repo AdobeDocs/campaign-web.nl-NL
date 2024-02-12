@@ -1,12 +1,11 @@
 ---
 title: Werken met vooraf gedefinieerde filters
 description: Leer hoe u vooraf gedefinieerde filters maakt en beheert in Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 5e5580c8dd7ddd4d545d7e77c9ed26e9500ec313
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 1%
+source-wordcount: '844'
+ht-degree: 0%
 
 ---
 
@@ -36,7 +35,7 @@ Vooraf gedefinieerde filters zijn aangepaste filters die worden gemaakt en opges
 
 U kunt bestaande ingebouwde filters gebruiken om toegang te krijgen tot een specifieke subset van uw gegevens, of uw eigen vooraf gedefinieerde filters maken en deze opslaan.
 
-![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}
+![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
 
 >[!IMPORTANT]
 >
@@ -62,11 +61,11 @@ U kunt een aangepast filter opslaan in het dialoogvenster [querymodel](../query/
 1. Open de vraagmodeler en bepaal uw het filtreren voorwaarden. In het onderstaande voorbeeld filtert u ontvangers die in Madrid wonen en zich op een nieuwsbrief hebben geabonneerd.
 1. Klik op de knop **Filter selecteren of opslaan** en selecteert u **Opslaan als filter**.
 
-   ![](assets/predefined-filters-save.png)
+   ![](assets/predefined-filters-save.png){zoomable=&quot;yes&quot;}
 
 1. Selecteren **Een nieuw filter maken** en voert u een naam en een beschrijving voor dat filter in.
 
-   ![](assets/predefined-filters-save-filter.png)
+   ![](assets/predefined-filters-save-filter.png){zoomable=&quot;yes&quot;}
 
    U kunt het filter indien nodig opslaan als favoriet. Meer informatie in [deze sectie](#fav-filter).
 
@@ -86,12 +85,12 @@ U kunt een filter maken op basis van het **Vooraf gedefinieerde filters** in het
 
 1. Definieer de regel voor het filter. Profielen die ouder zijn dan 30.
 
-   ![](assets/filter-30+.png)
+   ![](assets/filter-30+.png){zoomable=&quot;yes&quot;}
 
 
 1. Sla uw wijzigingen op.
 
-   ![](assets/new-filter.png)
+   ![](assets/new-filter.png){zoomable=&quot;yes&quot;}
 
 
 Het filter wordt toegevoegd aan de vooraf gedefinieerde filterlijst. U kunt het filter indien nodig opslaan als favoriet. Meer informatie in [deze sectie](#fav-filter).
@@ -104,7 +103,7 @@ Wanneer u een vooraf gedefinieerd filter maakt, kunt u **Opslaan als favoriet** 
 
 Wanneer een filter als favoriet wordt opgeslagen, is het beschikbaar voor alle gebruikers in **Favoriete filters** sectie van de lijst van de filterverwezenlijking, zoals hieronder getoond:
 
-![](assets/predefined-filters-favorite.png){width="30%" align="left"}
+![](assets/predefined-filters-favorite.png){zoomable=&quot;yes&quot;}{width="30%" align="left"}
 
 ## Een vooraf gedefinieerd filter gebruiken {#use-predefined-filter}
 
@@ -121,21 +120,21 @@ Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd f
 1. Voer de naam van het publiek in en klik op **Publiek maken** knop.
 1. Selecteer de **Query** activiteit, en, van de juiste ruit, klik **publiek maken** knop.
 
-   ![](assets/build-audience-from-filter.png)
+   ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
 1. Van de **Filterknop selecteren of opslaan**, kiest u de **Aangepast filter selecteren** -optie.
 
-   ![](assets/build-audience-select-custom-filter.png)
+   ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
 1. Blader naar het vooraf gedefinieerde filter dat u wilt gebruiken om het publiek te maken, selecteer het en bevestig het.
 
-   ![](assets/build-audience-filter-list.png)
+   ![](assets/build-audience-filter-list.png){zoomable=&quot;yes&quot;}
 
 1. Controleer de regeleigenschappen voor dit filter en bevestig.
 
    Het filter wordt nu gebruikt als een query in het dialoogvenster **Query** activiteit.
 
-   ![](assets/build-audience-confirm.png)
+   ![](assets/build-audience-confirm.png){zoomable=&quot;yes&quot;}
 
 1. Sla uw wijzigingen op en klik op de knop **Start** om het publiek te maken en beschikbaar te maken in de lijst met doelgroepen.
 
@@ -143,7 +142,7 @@ Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd f
 
 Vooraf gedefinieerde filters worden allemaal gegroepeerd in de toegewezen vermelding van het navigatiemenu links.
 
-![](assets/list-of-filters.png)
+![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
 In deze lijst kunt u een nieuw filter maken, zoals hierboven beschreven, en:
 

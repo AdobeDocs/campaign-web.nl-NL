@@ -2,11 +2,10 @@
 audience: end-user
 title: Belangrijkste principes voor het maken van werkstromen
 description: Belangrijke principes van workflows leren met Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ Met Adobe Campaign Web, kunt u werkschema&#39;s in een visueel canvas bouwen om 
 
 Het workflowdiagram is een weergave van wat er moet gebeuren. Hierin worden de verschillende taken beschreven die moeten worden uitgevoerd en hoe deze aan elkaar zijn gekoppeld.
 
-![](assets/workflow-example.png) {zoomable=&quot;yes&quot;}
+![](assets/workflow-example.png){zoomable=&quot;yes&quot;} {zoomable=&quot;yes&quot;}
 
 Elke werkstroom bevat:
 
@@ -40,16 +39,16 @@ Met campagnes kunt u op twee manieren een workflow maken:
 
 1. Workflows kunnen worden gemaakt als zelfstandige workflows, op basis van de **Workflows** -menu.
 
-   ![](assets/create-a-standalone-wf.png)
+   ![](assets/create-a-standalone-wf.png){zoomable=&quot;yes&quot;}
 
 1. Workflows kunnen rechtstreeks binnen een campagne worden gemaakt, via de **Workflow** tabblad van de campagne. Wanneer inbegrepen in een campagne, wordt het werkschema uitgevoerd samen met alle andere werkschema&#39;s van de campagne, en de rapporteringsmetriek zijn allen gegroepeerd op het campagnereniveau.
 
-   ![](assets/create-a-wf-from-a-campaign.png)
+   ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
 
 
 De belangrijkste stappen voor het maken van workflows zijn als volgt:
 
-![](assets/workflow-creation-process.png)
+![](assets/workflow-creation-process.png){zoomable=&quot;yes&quot;}
 
 Deze stappen worden beschreven in de volgende sectie:
 

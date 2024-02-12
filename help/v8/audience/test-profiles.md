@@ -4,10 +4,10 @@ description: Leer testprofielen maken en beheren in Adobe Campaign
 feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 08554d835175cd81f4df057ebfb7952500a12ba4
+exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '528'
 ht-degree: 2%
 
 ---
@@ -33,17 +33,17 @@ De stappen om testberichten naar zaadadressen te verzenden zijn gedetailleerd in
 
 Als u de lijst met testprofielen wilt openen, selecteert u **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** in het linkermenu en klik op de knop **[!UICONTROL Test profiles]** tab.
 
-![](assets/test-profile-list.png)
+![](assets/test-profile-list.png){zoomable=&quot;yes&quot;}
 
 * U kunt filteren op een specifieke [map](../get-started/permissions.md#folders) de vervolgkeuzelijst gebruiken of regels toevoegen met de [querymodel](../query/query-modeler-overview.md).
 
-  ![](assets/test-profile-list-filters.png)
+  ![](assets/test-profile-list-filters.png){zoomable=&quot;yes&quot;}
 
 * U kunt elk testprofiel dupliceren en zo nodig bijwerken. De stappen om een testprofiel te bewerken zijn gelijk aan wanneer [een testprofiel maken](#create-test-profile).
 
 * Als u een testprofiel wilt verwijderen, selecteert u de bijbehorende optie in het menu **[!UICONTROL More actions]** -menu.
 
-  ![](assets/test-profile-list-delete.png)
+  ![](assets/test-profile-list-delete.png){zoomable=&quot;yes&quot;}
 
 * Als u een testprofiel wilt bewerken, klikt u op het gewenste item in de lijst. De stappen om een testprofiel te bewerken zijn gelijk aan wanneer [een testprofiel maken](#create-test-profile).
 
@@ -51,7 +51,7 @@ U kunt testprofielen ook openen via de **[!UICONTROL Explorer]** van de **[!UICO
 
 Vervolgens kunt u mappen of submappen bladeren, maken en beheren en de bijbehorende machtigingen controleren. [Leer hoe u mappen maakt](../get-started/permissions.md#folders)
 
-![](assets/test-profiles-folders.png)
+![](assets/test-profiles-folders.png){zoomable=&quot;yes&quot;}
 
 Van de **[!UICONTROL Explorer]** kunt u ook filteren, verwijderen, bewerken en [maken](#create-test-profile) testprofielen.
 
@@ -68,11 +68,11 @@ Voer de onderstaande stappen uit om een testprofiel te maken.
 
 1. Klik op de knop **[!UICONTROL Create test profile]**.
 
-   ![](assets/test-profile-create.png)
+   ![](assets/test-profile-create.png){zoomable=&quot;yes&quot;}
 
 1. Vul zo nodig de gegevens van het testprofiel in. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png)
+   ![](assets/test-profile-details.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -80,7 +80,7 @@ Voer de onderstaande stappen uit om een testprofiel te maken.
 
 1. Standaard worden testprofielen opgeslagen in het dialoogvenster **[!UICONTROL Seed addresses]** map. U kunt dit wijzigen door naar de gewenste locatie te bladeren. [Leer hoe u met mappen werkt](../get-started/permissions.md#folders)
 
-   <!--![](assets/test-profile-folder.png)-->
+   <!--![](assets/test-profile-folder.png){zoomable="yes"}-->
 
 <!--
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)
@@ -88,13 +88,13 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. In de **[!UICONTROL Contact information]** en voert u het e-mailadres en andere relevante gegevens in. Het e-mailadres wordt tussen haakjes weergegeven na het label voor het testprofiel.
 
-   ![](assets/test-profile-address.png)
+   ![](assets/test-profile-address.png){zoomable=&quot;yes&quot;}
 
 1. Als u **[!UICONTROL No longer contact (by any channel)]** Als u dit inschakelt, wordt het testprofiel op lijst van gewezen personen weergegeven. Deze ontvanger is niet langer gericht op enig kanaal (e-mail, SMS, enz.).
 
 1. In de **[!UICONTROL Additional data]** voert u de aanpassingsgegevens in die worden gebruikt voor de leveringen die worden gemaakt in de workflows voor gegevensbeheer en waaraan u een specifieke waarde wilt toewijzen. [Meer informatie over workflows](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png)
+   ![](assets/test-profile-additional-data.png){zoomable=&quot;yes&quot;}
 
    Zorg ervoor dat aanvullende doelgegevens zijn gedefinieerd met een alias die begint met &#39;@&#39; in het dialoogvenster **[!UICONTROL Enrichment]** workflowactiviteit. Anders, kunt u niet het met uw zaadadressen in de leveringsactiviteit behoorlijk gebruiken. [Meer informatie over verrijkingsactiviteiten](../workflows/activities/enrichment.md)
 
@@ -103,6 +103,3 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 Het testprofiel dat u zojuist hebt gemaakt, kan nu worden gebruikt om een test te verzenden. [Meer informatie](../preview-test/test-deliveries.md#test-profiles)
 
 <!--Use test profiles in Direct mail? cf v7/v8-->
-
-
-

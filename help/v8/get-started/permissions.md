@@ -2,11 +2,10 @@
 audience: end-user
 title: Machtigingsbeheer in de gebruikersinterface van het Web voor campagne
 description: Meer informatie over machtigingen in de gebruikersinterface van Campagne Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -67,11 +66,11 @@ Voer de volgende stappen uit om machtigingen voor een map weer te geven:
 1. Van de **Verkenner** Selecteer een map in het linkermenu nav.
 1. Klik op de drie stippen in de rechterbovenhoek en selecteer **Mapmachtigingen**.
 
-   ![](assets/permissions-view-menu.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. Controleer de details in het scherm, zoals hieronder:
 
-   ![](assets/permissions-view-screen.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    Een groep of een operator kan beschikken over de machtiging Lezen, Schrijven en/of Verwijderen voor gegevens die in de geselecteerde map zijn opgeslagen.
 
@@ -96,8 +95,8 @@ Ga als volgt te werk om een map te maken:
 1. Klik op de drie stippen in de rechterbovenhoek en kies **Nieuwe submap maken**.
 1. Voer de naam van de map in en sla deze op.
 
-   ![](assets/create-new-subfolder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
    De map wordt toegevoegd als een submap van de huidige map. Blader naar die nieuwe map om er direct componenten in te maken. U kunt ook een component maken vanuit elke gewenste map en deze opslaan in die nieuwe map, vanuit de **Aanvullende opties** sectie van de eigenschappen, zoals hieronder voor een levering getoond:
 
-   ![](assets/delivery-properties-folder.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}

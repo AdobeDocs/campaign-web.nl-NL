@@ -2,14 +2,13 @@
 audience: end-user
 title: Aan de slag met Global-rapporten
 description: Globale rapporten begrijpen
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: fb72b943b324990f6dd82a4a05bfd28e5452480a
+exl-id: e64d9765-f602-4fee-9923-a3665130c63a
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 1%
+source-wordcount: '192'
+ht-degree: 0%
 
 ---
-
 
 # Aan de slag met algemene rapporten {#global-report-gs}
 
@@ -29,15 +28,15 @@ Voer de volgende stappen uit om toegang te krijgen tot uw Global-rapporten en de
 
 1. Selecteer in het linkermenu een rapport in de lijst en navigeer door de tab om de gegevens van elk kanaal weer te geven.
 
-   ![](assets/global_report_manage_3.png)
+   ![](assets/global_report_manage_3.png){zoomable=&quot;yes&quot;}
 
 1. Kies een **Start** en **[!UICONTROL End time]** specifieke gegevens als doel in te stellen.
 
-   ![](assets/global_report_manage_1.png)
+   ![](assets/global_report_manage_1.png){zoomable=&quot;yes&quot;}
 
 1. Van de **[!UICONTROL Pick folder]** veld, selecteert u of u de leveringen of de campagne vanuit een specifieke map wilt activeren.
 
-   ![](assets/global_report_manage_2.png)
+   ![](assets/global_report_manage_2.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **[!UICONTROL Add rules]** beginnen vragen te bouwen aan betere filter het melden gegevens. [Leer hoe te om de vraagmodeler te gebruiken](../query/query-modeler-overview.md)
 

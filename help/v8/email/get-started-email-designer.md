@@ -2,12 +2,11 @@
 audience: end-user
 title: De e-mailinhoud bewerken
 description: Leer hoe u inhoud gaat maken met de gebruikersinterface E-mailontwerper in Campagne Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: db06e0f54984991e1d6b1056932a9974e340546e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -61,4 +60,4 @@ Ga vanaf het dashboard voor e-maillevering door de [Inhoud bewerken](edit-conten
 
 * **Bestaande inhoud selecteren** uit een lijst met ingebouwde of aangepaste sjablonen. Leer hoe u met e-mailsjablonen werkt [deze sectie](create-email-templates.md).
 
-  ![](assets/email_designer_create_options.png)
+  ![](assets/email_designer_create_options.png){zoomable=&quot;yes&quot;}

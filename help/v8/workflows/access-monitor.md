@@ -2,9 +2,8 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: 2a9b7e52-2b8b-4293-9b4d-a228ba95bed3
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -20,7 +19,7 @@ ht-degree: 0%
 
 De **[!UICONTROL Workflows]** kunt u de volledige lijst met workflows openen. Deze lijst bevat beide **zelfstandige workflows** die op basis van dit scherm zijn gemaakt, en **campagneworkflows**, die in een campagne zijn gemaakt.
 
-![](assets/workflow-list.png)
+![](assets/workflow-list.png){zoomable=&quot;yes&quot;}
 
 Elke werkstroom in de lijst bevat informatie over de huidige [status](#status), de laatste keer dat deze werd uitgevoerd of gewijzigd, en de volgende geplande uitvoeringsdatum en -tijd.
 

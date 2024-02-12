@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Volg onderstaande stappen om e-mailinhoud te genereren met de Content Assistant.
 
 1. Selecteer in het rechtermenu de optie **[!UICONTROL Experience generation]**.
 
-   ![](assets/email-genai-1.png)
+   ![](assets/email-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren.
 
@@ -46,7 +46,7 @@ Volg onderstaande stappen om e-mailinhoud te genereren met de Content Assistant.
    * Voor feedback en enquêtes: Maak een e-mail met een uitnodiging aan klanten om feedback te geven over hun recente ervaring met software en deel te nemen aan een productverbeteringsenquête.
    * Voor e-mails over verjaardag of verjaardag: Genereer een e-mail over de verjaardag, waarbij de speciale dag van de klant wordt gevierd en een verjaardagskorting wordt aangeboden.
 
-   ![](assets/email-genai-2.png)
+   ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. Selecteren **[!UICONTROL Upload file]** als u merkmiddelen wilt toevoegen die inhoud bevatten die extra context de Inhoudsassistent kan verstrekken.
 
@@ -56,7 +56,7 @@ Volg onderstaande stappen om e-mailinhoud te genereren met de Content Assistant.
 
 1. Kies de optie **[!UICONTROL Language]** en **[!UICONTROL Tone]** dat de gegenereerde tekst moet bestaan. Zo weet u zeker dat de tekst geschikt is voor uw doelgroep.
 
-   ![](assets/email-genai-3.png)
+   ![](assets/email-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. De **[!UICONTROL Content type]** instellingen voor elementen die overeenkomen met de kenmerken van het gewenste element.
 
@@ -64,16 +64,16 @@ Volg onderstaande stappen om e-mailinhoud te genereren met de Content Assistant.
 
 1. Bladeren in het dialoogvenster **[!UICONTROL Variation suggestions]** om het gewenste e-mailbericht te zoeken. Klikken **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
 
-   ![](assets/email-genai-4.png)
+   ![](assets/email-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
-   ![](assets/email-genai-5.png)
+   ![](assets/email-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd of verbeter uw inhoud indien nodig verder aan te passen. [Meer informatie over content personalization](../personalization/personalize.md)
 
 1. Nadat u de e-mailinhoud hebt gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en personalisatie-instellingen te controleren met testprofielen.  [Meer informatie](../preview-test/preview-content.md)
 
-   ![](assets/email-genai-6.png)
+   ![](assets/email-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)

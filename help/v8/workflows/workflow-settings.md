@@ -2,12 +2,11 @@
 audience: end-user
 title: Workflowinstellingen configureren
 description: Leer hoe u workflowinstellingen configureert met Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 55bfca002618dfae53c4a9700087daa5cfd314f2
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 1%
+source-wordcount: '898'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +19,7 @@ Deze instellingen zijn vooraf geconfigureerd in de sjabloon die is geselecteerd 
 
 Om dit te doen, klik **[!UICONTROL Settings]** in de actiebalk boven het werkstroomcanvas beschikbaar.
 
-![](assets/workflow-settings-button.png){width="70%" align="left"}
+![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 ## Workfloweigenschappen {#properties}
 
@@ -31,7 +30,7 @@ Om dit te doen, klik **[!UICONTROL Settings]** in de actiebalk boven het werkstr
 
 De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk zijn wanneer u de workflow maakt.
 
-![](assets/workflow-settings.png){width="70%" align="left"}
+![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 
 Deze eigenschappen zijn:

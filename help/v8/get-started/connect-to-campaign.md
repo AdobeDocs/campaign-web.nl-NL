@@ -1,11 +1,10 @@
 ---
 title: Verbinding maken met de Adobe Campaign-webinterface
 description: Leer hoe u verbinding maakt met de gebruikersinterface van Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: eb6c1b2367c1f4d3be1b2e3e6dcc7a372d208d86
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -26,11 +25,11 @@ U kunt zich als volgt aanmelden bij Adobe Experience Cloud:
 
    Nadat u zich hebt aangemeld bij het Experience Cloud, hebt u snel toegang tot al uw oplossingen en toepassingen.
 
-   ![](assets/exc-home.png)
+   ![](assets/exc-home.png){zoomable=&quot;yes&quot;}
 
 1. Controleer of u zich in de juiste organisatie bevindt.
 
-   ![](assets/exc-orgs.png){width="50%" align="left"}
+   ![](assets/exc-orgs.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
    Meer informatie over organisaties in Adobe Experience Cloud in [dit artikel](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl){target="_blank"}.
 
@@ -41,11 +40,11 @@ Om tot uw milieu van de Campagne toegang te hebben, selecteer **Campagne** van d
 
 Als u al bent verbonden met een andere Adobe Experience Cloud-oplossing, kunt u ook vanuit de oplossingsschakelaar rechtsboven in het scherm naar de Campagne-omgeving bladeren.
 
-![](assets/solution-switcher.png)
+![](assets/solution-switcher.png){zoomable=&quot;yes&quot;}
 
 Als u toegang hebt tot meerdere omgevingen, waaronder het Configuratiescherm van de campagne, klikt u op de knop **Starten** voor de juiste instantie.
 
-![](assets/launch-campaign.png)
+![](assets/launch-campaign.png){zoomable=&quot;yes&quot;}
 
 U bent nu verbonden met Campagne. Leer hoe u de gebruikersinterface kunt gebruiken in [deze pagina](user-interface.md).
 
@@ -60,7 +59,7 @@ Blader naar de bovenste balk van de interface:
 * productmeldingen controleren
 * bewerk het profiel van de Adobe en beheer instellingen, zoals [uw favoriete taal bijwerken](#language-pref) of [schakelen naar licht/donker thema](#dark-theme)
 
-![](assets/do-not-localize/unified-shell.png){width="50%" align="left"}
+![](assets/do-not-localize/unified-shell.png){zoomable=&quot;yes&quot;}{width="50%" align="left"}
 
 ## Ondersteunde browsers {#browsers}
 

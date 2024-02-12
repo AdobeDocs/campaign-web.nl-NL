@@ -2,10 +2,10 @@
 audience: end-user
 title: Algemene rapporten voor het SMS-kanaal
 description: Werken met wereldwijde rapporten voor het SMS-kanaal
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '560'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Ga naar de **[!UICONTROL Reports]** in het menu **[!UICONTROL Reporting]** secti
 
 De **[!UICONTROL Delivery Overview]** Het rapport biedt uitvoerige zeer belangrijke prestatiesindicatoren (KPIs) die diepgaand inzicht in de interactiepatronen van uw bezoekers met elke levering van SMS verstrekken. De volgende cijfers worden hieronder beschreven.
 
-![](assets/global_report_sms_delivery_overview.png)
+![](assets/global_report_sms_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++ Meer informatie over overzichtsmetriek voor levering.
 
@@ -50,7 +50,7 @@ De **[!UICONTROL Delivery Overview]** Het rapport biedt uitvoerige zeer belangri
 
 De **[!UICONTROL Targeted audience]** tabel en grafiek geven gegevens weer met betrekking tot uw ontvangers voor elke verzonden SMS-levering. De cijfers worden hieronder beschreven.
 
-![](assets/global_report_sms_targeted_audience.png)
+![](assets/global_report_sms_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++ Meer informatie over de meetgegevens voor doelgroepen.
 
@@ -71,7 +71,7 @@ De **[!UICONTROL Targeted audience]** tabel en grafiek geven gegevens weer met b
 
 De **[!UICONTROL Delivery statistics]** in de tabel wordt aangegeven hoe succesvol je levering via SMS is. De cijfers worden hieronder beschreven.
 
-![](assets/global_report_sms_delivery_statistics.png)
+![](assets/global_report_sms_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++ Meer informatie over de statistieken van de Levering metriek.
 
@@ -98,7 +98,7 @@ De **[!UICONTROL Causes of exclusion]** de grafiek en de lijst tonen de redenen 
 
 Fouttypen worden vermeld in het dialoogvenster [Adobe Campaign v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
-![](assets/global_report_sms_causes_exclusion.png)
+![](assets/global_report_sms_causes_exclusion.png){zoomable=&quot;yes&quot;}
 
 ## Leveringsdoorvoer {#delivery-throughput-sms}
 
@@ -107,6 +107,6 @@ Fouttypen worden vermeld in het dialoogvenster [Adobe Campaign v8-documentatie (
 >title="Productie van SMS-berichten"
 >abstract="De **Leveringsdoorvoer** het rapport biedt uitgebreide inzichten in de efficiëntie van het systeem voor het leveren van SMS-berichten, met een gedetailleerd overzicht van het succes en de foutenpercentages binnen een bepaald tijdsbestek."
 
-![](assets/global_report_sms_delivery_throughput.png)
+![](assets/global_report_sms_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 De **[!UICONTROL Delivery Throughput]** het rapport biedt uitgebreide inzichten in de doeltreffendheid van het systeem voor de levering van SMS-berichten, met een gedetailleerde samenvatting van het succes en de foutenpercentages over een bepaalde periode.

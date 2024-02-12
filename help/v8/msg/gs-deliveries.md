@@ -5,12 +5,11 @@ description: Leer hoe u uw eerste levering maakt in Campagne Web
 feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Beperkte beschikbaarheid"
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 74048d2e6001d2d9b4813a78096a481374233ea6
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 1%
+source-wordcount: '1172'
+ht-degree: 0%
 
 ---
 
@@ -35,12 +34,12 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
 
 1. Bladeren naar de **[!UICONTROL Deliveries]** en klik op de knop **[!UICONTROL Create delivery]** knop.
 
-   ![](assets/create-a-delivery.png)
+   ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
 
 1. Kies een kanaal voor de levering.
 1. Bepaal het leveringspubliek, voor het belangrijkste doel en de controlegroep. Meer informatie over publiek in [deze sectie](../audience/about-recipients.md).
 
-   ![](assets/select-audience.png){width="70%" align="left"}
+   ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
 1. Bepaal de berichtinhoud. Meer informatie over leveringskanalen en hoe u in deze secties leveringsinhoud kunt definiëren:
 
@@ -63,13 +62,13 @@ Ga als volgt te werk om een levering in een workflow te maken:
 1. Een **[!UICONTROL Build audience]** activiteit. Meer informatie over de **[!UICONTROL Build audience]** activiteit in [deze sectie](../workflows/activities/build-audience.md).
 1. Klik op de knop `+` en selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van het leveringskanaal in een workflow en over het definiëren van inhoud voor levering in deze [sectie](../workflows/activities/channels.md).
 
-   ![](assets/add-delivery-in-wf.png)
+   ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
 
 1. Start de workflow en controleer logbestanden.
 
 U kunt ook leveringen in een campagne toevoegen zonder een workflow te maken. Om dit te bereiken, doorblader aan **[!UICONTROL Deliveries]** tabblad van uw campagne en klik op **[!UICONTROL Create delivery]** knop.
 
-![](assets/new-campaign-delivery.png)
+![](assets/new-campaign-delivery.png){zoomable=&quot;yes&quot;}
 
 De stappen van de configuratie zijn gelijkaardig zoals voor standalone leveringen.
 
@@ -117,7 +116,7 @@ U kunt de datum en het exacte tijdstip voor het verzenden van uw berichten inste
 
 Als u de verzending van de levering wilt plannen, opent u de levering en bladert u naar de **[!UICONTROL Schedule]** sectie. Gebruik de **[!UICONTROL Enable scheduling]** om het te activeren en de gewenste datum en tijd voor verzending in te stellen. Nadat u de levering hebt verzonden, begint de daadwerkelijke verzending op de door u gedefinieerde contactdatum.
 
-![](assets/schedule.png)
+![](assets/schedule.png){zoomable=&quot;yes&quot;}
 
 Standaard worden de **[!UICONTROL Enable confirmation before sending]** is ingeschakeld. Voor deze optie moet u de verzending bevestigen voordat de levering op de geplande datum en tijd wordt verzonden. Als u de levering automatisch op de geplande datum en tijd moet verzenden, kunt u deze optie onbruikbaar maken.
 

@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: 896d7e9b-0fa2-435b-b191-fa5db36e7ea0
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '362'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,11 @@ In het onderstaande voorbeeld leert u hoe u de Inhoudsassistent kunt gebruiken o
 
 1. Selecteer in het rechtermenu de optie **[!UICONTROL Experience generation]**.
 
-   ![](assets/image-genai-1.png)
+   ![](assets/image-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Voeg een herinnering toe om uw resultaten beter te verfijnen.
 
-   ![](assets/image-genai-2.png)
+   ![](assets/image-genai-2.png){zoomable=&quot;yes&quot;}
 
 1. Selecteren **[!UICONTROL Upload file]** als u merkmiddelen wilt toevoegen die inhoud bevatten die extra context de Inhoudsassistent kan verstrekken.
 
@@ -51,20 +51,20 @@ In het onderstaande voorbeeld leert u hoe u de Inhoudsassistent kunt gebruiken o
 
 1. De **[!UICONTROL Color & tone]**, **[!UICONTROL Content type]**, **[!UICONTROL Lighting]** en **[!UICONTROL Composition]** instellingen die overeenkomen met de gewenste elementkenmerken.
 
-   ![](assets/image-genai-3.png)
+   ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Zodra u met uw snelle configuratie tevreden bent, klik **[!UICONTROL Generate]**.
 
 1. Bladeren in het dialoogvenster **[!UICONTROL Variation suggestions]** om het gewenste element te zoeken. Klikken **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
 
-   ![](assets/image-genai-5.png)
+   ![](assets/image-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
-   ![](assets/image-genai-6.png)
+   ![](assets/image-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. Nadat u de inhoud van uw bericht hebt gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en personalisatie-instellingen te controleren met testprofielen.  [Meer informatie](../preview-test/preview-content.md)
 
-   ![](assets/image-genai-7.png)
+   ![](assets/image-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)

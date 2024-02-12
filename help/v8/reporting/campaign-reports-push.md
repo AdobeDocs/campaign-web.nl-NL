@@ -2,11 +2,10 @@
 audience: end-user
 title: Campagnerapporten voor het pushkanaal
 description: Campagnerapporten begrijpen voor het Push-kanaal
-badge: label="Beperkte beschikbaarheid"
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -24,7 +23,7 @@ Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de
 
 De **[!UICONTROL Delivery Overview]** Deze rapporten bevatten belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop uw bezoekers de pushmelding verzenden. De cijfers worden hieronder beschreven.
 
-![](assets/campaign-reporting-push-summary.png)
+![](assets/campaign-reporting-push-summary.png){zoomable=&quot;yes&quot;}
 
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
@@ -49,7 +48,7 @@ De **[!UICONTROL Delivery Overview]** Deze rapporten bevatten belangrijke presta
 
 De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers. De cijfers worden hieronder beschreven.
 
-![](assets/campaign-reporting-push-target.png)
+![](assets/campaign-reporting-push-target.png){zoomable=&quot;yes&quot;}
 
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
@@ -71,7 +70,7 @@ De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens m
 
 De **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succesvol de levering is . De cijfers worden hieronder beschreven.
 
-![](assets/campaign-reporting-push-exec.png)
+![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
 
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
@@ -97,7 +96,7 @@ De **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succes
 
 De **[!UICONTROL Generated click streams]** de lijst toont gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden. De cijfers worden hieronder beschreven.
 
-![](assets/campaign-reporting-push-clicks.png)
+![](assets/campaign-reporting-push-clicks.png){zoomable=&quot;yes&quot;}
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
 

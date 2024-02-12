@@ -2,12 +2,11 @@
 audience: end-user
 title: Een sms-levering maken
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 6aacb0644e0e8aee1ea2f8ca167413aed565bec8
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 4%
+source-wordcount: '480'
+ht-degree: 3%
 
 ---
 
@@ -42,7 +41,7 @@ Ga als volgt te werk om een nieuwe, zelfstandige SMS-levering te maken:
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 
-   ![](assets/sms_create_1.png)
+   ![](assets/sms_create_1.png){zoomable=&quot;yes&quot;}
 
 1. Voer een **[!UICONTROL Label]** voor levering en toegang tot **[!UICONTROL Additional options]** vervolgkeuzelijst. Als uw levering op een uitgebreid schema wordt gebaseerd, specifiek **Aangepaste opties** zijn beschikbaar.
 
@@ -56,7 +55,7 @@ Ga als volgt te werk om een nieuwe, zelfstandige SMS-levering te maken:
 
 1. Klik op de knop **[!UICONTROL Select audience]** om een bestaand publiek als doel in te stellen of uw eigen publiek te maken. [Meer informatie over het publiek](../audience/about-recipients.md).
 
-   ![](assets/sms_create_2.png)
+   ![](assets/sms_create_2.png){zoomable=&quot;yes&quot;}
 
    Leer hoe u een bestaand publiek kunt selecteren in [deze pagina](../audience/add-audience.md)
 
@@ -66,7 +65,7 @@ Ga als volgt te werk om een nieuwe, zelfstandige SMS-levering te maken:
 
 1. Klikken **[!UICONTROL Edit content]** om de inhoud van je SMS-bericht te ontwerpen. [Meer informatie](content-sms.md)
 
-   ![](assets/sms_create_4.png)
+   ![](assets/sms_create_4.png){zoomable=&quot;yes&quot;}
 
    Vanuit dit scherm kunt u ook [simuleren, inhoud](../preview-test/preview-test.md) en [aanbiedingen instellen](../msg/offers.md).
 
@@ -78,4 +77,4 @@ Ga als volgt te werk om een nieuwe, zelfstandige SMS-levering te maken:
 
 1. Klikken **[!UICONTROL Settings]** voor toegang tot geavanceerde opties met betrekking tot uw leveringsmalplaatje. [Meer informatie](../advanced-settings/delivery-settings.md)
 
-   ![](assets/sms_create_3.png)
+   ![](assets/sms_create_3.png){zoomable=&quot;yes&quot;}

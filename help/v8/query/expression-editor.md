@@ -2,10 +2,10 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 26d4b548a7019a79826af435a90deb72e956bcde
+exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '2000'
+source-wordcount: '2006'
 ht-degree: 55%
 
 ---
@@ -24,7 +24,7 @@ De uitdrukkingsredacteur is beschikbaar bij vraagmodeler **[!UICONTROL Edit expr
 
 | Toegang van de **Kenmerk** field | Toegang van de **Waarde** field |
 |  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){width="200" align="center" zoomable="yes"} |
+| ![](assets/expression-editor-attribute.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 De uitdrukkingsredacteur verstrekt:
 
@@ -34,13 +34,13 @@ De uitdrukkingsredacteur verstrekt:
 
 Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren. Als u een veld of hulpfunctie wilt toevoegen, plaatst u de cursor in de expressie waar u deze wilt toevoegen en klikt u op +.
 
-![](assets/expression-editor.png)
+![](assets/expression-editor.png){zoomable=&quot;yes&quot;}
 
 Wanneer uw uitdrukking klaar is, klik **[!UICONTROL Confirm]** knop. De expressie wordt weergegeven in het geselecteerde veld. Als u deze wilt bewerken, opent u de editor voor de expressie en brengt u de gewenste wijzigingen aan.
 
 In het onderstaande voorbeeld ziet u een expressie die is geconfigureerd voor het **[!UICONTROL Value]** veld. Als u de editor wilt bewerken, moet u de editor voor expressies openen met de opdracht **[!UICONTROL Edit expression]** knop.
 
-![](assets/edit-expression-value.png)
+![](assets/edit-expression-value.png){zoomable=&quot;yes&quot;}
 
 ## Helpfuncties
 

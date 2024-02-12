@@ -1,9 +1,8 @@
 ---
 title: Doelafmetingen
 description: Meer informatie over doelgerichte dimensies vindt u op Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: d040dddb143c2dbf4e9f47d762f7359ec7a18e16
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -27,7 +26,7 @@ Let op: u kunt de doeldimensie in een workflow wijzigen met een [Dimensieactivit
 
 Wanneer u een doeldimensie selecteert (in de workflowinstellingen of in activiteiten zoals **publiek opbouwen**, **Verzoening** of **Dimensie wijzigen**), wordt een selectie van algemeen gebruikte schema&#39;s door gebrek getoond in de lijst. Als u alle beschikbare schema&#39;s wilt weergeven, schakelt u het **[!UICONTROL Show all schemas]** knop. De optie wordt voor elke gebruiker opgeslagen.
 
-![](assets/targeting-dimension-show-all.png)
+![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
 
 ## Doelafmetingen {#list}
 

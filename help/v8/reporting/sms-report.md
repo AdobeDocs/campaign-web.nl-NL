@@ -2,12 +2,11 @@
 audience: end-user
 title: Verzendrapporten via SMS
 description: Leer hoe u sms-leveringsrapporten kunt openen en gebruiken
-badge: label="Beperkte beschikbaarheid"
 exl-id: 153d3a85-0d39-42db-9906-1e7f2d1d5bae
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 1%
+source-wordcount: '498'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +30,7 @@ De **Overzicht van SMS-verzending** biedt een uitgebreid overzicht van uw leveri
 
 De **[!UICONTROL Delivery overview]** Het rapport biedt belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over het succes en de foutenpercentages en over de manier waarop uw bezoekers uw SMS-berichten gebruiken.
 
-![](assets/reporting_sms_3.png)
+![](assets/reporting_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de cijfers van SMS-verzendrapporten.
 
@@ -54,7 +53,7 @@ De **[!UICONTROL Delivery overview]** Het rapport biedt belangrijke prestatie-in
 
 De **Doelpopulatie** grafiek en lijstvertoningsgegevens met betrekking tot uw publiek. De cijfers worden hieronder beschreven.
 
-![](assets/reporting_sms_4.png)
+![](assets/reporting_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de cijfers van SMS-verzendrapporten.
 
@@ -73,7 +72,7 @@ De **Doelpopulatie** grafiek en lijstvertoningsgegevens met betrekking tot uw pu
 
 De **Algemene statistieken** rapport bevat gegevens voor de verzonden SMS-berichten. De cijfers worden hieronder beschreven.
 
-![](assets/reporting_sms_5.png)
+![](assets/reporting_sms_5.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de cijfers van SMS-verzendrapporten.
 
@@ -93,7 +92,7 @@ De **Algemene statistieken** rapport bevat gegevens voor de verzonden SMS-berich
 
 De **[!UICONTROL Exclusions]** de grafiek en de lijst tonen de redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, het bericht ontvingen. De uitsluitingsregels worden nader toegelicht in de [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
 
-![](assets/reporting_sms_6.png)
+![](assets/reporting_sms_6.png){zoomable=&quot;yes&quot;}
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
@@ -104,4 +103,4 @@ De **[!UICONTROL Exclusions]** de grafiek en de lijst tonen de redenen die gebru
 
 Dit rapport bevat gedetailleerde informatie over de leveringsproductie binnen een bepaald tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
 
-![](assets/reporting_sms_2.png)
+![](assets/reporting_sms_2.png){zoomable=&quot;yes&quot;}

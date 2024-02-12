@@ -2,11 +2,10 @@
 audience: end-user
 title: Rapporten over levering verzenden
 description: Leer hoe u pushrapporten kunt openen en gebruiken
-badge: label="Beperkte beschikbaarheid"
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: 9d3485293a6576e87e03d8691c403fcaeafbbeb1
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -31,7 +30,7 @@ De **Push-leveringsrapport** biedt een grondig overzicht van het pushkanaal, met
 
 De **[!UICONTROL Delivery overview]** Deze rapporten bevatten belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop bezoekers uw pushberichten gebruiken.
 
-![](assets/reporting_push_3.png)
+![](assets/reporting_push_3.png){zoomable=&quot;yes&quot;}
 
 +++Meer weten over cijfers van verzendrapporten.
 
@@ -54,7 +53,7 @@ De **[!UICONTROL Delivery overview]** Deze rapporten bevatten belangrijke presta
 
 De **Doelpopulatie** grafiek en lijstvertoningsgegevens met betrekking tot uw publiek: te leveren berichten en uitsluitingen. De cijfers worden hieronder beschreven.
 
-![](assets/reporting_push_4.png)
+![](assets/reporting_push_4.png){zoomable=&quot;yes&quot;}
 
 +++Meer weten over cijfers van verzendrapporten.
 
@@ -73,7 +72,7 @@ De **Doelpopulatie** grafiek en lijstvertoningsgegevens met betrekking tot uw pu
 
 De **Algemene statistieken** het rapport bevat gegevens voor de verzonden pushmeldingen : geslaagd , fouten en quarantines . De cijfers worden hieronder beschreven.
 
-![](assets/reporting_push_5.png)
+![](assets/reporting_push_5.png){zoomable=&quot;yes&quot;}
 
 +++Meer weten over cijfers van verzendrapporten.
 
@@ -95,7 +94,7 @@ De **Algemene statistieken** het rapport bevat gegevens voor de verzonden pushme
 De **[!UICONTROL Exclusions]** de grafiek en de lijst tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen. De uitsluitingsregels worden nader toegelicht in de [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 
-![](assets/reporting_push_6.png)
+![](assets/reporting_push_6.png){zoomable=&quot;yes&quot;}
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
@@ -106,4 +105,4 @@ De **[!UICONTROL Exclusions]** de grafiek en de lijst tonen de diverse redenen d
 
 De **Leveringsdoorvoer** het rapport bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een bepaald tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
 
-![](assets/reporting_push_2.png)
+![](assets/reporting_push_2.png){zoomable=&quot;yes&quot;}

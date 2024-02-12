@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f614919e0ad253aa4625f774e7fe102426e25807
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ U kunt de inhoud van uw bericht dynamisch maken door JavaScript-constructies in 
 
 * **Je berichten personaliseren** aan elke specifieke ontvanger door profielgegevens zoals hun voornaam, belangen, waar zij wonen, wat zij hebben gekocht, en nog veel meer te gebruiken. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. Met de volgende syntaxis wordt de plaats van de ontvanger in de inhoud ingevoegd: &lt;%= receiving.location.city %>.
 
-  ![](assets/perso-subject-line.png){width="800" align="center"}
+  ![](assets/perso-subject-line.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * **Voorwaardelijke inhoud maken** om uw leveringen aan elke ontvanger aan te passen en slechts de inhoud te tonen die voor een bepaalde klant relevant is die op de informatie wordt gebaseerd u over hen hebt. Hierdoor kunt u specifieke tekstblokken en/of afbeeldingen op basis van voorwaarden weergeven. U kunt bijvoorbeeld een e-mailbanner op basis van het abonnement van de ontvangers aanpassen aan een specifieke service.
 
-  ![](assets/condition-sample.png){width="800" align="center"}
+  ![](assets/condition-sample.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * **Verpersoonlijkingsblokken gebruiken** om tijd en hefboomwerking gemakkelijk opnieuw te gebruiken gepersonaliseerde inhoud in uw berichten te besparen. De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van een e-mailbericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de verpersoonlijkingseditor.
 
-  ![](assets/content-blocks.png){width="800" align="center"}
+  ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 ## De expressie-editor openen {#access}
 
@@ -51,15 +51,15 @@ Hier volgen enkele voorbeelden van hoe u toegang krijgt tot de expressieeditor, 
 
 * *De uitdrukkingsredacteur van het de naamgebied van de Afzender toegang hebben*
 
-  ![](assets/expression-editor-access.png){width="800" align="center"}
+  ![](assets/expression-editor-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * *De expressie-editor openen vanuit een e-mailtekstcomponent*
 
-  ![](assets/expression-editor-access-email.png){width="800" align="center"}
+  ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 * *Expressieeditor openen via een koppeling in een e-mailbericht*
 
-  ![](assets/perso-link-insert-icon.png){width="800" align="center"}
+  ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 >[!NOTE]
 >

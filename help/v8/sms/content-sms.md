@@ -2,12 +2,11 @@
 audience: end-user
 title: Een SMS-levering ontwerpen
 description: Meer weten over het ontwerpen van je SMS-aanbieding?
-badge: label="Beperkte beschikbaarheid"
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 3%
+source-wordcount: '240'
+ht-degree: 2%
 
 ---
 
@@ -31,11 +30,11 @@ Ga als volgt te werk om de inhoud van een SMS-levering te ontwerpen:
 
    Klik bovendien op **[!UICONTROL Open personalization dialog]**, kunt u verpersoonlijkingsgebieden, inhoudsblokken, en dynamische inhoud in uw bericht omvatten.
 
-   ![](assets/sms_content_1.png)
+   ![](assets/sms_content_1.png){zoomable=&quot;yes&quot;}
 
 1. Typ uw tekstbericht in het dialoogvenster **[!UICONTROL Message]** veld of klik op **[!UICONTROL Open personalization dialog]** om inhoud te definiëren en dynamische inhoud toe te voegen. [Meer informatie](../personalization/gs-personalization.md)
 
-   ![](assets/sms_content_2.png)
+   ![](assets/sms_content_2.png){zoomable=&quot;yes&quot;}
 
 1. Standaard is het bijhouden van gegevens ingeschakeld voor leveringen. U kunt deze optie uitschakelen in het dialoogvenster **[!UICONTROL Optional features section]**.
 

@@ -2,12 +2,11 @@
 audience: end-user
 title: Een eenmalig publiek maken voor levering
 description: Leer hoe u een eenmalig publiek kunt maken voor een levering.
-badge: label="Beperkte beschikbaarheid"
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: a3476e46c29723af8246683a005543cfd605e7df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 1%
+source-wordcount: '227'
+ht-degree: 0%
 
 ---
 
@@ -26,11 +25,11 @@ Voer de volgende stappen uit om een nieuw publiek rechtstreeks vanaf een leverin
 
 1. Van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking, klik **[!UICONTROL Select audience]** knop.
 
-   ![](assets/segment-builder0.png)
+   ![](assets/segment-builder0.png){zoomable=&quot;yes&quot;}
 
 1. Selecteren **Maak uw eigen**. De vraagmodeler wordt getoond. Het staat u toe om de bevolking te bepalen die door uw levering wordt gericht door gegevens te filtreren in het gegevensbestand. [Leer hoe te om de vraagmodeler te gebruiken](../query/query-modeler-overview.md)
 
-   ![](assets/query-modeler.png)
+   ![](assets/query-modeler.png){zoomable=&quot;yes&quot;}
 
 1. Als de query gereed is, klikt u op **Bevestigen** om het publiek als belangrijkste doel van uw levering te gebruiken.
 

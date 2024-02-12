@@ -2,10 +2,10 @@
 audience: end-user
 title: Globale rapporten voor het kanaal van de Duw
 description: Werken met algemene rapporten voor het pushkanaal
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Ga naar de **[!UICONTROL Reports]** in het menu **[!UICONTROL Reporting]** secti
 
 De **[!UICONTROL Delivery Overview]** biedt prestatiekernindicatoren (KPI&#39;s) die gedetailleerde informatie geven over hoe uw bezoekers omgaan met elke levering van pushberichten. De cijfers worden hieronder beschreven.
 
-![](assets/global_report_push_delivery_overview.png)
+![](assets/global_report_push_delivery_overview.png){zoomable=&quot;yes&quot;}
 
 +++ Meer informatie over overzichtsmetriek voor levering.
 
@@ -50,7 +50,7 @@ De **[!UICONTROL Delivery Overview]** biedt prestatiekernindicatoren (KPI&#39;s)
 
 De **[!UICONTROL Targeted audience]** tabel en grafiek geven gegevens weer met betrekking tot uw ontvangers voor elke verzonden pushmelding. De cijfers worden hieronder beschreven.
 
-![](assets/global_report_push_targeted_audience.png)
+![](assets/global_report_push_targeted_audience.png){zoomable=&quot;yes&quot;}
 
 +++ Meer informatie over de meetgegevens voor doelgroepen.
 
@@ -71,7 +71,7 @@ De **[!UICONTROL Targeted audience]** tabel en grafiek geven gegevens weer met b
 
 De **[!UICONTROL Delivery statistics]** de lijst specificeert het succes van elke Push berichtlevering. De cijfers worden hieronder beschreven.
 
-![](assets/global_report_push_delivery_statistics.png)
+![](assets/global_report_push_delivery_statistics.png){zoomable=&quot;yes&quot;}
 
 +++ Meer informatie over de statistieken van de Levering metriek.
 
@@ -105,7 +105,6 @@ Typen pushmeldingen worden weergegeven in het dialoogvenster [Adobe Campaign v8-
 >title="Leveringsrapport"
 >abstract="De **Leveringsdoorvoer** het rapport bevat gedetailleerde informatie over de doorvoer van de pushmelding van het gehele platform binnen een opgegeven tijdsbestek."
 
-![](assets/global_report_push_delivery_throughput.png)
+![](assets/global_report_push_delivery_throughput.png){zoomable=&quot;yes&quot;}
 
 De **[!UICONTROL Delivery Throughput]** het rapport biedt uitgebreide inzichten in de doeltreffendheid van het systeem voor de levering van pushberichten, met een gedetailleerde samenvatting van het succes en de foutenpercentages over een bepaalde periode.
-

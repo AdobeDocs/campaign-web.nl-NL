@@ -2,11 +2,10 @@
 audience: end-user
 title: Campagnerapporten voor het e-mailkanaal
 description: Meer informatie over campagnerapporten voor het e-mailkanaal
-badge: label="Beperkte beschikbaarheid"
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: c5b4e1d44977b43324e85a7b5e173ef3154a620d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -26,7 +25,7 @@ Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de
 
 De **[!UICONTROL Delivery Overview]** biedt prestatiekernindicatoren (KPI&#39;s) die gedetailleerde informatie geven over hoe uw bezoekers uw e-maillevering uitvoeren. De cijfers worden hieronder beschreven.
 
-![](assets/campaign_report_email_1.png)
+![](assets/campaign_report_email_1.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -51,7 +50,7 @@ De **[!UICONTROL Delivery Overview]** biedt prestatiekernindicatoren (KPI&#39;s)
 
 De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers. De cijfers worden hieronder beschreven.
 
-![](assets/campaign_report_email_2.png)
+![](assets/campaign_report_email_2.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -72,7 +71,7 @@ De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens m
 
 De **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succesvol de levering is . De cijfers worden hieronder beschreven.
 
-![](assets/campaign_report_email_3.png)
+![](assets/campaign_report_email_3.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -97,7 +96,7 @@ De **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succes
 
 De **[!UICONTROL Reaction statistics]** de lijst bevat de beschikbare gegevens voor ontvankelijke activiteit voor uw levering. De cijfers worden hieronder beschreven.
 
-![](assets/campaign_report_email_4.png)
+![](assets/campaign_report_email_4.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -121,7 +120,7 @@ De **[!UICONTROL Reaction statistics]** de lijst bevat de beschikbare gegevens v
 
 De **[!UICONTROL Generated click streams]** de lijst toont gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden. De cijfers worden hieronder beschreven.
 
-![](assets/campaign_report_email_5.png)
+![](assets/campaign_report_email_5.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -146,7 +145,7 @@ De **[!UICONTROL Breakdown of errors per type]** tabel en grafiek bevatten de be
 
 De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer informatie over quarantainebeheer raadpleegt u [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![](assets/campaign_report_email_6.png)
+![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -186,7 +185,7 @@ De **[!UICONTROL Breakdown of errors per domain]** tabel en grafiek bevatten de 
 
 De **[!UICONTROL Delivery statistics]** metriek verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over gegevens beschikbaar voor verzonden e-mail verstrekken. De cijfers worden hieronder beschreven.
 
-![](assets/campaign_report_email_7.png)
+![](assets/campaign_report_email_7.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -212,7 +211,7 @@ De **[!UICONTROL Delivery statistics]** metriek verstrekt zeer belangrijke prest
 
 De **[!UICONTROL Open and click-trough rate]** de lijst toont gegevens met betrekking tot uw ontvangers. De cijfers worden hieronder beschreven.
 
-![](assets/campaign_report_email_8.png)
+![](assets/campaign_report_email_8.png){zoomable=&quot;yes&quot;}
 
 +++ Meer weten over de maatstaven van het e-mailcampagnerapport?
 
@@ -237,7 +236,7 @@ De **[!UICONTROL Open and click-trough rate]** de lijst toont gegevens met betre
 
 De **[!UICONTROL URLs and click streams]** Het rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt. De cijfers worden hieronder beschreven.
 
-![](assets/campaign_report_email_9.png)
+![](assets/campaign_report_email_9.png){zoomable=&quot;yes&quot;}
 
 +++ Meer weten over de maatstaven van het e-mailcampagnerapport?
 
@@ -260,7 +259,7 @@ De **[!UICONTROL URLs and click streams]** Het rapport verstrekt zeer belangrijk
 
 De **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding. De cijfers worden hieronder beschreven.
 
-![](assets/campaign_report_email_10.png)
+![](assets/campaign_report_email_10.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -279,7 +278,7 @@ De **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de
 
 De **[!UICONTROL Breakdown of clicks over time]** de grafiek bevat de beschikbare gegevens voor het gedrag van de ontvanger per koppeling.
 
-![](assets/campaign_report_email_11.png)
+![](assets/campaign_report_email_11.png){zoomable=&quot;yes&quot;}
 
 ## Gebruikersactiviteiten {#user-activities-email}
 
@@ -290,7 +289,7 @@ De **[!UICONTROL Breakdown of clicks over time]** de grafiek bevat de beschikbar
 
 De **[!UICONTROL User activities]** het rapport toont de uitsplitsing van opent en klikt in de vorm van een grafiek. De cijfers voor dit rapport worden hieronder beschreven.
 
-![](assets/campaign_report_email_user_activities.png){align="center"}
+![](assets/campaign_report_email_user_activities.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 

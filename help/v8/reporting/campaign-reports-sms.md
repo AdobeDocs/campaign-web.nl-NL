@@ -2,11 +2,10 @@
 audience: end-user
 title: Campagnerapporten voor het SMS-kanaal
 description: Campagnerapporten voor het kanaal van SMS begrijpen
-badge: label="Beperkte beschikbaarheid"
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: a6d42e0abb64f87aecb2912cb469ba269aa02515
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -25,7 +24,7 @@ Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de
 
 De **[!UICONTROL Delivery Overview]** Deze rapporten bevatten belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop bezoekers uw SMS-levering uitvoeren. De cijfers worden hieronder beschreven.
 
-![](assets/campaign_report_sms_1.png)
+![](assets/campaign_report_sms_1.png){zoomable=&quot;yes&quot;}
 
 +++Meer weten over de metriek van het SMS-campagnerapport?
 
@@ -50,7 +49,7 @@ De **[!UICONTROL Delivery Overview]** Deze rapporten bevatten belangrijke presta
 De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers. De cijfers worden hieronder beschreven.
 
 
-![](assets/campaign_report_sms_2.png)
+![](assets/campaign_report_sms_2.png){zoomable=&quot;yes&quot;}
 
 +++Meer weten over de metriek van het SMS-campagnerapport?
 
@@ -75,7 +74,7 @@ De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens m
 De **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succesvol de levering is . De cijfers worden hieronder beschreven.
 
 
-![](assets/campaign_report_sms_3.png)
+![](assets/campaign_report_sms_3.png){zoomable=&quot;yes&quot;}
 
 +++Meer weten over de metriek van het SMS-campagnerapport?
 
@@ -101,7 +100,7 @@ De **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succes
 
 De **[!UICONTROL Generated click streams]** de lijst toont gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden. De cijfers worden hieronder beschreven.
 
-![](assets/campaign_report_sms_4.png)
+![](assets/campaign_report_sms_4.png){zoomable=&quot;yes&quot;}
 
 +++Meer weten over de metriek van het SMS-campagnerapport?
 

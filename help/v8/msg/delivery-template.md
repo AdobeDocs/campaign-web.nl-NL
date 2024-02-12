@@ -5,11 +5,10 @@ description: Leer hoe te om leveringsmalplaatjes in het Web van de Campagne te c
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-badge: label="Beperkte beschikbaarheid"
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: f8f29849bbd3e97b4168a0bac175a3cdc3e651df
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1077'
 ht-degree: 2%
 
 ---
@@ -49,24 +48,24 @@ Een sjabloon kan het volgende bevatten:
 
 Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** van het linkermenu, en doorblader aan **Sjablonen** tab.
 
-![](assets/templates-tab.png)
+![](assets/templates-tab.png){zoomable=&quot;yes&quot;}
 
 Alle sjablonen die [gemaakt](#create-a-delivery-template) op de huidige omgeving worden weergegeven.
 
 U kunt inhoudssjablonen filteren op kanalen en mappen. U kunt geavanceerde filters ook instellen door een regel te maken met behulp van leveringskenmerken. [Meer informatie over querymodellen](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png)
+![](assets/templates-filters.png){zoomable=&quot;yes&quot;}
 
 Als u een sjabloon wilt bewerken, klikt u op het gewenste item in de lijst. Hierna:
 
 * U kunt de inhoud, eigenschappen, het publiek en alle aanbiedingen die eraan zijn gekoppeld, wijzigen.
 * U kunt de sjabloon ook testen. [Meer informatie](#test-template)
 
-![](assets/templates-edition.png)
+![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
 
 Om te schrappen of [dupliceren](#copy-an-existing-template) een sjabloon, selecteert u de bijbehorende actie in het menu **[!UICONTROL More actions]** in het menu **[!UICONTROL Templates]** lijst of van een scherm van de malplaatjeuitgave.
 
-![](assets/templates-more-actions.png)
+![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -97,15 +96,15 @@ Voer de onderstaande stappen uit om een leveringssjabloon te dupliceren:
 
 1. Herhaal dit.
 
-   ![](assets/templates-duplicate-confirm.png)
+   ![](assets/templates-duplicate-confirm.png){zoomable=&quot;yes&quot;}
 
 1. Het nieuwe sjabloondashboard wordt in het centrale scherm geopend. Bewerk de sjablooninstellingen naar wens.
 
-   ![](assets/templates-duplicated-item.png)
+   ![](assets/templates-duplicated-item.png){zoomable=&quot;yes&quot;}
 
 1. Klik op de knop **[!UICONTROL Review]** om de sjabloon op te slaan en te bekijken. U kunt nog steeds alle instellingen bewerken, verwijderen en dupliceren.
 
-   ![](assets/templates-review-screen.png)
+   ![](assets/templates-review-screen.png){zoomable=&quot;yes&quot;}
 
 1. Test indien nodig de rendering van de sjabloon. [Meer informatie](#test-template)
 
@@ -120,7 +119,7 @@ Volg onderstaande stappen om een levering als een sjabloon op te slaan:
 1. Bladeren naar de **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** -menu.
 1. Van de **[!UICONTROL Browse]** klikt u op de knop **[!UICONTROL More actions]** rechts van de gewenste levernaam en selecteert u **[!UICONTROL Copy as a template]**.
 
-   ![](assets/templates-convert-delivery.png)
+   ![](assets/templates-convert-delivery.png){zoomable=&quot;yes&quot;}
 
    U kunt ook een sjabloon selecteren in de lijst en deze optie selecteren in het scherm Sjablooneditie.
 
@@ -145,12 +144,12 @@ Voer de onderstaande stappen uit om een volledig nieuwe leveringssjabloon te con
 1. Bladeren naar de **Sjablonen** tabblad, van de **Leveringen** links. [Meer informatie](#access-manage-templates)
 1. Klik op de knop **[!UICONTROL Create template]**.
 
-   ![](assets/templates-create-button.png)
+   ![](assets/templates-create-button.png){zoomable=&quot;yes&quot;}
 
 1. Selecteer het kanaal dat u voor uw sjabloon wilt gebruiken.
 1. De ingebouwde leveringsmalplaatje voor dat kanaal wordt gebruikt door gebrek om u te helpen uw eigen malplaatje bouwen. Gebruik de toegewezen knop rechts van het geselecteerde kanaal om indien nodig een andere sjabloon te selecteren.
 
-   ![](assets/templates-channel-browse.png)
+   ![](assets/templates-channel-browse.png){zoomable=&quot;yes&quot;}
 
 1. Klik op de knop **[!UICONTROL Create template]** nogmaals.
 
@@ -180,7 +179,7 @@ U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul 
 
 1. Klik op de knop **[!UICONTROL Simulate content]** op de rechterbovenhoek van het scherm.
 
-   ![](assets/templates-simulate-button.png)
+   ![](assets/templates-simulate-button.png){zoomable=&quot;yes&quot;}
 
 1. Selecteer een of meer testprofielen om de weergave van uw e-mail te controleren. U kunt ook echte profielen selecteren in uw database. [Meer informatie over testprofielen](../audience/test-profiles.md)
 
@@ -188,7 +187,7 @@ U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul 
 
 [Meer informatie over het voorvertonen van inhoud](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png)
+   ![](assets/templates-stimulate.png){zoomable=&quot;yes&quot;}
 
 1. Sluit het venster om terug te keren naar het scherm van de malplaatjeuitgave.
 

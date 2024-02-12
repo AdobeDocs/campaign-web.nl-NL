@@ -2,11 +2,10 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: c9c41189-0150-49a4-bdb3-317fe543eb2c
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '565'
 ht-degree: 1%
 
 ---
@@ -23,7 +22,7 @@ Zodra de workflow is gestart, wordt elke activiteit op het canvas in volgorde ui
 
 U kunt de voortgang van doelprofielen in real time volgen gebruikend een visuele stroom. Hierdoor kunt u snel de status van elke activiteit en het aantal profielen identificeren dat tussen de activiteiten overgaat.
 
-![](assets/workflow-execution.png)
+![](assets/workflow-execution.png){zoomable=&quot;yes&quot;}
 
 ## Workflowovergangen {#transitions}
 
@@ -32,7 +31,7 @@ In werkstromen, worden de gegevens die van één activiteit aan een andere door 
 * Klikken **[!UICONTROL Preview schema]** om het schema van de het werklijst te tonen.
 * Klikken **[!UICONTROL Preview results]** om de gegevens te visualiseren die in de geselecteerde overgang worden vervoerd.
 
-![](assets/transition.png)
+![](assets/transition.png){zoomable=&quot;yes&quot;}
 
 ## Activiteitenuitvoering controleren {#activities}
 
@@ -40,10 +39,10 @@ De visuele indicatoren in de hoger-juiste hoek van elke activiteitendoos staan u
 
 | Visuele indicator | Beschrijving |
 |-----|------------|
-| ![](assets/activity-status-pending.png){width="70%"} | De activiteit wordt momenteel uitgevoerd. |
-| ![](assets/activity-status-orange.png){width="70%"} | De activiteit vereist uw aandacht. Dit kan inhouden dat de verzending van een levering wordt bevestigd of dat de nodige actie wordt ondernomen. |
-| ![](assets/activity-status-red.png){width="70%"} | Er is een fout opgetreden in de activiteit. Open de logbestanden van de workflow voor meer informatie om het probleem op te lossen. |
-| ![](assets/activity-status-green.png){width="70%"} | De activiteit is met succes uitgevoerd. |
+| ![](assets/activity-status-pending.png){zoomable=&quot;yes&quot;}{width="70%"} | De activiteit wordt momenteel uitgevoerd. |
+| ![](assets/activity-status-orange.png){zoomable=&quot;yes&quot;}{width="70%"} | De activiteit vereist uw aandacht. Dit kan inhouden dat de verzending van een levering wordt bevestigd of dat de nodige actie wordt ondernomen. |
+| ![](assets/activity-status-red.png){zoomable=&quot;yes&quot;}{width="70%"} | Er is een fout opgetreden in de activiteit. Open de logbestanden van de workflow voor meer informatie om het probleem op te lossen. |
+| ![](assets/activity-status-green.png){zoomable=&quot;yes&quot;}{width="70%"} | De activiteit is met succes uitgevoerd. |
 
 ## Logboeken en taken controleren {#logs-tasks}
 
@@ -51,7 +50,7 @@ Het controleren van werkstromen logboeken en taken is een zeer belangrijke stap 
 
 De **[!UICONTROL Logs and tasks]** bevat een historie van de workflowuitvoering, waarin alle handelingen van de gebruiker zijn opgenomen en fouten zijn aangetroffen. Deze geschiedenis wordt opgeslagen voor de duur die is opgegeven in de workflow [uitvoeringsopties](workflow-settings.md). Tijdens deze periode worden alle berichten opgeslagen, zelfs nadat de workflow opnieuw is opgestart. Als u de berichten uit een vorige uitvoering niet wilt opslaan, klikt u op de knop **[!UICONTROL Purge history]** knop.
 
-![](assets/workflow-logs.png)
+![](assets/workflow-logs.png){zoomable=&quot;yes&quot;}
 
 Er zijn twee soorten informatie beschikbaar:
 

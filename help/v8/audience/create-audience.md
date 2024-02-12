@@ -2,11 +2,10 @@
 audience: end-user
 title: Soorten publiek maken
 description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 4b50a20f2ba60017b97d49df8b3d84c44c15ea8c
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -55,7 +54,7 @@ Voer de volgende stappen uit om een publiek te maken:
 
    * Het &quot;nieuwe publiek&quot; **[!UICONTROL Save audience]** activiteit vertegenwoordigt de definitieve stap in uw werkschema, toelatend u om de resultaten als nieuw publiek op te slaan.
 
-   ![](assets/create-audience-blank.png)
+   ![](assets/create-audience-blank.png){zoomable=&quot;yes&quot;}
 
    >[!IMPORTANT]
    >
@@ -71,7 +70,7 @@ Voer de volgende stappen uit om een publiek te maken:
    >
    >Kanaalactiviteiten zijn niet beschikbaar voor gebruik in publieksworkflows.
 
-   ![](assets/audience-creation-canvas.png)
+   ![](assets/audience-creation-canvas.png){zoomable=&quot;yes&quot;}
 
 1. Vorm **[!UICONTROL Save audience]** activiteit om te specificeren hoe u de bevolking wilt bewaren die stroomopwaarts in het werkschema wordt berekend. [Leer hoe u een activiteit voor het opslaan van het publiek configureert](../workflows/activities/save-audience.md)
 
@@ -85,7 +84,7 @@ U kunt dit publiek nu gebruiken als het hoofddoel van een levering. [Meer inform
 
 In het onderstaande voorbeeld ziet u een publieksworkflow die is geconfigureerd voor vrouwelijke klanten die in New York wonen en die twee nieuwe soorten publiek maakt, afhankelijk van hun laatste aankoop (Yoga of Running tandwieltje).
 
-![](assets/audiences-example.png)
+![](assets/audiences-example.png){zoomable=&quot;yes&quot;}
 
 1. De **[!UICONTROL Build audience]** de activiteit is gericht op alle vrouwelijke profielen die in New York wonen.
 1. De **[!UICONTROL Enrichment]** de activiteit verrijkt het publiek met informatie van de lijst van Aankopen om te identificeren welk type van product de klanten kochten.
@@ -104,4 +103,4 @@ Standaard wordt bij het opnieuw uitvoeren van een publieksworkflow de volledige 
 
 Als u de bestaande publieksresultaten liever niet wilt vervangen, configureert u de **Adviezen opslaan** activiteiten om aan uw vereisten aan te sluiten. U kunt bijvoorbeeld de opdracht **Label publiek** om de nieuwe resultaten op te slaan in een nieuw publiek of om de nieuwe resultaten toe te voegen aan de bestaande publieksinhoud zonder eerdere gegevens te wissen. [Leer hoe u een publieksactiviteit voor opslaan configureert](../workflows/activities/save-audience.md)
 
-![](assets/edit-audience-save.png)
+![](assets/edit-audience-save.png){zoomable=&quot;yes&quot;}

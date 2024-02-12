@@ -2,14 +2,13 @@
 audience: end-user
 title: Filterlijsten
 description: Leer hoe u Adobe Campaign Web-lijsten filtert met ingebouwde en aangepaste filters.
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: 7f4d8a2c2b0592515c25628f35234311dc61b4fd
+exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
-
 
 # Filterlijsten {#filter-lists}
 
@@ -21,7 +20,7 @@ Als u filters wilt toepassen op een lijst, klikt u op de knop **[!UICONTROL Show
 
 Het venster Filters wordt geopend en hierin worden de beschikbare filters voor de geselecteerde lijst weergegeven. U kunt bijvoorbeeld campagnes filteren op hun status, begin- en einddatum of opslagmap, terwijl de lijst met abonnementenservices kan worden gefilterd op hun kanaal en opslagmap.
 
-![](assets/filters-pane.png){width="70%" align="left" zoomable="yes"}
+![](assets/filters-pane.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 Als u een lijst wilt filteren op basis van uw eigen criteria, maakt u een aangepast filter. Blader hiertoe naar de onderzijde van het venster Filters en klik op de knop **Regels toevoegen** knop. [Leer hoe u aangepaste filters kunt maken](#custom)
 
@@ -36,6 +35,6 @@ Met aangepaste filters kunt u lijsten verfijnen op basis van uw eigen specifieke
 
    In het onderstaande voorbeeld ziet u een aangepast filter dat is ontworpen om te worden weergegeven in de lijst met campagnes die worden uitgevoerd door exploitanten van de afdelingen Running of Yoga.
 
-   ![](assets/filters-sample.png){width="70%" align="left" zoomable="yes"}
+   ![](assets/filters-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
 1. Als uw aangepaste filter is geconfigureerd, klikt u op **[!UICONTROL Confirm]** om deze toe te passen op de lijst.

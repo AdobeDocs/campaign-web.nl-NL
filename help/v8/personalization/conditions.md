@@ -5,11 +5,10 @@ feature: Personalization
 topic: Personalization
 role: Data Engineer
 level: Beginner
-badge: label="Beperkte beschikbaarheid"
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 9f5d3d8ea7441641e037545d5bf22dda09a1f881
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -41,7 +40,7 @@ Voer de onderstaande stappen uit om voorwaardelijke inhoud voor een levering te 
 
 1. Klik op de knop **[!UICONTROL Open personalization dialog]** pictogram naast het veld om de uitdrukkingseditor te openen.
 
-   ![](assets/open-perso-editor-sms.png)
+   ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
 1. Blader in de verpersoonlijkingseditor naar de **[!UICONTROL Helper functions]** links.
 
@@ -51,7 +50,7 @@ Voer de onderstaande stappen uit om voorwaardelijke inhoud voor een levering te 
    * Vervangen `<VALUE>` met de waarde waaraan moet worden voldaan. Bijvoorbeeld: `'French'`.
    * Vervangen `Ìnsert content here` met de inhoud die u wilt weergeven voor de profielen die aan de opgegeven voorwaarde voldoen.
 
-     ![](assets/condition-sample1.png){width="800" align="center"}
+     ![](assets/condition-sample1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Geef de inhoud op die moet worden weergegeven als de ontvangers niet aan de voorwaarde voldoen. Om dit te doen gebruik **else** helperfunctie:
 
@@ -59,11 +58,11 @@ Voer de onderstaande stappen uit om voorwaardelijke inhoud voor een levering te 
 
    1. Vervangen `Ìnsert content here` met de inhoud die u wilt weergeven voor de profielen die niet voldoen aan de voorwaarde van de if-functie.
 
-   ![](assets/condition-sample2.png){width="800" align="center"}
+   ![](assets/condition-sample2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    U kunt ook de opdracht **else if** de hulpfunctie om voorwaarden met veelvoudige inhoudvarianten te bouwen. De onderstaande expressie geeft bijvoorbeeld drie varianten van een bericht weer, afhankelijk van de taal van de ontvanger:
 
-   ![](assets/condition-sample3.png){width="800" align="center"}
+   ![](assets/condition-sample3.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
    >[!NOTE]
    >
@@ -93,29 +92,29 @@ In dit voorbeeld willen we een e-mailbericht maken met meerdere varianten op bas
 
 1. Selecteer een inhoudscomponent en klik op de knop **[!UICONTROL Enable conditional content]** pictogram.
 
-   ![](assets/condition-email-enable.png){width="800" align="center"}
+   ![](assets/condition-email-enable.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. De **[!UICONTROL Conditional Content]** wordt aan de linkerkant van het scherm geopend. In dit deelvenster kunt u meerdere varianten van de geselecteerde inhoudscomponent maken aan de hand van voorwaarden.
 
 1. Vorm uw eerste variant. Overslaan **[!UICONTROL Variant - 1]** in de **[!UICONTROL Conditional Content]** en klik op de knop **[!UICONTROL Add condition]** knop.
 
-   ![](assets/condition-add-condition.png){width="800" align="center"}
+   ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Er wordt een regelbouwer weergegeven. Het biedt **Profiel**, **Bericht**, en **Aflevering** kenmerken die u kunt gebruiken om uw voorwaarde te maken.
 
    Bovendien **Voorwaarden** biedt vooraf gebouwde voorwaarden die u aan het canvas kunt toevoegen om uw variant eenvoudig te bouwen. Klik op de knop **Toevoegen** dan vervangt u de elementen tussen `<` en `>`door de gewenste elementen. Zorg ervoor dat de waarde die u opgeeft voor het dialoogvenster `<value>` -object tussen aanhalingstekens staat.
 
-   ![](assets/condition-syntax.png){width="800" align="center"}
+   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Zodra de voorwaarde voor de eerste variant van het bericht klaar is, klik **[!UICONTROL Confirm]**. In dit voorbeeld creëren we een regel die gericht is op ontvangers die &#39;Frans&#39; zijn.
 
-   ![](assets/condition-example.png){width="800" align="center"}
+   ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. De regel is nu gekoppeld aan de variant. Voor betere leesbaarheid raden we u aan de naam van de variant te wijzigen door op het ellipsmenu te klikken.
 
 1. Vorm hoe de component zou moeten tonen als de regel wordt ontmoet wanneer het verzenden van het bericht. In dit voorbeeld willen we de tekst in het Frans weergeven als dit de voorkeurstaal van de ontvanger is.
 
-   ![](assets/condition-email-variant1.png){width="800" align="center"}
+   ![](assets/condition-email-variant1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
 1. Voeg zoveel varianten toe als nodig zijn voor de inhoudscomponent. U kunt op elk gewenst moment schakelen tussen de varianten om te controleren hoe de inhoudscomponent wordt weergegeven op basis van hun voorwaardelijke regels.
 

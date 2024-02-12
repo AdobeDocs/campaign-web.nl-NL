@@ -2,11 +2,10 @@
 audience: end-user
 title: Verzend een SMS-levering
 description: Meer informatie over het verzenden van SMS via Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -26,18 +25,18 @@ De belangrijkste stappen voor een voorvertoning van uw SMS-levering zijn als vol
 
 1. Vanaf de pagina met inhoud voor levering gebruiken **[!UICONTROL Simulate content]** om een voorvertoning van uw persoonlijke inhoud weer te geven.
 
-   ![](assets/sms_send_1.png)
+   ![](assets/sms_send_1.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **[!UICONTROL Add test profile(s)]** om een of meerdere testprofielen of profielen te selecteren.
 
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
-    ![](assets/sms_send_2.png)
+    ![](assets/sms_send_2.png){zoomable="yes"}
     -->
 
 1. In het rechterdeelvenster vindt u een voorbeeld van de SMS-levering, waar gepersonaliseerde elementen dynamisch worden vervangen door gegevens uit het geselecteerde profiel.
 
-   ![](assets/sms_send_3.png)
+   ![](assets/sms_send_3.png){zoomable=&quot;yes&quot;}
 
 Je kunt je SMS-bericht nu bekijken en naar je publiek sturen.
 
@@ -49,13 +48,13 @@ Het verzenden van testSMS is een belangrijke stap in het verzekeren van de kwali
 
 ![](../assets/do-not-localize/book.png) Leer hoe je SMS-test verzendt in [deze sectie](../preview-test/test-deliveries.md).
 
-![](assets/sms_send_6.png)
+![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 
 ## Verstuur je SMS-verzending {#send-sms}
 
 1. Nadat u de SMS-inhoud hebt aangepast, klikt u op **[!UICONTROL Review & send]** van uw **[!UICONTROL Delivery]** pagina.
 
-   ![](assets/sms_send_4.png)
+   ![](assets/sms_send_4.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **[!UICONTROL Prepare]** en toezicht te houden op de geboekte vooruitgang en de verstrekte statistieken.
 
@@ -63,7 +62,7 @@ Het verzenden van testSMS is een belangrijke stap in het verzekeren van de kwali
 
 1. Verzend de berichten door op te klikken **[!UICONTROL Send]** om door te gaan met het definitieve verzendingsproces.
 
-   ![](assets/sms_send_5.png)
+   ![](assets/sms_send_5.png){zoomable=&quot;yes&quot;}
 
    Als de levering van SMS gepland is, klik **[!UICONTROL Send as scheduled]** knop. Meer informatie over de planning van de levering in [deze sectie](../msg/gs-messages.md#schedule-the-delivery-sending).
 

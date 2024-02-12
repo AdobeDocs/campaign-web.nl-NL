@@ -2,11 +2,10 @@
 audience: end-user
 title: Middelen beheren met Adobe Experience Manager Assets as a Cloud Service
 description: Leer hoe u middelen beheert met Adobe Experience Manager Assets as a Cloud Service
-badge: label="Beperkte beschikbaarheid"
 exl-id: c1e548b1-f4c6-4672-9724-edfc418063a6
-source-git-commit: 5ad8e402c330b192b00b8be36cb3e29403666c9e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '372'
 ht-degree: 2%
 
 ---
@@ -27,7 +26,7 @@ Voor meer informatie over het uploaden van elementen raadpleegt u [as a Cloud Se
 
 1. Open vanaf uw startpagina het geavanceerde menu en selecteer [!DNL Experience Manager Assets].
 
-   ![](assets/assets_1.png)
+   ![](assets/assets_1.png){zoomable=&quot;yes&quot;}
 
 1. Onder **Elementbeheer**, klikt u op **Activa** en kiest u de opslagplaats voor uw middelen in Adobe Campaign.
 
@@ -37,25 +36,25 @@ Voor meer informatie over het uploaden van elementen raadpleegt u [as a Cloud Se
 
 1. Klik eenmaal in de geselecteerde of gemaakte map op **[!UICONTROL Add Assets]** om nieuwe middelen naar uw omslag te uploaden.
 
-   ![](assets/assets_2.png)
+   ![](assets/assets_2.png){zoomable=&quot;yes&quot;}
 
 1. Van de **[!UICONTROL Upload files]**, klikt u op **[!UICONTROL Browse]** en kies als u wilt **[!UICONTROL Browse files]** of **[!UICONTROL Browse folders]**.
 
 1. Selecteer het bestand dat u wilt uploaden. Klik op **[!UICONTROL Upload]** als u klaar bent.
 
-   ![](assets/assets_3.png)
+   ![](assets/assets_3.png){zoomable=&quot;yes&quot;}
 
 1. Selecteer het element dat u net hebt geüpload om het menu voor geavanceerd middelenbeheer te openen.
 
    Raadpleeg deze voor meer informatie over het beheren van uw elementen [page](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html).
 
-   ![](assets/assets_4.png)
+   ![](assets/assets_4.png){zoomable=&quot;yes&quot;}
 
 1. Dubbelklik op de elementen om uw elementen verder te bewerken met Adobe Photoshop Express. Selecteer vervolgens in het rechtermenu de optie **[!UICONTROL Edit mode]** pictogram. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
 
 1. Van [!DNL Adobe Campaign], selecteert u de **[!UICONTROL Asset picker]** in het linkerdeelvenster van de e-mailontwerper.
 
-   ![](assets/assets_6.png)
+   ![](assets/assets_6.png){zoomable=&quot;yes&quot;}
 
 1. Selecteer uw eerder gemaakte **[!UICONTROL Assets]** map. U kunt ook op de zoekbalk zoeken naar uw middelen of map.
 
@@ -63,8 +62,8 @@ Voor meer informatie over het uploaden van elementen raadpleegt u [as a Cloud Se
 
 1. Sleep uw middel naar uw e-mailinhoud en zet het neer.
 
-   ![](assets/assets_5.png)
+   ![](assets/assets_5.png){zoomable=&quot;yes&quot;}
 
 1. U kunt uw elementen verder aanpassen, zoals het toevoegen van een externe koppeling of een tekst met de opdracht **[!UICONTROL Settings]** en **[!UICONTROL Styles]** tabs. [Meer informatie over componentinstellingen](../email/content-components.md)
 
-   ![](assets/assets_7.png)
+   ![](assets/assets_7.png){zoomable=&quot;yes&quot;}

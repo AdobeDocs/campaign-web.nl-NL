@@ -2,12 +2,11 @@
 audience: end-user
 title: Een pushmelding verzenden
 description: Meer informatie over het verzenden van pushberichten via Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 3903513d43b699416973b26755dfc4f0337dc757
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 1%
+source-wordcount: '381'
+ht-degree: 0%
 
 ---
 
@@ -21,17 +20,17 @@ De belangrijkste stappen voor een voorvertoning van uw pushmelding zijn als volg
 
 1. Vanaf de pagina met inhoud voor levering gebruiken **[!UICONTROL Simulate content]** om een voorvertoning van uw persoonlijke inhoud weer te geven.
 
-   ![](assets/push_send_1.png)
+   ![](assets/push_send_1.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **[!UICONTROL Add subscribers(s)]** om een of meerdere profielen te selecteren om een voorvertoning van hun gegevens weer te geven in de inhoud van het pushbericht.
 
 
    <!--Once your test subscribers are selected, click **[!UICONTROL Select]**.
-    ![](assets/push_send_5.png)-->
+    ![](assets/push_send_5.png){zoomable="yes"}-->
 
 1. In het rechterdeelvenster vindt u een voorvertoning van het pushbericht, waarin gepersonaliseerde elementen dynamisch worden vervangen door gegevens uit het geselecteerde profiel.
 
-   ![](assets/push_send_7.png)
+   ![](assets/push_send_7.png){zoomable=&quot;yes&quot;}
 
 U kunt nu uw pushmelding bekijken en verzenden naar uw publiek.
 
@@ -42,19 +41,19 @@ De ontvangers van de test kunnen elementen zoals verbindingen, beelden, en verpe
 
 ![](../assets/do-not-localize/book.png) Leer hoe u pushmeldingen voor tests verzendt in [deze sectie](../preview-test/test-deliveries.md#subscribers).
 
-![](assets/push_send_6.png)
+![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 
 ## Verzend uw pushmelding {#send-push}
 
 1. Klik op **[!UICONTROL Review & send]** van uw **[!UICONTROL Delivery]** pagina.
 
-   ![](assets/push_send_2.png)
+   ![](assets/push_send_2.png){zoomable=&quot;yes&quot;}
 
 1. Klikken **[!UICONTROL Prepare]** en toezicht te houden op de geboekte vooruitgang en de verstrekte statistieken.
 
    Als er fouten optreden, raadpleegt u het menu Logs voor meer informatie over de fout.
 
-   ![](assets/push_send_3.png)
+   ![](assets/push_send_3.png){zoomable=&quot;yes&quot;}
 
 1. Verzend de berichten door op te klikken **[!UICONTROL Send]** om door te gaan met het definitieve verzendingsproces.
 
@@ -62,7 +61,7 @@ De ontvangers van de test kunnen elementen zoals verbindingen, beelden, en verpe
 
    Als de aflevering is gepland, klikt u op de knop **[!UICONTROL Send as scheduled]** knop. Meer informatie over de planning van de levering in [deze sectie](../msg/gs-messages.md#schedule-the-delivery-sending).
 
-   ![](assets/push_send_4.png)
+   ![](assets/push_send_4.png){zoomable=&quot;yes&quot;}
 
 Zodra uw levering wordt verzonden, kunt u uw KPIs (Zeer belangrijke Indicator van Prestaties) gegevens van uw leveringspagina en gegevens van volgen **[!UICONTROL Logs]** -menu.
 

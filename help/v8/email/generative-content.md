@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: cd7e2bb325b4e571018a8e04ffa0eaef74fe6768
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
@@ -35,13 +35,13 @@ Volg onderstaande stappen om e-mailinhoud te genereren en te verbeteren met de C
 
 1. Selecteer de **[!UICONTROL Text component]** U wilt het menu Experience Generation bijwerken en openen.
 
-   ![](assets/text-genai-1.png)
+   ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren.
 
    De optie **[!UICONTROL Enhance with current context]** voor de Inhoudsassistent om nieuwe inhoud aan te passen op basis van uw levering, naam van de levering en geselecteerd publiek.
 
-   ![](assets/text-genai-3.png)
+   ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
 
 1. Selecteren **[!UICONTROL Upload file]** om merkmiddelen toe te voegen die inhoud bevatten die extra context de Inhoudsassistent kan verstrekken.
 
@@ -51,7 +51,7 @@ Volg onderstaande stappen om e-mailinhoud te genereren en te verbeteren met de C
 
 1. Kies de optie **[!UICONTROL Language]** en **[!UICONTROL Tone]** dat de gegenereerde tekst moet bestaan. Zo weet u zeker dat de tekst geschikt is voor uw doelgroep.
 
-   ![](assets/text-genai-4.png)
+   ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Gebruik de schuifregelaar om de lengte van de gegenereerde tekst in te stellen.
 
@@ -59,14 +59,14 @@ Volg onderstaande stappen om e-mailinhoud te genereren en te verbeteren met de C
 
 1. Door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Apply]** zodra u de juiste inhoud hebt gevonden.
 
-   ![](assets/text-genai-5.png)
+   ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 
 1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. [Meer informatie over content personalization](../personalization/personalize.md)
 
-   ![](assets/text-genai-6.png)
+   ![](assets/text-genai-6.png){zoomable=&quot;yes&quot;}
 
 1. Nadat u de inhoud van uw bericht hebt gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en personalisatie-instellingen te controleren met testprofielen. [Meer informatie](../preview-test/preview-content.md)
 
-   ![](assets/text-genai-7.png)
+   ![](assets/text-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)

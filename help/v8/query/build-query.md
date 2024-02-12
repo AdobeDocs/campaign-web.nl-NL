@@ -2,10 +2,10 @@
 audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
-badge: label="Beperkte beschikbaarheid"
-source-git-commit: ed094259c71ed5da5e395d49598fe9f39980b07f
+exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1952'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ U kunt twee typen elementen toevoegen:
 
   *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &quot;Sport&quot;**EN**die in New York wonen **OF**San Francisco*.
 
-![](assets/query-add-component.png)
+![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
 ## Filtercomponenten toevoegen {#filtering}
 
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
 1. In de **Kenmerk** Selecteer in de database het kenmerk dat u wilt gebruiken om de voorwaarde te maken. De lijst met kenmerken bevat alle kenmerken van uw Campagne-database, inclusief kenmerken van gekoppelde tabellen.
 
-   ![](assets/query-custom-condition-fields.png)
+   ![](assets/query-custom-condition-fields.png){zoomable=&quot;yes&quot;}
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
    *Voorbeeld van query met alle profielen van 21 jaar of ouder:*
 
-   ![](assets/query-custom-condition.png)
+   ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
 
 #### Aangepaste voorwaarden voor gekoppelde tabellen (1-1 en 1-N koppelingen){#links}
 
@@ -98,15 +98,15 @@ Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
 1. Navigeren in het deelvenster **Merk** en selecteer de **Label** kenmerk.
 
-   ![](assets/1-1-attribute.png){width="85%" align="center"}
+   ![](assets/1-1-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Definieer de verwachte waarde voor het kenmerk.
 
-   ![](assets/1-1-table.png){width="85%" align="center"}
+   ![](assets/1-1-table.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 Hier volgt een queryvoorbeeld waarin een tabelkoppeling rechtstreeks is geselecteerd. Beschikbare waarden voor deze tabel moeten worden geselecteerd in een speciale kiezer.
 
-![](assets/1-1-table-direct.png){width="85%" align="center"}
+![](assets/1-1-table-direct.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -118,19 +118,19 @@ Hier richt de query zich op ontvangers die aankopen hebben gedaan met betrekking
 
 1. Selecteer de **Aankopen** tabel en bevestiging.
 
-   ![](assets/1-N-collection.png){width="50%" align="center"}
+   ![](assets/1-N-collection.png){zoomable=&quot;yes&quot;}{width="50%" align="center"}
 
 1. Een uitgaande overgang wordt toegevoegd, toestaand u om ondervoorwaarden tot stand te brengen.
 
-   ![](assets/1-n-subcondition.png){width="85%" align="center"}
+   ![](assets/1-n-subcondition.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Selecteer de **Prijs** kenmerk- en doelaankopen van 1000$ of meer
 
-   ![](assets/1-n-price.png){width="85%" align="center"}
+   ![](assets/1-n-price.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Voeg subvoorwaarden toe die aan uw behoeften voldoen. Hier hebben we een voorwaarde toegevoegd aan de doelprofielen die een BrewMaster-product hebben aangeschaft.
 
-   ![](assets/custom-condition-1-N.png){width="85%" align="center"}
+   ![](assets/custom-condition-1-N.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 +++
 
@@ -140,11 +140,11 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 
 1. Navigeer binnen de gewenste inzamelingstabel en selecteer de attributen waarop u een gezamenlijke verrichting wilt uitvoeren.
 
-   ![](assets/aggregate-attribute.png){width="85%" align="center"}
+   ![](assets/aggregate-attribute.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 1. Schakel in het deelvenster Eigenschappen de optie **Samengevoegde gegevens** en selecteert u de gewenste statistische functie.
 
-   ![](assets/aggregate.png){width="85%" align="center"}
+   ![](assets/aggregate.png){zoomable=&quot;yes&quot;}{width="85%" align="center"}
 
 ### Een publiek selecteren {#audiences}
 
@@ -161,7 +161,7 @@ Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
    *Voorbeeld met zoekopdrachten waarin alle profielen worden geretourneerd die tot het publiek van het &quot;Festival Goers&quot; behoren:*
 
-   ![](assets/query-audience.png)
+   ![](assets/query-audience.png){zoomable=&quot;yes&quot;}
 
 ### Een vooraf gedefinieerd filter gebruiken {#predefined-filters}
 
@@ -178,7 +178,7 @@ Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd
 
    *Voorbeeld van query met alle profielen die overeenkomen met het vooraf gedefinieerde filter &quot;Inactieve klanten&quot;:*
 
-   ![](assets/query-predefined-filter.png)
+   ![](assets/query-predefined-filter.png){zoomable=&quot;yes&quot;}
 
 ### Componenten kopiëren en plakken {#copy}
 
@@ -196,11 +196,11 @@ Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
 
    | Eén component kopiëren | Meerdere componenten kopiëren |
    |  ---  |  ---  |
-   | ![](assets/copy-single-component.png){width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){width="200" align="center" zoomable="yes"} |
+   | ![](assets/copy-single-component.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
 
 1. Als u de component(en) wilt plakken, klikt u op de +-knop aan het einde van de gewenste overgang en selecteert u **In items plakken**.
 
-   ![](assets/copy-paste.png)
+   ![](assets/copy-paste.png){zoomable=&quot;yes&quot;}
 
 ## Filtercomponenten combineren met operatoren {#operators}
 
@@ -213,7 +213,7 @@ Elke keer dat u een nieuwe filtercomponent aan uw query toevoegt, wordt deze aut
 
 In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten op de tweede overgang toegevoegd. De component is gekoppeld aan de vooraf gedefinieerde filtertypevoorwaarde met een **EN** operator, wat betekent dat de zoekresultaten ontvangers omvatten die het voorgedefinieerde filter &quot;Madridians&quot; hebben, EN die tot het publiek &quot;Discount hunters&quot; behoren.
 
-![](assets/query-operator.png)
+![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 
 Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen, klikt u erop en selecteert u de gewenste operator in het dialoogvenster **Groep** venster dat aan de rechterkant wordt geopend.
 
@@ -223,13 +223,13 @@ Beschikbare operatoren zijn:
 * **OF (Verenigen)**: Deze groep bevat resultaten die overeenkomen met ten minste een van de filtercomponenten in de uitgaande overgangen.
 * **BEHALVE (Uitsluiting)**: Hiermee sluit u resultaten uit die overeenkomen met alle filtercomponenten in de uitgaande overgang.
 
-![](assets/query-operator-change.png)
+![](assets/query-operator-change.png){zoomable=&quot;yes&quot;}
 
 Bovendien kunt u tussenliggende groepen componenten maken door op de knop **+** op een overgang. Dit staat u toe om een exploitant bij deze specifieke plaats toe te voegen om veelvoudige componenten samen te groeperen en uw vraag te verfijnen.
 
 In het onderstaande voorbeeld hebben we een tussengroep opgericht die resultaten opneemt van het publiek &quot;VIP te belonen&quot; of &quot;Super VIP&quot;.
 
-![](assets/query-intermediate-group.png)
+![](assets/query-intermediate-group.png){zoomable=&quot;yes&quot;}
 
 ## Uw query controleren en valideren
 
@@ -253,4 +253,4 @@ Wanneer uw vraag klaar is, klik **[!UICONTROL Confirm]** in de rechterbovenhoek 
 
 U kunt uw query op elk gewenst moment wijzigen door deze te openen. Houd er rekening mee dat als een bestaande query wordt geopend, deze in een vereenvoudigde weergave wordt weergegeven zonder dat de  **+** knoppen. Als u nieuwe elementen aan de query wilt toevoegen, selecteert u een component of operator op het canvas om de component of operator **+** knoppen.
 
-![](assets/edit-audience.png)
+![](assets/edit-audience.png){zoomable=&quot;yes&quot;}

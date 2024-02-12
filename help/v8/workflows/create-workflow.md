@@ -2,11 +2,10 @@
 audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u een workflow maakt met Adobe Campaign Web
-badge: label="Beperkte beschikbaarheid"
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: c18f73c08d0cc2590c1c59f05a710a1f25db040e
+source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -33,7 +32,7 @@ Voer hiertoe de volgende stappen uit:
 
 1. Klik op de knop **[!UICONTROL Create workflow]** rechtsboven in het scherm.
 
-   ![](assets/workflow-create.png)
+   ![](assets/workflow-create.png){zoomable=&quot;yes&quot;}
 
 1. In workflow **Eigenschappen** selecteert u de sjabloon die u wilt gebruiken om de workflow te maken (u kunt ook de standaard ingebouwde sjabloon gebruiken). [Meer informatie over workflowsjablonen](#workflow-templates).
 
@@ -41,7 +40,7 @@ Voer hiertoe de volgende stappen uit:
 
 1. Breid uit **[!UICONTROL Additional options]** om meer instellingen voor de workflow te configureren. Leer hoe u de eigenschappen van de workflow kunt configureren in [deze pagina](workflow-settings.md#properties)
 
-   ![](assets/workflow-additional-options.png)
+   ![](assets/workflow-additional-options.png){zoomable=&quot;yes&quot;}
 
 1. Klik op de knop **[!UICONTROL Create workflow]** om het maken van uw workflow te bevestigen.
 
@@ -72,14 +71,14 @@ Voer de volgende stappen uit om een werkstroomsjabloon te maken op basis van een
 1. Openen voor de **Workflows** en blader aan het werkschema om als malplaatje te bewaren.
 1. Klik op de drie stippen rechts van de naam van de workflow en kies **Kopiëren als sjabloon**.
 
-   ![](assets/wf-copy-as-template.png)
+   ![](assets/wf-copy-as-template.png){zoomable=&quot;yes&quot;}
 
 1. Bevestig het maken van de sjabloon in het pop-upvenster.
 1. In het canvas van het werkschemamalplaatje, controleer, voeg, en vorm de activiteiten toe zoals nodig.
 1. Bladeren naar de instellingen, via het dialoogvenster **Instellingen** om de naam van de werkstroomsjabloon te wijzigen en een beschrijving in te voeren.
 1. Selecteer de **map** en **uitvoeringsmap** van de template. De map is de locatie waar het werkstroomsjabloon wordt opgeslagen. De uitvoeringsmap is de map waarin workflows worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
 
-   ![](assets/wf-settings-template.png)
+   ![](assets/wf-settings-template.png){zoomable=&quot;yes&quot;}
 
    De andere eigenschappen komen veel voor in workflows. Meer informatie in [deze pagina](workflow-settings.md#properties)
 
@@ -98,14 +97,14 @@ Ga als volgt te werk om een werkstroomsjabloon helemaal zelf te maken:
 1. Voer het label in en open de aanvullende opties om een beschrijving van de werkstroomsjabloon in te voeren.
 1. Selecteer de map en de uitvoeringsmap van de sjabloon. De map is de locatie waar het werkstroomsjabloon wordt opgeslagen. De uitvoeringsmap is de map waarin workflows worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
 
-   ![](assets/new-wf-template.png)
+   ![](assets/new-wf-template.png){zoomable=&quot;yes&quot;}
 
    De andere eigenschappen komen veel voor in workflows. Meer informatie in [deze pagina](workflow-settings.md#properties)
 
 1. Klik op de knop **Maken** om uw instellingen te bevestigen.
 1. In het canvas van het werkschemamalplaatje, voeg en vorm de activiteiten toe zoals nodig.
 
-   ![](assets/wf-template-activities.png)
+   ![](assets/wf-template-activities.png){zoomable=&quot;yes&quot;}
 
 1. Sla uw wijzigingen op.
 
