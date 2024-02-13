@@ -3,7 +3,7 @@ audience: end-user
 title: Middelen beheren met Adobe Experience Manager als Cloud-service
 description: Leer hoe u inhoud beheert met Adobe Experience Manager als Cloud-service
 badge: label="Beperkte beschikbaarheid"
-source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
+source-git-commit: 6fd2fa72e482883802c96f0888ea79f2b16b7152
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 2%
@@ -22,7 +22,7 @@ De integratie van de Adobe Campaign Web-interface met Adobe Experience Manager v
 
 1. Ga naar uw [!DNL Adobe Experience Manager] auteur en klik op Adobe Experience in de linkerbovenhoek van de pagina. Kies **[!UICONTROL Sites]** in het menu.
 
-1. Toegang **[!UICONTROL Campaigns > Name of your brand > Main Area > Email]**.
+1. Toegang **[!UICONTROL Campaigns > Name of your brand > Main Area > Name of your page]**.
 
 1. Klikken **[!UICONTROL Create]** en selecteert u **[!UICONTROL Page]** in het vervolgkeuzemenu.
 
