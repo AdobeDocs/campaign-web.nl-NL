@@ -6,9 +6,9 @@ title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campagne Web User Interface
 hide: true
-source-git-commit: 7c6a485496dcac65722375d0c55402abe1ebbf59
+source-git-commit: 46892e8033fca051db898f81f041bb3d59ecac27
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '585'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,6 @@ ht-degree: 9%
             + [Een koppeling toevoegen aan de spiegelpagina](email/mirror-page.md)
             + [Een preheader toevoegen](email/preheader.md)
             + [De tekstversie genereren](email/text-version-email.md)
-            + [Middelen beheren met Adobe Experience Manager Assets as a Cloud Service](email/aem-assets.md)
          + Inhoudsassistent {#content-assistant}
             + [Aan de slag met de Content Assistant](email/generative-gs.md)
             + [Tekst genereren met de Inhoudsassistent](email/generative-content.md)
@@ -168,3 +167,7 @@ ht-degree: 9%
       + [Globaal e-mailrapport](reporting/global-report-email.md)
       + [Globaal rapport uitduwen](reporting/global-report-push.md)
       + [Globaal SMS-rapport](reporting/global-report-sms.md)
++ Integraties {#integrations}
+   + [Middelen beheren met Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
+   + [Sjablonen beheren met Adobe Experience Manager als Cloud-service](integrations/aem-content.md)
+
