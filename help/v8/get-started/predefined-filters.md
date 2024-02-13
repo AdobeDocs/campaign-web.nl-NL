@@ -2,9 +2,9 @@
 title: Werken met vooraf gedefinieerde filters
 description: Leer hoe u vooraf gedefinieerde filters maakt en beheert in Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -36,11 +36,6 @@ Vooraf gedefinieerde filters zijn aangepaste filters die worden gemaakt en opges
 U kunt bestaande ingebouwde filters gebruiken om toegang te krijgen tot een specifieke subset van uw gegevens, of uw eigen vooraf gedefinieerde filters maken en deze opslaan.
 
 ![](assets/predefined-filters-menu.png){zoomable=&quot;yes&quot;}{zoomable=&quot;yes&quot;}
-
->[!IMPORTANT]
->
->In die versie van het product, wanneer het bouwen van regels, het selecteren van het publiek van een levering, of wanneer het bouwen van een publiek in een werkschema, zijn sommige vooraf bepaalde filters niet beschikbaar in het gebruikersinterface. U kunt ze nog steeds gebruiken. [Meer informatie](guardrails.md#predefined-filters-filters-guardrails-limitations)
-
 
 ## Een vooraf gedefinieerd filter maken {#create-predefined-filter}
 
@@ -109,20 +104,17 @@ Wanneer een filter als favoriet wordt opgeslagen, is het beschikbaar voor alle g
 
 Vooraf gedefinieerde filters zijn beschikbaar wanneer u regeleigenschappen definieert. Als u toegang wilt tot vooraf gedefinieerde filters, kiest u **Aangepast filter selecteren** in de drop-down van vraagmodeler.
 
-Vervolgens hebt u toegang tot de volledige lijst met vooraf gedefinieerde filters die beschikbaar zijn voor de huidige context.
-
-U kunt ook de filtersneltoetsen gebruiken die beschikbaar zijn in het dialoogvenster **Favoriete filters** van de vervolgkeuzelijst. Meer informatie over favorieten vindt u in [deze sectie](#fav-filter).
+Vervolgens hebt u toegang tot de volledige lijst met vooraf gedefinieerde filters die beschikbaar zijn voor de huidige context en gebruikt u de sneltoetsen die beschikbaar zijn in het dialoogvenster **Favoriete filters** van de vervolgkeuzelijst. Meer informatie over favorieten vindt u in [deze sectie](#fav-filter).
 
 Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd filter, voert u de volgende stappen uit:
 
-1. Bladeren in het dialoogvenster **Soorten publiek** in het linkermenu.
-1. Klik op de knop **Publiek maken** knop.
+1. Bladeren naar de **Soorten publiek** in het linkermenu en klik op de knop **Publiek maken** in de linkerbovenhoek van de lijst met soorten publiek.
 1. Voer de naam van het publiek in en klik op **Publiek maken** knop.
 1. Selecteer de **Query** activiteit, en, van de juiste ruit, klik **publiek maken** knop.
 
    ![](assets/build-audience-from-filter.png){zoomable=&quot;yes&quot;}
 
-1. Van de **Filterknop selecteren of opslaan**, kiest u de **Aangepast filter selecteren** -optie.
+1. Van de **Filter selecteren of opslaan** kiest u de **Aangepast filter selecteren** -optie.
 
    ![](assets/build-audience-select-custom-filter.png){zoomable=&quot;yes&quot;}
 
@@ -140,17 +132,17 @@ Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd f
 
 ## Uw vooraf gedefinieerde filters beheren {#manage-predefined-filter}
 
-Vooraf gedefinieerde filters worden allemaal gegroepeerd in de toegewezen vermelding van het navigatiemenu links.
+Alle vooraf gedefinieerde filters worden gegroepeerd in de specifieke vermelding van het navigatiemenu links.
 
 ![](assets/list-of-filters.png){zoomable=&quot;yes&quot;}
 
-In deze lijst kunt u een nieuw filter maken, zoals hierboven beschreven, en:
+In deze lijst kunt u een nieuw filter maken zoals hierboven beschreven en de onderstaande handelingen uitvoeren:
 
-* een bestaand filter bewerken en de regels en eigenschappen ervan wijzigen
-* Een vooraf gedefinieerd filter dupliceren
-* een vooraf gedefinieerd filter verwijderen
+* Bewerk een bestaand filter en wijzig de regels en eigenschappen ervan.
+* Een vooraf gedefinieerd filter dupliceren.
+* Verwijder een vooraf gedefinieerd filter.
 
-U kunt een vooraf gedefinieerd filter als favoriet voor een snelle toegang toevoegen wanneer het bouwen van uw publiek. Meer informatie in [deze sectie](#fav-filter).
+U kunt ook een vooraf gedefinieerd filter toevoegen als een favoriet voor snelle toegang bij het maken van uw publiek. Meer informatie in [deze sectie](#fav-filter).
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

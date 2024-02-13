@@ -3,7 +3,7 @@ audience: end-user
 title: Machtigingsbeheer in de gebruikersinterface van het Web voor campagne
 description: Meer informatie over machtigingen in de gebruikersinterface van Campagne Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -97,6 +97,6 @@ Ga als volgt te werk om een map te maken:
 
    ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
 
-   De map wordt toegevoegd als een submap van de huidige map. Blader naar die nieuwe map om er direct componenten in te maken. U kunt ook een component maken vanuit elke gewenste map en deze opslaan in die nieuwe map, vanuit de **Aanvullende opties** sectie van de eigenschappen, zoals hieronder voor een levering getoond:
+   De map wordt toegevoegd als een submap van de huidige map. Blader naar die nieuwe map om er direct componenten in te maken. U kunt ook een component maken vanuit elke gewenste map en deze opslaan in die nieuwe map, vanuit de **Aanvullende opties** sectie van de eigenschappen, zoals hieronder getoond voor een levering:
 
    ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
