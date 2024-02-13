@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
    ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
 
 1. Kies een kanaal voor de levering.
-1. Bepaal het leveringspubliek, voor het belangrijkste doel en de controlegroep. Meer informatie over publiek in [deze sectie](../audience/about-recipients.md).
+1. Bepaal het leveringspubliek, voor het belangrijkste doel en de controlegroep. [Meer informatie over het publiek](../audience/about-recipients.md).
 
    ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
@@ -51,16 +51,16 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
 1. Klik op de knop  **[!UICONTROL Review and send]** om uw instellingen te controleren.
 1. Gebruik de  **[!UICONTROL Simulate content]** om uw levering, en verpersoonlijkingsmontages te testen. Meer informatie over berichtsimulatie vindt u in [deze sectie](../preview-test/preview-test.md).
 1. Klik op de knop  **[!UICONTROL Prepare]** om de doelpopulatie te berekenen en de berichten te genereren. De voorbereidingsstap kan een paar minuten duren. Wanneer de voorbereiding volledig is, zijn de berichten klaar om te verzenden. Blader bij een fout naar de **Logboeken** om waarschuwingen en waarschuwingen te controleren.
-1. Controleer de resultaten en klik op de knop  **[!UICONTROL Send]** om te beginnen met het verzenden van berichten.
+1. Controleer de resultaten en klik op de knop **[!UICONTROL Send]** om te beginnen met het verzenden van berichten.
 1. Blader naar de **Rapporten** voor toegang tot belangrijke metriek. Meer informatie over leveringsrapporten vindt u in [deze sectie](../reporting/delivery-reports.md).
 
 >[!TAB Levering maken in een workflow]
 
 Ga als volgt te werk om een levering in een workflow te maken:
 
-1. Maak een workflow of open een bestaande workflow. Meer informatie over workflows in [deze pagina](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Een **[!UICONTROL Build audience]** activiteit. Meer informatie over de **[!UICONTROL Build audience]** activiteit in [deze sectie](../workflows/activities/build-audience.md).
-1. Klik op de knop `+` en selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van het leveringskanaal in een workflow en over het definiëren van inhoud voor levering in deze [sectie](../workflows/activities/channels.md).
+1. Maak een workflow of open een bestaande workflow. [Meer informatie over workflows](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. Een [**[!UICONTROL Build audience]**](../workflows/activities/build-audience.md) activiteit.
+1. Klik op de knop `+` en selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van leveringskanalen in een workflow en over het definiëren van inhoud voor levering in [deze sectie](../workflows/activities/channels.md).
 
    ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
 

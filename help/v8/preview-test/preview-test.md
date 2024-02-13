@@ -3,9 +3,9 @@ audience: end-user
 title: Voorvertoning en test voor levering
 description: Leer hoe u leveringen kunt voorvertonen en testen
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,9 @@ ht-degree: 0%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/preview-test/test-deliveries.html" text="Testleveringen verzenden"
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testopeningspagina&#39;s"
 
-Nadat u de inhoud van de levering hebt gedefinieerd, kunt u profielen en testprofielen gebruiken om deze voor te vertonen en te testen voordat u het bericht verzendt.
+Nadat u de inhoud van de levering hebt gedefinieerd, kunt u profielen en testprofielen gebruiken om deze voor te vertonen en te testen voordat u het bericht verzendt. Dit is een cruciale stap om ervoor te zorgen dat deze accuraat is, maar ook vrij van fouten in zowel de inhoud als de personalisatie-instellingen.
 
-Dit is een cruciale stap om ervoor te zorgen dat deze accuraat is, maar ook vrij van fouten in zowel de inhoud als de personalisatie-instellingen.
-
-Om dit te doen, [!DNL Adobe Campaign] biedt de volgende mogelijkheden:
+[!DNL Adobe Campaign Web user interface] biedt de volgende mogelijkheden:
 
 * [Een voorvertoning weergeven van de inhoud en personalisatie van het bericht](preview-content.md)
 * [Testleveringen verzenden](test-deliveries.md) (proefdrukken) voor specifieke ontvangers of abonnees voor tests en validatie

@@ -3,9 +3,9 @@ audience: end-user
 title: Voorvertoning van leveringsinhoud
 description: Leer hoe u uw leveringsinhoud met de gebruikersinterface van het Web van de Campagne voorproef
 exl-id: 663a8395-c5b7-4427-bfdd-055230f9bc05
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,7 @@ Volg onderstaande stappen om een voorvertoning van de inhoud van uw levering wee
 
    ![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
 
-1. Als u de profielen wilt selecteren waarmee u een voorvertoning van uw gepersonaliseerde inhoud wilt weergeven, gebruikt u:
-
-   * **[!UICONTROL Add test profile(s)]** voor het bekijken van een voorbeeld van e-mail- en sms-berichten
-
-   * **[!UICONTROL Add subscriber(s)]** voor het voorvertonen van pushberichten
+1. Selecteer de profielen die u wilt gebruiken voor een voorvertoning van uw inhoud. Om dit te doen, klik **[!UICONTROL Add test profile(s)]** (voor e-mail en SMS) of de **[!UICONTROL Add subscriber(s)]** (voor pushmeldingen).
 
 1. U kunt profielen en testprofielen combineren om een voorbeeld van uw e-mail- of sms-bericht te bekijken.
 
@@ -37,11 +33,9 @@ Volg onderstaande stappen om een voorvertoning van de inhoud van uw levering wee
 
    ![](assets/simulate-select-profiles.png){zoomable=&quot;yes&quot;}
 
-1. Wanneer u door het testprofiel of de profiellijsten bladert, kunt u filters gebruiken om uw zoekopdracht te verfijnen.
+1. Wanneer u door het testprofiel of de profiellijsten bladert, kunt u filters gebruiken om uw zoekopdracht te verfijnen. U kunt bijvoorbeeld een regel definiëren om alle testprofielen te zoeken die **[!UICONTROL Prospect]** status. [Leer hoe te om regels toe te voegen gebruikend de vraagmodeler](../query/query-modeler-overview.md).
 
    ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
-
-   U kunt bijvoorbeeld een regel definiëren om alle testprofielen te zoeken die **[!UICONTROL Prospect]** status. [Leer hoe te om regels toe te voegen gebruikend de vraagmodeler](../query/query-modeler-overview.md).
 
 1. Klikken **[!UICONTROL Select]** om uw selectie te bevestigen.
 
