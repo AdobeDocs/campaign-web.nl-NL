@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met Adobe Campaign Web
 description: Aan de slag met Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '543'
 ht-degree: 1%
 
 ---
@@ -46,10 +46,6 @@ Deze nieuwe gebruikersinterface van het Web dient eerst de behoeften van **beroe
 
 Als beheerder of deskundige gebruiker, als u tot de mogelijkheden van de Campagne v8 moet toegang hebben die niet beschikbaar in het gebruikersinterface van het Web van de Campagne zijn, kunt u met [clientconsole](#ac-client).
 
-
->[!NOTE]
->
->Adobe Campaign Web bevindt zich momenteel in de versie met beperkte beschikbaarheid (LA). De toegang is beperkt tot een kleine reeks klanten van LA. Houd er rekening mee dat de interface, mogelijkheden en gebruiksstromen van het product zonder kennisgeving kunnen veranderen.
 
 Leer hoe u verbinding maakt met Adobe Campaign Web in [deze pagina](connect-to-campaign.md).
 
