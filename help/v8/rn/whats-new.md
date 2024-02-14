@@ -3,9 +3,9 @@ audience: end-user
 title: Nieuw in de Gebruikersinterface van het Web van de Campagne
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a516a5aba56dbbff213d9a61b47144d6b4d801ff
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1291'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ We zijn blij dat we de nieuwe versie van **Adobe Campaign Web User Interface**. 
 
 >[!AVAILABILITY]
 >
->Deze versie is beschikbaar voor alle gebruikers die beginnen met de release van Campagne versie 8.6. Meer informatie over Adobe Campaign-releases in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+>Deze versie is beschikbaar voor alle gebruikers die beginnen [Release van campagne v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Meer informatie over Adobe Campaign-releases in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 
 ## Belangrijkste mogelijkheden {#key-features}
