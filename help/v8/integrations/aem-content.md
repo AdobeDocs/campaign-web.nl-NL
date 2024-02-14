@@ -2,9 +2,9 @@
 audience: end-user
 title: Middelen beheren met Adobe Experience Manager als Cloud-service
 description: Leer hoe u inhoud beheert met Adobe Experience Manager als Cloud-service
-source-git-commit: d1b562c346d99a94254e5a24e635c75509a6347c
+source-git-commit: 0c7c96308c5fe3516ed1fd33603c54c6da8248c1
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Zodra het malplaatje van de Experience Manager in het Web van Adobe Campaign als
 
    ![](assets/aem_8.png)
 
-1. Als je je templates rechtstreeks in Adobe Experience Manager wijzigt, kun je gewoon **[!UICONTROL Refresh AEM content]** om de laatste versie van de sjabloon te hebben.
+1. Inhoud wordt niet automatisch gesynchroniseerd. Als je je templates rechtstreeks in Adobe Experience Manager wijzigt, kun je gewoon **[!UICONTROL Refresh AEM content]** om de laatste versie van de sjabloon te hebben.
 
 1. Om verbinding tussen Experience Manager en Campagne te verwijderen of uw malplaatje van de Experience Manager in de E-mailontwerper verder te personaliseren, klik **[!UICONTROL Unlink AEM content]**.
 
