@@ -3,9 +3,9 @@ audience: end-user
 title: Nieuw in de Gebruikersinterface van het Web van de Campagne
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 45e8a863f542be862773a7ec3a49b1e94236d453
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -130,11 +130,13 @@ Meer informatie in [deze sectie](../msg/offers.md).
 
 ## Overgang naar de gebruikersinterface van het Web van de Campagne
 
-Als gebruiker van de Campagne, kunt u tot de cliëntconsole nog toegang hebben om de middelen en de componenten van de Campagne te bouwen en te beheren. Gegevens en instellingen worden gesynchroniseerd van een omgeving naar een andere. Meer informatie in [deze sectie](../get-started/get-started.md#about-campaign-client-consoleac-client).
+Als gebruiker van de Campagne, kunt u tot de cliëntconsole nog toegang hebben om de middelen en de componenten van de Campagne te bouwen en te beheren. Gegevens en instellingen worden gesynchroniseerd van een omgeving naar een andere. Meer informatie in [deze sectie](../get-started/get-started.md#ac-client).
 
-Bovendien zijn al uw gegevens en montages reeds beschikbaar in de cliëntconsole zichtbaar in het gebruikersinterface van het Web van de Campagne, van de Ontdekkingsreiziger linkernavigatie. Meer informatie over de weergave Explorer in [deze sectie](../get-started/user-interface.md#explorer-user-interface-explorer).
+Bovendien zijn al uw gegevens en montages reeds beschikbaar in de cliëntconsole zichtbaar in het gebruikersinterface van het Web van de Campagne, van de Ontdekkingsreiziger linkernavigatie. Meer informatie over de weergave Explorer in [deze sectie](../get-started/user-interface.md#user-interface-explorer).
 
-Met het gebruikersinterface van het Web van de Campagne, wijst het gebruikersinterface op de toestemmingen van de gebruiker. Meer informatie over machtigingen in [deze pagina](../get-started/permissions.md)
+Met het gebruikersinterface van het Web van de Campagne, wijst het gebruikersinterface op de toestemmingen van de gebruiker. Meer informatie over machtigingen in [deze pagina](../get-started/permissions.md).
+
+Ondersteunde en niet-ondersteunde mogelijkheden en interoperabiliteit tussen de gebruikersinterface van het Web van de Campagne en de de cliëntconsole van de Campagne [op deze pagina](../get-started/capability-matrix.md).
 
 ## Terminologie-updates {#terminology-updates}
 
@@ -156,4 +158,6 @@ De onderstaande beperkingen gelden voor deze versie:
 * KPI&#39;s voor het leveringsdashboard worden elke 5 minuten bijgewerkt. - maar de voorbereiding van de levering is in real-time.
 * Adobe Experience Cloud-meldingen en de Unified Help die beschikbaar zijn in de bovenste balk, zijn nog niet geïntegreerd.
 
-Leer meer over gesteunde/niet gestaafde mogelijkheden en interoperabiliteit tussen de gebruikersinterface van het Web van de Campagne en de cliëntconsole van de Campagne, [op deze pagina](../get-started/capability-matrix.md).
+Wanneer het werken in het gebruikersinterface van het Web van de Campagne met werkschema&#39;s die in de cliëntconsole van de Campagne worden gecreeerd of worden gewijzigd, zijn de specifieke gidsen en de beperkingen van toepassing. Ze worden aangeboden [in deze sectie](../get-started/guardrails.md).
+
+Meer informatie over ondersteunde/niet-ondersteunde mogelijkheden en interoperabiliteit tussen de gebruikersinterface en de clientconsole van Campagne Web [op deze pagina](../get-started/capability-matrix.md).

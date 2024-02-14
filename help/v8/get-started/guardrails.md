@@ -1,15 +1,15 @@
 ---
-title: Hulplijnen en beperkingen in de gebruikersinterface van het web voor campagnes
-description: Hulplijnen en beperkingen in de gebruikersinterface van het web voor campagnes
+title: Instructies en beperkingen in de workflows van de gebruikersinterface van Campagne Web
+description: Instructies en beperkingen bij het werken met workflows in de gebruikersinterface van Campagne Web
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
-# Afvoerkanalen en beperkingen {#guardrails-limitations}
+# Afbeeldingen en beperkingen voor workflows {#guardrails-limitations}
 
 Wanneer het werken in het gebruikersinterface van het Web van de Campagne met werkschema&#39;s die in de cliëntconsole van de Campagne worden gecreeerd of worden gewijzigd, zijn de hieronder vermelde gidsen en beperkingen van toepassing.
 
