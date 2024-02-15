@@ -1,16 +1,15 @@
 ---
-solution: Journey Optimizer, Campaign, Campaign v8 Web User Interface
-product: journey optimizer
+solution: Campaign, Campaign v8 Web User Interface
 title: Gebruiksgevallen van landingspagina
-description: Ontdek de meest gebruikelijke gebruiksgevallen bij bestemmingspagina's in Journey Optimizer
+description: Ontdek de gemeenschappelijkste gebruiksgevallen met het landen van pagina's in het Gebruikersinterface van het Web van de Campagne
 feature: Landing Pages, Subscriptions
 topic: Content Management
 role: User
 level: Intermediate
 keywords: landen, landingspagina, hoofdletter gebruiken
-source-git-commit: 3dcd4631a79ce2752e829f8259e0de1177f21984
+source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1243'
 ht-degree: 0%
 
 ---
