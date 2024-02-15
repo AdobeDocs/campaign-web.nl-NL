@@ -1,9 +1,9 @@
 ---
 title: Aan de slag met profielen
 description: Leer om profielen in het Web van de Campagne te controleren en te beheren.
-source-git-commit: 55441646867b7dee454a7f37c0a1b696e61926de
+source-git-commit: 791863c25c0e5b31cc38e1981f8b356ee0011b1c
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Bovendien **[!UICONTROL test profiles]**, geïdentificeerd als &quot;zaadprofiel
 
 Zowel profielen als testprofielen kunnen worden gebruikt om uw leveringen te testen voordat ze het beoogde publiek bereiken. Op deze manier kunt u de inhoud en personalisatie van het bericht voorvertonen, proefdrukken voor tests en validatie verzenden, de weergave van e-mail op verschillende platforms en apparaten evalueren en de bestemmingspagina&#39;s testen. [Leer hoe u leveringen kunt voorvertonen en testen](../preview-test/preview-test.md)
 
+➡️ [Deze functie in video detecteren](#video)
+
 ## De lijst met profielen openen {#access}
 
 Profielen zijn toegankelijk en kunnen worden bewerkt op het web van Adobe Campaign via **[!UICONTROL Customer management]** > **Profielen** in de linkernavigatieregel. U kunt ze ook openen in het dialoogvenster **[!UICONTROL Explorer]** van de **[!UICONTROL Profiles & Targets]** > **[!UICONTROL Recipients]** knooppunt. Vervolgens kunt u mappen of submappen bladeren, maken en beheren en de bijbehorende machtigingen controleren. [Leer hoe u mappen maakt](../get-started/permissions.md#folders)
@@ -53,3 +55,9 @@ U kunt het filter **[!UICONTROL Profiles]** lijst die het onderzoeksgebied of de
 Als u de details van een profiel wilt bekijken, klikt u in de lijst op de naam van het profiel. Er wordt een gedetailleerde weergave van het profiel geopend, zodat u de kenmerken en services kunt bekijken waarop u zich hebt geabonneerd. [Meer informatie over de details van profielen](create-profile.md)
 
 Als u een profiel wilt verwijderen, selecteert u de bijbehorende optie in het menu **[!UICONTROL More actions]** -menu.
+
+## Hoe kan ik-video {#video}
+
+Leer om tot profielen toegang te hebben, te beheren en te onderzoeken gebruikend het Web van de Campagne gebruikersinterface.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
