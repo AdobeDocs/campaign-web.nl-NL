@@ -3,9 +3,9 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b497eded8ace85410e5f83d454fce7e566d8a4dc
+source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '672'
 ht-degree: 2%
 
 ---
@@ -90,6 +90,12 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 >[!BEGINTABS]
 
+>[!TAB Adobe Experience Manager als integratie van een Cloud-service]
+
+De integratie tussen Adobe Campaign Web Interface en Adobe Experience Manager as a Cloud Service stroomlijnt het beheer van e-mailinhoud. U kunt nu e-mailinhoud rechtstreeks in Adobe Experience Manager maken en bewerken en vervolgens de voltooide sjablonen naadloos importeren naar Adobe Campaign voor uw leveringen.
+
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+
 >[!TAB Kanaalworkflows]
 
 Ontgrendel nieuwe mogelijkheden voor automatisering en optimalisering, die u toestaan om dynamischere en gepersonaliseerde klantenreizen te creëren. Van geavanceerde segmentatie tot voorwaardelijke triggers, onze extra werkschemaactiviteiten stellen u in staat om gerichte berichten te leveren en betere campagneprestaties te drijven.
@@ -107,12 +113,6 @@ Maak een nieuw publiek in een visueel werkstroomcanvas. U kunt workflowactivitei
 Met Campagne-e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve interface voor slepen en neerzetten. Of u nu op een lege site begint, bestaande inhoud importeert of bestaande sjablonen gebruikt, ontwerpt en verfijnen alle inhoud voor elke e-mail!
 
 [![afbeelding](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
-
->[!TAB Profiel 360]
-
-Maak nieuwe profielen en controleer deze met krachtige rapporten en gereedschappen. Open de kenmerken, interacties en logbestanden van uw profielen. Met de filteropties bladert u door de lijst met profielen, bewerkt en werkt u het profiel bij.
-
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](audience/gs-audiences-recipients.md)
 
 >[!ENDTABS]
 
