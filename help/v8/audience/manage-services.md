@@ -3,10 +3,10 @@ audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: ee105288a1e2e9671688ebe33092d92d4673a04d
+source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '919'
+ht-degree: 1%
 
 ---
 
@@ -128,8 +128,13 @@ U kunt nu deze berichten selecteren wanneer [een abonnementenservice maken](#cre
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_totalnumber_subscribers"
->title="Totaal aantal abonnees"
+>title="Aantal abonnees"
 >abstract="Klikken **Berekenen** krijgen het totale aantal abonnees voor deze dienst."
+
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_totalnumber_subscribers_report"
+>title="Totaal aantal abonnees"
+>abstract="De belangrijkste Indicator van Prestaties (KPI) verstrekt een uitvoerige mening van de abonneebasis, die het totale aantal individuen toont die aan deze dienst hebben ingetekend."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overtheperiod_subscribers"
