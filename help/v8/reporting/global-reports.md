@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met Global-rapporten
 description: Globale rapporten begrijpen
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 0%
 # Aan de slag met algemene rapporten {#global-report-gs}
 
 De **Algemene rapporten** fungeren als een effectief hulpmiddel en bieden een geconsolideerde algemene samenvatting van verkeers- en betrokkenheidsgegevens voor elk kanaal in uw Campagne-instantie. Deze rapporten bestaan uit verschillende widgets, die elk een duidelijk perspectief bieden op uw campagne of leveringsprestaties.
+
+De belangrijkste prestatie-indicatoren (KPI&#39;s) worden om de uur vernieuwd en zorgen voor actuele inzichten. Standaard worden de gegevens gefilterd zodat ze de afgelopen 30 dagen kunnen doorlopen. Zo kunt u een actuele en relevante kijk op de prestaties van uw campagnes en leveringen geven.
 
 De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is beschikbaar in de volgende pagina&#39;s:
 
