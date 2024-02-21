@@ -3,9 +3,9 @@ audience: end-user
 title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het gebruikersinterface van het Web van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '798'
 ht-degree: 7%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 7%
 # Een controlegroep instellen {#control-group}
 
 Een controlegroep is een subpopulatie die van de levering is uitgesloten. U kunt een controlegroep bepalen vermijden verzendend berichten naar een gedeelte van uw publiek, en post-levering gedrag met het belangrijkste doel vergelijken. Met deze optie kunt u de impact van uw campagne meten.
+
+➡️ [Deze functie in video detecteren](create-audience.md#video)
 
 ## Controlegroep inschakelen{#add-a-control-group}
 
@@ -122,5 +124,3 @@ De profielen die zijn opgenomen in het publiek of die overeenkomen met het resul
 Zodra de levering wordt verzonden, kunt u de verzendende logboeken halen om gedrag tussen de profielen te vergelijken die niet de mededeling en het efficiënte doel ontvingen. U kunt de leveringslogboeken ook gebruiken om een nieuwe het richten te bouwen.
 
 Als u wilt zien welke profielen uit het doel zijn verwijderd, controleert u de knop **Leveringslogboeken**. Meer informatie [in deze sectie](#check-control-group).
-
-
