@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2205'
 ht-degree: 0%
 
 ---
@@ -30,12 +30,11 @@ De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specif
 
 De **[!UICONTROL Initial target population]** de grafiek toont gegevens met betrekking tot uw ontvangers. De metriek worden berekend tijdens levering voorbereiding en toon: het aanvankelijke publiek, het aantal te verzenden berichten, het aantal uitgesloten ontvangers.
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
 
 Plaats de muis boven een gedeelte van de grafiek om het exacte getal weer te geven.
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
-
+![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
@@ -48,16 +47,14 @@ Plaats de muis boven een gedeelte van de grafiek om het exacte getal weer te gev
 
 ### Leveringsstatistieken {#email-delivery-stats}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Leveringsstatistieken"
 >abstract="De **Leveringsstatistieken** de grafiek geeft het succes van uw levering, en fouten die voorkwamen."
 
-
 De **[!UICONTROL Delivery statistics]** grafiek geeft het succes van uw levering aan. De cijfers worden hieronder beschreven.
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}{width="50%" align="left" zoomable="yes"}
+![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
 
 +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
@@ -147,7 +144,12 @@ De **[!UICONTROL Broadcast statistics]** de tabel bevat de beschikbare gegevens 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Uitsplitsing van fouten per type"
->abstract="De **Uitsplitsing van fouten per type** de lijst en de grafiek bevatten de beschikbare gegevens voor elk aangetroffen foutentype: onbekende gebruiker, brievenbus volledig, ongeldig domein, en meer."
+>abstract="De **Uitsplitsing van fouten per type** de grafiek bevat de beschikbare gegevens voor elk aangetroffen foutentype: onbekende gebruiker, brievenbus volledig, ongeldig domein, en meer."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_type_table"
+>title="Uitsplitsing van fouten per type"
+>abstract="De **Uitsplitsing van fouten per type** de tabel bevat een uitgebreide uitsplitsing van het aantal fouten per fouttype."
 
 De **[!UICONTROL Breakdown of errors per type]** tabel en grafiek bevatten de beschikbare gegevens voor het fouttype. De cijfers worden hieronder beschreven.
 
@@ -173,15 +175,17 @@ De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces
 
 +++
 
-
 ### Uitsplitsing van fouten per domein {#email-delivery-breakdown-domain}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Uitsplitsing van fouten per domein"
->abstract="De **Uitsplitsing van fouten per domein** de tabel en de grafiek geven de beschikbare gegevens weer voor elk fouttype dat afhankelijk van elk domein wordt aangetroffen."
+>abstract="De **Uitsplitsing van fouten per domein** Afhankelijk van elk domein worden in de grafiek de beschikbare gegevens voor elk aangetroffen fouttype weergegeven."
 
+>[!CONTEXTUALHELP]
+>id="acw_delivery_reporting_error_domain_table"
+>title="Uitsplitsing van fouten per domein"
+>abstract="De **Uitsplitsing van fouten per domein** de tabel bevat een uitgebreide uitsplitsing van het aantal fouten, afhankelijk van het gebruikte domein."
 
 De **[!UICONTROL Breakdown of errors per domain]** in tabel en grafiek worden de beschikbare gegevens weergegeven voor mogelijke fouten die met elk domein worden aangetroffen.
 

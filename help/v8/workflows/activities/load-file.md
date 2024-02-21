@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit voor het laden van bestanden gebruiken
 description: Leer hoe u de workflowactiviteit Bestand laden gebruikt
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,17 @@ ht-degree: 0%
 >id="acw_orchestration_loadfile_formatting"
 >title="Opmaak voor het laden van bestandsactiviteit"
 >abstract="Opmaak voor het laden van bestandsactiviteit"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_targetfile"
+>title="Doelbestand voor laden van bestandsactiviteit"
+>abstract="Doelbestand voor laden van bestandsactiviteit"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_valueremapping"
+>title="Waarde opnieuw toewijzen voor activiteit van bestand laden"
+>abstract="Waarde opnieuw toewijzen voor activiteit van bestand laden"
+
 
 De **Bestand laden** activiteit is **Gegevensbeheer** activiteit. Gebruik deze activiteit om met profielen en gegevens te werken die in een extern dossier worden opgeslagen. Profielen en gegevens worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../../personalization/gs-personalization.md)of om profielen of een andere tabel bij te werken.
 
