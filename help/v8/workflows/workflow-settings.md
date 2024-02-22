@@ -3,21 +3,26 @@ audience: end-user
 title: Workflowinstellingen configureren
 description: Leer hoe u workflowinstellingen configureert met Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 0%
+source-wordcount: '964'
+ht-degree: 1%
 
 ---
 
 
 # Workflowinstellingen configureren {#workflow-settings}
 
-Wanneer u workflowactiviteiten op het canvas ordent, hebt u toegang tot geavanceerde instellingen die betrekking hebben op de workflow. U kunt bijvoorbeeld een specifieke tijdzone voor de workflow instellen, beheren hoe de workflow zich moet gedragen als er een fout optreedt, of de vertraging beheren waarna de werkstroomgeschiedenis moet worden gewist.
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_creation_properties"
+>title="Workfloweigenschappen"
+>abstract="Kies in dit scherm de sjabloon die u wilt gebruiken om de workflow te maken en geef een label op. Breid uit **Aanvullende opties** sectie om meer montages zoals de werkschema interne naam, zijn omslag, timezone, en supervisorgroep te vormen. Het wordt hoogst geadviseerd om een supervisorgroep te selecteren zodat de exploitanten worden gealarmeerd als een fout voorkomt."
+
+Wanneer u een workflow maakt of workflowactiviteiten op het canvas ordent, hebt u toegang tot geavanceerde instellingen die betrekking hebben op de workflow. U kunt bijvoorbeeld een specifieke tijdzone voor de workflow instellen, beheren hoe de workflow zich moet gedragen als er een fout optreedt, of de vertraging beheren waarna de werkstroomgeschiedenis moet worden gewist.
 
 Deze instellingen zijn vooraf geconfigureerd in de sjabloon die is geselecteerd tijdens het maken van de workflow, maar kunnen zo nodig worden bewerkt voor deze specifieke workflow.
 
-Om dit te doen, klik **[!UICONTROL Settings]** in de actiebalk boven het werkstroomcanvas beschikbaar.
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
@@ -28,7 +33,8 @@ Om dit te doen, klik **[!UICONTROL Settings]** in de actiebalk boven het werkstr
 >title="Workfloweigenschappen"
 >abstract="Deze sectie biedt algemene workfloweigenschappen die ook toegankelijk zijn wanneer u de workflow maakt. U kunt de sjabloon kiezen die u wilt gebruiken om de workflow te maken en een label opgeven. Vouw de sectie Aanvullende opties uit om specifieke instellingen te configureren, zoals de workflow waarin de map of tijdzone wordt opgeslagen."
 
-De **[!UICONTROL Properties]** biedt algemene instellingen die ook toegankelijk zijn wanneer u de workflow maakt.
+De **[!UICONTROL Properties]** biedt algemene instellingen die kunnen worden geconfigureerd bij het maken van een workflow. Als u de eigenschappen van een bestaande workflow wilt openen, klikt u op de knop **[!UICONTROL Settings]** in de actiebalk boven het werkstroomcanvas beschikbaar.
+
 
 ![](assets/workflow-settings.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
