@@ -4,11 +4,11 @@ user-guide-title: Adobe Campaign Web User Interface
 user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interface.
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
-breadcrumb-title: Campagne Web User Interface
+breadcrumb-title: Campaign Web User Interface
 source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
 workflow-type: tm+mt
 source-wordcount: '585'
-ht-degree: 9%
+ht-degree: 12%
 
 ---
 
