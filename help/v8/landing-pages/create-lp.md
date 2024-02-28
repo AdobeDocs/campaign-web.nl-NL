@@ -2,9 +2,9 @@
 title: Een landingspagina maken
 description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1300'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 In de gebruikersinterface van het Web Campagne kunt u bestemmingspagina&#39;s maken, ontwerpen en publiceren. Na publicatie kunt u een koppeling naar het formulier invoegen in een levering. Nadat de ontvangers op die koppeling klikken, worden ze naar de bijbehorende bestemmingspagina geleid.
 
-[!DNL Adobe Campaign] wordt geleverd met vier sjablonen voor het beheren van de volgende gebruiksgevallen: **verwerving**, **abonnement**, **abonnement opzeggen**, en **lijst van gewezen personen**.
+[!DNL Adobe Campaign] wordt geleverd met vier sjablonen voor het beheren van de volgende gebruiksgevallen: **verwerving**, **abonnement**, **abonnement opzeggen**, en **lijst van gewezen personen**. [Meer informatie](lp-use-cases.md)
 
 ## Openingspagina&#39;s openen {#access-landing-pages}
 
@@ -58,14 +58,14 @@ U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een
 >abstract="U kunt een begindatum en een einddatum voor uw landingspagina bepalen. Wanneer de pagina het einde van de geldigheidsperiode bereikt, is het formulier niet meer beschikbaar. De **Verlopen** wordt weergegeven."
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_primarypage"
->title="De primaire pagina-instellingen definiëren"
->abstract="De primaire pagina wordt direct aan de gebruikers getoond nadat zij de verbinding aan uw landende pagina, zoals van een e-mail of een website klikken."
+>id="acw_landingpages_preload"
+>title="Opties voor vooraf laden definiëren"
+>abstract="Wanneer de **Vooraf invullen met de gegevens waarnaar in het formulier wordt verwezen** is geselecteerd, als de bezoeker van de landingspagina een profiel uit de database aanpast, wordt de profielinformatie automatisch vooraf in het formulier geladen. Met de **Voorladen overslaan als geen id** als deze optie is geselecteerd, wordt elk ingevoerde profiel na goedkeuring van het formulier toegevoegd aan de database."
 
 >[!CONTEXTUALHELP]
->id="acw_landingpages_subscription"
->title="De bestemmingspagina van uw abonnement instellen"
->abstract="Met een abonnementspagina kunnen uw klanten zich abonneren op een service."
+>id="acw_landingpages_storage"
+>title="Opslagopties definiëren"
+>abstract="In het gedeelte Voorladen kunt u aangeven hoe u de record kunt vinden die in de database moet worden bijgewerkt."
 
 <!--The main steps to create landing pages are as follows:
 

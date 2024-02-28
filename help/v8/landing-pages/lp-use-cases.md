@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: landen, landingspagina, hoofdletter gebruiken
-source-git-commit: 22d9615947b1a7dbbbd4cd740ab8c91e0d388f41
+source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,17 @@ ht-degree: 0%
 >title="URL met voorzichtigheid kopiëren"
 >abstract="Als u de landingspagina volledig wilt testen of er gebruik van wilt maken, kunt u deze koppeling niet rechtstreeks in een webbrowser of in uw leveringen kopiëren en plakken. Gebruik in plaats daarvan de opdracht **Inhoud simuleren** gebruiken om de landingspagina te testen en de in de documentatie beschreven stappen te volgen om de landingspagina correct te gebruiken."
 
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_templates"
+>title="URL met voorzichtigheid kopiëren"
+>abstract="Wanneer het creëren van een het landen pagina, staan vier uit-van-de-doos malplaatjes u toe om verschillende gebruiksgevallen uit te voeren: voeg of werk een profiel aan het gegevensbestand van de Campagne bij, abonneer klanten aan de dienst, unsubscribe hen van de dienst, of opt gebruikers uit."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Een landingspagina maken"
+
 Als u uw landingspagina op de juiste manier wilt gebruiken, moet u deze als een koppeling in een levering opgeven met de speciale optie.
 
 >[!CAUTION]
 >
->Als u de openingspagina volledig wilt benutten, kunt u de koppeling die wordt weergegeven in het gepubliceerde leveringsdashboard, niet rechtstreeks kopiëren naar uw leveringen of naar een webpagina.
+>Als u de openingspagina volledig wilt benutten, kunt u de koppeling die wordt weergegeven in het gepubliceerde leveringsdashboard, niet rechtstreeks kopiëren naar uw leveringen of naar een webpagina. Leer hoe u dit op de juiste wijze doet in deze sectie.
 
 In de [!DNL Adobe Campaign Web] De interface, vier uit-van-de-doos malplaatjes staat u toe om verschillende gebruiksgevallen uit te voeren. De belangrijkste stappen blijven echter hetzelfde en worden hieronder beschreven.
 
@@ -105,6 +111,11 @@ Als ze ervoor hebben gekozen uw nieuwsbrief te ontvangen, worden ze geabonneerd 
 ![](assets/lp-uc-newsletter-subscriber.png){zoomable=&quot;yes&quot;}
 
 ## Abonnement op een service {#lp-subscription}
+
+>[!CONTEXTUALHELP]
+>id="acw_landingpages_subscription"
+>title="De bestemmingspagina van uw abonnement instellen"
+>abstract="Met een abonnementspagina kunnen uw klanten zich abonneren op een service."
 
 Een van de meest gebruikelijke gebruiksgevallen is het uitnodigen van uw klanten om [abonneren op een service](../audience/manage-services.md) (zoals een nieuwsbrief of een gebeurtenis) door een landingspagina. Voer de onderstaande stappen uit.
 
