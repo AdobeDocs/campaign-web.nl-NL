@@ -2,9 +2,9 @@
 title: Instructies en beperkingen in de workflows van de gebruikersinterface van Campagne Web
 description: Instructies en beperkingen bij het werken met workflows in de gebruikersinterface van Campagne Web
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
-source-git-commit: 19864179f02d39583cc90d42bf6ab677f4841600
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,10 @@ Houd er rekening mee dat op deze pagina belangrijke overwegingen worden vermeld 
 
 ## Workflowactiviteiten {#wkf-activities}
 
-De activiteiten van het werkschema die nog niet in het Web van de Campagne worden gesteund zijn read-only en getoond als onverenigbare activiteiten. U kunt de workflow nog steeds uitvoeren, berichten verzenden, de logbestanden controleren, enz. De activiteiten van het werkschema die zowel in het Web van de Campagne als de cliëntconsole beschikbaar zijn zijn editable.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_query_enrichment_noneditable"
+>title="Activiteit niet bewerkbaar"
+>abstract="Wanneer een **Query** of een **Verrijking** De activiteit wordt gevormd met extra gegevens in de console, wordt de verrijkingsgegevens in het Web van de Campagne in aanmerking genomen en overgegaan in de uitgaande overgang, maar het kan niet worden uitgegeven."
 
 De activiteiten van het werkschema die nog niet in het gebruikersinterface van het Web van de Campagne worden gesteund zijn read-only en getoond als onverenigbare activiteiten. U kunt de workflow nog steeds uitvoeren, berichten verzenden, de logbestanden controleren, enz. De activiteiten van het werkschema die zowel in het gebruikersinterface van het Web van de Campagne als de de cliëntconsole van de Campagne beschikbaar zijn zijn editable.
 

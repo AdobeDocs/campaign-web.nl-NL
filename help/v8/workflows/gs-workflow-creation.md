@@ -3,7 +3,7 @@ audience: end-user
 title: Belangrijkste principes voor het maken van werkstromen
 description: Belangrijke principes van workflows leren met Adobe Campaign Web
 exl-id: ac6e63fb-34f2-474f-b364-d2af44f649b1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -14,7 +14,6 @@ ht-degree: 0%
 # Belangrijkste principes voor het maken van werkstromen {#gs-workflow-creation}
 
 Met Adobe Campaign Web, kunt u werkschema&#39;s in een visueel canvas bouwen om kanaalprocessen zoals segmentatie, campagneuitvoering, dossierverwerking te ontwerpen.
-
 
 ## Wat zit er in een workflow? {#gs-workflow-inside}
 
@@ -44,7 +43,6 @@ Met campagnes kunt u op twee manieren een workflow maken:
 1. Workflows kunnen rechtstreeks binnen een campagne worden gemaakt, via de **Workflow** tabblad van de campagne. Wanneer inbegrepen in een campagne, wordt het werkschema uitgevoerd samen met alle andere werkschema&#39;s van de campagne, en de rapporteringsmetriek zijn allen gegroepeerd op het campagnereniveau.
 
    ![](assets/create-a-wf-from-a-campaign.png){zoomable=&quot;yes&quot;}
-
 
 De belangrijkste stappen voor het maken van workflows zijn als volgt:
 

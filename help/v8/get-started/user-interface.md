@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c005ed49c8f19274f339f9c256fe648ed34a8ca5
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -163,11 +163,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Globale rapporten bijhouden"
 >abstract="Metrische gegevens voor het bijhouden van rapporten zijn zichtbaar in dit scherm"
 
->[!CONTEXTUALHELP]
->id="acw_campaign_workflow_list"
->title="Workflowlijst in een campagne"
->abstract="Workflowlijst in een campagne"
-
 
 <!-- FOR BETA (alignment) -->
 <!--https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CBETA%3E-+Official+list-->
@@ -205,19 +200,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_recipients_offers_preview_proposition"
 >title="Voorvertoning van aanbiedingen van ontvangers"
 >abstract="Voorvertoning van aanbiedingen van ontvangers"
-
->[!CONTEXTUALHELP]
->id="acw_recipients_readonlyprofile"
->title="Ontvangers lezen alleen-profiel"
->abstract="Ontvangers lezen alleen-profiel"
-
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_query_enrichment_noneditable"
->title="Activiteit niet bewerkbaar"
->abstract="Activiteit niet bewerkbaar"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
@@ -283,21 +265,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Testprofielen simuleren"
 >abstract="Testprofielen simuleren"
 
+<!--ML: not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_profiles_selection"
 >title="Selectie van testprofielen simuleren"
 >abstract="Selectie van testprofielen simuleren"
+
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_send_testprofiles"
 >title="Testprofielen simuleren en verzenden"
 >abstract="Testprofielen simuleren en verzenden"
 
+<!-- ML: beta wiki page - not visible in UI-->
+
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_email_log"
 >title="E-maillogboek simuleren"
 >abstract="E-maillogboek simuleren"
 
+<!-- ML: beta wiki page - not visible in UI-->
 
 >[!CONTEXTUALHELP]
 >id="acw_directmail_content"
@@ -352,6 +341,11 @@ Deprecated IDs - to remove in GA: -->
 >title="Alle subsets in dezelfde tabel genereren"
 >abstract="TBC"
 
+<!-- ML: not found in wiki pages-->
+
+
+<!-- Subscription activity-->
+
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
 >title="Standaardbestemmingspagina&#39;s"
@@ -371,18 +365,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Uitgaande overgang van abonnementsdiensten"
 >abstract="TBC"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_command"
->title="Bestand laden, opdracht"
->abstract="Het toestaan van arbitraire bevel voor preprocessing is een veiligheidszorg, maak veiligheidsoptie XtkSecurity_Disable_Preproc onbruikbaar om het gebruik van een vooraf bepaalde lijst van bevelen te dwingen."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_loadfile_delete"
->title="Bestand verwijderen na importeren"
->abstract="TBC"
-
-
 
 
 <!--Update file-->

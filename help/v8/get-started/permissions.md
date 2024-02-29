@@ -3,9 +3,9 @@ audience: end-user
 title: Machtigingsbeheer in de gebruikersinterface van het Web voor campagne
 description: Meer informatie over machtigingen in de gebruikersinterface van Campagne Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -17,18 +17,20 @@ ht-degree: 0%
 >title="Machtiging vereist"
 >abstract="Uw beheerder moet u toestemming verlenen alvorens u dit voorwerp kunt tot stand brengen."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_audiences_read_only"
 >title="Dit publiek is alleen-lezen"
 >abstract="U hebt geen machtigingen om dit publiek te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_subscription_services_read_only"
 >title="Deze service is alleen-lezen"
 >abstract="U hebt geen machtigingen om deze service te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
 
+>[!CONTEXTUALHELP]
+>id="acw_recipients_readonlyprofile"
+>title="Ontvangers lezen alleen-profiel"
+>abstract="U hebt geen machtigingen om dit profiel te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_read_only"

@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit voor het laden van bestanden gebruiken
 description: Leer hoe u de workflowactiviteit Bestand laden gebruikt
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 84ac68615b0ab88c54b22dd5b400e94e194be7ca
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,15 @@ ht-degree: 0%
 >title="Waarde opnieuw toewijzen voor activiteit van bestand laden"
 >abstract="Waarde opnieuw toewijzen voor activiteit van bestand laden"
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_command"
+>title="Bestand laden, opdracht"
+>abstract="Het toestaan van arbitraire bevel voor preprocessing is een veiligheidszorg, maak veiligheidsoptie XtkSecurity_Disable_Preproc onbruikbaar om het gebruik van een vooraf bepaalde lijst van bevelen te dwingen."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_loadfile_delete"
+>title="Bestand verwijderen na importeren"
+>abstract="TBC"
 
 De **Bestand laden** activiteit is **Gegevensbeheer** activiteit. Gebruik deze activiteit om met profielen en gegevens te werken die in een extern dossier worden opgeslagen. Profielen en gegevens worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../../personalization/gs-personalization.md)of om profielen of een andere tabel bij te werken.
 

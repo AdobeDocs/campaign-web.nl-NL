@@ -3,7 +3,7 @@ audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u een workflow maakt met Adobe Campaign Web
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
-source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 1%
@@ -12,8 +12,6 @@ ht-degree: 1%
 
 
 # De workflow maken {#create-first-workflow}
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"

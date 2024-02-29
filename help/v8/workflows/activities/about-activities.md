@@ -3,7 +3,7 @@ audience: end-user
 title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 0%
@@ -36,7 +36,6 @@ Deze activiteiten zijn specifiek gericht op het richten, manipuleren en verrijke
 * Gebruik de [Deduplicatie](deduplication.md) activiteit om duplicaten in het resultaat(en) van de binnenkomende activiteiten te verwijderen.
 * Gebruik de [Dimensie wijzigen](change-dimension.md) activiteit om de het richten dimensie te veranderen aangezien u uw werkschema bouwt.
 * Gebruik de [Bestand laden](load-file.md) om te werken met profielen en gegevens die in een extern bestand zijn opgeslagen.
-
 
 ## Kanaalactiviteiten {#channel}
 

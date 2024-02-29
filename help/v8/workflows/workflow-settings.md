@@ -3,7 +3,7 @@ audience: end-user
 title: Workflowinstellingen configureren
 description: Leer hoe u workflowinstellingen configureert met Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: 0250ab3bd05023bddbf3a0104631cc7bb40acadc
+source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 1%
@@ -13,7 +13,6 @@ ht-degree: 1%
 
 # Workflowinstellingen configureren {#workflow-settings}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_workflow_creation_properties"
 >title="Workfloweigenschappen"
@@ -22,7 +21,6 @@ ht-degree: 1%
 Wanneer u een workflow maakt of workflowactiviteiten op het canvas ordent, hebt u toegang tot geavanceerde instellingen die betrekking hebben op de workflow. U kunt bijvoorbeeld een specifieke tijdzone voor de workflow instellen, beheren hoe de workflow zich moet gedragen als er een fout optreedt, of de vertraging beheren waarna de werkstroomgeschiedenis moet worden gewist.
 
 Deze instellingen zijn vooraf geconfigureerd in de sjabloon die is geselecteerd tijdens het maken van de workflow, maar kunnen zo nodig worden bewerkt voor deze specifieke workflow.
-
 
 ![](assets/workflow-settings-button.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
