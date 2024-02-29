@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '2022'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ In het onderstaande voorbeeld hebben we een tussengroep opgericht die resultaten
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_ruleproperties"
 >title="Eigenschappen van Rule"
->abstract="Eigenschappen van Rule"
+>abstract="Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met de opdracht **Eigenschappen van Rule** aan de rechterkant.<br/>In dit deelvenster kunt u de resulterende gegevens weergeven, een SQL-codeversie van de query ophalen en het aantal doelrecords controleren.<br/>Gebruik de **Filter selecteren of opslaan** om de query op te slaan als een vooraf gedefinieerd filter of om de canvasinhoud te vervangen door een bestaand filter."
 
 Nadat u de query op het canvas hebt gemaakt, kunt u deze controleren met de opdracht **Eigenschappen van Rule** aan de rechterkant. Beschikbare bewerkingen zijn:
 
