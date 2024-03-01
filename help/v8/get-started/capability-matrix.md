@@ -3,9 +3,9 @@ audience: end-user
 title: Campagne Web-gebruikersinterface/client-consolematrix
 description: Lijst met functies die worden ondersteund in de gebruikersinterface van Campagne Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 45e5b528837614cdbd537d0a92e71265f65f97db
+source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
 workflow-type: tm+mt
-source-wordcount: '2150'
+source-wordcount: '2178'
 ht-degree: 0%
 
 ---
@@ -152,14 +152,27 @@ Sommige mogelijkheden zijn alleen beschikbaar via de clientconsole. Blader naar 
 
 ## Gegevensmodellering en gegevensinvoer {#data-capabilities}
 
-De gebruikersinterface van het Web van de campagne behandelt niet de volgende mogelijkheden. Ze zijn alleen beschikbaar in de clientconsole.
+De gebruikersinterface van het Web van de campagne behandelt niet de volgende mogelijkheden. Ze zijn alleen beschikbaar in de clientconsole:
 
-Bladeren op de beschikbare koppelingen in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl){target="_blank"} voor meer informatie.
+### Externe accounts {#external}
 
-* **Externe rekeningen**. Adobe Campaign wordt geleverd met een set vooraf gedefinieerde externe accounts die verbinding kunnen maken met externe systemen. Als Beheerder van het Systeem van de Campagne, kunt u externe rekeningen van de cliëntconsole tot stand brengen en leiden slechts.[Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
-* **Schema&#39;s maken en uitbreiden**. Het creëren, de wijziging, en de uitbreiding van het schema zijn beperkt tot gevorderde gebruikers. Deze mogelijkheden zijn alleen beschikbaar via de clientconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
-* **Gegevensbeheer** workflowactiviteiten. Het gegevensbeheer combineert een reeks activiteiten om complexe doelgerichte kwesties op te lossen door efficiëntere en flexibelere hulpmiddelen aan te bieden. Deze activiteiten omvatten: het laden van gegevens, Extractie (dossier), Update gegevens, Edit schema, de technische workflows van de invoer/van de uitvoer. Ze zijn alleen beschikbaar in de clientconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
-* **Federale gegevenstoegang**. De configuratie van de campagne en de verbinding aan externe systemen worden beperkt tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
+Adobe Campaign wordt geleverd met een set vooraf gedefinieerde externe accounts die verbinding kunnen maken met externe systemen. Als Beheerder van het Systeem van de Campagne, kunt u externe rekeningen van de cliëntconsole tot stand brengen en leiden slechts.[Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html){target="_blank"}
+
+### Schema&#39;s maken en uitbreiden {#schema}
+
+Het creëren, de wijziging, en de uitbreiding van het schema zijn beperkt tot gevorderde gebruikers. Deze mogelijkheden zijn alleen beschikbaar via de clientconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/schemas.html){target="_blank"}
+
+### Functies voor gegevensbeheer in workflows {#data}
+
+Het Beheer van gegevens combineert een reeks activiteiten voor het oplossen van complexe het richten kwesties door efficiëntere en flexibelere hulpmiddelen zoals het laden van Gegevens, Extractie (dossier), Update gegevens, Edit schema, of invoer/de uitvoer technische werkschema&#39;s aan te bieden. [Mogelijkheden voor gegevensbeheer van workflows in de clientconsole ontdekken](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows.html#data-management){target="_blank"}
+
+>[!NOTE]
+>
+>Terwijl sommige van deze activiteiten in de cliëntconsole slechts beschikbaar zijn, zijn sommige beschikbaar in het gebruikersinterface van het Web van de Campagne zoals **Verrijking**, **Bestand laden** of **Dimensie wijzigen** activiteiten. [Meer informatie over doelgerichte activiteiten en gegevensbeheeractiviteiten in de gebruikersinterface van het Web van de Campagne](../workflows/activities/about-activities.md#targeting)
+
+### Federale configuratie voor gegevenstoegang {#fda}
+
+De configuratie van de campagne en de verbinding aan externe systemen worden beperkt tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 ## Goedkeuringen {#approvals-capabilities}
 
