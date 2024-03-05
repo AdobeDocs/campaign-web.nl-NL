@@ -3,9 +3,9 @@ audience: end-user
 title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de gebruikersinterface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1340'
 ht-degree: 1%
 
 ---
@@ -157,13 +157,13 @@ Zodra u de levering verzendt, begint de daadwerkelijke verzendende op de contact
 
 Meer informatie over de planning van de levering in [deze sectie](../msg/gs-deliveries.md#schedule-the-delivery-sending).
 
-## E-mail voorvertonen en testen {#preview-test}
+## Een voorbeeld van een e-mail bekijken en proefdrukken verzenden {#preview-test}
 
 Voordat u uw e-mail verzendt, kunt u een voorbeeld bekijken en testen of deze voldoet aan uw verwachtingen.
 
-In dit geval bekijkt u een voorbeeld van de e-mail en verzendt u testversies naar specifieke e-mailadressen terwijl u zich aan enkele van de beoogde profielen aanpast.
+In dit geval bekijkt u een voorbeeld van de e-mail en verzendt u proefdrukken naar specifieke e-mailadressen terwijl u zich aan enkele van de beoogde profielen aanpast.
 
-Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in [deze sectie](../preview-test/preview-test.md).
+Aanvullende informatie over het bekijken van een voorbeeld van een e-mail en het verzenden van proefdrukken vindt u in [deze sectie](../preview-test/preview-test.md).
 
 1. Als u uw e-mail wilt bekijken, klikt u op **[!UICONTROL Review and send]**. Dit toont een voorproef van uw e-mail, samen met alle gevormde eigenschappen, publiek en programma. U kunt al deze elementen bewerken door op de knop Wijzigen te klikken.
 
@@ -180,25 +180,25 @@ Aanvullende informatie over het bekijken en testen van e-mails is beschikbaar in
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
 
-1. Als u testversies van uw e-mail wilt verzenden, klikt u op de knop **[!UICONTROL Test]** kiest u vervolgens de gewenste modus.
+1. Als u proefdrukken wilt verzenden, klikt u op de knop **[!UICONTROL Send proofs]** kiest u vervolgens de gewenste modus.
 
-   In dit voorbeeld gebruikt u de opdracht **[!UICONTROL Substitute from main target]** -modus, die testversies naar specifieke e-mailadressen verzendt en tegelijkertijd enkele profielen nastreeft die in de e-mail worden genoemd.
+   In dit voorbeeld gebruikt u de opdracht **[!UICONTROL Substitute from main target]** -modus, die proefdrukken naar specifieke e-mailadressen verzendt en tegelijkertijd enkele profielen nastreeft die in de e-mail worden genoemd.
 
    ![](assets/proof-mode.png){zoomable=&quot;yes&quot;}
 
-1. Klikken **[!UICONTROL Add address]** en vermeld het e-mailadres of de e-mailadressen die de testversies ontvangen.
+1. Klikken **[!UICONTROL Add address]** en geef het e-mailadres of de e-mailadressen op die de proefdrukken ontvangen.
 
    Selecteer voor elk e-mailadres het profiel dat u wilt beleven. U kunt Adobe Campaign ook een willekeurig profiel van het doel laten selecteren.
 
    ![](assets/proof-test-profile.png){zoomable=&quot;yes&quot;}
 
-1. Klikken **[!UICONTROL Send test email]** en de verzending bevestigen.
+1. Klikken **[!UICONTROL Send proof]** en de verzending bevestigen.
 
-   Testversies worden naar de opgegeven e-mailadressen verzonden met behulp van het geselecteerde profiel met het **[Proef x]** voorvoegsel
+   Proefdrukken worden naar de opgegeven e-mailadressen verzonden met het geselecteerde profiel **[Proef x]** voorvoegsel
 
    ![](assets/proof-sent.png){zoomable=&quot;yes&quot;}
 
-   U kunt de status van de verzendende e-mail controleren en de verzonden teste-mails op elk gewenst moment openen door op de knop **[!UICONTROL View test email log]** in het scherm Inhoud simuleren.
+   U kunt de status van de verzendende persoon controleren en de verzonden proefdrukken op elk gewenst moment openen door op de knop **[!UICONTROL View proofs]** in het scherm Inhoud simuleren.
 
 ## E-mail verzenden en controleren {#prepare-send}
 

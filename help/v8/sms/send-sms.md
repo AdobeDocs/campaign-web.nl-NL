@@ -3,9 +3,9 @@ audience: end-user
 title: Verzend een SMS-levering
 description: Meer informatie over het verzenden van SMS via Adobe Campaign Web
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -44,9 +44,9 @@ Je kunt je SMS-bericht nu bekijken en naar je publiek sturen.
 
 Met **Adobe Campaign**, kunt u een bericht testen voordat u het naar het hoofdpubliek stuurt. Dit is een essentiële stap voor het valideren van uw e-mailcampagne en het identificeren van mogelijke problemen.
 
-Het verzenden van testSMS is een belangrijke stap in het verzekeren van de kwaliteit en de doeltreffendheid van uw levering. De ontvangers van de test kunnen diverse elementen zoals verbindingen, opt-out verbindingen en beelden herzien, evenals om het even welke fouten in het teruggeven, inhoud, verpersoonlijkingsmontages, en de configuratie van SMS identificeren. Dit proces helpt u uw SMS grondig evalueren en optimaliseren alvorens uw belangrijkste publiek te bereiken.
+Het verzenden van proefdrukken is een belangrijke stap om de kwaliteit en doeltreffendheid van uw levering te verzekeren. De ontvangers van het proef kunnen diverse elementen zoals verbindingen, opt-out verbindingen en beelden herzien, evenals om het even welke fouten in het teruggeven, inhoud, verpersoonlijkingsmontages, en de configuratie van SMS identificeren. Dit proces helpt u uw SMS grondig evalueren en optimaliseren alvorens uw belangrijkste publiek te bereiken.
 
-![](../assets/do-not-localize/book.png) Leer hoe je SMS-test verzendt in [deze sectie](../preview-test/test-deliveries.md).
+![](../assets/do-not-localize/book.png) Ontdek hoe u proefdrukken kunt verzenden in [deze sectie](../preview-test/test-deliveries.md).
 
 ![](assets/sms_send_6.png){zoomable=&quot;yes&quot;}
 

@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailrendering testen
 description: Leer hoe u uw e-mailrendering kunt testen in de gebruikersinterface van het Campagne Web
 exl-id: 5cdbce8b-3969-470d-8019-1edc58433146
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Hiervoor kunt u uw **Litmus** account [!DNL Adobe Campaign] om direct een voorve
 
 >[!CAUTION]
 >
->Als u e-mailrendering gebruikt in Campagne, wordt een test-e-mail verzonden naar een systeem van derden. Door uw rekening van Litmus met aan te sluiten [!DNL Campaign], erkent u dat Adobe niet verantwoordelijk is voor gegevens die u naar die derde kunt verzenden. Het beleid voor het bewaren van gegevens per e-mail is van toepassing op deze e-mailberichten, inclusief personalisatiegegevens die in deze testberichten kunnen worden opgenomen. Als u dergelijke gegevens wilt openen of verwijderen, moet u rechtstreeks contact opnemen met Litmus.
+>Als u e-mailrendering gebruikt in Campagne, wordt een proefdruk verzonden naar een systeem van derden. Door uw rekening van Litmus met aan te sluiten [!DNL Campaign], erkent u dat Adobe niet verantwoordelijk is voor gegevens die u naar die derde kunt verzenden. Het beleid voor het bewaren van gegevens per e-mail is van toepassing op deze e-mailberichten, inclusief personalisatiegegevens die in deze proefdrukken kunnen worden opgenomen. Als u dergelijke gegevens wilt openen of verwijderen, moet u rechtstreeks contact opnemen met Litmus.
 
 Voor toegang tot rendermogelijkheden via e-mail moet u:
 

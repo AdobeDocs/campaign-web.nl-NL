@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 23127900a70e0a6e6873141448dc9f8e365ea0f5
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '584'
 ht-degree: 12%
 
 ---
@@ -82,9 +82,9 @@ ht-degree: 12%
    + [Aanbiedingen toevoegen aan uw berichten](msg/offers.md)
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + Voorbeeld en test de levering {#preview-test}
-      + [Voorvertonen en testen](preview-test/preview-test.md)
+      + [Voorvertoning en proefdrukken](preview-test/preview-test.md)
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
-      + [Testleveringen verzenden](preview-test/test-deliveries.md)
+      + [Proefdrukken verzenden](preview-test/test-deliveries.md)
       + [De rendering van e-mail testen](preview-test/email-rendering.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](landing-pages/get-started-lp.md)

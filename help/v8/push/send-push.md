@@ -3,9 +3,9 @@ audience: end-user
 title: Een pushmelding verzenden
 description: Meer informatie over het verzenden van pushberichten via Adobe Campaign Web
 exl-id: 16b3b33b-36db-4635-8e44-707694b859db
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,8 @@ U kunt nu uw pushmelding bekijken en verzenden naar uw publiek.
 
 ## De levering van pushberichten testen {#test-push}
 
-Gebruiken **Adobe Campaign**, kunt u pushmeldingen testen voordat u ze naar het hoofdpubliek stuurt. Deze stap is belangrijk voor het valideren van uw levering en het identificeren van eventuele problemen.
-De ontvangers van de test kunnen elementen zoals verbindingen, beelden, en verpersoonlijkingsmontages herzien, die optimale prestaties verzekeren en om het even welke fouten ontdekken. Met dit proces kunt u uw pushmeldingen verfijnen en optimaliseren voordat u het grote publiek bereikt.
-
-![](../assets/do-not-localize/book.png) Leer hoe u pushmeldingen voor tests verzendt in [deze sectie](../preview-test/test-deliveries.md#subscribers).
+Gebruiken **Adobe Campaign**, kunt u proefdrukken verzenden voordat u deze naar het grote publiek stuurt. Deze stap is belangrijk voor het valideren van uw levering en het identificeren van eventuele problemen.
+De ontvangers van de test kunnen elementen zoals verbindingen, beelden, en verpersoonlijkingsmontages herzien, die optimale prestaties verzekeren en om het even welke fouten ontdekken. Met dit proces kunt u uw pushmeldingen verfijnen en optimaliseren voordat u het grote publiek bereikt. [Meer informatie over het verzenden van proefdrukken](../preview-test/test-deliveries.md#subscribers)
 
 ![](assets/push_send_6.png){zoomable=&quot;yes&quot;}
 

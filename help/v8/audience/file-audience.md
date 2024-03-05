@@ -3,9 +3,9 @@ audience: end-user
 title: Doelontvangers uit een bestand
 description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
 
 ## Uw e-mail voorvertonen en testen {#test}
 
-Met Campagne Web kunt u teste-mails voorvertonen en verzenden wanneer u een publiek gebruikt dat vanuit een bestand is geüpload. Ga als volgt te werk om dit te doen:
+Met Campagne Web kunt u proefdrukken weergeven en verzenden wanneer u een publiek gebruikt dat vanuit een bestand is geüpload. Ga als volgt te werk om dit te doen:
 
 1. Klik op de knop **[!UICONTROL Simulate content button]** vanuit het bewerkingsscherm voor de inhoud van de levering en klik op de knop **[!UICONTROL Add test profile(s)]** knop.
 
@@ -94,7 +94,7 @@ Met Campagne Web kunt u teste-mails voorvertonen en verzenden wanneer u een publ
 
    ![](assets/file-upload-preview.png){zoomable=&quot;yes&quot;}
 
-1. Als u e-mailberichten wilt verzenden, klikt u op de knop **[!UICONTROL Test]** knop.
+1. Als u proefdrukken wilt verzenden, klikt u op de knop **[!UICONTROL Send proof]** knop.
 
 1. Klik op de knop **[!UICONTROL Upload proof profiles]** en selecteert u het .txt- of .csv-bestand met de proefdrukontvangers.
 
@@ -102,8 +102,8 @@ Met Campagne Web kunt u teste-mails voorvertonen en verzenden wanneer u een publ
    >
    >Zorg ervoor dat de bestandsindeling overeenkomt met de indeling die wordt gebruikt voor het uploaden van uw publiek. Bij indelingsfouten wordt een waarschuwing weergegeven.
 
-1. Als de proefontvangers zijn toegevoegd en u klaar bent om de proefdrukken te verzenden, klikt u op de knop **[!UICONTROL Send test email]** en bevestig de verzendende.
+1. Als de proefontvangers zijn toegevoegd en u klaar bent om de proefdrukken te verzenden, klikt u op de knop **[!UICONTROL Send proof]** en bevestig de verzendende.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 
-1. U kunt de verzending van de teste-mail controleren met de **[!UICONTROL View test email log]** op elk gewenst moment. [Meer informatie over e-mailcontrole tijdens tests](../preview-test/test-deliveries.md#access-test-deliveries)
+1. U kunt de verzending van de proef controleren met de **[!UICONTROL View proofs]** op elk gewenst moment. [Meer informatie over proefdrukcontrole](../preview-test/test-deliveries.md#access-test-deliveries)

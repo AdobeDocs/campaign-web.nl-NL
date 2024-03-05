@@ -3,7 +3,7 @@ audience: end-user
 title: Filterlijsten
 description: Leer hoe u Adobe Campaign Web-lijsten filtert met ingebouwde en aangepaste filters.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Filterlijsten {#filter-lists}
 
-Adobe Campaign Web verstrekt filters binnen elke lijst van voorwerpen, toelatend u om informatie te filtreren die op specifieke contextuele criteria wordt gebaseerd. U kunt leveringen bijvoorbeeld filteren op de status, het kanaal, de contactdatum of de map. U kunt tests ook verbergen.
+Adobe Campaign Web verstrekt filters binnen elke lijst van voorwerpen, toelatend u om informatie te filtreren die op specifieke contextuele criteria wordt gebaseerd. U kunt leveringen bijvoorbeeld filteren op de status, het kanaal, de contactdatum of de map. U kunt ook proefdrukken verbergen.
 
 ## Filters toepassen{#apply}
 

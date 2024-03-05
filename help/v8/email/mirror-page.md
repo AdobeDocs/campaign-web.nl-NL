@@ -3,9 +3,9 @@ audience: end-user
 title: Een koppeling toevoegen aan de spiegelpagina
 description: Leer hoe u de koppeling naar de spiegel toevoegt en beheert
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Wanneer de e-mail is verzonden en de ontvangers op de koppeling voor de spiegelp
 
 >[!NOTE]
 >
->In de testmail die naar de testprofielen wordt verzonden, is de verbinding aan de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
+>In de proefdruk die naar de testprofielen wordt verzonden, is de verbinding aan de spiegelpagina niet actief. Deze wordt alleen geactiveerd in de laatste berichten.
 
 Standaard is de retentieperiode voor een spiegel 60 dagen. Na die vertraging is de spiegelpagina niet meer beschikbaar.
 
