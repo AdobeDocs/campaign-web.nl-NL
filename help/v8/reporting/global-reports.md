@@ -3,14 +3,19 @@ audience: end-user
 title: Aan de slag met Global-rapporten
 description: Globale rapporten begrijpen
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: fe47c50bc257832fc9d6ddefdcb3217b73559d82
+source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met algemene rapporten {#global-report-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_campaign_reporting_global_report"
+>title="Algemeen rapport"
+>abstract="Global Reports bieden een krachtige en efficiënte manier om de prestaties van uw campagne te analyseren. Deze rapporten verstrekken een geconsolideerde mening van zeer belangrijke verkeer en betrokkenheidsmetriek voor elk kanaal binnen uw campagne."
 
 De **Algemene rapporten** fungeren als een effectief hulpmiddel en bieden een geconsolideerde algemene samenvatting van verkeers- en betrokkenheidsgegevens voor elk kanaal in uw Campagne-instantie. Deze rapporten bestaan uit verschillende widgets, die elk een duidelijk perspectief bieden op uw campagne of leveringsprestaties.
 
