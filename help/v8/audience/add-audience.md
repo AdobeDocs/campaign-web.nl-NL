@@ -3,9 +3,9 @@ audience: end-user
 title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
    ![](assets/create-audience2.png){zoomable=&quot;yes&quot;}
 
-   Blader naar de `AEP Audiences folder` in het filtergedeelte van het scherm.
+   Blader naar de `AEP Audiences folder` in het filtergedeelte van het scherm. [Meer informatie over Adobe Experience Platform-publiek](manage-audience.md#monitor)
 
    ![](assets/select-audience-folder.png){zoomable=&quot;yes&quot;}
 
