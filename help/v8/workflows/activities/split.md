@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit Splitsen gebruiken
 description: Leer hoe u de activiteit van de gesplitste workflow gebruikt
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,11 @@ De **Splitsen** activiteit is **Targeting** activiteit die u toestaat om inkomen
 >title="Splitsen genereert complement"
 >abstract="Zodra u alle subsets hebt gevormd, kunt u de resterende populatie selecteren die geen van de subsets aanpast en hen in een extra uitgaande overgang omvat. Om dit te doen, knevel op **Complement genereren** -optie."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_generatesubsets"
+>title="Alle subsets in dezelfde tabel genereren"
+>abstract="Schakel deze optie in en uit om alle subsets te groeperen in één uitvoerovergang."
+
 Voer de volgende stappen uit om de **Splitsen** activiteit:
 
 1. Voeg een **Splitsen** activiteit aan uw werkschema.
@@ -76,7 +81,6 @@ Voer de volgende stappen uit om de **Splitsen** activiteit:
       >[!NOTE]
       >
       >Wanneer u een populatielimiet voor een subset instelt, kunt u de geselecteerde profielen op basis van een specifiek profielkenmerk in oplopende of aflopende volgorde rangschikken. Om dit te doen, knevel op **[!UICONTROL Enable sorting]** -optie. U kunt bijvoorbeeld een subset beperken tot alleen de bovenste 50 profielen met het hoogste aankoopbedrag.
-
 
 1. Zodra u alle subsets hebt gevormd, kunt u de resterende populatie selecteren die geen van de subsets aanpast en hen in een extra uitgaande overgang omvat. Om dit te doen, knevel op **[!UICONTROL Generate complement]** -optie.
 
