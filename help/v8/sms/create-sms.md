@@ -3,10 +3,10 @@ audience: end-user
 title: Een sms-levering maken
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
 exl-id: 54181498-8164-4600-8b3f-20892b77d5d7
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -50,7 +50,7 @@ Ga als volgt te werk om een nieuwe, zelfstandige SMS-levering te maken:
    * **[!UICONTROL Folder]**: Sla de levering op in een specifieke map.
    * **[!UICONTROL Delivery code]**: Organiseer uw leveringen met uw eigen naamgevingsconventie.
    * **[!UICONTROL Description]**: Geef een beschrijving voor de levering.
-   * **[!UICONTROL Nature]**: Geef de aard van de e-mail op voor classificatiedoeleinden.
+   * **[!UICONTROL Nature]**: Specificeer de aard van de levering voor classificatiedoeleinden.
 +++
 
 1. Klik op de knop **[!UICONTROL Select audience]** om een bestaand publiek als doel in te stellen of uw eigen publiek te maken. [Meer informatie over het publiek](../audience/about-recipients.md).
@@ -73,7 +73,7 @@ Ga als volgt te werk om een nieuwe, zelfstandige SMS-levering te maken:
 
    >[!NOTE]
    >
-   >Wanneer een levering in de context van een werkschema wordt verzonden, moet u gebruiken **Planner** activiteit. Meer informatie in [deze pagina](../workflows/activities/scheduler.md).
+   >Wanneer een levering in de context van een werkschema wordt verzonden, moet u gebruiken **Planner** activiteit. Meer informatie vindt u [op deze pagina](../workflows/activities/scheduler.md).
 
 1. Klikken **[!UICONTROL Settings]** voor toegang tot geavanceerde opties met betrekking tot uw leveringsmalplaatje. [Meer informatie](../advanced-settings/delivery-settings.md)
 

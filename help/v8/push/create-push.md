@@ -3,7 +3,7 @@ audience: end-user
 title: Een pushmelding maken
 description: Leer hoe u een pushmelding maakt met Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 1%
@@ -51,7 +51,7 @@ Configureer uw leveringsinstellingen zoals hieronder beschreven:
    * **[!UICONTROL Folder]**: Sla de levering op in een specifieke map.
    * **[!UICONTROL Delivery code]**: Organiseer uw leveringen met uw eigen naamgevingsconventie.
    * **[!UICONTROL Description]**: Geef een beschrijving voor de levering.
-   * **[!UICONTROL Nature]**: Geef de aard van de e-mail op voor classificatiedoeleinden.
+   * **[!UICONTROL Nature]**: Specificeer de aard van de levering voor classificatiedoeleinden.
 +++
 
 

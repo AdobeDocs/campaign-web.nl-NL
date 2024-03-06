@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met pushmeldingen
 description: Meer informatie over het maken en verzenden van pushberichten via Adobe Campaign Web
 exl-id: f90d915f-d357-4309-bef5-0dedc30280d7
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -16,9 +16,9 @@ Pushberichten zijn essentieel voor het bereiken van een mobiele app-gebruiker, z
 
 Voor het maken van pushberichten hebt u drie opties:
 
-* **Workflows**: Nadat u een Push-kanaalactiviteit aan uw workflow hebt toegevoegd en de basisinstellingen hebt geconfigureerd, kunt u de inhoud van uw pushberichten opnieuw ordenen vanuit het rechterdeelvenstermenu. Raadpleeg deze pagina voor gedetailleerde instructies over het configureren van de workflow.
+* **Workflows**: Nadat u een Push-kanaalactiviteit aan uw workflow hebt toegevoegd en de basisinstellingen hebt geconfigureerd, kunt u de inhoud van uw pushberichten opnieuw ordenen vanuit het rechterdeelvenstermenu. Raadpleeg voor gedetailleerde instructies over het configureren van de workflow [deze pagina](../workflows/gs-workflows.md).
 
-* **Campagnes**: Nadat u een campagne hebt gemaakt, kunt u een pushmelding maken. Raadpleeg deze pagina voor meer informatie over het instellen van uw campagne.
+* **Campagnes**: Nadat u een campagne hebt gemaakt, kunt u een pushmelding maken. Voor meer informatie over het instellen van uw campagne raadpleegt u [deze pagina](../campaigns/gs-campaigns.md).
 
 * **Zelfstandige leveringen**: Neem direct en direct contact op met klanten met individuele pushberichten, zonder dat ze werkstromen of campagnes nodig hebben.
 
