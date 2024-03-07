@@ -5,7 +5,7 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 12%
@@ -61,7 +61,6 @@ ht-degree: 12%
             + [Inline-opmaakkenmerken toevoegen](email/inline-styling.md)
       + E-mail verzenden en controleren {#monitor}
          + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
-         + [E-mailleveringsinstellingen](advanced-settings/delivery-settings.md)
          + [Verzenden met meerdere golven](advanced-settings/send-using-waves.md)
          + [Leveringslogboeken controleren](monitor/delivery-logs.md)
    + Pushmeldingen {#push}
@@ -81,6 +80,7 @@ ht-degree: 12%
       + [Ingebouwde inhoudsblokken toevoegen](personalization/content-blocks.md)
    + [Aanbiedingen toevoegen aan uw berichten](msg/offers.md)
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
+   + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
    + Voorbeeld en test de levering {#preview-test}
       + [Voorvertoning en proefdrukken](preview-test/preview-test.md)
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
