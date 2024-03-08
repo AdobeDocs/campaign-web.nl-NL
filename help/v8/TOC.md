@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '589'
 ht-degree: 12%
 
 ---
@@ -167,6 +167,7 @@ ht-degree: 12%
       + [Globaal rapport uitduwen](reporting/global-report-push.md)
       + [Globaal SMS-rapport](reporting/global-report-sms.md)
 + Integraties {#integrations}
+   + [Werken met andere oplossingen voor Adobe](integrations/integration.md)
    + [Middelen beheren met Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
-   + [Sjablonen beheren met Adobe Experience Manager als Cloud-service](integrations/aem-content.md)
+   + [Sjablonen beheren met Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 

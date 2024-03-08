@@ -3,7 +3,7 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 2%
@@ -90,7 +90,7 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 >[!BEGINTABS]
 
->[!TAB Adobe Experience Manager als integratie van een Cloud-service]
+>[!TAB Adobe Experience Manager as a Cloud Service-integratie]
 
 De integratie tussen Adobe Campaign Web Interface en Adobe Experience Manager as a Cloud Service stroomlijnt het beheer van e-mailinhoud. U kunt nu e-mailinhoud rechtstreeks in Adobe Experience Manager maken en bewerken en vervolgens de voltooide sjablonen naadloos importeren naar Adobe Campaign voor uw leveringen.
 
