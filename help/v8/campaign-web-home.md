@@ -3,7 +3,7 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 9849ab42d9dcbe34036f5677c674cb96aaf1a246
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 2%
@@ -134,7 +134,7 @@ Met Campagne-e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>
-    <div><strong>Uw inhoud dynamisch maken</strong><br/>Leer hoe u uw inhoud kunt aanpassen op basis van de informatie die u hebt verzameld over de ontvangers, zodat uw inhoud aantrekkelijker wordt en de kans groter wordt dat de inhoud wordt gelezen.</div>
+    <div><strong>Uw inhoud dynamisch maken</strong><br/>Leer hoe u de inhoud aanpast op basis van de informatie die u hebt verzameld over uw profielen, zodat uw inhoud aantrekkelijker wordt en de kans groter wordt dat de inhoud wordt gelezen.</div>
     </td>
   </tr>
   <tr style="border: 0;">

@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Doelontvangers uit een bestand
-description: Leer hoe u ontvangers uit een extern bestand kunt gebruiken om uw e-mailpubliek te maken
+title: Een e-mailpubliek laden vanuit een bestand
+description: Leer hoe u profielen uit een extern bestand kunt laden om uw e-mailpubliek te maken
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Met Campagne Web kunt u proefdrukken weergeven en verzenden wanneer u een publie
    >
    >Zorg ervoor dat de bestandsindeling overeenkomt met de indeling die wordt gebruikt voor het uploaden van uw publiek. Bij indelingsfouten wordt een waarschuwing weergegeven.
 
-1. Als de proefontvangers zijn toegevoegd en u klaar bent om de proefdrukken te verzenden, klikt u op de knop **[!UICONTROL Send proof]** en bevestig de verzendende.
+1. Als de proefdrukprofielen zijn toegevoegd en u klaar bent om de proefdrukken te verzenden, klikt u op de knop **[!UICONTROL Send proof]** en bevestig de verzendende.
 
    ![](assets/file-upload-test.png){zoomable=&quot;yes&quot;}
 

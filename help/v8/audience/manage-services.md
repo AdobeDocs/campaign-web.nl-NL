@@ -3,7 +3,7 @@ audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 12492f1c2464a18a420e6f4dccb62debf0bb3151
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 1. Abonnementen zijn standaard onbeperkt.
 
    U kunt de **[!UICONTROL Unlimited validity period]** optie om een geldigheidstermijn voor de dienst te bepalen. Na afloop van de geldigheidsperiode:
-   * Geen ontvangers kunnen zich meer abonneren op deze service
+   * Geen profiel kan zich meer abonneren op deze service
    * Alle abonnees op deze service worden automatisch afgemeld
 
    ![](assets/service-create-validity-period.png){zoomable=&quot;yes&quot;}
@@ -83,7 +83,7 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 
 U kunt nu het volgende:
 
-* Voeg abonnees aan deze dienst toe, en trek ontvangers af. [Meer informatie](../msg/send-to-subscribers.md)
+* Abonnees toevoegen aan deze service en abonnementsprofielen opzeggen. [Meer informatie](../msg/send-to-subscribers.md)
 
 * Verzend berichten naar de abonnees van deze dienst. [Meer informatie](../msg/send-to-subscribers.md)
 

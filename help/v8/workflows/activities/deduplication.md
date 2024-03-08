@@ -3,7 +3,7 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 17%
@@ -62,6 +62,6 @@ Voer de volgende stappen uit om de **Deduplicatie** activiteit:
 
 ## Voorbeeld{#deduplication-example}
 
-In het volgende voorbeeld gebruikt u een deduplicatie-activiteit om duplicaten uit te sluiten van het doel voordat u een levering verzendt. De geïdentificeerde gedupliceerde ontvangers worden toegevoegd aan een toegewezen publiek dat indien nodig opnieuw kan worden gebruikt. Kies de optie **E-mail** adres om de duplicaten te identificeren. 1 item behouden en selecteer de optie **Willekeurig** deduplicatiemethode.
+In het volgende voorbeeld gebruikt u een deduplicatie-activiteit om duplicaten uit te sluiten van het doel voordat u een levering verzendt. De geïdentificeerde gedupliceerde profielen worden toegevoegd aan een specifiek publiek dat indien nodig opnieuw kan worden gebruikt. Kies de optie **E-mail** adres om de duplicaten te identificeren. 1 item behouden en selecteer de optie **Willekeurig** deduplicatiemethode.
 
 ![](../assets/workflow-deduplication-example.png)

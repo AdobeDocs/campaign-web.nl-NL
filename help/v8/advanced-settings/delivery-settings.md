@@ -4,9 +4,9 @@ title: Leveringsinstellingen configureren
 description: Leer hoe te om leveringsmontages in het Web van de Campagne te vormen
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: e4e1a7eee0f4a48366e711feb2a8bd107f3320bd
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '2283'
+source-wordcount: '2286'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,9 @@ In de **[!UICONTROL Weight type]** veld zijn drie opties beschikbaar:
 
 Gebruik de **[!UICONTROL Delivery weight]** veld om de leveringsprioriteit te bepalen. Elke levering heeft een gewicht dat overeenkomt met het prioriteitsniveau. Standaard is het gewicht van een levering ingesteld op 5. Aan de hand van drukregels kunt u het gewicht bepalen van de leveringen waarop ze worden toegepast. U kunt het gewicht instellen of berekenen met behulp van een formule die geschikt is voor de ontvanger. U kunt bijvoorbeeld het gewicht van een levering bepalen op basis van de belangen van de ontvanger.
 
-Gebruik de **[!UICONTROL Delivery mode]** veld om de evaluatiemodus voor het doel te selecteren. Er zijn drie modi beschikbaar:
+Gebruik de **[!UICONTROL Delivery mode]** veld om de evaluatiemodus voor het doel te selecteren.
+
+Er zijn drie modi beschikbaar:
 
 * **[!UICONTROL Target estimation and message personalization]**
 * **[!UICONTROL Estimation and approval of the provisional target]**
@@ -78,7 +80,7 @@ Gebruik de **[!UICONTROL Delivery mode]** veld om de evaluatiemodus voor het doe
 
 >[!NOTE]
 >
->Het beheer van de vermoeidheid wordt gevormd in de de cliëntconsole van de Campagne. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+>Het beheer van de vermoeidheid en de drukregels worden gevormd in de de cliëntconsole van de Campagne. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Capaciteitsinstellingen {#capacity-settings}
 
@@ -90,11 +92,11 @@ Gebruik de **[!UICONTROL Delivery mode]** veld om de evaluatiemodus voor het doe
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_recipient_importance"
 >title="Belang van de begunstigde"
->abstract="Het belang van de ontvanger is een formule die wordt gebruikt om te bepalen welke ontvangers worden gehouden wanneer de regels inzake capaciteitstypologie worden overschreden."
+>abstract="Het belang van de ontvanger is een formule die wordt gebruikt om te bepalen welke profielen worden gehouden wanneer de regels inzake capaciteitstypologie worden overschreden."
 
 In deze sectie kunt u een capaciteitsregel selecteren die is gedefinieerd in de Adobe Campaign v8-console. Deze regel is gekoppeld aan het kanaal.
 
-De **[!UICONTROL Importance of the recipient]** het veld is een formule die wordt gebruikt om te bepalen welke ontvangers worden gehouden wanneer de voorschriften inzake capaciteitstypologie worden overschreden .
+De **[!UICONTROL Importance of the recipient]** het veld is een formule die wordt gebruikt om te bepalen welke profielen worden bewaard wanneer de voorschriften inzake capaciteitstypologie worden overschreden .
 
 >[!NOTE]
 >
@@ -109,7 +111,7 @@ De **[!UICONTROL Importance of the recipient]** het veld is een formule die word
 
 In deze sectie kunt u een **doeltoewijzing** onder de beschikbare groepen. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console. De doelafbeelding is het type gegevens dat een bewerking afhandelt. Hiermee kunt u de doelgroep definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz. [Meer informatie over doeltoewijzingen](../audience/targeting-dimensions.md).
 
-In de **[!UICONTROL Exclusion]** in het veld kunt u selecteren om ontvangers uit te sluiten die niet meer willen worden benaderd of die in quarantaine zijn geplaatst. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
+In de **[!UICONTROL Exclusion]** in het veld kunt u selecteren om profielen uit te sluiten die niet meer willen worden benaderd of die in quarantaine zijn geplaatst. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Levering {#delivery}
 
@@ -276,7 +278,7 @@ Naast de standaardmodus zijn ook de volgende opties beschikbaar:
 
 U kunt de uitsluitingsparameters in deze sectie instellen. Beschikbare opties zijn:
 
-* **[!UICONTROL Keep doubles]** Hiermee kunt u meerdere leveringen toestaan aan ontvangers die aan verschillende doelcriteria voldoen.
+* **[!UICONTROL Keep doubles]** Hiermee kunt u meerdere leveringen toestaan aan profielen die voldoen aan verschillende doelcriteria.
 * **[!UICONTROL Keep denylisted addresses]** Hiermee kunt u profielen die niet meer het doelprofiel zijn van levering, zoals na een abonnement (opt-out), niet meer als doel instellen.
 * **[!UICONTROL Keep quarantined addresses]** Hiermee kunt u profielen met een adres dat niet reageert, behouden van het doel.
 

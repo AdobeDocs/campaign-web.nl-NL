@@ -1,9 +1,10 @@
 ---
 title: Details van profielen verkennen
 description: Leer hoe u de details van een profiel kunt verkennen.
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+exl-id: 172dec7d-24c6-4c35-bb45-5dc3ce9fadeb
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_list"
->title="Lijst met abonnementen voor ontvangers"
+>title="Lijst met abonnementen"
 >abstract="Dit tabblad bevat een lijst met alle services waarop het profiel is geabonneerd."
 
 Als u de details van een profiel wilt bekijken, bladert u naar **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** Klik vervolgens op het profiel dat u wilt openen.

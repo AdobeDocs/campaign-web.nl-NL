@@ -3,7 +3,7 @@ audience: end-user
 title: Een controlegroep instellen
 description: Leer hoe te om een controlegroep voor uw berichten in het gebruikersinterface van het Web van de Campagne te plaatsen
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
-source-git-commit: cdb33c46e849a16272869913044358d344e0d6ba
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 7%
@@ -62,7 +62,7 @@ Gebruik vervolgens de **Groottebeperking** om het aantal profielen in te stellen
 
 ### Monster van controlegroep{#control-group-sample}
 
-Bijvoorbeeld, om een controlegroep met de 100 nieuwe jongste ontvangers tot stand te brengen, volg deze stappen:
+Bijvoorbeeld, om een controlegroep met de 100 nieuwe jongste profielen tot stand te brengen, volg deze stappen:
 
 1. Selecteer de **Leeftijd** veld als sorteercriterium. Laat de **Oplopend** sorteeroptie.
 1. Voeg de **Aanmaakdatum** veld. Wijzigen in de **Aflopend** sorteeroptie.
@@ -70,7 +70,7 @@ Bijvoorbeeld, om een controlegroep met de 100 nieuwe jongste ontvangers tot stan
 
    ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
 
-Deze 100 nieuwe jongste ontvangers worden dan uitgesloten van het hoofddoel.
+Deze 100 nieuwe jongste profielen worden dan van het hoofddoel uitgesloten.
 
 ### Controleer uw controlegroep {#check-control-group}
 

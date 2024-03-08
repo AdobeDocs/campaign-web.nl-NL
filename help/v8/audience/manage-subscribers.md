@@ -3,7 +3,7 @@ audience: end-user
 title: Abonnees beheren
 description: Leer hoe te om aan de abonnees van de dienst in Adobe Campaign Web te beheren en te leveren
 exl-id: cf72d27e-365c-4edc-b661-a67c148f0eeb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -42,7 +42,7 @@ De toegevoegde profielen worden weergegeven in het dialoogvenster **[!UICONTROL 
 
 ## Abonnees van uw service verwijderen {#remove-subscribers}
 
-### Ontvangers handmatig afmelden {#manual-unsubscription}
+### Abonnement op profielen handmatig opzeggen {#manual-unsubscription}
 
 Eenmaal [toegevoegde abonnees](#add-subscribers) voor uw service, kunt u elk van deze instellingen handmatig afmelden. Voer de onderstaande stappen uit.
 
@@ -62,7 +62,7 @@ De ontvanger wordt verwijderd uit de **[!UICONTROL Subscribers]** en is niet mee
 
 ### Ontvangers automatisch afmelden {#automatic-unsubscription}
 
-Een abonnementsservice kan een beperkte duur hebben. Ontvangers worden automatisch afgemeld wanneer de geldigheidsperiode verstrijkt.
+Een abonnementsservice kan een beperkte duur hebben. Profielen worden automatisch afgemeld wanneer de geldigheidsperiode verloopt.
 
 Deze periode wordt opgegeven wanneer [de service maken](manage-services.md#create-service). Van de **[!UICONTROL Additional options]**, schakelt u de **[!UICONTROL Unlimited validity period]** en stelt een geldigheidsperiode voor de dienst vast.
 

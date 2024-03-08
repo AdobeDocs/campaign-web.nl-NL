@@ -5,9 +5,9 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '568'
 ht-degree: 2%
 
 ---
@@ -17,17 +17,19 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_recipients_testprofiles_menu"
 >title="Testprofielen maken"
->abstract="Testprofielen worden gemaakt als beginadressen. Het zijn extra ontvangers in de database die worden gebruikt om fictieve profielen als doel in te stellen die niet voldoen aan de gedefinieerde doelcriteria."
+>abstract="Testprofielen zijn aanvullende ontvangers waarmee u de personalisatie en rendering kunt voorvertonen en testen voordat u uw berichten verzendt. U kunt een testprofiel selecteren wanneer u een voorbeeld van de inhoud van een bericht weergeeft en proefdrukken naar de testprofielen verzenden om de inhoud en instellingen van uw bericht te controleren en te valideren."
 
-Testprofielen worden gemaakt als beginadressen. Het zijn extra ontvangers in de database die worden gebruikt om fictieve profielen als doel in te stellen die niet voldoen aan de gedefinieerde doelcriteria. Hiermee kunt u de personalisatie en rendering voorvertonen en testen voordat u de levering verzendt, door ze proefdrukken te sturen.
+Testprofielen worden gebruikt om proefdrukken te verzenden en de inhoud en instellingen van uw bericht te valideren. Deze profielen zijn extra ontvangers waarmee u de personalisatie en rendering kunt voorvertonen en testen voordat u uw berichten verzendt. U kunt een testprofiel selecteren wanneer u een voorbeeld van de inhoud van een bericht weergeeft en proefdrukken naar de testprofielen verzenden om de inhoud en instellingen van uw bericht te controleren en te valideren.
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-De stappen om proeven naar zaadadressen te verzenden zijn gedetailleerd in [deze sectie](../preview-test/test-deliveries.md#test-profiles).
+De stappen voor het verzenden van proefdrukken naar testprofielen worden beschreven in [deze sectie](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
->De profielen van de test worden automatisch uitgesloten van rapporten over de volgende leveringsstatistieken: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**. [Meer informatie over rapporten]
+>* De profielen van de test worden gecreeerd als zaadadressen in de console van de Cliënt.
+>
+>* De profielen van de test worden automatisch uitgesloten van rapporten over de volgende leveringsstatistieken: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 
 ## Testprofielen openen en beheren {#access-test-profiles}
 
@@ -62,7 +64,7 @@ Van de **[!UICONTROL Explorer]** kunt u ook filteren, verwijderen, bewerken en [
 >title="Testprofielen Aanvullende gegevens"
 >abstract="Voer de aanpassingsgegevens in die worden gebruikt voor de leveringen die in de gegevensbeheerworkflows zijn gemaakt en waaraan u een specifieke waarde wilt toewijzen."
 
-Voer de onderstaande stappen uit om een testprofiel te maken.
+Voer de volgende stappen uit om een testprofiel te maken:
 
 1. Bladeren naar **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** en selecteert u de **[!UICONTROL Test profiles]** tab.
 

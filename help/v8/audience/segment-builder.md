@@ -3,7 +3,7 @@ audience: end-user
 title: Een publiek maken met de bouwer van de campagneregel
 description: Leer hoe te met de regelbouwer te werken
 exl-id: 167ad4ce-3760-413c-9949-9649245766e3
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Aan de rechterkant **Eigenschappen van Rule** kunt u de hieronder vermelde hande
 
 ![](assets/segment-builder5.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
 
-* **Resultaten weergeven:** geeft de lijst weer van ontvangers die het doelpubliek als doel heeft.
+* **Resultaten weergeven:** Hiermee geeft u de lijst weer met profielen die het doelpubliek als doel heeft.
 * **Codeweergave**: geeft een op code gebaseerde versie van het publiek in SQL weer.
 * **Geavanceerde kenmerken weergeven**: controleer deze optie als u de volledige lijst met kenmerken in het linkerpalet wilt weergeven: knooppunten, groepen, 1-1 koppelingen, 1-N koppelingen.
 * **Berekenen**: werkt bij en toont het aantal profielen die door uw vraag worden bedoeld.

@@ -2,9 +2,9 @@
 title: Een profiel maken
 description: Leer hoe u een profiel maakt in Campagne Web.
 exl-id: 0680b726-8f2f-45bf-8aa0-c1d4aa1c2990
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '560'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_creation_nolongercontact"
->title="Ontvangers nemen geen contact meer op"
+>title="Geen contact meer"
 >abstract="In deze sectie vindt u inzichten in de contactvoorkeuren van het profiel. Als u gegevens wilt wijzigen, brengt u de wijzigingen rechtstreeks aan in het desbetreffende veld en klikt u op de knop **Opslaan** in de rechterbovenhoek van het scherm."
 
 >[!CONTEXTUALHELP]

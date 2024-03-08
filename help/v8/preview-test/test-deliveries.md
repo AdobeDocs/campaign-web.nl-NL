@@ -3,7 +3,7 @@ audience: end-user
 title: Proefdrukken verzenden
 description: Meer informatie over het definiëren en verzenden van proefdrukken
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Nadat de inhoud van het bericht is gedefinieerd, kunt u een voorbeeld bekijken e
 
 Om mogelijke fouten in de berichtinhoud of verpersoonlijkingsmontages te ontdekken, verzend proefdrukken naar testprofielen alvorens het naar het doelpubliek te verzenden. Telkens wanneer een wijziging wordt aangebracht, moet een bewijs worden verzonden om de meest recente inhoud te valideren. Het verzenden van proefdrukken is een belangrijke stap in het valideren van uw campagne en het identificeren van mogelijke problemen. De proefontvangers kunnen verschillende elementen controleren, zoals verbindingen, opt-out verbindingen, beelden, of spiegelpagina&#39;s, evenals om het even welke fouten in het teruggeven, inhoud, verpersoonlijkingsmontages en leveringsconfiguratie ontdekken.
 
-## Inhoud simuleren met testontvangers {#simulate-content-test-deliveries}
+## Inhoud met testprofielen simuleren {#simulate-content-test-deliveries}
 
 >[!CONTEXTUALHELP]
 >id="acw_email_preview_option_test_target"

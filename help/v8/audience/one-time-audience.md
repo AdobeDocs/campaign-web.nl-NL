@@ -3,7 +3,7 @@ audience: end-user
 title: Een eenmalig publiek maken voor levering
 description: Leer hoe u een eenmalig publiek kunt maken voor een levering.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Eenmalig publiek maken {#one-time}
 
-In deze sectie wordt beschreven hoe u een publiek kunt maken wanneer u een nieuwe levering maakt. In dit geval, worden de ontvangers om in het leveringspubliek te omvatten gericht door het gegevensbestand met de vraagmodeler te vragen.
+In deze sectie wordt beschreven hoe u een publiek kunt maken wanneer u een nieuwe levering maakt. In dit geval, worden de profielen om in het leveringspubliek te omvatten gericht door het gegevensbestand met de vraagmodeler te vragen.
 
 Het resulterende publiek wordt slechts eenmaal gebruikt voor deze levering. Deze wordt niet opgeslagen in de lijst met soorten publiek.
 
