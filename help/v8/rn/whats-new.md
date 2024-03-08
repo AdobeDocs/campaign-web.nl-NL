@@ -3,7 +3,7 @@ audience: end-user
 title: Nieuw in de Gebruikersinterface van het Web van de Campagne
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 06b529083e1ff8a4378aa938960b9edd7a422b32
+source-git-commit: 34af5d6c08f79daac392e54417707456ca44438c
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 1%
@@ -74,7 +74,7 @@ Gebruik de nieuwe gebruikersinterface van het Web van de Campagne aan:
 
 * E-mail-, SMS- en pushberichten maken, ontwerpen, personaliseren, plannen en verzenden - [Meer informatie](../msg/gs-messages.md)
 * Ontwerp persoonlijke e-mailinhoud met de e-mailontwerper - [Meer informatie](../email/edit-content.md)
-* Campagnes voor meerdere kanalen verzenden, waaronder SMS- en pushberichten - [Meer informatie](../workflows/activities/channels.md)
+* Kanaaloverschrijdende campagnes verzenden, waaronder SMS- en pushberichten - [Meer informatie](../workflows/activities/channels.md)
 * Bepaal doelpubliek met vraagmodeler - [Meer informatie](../audience/about-recipients.md)
 * Je berichten voorvertonen, testen en verzenden - [Meer informatie](../monitor/prepare-send.md)
 * Bewaak verzenden en meten resultaten met ingebouwde rapporten - [Meer informatie](../reporting/delivery-reports.md)
