@@ -4,7 +4,7 @@ title: Leveringsinstellingen configureren
 description: Leer hoe te om leveringsmontages in het Web van de Campagne te vormen
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: f63df9adfba8fa571319a3bf5e32d0869240c51f
+source-git-commit: e4e1a7eee0f4a48366e711feb2a8bd107f3320bd
 workflow-type: tm+mt
 source-wordcount: '2283'
 ht-degree: 3%
