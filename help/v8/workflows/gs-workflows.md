@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met workflows
 description: Leer hoe u begint met workflows
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,6 @@ ht-degree: 0%
 >abstract="Ontgrendel nieuwe mogelijkheden voor automatisering en optimalisering, die u toestaan om dynamischere en gepersonaliseerde klantenreizen te creëren. Van geavanceerde segmentatie tot voorwaardelijke triggers, onze extra werkschemaactiviteiten stellen u in staat om gerichte berichten te leveren en betere campagneprestaties te drijven."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
 
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_rn2"
->title="Kanaalworkflows"
->abstract="Ontgrendel nieuwe mogelijkheden voor automatisering en optimalisering, die u toestaan om dynamischere en gepersonaliseerde klantenreizen te creëren. Van geavanceerde segmentatie tot voorwaardelijke triggers, onze extra werkschemaactiviteiten stellen u in staat om gerichte berichten te leveren en betere campagneprestaties te drijven."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
-
-<!--TO REMOVE ABOVE-->
 
 ## Wat is een workflow?
 

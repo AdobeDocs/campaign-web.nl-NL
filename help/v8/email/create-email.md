@@ -3,9 +3,9 @@ audience: end-user
 title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de gebruikersinterface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1304'
 ht-degree: 1%
 
 ---
@@ -17,17 +17,6 @@ ht-degree: 1%
 >id="acw_homepage_learning_card3"
 >title="Aan de slag met e-mails"
 >abstract="U kunt een zelfstandige e-maillevering maken of een e-mailbericht maken in de context van een campagneworkflow. Leer hoe u de levering maakt, het publiek selecteert en de e-mailinhoud ontwerpt."
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card3"
->title="Aan de slag met e-mails"
->abstract="U kunt een zelfstandige e-maillevering maken of een e-mailbericht maken in de context van een campagneworkflow. Leer hoe u de levering maakt, het publiek selecteert en de e-mailinhoud ontwerpt."
-
-<!--TO REMOVE ABOVE-->
-
-
 
 Leer hoe u uw eerste e-mailadres maakt waarvoor u een e-mail wilt schrijven. In dit geval plant u het verzenden van een e-mail naar leden van Silver en Gold-loyaliteit op een bepaalde datum.
 

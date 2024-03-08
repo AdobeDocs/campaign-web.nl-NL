@@ -3,10 +3,10 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 2%
+source-wordcount: '580'
+ht-degree: 3%
 
 ---
 
@@ -42,45 +42,6 @@ ht-degree: 2%
 >title="Item 4"
 >abstract="Query-modelleerprogramma en e-mailontwerper van de volgende generatie"
 
-<!--
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_list5"
->title="Item 5"
->abstract="Additional Item"-->
-
-<!-- TO REMOVE BELOW-->
-
->[!CONTEXTUALHELP]
->id="acw_homepage_card1"
->title="Help en documentatie"
->abstract="De campagne biedt nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u de gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe moderne UI vereenvoudigt het ontwerp en de levering van de marketing campagne, en brengt consistentie, samen met andere oplossingen van de Adobe."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_title"
->title="Ervaar de nieuwe Adobe Campaign-gebruikersinterface"
->abstract="modernere, intuïtievere en dynamischer."
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list1"
->title="Item 1"
->abstract="Nieuwe ontwerpervaring voor e-mail-, sms- en pushberichten"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list2"
->title="Item 2"
->abstract="Vereenvoudigde workflowcanvasinterface"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list3"
->title="Item 3"
->abstract="UX is ontworpen voor publiek, abonnement en services, AEM Assets"
-
->[!CONTEXTUALHELP]
->id="acw_homepage_list4"
->title="Item 4"
->abstract="E-mailgen. AI: snel e-mailen"
-
-<!--TO REMOVE ABOVE-->
 
 We zijn blij om de nieuwe versie van Adobe Campaign Web User Interface te introduceren. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere oplossingen voor Adoben, waaronder Adobe Experience Platform.
 

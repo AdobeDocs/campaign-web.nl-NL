@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 32bffad5ea6641a723887ca9fa3e58b8cc428c00
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 0%
 >id="acw_homepage_learning_card5"
 >title="New Query modeler"
 >abstract="Het Web van Adobe Campaign kenmerkt een vraagmodeler die het proces van het filtreren van gegevensbestanden vereenvoudigt om specifieke doelstellingen te selecteren die op diverse criteria worden gebaseerd. Dit omvat het gebruik van geavanceerde expressies en operatoren. De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens moet bepalen."
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card5"
->title="New Query modeler"
->abstract="Het Web van Adobe Campaign kenmerkt een vraagmodeler die het proces van het filtreren van gegevensbestanden vereenvoudigt om specifieke doelstellingen te selecteren die op diverse criteria worden gebaseerd. Dit omvat het gebruik van geavanceerde expressies en operatoren. De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens moet bepalen."
-
-<!--TO REMOVE ABOVE-->
 
 
 >[!CONTEXTUALHELP]

@@ -2,9 +2,9 @@
 title: Werken met vooraf gedefinieerde filters
 description: Leer hoe u vooraf gedefinieerde filters maakt en beheert in Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 97b6de0763dbeb133d7d0346e6af4d056cc731e3
+source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,6 @@ ht-degree: 0%
 >id="acw_homepage_learning_card4"
 >title="Vooraf gedefinieerd filterbeheer"
 >abstract="De gebruikersinterface van het Web van de campagne biedt een gebruikersvriendelijke interface aan moeiteloos beheren en vooraf bepaalde filters aanpassen om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik."
-
-
-<!--TO REMOVE BELOW-->
->[!CONTEXTUALHELP]
->id="acw_homepage_card4"
->title="Vooraf gedefinieerd filterbeheer"
->abstract="Campagne Web biedt u nu een gebruikersvriendelijke interface om vooraf gedefinieerde filters moeiteloos te beheren en aan te passen aan uw specifieke behoeften. Maak één keer en sla dit op voor toekomstig gebruik."
-
-<!--TO REMOVE ABOVE-->
 
 
 >[!CONTEXTUALHELP]
