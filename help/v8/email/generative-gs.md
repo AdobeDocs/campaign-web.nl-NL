@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: caeea471b3ea623f7da93c17098ee33146a6af39
+source-git-commit: f9fb2adf326b093114854fd36f11a90d49c7a3d2
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -19,10 +19,8 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Algemene AI-termen voor Adobe"
->abstract="De toegang tot deze functie is afhankelijk van uw toestemming voor de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen en van het volgende:
-* Alle aanwijzingen, contextgegevens of aanvullende informatie die u aan deze functie opgeeft, of andere gegevens die u aan deze functie opgeeft, moeten zijn gekoppeld aan een specifieke context, waaronder uw brandingmaterialen, website-inhoud, gegevens, schema&#39;s voor dergelijke gegevens, sjablonen of andere vertrouwde documenten, en (b) mogen geen persoonlijke gegevens bevatten (persoonlijke gegevens omvatten alles wat kan worden gekoppeld aan een specifiek individu).
-* U moet de nauwkeurigheid van de uitvoer van deze functie controleren en controleren of deze geschikt is voor uw gebruik.&quot;
->additional-url=&quot;https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html&quot; text=&quot;Adobe Generative AI User Guidelines&quot;
+>abstract="De toegang tot deze functie is afhankelijk van uw toestemming voor de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen en van het volgende:<br>Alle aanwijzingen, contextgegevens of aanvullende informatie die u aan deze functie opgeeft, of andere gegevens die u aan deze functie opgeeft, moeten zijn gekoppeld aan een specifieke context, waaronder uw brandingmaterialen, website-inhoud, gegevens, schema&#39;s voor dergelijke gegevens, sjablonen of andere vertrouwde documenten, en (b) mogen geen persoonlijke gegevens bevatten (persoonlijke gegevens omvatten alles wat kan worden gekoppeld aan een specifiek individu).<br>Controleer of de uitvoer van deze functie correct is en of deze geschikt is voor uw gebruik."
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generation AI-gebruikersrichtlijnen"
 
 
 >[!CONTEXTUALHELP]
