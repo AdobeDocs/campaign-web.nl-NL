@@ -6,7 +6,7 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f87c1e9521bf78be9d1a95ea60d81a1aef06bc90
+source-git-commit: 65f041275930a0f18993b1ba37b936d8ef51d119
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%
@@ -14,14 +14,6 @@ ht-degree: 0%
 ---
 
 # Aan de slag met de Content Assistant {#generative-gs}
-
-
->[!CONTEXTUALHELP]
->id="acw_emagica_generate_test_test"
->title="Algemene AI-termen voor Adobe"
->abstract="Voor toegang tot deze functie moet u akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen. Alle aanwijzingen, contextgegevens of aanvullende informatie of andere gegevens die u aan deze functie verstrekt, moeten zijn gekoppeld aan een specifieke context, die uw brandingmaterialen, website-inhoud, gegevens, schema&#39;s voor dergelijke gegevens, sjablonen of andere vertrouwde documenten kan bevatten en geen persoonlijke gegevens mag bevatten (persoonlijke gegevens omvatten alles wat u terug kunt koppelen naar een specifiek individu). U moet de nauwkeurigheid van de uitvoer van deze functie controleren en controleren of deze geschikt is voor uw gebruiksgeval"
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generation AI-gebruikersrichtlijnen"
-
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -33,6 +25,14 @@ ht-degree: 0%
 >id="acw_generation_context"
 >title="Context definiëren voor het genereren van inhoud"
 >abstract="Als u de geselecteerde inhoud wilt gebruiken als invoer voor het genereren van inhoud, activeert u de optie **Verbeteren met huidige inhoud** schakelen. U kunt ook uw merkmiddelen uploaden om deze als bron te gebruiken. Als u de geselecteerde inhoud niet gebruikt, zijn het uploaden en selecteren van merkelementen verplicht."
+
+
+>[!CONTEXTUALHELP]
+>id="acw_generate_emagica"
+>title="Algemene AI-termen voor Adobe"
+>abstract="Voor toegang tot deze functie moet u akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen. Alle aanwijzingen, contextgegevens of aanvullende informatie of andere gegevens die u aan deze functie verstrekt, moeten zijn gekoppeld aan een specifieke context, die uw brandingmaterialen, website-inhoud, gegevens, schema&#39;s voor dergelijke gegevens, sjablonen of andere vertrouwde documenten kan bevatten en geen persoonlijke gegevens mag bevatten (persoonlijke gegevens omvatten alles wat u terug kunt koppelen naar een specifiek individu). U moet de nauwkeurigheid van de uitvoer van deze functie controleren en controleren of deze geschikt is voor uw gebruiksgeval"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generation AI-gebruikersrichtlijnen"
+
 
 De Content Assistant, aangedreven door generatieve AI, is een waardevol hulpmiddel voor het verbeteren van e-mailinhoud. Het vereenvoudigt personalisatie en inhoudsuitbreiding, die uw e-mailleveringen optimaliseren om beter op uw publiek af te stemmen.
 
