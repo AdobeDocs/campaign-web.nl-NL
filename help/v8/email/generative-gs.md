@@ -6,9 +6,9 @@ badge: label="Alpha"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: 1bce844800ad82559bdefebddc96dcec58177f09
+source-git-commit: 3804b1a518d1f1699abeaf6de36ce9e56123e14d
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
 >title="Algemene AI-termen voor Adobe"
->abstract="De toegang tot deze functie is afhankelijk van uw toestemming voor de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen en het volgende: Vragen, context of aanvullende informatie, of andere invoer die u aan deze functie opgeeft (a), moeten zijn gekoppeld aan een specifieke context, die uw brandingmaterialen, website-inhoud, gegevens, schema&#39;s voor dergelijke gegevens, sjablonen of andere vertrouwde documenten kan bevatten"
+>abstract="Voor toegang tot deze functie moet u akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen. Alle aanwijzingen, contextgegevens of aanvullende informatie of andere gegevens die u voor deze functie opgeeft, moeten zijn gekoppeld aan een specifieke context, zoals uw brandingmaterialen, website-inhoud, gegevens, schema&#39;s voor dergelijke gegevens, sjablonen of andere vertrouwde documenten"
 
 <!--
 ", and (b) must not contain any personal information (personal information includes anything that can be linked back to a specific invidual). You should review any output from this feature for accuracy and ensure that it is appropriate for your use case.
