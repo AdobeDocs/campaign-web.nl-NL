@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 50780c7b551d01a088cfc88a44304b96bf120f41
+source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2045'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Door componenten te filteren kunt u de query verfijnen door:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_customcondition"
 >title="Aangepaste voorwaarde"
->abstract="Aangepaste voorwaarde"
+>abstract="De voorwaarden van de douane zijn het filtreren componenten die u toestaan om uw vraag te filtreren door uw eigen voorwaarde met attributen van het gegevensbestand en geavanceerde uitdrukkingen te bouwen."
 
 Voer de volgende stappen uit om de query te filteren met behulp van een aangepaste voorwaarde:
 
