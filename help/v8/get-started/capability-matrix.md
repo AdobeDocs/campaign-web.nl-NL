@@ -3,9 +3,9 @@ audience: end-user
 title: Campagne Web-gebruikersinterface/client-consolematrix
 description: Lijst met functies die worden ondersteund in de gebruikersinterface van Campagne Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 81ee3c7ce46826089f68d2da1ff1a45e7fa93473
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,10 @@ Gebruik de beschikbare koppelingen om te bladeren in de documentatie van Campagn
 
 ## Communicatiekanalen {#channels-capabilities}
 
-Met de gebruikersinterface van het Web van de Campagne kunt u creëren, ontwerpen en verzenden **email**, **SMS** en **pushmeldingen** en hun effect te meten aan de hand van diverse specifieke rapporten, zoals gedetailleerd [in deze sectie](../msg/gs-messages.md). De volgende kanalen zijn momenteel echter **niet** beschikbaar: in-app, direct mail, LINE, Call center/Custom channel, Sociale marketing met X (Twitter).
+Met de gebruikersinterface van het Web van de Campagne kunt u creëren, ontwerpen en verzenden **email**, **SMS**, **pushmeldingen**, **direct mail** en hun effect te meten aan de hand van verschillende speciale rapporten, zoals gedetailleerd [in deze sectie](../msg/gs-messages.md). De volgende kanalen zijn momenteel echter **niet** beschikbaar: in-app, LINE, Call center/Custom channel, Social marketing met X (Twitter).
 
 Gebruik de beschikbare koppelingen om te bladeren in de documentatie bij Campagne v8 (clientconsole) en meer informatie te krijgen over deze kanalen.
 
-* **Directe post**. Met Direct mail kunt u een fysieke correspondentie verzenden naar uw klanten, klanten, leveranciers of anderen, zoals berichten, facturen, verklaringen, marketingaanbiedingen en nog veel meer. Dit kanaal is alleen beschikbaar in de clientconsole.  [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/about-direct-mail-channel.html){target="_blank"}
 * **REGELS**. De LIJN is een toepassing voor vrij Onmiddellijk overseinen, stem en videovraag, beschikbaar op alle mobiele apparaten en op PC. Met Adobe Campaign kunt u alleen LINE-berichten verzenden vanaf de clientconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/line.html){target="_blank"}
 * **Het centrum van de vraag en de kanalen van de Douane**. Het centrum van de vraag en andere douanekanalen kunnen in uw milieu van de Campagne worden uitgevoerd. Deze kanalen kunnen slechts in de cliëntconsole beschikbaar zijn. [Meer informatie in de Campaign Classic v7-documentatie](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels.html#other-channels){target="_blank"}
 * **Sociale marketing** met X (Twitter). U communiceert met uw klanten via X (Twitter) door berichten te posten en directe berichten te verzenden. Deze mogelijkheid, die wordt meegeleverd met de sociale marketinginvoegtoepassing, is alleen beschikbaar op de clientconsole - [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html){target="_blank"}
@@ -168,7 +167,7 @@ Het Beheer van gegevens combineert een reeks activiteiten voor het oplossen van 
 
 >[!NOTE]
 >
->Terwijl sommige van deze activiteiten in de cliëntconsole slechts beschikbaar zijn, zijn sommige beschikbaar in het gebruikersinterface van het Web van de Campagne zoals **Verrijking**, **Bestand laden** of **Dimensie wijzigen** activiteiten. [Meer informatie over doelgerichte activiteiten en gegevensbeheeractiviteiten in de gebruikersinterface van het Web van de Campagne](../workflows/activities/about-activities.md#targeting)
+>Terwijl sommige van deze activiteiten in de cliëntconsole slechts beschikbaar zijn, zijn sommige beschikbaar in het gebruikersinterface van het Web van de Campagne zoals **Verrijking**, **Bestand laden**, **Gegevensbron wijzigen** of **Dimensie wijzigen** activiteiten. [Meer informatie over doelgerichte activiteiten en gegevensbeheeractiviteiten in de gebruikersinterface van het Web van de Campagne](../workflows/activities/about-activities.md#targeting)
 
 ### Federale configuratie voor gegevenstoegang {#fda}
 

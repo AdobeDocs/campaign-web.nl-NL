@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: decdf1619f4d5c3e5514544144086f82df6b7b21
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '2045'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,17 @@ Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats 
 
 U kunt twee typen elementen toevoegen:
 
-* **Componenten filteren** (De voorwaarde van de Douane, Uitgezochte publiek, Vooraf bepaald filter) staat u toe om uw eigen regels te bouwen, een publiek of een vooraf bepaald filter te selecteren om uw vraag te verfijnen. [Leer hoe u met filtercomponenten werkt](#filtering)
+* **Componenten filteren** (De voorwaarde van de Douane, Uitgezochte publiek, Vooraf bepaald filter) staat u toe om uw eigen regels te bouwen, een publiek of een vooraf bepaald filter te selecteren om uw vraag te verfijnen. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [Leer hoe u met filtercomponenten werkt](#filtering)
 
-  *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &#39;Sport&#39;*. *Ontvangers in New York*, *Ontvangers in San Francisco*
+  Voorbeeld: *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &#39;Sport&#39;*. *Ontvangers in New York*, *Ontvangers in San Francisco*
 
-* **Groepoperatoren** (EN, OF, BEHALVE) staat u toe om het filtreren componenten in het diagram te groeperen om uw behoeften aan te passen. [Leer werken met operatoren](#filtering)
+  ![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
 
-  *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &quot;Sport&quot;**EN**die in New York wonen **OF**San Francisco*.
+* **Groepoperatoren** (EN, OF, BEHALVE) staat u toe om het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [Leer werken met operatoren](#filtering)
 
-![](assets/query-add-component.png){zoomable=&quot;yes&quot;}
+  Voorbeeld: *Ontvangers die zich hebben geabonneerd op de nieuwsbrief &quot;Sport&quot;**EN**die in New York wonen **OF**San Francisco*.
+
+  ![](assets/query-add-operator.png){zoomable=&quot;yes&quot;}
 
 ## Filtercomponenten toevoegen {#filtering}
 
@@ -51,7 +53,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
    >[!NOTE]
    >
-   >Met de knop Uitdrukking bewerken kunt u de editor voor de Campagne-webexpressie gebruiken om handmatig een expressie te definiëren met behulp van velden uit de database en hulpfuncties. [Leer hoe u expressies kunt bewerken](expression-editor.md)
+   >De **Expressie bewerken** knoop staat u toe aan hefboomwerking de uitdrukkingsredacteur van het Web van de Campagne om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. [Leer hoe u expressies kunt bewerken](expression-editor.md)
 
 1. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het kenmerk.
 
@@ -83,6 +85,10 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
    *Voorbeeld van query met alle profielen van 21 jaar of ouder:*
 
    ![](assets/query-custom-condition.png){zoomable=&quot;yes&quot;}
+
+   Voor datatype-kenmerken zijn vooraf gedefinieerde waarden beschikbaar via de **[!UICONTROL Presets]** -optie.
+
+   ![](assets/date-presets.png){zoomable=&quot;yes&quot;}
 
 #### Aangepaste voorwaarden voor gekoppelde tabellen (1-1 en 1-N koppelingen){#links}
 
@@ -211,7 +217,7 @@ Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
 
 Elke keer dat u een nieuwe filtercomponent aan uw query toevoegt, wordt deze automatisch aan de andere component gekoppeld door een component **EN** operator. Dit betekent dat de resultaten van de twee filtercomponenten worden gecombineerd.
 
-In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten op de tweede overgang toegevoegd. De component is gekoppeld aan de vooraf gedefinieerde filtertypevoorwaarde met een **EN** operator, wat betekent dat de zoekresultaten ontvangers omvatten die het voorgedefinieerde filter &quot;Madridians&quot; hebben, EN die tot het publiek &quot;Discount hunters&quot; behoren.
+In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten op de tweede overgang toegevoegd. De component is gekoppeld aan de vooraf gedefinieerde filtervoorwaarde met een **EN** operator, wat betekent dat de queryresultaten ontvangers omvatten die het doelfilter &quot;Madridians&quot; (vooraf gedefinieerd) EN dat tot het publiek &quot;Discount hunters&quot; behoort.
 
 ![](assets/query-operator.png){zoomable=&quot;yes&quot;}
 

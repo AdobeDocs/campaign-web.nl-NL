@@ -3,7 +3,7 @@ audience: end-user
 title: Een levering met pushberichten ontwerpen
 description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: a2d374012f22480ca78a20056baa2c066a0a3c19
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 0%
@@ -40,8 +40,6 @@ ht-degree: 0%
 >id="acw_deliveries_push_android_msg"
 >title="Android-bericht over pushtechnologie"
 >abstract="Definieer de inhoud van uw pushmelding voor Android-apparaten. Klik op de knop **Titel** en **Bericht** velden. Gebruik de uitdrukkingsredacteur om gegevens aan te passen en dynamische inhoud toe te voegen. Als u uw pushmelding verder wilt aanpassen, kunt u een afbeelding kiezen die u aan uw pushmelding wilt toevoegen, het pictogram van het bericht dat u op de apparaten van uw profielen wilt weergeven en de kleur van het bericht. Blader voor meer aangepaste configuratie naar de **Geavanceerde instellingen** sectie."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"

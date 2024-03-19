@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 12%
+source-wordcount: '632'
+ht-degree: 14%
 
 ---
 
@@ -16,8 +16,10 @@ ht-degree: 12%
 # Adobe Campaign Web-documentatie {#v8}
 
 + [Adobe Campaign Web User Interface-documentatie](campaign-web-home.md)
-+ [Nieuwe functies](rn/whats-new.md)
-+ [Documentatie-updates](rn/documentation-updates.md)
++ Release-opmerkingen {#release-notes}
+   + [Nieuwe functies](rn/whats-new.md)
+   + [Nieuwste release](rn/release-notes.md)
+   + [Documentatie-updates](rn/documentation-updates.md)
 + Aan de slag met Adobe Campaign {#start}
    + [Aan de slag](get-started/get-started.md)
    + [Verbinding maken met campagne](get-started/connect-to-campaign.md)
@@ -73,6 +75,11 @@ ht-degree: 12%
       + [Een sms-levering maken](sms/create-sms.md)
       + [Een SMS-verzending ontwerpen](sms/content-sms.md)
       + [Een SMS-verzending bekijken en verzenden](sms/send-sms.md)
+   + Direct mail {#direct-mail}
+      + [Aan de slag met directe mailleveringen](direct-mail/gs-direct-mail.md)
+      + [Een levering voor direct mail maken](direct-mail/create-direct-mail.md)
+      + [Het extractiebestand ontwerpen](direct-mail/content-direct-mail.md)
+      + [Een voorbeeld bekijken en direct-maillevering verzenden](direct-mail/send-direct-mail.md)
    + Uw inhoud dynamisch maken {#dynamic-content}
       + [Aan de slag met dynamische inhoud](personalization/gs-personalization.md)
       + [Aanpassing toevoegen](personalization/personalize.md)
@@ -129,6 +136,7 @@ ht-degree: 12%
       + [Informatie over workflowactiviteiten](workflows/activities/about-activities.md)
       + [En-join](workflows/activities/and-join.md)
       + [publiek opbouwen](workflows/activities/build-audience.md)
+      + [Databron wijzigen](workflows/activities/change-data-source.md)
       + [Dimensie wijzigen](workflows/activities/change-dimension.md)
       + [Combineren](workflows/activities/combine.md)
       + [Deduplicatie](workflows/activities/deduplication.md)
@@ -156,16 +164,19 @@ ht-degree: 12%
       + [E-mailleveringsrapport](reporting/email-report.md)
       + [Push-leveringsrapport](reporting/push-report.md)
       + [SMS-leveringsrapport](reporting/sms-report.md)
+      + [Rapport voor verzending via e-mail](reporting/direct-mail.md)
    + Campagneverslagen {#campaign-report}
       + [Aan de slag met campagnerapporten](reporting/campaign-reports.md)
       + [E-mailcampagnerapport](reporting/campaign-reports-email.md)
       + [Push-campagnerapport](reporting/campaign-reports-push.md)
       + [Rapport voor SMS-campagne](reporting/campaign-reports-sms.md)
+      + [Campagnerapport voor e-mail](reporting/campaign-reports-direct-mail.md)
    + Algemene rapporten {#global-report}
       + [Aan de slag met algemene rapporten](reporting/global-reports.md)
       + [Globaal e-mailrapport](reporting/global-report-email.md)
       + [Globaal rapport uitduwen](reporting/global-report-push.md)
       + [Globaal SMS-rapport](reporting/global-report-sms.md)
+      + [Globaal rapport voor e-mail](reporting/global-report-direct.md)
 + Integraties {#integrations}
    + [Werken met andere oplossingen voor Adobe](integrations/integration.md)
    + [Middelen beheren met Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)

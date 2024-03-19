@@ -3,7 +3,7 @@ audience: end-user
 title: Filterlijsten
 description: Leer hoe u Adobe Campaign Web-lijsten filtert met ingebouwde en aangepaste filters.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
@@ -31,6 +31,7 @@ Wanneer filters op een lijst zijn toegepast, zijn ze zichtbaar onder de zoekbalk
 Met aangepaste filters kunt u lijsten verfijnen op basis van uw eigen specifieke criteria. Zij worden ontworpen gebruikend de de vraagmodeler van de Campagne. Ga als volgt te werk om een aangepast filter te maken:
 
 1. Open het venster Filters en klik op de knop **Regels toevoegen** onder aan het deelvenster.
+
 1. De vraagmodeler opent. Definieer en combineer uw filtercriteria aan uw wensen. Gedetailleerde informatie over hoe te om vraagmodeler te gebruiken is beschikbaar in [deze sectie](../query/query-modeler-overview.md).
 
    In het onderstaande voorbeeld ziet u een aangepast filter dat is ontworpen om te worden weergegeven in de lijst met campagnes die worden uitgevoerd door exploitanten van de afdelingen Running of Yoga.

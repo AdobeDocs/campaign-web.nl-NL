@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met Global-rapporten
 description: Globale rapporten begrijpen
 exl-id: e64d9765-f602-4fee-9923-a3665130c63a
-source-git-commit: 35e63ac1ab4be1e24a0477c4dbb3370726d8392e
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is besc
 * [Globale e-mailrapporten](global-report-email.md)
 * [Globale SMS-rapporten](global-report-sms.md)
 * [Globale rapporten doorschuiven](global-report-push.md)
+* [Globale rapporten via e-mail](global-report-direct.md)
 
 ## Het rapportdashboard beheren {#manage-reports}
 

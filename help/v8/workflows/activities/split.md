@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit Splitsen gebruiken
 description: Leer hoe u de activiteit van de gesplitste workflow gebruikt
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 8fbb54145bf266f149fb20e72bfc5e8486a70fe3
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,8 @@ De **Splitsen** activiteit is **Targeting** activiteit die u toestaat om inkomen
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_filter"
 >title="Activiteitsfilter splitsen"
->abstract="Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en vorm de gewenste het filtreren regel. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres voorkomt in de database."
+>abstract="Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en vorm de gewenste het filtreren regel gebruikend de vraagmodeler. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres voorkomt in de database."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Werken met de querymodelfunctie"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"
@@ -71,7 +72,7 @@ Voer de volgende stappen uit om de **Splitsen** activiteit:
 
    1. Open de subset om de eigenschappen ervan weer te geven.
 
-   1. Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en vorm de gewenste het filtreren regel. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres voorkomt in de database.
+   1. Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en vorm de gewenste het filtreren regel gebruikend de vraagmodeler. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres voorkomt in de database. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md)
 
    1. Als u het aantal profielen dat door de subset is geselecteerd, wilt beperken, schakelt u het **[!UICONTROL Enable limit]** en geeft het aantal of de percentages van de populatie aan die moeten worden opgenomen.
 
@@ -85,6 +86,10 @@ Voer de volgende stappen uit om de **Splitsen** activiteit:
 1. Zodra u alle subsets hebt gevormd, kunt u de resterende populatie selecteren die geen van de subsets aanpast en hen in een extra uitgaande overgang omvat. Om dit te doen, knevel op **[!UICONTROL Generate complement]** -optie.
 
    ![](../assets/workflow-split-complement.png)
+
+   >[!NOTE]
+   >
+   >De **[!UICONTROL Generate all subsets in the same table]** kunt u alle subsets groeperen in één uitvoerovergang.
 
 De activiteit wordt nu gevormd. Bij de uitvoering van de workflow wordt de populatie opgedeeld in de verschillende subsets, in de volgorde waarin ze aan de activiteit zijn toegevoegd.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Uw e-mailinhoud importeren
 description: Leer hoe u e-mailinhoud importeert
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,9 @@ U kunt bestaande HTML-inhoud importeren in de e-mailontwerper. Deze inhoud kan:
   >
   >Er gelden geen beperkingen voor de .zip-bestandsstructuur. Verwijzingen moeten echter relatief zijn en passen in de boomstructuur van de ZIP-map.
 
-Voer de volgende stappen uit om een bestand met HTML-inhoud te importeren:
+➡️ [Deze functie in video detecteren](#video)
+
+Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren.
 
 1. Op de [E-mailDesigner](get-started-email-designer.md) homepage, selecteren **[!UICONTROL Import HTML]**.
 
@@ -50,3 +52,8 @@ Voer de volgende stappen uit om een bestand met HTML-inhoud te importeren:
 
 1. U kunt uw geïmporteerde bestand nu naar wens aanpassen met de functies van E-mailontwerper [Meer informatie](content-components.md).
 
+## Hoe kan ik-video {#video}
+
+Leer hoe u een e-mail maakt door HTML te uploaden, hoe u deze compatibel maakt met de e-mailontwerper en hoe u deze omzet in een sjabloon.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Aan de slag met voorwaardelijke inhoud {#gs}
 
-Voorwaardelijke inhoud is een krachtige functie waarmee u een dynamische personalisatie kunt maken op basis van het profiel van de ontvanger, waarbij tekstblokken en afbeeldingen automatisch worden vervangen wanneer aan bepaalde voorwaarden wordt voldaan. Met deze functie kunt u uw campagnes op een hoger niveau brengen en uw publiek een zeer doelgerichte, persoonlijke ervaring bieden.
+Voorwaardelijke inhoud is een krachtige functie waarmee u dynamische personalisatie kunt maken op basis van de profielgegevens van de ontvanger, waarbij tekstblokken en afbeeldingen automatisch worden vervangen wanneer aan bepaalde voorwaarden wordt voldaan. Met deze functie kunt u uw campagnes op een hoger niveau brengen en uw publiek een zeer doelgerichte, persoonlijke ervaring bieden.
 
 Door voorwaardelijke inhoudsgebieden te vormen, kunt u geavanceerde dynamische verpersoonlijking tot stand brengen die op het profiel van de ontvanger bijvoorbeeld wordt gebaseerd. Tekstblokken, koppelingen, onderwerpregel en/of afbeeldingen worden vervangen in de inhoud van het bericht als aan een bepaalde voorwaarde is voldaan. U kunt bijvoorbeeld &#39;Mr&#39; of &#39;Mevrouw&#39; weergeven op basis van de waarde van het genderveld in de database van Adobe Campaign, of een andere link opnemen op basis van de voorkeurstaal van de ontvanger.
 
@@ -84,7 +84,7 @@ Voorwaardelijke inhoud in e-mails kan op twee manieren worden gemaakt:
 * In de uitdrukkingsredacteur door een voorwaarde met helperfuncties te bouwen,
 * In een speciale voorwaardelijke inhoudsontwikkelaar die toegankelijk is wanneer u een e-mail ontwerpt.
 
-In de volgende sectie vindt u stapsgewijze instructies voor het maken van voorwaarden met behulp van de voorwaardelijke inhoud van de e-mailontwerper. Gedetailleerde informatie over het maken van voorwaarden met de expressieeditor is beschikbaar [hier](#condition-perso-editor).
+In de volgende sectie vindt u stapsgewijze instructies voor het maken van voorwaarden met de voorwaardelijke-inhoudmogelijkheden van e-mailontwerper. Gedetailleerde informatie over het maken van voorwaarden met de expressieeditor is beschikbaar [hier](#condition-perso-editor).
 
 In dit voorbeeld willen we een e-mailbericht maken met meerdere varianten op basis van de taal van de ontvangers. Voer de volgende stappen uit:
 
@@ -100,13 +100,9 @@ In dit voorbeeld willen we een e-mailbericht maken met meerdere varianten op bas
 
    ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 
-1. Er wordt een regelbouwer weergegeven. Het biedt **Profiel**, **Bericht**, en **Aflevering** kenmerken die u kunt gebruiken om uw voorwaarde te maken.
+1. De vraagmodeler opent. Het staat u toe om een voorwaarde te bouwen door de het profielgegevens van de ontvanger te filtreren. [Leer hoe te met vraagmodeler te werken](../query/query-modeler-overview.md).
 
-   Bovendien **Voorwaarden** biedt vooraf gebouwde voorwaarden die u aan het canvas kunt toevoegen om uw variant eenvoudig te bouwen. Klik op de knop **Toevoegen** dan vervangt u de elementen tussen `<` en `>`door de gewenste elementen. Zorg ervoor dat de waarde die u opgeeft voor het dialoogvenster `<value>` -object tussen aanhalingstekens staat.
-
-   ![](assets/condition-syntax.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
-
-1. Zodra de voorwaarde voor de eerste variant van het bericht klaar is, klik **[!UICONTROL Confirm]**. In dit voorbeeld creëren we een regel die gericht is op ontvangers die &#39;Frans&#39; zijn.
+   Zodra de voorwaarde voor de eerste variant van het bericht klaar is, klik **[!UICONTROL Confirm]**. In dit voorbeeld creëren we een regel die gericht is op ontvangers die &#39;Frans&#39; zijn.
 
    ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
 

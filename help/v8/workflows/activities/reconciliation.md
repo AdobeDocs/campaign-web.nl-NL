@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de afstemmingsworkflow gebruiken
 description: Leer hoe u de workflowactiviteit Verzoening gebruikt
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '860'
 ht-degree: 10%
 
 ---
@@ -53,7 +53,8 @@ Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Afstemmingsregels"
->abstract="Selecteer het (de) afstemmingsveld(en) die u wilt gebruiken voor deduplicatie. U kunt een of meer verzoeningscriteria gebruiken."
+>abstract="Selecteer afstemmingsregels die u wilt gebruiken voor de deduplicatie. Als u kenmerken wilt gebruiken, selecteert u de **Eenvoudige kenmerken** en kiest u de bron- en doelvelden. Als u uw eigen afstemmingsvoorwaarde wilt maken met de querymodelfunctie, selecteert u de optie **Geavanceerde afstemmingsvoorwaarden** -optie."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Werken met de querymodelfunctie"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_targeting_selection"
@@ -85,9 +86,9 @@ Voer de volgende stappen uit om de **Verzoening** activiteit:
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. Als u andere kenmerken wilt gebruiken om gegevens met elkaar te verzoenen, selecteert u de optie **Geavanceerde afstemmingsvoorwaarden** -optie. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler. Leer hoe te om vraagmodeler in te gebruiken [deze sectie](../../query/query-modeler-overview.md).
+   1. Als u andere kenmerken wilt gebruiken om gegevens met elkaar te verzoenen, selecteert u de optie **Geavanceerde afstemmingsvoorwaarden** -optie. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md).
 
-1. U kunt gegevens filteren om te verzoenen met de **Filter maken** knop. Hiermee kunt u een aangepaste voorwaarde maken met de opdracht [querymodel](../../query/query-modeler-overview.md).
+1. U kunt gegevens filteren om te verzoenen met de **Filter maken** knop. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md)
 
 Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de uitgaande overgang en beschikbaar in de werkbare lijst voor toekomstig gebruik. Als u niet-compatibele gegevens wilt verwijderen, desactiveert u het dialoogvenster **Niet-compatibele gegevens behouden** -optie.
 

@@ -5,7 +5,7 @@ description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikers
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1296'
+source-wordcount: '1308'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,10 @@ ht-degree: 4%
 
 We zijn blij dat we de nieuwe versie van **Adobe Campaign Web User Interface**. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen. De gebruikersinterface van het Web van de campagne (UI) brengt een verbonden canvas met Adobe Experience Platform voor een verenigde ervaring.
 
-Wijzigingen, nieuwe mogelijkheden en verbeteringen worden vermeld in het gedeelte [Opmerkingen bij maandelijkse release](release-notes.md).
+
+>[!AVAILABILITY]
+>
+>Deze versie is beschikbaar voor alle gebruikers die beginnen [Release van campagne v8.6](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Meer informatie over Adobe Campaign-releases in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
 
 ## Belangrijkste mogelijkheden {#key-features}

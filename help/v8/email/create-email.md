@@ -3,9 +3,9 @@ audience: end-user
 title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de gebruikersinterface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1304'
+source-wordcount: '1333'
 ht-degree: 1%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 1%
 Leer hoe u uw eerste e-mailadres maakt waarvoor u een e-mail wilt schrijven. In dit geval plant u het verzenden van een e-mail naar leden van Silver en Gold-loyaliteit op een bepaalde datum.
 
 Gebaseerd op een vooraf gedefinieerde [ontwerpsjabloon](../email/create-email-templates.md)Bovendien bevat de e-mail ook gepersonaliseerde inhoud op basis van de kenmerken van het klantprofiel.
+
+➡️ [Deze functie in video detecteren](#video)
 
 ## E-maillevering maken {#create-email}
 
@@ -211,3 +213,9 @@ Nadat u uw e-mail hebt bekeken en getest, kunt u de voorbereiding starten en ver
 1. Nadat u het e-mailbericht hebt verzonden, kunt u specifieke rapporten voor verdere analyse openen door op de knop **[!UICONTROL Reporting]** knop.
 
 ![](assets/reports.png){zoomable=&quot;yes&quot;}
+
+## Hoe kan ik-video {#video}
+
+Leer hoe u een volledig nieuwe e-maillevering maakt, het publiek definieert, de inhoud ontwerpt, voorvertoning simuleert en een proefdruk verzendt.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)

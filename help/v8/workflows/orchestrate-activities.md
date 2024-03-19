@@ -3,9 +3,9 @@ audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,10 @@ Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelven
 * **Pauzeren/hervatten** de activiteit. Wanneer de workflow wordt uitgevoerd, wordt de gepauzeerde activiteit gepauzeerd. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
 
 ![](assets/activity-action.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+Meerdere **Targeting** activiteiten, zoals **Combineren** of **Deduplicatie**, kunt u de resterende populatie verwerken en opnemen in een extra uitgaande overgang. Als u bijvoorbeeld een **Splitsen** de activiteit, bestaat het complement uit de populatie die niet overeenkwam met een van de eerder gedefinieerde subgroepen. Als u deze functie wilt gebruiken, activeert u de **Complement genereren** -optie.
+
+![](assets/workflow-split-complement.png)
 
 ## Voorbeeld {#example}
 

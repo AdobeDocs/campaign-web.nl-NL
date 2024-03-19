@@ -3,9 +3,9 @@ audience: end-user
 title: Leveringsrapporten
 description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is besc
 * [E-mailleveringsrapporten](email-report.md)
 * [Verzendrapporten via SMS](sms-report.md)
 * [Rapporten over levering verzenden](push-report.md)
+* [Rapporten voor direct e-mailbezorging](direct-mail.md)
 
 ## Het rapportdashboard beheren {#manage-reports}
 

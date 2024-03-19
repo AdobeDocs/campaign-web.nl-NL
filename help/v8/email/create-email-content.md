@@ -3,9 +3,9 @@ audience: end-user
 title: E-mails ontwerpen in de e-mailontwerper
 description: Leer hoe u uw e-mailinhoud helemaal zelf ontwerpt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ ht-degree: 0%
 >abstract="Met de E-mailontwerper kunt u de indeling van uw sjabloon eenvoudig definiëren door de kolomstructuur te definiëren."
 
 Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u het lichaam van uw e-mail binnen seconden ontwerpen.
+
+➡️ [Deze functie in video detecteren](#video)
 
 Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
@@ -105,3 +107,8 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 1. Wanneer uw e-mail gereed is, klikt u op **[!UICONTROL Save]**.
 
+## Hoe kan ik-video {#video}
+
+Begrijp hoe u door de e-mailontwerper kunt navigeren. Leer hoe u een geheel nieuwe e-mail kunt structureren en ontwerpen, hoe u uw e-mail kunt personaliseren en testen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

@@ -2,16 +2,16 @@
 audience: end-user
 title: Algemene rapporten voor het directe-mailkanaal
 description: Meer informatie over Global-rapporten voor het directe e-mailkanaal
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 1%
+source-wordcount: '581'
+ht-degree: 0%
 
 ---
 
 # Algemene rapporten voor het directe-mailkanaal {#global-report-direct}
 
-De globale rapporten verstrekken gebruikers van een uitvoerig overzicht van verkeer en betrokkenheidsmetriek op kanaal-niveau.
+De wereldwijde rapporten van Direct Mail bieden gebruikers een uitgebreid overzicht van verkeers- en servicemetriek op kanaalniveau.
 
 Ga naar de **[!UICONTROL Reports]** in het menu **[!UICONTROL Reporting]** sectie. U kunt de gegevens filteren op basis van de rapportdatum, -map of -regels. [Meer informatie](global-reports.md)
 
@@ -19,9 +19,14 @@ Ga naar de **[!UICONTROL Reports]** in het menu **[!UICONTROL Reporting]** secti
 
 ### Overzicht van levering {#delivery-overview-direct}
 
-De **[!UICONTROL Delivery Overview]** biedt belangrijke prestatiemetriek (KPIs) die diepgaande inzichten in de interactie van uw bezoekers met elke e-maillevering aanbieden. De meetgegevens worden hieronder beschreven.
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_overview_direct_mail"
+>title="Overzicht van levering"
+>abstract="De **Overzicht van levering** biedt belangrijke prestatiemetriek (KPIs) die diepgaande inzichten van de interactie van uw bezoekers met elke directe postlevering aanbieden. De meetgegevens worden hieronder beschreven."
 
-![](assets/global_report_email_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
+De **[!UICONTROL Delivery Overview]** biedt belangrijke prestatiemetriek (KPIs) die diepgaande inzichten van de interactie van uw bezoekers met elke directe postlevering aanbieden. De meetgegevens worden hieronder beschreven.
+
+![](assets/global_report_direct_mail_delivery_overview.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++ Meer informatie over overzichtsmetriek voor levering.
 
@@ -36,9 +41,19 @@ De **[!UICONTROL Delivery Overview]** biedt belangrijke prestatiemetriek (KPIs) 
 
 ### Gericht publiek {#delivery-summary-direct-initial-target}
 
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_graph"
+>title="Gericht publiek"
+>abstract="De gegevens en de berichtinformatie van de ontvanger worden getoond in **Gericht publiek** grafiek, die de analyse van de voorbereiding van de levering weergeeft."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_target_audience_direct_mail_table"
+>title="Gericht publiek"
+>abstract="De **Gericht publiek** de lijst verstrekt een gedetailleerde specificatie van uw ontvangers en de overeenkomstige berichten, die op de resultaten van het leveringsvoorbereidingsproces worden gebaseerd."
+
 De tabel en grafiek voor **[!UICONTROL Targeted Audience]** showcase-gegevens over uw ontvangers, met gedetailleerde hieronder verstrekte gegevens.
 
-![](assets/global_report_email_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/global_report_direct_mail_targeted_audience.png){zoomable=&quot;yes&quot;}{align="center"}
 
 +++ Meer informatie over de meetgegevens voor doelgroepen.
 
@@ -52,9 +67,17 @@ De tabel en grafiek voor **[!UICONTROL Targeted Audience]** showcase-gegevens ov
 
 ### Leveringsstatistieken {#delivery-summary-direct-exec-stats}
 
-De **[!UICONTROL Delivery statistics]** de tabel geeft een overzicht van het succes van elke directe postbestelling , met de hieronder beschreven gedetailleerde cijfers .
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_graph"
+>title="Leveringsstatistieken"
+>abstract="De **Leveringsstatistieken** de grafiek verstrekt inzicht in de doeltreffendheid van uw directe postleveringen, met inbegrip van succesvolle leveringen en om het even welke ontmoet fouten."
 
-![](assets/global_report_email_delivery_statistics.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_delivery_statistics_summary_direct_mail_table"
+>title="Leveringsstatistieken"
+>abstract="De **Leveringsstatistieken** in de tabel worden het succes van de levering via e-mail en de gemaakte fouten weergegeven."
+
+De **[!UICONTROL Delivery statistics]** de grafiek en de tabel geven een overzicht van het succes van elke directe postbestelling , met de hieronder beschreven gedetailleerde cijfers .
 
 +++ Meer informatie over de statistieken van de Levering metriek.
 
@@ -70,41 +93,35 @@ De **[!UICONTROL Delivery statistics]** de tabel geeft een overzicht van het suc
 
 ### Oorzaken van uitsluiting {#causes-exclusion}
 
-![](assets/global_report_email_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_exclusions_direct_mail_table"
+>title="Uitsluitingen"
+>abstract="De **Oorzaken van uitsluiting** de lijst toont een gedetailleerde uitsplitsing, door regel, van berichten die tijdens het leveringsvoorbereidingsproces werden verworpen."
+
+>[!CONTEXTUALHELP]
+>id="acw_global_reporting_causes_exclusion_direct_mail_graph"
+>title="Uitsluitingsoorzaken"
+>abstract="De **Oorzaken van uitsluiting** de grafiek illustreert de distributie van verworpen berichten tijdens de voorbereiding voor levering, die door elke regel wordt gecategoriseerd."
+
+![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
 
 In de grafiek en de tabel met uitsluitingen worden de redenen weergegeven waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
 
-## Leveringsdoorvoer {#delivery-throughput}
++++Meer informatie over oorzaken van uitsluitingsmetingen.
 
-Dit rapport bevat uitgebreide informatie over de leveringstijd binnen een opgegeven tijdsperiode. De belangrijkste metrische waarde die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten die per uur worden verzonden.
+* **[!UICONTROL Address in quarantine]**: Fouttype dat wordt gegenereerd wanneer het adres in quarantaine wordt geplaatst.
 
-## Niet-te leveren items {#non-deliverables-direct}
+* **[!UICONTROL Address not specified]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet bestaat.
 
-### Uitsplitsing van fouten per type {#delivery-summary-direct-breakdown-per-type}
+* **[!UICONTROL Bad quality address]**: Fouttype dat wordt gegenereerd wanneer de kwaliteitsbeoordeling van het postadres te laag is.
 
-De **[!UICONTROL Breakdown of errors per type]** in tabel en grafiek worden de gegevens weergegeven die betrekking hebben op mogelijke fouten op verschillende gebieden , met specifieke cijfers die hieronder worden gegeven .
+* **[!UICONTROL Denylisted address]**: Het type van Fout produceerde toen de ontvanger werd gevoegd op lijst van gewenste personen toen de levering werd uitgevoerd.
 
-De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer informatie over quarantainebeheer raadpleegt u [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+* **[!UICONTROL Double]**: Fouttype dat is gegenereerd toen de ontvanger werd uitgesloten, omdat de sleutelwaarden niet uniek waren.
 
-+++ Meer informatie over de uitsplitsing van fouten per type metriek.
+* **[!UICONTROL Control group]**: Het adres van de ontvanger maakt deel uit van de controlegroep.
 
-* **[!UICONTROL User unknown]**: Fouttype dat tijdens de levering wordt gegenereerd om aan te geven dat het adres ongeldig is.
-
-* **[!UICONTROL Invalid domain]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het domein van het adres onjuist is of niet bestaat.
-
-* **[!UICONTROL Mailbox full]**: Fouttype dat wordt gegenereerd na vijf leveringspogingen om aan te geven dat het postvak van de ontvanger te veel berichten bevat.
-
-* **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
-
-* **[!UICONTROL Refused]**: Fouttype dat wordt gegenereerd wanneer een adres wordt afgewezen door de IAP (Internet Access Provider), bijvoorbeeld na toepassing van een beveiligingsregel (anti-spamsoftware).
-
-* **[!UICONTROL Unreachable]**: Het type van fout dat in het koord van de berichtdistributie voorkomt: incident op het relais SMTP, domein tijdelijk onbereikbaar etc.
-
-* **[!UICONTROL Not connected]**: Fouttype om aan te geven dat de mobiele telefoon van de ontvanger op het moment van verzending wordt uitgeschakeld of losgekoppeld van het netwerk.
+* **[!UICONTROL Target limited in size]**: De maximale leveringsgrootte is bereikt voor de ontvanger.
 
 +++
-
-### Uitsplitsing van fouten per domein {#delivery-summary-email-breakdown-per-domain}
-
-De **[!UICONTROL Breakdown of errors per domain]** in tabel en grafiek worden de gegevens weergegeven die betrekking hebben op mogelijke fouten binnen elk domein. De metriek is gemeenschappelijk met **[!UICONTROL Breakdown of errors per type]** tabel en grafiek hierboven.
 

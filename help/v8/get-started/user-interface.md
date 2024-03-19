@@ -3,10 +3,10 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5abbfc29b926aafaaceb68e806b6435bf0722f35
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 0%
+source-wordcount: '1578'
+ht-degree: 1%
 
 ---
 
@@ -79,7 +79,7 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 
 In de sectie CONTENT MANAGEMENT kunt u uw inhoudssjablonen en fragmenten weergeven.
 
-* **Inhoudssjablonen** - Voor een versneld en verbeterd ontwerpproces kunt u zelfstandige sjablonen maken om aangepaste inhoud eenvoudig te hergebruiken in [!DNL Adobe Campaign]. Alleen beschikbaar voor e-mails. Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan zelfstandige sjablonen werken, zodat marketinggebruikers deze opnieuw kunnen gebruiken en aanpassen in hun eigen e-mailcampagnes. Meer informatie in [deze sectie](../email/create-email-templates.md).
+* **Inhoudssjablonen** - Voor een versneld en verbeterd ontwerpproces kunt u zelfstandige sjablonen maken om aangepaste inhoud eenvoudig te hergebruiken in [!DNL Adobe Campaign]. Alleen beschikbaar voor e-mails. Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan zelfstandige sjablonen werken, zodat marketinggebruikers deze opnieuw kunnen gebruiken en aanpassen in hun eigen e-mailcampagnes. Lees meer in [deze sectie](../email/create-email-templates.md).
 
 <!--
 * **Fragments** -
@@ -92,7 +92,7 @@ In de sectie KLANTENBEHEER kunt u uw profielen, publiek en abonnementen bekijken
 * **Profielen** - Profielen maken en beheren en toegang krijgen tot uw database met ontvangers. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Meer informatie over profielen in [deze sectie](../audience/about-recipients.md).
 * **Soorten publiek** - Dit is uw lijst met doelgroepen. Standaard kunt u het type, de oorsprong, de datum en het label van de wijziging bekijken. U kunt de lijst filteren op oorsprong. Meer informatie over soorten publiek en lijsten in [deze sectie](../audience/about-recipients.md).
 * **Abonnementsdiensten** - Blader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Leer hoe u abonnementen en abonnementen beheert in [Adobe Campaign v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
-* **Vooraf gedefinieerde filters** - Vooraf gedefinieerde filters zijn aangepaste filters die worden gemaakt en opgeslagen om in de toekomst beschikbaar te zijn. Zij kunnen als kortere weg tijdens om het even welke het filtreren verrichtingen met de vraagmodeller, bijvoorbeeld worden gebruikt wanneer het filtreren van een lijst van gegevens, of het creëren van het publiek van een levering. Meer informatie in [deze sectie](predefined-filters.md).
+* **Vooraf gedefinieerde filters** - Vooraf gedefinieerde filters zijn aangepaste filters die worden gemaakt en opgeslagen om in de toekomst beschikbaar te zijn. Zij kunnen als kortere weg tijdens om het even welke het filtreren verrichtingen met de vraagmodeller, bijvoorbeeld worden gebruikt wanneer het filtreren van een lijst van gegevens, of het creëren van het publiek van een levering. Lees meer in [deze sectie](predefined-filters.md).
 
 
 ### Beslissingsbeheer {#decision-management}
@@ -111,7 +111,7 @@ Meer informatie over het maken en verzenden van aanbiedingen in e-mails en SMS i
 
 ### Rapportage {#left-nav-reporting}
 
-* **Rapporten** - de **Rapport** de ingang biedt een geconsolideerde algemene samenvatting van verkeer en betrokkenheidsmetriek voor elk kanaal binnen uw milieu van de Campagne aan. Deze rapporten bestaan uit verschillende widgets, die elk een duidelijk perspectief bieden op uw campagne of leveringsprestaties. Meer informatie in [deze sectie](../reporting/global-reports.md).
+* **Rapporten** - de **Rapport** de ingang biedt een geconsolideerde algemene samenvatting van verkeer en betrokkenheidsmetriek voor elk kanaal binnen uw milieu van de Campagne aan. Deze rapporten bestaan uit verschillende widgets, die elk een duidelijk perspectief bieden op uw campagne of leveringsprestaties. Lees meer in [deze sectie](../reporting/global-reports.md).
 
 
 ## Contextafhankelijke Help {#user-interface-help}
@@ -124,7 +124,7 @@ Momenteel vrijgegeven als versie van Bèta binnen het nieuwe de gebruikersinterf
 
 Dankzij de mogelijkheden van CampagneGen AI transformeert deze assistent uw ervaring, waardoor informatie wordt opgehaald en problemen worden opgelost. Of u nu op zoek bent naar begeleiding in een complexe taak of door uitgebreide documenten navigeert, onze AI-Medewerker van de Kennis is uw ultieme metgezel, die ongeëvenaarde efficiëntie en nauwkeurigheid biedt in elke interactie.
 
-Meer informatie in [deze sectie](using-ai.md).
+Lees meer in [deze sectie](using-ai.md).
 
 
 ## Meer informatie {#learn-more}
@@ -288,27 +288,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- ML: beta wiki page - not visible in UI-->
 
->[!CONTEXTUALHELP]
->id="acw_directmail_content"
->title="Inhoud voor direct mail"
->abstract="Inhoud voor direct mail"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_file"
->title="Bestandseigenschappen voor Direct Mail"
->abstract="Bestandseigenschappen voor Direct Mail"
-
->[!CONTEXTUALHELP]
->id="acw_directmail_properties_content"
->title="Eigenschappen voor inhoud voor Direct Mail"
->abstract="Eigenschappen voor inhoud voor Direct Mail"
-
 <!-- FOR POST-GA -->
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_change_data_source"
->title="Gegevensbron wijzigen"
->abstract="De **Gegevensbron wijzigen** U kunt een andere gegevensbron selecteren voor de werktabel van uw workflow."
 
 
 <!--
@@ -328,8 +309,6 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_rulebuilder_properties_advanced"
 >title="Geavanceerde kenmerken van de builder van de regel"
 >abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Activeer **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst in het linkerpalet van de regelbouwer weer te geven, zoals knooppunten, groepen, 1-1 koppelingen, 1-N-koppelingen."
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"

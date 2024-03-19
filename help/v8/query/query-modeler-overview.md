@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,6 @@ ht-degree: 0%
 >id="acw_homepage_learning_card5"
 >title="New Query modeler"
 >abstract="Het Web van Adobe Campaign kenmerkt een vraagmodeler die het proces van het filtreren van gegevensbestanden vereenvoudigt om specifieke doelstellingen te selecteren die op diverse criteria worden gebaseerd. Dit omvat het gebruik van geavanceerde expressies en operatoren. De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens moet bepalen."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_querymessage"
@@ -33,20 +32,12 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
 
 | Gebruik | Voorbeeld |
 |  ---  |  ---  |
-| **Soorten publiek definiëren**: Geef de doelgroep op in uw berichten of workflows en maak moeiteloos nieuwe soorten publiek die zijn afgestemd op uw behoeften. | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **Workflowactiviteiten aanpassen**: pas regels toe binnen workflowactiviteiten, zoals Splitsen en Verzoening, om deze aan te passen aan uw specifieke vereisten. | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **Vooraf gedefinieerde filters**: Maak vooraf gedefinieerde filters die als sneltoetsen fungeren tijdens diverse filterbewerkingen, ongeacht of u werkt met gegevenslijsten of het publiek vormt voor een levering. | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **Rapportgegevens filteren**: Voeg regel toe om de gegevens te filteren die in rapporten worden getoond. | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-| **Lijsten aanpassen**: Maak aangepaste regels om de gegevens te filteren die worden weergegeven in lijsten zoals ontvangers, leveringslijsten, enz. | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
-
-<!--**Dynamize content**: make your content dynamic by creating conditions that define which content should be displayed to different recipients, ensuring personalized and relevant messaging.
-
-+++Example
-
-![](assets/access-audience.png){zoomable="yes"}
-
- +++
--->
+| **Soorten publiek definiëren**: Geef de doelgroep op in uw berichten of workflows en maak moeiteloos nieuwe soorten publiek die zijn afgestemd op uw behoeften. [Leer hoe u publiek kunt maken](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Workflowactiviteiten aanpassen**: regels toepassen binnen workflowactiviteiten, zoals **Splitsen** en **Verzoening**, om deze aan te passen aan uw specifieke vereisten. [Meer informatie over workflowactiviteiten](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Vooraf gedefinieerde filters**: Maak vooraf gedefinieerde filters die als sneltoetsen fungeren tijdens diverse filterbewerkingen, ongeacht of u werkt met gegevenslijsten of het publiek vormt voor een levering. [Leer hoe u met vooraf gedefinieerde filters werkt](../get-started/predefined-filters.md) | ![](assets/access-predefined-filter.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Rapportgegevens filteren**: Voeg regel toe om de gegevens te filteren die in rapporten worden getoond. [Leer hoe u met rapporten werkt](../reporting/gs-reports.md) | ![](assets/access-reports.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Lijsten aanpassen**: Maak aangepaste regels om de gegevens te filteren die worden weergegeven in lijsten zoals ontvangers, leveringslijsten, enz. [Leer hoe u lijsten filtert](../get-started/list-filters.md#list-built-in-filters) | ![](assets/access-lists.png){zoomable=&quot;yes&quot;}{width="200" align="center" zoomable="yes"} |
+| **Voorwaardelijke inhoud maken**: maak e-mailinhoud dynamisch door voorwaarden te creëren die bepalen welke inhoud aan verschillende ontvangers zou moeten worden getoond, die gepersonaliseerd en relevant overseinen verzekeren. [Leer hoe u voorwaardelijke inhoud maakt](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 ## Query-modellerinterface {#interface}
 

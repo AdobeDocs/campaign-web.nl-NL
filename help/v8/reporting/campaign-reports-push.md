@@ -3,7 +3,7 @@ audience: end-user
 title: Campagnerapporten voor het pushkanaal
 description: Campagnerapporten begrijpen voor het Push-kanaal
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -28,7 +28,7 @@ De **[!UICONTROL Delivery Overview]** Deze rapporten bevatten belangrijke presta
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
 
-* **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
+* **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
@@ -71,7 +71,6 @@ De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens m
 De **[!UICONTROL Execution statistics]** in de tabel wordt aangegeven hoe succesvol de levering is . De cijfers worden hieronder beschreven.
 
 ![](assets/campaign-reporting-push-exec.png){zoomable=&quot;yes&quot;}
-
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
 
