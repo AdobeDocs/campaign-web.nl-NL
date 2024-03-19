@@ -3,7 +3,8 @@ audience: end-user
 title: Aan de slag met bestemmingspagina's
 description: Meer informatie over het landen van pagina's in het campagneweb
 feature: Landing Pages
-source-git-commit: 26c41105a4c04b72e0aedf05a4b3268b0e475d40
+exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 4%
@@ -16,7 +17,7 @@ ht-degree: 4%
 >id="acw_homepage_welcome_rn5"
 >title="Landingspagina&#39;s"
 >abstract="Ontdek de nieuwe landingspagina-ervaring. Maak, ontwerp en deel meteen landingspagina&#39;s om uw gebruikers naar online webpagina&#39;s te leiden waar u aankopen, abonnementen en abonnementen en gebruiksgevallen voor lijsten van gewezen personen kunt beheren op basis van ingebouwde sjablonen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Zie opmerkingen bij releases"
 
 [!DNL Adobe Campaign] kunt u bestemmingspagina&#39;s maken, ontwerpen en delen.
 

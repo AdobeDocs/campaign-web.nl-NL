@@ -2,14 +2,21 @@
 audience: end-user
 title: De werkstroomactiviteit van de gegevensbronworkflow wijzigen gebruiken
 description: Leer hoe u de werkstroomactiviteit van de gegevensbronworkflow wijzigen gebruikt
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 2%
+source-wordcount: '333'
+ht-degree: 1%
 
 ---
 
 # Databron wijzigen {#change-data-source}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Gegevensbron wijzigen in workflows"
+>abstract="De gegevensbron van de Verandering richtend activiteit staat u toe om de gegevensbron te veranderen die door de het werk lijst van uw werkschema wordt gebruikt. Deze activiteit verstrekt meer flexibiliteit door u toe te staan om gegevens over uw verschillende gegevensbestanden te beheren en prestaties te verbeteren."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"

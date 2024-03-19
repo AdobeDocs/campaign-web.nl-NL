@@ -2,19 +2,15 @@
 title: Aan de slag met profielen
 description: Leer om profielen in het Web van de Campagne te controleren en te beheren.
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met profielen {#profiles}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="360-weergave van uw profielen"
->abstract="Maak nieuwe profielen en controleer deze met krachtige rapporten en gereedschappen. Open de kenmerken, interacties en logbestanden van uw profielen. Met de filteropties bladert u door de lijst met profielen, bewerkt en werkt u het profiel bij."
 
 <!--additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/whats-new" text="See release notes"-->
 
