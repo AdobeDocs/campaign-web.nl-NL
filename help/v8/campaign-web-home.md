@@ -3,9 +3,9 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: efb5d5d9ea3b3559c57d6a0b2a250f075dabf831
+source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '512'
 ht-degree: 3%
 
 ---
@@ -51,29 +51,27 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 >[!BEGINTABS]
 
->[!TAB Adobe Experience Manager as a Cloud Service-integratie]
+>[!TAB Direct mailkanaal]
 
-De integratie tussen Adobe Campaign Web Interface en Adobe Experience Manager as a Cloud Service stroomlijnt het beheer van e-mailinhoud. U kunt nu e-mailinhoud rechtstreeks in Adobe Experience Manager maken en bewerken en vervolgens de voltooide sjablonen naadloos importeren naar Adobe Campaign voor uw leveringen.
+**Directe post** kanaal is nu beschikbaar voor gebruik in werkschema&#39;s en als standalone leveringen. Directe post is een off-line kanaal dat u toestaat om een extractiedossiers tot stand te brengen, te personaliseren en te produceren, en het met uw directe postleveranciers te delen om post naar uw klanten te verzenden.
 
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](integrations/aem-content.md)
+![afbeelding](assets/do-not-localize/direct-mail.gif)
 
->[!TAB Kanaalworkflows]
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
 
-Ontgrendel nieuwe mogelijkheden voor automatisering en optimalisering, die u toestaan om dynamischere en gepersonaliseerde klantenreizen te creëren. Van geavanceerde segmentatie tot voorwaardelijke triggers, onze extra werkschemaactiviteiten stellen u in staat om gerichte berichten te leveren en betere campagneprestaties te drijven.
+>[!TAB Zoekopdrachtmodellen in e-mailontwerper]
 
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](workflows/gs-workflows.md)
+Het querymodel is nu beschikbaar voor gebruik in de e-mailontwerper. Hiermee kunt u voorwaarden maken wanneer u voorwaardelijke inhoud maakt.
 
->[!TAB Samenstelling publiek]
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
-Maak een nieuw publiek in een visueel werkstroomcanvas. U kunt workflowactiviteiten niet alleen helemaal vanaf het begin gebruiken om een eenvoudig publiek te maken, maar ook om het publiek te verfijnen. Combineer meerdere soorten publiek in één publiek, verrijk uw publiek met externe kenmerken of verdeel een publiek in meerdere soorten publiek op basis van uw eigen regels.
+>[!TAB Nieuwe werkstroomactiviteit gegevensbron wijzigen]
 
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](audience/create-audience.md)
+De **Gegevensbron wijzigen** Door doelactiviteit toe te wijzen, kunt u de gegevensbron wijzigen die wordt gebruikt door de werktabel van uw werkstroom. Deze activiteit verstrekt meer flexibiliteit door u toe te staan om gegevens over uw verschillende gegevensbestanden te beheren en prestaties te verbeteren.
 
->[!TAB Email Designer]
+![afbeelding](assets/do-not-localize/change-data-source.gif)
 
-Met Campagne-e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve interface voor slepen en neerzetten. Of u nu op een lege site begint, bestaande inhoud importeert of bestaande sjablonen gebruikt, ontwerpt en verfijnen alle inhoud voor elke e-mail!
-
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](email/get-started-email-designer.md)
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
 
 >[!ENDTABS]
 
