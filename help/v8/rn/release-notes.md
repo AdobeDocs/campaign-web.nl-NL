@@ -1,10 +1,10 @@
 ---
 title: Opmerkingen bij de laatste release
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 45795b35fd2c02f7b513b0d4952504ca3f5f45c3
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 0%
+source-wordcount: '289'
+ht-degree: 4%
 
 ---
 
@@ -24,22 +24,22 @@ De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een onond
 
 ### Direct Mail Channel {#24-3-dm}
 
-**Directe post** kanaal is nu beschikbaar voor gebruik in werkschema&#39;s en als standalone leveringen. Directe post is een off-line kanaal dat u toestaat om een extractiedossiers tot stand te brengen, te personaliseren en te produceren, en het met uw directe postleveranciers te delen om post naar uw klanten te verzenden.
+**Directe post** kanaal is nu beschikbaar voor gebruik in werkschema&#39;s en als standalone leveringen. Directe post is een off-line kanaal dat u toestaat om een extractiedossiers tot stand te brengen, te personaliseren en te produceren, en het met uw directe postleveranciers te delen om post naar uw klanten te verzenden. [Meer informatie](../direct-mail/gs-direct-mail.md)
 
 ![](../assets/do-not-localize/direct-mail.gif)
 
 ### Nieuwe werkstroomactiviteit gegevensbron wijzigen {#24-3-change-data-source}
 
-De **Gegevensbron wijzigen** Door doelactiviteit toe te wijzen, kunt u de gegevensbron wijzigen die wordt gebruikt door de werktabel van uw werkstroom. Deze activiteit verstrekt meer flexibiliteit door u toe te staan om gegevens over uw verschillende gegevensbestanden te beheren en prestaties te verbeteren.
+De **Gegevensbron wijzigen** Door doelactiviteit toe te wijzen, kunt u de gegevensbron wijzigen die wordt gebruikt door de werktabel van uw werkstroom. Deze activiteit verstrekt meer flexibiliteit door u toe te staan om gegevens over uw verschillende gegevensbestanden te beheren en prestaties te verbeteren. [Meer informatie](../workflows/activities/change-data-source.md)
 
 ![](../assets/do-not-localize/change-data-source.gif)
 
 ### Verbetering van workflowactiviteit splitsen {#24-3-split}
 
-U kunt nu de opdracht **Alle subsets in dezelfde tabel genereren** in de **Splitsen** workflowactiviteit om alle subsets te groeperen in één uitvoerovergang.
+U kunt nu de opdracht **Alle subsets in dezelfde tabel genereren** in de **Splitsen** workflowactiviteit om alle subsets te groeperen in één uitvoerovergang. [Meer informatie](../workflows/activities/split.md)
 
 ### Query-modelleraar {#24-3-query-modeler}
 
-* Het querymodel is nu beschikbaar voor gebruik in de e-mailontwerper. Hiermee kunt u voorwaarden maken wanneer u voorwaardelijke inhoud maakt.
-* Vooraf gedefinieerde waarden zijn nu beschikbaar voor datumtekstkenmerken wanneer u een aangepaste voorwaarde maakt.
-* Operatoren kunnen niet meer worden toegevoegd aan een nieuwe overgang in het diagram. Ze kunnen alleen aan een bestaande overgang worden toegevoegd voordat u componenten filtert om deze samen te groeperen.
+* Het querymodel is nu beschikbaar voor gebruik in de e-mailontwerper. Hiermee kunt u voorwaarden maken wanneer u voorwaardelijke inhoud maakt. [Meer informatie](../personalization/conditions.md)
+* Vooraf gedefinieerde waarden zijn nu beschikbaar voor datumtekstkenmerken wanneer u een aangepaste voorwaarde maakt. [Meer informatie](../query/build-query.md)
+* Operatoren kunnen niet meer worden toegevoegd aan een nieuwe overgang in het diagram. Ze kunnen alleen aan een bestaande overgang worden toegevoegd voordat u componenten filtert om deze samen te groeperen. [Meer informatie](../query/build-query.md)
