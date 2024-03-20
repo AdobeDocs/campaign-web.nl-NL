@@ -3,9 +3,9 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: b1bf540f3622c11752d29aa52dad62903a6cc197
+source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '502'
 ht-degree: 3%
 
 ---
@@ -51,6 +51,12 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 >[!BEGINTABS]
 
+>[!TAB Maart is live!]
+
+Ontdek nieuwe functies en verbeteringen die worden geleverd met de Adobe Campaign Web User Interface 24.3-release.
+
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+
 >[!TAB Direct mailkanaal]
 
 **Directe post** kanaal is nu beschikbaar voor gebruik in werkschema&#39;s en als standalone leveringen. Directe post is een off-line kanaal dat u toestaat om een extractiedossiers tot stand te brengen, te personaliseren en te produceren, en het met uw directe postleveranciers te delen om post naar uw klanten te verzenden.
@@ -58,12 +64,6 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 ![afbeelding](assets/do-not-localize/direct-mail.gif)
 
 [![afbeelding](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
-
->[!TAB Zoekopdrachtmodellen in e-mailontwerper]
-
-Het querymodel is nu beschikbaar voor gebruik in de e-mailontwerper. Hiermee kunt u voorwaarden maken wanneer u voorwaardelijke inhoud maakt.
-
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](personalization/conditions.md)
 
 >[!TAB Nieuwe werkstroomactiviteit gegevensbron wijzigen]
 
@@ -133,5 +133,5 @@ De **Gegevensbron wijzigen** Door doelactiviteit toe te wijzen, kunt u de gegeve
 
 ## Verdere bronnen
 
-* [Adobe Campaign-productbeschrijving](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [Adobe Campaign-productbeschrijving](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
 * [Adobe Campaign V8-documentatie](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=nl){target="_blank"}
