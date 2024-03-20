@@ -1,14 +1,20 @@
 ---
 title: Opmerkingen bij de laatste release
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: 737a2ea3f3c5ecc41c692ada7927f5e60ecb256a
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '341'
 ht-degree: 4%
 
 ---
 
 # Aanvullende informatie  {#latest-release}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_learning_card2"
+>title="Nieuwe functies"
+>abstract="De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Opmerkingen bij de release worden meerdere keren per maand bijgewerkt. **Release van maart is nu live**, waaronder Direct mail kanaal, de nieuwe activiteit van de het gegevensbronwerkschema van de Verandering, en andere verbeteringen."
 
 
 <!--Last update: **March 19, 2024**-->
