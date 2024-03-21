@@ -1,20 +1,20 @@
 ---
 audience: end-user
 title: Activiteit van leveringswerkstromen gebruiken
-description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, push, SMS)
+description: Leer hoe u een workflowactiviteit voor levering toevoegt (E-mail, Push, SMS, Direct mail)
 exl-id: 155b40e2-1aa2-4251-bbaa-7e16e36f649e
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 6df7a483ea178abade4bb15256dbd120d556085e
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '961'
 ht-degree: 1%
 
 ---
 
-# E-mail-, sms- en pushactiviteiten {#channel}
+# Activiteiten op het gebied van e-mail, sms, pushberichten, direct mail {#channel}
 
-Met Adobe Campaign Web kunt u marketingcampagnes automatiseren en uitvoeren via e-mail-, sms- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren.
+Met Adobe Campaign Web kunt u marketingcampagnes automatiseren en uitvoeren via e-mail-, SMS-, Direct-mail- en pushkanalen. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren.
 
-U kunt bijvoorbeeld een welkomstcampagne voor e-mail maken met een reeks berichten via verschillende kanalen, zoals e-mail, SMS en push. U kunt ook een vervolgbericht verzenden nadat een klant een aankoop heeft voltooid, of een gepersonaliseerd verjaardagsbericht naar een klant verzenden via SMS.
+U kunt bijvoorbeeld een welkomstcampagne voor e-mail maken met een reeks berichten via verschillende kanalen, zoals e-mail, SMS, push en direct mail. U kunt ook een vervolgbericht verzenden nadat een klant een aankoop heeft voltooid, of een gepersonaliseerd verjaardagsbericht naar een klant verzenden via SMS.
 
 Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde campagnes tot stand brengen die klanten over veelvoudige touchpoints en aandrijvingsomzettingen in dienst nemen.
 
@@ -24,6 +24,7 @@ Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde cam
 >* [Zelfstandige e-maillevering maken](../../email/create-email.md)
 >* [Zelfstandige SMS-levering maken](../../sms/create-sms.md)
 >* [Zelfstandige pushlevering maken](../../push/create-push.md)
+>* [Zelfstandige direct-maillevering maken](../../direct-mail/create-direct-mail.md)
 
 ## Vereisten {#channel-activity-prereq}
 
@@ -39,10 +40,7 @@ Begin met het ontwikkelen van uw workflow met de relevante activiteiten:
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-
-
 * Als u een terugkerende levering wilt verzenden, start u de workflow met een **Planner** activiteit. U kunt ook een **Planner** activiteit voor één-ontsproten enige leveringen om de contactdatum voor die levering te plaatsen. Deze contactdatum kan ook worden ingesteld in de leveringsinstellingen. Zie [deze sectie](scheduler.md).
-
 
 ## De kanaalactiviteit configureren {#create-a-delivery-in-a-workflow}
 
@@ -66,9 +64,14 @@ Begin met het ontwikkelen van uw workflow met de relevante activiteiten:
 >title="Android-activiteit duwen"
 >abstract="De pushAndroid-activiteit stroomlijnt het proces voor het verzenden van Android-pushmeldingen als onderdeel van uw workflow. Hierdoor kunnen zowel eenmalige als terugkerende berichten worden verzonden, waardoor de verzendende Android Push-berichten naar een vooraf gedefinieerd doel binnen dezelfde workflow worden geautomatiseerd. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_directmail"
+>title="Directe post"
+>abstract="De activiteit Direct-mail vergemakkelijkt direct mail verzenden binnen uw werkschema, die voor zowel eenmalige als terugkomende berichten toestaat. Hiermee wordt het genereren van het extractiebestand geautomatiseerd dat is vereist door directe-mailproviders. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
+
 Volg onderstaande stappen om een levering in te stellen in de context van een workflow:
 
-1. Kanaalactiviteit toevoegen: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**.
+1. Kanaalactiviteit toevoegen: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]**, **[!UICONTROL Push notification (iOS)]** of **[!UICONTROL Direct mail]**.
 
 1. Selecteer de **Soort levering**: enkelvoudig of herhaald.
 
