@@ -1,9 +1,9 @@
 ---
 title: Opmerkingen bij de laatste release
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
-source-git-commit: 737a2ea3f3c5ecc41c692ada7927f5e60ecb256a
+source-git-commit: 5b0e59e8bb7e4a8ee3ce648c4af7dd9e41be7a81
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '435'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,20 @@ De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een onond
 >
 >Deze versie is beschikbaar voor alle gebruikers die beginnen [Campagne (console) v8.6-release](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Meer informatie over de release en upgrades van de Adobe Campaign-clientconsole in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
 
-## Release maart {#24-3-release}
+## Opmerkingen bij de release maart {#24-3-release}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Direct mail"
+>abstract="Het Direct-mailkanaal is nu beschikbaar voor gebruik in workflows en op zichzelf staande leveringen. Gebruik het off-line kanaal van de Post om een extractiedossier tot stand te brengen, te personaliseren en te produceren, en het met uw directe postleveranciers te delen om post naar uw klanten te verzenden."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Zie opmerkingen bij releases"
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Databron wijzigen"
+>abstract="Gebruik de nieuwe gegevensbronwerkstroom van de Verandering richtend activiteit om de gegevensbron te veranderen die door de het werk lijst van uw werkschema wordt gebruikt. Deze activiteit verstrekt meer flexibiliteit door u toe te staan om gegevens over uw verschillende gegevensbestanden te beheren en prestaties te verbeteren."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Zie opmerkingen bij releases"
+
 
 **Releasedatum**: 19-20 maart 2024
 
