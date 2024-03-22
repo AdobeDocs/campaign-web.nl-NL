@@ -3,7 +3,7 @@ audience: end-user
 title: Soorten publiek maken
 description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: f4919f9955e098630e596cf68e2b51088fde68dc
+source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn3"
 >title="Samenstelling publiek"
 >abstract="Maak een nieuw publiek in een visueel werkstroomcanvas. U kunt workflowactiviteiten niet alleen helemaal vanaf het begin gebruiken om een eenvoudig publiek te maken, maar ook om het publiek te verfijnen. Combineer meerdere soorten publiek in één publiek, verrijk uw publiek met externe kenmerken of verdeel een publiek in meerdere soorten publiek op basis van uw eigen regels."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/release-notes" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
