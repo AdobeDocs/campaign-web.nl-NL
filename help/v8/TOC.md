@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 464898f69be64a99ac1729c486ada95d2ea872a4
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 14%
 
 ---
@@ -50,11 +50,6 @@ ht-degree: 14%
             + [Een koppeling toevoegen aan de spiegelpagina](email/mirror-page.md)
             + [Een preheader toevoegen](email/preheader.md)
             + [De tekstversie genereren](email/text-version-email.md)
-         + Inhoudsassistent {#content-assistant}
-            + [Aan de slag met de Content Assistant](email/generative-gs.md)
-            + [Tekst genereren met de Inhoudsassistent](email/generative-content.md)
-            + [Afbeeldingen genereren met de Inhoudsassistent](email/generative-image.md)
-            + [E-mailgeneratie met Inhoudsassistent](email/generative-email.md)
          + Stijl uw inhoud {#style}
             + [Aan de slag met e-mailstijl](email/get-started-email-style.md)
             + [Achtergrondinstellingen bewerken](email/backgrounds.md)
@@ -80,6 +75,11 @@ ht-degree: 14%
       + [Een levering voor direct mail maken](direct-mail/create-direct-mail.md)
       + [Het extractiebestand ontwerpen](direct-mail/content-direct-mail.md)
       + [Een voorbeeld bekijken en direct-maillevering verzenden](direct-mail/send-direct-mail.md)
+   + AI-assistent {#ai-assistant}
+      + [Aan de slag met de AI Assistant](email/generative-gs.md)
+      + [E-mailgeneratie met AI Assistant](email/generative-content.md)
+      + [SMS genereren met de AI Assistant](email/generative-sms.md)
+      + [Pushmeldingen genereren met de AI Assistant](email/generative-push.md)
    + Uw inhoud dynamisch maken {#dynamic-content}
       + [Aan de slag met dynamische inhoud](personalization/gs-personalization.md)
       + [Aanpassing toevoegen](personalization/personalize.md)

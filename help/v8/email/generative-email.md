@@ -1,28 +1,28 @@
 ---
 audience: end-user
-title: E-mailgeneratie met Inhoudsassistent
-description: Aan de slag met de Content Assistant
+title: E-mailgeneratie met AI Assistant in Campagne
+description: Aan de slag met de AI Assistant in Campagne
 badge: label="Alpha"
 exl-id: f6c9c940-ae85-44e6-a23e-9133df87e67e
 hide: true
 hidefromtoc: true
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
 
-# Een e-mail genereren met de Content Assistant {#generative-email}
+# Een e-mail genereren met de AI-assistent {#generative-email}
 
-De Inhoudsassistent verbetert de impact van uw communicatie door automatisch volledige e-mailinhoud te genereren, zodat u tijd bespaart en een consistente kwaliteit gegarandeerd is. Met Generative AI kunt u moeiteloos aantrekkelijke e-mails maken die op uw publiek zijn afgestemd, waardoor uw communicatie effectiever en efficiënter wordt.
+De AI-assistent in Campaign verbetert de impact van uw communicatie door automatisch volledige e-mailinhoud te genereren, zodat u tijd bespaart en een consistente kwaliteit gegarandeerd is. Met Generative AI kunt u moeiteloos aantrekkelijke e-mails maken die op uw publiek zijn afgestemd, waardoor uw communicatie effectiever en efficiënter wordt.
 
 >[!NOTE]
 >
 >Lees de verwante bestanden voordat u deze functie gaat gebruiken [Afvoerkanalen en beperkingen](generative-gs.md#guardrails-and-limitations).
 
 
-Volg onderstaande stappen om e-mailinhoud te genereren met de Content Assistant. U kunt ook bestaande inhoud verbeteren met de Content Assistant, zoals in [deze pagina](generative-content.md).
+Voer de onderstaande stappen uit om e-mailinhoud te genereren met de AI Assistant. U kunt ook bestaande inhoud verbeteren met de AI Assistant, zoals wordt beschreven in [deze pagina](generative-content.md).
 
 1. Nadat u de e-maillevering hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Create content]**.
 
@@ -30,7 +30,7 @@ Volg onderstaande stappen om e-mailinhoud te genereren met de Content Assistant.
 
 1. Vul de **[!UICONTROL Basic details]** voor levering. Klik op **[!UICONTROL Edit email body]**.
 
-1. Kies de ontwerpsjabloon waarop de Content Assistant de gegenereerde e-mail moet baseren.
+1. Kies de ontwerpsjabloon waarop de AI Assistant de gegenereerde e-mail moet baseren.
 
    U kunt ook een HTML-bestand importeren.
 
@@ -48,7 +48,7 @@ Volg onderstaande stappen om e-mailinhoud te genereren met de Content Assistant.
 
    ![](assets/email-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Selecteren **[!UICONTROL Upload file]** als u merkmiddelen wilt toevoegen die inhoud bevatten die extra context de Inhoudsassistent kan verstrekken.
+1. Selecteren **[!UICONTROL Upload file]** als u merkmiddelen wilt toevoegen die inhoud bevatten die extra context de Hulp van AI kan verstrekken.
 
    U kunt ook op **[!UICONTROL Uploaded content]** om eerder bijgewerkte bestanden te zoeken. De geüploade inhoud is exclusief beschikbaar voor hergebruik door de huidige gebruiker.
 
