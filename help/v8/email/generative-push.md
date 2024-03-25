@@ -5,7 +5,7 @@ description: Aan de slag met de AI Assistant in Campagne
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 1%
@@ -77,7 +77,7 @@ De AI-assistent kan u helpen de impact van uw leveringen te optimaliseren door v
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. [Meer informatie over content personalization](../personalization/personalize.md)
+1. Voeg verpersoonlijkingsvelden in om uw pushinhoud aan te passen op basis van profielgegevens. [Meer informatie over content personalization](../personalization/personalize.md)
 
    ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
 
@@ -85,4 +85,4 @@ De AI-assistent kan u helpen de impact van uw leveringen te optimaliseren door v
 
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
-1. Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
+1. Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u de levering voorbereiden. [Meer informatie](../monitor/prepare-send.md)

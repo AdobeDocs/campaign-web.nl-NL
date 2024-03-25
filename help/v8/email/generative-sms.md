@@ -5,7 +5,7 @@ description: Aan de slag met de AI Assistant in Campagne
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -75,7 +75,7 @@ Dit handige gereedschap biedt intelligente suggesties voor het verfijnen van uw 
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 
-1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. [Meer informatie over content personalization](../personalization/personalize.md)
+1. Voeg verpersoonlijkingsgebieden in om uw inhoud van SMS aan te passen die op profielgegevens wordt gebaseerd. [Meer informatie over content personalization](../personalization/personalize.md)
 
    ![](assets/sms-genai-5.png){zoomable=&quot;yes&quot;}
 
@@ -83,4 +83,4 @@ Dit handige gereedschap biedt intelligente suggesties voor het verfijnen van uw 
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
+1. Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw levering van SMS voor te bereiden. [Meer informatie](../monitor/prepare-send.md)
