@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 027cdc70abb0263631883ecde382577d41bf4a41
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1600'
 ht-degree: 1%
 
 ---
@@ -376,3 +376,44 @@ Deprecated IDs - to remove in GA: -->
 >title="Gegevens bijwerken"
 >abstract="TBC"
 
+
+
+<!--External Signal End-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal"
+>title="Extern signaal"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_externalsignal_parameters"
+>title="Externe signaalparameters"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_end_trigger"
+>title="Eindtriggers"
+>abstract="TBC"
+
+
+<!--Javascript-->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript"
+>title="Javascript-code"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_snippet"
+>title="JavaScript-fragment"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_execution"
+>title="Javascript-uitvoering"
+>abstract="TBC"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_transition"
+>title="JavaScript-overgang"
+>abstract="TBC"
