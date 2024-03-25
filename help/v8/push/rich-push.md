@@ -1,17 +1,17 @@
 ---
 audience: end-user
 title: Een uitgebreide pushmelding ontwerpen
-description: Leer hoe u een uitgebreide pushmelding ontwerpt met Adobe Campaign Web
+description: Leer hoe u een uitgebreide pushmelding voor Android ontwerpt met Adobe Campaign Web
 hide: true
 hidefromtoc: true
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1285'
 ht-degree: 1%
 
 ---
 
-# Een uitgebreide pushaanbieding voor Android ontwerpen {#content-push}
+# Een uitgebreide pushaanbieding voor Android ontwerpen {#rich-push}
 
 Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
@@ -23,9 +23,7 @@ Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
 ## De inhoud van het bericht definiëren {#push-message}
 
-Nadat u de pushservice hebt gemaakt, kunt u de inhoud ervan definiëren. Blader op de onderstaande tabbladen om te leren hoe u uw bericht voor elke sjabloon kunt samenstellen.
-
-Er zijn drie sjablonen beschikbaar:
+Nadat u de pushservice hebt gemaakt, kunt u de inhoud ervan definiëren. Er zijn drie sjablonen beschikbaar:
 
 * **Standaardsjabloon** Hiermee kunt u meldingen verzenden met een eenvoudig pictogram en een bijbehorende afbeelding.
 
