@@ -4,14 +4,20 @@ title: Een uitgebreide pushmelding ontwerpen
 description: Leer hoe u een uitgebreide pushmelding voor Android ontwerpt met Adobe Campaign Web
 hide: true
 hidefromtoc: true
-source-git-commit: 23519e1d50b963761bd65a2ded6fa8c1bc7106f3
+exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
+source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 1%
+source-wordcount: '1308'
+ht-degree: 0%
 
 ---
 
 # Een uitgebreide pushaanbieding voor Android ontwerpen {#rich-push}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_push_remind_later"
+>title="Later herinneren, knop"
+>abstract="De **Later herinneren** bevat de optie om een herinnering te plannen. Voor het veld Tijdstempel is een waarde vereist die een tijdperk in seconden vertegenwoordigt."
 
 Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
@@ -99,7 +105,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 1. Klikken **[!UICONTROL Add remind later]** om een optie voor herinnering later aan uw pushmelding toe te voegen. Voer een **[!UICONTROL Label]** en **[!UICONTROL Timestamp]**.
 
-   Het veld Tijdstempel verwacht een waarde die een tijdperk in seconden vertegenwoordigt.
+   Het veld Tijdstempel verwacht een waarde die in seconden een tijdperk vertegenwoordigt.
 
    ![](assets/rich_push_basic_5.png)
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Een levering met pushberichten ontwerpen
 description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1488'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,6 @@ ht-degree: 0%
 >id="acw_deliveries_push_ios_content"
 >title="IOS-inhoud doordrukken"
 >abstract="Definieer de inhoud van uw pushmelding voor iOS-apparaten. Klik op de knop **Inhoud bewerken** knop."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_push_remind_later"
->title="Later herinneren, knop"
->abstract="TBD"
-
 
 ## De inhoud van het bericht definiëren {#push-message}
 
