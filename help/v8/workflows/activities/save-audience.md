@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit voor het publiek opslaan gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 1%
 >id="acw_orchestration_save_audience"
 >title="Een publiek opslaan"
 >abstract="Gebruik deze activiteit om een bestaand publiek bij te werken of een nieuw publiek van de bevolking te creëren die stroomopwaarts in het werkschema wordt berekend. Het publiek dat wordt gemaakt, wordt toegevoegd aan de lijst met doelgroepen en is beschikbaar via de **Soorten publiek** -menu."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_saveaudience_outbound"
+>title="Uitgaande overgang genereren"
+>abstract="Gebruik deze optie als u een overgang wilt toevoegen na het dialoogvenster **Adviezen opslaan** activiteit."
 
 De **Adviezen opslaan** activiteit is **Targeting** activiteit. Met deze activiteit kunt u een bestaand publiek bijwerken of een nieuw publiek maken van de populatie die stroomopwaarts in een workflow is berekend. Het publiek dat wordt gemaakt, wordt toegevoegd aan de lijst met doelgroepen van toepassingen en wordt beschikbaar gesteld via de **Soorten publiek** -menu.
 
