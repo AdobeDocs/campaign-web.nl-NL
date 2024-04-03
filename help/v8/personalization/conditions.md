@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Voer de onderstaande stappen uit om voorwaardelijke inhoud voor een levering te 
 
    ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
 
-1. Blader in de verpersoonlijkingseditor naar de **[!UICONTROL Helper functions]** links.
+1. Blader in de verpersoonlijkingseditor naar de **[!UICONTROL Conditions]** links.
 
 1. Als u wilt beginnen met het bouwen van uw voorwaarde, klikt u op het plusteken (+) naast de knop **Indien** functie. De volgende regel wordt toegevoegd aan het centrale scherm:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
