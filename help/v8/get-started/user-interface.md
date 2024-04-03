@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 271f23fb042e1580b9e34fa868ec1f021c12f097
+source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1970'
 ht-degree: 1%
 
 ---
@@ -313,30 +313,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_readonlymode"
 >title="Deze sjabloon is alleen gereed"
->abstract="TBC"
-
+>abstract="U hebt geen machtigingen om deze sjabloon te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
 
 <!-- Subscription activity-->
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Standaardbestemmingspagina&#39;s"
->abstract="TBC"
+>title="Standaardlandingspagina"
+>abstract="Selecteer de standaardlandingspagina die aan deze abonnementenservice is gekoppeld."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
->title="Abonnementsdiensten"
->abstract="TBC"
+>title="Abonnementsserviceactiviteiten"
+>abstract="Gebruik Adobe Campaign om uw services, zoals nieuwsbrieven, te maken en te controleren en om de abonnementen op of het afmelden van deze services te controleren. Abonnementen gelden alleen voor verzending via e-mail en SMS."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
->title="Parameters voor abonnementsdiensten"
->abstract="TBC"
+>title="Abonnementsserviceparameters"
+>abstract="Selecteer en bevestig de instellingen voor de abonnementsservice."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Uitgaande overgang van abonnementsdiensten"
->abstract="TBC"
+>abstract="Schakelen tussen **Een uitgaande overgang genereren** om een overgang toe te voegen na de activiteit."
 
 
 <!--Update file-->
@@ -344,37 +343,37 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Gegevens bijwerken"
->abstract="TBC"
+>abstract="De **Gegevens bijwerken** de activiteit voert een massa update van de gebieden in het gegevensbestand uit."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
->title="Gegevens bijwerken"
->abstract="TBC"
+>title="Selecteren hoe gegevens moeten worden bijgewerkt"
+>abstract="De **Type bewerking** kunt u het proces kiezen dat op de gegevens in de database moet worden uitgevoerd. Selecteer de eerste optie om gegevens toe te voegen of bij te werken (als deze al is toegevoegd). U kunt ook alleen gegevens toevoegen, alleen gegevens bijwerken of gegevens verwijderen. Selecteer de **Verzamelingen bijwerken en samenvoegen** om een primaire record te selecteren waarnaar duplicaten moeten worden gekoppeld, en om die duplicaten veilig te verwijderen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
->title="Gegevens bijwerken"
->abstract="TBC"
+>title="Registeridentificatie"
+>abstract="Geef op hoe de records in de database moeten worden geïdentificeerd: als de gegevens betrekking hebben op een bestaande doeldimensie, selecteert u de optie **De doeldimensie gebruiken** en selecteert u de doeldimensie en -velden die u wilt bijwerken. Geef anders een of meer aangepaste koppelingen op om de gegevens in de database te identificeren of gebruik te maken van afstemmingssleutels."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
->title="Gegevens bijwerken"
->abstract="TBC"
+>title="Velden selecteren om bij te werken"
+>abstract="Selecteer de velden die u wilt bijwerken en de instellingen voor afstemming. U kunt de **Automatisch toewijzen** om automatisch de velden te identificeren die moeten worden bijgewerkt."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
->title="Gegevens bijwerken"
->abstract="TBC"
+>title="Geavanceerde opties voor het bijwerken van gegevens"
+>abstract="De **Geavanceerde opties** kunt u aanvullende instellingen opgeven voor het beheer van gegevens en duplicaten."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
->title="Gegevens bijwerken"
->abstract="TBC"
+>title="Een uitgaande overgang genereren"
+>abstract="Schakelen tussen **Een uitgaande overgang genereren** optie om een uitgaande overgang toe te voegen die aan het eind van de uitvoering van **Gegevens bijwerken** activiteit. De update markeert doorgaans het einde van een doelworkflow en daarom wordt de optie niet standaard geactiveerd."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
->title="Gegevens bijwerken"
->abstract="TBC"
+>title="Produceer een uitgaande overgang voor verwerpingen."
+>abstract="Schakelen tussen **Een uitgaande overgang genereren voor afwijzing** om een uitgaande overgang toe te voegen die records bevat die niet correct zijn verwerkt na de update (bijvoorbeeld als er een duplicaat is). De update markeert doorgaans het einde van een doelworkflow en daarom wordt de optie niet standaard geactiveerd."
 
 
 
