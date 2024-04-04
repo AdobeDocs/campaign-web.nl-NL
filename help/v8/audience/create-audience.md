@@ -3,9 +3,9 @@ audience: end-user
 title: Soorten publiek maken
 description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Doelgroepen"
->abstract="Via dit scherm hebt u toegang tot de lijst met alle soorten publiek waarop u zich kunt richten. Klikken **Maken** nieuwe soorten publiek maken in een visueel canvas met behulp van diverse workflowactiviteiten, zoals **Splitsen** of **Uitsluiten**."
+>abstract="Vanuit dit scherm hebt u toegang tot de lijst met alle soorten publiek die u kunt gebruiken voor workflows of zelfstandige leveringen. Klikken **Maken** om een nieuw publiek in een visueel canvas tot stand te brengen gebruikend diverse werkschemaactiviteiten zoals **Splitsen** of **Uitsluiten**.<br/><br/>De **[!UICONTROL Origin]** kolommen geven de oorsprong van het publiek aan: **[!UICONTROL Adobe Campaign]** publiek is gemaakt met de Adobe Campaign v8-console of de Web User Interface, terwijl **[!UICONTROL Adobe Experience Platform:]** Het publiek is gecreëerd in Adobe Experience Platform en geïntegreerd in Campagne met behulp van de integratie van bronnen en doelen van de Adobe."
 
->[!CONTEXTUALHELP]
+<!--
+[!CONTEXTUALHELP]
 >id="acw_audiences_create_settings"
->title="Instellingen voor publiek"
->abstract="Voer de naam van het publiek en aanvullende opties in en klik op de knop **Publiek maken** knop."
+>title="Audience settings"
+>abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
 Met Campagne Web kunt u nieuwe soorten publiek maken tot een visueel workflowcanvas. U kunt workflowactiviteiten niet alleen helemaal vanaf het begin gebruiken om een eenvoudig publiek te maken, maar ook om het publiek te verfijnen. U kunt bijvoorbeeld meerdere soorten publiek combineren tot één publiek, uw publiek verrijken met externe kenmerken of een publiek opsplitsen in meerdere soorten publiek op basis van uw eigen regels.
 
