@@ -3,7 +3,7 @@ audience: end-user
 title: Een eenmalig publiek maken voor levering
 description: Leer hoe u een eenmalig publiek kunt maken voor een levering.
 exl-id: 6f2da017-90d6-497d-bbbd-293775da00e9
-source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%

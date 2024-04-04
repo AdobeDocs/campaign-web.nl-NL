@@ -3,7 +3,7 @@ audience: end-user
 title: Een e-mailpubliek laden vanuit een bestand
 description: Leer hoe u profielen uit een extern bestand kunt laden om uw e-mailpubliek te maken
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
+source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 1%
