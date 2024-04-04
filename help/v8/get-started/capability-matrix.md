@@ -3,7 +3,7 @@ audience: end-user
 title: Campagne Web-gebruikersinterface/client-consolematrix
 description: Lijst met functies die worden ondersteund in de gebruikersinterface van Campagne Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
@@ -107,7 +107,7 @@ Gebruik de beschikbare koppelingen om te bladeren in de documentatie bij Campagn
 * Ontwerpregels filteren. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/filtering-rules.html){target="_blank"}
 * Typologische regels management. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/apply-rules.html){target="_blank"}
 * Campagnesimulatie. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-simulations.html){target="_blank"}
-* Javascript-codering voor het ontwerpen van typologische regels. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
+* JavaScript-codering voor het ontwerpen van typologische regels. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html#use-cases-on-pressure-rules){target="_blank"}
 
 ## Workflows {#wf-capabilities}
 

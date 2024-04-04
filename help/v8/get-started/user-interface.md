@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 70028ebe3e87498a5ef5778838491d8f964e8e87
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '2108'
 ht-degree: 1%
 
 ---
@@ -382,12 +382,13 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Extern signaal"
->abstract="TBC"
+>abstract="De **Extern signaal** Met activiteit kunt u de uitvoering van een set taken in een workflow starten vanuit een API of een andere workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
 >title="Externe signaalparameters"
 >abstract="TBC"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end_trigger"
@@ -395,27 +396,29 @@ Deprecated IDs - to remove in GA: -->
 >abstract="TBC"
 
 
-<!--Javascript-->
+<!--JavaScript-->
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript"
->title="Javascript-code"
->abstract="TBC"
+>title="JavaScript-code"
+>abstract="De **JavaScript-code** een JavaScript-code uitvoeren in de context van een workflow."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_snippet"
 >title="JavaScript-fragment"
->abstract="TBC"
+>abstract="Configureer de uit te voeren code."
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Meer informatie in de documentatie van Campagne v8 (console)"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="Javascript-uitvoering"
->abstract="TBC"
+>title="JavaScript uitvoeren"
+>abstract="Standaard kan de uitvoeringsfase niet langer duren dan 1 uur. Na deze vertraging wordt het proces afgebroken met een foutbericht en mislukt de uitvoering van de activiteit. Schakelen tussen **Uitvoering stoppen na** om een aangepaste vertraging te definiëren. Als u deze limiet wilt negeren, stelt u de waarde in op 0."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_transition"
->title="JavaScript-overgang"
->abstract="TBC"
+>title="Procesfouten"
+>abstract="Schakelen tussen **Procesfouten** om een uitgaande overgang toe te voegen die fouten bevat."
 
 
 <!--ExtractFile-->
@@ -423,29 +426,29 @@ Deprecated IDs - to remove in GA: -->
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Bestand extraheren"
->abstract="TBC"
+>abstract="Bestandsactiviteit extraheren"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_file"
 >title="Te extraheren bestand"
->abstract="TBC"
+>abstract="Selecteer het bestand dat u wilt extraheren."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Bestemmingsindeling"
->abstract="TBC"
+>abstract="Selecteer de indeling."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Nabewerking"
->abstract="TBC"
+>abstract="Een naverwerkingsstap definiëren"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Uitgaande overgang"
->abstract="TBC"
+>abstract="Schakelen tussen **Een uitgaande overgang genereren** optie om een uitgaande overgang toe te voegen na de huidige activiteit."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
->title="Procesfout"
->abstract="TBC"
+>title="Procesfouten"
+>abstract="Schakelen tussen **Procesfouten** om een uitgaande overgang toe te voegen die fouten bevat."
