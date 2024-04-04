@@ -3,9 +3,9 @@ audience: end-user
 title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 1d639f16c470297d115443b5579547419413a3d3
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,14 @@ ht-degree: 0%
 >abstract="Blader in de lijst om een bestaand publiek te selecteren. Gebruik het pictogram Filters tonen om de lijst te filteren of selecteer een specifieke map."
 
 In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren wanneer u de doelpopulatie van een levering definieert. Wanneer u het hoofddoel van een levering definieert, kunt u ook:
-
 * [Eenmalig publiek maken](one-time-audience.md) het gebruiken van de vraagmodeler.
 * [Een publiek laden vanuit een extern bestand](file-audience.md) (alleen voor e-mails).
 
-De doelgroepen in de leveringen zijn toegankelijk via de **Publiek** links. Zij komen uit veelvoudige bronnen zoals de console van de Cliënt, de het publiekswerkschema&#39;s van het Web van de Campagne of Adobe Experience Platform voort. [Leer hoe u het publiek kunt controleren en beheren](manage-audience.md)
+De doelgroepen in de leveringen zijn toegankelijk via de **Publiek** links. Zij komen uit veelvoudige bronnen zoals de console van de Cliënt, de het publiekswerkschema&#39;s van het Web van de Campagne of Adobe Experience Platform voort. [Meer informatie over publiek](manage-audience.md)
 
 Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
-1. Van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking, klik **[!UICONTROL Select audience]** en kies vervolgens **[!UICONTROL Select audience]** om een bestaand publiek te gebruiken.
+1. Van de **Publiek** sectie van de medewerker van de leveringsverwezenlijking, klik **[!UICONTROL Select audience]** en kies vervolgens **[!UICONTROL Select audience]**.
 
    ![](assets/create-audience.png){zoomable=&quot;yes&quot;}
 

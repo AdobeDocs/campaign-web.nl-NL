@@ -3,10 +3,10 @@ audience: end-user
 title: Een e-mailpubliek laden vanuit een bestand
 description: Leer hoe u profielen uit een extern bestand kunt laden om uw e-mailpubliek te maken
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: b166d06215e06d6426ab9ce9a757fcc041810df9
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 0%
+source-wordcount: '640'
+ht-degree: 1%
 
 ---
 
@@ -32,32 +32,39 @@ ht-degree: 0%
 >title="Een voorbeeld van uw bestand bekijken"
 >abstract="Controleer de voorvertoning van de kolommen van het externe bestand. Dit scherm toont slechts tot 30 verslagen."
 
-U kunt doelprofielen opgeven die zijn opgeslagen in een extern bestand. Profielen worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor [personalisatie](../personalization/gs-personalization.md). Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV). In dit artikel wordt beschreven hoe u een extern profiel kunt laden wanneer u een zelfstandige e-maillevering maakt. Als u gegevens uit een bestand in een workflow wilt laden, raadpleegt u [deze pagina](../workflows/activities/load-file.md).
+Met de Adobe Campaign Web User Interface kunt u profielen die zijn opgeslagen in een extern bestand als doel instellen. Nadat de profielen zijn geladen, kunnen alle velden in het invoerbestand worden gebruikt om de levering aan te passen [Leer hoe u uw inhoud kunt aanpassen](../personalization/personalize.md).
 
->[!CAUTION]
->
->* Deze mogelijkheid is alleen beschikbaar voor **e-mailleveringen**. Deze kan niet worden gebruikt met SMS of Push-berichten.
->
->* U kunt niet [controlegroepen](control-group.md) bij het laden van de doelpopulatie uit een extern bestand.
->
->* Profielen worden niet toegevoegd aan de database en alleen geladen en beschikbaar voor deze specifieke zelfstandige e-maillevering.
+Profielen uit het invoerbestand worden niet toegevoegd aan de database. Ze worden geladen en zijn alleen beschikbaar voor deze specifieke zelfstandige e-maillevering.
 
-## Uw bestand selecteren en configureren {#upload}
+>[!NOTE]
+>
+>Op deze pagina wordt beschreven hoe u externe profielen uit een bestand kunt laden wanneer u een zelfstandige e-maillevering maakt. Als u gegevens uit een bestand wilt laden in de context van een workflow, raadpleegt u [deze pagina](../workflows/activities/load-file.md).
 
-Voer de volgende stappen uit als u profielen rechtstreeks vanuit de e-mailinterface in een lokaal bestand als doel wilt instellen:
+## Lees hier meer {#must-read}
+
+* Deze mogelijkheid is beschikbaar voor **e-mailleveringen** alleen.
+* Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV).
+* U kunt niet [controlegroepen](control-group.md) bij het laden van de doelpopulatie uit een extern bestand.
+
+## Het invoerbestand selecteren en configureren {#upload}
+
+Voer de volgende stappen uit om profielen te kiezen uit een bestand in uw e-mails:
 
 1. Open een bestaande e-maillevering, of [een nieuwe e-maillevering maken](../email/create-email.md).
-1. In het venster voor het maken van de e-maillevering, vanuit het dialoogvenster **Publiek** klikt u op de **Doelgroep selecteren** en kiest u de **Selecteren uit bestand** -optie.
+1. In de **Publiek** klikt u op de **Doelgroep selecteren** en kies vervolgens **Selecteren uit bestand**.
 
    ![](assets/select-from-file.png){zoomable=&quot;yes&quot;}
 
-1. Selecteer het lokale bestand dat u wilt gebruiken. De indeling moet worden uitgelijnd met de [voorbeeldbestand](#sample-file).
+1. Selecteer het lokale bestand dat u wilt laden. De bestandsindeling moet worden uitgelijnd met de [voorbeeldbestand](#sample-file).
 1. In het centrale gedeelte van het scherm kunt u bekijken en controleren hoe gegevens worden toegewezen.
-1. Kies de kolom die het e-mailadres bevat in het menu **Adresveld** vervolgkeuzelijst. U kunt de kolom van de lijst van gewezen personen ook selecteren als u dergelijke informatie in het inputdossier hebt.
-1. Pas de kolominstellingen aan en maak gegevens op van de beschikbare opties.
+
+   ![](assets/select-from-file-map.png)
+
+1. Geef de kolom op die het e-mailadres bevat van het dialoogvenster **Adresveld** vervolgkeuzelijst. U kunt de kolom van de lijst van gewezen personen ook selecteren als u dergelijke informatie in het inputdossier hebt.
+1. Pas de kolominstellingen aan en hoe u de gegevens opmaakt op basis van de beschikbare opties.
 1. Klikken **Bevestigen** als de instellingen correct zijn.
 
-Wanneer u de inhoud van het bericht maakt en aan uw wensen aanpast, kunt u velden selecteren uit het invoerbestand in het dialoogvenster [Personalisatie-editor](../personalization/gs-personalization.md).
+Wanneer u de inhoud van het bericht maakt, kunt u de weergave aanpassen door velden uit het invoerbestand te gebruiken. [Leer hoe u inhoud kunt aanpassen](../personalization/personalize.md)
 
 ![](assets/select-external-perso.png){zoomable=&quot;yes&quot;}
 
@@ -68,19 +75,21 @@ Wanneer u de inhoud van het bericht maakt en aan uw wensen aanpast, kunt u velde
 >title="Een publiek uit een bestand laden"
 >abstract="Ondersteunde bestandsindelingen zijn TXT en CSV. Eerste regel gebruiken als kolomkop. Lijn de bestandsindeling uit met het voorbeeldbestand in de onderstaande koppeling."
 
-Ondersteunde indelingen zijn TXT en CSV. De eerste regel is de kolomkop.
+Wanneer u een extern bestand laadt naar doelprofielen in uw leveringen, moet u ervoor zorgen dat het invoerbestand overeenkomt met de onderstaande aanbevelingen:
 
-Lijn de bestandsindeling uit met het onderstaande voorbeeldbestand:
+* Ondersteunde indelingen zijn TXT en CSV.
+* De eerste regel in het bestand is de kolomkop.
+* Lijn de bestandsindeling uit met het onderstaande voorbeeldbestand:
 
-```javascript
-{
-lastname,firstname,city,birthdate,email,denylist
-Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
-Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
-Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
-Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
-}
-```
+  ```javascript
+  {
+  lastname,firstname,city,birthdate,email,denylist
+  Smith,Hayden,Paris,23/05/1985,hayden.smith@example.com,0
+  Mars,Daniel,London,17/11/1999,danny.mars@example.com,0
+  Smith,Clara,Roma,08/02/1979,clara.smith@example.com,0
+  Durance,Allison,San Francisco,15/12/2000,allison.durance@example.com,1
+  }
+  ```
 
 ## Uw e-mail voorvertonen en testen {#test}
 
