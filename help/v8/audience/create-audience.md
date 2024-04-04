@@ -3,9 +3,9 @@ audience: end-user
 title: Soorten publiek maken
 description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 44c3cb9905850719e75bd5199b907c78d3cd7467
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_audiences_list"
 >title="Doelgroepen"
->abstract="Vanuit dit scherm hebt u toegang tot de lijst met alle soorten publiek die u kunt gebruiken voor workflows of zelfstandige leveringen. Klikken **Maken** om een nieuw publiek in een visueel canvas tot stand te brengen gebruikend diverse werkschemaactiviteiten zoals **Splitsen** of **Uitsluiten**.<br/><br/>De **[!UICONTROL Origin]** kolommen geven de oorsprong van het publiek aan: **[!UICONTROL Adobe Campaign]** publiek is gemaakt met de Adobe Campaign v8-console of de Web User Interface, terwijl **[!UICONTROL Adobe Experience Platform:]** Het publiek is gecreëerd in Adobe Experience Platform en geïntegreerd in Campagne met behulp van de integratie van bronnen en doelen van de Adobe."
+>abstract="Vanuit dit scherm hebt u toegang tot de lijst met alle soorten publiek die u kunt gebruiken voor workflows of zelfstandige leveringen. Klikken **Maken** om een nieuw publiek tot een visueel canvas te maken.<br/><br/>U kunt workflowactiviteiten niet alleen helemaal vanaf het begin gebruiken om een eenvoudig publiek te maken, maar ook om het publiek te verfijnen. U kunt bijvoorbeeld meerdere soorten publiek combineren tot één publiek, uw publiek verrijken met externe kenmerken of een publiek opsplitsen in meerdere soorten publiek op basis van uw eigen regels."
 
 <!--
 [!CONTEXTUALHELP]
@@ -32,6 +32,8 @@ ht-degree: 0%
 Met Campagne Web kunt u nieuwe soorten publiek maken tot een visueel workflowcanvas. U kunt workflowactiviteiten niet alleen helemaal vanaf het begin gebruiken om een eenvoudig publiek te maken, maar ook om het publiek te verfijnen. U kunt bijvoorbeeld meerdere soorten publiek combineren tot één publiek, uw publiek verrijken met externe kenmerken of een publiek opsplitsen in meerdere soorten publiek op basis van uw eigen regels.
 
 Zodra u uw werkschema hebt gecreeerd, worden de resulterende publiek automatisch opgeslagen binnen het gegevensbestand van de Campagne naast uw bestaande degenen. Deze doelgroepen kunnen dan worden gericht op workflows of op zelfstandige leveringen.
+
+De **[!UICONTROL Origin]** kolommen geven de oorsprong van het publiek aan: **[!UICONTROL Adobe Campaign]** publiek is gemaakt met de Adobe Campaign v8-console of de Web User Interface, terwijl **[!UICONTROL Adobe Experience Platform:]** Het publiek is gecreëerd in Adobe Experience Platform en geïntegreerd in Campagne met behulp van de integratie van bronnen en doelen van de Adobe.
 
 ➡️ [Deze functie in video detecteren](#video)
 
