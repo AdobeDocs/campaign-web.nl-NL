@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit Splitsen gebruiken
 description: Leer hoe u de activiteit van de gesplitste workflow gebruikt
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,11 @@ De **Splitsen** activiteit is **Targeting** activiteit die u toestaat om inkomen
 >id="acw_orchestration_split_generatesubsets"
 >title="Alle subsets in dezelfde tabel genereren"
 >abstract="Schakel deze optie in en uit om alle subsets te groeperen in één uitvoerovergang."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_emptytransition"
+>title="Lege overgang overslaan"
+>abstract="Lege overgang overslaan."
 
 Voer de volgende stappen uit om de **Splitsen** activiteit:
 

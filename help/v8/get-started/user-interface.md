@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 706d42661375c7ef7f95d1e8bf22db235500308d
+source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2129'
 ht-degree: 1%
 
 ---
@@ -452,3 +452,25 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_orchestration_extractfile_error"
 >title="Procesfouten"
 >abstract="Schakelen tussen **Procesfouten** om een uitgaande overgang toe te voegen die fouten bevat."
+
+<!-- Workflow settings -->
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_initscript"
+>title="Initialisatiescript"
+>abstract="Initialisatiescript"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_properties"
+>title="Uitvoereigenschappen"
+>abstract="Uitvoereigenschappen"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_error"
+>title="Uitvoerfout"
+>abstract="Uitvoerfout"
+
+>[!CONTEXTUALHELP]
+>id="acw_workflow_settings_execution_initscript"
+>title="Initialisatiescript voor uitvoering"
+>abstract="Initialisatiescript voor uitvoering"
