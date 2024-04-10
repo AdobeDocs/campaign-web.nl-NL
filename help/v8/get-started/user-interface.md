@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 35d7872ceb79a43cf24d8c9cc01dbfaed62c22f3
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2209'
 ht-degree: 1%
 
 ---
@@ -421,6 +421,7 @@ Deprecated IDs - to remove in GA: -->
 >abstract="Schakelen tussen **Procesfouten** om een uitgaande overgang toe te voegen die fouten bevat."
 
 
+
 <!--ExtractFile-->
 
 >[!CONTEXTUALHELP]
@@ -474,3 +475,74 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_workflow_settings_execution_initscript"
 >title="Initialisatiescript voor uitvoering"
 >abstract="Initialisatiescript voor uitvoering"
+
+
+<!--incremental querry -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery"
+>title="Incrementele query"
+>abstract="Incrementele query"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_history"
+>title="Incrementele querygeschiedenis"
+>abstract="Incrementele querygeschiedenis"
+
+
+<!-- Transfer file activity -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile"
+>title="Bestand overdragen"
+>abstract="Bestand overdragen"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_options"
+>title="Opties voor bestandsoverdracht"
+>abstract="Opties voor bestandsoverdracht"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_activity"
+>title="Bestandsactiviteiten overdragen"
+>abstract="Bestandsactiviteiten overdragen"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_remoteserver"
+>title="Externe server voor bestandsoverdracht"
+>abstract="Externe server voor bestandsoverdracht"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_source"
+>title="Bestandsbron overdragen"
+>abstract="Bestandsbron overdragen"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="Bronbestanden na overdracht verwijderen"
+>abstract="Bronbestanden na overdracht verwijderen"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="De sessielogboeken weergeven"
+>abstract="De sessielogboeken weergeven"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="Alle bestanden weergeven"
+>abstract="Alle bestanden weergeven"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="Bestandshistorie"
+>abstract="Bestandshistorie"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="Ontbrekende bestanden verwerken"
+>abstract="Ontbrekende bestanden verwerken"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="Procesfouten"
+>abstract="Procesfouten"
