@@ -2,9 +2,10 @@
 audience: end-user
 title: Algemene rapporten voor het directe-mailkanaal
 description: Meer informatie over Global-rapporten voor het directe e-mailkanaal
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: a42536fe-375b-4169-8775-d47ed26692f8
+source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -100,7 +101,7 @@ De **[!UICONTROL Delivery statistics]** de grafiek en de tabel geven een overzic
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_causes_exclusion_direct_mail_graph"
->title="Uitsluitingsoorzaken"
+>title="Oorzaken van uitsluiting"
 >abstract="De **Oorzaken van uitsluiting** de grafiek illustreert de distributie van verworpen berichten tijdens de voorbereiding voor levering, die door elke regel wordt gecategoriseerd."
 
 ![](assets/global_report_direct_mail_exclusions.png){zoomable=&quot;yes&quot;}{align="center"}
@@ -124,4 +125,3 @@ In de grafiek en de tabel met uitsluitingen worden de redenen weergegeven waarom
 * **[!UICONTROL Target limited in size]**: De maximale leveringsgrootte is bereikt voor de ontvanger.
 
 +++
-
