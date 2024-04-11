@@ -6,10 +6,10 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+source-git-commit: 23c43fad6076fc1dd1eaec2aee1664773ac7ce09
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 1%
+source-wordcount: '1031'
+ht-degree: 0%
 
 ---
 
@@ -36,19 +36,35 @@ De AI-assistent kan u helpen de impact van uw leveringen te optimaliseren door v
 
 ## Inhoud genereren met de AI Assistant {#generative-text}
 
+Zo kunt u met uw AI-assistent aansprekende e-mails schrijven:
+
+* **Samenvatten**: Met langdurige gegevens kunnen e-mailontvangers worden overbelast. Gebruik de AI-assistent om belangrijke punten samen te voegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
+
+* **Uitwerken**: De AI-assistent kan u helpen bij het uitvouwen van specifieke onderwerpen en biedt extra informatie voor een beter begrip en betrokkenheid.
+
+* **Taal vereenvoudigen**: Gebruik de AI-assistent om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+
+* **Herhalen**:De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
+
+* **Kleur wijzigen**: De toon van uw e-mailbericht moet met uw publiek overeenkomen. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
+
+In het volgende voorbeeld gebruiken we de AI-assistent om de inhoud van onze e-mailuitnodiging voor onze aanstaande gebeurtenis te verbeteren.
+
 1. Nadat u de e-maillevering hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Edit content]**.
 
    Voor meer informatie over hoe te om uw e-maillevering te vormen, verwijs naar [deze pagina](../email/create-email-content.md).
 
-1. Vul de **[!UICONTROL Basic details]** voor levering. Klik op **[!UICONTROL Edit content]**.
-
-1. Pas uw e-mail naar wens aan. [Meer informatie](content-components.md)
-
-1. Toegang krijgen tot de **[!UICONTROL AI Assistant]** -menu.
+1. Pas uw e-mail naar wens aan en open de **[!UICONTROL AI Assistant]** -menu.
 
    U kunt ook een **[!UICONTROL Text component]** als u alleen een specifieke inhoud als doel wilt instellen.
 
    ![](assets/text-genai-1.png){zoomable=&quot;yes&quot;}
+
+1. De optie **[!UICONTROL Use original content]** in dat geval past de AI Assistant de nieuwe inhoud aan op basis van uw levering, de naam van de levering en het geselecteerde publiek.
+
+   >[!IMPORTANT]
+   >
+   > Uw vraag moet altijd aan een specifieke context worden gekoppeld door een merkmiddel te uploaden of het **[!UICONTROL Enhance current content]** -optie.
 
 1. Perfectioneer de inhoud door te beschrijven wat u in wilt produceren **[!UICONTROL Prompt]** veld.
 
@@ -56,43 +72,48 @@ De AI-assistent kan u helpen de impact van uw leveringen te optimaliseren door v
 
    ![](assets/text-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. Schakelen tussen **[!UICONTROL Subject line]** of **[!UICONTROL Preheader]** om ze op te nemen in de ontwikkeling van de variant.
+1. U kunt schakelen tussen **[!UICONTROL Subject line]** of **[!UICONTROL Preheader]** om ze op te nemen in de ontwikkeling van de variant.
 
-1. In het menu Context schakelt u het **[!UICONTROL Enhance with current context]** in dat geval past de AI Assistant de nieuwe inhoud aan op basis van uw levering, de naam van de levering en het geselecteerde publiek.
-
-   >[!IMPORTANT]
-   >
-   > Uw vraag moet altijd aan een specifieke context worden gekoppeld door een merkmiddel te uploaden of het **[!UICONTROL Enhance current content]** -optie.
+   Dit is beschikbaar als u geen specifieke tekstcomponent hebt geselecteerd.
 
 1. Klikken **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die extra context kan bieden, gebruikt de AI Assistant.
 
    ![](assets/text-genai-3.png){zoomable=&quot;yes&quot;}
 
-1. Selecteer de **[!UICONTROL Communication strategy]** dat het beste aansluit bij uw behoeften. Dit is van invloed op de tint en de stijl van de gegenereerde tekst.
+1. Volg uw vraag met de verschillende opties:
 
-1. Kies de optie **[!UICONTROL Language]** en **[!UICONTROL Tone]** dat de gegenereerde tekst moet bestaan. Zo weet u zeker dat de tekst geschikt is voor uw doelgroep.
+   * **[!UICONTROL Communication strategy]**: Selecteer de gewenste communicatieaanpak voor de gegenereerde tekst.
+   * **[!UICONTROL Language]**: Kies de taal voor de inhoud van de variant.
+   * **[!UICONTROL Tone]**: Zorg ervoor dat de tekst geschikt is voor uw publiek en doel.
+   * **[!UICONTROL Lenght]**: Selecteer de lengte van de inhoud met de schuifregelaar voor het bereik. Deze optie is alleen beschikbaar als u een specifieke tekstcomponent hebt geselecteerd.
 
    ![](assets/text-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Zodra uw herinnering klaar is, klik **[!UICONTROL Generate]**.
 
-1. Door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Apply]** zodra u de juiste inhoud hebt gevonden.
+1. Door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
 
-   Klikken **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
+1. Ga naar de **[!UICONTROL Refine]** in de **[!UICONTROL Preview]** voor toegang tot extra aanpassingsfuncties en om uw variatie af te stemmen op uw voorkeuren.
+
+   Klikken **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. [Meer informatie over content personalization](../personalization/personalize.md)
-
-   ![](assets/text-genai-6.png){zoomable=&quot;yes&quot;}
-
-1. Nadat u de inhoud van uw bericht hebt gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en personalisatie-instellingen te controleren met testprofielen. [Meer informatie](../preview-test/preview-content.md)
+1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. Klik vervolgens op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en personalisatie-instellingen te controleren met testprofielen. [Meer informatie](../preview-test/preview-content.md)
 
    ![](assets/text-genai-7.png){zoomable=&quot;yes&quot;}
 
-1. Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
+Wanneer u uw inhoud, publiek en planning hebt gedefinieerd, kunt u uw e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
 
 ## Afbeeldingen genereren met de AI-assistent {#generative-image}
+
+Gebruik de AI Assistant om verschillende en op maat gemaakte visuele elementen te genereren voor uw e-mailcampagnes. U kunt het bijvoorbeeld gebruiken om:
+
+* **Genereren**: Genereer een uiteenlopende reeks aansprekende afbeeldingen die speciaal zijn ontworpen voor uw e-mailcampagnes. Met korrelige controle over instellingen zoals kleurenpalet, bliksemschicht en compositie kunt u resoneren met verschillende publiekssegmenten en uw unieke campagnedoelstellingen bereiken.
+
+* **Vergelijkbaar genereren**: Gebruik de AI-assistent om afbeeldingen te genereren die vergelijkbaar zijn met een geselecteerde variant.
+
+* **Merk**: Optimaliseer de selectie van afbeeldingen voor e-mailcampagnes door gebruik te maken van zowel interne merkmiddelen als externe bronnen, zoals Adobe Firefly.
 
 In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw inhoud te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt. Voer de volgende stappen uit:
 
@@ -120,11 +141,13 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw
    >
    > Uw vraag moet altijd aan een specifieke context worden gebonden.
 
-1. Selecteer de **[!UICONTROL Aspect ratio]** van uw middel. Hiermee bepaalt u de breedte en hoogte van het element.
+1. Volg uw vraag met de verschillende opties:
 
-   U kunt kiezen uit veelgebruikte verhoudingen, zoals 16:9, 4:3, 3:2 of 1:1, of u kunt een aangepaste grootte invoeren.
-
-1. De **[!UICONTROL Color & tone]**, **[!UICONTROL Content type]**, **[!UICONTROL Lighting]** en **[!UICONTROL Composition]** instellingen die overeenkomen met de gewenste elementkenmerken.
+   * **[!UICONTROL Aspect ratio]**: Hiermee bepaalt u de breedte en hoogte van het element. U kunt kiezen uit veelgebruikte verhoudingen, zoals 16:9, 4:3, 3:2 of 1:1, of u kunt een aangepaste grootte invoeren.
+   * **[!UICONTROL Color & tone]**: De algemene weergave van de kleuren in een afbeelding en de sfeer die of de sfeer die door de afbeelding wordt overgebracht.
+   * **[!UICONTROL Content type]**: Hiermee categoriseert u de aard van het visuele element, waarbij onderscheid wordt gemaakt tussen verschillende vormen van visuele representatie, zoals foto&#39;s, afbeeldingen of illustraties.
+   * **[!UICONTROL Lighting]**: Dit verwijst naar de bliksemschicht in een afbeelding, die de atmosfeer bepaalt en specifieke elementen markeert.
+   * **[!UICONTROL Composition]**: Dit verwijst naar de rangschikking van elementen binnen het kader van een afbeelding
 
    ![](assets/image-genai-3.png){zoomable=&quot;yes&quot;}
 
