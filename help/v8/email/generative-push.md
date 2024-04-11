@@ -5,9 +5,10 @@ description: Aan de slag met de AI Assistant in Campagne
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -25,13 +26,22 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de AI Assistant in Campagne van generatieve AI om uw inhoud naar het volgende niveau te brengen.
 
 De AI-assistent kan u helpen de impact van uw leveringen te optimaliseren door verschillende inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
+
+Met de AI-assistent kan uw inhoud worden verhoogd tot nieuwe hoogten. U kunt het bijvoorbeeld gebruiken om:
+
+* **Samenvatten**: Condenseer lange inhoud in bondige samenvattingen voor pushberichten. Ga direct naar het punt en zorg ervoor dat ontvangers het hoofdbericht meteen begrijpen.
+* **Uitwerken**: Breid de onderwerpen in uw pushberichten uit en geef meer details en een context voor een beter begrip.
+* **Taal vereenvoudigen**: Maak uw pushberichten toegankelijk voor een groter publiek door duidelijke en beknopte taal te gebruiken.
+* **Herhalen**: Vermijd herhaling door de AI-assistent uw bericht op verschillende manieren te laten herformuleren
+* **Kleur wijzigen**: Wijzig de emotionele toon van uw pushberichten. Of u informatief, playful, of dringend wilt klinken, kan de Medewerker AI het bericht dienovereenkomstig aanpassen.
 
 >[!NOTE]
 >
 >Lees de verwante bestanden voordat u deze functie gaat gebruiken [Afvoerkanalen en beperkingen](generative-gs.md#guardrails-and-limitations).
+
+In het volgende voorbeeld, zullen wij hefboomwerking de AI medewerker aan ambachtelijk dwingend overseinen om een aansprekender klantenervaring tot stand te brengen.
 
 1. Nadat u de pushmelding hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Edit content]**.
 
@@ -86,3 +96,4 @@ De AI-assistent kan u helpen de impact van uw leveringen te optimaliseren door v
    ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
 
 1. Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u de levering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
+

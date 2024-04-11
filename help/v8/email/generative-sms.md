@@ -5,9 +5,10 @@ description: Aan de slag met de AI Assistant in Campagne
 badge: label="Beta"
 hide: true
 hidefromtoc: true
-source-git-commit: 396f52cfdb482e5afdf43b5729ef37b5a634be3d
+exl-id: db0459e5-8759-42d9-8945-8c9667450527
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '439'
 ht-degree: 1%
 
 ---
@@ -45,35 +46,42 @@ Dit handige gereedschap biedt intelligente suggesties voor het verfijnen van uw 
 
    ![](assets/sms-genai-1.png){zoomable=&quot;yes&quot;}
 
+1. De optie **[!UICONTROL Use original content]** in dat geval past de AI Assistant de nieuwe inhoud aan op basis van uw levering, de naam van de levering en het geselecteerde publiek.
+
+   >[!IMPORTANT]
+   >
+   > Uw vraag moet altijd aan een specifieke context worden gekoppeld door een merkmiddel te uploaden of het **[!UICONTROL Enhance current content]** -optie.
+
 1. Perfectioneer de inhoud door te beschrijven wat u in wilt produceren **[!UICONTROL Prompt]** veld.
 
    Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang tot **[!UICONTROL Prompt Library]** Dit biedt diverse snelle ideeën om uw leveringen te verbeteren.
 
    ![](assets/sms-genai-2.png){zoomable=&quot;yes&quot;}
 
-1. De optie **[!UICONTROL Enhance with current context]** in dat geval past de AI Assistant de nieuwe inhoud aan op basis van uw levering, de naam van de levering en het geselecteerde publiek.
-
-   >[!IMPORTANT]
-   >
-   > Uw vraag moet altijd aan een specifieke context worden gekoppeld door een merkmiddel te uploaden of het **[!UICONTROL Enhance current content]** -optie.
-
 1. Selecteren **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die extra context kan bieden, gebruikt de AI Assistant.
 
-1. Selecteer de **[!UICONTROL Communication strategy]** dat het beste aansluit bij uw behoeften. Dit is van invloed op de tint en de stijl van de gegenereerde tekst.
+1. Volg uw vraag met de verschillende opties:
 
-1. Kies de optie **[!UICONTROL Language]** en **[!UICONTROL Tone]** dat de gegenereerde tekst moet bestaan. Zo weet u zeker dat de tekst geschikt is voor uw doelgroep.
+   * **[!UICONTROL Communication strategy]**: Selecteer de gewenste communicatieaanpak voor de gegenereerde tekst.
+   * **[!UICONTROL Language]**: Kies de taal voor de inhoud van de variant.
+   * **[!UICONTROL Tone]**: Zorg ervoor dat de tekst geschikt is voor uw publiek en doel.
+   * **[!UICONTROL Lenght]**: Selecteer de lengte van de inhoud met de schuifregelaar voor het bereik.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
-1. Gebruik de schuifregelaar om de lengte van de gegenereerde tekst in te stellen.
-
 1. Zodra uw herinnering klaar is, klik **[!UICONTROL Generate]**.
 
-1. Door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Apply]** zodra u de juiste inhoud hebt gevonden.
+1. Door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
 
-   Klikken **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
+1. Ga naar de **[!UICONTROL Refine]** in de **[!UICONTROL Preview]** voor toegang tot extra aanpassingsfuncties en om uw variatie af te stemmen op uw voorkeuren:
+
+   * **Taal vereenvoudigen**: De AI-assistent helpt u duidelijke, beknopte berichten te schrijven die iedereen kan begrijpen.
+
+   * **Herhalen**: De AI-assistent hernoemt uw bericht om ervoor te zorgen dat de zaken aantrekkelijk blijven voor verschillende doelgroepen.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
+
+1. Klikken **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
 
 1. Voeg verpersoonlijkingsgebieden in om uw inhoud van SMS aan te passen die op profielgegevens wordt gebaseerd. [Meer informatie over content personalization](../personalization/personalize.md)
 
@@ -83,4 +91,4 @@ Dit handige gereedschap biedt intelligente suggesties voor het verfijnen van uw 
 
    ![](assets/sms-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw levering van SMS voor te bereiden. [Meer informatie](../monitor/prepare-send.md)
+Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw levering van SMS voor te bereiden. [Meer informatie](../monitor/prepare-send.md)

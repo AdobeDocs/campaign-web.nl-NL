@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: af67094638cfc3c5c64385203340918f0f8f2482
+source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 >abstract="Voor toegang tot deze functie moet u akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen. Alle aanwijzingen, contextgegevens of aanvullende informatie of andere gegevens die u aan deze functie verstrekt, moeten zijn gekoppeld aan een specifieke context, die uw brandingmaterialen, website-inhoud, gegevens, schema&#39;s voor dergelijke gegevens, sjablonen of andere vertrouwde documenten kan bevatten en geen persoonlijke gegevens mag bevatten (persoonlijke gegevens omvatten alles wat u terug kunt koppelen naar een specifiek individu). U moet de nauwkeurigheid van de uitvoer van deze functie controleren en controleren of deze geschikt is voor uw gebruiksgeval"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generation AI-gebruikersrichtlijnen"
 
-De AI-assistent is een waardevol hulpmiddel voor het verbeteren van e-mailinhoud. Het vereenvoudigt personalisatie en inhoudsuitbreiding, die uw e-mailleveringen optimaliseren om beter op uw publiek af te stemmen.
+De AI Assistant, die wordt aangedreven door Azure OpenAI en Azure AI vision, is een waardevol hulpmiddel voor het verbeteren van e-mailinhoud. Het vereenvoudigt personalisatie en inhoudsuitbreiding, die uw e-mailleveringen optimaliseren om beter op uw publiek af te stemmen.
 
 Met deze functie bespaart u tijd en bent u verzekerd van consistente kwaliteit door automatisch volledige e-mailinhoud te genereren. Door gebruik te maken van Generative AI kunt u moeiteloos aansprekende e-mails maken, waardoor de effectiviteit en efficiëntie van uw communicatie worden verbeterd.
 
@@ -60,7 +60,8 @@ De algemene richtlijnen voor het gebruik van de AI-assistent in Campaign voor he
 * Upload merkmiddelen voor nauwkeurige informatie over de inhoud van het merk. Anders is de inhoud gebaseerd op algemeen beschikbare informatie. De geüploade inhoud kan de volgende indelingen hebben: PDF, JPEG, PNG- of ZIP-bestanden (met ondersteunde bestandsindelingen).
 * De aanbevolen grootte voor geüploade brandmiddelen is minder dan 50 MB. Grotere bestanden of veel afbeeldingen kunnen werken, maar de verwerkingstijd neemt toe.
 * Gebruik bij voorkeur een door Adobe Campaign geschreven e-mailsjabloon [ingebouwde e-mailsjablonen](../email/create-email-templates.md), een merkspecifieke sjabloon of aangepaste sjabloon om uw e-mailinhoud te maken. E-mailsjabloon met maximaal 8-10 afbeeldingen wordt aanbevolen.
-
+* Zorg ervoor dat u eventuele problematische uitvoerbestanden meldt met het blokje omhoog, omlaag of de vlagpictogrammen bij het selecteren van varianten.
+* Op het gebruik van de AI-assistent zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)
 
 De volgende beperkingen gelden voor AI Assistant in Campaign:
 
@@ -68,8 +69,6 @@ De volgende beperkingen gelden voor AI Assistant in Campaign:
 * Alleen beschikbaar voor de e-mail-, push- en SMS-kanalen.
 * GenAI-inhoud is mogelijk niet altijd correct: geef uw feedback zodat onze technici de modellen kunnen verfijnen.
 * U kunt meerdere merkmiddelen uploaden, maar u kunt slechts één voor een specifieke generatie gebruiken.
-
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
