@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
+source-git-commit: 3fff275bbd3695440e47417e131e66b6ddafbf1b
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -81,9 +81,9 @@ In het volgende voorbeeld gebruiken we de AI-assistent om een bestaande e-mail t
 
 1. Ga naar de **[!UICONTROL Refine]** in de **[!UICONTROL Preview]** venster voor toegang tot extra aanpassingsfuncties:
 
-   * **Herhalen**: De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
+   * **[!UICONTROL Rephrase]**: De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-   * **Eenvoudige taal gebruiken**: Gebruik de AI-assistent om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Use simple Language]**: Gebruik de AI-assistent om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 
