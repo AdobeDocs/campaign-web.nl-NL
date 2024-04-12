@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+source-git-commit: cc73a638980b9dd6e56d630ad94d70475356e390
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 1%
@@ -65,7 +65,7 @@ Dit handige gereedschap biedt intelligente suggesties voor het verfijnen van uw 
    * **[!UICONTROL Communication strategy]**: Selecteer de gewenste communicatieaanpak voor de gegenereerde tekst.
    * **[!UICONTROL Language]**: Kies de taal voor de inhoud van de variant.
    * **[!UICONTROL Tone]**: Zorg ervoor dat de tekst geschikt is voor uw publiek en doel.
-   * **[!UICONTROL Lenght]**: Selecteer de lengte van de inhoud met de schuifregelaar voor het bereik.
+   * **[!UICONTROL Length]**: Selecteer de lengte van de inhoud met de schuifregelaar voor het bereik.
 
    ![](assets/sms-genai-3.png){zoomable=&quot;yes&quot;}
 
