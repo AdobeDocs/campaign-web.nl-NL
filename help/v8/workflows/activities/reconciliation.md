@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de afstemmingsworkflow gebruiken
 description: Leer hoe u de workflowactiviteit Verzoening gebruikt
 exl-id: 33f2aa76-1e75-4545-805a-016c95824e09
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '858'
 ht-degree: 10%
 
 ---
@@ -74,7 +74,7 @@ Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in
 
 Voer de volgende stappen uit om de **Verzoening** activiteit:
 
-1. Sleep een **Verzoening** in uw workflow. Deze activiteit moet worden toegevoegd na een overgang met een populatie waarvan de doeldimensie niet rechtstreeks uit Adobe Campaign afkomstig is.
+1. Voeg een **Verzoening** in uw workflow. Deze activiteit moet worden toegevoegd na een overgang met een populatie waarvan de doeldimensie niet rechtstreeks uit Adobe Campaign afkomstig is.
 
 1. Selecteer de nieuwe doeldimensie. Met een dimensie kunt u de doelgroep definiëren: ontvangers, abonnees van apps, operators, abonnees, enzovoort. [Meer informatie over doelgerichte dimensies](../../audience/about-recipients.md#targeting-dimensions).
 

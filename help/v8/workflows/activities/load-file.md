@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit voor het laden van bestanden gebruiken
 description: Leer hoe u de workflowactiviteit Bestand laden gebruikt
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 1eaa2710e682e9038befc5d0752c064e2bb48521
+source-git-commit: 935fba929c26d6d7b3057ee7c24148215a04e45e
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Deze activiteit kan worden gebruikt met een [Verzoening](reconciliation.md) acti
 
 Voer de volgende stappen uit om de **Bestand laden** activiteit:
 
-1. Sleep een **Bestand laden** in uw workflow. Klik op de knop **Selecteren uit bestand** knop.
+1. Voeg een **Bestand laden** in uw workflow. Klik op de knop **Selecteren uit bestand** knop.
 
 1. Selecteer het lokale bestand dat u wilt gebruiken. De indeling moet hiermee worden uitgelijnd [voorbeeldbestand](../../audience/file-audience.md#sample-file).
 
