@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: c0b032539397d4f06c0e34981ed9e76bccb9cfd1
+source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Voorwaardelijke inhoud is een krachtige functie waarmee u dynamische personalisa
 
 Door voorwaardelijke inhoudsgebieden te vormen, kunt u geavanceerde dynamische verpersoonlijking tot stand brengen die op het profiel van de ontvanger bijvoorbeeld wordt gebaseerd. Tekstblokken, koppelingen, onderwerpregel en/of afbeeldingen worden vervangen in de inhoud van het bericht als aan een bepaalde voorwaarde is voldaan. U kunt bijvoorbeeld &#39;Mr&#39; of &#39;Mevrouw&#39; weergeven op basis van de waarde van het genderveld in de database van Adobe Campaign, of een andere link opnemen op basis van de voorkeurstaal van de ontvanger.
 
-Als u voorwaardelijke inhoud wilt maken, moet u voorwaarden maken in het dialoogvenster **expressie-editor** specifieke hulpfuncties gebruiken. Deze methode is beschikbaar voor alle leveringskanalen, op om het even welk gebied waar u tot de uitdrukkingsredacteur, zoals de onderwerpregel, of e-mailverbindingen en tekst/knoop inhoudcomponenten kunt toegang hebben. [Leer hoe u toegang krijgt tot de expressie-editor](gs-personalization.md/#access)
+Als u voorwaardelijke inhoud wilt maken, moet u voorwaarden maken in het dialoogvenster **expressie-editor** specifieke hulpfuncties gebruiken. Deze methode is beschikbaar voor alle leveringskanalen, op om het even welk gebied waar u tot de uitdrukkingsredacteur, zoals de onderwerpregel, of e-mailverbindingen en tekst/knoop inhoudcomponenten kunt toegang hebben. [Leer hoe u toegang krijgt tot de expressie-editor](gs-personalization.md#access)
 
 Naast de expressie-editor kunt u een speciale editor gebruiken **voorwaardelijk maken van inhoud** bij het ontwerpen van een e-mail waarmee u meerdere varianten voor een element van uw e-mailhoofdtekst kunt maken. [Meer informatie over het maken van voorwaardelijke inhoud in e-mails](#condition-condition-builder)
 
