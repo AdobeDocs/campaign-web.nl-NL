@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: c2382359ee6777277fa9dd4f8fd4282fb2381b38
+source-git-commit: 3a50c1bec5da58c7cca6c7334ae054e10c3c99df
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2279'
 ht-degree: 1%
 
 ---
@@ -547,7 +547,59 @@ Deprecated IDs - to remove in GA: -->
 >title="Procesfouten"
 >abstract="Procesfouten"
 
+<!-- Delivery alerting -->
+
 >[!CONTEXTUALHELP]
->id="acw_deliveries_alerting"
->title="Afleveringswaarschuwing"
+>id="acw_delivery_alerting_criteria"
+>title="Dashboard voor leveringswaarschuwingscriteria"
+>abstract="Dashboard voor leveringswaarschuwingscriteria"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboards"
+>title="Dashboard voor aflevering"
+>abstract="Dashboard voor aflevering"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create"
+>title="Waarschuwingscriteria voor levering maken"
+>abstract="Waarschuwingscriteria voor levering maken"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_indicators"
+>title="Indicatoren die moeten worden toegevoegd aan signaleringen"
+>abstract="Indicatoren die moeten worden toegevoegd aan signaleringen"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_alert"
+>title="Type waarschuwing"
+>abstract="Type waarschuwing"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_criteria_create_frequency"
+>title="Criteriumfrequentie"
+>abstract="Criteriumfrequentie"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_add"
+>title="Beoordelingscriteria voor aflevering"
+>abstract="Beoordelingscriteria voor aflevering"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_general"
+>title="Algemene parameters voor leveringswaarschuwingen"
 >abstract="Afleveringswaarschuwing"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_create_criteria_parameters"
+>title="Parameters van de leveringsalarmeringscriteria"
+>abstract="Afleveringswaarschuwing"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_alerts"
+>title="Verzonden leveringswaarschuwingen"
+>abstract="Verzonden leveringswaarschuwingen"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_history"
+>title="Geschiedenis van leveringswaarschuwingen"
+>abstract="Geschiedenis van leveringswaarschuwingen"
