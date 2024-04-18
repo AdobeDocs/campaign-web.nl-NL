@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: f249a73e25857e65e200f3cbd9516206aab918f9
+source-git-commit: bc27d8e6e41cb59a7221a893d4c00d3647db887b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '445'
 ht-degree: 1%
 
 ---
@@ -29,14 +29,6 @@ ht-degree: 1%
 
 De AI-assistent kan u helpen de impact van uw leveringen te optimaliseren door verschillende inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
 
-Met de AI-assistent kan uw inhoud worden verhoogd tot nieuwe hoogten. U kunt het bijvoorbeeld gebruiken om:
-
-* **Samenvatten**: Condenseer lange inhoud in bondige samenvattingen voor pushberichten. Ga direct naar het punt en zorg ervoor dat ontvangers het hoofdbericht meteen begrijpen.
-* **Uitwerken**: Breid de onderwerpen in uw pushberichten uit en geef meer details en een context voor een beter begrip.
-* **Taal vereenvoudigen**: Maak uw pushberichten toegankelijk voor een groter publiek door duidelijke en beknopte taal te gebruiken.
-* **Herhalen**: Vermijd herhaling door de AI-assistent uw bericht op verschillende manieren te laten herformuleren
-* **Kleur wijzigen**: Wijzig de emotionele toon van uw pushberichten. Of u informatief, playful, of dringend wilt klinken, kan de Medewerker AI het bericht dienovereenkomstig aanpassen.
-
 >[!NOTE]
 >
 >Lees de verwante bestanden voordat u deze functie gaat gebruiken [Afvoerkanalen en beperkingen](generative-gs.md#guardrails-and-limitations).
@@ -55,13 +47,7 @@ In het volgende voorbeeld, zullen wij hefboomwerking de AI medewerker aan ambach
 
    ![](assets/push-genai-1.png){zoomable=&quot;yes&quot;}
 
-1. Perfectioneer de inhoud door te beschrijven wat u in wilt produceren **[!UICONTROL Prompt]** veld.
-
-   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang tot **[!UICONTROL Prompt Library]** Dit biedt diverse snelle ideeën om uw leveringen te verbeteren.
-
-   ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
-
-1. De optie **[!UICONTROL Enhance with current context]** in dat geval past de AI Assistant de nieuwe inhoud aan op basis van uw levering, de naam van de levering en het geselecteerde publiek.
+1. De optie **[!UICONTROL Use original content]** in dat geval past de AI Assistant de nieuwe inhoud aan op basis van uw levering, de naam van de levering en het geselecteerde publiek.
 
    >[!IMPORTANT]
    >
@@ -69,31 +55,41 @@ In het volgende voorbeeld, zullen wij hefboomwerking de AI medewerker aan ambach
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 
+1. Perfectioneer de inhoud door te beschrijven wat u in wilt produceren **[!UICONTROL Prompt]** veld.
+
+   Als u hulp bij het ontwerpen van uw herinnering zoekt, toegang tot **[!UICONTROL Prompt Library]** Dit biedt diverse snelle ideeën om uw leveringen te verbeteren.
+
+   ![](assets/push-genai-2.png){zoomable=&quot;yes&quot;}
+
 1. Selecteren **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die inhoud bevatten die extra context kan bieden, gebruikt de AI Assistant.
 
 1. Kies welk veld u wilt genereren: **[!UICONTROL Title]**, **[!UICONTROL Subtitle]** of **[!UICONTROL Message]**.
 
-1. Selecteer de **[!UICONTROL Communication strategy]** dat het beste aansluit bij uw behoeften. Dit is van invloed op de tint en de stijl van de gegenereerde tekst.
+1. Volg uw vraag met de verschillende opties:
 
-1. Kies de optie **[!UICONTROL Language]** en **[!UICONTROL Tone]** dat de gegenereerde tekst moet bestaan. Zo weet u zeker dat de tekst geschikt is voor uw doelgroep.
+   * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
+   * **[!UICONTROL Language]**: Selecteer de taal waarin u de inhoud wilt genereren.
+   * **[!UICONTROL Tone]**: De toon van uw e-mailbericht moet met uw publiek overeenkomen. Of u informatief wilt klinken, playful, of overtuigend, de Medewerker van AI kan het bericht dienovereenkomstig aanpassen.
 
    ![](assets/push-genai-4.png){zoomable=&quot;yes&quot;}
 
 1. Zodra uw herinnering klaar is, klik **[!UICONTROL Generate]**.
 
-1. Door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Apply]** zodra u de juiste inhoud hebt gevonden.
+1. Door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
 
-   Klikken **[!UICONTROL Preview]** om een versie van de geselecteerde variatie op het volledige scherm weer te geven.
+1. Ga naar de **[!UICONTROL Refine]** in de **[!UICONTROL Preview]** venster voor toegang tot extra aanpassingsfuncties:
+
+   * **[!UICONTROL Rephrase]**: De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
+
+   * **[!UICONTROL Use simple Language]**: Gebruik de AI-assistent om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
-1. Voeg verpersoonlijkingsvelden in om uw pushinhoud aan te passen op basis van profielgegevens. [Meer informatie over content personalization](../personalization/personalize.md)
+1. Klikken **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
+
+1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. Klik vervolgens op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en personalisatie-instellingen te controleren met testprofielen. [Meer informatie](../preview-test/preview-content.md)
 
    ![](assets/push-genai-6.png){zoomable=&quot;yes&quot;}
 
-1. Nadat u de inhoud van uw bericht hebt gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en personalisatie-instellingen te controleren met testprofielen. [Meer informatie](../preview-test/preview-content.md)
-
-   ![](assets/push-genai-7.png){zoomable=&quot;yes&quot;}
-
-1. Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u de levering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
+Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u de levering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
 
