@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: bc27d8e6e41cb59a7221a893d4c00d3647db887b
+source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '436'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 1%
 * **[Pushmeldingen genereren met de AI Assistant](generative-push.md)**
 
 >[!ENDSHADEBOX]
-
 
 De AI-assistent kan u helpen de impact van uw leveringen te optimaliseren door verschillende inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
 
@@ -51,7 +50,7 @@ In het volgende voorbeeld, zullen wij hefboomwerking de AI medewerker aan ambach
 
    >[!IMPORTANT]
    >
-   > Uw vraag moet altijd aan een specifieke context worden gekoppeld door een merkmiddel te uploaden of het **[!UICONTROL Enhance current content]** -optie.
+   > Uw vraag moet altijd zijn gekoppeld aan uw huidige inhoud.
 
    ![](assets/push-genai-3.png){zoomable=&quot;yes&quot;}
 
