@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '440'
 ht-degree: 1%
 
 ---
@@ -75,9 +75,11 @@ Dit handige gereedschap biedt intelligente suggesties voor het verfijnen van uw 
 
 1. Ga naar de **[!UICONTROL Refine]** in de **[!UICONTROL Preview]** voor toegang tot extra aanpassingsfuncties en om uw variatie af te stemmen op uw voorkeuren:
 
-   * **Taal vereenvoudigen**: De AI-assistent helpt u duidelijke, beknopte berichten te schrijven die iedereen kan begrijpen.
+   * **[!UICONTROL Use as reference content]**: De gekozen variant dient als referentie-inhoud voor het genereren van andere resultaten.
 
-   * **Herhalen**: De AI-assistent hernoemt uw bericht om ervoor te zorgen dat de zaken aantrekkelijk blijven voor verschillende doelgroepen.
+   * **[!UICONTROL Use simpler language]**: De AI-assistent helpt u duidelijke, beknopte berichten te schrijven die iedereen kan begrijpen.
+
+   * **[!UICONTROL Rephrase]**: De AI-assistent hernoemt uw bericht om ervoor te zorgen dat de zaken aantrekkelijk blijven voor verschillende doelgroepen.
 
    ![](assets/sms-genai-4.png){zoomable=&quot;yes&quot;}
 

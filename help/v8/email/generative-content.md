@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -81,9 +81,11 @@ In het volgende voorbeeld gebruiken we de AI-assistent om een bestaande e-mail t
 
 1. Ga naar de **[!UICONTROL Refine]** in de **[!UICONTROL Preview]** venster voor toegang tot extra aanpassingsfuncties:
 
+   * **[!UICONTROL Use as reference content]**: De gekozen variant dient als referentie-inhoud voor het genereren van andere resultaten.
+
    * **[!UICONTROL Rephrase]**: De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-   * **[!UICONTROL Use simple Language]**: Gebruik de AI-assistent om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Use simpler language]**: Gebruik de AI-assistent om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    ![](assets/full-email-5.png){zoomable=&quot;yes&quot;}
 
@@ -136,15 +138,15 @@ In het volgende voorbeeld gebruiken we de AI-assistent om de inhoud van onze e-m
 
 1. Ga naar de **[!UICONTROL Refine]** in de **[!UICONTROL Preview]** venster voor toegang tot extra aanpassingsfuncties:
 
-   * **Gebruiken als referentie-inhoud**: De gekozen variant dient als referentie-inhoud voor het genereren van andere resultaten.
+   * **[!UICONTROL Use as reference content]**: De gekozen variant dient als referentie-inhoud voor het genereren van andere resultaten.
 
-   * **Uitwerken**: De AI-assistent kan u helpen bij het uitvouwen van specifieke onderwerpen en biedt extra informatie voor een beter begrip en betrokkenheid.
+   * **[!UICONTROL Elaborate]**: De AI-assistent kan u helpen bij het uitvouwen van specifieke onderwerpen en biedt extra informatie voor een beter begrip en betrokkenheid.
 
-   * **Samenvatten**: Met langdurige gegevens kunnen e-mailontvangers worden overbelast. Gebruik de AI-assistent om belangrijke punten samen te voegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
+   * **[!UICONTROL Summarize]**: Met langdurige gegevens kunnen e-mailontvangers worden overbelast. Gebruik de AI-assistent om belangrijke punten samen te voegen tot heldere, beknopte samenvattingen die aandacht trekken en hen aanmoedigen om verder te lezen.
 
-   * **Herhalen**:De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
+   * **[!UICONTROL Rephrase]**:De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-   * **Eenvoudige taal gebruiken**: Gebruik de AI-assistent om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Use simpler language]**: Gebruik de AI-assistent om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    ![](assets/text-genai-5.png){zoomable=&quot;yes&quot;}
 

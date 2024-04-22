@@ -6,9 +6,9 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 2a7cbf75bd3b847a62a4bb13edb9e3ee6fb5c9f0
+source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '449'
 ht-degree: 1%
 
 ---
@@ -78,9 +78,11 @@ In het volgende voorbeeld, zullen wij hefboomwerking de AI medewerker aan ambach
 
 1. Ga naar de **[!UICONTROL Refine]** in de **[!UICONTROL Preview]** venster voor toegang tot extra aanpassingsfuncties:
 
+   * **[!UICONTROL Use as reference content]**: De gekozen variant dient als referentie-inhoud voor het genereren van andere resultaten.
+
    * **[!UICONTROL Rephrase]**: De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
 
-   * **[!UICONTROL Use simple Language]**: Gebruik de AI-assistent om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Use simpler language]**: Gebruik de AI-assistent om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    ![](assets/push-genai-5.png){zoomable=&quot;yes&quot;}
 
