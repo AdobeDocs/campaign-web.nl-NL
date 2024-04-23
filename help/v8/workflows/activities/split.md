@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit Splitsen gebruiken
 description: Leer hoe u de activiteit van de gesplitste workflow gebruikt
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6d43966bd8283b62bf457b1a63ce968950b54c26
+source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,11 @@ De **Splitsen** activiteit is **Targeting** activiteit die u toestaat om inkomen
 >id="acw_orchestration_split_emptytransition"
 >title="Lege overgang overslaan"
 >abstract="Lege overgang overslaan."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_split_enable_overlapping"
+>title="Overlappende uitvoerpopulaties inschakelen"
+>abstract="Overlappende uitvoerpopulaties inschakelen"
 
 Voer de volgende stappen uit om de **Splitsen** activiteit:
 
