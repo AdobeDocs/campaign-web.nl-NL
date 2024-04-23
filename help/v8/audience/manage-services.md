@@ -3,7 +3,7 @@ audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 15418cd8de3ce640340eb3551786682173752910
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 1%
@@ -169,3 +169,18 @@ Om de doeltreffendheid van uw abonnementsdiensten voor SMS en e-mailkanalen te m
    * De **[!UICONTROL Overall evolution of subscriptions]** in de grafiek wordt de uitsplitsing naar periode weergegeven, met inbegrip van abonnementen, abonnementen, abonnementen, de ontwikkeling van de aantallen en het loyaliteitspercentage.<!--what is Registered?-->
 
 1. Gebruik de **[!UICONTROL Reload]** om de laatste waarden op te halen uit de uitvoering en het schema van de workflow voor bijhouden.
+
+<!--## Best practices {#best-practices}
+
+It is recommended to send a confirmation message to the new subscribers of a service. To do so, create a delivery template and select it when creating a subscription service. [Learn more](#create-confirmation-message).
+
+Send communications targeting your subscribers only. [Learn how](../msg/send-to-subscribers.md)
+
+Always provide your subscribers the capability to unsubscribe from your services. [Learn how](consent.md#email-opt-out)
+
+* When creating a confirmation message:
+
+    * Do not select an audience for this delivery.
+
+    * Select the **[!UICONTROL Subscriptions]** target mapping. Otherwise, your subscribers will not receive the confirmation message.
+-->
