@@ -5,7 +5,7 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 313b5688eee169612007b9704036ce1d8b89dd86
+source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 13%
@@ -136,7 +136,7 @@ ht-degree: 13%
       + [Workflowinstellingen configureren](workflows/workflow-settings.md)
       + [Uw workflows starten en controleren](workflows/start-monitor-workflows.md)
    + Werken met workflowactiviteiten {#design-workflows}
-      + [Informatie over workflowactiviteiten](workflows/activities/about-activities.md)
+      + [Workflowactiviteiten](workflows/activities/about-activities.md)
       + [En-join](workflows/activities/and-join.md)
       + [publiek opbouwen](workflows/activities/build-audience.md)
       + [Databron wijzigen](workflows/activities/change-data-source.md)
