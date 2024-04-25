@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: b8541fa0fe3a7ce905a202b719087132b7b8da14
+source-git-commit: 145fce5cfaafd0178ca9e85aea6996370c36da9d
 workflow-type: tm+mt
-source-wordcount: '2287'
+source-wordcount: '2295'
 ht-degree: 1%
 
 ---
@@ -608,3 +608,8 @@ Deprecated IDs - to remove in GA: -->
 >id="acw_delivery_alerting_dashboard_history"
 >title="Geschiedenis van leveringswaarschuwingen"
 >abstract="Geschiedenis van leveringswaarschuwingen"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_dashboard_create"
+>title="Waarschuwingsdashboard voor levering maken"
+>abstract="Waarschuwingsdashboard voor levering maken"
