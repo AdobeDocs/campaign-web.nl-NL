@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 145fce5cfaafd0178ca9e85aea6996370c36da9d
+source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2122'
 ht-degree: 1%
 
 ---
@@ -172,11 +172,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- Aligned with https://wiki.corp.adobe.com/display/neolane/v8+WebUI+Contextual+Help+%3CGA%3E-+Official+list -->
 
 >[!CONTEXTUALHELP]
->id="acw_recipients_creation_list"
->title="Ontvangers maken"
->abstract="Ontvangers maken"
-
->[!CONTEXTUALHELP]
 >id="acw_recipients_creation_cardoverview"
 >title="Overzicht van de ontvangerskaart"
 >abstract="Overzicht van de ontvangerskaart"
@@ -289,31 +284,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 <!-- ML: beta wiki page - not visible in UI-->
 
 <!-- FOR POST-GA -->
-
-
-
-<!--
-Deprecated IDs - to remove in GA: -->
-
->[!CONTEXTUALHELP]
->id="acw_attributepicker_advancedfields"
->title="Geavanceerde kenmerken weergeven"
->abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Activeer **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst in het linkerpalet van de regelbouwer weer te geven, zoals knooppunten, groepen, 1-1 koppelingen, 1-N-koppelingen."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_advancedfields"
->title="Geavanceerde velden voor regelbuilder"
->abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Activeer **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst in het linkerpalet van de regelbouwer weer te geven, zoals knooppunten, groepen, 1-1 koppelingen, 1-N-koppelingen."
-
->[!CONTEXTUALHELP]
->id="acw_rulebuilder_properties_advanced"
->title="Geavanceerde kenmerken van de builder van de regel"
->abstract="Alleen de meest voorkomende kenmerken worden standaard weergegeven in de lijst met kenmerken. Activeer **Geavanceerde kenmerken weergeven** schakelt u om alle beschikbare kenmerken voor de huidige lijst in het linkerpalet van de regelbouwer weer te geven, zoals knooppunten, groepen, 1-1 koppelingen, 1-N-koppelingen."
-
->[!CONTEXTUALHELP]
->id="acw_contenttemplate_readonlymode"
->title="Deze sjabloon is alleen gereed"
->abstract="U hebt geen machtigingen om deze sjabloon te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
 
 <!-- Subscription activity-->
 
