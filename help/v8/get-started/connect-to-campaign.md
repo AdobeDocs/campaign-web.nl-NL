@@ -2,9 +2,9 @@
 title: Verbinding maken met de Adobe Campaign-webinterface
 description: Leer hoe u verbinding maakt met de gebruikersinterface van Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -89,11 +89,12 @@ De taal wijzigen:
 1. Klik vervolgens op de taalkoppeling die onder uw e-mailadres wordt weergegeven.
 1. Selecteer uw voorkeurstaal en klik op **Opslaan**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
 
+<!--
 >[!CAUTION]
 >
->Als u van plan bent te gebruiken [Contextafhankelijke Help voor AI](using-ai.md) kunt gebruiken, moet u uw voorkeurstaal instellen op Engels. Andere talen worden niet ondersteund.
+>If you plan to use [AI-powered contextual help](using-ai.md) capabilities, you must set your prefered language to English. Other languages are not supported.
 >
-
+-->
 
 ## Donkere en lichte thema&#39;s {#dark-theme}
 

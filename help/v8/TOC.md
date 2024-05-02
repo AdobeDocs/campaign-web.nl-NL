@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 14%
+source-wordcount: '672'
+ht-degree: 15%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 14%
    + [Nieuwe functies](rn/whats-new.md)
    + [Nieuwste release](rn/release-notes.md)
    + [Documentatie-updates](rn/documentation-updates.md)
-   + [Overgang van Campaign Standard naar Campagne v8](rn/acs-migration.md)
+   + [Van Campaign Standard naar v8](rn/acs-migration.md)
 + Aan de slag met Adobe Campaign {#start}
    + [Aan de slag](get-started/get-started.md)
    + [Verbinding maken met campagne](get-started/connect-to-campaign.md)
@@ -28,7 +28,7 @@ ht-degree: 14%
    + [Bladeren en lijsten filteren](get-started/list-filters.md)
    + [Werken met vooraf gedefinieerde filters](get-started/predefined-filters.md)
    + [Toegang en machtigingen](get-started/permissions.md)
-   + [Campagne Web en de cliëntconsole van de Campagne](get-started/capability-matrix.md)
+   + [Campagne Web en de console van de Cliënt](get-started/capability-matrix.md)
    + [Contextafhankelijke Help voor AI](get-started/using-ai.md)
 + Berichten en leveringen {#msg}
    + [Aan de slag met berichten](msg/gs-messages.md)

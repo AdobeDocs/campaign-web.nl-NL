@@ -3,9 +3,9 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 36f13683f0a7e58dd684a69d84007136aa3132b8
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '499'
 ht-degree: 3%
 
 ---
@@ -111,7 +111,7 @@ De **Gegevensbron wijzigen** Door doelactiviteit toe te wijzen, kunt u de gegeve
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Aan de slag</strong><br/><a href="get-started/user-interface.md">Gebruikersinterface</a> - <a href="get-started/connect-to-campaign.md">Verbinding maken met campagne</a> - <a href="get-started/using-ai.md">Contextafhankelijke Help voor AI</a> - <a href="get-started/permissions.md">Toegang en machtigingen</a>
+      <strong>Aan de slag</strong><br/><a href="get-started/user-interface.md">Gebruikersinterface</a> - <a href="get-started/connect-to-campaign.md">Verbinding maken met campagne</a> - <a href="get-started/permissions.md">Toegang en machtigingen</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

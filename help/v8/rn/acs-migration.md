@@ -2,10 +2,10 @@
 audience: end-user
 title: Overgang van Campaign Standard naar Adobe Campaign Web
 description: Campagne-webgebruikersinterface ontdekken
-source-git-commit: 4c1f68f0e89b2b84b8845b2759ef3b0dc9b12033
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 5%
+source-wordcount: '588'
+ht-degree: 4%
 
 ---
 
@@ -40,7 +40,6 @@ Laten we dieper ingaan op de belangrijkste mogelijkheden die Campagne v8 u biedt
 * Nieuwe en herontworpen workflowactiviteiten voor campagnes. [Meer informatie](../workflows/gs-workflows.md)
 * Doelpubliek met de vraagmodeler. [Meer informatie](../query/query-modeler-overview.md)
 * Eenvoudig profiel maken en beheren. [Meer informatie](../audience/about-recipients.md)
-* Contextafhankelijke Help voor AI-apparaten. [Meer informatie](../get-started/using-ai.md)
 * Vooraf gedefinieerde filters. [Meer informatie](../get-started/predefined-filters.md)
 * HTML Converter voor e-mailontwerp. [Meer informatie](../email/existing-content.md)
 * SMS met voorstellen. [Meer informatie](../msg/offers.md)

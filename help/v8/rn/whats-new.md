@@ -3,9 +3,9 @@ audience: end-user
 title: Nieuw in de Gebruikersinterface van het Web van de Campagne
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: da861a0777a316e210b229d823e3f15b5a13ab2f
+source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
 workflow-type: tm+mt
-source-wordcount: '1265'
+source-wordcount: '1193'
 ht-degree: 4%
 
 ---
@@ -100,10 +100,10 @@ U kunt de nieuwe gebruikersinterface van het Web van de Campagne gebruiken aan *
 
     Learn more in [this section](../email/generative-gs.md).
 -->
+<!--
+**AI-powered Contextual Help**
 
-**Contextafhankelijke Help voor AI**
-
-Stel vragen en vind direct hulp van het productgebruikersinterface. De nieuwe **Contextafhankelijke Help voor AI** helpt u uw expertise op het gebied van nieuwe campagnefuncties te leren en uit te breiden. Op basis van de meest recente productdocumentatie helpt het u om hulp te zoeken en stap voor stap hulp te krijgen, aangezien u uw gebruiksgevallen bouwt. Deze functie is momenteel beschikbaar in bèta voor een beperkte set gebruikers. Lees meer in [deze sectie](../get-started/using-ai.md).
+Ask questions and find guidance directly from the product user interface. The new **AI-powered Contextual Help** helps you learn and grow your expertise on new Campaign features. Based on the latest product documentation, it assists you to find help and get step-by-step guidance instantly, as you are building your use cases. This feature is currently available in Beta, for a limited set of users. Learn more in [this section](../get-started/using-ai.md).-->
 
 **Vooraf gedefinieerde filters**
 
