@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 13%
+source-wordcount: '674'
+ht-degree: 14%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 13%
    + [Nieuwe functies](rn/whats-new.md)
    + [Nieuwste release](rn/release-notes.md)
    + [Documentatie-updates](rn/documentation-updates.md)
+   + [Overgang van Campaign Standard naar Campagne v8](rn/acs-migration.md)
 + Aan de slag met Adobe Campaign {#start}
    + [Aan de slag](get-started/get-started.md)
    + [Verbinding maken met campagne](get-started/connect-to-campaign.md)
@@ -145,12 +146,20 @@ ht-degree: 13%
       + [Deduplicatie](workflows/activities/deduplication.md)
       + [E-mail, SMS, Push, Direct mail](workflows/activities/channels.md)
       + [Verrijking](workflows/activities/enrichment.md)
+      + [Extern signaal](workflows/activities/external-signal.md)
+      + [Bestand extraheren](workflows/activities/extract-file.md)
       + [Vertakking](workflows/activities/fork.md)
+      + [Incrementele query](workflows/activities/incremental-query.md)
+      + [JavaScript-code](workflows/activities/javascript-code.md)
       + [Bestand laden](workflows/activities/load-file.md)
       + [Afstemming](workflows/activities/reconciliation.md)
       + [Doelgroep opslaan](workflows/activities/save-audience.md)
       + [Planner](workflows/activities/scheduler.md)
       + [Splitsen](workflows/activities/split.md)
+      + [Abonnementsdiensten](workflows/activities/subscription-services.md)
+      + [Testen](workflows/activities/test.md)
+      + [Bestand overdragen](workflows/activities/transfer-file.md)
+      + [Gegevens bijwerken](workflows/activities/update-data.md)
       + [Wachten](workflows/activities/wait.md)
 + De database opvragen {#query-database}
    + [Werken met de querymodelfunctie](query/query-modeler-overview.md)
@@ -184,4 +193,6 @@ ht-degree: 13%
    + [Werken met andere oplossingen voor Adobe](integrations/integration.md)
    + [Middelen beheren met Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Sjablonen beheren met Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
++ Beheer {#administration}
+   + [Aangepaste velden configureren](administration/custom-fields.md)
 

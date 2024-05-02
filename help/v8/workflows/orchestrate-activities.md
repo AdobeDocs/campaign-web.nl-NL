@@ -3,10 +3,10 @@ audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: acc2383edbca7b528098c1ddbd18efb3110d4354
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 0%
+source-wordcount: '1080'
+ht-degree: 1%
 
 ---
 
@@ -34,13 +34,25 @@ Als u een activiteit wilt verwijderen, selecteert u deze op het canvas en klikt 
 >
 >U kunt de naam van de overgangen tussen elke activiteit aanpassen. U doet dit door de overgang te selecteren en het label ervan te wijzigen in het rechterdeelvenster.
 
+## De werkbalk {#toolbar}
+
+De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de activiteiten eenvoudig kunt manipuleren en op het canvas kunt navigeren:
+
+* **Meerdere selectiemodus**: Selecteer meerdere activiteiten om deze allemaal tegelijk te verwijderen of kopieer en plak ze. Zie [deze sectie](#copy).
+* **Roteren**: Verander het canvas verticaal.
+* **Aanpassen aan scherm**: Pas het zoomniveau van het canvas aan op het scherm.
+* **Uitzoomen** / **Inzoomen**: Uitzoomen of op het canvas.
+* **Kaart weergeven**: Hiermee opent u een opname van het canvas waarop u uw locatie ziet.
+
+![](assets/workflow-toolbar.png){zoomable=&quot;yes&quot;}{width="50%"}
+
 ## Activiteiten beheren {#manage}
 
 Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelvenster Eigenschappen, zodat u meerdere bewerkingen kunt uitvoeren. U kunt:
 
 * **Verwijderen** de activiteit van het canvas.
 * **Uitschakelen/inschakelen** de activiteit. Wanneer de workflow wordt uitgevoerd, worden uitgeschakelde activiteiten en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de workflow gestopt.
-* **Kopiëren** de activiteit. U kunt het vervolgens in elke workflow plakken door op de knop **+** op een overgang en selecteert u &quot;Activiteiten plakken 1&quot;.
+* **Kopiëren** de activiteit. Zie [deze sectie](#copy).
 * Toegang krijgen tot de activiteiten **Logboeken en taken**.
 * **Pauzeren/hervatten** de activiteit. Wanneer de workflow wordt uitgevoerd, wordt de gepauzeerde activiteit gepauzeerd. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
 
@@ -49,6 +61,50 @@ Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelven
 Meerdere **Targeting** activiteiten, zoals **Combineren** of **Deduplicatie**, kunt u de resterende populatie verwerken en opnemen in een extra uitgaande overgang. Als u bijvoorbeeld een **Splitsen** de activiteit, bestaat het complement uit de populatie die niet overeenkwam met een van de eerder gedefinieerde subgroepen. Als u deze functie wilt gebruiken, activeert u de **Complement genereren** -optie.
 
 ![](assets/workflow-split-complement.png)
+
+## Activiteiten kopiëren {#copy}
+
+U kunt workflowactiviteiten kopiëren en deze in elke werkstroom plakken. De doelworkflow kan zich op een ander browsertabblad bevinden.
+
+Voor het kopiëren van activiteiten hebt u twee mogelijkheden:
+
+* Kopieer één activiteit gebruikend de actieknoop.
+
+  ![](assets/workflow-copy.png){zoomable=&quot;yes&quot;}{width="70%"}
+
+* Kopieer meerdere activiteiten met de werkbalkknop.
+
+  ![](assets/workflow-copy-2.png){zoomable=&quot;yes&quot;}{width="70%"}
+
+Als u de gekopieerde activiteiten wilt plakken, klikt u op de knop **+** en selecteer &quot;X-activiteit plakken&quot;.
+
+![](assets/workflow-copy-3.png){zoomable=&quot;yes&quot;}{width="50%"}
+
+## Execution options {#execution}
+
+Met alle activiteiten kunt u de uitvoeropties ervan beheren. Selecteer een activiteit en klik op **Uitvoeropties** knop. Hiermee kunt u de uitvoeringsmodus en het gedrag van de activiteit definiëren in het geval van fouten.
+
+![](assets/workflow-execution-options.png){zoomable=&quot;yes&quot;}{width="70%"}
+
+### Properties
+
+De **Uitvoering** in het veld kunt u de actie definiëren die moet worden uitgevoerd wanneer de taak wordt gestart.
+
+De **Maximale uitvoeringstermijn** kunt u een duur opgeven, bijvoorbeeld &#39;&#39;30s&#39;&#39; of &#39;&#39;1h&#39;&#39;. Als de activiteit niet wordt gebeëindigd nadat de gespecificeerde duur is verstreken, wordt een alarm teweeggebracht. Dit heeft geen invloed op de werking van de workflow.
+
+De **Tijdzone** kunt u de tijdzone van de activiteit selecteren. Met Adobe Campaign kunt u de tijdsverschillen tussen meerdere landen op hetzelfde moment beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
+
+**De affiniteit** in het veld kunt u een workflow of een werkstroomactiviteit op een bepaalde computer uitvoeren. Hiervoor moet u een of meer affiniteiten opgeven voor de workflow of activiteit in kwestie.
+
+De **Gedrag** kunt u in het veld de procedure definiëren die moet worden gevolgd wanneer asynchrone taken worden gebruikt.
+
+### Foutbeheer
+
+De **In geval van fout** in dit veld kunt u opgeven welke actie moet worden uitgevoerd als er een fout optreedt.
+
+### Initialisatiescript
+
+De **Initialisatiescript** Hiermee kunt u variabelen initialiseren of activiteitseigenschappen wijzigen. Klik op de knop **Code bewerken** en typ het uit te voeren codefragment. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd. Zie de sectie over [gebeurtenisvariabelen](../workflows/event-variables.md).
 
 ## Voorbeeld {#example}
 

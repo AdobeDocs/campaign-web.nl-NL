@@ -3,10 +3,10 @@ audience: end-user
 title: Je berichten bijhouden
 description: Leer hoe u koppelingen toevoegt en verzonden berichten bijhoudt
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: a95a70aa56061106a920584a3501cd4b1434ec8a
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 1%
+source-wordcount: '508'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,29 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 1. Selecteer een element en klik op **[!UICONTROL Insert link]** in de contextuele werkbalk.
 
+1. Kies het type koppeling dat u wilt maken:
+
    ![](assets/message-tracking-insert-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL External link]**: Voeg een koppeling naar een externe URL in.
+
+     >[!AVAILABILITY]
+     >
+     >De volgende mogelijkheden (koppeling naar **[!UICONTROL Landing page]**, **[!UICONTROL Subscription link]** en **[!UICONTROL Unsubscription link]**) in Beperkte Beschikbaarheid (LA). Ze zijn beperkt tot klanten die migreren **van Adobe Campaign Standard naar Adobe Campaign v8**, en kan niet worden ingezet op een andere omgeving.
+
+   * **[!UICONTROL Landing page]**: Koppelingen naar bestemmingspagina&#39;s invoegen. Als u een dynamische openingspagina selecteert (met de **[!UICONTROL Service from URL]** (geselecteerd), kunt u om het even welke dienst van de lijst selecteren. [Meer informatie](../landing-pages/create-lp.md#define-actions-on-form-submission)
+
+     ![](assets/email-link-to-landing-page.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Subscription link]**: Voeg een koppeling naar een abonnementenservice in. Wanneer gebruikers op de koppeling klikken, worden ze naar de bestemmingspagina van het abonnement verwezen in de geselecteerde service. [Meer informatie](../audience/manage-services.md#create-service)
+
+     ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+   * **[!UICONTROL Unsubscription link]**: Voeg een koppeling in naar een service zonder abonnement. Wanneer abonnees op de koppeling klikken, worden ze naar de bestemmingspagina geleid waarnaar in de geselecteerde service wordt verwezen. [Meer informatie](../audience/manage-services.md#create-service)
+
+   <!--* **[!UICONTROL Mirror page]**: Add a link to display the email content in a web browser. [Learn more]-->
+
+1. Voer de gewenste URL in het desbetreffende veld in of selecteer een openingspagina of een service en definieer de koppelingsinstellingen en -stijlen.
 
 1. Voeg een **[!UICONTROL Label]** en **[!UICONTROL Link]**.
 
@@ -41,7 +63,7 @@ Volg onderstaande stappen om koppelingen in te voegen in uw e-mailinhoud:
 
 >[!NOTE]
 >
->E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op het niveau van het kanaaloppervlak (d.w.z. de berichtvoorinstelling) en bij het maken van het bericht.
+>E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt gedefinieerd op het niveau van de kanaaloppervlakte en bij het maken van het bericht.
 
 In al uw e-mailberichten moet een specifieke koppeling naar de spiegel worden toegevoegd. Meer informatie over de spiegelpagina vindt u in [deze sectie](mirror-page.md).
 

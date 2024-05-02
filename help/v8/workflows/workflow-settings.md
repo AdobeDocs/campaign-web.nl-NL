@@ -3,10 +3,10 @@ audience: end-user
 title: Workflowinstellingen configureren
 description: Leer hoe u workflowinstellingen configureert met Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 1%
+source-wordcount: '1006'
+ht-degree: 0%
 
 ---
 
@@ -103,3 +103,8 @@ Wanneer de workflow [gekoppeld aan een campagne](create-workflow.md), wordt deze
    * **[!UICONTROL Abord the process]**: De workflow wordt automatisch beëindigd en de status ervan verandert in **[!UICONTROL Failed]**. Als het probleem is opgelost, start u de workflow opnieuw met de **[!UICONTROL Start]** knoppen.
 
 * **[!UICONTROL Consecutive errors]**: Dit veld is beschikbaar wanneer de **[!UICONTROL Ignore]** waarde is geselecteerd in het dialoogvenster **[!UICONTROL In case of errors]** veld. U kunt opgeven hoeveel fouten kunnen worden genegeerd voordat het proces wordt gestopt. Zodra dit aantal wordt bereikt, verandert de werkschemastatus in **[!UICONTROL Failed]**. Als de waarde van dit veld 0 is, wordt de workflow nooit gestopt, ongeacht het aantal fouten.
+
+## Initialisatiescript {#initialization-script}
+
+De **Initialisatiescript** Hiermee kunt u variabelen initialiseren of activiteitseigenschappen wijzigen. Klik op de knop **Code bewerken** en typ het uit te voeren codefragment. Het script wordt aangeroepen wanneer de workflow wordt uitgevoerd. Zie de sectie over [gebeurtenisvariabelen](../workflows/event-variables.md).
+
