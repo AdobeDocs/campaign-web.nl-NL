@@ -3,9 +3,9 @@ audience: end-user
 title: Nieuw in de Gebruikersinterface van het Web van de Campagne
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 1b27527865f8927ce31c2b962a43ffcd033dbef8
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1206'
 ht-degree: 4%
 
 ---
@@ -129,6 +129,8 @@ Bovendien zijn al uw gegevens en montages reeds beschikbaar in de cliëntconsole
 Met het gebruikersinterface van het Web van de Campagne, wijst het gebruikersinterface op de toestemmingen van de gebruiker. Meer informatie over machtigingen in [deze pagina](../get-started/permissions.md).
 
 Ondersteunde en niet-ondersteunde mogelijkheden en interoperabiliteit tussen de gebruikersinterface van het Web van de Campagne en de de cliëntconsole van de Campagne [op deze pagina](../get-started/capability-matrix.md).
+
+Als gebruiker van het Campaign Standard die naar Campaign v8 overgaat, [verwijzen naar deze pagina](../rn/acs-migration.md).
 
 ## Terminologie-updates {#terminology-updates}
 
