@@ -2,9 +2,10 @@
 title: Een landingspagina maken
 description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 feature: Landing Pages
-source-git-commit: 2afb8c03305262c5695121fb03936c6d738833b5
+exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
+source-git-commit: bedd313fc12d9d221a60ec624257a9a766285252
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1419'
 ht-degree: 1%
 
 ---
@@ -60,7 +61,9 @@ U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Opties voor vooraf laden definiëren"
->abstract="Wanneer de **Vooraf invullen met de gegevens waarnaar in het formulier wordt verwezen** is geselecteerd, als de bezoeker van de landingspagina een profiel uit de database aanpast, wordt de profielinformatie automatisch vooraf in het formulier geladen. Met de **Voorladen overslaan als geen id** als deze optie is geselecteerd, wordt elk ingevoerde profiel na goedkeuring van het formulier toegevoegd aan de database."
+>abstract="Wanneer de **Vooraf invullen met de gegevens waarnaar in het formulier wordt verwezen** is geselecteerd, als de bezoeker van de landingspagina een profiel uit de database aanpast, wordt de profielinformatie automatisch vooraf in het formulier geladen. Met de **Geen id autoriseren** geselecteerde optie, kan om het even welke bezoeker, met inbegrip van anonieme gebruikers, tot de landingspagina toegang hebben."
+
+<!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_storage"
@@ -97,21 +100,41 @@ Ga als volgt te werk om een bestemmingspagina te maken:
 
    ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
 
-1. In de **[!UICONTROL Data preload]** de twee onderstaande opties zijn standaard geselecteerd:
+1. In de **[!UICONTROL Data preload]** de volgende twee opties zijn beschikbaar:
 
    * Wanneer de **[!UICONTROL Pre-fill with the data referenced in the form]** is geselecteerd, als de bezoeker van de landingspagina een profiel uit de database aanpast, wordt de profielinformatie automatisch vooraf in het formulier geladen. De gebruiker hoeft alleen de ontbrekende velden in te vullen en de bestaande waarden indien nodig bij te werken. Hiermee kunt u gegevens voor bestaande profielen samenvoegen in plaats van duplicaten te maken.
 
-   * De **[!UICONTROL Skip preloading if no ID]** Selecteer deze optie als u geen profielen wilt bijwerken. In dat geval wordt elk ingevoerde profiel na goedkeuring van het formulier toegevoegd aan de database. Deze optie wordt bijvoorbeeld gebruikt wanneer het formulier op een website wordt geplaatst.
+     >[!NOTE]
+     >
+     >Deze optie is standaard geselecteerd voor alle sjablonen van de bestemmingspagina.
+
+   <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
+
+   * De **[!UICONTROL Authorize absence of ID]** geeft elke bezoeker toegang tot de landingspagina. Als u deze optie uitschakelt, kunnen anonieme bezoekers het formulier niet gebruiken. Dit betekent dat alleen bepaalde gebruikers het formulier kunnen openen en verzenden.
+
+     >[!AVAILABILITY]
+     >
+     >Dit vermogen is in Beperkte Beschikbaarheid (LA). Alleen klanten die migreren **van Adobe Campaign Standard naar Adobe Campaign v8**, en kan niet worden ingezet op een andere omgeving.
+
+     Voor de **[!UICONTROL Acquisition]** en **[!UICONTROL Subscription]** sjablonen, is deze optie standaard geselecteerd. Voor de **[!UICONTROL Unsubscription]** en **[!UICONTROL Denylist]** sjablonen, deze optie is standaard uitgeschakeld en kan niet worden gewijzigd<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
 1. Een openingspagina kan volgende pagina&#39;s hebben. Blader door de **[!UICONTROL Pages]** en klikt u op de **[!UICONTROL Edit content]** voor elke pagina die u voor deze openingspagina wilt ontwerpen. De inhoud van elke pagina is al vooraf ingevuld. Bewerk deze indien nodig. [Meer informatie](lp-content.md)
 
    ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
 
-1. De **[!UICONTROL Update the preloaded record]** is standaard geselecteerd. Hiermee kunt u de profielen die in de database zijn opgeslagen, bijwerken via de bestemmingspagina. In het vak Voorladen kunt u aangeven hoe de record moet worden gevonden die in de database moet worden bijgewerkt.
+1. In de **[!UICONTROL Storage]** de **[!UICONTROL Update the preloaded record]** is standaard geselecteerd. Hiermee kunt u de profielen die in de database zijn opgeslagen, bijwerken via de bestemmingspagina. In het vak Voorladen kunt u aangeven hoe de record moet worden gevonden die in de database moet worden bijgewerkt.
 
    U kunt ook kiezen uit de velden in de huidige context van de bestemmingspagina, de velden die worden gebruikt om het bijbehorende profiel in de database te vinden. U doet dit door de selectie van de optie **[!UICONTROL Update the preloaded record]** en controleer de gewenste velden onder **[!UICONTROL Reconciliation options]**.
 
    ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
+
+1. Maken **[!UICONTROL Additional data]** om interne gegevens op te slaan wanneer de landingspagina wordt ingediend. Deze gegevens zijn niet zichtbaar voor gebruikers die de pagina bezoeken. Alleen constante waarden worden in aanmerking genomen.
+
+   >[!AVAILABILITY]
+   >
+   >Dit vermogen is in Beperkte Beschikbaarheid (LA). Alleen klanten die migreren **van Adobe Campaign Standard naar Adobe Campaign v8**, en kan niet worden ingezet op een andere omgeving.
+
+   ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
 
 1. U kunt een begindatum en een einddatum voor uw landingspagina bepalen. Selecteren **[!UICONTROL Enable scheduling]** en stelt de datums in.
 
@@ -160,6 +183,8 @@ Voer de volgende stappen uit om de bestemmingspagina te testen:
 1. Van de **[!UICONTROL Simulate]** selecteert u een of meer testprofielen.
 
    De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Zij worden in het [Voorvertonen en testen](../preview-test/preview-test.md) sectie.
+
+1. Bij het testen van een dynamische landingspagina (met de **[!UICONTROL Service from URL]** geselecteerde optie - [Meer informatie](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
 1. Selecteren **[!UICONTROL Open preview]** om de openingspagina te testen.
 
