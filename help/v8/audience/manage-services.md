@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 15418cd8de3ce640340eb3551786682173752910
+source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -53,6 +53,11 @@ Volg onderstaande stappen om abonnementsservices die beschikbaar zijn voor uw pl
 >title="Selecteer een bevestigingsbericht"
 >abstract="Wanneer een gebruiker zich abonneert op of zich niet abonneert op een service, kunt u een bevestigingsbericht verzenden. Selecteer de sjablonen die u voor dat bericht wilt gebruiken."
 
+>[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Standaardlandingspagina"
+>abstract="Selecteer de standaardbestemmingspagina&#39;s verbonden aan deze dienst."
+
 Voer de onderstaande stappen uit om een abonnementenservice te maken.
 
 1. Selecteer de knop **[!UICONTROL Create subscription service]**.
@@ -81,9 +86,25 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 
 1. Klik op **[!UICONTROL Save and review]**. De nieuwe dienst wordt toegevoegd aan **[!UICONTROL Subscription services]** lijst.
 
+1. U kunt ook de standaardbestemmingspagina&#39;s voor abonnementen en abonnementen selecteren die aan deze service zijn gekoppeld.
+
+   >[!AVAILABILITY]
+   >
+   >Dit vermogen is in Beperkte Beschikbaarheid (LA). Alleen klanten die migreren **van Adobe Campaign Standard naar Adobe Campaign v8**, en kan niet worden ingezet op een andere omgeving.
+
+   ![](assets/service-create-default-lp.png){zoomable=&quot;yes&quot;}
+
+   Eenmaal gedaan, wanneer [invoegen van een koppeling](../email/message-tracking.md) in een e-mail selecteert u **[!UICONTROL Subscription link]** of **[!UICONTROL Unsubscription link]**. Als gebruikers op die koppeling klikken, worden ze doorgestuurd naar de bestemmingspagina voor abonnementen of abonnementen waarnaar in de service wordt verwezen. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+
+   ![](assets/service-create-default-lp-link.png){zoomable=&quot;yes&quot;}
+
+1. Sla uw wijzigingen op en controleer deze.
+
 U kunt nu het volgende:
 
-* Abonnees toevoegen aan deze service en abonnementsprofielen opzeggen. [Meer informatie](../msg/send-to-subscribers.md)
+* Voeg handmatig abonnees aan deze service toe en trek profielen af. [Meer informatie](../audience/manage-subscribers.md)
+
+* Uw klanten uitnodigen om zich op deze service in te schrijven via een openingspagina. [Meer informatie](../landing-pages/lp-use-cases.md#lp-subscription)
 
 * Verzend berichten naar de abonnees van deze dienst. [Meer informatie](../msg/send-to-subscribers.md)
 

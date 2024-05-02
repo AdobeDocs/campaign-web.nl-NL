@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 435e0ab87fa46a699b6df8f9983b5c2d86b19805
+source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
 workflow-type: tm+mt
-source-wordcount: '2122'
+source-wordcount: '1789'
 ht-degree: 1%
 
 ---
@@ -285,29 +285,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- FOR POST-GA -->
 
-<!-- Subscription activity-->
-
->[!CONTEXTUALHELP]
->id="acw_subscriptions_defaultlp"
->title="Standaardlandingspagina"
->abstract="Selecteer de standaardlandingspagina die aan deze abonnementenservice is gekoppeld."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription"
->title="Abonnementsserviceactiviteiten"
->abstract="Gebruik Adobe Campaign om uw services, zoals nieuwsbrieven, te maken en te controleren en om de abonnementen op of het afmelden van deze services te controleren. Abonnementen gelden alleen voor verzending via e-mail en SMS."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_general"
->title="Abonnementsserviceparameters"
->abstract="Selecteer en bevestig de instellingen voor de abonnementsservice."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_subscription_outboundtransition"
->title="Uitgaande overgang van abonnementsdiensten"
->abstract="Schakelen tussen **Een uitgaande overgang genereren** om een overgang toe te voegen na de activiteit."
-
-
 <!--Update file-->
 
 >[!CONTEXTUALHELP]
@@ -345,85 +322,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Produceer een uitgaande overgang voor verwerpingen."
 >abstract="Schakelen tussen **Een uitgaande overgang genereren voor afwijzing** om een uitgaande overgang toe te voegen die records bevat die niet correct zijn verwerkt na de update (bijvoorbeeld als er een duplicaat is). De update markeert doorgaans het einde van een doelworkflow en daarom wordt de optie niet standaard geactiveerd."
 
-
-
-<!--External Signal End-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal"
->title="Extern signaal"
->abstract="De **Extern signaal** Met activiteit kunt u de uitvoering van een set taken in een workflow starten vanuit een API of een andere workflow."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_externalsignal_parameters"
->title="Externe signaalparameters"
->abstract="Externe signaalparameters"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_end_trigger"
->title="Eindtriggers"
->abstract="Eindtriggers"
-
-
-<!--JavaScript-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript"
->title="JavaScript-code"
->abstract="De **JavaScript-code** een JavaScript-code uitvoeren in de context van een workflow."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_snippet"
->title="JavaScript-fragment"
->abstract="Configureer de uit te voeren code."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/api" text="Meer informatie in de documentatie van Campagne v8 (console)"
-
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_execution"
->title="JavaScript uitvoeren"
->abstract="Standaard kan de uitvoeringsfase niet langer duren dan 1 uur. Na deze vertraging wordt het proces afgebroken met een foutbericht en mislukt de uitvoering van de activiteit. Schakelen tussen **Uitvoering stoppen na** om een aangepaste vertraging te definiëren. Als u deze limiet wilt negeren, stelt u de waarde in op 0."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_javascript_transition"
->title="Procesfouten"
->abstract="Schakelen tussen **Procesfouten** om een uitgaande overgang toe te voegen die fouten bevat."
-
-
-
-<!--ExtractFile-->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile"
->title="Bestand extraheren"
->abstract="Bestandsactiviteit extraheren"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_file"
->title="Te extraheren bestand"
->abstract="Selecteer het bestand dat u wilt extraheren."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_destinationformat"
->title="Bestemmingsindeling"
->abstract="Selecteer de indeling."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_postprocessing"
->title="Nabewerking"
->abstract="Een naverwerkingsstap definiëren"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_outbound"
->title="Uitgaande overgang"
->abstract="Schakelen tussen **Een uitgaande overgang genereren** optie om een uitgaande overgang toe te voegen na de huidige activiteit."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_extractfile_error"
->title="Procesfouten"
->abstract="Schakelen tussen **Procesfouten** om een uitgaande overgang toe te voegen die fouten bevat."
-
 <!-- Workflow settings -->
 
 >[!CONTEXTUALHELP]
@@ -445,82 +343,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_workflow_settings_execution_initscript"
 >title="Initialisatiescript voor uitvoering"
 >abstract="Initialisatiescript voor uitvoering"
-
-
-<!--incremental querry -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery"
->title="Incrementele query"
->abstract="Incrementele query"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_history"
->title="Incrementele querygeschiedenis"
->abstract="Incrementele querygeschiedenis"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_incrementalquery_processeddata"
->title="Incrementele query verwerkte gegevens"
->abstract="Incrementele query verwerkte gegevens"
-
-
-<!-- Transfer file activity -->
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile"
->title="Bestand overdragen"
->abstract="Bestand overdragen"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_options"
->title="Opties voor bestandsoverdracht"
->abstract="Opties voor bestandsoverdracht"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_activity"
->title="Bestandsactiviteiten overdragen"
->abstract="Bestandsactiviteiten overdragen"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_remoteserver"
->title="Externe server voor bestandsoverdracht"
->abstract="Externe server voor bestandsoverdracht"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_source"
->title="Bestandsbron overdragen"
->abstract="Bestandsbron overdragen"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="Bronbestanden na overdracht verwijderen"
->abstract="Bronbestanden na overdracht verwijderen"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="De sessielogboeken weergeven"
->abstract="De sessielogboeken weergeven"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="Alle bestanden weergeven"
->abstract="Alle bestanden weergeven"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="Bestandshistorie"
->abstract="Bestandshistorie"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="Ontbrekende bestanden verwerken"
->abstract="Ontbrekende bestanden verwerken"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="Procesfouten"
->abstract="Procesfouten"
 
 <!-- Delivery alerting -->
 
@@ -565,6 +387,9 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Afleveringswaarschuwing"
 
 >[!CONTEXTUALHELP]
+>id="acw_subscriptions_defaultlp"
+>title="Standaardlandingspagina"
+>abstract="Selecteer de standaardlandingspagina die aan deze abonnementenservice is gekoppeld."
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Parameters van de leveringsalarmeringscriteria"
 >abstract="Afleveringswaarschuwing"

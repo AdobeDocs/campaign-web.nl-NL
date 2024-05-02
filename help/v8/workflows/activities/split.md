@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit Splitsen gebruiken
 description: Leer hoe u de activiteit van de gesplitste workflow gebruikt
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 1637a88b1dcd299f5cdc11f030cdf3f6eec8ad97
+source-git-commit: 575219c7bcef303e211f504d13227183933924cc
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ De **Splitsen** activiteit is **Targeting** activiteit die u toestaat om inkomen
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_emptytransition"
 >title="Lege overgang overslaan"
->abstract="Lege overgang overslaan."
+>abstract="Schakelen tussen **[!UICONTROL Skip empty transition]** optie aan om de outputovergang voor deze ondergroep onbruikbaar te maken als de inkomende bevolking leeg is."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
@@ -85,6 +85,8 @@ Voer de volgende stappen uit om de **Splitsen** activiteit:
    1. Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en vorm de gewenste het filtreren regel gebruikend de vraagmodeler. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres voorkomt in de database. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md)
 
    1. Als u het aantal profielen dat door de subset is geselecteerd, wilt beperken, schakelt u het **[!UICONTROL Enable limit]** en geeft het aantal of de percentages van de populatie aan die moeten worden opgenomen.
+
+   1. Om een overgang onbruikbaar te maken als de inkomende bevolking leeg is, knevel **[!UICONTROL Skip empty transition]** optie ingeschakeld. Als geen profiel overeenkomt met de subset, gaat de workflow niet naar de volgende activiteit.
 
       ![](../assets/workflow-split-subset.png)
 
