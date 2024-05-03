@@ -2,9 +2,9 @@
 title: Opmerkingen bij de laatste release
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: e98a1cf9bcda2183dbfa2c607b53f0aa2f70a998
+source-git-commit: f6a1ebcb5a77798f738e2a4ac0b45454d941d7c7
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1137'
 ht-degree: 6%
 
 ---
@@ -17,7 +17,7 @@ De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een onond
 
 ## Release-aantekeningen april {#april-24-4-release}
 
-**Releasedatum**: 30 april 2024
+**Releasedatum** 2 mei 2024
 
 ### Nieuwe functies {#new-24-4}
 
@@ -60,8 +60,6 @@ The Audit trail feature constantly records a detailed log of actions and events 
 
 * **Dynamische rapportage** - Als gemigreerde gebruiker van het Campaign Standard, kunt u tot Dynamische Rapportering toegang hebben die volledig klantgerichte en real-time rapporten verstrekt om de invloed van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
 
-* **Verbetering bestandsactiviteit laden** - de **Bestand laden** De activiteit is verbeterd met verscheidene secties toelatend u om een steekproefdossier te uploaden, fouten te beheren en geuploade dossiers te schrappen nadat de activiteit is uitgevoerd. [Meer informatie](../workflows/activities/load-file.md)
-
 * **Openingspagina&#39;s** - De volgende verbeteringen aan bestemmingspagina&#39;s zijn alleen beschikbaar voor gebruikers die van Campaign Standard overgaan:
 
    * U kunt nu naar een standaardlandingspagina voor abonnementen/abonnementen verwijzen wanneer u een service configureert. Als u bij het ontwerpen van een e-mailbericht een koppeling naar die landingspagina definieert, worden gebruikers die het formulier voor de bestemmingspagina verzenden, automatisch geabonneerd op of geabonneerd van deze service. [Meer informatie](../audience/manage-services.md#create-service)
@@ -75,11 +73,14 @@ The Audit trail feature constantly records a detailed log of actions and events 
 De verbeteringen hieronder zijn beschikbaar aan alle klanten vanaf de release van april.
 <!--**Workflow - Copy/Paste into another tab**: -->
 
-* U kunt activiteiten nu kopiëren/plakken van een workflow naar een andere workflow vanuit een ander browsertabblad. [Meer informatie](../workflows/orchestrate-activities.md#copy-activities-copy)
+* De **Bestand laden** De activiteit is verbeterd met verscheidene secties toelatend u om een steekproefdossier te uploaden, fouten te beheren en geuploade dossiers te schrappen nadat de activiteit is uitgevoerd. [Meer informatie](../workflows/activities/load-file.md)
+
+
+* U kunt nu **kopiëren/plakken-activiteiten** van een workflow naar een andere workflow vanuit een ander browsertabblad. [Meer informatie](../workflows/orchestrate-activities.md#copy-activities-copy)
 
 <!--**Workflow - Execution options**: -->
 
-* Met alle workflowactiviteiten kunt u nu de uitvoeringsopties ervan beheren. Hiermee kunt u de uitvoeringsmodus en het gedrag van de activiteit definiëren in het geval van fouten. [Meer informatie](../workflows/orchestrate-activities.md#execution-options-execution)
+* Met alle workflowactiviteiten kunt u nu hun **uitvoeringsopties**. Hiermee kunt u de uitvoeringsmodus en het gedrag van de activiteit definiëren in het geval van fouten. [Meer informatie](../workflows/orchestrate-activities.md#execution-options-execution)
 
 <!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
 
@@ -87,7 +88,7 @@ De verbeteringen hieronder zijn beschikbaar aan alle klanten vanaf de release va
 
 <!--* **Support of custom fields**-->
 
-* Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan de out-of-the-box-schema&#39;s worden toegevoegd. In de webgebruikersinterface van Campagne zijn deze aangepaste velden nu zichtbaar in verschillende schermen, bijvoorbeeld de details van een profiel of een testprofiel. In de webgebruikersinterface kunt u geen aangepaste velden maken, maar u kunt nu de manier wijzigen waarop ze worden weergegeven. [Meer informatie](../administration/custom-fields.md)
+* **Aangepaste velden** zijn extra kenmerken die via de Adobe Campaign-console aan de out-of-the-box-schema&#39;s worden toegevoegd. In de webgebruikersinterface van Campagne zijn deze aangepaste velden nu zichtbaar in verschillende schermen, bijvoorbeeld de details van een profiel of een testprofiel. In de webgebruikersinterface kunt u geen aangepaste velden maken, maar u kunt nu de manier wijzigen waarop ze worden weergegeven. [Meer informatie](../administration/custom-fields.md)
 
 
 ## Opmerkingen bij de release maart {#24-3-release}

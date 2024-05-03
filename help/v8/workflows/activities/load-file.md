@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit voor het laden van bestanden gebruiken
 description: Leer hoe u de workflowactiviteit Bestand laden gebruikt
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1153'
 ht-degree: 2%
 
 ---
@@ -42,10 +42,6 @@ De **Bestand laden** de activiteitenconfiguratie omvat twee stappen. Eerst moet 
 ![](../assets/workflow-load-file.png)
 
 ### Voorbeeldbestand configureren {#sample}
-
->[!AVAILABILITY]
->
->Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die op een server van de Campagne v8.7 lopen en kan niet op een andere milieu worden opgesteld.
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_samplefile"
@@ -122,6 +118,8 @@ Voer de volgende stappen uit om het voorbeeldbestand te configureren dat wordt g
 >
 >Voordat u het doelbestand laadt, moet u controleren of het bestand voldoet aan de indeling van het voorbeeldbestand. Eventuele verschillen in bestandsindeling, kolomstructuur of aantal kolommen kunnen leiden tot fouten tijdens de uitvoering van de workflow.
 
+Voer de volgende stappen uit om het te uploaden doelbestand te definiëren:
+
 1. In de **[!UICONTROL Target file]** , geeft u de actie op die moet worden uitgevoerd wanneer u het bestand ophaalt dat u op de server wilt uploaden.
 
    * **[!UICONTROL Upload file from local machine]**: Selecteer het bestand dat u wilt uploaden van uw computer.
@@ -150,10 +148,6 @@ Voer de volgende stappen uit om het voorbeeldbestand te configureren dat wordt g
 >title="Bestand verwijderen na importeren"
 >abstract="Schakelen tussen **Bestand verwijderen na importeren** om het oorspronkelijke bestand van de server te verwijderen nadat het bestand is geïmporteerd."
 
-
->[!AVAILABILITY]
->
->Deze opties staan in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die op een server van de Campagne v8.7 lopen en kunnen niet op een andere milieu worden opgesteld.
 
 1. In de **Afwijzen** in, geeft u aan hoe de activiteit zich moet gedragen in het geval van fouten:
 
