@@ -2,14 +2,21 @@
 audience: end-user
 title: De incrementele activiteit van de querywerkstroom gebruiken
 description: Leer hoe te om de Incrementele activiteit van het vraagwerkschema te gebruiken
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 20%
+source-wordcount: '751'
+ht-degree: 22%
 
 ---
 
 # Incrementele query {#incremental-query}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Incrementele query-activiteit"
+>abstract="Gebruik de nieuwe Incrementele activiteit van de Vraag om het gegevensbestand op een geplande basis te vragen. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Zo kunt u doelgericht alleen nieuwe elementen benaderen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"

@@ -2,22 +2,15 @@
 audience: end-user
 title: Aan de slag met directe mailleveringen
 description: Leer hoe u direct-mailzendingen kunt maken en verzenden met Adobe Campaign Web
-source-git-commit: 9ec5483a5253d67110baf6a51b47ebe0c27574d5
+exl-id: a1c778e2-e950-4b8f-875a-87b39eb732c2
+source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
 
-
 # Aan de slag met directe mailleveringen {#gs-direct-mail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Direct mail"
->abstract="Het Direct-mailkanaal is nu beschikbaar voor gebruik in workflows en op zichzelf staande leveringen. Gebruik het off-line kanaal van de Post om een extractiedossier tot stand te brengen, te personaliseren en te produceren, en het met uw directe postleveranciers te delen om post naar uw klanten te verzenden."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
-
 
 Directe post is een off-line kanaal dat u toestaat om dossiers aan massa te veroorzaken die gepersonaliseerde brieven aan uw klanten zoals postcards, vliegers, of catalogi leveren.
 
