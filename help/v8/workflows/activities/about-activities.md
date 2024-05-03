@@ -3,10 +3,10 @@ audience: end-user
 title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: a0086f41463524cf2bebef6bda31bb079b28259d
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 0%
+source-wordcount: '567'
+ht-degree: 4%
 
 ---
 
@@ -23,19 +23,31 @@ Alle activiteiten worden beschreven in de volgende onderdelen:
 
 ![](../assets/workflow-activities.png)
 
-## Gerichte activiteiten en gegevensbeheer {#targeting}
+## Gerichte activiteiten {#targeting}
 
-Deze activiteiten zijn specifiek gericht op het richten, manipuleren en verrijken van bevolkingsgegevens. Met deze instructies kunt u een of meer doelen maken door een publiek te definiëren en deze soorten publiek te splitsen of te combineren met een doorsnede-, samenvoegings- of uitsluitingsbewerking.
+Deze activiteiten zijn specifiek gericht op de doelgroepen. Met deze instructies kunt u een of meer doelen maken door een publiek te definiëren en deze soorten publiek te splitsen of te combineren met een doorsnede-, samenvoegings- of uitsluitingsbewerking.
 
-* Gebruik de [Adviezen opslaan](save-audience.md) activiteit om een bestaand publiek bij te werken of een nieuw publiek van de bevolking te creëren die stroomopwaarts in een werkschema wordt berekend.
-* Gebruik de [publiek opbouwen](build-audience.md) activiteit om uw doelpopulatie te bepalen. U kunt of een bestaand publiek selecteren of de vraagmodeler gebruiken om uw eigen vraag te bepalen.
-* Gebruik de [Combineren](combine.md) activiteit om segmentatie op uw binnenkomende bevolking uit te voeren. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
-* Gebruik de [Splitsen](split.md) activiteit om de binnenkomende bevolking in verschillende subgroepen te segmenteren.
-* Gebruik de [Verzoening](reconciliation.md) activiteit om de verbinding tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen.
-* Gebruik de [Verrijking](enrichment.md) om aanvullende gegevens te definiëren die in uw workflow moeten worden verwerkt. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
-* Gebruik de [Deduplicatie](deduplication.md) activiteit om duplicaten in het resultaat(en) van de binnenkomende activiteiten te verwijderen.
-* Gebruik de [Dimensie wijzigen](change-dimension.md) activiteit om de het richten dimensie te veranderen aangezien u uw werkschema bouwt.
-* Gebruik de [Bestand laden](load-file.md) om te werken met profielen en gegevens die in een extern bestand zijn opgeslagen.
+* [publiek opbouwen](build-audience.md): Definieer de doelpopulatie. U kunt of een bestaand publiek selecteren of de vraagmodeler gebruiken om uw eigen vraag te bepalen.
+* [Gegevensbron wijzigen](change-data-source.md): Wijzig de gegevensbron voor de werktabel van uw workflow.&quot;
+* [Dimensie wijzigen](change-dimension.md): Wijzig de doeldimensie terwijl u uw workflow maakt.
+* [Combineren](combine.md): Voer segmentatie op uw binnenkomende bevolking uit. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
+* [Deduplicatie](deduplication.md): Verwijder duplicaten van de resultaten van de binnenkomende activiteiten.
+* [Verrijking](enrichment.md): Definieer aanvullende gegevens die in uw workflow moeten worden verwerkt. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
+* [Incrementele query](incremental-query.md): Vraag de database op een geplande basis op. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Zo kunt u doelgericht alleen nieuwe elementen benaderen.
+* [Verzoening](reconciliation.md): Definieer de koppeling tussen de gegevens in de Adobe Campaign-database en de gegevens in een werktabel, bijvoorbeeld gegevens die uit een extern bestand zijn geladen.
+* [Adviezen opslaan](save-audience.md): Werk een bestaand publiek bij of maak een nieuw publiek van de populatie die stroomopwaarts in een werkstroom wordt berekend.
+* [Splitsen](split.md): Segmenteer de binnenkomende populatie in verschillende subsets.
+
+## Gegevensbeheeractiviteiten {#data}
+
+Deze activiteiten zijn specifiek gericht op het manipuleren en verrijken van bevolkingsgegevens.
+
+* [Bestand uitpakken](extract-file.md): Exporteer gegevens van Adobe Campaign naar een ander systeem als een extern bestand.
+* [Bestand laden](load-file.md): Werken met profielen en gegevens die zijn opgeslagen in een extern bestand.
+* [Bestand overbrengen](transfer-file.md): Ontvang of verzend dossiers, test op dossieraanwezigheid, of lijstdossiers op een server. Het gebruikte protocol kan of server-aan-server protocol of het protocol van HTTP zijn.
+* [JavaScript-code](javascript-code.md): Een JavaScript-codefragment uitvoeren in de context van een workflow.
+* [Abonnementsdiensten](subscription-services.md): U kunt meerdere profielen in één handeling aan een service toewijzen of het abonnement op de service opzeggen.
+* [Gegevens bijwerken](update-data.md): Hiermee voert u massa-updates uit op velden in de database. Met verschillende opties kunt u de gegevensupdate aanpassen.
 
 ## Kanaalactiviteiten {#channel}
 
@@ -50,18 +62,10 @@ Met Adobe Campaign Web kunt u marketingcampagnes op meerdere kanalen automatiser
 
 De volgende activiteiten zijn specifiek voor het organiseren en uitvoeren van workflows. Hun voornaamste taak is de coördinatie van de andere activiteiten:
 
-* Gebruik de [Planner](scheduler.md) activiteit om te plannen wanneer de werkstroom begint.
-* Gebruik de [En-join](and-join.md) activiteit om veelvoudige uitvoertakken van een werkschema te synchroniseren.
-* Een **Einde** activiteit om het einde van een werkstroom grafisch te markeren. Deze activiteit heeft geen functioneel effect en is daarom optioneel.
-* Gebruik de [Vork](fork.md) activiteit om uitgaande overgangen tot stand te brengen om verscheidene activiteiten tezelfdertijd te beginnen.
-* Voeg een [Wachten](wait.md) activiteit om de uitvoering van een deel van een werkstroom tijdelijk te pauzeren.
-
-<!--
-## Data management activities {#data-management}
-
-overview: what they're used for
-which use case you can perform with them
-
-list available activities + short description + ref to section
--->
-
+* [En-join](and-join.md): Meerdere uitvoeringstakken van een workflow synchroniseren.
+* **Einde**: Geeft grafisch het einde van een workflow aan. Deze activiteit heeft geen functioneel effect en is daarom optioneel
+* [Extern signaal](external-signal.md): Trigger de uitvoering van een werkstroom van een andere werkschema, of een API vraag.
+* [Vork](fork.md): Maak uitgaande overgangen om meerdere activiteiten tegelijk te starten.
+* [Planner](scheduler.md): Plan wanneer de workflow wordt gestart.
+* [Testen](test.md): Schakel overgangen in op basis van opgegeven voorwaarden.
+* [Wachten](wait.md): Onderbreek tijdelijk de uitvoering van een deel van een workflow.
