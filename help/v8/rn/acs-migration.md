@@ -2,13 +2,13 @@
 audience: end-user
 title: Overgang van Campaign Standard naar Adobe Campaign Web
 description: Campagne-webgebruikersinterface ontdekken
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
+source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 4%
 
 ---
-
 
 # Overgang van Campaign Standard naar Campagne v8{#welcome}
 
@@ -64,10 +64,10 @@ De meeste concepten zijn gelijkaardig tussen de interface van het Web van de Cam
 * Aangepaste bronnen zijn **Schemas** in de gebruikersinterface van het Web van de Campagne.
 * Marketing-activiteiten bestaan niet meer.
 * Berichten zijn **Leveringen**.
-* Operatoren zijn **Gebruikers**.
-* Benoemde rechten zijn **Rollen**.
-* Operatorgroepen zijn **Beveiligingsgroepen**.
-* Mapmachtigingen zijn **Organisatorische eenheden**
+* Gebruikers zijn **Operatoren**.
+* Rollen zijn **Benoemde rechten**.
+* Beveiligingsgroepen zijn **Operatorgroepen**.
+* Organisatorische eenheden **Mapmachtigingen**
 
 ## Nieuwe functies {#new-features}
 
