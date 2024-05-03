@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: b1dc684593011729ab1a3214c3b87709cceb61e3
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1644'
 ht-degree: 1%
 
 ---
@@ -197,40 +197,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Voorvertoning van aanbiedingen van ontvangers"
 >abstract="Voorvertoning van aanbiedingen van ontvangers"
 
->[!CONTEXTUALHELP]
->id="acw_fragments_menu"
->title="Fragmenten"
->abstract="Fragmenten"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_save"
->title="Fragmenten opslaan"
->abstract="Fragmenten opslaan"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_create"
->title="Fragmenten maken"
->abstract="Fragmenten maken"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_properties"
->title="Eigenschappen van Fragmenten"
->abstract="Eigenschappen van Fragmenten"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_type"
->title="Type fragmenten"
->abstract="Type fragmenten"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_list"
->title="Lijst met fragmenten"
->abstract="Lijst met fragmenten"
-
->[!CONTEXTUALHELP]
->id="acw_fragments_details"
->title="Fragmentdetails"
->abstract="Fragmentdetails"
 
 
 

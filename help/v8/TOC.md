@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 5fee5f9c0d055bb2936c0744a24a1671d8257e78
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 15%
+source-wordcount: '684'
+ht-degree: 14%
 
 ---
 
@@ -38,7 +38,10 @@ ht-degree: 15%
       + [Uw eerste e-mail maken](email/create-email.md)
       + E-mailinhoud definiëren {#content}
          + [E-mailinhoud configureren](email/edit-content.md)
-         + [Werken met inhoudssjablonen](email/create-email-templates.md)
+         + Herbruikbare inhoud beheren {#manage-reusable-content}
+            + [Werken met inhoudssjablonen](email/create-email-templates.md)
+            + [Werken met fragmenten](email/fragments.md)
+            + [Visuele fragmenten toevoegen aan uw e-mails](email/use-visual-fragments.md)
          + Uw e-mail beginnen te vormen {#start-design}
             + [Aan de slag met Email Designer](email/get-started-email-designer.md)
             + [Opnieuw starten](email/create-email-content.md)
