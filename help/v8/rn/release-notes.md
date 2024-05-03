@@ -2,9 +2,9 @@
 title: Opmerkingen bij de laatste release
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ba187eaebf299e5d2ee303c4e15180d35a9e6180
+source-git-commit: e98a1cf9bcda2183dbfa2c607b53f0aa2f70a998
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 6%
 
 ---
@@ -26,12 +26,12 @@ De volgende functies zijn beschikbaar voor alle gebruikers vanaf de release van 
 **Nieuwe workflowactiviteiten**
 
 * **Gegevens bijwerken** - Gebruik deze activiteit om massa-updates op gebieden in het gegevensbestand uit te voeren. Met verschillende opties kunt u de gegevensupdate aanpassen. [Meer informatie](../workflows/activities/update-data.md)
-* **Abonnementsdiensten** - Gebruik deze activiteit als u zich op meerdere profielen wilt abonneren op of een abonnement wilt nemen op een service in één actie. [Meer informatie](../workflows/activities/subscription-services.md)
+* **Abonnementsdiensten** - Gebruik deze activiteit om meerdere profielen in te schrijven op of af te melden bij een service in één actie. [Meer informatie](../workflows/activities/subscription-services.md)
 * **Bestand uitpakken** - Gebruik deze activiteit om gegevens van Adobe Campaign naar een ander systeem als extern dossier uit te voeren. [Meer informatie](../workflows/activities/extract-file.md)
 * **Bestand overbrengen** - Gebruik deze activiteit om bestanden te ontvangen of te verzenden, om te testen op bestandsaanwezigheid of om bestanden op een server weer te geven. Het gebruikte protocol kan of server-aan-server protocol of het protocol van HTTP zijn. [Meer informatie](../workflows/activities/transfer-file.md)
 * **Testen** - Gebruik deze activiteit om overgangen toe te laten die op gespecificeerde voorwaarden worden gebaseerd. [Meer informatie](../workflows/activities/test.md)
 * **JavaScript-code** - Gebruik deze activiteit om een JavaScript codefragment in de context van een werkschema uit te voeren. [Meer informatie](../workflows/activities/javascript-code.md)
-* **Extern signaal** - Gebruik deze activiteit om de uitvoering van een werkschema van een andere werkschema,* of een API vraag teweeg te brengen. [Meer informatie](../workflows/activities/external-signal.md)
+* **Extern signaal** - Gebruik deze activiteit om de uitvoering van een werkschema van een andere werkschema, of een API vraag teweeg te brengen. [Meer informatie](../workflows/activities/external-signal.md)
 * **Incrementele query** - Gebruik deze activiteit om het gegevensbestand op een geplande basis te vragen. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Hierdoor kunt u alleen nieuwe elementen als doel instellen. [Meer informatie](../workflows/activities/incremental-query.md)
 
 **Sjablonen voor uitgebreide pushmeldingen**
