@@ -3,7 +3,8 @@ audience: end-user
 title: Visuele fragmenten toevoegen aan uw e-mails
 description: Leer hoe u visuele fragmenten toevoegt aan uw e-mails
 hide: true
-source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
+hidefromtoc: true
+source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 1%
