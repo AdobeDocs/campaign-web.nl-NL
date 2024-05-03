@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '685'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ Deze activiteiten zijn specifiek gericht op de doelgroepen. Met deze instructies
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
->title="Bestanden extraheren en bestanden laden"
+>title="Bestandsactiviteiten extraheren en laden"
 >abstract="Nieuwe activiteiten voor gegevensbeheer zijn beschikbaar in workflows. Met de activiteit Bestand uitpakken kunt u gegevens van Adobe Campaign als extern bestand exporteren naar een ander systeem. Gebruik de activiteit van het Dossier van de Lading om met profielen en gegevens te werken die in een extern dossier worden opgeslagen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
