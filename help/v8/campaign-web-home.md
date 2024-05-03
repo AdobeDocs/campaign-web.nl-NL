@@ -3,9 +3,9 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2e5ddb7aca83a1a348ca50603d38a89c2762bb80
+source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '474'
 ht-degree: 3%
 
 ---
@@ -51,27 +51,23 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 >[!BEGINTABS]
 
->[!TAB Maart is live!]
+>[!TAB April release is live!]
 
-Ontdek nieuwe functies en verbeteringen die worden geleverd met de Adobe Campaign Web User Interface 24.3-release.
+Ontdek nieuwe functies en verbeteringen die worden geleverd met de Adobe Campaign Web User Interface 24.4-release.
 
 [![afbeelding](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Direct mailkanaal]
+>[!TAB Nieuwe workflowactiviteiten]
 
-**Directe post** kanaal is nu beschikbaar voor gebruik in werkschema&#39;s en als standalone leveringen. Directe post is een off-line kanaal dat u toestaat om een extractiedossiers tot stand te brengen, te personaliseren en te produceren, en het met uw directe postleveranciers te delen om post naar uw klanten te verzenden.
+Deze versie wordt geleverd met de volgende workflowactiviteiten: Gegevens bijwerken, Abonnementenservices, Bestand uitpakken, Overdrachtsbestand, Testen, JavaScript-code, Extern signaal, Incrementele query.
 
-![afbeelding](assets/do-not-localize/direct-mail.gif)
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](direct-mail/gs-direct-mail.md)
+>[!TAB Uitgebreide pushmelding]
 
->[!TAB Nieuwe werkstroomactiviteit gegevensbron wijzigen]
+U kunt nu uitgebreide pushmeldingen verzenden via Android. Een veeleisende pushmelding is een verbeterde vorm van mobiele meldingen die verder gaat dan eenvoudige tekstberichten door het opnemen van multimedia-elementen, zoals afbeeldingen, interactieve knoppen of andere rijke media-inhoud.
 
-De **Gegevensbron wijzigen** Door doelactiviteit toe te wijzen, kunt u de gegevensbron wijzigen die wordt gebruikt door de werktabel van uw werkstroom. Deze activiteit verstrekt meer flexibiliteit door u toe te staan om gegevens over uw verschillende gegevensbestanden te beheren en prestaties te verbeteren.
-
-![afbeelding](assets/do-not-localize/change-data-source.gif)
-
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](workflows/activities/change-data-source.md)
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
 
 >[!ENDTABS]
 
