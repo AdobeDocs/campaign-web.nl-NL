@@ -3,17 +3,16 @@ audience: end-user
 title: Visuele fragmenten toevoegen aan uw e-mails
 description: Leer hoe u visuele fragmenten toevoegt aan uw e-mails
 hide: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '414'
 ht-degree: 1%
 
 ---
 
 # Visuele fragmenten toevoegen aan uw e-mails {#use-visual-fragments}
 
-U kunt een visueel fragment gebruiken in een [e-maillevering](get-started-email-designer.md)of in een [inhoudssjabloon](use-email-templates.md).
-
+U kunt een visueel fragment gebruiken in een [e-maillevering](get-started-email-designer.md)of in een [inhoudssjabloon](use-email-templates.md). De stappen worden hieronder beschreven.
 
 
 >[!NOTE]

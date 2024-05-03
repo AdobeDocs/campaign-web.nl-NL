@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met fragmenten
 description: Leren werken met fragmenten
 hidefromtoc: true
-source-git-commit: 2abbe837197980b4eacb0b5171dc29637fd19dfc
+source-git-commit: a882087bc608ea4029e53ed38ecf699e127be065
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf sa
 U kunt zo veel mogelijk gebruikmaken van fragmenten:
 
 * Maak uw eigen visuele fragmenten, zoals hieronder wordt beschreven.
-* U kunt ze zo vaak gebruiken als nodig is in uw inhoud, via de e-mailontwerper. Zie [Visuele fragmenten toevoegen](../email/use-visual-fragments.md)
+* U kunt ze zo vaak gebruiken als nodig is in uw inhoud, via de e-mailontwerper. Zie [Visuele fragmenten toevoegen aan uw e-mails](../email/use-visual-fragments.md).
 
 ## Een visueel fragment maken {#create-fragments}
 
@@ -102,8 +102,6 @@ Voer de onderstaande stappen uit om een geheel nieuw fragment te maken.
    ![](assets/fragment-designer.png)
 
 1. Wanneer het fragment gereed is, klikt u op **[!UICONTROL Save & close]**. Het wordt toegevoegd aan de [fragmentlijst](#access-manage-fragments).
-
-1. Klik zo nodig op de pijl naast de fragmentnaam om terug te gaan naar de map **[!UICONTROL Details]** en bewerken.
 
 Dit fragment kan nu worden gebruikt bij het maken van [email](../email/get-started-email-designer.md) of [inhoudssjabloon](use-email-templates.md) in Campaign. [Meer informatie](../email/use-visual-fragments.md)
 
