@@ -4,9 +4,10 @@ title: Inhoudsfragmenten maken
 description: Leer hoe u maakt met inhoudsfragmenten
 hidefromtoc: true
 hide: true
-source-git-commit: 341e2a5ab073405d3be19068f85b9ea917b32a69
+exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
+source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
 >title="Uw eigen fragmenten definiëren"
->abstract="Een fragment is een herbruikbare component waarnaar in een of meer e-mails in verschillende campagnes kan worden verwezen."
+>abstract="Een fragment is een herbruikbare component waarnaar in een of meer e-mails in verschillende campagnes kan worden verwezen. Deze mogelijkheid wordt gebruikt om vooraf meerdere blokken met aangepaste inhoud samen te stellen die door marketinggebruikers kunnen worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces."
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_save"
