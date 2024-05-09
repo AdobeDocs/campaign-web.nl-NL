@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 2e084aeb27b6a866bf1f3aa82ab361da3b238901
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 * [Aan de slag met de AI Assistant](generative-gs.md)
 * [E-mailgeneratie met AI Assistant](generative-content.md)
 * [SMS genereren met de AI Assistant](generative-sms.md)
-* **[Pushmeldingen genereren met de AI Assistant](generative-push.md)**
+* Pushmeldingen genereren met de AI Assistant
 
 >[!ENDSHADEBOX]
 

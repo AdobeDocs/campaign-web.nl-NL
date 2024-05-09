@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
 hide: true
 hidefromtoc: true
-source-git-commit: e94f76ef9a90c98c67de29ce8f6b428f18bfc44b
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 **Inhoudsopgave**
 
 * [Aan de slag met de AI Assistant](generative-gs.md)
-* **[E-mailgeneratie met AI Assistant](generative-content.md)**
+* E-mailgeneratie met AI Assistant
 * [SMS genereren met de AI Assistant](generative-sms.md)
 * [Pushmeldingen genereren met de AI Assistant](generative-push.md)
 
@@ -216,10 +216,10 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw
 
 >[!ENDTABS]
 
-<!--
-## How-to video {#video}
 
-Learn how to use the AI assistant to generate full email, text or images.
+## Hoe kan ik-video {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3428341)
--->
+Leer hoe u de AI Assistant gebruikt om volledige e-mailinhoud, tekst en afbeeldingen te genereren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428984)
+

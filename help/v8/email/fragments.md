@@ -5,9 +5,9 @@ description: Leer hoe u maakt met inhoudsfragmenten
 hidefromtoc: true
 hide: true
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: fff3c40cf62cb72981fe02cc5443e8eec006777c
+source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -167,7 +167,7 @@ Ga als volgt te werk om een fragment te verwijderen:
 
 >[!CAUTION]
 >
->Wanneer u een inhoudsfragment verwijdert, worden de e-mailleveringen en sjablonen waarin dit fragment wordt gebruikt, bijgewerkt en wordt het fragment uit de inhoud van het bericht verwijderd. Indien nodig kunt u de overerving verbreken. [Meer informatie](use-visual-fragments.md#break-inheritance)
+>Wanneer u een inhoudsfragment verwijdert, worden de e-mailleveringen en sjablonen waarin dit fragment wordt gebruikt, bijgewerkt: het fragment wordt uit de e-mailinhoud verwijderd, maar er wordt nog steeds naar verwezen. Als u de fragmentinhoud in deze leveringen en sjablonen wilt behouden, moet u de overerving onderbreken voordat u het fragment verwijdert, [zoals in dit deel beschreven](use-visual-fragments.md#break-inheritance).
 >
 
 ### Een fragment dupliceren {#duplicate-fragments}
