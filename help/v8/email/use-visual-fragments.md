@@ -5,7 +5,7 @@ description: Leer hoe u visuele fragmenten toevoegt aan uw e-mails
 hide: true
 hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 1%
@@ -53,8 +53,7 @@ Voer de onderstaande stappen uit om een fragment in te voegen in een e-mailinhou
    Van de **[!UICONTROL Settings]** kunt u:
 
    * Kies de apparaten waarop het fragment moet worden weergegeven.
-   * 
-      1. Klik op de knop **Inhoud bewerken** om de inhoud van dit fragment te openen. [Meer informatie](../email/fragments.md#edit-fragments)
+   * Klik op de knop **Inhoud bewerken** om de inhoud van dit fragment te openen. [Meer informatie](../email/fragments.md#edit-fragments)
 
      U kunt het fragment verder aanpassen met de opdracht **[!UICONTROL Styles]** tab.
 
