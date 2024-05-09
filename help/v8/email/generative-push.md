@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%
@@ -30,7 +30,7 @@ De AI-assistent kan u helpen de impact van uw leveringen te optimaliseren door v
 
 >[!NOTE]
 >
->Lees de verwante bestanden voordat u deze functie gaat gebruiken [Afvoerkanalen en beperkingen](generative-gs.md#guardrails-and-limitations).
+>Lees de verwante bestanden voordat u deze functie gaat gebruiken [Afvoerkanalen en beperkingen](generative-gs.md#generative-guardrails).
 
 In het volgende voorbeeld, zullen wij hefboomwerking de AI medewerker aan ambachtelijk dwingend overseinen om een aansprekender klantenervaring tot stand te brengen.
 

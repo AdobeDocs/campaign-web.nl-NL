@@ -6,7 +6,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: fe687647b0a3d4969373ced400c49b364e878acd
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Dit handige gereedschap biedt intelligente suggesties voor het verfijnen van uw 
 
 >[!NOTE]
 >
->Lees de verwante bestanden voordat u deze functie gaat gebruiken [Afvoerkanalen en beperkingen](generative-gs.md#guardrails-and-limitations).
+>Lees de verwante bestanden voordat u deze functie gaat gebruiken [Afvoerkanalen en beperkingen](generative-gs.md#generative-guardrails).
 
 1. Nadat u de SMS-levering hebt gemaakt en geconfigureerd, klikt u op **[!UICONTROL Edit content]**.
 
