@@ -3,10 +3,10 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
 workflow-type: tm+mt
-source-wordcount: '2007'
-ht-degree: 55%
+source-wordcount: '2098'
+ht-degree: 52%
 
 ---
 
@@ -91,6 +91,11 @@ De aggregatiefuncties worden gebruikt voor het uitvoeren van berekeningen op een
    <td> <strong>StdDev</strong><br /> </td> 
    <td> Retourneert de standaardafwijking van een getal, tekenreeks of datumkolom<br /> </td> 
    <td> StdDev(&lt;value&gt;)<br /></td> 
+  </tr>
+  <tr> 
+   <td> <strong>StringAgg</strong><br /> </td> 
+   <td> Retourneert de samenvoeging van de waarden van een kolom met tekenreekstype, gescheiden door het teken in het tweede argument.<br /> </td> 
+   <td> StringAgg()&lt;value&gt;, &lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Som</strong><br /> </td> 
@@ -145,6 +150,16 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
    <td> <strong>ConvertNTZ</strong><br /> </td> 
    <td> Hiermee wordt tijdstempel NTZ (tijdstempel zonder tijdzone) omgezet in TZ (tijdstempel met tijdzone) door gedefinieerde sessie TZ toe te passen<br/> </td> 
    <td> ConvertNTZ (&lt;date time=""&gt;)<br /> </td>  
+  </tr>
+  <tr> 
+   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
+   <td> <br/> </td> 
+   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
+  </tr>-->
+  <tr> 
+   <td> <strong>DateCmp</strong><br /> </td> 
+   <td> Twee datums vergelijken<br/> </td> 
+   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -280,6 +295,16 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
    <td> <strong>ToDateTime</strong><br /> </td> 
    <td> Zet een tekenreeks om in een datum + tijd<br /> </td> 
    <td> ToDateTime(&lt;tekenreeks&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimestamp</strong><br /> </td> 
+   <td> Hiermee wordt een tekenreeks omgezet in een tijdstempel<br /> </td> 
+   <td> ToTimestamp()&lt;string&gt;)<br /> </td>  
+  </tr> 
+  <tr> 
+   <td> <strong>ToTimeZone</strong><br /> </td> 
+   <td> Een datum en tijd omzetten in een tijdzone<br /> </td> 
+   <td> ToTimeZone()&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -462,11 +487,11 @@ Deze tabel bevat de resterende beschikbare functies.
    <td> <strong>Beschrijving</strong><br /> </td> 
    <td> <strong>Syntaxis</strong><br /> </td> 
   </tr> 
-  <!--MISSING INFO<tr> 
+  <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Returns value 1 if the condition is true. If not, it returns value 2.<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
-  </tr> -->
+   <td> Tekenreeks versleutelen die in argument is opgegeven<br /> </td> 
+   <td> AESEncrypt()&lt;value&gt;)<br /> </td> 
+  </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> Retourneert waarde 1 als de voorwaarde true is. Zo niet, dan wordt waarde 2 geretourneerd.<br /> </td> 
@@ -522,11 +547,11 @@ Deze tabel bevat de resterende beschikbare functies.
    <td> Retourneert waarde 2 als tekenreeks 1 leeg is. Retourneert anders waarde 3<br /> </td> 
    <td> IsEmptyString()&lt;value&gt;, &lt;value&gt;, &lt;value&gt;)<br /> </td>  
   </tr> 
-  <!--<tr> 
-   <td> <strong>NewUUID</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td>  
-  </tr> -->
+  <tr> 
+   <td> <strong>NewUID</strong><br /> </td> 
+   <td> Retourneert een unieke id<br /> </td> 
+   <td> NewUID()<br /> </td>  
+  </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
    <td> Retourneert de lege tekenreeks als het argument NULL is<br /> </td> 
@@ -631,11 +656,11 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
    <td> Retourneert de lengte van de tekenreeks<br /> </td> 
    <td> Length()&lt;string&gt;)<br /></td> 
   </tr> 
-  <!--<tr> 
-   <td> <strong>Line</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /></td> 
-  </tr> -->
+  <tr> 
+   <td> <strong>Lijn</strong><br /> </td> 
+   <td> Regel n uit tekenreeks extraheren<br /> </td> 
+   <td> Line()&lt;string&gt;,&lt;number&gt;)<br /></td> 
+  </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> Hiermee wordt de tekenreeks in kleine letters geretourneerd<br /> </td> 
@@ -665,6 +690,11 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
    <td> <strong>NodeValue</strong><br /> </td> 
    <td> Hiermee wordt de waarde van een XML-veld opgehaald uit het XPath en de veldgegevens<br /> </td> 
    <td> NodeValue (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+  </tr> 
+  <tr> 
+   <td> <strong>Replace</strong><br /> </td> 
+   <td> Vervangt alle instanties van een opgegeven tekenreekswaarde door een andere tekenreekswaarde.<br /> </td> 
+   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
