@@ -3,9 +3,9 @@ audience: end-user
 title: De incrementele activiteit van de querywerkstroom gebruiken
 description: Leer hoe te om de Incrementele activiteit van het vraagwerkschema te gebruiken
 exl-id: 72bd307b-eba2-42a0-9744-05e089c34925
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: fc872fd3975cd15a10845185c87152e2a473df8f
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '759'
 ht-degree: 22%
 
 ---
@@ -27,6 +27,11 @@ ht-degree: 22%
 >id="acw_orchestration_incrementalquery_history"
 >title="Incrementele querygeschiedenis"
 >abstract="Incrementele querygeschiedenis"
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_incrementalquery_processeddata"
+>title="Incrementele query verwerkte gegevens"
+>abstract="Incrementele query verwerkte gegevens"
 
 De **Incrementele query** activiteit is **Targeting** activiteit die u toestaat om het gegevensbestand op een geplande basis te vragen. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Zo kunt u doelgericht alleen nieuwe elementen benaderen.
 
