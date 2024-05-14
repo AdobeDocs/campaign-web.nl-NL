@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met campagnes
 description: Leer hoe u begint met kanaalcampagnes
 exl-id: 690229e7-73e1-4cc1-b69a-f3e5d8de58af
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het filterdeelvenster
 >[!CONTEXTUALHELP]
 >id="acw_campaign_workflow_list"
 >title="Workflowlijst in een campagne"
->abstract="Workflowlijst in een campagne"
+>abstract="De **Workflow** wordt alle workflow weergegeven die is gekoppeld aan de huidige campagne."
 
 In de **Bladeren** klikt u op de naam van een campagne om de details weer te geven.
 

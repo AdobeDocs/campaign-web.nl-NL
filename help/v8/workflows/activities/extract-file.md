@@ -2,9 +2,10 @@
 audience: end-user
 title: De workflowactiviteit voor het uitpakken van bestanden gebruiken
 description: Leer hoe u de workflowactiviteit voor het uitpakken van bestanden kunt gebruiken
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '800'
 ht-degree: 1%
 
 ---
@@ -53,7 +54,7 @@ De **[!UICONTROL File to extract]** kunt u de bestandseigenschappen en de gegeve
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_destinationformat"
 >title="Bestemmingsindeling"
->abstract="Selecteer de indeling."
+>abstract="Selecteer de verschillende opties om te configureren hoe het geëxtraheerde bestand wordt opgemaakt."
 
 De **[!UICONTROL Destination]** in de indelingssectie kunt u configureren hoe het geëxtraheerde bestand wordt opgemaakt.
 
@@ -81,7 +82,7 @@ De **[!UICONTROL Destination]** in de indelingssectie kunt u configureren hoe he
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
 >title="Nabewerking"
->abstract="Een naverwerkingsstap definiëren"
+>abstract="Definieer een stap voor nabewerking die u wilt toepassen, zoals comprimeren of coderen."
 
 De **[!UICONTROL Export modification script]** Hiermee kunt u een verwerkingsstadium toepassen dat wordt uitgevoerd tijdens het ophalen van gegevens, zoals comprimeren of coderen. Om dit te doen, klik **[!UICONTROL Edit script]** knop.
 

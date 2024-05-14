@@ -2,7 +2,7 @@
 title: Belangrijkste prestatie-indicatoren
 description: Leer hoe u belangrijke prestatie-indicatoren begrijpt
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 0%
@@ -16,6 +16,7 @@ ht-degree: 0%
 >title="Belangrijkste prestatie-indicatoren"
 >abstract="De **Belangrijkste prestatie-indicatoren** kunt u de doeltreffendheid van uw platform controleren via veelgebruikte KPI&#39;s."
 
+<!-- à enlever? -->
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Spam"

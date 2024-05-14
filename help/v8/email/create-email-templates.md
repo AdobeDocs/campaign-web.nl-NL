@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -53,12 +53,12 @@ In de lijst kunt u bestaande inhoudssjablonen bewerken, dupliceren of verwijdere
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_design"
 >title="Sjabloonontwerp voor inhoud"
->abstract="Sjabloonontwerp voor inhoud"
+>abstract="Ontwerp uw sjabloon voor e-mailinhoud."
 
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_selection"
 >title="Sjabloonselectie voor inhoud"
->abstract="Sjabloonselectie voor inhoud"
+>abstract="Selecteer uw sjabloon voor e-mailinhoud."
 
 Inhoudssjablonen kunnen worden gemaakt door [opslaan van een bestaande e-mail als sjabloon](#save-as-template)of uit de lijst met e-mailsjablonen via de **Inhoudssjabloon maken** knop, [zoals hieronder beschreven](#create-template-from-scratch).
 

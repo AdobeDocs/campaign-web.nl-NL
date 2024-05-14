@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '2079'
+source-wordcount: '2129'
 ht-degree: 0%
 
 ---
@@ -157,7 +157,7 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_selectaudience"
 >title="Doelgroep selecteren"
->abstract="Doelgroep selecteren"
+>abstract="Met de opdracht **Doelgroep selecteren** kunt u het publiek kiezen dat u wilt gebruiken om de query te filteren."
 
 Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
@@ -174,7 +174,7 @@ Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_predefinedfilter"
 >title="Vooraf gedefinieerd filter"
->abstract="Vooraf gedefinieerd filter"
+>abstract="Met de opdracht **Vooraf gedefinieerd filter** kunt u een vooraf gedefinieerd filter selecteren in de lijst met aangepaste filters of in de lijst met favorieten."
 
 Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd filter:
 
@@ -213,7 +213,7 @@ Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_querymodeler_group"
 >title="Groep"
->abstract="Groep"
+>abstract="In dit deelvenster kunt u de operator wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen."
 
 Elke keer dat u een nieuwe filtercomponent aan uw query toevoegt, wordt deze automatisch aan de andere component gekoppeld door een component **EN** operator. Dit betekent dat de resultaten van de twee filtercomponenten worden gecombineerd.
 
