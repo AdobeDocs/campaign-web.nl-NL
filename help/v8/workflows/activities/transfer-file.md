@@ -2,10 +2,11 @@
 audience: end-user
 title: De bestandsactiviteit voor overbrengen gebruiken
 description: Leer hoe u de workflowactiviteit voor het overdragen van bestanden gebruikt
-source-git-commit: 6fe8be5510e13cdb9e9e1bce44aadb80619275e4
+exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
+source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 8%
+source-wordcount: '1067'
+ht-degree: 7%
 
 ---
 
@@ -29,7 +30,7 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_remoteserver"
 >title="Externe server voor bestandsoverdracht"
->abstract="Externe server voor bestandsoverdracht"
+>abstract="Geef de server op waarmee verbinding moet worden gemaakt."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
@@ -39,17 +40,17 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
 >title="Bronbestanden na overdracht verwijderen"
->abstract="Bronbestanden na overdracht verwijderen"
+>abstract="Wis de bronbestanden na een geslaagde overdracht."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
 >title="De sessielogboeken weergeven"
->abstract="De sessielogboeken weergeven"
+>abstract="Informatie over de overdrachtsbewerking wordt weergegeven in de werkstroomlogboeken."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_list_files"
 >title="Alle bestanden weergeven"
->abstract="Alle bestanden weergeven"
+>abstract="Met deze optie worden alle bestanden geïndexeerd die zich op de server bevinden in het dialoogvenster **vars.filenames** gebeurtenisvariabele."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
@@ -59,12 +60,12 @@ ht-degree: 8%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Ontbrekende bestanden verwerken"
->abstract="Ontbrekende bestanden verwerken"
+>abstract="Met deze optie kunt u een uitgaande overgang van het type &quot;Geen bestand&quot; activeren na de activiteit."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Procesfouten"
->abstract="Procesfouten"
+>abstract="Met deze optie kunt u een uitgaande overgang van het type Error activeren na de activiteit."
 
 De **Bestand overbrengen** activiteit is **Gegevensbeheer** activiteit. Hiermee kunt u bestanden ontvangen of verzenden, testen op bestandsaanwezigheid of bestanden weergeven op een server. Het gebruikte protocol kan of server-aan-server protocol of het protocol van HTTP zijn.
 
@@ -107,7 +108,7 @@ Voer de onderstaande stappen uit om de **Bestand overbrengen** activiteit.
 
 ## De overdrachtbestemming definiëren {#destination}
 
-1. In de **[!UICONTROL Remote server]** op, geeft u op met welke server verbinding moet worden gemaakt op een van de volgende manieren:
+1. In de **[!UICONTROL Remote server]** op een van de volgende manieren opgeven welke server verbinding moet maken:
 
    * **[!UICONTROL Use connection parameters defined in an external account]**: Maak verbinding met een server met behulp van de verbindingsparameters van een externe account. In de **[!UICONTROL Server folder]** Geef het pad naar het bestand (of naar de map voor handelingen voor het weergeven van bestanden) op.
    * **[!UICONTROL Quick configuration]**: Voer de URL in van het bestand (of de map voor handelingen voor het weergeven van bestanden).
