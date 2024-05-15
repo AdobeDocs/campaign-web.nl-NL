@@ -3,9 +3,9 @@ audience: end-user
 title: De bestandsactiviteit voor overbrengen gebruiken
 description: Leer hoe u de workflowactiviteit voor het overdragen van bestanden gebruikt
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 160ae5704601d1f8de41ebadde353a7097d9606c
+source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1069'
 ht-degree: 7%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_source"
 >title="Bestandsbron overdragen"
->abstract="Bestandsbron overdragen"
+>abstract="Voer de gewenste bestandsnaam in."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_delete_file"
@@ -60,12 +60,12 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_missing_file"
 >title="Ontbrekende bestanden verwerken"
->abstract="Met deze optie kunt u een uitgaande overgang van het type &quot;Geen bestand&quot; activeren na de activiteit."
+>abstract="Met deze optie kunt u een **Geen bestand** uitgaande overgang na de activiteit."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_process_errors"
 >title="Procesfouten"
->abstract="Met deze optie kunt u een uitgaande overgang van het type Error activeren na de activiteit."
+>abstract="Met deze optie kunt u een **Fout** uitgaande overgang na de activiteit."
 
 De **Bestand overbrengen** activiteit is **Gegevensbeheer** activiteit. Hiermee kunt u bestanden ontvangen of verzenden, testen op bestandsaanwezigheid of bestanden weergeven op een server. Het gebruikte protocol kan of server-aan-server protocol of het protocol van HTTP zijn.
 
