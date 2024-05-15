@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit van de gegevensbronworkflow wijzigen gebruiken
 description: Leer hoe u de werkstroomactiviteit van de gegevensbronworkflow wijzigen gebruikt
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
+source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '327'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Gedetailleerde informatie over de campagnearchitectuur is beschikbaar in [Campag
 
 >[!IMPORTANT]
 >
->Houd er rekening mee dat de **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** activiteiten mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend moet gebruiken, zorg ervoor u omvat **[!UICONTROOL Verrijking]** tussen hen. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
+>Houd er rekening mee dat de **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** activiteiten mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend moet gebruiken, zorg ervoor u omvat **[!UICONTROL Enrichement]** tussen hen. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
 
 <!--
 

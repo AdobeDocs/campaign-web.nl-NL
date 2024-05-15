@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit Change-dimensie gebruiken
 description: Leer hoe u de workflowactiviteit Wijzigen kunt gebruiken
 exl-id: 08870946-91c6-4ab0-84de-4d9b968884b3
-source-git-commit: 99bdd5220cceb4ab67c3bd4e3a788a28cbe40f8f
+source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ U kunt bijvoorbeeld de doeldimensie van een workflow veranderen van &quot;Ontvan
 
 >[!IMPORTANT]
 >
->Houd er rekening mee dat de **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** activiteiten mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend moet gebruiken, zorg ervoor u omvat **[!UICONTROOL Verrijking]** tussen hen. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
+>Houd er rekening mee dat de **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** activiteiten mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend moet gebruiken, zorg ervoor u omvat **[!UICONTROL Enrichement]** tussen hen. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
 
 ## Vorm de de afmetingsactiviteit van de Verandering {#configure}
 
