@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: e8fba3b935e572dd81d1ce3b434585a82bdc82bb
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '691'
 ht-degree: 14%
 
 ---
@@ -198,4 +198,4 @@ ht-degree: 14%
    + [Sjablonen beheren met Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Beheer {#administration}
    + [Aangepaste velden configureren](administration/custom-fields.md)
-
++ [Campagne voor v8-clientconsoledocumentatie >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
