@@ -3,14 +3,14 @@ audience: end-user
 title: Overgang van Campaign Standard naar Adobe Campaign Web
 description: Campagne-webgebruikersinterface ontdekken
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: 8cd743d7feafe9093790c3f631ffbfe19d1413e2
+source-git-commit: fede3e616d45c78db9d0613409254f3c8cc93bba
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '590'
 ht-degree: 4%
 
 ---
 
-# Overgang van Campaign Standard naar Campagne v8{#welcome}
+# Overgang van Campaign Standard naar Campagne v8 {#welcome}
 
 <!--
 We are thrilled to annonce that you, as a Campaign Standard user, can now benefit from the new version of Adobe Campaign Web User Interface. The migration is seemless and will allow you to use all the intuitive features designed to simplify the creation of personalized cross-channel campaigns. Campaign Web User Interface also brings a connected canvas with Adobe Experience Platform for a unified experience.
@@ -52,7 +52,7 @@ Ondersteunde en niet-ondersteunde mogelijkheden en interoperabiliteit tussen de 
 
 ## Terminologie {#terminology}
 
-De meeste concepten zijn gelijkaardig tussen de interface van het Web van de Campagne en Campaign Standard. Er zijn echter enkele verschillen. Hier volgen enkele voorbeelden van terminologische verschillen tussen Campaign Standard en de Campagne Web-interface:
+De meeste concepten zijn vergelijkbaar tussen Campagne v8 en Campaign Standard. Er zijn echter enkele verschillen. Hier volgen enkele voorbeelden van terminologische verschillen tussen Campaign Standard en Campaign v8:
 
 <!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
@@ -61,25 +61,24 @@ De meeste concepten zijn gelijkaardig tussen de interface van het Web van de Cam
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* Aangepaste bronnen zijn **Schemas** in de gebruikersinterface van het Web van de Campagne.
-* Marketing-activiteiten bestaan niet meer.
-* Berichten zijn **Leveringen**.
-* Gebruikers zijn **Operatoren**.
-* Rollen zijn **Benoemde rechten**.
-* Beveiligingsgroepen zijn **Operatorgroepen**.
-* Organisatorische eenheden **Mapmachtigingen**
+* Aangepaste bronnen zijn **Schemas**
+* Berichten worden aangeduid als **Leveringen**
+* Productgebruikers zijn **Operatoren**
+* Rollen worden geconfigureerd met **Benoemde rechten**
+* Beveiligingsgroepen zijn **Operatorgroepen**
+* Organisatorische eenheden worden beheerd via **Mapmachtigingen**
 
 ## Nieuwe functies {#new-features}
 
-Om over te kunnen schakelen, hebben wij toegevoegd [sleutelfuncties](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) van Campaign Standard naar v8:
+Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste mogelijkheden voor Campaign Standard toegevoegd aan Campagne v8. Deze worden nader beschreven in [deze documentatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
 
-* **Dynamische rapportage**: Dynamic Reporting biedt volledig aanpasbare en real-time rapporten om het effect van uw marketingactiviteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+* **Dynamische rapportage**: Dynamic Reporting biedt volledig aanpasbare en real-time rapporten om het effect van uw marketingactiviteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 
 * **Gecentraliseerde branding**: Elk bedrijf heeft merkvisuele en technische richtlijnen. Met Adobe Campaign kunt u een reeks specificaties definiëren om uw klanten een consistent merk te bieden, van logo&#39;s tot technische aspecten, zoals e-mailzender, URL of domeinen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
-* **Rest APIs** - Als gemigreerde gebruiker van de Campagne Standard kunt u Rest APIs gebruiken om integratie voor Adobe Campaign tot stand te brengen en uw eigen ecosysteem te bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
+* **Rest APIs** - Als gemigreerde gebruiker van de Campagne Standard kunt u Rest APIs gebruiken om integratie voor Adobe Campaign tot stand te brengen en uw eigen ecosysteem te bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
 
-* **Openingspagina&#39;s** - Er zijn veel verbeteringen aangebracht in Campaign v8 om ervoor te zorgen dat u geen capaciteit verliest. Meer informatie in het dialoogvenster [releaseopmerkingen](../rn/release-notes.md#new-24-4) en de landingspagina [documentatie](../landing-pages/get-started-lp.md).
+* **Openingspagina&#39;s** - Er zijn enkele verbeteringen aangebracht in de bestemmingspagina&#39;s van Campaign v8 om ervoor te zorgen dat de functies gelijk zijn aan het Campaign Standard. Meer informatie in het dialoogvenster [releaseopmerkingen](../rn/release-notes.md#new-24-4) en de landingspagina [documentatie](../landing-pages/get-started-lp.md).
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 
