@@ -1,9 +1,12 @@
 ---
 title: Aangepaste velden
 description: Leer hoe u aangepaste velden configureert
-source-git-commit: 97769e885145d771685752f6367c5ea00831701d
+hide: true
+hidefromtoc: true
+exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
+source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -31,19 +34,19 @@ Voer de volgende stappen uit om aangepaste velden te configureren:
 
 1. Onder **Administratie**, klikt u op **Schemas**.
 
-   ![](assets/custom-fields.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields.png){zoomable="yes"}
 
 1. Zoek het gewenste schema, bijvoorbeeld het **Ontvangers (nms)** schema.
 
-   ![](assets/custom-fields2.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields2.png){zoomable="yes"}
 
 1. Klik op de knop **Meer handelingen** en selecteert u **Aangepaste details bewerken**.
 
-   ![](assets/custom-fields3.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields3.png){zoomable="yes"}
 
    De **Aangepaste details bewerken** worden alle aangepaste velden en het type weergegeven.
 
-   ![](assets/custom-fields4.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields4.png){zoomable="yes"}
 
    In dit scherm kunt u de volgende handelingen uitvoeren:
 
@@ -54,4 +57,4 @@ Voer de volgende stappen uit om aangepaste velden te configureren:
 
 1. Navigeer naar het scherm waarop het aangepaste veld wordt weergegeven. In ons voorbeeld is dit het scherm met profieldetails.
 
-   ![](assets/custom-fields5.png){zoomable=&quot;yes&quot;}
+   ![](assets/custom-fields5.png){zoomable="yes"}
