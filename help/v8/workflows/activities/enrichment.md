@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: f40c68591168e098fd004d098f1152189aee6c47
+source-git-commit: fa2d596a36652f504112c7a8543453d845462021
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
->title="Eenvoudige samenvoeging"
+>title="Koppelingsdefinitie"
 >abstract="Eenvoudige samenvoeging"
 
 >[!CONTEXTUALHELP]
@@ -53,15 +53,21 @@ Zodra de verrijkingsgegevens aan de workflow zijn toegevoegd, kunnen deze worden
 
 U kunt bijvoorbeeld informatie over aankopen van klanten toevoegen aan de werkstroomwerktabel en deze gegevens gebruiken om de e-mails aan te passen aan de laatste aankoop of het bedrag dat aan deze aankopen is besteed.
 
-## De verrijkingsactiviteit configureren {#enrichment-configuration}
+## Een verrijkingsactiviteit toevoegen {#enrichment-configuration}
 
 Voer de volgende stappen uit om de **Verrijking** activiteit:
 
 1. Voeg activiteiten toe zoals **publiek opbouwen** en **Combineren** activiteiten.
 1. Een **Verrijking** activiteit.
+1. Als er meerdere overgangen zijn geconfigureerd in uw workflow, kunt u de opdracht **[!UICONTROL Primary set]** veld om te bepalen welke overgang moet worden gebruikt als primaire set om te verrijken met gegevens.
+
+## Verrijkingsgegevens toevoegen {#enrichment-add}
+
 1. Klikken **Verrijkingsgegevens toevoegen** en selecteert u het kenmerk dat u wilt gebruiken om de gegevens te verrijken.
 
-   U kunt twee typen verrijkingsgegevens selecteren: een [enkel verrijkingsattribuut](#single-attribute) van de doeldimensie, of [verzamelingskoppeling](#collection-link).
+   U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van de doelafmeting, of een inzamelingsverbinding. Elk van deze typen wordt in de volgende voorbeelden beschreven:
+   * [Enkel verrijkingskenmerk](#single-attribute)
+   * [Verzamelaar](#collection-link)
 
    >[!NOTE]
    >
@@ -69,7 +75,39 @@ Voer de volgende stappen uit om de **Verrijking** activiteit:
 
    ![](../assets/workflow-enrichment1.png)
 
-## Enkel verrijkingskenmerk {#single-attribute}
+## Koppelingen maken tussen tabellen {#create-links}
+
+De **[!UICONTROL Link definition]** kunt u een koppeling maken tussen de gegevens van de werktabel en de Adobe Campaign-database. Als u bijvoorbeeld gegevens laadt uit een bestand dat het rekeningnummer, land en e-mail van ontvangers bevat, moet u een koppeling naar de landentabel maken om deze gegevens in hun profielen bij te werken.
+
+Er zijn verschillende typen koppelingen beschikbaar:
+
+* **[!UICONTROL 1 cardinality simple link]**: Elke record uit de primaire set kan worden gekoppeld aan één record uit de gekoppelde gegevens.
+* **[!UICONTROL 0 or 1 cardinality simple link]**: Elke record uit de primaire set kan worden gekoppeld aan 0 of 1 record uit de gekoppelde gegevens, maar niet aan meer dan één record.
+* **[!UICONTROL N cardinality collection link]**: Elke record uit de primaire set kan worden gekoppeld aan 0, 1 of meer (N) records uit de gekoppelde gegevens.
+
+Ga als volgt te werk om een koppeling te maken:
+
+1. In de **[!UICONTROL Link definition]** klikt u op de **[!UICONTROL Add link]** knop.
+
+   ![](../assets/workflow-enrichment-link.png)
+
+1. In de **Relatietype** kiest u het type koppeling dat u wilt maken.
+
+1. Identificeer het doel u de primaire reeks aan wilt verbinden:
+
+   * Als u een bestaande tabel in de database wilt koppelen, kiest u **[!UICONTROL Database schema]** en selecteer de gewenste tabel in het menu **[!UICONTROL Target schema]** veld.
+   * Als u wilt koppelen aan gegevens uit de invoerovergang, kiest u **Tijdelijk schema** en selecteer de overgang waarvan u de gegevens wilt gebruiken.
+
+1. Definieer de afstemmingscriteria die overeenkomen met gegevens uit de primaire set met het gekoppelde schema. Er zijn twee soorten verbindingen beschikbaar:
+
+   * **Eenvoudige samenvoeging**: Selecteer een specifiek kenmerk dat overeenkomt met de gegevens in de twee schema&#39;s. Klikken **Verbinden toevoegen** en selecteert u de **Bron** en **Doel** kenmerken die als afstemmingscriteria moeten worden gebruikt.
+   * **Geavanceerde verbinding**: Maak een verbinding met behulp van geavanceerde voorwaarden. Klikken **Verbinden toevoegen** en klik op de knop **Voorwaarde maken** om de vraagmodeler te openen.
+
+Een voorbeeld van een workflow met koppelingen is beschikbaar in het dialoogvenster [Voorbeelden](#link-example) sectie.
+
+## Voorbeelden {#example}
+
+### Enkel verrijkingskenmerk {#single-attribute}
 
 Hier voegen we slechts één verrijkingskenmerk toe, bijvoorbeeld de geboortedatum. Voer de volgende stappen uit:
 
@@ -79,7 +117,7 @@ Hier voegen we slechts één verrijkingskenmerk toe, bijvoorbeeld de geboortedat
 
 ![](../assets/workflow-enrichment2.png)
 
-## Verzamelingskoppeling {#collection-link}
+### Verzamelingskoppeling {#collection-link}
 
 In dit complexere gebruiksgeval, zullen wij een inzamelingsverbinding selecteren die een verbinding met een 1-N kardinaliteit tussen lijsten is. Laten we de drie laatste aankopen ophalen die minder dan 100 dollar bedragen. Hiervoor moet u definiëren:
 
@@ -88,7 +126,7 @@ In dit complexere gebruiksgeval, zullen wij een inzamelingsverbinding selecteren
 * een filter: items uitfilteren die groter zijn dan 100$
 * een sortering: afstammende sortering op de **Datum van bestelling** veld.
 
-### Het kenmerk toevoegen {#add-attribute}
+#### Het kenmerk toevoegen {#add-attribute}
 
 Hier selecteert u de verzamelingskoppeling die u als verrijkingsgegevens wilt gebruiken.
 
@@ -98,7 +136,7 @@ Hier selecteert u de verzamelingskoppeling die u als verrijkingsgegevens wilt ge
 
 ![](../assets/workflow-enrichment3.png)
 
-### De verzamelingsinstellingen definiëren{#collection-settings}
+#### De verzamelingsinstellingen definiëren{#collection-settings}
 
 Definieer vervolgens hoe de gegevens worden verzameld en hoeveel records moeten worden opgehaald.
 
@@ -111,7 +149,7 @@ Als u bijvoorbeeld het gemiddelde aantal aankopen voor een klant wilt ophalen, s
 
 ![](../assets/workflow-enrichment5.png)
 
-### Filters definiëren{#collection-filters}
+#### Filters definiëren{#collection-filters}
 
 Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren items die groter zijn dan 100$. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md)
 
@@ -121,7 +159,7 @@ Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren it
 
 ![](../assets/workflow-enrichment6.png)
 
-### De sortering definiëren{#collection-sorting}
+#### De sortering definiëren{#collection-sorting}
 
 We moeten nu sorteren om de drie bestanden op te halen **nieuwste** aankopen.
 
@@ -132,6 +170,20 @@ We moeten nu sorteren om de drie bestanden op te halen **nieuwste** aankopen.
 1. Selecteren **Aflopend** van de **Sorteren** vervolgkeuzelijst.
 
 ![](../assets/workflow-enrichment7.png)
+
+
+### Verrijking met gekoppelde gegevens {#link-example}
+
+In het onderstaande voorbeeld ziet u een workflow die is geconfigureerd om een koppeling tussen twee overgangen te maken. De eerste overgangen richten profielgegevens gebruikend een activiteit van de Vraag, terwijl de tweede overgang aankoopgegevens omvat die in een dossier worden opgeslagen dat door een activiteit van het Dossier van de Lading wordt geladen.
+
+* De eerste **Verrijking** activiteit verbindt onze primaire reeks (gegevens van **Query** activiteit) met het schema van **Bestand laden** activiteit. Hierdoor kunnen we elk profiel waarop de query betrekking heeft, afstemmen op de corresponderende aankoopgegevens.
+* Een seconde **Verrijking** activiteit wordt toegevoegd om gegevens van de werkschematabel met de aankoopgegevens te verrijken die uit **Bestand laden** activiteit. Op deze manier kunnen we die gegevens in verdere activiteiten gebruiken, bijvoorbeeld om berichten die aan klanten worden verzonden met informatie over hun aankoop te personaliseren.
+
+  ![](../assets/workflow-enrichment-example.png)
+
+
+
+
 
 <!--
 

@@ -2,13 +2,13 @@
 audience: end-user
 title: Direct maillevering ontwerpen
 description: Leer hoe u direct-maillevering ontwerpt met Adobe Campaign Web
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
+source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
-
 
 # Het extractiebestand ontwerpen {#design-direct-mail}
 
@@ -52,14 +52,18 @@ Als u de inhoud wilt ontwerpen van het extractiebestand dat is gegenereerd door 
 
 1. In-/uitschakelen **[!UICONTROL Requested quantity]** om het aantal ontvangers voor uw levering te beperken.
 
-   ![](assets/dm-content-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content-details.png){zoomable="yes"}
 
 ## Kolommen van het extractiebestand configureren {#content}
 
 In de **[!UICONTROL Content]** in, geeft u de kolommen op die u wilt weergeven in het extractiebestand. Ga als volgt te werk om dit te doen:
 
 1. Klik op de knop **[!UICONTROL Add Attribute]** om een nieuwe kolom te maken.
-1. Kies het kenmerk dat u in de kolom wilt weergeven en bevestig het vervolgens. Nadat de kolom is toegevoegd, kunt u het label wijzigen en het bijbehorende kenmerk wijzigen met het bewerkingspictogram.
+1. Kies het kenmerk dat u in de kolom wilt weergeven en bevestig het vervolgens. U kunt de expressieeditor gebruiken om het te gebruiken kenmerk te selecteren door op de knop **[!UICONTROL Edit expression]** knop.
+
+   ![](assets/dm-add-attribute.png)
+
+1. Nadat de kolom is toegevoegd, kunt u het label wijzigen en het bijbehorende kenmerk wijzigen met het bewerkingspictogram.
 1. Herhaal deze stappen om zoveel kolommen toe te voegen als u nodig hebt voor het extractiebestand.
 1. Als u het extractiebestand wilt sorteren met een van de kolommen, klikt u op het pictogram in het dialoogvenster **[!UICONTROL Sorting]** en selecteert u de gewenste sorteermethode.
 1. Gebruik de pijlen omhoog en omlaag om de positie van een kolom te wijzigen.
