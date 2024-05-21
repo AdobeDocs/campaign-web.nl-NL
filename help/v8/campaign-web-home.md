@@ -3,9 +3,9 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 4b37ec6df839a7edef838b1d19b484208a6bec2f
+source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '485'
 ht-degree: 3%
 
 ---
@@ -51,23 +51,29 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 >[!BEGINTABS]
 
->[!TAB April release is live!]
+>[!TAB Kan live worden uitgebracht!]
 
 Ontdek nieuwe functies en verbeteringen die worden geleverd met de Adobe Campaign Web User Interface 24.4-release.
 
 [![afbeelding](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Nieuwe workflowactiviteiten]
+>[!TAB Audittrail]
 
-Deze versie wordt geleverd met de volgende workflowactiviteiten: Gegevens bijwerken, Abonnementenservices, Bestand uitpakken, Overdrachtsbestand, Testen, JavaScript-code, Extern signaal, Incrementele query.
+De nieuwe controletrailfunctie biedt een gedetailleerd en chronologisch overzicht van alle acties en gebeurtenissen die in real-time aan uw Adobe Campaign-instantie zijn uitgevoerd.
 
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
 
->[!TAB Uitgebreide pushmelding]
+>[!TAB Aangepaste velden]
 
-U kunt nu uitgebreide pushmeldingen verzenden via Android. Een veeleisende pushmelding is een verbeterde vorm van mobiele meldingen die verder gaat dan eenvoudige tekstberichten door het opnemen van multimedia-elementen, zoals afbeeldingen, interactieve knoppen of andere rijke media-inhoud.
+Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan de out-of-the-box-schema&#39;s worden toegevoegd. Zij zijn nu beschikbaar in het gebruikersinterface van het Web.
 
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](push/rich-push.md)
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+
+>[!TAB Tabellen koppelen]
+
+U kunt nu een koppeling maken tussen de gegevens van de werktabel en de Adobe Campaign-database in de activiteit van de verrijkingsworkflow.
+
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 
