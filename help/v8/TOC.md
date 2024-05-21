@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: e2dda5632081e74ecc17626b9d56ec1546adf2af
+source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '695'
 ht-degree: 14%
 
 ---
@@ -20,7 +20,6 @@ ht-degree: 14%
    + [Nieuwe functies](rn/whats-new.md)
    + [Nieuwste release](rn/release-notes.md)
    + [Documentatie-updates](rn/documentation-updates.md)
-   + [Van Campaign Standard naar v8](rn/acs-migration.md)
 + Aan de slag met Adobe Campaign {#start}
    + [Aan de slag](get-started/get-started.md)
    + [Verbinding maken met campagne](get-started/connect-to-campaign.md)
@@ -29,6 +28,7 @@ ht-degree: 14%
    + [Werken met vooraf gedefinieerde filters](get-started/predefined-filters.md)
    + [Toegang en machtigingen](get-started/permissions.md)
    + [Campagne Web en de console van de Cliënt](get-started/capability-matrix.md)
+   + [Van Campaign Standard naar v8](rn/acs-migration.md)
    + [Contextafhankelijke Help voor AI](get-started/using-ai.md)
 + Berichten en leveringen {#msg}
    + [Aan de slag met berichten](msg/gs-messages.md)
@@ -133,6 +133,7 @@ ht-degree: 14%
    + [Afvoerkanalen en beperkingen](get-started/guardrails.md)
    + [Workflowgebeurtenisvariabelen](workflows/event-variables.md)
    + [Workflows openen en beheren](workflows/access-monitor.md)
+   + [Alleen-lezen workflows](workflows/readonly-workflows.md)
    + Uw eerste workflow maken en uitvoeren {#create-workflow}
       + [Belangrijkste principes voor het maken van werkstromen](workflows/gs-workflow-creation.md)
       + [De workflow maken](workflows/create-workflow.md)
@@ -172,6 +173,7 @@ ht-degree: 14%
    + [Filterlijsten](query/filter.md)
 + Rapportage {#reports}
    + [Aan de slag met rapporten](reporting/gs-reports.md)
+   + [Audit trail](reporting/audit-trail.md)
    + [Uw rapporten exporteren](reporting/export-reports.md)
    + [Belangrijkste prestatie-indicatoren](reporting/kpis.md)
    + Afleveringsrapporten {#delivery-report}
