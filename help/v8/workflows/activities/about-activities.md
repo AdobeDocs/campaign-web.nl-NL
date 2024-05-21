@@ -3,10 +3,10 @@ audience: end-user
 title: Werken met workflowactiviteiten
 description: Meer informatie over workflowactiviteiten
 exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
-source-git-commit: 5947d7f6b2fd39ede6322273e7497744f9aff953
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 3%
+source-wordcount: '567'
+ht-degree: 4%
 
 ---
 
@@ -40,12 +40,6 @@ Deze activiteiten zijn specifiek gericht op de doelgroepen. Met deze instructies
 
 ## Gegevensbeheeractiviteiten {#data}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Bestandsactiviteiten extraheren en laden"
->abstract="Nieuwe activiteiten voor gegevensbeheer zijn beschikbaar in workflows. Met de activiteit Bestand uitpakken kunt u gegevens van Adobe Campaign als extern bestand exporteren naar een ander systeem. Gebruik de activiteit van het Dossier van de Lading om met profielen en gegevens te werken die in een extern dossier worden opgeslagen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
-
 Deze activiteiten zijn specifiek gericht op het manipuleren en verrijken van bevolkingsgegevens.
 
 * [Bestand uitpakken](extract-file.md): Exporteer gegevens van Adobe Campaign naar een ander systeem als een extern bestand.
@@ -60,15 +54,6 @@ Deze activiteiten zijn specifiek gericht op het manipuleren en verrijken van bev
 Met Adobe Campaign Web kunt u marketingcampagnes op meerdere kanalen automatiseren en uitvoeren. U kunt kanaalactiviteiten in het canvas combineren om kanaalworkflows te maken die acties op basis van klantgedrag kunnen activeren. Het volgende **Kanaal** activiteiten zijn beschikbaar: e-mail-, SMS-, Android- en iOS Push-berichten. [Leer hoe u een levering instelt in de context van een workflow](channels.md).
 
 ## Stroombeheeractiviteiten {#flow-control}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Geavanceerde workflowactiviteiten"
->abstract="U kunt Test, de Code van JavaScript, en de Externe activiteiten van het Signaal in een werkschema nu vormen. Gebruik de activiteit van de Test om werkschemaovergangen toe te laten die op voorwaarden worden gebaseerd. Voeg een activiteit van de Code JavaScript toe om een JS codefragment in de context van uw werkschema uit te voeren. Configureer een externe signaalactiviteit om de uitvoering van uw workflow te activeren via een API of een andere workflow."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"

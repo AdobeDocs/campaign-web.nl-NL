@@ -3,21 +3,28 @@ product: campaign
 title: Audit trail
 description: Leer hoe u uw exemplaar kunt controleren met het Campagne Audit Trail
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 4f7dd30f02f83624a00b3d0e6ac7ba74c1c242e0
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 1%
+source-wordcount: '595'
+ht-degree: 2%
 
 ---
 
 # Audit trail{#audit-trail}
 
->[!IMPORTANT]
->
->Adobe Campaign Web User Interface controleert geen veranderingen die binnen gebruikersrechten, malplaatjes, verpersoonlijking of campagnes worden aangebracht.\
->Het spoor van de controle kan slechts door beheerders van de instantie worden beheerd.
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Audit trail"
+>abstract="De nieuwe controletrailfunctie biedt een gedetailleerd en chronologisch overzicht van alle acties en gebeurtenissen die in real-time aan uw Adobe Campaign-instantie zijn uitgevoerd."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+
 
 In Adobe Campaign Web User Interface, **[!UICONTROL Audit trail]** biedt gebruikers volledige zichtbaarheid in alle wijzigingen die zijn aangebracht aan belangrijke entiteiten in uw instantie, meestal die entiteiten die een vloeiende bewerking van de instantie aanzienlijk beïnvloeden.
+
+>[!IMPORTANT]
+>
+>* De gebruikersinterface van het Web van Adobe Campaign controleert geen veranderingen die binnen gebruikersrechten, malplaatjes, verpersoonlijking, of campagnes worden aangebracht.
+>* Het spoor van de controle kan slechts door beheerders van de instantie worden beheerd.
 
 **[!UICONTROL Audit trail]** Deze functie houdt voortdurend een gedetailleerd logboek bij van de acties en gebeurtenissen die in real-time binnen de Adobe Campaign-instantie plaatsvinden. Het biedt een geschikte methode aan om tot een chronologisch verslag van gegevens toegang te hebben, die vragen zoals: de status van werkschema&#39;s, de recentste individuen richten om hen te wijzigen, of de activiteiten richten die door gebruikers binnen de instantie worden uitgevoerd.
 

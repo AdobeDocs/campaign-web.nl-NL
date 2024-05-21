@@ -3,21 +3,17 @@ audience: end-user
 title: De activiteit van de Abonnementsservices gebruiken
 description: Leer hoe u de workflowactiviteit voor abonnementenservices gebruikt
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 20%
+source-wordcount: '896'
+ht-degree: 21%
 
 ---
 
 # Abonnementsdiensten {#subscriptipon-services}
 
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Activiteit Subscription Services"
->abstract="Gebruik de nieuwe de werkschemaactiviteit van de Diensten van het Abonnement om abonnementen aan de dienst te beheren. U kunt een abonnement nemen op een populatie of het abonnement opzeggen en ook meerdere abonnementen bijwerken vanuit een extern bestand. Het is mogelijk ook een bevestigingsbericht te verzenden om je abonnees op de hoogte te brengen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+
 
 
 >[!CONTEXTUALHELP]

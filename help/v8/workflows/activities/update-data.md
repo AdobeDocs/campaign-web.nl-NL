@@ -3,23 +3,14 @@ audience: end-user
 title: De activiteit van de gegevenswerkstroom bijwerken gebruiken
 description: Leer hoe u de activiteit van de gegevenswerkstroom bijwerken gebruikt
 exl-id: db978482-43f6-48a7-8d8d-4b921eb610b2
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 11%
+source-wordcount: '498'
+ht-degree: 12%
 
 ---
 
 # Gegevens bijwerken {#update-data}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Gegevensactiviteit bijwerken"
->abstract="De activiteit van Gegevens van de Update is nu beschikbaar voor gebruik in werkschema&#39;s. Gebruik de gegevensactiviteit van de Update om een massa update op gebieden in het gegevensbestand uit te voeren. Er worden verschillende opties voorgesteld om het type update aan te passen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
-
-
 
 De **Gegevens bijwerken** activiteit is **Gegevensbeheer** activiteit. Hiermee kunt u een massale update uitvoeren op velden in de database. Met verschillende opties kunt u de gegevensupdate aanpassen.
 

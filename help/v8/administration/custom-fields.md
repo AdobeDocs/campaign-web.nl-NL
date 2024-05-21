@@ -2,14 +2,22 @@
 title: Aangepaste velden
 description: Leer hoe u aangepaste velden configureert
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 7b6b769c5825ef046fd4e5a1206b955ecf432b0d
+source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
 
 # Aangepaste velden configureren {#custom-fields}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Aangepaste velden"
+>abstract="Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan de out-of-the-box-schema&#39;s worden toegevoegd. Zij zijn nu beschikbaar in het gebruikersinterface van het Web."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+
+
 
 Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan de out-of-the-box-schema&#39;s worden toegevoegd. Meer informatie in het dialoogvenster [Adobe Campaign v8-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"}
 
