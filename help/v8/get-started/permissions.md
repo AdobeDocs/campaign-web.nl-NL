@@ -3,7 +3,7 @@ audience: end-user
 title: Machtigingsbeheer in de gebruikersinterface van het Web voor campagne
 description: Meer informatie over machtigingen in de gebruikersinterface van Campagne Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: dcbaa5df0b6fa82a3cdd0ddf70538f22ecdee249
+source-git-commit: 87afb93edd625659d3dcddefc402f8b67a38b580
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 0%
