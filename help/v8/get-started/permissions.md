@@ -3,9 +3,9 @@ audience: end-user
 title: Machtigingsbeheer in de gebruikersinterface van het Web voor campagne
 description: Meer informatie over machtigingen in de gebruikersinterface van Campagne Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
+source-git-commit: dcbaa5df0b6fa82a3cdd0ddf70538f22ecdee249
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,7 @@ ht-degree: 0%
 >title="Deze workflow is alleen-lezen"
 >abstract="U hebt geen machtigingen om deze workflow te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
 
->[!CONTEXTUALHELP]
->id="acw_wf_read_only_canvas"
->title="Deze workflow is alleen-lezen"
->abstract="U kunt deze workflow niet bewerken vanwege niet-ondersteund of incompatibel canvas."
+
 
 Met toegangsbeheer kunt u de toegang tot objecten en gegevens uit hoofdlijsten beperken, zoals leveringen, ontvangers of workflows. Deze beperkingen gelden ook voor de **Verkenner** navigatieboom. Daarnaast hebt u machtigingen nodig om objecten te maken, verwijderen, dupliceren en bewerken vanuit de gebruikersinterface.
 
@@ -68,11 +65,11 @@ Voer de volgende stappen uit om machtigingen voor een map weer te geven:
 1. Van de **Verkenner** Selecteer een map in het linkermenu nav.
 1. Klik op de drie stippen in de rechterbovenhoek en selecteer **Mapmachtigingen**.
 
-   ![](assets/permissions-view-menu.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-menu.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 1. Controleer de details in het scherm, zoals hieronder:
 
-   ![](assets/permissions-view-screen.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/permissions-view-screen.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
    Een groep of een operator kan beschikken over de machtiging Lezen, Schrijven en/of Verwijderen voor gegevens die in de geselecteerde map zijn opgeslagen.
 
@@ -94,11 +91,17 @@ U kunt mappen maken, hernoemen, opnieuw ordenen en verplaatsen om uw componenten
 Ga als volgt te werk om een map te maken:
 
 1. Van de **Verkenner** Selecteer een map in het linkermenu nav.
-1. Klik op de drie stippen in de rechterbovenhoek en kies **Nieuwe submap maken**.
-1. Voer de naam van de map in en sla deze op.
+1. Klik op de drie stippen in de rechterbovenhoek en kies **Nieuwe map maken**.
+1. Voer de naam van de map in.
 
-   ![](assets/create-new-subfolder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/create-new-subfolder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Selecteer het maptype. Standaard is het bovenliggende maptype &quot;Deliveries&quot; in ons voorbeeld geselecteerd. Als u het maptype wilt wijzigen, klikt u op het mappictogram en selecteert u een ander type.
+
+   ![](assets/create-new-subfolder2.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+
+1. Klikken **Maken**.
 
    De map wordt toegevoegd als een submap van de huidige map. Blader naar die nieuwe map om er direct componenten in te maken. U kunt ook een component maken vanuit elke gewenste map en deze opslaan in die nieuwe map, vanuit de **Aanvullende opties** sectie van de eigenschappen, zoals hieronder getoond voor een levering:
 
-   ![](assets/delivery-properties-folder.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/delivery-properties-folder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
