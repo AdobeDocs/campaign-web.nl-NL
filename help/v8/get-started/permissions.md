@@ -3,9 +3,9 @@ audience: end-user
 title: Machtigingsbeheer in de gebruikersinterface van het Web voor campagne
 description: Meer informatie over machtigingen in de gebruikersinterface van Campagne Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: 87afb93edd625659d3dcddefc402f8b67a38b580
+source-git-commit: b173afc12a5d8a7c57c688fe92e2c5628323fcad
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ Meer informatie over mapmachtigingen vindt u in [Campagne v8-documentatie (clien
 
 
 ## Werken met mappen {#folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_properties"
+>title="Eigenschappen van map"
+>abstract="Eigenschappen van map"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_security"
+>title="Mapbeveiliging"
+>abstract="Mapbeveiliging"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Mapbeperkingen"
+>abstract="Mapbeperkingen"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_schedule"
+>title="Mapschema"
+>abstract="Mapschema"
 
 U kunt mappen maken, hernoemen, opnieuw ordenen en verplaatsen om uw componenten en gegevens te ordenen. U kunt ook mappen uit hetzelfde menu verwijderen.
 
