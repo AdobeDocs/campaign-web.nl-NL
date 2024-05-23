@@ -1,10 +1,10 @@
 ---
-title: Opmerkingen bij de laatste release
-description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
+title: Opmerkingen bij de release Campagne v8 Web User Interface
+description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3f4b2c83b5c651e473de9e32656aaf83af6fe8c6
+source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1461'
 ht-degree: 6%
 
 ---
@@ -16,9 +16,45 @@ ht-degree: 6%
 >title="Aanvullende informatie "
 >abstract="De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Opmerkingen bij de release Campagne worden daarom meerdere keren per maand bijgewerkt met de nieuwste functies, verbeteringen en correcties. We raden u aan deze regelmatig te controleren."
 
-<!--Last update: **March 19, 2024**-->
-
 De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+
+## Release-aantekeningen mei {#24-5-release}
+
+**Releasedatum**: 21 mei 2024
+
+De volgende functies en verbeteringen zijn beschikbaar voor alle gebruikers vanaf de release mei.
+
+### Audit trail  {#24-5-1}
+
+De nieuwe **Audittrail** biedt een gedetailleerd en chronologisch overzicht van alle acties en gebeurtenissen die in real-time aan uw Adobe Campaign-exemplaar zijn uitgevoerd. Het biedt een geschikte methode aan om alle veranderingen in uw gegevens van de Campagne te vinden, richtend vragen zoals: de status van werkschema&#39;s, de recentste individuen om hen te wijzigen, of de activiteiten die door gebruikers binnen de instantie worden uitgevoerd. [Meer informatie](../reporting/audit-trail.md)
+
+### Aangepaste velden {#24-5-2}
+
+**Aangepaste velden** zijn extra kenmerken die via de Adobe Campaign-console aan de out-of-the-box-schema&#39;s worden toegevoegd. In de webgebruikersinterface van Campagne zijn deze aangepaste velden nu zichtbaar in verschillende schermen, bijvoorbeeld de details van een profiel of een testprofiel. In de webgebruikersinterface kunt u geen aangepaste velden maken, maar u kunt nu de manier wijzigen waarop ze worden weergegeven. [Meer informatie](../administration/custom-fields.md)
+
+### Koppelingen maken tussen tabellen {#24-5-3}
+
+U kunt nu koppelingen maken met een andere tabel in het dialoogvenster **Verrijking** workflowactiviteit. De nieuwe **Koppelingsdefinitie** in de activiteitsparameters om een koppeling tot stand te brengen tussen de gegevens van de werkende lijst en het gegevensbestand van Adobe Campaign. Als u bijvoorbeeld gegevens laadt uit een bestand dat het rekeningnummer, land en e-mail van ontvangers bevat, kunt u nu een koppeling maken naar de landentabel om deze gegevens in hun profielen bij te werken. [Meer informatie](../workflows/activities/enrichment.md#create-links)
+
+<!--
+### Content fragments {#24-5-4}
+
+* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
+
+* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
+
+
+### Algemene verbeteringen {#improvements-24-5}
+
+* **Directe post** - U kunt nu de expressie-editor gebruiken om de kenmerken te selecteren die u wilt weergeven in bestanden voor directe mailextractie. [Meer informatie](../direct-mail/content-direct-mail.md)
+
+* **Mapbeheer** - U kunt nu een submap van een ander type maken dan de bovenliggende map. [Meer informatie](../get-started/permissions.md#folders)
+
+
+<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
+
+* **Globalisatie** - Als onderdeel van onze voortdurende inspanningen om een uniforme gebruikerservaring te bieden, harmoniseren we de terminologie die wordt gebruikt in de Adobe Experience Cloud-producten en -toepassingen. Dit is van invloed op de Duitse term &quot;Titel&quot;, die wordt gewijzigd in &quot;Label&quot; wanneer deze betrekking heeft op de naam van een object. De wijzigingen worden geleidelijk doorgevoerd in de gebruikersinterface en de documentatie.
+
 
 ## Release-aantekeningen april {#april-24-4-release}
 
@@ -45,11 +81,6 @@ U kunt nu uitgebreide pushmeldingen verzenden via Android. Een veeleisende pushm
 
 Deze functie bevindt zich in **Beperkte beschikbaarheid** (LA).
 
-<!--
-* **Audit Trail**
-
-The Audit trail feature constantly records a detailed log of actions and events taking place within the Adobe Campaign instance in real-time. It offers a convenient method to access a chronological record of data, addressing queries such as: the status of workflows, the latest individuals to modify them, or the activities performed by users within the instance.
--->
 
 ### Nieuwe functies in beperkte beschikbaarheid {#acs-24-4}
 
@@ -91,9 +122,7 @@ De verbeteringen hieronder zijn beschikbaar aan alle klanten vanaf de release va
 
 * De optie &quot;De overgang niet activeren als de populatie leeg is&quot; in het dialoogvenster **Gesplitste activiteit** staat u toe om te kiezen of het werkschema naar de volgende activiteit zou moeten overgaan wanneer het segmentresultaat leeg is. [Meer informatie](../workflows/activities/split.md)
 
-<!--* **Support of custom fields**
-* **Custom fields** are additional attributes added to the out-of-the-box schemas through the Adobe Campaign console. In Campaign web user interface, these custom fields are now visible in various screens, for example the details of a profile or a test profile. In the web user interface, you cannot create custom fields, but you can now modify the way they display. [Read more](../administration/custom-fields.md)
--->
+
 
 ## Opmerkingen bij de release maart {#24-3-release}
 
