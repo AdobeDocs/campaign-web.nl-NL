@@ -3,7 +3,7 @@ audience: end-user
 title: De werkstroomactiviteit voor het laden van bestanden gebruiken
 description: Leer hoe u de workflowactiviteit Bestand laden gebruikt
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: 4518f7a2f280eca70f799b941c5d28bdc39c1def
+source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 2%
@@ -151,7 +151,7 @@ Voer de volgende stappen uit om het te uploaden doelbestand te definiëren:
 
 1. In de **Afwijzen** in, geeft u aan hoe de activiteit zich moet gedragen in het geval van fouten:
 
-   * In de **[!UICONTROL Dele]** veld, geeft u het maximale aantal fouten op dat is toegestaan bij het verwerken van het te laden bestand. Als de waarde bijvoorbeeld is ingesteld op &quot;20&quot;, mislukt de uitvoering van de workflow als er meer dan 20 fouten optreden bij het laden van het bestand.
+   * In de **[!UICONTROL Number of errors allowed]** -veld, geeft u het maximale aantal fouten op dat is toegestaan bij de verwerking van het te laden bestand. Als de waarde bijvoorbeeld is ingesteld op &quot;20&quot;, mislukt de uitvoering van de workflow als er meer dan 20 fouten optreden bij het laden van het bestand.
 
    * Als u de fouten die zijn opgetreden bij het laden van het bestand wilt behouden, schakelt u het **[!UICONTROL Keep rejects in a file]** en geeft u de gewenste naam voor het bestand op in het dialoogvenster **[!UICONTROL Rejection File]** veld.
 
