@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 490c2723f8e06f7360b21c8101c65961b0cfdfc3
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,14 @@ ht-degree: 0%
 >abstract="Zodra de verrijkingsgegevens aan het werkschema zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de activiteit van de Verrijking worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes te creëren die eerder aan uw doelpubliek zullen resoneren."
 
 >[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_simplejoin"
+>title="Maak een koppeling tussen de werktabelgegevens en de Adobe Campaign-database. Als u bijvoorbeeld gegevens laadt uit een bestand dat het rekeningnummer, land en e-mail van ontvangers bevat, moet u een koppeling naar de landentabel maken om deze gegevens in hun profielen bij te werken."
+>abstract="Koppelingsdefinitie"
+
+>[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
 >title="Verrijkingsverzoening"
 >abstract="verzoening met verrijking"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_simplejoin"
->title="Koppelingsdefinitie"
->abstract="Eenvoudige samenvoeging"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_enrichmentdata"
