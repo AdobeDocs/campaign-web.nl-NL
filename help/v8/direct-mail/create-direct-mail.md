@@ -2,13 +2,13 @@
 audience: end-user
 title: Een levering voor direct mail maken
 description: Meer informatie over het maken van een directe-maillevering via Adobe Campaign Web
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 9b5172b2-1880-4768-a33b-8a20ec5a30ab
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '429'
 ht-degree: 5%
 
 ---
-
 
 # Een levering voor direct mail maken {#create-direct-mail}
 
@@ -22,11 +22,11 @@ Voer de volgende stappen uit om een nieuwe, zelfstandige levering via e-mail te 
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 
-   ![](assets/dm-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-create.png){zoomable="yes"}
 
 1. Voer een **[!UICONTROL Label]** voor levering en toegang tot **[!UICONTROL Additional options]** vervolgkeuzelijst. Als uw levering op een uitgebreid schema wordt gebaseerd, specifiek **Aangepaste opties** zijn beschikbaar.
 
-   ![](assets/dm-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-properties.png){zoomable="yes"}
 
    +++Configureer de volgende instellingen op basis van uw vereisten.
    * **[!UICONTROL Internal name]**: Wijs een unieke id toe aan de levering.
@@ -41,7 +41,7 @@ Voer de volgende stappen uit om een nieuwe, zelfstandige levering via e-mail te 
    * [Leer hoe u een bestaand publiek kunt selecteren](../audience/add-audience.md)
    * [Leer hoe u een nieuw publiek kunt maken](../audience/one-time-audience.md)
 
-   ![](assets/dm-audience.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-audience.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ Voer de volgende stappen uit om een nieuwe, zelfstandige levering via e-mail te 
 
 1. Klikken **[!UICONTROL Edit content]** om de informatie (kolommen) te definiëren die naar het extractiebestand moet worden geëxporteerd. [Meer informatie](content-direct-mail.md)
 
-   ![](assets/dm-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-content.png){zoomable="yes"}
 
-1. Als u de levering wilt plannen op een bepaalde datum en tijd, schakelt u de optie **[!UICONTROL Enable scheduling]** -optie. Nadat u de levering hebt gestart, wordt het extractiebestand automatisch gegenereerd op de exacte datum en tijd die u hebt gedefinieerd. [Leer hoe u leveringen kunt plannen](../msg/gs-messages.md#gs-schedule).
+1. Als u de levering wilt plannen op een bepaalde datum en tijd, schakelt u de optie **[!UICONTROL Enable scheduling]** -optie. Nadat u de levering hebt gestart, wordt het extractiebestand automatisch gegenereerd op de exacte datum en tijd die u hebt gedefinieerd. [Leer hoe u leveringen kunt plannen](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
@@ -61,7 +61,6 @@ Voer de volgende stappen uit om een nieuwe, zelfstandige levering via e-mail te 
 
 1. Klikken **[!UICONTROL Settings]** voor toegang tot geavanceerde opties met betrekking tot uw leveringsmalplaatje. [Meer informatie](../advanced-settings/delivery-settings.md)
 
-   ![](assets/dm-settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/dm-settings.png){zoomable="yes"}
 
 1. Klik op de knop **[!UICONTROL Review and send]** om uw levering te valideren en te verzenden en het extractiebestand te genereren. [Leer hoe u een directe verzending per e-mail kunt voorvertonen en verzenden](send-direct-mail.md)
-

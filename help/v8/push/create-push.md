@@ -3,9 +3,9 @@ audience: end-user
 title: Een pushmelding maken
 description: Leer hoe u een pushmelding maakt met Adobe Campaign Web
 exl-id: 49a3c05c-5806-4269-a98d-915eee216f90
-source-git-commit: 933cfcdfb9ff9a176f4942e349b882c404c4e2a8
+source-git-commit: 35de060a73c17b304d63000656ff86bb4a80ab15
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '674'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Ga als volgt te werk om een nieuwe zelfstandige pushaanbieding te maken:
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 
-   ![](assets/push_create_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_create_1.png){zoomable="yes"}
 
 ## De leveringsinstellingen configureren {#configure-push-settings}
 
@@ -68,7 +68,7 @@ U moet eerst de app selecteren en vervolgens het publiek voor pushmeldingen verf
 
 1. Van de **[!UICONTROL Audience]** selecteert u de toepassing die u voor deze levering wilt gebruiken. Uw pushmelding wordt standaard naar alle abonnees van de toepassing verzonden. U kunt een bepaald publiek verfijnen door op de knop **[!UICONTROL Select audience]** knop.
 
-   ![](assets/push_create_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/push_create_2.png){zoomable="yes"}
 
 1. Selecteer een bestaand publiek of maak uw eigen publiek om de doelpopulatie voor uw pushlevering te verfijnen. Voor pushmeldingen wordt de standaardwaarde [doeldimensie](../audience/about-recipients.md#targeting-dimensions) is **Abonnementstoepassing** (nms:appSubscriptionRcp), die is gekoppeld aan de tabel met ontvangers.
 
@@ -82,7 +82,7 @@ U moet eerst de app selecteren en vervolgens het publiek voor pushmeldingen verf
 
 Klik op **[!UICONTROL Edit content]**. [Meer informatie](content-push.md)
 
-![](assets/push_create_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_5.png){zoomable="yes"}
 
 Vanuit dit scherm kunt u ook [simuleren, inhoud](../preview-test/preview-test.md) en [aanbiedingen instellen](../msg/offers.md).
 
@@ -100,12 +100,12 @@ Voer de volgende stappen uit om een zelfstandige pushlevering naar een bepaalde 
 
 Nadat u de levering in werking stelt, wordt het bericht automatisch verzonden op de nauwkeurige datum en de tijd die u voor de ontvanger hebt bepaald.
 
-![](assets/push_create_3.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_3.png){zoomable="yes"}
 
-Meer informatie over de planning van de levering in [deze sectie](../msg/gs-messages.md#gs-schedule)
+Meer informatie over de planning van de levering in [deze sectie](../msg/gs-deliveries.md#gs-schedule)
 
 ## Geavanceerde instellingen voor levering {#adv-push}
 
 Klikken **[!UICONTROL Configure delivery settings]** voor toegang tot geavanceerde opties met betrekking tot uw leveringsmalplaatje. [Meer informatie](../advanced-settings/delivery-settings.md)
 
-![](assets/push_create_4.png){zoomable=&quot;yes&quot;}
+![](assets/push_create_4.png){zoomable="yes"}

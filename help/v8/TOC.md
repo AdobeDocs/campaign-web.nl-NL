@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: b3eb0a2864ab68f224a78344956e3e3eb4323403
+source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '701'
 ht-degree: 14%
 
 ---
@@ -64,6 +64,7 @@ ht-degree: 14%
          + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
          + [Verzenden met meerdere golven](advanced-settings/send-using-waves.md)
          + [Leveringslogboeken controleren](monitor/delivery-logs.md)
+         + [Plaats de verzending van een levering](monitor/schedule-sending.md)
    + Pushmeldingen {#push}
       + [Aan de slag met pushmeldingen](push/gs-push.md)
       + [Een pushmelding maken](push/create-push.md)
