@@ -3,18 +3,14 @@ audience: end-user
 title: De activiteit van de Abonnementsservices gebruiken
 description: Leer hoe u de workflowactiviteit voor abonnementenservices gebruikt
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: 9cd2d3c7ac4c0ff3c9939cd43606400011fce739
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 21%
+source-wordcount: '562'
+ht-degree: 3%
 
 ---
 
 # Abonnementsdiensten {#subscriptipon-services}
-
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -85,13 +81,14 @@ Deze workflow hieronder laat zien hoe u een publiek kunt abonneren op een bestaa
 
 * A **[!UICONTROL Subscription Services]** Met activiteit kunt u de service selecteren waarop de profielen moeten worden geabonneerd.
 
-### Meerdere lidmaatschapsstatussen bijwerken vanuit een bestand {#uc2}
+<!--
+### Updating multiple subscription statuses from a file {#uc2}
 
-In de onderstaande workflow ziet u hoe u een bestand met profielen kunt importeren en hoe u hun abonnement kunt bijwerken naar verschillende services die in het bestand zijn opgegeven.
+The workflow below shows how to import a file containing profiles and update their subscription to several services specified in the file.
 
 ![](../assets/workflow-subscription-service-uc2.png)
 
-* A **[!UICONTROL Load file]** Deze activiteit laadt een CSV-bestand met de gegevens en definieert de structuur van de geïmporteerde kolommen. De kolommen &quot;service&quot; en &quot;operation&quot; geven de service aan die moet worden bijgewerkt en de bewerking die moet worden uitgevoerd (abonnement of abonnement).
+* A **[!UICONTROL Load file]** activity loads a CSV file containing the data and defines the structure of the imported columns. The "service" and "operation" columns specify the service to update and the operation to perform (subscription or unsubscription).
 
   ```
   Lastname,firstname,city,birthdate,email,service,operation
@@ -102,26 +99,26 @@ In de onderstaande workflow ziet u hoe u een bestand met profielen kunt importer
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  Zoals u misschien hebt opgemerkt, wordt de bewerking in het bestand opgegeven als ‘sub’ of ‘unsub’. Het systeem verwacht dat een waarde **Boolean** of **Integer** de bewerking herkent die moet worden uitgevoerd: 0 voor uitschrijven en 1 voor inschrijven. Om aan deze eis te voldoen, moet een hermapping van waarden in het detail van de &quot;verrichting&quot;kolom in het scherm van de steekproefdossierconfiguratie worden uitgevoerd.
+  As you may have noticed, the operation is specified in the file as "sub" or "unsub". The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. To match this requirement, a remapping of values must be performed in the detail of the "operation" column in the sample file configuration screen.
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  Als in uw bestand al 0 en 1 worden gebruikt om de bewerking te identificeren, hoeft u deze waarden niet opnieuw toe te wijzen. Alleen controleren of de kolom is verwerkt als een **Boolean** of **Geheel** in de kolommen van het voorbeeldbestand.
+  If your file already uses "0" and "1" to identify the operation, you don't need to remap those values. Only make sure that the column is processed as a **Boolean** or **Integer** in the sample file columns.
 
-* Een activiteit **[!UICONTROL Reconciliation]** identificeert de data van het bestand als deel van de profieldimensie van de Adobe Campaign-database. De **email** wordt het veld van het bestand aangepast aan het **email** veld van de profielbron.
-
-  ![](../assets/workflow-subscription-service-uc2-enrichment.png)
-
-* An **[!UICONTROL Enrichment]** De activiteit leidt tot een verbinding aan de lijst van de &quot;Diensten (nms)&quot;en leidt eenvoudig samen tussen de &quot;dienst&quot;kolom van het geupload dossier, en de diensten &quot;interne naam&quot;gebied in het gegevensbestand.
+* A **[!UICONTROL Reconciliation]** activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. The **email** field of the file is matched to the **email** field of the profile resource.
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* A **[!UICONTROL Deduplication]** op basis van de **email** veld identificeert duplicaten. Het is belangrijk om duplicaten te verwijderen aangezien het abonnement op de service voor alle data zal mislukken als er duplicaten zijn.
+* An **[!UICONTROL Enrichment]** activity creates a link to the "Services (nms)" table and creates a simple join between the "service" column of the uploaded file, and the services "internal name" field in the database.
+
+    ![](../assets/workflow-subscription-service-uc2-enrichment.png)
+
+* A **[!UICONTROL Deduplication]** based on the **email** field identifies duplicates. It is important to eliminate duplicates since the subscription to a service will fail for all data in case of duplicates.
 
   ![](../assets/workflow-subscription-service-uc2-dedup.png)
+  
+* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
 
-* Met de activiteit **[!UICONTROL Subscription Services]** worden de services die moeten worden bijgewerkt en afkomstig zijn van de overgang, geïdentificeerd via de koppeling die in de activiteit **[!UICONTROL Reconciliation]** wordt gemaakt.
+  The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Only Boolean or Integer fields can be selected here. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
 
-  Het **[!UICONTROL Operation type]** wordt geïdentificeerd als afkomstig van het veld **operation** van het bestand. U kunt hier alleen de velden Boolean of Integer selecteren. Als de kolom van het bestand dat de uit te voeren bewerking bevat, niet in de lijst voorkomt, moet u controleren of u de kolomindeling in de activiteit **[!UICONTROL Load file]** correct hebt ingesteld, zoals eerder in dit voorbeeld wordt uitgelegd.
-
-  ![](../assets/workflow-subscription-service-uc2-subscription.png)
+  ![](../assets/workflow-subscription-service-uc2-subscription.png)-->
