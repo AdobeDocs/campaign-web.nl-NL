@@ -3,7 +3,7 @@ audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 26c51246755ee409b586fcfe2ced61fd0ed536a0
+source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_simplejoin"
 >title="Koppelingsdefinitie"
->abstract="Maak een koppeling tussen de werktabelgegevens en de Adobe Campaign-database. Als u bijvoorbeeld gegevens laadt uit een bestand dat het rekeningnummer, land en e-mail van ontvangers bevat, moet u een koppeling naar de landentabel maken om deze gegevens in hun profielen bij te werken.
+>abstract="Maak een koppeling tussen de werktabelgegevens en de Adobe Campaign-database. Als u bijvoorbeeld gegevens laadt uit een bestand dat het rekeningnummer, land en e-mail van ontvangers bevat, moet u een koppeling naar de landentabel maken om deze gegevens in hun profielen bij te werken."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_reconciliation"
