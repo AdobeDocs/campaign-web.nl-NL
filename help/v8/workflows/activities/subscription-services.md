@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de Abonnementsservices gebruiken
 description: Leer hoe u de workflowactiviteit voor abonnementenservices gebruikt
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 9cd2d3c7ac4c0ff3c9939cd43606400011fce739
+source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '566'
 ht-degree: 3%
 
 ---
@@ -26,6 +26,11 @@ ht-degree: 3%
 >id="acw_orchestration_subscription_outboundtransition"
 >title="Een uitgaande overgang genereren"
 >abstract="Schakelen tussen **Een uitgaande overgang genereren** om een overgang toe te voegen na de activiteit."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_subscription_additionalinfo"
+>title="Aanvullende informatie"
+>abstract="Aanvullende informatie"
 
 De **Abonnementsdiensten** activiteit is **Gegevensbeheer** activiteit. Hiermee kunt u een abonnement op een informatieservice maken of verwijderen voor de populatie die is opgegeven in de overgang.
 
