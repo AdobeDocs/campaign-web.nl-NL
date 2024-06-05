@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit voor het publiek opslaan gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 48eef836bc75e12a9e72f4ba8f6ce2ebb5de5f5b
+source-git-commit: 75c612d50d2d4a675829a412e2c4f55ed1cb817c
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '442'
 ht-degree: 1%
 
 ---
@@ -53,4 +53,4 @@ De inhoud van het opgeslagen publiek is dan beschikbaar in de gedetailleerde wee
 
 ## Voorbeeld{#save-audience-example}
 
-In het volgende voorbeeld ziet u hoe u een eenvoudige publieksupdate maakt. Een planner wordt toegevoegd om het werkschema eens per maand in werking te stellen. Met een query worden alle profielen hersteld die zijn geabonneerd op de verschillende beschikbare toepassingsservices. De **Adviezen opslaan** de activiteit werkt het publiek door profielen te schrappen die van de dienst sinds de laatste werkschemauitvoering hebben losgemaakt en door de onlangs geabonneerde profielen toe te voegen.
+In het volgende voorbeeld ziet u hoe u een eenvoudige publieksupdate maakt. Een planner wordt toegevoegd om het werkschema eens per maand in werking te stellen. Met een query worden alle profielen hersteld die zijn geabonneerd op de verschillende beschikbare toepassingen. De **Adviezen opslaan** de activiteit werkt het publiek door profielen te schrappen die van de dienst sinds de laatste werkschemauitvoering hebben losgemaakt en door de onlangs geabonneerde profielen toe te voegen.
