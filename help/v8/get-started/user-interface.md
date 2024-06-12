@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 7b04c6a9b425054690209bc3d3d8d0c29e038e31
+source-git-commit: fefa85dd3d0445772759bf53c7b6f8f9b9881a87
 workflow-type: tm+mt
-source-wordcount: '1650'
+source-wordcount: '1673'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ De homepage van de campagne laat u snel en gemakkelijk doorbladeren zeer belangr
 
 In het bovenste gedeelte van de startpagina vindt u meer informatie over de nieuwste updates en nieuwe mogelijkheden die beschikbaar zijn in het product, met een koppeling naar Opmerkingen bij de release en gedetailleerde documentatie. Gebruik de pijl-links om functiekaarten te schuiven.
 
-![](assets/home.png){zoomable=&quot;yes&quot;}
+![](assets/home.png){zoomable="yes"}
 
 De **Belangrijkste prestatie-indicatoren** Hiermee kunt u de doeltreffendheid van uw platform controleren aan de hand van algemene KPI&#39;s. Meer informatie over deze KPI&#39;s vindt u in [deze pagina](../reporting/kpis.md).
 
@@ -70,7 +70,7 @@ In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, levering
 
   Gebruik de **Meer handelingen** om een levering te verwijderen of te dupliceren.
 
-  ![](assets/more-actions.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+  ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"}
 
 * **Workflows** - In dit scherm hebt u toegang tot de volledige lijst met workflows en workflowsjablonen. U kunt hun status, de laatste/volgende uitvoeringsdata controleren en een nieuwe werkstroom of een nieuw werkschemamalplaatje creëren. U kunt de lijst filteren met dezelfde criteria als voor andere objecten. Bovendien kunt u workflows filteren die wel of niet tot een campagne behoren. Meer informatie over workflows [in deze sectie](../workflows/gs-workflows.md).
 
@@ -357,6 +357,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_subscriptions_defaultlp"
 >title="Standaardlandingspagina"
 >abstract="Selecteer de standaardlandingspagina die aan deze abonnementenservice is gekoppeld."
+
+>[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_create_criteria_parameters"
 >title="Parameters van de leveringsalarmeringscriteria"
 >abstract="Afleveringswaarschuwing"
@@ -375,6 +377,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_delivery_alerting_dashboard_create"
 >title="Waarschuwingsdashboard voor levering maken"
 >abstract="Waarschuwingsdashboard voor levering maken"
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="Een waarschuwingscriterium maken"
+>abstract="Als u uw eigen leveringsfilters wilt maken, maakt u een nieuw, vooraf gedefinieerd filter in de Campagne v8-console via de **Administratie** > **Configuratie** > **Vooraf gedefinieerde filters** knooppunt."
 
 <!-- IDs -->
 
