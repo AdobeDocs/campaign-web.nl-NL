@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: a42594d3c1e248e835608c99c168655e9f34890c
+source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 14%
+source-wordcount: '704'
+ht-degree: 15%
 
 ---
 
@@ -18,6 +18,7 @@ ht-degree: 14%
 + [Adobe Campaign Web User Interface-documentatie](campaign-web-home.md)
 + Release-opmerkingen {#release-notes}
    + [Nieuwe functies](rn/whats-new.md)
+   + [Vroege aanvullende informatie](rn/e-release-notes.md)
    + [Nieuwste release](rn/release-notes.md)
    + [Documentatie-updates](rn/documentation-updates.md)
 + Aan de slag met Adobe Campaign {#start}
