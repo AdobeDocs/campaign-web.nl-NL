@@ -3,9 +3,9 @@ title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de volgende versie van het Gebruikersinterface van het Web van de Campagne komen
 hide: true
 hidefromtoc: true
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: c40278f2424b8d6bdc396b3253ac999c23ed8312
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '355'
 ht-degree: 1%
 
 ---
@@ -24,9 +24,7 @@ De volgende functies en verbeteringen zijn beschikbaar voor alle gebruikers vana
 
 ### Inhoudsfragmenten {#24-6-1}
 
-* U kunt nu ontwerpen, gebruiken en opslaan **visuele fragmenten** om uw e-mails en inhoudssjablonen snel samen te stellen. Een fragment is een vooraf gebouwde herbruikbare component waarnaar in meerdere e-mails in Adobe Campaign kan worden verwezen voor een verbeterd en versneld ontwerpproces. [Meer informatie](../email/fragments.md)
-
-* U kunt nu ontwerpen, gebruiken en beheren **expressiefragmenten** om snel persoonlijke inhoud te maken. Een fragment is een vooraf gebouwde herbruikbare component waarnaar in meerdere inhoud in Adobe Campaign kan worden verwezen voor een verbeterd en versneld ontwerpproces.
+U kunt nu ontwerpen, gebruiken en beheren **visueel** en **expression** fragmenten om uw e-mails en inhoudssjablonen snel samen te stellen. Een fragment is een vooraf gebouwde herbruikbare component waarnaar in meerdere e-mails in Adobe Campaign kan worden verwezen voor een verbeterd en versneld ontwerpproces.
 
 ### Zaadlijsten {#24-6-2}
 
@@ -42,3 +40,4 @@ U kunt nu plannen en programma&#39;s maken om uw campagnes te organiseren. Door 
 
 ### Verbeteringen {#improvements-24-6}
 
+* **Afstemming van verrijkingsactiviteiten**: De verrijkingsactiviteit kan nu worden gebruikt om gegevens van het het gegevensbestandschema van de Campagne met gegevens van een ander schema, of met gegevens te verzoenen die uit een tijdelijk schema zoals gegevens komen die gebruikend een het dossieractiviteit van de Lading worden geupload. U kunt deze optie bijvoorbeeld gebruiken om het land van een profiel dat is opgegeven in een geüpload bestand, te combineren met een van de landen die beschikbaar zijn in de specifieke tabel van de Campagne-database.
