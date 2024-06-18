@@ -2,10 +2,10 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4df01bae0d2099f38012fb082e249bc060e4ce6b
+source-git-commit: 385c931c9fae7386c2a2f1ef471a9cd7c4a47696
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 6%
+source-wordcount: '1623'
+ht-degree: 5%
 
 ---
 
@@ -17,6 +17,32 @@ ht-degree: 6%
 >abstract="De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Opmerkingen bij de release Campagne worden daarom meerdere keren per maand bijgewerkt met de nieuwste functies, verbeteringen en correcties. We raden u aan deze regelmatig te controleren."
 
 De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+
+## Release-aantekeningen juni {#24-6-release}
+
+**Releasedatum**: 18-19 juni 2024
+
+De volgende functies en verbeteringen zijn beschikbaar voor alle gebruikers vanaf de release in juni.
+<!--
+### Visual fragments {#24-6-1}
+
+You can now author, use, and manage **visual** fragments to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process.
+
+### Seed lists {#24-6-2}
+
+A seed list, aka. **Trap group**, is a list of seed addresses. It is used to include specific addresses in your deliveries, and then target profiles who do not match the defined target criteria. This way, recipients who are out of the delivery audience can receive the delivery, as any other target recipient would. You can use seed addresses when sending proofs, or to protect your mailing list.-->
+
+### Afleveringswaarschuwing {#24-6-3}
+
+De voorziening voor leveringswaarschuwingen is een systeem voor waarschuwingsbeheer dat een groep gebruikers in staat stelt automatisch meldingen te ontvangen die informatie bevatten over de uitvoering van hun leveringen. [Meer informatie](../msg/delivery-alerting.md)
+
+### Abonnementen en programma&#39;s {#24-6-4}
+
+U kunt nu plannen en programma&#39;s maken om uw campagnes te organiseren. Door een mappenhiërarchie te definiëren, kunt u uw campagnes in programma&#39;s en uw programma&#39;s in plannen organiseren. [Meer informatie](../administration/plans-programs.md)
+
+### Verbeteringen {#improvements-24-6}
+
+* **Afstemming van verrijkingsactiviteiten**: De verrijkingsactiviteit kan nu worden gebruikt om gegevens van het het gegevensbestandschema van de Campagne met gegevens van een ander schema, of met gegevens te verzoenen die uit een tijdelijk schema zoals gegevens komen die gebruikend een het dossieractiviteit van de Lading worden geupload. U kunt deze optie bijvoorbeeld gebruiken om het land van een profiel dat is opgegeven in een geüpload bestand, te combineren met een van de landen die beschikbaar zijn in de specifieke tabel van de Campagne-database. [Meer informatie](../workflows/activities/enrichment.md)
 
 ## Release-aantekeningen mei {#24-5-release}
 
