@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 385c931c9fae7386c2a2f1ef471a9cd7c4a47696
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 5%
@@ -42,7 +42,7 @@ U kunt nu plannen en programma&#39;s maken om uw campagnes te organiseren. Door 
 
 ### Verbeteringen {#improvements-24-6}
 
-* **Afstemming van verrijkingsactiviteiten**: De verrijkingsactiviteit kan nu worden gebruikt om gegevens van het het gegevensbestandschema van de Campagne met gegevens van een ander schema, of met gegevens te verzoenen die uit een tijdelijk schema zoals gegevens komen die gebruikend een het dossieractiviteit van de Lading worden geupload. U kunt deze optie bijvoorbeeld gebruiken om het land van een profiel dat is opgegeven in een geüpload bestand, te combineren met een van de landen die beschikbaar zijn in de specifieke tabel van de Campagne-database. [Meer informatie](../workflows/activities/enrichment.md)
+* **Afstemming van verrijkingsactiviteiten**: De **Verrijking** De activiteit kan nu worden gebruikt om gegevens van het het gegevensbestandschema van de Campagne met gegevens van een ander schema, of met gegevens te verzoenen die uit een tijdelijk schema zoals gegevens komen die gebruikend een het dossieractiviteit van de Lading worden geupload. U kunt deze optie bijvoorbeeld gebruiken om het land van een profiel dat is opgegeven in een geüpload bestand, te combineren met een van de landen die beschikbaar zijn in de specifieke tabel van de Campagne-database. [Meer informatie](../workflows/activities/enrichment.md)
 
 ## Release-aantekeningen mei {#24-5-release}
 

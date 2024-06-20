@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1655'
 ht-degree: 0%
 
 ---
@@ -77,12 +77,6 @@ Voer de volgende stappen uit om de **Verrijking** activiteit:
 
 ## Koppelingen maken tussen tabellen {#create-links}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Koppelingen tussen tabellen"
->abstract="U kunt nu een koppeling maken tussen de gegevens van de werktabel en de Adobe Campaign-database in de activiteit van de verrijkingsworkflow."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
-
 De **[!UICONTROL Link definition]** kunt u een koppeling maken tussen de gegevens van de werktabel en de Adobe Campaign-database. Als u bijvoorbeeld gegevens laadt uit een bestand dat het rekeningnummer, land en e-mail van ontvangers bevat, moet u een koppeling naar de landentabel maken om deze gegevens in hun profielen bij te werken.
 
 Er zijn verschillende typen koppelingen beschikbaar:
@@ -112,6 +106,14 @@ Ga als volgt te werk om een koppeling te maken:
 Een voorbeeld van een workflow met koppelingen is beschikbaar in het dialoogvenster [Voorbeelden](#link-example) sectie.
 
 ## Gegevensafstemming {#reconciliation}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Gegevensafstemming"
+>abstract="De activiteit van de Verrijking van het werkschema kan nu worden gebruikt om gegevens van het het gegevensbestandschema van de Campagne met gegevens van een ander schema, of met gegevens te verzoenen die uit een tijdelijk schema zoals gegevens komen die gebruikend een het dossieractiviteit van de Lading worden geupload."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+
 
 De **Verrijking** activiteit kan worden gebruikt om gegevens van het het gegevensbestandschema van de Campagne met gegevens van een ander schema, of met gegevens te verzoenen die uit een tijdelijk schema komen zoals gegevens die gebruikend een het dossieractiviteit van de Lading worden geupload. Dit type koppeling definieert een koppeling naar een unieke record. Adobe Campaign maakt een koppeling naar een doeltabel door er een externe sleutel aan toe te voegen voor het opslaan van een verwijzing naar de unieke record.
 

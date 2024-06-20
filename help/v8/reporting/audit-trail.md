@@ -3,7 +3,8 @@ product: campaign
 title: Audit trail
 description: Leer hoe u uw exemplaar kunt controleren met het Campagne Audit Trail
 feature: Audit Trail, Monitoring, Workflows
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 # Audit trail{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn5"
 >title="Audit trail"
 >abstract="De nieuwe controletrailfunctie biedt een gedetailleerd en chronologisch overzicht van alle acties en gebeurtenissen die in real-time aan uw Adobe Campaign-instantie zijn uitgevoerd."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
@@ -100,4 +101,3 @@ Toegang krijgen tot de **[!UICONTROL Audit trail]**:
    Het codeblok geeft u meer informatie over wat precies in uw entiteit is gewijzigd.
 
    ![](assets/audit-trail-2.png)
-

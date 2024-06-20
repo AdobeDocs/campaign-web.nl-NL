@@ -2,7 +2,7 @@
 title: Aangepaste velden
 description: Leer hoe u aangepaste velden configureert
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Aangepaste velden configureren {#custom-fields}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn4"
 >title="Aangepaste velden"
 >abstract="Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan de out-of-the-box-schema&#39;s worden toegevoegd. Zij zijn nu beschikbaar in het gebruikersinterface van het Web."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"

@@ -2,14 +2,21 @@
 audience: end-user
 title: Abonnementen en programma's
 description: Leer hoe u plannen en programma's maakt en configureert in Adobe Campaign
-source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
+exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
-# Abonnementen en programma&#39;s
+# Abonnementen en programma&#39;s {#plan-and-programs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Abonnementen en programma&#39;s"
+>abstract="U kunt uw omslaghiërarchie voor marketing plannen en programma&#39;s in het gebruikersinterface van het Web van de Campagne nu vormen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 Met Adobe Campaign kunt u uw maphiërarchie configureren voor marketingplannen en -programma&#39;s.
 

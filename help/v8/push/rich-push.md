@@ -3,22 +3,15 @@ audience: end-user
 title: Een uitgebreide pushmelding ontwerpen
 description: Leer hoe u een uitgebreide pushmelding voor Android ontwerpt met Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 93ac61808049da6f0d800a19f2baf97946d8612c
+source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
 
 # Een uitgebreide pushaanbieding voor Android ontwerpen {#rich-push}
 
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Rijke push-levering"
->abstract="U kunt nu uitgebreide pushmeldingen verzenden via Android. Momenteel is deze mogelijkheid beperkt beschikbaar."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
