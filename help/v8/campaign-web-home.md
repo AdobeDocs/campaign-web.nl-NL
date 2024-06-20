@@ -3,9 +3,9 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 35d803b7e409c38b9b29150aa4d8c1849f994c2c
+source-git-commit: f9b8c0805d816075c5ee9ea9443f50cfead371d1
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
@@ -51,29 +51,24 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 >[!BEGINTABS]
 
->[!TAB Kan live worden uitgebracht!]
+>[!TAB Juni-release is live.]
 
-Ontdek nieuwe functies en verbeteringen die worden geleverd met de Adobe Campaign Web User Interface 24.4-release.
+Ontdek nieuwe functies en verbeteringen die worden geleverd met de Adobe Campaign Web User Interface 24.6-release.
 
 [![afbeelding](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB Audittrail]
+>[!TAB Afleveringswaarschuwing]
 
-De nieuwe controletrailfunctie biedt een gedetailleerd en chronologisch overzicht van alle acties en gebeurtenissen die in real-time aan uw Adobe Campaign-instantie zijn uitgevoerd.
+De Alerting van de levering is een waakzaam beheersysteem dat groepen gebruikers toelaat om e-mailberichten met informatie over hun levering automatisch te ontvangen uitvoeren.
 
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](reporting/audit-trail.md)
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
 
->[!TAB Aangepaste velden]
+>[!TAB Abonnementen en programma&#39;s]
 
-Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan de out-of-the-box-schema&#39;s worden toegevoegd. Zij zijn nu beschikbaar in het gebruikersinterface van het Web.
+Met Adobe Campaign kunt u uw maphiërarchie configureren voor marketingplannen en -programma&#39;s.
 
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](administration/custom-fields.md)
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
 
->[!TAB Tabellen koppelen]
-
-U kunt nu een koppeling maken tussen de gegevens van de werktabel en de Adobe Campaign-database in de activiteit van de verrijkingsworkflow.
-
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](workflows/activities/enrichment.md#create-links)
 
 >[!ENDTABS]
 
@@ -91,7 +86,7 @@ U kunt nu een koppeling maken tussen de gegevens van de werktabel en de Adobe Ca
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
-    <div><strong>Maak kennis met de e-mailontwerper</strong><br/>Leer hoe u begint met een sjabloon of nieuwe e-mailontwerper voor Adobe Campaign gebruikt om e-mailberichten te maken zonder dat u één regel code hoeft te schrijven.
+    <div><strong>Maak kennis met de e-mail-Designer</strong><br/>Leer hoe u kunt beginnen met een sjabloon of nieuwe e-mailberichten via Adobe Campaign kunt maken zonder dat u een enkele coderegel hoeft te schrijven.
     </div></td>
     <td>
     <a href="personalization/gs-personalization.md"><img src="assets/do-not-localize/menu-dynamic.png"></a>

@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 0e7990ac491d8c96d328a4fa414af1c8c8ac2f9f
+source-git-commit: 8c7893dfaa394158ba98172b4025e05e4ab3343c
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 15%
+source-wordcount: '725'
+ht-degree: 14%
 
 ---
 
@@ -100,6 +100,10 @@ ht-degree: 15%
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
       + [Proefdrukken verzenden](preview-test/test-deliveries.md)
       + [De rendering van e-mail testen](preview-test/email-rendering.md)
+   + Afleveringswaarschuwing {#delivery-alerting}
+      + [Aan de slag met leveringsberichten](msg/delivery-alerting.md)
+      + [Waarschuwingsdashboards](msg/delivery-alerting-dashboards.md)
+      + [Beoordelingscriteria voor aflevering](msg/delivery-alerting-criteria.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](landing-pages/get-started-lp.md)
    + [Een openingspagina maken en publiceren](landing-pages/create-lp.md)
@@ -130,6 +134,7 @@ ht-degree: 15%
    + [Aan de slag met campagnes](campaigns/gs-campaigns.md)
    + [Toegang tot en beheer uw campagnes](campaigns/manage-campaigns.md)
    + [Uw eerste campagne maken](campaigns/create-campaigns.md)
+   + [Abonnementen en programma&#39;s](administration/plans-programs.md)
 + Workflows {#wf}
    + [Aan de slag met workflows](workflows/gs-workflows.md)
    + [Afvoerkanalen en beperkingen](get-started/guardrails.md)
@@ -202,4 +207,5 @@ ht-degree: 15%
    + [Sjablonen beheren met Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuratie {#conf}
    + [Aangepaste velden configureren](administration/custom-fields.md)
+   + [Een map maken en beheren](administration/create-manage-folder.md)
 + [Campagne v8 (console) documentatie >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

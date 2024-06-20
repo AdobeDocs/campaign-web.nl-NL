@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 3d39027faa1253ddeb2a0273eca3aa980a0a36f2
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
 workflow-type: tm+mt
-source-wordcount: '1274'
+source-wordcount: '1638'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,36 @@ Ga als volgt te werk om een koppeling te maken:
 
 Een voorbeeld van een workflow met koppelingen is beschikbaar in het dialoogvenster [Voorbeelden](#link-example) sectie.
 
+## Gegevensafstemming {#reconciliation}
+
+De **Verrijking** activiteit kan worden gebruikt om gegevens van het het gegevensbestandschema van de Campagne met gegevens van een ander schema, of met gegevens te verzoenen die uit een tijdelijk schema komen zoals gegevens die gebruikend een het dossieractiviteit van de Lading worden geupload. Dit type koppeling definieert een koppeling naar een unieke record. Adobe Campaign maakt een koppeling naar een doeltabel door er een externe sleutel aan toe te voegen voor het opslaan van een verwijzing naar de unieke record.
+
+U kunt deze optie bijvoorbeeld gebruiken om het land van een profiel dat is opgegeven in een geüpload bestand, te combineren met een van de landen die beschikbaar zijn in de specifieke tabel van de Campagne-database.
+
+Voer de stappen uit om een **Verrijking** activiteit met een afstemmingsverband:
+
+1. Klik op de knop **Koppeling toevoegen** in de **Verzoening** sectie.
+1. Identificeer de gegevens u een verzoeningsverbinding met wilt tot stand brengen.
+
+   * Als u een koppeling wilt maken met gegevens uit de Campagne-database, selecteert u **Databaseschema** en kiest u het schema waarin het doel is opgeslagen.
+   * Als u een koppeling wilt maken met gegevens die afkomstig zijn uit de invoerovergang, selecteert u **Tijdelijk schema** en kiest u de workflowovergang waarin de doelgegevens worden opgeslagen.
+
+1. De **Label** en **Naam** velden worden automatisch ingevuld op basis van het geselecteerde doelschema. U kunt de waarden desgewenst wijzigen.
+
+1. In de **Afstemmingscriteria** in, geeft u op hoe u gegevens uit de bron- en doeltabellen wilt combineren:
+
+   * **Eenvoudige samenvoeging**: Verwerk een specifiek veld uit de brontabel met een ander veld in de doeltabel. Om dit te doen, klik **Verbinden toevoegen** en geeft u de **Bron** en **Doel** velden die moeten worden gebruikt voor de afstemming.
+
+     >[!NOTE]
+     >
+     >U kunt een of meer **Eenvoudige samenvoeging** criteria, in welk geval zij allemaal moeten worden gecontroleerd om de gegevens aan elkaar te koppelen.
+
+   * **Geavanceerde verbinding**: Gebruik de querymodelfunctie om de afstemmingscriteria te configureren. Om dit te doen, klik **Voorwaarde maken** dan uw verzoeningscriteria door uw eigen regel te bouwen gebruikend EN en OF verrichtingen bepalen.
+
+In het onderstaande voorbeeld ziet u een workflow die is geconfigureerd om een koppeling tot stand te brengen tussen de tabel met Adobe Campaign-databaseontvangers en een tijdelijke tabel die een **Bestand laden** activiteit. In dit voorbeeld zorgt de verrijkingsactiviteit ervoor dat beide tabellen worden gecombineerd met het e-mailadres als afstemmingscriteria.
+
+![](../assets/enrichment-reconciliation.png)
+
 ## Voorbeelden {#example}
 
 ### Enkel verrijkingskenmerk {#single-attribute}
@@ -177,48 +207,17 @@ We moeten nu sorteren om de drie bestanden op te halen **nieuwste** aankopen.
 
 ![](../assets/workflow-enrichment7.png)
 
-
 ### Verrijking met gekoppelde gegevens {#link-example}
 
-In het onderstaande voorbeeld ziet u een workflow die is geconfigureerd om een koppeling tussen twee overgangen te maken. De eerste overgangen richten profielgegevens gebruikend een activiteit van de Vraag, terwijl de tweede overgang aankoopgegevens omvat die in een dossier worden opgeslagen dat door een activiteit van het Dossier van de Lading wordt geladen.
+In het onderstaande voorbeeld ziet u een workflow die is geconfigureerd om een koppeling tussen twee overgangen te maken. De eerste overgangen richten profielgegevens gebruikend **Query** activiteit, terwijl de tweede overgang aankoopgegevens bevat die zijn opgeslagen in een bestand dat is geladen via een activiteit Bestand laden.
 
-* De eerste **Verrijking** activiteit verbindt onze primaire reeks (gegevens van **Query** activiteit) met het schema van **Bestand laden** activiteit. Hierdoor kunnen we elk profiel waarop de query betrekking heeft, afstemmen op de corresponderende aankoopgegevens.
+![](../assets/enrichment-uc-link.png)
+
+* De eerste **Verrijking** activiteit verbindt de primaire reeks (gegevens van **Query** activiteit) met het schema van **Bestand laden** activiteit. Hierdoor kunnen we elk profiel waarop de query betrekking heeft, afstemmen op de corresponderende aankoopgegevens.
+
+  ![](../assets/enrichment-uc-link-purchases.png)
+
 * Een seconde **Verrijking** activiteit wordt toegevoegd om gegevens van de werkschematabel met de aankoopgegevens te verrijken die uit **Bestand laden** activiteit. Op deze manier kunnen we die gegevens in verdere activiteiten gebruiken, bijvoorbeeld om berichten die aan klanten worden verzonden met informatie over hun aankoop te personaliseren.
 
-  ![](../assets/workflow-enrichment-example.png)
+  ![](../assets/enrichment-uc-link-data.png)
 
-
-
-
-
-<!--
-
-Add other fields
-use it in delivery
-
-
-cardinality between the tables (1-N)
-1. select attribute to use as enrichment data
-
-    display advanced fields option
-    i button
-
-    note: attributes from the target dimension
-
-1. Select how the data is collected
-1. number of records to retrieve if want to retrieve a collection of multiple records
-1. Apply filters and build rule
-
-    select an existing filter
-    save the filter for reuse
-    view results of the filter visually or in code view
-
-1. sort records using an attribute
-
-leverage enrichment data in campaign
-
-where we can use the enrichment data: personalize email, other use cases?
-
-## Example
-
--->

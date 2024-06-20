@@ -3,14 +3,14 @@ audience: end-user
 title: De activiteit van de Abonnementsservices gebruiken
 description: Leer hoe u de workflowactiviteit voor abonnementenservices gebruikt
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: e2579a65130ba580054cd23b1b525a46de2e752a
+source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 3%
+source-wordcount: '930'
+ht-degree: 16%
 
 ---
 
-# Abonnementsdiensten {#subscriptipon-services}
+# Abonnementsdiensten {#subscription-services}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
@@ -56,9 +56,11 @@ Voer de volgende stappen uit om de **Abonnementsdiensten** activiteit:
 
    * **Selecteer een bewerkingstype uit een pad van een binnenkomende overgang**: Selecteer de kolom met de binnenkomende gegevens die de bewerking opgeeft die voor elke record moet worden uitgevoerd. U kunt bijvoorbeeld een bestand importeren dat de bewerking opgeeft die moet worden uitgevoerd voor elke regel in een kolom &quot;operation&quot;.
 
-     >[!NOTE]
+     U kunt hier alleen Booleaanse velden of velden met gehele getallen selecteren. Zorg ervoor dat de gegevens met de uit te voeren bewerking overeenkomen met deze indeling. Als u bijvoorbeeld gegevens laadt uit een activiteit van het ladingsdossier, controleer of u correct het formaat van de kolom hebt geplaatst die de verrichting in **[!UICONTROL Load file]** activiteit. Een voorbeeld wordt weergegeven in [deze sectie](#uc2).
+
+     >[!CAUTION]
      >
-     >U kunt hier alleen Booleaanse velden of velden met gehele getallen selecteren. Zorg ervoor dat de gegevens met de uit te voeren bewerking overeenkomen met deze indeling. Als u bijvoorbeeld gegevens laadt uit een activiteit van het ladingsdossier, controleer of u correct het formaat van de kolom hebt geplaatst die de verrichting in **[!UICONTROL Load file]** activiteit. Een voorbeeld wordt weergegeven in [deze sectie](#uc2).
+     >Als u deze optie selecteert, worden standaard de **Abonnementsdiensten** activiteit verwacht dat er een koppelingsdefinitie naar de **Services (nms)** tabel die is ingesteld in de workflow. Om dit te doen, zorg ervoor u een verzoeningsverbinding in hebt gevormd **Verrijkingsactiviteit** naar boven in de workflow. Er is een voorbeeld beschikbaar waarin wordt getoond hoe u deze optie gebruikt [hier](#uc2).
 
    ![](../assets/workflow-subscription-service-inbound.png)
 
@@ -86,14 +88,13 @@ Deze workflow hieronder laat zien hoe u een publiek kunt abonneren op een bestaa
 
 * A **[!UICONTROL Subscription Services]** Met activiteit kunt u de service selecteren waarop de profielen moeten worden geabonneerd.
 
-<!--
-### Updating multiple subscription statuses from a file {#uc2}
+### Meerdere lidmaatschapsstatussen bijwerken vanuit een bestand {#uc2}
 
-The workflow below shows how to import a file containing profiles and update their subscription to several services specified in the file.
+In de onderstaande workflow ziet u hoe u een bestand met profielen kunt importeren en hoe u hun abonnement kunt bijwerken naar verschillende services die in het bestand zijn opgegeven.
 
 ![](../assets/workflow-subscription-service-uc2.png)
 
-* A **[!UICONTROL Load file]** activity loads a CSV file containing the data and defines the structure of the imported columns. The "service" and "operation" columns specify the service to update and the operation to perform (subscription or unsubscription).
+* A **[!UICONTROL Load file]** Deze activiteit laadt een CSV-bestand met de gegevens en definieert de structuur van de geïmporteerde kolommen. De kolommen &quot;service&quot; en &quot;operation&quot; geven de service aan die moet worden bijgewerkt en de bewerking die moet worden uitgevoerd (abonnement of abonnement).
 
   ```
   Lastname,firstname,city,birthdate,email,service,operation
@@ -104,26 +105,24 @@ The workflow below shows how to import a file containing profiles and update the
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  As you may have noticed, the operation is specified in the file as "sub" or "unsub". The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. To match this requirement, a remapping of values must be performed in the detail of the "operation" column in the sample file configuration screen.
+  Zoals u misschien hebt opgemerkt, wordt de bewerking in het bestand opgegeven als ‘sub’ of ‘unsub’. Het systeem verwacht dat een waarde **Boolean** of **Integer** de bewerking herkent die moet worden uitgevoerd: 0 voor uitschrijven en 1 voor inschrijven. Aan deze eis voldoen:
+   * De **Gegevenstype** voor de kolom &quot;operation&quot; wordt ingesteld op integer.
+   * A **Waarde opnieuw toewijzen** moet worden uitgevoerd om de waarden &quot;sub&quot; en &quot;unsub&quot; te laten overeenkomen met de waarden &quot;1&quot; en &quot;0&quot;.
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
-  If your file already uses "0" and "1" to identify the operation, you don't need to remap those values. Only make sure that the column is processed as a **Boolean** or **Integer** in the sample file columns.
+  Als in uw bestand al 0 en 1 worden gebruikt om de bewerking te identificeren, hoeft u deze waarden niet opnieuw toe te wijzen. Alleen controleren of de kolom is verwerkt als een **Boolean** of **Geheel** in de kolommen van het voorbeeldbestand.
 
-* A **[!UICONTROL Reconciliation]** activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. The **email** field of the file is matched to the **email** field of the profile resource.
+* Een activiteit **[!UICONTROL Reconciliation]** identificeert de data van het bestand als deel van de profieldimensie van de Adobe Campaign-database. De **email** wordt het veld van het bestand aangepast aan het **email** veld van de profielbron.
+
+  ![](../assets/workflow-subscription-service-uc2-reconciliation.png)
+
+* An **[!UICONTROL Enrichment]** de activiteit leidt tot een verzoeningsverbinding aan de lijst van de &quot;Diensten (nms)&quot;, met eenvoudig verbind tussen de &quot;dienst&quot;kolom van het geupload dossier, en de diensten &quot;interne naam&quot;gebied in het gegevensbestand.
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* An **[!UICONTROL Enrichment]** activity creates a link to the "Services (nms)" table and creates a simple join between the "service" column of the uploaded file, and the services "internal name" field in the database.
+* A **[!UICONTROL Subscription Services]** geeft aan welke services moeten worden bijgewerkt als afkomstig van de overgang.
 
-    ![](../assets/workflow-subscription-service-uc2-enrichment.png)
+  Het **[!UICONTROL Operation type]** wordt geïdentificeerd als afkomstig van het veld **operation** van het bestand. U kunt hier alleen de velden Boolean of Integer selecteren. Als de kolom van het bestand dat de uit te voeren bewerking bevat, niet in de lijst voorkomt, moet u controleren of u de kolomindeling in de activiteit **[!UICONTROL Load file]** correct hebt ingesteld, zoals eerder in dit voorbeeld wordt uitgelegd.
 
-* A **[!UICONTROL Deduplication]** based on the **email** field identifies duplicates. It is important to eliminate duplicates since the subscription to a service will fail for all data in case of duplicates.
-
-  ![](../assets/workflow-subscription-service-uc2-dedup.png)
-  
-* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
-
-  The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. Only Boolean or Integer fields can be selected here. If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
-
-  ![](../assets/workflow-subscription-service-uc2-subscription.png)-->
+  ![](../assets/workflow-subscription-service-uc2-subscription.png)
