@@ -3,9 +3,9 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '602'
 ht-degree: 17%
 
 ---
@@ -54,9 +54,10 @@ Voer de volgende stappen uit om de **Deduplicatie** activiteit:
 
 1. Selecteer de **Deduplicatiemethode** te gebruiken:
 
-   * **Willekeurige selectie**: hiermee selecteert u willekeurig de record die u uit de duplicaten wilt verwijderen.
-   * **Expressies gebruiken**: hiermee kunt u de records bijhouden waarin de waarde van de ingevoerde expressie het kleinst of het grootst is.
-   * **Na een lijst met waarden**: hiermee kunt u een waardeprioriteit voor een of meer velden definiëren. Klik op **Kenmerk** als u een veld wilt selecteren of een expressie wilt maken, voegt u de waarde(n) toe aan de desbetreffende tabel. Klik op de knop Toevoegen boven de lijst met waarden om een nieuw veld te definiëren.
+   * **Willekeurige selectie**: Hiermee selecteert u willekeurig de record die u uit de duplicaten wilt verwijderen.
+   * **Expressies gebruiken**: Bewaar de records waarin de waarde van de ingevoerde expressie het kleinst of het grootst is.
+   * **Niet-lege waarden**: Bewaar de records waarvoor de expressie niet leeg is.
+   * **Na een lijst met waarden**: Definieer een waardeprioriteit voor een of meer velden. Klik op **Kenmerk** als u een veld wilt selecteren of een expressie wilt maken, voegt u de waarde(n) toe aan de desbetreffende tabel. Als u een nieuw veld wilt definiëren, klikt u op de knop **Knop Toevoegen** boven de lijst met waarden.
 
 1. Controleer de **Complement genereren** als u de overblijvende bevolking wilt uitbuiten. Het complement bestaat uit alle duplicaten. Er wordt dan een aanvullende overgang toegevoegd aan de activiteit.
 
