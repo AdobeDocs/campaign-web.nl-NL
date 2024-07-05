@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit Splitsen gebruiken
 description: Leer hoe u de activiteit van de gesplitste workflow gebruikt
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ De **Splitsen** activiteit is **Targeting** activiteit die u toestaat om inkomen
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_enable_overlapping"
 >title="Overlappende uitvoerpopulaties inschakelen"
->abstract="Overlappende uitvoerpopulaties inschakelen"
+>abstract=" De **[!UICONTROL Enable overlapping of output populations]** kunt u populaties beheren die tot verschillende subsets behoren. Wanneer het vakje niet wordt gecontroleerd, zorgt de gespleten activiteit ervoor een ontvanger niet in verscheidene outputovergangen kan aanwezig zijn, zelfs als het aan de criteria van verscheidene subsets voldoet. Deze worden als doel ingesteld op het eerste tabblad met overeenkomende criteria. Als het selectievakje is ingeschakeld, kunnen de ontvangers in verschillende subsets worden gevonden als ze voldoen aan hun filtercriteria. Adobe Campaign raadt aan exclusieve criteria te hanteren."
 
 Voer de volgende stappen uit om de **Splitsen** activiteit:
 
@@ -102,6 +102,11 @@ Voer de volgende stappen uit om de **Splitsen** activiteit:
    >[!NOTE]
    >
    >De **[!UICONTROL Generate all subsets in the same table]** kunt u alle subsets groeperen in één uitvoerovergang.
+
+1. De **[!UICONTROL Enable overlapping of output populations]** Met deze optie kunt u populaties beheren die tot verschillende subsets behoren:
+
+   * Wanneer het vakje niet wordt gecontroleerd, zorgt de gespleten activiteit ervoor een ontvanger niet in verscheidene outputovergangen kan aanwezig zijn, zelfs als het aan de criteria van verscheidene subsets voldoet. Deze worden als doel ingesteld op het eerste tabblad met overeenkomende criteria.
+   * Als het selectievakje is ingeschakeld, kunnen de ontvangers in verschillende subsets worden gevonden als ze voldoen aan hun filtercriteria. Adobe Campaign raadt aan exclusieve criteria te hanteren.
 
 De activiteit wordt nu gevormd. Bij de uitvoering van de workflow wordt de populatie opgedeeld in de verschillende subsets, in de volgorde waarin ze aan de activiteit zijn toegevoegd.
 
