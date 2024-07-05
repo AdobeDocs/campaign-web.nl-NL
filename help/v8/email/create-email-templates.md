@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -35,15 +35,15 @@ Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan zelfs
 >[!CONTEXTUALHELP]
 >id="acw_contenttemplate_edition"
 >title="Sjablooninhoud bewerken"
->abstract="Klik op de knop **Inhoud bewerken** om uw inhoud bij te werken met de e-mailontwerper."
+>abstract="Klik op de knop **Inhoud bewerken** om uw inhoud bij te werken met de e-mail Designer."
 
 Blader naar de **[!UICONTROL Content Management]** > **[!UICONTROL Content Templates]** van de linkerspoorstaaf.
 
-![](assets/content-template-list.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-list.png){zoomable="yes"}
 
 In dit dashboard worden alle beschikbare inhoudssjablonen als een lijst weergegeven. U kunt filteren op een specifieke [map](../get-started/permissions.md#folders) de vervolgkeuzelijst gebruiken of regels toevoegen met de [querymodel](../query/query-modeler-overview.md).
 
-![](assets/content-template-list-filters.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-list-filters.png){zoomable="yes"}
 
 In de lijst kunt u bestaande inhoudssjablonen bewerken, dupliceren of verwijderen. Gebruik de knop in de bovenste sectie om een inhoudssjabloon te maken.
 
@@ -83,25 +83,25 @@ Ga als volgt te werk om een nieuwe inhoudssjabloon te maken van het dashboard vo
 
 1. Selecteer **[!UICONTROL Create template]**.
 
-   ![](assets/content-template-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-create.png){zoomable="yes"}
 
 1. Voer het sjabloonlabel en de eigenschappen in. U kunt de map selecteren waarin u de sjabloon wilt opslaan. Standaard worden inhoudssjablonen opgeslagen in een speciale map in de Adobe Campaign-hiërarchie: **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Content templates]**. Meer informatie over mappen in [deze pagina](../get-started/permissions.md#folders)
 
-   ![](assets/content-template-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-details.png){zoomable="yes"}
 
 1. Klikken **[!UICONTROL Create]** en kies uit de verschillende opties hoe u de sjabloon wilt ontwerpen:
 
-   * [Ontwerp uw inhoud helemaal zelf](create-email-content.md) via de interface van E-mailontwerper.
+   * [Ontwerp uw inhoud helemaal zelf](create-email-content.md) via de e-mailinterface van Designer.
 
-   * [Code of copy-paste onbewerkte HTML](code-content.md) rechtstreeks in de e-mailontwerper.
+   * [Code of copy-paste onbewerkte HTML](code-content.md) rechtstreeks in de e-mailtoepassing van de Designer.
 
    * [Bestaande HTML-inhoud importeren](existing-content.md) uit een bestand of een ZIP-map.
 
    * Bestaande inhoud uit een lijst met ingebouwde of aangepaste sjablonen gebruiken. De stappen voor het gebruik van een inhoudssjabloon in een e-mail worden beschreven in [deze sectie](use-email-templates.md).
 
-   ![](assets/email_designer-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-templates.png){zoomable="yes"}
 
-1. In het dialoogvenster E-mailontwerper wordt weergegeven. Bewerk de inhoud naar wens, net als voor alle e-mailberichten, afhankelijk van de optie die u hebt geselecteerd. Meer informatie over het gebruik van de e-mailontwerper in [deze sectie](get-started-email-designer.md).
+1. Het e-mailadres van de Designer wordt weergegeven. Bewerk de inhoud naar wens, net als voor alle e-mailberichten, afhankelijk van de optie die u hebt geselecteerd. Meer informatie over het gebruik van de e-mail-Designer in [deze sectie](get-started-email-designer.md).
 
    <!--You can test your content if needed. [Learn how](#test-template)-->
 
@@ -109,11 +109,11 @@ Ga als volgt te werk om een nieuwe inhoudssjabloon te maken van het dashboard vo
 
    Klik zo nodig op de pijl naast de sjabloonnaam om terug te gaan naar de **[!UICONTROL Details]** het scherm en geeft uw malplaatje uit.
 
-   ![](assets/content-template-save-back.png){zoomable=&quot;yes&quot;}
+   ![](assets/content-template-save-back.png){zoomable="yes"}
 
 De sjabloon is beschikbaar in het dialoogvenster **[!UICONTROL Content templates]** lijst. [Meer informatie](#access-templates)
 
-U kunt deze sjabloon nu gebruiken om een nieuwe inhoud samen te stellen: deze is beschikbaar in het dialoogvenster **[!UICONTROL Saved templates]** tabblad van e-mailontwerper. [Meer informatie](use-email-templates.md)
+U kunt deze sjabloon nu gebruiken om een nieuwe inhoud samen te stellen: deze is beschikbaar in het dialoogvenster **[!UICONTROL Saved templates]** tabblad van de Designer-e-mail. [Meer informatie](use-email-templates.md)
 
 ### E-mailinhoud opslaan als sjabloon {#save-as-template}
 
@@ -125,17 +125,17 @@ Voer de onderstaande stappen uit om e-mailinhoud als sjabloon op te slaan:
 
 1. Selecteren **[!UICONTROL Save as content template]** in het keuzemenu.
 
-   ![](assets/email_designer-save-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-save-template.png){zoomable="yes"}
 
 1. Voer een naam in voor deze sjabloon en sla deze op.
 
-   ![](assets/email_designer-template-name.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-template-name.png){zoomable="yes"}
 
 De sjabloon wordt opgeslagen en weergegeven in het dialoogvenster **[!UICONTROL Content templates]** lijst. Het wordt een standalone inhoudsmalplaatje dat kan worden betreden, worden uitgegeven en worden geschrapt zoals om het even welk ander punt op die lijst. [Meer informatie](#access-manage-templates)
 
-U kunt deze sjabloon nu gebruiken om een nieuwe inhoud samen te stellen: deze is beschikbaar in het dialoogvenster **[!UICONTROL Saved templates]** tabblad van e-mailontwerper. [Meer informatie](use-email-templates.md)
+U kunt deze sjabloon nu gebruiken om een nieuwe inhoud samen te stellen: deze is beschikbaar in het dialoogvenster **[!UICONTROL Saved templates]** tabblad van de Designer-e-mail. [Meer informatie](use-email-templates.md)
 
-![](assets/email_designer-saved-template.png){zoomable=&quot;yes&quot;}
+![](assets/email_designer-saved-template.png){zoomable="yes"}
 
 
 >[!NOTE]
@@ -165,9 +165,9 @@ Voer de volgende stappen uit om een bestaande inhoudssjabloon bij te werken:
 
 1. Klik in de lijst met inhoudssjablonen op het label van de sjabloon die u wilt wijzigen om deze te bewerken.
 
-1. Klik op de knop **[!UICONTROL Edit content]** om uw inhoud bij te werken met de [E-mailDesigner](get-started-email-designer.md).
+1. Klik op de knop **[!UICONTROL Edit content]** om uw inhoud bij te werken met de [Designer e-mailen](get-started-email-designer.md).
 
-![](assets/content-template-edition.png){zoomable=&quot;yes&quot;}
+![](assets/content-template-edition.png){zoomable="yes"}
 
 >[!NOTE]
 >

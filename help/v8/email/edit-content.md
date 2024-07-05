@@ -5,7 +5,7 @@ description: Leer hoe u de e-mailinhoud bewerkt in de gebruikersinterface van he
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_content"
 >title="De e-mailcontent opgeven"
->abstract="De **Inhoud bewerken** in het scherm kunt u basiselementen van uw bericht definiëren, zoals het adres van de afzender en de onderwerpregel, aanvullende handelingen uitvoeren, zoals het toevoegen van bijlagen of aanbiedingen, en de e-mailontwerper openen om uw bericht een gepolijst uiterlijk te geven."
+>abstract="De **Inhoud bewerken** kunt u basiselementen van uw bericht definiëren, zoals het adres van de afzender en de onderwerpregel, aanvullende handelingen uitvoeren, zoals het toevoegen van bijlagen of aanbiedingen, en toegang krijgen tot de e-mail-Designer om uw bericht een gepolijst uiterlijk te geven."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_header"
@@ -37,7 +37,7 @@ De e-mail **[!UICONTROL Edit content]** scherm kunt u:
 
 * Definieer de basiselementen van uw bericht, zoals het adres van de afzender en de onderwerpregel
 * Extra handelingen uitvoeren, zoals bijlagen toevoegen of aanbiedingen instellen
-* Toegang krijgen tot de [E-mailDesigner](get-started-email-designer.md#start-authoring) om de juiste inhoud van uw e-mail te gaan samenstellen
+* Toegang krijgen tot de [Designer e-mailen](get-started-email-designer.md#start-authoring) om de juiste inhoud van uw e-mail te gaan samenstellen
 
 >[!NOTE]
 >
@@ -47,11 +47,11 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
 1. Klik op de knop **[!UICONTROL Edit content]** van de knop [dashboard voor e-maillevering](../email/create-email.md) scherm.
 
-   ![](assets/email-edit-content-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-button.png){zoomable="yes"}
 
 1. Het e-mailinhoudsopgavescherm wordt geopend.
 
-   ![](assets/email-edit-content-dashboard.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-dashboard.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -71,7 +71,7 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
 1. Breid uit **[!UICONTROL Reply-to fields]** sectie. De naam en het adres van de afzender worden door gebrek gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
 
-   ![](assets/email-edit-content-reply-to.png){zoomable=&quot;yes&quot;}
+   ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
 1. De e-mail definiëren **[!UICONTROL Subject line]**. Typ het onderwerp rechtstreeks in het desbetreffende veld of open de Expressieeditor om het toe te voegen [personalisatie](../personalization/personalize.md) het gebruiken van diverse attributen en inhoudsblokken, of aanbiedingen.
 
@@ -87,7 +87,7 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
    U kunt ze vervolgens in de e-mail invoegen met behulp van personalisatievelden. [Meer informatie over het verzenden van voorstellen](../msg/offers.md)
 
-1. Klik op de knop **[!UICONTROL Edit email body]** om de inhoud van de e-mail te structureren en te ontwerpen met de [E-mailDesigner](get-started-email-designer.md#start-authoring). In deze secties vindt u aanvullende informatie over het ontwerpen van e-mailinhoud:
+1. Klik op de knop **[!UICONTROL Edit email body]** om de inhoud van de e-mail te structureren en te ontwerpen met de [Designer e-mailen](get-started-email-designer.md#start-authoring). In deze secties vindt u aanvullende informatie over het ontwerpen van e-mailinhoud:
 
    * [E-mails van auteur helemaal opnieuw](create-email-content.md)
    * [Stijl uw inhoud](get-started-email-style.md)

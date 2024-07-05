@@ -5,7 +5,7 @@ description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
 source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
 workflow-type: tm+mt
-source-wordcount: '1488'
+source-wordcount: '1478'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_content"
->title="Android-inhoud induwen"
+>title="Android-inhoud doordrukken"
 >abstract="Definieer de inhoud van uw pushmelding voor Android-apparaten. Klik op de knop **Inhoud bewerken** knop."
 
 >[!CONTEXTUALHELP]
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
->title="Android-bericht over pushtechnologie"
+>title="Android-bericht induwen"
 >abstract="Definieer de inhoud van uw pushmelding voor Android-apparaten. Klik op de knop **Titel** en **Bericht** velden. Gebruik de uitdrukkingsredacteur om gegevens aan te passen en dynamische inhoud toe te voegen. Als u uw pushmelding verder wilt aanpassen, kunt u een afbeelding kiezen die u aan uw pushmelding wilt toevoegen, het pictogram van het bericht dat u op de apparaten van uw profielen wilt weergeven en de kleur van het bericht. Blader voor meer aangepaste configuratie naar de **Geavanceerde instellingen** sectie."
 
 >[!CONTEXTUALHELP]
@@ -48,12 +48,12 @@ Nadat u de pushservice hebt gemaakt, kunt u de inhoud ervan definiëren. Paramet
 
 Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
-* De **[!UICONTROL Data message]** wordt afgehandeld door de clienttoepassing. Deze berichten worden rechtstreeks verzonden naar de mobiele toepassing die een Android-melding genereert en weergeeft op het apparaat. Gegevensberichten bevatten alleen aangepaste toepassingsvariabelen.
+* De **[!UICONTROL Data message]** wordt afgehandeld door de clienttoepassing. Deze berichten worden rechtstreeks verzonden naar de mobiele toepassing, die een Android-melding op het apparaat genereert en weergeeft. Gegevensberichten bevatten alleen aangepaste toepassingsvariabelen.
 
   Als u de inhoud wilt definiëren, gegevens wilt aanpassen en dynamische inhoud wilt toevoegen, klikt u op de knop **[!UICONTROL Message]** en gebruikt u de expressie-editor. U kunt tot deze redacteur toegang hebben om uw berichten aan te passen.
 In de **[!UICONTROL Application variables]** worden toepassingsvariabelen automatisch toegevoegd. Met deze variabelen kunt u berichtgedrag definiëren. U kunt bijvoorbeeld een specifiek toepassingsscherm configureren dat wordt weergegeven wanneer de gebruiker het bericht activeert.
 
-  ![](assets/push_content_4.png){zoomable=&quot;yes&quot;}
+  ![](assets/push_content_4.png){zoomable="yes"}
 
 * De **[!UICONTROL Notification message]**, automatisch afgehandeld door de FCM SDK. FCM geeft automatisch het bericht weer op de apparaten van uw gebruikers namens de client-app. Meldingsberichten bevatten een vooraf gedefinieerde set parameters en opties, maar kunnen nog steeds verder worden aangepast met aangepaste toepassingsvariabelen.
 
@@ -61,7 +61,7 @@ In de **[!UICONTROL Application variables]** worden toepassingsvariabelen automa
 
   Als u uw pushmelding verder wilt aanpassen, kunt u een afbeelding kiezen die u aan uw pushmelding wilt toevoegen, het pictogram van het bericht dat u op de apparaten van uw profielen wilt weergeven en de kleur van het bericht.
 
-  ![](assets/push_content_3.png){zoomable=&quot;yes&quot;}
+  ![](assets/push_content_3.png){zoomable="yes"}
 
 >[!TAB iOS]
 
@@ -71,7 +71,7 @@ U kunt een **[!UICONTROL Subtitle]**, waarde van de ondertitelparameter van de i
 
 In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar een mobiele toepassing. De gebruiker wordt niet op de hoogte gebracht van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen.
 
-![](assets/push_content_1.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -124,7 +124,7 @@ Geavanceerde opties zijn afhankelijk van het mobiele besturingssysteem: Android 
 
 >[!TAB Android]
 
-![](assets/push_content_5.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_5.png){zoomable="yes"}
 
 | Parameter | Beschrijving |
 |---------|---------|
@@ -140,7 +140,7 @@ Geavanceerde opties zijn afhankelijk van het mobiele besturingssysteem: Android 
 
 >[!TAB iOS]
 
-![](assets/push_content_2.png){zoomable=&quot;yes&quot;}
+![](assets/push_content_2.png){zoomable="yes"}
 
 | Parameter | Beschrijving |
 |---------|---------|

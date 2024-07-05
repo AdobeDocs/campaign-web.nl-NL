@@ -1,7 +1,7 @@
 ---
 audience: end-user
 title: Een uitgebreide pushmelding ontwerpen
-description: Leer hoe u een uitgebreide pushmelding voor Android ontwerpt met Adobe Campaign Web
+description: Leer hoe u een uitgebreide pushmelding van Android ontwerpt met Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
 source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Een uitgebreide pushaanbieding voor Android ontwerpen {#rich-push}
+# Ontwerpen als een rijke push-service voor Android {#rich-push}
 
 
 >[!CONTEXTUALHELP]
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
-* De **[!UICONTROL Data message]** wordt afgehandeld door de clienttoepassing. Deze berichten worden rechtstreeks verzonden naar de mobiele toepassing die een Android-melding genereert en weergeeft op het apparaat. Gegevensberichten bevatten alleen aangepaste toepassingsvariabelen.
+* De **[!UICONTROL Data message]** wordt afgehandeld door de clienttoepassing. Deze berichten worden rechtstreeks verzonden naar de mobiele toepassing, die een Android-melding op het apparaat genereert en weergeeft. Gegevensberichten bevatten alleen aangepaste toepassingsvariabelen.
 
 * De **[!UICONTROL Notification message]**, automatisch afgehandeld door de FCM SDK. FCM geeft automatisch het bericht weer op de apparaten van uw gebruikers namens de client-app. Meldingsberichten bevatten een vooraf gedefinieerde set parameters en opties, maar kunnen nog steeds verder worden aangepast met aangepaste toepassingsvariabelen.
 
@@ -90,7 +90,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
    * **[!UICONTROL Open App]**: Open App URL&#39;s maken het mogelijk rechtstreeks verbinding te maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
 
-   Raadpleeg voor meer informatie over het afhandelen van Android App-koppelingen het gedeelte [Documentatie voor Android-ontwikkelaars](https://developer.android.com/training/app-links).
+   Raadpleeg voor meer informatie over hoe u Android App-koppelingen kunt gebruiken de volgende bronnen: [Android Developers-documentatie](https://developer.android.com/training/app-links).
 
    ![](assets/rich_push_basic_3.png)
 
@@ -140,7 +140,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
    * **[!UICONTROL Open App]**: Open App URL&#39;s maken het mogelijk rechtstreeks verbinding te maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
 
-   Raadpleeg voor meer informatie over het afhandelen van Android App-koppelingen het gedeelte [Documentatie voor Android-ontwikkelaars](https://developer.android.com/training/app-links).
+   Raadpleeg voor meer informatie over hoe u Android App-koppelingen kunt gebruiken de volgende bronnen: [Android Developers-documentatie](https://developer.android.com/training/app-links).
 
    ![](assets/rich_push_carousel_2.png)
 

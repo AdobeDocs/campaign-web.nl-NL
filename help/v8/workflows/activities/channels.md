@@ -61,8 +61,8 @@ Begin met het ontwikkelen van uw workflow met de relevante activiteiten:
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_push_android"
->title="Android-activiteit duwen"
->abstract="De pushAndroid-activiteit stroomlijnt het proces voor het verzenden van Android-pushmeldingen als onderdeel van uw workflow. Hierdoor kunnen zowel eenmalige als terugkerende berichten worden verzonden, waardoor de verzendende Android Push-berichten naar een vooraf gedefinieerd doel binnen dezelfde workflow worden geautomatiseerd. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
+>title="Android-activiteit in duwen"
+>abstract="De Push Android-activiteit stroomlijnt het proces voor het verzenden van Android Push-berichten als onderdeel van uw workflow. Hierdoor kunnen eenmalige en terugkerende berichten worden verzonden, waardoor de verzendende Android Push-berichten naar een vooraf gedefinieerd doel binnen dezelfde workflow worden geautomatiseerd. U kunt kanaalactiviteiten in het werkstroomcanvas combineren om kanaalworkflows te maken die acties op basis van gedrag en gegevens van de klant kunnen activeren."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_directmail"

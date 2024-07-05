@@ -81,7 +81,7 @@ De **[!UICONTROL Destination]** in de indelingssectie kunt u configureren hoe he
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_postprocessing"
->title="Nabewerking"
+>title="Post-verwerking"
 >abstract="Definieer een stap voor nabewerking die u wilt toepassen, zoals comprimeren of coderen."
 
 De **[!UICONTROL Export modification script]** Hiermee kunt u een verwerkingsstadium toepassen dat wordt uitgevoerd tijdens het ophalen van gegevens, zoals comprimeren of coderen. Om dit te doen, klik **[!UICONTROL Edit script]** knop.

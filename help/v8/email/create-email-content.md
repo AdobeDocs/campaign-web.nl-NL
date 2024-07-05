@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: E-mails ontwerpen in de e-mailontwerper
+title: E-mails ontwerpen in de Designer
 description: Leer hoe u uw e-mailinhoud helemaal zelf ontwerpt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -36,32 +36,32 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="E-mailkolommen definiëren"
->abstract="Met de E-mailontwerper kunt u de indeling van uw e-mail eenvoudig definiëren door de kolomstructuur te definiëren."
+>abstract="Met de e-mail Designer kunt u de indeling van uw e-mail eenvoudig definiëren door de kolomstructuur te definiëren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="Landingspaginakolommen definiëren"
->abstract="Met de e-mailontwerper kunt u de indeling van de bestemmingspagina eenvoudig definiëren door de kolomstructuur te definiëren."
+>abstract="Met de e-mail Designer kunt u de lay-out van de bestemmingspagina eenvoudig definiëren door de kolomstructuur te definiëren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="Fragmentkolommen definiëren"
->abstract="Met de e-mailontwerper kunt u de indeling van het fragment eenvoudig definiëren door de kolomstructuur te definiëren."
+>abstract="Met de e-mail Designer kunt u de indeling van het fragment eenvoudig definiëren door de kolomstructuur te definiëren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="Sjabloonkolommen definiëren"
->abstract="Met de E-mailontwerper kunt u de indeling van uw sjabloon eenvoudig definiëren door de kolomstructuur te definiëren."
+>abstract="Met e-mail Designer kunt u de indeling van uw sjabloon eenvoudig definiëren door de kolomstructuur te definiëren."
 
-Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u het lichaam van uw e-mail binnen seconden ontwerpen.
+Met de e-mail Designer kunt u eenvoudig de structuur van uw e-mail definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u het lichaam van uw e-mail binnen seconden ontwerpen.
 
 ➡️ [Deze functie in video detecteren](#video)
 
 Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
-1. Van de [E-mailDesigner](get-started-email-designer.md#start-authoring) homepage, selecteer **[!UICONTROL Design from scratch]** -optie.
+1. Van de [Designer e-mailen](get-started-email-designer.md#start-authoring) homepage, selecteer **[!UICONTROL Design from scratch]** -optie.
 
-   ![](assets/email_designer-from-scratch.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-from-scratch.png){zoomable="yes"}
 
 1. Begin met het ontwerpen van uw e-mailinhoud door te slepen en neer te zetten **[!UICONTROL Structures]** in het canvas om de lay-out van uw e-mail te definiëren.
 
@@ -71,7 +71,7 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 1. Zoveel toevoegen **[!UICONTROL Structures]** en bewerk de instellingen in het daarvoor bestemde venster aan de rechterkant.
 
-   ![](assets/email_designer_structure_components.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer_structure_components.png){zoomable="yes"}
 
 1. U kunt de **[!UICONTROL n:n column]** om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
 
@@ -83,7 +83,7 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 1. Elke component kan verder worden aangepast met de **[!UICONTROL Settings]** of **[!UICONTROL Style]** aan de rechterkant. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [Meer informatie over uitlijning en opvulling](alignment-and-padding.md)
 
-   ![](assets/email_designer-styles.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-styles.png){zoomable="yes"}
 
 1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. [Meer informatie over content personalization](../personalization/personalize.md)
 
@@ -93,7 +93,7 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 [Meer informatie over koppelingen en berichtregistratie](message-tracking.md)
 
-   ![](assets/email_designer-links.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-links.png){zoomable="yes"}
 
 1. Indien nodig kunt u uw e-mail verder aanpassen door op **[!UICONTROL Switch to code editor]** in het geavanceerde menu. Op deze manier kunt u de broncode van de e-mail bewerken, bijvoorbeeld door tags voor bijhouden of aangepaste HTML toe te voegen. [Meer informatie over de code-editor](code-content.md)
 
@@ -103,12 +103,12 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 1. Wanneer de inhoud gereed is, klikt u op **[!UICONTROL Simulate content]** om de rendering van uw e-mail te controleren. U kunt kiezen voor de weergave Computer of Mobiel. [Meer informatie over een voorbeeld van uw e-mail](../preview-test/preview-test.md)
 
-   ![](assets/email_designer-simulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/email_designer-simulate.png){zoomable="yes"}
 
 1. Wanneer uw e-mail gereed is, klikt u op **[!UICONTROL Save]**.
 
 ## Hoe kan ik-video {#video}
 
-Begrijp hoe u door de e-mailontwerper kunt navigeren. Leer hoe u een geheel nieuwe e-mail kunt structureren en ontwerpen, hoe u uw e-mail kunt personaliseren en testen.
+Begrijp hoe u door de Designer-e-mail kunt navigeren. Leer hoe u een geheel nieuwe e-mail kunt structureren en ontwerpen, hoe u uw e-mail kunt personaliseren en testen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

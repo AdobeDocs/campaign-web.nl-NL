@@ -1,8 +1,9 @@
 ---
 audience: end-user
 title: Activiteit van de JavaScript-codewerkstroom gebruiken
-description: Meer informatie over het gebruik van de JavaScript-codeworkflowactiviteit
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+description: Meer informatie over het gebruik van de JavaScript-workflowactiviteit voor code
+exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '951'
 ht-degree: 1%
@@ -23,7 +24,7 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_javascript_execution"
->title="JavaScript uitvoeren"
+>title="JavaScript Execution"
 >abstract="Vorm de uitvoeringsvertraging om de activiteit na een periode van uitvoering te stoppen. Standaard kan de uitvoeringsfase niet langer duren dan 1 uur. Na deze vertraging wordt het proces afgebroken met een foutbericht en mislukt de uitvoering van de activiteit. Als u deze limiet wilt negeren, stelt u de waarde in op 0."
 
 >[!CONTEXTUALHELP]
@@ -31,7 +32,7 @@ ht-degree: 1%
 >title="JavaScript-overgang"
 >abstract="Als u meerdere uitvoerovergangen wilt toevoegen, klikt u op de knop **[!UICONTROL Add transitions]** knop. Zo kunt u bijvoorbeeld een specifieke overgang activeren op basis van een specifieke voorwaarde die is gedefinieerd in de JavaScript-codeactiviteit. Deze optie is beschikbaar voor **Geavanceerd** Alleen JavaScript-codeactiviteiten."
 
-De **JavaScript-code** activiteit is **Gegevensbeheer** activiteit. Gebruik deze activiteit om een JavaScript manuscript in de context van een werkschema uit te voeren. Op deze manier kunt u gegevens van de database verzamelen of andere complexe bewerkingen uitvoeren.
+De **JavaScript-code** activiteit is **Gegevensbeheer** activiteit. Gebruik deze activiteit om een JavaScript script uit te voeren in de context van een workflow. Op deze manier kunt u gegevens van de database verzamelen of andere complexe bewerkingen uitvoeren.
 
 ## De JavaScript-codeactiviteit configureren {#javascript-code-configuration}
 
