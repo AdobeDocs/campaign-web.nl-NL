@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 5c9a428eb5fabdb25f4b1f1474884e62f33fb720
+source-git-commit: 42250b21910556759b8d7fd561dbc7bc62e9852e
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1627'
 ht-degree: 1%
 
 ---
@@ -318,3 +318,63 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_editcustomfields"
 >title="Aangepaste kenmerken bewerken"
 >abstract="Aangepaste kenmerken bewerken"
+
+
+
+<!-- transac messages-->
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages"
+>title="Transactioneel overseinen"
+>abstract="Transactioneel overseinen"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_properties"
+>title="Eigenschappen voor Transactieberichten"
+>abstract="Eigenschappen voor Transactieberichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_event"
+>title="Transactionele berichtengebeurtenis"
+>abstract="Transactionele berichtengebeurtenis"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="Transactionele berichtcontext"
+>abstract="Transactionele berichtcontext"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_content"
+>title="Transactionele berichteninhoud"
+>abstract="Transactionele berichteninhoud"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="Transactionele aanpassing van het Overseinen"
+>abstract="Transactionele aanpassing van het Overseinen"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_personalization"
+>title="Transactionele aanpassing van het Overseinen"
+>abstract="Transactionele aanpassing van het Overseinen"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_exclusionlogs"
+>title="Transactionele berichtenuitsluitingslogboeken"
+>abstract="Transactionele berichtenuitsluitingslogboeken"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_context"
+>title="Transactionele berichtcontext"
+>abstract="Transactionele berichtcontext"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory"
+>title="Historie van gebeurtenissen voor Transactieberichten"
+>abstract="Historie van gebeurtenissen voor Transactieberichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_eventhistory_preview"
+>title="Voorvertoning van de historie van de gebeurtenis Transactiebericht"
+>abstract="Voorvertoning van de historie van de gebeurtenis Transactiebericht"
+
