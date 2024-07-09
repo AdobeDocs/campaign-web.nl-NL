@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 42250b21910556759b8d7fd561dbc7bc62e9852e
+source-git-commit: 14fd007c2fc57a246905cc31800913536fea5734
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1621'
 ht-degree: 1%
 
 ---
@@ -354,17 +354,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >abstract="Transactionele aanpassing van het Overseinen"
 
 >[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="Transactionele aanpassing van het Overseinen"
->abstract="Transactionele aanpassing van het Overseinen"
-
->[!CONTEXTUALHELP]
 >id="acw_transacmessages_exclusionlogs"
 >title="Transactionele berichtenuitsluitingslogboeken"
 >abstract="Transactionele berichtenuitsluitingslogboeken"
 
 >[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
+>id="acw_transacmessages_addcontext"
 >title="Transactionele berichtcontext"
 >abstract="Transactionele berichtcontext"
 
