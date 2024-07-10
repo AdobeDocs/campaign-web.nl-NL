@@ -6,9 +6,9 @@ badge: label="Beta"
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
 hide: true
 hidefromtoc: true
-source-git-commit: f96c807c2ee094ad4775b6bf56f5f02822da8d28
+source-git-commit: 27e97731ebd2987cc6f653f90a515473caa175d6
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,13 @@ ht-degree: 0%
 >abstract="Voor toegang tot deze functie moet u akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen. Alle aanwijzingen, contextgegevens of aanvullende informatie of andere gegevens die u aan deze functie verstrekt, moeten zijn gekoppeld aan een specifieke context, die uw brandingmaterialen, website-inhoud, gegevens, schema&#39;s voor dergelijke gegevens, sjablonen of andere vertrouwde documenten kan bevatten en geen persoonlijke gegevens mag bevatten (persoonlijke gegevens omvatten alles wat u terug kunt koppelen naar een specifiek individu). U moet de nauwkeurigheid van de uitvoer van deze functie controleren en controleren of deze geschikt is voor uw gebruiksgeval"
 >additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generation AI-gebruikersrichtlijnen"
 
-Naarmate de marketing-industrie concurrerender wordt, zoeken merken efficiënte manieren om op efficiënte en snelle wijze effectvolle inhoud te genereren. AI Assistant in Campaign is de door AI aangedreven mogelijkheid van Adobe om inhoud te genereren die een revolutie betekent in de manier waarop marketers professionele en merkconsistente inhoud maken op verschillende kanalen, zoals E-mail, SMS, Push. Met geavanceerde GenAI-modellen en een goed begrip van de richtlijnen voor merken genereert AI Assistant automatisch persoonlijke, aantrekkelijke en effectieve inhoud die is gebaseerd op het marketingdoel, met inhoud die is geoptimaliseerd voor stijlen, lay-outs, kleurtinten en meer met een merk.
+Naarmate de marketing-industrie concurrerender wordt, zoeken merken efficiënte manieren om op efficiënte en snelle wijze effectvolle inhoud te genereren. AI Assistant in Campaign, aangedreven door Azure OpenAI en Azure vision, is de AI content generation mogelijkheid van de Adobe die een revolutie betekent in de manier waarop marketers professionele en merkconsistente inhoud creëren op verschillende kanalen, zoals E-mail, SMS, Push. Met geavanceerde GenAI-modellen en een goed begrip van de richtlijnen voor merken genereert AI Assistant automatisch persoonlijke, aantrekkelijke en effectieve inhoud die is gebaseerd op het marketingdoel, met inhoud die is geoptimaliseerd voor stijlen, lay-outs, kleurtinten en meer met een merk.
 
 Met AI Assistant kunt u marketingcampagnes op verschillende kanalen, zoals e-mail, SMS en Push, intuïtief, eenvoudig en probleemloos maken en tegelijk tijd besparen, de efficiëntie verbeteren en betere resultaten behalen.
 
 >[!NOTE]
 >
->Deze mogelijkheid is beschikbaar in de bètaversie en kan zonder voorafgaande kennisgeving worden gewijzigd.
+>Deze functie is beschikbaar in de Beta-versie en kan zonder voorafgaande kennisgeving worden gewijzigd.
 
 ## Afvoerkanalen en beperkingen {#generative-guardrails}
 
