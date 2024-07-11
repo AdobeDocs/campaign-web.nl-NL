@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 14fd007c2fc57a246905cc31800913536fea5734
+source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1629'
 ht-degree: 1%
 
 ---
@@ -332,6 +332,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_transacmessages_properties"
 >title="Eigenschappen voor Transactieberichten"
 >abstract="Eigenschappen voor Transactieberichten"
+
+>[!CONTEXTUALHELP]
+>id="acw_transacmessages_mobileapp"
+>title="Transactieberichten voor mobiele apps"
+>abstract="Transactieberichten voor mobiele apps"
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_event"
