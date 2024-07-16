@@ -15,7 +15,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation"
 >title="Afstemmingsactiviteit"
->abstract="De **Verzoening** activiteit is **Targeting** activiteit die u toestaat om het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen. Bijvoorbeeld de **Verzoening** activiteit kan na een **Bestand laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de externe tabel."
+>abstract="De **Verzoening** activiteit is a **richtend** activiteit die u toestaat om het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen. Bijvoorbeeld, kan de **Verzoening** activiteit na a **dossier** activiteit van de Lading worden geplaatst om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval, laat de **Verzoening** activiteit u het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in de externe lijst bepalen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_field"
@@ -32,13 +32,13 @@ ht-degree: 10%
 >title="Afstemming genereren"
 >abstract="Afstemming genereren"
 
-De **Verzoening** activiteit is **Targeting** activiteit die u toestaat om het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen.
+De **Verzoening** activiteit is a **richtend** activiteit die u toestaat om het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen.
 
-Bijvoorbeeld de **Verzoening** activiteit kan na een **Bestand laden** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval worden de **Verzoening** Met deze activiteit kunt u de koppeling definiëren tussen de gegevens in de Adobe Campaign-database en de gegevens in de werktabel.
+Bijvoorbeeld, kan de **Verzoening** activiteit na a **dossier** activiteit van de Lading worden geplaatst om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval, laat de **Verzoening** activiteit u het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in de het werklijst bepalen.
 
 ## Best practices {#reconciliation-best-practices}
 
-Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in uw werkschema te verwerken (u kunt gebruiken **Verrijking** activiteit om gegevens te combineren die uit veelvoudige reeksen komen, of om verbindingen met een tijdelijke middel tot stand te brengen), **Verzoening** Met activiteit kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen.
+Terwijl de **Verrijking** activiteit u toestaat om extra gegevens te bepalen in uw werkschema (u kunt een **Verrijking** activiteit gebruiken om gegevens te combineren die uit veelvoudige reeksen komen, of verbindingen tot stand te brengen aan een tijdelijk middel), staat de **Verzoening** activiteit u toe om ongeidentificeerde gegevens aan bestaande middelen te verbinden.
 
 >[!NOTE]
 >De afstemmingsoperatie houdt in dat de gegevens van de gekoppelde afmetingen al in de database staan.  Als u bijvoorbeeld een aankoopbestand importeert waarin wordt aangegeven welk product is gekocht, op welk moment, door welke klant, enzovoort, moeten het product en de klant al in de database aanwezig zijn.
@@ -53,7 +53,7 @@ Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_rules"
 >title="Afstemmingsregels"
->abstract="Selecteer afstemmingsregels die u wilt gebruiken voor de deduplicatie. Als u kenmerken wilt gebruiken, selecteert u de **Eenvoudige kenmerken** en kiest u de bron- en doelvelden. Als u uw eigen afstemmingsvoorwaarde wilt maken met de querymodelfunctie, selecteert u de optie **Geavanceerde afstemmingsvoorwaarden** -optie."
+>abstract="Selecteer afstemmingsregels die u wilt gebruiken voor de deduplicatie. Om attributen te gebruiken, selecteer de **Eenvoudige attributen** optie en kies de bron en bestemmingsgebieden. Om uw eigen verzoeningsvoorwaarde tot stand te brengen gebruikend de vraagmodeler, selecteer de **Geavanceerde verzoeningsvoorwaarden** optie."
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Werken met de querymodelfunctie"
 
 >[!CONTEXTUALHELP]
@@ -65,32 +65,32 @@ Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
 >title="Niet-compatibele gegevens behouden"
->abstract="Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de uitgaande overgang en beschikbaar in de werklijst voor toekomstig gebruik. Als u niet-compatibele gegevens wilt verwijderen, desactiveert u het dialoogvenster **Niet-compatibele gegevens behouden** -optie."
+>abstract="Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de uitgaande overgang en beschikbaar in de werklijst voor toekomstig gebruik. Om onverenigde gegevens te verwijderen, desactiveer **houden unconiled gegevens** optie."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="Afstemmingskenmerk"
 >abstract="Selecteer het kenmerk dat u wilt gebruiken om gegevens op elkaar af te stemmen en klik op Bevestigen."
 
-Voer de volgende stappen uit om de **Verzoening** activiteit:
+Volg deze stappen om de **Verzoening** activiteit te vormen:
 
-1. Voeg een **Verzoening** in uw workflow. Deze activiteit moet worden toegevoegd na een overgang met een populatie waarvan de doeldimensie niet rechtstreeks uit Adobe Campaign afkomstig is.
+1. Voeg a **Verzoening** activiteit in uw werkschema toe. Deze activiteit moet worden toegevoegd na een overgang met een populatie waarvan de doeldimensie niet rechtstreeks uit Adobe Campaign afkomstig is.
 
-1. Selecteer de nieuwe doeldimensie. Met een dimensie kunt u de doelgroep definiëren: ontvangers, abonnees van apps, operators, abonnees, enzovoort. [Meer informatie over doelgerichte dimensies](../../audience/about-recipients.md#targeting-dimensions).
+1. Selecteer de nieuwe doeldimensie. Met een dimensie kunt u de doelgroep definiëren: ontvangers, abonnees van apps, operators, abonnees, enzovoort. [ Leer meer over het richten van dimensies ](../../audience/about-recipients.md#targeting-dimensions).
 
 1. Selecteer de velden die u wilt gebruiken voor de afstemming. U kunt een of meer verzoeningscriteria gebruiken.
 
-   1. Als u kenmerken wilt gebruiken om gegevens op elkaar af te stemmen, selecteert u de optie **Eenvoudige kenmerken** -optie. De **Bron** In dit veld worden de velden weergegeven die beschikbaar zijn in de invoerovergang en die moeten worden afgestemd. De **Doel** komt overeen met de velden van de geselecteerde doeldimensie. De gegevens worden in overeenstemming gebracht wanneer bron en bestemming gelijk zijn. Selecteer bijvoorbeeld de **E-mail** velden voor het dupliceren van profielen op basis van hun e-mailadres.
+   1. Om attributen te gebruiken om gegevens te combineren, selecteer de **Eenvoudige attributen** optie. Het **Source** gebied maakt een lijst van de gebieden beschikbaar in de inputovergang, die moeten worden in overeenstemming gebracht. Het **gebied van de Bestemming** beantwoordt aan de gebieden van geselecteerde het richten afmeting. De gegevens worden in overeenstemming gebracht wanneer bron en bestemming gelijk zijn. Bijvoorbeeld, selecteer de **E-mail** gebieden om profielen te dedupliceren die op hun e-mailadres worden gebaseerd.
 
-      Klik op de knop **Regel toevoegen** knop. Als er meerdere samenvoegvoorwaarden zijn opgegeven, moeten deze ALLES worden gecontroleerd zodat de gegevens aan elkaar kunnen worden gekoppeld.
+      Om andere verzoeningscriteria toe te voegen, klik **regel** toevoegen knoop. Als er meerdere samenvoegvoorwaarden zijn opgegeven, moeten deze ALLES worden gecontroleerd zodat de gegevens aan elkaar kunnen worden gekoppeld.
 
       ![](../assets/workflow-reconciliation-criteria.png)
 
-   1. Als u andere kenmerken wilt gebruiken om gegevens met elkaar te verzoenen, selecteert u de optie **Geavanceerde afstemmingsvoorwaarden** -optie. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md).
+   1. Om andere attributen te gebruiken om gegevens te combineren, selecteer de **Geavanceerde verzoeningsvoorwaarden** optie. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken.
 
-1. U kunt gegevens filteren om te verzoenen met de **Filter maken** knop. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md)
+1. U kunt gegevens filtreren om het gebruiken van te verzoenen **creeer filterknoop**. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
 
-Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de uitgaande overgang en beschikbaar in de werkbare lijst voor toekomstig gebruik. Als u niet-compatibele gegevens wilt verwijderen, desactiveert u het dialoogvenster **Niet-compatibele gegevens behouden** -optie.
+Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de uitgaande overgang en beschikbaar in de werkbare lijst voor toekomstig gebruik. Om onverenigde gegevens te verwijderen, desactiveer **houden unconiled gegevens** optie.
 
 ## Voorbeeld {#reconciliation-example}
 
@@ -116,13 +116,13 @@ Het wordt gebouwd met de volgende activiteiten:
   REESE;Richard;rreese@testmail.com;02/08/1987;
   ```
 
-* A **Verzoening** activiteit die de binnenkomende gegevens als profielen identificeert, door **email** en **Geboortedatum** velden als verzoeningscriteria.
+* A **Verzoening** activiteit die de inkomende gegevens als profielen identificeert, door **e-mail** en **Datum van geboorte** gebieden als verzoeningscriteria te gebruiken.
 
   ![](../assets/workflow-reconciliation-sample-1.1.png)
 
-* A [Adviezen opslaan](save-audience.md) om een nieuw publiek te maken op basis van deze updates. U kunt ook de opdracht **Adviezen opslaan** activiteit van een **Einde** activiteit als geen specifiek publiek moet worden gecreeerd of worden bijgewerkt. Ontvangersprofielen worden in elk geval bijgewerkt wanneer u de workflow uitvoert.
+* A [ sparen publiek ](save-audience.md) activiteit om een nieuw publiek tot stand te brengen dat op deze updates wordt gebaseerd. U kunt **sparen publiek** activiteit door een **Eind** activiteit ook vervangen als geen specifiek publiek moet worden gecreeerd of worden bijgewerkt. Ontvangersprofielen worden in elk geval bijgewerkt wanneer u de workflow uitvoert.
 
 
 ## Compatibiliteit {#reconciliation-compat}
 
-De **Verzoening** activiteit bestaat niet in de console van de Cliënt. Alles **Verbeteringen** activiteiten die zijn gemaakt in de clientconsole met de verzoeningsopties ingeschakeld, worden weergegeven als **Verzoening** activiteiten in de gebruikersinterface van het Web van de Campagne.
+De **Verzoening** activiteit bestaat niet in de console van de Cliënt. Alle **Verrijkt** activiteiten die in de console van de Cliënt met de toegelaten verzoeningsopties worden gecreeerd worden getoond als **verzoenings** activiteiten in het gebruikersinterface van het Web van de Campagne.

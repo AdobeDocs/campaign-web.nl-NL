@@ -20,7 +20,7 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_audience"
 >title="Het SMS-publiek definiëren"
->abstract="U kunt een nieuw publiek maken of een bestaand publiek selecteren door op de knop **Doelgroep selecteren** knop. Voeg zo nodig een controlegroep toe om het effect van de levering te meten."
+>abstract="U kunt een nieuw publiek tot stand brengen of bestaande selecteren door de **Uitgezochte publiek** knoop te klikken. Voeg zo nodig een controlegroep toe om het effect van de levering te meten."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Een controlegroep instellen"
 
 >[!CONTEXTUALHELP]
@@ -30,51 +30,51 @@ ht-degree: 5%
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Leveringssjablonen gebruiken"
 
 
-U kunt een standalone levering van SMS tot stand brengen, of SMS in de context van een campagnewerkschema tot stand brengen. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) SMS-levering. Als u in de context van een campagnewerkstroom werkt, zijn de aanmaakstappen details in [deze sectie](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+U kunt een standalone levering van SMS tot stand brengen, of SMS in de context van een campagnewerkschema tot stand brengen. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) SMS-levering. Als u in de context van een campagnewerkschema werkt, zijn de aanmaakstappen details in [ deze sectie ](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 
 Ga als volgt te werk om een nieuwe, zelfstandige SMS-levering te maken:
 
-1. Bladeren naar de **[!UICONTROL Deliveries]** op de linkerspoorstaaf en klik op  **[!UICONTROL Create delivery]** knop.
+1. Blader naar het menu **[!UICONTROL Deliveries]** op de linkertrack en klik op de knop **[!UICONTROL Create delivery]** .
 
-1. Onder de **[!UICONTROL Channel]** , kiest u SMS als het kanaal en selecteert u een sjabloon. [Meer informatie over sjablonen](../msg/delivery-template.md)
+1. Kies onder de sectie **[!UICONTROL Channel]** SMS als kanaal en selecteer een sjabloon. [ Leer meer over malplaatjes ](../msg/delivery-template.md)
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 
    ![](assets/sms_create_1.png){zoomable="yes"}
 
-1. Voer een **[!UICONTROL Label]** voor levering en toegang tot **[!UICONTROL Additional options]** vervolgkeuzelijst. Als uw levering op een uitgebreid schema wordt gebaseerd, specifiek **Aangepaste opties** zijn beschikbaar.
+1. Voer een **[!UICONTROL Label]** in voor levering en open de vervolgkeuzelijst **[!UICONTROL Additional options]** . Als uw levering op een uitgebreid schema gebaseerd is, zijn de specifieke **opties van de Douane** gebieden beschikbaar.
 
    +++Configureer de volgende instellingen op basis van uw vereisten.
-   * **[!UICONTROL Internal name]**: Wijs een unieke id toe aan de levering.
+   * **[!UICONTROL Internal name]**: wijs een unieke id toe aan de levering.
    * **[!UICONTROL Folder]**: Sla de levering op in een specifieke map.
-   * **[!UICONTROL Delivery code]**: Organiseer uw leveringen met uw eigen naamgevingsconventie.
-   * **[!UICONTROL Description]**: Geef een beschrijving voor de levering.
-   * **[!UICONTROL Nature]**: Specificeer de aard van de levering voor classificatiedoeleinden.
+   * **[!UICONTROL Delivery code]**: organiseer uw leveringen met behulp van uw eigen naamgevingsconventie.
+   * **[!UICONTROL Description]**: geef een beschrijving voor de levering.
+   * **[!UICONTROL Nature]**: geef de aard van de levering op voor classificatiedoeleinden.
 +++
 
-1. Klik op de knop **[!UICONTROL Select audience]** om een bestaand publiek als doel in te stellen of uw eigen publiek te maken. [Meer informatie over het publiek](../audience/about-recipients.md).
+1. Klik op de knop **[!UICONTROL Select audience]** om een bestaand publiek als doel in te stellen of uw eigen publiek te maken. [ leer meer over publiek ](../audience/about-recipients.md).
 
    ![](assets/sms_create_2.png){zoomable="yes"}
 
-   Leer hoe u een bestaand publiek kunt selecteren in [deze pagina](../audience/add-audience.md)
+   Leer hoe te om een bestaand publiek in [ te selecteren deze pagina ](../audience/add-audience.md)
 
-   Leer hoe u een nieuw publiek kunt maken in [deze pagina](../audience/one-time-audience.md)
+   Leer hoe te om een nieuw publiek in [ te creëren deze pagina ](../audience/one-time-audience.md)
 
-1. Schakel de **[!UICONTROL Enable control group]** om een controlegroep in te stellen om het effect van uw levering te meten. De berichten worden niet verzonden naar die controlegroep, zodat u het gedrag van de bevolking kunt vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](../audience/control-group.md)
+1. Schakel de optie **[!UICONTROL Enable control group]** in om een besturingsgroep in te stellen om de impact van de levering te meten. De berichten worden niet verzonden naar die controlegroep, zodat u het gedrag van de bevolking kunt vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](../audience/control-group.md)
 
-1. Klikken **[!UICONTROL Edit content]** om de inhoud van je SMS-bericht te ontwerpen. [Meer informatie](content-sms.md)
+1. Klik op **[!UICONTROL Edit content]** om de inhoud van uw SMS-bericht te ontwerpen. [Meer informatie](content-sms.md)
 
    ![](assets/sms_create_4.png){zoomable="yes"}
 
-   Vanuit dit scherm kunt u ook [simuleren, inhoud](../preview-test/preview-test.md) en [aanbiedingen instellen](../msg/offers.md).
+   Van dit scherm, kunt u ook [ uw inhoud ](../preview-test/preview-test.md) simuleren en [ opstellingsaanbiedingen ](../msg/offers.md).
 
-1. Als u de levering wilt plannen op een bepaalde datum en tijd, schakelt u de optie **[!UICONTROL Enable scheduling]** -optie. Nadat u de levering in werking stelt, zal het bericht automatisch op de nauwkeurige datum en de tijd worden verzonden die u voor de ontvanger hebt bepaald. Meer informatie over de planning van de levering in [deze sectie](../msg/gs-deliveries.md#gs-schedule).
+1. Schakel de optie **[!UICONTROL Enable scheduling]** in om de levering naar een bepaalde datum en tijd te plannen. Nadat u de levering in werking stelt, zal het bericht automatisch op de nauwkeurige datum en de tijd worden verzonden die u voor de ontvanger hebt bepaald. Leer meer over levering het plannen in [ deze sectie ](../msg/gs-deliveries.md#gs-schedule).
 
    >[!NOTE]
    >
-   >Wanneer een levering in de context van een werkschema wordt verzonden, moet u gebruiken **Planner** activiteit. Meer informatie vindt u [op deze pagina](../workflows/activities/scheduler.md).
+   >Wanneer een levering in de context van een werkschema wordt verzonden, moet u de **Planner** activiteit gebruiken. Meer informatie vindt u [op deze pagina](../workflows/activities/scheduler.md).
 
-1. Klikken **[!UICONTROL Settings]** voor toegang tot geavanceerde opties met betrekking tot uw leveringsmalplaatje. [Meer informatie](../advanced-settings/delivery-settings.md)
+1. Klik op **[!UICONTROL Settings]** voor toegang tot geavanceerde opties met betrekking tot de leveringssjabloon. [Meer informatie](../advanced-settings/delivery-settings.md)
 
    ![](assets/sms_create_3.png){zoomable="yes"}

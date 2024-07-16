@@ -2,16 +2,17 @@
 audience: end-user
 title: Campagnerapporten voor het kanaal Direct mail
 description: Inzicht in campagnerapporten voor het kanaal Direct mail
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Campagnerapporten voor het kanaal Direct mail {#campaign-reports-direct-mail}
 
-Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het kanaal van de Post, zijn de rapporten en de metriek gedetailleerd hieronder. Leer hoe u uw campagnerapporten kunt openen in [deze pagina](campaign-reports.md).
+Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het kanaal van de Post, zijn de rapporten en de metriek gedetailleerd hieronder. Leer hoe te om tot uw campagnerapporten in [ toegang te hebben deze pagina ](campaign-reports.md).
 
 ## Leveringsoverzicht {#delivery-summary-direct}
 
@@ -20,11 +21,11 @@ Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_delivery_overview_direct_mail"
 >title="Overzicht van levering"
->abstract="De **Overzicht van levering** biedt belangrijke prestatiemetriek (KPIs) die diepgaande inzichten van de interactie van uw bezoekers met elke directe postlevering aanbieden. De meetgegevens worden hieronder beschreven."
+>abstract="Het **Overzicht van de Levering** stelt zeer belangrijke prestatiesmetriek (KPIs) voor die diepgaande inzichten in de interactie van uw bezoekers met elke directe postlevering aanbieden. De meetgegevens worden hieronder beschreven."
 
-De **[!UICONTROL Delivery Overview]** biedt belangrijke prestatiemetriek (KPIs) die diepgaande inzichten van de interactie van uw bezoekers met elke levering van Direct-mail aanbieden. De meetgegevens worden hieronder beschreven.
+In **[!UICONTROL Delivery Overview]** vindt u belangrijke prestatiemetriek (KPI&#39;s) met diepgaande inzichten in de interactie van uw bezoekers met elke direct-maillevering. De meetgegevens worden hieronder beschreven.
 
-![](assets/direct-mail-campaign-overview.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++ Meer informatie over overzichtsmetriek voor levering.
 
@@ -32,9 +33,9 @@ De **[!UICONTROL Delivery Overview]** biedt belangrijke prestatiemetriek (KPIs) 
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
-* **[!UICONTROL Errors]**: Totaal aan fouten gecumuleerd tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten.
+* **[!UICONTROL Errors]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
 
-* **[!UICONTROL Total clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer op een levering heeft geklikt.
+* **[!UICONTROL Total clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer in een levering heeft geklikt.
 
 +++
 
@@ -43,17 +44,17 @@ De **[!UICONTROL Delivery Overview]** biedt belangrijke prestatiemetriek (KPIs) 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_target_audience_direct_mail"
 >title="Eerste doelstatistieken"
->abstract="De gegevens en de berichtinformatie van de ontvanger worden getoond in **Eerste doelstatistieken** tabel die de analyse van de voorbereiding van de levering weergeeft."
+>abstract="De ontvankelijke gegevens en berichtinformatie worden getoond in de **Aanvankelijke lijst van het doelpubliek**, die de analyse van de leveringsvoorbereiding weerspiegelt."
 
-De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens met betrekking tot uw ontvangers. De metriek worden berekend tijdens levering voorbereiding en toon: het aanvankelijke publiek, het aantal te verzenden berichten, het aantal uitgesloten ontvangers.
+In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De metriek worden berekend tijdens levering voorbereiding en toon: het aanvankelijke publiek, het aantal te verzenden berichten, het aantal uitgesloten ontvangers.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable=&quot;yes&quot;}
+![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++Meer informatie over de cijfers voor de aanvankelijke doelpubliek.
 
-* **[!UICONTROL Initial audience]**: Totaal aantal beoogde ontvangers.
+* **[!UICONTROL Initial audience]**: het totale aantal beoogde ontvangers.
 
-* **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na de voorbereiding van de levering moet worden bezorgd.
+* **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
 * **[!UICONTROL Rejected by rules]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels: adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
 
@@ -64,19 +65,19 @@ De **[!UICONTROL Initial target audience statistics]** de lijst toont gegevens m
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_execution_statistics_direct_mail"
 >title="Leveringsstatistieken"
->abstract="De **Uitvoeringsstatistieken** in de tabel worden het succes van de levering via e-mail en de gemaakte fouten weergegeven."
+>abstract="De **statistieken van de Uitvoering** lijst specificeert het succes van uw Directe postlevering, en fouten die voorkwamen."
 
 ![](assets/direct-mail-campaign-exec.png)
 
-De **[!UICONTROL Execution statistics]** de tabel geeft een overzicht van het succes van elke directe postbestelling , met de hieronder beschreven gedetailleerde cijfers .
+De tabel **[!UICONTROL Execution statistics]** geeft een overzicht van het succes van elke directe verzending via e-mail. Hieronder vindt u gedetailleerde gegevens.
 
 +++ Meer informatie over de statistieken van de Levering metriek.
 
-* **[!UICONTROL Message to deliver]**: Totaal aantal berichten dat na de voorbereiding van de levering moet worden bezorgd.
+* **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
 * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL Errors]**: Totaal aantal fouten bij leveringen en automatische oplevering in verhouding tot het aantal te leveren berichten.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (onbekend, ongeldig domein) in verhouding tot het aantal te leveren berichten.
 
@@ -87,15 +88,15 @@ De **[!UICONTROL Execution statistics]** de tabel geeft een overzicht van het su
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_clicks_direct_mail"
 >title="Gegenereerde klikstromen"
->abstract="De **Gegenereerde klikstromen** de lijst toont de beschikbare gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden."
+>abstract="De **Gegenereerde klikstromen** lijst toont de beschikbare gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
-De **Gegenereerde klikstromen** in de tabel worden de redenen weergegeven waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
+De **Gegenereerde klikstromen** lijst illustreert de redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, het bericht ontvingen.
 
 +++Klik op Metrische gegevens voor gegenereerde streams voor meer informatie.
 
-* **[!UICONTROL Unique clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer op een levering heeft geklikt.
+* **[!UICONTROL Unique clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer in een levering heeft geklikt.
 
 * **[!UICONTROL Total clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 

@@ -5,7 +5,7 @@ description: Leer hoe u een workflow maakt met Adobe Campaign Web
 exl-id: 26e7360e-cce7-4240-bb29-1dc8613f55ca
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '723'
 ht-degree: 1%
 
 ---
@@ -16,29 +16,29 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_campaign_creation_workflow"
 >title="Lijst met workflows in de campagne"
->abstract="De **Workflows** worden alle workflows weergegeven die aan de huidige campagne zijn gekoppeld. Klik op de naam van een workflow om deze te bewerken. Gebruik de **Workflow maken** om een nieuwe workflow voor deze campagne toe te voegen."
+>abstract="Het **lusje van de Werkschema&#39;s** maakt een lijst van alle werkschema&#39;s verbonden aan de huidige campagne. Klik op de naam van een workflow om deze te bewerken. Gebruik **creeer werkschemaknoop** om een nieuw werkschema voor deze campagne toe te voegen."
 
 U kunt zelfstandige workflows of workflows in een campagne maken. De eerste stap bestaat uit het selecteren van een sjabloon en het definiëren van de algemene eigenschappen ervan. Vervolgens kunt u zo nodig aanvullende instellingen configureren.
 
 Voer hiertoe de volgende stappen uit:
 
-1. Een **Zelfstandige workflow**, bladert u naar de **Werknemers** -menu. Een **Campagne-workflow**, bladert u naar de **Campagnes** en opent u de campagne waarvoor u een nieuwe workflow wilt maken.
+1. Om a **standalone werkschema** tot stand te brengen, doorblader aan het **3} menu van de Werkstromen {.** Om het werkschema van de a **Campagne** tot stand te brengen, doorblader aan het **menu van Campagnes**, en open de campagne waarvoor u een nieuw werkschema wilt creëren.
 
-1. Klik op de knop **[!UICONTROL Create workflow]** rechtsboven in het scherm.
+1. Klik op de knop **[!UICONTROL Create workflow]** in de rechterbovenhoek van het scherm.
 
-   ![](assets/workflow-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/workflow-create.png){zoomable="yes"}
 
-1. In workflow **Eigenschappen** selecteert u de sjabloon die u wilt gebruiken om de workflow te maken (u kunt ook de standaard ingebouwde sjabloon gebruiken). [Meer informatie over workflowsjablonen](#workflow-templates).
+1. In werkschema{**dialoog 0} Eigenschappen, selecteer het malplaatje te gebruiken om het werkschema tot stand te brengen (u kunt het gebrek ingebouwde malplaatje ook gebruiken).** [ Leer meer over werkschemamalplaatjes ](#workflow-templates).
 
-1. Voer een label in voor de workflow. Daarnaast raden we u ten zeerste aan een beschrijving toe te voegen aan uw workflow, in het specifieke veld van het dialoogvenster **[!UICONTROL Additional options]** van het scherm.
+1. Voer een label in voor de workflow. Daarnaast raden we u ten zeerste aan een beschrijving toe te voegen aan uw workflow, in het speciale veld van de sectie **[!UICONTROL Additional options]** van het scherm.
 
-1. Breid uit **[!UICONTROL Additional options]** om meer instellingen voor de workflow te configureren. Leer hoe u de eigenschappen van de workflow kunt configureren in [deze pagina](workflow-settings.md#properties)
+1. Vouw de sectie **[!UICONTROL Additional options]** uit om meer instellingen voor de workflow te configureren. Leer hoe te om de werkschemaeigenschappen in [ te vormen deze pagina ](workflow-settings.md#properties)
 
-   ![](assets/workflow-additional-options.png){zoomable=&quot;yes&quot;}
+   ![](assets/workflow-additional-options.png){zoomable="yes"}
 
 1. Klik op de knop **[!UICONTROL Create workflow]** om het maken van uw workflow te bevestigen.
 
-Uw workflow wordt nu gemaakt en beschikbaar in de lijst met workflows. U kunt nu het visuele canvas openen en de taken die het gaat uitvoeren, toevoegen, configureren en ordenen. [Leer workflowactiviteiten te ordenen](orchestrate-activities.md).
+Uw workflow wordt nu gemaakt en beschikbaar in de lijst met workflows. U kunt nu het visuele canvas openen en de taken die het gaat uitvoeren, toevoegen, configureren en ordenen. [ Leer hoe te om werkschemaactiviteiten ](orchestrate-activities.md) te ordenen.
 
 ## Werken met workflowsjablonen {#workflow-templates}
 
@@ -58,47 +58,47 @@ U kunt een sjabloon maken op basis van een bestaande workflow of een geheel nieu
 
 >[!BEGINTABS]
 
->[!TAB Een sjabloon maken op basis van een bestaande workflow]
+>[!TAB  creeer een malplaatje van een bestaand werkschema ]
 
 Voer de volgende stappen uit om een werkstroomsjabloon te maken op basis van een bestaande workflow:
 
-1. Openen voor de **Workflows** en blader aan het werkschema om als malplaatje te bewaren.
-1. Klik op de drie stippen rechts van de naam van de workflow en kies **Kopiëren als sjabloon**.
+1. Open aan het **menu van Werkschema&#39;s** en doorblader aan het werkschema om als malplaatje te bewaren.
+1. Klik de drie punten op het recht van de naam van het werkschema, en kies **Exemplaar als malplaatje**.
 
-   ![](assets/wf-copy-as-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-copy-as-template.png){zoomable="yes"}
 
 1. Bevestig het maken van de sjabloon in het pop-upvenster.
 1. In het canvas van het werkschemamalplaatje, controleer, voeg, en vorm de activiteiten toe zoals nodig.
-1. Bladeren naar de instellingen, via het dialoogvenster **Instellingen** om de naam van de werkstroomsjabloon te wijzigen en een beschrijving in te voeren.
-1. Selecteer de **map** en **uitvoeringsmap** van de template. De map is de locatie waar het werkstroomsjabloon wordt opgeslagen. De uitvoeringsmap is de map waarin workflows worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
+1. Blader naar de montages, van de **knoop van Montages**, om de naam van het werkschemamalplaatje te veranderen, en een beschrijving in te gaan.
+1. Selecteer de **omslag** en **uitvoeringsomslag** van het malplaatje. De map is de locatie waar het werkstroomsjabloon wordt opgeslagen. De uitvoeringsmap is de map waarin workflows worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
 
-   ![](assets/wf-settings-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-settings-template.png){zoomable="yes"}
 
-   De andere eigenschappen komen veel voor in workflows. Meer informatie in [deze pagina](workflow-settings.md#properties)
+   De andere eigenschappen komen veel voor in workflows. Leer meer in [ deze pagina ](workflow-settings.md#properties)
 
 1. Sla uw wijzigingen op.
 
 Het werkstroomsjabloon is nu beschikbaar in de sjabloonlijst. U kunt een workflow maken op basis van deze sjabloon. Deze workflow wordt vooraf geconfigureerd met de instellingen en activiteiten die in de sjabloon zijn gedefinieerd.
 
 
->[!TAB Een geheel nieuwe sjabloon maken]
+>[!TAB  creeer een malplaatje van kras ]
 
 
 Ga als volgt te werk om een werkstroomsjabloon helemaal zelf te maken:
 
-1. Openen voor de **Workflows** en blader aan **Sjablonen** tab. U kunt de lijst met beschikbare werkstroomsjablonen bekijken.
-1. Klik op de knop **[!UICONTROL Create template]** rechtsboven in het scherm.
+1. Open aan het **menu van de Werkschema&#39;s** en doorblader aan **Malplaatjes** tabel. U kunt de lijst met beschikbare werkstroomsjablonen bekijken.
+1. Klik op de knop **[!UICONTROL Create template]** in de rechterbovenhoek van het scherm.
 1. Voer het label in en open de aanvullende opties om een beschrijving van de werkstroomsjabloon in te voeren.
 1. Selecteer de map en de uitvoeringsmap van de sjabloon. De map is de locatie waar het werkstroomsjabloon wordt opgeslagen. De uitvoeringsmap is de map waarin workflows worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
 
-   ![](assets/new-wf-template.png){zoomable=&quot;yes&quot;}
+   ![](assets/new-wf-template.png){zoomable="yes"}
 
-   De andere eigenschappen komen veel voor in workflows. Meer informatie in [deze pagina](workflow-settings.md#properties)
+   De andere eigenschappen komen veel voor in workflows. Leer meer in [ deze pagina ](workflow-settings.md#properties)
 
-1. Klik op de knop **Maken** om uw instellingen te bevestigen.
+1. Klik **creeer** knoop om uw montages te bevestigen.
 1. In het canvas van het werkschemamalplaatje, voeg en vorm de activiteiten toe zoals nodig.
 
-   ![](assets/wf-template-activities.png){zoomable=&quot;yes&quot;}
+   ![](assets/wf-template-activities.png){zoomable="yes"}
 
 1. Sla uw wijzigingen op.
 

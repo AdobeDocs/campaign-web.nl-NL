@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
 source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -18,28 +18,28 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_list"
 >title="Leveringen"
->abstract="Een levering is een communicatie die naar een publiek op een specifiek kanaal wordt verzonden: e-mail, SMS, of Duw. In dit scherm kunt u bestaande leveringen bewerken, dupliceren en verwijderen. U kunt ook rapporten weergeven voor voltooide leveringen. Klik op de knop **Levering maken** om een nieuwe levering toe te voegen."
+>abstract="Een levering is een communicatie die naar een publiek op een specifiek kanaal wordt verzonden: e-mail, SMS, of Duw. In dit scherm kunt u bestaande leveringen bewerken, dupliceren en verwijderen. U kunt ook rapporten weergeven voor voltooide leveringen. Klik **creeer levering** knoop om een nieuwe levering toe te voegen."
 
 ## Een levering maken {#create-delivery}
 
-U kunt zelfstandige leveringen maken via de **[!UICONTROL Deliveries]** links menu, of levering maken in de context van een werkstroom, inbegrepen of niet in een campagne.
+U kunt zelfstandige leveringen maken in het linkermenu van **[!UICONTROL Deliveries]** of leveringen maken in de context van een workflow, die al dan niet in een campagne wordt opgenomen.
 
 Blader op de onderstaande tabbladen voor meer informatie over het maken van een levering:
 
 >[!BEGINTABS]
 
->[!TAB Een zelfstandige levering maken]
+>[!TAB  creeer een standalone levering ]
 
 Voer de volgende stappen uit om een zelfstandige levering te maken:
 
-1. Bladeren naar de **[!UICONTROL Deliveries]** en klik op de knop **[!UICONTROL Create delivery]** knop.
+1. Blader naar het menu **[!UICONTROL Deliveries]** links in de navigatie en klik op de knop **[!UICONTROL Create delivery]** .
 
-   ![](assets/create-a-delivery.png){zoomable=&quot;yes&quot;}
+   ![](assets/create-a-delivery.png){zoomable="yes"}
 
 1. Kies een kanaal voor de levering.
-1. Bepaal het leveringspubliek, voor het belangrijkste doel en de controlegroep. [Meer informatie over het publiek](../audience/about-recipients.md).
+1. Bepaal het leveringspubliek, voor het belangrijkste doel en de controlegroep. [ leer meer over publiek ](../audience/about-recipients.md).
 
-   ![](assets/select-audience.png){zoomable=&quot;yes&quot;}{width="70%" align="left"}
+   ![](assets/select-audience.png){zoomable="yes"}{width="70%" align="left"}
 
 1. Bepaal de berichtinhoud. Meer informatie over leveringskanalen en hoe u in deze secties leveringsinhoud kunt definiëren:
 
@@ -47,57 +47,57 @@ Voer de volgende stappen uit om een zelfstandige levering te maken:
    * [Push-meldingskanaal](../push/gs-push.md)
    * [SMS-kanaal](../sms/create-sms.md)
 
-1. (optioneel) Bepaal de levering [schema](#gs-schedule). Als geen programma wordt bepaald, worden de berichten verzonden onmiddellijk na het klikken van **[!UICONTROL Send]** knop.
-1. Klik op de knop  **[!UICONTROL Review and send]** om uw instellingen te controleren.
-1. Gebruik de  **[!UICONTROL Simulate content]** om uw levering, en verpersoonlijkingsmontages te testen. Meer informatie over berichtsimulatie vindt u in [deze sectie](../preview-test/preview-test.md).
-1. Klik op de knop  **[!UICONTROL Prepare]** om de doelpopulatie te berekenen en de berichten te genereren. De voorbereidingsstap kan een paar minuten duren. Wanneer de voorbereiding volledig is, zijn de berichten klaar om te verzenden. Blader bij een fout naar de **Logboeken** om waarschuwingen en waarschuwingen te controleren.
-1. Controleer de resultaten en klik op de knop **[!UICONTROL Send]** om te beginnen met het verzenden van berichten.
-1. Blader naar de **Rapporten** voor toegang tot belangrijke metriek. Meer informatie over leveringsrapporten vindt u in [deze sectie](../reporting/delivery-reports.md).
+1. (facultatief) bepaal de levering [ programma ](#gs-schedule). Als er geen schema is gedefinieerd, worden berichten direct verzonden nadat op de knop **[!UICONTROL Send]** is geklikt.
+1. Klik op de knop **[!UICONTROL Review and send]** om uw instellingen te controleren.
+1. Gebruik de knop **[!UICONTROL Simulate content]** om de weergave en de instellingen voor personalisatie te testen. Leer meer over berichtsimulatie in [ deze sectie ](../preview-test/preview-test.md).
+1. Klik op de knop **[!UICONTROL Prepare]** om de doelpopulatie te berekenen en de berichten te genereren. De voorbereidingsstap kan een paar minuten duren. Wanneer de voorbereiding volledig is, zijn de berichten klaar om te verzenden. In het geval van een fout, doorblader aan de **Logboeken** om alarm en waarschuwing te controleren.
+1. Controleer de resultaten en klik op de knop **[!UICONTROL Send]** om de berichten te verzenden.
+1. Zodra de berichten worden verzonden, doorblader aan de **sectie van Rapporten** om tot zeer belangrijke metriek toegang te hebben. Leer meer over leveringsrapporten in [ deze sectie ](../reporting/delivery-reports.md).
 
->[!TAB Levering maken in een workflow]
+>[!TAB  creeer een levering in een werkschema ]
 
 Ga als volgt te werk om een levering in een workflow te maken:
 
-1. Maak een workflow of open een bestaande workflow. [Meer informatie over workflows](../workflows/gs-workflow-creation.md#gs-workflow-steps)
-1. Een [**[!UICONTROL Build audience]**](../workflows/activities/build-audience.md) activiteit.
-1. Klik op de knop `+` en selecteer een leveringsactiviteit: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]**. Meer informatie over de activiteiten van leveringskanalen in een workflow en over het definiëren van inhoud voor levering in [deze sectie](../workflows/activities/channels.md).
+1. Maak een workflow of open een bestaande workflow. [ leer meer over werkschema&#39;s ](../workflows/gs-workflow-creation.md#gs-workflow-steps)
+1. Een [**[!UICONTROL Build audience]**](../workflows/activities/build-audience.md) -activiteit toevoegen en configureren.
+1. Klik op het pictogram `+` en selecteer een leveringsactiviteit: **[!UICONTROL Email]** , **[!UICONTROL SMS]** , **[!UICONTROL Push notification (Android)]** of **[!UICONTROL Push notification (iOS)]** . Leer meer over de activiteiten van het leveringskanaal in een werkschema, en hoe te om een leveringsinhoud in [ te bepalen deze sectie ](../workflows/activities/channels.md).
 
-   ![](assets/add-delivery-in-wf.png){zoomable=&quot;yes&quot;}
+   ![](assets/add-delivery-in-wf.png){zoomable="yes"}
 
 1. Start de workflow en controleer logbestanden.
 
-U kunt ook leveringen in een campagne toevoegen zonder een workflow te maken. Om dit te bereiken, doorblader aan **[!UICONTROL Deliveries]** tabblad van uw campagne en klik op **[!UICONTROL Create delivery]** knop.
+U kunt ook leveringen in een campagne toevoegen zonder een workflow te maken. Blader hiertoe naar het tabblad **[!UICONTROL Deliveries]** van uw campagne en klik op de knop **[!UICONTROL Create delivery]** .
 
-![](assets/new-campaign-delivery.png){zoomable=&quot;yes&quot;}
+![](assets/new-campaign-delivery.png){zoomable="yes"}
 
 De stappen van de configuratie zijn gelijkaardig zoals voor standalone leveringen.
 
-Voor meer informatie over hoe te om een campagne te vormen en leveringen te beheren die tot een campagne behoren, verwijs naar [deze sectie](../campaigns/gs-campaigns.md).
+Voor meer informatie over hoe te om een campagne te vormen en leveringen te beheren die tot een campagne behoren, verwijs naar [ deze sectie ](../campaigns/gs-campaigns.md).
 
 >[!ENDTABS]
 
 
 ## Aanpassing toevoegen {#personalization}
 
-Berichten van Adobe Campaign kunnen op verschillende manieren worden gepersonaliseerd. [Meer informatie over personalisatiemogelijkheden](../personalization/gs-personalization.md).
+Berichten van Adobe Campaign kunnen op verschillende manieren worden gepersonaliseerd. [ leer meer over verpersoonlijkingsmogelijkheden ](../personalization/gs-personalization.md).
 
-Met Campagne kunt u dynamische inhoud maken en persoonlijke berichten verzenden. U kunt aanpassingsmogelijkheden combineren om uw berichten te verbeteren en een aangepaste gebruikerservaring te creëren.
+Met Campagne kunt u dynamische inhoud maken en persoonlijke berichten verzenden. Personalization-mogelijkheden kunnen worden gecombineerd om uw berichten te verbeteren en een aangepaste gebruikerservaring te creëren.
 
 U kunt de inhoud van het bericht aanpassen door:
 
-* Dynamisch invoegen **personalisatievelden**
+* Het opnemen van dynamische **verpersoonlijkingsgebieden**
 
   De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering kunt u elk veld selecteren dat betrekking heeft op de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. [Meer informatie](../personalization/personalize.md)
 
-* Vooraf gedefinieerde invoegen **inhoudsblokken**
+* Het opnemen van vooraf bepaalde **inhoudsblokken**
 
   De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de personalisatie-editor. [Meer informatie](../personalization/personalize.md#ootb-content-blocks)
 
-* Maken **voorwaardelijke inhoud**
+* Creeer **voorwaardelijke inhoud**
 
   Vorm voorwaardelijke inhoud om dynamische verpersoonlijking toe te voegen die op het profiel van de ontvanger bijvoorbeeld wordt gebaseerd. Tekstblokken en/of afbeeldingen worden ingevoegd wanneer een bepaalde voorwaarde waar is. [Meer informatie](../personalization/conditions.md)
 
-* Toevoegen **persoonlijke aanbiedingen**
+* Voeg **gepersonaliseerde aanbiedingen** toe
 
   Voeg persoonlijke aanbiedingen in uw berichtinhoud in, afhankelijk van de locatie van de ontvanger, het huidige weer of de laatste kooporder. [Meer informatie](../msg/offers.md)
 
@@ -114,13 +114,13 @@ Nadat de inhoud van uw bericht is gedefinieerd, kunt u deze voorvertonen om de w
 
 U kunt de datum en het exacte tijdstip voor het verzenden van uw berichten instellen. Door de meest geschikte tijd voor uw marketingbericht te kiezen, kunt u de open tarieven maximaliseren.
 
-Als u de verzending van de levering wilt plannen, opent u de levering en bladert u naar de **[!UICONTROL Schedule]** sectie. Gebruik de **[!UICONTROL Enable scheduling]** om het te activeren en de gewenste datum en tijd voor verzending in te stellen. Nadat u de levering hebt verzonden, begint de daadwerkelijke verzending op de door u gedefinieerde contactdatum.
+Als u de verzending van de levering wilt plannen, opent u de levering en bladert u naar de sectie **[!UICONTROL Schedule]** . Gebruik de schakeloptie **[!UICONTROL Enable scheduling]** om deze te activeren en stel de gewenste datum en tijd voor verzending in. Nadat u de levering hebt verzonden, begint de daadwerkelijke verzending op de door u gedefinieerde contactdatum.
 
-![](assets/schedule.png){zoomable=&quot;yes&quot;}
+![](assets/schedule.png){zoomable="yes"}
 
-Standaard worden de **[!UICONTROL Enable confirmation before sending]** is ingeschakeld. Voor deze optie moet u de verzending bevestigen voordat de levering op de geplande datum en tijd wordt verzonden. Als u de levering automatisch op de geplande datum en tijd moet verzenden, kunt u deze optie onbruikbaar maken.
+Standaard is de optie **[!UICONTROL Enable confirmation before sending]** ingeschakeld. Voor deze optie moet u de verzending bevestigen voordat de levering op de geplande datum en tijd wordt verzonden. Als u de levering automatisch op de geplande datum en tijd moet verzenden, kunt u deze optie onbruikbaar maken.
 
-Meer informatie over het verzenden van een geplande levering in [deze sectie](../monitor/prepare-send.md#schedule-the-send).
+Leer stappen om een geplande levering in [ deze sectie ](../monitor/prepare-send.md#schedule-the-send) te verzenden.
 
 ## Logbestanden bijhouden en bijhouden {#gs-tracking-logs}
 
@@ -128,7 +128,7 @@ Het controleren van uw leveringen nadat deze zijn verzonden, is een belangrijke 
 
 U kunt controleren na het verzenden van een levering, evenals begrijpen hoe de leveringsmislukkingen en quarantines worden beheerd.
 
-Meer informatie over de mogelijkheden voor controle en bijhouden in [deze sectie](../reporting/gs-reports.md).
+Leer meer over controle en het volgen mogelijkheden in [ deze sectie ](../reporting/gs-reports.md).
 
 ## Een levering dupliceren {#delivery-duplicate}
 
@@ -137,12 +137,12 @@ U kunt een kopie van een bestaande levering maken, vanuit de leveringslijst of v
 Voer de volgende stappen uit om een levering te dupliceren uit de lijst met leveringen:
 
 1. Klik op de drie puntenknop rechts naast de naam van de levering die u wilt dupliceren.
-1. Selecteren  **[!UICONTROL Duplicate]**.
+1. Selecteer **[!UICONTROL Duplicate]** .
 1. Herhaling bevestigen: het nieuwe bezorgdashboard wordt in het centrale scherm geopend.
 
 Voer de volgende stappen uit om een levering te dupliceren vanaf het dashboard:
 
-1. Open de levering en klik op  **[!UICONTROL ...More]** op de bovenste sectie van het scherm.
+1. Open de levering en klik op de knop **[!UICONTROL ...More]** boven in het scherm.
 1. Selecteer **[!UICONTROL Duplicate]**.
 1. Herhaling bevestigen: de nieuwe levering vervangt de huidige levering in het centrale scherm.
 
@@ -153,17 +153,17 @@ De leveringen worden uit de leveringslijst geschrapt - hetzij van de hoofdleveri
 Voer de volgende stappen uit om een levering te verwijderen uit de lijst met leveringen:
 
 1. Klik op de drie puntenknop rechts naast de naam van de levering die u wilt dupliceren.
-1. Selecteren  **[!UICONTROL Delete]**.
+1. Selecteer **[!UICONTROL Delete]** .
 1. Verwijderen bevestigen.
 
-![Een levering verwijderen uit de leveringslijst](assets/delete-delivery-from-list.png)
+![ Schrap een levering van de leveringslijst ](assets/delete-delivery-from-list.png)
 
 Alle leveringen zijn beschikbaar in deze lijsten, maar leveringen die in een workflow zijn gemaakt, kunnen daar niet van worden verwijderd. Als u een levering wilt verwijderen die in de context van een workflow is gemaakt, moet u de leveringsactiviteit uit de workflow verwijderen.
 
 Ga als volgt te werk om een levering uit een workflow te verwijderen:
 
 1. Selecteer de leveringsactiviteit.
-1. Klik op de knop  **[!UICONTROL Delete]** in het rechterdeelvenster.
+1. Klik op het pictogram **[!UICONTROL Delete]** in het rechterdeelvenster.
 1. Verwijderen bevestigen. Als de levering kindknopen heeft, kunt u verkiezen om hen ook te schrappen, of hen te houden.
 
-![Een levering in een workflow verwijderen](assets/delete-delivery-from-wf.png)
+![ Schrap een levering in een werkschema ](assets/delete-delivery-from-wf.png)

@@ -5,44 +5,44 @@ description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
 source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: '2165'
 ht-degree: 0%
 
 ---
 
 # E-mailleveringsrapport {#email-report}
 
-De **E-mailleveringsrapport** biedt uitgebreide inzichten en gegevens die specifiek zijn voor het e-mailkanaal. Het biedt gedetailleerde informatie over de prestaties, effectiviteit en resultaten van uw afzonderlijke leveringen, zodat u een uitgebreid overzicht krijgt.
+Het **E-mailleveringsrapport** biedt uitvoerige inzichten en gegevens specifiek voor het e-mailkanaal aan. Het biedt gedetailleerde informatie over de prestaties, effectiviteit en resultaten van uw afzonderlijke leveringen, zodat u een uitgebreid overzicht krijgt.
 
 ## Leveringsoverzicht {#delivery-summary-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_sending_email"
 >title="Rapportage verzenden"
->abstract="De **Verzenden** in uw rapport biedt diepgaande inzichten in de interactie van uw bezoekers met uw leveringen en eventuele fouten die deze hebben aangetroffen."
+>abstract="Het **Verzendende** lusje binnen uw rapport verstrekt diepgaande inzichten in de interactie van uw bezoekers met uw leveringen en om het even welke potentiële fouten zij kunnen hebben ontmoet."
 
 ### Oorspronkelijke doelpopulatie {#email-delivery-targeted-population}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_initial_target"
 >title="Oorspronkelijke doelpopulatie"
->abstract="De **Oorspronkelijke doelpopulatie** de grafiek toont gegevens met betrekking tot uw ontvangers en berichten, die op de resultaten van de leveringsvoorbereiding worden gebaseerd."
+>abstract="De **Aanvankelijke doelpopulatie** grafiek toont gegevens met betrekking tot uw ontvangers en berichten, die op de resultaten van de leveringsvoorbereiding worden gebaseerd."
 
-De **[!UICONTROL Initial target population]** de grafiek toont gegevens met betrekking tot uw ontvangers. De metriek worden berekend tijdens levering voorbereiding en toon: het aanvankelijke publiek, het aantal te verzenden berichten, het aantal uitgesloten ontvangers.
+In de grafiek van **[!UICONTROL Initial target population]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De metriek worden berekend tijdens levering voorbereiding en toon: het aanvankelijke publiek, het aantal te verzenden berichten, het aantal uitgesloten ontvangers.
 
-![](assets/reporting_email_1.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_email_1.png){zoomable="yes"}
 
 Plaats de muis boven een gedeelte van de grafiek om het exacte getal weer te geven.
 
-![](assets/reporting_email_1.1.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_email_1.1.png){zoomable="yes"}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
-* **[!UICONTROL Initial audience]**: Totaal aantal beoogde ontvangers.
+* **[!UICONTROL Initial audience]**: het totale aantal beoogde ontvangers.
 
-* **[!UICONTROL To deliver]**: Totaal aantal berichten dat na de voorbereiding van de levering moet worden bezorgd.
+* **[!UICONTROL To deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
-* **[!UICONTROL Exclusion]**: Totaal aantal van de doelpopulatie uitgesloten ontvangers.
+* **[!UICONTROL Exclusion]**: Het totale aantal ontvangers dat is uitgesloten van de doelpopulatie.
 +++
 
 ### Leveringsstatistieken {#email-delivery-stats}
@@ -50,19 +50,19 @@ Plaats de muis boven een gedeelte van de grafiek om het exacte getal weer te gev
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_summary"
 >title="Leveringsstatistieken"
->abstract="De **Leveringsstatistieken** de grafiek geeft het succes van uw levering, en fouten die voorkwamen."
+>abstract="De **statistieken van de Levering** grafiek detailleert het succes van uw levering, en fouten die voorkwamen."
 
-De **[!UICONTROL Delivery statistics]** grafiek geeft het succes van uw levering aan. De cijfers worden hieronder beschreven.
+In de grafiek van **[!UICONTROL Delivery statistics]** wordt aangegeven hoe succesvol de levering is. De cijfers worden hieronder beschreven.
 
-![](assets/reporting_email_2.png){zoomable=&quot;yes&quot;}
+![](assets/reporting_email_2.png){zoomable="yes"}
 
 +++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
 
-* **[!UICONTROL Message sent]**: Totaal aantal berichten dat na de voorbereiding van de levering moet worden bezorgd.
+* **[!UICONTROL Message sent]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
 * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL Errors]**: Totaal aantal fouten bij leveringen en automatische oplevering in verhouding tot het aantal te leveren berichten.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (onbekend, ongeldig domein) in verhouding tot het aantal te leveren berichten.
 
@@ -73,11 +73,11 @@ De **[!UICONTROL Delivery statistics]** grafiek geeft het succes van uw levering
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_exclusion"
 >title="Uitsluitingsoorzaken"
->abstract="De **Oorzaken van uitsluiting** de grafiek en de tabel geven de uitsplitsing per regel weer van berichten die tijdens de voorbereiding van de levering zijn afgewezen."
+>abstract="De **Oorzaken van uitsluiting** grafiek en de lijst tonen de onderbreking per regel van berichten die tijdens de leveringsvoorbereiding worden verworpen."
 
-De **[!UICONTROL Causes of exclusion]** de grafiek en de tabel geven de uitsplitsing per regel weer van berichten die tijdens de voorbereiding van de levering zijn afgewezen. De uitsluitingsregels worden nader toegelicht in de [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** wordt de uitsplitsing per regel weergegeven van berichten die tijdens de voorbereiding van de levering zijn geweigerd. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types) {_blank}.
 
-![](assets/reporting_email_3.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
@@ -85,13 +85,13 @@ De **[!UICONTROL Causes of exclusion]** de grafiek en de tabel geven de uitsplit
 
 * **[!UICONTROL Invalid domain]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het domein van het e-mailadres onjuist is of niet bestaat.
 
-* **[!UICONTROL Mailbox full]**: Fouttype dat wordt gegenereerd na vijf leveringspogingen om aan te geven dat het postvak van de ontvanger te veel berichten bevat.
+* **[!UICONTROL Mailbox full]**: Fouttype dat wordt gegenereerd na vijf leveringspogingen om aan te geven dat het Postvak IN van de ontvangers te veel berichten bevat.
 
 * **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
 
-* **[!UICONTROL Refused]**: Fouttype dat wordt gegenereerd wanneer een adres wordt afgewezen door de IAP (Internet Access Provider), bijvoorbeeld na toepassing van een beveiligingsregel (anti-spamsoftware).
+* **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door IAP (Internet Access Provider) wordt verworpen, bijvoorbeeld na de toepassing van een veiligheidsregel (anti-spamsoftware).
 
-* **[!UICONTROL Unreachable]**: Het type van fout dat in het koord van de berichtdistributie voorkomt: incident op het relais SMTP, domein tijdelijk onbereikbaar etc.
+* **[!UICONTROL Unreachable]**: Het type van fout dat in het koord van de berichtdistributie voorkomt: incident op het relais SMTP, domein tijdelijk onbereikbaar, etc.
 
 * **[!UICONTROL Not connected]**: Fouttype om aan te geven dat de mobiele telefoon van de ontvanger op het moment van verzending wordt uitgeschakeld of losgekoppeld van het netwerk.
 
@@ -102,11 +102,11 @@ De **[!UICONTROL Causes of exclusion]** de grafiek en de tabel geven de uitsplit
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_throughput_email"
 >title="Leveringsdoorvoer"
->abstract="De **Leveringsdoorvoer** het rapport bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een bepaald tijdsbestek."
+>abstract="Het **rapport van de productie van de Levering** stelt gedetailleerde informatie betreffende de leveringsproductie van het volledige platform binnen een gespecificeerd timeframe voor."
 
 Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een opgegeven tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
 
-![](assets/reporting_email_3.1.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 
 ## Uitzendstatistieken {#broadcast-statistics}
@@ -114,27 +114,27 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="Uitzendstatistieken"
->abstract="De **Uitzendstatistieken** bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen."
+>abstract="Het **statistische** rapport van de Uitzending bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden ontmoet."
 
-De **[!UICONTROL Broadcast statistics]** de tabel bevat de beschikbare gegevens voor mogelijke fouten die met elk domein zijn aangetroffen. De cijfers worden hieronder beschreven.
+De tabel **[!UICONTROL Broadcast statistics]** bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen. De cijfers worden hieronder beschreven.
 
-![](assets/reporting_email_4.png){zoomable=&quot;yes&quot;}{align="center" zoomable="yes"}
+![](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
 * **[!UICONTROL Processed emails]**: Het totale aantal berichten dat door de leveringsserver wordt verwerkt.
 
-* **[!UICONTROL Delivered]**: Percentage van het aantal succesvol verwerkte berichten vergeleken met het totale aantal verwerkte berichten.
+* **[!UICONTROL Delivered]**: percentage van het aantal berichten dat correct is verwerkt in verhouding tot het totale aantal verwerkte berichten.
 
-* **[!UICONTROL Hard bounces]**: Percentage van het aantal &#39;harde&#39; grenzen, permanente fouten, zoals een onjuist e-mailadres, in vergelijking met het totale aantal verwerkte berichten.
+* **[!UICONTROL Hard bounces]**: percentage van het aantal &#39;harde&#39; berichten, permanente fouten, zoals een onjuist e-mailadres, in vergelijking met het totale aantal verwerkte berichten.
 
-* **[!UICONTROL Soft bounces]**: Percentage van het aantal &quot;zachte&quot; grenzen, tijdelijke fouten zoals een volledig postvak, vergeleken met het totale aantal verwerkte berichten
+* **[!UICONTROL Soft bounces]**: percentage van het aantal &#39;zachte&#39; grenzen, tijdelijke fouten zoals een volledig postvak, in vergelijking met het totale aantal verwerkte berichten
 
-* **[!UICONTROL Opens]**: Percentage van het aantal beoogde ontvangers die een bericht ten minste eenmaal hebben geopend in vergelijking met het aantal berichten dat met succes is verwerkt.
+* **[!UICONTROL Opens]**: percentage van het aantal beoogde ontvangers dat een bericht ten minste één keer heeft geopend in vergelijking met het aantal berichten dat met succes is verwerkt.
 
-* **[!UICONTROL Clicks]**: Percentage van het aantal personen dat ten minste eenmaal op een levering heeft geklikt in verhouding tot het aantal berichten dat met succes is verwerkt.
+* **[!UICONTROL Clicks]**: percentage van het aantal personen dat ten minste één keer op een levering heeft geklikt in verhouding tot het aantal berichten dat met succes is verwerkt.
 
-* **[!UICONTROL Unsubscriptions]**: Percentage van het aantal klikken op een koppeling zonder abonnement in verhouding tot het aantal berichten dat met succes is verwerkt.
+* **[!UICONTROL Unsubscriptions]**: percentage van het aantal klikken op een koppeling zonder abonnement in verhouding tot het aantal berichten dat met succes is verwerkt.
 +++
 
 ## Niet-te leveren items {#non-deliverables-email}
@@ -144,18 +144,18 @@ De **[!UICONTROL Broadcast statistics]** de tabel bevat de beschikbare gegevens 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type"
 >title="Uitsplitsing van fouten per type"
->abstract="De **Uitsplitsing van fouten per type** de grafiek bevat de beschikbare gegevens voor elk aangetroffen foutentype: onbekende gebruiker, brievenbus volledig, ongeldig domein, en meer."
+>abstract="De **Uitsplitsing van fouten per type** grafiek bevat de beschikbare gegevens voor elk aangetroffen foutentype: onbekend gebruiker, brievenbus volledig, ongeldig domein, en meer."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_type_table"
 >title="Uitsplitsing van fouten per type"
->abstract="De **Uitsplitsing van fouten per type** de tabel bevat een uitgebreide uitsplitsing van het aantal fouten per fouttype."
+>abstract="De **Uitsplitsing van fouten per type** lijst verstrekt een uitvoerige uitsplitsing van het voorkomen van elk foutentype."
 
-De **[!UICONTROL Breakdown of errors per type]** tabel en grafiek bevatten de beschikbare gegevens voor het fouttype. De cijfers worden hieronder beschreven.
+De tabel en grafiek van **[!UICONTROL Breakdown of errors per type]** bevatten de beschikbare gegevens voor het fouttype. De cijfers worden hieronder beschreven.
 
-De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer informatie over quarantainebeheer raadpleegt u [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html) {target="_blank"}.
 
-![](assets/campaign_report_email_6.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
@@ -163,13 +163,13 @@ De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces
 
 * **[!UICONTROL Invalid domain]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het domein van het e-mailadres onjuist is of niet bestaat.
 
-* **[!UICONTROL Mailbox full]**: Fouttype dat wordt gegenereerd na vijf leveringspogingen om aan te geven dat het postvak van de ontvanger te veel berichten bevat.
+* **[!UICONTROL Mailbox full]**: Fouttype dat wordt gegenereerd na vijf leveringspogingen om aan te geven dat het Postvak IN van de ontvangers te veel berichten bevat.
 
 * **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
 
-* **[!UICONTROL Refused]**: Fouttype dat wordt gegenereerd wanneer een adres wordt afgewezen door de IAP (Internet Access Provider), bijvoorbeeld na toepassing van een beveiligingsregel (anti-spamsoftware).
+* **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door IAP (Internet Access Provider) wordt verworpen, bijvoorbeeld na de toepassing van een veiligheidsregel (anti-spamsoftware).
 
-* **[!UICONTROL Unreachable]**: Het type van fout dat in het koord van de berichtdistributie voorkomt: incident op het relais SMTP, domein tijdelijk onbereikbaar etc.
+* **[!UICONTROL Unreachable]**: Het type van fout dat in het koord van de berichtdistributie voorkomt: incident op het relais SMTP, domein tijdelijk onbereikbaar, etc.
 
 * **[!UICONTROL Not connected]**: Fouttype om aan te geven dat de mobiele telefoon van de ontvanger op het moment van verzending wordt uitgeschakeld of losgekoppeld van het netwerk.
 
@@ -180,29 +180,29 @@ De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Uitsplitsing van fouten per domein"
->abstract="De **Uitsplitsing van fouten per domein** Afhankelijk van elk domein worden in de grafiek de beschikbare gegevens voor elk aangetroffen fouttype weergegeven."
+>abstract="De **Uitsplitsing van fouten per domein** grafiek toont de beschikbare gegevens voor elk die foutentype afhankelijk van elk domein wordt ontmoet."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
 >title="Uitsplitsing van fouten per domein"
->abstract="De **Uitsplitsing van fouten per domein** de tabel bevat een uitgebreide uitsplitsing van het aantal fouten, afhankelijk van het gebruikte domein."
+>abstract="De **Uitsplitsing van fouten per domein** lijst verstrekt een uitvoerige uitsplitsing van het voorkomen van elke fout afhankelijk van het gebruikte domein."
 
-De **[!UICONTROL Breakdown of errors per domain]** in tabel en grafiek worden de beschikbare gegevens weergegeven voor mogelijke fouten die met elk domein worden aangetroffen.
+In de tabel en grafiek van **[!UICONTROL Breakdown of errors per domain]** worden de beschikbare gegevens weergegeven voor mogelijke fouten die met elk domein worden aangetroffen.
 
-![](assets/campaign_report_email_6.1.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 Klik op het pictogram naast de naam van elk domein om details weer te geven.
 
-![](assets/campaign_report_email_6.1.png){zoomable=&quot;yes&quot;}{align="left" zoomable="yes"}
+![](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-De beschikbare cijfers zijn gelijk aan die voor de [Uitsplitsing van fouten naar type](#email-delivery-breakdown-type) hierboven beschreven.
+De metriek beschikbaar is het zelfde als voor [ Uitsplitsing van fouten door type ](#email-delivery-breakdown-type) hierboven beschreven.
 
 ## Trackingsindicatoren {#tracking-indicators-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_tracking_email"
 >title="Reeksspatiëring rapporteren"
->abstract="De **Tekstspatiëring** bevat waardevolle gegevens, zoals het gedrag van de ontvanger per koppeling, de manier waarop wordt geopend en geklikt, en gedetailleerde informatie over de URL&#39;s waarop het vaakst wordt geklikt tijdens de levering."
+>abstract="Het **Volgen** lusje binnen uw rapport biedt waardevolle gegevens, met inbegrip van ontvankelijk gedrag per verbinding aan, opent en klikt de onderbreking, evenals gedetailleerde informatie over meest vaak klikte URLs tijdens een levering."
 
 
 ### Leveringsstatistieken  {#email-tracking-delivery-stats}
@@ -211,26 +211,26 @@ De beschikbare cijfers zijn gelijk aan die voor de [Uitsplitsing van fouten naar
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_delivery_statistics_indicators"
 >title=" Leveringsstatistieken"
->abstract="De **Leveringsstatistieken** Het rapport biedt prestatiekernindicatoren (KPI&#39;s) die gedetailleerde informatie geven over gegevens die beschikbaar zijn voor verzonden e-mails: succes, opent, klikt en nog veel meer."
+>abstract="Het **Statistieken van de Levering** rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over gegevens beschikbaar voor verzonden e-mail geven: succes, opent, klikt, en meer."
 
 
-De **[!UICONTROL Delivery statistics]** Het rapport biedt belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over gegevens die beschikbaar zijn voor verzonden e-mails. De cijfers worden hieronder beschreven.
+Het **[!UICONTROL Delivery statistics]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over gegevens die beschikbaar zijn voor verzonden e-mails. De cijfers worden hieronder beschreven.
 
-![](assets/reporting_email_5.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
 * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL Distinct opens]**: Het totale aantal beoogde ontvangers dat een bericht ten minste eenmaal heeft geopend.
+* **[!UICONTROL Distinct opens]**: Het totale aantal ontvangers waarvoor een bericht is geopend, ten minste één keer.
 
-* **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
+* **[!UICONTROL Opens]**: aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
 * **[!UICONTROL Clicks on the opt-out link]**: Het aantal klikken op de koppeling voor het opzeggen van abonnementen.
 
 * **[!UICONTROL Clicks on the mirror link]**: Het aantal klikken op de koppeling naar de spiegelpagina.
 
-* **[!UICONTROL Estimation of forwards]**: Schatting van het aantal e-mails dat door de beoogde ontvangers is doorgestuurd.
+* **[!UICONTROL Estimation of forwards]**: schatting van het aantal e-mails dat door de beoogde ontvangers is doorgestuurd.
 +++
 
 ### Open- en doorklikfrequentie {#email-tracking-click-through}
@@ -238,25 +238,25 @@ De **[!UICONTROL Delivery statistics]** Het rapport biedt belangrijke prestatie-
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_open_clickthrough"
 >title="Open- en doorklikfrequentie"
->abstract="De **Open- en doorklikfrequentie** in de tabel worden gegevens weergegeven die betrekking hebben op de betrokkenheid van uw ontvangers bij uw levering."
+>abstract="De **Open en klik-door tarief** lijst toont gegevens met betrekking tot uw ontvangers overeenkomst met uw levering."
 
 
 
-De **[!UICONTROL Open and click-through rate]** de lijst toont gegevens met betrekking tot uw ontvangers. De cijfers worden hieronder beschreven.
+In de tabel **[!UICONTROL Open and click-through rate]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De cijfers worden hieronder beschreven.
 
-![](assets/reporting_email_6.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
-* **[!UICONTROL Sent]**: Totaal aantal verzonden berichten.
+* **[!UICONTROL Sent]**: Het totale aantal verzonden berichten.
 
-* **[!UICONTROL Complaints]**: Het aantal berichten voor dit domein dat door de ontvanger als ongewenst is gemeld.
+* **[!UICONTROL Complaints]**: aantal berichten voor dit domein dat door de ontvanger als ongewenst is gerapporteerd.
 
-* **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
+* **[!UICONTROL Opens]**: aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
-* **[!UICONTROL Clicks]**: Aantal verschillende beoogde ontvangers die minstens één keer op dezelfde levering hebben geklikt.
+* **[!UICONTROL Clicks]**: Aantal verschillende doelontvangers die minstens één keer in dezelfde levering hebben geklikt.
 
-* **[!UICONTROL Raw reactivity]**: Percentage van het aantal ontvangers dat ten minste één keer op een levering heeft geklikt in vergelijking met het aantal ontvangers dat een levering ten minste één keer heeft geopend.
+* **[!UICONTROL Raw reactivity]**: percentage van het aantal ontvangers dat ten minste één keer op een levering heeft geklikt in vergelijking met het aantal ontvangers dat een levering ten minste één keer heeft geopend.
 +++
 
 ## URL&#39;s en klikpaden {#url-email}
@@ -264,22 +264,22 @@ De **[!UICONTROL Open and click-through rate]** de lijst toont gegevens met betr
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams"
 >title="URL&#39;s en klikpaden"
->abstract="De **URL&#39;s en klik op streams** Het rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt."
+>abstract="**URLs en klik stromen** rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt."
 
 
-De **[!UICONTROL URLs and click streams]** Het rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt.
+Het rapport **[!UICONTROL URLs and click streams]** bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de URL&#39;s waarop het meest is geklikt tijdens een levering.
 
-![](assets/reporting_email_7.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
 * **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
-* **[!UICONTROL Distinct clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer op een levering heeft geklikt.
+* **[!UICONTROL Distinct clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer in een levering heeft geklikt.
 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-* **[!UICONTROL Platform average]** : Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die in de voorafgaande zes maanden werden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
+* **[!UICONTROL Platform average]** : Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die over de voorafgaande zes maanden worden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
 
 +++
 
@@ -289,18 +289,18 @@ De **[!UICONTROL URLs and click streams]** Het rapport verstrekt zeer belangrijk
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_clickstreams_top10"
 >title="De tien meest bezochte koppelingen bovenaan"
->abstract="De **De tien meest bezochte koppelingen bovenaan** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding."
+>abstract="De **Hoogste 10 bezochte verbindingen** grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding."
 
 
-De **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de beschikbare gegevens voor ontvankelijk gedrag per verbinding.
+De **[!UICONTROL Top 10 most visited links]** -grafiek en -tabel bevatten de beschikbare gegevens voor het gedrag van ontvangers per koppeling.
 
-![](assets/reporting_email_8.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-* **[!UICONTROL Percentage]**: Percentage gebruikers dat interactie had met de levering.
+* **[!UICONTROL Percentage]**: percentage gebruikers dat interactie had met de levering.
 
 +++
 
@@ -310,29 +310,29 @@ De **[!UICONTROL Top 10 most visited links]** de grafiek en de lijst bevatten de
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_urls_click_breakdown"
 >title="Uitsplitsing van klikken in de tijd"
->abstract="De **Uitsplitsing van klikken in de tijd** in de grafiek worden de beschikbare gegevens voor het gedrag van de ontvanger per koppeling weergegeven."
+>abstract="De **Uitsplitsing van kliks in tijd** grafiek toont de beschikbare gegevens voor ontvankelijk gedrag per verbinding."
 
 
-De **[!UICONTROL Breakdown of clicks over time]** de grafiek bevat de beschikbare gegevens voor het gedrag van de ontvanger per koppeling.
+De grafiek **[!UICONTROL Breakdown of clicks over time]** bevat de beschikbare gegevens voor het gedrag van ontvangers per koppeling.
 
-![](assets/reporting_email_9.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## Gebruikersactiviteiten {#user-activities-email}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_user_activities"
 >title="Gebruikersactiviteiten"
->abstract="De **Gebruikersactiviteiten** de grafiek toont de uitsplitsing van opent en klikt in de vorm van een grafiek. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag, afgelopen uur of 30 minuten."
+>abstract="De **grafiek van de activiteiten van de Gebruiker** toont de uitsplitsing van opent en klikt in de vorm van een grafiek. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag, afgelopen uur of 30 minuten."
 
-De **[!UICONTROL User activities]** het rapport toont de uitsplitsing van opent en klikt in de vorm van een grafiek. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag, afgelopen uur of 30 minuten.
+Het **[!UICONTROL User activities]** rapport toont de uitsplitsing van opent en klikt in de vorm van een grafiek. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag, afgelopen uur of 30 minuten.
 
-![](assets/reporting_email_10.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-* **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
+* **[!UICONTROL Opens]**: aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
 +++
 
@@ -341,17 +341,17 @@ De **[!UICONTROL User activities]** het rapport toont de uitsplitsing van opent 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="Statistieken bijhouden"
->abstract="De **Statistieken bijhouden** de grafiek verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens."
+>abstract="De **het Volgen grafiek van Statistieken** verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens."
 
-De **[!UICONTROL Tracking Statistics]** de grafiek verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens.
+De grafiek van **[!UICONTROL Tracking Statistics]** verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens.
 
-![](assets/reporting_email_11.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
 +++Meer informatie over de afmetingen van het e-mailleveringsrapport.
 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-* **[!UICONTROL Opens]**: Aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
+* **[!UICONTROL Opens]**: aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
 +++
 
@@ -362,13 +362,13 @@ De **[!UICONTROL Tracking Statistics]** de grafiek verstrekt statistieken over o
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_device"
 >title="Uitsplitsing per apparaat"
->abstract="De **Uitsplitsing per apparaat** in het rapport wordt de uitsplitsing van de openingen per apparaat voor de periode weergegeven. Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele apparaten. Het tweede toont het nauwkeurige aantal en het percentage voor elk apparatentype."
+>abstract="Het **Uitsplitsing door apparaat** rapport toont de onderbreking van opent door apparaat voor de periode. Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele apparaten. Het tweede toont het nauwkeurige aantal en het percentage voor elk apparatentype."
 
-De **Uitsplitsing per apparaat** In dit rapport wordt de uitsplitsing van de bewerkingen per apparaat gedurende de periode weergegeven: pc&#39;s, Android-apparaten, Apple-apparaten of andere apparaten.
+Het **Uitsplitsing door apparaat** rapport toont de onderbreking van opent door apparaat voor de periode: personal computers, de apparaten van Android, de apparaten van Apple, of anderen.
 
 Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele apparaten. Het tweede toont het nauwkeurige aantal en het percentage voor elk apparatentype.
 
-![](assets/reporting_email_13.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
 
 ### Opsplitsing van openen door besturingssysteem {#breakdown-opens-os}
@@ -376,26 +376,26 @@ Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="Uitsplitsing naar besturingssysteem"
->abstract="De **Uitsplitsing naar besturingssysteem** in het verslag wordt de uitsplitsing van de open systemen voor de betrokken periode aangegeven. In het eerste diagram worden statistieken over de mogelijkheden van een computer en een mobiel apparaat weergegeven. In het tweede voorbeeld worden het exacte aantal en percentage voor elk besturingssysteem weergegeven."
+>abstract="Het **Uitsplitsing door OS** rapport toont de uitsplitsing van opent door werkend systeem voor de betrokken periode. In het eerste diagram worden statistieken over de mogelijkheden van een computer en een mobiel apparaat weergegeven. In het tweede voorbeeld worden het exacte aantal en percentage voor elk besturingssysteem weergegeven."
 
-De **Uitsplitsing naar besturingssysteem** In dit rapport wordt de uitsplitsing van de bewerkingen per besturingssysteem gedurende de periode weergegeven: Windows-systemen, Android-systemen, iOS-systemen of andere systemen.
+Het **Uitsplitsing door OS** rapport toont de uitsplitsing van opent door werkend systeem voor de periode: De systemen van vensters, de systemen van Android, de systemen van iOS, of anderen.
 
 Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele werkende systemen. In het tweede voorbeeld worden het exacte aantal en het exacte percentage voor elk besturingssysteem weergegeven.
 
-![](assets/reporting_email_13.1.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
 ### Indeling van opent via browser {#breakdown-opens-browser}
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_browser"
 >title="Onderverdeling per browser"
->abstract="De **Onderverdeling per browser** toont de uitsplitsing van opent door browser voor de periode. In het eerste diagram worden statistieken over de mogelijkheden van een computer en een mobiel apparaat weergegeven. Het tweede toont het nauwkeurige aantal en het percentage voor elke browser."
+>abstract="De **Onderverdeling door browser** toont de onderbreking van opent door browser voor de periode. In het eerste diagram worden statistieken over de mogelijkheden van een computer en een mobiel apparaat weergegeven. Het tweede toont het nauwkeurige aantal en het percentage voor elke browser."
 
-De **Onderverdeling per browser** In dit rapport ziet u hoe de weergave van bestanden is verdeeld over browsers: Chrome, Safari, Internet Explorer en meer.
+Het **Uitsplitsing door browser** rapport toont de onderbreking van opent door browser: Chrome, Safari, Internet Explorer, en meer.
 
 Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele werkende systemen. Het tweede toont het nauwkeurige aantal en het percentage voor elke browser.
 
-![](assets/reporting_email_13.2.png){zoomable=&quot;yes&quot;}{align="center"}
+![](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
 
 ## Hotclicks {#hotclicks}
@@ -403,8 +403,8 @@ Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_hotclicks"
 >title="Hotclicks-rapport"
->abstract="De **Hotclicks** In dit rapport wordt de e-mailinhoud (HTML en/of tekst) weergegeven met het percentage klikken op koppelingen voor elke koppeling. De blokken van de verpersoonlijking, unsubscription verbindingen, de verbindingen van de spiegel, en aanbiedingsverbindingen worden in de totale gecumuleerde klikken in aanmerking genomen, maar niet getoond in het rapport."
+>abstract="Het **Hotclick** rapport stelt de e-mailinhoud (HTML en/of tekst) met, op elke verbinding, het percentage van klikken op verbindingen voor. De blokken van de verpersoonlijking, unsubscription verbindingen, de verbindingen van de spiegel, en aanbiedingsverbindingen worden in de totale gecumuleerde klikken in aanmerking genomen, maar niet getoond in het rapport."
 
 Dit rapport toont de berichtinhoud (HTML en/of tekst) met, op elke verbinding, het percentage klikt op verbindingen. De blokken van de verpersoonlijking, unsubscription verbindingen, de verbindingen van de spiegel, en aanbiedingsverbindingen worden in de totale gecumuleerde klikken in aanmerking genomen, maar niet getoond in het rapport.
 
-![](assets/reporting11.png){zoomable=&quot;yes&quot;}
+![](assets/reporting11.png){zoomable="yes"}

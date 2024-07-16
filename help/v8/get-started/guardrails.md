@@ -4,7 +4,7 @@ description: Instructies en beperkingen bij het werken met workflows in de gebru
 exl-id: 9c8c67ce-9823-4082-b0bd-5613f3feb6e3
 source-git-commit: c156e4105cab5028249a2a3d5a1838205cac7d35
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -20,25 +20,25 @@ Houd er rekening mee dat op deze pagina belangrijke overwegingen worden vermeld 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_query_enrichment_noneditable"
 >title="Activiteit niet bewerkbaar"
->abstract="Wanneer een **Query** of een **Verrijking** De activiteit wordt gevormd met extra gegevens in de console, wordt de verrijkingsgegevens in het Web van de Campagne in aanmerking genomen en overgegaan in de uitgaande overgang, maar het kan niet worden uitgegeven."
+>abstract="Wanneer de a **Vraag** of een **Verrijking** activiteit met extra gegevens in de console wordt gevormd, wordt het verrijkingsgegeven in het Web van de Campagne in de uitgaande overgang genomen en overgegaan, maar het kan niet worden uitgegeven."
 
 De activiteiten van het werkschema die nog niet in het gebruikersinterface van het Web van de Campagne worden gesteund zijn read-only en getoond als onverenigbare activiteiten. U kunt de workflow nog steeds uitvoeren, berichten verzenden, de logbestanden controleren, enz. De activiteiten van het werkschema die zowel in het gebruikersinterface van het Web van de Campagne als de de cliëntconsole van de Campagne beschikbaar zijn zijn editable.
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-activities-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
-Wanneer een **Query** of een **Verrijking** De activiteit wordt gevormd met extra gegevens in de console, wordt de verrijkingsgegevens in het Web van de Campagne in aanmerking genomen en overgegaan in de uitgaande overgang, maar het kan niet worden uitgegeven.
-
-| Console | Web |
-| --- | --- |
-| ![](assets/limitations-options-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
-
-In de console, **Verrijking** deze activiteit kan zowel verzoening als verrijking tot stand brengen . Als u, in de cliëntconsole hebt bepaald, verzoeningsmontages in **Verrijking** activiteit, wordt deze weergegeven als een **Verzoening** activiteit in de gebruikersinterface van het Web van de Campagne.
+Wanneer de a **Vraag** of een **Verrijking** activiteit met extra gegevens in de console wordt gevormd, wordt het verrijkingsgegeven in het Web van de Campagne in de uitgaande overgang genomen en overgegaan, maar het kan niet worden uitgegeven.
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-enrichment-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+
+In de console, kan de **Verrijking** activiteit zowel verzoening als verrijking uitvoeren. Als u, in de cliëntconsole, verzoeningsmontages in de **Verrijking** activiteit hebt bepaald, zal het als a **Verzoening** activiteit in het gebruikersinterface van het Web van de Campagne worden getoond.
+
+| Console | Web |
+| --- | --- |
+| ![](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 ## Workflowcanvas {#wkf-canvas}
 
@@ -46,10 +46,10 @@ Wanneer het creëren van een nieuw werkschema in het gebruikersinterface van het
 
 | Console | Web |
 | --- | --- |
-| ![](assets/limitations-multiple-console.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 De positionering van de knooppunten wordt elke keer dat een activiteit wordt toegevoegd of verwijderd, vernieuwd. Als u een werkschema in de console creeert, wijzig het gebruikend het gebruikersinterface van het Web van de Campagne en open het in de console opnieuw, kunt u sommige minder belangrijke plaatsende onvolkomenheden opmerken. Dit heeft geen invloed op de processen en taken van de workflow.
 
 | Beginworkflow | Positiewijziging |
 | --- | --- |
-| ![](assets/limitations-positioning1.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){zoomable=&quot;yes&quot;}{width="800px" align="left" zoomable="yes"} |
+| ![](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |

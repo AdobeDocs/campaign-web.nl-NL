@@ -14,7 +14,7 @@ ht-degree: 1%
 
 De nieuwe Adobe Campaign Web-interface biedt een moderne en intuïtieve gebruikerservaring om het ontwerpen en leveren van marketingcampagnes te vereenvoudigen. Deze nieuwe interface is geïntegreerd met Adobe Experience Cloud-toepassingen en -oplossingen.
 
-Leer hoe u verbinding maakt met Adobe Campaign en de basisbeginselen van Experience Cloud navigatie ontdekt [in dit artikel](connect-to-campaign.md).
+Leer hoe te om met Adobe Campaign te verbinden en de de navigatie van het Experience Cloud te ontdekken grondbeginselen [ in dit artikel ](connect-to-campaign.md).
 
 
 >[!NOTE]
@@ -26,7 +26,7 @@ Leer hoe u verbinding maakt met Adobe Campaign en de basisbeginselen van Experie
 >[!CONTEXTUALHELP]
 >id="acw_homepage_recent"
 >title="Recenten"
->abstract="De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum van het kanaal, de status, de eigenaar, het maken en de wijziging van de datums."
+>abstract="De **lijst van Recenten** verstrekt kortere weg aan onlangs gecreeerde en gewijzigde leveringen. In deze lijst staan de datum van het kanaal, de status, de eigenaar, het maken en de wijziging van de datums."
 
 De homepage van de campagne laat u snel en gemakkelijk doorbladeren zeer belangrijke middelen, indicatoren, en componenten.
 
@@ -34,15 +34,15 @@ In het bovenste gedeelte van de startpagina vindt u meer informatie over de nieu
 
 ![](assets/home.png){zoomable="yes"}
 
-De **Belangrijkste prestatie-indicatoren** Hiermee kunt u de doeltreffendheid van uw platform controleren aan de hand van algemene KPI&#39;s. Meer informatie over deze KPI&#39;s vindt u in [deze pagina](../reporting/kpis.md).
+De **Zeer belangrijke prestatiesindicatoren** laten u uw platformdoeltreffendheid door gemeenschappelijke KPIs controleren. Leer meer over deze KPIs in [ deze pagina ](../reporting/kpis.md).
 
-De **Recenten** lijst bevat snelkoppelingen naar de onlangs gemaakte en gewijzigde leveringen. In deze lijst staan de datum van het kanaal, de status, de eigenaar, het maken en de wijziging van de datums. Klik op de knop **Meer weergeven** koppeling om meer leveringen te laden.
+De **lijst van Recenten** verstrekt kortere weg aan onlangs gecreeerde en gewijzigde leveringen. In deze lijst staan de datum van het kanaal, de status, de eigenaar, het maken en de wijziging van de datums. Klik **tonen meer** verbinding om meer leveringen te laden.
 
-Daarnaast kunt u de Help-pagina&#39;s voor Adobe Campaign Web openen via **Leren** van de pagina.
+Bovendien kunt u tot de belangrijkste de hulppagina&#39;s van het Web van Adobe Campaign van de **het Leren** sectie van de pagina toegang hebben.
 
 ## Linkernavigatiemenu {#user-interface-left-nav}
 
-Blader links naar de links om toegang te krijgen tot Adobe Campaign Web-mogelijkheden. Met verschillende koppelingen worden lijsten weergegeven met objecten die kunnen worden gesorteerd en gefilterd. U kunt kolommen ook vormen om alle informatie te tonen u wenst. Zie dit [sectie](#list-screens). Sommige lijstschermen zijn alleen-lezen. Welke items in het navigatiemenu links en in de lijsten worden weergegeven, is afhankelijk van uw gebruikersmachtigingen. Meer informatie over machtigingen in [deze sectie](permissions.md).
+Blader links naar de links om toegang te krijgen tot Adobe Campaign Web-mogelijkheden. Met verschillende koppelingen worden lijsten weergegeven met objecten die kunnen worden gesorteerd en gefilterd. U kunt kolommen ook vormen om alle informatie te tonen u wenst. Zie deze [ sectie ](#list-screens). Sommige lijstschermen zijn alleen-lezen. Welke items in het navigatiemenu links en in de lijsten worden weergegeven, is afhankelijk van uw gebruikersmachtigingen. Leer meer over toestemmingen in [ deze sectie ](permissions.md).
 
 
 ### Verkenner {#user-interface-explorer}
@@ -50,36 +50,36 @@ Blader links naar de links om toegang te krijgen tot Adobe Campaign Web-mogelijk
 >[!CONTEXTUALHELP]
 >id="acw_explorer"
 >title="Verkenner"
->abstract="De **Verkenner** worden alle Campagne-componenten en -objecten met dezelfde mappenhiërarchie als de component in de clientconsole weergegeven. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8, controleer de bijbehorende machtigingen en maak mappen en submappen vanuit dit menu."
+>abstract="Het **menu van de Ontdekkingsreiziger** toont alle componenten en voorwerpen van de Campagne met de zelfde omslaghiërarchie zoals in de cliëntconsole. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8, controleer de bijbehorende machtigingen en maak mappen en submappen vanuit dit menu."
 
-De **Verkenner** worden alle campagnebronnen en -objecten met dezelfde mappenhiërarchie als de map in de clientconsole weergegeven. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8 en maak leveringen, workflows en campagnes.
+Het **menu van de Ontdekkingsreiziger** toont alle middelen en voorwerpen van de Campagne met de zelfde omslaghiërarchie zoals in de cliëntconsole. Blader door al uw componenten, mappen en schema&#39;s van Campagne v8 en maak leveringen, workflows en campagnes.
 
-De items die worden weergegeven in de **Verkenner** zijn afhankelijk van uw gebruikersmachtigingen. U kunt ook mappen en submappen toevoegen als u de juiste rechten hebt. Meer informatie over machtigingen in [deze sectie](permissions.md).
+De punten die in **worden getoond Verkenner** hangen van uw gebruikerstoestemmingen af. U kunt ook mappen en submappen toevoegen als u de juiste rechten hebt. Leer meer over toestemmingen in [ deze sectie ](permissions.md).
 
-U kunt kolommen vormen om de vertoning aan te passen om alle informatie te bekijken u wenst. Zie dit [sectie](#list-screens). U kunt ook mappen en submappen toevoegen, zoals wordt beschreven in [deze sectie](permissions.md#folders).
+U kunt kolommen vormen om de vertoning aan te passen om alle informatie te bekijken u wenst. Zie deze [ sectie ](#list-screens). U kunt omslagen en sub-omslagen, zoals die in [ worden gedetailleerd ook toevoegen deze sectie ](permissions.md#folders).
 
-Raadpleeg voor meer informatie over de campagnedeskundige, maphiërarchie en bronnen [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Voor meer informatie over de ontdekkingsreiziger van de Campagne, omslaghiërarchie en middelen, verwijs naar deze [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui) {target="_blank"}.
 
 ### Campaign Management {#user-interface-campaign-management}
 
 In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, leveringen en workflows.
 
-* **Campagnes** - Dit is de lijst van uw campagnes, en campagnemalplaatjes. Standaard kunt u voor elke campagne de begin-/einddatum/aanmaakdatum/laatste wijzigingsdatum, de huidige status en de naam weergeven van de Campagneoperator die de campagne heeft gemaakt. U kunt de lijst filteren op status, begin-/einddatums, map of een geavanceerd filter maken om uw eigen filtercriteria te definiëren. Meer informatie over campagnes [in deze sectie](../campaigns/gs-campaigns.md).
+* **Campagnes** - dit is de lijst van uw campagnes, en campagnemalplaatjes. Standaard kunt u voor elke campagne de begin-/einddatum/aanmaakdatum/laatste wijzigingsdatum, de huidige status en de naam weergeven van de Campagneoperator die de campagne heeft gemaakt. U kunt de lijst filteren op status, begin-/einddatums, map of een geavanceerd filter maken om uw eigen filtercriteria te definiëren. Leer meer over campagnes [ in deze sectie ](../campaigns/gs-campaigns.md).
 
-* **Leveringen** - Blader door de lijst met leveringen. Door gebrek, kunt u hun staat, laatste wijzigingsdatum evenals zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-maillevering om het dashboard te openen voor een overzicht van de leveringsgegevens. Leveringen op andere kanalen zijn alleen-lezen. Meer informatie over leveringen [in deze sectie](../msg/gs-messages.md).
+* **Leveringen** - doorblader door uw lijst van leveringen. Door gebrek, kunt u hun staat, laatste wijzigingsdatum evenals zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-maillevering om het dashboard te openen voor een overzicht van de leveringsgegevens. Leveringen op andere kanalen zijn alleen-lezen. Leer meer over leveringen [ in deze sectie ](../msg/gs-messages.md).
 
-  Gebruik de **Meer handelingen** om een levering te verwijderen of te dupliceren.
+  Gebruik **Meer acties** knoop om een levering te schrappen of te dupliceren.
 
   ![](assets/more-actions.png){zoomable="yes"}{width="70%" align="left"}
 
-* **Workflows** - In dit scherm hebt u toegang tot de volledige lijst met workflows en workflowsjablonen. U kunt hun status, de laatste/volgende uitvoeringsdata controleren en een nieuwe werkstroom of een nieuw werkschemamalplaatje creëren. U kunt de lijst filteren met dezelfde criteria als voor andere objecten. Bovendien kunt u workflows filteren die wel of niet tot een campagne behoren. Meer informatie over workflows [in deze sectie](../workflows/gs-workflows.md).
+* **Werkschema&#39;s** - in dit scherm, kunt u tot de volledige lijst van werkschema&#39;s en werkschemamalplaatjes toegang hebben. U kunt hun status, de laatste/volgende uitvoeringsdata controleren en een nieuwe werkstroom of een nieuw werkschemamalplaatje creëren. U kunt de lijst filteren met dezelfde criteria als voor andere objecten. Bovendien kunt u workflows filteren die wel of niet tot een campagne behoren. Leer meer over werkschema&#39;s [ in deze sectie ](../workflows/gs-workflows.md).
 
 
 ### Contentmanagement {#user-interface-content-management}
 
 In de sectie CONTENT MANAGEMENT kunt u uw inhoudssjablonen en fragmenten weergeven.
 
-* **Inhoudssjablonen** - Voor een versneld en verbeterd ontwerpproces kunt u zelfstandige sjablonen maken om aangepaste inhoud eenvoudig te hergebruiken in [!DNL Adobe Campaign]. Alleen beschikbaar voor e-mails. Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan zelfstandige sjablonen werken, zodat marketinggebruikers deze opnieuw kunnen gebruiken en aanpassen in hun eigen e-mailcampagnes. Lees meer in [deze sectie](../email/create-email-templates.md).
+* **malplaatjes van de Inhoud** - voor een versneld en verbeterd ontwerpproces, kunt u standalone malplaatjes tot stand brengen om douaneinhoud over [!DNL Adobe Campaign] gemakkelijk te hergebruiken. Alleen beschikbaar voor e-mails. Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan zelfstandige sjablonen werken, zodat marketinggebruikers deze opnieuw kunnen gebruiken en aanpassen in hun eigen e-mailcampagnes. Lees meer in [deze sectie](../email/create-email-templates.md).
 
 <!--
 * **Fragments** -
@@ -89,10 +89,10 @@ In de sectie CONTENT MANAGEMENT kunt u uw inhoudssjablonen en fragmenten weergev
 
 In de sectie KLANTENBEHEER kunt u uw profielen, publiek en abonnementen bekijken. Deze lijsten zijn alleen-lezen.
 
-* **Profielen** - Profielen maken en beheren en toegang krijgen tot uw database met ontvangers. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Meer informatie over profielen in [deze sectie](../audience/about-recipients.md).
-* **Soorten publiek** - Dit is uw lijst met doelgroepen. Standaard kunt u het type, de oorsprong, de datum en het label van de wijziging bekijken. U kunt de lijst filteren op oorsprong. Meer informatie over soorten publiek en lijsten in [deze sectie](../audience/about-recipients.md).
-* **Abonnementsdiensten** - Blader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Leer hoe u abonnementen en abonnementen beheert in [Adobe Campaign v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"}.
-* **Vooraf gedefinieerde filters** - Vooraf gedefinieerde filters zijn aangepaste filters die worden gemaakt en opgeslagen om in de toekomst beschikbaar te zijn. Zij kunnen als kortere weg tijdens om het even welke het filtreren verrichtingen met de vraagmodeller, bijvoorbeeld worden gebruikt wanneer het filtreren van een lijst van gegevens, of het creëren van het publiek van een levering. Lees meer in [deze sectie](predefined-filters.md).
+* **Profielen** - creeer en beheer profielen, en toegang tot uw ontvankelijk gegevensbestand. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Leer meer over profielen in [ deze sectie ](../audience/about-recipients.md).
+* **Soorten publiek** - dit is uw lijst van publiek. Standaard kunt u het type, de oorsprong, de datum en het label van de wijziging bekijken. U kunt de lijst filteren op oorsprong. Leer meer over publiek en lijsten in [ deze sectie ](../audience/about-recipients.md).
+* **de diensten van het Abonnement** - doorblader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Leer hoe te om abonnementen en abonnementen in [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html) te beheren {target="_blank"}.
+* **vooraf bepaalde filters** - de vooraf bepaalde filters zijn douanefilters die worden gecreeerd en worden bewaard om voor toekomstig gebruik beschikbaar te zijn. Zij kunnen als kortere weg tijdens om het even welke het filtreren verrichtingen met de vraagmodeller, bijvoorbeeld worden gebruikt wanneer het filtreren van een lijst van gegevens, of het creëren van het publiek van een levering. Lees meer in [deze sectie](predefined-filters.md).
 
 
 ### Beslissingsbeheer {#decision-management}
@@ -100,18 +100,18 @@ In de sectie KLANTENBEHEER kunt u uw profielen, publiek en abonnementen bekijken
 >[!CONTEXTUALHELP]
 >id="acw_offers_list"
 >title="Aanbiedingen"
->abstract="Blader door de lijsten van aanbiedingen en aanbiedingsmalplaatjes die in de console gebruikend zijn gecreeerd **Interactie** -module. Deze lijsten zijn alleen-lezen."
+>abstract="Blader door de lijsten van aanbiedingen en aanbiedingsmalplaatjes die in de console gebruikend de **module van de Interactie** zijn gecreeerd. Deze lijsten zijn alleen-lezen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Aanbiedingen toevoegen aan een levering"
 
 In het gedeelte BESLUIT BEHEER kunt u de aanbiedingen en aanbiedingstemplates bekijken. Deze lijsten zijn alleen-lezen.
 
-* **Aanbiedingen** - Blader door de lijst met aanbiedingen en aanbiedingstemplates die in de console zijn gemaakt met de **Interactie** -module. Standaard kunt u hun status, begin- en einddatum en omgeving bekijken. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar.
+* **Aanbiedingen** - doorblader door de lijst van aanbiedingen en aanbiedingsmalplaatjes die in de console gebruikend de **3} module van de Interactie {zijn gecreeerd.** Standaard kunt u hun status, begin- en einddatum en omgeving bekijken. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar.
 
-Meer informatie over het maken en verzenden van aanbiedingen in e-mails en SMS in [deze sectie](../msg/offers.md).
+Leer om aanbiedingen in e-mail en SMS in [ tot stand te brengen en te verzenden deze sectie ](../msg/offers.md).
 
 ### Rapportage {#left-nav-reporting}
 
-* **Rapporten** - de **Rapport** de ingang biedt een geconsolideerde algemene samenvatting van verkeer en betrokkenheidsmetriek voor elk kanaal binnen uw milieu van de Campagne aan. Deze rapporten bestaan uit verschillende widgets, die elk een duidelijk perspectief bieden op uw campagne of leveringsprestaties. Lees meer in [deze sectie](../reporting/global-reports.md).
+* **Rapporten** - de **ingang van het Rapport** biedt een geconsolideerde algemene samenvatting van verkeer en betrokkenheidsmetriek voor elk kanaal binnen uw milieu van de Campagne aan. Deze rapporten bestaan uit verschillende widgets, die elk een duidelijk perspectief bieden op uw campagne of leveringsprestaties. Lees meer in [deze sectie](../reporting/global-reports.md).
 
 <!--
 ## Contextual Help {#user-interface-help} 
@@ -130,7 +130,7 @@ Learn more in [this section](using-ai.md).
 
 ## Meer informatie {#learn-more}
 
-Leer hoe u in uw Campagne-omgeving kunt bladeren, zoeken en filterlijsten kunt gebruiken [op deze pagina](list-filters.md).
+Leer hoe te, onderzoek, en filterlijsten te doorbladeren beschikbaar in uw milieu van de Campagne [ in deze pagina ](list-filters.md).
 
 
 
@@ -257,37 +257,37 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata"
 >title="Gegevens bijwerken"
->abstract="De **Gegevens bijwerken** de activiteit voert een massa update van de gebieden in het gegevensbestand uit."
+>abstract="De **gegevens van de Update** activiteit voert een massa update van de gebieden in het gegevensbestand uit."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_operationtype"
 >title="Selecteren hoe gegevens moeten worden bijgewerkt"
->abstract="De **Type bewerking** kunt u het proces kiezen dat op de gegevens in de database moet worden uitgevoerd. Selecteer de eerste optie om gegevens toe te voegen of bij te werken (als deze al is toegevoegd). U kunt ook alleen gegevens toevoegen, alleen gegevens bijwerken of gegevens verwijderen. Selecteer de **Verzamelingen bijwerken en samenvoegen** om een primaire record te selecteren waarnaar duplicaten moeten worden gekoppeld, en om die duplicaten veilig te verwijderen."
+>abstract="Het **type van Verrichting** gebied laat u het proces kiezen dat op de gegevens in het gegevensbestand moet worden uitgevoerd. Selecteer de eerste optie om gegevens toe te voegen of bij te werken (als deze al is toegevoegd). U kunt ook alleen gegevens toevoegen, alleen gegevens bijwerken of gegevens verwijderen. Selecteer de **inzamelingen van de Update en van de fusie** om een primair verslag te selecteren om duplicaten aan te verbinden, en die duplicaten veilig te schrappen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_recordid"
 >title="Registeridentificatie"
->abstract="Geef op hoe de records in de database moeten worden geïdentificeerd: als de gegevens betrekking hebben op een bestaande doeldimensie, selecteert u de optie **De doeldimensie gebruiken** en selecteert u de doeldimensie en -velden die u wilt bijwerken. Geef anders een of meer aangepaste koppelingen op om de gegevens in de database te identificeren of gebruik te maken van afstemmingssleutels."
+>abstract="Specificeer hoe te om de verslagen in het gegevensbestand te identificeren: als de gegevens op een bestaande het richten dimensie betrekking hebben, selecteer **Gebruikend de het richten dimensie** optie en selecteer de het richten dimensie en gebieden om bij te werken. Geef anders een of meer aangepaste koppelingen op om de gegevens in de database te identificeren of gebruik te maken van afstemmingssleutels."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_fieldsupdate"
 >title="Velden selecteren om bij te werken"
->abstract="Selecteer de velden die u wilt bijwerken en de instellingen voor afstemming. U kunt de **Automatisch toewijzen** om automatisch de velden te identificeren die moeten worden bijgewerkt."
+>abstract="Selecteer de velden die u wilt bijwerken en de instellingen voor afstemming. U kunt de **auto-afbeelding** optie gebruiken om de gebieden automatisch te identificeren die moeten worden bijgewerkt."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_advancedoptions"
 >title="Geavanceerde opties voor het bijwerken van gegevens"
->abstract="De **Geavanceerde opties** kunt u aanvullende instellingen opgeven voor het beheer van gegevens en duplicaten."
+>abstract="De **Geavanceerde opties** sectie laat u extra montages specificeren om gegevens en duplicaten te beheren."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition"
 >title="Een uitgaande overgang genereren"
->abstract="Schakelen tussen **Een uitgaande overgang genereren** optie om een uitgaande overgang toe te voegen die aan het eind van de uitvoering van **Gegevens bijwerken** activiteit. De update markeert doorgaans het einde van een doelworkflow en daarom wordt de optie niet standaard geactiveerd."
+>abstract="Wisselen **produceert een uitgaande overgang** optie om een uitgaande overgang toe te voegen die aan het eind van de uitvoering van de **gegevens van de Update** activiteit zal worden geactiveerd. De update markeert doorgaans het einde van een doelworkflow en daarom wordt de optie niet standaard geactiveerd."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_updatedata_outboundtransition_rejects"
 >title="Produceer een uitgaande overgang voor verwerpingen."
->abstract="Schakelen tussen **Een uitgaande overgang genereren voor afwijzing** om een uitgaande overgang toe te voegen die records bevat die niet correct zijn verwerkt na de update (bijvoorbeeld als er een duplicaat is). De update markeert doorgaans het einde van een doelworkflow en daarom wordt de optie niet standaard geactiveerd."
+>abstract="Wisselen **produceert een uitgaande overgang voor verwerpt** optie om een uitgaande overgang toe te voegen die verslagen bevatten die niet correct na de update (bijvoorbeeld als er een dubbel is) zijn verwerkt. De update markeert doorgaans het einde van een doelworkflow en daarom wordt de optie niet standaard geactiveerd."
 
 <!-- Workflow settings -->
 

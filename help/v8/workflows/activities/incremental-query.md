@@ -17,7 +17,7 @@ ht-degree: 20%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery"
 >title="Incrementele query"
->abstract="De **Incrementele query** activiteit is **Targeting** activiteit die u toestaat om het gegevensbestand te vragen gebruikend de modelleerling van de Vraag. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Zo kunt u doelgericht alleen nieuwe elementen benaderen."
+>abstract="De **Incrementele vraag** activiteit is a **richtend** activiteit die u toestaat om het gegevensbestand te vragen gebruikend de modelleur van de Vraag. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Zo kunt u doelgericht alleen nieuwe elementen benaderen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_incrementalquery_history"
@@ -29,11 +29,11 @@ ht-degree: 20%
 >title="Incrementele query verwerkte gegevens"
 >abstract="Incrementele query verwerkte gegevens"
 
-De **Incrementele query** activiteit is **Targeting** activiteit die u toestaat om het gegevensbestand op een geplande basis te vragen. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Zo kunt u doelgericht alleen nieuwe elementen benaderen.
+De **Incrementele vraag** activiteit is a **richtend** activiteit die u toestaat om het gegevensbestand op een geplande basis te vragen. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Zo kunt u doelgericht alleen nieuwe elementen benaderen.
 
 >[!NOTE]
 >
->Terwijl de de cliëntconsole van de Campagne integratie **[!UICONTROL Incremental query]** De activiteit met een ingebouwde planner, behandelt het Gebruikersinterface van het Web van de Campagne deze functionaliteit afzonderlijk. Om stijgende vraaguitvoeringen te plannen, moet u toevoegen **[!UICONTROL Scheduler]** in de workflow vóór de **[!UICONTROL Incremental query]** activiteit. [Leer hoe te om een activiteit van de Planner te vormen](scheduler.md)
+>Terwijl de de cliëntconsole van de Campagne de **[!UICONTROL Incremental query]** activiteit met een ingebouwde planner integreert, behandelt het Gebruikersinterface van het Web van de Campagne deze functionaliteit afzonderlijk. Als u incrementele query-uitvoeringen wilt plannen, moet u een **[!UICONTROL Scheduler]** -activiteit in de workflow toevoegen voordat de **[!UICONTROL Incremental query]** -activiteit plaatsvindt. [ Leer hoe te om een activiteit van de Planner te vormen ](scheduler.md)
 
 De activiteit **[!UICONTROL Incremental query]** kan voor diverse doeleinden worden gebruikt:
 
@@ -46,27 +46,27 @@ Als het resultaat van een stijgende vraag aan 0 tijdens één van zijn uitvoerin
 
 ## Vorm de Incrementele vraagactiviteit {#incremental-query-configuration}
 
-Voer de volgende stappen uit om de **Incrementele query** activiteit:
+Volg deze stappen om de **Incrementele vraag** activiteit te vormen:
 
 ![](../assets/incremental-query.png)
 
-1. Een **Incrementele query** in uw workflow.
+1. Voeg een **Incrementele vraag** activiteit in uw werkschema toe.
 
-1. In de **[!UICONTROL Audience]** in, kiest u **Doeldimensie** klik vervolgens op **[!UICONTROL Continue]**.
+1. In de **[!UICONTROL Audience]** sectie, kies de **Doelende afmeting** dan klik **[!UICONTROL Continue]**.
 
-   Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers. [Meer informatie over doelgerichte dimensies](../../audience/about-recipients.md#targeting-dimensions)
+   Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers. [ leer meer over het richten van dimensies ](../../audience/about-recipients.md#targeting-dimensions)
 
-1. Gebruik de vraagmodeler om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. [Leer hoe te met vraagmodeler te werken](../../query/query-modeler-overview.md)
+1. Gebruik de vraagmodeler om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
 
-1. In de **[!UICONTROL Processed data]** selecteert u de incrementele modus die u wilt gebruiken:
+1. Selecteer in de sectie **[!UICONTROL Processed data]** de incrementele modus die u wilt gebruiken:
 
-   * **[!UICONTROL Exclude results of previous execution]**: Elke keer dat de activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten.
+   * **[!UICONTROL Exclude results of previous execution]**: Telkens wanneer de activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten.
 
-     Records die al in eerdere uitvoeringen zijn bedoeld, kunnen worden geregistreerd gedurende een maximumaantal dagen vanaf de dag waarop ze als doel zijn gebruikt. Om dit te doen, gebruik **[!UICONTROL History in days]** veld. Als deze waarde nul is, worden de ontvangers nooit gezuiverd van het logboek.
+     Records die al in eerdere uitvoeringen zijn bedoeld, kunnen worden geregistreerd gedurende een maximumaantal dagen vanaf de dag waarop ze als doel zijn gebruikt. Gebruik hiervoor het veld **[!UICONTROL History in days]** . Als deze waarde nul is, worden de ontvangers nooit gezuiverd van het logboek.
 
-   * **[!UICONTROL Use a date field]**: Met deze optie kunt u resultaten uitsluiten van eerdere uitvoeringen op basis van een bepaald datumveld. Hiervoor kiest u het gewenste datumveld in de lijst met kenmerken die beschikbaar zijn voor de geselecteerde doeldimensie. Bij de volgende uitvoeringen van de workflow worden alleen gegevens opgehaald die na de laatste uitvoeringsdatum zijn gewijzigd of gemaakt.
+   * **[!UICONTROL Use a date field]**: met deze optie kunt u resultaten uitsluiten van vorige uitvoeringen op basis van een bepaald datumveld. Hiervoor kiest u het gewenste datumveld in de lijst met kenmerken die beschikbaar zijn voor de geselecteerde doeldimensie. Bij de volgende uitvoeringen van de workflow worden alleen gegevens opgehaald die na de laatste uitvoeringsdatum zijn gewijzigd of gemaakt.
 
-     Na de eerste uitvoering van de workflow worden de **[!UICONTROL Last execution date]** wordt beschikbaar. Hiermee wordt de datum aangegeven die wordt gebruikt voor de volgende uitvoering en die automatisch wordt bijgewerkt telkens wanneer de workflow wordt uitgevoerd. U kunt deze waarde ook overschrijven door handmatig een nieuwe waarde in te voeren die beter aan uw behoeften voldoet.
+     Na de eerste uitvoering van de workflow wordt het veld **[!UICONTROL Last execution date]** beschikbaar. Hiermee wordt de datum aangegeven die wordt gebruikt voor de volgende uitvoering en die automatisch wordt bijgewerkt telkens wanneer de workflow wordt uitgevoerd. U kunt deze waarde ook overschrijven door handmatig een nieuwe waarde in te voeren die beter aan uw behoeften voldoet.
 
    >[!NOTE]
    >
@@ -82,4 +82,4 @@ De workflow bestaat uit de volgende elementen:
 
 * Een activiteit **[!UICONTROL Scheduler]**, om de workflow elke maandag om 6.00 uur uit te voeren.
 * Een activiteit **[!UICONTROL Incremental query]**, die zich tijdens de eerste uitvoering richt op alle huidige abonnees en daarna alleen op de nieuwe abonnees van die week tijdens de volgende uitvoeringen.
-* An **[!UICONTROL Email delivery]** activiteit.
+* Een **[!UICONTROL Email delivery]** activiteit.

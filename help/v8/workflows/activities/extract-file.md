@@ -15,11 +15,11 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile"
 >title="Bestand extraheren"
->abstract="De **Bestand uitpakken** kunt u gegevens uit Adobe Campaign exporteren in de vorm van een extern bestand. De gegevens kunnen vervolgens via een bestandsactiviteit voor gegevensoverdracht worden geëxporteerd naar een serverlocatie zoals SFTP, Cloud-opslag of uw campagneserver."
+>abstract="De **het dossier van het Extraheren** activiteit staat u toe om gegevens van Adobe Campaign in de vorm van een extern dossier uit te voeren. De gegevens kunnen vervolgens via een bestandsactiviteit voor gegevensoverdracht worden geëxporteerd naar een serverlocatie zoals SFTP, Cloud-opslag of uw campagneserver."
 
-De **Bestand uitpakken** activiteit is **Gegevensbeheer** activiteit. Met deze activiteit kunt u gegevens uit Adobe Campaign exporteren in de vorm van een extern bestand. De gegevens kunnen vervolgens via een bestandsactiviteit voor gegevensoverdracht worden geëxporteerd naar een serverlocatie zoals SFTP, Cloud-opslag of uw campagneserver.
+De **activiteit van het 0} dossier van de Extraheren {is het beheer van a** Gegevens **activiteit.** Met deze activiteit kunt u gegevens uit Adobe Campaign exporteren in de vorm van een extern bestand. De gegevens kunnen vervolgens via een bestandsactiviteit voor gegevensoverdracht worden geëxporteerd naar een serverlocatie zoals SFTP, Cloud-opslag of uw campagneserver.
 
-Om te vormen **Bestand uitpakken** activiteit, voeg een **Bestand uitpakken** Voer vervolgens de onderstaande stappen uit in uw werkstroom.
+Om het **dossier** activiteit van het Extraheren te vormen, voeg een **dossier** activiteit van het Extraheren in uw werkschema toe dan de hieronder stappen volgen.
 
 ## Het uit te pakken bestand configureren {#extract-configuration}
 
@@ -28,26 +28,26 @@ Om te vormen **Bestand uitpakken** activiteit, voeg een **Bestand uitpakken** Vo
 >title="Te extraheren bestand"
 >abstract="Selecteer het bestand dat u wilt extraheren."
 
-De **[!UICONTROL File to extract]** kunt u de bestandseigenschappen en de gegevens configureren die moeten worden opgenomen.
+In de sectie **[!UICONTROL File to extract]** kunt u de bestandseigenschappen en de gegevens configureren die moeten worden opgenomen.
 
 ![](../assets/extract-file-file.png)
 
-1. In de **[!UICONTROL File name]** voert u de gewenste naam in voor het bestand dat u wilt extraheren.
+1. Voer in het veld **[!UICONTROL File name]** de gewenste naam in voor het bestand dat u wilt extraheren.
 
-   U kunt de naam van het bestand aanpassen met behulp van gebeurtenisvariabelen, -voorwaarden en datum-/tijdfuncties. Om dit te doen, klik **[!UICONTROL Open personalization dialog]** pictogram om de uitdrukkingsredacteur te openen. [Leer hoe u met gebeurtenisvariabelen en de expressie-editor werkt](../event-variables.md)
+   U kunt de naam van het bestand aanpassen met behulp van gebeurtenisvariabelen, -voorwaarden en datum-/tijdfuncties. Klik hiertoe op het pictogram **[!UICONTROL Open personalization dialog]** om de expressie-editor te openen. [ Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur te werken ](../event-variables.md)
 
 1. Geef de kolommen op die in het geëxtraheerde bestand moeten worden weergegeven. Ga als volgt te werk om dit te doen:
 
-   1. Klik op de knop **[!UICONTROL Add output column]**.
+   1. Klik op **[!UICONTROL Add output column]** .
    1. Kies het kenmerk dat u in de kolom wilt weergeven en bevestig het vervolgens. Welke kenmerken beschikbaar zijn, is afhankelijk van de doeldimensie van de workflow.
-   1. Nadat de kolom is toegevoegd, kunt u de kolominhoud wijzigen **[!UICONTROL Label]** en de bijbehorende **[!UICONTROL Attribute]**.
+   1. Nadat de kolom is toegevoegd, kunt u de **[!UICONTROL Label]** ervan wijzigen en de bijbehorende **[!UICONTROL Attribute]** wijzigen.
    1. Als u een transformatie wilt toepassen op de waarden van de kolom, selecteert u deze in de vervolgkeuzelijst. U kunt bijvoorbeeld alle waarden in de geselecteerde kolom in hoofdletters zetten.
 
 1. Herhaal deze stappen om zoveel kolommen toe te voegen als nodig is in het extractiebestand. Gebruik de pijlen omhoog en omlaag om de positie van een kolom te wijzigen.
 
-1. Als u alle dubbele rijen uit het geëxtraheerde bestand wilt verwijderen, schakelt u het **[!UICONTROL Remove duplicate rows(Listing)]** -optie.
+1. Schakel de optie **[!UICONTROL Remove duplicate rows(Listing)]** in als u alle dubbele rijen uit het geëxtraheerde bestand wilt verwijderen.
 
-1. Als u het geëxtraheerde bestand wilt sorteren op basis van een kenmerk, schakelt u het **[!UICONTROL Enable Sorting]** Kies vervolgens het kenmerk waarop u het bestand wilt sorteren, samen met de gewenste sorteermethode (oplopend of aflopend). U kunt op om het even welk attribuut van de huidige het richten afmeting sorteren, ongeacht of het aan de kolommen van het dossier of niet is toegevoegd.
+1. Als u het geëxtraheerde bestand wilt sorteren op basis van een kenmerk, schakelt u de optie **[!UICONTROL Enable Sorting]** in en kiest u het kenmerk waarop u het bestand wilt sorteren, samen met de gewenste sorteermethode (oplopend of aflopend). U kunt op om het even welk attribuut van de huidige het richten afmeting sorteren, ongeacht of het aan de kolommen van het dossier of niet is toegevoegd.
 
 ## De geëxtraheerde bestandsindeling configureren {#file}
 
@@ -56,22 +56,22 @@ De **[!UICONTROL File to extract]** kunt u de bestandseigenschappen en de gegeve
 >title="Bestemmingsindeling"
 >abstract="Selecteer de verschillende opties om te configureren hoe het geëxtraheerde bestand wordt opgemaakt."
 
-De **[!UICONTROL Destination]** in de indelingssectie kunt u configureren hoe het geëxtraheerde bestand wordt opgemaakt.
+Met de indelingssectie **[!UICONTROL Destination]** kunt u configureren hoe het geëxtraheerde bestand wordt opgemaakt.
 
-1. Kies de optie **[!UICONTROL Output format]** voor het uitgepakte bestand: **Tekst**, **Tekst met vaste waarden met kolommen**, **CSV (Excel)** of **XML**.
+1. Kies **[!UICONTROL Output format]** voor het gehaalde dossier: **Tekst**, **Tekst die met kolommen** wordt bevestigd, **CSV (Excel)** of **XML**.
 
 1. Klik op de knop **[!UICONTROL Extraction format]** voor toegang tot specifieke opties voor de geselecteerde indeling. Vouw de sectie uit als hieronder voor meer informatie.
 
 +++ Beschikbare opties voor de indeling voor uitnemen
 
-   * **[!UICONTROL Use first line as column header]** (Text / CSV (Excel)): Schakel deze optie in als u de eerste kolom als koptekst wilt gebruiken.
+   * **[!UICONTROL Use first line as column header]** (Tekst / CSV (Excel) formaat): knevel deze optie aan om de eerste kolom als kopbal te gebruiken.
    * **[!UICONTROL Column separator]** (Tekstopmaak): geef het teken op dat u als kolomscheidingsteken wilt gebruiken in het uitvoerbestand.
    * **[!UICONTROL String delimiter]** (Tekstopmaak): geef op hoe tekenreeksen in het uitvoerbestand moeten worden gescheiden.
    * **[!UICONTROL End of line]** (Tekstopmaak): geef op hoe het einde van regels in het uitvoerbestand moet worden afgebakend.
-   * **[!UICONTROL Encoding]**: Kies de codering van het uitvoerbestand.
-   * **[!UICONTROL Date format and separators]**: Geef op hoe datums moeten worden opgemaakt in het uitvoerbestand.
-   * **[!UICONTROL Number format]**: Geef op hoe getallen moeten worden opgemaakt in het uitvoerbestand.
-   * **[!UICONTROL Export labels instead of internal values of enumerations]**: Schakel deze optie in als u opsommingswaarden exporteert en u de kolomlabels wilt ophalen. Deze zijn eenvoudiger te begrijpen en geen interne id&#39;s.
+   * **[!UICONTROL Encoding]** - Kies de codering van het uitvoerbestand.
+   * **[!UICONTROL Date format and separators]**: geef op hoe datums moeten worden opgemaakt in het uitvoerbestand.
+   * **[!UICONTROL Number format]**: geef op hoe getallen moeten worden opgemaakt in het uitvoerbestand.
+   * **[!UICONTROL Export labels instead of internal values of enumerations]**: Schakel deze optie in als u opsommingswaarden exporteert en u kolomlabels wilt ophalen. Deze zijn eenvoudiger te begrijpen en geen interne id&#39;s.
 
 +++
 
@@ -84,9 +84,9 @@ De **[!UICONTROL Destination]** in de indelingssectie kunt u configureren hoe he
 >title="Post-verwerking"
 >abstract="Definieer een stap voor nabewerking die u wilt toepassen, zoals comprimeren of coderen."
 
-De **[!UICONTROL Export modification script]** Hiermee kunt u een verwerkingsstadium toepassen dat wordt uitgevoerd tijdens het ophalen van gegevens, zoals comprimeren of coderen. Om dit te doen, klik **[!UICONTROL Edit script]** knop.
+Met **[!UICONTROL Export modification script]** kunt u een verwerkingsstadium toepassen dat wordt uitgevoerd tijdens het extraheren van gegevens, zoals comprimeren of coderen. Klik hiertoe op de knop **[!UICONTROL Edit script]** .
 
-De uitdrukkingsredacteur opent, die u toestaat om het bevel in te gaan om op het dossier van toepassing te zijn. Het linkerdeelvenster bevat vooraf gedefinieerde syntaxis waarmee u het script kunt samenstellen. [Leer hoe u met gebeurtenisvariabelen en de expressie-editor werkt](../event-variables.md)
+De uitdrukkingsredacteur opent, die u toestaat om het bevel in te gaan om op het dossier van toepassing te zijn. Het linkerdeelvenster bevat vooraf gedefinieerde syntaxis waarmee u het script kunt samenstellen. [ Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur te werken ](../event-variables.md)
 
 ![](../assets/extract-file-script.png)
 
@@ -95,26 +95,26 @@ De uitdrukkingsredacteur opent, die u toestaat om het bevel in te gaan om op het
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_outbound"
 >title="Uitgaande overgang"
->abstract="Schakelen tussen **Een uitgaande overgang genereren** optie om een uitgaande overgang toe te voegen na de huidige activiteit."
+>abstract="Wisselen **produceert een uitgaande overgang** optie om een uitgaande overgang na de huidige activiteit toe te voegen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_extractfile_error"
 >title="Procesfouten"
->abstract="Schakelen tussen **Procesfouten** om een uitgaande overgang toe te voegen die fouten bevat."
+>abstract="Wissel de **optie van de Fouten van het Proces** om een uitgaande overgang toe te voegen die fouten bevat."
 
 Nadat de extractie van het uitvoerbestand is geconfigureerd, zijn aanvullende opties beschikbaar met betrekking tot overgangen en foutbeheer:
 
-* **[!UICONTROL Generate outbound transition]**: Schakel deze optie in of uit om een uitgaande overgang toe te voegen en het label te configureren.
-* **[!UICONTROL Do not generate a file if the inbound transition is empty]**: Schakel deze optie in en uit om het uitpakken van het bestand over te slaan als de binnenkomende overgang geen gegevens bevat.
+* **[!UICONTROL Generate outbound transition]**: Schakel deze optie in om een uitgaande overgang toe te voegen en het label te configureren.
+* **[!UICONTROL Do not generate a file if the inbound transition is empty]**: Schakel deze optie in om het uitpakken van het bestand over te slaan als de binnenkomende overgang geen gegevens bevat.
 * **[!UICONTROL Process error]**: Schakel deze optie in om een uitgaande overgang toe te voegen als er een fout optreedt tijdens het uitpakken van het bestand.
 
 ## Voorbeeld {#example}
 
-In het volgende voorbeeld gebruiken we een **publiek opbouwen** activiteit gevolgd door een **Bestand uitpakken** activiteit om alle doelprofielen in een CSV-bestand te extraheren.
+In het volgende voorbeeld, gebruiken wij a **het publiek van de Bouwstijl** activiteit die door een **wordt gevolgd dossier** activiteit van het Extraheren om alle gerichte profielen in een Csv- dossier te halen.
 
 ![](../assets/extract-file-example.png)
 
-* De **[!UICONTROL File name]** wordt gevormd om de datum van de extractie te omvatten.
+* Het veld **[!UICONTROL File name]** is geconfigureerd om de datum van de extractie op te nemen.
 
   ![](../assets/extract-file-example-name.png)
 

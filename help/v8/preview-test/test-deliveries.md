@@ -5,7 +5,7 @@ description: Meer informatie over het definiëren en verzenden van proefdrukken
 exl-id: b2677579-c95d-443d-b207-466af364c208
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -36,15 +36,15 @@ Uw berichtinhoud testen:
 1. Klik op de knop **[!UICONTROL Simulate content]**.
 1. Klik op de knop **[!UICONTROL Send proof]** om proefdrukken te verzenden.
 
-   ![](assets/simulate-test-button-email.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-email.png){zoomable="yes"}
 
 1. Selecteer de ontvangers van de proefdruk.
 
    Afhankelijk van het berichtkanaal, kunnen de proeven naar de volgende soorten ontvangers worden verzonden:
 
-   * Voor SMS en e-mail kunt u [testprofielen](#test-profiles), die specifieke extra ontvangers in de database zijn. U kunt ook de opdracht [vervanging van het hoofddoel](#substitution-profiles) , die de proefdruk naar een e-mailtestadres of telefoonnummer verzendt, en verpersoonlijkingsgegevens van een bestaand profiel gebruikt. Op deze manier kunt u het bericht net zo ervaren als de ontvangers, zodat u een nauwkeurige weergave krijgt van de inhoud die het profiel zal ontvangen.
+   * Voor SMS en e-mails, kunt u [ testprofielen ](#test-profiles) gebruiken, die specifieke extra ontvangers in het gegevensbestand zijn. U kunt de [ substitutie van belangrijkste doel ](#substitution-profiles) wijze ook gebruiken, die de proef naar een e-mailtestadres of een telefoonaantal verzendt, en verpersoonlijkingsgegevens van een bestaand profiel gebruiken. Op deze manier kunt u het bericht net zo ervaren als de ontvangers, zodat u een nauwkeurige weergave krijgt van de inhoud die het profiel zal ontvangen.
 
-   * Voor pushberichten kunt u [abonnees](#subscribers), die fictieve abonnees zijn die aan het gegevensbestand worden toegevoegd. Ze worden gemaakt in de [!DNL Campaign] console. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
+   * Voor duw berichten, kunt u [ abonnees ](#subscribers) gebruiken, die fictieve abonnees zijn die aan het gegevensbestand worden toegevoegd. Ze worden gemaakt in de [!DNL Campaign] -console. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html) {target="_blank"}
 
    De gedetailleerde configuratie voor elke wijze is beschikbaar hieronder.
 
@@ -63,84 +63,84 @@ Uw berichtinhoud testen:
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_simulate_test_sample"
 >title="Sjabloonbestand"
->abstract="De opmaak van het bestand moet gelijk zijn aan die van het oorspronkelijke bestand.<br/>Ondersteunde bestandsindelingen: txt, csv. Maximale bestandsgrootte: 15 MB. Eerste regel gebruiken als kolomkop."
+>abstract="De opmaak van het bestand moet gelijk zijn aan die van het oorspronkelijke bestand.<br/> Gesteunde dossierformaten: txt, csv. Maximale bestandsgrootte: 15 MB. Eerste regel gebruiken als kolomkop."
 
 >[!CONTEXTUALHELP]
 >id="acw_sms_preview_option_app_target"
 >title="Testprofielen opnemen in het hoofdpubliek"
 >abstract="Schakel deze optie in om het laatste bericht ook naar de ontvangers van de proefdrukken te verzenden."
 
-Testprofielen zijn aanvullende ontvangers in de database. Ze worden gemaakt op basis van de **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** -menu. [Meer informatie](../audience/test-profiles.md#create-test-profiles)
+Testprofielen zijn aanvullende ontvangers in de database. Deze worden gemaakt via het menu **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** . [Meer informatie](../audience/test-profiles.md#create-test-profiles)
 
 De stappen voor het verzenden van proefdrukken naar testprofielen worden hieronder beschreven.
 
-1. Klik vanaf de inhoud van de levering op de knop **[!UICONTROL Simulate content]** en de **[!UICONTROL Send proof]** knop.
+1. Klik vanuit de inhoud van de levering op de knop **[!UICONTROL Simulate content]** en **[!UICONTROL Send proof]** .
 
-1. Van de **[!UICONTROL Mode]** vervolgkeuzelijst kiest u **[!UICONTROL Test profiles]** om fictieve ontvangers aan te wijzen die het bewijs of de levering van SMS zullen ontvangen.
+1. Kies in de vervolgkeuzelijst **[!UICONTROL Mode]** de optie **[!UICONTROL Test profiles]** voor het activeren van fictieve ontvangers die de proefdruk of SMS-levering zullen ontvangen.
 
-   ![](assets/simulate-profile-mode.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-mode.png){zoomable="yes"}
 
-1. Als u al profielen hebt geselecteerd voor [voorvertoning van het bericht](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als proefontvangers. U kunt uw selectie wissen en/of extra ontvangers toevoegen met de opdracht **[!UICONTROL Add test profile(s)]** knop.
+1. Als u reeds profielen aan [ voorproef het bericht ](preview-content.md) in het scherm van de inhoudsimulatie hebt geselecteerd, worden die profielen pre-geselecteerd als proefontvangers. Met de knop **[!UICONTROL Add test profile(s)]** kunt u de selectie wissen en/of extra ontvangers toevoegen.
 
-1. Wanneer u door het testprofiel of de profiellijsten bladert, kunt u filters gebruiken om uw zoekopdracht te verfijnen. U kunt bijvoorbeeld een regel definiëren om alle testprofielen te zoeken die **[!UICONTROL Prospect]** status. Leer hoe u regels kunt toevoegen met de opdracht [querymodel](../query/query-modeler-overview.md).
+1. Wanneer u door het testprofiel of de profiellijsten bladert, kunt u filters gebruiken om uw zoekopdracht te verfijnen. U kunt bijvoorbeeld een regel definiëren om te zoeken naar alle testprofielen met de status **[!UICONTROL Prospect]** . Leer hoe te om regels toe te voegen gebruikend [ vraagmodeler ](../query/query-modeler-overview.md).
 
-   ![](assets/simulate-test-profile-filter.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-profile-filter.png){zoomable="yes"}
 
-1. Als u het laatste bericht ook naar de ontvangers van de proefdruk wilt verzenden, selecteert u de optie **[!UICONTROL Include test population in the main target]** -optie.
+1. Selecteer de optie **[!UICONTROL Include test population in the main target]** om het laatste bericht ook naar de ontvangers van de proefdruk te verzenden.
 
-   ![](assets/simulate-include-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-include-test.png){zoomable="yes"}
 
-1. Nadat de testprofielen zijn geselecteerd, kunt u [het bewijs verzenden](#send-test).
+1. Zodra de testprofielen worden geselecteerd, kunt u [ de proef ](#send-test) verzenden.
 
 ## Vervangende profielgegevens {#substitution-profiles}
 
-Gebruik profielvervanging om proefdrukken naar een specifiek e-mailadres of telefoonnummer te verzenden, terwijl de gegevens van een bestaand profiel van het [!DNL Adobe Campaign] database. Deze modus kan alleen worden geselecteerd als het publiek van de levering is gedefinieerd.
+Gebruik profielvervanging om proefdrukken naar een specifiek e-mailadres of telefoonnummer te verzenden, terwijl de gegevens van een bestaand profiel van de [!DNL Adobe Campaign] -database worden weergegeven. Deze modus kan alleen worden geselecteerd als het publiek van de levering is gedefinieerd.
 
 Voer de volgende stappen uit om profielgegevens van het hoofddoel te vervangen:
 
-1. Klik vanaf de inhoud van de levering op de knop **[!UICONTROL Simulate content]** en de **[!UICONTROL Send proof]** knop.
+1. Klik vanuit de inhoud van de levering op de knop **[!UICONTROL Simulate content]** en **[!UICONTROL Send proof]** .
 
-1. Van de **[!UICONTROL Mode]** vervolgkeuzelijst kiest u **[!UICONTROL Substitute from main target]** om een bewijs naar een specifiek e-mailadres of telefoonnummer te verzenden terwijl het tonen van gegevens van een bestaand profiel.
+1. Kies in de vervolgkeuzelijst **[!UICONTROL Mode]** de optie **[!UICONTROL Substitute from main target]** om een proef naar een specifiek e-mailadres of telefoonnummer te verzenden terwijl gegevens uit een bestaand profiel worden weergegeven.
 
    >[!CAUTION]
    >
-   >Als u geen [publiek](../audience/about-recipients.md) voor uw levering, **[!UICONTROL Substitute from main target]** Deze optie wordt grijs weergegeven en u kunt geen vervangingsprofielen selecteren.
+   >Als u geen [ publiek ](../audience/about-recipients.md) voor uw levering hebt geselecteerd, zal de **[!UICONTROL Substitute from main target]** optie uit grijs worden en u zult geen substitutieprofielen kunnen selecteren.
 
-1. Klik op de knop **[!UICONTROL Add address]** en geeft u het e-mailadres of telefoonnummer op dat de proefdruk ontvangt.
+1. Klik op de knop **[!UICONTROL Add address]** en geef het e-mailadres of telefoonnummer op waarop de proefdruk wordt uitgevoerd.
 
-   ![](assets/simulate-add-substitution-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-add-substitution-address.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >U kunt elk e-mailadres of telefoonnummer invoeren. Op deze manier kunt u proefdrukken naar alle ontvangers verzenden, zelfs als deze geen gebruikers van [!DNL Adobe Campaign].
+   >U kunt elk e-mailadres of telefoonnummer invoeren. Op deze manier kunt u proefdrukken naar alle ontvangers verzenden, zelfs als deze geen gebruikers van [!DNL Adobe Campaign] zijn.
 
-1. Selecteer het profiel in het doel dat u voor de levering hebt gedefinieerd om als vervangend profiel te gebruiken. U kunt ook [!DNL Adobe Campaign] Selecteer een willekeurig profiel in het doel. De profielgegevens van het geselecteerde profiel worden weergegeven in de proefdruk.
+1. Selecteer het profiel in het doel dat u voor de levering hebt gedefinieerd om als vervangend profiel te gebruiken. U kunt [!DNL Adobe Campaign] ook een willekeurig profiel van het doel laten selecteren. De profielgegevens van het geselecteerde profiel worden weergegeven in de proefdruk.
 
 1. Bevestig de ontvanger en herhaal de bewerking om zoveel e-mailadressen of telefoonnummers toe te voegen als nodig is.
 
-   ![](assets/simulate-profile-substitute.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-profile-substitute.png){zoomable="yes"}
 
-1. Als u het laatste bericht ook naar de ontvangers van de proefdruk wilt verzenden, selecteert u de optie **[!UICONTROL Include test population in the main target]** -optie.
+1. Selecteer de optie **[!UICONTROL Include test population in the main target]** om het laatste bericht ook naar de ontvangers van de proefdruk te verzenden.
 
-1. Als de vervangende profielen zijn geselecteerd, kunt u [het bewijs verzenden](#send-test).
+1. Zodra de substitutieprofielen worden geselecteerd, kunt u [ de proef ](#send-test) verzenden.
 
 ## Proefdrukken verzenden naar app-abonnees {#subscribers}
 
 Bij het ontwerpen met pushberichten kunnen proefdrukken alleen naar uw app-abonnees worden verzonden. Volg onderstaande stappen om deze te selecteren.
 
-1. Klik op de knop **[!UICONTROL Simulate content]** en de **[!UICONTROL Send proof]** knop.
+1. Klik op de knop **[!UICONTROL Simulate content]** en de knop **[!UICONTROL Send proof]** vanuit de inhoud van de pushbestelling.
 
-   ![](assets/simulate-test-button-push.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-button-push.png){zoomable="yes"}
 
-1. Als u al abonnees hebt geselecteerd op [voorvertoning van de levering](preview-content.md) in het scherm van de inhoudsimulatie, worden die profielen pre-geselecteerd als testabonnees.
+1. Als u reeds abonnees aan [ voorproef de levering ](preview-content.md) in het scherm van de inhoudsimulatie hebt geselecteerd, worden die profielen pre-geselecteerd als testabonnees.
 
    U kunt uw selectie wissen en/of extra abonnees toevoegen met behulp van de toegewezen knop.
 
-   ![](assets/simulate-test-subscribers.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-test-subscribers.png){zoomable="yes"}
 
-1. Als u het laatste pushbericht ook naar de testabonnees wilt verzenden, selecteert u de optie **[!UICONTROL Include test population in the main target]** -optie.
+1. Als u het laatste pushbericht ook naar de testabonnees wilt verzenden, selecteert u de optie **[!UICONTROL Include test population in the main target]** .
 
-1. Als de abonnees zijn geselecteerd, kunt u [het bewijs verzenden](#send-test).
+1. Zodra de abonnees worden geselecteerd, kunt u [ de proef ](#send-test) verzenden.
 
 ## De proefdruk verzenden {#send-test}
 
@@ -150,7 +150,7 @@ Volg onderstaande stappen om de proefdruk naar de geselecteerde ontvangers te ve
 
 1. Bevestig de verzendende.
 
-   ![](assets/simulate-send-test.png){zoomable=&quot;yes&quot;}
+   ![](assets/simulate-send-test.png){zoomable="yes"}
 
 1. Verzend zoveel proefdrukken als nodig zijn tot u de inhoud van uw levering hebt voltooid.
 
@@ -162,12 +162,12 @@ Als u klaar bent, kunt u de levering voorbereiden en naar het hoofddoel verzende
 
 ## Toegang verzonden proefdrukken {#access-test-deliveries}
 
-Zodra de proefdrukken zijn verzonden, kunt u hun logboeken openen van **[!UICONTROL Simulate content]** scherm.
+Nadat de proefdrukken zijn verzonden, kunt u hun logbestanden openen via het scherm **[!UICONTROL Simulate content]** .
 
-Deze logboeken staan u toe om tot alle proeven toegang te hebben die voor de geselecteerde levering worden verzonden, en om specifieke statistieken met betrekking tot hun het verzenden te visualiseren. [Leer hoe u leveringslogboeken kunt controleren](../monitor/delivery-logs.md)
+Deze logboeken staan u toe om tot alle proeven toegang te hebben die voor de geselecteerde levering worden verzonden, en om specifieke statistieken met betrekking tot hun het verzenden te visualiseren. [ Leer hoe te om leveringslogboeken te controleren ](../monitor/delivery-logs.md)
 
-![](assets/simulate-test-log.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-test-log.png){zoomable="yes"}
 
-U kunt verzonden proefdrukken ook openen vanuit de [leveringslijst](../msg/gs-messages.md), zoals elke levering.
+U kunt tot verzonden proeven van de [ leveringslijst ](../msg/gs-messages.md), als om het even welke levering ook toegang hebben.
 
-![](assets/simulate-deliveries-list.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-deliveries-list.png){zoomable="yes"}

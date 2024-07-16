@@ -22,17 +22,17 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
 >title="Eigenschappen van push-levering"
->abstract="Definieer de eigenschappen voor het leveren van de push. Voer het label van de drukknop in en gebruik de **Aanvullende opties** om de interne naam, de leveringsomslag en de code te vormen. U kunt ook een aangepaste beschrijving invoeren."
+>abstract="Definieer de eigenschappen voor het leveren van de push. Ga het etiket van de duw in en gebruik **Extra Opties** om de interne naam, de leveringsomslag en de code te vormen. U kunt ook een aangepaste beschrijving invoeren."
 
-U kunt een zelfstandige levering van pushberichten maken of een pushmelding maken in de context van een campagneworkflow. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) pushlevering. Als u in de context van een campagnewerkstroom werkt, zijn de aanmaakstappen details in [deze sectie](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+U kunt een zelfstandige levering van pushberichten maken of een pushmelding maken in de context van een campagneworkflow. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) pushlevering. Als u in de context van een campagnewerkschema werkt, zijn de aanmaakstappen details in [ deze sectie ](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 ## Een pushbericht maken {#create-push-delivery}
 
 Ga als volgt te werk om een nieuwe zelfstandige pushaanbieding te maken:
 
-1. Bladeren naar de **[!UICONTROL Deliveries]** op de linkerspoorstaaf en klik op  **[!UICONTROL Create delivery]** knop.
+1. Blader naar het menu **[!UICONTROL Deliveries]** op de linkertrack en klik op de knop **[!UICONTROL Create delivery]** .
 
-1. Onder de **[!UICONTROL Channel]** sectie, kiest u **Pushmelding** als het kanaal en selecteer een sjabloon, afhankelijk van het gekozen besturingssysteem voor apparaatbewerking: Android of iOS. [Meer informatie over sjablonen](../msg/delivery-template.md)
+1. Onder de **[!UICONTROL Channel]** sectie, kies **Push bericht** als kanaal, en selecteer een malplaatje, afhankelijk van het gekozen systeem van de apparatenverrichting: Android of iOS. [ Leer meer over malplaatjes ](../msg/delivery-template.md)
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 
@@ -42,16 +42,16 @@ Ga als volgt te werk om een nieuwe zelfstandige pushaanbieding te maken:
 
 Configureer uw leveringsinstellingen zoals hieronder beschreven:
 
-1. Voer een **[!UICONTROL Label]** voor de levering. Standaard wordt het label ingesteld met het label van de geselecteerde sjabloon. Het moet worden bijgewerkt.
+1. Voer een **[!UICONTROL Label]** in voor de levering. Standaard wordt het label ingesteld met het label van de geselecteerde sjabloon. Het moet worden bijgewerkt.
 
-1. Bladeren in het dialoogvenster **[!UICONTROL Additional options]** , indien nodig, om de opties aan te passen. Als uw levering op een uitgebreid schema wordt gebaseerd, specifiek **Aangepaste opties** zijn beschikbaar.
+1. Blader naar de vervolgkeuzelijst **[!UICONTROL Additional options]** om de opties indien nodig aan te passen. Als uw levering op een uitgebreid schema gebaseerd is, zijn de specifieke **opties van de Douane** gebieden beschikbaar.
 
    +++Configureer de volgende instellingen op basis van uw vereisten.
-   * **[!UICONTROL Internal name]**: Wijs een unieke id toe aan de levering.
+   * **[!UICONTROL Internal name]**: wijs een unieke id toe aan de levering.
    * **[!UICONTROL Folder]**: Sla de levering op in een specifieke map.
-   * **[!UICONTROL Delivery code]**: Organiseer uw leveringen met uw eigen naamgevingsconventie.
-   * **[!UICONTROL Description]**: Geef een beschrijving voor de levering.
-   * **[!UICONTROL Nature]**: Specificeer de aard van de levering voor classificatiedoeleinden.
+   * **[!UICONTROL Delivery code]**: organiseer uw leveringen met behulp van uw eigen naamgevingsconventie.
+   * **[!UICONTROL Description]**: geef een beschrijving voor de levering.
+   * **[!UICONTROL Nature]**: geef de aard van de levering op voor classificatiedoeleinden.
 +++
 
 
@@ -60,41 +60,41 @@ Configureer uw leveringsinstellingen zoals hieronder beschreven:
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
 >title="Het publiek voor pushmeldingen definiëren"
->abstract="Als u het publiek van uw bericht wilt definiëren, moet u eerst de app selecteren die aan de pushlevering is gekoppeld. Uw pushmelding wordt standaard naar alle abonnees van de toepassing verzonden. U kunt een bepaald publiek verfijnen door op de knop **Doelgroep selecteren** knop. Voeg zo nodig een controlegroep toe om het effect van de levering te meten."
+>abstract="Als u het publiek van uw bericht wilt definiëren, moet u eerst de app selecteren die aan de pushlevering is gekoppeld. Uw pushmelding wordt standaard naar alle abonnees van de toepassing verzonden. U kunt tot een specifiek publiek verfijnen door de **Uitgezochte publiek** knoop te klikken. Voeg zo nodig een controlegroep toe om het effect van de levering te meten."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Een controlegroep instellen"
 
 
 U moet eerst de app selecteren en vervolgens het publiek voor pushmeldingen verfijnen, zoals hieronder wordt beschreven:
 
-1. Van de **[!UICONTROL Audience]** selecteert u de toepassing die u voor deze levering wilt gebruiken. Uw pushmelding wordt standaard naar alle abonnees van de toepassing verzonden. U kunt een bepaald publiek verfijnen door op de knop **[!UICONTROL Select audience]** knop.
+1. Selecteer in de sectie **[!UICONTROL Audience]** de toepassing die u voor deze levering wilt gebruiken. Uw pushmelding wordt standaard naar alle abonnees van de toepassing verzonden. U kunt een bepaald publiek verfijnen door op de knop **[!UICONTROL Select audience]** te klikken.
 
    ![](assets/push_create_2.png){zoomable="yes"}
 
-1. Selecteer een bestaand publiek of maak uw eigen publiek om de doelpopulatie voor uw pushlevering te verfijnen. Voor pushmeldingen wordt de standaardwaarde [doeldimensie](../audience/about-recipients.md#targeting-dimensions) is **Abonnementstoepassing** (nms:appSubscriptionRcp), die is gekoppeld aan de tabel met ontvangers.
+1. Selecteer een bestaand publiek of maak uw eigen publiek om de doelpopulatie voor uw pushlevering te verfijnen. Voor het Push- bericht, is de standaard [ doelafmeting ](../audience/about-recipients.md#targeting-dimensions) **toepassing van de Abonnee** (nms:appSubscriptionRcp), die met de lijst van ontvangers wordt verbonden.
 
-   Leer hoe u een bestaand publiek kunt selecteren in [deze pagina](../audience/add-audience.md)
+   Leer hoe te om een bestaand publiek in [ te selecteren deze pagina ](../audience/add-audience.md)
 
-   Leer hoe u een nieuw publiek kunt maken in [deze pagina](../audience/one-time-audience.md)
+   Leer hoe te om een nieuw publiek in [ te creëren deze pagina ](../audience/one-time-audience.md)
 
-1. Schakel de **[!UICONTROL Enable control group]** om een controlegroep in te stellen om het effect van uw levering te meten. De berichten worden niet verzonden naar die controlegroep, zodat u het gedrag van de bevolking kunt vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](../audience/control-group.md)
+1. Schakel de optie **[!UICONTROL Enable control group]** in om een besturingsgroep in te stellen om de impact van de levering te meten. De berichten worden niet verzonden naar die controlegroep, zodat u het gedrag van de bevolking kunt vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](../audience/control-group.md)
 
 ## De inhoud van het pushbericht definiëren {#create-content-push}
 
-Klik op **[!UICONTROL Edit content]**. [Meer informatie](content-push.md)
+Klik op **[!UICONTROL Edit content]** om de inhoud van uw melding te definiëren. [Meer informatie](content-push.md)
 
 ![](assets/push_create_5.png){zoomable="yes"}
 
-Vanuit dit scherm kunt u ook [simuleren, inhoud](../preview-test/preview-test.md) en [aanbiedingen instellen](../msg/offers.md).
+Van dit scherm, kunt u ook [ uw inhoud ](../preview-test/preview-test.md) simuleren en [ opstellingsaanbiedingen ](../msg/offers.md).
 
 ## Plaats de verzending van de levering {#schedule-push}
 
-Wanneer een levering in de context van een werkschema wordt verzonden, moet u gebruiken **Planner** activiteit. Meer informatie in [deze pagina](../workflows/activities/scheduler.md). Onderstaande stappen zijn alleen van toepassing op zelfstandige leveringen.
+Wanneer een levering in de context van een werkschema wordt verzonden, moet u de **Planner** activiteit gebruiken. Leer meer in [ deze pagina ](../workflows/activities/scheduler.md). Onderstaande stappen zijn alleen van toepassing op zelfstandige leveringen.
 
 Voer de volgende stappen uit om een zelfstandige pushlevering naar een bepaalde datum en tijd te plannen:
 
-1. Bladeren naar de **[!UICONTROL Schedule]** van de leveringseigenschappen.
+1. Blader naar de sectie **[!UICONTROL Schedule]** van de leveringseigenschappen.
 
-1. Gebruik de **[!UICONTROL Enable scheduling]** schakelen om het te activeren.
+1. Activeer de schakeloptie **[!UICONTROL Enable scheduling]** .
 
 1. Stel de gewenste datum en tijd in voor het verzenden.
 
@@ -102,10 +102,10 @@ Nadat u de levering in werking stelt, wordt het bericht automatisch verzonden op
 
 ![](assets/push_create_3.png){zoomable="yes"}
 
-Meer informatie over de planning van de levering in [deze sectie](../msg/gs-deliveries.md#gs-schedule)
+Leer meer over levering het plannen in [ deze sectie ](../msg/gs-deliveries.md#gs-schedule)
 
 ## Geavanceerde instellingen voor levering {#adv-push}
 
-Klikken **[!UICONTROL Configure delivery settings]** voor toegang tot geavanceerde opties met betrekking tot uw leveringsmalplaatje. [Meer informatie](../advanced-settings/delivery-settings.md)
+Klik op **[!UICONTROL Configure delivery settings]** voor toegang tot geavanceerde opties met betrekking tot de leveringssjabloon. [Meer informatie](../advanced-settings/delivery-settings.md)
 
 ![](assets/push_create_4.png){zoomable="yes"}

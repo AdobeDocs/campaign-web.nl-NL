@@ -2,7 +2,8 @@
 audience: end-user
 title: De externe signaalactiviteit gebruiken
 description: Leer hoe u de activiteit van de externe signaalworkflow kunt gebruiken
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: e4244ecc-5e37-41a6-a4dd-6e32da6d5512
+source-git-commit: 93f6347828c72535c1a005ecd6ca18596a180098
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal"
 >title="Extern signaal"
->abstract="De **Extern signaal** Met activiteit kunt u de uitvoering van een workflow starten vanuit een andere workflow of een API-aanroep."
+>abstract="De **Externe signaal** activiteit laat u de uitvoering van een werkschema van een ander werkschema of een API vraag teweegbrengen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_externalsignal_parameters"
@@ -28,23 +29,23 @@ ht-degree: 0%
 >title="Eindtriggers"
 >abstract="Eindtriggers"
 
-De **Extern signaal** activiteit is **Stroomregeling** activiteit. Hiermee kunt u de uitvoering van een workflow starten vanuit een andere workflow of vanuit een API-aanroep.
+De **Externe signaal** activiteit is de controle **activiteit van de a** Stroom. Hiermee kunt u de uitvoering van een workflow starten vanuit een andere workflow of vanuit een API-aanroep.
 
 >[!NOTE]
 >
->Deze pagina bevat de belangrijkste stappen voor het configureren van een **[!UICONTROL External Signal]** activiteit in het Gebruikersinterface van het Web van de Campagne en brengt het van een ander werkschema of een API vraag teweeg. Gedetailleerde informatie over het activeren van een workflow en de aanbevolen procedures en over het werken met campagne-API&#39;s vindt u in het dialoogvenster [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
+>Deze pagina presenteert de belangrijkste stappen om een **[!UICONTROL External Signal]** activiteit in het Gebruikersinterface van het Web van de Campagne te vormen en het van een andere werkschema of een API vraag teweeg te brengen. De gedetailleerde informatie over hoe te om een werkschema en zijn beste praktijken teweeg te brengen, en hoe te met Campagne APIs te werken is beschikbaar in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example)
 
-Voer de volgende stappen uit om de **Extern signaal** activiteit en de uitvoering ervan in gang zetten:
+Volg deze stappen om de **Externe signaal** activiteit te vormen en zijn uitvoering teweeg te brengen:
 
-1. Een **Extern signaal** in uw workflow.
+1. Voeg een **Externe signaal** activiteit in uw werkschema toe.
 
-1. Voltooi de configuratie van uw workflow en start de uitvoering ervan. De **[!UICONTROL External Signal]** activiteit wordt weergegeven als &quot;In behandeling&quot;, wachtend op activering.
+1. Voltooi de configuratie van uw workflow en start de uitvoering ervan. De activiteit **[!UICONTROL External Signal]** wordt weergegeven als &quot;In behandeling&quot;, in afwachting van activering.
 
    ![](../assets/external-signal-pending.png)
 
 1. Haal de onderstaande gegevens op:
 
-   * De **interne naam werkstroom**, die naast het label wordt weergegeven.
+   * De **interne naam van het werkschema**, die naast zijn etiket toont.
 
      +++Voorbeeld
 
@@ -52,7 +53,7 @@ Voer de volgende stappen uit om de **Extern signaal** activiteit en de uitvoerin
 
 +++
 
-   * De **Naam van externe signaalactiviteit**, die wordt weergegeven in de **[!UICONTROL Execution options]**.
+   * De **Externe naam van de signaalactiviteit**, die in het werkschema **[!UICONTROL Execution options]** toont.
 
      +++Voorbeeld
 
@@ -60,11 +61,11 @@ Voer de volgende stappen uit om de **Extern signaal** activiteit en de uitvoerin
 
 +++
 
-1. Als u de workflow wilt activeren, moet u de opdracht `PostEvent` JavaScript-functie. Met deze functie kunt u variabelen doorgeven met de waarden van uw keuze en deze gebruiken in de getriggerde workflow.
+1. Als u de workflow wilt activeren, moet u de functie `PostEvent` JavaScript uitvoeren. Met deze functie kunt u variabelen doorgeven met de waarden van uw keuze en deze gebruiken in de getriggerde workflow.
 
-   De `PostEvent` Deze functie kan worden uitgevoerd vanuit een andere workflow of via een API-aanroep.
+   De functie `PostEvent` kan worden uitgevoerd vanuit een andere workflow of vanuit een API-aanroep.
 
-   * Om een **[!UICONTROL External signal]** activiteit vanuit een werkstroom, de PostEvent-functie uitvoeren vanuit de **[!UICONTROL Initialization script]** venster, dat toegankelijk is vanuit de activiteit **[!UICONTROL Execution options]**. Voor de **[!UICONTROL JavaScript code]** activiteit, voert de functie uit vanuit het script van de activiteit.
+   * Als u een **[!UICONTROL External signal]** -activiteit wilt activeren vanuit een werkstroom, voert u de PostEvent-functie uit vanuit het deelvenster **[!UICONTROL Initialization script]** , dat toegankelijk is vanuit de activiteit **[!UICONTROL Execution options]** . Voor de **[!UICONTROL JavaScript code]** activiteit, voer de functie van het manuscript van de activiteit uit.
 
      De syntaxis is als volgt:
 
@@ -80,4 +81,4 @@ Voer de volgende stappen uit om de **Extern signaal** activiteit en de uitvoerin
 
 +++
 
-   * Om een **[!UICONTROL External signal]** activiteit van een API vraag, volg de stappen in de documentatie van de Campagne API worden beschreven. [Leer hoe u de statische code gebruikt `PostEvent` methode](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
+   * Als u een **[!UICONTROL External signal]** -activiteit wilt activeren vanaf een API-aanroep, voert u de stappen uit die in de API-documentatie voor campagne worden beschreven. [ Leer hoe te om de statische `PostEvent` methode ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html) te gebruiken

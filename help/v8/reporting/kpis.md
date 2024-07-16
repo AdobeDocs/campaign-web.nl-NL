@@ -4,7 +4,7 @@ description: Leer hoe u belangrijke prestatie-indicatoren begrijpt
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
 source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
 workflow-type: tm+mt
-source-wordcount: '1201'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
 >title="Belangrijkste prestatie-indicatoren"
->abstract="De **Belangrijkste prestatie-indicatoren** kunt u de doeltreffendheid van uw platform controleren via veelgebruikte KPI&#39;s."
+>abstract="De **Zeer belangrijke prestatiesindicatoren** sectie laat u uw platformdoeltreffendheid door gemeenschappelijke KPIs controleren."
 
 <!-- à enlever? -->
 >[!CONTEXTUALHELP]
@@ -28,7 +28,7 @@ Metrische gegevens worden standaard berekend voor leveringen die in de afgelopen
 
 U kunt het kanaal selecteren dat u wilt weergeven. Deze indicatoren weerspiegelen standaard de cijfers voor het e-mailkanaal.
 
-![](assets/kpi.png){zoomable=&quot;yes&quot;}
+![](assets/kpi.png){zoomable="yes"}
 
 ## Bericht bezorgd {#ui-delivered-kpi}
 
@@ -39,7 +39,7 @@ U kunt het kanaal selecteren dat u wilt weergeven. Deze indicatoren weerspiegele
 
 Het aantal geleverde berichten komt overeen met de snelheid van de levering. Het kan nooit 100% om de volgende redenen zijn: sommige adressen of telefoonnummers kunnen onjuist zijn, spamblokkers bij e-mailproviders kunnen uw berichten afwijzen of er kunnen zich problemen voordoen met de leverantie.
 
-De **Geleverd** de indicator toont de volgende KPIs, voor elk kanaal:
+De **Geleverde** indicator toont volgende KPIs, voor elk kanaal:
 
 * Percentage van het aantal berichten dat met succes wordt geleverd in verhouding tot het totale aantal verzonden berichten.
 
@@ -59,7 +59,7 @@ Aantal berichten waarvoor het veld &quot;zaadadres&quot; gelijk is aan &quot;Nee
 
 Totaal opent wordt berekend door het totale aantal tijden te volgen een bericht wordt geopend, ongeacht hoeveel individuele ontvangers die opent door worden geproduceerd. Deze indicator is alleen beschikbaar voor e-mails.
 
-De **Openen** de indicator toont de volgende KPIs, voor elk kanaal:
+De **opent** indicator toont volgende KPIs, voor elk kanaal:
 
 * Percentage van het aantal geopende berichten in verhouding tot het totale aantal met succes geleverde berichten.
 
@@ -78,13 +78,13 @@ Adobe Campaign detecteert dat het bericht wordt geopend wanneer de ontvanger de 
 
 U kunt URLs in uw berichtinhoud toevoegen, die ontvangers aan een bepaalde pagina opnieuw richt. Het klikthrough tarief meet het aantal en het percentage ontvangers die op een verbinding in het bericht klikte.
 
-De **Klikken** de indicator toont de volgende KPIs, voor elk kanaal:
+De **kliks** indicator toont volgende KPIs, voor elk kanaal:
 
 * Percentage van het aantal klikken in verhouding tot het totale aantal berichten dat met succes wordt geleverd.
 
 * Aantal verschillende personen dat ten minste één keer in een levering heeft geklikt. Koppelingen zonder abonnement en koppelingen naar de spiegel voor e-mail zijn uitgesloten.
 
-Deze cijfers zijn gebaseerd op de Geconsolideerde tabel voor reeksspatiëring (`nms:trackingStats`). Deze bijeengevoegde lijst wordt gebruikt voor prestatiesredenen wanneer het tonen van rapporten, in de plaats van de Ontvanger het volgen logboeklijst (`nms:trackingLogRcp`) en wordt niet in real time berekend. De tabel wordt een paar minuten nadat de logbestanden voor bijhouden zijn opgehaald, gegenereerd.
+Deze metriek is gebaseerd op de Geconsolideerde het volgen lijst (`nms:trackingStats`). Deze gezamenlijke lijst wordt gebruikt voor prestatiesredenen wanneer het tonen van rapporten, in de plaats van de Ontvanger het volgen logboeklijst (`nms:trackingLogRcp`) en het wordt niet berekend in real time. De tabel wordt een paar minuten nadat de logbestanden voor bijhouden zijn opgehaald, gegenereerd.
 
 
 ## Abonnementskosten {#ui-sub-kpi}
@@ -97,7 +97,7 @@ Deze cijfers zijn gebaseerd op de Geconsolideerde tabel voor reeksspatiëring (`
 
 Ontvangers kunnen zich aanmelden bij e-mail- en sms-communicatie.
 
-De **Abonnementen** De indicator toont volgende KPIs, voor elk kanaal het percentage van het aantal abonnementen in vergelijking met het totale aantal berichten die met succes worden geleverd.
+De **indicator van Abonnementen** toont volgende KPIs, voor elk kanaal het percentage van het aantal abonnementen vergeleken met het totale aantal berichten die met succes worden geleverd.
 
 
 >[!NOTE]
@@ -114,7 +114,7 @@ De **Abonnementen** De indicator toont volgende KPIs, voor elk kanaal het percen
 
 Ontvangers moeten zich kunnen afmelden bij e-mail en SMS via een speciale koppeling om hun abonnement op te zeggen in de e-mailinhoud of door STOP op een SMS te beantwoorden.
 
-De **Abonnementen** de indicator toont de volgende KPIs, voor elk kanaal:
+De **indicator van de Abonnementen** toont volgende KPIs, voor elk kanaal:
 
 * Percentage van het aantal afboekingen in verhouding tot het totale aantal met succes geleverde berichten.
 
@@ -136,7 +136,7 @@ Sommige berichten die door je Adobe Campaign-platform worden verzonden, bereiken
 
 Dit betekent dat u de database altijd moet controleren en bijwerken en ervoor moet zorgen dat alle profielen actief en reëel zijn. De fouten van de levering kunnen tijdelijk of permanent zijn - zacht of hard stuiteren - afhankelijk van waarom het bericht niet werd geleverd.
 
-De **Fouten** de indicator toont de volgende KPIs, voor elk kanaal:
+De **indicator van Fouten** toont volgende KPIs, voor elk kanaal:
 
 * Percentage van het aantal fouten in verhouding tot het totale aantal te leveren berichten.
 
@@ -155,7 +155,7 @@ Tijdens de voorbereidingsfase wordt het bestand voor directe-mailextractie gegen
 
 Het kan nooit 100% van verzonden berichten zijn vergeleken bij het totaal van voorbereid bericht, aangezien sommige adressen of onvolledig kunnen ontbreken.
 
-De **Verzonden** De indicator toont de volgende KPIs, voor het Directe postkanaal:
+De **Verzonden** indicator toont volgende KPIs, voor het Directe postkanaal:
 
 * Percentage van het aantal verzonden berichten in verhouding tot het totale aantal voorbereide berichten.
 

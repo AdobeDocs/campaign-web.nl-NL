@@ -15,22 +15,22 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_wait"
 >title="Wachtactiviteit"
->abstract="De **Wachten** activiteit wordt gebruikt om de overgang van een activiteit aan een andere uit te stellen."
+>abstract="**wacht** activiteit wordt gebruikt om de overgang van een activiteit aan een andere te vertragen."
 
-De **Wachten** activiteit is **Stroomregeling** activiteit. Het wordt gebruikt om een bepaalde hoeveelheid tijd toe te staan om tussen twee uit te voeren activiteiten over te gaan. Bijvoorbeeld als u een aantal dagen wilt wachten na een e-mailleveringsactiviteit om het aantal open- en klikacties tijdens die periode te analyseren voordat u follow-upbewerkingen gaat uitvoeren (herinneringsmail, doelgroep maken, enz.).
+**wacht** activiteit is de controle **activiteit van de a** Stroom. Het wordt gebruikt om een bepaalde hoeveelheid tijd toe te staan om tussen twee uit te voeren activiteiten over te gaan. Bijvoorbeeld als u een aantal dagen wilt wachten na een e-mailleveringsactiviteit om het aantal open- en klikacties tijdens die periode te analyseren voordat u follow-upbewerkingen gaat uitvoeren (herinneringsmail, doelgroep maken, enz.).
 
 ## Configuratie{#wait-configuration}
 
-Voer de volgende stappen uit om de **Wachten** activiteit:
+Volg deze stappen om **te vormen wachten** activiteit:
 
-1. Voeg een **Wachten** in uw workflow.
+1. Voeg a **toe wacht** activiteit in uw werkschema.
 
-1. Geef de **Duur** van de wachttijd tussen de binnenkomende en uitgaande overgangen.
+1. Specificeer de **Duur** van het wachten tussen de binnenkomende en uitgaande overgangen.
 
-1. Selecteer de tijdeenheid in het dialoogvenster **Punten** veld: seconden, minuten, uren, dagen.
+1. Selecteer de tijdeenheid op het **gebied van Punten**: seconden, notulen, uren, dagen.
 
 ## Voorbeeld{#wait-example}
 
-In het volgende voorbeeld wordt het **Wachten** in een typisch geval. U stuurt een e-mailuitnodiging voor een evenement. 24 uur nadat het is verzonden, wordt een SMS-verzending naar dezelfde populatie verzonden.
+Het volgende voorbeeld illustreert **wacht** activiteit in een typisch gebruiksgeval. U stuurt een e-mailuitnodiging voor een evenement. 24 uur nadat het is verzonden, wordt een SMS-verzending naar dezelfde populatie verzonden.
 
 ![](../assets/workflow-wait-example.png)

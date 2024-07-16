@@ -5,7 +5,7 @@ feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1391'
 ht-degree: 1%
 
 ---
@@ -19,23 +19,23 @@ ht-degree: 1%
 
 In de gebruikersinterface van het Web Campagne kunt u bestemmingspagina&#39;s maken, ontwerpen en publiceren. Na publicatie kunt u een koppeling naar het formulier invoegen in een levering. Nadat de ontvangers op die koppeling klikken, worden ze naar de bijbehorende bestemmingspagina geleid.
 
-[!DNL Adobe Campaign] wordt geleverd met vier sjablonen voor het beheren van de volgende gebruiksgevallen: **verwerving**, **abonnement**, **abonnement opzeggen**, en **lijst van gewezen personen**. [Meer informatie](lp-use-cases.md)
+[!DNL Adobe Campaign] komt met vier malplaatjes om de volgende gebruiksgevallen te beheren: **verwerving**, **abonnement**, **unsubscription**, en **lijst van gewezen personen**. [Meer informatie](lp-use-cases.md)
 
 ## Openingspagina&#39;s openen {#access-landing-pages}
 
-Als u de lijst met bestemmingspagina wilt openen, selecteert u **[!UICONTROL Campaign management]** > **[!UICONTROL Landing pages]** in het linkermenu.
+Als u de lijst met openingspagina&#39;s wilt openen, selecteert u **[!UICONTROL Campaign management]** > **[!UICONTROL Landing pages]** in het linkermenu.
 
-![](assets/lp-inventory.png){zoomable=&quot;yes&quot;}
+![](assets/lp-inventory.png){zoomable="yes"}
 
-De **[!UICONTROL Landing pages]** Alle gemaakte items worden in de voorraad weergegeven. U kunt ze filteren met de **[!UICONTROL Show filters]** knop. U kunt de resultaten beperken tot een specifieke [map](../get-started/permissions.md#folders) het gebruiken van de drop-down lijst, of voegt regels toe gebruikend [querymodel](../query/query-modeler-overview.md).
+In de **[!UICONTROL Landing pages]** -voorraad worden alle gemaakte items weergegeven. U kunt ze filteren met de knop **[!UICONTROL Show filters]** . U kunt de resultaten tot een specifieke [ omslag ](../get-started/permissions.md#folders) beperken gebruikend de drop-down lijst, of regels toevoegen gebruikend de [ vraagmodelaar ](../query/query-modeler-overview.md).
 
-![](assets/lp-inventory-filter.png){zoomable=&quot;yes&quot;}
+![](assets/lp-inventory-filter.png){zoomable="yes"}
 
 <!--From this list, you can access the [landing page Live report](../reports/lp-report-live.md) or [landing page Global report](../reports/lp-report-global.md) for published items.-->
 
 >[!CAUTION]
 >
->U kunt bestemmingspagina&#39;s niet tonen of uitgeven die van de cliëntconsole (Webformulieren) in het gebruikersinterface van het Web van de Campagne worden gecreeerd. Meer informatie in het dialoogvenster [Documentatie over de campagnecollecommissie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>U kunt bestemmingspagina&#39;s niet tonen of uitgeven die van de cliëntconsole (Webformulieren) in het gebruikersinterface van het Web van de Campagne worden gecreeerd. Leer meer in de [ documentatie van de de consoleconsole van de Campagne ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html) {target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -56,12 +56,12 @@ U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_schedule"
 >title="De landingspagina plannen"
->abstract="U kunt een begindatum en een einddatum voor uw landingspagina bepalen. Wanneer de pagina het einde van de geldigheidsperiode bereikt, is het formulier niet meer beschikbaar. De **Verlopen** wordt weergegeven."
+>abstract="U kunt een begindatum en een einddatum voor uw landingspagina bepalen. Wanneer de pagina het einde van de geldigheidsperiode bereikt, is het formulier niet meer beschikbaar. In plaats daarvan wordt de **pagina van de Verlooptijd** getoond."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_preload"
 >title="Opties voor vooraf laden definiëren"
->abstract="Wanneer de **Vooraf invullen met de gegevens waarnaar in het formulier wordt verwezen** is geselecteerd, als de bezoeker van de landingspagina een profiel uit de database aanpast, wordt de profielinformatie automatisch vooraf in het formulier geladen. Met de **Geen id autoriseren** geselecteerde optie, kan om het even welke bezoeker, met inbegrip van anonieme gebruikers, tot de landingspagina toegang hebben."
+>abstract="Wanneer **met de gegevens die in de vorm** worden van verwijzingen voorzien optie vooraf wordt geselecteerd, als de bezoeker van de het landen pagina een profiel van het gegevensbestand aanpast, wordt de informatie van het profiel automatisch voorgeladen in de vorm. Met **machtigt afwezigheid van identiteitskaart** geselecteerde optie, kan om het even welke bezoeker, met inbegrip van anonieme gebruikers, tot de het landen pagina toegang hebben."
 
 <!--With the **Skip preloading if no ID** option selected, each profile entered will be added to the database after approval of the form."-->
 
@@ -76,33 +76,33 @@ U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een
 
 Ga als volgt te werk om een bestemmingspagina te maken:
 
-1. Van de **[!UICONTROL Landing pages]** voorraad, klik **[!UICONTROL Create landing page]**.
+1. Klik in de **[!UICONTROL Landing pages]** -voorraad op **[!UICONTROL Create landing page]** .
 
-   ![](assets/lp-create-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-create-button.png){zoomable="yes"}
 
 1. Selecteer een sjabloon:
-   * **[!UICONTROL Acquisition]**: Dit is de standaardsjabloon voor het landen van pagina&#39;s, waarmee u profielgegevens kunt vastleggen en bijwerken.
-   * **[!UICONTROL Subscription]**: Gebruik deze sjabloon om gebruikers in staat te stellen zich op een specifieke sjabloon te abonneren [service](../audience/manage-services.md).
-   * **[!UICONTROL Unsubscription]**: Deze sjabloon kan worden gebruikt in een levering die naar de abonnees van een service wordt verzonden, zodat zij zich van deze service kunnen afmelden [service](../audience/manage-services.md).
-   * **[!UICONTROL Denylist]**: Deze sjabloon moet worden gebruikt wanneer een profiel op een opt-out-koppeling in een levering klikt en er geen contact meer mee wenst te worden opgenomen.
+   * **[!UICONTROL Acquisition]**: dit is de standaardsjabloon voor het landen van pagina&#39;s, waarmee u profielgegevens kunt vastleggen en bijwerken.
+   * **[!UICONTROL Subscription]**: Gebruik dit malplaatje om gebruikers toe te laten om aan de specifieke [ dienst ](../audience/manage-services.md) in te tekenen.
+   * **[!UICONTROL Unsubscription]**: Dit malplaatje kan in een levering worden gebruikt die aan de abonnees van de dienst wordt verzonden, om hen toe te staan om van deze [ dienst ](../audience/manage-services.md) af te melden.
+   * **[!UICONTROL Denylist]**: Deze sjabloon moet worden gebruikt wanneer een profiel op een opt-out-koppeling in een levering klikt en er geen contact meer met wil worden opgenomen.
 
-   ![](assets/lp-templates.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-templates.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Leer hoe u de verschillende gebruiksgevallen implementeert die overeenkomen met elke sjabloon in [deze pagina](lp-use-cases.md).
+   >Leer hoe te om de verschillende gebruiksgevallen uit te voeren die aan elk malplaatje in [ beantwoorden deze pagina ](lp-use-cases.md).
 
 1. Klik op **[!UICONTROL Create]**.
 
-1. Vul de **[!UICONTROL Properties]** velden zoals het label.
+1. Vul de velden **[!UICONTROL Properties]** in, zoals het label.
 
-   Standaard worden bestemmingspagina&#39;s opgeslagen in de **[!UICONTROL Web applications]** map. U kunt dit wijzigen door naar de gewenste locatie te bladeren in het dialoogvenster **[!UICONTROL Additional options]**. [Leer hoe u met mappen werkt](../get-started/permissions.md#folders)
+   Standaard worden bestemmingspagina&#39;s opgeslagen in de map **[!UICONTROL Web applications]** . U kunt dit wijzigen door naar de gewenste locatie te bladeren in de **[!UICONTROL Additional options]** . [ Leer hoe te met omslagen ](../get-started/permissions.md#folders) te werken
 
-   ![](assets/lp-properties.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-properties.png){zoomable="yes"}
 
-1. In de **[!UICONTROL Data preload]** de volgende twee opties zijn beschikbaar:
+1. In de sectie **[!UICONTROL Data preload]** zijn de twee onderstaande opties beschikbaar:
 
-   * Wanneer de **[!UICONTROL Pre-fill with the data referenced in the form]** is geselecteerd, als de bezoeker van de landingspagina een profiel uit de database aanpast, wordt de profielinformatie automatisch vooraf in het formulier geladen. De gebruiker hoeft alleen de ontbrekende velden in te vullen en de bestaande waarden indien nodig bij te werken. Hiermee kunt u gegevens voor bestaande profielen samenvoegen in plaats van duplicaten te maken.
+   * Als de optie **[!UICONTROL Pre-fill with the data referenced in the form]** is geselecteerd en de bezoeker van de bestemmingspagina een profiel uit de database heeft, worden de profielgegevens automatisch in het formulier voorgeladen. De gebruiker hoeft alleen de ontbrekende velden in te vullen en de bestaande waarden indien nodig bij te werken. Hiermee kunt u gegevens voor bestaande profielen samenvoegen in plaats van duplicaten te maken.
 
      >[!NOTE]
      >
@@ -110,35 +110,35 @@ Ga als volgt te werk om een bestemmingspagina te maken:
 
    <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
 
-   * De **[!UICONTROL Authorize absence of ID]** geeft elke bezoeker toegang tot de landingspagina. Als u deze optie uitschakelt, kunnen anonieme bezoekers het formulier niet gebruiken. Dit betekent dat alleen bepaalde gebruikers het formulier kunnen openen en verzenden.
+   * Met de optie **[!UICONTROL Authorize absence of ID]** heeft een bezoeker toegang tot de openingspagina. Als u deze optie uitschakelt, kunnen anonieme bezoekers het formulier niet gebruiken. Dit betekent dat alleen bepaalde gebruikers het formulier kunnen openen en verzenden.
 
      >[!AVAILABILITY]
      >
-     >Dit vermogen is in Beperkte Beschikbaarheid (LA). Alleen klanten die migreren **van Adobe Campaign Standard naar Adobe Campaign v8**, en kan niet worden ingezet op een andere omgeving.
+     >Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 
-     Voor de **[!UICONTROL Acquisition]** en **[!UICONTROL Subscription]** sjablonen, is deze optie standaard geselecteerd. Voor de **[!UICONTROL Unsubscription]** en **[!UICONTROL Denylist]** sjablonen, deze optie is standaard uitgeschakeld en kan niet worden gewijzigd<!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
+     Voor de sjablonen **[!UICONTROL Acquisition]** en **[!UICONTROL Subscription]** is deze optie standaard geselecteerd. Voor de **[!UICONTROL Unsubscription]** en **[!UICONTROL Denylist]** malplaatjes, is deze optie unselected door gebrek en kan niet worden gewijzigd <!--as per ticket - TBC? in that case, is it greyed out or doesn't display?-->.
 
-1. Een openingspagina kan volgende pagina&#39;s hebben. Blader door de **[!UICONTROL Pages]** en klikt u op de **[!UICONTROL Edit content]** voor elke pagina die u voor deze openingspagina wilt ontwerpen. De inhoud van elke pagina is al vooraf ingevuld. Bewerk deze indien nodig. [Meer informatie](lp-content.md)
+1. Een openingspagina kan volgende pagina&#39;s hebben. Als u pagina&#39;s wilt toevoegen, bladert u door de sectie **[!UICONTROL Pages]** en klikt u op de knop **[!UICONTROL Edit content]** voor elke pagina die u voor deze openingspagina wilt ontwerpen. De inhoud van elke pagina is al vooraf ingevuld. Bewerk deze indien nodig. [Meer informatie](lp-content.md)
 
-   ![](assets/lp-pages.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-pages.png){zoomable="yes"}
 
-1. In de **[!UICONTROL Storage]** de **[!UICONTROL Update the preloaded record]** is standaard geselecteerd. Hiermee kunt u de profielen die in de database zijn opgeslagen, bijwerken via de bestemmingspagina. In het vak Voorladen kunt u aangeven hoe de record moet worden gevonden die in de database moet worden bijgewerkt.
+1. In de sectie **[!UICONTROL Storage]** is de optie **[!UICONTROL Update the preloaded record]** standaard geselecteerd. Hiermee kunt u de profielen die in de database zijn opgeslagen, bijwerken via de bestemmingspagina. In het vak Voorladen kunt u aangeven hoe de record moet worden gevonden die in de database moet worden bijgewerkt.
 
-   U kunt ook kiezen uit de velden in de huidige context van de bestemmingspagina, de velden die worden gebruikt om het bijbehorende profiel in de database te vinden. U doet dit door de selectie van de optie **[!UICONTROL Update the preloaded record]** en controleer de gewenste velden onder **[!UICONTROL Reconciliation options]**.
+   U kunt ook kiezen uit de velden in de huidige context van de bestemmingspagina, de velden die worden gebruikt om het bijbehorende profiel in de database te vinden. U doet dit door de optie **[!UICONTROL Update the preloaded record]** uit te schakelen en de gewenste velden onder **[!UICONTROL Reconciliation options]** te selecteren.
 
-   ![](assets/lp-storage.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-storage.png){zoomable="yes"}
 
-1. Maken **[!UICONTROL Additional data]** om interne gegevens op te slaan wanneer de landingspagina wordt ingediend. Deze gegevens zijn niet zichtbaar voor gebruikers die de pagina bezoeken. Alleen constante waarden worden in aanmerking genomen.
+1. Maak **[!UICONTROL Additional data]** om interne gegevens op te slaan wanneer de landingspagina wordt verzonden. Deze gegevens zijn niet zichtbaar voor gebruikers die de pagina bezoeken. Alleen constante waarden worden in aanmerking genomen.
 
    >[!AVAILABILITY]
    >
-   >Dit vermogen is in Beperkte Beschikbaarheid (LA). Alleen klanten die migreren **van Adobe Campaign Standard naar Adobe Campaign v8**, en kan niet worden ingezet op een andere omgeving.
+   >Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 
-   ![](assets/lp-additional-data.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-additional-data.png){zoomable="yes"}
 
-1. U kunt een begindatum en een einddatum voor uw landingspagina bepalen. Selecteren **[!UICONTROL Enable scheduling]** en stelt de datums in.
+1. U kunt een begindatum en een einddatum voor uw landingspagina bepalen. Selecteer **[!UICONTROL Enable scheduling]** en stel de datums in.
 
-   ![](assets/lp-schedule.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-schedule.png){zoomable="yes"}
 
    * De landingspagina wordt automatisch gepubliceerd op de opgegeven begindatum/tijd.
 
@@ -146,7 +146,7 @@ Ga als volgt te werk om een bestemmingspagina te maken:
      >
      >Als er geen begindatum is gedefinieerd, wordt de landingspagina actief zodra deze wordt gepubliceerd.
 
-   * Wanneer de pagina de einddatum bereikt, <!--the landing page is automatically unpublished and -->het formulier is niet meer beschikbaar. De **[!UICONTROL Expiration]** wordt weergegeven.
+   * Wanneer de pagina de einddatum bereikt, <!--the landing page is automatically unpublished and --> is het formulier niet meer beschikbaar. In plaats daarvan wordt de pagina **[!UICONTROL Expiration]** weergegeven.
 
      >[!NOTE]
      >
@@ -154,7 +154,7 @@ Ga als volgt te werk om een bestemmingspagina te maken:
 
 1. Klik op **[!UICONTROL Review and publish]**.
 
-Nadat u alle instellingen en [ontworpen](lp-content.md) alle pagina&#39;s [test](#test-landing-page) en [publish](#publish-landing-page) de openingspagina, zoals hieronder wordt beschreven.
+Zodra u alle montages bepaalde en [ ](lp-content.md) alle pagina&#39;s ontwierp, kunt u [ testen ](#test-landing-page) en [ publiceren ](#publish-landing-page) uw het landen pagina zoals hieronder gedetailleerd.
 
 ## De openingspagina testen {#test-landing-page}
 
@@ -168,52 +168,52 @@ Nadat u alle instellingen en [ontworpen](lp-content.md) alle pagina&#39;s [test]
 >title="De openingspagina voorvertonen en testen"
 >abstract="Nadat u de instellingen en inhoud van de bestemmingspagina hebt gedefinieerd, kunt u testprofielen gebruiken om een voorvertoning weer te geven."
 
-Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt u testprofielen gebruiken om een voorvertoning weer te geven. Als u [persoonlijke inhoud](../personalization/gs-personalization.md)kunt u met testprofielgegevens controleren hoe deze inhoud op de bestemmingspagina wordt weergegeven.
+Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt u testprofielen gebruiken om een voorvertoning weer te geven. Als u [ gepersonaliseerde inhoud ](../personalization/gs-personalization.md) opnam, zult u kunnen controleren hoe deze inhoud in de het landen pagina wordt getoond, gebruikend de gegevens van het testprofiel.
 
 >[!CAUTION]
 >
->U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. [Meer informatie over testprofielen](../audience/test-profiles.md)
+>U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. [ leer meer op testprofielen ](../audience/test-profiles.md)
 
 Voer de volgende stappen uit om de bestemmingspagina te testen:
 
-1. Nadat u op **[!UICONTROL Review and publish]**, selecteert u de **[!UICONTROL Simulate content]** vanaf het dashboard van de bestemmingspagina om toegang te krijgen tot de selectie van het testprofiel.
+1. Nadat u op **[!UICONTROL Review and publish]** hebt geklikt, selecteert u de knop **[!UICONTROL Simulate content]** in het dashboard voor de bestemmingspagina om toegang te krijgen tot de selectie van het testprofiel.
 
-   ![](assets/lp-simulate-content.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-simulate-content.png){zoomable="yes"}
 
-1. Van de **[!UICONTROL Simulate]** selecteert u een of meer testprofielen.
+1. Selecteer een of meer testprofielen in het scherm **[!UICONTROL Simulate]** .
 
-   De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Zij worden in het [Voorvertonen en testen](../preview-test/preview-test.md) sectie.
+   De stappen om testprofielen te selecteren zijn het zelfde als wanneer het testen van een bericht. Zij zijn gedetailleerd in de [ Voorproef en test ](../preview-test/preview-test.md) sectie.
 
-1. Bij het testen van een dynamische landingspagina (met de **[!UICONTROL Service from URL]** geselecteerde optie - [Meer informatie](../landing-pages/create-lp.md#define-actions-on-form-submission)
+1. Wanneer het testen van een dynamische het landen pagina (met de **[!UICONTROL Service from URL]** geselecteerde optie - [ leer meer ](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
-1. Selecteren **[!UICONTROL Open preview]** om de openingspagina te testen.
+1. Selecteer **[!UICONTROL Open preview]** om de openingspagina te testen.
 
-   ![](assets/lp-open-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-open-preview.png){zoomable="yes"}
 
 1. De voorvertoning van de bestemmingspagina wordt in een nieuw tabblad geopend. De gepersonaliseerde elementen worden vervangen door de geselecteerde gegevens van het testprofiel.
 
-   Als u **[!UICONTROL Pre-fill with the data referenced in the form]** in de instellingen voor de bestemmingspagina worden de formuliervelden automatisch vooraf ingevuld met de bijbehorende testprofielgegevens.<!--TBC-->
+   Als u de optie **[!UICONTROL Pre-fill with the data referenced in the form]** hebt geselecteerd in de instellingen voor de bestemmingspagina, worden de formuliervelden automatisch vooraf ingevuld met de bijbehorende testprofielgegevens. <!--TBC-->
 
-   ![](assets/lp-preview.png){zoomable=&quot;yes&quot;}
+   ![](assets/lp-preview.png){zoomable="yes"}
 
 1. Selecteer andere testprofielen om de rendering voor elke variant van de landingspagina te bekijken.
 
 <!--Can you preview Confirmation/Error/Expiration pages?-->
 
-## De openingspagina publiceren {#publish-landing-page}
+## Publish de openingspagina {#publish-landing-page}
 
 Wanneer de landingspagina gereed en gevalideerd is, publiceert u deze om te kunnen worden gebruikt in een levering met de bijbehorende knop.
 
 Na publicatie:
 
-* De landingspagina wordt met de **[!UICONTROL Published]** status. Het is nu live en klaar om in de inhoud te worden genoemd.
+* De landingspagina wordt met de status **[!UICONTROL Published]** toegevoegd aan de lijst met landingspagina. Het is nu live en klaar om in de inhoud te worden genoemd.
 
-* U kunt de **[!UICONTROL Landing page URL]** die boven op de pagina in een webbrowser wordt weergegeven om een voorvertoning van de bestemmingspagina weer te geven.
+* U kunt de **[!UICONTROL Landing page URL]** die boven op de pagina wordt weergegeven, kopiëren en plakken in een webbrowser om een voorvertoning van de bestemmingspagina weer te geven.
 
 >[!CAUTION]
 >
->Als u de landingspagina volledig wilt testen of er gebruik van wilt maken, kunt u deze koppeling niet rechtstreeks in een webbrowser of in uw leveringen kopiëren en plakken. Gebruik in plaats daarvan de opdracht [Inhoud simuleren](#test-landing-page) functie om het te testen en de stappen te volgen die in [deze sectie](lp-use-cases.md) om uw landingspagina correct te gebruiken.
+>Als u de landingspagina volledig wilt testen of er gebruik van wilt maken, kunt u deze koppeling niet rechtstreeks in een webbrowser of in uw leveringen kopiëren en plakken. In plaats daarvan, gebruik de [ Simuleer inhoud ](#test-landing-page) functie om het te testen, en de stappen te volgen die in [ worden beschreven deze sectie ](lp-use-cases.md) om behoorlijk gebruik van uw het landen pagina te maken.
 
-![](assets/lp-published.png){zoomable=&quot;yes&quot;}
+![](assets/lp-published.png){zoomable="yes"}
 
-U kunt de gevolgen van de landingspagina controleren via logboeken<!--and specific reports-->. Klik op de knop **[!UICONTROL Logs]**.
+U kunt uw het landen paginagevolgen door logboeken <!--and specific reports--> controleren. Klik op de knop **[!UICONTROL Logs]**.

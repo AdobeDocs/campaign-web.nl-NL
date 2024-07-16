@@ -15,19 +15,19 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_change_data_source"
 >title="Databron wijzigen"
->abstract="De **Gegevensbron wijzigen** Met deze activiteit kunt u een andere gegevensbron selecteren voor de werktabel van uw workflow."
+>abstract="De **gegevensbron van de Verandering** activiteit staat u toe om een verschillende gegevensbron voor de het Werken lijst van uw werkschema te selecteren."
 
-De **Gegevensbron wijzigen** activiteit is **doelgerichtheid** activiteit. Met deze activiteit kunt u de gegevensbron wijzigen die wordt gebruikt door de werkstroomlijst. Dit biedt meer flexibiliteit door u toe te staan om gegevens over uw verschillende gegevensbestanden te beheren en prestaties te verbeteren.
+De **gegevensbron van de Verandering** activiteit is a **richtend** activiteit. Met deze activiteit kunt u de gegevensbron wijzigen die wordt gebruikt door de werkstroomlijst. Dit biedt meer flexibiliteit door u toe te staan om gegevens over uw verschillende gegevensbestanden te beheren en prestaties te verbeteren.
 
-In workflows worden gegevens die van de ene activiteit naar de andere worden vervoerd via overgangen, tijdelijk opgeslagen **Werktabel**. Standaard worden werktabellen gemaakt in dezelfde database als de bron van de verwerkte gegevens. Als u bijvoorbeeld een query uitvoert op de tabel &quot;Profielen&quot; die is opgeslagen in de Cloud-database, wordt een tabel voor werken gemaakt in dezelfde Cloud-database.
+In werkschema&#39;s, wordt het gegeven dat van één activiteit aan een andere door overgangen wordt vervoerd opgeslagen in een tijdelijke **het Werken lijst**. Standaard worden werktabellen gemaakt in dezelfde database als de bron van de verwerkte gegevens. Als u bijvoorbeeld een query uitvoert op de tabel &quot;Profielen&quot; die is opgeslagen in de Cloud-database, wordt een tabel voor werken gemaakt in dezelfde Cloud-database.
 
-In sommige gevallen zijn gegevens niet beschikbaar in de huidige database of zijn ze niet efficiënt genoeg om eenheidsbewerkingen uit te voeren. Het is daarom mogelijk dat u de workflow moet forceren om een andere database te gebruiken om dergelijke bewerkingen uit te voeren door een **[!UICONTROL Change data source]** activiteit.
+In sommige gevallen zijn gegevens niet beschikbaar in de huidige database of zijn ze niet efficiënt genoeg om eenheidsbewerkingen uit te voeren. Daarom moet u de workflow mogelijk dwingen een andere database te gebruiken om dergelijke bewerkingen uit te voeren door een **[!UICONTROL Change data source]** -activiteit toe te voegen.
 
-Gedetailleerde informatie over de campagnearchitectuur is beschikbaar in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+De gedetailleerde informatie over de architectuur van de Campagne is beschikbaar in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
 
 >[!IMPORTANT]
 >
->Houd er rekening mee dat de **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** activiteiten mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend moet gebruiken, zorg ervoor u omvat **[!UICONTROL Enrichement]** tussen hen. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
+>De activiteiten **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend moet gebruiken, zorg ervoor u een **[!UICONTROL Enrichement]** activiteit binnen tussen hen omvat. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
 
 <!--
 
@@ -45,20 +45,20 @@ Before executing the operation, the working table is copied to the local databas
 
 ## Vorm de de gegevensbronactiviteit van de Verandering {#configure}
 
-Voer de volgende stappen uit om de **Dimensie wijzigen** activiteit:
+Volg deze stappen om de **dimensie van de Verandering** activiteit te vormen:
 
 ![](../assets/workflow-change-data-source-add.png)
 
-1. Voeg een **Gegevensbron wijzigen** activiteit aan uw werkschema.
+1. Voeg de gegevensbron van de a **Verandering** activiteit aan uw werkschema toe.
 
 1. Definieer de gegevensbron waar u de werktabel wilt verplaatsen:
 
-   * **[!UICONTROL Default Campaign database (PostgreSQL)]**: Gebruik de lokale standaarddatabase van Campagne.
-   * **[!UICONTROL FDA external account]**: Gebruik externe Cloud-databases die zijn verbonden met Adobe Campaign via de Federated Data Access-functie.
+   * **[!UICONTROL Default Campaign database (PostgreSQL)]**: de lokale standaarddatabase voor campagne gebruiken.
+   * **[!UICONTROL FDA external account]**: gebruik externe Cloud-databases die zijn verbonden met Adobe Campaign via de Federated Data Access-functie.
 
      >[!AVAILABILITY]
      >
-     >De configuratie van de campagne en de verbinding aan externe systemen worden beperkt tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
+     >De configuratie van de campagne en de verbinding aan externe systemen worden beperkt tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole. [ leer meer ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html) {target="_blank"}
 
 1. Configureer uw workflow om de gewenste bewerkingen uit te voeren met de nieuwe gegevensbron.
 
