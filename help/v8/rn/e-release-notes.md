@@ -4,9 +4,9 @@ description: Ontdek nieuwe eigenschappen die met de volgende versie van het Gebr
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
+source-git-commit: d4f9f3562f7dc2550bf9fea01f27456fdfdad43e
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '454'
 ht-degree: 1%
 
 ---
@@ -50,14 +50,13 @@ U kunt nu uitgebreide pushmeldingen verzenden. Een uitgebreide pushmelding is ee
 
 #### Inhoudsfragmenten {#LA-24-7}
 
-Een fragment is een vooraf gebouwde herbruikbare component waarnaar in meerdere inhoud in Adobe Campaign kan worden verwezen voor een verbeterd en versneld ontwerpproces.
+U kunt nu inhoudsfragmenten maken en gebruiken. Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Wanneer u een fragment wijzigt, wordt alle inhoud die het fragment gebruikt, bijgewerkt. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud samenstellen die marketinggebruikers kunnen gebruiken om snel inhoud van berichten samen te stellen in een verbeterd ontwerpproces.
 
-* U kunt auteur, gebruik, en beheer nu **uitdrukkingsfragmenten** om gepersonaliseerde inhoud snel te bouwen.
+Er zijn twee typen fragmenten beschikbaar:
 
-* U kunt auteur, gebruik, en sparen **visuele fragmenten** nu om uw e-mails en inhoudsmalplaatjes snel samen te stellen. [Meer informatie](../email/fragments.md)
+* **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen die van een specifieke ingang in de uitdrukkingsredacteur beschikbaar zijn.
+* **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige e-mailleveringen, of in inhoudsmalplaatjes kunt hergebruiken. [Meer informatie](../email/fragments.md)
 
-
-
-
-
-
+  >[!AVAILABILITY]
+  >
+  >**de Visuele fragmenten** zijn in Beperkte Beschikbaarheid (LA). Dit vermogen wordt beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
