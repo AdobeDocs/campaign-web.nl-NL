@@ -4,9 +4,9 @@ description: Ontdek nieuwe eigenschappen die met de volgende versie van het Gebr
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 717af67bf876c4bb01984f042e57cffa473914af
+source-git-commit: a6248b19263f1da99588d5b70ff68940eadc9390
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '379'
 ht-degree: 1%
 
 ---
@@ -23,10 +23,6 @@ De gebruikersinterface van het Web van Adobe Campaign levert onophoudelijk nieuw
 
 De volgende functies en verbeteringen zijn beschikbaar vanaf de release in juli.
 
-### Expressiefragmenten {#24-7-1}
-
-U kunt auteur, gebruik, en beheer nu **uitdrukkingsfragmenten** om gepersonaliseerde inhoud snel te bouwen. Een fragment is een vooraf gebouwde herbruikbare component waarnaar in meerdere inhoud in Adobe Campaign kan worden verwezen voor een verbeterd en versneld ontwerpproces.
-
 ### Zaadlijsten {#24-7-2}
 
 Een zaadlijst, ook bekend als. **de groep van de Overlapping**, is een lijst van zaadadressen. Het wordt gebruikt om specifieke adressen in uw leveringen te omvatten, en dan doelprofielen die niet aan de bepaalde doelcriteria voldoen. Op deze manier kunnen ontvangers die buiten het leveringspubliek vallen, de levering ontvangen, net als elke andere doelontvanger. U kunt zaadadressen gebruiken wanneer het verzenden van proefdrukken, of om uw postingslijst te beschermen.
@@ -42,4 +38,26 @@ U kunt nu uitgebreide pushmeldingen verzenden. Een uitgebreide pushmelding is ee
 
 ### Verbeteringen {#improvements-24-7}
 
-* **het beheer van Omslagen** - u kunt toestemmingen en beperkingen op omslagen nu beheren.
+**het beheer van Omslagen** - u kunt toestemmingen en beperkingen op omslagen nu beheren.
+
+### Nieuwe functies in beperkte beschikbaarheid {#acs-24-4}
+
+>[!AVAILABILITY]
+>
+>De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld.
+>
+>Verwijs naar de volgende documentatiepagina&#39;s: [ overgang van het Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van het Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+
+#### Inhoudsfragmenten {#LA-24-7}
+
+Een fragment is een vooraf gebouwde herbruikbare component waarnaar in meerdere inhoud in Adobe Campaign kan worden verwezen voor een verbeterd en versneld ontwerpproces.
+
+* U kunt auteur, gebruik, en beheer nu **uitdrukkingsfragmenten** om gepersonaliseerde inhoud snel te bouwen.
+
+* U kunt auteur, gebruik, en sparen **visuele fragmenten** nu om uw e-mails en inhoudsmalplaatjes snel samen te stellen. [Meer informatie](../email/fragments.md)
+
+
+
+
+
+
