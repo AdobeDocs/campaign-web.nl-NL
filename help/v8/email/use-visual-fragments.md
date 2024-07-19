@@ -2,33 +2,29 @@
 audience: end-user
 title: Visuele fragmenten toevoegen aan uw e-mails
 description: Leer hoe u visuele fragmenten toevoegt aan uw e-mails
-hide: true
-hidefromtoc: true
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 991c292b42dbb2e21a46aef47295bd601f6a4af9
+source-git-commit: 2d6b885642fbb6e1545f899219db05c156b069c4
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
 
 # Visuele fragmenten toevoegen aan uw e-mails {#use-visual-fragments}
 
-U kunt een visueel fragment gebruiken in een [e-maillevering](get-started-email-designer.md)of in een [inhoudssjabloon](use-email-templates.md). De stappen worden hieronder beschreven.
+U kunt een visueel fragment in een [ e-maillevering ](get-started-email-designer.md), of in a [ inhoudsmalplaatje ](use-email-templates.md) gebruiken. De stappen worden hieronder beschreven. Leer hoe te om fragmenten in [ tot stand te brengen en te beheren deze sectie ](fragments.md).
 
-
->[!NOTE]
+>[!AVAILABILITY]
 >
->Leer hoe u fragmenten maakt en beheert in [deze sectie](fragments.md).
-
+>Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 
 ## Een fragment gebruiken {#use-fragment}
 
 Voer de onderstaande stappen uit om een fragment in te voegen in een e-mailinhoud:
 
-1. Open e-mail- of sjablooninhoud met de [E-mailDesigner](get-started-email-designer.md).
+1. Open om het even welke e-mail of malplaatjeinhoud gebruikend [ E-mail Designer ](get-started-email-designer.md).
 
-1. Selecteer de **[!UICONTROL Fragments]** pictogram van de linkerrails.
+1. Selecteer het pictogram **[!UICONTROL Fragments]** van de linkerspoorstaaf.
 
    ![](assets/fragments-in-designer.png)
 
@@ -42,7 +38,7 @@ Voer de onderstaande stappen uit om een fragment in te voegen in een e-mailinhou
    >
    >Fragmenten worden gesorteerd op aanmaakdatum: recent toegevoegde visuele fragmenten worden als eerste weergegeven in de lijst.
 
-   Als sommige fragmenten zijn gewijzigd of toegevoegd terwijl u de inhoud bewerkt, klikt u op de knop **Vernieuwen** pictogram om de lijst bij te werken met de meest recente wijzigingen.
+   Als sommige fragmenten werden gewijzigd of werden toegevoegd terwijl u uw inhoud uitgeeft, klik **verfrissen** pictogram om de lijst met de recentste veranderingen bij te werken.
 
 1. Sleep een fragment uit de lijst naar het gebied waar u het wilt invoegen. Net als bij andere componenten kunt u het fragment in de inhoud verplaatsen.
 
@@ -50,14 +46,14 @@ Voer de onderstaande stappen uit om een fragment in te voegen in een e-mailinhou
 
    ![](assets/fragment-right-pane.png)
 
-   Van de **[!UICONTROL Settings]** kunt u:
+   Via het tabblad **[!UICONTROL Settings]** kunt u:
 
    * Kies de apparaten waarop het fragment moet worden weergegeven.
-   * Klik op de knop **Inhoud bewerken** om de inhoud van dit fragment te openen. [Meer informatie](../email/fragments.md#edit-fragments)
+   * Klik **uitgeven inhoud** knoop om de inhoud van dit fragment te openen. [Meer informatie](../email/fragments.md#edit-fragments)
 
-     U kunt het fragment verder aanpassen met de opdracht **[!UICONTROL Styles]** tab.
+     U kunt het fragment verder aanpassen met het tabblad **[!UICONTROL Styles]** .
 
-1. Indien nodig, kunt u de overerving met het oorspronkelijke fragment verbreken. [Meer informatie](#break-inheritance)
+1. Indien nodig, kunt u de overerving met het oorspronkelijke fragment verbreken. [ Leer meer ](#break-inheritance)
 U kunt het fragment ook uit de inhoud verwijderen of dupliceren. Deze handelingen kunnen rechtstreeks worden uitgevoerd vanuit het contextmenu dat boven op het fragment wordt weergegeven.
 
 1. Voeg zoveel fragmenten toe als u wilt en **[!UICONTROL Save]** uw wijzigingen.
