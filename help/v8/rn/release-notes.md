@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 0c3eb0c20f348442ad28e1e9a801c83d1ab3681f
+source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
 workflow-type: tm+mt
 source-wordcount: '1623'
 ht-degree: 5%
@@ -54,22 +54,11 @@ Het nieuwe **spoor van de Controle** vermogen verstrekt een gedetailleerd en chr
 
 U kunt verbindingen met een andere lijst in de **het werkschemaactiviteit van de Verrijking** nu tot stand brengen. Gebruik de nieuwe **sectie van de definitie van de Verbinding** in de activiteitenparameters om een verband tussen de het werk lijstgegevens en het gegevensbestand van Adobe Campaign tot stand te brengen. Als u bijvoorbeeld gegevens laadt uit een bestand dat het rekeningnummer, land en e-mail van ontvangers bevat, kunt u nu een koppeling maken naar de landentabel om deze gegevens in hun profielen bij te werken. [Meer informatie](../workflows/activities/enrichment.md#create-links)
 
-<!--
-### Content fragments {#24-5-4}
-
-* You can now author, use, and save **visual fragments** to quickly assemble your emails and content templates. A fragment is a prebuilt reusable component that can be referenced in multiple emails across Adobe Campaign for an improved and accelerated design process. [Learn more](../email/fragments.md)
-
-* You can now author, use, and manage **expression fragments** to quickly build personalized content. A fragment is a prebuilt reusable component that can be referenced in multiple contents across Adobe Campaign for an improved and accelerated design process.-->
-
-
 ### Algemene verbeteringen {#improvements-24-5}
 
 * **Directe post** - u kunt hefboomwerking de uitdrukkingsredacteur nu om de attributen aan vertoning in direct-mail extractiedossiers te selecteren. [Meer informatie](../direct-mail/content-direct-mail.md)
 
 * **beheer van de Omslag** - u kunt een subomslag van een verschillend type dan de ouderomslag nu tot stand brengen. [Meer informatie](../get-started/permissions.md#folders)
-
-
-<!--* **Execution options for workflows** - You can now define execution options for your workflows, such as the maximum duration, the affinity, or the time zone.-->
 
 * **Globalization** - als deel van onze aan de gang zijnde inspanning om een verenigde gebruikerservaring te leveren, harmoniseren wij de terminologie die in de producten en apps van Adobe Experience Cloud wordt gebruikt. Dit is van invloed op de Duitse term &quot;Titel&quot;, die wordt gewijzigd in &quot;Label&quot; wanneer deze betrekking heeft op de naam van een object. De wijzigingen worden geleidelijk doorgevoerd in de gebruikersinterface en de documentatie.
 
@@ -125,22 +114,15 @@ Merk op dat deze eigenschap in **Beperkte Beschikbaarheid** (LA) is.
 ### Algemene verbeteringen {#improvements-24-4}
 
 De verbeteringen hieronder zijn beschikbaar aan alle klanten vanaf de release van april.
-<!--**Workflow - Copy/Paste into another tab**: -->
 
 * De **het dossier van de Lading** activiteit is verbeterd met verscheidene secties die u toestaan om een steekproefdossier te uploaden, om fouten te beheren en, geuploade dossiers te schrappen nadat de activiteit is uitgevoerd. [Meer informatie](../workflows/activities/load-file.md)
 
 
 * U kunt activiteiten **van een werkschema aan een ander werkschema van een verschillende browser tabel nu kopiëren/kleven.** [Meer informatie](../workflows/orchestrate-activities.md#copy-activities-copy)
 
-<!--**Workflow - Execution options**: -->
-
 * Alle werkschemaactiviteiten staan u nu toe om hun **uitvoeringsopties** te beheren. Hiermee kunt u de uitvoeringsmodus en het gedrag van de activiteit definiëren in het geval van fouten. [Meer informatie](../workflows/orchestrate-activities.md#execution-options-execution)
 
-<!-- **Workflow - Split Activity - Support Skipping Empty Transition**: -->
-
 * &quot;Activeer niet de overgang als de bevolking&quot;optie in de **Gesplitste activiteit** leeg is staat u toe om te kiezen of het werkschema naar de volgende activiteit zou moeten overgaan wanneer het segmentresultaat leeg is. [Meer informatie](../workflows/activities/split.md)
-
-
 
 ## Opmerkingen bij de release maart {#24-3-release}
 
