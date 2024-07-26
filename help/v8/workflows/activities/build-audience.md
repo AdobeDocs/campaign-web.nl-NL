@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Om de publieksbevolking te bepalen, kunt u:
 
 * Selecteer een bestaand publiek dat als een lijst in de cliëntconsole wordt gecreeerd.
 * Selecteer een Adobe Experience Platform-publiek.
-* Bouw een nieuw publiek met de bouwer van de vraagmodelleur door het filtreren criteria te bepalen en te combineren.
+* Bouw een nieuw publiek met de vraagmodeler door het filtreren criteria te bepalen en te combineren.
 
 >[!NOTE]
 >
