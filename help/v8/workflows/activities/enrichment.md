@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
 workflow-type: tm+mt
-source-wordcount: '1655'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -106,14 +106,6 @@ Ga als volgt te werk om een koppeling te maken:
 Een werkschemavoorbeeld dat verbindingen gebruikt is beschikbaar in de [ sectie van Voorbeelden ](#link-example).
 
 ## Gegevensafstemming {#reconciliation}
-
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Gegevensafstemming"
->abstract="De activiteit van de Verrijking van het werkschema kan nu worden gebruikt om gegevens van het het gegevensbestandschema van de Campagne met gegevens van een ander schema, of met gegevens te verzoenen die uit een tijdelijk schema zoals gegevens komen die gebruikend een het dossieractiviteit van de Lading worden geupload."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
-
 
 De **verrijking** activiteit kan worden gebruikt om gegevens van het het gegevensbestandschema van de Campagne met gegevens van een ander schema, of met gegevens te verzoenen die uit een tijdelijk schema zoals gegevens komen die gebruikend een het dossieractiviteit van de Lading worden geupload. Dit type koppeling definieert een koppeling naar een unieke record. Adobe Campaign maakt een koppeling naar een doeltabel door er een externe sleutel aan toe te voegen voor het opslaan van een verwijzing naar de unieke record.
 
