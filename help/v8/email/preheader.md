@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Een voorkop toevoegen in de e-mailontwerper
+title: Een voorheader toevoegen in de Designer-e-mail
 description: Leer hoe u e-mailinhoud ontwerpt
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,21 @@ In veel gevallen wordt een korte samenvatting van de inhoud gegeven en is deze d
 
 Voer de onderstaande stappen uit om de e-mailvoorheader te definiëren.
 
-1. Van de [E-mailDesigner](create-email-content.md)ten minste een **[!UICONTROL Structure]** om uw e-mail te ontwerpen.
+1. Van [ E-mail Designer ](create-email-content.md), voeg minstens een **[!UICONTROL Structure]** component toe beginnen uw e-mail te ontwerpen.
 
-1. Klik op de knop **[!UICONTROL Navigation tree]** pictogram in het linkervenster en selecteer **[!UICONTROL Body]**.
+1. Klik op het pictogram **[!UICONTROL Navigation tree]** in het linkerdeelvenster en selecteer **[!UICONTROL Body]** .
 
-   ![](assets/preheader_body.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body.png){zoomable="yes"}
 
-1. Van de **[!UICONTROL Settings]** voert u tekst in voor de preheader.
+1. Voer op het tabblad **[!UICONTROL Settings]** tekst in voor de preheader.
 
-1. Klik op de knop **[!UICONTROL Add personalization]** links van het pictogram **[!UICONTROL Preheader]** veld.
+1. Als u de afbeelding verder wilt aanpassen, klikt u op het pictogram **[!UICONTROL Add personalization]** links van het veld **[!UICONTROL Preheader]** .
 
-   ![](assets/preheader_body_settings.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_settings.png){zoomable="yes"}
 
-1. Van de **[!UICONTROL Edit Personalization]** venster kunt toevoegen [personalisatievelden](../personalization/personalize.md), [inhoudsblokken](../personalization/content-blocks.md) en [voorwaardelijke inhoud](../personalization/conditions.md) met behulp van de toegewijde vermeldingen aan de linkerkant.
+1. Van het **[!UICONTROL Edit Personalization]** venster, kunt u [ verpersoonlijkingsgebieden ](../personalization/personalize.md) toevoegen, [ uitdrukkingsfragmenten ](../content/use-expression-fragments.md) en [ voorwaardelijke inhoud ](../personalization/conditions.md) gebruikend de specifieke ingangen op de linkerzijde.
 
-   ![](assets/preheader_body_personalization.png){zoomable=&quot;yes&quot;}
+   ![](assets/preheader_body_personalization.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Confirm]**.
 

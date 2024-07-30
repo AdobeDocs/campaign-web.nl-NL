@@ -3,7 +3,7 @@ audience: end-user
 title: De e-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud bewerkt in de gebruikersinterface van het Campagne Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Geef de e-mail op **[!UICONTROL Subject line]** . Typ direct uw onderwerp in het specifieke gebied, of open de Redacteur van de Uitdrukking om [ verpersoonlijking ](../personalization/personalize.md) toe te voegen gebruikend diverse attributen en inhoudsblokken, of aanbiedingen.
+1. Geef de e-mail op **[!UICONTROL Subject line]** . Typ direct uw onderwerp in het specifieke gebied, of open de Redacteur van de Uitdrukking om [ verpersoonlijking ](../personalization/personalize.md) toe te voegen gebruikend diverse attributen en uitdrukkingsfragmenten, of aanbiedingen.
 
 1. Als u een bestand bij de e-mail wilt voegen, klikt u op de knop **[!UICONTROL Add attachment]** en selecteert u een of meer bestanden.
 

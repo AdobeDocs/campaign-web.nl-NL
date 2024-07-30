@@ -3,9 +3,9 @@ audience: end-user
 title: Een koppeling toevoegen aan de spiegelpagina
 description: Leer hoe u de koppeling naar de spiegel toevoegt en beheert
 exl-id: 0c22357f-0465-4fdc-833e-5fda5805fe42
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -18,29 +18,27 @@ Hoewel de meeste e-mailclients afbeeldingen zonder problemen renderen, kunnen be
 
 De spiegelpagina die door Adobe Campaign wordt gegenereerd, bevat alle aanpassingsgegevens.
 
-![voorbeeld van spiegelkoppeling](assets/mirror-page-link.png){width="600" align="left"}
+![ de steekproef van de spiegelverbinding ](assets/mirror-page-link.png){width="600" align="left"}
 
 ## Een koppeling toevoegen aan de spiegelpagina{#link-to-mirror-page}
 
 Het invoegen van een koppeling naar de spiegelpagina is een goede gewoonte. Deze koppeling kan bijvoorbeeld &#39;Deze e-mail weergeven in uw browser&#39; of &#39;Deze online lezen&#39; zijn. Deze bevindt zich vaak in de kop- of voettekst van de e-mail.
 
-In Adobe Campaign kunt u een koppeling naar de spiegel in de e-mailinhoud invoegen met behulp van de toegewezen **verpersoonlijkingsblok**. De ingebouwde **Koppelen aan spiegelpagina** het verpersoonlijkingsblok neemt de volgende code in uw e-mailinhoud op: `<%@ include view='MirrorPage' %>`.
+In Adobe Campaign, kunt u een verbinding aan de spiegelpagina in de e-mailinhoud opnemen gebruikend het specifieke **verpersoonlijkingsblok**. De ingebouwde **Verbinding aan spiegelpagina** verpersoonlijkingsblok neemt de volgende code in uw e-mailinhoud op: `<%@ include view='MirrorPage' %>`.
 
 Een koppeling toevoegen aan een spiegel in uw e-mail:
 
-1. Selecteer een element en klik op **[!UICONTROL Insert link]** in de contextuele werkbalk.
+1. Selecteer een element en klik op **[!UICONTROL Insert link]** op de contextuele werkbalk.
 
-   ![](assets/message-tracking-mirror-page.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page.png){zoomable="yes"}
 
-1. Selecteer de **[!UICONTROL Add personalization]** pictogram voor toegang tot het verpersoonlijkingsmenu.
+1. Selecteer het pictogram **[!UICONTROL Add personalization]** voor toegang tot het menu voor aanpassing.
 
-   ![](assets/message-tracking-mirror-page_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
-1. Van de **[!UICONTROL Content block]** menu, selecteert u **[!UICONTROL Mirror page URL]** en klik op **[!UICONTROL Add]**.
+1. Selecteer **[!UICONTROL Mirror page URL]** in het menu **[!UICONTROL Fragments]** en klik op **[!UICONTROL Add]** . [ Leer hoe te om uitdrukkingsfragmenten ](../content/use-expression-fragments.md) te gebruiken
 
-   ![](assets/message-tracking-mirror-page_3.png){zoomable=&quot;yes&quot;}
-
-   Raadpleeg voor meer informatie over het plaatsen van aangepaste inhoudblokken [deze sectie](../personalization/personalize.md#personalize-emails).
+   ![](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
 
 De spiegelpagina wordt automatisch gemaakt.
 

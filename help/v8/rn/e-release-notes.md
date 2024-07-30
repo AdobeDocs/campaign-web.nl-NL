@@ -4,7 +4,7 @@ description: Ontdek nieuwe eigenschappen die met de volgende versie van het Gebr
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: f8bdb15151774b33a0bcf16e86347dae6ab417a2
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 1%
@@ -30,7 +30,7 @@ U kunt nu inhoudsfragmenten maken en gebruiken. Een inhoudsfragment is een herbr
 Er zijn twee typen fragmenten beschikbaar:
 
 * **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen die van een specifieke ingang in de uitdrukkingsredacteur beschikbaar zijn.
-* **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige e-mailleveringen, of in inhoudsmalplaatjes kunt hergebruiken. [Meer informatie](../email/fragments.md)
+* **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige e-mailleveringen, of in inhoudsmalplaatjes kunt hergebruiken. [Meer informatie](../content/fragments.md)
 
   >[!AVAILABILITY]
   >

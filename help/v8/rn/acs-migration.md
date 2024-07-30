@@ -3,9 +3,9 @@ audience: end-user
 title: Overgang van Campaign Standard naar Adobe Campaign Web
 description: Campagne-webgebruikersinterface ontdekken
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: fede3e616d45c78db9d0613409254f3c8cc93bba
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '650'
 ht-degree: 4%
 
 ---
@@ -48,7 +48,7 @@ Laten we dieper ingaan op de belangrijkste mogelijkheden die Campagne v8 u biedt
 
 Als gebruiker van Campagne v8 hebt u toegang tot zowel de nieuwe interface van het Web van de Campagne als de v8 console. Gegevens en instellingen worden gesynchroniseerd van een omgeving naar een andere. Al uw gegevens en montages beschikbaar in de cliëntconsole zijn zichtbaar in het gebruikersinterface van het Web van de Campagne, van de Ontdekkingsreiziger linkernavigatie. [Meer informatie](../get-started/user-interface.md#user-interface-explorer)
 
-Ondersteunde en niet-ondersteunde mogelijkheden en interoperabiliteit tussen de gebruikersinterface van het Web van de Campagne en de de cliëntconsole van de Campagne [op deze pagina](../get-started/capability-matrix.md)
+Ondersteunde en niet gesteunde mogelijkheden en interoperabiliteit tussen het gebruikersinterface van het Web van de Campagne en de cliëntconsole van de Campagne [ in deze pagina ](../get-started/capability-matrix.md)
 
 ## Terminologie {#terminology}
 
@@ -61,24 +61,26 @@ De meeste concepten zijn vergelijkbaar tussen Campagne v8 en Campaign Standard. 
 * Audiences are **Lists**. [Learn more](../audience/gs-audiences-recipients.md).
 -->
 
-* Aangepaste bronnen zijn **Schemas**
-* Berichten worden aangeduid als **Leveringen**
-* Productgebruikers zijn **Operatoren**
-* Rollen worden geconfigureerd met **Benoemde rechten**
-* Beveiligingsgroepen zijn **Operatorgroepen**
-* Organisatorische eenheden worden beheerd via **Mapmachtigingen**
+* De middelen van de douane zijn **Schema&#39;s**
+* De berichten worden bedoeld als **Leveringen**
+* De gebruikers van het product zijn **Operatoren**
+* De rollen worden gevormd met **Genoemde Rechten**
+* De Groepen van de veiligheid zijn **Groepen van de Exploitant**
+* De organisatorische eenheden worden beheerd door **Toestemmingen van de Omslag**
 
 ## Nieuwe functies {#new-features}
 
-Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste mogelijkheden voor Campaign Standard toegevoegd aan Campagne v8. Deze worden nader beschreven in [deze documentatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
+Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste mogelijkheden voor Campaign Standard toegevoegd aan Campagne v8. Zij zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) {target="_blank"}.
 
-* **Dynamische rapportage**: Dynamic Reporting biedt volledig aanpasbare en real-time rapporten om het effect van uw marketingactiviteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
+* **Dynamische Rapportering**: De dynamische Rapportering verstrekt volledig klantgerichte en real time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 
-* **Gecentraliseerde branding**: Elk bedrijf heeft merkvisuele en technische richtlijnen. Met Adobe Campaign kunt u een reeks specificaties definiëren om uw klanten een consistent merk te bieden, van logo&#39;s tot technische aspecten, zoals e-mailzender, URL of domeinen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+* **Gecentraliseerde branding**: Elk bedrijf heeft merk visuele en technische richtlijnen. Met Adobe Campaign kunt u een reeks specificaties definiëren om uw klanten een consistent merk te bieden, van logo&#39;s tot technische aspecten, zoals e-mailzender, URL of domeinen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
-* **Rest APIs** - Als gemigreerde gebruiker van de Campagne Standard kunt u Rest APIs gebruiken om integratie voor Adobe Campaign tot stand te brengen en uw eigen ecosysteem te bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+* **Rest APIs** - als Gegigreerde gebruiker van de Stard van de Campagne, kunt u Rest APIs gebruiken om integratie voor Adobe Campaign tot stand te brengen en uw eigen ecosysteem te bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
 
-* **Openingspagina&#39;s** - Er zijn enkele verbeteringen aangebracht in de bestemmingspagina&#39;s van Campaign v8 om ervoor te zorgen dat de functies gelijk zijn aan het Campaign Standard. Meer informatie in het dialoogvenster [releaseopmerkingen](../rn/release-notes.md#new-24-4) en de landingspagina [documentatie](../landing-pages/get-started-lp.md).
+* **het Aanvoeren pagina&#39;s** - Sommige verbeteringen zijn gebracht aan het Aanvoeren van de Campagne v8 pagina&#39;s om eigenschappariteit met Campaign Standard te verzekeren. Leer meer in de [ versienota&#39;s ](../rn/release-notes.md#new-24-4) en de het landen pagina [ documentatie ](../landing-pages/get-started-lp.md).
+
+* **Visuele fragmenten** - de Visuele fragmenten zijn herbruikbare visuele componenten die in één of meerdere e-mailleveringen of in inhoudsmalplaatjes kunnen worden van verwijzingen voorzien. Wanneer u een fragment wijzigt, wordt alle inhoud die het fragment gebruikt, bijgewerkt. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud samenstellen die marketinggebruikers kunnen gebruiken om snel inhoud van berichten samen te stellen in een verbeterd ontwerpproces. [Meer informatie](../content/use-visual-fragments.md)
 
 <!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 

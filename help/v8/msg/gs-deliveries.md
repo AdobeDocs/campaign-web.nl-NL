@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3afff35c-c15f-46f8-b791-9bad5e38ea44
-source-git-commit: 8667de1d86428427edd9a2718218de9801b0922d
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
@@ -89,9 +89,9 @@ U kunt de inhoud van het bericht aanpassen door:
 
   De gebieden van de verpersoonlijking worden gebruikt voor verpersoonlijking op het eerste niveau van uw berichten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur. Voor een levering kunt u elk veld selecteren dat betrekking heeft op de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. [Meer informatie](../personalization/personalize.md)
 
-* Het opnemen van vooraf bepaalde **inhoudsblokken**
+* Het opnemen van vooraf bepaalde **uitdrukkingsfragmenten**
 
-  De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de personalisatie-editor. [Meer informatie](../personalization/personalize.md#ootb-content-blocks)
+  Campagne wordt geleverd met een set expressiefragmenten die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. expressiefragmenten zijn beschikbaar in een speciaal daarvoor bestemde vermelding in de personalisatie-editor. Daarnaast kunt u ook uw eigen expressiefragmenten maken die aan uw wensen voldoen. [ Leer hoe te om uitdrukkingsfragmenten ](../content/use-expression-fragments.md) te gebruiken
 
 * Creeer **voorwaardelijke inhoud**
 

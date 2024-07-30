@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 810ff236b28141d09f3a4d1ff8d102da7de9a0ef
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1689'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,9 @@ In de sectie CONTENT MANAGEMENT kunt u uw inhoudssjablonen en fragmenten weergev
 
 * **malplaatjes van de Inhoud** - voor een versneld en verbeterd ontwerpproces, kunt u standalone malplaatjes tot stand brengen om douaneinhoud over [!DNL Adobe Campaign] gemakkelijk te hergebruiken. Alleen beschikbaar voor e-mails. Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan zelfstandige sjablonen werken, zodat marketinggebruikers deze opnieuw kunnen gebruiken en aanpassen in hun eigen e-mailcampagnes. Lees meer in [deze sectie](../email/create-email-templates.md).
 
-<!--
-* **Fragments** -
--->
+* **Fragmenten** - een fragment is een herbruikbare component die in één of meerdere leveringen over campagnes kan worden van verwijzingen voorzien. Wanneer u een fragment wijzigt, wordt alle inhoud die het fragment gebruikt, bijgewerkt. [ Leer hoe te met fragmenten ](../content/fragments.md) te werken
+
+Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud vooraf samenstellen. Deze blokken kunnen door marketinggebruikers worden gebruikt om snel e-mailinhoud samen te stellen in een verbeterd ontwerpproces.
 
 ### Klantenbeheer {#user-interface-customer-management}
 

@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '741'
 ht-degree: 14%
 
 ---
@@ -27,7 +27,8 @@ ht-degree: 14%
    + [De interface detecteren](get-started/user-interface.md)
    + [Bladeren en lijsten filteren](get-started/list-filters.md)
    + [Werken met vooraf gedefinieerde filters](get-started/predefined-filters.md)
-   + [Toegang en machtigingen](get-started/permissions.md)
+   + [Werken met mappen](get-started/work-with-folders.md)
+   + [Machtigingen](get-started/permissions.md)
    + [Campagne Web en de console van de Cliënt](get-started/capability-matrix.md)
    + [Van Campaign Standard naar v8](rn/acs-migration.md)
    + [Contextafhankelijke Help voor AI](get-started/using-ai.md)
@@ -37,30 +38,7 @@ ht-degree: 14%
    + [Leveringssjablonen gebruiken](msg/delivery-template.md)
    + E-mails {#email}
       + [Uw eerste e-mail maken](email/create-email.md)
-      + E-mailinhoud definiëren {#content}
-         + [E-mailinhoud configureren](email/edit-content.md)
-         + Herbruikbare inhoud beheren {#manage-reusable-content}
-            + [Werken met inhoudssjablonen](email/create-email-templates.md)
-            + [Werken met visuele fragmenten](email/fragments.md)
-            + [ voeg visuele fragmenten aan uw e-mails toe ](email/use-visual-fragments.md)
-         + Uw e-mail vorm geven {#start-design}
-            + [Aan de slag met Email Designer](email/get-started-email-designer.md)
-            + [Opnieuw starten](email/create-email-content.md)
-            + [Uw e-mailinhoud importeren](email/existing-content.md)
-            + [Uw eigen inhoud coderen](email/code-content.md)
-            + [Sjablonen voor e-mailinhoud gebruiken](email/use-email-templates.md)
-         + Inhoud ontwerpen {#design-content}
-            + [Inhoudscomponenten gebruiken](email/content-components.md)
-            + [Koppelingen toevoegen en berichten bijhouden](email/message-tracking.md)
-            + [Een koppeling toevoegen aan de spiegelpagina](email/mirror-page.md)
-            + [Een preheader toevoegen](email/preheader.md)
-            + [De tekstversie genereren](email/text-version-email.md)
-         + Stijl uw inhoud {#style}
-            + [Aan de slag met e-mailstijl](email/get-started-email-style.md)
-            + [Achtergrondinstellingen bewerken](email/backgrounds.md)
-            + [Verticale uitlijning en opvulling aanpassen](email/alignment-and-padding.md)
-            + [Een stijl voor koppelingen definiëren](email/styling-links.md)
-            + [Inline-opmaakkenmerken toevoegen](email/inline-styling.md)
+      + [E-mailinhoud configureren](email/edit-content.md)
       + E-mail verzenden en controleren {#monitor}
          + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
          + [Verzenden met meerdere golven](advanced-settings/send-using-waves.md)
@@ -89,11 +67,6 @@ ht-degree: 14%
       + [E-mailgeneratie met AI Assistant](email/generative-content.md)
       + [SMS genereren met de AI Assistant](email/generative-sms.md)
       + [Pushmeldingen genereren met de AI Assistant](email/generative-push.md)
-   + Inhoud dynamisch maken {#dynamic-content}
-      + [Aan de slag met dynamische inhoud](personalization/gs-personalization.md)
-      + [Aanpassing toevoegen](personalization/personalize.md)
-      + [Voorwaardelijke inhoud maken](personalization/conditions.md)
-      + [Ingebouwde inhoudsblokken toevoegen](personalization/content-blocks.md)
    + [Aanbiedingen toevoegen aan uw berichten](msg/offers.md)
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
@@ -106,6 +79,37 @@ ht-degree: 14%
       + [Aan de slag met leveringsberichten](msg/delivery-alerting.md)
       + [Waarschuwingsdashboards](msg/delivery-alerting-dashboards.md)
       + [Beoordelingscriteria voor aflevering](msg/delivery-alerting-criteria.md)
++ Inhoudsbeheer {#content}
+   + Dynamische inhoud maken {#dynamic-content}
+      + [Hoe kan ik uw inhoud dynamisch maken?](personalization/gs-personalization.md)
+      + [Aanpassing toevoegen](personalization/personalize.md)
+      + [Voorwaardelijke inhoud maken](personalization/conditions.md)
+   + Inhoud opnieuw gebruiken {#manage-reusable-content}
+      + [Werken met inhoudssjablonen](email/create-email-templates.md)
+      + Inhoudsfragmenten {#fragments}
+         + [Aan de slag met inhoudsfragmenten](content/fragments.md)
+         + [Inhoudsfragmenten maken en bewerken](content/create-fragment.md)
+         + [Visuele fragmenten in uw e-mails gebruiken](content/use-visual-fragments.md)
+         + [Expressiefragmenten gebruiken in de expressie-editor](content/use-expression-fragments.md)
+   + E-mails ontwerpen {#email-design}
+      + [Aan de slag met Email Designer](email/get-started-email-designer.md)
+      + Uw e-mail vorm geven {#start-design}
+         + [Opnieuw starten](email/create-email-content.md)
+         + [Uw e-mailinhoud importeren](email/existing-content.md)
+         + [Uw eigen inhoud coderen](email/code-content.md)
+         + [Sjablonen voor e-mailinhoud gebruiken](email/use-email-templates.md)
+      + Inhoud ontwerpen {#design-content}
+         + [Inhoudscomponenten gebruiken](email/content-components.md)
+         + [Koppelingen toevoegen en berichten bijhouden](email/message-tracking.md)
+         + [Een koppeling toevoegen aan de spiegelpagina](email/mirror-page.md)
+         + [Een preheader toevoegen](email/preheader.md)
+         + [De tekstversie genereren](email/text-version-email.md)
+      + Stijl uw inhoud {#style}
+         + [Aan de slag met e-mailstijl](email/get-started-email-style.md)
+         + [Achtergrondinstellingen bewerken](email/backgrounds.md)
+         + [Verticale uitlijning en opvulling aanpassen](email/alignment-and-padding.md)
+         + [Een stijl voor koppelingen definiëren](email/styling-links.md)
+         + [Inline-opmaakkenmerken toevoegen](email/inline-styling.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](landing-pages/get-started-lp.md)
    + [Een openingspagina maken en publiceren](landing-pages/create-lp.md)
@@ -210,5 +214,4 @@ ht-degree: 14%
    + [Sjablonen beheren met Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuratie {#conf}
    + [Aangepaste velden configureren](administration/custom-fields.md)
-   + [Een map maken en beheren](administration/create-manage-folder.md)
 + [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

@@ -3,7 +3,7 @@ audience: end-user
 title: Abonnementen en programma's
 description: Leer hoe u plannen en programma's maakt en configureert in Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 Met Adobe Campaign kunt u uw maphiërarchie configureren voor marketingplannen en -programma&#39;s.
 
-Om ze beter te organiseren, raadt de Adobe de volgende hiërarchie aan: Plan `>` Programma&#39;s `>` Campagnes
+Voor een betere organisatie van de programma&#39;s raadt de Adobe de volgende hiërarchie aan: `>` Programma&#39;s plannen `>`
 
-* A **plan** kan meerdere programma&#39;s bevatten. In het voorstel worden strategische doelstellingen voor een bepaalde periode vastgesteld.
-* A **programma** kunnen andere programma&#39;s bevatten, alsmede campagnes, workflows en landingspagina&#39;s.
-* A **campagne** kan leveringen, workflows en bestemmingspagina&#39;s bevatten.
+* A **plan** kan veelvoudige programma&#39;s bevatten. In het voorstel worden strategische doelstellingen voor een bepaalde periode vastgesteld.
+* A **programma** kan andere programma&#39;s evenals campagnes, werkschema&#39;s en landende pagina&#39;s bevatten.
+* A **campagne** kan leveringen, werkschema&#39;s en landende pagina&#39;s bevatten.
 
 ## Een abonnement maken en configureren {#create-plan}
 
-Als u een plan wilt maken, moet u een map maken met het mappstype **[!UICONTROL Plan]** [Meer informatie over het maken van een map](create-manage-folder.md).
+Om een plan tot stand te brengen, moet u een omslag met het omslagtype **[!UICONTROL Plan]** [ tot stand brengen meer over het creëren van een omslag ](../get-started/work-with-folders.md) leren.
 
 ![](assets/plan_create.png){zoomable="yes"}
 
@@ -36,14 +36,14 @@ Ga naar de **[!UICONTROL Folder settings]** van uw plan om het te beheren.
 
 ![](assets/plan_settings.png){zoomable="yes"}
 
-U kunt **[!UICONTROL Custom options]** en om de planningsdatum van uw abonnement in te stellen.
+U kunt **[!UICONTROL Custom options]** definiëren en de planningsdatum van uw abonnement instellen.
 
 ![](assets/plan_options.png){zoomable="yes"}
 
-Om het  **[!UICONTROL Custom options]**:
+U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 
 1. Bladeren naar de **[!UICONTROL Schemas]**
-1. Kies de optie **[!UICONTROL Editable]** schema&#39;s in de filters
+1. Kies de **[!UICONTROL Editable]** schema&#39;s in de filters
 1. Klik op het pictogram van **[!UICONTROL Edit custom details]**
 
 ![](assets/plan_edit.png){zoomable="yes"}
@@ -54,7 +54,7 @@ U kunt ze configureren:
 
 ## Een programma maken en configureren
 
-Een programma maken in uw abonnement ([Meer informatie over het maken van een abonnement](#create-plan)), moet u in uw plan zijn en een omslag met het omslagtype creëren **[!UICONTROL Program]** [Meer informatie over het maken van een map](create-manage-folder.md).
+Om een programma in uw plan ([ te creëren Leer meer over het creëren van een plan ](#create-plan)), moet u in uw plan zijn en een omslag met het omslagtype **[!UICONTROL Program]** tot stand brengen [ Leer meer over het creëren van een omslag ](../get-started/work-with-folders.md).
 
 ![](assets/program_create.png){zoomable="yes"}
 
@@ -62,14 +62,14 @@ Ga naar de **[!UICONTROL Folder settings]** van uw programma om het te beheren.
 
 ![](assets/program_settings.png){zoomable="yes"}
 
-U kunt **[!UICONTROL Custom options]** en om de planningsdatum van uw programma in te stellen.
+U kunt **[!UICONTROL Custom options]** definiëren en de planningsdatum van uw programma instellen.
 
 ![](assets/program_options.png){zoomable="yes"}
 
-Om het  **[!UICONTROL Custom options]**:
+U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 
 1. Bladeren naar de **[!UICONTROL Schemas]**
-1. Kies de optie **[!UICONTROL Editable]** schema&#39;s in de filters
+1. Kies de **[!UICONTROL Editable]** schema&#39;s in de filters
 1. Klik op het pictogram van **[!UICONTROL Edit custom details]**
 
 ![](assets/program_edit.png){zoomable="yes"}
@@ -88,21 +88,21 @@ Als u een nieuwe campagne wilt koppelen aan uw programma, maakt u de campagne re
 
 ![](assets/program_campaign_create.png){zoomable="yes"}
 
-De **[!UICONTROL Folder]** de instellingen worden automatisch met het pad naar uw programma gearchiveerd.
+De **[!UICONTROL Folder]** -instellingen worden automatisch ingevuld met het pad naar uw programma.
 
 ![](assets/program_campaign_folder.png){zoomable="yes"}
 
 ### Way #2: U hebt al een bestaande campagne en wilt deze koppelen aan een bestaand programma
 
-Ga naar de **[!UICONTROL Settings]** knop van de campagne die u aan uw programma wilt koppelen:
+Ga naar de knop **[!UICONTROL Settings]** van de campagne die u aan uw programma wilt koppelen:
 
 ![](assets/campaign_settings.png){zoomable="yes"}
 
-In haar **[!UICONTROL Properties]** klikt u op de knop **[!UICONTROL Folder]** in het deelvenster **[!UICONTROL Folder]** om uw **[!UICONTROL Program]** map.
+Klik in de **[!UICONTROL Properties]** ervan op het pictogram **[!UICONTROL Folder]** in de **[!UICONTROL Folder]** -instellingen om de **[!UICONTROL Program]** -map te kiezen.
 
 ![](assets/campaign_folder.png){zoomable="yes"}
 
-Selecteer uw **[!UICONTROL Program]** en klik op **[!UICONTROL Confirm]** en vervolgens aan **[!UICONTROL Save and Close]** knop.
+Selecteer de map **[!UICONTROL Program]** en klik op de knop **[!UICONTROL Confirm]** en vervolgens op de knop **[!UICONTROL Save and Close]** .
 
 ![](assets/campaign_linked.png){zoomable="yes"}
 

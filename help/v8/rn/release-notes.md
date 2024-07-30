@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5b6843e57ac4160d943aac5aca5d86a9b4fa7783
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1938'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,42 @@ ht-degree: 5%
 >abstract="De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Opmerkingen bij de release Campagne worden daarom meerdere keren per maand bijgewerkt met de nieuwste functies, verbeteringen en correcties. We raden u aan deze regelmatig te controleren."
 
 De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+
+## Release-aantekeningen juli {#24-7-release}
+
+**de datum van de Versie**: 30-31 juli, 2024
+
+De volgende functies en verbeteringen zijn beschikbaar vanaf de release in juli.
+
+### Inhoudsfragmenten {#24-7-1}
+
+U kunt nu inhoudsfragmenten maken en gebruiken. Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Wanneer u een fragment wijzigt, wordt alle inhoud die het fragment gebruikt, bijgewerkt. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud samenstellen die marketinggebruikers kunnen gebruiken om snel inhoud van berichten samen te stellen in een verbeterd ontwerpproces.
+
+Er zijn twee typen fragmenten beschikbaar:
+
+* **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen die van een specifieke ingang in de uitdrukkingsredacteur beschikbaar zijn.
+* **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige e-mailleveringen, of in inhoudsmalplaatjes kunt hergebruiken. [Meer informatie](../content/fragments.md)
+
+  >[!AVAILABILITY]
+  >
+  >**de Visuele fragmenten** zijn in Beperkte Beschikbaarheid (LA). Dit vermogen wordt beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
+
+### Zaadlijsten {#24-7-2}
+
+Een zaadlijst, ook bekend als. **de groep van de Overlapping**, is een lijst van zaadadressen. Het wordt gebruikt om specifieke adressen in uw leveringen te omvatten, en dan doelprofielen die niet aan de bepaalde doelcriteria voldoen. Op deze manier kunnen ontvangers die buiten het leveringspubliek vallen, de levering ontvangen, net als elke andere doelontvanger. U kunt zaadadressen gebruiken wanneer het verzenden van proefdrukken, of om uw postingslijst te beschermen.
+
+### Sjablonen voor pushmeldingen {#24-7-3}
+
+U kunt nu uitgebreide pushmeldingen verzenden. Een uitgebreide pushmelding is een verbeterde vorm van mobiele meldingen die verder gaat dan eenvoudige tekstberichten door het opnemen van multimedia-elementen, zoals afbeeldingen, interactieve knoppen of andere rijke media-inhoud. Met deze versie is een set sjablonen voor uitgebreide pushmeldingen nu beschikbaar voor uw iOS- en Android-apps.
+
+>[!AVAILABILITY]
+>
+>Voor deze functie is een update naar Campagne v8.6.3 <!--or v8.7.2--> vereist. Leer meer in de console van de Cliënt van de Campagne v8 [ versienota&#39;s ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
+
+### Verbeteringen {#improvements-24-7}
+
+**het beheer van Omslagen** - u kunt toestemmingen en beperkingen op omslagen nu beheren.
+
 
 ## Release-aantekeningen juni {#24-6-release}
 

@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: De e-mailinhoud bewerken
-description: Leer hoe u inhoud gaat maken met de gebruikersinterface E-mailontwerper in Campagne Web
+description: Leer hoe u inhoud gaat maken met de gebruikersinterface E-mail Designer in Campagne Web
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '379'
 ht-degree: 7%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 7%
 
 Nadat u in Adobe Campaign een e-mailbericht hebt gemaakt, moet u de content definiëren.
 
-Met de e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve interface voor slepen en neerzetten. Of u nu op een lege site begint, bestaande inhoud importeert of bestaande sjablonen gebruikt, u ontwerpt en verfijnen alle inhoud voor elke e-mail, of het nu gaat om speciale acties of transacties.
+Met de e-mailtoepassing Designer kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve drag-and-drop interface. Of u nu op een lege site begint, bestaande inhoud importeert of bestaande sjablonen gebruikt, u ontwerpt en verfijnen alle inhoud voor elke e-mail, of het nu gaat om speciale acties of transacties.
 
-<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
+<!--Built to deliver HTML optimized for responsive design, the Email Designer allows you to easily define and apply visibility conditions and dynamic content to an email, template, or content fragment directly through the user interface. You can seamlessly switch between the drag and drop interface and HTML code at the click of a button.
 
 The Email Designer allows you to create email content and email content templates. It is compatible with simple emails, transactional emails, A/B test emails, multilingual emails, and recurring emails.-->
 
-* Gebruiken [!DNL Campaign] e-mailontwerpmogelijkheden om responsieve e-mails te maken. [Meer informatie](create-email-content.md)
+* Met [!DNL Campaign] e-mailontwerpmogelijkheden kunt u gemakkelijk responsieve e-mails maken. [Meer informatie](create-email-content.md)
 
 * Verbeter de ervaring van klanten door personaliseerd te creëren op basis van hun profielkenmerken. [Meer informatie](../personalization/personalize.md)
 
@@ -35,14 +35,14 @@ Om deze weergaveproblemen tot een minimum te beperken, raden we u aan de structu
 
 ## Beginnen met het ontwerpen van uw inhoud {#start-authoring}
 
-Ga vanaf het dashboard voor e-maillevering door de [Inhoud bewerken](edit-content.md) scherm om de startpagina van E-mailontwerper te openen. Kies in dit venster hoe u uw e-mail wilt ontwerpen uit de volgende opties:
+Van het dashboard van de e-maillevering, ga door [ inhoud ](edit-content.md) scherm uitgeven om de E-mail Designer homepage te openen. Kies in dit venster hoe u uw e-mail wilt ontwerpen uit de volgende opties:
 
-* **Ontwerp uw e-mail helemaal zelf** via de interface van de e-mailontwerper. Leer hoe u uw e-mailinhoud ontwerpt in [deze sectie](create-email-content.md).
+* **Ontwerp uw e-mail van kras** door de interface van de e-mailontwerper. Leer hoe te om uw e-mailinhoud in [ te ontwerpen deze sectie ](create-email-content.md).
 
-* **Code of paste raw HTML** rechtstreeks in de e-mailontwerper. Leer hoe u uw eigen inhoud codeert in [deze sectie](code-content.md).
+* **Code of deeg ruwe HTML** direct in de e-mailontwerper. Leer hoe te om uw eigen inhoud in [ te coderen deze sectie ](code-content.md).
 
-* **Bestaande HTML-inhoud importeren** uit een bestand of een ZIP-map. Leer hoe u e-mailinhoud importeert in [deze sectie](existing-content.md).
+* **de Inhoud van de Invoer bestaande HTML** van een dossier of een .zip omslag. Leer hoe te om een e-mailinhoud in [ in deze sectie ](existing-content.md) in te voeren.
 
-* **Bestaande inhoud selecteren** uit een lijst met ingebouwde of aangepaste sjablonen. Leer hoe u met e-mailsjablonen werkt [deze sectie](create-email-templates.md).
+* **selecteer een bestaande inhoud** van een lijst van ingebouwde of douanesjablonen. Leer hoe te met e-mailmalplaatjes [ deze sectie ](create-email-templates.md) te werken.
 
-  ![](assets/email_designer_create_options.png){zoomable=&quot;yes&quot;}
+  ![](assets/email_designer_create_options.png){zoomable="yes"}
