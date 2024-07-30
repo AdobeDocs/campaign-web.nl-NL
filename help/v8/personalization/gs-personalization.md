@@ -1,6 +1,6 @@
 ---
-title: Aan de slag met dynamische inhoud
-description: Leer hoe u uw inhoud dynamisch kunt maken met behulp van verpersoonlijking, voorwaardelijke inhoud en ingebouwde inhoudsblokken.
+title: Hoe kan ik uw inhoud dynamisch maken?
+description: Leer hoe u uw inhoud dynamisch kunt maken met behulp van personalisatie en voorwaardelijke inhoud.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -9,19 +9,19 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-# Aan de slag met dynamische inhoud {#gs-dynamic-content}
+# Hoe kan ik uw inhoud dynamisch maken? {#gs-dynamic-content}
 
 >[!CONTEXTUALHELP]
 >id="acw_targetdata_personalization_dashboard"
->title="Personalisatie"
->abstract="Met de expressieeditor kunt u alle gegevens selecteren, rangschikken, aanpassen en valideren om een aangepaste ervaring voor uw inhoud te maken. U kunt uw berichten aan elke ontvanger personaliseren door profielgegevens te gebruiken, en voorwaardelijke inhoud creëren om uw bericht aan elke ontvanger aan te passen en slechts de inhoud te tonen die relevant is. Daarnaast zijn er aanpassingsblokken beschikbaar om vooraf gedefinieerde, gepersonaliseerde inhoud toe te voegen aan uw leveringen."
+>title="Personalization"
+>abstract="Met de expressieeditor kunt u alle gegevens selecteren, rangschikken, aanpassen en valideren om een aangepaste ervaring voor uw inhoud te maken. U kunt uw berichten aan elke ontvanger personaliseren door profielgegevens te gebruiken, en voorwaardelijke inhoud creëren om uw bericht aan elke ontvanger aan te passen en slechts de inhoud te tonen die relevant is."
 
 Als marktleider, is het essentieel om klanten te richten die werkelijk in uw dienstenaanbod geinteresseerd zijn en hen in dienst te nemen door efficiënte en relevante inhoud te verstrekken. Gezien de uiteenlopende verscheidenheid aan ontvangers die u tegenkomt, kan het creëren van veelvoudige stukken van marketing inhoud om aan verschillende mensen aan te trekken tijdrovend en verkwistend zijn. Op deze manier wordt dynamische inhoud afgespeeld.
 
@@ -29,70 +29,34 @@ Met de dynamische inhoudsmogelijkheden van Adobe Campaign Web kunt u uw inhoud a
 
 ## Hoe kan ik uw inhoud dynamisch maken? {#make-content-dyn}
 
-U kunt de inhoud van uw bericht dynamisch maken door JavaScript-constructies in te voegen in de Campagne Web expression editor. Bij het verzenden van berichten worden deze expressies door Adobe Campaign geïnterpreteerd om de juiste inhoud aan elk van uw ontvangers te leveren:
+U kunt uw berichtinhoud dynamisch maken door de constructies van JavaScript in de de uitdrukkingsredacteur van het Web van de Campagne op te nemen. Bij het verzenden van berichten worden deze expressies door Adobe Campaign geïnterpreteerd om de juiste inhoud aan elk van uw ontvangers te leveren:
 
-* **Je berichten personaliseren** aan elke specifieke ontvanger door profielgegevens zoals hun voornaam, belangen, waar zij wonen, wat zij hebben gekocht, en nog veel meer te gebruiken. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. Met de volgende syntaxis wordt de plaats van de ontvanger in de inhoud ingevoegd: &lt;%= receiving.location.city %>.
+* **Personaliseer uw berichten** aan elke specifieke ontvanger door profielgegevens zoals hun voornaam, interesses, waar zij leven, wat zij, en veel meer kochten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur met betrekking tot de ontvanger, het bericht of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. Met de volgende syntaxis wordt de plaats van de ontvanger in de inhoud ingevoegd: &lt;%= receiving.location.city %>.
 
-  ![](assets/perso-subject-line.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/perso-subject-line.png){zoomable="yes"}{width="800" align="center"}
 
-* **Voorwaardelijke inhoud maken** om uw leveringen aan elke ontvanger aan te passen en slechts de inhoud te tonen die voor een bepaalde klant relevant is die op de informatie wordt gebaseerd u over hen hebt. Hierdoor kunt u specifieke tekstblokken en/of afbeeldingen op basis van voorwaarden weergeven. U kunt bijvoorbeeld een e-mailbanner op basis van het abonnement van de ontvangers aanpassen aan een specifieke service.
+* **creeer voorwaardelijke inhoud** om uw leveringen aan elke ontvanger aan te passen en toon slechts de inhoud die voor een bepaalde klant relevant is die op de informatie wordt gebaseerd u over hen hebt. Hierdoor kunt u specifieke tekstblokken en/of afbeeldingen op basis van voorwaarden weergeven. U kunt bijvoorbeeld een e-mailbanner op basis van het abonnement van de ontvangers aanpassen aan een specifieke service.
 
-  ![](assets/condition-sample.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
-
-* **Verpersoonlijkingsblokken gebruiken** om tijd en hefboomwerking gemakkelijk opnieuw te gebruiken gepersonaliseerde inhoud in uw berichten te besparen. De campagne wordt geleverd met een reeks verpersoonlijkingsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van een e-mailbericht toevoegen. Inhoudsblokken zijn beschikbaar bij een speciale vermelding in de verpersoonlijkingseditor.
-
-  ![](assets/content-blocks.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
 ## De expressie-editor openen {#access}
 
-Adobe Campaign Web verstrekt een uitdrukkingsredacteur waar u kunt selecteren, rangschikken, aanpassen en bevestigen alle gegevens om een aangepaste ervaring voor uw inhoud tot stand te brengen. De expressie-editor is beschikbaar voor alle kanalen, in alle velden met de **[!UICONTROL Open personalization dialog]** -pictogram, zoals het veld voor de onderwerpregel, of e-mailkoppelingen en componenten voor tekst/knopinhoud.
+Adobe Campaign Web verstrekt een uitdrukkingsredacteur waar u kunt selecteren, rangschikken, aanpassen en bevestigen alle gegevens om een aangepaste ervaring voor uw inhoud tot stand te brengen. De expressie-editor is beschikbaar voor alle kanalen, in alle velden met het pictogram **[!UICONTROL Open personalization dialog]** , zoals het veld voor de onderwerpregel, of voor e-mailkoppelingen en componenten voor tekst/knopinhoud.
 
 Hier volgen enkele voorbeelden van hoe u toegang krijgt tot de expressieeditor, afhankelijk van de inhoud die u dynamisch wilt maken:
 
-* *De uitdrukkingsredacteur van het de naamgebied van de Afzender toegang hebben*
+* *Toegang hebbend tot de uitdrukkingsredacteur van het de naamgebied van de Afzender*
 
-  ![](assets/expression-editor-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/expression-editor-access.png){zoomable="yes"}{width="800" align="center"}
 
-* *De expressie-editor openen vanuit een e-mailtekstcomponent*
+* *die tot de uitdrukkingsredacteur van een component van de e-mailtekst toegang hebben*
 
-  ![](assets/expression-editor-access-email.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/expression-editor-access-email.png){zoomable="yes"}{width="800" align="center"}
 
-* *Expressieeditor openen via een koppeling in een e-mailbericht*
+* *die tot de uitdrukkingsredacteur van een verbinding in e-mail toegang hebben*
 
-  ![](assets/perso-link-insert-icon.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+  ![](assets/perso-link-insert-icon.png){zoomable="yes"}{width="800" align="center"}
 
 >[!NOTE]
 >
->Naast de expressie-editor kunt u ook een speciale, voorwaardelijke inhoudsontwikkelaar gebruiken bij het ontwerpen van een e-mail. [Meer informatie over het maken van voorwaardelijke inhoud in e-mails](conditions.md)
-
-## Laten we dieper duiken {#dive-deeper}
-
-Nu u inzicht hebt in hoe te om uw inhoud dynamisch te maken, is het tijd om dieper in deze documentatiesecties te duiken beginnen met het werken met de eigenschap.
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="personalize.md">
-<img alt="Inhoud personaliseren" src="assets/do-not-localize/dynamic-personalization.jpg">
-</a>
-<div>
-<a href="personalize.md"><strong>Aanpassing toevoegen</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="conditions.md">
-<img alt="Lood" src="assets/do-not-localize/dynamic-conditional.jpg">
-</a>
-<div><a href="conditions.md"><strong>Voorwaardelijke inhoud toevoegen</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="content-blocks.md">
-<img alt="Onfrequent" src="assets/do-not-localize/dynamic-content-blocks.jpg">
-</a>
-<div>
-<a href="content-blocks.md"><strong>Ingebouwde inhoudsblokken toevoegen</strong></a>
-</div>
-<p></td>
-</tr></table>
+>Naast de expressie-editor kunt u ook een speciale, voorwaardelijke inhoudsontwikkelaar gebruiken bij het ontwerpen van een e-mail. [ Leer hoe te om voorwaardelijke inhoud in e-mails te bouwen ](conditions.md)

@@ -1,0 +1,31 @@
+---
+audience: end-user
+title: Expressiefragmenten toevoegen in de expressie-editor
+description: Leer hoe u maakt met inhoudsfragmenten
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 0%
+
+---
+
+# Expressiefragmenten toevoegen in de expressie-editor {#expression}
+
+>[!CONTEXTUALHELP]
+>id="acw_fragments_list"
+>title="Fragmenten"
+>abstract="Alle uitdrukkingsfragmenten die op de huidige zandbak worden gecreeerd tonen in deze lijst. Als u een fragment wilt gebruiken, klikt u op de knop + om de fragment-id toe te voegen aan de editor."
+
+<!-- pas vu dans l'UI-->
+
+Expressiefragmenten kunnen worden gebruikt in elk veld dat kan worden bewerkt met de expressie-editor. Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
+
+1. Open de [ redacteur van de Uitdrukking ](../personalization/gs-personalization.md) en selecteer het **[!UICONTROL Fragments]** menu in de linkerruit.
+
+   In de lijst worden alle uitdrukkingsfragmenten weergegeven die in de huidige sandbox zijn gemaakt.
+
+1. Klik op het pictogram `+` naast een expressiefragment om het toe te voegen aan uw inhoud.
+
+   ![](assets/fragment-add-expression.png)
+
+1. De fragment-id wordt toegevoegd aan de editor. Als u het overeenkomstige uitdrukkingsfragment opent en het uit de interface uitgeeft, worden de veranderingen gesynchroniseerd. Ze worden automatisch doorgegeven aan alle **[!UICONTROL Draft]** -items die die fragment-id bevatten.

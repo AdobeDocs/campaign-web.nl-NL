@@ -3,9 +3,9 @@ audience: end-user
 title: E-mails ontwerpen in de Designer
 description: Leer hoe u uw e-mailinhoud helemaal zelf ontwerpt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_fragment"
 >title="Structuren toevoegen"
->abstract="Structuren bepalen de lay-out van het fragment. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen uw fragmentinhoud te ontwerpen."
+>abstract="Structuren bepalen de lay-out van het inhoudsfragment. De belemmering en laat vallen component van de a **Structuur** in het canvas beginnen uw fragmentinhoud te ontwerpen."
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_template"
@@ -45,8 +45,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
->title="Fragmentkolommen definiëren"
->abstract="Met de e-mail Designer kunt u de indeling van het fragment eenvoudig definiëren door de kolomstructuur te definiëren."
+>title="Inhoudsfragmentkolommen definiëren"
+>abstract="Met de e-mail-Designer kunt u de lay-out van het inhoudsfragment eenvoudig definiëren door de kolomstructuur te definiëren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"

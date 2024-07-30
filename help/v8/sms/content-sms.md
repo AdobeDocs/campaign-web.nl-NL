@@ -3,7 +3,7 @@ audience: end-user
 title: Een SMS-levering ontwerpen
 description: Meer weten over het ontwerpen van je SMS-aanbieding?
 exl-id: 54288448-d568-4be4-ab6c-d0f8fa7bc2cb
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_content"
 >title="SMS-inhoud"
->abstract="Maak de inhoud van uw SMS-berichten en verbeter deze aan de hand van verpersoonlijkingsvelden, inhoudsblokken en dynamische inhoud. Om uw bericht te beginnen samenstellen, klik **inhoud** knoop uitgeven."
+>abstract="Maak de inhoud van uw SMS-berichten en pas deze aan met personalisatievelden, expressiefragmenten en dynamische inhoud. Om uw bericht te beginnen samenstellen, klik **inhoud** knoop uitgeven."
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_msg"
@@ -28,7 +28,7 @@ Ga als volgt te werk om de inhoud van een SMS-levering te ontwerpen:
 
 1. Op de pagina **[!UICONTROL Edit content]** kunt u de naam van de afzender aanpassen door **[!UICONTROL Sender field]** te openen en de voorkeursnaam in te voeren.
 
-   Als u op **[!UICONTROL Open personalization dialog]** klikt, kunt u bovendien verpersoonlijkingsvelden, inhoudsblokken en dynamische inhoud in uw bericht opnemen.
+   Als u op **[!UICONTROL Open personalization dialog]** klikt, kunt u bovendien verpersoonlijkingsvelden, expressiefragmenten en dynamische inhoud in uw bericht opnemen.
 
    ![](assets/sms_content_1.png){zoomable="yes"}
 
