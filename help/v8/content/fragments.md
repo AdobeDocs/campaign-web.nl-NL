@@ -3,14 +3,20 @@ audience: end-user
 title: Aan de slag met inhoudsfragmenten
 description: Leer hoe u maakt met inhoudsfragmenten
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met inhoudsfragmenten {#gs-fragments}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Inhoudsfragmenten"
+>abstract="U kunt nu inhoudsfragmenten maken en gebruiken. Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Wanneer u een fragment wijzigt, wordt alle inhoud die het fragment gebruikt, bijgewerkt."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"

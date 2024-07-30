@@ -3,7 +3,7 @@ audience: end-user
 title: Afleveringswaarschuwing
 description: Leer hoe u werkt met waarschuwingsberichten voor leveringen.
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn3"
 >title="Afleveringswaarschuwing"
 >abstract="Delivery Alerting is nu beschikbaar in Campaign. Deze mogelijkheid is een waarschuwingsbeheersysteem waarmee groepen gebruikers automatisch e-mailmeldingen kunnen ontvangen met informatie over de uitvoering van hun levering."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
@@ -23,14 +23,14 @@ De Alerting van de levering is een waakzaam beheersysteem dat groepen gebruikers
 
 Meldingen kunnen worden aangepast op basis van specifieke waarschuwingscriteria die zijn gedefinieerd via de Adobe Campaign Web User Interface.
 
-Raadpleeg voor meer informatie over het beheren van leveringsfouten de [Adobe Campaign v8 (console)-documentatie](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}
+Voor meer informatie op hoe te om leveringsmislukkingen te beheren, verwijs naar [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send) {target="_blank"}
 
 ## E-mailmeldingsinhoud {#content}
 
 E-mailmeldingen bevatten de volgende secties:
 
-* **Samenvatting**: Hiermee geeft u het aantal leveringen weer dat voldoet aan de gedefinieerde criteria, met labels en kleuren voor elk criterium.
-* **Details**: geeft voor elk criterium alle gedefinieerde leveringscriteria voor het dashboard en de bijbehorende leveringen weer.
+* **Samenvatting**: Toont het aantal leveringen die aan uw bepaalde criteria voldoen, met etiketten en kleuren voor elk criterium.
+* **Details**: Maakt een lijst van alle bepaalde leveringscriteria voor het dashboard en de overeenkomstige leveringen voor elk criterium.
 
 ![](assets/alerting-email.png)
 
@@ -38,11 +38,11 @@ E-mailmeldingen bevatten de volgende secties:
 
 Om u te helpen opstelling deze alarm, staat het Gebruikersinterface van het Web van de Campagne u toe om tot stand te brengen en te leiden:
 
-* **Waarschuwingsdashboards**: Geef ontvangers op, stel waarschuwingscriteria in voor opname in het dashboard en open een geschiedenis met verzonden waarschuwingen. [Leer hoe u met dashboards werkt](../msg/delivery-alerting-dashboards.md)
-* **Beoordelingscriteria voor aflevering**: De gebruikersinterface van het Web van de campagne verstrekt vooraf bepaalde alarmerende criteria (leveringen met lage productie, leveranties de waarvan voorbereiding ontbrak...) die u aan uw dashboard kunt toevoegen. U kunt ook uw eigen criteria maken die aan uw behoeften voldoen. [Leer hoe u met criteria werkt](../msg/delivery-alerting-criteria.md)
+* **de alarmerende dashboards van de levering**: Specificeer ontvangers, plaats alarmerende criteria om in het dashboard te omvatten, en toegang tot een geschiedenis van verzonden alarm. [ Leer hoe te met dashboards ](../msg/delivery-alerting-dashboards.md) te werken
+* **de alarmerende criteria van de Levering**: Het Gebruikersinterface van het Web van de campagne verstrekt vooraf bepaalde alarmerende criteria (leveringen met lage productie, leveringen de waarvan voorbereiding ontbrak...) die u aan uw dashboard kunt toevoegen. U kunt ook uw eigen criteria maken die aan uw behoeften voldoen. [ Leer hoe te met criteria ](../msg/delivery-alerting-criteria.md) te werken
 
 Stel dat u gebruikers met beheerrechten alleen op de hoogte wilt stellen van mislukte leveringen en dat u gebruikers op de hoogte wilt stellen van leveringen met een hoge soft bounce-foutenverhouding. Hiertoe maakt u twee aparte dashboards met de juiste criteria voor elke groep ontvangers.
 
 >[!NOTE]
 >
->Als u dashboards en waarschuwingscriteria wilt openen en configureren, moet u beschikken over **administratierechten** of maakt deel uit van de **Leveringstoezichthouders** beveiligingsgroep. Standaardgebruikers hebben geen toegang tot dashboards in de Adobe Campaign-interface, maar kunnen waarschuwingsberichten ontvangen. [Meer informatie over toegang en machtigingen](../get-started/permissions.md)
+>Om tot dashboards en alarmerende criteria toegang te hebben en te vormen, moet u **beleidsrechten** hebben of deel van de **Toezicht van de Levering** veiligheidsgroep uitmaken. Standaardgebruikers hebben geen toegang tot dashboards in de Adobe Campaign-interface, maar kunnen waarschuwingsberichten ontvangen. [ leer meer op toegang en toestemmingen ](../get-started/permissions.md)
