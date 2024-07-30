@@ -4,7 +4,7 @@ title: Audit trail
 description: Leer hoe u uw exemplaar kunt controleren met het Campagne Audit Trail
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: 0fe12b469810c946ab0b9472e9a877aaaa41581d
+source-git-commit: 7db11ee2578502a5b8f86660c7adecc07483a169
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 # Audit trail{#audit-trail}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
+>id="acw_homepage_welcome_rn5"
 >title="Audit trail"
 >abstract="De nieuwe controletrailfunctie biedt een gedetailleerd en chronologisch overzicht van alle acties en gebeurtenissen die in real-time aan uw Adobe Campaign-instantie zijn uitgevoerd."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
@@ -92,11 +92,11 @@ Ga als volgt te werk om het exemplaar **[!UICONTROL Audit trail]** te openen:
 
 1. In het venster **[!UICONTROL Audit entity]** vindt u gedetailleerdere informatie over de gekozen entiteit, zoals:
 
-   * **[!UICONTROL Type]** : workflow, opties, leveringen of schema&#39;s.
-   * **[!UICONTROL Entity]** : interne naam van uw activiteiten.
-   * **[!UICONTROL Modified by]** : gebruikersnaam van de laatste persoon die deze entiteit als laatste heeft gewijzigd.
-   * **[!UICONTROL Action]** : De laatste actie die op deze entiteit is uitgevoerd, is gemaakt, gewijzigd of verwijderd.
-   * **[!UICONTROL Modification date]** : Datum van de laatste actie die op deze entiteit is uitgevoerd.
+   * **[!UICONTROL Type]**: Workflow, opties, leveringen of schema&#39;s.
+   * **[!UICONTROL Entity]**: interne naam van uw activiteiten.
+   * **[!UICONTROL Modified by]**: Gebruikersnaam van de laatste persoon die deze entiteit als laatste heeft gewijzigd.
+   * **[!UICONTROL Action]**: De laatste actie die op deze entiteit is uitgevoerd, is gemaakt, gewijzigd of verwijderd.
+   * **[!UICONTROL Modification date]**: Datum van de laatste actie die op deze entiteit is uitgevoerd.
 
    Het codeblok geeft u meer informatie over wat precies in uw entiteit is gewijzigd.
 

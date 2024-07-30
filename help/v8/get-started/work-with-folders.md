@@ -3,7 +3,7 @@ audience: end-user
 title: Werken met mappen
 description: Leer hoe u een map beheert in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -57,7 +57,7 @@ In ons voorbeeld maken we een map in de map **[!UICONTROL Deliveries]** .
 
 ![](assets/folder_new.png){zoomable="yes"}
 
-1. Wijzig het type map door indien nodig op het pictogram Maptype te klikken en kies de map in de weergegeven lijst, zoals hieronder:
+1. Wijzig het type map door indien nodig op het pictogram Maptype te klikken en kies het type map in de weergegeven lijst, zoals hieronder:
 
 ![](assets/folder_type.png){zoomable="yes"}
 

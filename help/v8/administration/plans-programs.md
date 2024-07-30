@@ -3,7 +3,7 @@ audience: end-user
 title: Abonnementen en programma's
 description: Leer hoe u plannen en programma's maakt en configureert in Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 # Abonnementen en programma&#39;s {#plan-and-programs}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Abonnementen en programma&#39;s"
 >abstract="U kunt uw omslaghiërarchie voor marketing plannen en programma&#39;s in het gebruikersinterface van het Web van de Campagne nu vormen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
@@ -74,7 +74,7 @@ U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 
 ![](assets/program_edit.png){zoomable="yes"}
 
-U kunt hen vormen:
+U kunt ze configureren:
 
 ![](assets/program_customfields.png){zoomable="yes"}
 

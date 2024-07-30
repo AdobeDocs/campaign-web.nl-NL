@@ -3,7 +3,7 @@ audience: end-user
 title: Campagnerapporten voor het e-mailkanaal
 description: Meer informatie over campagnerapporten voor het e-mailkanaal
 exl-id: c44c91f8-1f88-4087-8417-34be64a2ab19
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '1432'
 ht-degree: 0%
@@ -246,7 +246,7 @@ Het rapport **[!UICONTROL URLs and click streams]** bevat prestatie-indicatoren 
 
 * **[!UICONTROL Total Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-* **[!UICONTROL Platform average]** : Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die over de voorafgaande zes maanden worden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
+* **[!UICONTROL Platform average]**: Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die over de voorafgaande zes maanden worden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
 
 +++
 

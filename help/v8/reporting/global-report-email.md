@@ -3,7 +3,7 @@ audience: end-user
 title: Algemene rapporten voor het e-mailkanaal
 description: Meer informatie over algemene rapporten voor het e-mailkanaal
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 1%
@@ -239,7 +239,7 @@ Het **[!UICONTROL URLs and click streams]** -rapport bevat prestatie-indicatoren
 
 * **[!UICONTROL Total Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-* **[!UICONTROL Platform average]** : Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die over de voorafgaande zes maanden worden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
+* **[!UICONTROL Platform average]**: Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die over de voorafgaande zes maanden worden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
 +++
 
 ### De tien meest bezochte koppelingen bovenaan {#top10-global-report-email}

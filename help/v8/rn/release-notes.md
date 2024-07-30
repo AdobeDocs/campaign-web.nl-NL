@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 1b7d58e33860ae21a7340594556b179f19eb8637
+source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
 workflow-type: tm+mt
-source-wordcount: '1938'
+source-wordcount: '1937'
 ht-degree: 5%
 
 ---
@@ -37,9 +37,9 @@ Er zijn twee typen fragmenten beschikbaar:
   >
   >**de Visuele fragmenten** zijn in Beperkte Beschikbaarheid (LA). Dit vermogen wordt beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 
-### Zaadlijsten {#24-7-2}
+### Overvulgroep {#24-7-2}
 
-Een zaadlijst, ook bekend als. **de groep van de Overlapping**, is een lijst van zaadadressen. Het wordt gebruikt om specifieke adressen in uw leveringen te omvatten, en dan doelprofielen die niet aan de bepaalde doelcriteria voldoen. Op deze manier kunnen ontvangers die buiten het leveringspubliek vallen, de levering ontvangen, net als elke andere doelontvanger. U kunt zaadadressen gebruiken wanneer het verzenden van proefdrukken, of om uw postingslijst te beschermen.
+A **de groep van de Vulling** is een lijst van zaadadressen. Het wordt gebruikt om specifieke adressen in uw leveringen te omvatten, en dan doelprofielen die niet aan de bepaalde doelcriteria voldoen. Op deze manier kunnen ontvangers die buiten het leveringspubliek vallen, de levering ontvangen, net als elke andere doelontvanger. U kunt zaadadressen gebruiken wanneer het verzenden van proefdrukken, of om uw postingslijst te beschermen. [Meer informatie](../audience/trap-group.md)
 
 ### Sjablonen voor pushmeldingen {#24-7-3}
 
@@ -47,7 +47,7 @@ U kunt nu uitgebreide pushmeldingen verzenden. Een uitgebreide pushmelding is ee
 
 >[!AVAILABILITY]
 >
->Voor deze functie is een update naar Campagne v8.6.3 <!--or v8.7.2--> vereist. Leer meer in de console van de Cliënt van de Campagne v8 [ versienota&#39;s ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
+>Voor deze functie is een update naar Campagne v8.6.3 <!--or v8.7.2--> vereist. Leer meer in de console van de Cliënt van de Campagne v8 [ versienota&#39;s ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes) {target="_blank"}.
 
 ### Verbeteringen {#improvements-24-7}
 

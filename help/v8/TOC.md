@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '745'
 ht-degree: 14%
 
 ---
@@ -134,6 +134,7 @@ ht-degree: 14%
       + [Eenmalig publiek maken](audience/one-time-audience.md)
       + [Een e-mailpubliek laden vanuit een bestand](audience/file-audience.md)
       + [Een controlegroep instellen](audience/control-group.md)
+      + [Een overvulgroep toevoegen](audience/trap-group.md)
    + Werken met abonnementsservices {#work-with-services}
       + [Abonnementsservices maken en beheren](audience/manage-services.md)
       + [Abonnees beheren](audience/manage-subscribers.md)

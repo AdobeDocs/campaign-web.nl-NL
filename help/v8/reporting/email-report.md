@@ -3,7 +3,7 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: 60cad8248998387f1def3c48fa7673e3e4a86ca8
+source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
 workflow-type: tm+mt
 source-wordcount: '2165'
 ht-degree: 0%
@@ -279,7 +279,7 @@ Het rapport **[!UICONTROL URLs and click streams]** bevat prestatie-indicatoren 
 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-* **[!UICONTROL Platform average]** : Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die over de voorafgaande zes maanden worden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
+* **[!UICONTROL Platform average]**: Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die over de voorafgaande zes maanden worden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
 
 +++
 
