@@ -3,24 +3,23 @@ audience: end-user
 title: Een uitgebreide pushmelding ontwerpen
 description: Leer hoe u een uitgebreide pushmelding van Android ontwerpt met Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: bb61fdb34fecb4131d4069965cda8a3a5099b6bc
+source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 0%
+source-wordcount: '3053'
+ht-degree: 1%
 
 ---
 
 # Ontwerpen als een rijke push-service voor Android {#rich-push}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_remind_later"
 >title="Later herinneren, knop"
 >abstract="**herinnert later** knoop opnieuw verstrekt de optie om een herinnering te plannen. Voor het veld Tijdstempel is een waarde vereist die een tijdperk in seconden vertegenwoordigt."
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->Deze eigenschap is in **Beperkte Beschikbaarheid** (LA).
+>Alvorens een Rich Push Bericht te ontwerpen, moet u eerst uw V2 schakelaar vormen. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) voor de gedetailleerde procedure.
 
 Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
@@ -32,19 +31,31 @@ Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
 ## De inhoud van het bericht definiëren {#push-message}
 
-Nadat u de pushservice hebt gemaakt, kunt u de inhoud ervan definiëren. Er zijn drie sjablonen beschikbaar:
+Nadat u de pushservice hebt gemaakt, kunt u de inhoud definiëren met een van de volgende sjablonen:
 
-* **StandaardMalplaatje** staat u toe om berichten met een eenvoudig pictogram en een begeleidend beeld te verzenden.
+* **Gebrek** staat u toe om berichten met een eenvoudig pictogram en een begeleidend beeld te verzenden.
 
-* **BasisMalplaatje** kan tekst, beelden, en knopen in uw berichten omvatten.
+* **Basis** kan tekst, beelden, en knopen in uw berichten omvatten.
 
-* **Malplaatje van de Carrousel** laat u toe om berichten met tekst en veelvoudige beelden te verzenden die de gebruikers door kunnen vegen.
+* **Carrousel** laat u toe om berichten met tekst en veelvoudige beelden te verzenden die de gebruikers door kunnen vegen.
+
+* **de knopen van het Pictogram** staat u toe om berichten met een pictogram en een overeenkomstig beeld te verzenden.
+
+* **doos van de Input** verzamelt gebruikersinput en koppelt direct door het bericht terug.
+
+* **de catalogus van het Product** toont een verscheidenheid van productbeelden.
+
+* **de classificatie van het Product** staat gebruikers toe om terug te geven en producten te schatten.
+
+* **Tijdopnemer** omvat een levende tellertijdopnemer in uw berichten.
+
+* **Zero Bezel** gebruikt de volledige achtergrondoppervlakte voor een beeld, met tekst die foutloos wordt bedekt.
 
 Navigeer door de lusjes hieronder om meer te leren over hoe te om deze malplaatjes aan te passen.
 
 >[!BEGINTABS]
 
->[!TAB  Standaardmalplaatje ]
+>[!TAB  Gebrek ]
 
 1. Selecteer **[!UICONTROL Default]** in de vervolgkeuzelijst **[!UICONTROL Template]** .
 
@@ -66,7 +77,7 @@ Navigeer door de lusjes hieronder om meer te leren over hoe te om deze malplaatj
 
 Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruiken om het bericht voor te vertonen en te testen.
 
->[!TAB  Basis malplaatje ]
+>[!TAB  Basis ]
 
 1. Selecteer **[!UICONTROL Basic]** in de vervolgkeuzelijst **[!UICONTROL Template]** .
 
@@ -116,7 +127,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruiken om het bericht voor te vertonen en te testen.
 
->[!TAB  malplaatje Carousel ]
+>[!TAB  Carousel ]
 
 1. Selecteer **[!UICONTROL Carousel]** in de vervolgkeuzelijst **[!UICONTROL Template]** .
 
@@ -146,7 +157,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 1. Als u uw pushmelding verder wilt aanpassen, kunt u de berichttekst **[!UICONTROL Icon]** kiezen om weer te geven op de apparaten van uw profielen.
 
-1. Kies hoe de **[!UICONTROL carousel]** wordt uitgevoerd:
+1. Kies hoe de **[!UICONTROL Carousel]** wordt uitgevoerd:
 
    * **[!UICONTROL Auto]**: doorloopt afbeeldingen automatisch als dia&#39;s en gaat u met vooraf gedefinieerde intervallen verder.
    * **[!UICONTROL Manual]**: hiermee kunnen gebruikers handmatig tussen dia&#39;s vegen om door de afbeeldingen te navigeren.
@@ -165,6 +176,245 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruiken om het bericht voor te vertonen en te testen.
 
+>[!TAB  de knopen van het Pictogram ]
+
+1. Selecteer **[!UICONTROL Icon buttons]** in de vervolgkeuzelijst **[!UICONTROL Template]** .
+
+   ![](assets/rich_push_icon_1.png)
+
+1. Voeg de URL toe die de **[!UICONTROL Click action]** definieert die is gekoppeld aan een gebruiker en klik op uw melding. Dit bepaalt het gedrag wanneer de gebruiker met het bericht communiceert, zoals het openen van een specifiek scherm of het uitvoeren van een specifieke actie in uw app.
+
+1. Selecteer de **[!UICONTROL Link type]** URL die u aan het veld **[!UICONTROL Click action]** hebt toegevoegd:
+
+   * **[!UICONTROL Web URL]**: URL&#39;s leiden gebruikers naar online-inhoud. Als ze klikken, wordt de standaardwebbrowser van het apparaat gevraagd om de opgegeven URL te openen en ernaar te navigeren.
+
+   * **[!UICONTROL Deeplink]**: Diepe koppelingen zijn URL&#39;s die gebruikers naar specifieke secties in een app sturen, zelfs als de app is gesloten. Wanneer op deze knop wordt geklikt, wordt een dialoogvenster weergegeven waarin gebruikers kunnen kiezen uit verschillende apps waarmee de koppeling kan worden afgehandeld.
+
+   * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
+
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android ](https://developer.android.com/training/app-links).[
+
+   ![](assets/rich_push_icon_2.png)
+
+1. Als u uw pushmelding verder wilt aanpassen, kunt u de berichttekst **[!UICONTROL Icon]** kiezen om weer te geven op de apparaten van uw profielen.
+
+1. Voeg de URL van de **[!UICONTROL Cancel button image]** toe.
+
+1. Klik **[!UICONTROL Add icon]** en ga uw **beeld URL** in, **[!UICONTROL Link URI]** en kies uw **[!UICONTROL Link type]**.
+
+   Zorg ervoor dat u minimaal drie pictogrammen en maximaal vijf pictogrammen toevoegt.
+
+   ![](assets/rich_push_icon_3.png)
+
+1. Verwerk de volgorde van de afbeeldingen met de pijl-omlaag en de pijl-omhoog.
+
+1. Configureer de **[!UICONTROL Advanced settings]** van uw pushmelding. [Meer informatie](#push-advanced)
+
+   ![](assets/rich_push_icon_4.png)
+
+Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruiken om het bericht voor te vertonen en te testen.
+
+>[!TAB  doos van de Input ]
+
+1. Selecteer **[!UICONTROL Input box]** in de vervolgkeuzelijst **[!UICONTROL Notification type]** .
+
+   ![](assets/rich_push_input_1.png)
+
+1. Als u uw bericht wilt samenstellen, voert u de tekst in de velden **[!UICONTROL Title]** , **[!UICONTROL Message]** en **[!UICONTROL Expanded message]** in.
+
+   De tekst **[!UICONTROL Message]** wordt weergegeven in de samengevouwen weergave terwijl de tekst **[!UICONTROL Expanded message]** wordt weergegeven wanneer het bericht wordt uitgevouwen.
+
+   ![](assets/rich_push_input_2.png)
+
+1. Gebruik dynamische verpersoonlijkingsgebieden om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen. [Meer informatie](../personalization/personalize.md)
+
+1. Voeg de URL toe die de **[!UICONTROL Click action]** definieert die is gekoppeld aan een gebruiker en klik op uw melding. Dit bepaalt het gedrag wanneer de gebruiker met het bericht communiceert, zoals het openen van een specifiek scherm of het uitvoeren van een specifieke actie in uw app.
+
+1. Selecteer de **[!UICONTROL Link type]** URL die u aan het veld **[!UICONTROL Click action]** hebt toegevoegd:
+
+   * **[!UICONTROL Web URL]**: URL&#39;s leiden gebruikers naar online-inhoud. Als ze klikken, wordt de standaardwebbrowser van het apparaat gevraagd om de opgegeven URL te openen en ernaar te navigeren.
+
+   * **[!UICONTROL Deeplink]**: Diepe koppelingen zijn URL&#39;s die gebruikers naar specifieke secties in een app sturen, zelfs als de app is gesloten. Wanneer op deze knop wordt geklikt, wordt een dialoogvenster weergegeven waarin gebruikers kunnen kiezen uit verschillende apps waarmee de koppeling kan worden afgehandeld.
+
+   * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
+
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android ](https://developer.android.com/training/app-links).[
+
+1. Als u uw pushmelding verder wilt aanpassen, kunt u een **[!UICONTROL Image]** URL kiezen om aan uw pushmelding toe te voegen en de meldingen **[!UICONTROL Icon]** om deze weer te geven op de apparaten van uw profielen.
+
+1. Vul-binnen de volgende opties voor uw **doos van de Input**:
+
+   * **[!UICONTROL Input receiver name]**: voer de naam of id in voor de ontvanger van de invoer.
+   * **[!UICONTROL Input text]**: Ga de tekst voor het **vakje van de Input** in.
+   * **[!UICONTROL Feedback text]**: voer de tekst in die u na een antwoord wilt weergeven.
+   * **[!UICONTROL Feedback image]**: voeg de URL toe voor de afbeelding die wordt weergegeven na een reactie.
+
+   ![](assets/rich_push_input_3.png)
+
+1. Configureer de **[!UICONTROL Advanced settings]** van uw pushmelding. [Meer informatie](#push-advanced)
+
+Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruiken om het bericht voor te vertonen en te testen.
+
+>[!TAB  de catalogus van het Product ]
+
+1. Selecteer **[!UICONTROL Product catalog]** in de vervolgkeuzelijst **[!UICONTROL Notification type]** .
+
+   ![](assets/rich_push_catalog_1.png)
+
+1. Als u uw bericht wilt samenstellen, voert u de tekst in de velden **[!UICONTROL Title]** en **[!UICONTROL Message]** in.
+
+   ![](assets/rich_push_catalog_2.png)
+
+1. Gebruik dynamische verpersoonlijkingsgebieden om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen. [Meer informatie](../personalization/personalize.md)
+
+1. Voeg de URL toe die de **[!UICONTROL Click action]** definieert die is gekoppeld aan een gebruiker en klik op uw melding. Dit bepaalt het gedrag wanneer de gebruiker met het bericht communiceert, zoals het openen van een specifiek scherm of het uitvoeren van een specifieke actie in uw app.
+
+1. Selecteer de **[!UICONTROL Link type]** URL die u aan het veld **[!UICONTROL Click action]** hebt toegevoegd:
+
+   * **[!UICONTROL Web URL]**: URL&#39;s leiden gebruikers naar online-inhoud. Als ze klikken, wordt de standaardwebbrowser van het apparaat gevraagd om de opgegeven URL te openen en ernaar te navigeren.
+
+   * **[!UICONTROL Deeplink]**: Diepe koppelingen zijn URL&#39;s die gebruikers naar specifieke secties in een app sturen, zelfs als de app is gesloten. Wanneer op deze knop wordt geklikt, wordt een dialoogvenster weergegeven waarin gebruikers kunnen kiezen uit verschillende apps waarmee de koppeling kan worden afgehandeld.
+
+   * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
+
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android ](https://developer.android.com/training/app-links).[
+
+1. Als u uw pushmelding verder wilt aanpassen, kunt u de berichttekst **[!UICONTROL Icon]** kiezen om weer te geven op de apparaten van uw profielen.
+
+1. Ga uw **klik-aan-actie tekst** en **beeld** in.
+
+1. Kies de optie **[!UICONTROL Display type]** tussen Horizontaal of Verticaal.
+
+1. Vul de gegevens van uw **[!UICONTROL Catalog]** -items in.
+
+   Zorg ervoor dat u minimaal drie en maximaal vijf objecten opneemt.
+
+   ![](assets/rich_push_catalog_3.png)
+
+1. Verwerk de volgorde van de afbeeldingen met de pijl-omlaag en de pijl-omhoog.
+
+1. Configureer de **[!UICONTROL Advanced settings]** van uw pushmelding. [Meer informatie](#push-advanced)
+
+Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruiken om het bericht voor te vertonen en te testen.
+
+>[!TAB  Rating van het Product ]
+
+1. Selecteer **[!UICONTROL Product rating]** in de vervolgkeuzelijst **[!UICONTROL Notification type]** .
+
+   ![](assets/rich_push_rating_1.png)
+
+1. Als u uw bericht wilt samenstellen, voert u de tekst in de velden **[!UICONTROL Title]** , **[!UICONTROL Message]** en **[!UICONTROL Expanded message]** in.
+
+   De tekst **[!UICONTROL Message]** wordt weergegeven in de samengevouwen weergave terwijl de tekst **[!UICONTROL Expanded message]** wordt weergegeven wanneer het bericht wordt uitgevouwen.
+
+   ![](assets/rich_push_rating_2.png)
+
+1. Voeg de URL toe die de **[!UICONTROL Click action]** definieert die is gekoppeld aan een gebruiker en klik op uw melding. Dit bepaalt het gedrag wanneer de gebruiker met het bericht communiceert, zoals het openen van een specifiek scherm of het uitvoeren van een specifieke actie in uw app.
+
+1. Selecteer de **[!UICONTROL Link type]** URL die u aan het veld **[!UICONTROL Click action]** hebt toegevoegd:
+
+   * **[!UICONTROL Web URL]**: URL&#39;s leiden gebruikers naar online-inhoud. Als ze klikken, wordt de standaardwebbrowser van het apparaat gevraagd om de opgegeven URL te openen en ernaar te navigeren.
+
+   * **[!UICONTROL Deeplink]**: Diepe koppelingen zijn URL&#39;s die gebruikers naar specifieke secties in een app sturen, zelfs als de app is gesloten. Wanneer op deze knop wordt geklikt, wordt een dialoogvenster weergegeven waarin gebruikers kunnen kiezen uit verschillende apps waarmee de koppeling kan worden afgehandeld.
+
+   * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
+
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android ](https://developer.android.com/training/app-links).[
+
+1. Als u uw pushmelding verder wilt aanpassen, kunt u een **[!UICONTROL Image]** URL kiezen om aan uw pushmelding toe te voegen en de meldingen **[!UICONTROL Icon]** om deze weer te geven op de apparaten van uw profielen.
+
+1. Voeg uw URL&#39;s **[!UICONTROL Rating icon in unselected state]** en **[!UICONTROL Rating icon in selected state]** toe.
+
+   ![](assets/rich_push_rating_3.png)
+
+1. Klik op **[!UICONTROL Add rating]** en voer de **[!UICONTROL Link URI]** en **[!UICONTROL Link type]** in.
+
+   Zorg ervoor dat u minimaal drie en maximaal vijf classificaties opgeeft.
+
+   ![](assets/rich_push_rating_4.png)
+
+1. Verwerk de volgorde van de afbeeldingen met de pijl-omlaag en de pijl-omhoog.
+
+1. Configureer de **[!UICONTROL Advanced settings]** van uw pushmelding. [Meer informatie](#push-advanced)
+
+Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruiken om het bericht voor te vertonen en te testen.
+
+>[!TAB  Tijdopnemer ]
+
+1. Selecteer **[!UICONTROL Timer]** in de vervolgkeuzelijst **[!UICONTROL Notification type]** .
+
+   ![](assets/rich_push_timer_1.png)
+
+1. Als u uw bericht wilt samenstellen, voert u de tekst in de velden **[!UICONTROL Title]** en **[!UICONTROL Message]** in.
+
+   Gebruik dynamische verpersoonlijkingsgebieden om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen. [Meer informatie](../personalization/personalize.md)
+
+   ![](assets/rich_push_timer_2.png)
+
+1. Voeg de URL toe die de **[!UICONTROL Click action]** definieert die is gekoppeld aan een gebruiker en klik op uw melding. Dit bepaalt het gedrag wanneer de gebruiker met het bericht communiceert, zoals het openen van een specifiek scherm of het uitvoeren van een specifieke actie in uw app.
+
+1. Selecteer de **[!UICONTROL Link type]** URL die u aan het veld **[!UICONTROL Click action]** hebt toegevoegd:
+
+   * **[!UICONTROL Web URL]**: URL&#39;s leiden gebruikers naar online-inhoud. Als ze klikken, wordt de standaardwebbrowser van het apparaat gevraagd om de opgegeven URL te openen en ernaar te navigeren.
+
+   * **[!UICONTROL Deeplink]**: Diepe koppelingen zijn URL&#39;s die gebruikers naar specifieke secties in een app sturen, zelfs als de app is gesloten. Wanneer op deze knop wordt geklikt, wordt een dialoogvenster weergegeven waarin gebruikers kunnen kiezen uit verschillende apps waarmee de koppeling kan worden afgehandeld.
+
+   * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
+
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android ](https://developer.android.com/training/app-links).[
+
+   ![](assets/rich_push_timer_3.png)
+
+1. Als u uw pushmelding verder wilt aanpassen, kunt u een **[!UICONTROL Image]** URL kiezen om aan uw pushmelding toe te voegen en de meldingen **[!UICONTROL Icon]** om deze weer te geven op de apparaten van uw profielen.
+
+1. Stel de **[!UICONTROL Timer duration]** in seconden of de **[!UICONTROL Timer end timestamp]** in op een specifieke tijdstempel voor de epoche.
+
+   ![](assets/rich_push_timer_4.png)
+
+1. Voer de tekst en afbeelding in die worden weergegeven nadat de timer is verlopen in de velden **[!UICONTROL Alternate title]** , **[!UICONTROL Alternate message]** , **[!UICONTROL Alternate expanded message]** en **[!UICONTROL Alternate launch image]** .
+
+   ![](assets/rich_push_timer_5.png)
+
+1. Configureer de **[!UICONTROL Advanced settings]** van uw pushmelding. [Meer informatie](#push-advanced)
+
+Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruiken om het bericht voor te vertonen en te testen.
+
+>[!TAB  Nul schuine rand ]
+
+1. Selecteer **[!UICONTROL Zero bezel]** in de vervolgkeuzelijst **[!UICONTROL Notification type]** .
+
+   ![](assets/rich_push_bezel_1.png)
+
+1. Als u uw bericht wilt samenstellen, voert u de tekst in de velden **[!UICONTROL Title]** , **[!UICONTROL Message]** en **[!UICONTROL Expanded message]** in.
+
+   De tekst **[!UICONTROL Message]** wordt weergegeven in de samengevouwen weergave terwijl de tekst **[!UICONTROL Expanded message]** wordt weergegeven wanneer het bericht wordt uitgevouwen.
+
+   ![](assets/rich_push_bezel_2.png)
+
+1. Gebruik dynamische verpersoonlijkingsgebieden om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen. [Meer informatie](../personalization/personalize.md)
+
+1. Voeg de URL toe die de **[!UICONTROL Click action]** definieert die is gekoppeld aan een gebruiker en klik op uw melding. Dit bepaalt het gedrag wanneer de gebruiker met het bericht communiceert, zoals het openen van een specifiek scherm of het uitvoeren van een specifieke actie in uw app.
+
+1. Selecteer de **[!UICONTROL Link type]** URL die u aan het veld **[!UICONTROL Click action]** hebt toegevoegd:
+
+   * **[!UICONTROL Web URL]**: URL&#39;s leiden gebruikers naar online-inhoud. Als ze klikken, wordt de standaardwebbrowser van het apparaat gevraagd om de opgegeven URL te openen en ernaar te navigeren.
+
+   * **[!UICONTROL Deeplink]**: Diepe koppelingen zijn URL&#39;s die gebruikers naar specifieke secties in een app sturen, zelfs als de app is gesloten. Wanneer op deze knop wordt geklikt, wordt een dialoogvenster weergegeven waarin gebruikers kunnen kiezen uit verschillende apps waarmee de koppeling kan worden afgehandeld.
+
+   * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
+
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android ](https://developer.android.com/training/app-links).[
+
+1. Als u uw pushmelding verder wilt aanpassen, kunt u een **[!UICONTROL Image]** URL kiezen om aan uw pushmelding toe te voegen en de meldingen **[!UICONTROL Icon]** om deze weer te geven op de apparaten van uw profielen.
+
+   ![](assets/rich_push_bezel_3.png)
+
+1. Kies uw **[!UICONTROL Collapsed notification style]** voor uw melding of de melding voornamelijk een afbeelding of tekst weergeeft.
+
+1. Configureer de **[!UICONTROL Advanced settings]** van uw pushmelding. [Meer informatie](#push-advanced)
+
+Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruiken om het bericht voor te vertonen en te testen.
+
 >[!ENDTABS]
 
 ## Geavanceerde instellingen voor pushmeldingen {#push-advanced}
@@ -176,6 +426,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 | **[!UICONTROL Icon color]** | Stel de kleur van het pictogram in met uw Hex-kleurcodes. |
 | **[!UICONTROL Title color]** | Stel de kleur van de titel in met uw Hex-kleurcodes. |
 | **[!UICONTROL Message text color]** | Stel de kleur van de berichttekst in met uw Hex-kleurcodes. |
+| **[!UICONTROL Timer color]** | Stel de kleur van de Timer in met uw Hex-kleurcodes. |
 | **[!UICONTROL Notification background color]** | Stel de kleur van de achtergrond voor meldingen in met uw Hex-kleurcodes. |
 | **[!UICONTROL Sound]** | Stel het geluid in dat moet worden afgespeeld wanneer het apparaat het bericht ontvangt. |
 | **[!UICONTROL Notification Count]** | Stel het aantal nieuwe ongelezen gegevens in dat rechtstreeks op het toepassingspictogram moet worden weergegeven. Hierdoor kan de gebruiker snel zien hoeveel meldingen in behandeling zijn. |

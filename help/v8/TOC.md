@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 76c1f708991934e4ef525559359fe732b0fa486a
+source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '734'
 ht-degree: 14%
 
 ---
@@ -42,14 +42,14 @@ ht-degree: 14%
          + Herbruikbare inhoud beheren {#manage-reusable-content}
             + [Werken met inhoudssjablonen](email/create-email-templates.md)
             + [Werken met visuele fragmenten](email/fragments.md)
-            + [Visuele fragmenten toevoegen aan uw e-mails](email/use-visual-fragments.md)
-         + Uw e-mail beginnen te vormen {#start-design}
+            + [ voeg visuele fragmenten aan uw e-mails toe ](email/use-visual-fragments.md)
+         + Uw e-mail vorm geven {#start-design}
             + [Aan de slag met Email Designer](email/get-started-email-designer.md)
             + [Opnieuw starten](email/create-email-content.md)
             + [Uw e-mailinhoud importeren](email/existing-content.md)
             + [Uw eigen inhoud coderen](email/code-content.md)
             + [Sjablonen voor e-mailinhoud gebruiken](email/use-email-templates.md)
-         + Uw inhoud ontwerpen {#design-content}
+         + Inhoud ontwerpen {#design-content}
             + [Inhoudscomponenten gebruiken](email/content-components.md)
             + [Koppelingen toevoegen en berichten bijhouden](email/message-tracking.md)
             + [Een koppeling toevoegen aan de spiegelpagina](email/mirror-page.md)
@@ -64,12 +64,14 @@ ht-degree: 14%
       + E-mail verzenden en controleren {#monitor}
          + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
          + [Verzenden met meerdere golven](advanced-settings/send-using-waves.md)
-         + [Leveringslogboeken controleren](monitor/delivery-logs.md)
-         + [Plaats de verzending van een levering](monitor/schedule-sending.md)
+         + [ Logboeken van de levering van de Monitor ](monitor/delivery-logs.md)
+         + [ Plan het verzenden van een levering ](monitor/schedule-sending.md)
    + Pushmeldingen {#push}
       + [Aan de slag met pushmeldingen](push/gs-push.md)
       + [Een pushmelding maken](push/create-push.md)
-      + [Een uitgebreide pushaanbieding voor Android ontwerpen](push/rich-push.md)
+      + Uitgebreide push {#rich-push}
+         + [Ontwerpen als een rijke push-service voor Android](push/rich-push.md)
+         + [Ontwerpen als een rijke push-service voor iOS](push/rich-push-ios.md)
       + [Een pushaanbieding ontwerpen](push/content-push.md)
       + [Een pushbericht voorvertonen en verzenden](push/send-push.md)
    + Sms {#sms}
@@ -87,7 +89,7 @@ ht-degree: 14%
       + [E-mailgeneratie met AI Assistant](email/generative-content.md)
       + [SMS genereren met de AI Assistant](email/generative-sms.md)
       + [Pushmeldingen genereren met de AI Assistant](email/generative-push.md)
-   + Uw inhoud dynamisch maken {#dynamic-content}
+   + Inhoud dynamisch maken {#dynamic-content}
       + [Aan de slag met dynamische inhoud](personalization/gs-personalization.md)
       + [Aanpassing toevoegen](personalization/personalize.md)
       + [Voorwaardelijke inhoud maken](personalization/conditions.md)
@@ -95,12 +97,12 @@ ht-degree: 14%
    + [Aanbiedingen toevoegen aan uw berichten](msg/offers.md)
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
-   + Voorbeeld en test de levering {#preview-test}
-      + [Voorvertoning en proefdrukken](preview-test/preview-test.md)
+   + De levering bekijken en testen {#preview-test}
+      + [ Ongeveer voorproef en proef ](preview-test/preview-test.md)
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
       + [Proefdrukken verzenden](preview-test/test-deliveries.md)
       + [De rendering van e-mail testen](preview-test/email-rendering.md)
-   + Afleveringswaarschuwing {#delivery-alerting}
+   + Leveringswaarschuwing {#delivery-alerting}
       + [Aan de slag met leveringsberichten](msg/delivery-alerting.md)
       + [Waarschuwingsdashboards](msg/delivery-alerting-dashboards.md)
       + [Beoordelingscriteria voor aflevering](msg/delivery-alerting-criteria.md)
@@ -190,7 +192,7 @@ ht-degree: 14%
       + [Push-leveringsrapport](reporting/push-report.md)
       + [SMS-leveringsrapport](reporting/sms-report.md)
       + [Rapport voor verzending via e-mail](reporting/direct-mail.md)
-   + Campagneverslagen {#campaign-report}
+   + Campagnerapporten {#campaign-report}
       + [Aan de slag met campagnerapporten](reporting/campaign-reports.md)
       + [E-mailcampagnerapport](reporting/campaign-reports-email.md)
       + [Push-campagnerapport](reporting/campaign-reports-push.md)
@@ -209,4 +211,4 @@ ht-degree: 14%
 + Configuratie {#conf}
    + [Aangepaste velden configureren](administration/custom-fields.md)
    + [Een map maken en beheren](administration/create-manage-folder.md)
-+ [Campagne v8 (console) documentatie >](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
