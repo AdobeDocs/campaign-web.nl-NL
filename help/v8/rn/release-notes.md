@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
+source-git-commit: cd2649243c758ad71a6c0e658aa08f30da1364cf
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1939'
 ht-degree: 5%
 
 ---
@@ -44,6 +44,8 @@ A **de groep van de Vulling** is een lijst van zaadadressen. Het wordt gebruikt 
 ### Sjablonen voor pushmeldingen {#24-7-3}
 
 U kunt nu uitgebreide pushmeldingen verzenden. Een uitgebreide pushmelding is een verbeterde vorm van mobiele meldingen die verder gaat dan eenvoudige tekstberichten door het opnemen van multimedia-elementen, zoals afbeeldingen, interactieve knoppen of andere rijke media-inhoud. Met deze versie is een set sjablonen voor uitgebreide pushmeldingen nu beschikbaar voor uw iOS- en Android-apps.
+
+[Meer informatie](../push/rich-push.md)
 
 >[!AVAILABILITY]
 >
