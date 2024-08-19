@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met Adobe Campaign Web
 description: Aan de slag met Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
-source-git-commit: 5751ca50090dd7035c3ea54c3bd0b03a8bbc9c19
+source-git-commit: be012a2412024f75f2888cb1f9c067d970fd3ca7
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
@@ -61,8 +61,10 @@ Sommige objecten kunnen alleen in de clientconsole worden gemaakt en beheerd. Zi
 
 Voor meer informatie over hoe te om Campagne v8 met zijn cliëntconsole te gebruiken, verwijs naar [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl) {target="_blank"}.
 
-## Hoe kan ik-video {#video}
+<!--
+## How-to video {#video}
 
-Leer hoe te om tot het de gebruikersinterface van het Web van de Campagne toegang te hebben en te navigeren en hoe te om de inventarislijsten aan te passen. Ontdek de door AI aangedreven Knowledge Assistant.
+Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI powered Knowledge Assistant.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
+-->
