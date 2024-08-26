@@ -4,9 +4,9 @@ title: Leveringsinstellingen configureren
 description: Leer hoe te om leveringsmontages in het Web van de Campagne te vormen
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
+source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2282'
 ht-degree: 3%
 
 ---
@@ -286,3 +286,9 @@ U kunt ook de tabel van de proefdrukken aanpassen:
 
 * Gebruik **[!UICONTROL Keep the delivery code for the proof]** om aan de proef de zelfde leveringscode te associëren die voor de levering wordt bepaald waarop het betrekking heeft.
 * Standaard wordt het onderwerp van de proefdruk voorafgegaan door &#39;PROOF #&#39;, waarbij # het nummer van de proefdruk is. U kunt dit voorvoegsel wijzigen in het veld **[!UICONTROL Label prefix]** .
+
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_settings_variable"
+>title="Variabelen"
+>abstract="Variabelen"
