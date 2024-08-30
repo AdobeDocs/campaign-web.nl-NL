@@ -4,10 +4,10 @@ description: Ontdek nieuwe eigenschappen die met de volgende versie van het Gebr
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 802c4db04efdcac3b9251f3e40671272c79a3043
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 1%
+source-wordcount: '377'
+ht-degree: 6%
 
 ---
 
@@ -17,37 +17,31 @@ De gebruikersinterface van het Web van Adobe Campaign levert onophoudelijk nieuw
 
 **de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md), bij de versiedatum.
 
-## Release-aantekeningen juli {#24-7-release}
+## Release-aantekeningen augustus {#24-8-release}
 
-**de datum van de Versie**: 30-31 juli, 2024
+**de datum van de Versie**: Sept 3, 2024
 
-De volgende functies en verbeteringen zijn beschikbaar vanaf de release in juli.
+De volgende functies en verbeteringen zijn beschikbaar vanaf de release in augustus.
 
-### Inhoudsfragmenten {#24-7-1}
+* **Externe levering** - u kunt Externe leveringen, en Externe leveringsmalplaatjes, in het Webgebruikersinterface van de Campagne nu bepalen. In deze modus worden berichten gegenereerd in een invoerbestand dat kan worden gedeeld met uw externe provider. De externe leveringswijze is de standaardwijze voor het directe postkanaal.
 
-U kunt nu inhoudsfragmenten maken en gebruiken. Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Wanneer u een fragment wijzigt, wordt alle inhoud die het fragment gebruikt, bijgewerkt. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud samenstellen die marketinggebruikers kunnen gebruiken om snel inhoud van berichten samen te stellen in een verbeterd ontwerpproces.
+* **Visuele fragmenten** - u kunt visuele inhoudsfragmenten nu archiveren.
 
-Er zijn twee typen fragmenten beschikbaar:
+* **Distributie van waarden** - wanneer de toegang tot van de lijst van gebieden voor verpersoonlijking, kunt u nu controleren hoe de waarden voor elk gebied worden verdeeld. Een specifiek popup venster toont het aantal en het percentage voor elke waarde.
 
-* **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen die van een specifieke ingang in de uitdrukkingsredacteur beschikbaar zijn.
-* **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige e-mailleveringen, of in inhoudsmalplaatjes kunt hergebruiken. [Meer informatie](../content/fragments.md)
-
-  >[!AVAILABILITY]
-  >
-  >**de Visuele fragmenten** zijn in Beperkte Beschikbaarheid (LA). Dit vermogen wordt beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
-
-### Zaadlijsten {#24-7-2}
-
-Een zaadlijst, ook bekend als. **de groep van de Overlapping**, is een lijst van zaadadressen. Het wordt gebruikt om specifieke adressen in uw leveringen te omvatten, en dan doelprofielen die niet aan de bepaalde doelcriteria voldoen. Op deze manier kunnen ontvangers die buiten het leveringspubliek vallen, de levering ontvangen, net als elke andere doelontvanger. U kunt zaadadressen gebruiken wanneer het verzenden van proefdrukken, of om uw postingslijst te beschermen.
-
-### Sjablonen voor pushmeldingen {#24-7-3}
-
-U kunt nu uitgebreide pushmeldingen verzenden. Een uitgebreide pushmelding is een verbeterde vorm van mobiele meldingen die verder gaat dan eenvoudige tekstberichten door het opnemen van multimedia-elementen, zoals afbeeldingen, interactieve knoppen of andere rijke media-inhoud. Met deze versie is een set sjablonen voor uitgebreide pushmeldingen nu beschikbaar voor uw iOS- en Android-apps.
+### Nieuwe functies in beperkte beschikbaarheid {#acs-24-8}
 
 >[!AVAILABILITY]
 >
->Voor deze functie is een update van Campagne v8.6.3 of v8.7.2 vereist. Leer meer in [ de notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes)
+>De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld.
+>
+>Verwijs naar de volgende documentatiepagina&#39;s: [ overgang van het Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van het Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
-### Verbeteringen {#improvements-24-7}
+* **Branding voor Directe Post** - de Technische beheerders kunnen één of verscheidene merken nu bepalen om de parameters te centraliseren die de identiteit van een merk beïnvloeden. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina&#39;s of de instellingen voor de tracking van berichten. U kunt deze merken nu maken en deze koppelen aan berichten of bestemmingspagina&#39;s. Deze configuratie wordt beheerd in sjablonen.
 
-**het beheer van Omslagen** - u kunt toestemmingen en beperkingen op omslagen nu beheren.
+* **het Bestaan pagina&#39;s reCaptcha** - u kunt het mechanisme van Google nu gebruiken reCAPTCHA om uw landende pagina tegen spam en misbruik te beschermen dat door bots wordt veroorzaakt. Dit is niet-indringend voor uw klanten aangezien het geen interactie van hen vereist en op interactie met uw plaats gebaseerd is.
+
+* **Abonnementen met het Aanvoeren van pagina&#39;s** - u kunt een het landen pagina aan de dienst nu verbinden zodat de profielen aan de specifieke dienst kunnen intekenen wanneer het bevestigen van het.
+
+
+
