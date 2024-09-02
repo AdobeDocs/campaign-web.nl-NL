@@ -3,9 +3,9 @@ audience: end-user
 title: Componenten voor inhoud van e-mailontwerpers gebruiken
 description: Leer hoe u inhoudcomponenten in uw e-mails kunt gebruiken
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 13ff1f0e052ff16dcf59c2ed10c62f987f5651a8
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -147,6 +147,11 @@ Gebruik de component **[!UICONTROL HTML]** om de verschillende onderdelen van de
 >Om een externe inhoud eenvoudig te maken volgzaam met E-mail Designer, adviseert de Adobe [ creërend een bericht van kras ](create-email-content.md) en kopieer de inhoud van uw bestaande e-mail in componenten.
 
 ## Afbeelding {#image}
+
+>[!IMPORTANT]
+>
+>Toegang tot het Assets-menu is beperkt tot gebruikers met een actieve licentie voor Experience Essentials. Als u deze licentie niet hebt, is het menu Assets niet beschikbaar.
+
 
 Gebruik de component **[!UICONTROL Image]** om een afbeeldingsbestand van uw computer in te voegen in uw e-mail.
 
