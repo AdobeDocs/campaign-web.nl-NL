@@ -4,10 +4,10 @@ title: Leveringsinstellingen configureren
 description: Leer hoe te om leveringsmontages in het Web van de Campagne te vormen
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: ea160079bb322efd8199ff63faaa79002021e07d
+source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
 workflow-type: tm+mt
-source-wordcount: '2282'
-ht-degree: 3%
+source-wordcount: '2626'
+ht-degree: 4%
 
 ---
 
@@ -288,7 +288,68 @@ U kunt ook de tabel van de proefdrukken aanpassen:
 * Standaard wordt het onderwerp van de proefdruk voorafgegaan door &#39;PROOF #&#39;, waarbij # het nummer van de proefdruk is. U kunt dit voorvoegsel wijzigen in het veld **[!UICONTROL Label prefix]** .
 
 
+
+
+## SMTP-instellingen voor e-maillevering {#smtp}
+
+>[!CONTEXTUALHELP]
+>id="acw_email_settings_smtp"
+>title="SMTP-parameters"
+>abstract="U kunt extra parameters SMTP aan uw e-maillevering toevoegen."
+
+U kunt extra parameters SMTP aan uw e-maillevering toevoegen. U kunt het op het lusje SMTP van de leveringsmontages doen.
+
+![](assets/smtp_tab.png){zoomable="yes"}
+
+### Tekencodering {#character-encoding}
+
+In de sectie **[!UICONTROL Character encoding]** kunt u een specifieke codering instellen. De standaardcodering is UTF-8, die voor de meeste tekens werkt. Sommige e-mailproviders geven speciale tekens echter mogelijk niet correct weer als ze de standaardcodering UTF-8 niet ondersteunen.
+
+Als u bijvoorbeeld een e-mail met Japanse tekens wilt verzenden, is het beter om een codering te gebruiken die deze tekens specifiek ondersteunt, zodat het Japanse publiek alles goed kan zien.
+
+Hiervoor activeert u de schakeloptie **[!UICONTROL Force the encoding used for messages]** en selecteert u de juiste codering in de lijst die uw speciale tekens ondersteunt.
+
+![](assets/smtp_encoding.png){zoomable="yes"}
+
+### Bounce-e-mails {#bounce-emails}
+
+Op het tabblad **[!UICONTROL SMTP]** van de leveringsinstellingen kunt u ook het beheer van stuiterende berichten configureren.
+
+* **[!UICONTROL Errors-to-address]**: Als u de **[!UICONTROL Use the default error address defined for the platform]** -schakeloptie activeert, worden teruggestuurde e-mails ontvangen in het standaardfoutvak van het platform. Als u het niet activeert, kunt u een specifiek foutenadres voor uw levering bepalen.
+
+* **[!UICONTROL Bounce address]**: U kunt ook een ander adres definiëren waarnaar de onverwerkte teruggestuurde e-mails worden doorgestuurd. Met dit adres kunt u de redenen voor het stuiteren onderzoeken wanneer e-mails niet automatisch kunnen worden gekwalificeerd door de toepassing.
+
+Deze twee gebieden kunnen worden gepersonaliseerd zoals die in [ wordt beschreven deze sectie ](../personalization/gs-personalization.md).
+
+![](assets/smtp_bounce.png){zoomable="yes"}
+
+### Aanvullende SMTP-koppen {#smtp-headers}
+
+U kunt **[!UICONTROL SMTP headers]** toevoegen aan uw e-maillevering op het tabblad SMTP van de leveringsinstellingen.
+
+Het script dat in dit venster wordt ingevoerd, moet verwijzen naar één header per regel in het volgende formulier: name:value.
+
+Waarden worden indien nodig automatisch gecodeerd.
+
+![](assets/smtp_headers.png){zoomable="yes"}
+
+
+>[!IMPORTANT]
+>
+>Het toevoegen van een script voor het opnemen van extra SMTP-kopteksten is gereserveerd voor gevorderde gebruikers. De syntaxis van dit script moet voldoen aan de vereisten van dit type content: geen ongebruikte ruimte, geen lege regel, enz.
+
+## Variabelen toevoegen {#variables-delivery}
+
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variabelen"
 >abstract="Variabelen"
+
+U kunt variabelen aan uw levering toevoegen, die voor het volgen nuttig kunnen zijn. Om dit te doen,
+navigeer naar de tab **[!UICONTROL Variables]** , zoals hieronder wordt weergegeven.
+
+![](assets/variables-tab.png){zoomable="yes"}
+
+Klik op de knop **[!UICONTROL Add Variables]** om de details van de variabele in te voeren en klik vervolgens op **[!UICONTROL Confirm]** om de wijzigingen op te slaan.
+
+![](assets/variables-add.png){zoomable="yes"}
