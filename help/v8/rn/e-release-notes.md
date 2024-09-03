@@ -4,10 +4,10 @@ description: Ontdek nieuwe eigenschappen die met de volgende versie van het Gebr
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 802c4db04efdcac3b9251f3e40671272c79a3043
+source-git-commit: 3086ed78ee2fe5ca3dee70fbd1ae1b92486330ca
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 6%
+source-wordcount: '330'
+ht-degree: 8%
 
 ---
 
@@ -23,11 +23,8 @@ De gebruikersinterface van het Web van Adobe Campaign levert onophoudelijk nieuw
 
 De volgende functies en verbeteringen zijn beschikbaar vanaf de release in augustus.
 
-* **Externe levering** - u kunt Externe leveringen, en Externe leveringsmalplaatjes, in het Webgebruikersinterface van de Campagne nu bepalen. In deze modus worden berichten gegenereerd in een invoerbestand dat kan worden gedeeld met uw externe provider. De externe leveringswijze is de standaardwijze voor het directe postkanaal.
+**Distributie van waarden** - wanneer de toegang tot van de lijst van gebieden voor verpersoonlijking, kunt u nu controleren hoe de waarden voor elk gebied worden verdeeld. Een specifiek popup venster toont het aantal en het percentage voor elke waarde.
 
-* **Visuele fragmenten** - u kunt visuele inhoudsfragmenten nu archiveren.
-
-* **Distributie van waarden** - wanneer de toegang tot van de lijst van gebieden voor verpersoonlijking, kunt u nu controleren hoe de waarden voor elk gebied worden verdeeld. Een specifiek popup venster toont het aantal en het percentage voor elke waarde.
 
 ### Nieuwe functies in beperkte beschikbaarheid {#acs-24-8}
 
@@ -35,13 +32,14 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in augus
 >
 >De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld.
 >
->Verwijs naar de volgende documentatiepagina&#39;s: [ overgang van het Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van het Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+>Verwijs naar de volgende documentatiepagina&#39;s: [ overgang van het Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van het Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) {target="_blank"}.
 
 * **Branding voor Directe Post** - de Technische beheerders kunnen één of verscheidene merken nu bepalen om de parameters te centraliseren die de identiteit van een merk beïnvloeden. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina&#39;s of de instellingen voor de tracking van berichten. U kunt deze merken nu maken en deze koppelen aan berichten of bestemmingspagina&#39;s. Deze configuratie wordt beheerd in sjablonen.
 
-* **het Bestaan pagina&#39;s reCaptcha** - u kunt het mechanisme van Google nu gebruiken reCAPTCHA om uw landende pagina tegen spam en misbruik te beschermen dat door bots wordt veroorzaakt. Dit is niet-indringend voor uw klanten aangezien het geen interactie van hen vereist en op interactie met uw plaats gebaseerd is.
+* **Abonnementen met het Aanvoeren van pagina&#39;s** - u kunt een het landen pagina aan de dienst nu verbinden, en een bevestigingsbericht verzenden wanneer de gebruikers het bevestigen.
 
-* **Abonnementen met het Aanvoeren van pagina&#39;s** - u kunt een het landen pagina aan de dienst nu verbinden zodat de profielen aan de specifieke dienst kunnen intekenen wanneer het bevestigen van het.
+* **Visuele fragmenten** - u kunt visuele inhoudsfragmenten nu archiveren.
 
+* **het Bestaan pagina&#39;s captcha** - u kunt nu Captcha toevoegen om uw landende pagina tegen spam en misbruik te beschermen dat door bots wordt veroorzaakt. Dit is niet-indringend voor uw klanten aangezien het geen interactie van hen vereist en op interactie met uw plaats gebaseerd is.
 
-
+* **Rest APIs** - DESC. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
