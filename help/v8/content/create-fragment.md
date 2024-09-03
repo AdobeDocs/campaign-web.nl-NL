@@ -2,9 +2,9 @@
 audience: end-user
 title: Inhoudsfragmenten maken
 description: Leer hoe u inhoudsfragmenten maakt
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: d27bbc8647d17dc442656465aa6d5a7e4fe7f060
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -141,11 +141,23 @@ Ga als volgt te werk om een inhoudsfragment te verwijderen:
 >
 >Wanneer u een fragment verwijdert, worden de items en sjablonen die het fragment gebruiken, bijgewerkt: het fragment wordt uit de inhoud verwijderd, maar er wordt nog steeds naar verwezen. Om de fragmentinhoud in die leveringen en malplaatjes te houden, moet u overerving breken alvorens het fragment te schrappen, [ zoals die in deze sectie ](use-visual-fragments.md#break-inheritance) wordt gedetaillerd.
 
+### Een inhoudsfragment archiveren {#archive}
+
+U kunt de lijst met fragmenten opruimen uit de fragmenten die niet meer relevant zijn voor uw merk. Klik hiertoe op de knop **[!UICONTROL More actions]** naast het gewenste fragment en selecteer **[!UICONTROL Archive]** . Het fragment wordt verwijderd uit de fragmentlijst, waardoor gebruikers het in toekomstige e-mails of sjablonen niet kunnen gebruiken.
+
+Voor toegang tot gearchiveerde fragmenten gebruikt u het filtervenster om deze weer te geven. Als u het archiveren van een fragment ongedaan wilt maken, klikt u op de knop **[!UICONTROL More actions]** en selecteert u **[!UICONTROL Unarchive]** .
+
+![](assets/fragment-unarchive.png)
+
+>[!NOTE]
+>
+>Als u een fragment archiveert dat in een inhoud wordt gebruikt, wordt die inhoud niet beïnvloed.
+
 ### Een inhoudsfragment dupliceren {#duplicate-fragments}
 
 U kunt eenvoudig een inhoudsfragment dupliceren om een nieuw fragment te maken. Ga als volgt te werk om een bestaand fragment te dupliceren:
 
-1. Blader naar de fragmentlijst en klik op de knop **[!UICONTROL More actions]** naast het fragment dat u wilt verwijderen.
+1. Blader naar de fragmentlijst en klik op de knop **[!UICONTROL More actions]** naast het te dupliceren fragment.
 1. Klik **Dupliceren** en bevestigen.
 1. Voer het label van het nieuwe fragment in en sla uw wijzigingen op.
 

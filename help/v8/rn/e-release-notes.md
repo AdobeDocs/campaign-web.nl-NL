@@ -4,7 +4,7 @@ description: Ontdek nieuwe eigenschappen die met de volgende versie van het Gebr
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 00051db2d5c052fce55434d8dbf47502156d171a
+source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 8%
@@ -43,3 +43,5 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in augus
 * **het Bestaan pagina&#39;s captcha** - u kunt nu Captcha toevoegen om uw landende pagina tegen spam en misbruik te beschermen dat door bots wordt veroorzaakt. Dit is niet-indringend voor uw klanten aangezien het geen interactie van hen vereist en op interactie met uw plaats gebaseerd is.
 
 * **Rest APIs** - als Campaign Standard gemigreerde gebruiker, kunt u Rest APIs nu gebruiken om met transactionele berichten te werken. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+
+

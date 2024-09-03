@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met mappen
 description: Leer hoe u een map beheert in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -77,3 +77,33 @@ Als u een map wilt verwijderen, selecteert u deze in de **[!UICONTROL Explorer]*
 Kies **[!UICONTROL Delete folder]** .
 
 ![](assets/folder_delete.png){zoomable="yes"}
+
+## Verdeling van waarden in een map {#distribution-values-folder}
+
+De verdeling van waarden helpt om het percentage van een waarde in een kolom binnen een lijst te kennen.
+
+Ga als volgt te werk om de verdeling van waarden in een map te kennen:
+
+Bijvoorbeeld, onder de leveringen, willen wij de distributie van waarden van de **kolom van het Kanaal** kennen.
+
+Ga naar de map **[!UICONTROL Deliveries]** en klik op het pictogram **[!UICONTROL Configure columns]** om deze informatie op te halen.
+
+Klik in het **[!UICONTROL Configure columns]** -venster op het **[!UICONTROL Information]** -pictogram van de kolom die u wilt kennen. Klik vervolgens op de knop **[!UICONTROL Distribution of values]** .
+
+![](assets/values_deliveries.png){zoomable="yes"}
+
+U krijgt het percentage van de waarden in de kolom **[!UICONTROL Channel]** .
+
+![](assets/values_percentage.png){zoomable="yes"}
+
+>[!NOTE]
+>
+> Voor kolommen met veel waarden worden alleen de eerste 20 waarden weergegeven. Een melding **[!UICONTROL Partial load]** waarschuwt u.
+
+U kunt ook de verdeling van waarden van een koppeling hebben.
+
+Klik in de lijst met kenmerken op de knop **+** naast de gewenste koppeling, zoals hieronder wordt weergegeven. Hiermee voegt u de koppeling toe aan **[!UICONTROL Output columns]** . U kunt nu het pictogram **[!UICONTROL Information]** gebruiken, zodat u de verdeling van de waarden kunt bekijken. Als u de koppeling niet in de **[!UICONTROL Output columns]** wilt behouden, klikt u op de knop **[!UICONTROL Cancel]** .
+
+![](assets/values_link.png){zoomable="yes"}
+
+Het is ook mogelijk om de distributie van waarden in een vraagmodeler te hebben. [ leer hier meer ](../query/build-query.md#distribution-of-values-in-a-query).

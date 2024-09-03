@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '751'
 ht-degree: 14%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 14%
    + [Nieuwe functies](rn/whats-new.md)
    + [Vroege aanvullende informatie](rn/e-release-notes.md)
    + [Nieuwste release](rn/release-notes.md)
+   + Eerdere releases {#previous-release-notes}
+      + [Releases van 2024](rn/release-notes-24.md)
    + [Documentatie-updates](rn/documentation-updates.md)
 + Aan de slag met Adobe Campaign {#start}
    + [Aan de slag](get-started/get-started.md)
@@ -34,7 +36,8 @@ ht-degree: 14%
    + [Contextafhankelijke Help voor AI](get-started/using-ai.md)
 + Berichten en leveringen {#msg}
    + [Aan de slag met berichten](msg/gs-messages.md)
-   + [Werken met leveringen](msg/gs-deliveries.md)
+   + [Toegang tot leveringen](msg/gs-deliveries.md)
+   + [Een levering maken](msg/create-deliveries.md)
    + [Leveringssjablonen gebruiken](msg/delivery-template.md)
    + E-mails {#email}
       + [Uw eerste e-mail maken](email/create-email.md)

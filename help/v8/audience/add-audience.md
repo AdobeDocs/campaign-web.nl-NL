@@ -3,9 +3,9 @@ audience: end-user
 title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 0830c7d7b7bba10f573ea58fa5aacd5e5e9ddccb
+source-git-commit: ecff4e56bd346aadf381a1bf2077204804938f62
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -17,16 +17,6 @@ ht-degree: 0%
 >id="acw_deliveries_email_audience_select"
 >title="Bestaande doelgroep selecteren"
 >abstract="Blader in de lijst om een bestaand publiek te selecteren. Gebruik het pictogram Filters tonen om de lijst te filteren of selecteer een specifieke map."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_refine_target"
->title="Doel verfijnen"
->abstract="Deze regels kunnen alleen worden gewijzigd in de bureaubladconsole."
-
->[!CONTEXTUALHELP]
->id="acw_deliveries_additional_target"
->title="Aanvullend doel"
->abstract="Deze regels kunnen alleen worden gewijzigd in de bureaubladconsole."
 
 In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren wanneer u de doelpopulatie van een levering definieert. Wanneer u het hoofddoel van een levering definieert, kunt u ook:
 * [ bouwt een eenmalig publiek ](one-time-audience.md) gebruikend de vraagmodeler.
@@ -58,4 +48,4 @@ Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
    ![](assets/refine-audience.png){zoomable="yes"}
 
-   U kunt ook een controlegroep instellen om het effect van uw campagnes te meten. De controlegroep ontvangt niet het bericht. Dit staat u toe om het gedrag van de bevolking te vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](control-group.md)
+1. U kunt ook een controlegroep instellen om het effect van uw campagnes te meten. De controlegroep ontvangt niet het bericht. Dit staat u toe om het gedrag van de bevolking te vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](control-group.md)

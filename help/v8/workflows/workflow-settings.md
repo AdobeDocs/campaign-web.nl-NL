@@ -3,7 +3,7 @@ audience: end-user
 title: Workflowinstellingen configureren
 description: Leer hoe u workflowinstellingen configureert met Adobe Campaign Web
 exl-id: 3aef912b-086b-4aa4-9556-c09396112313
-source-git-commit: d4eef621d2287881bfa7ef57e5d90026adceb49c
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Wanneer het werkschema [ aan een campagne ](create-workflow.md) wordt geassociee
 
    * **[!UICONTROL Suspend the process]**: De werkstroom wordt automatisch gepauzeerd en de status verandert in **[!UICONTROL Failed]** . Zodra het probleem is opgelost, hervat u de workflow met de knoppen **[!UICONTROL Resume]** .
    * **[!UICONTROL Ignore]**: De status van de taak die de fout heeft veroorzaakt, verandert in **[!UICONTROL Failed]** , maar de workflow behoudt de status **[!UICONTROL Started]** . <!-- TO ADD ONCE SCHEUDLER IS AVAILABLE This configuration is relevant for recurring tasks: if the branch includes a scheduler, it will start normally next time the workflow is executed.-->
-   * **[!UICONTROL Abord the process]**: De workflow wordt automatisch beëindigd en de status van de workflow verandert in **[!UICONTROL Failed]** . Zodra het probleem is opgelost, start u de workflow opnieuw met de knoppen **[!UICONTROL Start]** .
+   * **[!UICONTROL Abort the process]**: De werkstroom wordt automatisch gestopt en de status verandert in **[!UICONTROL Failed]** . Zodra het probleem is opgelost, start u de workflow opnieuw met de knoppen **[!UICONTROL Start]** .
 
 * **[!UICONTROL Consecutive errors]**: Dit veld wordt beschikbaar wanneer de **[!UICONTROL Ignore]** -waarde wordt geselecteerd in het **[!UICONTROL In case of errors]** -veld. U kunt opgeven hoeveel fouten kunnen worden genegeerd voordat het proces wordt gestopt. Zodra dit aantal wordt bereikt, verandert de werkschemastatus in **[!UICONTROL Failed]**. Als de waarde van dit veld 0 is, wordt de workflow nooit gestopt, ongeacht het aantal fouten.
 

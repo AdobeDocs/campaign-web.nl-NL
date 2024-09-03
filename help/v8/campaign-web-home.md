@@ -3,9 +3,9 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 728bc032614067bc420b80a4cac634a08f594ff8
+source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '456'
 ht-degree: 3%
 
 ---
@@ -51,23 +51,23 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 >[!BEGINTABS]
 
->[!TAB  de versie van juli is levend!]
+>[!TAB  de versie van Augustus is levend!]
 
 Ontdek nieuwe functies en verbeteringen die in de release van 24 juli 2010 beschikbaar zijn voor Adobe Campaign Web User Interface.
 
 [![afbeelding](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
 
->[!TAB  levering alarmerend ]
+>[!TAB  Distributie van waarden ]
 
-De Alerting van de levering is een waakzaam beheersysteem dat groepen gebruikers toelaat om e-mailberichten met informatie over hun levering automatisch te ontvangen uitvoeren.
+Wanneer u de lijst met velden voor personalisatie opent, kunt u nu controleren hoe waarden voor elk veld worden verdeeld.
 
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](../v8/msg/delivery-alerting.md)
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
 
->[!TAB  Abonnementen &amp; programma&#39;s ]
+>[!TAB  Captcha in het landen van pagina&#39;s ]
 
-Met Adobe Campaign kunt u uw maphiërarchie configureren voor marketingplannen en -programma&#39;s.
+U kunt nu Captcha toevoegen om uw landingspagina te beschermen tegen spam en misbruik door bots. Deze mogelijkheid is in Beperkte Beschikbaarheid.
 
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](administration/plans-programs.md)
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](../v8/landing-pages/create-lp.md#captcha)
 
 
 >[!ENDTABS]

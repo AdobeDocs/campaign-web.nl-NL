@@ -3,9 +3,9 @@ title: Een landingspagina maken
 description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 9dbdc657c319dd3260e763bc4f25778d3e2ad58a
+source-git-commit: 865978dd8083723187a90647060f8758d4d888be
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1520'
 ht-degree: 1%
 
 ---
@@ -98,6 +98,8 @@ Ga als volgt te werk om een bestemmingspagina te maken:
 
    Standaard worden bestemmingspagina&#39;s opgeslagen in de map **[!UICONTROL Web applications]** . U kunt dit wijzigen door naar de gewenste locatie te bladeren in de **[!UICONTROL Additional options]** . [ Leer hoe te met omslagen ](../get-started/permissions.md#folders) te werken
 
+   U kunt de captcha ook instellen om de openingspagina te beveiligen. [ leer hier meer ](#captcha).
+
    ![](assets/lp-properties.png){zoomable="yes"}
 
 1. In de sectie **[!UICONTROL Data preload]** zijn de twee onderstaande opties beschikbaar:
@@ -155,6 +157,28 @@ Ga als volgt te werk om een bestemmingspagina te maken:
 1. Klik op **[!UICONTROL Review and publish]**.
 
 Zodra u alle montages bepaalde en [ ](lp-content.md) alle pagina&#39;s ontwierp, kunt u [ testen ](#test-landing-page) en [ publiceren ](#publish-landing-page) uw het landen pagina zoals hieronder gedetailleerd.
+
+## Beveilig uw landingspagina met een captcha {#captcha}
+
+>[!AVAILABILITY]
+>
+>Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **Adobe Campaign v8.7.2 bevorderen met de laatste fixversie** gebruiken, en kan niet op een ander milieu worden opgesteld.
+
+Als u een Captcha instelt, kunt u uw landingspagina beschermen tegen spam en misbruik.
+
+Ga naar de **[!UICONTROL Properties]** van de bestemmingspagina als u deze wilt gebruiken.
+In de lus **[!UICONTROL Additional options]** ook. Activeer de schakeloptie **[!UICONTROL Additional Enable captcha solution]** .
+
+![](assets/lp-properties-captcha.png){zoomable="yes"}
+
+Klik op de knop **[!UICONTROL Review and publish]** en **[!UICONTROL Simulate content]** om de instellingen voor captcha te controleren. Als u het formulier verzendt, ziet u dat de widget Captcha werkt tijdens de validatie hieronder.
+
+![](assets/lp-captcha.png){zoomable="yes"}
+
+>[!NOTE]
+>
+>De widget captcha in Adobe Campaign v8 werkt in de zwevende modus. Deze wordt tijdens de validatie weergegeven en verdwijnt zodra het proces is voltooid.
+
 
 ## De openingspagina testen {#test-landing-page}
 
