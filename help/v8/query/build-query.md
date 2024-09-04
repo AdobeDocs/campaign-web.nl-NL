@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,17 @@ U kunt twee typen elementen toevoegen:
 
 ## Verdeling van waarden in een query {#distribution-values-query}
 
-De verdeling van waarden helpt om het percentage van een waarde op een gebied binnen een lijst te kennen. Het kennen van de distributie van waarden binnen een vraag kan u bij het verfijnen van uw segmentatie helpen.
+De verdeling van waarden toont het percentage van elke waarde van een gebied binnen een lijst, volgens de huidige vraagparameters. Het kennen van de distributie van waarden binnen een vraag kan u helpen uw segmentatie verfijnen.
 
-Om tot de eigenschap, in uw vraag toegang te hebben, klik de knoop van de attributenselectie zoals hieronder getoond. Klik vervolgens op het pictogram **[!UICONTROL Information]** naast het geselecteerde kenmerk. U kunt daar toegang tot de **[!UICONTROL Distribution of values]** knoop hebben.
+U opent deze optie door in de query op de selectieknop voor kenmerken te klikken, zoals hieronder wordt weergegeven. Klik vervolgens op het pictogram **[!UICONTROL Information]** naast het geselecteerde kenmerk. U hebt toegang tot de knop **[!UICONTROL Distribution of values]** .
 
 ![](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
-> Voor velden met veel waarden worden alleen de eerste 20 waarden weergegeven. Een melding **[!UICONTROL Partial load]** waarschuwt u.
-
->[!NOTE]
+>* Voor velden met veel waarden worden alleen de eerste 20 waarden weergegeven. In dat geval verschijnt er een waarschuwing **[!UICONTROL Partial load]** .
 >
-> De functie **[!UICONTROL Distribution of values]** is toegankelijk in elke kenmerkkiezer.
+>* De optie **[!UICONTROL Distribution of values]** is toegankelijk in elke kenmerkkiezer.
 
 ## Filtercomponenten toevoegen {#filtering}
 
