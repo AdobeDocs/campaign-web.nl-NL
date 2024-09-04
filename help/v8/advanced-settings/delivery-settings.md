@@ -4,9 +4,9 @@ title: Leveringsinstellingen configureren
 description: Leer hoe te om leveringsmontages in het Web van de Campagne te vormen
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 78356629dc64702d81645b684350304f65b88597
+source-git-commit: 8c4e19504606ec02dd05eb4e3fbc4d21d9972860
 workflow-type: tm+mt
-source-wordcount: '2626'
+source-wordcount: '2665'
 ht-degree: 4%
 
 ---
@@ -343,9 +343,11 @@ Waarden worden indien nodig automatisch gecodeerd.
 >[!CONTEXTUALHELP]
 >id="acw_delivery_settings_variable"
 >title="Variabelen"
->abstract="Variabelen"
+>abstract="U kunt variabelen aan uw levering toevoegen, die voor het volgen en verpersoonlijken nuttig kunnen zijn. Deze variabelen zijn toegankelijk vanuit de inhoud van uw levering en uw workflows."
 
-U kunt variabelen aan uw levering toevoegen, die voor het volgen nuttig kunnen zijn. Navigeer hiertoe naar de tab **[!UICONTROL Variables]** , zoals hieronder wordt weergegeven.
+U kunt variabelen aan uw levering toevoegen, die voor het volgen en verpersoonlijken nuttig kunnen zijn. Deze variabelen zijn toegankelijk vanuit de inhoud van uw levering en uw workflows.
+
+Als u een variabele wilt toevoegen, bladert u naar het tabblad **[!UICONTROL Variables]** , zoals hieronder wordt weergegeven.
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
