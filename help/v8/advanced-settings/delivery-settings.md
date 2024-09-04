@@ -4,7 +4,7 @@ title: Leveringsinstellingen configureren
 description: Leer hoe te om leveringsmontages in het Web van de Campagne te vormen
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 8b1292a9c55a0006b981fa33c6fd8b05eb699461
+source-git-commit: 78356629dc64702d81645b684350304f65b88597
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 4%
@@ -345,8 +345,7 @@ Waarden worden indien nodig automatisch gecodeerd.
 >title="Variabelen"
 >abstract="Variabelen"
 
-U kunt variabelen aan uw levering toevoegen, die voor het volgen nuttig kunnen zijn. Om dit te doen,
-navigeer naar de tab **[!UICONTROL Variables]** , zoals hieronder wordt weergegeven.
+U kunt variabelen aan uw levering toevoegen, die voor het volgen nuttig kunnen zijn. Navigeer hiertoe naar de tab **[!UICONTROL Variables]** , zoals hieronder wordt weergegeven.
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
