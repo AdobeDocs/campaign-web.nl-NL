@@ -3,9 +3,9 @@ audience: end-user
 title: Activiteit van de JavaScript-codewerkstroom gebruiken
 description: Meer informatie over het gebruik van de JavaScript-workflowactiviteit voor code
 exl-id: ca040ef8-5e0d-44e0-818d-08cfe99100be
-source-git-commit: ea448ac526fddc5875103dbb7ca00b5982fe5596
+source-git-commit: 040a7f68f072d5c3a7ce56a61d3383f0baccf8a8
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 1%
 >id="acw_orchestration_javascript_transition"
 >title="JavaScript-overgang"
 >abstract="Schakel de optie **[!UICONTROL Process errors]** in of uit om fouten te behouden die optreden tijdens de uitvoering van het script in een extra uitvoerovergang."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_javascript_processerrors"
+>title="Procesfouten"
+>abstract="procesfouten"
 
 De **code van JavaScript** activiteit is a **het beheer van Gegevens** activiteit. Gebruik deze activiteit om een JavaScript script uit te voeren in de context van een workflow. Op deze manier kunt u gegevens van de database verzamelen of andere complexe bewerkingen uitvoeren.
 
