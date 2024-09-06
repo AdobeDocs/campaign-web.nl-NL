@@ -2,44 +2,55 @@
 audience: end-user
 title: De activiteit van de testworkflow gebruiken
 description: Leer hoe u de activiteit van de testworkflow kunt gebruiken
-source-git-commit: 575219c7bcef303e211f504d13227183933924cc
+exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
+source-git-commit: 8478b7101d78904b0255b728fd814a8319aa2e56
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
 # Testen {#test}
 
-De **Testen** activiteit is **Stroomregeling** activiteit. Hiermee kunt u overgangen inschakelen op basis van opgegeven voorwaarden.
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test"
+>title="Testactiviteit"
+>abstract="De **activiteit van de Test** staat u toe om overgangen toe te laten die op gespecificeerde voorwaarden worden gebaseerd. De activiteit geeft standaard een eenvoudige booleaanse test weer. Als aan de voorwaarde van de overgang &quot;Waar&quot; is voldaan, wordt deze transactie geactiveerd. Anders wordt een standaardovergang &quot;False&quot; geactiveerd. U kunt de voorwaarden vormen om uw behoeften aan te passen."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_test_conditions"
+>title="Voorwaarden"
+>abstract="Klik op de knop **[!UICONTROL Add condition]** om meerdere uitvoerovergangen aan de activiteit toe te voegen. Tijdens de uitvoering van de workflow wordt elke voorwaarde opeenvolgend getest totdat aan een van deze voorwaarden is voldaan. Als aan geen van de voorwaarden wordt voldaan, gaat de workflow verder langs het pad van de **[!UICONTROL Default condition]** . Als geen standaardvoorwaarde wordt geactiveerd, stoppen de workflows op dit punt."
+
+De **activiteit van de Test** is de controle **activiteit van de a** Stroom. Hiermee kunt u overgangen inschakelen op basis van opgegeven voorwaarden.
 
 ## De testactiviteit configureren {#test-configuration}
 
-Voer de volgende stappen uit om de **Testen** activiteit:
+Volg deze stappen om de **Test** activiteit te vormen:
 
-1. Voeg een **Testen** activiteit aan uw werkschema.
+1. Voeg de activiteit van de a **Test** aan uw werkschema toe.
 
-1. Standaard worden de **[!UICONTROL Test]** activiteit is een eenvoudige booleaanse test. Als aan de voorwaarde in de overgang &quot;Waar&quot; is voldaan, wordt deze overgang geactiveerd. Anders wordt een standaardovergang &quot;False&quot; geactiveerd.
+1. De **[!UICONTROL Test]** -activiteit geeft standaard een eenvoudige booleaanse test weer. Als aan de voorwaarde in de overgang &quot;Waar&quot; is voldaan, wordt deze overgang geactiveerd. Anders wordt een standaardovergang &quot;False&quot; geactiveerd.
 
-1. Als u de voorwaarde voor een overgang wilt configureren, klikt u op de knop **[!UICONTROL Open personalization dialog]** pictogram. Gebruik de uitdrukkingsredacteur om de regels te bepalen die worden vereist om deze overgang te activeren. U kunt gebeurtenisvariabelen, voorwaarden en datum-/tijdfuncties ook gebruiken. [Leer hoe u met gebeurtenisvariabelen en de expressie-editor werkt](../event-variables.md)
+1. Klik op het pictogram **[!UICONTROL Open personalization dialog]** om de voorwaarde te configureren die aan een overgang is gekoppeld. Gebruik de uitdrukkingsredacteur om de regels te bepalen die worden vereist om deze overgang te activeren. U kunt gebeurtenisvariabelen, voorwaarden en datum-/tijdfuncties ook gebruiken. [ Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur te werken ](../event-variables.md)
 
-   Bovendien kunt u de **[!UICONTROL Label]** veld om de naam van de overgang aan te passen op het werkstroomcanvas.
+   Bovendien kunt u het veld **[!UICONTROL Label]** aanpassen om de naam van de overgang aan te passen aan het werkstroomcanvas.
 
    ![](../assets/workflow-test-default.png)
 
-1. U kunt meerdere uitvoerovergangen toevoegen aan een **[!UICONTROL Test]** activiteit. Om dit te doen, klik **[!UICONTROL Add condition]** en configureert u het label en de bijbehorende voorwaarde voor elke overgang.
+1. U kunt meerdere uitvoerovergangen toevoegen aan een **[!UICONTROL Test]** -activiteit. Klik hiertoe op de knop **[!UICONTROL Add condition]** en configureer het label en de bijbehorende voorwaarde voor elke overgang.
 
-1. Tijdens de uitvoering van de workflow wordt elke voorwaarde opeenvolgend getest totdat aan een van deze voorwaarden is voldaan. Als aan geen van de voorwaarden wordt voldaan, gaat de workflow verder langs het pad van de **[!UICONTROL Default condition]**. Als geen standaardvoorwaarde wordt geactiveerd, stoppen de workflows op dit punt.
+1. Tijdens de uitvoering van de workflow wordt elke voorwaarde opeenvolgend getest totdat aan een van deze voorwaarden is voldaan. Als aan geen van de voorwaarden wordt voldaan, gaat de workflow verder langs het pad van de **[!UICONTROL Default condition]** . Als geen standaardvoorwaarde wordt geactiveerd, stoppen de workflows op dit punt.
 
 ## Voorbeeld {#example}
 
-In dit voorbeeld worden verschillende overgangen geactiveerd op basis van het aantal profielen waarvoor een **[!UICONTROL Build audience]** activiteit:
+In dit voorbeeld worden verschillende overgangen geactiveerd op basis van het aantal profielen waarop een **[!UICONTROL Build audience]** -activiteit is gericht:
 * Als er meer dan 10.000 profielen zijn bedoeld, wordt een e-mailbericht verzonden.
 * Voor 1.000 tot 10.000 profielen, wordt SMS verzonden.
 * Als de doelprofielen lager zijn dan 1.000, worden ze omgeleid naar een overgang &quot;neem geen contact op&quot;.
 
 ![](../assets/workflow-test-example.png)
 
-Om dit te doen, `vars.recCount` de gebeurtenisvariabele is gebruikt in de voorwaarden &quot; email &quot; en &quot; sms &quot; om het aantal doelprofielen te tellen en de juiste overgang te activeren .
+Hiervoor is de gebeurtenisvariabele `vars.recCount` gebruikt in de voorwaarden &quot;email&quot; en &quot;sms&quot; om het aantal doelprofielen te tellen en de juiste overgang te activeren.
 
 ![](../assets/workflow-test-example-config.png)
