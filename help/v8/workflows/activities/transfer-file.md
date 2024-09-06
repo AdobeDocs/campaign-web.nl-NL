@@ -3,10 +3,10 @@ audience: end-user
 title: De bestandsactiviteit voor overbrengen gebruiken
 description: Leer hoe u de workflowactiviteit voor het overdragen van bestanden gebruikt
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
-source-git-commit: 1494db73b1a91825a2ca57ea1881eb04e95d8da2
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 7%
+source-wordcount: '1131'
+ht-degree: 8%
 
 ---
 
@@ -36,36 +36,6 @@ ht-degree: 7%
 >id="acw_orchestration_transferfile_source"
 >title="Bestandsbron overdragen"
 >abstract="Voer de gewenste bestandsnaam in."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_delete_file"
->title="Bronbestanden na overdracht verwijderen"
->abstract="Wis de bronbestanden na een geslaagde overdracht."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="De sessielogboeken weergeven"
->abstract="Informatie over de overdrachtsbewerking wordt weergegeven in de werkstroomlogboeken."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_advancedoptions_list_files"
->title="Alle bestanden weergeven"
->abstract="Deze optie indexeert alle dossiers huidig op de server in **vars.filenames** gebeurtenisvariabele."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_historization"
->title="Bestandshistorie"
->abstract="Bestandshistorie"
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_missing_file"
->title="Ontbrekende bestanden verwerken"
->abstract="Deze optie staat u toe om a **Geen dossier** uitgaande overgang na de activiteit te activeren."
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_transferfile_process_errors"
->title="Procesfouten"
->abstract="Deze optie staat u toe om een **Fout** uitgaande overgang na de activiteit te activeren."
 
 De **activiteit van het Dossier van de Overdracht** is a **het Beheer van Gegevens** activiteit. Hiermee kunt u bestanden ontvangen of verzenden, testen op bestandsaanwezigheid of bestanden weergeven op een server. Het gebruikte protocol kan of server-aan-server protocol of het protocol van HTTP zijn.
 
@@ -122,6 +92,11 @@ Volg de hieronder gedetailleerde stappen om de **het dossier van de Overdracht**
 
 ## Historialisatie-instellingen {#historization}
 
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_historization"
+>title="Bestandshistorie"
+>abstract="Telkens wanneer een activiteit **[!UICONTROL Transfer file]** wordt uitgevoerd, worden de geüploade of gedownloade bestanden opgeslagen in een speciale map. Er wordt één map gemaakt voor elke activiteit van een workflow in het overdrachtsbestand. Standaard worden bestanden opgeslagen in de standaard opslagmap van de installatiemap van Adobe Campaign (`/vars` ) voordat ze worden verwerkt. Als u een specifieke map wilt gebruiken, schakelt u de optie **[!UICONTROL Use a default storage directory]** uit en voert u het pad van de map in."
+
 Telkens wanneer een activiteit **[!UICONTROL Transfer file]** wordt uitgevoerd, worden de geüploade of gedownloade bestanden opgeslagen in een speciale map. Er wordt één map gemaakt voor elke activiteit van een workflow in het overdrachtsbestand. Standaard worden bestanden opgeslagen in de standaard opslagmap van de installatiemap van Adobe Campaign (`/vars` ) voordat ze worden verwerkt. Als u een specifieke map wilt gebruiken, schakelt u de optie **[!UICONTROL Use a default storage directory]** uit en voert u het pad van de map in.
 
 ![](../assets/workflow-transfer-file-historization.png)
@@ -139,6 +114,31 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de map als volgt gecontrol
 >Als de activiteit niet opnieuw wordt uitgevoerd, wordt de map niet gecontroleerd en ook niet leeggemaakt. Houd hier rekening mee bij het overdragen van grote bestanden.
 
 ## Geavanceerde opties voor foutbeheer {#advanced}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_delete_file"
+>title="Bronbestanden na overdracht verwijderen"
+>abstract="Wis de bronbestanden na een geslaagde overdracht."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_display_logs"
+>title="De sessielogboeken weergeven"
+>abstract="Informatie over de overdrachtsbewerking wordt weergegeven in de werkstroomlogboeken."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_advancedoptions_list_files"
+>title="Alle bestanden weergeven"
+>abstract="Deze optie indexeert alle dossiers huidig op de server in **vars.filenames** gebeurtenisvariabele."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_missing_file"
+>title="Ontbrekende bestanden verwerken"
+>abstract="Deze optie staat u toe om a **Geen dossier** uitgaande overgang na de activiteit te activeren."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_transferfile_process_errors"
+>title="Procesfouten"
+>abstract="Deze optie staat u toe om een **Fout** uitgaande overgang na de activiteit te activeren."
 
 1. In **[!UICONTROL Advanced options]**, zijn de extra opties beschikbaar gebaseerd op het type van activiteit dat u vormt. Vouw de onderstaande secties uit voor meer informatie.
 

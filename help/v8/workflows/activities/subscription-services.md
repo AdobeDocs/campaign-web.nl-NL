@@ -3,10 +3,10 @@ audience: end-user
 title: De activiteit van de Abonnementsservices gebruiken
 description: Leer hoe u de workflowactiviteit voor abonnementenservices gebruikt
 exl-id: 0e7c2e9a-3301-4988-ae0e-d901df5b84db
-source-git-commit: 0e5b5e916309b2a337ac86f3741bcb83237b3fad
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 16%
+source-wordcount: '1017'
+ht-degree: 15%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Aanvullende informatie"
->abstract="Aanvullende informatie"
+>abstract="Geef de gegevens en de oorsprong van het abonnement voor elke record op. U kunt deze sectie leeg laten, in welk geval er geen datum of oorsprong wordt ingesteld wanneer de workflow wordt uitgevoerd. Als de binnenkomende gegevens een kolom bevatten die de abonnementdatum van het profiel voor de service aangeeft, kunt u deze selecteren in het veld **[!UICONTROL Date]** . Definieer in het veld **[!UICONTROL Origin path]** de oorsprong van het abonnement. U kunt dit instellen op een van de velden van de binnenkomende gegevens of op een constante waarde van uw keuze door de optie **[!UICONTROL Set a constant as origin]** te selecteren."
 
 De **activiteit van de diensten van het Abonnement van 0} is a** het Beheer van Gegevens **activiteit.** Hiermee kunt u een abonnement op een informatieservice maken of verwijderen voor de populatie die is opgegeven in de overgang.
 

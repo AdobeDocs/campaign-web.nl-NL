@@ -3,10 +3,10 @@ audience: end-user
 title: Werkstroomactiviteit combineren gebruiken
 description: Leer hoe u de workflowactiviteit combineren gebruikt
 exl-id: 7e821678-e6a2-4613-b05e-6ccbe4df41c3
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 10%
+source-wordcount: '1046'
+ht-degree: 9%
 
 ---
 
@@ -42,7 +42,7 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="Selecteer het segmentatietype"
->abstract="Selecteer hoe u het publiek wilt combineren: verenigen, doorsnijden of uitsluiten."
+>abstract="Selecteer hoe u het publiek wilt combineren. De **Unie** staat u toe om het resultaat van veelvoudige activiteiten in één enkel doel te hergroeperen. **Intersection** staat u toe om slechts de elementen gemeenschappelijk voor de verschillende binnenkomende populaties in de activiteit te houden. De **Uitsluiting** staat u toe om elementen van één bevolking volgens bepaalde criteria uit te sluiten. "
 
 Volg deze gemeenschappelijke stappen beginnen de **te vormen combineren** activiteit:
 
@@ -57,14 +57,9 @@ Volg deze gemeenschappelijke stappen beginnen de **te vormen combineren** activi
 ## Samenvoegen {#combine-union}
 
 >[!CONTEXTUALHELP]
->id="acw_orchestration_intersection_reconciliation_options"
->title="Afstemmingsopties voor doorsnede"
->abstract="Selecteer het afstemmingstype om te bepalen hoe duplicaten worden verwerkt."
-
->[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_reconciliation"
 >title="Afstemmingsopties"
->abstract="Selecteer het **Type van Verzoening** om te bepalen hoe te om duplicaten te behandelen."
+>abstract="Selecteer het **Type van Verzoening** om te bepalen hoe te om duplicaten te behandelen. Door gebrek, wordt de **optie van Sleutels** geactiveerd, betekenend dat de activiteit slechts één element houdt wanneer de elementen van de verschillende binnenkomende overgangen de zelfde sleutel hebben. Gebruik de **selectie van A kolommen** optie om de lijst van kolommen te bepalen waarop de gegevensverzoening wordt toegepast."
 
 In **combineer** activiteit, kunt u a **Vereniging** vormen. Voor dit, moet u het **Type van Verzoening** selecteren om te bepalen hoe de duplicaten worden behandeld:
 
@@ -72,6 +67,11 @@ In **combineer** activiteit, kunt u a **Vereniging** vormen. Voor dit, moet u he
 * **een selectie van kolommen**: selecteer deze optie om de lijst van kolommen te bepalen waarop de gegevensverzoening wordt toegepast. U moet eerst de primaire set (de set met de brondata) selecteren en vervolgens de kolommen die u voor de samenvoeging wilt gebruiken.
 
 ## Doorsnede {#combine-intersection}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_intersection_reconciliation_options"
+>title="Afstemmingsopties voor doorsnede"
+>abstract="Selecteer het **Type van Verzoening** om te bepalen hoe te om duplicaten te behandelen. Door gebrek, wordt de **optie van Sleutels** geactiveerd, betekenend dat de activiteit slechts één element houdt wanneer de elementen van de verschillende binnenkomende overgangen de zelfde sleutel hebben. Gebruik de **selectie van A kolommen** optie om de lijst van kolommen te bepalen waarop de gegevensverzoening wordt toegepast."
 
 In **combineer** activiteit, kunt u een **Intersection** vormen. Hiervoor moet u de volgende extra stappen volgen:
 

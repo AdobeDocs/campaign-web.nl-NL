@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de testworkflow gebruiken
 description: Leer hoe u de activiteit van de testworkflow kunt gebruiken
 exl-id: 1bb25ad4-2cab-4656-85bd-4ed018e8477b
-source-git-commit: 8478b7101d78904b0255b728fd814a8319aa2e56
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -15,12 +15,12 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test"
 >title="Testactiviteit"
->abstract="De **activiteit van de Test** staat u toe om overgangen toe te laten die op gespecificeerde voorwaarden worden gebaseerd. De activiteit geeft standaard een eenvoudige booleaanse test weer. Als aan de voorwaarde van de overgang &quot;Waar&quot; is voldaan, wordt deze transactie geactiveerd. Anders wordt een standaardovergang &quot;False&quot; geactiveerd. U kunt de voorwaarden vormen om uw behoeften aan te passen."
+>abstract="De **activiteit van de Test** is de controle **activiteit van de a** Stroom. Hiermee kunt u overgangen inschakelen op basis van opgegeven voorwaarden."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_test_conditions"
 >title="Voorwaarden"
->abstract="Klik op de knop **[!UICONTROL Add condition]** om meerdere uitvoerovergangen aan de activiteit toe te voegen. Tijdens de uitvoering van de workflow wordt elke voorwaarde opeenvolgend getest totdat aan een van deze voorwaarden is voldaan. Als aan geen van de voorwaarden wordt voldaan, gaat de workflow verder langs het pad van de **[!UICONTROL Default condition]** . Als geen standaardvoorwaarde wordt geactiveerd, stoppen de workflows op dit punt."
+>abstract="De **activiteit van de Test** kan veelvoudige uitvoerovergangen hebben. Tijdens de uitvoering van de workflow wordt elke voorwaarde opeenvolgend getest totdat aan een van deze voorwaarden is voldaan. Als aan geen van de voorwaarden wordt voldaan, gaat de workflow verder langs het pad van de **[!UICONTROL Default condition]** . Als geen standaardvoorwaarde wordt geactiveerd, stoppen de workflows op dit punt."
 
 De **activiteit van de Test** is de controle **activiteit van de a** Stroom. Hiermee kunt u overgangen inschakelen op basis van opgegeven voorwaarden.
 

@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de AND-join-workflow gebruiken
 description: Leer hoe u de workflowactiviteit AND-join gebruikt
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Deze activiteit brengt slechts zijn uitgaande overgang teweeg zodra alle binnenk
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join_merging"
->title="Vorm EN-verbind activiteit"
+>title="Samenvoegopties"
 >abstract="Selecteer de activiteiten waaraan u wilt deelnemen. In de **Primaire reeks** drop-down, kies welke binnenkomende overgangspopulatie u wilt houden."
 
 Voer de volgende stappen uit om de **EN-lid** activiteit te vormen:
