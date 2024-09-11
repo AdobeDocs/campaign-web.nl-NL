@@ -3,7 +3,7 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
+source-git-commit: 1b31adb5de2e2fd9d2d6a835e899b4dfc6fe22f2
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 3%
@@ -51,10 +51,11 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 >[!BEGINTABS]
 
->[!TAB  AI Medewerker in het Web van Adobe Campaign - de Versneller van de Inhoud ]
+>[!TAB  AI Medewerker - de Versneller van de Inhoud ]
 
-Ga in de praktijk om met onze live voorvertoning van de functie, die u in staat stelt de functies van de functie te verkennen en de mogelijkheden ervan volledig te begrijpen.
-[![ beeld ](assets/do-not-localize/learn-more-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)
+Ga zelf in een hands-on ervaring met onze ](../v8/email/generative-gs.md) levende eigenschapvoorproef van de Versneller van de Inhoud van 0} AI Hulp binnen, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.[
+
+[![afbeelding](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB  Distributie van waarden ]
 
