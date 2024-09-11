@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 5e722eee9858f0d0f943167fb26b2df4729dec83
+source-git-commit: ff46f8d9c0b46d5b74dee4317ade6a496841c408
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '749'
 ht-degree: 14%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 14%
          + [Een stijl voor koppelingen definiëren](email/styling-links.md)
          + [Inline-opmaakkenmerken toevoegen](email/inline-styling.md)
    + AI Assistant voor Content Accelerator {#ai-assistant}
-      + [Aan de slag met de AI Assistant - Content Accelerator](email/generative-gs.md)
+      + [Werken met de AI Assistant - Inhoudsversnelling](email/generative-gs.md)
       + [E-mailgeneratie met AI](email/generative-content.md)
       + [SMS genereren met AI](email/generative-sms.md)
       + [Pushmeldingen genereren met AI](email/generative-push.md)
