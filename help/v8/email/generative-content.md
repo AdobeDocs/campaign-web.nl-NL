@@ -3,7 +3,7 @@ audience: end-user
 title: Generatieve inhoud
 description: Aan de slag met de AI-assistent in Adobe Campaign Web for Content Acceleration
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in het Web van Adobe Campaign voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) {target="_blank"} akkoord gaan alvorens u de Medewerker AI in het Web van Adobe Campaign voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 
 Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de AI Assistant in Adobe Campaign Web for Content Acceleration in Campaign, die wordt aangedreven door generatieve AI, om uw inhoud naar een hoger niveau te tillen.
