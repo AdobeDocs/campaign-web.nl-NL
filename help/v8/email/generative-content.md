@@ -1,16 +1,16 @@
 ---
 audience: end-user
 title: Generatieve inhoud
-description: Aan de slag met de AI-assistent in Adobe Campaign Web for Content Acceleration
+description: Aan de slag met de AI-assistent voor versnelling van inhoud
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
 
-# E-mailgeneratie met AI Assistant in Adobe Campaign Web - Content Accelerator {#generative-content}
+# E-mailgeneratie met AI Assistant - Versneller inhoud {#generative-content}
 
 >[!IMPORTANT]
 >

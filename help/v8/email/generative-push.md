@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Pushmelding met de AI Assistant in Journey Optimizer for Content Acceleration
-description: Aan de slag met de AI-assistent in Journey Optimizer for Content Acceleration
+title: Pushmelding met de AI Assistant voor versnelling van inhoud
+description: Aan de slag met de AI-assistent voor versnelling van inhoud
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5b0cc3dfed5180d4acb022e20333f6afab465051
+source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '526'
 ht-degree: 2%
 
 ---
 
-# Pushmeldingen genereren met de AI Assistant in Journey Optimizer - Content Accelerator  {#generative-push}
+# Pushmeldingen genereren met de AI Assistant - Content Accelerator {#generative-push}
 
 >[!IMPORTANT]
 >
@@ -19,7 +19,7 @@ ht-degree: 2%
 >
 >U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in het Web van Adobe Campaign voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-De AI-assistent in Journey Optimizer for Content Acceleration kan u helpen de impact van uw leveringen te optimaliseren door verschillende inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
+Met de AI-assistent voor versnelling van inhoud kunt u de impact van uw leveringen optimaliseren door andere inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
 
 In het volgende voorbeeld, zullen wij hefboomwerking de AI medewerker aan ambachtelijk dwingend overseinen om een aansprekender klantenervaring tot stand te brengen.
 
