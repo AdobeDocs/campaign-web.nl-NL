@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
+source-git-commit: c08c18d9e97401459c0f6855a1fda47cf2a01111
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '481'
 ht-degree: 13%
 
 ---
@@ -33,6 +33,7 @@ De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een onond
 <p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
 <p>Raadpleeg de <a href="../email/generative-gs.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
+<p>Beschikbaarheidsdatum: september 12</p>
 </td>
 </tr>
 </tbody>
