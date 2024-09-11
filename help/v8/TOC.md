@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 970f1511fef75395aaaa6b577eb65b6cb179f00d
+source-git-commit: 8450e6e03b1d93a0dd978d45d398d5274f65b014
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 14%
 
 ---
@@ -65,11 +65,6 @@ ht-degree: 14%
       + [Een levering voor direct mail maken](direct-mail/create-direct-mail.md)
       + [Het extractiebestand ontwerpen](direct-mail/content-direct-mail.md)
       + [Een voorbeeld bekijken en direct-maillevering verzenden](direct-mail/send-direct-mail.md)
-   + AI-assistent {#ai-assistant}
-      + [Aan de slag met de AI Assistant](email/generative-gs.md)
-      + [E-mailgeneratie met AI Assistant](email/generative-content.md)
-      + [SMS genereren met de AI Assistant](email/generative-sms.md)
-      + [Pushmeldingen genereren met de AI Assistant](email/generative-push.md)
    + [Aanbiedingen toevoegen aan uw berichten](msg/offers.md)
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
@@ -113,6 +108,11 @@ ht-degree: 14%
          + [Verticale uitlijning en opvulling aanpassen](email/alignment-and-padding.md)
          + [Een stijl voor koppelingen definiëren](email/styling-links.md)
          + [Inline-opmaakkenmerken toevoegen](email/inline-styling.md)
+   + AI Assistant voor Content Accelerator {#ai-assistant}
+      + [Aan de slag met de AI Assistant](email/generative-gs.md)
+      + [E-mailgeneratie met AI Assistant](email/generative-content.md)
+      + [SMS genereren met de AI Assistant](email/generative-sms.md)
+      + [Pushmeldingen genereren met de AI Assistant](email/generative-push.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](landing-pages/get-started-lp.md)
    + [Een openingspagina maken en publiceren](landing-pages/create-lp.md)

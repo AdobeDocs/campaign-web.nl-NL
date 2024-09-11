@@ -3,9 +3,9 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 5f12974209ba76d902357fed7830d2472ca9e00d
+source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '470'
 ht-degree: 3%
 
 ---
@@ -51,11 +51,10 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 >[!BEGINTABS]
 
->[!TAB  de versie van Augustus is levend!]
+>[!TAB  AI Medewerker in het Web van Adobe Campaign - de Versneller van de Inhoud ]
 
-Ontdek nieuwe functies en verbeteringen die in de release van 24 juli 2010 beschikbaar zijn voor Adobe Campaign Web User Interface.
-
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](rn/release-notes.md)
+Ga in de praktijk om met onze live voorvertoning van de functie, die u in staat stelt de functies van de functie te verkennen en de mogelijkheden ervan volledig te begrijpen.
+[![ beeld ](assets/do-not-localize/learn-more-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator)
 
 >[!TAB  Distributie van waarden ]
 
