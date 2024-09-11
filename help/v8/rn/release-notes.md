@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 020cd1608887023dd4ff434c58cc98e3c1f93adf
+source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '477'
 ht-degree: 13%
 
 ---
@@ -23,7 +23,7 @@ De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een onond
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant in Adobe Campaign Web - Content Accelerator</strong><br/></th>
+<th><strong>AI Assistant - Inhoud versnellen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
