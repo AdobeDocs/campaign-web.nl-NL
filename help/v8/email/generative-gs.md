@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met de AI Assistant - Content Accelerator
 description: Aan de slag met de AI Assistant - Inhoudsversnelling
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: ff46f8d9c0b46d5b74dee4317ade6a496841c408
+source-git-commit: 55b726961149e7eb19ee326f1b702e6b75976dae
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '838'
 ht-degree: 1%
 
 ---
@@ -53,14 +53,18 @@ Met AI Assistant kunt u marketingcampagnes op verschillende kanalen, zoals e-mai
 
 ## De AI-assistent openen - Inhoud sneller {#generative-access}
 
+AI Assistant - Content Accelerator voor e-mails, pushberichten en SMS is nu beschikbaar voor algemene beschikbaarheid (GA) en is beschikbaar voor alle gebruikers. Vereiste machtigingen en stappen voor het verlenen van toegang aan gebruikers worden hieronder beschreven.
+
 +++  Leer hoe u machtigingen voor het genereren van inhoud toewijst
 
-1. **creeer het Profiel van het Product** - in [ Admin Console ](https://stage.adminconsole.adobe.com/) creeer een productprofiel met dit specifieke patroon: `Campaign - <instance-name> - AIAssistant`
+1. **creeer het Profiel van het Product** - in [ Admin Console ](https://stage.adminconsole.adobe.com/) creeer een productprofiel met het volgende specifieke patroon:
+   `Campaign - <instance-name> - AIAssistant`
 
 1. **voeg gebruikers** toe - voeg vereiste gebruiker aan dat productprofiel toe,
 of
-
    **creeer de Groep van de Gebruiker** en voeg die gebruikersgroep aan productprofiel toe en voeg gebruikers aan dat productprofiel toe.
+
+Leer hoe te om toestemmingen in Campagne in [ te bepalen deze sectie ](../get-started/permissions.md).
 
 +++
 
