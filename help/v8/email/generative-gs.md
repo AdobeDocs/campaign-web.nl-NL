@@ -1,16 +1,23 @@
 ---
 audience: end-user
-title: Aan de slag met de AI Assistant in Adobe Campaign Web - Content Accelerator
-description: Aan de slag met de AI Assistant in Adobe Campaign Web - Content Accelerator
+title: Aan de slag met de AI Assistant - Content Accelerator
+description: Aan de slag met de AI Assistant - Inhoudsversnelling
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: b4ff0ff1f507f3d7a8a02faefe6d121b08b8c9b8
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '795'
 ht-degree: 1%
 
 ---
 
 # Aan de slag met de AI Assistant - Content Accelerator  {#generative-gs}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="AI Assistant-versnelling voor inhoud"
+>abstract="Met AI Assistant kunt u marketingcampagnes op verschillende kanalen, zoals e-mail, SMS en Push, intuïtief, eenvoudig en probleemloos maken en tegelijk tijd besparen, de efficiëntie verbeteren en betere resultaten behalen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
@@ -44,7 +51,7 @@ Met AI Assistant kunt u marketingcampagnes op verschillende kanalen, zoals e-mai
 >
 >* U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in het Web van Adobe Campaign voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-## De AI Assistant-versnelling voor inhoud openen {#generative-access}
+## De AI-assistent openen - Inhoud sneller {#generative-access}
 
 +++  Leer hoe u machtigingen voor het genereren van inhoud toewijst
 

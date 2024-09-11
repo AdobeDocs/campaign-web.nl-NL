@@ -2,7 +2,8 @@
 audience: end-user
 title: Een overvulgroep gebruiken
 description: Leer hoe te om een valgroep voor uw levering in het gebruikersinterface van het Web van de Campagne te gebruiken
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+exl-id: 48c34581-8825-4798-b24e-c462303f7645
+source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 # Een overvulgroep gebruiken {#trap-group}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn3"
 >title="Overvulgroep"
 >abstract="U kunt een overvulgroep gebruiken om specifieke adressen in uw leveringen op te nemen om het distributieproces te controleren en te verifiëren door profielen aan te wijzen die niet aan de bepaalde doelcriteria voldoen."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
