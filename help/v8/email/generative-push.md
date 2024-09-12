@@ -3,14 +3,14 @@ audience: end-user
 title: Pushmelding met de AI Assistant voor versnelling van inhoud
 description: Aan de slag met de AI-assistent voor versnelling van inhoud
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 1edbc6201b49aeff3d71118b327de043d6f5e7d0
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 2%
 
 ---
 
-# Pushmeldingen genereren met de AI Assistant - Content Accelerator {#generative-push}
+# Pushmeldingen genereren met de AI Assistant Content Accelerator {#generative-push}
 
 >[!IMPORTANT]
 >

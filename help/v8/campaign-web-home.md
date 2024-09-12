@@ -3,7 +3,7 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 166623c699aa1c91b2d4e7530f5b2ea1b54507b4
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 3%
@@ -51,7 +51,7 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 >[!BEGINTABS]
 
->[!TAB  AI Medewerker - de Versneller van de Inhoud ]
+>] de Versneller van de Inhoud van 0} AI Hulp {[!TAB 
 
 ✨ onderdompelen zich in een hands-on ervaring met onze ](../v8/email/generative-gs.md) levende eigenschapvoorproef van de Versneller van de Inhoud 1} van AI Hulp, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.[
 

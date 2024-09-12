@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Aan de slag met de AI Assistant - Content Accelerator
-description: Aan de slag met de AI Assistant - Inhoudsversnelling
+title: Aan de slag met de AI Assistant Content Accelerator
+description: Aan de slag met de AI Assistant Content Accelerator
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 55b726961149e7eb19ee326f1b702e6b75976dae
+source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 1%
 
 ---
 
-# Werken met de AI Assistant - Inhoudsversnelling  {#generative-gs}
+# Werken met de AI Assistant Content Accelerator  {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn1"
@@ -51,9 +51,9 @@ Met AI Assistant kunt u marketingcampagnes op verschillende kanalen, zoals e-mai
 >
 >* U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in het Web van Adobe Campaign voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-## De AI-assistent openen - Inhoud sneller {#generative-access}
+## De AI Assistant-versnelling voor inhoud openen {#generative-access}
 
-AI Assistant - Content Accelerator voor e-mails, pushberichten en SMS is nu beschikbaar voor algemene beschikbaarheid (GA) en is beschikbaar voor alle gebruikers. Vereiste machtigingen en stappen voor het verlenen van toegang aan gebruikers worden hieronder beschreven.
+De AI Assistant Content Accelerator voor e-mails, pushberichten en SMS is nu beschikbaar voor algemene beschikbaarheid (GA) en is beschikbaar voor alle gebruikers. Vereiste machtigingen en stappen voor het verlenen van toegang aan gebruikers worden hieronder beschreven.
 
 +++  Leer hoe u machtigingen voor het genereren van inhoud toewijst
 
