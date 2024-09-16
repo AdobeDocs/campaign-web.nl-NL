@@ -3,7 +3,7 @@ title: Aan de slag met Adobe Campaign v8 voor marketers
 description: Belangrijke functionaliteit van Campagne v8 ontdekken. Het is voor marketeers die van Campaign Standard naar Campaign v8 migreren.
 role: User
 level: Beginner, Experienced
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Deze handleiding geeft een overzicht van de belangrijkste functies van Campaign v8, voor marketers die van Campaign Standard overstappen op Campaign v8.
 
-U hebt toegang tot Adobe Campaign v8 via de clientconsole of de webgebruikersinterface. Met de webinterface kunt u belangrijke marketingacties maken, beheren en uitvoeren. De nieuwe Adobe Campaign Web-interface biedt een moderne en intuïtieve gebruikerservaring om het ontwerpen en leveren van marketingcampagnes te vereenvoudigen. Meer informatie vindt u in deze sectie. [Meer informatie](../../v8/get-started/user-interface.md).
+U hebt toegang tot Adobe Campaign v8 via de clientconsole of de webgebruikersinterface. Met de webinterface kunt u belangrijke marketingacties maken, beheren en uitvoeren. De nieuwe Adobe Campaign Web-interface biedt een moderne en intuïtieve gebruikerservaring om het ontwerpen en leveren van marketingcampagnes te vereenvoudigen. [Meer informatie](../../v8/get-started/user-interface.md).
 
 Met de migratie worden al uw gegevens uit Campaign Standard geïmporteerd in Campaign v8, zodat u een soepele overgang hebt met minimale onderbreking van uw huidige bewerkingen.
 
