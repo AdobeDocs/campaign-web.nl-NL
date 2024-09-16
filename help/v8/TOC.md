@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 14%
    + [Machtigingen](get-started/permissions.md)
    + [Campagne Web en de console van de Cliënt](get-started/capability-matrix.md)
    + [Van Campaign Standard naar v8](rn/acs-migration.md)
-   + [Contextafhankelijke Help voor AI](get-started/using-ai.md)
+   + [Contextafhankelijke Help voor AI](get-started/-using-ai.md)
 + Berichten en leveringen {#msg}
    + [Aan de slag met berichten](msg/gs-messages.md)
    + [Toegang tot leveringen](msg/gs-deliveries.md)
