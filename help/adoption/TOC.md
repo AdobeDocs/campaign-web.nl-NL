@@ -6,7 +6,7 @@ description: Gebruikers van Campaigns Standard die overstappen op Campagne v8 le
 breadcrumb-title: Handleiding voor de goedkeuring van campagnes
 source-git-commit: c635764e5a655d4a2f3e33f629e8d768a4d9089a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '56'
 ht-degree: 0%
 
 ---
