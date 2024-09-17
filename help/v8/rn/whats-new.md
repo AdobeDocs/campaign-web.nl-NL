@@ -3,7 +3,7 @@ audience: end-user
 title: Nieuw in de Gebruikersinterface van het Web van de Campagne
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
+source-git-commit: 2918ad161ace7305e4bd3be1bcec0bb7b6f7d51a
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 4%
@@ -114,9 +114,7 @@ U kunt **nu invoeren en om het even welke inhoud van HTML** in de e-mailredacteu
 
 **SMS met aanbiedingen**
 
-Het nieuwe gebruikersinterface van het Web van de Campagne laat u toe om **aanbiedingen met SMS** naast E-mail te integreren. Bereid uw publiek op hun mobiele apparaten, leverend bevorderingen, en geschikte berichten. Verhoog uw marketinginspanningen door gebruik te maken van de kracht van geïntegreerde aanbiedingen via SMS op ons geavanceerde webplatform.
-
-Lees meer in [deze sectie](../msg/offers.md).
+Het nieuwe gebruikersinterface van het Web van de Campagne laat u toe om **aanbiedingen met SMS** naast E-mail te integreren. Bereid uw publiek op hun mobiele apparaten, leverend bevorderingen, en geschikte berichten. Verhoog uw marketinginspanningen door gebruik te maken van de kracht van geïntegreerde aanbiedingen via SMS op ons geavanceerde webplatform. Lees meer in [deze sectie](../msg/offers.md).
 
 ## Overgang naar de gebruikersinterface van het Web van de Campagne
 
