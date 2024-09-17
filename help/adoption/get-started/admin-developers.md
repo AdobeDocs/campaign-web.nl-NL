@@ -3,10 +3,10 @@ title: Ga aan de slag met Adobe Campaign v8 voor beheerders en ontwikkelaars.
 description: Deze zelfstudie geeft een overzicht van de belangrijkste functies voor beheer en gegevensbeheer van Campaign v8. Het is bedoeld voor beheerders en de technische markeertekens die van Campaign Standard naar Campaign v8 migreren.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2666'
+ht-degree: 3%
 
 ---
 
