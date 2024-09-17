@@ -16,20 +16,20 @@ Pushberichten zijn essentieel voor het bereiken van een mobiele app-gebruiker, z
 
 Voor het maken van pushberichten hebt u drie opties:
 
-* **Workflows**: Nadat u een Push-kanaalactiviteit aan uw workflow hebt toegevoegd en de basisinstellingen hebt geconfigureerd, kunt u de inhoud van uw pushberichten opnieuw ordenen vanuit het rechterdeelvenstermenu. Raadpleeg voor gedetailleerde instructies over het configureren van de workflow [deze pagina](../workflows/gs-workflows.md).
+* **Werkschema&#39;s**: Na het toevoegen van een het kanaalactiviteit van de Duw aan uw werkschema en het vormen van de basismontages, kunt u de inhoud van uw duw berichten van uw juiste paneelmenu dan van een vaartuig voorzien. Voor gedetailleerde instructies op hoe te om werkschema te vormen, verwijs naar [ deze pagina ](../workflows/gs-workflows.md).
 
-* **Campagnes**: Nadat u een campagne hebt gemaakt, kunt u een pushmelding maken. Voor meer informatie over het instellen van uw campagne raadpleegt u [deze pagina](../campaigns/gs-campaigns.md).
+* **Campagnes**: Zodra u een campagne hebt gecreeerd, kunt u een het berichtlevering van de Duw tot stand brengen. Voor meer informatie bij vestiging uw campagne, verwijs naar [ deze pagina ](../campaigns/gs-campaigns.md).
 
-* **Zelfstandige leveringen**: Neem direct en direct contact op met klanten met individuele pushberichten, zonder dat ze werkstromen of campagnes nodig hebben.
+* **stand-alone leveranties**: Sluit klanten direct en onmiddellijk met individuele levering van het dupbericht, zonder de behoefte aan werkschema&#39;s of campagnes aan.
 
-![](../assets/do-not-localize/book.png) Leer hoe u het pushmeldingskanaal configureert in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Leer hoe te om het kanaal van het pushbericht in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html) te vormen {target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-push.md">
 <img alt="Lood" src="assets/do-not-localize/push_create.jpeg">
 </a>
-<div><a href="create-push.md"><strong>Een pushbericht maken</strong>
+<div><a href="create-push.md"><strong> creeer een duplevering </strong>
 </div>
 <p>
 </td>
@@ -38,7 +38,7 @@ Voor het maken van pushberichten hebt u drie opties:
 <img alt="Onfrequent" src="assets/do-not-localize/push_design.jpeg">
 </a>
 <div>
-<a href="content-push.md"><strong>Een pushaanbieding ontwerpen<strong></strong></a>
+<a href="content-push.md"><strong> Ontwerp een duplevering <strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -46,7 +46,7 @@ Voor het maken van pushberichten hebt u drie opties:
 <img alt="Validatie" src="assets/do-not-localize/push_send.jpeg">
 </a>
 <div>
-<a href="send-push.md"><strong>Een pushbericht verzenden</strong></a>
+<a href="send-push.md"><strong> verzend een duplevering </strong></a>
 </div>
 <p>
 </td>
@@ -55,7 +55,7 @@ Voor het maken van pushberichten hebt u drie opties:
 <img alt="Validatie" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="send-push.md"><strong>Push-leveringsrapport</strong></a>
+<a href="send-push.md"><strong> Druk leveringsrapport </strong></a>
 </div>
 <p>
 </td>

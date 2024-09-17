@@ -5,7 +5,7 @@ description: Leer hoe u Adobe Campaign Web-lijsten filtert met ingebouwde en aan
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -20,22 +20,22 @@ Als u filters wilt toepassen op een lijst, klikt u op de knop **[!UICONTROL Show
 
 Het venster Filters wordt geopend en hierin worden de beschikbare filters voor de geselecteerde lijst weergegeven. U kunt bijvoorbeeld campagnes filteren op hun status, begin- en einddatum of opslagmap, terwijl de lijst met abonnementenservices kan worden gefilterd op hun kanaal en opslagmap.
 
-![](assets/filters-pane.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+![](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-Als u een lijst wilt filteren op basis van uw eigen criteria, maakt u een aangepast filter. Blader hiertoe naar de onderzijde van het venster Filters en klik op de knop **Regels toevoegen** knop. [Leer hoe u aangepaste filters kunt maken](#custom)
+Als u een lijst wilt filteren op basis van uw eigen criteria, maakt u een aangepast filter. Om dit te doen, doorblader aan de bodem van de filterruit en klik **voeg regels** knoop toe. [ Leer hoe te om douanefilters ](#custom) tot stand te brengen
 
-Wanneer filters op een lijst zijn toegepast, zijn ze zichtbaar onder de zoekbalk. U kunt een afzonderlijk filter op elk gewenst moment verwijderen of alle filters verwijderen door op het pictogram **Alles wissen** knop.
+Wanneer filters op een lijst zijn toegepast, zijn ze zichtbaar onder de zoekbalk. U kunt een individuele filter op elk ogenblik verwijderen, of alle filters verwijderen door **te klikken ontruimen allen** knoop.
 
 ## Aangepaste filters maken {#custom}
 
 Met aangepaste filters kunt u lijsten verfijnen op basis van uw eigen specifieke criteria. Zij worden ontworpen gebruikend de de vraagmodeler van de Campagne. Ga als volgt te werk om een aangepast filter te maken:
 
-1. Open het venster Filters en klik op de knop **Regels toevoegen** onder aan het deelvenster.
+1. Open de filterruit en klik **voeg regels** knoop toe die bij de bodem van de ruit wordt gevestigd.
 
-1. De vraagmodeler opent. Definieer en combineer uw filtercriteria aan uw wensen. Gedetailleerde informatie over hoe te om vraagmodeler te gebruiken is beschikbaar in [deze sectie](../query/query-modeler-overview.md).
+1. De vraagmodeler opent. Definieer en combineer uw filtercriteria aan uw wensen. De gedetailleerde informatie over hoe te om de vraagmodelleur te gebruiken is beschikbaar in [ deze sectie ](../query/query-modeler-overview.md).
 
    In het onderstaande voorbeeld ziet u een aangepast filter dat is ontworpen om te worden weergegeven in de lijst met campagnes die worden uitgevoerd door exploitanten van de afdelingen Running of Yoga.
 
-   ![](assets/filters-sample.png){zoomable=&quot;yes&quot;}{width="70%" align="left" zoomable="yes"}
+   ![](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-1. Als uw aangepaste filter is geconfigureerd, klikt u op **[!UICONTROL Confirm]** om deze toe te passen op de lijst.
+1. Wanneer uw aangepaste filter is geconfigureerd, klikt u op **[!UICONTROL Confirm]** om het toe te passen op de lijst.

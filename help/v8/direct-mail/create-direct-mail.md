@@ -12,28 +12,28 @@ ht-degree: 5%
 
 # Een levering voor direct mail maken {#create-direct-mail}
 
-U kunt een standalone directe postlevering tot stand brengen, of een directe postlevering in de context van een campagnewerkschema tot stand brengen. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) direct-maillevering. Als u in de context van een campagnewerkstroom werkt, worden de aanmaakstappen beschreven in [deze sectie](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+U kunt een standalone directe postlevering tot stand brengen, of een directe postlevering in de context van een campagnewerkschema tot stand brengen. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) direct-maillevering. Als u in de context van een campagnewerkschema werkt, zijn de aanmaakstappen gedetailleerd in [ deze sectie ](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 Voer de volgende stappen uit om een nieuwe, zelfstandige levering via e-mail te maken:
 
-1. Bladeren naar de **[!UICONTROL Deliveries]** op de linkerspoorstaaf en klik op  **[!UICONTROL Create delivery]** knop.
+1. Blader naar het menu **[!UICONTROL Deliveries]** op de linkertrack en klik op de knop **[!UICONTROL Create delivery]** .
 
-1. Onder de **[!UICONTROL Channel]** sectie, kiest u **[!UICONTROL Direct mail]** als het kanaal en selecteer een sjabloon. [Meer informatie over sjablonen](../msg/delivery-template.md)
+1. Kies onder de sectie **[!UICONTROL Channel]** **[!UICONTROL Direct mail]** als het kanaal en selecteer een sjabloon. [ Leer meer over malplaatjes ](../msg/delivery-template.md)
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 
    ![](assets/dm-create.png){zoomable="yes"}
 
-1. Voer een **[!UICONTROL Label]** voor levering en toegang tot **[!UICONTROL Additional options]** vervolgkeuzelijst. Als uw levering op een uitgebreid schema wordt gebaseerd, specifiek **Aangepaste opties** zijn beschikbaar.
+1. Voer een **[!UICONTROL Label]** in voor levering en open de vervolgkeuzelijst **[!UICONTROL Additional options]** . Als uw levering op een uitgebreid schema gebaseerd is, zijn de specifieke **opties van de Douane** gebieden beschikbaar.
 
    ![](assets/dm-properties.png){zoomable="yes"}
 
    +++Configureer de volgende instellingen op basis van uw vereisten.
-   * **[!UICONTROL Internal name]**: Wijs een unieke id toe aan de levering.
+   * **[!UICONTROL Internal name]**: wijs een unieke id toe aan de levering.
    * **[!UICONTROL Folder]**: Sla de levering op in een specifieke map.
-   * **[!UICONTROL Delivery code]**: Organiseer uw leveringen met uw eigen naamgevingsconventie.
-   * **[!UICONTROL Description]**: Geef een beschrijving voor de levering.
-   * **[!UICONTROL Nature]**: Specificeer de aard van de levering voor classificatiedoeleinden.
+   * **[!UICONTROL Delivery code]**: organiseer uw leveringen met behulp van uw eigen naamgevingsconventie.
+   * **[!UICONTROL Description]**: geef een beschrijving voor de levering.
+   * **[!UICONTROL Nature]**: geef de aard van de levering op voor classificatiedoeleinden.
 +++
 
 1. Klik op de knop **[!UICONTROL Select audience]** om een bestaand publiek als doel in te stellen of uw eigen publiek te maken.
@@ -47,20 +47,20 @@ Voer de volgende stappen uit om een nieuwe, zelfstandige levering via e-mail te 
    >
    >Ontvangers van direct mail moeten ten minste hun naam en postadres bevatten. Een adres wordt als volledig beschouwd als de naam, het gebied van de code van ZIP/Postal, en stad/stad gebieden niet leeg zijn. Ontvangers met onvolledige adressen worden uitgesloten van directe mailleveringen.
 
-1. Schakel de **[!UICONTROL Enable control group]** om een controlegroep in te stellen om het effect van uw levering te meten. De berichten worden niet verzonden naar die controlegroep, zodat u het gedrag van de bevolking kunt vergelijken die het bericht met het gedrag van contacten ontving die niet. [Leer hoe u met besturingsgroepen werkt](../audience/control-group.md)
+1. Schakel de optie **[!UICONTROL Enable control group]** in om een besturingsgroep in te stellen om de impact van de levering te meten. De berichten worden niet verzonden naar die controlegroep, zodat u het gedrag van de bevolking kunt vergelijken die het bericht met het gedrag van contacten ontving die niet. [ leer hoe te met controlegroepen ](../audience/control-group.md) werken
 
-1. Klikken **[!UICONTROL Edit content]** om de informatie (kolommen) te definiëren die naar het extractiebestand moet worden geëxporteerd. [Meer informatie](content-direct-mail.md)
+1. Klik op **[!UICONTROL Edit content]** om de informatie (kolommen) te definiëren die naar het extractiebestand moet worden geëxporteerd. [Meer informatie](content-direct-mail.md)
 
    ![](assets/dm-content.png){zoomable="yes"}
 
-1. Als u de levering wilt plannen op een bepaalde datum en tijd, schakelt u de optie **[!UICONTROL Enable scheduling]** -optie. Nadat u de levering hebt gestart, wordt het extractiebestand automatisch gegenereerd op de exacte datum en tijd die u hebt gedefinieerd. [Leer hoe u leveringen kunt plannen](../msg/gs-deliveries.md#gs-schedule).
+1. Schakel de optie **[!UICONTROL Enable scheduling]** in om de levering naar een bepaalde datum en tijd te plannen. Nadat u de levering hebt gestart, wordt het extractiebestand automatisch gegenereerd op de exacte datum en tijd die u hebt gedefinieerd. [ Leer hoe te om leveringen ](../msg/gs-deliveries.md#gs-schedule) te plannen.
 
    >[!NOTE]
    >
-   >Wanneer een levering in de context van een werkschema wordt verzonden, moet u gebruiken **Planner** activiteit. Meer informatie vindt u [op deze pagina](../workflows/activities/scheduler.md).
+   >Wanneer een levering in de context van een werkschema wordt verzonden, moet u de **Planner** activiteit gebruiken. Meer informatie vindt u [op deze pagina](../workflows/activities/scheduler.md).
 
-1. Klikken **[!UICONTROL Settings]** voor toegang tot geavanceerde opties met betrekking tot uw leveringsmalplaatje. [Meer informatie](../advanced-settings/delivery-settings.md)
+1. Klik op **[!UICONTROL Settings]** voor toegang tot geavanceerde opties met betrekking tot de leveringssjabloon. [Meer informatie](../advanced-settings/delivery-settings.md)
 
    ![](assets/dm-settings.png){zoomable="yes"}
 
-1. Klik op de knop **[!UICONTROL Review and send]** om uw levering te valideren en te verzenden en het extractiebestand te genereren. [Leer hoe u een directe verzending per e-mail kunt voorvertonen en verzenden](send-direct-mail.md)
+1. Zodra u klaar bent met direct mail, klikt u op de knop **[!UICONTROL Review and send]** om de levering te valideren en te verzenden en het extractiebestand te genereren. [ leer hoe te om een directe postlevering te voorproef en te verzenden ](send-direct-mail.md)

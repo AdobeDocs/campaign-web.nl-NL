@@ -4,7 +4,8 @@ description: Leer hoe u werkt met Adobe Campaign Web-gebruikersinterface en Adob
 feature: Overview
 role: Admin, User
 level: Beginner
-source-git-commit: 8e035bbf92914f17607a15c184ecf48f5c0efb13
+exl-id: a50f3269-b559-4dbf-bd8f-af046f332d23
+source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 2%
@@ -17,7 +18,7 @@ U kunt uw Campagne-omgeving verbinden met Adobe Experience Cloud-oplossingen en 
 
 Adobe Campaign wordt geleverd met verschillende connectors waarmee u kunt communiceren met externe toepassingen, verbinding kunt maken met database-engines, gegevens kunt delen en synchroniseren. Deze verbindingen worden gevormd door Adobe.
 
-Leer welke oplossingen en toepassingen kunnen worden verbonden met Campagne, en de bijbehorende gebruiksgevallen, in [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html){target="_blank"}.
+Leer welke oplossingen en apps met Campagne, en de bijbehorende gebruiksgevallen, in [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html) {target="_blank"} kunnen worden verbonden.
 
 Bovendien kunt u met de nieuwe gebruikersinterface van het Web van de Campagne, uw milieu van Adobe Experience Manager as a Cloud Service verbinden om de volgende gebruiksgevallen te bereiken:
 

@@ -8,7 +8,7 @@ level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
 source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Voorwaardelijke inhoud is een krachtige functie waarmee u dynamische personalisa
 
 Door voorwaardelijke inhoudsgebieden te vormen, kunt u geavanceerde dynamische verpersoonlijking tot stand brengen die op het profiel van de ontvanger bijvoorbeeld wordt gebaseerd. Tekstblokken, koppelingen, onderwerpregel en/of afbeeldingen worden vervangen in de inhoud van het bericht als aan een bepaalde voorwaarde is voldaan. U kunt bijvoorbeeld &#39;Mr&#39; of &#39;Mevrouw&#39; weergeven op basis van de waarde van het genderveld in de database van Adobe Campaign, of een andere link opnemen op basis van de voorkeurstaal van de ontvanger.
 
-Als u voorwaardelijke inhoud wilt maken, moet u voorwaarden maken in het dialoogvenster **expressie-editor** specifieke hulpfuncties gebruiken. Deze methode is beschikbaar voor alle leveringskanalen, op om het even welk gebied waar u tot de uitdrukkingsredacteur, zoals de onderwerpregel, of e-mailverbindingen en tekst/knoop inhoudcomponenten kunt toegang hebben. [Leer hoe u toegang krijgt tot de expressie-editor](gs-personalization.md#access)
+Om voorwaardelijke inhoud tot stand te brengen, moet u voorwaarden in de **uitdrukkingsredacteur** creëren gebruikend specifieke hulpfuncties. Deze methode is beschikbaar voor alle leveringskanalen, op om het even welk gebied waar u tot de uitdrukkingsredacteur, zoals de onderwerpregel, of e-mailverbindingen en tekst/knoop inhoudcomponenten kunt toegang hebben. [ Leer hoe te om tot de uitdrukkingsredacteur toegang te hebben ](gs-personalization.md#access)
 
-Naast de expressie-editor kunt u een speciale editor gebruiken **voorwaardelijk maken van inhoud** bij het ontwerpen van een e-mail waarmee u meerdere varianten voor een element van uw e-mailhoofdtekst kunt maken. [Meer informatie over het maken van voorwaardelijke inhoud in e-mails](#condition-condition-builder)
+Naast de uitdrukkingsredacteur, kunt u hefboomwerking een specifieke **voorwaardelijke inhoudsbouwer** wanneer het ontwerpen van een e-mail die u toestaat om veelvoudige varianten voor een element van uw e-maillichaam tot stand te brengen. [ Leer hoe te om voorwaardelijke inhoud in e-mails tot stand te brengen ](#condition-condition-builder)
 
 ## Voorwaarden maken in de expressie-editor {#condition-perso-editor}
 
@@ -38,41 +38,41 @@ Voer de onderstaande stappen uit om voorwaardelijke inhoud voor een levering te 
 
 1. Zoek het veld waaraan u voorwaardelijke inhoud wilt toevoegen. U kunt bijvoorbeeld voorwaardelijke inhoud toevoegen aan een SMS-bericht.
 
-1. Klik op de knop **[!UICONTROL Open personalization dialog]** pictogram naast het veld om de uitdrukkingseditor te openen.
+1. Klik op het pictogram **[!UICONTROL Open personalization dialog]** naast het veld om de expressie-editor te openen.
 
-   ![](assets/open-perso-editor-sms.png){zoomable=&quot;yes&quot;}
+   ![](assets/open-perso-editor-sms.png){zoomable="yes"}
 
-1. Blader in de verpersoonlijkingseditor naar de **[!UICONTROL Conditions]** links.
+1. Blader in de verpersoonlijkingseditor naar het menu **[!UICONTROL Conditions]** aan de linkerkant.
 
-1. Als u wilt beginnen met het bouwen van uw voorwaarde, klikt u op het plusteken (+) naast de knop **Indien** functie. De volgende regel wordt toegevoegd aan het centrale scherm:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
+1. Om uw voorwaarde te beginnen bouwen, klik &#39;+&#39; pictogram naast **als** functie. De volgende lijn wordt toegevoegd aan het centrale scherm:`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } %>`
 
-   * Vervangen `<FIELD>` met een verpersoonlijkingsgebied, zoals de taal van de ontvanger: `recipient.language`.
-   * Vervangen `<VALUE>` met de waarde waaraan moet worden voldaan. Bijvoorbeeld: `'French'`.
-   * Vervangen `Ìnsert content here` met de inhoud die u wilt weergeven voor de profielen die aan de opgegeven voorwaarde voldoen.
+   * Vervang `<FIELD>` door een verpersoonlijkingsveld, zoals de taal van de ontvanger: `recipient.language` .
+   * Vervang `<VALUE>` door de waarde waaraan moet worden voldaan. Bijvoorbeeld `'French'` .
+   * Vervang `Ìnsert content here` door de inhoud die u wilt weergeven door de profielen die aan de opgegeven voorwaarde voldoen.
 
-     ![](assets/condition-sample1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+     ![](assets/condition-sample1.png){zoomable="yes"}{width="800" align="center"}
 
-1. Geef de inhoud op die moet worden weergegeven als de ontvangers niet aan de voorwaarde voldoen. Om dit te doen gebruik **else** helperfunctie:
+1. Geef de inhoud op die moet worden weergegeven als de ontvangers niet aan de voorwaarde voldoen. Om dit te doen gebruik anders **** hulpfunctie:
 
-   1. Plaats de cursor vóór de afsluitingstag voor de expressie `%>` en klik op de knop `+` naast de **Else** functie.
+   1. Plaats uw curseur vóór de uitdrukking die markering `%>` sluit en klik `+` naast de **anders** functie.
 
-   1. Vervangen `Ìnsert content here` met de inhoud die u wilt weergeven voor de profielen die niet voldoen aan de voorwaarde van de if-functie.
+   1. Vervang `Ìnsert content here` door de inhoud die u wilt weergeven door de profielen die niet voldoen aan de voorwaarde van de if-functie.
 
-   ![](assets/condition-sample2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-sample2.png){zoomable="yes"}{width="800" align="center"}
 
-   U kunt ook de opdracht **else if** de hulpfunctie om voorwaarden met veelvoudige inhoudvarianten te bouwen. De onderstaande expressie geeft bijvoorbeeld drie varianten van een bericht weer, afhankelijk van de taal van de ontvanger:
+   U kunt **anders ook gebruiken als** hulpfunctie om voorwaarden met veelvoudige inhoudsvarianten te bouwen. De onderstaande expressie geeft bijvoorbeeld drie varianten van een bericht weer, afhankelijk van de taal van de ontvanger:
 
-   ![](assets/condition-sample3.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-sample3.png){zoomable="yes"}{width="800" align="center"}
 
    >[!NOTE]
    >
-   >Elke keer dat een hulpfunctie wordt toegevoegd, wordt het openen (`<%`) en sluiten (`%>`) automatisch worden toegevoegd voor en na de functie.
+   >Telkens wanneer een hulpfunctie wordt toegevoegd, worden het openen (`<%`) en het sluiten (`%>`) markeringen automatisch toegevoegd vóór en na de functie.
    >
    >Voorbeeld na het toevoegen van een hulpfunctie &quot;Else&quot; binnen een expressie: >
    >
    >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } <% else { %> Insert content here<% } %>%>`
    >
-   >Verwijder deze tags om syntaxisfouten te voorkomen. In dit voorbeeld wordt de gecorrigeerde expressie na het verwijderen van de **else** functietags zijn:
+   >Verwijder deze tags om syntaxisfouten te voorkomen. In dit voorbeeld, is de gecorrigeerde uitdrukking na het verwijderen van **anders** functietags:
    >
    >`<% if (<FIELD>==<VALUE>) { %>Insert content here<% } else { %> Insert content here<% } %>`
 
@@ -84,35 +84,35 @@ Voorwaardelijke inhoud in e-mails kan op twee manieren worden gemaakt:
 * In de uitdrukkingsredacteur door een voorwaarde met helperfuncties te bouwen,
 * In een speciale voorwaardelijke inhoudsontwikkelaar die toegankelijk is wanneer u een e-mail ontwerpt.
 
-In de volgende sectie vindt u stapsgewijze instructies voor het maken van voorwaarden met de voorwaardelijke-inhoudmogelijkheden van e-mailontwerper. Gedetailleerde informatie over het maken van voorwaarden met de expressieeditor is beschikbaar [hier](#condition-perso-editor).
+In de volgende sectie vindt u stapsgewijze instructies voor het maken van voorwaarden met behulp van de voorwaardelijke inhoud van e-mail Designer. De gedetailleerde informatie over hoe te om voorwaarden tot stand te brengen gebruikend de uitdrukkingsredacteur is beschikbaar [ hier ](#condition-perso-editor).
 
 In dit voorbeeld willen we een e-mailbericht maken met meerdere varianten op basis van de taal van de ontvangers. Voer de volgende stappen uit:
 
-1. Maak of open een e-maillevering, bewerk de inhoud en klik op de knop **[!UICONTROL Edit email body]** om de werkruimte voor het ontwerpen van e-mail te openen.
+1. Maak of open een e-maillevering, bewerk de inhoud ervan en klik op de knop **[!UICONTROL Edit email body]** om de werkruimte voor het ontwerpen van e-mail te openen.
 
-1. Selecteer een inhoudscomponent en klik op de knop **[!UICONTROL Enable conditional content]** pictogram.
+1. Selecteer een inhoudscomponent en klik op het pictogram **[!UICONTROL Enable conditional content]** .
 
-   ![](assets/condition-email-enable.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-email-enable.png){zoomable="yes"}{width="800" align="center"}
 
-1. De **[!UICONTROL Conditional Content]** wordt aan de linkerkant van het scherm geopend. In dit deelvenster kunt u meerdere varianten van de geselecteerde inhoudscomponent maken aan de hand van voorwaarden.
+1. Het deelvenster **[!UICONTROL Conditional Content]** wordt aan de linkerkant van het scherm geopend. In dit deelvenster kunt u meerdere varianten van de geselecteerde inhoudscomponent maken aan de hand van voorwaarden.
 
-1. Vorm uw eerste variant. Overslaan **[!UICONTROL Variant - 1]** in de **[!UICONTROL Conditional Content]** en klik op de knop **[!UICONTROL Add condition]** knop.
+1. Vorm uw eerste variant. Houd de cursor boven **[!UICONTROL Variant - 1]** in het deelvenster **[!UICONTROL Conditional Content]** en klik op de knop **[!UICONTROL Add condition]** .
 
-   ![](assets/condition-add-condition.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-add-condition.png){zoomable="yes"}{width="800" align="center"}
 
-1. De vraagmodeler opent. Het staat u toe om een voorwaarde te bouwen door de het profielgegevens van de ontvanger te filtreren. [Leer hoe te met vraagmodeler te werken](../query/query-modeler-overview.md).
+1. De vraagmodeler opent. Het staat u toe om een voorwaarde te bouwen door de het profielgegevens van de ontvanger te filtreren. [ Leer hoe te met de vraagmodelaar ](../query/query-modeler-overview.md) te werken.
 
-   Zodra de voorwaarde voor de eerste variant van het bericht klaar is, klik **[!UICONTROL Confirm]**. In dit voorbeeld creëren we een regel die gericht is op ontvangers die &#39;Frans&#39; zijn.
+   Klik op **[!UICONTROL Confirm]** als de voorwaarde voor de eerste variant van het bericht gereed is. In dit voorbeeld creëren we een regel die gericht is op ontvangers die &#39;Frans&#39; zijn.
 
-   ![](assets/condition-example.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-example.png){zoomable="yes"}{width="800" align="center"}
 
 1. De regel is nu gekoppeld aan de variant. Voor betere leesbaarheid raden we u aan de naam van de variant te wijzigen door op het ellipsmenu te klikken.
 
 1. Vorm hoe de component zou moeten tonen als de regel wordt ontmoet wanneer het verzenden van het bericht. In dit voorbeeld willen we de tekst in het Frans weergeven als dit de voorkeurstaal van de ontvanger is.
 
-   ![](assets/condition-email-variant1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/condition-email-variant1.png){zoomable="yes"}{width="800" align="center"}
 
 1. Voeg zoveel varianten toe als nodig zijn voor de inhoudscomponent. U kunt op elk gewenst moment schakelen tussen de varianten om te controleren hoe de inhoudscomponent wordt weergegeven op basis van hun voorwaardelijke regels.
 
    >[!NOTE]
-   >Als aan geen van de regels in de varianten wordt bepaald wanneer het verzenden van het bericht wordt voldaan, zal de inhoudscomponent de inhoud tonen die in wordt bepaald **[!UICONTROL Default variant]** van de **[!UICONTROL Conditional Content]** venster.
+   >Als bij het verzenden van het bericht aan geen van de regels in de varianten wordt voldaan, wordt de inhoud die in het deelvenster **[!UICONTROL Default variant]** is gedefinieerd, weergegeven in de inhoudscomponent. **[!UICONTROL Conditional Content]**

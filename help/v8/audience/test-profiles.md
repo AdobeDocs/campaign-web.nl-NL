@@ -7,7 +7,7 @@ level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '552'
 ht-degree: 2%
 
 ---
@@ -23,39 +23,39 @@ Testprofielen worden gebruikt om proefdrukken te verzenden en de inhoud en inste
 
 <!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
-De stappen voor het verzenden van proefdrukken naar testprofielen worden beschreven in [deze sectie](../preview-test/test-deliveries.md#test-profiles).
+De stappen om proeven naar testprofielen te verzenden zijn gedetailleerd in [ deze sectie ](../preview-test/test-deliveries.md#test-profiles).
 
 >[!NOTE]
 >
 >* De profielen van de test worden gecreeerd als zaadadressen in de console van de Cliënt.
 >
->* De profielen van de test worden automatisch uitgesloten van rapporten over de volgende leveringsstatistieken: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
+>* Testprofielen worden automatisch uitgesloten van rapporten over de volgende leveringsstatistieken: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]** .
 
 ## Testprofielen openen en beheren {#access-test-profiles}
 
-Als u de lijst met testprofielen wilt openen, selecteert u **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** in het linkermenu en klik op de knop **[!UICONTROL Test profiles]** tab.
+Als u de lijst met testprofielen wilt openen, selecteert u **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** in het linkermenu en klikt u op de tab **[!UICONTROL Test profiles]** .
 
-![](assets/test-profile-list.png){zoomable=&quot;yes&quot;}
+![](assets/test-profile-list.png){zoomable="yes"}
 
-* U kunt filteren op een specifieke [map](../get-started/permissions.md#folders) de vervolgkeuzelijst gebruiken of regels toevoegen met de [querymodel](../query/query-modeler-overview.md).
+* U kunt op een specifieke [ omslag ](../get-started/permissions.md#folders) filtreren gebruikend de drop-down lijst of regels toevoegen gebruikend de [ vraagmodelaar ](../query/query-modeler-overview.md).
 
-  ![](assets/test-profile-list-filters.png){zoomable=&quot;yes&quot;}
+  ![](assets/test-profile-list-filters.png){zoomable="yes"}
 
-* U kunt elk testprofiel dupliceren en zo nodig bijwerken. De stappen om een testprofiel te bewerken zijn gelijk aan wanneer [een testprofiel maken](#create-test-profile).
+* U kunt elk testprofiel dupliceren en zo nodig bijwerken. De stappen om een testprofiel uit te geven zijn het zelfde als wanneer [ creërend een testprofiel ](#create-test-profile).
 
-* Als u een testprofiel wilt verwijderen, selecteert u de bijbehorende optie in het menu **[!UICONTROL More actions]** -menu.
+* Als u een testprofiel wilt verwijderen, selecteert u de bijbehorende optie in het menu **[!UICONTROL More actions]** .
 
-  ![](assets/test-profile-list-delete.png){zoomable=&quot;yes&quot;}
+  ![](assets/test-profile-list-delete.png){zoomable="yes"}
 
-* Als u een testprofiel wilt bewerken, klikt u op het gewenste item in de lijst. De stappen om een testprofiel te bewerken zijn gelijk aan wanneer [een testprofiel maken](#create-test-profile).
+* Als u een testprofiel wilt bewerken, klikt u op het gewenste item in de lijst. De stappen om een testprofiel uit te geven zijn het zelfde als wanneer [ creërend een testprofiel ](#create-test-profile).
 
-U kunt testprofielen ook openen via de **[!UICONTROL Explorer]** van de **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** knooppunt.
+U hebt ook toegang tot testprofielen via de **[!UICONTROL Explorer]** -weergave, via het knooppunt **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed addresses]** .
 
-Vervolgens kunt u mappen of submappen bladeren, maken en beheren en de bijbehorende machtigingen controleren. [Leer hoe u mappen maakt](../get-started/permissions.md#folders)
+Vervolgens kunt u mappen of submappen bladeren, maken en beheren en de bijbehorende machtigingen controleren. [ Leer hoe te om omslagen ](../get-started/permissions.md#folders) tot stand te brengen
 
-![](assets/test-profiles-folders.png){zoomable=&quot;yes&quot;}
+![](assets/test-profiles-folders.png){zoomable="yes"}
 
-Van de **[!UICONTROL Explorer]** kunt u ook filteren, verwijderen, bewerken en [maken](#create-test-profile) testprofielen.
+Van de **[!UICONTROL Explorer]** mening kunt u ook filtreren, schrappen, uitgeven en [ ](#create-test-profile) testprofielen creëren.
 
 ## Een testprofiel maken {#create-test-profile}
 
@@ -66,21 +66,21 @@ Van de **[!UICONTROL Explorer]** kunt u ook filteren, verwijderen, bewerken en [
 
 Voer de volgende stappen uit om een testprofiel te maken:
 
-1. Bladeren naar **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** en selecteert u de **[!UICONTROL Test profiles]** tab.
+1. Blader naar **[!UICONTROL Customer management]** > **[!UICONTROL Profiles]** en selecteer de tab **[!UICONTROL Test profiles]** .
 
 1. Klik op de knop **[!UICONTROL Create test profile]**.
 
-   ![](assets/test-profile-create.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-create.png){zoomable="yes"}
 
 1. Vul zo nodig de gegevens van het testprofiel in. <!--Most of the fields are the same as when creating profiles. [Learn more]-->
 
-   ![](assets/test-profile-details.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-details.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Label]** wordt automatisch ingevuld met de voornaam en achternaam die u hebt gedefinieerd.
+   >Het veld **[!UICONTROL Label]** wordt automatisch ingevuld met de door u gedefinieerde voornaam en achternaam.
 
-1. Standaard worden testprofielen opgeslagen in het dialoogvenster **[!UICONTROL Seed addresses]** map. U kunt dit wijzigen door naar de gewenste locatie te bladeren. [Leer hoe u met mappen werkt](../get-started/permissions.md#folders)
+1. Testprofielen worden standaard opgeslagen in de map **[!UICONTROL Seed addresses]** . U kunt dit wijzigen door naar de gewenste locatie te bladeren. [ Leer hoe te met omslagen ](../get-started/permissions.md#folders) te werken
 
    <!--![](assets/test-profile-folder.png){zoomable="yes"}-->
 
@@ -88,17 +88,17 @@ Voer de volgende stappen uit om een testprofiel te maken:
 You do not need to enter all fields of each tab when creating a seed address. Missing personalization elements are entered randomly during delivery analysis. (Not valid?)
 -->
 
-1. In de **[!UICONTROL Contact information]** en voert u het e-mailadres en andere relevante gegevens in. Het e-mailadres wordt tussen haakjes weergegeven na het label voor het testprofiel.
+1. Voer in de sectie **[!UICONTROL Contact information]** het e-mailadres en andere relevante gegevens in. Het e-mailadres wordt tussen haakjes weergegeven na het label voor het testprofiel.
 
-   ![](assets/test-profile-address.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-address.png){zoomable="yes"}
 
-1. Als u **[!UICONTROL No longer contact (by any channel)]** Als u dit inschakelt, wordt het testprofiel op lijst van gewezen personen weergegeven. Deze ontvanger is niet langer gericht op enig kanaal (e-mail, SMS, enz.).
+1. Als u het selectievakje **[!UICONTROL No longer contact (by any channel)]** inschakelt, wordt het testprofiel op lijst van gewezen personen weergegeven. Deze ontvanger is niet langer gericht op enig kanaal (e-mail, SMS, enz.).
 
-1. In de **[!UICONTROL Additional data]** voert u de aanpassingsgegevens in die worden gebruikt voor de leveringen die worden gemaakt in de workflows voor gegevensbeheer en waaraan u een specifieke waarde wilt toewijzen. [Meer informatie over workflows](../workflows/gs-workflows.md)
+1. Voer op het tabblad **[!UICONTROL Additional data]** de aanpassingsgegevens in die worden gebruikt voor de leveringen die in de workflows voor gegevensbeheer zijn gemaakt en waaraan u een specifieke waarde wilt toewijzen. [ leer meer op werkschema&#39;s ](../workflows/gs-workflows.md)
 
-   ![](assets/test-profile-additional-data.png){zoomable=&quot;yes&quot;}
+   ![](assets/test-profile-additional-data.png){zoomable="yes"}
 
-   Zorg ervoor dat aanvullende doelgegevens zijn gedefinieerd met een alias die begint met &#39;@&#39; in het dialoogvenster **[!UICONTROL Enrichment]** workflowactiviteit. Anders, kunt u niet het met uw zaadadressen in de leveringsactiviteit behoorlijk gebruiken. [Meer informatie over verrijkingsactiviteiten](../workflows/activities/enrichment.md)
+   Controleer of er aanvullende doelgegevens zijn gedefinieerd met een alias, beginnend met &#39;@&#39; in de **[!UICONTROL Enrichment]** -werkstroomactiviteit. Anders, kunt u niet het met uw zaadadressen in de leveringsactiviteit behoorlijk gebruiken. [ leer meer op de activiteit van de Verrijking ](../workflows/activities/enrichment.md)
 
 1. Klik op de knop **[!UICONTROL Save]**.
 

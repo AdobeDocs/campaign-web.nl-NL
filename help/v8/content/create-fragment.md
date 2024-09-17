@@ -2,13 +2,13 @@
 audience: end-user
 title: Inhoudsfragmenten maken
 description: Leer hoe u inhoudsfragmenten maakt
-source-git-commit: d27bbc8647d17dc442656465aa6d5a7e4fe7f060
+exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 0%
 
 ---
-
 
 # Inhoudsfragmenten maken {#fragments}
 

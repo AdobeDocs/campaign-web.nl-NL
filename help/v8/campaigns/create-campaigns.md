@@ -29,28 +29,28 @@ Als u een nieuwe campagne wilt maken, moet u de instellingen, het programma en w
 
 Voer de volgende stappen uit om een nieuwe campagne te maken:
 
-1. Klik op de knop **[!UICONTROL Campaigns]** en klikt u op de knop **[!UICONTROL Create campaign]** knop.
+1. Klik op het menu **[!UICONTROL Campaigns]** en klik op de knop **[!UICONTROL Create campaign]** .
 
-   ![Nieuwe campagne maken](assets/create-campaign-button.png)
+   ![ creeer een nieuwe campagne ](assets/create-campaign-button.png)
 
-1. Selecteer de **Sjabloon** een label voor de campagne te gebruiken en te verstrekken. [Meer informatie](manage-campaigns.md#manage-campaign-templates).
-1. Indien nodig kunt u het volgende wijzigen **Aanvullende opties**: interne naam, map, ontvanger, beschrijving en aard.
-1. Definieer de **Schema** van uw campagne. Meer informatie over het instellen van uw campagneschema in [deze sectie](#campaign-schedule)
-1. Klikken **Maken**.
+1. Selecteer het **Malplaatje** om een etiket voor de campagne te gebruiken en te verstrekken. [Meer informatie](manage-campaigns.md#manage-campaign-templates).
+1. Indien nodig, kunt u de volgende **Extra opties** veranderen: interne naam, omslag, ontvanger, beschrijving en aard.
+1. Bepaal het **Programma** van uw campagne. Leer hoe te om uw campagneschema in [ te plaatsen deze sectie ](#campaign-schedule)
+1. Klik **creëren**.
 
-   ![Campagne-eigenschappen maken](assets/create-a-campaign-properties.png)
+   ![ creeer campagneeigenschappen ](assets/create-a-campaign-properties.png)
 
 1. Workflows en leveringen toevoegen aan uw campagne:
 
-   * Van de **Workflows** tabblad, klikt u op **Workflow maken**. Er wordt automatisch een standaardworkflow toegevoegd wanneer u een campagne maakt. Meer informatie over hoe [een workflow maken](../workflows/create-workflow.md).
+   * Van het **lusje van de Werkschema&#39;s**, klik **creeer werkschema**. Er wordt automatisch een standaardworkflow toegevoegd wanneer u een campagne maakt. Leer meer op hoe te om [ een werkschema ](../workflows/create-workflow.md) tot stand te brengen.
 
-   * Van de **Leveringen** tabblad, klikt u op **Levering maken**. [Meer informatie](../msg/gs-messages.md)
+   * Van het **Leveringen** lusje, klik **creeer levering**. [Meer informatie](../msg/gs-messages.md)
 
 ## Uw campagne volgen{#campaign-monitoring}
 
-Campagne-controle is een belangrijke stap om de doeltreffendheid van uw campagne te analyseren. Open uw campagne en klik op **Logboeken** knop.
+Campagne-controle is een belangrijke stap om de doeltreffendheid van uw campagne te analyseren. Open uw campagne, en klik de **Logboeken** knoop.
 
-U kunt de toegewezen rapporten ook weergeven door op de knop **Rapporten** knop. Zie dit [sectie](../reporting/campaign-reports.md).
+U kunt de specifieke rapporten ook bekijken door de **knoop van Rapporten** te klikken. Zie deze [ sectie ](../reporting/campaign-reports.md).
 
 
 ## Het campagnereschema definiëren {#campaign-schedule}
@@ -61,13 +61,13 @@ U kunt de toegewezen rapporten ook weergeven door op de knop **Rapporten** knop.
 >abstract="Selecteer het campagneprogramma. U kunt de campagne maken en deze start wanneer de begindatum is bereikt. Standaard is de startdatum van de campagne de aanmaakdatum en duurt deze vijf dagen. Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt."
 
 
-De campagne begint wanneer de begindatum is bereikt. Zolang de begindatum niet is bereikt, heeft de campagne de **[!UICONTROL Draft]** status. Wanneer de begindatum is bereikt, wordt het ingesteld op **[!UICONTROL In progress]**. Wanneer de einddatum is bereikt, wordt de campagne ingesteld op **[!UICONTROL Completed]**.
+De campagne begint wanneer de begindatum is bereikt. Zolang de begindatum niet is bereikt, heeft de campagne de **[!UICONTROL Draft]** status. Wanneer de begindatum is bereikt, wordt deze ingesteld op **[!UICONTROL In progress]** . Wanneer de einddatum is bereikt, wordt de campagne ingesteld op **[!UICONTROL Completed]** .
 
-Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt. Zie dit [sectie](manage-campaigns.md#access-campaigns).
+Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt. Zie deze [ sectie ](manage-campaigns.md#access-campaigns).
 
 >[!NOTE]
 >
->U kunt deze eigenschappen altijd later wijzigen, via het dialoogvenster **Campagne-instellingen configureren** naast het campagnelabel. Zie dit [sectie](gs-campaigns.md#campaign-dashboard).
+>U kunt deze eigenschappen later altijd wijzigen, van **vormen campagnemontages** pictogram, naast het campagneetiket. Zie deze [ sectie ](gs-campaigns.md#campaign-dashboard).
 
 Nadat de datum is bereikt, worden de leveringen die in die campagne zijn gemaakt in het kader van een werkstroom die klaar zijn om te worden verzonden, daadwerkelijk verzonden. Hiervoor moet de workflow zijn gestart.
 

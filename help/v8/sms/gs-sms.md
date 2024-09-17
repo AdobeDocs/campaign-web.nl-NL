@@ -18,18 +18,18 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 
 * **[!UICONTROL Workflows]**: Voeg een activiteit van SMS toe, bepaal basismontages, en stel uw inhoud van SMS binnen een grotere automatiseringsopeenvolging samen.
 
-* **[!UICONTROL Campaigns]**: Neem SMS-leveringen op in specifieke campagnes, waarbij parameters worden ingesteld zoals doelpubliek en leveringsschema.
+* **[!UICONTROL Campaigns]**: neem SMS-leveringen op in speciale campagnes, waarbij u parameters instelt zoals doelpubliek en leveringsschema.
 
-* **Zelfstandige leveringen**: Maak afzonderlijke SMS-leveringen voor snelle en rechtstreekse communicatie met uw klanten, zonder dat u workflows of campagnes hoeft te volgen.
+* **stand-alone leveringen**: Creeer individuele leveringen van SMS voor snelle en directe communicatie met uw klanten, zonder de behoefte aan werkschema&#39;s of campagnes.
 
-![](../assets/do-not-localize/book.png) Leer hoe u het SMS-kanaal configureert in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html){target="_blank"}.
+![](../assets/do-not-localize/book.png) Leer hoe te om het kanaal van SMS in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/sms.html) te vormen {target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
 <img alt="Lood" src="assets/do-not-localize/create_sms.png">
 </a>
-<div><a href="create-sms.md"><strong>Een SMS-verzending maken</strong>
+<div><a href="create-sms.md"><strong> creeer een levering van SMS </strong>
 </div>
 <p>
 </td>
@@ -38,7 +38,7 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 <img alt="Onfrequent" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
-<a href="content-sms.md"><strong>Een SMS-verzending ontwerpen<strong></strong></a>
+<a href="content-sms.md"><strong> Ontwerp en levering van SMS <strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -46,7 +46,7 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 <img alt="Validatie" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
-<a href="send-sms.md"><strong>Verzend een SMS-levering</strong></a>
+<a href="send-sms.md"><strong> verzend een levering van SMS </strong></a>
 </div>
 <p>
 </td>
@@ -55,7 +55,7 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 <img alt="Validatie" src="assets/do-not-localize/report_sms.jpeg">
 </a>
 <div>
-<a href="send-sms.md"><strong>SMS-leveringsrapport</strong></a>
+<a href="send-sms.md"><strong> de leveringsrapport van SMS </strong></a>
 </div>
 <p>
 </td>

@@ -11,11 +11,11 @@ ht-degree: 2%
 
 # Aan de slag met profielen en doelgroepen {#about-profiles}
 
-In Adobe Campaign Web **profiel** is een record die is opgeslagen in de database en die fungeert als een sleutelcomponent om een publiek te maken voor leveringen en om verpersoonlijkingsgegevens toe te voegen aan uw inhoud. Verschillende typen profielen worden in de database opgeslagen, zoals **Testprofielen**, die zijn ontworpen om uw leveringen te testen voordat ze naar het uiteindelijke publiek worden verzonden.
+In het Web van Adobe Campaign, is het a **profiel** een verslag dat in het gegevensbestand wordt opgeslagen, dat als zeer belangrijke component dient om publiek voor leveringen tot stand te brengen en verpersoonlijkingsgegevens aan uw inhoud toe te voegen. Diverse types van profielen worden opgeslagen in het gegevensbestand zoals **de profielen van de Test**, die worden ontworpen om uw leveringen te testen alvorens zij naar het definitieve publiek worden verzonden.
 
-**Soorten publiek** zijn groepen profielen met vergelijkbare gedragingen en/of kenmerken. Deze verzameling personen kan worden gegenereerd, geselecteerd of geladen. Als het publiek eenmaal is gemaakt, kan het worden gebruikt als doelgroep voor uw leveringen.
+**Soorten publiek** zijn reeksen profielen die gelijkaardig gedrag en/of kenmerken delen. Deze verzameling personen kan worden gegenereerd, geselecteerd of geladen. Als het publiek eenmaal is gemaakt, kan het worden gebruikt als doelgroep voor uw leveringen.
 
-Daarnaast kan Adobe Campaign Web worden gebruikt voor het beheren en maken van **diensten** zoals nieuwsbrieven, en om de abonnementen of de onderbrekingen op deze diensten te controleren. Zodra gedaan, kunt u abonnees toevoegen, profielen opzeggen, en berichten verzenden naar de abonnees van uw diensten.
+Bovendien kan het Web van Adobe Campaign worden gebruikt om **diensten** zoals nieuwsbrieven te beheren en tot stand te brengen, en de abonnementen of de abonnementen op deze diensten te controleren. Zodra gedaan, kunt u abonnees toevoegen, profielen opzeggen, en berichten verzenden naar de abonnees van uw diensten.
 
 Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze documentatiegedeelten te duiken om ermee te gaan werken.
 
@@ -25,7 +25,7 @@ Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze
 <img src="../assets/do-not-localize/profiles-audiences-profile.png">
 </a>
 <div>
-<a href="about-recipients.md"><strong>Profielen bewaken en beheren</strong></a>
+<a href="about-recipients.md"><strong> Monitor &amp; beheer profielen </strong></a>
 </div>
 <p>
 </td>
@@ -33,7 +33,7 @@ Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze
 <a href="create-audience.md">
 <img alt="Lood" src="../assets/do-not-localize/profiles-audiences-audience.png">
 </a>
-<div><a href="create-audience.md"><strong>Soorten publiek maken</strong>
+<div><a href="create-audience.md"><strong> creeer publiek </strong>
 </div>
 <p>
 </td>
@@ -42,7 +42,7 @@ Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze
 <img alt="Onfrequent" src="../assets/do-not-localize/profiles-audiences-service.png">
 </a>
 <div>
-<a href="manage-services.md"><strong>Services beheren</strong></a>
+<a href="manage-services.md"><strong> beheert de diensten </strong></a>
 </div>
 <p></td>
 <td>
@@ -50,7 +50,7 @@ Nu je weet wat je kunt doen in Adobe Campaign Web, is het tijd om dieper in deze
 <img alt="Onfrequent" src="../assets/do-not-localize/profiles-audiences-deliveries.png">
 </a>
 <div>
-<a href="add-audience.md"><strong>Ontvangers selecteren</strong></a>
+<a href="add-audience.md"><strong> selecteer uw leveringsontvangers </strong></a>
 </div>
 <p></td>
 </tr></table>

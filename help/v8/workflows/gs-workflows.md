@@ -42,7 +42,7 @@ Nu u weet welke workflows er zijn en wat u ermee kunt doen in Adobe Campaign, is
 <img alt="Workflows openen en beheren" src="assets/do-not-localize/workflow-access.jpeg">
 </a>
 <div>
-<a href="access-monitor.md"><strong>Workflows openen en beheren</strong></a>
+<a href="access-monitor.md"><strong> toegang &amp; beheer werkstromen </strong></a>
 </div>
 <p>
 </td>
@@ -50,7 +50,7 @@ Nu u weet welke workflows er zijn en wat u ermee kunt doen in Adobe Campaign, is
 <a href="create-workflow.md">
 <img alt="Lood" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-workflow.md"><strong>Uw eerste workflow maken en uitvoeren</strong>
+<div><a href="create-workflow.md"><strong> creeer en stel uw eerste werkschema </strong> in werking
 </div>
 <p>
 </td>
@@ -59,7 +59,7 @@ Nu u weet welke workflows er zijn en wat u ermee kunt doen in Adobe Campaign, is
 <img alt="Onfrequent" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
-<a href="activities/about-activities.md"><strong>Werken met workflowactiviteiten</strong></a>
+<a href="activities/about-activities.md"><strong> Werk met werkschemaactiviteiten </strong></a>
 </div>
 <p></td>
 </tr></table>

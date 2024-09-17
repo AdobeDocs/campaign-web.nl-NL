@@ -16,17 +16,17 @@ Bij sommige workflowactiviteiten kunt u scripts in de expressie-editor bewerken 
 
 ## Wat zijn gebeurtenisvariabelen {#scripting}
 
-Scripts die worden uitgevoerd in de context van een workflow, openen een reeks aanvullende algemene scripts **objecten** zoals de workflow zelf die wordt uitgevoerd (`ìnstance`), de diverse taken (`task`) of de gebeurtenissen die een bepaalde taak hebben geactiveerd (`event`).
+De manuscripten die in de context van een werkschematoegang worden uitgevoerd tot een reeks extra globale **voorwerpen** zoals het werkschema zelf dat (`ìnstance`) wordt uitgevoerd, zijn diverse taken (`task`), of de gebeurtenissen die een bepaalde taak (`event`) activeerden.
 
-Naar elk type van **object** is gekoppeld aan een categorie **variabelen** die kunnen worden gebruikt in de expressie-editor wanneer scripts worden bewerkt in activiteiten zoals **[!UICONTROL JavaScript code]** of **[!UICONTROL Test]**.
+Aan elk type van **voorwerp** wordt geassocieerd een categorie van **variabelen** die in de uitdrukkingsredacteur kunnen worden leveraged wanneer het uitgeven van manuscripten in activiteiten zoals **[!UICONTROL JavaScript code]** of **[!UICONTROL Test]**.
 
-* **Instantievariabelen** (`instance.vars.xxx`) zijn vergelijkbaar met algemene variabelen. Ze worden door alle activiteiten gedeeld.
-* **Taakvariabelen** (`task.vars.xxx`) zijn vergelijkbaar met lokale variabelen. Ze worden alleen gebruikt door de huidige taak. Deze variabelen worden gebruikt door permanente activiteiten om gegevens te bewaren en worden soms gebruikt om gegevens tussen de verschillende manuscripten van een zelfde activiteit uit te wisselen.
-* **Gebeurtenisvariabelen** (`vars.xxx`) de uitwisseling van gegevens mogelijk maken tussen de elementaire taken van een werkstroomproces. Deze variabelen worden doorgegeven door de taak die de actieve taak heeft geactiveerd. Deze worden vervolgens doorgegeven aan de volgende activiteiten. **Gebeurtenisvariabelen** Dit zijn de meest gebruikte variabelen en deze moeten bij voorkeur worden gebruikt in plaats van instantievariabelen.
+* **de variabelen van de Instantie** (`instance.vars.xxx`) zijn vergelijkbaar met globale variabelen. Ze worden door alle activiteiten gedeeld.
+* **de variabelen van de Taak** (`task.vars.xxx`) zijn vergelijkbaar met lokale variabelen. Ze worden alleen gebruikt door de huidige taak. Deze variabelen worden gebruikt door permanente activiteiten om gegevens te bewaren en worden soms gebruikt om gegevens tussen de verschillende manuscripten van een zelfde activiteit uit te wisselen.
+* **de variabelen van de Gebeurtenis** (`vars.xxx`) laten de uitwisseling van gegevens tussen de elementaire taken van een werkschemaproces toe. Deze variabelen worden doorgegeven door de taak die de actieve taak heeft geactiveerd. Deze worden vervolgens doorgegeven aan de volgende activiteiten. **de variabelen van de Gebeurtenis** zijn de het vaakst gebruikte variabelen, en zij zouden in voorkeur aan instantievariabelen moeten worden gebruikt.
 
 >[!NOTE]
 >
->Aanvullende informatie over scripts en de belichte objecten en variabelen in Adobe Campaign is beschikbaar in de Campagne v8 (clientconsole)-documentatie in [deze sectie](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
+>De extra informatie over scripting en de blootgestelde voorwerpen en de variabelen in Adobe Campaign is beschikbaar in de Campagne v8 (cliëntconsole) documentatie in [ deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
 >
 >Merk op dat terwijl deze bron waardevolle inzichten aanbiedt, er discrepanties kunnen bestaan aangezien het specifiek op de cliëntconsole eerder dan het Gebruikersinterface van het Web van de Campagne van toepassing is.
 
@@ -36,4 +36,4 @@ Vooraf gedefinieerde gebeurtenisvariabelen zijn beschikbaar voor gebruik in het 
 
 ![](assets/event-variables.png)
 
-Naast deze gebeurtenisvariabelen kunt u ook de functie **[!UICONTROL Conditions]** in het linkerdeelvenster om voorwaarden te maken en de **[!UICONTROL Add current date]** gebruiken voor functies die betrekking hebben op datumopmaak.
+Naast deze gebeurtenisvariabelen kunt u ook het menu **[!UICONTROL Conditions]** in het linkerdeelvenster gebruiken om voorwaarden te maken en het menu **[!UICONTROL Add current date]** om functies te gebruiken die te maken hebben met datumopmaak.

@@ -12,7 +12,7 @@ ht-degree: 12%
 
 # Gegevens bijwerken {#update-data}
 
-De **Gegevens bijwerken** activiteit is **Gegevensbeheer** activiteit. Hiermee kunt u een massale update uitvoeren op velden in de database. Met verschillende opties kunt u de gegevensupdate aanpassen.
+De **gegevens van de Update** activiteit is a **het Beheer van Gegevens** activiteit. Hiermee kunt u een massale update uitvoeren op velden in de database. Met verschillende opties kunt u de gegevensupdate aanpassen.
 
 <!--
 The **Operation type** field lets you choose the process to be carried out on the data in the database. Select the first option to add data or update (it if it has already been added). You can also only add data, only update data, or delete data. Select the **Update and merge collections** to select a primary record to link duplicates to, and delete those duplicates safely
@@ -30,40 +30,40 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 ## De updategegevensactiviteit configureren{#update-data-configuration}
 
-Om te vormen **Gegevens bijwerken** activiteit, begin door de activiteit aan uw werkschema toe te voegen en een etiket te bepalen.
+Om de **gegevens van de Update** activiteit te vormen, begin door de activiteit aan uw werkschema toe te voegen en een etiket te bepalen.
 
 ![](../assets/workflow-update-data.png)
 
 ### Type bewerking
 
-De **Type bewerking** kunt u het proces kiezen dat op de gegevens in de database moet worden uitgevoerd:
+Het **type van Verrichting** gebied laat u het proces kiezen dat op de gegevens in het gegevensbestand moet worden uitgevoerd:
 
-* **Invoegen of bijwerken**: voeg gegevens in of werk deze bij als de records al in de database bestaan.
-* **Invoegen**: alleen gegevens invoegen. De al bestaande records worden niet bijgewerkt. Als er afstemmingscriteria worden gedefinieerd, worden alleen de niet-afgestemde records toegevoegd.
-* **Bijwerken**: werk alleen de gegevens bij van de records die al in de database bestaan.
-* **Verwijderen**: gegevens verwijderen.
+* **Tussenvoegsel of update**: neem gegevens op of werk het bij als de verslagen reeds in het gegevensbestand bestaan.
+* **Tussenvoegsel**: neem slechts gegevens op. De al bestaande records worden niet bijgewerkt. Als er afstemmingscriteria worden gedefinieerd, worden alleen de niet-afgestemde records toegevoegd.
+* **Update**: werk gegevens van de verslagen bij die reeds in het gegevensbestand slechts bestaan.
+* **Schrapping**: schrap gegevens.
 
-De **Batchgrootte** in dit veld kunt u het aantal inkomende overgangselementen selecteren dat moet worden bijgewerkt. Als u bijvoorbeeld 500 opgeeft, worden de eerste 500 records die worden afgehandeld, bijgewerkt.
+Het **gebied van de Partij** laat u het aantal binnenkomende overgangselementen selecteren die moeten worden bijgewerkt. Als u bijvoorbeeld 500 opgeeft, worden de eerste 500 records die worden afgehandeld, bijgewerkt.
 
 ### Registeridentificatie
 
 In deze sectie kunt u opgeven hoe de records in de database moeten worden geïdentificeerd:
 
-* Als gegevensinvoer betrekking heeft op een bestaande doeldimensie, selecteert u de optie **De doeldimensie gebruiken** en selecteert u deze in het dialoogvenster **Dimensie die moet worden bijgewerkt** veld.
-* U kunt ook de optie **Aangepaste koppelingen gebruiken** en een of meer koppelingen specificeren die identificatie van de gegevens in de database mogelijk maken
-* Als het geselecteerde bewerkingstype een update vereist, moet u de opdracht **Afstemmingsregels gebruiken** -optie.
+* Als de gegevensingangen op bestaand richten afmeting betrekking hebben, selecteer **Gebruikend de het richten afmeting** optie en selecteer het van in **het richten afmeting om** gebied bij te werken.
+* U kunt **ook selecteren Gebruikend douaneverbindingen** en één of meerdere verbindingen specificeren die identificatie van de gegevens in het gegevensbestand zullen toelaten
+* Als het geselecteerde verrichtingstype een update vereist, moet u **gebruiken Gebruikend verzoeningsregels** optie.
 
 ### Bij te werken velden
 
-In de **Bij te werken velden** voegt u de velden toe waarop de update wordt toegepast en voegt u, indien nodig, voorwaarden toe zodat deze update wordt uitgevoerd. Om dit te doen, gebruik **Wordt in aanmerking genomen indien** veld. De voorwaarden worden een na een toegepast in de volgorde van de lijst. Gebruik de pijlen aan de rechterkant om de volgorde van de updates te wijzigen. U kunt hetzelfde bestemmingsveld meerdere keren gebruiken.
+In de **Velden om** sectie bij te werken, voeg de gebieden toe waarop de update zal worden toegepast en, indien nodig, voeg voorwaarden toe zodat deze update wordt uitgevoerd. Om dit te doen, gebruik **in aanmerking genomen als** gebied. De voorwaarden worden een na een toegepast in de volgorde van de lijst. Gebruik de pijlen aan de rechterkant om de volgorde van de updates te wijzigen. U kunt hetzelfde bestemmingsveld meerdere keren gebruiken.
 
-U kunt velden automatisch koppelen met de **Automatisch toewijzen** knop. Door automatische koppeling worden velden met dezelfde naam gedetecteerd.
+U kunt gebieden automatisch verbinden gebruikend de **auto-afbeelding** knoop. Door automatische koppeling worden velden met dezelfde naam gedetecteerd.
 
-Tijdens een **Invoegen of bijwerken** Bij het type bewerking kunt u de bewerking die u voor elk veld wilt toepassen, afzonderlijk selecteren. Selecteer hiertoe de gewenste waarde in het dialoogvenster **Type bewerking** veld.
+Tijdens **Tussenvoegsel of werk** verrichtingstype bij, kunt u de verrichting individueel selecteren om voor elk gebied van toepassing te zijn. Om dit te doen, selecteer de waarde u op het **type van Verrichting** gebied zou willen.
 
 ### Geavanceerde opties
 
-De **Geavanceerde opties** Hiermee kunt u aanvullende opties opgeven voor het bijwerken van gegevens en het beheren van duplicaten.
+De **Geavanceerde opties** laten u extra opties specificeren om het bijwerken van gegevens evenals het beheren van duplicaten te behandelen.
 
 <!--
 * **Disable automatic key management**
@@ -75,6 +75,6 @@ De **Geavanceerde opties** Hiermee kunt u aanvullende opties opgeven voor het bi
 
 Met de laatste twee opties kunt u specifieke handelingen uitvoeren:
 
-* **Een uitgaande overgang genereren**: maakt een uitgaande overgang die aan het einde van de uitvoering wordt geactiveerd. Bij het bijwerken wordt doorgaans het einde van een doelworkflow aangegeven en wordt de optie daarom niet standaard geactiveerd.
+* **produceer een uitgaande overgang**: leidt tot een uitgaande overgang die aan het eind van uitvoering zal worden geactiveerd. Bij het bijwerken wordt doorgaans het einde van een doelworkflow aangegeven en wordt de optie daarom niet standaard geactiveerd.
 
-* **Een uitgaande overgang genereren voor de afwijzing**: maakt een uitgaande overgang die records bevat die niet correct zijn verwerkt na de update (bijvoorbeeld als er een duplicaat is). De update markeert doorgaans het einde van een doelworkflow en daarom wordt de optie niet standaard geactiveerd.
+* **produceer een uitgaande overgang voor verwerpt**: leidt tot een uitgaande overgang die verslagen bevatten die niet correct na de update (bijvoorbeeld als er een dubbel is) zijn verwerkt. De update markeert doorgaans het einde van een doelworkflow en daarom wordt de optie niet standaard geactiveerd.

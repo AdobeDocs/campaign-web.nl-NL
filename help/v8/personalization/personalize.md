@@ -8,7 +8,7 @@ level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
 source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Uw inhoud personaliseren {#add-personalization}
 
-U kunt elke levering personaliseren door de uitdrukkingsredacteur te gebruiken, die in gebieden met te gebruiken **[!UICONTROL Open personalization dialog]** -pictogram, zoals de onderwerpregel, e-mailkoppelingen en tekst-/knopinhoudcomponenten. [Leer hoe u toegang krijgt tot de expressie-editor](gs-personalization.md/#access)
+U kunt elke levering personaliseren door de uitdrukkingsredacteur te gebruiken, die in gebieden met het **[!UICONTROL Open personalization dialog]** pictogram, zoals de onderwerpregel, e-mailverbindingen, en tekst/knoop inhoudcomponenten toegankelijk is. [ Leer hoe te om tot de uitdrukkingsredacteur toegang te hebben ](gs-personalization.md/#access)
 
-## Personalisatiesyntaxis {#syntax}
+## Personalization-syntaxis {#syntax}
 
-Voor personalisatietags wordt een specifieke syntaxis gebruikt: `<%= table.field %>`. Als u bijvoorbeeld de achternaam van de ontvanger wilt invoegen in de tabel van de ontvanger, gebruikt u de opdracht `<%= recipient.lastName %>` syntaxis.
+Personalization-tags volgen een specifieke syntaxis: `<%= table.field %>` . Als u bijvoorbeeld de achternaam van de ontvanger wilt invoegen in de tabel met ontvangers, gebruikt u de syntaxis `<%= recipient.lastName %>` .
 
 Tijdens de voorbereiding van de levering, interpreteert Adobe Campaign automatisch deze markeringen en vervangt hen met de overeenkomstige gebiedswaarden voor elke ontvanger. U kunt de daadwerkelijke vervanging bekijken door uw inhoud te simuleren.
 
@@ -30,29 +30,29 @@ Wanneer u contactpersonen uit een extern bestand uploadt voor een zelfstandige e
 
 Voer de volgende stappen uit om personalisatietags toe te voegen aan een levering:
 
-1. De expressie-editor openen met de **[!UICONTROL Open personalization dialog]** pictogram dat toegankelijk is vanuit tekstbewerkingsvelden, zoals de onderwerpregel of de SMS-tekst. [Leer hoe u toegang krijgt tot de expressie-editor](gs-personalization.md/#access)
+1. Open de expressie-editor met behulp van het pictogram **[!UICONTROL Open personalization dialog]** dat toegankelijk is vanuit tekstbewerkingsvelden, zoals de onderwerpregel of de SMS-inhoud. [ Leer hoe te om tot de uitdrukkingsredacteur toegang te hebben ](gs-personalization.md/#access)
 
-   ![](assets/perso-access.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/perso-access.png){zoomable="yes"}{width="800" align="center"}
 
 1. De expressie-editor wordt geopend. De gebieden van de verpersoonlijking beschikbaar in het gegevensbestand van Adobe Campaign worden georganiseerd in verscheidene menu&#39;s op de linkerkant van het scherm:
 
-   ![](assets/perso-insert-field.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/perso-insert-field.png){zoomable="yes"}{width="800" align="center"}
 
    | Menu | Beschrijving |
    |-----|------------|
-   | ![](assets/do-not-localize/perso-subscribers-menu.png){zoomable=&quot;yes&quot;} | De **[!UICONTROL Subscribers application]** bevat velden die betrekking hebben op de abonnees van een toepassing, zoals de gebruikte terminal of het besturingssysteem. *Dit menu is alleen beschikbaar voor pushmeldingen* |
-   | ![](assets/do-not-localize/perso-recipients-menu.png){zoomable=&quot;yes&quot;} | De **[!UICONTROL Recipient]** worden de velden weergegeven die zijn gedefinieerd in de tabel met ontvangers, zoals namen, pagina&#39;s of adressen van ontvangers. Wanneer [contactpersonen uit een extern bestand uploaden](../audience/file-audience.md) voor een standalone e-maillevering, maakt dit menu een lijst van alle gebieden beschikbaar in het inputdossier. |
-   | ![](assets/do-not-localize/perso-message-menu.png){zoomable=&quot;yes&quot;} | De **[!UICONTROL Message]** menu maakt een lijst van gebieden met betrekking tot de leveringslogboeken, met inbegrip van alle berichten die naar ontvangers of apparaten over alle kanalen worden verzonden, zoals de datum van de laatste gebeurtenis met een bepaalde ontvanger |
-   | ![](assets/do-not-localize/perso-delivery-menu.png){zoomable=&quot;yes&quot;} | De **[!UICONTROL Delivery]** worden de velden weergegeven die betrekking hebben op de parameters die vereist zijn voor het uitvoeren van leveringen, zoals het leveringskanaal of label. |
+   | ![](assets/do-not-localize/perso-subscribers-menu.png){zoomable="yes"} | Het menu **[!UICONTROL Subscribers application]** bevat velden die betrekking hebben op de abonnees van een toepassing, zoals de gebruikte terminal of het besturingssysteem. *Dit menu is beschikbaar voor duw slechts berichten* |
+   | ![](assets/do-not-localize/perso-recipients-menu.png){zoomable="yes"} | Het menu **[!UICONTROL Recipient]** bevat velden die zijn gedefinieerd in de tabel met ontvangers, zoals namen, pagina&#39;s of adressen van ontvangers. Wanneer [ het uploaden contacten van een extern dossier ](../audience/file-audience.md) voor een standalone e-maillevering, maakt een lijst dit menu van alle gebieden beschikbaar in het inputdossier. |
+   | ![](assets/do-not-localize/perso-message-menu.png){zoomable="yes"} | Het menu **[!UICONTROL Message]** bevat velden die betrekking hebben op de leveringslogboeken, inclusief alle berichten die via alle kanalen naar ontvangers of apparaten worden verzonden, zoals de datum van de laatste gebeurtenis met een bepaalde ontvanger |
+   | ![](assets/do-not-localize/perso-delivery-menu.png){zoomable="yes"} | Het menu **[!UICONTROL Delivery]** bevat velden die betrekking hebben op de parameters die vereist zijn voor het uitvoeren van leveringen, zoals het leveringskanaal of label. |
 
    >[!NOTE]
    >
-   >Standaard worden in elk menu alle velden in de geselecteerde tabel weergegeven (Ontvangers, Bericht / Aflevering). Als u velden wilt opnemen uit tabellen die zijn gekoppeld aan de geselecteerde tabel, schakelt u de optie **[!UICONTROL Display advanced attributes]** onder de lijst.
+   >Standaard worden in elk menu alle velden in de geselecteerde tabel weergegeven (Ontvangers, Bericht / Aflevering). Als u velden wilt opnemen uit tabellen die zijn gekoppeld aan de geselecteerde tabel, schakelt u de optie **[!UICONTROL Display advanced attributes]** onder de lijst in.
 
-1. Als u een verpersoonlijkingsveld wilt toevoegen, plaatst u de cursor op de gewenste locatie in de inhoud en klikt u op de knop `+` om het in te voegen.
+1. Als u een verpersoonlijkingsveld wilt toevoegen, plaatst u de cursor op de gewenste locatie in de inhoud en klikt u op de knop `+` om deze in te voegen.
 
 1. Wanneer de inhoud gereed is, kunt u deze opslaan en de rendering van de personalisatie testen door de inhoud te simuleren. In het onderstaande voorbeeld ziet u de personalisatie van een SMS-bericht met de voornamen van de ontvangers.
 
-   ![](assets/perso-preview1.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/perso-preview1.png){zoomable="yes"}{width="800" align="center"}
 
-   ![](assets/perso-preview2.png){zoomable=&quot;yes&quot;}{width="800" align="center"}
+   ![](assets/perso-preview2.png){zoomable="yes"}{width="800" align="center"}

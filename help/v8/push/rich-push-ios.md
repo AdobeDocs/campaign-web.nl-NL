@@ -2,7 +2,8 @@
 audience: end-user
 title: Een iOS-rijke pushmelding ontwerpen
 description: Leer hoe u een uitgebreide pushmelding van iOS ontwerpt met Adobe Campaign Web
-source-git-commit: f48e9a6d75429d9038b4e6b0af65a15bcb6fe929
+exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
+source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 3%
@@ -210,4 +211,3 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 | **[!UICONTROL Thread-id]** | Stel de id in die wordt gebruikt om gerelateerde meldingen te groeperen. |
 | **[!UICONTROL Category]** | Stel de naam in van de rubriek-id waarin de knoppen voor handelingen worden weergegeven. Met deze meldingen kan de gebruiker sneller verschillende taken uitvoeren als reactie op een melding zonder de applicatie te openen of erin te moeten navigeren. |
 | **[!UICONTROL Target content ID]** | Stel een id in die wordt gebruikt om aan te geven welk toepassingsvenster moet worden weergegeven wanneer het bericht wordt geopend. |
-

@@ -19,38 +19,38 @@ ht-degree: 0%
 
 U kunt bestaande HTML-inhoud importeren in de e-mail-Designer. Deze inhoud kan:
 
-* An **HTML-bestand** met een model in een ingebouwde stijlpagina,
-* A **.zip-map** met het HTML-bestand, de stijlpagina (.css) en afbeeldingen.
+* Een **dossier van HTML** met een opgenomen stijlblad,
+* Een map **.zip** met het HTML-bestand, de stijlpagina (.css) en afbeeldingen.
 
   >[!NOTE]
   >
   >Er gelden geen beperkingen voor de .zip-bestandsstructuur. Verwijzingen moeten echter relatief zijn en passen in de boomstructuur van de ZIP-map.
 
-➡️ [Deze functie in video detecteren](#video)
+➡️ [ ontdekt deze eigenschap in video ](#video)
 
 Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren.
 
-1. Op de [Designer e-mailen](get-started-email-designer.md) homepage, selecteren **[!UICONTROL Import HTML]**.
+1. Voor de [ E-mail Designer ](get-started-email-designer.md) homepage, uitgezochte **[!UICONTROL Import HTML]**.
 
    ![](assets/html-import.png){zoomable="yes"}
 
-1. Sleep het HTML- of ZIP-bestand met de inhoud van uw HTML en klik op **[!UICONTROL Import]**.
+1. Sleep het HTML- of ZIP-bestand met de inhoud van uw HTML en klik op **[!UICONTROL Import]** .
 
-1. Nadat de HTML-inhoud is geüpload, wordt uw inhoud weergegeven in **[!UICONTROL Compatibility mode]**.
+1. Nadat de HTML-inhoud is geüpload, bevindt de inhoud zich in **[!UICONTROL Compatibility mode]** .
 
    In deze modus kunt u alleen uw tekst aanpassen, koppelingen toevoegen of elementen aan uw inhoud toevoegen.
 
    ![](assets/html-imported.png){zoomable="yes"}
 
-1. Als u de Designer-inhoudsonderdelen voor e-mail wilt gebruiken, opent u de **[!UICONTROL HTML converter]** en klik op **[!UICONTROL Convert]**.
+1. Als u de Designer-inhoudsonderdelen voor e-mail wilt gebruiken, opent u het tabblad **[!UICONTROL HTML converter]** en klikt u op **[!UICONTROL Convert]** .
 
    ![](assets/html-imported-2.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   > Een `<table>` -tag als de eerste laag in een HTML-bestand kan leiden tot stijlverlies, inclusief de instellingen voor achtergrond en breedte in de bovenste laagtag.
+   > Als u een `<table>` -tag als eerste laag in een HTML-bestand gebruikt, kan dit leiden tot stijlverlies, zoals de achtergrond- en breedte-instellingen in de bovenste laagtag.
 
-1. U kunt uw geïmporteerde bestand nu naar wens aanpassen met de functies van Email Designer [Meer informatie](content-components.md).
+1. U kunt uw ingevoerd dossier nu aanpassen zoals nodig met de functionaliteit van Designer E-mail [ Leer meer ](content-components.md).
 
 ## Hoe kan ik-video {#video}
 

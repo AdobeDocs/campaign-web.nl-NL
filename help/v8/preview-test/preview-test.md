@@ -5,7 +5,7 @@ description: Leer hoe u leveringen kunt voorvertonen en testen
 exl-id: ce10c89d-d9b8-4529-84cb-f58f8c71c733
 source-git-commit: 84cb01fc08c3628c4b8032470a8e6ab02328302c
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Nadat u de inhoud van de levering hebt gedefinieerd, kunt u profielen en testpro
 [!DNL Adobe Campaign Web user interface] biedt de volgende mogelijkheden:
 
 * [Een voorvertoning weergeven van de inhoud en personalisatie van het bericht](preview-content.md)
-* [Proefdrukken verzenden](test-deliveries.md) aan specifieke ontvangers of abonnees voor tests en validatie
-* [De rendering van e-mail controleren](email-rendering.md) in populaire desktops, mobiele en webgebaseerde clients
+* [ verzendt proef ](test-deliveries.md) naar specifieke ontvangers of abonnees voor het testen en bevestiging
+* [ Controle e-mailteruggevend ](email-rendering.md) in populaire Desktop, mobiele en web-based cliënten
 * [De openingspagina&#39;s voorvertonen en testen](../landing-pages/create-lp.md#test-landing-page)
 
-Deze handelingen kunnen worden uitgevoerd met de opdracht **[!UICONTROL Simulate content]** -knop, die toegankelijk is via het scherm Inhoud bewerken van uw levering - of via de [E-mailDesigner](../email/get-started-email-designer.md).
+Deze acties kunnen worden uitgevoerd gebruikend de **[!UICONTROL Simulate content]** knoop, die van het uitgeven inhoudsscherm van uw levering - of van [ E-mail Designer ](../email/get-started-email-designer.md) toegankelijk is.
 
-![](assets/simulate-button.png){zoomable=&quot;yes&quot;}
+![](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >
->De simulatie van de inhoud is ook beschikbaar bij [Overzicht van levering](../monitor/prepare-send.md) nadat u op de knop **[!UICONTROL Review and send]** knop.
+>De simulatie van de inhoud is ook beschikbaar bij de [ leveringssamenvatting ](../monitor/prepare-send.md) na het klikken van de **[!UICONTROL Review and send]** knoop.
 >
->Als u een publiek wilt bereiken dat vanuit een bestand is geüpload, raadpleegt u [deze sectie](../audience/file-audience.md#preview--test-your-email-test) om te leren hoe u een voorbeeld van uw levering kunt bekijken en deze kunt testen.
+>Als u een publiek richt dat van een dossier wordt geupload, verwijs naar [ deze sectie ](../audience/file-audience.md#preview--test-your-email-test) om te leren hoe te om uw levering voor te vertonen en te testen.

@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Als u de ontvangers van een levering wilt definiëren, kunt u:
 
-* [Bestaande doelgroep selecteren](add-audience.md) gemaakt in Adobe Campaign-clientconsole of webgebruikersinterface, of afkomstig uit Adobe Experience Platform,
-* [Eenmalig publiek maken](one-time-audience.md) eenmaal te gebruiken voor deze specifieke levering. Dit wordt gedaan door het filtreren criteria in vraagmodeler te bepalen en te combineren,
-* [Een publiek laden vanuit een extern bestand](file-audience.md). Deze optie is alleen beschikbaar voor zelfstandige e-mailleveringen.
+* [ selecteer een bestaand publiek ](add-audience.md) dat in de cliëntconsole van Adobe Campaign of het Gebruikersinterface van het Web wordt gecreeerd, of uit Adobe Experience Platform komt,
+* [ bouwt een eenmalig publiek ](one-time-audience.md) om eens voor deze specifieke levering te gebruiken. Dit wordt gedaan door het filtreren criteria in vraagmodeler te bepalen en te combineren,
+* [ Laad een publiek van een extern dossier ](file-audience.md). Deze optie is alleen beschikbaar voor zelfstandige e-mailleveringen.
 
-Wanneer u zich richt op een publiek, kunt u ook definiëren **controlegroepen** om te voorkomen dat berichten naar een deel van uw publiek worden verzonden en om de impact van uw campagnes te meten. [Leer hoe u een controlegroep instelt](control-group.md)
+Wanneer het richten van een publiek, kunt u **controlegroepen** ook bepalen om het verzenden van berichten naar een gedeelte van uw publiek te vermijden, en het effect van uw campagnes te meten. [ leer hoe te om een controlegroep ](control-group.md) te plaatsen
 

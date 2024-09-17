@@ -18,9 +18,9 @@ Bij het maken van een directe postbestelling genereert Adobe Campaign automatisc
 
 Voor het maken van directe e-mailleveringen hebt u drie opties:
 
-* **Workflows**: Nadat u een Direct-mailkanaalactiviteit aan uw workflow hebt toegevoegd en de basisinstellingen hebt geconfigureerd, kunt u de inhoud van de directe mailleveringen opnieuw ordenen via het rechterdeelvenstermenu. Raadpleeg voor gedetailleerde instructies over het configureren van de workflow [deze pagina](../workflows/gs-workflow-creation.md).
-* **Campagnes**: Nadat u een campagne hebt gemaakt, kunt u een directe maillevering maken. Voor meer informatie over het instellen van uw campagne raadpleegt u [deze pagina](../campaigns/gs-campaigns.md).
-* **Zelfstandige leveringen**: Neem direct en direct contact op met klanten via de directe e-mail, zonder dat u workflows of campagnes nodig hebt. [Leer hoe u een levering kunt maken](../msg/gs-deliveries.md)
+* **Werkschema&#39;s**: Na het toevoegen van een Directe activiteit van het postkanaal aan uw werkschema en het vormen van de basismontages, kunt u de inhoud van uw direct-mailleveringen van uw juiste paneelmenu dan bevaren. Voor gedetailleerde instructies op hoe te om werkschema te vormen, verwijs naar [ deze pagina ](../workflows/gs-workflow-creation.md).
+* **Campagnes**: Zodra u een campagne hebt gecreeerd, kunt u een directe postlevering tot stand brengen. Voor meer informatie bij vestiging uw campagne, verwijs naar [ deze pagina ](../campaigns/gs-campaigns.md).
+* **stand-alone leveringen**: Sluit klanten direct en onmiddellijk met individuele directe postlevering, zonder de behoefte aan werkschema&#39;s of campagnes aan. [ leren hoe te om een levering ](../msg/gs-deliveries.md) tot stand te brengen
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">

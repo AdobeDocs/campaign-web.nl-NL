@@ -19,17 +19,17 @@ Adobe Campaign biedt drie verschillende rapporten:
 
 * **Leveringsrapporten**
 
-  De **Afleveringsrapporten** biedt diepgaande inzichten en gegevens die uitsluitend zijn gericht op uw **leveringen** over elk kanaal. Deze rapporten verstrekken gedetailleerde informatie over de prestaties, de doeltreffendheid, en de resultaten van uw individuele leveringen, die u van een uitvoerig overzicht voorzien.
+  De **rapporten van de Levering** verstrekken diepgaande inzichten en gegevens uitsluitend die op uw **leveringen** over elk kanaal worden geconcentreerd. Deze rapporten verstrekken gedetailleerde informatie over de prestaties, de doeltreffendheid, en de resultaten van uw individuele leveringen, die u van een uitvoerig overzicht voorzien.
 
 
-* **Campagneverslagen**
+* **de rapporten van de Campagne**
 
-  De **Campagneverslagen** Geef een uitgebreid overzicht van uw **campagne**, met alle relevante informatie over de verschillende betrokken leveringen. Deze rapporten bieden een grondige analyse van de prestaties van elke levering, per kanaal: succespercentages, betrokkenheid van het publiek en andere essentiële maatstaven. Hiermee kunt u de algehele doeltreffendheid en impact van uw campagne evalueren.
+  De **rapporten van de Campagne** verstrekken een uitvoerig overzicht van uw **campagne**, die alle relevante informatie met betrekking tot de verschillende inbegrepen leveringen opnemen. Deze rapporten bieden een grondige analyse van de prestaties van elke levering, per kanaal: succespercentages, betrokkenheid van het publiek en andere essentiële maatstaven. Hiermee kunt u de algehele doeltreffendheid en impact van uw campagne evalueren.
 
 
 * **Algemene rapporten**
 
-  De **Algemene rapporten** fungeren als een effectief hulpmiddel en bieden een geconsolideerde algemene samenvatting van verkeers- en betrokkenheidsgegevens voor elk kanaal in uw Campagne-instantie. Deze rapporten bestaan uit verschillende widgets, die elk een duidelijk perspectief bieden op uw campagne of leveringsprestaties.
+  De **Globale rapporten** dienen als efficiënt hulpmiddel, dat een geconsolideerde algemene samenvatting van verkeer en betrokkenheidsmetriek voor elk kanaal binnen uw instantie van de Campagne aanbiedt. Deze rapporten bestaan uit verschillende widgets, die elk een duidelijk perspectief bieden op uw campagne of leveringsprestaties.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -37,7 +37,7 @@ Adobe Campaign biedt drie verschillende rapporten:
 <img alt="Validatie" src="assets/do-not-localize/campaign_report.jpeg">
 </a>
 <div>
-<a href="campaign-reports.md"><strong>Campagneverslagen</strong></a>
+<a href="campaign-reports.md"><strong> de rapporten van de Campagne </strong></a>
 </div>
 <p>
 </td>
@@ -54,7 +54,7 @@ Adobe Campaign biedt drie verschillende rapporten:
 <img alt="Onfrequent" src="assets/do-not-localize/push_report.jpeg">
 </a>
 <div>
-<a href="global-reports.md"><strong> Algemene rapporten<strong></strong></a>
+<a href="global-reports.md"><strong> Algemene rapporten <strong></strong></a>
 </div>
 <p></td>
 <td>
@@ -62,7 +62,7 @@ Adobe Campaign biedt drie verschillende rapporten:
 <img alt="Validatie" src="assets/do-not-localize/kpis.jpeg">
 </a>
 <div>
-<a href="kpis.md"><strong>Belangrijkste prestatie-indicatoren</strong></a>
+<a href="kpis.md"><strong> Zeer belangrijke Indicatoren van Prestaties </strong></a>
 </div>
 <p>
 </td>

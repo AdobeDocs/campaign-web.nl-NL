@@ -13,7 +13,7 @@ ht-degree: 4%
 
 # Aan de slag met bestemmingspagina&#39;s {#get-sarted-lp}
 
-[!DNL Adobe Campaign] kunt u bestemmingspagina&#39;s maken, ontwerpen en delen.
+Met [!DNL Adobe Campaign] kunt u bestemmingspagina&#39;s maken, ontwerpen en delen.
 
 In de context van marketingcampagnes is een landingspagina een zelfstandige webpagina waarop een bezoeker wordt geleid nadat hij op een koppeling in een levering of op een website heeft geklikt.
 
@@ -23,15 +23,15 @@ Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen w
 >
 >Landing de pagina&#39;s die u in het de gebruikersinterface van het Web van de Campagne creeert zijn verschillend van de Webvormen die van de cliëntconsole worden gecreeerd. U kunt webformulieren die in de clientconsole zijn gemaakt, niet weergeven of bewerken in de gebruikersinterface van Campagne Web.
 >
->Meer informatie over webformulieren in het dialoogvenster [Campagne v8 (console)-documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
+>Leer meer op Webvormen in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html) {target="_blank"}.
 
 De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder vermeld:
 
-* Onmiddellijk landingspagina&#39;s maken, ontwerpen en delen met gebruiksklare **vooraf ingevulde sjablonen** verschillende gebruiksgevallen overeenkomen. [Meer informatie](create-lp.md)
-* Hefboomwerking [!DNL Adobe Campaign] mogelijkheden voor inhoudsontwerp om eenvoudig samen te stellen **responsieve openingspagina&#39;s**. [Meer informatie](lp-content.md)
-* Instellen **opt-in- en opt-out-stromen** snel en naadloos. [Meer informatie](lp-use-cases.md)
-* Abonnementsservices maken waarmee gebruikers **abonneren op een service**. [Meer informatie](lp-use-cases.md#lp-subscription)
-* Geef uw ontvangers de **mogelijkheid om zich af te melden** van het ontvangen van uw mededelingen. [Meer informatie](lp-use-cases.md#lp-unsubscription)
+* Creëer, ontwerp, en deel het landen pagina&#39;s onmiddellijk gebruikend klaar-aan-gebruik **vooraf ingevulde malplaatjes** passende verschillende gebruiksgevallen. [Meer informatie](create-lp.md)
+* De mogelijkheden van het inhoudsontwerp van de hefboomwerking [!DNL Adobe Campaign] om **ontvankelijke het landen pagina&#39;s** gemakkelijk te bouwen. [Meer informatie](lp-content.md)
+* De opstelling **opt-in en opt-out stromen** snel en foutloos. [Meer informatie](lp-use-cases.md)
+* Creeer de abonnementsdiensten om gebruikers toe te laten om **aan de dienst** in te tekenen. [Meer informatie](lp-use-cases.md#lp-subscription)
+* Verstrek uw ontvangers van het **vermogen om** van het ontvangen van uw mededelingen af te melden. [Meer informatie](lp-use-cases.md#lp-unsubscription)
   <!--Send a **confirmation email** upon opt-in or opt-out.-->
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -39,7 +39,7 @@ De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder ver
 <a href="create-lp.md">
 <img alt="Lood" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="create-lp.md"><strong>Openingspagina's maken</strong>
+<div><a href="create-lp.md"><strong> creeer het landen pagina's </strong>
 </div>
 <p>
 </td>
@@ -48,7 +48,7 @@ De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder ver
 <img alt="Onfrequent" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
-<a href="../audience/manage-services.md"><strong>Abonnementsservices maken</strong></a>
+<a href="../audience/manage-services.md"><strong> creeer de abonnementsdiensten </strong></a>
 </div>
 <p></td>
 <td>
@@ -56,7 +56,7 @@ De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder ver
 <img alt="Validatie" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
-<a href="lp-content.md"><strong>Onderliggende pagina's ontwerpen</strong></a>
+<a href="lp-content.md"><strong> Ontwerpen die pagina's </strong></a> landen
 </div>
 <p>
 </td>
@@ -65,7 +65,7 @@ De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder ver
 <img alt="Validatie" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="lp-templates.md"><strong>Werken met inhoudssjablonen</strong></a>
+<a href="lp-templates.md"><strong> Werk met inhoudsmalplaatjes </strong></a>
 </div>
 <p>
 </td>

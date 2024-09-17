@@ -21,10 +21,10 @@ Door kanaalactiviteiten te gebruiken, kunt u uitvoerige en gepersonaliseerde cam
 >[!NOTE]
 >
 >U kunt ook een eenmalige levering maken, buiten de context van een campagneworkflow. Meer informatie vindt u in de volgende secties:
->* [Zelfstandige e-maillevering maken](../../email/create-email.md)
->* [Zelfstandige SMS-levering maken](../../sms/create-sms.md)
->* [Zelfstandige pushlevering maken](../../push/create-push.md)
->* [Zelfstandige direct-maillevering maken](../../direct-mail/create-direct-mail.md)
+>* [ creeer standalone e-maillevering ](../../email/create-email.md)
+>* [ creeer standalone levering van SMS ](../../sms/create-sms.md)
+>* [ creeer standalone duw levering ](../../push/create-push.md)
+>* [ creeer standalone directe postlevering ](../../direct-mail/create-direct-mail.md)
 
 ## Vereisten {#channel-activity-prereq}
 
@@ -32,15 +32,15 @@ Begin met het ontwikkelen van uw workflow met de relevante activiteiten:
 
 * Voordat u een kanaalactiviteit invoegt, moet u het publiek definiëren. Het publiek is het belangrijkste doel van uw levering: de profielen die de berichten ontvangen. Wanneer het verzenden van berichten in de context van een campagnewerkschema, wordt het berichtpubliek niet bepaald in de kanaalactiviteit, maar binnen een specifieke activiteit, zoals:
 
-   * A **publiek opbouwen** activiteit. [Meer informatie](build-audience.md).
+   * A **bouwt publiek** activiteit. [Meer informatie](build-audience.md).
 
      ![](../../msg/assets/add-delivery-in-wf.png)
 
-   * A **Bestand laden** activiteit gevolgd door een **Verzoening** activiteit. [Meer informatie](load-file.md).
+   * A **het dossier van de Lading** activiteit die door a **wordt gevolgd verzoening** activiteit. [Meer informatie](load-file.md).
 
      ![](../assets/workflow-reconciliation-criteria.png)
 
-* Als u een terugkerende levering wilt verzenden, start u de workflow met een **Planner** activiteit. U kunt ook een **Planner** activiteit voor één-ontsproten enige leveringen om de contactdatum voor die levering te plaatsen. Deze contactdatum kan ook worden ingesteld in de leveringsinstellingen. Zie [deze sectie](scheduler.md).
+* Om een terugkomende levering te verzenden, begin uw werkschema met a **Planner** activiteit. U kunt a **planner** activiteit voor één-ontsproten enige leveringen ook gebruiken om de contactdatum voor die levering te plaatsen. Deze contactdatum kan ook worden ingesteld in de leveringsinstellingen. Zie [deze sectie](scheduler.md).
 
 ## De kanaalactiviteit configureren {#create-a-delivery-in-a-workflow}
 
@@ -71,30 +71,30 @@ Begin met het ontwikkelen van uw workflow met de relevante activiteiten:
 
 Volg onderstaande stappen om een levering in te stellen in de context van een workflow:
 
-1. Kanaalactiviteit toevoegen: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]**, **[!UICONTROL Push notification (iOS)]** of **[!UICONTROL Direct mail]**.
+1. Voeg een kanaalactiviteit toe: **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL Push notification (Android)]**, **[!UICONTROL Push notification (iOS)]** of **[!UICONTROL Direct mail]** .
 
-1. Selecteer de **Soort levering**: enkelvoudig of herhaald.
+1. Selecteer het **Type van levering**: enige of terugkomende.
 
-   * A **Eén levering** is een levering van één opname, die slechts één keer wordt verzonden, bijvoorbeeld een e-mail van de Zwarte Vrijdag.
-   * A **Terugkerende levering** wordt meerdere keren verzonden op basis van de uitvoeringsfrequentie die in een [planningsactiviteit](scheduler.md). Elke keer dat de workflow wordt uitgevoerd, wordt het publiek opnieuw berekend en wordt de levering verzonden naar het bijgewerkte publiek, met de bijgewerkte inhoud. Dit kan bijvoorbeeld een wekelijkse nieuwsbrief of een terugkerende verjaardagsmail zijn.
+   * A **Enige levering** is een één-schot levering, slechts eens verzonden, bijvoorbeeld een zwarte Vrijdag e-mail.
+   * A **Terugkomende levering** wordt verzonden veelvoudige tijden die op zijn uitvoeringsfrequentie worden gebaseerd die in a [ wordt bepaald planneractiviteit ](scheduler.md). Elke keer dat de workflow wordt uitgevoerd, wordt het publiek opnieuw berekend en wordt de levering verzonden naar het bijgewerkte publiek, met de bijgewerkte inhoud. Dit kan bijvoorbeeld een wekelijkse nieuwsbrief of een terugkerende verjaardagsmail zijn.
 
-1. Selecteer een levering **Sjabloon**. Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die specifiek zijn voor een kanaal. Een ingebouwde sjabloon is beschikbaar voor elk kanaal en wordt standaard vooraf ingevuld. [Meer informatie](../../msg/delivery-template.md)
+1. Selecteer een levering **Malplaatje**. Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die specifiek zijn voor een kanaal. Een ingebouwde sjabloon is beschikbaar voor elk kanaal en wordt standaard vooraf ingevuld. [Meer informatie](../../msg/delivery-template.md)
 
    ![](../assets/delivery-activity-in-wf.png)
 
-   U kunt het malplaatje van de configuratie van de kanaalactiviteit linkerruit selecteren. Als het eerder geselecteerde publiek niet compatibel is met het kanaal, kunt u geen sjabloon selecteren. Als u dit wilt oplossen, werkt u de **publiek opbouwen** activiteit om een publiek met de correcte doelafbeelding te selecteren. Meer informatie over doeltoewijzingen in [deze sectie](../../audience/targeting-dimensions.md)
+   U kunt het malplaatje van de configuratie van de kanaalactiviteit linkerruit selecteren. Als het eerder geselecteerde publiek niet compatibel is met het kanaal, kunt u geen sjabloon selecteren. Om dit op te lossen, werk **het publiek van de Bouwstijl** activiteit bij om een publiek met de correcte doelafbeelding te selecteren. Leer meer over doelafbeeldingen in [ deze sectie ](../../audience/targeting-dimensions.md)
 
-1. Klikken **Levering maken**. Vervolgens kunt u de berichtinstellingen en inhoud op dezelfde manier definiëren als wanneer u een zelfstandige levering maakt. U kunt de inhoud ook testen en simuleren. [Meer informatie](../../msg/gs-messages.md)
+1. Klik **creeer levering**. Vervolgens kunt u de berichtinstellingen en inhoud op dezelfde manier definiëren als wanneer u een zelfstandige levering maakt. U kunt de inhoud ook testen en simuleren. [Meer informatie](../../msg/gs-messages.md)
 
-1. Ga terug naar uw workflow. Als u uw workflow wilt voortzetten, schakelt u het **Een uitgaande overgang genereren** om een overgang toe te voegen na de kanaalactiviteit.
+1. Ga terug naar uw workflow. Als u uw werkschema wilt voortzetten, knevel **een uitgaande overgang** optie produceren om een overgang na de kanaalactiviteit toe te voegen.
 
-1. Klikken **Start** om uw workflow te starten.
+1. Klik **Begin** om uw werkschema te lanceren.
 
    Door gebrek, leidt het beginnen van een werkschema tot het stadium van de berichtvoorbereiding, zonder onmiddellijk het bericht te verzenden.
 
-1. Open uw kanaalactiviteit om het verzenden van te bevestigen **Controleren en verzenden** knop.
+1. Open uw kanaalactiviteit om het verzenden van de **Overzicht te bevestigen &amp;** knoop te verzenden.
 
-1. Van uw leveringsdashboard, klik **Verzenden**.
+1. Van uw leveringsdashboard, verzendt de klik ****.
 
 ## Voorbeelden {#cross-channel-workflow-sample}
 

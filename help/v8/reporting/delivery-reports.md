@@ -5,7 +5,7 @@ description: Leer hoe u leveringsrapporten kunt openen en gebruiken
 exl-id: 3f76298f-dc0d-4055-b89d-f11d64fcd66d
 source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >title="Geaggregeerde rapportage voor leveringen"
 >abstract="Selecteer ten minste twee leveringen voor de weergave van een samengevoegd gegevensrapport."
 
-De **Afleveringsrapporten** biedt diepgaande inzichten en gegevens die uitsluitend zijn gericht op uw **leveringen** over elk kanaal. Deze rapporten verstrekken gedetailleerde informatie over de prestaties, de doeltreffendheid, en de resultaten van uw individuele leveringen, die u van een uitvoerig overzicht voorzien.
+De **rapporten van de Levering** verstrekken diepgaande inzichten en gegevens uitsluitend die op uw **leveringen** over elk kanaal worden geconcentreerd. Deze rapporten verstrekken gedetailleerde informatie over de prestaties, de doeltreffendheid, en de resultaten van uw individuele leveringen, die u van een uitvoerig overzicht voorzien.
 
 De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is beschikbaar in de volgende pagina&#39;s:
 
@@ -32,28 +32,28 @@ Adobe Campaign biedt verschillende typen rapporten die voor elke levering toegan
 
 Voer de volgende stappen uit om rapporten weer te geven en te beheren:
 
-1. Als u een rapport voor een specifieke levering wilt genereren, navigeert u naar de **[!UICONTROL Deliveries]** en selecteert u de levering waarvoor u een melding wilt maken.
+1. Als u een rapport voor een bepaalde levering wilt genereren, navigeert u naar het menu **[!UICONTROL Deliveries]** en selecteert u de levering waarover u wilt rapporteren.
 
-1. Van uw **[!UICONTROL Delivery]** dashboard, klik **[!UICONTROL Reports]**.
+1. Klik op het dashboard van **[!UICONTROL Delivery]** **[!UICONTROL Reports]** .
 
-   ![](assets/manage_delivery_report_1.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_1.png){zoomable="yes"}
 
-   U kunt ook de drie stippen gebruiken **Meer handelingen** naast de naam van de levering in de lijst met leveringen en selecteer **[!UICONTROL View report]**.
+   Alternatief, kunt u de drie stippen **Meer acties** knoop naast de leveringsnaam in de leveringslijst gebruiken en selecteren **[!UICONTROL View report]**.
 
-   ![](assets/manage_delivery_report_2.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_2.png){zoomable="yes"}
 
 1. Selecteer in het linkermenu een rapport in de lijst.
 
-   ![](assets/manage_delivery_report_3.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_3.png){zoomable="yes"}
 
-1. Als uw levering terugkomt, selecteer een specifieke levering aan rapport door te klikken **[!UICONTROL Select deliveries]**.
+1. Als de levering terugkeert, selecteert u een specifieke levering om over te rapporteren door op **[!UICONTROL Select deliveries]** te klikken.
 
-   U kunt ook een tijdsperiode op uw rapport toepassen door de optie **[!UICONTROL Contact date]**.
+   U kunt ook een tijdsperiode toepassen op uw rapport door **[!UICONTROL Contact date]** te selecteren.
 
-   ![](assets/delivery-recurring.png){zoomable=&quot;yes&quot;}
+   ![](assets/delivery-recurring.png){zoomable="yes"}
 
-1. Van de **[!UICONTROL URLs and click streams]** kunt u ook de optie **[!UICONTROL Top visited Links]** of de **[!UICONTROL Time period]**.
+1. In het menu **[!UICONTROL URLs and click streams]** kunt u ook de **[!UICONTROL Top visited Links]** of de **[!UICONTROL Time period]** kiezen.
 
-   De **[!UICONTROL View by]** kunt u filteren op URL&#39;s, labels of categorieën.
+   Met de opties van **[!UICONTROL View by]** kunt u filteren op URL&#39;s, labels of categorieën.
 
-   ![](assets/manage_delivery_report_5.png){zoomable=&quot;yes&quot;}
+   ![](assets/manage_delivery_report_5.png){zoomable="yes"}

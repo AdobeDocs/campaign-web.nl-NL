@@ -2,7 +2,8 @@
 audience: end-user
 title: Alleen-lezen workflows
 description: Ontdek waarom werkstromen alleen-lezen zijn
-source-git-commit: 6985e8cb11f12ab7818cc71441a4d3b41f1a0493
+exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
+source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 Sommige workflows zijn mogelijk in de modus Alleen-lezen. Je kunt het zien met:
 
-- De vermelding **[!UICONTROL ** Alleen-lezen **]**  nabij de **[!UICONTROL Settings]** knop
+- De verwijzing **[!UICONTROL ** Read-only **]** dichtbij de **[!UICONTROL Settings]** knoop
 - De actieknoppen zijn niet toegankelijk
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
@@ -35,7 +36,7 @@ U hebt niet de rechten om de workflow ook te verwijderen.
 
 ## Waarom alleen-lezen workflows
 
-De modus Alleen-lezen is bedoeld voor gebruikers die geen machtigingen en toegangsrechten hebben om deze workflows te bewerken. [Meer informatie hier](../get-started/permissions.md)
+De modus Alleen-lezen is bedoeld voor gebruikers die geen machtigingen en toegangsrechten hebben om deze workflows te bewerken. [ leer meer hier ](../get-started/permissions.md)
 
 Een campagnegebruiker kan beperkingen hebben in de gegevens waartoe hij toegang heeft in Adobe Campaign. De beheerder kan hem de mogelijkheid geven om sommige eigenschappen te bekijken maar niet om aan hen te werken.
 
@@ -52,6 +53,6 @@ In het geval van een alleen-lezen campagneworkflow heeft de gebruiker geen toega
 ### Technische workflows
 
 De technische werkschema&#39;s zijn op read-only wijze voor campagnegebruikers.
-De ingebouwde technische werkschema&#39;s zijn op read-only wijze voor allen, zelfs voor de beheerdergebruikers. Maar de gebruiker kan **pauzeren** of **stoppen** indien nodig. Dat zijn de enige toegestane acties. [Meer informatie hier](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
+De ingebouwde technische werkschema&#39;s zijn op read-only wijze voor allen, zelfs voor de beheerdergebruikers. Maar de gebruiker kan **pauzeren of** hen **tegenhouden indien nodig.** Dat zijn de enige toegestane acties. [ leer meer hier ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows)
 
 ![](assets/readonly-technical-workflow.png){zoomable="yes"}

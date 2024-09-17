@@ -5,8 +5,8 @@ description: Leer hoe te om een controlegroep voor uw berichten in het gebruiker
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: 3879f217f3a6a1cae0d6c924733d2ef1fd4ab9e7
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 7%
+source-wordcount: '786'
+ht-degree: 8%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 Een controlegroep is een subpopulatie die van de levering is uitgesloten. U kunt een controlegroep bepalen vermijden verzendend berichten naar een gedeelte van uw publiek, en post-levering gedrag met het belangrijkste doel vergelijken. Met deze optie kunt u de impact van uw campagne meten.
 
-➡️ [Deze functie in video detecteren](create-audience.md#video)
+➡️ [ ontdekt deze eigenschap in video ](create-audience.md#video)
 
 ## Controlegroep inschakelen{#add-a-control-group}
 
@@ -29,11 +29,11 @@ Alle profielen die deel uitmaken van de controlegroep bij de voorbereidingsstap 
 
 >[!CAUTION]
 >
->U kunt geen controlegroepen gebruiken wanneer het laden van de doelpopulatie [van een extern bestand](file-audience.md).
+>U kunt geen controlegroepen gebruiken wanneer het laden van de doelbevolking [ van een extern dossier ](file-audience.md).
 
-Als u een controlegroep wilt toevoegen aan een levering, activeert u de optie **[!UICONTROL Enable control group]** schakelen tussen **Publiek** van het scherm voor het maken van de levering.
+Om een controlegroep aan een levering toe te voegen, activeer de **[!UICONTROL Enable control group]** knevel, van de **sectie van het Publiek** van het scherm van de leveringsverwezenlijking.
 
-![De optie Besturingsgroep inschakelen](assets/control-group1.png)
+![ laat de optie van de controlegroep ](assets/control-group1.png) toe
 
 
 ## Extraheren uit doel {#extract-target}
@@ -46,29 +46,29 @@ Als u een controlegroep wilt toevoegen aan een levering, activeert u de optie **
 
 ### Een controlegroep samenstellen {#build-extract-target}
 
-Als u een controlegroep wilt definiëren, kunt u kiezen of u willekeurig of op basis van een sortering, een percentage of een vast aantal profielen wilt extraheren uit de doelpopulatie. Als u liever een extra populatie toevoegt, kiest u de optie **Geen extractie** en selecteert u de extra populatie [zoals hier beschreven](#extra-population).
+Als u een controlegroep wilt definiëren, kunt u kiezen of u willekeurig of op basis van een sortering, een percentage of een vast aantal profielen wilt extraheren uit de doelpopulatie. Als u verkiest toevoegend een extra-bevolking, kies de **Geen extractie** optie en selecteer de extra bevolking [ zoals hier gedetailleerd ](#extra-population).
 
 Definieer eerst de manier waarop de profielen uit het doel worden geëxtraheerd: willekeurig of op basis van een sortering.
 
-Onder de **Controlegroep** in, kiest u een **Extractiemodus**:
+Onder de **groep van de Controle** sectie, kies een **wijze van de Uitwinning**:
 
-* **Willekeurig**: bij het voorbereiden van de levering extraheert Adobe Campaign willekeurig een aantal profielen dat overeenkomt met het percentage of het maximumaantal dat is ingesteld als de maximale grootte.
+* **Willekeurig**: wanneer het voorbereiden van de levering, haalt Adobe Campaign willekeurig een aantal profielen uit die aan het percentage of aan het maximumaantal beantwoorden dat als groottelimiet wordt geplaatst.
 
-* **Gerangschikt op kenmerk(en)**: met deze optie kunt u een set profielen uitsluiten op basis van specifieke kenmerken in een specifieke sorteervolgorde.
+* **die door attributen (s)** wordt gerangschikt: deze optie laat u toe om een reeks profielen uit te sluiten die op specifieke attributen worden gebaseerd (s) in een specifieke sorteervolgorde(s).
 
 
-Gebruik vervolgens de **Groottebeperking** om het aantal profielen in te stellen dat u uit het hoofddoel moet extraheren. Dit kan een onbewerkt getal zijn (bijvoorbeeld 50 profielen om uit te sluiten) of een percentage van het oorspronkelijke publiek (bijvoorbeeld 5% van het hoofddoel).
+Dan gebruik de **de grens van de Grootte** sectie om het aantal profielen te plaatsen dat u uit het belangrijkste doel moet halen. Dit kan een onbewerkt getal zijn (bijvoorbeeld 50 profielen om uit te sluiten) of een percentage van het oorspronkelijke publiek (bijvoorbeeld 5% van het hoofddoel).
 
 
 ### Monster van controlegroep{#control-group-sample}
 
 Bijvoorbeeld, om een controlegroep met de 100 nieuwe jongste profielen tot stand te brengen, volg deze stappen:
 
-1. Selecteer de **Leeftijd** veld als sorteercriterium. Laat de **Oplopend** sorteeroptie.
-1. Voeg de **Aanmaakdatum** veld. Wijzigen in de **Aflopend** sorteeroptie.
-1. Definieer 100 als de drempel in het dialoogvenster **Groottebeperking** sectie.
+1. Selecteer het **gebied van de Leeftijd** als sorterend criterium. Verlaat de **Overlopende** soortoptie.
+1. Voeg het **gebied van de Datum van de Verwezenlijking 0} {toe.** Verandering in de **Aflopende** soortoptie.
+1. Bepaal 100 als drempel in de **grens van de Grootte** sectie.
 
-   ![](assets/control-group2.png){zoomable=&quot;yes&quot;}
+   ![](assets/control-group2.png){zoomable="yes"}
 
 Deze 100 nieuwe jongste profielen worden dan van het hoofddoel uitgesloten.
 
@@ -76,17 +76,17 @@ Deze 100 nieuwe jongste profielen worden dan van het hoofddoel uitgesloten.
 
 U kunt de logboeken bekijken om de uitgesloten profielen te controleren en te identificeren. Laten we het voorbeeld nemen van een willekeurige uitsluiting op vijf profielen.
 
-![](assets/control-group4.png){zoomable=&quot;yes&quot;}
+![](assets/control-group4.png){zoomable="yes"}
 
 Na de voorbereiding van de levering kunt u bekijken hoe de uitsluitingen werden toegepast:
 
-* Controleer in het bezorgdashboard, vóór de verzending, het **Uitsluiten** KPI.
+* In leveringsdashboard, vóór het verzenden, controleer **om** KPI uit te sluiten.
 
-  ![](assets/control-group5.png){zoomable=&quot;yes&quot;}
+  ![](assets/control-group5.png){zoomable="yes"}
 
 * In de leveringslogboeken, toont het lusje van Logs de uitsluitingsstap.
 
-  ![](assets/control-group-sample-logs.png){zoomable=&quot;yes&quot;}
+  ![](assets/control-group-sample-logs.png){zoomable="yes"}
 <!--
 
  * The **Exclusion logs** tab displays each profile and the related exclusion **Reason**.
@@ -94,11 +94,11 @@ Na de voorbereiding van de levering kunt u bekijken hoe de uitsluitingen werden 
     ![](assets/control-group6.png){zoomable="yes"}
 -->
 
-* De **Uitsluiting veroorzaakt** wordt het aantal uitgesloten profielen voor elke typeregel weergegeven.
+* De **Uitsluiting veroorzaakt** lusje toont het aantal uitgesloten profiel voor elke typologieregel.
 
-  ![](assets/control-group7.png){zoomable=&quot;yes&quot;}
+  ![](assets/control-group7.png){zoomable="yes"}
 
-Voor meer informatie over leveringslogboeken, verwijs naar dit [sectie](../monitor/delivery-logs.md).
+Voor meer informatie over leveringslogboeken, verwijs naar deze [ sectie ](../monitor/delivery-logs.md).
 
 ## Een extra populatie toevoegen {#extra-population}
 
@@ -109,18 +109,18 @@ Voor meer informatie over leveringslogboeken, verwijs naar dit [sectie](../monit
 
 Een andere manier om een controlegroep te bepalen is een specifieke bevolking in een bestaand publiek te selecteren of door een vraag te bepalen.
 
-Van de **Extra populatie** van de **Controlegroep** definitiescherm, klik **[!UICONTROL Select Audience]** knop.
+Van de **Extra bevolking** sectie van het **de definitiescherm van de Groep van de Controle**, klik de **[!UICONTROL Select Audience]** knoop.
 
-![](assets/control-group3.png){zoomable=&quot;yes&quot;}
+![](assets/control-group3.png){zoomable="yes"}
 
-* Om een bestaand publiek te gebruiken, klik **Doelgroep selecteren**. Meer informatie in [deze sectie](add-audience.md).
+* Om een bestaand publiek te gebruiken, klik **Uitgezochte publiek**. Lees meer in [deze sectie](add-audience.md).
 
-* Als u een nieuwe query wilt definiëren, selecteert u **Maak uw eigen** en definieert u de uitsluitingscriteria met behulp van de querymodelfunctie. Meer informatie in [deze sectie](../query/query-modeler-overview.md).
+* Om een nieuwe vraag te bepalen, creeer **uw eigen** en bepaal de uitsluitingscriteria gebruikend de vraagmodeler. Lees meer in [deze sectie](../query/query-modeler-overview.md).
 
-De profielen die zijn opgenomen in het publiek of die overeenkomen met het resultaat van de query, zijn **uitgesloten** van het leveringsdoel: zij ontvangen geen bericht.
+De profielen inbegrepen in het publiek of die het resultaat van de vraag aanpassen zijn **uitgesloten** van het leveringsdoel: zij ontvangen geen bericht.
 
 ## De resultaten vergelijken{#control-group-results}
 
 Zodra de levering wordt verzonden, kunt u de verzendende logboeken halen om gedrag tussen de profielen te vergelijken die niet de mededeling en het efficiënte doel ontvingen. U kunt de leveringslogboeken ook gebruiken om een nieuwe het richten te bouwen.
 
-Als u wilt zien welke profielen uit het doel zijn verwijderd, controleert u de knop **Leveringslogboeken**. Meer informatie [in deze sectie](#check-control-group).
+Om te zien welke profielen van het doel werden verwijderd, controleer de **Logboeken van de Levering**. Leer meer [ in deze sectie ](#check-control-group).

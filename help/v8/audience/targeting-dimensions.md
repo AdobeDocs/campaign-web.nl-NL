@@ -4,7 +4,7 @@ description: Meer informatie over doelgerichte dimensies vindt u op Adobe Campai
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
 source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ De gerichte dimensie, ook bekend als. target mapping, is het type gegevens dat e
 
 ## Doeldimensies van workflows {#workflow}
 
-De doeldimensie van een workflow wordt gedefinieerd door de eerste **[!UICONTROL Build audience]** en wordt gebruikt voor alle verdere activiteiten tot het einde van de werkstroom. Bijvoorbeeld, als u een vraag op de profielen van het gegevensbestand uitvoert, zal de uitgaande overgang gegevens van type &quot;ontvanger&quot;bevatten en het zal aan de volgende activiteit worden overgebracht.
+De doeldimensie van een workflow wordt gedefinieerd door de eerste **[!UICONTROL Build audience]** -activiteit en wordt gebruikt voor alle verdere activiteiten tot het einde van de workflow. Bijvoorbeeld, als u een vraag op de profielen van het gegevensbestand uitvoert, zal de uitgaande overgang gegevens van type &quot;ontvanger&quot;bevatten en het zal aan de volgende activiteit worden overgebracht.
 
-Let op: u kunt de doeldimensie in een workflow wijzigen met een [Dimensieactiviteit wijzigen](../workflows/activities/change-dimension.md). Hierdoor kunt u bijvoorbeeld de database opvragen in een specifieke tabel, zoals aankopen of abonnementen, en vervolgens de dimensie voor het opgeven van doelen wijzigen in Ontvangers om leveringen naar de bijbehorende profielen te verzenden.
+Merk op dat u het richten afmeting in een werkschema kunt schakelen gebruikend de afmetingsactiviteit van de a [ Verandering ](../workflows/activities/change-dimension.md). Hierdoor kunt u bijvoorbeeld de database opvragen in een specifieke tabel, zoals aankopen of abonnementen, en vervolgens de dimensie voor het opgeven van doelen wijzigen in Ontvangers om leveringen naar de bijbehorende profielen te verzenden.
 
-Bij het selecteren van een doeldimensie (in de werkstroominstellingen of in activiteiten zoals **publiek opbouwen**, **Verzoening** of **Dimensie wijzigen**), wordt een selectie van algemeen gebruikte schema&#39;s door gebrek getoond in de lijst. Als u alle beschikbare schema&#39;s wilt weergeven, schakelt u het **[!UICONTROL Show all schemas]** knop. De optie wordt voor elke gebruiker opgeslagen.
+Wanneer het selecteren van een het richten afmeting (in de werkschemamontages, of in activiteiten zoals **bouwt publiek**, **Afstemming** of **afmeting van de Verandering**), wordt een selectie van algemeen gebruikte schema&#39;s getoond door gebrek in de lijst. Schakel de knop **[!UICONTROL Show all schemas]** in om alle beschikbare schema&#39;s weer te geven. De optie wordt voor elke gebruiker opgeslagen.
 
-![](assets/targeting-dimension-show-all.png){zoomable=&quot;yes&quot;}
+![](assets/targeting-dimension-show-all.png){zoomable="yes"}
 
 ## Doelafmetingen {#list}
 
-Standaard zijn de profielen voor e-mail- en sms-leveringssjablonen bedoeld. Hun doeldimensie gebruikt daarom de gebieden van **nms:ontvanger** tabel. Voor pushberichten is de standaarddoeldimensie: **Toepassingen voor abonnees nms:appSubscriptionRcp**, die is gekoppeld aan de tabel met ontvangers.
+Standaard zijn de profielen voor e-mail- en sms-leveringssjablonen bedoeld. Hun doelafmeting gebruikt daarom de gebieden van **nms:ontvankelijke** lijst. Voor de Duw berichten, is de standaarddoelafmeting **toepassingen van de Abonnee nms:appSubscriptionRcp**, die met de lijst van ontvangers verbonden is.
 
 U kunt ook andere ingebouwde doeltoewijzingen gebruiken in uw workflows en leveringen die hieronder worden vermeld:
 
@@ -44,4 +44,4 @@ U kunt ook andere ingebouwde doeltoewijzingen gebruiken in uw workflows en lever
 | Extern bestand | Afleveren via een bestand dat alle benodigde informatie voor levering bevat | Geen gekoppeld schema, geen doel ingevoerd |
 | Abonnementstoepassingen | Leveren aan profielen die zijn geabonneerd op een toepassing | nms:appSubscriptionRcp |
 
-Bovendien kunt u een nieuwe doelafbeelding maken, afhankelijk van uw behoeften. Deze bewerking wordt alleen vanaf de clientconsole uitgevoerd. Meer informatie in [Campagne v8-documentatie (clientconsole)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+Bovendien kunt u een nieuwe doelafbeelding maken, afhankelijk van uw behoeften. Deze bewerking wordt alleen vanaf de clientconsole uitgevoerd. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping) {target="_blank"}.

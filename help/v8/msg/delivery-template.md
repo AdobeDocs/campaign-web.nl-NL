@@ -8,7 +8,7 @@ level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
 source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1053'
 ht-degree: 2%
 
 ---
@@ -24,18 +24,18 @@ Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om 
 
 Een sjabloon kan het volgende bevatten:
 
-* De **map** en **uitvoeringsmap** van de template. De map is de locatie waar de leveringssjabloon is opgeslagen. De uitvoeringsmap is de map waarin leveringen worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
-* [Typologieën](../advanced-settings/delivery-settings.md#typology),
+* De **omslag** en **uitvoeringsomslag** van het malplaatje. De map is de locatie waar de leveringssjabloon is opgeslagen. De uitvoeringsmap is de map waarin leveringen worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
+* [ Typologies ](../advanced-settings/delivery-settings.md#typology),
 * Het adres van de afzender,
-* An [publiek](../audience/about-recipients.md), inclusief [controlegroepen](../audience/control-group.md),
-* Aangepast [content](../email/edit-content.md),
-* [Persoonlijke velden](../personalization/personalize.md) en [voorwaardelijke inhoud](../personalization/conditions.md),
-* Koppelingen naar [spiegelpagina](../email/mirror-page.md) en uit-abonnement [koppelingen](../email/message-tracking.md),
+* Een [ publiek ](../audience/about-recipients.md), met inbegrip van [ controlegroepen ](../audience/control-group.md),
+* Aangepaste [ inhoud ](../email/edit-content.md),
+* [ Gepersonaliseerde gebieden ](../personalization/personalize.md) en [ voorwaardelijke inhoud ](../personalization/conditions.md),
+* Verbindingen met [ spiegelpagina ](../email/mirror-page.md) en unsubscription [ verbindingen ](../email/message-tracking.md),
 * Andere leveringseigenschappen, zoals middelgeldigheid, retry parameters, of quarantaine montages.
 
 >[!NOTE]
 >
->Afleveringssjablonen verschillen van [inhoudssjablonen](../email/create-email-templates.md), waarmee u alleen de inhoud van uw e-mails kunt hergebruiken en inhoud kunt gaan samenstellen met een van de voorbeeldsjablonen die u offline hebt ontvangen.
+>De malplaatjes van de levering zijn verschillend van [ inhoudsmalplaatjes ](../email/create-email-templates.md), die u toestaan slechts de inhoud van uw e-mail opnieuw te gebruiken en te beginnen inhoud met één van de steekproef e-mailmalplaatjes te bouwen die uit-van-de-doos worden verstrekt.
 
 
 ## Leveringssjablonen openen en beheren {#access-manage-templates}
@@ -46,26 +46,26 @@ Een sjabloon kan het volgende bevatten:
 >abstract="Gebruik leveringssjablonen om leveringsinstellingen te maken en op te slaan voor toekomstig gebruik in uw campagnes. U kunt leveringsmalplaatjes van kras tot stand brengen, een bestaand malplaatje dupliceren, of een levering in een malplaatje omzetten."
 
 
-Als u de lijst met inhoudssjablonen wilt openen, selecteert u **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** van het linkermenu, en doorblader aan **Sjablonen** tab.
+Om tot de lijst van het inhoudsmalplaatje toegang te hebben, selecteer **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** van het linkermenu, en doorblader aan de **Malplaatjes** tabel.
 
-![](assets/templates-tab.png){zoomable=&quot;yes&quot;}
+![](assets/templates-tab.png){zoomable="yes"}
 
-Alle sjablonen die [gemaakt](#create-a-delivery-template) op de huidige omgeving worden weergegeven.
+Alle malplaatjes die [ werden gecreeerd ](#create-a-delivery-template) op het huidige milieu worden getoond.
 
-U kunt inhoudssjablonen filteren op kanalen en mappen. U kunt geavanceerde filters ook instellen door een regel te maken met behulp van leveringskenmerken. [Meer informatie over querymodellen](../audience/../query/query-modeler-overview.md)
+U kunt inhoudssjablonen filteren op kanalen en mappen. U kunt geavanceerde filters ook instellen door een regel te maken met behulp van leveringskenmerken. [ Leer meer op de vraagmodelaar ](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png){zoomable=&quot;yes&quot;}
+![](assets/templates-filters.png){zoomable="yes"}
 
 Als u een sjabloon wilt bewerken, klikt u op het gewenste item in de lijst. Hierna:
 
 * U kunt de inhoud, eigenschappen, het publiek en alle aanbiedingen die eraan zijn gekoppeld, wijzigen.
 * U kunt de sjabloon ook testen. [Meer informatie](#test-template)
 
-![](assets/templates-edition.png){zoomable=&quot;yes&quot;}
+![](assets/templates-edition.png){zoomable="yes"}
 
-Om te schrappen of [dupliceren](#copy-an-existing-template) een sjabloon, selecteert u de bijbehorende actie in het menu **[!UICONTROL More actions]** in het menu **[!UICONTROL Templates]** lijst of van een scherm van de malplaatjeuitgave.
+Om [ te schrappen of te dupliceren ](#copy-an-existing-template) een malplaatje, selecteer de overeenkomstige actie van het **[!UICONTROL More actions]** menu, of van de **[!UICONTROL Templates]** lijst of van het scherm van de malplaatjeuitgave.
 
-![](assets/templates-more-actions.png){zoomable=&quot;yes&quot;}
+![](assets/templates-more-actions.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,9 +75,9 @@ Om te schrappen of [dupliceren](#copy-an-existing-template) een sjabloon, select
 
 Als u een leveringssjabloon wilt maken, kunt u:
 
-* Een bestaande sjabloon dupliceren - [Meer informatie](#copy-an-existing-template)
-* Een bestaande levering converteren naar een sjabloon - [Meer informatie](#convert-an-existing-delivery)
-* Een volledig nieuwe leveringssjabloon maken - [Meer informatie](#create-a-new-template)
+* Dupliceer een bestaand malplaatje - [ Leer meer ](#copy-an-existing-template)
+* Zet een bestaande levering in een malplaatje om - [ leer meer ](#convert-an-existing-delivery)
+* Creeer een leveringsmalplaatje van kras - [ Leer meer ](#create-a-new-template)
 
 ### Een bestaande leveringssjabloon dupliceren {#copy-an-existing-template}
 
@@ -89,26 +89,26 @@ De campagne wordt geleverd met een reeks ingebouwde sjablonen voor elk kanaal: e
 
 Voer de onderstaande stappen uit om een leveringssjabloon te dupliceren:
 
-1. Bladeren naar de **Sjablonen** tabblad, van de **Leveringen** links. [Meer informatie](#access-manage-templates)
-1. Klik op de knop **[!UICONTROL More actions]** rechts van de gewenste sjabloonnaam en selecteert u  **[!UICONTROL Duplicate]**.
+1. Blader naar het **lusje van Malplaatjes**, van het **Levert** linkermenu. [Meer informatie](#access-manage-templates)
+1. Klik op **[!UICONTROL More actions]** rechts van de gewenste sjabloonnaam en selecteer **[!UICONTROL Duplicate]** .
 
    U kunt ook een sjabloon selecteren in de lijst en deze optie selecteren in het scherm Sjablooneditie.
 
 1. Herhaal dit.
 
-   ![](assets/templates-duplicate-confirm.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-duplicate-confirm.png){zoomable="yes"}
 
 1. Het nieuwe sjabloondashboard wordt in het centrale scherm geopend. Bewerk de sjablooninstellingen naar wens.
 
-   ![](assets/templates-duplicated-item.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-duplicated-item.png){zoomable="yes"}
 
 1. Klik op de knop **[!UICONTROL Review]** om de sjabloon op te slaan en te bekijken. U kunt nog steeds alle instellingen bewerken, verwijderen en dupliceren.
 
-   ![](assets/templates-review-screen.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-review-screen.png){zoomable="yes"}
 
 1. Test indien nodig de rendering van de sjabloon. [Meer informatie](#test-template)
 
-De nieuwe sjabloon wordt toegevoegd aan de [**Sjablonen** list](#access-manage-templates). U kunt deze nu selecteren wanneer u een nieuwe levering maakt.
+Het nieuwe malplaatje wordt toegevoegd aan de [**lijst van Malplaatjes** ](#access-manage-templates). U kunt deze nu selecteren wanneer u een nieuwe levering maakt.
 
 ### Een levering converteren naar een sjabloon {#convert-an-existing-delivery}
 
@@ -116,10 +116,10 @@ Elke levering kan worden omgezet in een sjabloon voor toekomstige herhaalde leve
 
 Volg onderstaande stappen om een levering als een sjabloon op te slaan:
 
-1. Bladeren naar de **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** -menu.
-1. Van de **[!UICONTROL Browse]** klikt u op de knop **[!UICONTROL More actions]** rechts van de gewenste levernaam en selecteert u **[!UICONTROL Copy as a template]**.
+1. Blader naar het menu **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** .
+1. Klik op het tabblad **[!UICONTROL Browse]** op de knop **[!UICONTROL More actions]** rechts van de gewenste leveringsnaam en selecteer **[!UICONTROL Copy as a template]** .
 
-   ![](assets/templates-convert-delivery.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-convert-delivery.png){zoomable="yes"}
 
    U kunt ook een sjabloon selecteren in de lijst en deze optie selecteren in het scherm Sjablooneditie.
 
@@ -131,63 +131,63 @@ Volg onderstaande stappen om een levering als een sjabloon op te slaan:
 
 1. Test indien nodig de rendering van de sjabloon. [Meer informatie](#test-template)
 
-De nieuwe sjabloon wordt toegevoegd aan de [**Sjablonen** list](#access-manage-templates). U kunt deze nu selecteren wanneer u een nieuwe levering maakt.
+Het nieuwe malplaatje wordt toegevoegd aan de [**lijst van Malplaatjes** ](#access-manage-templates). U kunt deze nu selecteren wanneer u een nieuwe levering maakt.
 
 ### Een nieuwe leveringssjabloon maken {#create-a-new-template}
 
 >[!NOTE]
 >
->Om configuratiefouten te vermijden, adviseert de Adobe dat u [een ingebouwde sjabloon dupliceren](#copy-an-existing-template) en pas de eigenschappen aan in plaats van een nieuwe sjabloon te maken.
+>Om configuratiefouten te vermijden, adviseert de Adobe dat u [ een ingebouwd malplaatje ](#copy-an-existing-template) dupliceert en zijn eigenschappen eerder dan tot een nieuw malplaatje leidt.
 
 Voer de onderstaande stappen uit om een volledig nieuwe leveringssjabloon te configureren:
 
-1. Bladeren naar de **Sjablonen** tabblad, van de **Leveringen** links. [Meer informatie](#access-manage-templates)
+1. Blader naar het **lusje van Malplaatjes**, van het **Levert** linkermenu. [Meer informatie](#access-manage-templates)
 1. Klik op de knop **[!UICONTROL Create template]**.
 
-   ![](assets/templates-create-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-create-button.png){zoomable="yes"}
 
 1. Selecteer het kanaal dat u voor uw sjabloon wilt gebruiken.
 1. De ingebouwde leveringsmalplaatje voor dat kanaal wordt gebruikt door gebrek om u te helpen uw eigen malplaatje bouwen. Gebruik de toegewezen knop rechts van het geselecteerde kanaal om indien nodig een andere sjabloon te selecteren.
 
-   ![](assets/templates-channel-browse.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-channel-browse.png){zoomable="yes"}
 
-1. Klik op de knop **[!UICONTROL Create template]** nogmaals.
+1. Klik nogmaals op de knop **[!UICONTROL Create template]** .
 
-1. Definieer de sjablooneigenschappen. [publiek](../audience/add-audience.md) en inhoud, afhankelijk van het geselecteerde kanaal.
+1. Bepaal de malplaatjeeigenschappen, [ publiek ](../audience/add-audience.md) en inhoud afhankelijk van het geselecteerde kanaal.
 
    >[!NOTE]
    >
    >Meer informatie over leveringskanalen en het ontwerpen van de inhoud in de volgende secties vindt u:
    >
    > * [E-mailkanaal](../email/create-email.md)
-   > * [Push-meldingskanaal](../push/gs-push.md)
+   > * [ het berichtkanaal van de duw ](../push/gs-push.md)
    > * [Sms-kanaal](../sms/create-sms.md)
 
-1. Voor e-mailsjablonen kunt u bovendien geavanceerde instellingen, zoals typologische regels en doeltoewijzingen, gebruiken via de **[!UICONTROL Settings]** op de knop rechtsboven in het scherm. [Meer informatie](../advanced-settings/delivery-settings.md)
+1. Voor e-mailsjablonen kunt u bovendien geavanceerde instellingen, zoals typologische regels en doeltoewijzingen, gebruiken via de knop **[!UICONTROL Settings]** rechtsboven in het scherm. [Meer informatie](../advanced-settings/delivery-settings.md)
 
 1. Klik op de knop **[!UICONTROL Review]** om de sjabloon op te slaan en te bekijken. U kunt nog steeds alle instellingen bewerken, verwijderen en dupliceren.
 
 1. Test indien nodig de rendering van de sjabloon. [Meer informatie](#test-template)
 
-De nieuwe sjabloon wordt toegevoegd aan de [**Sjablonen** list](#access-manage-templates). U kunt deze nu selecteren wanneer u een nieuwe levering maakt.
+Het nieuwe malplaatje wordt toegevoegd aan de [**lijst van Malplaatjes** ](#access-manage-templates). U kunt deze nu selecteren wanneer u een nieuwe levering maakt.
 
 ## Een leveringssjabloon testen {#test-template}
 
 U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul is gemaakt of van bestaande inhoud. Volg de onderstaande stappen om dit te doen.
 
-1. Bladeren naar de **Sjablonen** door de **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** en selecteert u een sjabloon. [Meer informatie](#access-manage-templates)
+1. Blader naar het **lusje van Malplaatjes** door **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** menu en selecteer om het even welk malplaatje. [Meer informatie](#access-manage-templates)
 
-1. Klik op de knop **[!UICONTROL Simulate content]** op de rechterbovenhoek van het scherm.
+1. Klik op de knop **[!UICONTROL Simulate content]** rechtsboven in het scherm.
 
-   ![](assets/templates-simulate-button.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-simulate-button.png){zoomable="yes"}
 
-1. Selecteer een of meer testprofielen om de weergave van uw e-mail te controleren. U kunt ook echte profielen selecteren in uw database. [Meer informatie over testprofielen](../audience/test-profiles.md)
+1. Selecteer een of meer testprofielen om de weergave van uw e-mail te controleren. U kunt ook echte profielen selecteren in uw database. [ leer meer op testprofielen ](../audience/test-profiles.md)
 
 1. Schakel tussen de verschillende profielen om een persoonlijke weergave van het bericht te krijgen op basis van het geselecteerde profiel. U kunt ook het zoomniveau aanpassen en de weergave voor bureaublad of mobiel kiezen.
 
 [Meer informatie over het voorvertonen van inhoud](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png){zoomable=&quot;yes&quot;}
+   ![](assets/templates-stimulate.png){zoomable="yes"}
 
 1. Sluit het venster om terug te keren naar het scherm van de malplaatjeuitgave.
 
