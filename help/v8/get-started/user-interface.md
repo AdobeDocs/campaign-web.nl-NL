@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: aec10c169f4d8cd360b819d51b4fe1a5c4be4434
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1765'
 ht-degree: 1%
 
 ---
@@ -415,4 +415,59 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Pakketten"
 >abstract="Pakketten"
 
+<!--Schema-->
 
+>[!CONTEXTUALHELP]
+>id="acw_schema"
+>title="Schema"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_type"
+>title="Schematypen"
+>abstract="Schematypen"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_properties"
+>title="Schema-eigenschappen"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_existing"
+>title="Bestaand schema selecteren"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_external"
+>title="Externe database selecteren"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="Tabellen toevoegen"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_logs_tasks"
+>title="Workflowlogboeken en taken"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update"
+>title="Database bijwerken"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_update_script"
+>title="Script bijwerken"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_start_update"
+>title="Database-update starten"
+>abstract="Schema"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_add_tables"
+>title="Tabellen toevoegen"
+>abstract="Schema"
