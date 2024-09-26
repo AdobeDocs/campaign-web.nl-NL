@@ -1,21 +1,21 @@
 ---
 audience: end-user
-user-guide-title: Handleiding voor de goedkeuring van campagnes
+user-guide-title: Handleiding voor het gebruik van Campaign
 title: Adobe Campaign-handleiding voor adoptie
 user-guide-description: Gebruikers van Campaigns Standard die overstappen op Campagne v8 leren hoe ze aan de slag kunnen gaan.
 description: Gebruikers van Campaigns Standard leren hoe u aan de slag kunt met Campagne v8.
-breadcrumb-title: Handleiding voor de goedkeuring van campagnes
+breadcrumb-title: Handleiding voor het gebruik van Campaign
 source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
 
 # Adobe Campaign-handleiding voor adoptie {#acs-to-ac}
 
-+ [Handleiding voor de goedkeuring van campagnes](home.md)
++ [Handleiding voor het gebruik van Campaign](home.md)
 + [ van Standaard aan v8 ](get-started/overview.md)
 + [ krijgen begonnen voor Marketers ](get-started/marketers.md)
 + [ krijgen begonnen voor Admin/Ontwikkelaar ](get-started/admin-developers.md)
