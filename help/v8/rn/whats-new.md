@@ -3,9 +3,9 @@ audience: end-user
 title: Nieuw in de Gebruikersinterface van het Web van de Campagne
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 43a296fa8bf630a2a1183cd6d7eee1c5f38e4a80
+source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1317'
 ht-degree: 4%
 
 ---
@@ -72,6 +72,13 @@ Gebruik de nieuwe gebruikersinterface van het Web van de Campagne aan:
 * De monitor verzendt en meet resultaten met ingebouwde rapporten - [ leert meer ](../reporting/delivery-reports.md)
 
 
+**de generatie van de Inhoud met AI HulpVersneller van de Inhoud**
+
+Neem afscheid van het gedoe van het handmatig maken van inhoud en omarm een nieuw tijdperk van gestroomlijnde campagnes met onze innovatieve ontwerper van inhoud, aangedreven door Microsoft Azure OpenAI en Adobe Firefly.
+
+Definieer de levering van inhoud opnieuw met onze geavanceerde WYSIWYG-editor voor slepen en neerzetten, die ontworpen is voor eenvoud en efficiëntie. Dankzij de naadloze AEM integratie, dynamische inhoudmogelijkheden en de veranderende AI Assistant Content Accelerator zorgt deze alles-in-één tool voor het intuïtief, efficiënt en zeer gepersonaliseerd maken van de levering.
+
+Maak gebruik van de kracht van geavanceerde algoritmen van AI Assistant Content Accelerator om aantrekkelijke, op maat gemaakte inhoud te maken die resultaten aanstuurt. Verhoog uw open snelheden, klik-door, en omzettingen met intelligente, AI-gedreven inhoudsgeneratie. Lees meer in [deze sectie](../email/generative-gs.md).
 
 **Nieuwe en opnieuw ontworpen activiteiten van het campagnewerkschema**
 
