@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
+source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1683'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 >id="acw_orchestration_enrichment"
 >title="Verrijkingsactiviteit"
 >abstract="De **Verrijking** activiteit staat u toe om de gerichte gegevens met extra informatie van het gegevensbestand te verbeteren. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="Voorstel"
+>abstract="Voorstel"
 
 De **Verrijking** activiteit is a **richtend** activiteit. Hiermee kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten.
 
