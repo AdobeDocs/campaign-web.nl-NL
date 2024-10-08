@@ -2,13 +2,13 @@
 audience: end-user
 user-guide-title: Handleiding voor het gebruik van Campaign
 title: Adobe Campaign-handleiding voor adoptie
-user-guide-description: Gebruikers van Campaigns Standard die overstappen op Campagne v8 leren hoe ze aan de slag kunnen gaan.
+user-guide-description: Meer informatie voor gebruikers van Campaign Standard die overstappen naar Campaign v8 over hoe ze aan de slag kunnen.
 description: Gebruikers van Campaigns Standard leren hoe u aan de slag kunt met Campagne v8.
 breadcrumb-title: Handleiding voor het gebruik van Campaign
 source-git-commit: 485d8270e8b1a4bf92d2c1b9543ffa143bc2d2da
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 13%
+ht-degree: 31%
 
 ---
 
