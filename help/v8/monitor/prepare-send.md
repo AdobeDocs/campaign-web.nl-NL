@@ -3,7 +3,7 @@ audience: end-user
 title: Een e-mail voorbereiden en verzenden
 description: Leer hoe u een e-mail voorbereidt en verzendt met de gebruikersinterface van het Web voor campagne
 exl-id: 80c16d2d-2a31-48f1-a161-ee574ec24172
-source-git-commit: 94a75b6c7074101d3e505795b1519c15461655a3
+source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Wanneer u uw [ inhoud ](../email/edit-content.md), [ publiek ](../audience/add-a
 
 Tijdens de voorbereiding van de levering, wordt de doelbevolking berekend en de berichtinhoud geproduceerd voor elk profiel inbegrepen in het doel. Zodra de voorbereiding is voltooid, zijn de berichten klaar om te worden verzonden, of onmiddellijk of op de geplande datum en tijd.
 
-De bevestigingsregels die tijdens leveringsvoorbereiding worden gebruikt worden beschreven in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/send/emails/send.html) {target="_blank"}.
+De bevestigingsregels die tijdens leveringsvoorbereiding worden gebruikt worden beschreven in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html) {target="_blank"}.
 
 De belangrijkste stappen voor het voorbereiden van de verzending worden hieronder vermeld.
 

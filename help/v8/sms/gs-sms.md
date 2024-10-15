@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met SMS-berichten
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: 94a75b6c7074101d3e505795b1519c15461655a3
+source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 
 * **stand-alone leveringen**: Creeer individuele leveringen van SMS voor snelle en directe communicatie met uw klanten, zonder de behoefte aan werkschema&#39;s of campagnes.
 
-![](../assets/do-not-localize/book.png) Leer hoe te om het kanaal van SMS in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.corp.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html) te vormen {target="_blank"}.
+![](../assets/do-not-localize/book.png) Leer hoe te om het kanaal van SMS in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html) te vormen {target="_blank"}.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
