@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: Pushmelding met de AI Assistant voor versnelling van inhoud
-description: Aan de slag met de AI-assistent voor versnelling van inhoud
+title: Pushmelding met de AI Assistant Content Accelerator
+description: Aan de slag met de AI Assistant Content Accelerator
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '522'
 ht-degree: 2%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 2%
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in het Web van Adobe Campaign voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de AI HulpVersneller van de Inhoud in het Web van Adobe Campaign kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Met de AI-assistent voor versnelling van inhoud kunt u de impact van uw leveringen optimaliseren door andere inhoud voor te stellen die waarschijnlijk beter op uw publiek zal reageren.
+Met de AI Assistant Content Accelerator kunt u de impact van uw leveringen optimaliseren door verschillende inhoud voor te stellen die waarschijnlijk beter op uw publiek zal aansluiten.
 
 In het volgende voorbeeld, zullen wij hefboomwerking de AI medewerker aan ambachtelijk dwingend overseinen om een aansprekender klantenervaring tot stand te brengen.
 

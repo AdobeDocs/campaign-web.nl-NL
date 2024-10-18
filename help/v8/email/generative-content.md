@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Generatieve inhoud
-description: Aan de slag met de AI-assistent voor versnelling van inhoud
+description: Aan de slag met de AI Assistant Content Accelerator
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1437'
 ht-degree: 1%
 
 ---
@@ -17,20 +17,20 @@ ht-degree: 1%
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) {target="_blank"} akkoord gaan alvorens u de Medewerker AI in het Web van Adobe Campaign voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) {target="_blank"} akkoord gaan alvorens u de AI HulpVersneller van de Inhoud in het Web van Adobe Campaign kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 
-Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de AI Assistant in Adobe Campaign Web for Content Acceleration in Campaign, die wordt aangedreven door generatieve AI, om uw inhoud naar een hoger niveau te tillen.
+Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de AI Assistant Content Accelerator in Adobe Campaign Web in Campagne aangedreven door generatieve AI om uw inhoud naar het volgende niveau te brengen.
 
-Met de AI-assistent in Adobe Campaign Web for Content Acceleration kunt u de impact van uw leveringen optimaliseren door volledige e-mails, gerichte tekstinhoud en zelfs afbeeldingen te genereren die specifiek op maat van uw publiek zijn gemaakt. Hierdoor worden uw e-mailcampagnes geoptimaliseerd voor een betere betrokkenheid.
+Met de AI Assistant Content Accelerator in Adobe Campaign Web kunt u de impact van uw leveringen optimaliseren door volledige e-mails, doelgerichte tekstinhoud en zelfs afbeeldingen te genereren die specifiek op maat van uw publiek zijn gemaakt. Hierdoor worden uw e-mailcampagnes geoptimaliseerd voor een betere betrokkenheid.
 
-Met uw e-mailcampagnes kunt u de AI-assistent gebruiken om volledige e-mail, tekst of afbeeldingen te genereren. Verken de onderstaande tabbladen om te leren hoe u de AI-assistent in Adobe Campaign Web for Content Acceleration in Campaign kunt gebruiken.
+Met uw e-mailcampagnes kunt u de AI-assistent gebruiken om volledige e-mail, tekst of afbeeldingen te genereren. Verken de onderstaande tabbladen voor informatie over het gebruik van de AI Assistant Content Accelerator in Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB  Volledige e-mailgeneratie ]
 
-In het volgende voorbeeld gebruiken we de AI-assistent in Adobe Campaign Web for Content Acceleration om een bestaande e-mail te verfijnen en deze aan te passen voor een speciale gebeurtenis.
+In het volgende voorbeeld gebruiken we de AI Assistant Content Accelerator in Adobe Campaign Web om een bestaande e-mail te verfijnen en deze aan te passen voor een speciale gebeurtenis.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de e-maillevering hebt gemaakt en geconfigureerd.
 

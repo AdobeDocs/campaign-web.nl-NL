@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: SMS met de AI-assistent voor versnelling van inhoud
-description: Aan de slag met de AI-assistent voor versnelling van inhoud
+title: SMS met de AI Assistant Content Accelerator
+description: Aan de slag met de AI Assistant Content Accelerator
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 2%
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in het Web van Adobe Campaign voor de Versnelling van de Inhoud kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de AI HulpVersneller van de Inhoud in het Web van Adobe Campaign kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Als u eenmaal uw SMS-berichten hebt gemaakt en gepersonaliseerd voor uw publiek, brengt u uw communicatie naar het volgende niveau met behulp van de AI Assistant in Adobe Campaign Web for Content Acceleration in Campaign, aangedreven door innovatieve AI-technologie.
+Als u eenmaal uw SMS-berichten hebt gemaakt en gepersonaliseerd voor uw publiek, brengt u uw communicatie naar het volgende niveau met behulp van de AI Assistant Content Accelerator in Adobe Campaign Web, aangedreven door innovatieve AI-technologie.
 
 Dit handige gereedschap biedt intelligente suggesties voor het verfijnen van uw inhoud, zodat uw berichten op een effectieve manier reageren en uw betrokkenheid maximaliseren.
 
@@ -99,7 +99,7 @@ Wanneer u uw inhoud, publiek en planning hebt bepaald, bent u bereid om uw lever
 
    ![](assets/sms-text-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use reference content]** voor de AI-assistent voor versnelling van inhoud in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use reference content]** voor de AI Assistant Content Accelerator in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 

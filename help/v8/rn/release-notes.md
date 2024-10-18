@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: aea828da825a416dece6c4bee1da6d4e570e4e48
+source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '480'
 ht-degree: 13%
 
 ---
@@ -29,7 +29,7 @@ De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een onond
 <tbody>
 <tr>
 <td>
-<p>Als je bericht klaar en op maat gemaakt hebt, ga je naar het volgende niveau met de AI Assistant in Adobe Campaign Web for Content Acceleration. Met dit krachtige gereedschap kunt u de impact van uw inhoud optimaliseren door een reeks aansprekende tekst, hoofdtitels en visueel aantrekkelijke afbeeldingen te genereren.</p>
+<p>Als u eenmaal een bericht hebt gemaakt en op maat hebt gemaakt, gaat u naar het volgende niveau met de AI Assistant Content Accelerator in Adobe Campaign Web. Met dit krachtige gereedschap kunt u de impact van uw inhoud optimaliseren door een reeks aansprekende tekst, hoofdtitels en visueel aantrekkelijke afbeeldingen te genereren.</p>
 <p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
 <p>Raadpleeg de <a href="../email/generative-gs.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
