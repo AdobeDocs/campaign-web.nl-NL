@@ -3,9 +3,9 @@ title: Migratie van technische gebruikers naar Adobe Developer-console
 description: Leer hoe u het beheer van gebruikerstoegang kunt migreren van Campaign Standard naar Campagne V8
 feature: Technote
 role: Admin
-source-git-commit: 3e2fa429a57b967f156546ad6a4fedee8f871c25
+source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ De volgende concepten worden gebruikt in Adobe Campaign Standard en Campagne V8 
 
 >[!CAUTION]
 >
->De mogelijkheden van deze rollen/Benoemde rechten kunnen in implementatie variëren, wat machtigingsproblemen kan veroorzaken (bijvoorbeeld verhoging van bevoegdheden of functieonderbrekingen). Wij adviseren gebruikers om deze afbeeldingen na de overgang te herzien om behoorlijk toegangsbeheer te verzekeren. [ Leer meer op toestemmingen ](../../v8/start/manage-permissions.md)
+>De mogelijkheden van deze rollen/Benoemde rechten kunnen in implementatie variëren, wat machtigingsproblemen kan veroorzaken (bijvoorbeeld verhoging van bevoegdheden of functieonderbrekingen). Wij adviseren gebruikers om deze afbeeldingen na de overgang te herzien om behoorlijk toegangsbeheer te verzekeren. [ Leer meer op toestemmingen ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 De onderstaande tabel geeft een overzicht van de migratiebenadering voor gebruikersrolgroepen bij de overgang van Adobe Campaign Standard naar Campagne V8. In Campaign Standard, wordt de groep van de a **Veiligheid**, die als **wordt bedoeld groep van de Exploitant** in Campagne V8, gebruikt om een reeks rollen aan een gebruiker toe te wijzen. Terwijl sommige veiligheidsgroepen/exploitantgroepen uit-van-de-doos beschikbaar zijn, kunnen de gebruikers nieuwe groepen tot stand brengen of bestaande te wijzigen indien nodig.
 
@@ -35,7 +35,7 @@ De onderstaande tabel geeft een overzicht van de migratiebenadering voor gebruik
 |---------|----------|---------|
 | **Terminologie**  | Beveiligingsgroep | Operator Group |
 
-In zowel Adobe Campaign Standard als Campagne V8, **de groepen van de Veiligheid** en **groepen van de Exploitant** worden in kaart gebracht aan de profielen van het Product in de console Admin. Als u de groep van de a **Veiligheid** of **Exploitant** aan een gebruiker wilt toewijzen, kunt u het overeenkomstige **profiel van het Product** in de console Admin verbinden. Deze koppeling wordt gesynchroniseerd wanneer de gebruiker zich aanmeldt. [ leer meer op het profiel van het Product ](../../v8/start/manage-permissions.md)
+In zowel Adobe Campaign Standard als Campagne V8, **de groepen van de Veiligheid** en **groepen van de Exploitant** worden in kaart gebracht aan de profielen van het Product in de console Admin. Als u de groep van de a **Veiligheid** of **Exploitant** aan een gebruiker wilt toewijzen, kunt u het overeenkomstige **profiel van het Product** in de console Admin verbinden. Deze koppeling wordt gesynchroniseerd wanneer de gebruiker zich aanmeldt. [ leer meer op het profiel van het Product ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **de groep van de Veiligheid van het Campaign Standard** | **de groep van de Exploitant van de Campagne V8** |
 |----------|---------|
@@ -63,7 +63,7 @@ In Adobe Campaign Standard, wordt de termijn **rol van de Gebruiker** bedoeld al
 
 ## Migratieaanpak van de organisatie-eenheid
 
-In Adobe Campaign Standard, wordt de **organisatie uni** niet in kaart gebracht aan het bestaande **de hiërarchiemodel van de Omslag** in Campagne V8 om gelijkaardige toegangscontrole te handhaven. [ Leer meer op omslagbeheer ](../../v8/start/folder-permissions.md)
+In Adobe Campaign Standard, wordt de **organisatie uni** niet in kaart gebracht aan het bestaande **de hiërarchiemodel van de Omslag** in Campagne V8 om gelijkaardige toegangscontrole te handhaven. [ Leer meer op omslagbeheer ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campagne V8** |
 |---------|----------|---------|
@@ -73,7 +73,7 @@ In Adobe Campaign Standard, wordt de **organisatie uni** niet in kaart gebracht 
 
 In Campagne V8, **Programma&#39;s** worden vertegenwoordigd als **Omslagen**. Met campagne V8 kunnen mappen worden gemaakt en is de toegang tot deze mappen beperkt.
 
-Door **Groepen** en **Genoemde rechten** te gebruiken, **de Exploitanten** kunnen toegang tot specifieke **Omslagen** binnen de navigatiehiërarchie, met de capaciteit worden verleend om gelezen toe te wijzen, te schrijven en toestemmingen te schrappen. [ Leer meer op omslagbeheer ](../../v8/start/folder-permissions.md)
+Door **Groepen** en **Genoemde rechten** te gebruiken, **de Exploitanten** kunnen toegang tot specifieke **Omslagen** binnen de navigatiehiërarchie, met de capaciteit worden verleend om gelezen toe te wijzen, te schrijven en toestemmingen te schrappen. [ Leer meer op omslagbeheer ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 Aangezien a **Programma** als a **Omslag** in Campagne V8 wordt behandeld, kan zijn toegang op de zelfde manier zoals een andere omslag worden beheerd. Na de migratie kunnen beheerders van Campaigns Standard de volgende stappen uitvoeren:
 
