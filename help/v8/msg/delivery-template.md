@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Leveringssjablonen gebruiken
-description: Leer hoe te om leveringsmalplaatjes in het Web van de Campagne te creëren en te gebruiken
+description: Leer hoe je afleveringssjablonen maakt en gebruikt in Campaign Web
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
@@ -18,13 +18,13 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_for_campaign"
 >title="Afleveringssjablonen"
->abstract="Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om aangepaste inhoud en instellingen in al uw campagnes eenvoudig te hergebruiken. Met deze functie kunt u de creatieve vormgeving standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren."
+>abstract="Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om aangepaste inhoud en instellingen in al uw campagnes eenvoudig te hergebruiken. Met deze functionaliteit kunt u de creatieve vormgeving standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren."
 
-Voor een versneld en verbeterd ontwerpproces kunt u leveringssjablonen maken om aangepaste inhoud en instellingen in al uw campagnes eenvoudig te hergebruiken. Met deze functie kunt u de creatieve vormgeving standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren.
+Voor een versneld en verbeterd ontwerpproces, kun je leveringssjablonen maken om eenvoudig aangepaste content en instellingen te hergebruiken in al je campagnes. Met deze functionaliteit kunt u de creatieve vormgeving standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren.
 
 Een sjabloon kan het volgende bevatten:
 
-* De **omslag** en **uitvoeringsomslag** van het malplaatje. De map is de locatie waar de leveringssjabloon is opgeslagen. De uitvoeringsmap is de map waarin leveringen worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
+* De **omslag** en **uitvoeringsomslag** van het malplaatje. De map is de locatie waar de leveringssjabloon wordt opgeslagen. De uitvoeringsmap is de map waarin op basis van deze sjabloon gemaakte leveringen worden opgeslagen.
 * [ Typologies ](../advanced-settings/delivery-settings.md#typology),
 * Het adres van de afzender,
 * Een [ publiek ](../audience/about-recipients.md), met inbegrip van [ controlegroepen ](../audience/control-group.md),
@@ -92,17 +92,17 @@ Voer de onderstaande stappen uit om een leveringssjabloon te dupliceren:
 1. Blader naar het **lusje van Malplaatjes**, van het **Levert** linkermenu. [Meer informatie](#access-manage-templates)
 1. Klik op **[!UICONTROL More actions]** rechts van de gewenste sjabloonnaam en selecteer **[!UICONTROL Duplicate]** .
 
-   U kunt ook een sjabloon selecteren in de lijst en deze optie selecteren in het scherm Sjablooneditie.
+   U kunt ook een sjabloon in de lijst selecteren en deze optie selecteren in het scherm Sjablooneditie.
 
-1. Herhaal dit.
+1. Herhaal duplicatie.
 
    ![](assets/templates-duplicate-confirm.png){zoomable="yes"}
 
-1. Het nieuwe sjabloondashboard wordt in het centrale scherm geopend. Bewerk de sjablooninstellingen naar wens.
+1. Het nieuwe sjabloondashboard wordt in het centrale scherm geopend. Bewerk indien nodig de sjablooninstellingen.
 
    ![](assets/templates-duplicated-item.png){zoomable="yes"}
 
-1. Klik op de knop **[!UICONTROL Review]** om de sjabloon op te slaan en te bekijken. U kunt nog steeds alle instellingen bewerken, verwijderen en dupliceren.
+1. Klik op de knop **[!UICONTROL Review]** om uw sjabloon op te slaan en te bekijken. U kunt nog steeds alle instellingen bewerken, verwijderen en dupliceren.
 
    ![](assets/templates-review-screen.png){zoomable="yes"}
 
@@ -127,7 +127,7 @@ Volg onderstaande stappen om een levering als een sjabloon op te slaan:
 
 1. Het nieuwe sjabloondashboard wordt in het centrale scherm geopend. Bewerk de sjablooninstellingen naar wens.
 
-1. Klik op de knop **[!UICONTROL Review]** om de sjabloon op te slaan en te bekijken. U kunt nog steeds alle instellingen bewerken, verwijderen en dupliceren.
+1. Klik op de knop **[!UICONTROL Review]** om uw sjabloon op te slaan en te bekijken. U kunt nog steeds alle instellingen bewerken, verwijderen en dupliceren.
 
 1. Test indien nodig de rendering van de sjabloon. [Meer informatie](#test-template)
 
@@ -139,9 +139,9 @@ Het nieuwe malplaatje wordt toegevoegd aan de [**lijst van Malplaatjes** ](#acce
 >
 >Om configuratiefouten te vermijden, adviseert de Adobe dat u [ een ingebouwd malplaatje ](#copy-an-existing-template) dupliceert en zijn eigenschappen eerder dan tot een nieuw malplaatje leidt.
 
-Voer de onderstaande stappen uit om een volledig nieuwe leveringssjabloon te configureren:
+Volg onderstaande stappen om een leveringssjabloon helemaal zelf te configureren:
 
-1. Blader naar het **lusje van Malplaatjes**, van het **Levert** linkermenu. [Meer informatie](#access-manage-templates)
+1. Blader naar het **lusje van Malplaatjes**, van **levert** linkermenu. [Meer informatie](#access-manage-templates)
 1. Klik op de knop **[!UICONTROL Create template]**.
 
    ![](assets/templates-create-button.png){zoomable="yes"}

@@ -52,7 +52,7 @@ In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens 
 
 ![](assets/campaign_report_email_2.png){zoomable="yes"}
 
-+++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
++++ Meer informatie over rapportcijfers voor e-mailcampagnes.
 
 * **[!UICONTROL Initial audience]**: het totale aantal beoogde ontvangers.
 
@@ -67,13 +67,13 @@ In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_email_exec_stats"
 >title="Uitvoeringsstatistieken"
->abstract="De **statistieken van de Uitvoering** lijst specificeert het succes van uw levering: berichten om te leveren, succes, fouten, en nieuwe quarantines."
+>abstract="De **lijst van de statistiek van de Uitvoering** specificeert het succes van uw levering: te leveren berichten, succes, fouten, en nieuwe quarantines."
 
-In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol de levering is. De cijfers worden hieronder beschreven.
+In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol uw levering is. De cijfers worden hieronder beschreven.
 
 ![](assets/campaign_report_email_3.png){zoomable="yes"}
 
-+++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
++++ Meer informatie over rapportcijfers voor e-mailcampagnes.
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -170,9 +170,9 @@ De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_error_domain"
 >title="Uitsplitsing van fouten per domein"
->abstract="De **Uitsplitsing van fouten per domein** lijst en grafiek tonen de beschikbare gegevens voor elk die foutentype afhankelijk van elk domein wordt ontmoet."
+>abstract="De **Uitsplitsing van fouten per domein** lijst en grafiek tonen de beschikbare gegevens voor elk gevonden foutentype afhankelijk van elk domein."
 
-De tabel en grafiek van **[!UICONTROL Breakdown of errors per domain]** bevatten de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen. Metrische gegevens komen veel voor in de tabel **[!UICONTROL Breakdown of errors per type]** en de grafiek die hierboven is beschreven.
+De tabel en grafiek van **[!UICONTROL Breakdown of errors per domain]** bevatten de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen. De metriek komen veel voor in de tabel en grafiek van **[!UICONTROL Breakdown of errors per type]** die hierboven worden beschreven.
 
 ## Trackingsindicatoren {#tracking-indicators-email}
 
@@ -187,11 +187,11 @@ De metriek van **[!UICONTROL Delivery statistics]** verstrekt zeer belangrijke p
 
 ![](assets/campaign_report_email_7.png){zoomable="yes"}
 
-+++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
++++ Meer informatie over rapportcijfers voor e-mailcampagnes.
 
 * **[!UICONTROL Message(s) to deliver]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL Unique opens]**: Het totale aantal ontvangers waarvoor een bericht is geopend, ten minste één keer.
+* **[!UICONTROL Unique opens]**: het totale aantal beoogde ontvangers dat een bericht ten minste één keer heeft geopend.
 
 * **[!UICONTROL Total Opens]**: aantal verschillende beoogde ontvangers voor dit domein die een bericht minstens één keer hebben geopend.
 
@@ -199,7 +199,7 @@ De metriek van **[!UICONTROL Delivery statistics]** verstrekt zeer belangrijke p
 
 * **[!UICONTROL Clicks on the mirror link]**: Het aantal klikken op de koppeling naar de spiegelpagina.
 
-* **[!UICONTROL Estimation of forwards]**: schatting van het aantal e-mails dat door de beoogde ontvangers is doorgestuurd.
+* **[!UICONTROL Estimation of forwards]**: schatting van het aantal e-mails dat door de ontvangers aan wie is gericht, is doorgestuurd.
 +++
 
 ### Openen en klikken op dalingssnelheid {#delivery-summary-open-rate}
@@ -207,7 +207,7 @@ De metriek van **[!UICONTROL Delivery statistics]** verstrekt zeer belangrijke p
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_open_clickthrough"
 >title="Open- en doorklikfrequentie"
->abstract="De **Open en klik-door tarief** lijst toont gegevens met betrekking tot uw ontvangers overeenkomst met uw levering."
+>abstract="De **Open en klik-door tarief** lijst toont gegevens met betrekking tot uw ontvangersbetrokkenheid met uw levering."
 
 In de tabel **[!UICONTROL Open and click-trough rate]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De cijfers worden hieronder beschreven.
 
@@ -232,7 +232,7 @@ In de tabel **[!UICONTROL Open and click-trough rate]** worden gegevens weergege
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_urls_clickstreams"
 >title="URL&#39;s en klikpaden"
->abstract="**URLs en klik stromen** rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt."
+>abstract="Het **URLs en klik stromen** rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over URLs geven die het meest tijdens een levering werden geklikt."
 
 Het rapport **[!UICONTROL URLs and click streams]** bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de URL&#39;s waarop het meest is geklikt tijdens een levering. De cijfers worden hieronder beschreven.
 
@@ -240,13 +240,13 @@ Het rapport **[!UICONTROL URLs and click streams]** bevat prestatie-indicatoren 
 
 +++ Meer weten over de maatstaven van het e-mailcampagnerapport?
 
-* **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
+* **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat in een levering heeft geklikt, ten opzichte van het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
-* **[!UICONTROL Unique clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer in een levering heeft geklikt.
+* **[!UICONTROL Unique clicks]**: het totale aantal afzonderlijke ontvangers dat ten minste één keer op een levering heeft geklikt.
 
 * **[!UICONTROL Total Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-* **[!UICONTROL Platform average]**: Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die over de voorafgaande zes maanden worden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
+* **[!UICONTROL Platform average]**: Dit gemiddelde percentage, weergegeven bij elke frequentie (reactiviteit, verschillende klikken en gecumuleerde klikken), wordt berekend voor leveringen die in de loop van de voorgaande zes maanden zijn verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proofs zijn uitgesloten.
 
 +++
 

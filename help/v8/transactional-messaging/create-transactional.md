@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Transactionele berichten maken
-description: Meer informatie over het maken van een transactioneel bericht in de Campaign WebGebruikersinterface
+title: Transactieberichten maken
+description: Leer hoe te om een transactiebericht in het Gebruikersinterface van het Web van de Campagne tot stand te brengen
 source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
 workflow-type: tm+mt
 source-wordcount: '1131'
@@ -9,16 +9,16 @@ ht-degree: 0%
 
 ---
 
-# Transactionele berichten maken
+# Transactieberichten maken
 
 In transactioneel overseinen, brengt een gebeurtenis het verzenden van een gepersonaliseerd bericht teweeg.
-Om dit mogelijk te maken, moet u een berichtsjabloon maken voor elk gebeurtenistype. Deze sjablonen bevatten alle benodigde informatie voor het aanpassen van het transactiebericht.
+Om dit toe te laten, moet u een berichtmalplaatje voor elk gebeurtenistype tot stand brengen. Deze sjablonen bevatten alle benodigde informatie voor het aanpassen van het transactiebericht.
 
-## Een transactionele berichtsjabloon maken {#transactional-template}
+## Een sjabloon voor een transactiebericht maken {#transactional-template}
 
-In de Webgebruikersinterface van Campaign bestaat de eerste stap in de configuratie van transactionele berichten uit het maken van de sjabloon of het direct maken van het bericht. Dit verschilt met [de configuratie van transactionele berichten in de clientconsole](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
+In het Gebruikersinterface van het Web van de Campagne, is de eerste stap in transactie overseinenconfiguratie de verwezenlijking van het malplaatje of de directe verwezenlijking van het bericht. Dit verschilt met [ de configuratie van transactionele berichten op cliëntconsole ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
 
-Een transactionele berichtsjabloon kan worden gebruikt om een voorvertoning te bekijken van de leveringsinhoud die door het profiel is ontvangen voordat het de uiteindelijke doelgroep bereikt. Bijvoorbeeld, kan een beheerder opstelling en de malplaatjes vormen, die hen voor gebruik door marketing gebruikers klaar maken.
+Een transactiemalplaatje van het bericht kan worden gebruikt om voorproef de leveringsinhoud die door het profiel wordt ontvangen alvorens het het definitieve publiek bereikt. Bijvoorbeeld, kan een beheerder opstelling en de malplaatjes vormen, die hen voor gebruik door marketing gebruikers klaar maken.
 
 Voer de onderstaande stappen uit om een transactiemalplaatje te maken:
 
@@ -88,14 +88,14 @@ Als u op het onderzoekspictogram klikt, opent u de mobiele toepassing die in uw 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_context"
 >title="Transactionele berichtcontext"
->abstract="Met de contextvoorbeeld kunt u een testgebeurtenis maken om een voorvertoning te bekijken van het transactionele bericht dat met de profiel personalisatie is ontvangen."
+>abstract="In het contextvoorbeeld kunt u een testgebeurtenis maken om een voorvertoning weer te geven van het transactiebericht dat met de profielpersonalisatie is ontvangen."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_addcontext"
->title="Context van transactionele berichten"
->abstract="Met de contextvoorbeeld kunt u een testgebeurtenis maken om een voorvertoning te bekijken van het transactionele bericht dat met de profiel personalisatie is ontvangen. "
+>title="Transactionele berichtcontext"
+>abstract="In het contextvoorbeeld kunt u een testgebeurtenis maken om een voorvertoning weer te geven van het transactiebericht dat met de profielpersonalisatie is ontvangen. "
 
-Met de contextvoorbeeld kunt u een testgebeurtenis maken om een voorvertoning te bekijken van het transactionele bericht dat met de profiel personalisatie is ontvangen.
+In het contextvoorbeeld kunt u een testgebeurtenis maken om een voorvertoning weer te geven van het transactiebericht dat met de profielpersonalisatie is ontvangen.
 
 Deze stap is optioneel. U kunt de sjabloon zonder het contextvoorbeeld gebruiken, maar het nadeel is dat u geen voorvertoning van de gepersonaliseerde inhoud kunt weergeven.
 
@@ -126,31 +126,31 @@ Als u de personalisatie in de inhoud wilt toevoegen, klikt u op de sectie waaraa
 ![](assets/template-perso.png){zoomable="yes"}
 
 U hebt toegang tot het venster **[!UICONTROL Edit personalisation]** .
-Klik op het pictogram **[!UICONTROL Event context]** om de variabelen van de triggergebeurtenis toe te voegen. U kunt navigeren in de context die u voor uw sjabloon hebt gedefinieerd ([meer informatie over de context](#context-sample)) en op de **[!UICONTROL +]** knop klikken om de benodigde variabele in te voegen.
+Klik op het pictogram **[!UICONTROL Event context]** om de variabelen van de triggergebeurtenis toe te voegen. U kunt de context navigeren u voor uw malplaatje ([ creeert meer over de context ](#context-sample)), en klikt op de **[!UICONTROL +]** knoop om nodig variabele op te nemen.
 
-In de onderstaande afbeelding ziet u hoe u de personnalisatie van de voornaam toevoegt.
+In de onderstaande afbeelding ziet u hoe u de personalisatie van de voornaam kunt toevoegen.
 
 ![](assets/template-firstname.png){zoomable="yes"}
 
-In ons voorbeeld voegen we eerst de voornaam en daarna de achternaam toe en vervolgens de **[!UICONTROL Reset your password]** knopkoppeling.
+In ons voorbeeld voegen we de voornaam en vervolgens de achternaam toe en personaliseren we de knopkoppeling **[!UICONTROL Reset your password]** .
 
 ![](assets/template-button.png){zoomable="yes"}
 
-### Een voorvertoning van uw sjabloon bekijken
+### Een voorbeeld van een sjabloon bekijken
 
-In dit stadium van het maken van de sjabloon kunt u een voorvertoning van de sjablooninhoud bekijken en de personalisatie controleren.
+In deze fase van het maken van de sjabloon is het verstandig een voorvertoning van de sjablooninhoud weer te geven en de personalisatie te controleren.
 
-Vul hiervoor het [contextvoorbeeld](#context-sample) in en klik op **[!UICONTROL Simulate content]** de knop.
+Om dit te doen, vul in de [ contextsteekproef ](#context-sample), en klik op **[!UICONTROL Simulate content]** knoop.
 
 ![](assets/template-preview.png){zoomable="yes"}
 
 ## Een transactiebericht maken {#transactional-message}
 
-U kunt rechtstreeks een transactioneel bericht maken of door een transactionele berichtsjabloon te gebruiken. [Leer hoe u een transactionele berichtsjabloon maakt](#transactional-template).
+U kunt een transactiemelding direct tot stand brengen of door een transactiemalplaatje van het berichtbericht te gebruiken. [ Leer hoe te om een transactionele berichtmalplaatje ](#transactional-template) tot stand te brengen.
 
-Voer de onderstaande stappen uit om een transactioneel bericht te maken:
+Voer de onderstaande stappen uit om een transactiebericht te maken:
 
-* Ga in de **[!UICONTROL Triggered messages]** sectie naar **[!UICONTROL Transactional messages]**. Op het **[!UICONTROL Browse]** tabblad ziet u alle transactionele berichten die zijn gemaakt. Klik op de **[!UICONTROL Create transactional message]** knop om uw bericht te maken.
+* Ga in de sectie **[!UICONTROL Triggered messages]** naar **[!UICONTROL Transactional messages]** . Op het tabblad **[!UICONTROL Browse]** kunt u alle gemaakte transactiemeldingen zien. Klik op de knop **[!UICONTROL Create transactional message]** om het bericht te maken.
 
   ![](assets/transactional-browse.png){zoomable="yes"}
 

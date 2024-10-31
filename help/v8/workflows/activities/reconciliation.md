@@ -29,12 +29,12 @@ ht-degree: 10%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_complement"
->title="Afstemming genereren"
->abstract="Afstemming genereren"
+>title="Verzoening genereert complementariteit"
+>abstract="Verzoening genereert complementariteit"
 
-De **Verzoening** activiteit is a **richtend** activiteit die u toestaat om het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen.
+De **Verzoening** activiteit is a **het Targeting** activiteit die u toestaat om het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst te bepalen, bijvoorbeeld gegevens die van een extern dossier worden geladen.
 
-Bijvoorbeeld, kan de **Verzoening** activiteit na a **dossier** activiteit van de Lading worden geplaatst om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval, laat de **Verzoening** activiteit u het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in de het werklijst bepalen.
+Bijvoorbeeld, kan de **Verzoening** activiteit worden geplaatst na het dossier van de a **Lading** activiteit om niet-standaardgegevens in het gegevensbestand in te voeren. In dit geval, laat de **Verzoening** activiteit u het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in de het werklijst bepalen.
 
 ## Best practices {#reconciliation-best-practices}
 
@@ -65,22 +65,22 @@ Terwijl de **Verrijking** activiteit u toestaat om extra gegevens te bepalen in 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_keep_unreconciled_data"
 >title="Niet-compatibele gegevens behouden"
->abstract="Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de uitgaande overgang en beschikbaar in de werklijst voor toekomstig gebruik. Om onverenigde gegevens te verwijderen, desactiveer **houden unconiled gegevens** optie."
+>abstract="Standaard worden niet-compatibele gegevens bewaard in de uitgaande overgang en beschikbaar in de werktabel voor toekomstig gebruik. Om unconiled gegevens te verwijderen, desactiveer **houden onverzoende gegevens** optie."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_reconciliation_attribute"
 >title="Afstemmingskenmerk"
->abstract="Selecteer het kenmerk dat u wilt gebruiken om gegevens op elkaar af te stemmen en klik op Bevestigen."
+>abstract="Selecteer het kenmerk dat u wilt gebruiken om de gegevens op elkaar af te stemmen en klik op Bevestigen."
 
 Volg deze stappen om de **Verzoening** activiteit te vormen:
 
-1. Voeg a **Verzoening** activiteit in uw werkschema toe. Deze activiteit moet worden toegevoegd na een overgang met een populatie waarvan de doeldimensie niet rechtstreeks uit Adobe Campaign afkomstig is.
+1. Voeg a **Verzoening** activiteit in uw werkschema toe. Deze activiteit moet worden toegevoegd na een overgang met een populatie waarvan de targetingdimensie niet rechtstreeks uit Adobe Campaign afkomstig is.
 
 1. Selecteer de nieuwe doeldimensie. Met een dimensie kunt u de doelgroep definiëren: ontvangers, abonnees van apps, operators, abonnees, enzovoort. [ Leer meer over het richten van dimensies ](../../audience/about-recipients.md#targeting-dimensions).
 
 1. Selecteer de velden die u wilt gebruiken voor de afstemming. U kunt een of meer verzoeningscriteria gebruiken.
 
-   1. Om attributen te gebruiken om gegevens te combineren, selecteer de **Eenvoudige attributen** optie. Het **Source** gebied maakt een lijst van de gebieden beschikbaar in de inputovergang, die moeten worden in overeenstemming gebracht. Het **gebied van de Bestemming** beantwoordt aan de gebieden van geselecteerde het richten afmeting. De gegevens worden in overeenstemming gebracht wanneer bron en bestemming gelijk zijn. Bijvoorbeeld, selecteer de **E-mail** gebieden om profielen te dedupliceren die op hun e-mailadres worden gebaseerd.
+   1. Om attributen te gebruiken om gegevens te combineren, selecteer de **Eenvoudige attributen** optie. Het **Bron** gebied maakt een lijst van de gebieden beschikbaar in de inputovergang, die moeten worden in overeenstemming gebracht. Het **gebied van de Bestemming** beantwoordt aan de gebieden van geselecteerde het richten afmeting. De gegevens worden in overeenstemming gebracht wanneer bron en bestemming gelijk zijn. Bijvoorbeeld, selecteer de **E-mail** gebieden om profielen te dedupliceren die op hun e-mailadres worden gebaseerd.
 
       Om andere verzoeningscriteria toe te voegen, klik **regel** toevoegen knoop. Als er meerdere samenvoegvoorwaarden zijn opgegeven, moeten deze ALLES worden gecontroleerd zodat de gegevens aan elkaar kunnen worden gekoppeld.
 
@@ -88,9 +88,9 @@ Volg deze stappen om de **Verzoening** activiteit te vormen:
 
    1. Om andere attributen te gebruiken om gegevens te combineren, selecteer de **Geavanceerde verzoeningsvoorwaarden** optie. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken.
 
-1. U kunt gegevens filtreren om het gebruiken van te verzoenen **creeer filterknoop**. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
+1. U kunt gegevens filtreren om het gebruiken van te verzoenen **creeer filterknoop**. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie. [ Leer hoe te met de vraagmodeler ](../../query/query-modeler-overview.md) te werken
 
-Door gebrek, worden de niet in overeenstemming gebrachte gegevens gehouden in de uitgaande overgang en beschikbaar in de werkbare lijst voor toekomstig gebruik. Om onverenigde gegevens te verwijderen, desactiveer **houden unconiled gegevens** optie.
+Standaard worden niet-verzochte gegevens bewaard in de uitgaande overgang en beschikbaar in de werkbare tabel voor toekomstig gebruik. Om unconiled gegevens te verwijderen, desactiveer **houden onverzoende gegevens** optie.
 
 ## Voorbeeld {#reconciliation-example}
 

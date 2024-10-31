@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 662d350a8c7e998db474873bed78204ce1f6d909
+source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '2010'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,6 @@ ht-degree: 1%
 De nieuwe Adobe Campaign Web-interface biedt een moderne en intuïtieve gebruikerservaring om het ontwerpen en leveren van marketingcampagnes te vereenvoudigen. Deze nieuwe interface is geïntegreerd met Adobe Experience Cloud-toepassingen en -oplossingen.
 
 Leer hoe te om met Adobe Campaign te verbinden en de de navigatie van het Experience Cloud te ontdekken grondbeginselen [ in dit artikel ](connect-to-campaign.md).
-
 
 >[!NOTE]
 >
@@ -40,6 +39,46 @@ De **lijst van Recenten** verstrekt kortere weg aan onlangs gecreeerde en gewijz
 
 Bovendien kunt u tot de belangrijkste de hulppagina&#39;s van het Web van Adobe Campaign van de **het Leren** sectie van de pagina toegang hebben.
 
+### Over koppeling {#user-interface-about}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_about"
+>title="Pagina"
+>abstract="De pagina Info bevat informatie over je Adobe Campaign-exemplaar"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_instance"
+>title="Informatie over instantie"
+>abstract="De sectie van de Instantie verstrekt zeer belangrijke informatie over uw consolecliënt, met inbegrip van zowel de versie als het bijbehorende bouwstijlaantal"
+
+>[!CONTEXTUALHELP]
+>id="acw_about_web"
+>title="Info over Web"
+>abstract="De sectie van het Web toont de versie van uw gebruikersinterface van het Web van de Campagne, met de laatste updatedatum van het, als beschikbaar."
+
+>[!CONTEXTUALHELP]
+>id="acw_about_packages"
+>title="Informatie over geïnstalleerde pakketten"
+>abstract="De sectie Geïnstalleerde pakketten bevat een overzicht van alle modules, functies en integratie die op uw exemplaar aanwezig zijn."
+
+Onder aan de pagina vindt u de koppeling **[!UICONTROL About]** met informatie over uw Adobe Campaign-exemplaar. deze informatie bevindt zich in de alleen-lezen modus.
+
+![](assets/about-link.png){zoomable="yes"}
+
+De **sectie van de Instantie** verstrekt zeer belangrijke informatie over uw consolecliënt, met inbegrip van zowel de **versie** en het bijbehorende **bouwt** aantal.
+
+* De **versie** verwijst naar de officiële versie u gebruikt,
+* **bouwt** verwijst naar een specifieke herhaling van die versie.
+
+Zowel versie als bouwstijlaantallen zijn essentieel voor het oplossen van problemen, aangezien zij helpen precies bepalen welke eigenschappen en moeilijke situaties in uw milieu aanwezig zijn.
+
+De **sectie van het Web** {toont de versie van uw gebruikersinterface van het Web van de Campagne, met de laatste updatedatum van het, als beschikbaar. Dit helpt veranderingen of verbeteringen volgen die aan het de gebruikersinterface van het Web van de Campagne worden aangebracht.
+
+De **Geïnstalleerde pakketten** sectie maakt een lijst van alle modules, eigenschappen en integratie die op uw instantie aanwezig zijn. Deze pakketten breiden de functionaliteit van Adobe Campaign uit, die het toestaat om gespecialiseerde taken uit te voeren zoals het integreren met andere oplossingen van de Adobe of het toelaten van specifieke werkschema&#39;s. Gezien het grote aantal pakketten, kunt u onderzoek binnen deze sectie doen om snel te controleren of een bepaalde module op uw instantie geïnstalleerd is.
+
+![](assets/about.png){zoomable="yes"}
+
 ## Linkernavigatiemenu {#user-interface-left-nav}
 
 Blader links naar de links om toegang te krijgen tot Adobe Campaign Web-mogelijkheden. Met verschillende koppelingen worden lijsten weergegeven met objecten die kunnen worden gesorteerd en gefilterd. U kunt kolommen ook vormen om alle informatie te tonen u wenst. Zie deze [ sectie ](#list-screens). Sommige lijstschermen zijn alleen-lezen. Welke items in het navigatiemenu links en in de lijsten worden weergegeven, is afhankelijk van uw gebruikersmachtigingen. Leer meer over toestemmingen in [ deze sectie ](permissions.md).
@@ -56,7 +95,7 @@ Het **menu van de Ontdekkingsreiziger** toont alle middelen en voorwerpen van de
 
 De punten die in **worden getoond Verkenner** hangen van uw gebruikerstoestemmingen af. U kunt ook mappen en submappen toevoegen als u de juiste rechten hebt. Leer meer over toestemmingen in [ deze sectie ](permissions.md).
 
-U kunt kolommen vormen om de vertoning aan te passen om alle informatie te bekijken u wenst. Zie deze [ sectie ](#list-screens). U kunt omslagen en sub-omslagen, zoals die in [ worden gedetailleerd ook toevoegen deze sectie ](permissions.md#folders).
+U kunt kolommen configureren om de weergave aan te passen en alle informatie weer te geven die u nodig hebt. Zie dit [ sectie ](#list-screens). U kunt omslagen en sub-omslagen, zoals die in [ worden gedetailleerd ook toevoegen deze sectie ](permissions.md#folders).
 
 Voor meer informatie over de ontdekkingsreiziger van de Campagne, omslaghiërarchie en middelen, verwijs naar deze [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui) {target="_blank"}.
 
@@ -64,9 +103,9 @@ Voor meer informatie over de ontdekkingsreiziger van de Campagne, omslaghiërarc
 
 In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, leveringen en workflows.
 
-* **Campagnes** - dit is de lijst van uw campagnes, en campagnemalplaatjes. Standaard kunt u voor elke campagne de begin-/einddatum/aanmaakdatum/laatste wijzigingsdatum, de huidige status en de naam weergeven van de Campagneoperator die de campagne heeft gemaakt. U kunt de lijst filteren op status, begin-/einddatums, map of een geavanceerd filter maken om uw eigen filtercriteria te definiëren. Leer meer over campagnes [ in deze sectie ](../campaigns/gs-campaigns.md).
+* **Campagnes** - dit is de lijst van uw campagnes, en campagnesjablonen. Standaard kunt u voor elke campagne de begin-/einddatum/aanmaakdatum/laatste wijzigingsdatum, de huidige status en de naam weergeven van de campagneoperator die de campagne heeft gemaakt. U kunt de lijst filteren op status, begin-/einddatums, map of u kunt een geavanceerd filter maken om uw eigen filtercriteria te definiëren. Leer meer over campagnes [ in deze sectie ](../campaigns/gs-campaigns.md).
 
-* **Leveringen** - doorblader door uw lijst van leveringen. Door gebrek, kunt u hun staat, laatste wijzigingsdatum evenals zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-maillevering om het dashboard te openen voor een overzicht van de leveringsgegevens. Leveringen op andere kanalen zijn alleen-lezen. Leer meer over leveringen [ in deze sectie ](../msg/gs-messages.md).
+* **Leveringen** - doorblader door uw lijst van leveringen. Standaard kunt u hun status, laatste wijzigingsdatum en belangrijke KPI&#39;s bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-mailbezorging om het dashboard te openen voor een overzicht van de leveringsgegevens. Leveringen op andere kanalen zijn alleen-lezen. Leer meer over leveringen [ in deze sectie ](../msg/gs-messages.md).
 
   Gebruik **Meer acties** knoop om een levering te schrappen of te dupliceren.
 
@@ -113,6 +152,17 @@ Leer om aanbiedingen in e-mail en SMS in [ tot stand te brengen en te verzenden 
 
 * **Rapporten** - de **ingang van het Rapport** biedt een geconsolideerde algemene samenvatting van verkeer en betrokkenheidsmetriek voor elk kanaal binnen uw milieu van de Campagne aan. Deze rapporten bestaan uit verschillende widgets, die elk een duidelijk perspectief bieden op uw campagne of leveringsprestaties. Lees meer in [deze sectie](../reporting/global-reports.md).
 
+### Beheer {#left-nav-admin}
+
+
+* **spoor van de Controle** - de **spoor van de Controle** ingang voorziet gebruikers van volledige zicht in alle wijzigingen die aan belangrijke entiteiten binnen uw instantie worden aangebracht, typisch die die een vlotte verrichting van de instantie beduidend beïnvloeden. [Meer informatie](../reporting/audit-trail.md)
+
+* **Externe rekeningen** - creeer nieuwe externe rekeningen gebruikend het Gebruikersinterface van het Web om aan uw specifieke behoeften te voldoen en naadloze gegevensoverdrachten te verzekeren. [Meer informatie](../administration/external-account.md)
+
+* **Schema&#39;s** - de gebieden van de Douane zijn extra attributen die aan uit-van-de-doosschema&#39;s door de console van Adobe Campaign worden toegevoegd. [Meer informatie](../administration/custom-fields.md)
+
+* **het Alarm van de Levering** - het Alarm van de Levering is een waakzaam beheersysteem dat groepen gebruikers toelaat om e-mailberichten met informatie over hun levering automatisch te ontvangen uitvoeren. [Meer informatie](../msg/delivery-alerting.md)
+
 <!--
 ## Contextual Help {#user-interface-help} 
 
@@ -156,8 +206,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
->title="Globale rapporten verzenden"
->abstract="Metrische gegevens voor het bijhouden van rapporten zijn zichtbaar in dit scherm"
+>title="Algemene rapporten verzenden"
+>abstract="Rapportcijfers bijhouden is zichtbaar in dit scherm"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
@@ -184,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
->title="Selectie van abonnementen voor ontvangers"
->abstract="Selectie van abonnementen voor ontvangers"
+>title="Selectie van abonnementen ontvangers"
+>abstract="Selectie van abonnementen ontvangers"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
->title="Ontvangers bieden kwalificerende lijst aan"
+>title="Ontvangers bieden in aanmerking komende lijst aan"
 >abstract="Ontvangers bieden kwalificerende lijst aan"
 
 >[!CONTEXTUALHELP]
@@ -321,100 +371,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 
 
-<!-- transac messages-->
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages"
->title="Transactioneel overseinen"
->abstract="Transactioneel overseinen"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_properties"
->title="Eigenschappen voor Transactieberichten"
->abstract="Eigenschappen voor Transactieberichten"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_email_properties"
->title="E-maileigenschappen voor Transactieberichten"
->abstract="E-maileigenschappen voor Transactieberichten"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_sms_properties"
->title="SMS-eigenschappen voor transactief berichtenverkeer"
->abstract="SMS-eigenschappen voor transactief berichtenverkeer"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_push_properties"
->title="De Transactionele eigenschappen van de Duw van het Overseinen"
->abstract="De Transactionele eigenschappen van de Duw van het Overseinen"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_mobileapp"
->title="Transactieberichten voor mobiele apps"
->abstract="Transactieberichten voor mobiele apps"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_event"
->title="Transactionele berichtengebeurtenis"
->abstract="Transactionele berichtengebeurtenis"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_context"
->title="Transactionele berichtcontext"
->abstract="Transactionele berichtcontext"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_content"
->title="Transactionele berichteninhoud"
->abstract="Transactionele berichteninhoud"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_personalization"
->title="Transactionele aanpassing van het Overseinen"
->abstract="Transactionele aanpassing van het Overseinen"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_exclusionlogs"
->title="Transactionele berichtenuitsluitingslogboeken"
->abstract="Transactionele berichtenuitsluitingslogboeken"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_addcontext"
->title="Transactionele berichtcontext"
->abstract="Transactionele berichtcontext"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory"
->title="Historie van gebeurtenissen voor Transactieberichten"
->abstract="Historie van gebeurtenissen voor Transactieberichten"
-
->[!CONTEXTUALHELP]
->id="acw_transacmessages_eventhistory_preview"
->title="Voorvertoning van de historie van de gebeurtenis Transactiebericht"
->abstract="Voorvertoning van de historie van de gebeurtenis Transactiebericht"
-
-<!--about-->
-
->[!CONTEXTUALHELP]
->id="acw_about"
->title="Info"
->abstract="Info"
-
->[!CONTEXTUALHELP]
->id="acw_about_instance"
->title="Informatie over instantie"
->abstract="Informatie over instantie"
-
->[!CONTEXTUALHELP]
->id="acw_about_web"
->title="Info over web"
->abstract="Info over web"
-
->[!CONTEXTUALHELP]
->id="acw_about_packages"
->title="Pakketten"
->abstract="Pakketten"
-
 <!--Schema-->
 
 >[!CONTEXTUALHELP]
@@ -449,7 +405,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_logs_tasks"
->title="Workflowlogboeken en taken"
+>title="Workflowlogboeken en -taken"
 >abstract="Schema"
 
 >[!CONTEXTUALHELP]

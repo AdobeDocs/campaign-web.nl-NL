@@ -24,7 +24,7 @@ ht-degree: 1%
 >title="Eigenschappen van push-levering"
 >abstract="Definieer de eigenschappen voor het leveren van de push. Ga het etiket van de duw in en gebruik **Extra Opties** om de interne naam, de leveringsomslag en de code te vormen. U kunt ook een aangepaste beschrijving invoeren."
 
-U kunt een zelfstandige levering van pushberichten maken of een pushmelding maken in de context van een campagneworkflow. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) pushlevering. Als u in de context van een campagnewerkschema werkt, zijn de aanmaakstappen details in [ deze sectie ](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+U kunt een zelfstandige pushmelding maken of een pushmelding maken in de context van een campagneworkflow. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) pushlevering. Als u in de context van een campagnewerkschema werkt, zijn de aanmaakstappen details in [ deze sectie ](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 ## Een pushbericht maken {#create-push-delivery}
 
@@ -48,7 +48,7 @@ Configureer uw leveringsinstellingen zoals hieronder beschreven:
 
    +++Configureer de volgende instellingen op basis van uw vereisten.
    * **[!UICONTROL Internal name]**: wijs een unieke id toe aan de levering.
-   * **[!UICONTROL Folder]**: Sla de levering op in een specifieke map.
+   * **[!UICONTROL Folder]**: sla de levering op in een specifieke map.
    * **[!UICONTROL Delivery code]**: organiseer uw leveringen met behulp van uw eigen naamgevingsconventie.
    * **[!UICONTROL Description]**: geef een beschrijving voor de levering.
    * **[!UICONTROL Nature]**: geef de aard van de levering op voor classificatiedoeleinden.
@@ -60,23 +60,23 @@ Configureer uw leveringsinstellingen zoals hieronder beschreven:
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_audience"
 >title="Het publiek voor pushmeldingen definiëren"
->abstract="Als u het publiek van uw bericht wilt definiëren, moet u eerst de app selecteren die aan de pushlevering is gekoppeld. Uw pushmelding wordt standaard naar alle abonnees van de toepassing verzonden. U kunt tot een specifiek publiek verfijnen door de **Uitgezochte publiek** knoop te klikken. Voeg zo nodig een controlegroep toe om het effect van de levering te meten."
+>abstract="Als u het publiek van uw bericht wilt definiëren, moet u eerst de app selecteren die aan de pushlevering is gekoppeld. Uw pushmelding wordt standaard verzonden naar alle abonnees van de toepassing. U kunt tot een specifiek publiek verfijnen door de **Uitgezochte doelgroep** knoop te klikken. Voeg zo nodig een controlegroep toe om het effect van de levering te meten."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Een controlegroep instellen"
 
 
 U moet eerst de app selecteren en vervolgens het publiek voor pushmeldingen verfijnen, zoals hieronder wordt beschreven:
 
-1. Selecteer in de sectie **[!UICONTROL Audience]** de toepassing die u voor deze levering wilt gebruiken. Uw pushmelding wordt standaard naar alle abonnees van de toepassing verzonden. U kunt een bepaald publiek verfijnen door op de knop **[!UICONTROL Select audience]** te klikken.
+1. Selecteer in de sectie **[!UICONTROL Audience]** de toepassing die u voor deze levering wilt gebruiken. Uw pushmelding wordt standaard verzonden naar alle abonnees van de toepassing. U kunt een specifieke doelgroep verfijnen door op de knop **[!UICONTROL Select audience]** te klikken.
 
    ![](assets/push_create_2.png){zoomable="yes"}
 
-1. Selecteer een bestaand publiek of maak uw eigen publiek om de doelpopulatie voor uw pushlevering te verfijnen. Voor het Push- bericht, is de standaard [ doelafmeting ](../audience/about-recipients.md#targeting-dimensions) **toepassing van de Abonnee** (nms:appSubscriptionRcp), die met de lijst van ontvangers wordt verbonden.
+1. Selecteer een bestaand publiek of maak je eigen doelgroep om de doelpopulatie voor je pushaanlevering te verfijnen. Voor het bericht van de Duw, is de standaard [ doelafmeting ](../audience/about-recipients.md#targeting-dimensions) **toepassing van de Abonnee** (nms:appSubscriptionRcp), die met de lijst van ontvangers verbonden is.
 
    Leer hoe te om een bestaand publiek in [ te selecteren deze pagina ](../audience/add-audience.md)
 
    Leer hoe te om een nieuw publiek in [ te creëren deze pagina ](../audience/one-time-audience.md)
 
-1. Schakel de optie **[!UICONTROL Enable control group]** in om een besturingsgroep in te stellen om de impact van de levering te meten. De berichten worden niet verzonden naar die controlegroep, zodat u het gedrag van de bevolking kunt vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](../audience/control-group.md)
+1. Schakel de optie **[!UICONTROL Enable control group]** in om een besturingsgroep in te stellen om de invloed van uw levering te meten. De berichten worden niet verzonden naar die controlegroep, zodat u het gedrag van de bevolking kunt vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](../audience/control-group.md)
 
 ## De inhoud van het pushbericht definiëren {#create-content-push}
 
@@ -86,7 +86,7 @@ Klik op **[!UICONTROL Edit content]** om de inhoud van uw melding te definiëren
 
 Van dit scherm, kunt u ook [ uw inhoud ](../preview-test/preview-test.md) simuleren en [ opstellingsaanbiedingen ](../msg/offers.md).
 
-## Plaats de verzending van de levering {#schedule-push}
+## Verzend uw levering {#schedule-push}
 
 Wanneer een levering in de context van een werkschema wordt verzonden, moet u de **Planner** activiteit gebruiken. Leer meer in [ deze pagina ](../workflows/activities/scheduler.md). Onderstaande stappen zijn alleen van toepassing op zelfstandige leveringen.
 
@@ -98,14 +98,14 @@ Voer de volgende stappen uit om een zelfstandige pushlevering naar een bepaalde 
 
 1. Stel de gewenste datum en tijd in voor het verzenden.
 
-Nadat u de levering in werking stelt, wordt het bericht automatisch verzonden op de nauwkeurige datum en de tijd die u voor de ontvanger hebt bepaald.
+Nadat u de levering hebt gestart, wordt het bericht automatisch verzonden op de exacte datum en tijd die u voor de ontvanger hebt gedefinieerd.
 
 ![](assets/push_create_3.png){zoomable="yes"}
 
 Leer meer over levering het plannen in [ deze sectie ](../msg/gs-deliveries.md#gs-schedule)
 
-## Geavanceerde instellingen voor levering {#adv-push}
+## Geavanceerde instellingen leveren {#adv-push}
 
-Klik op **[!UICONTROL Configure delivery settings]** voor toegang tot geavanceerde opties met betrekking tot de leveringssjabloon. [Meer informatie](../advanced-settings/delivery-settings.md)
+Klik op **[!UICONTROL Configure delivery settings]** voor geavanceerde opties met betrekking tot uw leversjabloon. [Meer informatie](../advanced-settings/delivery-settings.md)
 
 ![](assets/push_create_4.png){zoomable="yes"}

@@ -25,14 +25,14 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 * De **Unie** staat u toe om het resultaat van veelvoudige activiteiten in één enkel doel te hergroeperen.
 * **Intersection** staat u toe om slechts de elementen gemeenschappelijk voor de verschillende binnenkomende populaties in de activiteit te houden.
-* De **Uitsluiting** staat u toe om elementen van één bevolking volgens bepaalde criteria uit te sluiten.
+* De **Uitsluiting** staat u toe om elementen van één populatie volgens bepaalde criteria uit te sluiten.
 
-## De combinatieactiviteit configureren {#combine-configuration}
+## Configureer de combinatieactiviteit {#combine-configuration}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_intersection_merging_options"
->title="Samenvoegopties voor doorsnede"
->abstract="Met de doorsnede kunt u alleen de elementen behouden die gemeenschappelijk zijn voor de verschillende binnenkomende populaties in de activiteit. Controleer in de sectie Sets to join alle vorige activiteiten waaraan u wilt deelnemen."
+>title="Samenvoegopties doorsnede"
+>abstract="Met het snijpunt kunt u alleen de elementen behouden die de verschillende binnenkomende populaties in de activiteit gemeen hebben. Controleer in de sectie Sets to join alle vorige activiteiten waaraan u wilt deelnemen."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_exclusion_merging_options"
@@ -42,9 +42,9 @@ The **Combine** activity can be placed after any other activity, but not at the 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_options"
 >title="Selecteer het segmentatietype"
->abstract="Selecteer hoe u het publiek wilt combineren. De **Unie** staat u toe om het resultaat van veelvoudige activiteiten in één enkel doel te hergroeperen. **Intersection** staat u toe om slechts de elementen gemeenschappelijk voor de verschillende binnenkomende populaties in de activiteit te houden. De **Uitsluiting** staat u toe om elementen van één bevolking volgens bepaalde criteria uit te sluiten. "
+>abstract="Selecteer hoe je doelgroepen combineert. De **Unie** staat u toe om het resultaat van veelvoudige activiteiten in één enkel doel te hergroeperen. **Intersection** staat u toe om slechts de elementen gemeenschappelijk voor de verschillende binnenkomende populaties in de activiteit te houden. De **Uitsluiting** staat u toe om elementen van één populatie volgens bepaalde criteria uit te sluiten. "
 
-Volg deze gemeenschappelijke stappen beginnen de **te vormen combineren** activiteit:
+Volg deze gemeenschappelijke stappen beginnen **te vormen combineren** activiteit:
 
 ![](../assets/workflow-combine.png)
 
@@ -73,10 +73,10 @@ In **combineer** activiteit, kunt u a **Vereniging** vormen. Voor dit, moet u he
 >title="Afstemmingsopties voor doorsnede"
 >abstract="Selecteer het **Type van Verzoening** om te bepalen hoe te om duplicaten te behandelen. Door gebrek, wordt de **optie van Sleutels** geactiveerd, betekenend dat de activiteit slechts één element houdt wanneer de elementen van de verschillende binnenkomende overgangen de zelfde sleutel hebben. Gebruik de **selectie van A kolommen** optie om de lijst van kolommen te bepalen waarop de gegevensverzoening wordt toegepast."
 
-In **combineer** activiteit, kunt u een **Intersection** vormen. Hiervoor moet u de volgende extra stappen volgen:
+In **combineer** activiteit, kunt u een **Intersectie** vormen. Hiervoor moet u de onderstaande extra stappen volgen:
 
-1. Selecteer het **Type van Verzoening** om te bepalen hoe de duplicaten worden behandeld. Zie [ Unie ](#union) sectie.
-1. U kunt **controleren produceert volledigheid** optie als u wenst om de resterende bevolking te verwerken. Het complement zal de samenvoeging bevatten van de resultaten van alle binnenkomende activiteiten min de doorsnede. Een extra uitgaande overgang zal dan aan de activiteit worden toegevoegd.
+1. Selecteer het **Type van Afstemming** om te bepalen hoe de duplicaten worden behandeld. Zie de [ sectie van de Unie ](#union).
+1. U kunt **controleren voltooit** optie als u wenst om de resterende bevolking te verwerken. Het complement zal de samenvoeging bevatten van de resultaten van alle binnenkomende activiteiten min de doorsnede. Een extra uitgaande overgang zal dan aan de activiteit worden toegevoegd.
 
 ## Uitsluiting {#combine-exclusion}
 
@@ -93,14 +93,14 @@ In **combineer** activiteit, kunt u een **Intersection** vormen. Hiervoor moet u
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_exclusion"
 >title="Uitsluitingsregels"
->abstract="Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Om dit te doen, voegt de klik een regel in de sectie van de Regels van de Uitsluiting toe en specificeert de voorwaarden van de afmetingsverandering. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
+>abstract="Indien nodig kunt u binnenkomende tabellen manipuleren. Om een doel van een andere dimensie uit te sluiten, moet deze doelstelling worden teruggebracht naar dezelfde targetingdimensie als de hoofddoelstelling. Om dit te doen, voegt de klik een regel in de sectie van de Regels van de Uitsluiting toe en specificeert de voorwaarden van de afmetingsverandering. Afstemming van gegevens vindt plaats via een attribuut of een join-functie."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_combine_complement"
 >title="Combineren genereert een complement"
->abstract="Schakel de optie Aanvulling genereren in of uit om de resterende populatie in een extra overgang te verwerken."
+>abstract="Schakel de optie Complement genereren in of uit om de resterende populatie in een extra overgang te verwerken."
 
-In **combineer** activiteit, kunt u een **Uitsluiting** vormen. Hiervoor moet u de volgende extra stappen volgen:
+In **combineer** activiteit, kunt u een **Uitsluiting** vormen. Hiervoor moet u de onderstaande extra stappen volgen:
 
 1. In de **Reeksen om zich bij** sectie aan te sluiten, selecteer de **Primaire reeks** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set.
 1. Indien nodig, kunt u binnenkomende lijsten manipuleren. Om een doel van een andere dimensie uit te sluiten, moet dit doel worden teruggebracht naar dezelfde doeldimensie als het hoofddoel. Om dit te doen, klik **een regel** in de **sectie van de Regels van de Uitsluiting** toevoegen en de voorwaarden van de afmetingsverandering specificeren. Afstemming van gegevens vindt plaats via een attribuut of een join-functie.

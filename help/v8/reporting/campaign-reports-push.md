@@ -12,21 +12,21 @@ ht-degree: 0%
 
 # Campagnerapporten voor het pushkanaal {#campaign-reports-push-channel}
 
-Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het pushkanaal worden de rapporten en metriek hieronder beschreven. Leer hoe te om tot uw campagnerapporten in [ toegang te hebben deze pagina ](campaign-reports.md).
+Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het pushkanaal worden hieronder de rapporten en metrics beschreven. Leer hoe te om tot uw campagnerapporten in [ toegang te hebben deze pagina ](campaign-reports.md).
 
 ## Leveringsoverzicht {#delivery-summary-push}
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_deliveries_overview"
 >title="Overzicht van levering"
->abstract="Het **Overzicht van de Levering** rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie over geven hoe uw bezoekers met uw levering van het dupbericht in dienst nemen."
+>abstract="Het **Overzicht van de Levering** rapport verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie geven over hoe uw bezoekers met uw levering van het pushbericht in werking stellen."
 
-Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop bezoekers de pushmelding uitvoeren. De cijfers worden hieronder beschreven.
+Het **[!UICONTROL Delivery Overview]** -rapport bevat belangrijke prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de interactie van uw bezoekers met de aanlevering van pushberichten. De cijfers worden hieronder beschreven.
 
 ![](assets/campaign-reporting-push-summary.png){zoomable="yes"}
 
 
-+++Meer weten over cijfers voor pushcampagnerapporten?
++++Meer informatie over rapportcijfers voor pushcampagnes.
 
 * **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
@@ -38,20 +38,20 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI
 
 +++
 
-### Eerste doelstatistieken {#delivery-summary-push-initial-target}
+### Eerste doelgroepstatistieken {#delivery-summary-push-initial-target}
 
 
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
->title="Eerste doelstatistieken"
->abstract="De **Aanvankelijke statistieken van het doelpubliek** lijst toont gegevens met betrekking tot uw ontvangers"
+>title="Eerste doelgroepstatistieken"
+>abstract="De **Eerste statistieken van het doelpubliek** lijst toont gegevens met betrekking tot uw ontvangers"
 
 In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De cijfers worden hieronder beschreven.
 
 ![](assets/campaign-reporting-push-target.png){zoomable="yes"}
 
 
-+++Meer weten over cijfers voor pushcampagnerapporten?
++++Meer informatie over rapportcijfers voor pushcampagnes.
 
 * **[!UICONTROL Initial audience]**: het totale aantal beoogde ontvangers.
 
@@ -68,17 +68,17 @@ In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens 
 >title="Uitvoeringsstatistieken"
 >abstract="De **statistieken van de Uitvoering** lijst specificeert het succes van uw levering: berichten om te leveren, succes, fouten, en nieuwe quarantines."
 
-In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol de levering is. De cijfers worden hieronder beschreven.
+In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol uw levering is. De cijfers worden hieronder beschreven.
 
 ![](assets/campaign-reporting-push-exec.png){zoomable="yes"}
 
-+++Meer weten over cijfers voor pushcampagnerapporten?
++++Meer informatie over rapportcijfers voor pushcampagnes.
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
 * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische opwaartse verwerking in verhouding tot het aantal te leveren berichten.
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat na een mislukte levering in quarantaine is geplaatst (ongeldige registratie, berichtafwijzing, payload fout, bijvoorbeeld.) met betrekking tot het aantal te leveren berichten.
 
@@ -93,16 +93,16 @@ In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol
 >title="Gegenereerde klikstromen"
 >abstract="De **Gegenereerde klikstromen** lijst toont de beschikbare gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden."
 
-In de tabel **[!UICONTROL Generated click streams]** worden gegevens weergegeven die relatief zijn ten opzichte van de manier waarop de ontvangers met de levering hebben gewerkt. De cijfers worden hieronder beschreven.
+In de tabel **[!UICONTROL Generated click streams]** worden gegevens weergegeven die relatief zijn ten opzichte van de manier waarop de ontvangers met uw levering hebben omgesprongen. De cijfers worden hieronder beschreven.
 
 ![](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
 
-+++Meer weten over cijfers voor pushcampagnerapporten?
++++Meer informatie over rapportcijfers voor pushcampagnes.
 
-* **[!UICONTROL Unique clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer in een levering heeft geklikt.
+* **[!UICONTROL Unique clicks]**: het totale aantal afzonderlijke ontvangers dat ten minste één keer op een levering heeft geklikt.
 
 * **[!UICONTROL Total clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-* **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
+* **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat in een levering heeft geklikt, ten opzichte van het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
 +++

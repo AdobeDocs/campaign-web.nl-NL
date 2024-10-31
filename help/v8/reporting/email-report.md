@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# E-mailleveringsrapport {#email-report}
+# E-mailbezorgingsrapport {#email-report}
 
 Het **E-mailleveringsrapport** biedt uitvoerige inzichten en gegevens specifiek voor het e-mailkanaal aan. Het biedt gedetailleerde informatie over de prestaties, effectiviteit en resultaten van uw afzonderlijke leveringen, zodat u een uitgebreid overzicht krijgt.
 
@@ -42,7 +42,7 @@ Plaats de muis boven een gedeelte van de grafiek om het exacte getal weer te gev
 
 * **[!UICONTROL To deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
-* **[!UICONTROL Exclusion]**: Het totale aantal ontvangers dat is uitgesloten van de doelpopulatie.
+* **[!UICONTROL Exclusion]**: het totale aantal ontvangers dat is uitgesloten van de doelpopulatie.
 +++
 
 ### Leveringsstatistieken {#email-delivery-stats}
@@ -114,7 +114,7 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_broadcast_statistics"
 >title="Uitzendstatistieken"
->abstract="Het **statistische** rapport van de Uitzending bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden ontmoet."
+>abstract="Het **rapport van de Uitzending** bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden ontmoet."
 
 De tabel **[!UICONTROL Broadcast statistics]** bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen. De cijfers worden hieronder beschreven.
 
@@ -151,7 +151,7 @@ De tabel **[!UICONTROL Broadcast statistics]** bevat de beschikbare gegevens voo
 >title="Uitsplitsing van fouten per type"
 >abstract="De **Uitsplitsing van fouten per type** lijst verstrekt een uitvoerige uitsplitsing van het voorkomen van elk foutentype."
 
-De tabel en grafiek van **[!UICONTROL Breakdown of errors per type]** bevatten de beschikbare gegevens voor het fouttype. De cijfers worden hieronder beschreven.
+De tabel en grafiek van **[!UICONTROL Breakdown of errors per type]** bevatten de beschikbare gegevens voor het type fout. De cijfers worden hieronder beschreven.
 
 De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html) {target="_blank"}.
 
@@ -180,7 +180,7 @@ De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain"
 >title="Uitsplitsing van fouten per domein"
->abstract="De **Uitsplitsing van fouten per domein** grafiek toont de beschikbare gegevens voor elk die foutentype afhankelijk van elk domein wordt ontmoet."
+>abstract="De **Uitsplitsing van fouten per domein** grafiek toont de beschikbare gegevens voor elk gevonden foutentype afhankelijk van elk domein."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_error_domain_table"
@@ -341,7 +341,7 @@ Het **[!UICONTROL User activities]** rapport toont de uitsplitsing van opent en 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_statistics"
 >title="Statistieken bijhouden"
->abstract="De **het Volgen grafiek van Statistieken** verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens."
+>abstract="De **het Volgen grafiek van Statistieken** verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het targeten van gegevens."
 
 De grafiek van **[!UICONTROL Tracking Statistics]** verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens.
 
@@ -376,9 +376,9 @@ Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_breakdown_os"
 >title="Uitsplitsing naar besturingssysteem"
->abstract="Het **Uitsplitsing door OS** rapport toont de uitsplitsing van opent door werkend systeem voor de betrokken periode. In het eerste diagram worden statistieken over de mogelijkheden van een computer en een mobiel apparaat weergegeven. In het tweede voorbeeld worden het exacte aantal en percentage voor elk besturingssysteem weergegeven."
+>abstract="Het **Uitsplitsing door OS** rapport toont de uitsplitsing van opent door werkend systeem voor de betrokken periode. In het eerste diagram worden statistieken over het openen op een computer en mobiele apparaten weergegeven. In het tweede frame worden het exacte aantal en percentage voor elk besturingssysteem weergegeven."
 
-Het **Uitsplitsing door OS** rapport toont de uitsplitsing van opent door werkend systeem voor de periode: De systemen van vensters, de systemen van Android, de systemen van iOS, of anderen.
+Het **Uitsplitsing door OS** rapport toont de uitsplitsing van opent door werkend systeem voor de periode: de systemen van vensters, Android systemen, de systemen van iOS, of anderen.
 
 Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele werkende systemen. In het tweede voorbeeld worden het exacte aantal en het exacte percentage voor elk besturingssysteem weergegeven.
 

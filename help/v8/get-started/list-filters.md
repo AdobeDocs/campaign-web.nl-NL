@@ -3,9 +3,9 @@ audience: end-user
 title: Bladeren en lijsten filteren
 description: Ontdek hoe u kunt bladeren en filteren in lijsten met Campagne Web v8
 exl-id: 46b83e8c-6c8c-40a1-a08b-9d0b438b80cb
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: 8a68e1e95f2d030c9386e11ae3e7e07f1496bd84
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,10 @@ De lijsten worden weergegeven in kolommen. U kunt extra informatie tonen door de
 ![](assets/config-columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 In **vorm kolommen** scherm, voeg of verwijder kolommen toe, en verander de orde waarin zij worden getoond.
+
+U kunt de orde van uw lijst of door **slepen en laten vallen** veranderen, of door **op en neer pijlen** te gebruiken zoals hieronder getoond:
+
+![](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 Voor bijvoorbeeld deze instellingen:
 

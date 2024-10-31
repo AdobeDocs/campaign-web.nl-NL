@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 88774a747f4e54d7bf0ebba05c181b2a8476764f
+source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2209'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ U opent deze optie door in de query op de selectieknop voor kenmerken te klikken
 >* Voor velden met veel waarden worden alleen de eerste 20 waarden weergegeven. In dat geval verschijnt er een waarschuwing **[!UICONTROL Partial load]** .
 >
 >* De optie **[!UICONTROL Distribution of values]** is toegankelijk in elke kenmerkkiezer.
+>* U kunt voorwaarden op de resultaten toevoegen door de **[!AGeavanceerde filters]** te gebruiken. [ leer hier meer ](../get-started/work-with-folders.md#filter-the-values).
 
 ## Filtercomponenten toevoegen {#filtering}
 

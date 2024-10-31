@@ -4,9 +4,9 @@ title: Leveringsinstellingen configureren
 description: Leer hoe te om leveringsmontages in het Web van de Campagne te vormen
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 898762bc059b49c2f39da7558e6d9ffd31d1985e
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '2691'
+source-wordcount: '2720'
 ht-degree: 4%
 
 ---
@@ -351,6 +351,8 @@ Als u een variabele wilt toevoegen, bladert u naar het tabblad **[!UICONTROL Var
 
 ![](assets/variables-tab.png){zoomable="yes"}
 
-Klik op de knop **[!UICONTROL Add Variables]** om de details van de variabele in te voeren en klik vervolgens op **[!UICONTROL Confirm]** om de wijzigingen op te slaan.
+Klik op de knop **[!UICONTROL Add Variables]** om de details van de variabele in te voeren. U kunt de waarde ervan rechtstreeks toevoegen of er een expressie voor gebruiken door het selectievakje **[!UICONTROL Value is the result of an expression]** in te schakelen. Klik vervolgens op **[!UICONTROL Confirm]** om de wijzigingen op te slaan.
 
 ![](assets/variables-add.png){zoomable="yes"}
+
+Leer meer over [ gebruikend variabelen voor verpersoonlijking ](../personalization/personalize.md#variables-personalization) en [ gebruikend variabelen voor dynamische inhoud ](../personalization/conditions.md#variables-conditional).

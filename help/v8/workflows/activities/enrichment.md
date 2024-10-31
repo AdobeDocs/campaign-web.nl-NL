@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: e9d7be3823afd70bd6de87c4ed5dc35b71eeaa7d
+source-git-commit: 80c9d2b40696d75069c2ca4a93ffca998bc407f9
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1997'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 0%
 >title="Verrijkingsactiviteit"
 >abstract="De **Verrijking** activiteit staat u toe om de gerichte gegevens met extra informatie van het gegevensbestand te verbeteren. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten."
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_enrichment_offer_proposition"
->title="Voorstel"
->abstract="Voorstel"
 
 De **Verrijking** activiteit is a **richtend** activiteit. Hiermee kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten.
 
@@ -140,6 +136,56 @@ Het voorbeeld toont hieronder een werkschema wordt gevormd om een verband tussen
 
 ![](../assets/enrichment-reconciliation.png)
 
+## Aanbiedingen toevoegen {#add-offers}
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_offer_proposition"
+>title="Voorstel"
+>abstract="Met de verrijkingsactiviteit kunt u aanbiedingen toevoegen voor elk profiel."
+
+Met de activiteit **[!UICONTROL Enrichment]** kunt u aanbiedingen toevoegen voor elk profiel.
+
+Voer hiertoe de stappen uit om een **[!UICONTROL Enrichment]** -activiteit met een aanbieding te configureren:
+
+1. Klik in de **[!UICONTROL Enrichment]** -activiteit in de **[!UICONTROL Offer proposition]** -sectie op de **[!UICONTROL Add offer]** -knop
+
+   ![](../assets/enrichment-addoffer.png)
+
+1. U kunt uit twee opties kiezen:
+
+   * **[!UICONTROL Search for the best offer in category]** : controleer deze optie en geef de parameters op voor de aanroep van de aanbiedingsengine (ruimte, categorie of thema(&#39;s), contactdatum, aantal aanbiedingen dat u wilt behouden). De motor berekent de beste aanbieding(en) die op basis van deze parameters moet worden toegevoegd. We raden u aan de categorie of het themaveld in te vullen in plaats van beide.
+
+     ![](../assets/enrichment-bestoffer.png)
+
+   * **[!UICONTROL A predefined offer]** : controleer deze optie en specificeer een aanbiedingsruimte, een specifieke aanbieding, en een contactdatum om de aanbieding direct te vormen die u, zonder de aanbiedingsmotor te roepen wilt toevoegen.
+
+     ![](../assets/enrichment-predefinedoffer.png)
+
+1. Klik op **[!UICONTROL Confirm]** nadat u uw voorstel hebt geselecteerd.
+
+Je kunt het voorstel nu gebruiken in de leveringsactiviteiten.
+
+### De aanbiedingen van verrijkingsactiviteiten gebruiken
+
+Volg onderstaande stappen als u in een workflow de aanbiedingen wilt gebruiken die u van een verrijkingsactiviteit in uw levering krijgt:
+
+1. Open de leveringsactiviteit en ga in de inhoudsuitgave. Klik op de knop **[!UICONTROL Offers settings]** en selecteer in de vervolgkeuzelijst de **[!UICONTROL Offers space]** die overeenkomt met uw aanbieding.
+Als u alleen de aanbiedingen van de verrijkingsactiviteit wilt weergeven, stelt u het aantal **[!UICONTROL Propositions]** in op 0 en slaat u de wijzigingen op.
+
+   ![](../assets/offers-settings.png)
+
+1. Als de ontwerper van de e-mail een personalisatie met aanbiedingen toevoegt, klikt u op het pictogram **[!UICONTROL Propositions]** en geeft deze de aangeboden aanbiedingen weer die u van de **[!UICONTROL Enrichment]** -activiteit krijgt. Open het voorstel dat u wilt kiezen door erop te klikken.
+
+   ![](../assets/offers-propositions.png)
+
+   Ga naar **[!UICONTROL Rendering functions]** en kies **[!UICONTROL HTML rendering]** of **[!UICONTROL Text rendering]** naar wens.
+
+   ![](../assets/offers-rendering.png)
+
+>[!NOTE]
+>
+>Als u ervoor kiest om meer dan één aanbieding in de **[!UICONTROL Enrichment]** activiteit bij de **[!UICONTROL Number of offers to keep]** optie te hebben, worden alle aanbiedingen getoond wanneer het klikken op het **[!UICONTROL Propositions]** pictogram.
+
 ## Voorbeelden {#example}
 
 ### Enkel verrijkingskenmerk {#single-attribute}
@@ -156,10 +202,10 @@ Hier voegen we slechts één verrijkingskenmerk toe, bijvoorbeeld de geboortedat
 
 In dit complexere gebruiksgeval, zullen wij een inzamelingsverbinding selecteren die een verbinding met een 1-N kardinaliteit tussen lijsten is. Laten we de drie laatste aankopen ophalen die minder dan 100 dollar bedragen. Hiervoor moet u definiëren:
 
-* een verrijkingsattribuut: het **Totale bedrag** gebied
+* een verrijkingsattribuut: het **Prijs** gebied
 * het aantal op te halen lijnen: 3
 * een filter: items uitfilteren die groter zijn dan 100$
-* a sorterend: afstammend sorteren op het **de datum van de Orde** gebied.
+* a sorterend: dalend sorterend op het **datum** gebied van de Orde.
 
 #### Het kenmerk toevoegen {#add-attribute}
 
@@ -167,9 +213,9 @@ Hier selecteert u de verzamelingskoppeling die u als verrijkingsgegevens wilt ge
 
 1. Klik binnen het **gebied van Attributen**.
 1. Klik **Geavanceerde attributen van de Vertoning**.
-1. Selecteer het **Totale bedrag** gebied van de **Aankopen** lijst.
+1. Selecteer het **gebied van de Prijs** {van de **Aankopen** lijst.
 
-![](../assets/workflow-enrichment3.png)
+<!-- ![](../assets/workflow-enrichment3.png) -->
 
 #### De verzamelingsinstellingen definiëren{#collection-settings}
 
@@ -178,21 +224,23 @@ Definieer vervolgens hoe de gegevens worden verzameld en hoeveel records moeten 
 1. Selecteer **verzamelen gegevens** in **Uitgezocht hoe het gegeven** drop-down wordt verzameld.
 1. Het type &quot;3&quot;op de **Lijnen om terug te winnen (Kolommen om te creëren)** gebied.
 
-![](../assets/workflow-enrichment4.png)
+![](../assets/workflow-enrichment4bis.png)
 
 Als u, bijvoorbeeld, de gemiddelde hoeveelheid aankopen voor een klant wilt krijgen, **Geaggregeerde gegevens** in plaats daarvan selecteren, en **Gemiddelde** in de **Geaggregeerde functie** drop-down selecteren.
 
-![](../assets/workflow-enrichment5.png)
+Gebruik het **Etiket** en **alias** gebieden van uw attribuut om het begrijpelijker te maken zoals hieronder getoond.
+
+![](../assets/workflow-enrichment5bis.png)
 
 #### Filters definiëren{#collection-filters}
 
 Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren items die groter zijn dan 100$. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
 
-1. Klik **uitgeven filters**.
-1. Voeg de twee volgende filters toe: **Totale hoeveelheid** bestaat EN **Totale hoeveelheid** is minder dan 100. De eerste filtert NULL-waarden op dezelfde manier als de hoogste waarde.
+1. Klik **creeer filters**.
+1. Voeg de twee volgende filters toe: **Prijs** bestaat EN **Prijs** is minder dan 100. De eerste filtert NULL-waarden op dezelfde manier als de hoogste waarde.
 1. Klik **bevestigen**.
 
-![](../assets/workflow-enrichment6.png)
+![](../assets/workflow-enrichment6bis.png)
 
 #### De sortering definiëren{#collection-sorting}
 
@@ -204,7 +252,7 @@ Wij moeten nu het sorteren toepassen om de drie **recentste** aankopen terug te 
 1. Klik **bevestigen**.
 1. Selecteer **Aflopend** van de **drop-down Soort**.
 
-![](../assets/workflow-enrichment7.png)
+![](../assets/workflow-enrichment7bis.png)
 
 ### Verrijking met gekoppelde gegevens {#link-example}
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 23818080-d7c6-4829-8117-d6b359bd76dd
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,17 @@ In dit dashboard worden alle beschikbare inhoudssjablonen als een lijst weergege
 
 In de lijst kunt u bestaande inhoudssjablonen bewerken, dupliceren of verwijderen. Gebruik de knop in de bovenste sectie om een inhoudssjabloon te maken.
 
+### Inhoudssjabloon in alleen-lezen modus {#template-readonly}
+
+Toegangsrechten kunnen worden toegepast op inhoudssjablonen.
+
+Als u geen het uitgeven toestemmingen voor een bepaald inhoudsmalplaatje hebt, wordt het inhoudsmalplaatje getoond in **read-only wijze**. In dit geval wordt de knop **[!UICONTROL Edit content]** vervangen door de knop **[!UICONTROL View content]** , zodat u de sjabloon kunt bekijken zonder wijzigingen aan te brengen.
+
+![](assets/template-readonly.png){zoomable="yes"}
+
+Zoals hieronder wordt getoond, worden alle eigenschapspictogrammen gedeactiveerd, die interactie beperken tot het bekijken slechts.
+
+![](assets/template-readonly-view.png){zoomable="yes"}
 
 ## Inhoudssjablonen maken {#create-content-templates}
 

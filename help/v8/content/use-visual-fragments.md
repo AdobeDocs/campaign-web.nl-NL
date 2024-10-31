@@ -4,9 +4,9 @@ title: Visuele fragmenten toevoegen aan uw e-mails
 description: Leer hoe u visuele fragmenten toevoegt aan uw e-mails
 badge: label="Beperkte beschikbaarheid"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,18 @@ Voer de onderstaande stappen uit om een visueel fragment in te voegen in een e-m
    U kunt het fragment ook uit de inhoud verwijderen of dupliceren. Deze handelingen kunnen rechtstreeks worden uitgevoerd vanuit het contextmenu dat boven op het fragment wordt weergegeven.
 
 1. Voeg zoveel visuele fragmenten toe als u wilt en **[!UICONTROL Save]** uw wijzigingen.
+
+### Visueel fragment in alleen-lezen modus {#fragment-readonly}
+
+Toegangsrechten kunnen worden toegepast op visuele fragmenten.
+
+Als u geen het uitgeven toestemmingen voor een bepaald visueel fragment hebt, wordt het inhoudsmalplaatje getoond op **read-only wijze**. In dit geval wordt de knop **[!UICONTROL Edit content]** vervangen door de knop **[!UICONTROL View content]** , zodat u het fragment kunt bekijken zonder wijzigingen aan te brengen.
+
+![](assets/fragment-readonly.png){zoomable="yes"}
+
+Zoals hieronder wordt getoond, worden alle eigenschapspictogrammen gedeactiveerd, die interactie beperken tot het bekijken slechts.
+
+![](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## Overerving onderbreken {#break-inheritance}
 

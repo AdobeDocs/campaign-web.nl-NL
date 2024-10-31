@@ -25,16 +25,16 @@ Alle activiteiten worden beschreven in de volgende onderdelen:
 
 ## Gerichte activiteiten {#targeting}
 
-Deze activiteiten zijn specifiek gericht op de doelgroepen. Met deze instructies kunt u een of meer doelen maken door een publiek te definiëren en deze soorten publiek te splitsen of te combineren met een doorsnede-, samenvoegings- of uitsluitingsbewerking.
+Deze activiteiten zijn specifiek gericht op de doelgroepen. Met deze sjablonen kunt u een of meer doelen maken door een doelgroep te definiëren en deze doelgroepen te splitsen of te combineren met behulp van intersectie-, samenvoegings- of uitsluitingsbewerkingen.
 
-* [ bouwt publiek ](build-audience.md): Bepaal uw doelbevolking. U kunt of een bestaand publiek selecteren of de vraagmodeler gebruiken om uw eigen vraag te bepalen.
-* [ gegevensbron van de Verandering ](change-data-source.md): Verandering de gegevensbron voor de het Werken lijst van uw werkschema.&quot;
-* [ dimensie van de Verandering ](change-dimension.md): Verander de het richten dimensie aangezien u uw werkschema bouwt.
+* [ bouw publiek ](build-audience.md): Bepaal uw doelbevolking. U kunt een bestaande doelgroep selecteren of de querymodelfunctie gebruiken om uw eigen query te definiëren.
+* [ de gegevensbron van de Verandering ](change-data-source.md): Verander de gegevensbron voor de het Werken lijst van uw werkschema.&quot;
+* [ afmeting van de Verandering ](change-dimension.md): Verander de het richten afmeting aangezien u uw werkschema bouwt.
 * [ combineren ](combine.md): Voer segmentatie op uw binnenkomende bevolking uit. U kunt een samenvoeging, een doorsnede of een uitsluiting gebruiken.
 * [ Deduplicatie ](deduplication.md): Schrap duplicaten in het resultaat(en) van de binnenkomende activiteiten.
-* [ Verrijking ](enrichment.md): Bepaal extra gegevens om in uw werkschema te verwerken. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
+* [ Verrijking ](enrichment.md): Bepaal extra gegevens in uw werkschema te verwerken. Met deze activiteit, kunt u hefboomwerking de binnenkomende overgang en de activiteit vormen om de outputovergang met extra gegevens te voltooien.
 * [ Incrementele vraag ](incremental-query.md): Vraag het gegevensbestand op een geplande basis. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Zo kunt u doelgericht alleen nieuwe elementen benaderen.
-* [ Verzoening ](reconciliation.md): Bepaal het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst, bijvoorbeeld gegevens die van een extern dossier worden geladen.
+* [ Afstemming ](reconciliation.md): Bepaal het verband tussen de gegevens in het gegevensbestand van Adobe Campaign en de gegevens in een het werklijst, bijvoorbeeld gegevens die van een extern dossier worden geladen.
 * [ sparen publiek ](save-audience.md): Werk een bestaand publiek bij of creeer een nieuw publiek van de bevolking die stroomopwaarts in een werkschema wordt berekend.
 * [ Gesplitst ](split.md): De inkomende bevolking van het segment in verscheidene ondergroepen.
 
@@ -51,21 +51,21 @@ Deze activiteiten zijn specifiek gericht op het manipuleren en verrijken van bev
 
 ## Kanaalactiviteiten {#channel}
 
-Met Adobe Campaign Web kunt u marketingcampagnes op meerdere kanalen automatiseren en uitvoeren. U kunt kanaalactiviteiten in het canvas combineren om kanaalworkflows te maken die acties op basis van klantgedrag kunnen activeren. De volgende **activiteiten van het Kanaal** zijn beschikbaar: E-mail, SMS, Android en de Push van iOS berichten. [ Leer hoe te opstelling een levering in de context van een werkschema ](channels.md).
+Met Adobe Campaign Web kun je marketingcampagnes automatiseren en uitvoeren op meerdere kanalen. Je kunt kanaalactiviteiten combineren tot het canvas om cross-channel workflows te creëren die acties kunnen triggeren op basis van klantgedrag. De volgende **activiteiten van het Kanaal** zijn beschikbaar: E-mail, SMS, Android en de Pushberichten van iOS. [ leer hoe te opstelling een levering in de context van een werkschema ](channels.md).
 
 ## Stroombeheeractiviteiten {#flow-control}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
 >title="Eindactiviteit"
->abstract="Het **Eind** activiteit staat u toe om het eind van een werkschema grafisch te merken. Deze activiteit heeft geen functioneel effect en is daarom optioneel."
+>abstract="De **Eind** activiteit staat u toe om het eind van een werkschema grafisch te merken. Deze activiteit heeft geen functioneel effect en is daarom optioneel."
 
 De volgende activiteiten zijn specifiek voor het organiseren en uitvoeren van workflows. Hun voornaamste taak is de coördinatie van de andere activiteiten:
 
-* [ en-lid ](and-join.md): Synchroniseer veelvoudige uitvoertakken van een werkschema.
+* [ en-toetreden ](and-join.md): Synchroniseer veelvoudige uitvoeringstakken van een werkschema.
 * **Eind**: Merk grafisch het eind van een werkschema. Deze activiteit heeft geen functioneel effect en is daarom optioneel
 * [ Extern signaal ](external-signal.md): Trigger de uitvoering van een werkschema van een ander werkschema, of een API vraag.
 * [ Fork ](fork.md): Creeer uitgaande overgangen om verscheidene activiteiten tezelfdertijd te beginnen.
 * [ Planner ](scheduler.md): Plan wanneer het werkschema begonnen wordt.
-* [ Test ](test.md): laat overgangen toe die op gespecificeerde voorwaarden worden gebaseerd.
+* [ Test ](test.md): Laat overgangen toe die op gespecificeerde voorwaarden worden gebaseerd.
 * [ wacht ](wait.md): Onderbreek tijdelijk uitvoering van een deel van een werkschema.
