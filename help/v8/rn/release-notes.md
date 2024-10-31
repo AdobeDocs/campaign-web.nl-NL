@@ -2,10 +2,10 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 13%
+source-wordcount: '418'
+ht-degree: 8%
 
 ---
 
@@ -18,54 +18,78 @@ ht-degree: 13%
 
 De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
-## Updates september {#9-2024}
+De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld [ in deze pagina ](release-notes-24.md).
+
+## Release oktober 1924 {#24-10-release}
+
+**de datum van de Versie**: 29 okt, 2024
+
+De volgende functies en verbeteringen zijn beschikbaar vanaf de release in oktober.
+
+### Functies
 
 <table>
 <thead>
 <tr>
-<th><strong>AI Assistant-versnelling voor inhoud</strong><br/></th>
+<th><strong>Externe accounts</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Als u eenmaal een bericht hebt gemaakt en op maat hebt gemaakt, gaat u naar het volgende niveau met de AI Assistant Content Accelerator in Adobe Campaign Web. Met dit krachtige gereedschap kunt u de impact van uw inhoud optimaliseren door een reeks aansprekende tekst, hoofdtitels en visueel aantrekkelijke afbeeldingen te genereren.</p>
-<p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
-<p>Raadpleeg de <a href="../email/generative-gs.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<img src="assets/do-not-localize/ai-content-webui.gif"/>
-<p>Beschikbaarheidsdatum: september 12</p>
+<p>U hebt nu de mogelijkheid om externe accounts direct via de Adobe Campaign Web User Interface in te stellen en te beheren. Met deze nieuwe functie kunt u eenvoudig verschillende typen externe accounts configureren, zoals het stuiteren van e-mailberichten (POP3) of uitvoeringsinstanties.</p>
+<p>Raadpleeg de <a href="../administration/external-account.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## Release-aantekeningen augustus {#24-8-release}
 
-**de datum van de Versie**: Sept 3, 2024
+<table>
+<thead>
+<tr>
+<th><strong>Transactieberichten</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Transactieberichten (Message Center) zijn nu beschikbaar in de webgebruikersinterface van Campagne. Deze invoegtoepassing is ontworpen voor het activeren van berichten die worden gegenereerd op basis van gebeurtenissen die worden geactiveerd via informatiesystemen en kan zijn: factuur, orderbevestiging, bevestiging van verzending, wijziging van het wachtwoord, kennisgeving van onbeschikbaarheid van het product, rekeningoverzicht, aanmaak van websiteaccount, enz.</p>
+<p>Raadpleeg de <a href="../transactional-messaging/transactional.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-De volgende functies en verbeteringen zijn beschikbaar vanaf de release in augustus.
+<!--table>
+<thead>
+<tr>
+<th><strong>External deliveries</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+
+### Verbeteringen
+
+* **de activiteiten van het Werkschema** - u kunt een activiteit en al zijn kindknopen van een overgang aan een andere binnen een werkschema nu bewegen. Een specifieke **knoop van de Beweging** is beschikbaar in de de eigenschappen van de activiteit ruit om dit uit te voeren. [Meer informatie](../workflows/orchestrate-activities.md#move)
+
+* **de verrijkingsactiviteit van het Werkschema**
+
+   * U kunt een Alias en een Etiket nu bepalen wanneer het creëren van een nieuw gebied in de **Verrijking** activiteit. [Meer informatie](../workflows/activities/enrichment.md#collection-settings)
+   * U kunt aanbiedingen voor elk profiel in de **Verrijking** activiteit nu toevoegen. [Meer informatie](../workflows/activities/enrichment.md##add-offers)
 
 * **Distributie van waarden** - wanneer de toegang tot van de lijst van gebieden voor verpersoonlijking, kunt u nu controleren hoe de waarden voor elk gebied worden verdeeld. Een specifiek popup venster toont het aantal en het percentage voor elke waarde. [Meer informatie](../query/build-query.md#distribution-values-query)
 
-* **parameters SMTP** - de montages SMTP zijn nu beschikbaar in de montages van de e-maillevering. [Meer informatie](../advanced-settings/delivery-settings.md#smtp)
+* **Versie en systeeminfo** - u kunt tot details over uw instantieversies, zowel voor de cliëntconsole als het Gebruikersinterface van het Web nu toegang hebben. In deze nieuwe sectie worden ook alle ingebouwde pakketten weergegeven die in uw omgeving zijn geïnstalleerd. [Meer informatie](../get-started/user-interface.md#user-interface-about)
 
-* **Globale variabelen** - u kunt globale variabelen nu bepalen om waarden voor uw leveringen te bepalen. [Meer informatie](../advanced-settings/delivery-settings.md#variables-delivery)
+* **Lijsten** - u kunt de waarden van een lijst nu gemakkelijk opnieuw in orde brengen. [Meer informatie](../get-started/work-with-folders.md)
 
-### Nieuwe functies in beperkte beschikbaarheid {#acs-24-8}
-
->[!AVAILABILITY]
->
->De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld.
->
->Verwijs naar de volgende documentatiepagina&#39;s: [ overgang van het Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van het Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) {target="_blank"}.
-
-* **Branding voor Directe Post** - de Technische beheerders kunnen één of verscheidene merken nu bepalen om de parameters te centraliseren die de identiteit van een merk beïnvloeden. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina&#39;s of de instellingen voor de tracking van berichten. U kunt deze merken nu maken en deze koppelen aan berichten of bestemmingspagina&#39;s. Deze configuratie wordt beheerd in malplaatjes. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
-
-* **Abonnementen met het Aanvoeren van pagina&#39;s** - u kunt een het landen pagina aan de dienst nu verbinden, en een bevestigingsbericht verzenden wanneer de gebruikers het bevestigen. [Meer informatie](../landing-pages/lp-content.md#lp-message){target="_blank"}.
-
-* **Visuele fragmenten** - u kunt visuele inhoudsfragmenten nu archiveren. [Meer informatie](../content/create-fragment.md#archive)
-
-* **Captcha in het landen van pagina&#39;s** - u kunt nu Captcha toevoegen om uw landende pagina tegen spam en misbruik te beschermen dat door bots wordt veroorzaakt. Dit is niet opdringerig voor uw klanten omdat het geen enkele interactie van hen vereist en gebaseerd is op interacties met uw site. [Meer informatie](../landing-pages/create-lp.md#captcha)
-
-<!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
+* **Levering** - de variabele van de Levering is nu toegankelijk van verpersoonlijkingsgebieden. [Meer informatie](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
