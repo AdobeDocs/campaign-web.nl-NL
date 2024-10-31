@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: a1b1a40be4d2004181f03bba5c43d0302d6f2c47
+source-git-commit: c171d04300c049de3d6c0cb3c98b2414ff28681b
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '769'
 ht-degree: 14%
 
 ---
@@ -65,6 +65,11 @@ ht-degree: 14%
       + [Een levering voor direct mail maken](direct-mail/create-direct-mail.md)
       + [Het extractiebestand ontwerpen](direct-mail/content-direct-mail.md)
       + [Een voorbeeld bekijken en direct-maillevering verzenden](direct-mail/send-direct-mail.md)
+   + Transactieberichten {#transactional-messages}
+      + [Aan de slag met transactieberichten](transactional-messaging/transactional.md)
+      + [Een transactiebericht maken](transactional-messaging/create-transactional.md)
+      + [Transactiebericht valideren](transactional-messaging/validate-transactional.md)
+      + [Transactieberichten controleren](transactional-messaging/monitor-transactional.md)
    + [Aanbiedingen toevoegen aan uw berichten](msg/offers.md)
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
@@ -218,4 +223,5 @@ ht-degree: 14%
    + [Sjablonen beheren met Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuratie {#conf}
    + [Aangepaste velden configureren](administration/custom-fields.md)
+   + [Externe accounts configureren](administration/external-account.md)
 + [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
