@@ -3,32 +3,26 @@ audience: end-user
 title: Een overvulgroep gebruiken
 description: Leer hoe te om een valgroep voor uw levering in het gebruikersinterface van het Web van de Campagne te gebruiken
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
 # Een overvulgroep gebruiken {#trap-group}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Overvulgroep"
->abstract="U kunt een overvulgroep gebruiken om specifieke adressen in uw leveringen op te nemen om het distributieproces te controleren en te verifiëren door profielen aan te wijzen die niet aan de bepaalde doelcriteria voldoen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie Opmerkingen bij de release"
+Een **[!UICONTROL trap group]** (ook wel **[!UICONTROL Seed list]** genoemd) wordt gebruikt om specifieke adressen in uw leveringen op te nemen om het distributieproces te controleren en te verifiëren door zich te richten op profielen die niet aan de gedefinieerde doelcriteria voldoen. Op deze manier kunnen ontvangers die buiten het bereik van de levering vallen, de levering ontvangen, net als elke andere doelontvanger.
 
-Een **[!UICONTROL trap group]** (ook wel **[!UICONTROL Seed list]** genoemd) wordt gebruikt om specifieke adressen in uw leveringen op te nemen om het distributieproces te controleren en te verifiëren door zich te richten op profielen die niet voldoen aan de gedefinieerde doelcriteria. Op deze manier kunnen ontvangers die buiten het leveringsbereik vallen, de levering ontvangen, net als elke andere doelontvanger.
-
-Een **[!UICONTROL trap group]** is een groep **[!UICONTROL seed addresses]** met de naam **[!UICONTROL Test profile]** in de webgebruikersinterface van Campaign.
+Een **[!UICONTROL trap group]** is een groep **[!UICONTROL seed addresses]** met de naam **[!UICONTROL Test profile]** in de gebruikersinterface van het web van Campagne.
 
 ## Waarom een overvulgroep gebruiken {#why-trap-group}
 
 U kunt **[!UICONTROL trap group]** gebruiken:
 
-1. **als proef**: elk lid van **[!UICONTROL Trap group]** zal de levering ontvangen alsof zij deel van het publiek uitmaken.
+1. **als proef**: elk lid van **[!UICONTROL Trap group]** zal de levering ontvangen alsof zij deel van het publiek uitmaakten.
 
-1. **om uw het posten lijst** te beschermen: door te ontvangen wat het publiek zal ontvangen, zal elk **[!UICONTROL test profile]** van **[!UICONTROL Trap group]** worden opgemerkt als de het posten lijst door een derde wordt gebruikt.
+1. **om uw postingslijst** te beschermen: door te ontvangen wat het publiek zal ontvangen, zal elk **[!UICONTROL test profile]** van **[!UICONTROL Trap group]** worden opgemerkt als de postingslijst door een derde wordt gebruikt.
 
 >[!NOTE]
 >
@@ -36,13 +30,13 @@ U kunt **[!UICONTROL trap group]** gebruiken:
 
 ## Overvulgroepen {#about-trap-group}
 
-De profielen van de test worden automatisch uitgesloten van rapporten over de volgende leveringsstatistieken: **klikken**, **opent**, **Abonnementen**. De verslagen gaan alleen over het echte publiek.
+De profielen van de test worden automatisch uitgesloten van rapporten over de volgende leveringsstatistieken: **klikt**, **opent**, **Abonnementen**. De verslagen gaan alleen over het echte publiek.
 
-Voor het verzenden van e-mail is alleen een e-mailadres nodig voor de **[!UICONTROL Trap group]** . De personalisatie van andere velden wordt willekeurig ingevuld door Campaign.
+Voor een e-maillevering is alleen een e-mailadres nodig voor de **[!UICONTROL Trap group]** . Andere velden worden willekeurig door Campagne aangepast.
 
 ## Een overvulgroep toevoegen in een levering {#trap-group-in-delivery}
 
-Als u een **[!UICONTROL Trap group]** wilt instellen, gaat u naar de **[!UICONTROL Audience]** -instellingen van uw levering. U hebt twee opties:
+Als u een **[!UICONTROL Trap group]** wilt instellen, gaat u naar de **[!UICONTROL Audience]** -instellingen van de levering. U hebt twee opties:
 
 * [Testprofielen selecteren](#select-test-profile)
 * [Voorwaarde maken](#create-condition)
@@ -61,7 +55,7 @@ U kunt ook nieuwe testprofielen maken. [Meer informatie](#create-seed)
 
 ![](assets/trap-select-test-profiles.png){zoomable="yes"}
 
-Wanneer u uw testprofielen bevestigt, controleer dan of u het juiste nummer onder **[!UICONTROL Trap group]** hebt.
+Wanneer u uw testprofielen bevestigt, controleer dat u het correcte aantal onder **[!UICONTROL Trap group]** hebt.
 
 ![](assets/trap-check.png){zoomable="yes"}
 
@@ -77,7 +71,7 @@ Uw query wordt weergegeven onder **[!UICONTROL Trap group]** .
 
 ## Een nieuw testprofiel maken {#create-seed}
 
-U kunt een nieuwe **[!UICONTROL test profile]** maken vanuit de map **[!UICONTROL Explorer]** > **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed members]** .
+U kunt een nieuwe **[!UICONTROL test profile]** maken in de map **[!UICONTROL Explorer]** > **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed members]** .
 
 ![](assets/trap-create.png){zoomable="yes"}
 
