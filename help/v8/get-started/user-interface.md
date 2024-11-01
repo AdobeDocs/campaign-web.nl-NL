@@ -95,7 +95,7 @@ Het **menu van de Ontdekkingsreiziger** toont alle middelen en voorwerpen van de
 
 De punten die in **worden getoond Verkenner** hangen van uw gebruikerstoestemmingen af. U kunt ook mappen en submappen toevoegen als u de juiste rechten hebt. Leer meer over toestemmingen in [ deze sectie ](permissions.md).
 
-U kunt kolommen configureren om de weergave aan te passen en alle informatie weer te geven die u nodig hebt. Zie dit [ sectie ](#list-screens). U kunt omslagen en sub-omslagen, zoals die in [ worden gedetailleerd ook toevoegen deze sectie ](permissions.md#folders).
+U kunt kolommen vormen om de vertoning aan te passen om alle informatie te bekijken u wenst. Zie deze [ sectie ](#list-screens). U kunt omslagen en sub-omslagen, zoals die in [ worden gedetailleerd ook toevoegen deze sectie ](permissions.md#folders).
 
 Voor meer informatie over de ontdekkingsreiziger van de Campagne, omslaghiërarchie en middelen, verwijs naar deze [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui) {target="_blank"}.
 
@@ -103,9 +103,9 @@ Voor meer informatie over de ontdekkingsreiziger van de Campagne, omslaghiërarc
 
 In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, leveringen en workflows.
 
-* **Campagnes** - dit is de lijst van uw campagnes, en campagnesjablonen. Standaard kunt u voor elke campagne de begin-/einddatum/aanmaakdatum/laatste wijzigingsdatum, de huidige status en de naam weergeven van de campagneoperator die de campagne heeft gemaakt. U kunt de lijst filteren op status, begin-/einddatums, map of u kunt een geavanceerd filter maken om uw eigen filtercriteria te definiëren. Leer meer over campagnes [ in deze sectie ](../campaigns/gs-campaigns.md).
+* **Campagnes** - dit is de lijst van uw campagnes, en campagnemalplaatjes. Standaard kunt u voor elke campagne de begin-/einddatum/aanmaakdatum/laatste wijzigingsdatum, de huidige status en de naam weergeven van de Campagneoperator die de campagne heeft gemaakt. U kunt de lijst filteren op status, begin-/einddatums, map of een geavanceerd filter maken om uw eigen filtercriteria te definiëren. Leer meer over campagnes [ in deze sectie ](../campaigns/gs-campaigns.md).
 
-* **Leveringen** - doorblader door uw lijst van leveringen. Standaard kunt u hun status, laatste wijzigingsdatum en belangrijke KPI&#39;s bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-mailbezorging om het dashboard te openen voor een overzicht van de leveringsgegevens. Leveringen op andere kanalen zijn alleen-lezen. Leer meer over leveringen [ in deze sectie ](../msg/gs-messages.md).
+* **Leveringen** - doorblader door uw lijst van leveringen. Door gebrek, kunt u hun staat, laatste wijzigingsdatum evenals zeer belangrijke KPIs bekijken. U kunt de lijst filteren op status, contactdatum of kanaal. Klik op een e-maillevering om het dashboard te openen voor een overzicht van de leveringsgegevens. Leveringen op andere kanalen zijn alleen-lezen. Leer meer over leveringen [ in deze sectie ](../msg/gs-messages.md).
 
   Gebruik **Meer acties** knoop om een levering te schrappen of te dupliceren.
 
@@ -206,8 +206,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_sending"
->title="Algemene rapporten verzenden"
->abstract="Rapportcijfers bijhouden is zichtbaar in dit scherm"
+>title="Globale rapporten verzenden"
+>abstract="Metrische gegevens voor het bijhouden van rapporten zijn zichtbaar in dit scherm"
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_tracking"
@@ -234,12 +234,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_subscription_selection"
->title="Selectie van abonnementen ontvangers"
->abstract="Selectie van abonnementen ontvangers"
+>title="Selectie van abonnementen voor ontvangers"
+>abstract="Selectie van abonnementen voor ontvangers"
 
 >[!CONTEXTUALHELP]
 >id="acw_recipients_offers_eligible_list"
->title="Ontvangers bieden in aanmerking komende lijst aan"
+>title="Ontvangers bieden kwalificerende lijst aan"
 >abstract="Ontvangers bieden kwalificerende lijst aan"
 
 >[!CONTEXTUALHELP]
@@ -405,7 +405,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_logs_tasks"
->title="Workflowlogboeken en -taken"
+>title="Workflowlogboeken en taken"
 >abstract="Schema"
 
 >[!CONTEXTUALHELP]

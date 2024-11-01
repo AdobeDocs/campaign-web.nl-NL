@@ -1,45 +1,45 @@
 ---
 audience: end-user
-title: Aan de slag met contentfragmenten
-description: Leer hoe je creeert met contentfragmenten
+title: Aan de slag met inhoudsfragmenten
+description: Leer hoe u maakt met inhoudsfragmenten
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%
 
 ---
 
-# Aan de slag met contentfragmenten {#gs-fragments}
+# Aan de slag met inhoudsfragmenten {#gs-fragments}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
+>id="acw_homepage_welcome_rn4"
 >title="Inhoudsfragmenten"
->abstract="U kunt nu inhoudsfragmenten maken en gebruiken. Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Wanneer u een fragment wijzigt, wordt alle inhoud die het gebruikt, bijgewerkt."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie Opmerkingen bij de release"
+>abstract="U kunt nu inhoudsfragmenten maken en gebruiken. Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Wanneer u een fragment wijzigt, wordt alle inhoud die het fragment gebruikt, bijgewerkt."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_fragments_menu"
->title="Definieer je eigen contentfragmenten"
->abstract="Een contentfragment is een herbruikbare component waarnaar in een of meer berichten in verschillende campagnes kan worden verwezen. Deze functie wordt gebruikt om vooraf meerdere aangepaste contentblokken samen te stellen die marketinggebruikers kunnen gebruiken om snel inhoud samen te stellen in een verbeterd ontwerpproces. Er zijn twee soorten contentfragmenten: visuele fragmenten, beschikbaar in de e-mailontwerper, en expressiefragmenten in de expressie-editor."
+>title="Uw eigen inhoudsfragmenten definiëren"
+>abstract="Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten via campagnes kan worden verwezen. Dit vermogen wordt gebruikt om veelvoudige blokken van de douaneinhoud prebuild die door marketing gebruikers kunnen worden gebruikt om inhoud in een verbeterd ontwerpproces snel samen te stellen. Er zijn twee soorten inhoudsfragmenten: visuele fragmenten, beschikbaar in de e-mailontwerper, en uitdrukkingsfragmenten in de uitdrukkingsredacteur."
 
-## Wat zijn contentfragmenten? {#what}
+## Wat zijn inhoudsfragmenten? {#what}
 
-Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Wanneer u een fragment wijzigt, wordt alle inhoud die het gebruikt, bijgewerkt. Met deze functionaliteit kunt u vooraf meerdere aangepaste contentblokken samenstellen die marketinggebruikers kunnen gebruiken om snel berichtinhoud samen te stellen in een verbeterd ontwerpproces.
+Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Wanneer u een fragment wijzigt, wordt alle inhoud die het fragment gebruikt, bijgewerkt. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud samenstellen die marketinggebruikers kunnen gebruiken om snel inhoud van berichten samen te stellen in een verbeterd ontwerpproces.
 
 Er zijn twee typen fragmenten beschikbaar:
 
-* **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen die van een specifieke ingang in de uitdrukkingsredacteur beschikbaar zijn. Campaign wordt geleverd met een reeks vooraf gedefinieerde inhoudsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegel van het bericht toevoegen. U kunt ook uw eigen expressiefragmenten maken die aan uw wensen voldoen.
+* **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen die van een specifieke ingang in de uitdrukkingsredacteur beschikbaar zijn. De campagne wordt geleverd met een set vooraf gedefinieerde inhoudsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. U kunt ook uw eigen expressiefragmenten maken die aan uw wensen voldoen.
 
 * **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige [ e-mailleveringen ](../email/get-started-email-designer.md), of in [ inhoudsmalplaatjes ](../email/use-email-templates.md) kunt hergebruiken.
 
   >[!AVAILABILITY]
   >
-  >Deze functie is beschikbaar in LA (Limited Availability). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
+  >Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 
-## Laten we dieper gaan
+## Laten we dieper duiken
 
-Nu je weet wat contentfragmenten zijn en wat je ermee kunt doen in Adobe Campaign, is het tijd om dieper in deze documentatiesecties te gaan werken met de functie.
+Nu u weet welke inhoudsfragmenten er zijn en wat u ermee kunt doen in Adobe Campaign, is het tijd om dieper in deze documentatiegedeelten te duiken om met de functie te gaan werken.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

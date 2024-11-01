@@ -36,11 +36,11 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="E-mailkolommen definiëren"
->abstract="Met de E-mail-Designer kunt u eenvoudig de indeling van uw e-mail definiëren door de kolomstructuur te definiëren."
+>abstract="Met de e-mail Designer kunt u de indeling van uw e-mail eenvoudig definiëren door de kolomstructuur te definiëren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
->title="Startpagina-kolommen definiëren"
+>title="Landingspaginakolommen definiëren"
 >abstract="Met de e-mail Designer kunt u de lay-out van de bestemmingspagina eenvoudig definiëren door de kolomstructuur te definiëren."
 
 >[!CONTEXTUALHELP]
@@ -81,11 +81,11 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 1. Sleep vanuit de sectie **[!UICONTROL Components]** zoveel elementen als u nodig hebt naar een of meer structuren. [ leer meer over inhoudscomponenten ](content-components.md)
 
-1. Elke component kan verder worden aangepast met de tabbladen **[!UICONTROL Settings]** of **[!UICONTROL Style]** aan de rechterkant. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [ Leer meer over groepering en het opvullen ](alignment-and-padding.md)
+1. Elke component kan verder worden aangepast met de tabbladen **[!UICONTROL Settings]** of **[!UICONTROL Style]** aan de rechterkant. U kunt bijvoorbeeld de tekststijl, opvulling of marge van elke component wijzigen. [ leer meer over groepering en het opvullen ](alignment-and-padding.md)
 
    ![](assets/email_designer-styles.png){zoomable="yes"}
 
-1. Voeg personalisatievelden in om je e-mailcontent aan te passen op basis van profieldata. [ Leer meer over inhoudsverpersoonlijking ](../personalization/personalize.md)
+1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. [ Leer meer over inhoudstijdpersonalisatie ](../personalization/personalize.md)
 
 1. Voeg koppelingen toe aan uw inhoud.
 

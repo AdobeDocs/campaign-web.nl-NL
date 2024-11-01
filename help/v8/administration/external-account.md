@@ -1,14 +1,22 @@
 ---
 title: Externe rekening
 description: Leer hoe u externe accounts kunt configureren
-source-git-commit: 6ba9706ce0a2b5431fb619093789ad54af65813f
+source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '526'
 ht-degree: 1%
 
 ---
 
 # Externe accounts configureren {#external-accounts}
+
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Externe accounts"
+>abstract="U kunt nu verbinding maken met extra platforms of de verbindingen aanpassen aan uw workflow en eenvoudig nieuwe externe accounts maken die aan uw specifieke behoeften voldoen en zorgen voor naadloze gegevensoverdracht."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+
 
 >[!AVAILABILITY]
 >

@@ -14,13 +14,13 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
 >title="Doeldimensie selecteren"
->abstract="Met de targetingdimensie kun je de doelgroep van de actie definiëren: ontvangers, contractontvangers, operator, abonnees, enz. Voor e-mails en sms is het doel standaard geselecteerd in de ingebouwde tabel Ontvangers. Voor pushmeldingen is de standaarddoeldimensie Subscriber-toepassingen."
+>abstract="Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel voor e-mails en SMS geselecteerd in de ingebouwde tabel Ontvangers. Voor pushberichten is de standaarddoeldimensie Subscriber-toepassingen."
 
-The targeting dimension, ook bekend als. doeltoewijzing is het type gegevens dat door een bewerking wordt verwerkt. Hiermee kunt u de doelgroep definiëren: profielen, begunstigden van contracten, operators, abonnees, enz.
+De gerichte dimensie, ook bekend als. target mapping, is het type gegevens dat een bewerking verwerkt. Hiermee kunt u de doelgroep definiëren: profielen, begunstigden van contracten, exploitanten, abonnees, enz.
 
-## Targetingdimensies van workflows {#workflow}
+## Doeldimensies van workflows {#workflow}
 
-De targetingdimensie van een workflow wordt gedefinieerd door de eerste **[!UICONTROL Build audience]** -activiteit en wordt gebruikt voor alle verdere activiteiten tot het einde van de workflow. Als u bijvoorbeeld een query uitvoert op de profielen uit de database, bevat de uitgaande overgang gegevens van het type &#39;ontvanger&#39; en wordt deze overgebracht naar de volgende activiteit.
+De doeldimensie van een workflow wordt gedefinieerd door de eerste **[!UICONTROL Build audience]** -activiteit en wordt gebruikt voor alle verdere activiteiten tot het einde van de workflow. Bijvoorbeeld, als u een vraag op de profielen van het gegevensbestand uitvoert, zal de uitgaande overgang gegevens van type &quot;ontvanger&quot;bevatten en het zal aan de volgende activiteit worden overgebracht.
 
 Merk op dat u het richten afmeting in een werkschema kunt schakelen gebruikend de afmetingsactiviteit van de a [ Verandering ](../workflows/activities/change-dimension.md). Hierdoor kunt u bijvoorbeeld de database opvragen in een specifieke tabel, zoals aankopen of abonnementen, en vervolgens de dimensie voor het opgeven van doelen wijzigen in Ontvangers om leveringen naar de bijbehorende profielen te verzenden.
 
@@ -30,7 +30,7 @@ Wanneer het selecteren van een het richten afmeting (in de werkschemamontages, o
 
 ## Doelafmetingen {#list}
 
-Standaard zijn e-mail- en sms-leveringssjablonen bedoeld voor profielen. Hun doelafmeting gebruikt daarom de gebieden van **nms:ontvankelijke** lijst. Voor Push berichten, is de standaarddoelafmeting **de toepassingen van de Abonnee nms:appSubscriptionRcp**, die met de lijst van ontvangers verbonden is.
+Standaard zijn de profielen voor e-mail- en sms-leveringssjablonen bedoeld. Hun doelafmeting gebruikt daarom de gebieden van **nms:ontvankelijke** lijst. Voor de Duw berichten, is de standaarddoelafmeting **toepassingen van de Abonnee nms:appSubscriptionRcp**, die met de lijst van ontvangers verbonden is.
 
 U kunt ook andere ingebouwde doeltoewijzingen gebruiken in uw workflows en leveringen die hieronder worden vermeld:
 
@@ -38,10 +38,10 @@ U kunt ook andere ingebouwde doeltoewijzingen gebruiken in uw workflows en lever
 |---|---|---|
 | Ontvangers | Leveren aan profielen/ontvangers (ingebouwde tabel voor ontvangers) | nms:ontvanger |
 | Bezoekers | Leveren aan bezoekers van wie de profielen via verwijzing (virale marketing) voor bv zijn verzameld. | mns:bezoeker |
-| Lidmaatschappen | Leveren aan profielen die zijn geabonneerd op een informatieservice zoals een nieuwsbrief | nms:abonnement |
+| Lidmaatschappen | Leveren aan profielen die zijn geabonneerd op een informatiedienst zoals een nieuwsbrief | nms:abonnement |
 | Abonnementen van bezoekers | Leveren aan bezoekers die zijn geabonneerd op een informatiedienst | nms:bezoekerSub |
 | Operatoren | Leveren aan Adobe Campaign-operatoren | nms:operator |
-| Extern bestand | Via een bestand leveren dat alle informatie bevat die nodig is voor levering | Geen gekoppeld schema, geen doel ingevoerd |
-| Abonnementtoepassingen | Leveren aan profielen die zijn geabonneerd op een toepassing | nms:appSubscriptionRcp |
+| Extern bestand | Afleveren via een bestand dat alle benodigde informatie voor levering bevat | Geen gekoppeld schema, geen doel ingevoerd |
+| Abonnementstoepassingen | Leveren aan profielen die zijn geabonneerd op een toepassing | nms:appSubscriptionRcp |
 
-Bovendien kunt u een nieuwe doelafbeelding maken, afhankelijk van uw behoeften. Deze bewerking wordt alleen uitgevoerd vanaf de clientconsole. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping) {target="_blank"}.
+Bovendien kunt u een nieuwe doelafbeelding maken, afhankelijk van uw behoeften. Deze bewerking wordt alleen vanaf de clientconsole uitgevoerd. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping) {target="_blank"}.

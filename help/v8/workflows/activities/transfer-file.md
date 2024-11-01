@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: De overdrachtsbestandsactiviteit gebruiken
-description: Leer hoe u de workflowactiviteit Overdragen gebruikt
+title: De bestandsactiviteit voor overbrengen gebruiken
+description: Leer hoe u de workflowactiviteit voor het overdragen van bestanden gebruikt
 exl-id: a40c007e-c0c6-4e0f-aa0d-0260ecb74a03
 source-git-commit: 5d13a654974b8a448c2bbaded46f9f6f5727682f
 workflow-type: tm+mt
@@ -37,13 +37,13 @@ ht-degree: 8%
 >title="Bestandsbron overdragen"
 >abstract="Voer de gewenste bestandsnaam in."
 
-De **activiteit van het Dossier van de Overdracht** is a **het Beheer van Gegevens** activiteit. Hiermee kunt u bestanden ontvangen of verzenden, testen op bestandsaanwezigheid of bestanden weergeven op een server. Het gebruikte protocol kan server-naar-server protocol of het protocol van HTTP zijn.
+De **activiteit van het Dossier van de Overdracht** is a **het Beheer van Gegevens** activiteit. Hiermee kunt u bestanden ontvangen of verzenden, testen op bestandsaanwezigheid of bestanden weergeven op een server. Het gebruikte protocol kan of server-aan-server protocol of het protocol van HTTP zijn.
 
 >[!NOTE]
 >
->Met het Gebruikersinterface van het Web van de Campagne, hebben wij twee activiteiten in één geconsolideerd door beide **overdracht van het Dossier** samen te voegen en **download van het Web** mogelijkheden. Deze consolidatie heeft op geen enkele wijze invloed op de functionaliteit van de activiteit.
+>Met het Gebruikersinterface van het Web van de Campagne, hebben wij twee activiteiten in één geconsolideerd door zowel **overdracht van het Dossier** samen te voegen en **download van het Web** mogelijkheden. Deze consolidatie heeft op geen enkele wijze invloed op de functionaliteit van de activiteit.
 
-Volg de hieronder gedetailleerde stappen om de **activiteit van het Dossier van de Overdracht** te vormen.
+Volg de hieronder gedetailleerde stappen om de **het dossier van de Overdracht** activiteit te vormen.
 
 ## Kies het overdrachtprotocol en de verrichting {#protocol}
 
@@ -54,7 +54,7 @@ Volg de hieronder gedetailleerde stappen om de **activiteit van het Dossier van 
 
 1. Selecteer de handeling die u wilt uitvoeren met de activiteit. Welke acties beschikbaar zijn, is afhankelijk van het type overdracht dat u hebt geselecteerd. Vouw de onderstaande secties uit voor meer informatie.
 
-   +++Acties beschikbaar met **het type van de overdracht van het Dossier** activiteiten
+   +++Acties beschikbaar met **de overdracht van het Dossier** type activiteiten
 
    * **[!UICONTROL File download]**: Download een bestand van de server.
    * **[!UICONTROL File upload]**: upload een bestand naar de server.
@@ -78,7 +78,7 @@ Volg de hieronder gedetailleerde stappen om de **activiteit van het Dossier van 
 
 ## De overdrachtbestemming definiëren {#destination}
 
-1. Geef in de sectie **[!UICONTROL Remote server]** op welke server verbinding moet worden gemaakt door een van de volgende methoden te gebruiken:
+1. Geef in de sectie **[!UICONTROL Remote server]** op welke server u wilt verbinden met behulp van een van de volgende methoden:
 
    * **[!UICONTROL Use connection parameters defined in an external account]**: Maak verbinding met een server met behulp van de verbindingsparameters van een externe account. Geef in het veld **[!UICONTROL Server folder]** het pad op naar het bestand (of naar de map voor handelingen voor het weergeven van bestanden).
    * **[!UICONTROL Quick configuration]**: voer de URL in van het bestand (of de map voor handelingen voor het weergeven van bestanden).
@@ -86,22 +86,22 @@ Volg de hieronder gedetailleerde stappen om de **activiteit van het Dossier van 
 
    ![](../assets/workflow-transfer-file-server.png)
 
-1. Voor de acties van de POST van de download van het Web, kunt u extra parameters met de verrichting overgaan. Klik hiertoe op de knop **[!UICONTROL Add parameter]** en geef de naam en waarde van de parameters op. U kunt zo veel parameters toevoegen als u nodig hebt.
+1. Voor de acties van de POST van de download van het Web, kunt u extra parameters met de verrichting overgaan. Klik hiertoe op de knop **[!UICONTROL Add parameter]** en geef de naam en waarde van de parameters op. U kunt zoveel parameters toevoegen als u nodig hebt.
 
-1. Voor het uploaden van bestanden worden de bestanden die op een server zijn geüpload, standaard automatisch opgeslagen. Als u deze geschiedenis niet wilt behouden, schakelt u de optie **[!UICONTROL Keep history of files sent]** uit.
+1. Voor het uploaden van bestanden worden de bestanden die op een server zijn geüpload standaard automatisch opgeslagen. Schakel de optie **[!UICONTROL Keep history of files sent]** uit als u deze geschiedenis niet wilt behouden.
 
-## Historiatie-instellingen {#historization}
+## Historialisatie-instellingen {#historization}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
->title="Bestandshistoriering"
+>title="Bestandshistorie"
 >abstract="Telkens wanneer een activiteit **[!UICONTROL Transfer file]** wordt uitgevoerd, worden de geüploade of gedownloade bestanden opgeslagen in een speciale map. Er wordt één map gemaakt voor elke activiteit van een workflow in het overdrachtsbestand. Standaard worden bestanden opgeslagen in de standaard opslagmap van de installatiemap van Adobe Campaign (`/vars` ) voordat ze worden verwerkt. Als u een specifieke map wilt gebruiken, schakelt u de optie **[!UICONTROL Use a default storage directory]** uit en voert u het pad van de map in."
 
 Telkens wanneer een activiteit **[!UICONTROL Transfer file]** wordt uitgevoerd, worden de geüploade of gedownloade bestanden opgeslagen in een speciale map. Er wordt één map gemaakt voor elke activiteit van een workflow in het overdrachtsbestand. Standaard worden bestanden opgeslagen in de standaard opslagmap van de installatiemap van Adobe Campaign (`/vars` ) voordat ze worden verwerkt. Als u een specifieke map wilt gebruiken, schakelt u de optie **[!UICONTROL Use a default storage directory]** uit en voert u het pad van de map in.
 
 ![](../assets/workflow-transfer-file-historization.png)
 
-Het is belangrijk dat u de grootte van deze map kunt beperken om de fysieke ruimte op de server te behouden. Hiervoor kunt u een maximumaantal bestanden of een totale grootte voor de map van de activiteit definiëren. Standaard zijn 100 bestanden en 50 MB geautoriseerd.
+Het is belangrijk dat u de grootte van deze map kunt beperken om de fysieke ruimte op de server te behouden. Hiertoe kunt u een maximumaantal bestanden of een totale grootte voor de map van de activiteit definiëren. Standaard zijn 100 bestanden en 50 MB geautoriseerd.
 
 Telkens wanneer de activiteit wordt uitgevoerd, wordt de map als volgt gecontroleerd:
 
@@ -122,7 +122,7 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de map als volgt gecontrol
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_advancedoptions_display_logs"
->title="Sessielogboeken weergeven"
+>title="De sessielogboeken weergeven"
 >abstract="Informatie over de overdrachtsbewerking wordt weergegeven in de werkstroomlogboeken."
 
 >[!CONTEXTUALHELP]
@@ -146,7 +146,7 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de map als volgt gecontrol
 
    * **[!UICONTROL Delete the source files after transfer]**: Wis de bronbestanden na een geslaagde overdracht.
    * **[!UICONTROL Display the session logs]**: Wanneer deze optie wordt geactiveerd, wordt informatie over de overdrachtsbewerking weergegeven in de werkstroomlogboeken nadat de workflow is uitgevoerd.
-   * **[!UICONTROL List all files]** (Handelingen voor bestandenlijsten): met deze optie worden alle bestanden geïndexeerd die zich op de server bevinden in de gebeurtenisvariabele `vars.filenames` , waarin de bestandsnamen worden gescheiden door de `n` -tekens. [ Leer hoe te met gebeurtenisvariabelen ](../event-variables.md) te werken
+   * **[!UICONTROL List all files]** (Handelingen in bestandenlijsten): met deze optie worden alle bestanden geïndexeerd die zich op de server bevinden in de gebeurtenisvariabele `vars.filenames` , waarin de bestandsnamen worden gescheiden door de tekens `n` . [ Leer hoe te met gebeurtenisvariabelen ](../event-variables.md) te werken
 
 +++
 
@@ -156,6 +156,6 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de map als volgt gecontrol
    * **[!UICONTROL Add the HTTP headers to the file]**: In sommige gevallen kunt u extra HTTP-headers aan een bestand toevoegen. Meestal, zullen deze kopballen worden gebruikt om extra informatie voor het oplossen van problemendoeleinden, voor [ het Delen van het Middel van de Cross-Origin (CORS) ](https://developer.mozilla.org/docs/Web/HTTP/CORS) te verstrekken, of specifieke caching richtlijnen te plaatsen.
    * **[!UICONTROL Ignore the HTTP return code]**: HTTP-retourcodes, ook wel HTTP-statuscodes genoemd, geven het resultaat van een HTTP-aanvraag aan.
 
-1. Met de optie **[!UICONTROL Process errors]** kunt u een uitgaande Error-overgang activeren na de activiteit als er tijdens de overdracht een fout optreedt.
+1. Met de optie **[!UICONTROL Process errors]** kunt u een uitgaande overgang van het type Error activeren na de activiteit als er een fout optreedt tijdens de overdracht.
 
-   Bovendien, voor **typeactiviteiten van de Overdracht van het 0} Dossier, staat de **[!UICONTROL Process missing file]**optie u toe om een &quot;Geen dossier&quot;uitgaande overgang na de activiteit te activeren als het dossier niet beschikbaar op de gespecificeerde weg is.**
+   Bovendien, voor **het type van de Overdracht van het Dossier** activiteiten, staat de **[!UICONTROL Process missing file]** optie u toe om een &quot;Geen dossier&quot;uitgaande overgang na de activiteit te activeren als het dossier niet beschikbaar op de gespecificeerde weg is.

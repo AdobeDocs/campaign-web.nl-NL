@@ -15,7 +15,7 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription"
 >title="Activiteit abonnementsdiensten"
->abstract="Met de activiteit Subscription services kunnen meerdere profielen in één actie worden geabonneerd op of afgemeld van een service."
+>abstract="De de dienstenactiviteit van de Abonnementsdiensten staat veelvoudige profielen toe om aan of van de dienst in één enkele actie worden geabonneerd te zijn."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_general"
@@ -30,17 +30,17 @@ ht-degree: 15%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_subscription_additionalinfo"
 >title="Aanvullende informatie"
->abstract="Geef de gegevens en de oorsprong van het abonnement voor elke record op. U kunt deze sectie leeg laten, in welk geval er geen datum of oorsprong wordt ingesteld tijdens het uitvoeren van de workflow. Als de binnenkomende gegevens een kolom bevatten die de abonnementsdatum van het profiel voor de service aangeeft, kunt u deze selecteren in het veld **[!UICONTROL Date]** . Definieer in het veld **[!UICONTROL Origin path]** de oorsprong van het abonnement. U kunt de eigenschap instellen op een van de velden van de binnenkomende gegevens of op een constante waarde van uw keuze door de optie **[!UICONTROL Set a constant as origin]** te selecteren."
+>abstract="Geef de gegevens en de oorsprong van het abonnement voor elke record op. U kunt deze sectie leeg laten, in welk geval er geen datum of oorsprong wordt ingesteld wanneer de workflow wordt uitgevoerd. Als de binnenkomende gegevens een kolom bevatten die de abonnementdatum van het profiel voor de service aangeeft, kunt u deze selecteren in het veld **[!UICONTROL Date]** . Definieer in het veld **[!UICONTROL Origin path]** de oorsprong van het abonnement. U kunt dit instellen op een van de velden van de binnenkomende gegevens of op een constante waarde van uw keuze door de optie **[!UICONTROL Set a constant as origin]** te selecteren."
 
 De **activiteit van de diensten van het Abonnement van 0} is a** het Beheer van Gegevens **activiteit.** Hiermee kunt u een abonnement op een informatieservice maken of verwijderen voor de populatie die is opgegeven in de overgang.
 
 ## Vorm de de dienstenactiviteit van het Abonnement {#subscription-services-configuration}
 
-Volg deze stappen om de **activiteit van de Diensten van het Abonnement** te vormen:
+Volg deze stappen om de **activiteit te vormen van de diensten van het 0} Abonnement {:**
 
-1. Voeg de diensten van het a **Abonnement** activiteit in uw werkschema toe. U kunt deze activiteit gebruiken nadat u zich hebt gericht op profielen of een bestand met geïdentificeerde gegevens hebt geïmporteerd.
+1. Voeg de diensten van het a **Abonnement** activiteit in uw werkschema toe. U kunt deze activiteit gebruiken na het richten van profielen of het invoeren van een dossier met geïdentificeerde gegevens.
 
-1. Selecteer de service waarvoor u de abonnementen wilt beheren aan de hand van een van de volgende opties:
+1. Selecteer de service waarvoor u de abonnementen wilt beheren met een van de volgende opties:
 
    * **[!UICONTROL Select a specific service]**: selecteer handmatig een service met het veld **[!UICONTROL Service]** .
 
@@ -54,7 +54,7 @@ Volg deze stappen om de **activiteit van de Diensten van het Abonnement** te vor
 
    * **selecteer een specifiek verrichtingstype**: Selecteer manueel de uit te voeren verrichting (**Abonneren** of **Unsubscribe**)
 
-   * **selecteer een verrichtingstype van een weg van binnenkomende overgang**: Selecteer de kolom van de binnenkomende gegevens die de verrichting om voor elk verslag specificeert uit te voeren. U kunt bijvoorbeeld een bestand importeren dat de bewerking aangeeft die voor elke regel moet worden uitgevoerd in een kolom &quot;bewerking&quot;.
+   * **selecteer een verrichtingstype van een weg van binnenkomende overgang**: Selecteer de kolom van de binnenkomende gegevens die de verrichting specificeert om voor elk verslag uit te voeren. U kunt bijvoorbeeld een bestand importeren dat de bewerking opgeeft die moet worden uitgevoerd voor elke regel in een kolom &quot;operation&quot;.
 
      U kunt hier alleen Booleaanse velden of velden met gehele getallen selecteren. Zorg ervoor dat de gegevens met de uit te voeren bewerking overeenkomen met deze indeling. Als u bijvoorbeeld gegevens laadt uit een activiteit van het type Load file, controleert u of u de indeling van de kolom met de bewerking correct hebt ingesteld in de activiteit **[!UICONTROL Load file]** . Een voorbeeld wordt voorgesteld in [ deze sectie ](#uc2).
 
@@ -64,9 +64,9 @@ Volg deze stappen om de **activiteit van de Diensten van het Abonnement** te vor
 
    ![](../assets/workflow-subscription-service-inbound.png)
 
-1. Schakel de optie **[!UICONTROL Send a confirmation message]** in als u ontvangers wilt laten weten dat ze zijn geabonneerd op of geen abonnement hebben op de geselecteerde service. De inhoud van deze melding wordt gedefinieerd in een leversjabloon die is gekoppeld aan de informatiedienst.
+1. Schakel de optie **[!UICONTROL Send a confirmation message]** in als u ontvangers wilt laten weten dat ze zijn geabonneerd op of geen abonnement hebben op de geselecteerde service. De inhoud van dit bericht wordt bepaald in een leveringsmalplaatje verbonden aan de informatiedienst.
 
-1. Als u gegevens uit een inkomende overgang gebruikt, wordt een **[!UICONTROL Additional information]** -sectie weergegeven waarin u de gegevens en de oorsprong van het abonnement voor elke record kunt opgeven. U kunt deze sectie leeg laten, in welk geval er geen datum of oorsprong wordt ingesteld tijdens het uitvoeren van de workflow.
+1. Als u gegevens van een binnenkomende overgang gebruikt, wordt een **[!UICONTROL Additional information]** sectie weergegeven, waarmee u de gegevens en de oorsprong van het abonnement voor elke record kunt opgeven. U kunt deze sectie leeg laten, in welk geval er geen datum of oorsprong wordt ingesteld wanneer de workflow wordt uitgevoerd.
 
    * Als de binnenkomende gegevens een kolom bevatten die de abonnementdatum van het profiel voor de service aangeeft, kunt u deze selecteren in het veld **[!UICONTROL Date]** .
 
@@ -78,7 +78,7 @@ Volg deze stappen om de **activiteit van de Diensten van het Abonnement** te vor
 
 ## Voorbeelden {#example}
 
-### Een doelgroep abonneren op een specifieke service {#uc1}
+### Een publiek abonneren op een specifieke service {#uc1}
 
 Deze workflow hieronder laat zien hoe u een publiek kunt abonneren op een bestaande service.
 
@@ -105,9 +105,9 @@ In de onderstaande workflow ziet u hoe u een bestand met profielen kunt importer
   Durance,Alison,San Francisco,15/12/2000,allison.durance@example.com,running,unsub
   ```
 
-  Zoals u misschien hebt opgemerkt, wordt de bewerking in het bestand opgegeven als ‘sub’ of ‘unsub’. Het systeem verwacht dat een waarde **Boolean** of **Integer** de bewerking herkent die moet worden uitgevoerd: 0 voor uitschrijven en 1 voor inschrijven. Aan deze vereiste voldoen:
+  Zoals u misschien hebt opgemerkt, wordt de bewerking in het bestand opgegeven als ‘sub’ of ‘unsub’. Het systeem verwacht dat een waarde **Boolean** of **Integer** de bewerking herkent die moet worden uitgevoerd: 0 voor uitschrijven en 1 voor inschrijven. Aan deze eis voldoen:
    * Het **type van Gegevens** voor de &quot;verrichting&quot;kolom wordt geplaatst aan geheel.
-   * A **opnieuw in kaart brengen van de Waarde** moet worden uitgevoerd om de &quot;sub&quot;en &quot;unsub&quot;waarden met &quot;1&quot;en &quot;0&quot;waarden aan te passen.
+   * A **opnieuw toewijzen van de Waarde** moet worden uitgevoerd om &quot;sub&quot;en &quot;unsub&quot;waarden met &quot;1&quot;en &quot;0&quot;waarden aan te passen.
 
   ![](../assets/workflow-subscription-service-uc2-mapping.png)
 
@@ -121,7 +121,7 @@ In de onderstaande workflow ziet u hoe u een bestand met profielen kunt importer
 
   ![](../assets/workflow-subscription-service-uc2-enrichment.png)
 
-* A **[!UICONTROL Subscription Services]** identificeert de services die moeten worden bijgewerkt als zijnde afkomstig van de overgang.
+* A **[!UICONTROL Subscription Services]** identificeert de services die moeten worden bijgewerkt als afkomstig van de overgang.
 
   Het **[!UICONTROL Operation type]** wordt geïdentificeerd als afkomstig van het veld **operation** van het bestand. U kunt hier alleen de velden Boolean of Integer selecteren. Als de kolom van het bestand dat de uit te voeren bewerking bevat, niet in de lijst voorkomt, moet u controleren of u de kolomindeling in de activiteit **[!UICONTROL Load file]** correct hebt ingesteld, zoals eerder in dit voorbeeld wordt uitgelegd.
 

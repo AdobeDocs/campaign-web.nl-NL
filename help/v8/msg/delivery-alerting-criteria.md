@@ -1,7 +1,7 @@
 ---
 audience: end-user
-title: Leveringswaarschuwing
-description: Leer hoe je werkt met aanleveringswaarschuwingen.
+title: Afleveringswaarschuwing
+description: Leer hoe u werkt met waarschuwingsberichten voor leveringen.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
 source-git-commit: bbfee1479593ff6ae3f77ef5bfd760d63e640c76
 workflow-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria"
->title="Dashboard voor leveringsmeldingscriteria"
+>title="Dashboard voor leveringswaarschuwingscriteria"
 >abstract="De gebruikersinterface van het Web van de campagne verstrekt vooraf bepaalde alarmerende criteria (leveringen met lage productie, leveranties de waarvan voorbereiding ontbrak...) die u aan uw dashboard kunt toevoegen. U kunt ook uw eigen criteria maken die aan uw behoeften voldoen."
 
 De gebruikersinterface van het Web van de campagne verstrekt vooraf bepaalde alarmerende criteria (leveringen met lage productie, leveranties de waarvan voorbereiding ontbrak...) die u aan uw dashboard kunt toevoegen. U kunt ook uw eigen criteria maken die aan uw behoeften voldoen.
@@ -25,12 +25,12 @@ Het waarschuwen van criteria is toegankelijk van het **Alarm van de Levering** m
 
 ## Vooraf gedefinieerde waarschuwingscriteria {#ootb-criteria}
 
-Vooraf gedefinieerde waarschuwingscriteria zijn beschikbaar in de webgebruikersinterface van Campaign. Deze criteria bestrijken een reeks scenario&#39;s, die hieronder worden opgesomd:
+Vooraf gedefinieerde waarschuwingscriteria zijn beschikbaar in de webgebruikersinterface van Campagne. Deze criteria bestrijken een reeks scenario&#39;s, die hieronder worden opgesomd:
 
-* **leverde ontbroken**: Om het even welke levering die binnen een bepaalde waaier, met een verkeerde status wordt gepland.
+* **Leveringen ontbrak**: Om het even welke levering die binnen een bepaalde waaier, met een verkeerde status wordt gepland.
 * **Leveringen met ontbroken voorbereiding**: Om het even welke levering die binnen een bepaalde waaier wordt gewijzigd, waarvoor de voorbereidingsstap (doelberekening en inhoudsgeneratie) is ontbroken.
-* **Levering met slechte foutenverhouding voor zachte stuiters**: Om het even welke levering die binnen een bepaalde waaier, met een status minstens wordt gepland, met een zachte stuitfoutenverhouding groter dan een bepaald percentage.
-* **Levering met slechte foutenverhouding voor harde stuiters**: Om het even welke levering die binnen een bepaalde waaier, met een status wordt gepland minstens lopend, met een harde stuitfoutenverhouding groter dan een bepaald percentage.
+* **Levering met slechte foutenverhouding voor zachte stuiters**: Om het even welke levering die binnen een bepaalde waaier, met een status wordt gepland minstens Bezig, met een zachte stuiteringsfoutenverhouding groter dan een bepaald percentage.
+* **Levering met slechte foutenverhouding voor harde stuiters**: Om het even welke levering die binnen een bepaalde waaier, met een status wordt gepland minstens Bezig, met een harde stuitfoutenverhouding groter dan een bepaald percentage.
 * **Leveringen met lange begin hangende**: Om het even welke levering die binnen een bepaalde waaier, met een Begin in afwachting van status voor langer dan een bepaalde duur wordt gepland, Begin in afwachting van status betekenend dat de berichten nog niet met door het systeem in rekening zijn gebracht.
 * **Leveringen met lage productie**: Om het even welke levering begon langer dan een bepaalde duur, met minder dan een bepaald percentage verwerkte berichten, met een productie lager dan een bepaalde waarde.
 * **Leveringen lopend**: Om het even welke levering die binnen een bepaalde waaier, met de Bezig status wordt gepland.
@@ -44,16 +44,16 @@ Vooraf gedefinieerde waarschuwingscriteria zijn beschikbaar in de webgebruikersi
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create"
 >title="Waarschuwingscriteria voor levering maken"
->abstract="Naast de vooraf gedefinieerde waarschuwingscriteria van Adobe Campaign, kunt u uw eigen criteria maken om aan uw behoeften te voldoen."
+>abstract="Naast de vooraf gedefinieerde waarschuwingscriteria van Adobe Campaign kunt u zelf criteria maken die aan uw behoeften voldoen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_indicators"
->title="Indicatoren voor toevoeging aan waarschuwingen"
+>title="Indicatoren die moeten worden toegevoegd aan signaleringen"
 >abstract="Selecteer de indicatoren die u als kolommen wilt weergeven in de sectie &quot;Details&quot; van de e-mailwaarschuwingen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_alerting_criteria_create_alert"
->title="Het type Alert"
+>title="Type waarschuwing"
 >abstract="Specificeer het **Type van Alarm** voor het criterium, betekenend het etiket en de kleur naast het leveringscriterium in de &quot;Samenvatting&quot;sectie van het alarm te tonen."
 
 >[!CONTEXTUALHELP]
@@ -68,12 +68,12 @@ Vooraf gedefinieerde waarschuwingscriteria zijn beschikbaar in de webgebruikersi
 
 Ga als volgt te werk om een nieuw criterium te maken:
 
-1. Navigeer aan het **Uitlevering** menu in de linkernavigatieruit en selecteer de **3} tabel van Criteria.**
-1. Klik **creeer leverings alarmcriteria** knoop.
+1. Navigeer aan het **Uitlevering Alitoring** menu in de linkernavigatieruit en selecteer het **3} lusje van Criteria {.**
+1. Klik **creeer levering alarmerende criteria** knoop.
 1. Geef een label voor het criterium op. De interne naam wordt automatisch ingevuld en heeft het kenmerk Alleen-lezen.
-1. Het **filter van de Levering dat door deze criteria** wordt toegepast staat u toe om het werkingsgebied van het criterium te verfijnen door een vooraf bepaald filter op het toe te passen.
+1. Het **filter van de Levering dat door deze criteria** wordt toegepast staat u toe om het werkingsgebied van het criterium te verfijnen door een vooraf bepaalde filter op het toe te passen.
 
-   In het voorbeeld hieronder, is de **Geleveringen in voortgang (critInProgressDeliveries)** filter geselecteerd, betekenend dat het criterium slechts rekening houdt met leveringen met de &quot;Bezig&quot;status.
+   In het voorbeeld hieronder, is de **Geleveringen in uitvoering (critInProgressDeliveries)** filter geselecteerd, betekenend dat het criterium slechts rekening met leveringen met de &quot;Bezig&quot;status houdt.
 
    ![](assets/alerting-criteria-properties.png)
 
@@ -90,4 +90,4 @@ Ga als volgt te werk om een nieuw criterium te maken:
 1. De **sectie van de Frequentie van Criteria** staat u toe om de frequentie van alarm per dag voor elke levering te controleren die aan het criterium voldoet:
 
    * **Dit leveringscriterium zal in elk bericht** worden herhaald: Toon een levering die aan het criterium in elke e-mailalarm van de dag voldoet.
-   * **Dit leveringscriterium wordt verzonden slechts op het eerste voorkomen van de dag**: Toon een levering die aan het criterium in het eerste rapport van de dag voldoet slechts, niet herhaald in verdere e-mailwaarschuwingen.
+   * **Dit leveringscriterium wordt verzonden slechts op het eerste voorkomen van de dag**: Toon een levering die aan het criterium in het eerste rapport van de dag voldoet slechts, niet die in verdere e-mailalarm wordt herhaald.

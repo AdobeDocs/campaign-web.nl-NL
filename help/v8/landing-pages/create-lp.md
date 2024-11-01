@@ -1,6 +1,6 @@
 ---
 title: Een landingspagina maken
-description: Leer hoe u een openingspagina in Campaign Web kunt configureren en publiceren
+description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
 source-git-commit: 865978dd8083723187a90647060f8758d4d888be
@@ -10,11 +10,11 @@ ht-degree: 1%
 
 ---
 
-# Openingspagina&#39;s maken en publiceren {#create-lp}
+# bestemmingspagina&#39;s maken en publiceren {#create-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_menu"
->title="Openingspagina&#39;s maken en beheren"
+>title="Landingspagina&#39;s maken en beheren"
 >abstract="Met Adobe Campaign kunt u landingspagina&#39;s maken, ontwerpen en delen en uw gebruikers naar online webpagina&#39;s sturen waar u aanschafgevallen, abonnementen en abonnementen en gebruiksgevallen voor lijsten van gewezen personen kunt beheren op basis van ingebouwde sjablonen."
 
 In de gebruikersinterface van het Web Campagne kunt u bestemmingspagina&#39;s maken, ontwerpen en publiceren. Na publicatie kunt u een koppeling naar het formulier invoegen in een levering. Nadat de ontvangers op die koppeling klikken, worden ze naar de bijbehorende bestemmingspagina geleid.
@@ -39,14 +39,14 @@ In de **[!UICONTROL Landing pages]** -voorraad worden alle gemaakte items weerge
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
-U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een openingspagina om de gewenste actie te selecteren.
+U kunt een openingspagina dupliceren of verwijderen. Klik op de ellips naast een landingspagina om de gewenste actie te selecteren.
 
 ## Een landingspagina maken {#create-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_properties"
 >title="De eigenschappen van de openingspagina definiëren"
->abstract="Vul de eigenschappenvelden zoals het label in en wijzig indien nodig het schema. Bovendien kunt u de interne naam bewerken, de map wijzigen waarin de openingspagina is opgeslagen en een beschrijving opgeven."
+>abstract="Vul de eigenschappenvelden zoals het label in en wijzig indien nodig het schema. Bovendien kunt u de interne naam bewerken, de map wijzigen waarin de bestemmingspagina is opgeslagen en een beschrijving opgeven."
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_pages_list"
@@ -104,15 +104,15 @@ Ga als volgt te werk om een bestemmingspagina te maken:
 
 1. In de sectie **[!UICONTROL Data preload]** zijn de twee onderstaande opties beschikbaar:
 
-   * Als de optie **[!UICONTROL Pre-fill with the data referenced in the form]** is geselecteerd en de bezoeker van de landingspagina overeenkomt met een profiel uit de database, worden de profielgegevens automatisch vooraf in het formulier geladen. De gebruiker hoeft alleen de ontbrekende velden in te vullen en de bestaande waarden indien nodig bij te werken. Hiermee kunt u gegevens voor bestaande profielen samenvoegen in plaats van duplicaten te maken.
+   * Als de optie **[!UICONTROL Pre-fill with the data referenced in the form]** is geselecteerd en de bezoeker van de bestemmingspagina een profiel uit de database heeft, worden de profielgegevens automatisch in het formulier voorgeladen. De gebruiker hoeft alleen de ontbrekende velden in te vullen en de bestaande waarden indien nodig bij te werken. Hiermee kunt u gegevens voor bestaande profielen samenvoegen in plaats van duplicaten te maken.
 
      >[!NOTE]
      >
-     >Deze optie is standaard geselecteerd voor alle sjablonen voor landingspagina&#39;s.
+     >Deze optie is standaard geselecteerd voor alle sjablonen van de bestemmingspagina.
 
    <!--* The **[!UICONTROL Skip preloading if no ID]** option must be selected if you do not wish to update profiles. In this case, each profile entered will be added to the database after approval of the form. This option is used, for example, when the form is posted on a website.-->
 
-   * Met de optie **[!UICONTROL Authorize absence of ID]** heeft elke bezoeker toegang tot de openingspagina. Als u deze optie uitschakelt, kunnen anonieme bezoekers het formulier niet gebruiken. Dit betekent dat alleen bepaalde gebruikers het formulier kunnen openen en verzenden.
+   * Met de optie **[!UICONTROL Authorize absence of ID]** heeft een bezoeker toegang tot de openingspagina. Als u deze optie uitschakelt, kunnen anonieme bezoekers het formulier niet gebruiken. Dit betekent dat alleen bepaalde gebruikers het formulier kunnen openen en verzenden.
 
      >[!AVAILABILITY]
      >
@@ -134,19 +134,19 @@ Ga als volgt te werk om een bestemmingspagina te maken:
 
    >[!AVAILABILITY]
    >
-   >Deze functie is beschikbaar in LA (Limited Availability). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
+   >Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 
    ![](assets/lp-additional-data.png){zoomable="yes"}
 
-1. U kunt een begindatum en een einddatum voor uw landingspagina definiëren. Selecteer **[!UICONTROL Enable scheduling]** en stel de datums in.
+1. U kunt een begindatum en een einddatum voor uw landingspagina bepalen. Selecteer **[!UICONTROL Enable scheduling]** en stel de datums in.
 
    ![](assets/lp-schedule.png){zoomable="yes"}
 
-   * De openingspagina wordt automatisch gepubliceerd op de opgegeven begindatum/tijd.
+   * De landingspagina wordt automatisch gepubliceerd op de opgegeven begindatum/tijd.
 
      >[!NOTE]
      >
-     >Als er geen begindatum is gedefinieerd, wordt de landingspagina actief zodra deze is gepubliceerd.
+     >Als er geen begindatum is gedefinieerd, wordt de landingspagina actief zodra deze wordt gepubliceerd.
 
    * Wanneer de pagina de einddatum bereikt, <!--the landing page is automatically unpublished and --> is het formulier niet meer beschikbaar. In plaats daarvan wordt de pagina **[!UICONTROL Expiration]** weergegeven.
 
@@ -177,15 +177,15 @@ Klik op de knop **[!UICONTROL Review and publish]** en **[!UICONTROL Simulate co
 
 >[!NOTE]
 >
->De captcha-widget in Adobe Campaign v8 werkt in de zwevende modus. Deze wordt tijdens de validatie weergegeven en verdwijnt zodra het proces is voltooid.
+>De widget captcha in Adobe Campaign v8 werkt in de zwevende modus. Deze wordt tijdens de validatie weergegeven en verdwijnt zodra het proces is voltooid.
 
 
 ## De openingspagina testen {#test-landing-page}
 
 >[!CONTEXTUALHELP]
 >id="acw_landingpages_simulate"
->title="Uw openingspagina simuleren"
->abstract="U kunt een voorvertoning van uw openingspagina zien in de gebruikersinterface van het Web Campaign of deze openen op een nieuw tabblad van de webbrowser."
+>title="De openingspagina simuleren"
+>abstract="U kunt een voorproef van uw het landen pagina in het gebruikersinterface van het Web van de Campagne zien of het openen in een nieuw Web browser tabel."
 
 >[!CONTEXTUALHELP]
 >id="ac_preview_lp_profiles"

@@ -29,7 +29,7 @@ Verschillende services kunnen parallel worden gedefinieerd, bijvoorbeeld: nieuws
 
 Volg onderstaande stappen om abonnementsservices die beschikbaar zijn voor uw platform te openen.
 
-1. Blader naar het menu **[!UICONTROL Subscription services]** in het navigatiespoor links.
+1. Blader naar het menu **[!UICONTROL Subscription services]** op de linkernavigatieregel.
 
    ![](assets/service-list.png){zoomable="yes"}
 
@@ -51,11 +51,11 @@ Volg onderstaande stappen om abonnementsservices die beschikbaar zijn voor uw pl
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_list_confirm"
 >title="Selecteer een bevestigingsbericht"
->abstract="Wanneer een gebruiker zich abonneert op een service of zich afmeldt bij een service, kunt u een bevestigingsbericht verzenden. Selecteer de sjablonen die u voor dat bericht wilt gebruiken."
+>abstract="Wanneer een gebruiker zich abonneert op of zich niet abonneert op een service, kunt u een bevestigingsbericht verzenden. Selecteer de sjablonen die u voor dat bericht wilt gebruiken."
 
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_defaultlp"
->title="Standaardstartpagina"
+>title="Standaardlandingspagina"
 >abstract="Selecteer de standaardbestemmingspagina&#39;s verbonden aan deze dienst."
 
 Voer de onderstaande stappen uit om een abonnementenservice te maken.
@@ -76,11 +76,11 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 
    U kunt de optie **[!UICONTROL Unlimited validity period]** uitschakelen om een geldigheidsduur voor de service te definiëren. Na afloop van de geldigheidsperiode:
    * Geen profiel kan zich meer abonneren op deze service
-   * Alle abonnees op deze service worden automatisch buiten het abonnement geplaatst
+   * Alle abonnees op deze service worden automatisch afgemeld
 
    ![](assets/service-create-validity-period.png){zoomable="yes"}
 
-1. Wanneer een gebruiker zich abonneert op een service of zich afmeldt bij een service, kunt u een bevestigingsbericht verzenden. Selecteer de sjablonen die u voor dat bericht wilt gebruiken, afhankelijk van uw gebruiksscenario. Deze sjablonen moeten worden geconfigureerd met de doeltoewijzing **[!UICONTROL Subscriptions]** . [Meer informatie](#create-confirmation-message)
+1. Wanneer een gebruiker zich abonneert op of zich niet abonneert op een service, kunt u een bevestigingsbericht verzenden. Selecteer de sjablonen die u voor dat bericht wilt gebruiken, afhankelijk van uw gebruiksscenario. Deze sjablonen moeten worden geconfigureerd met de doeltoewijzing **[!UICONTROL Subscriptions]** . [Meer informatie](#create-confirmation-message)
 
    ![](assets/service-create-confirmation-msg.png){zoomable="yes"}
 
@@ -94,11 +94,11 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 
    ![](assets/service-create-default-lp.png){zoomable="yes"}
 
-   Zodra gedaan, wanneer [ het opnemen van een verbinding ](../email/message-tracking.md) in een e-mail, selecteer **[!UICONTROL Subscription link]** of **[!UICONTROL Unsubscription link]**. Als gebruikers op die koppeling klikken, wordt de bestemmingspagina van het abonnement of de startpagina voor het abonnement waarnaar in de service wordt verwezen, geopend. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
+   Zodra gedaan, wanneer [ het opnemen van een verbinding ](../email/message-tracking.md) in e-mail, uitgezocht **[!UICONTROL Subscription link]** of **[!UICONTROL Unsubscription link]**. Als gebruikers op die koppeling klikken, worden ze doorgestuurd naar de bestemmingspagina voor abonnementen of abonnementen waarnaar in de service wordt verwezen. <!--After submitting the form, they will be subscribed to / unsubscribed from the service.-->
 
    ![](assets/service-create-default-lp-link.png){zoomable="yes"}
 
-1. Sla uw wijzigingen op en bekijk deze.
+1. Sla uw wijzigingen op en controleer deze.
 
 U kunt nu het volgende:
 
@@ -113,7 +113,7 @@ U kunt nu het volgende:
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_delivery_template"
 >title="De leveringssjabloon voor abonnementen selecteren"
->abstract="Als u bevestigingsberichten wilt verzenden naar gebruikers die zijn geabonneerd op uw service, moet u een specifieke leveringssjabloon selecteren op basis van de **[!UICONTROL Subscriptions]** -doeltoewijzing, zonder een gedefinieerd doel."
+>abstract="Als u bevestigingsberichten wilt verzenden aan gebruikers die zich op uw service abonneren, moet u een specifieke leveringssjabloon selecteren op basis van de doeltoewijzing van **[!UICONTROL Subscriptions]** , zonder een gedefinieerd doel."
 
 
 >[!CONTEXTUALHELP]
@@ -125,15 +125,15 @@ Als u bevestigingsberichten wilt verzenden naar gebruikers die zich op uw servic
 
 1. Een leveringssjabloon maken voor de bevestiging van een abonnement. [ Leer hoe te om een malplaatje ](../msg/delivery-template.md) tot stand te brengen
 
-1. Selecteer geen publiek voor deze levering. In plaats daarvan, heb toegang tot levering **[!UICONTROL Settings]**, ga naar het [ lusje van het Publiek ](../advanced-settings/delivery-settings.md#audience) en selecteer de **[!UICONTROL Subscriptions]** doelafbeelding van de lijst.
+1. Selecteer geen publiek voor deze levering. In plaats daarvan, toegang tot levering **[!UICONTROL Settings]**, ga naar het [ Publiek ](../advanced-settings/delivery-settings.md#audience) lusje en selecteer de **[!UICONTROL Subscriptions]** doelafbeelding van de lijst.
 
    ![](assets/service-confirmation-template-mapping.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Als u de doeltoewijzing van **[!UICONTROL Subscriptions]** niet selecteert, ontvangen uw abonnees het bevestigingsbericht niet. Leer meer over doelafbeeldingen in [ deze sectie ](../audience/targeting-dimensions.md).
+   >Als u de doeltoewijzing **[!UICONTROL Subscriptions]** niet selecteert, ontvangen de abonnees het bevestigingsbericht niet. Leer meer over doelafbeeldingen in [ deze sectie ](../audience/targeting-dimensions.md).
 
-1. Bewerk de inhoud van uw leversjabloon, sla deze op en sluit deze.
+1. Bewerk de inhoud van de leveringssjabloon, sla deze op en sluit deze.
 
    ![](assets/service-confirmation-template.png){zoomable="yes"}
 
@@ -165,9 +165,9 @@ U kunt deze berichten nu selecteren wanneer [ het creëren van de abonnementendi
 >[!CONTEXTUALHELP]
 >id="acw_subscriptions_overallevolution_subscribers"
 >title="Algemene ontwikkeling van abonnementen"
->abstract="Deze grafiek toont de uitsplitsing naar periode, inclusief abonnementen, aanmeldingen, de ontwikkeling in aantallen en het loyaliteitspercentage."
+>abstract="Deze grafiek toont de uitsplitsing naar periode, met inbegrip van abonnementen, abonnementen, abonnementen, de ontwikkeling in aantallen en het loyaliteitspercentage."
 
-Om de effectiviteit van uw abonnementsservices voor sms- en e-mailkanalen te meten, hebt u toegang tot de logboeken en rapporten voor een bepaalde service.
+Om de doeltreffendheid van uw abonnementsdiensten voor SMS en e-mailkanalen te meten, kunt u tot de logboeken en de rapporten voor een bepaalde dienst toegang hebben.
 
 1. Selecteer een bestaande service in de lijst **[!UICONTROL Subscription services]** . Klik op **[!UICONTROL Calculate]** om het totale aantal abonnees op te halen.
 
@@ -183,11 +183,11 @@ Om de effectiviteit van uw abonnementsservices voor sms- en e-mailkanalen te met
 
    * De **[!UICONTROL Total numbers of subscribers]** wordt weergegeven.
 
-   * U kunt het aantal abonnementen en afmeldingen over een geselecteerde periode bekijken. Gebruik de vervolgkeuzelijst om het tijdbereik te wijzigen.
+   * U kunt het aantal abonnementen en abonnementen over een geselecteerde periode bekijken. Gebruik de vervolgkeuzelijst om het tijdbereik te wijzigen.
 
      ![](assets/service-reports.png){zoomable="yes"}
 
-   * De grafiek van **[!UICONTROL Overall evolution of subscriptions]** toont de uitsplitsing door periode, met inbegrip van abonnementen, unsubscritions, de evolutie in aantallen en het loyaliteitspercentage.<!--what is Registered?-->
+   * De grafiek **[!UICONTROL Overall evolution of subscriptions]** toont de uitsplitsing door periode, met inbegrip van abonnementen, unsubcriptions, de evolutie in aantallen en het loyaliteitspercentage.<!--what is Registered?-->
 
 1. Gebruik de knop **[!UICONTROL Reload]** om de laatste waarden op te halen uit de uitvoering en het schema van de workflow voor bijhouden.
 
