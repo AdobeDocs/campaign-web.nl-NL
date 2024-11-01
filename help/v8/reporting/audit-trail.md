@@ -4,9 +4,9 @@ title: Audit trail
 description: Leer hoe u uw exemplaar kunt controleren met het Campagne Audit Trail
 feature: Audit Trail, Monitoring, Workflows
 exl-id: f4b4a33f-8250-4f4e-b2dc-129c56f9ea0f
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -51,7 +51,7 @@ De functie **[!UICONTROL Audit trail]** houdt voortdurend een gedetailleerd logb
 
 * **Externe Rekening** staat u toe om wijzigingen te controleren die aan externe rekeningen in Campagne V8 worden aangebracht, die door technische processen zoals technische werkschema&#39;s of campagnewerkschema&#39;s worden gebruikt.
 
-  Voor meer informatie over externe rekening, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts).
+  Voor meer informatie over externe rekening, verwijs naar deze [ pagina ](../administration/external-account.md).
 
 * **Afbeelding van de Levering** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw Aflevering in Campagne V8 worden aangebracht.
 

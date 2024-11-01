@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met mappen
 description: Leer hoe u een map beheert in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: c7bb533174019d465f273c4fede3b578a40f2bb6
+source-git-commit: ed9a3a3ca3bbb5d2bd44c512643857d62b97393c
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 >title="Mapschema"
 >abstract="Mapschema"
 
-## Mappen
+## Mappen {#about-folders}
 
 Mappen zijn objecten in Adobe Campaign waarmee u uw componenten en gegevens kunt ordenen.
 
@@ -43,7 +43,7 @@ U kunt mappen in de navigatiestructuur maken, hernoemen, opnieuw ordenen en verp
 U kunt een maptype instellen. Bijvoorbeeld: een map met leveringen.
 Het pictogram van de map wordt gewijzigd op basis van dit type.
 
-## Nieuwe map maken
+## Nieuwe map maken {#create-a-folder}
 
 Ga als volgt te werk om een nieuwe map te maken in de gebruikersinterface van Adobe Campaign:
 
@@ -52,8 +52,7 @@ Onder het menu **[!UICONTROL ...]** hebt u **[!UICONTROL Create new folder]**
 
 ![](assets/folder_create.png){zoomable="yes"}
 
-Wanneer u een nieuwe map maakt, is het maptype standaard het type van de bovenliggende map.
-In ons voorbeeld maken we een map in de map **[!UICONTROL Deliveries]** .
+Wanneer u een nieuwe map maakt, is het maptype standaard het type van de bovenliggende map. In ons voorbeeld maken we een map in de map **[!UICONTROL Deliveries]** .
 
 ![](assets/folder_new.png){zoomable="yes"}
 
@@ -67,7 +66,21 @@ Als u een map zonder specifiek type wilt maken, kiest u **[!UICONTROL Generic Fo
 
 U kunt ook [ omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views) tot stand brengen en leiden.
 
-## Een map verwijderen
+
+## Mappen opnieuw ordenen {#reorder-folders}
+
+U kunt de mappen naar wens opnieuw ordenen. Klik hiertoe op **[!UICONTROL Reorder folders]** zoals hieronder weergegeven.
+
+In ons voorbeeld, de omslag **levert** 4 omslagen.
+
+![](assets/folder-reorder.png){zoomable="yes"}
+
+U kunt de orde van uw omslagen of door **slepen en laten vallen** veranderen, of door **op en neer pijlen** te gebruiken.
+
+![](assets/folder-draganddrop.png){zoomable="yes"}
+
+
+## Een map verwijderen {#delete-a-folder}
 
 >[!CAUTION]
 >
@@ -107,3 +120,11 @@ Klik in de lijst met kenmerken op de knop **+** naast de gewenste koppeling, zoa
 ![](assets/values_link.png){zoomable="yes"}
 
 Het is ook mogelijk om de distributie van waarden in een vraagmodeler te hebben. [ leer hier meer ](../query/build-query.md#distribution-of-values-in-a-query).
+
+### De waarden filteren {#filter-values}
+
+Door **[!UICONTROL Advanced filters]** in de distributie van waardenvenster te gebruiken, kunt u uw resultaten filtreren die op gespecificeerde voorwaarden worden gebaseerd.
+
+In het voorbeeld van de leveringslijst hierboven, die de distributie per kanaal toont, kunt u, bijvoorbeeld, het filtreren om slechts de leveringen te tonen die status **wordt gebeëindigd**.
+
+![](assets/values_filter.png){zoomable="yes"}

@@ -3,9 +3,9 @@ title: Ga aan de slag met Adobe Campaign v8 voor beheerders en ontwikkelaars.
 description: Deze zelfstudie geeft een overzicht van de belangrijkste functies voor beheer en gegevensbeheer van Campaign v8. Het is bedoeld voor beheerders en de technische markeertekens die van Campaign Standard naar Campaign v8 migreren.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 271fb8805e046c20fad824ba37b84be43638011a
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2666'
+source-wordcount: '2657'
 ht-degree: 3%
 
 ---
@@ -229,9 +229,9 @@ Als beheerder, moet u uw kanaalconfiguraties bepalen. Raadpleeg de onderstaande 
 
 Als beheerder, bent u verantwoordelijk voor het vormen van en het handhaven van de externe rekeningen van de Campagne. Net als in Campaign Standard worden externe rekeningen gebruikt door technische processen zoals technische workflows of campagneworkflows.
 
-Het overgangsproces naar Campagne v8 zorgt voor uw bestaande externe accounts van het Campaign Standard: deze zijn nu beschikbaar in de clientconsole.
+Het overgangsproces naar Campaign v8 zorgt voor uw bestaande externe accounts van het Campaign Standard.
 
-Leer meer over de [ Externe rekeningsconfiguratie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/external-accounts) {target="_blank"}.
+Leer meer in de [ Externe rekeningsdocumentatie ](../../v8/administration/external-account.md).
 
 
 <!--

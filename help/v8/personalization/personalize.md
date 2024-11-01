@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,17 @@ ht-degree: 0%
 
 # Uw inhoud personaliseren {#add-personalization}
 
-U kunt elke levering personaliseren door de uitdrukkingsredacteur te gebruiken, die in gebieden met het **[!UICONTROL Open personalization dialog]** pictogram, zoals de onderwerpregel, e-mailverbindingen, en tekst/knoop inhoudcomponenten toegankelijk is. [ Leer hoe te om tot de uitdrukkingsredacteur toegang te hebben ](gs-personalization.md/#access)
+Personalization van leveringsinhoud is een zeer belangrijke eigenschap die u toestaat om berichten aan individuele ontvangers aan te passen, die communicatie relevanter maken en aansprekend.
 
-## Personalization-syntaxis {#syntax}
+In Adobe Campaign, door [ profielgegevens ](#data-personalization) te gebruiken, zoals de naam, de plaats, of de voorbije interactie van het profiel, en specifieke [ variabelen van uw levering ](#variables-personalization), kunt u elementen zoals tekst, beelden en aanbiedingen in uw mededeling dynamisch aanpassen.
+
+De verpersoonlijking van de levering verbetert niet alleen de gebruikerservaring maar verbetert ook de tarieven van de overeenkomst, die tot hogere omzetting en klantentevredenheid leiden.
+
+## Profielgegevens gebruiken voor personalisatie {#data-personalization}
+
+U kunt elke levering personaliseren met profielgegevens door de uitdrukkingsredacteur te gebruiken, die in gebieden met het **[!UICONTROL Open personalization dialog]** pictogram, zoals de onderwerpregel, e-mailverbindingen, en tekst/knoop inhoudcomponenten toegankelijk is. [ Leer hoe te om tot de uitdrukkingsredacteur toegang te hebben ](gs-personalization.md/#access)
+
+### Personalization-syntaxis {#syntax}
 
 Personalization-tags volgen een specifieke syntaxis: `<%= table.field %>` . Als u bijvoorbeeld de achternaam van de ontvanger wilt invoegen in de tabel met ontvangers, gebruikt u de syntaxis `<%= recipient.lastName %>` .
 
@@ -26,7 +34,7 @@ Tijdens de voorbereiding van de levering, interpreteert Adobe Campaign automatis
 
 Wanneer u contactpersonen uit een extern bestand uploadt voor een zelfstandige e-maillevering, zijn alle velden in het invoerbestand beschikbaar voor personalisatie. De syntaxis is als volgt: `<%= dataSource.field %>`.
 
-## Aanpersonalisatietags toevoegen {#add}
+### Aanpersonalisatietags toevoegen {#add}
 
 Voer de volgende stappen uit om personalisatietags toe te voegen aan een levering:
 
@@ -56,3 +64,20 @@ Voer de volgende stappen uit om personalisatietags toe te voegen aan een leverin
    ![](assets/perso-preview1.png){zoomable="yes"}{width="800" align="center"}
 
    ![](assets/perso-preview2.png){zoomable="yes"}{width="800" align="center"}
+
+## Variabelen voor personalisatie gebruiken {#variables-personalization}
+
+U kunt variabelen ook gebruiken om uw levering aan te passen.
+Leer meer over [ toevoegend variabelen aan een levering ](../advanced-settings/delivery-settings.md#variables-delivery).
+
+De variabele `deliveryType` wordt bijvoorbeeld als volgt gedefinieerd.
+
+![](assets/variables-deliveryType.png){zoomable="yes"}
+
+Deze variabele kan in de inhoud van de levering worden gebruikt, door het pictogram **[!UICONTROL Add Personalization]** en de expressie `<%= variables.deliveryType %>` voor ons voorbeeld te gebruiken.
+
+![](assets/variables-perso.png){zoomable="yes"}
+
+U kunt het gebruik van de variabele controleren met de knop **[!UICONTROL Simulate Content]** .
+
+![](assets/variables-simulate.png){zoomable="yes"}

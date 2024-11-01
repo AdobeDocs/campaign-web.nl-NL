@@ -3,7 +3,7 @@ title: Paginaspecifieke inhoud definiëren
 description: Leer hoe u landende pagina-specifieke inhoud ontwerpt in Campagne Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 0e89f01fed390665b150b09697dc6e9204975ee2
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 1%
@@ -144,8 +144,10 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 >
 >Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 
-Voer de volgende stappen uit om automatisch een bevestigingsbericht te verzenden na het verzenden van een landingspagina:
+Voer de volgende stappen uit als u automatisch een bevestigingsbericht wilt verzenden nadat u een landingspagina hebt verzonden:
+
 1. Schakel in de sectie **[!UICONTROL CALL TO ACTION]** de optie **[!UICONTROL Send confirmation email]** in.
+
 1. In de bijbehorende drop-down lijst, kies het transactionele berichtmalplaatje dat moet worden verzonden.
 
 ![](assets/lp-confirmation.png){zoomable="yes"}

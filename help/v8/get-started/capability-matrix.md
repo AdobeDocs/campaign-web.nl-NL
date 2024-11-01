@@ -3,9 +3,9 @@ audience: end-user
 title: Campagne Web-gebruikersinterface/client-consolematrix
 description: Lijst met functies die worden ondersteund in de gebruikersinterface van Campagne Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 395109aeb603ecce53eda89adff70a9ef36fde17
+source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -68,15 +68,17 @@ Alle publiek dat in de de cliëntconsole van de Campagne of in Adobe Experience 
 
 Één-schot invoer/de uitvoerbanen zoals die in [ wordt beschreven Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/import-profiles.html#import-jobs) {target="_blank"} zijn niet beschikbaar in het gebruikersinterface van het Web van de Campagne. <!--To import profiles into Campaign Web user interface, you must create a workflow as detailed in [this section]().-->
 
-## Transactieberichten {#mc-capabilities}
+<!--
+## Transactional messaging {#mc-capabilities}
 
-De transactionele overseinenmogelijkheden die met het het productpakket komen van het Centrum van het Bericht zijn momenteel niet beschikbaar in het nieuwe gebruikersinterface van het Web van de Campagne.
+Transactional messaging capabilities coming with the Message Center product package are currently not available in the new Campaign Web user interface. 
 
-Blader de [ documentatie van de Campagne v8 (cliëntconsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html) {target="_blank"} en leer meer over overseinenmogelijkheden in real time, zoals:
+Browse the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/real-time/transactional.html){target="_blank"} and learn more about real-time messaging capabilities, such as:
 
-* Ontwerpen en uitvoeren van realtime berichten via e-mail, SMS en push
-* Verrijking en personalisatie van berichten
-* Rapportage en toezicht op transactieberichten
+* Realtime message authoring and execution on email, SMS and push
+* Message enrichment and personalization
+* Reporting and monitoring on transactional messaging
+-->
 
 ## Inhoudsontwerp {#content-capabilities}
 
@@ -155,7 +157,7 @@ De gebruikersinterface van het Web van de campagne behandelt niet de volgende mo
 
 ### Externe accounts {#external}
 
-Adobe Campaign wordt geleverd met een set vooraf gedefinieerde externe accounts die verbinding kunnen maken met externe systemen. Als Beheerder van het Systeem van de Campagne, kunt u externe rekeningen van de cliëntconsole tot stand brengen en leiden slechts.[ leer meer ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/configuration/external-accounts.html) {target="_blank"}
+Adobe Campaign wordt geleverd met een set vooraf gedefinieerde externe accounts die verbinding kunnen maken met externe systemen. Als beheerder van het Systeem van de Campagne, kunt u externe rekeningen tot stand brengen en beheren. [Meer informatie](../administration/external-account.md)
 
 ### Schema&#39;s maken en uitbreiden {#schema}
 

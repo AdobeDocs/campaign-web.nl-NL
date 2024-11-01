@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f6e3fc0da05ecc2fda158c970458cc702b27079c
+source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -116,3 +116,20 @@ In dit voorbeeld willen we een e-mailbericht maken met meerdere varianten op bas
 
    >[!NOTE]
    >Als bij het verzenden van het bericht aan geen van de regels in de varianten wordt voldaan, wordt de inhoud die in het deelvenster **[!UICONTROL Default variant]** is gedefinieerd, weergegeven in de inhoudscomponent. **[!UICONTROL Conditional Content]**
+
+## Variabelen gebruiken voor voorwaardelijke inhoud {#variables-conditional}
+
+De variabelen kunnen voor voorwaardelijke inhoud in uw levering worden gebruikt.
+
+Leer meer over [ toevoegend variabelen aan een levering ](../advanced-settings/delivery-settings.md#variables-delivery).
+
+Kies het element waar u voorwaardelijke inhoud wilt plaatsen.
+
+![](assets/variables-conditional.png){zoomable="yes"}
+
+Om uw variabele te gebruiken, vorm de voorwaarde gebruikend de **[!UICONTROL Edit expression]** knoop, zoals hieronder getoond.
+In dit voorbeeld wordt deze afbeelding weergegeven wanneer de waarde van de variabele `launch` is.
+
+![](assets/variables-condition.png){zoomable="yes"}
+
+U kunt ook een andere variant maken met de waarde `reminder` , bijvoorbeeld wanneer een andere afbeelding wordt weergegeven.

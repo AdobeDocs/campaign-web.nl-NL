@@ -3,10 +3,10 @@ audience: end-user
 title: Workflows maken met Adobe Campaign Web
 description: Leer hoe u workflows kunt maken met Adobe Campaign Web
 exl-id: 0c8e2158-518c-4620-9971-00ed2eccdd4f
-source-git-commit: 3d566c03795dbb0a9ad31dba1037f2a559fa8e31
+source-git-commit: 0f60fdce8050991e086875c055563087f8a221d1
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 1%
+source-wordcount: '1181'
+ht-degree: 0%
 
 ---
 
@@ -48,21 +48,27 @@ De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de acti
 
 ## Activiteiten beheren {#manage}
 
-Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelvenster Eigenschappen, zodat u meerdere bewerkingen kunt uitvoeren. U kunt:
+Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelvenster Eigenschappen, zodat u meerdere bewerkingen kunt uitvoeren.
+
+![](assets/activity-action.png){zoomable="yes"}
+
+U kunt:
 
 * **Schrap** de activiteit van het canvas.
 * **onbruikbaar maken/laat** de activiteit toe. Wanneer de workflow wordt uitgevoerd, worden uitgeschakelde activiteiten en de volgende activiteiten op hetzelfde pad niet uitgevoerd en wordt de workflow gestopt.
-* **Exemplaar** de activiteit. Zie [deze sectie](#copy).
-* Heb toegang tot de Logboeken en de taken van de activiteit ****.
 * **Pauze/hervat** de activiteit. Wanneer de workflow wordt uitgevoerd, wordt de gepauzeerde activiteit gepauzeerd. De bijbehorende taak en alle taken die deze in hetzelfde pad volgen, worden niet uitgevoerd.
-
-![](assets/activity-action.png){zoomable="yes"}{width="50%"}
+* **Exemplaar** de activiteit. Zie [deze sectie](#copy).
+* **beweging** een activiteit en al zijn kindknopen aan een andere overgang. Zie [ deze sectie ](#move)
+* Heb toegang tot de opties van de activiteit **Uitvoering**.
+* Heb toegang tot de Logboeken en de taken van de activiteit ****.
 
 Verscheidene **richtend** activiteiten, zoals **combineren** of **Deduplicatie**, staat u toe om de resterende bevolking te verwerken en het in een extra uitgaande overgang te omvatten. Bijvoorbeeld, als u a **Gesplitste** activiteit gebruikt, bestaat de aanvulling uit de bevolking die om het even welke eerder bepaalde ondergroepen niet aanpast. Om dit vermogen te gebruiken, activeer **aanvult** optie.
 
 ![](assets/workflow-split-complement.png)
 
-## Activiteiten kopiëren {#copy}
+## Verplaatsen of kopiëren {#move-copy}
+
+### Kopiëren en plakken {#copy}
 
 U kunt workflowactiviteiten kopiëren en deze in elke werkstroom plakken. De doelworkflow kan zich op een ander browsertabblad bevinden.
 
@@ -79,6 +85,20 @@ Voor het kopiëren van activiteiten hebt u twee mogelijkheden:
 Als u de gekopieerde activiteiten wilt plakken, klikt u op de knop **+** in een overgang en selecteert u &quot;X-activiteit plakken&quot;.
 
 ![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+
+### Activiteiten verplaatsen en hun onderliggende knooppunten verplaatsen {#move}
+
+Met Journey Optimizer kunt u een activiteit samen met de volledige inhoud van de onderliggende knooppunten (inclusief alle overgangen en activiteiten in de onderliggende knooppunten) verplaatsen naar het einde van een andere overgang binnen dezelfde workflow.
+
+Dit proces verbreekt de verbinding tussen de activiteit en alles in de uitgaande overgang van de oorspronkelijke locatie en verplaatst deze naar de nieuwe doelovergang.
+
+Een activiteit verplaatsen:
+
+1. Selecteer de activiteit die u wilt verplaatsen.
+1. In de de eigenschappen van de activiteit ruit, klik de **knoop van de Beweging**.
+1. Selecteer de overgang waar u de activiteit en zijn uitgaande overgang wilt plaatsen, dan bevestig.
+
+![](assets/activity-move.png)
 
 ## Execution options {#execution}
 
