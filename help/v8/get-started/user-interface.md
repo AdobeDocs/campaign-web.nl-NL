@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 9657343409e2c577aac90320d403006af0250e7a
+source-git-commit: e0954fa620d336c2e450638780f1f2fe673249f2
 workflow-type: tm+mt
-source-wordcount: '2010'
+source-wordcount: '2022'
 ht-degree: 1%
 
 ---
@@ -361,14 +361,34 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Initialisatiescript voor uitvoering"
 >abstract="Initialisatiescript voor uitvoering"
 
-<!-- IDs -->
+<!-- Schema edit custom fields -->
 
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Aangepaste kenmerken bewerken"
->abstract="Aangepaste kenmerken bewerken"
+>title="Aangepaste details bewerken"
+>abstract="Aangepaste details bewerken"
 
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_separatorproperties"
+>title="Eigenschappen van Scheidingsteken"
+>abstract="Eigenschappen van Scheidingsteken"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings"
+>title="Kenmerkinstellingen"
+>abstract="Kenmerkinstellingen"
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_general"
+>title="Algemeen"
+>abstract="Algemeen"
+
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_editcustomfields_settings_layout"
+>title="Layout"
+>abstract="Layout"
 
 
 <!--Schema-->
