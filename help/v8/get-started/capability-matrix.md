@@ -3,9 +3,9 @@ audience: end-user
 title: Campagne Web-gebruikersinterface/client-consolematrix
 description: Lijst met functies die worden ondersteund in de gebruikersinterface van Campagne Web
 exl-id: 4bcac01f-be1d-497c-937d-0c82f0d6b17d
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: fbeb91041f63ecbc6ce44102aebd92fc3539cdf5
 workflow-type: tm+mt
-source-wordcount: '2074'
+source-wordcount: '2085'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Gebruik de beschikbare koppelingen om te bladeren in de documentatie van Campagn
 * **de Kalender van de Marketing**. In de campagnemalender worden alle programma&#39;s, plannen, campagnes en leveringen in een algemene tijdslijn weergegeven. Deze mogelijkheid is alleen beschikbaar in de clientconsole. [ leer meer ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#campaign-calendar) {target="_blank"}
 * **Programma&#39;s en Abonnementen**. Elke campagne behoort tot een programma dat deel uitmaakt van een plan. In het gebruikersinterface van het Web van de Campagne, worden alle campagnes geassocieerd aan een standaard ingebouwde plan en een programma. U kunt plannen en programma&#39;s alleen in de clientconsole maken en beheren. [ leer meer ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html#work-with-plan-and-program) {target="_blank"}
 * **Leveranciers, begroting en kostenbeheer**. U kunt dienstverleners vormen betrokken bij de banen die binnen uw campagnes, met inbegrip van kostenstructuren worden uitgevoerd, en uw begrotingen binnen elk programma en campagne beheren. Deze mogelijkheid is alleen beschikbaar in de clientconsole. [ leer meer ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/providers--stocks-and-budgets.html) {target="_blank"}
-* **Verdeelde marketing** (Centrale/Lokale marketing). Adobe Campaign biedt een Distributed Marketing-app voor het uitvoeren van samenwerkingscampagnes tussen centrale entiteiten (hoofdkantoor, marketingafdelingen, enz.) en lokale entiteiten (verkooppunten, regionale agentschappen, enz.). Deze mogelijkheid is alleen beschikbaar in de clientconsole. [ leer meer ](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html) {target="_blank"}
+* **Verdeelde marketing** (Centrale/Lokale marketing). Adobe Campaign biedt een app voor Distributed Marketing voor het uitvoeren van samenwerkingscampagnes tussen centrale entiteiten (hoofdkantoor, marketingafdelingen, enz.) en lokale entiteiten (verkooppunten, regionale agentschappen, enz.). Deze mogelijkheid is alleen beschikbaar in de clientconsole. [ leer meer ](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html) {target="_blank"}
 * **het Beheer van het Middel van de Marketing** (MRM), doelstellingen, simulaties, en kostencontrole. Adobe Campaign biedt een MRM-app (Marketing Resource Management) waarmee u marketingacties in samenwerkingsverband kunt beheren en waarmee u de betrokken taken, budgetten en marketingbronnen in real-time volledig kunt beheren en bijhouden. Deze mogelijkheid is alleen beschikbaar in de clientconsole. [ leer meer ](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html) {target="_blank"}
 * **Taakbeheer**. Als onderdeel van de MRM-app kunnen campagnemochten worden gemaakt, toegewezen, bijgehouden en bewaakt vanaf het campagnemdashboard. Deze mogelijkheid is alleen beschikbaar in de clientconsole. [ leer meer ](https://experienceleague.adobe.com/docs/campaign/automation/mrm/creating-and-managing-tasks.html) {target="_blank"}
 
@@ -176,6 +176,11 @@ Het Beheer van gegevens combineert een reeks activiteiten voor het oplossen van 
 De configuratie van de campagne en de verbinding aan externe systemen worden beperkt tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole. [ leer meer ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html) {target="_blank"}
 
 ## Goedkeuringen {#approvals-capabilities}
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_approval"
+>title="Goedkeuringsbeheer"
+>abstract="Het beheer van goedkeuringen is alleen beschikbaar via de clientconsole. "
 
 De gebruikersinterface van het Web van de campagne omvat geen goedkeuringsbeheer voor inhoud, leveringen, werkschema&#39;s, campagnes en doelstellingen. Ze zijn alleen beschikbaar in de clientconsole.
 
