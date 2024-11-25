@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: 943ed7ce9245a3fd0fd7111f285fdf409968c78b
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1004'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Verschillende services kunnen parallel worden gedefinieerd, bijvoorbeeld: nieuws
 
 Volg onderstaande stappen om abonnementsservices die beschikbaar zijn voor uw platform te openen.
 
-1. Blader naar het menu **[!UICONTROL Subscription services]** op de linkernavigatieregel.
+1. Blader onder **[!UICONTROL Customer management]** naar het menu **[!UICONTROL Subscription services]** op de linkernavigatieregel.
 
    ![](assets/service-list.png){zoomable="yes"}
 

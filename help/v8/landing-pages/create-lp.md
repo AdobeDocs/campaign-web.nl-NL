@@ -3,9 +3,9 @@ title: Een landingspagina maken
 description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: 865978dd8083723187a90647060f8758d4d888be
+source-git-commit: 9da716f3f10260ff373c7f5e94700f198657c799
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1530'
 ht-degree: 1%
 
 ---
@@ -23,11 +23,15 @@ In de gebruikersinterface van het Web Campagne kunt u bestemmingspagina&#39;s ma
 
 ## Openingspagina&#39;s openen {#access-landing-pages}
 
-Als u de lijst met openingspagina&#39;s wilt openen, selecteert u **[!UICONTROL Campaign management]** > **[!UICONTROL Landing pages]** in het linkermenu.
+Als u de lijst met openingspagina&#39;s wilt openen, selecteert u **[!UICONTROL Content management]** > **[!UICONTROL Landing pages]** in het linkermenu.
 
 ![](assets/lp-inventory.png){zoomable="yes"}
 
-In de **[!UICONTROL Landing pages]** -voorraad worden alle gemaakte items weergegeven. U kunt ze filteren met de knop **[!UICONTROL Show filters]** . U kunt de resultaten tot een specifieke [ omslag ](../get-started/permissions.md#folders) beperken gebruikend de drop-down lijst, of regels toevoegen gebruikend de [ vraagmodelaar ](../query/query-modeler-overview.md).
+In de **[!UICONTROL Landing pages]** -voorraad worden alle gemaakte items weergegeven. U kunt ze filteren met de knop **[!UICONTROL Show filters]** .
+
+* U kunt filteren op de items die u hebt gemaakt of gewijzigd.
+
+* U kunt de resultaten tot een specifieke [ omslag ](../get-started/permissions.md#folders) beperken gebruikend de drop-down lijst, of regels toevoegen gebruikend de [ vraagmodelaar ](../query/query-modeler-overview.md).
 
 ![](assets/lp-inventory-filter.png){zoomable="yes"}
 
