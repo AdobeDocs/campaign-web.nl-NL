@@ -3,13 +3,13 @@ title: Aan de slag met Adobe Campaign v8 voor marketers
 description: Belangrijke functionaliteit van Campagne v8 ontdekken. Het is voor marketeers die van Campaign Standard naar Campaign v8 migreren.
 role: User
 level: Beginner, Experienced
-source-git-commit: e68ad7ca3368165feb534363c36b03b510291e8a
+exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
+source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
 workflow-type: tm+mt
-source-wordcount: '2453'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # Aan de slag voor marketers {#acs-gs-marketers}
 
@@ -182,7 +182,7 @@ Nuttige koppelingen:
    * Leer hoe te [ een stand-alone levering ](../../v8/msg/gs-deliveries.md#gs-schedule) plannen
    * Leer hoe te [ een levering in een werkschema ](../../v8/monitor/schedule-sending.md#schedule-a-delivery-in-a-campaign-workflow) plannen
 
-* **ADD aanbiedingen** - u kunt aanbiedingen aan uw leveringen in het gebruikersinterface van het Web van Adobe Campaign toevoegen. Deze aanbiedingen zijn beschikbaar in het linkermenu Aanbiedingen, dat u toegang biedt tot de lijst met aanbiedingen.  Leer hoe te [ aanbiedingen aan uw berichten ](../../v8/msg/offers.md) toevoegen
+* **voegt aanbiedingen** toe - u kunt aanbiedingen aan uw leveringen in het gebruikersinterface van het Web van Adobe Campaign toevoegen. Deze aanbiedingen zijn beschikbaar in het linkermenu Aanbiedingen, dat u toegang biedt tot de lijst met aanbiedingen.  Leer hoe te [ aanbiedingen aan uw berichten ](../../v8/msg/offers.md) toevoegen
 
 >[!AVAILABILITY]
 >
