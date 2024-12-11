@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 609f1bfffc7c3f456335e78e5ba7b01f4f9804f9
+source-git-commit: 1671a2036f34bab91c0f9e4ee7eae6407a4b9eba
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2053'
 ht-degree: 1%
 
 ---
@@ -446,3 +446,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_schema_start_update"
 >title="Database-update starten"
 >abstract="Schema"
+
+
+
+<!-- Target Mapping -->
+
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_properties"
+>title="Eigenschappen voor doeltoewijzing"
+>abstract="Eigenschappen voor doeltoewijzing"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_mapping"
+>title="Toewijzing doel"
+>abstract="Toewijzing doel"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_denylist"
+>title="Lijst van gewezen personen voor doeltoewijzing"
+>abstract="Lijst van gewezen personen voor doeltoewijzing"
+
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_storage"
+>title="Opslag doeltoewijzing"
+>abstract="Opslag wordt ontkend door doeltoewijzing"
