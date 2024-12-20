@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: ef7949d115342e47f68cfbd88c1137f4eaf38cc0
+source-git-commit: 7efaac360dc00f5bd92b47efbe113cfe99042eb6
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2063'
 ht-degree: 1%
 
 ---
@@ -472,11 +472,21 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Opslag doeltoewijzing"
 >abstract="Opslag wordt ontkend door doeltoewijzing"
 
-
-
 <!-- Favorites & recents -->
 
 >[!CONTEXTUALHELP]
 >id="acw_attribute_picker_favorites_recents"
 >title="Favorieten en opmerkingen"
 >abstract="Favorieten en opmerkingen"
+
+<!-- Options -->
+
+>[!CONTEXTUALHELP]
+>id="acw_options_list"
+>title="Opties"
+>abstract="Opties"
+
+>[!CONTEXTUALHELP]
+>id="acw_options_create"
+>title="Maken, optie"
+>abstract="Maken, optie"
