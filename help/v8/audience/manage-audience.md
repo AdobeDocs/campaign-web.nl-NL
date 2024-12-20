@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met het publiek
 description: Leer hoe u met het publiek kunt werken op Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
-source-git-commit: a0da65d8facedb3730947eb969e362a367e4d317
+source-git-commit: 78c288f6681040170d49f6b67a3db362710f9d0c
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ ht-degree: 0%
 >id="acw_audiences_count"
 >title="Grootte publiek"
 >abstract="Hier kunt u het totale aantal profielen in het publiek vinden. Klik **berekenen** knoop om de publieksresultaten bij te werken en opnieuw te berekenen."
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="Targeting"
+>abstract="Targeting"
 
 >[!CONTEXTUALHELP]
 >id="acw_audiences_workflow_error_data_execution"
