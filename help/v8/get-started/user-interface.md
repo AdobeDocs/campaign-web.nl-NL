@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: e5dfb307ae53333b4e2e55ca57a605790d8b6d62
+source-git-commit: d99495db792293db4f4121892b073337c91f7a33
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2085'
 ht-degree: 1%
 
 ---
@@ -502,3 +502,20 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_javascript_codes_create"
 >title="JavaScript-code maken"
 >abstract="JavaScript-code maken"
+
+<!-- Enumerations -->
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_list"
+>title="Opsommingen"
+>abstract="Opsommingen"
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_properties"
+>title="Properties"
+>abstract="Properties"
+
+>[!CONTEXTUALHELP]
+>id="acw_enumerations_values"
+>title="Lijst met opsommingswaarden"
+>abstract="Lijst met opsommingswaarden"
