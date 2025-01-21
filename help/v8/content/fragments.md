@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met inhoudsfragmenten
 description: Leer hoe u maakt met inhoudsfragmenten
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,11 @@ ht-degree: 0%
 >id="acw_fragments_menu"
 >title="Uw eigen inhoudsfragmenten definiëren"
 >abstract="Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten via campagnes kan worden verwezen. Dit vermogen wordt gebruikt om veelvoudige blokken van de douaneinhoud prebuild die door marketing gebruikers kunnen worden gebruikt om inhoud in een verbeterd ontwerpproces snel samen te stellen. Er zijn twee soorten inhoudsfragmenten: visuele fragmenten, beschikbaar in de e-mailontwerper, en uitdrukkingsfragmenten in de uitdrukkingsredacteur."
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_fragments"
+>title="Expressiefragmenten toevoegen"
+>abstract="Expressiefragmenten zijn vooraf gedefinieerde inhoudsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. U kunt ook uw eigen expressiefragmenten maken die aan uw wensen voldoen."
 
 ## Wat zijn inhoudsfragmenten? {#what}
 

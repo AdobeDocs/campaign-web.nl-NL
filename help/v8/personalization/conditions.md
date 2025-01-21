@@ -6,9 +6,9 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: 101ad23b-7ea5-42c7-9249-7c14febe6eb7
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,11 @@ Om voorwaardelijke inhoud tot stand te brengen, moet u voorwaarden in de **uitdr
 Naast de uitdrukkingsredacteur, kunt u hefboomwerking een specifieke **voorwaardelijke inhoudsbouwer** wanneer het ontwerpen van een e-mail die u toestaat om veelvoudige varianten voor een element van uw e-maillichaam tot stand te brengen. [ Leer hoe te om voorwaardelijke inhoud in e-mails tot stand te brengen ](#condition-condition-builder)
 
 ## Voorwaarden maken in de expressie-editor {#condition-perso-editor}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_conditions"
+>title="Voorwaarden"
+>abstract="Met dit menu kunt u hulpfuncties gebruiken om voorwaardelijke inhoud te definiëren."
 
 Voer de onderstaande stappen uit om voorwaardelijke inhoud voor een levering te definiëren met behulp van de expressieeditor. In dit voorbeeld willen we voorwaardelijke inhoud maken op basis van de taal van de ontvangers (Frans of Engels).
 

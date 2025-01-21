@@ -6,15 +6,20 @@ topic: Personalization
 role: Data Engineer
 level: Beginner
 exl-id: d1fd20c1-6835-4727-b20e-6e365a7aaa04
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
 
 
 # Uw inhoud personaliseren {#add-personalization}
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_add_current_date"
+>title="Huidige datum toevoegen"
+>abstract="Dit menu bevat functies die gerelateerd zijn aan de datumopmaak en die u kunt gebruiken om uw inhoud aan te passen."
 
 Personalization van leveringsinhoud is een zeer belangrijke eigenschap die u toestaat om berichten aan individuele ontvangers aan te passen, die communicatie relevanter maken en aansprekend.
 

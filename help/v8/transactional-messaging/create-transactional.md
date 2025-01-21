@@ -2,9 +2,10 @@
 audience: end-user
 title: Transactieberichten maken
 description: Leer hoe te om een transactiebericht in het Gebruikersinterface van het Web van de Campagne tot stand te brengen
-source-git-commit: e55b9c875b7700c7ee9d38b8386cc2742ad1f908
+exl-id: 74e468f5-d9c3-4470-8ff2-68648b5f396f
+source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1151'
 ht-degree: 0%
 
 ---
@@ -116,6 +117,11 @@ De inhoud van de context is afhankelijk van de personalisatie die u nodig hebt.
 >id="acw_transacmessages_personalization"
 >title="Transactionele berichtenaanpassing"
 >abstract="Leer hoe u de inhoud van het transactiebericht kunt aanpassen"
+
+>[!CONTEXTUALHELP]
+>id="acw_personalization_editor_event_context"
+>title="Gebeurteniscontext"
+>abstract="Dit menu bevat variabelen van de triggergebeurtenis die u kunt gebruiken om de inhoud van het transactiemelding aan te passen."
 
 Het werken aan de inhoud van een transactiemelding is als de inhoudsverwezenlijking van een levering. Klik op **[!UICONTROL Open email designer]** of **[!UICONTROL Edit email body]** en selecteer sjablooninhoud of importeer uw HTML-code.
 
