@@ -3,9 +3,9 @@ audience: end-user
 title: Alleen-lezen workflows
 description: Ontdek waarom werkstromen alleen-lezen zijn
 exl-id: 5eaffe2c-7a9c-4508-8dd1-495cfcf99c59
-source-git-commit: 89633454bb3de1ac05d37d767df45d9d143c80b5
+source-git-commit: 62d4733b9dc6bf3edf06d172069b5f8b1d0ee4a7
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Sommige workflows zijn mogelijk in de modus Alleen-lezen. Je kunt het zien met:
 
-- De verwijzing **[!UICONTROL ** Read-only **]** dichtbij de **[!UICONTROL Settings]** knoop
+- De vermelding **[!UICONTROL Read-only]** bij de knop **[!UICONTROL Settings]**
 - De actieknoppen zijn niet toegankelijk
 
 ![](assets/readonly-workflow.png){zoomable="yes"}
