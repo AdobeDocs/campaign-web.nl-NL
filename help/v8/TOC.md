@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
+source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '776'
 ht-degree: 14%
 
 ---
@@ -39,6 +39,7 @@ ht-degree: 14%
    + [Toegang tot leveringen](msg/gs-deliveries.md)
    + [Een levering maken](msg/create-deliveries.md)
    + [Leveringssjablonen gebruiken](msg/delivery-template.md)
+   + [Werken met typologieën](msg/typologies.md)
    + E-mails {#email}
       + [Uw eerste e-mail maken](email/create-email.md)
       + [E-mailinhoud configureren](email/edit-content.md)
