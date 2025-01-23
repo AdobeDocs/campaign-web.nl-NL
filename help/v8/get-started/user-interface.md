@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 8b627ff3116346fb09243b560b0a492d690b95fa
+source-git-commit: 7c96605fc4a9fb21692f219ceaf9067c27a9902e
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2135'
 ht-degree: 1%
 
 ---
@@ -535,7 +535,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_ip_affinity"
 >title="IP-affiniteit"
->abstract="IP-affiniteit"
+>abstract="Het beheren van affiniteiten met IP adressen laat betere controle van uitgaand verkeer SMTP toe door verschillende IP adressen met elk type van verkeer afhankelijk van de typologie van zijn leveringsactie te associëren."
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_properties"
