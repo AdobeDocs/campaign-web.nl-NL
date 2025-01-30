@@ -4,9 +4,9 @@ description: Ontdek nieuwe eigenschappen die met de volgende versie van het Gebr
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: d5a916578a9d79ad021064b9c1e6b26e396ebd15
+source-git-commit: 126ebed5066bbc8c20d58d24e237b13f096b9d02
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '545'
 ht-degree: 8%
 
 ---
@@ -17,31 +17,120 @@ De gebruikersinterface van het Web van Adobe Campaign levert onophoudelijk nieuw
 
 **de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md), bij de versiedatum.
 
-## Release-aantekeningen augustus {#24-8-release}
+## Release januari 1925 {#25-1-release}
 
-**de datum van de Versie**: Sept 3, 2024
+**de datum van de Versie**: 5 Feb, 2025
 
-De volgende functies en verbeteringen zijn beschikbaar vanaf de release in augustus.
+De volgende functies en verbeteringen zijn beschikbaar vanaf de release in januari.
 
-**Distributie van waarden** - wanneer de toegang tot van de lijst van gebieden voor verpersoonlijking, kunt u nu controleren hoe de waarden voor elk gebied worden verdeeld. Een specifiek popup venster toont het aantal en het percentage voor elke waarde.
+### Functies {#25-1-features}
 
 
-### Nieuwe functies in beperkte beschikbaarheid {#acs-24-8}
+<table>
+<thead>
+<tr>
+<th><strong>Visuele fragmenten maken en gebruiken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Visuele fragmenten zijn vooraf gedefinieerde visuele blokken die u kunt hergebruiken voor meerdere e-mailleveringen of in inhoudssjablonen. Deze functie is nu beschikbaar voor alle klanten die op de server bouwen 8.6.4 en hoger.</p>
+<p>Raadpleeg de <a href="../content/use-visual-fragments.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
->[!AVAILABILITY]
->
->De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld.
->
->Verwijs naar de volgende documentatiepagina&#39;s: [ overgang van het Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van het Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) {target="_blank"}.
+<table>
+<thead>
+<tr>
+<th><strong>Een systeem van derden gebruiken om leveringen te verzenden</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt Externe leveringen, en Externe leveringsmalplaatjes, in het Webgebruikersinterface van de Campagne nu bepalen. In deze modus worden berichten gegenereerd in een invoerbestand dat kan worden gedeeld met uw externe provider. De externe leveringswijze is de standaardwijze voor het directe postkanaal.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Branding voor Directe Post** - de Technische beheerders kunnen één of verscheidene merken nu bepalen om de parameters te centraliseren die de identiteit van een merk beïnvloeden. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina&#39;s of de instellingen voor de tracking van berichten. U kunt deze merken nu maken en deze koppelen aan berichten of bestemmingspagina&#39;s. Deze configuratie wordt beheerd in sjablonen.
+<table>
+<thead>
+<tr>
+<th><strong>Controle en filterlevering die met typologieën verzenden</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu typologieën en typologische regels maken in de Adobe Campaign Web User Interface. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. De technologieën bevestigen uw leveringen altijd vereiste elementen (zoals een unsubscription verbinding of een onderwerpregel), of het filtreren regels bevatten om groepen van uw voorgenomen doel (zoals abonnees, concurrenten, of niet-loyaliteitklanten) uit te sluiten.</p>
+<p>Raadpleeg de <a href="../administration/external-account.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Abonnementen met het Aanvoeren van pagina&#39;s** - u kunt een het landen pagina aan de dienst nu verbinden, en een bevestigingsbericht verzenden wanneer de gebruikers het bevestigen.
+<table>
+<thead>
+<tr>
+<th><strong>Uw opsommingen beheren</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt opsommingen nu rechtstreeks maken via de Adobe Campaign Web User Interface. Een opsomming is een lijst met waarden die door het systeem worden voorgesteld om velden te vullen. Gebruik opsommingen om de waarden van deze velden te standaardiseren, hulp bij gegevensinvoer of gebruik binnen query's.</p>
+<p>Raadpleeg de <a href="../administration/external-account.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **Visuele fragmenten** - u kunt visuele inhoudsfragmenten nu archiveren.
+<table>
+<thead>
+<tr>
+<th><strong>Aangepaste opties maken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U hebt nu toegang tot technische opties in de Adobe Campaign Web User Interface en kunt uw eigen aangepaste opties maken die aan uw wensen voldoen. Dit is met name handig wanneer u werkt met JavaScript-code-workflowactiviteiten om tussenliggende gegevens op te slaan.</p>
+<p>Raadpleeg de <a href="../administration/external-account.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* **het Bestaan pagina&#39;s captcha** - u kunt nu Captcha toevoegen om uw landende pagina tegen spam en misbruik te beschermen dat door bots wordt veroorzaakt. Dit is niet-indringend voor uw klanten aangezien het geen interactie van hen vereist en op interactie met uw plaats gebaseerd is.
 
-* **Rest APIs** - als Campaign Standard gemigreerde gebruiker, kunt u Rest APIs nu gebruiken om met transactionele berichten te werken. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+<table>
+<thead>
+<tr>
+<th><strong>Javascript-codes definiëren en aanroepen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu JavaScript-codes maken in de Adobe Campaign Web User Interface. Op deze manier kunt u herbruikbare functies maken die in verschillende workflows kunnen worden gebruikt, net als in een bibliotheek.</p>
+<p>Raadpleeg de <a href="../administration/external-account.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen {#25-1-improvements}
+
+* De weergave van aangepaste velden in de interface aanpassen:
+
+   * U kunt nu aanvullende aangepaste velden selecteren die u wilt weergeven in de interface
+   * U kunt nu regels instellen voor de weergave van aangepaste velden van het koppelingstype, zoals het beperken van lijstwaarden op basis van de invoer van een ander veld
+   * U kunt nu velden in de interface flexibeler rangschikken: velden kunnen zich uitstrekken over één kolom of worden gegroepeerd in subsecties voor een betere organisatie
+   * U kunt nu specifieke velden instellen als alleen-lezen.
+
+* Recente filters en Favorieten: als u kenmerken die vaak worden gebruikt snel wilt hergebruiken, kunt u deze nu toevoegen aan Favorieten. Hierdoor zijn ze gemakkelijk toegankelijk voor toekomstige taken. Naast favorieten kunt u ook de laatst geselecteerde kenmerken weergeven en gebruiken.
 
 
