@@ -4,10 +4,10 @@ description: Ontdek nieuwe eigenschappen die met de volgende versie van het Gebr
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 126ebed5066bbc8c20d58d24e237b13f096b9d02
+source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 8%
+source-wordcount: '514'
+ht-degree: 2%
 
 ---
 
@@ -67,7 +67,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tr>
 <td>
 <p>U kunt nu typologieën en typologische regels maken in de Adobe Campaign Web User Interface. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. De technologieën bevestigen uw leveringen altijd vereiste elementen (zoals een unsubscription verbinding of een onderwerpregel), of het filtreren regels bevatten om groepen van uw voorgenomen doel (zoals abonnees, concurrenten, of niet-loyaliteitklanten) uit te sluiten.</p>
-<p>Raadpleeg de <a href="../administration/external-account.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -83,7 +83,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tr>
 <td>
 <p>U kunt opsommingen nu rechtstreeks maken via de Adobe Campaign Web User Interface. Een opsomming is een lijst met waarden die door het systeem worden voorgesteld om velden te vullen. Gebruik opsommingen om de waarden van deze velden te standaardiseren, hulp bij gegevensinvoer of gebruik binnen query's.</p>
-<p>Raadpleeg de <a href="../administration/external-account.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -99,7 +99,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tr>
 <td>
 <p>U hebt nu toegang tot technische opties in de Adobe Campaign Web User Interface en kunt uw eigen aangepaste opties maken die aan uw wensen voldoen. Dit is met name handig wanneer u werkt met JavaScript-code-workflowactiviteiten om tussenliggende gegevens op te slaan.</p>
-<p>Raadpleeg de <a href="../administration/external-account.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -109,14 +109,14 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <table>
 <thead>
 <tr>
-<th><strong>Javascript-codes definiëren en aanroepen</strong><br/></th>
+<th><strong>JavaScript-codes definiëren en aanroepen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>U kunt nu JavaScript-codes maken in de Adobe Campaign Web User Interface. Op deze manier kunt u herbruikbare functies maken die in verschillende workflows kunnen worden gebruikt, net als in een bibliotheek.</p>
-<p>Raadpleeg de <a href="../administration/external-account.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -129,7 +129,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
    * U kunt nu aanvullende aangepaste velden selecteren die u wilt weergeven in de interface
    * U kunt nu regels instellen voor de weergave van aangepaste velden van het koppelingstype, zoals het beperken van lijstwaarden op basis van de invoer van een ander veld
    * U kunt nu velden in de interface flexibeler rangschikken: velden kunnen zich uitstrekken over één kolom of worden gegroepeerd in subsecties voor een betere organisatie
-   * U kunt nu specifieke velden instellen als alleen-lezen.
+   * U kunt nu specifieke velden instellen als alleen-lezen
 
 * Recente filters en Favorieten: als u kenmerken die vaak worden gebruikt snel wilt hergebruiken, kunt u deze nu toevoegen aan Favorieten. Hierdoor zijn ze gemakkelijk toegankelijk voor toekomstige taken. Naast favorieten kunt u ook de laatst geselecteerde kenmerken weergeven en gebruiken.
 
