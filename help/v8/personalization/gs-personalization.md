@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: b2b51bc6a49093c3d68ba0c54368f11791c50ce2
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ U kunt uw berichtinhoud dynamisch maken door de constructies van JavaScript in d
 
   ![](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
+➡️ [ ontdekt deze eigenschap in video ](#video)
+
 ## De expressie-editor openen {#access}
 
 Adobe Campaign Web verstrekt een uitdrukkingsredacteur waar u kunt selecteren, rangschikken, aanpassen en bevestigen alle gegevens om een aangepaste ervaring voor uw inhoud tot stand te brengen. De expressie-editor is beschikbaar voor alle kanalen, in alle velden met het pictogram **[!UICONTROL Open personalization dialog]** , zoals het veld voor de onderwerpregel, of voor e-mailkoppelingen en componenten voor tekst/knopinhoud.
@@ -60,3 +62,9 @@ Hier volgen enkele voorbeelden van hoe u toegang krijgt tot de expressieeditor, 
 >[!NOTE]
 >
 >Naast de expressie-editor kunt u ook een speciale, voorwaardelijke inhoudsontwikkelaar gebruiken bij het ontwerpen van een e-mail. [ Leer hoe te om voorwaardelijke inhoud in e-mails te bouwen ](conditions.md)
+
+## Hoe kan ik-video {#video}
+
+Leer hoe te om berichtinhoud dynamisch te maken door de uitdrukkingsredacteur te gebruiken om uw bericht aan te passen of voorwaardelijke inhoud toe te voegen.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3425795?quality=12)
