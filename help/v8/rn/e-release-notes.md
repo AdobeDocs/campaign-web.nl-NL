@@ -4,9 +4,9 @@ description: Ontdek nieuwe eigenschappen die met de volgende versie van het Gebr
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
+source-git-commit: 202796bbaa26afb0741a5eb3947795ceff7e5414
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '511'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tbody>
 <tr>
 <td>
-<p>U kunt Externe leveringen, en Externe leveringsmalplaatjes, in het Webgebruikersinterface van de Campagne nu bepalen. In deze modus worden berichten gegenereerd in een invoerbestand dat kan worden gedeeld met uw externe provider. De externe leveringswijze is de standaardwijze voor het directe postkanaal.</p>
+<p>U kunt nu externe leveringen en externe leveringssjablonen definiëren in de webinterface van Campagne. In deze modus worden berichten gecompileerd naar een invoerbestand dat kan worden gedeeld met uw externe provider. Standaard wordt de externe leveringsmodus gebruikt voor het directe-mailkanaal.</p>
 </td>
 </tr>
 </tbody>
@@ -60,13 +60,13 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <table>
 <thead>
 <tr>
-<th><strong>Controle en filterlevering die met typologieën verzenden</strong><br/></th>
+<th><strong>Bedrijfsregels maken (typologieregels)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu typologieën en typologische regels maken in de Adobe Campaign Web User Interface. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. De technologieën bevestigen uw leveringen altijd vereiste elementen (zoals een unsubscription verbinding of een onderwerpregel), of het filtreren regels bevatten om groepen van uw voorgenomen doel (zoals abonnees, concurrenten, of niet-loyaliteitklanten) uit te sluiten.</p>
+<p>U kunt nu typologieën en typologische regels maken in de Adobe Campaign-webinterface. Een typologie is een verzameling typologische regels die helpen bij het beheren, filteren en prioriteren van leveringen. De technologieën zorgen ervoor dat uw leveringen altijd vereiste elementen (zoals een unsubscribe verbinding of onderwerpregel) bevatten en passen het filtreren regels toe om specifieke groepen van uw doelpubliek (zoals abonnees, concurrenten, of niet-loyaliteitklanten) uit te sluiten.</p>
 <img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
