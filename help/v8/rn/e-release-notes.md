@@ -4,7 +4,7 @@ description: Ontdek nieuwe eigenschappen die met de volgende versie van het Gebr
 hide: true
 hidefromtoc: true
 exl-id: a4c6ecb7-d657-46de-aa55-90c4cb45164b
-source-git-commit: 1864f6c847e1720eb5e58a0572b110e7991fafb8
+source-git-commit: 965681fabb7696f745f4f958e2961197395c30bb
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 2%
@@ -67,6 +67,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tr>
 <td>
 <p>U kunt nu typologieën en typologische regels maken in de Adobe Campaign Web User Interface. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. De technologieën bevestigen uw leveringen altijd vereiste elementen (zoals een unsubscription verbinding of een onderwerpregel), of het filtreren regels bevatten om groepen van uw voorgenomen doel (zoals abonnees, concurrenten, of niet-loyaliteitklanten) uit te sluiten.</p>
+<img src="assets/do-not-localize/typology.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -83,6 +84,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tr>
 <td>
 <p>U kunt opsommingen nu rechtstreeks maken via de Adobe Campaign Web User Interface. Een opsomming is een lijst met waarden die door het systeem worden voorgesteld om velden te vullen. Gebruik opsommingen om de waarden van deze velden te standaardiseren, hulp bij gegevensinvoer of gebruik binnen query's.</p>
+<img src="assets/do-not-localize/enumerations.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -99,6 +101,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tr>
 <td>
 <p>U hebt nu toegang tot technische opties in de Adobe Campaign Web User Interface en kunt uw eigen aangepaste opties maken die aan uw wensen voldoen. Dit is met name handig wanneer u werkt met JavaScript-code-workflowactiviteiten om tussenliggende gegevens op te slaan.</p>
+<img src="assets/do-not-localize/options.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
@@ -116,6 +119,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tr>
 <td>
 <p>U kunt nu JavaScript-codes maken in de Adobe Campaign Web User Interface. Op deze manier kunt u herbruikbare functies maken die in verschillende workflows kunnen worden gebruikt, net als in een bibliotheek.</p>
+<img src="assets/do-not-localize/javascript.gif">
 <!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
