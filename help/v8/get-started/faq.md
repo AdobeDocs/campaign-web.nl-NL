@@ -1,9 +1,9 @@
 ---
 title: Contextafhankelijke Help voor AI gebruiken in Campagne-web
 description: Vragen stellen in de pop-ups van Campagne Web
-source-git-commit: eea1be08c1af02fbdf6d048f33e0279f0c42711d
+source-git-commit: 235cc79598ed64ed2f3c53a9cb736d4626ee9c38
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -77,5 +77,5 @@ Zoals nu, zullen alle eigenschappen beschikbaar door de console zijn als niet be
 
 +++ Zijn er aanwijzingen of beperkingen van de nieuwe webgebruikersinterface?
 
-De begeleiding en de beperkingen kunnen in [ worden herzien deze pagina ](../get-started/guardrails.md).
+De begeleiding en de beperkingen voor Campagne v8 zijn vermeld [ hier ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/ac-guardrails) {target="_blank"}. Daarnaast zijn specifieke instructies van toepassing op workflows in de webgebruikersinterface. Zij kunnen in [ worden herzien deze pagina ](../get-started/guardrails.md). Zie ook [ Adobe Campaign Managed Cloud Services | Productbeschrijving ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html) {target="_blank"}.
 +++
