@@ -1,9 +1,9 @@
 ---
 title: Contextafhankelijke Help voor AI gebruiken in Campagne-web
 description: Vragen stellen in de pop-ups van Campagne Web
-source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+source-git-commit: eea1be08c1af02fbdf6d048f33e0279f0c42711d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '773'
 ht-degree: 3%
 
 ---
@@ -28,15 +28,15 @@ Om over waar te leren begonnen worden, bezoek [ deze pagina ](../get-started/get
 
 +++ Wat zijn nieuwe functies en mogelijkheden in de nieuwe webgebruikersinterface?
 
-De nieuwe gebruikersinterface in Adobe Campaign v8 zorgt voor consistentie met Adobe Experience Platform en is ontworpen voor marketingefficiëntie. De nieuwe werkstroomcanvas biedt een intuïtieve en geavanceerde werkruimte voor publiekscompositie, workflowbeheer en inhoudsontwerp, en geïntegreerde gebruiksscenario&#39;s met eigen Adobe Experience Platform-toepassingen zoals Journey Optimizer en Real-Time CDP.  Creatief maken, productiviteit verhogen en kanaaloverschrijdende campagnes op schaal aanpassen met Gen AI Content Assistant, die native is ingesloten in de WYSIWYG-berichtenontwerper.
+De nieuwe gebruikersinterface in Adobe Campaign v8 zorgt voor consistentie met Adobe Experience Platform en is ontworpen voor marketingefficiëntie. De nieuwe werkstroomcanvas biedt een intuïtieve en geavanceerde werkruimte voor publiekscompositie, workflowbeheer en inhoudsontwerp, en geïntegreerde gebruiksscenario&#39;s met eigen Adobe Experience Platform-toepassingen zoals Journey Optimizer en Real-Time CDP.  Creatief maken, productiviteit verhogen en kanaaloverschrijdende campagnes op schaal aanpassen met AI Assistant Content Accelerator, die native is ingesloten in de WYSIWYG-berichtenontwerper.
 
-Marketers kunnen generatieve AI gebruiken voor volledige e-mailideatie en het genereren van tekst en afbeeldingen met verfijning en variantsuggesties.  De nieuwe eigenschappen en de mogelijkheden kunnen op [ worden herzien deze pagina ](../rn/whats-new.md). Om meer over de nieuwe interface te leren en het in actie te zien, bezoek [ deze pagina ](../get-started/user-interface.md). Bovendien, kunt u de [ pagina&#39;s van Tutorials ](https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/overview) bezoeken {target="_blank"} om meer over de nieuwe interface te leren.
+Marketers kunnen generatieve AI gebruiken voor volledige e-mailideatie en het genereren van tekst en afbeeldingen met verfijning en variantsuggesties. De nieuwe eigenschappen en de mogelijkheden kunnen op [ worden herzien deze pagina ](../rn/whats-new.md). Om meer over de nieuwe interface te leren en het in actie te zien, bezoek [ deze pagina ](../get-started/user-interface.md). Bovendien, kunt u de [ Tutorials ](https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/overview) bezoeken {target="_blank"} om meer over de nieuwe interface door een reeks hoe te video&#39;s te leren.
 
 +++
 
 +++  Kunnen wij nog de Console van de Campagne gebruiken aangezien wij overgang aan de nieuwe Webinterface?
 
-De console van de Cliënt van de Campagne kan parallel aan de nieuwe interface worden gebruikt. Er zijn echter mogelijkheden die niet beschikbaar zijn in de nieuwe gebruikersinterface (voor nu). Om mogelijkheden in nieuwe UI en de Console van de Cliënt van de Campagne te vergelijken, bezoek [ deze pagina ](../get-started/capability-matrix.md).
+De console van de Cliënt van de Campagne kan parallel aan de nieuwe interface worden gebruikt. Er zijn echter mogelijkheden die niet beschikbaar zijn in de nieuwe gebruikersinterface (voor nu). Om mogelijkheden in het nieuwe Webgebruikersinterface en de Console van de Cliënt van de Campagne te vergelijken, bezoek [ deze pagina ](../get-started/capability-matrix.md).
 
 +++
 
@@ -54,7 +54,7 @@ Voor toegang tot de nieuwe gebruikersinterface moet u zich op Adobe Campaign v8.
 
 +++  Ik ben momenteel op Adobe Campaign Classic v7 Hybrid of op gebouw - wat is mijn weg om tot de nieuwe gebruikersinterface toegang te hebben?
 
-Als u toegang wilt tot de nieuwe gebruikersinterface, moet u zich op Adobe Campaign v8.6 bevinden. De eerste stap bestaat uit het in licentie geven van Cloud Servicen Advanced of Enterprise SKU&#39;s en het vervolgens migreren naar de cloud met de hulp van Adobe Consulting en/of een partner. Neem contact op met het contactpunt van de Adobe. Leer meer in de specifieke [ Pagina van de Overgang ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8) {target="_blank"}.
+Voor toegang tot de nieuwe gebruikersinterface moet u zich op Adobe Campaign v8.6 bevinden en verbinding maken met Campagne met uw Adobe ID. De eerste stap bestaat uit het in licentie geven van Cloud Servicen Advanced of Enterprise SKU&#39;s en het vervolgens migreren naar de cloud met de hulp van Adobe Consulting en/of een partner. Neem contact op met het contactpunt van de Adobe. Leer meer in de specifieke [ Pagina van de Overgang ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8) {target="_blank"}.
 +++
 
 +++ Betekent dit dat er een einde komt aan de steun voor Adobe Campaign Classic v7?
@@ -75,7 +75,7 @@ Zoals nu, zullen alle eigenschappen beschikbaar door de console zijn als niet be
 +++
 
 
-+++ Zijn er aanwijzingen of beperkingen van de nieuwe interface?
++++ Zijn er aanwijzingen of beperkingen van de nieuwe webgebruikersinterface?
 
 De begeleiding en de beperkingen kunnen in [ worden herzien deze pagina ](../get-started/guardrails.md).
 +++
