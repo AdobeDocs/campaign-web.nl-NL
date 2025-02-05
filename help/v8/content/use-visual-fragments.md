@@ -4,9 +4,9 @@ title: Visuele fragmenten toevoegen aan uw e-mails
 description: Leer hoe u visuele fragmenten toevoegt aan uw e-mails
 badge: label="Beperkte beschikbaarheid"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 0b85b5a4b6eff4fdb9835a0d1ccb5d0a86c103a0
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
+>Voor deze functie is een update van Campagne v8.6.4 vereist. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
-U kunt een visueel fragment in een [ e-maillevering ](../email/get-started-email-designer.md), of in a [ inhoudsmalplaatje ](../email/use-email-templates.md) gebruiken. De stappen worden hieronder beschreven. [ Leer om inhoudsfragmenten ](fragments.md) tot stand te brengen en te beheren.
+U kunt een visueel fragment in een [ e-maillevering ](../email/get-started-email-designer.md), of in a [ inhoudsmalplaatje ](../email/use-email-templates.md) gebruiken. De stappen worden hieronder beschreven.
 
-![](assets/fragments.gif)
+![](assets/do-not-localize/fragments.gif)
+
+>[!NOTE]
+>
+>Leer hoe te om inhoudsfragmenten in [ tot stand te brengen en te beheren deze sectie ](fragments.md).
 
 ## Een visueel fragment gebruiken {#use-fragment}
 

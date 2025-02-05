@@ -3,9 +3,9 @@ audience: end-user
 title: Inhoudsfragmenten maken
 description: Leer hoe u inhoudsfragmenten maakt
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Voer de onderstaande stappen uit om een volledig nieuw inhoudsfragment te maken.
 
    >[!AVAILABILITY]
    >
-   >Visuele fragmenten zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld.
+   >Visuele fragmenten moeten worden bijgewerkt naar Campagne v8.6.4. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
 1. Klik **creeer** knoop.
 

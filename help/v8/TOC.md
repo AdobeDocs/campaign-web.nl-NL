@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: ee8a34db025ce5d17b50f82eecb615d995fdfabe
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 14%
+source-wordcount: '793'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 + [Adobe Campaign Web User Interface-documentatie](campaign-web-home.md)
 + Release-opmerkingen {#release-notes}
    + [Nieuwe functies](rn/whats-new.md)
-   + [Vroege aanvullende informatie](rn/e-release-notes.md)
+   + [Vroege release](rn/e-release-notes.md)
    + [Nieuwste release](rn/release-notes.md)
    + Eerdere releases {#previous-release-notes}
       + [Releases van 2024](rn/release-notes-24.md)
@@ -30,6 +30,7 @@ ht-degree: 14%
    + [Bladeren en lijsten filteren](get-started/list-filters.md)
    + [Werken met vooraf gedefinieerde filters](get-started/predefined-filters.md)
    + [Werken met mappen](get-started/work-with-folders.md)
+   + [Kenmerken selecteren en toevoegen aan favorieten](get-started/attributes.md)
    + [Machtigingen](get-started/permissions.md)
    + [Campagne Web en de console van de Cliënt](get-started/capability-matrix.md)
    + [Van Campaign Standard naar v8](rn/acs-migration.md)
@@ -40,7 +41,6 @@ ht-degree: 14%
    + [Toegang tot leveringen](msg/gs-deliveries.md)
    + [Een levering maken](msg/create-deliveries.md)
    + [Leveringssjablonen gebruiken](msg/delivery-template.md)
-   + [Werken met typologieën](msg/typologies.md)
    + E-mails {#email}
       + [Uw eerste e-mail maken](email/create-email.md)
       + [E-mailinhoud configureren](email/edit-content.md)
@@ -72,6 +72,7 @@ ht-degree: 14%
       + [Een transactiebericht maken](transactional-messaging/create-transactional.md)
       + [Transactiebericht valideren](transactional-messaging/validate-transactional.md)
       + [Transactieberichten controleren](transactional-messaging/monitor-transactional.md)
+   + [Externe leveringen verzenden](msg/send-external-deliveries.md)
    + [Aanbiedingen toevoegen aan uw berichten](msg/offers.md)
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
@@ -227,4 +228,8 @@ ht-degree: 14%
 + Configuratie {#conf}
    + [Aangepaste velden configureren](administration/custom-fields.md)
    + [Externe accounts configureren](administration/external-account.md)
+   + [Werken met typologieën](administration/typologies.md)
+   + [Opsommingen beheren](administration/enumerations.md)
+   + [Vorm  [!DNL Campaign]  opties](administration/options.md)
+   + [Werken met JavaScript-codes](administration/javascript-codes.md)
 + [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

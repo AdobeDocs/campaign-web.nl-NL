@@ -3,7 +3,7 @@ title: Paginaspecifieke inhoud definiëren
 description: Leer hoe u landende pagina-specifieke inhoud ontwerpt in Campagne Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 1%
@@ -87,13 +87,12 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
    * **[!UICONTROL Subscribe in if checked]**: gebruikers moeten het selectievakje voor toestemming (opt-in) inschakelen.
    * **[!UICONTROL Unsubscribe if checked]**: gebruikers moeten het selectievakje inschakelen om hun toestemming (opt-out) te verwijderen.
 
-   Als u **[!UICONTROL Field]** selecteert, selecteert u een veld in de lijst met kenmerken en kiest u een van de twee onderstaande opties:
+   Als u **[!UICONTROL Field]** selecteert, selecteer een gebied van de [ lijst van attributen ](../get-started/attributes.md), en kies tussen de twee hieronder opties:
 
    * **[!UICONTROL Yes if checked]**.<!--TBC-->
-
    * **[!UICONTROL No if checked]**.<!--TBC-->
 
-1. U kunt zoveel velden verwijderen en toevoegen (zoals tekstvelden, keuzerondjes, selectievakjes, vervolgkeuzelijst, enzovoort) indien nodig.
+1. U kunt zo veel velden (zoals tekstvelden, keuzerondjes, selectievakjes, vervolgkeuzelijst, enzovoort) verwijderen en toevoegen.
 
 1. Als alle velden zijn toegevoegd of bijgewerkt, klikt u op **[!UICONTROL Call to action]** om de bijbehorende sectie uit te vouwen. Hiermee kunt u het gedrag van de knop in de component **[!UICONTROL Form]** definiëren. [ leer hoe ](#define-actions-on-form-submission)
 
@@ -164,7 +163,7 @@ Voer de volgende stappen uit als u automatisch een bevestigingsbericht wilt verz
 
    ![](assets/lp-checkbox-style.png){zoomable="yes"}
 
-1. Andere secties uitbreiden en bewerken die overeenkomen met andere velden die u hebt toegevoegd (keuzerondje, vervolgkeuzelijst, datum en tijd, enz.) naar uw formulier.
+1. Vouw alle andere secties die overeenkomen met andere velden die u aan het formulier hebt toegevoegd (keuzerondje, vervolgkeuzelijst, datum en tijd, enz.) uit en bewerk deze.
 
 1. Vouw de sectie **[!UICONTROL Call to action]** uit om de weergave van de knop in het deelformulier te wijzigen. U kunt bijvoorbeeld het lettertype wijzigen, een rand toevoegen, de labelkleur bewerken op de muisaanwijzer of de uitlijning van de knop aanpassen.
 

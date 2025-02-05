@@ -4,9 +4,9 @@ title: Leveringsinstellingen configureren
 description: Leer hoe te om leveringsmontages in het Web van de Campagne te vormen
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: f57e0f2de12780ff9f90c2c5f1933b0e9bffe493
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2720'
+source-wordcount: '2597'
 ht-degree: 4%
 
 ---
@@ -25,24 +25,16 @@ De montages van de levering zijn **technische leveringsparameters** die in het l
 >[!CONTEXTUALHELP]
 >id="acw_email_settings_typology"
 >title="Typologie"
->abstract="De typologische regels staan marketers toe om bedrijfspraktijken, over alle leveringen te standaardiseren. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. Profielen die voldoen aan criteria binnen een typologieregel worden bij de voorbereidingsfase uitgesloten van de toedieningsdoelgroepen. De typologieën en de typologieregels worden gecreeerd in de de cliëntconsole van de Campagne."
+>abstract="Met behulp van typologieën kunt u bedrijfspraktijken standaardiseren voor alle leveringen. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. Profielen die voldoen aan criteria binnen een typologieregel worden bij de voorbereidingsfase uitgesloten van de toedieningsdoelgroepen."
 
 >[!CONTEXTUALHELP]
 >id="acw_delivery_template_settings_typology"
 >title="Typologische instellingen voor de levering"
->abstract="De typologische regels staan marketers toe om bedrijfspraktijken, over alle leveringen te standaardiseren. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. Profielen die voldoen aan criteria binnen een typologieregel worden bij de voorbereidingsfase uitgesloten van de toedieningsdoelgroepen. De typologieën en de typologieregels worden gecreeerd in de de cliëntconsole van de Campagne."
+>abstract="Met behulp van typologische regels kunt u bedrijfspraktijken standaardiseren voor alle leveringen. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. Profielen die voldoen aan criteria binnen een typologieregel worden bij de voorbereidingsfase uitgesloten van de toedieningsdoelgroepen."
 
-De typologieën zijn reeksen **typologieregels** die tijdens de voorbereidingsfase worden uitgevoerd om veelvoudige het filtreren regels op een levering in één keer gemakkelijk toe te passen. Zij staan marketers toe om bedrijfspraktijken over alle leveringen te standaardiseren aangezien zij hen laten controleren, filtreren, en voorrang geven aan het verzenden van leveringen.
-
-Wanneer het associëren van een typologie met een bericht of berichtmalplaatje, worden de typologische regels inbegrepen in de typologie uitgevoerd om de leveringsgeldigheid tijdens berichtvoorbereiding te controleren. Profielen die voldoen aan criteria binnen een typologieregel worden dan uitgesloten van het publiek dat ze levert.
-
-De technologieën staan u toe om ervoor te zorgen uw leveringen altijd bepaalde elementen (zoals een unsubscription verbinding of een onderwerpregel) of het filtreren regels bevatten om groepen van uw voorgenomen doel (zoals abonnees, concurrenten, of niet-loyaliteitklanten) uit te sluiten.
+De typologieën zijn reeksen **typologieregels** die tijdens de voorbereidingsfase worden uitgevoerd om veelvoudige het filtreren regels op een levering in één keer gemakkelijk toe te passen. Zij staan marketers toe om bedrijfspraktijken over alle leveringen te standaardiseren aangezien zij hen laten controleren, filtreren, en voorrang geven aan het verzenden van leveringen. [ leer hoe te om typologieën en typologieregels tot stand te brengen ](../administration/typologies.md)
 
 ![](assets/delivery-settings-typology.png){zoomable="yes"}
-
->[!NOTE]
->
->De typologieën en de typologieregels worden gecreeerd in de de cliëntconsole van de Campagne. Leer meer over drukregels en hoe te om vermoeidheidsbeheer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html) te vormen {target="_blank"}.
 
 ### Drukparameters {#pressure-parameters}
 

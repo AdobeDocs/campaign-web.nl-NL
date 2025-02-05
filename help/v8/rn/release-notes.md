@@ -2,10 +2,10 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 344d38239df96d570a93aff9674d38b6fd375830
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 8%
+source-wordcount: '630'
+ht-degree: 3%
 
 ---
 
@@ -20,25 +20,95 @@ De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een onond
 
 De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld [ in deze pagina ](release-notes-24.md).
 
-## Release oktober 1924 {#24-10-release}
+## Release januari 1925 {#25-1-release}
 
-**de datum van de Versie**: 29 okt, 2024
+**de datum van de Versie**: 5 Feb, 2025
 
-De volgende functies en verbeteringen zijn beschikbaar vanaf de release in oktober.
+De volgende functies en verbeteringen zijn beschikbaar vanaf de release in januari.
 
-### Functies
+### Functies {#25-1-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>Externe accounts</strong><br/></th>
+<th><strong>Visuele fragmenten maken en gebruiken</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U hebt nu de mogelijkheid om externe accounts direct via de Adobe Campaign Web User Interface in te stellen en te beheren. Met deze nieuwe functie kunt u eenvoudig verschillende typen externe accounts configureren, zoals het stuiteren van e-mailberichten (POP3) of uitvoeringsinstanties.</p>
-<p>Raadpleeg de <a href="../administration/external-account.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Visuele fragmenten zijn vooraf gedefinieerde visuele blokken die u kunt hergebruiken voor meerdere e-mailleveringen of in inhoudssjablonen. Deze functie is nu beschikbaar voor alle klanten die op de server bouwen 8.6.4 en hoger.</p>
+<img src="assets/do-not-localize/visual-fragment.gif">
+<p>Raadpleeg de <a href="../content/use-visual-fragments.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Een systeem van derden gebruiken om leveringen te verzenden</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu externe leveringen en externe leveringssjablonen definiëren in de webinterface van Campagne. In deze modus worden berichten gecompileerd naar een uitvoerbestand dat kan worden gedeeld met uw externe provider. Standaard wordt de externe leveringsmodus gebruikt voor het directe-mailkanaal.</p>
+<img src="assets/do-not-localize/external-delivery.gif">
+<p>Raadpleeg de <a href="../msg/send-external-deliveries.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Bedrijfsregels maken (typologieregels)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu typologieën en typologische regels maken in de Adobe Campaign-webinterface. Een typologie is een verzameling typologische regels die helpen bij het beheren, filteren en prioriteren van leveringen. De technologieën zorgen ervoor dat uw leveringen altijd vereiste elementen (zoals een unsubscribe verbinding of onderwerpregel) bevatten en passen het filtreren regels toe om specifieke groepen van uw doelpubliek (zoals abonnees, concurrenten, of niet-loyaliteitklanten) uit te sluiten.</p>
+<img src="assets/do-not-localize/typology.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Uw opsommingen beheren</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt opsommingen nu rechtstreeks maken via de Adobe Campaign Web User Interface. Een opsomming is een lijst met waarden die door het systeem worden voorgesteld om velden te vullen. Gebruik opsommingen om de waarden van deze velden te standaardiseren, hulp bij gegevensinvoer of gebruik binnen query's.</p>
+<img src="assets/do-not-localize/enumerations.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aangepaste opties maken</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U hebt nu toegang tot technische opties in de Adobe Campaign Web User Interface en kunt uw eigen aangepaste opties maken die aan uw wensen voldoen. Dit is met name handig wanneer u werkt met JavaScript-code-workflowactiviteiten om tussenliggende gegevens op te slaan.</p>
+<img src="assets/do-not-localize/options.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
@@ -48,48 +118,49 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in oktob
 <table>
 <thead>
 <tr>
-<th><strong>Transactieberichten</strong><br/></th>
+<th><strong>JavaScript-codes definiëren en aanroepen</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Transactieberichten (Message Center) zijn nu beschikbaar in de webgebruikersinterface van Campagne. Deze invoegtoepassing is ontworpen voor het activeren van berichten die worden gegenereerd op basis van gebeurtenissen die worden geactiveerd via informatiesystemen en kan zijn: factuur, orderbevestiging, bevestiging van verzending, wijziging van het wachtwoord, kennisgeving van onbeschikbaarheid van het product, rekeningoverzicht, aanmaak van websiteaccount, enz.</p>
-<p>Raadpleeg de <a href="../transactional-messaging/transactional.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>U kunt nu JavaScript-codes maken in de Adobe Campaign Web User Interface. Op deze manier kunt u herbruikbare functies maken die in verschillende workflows kunnen worden gebruikt, net als in een bibliotheek.</p>
+<img src="assets/do-not-localize/javascript.gif">
+<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--table>
+
+<table>
 <thead>
 <tr>
-<th><strong>External deliveries</strong><br/></th>
+<th><strong>Pagina's genereren met de AI Assistant Content Accelerator</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now define External deliveries, and External delivery templates, in Campaign web user interface. With this mode, messages are generated in an input file which can be shared with your external provider. The External delivery mode is the default mode for the direct mail channel.</p>
+<p>De AI Assistant-versneller voor inhoud is nu beschikbaar bij de levering van de bestemmingspagina, zodat u tekst, afbeeldingen of volledige paginalay-outs kunt genereren.</p>
+<p>Voor meer informatie over de Versneller van de Inhoud AI Hulp, verwijs naar de <a href="../email/generative-gs.md"> gedetailleerde documentatie </a>.</p>
 </td>
 </tr>
 </tbody>
-</table-->
+</table>
 
 
-### Verbeteringen
 
-* **de activiteiten van het Werkschema** - u kunt een activiteit en al zijn kindknopen van een overgang aan een andere binnen een werkschema nu bewegen. Een specifieke **knoop van de Beweging** is beschikbaar in de de eigenschappen van de activiteit ruit om dit uit te voeren. [Meer informatie](../workflows/orchestrate-activities.md#move)
 
-* **de verrijkingsactiviteit van het Werkschema**
+### Verbeteringen {#25-1-improvements}
 
-   * U kunt een Alias en een Etiket nu bepalen wanneer het creëren van een nieuw gebied in de **Verrijking** activiteit. [Meer informatie](../workflows/activities/enrichment.md#collection-settings)
-   * U kunt aanbiedingen voor elk profiel in de **Verrijking** activiteit nu toevoegen. [Meer informatie](../workflows/activities/enrichment.md##add-offers)
+* De weergave van aangepaste velden in de interface aanpassen:
 
-* **Distributie van waarden** - wanneer de toegang tot van de lijst van gebieden voor verpersoonlijking, kunt u nu controleren hoe de waarden voor elk gebied worden verdeeld. Een specifiek popup venster toont het aantal en het percentage voor elke waarde. [Meer informatie](../query/build-query.md#distribution-values-query)
+   * U kunt nu aanvullende aangepaste velden selecteren die u wilt weergeven in de interface
+   * U kunt nu regels instellen voor de weergave van aangepaste velden van het koppelingstype, zoals het beperken van lijstwaarden op basis van de invoer van een ander veld
+   * U kunt nu velden in de interface flexibeler rangschikken: velden kunnen zich uitstrekken over één kolom of worden gegroepeerd in subsecties voor een betere organisatie
+   * U kunt nu specifieke velden instellen als alleen-lezen
 
-* **Versie en systeeminfo** - u kunt tot details over uw instantieversies, zowel voor de cliëntconsole als het Gebruikersinterface van het Web nu toegang hebben. In deze nieuwe sectie worden ook alle ingebouwde pakketten weergegeven die in uw omgeving zijn geïnstalleerd. [Meer informatie](../get-started/user-interface.md#user-interface-about)
+* Recente filters en Favorieten: als u kenmerken die vaak worden gebruikt snel wilt hergebruiken, kunt u deze nu toevoegen aan Favorieten. Hierdoor zijn ze gemakkelijk toegankelijk voor toekomstige taken. Naast favorieten kunt u ook de laatst geselecteerde kenmerken weergeven en gebruiken.
 
-* **Lijsten** - u kunt de waarden van een lijst nu gemakkelijk opnieuw in orde brengen. [Meer informatie](../get-started/work-with-folders.md)
-
-* **Levering** - de variabele van de Levering is nu toegankelijk van verpersoonlijkingsgebieden. [Meer informatie](../personalization/conditions.md#use-variables-for-conditional-content-variables-conditional)
+* Externe accounts: het nieuwe type **[!UICONTROL Routing]** kan worden geselecteerd wanneer u een nieuwe externe account maakt. Het staat u toe om een specifieke externe rekening voor gebruik in uw externe leveringen te vormen. [Meer informatie](../administration/external-account.md#routing)

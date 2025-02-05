@@ -3,9 +3,9 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: 8281f1cd5a8f529bf76b5f2938f7ff1dfc9d1491
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '612'
 ht-degree: 17%
 
 ---
@@ -42,7 +42,7 @@ Voer de volgende stappen uit om de **Deduplication** -activiteit te configureren
 
 1. Voeg de activiteit van de a **Deduplicatie** aan uw werkschema toe.
 
-1. In de **Gebieden om duplicaten** sectie te identificeren, klik **voegt attribuut** knoop toe om de gebieden te specificeren waarvoor de identieke waarden toestaan om worden geïdentificeerd de duplicaten, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt.
+1. In de **Gebieden om duplicaten** sectie te identificeren, klik **voegt attribuut** knoop toe om de gebieden te specificeren waarvoor de identieke waarden toestaan om worden geïdentificeerd de duplicaten, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt. [ leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../../get-started/attributes.md)
 
 1. In de **montages van de Deduplicatie** sectie, selecteer het aantal unieke **Duplicaten om** te houden. De standaardwaarde voor dit veld is 1. Met de waarde 0 kunt u alle duplicaten behouden.
 

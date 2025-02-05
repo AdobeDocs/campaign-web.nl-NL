@@ -3,7 +3,7 @@ audience: end-user
 title: De werkstroomactiviteit Splitsen gebruiken
 description: Leer hoe u de activiteit van de gesplitste workflow gebruikt
 exl-id: 4457c70d-bc92-476f-90a3-d51e26ada8f1
-source-git-commit: 6ae019bf9f4775dc7eb58e9429a75a8ad69026ff
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 0%
@@ -93,7 +93,7 @@ Volg deze stappen om de **Gesplitste** activiteit te vormen:
 
       >[!NOTE]
       >
-      >Wanneer u een populatielimiet voor een subset instelt, kunt u de geselecteerde profielen op basis van een specifiek profielkenmerk in oplopende of aflopende volgorde rangschikken. Schakel hiertoe de optie **[!UICONTROL Enable sorting]** in. U kunt bijvoorbeeld een subset beperken tot alleen de bovenste 50 profielen met het hoogste aankoopbedrag.
+      >Wanneer het plaatsen van een bevolkingsgrens voor een ondergroep, kunt u de geselecteerde profielen rangschikken die op een specifiek [ profielattributen ](../../get-started/attributes.md) worden gebaseerd, in het stijgen of dalende orde. Schakel hiertoe de optie **[!UICONTROL Enable sorting]** in. U kunt bijvoorbeeld een subset beperken tot alleen de bovenste 50 profielen met het hoogste aankoopbedrag.
 
 1. Zodra u alle subsets hebt gevormd, kunt u de resterende populatie selecteren die geen van de subsets aanpast en hen in een extra uitgaande overgang omvat. Schakel hiertoe de optie **[!UICONTROL Generate complement]** in.
 

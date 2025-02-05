@@ -3,9 +3,9 @@ audience: end-user
 title: Direct maillevering ontwerpen
 description: Leer hoe u direct-maillevering ontwerpt met Adobe Campaign Web
 exl-id: aefba651-4125-4b1e-992f-1fe90fd95e4c
-source-git-commit: 60484d08a68a5caaf91074c9ce543d8a44d44ab7
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '526'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Als u de inhoud wilt ontwerpen van het extractiebestand dat wordt gegenereerd do
 Geef in de sectie **[!UICONTROL Content]** de kolommen op die u wilt weergeven in het extractiebestand. Ga als volgt te werk om dit te doen:
 
 1. Klik op **[!UICONTROL Add Attribute]** om een nieuwe kolom te maken.
-1. Kies het kenmerk dat u in de kolom wilt weergeven en bevestig het vervolgens. U kunt de expressie-editor gebruiken om het te gebruiken kenmerk te selecteren door op de knop **[!UICONTROL Edit expression]** te klikken.
+1. Kies het kenmerk dat u in de kolom wilt weergeven en bevestig het vervolgens. U kunt de expressie-editor gebruiken om het te gebruiken kenmerk te selecteren door op de knop **[!UICONTROL Edit expression]** te klikken. [ leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../get-started/attributes.md)
 
    ![](assets/dm-add-attribute.png)
 

@@ -3,7 +3,7 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3a8e0f0035d70ddafbc1fc38304316c12d8a2b83
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 3%
@@ -52,24 +52,24 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 >[!BEGINTABS]
 
 
->[!TAB  Oktober &quot;24 versie ]
+>[!TAB  Januari &quot;25 versie ]
 
-De release van oktober is nu live, inclusief Transactieberichten, Externe accounts en meer verbeteringen.
+De release van januari is nu live, inclusief Transactieberichten, Externe accounts en meer verbeteringen.
 
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+[![ leer meer knoop ](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >] de Versneller van de Inhoud van 0} AI Hulp {[!TAB 
 
 ✨ onderdompelen zich in een hands-on ervaring met onze ](../v8/email/generative-gs.md) levende eigenschapvoorproef van de Versneller van de Inhoud 1} van AI Hulp, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.[
 
-[![afbeelding](assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![ leer meer knoop ](assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) {target="_blank"}
 
->[!TAB  Distributie van waarden ]
+>[!TAB Veelgestelde vragen]
 
-Wanneer u de lijst met velden voor personalisatie opent, kunt u nu controleren hoe waarden voor elk veld worden verdeeld.
+Veelgestelde vragen over de gebruikersinterface van het Web van de Campagne zijn vermeld in een nieuwe specifieke pagina.
 
-[![afbeelding](assets/do-not-localize/learn-more-button.svg)](../v8/query/build-query.md#distribution-values-query)
+[![ leer meer knoop ](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]

@@ -1,15 +1,15 @@
 ---
-title: Externe rekening
+title: Externe account beheren
 description: Leer hoe u externe accounts kunt configureren
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---
 
-# Externe accounts configureren {#external-accounts}
-
+# Externe accounts beheren {#external-accounts}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn2"
@@ -17,17 +17,16 @@ ht-degree: 1%
 >abstract="U kunt nu verbinding maken met extra platforms of de verbindingen aanpassen aan uw workflow en eenvoudig nieuwe externe accounts maken die aan uw specifieke behoeften voldoen en zorgen voor naadloze gegevensoverdracht."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
-
 >[!AVAILABILITY]
 >
-> De externe rekeningen zijn momenteel beschikbaar slechts voor Stuitende post (POP3) en de instantie van de Uitvoering, met extra rekeningtypes die in de toekomst moeten worden toegevoegd.
+> Merk op dat de externe rekeningen momenteel slechts voor Bounce post (POP3), het Verpletteren en de instantie van de Uitvoering, met extra rekeningtypes beschikbaar zijn die in de toekomst moeten worden toegevoegd.
 > Niet-ondersteunde externe accounts die zijn gemaakt in de Adobe Campaign-console zijn zichtbaar in de webgebruikersinterface, maar kunnen niet worden bewerkt of geopend.
 
 Adobe Campaign wordt geleverd met een reeks vooraf geconfigureerde externe accounts voor eenvoudige integratie met verschillende systemen. Als u verbinding moet maken met extra platforms of de verbindingen moet aanpassen aan uw workflow, kunt u nu eenvoudig nieuwe externe accounts maken met de webgebruikersinterface die voldoen aan uw specifieke behoeften en zorgen voor naadloze gegevensoverdracht.
 
 ## Een externe account maken {#create-ext-account}
 
-Voer de onderstaande stappen uit om een nieuwe externe account te maken. Gedetailleerde instellingen zijn afhankelijk van het type externe account.
+Voer de onderstaande stappen uit om een nieuwe externe account te maken. Gedetailleerde instellingen zijn afhankelijk van het type externe account. [Meer informatie](#campaign-specific)
 
 1. Selecteer **[!UICONTROL External accounts]** onder **[!UICONTROL Administration]** in het menu voor het linkerdeelvenster.
 
@@ -35,23 +34,29 @@ Voer de onderstaande stappen uit om een nieuwe externe account te maken. Gedetai
 
    ![](assets/external_account_create_1.png)
 
-1. Voer uw **[!UICONTROL Label]** in en selecteer uw externe account **[!UICONTROL Type]** .
+1. Voer uw **[!UICONTROL Label]** in en selecteer de externe account **[!UICONTROL Type]** .
+
+   >[!NOTE]
+   >
+   >De montages voor campagne-specifieke types zijn gedetailleerd in [ deze sectie ](#campaign-specific).
 
    ![](assets/external_account_create_2.png)
 
 1. Klik op **[!UICONTROL Create]**.
 
-1. In de vervolgkeuzelijst **[!UICONTROL Advanced options]** kunt u het pad **[!UICONTROL Internal name]** of **[!UICONTROL Folder]** wijzigen als dat nodig is.
+1. In de vervolgkeuzelijst **[!UICONTROL Additional options]** kunt u het pad **[!UICONTROL Internal name]** of **[!UICONTROL Folder]** wijzigen als dat nodig is.
 
    ![](assets/external_account_create_3.png)
 
-1. Schakel **[!UICONTROL Exported automatically]** in als u wilt dat de gegevens die door deze externe account worden beheerd, automatisch worden geëxporteerd.
+1. Schakel de optie **[!UICONTROL Exported automatically in packages]** in als u wilt dat de gegevens die door deze externe account worden beheerd, automatisch worden geëxporteerd. <!--Exported where??-->
 
-1. Configureer de toegang tot de account door referenties op te geven, afhankelijk van het gekozen type externe account.
+   ![](assets/external_account_create_exported.png)
 
-1. Klik op **[!UICONTROL Test the connection]** om te controleren of de configuratie correct is
+1. In de sectie **[!UICONTROL Details]** configureert u de toegang tot de account door referenties op te geven, afhankelijk van het gekozen externe accounttype. [Meer informatie](#bounce)
 
-1. Dupliceer of verwijder uw externe account vanuit het menu **[!UICONTROL More...]** .
+1. Klik op **[!UICONTROL Test connection]** om te controleren of de configuratie correct is.
+
+1. Vanuit het menu **[!UICONTROL More...]** kunt u uw externe account dupliceren of verwijderen.
 
    ![](assets/external_account_create_4.png)
 
@@ -59,48 +64,65 @@ Voer de onderstaande stappen uit om een nieuwe externe account te maken. Gedetai
 
 ## Campagne-specifieke externe rekeningen {#campaign-specific}
 
+Afhankelijk van het geselecteerde externe accounttype voert u de onderstaande stappen uit om de accountinstellingen te configureren.
+
 ### Stuitberichten (POP3) {#bounce}
 
 >[!AVAILABILITY]
 >
 > OAuth 2.0 wordt momenteel niet ondersteund.
 
-De externe account voor Bounce Mail geeft de externe POP3-account aan die wordt gebruikt om verbinding te maken met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen terugkeerpost ontvangen.
+Met de externe account Bounce mails wordt de externe POP3-account opgegeven die wordt gebruikt om verbinding te maken met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen terugkeerpost ontvangen.
 
 ![](assets/external_account_bounce.png)
 
-U configureert als volgt de externe account van **[!UICONTROL Bounce mails (POP3)]** :
+Als u de **[!UICONTROL Bounce mails (POP3)]** externe account wilt configureren, vult u de volgende velden in:
 
-* **[!UICONTROL Server]**
+* **[!UICONTROL Server]** - URL van de POP3-server
 
-  URL van de POP3-server
+* **[!UICONTROL Port]** - POP3-poortnummer (standaardpoort is 110)
 
-* **[!UICONTROL Port]**
+* **[!UICONTROL Account]** - Naam van de gebruiker
 
-  POP3-poortnummer van verbinding (standaardpoort is 110)
+* **[!UICONTROL Password]** - Wachtwoord voor gebruikersaccount
 
-* **[!UICONTROL Account]**
-
-  Naam van de gebruiker
-
-* **[!UICONTROL Password]**
-
-  Wachtwoord gebruikersaccount
-
-* **[!UICONTROL Encryption]**
-
-  Type gekozen codering tussen:
+* **[!UICONTROL Encryption]** - Type gekozen codering tussen:
 
    * Standaard (POP3 als poort 110, POP3S als poort 995)
    * POP3 die overschakelt naar SSL na het verzenden van een STARTTLS
    * POP3 niet-beveiligd (standaard poort 110)
    * POP3 veilig boven SSL (standaard poort 995)
 
-* **[!UICONTROL Function]**
+* **[!UICONTROL Function]** - Binnenkomende e-mail, wanneer de externe rekening wordt gevormd om inkomende e-mail, of SOAP router te ontvangen, om SOAP verzoeken te behandelen.
 
-  Binnenkomende e-mail, wanneer de externe rekening wordt gevormd om inkomende e-mail, of SOAP router te ontvangen, om SOAP verzoeken te behandelen.
+### Routering {#routing}
 
-### Uitvoeringsinstantie{#instance-exec}
+Volg onderstaande stappen om een specifieke externe account te configureren die in uw externe leveringen wordt gebruikt.
+
+1. Maak een externe account. [Meer informatie](../administration/external-account.md#create-ext-account)
+
+1. Selecteer het type **[!UICONTROL Routing]** .
+
+   ![](assets/external-account-routing.png){zoomable="yes"}
+
+1. Selecteer het gewenste kanaal en klik op **[!UICONTROL Create]** .
+
+1. In de sectie voor de externe account **[!UICONTROL Details]** is **[!UICONTROL External]** standaard geselecteerd als de **[!UICONTROL Delivery mode]** .
+
+   ![](assets/external-account-delivery-mode.png){zoomable="yes"}
+
+   >[!NOTE]
+   >
+   >Momenteel is **[!UICONTROL External]** de enige beschikbare modus.
+
+1. Als u het proces na de uitvoering van de levering wilt afhandelen, kunt u dit naar een workflow na de verwerking externaliseren. Om dit te doen, moet u een werkschema met een [ Externe signaal ](../workflows/activities/external-signal.md) activiteit tot stand brengen en het van het **[!UICONTROL Post-processing]** gebied selecteren.
+
+   ![](assets/external-account-post-processing.png){zoomable="yes"}
+
+1. In het veld **[!UICONTROL Activity]** kunt u de naam bewerken van de activiteit van de nabewerkingsworkflow die wordt weergegeven in de logboeken. <!--you can edit the name of the activity that will be created if you add an external or bulk delivery to a workflow-->
+
+
+### Uitvoeringsinstantie {#instance-exec}
 
 Als u een gesegmenteerde architectuur hebt, moet u de uitvoeringsinstanties identificeren verbonden aan de controleinstantie en verbindingen tussen hen vestigen. De transactionele berichtmalplaatjes worden opgesteld op de uitvoeringsinstantie.
 

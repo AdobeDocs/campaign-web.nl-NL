@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 443be09067fdcf78651550cfea5ccf38f2f247a1
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2031'
 ht-degree: 1%
 
 ---
@@ -361,40 +361,6 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >title="Initialisatiescript voor uitvoering"
 >abstract="Initialisatiescript voor uitvoering"
 
-<!-- Schema edit custom fields -->
-
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields"
->title="Aangepaste details bewerken"
->abstract="Aangepaste details bewerken"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_separatorproperties"
->title="Eigenschappen van Scheidingsteken"
->abstract="Eigenschappen van Scheidingsteken"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings"
->title="Kenmerkinstellingen"
->abstract="Kenmerkinstellingen"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_general"
->title="Algemeen"
->abstract="Algemeen"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_link"
->title="Koppelingseigenschappen"
->abstract="LaLink-eigenschappenyout"
-
->[!CONTEXTUALHELP]
->id="acw_schema_editcustomfields_settings_layout"
->title="Layout"
->abstract="Layout"
-
-
 <!--Schema-->
 
 >[!CONTEXTUALHELP]
@@ -471,51 +437,3 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 >id="acw_targetmapping_storage"
 >title="Opslag doeltoewijzing"
 >abstract="Opslag wordt ontkend door doeltoewijzing"
-
-<!-- Favorites & recents -->
-
->[!CONTEXTUALHELP]
->id="acw_attribute_picker_favorites_recents"
->title="Favorieten en opmerkingen"
->abstract="Favorieten en opmerkingen"
-
-<!-- Options -->
-
->[!CONTEXTUALHELP]
->id="acw_options_list"
->title="Opties"
->abstract="Opties"
-
->[!CONTEXTUALHELP]
->id="acw_options_create"
->title="Maken, optie"
->abstract="Maken, optie"
-
-<!-- JavaScript codes -->
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_list"
->title="JavaScript-codes"
->abstract="JavaScript-codes"
-
->[!CONTEXTUALHELP]
->id="acw_javascript_codes_create"
->title="JavaScript-code maken"
->abstract="JavaScript-code maken"
-
-<!-- Enumerations -->
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_list"
->title="Opsommingen"
->abstract="Opsommingen"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_properties"
->title="Properties"
->abstract="Properties"
-
->[!CONTEXTUALHELP]
->id="acw_enumerations_values"
->title="Lijst met opsommingswaarden"
->abstract="Lijst met opsommingswaarden"

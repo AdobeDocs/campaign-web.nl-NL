@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit voor het uitpakken van bestanden gebruiken
 description: Leer hoe u de workflowactiviteit voor het uitpakken van bestanden kunt gebruiken
 exl-id: fa50ab5b-2539-4517-9d7b-93315f1e505c
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '810'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ In de sectie **[!UICONTROL File to extract]** kunt u de bestandseigenschappen en
 1. Geef de kolommen op die in het geëxtraheerde bestand moeten worden weergegeven. Ga als volgt te werk om dit te doen:
 
    1. Klik op **[!UICONTROL Add output column]** .
-   1. Kies het kenmerk dat u in de kolom wilt weergeven en bevestig het vervolgens. Welke kenmerken beschikbaar zijn, is afhankelijk van de doeldimensie van de workflow.
+   1. Kies het kenmerk dat u in de kolom wilt weergeven en bevestig het vervolgens. Welke kenmerken beschikbaar zijn, is afhankelijk van de doeldimensie van de workflow. [ leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../../get-started/attributes.md)
    1. Nadat de kolom is toegevoegd, kunt u de **[!UICONTROL Label]** ervan wijzigen en de bijbehorende **[!UICONTROL Attribute]** wijzigen.
    1. Als u een transformatie wilt toepassen op de waarden van de kolom, selecteert u deze in de vervolgkeuzelijst. U kunt bijvoorbeeld alle waarden in de geselecteerde kolom in hoofdletters zetten.
 

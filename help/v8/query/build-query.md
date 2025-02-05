@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: 3477d7b89b642ea62adaf3f2e49e4000e52a9862
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2224'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ U opent deze optie door in de query op de selectieknop voor kenmerken te klikken
 >
 >* Voor velden met veel waarden worden alleen de eerste 20 waarden weergegeven. In dat geval verschijnt er een waarschuwing **[!UICONTROL Partial load]** .
 >
->* De optie **[!UICONTROL Distribution of values]** is toegankelijk in elke kenmerkkiezer.
+>* De optie **[!UICONTROL Distribution of values]** is toegankelijk in elke kenmerkkiezer. [ leer hoe te om attributen ](../get-started/attributes.md) te selecteren
 >* U kunt voorwaarden op de resultaten toevoegen door de **[!AGeavanceerde filters]** te gebruiken. [ leer hier meer ](../get-started/work-with-folders.md#filter-the-values).
 
 ## Filtercomponenten toevoegen {#filtering}
@@ -62,7 +62,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
 1. Klik op de knop **+** op het gewenste knooppunt en selecteer **[!UICONTROL Custom condition]** . Het deelvenster Eigenschappen voor aangepaste voorwaarde wordt aan de rechterkant geopend.
 
-1. Op het **gebied van Attributen**, selecteer de attributen van het gegevensbestand dat u hefboomwerking wilt gebruiken om uw voorwaarde tot stand te brengen. De lijst met kenmerken bevat alle kenmerken van uw Campagne-database, inclusief kenmerken van gekoppelde tabellen.
+1. Op het **gebied van Attributen**, selecteer de attributen van het gegevensbestand dat u hefboomwerking wilt gebruiken om uw voorwaarde tot stand te brengen. De lijst met kenmerken bevat alle kenmerken van uw Campagne-database, inclusief kenmerken van gekoppelde tabellen. [ leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../get-started/attributes.md)
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 

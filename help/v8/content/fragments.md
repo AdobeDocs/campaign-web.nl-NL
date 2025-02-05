@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met inhoudsfragmenten
 description: Leer hoe u maakt met inhoudsfragmenten
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 7185e1cbc8ce9dd325bebc20c0ac362d7067f3e9
+source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Er zijn twee typen fragmenten beschikbaar:
 
   >[!AVAILABILITY]
   >
-  >Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
+  >Voor deze functie is een update van Campagne v8.6.4 vereist. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
 ## Laten we dieper duiken
 
