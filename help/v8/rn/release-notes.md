@@ -2,10 +2,10 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 898a9d62a18de0ee27713b5f15b032103463fcef
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 3%
+source-wordcount: '662'
+ht-degree: 8%
 
 ---
 
@@ -74,7 +74,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <td>
 <p>U kunt nu typologieën en typologische regels maken in de Adobe Campaign-webinterface. Een typologie is een verzameling typologische regels die helpen bij het beheren, filteren en prioriteren van leveringen. De technologieën zorgen ervoor dat uw leveringen altijd vereiste elementen (zoals een unsubscribe verbinding of onderwerpregel) bevatten en passen het filtreren regels toe om specifieke groepen van uw doelpubliek (zoals abonnees, concurrenten, of niet-loyaliteitklanten) uit te sluiten.</p>
 <img src="assets/do-not-localize/typology.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../administration/typologies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -91,7 +91,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <td>
 <p>U kunt opsommingen nu rechtstreeks maken via de Adobe Campaign Web User Interface. Een opsomming is een lijst met waarden die door het systeem worden voorgesteld om velden te vullen. Gebruik opsommingen om de waarden van deze velden te standaardiseren, hulp bij gegevensinvoer of gebruik binnen query's.</p>
 <img src="assets/do-not-localize/enumerations.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../administration/enumerations.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -108,7 +108,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <td>
 <p>U hebt nu toegang tot technische opties in de Adobe Campaign Web User Interface en kunt uw eigen aangepaste opties maken die aan uw wensen voldoen. Dit is met name handig wanneer u werkt met JavaScript-code-workflowactiviteiten om tussenliggende gegevens op te slaan.</p>
 <img src="assets/do-not-localize/options.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../administration/options.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -126,7 +126,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <td>
 <p>U kunt nu JavaScript-codes maken in de Adobe Campaign Web User Interface. Op deze manier kunt u herbruikbare functies maken die in verschillende workflows kunnen worden gebruikt, net als in een bibliotheek.</p>
 <img src="assets/do-not-localize/javascript.gif">
-<!--p>For more information, refer to the <a href="../administration/external-account.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../administration/javascript-codes.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
