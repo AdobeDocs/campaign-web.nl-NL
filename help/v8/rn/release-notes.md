@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 898a9d62a18de0ee27713b5f15b032103463fcef
+source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '584'
 ht-degree: 8%
 
 ---
@@ -63,22 +63,24 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>Bedrijfsregels maken (typologieregels)</strong><br/></th>
+<th><strong>Create business rules (typology rules)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu typologieën en typologische regels maken in de Adobe Campaign-webinterface. Een typologie is een verzameling typologische regels die helpen bij het beheren, filteren en prioriteren van leveringen. De technologieën zorgen ervoor dat uw leveringen altijd vereiste elementen (zoals een unsubscribe verbinding of onderwerpregel) bevatten en passen het filtreren regels toe om specifieke groepen van uw doelpubliek (zoals abonnees, concurrenten, of niet-loyaliteitklanten) uit te sluiten.</p>
+<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
 <img src="assets/do-not-localize/typology.gif">
-<p>Raadpleeg de <a href="../administration/typologies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
