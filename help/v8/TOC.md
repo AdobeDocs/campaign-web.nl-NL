@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '798'
 ht-degree: 13%
 
 ---
@@ -121,6 +121,7 @@ ht-degree: 13%
       + [E-mailgeneratie met AI](email/generative-content.md)
       + [SMS genereren met AI](email/generative-sms.md)
       + [Pushmeldingen genereren met AI](email/generative-push.md)
+      + [Genereren van landingspagina&#39;s met AI](email/generative-lp.md)
       + [Gebruiksgevallen van AI Assistant](email/generative-uc.md)
 + Landingspagina’s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](landing-pages/get-started-lp.md)
