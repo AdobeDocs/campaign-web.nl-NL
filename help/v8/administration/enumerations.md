@@ -1,14 +1,22 @@
 ---
 title: Opsommingen beheren
 description: Leer hoe u met opsommingen werkt
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+exl-id: d2a30fef-2cc4-49af-9f5d-d42c6396a8ab
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
 # Opsommingen beheren {#enumerations}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn3"
+>title="Opsommingen maken"
+>abstract="U kunt opsommingen nu rechtstreeks maken via de Adobe Campaign Web User Interface. Een opsomming is een lijst met waarden die door het systeem worden voorgesteld om velden te vullen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+
 
 >[!CONTEXTUALHELP]
 >id="acw_enumerations_list"

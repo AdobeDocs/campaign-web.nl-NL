@@ -3,20 +3,14 @@ audience: end-user
 title: Aan de slag met de AI Assistant Content Accelerator
 description: Aan de slag met de AI Assistant Content Accelerator
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '797'
 ht-degree: 1%
 
 ---
 
 # Werken met de AI Assistant Content Accelerator  {#generative-gs}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="AI Assistant-versnelling voor inhoud"
->abstract="Met AI Assistant kunt u marketingcampagnes op verschillende kanalen, zoals e-mail, SMS en Push, intuïtief, eenvoudig en probleemloos maken en tegelijk tijd besparen, de efficiëntie verbeteren en betere resultaten behalen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 
 >[!CONTEXTUALHELP]
@@ -32,16 +26,16 @@ ht-degree: 1%
 
 >[!CONTEXTUALHELP]
 >id="acw_emagica_generate"
->title="Algemene AI-termen voor Adobe"
+>title="Adobe Generative AI-termen"
 >abstract="Voor toegang tot deze functie moet u akkoord gaan met de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen. Controleer de nauwkeurigheid van de uitvoer van deze functie en zorg ervoor dat deze geschikt is voor uw gebruiksscenario."
->additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generation AI-gebruikersrichtlijnen"
+>additional-url="https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html" text="Adobe Generative AI-gebruikersrichtlijnen"
 
 >[!INFO]
 >
 >Ga in een hands-on ervaring met [ binnen onze levende eigenschapvoorproef ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
 
-Naarmate de marketing-industrie concurrerender wordt, zoeken merken efficiënte manieren om op efficiënte en snelle wijze effectvolle inhoud te genereren. AI Assistant Content Accelerator in Adobe Campaign Web, aangedreven door Microsoft Azure OpenAI en Adobe Firefly, is de AI-functionaliteit van de Adobe voor het genereren van inhoud die een revolutie betekent in de manier waarop marketers professionele en merkconsistente inhoud maken op verschillende kanalen, zoals E-mail, SMS en Push. Met geavanceerde GenAI-modellen en een goed begrip van de richtlijnen voor merken genereert AI Assistant automatisch persoonlijke, aantrekkelijke en effectieve inhoud die is gebaseerd op het marketingdoel, met inhoud die is geoptimaliseerd voor stijlen, lay-outs, kleurtinten en meer met een merk.
+Naarmate de marketing-industrie concurrerender wordt, zoeken merken efficiënte manieren om op efficiënte en snelle wijze effectvolle inhoud te genereren. AI Assistant Content Accelerator in Adobe Campaign Web, aangedreven door Microsoft Azure OpenAI en Adobe Firefly, is een Adobe AI-functie voor het genereren van inhoud die een revolutie betekent in de manier waarop marketeers professionele en merkconsistente inhoud creëren op verschillende kanalen, zoals E-mail, SMS en Push. Met geavanceerde GenAI-modellen en een goed begrip van de richtlijnen voor merken genereert AI Assistant automatisch persoonlijke, aantrekkelijke en effectieve inhoud die is gebaseerd op het marketingdoel, met inhoud die is geoptimaliseerd voor stijlen, lay-outs, kleurtinten en meer met een merk.
 
 Met AI Assistant kunt u marketingcampagnes op verschillende kanalen, zoals e-mail, SMS en Push, intuïtief, eenvoudig en probleemloos maken en tegelijk tijd besparen, de efficiëntie verbeteren en betere resultaten behalen.
 
@@ -73,12 +67,12 @@ Leer hoe te om toestemmingen in Campagne in [ te bepalen deze sectie ](../get-st
 De algemene richtlijnen voor het gebruik van de AI Assistant Content Accelerator in Adobe Campaign Web voor het genereren van e-mails worden hieronder weergegeven:
 
 * De kwaliteit van de gegenereerde inhoud wordt sterk beïnvloed door het marketingdoel dat/de marketingprompt die u definieert. Gebruik een duidelijk gedefinieerde prompt voor een juiste interpretatie van het GenAI-model. 
-* Upload merkmiddelen voor nauwkeurige informatie over de inhoud van het merk. Anders is de inhoud gebaseerd op algemeen beschikbare informatie. De geüploade inhoud kan de volgende indelingen hebben: PDF, JPEG, PNG- of ZIP-bestanden (met ondersteunde bestandsindelingen).
+* Upload merkmiddelen voor nauwkeurige informatie over de inhoud van het merk. Anders is de inhoud gebaseerd op algemeen beschikbare informatie. De geüploade inhoud kan de volgende indelingen hebben: PDF-, JPEG-, PNG- of ZIP-bestanden (met ondersteunde bestandsindelingen).
 * De maximale grootte voor geüploade brandmiddelen is 50 MB. Grotere bestanden of veel afbeeldingen kunnen werken, maar de verwerkingstijd neemt toe.
 * Gebruik [ ingebouwde e-mailmalplaatjes ](../email/create-email-templates.md), merkspecifiek malplaatje of douanemalplaatje om uw e-mailinhoud tot stand te brengen gebruikend de Versneller van de Inhoud. E-mailsjablonen met maximaal 8-10 afbeeldingen worden aanbevolen.
 * Zorg ervoor dat u eventuele problematische uitvoerbestanden meldt met het blokje omhoog, omlaag of de vlagpictogrammen bij het selecteren van varianten.
 * Op het gebruik van de AI-assistent zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* Als onderdeel van de toezegging van de Adobe om het gebruik van generatieve AI-tools bij het maken van media transparanter te maken, zal de Adobe Content credentials toepassen wanneer inhoud of een project dat een Firefly bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/firefly/using/content-credentials.html)
+* Als onderdeel van de toezegging van Adobe om de transparantie bij het gebruik van generatieve AI-tools bij het maken van media te bevorderen, zal Adobe Content Credentials toepassen wanneer inhoud of een project dat een door Firefly gegenereerd element bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/firefly/using/content-credentials.html)
 
 De volgende beperkingen gelden voor AI Assistant Content Accelerator in Adobe Campaign Web:
 

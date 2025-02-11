@@ -4,26 +4,28 @@ title: Visuele fragmenten toevoegen aan uw e-mails
 description: Leer hoe u visuele fragmenten toevoegt aan uw e-mails
 badge: label="Beperkte beschikbaarheid"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '596'
 ht-degree: 1%
 
 ---
 
 # Visuele fragmenten toevoegen aan uw e-mails {#use-visual-fragments}
 
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Visuele fragmenten e-mailen"
+>abstract="U kunt nu visuele fragmenten maken en gebruiken. Dit zijn vooraf gedefinieerde visuele blokken die u kunt hergebruiken in meerdere e-mailleveringen of in inhoudssjablonen."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+
 >[!AVAILABILITY]
 >
 >Voor deze functie is een update van Campagne v8.6.4 vereist. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
-U kunt een visueel fragment in een [ e-maillevering ](../email/get-started-email-designer.md), of in a [ inhoudsmalplaatje ](../email/use-email-templates.md) gebruiken. De stappen worden hieronder beschreven.
+In het Webinterface van de Campagne, **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige [ e-mailleveringen ](../email/get-started-email-designer.md), of in [ inhoudsmalplaatjes ](../email/use-email-templates.md) kunt hergebruiken. Leer hoe te om inhoudsfragmenten in [ tot stand te brengen en te beheren deze sectie ](fragments.md).
 
 ![](assets/do-not-localize/fragments.gif)
-
->[!NOTE]
->
->Leer hoe te om inhoudsfragmenten in [ tot stand te brengen en te beheren deze sectie ](fragments.md).
 
 ## Een visueel fragment gebruiken {#use-fragment}
 

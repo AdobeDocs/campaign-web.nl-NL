@@ -2,25 +2,20 @@
 title: Externe account beheren
 description: Leer hoe u externe accounts kunt configureren
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '636'
 ht-degree: 1%
 
 ---
 
 # Externe accounts beheren {#external-accounts}
 
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Externe accounts"
->abstract="U kunt nu verbinding maken met extra platforms of de verbindingen aanpassen aan uw workflow en eenvoudig nieuwe externe accounts maken die aan uw specifieke behoeften voldoen en zorgen voor naadloze gegevensoverdracht."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
-
 >[!AVAILABILITY]
 >
-> Merk op dat de externe rekeningen momenteel slechts voor Bounce post (POP3), het Verpletteren en de instantie van de Uitvoering, met extra rekeningtypes beschikbaar zijn die in de toekomst moeten worden toegevoegd.
-> Niet-ondersteunde externe accounts die zijn gemaakt in de Adobe Campaign-console zijn zichtbaar in de webgebruikersinterface, maar kunnen niet worden bewerkt of geopend.
+>* De externe rekeningen zijn momenteel beschikbaar slechts voor Stuitende berichten (POP3), het Verpletteren en de instantie van de Uitvoering. In de toekomst worden extra accounttypen toegevoegd.
+>
+>* Niet-ondersteunde externe accounts die zijn gemaakt in de Adobe Campaign-console zijn zichtbaar in de webgebruikersinterface, maar kunnen niet worden bewerkt of geopend.
 
 Adobe Campaign wordt geleverd met een reeks vooraf geconfigureerde externe accounts voor eenvoudige integratie met verschillende systemen. Als u verbinding moet maken met extra platforms of de verbindingen moet aanpassen aan uw workflow, kunt u nu eenvoudig nieuwe externe accounts maken met de webgebruikersinterface die voldoen aan uw specifieke behoeften en zorgen voor naadloze gegevensoverdracht.
 
@@ -93,7 +88,7 @@ Als u de **[!UICONTROL Bounce mails (POP3)]** externe account wilt configureren,
    * POP3 niet-beveiligd (standaard poort 110)
    * POP3 veilig boven SSL (standaard poort 995)
 
-* **[!UICONTROL Function]** - Binnenkomende e-mail, wanneer de externe rekening wordt gevormd om inkomende e-mail, of SOAP router te ontvangen, om SOAP verzoeken te behandelen.
+* **[!UICONTROL Function]** - Binnenkomende e-mail, wanneer de externe rekening wordt gevormd om inkomende e-mail, of de router van SOAP, te ontvangen om de verzoeken van SOAP te behandelen.
 
 ### Routering {#routing}
 

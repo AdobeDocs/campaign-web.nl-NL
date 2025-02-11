@@ -3,21 +3,15 @@ audience: end-user
 title: Afleveringswaarschuwing
 description: Leer hoe u werkt met waarschuwingsberichten voor leveringen.
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: dfd5f2e000b02d4382eaac0c9bb00fe940a99f79
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # Aan de slag met meldingen over levering {#gs-delivery-alerting}
 
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Afleveringswaarschuwing"
->abstract="Delivery Alerting is nu beschikbaar in Campaign. Deze mogelijkheid is een waarschuwingsbeheersysteem waarmee groepen gebruikers automatisch e-mailmeldingen kunnen ontvangen met informatie over de uitvoering van hun levering."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 De Alerting van de levering is een waakzaam beheersysteem dat groepen gebruikers toelaat om e-mailberichten met informatie over hun levering automatisch te ontvangen uitvoeren. Ontvangers kunnen de lopende leveringen die door Adobe Campaign worden verwerkt, volgen en passende maatregelen nemen als zich problemen voordoen.
 

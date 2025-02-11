@@ -1,15 +1,21 @@
 ---
 title: Vorm  [!DNL Campaign]  opties
 description: Leer hoe u campagneopties configureert en uw eigen aangepaste opties maakt.
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
+source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
-
 # [!DNL Campaign] -opties configureren {#options}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn4"
+>title="Aangepaste opties maken"
+>abstract="U kunt nu uw eigen technische aangepaste opties maken die aan uw behoeften voldoen. Dit is met name nuttig wanneer het werken met **code van JavaScript** werkschemaactiviteiten om tussentijdse gegevens op te slaan."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"
@@ -25,7 +31,7 @@ Adobe Campaign Web wordt geleverd met technische opties die u toestaan om de toe
 
 >[!IMPORTANT]
 >
->Ingebouwde opties zijn vooraf geconfigureerd en mogen alleen door gevorderde gebruikers worden gewijzigd. Neem contact op met uw Adobe als u een vraag of verzoek hebt.
+>Ingebouwde opties zijn vooraf geconfigureerd en mogen alleen door gevorderde gebruikers worden gewijzigd. Neem contact op met uw Adobe-vertegenwoordiger als u een vraag of verzoek hebt.
 
 ## Opties voor Access Campaign {#access}
 
