@@ -15,7 +15,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card1"
 >title="Help en documentatie"
->abstract="De campagne biedt nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u de gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe moderne UI vereenvoudigt het ontwerp en de levering van de marketing campagne, en brengt consistentie, samen met andere oplossingen van de Adobe."
+>abstract="De campagne biedt nu een nieuwe webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid en een nieuw ontwerp waarmee u de gebruikerservaring aanzienlijk kunt verbeteren. Deze nieuwe moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en brengt consistentie, samen met andere Adobe-oplossingen."
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_title"
@@ -43,7 +43,7 @@ ht-degree: 3%
 >abstract="Query-modelleerprogramma en e-mailontwerper van de volgende generatie"
 
 
-We zijn blij om de nieuwe versie van Adobe Campaign Web User Interface te introduceren. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere oplossingen voor Adoben, waaronder Adobe Experience Platform.
+We zijn blij om de nieuwe versie van Adobe Campaign Web User Interface te introduceren. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen. Deze nieuwe, moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie, samen met andere Adobe-oplossingen, waaronder Adobe Experience Platform.
 
 ## Nieuwe functies
 

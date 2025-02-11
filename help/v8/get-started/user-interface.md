@@ -14,7 +14,7 @@ ht-degree: 1%
 
 De nieuwe Adobe Campaign Web-interface biedt een moderne en intuïtieve gebruikerservaring om het ontwerpen en leveren van marketingcampagnes te vereenvoudigen. Deze nieuwe interface is geïntegreerd met Adobe Experience Cloud-toepassingen en -oplossingen.
 
-Leer hoe te om met Adobe Campaign te verbinden en de de navigatie van het Experience Cloud te ontdekken grondbeginselen [ in dit artikel ](connect-to-campaign.md).
+Leer hoe te om met Adobe Campaign te verbinden en de navigatie van Experience Cloud te ontdekken grondbeginselen [ in dit artikel ](connect-to-campaign.md).
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Zowel versie als bouwstijlaantallen zijn essentieel voor het oplossen van proble
 
 De **sectie van het Web** {toont de versie van uw gebruikersinterface van het Web van de Campagne, met de laatste updatedatum van het, als beschikbaar. Dit helpt veranderingen of verbeteringen volgen die aan het de gebruikersinterface van het Web van de Campagne worden aangebracht.
 
-De **Geïnstalleerde pakketten** sectie maakt een lijst van alle modules, eigenschappen en integratie die op uw instantie aanwezig zijn. Deze pakketten breiden de functionaliteit van Adobe Campaign uit, die het toestaat om gespecialiseerde taken uit te voeren zoals het integreren met andere oplossingen van de Adobe of het toelaten van specifieke werkschema&#39;s. Gezien het grote aantal pakketten, kunt u onderzoek binnen deze sectie doen om snel te controleren of een bepaalde module op uw instantie geïnstalleerd is.
+De **Geïnstalleerde pakketten** sectie maakt een lijst van alle modules, eigenschappen en integratie die op uw instantie aanwezig zijn. Met deze pakketten wordt de Adobe Campaign-functionaliteit uitgebreid, zodat gespecialiseerde taken kunnen worden uitgevoerd, zoals integratie met andere Adobe-oplossingen of het inschakelen van specifieke workflows. Gezien het grote aantal pakketten, kunt u onderzoek binnen deze sectie doen om snel te controleren of een bepaalde module op uw instantie geïnstalleerd is.
 
 ![](assets/about.png){zoomable="yes"}
 
@@ -99,7 +99,7 @@ U kunt kolommen vormen om de vertoning aan te passen om alle informatie te bekij
 
 Voor meer informatie over de ontdekkingsreiziger van de Campagne, omslaghiërarchie en middelen, verwijs naar deze [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui) {target="_blank"}.
 
-### Campaign Management {#user-interface-campaign-management}
+### Campagnebeheer {#user-interface-campaign-management}
 
 In de sectie CAMPAIGN MANAGEMENT hebt u toegang tot marketingcampagnes, leveringen en workflows.
 
