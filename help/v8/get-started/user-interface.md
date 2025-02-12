@@ -3,9 +3,9 @@ audience: end-user
 title: De interface detecteren
 description: Adobe Campaign Web-gebruikersinterface
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: ffe6c2b2f8b022876eb4b1754915b5753aab7c1a
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2035'
 ht-degree: 1%
 
 ---
@@ -417,6 +417,10 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=v8+WebU
 
 <!-- Target Mapping -->
 
+>[!CONTEXTUALHELP]
+>id="acw_targetmapping_list"
+>title="Doeltoewijzingen"
+>abstract="Doeltoewijzingen"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_properties"
