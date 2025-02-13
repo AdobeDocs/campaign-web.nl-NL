@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Openingspagina met de AI Assistant Content Accelerator
-description: Aan de slag met de AI Assistant Content Accelerator
+title: Openingspagina met de AI Assistant
+description: Aan de slag met de AI Assistant
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1389'
 ht-degree: 1%
 
 ---
 
-# Pagina&#39;s genereren met de AI Assistant Content Accelerator {#generative-lp}
+# Pagina&#39;s genereren met de AI Assistant{#generative-lp}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn5"
 >title="Landingspagina&#39;s genereren met AI"
->abstract="U kunt nu de AI Assistant Content Accelerator gebruiken om uw openingspagina-items te maken, waarmee u tekst, afbeeldingen of volledige paginalay-outs kunt genereren."
+>abstract="U kunt nu de AI Assistant gebruiken om uw openingspagina-items te maken, zodat u tekst, afbeeldingen of volledige paginalay-outs kunt genereren."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 
@@ -24,19 +24,19 @@ ht-degree: 1%
 >Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de AI HulpVersneller van de Inhoud in het Web van Adobe Campaign kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u de Medewerker AI in het Web van Adobe Campaign kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Transformeer uw bestemmingspagina&#39;s met de AI Assistant Content Accelerator in Adobe Campaign Web, aangedreven door generatieve AI.
+Transformeer uw landingspagina&#39;s met de AI Assistant in Adobe Campaign Web, aangedreven door generatieve AI.
 
 Creëer moeiteloos impactvolle inhoud, waaronder complete pagina&#39;s, op maat gemaakte tekstfragmenten en aangepaste visuele voorbeelden die op uw publiek zijn afgestemd, waardoor uw betrokkenheid en interactie toenemen.
 
-Verken de onderstaande tabbladen voor informatie over het gebruik van de AI Assistant Content Accelerator in Adobe Campaign Web.
+Bekijk de onderstaande tabbladen om te leren hoe u de AI Assistant in Adobe Campaign Web kunt gebruiken.
 
 >[!BEGINTABS]
 
 >[!TAB  Volledige het landen paginageneratie ]
 
-In het volgende voorbeeld gebruiken we de AI Assistant Content Accelerator om een bestaande landingspagina-sjabloon te verfijnen.
+In het volgende voorbeeld gebruiken we de AI Assistant om een bestaande landingspagina-sjabloon te verfijnen.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
@@ -46,7 +46,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant Content Accelerator om ee
 
    ![](assets/lp_full_gen_1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI Assistant Content Accelerator in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -99,7 +99,7 @@ Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebrui
 
 >[!TAB  Tekst slechts generatie ]
 
-In het volgende voorbeeld gebruiken we de AI Assistant Content Accelerator om de inhoud van onze landingspagina te verbeteren.
+In het volgende voorbeeld gebruiken we de AI Assistant om de inhoud van onze landingspagina te verbeteren.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
@@ -109,7 +109,7 @@ In het volgende voorbeeld gebruiken we de AI Assistant Content Accelerator om de
 
    ![](assets/lp-text-genai-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI Assistant Content Accelerator in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -159,19 +159,19 @@ Als de landingspagina gereed is, kunt u deze publiceren en in een bericht gebrui
 
 >[!TAB  slechts generatie van het Beeld ]
 
-In het onderstaande voorbeeld leert u hoe u de AI Assistant Content Accelerator kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
+In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
    Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [ deze pagina ](../landing-pages/create-lp.md).
 
-1. Selecteer het element dat u wilt wijzigen met de AI Assistant Content Accelerator.
+1. Selecteer het element dat u wilt wijzigen met de AI-assistent.
 
 1. Selecteer **[!UICONTROL AI Assistant]** in het rechtermenu.
 
    ![](assets/lp-image-gen-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Reference style]** voor de AI Assistant Content Accelerator in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
+1. Schakel de optie **[!UICONTROL Reference style]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
 1. Verfijn de inhoud door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 

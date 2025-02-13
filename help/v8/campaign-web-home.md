@@ -3,9 +3,9 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '456'
 ht-degree: 3%
 
 ---
@@ -59,9 +59,9 @@ De release van januari is nu live, inclusief Transactieberichten, Externe accoun
 [![ leer meer knoop ](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
->] de Versneller van de Inhoud van 0} AI Hulp {[!TAB 
+>[!TAB  AI Medewerker ]
 
-✨ onderdompelen zich in een hands-on ervaring met onze ](../v8/email/generative-gs.md) levende eigenschapvoorproef van de Versneller van de Inhoud 1} van AI Hulp, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.[
+✨ onderdompelen zich in een hands-on ervaring met onze [ AI Medewerker ](../v8/email/generative-gs.md) levende eigenschapvoorproef, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
 [![ leer meer knoop ](assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) {target="_blank"}
 

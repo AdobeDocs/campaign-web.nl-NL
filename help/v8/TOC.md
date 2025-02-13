@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: a0282e6b4fcc7f132f2167adcad67df32338fc3c
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '794'
 ht-degree: 13%
 
 ---
@@ -116,8 +116,8 @@ ht-degree: 13%
          + [Verticale uitlijning en opvulling aanpassen](email/alignment-and-padding.md)
          + [Een stijl voor koppelingen definiëren](email/styling-links.md)
          + [Inline-opmaakkenmerken toevoegen](email/inline-styling.md)
-   + AI Assistant-versnelling voor inhoud {#ai-assistant}
-      + [Werken met de AI Assistant Content Accelerator](email/generative-gs.md)
+   + AI-assistent {#ai-assistant}
+      + [Werken met de AI Assistant](email/generative-gs.md)
       + [E-mailgeneratie met AI](email/generative-content.md)
       + [SMS genereren met AI](email/generative-sms.md)
       + [Pushmeldingen genereren met AI](email/generative-push.md)
@@ -223,7 +223,7 @@ ht-degree: 13%
       + [Globaal SMS-rapport](reporting/global-report-sms.md)
       + [Globaal rapport voor e-mail](reporting/global-report-direct.md)
 + Integraties {#integrations}
-   + [Werken met andere oplossingen voor Adobe](integrations/integration.md)
+   + [Werken met andere Adobe-oplossingen](integrations/integration.md)
    + [Middelen beheren met Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Sjablonen beheren met Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuratie {#conf}

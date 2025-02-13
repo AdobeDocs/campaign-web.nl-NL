@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 944fbbdd273cc402b88f2beaef5b15f2ce80cc6b
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '578'
 ht-degree: 8%
 
 ---
@@ -138,15 +138,15 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <table>
 <thead>
 <tr>
-<th><strong>Pagina's genereren met de AI Assistant Content Accelerator</strong><br/></th>
+<th><strong>Pagina's genereren met de AI Assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De AI Assistant-versneller voor inhoud is nu beschikbaar bij de levering van de bestemmingspagina, zodat u tekst, afbeeldingen of volledige paginalay-outs kunt genereren.</p>
+<p>De AI-assistent is nu beschikbaar bij de levering van de bestemmingspagina, zodat u tekst, afbeeldingen of volledige paginalay-outs kunt genereren.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Voor meer informatie over de Versneller van de Inhoud AI Hulp, verwijs naar de <a href="../email/generative-lp.md"> gedetailleerde documentatie </a>.</p>
+<p>Voor meer informatie over AI Medewerker, verwijs naar de <a href="../email/generative-lp.md"> gedetailleerde documentatie </a>.</p>
 </td>
 </tr>
 </tbody>

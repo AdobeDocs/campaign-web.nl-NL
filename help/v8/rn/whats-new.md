@@ -3,9 +3,9 @@ audience: end-user
 title: Nieuw in de Gebruikersinterface van het Web van de Campagne
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 17536af2d65dec7cdba1967f607e10ae0cb1924a
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1311'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ Deze nieuwe gebruikersinterface van het Web van de Campagne komt met de volgende
 
 De nieuwe gebruikersinterface van het Web van de campagne biedt een nieuwe gebruikerservaring, verbonden met alle oplossingen en apps van Adobe Experience Cloud. Het biedt:
 
-* Toegang tot de nieuwe interface van de Campagne, en uw andere oplossingen van de Adobe met één enkele en gedeelde gebruikerszitting
+* Toegang tot de nieuwe Campagne-interface en uw andere Adobe-oplossingen met één gedeelde gebruikerssessie
 * Nieuwe navigatie-ervaring, met alle menu&#39;s en mappen beschikbaar via de linkertrack
 * Oplossing- en organisatie-switches van de bovenste balk
 * De verenigde integratie van Shell, met een directe toegang tot gemeenschap, hulpcentrum, en steun
@@ -72,13 +72,13 @@ Gebruik de nieuwe gebruikersinterface van het Web van de Campagne aan:
 * De monitor verzendt en meet resultaten met ingebouwde rapporten - [ leert meer ](../reporting/delivery-reports.md)
 
 
-**de generatie van de Inhoud met AI HulpVersneller van de Inhoud**
+**Inhoudsgeneratie met AI Medewerker**
 
 Neem afscheid van het gedoe van het handmatig maken van inhoud en omarm een nieuw tijdperk van gestroomlijnde campagnes met onze innovatieve ontwerper van inhoud, aangedreven door Microsoft Azure OpenAI en Adobe Firefly.
 
-Definieer de levering van inhoud opnieuw met onze geavanceerde WYSIWYG-editor voor slepen en neerzetten, die ontworpen is voor eenvoud en efficiëntie. Dankzij de naadloze AEM integratie, dynamische inhoudmogelijkheden en de veranderende AI Assistant Content Accelerator zorgt deze alles-in-één tool voor het intuïtief, efficiënt en zeer gepersonaliseerd maken van de levering.
+Definieer de levering van inhoud opnieuw met onze geavanceerde WYSIWYG-editor voor slepen en neerzetten, die ontworpen is voor eenvoud en efficiëntie. Dankzij de naadloze AEM-integratie, dynamische inhoudmogelijkheden en de veranderende AI Assistant zorgt deze alles-in-één tool voor intuïtieve, efficiënte en zeer persoonlijke weergave van de levering.
 
-Maak gebruik van de kracht van geavanceerde algoritmen van AI Assistant Content Accelerator om aantrekkelijke, op maat gemaakte inhoud te maken die resultaten aanstuurt. Verhoog uw open snelheden, klik-door, en omzettingen met intelligente, AI-gedreven inhoudsgeneratie. Lees meer in [deze sectie](../email/generative-gs.md).
+Maak gebruik van de kracht van geavanceerde algoritmen van AI Assistant om aantrekkelijke, op maat gemaakte inhoud te maken die resultaten oplevert. Verhoog uw open snelheden, klik-door, en omzettingen met intelligente, AI-gedreven inhoudsgeneratie. Lees meer in [deze sectie](../email/generative-gs.md).
 
 **Nieuwe en opnieuw ontworpen activiteiten van het campagnewerkschema**
 
@@ -114,9 +114,9 @@ Ask questions and find guidance directly from the product user interface. The ne
 
 Introductie van vooraf gedefinieerd filterbeheer. Het gebruikersinterface van het Web van de campagne biedt u een gebruikersvriendelijke interface aan moeiteloos **beheer en pas vooraf bepaalde filters** aan om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik. Lees meer in [deze sectie](../get-started/predefined-filters.md).
 
-**de Convertor van HTML voor e-mailontwerp**
+**HTML Converter voor e-mailontwerp**
 
-U kunt **nu invoeren en om het even welke inhoud van HTML** in de e-mailredacteur van de Campagne omzetten. Inhoudsblokken worden automatisch geïdentificeerd en zijn beschikbaar in de e-mailontwerper: gebruik zijn krachtige ontwerpmogelijkheden om de inhoud bij te werken en aan te passen! Lees meer in [deze sectie](../email/existing-content.md).
+U kunt **om het even welke inhoud van HTML** in e-mailredacteur van de Campagne nu invoeren en omzetten. Inhoudsblokken worden automatisch geïdentificeerd en zijn beschikbaar in de e-mailontwerper: gebruik zijn krachtige ontwerpmogelijkheden om de inhoud bij te werken en aan te passen! Lees meer in [deze sectie](../email/existing-content.md).
 
 
 **SMS met aanbiedingen**
@@ -133,7 +133,7 @@ Met het gebruikersinterface van het Web van de Campagne, wijst het gebruikersint
 
 Ondersteunde en niet gesteunde mogelijkheden en interoperabiliteit tussen het gebruikersinterface van het Web van de Campagne en de cliëntconsole van de Campagne [ in deze pagina ](../get-started/capability-matrix.md).
 
-Als gebruiker die van het Campaign Standard aan Campagne v8 overgaat, [ verwijs naar deze pagina ](../rn/acs-migration.md).
+Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, [ verwijs naar deze pagina ](../rn/acs-migration.md).
 
 ## Terminologie-updates {#terminology-updates}
 

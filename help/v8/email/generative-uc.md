@@ -1,14 +1,15 @@
 ---
-title: Gebruiksgevallen van AI Assistant voor Content Accelerator
-description: In deze gebruiksgevallen leert u hoe u AI Assistant voor Content Accelerator gebruikt
-source-git-commit: 60944341051a2b314e92e9bb728f41ed5f07c669
+title: Gebruiksgevallen van AI Assistant
+description: In deze gevallen leert u hoe u AI Assistant gebruikt
+exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
-# Gebruiksgevallen van AI Assistant voor Content Accelerator {#generative-uc}
+# Gebruiksgevallen van AI Assistant {#generative-uc}
 
 >[!NOTE]
 >
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 1. Open de sectie **[!UICONTROL AI Assistant]** .
 
-1. Schakel de functie **[!UICONTROL Use original content]** in de AI Assistant for Content Accelerator in om nieuwe inhoud op maat te maken op basis van uw leveringsgegevens, waaronder de naam van de levering en het doelpubliek.
+1. Schakel de functie **[!UICONTROL Use original content]** in de AI Assistant in om nieuwe inhoud op maat te maken op basis van uw leveringsgegevens, zoals de naam van de levering en het doelpubliek.
 
 1. Pas de inhoud aan door uw verzoek op te geven in het vak **[!UICONTROL Prompt]** en pas de instellingen naar wens aan.
 
@@ -88,11 +89,11 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u de l
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de levering hebt ingesteld en geconfigureerd.
 
-1. Kies het element dat u wilt wijzigen met de AI-assistent voor Content Accelerator.
+1. Kies het element dat u wilt wijzigen met de AI-assistent.
 
 1. Kies **[!UICONTROL AI Assistant]** in het menu van het rechterdeelvenster.
 
-1. Schakel de optie **[!UICONTROL Reference style]** in, zodat de AI-assistent voor Content Accelerator nieuwe inhoud kan genereren met behulp van het referentiemateriaal.
+1. Schakel de optie **[!UICONTROL Reference style]** in zodat de AI-assistent nieuwe inhoud kan genereren met behulp van het referentiemateriaal.
 
 1. Klik op **[!UICONTROL Upload image]** om een afbeelding op te nemen die context aan uw variatie toevoegt.
 

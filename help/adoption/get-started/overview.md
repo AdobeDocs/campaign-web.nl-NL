@@ -3,19 +3,19 @@ title: Aan de slag met Adobe Campaign v8 na de overgang van Campaign Standard
 description: Meer informatie over de stappen die nodig zijn om aan de slag te gaan met uw nieuwe Campagne v8-toepassing
 role: User, Admin, Developer
 level: Beginner
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
+source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
-
 
 # Van Campaign Standard naar v8 {#ac-acs}
 
 Welkom bij Adobe Campaign v8!
 
-Deze naslaggids is ontworpen voor u als een gebruiker die van Campaign Standard overschakelt naar Campagne v8. Het helpt u zich met uw nieuwe milieu van de Campagne vertrouwd te maken en u door de stappen te lopen die worden vereist om aan de slag te gaan voor uw rol.
+Deze naslaggids is ontworpen voor u als een gebruiker die van Campaign Standard overschakelt naar Campaign v8. Het helpt u zich met uw nieuwe milieu van de Campagne vertrouwd te maken en u door de stappen te lopen die worden vereist om aan de slag te gaan voor uw rol.
 
 1. Begin door [ te leren wat op Adobe Campaign v8 ](#new) nieuw is.
 
@@ -59,7 +59,7 @@ Belangrijke verbeteringen die beschikbaar zijn bij Adobe Campaign v8 worden hier
 
 ### Nieuwe functies in Adobe Campaign v8 {#ac-new-features}
 
-Als gebruiker van een Campaign Standard die overschakelt naar Adobe Campaign v8, zijn de volgende functies nu beschikbaar voor u:
+Als Campaign Standard-gebruiker die overschakelt naar Adobe Campaign v8, beschikt u nu over de volgende functies:
 
 * **Rijke duw**
 
@@ -93,7 +93,7 @@ Als gebruiker van een Campaign Standard die overschakelt naar Adobe Campaign v8,
 
   Adobe Experience Manager as a Cloud Service biedt cloudinemotionele flexibiliteit, zodat u uw tijd voor waarde kunt versnellen en zich kunt aanpassen aan veranderende bedrijfsbehoeften. Deze integratie verbetert niet alleen uw mogelijkheden voor contentbeheer, maar stelt u ook in staat om meer persoonlijke en boeiende ervaringen aan uw klanten te bieden op alle aanraakpunten.
 
-* **AI Medewerker - de Versneller van de Inhoud**
+* **AI Medewerker**
 
   Met Campaign AI Assistant kunt u marketingcampagnes op verschillende kanalen, zoals e-mail, SMS en Push, intuïtief, eenvoudig en probleemloos maken en tegelijk tijd besparen, de efficiëntie verbeteren en betere resultaten behalen.
 
@@ -105,7 +105,7 @@ Als gebruiker van een Campaign Standard die overschakelt naar Adobe Campaign v8,
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Het verstrekt varianten van e-mailmalplaatjes en produceert en regenereert beelden. Leer meer over de Medewerker AI - de Versneller van de Inhoud in [ deze sectie ](../../v8/email/generative-content.md). Adobe Campaign v8 heeft AI hulp beschikbaar voor [ E-mail ](../../v8/email/generative-content.md), [ SMS ](../../v8/email/generative-sms.md), en [ Duw ](../../v8/email/generative-push.md).
+  Het verstrekt varianten van e-mailmalplaatjes en produceert en regenereert beelden. Leer meer over de Medewerker AI in [ deze sectie ](../../v8/email/generative-content.md). Adobe Campaign v8 heeft AI hulp beschikbaar voor [ E-mail ](../../v8/email/generative-content.md), [ SMS ](../../v8/email/generative-sms.md), en [ Duw ](../../v8/email/generative-push.md).
 
 * **Verbeterde infrastructuur van SMS - SMS v2.0**
 
@@ -122,11 +122,11 @@ Als gebruiker van een Campaign Standard die overschakelt naar Adobe Campaign v8,
 
 ## Managed Services {#ac-managed-services}
 
-Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service, die pro-actief toezicht, het geschikte alarm, en de dienstbestuur verstrekt. Adobe Managed Cloud Service biedt marketers een flexibelere, veiligere en schaalbare oplossing voor campagnebeheer over meerdere kanalen met lage totale eigendomskosten. Het nieuwe aanbod combineert services met proactief toezicht en tijdige waarschuwing.
+Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service die proactief toezicht, tijdige waarschuwingen en servicecontrole biedt. Adobe Managed Cloud Service biedt marketers een flexibelere, veiligere en schaalbaardere oplossing voor campagnebeheer over meerdere kanalen met lage totale eigendomskosten. Het nieuwe aanbod combineert services met proactief toezicht en tijdige waarschuwing.
 
 ## Campaign Standard-mogelijkheden toegevoegd aan v8 {#ac-v8-added}
 
-Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste mogelijkheden voor Campaign Standard toegevoegd aan Campagne v8. Zij zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) {target="_blank"}.
+Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Zij zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) {target="_blank"}.
 
 * **Dynamische Rapportering**: De dynamische Rapportering verstrekt volledig klantgerichte en real time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 
@@ -230,4 +230,3 @@ Toegang tot de relevante naslaggids voor uw rol om de nieuwe gebruikerservaring 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
 Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
-
