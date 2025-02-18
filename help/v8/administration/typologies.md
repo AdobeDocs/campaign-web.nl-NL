@@ -1,20 +1,16 @@
 ---
 audience: end-user
-title: Werken met typologieën
+title: Werken met bedrijfsregels (typologieën)
 description: Leer hoe u met typologieën en typologische regels werkt om het verzenden van leveringen te controleren, filteren en controleren.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: c759dd72e2ca3d11b4dad0cd38410d699b651cad
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1345'
 ht-degree: 0%
 
 ---
 
-# Werken met typologieën {#typologies}
+# Werken met bedrijfsregels (typologieën) {#typologies}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
