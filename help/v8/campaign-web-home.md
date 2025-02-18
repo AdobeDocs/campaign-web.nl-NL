@@ -3,7 +3,7 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 3%
@@ -52,9 +52,9 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 >[!BEGINTABS]
 
 
->[!TAB  Januari &quot;25 versie ]
+>[!TAB  Februari &quot;25 versie ]
 
-De release van januari is nu live, inclusief Transactieberichten, Externe accounts en meer verbeteringen.
+De release van februari is nu live, inclusief Business Rules, Target mappings en meer verbeteringen.
 
 [![ leer meer knoop ](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 

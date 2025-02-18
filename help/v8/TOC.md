@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 13%
+source-wordcount: '804'
+ht-degree: 14%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 13%
    + [Vroege release](rn/e-release-notes.md)
    + [Nieuwste release](rn/release-notes.md)
    + Eerdere releases {#previous-release-notes}
+      + [Releases van 2025](rn/release-notes-25.md)
       + [Releases van 2024](rn/release-notes-24.md)
    + [Documentatie-updates](rn/documentation-updates.md)
 + Aan de slag met Adobe Campaign {#start}
@@ -227,10 +228,12 @@ ht-degree: 13%
    + [Middelen beheren met Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Sjablonen beheren met Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuratie {#conf}
+   + [Werken met bedrijfsregels (typologieën)](administration/typologies.md)
+   + [Doeltoewijzingen beheren](administration/target-mappings.md)
+   + [Werken met schema&#39;s](administration/schemas.md)
    + [Aangepaste velden configureren](administration/custom-fields.md)
-   + [Externe accounts configureren](administration/external-account.md)
-   + [Werken met typologieën](administration/typologies.md)
-   + [Opsommingen beheren](administration/enumerations.md)
    + [Vorm  [!DNL Campaign]  opties](administration/options.md)
+   + [Externe accounts configureren](administration/external-account.md)
+   + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
 + [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

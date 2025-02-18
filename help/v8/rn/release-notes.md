@@ -2,10 +2,10 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 8%
+source-wordcount: '769'
+ht-degree: 9%
 
 ---
 
@@ -19,6 +19,65 @@ ht-degree: 8%
 De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
 De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld [ in deze pagina ](release-notes-24.md).
+
+## Release van februari &#39;25 {#25-2-release}
+
+**de datum van de Versie**: 18 feb, 2025
+
+De volgende functies en verbeteringen zijn beschikbaar vanaf de release in februari.
+
+### Functies {#25-2-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Bedrijfsregels maken (typologieregels)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu typologieën en typologische regels maken in de Adobe Campaign Web User Interface. Met behulp van typologieën kunt u het verzenden van leveringen besturen, filteren en prioriteren. De technologieën worden gebruikt om te bevestigen dat de leveringen altijd verplichte componenten (zoals een unsubscription verbinding of een onderwerpregel) of het filtreren regels bevatten om groepen van uw publiek (zoals abonnees, concurrenten, of niet loyaliteitklanten) uit te sluiten.</p>
+<img src="assets/do-not-localize/typology.gif">
+<p>Raadpleeg de <a href="../administration/typologies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Doeltoewijzingen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt doeltoewijzingen in het Gebruikersinterface van het Web van de Campagne nu tot stand brengen. Doeltoewijzingen bepalen hoe verschillende leveringskanalen (e-mail, SMS, pushmeldingen) worden gekoppeld aan de gegevensvelden van een schema. Met de doeltoewijzing kunt u het doelpubliek definiëren: profielen, begunstigden van contracten, operators, abonnees, vooruitzichten, enz.</p>
+<img src="assets/do-not-localize/target-mapping.gif">
+<p>Raadpleeg de <a href="../administration/target-mappings.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Schema-details</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt tot de details van een schema nu toegang hebben door zijn naam in de lijst te selecteren. De de gebiedsuitgave van de douane is nu toegankelijk van <b> geeft de knoop van douanegebieden </b> beschikbaar in de schemadetails uit.</p>
+<img src="assets/do-not-localize/schemas.gif">
+<p>Raadpleeg de <a href="../administration/schemas.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Release januari 1925 {#25-1-release}
 
@@ -62,25 +121,6 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 </tr>
 </tbody>
 </table>
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Create business rules (typology rules)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now create typologies and typology rules in the Adobe Campaign web interface. A typology is a collection of typology rules that help control, filter, and prioritize deliveries. Typologies ensure that your deliveries always contain required elements (such as an unsubscribe link or subject line) and apply filtering rules to exclude specific groups from your target audience (such as unsubscribers, competitors, or non-loyalty customers).</p>
-<img src="assets/do-not-localize/typology.gif">
-<p>For more information, refer to the <a href="../administration/typologies.md">detailed documentation</a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -134,7 +174,6 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 </tbody>
 </table>
 
-
 <table>
 <thead>
 <tr>
@@ -151,8 +190,6 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 </tr>
 </tbody>
 </table>
-
-
 
 
 ### Verbeteringen {#25-1-improvements}
