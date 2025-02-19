@@ -3,20 +3,14 @@ audience: end-user
 title: Aan de slag met externe leveringen
 description: Meer informatie over het maken en verzenden van externe leveringen met Adobe Campaign Web
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
 
 # Externe leveringen verzenden {#gs-direct-mail}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Externe leveringen maken"
->abstract="U kunt nu externe leveringen en externe leveringssjablonen definiëren in de webinterface van Campagne. In deze modus worden berichten gecompileerd naar een uitvoerbestand dat kan worden gedeeld met uw externe provider. Standaard wordt de externe leveringsmodus gebruikt voor het directe-mailkanaal."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 
 Met Adobe Campaign kunt u leveringen verwerken die buiten de campagne zijn gemaakt, zodat u via een extern systeem op grote schaal persoonlijke e-mails, SMS-berichten of pushberichten (iOS en Android) kunt verzenden.

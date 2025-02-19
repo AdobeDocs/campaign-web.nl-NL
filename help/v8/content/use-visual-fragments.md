@@ -4,20 +4,14 @@ title: Visuele fragmenten toevoegen aan uw e-mails
 description: Leer hoe u visuele fragmenten toevoegt aan uw e-mails
 badge: label="Beperkte beschikbaarheid"
 exl-id: 6d6f38f9-9d3e-47cb-beb8-177b5a5d8306
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
 
 # Visuele fragmenten toevoegen aan uw e-mails {#use-visual-fragments}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Visuele fragmenten e-mailen"
->abstract="U kunt nu visuele fragmenten maken en gebruiken. Dit zijn vooraf gedefinieerde visuele blokken die u kunt hergebruiken in meerdere e-mailleveringen of in inhoudssjablonen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!AVAILABILITY]
 >

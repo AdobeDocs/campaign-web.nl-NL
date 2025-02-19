@@ -2,20 +2,14 @@
 title: Vorm  [!DNL Campaign]  opties
 description: Leer hoe u campagneopties configureert en uw eigen aangepaste opties maakt.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
 
 # [!DNL Campaign] -opties configureren {#options}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn4"
->title="Aangepaste opties maken"
->abstract="U kunt nu uw eigen technische aangepaste opties maken die aan uw behoeften voldoen. Dit is met name nuttig wanneer het werken met **code van JavaScript** werkschemaactiviteiten om tussentijdse gegevens op te slaan."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_options_list"
