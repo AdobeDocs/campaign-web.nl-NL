@@ -2,7 +2,7 @@
 title: Aangepaste velden
 description: Leer hoe u aangepaste velden en hun zichtbaarheid in de interface configureert.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: 27e44682178267353418de210af51067eee4141b
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 0%
@@ -38,6 +38,7 @@ ht-degree: 0%
 >abstract="Geef de naam op die in de interface voor de subsectie moet worden weergegeven."
 
 <!-- NOT USED IN THE UI?-->
+
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields_settings"
 >title="Kenmerkinstellingen"

@@ -2,7 +2,7 @@
 title: Belangrijkste prestatie-indicatoren
 description: Leer hoe u belangrijke prestatie-indicatoren begrijpt
 exl-id: 4b182219-100b-4101-919b-b0b770dd8515
-source-git-commit: 5b42671173e7fd7f024eb7eb03a0836eae7ef622
+source-git-commit: 27e44682178267353418de210af51067eee4141b
 workflow-type: tm+mt
 source-wordcount: '1199'
 ht-degree: 0%
@@ -17,6 +17,7 @@ ht-degree: 0%
 >abstract="De **Zeer belangrijke prestatiesindicatoren** sectie laat u uw platformdoeltreffendheid door gemeenschappelijke KPIs controleren."
 
 <!-- à enlever? -->
+
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_spam"
 >title="Spam"
@@ -65,7 +66,7 @@ De **opent** indicator toont volgende KPIs, voor elk kanaal:
 
 * Som van alle geopende berichten, per kanaal.
 
-Adobe Campaign detecteert dat het bericht wordt geopend wanneer de ontvanger de afbeeldingen in de e-mail downloadt. HTML- en Multipart-/Alternatieve e-mailberichten bevatten een afbeelding van 0 pixels, waarmee u berichten kunt detecteren die zijn geopend. Aangezien berichten in tekstopmaak geen afbeeldingen bevatten, is het onmogelijk om te bepalen of ze zijn geopend of niet. Waarden die worden berekend op basis van het bericht dat wordt geopend, zijn altijd schattingen vanwege de foutmarge die is gekoppeld aan de beeldweergave.
+Adobe Campaign detecteert dat het bericht wordt geopend wanneer de ontvanger de afbeeldingen in de e-mail downloadt. HTML en Multipart/Alternative e-mails bevatten een afbeelding van 0 pixels waarmee u berichten kunt detecteren die zijn geopend. Aangezien berichten in tekstopmaak geen afbeeldingen bevatten, is het onmogelijk om te bepalen of ze zijn geopend of niet. Waarden die worden berekend op basis van het bericht dat wordt geopend, zijn altijd schattingen vanwege de foutmarge die is gekoppeld aan de beeldweergave.
 
 
 
