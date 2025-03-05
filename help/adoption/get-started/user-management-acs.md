@@ -3,14 +3,15 @@ title: Migratie van technische gebruikers naar Adobe Developer-console
 description: Leer hoe u het beheer van gebruikerstoegang kunt migreren van Campaign Standard naar Campagne V8
 feature: Technote
 role: Admin
-source-git-commit: e5baa9012e7904f841d4e6706d9dc8970253e899
+exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
+source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '980'
 ht-degree: 1%
 
 ---
 
-# Toegangsbeheer van gebruikers van Campaign Standard tot Campagne V8 {#user-management-acs}
+# Toegangsbeheer van gebruikers van Campaign Standard naar Campagne V8 {#user-management-acs}
 
 Zowel Adobe Campaign Standard als Adobe Campaign V8 stellen gebruikers in staat machtigingen voor verschillende gebruikers/operatoren te definiëren en te beheren. Deze toestemmingen bestaan uit specifieke rechten die gebruikers toegang tot diverse eigenschappen van het product verlenen. Nochtans, gebruiken de twee producten verschillende benaderingen en implementaties voor het beheren van gebruikerstoegang.
 
@@ -37,7 +38,7 @@ De onderstaande tabel geeft een overzicht van de migratiebenadering voor gebruik
 
 In zowel Adobe Campaign Standard als Campagne V8, **de groepen van de Veiligheid** en **groepen van de Exploitant** worden in kaart gebracht aan de profielen van het Product in de console Admin. Als u de groep van de a **Veiligheid** of **Exploitant** aan een gebruiker wilt toewijzen, kunt u het overeenkomstige **profiel van het Product** in de console Admin verbinden. Deze koppeling wordt gesynchroniseerd wanneer de gebruiker zich aanmeldt. [ leer meer op het profiel van het Product ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
-| **de groep van de Veiligheid van het Campaign Standard** | **de groep van de Exploitant van de Campagne V8** |
+| **de groep van de Veiligheid van Campaign Standard** | **de groep van de Exploitant van de Campagne V8** |
 |----------|---------|
 | Beheerders | Beheerders |
 | Afleveringstoezichthouders | Beheerders |
@@ -45,9 +46,13 @@ In zowel Adobe Campaign Standard als Campagne V8, **de groepen van de Veiligheid
 
 ## Migratiebenadering van gebruikersrollen naar benoemde rechten
 
+>[!CAUTION]
+>
+>Tijdens migratie van Adobe Campaign Standard aan Campagne V8, zullen de gebruikers met de **rol van het Model van Gegevens** maar niet **Beleid** automatisch **toegang van het Beleid** krijgen, aangezien de schemaverwezenlijking in Campagne V8 beleidsrechten vereist. Om dit te verhinderen, verwijder hun **rol van het 0} Model van Gegevens {vóór migratie.**
+
 In Adobe Campaign Standard, wordt de termijn **rol van de Gebruiker** bedoeld als **Benoemd recht** in Campagne V8. De lijst beschrijft hieronder de terminologie die voor **wordt gebruikt Genoemde rechten** in Campagne V8 die aan **gebruikersrollen** in Campaign Standard beantwoordt.
 
-| **de rol van de Gebruiker van het Campaign Standard** | **Campagne V8 Genoemd recht** | **Beschrijving**  |
+| **de rol van de Gebruiker van Campaign Standard** | **Campagne V8 Genoemd recht** | **Beschrijving**  |
 |----------|---------|---------|
 | Beheer | Beheer | De gebruiker met het recht van het Beleid heeft volledige toegang tot de instantie. |
 | Gegevensmodel  | Beheer | Recht om publicaties te leiden en douanemiddelen tot stand te brengen. Functionaliteit voor het maken van schema&#39;s beschikbaar voor Admin in Campagne V8.  |
@@ -63,6 +68,12 @@ In Adobe Campaign Standard, wordt de termijn **rol van de Gebruiker** bedoeld al
 
 ## Migratieaanpak van de organisatie-eenheid
 
+>[!CAUTION]
+>
+>De organisatorische eenheden in Adobe Campaign Standard zonder **allen (allen)** als directe of indirecte ouder zullen niet gemigreerd worden naar Campagne V8.
+></br>
+>De gebruikers in veelvoudige veiligheidsgroepen worden toegewezen de organisatorische eenheid van de hoogst-rangschikkende veiligheidsgroep. Als meerdere groepen parallelle eenheden van het hoogste niveau hebben, is de aanmelding beperkt in Campaign Standard, maar wordt na de migratie ruimere toegang verleend in Campaign v8, wat mogelijk escalerende rechten oplevert. U voorkomt dit door gebruikers niet toe te wijzen aan beveiligingsgroepen met parallelle organisatorische eenheden.
+
 In Adobe Campaign Standard, wordt de **organisatie uni** niet in kaart gebracht aan het bestaande **de hiërarchiemodel van de Omslag** in Campagne V8 om gelijkaardige toegangscontrole te handhaven. [ Leer meer op omslagbeheer ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campagne V8** |
@@ -75,7 +86,7 @@ In Campagne V8, **Programma&#39;s** worden vertegenwoordigd als **Omslagen**. Me
 
 Door **Groepen** en **Genoemde rechten** te gebruiken, **de Exploitanten** kunnen toegang tot specifieke **Omslagen** binnen de navigatiehiërarchie, met de capaciteit worden verleend om gelezen toe te wijzen, te schrijven en toestemmingen te schrappen. [ Leer meer op omslagbeheer ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
-Aangezien a **Programma** als a **Omslag** in Campagne V8 wordt behandeld, kan zijn toegang op de zelfde manier zoals een andere omslag worden beheerd. Na de migratie kunnen beheerders van Campaigns Standard de volgende stappen uitvoeren:
+Aangezien a **Programma** als a **Omslag** in Campagne V8 wordt behandeld, kan zijn toegang op de zelfde manier zoals een andere omslag worden beheerd. Na de migratie kunnen Campaign Standard-beheerders de volgende stappen uitvoeren:
 
 1. Klik in de verkenner met de rechtermuisknop op een willekeurige map en selecteer **[!UICONTROL Properties...]** .
 1. Ga naar het tabblad **[!UICONTROL Security]**.
@@ -85,21 +96,21 @@ Aangezien a **Programma** als a **Omslag** in Campagne V8 wordt behandeld, kan z
 
 Om tot transactie APIs van de uitvoeringsinstantie in Campagne V8 toegang te hebben, wordt een nieuw **profiel van het Product** vereist, naast de **Beheerder** en **het productprofielen van het Centrum van het Bericht**. Dit nieuwe **profiel van het Product** zal aan bestaande of vooraf gecreëerde technische rekeningen in Campaign Standard worden toegevoegd.
 
-Na migratie, zouden de gebruikers van het Campaign Standard hun **afbeeldingen van het Profiel van het Product** moeten herzien en het aangewezen **Profiel van het Product** toewijzen als zij niet hun **Technische rekeningen** aan het **Profiel van het Product van de Beheerder** wensen te verbinden. Voor toekomstige integratie, adviseren wij het gebruiken van Campagne V8 **identiteitskaart van de Huurder** in **REST URL** in plaats van vorige Campaign Standard **identiteitskaart van de Huurder**.
+Na migratie, zouden de gebruikers van Campaign Standard hun **afbeeldingen van het Profiel van het Product** moeten herzien en het aangewezen **Profiel van het Product** toewijzen als zij niet hun **Technische rekeningen** aan het **Profiel van het Product van de Beheerder** wensen te verbinden. Voor toekomstige integratie, adviseren wij het gebruiken van Campagne V8 **identiteitskaart van de Huurder** in **REST URL** in plaats van vorige Campaign Standard **identiteitskaart van de Huurder**.
 
-## Migratie van de toegang tot ingebouwde campagnebronnen voor Campaigns Standard
+## Migratie van toegang tot ingebouwde campagnebronnen voor Campaign Standard-operatoren
 
 Operatoren die vanuit Campaign Standard zijn gemigreerd, hebben leestoegang tot specifieke ingebouwde bronnen in Campagne V8.
 
 ## Niet-gemigreerde veiligheidsgroepen en rollen {#non-migrated-groups-roles}
 
-Hieronder volgt een lijst met rollen van Campaigns Standard die niet zijn overgezet:
+Hieronder ziet u een lijst met Campaign Standard-rollen die niet zijn overgebracht:
 
 * Standaard-releaseaccount 
 
 * Berichten centreren 
 
-Hieronder ziet u een lijst met toewijzingen voor beveiligingsgroepen van Campaigns Standard die niet zijn overgezet.
+Hieronder vindt u een lijst met toewijzingen voor Campaign Standard-beveiligingsgroepen die niet zijn overgezet.
 
 * Berichtencentrum
 
@@ -108,11 +119,5 @@ Hieronder ziet u een lijst met toewijzingen voor beveiligingsgroepen van Campaig
 * Adobe Experience Manager-toepassingsmanagers
 
 * Account terugbetalen
- 
 
-
- 
-
- 
-
-
+Aangepaste rollen die zijn gemaakt en toegewezen aan gebruikers in Adobe Campaign Standard, worden niet gemigreerd naar campagne V8.
