@@ -4,7 +4,7 @@ description: Leer hoe u het beheer van gebruikerstoegang kunt migreren van Campa
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: d575ab25d4bd3f80bd8db1a778961fc0f45cab1c
+source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 1%
@@ -89,7 +89,9 @@ Door **Groepen** en **Genoemde rechten** te gebruiken, **de Exploitanten** kunne
 Aangezien a **Programma** als a **Omslag** in Campagne V8 wordt behandeld, kan zijn toegang op de zelfde manier zoals een andere omslag worden beheerd. Na de migratie kunnen Campaign Standard-beheerders de volgende stappen uitvoeren:
 
 1. Klik in de verkenner met de rechtermuisknop op een willekeurige map en selecteer **[!UICONTROL Properties...]** .
+
 1. Ga naar het tabblad **[!UICONTROL Security]**.
+
 1. Wijzig de toestemmingen van de exploitantgroep volgens het gewenste toegangsmodel. 
 
 ## Productprofieltoewijzing voor toegang tot REST API&#39;s 
