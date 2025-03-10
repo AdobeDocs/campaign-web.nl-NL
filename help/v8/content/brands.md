@@ -5,7 +5,7 @@ description: Leer hoe u richtlijnen voor uw merk kunt maken en beheren
 hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
-source-git-commit: e6e23a758cce657b582174e522d61193dc7326cf
+source-git-commit: 4baa86395b3cbd062d641ea53ef337523bc7772d
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -104,6 +104,6 @@ Als u uw merkenrichtlijn wilt maken en beheren, kunt u de details zelf invoeren 
 
    ![](assets/brands_5.png)
 
-De richtlijnen voor uw merk zijn nu beschikbaar via de vervolgkeuzelijst **[!UICONTROL Brand]** in het menu AI-assistent, zodat u inhoud en elementen kunt genereren die zijn afgestemd op uw specificaties. [ leer meer op de AI medewerker ](gs-generative.md)
+De richtlijnen voor uw merk zijn nu beschikbaar via de vervolgkeuzelijst **[!UICONTROL Brand]** in het menu AI-assistent, zodat u inhoud en elementen kunt genereren die zijn afgestemd op uw specificaties. [ leer meer op de AI medewerker ](../email/generative-gs.md)
 
 ![](assets/brands_6.png)
