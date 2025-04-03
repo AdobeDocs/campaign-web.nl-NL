@@ -3,9 +3,9 @@ audience: end-user
 title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de gebruikersinterface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
 workflow-type: tm+mt
-source-wordcount: '1295'
+source-wordcount: '1436'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ De extra instructies op hoe te met publiek te werken zijn beschikbaar in [ deze 
 
    >[!NOTE]
    >
-   >Het publiek dat in de lijst beschikbaar is, komt uit uw Campagne v8-instantie of uit Adobe Experience Platform als de integratie tussen Doel en Source op uw instantie is geconfigureerd. Dankzij deze integratie kunt u segmenten van het Experience Platform naar Adobe Campaign verzenden en de bezorging en het bijhouden van logbestanden van de campagne naar Adobe Experience Platform verzenden. Leer hoe het werk met Campagne en Adobe Experience Platform in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html) {target="_blank"}.
+   >Het publiek dat in de lijst beschikbaar is, komt uit uw Campagne v8-instantie of uit Adobe Experience Platform als de integratie tussen Doel en Source op uw instantie is geconfigureerd. Dankzij deze integratie kunt u Experience Platform-segmenten naar Adobe Campaign verzenden en kunt u AMP-leverings- en trackinglogboeken naar Adobe Experience Platform verzenden. Leer hoe het werk met Campagne en Adobe Experience Platform in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html) {target="_blank"}.
 
 1. Als het publiek is geselecteerd, kunt u het doel verder verfijnen door aanvullende regels toe te passen.
 
@@ -162,6 +162,10 @@ De extra informatie over hoe te voorproef e-mail en verzendt proef is beschikbaa
 
    ![](assets/review-email.png){zoomable="yes"}
 
+   >[!NOTE]
+   >
+   >De knop **[!UICONTROL Simulate content]** is in specifieke gevallen uitgeschakeld. De beperkingen zijn gedetailleerd [ in deze sectie ](#content-simulation-limitations).
+
 1. Selecteer links het profiel of de profielen die u wilt gebruiken voor een voorbeeld van het e-mailbericht.
 
    In het rechterdeelvenster ziet u een voorbeeld van de e-mail op basis van het geselecteerde profiel. Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen schakelen om een voorbeeld van de bijbehorende e-mail te bekijken.
@@ -190,6 +194,37 @@ De extra informatie over hoe te voorproef e-mail en verzendt proef is beschikbaa
    ![](assets/proof-sent.png){zoomable="yes"}
 
    U kunt de status van de verzendende en de verzonden proefdrukken op elk gewenst moment controleren door op de knop **[!UICONTROL View proofs]** in het scherm Inhoud simuleren te klikken.
+
+## Beperkingen op het simuleren van inhoud {#content-simulation-limitations}
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_multilingual"
+>title="Inhoud simuleren wordt niet ondersteund"
+>abstract="De **Simuleer inhoud** knoop is gehandicapt omdat de meertalige levering slechts één scène bevat."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_reconcilied_deliveries"
+>title="Inhoud simuleren wordt niet ondersteund"
+>abstract="De **Simuleer inhoud** knoop is gehandicapt omdat het niet compatibel is met verzochte leveringen in deze fase."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_ffda"
+>title="Inhoud simuleren wordt niet ondersteund"
+>abstract="De **Simuleer inhoud** knoop wordt onbruikbaar gemaakt omdat niet gesteund in de Volledige Verbond van de Onderneming van de Campagne wijze van de Toegang (FFDA)."
+
+>[!CONTEXTUALHELP]
+>id="acw_simulation_limitation_no_file"
+>title="Inhoud simuleren wordt niet ondersteund"
+>abstract="De **Simuleer inhoud** knoop is gehandicapt omdat geen inhoud is geupload."
+
+In sommige gevallen kunt u geen inhoudsimulatie uitvoeren en is de knop **[!UICONTROL Simulate content]** uitgeschakeld.
+
+In de volgende gevallen wordt de simulatie van inhoud niet ondersteund:
+
+<!--* When a multilingual delivery contains only one locale,-->
+* met onderling samenhangende leveringen,
+* Wanneer uw de plaatsingsmodel van de Campagne [ Volledige Verbond van de Onderneming van Adobe Campaign Toegang (FFDA) ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment) {target="_blank"} is
+* Wanneer er geen bestand is geüpload.
 
 ## E-mail verzenden en controleren {#prepare-send}
 
