@@ -6,7 +6,7 @@ exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_email"
 >title="E-mailkolommen definiëren"
->abstract="Met de e-mail Designer kunt u de indeling van uw e-mail eenvoudig definiëren door de kolomstructuur te definiëren."
+>abstract="Met de E-mail Designer kunt u de lay-out van uw e-mail eenvoudig definiëren door de kolomstructuur te definiëren."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
@@ -95,7 +95,7 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
    ![](assets/email_designer-links.png){zoomable="yes"}
 
-1. Indien nodig kunt u uw e-mail verder aanpassen door in het geavanceerde menu op **[!UICONTROL Switch to code editor]** te klikken. Op deze manier kunt u de broncode van de e-mail bewerken, bijvoorbeeld door tags voor bijhouden of aangepaste HTML toe te voegen. [ leer meer over de coderedacteur ](code-content.md)
+1. Indien nodig kunt u uw e-mail verder aanpassen door in het geavanceerde menu op **[!UICONTROL Switch to code editor]** te klikken. Op deze manier kunt u de broncode van de e-mail bewerken, bijvoorbeeld door trackingtags of aangepaste HTML-tags toe te voegen. [ leer meer over de coderedacteur ](code-content.md)
 
    >[!CAUTION]
    >
