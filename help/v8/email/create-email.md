@@ -3,9 +3,9 @@ audience: end-user
 title: Uw eerste e-mail verzenden
 description: Leer hoe u uw eerste e-mail verzendt met de gebruikersinterface van het Web van de Campagne
 exl-id: afa3638b-3d48-4d2b-98b8-dedd4235ba9a
-source-git-commit: cf114d180774a1956bafa340e9ceac13acc93489
+source-git-commit: bab5f3355be8b667dd72774b95245e9f7c3ac28f
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1435'
 ht-degree: 1%
 
 ---
@@ -164,7 +164,7 @@ De extra informatie over hoe te voorproef e-mail en verzendt proef is beschikbaa
 
    >[!NOTE]
    >
-   >De knop **[!UICONTROL Simulate content]** is in specifieke gevallen uitgeschakeld. De beperkingen zijn gedetailleerd [ in deze sectie ](#content-simulation-limitations).
+   >De knop **[!UICONTROL Simulate content]** is in specifieke contexten uitgeschakeld. De beperkingen zijn gedetailleerd [ in deze sectie ](#content-simulation-limitations).
 
 1. Selecteer links het profiel of de profielen die u wilt gebruiken voor een voorbeeld van het e-mailbericht.
 
@@ -195,7 +195,7 @@ De extra informatie over hoe te voorproef e-mail en verzendt proef is beschikbaa
 
    U kunt de status van de verzendende en de verzonden proefdrukken op elk gewenst moment controleren door op de knop **[!UICONTROL View proofs]** in het scherm Inhoud simuleren te klikken.
 
-## Beperkingen op het simuleren van inhoud {#content-simulation-limitations}
+### Beperkingen op het simuleren van inhoud {#content-simulation-limitations}
 
 >[!CONTEXTUALHELP]
 >id="acw_simulation_limitation_multilingual"
