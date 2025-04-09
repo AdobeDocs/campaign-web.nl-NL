@@ -48,24 +48,24 @@ Een sjabloon kan het volgende bevatten:
 
 Om tot de lijst van het inhoudsmalplaatje toegang te hebben, selecteer **[!UICONTROL Campaign Management]** > **[!UICONTROL Deliveries]** van het linkermenu, en doorblader aan de **Malplaatjes** tabel.
 
-![](assets/templates-tab.png){zoomable="yes"}
+![](assets/templates-tab.png)
 
 Alle malplaatjes die [ werden gecreeerd ](#create-a-delivery-template) op het huidige milieu worden getoond.
 
 U kunt inhoudssjablonen filteren op kanalen en mappen. U kunt geavanceerde filters ook instellen door een regel te maken met behulp van leveringskenmerken. [ Leer meer op de vraagmodelaar ](../audience/../query/query-modeler-overview.md)
 
-![](assets/templates-filters.png){zoomable="yes"}
+![](assets/templates-filters.png)
 
 Als u een sjabloon wilt bewerken, klikt u op het gewenste item in de lijst. Hierna:
 
 * U kunt de inhoud, eigenschappen, het publiek en alle aanbiedingen die eraan zijn gekoppeld, wijzigen.
 * U kunt de sjabloon ook testen. [Meer informatie](#test-template)
 
-![](assets/templates-edition.png){zoomable="yes"}
+![](assets/templates-edition.png)
 
 Om [ te schrappen of te dupliceren ](#copy-an-existing-template) een malplaatje, selecteer de overeenkomstige actie van het **[!UICONTROL More actions]** menu, of van de **[!UICONTROL Templates]** lijst of van het scherm van de malplaatjeuitgave.
 
-![](assets/templates-more-actions.png){zoomable="yes"}
+![](assets/templates-more-actions.png)
 
 >[!NOTE]
 >
@@ -96,15 +96,15 @@ Voer de onderstaande stappen uit om een leveringssjabloon te dupliceren:
 
 1. Herhaal dit.
 
-   ![](assets/templates-duplicate-confirm.png){zoomable="yes"}
+   ![](assets/templates-duplicate-confirm.png)
 
 1. Het nieuwe sjabloondashboard wordt in het centrale scherm geopend. Bewerk de sjablooninstellingen naar wens.
 
-   ![](assets/templates-duplicated-item.png){zoomable="yes"}
+   ![](assets/templates-duplicated-item.png)
 
 1. Klik op de knop **[!UICONTROL Review]** om de sjabloon op te slaan en te bekijken. U kunt nog steeds alle instellingen bewerken, verwijderen en dupliceren.
 
-   ![](assets/templates-review-screen.png){zoomable="yes"}
+   ![](assets/templates-review-screen.png)
 
 1. Test indien nodig de rendering van de sjabloon. [Meer informatie](#test-template)
 
@@ -119,7 +119,7 @@ Volg onderstaande stappen om een levering als een sjabloon op te slaan:
 1. Blader naar het menu **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** .
 1. Klik op het tabblad **[!UICONTROL Browse]** op de knop **[!UICONTROL More actions]** rechts van de gewenste leveringsnaam en selecteer **[!UICONTROL Copy as a template]** .
 
-   ![](assets/templates-convert-delivery.png){zoomable="yes"}
+   ![](assets/templates-convert-delivery.png)
 
    U kunt ook een sjabloon selecteren in de lijst en deze optie selecteren in het scherm Sjablooneditie.
 
@@ -137,19 +137,19 @@ Het nieuwe malplaatje wordt toegevoegd aan de [**lijst van Malplaatjes** ](#acce
 
 >[!NOTE]
 >
->Om configuratiefouten te vermijden, adviseert de Adobe dat u [ een ingebouwd malplaatje ](#copy-an-existing-template) dupliceert en zijn eigenschappen eerder dan tot een nieuw malplaatje leidt.
+>Om configuratiefouten te vermijden, adviseert Adobe dat u [ een ingebouwd malplaatje ](#copy-an-existing-template) dupliceert en zijn eigenschappen eerder dan tot een nieuw malplaatje leidt.
 
 Voer de onderstaande stappen uit om een volledig nieuwe leveringssjabloon te configureren:
 
 1. Blader naar het **lusje van Malplaatjes**, van het **Levert** linkermenu. [Meer informatie](#access-manage-templates)
 1. Klik op de knop **[!UICONTROL Create template]**.
 
-   ![](assets/templates-create-button.png){zoomable="yes"}
+   ![](assets/templates-create-button.png)
 
 1. Selecteer het kanaal dat u voor uw sjabloon wilt gebruiken.
 1. De ingebouwde leveringsmalplaatje voor dat kanaal wordt gebruikt door gebrek om u te helpen uw eigen malplaatje bouwen. Gebruik de toegewezen knop rechts van het geselecteerde kanaal om indien nodig een andere sjabloon te selecteren.
 
-   ![](assets/templates-channel-browse.png){zoomable="yes"}
+   ![](assets/templates-channel-browse.png)
 
 1. Klik nogmaals op de knop **[!UICONTROL Create template]** .
 
@@ -179,7 +179,7 @@ U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul 
 
 1. Klik op de knop **[!UICONTROL Simulate content]** rechtsboven in het scherm.
 
-   ![](assets/templates-simulate-button.png){zoomable="yes"}
+   ![](assets/templates-simulate-button.png)
 
 1. Selecteer een of meer testprofielen om de weergave van uw e-mail te controleren. U kunt ook echte profielen selecteren in uw database. [ leer meer op testprofielen ](../audience/test-profiles.md)
 
@@ -187,7 +187,7 @@ U kunt de rendering van elke leveringssjabloon testen, ongeacht of deze van nul 
 
 [Meer informatie over het voorvertonen van inhoud](../preview-test/preview-content.md)
 
-   ![](assets/templates-stimulate.png){zoomable="yes"}
+   ![](assets/templates-stimulate.png)
 
 1. Sluit het venster om terug te keren naar het scherm van de malplaatjeuitgave.
 

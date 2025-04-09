@@ -50,7 +50,7 @@ Volg onderstaande stappen om een nieuwe, zelfstandige e-maillevering te maken.
    >
    >Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die zijn opgeslagen voor toekomstig gebruik. [Meer informatie](../msg/delivery-template.md)
 
-   ![](assets/channel-template.png){zoomable="yes"}
+   ![](assets/channel-template.png)
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 1. Voer een label voor de levering in en configureer aanvullende opties op basis van uw behoeften:
@@ -65,7 +65,7 @@ Volg onderstaande stappen om een nieuwe, zelfstandige e-maillevering te maken.
    >
    >Als u uw schema met specifieke douanevelden hebt uitgebreid, kunt u tot hen in de **[!UICONTROL Custom options]** sectie toegang hebben.
 
-   ![](assets/email-properties.png){zoomable="yes"}
+   ![](assets/email-properties.png)
 
 1. Bovendien zijn geavanceerde instellingen, zoals typologische regels en doeltoewijzingen, toegankelijk via de knop **[!UICONTROL Settings]** rechtsboven in het scherm. Deze instellingen zijn vooraf geconfigureerd in de geselecteerde sjabloon, maar kunnen zo nodig worden bewerkt voor deze specifieke e-mail. [Meer informatie](../advanced-settings/delivery-settings.md)
 
@@ -86,15 +86,15 @@ De extra instructies op hoe te met publiek te werken zijn beschikbaar in [ deze 
 
    In dit voorbeeld willen we een bestaand publiek gebruiken dat zich richt op klanten die behoren tot het niveau van de zilveren- en goudloyaliteitspunten.
 
-   ![](assets/create-audience.png){zoomable="yes"}
+   ![](assets/create-audience.png)
 
    >[!NOTE]
    >
-   >Het publiek dat in de lijst beschikbaar is, komt uit uw Campagne v8-instantie of uit Adobe Experience Platform als de integratie tussen Doel en Source op uw instantie is geconfigureerd. Dankzij deze integratie kunt u Experience Platform-segmenten naar Adobe Campaign verzenden en kunt u AMP-leverings- en trackinglogboeken naar Adobe Experience Platform verzenden. Leer hoe het werk met Campagne en Adobe Experience Platform in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html) {target="_blank"}.
+   >Het publiek dat in de lijst beschikbaar is, komt uit uw Campagne v8-instantie of uit Adobe Experience Platform als de integratie tussen Doel en Source op uw instantie is geconfigureerd. Dankzij deze integratie kunt u Experience Platform-segmenten naar Adobe Campaign verzenden en kunt u AMP-leverings- en trackinglogboeken naar Adobe Experience Platform verzenden. Leer hoe het werk met Campagne en Adobe Experience Platform in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html).
 
 1. Als het publiek is geselecteerd, kunt u het doel verder verfijnen door aanvullende regels toe te passen.
 
-   ![](assets/audience-selected.png){zoomable="yes"}
+   ![](assets/audience-selected.png)
 
 1. U kunt ook een controlegroep instellen om het gedrag van de e-mailontvangers te analyseren in vergelijking met degenen die niet als doelgroep werden gebruikt. [ leer hoe te met controlegroepen ](../audience/control-group.md) werken
 
@@ -106,31 +106,31 @@ Volg onderstaande stappen om uw e-mailinhoud te maken. In dit gebruiksgeval, geb
 
 1. Klik op de knop **[!UICONTROL Edit content]** in het dashboard voor e-maillevering.
 
-   ![](assets/email-edit-content.png){zoomable="yes"}
+   ![](assets/email-edit-content.png)
 
    Hiermee gaat u naar een speciale interface waar u de e-mailinhoud kunt configureren en toegang kunt krijgen tot de e-mailtoepassing van de Designer. [Meer informatie](edit-content.md)
 
-   ![](assets/edit-content.png){zoomable="yes"}
+   ![](assets/edit-content.png)
 
 1. Voer de onderwerpregel van uw e-mail in en pas deze aan met de Expressieeditor. [ Leer hoe te om uw inhoud te personaliseren ](../personalization/personalize.md)
 
-   ![](assets/subject-line.png){zoomable="yes"}
+   ![](assets/subject-line.png)
 
 1. Klik op de knop **[!UICONTROL Edit email body]** om de inhoud van de e-mail te ontwerpen.
 
    Kies de methode die u wilt gebruiken om uw e-mailinhoud te maken. In dit voorbeeld, gebruik a [ vooraf bepaald inhoudsmalplaatje ](create-email-templates.md).
 
-   ![](assets/select-template.png){zoomable="yes"}
+   ![](assets/select-template.png)
 
 1. Zodra u het malplaatje hebt geselecteerd, wordt het getoond in [ E-mail Designer ](create-email-content.md), waar u om het even welke noodzakelijke uitgeeft kunt maken en verpersoonlijking toevoegen.
 
    Als u bijvoorbeeld personalisatie wilt toevoegen aan de e-mailtitel, selecteert u het componentblok en klikt u op **[!UICONTROL Add Personalization]** .
 
-   ![](assets/add-perso.png){zoomable="yes"}
+   ![](assets/add-perso.png)
 
 1. Als u tevreden bent met de inhoud, slaat u het ontwerp op en sluit u het. Klik op **[!UICONTROL Save]** om terug te keren naar het scherm voor het maken van e-mail.
 
-   ![](assets/save-content.png){zoomable="yes"}
+   ![](assets/save-content.png)
 
 ## Het verzenden plannen {#schedule}
 
@@ -142,7 +142,7 @@ Wanneer een levering in de context van een werkschema wordt verzonden, moet u de
 
 1. Stel de gewenste datum en tijd in voor het verzenden.
 
-   ![](assets/schedule.png){zoomable="yes"}
+   ![](assets/schedule.png)
 
 Zodra u de levering verzendt, begint de daadwerkelijke verzendende op de contactdatum u hebt bepaald.
 
@@ -160,7 +160,7 @@ De extra informatie over hoe te voorproef e-mail en verzendt proef is beschikbaa
 
 1. Klik op de knop **[!UICONTROL Simulate content]** om een voorbeeld van de e-mail te bekijken en proefdrukken te verzenden.
 
-   ![](assets/review-email.png){zoomable="yes"}
+   ![](assets/review-email.png)
 
    >[!NOTE]
    >
@@ -170,7 +170,7 @@ De extra informatie over hoe te voorproef e-mail en verzendt proef is beschikbaa
 
    In het rechterdeelvenster ziet u een voorbeeld van de e-mail op basis van het geselecteerde profiel. Als u meerdere profielen hebt toegevoegd, kunt u tussen de profielen schakelen om een voorbeeld van de bijbehorende e-mail te bekijken.
 
-   ![](assets/preview.png){zoomable="yes"}
+   ![](assets/preview.png)
 
    <!--Additionally, the **[!UICONTROL Render email]** button allows you to preview the email using mutiple devices or mail providers. Learn on how to preview email rendering
     -->
@@ -179,19 +179,19 @@ De extra informatie over hoe te voorproef e-mail en verzendt proef is beschikbaa
 
    In dit voorbeeld gebruikt u de modus **[!UICONTROL Substitute from main target]** , waarin proefdrukken naar specifieke e-mailadressen worden verzonden en waarin enkele profielen worden nagemaakt waarop de e-mail betrekking heeft.
 
-   ![](assets/proof-mode.png){zoomable="yes"}
+   ![](assets/proof-mode.png)
 
 1. Klik op **[!UICONTROL Add address]** en geef het e-mailadres of de e-mailadressen op waar de proefdrukken worden gemaakt.
 
    Selecteer voor elk e-mailadres het profiel dat u wilt beleven. U kunt Adobe Campaign ook een willekeurig profiel van het doel laten selecteren.
 
-   ![](assets/proof-test-profile.png){zoomable="yes"}
+   ![](assets/proof-test-profile.png)
 
 1. Klik op **[!UICONTROL Send proof]** en bevestig het verzenden.
 
    De proef wordt verzonden naar de gespecificeerde e-mailadressen gebruikend het geselecteerde profiel met **[Proef x]** prefix.
 
-   ![](assets/proof-sent.png){zoomable="yes"}
+   ![](assets/proof-sent.png)
 
    U kunt de status van de verzendende en de verzonden proefdrukken op elk gewenst moment controleren door op de knop **[!UICONTROL View proofs]** in het scherm Inhoud simuleren te klikken.
 
@@ -223,7 +223,7 @@ In de volgende gevallen wordt de simulatie van inhoud niet ondersteund:
 
 <!--* When a multilingual delivery contains only one locale,-->
 * met onderling samenhangende leveringen,
-* Wanneer uw de plaatsingsmodel van de Campagne [ Volledige Verbond van de Onderneming van Adobe Campaign Toegang (FFDA) ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment) {target="_blank"} is
+* Wanneer uw de plaatsingsmodel van de Campagne [ Volledige Federatieve Toegang van de Onderneming van Adobe Campaign (FFDA) ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment) is
 * Wanneer er geen bestand is geüpload.
 
 ## E-mail verzenden en controleren {#prepare-send}
@@ -232,13 +232,13 @@ Nadat u uw e-mail hebt bekeken en getest, kunt u de voorbereiding starten en ver
 
 1. Klik op **[!UICONTROL Prepare]** om het voorbereiden van de e-mail te starten. [ Leer hoe te om een e-mail ](../monitor/prepare-send.md) voor te bereiden
 
-   ![](assets/preparation.png){zoomable="yes"}
+   ![](assets/preparation.png)
 
 1. Als uw e-mail gereed is om te worden verzonden, klikt u op de knop **[!UICONTROL Send]** (of **[!UICONTROL Send as scheduled]** als u de verzending hebt gepland) en bevestigt u de verzending.
 
 1. Tijdens het verzendende proces, kunt u zijn vooruitgang volgen en statistieken in real time direct in dit scherm bekijken.
 
-   ![](assets/sending-email.png){zoomable="yes"}
+   ![](assets/sending-email.png)
 
    <!--
     ![](assets/sent-email.png){zoomable="yes"}-->
@@ -247,7 +247,7 @@ Nadat u uw e-mail hebt bekeken en getest, kunt u de voorbereiding starten en ver
 
 1. Nadat u het e-mailbericht hebt verzonden, kunt u specifieke rapporten openen voor verdere analyse door op de knop **[!UICONTROL Reporting]** te klikken.
 
-![](assets/reports.png){zoomable="yes"}
+![](assets/reports.png)
 
 ## Hoe kan ik-video {#video}
 

@@ -37,7 +37,7 @@ ht-degree: 8%
 >title="Bestandsbron overdragen"
 >abstract="Voer de gewenste bestandsnaam in."
 
-De **activiteit van het Dossier van de Overdracht** is a **het Beheer van Gegevens** activiteit. Hiermee kunt u bestanden ontvangen of verzenden, testen op bestandsaanwezigheid of bestanden weergeven op een server. Het gebruikte protocol kan of server-aan-server protocol of het protocol van HTTP zijn.
+De **activiteit Bestand** overdragen is een **activiteit voor gegevensbeheer** . Hiermee kunt u bestanden ontvangen of verzenden, testen op bestandsaanwezigheid of bestanden op een server weergeven. Het gebruikte protocol kan of server-aan-server protocol of het protocol van HTTP zijn.
 
 >[!NOTE]
 >
@@ -49,12 +49,12 @@ Volg de hieronder gedetailleerde stappen om de **het dossier van de Overdracht**
 
 1. Voeg het dossier van de a **Overdracht** activiteit in uw werkschema dan het type van overdracht toe om afhankelijk van het protocol uit te voeren dat u wilt gebruiken:
 
-   * Selecteer **[!UICONTROL Web Download]** voor het HTTP-protocol. Op deze manier kunt u een GET of POST een bestand downloaden naar een expliciete URL, een externe account of een Adobe Campaign-instantie.
+   * Selecteer **[!UICONTROL Web Download]** voor het HTTP-protocol. Op deze manier kunt u een GET- of POST-bestand downloaden naar een expliciete URL, een externe account of een Adobe Campaign-instantie.
    * Selecteer **[!UICONTROL File transfer]** voor andere server-naar-server protocollen en verwante handelingen.
 
 1. Selecteer de handeling die u wilt uitvoeren met de activiteit. Welke acties beschikbaar zijn, is afhankelijk van het type overdracht dat u hebt geselecteerd. Vouw de onderstaande secties uit voor meer informatie.
 
-   +++Acties beschikbaar met **de overdracht van het Dossier** type activiteiten
+   +++Acties beschikbaar bij **activiteiten van het type Bestandsoverdracht**
 
    * **[!UICONTROL File download]**: Download een bestand van de server.
    * **[!UICONTROL File upload]**: upload een bestand naar de server.
@@ -74,7 +74,7 @@ Volg de hieronder gedetailleerde stappen om de **het dossier van de Overdracht**
 
 1. Standaard gebruikt de activiteit voor handelingen voor het uploaden van bestanden het bestand dat is opgegeven in de vorige activiteit. Als u een ander bestand wilt gebruiken, schakelt u de optie **[!UICONTROL Use file from previous activity]** uit en klikt u op de knop **[!UICONTROL Add file]** .
 
-   Voer in het veld **[!UICONTROL Source]** de gewenste bestandsnaam in of gebruik de expressie-editor om de bestandsnaam te berekenen met behulp van gebeurtenisvariabelen. [ Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur ](../event-variables.md) te werken. Herhaal de bewerking om zoveel bestanden toe te voegen als u nodig hebt.
+   Voer in het **[!UICONTROL Source]** veld de gewenste bestandsnaam in of gebruik de expressie-editor om de bestandsnaam te berekenen met behulp van gebeurtenisvariabelen. [Leer hoe u kunt werken met gebeurtenisvariabelen en de expressie-editor](../event-variables.md). Herhaal de handeling om zoveel bestanden toe te voegen als nodig is.
 
 ## De overdrachtbestemming definiëren {#destination}
 
@@ -88,13 +88,13 @@ Volg de hieronder gedetailleerde stappen om de **het dossier van de Overdracht**
 
 1. Voor de acties van de POST van de download van het Web, kunt u extra parameters met de verrichting overgaan. Klik hiertoe op de knop **[!UICONTROL Add parameter]** en geef de naam en waarde van de parameters op. U kunt zoveel parameters toevoegen als u nodig hebt.
 
-1. Voor het uploaden van bestanden worden de bestanden die op een server zijn geüpload standaard automatisch opgeslagen. Schakel de optie **[!UICONTROL Keep history of files sent]** uit als u deze geschiedenis niet wilt behouden.
+1. Voor het uploaden van bestanden worden de bestanden die op een server zijn geüpload standaard automatisch opgeslagen. Als u deze geschiedenis niet wilt bewaren, schakelt u de **[!UICONTROL Keep history of files sent]** optie uit.
 
-## Historialisatie-instellingen {#historization}
+## Instellingen voor historisering {#historization}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_transferfile_historization"
->title="Bestandshistorie"
+>title="Historisering van bestanden"
 >abstract="Telkens wanneer een activiteit **[!UICONTROL Transfer file]** wordt uitgevoerd, worden de geüploade of gedownloade bestanden opgeslagen in een speciale map. Er wordt één map gemaakt voor elke activiteit van een workflow in het overdrachtsbestand. Standaard worden bestanden opgeslagen in de standaard opslagmap van de installatiemap van Adobe Campaign (`/vars` ) voordat ze worden verwerkt. Als u een specifieke map wilt gebruiken, schakelt u de optie **[!UICONTROL Use a default storage directory]** uit en voert u het pad van de map in."
 
 Telkens wanneer een activiteit **[!UICONTROL Transfer file]** wordt uitgevoerd, worden de geüploade of gedownloade bestanden opgeslagen in een speciale map. Er wordt één map gemaakt voor elke activiteit van een workflow in het overdrachtsbestand. Standaard worden bestanden opgeslagen in de standaard opslagmap van de installatiemap van Adobe Campaign (`/vars` ) voordat ze worden verwerkt. Als u een specifieke map wilt gebruiken, schakelt u de optie **[!UICONTROL Use a default storage directory]** uit en voert u het pad van de map in.
@@ -144,8 +144,8 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de map als volgt gecontrol
 
    +++Aanvullende opties voor **[!UICONTROL File transfer]** type-activiteiten
 
-   * **[!UICONTROL Delete the source files after transfer]**: Wis de bronbestanden na een geslaagde overdracht.
-   * **[!UICONTROL Display the session logs]**: Wanneer deze optie wordt geactiveerd, wordt informatie over de overdrachtsbewerking weergegeven in de werkstroomlogboeken nadat de workflow is uitgevoerd.
+   * **[!UICONTROL Delete the source files after transfer]**: Wis de bronbestanden na een succesvolle overdracht.
+   * **[!UICONTROL Display the session logs]**: Wanneer deze optie is geactiveerd, wordt informatie met betrekking tot de overdrachtsbewerking weergegeven in de werkstroomlogboeken zodra de werkstroom is uitgevoerd.
    * **[!UICONTROL List all files]** (Handelingen in bestandenlijsten): met deze optie worden alle bestanden geïndexeerd die zich op de server bevinden in de gebeurtenisvariabele `vars.filenames` , waarin de bestandsnamen worden gescheiden door de tekens `n` . [ Leer hoe te met gebeurtenisvariabelen ](../event-variables.md) te werken
 
 +++

@@ -5,7 +5,7 @@ description: Leer hoe u pushrapporten kunt openen en gebruiken
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
 source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Het **Push leveringsrapport** verstrekt een grondig overzicht van het duw kanaal
 
 Het **[!UICONTROL Delivery overview]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over hoe uw bezoekers uw pushberichten gebruiken.
 
-![](assets/reporting_push_3.png){zoomable="yes"}
+![](assets/reporting_push_3.png)
 
 +++Meer weten over cijfers van verzendrapporten.
 
@@ -53,7 +53,7 @@ Het **[!UICONTROL Delivery overview]** -rapport bevat prestatie-indicatoren (KPI
 
 De **gerichte bevolkings** grafiek en lijstvertoningsgegevens met betrekking tot uw publiek: berichten te leveren en uitsluitingen. De cijfers worden hieronder beschreven.
 
-![](assets/reporting_push_4.png){zoomable="yes"}
+![](assets/reporting_push_4.png)
 
 +++Meer weten over cijfers van verzendrapporten.
 
@@ -72,7 +72,7 @@ De **gerichte bevolkings** grafiek en lijstvertoningsgegevens met betrekking tot
 
 Het **Algemene statistiek** rapport stelt gegevens voor de verzonden pushberichten voor: succes, fouten en quarantines. De cijfers worden hieronder beschreven.
 
-![](assets/reporting_push_5.png){zoomable="yes"}
+![](assets/reporting_push_5.png)
 
 +++Meer weten over cijfers van verzendrapporten.
 
@@ -91,10 +91,10 @@ Het **Algemene statistiek** rapport stelt gegevens voor de verzonden pushbericht
 >title="Uitsluitingen bij duwen"
 >abstract="De **grafiek en de lijst van uitsluitingen 0} {tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen.**"
 
-In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u verschillende redenen waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet hebben ontvangen. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types) {_blank}.
+In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u verschillende redenen waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet hebben ontvangen. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types).
 
 
-![](assets/reporting_push_6.png){zoomable="yes"}
+![](assets/reporting_push_6.png)
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
@@ -105,4 +105,4 @@ In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u verschillende rede
 
 Het **rapport van de productie van de Levering** stelt gedetailleerde informatie betreffende de leveringsproductie van het volledige platform binnen een gespecificeerd timeframe voor. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
 
-![](assets/reporting_push_2.png){zoomable="yes"}
+![](assets/reporting_push_2.png)

@@ -94,7 +94,7 @@ In dit voorbeeld ziet u hoe u een variabele initialiseert op basis van het aanta
 
 ![](../assets/javascript-example1.png)
 
-Hier richten we ons op VIP profielen uit onze database. Wij willen een variabele tot stand brengen genoemd &quot;kanaal&quot;met een waarde die van het aantal profielen afhangt dat door de het publieksactiviteit van de Bouwstijl wordt gericht:
+Hier richten we ons op VIP-profielen vanuit onze database. Wij willen een variabele tot stand brengen genoemd &quot;kanaal&quot;met een waarde die van het aantal profielen afhangt dat door de het publieksactiviteit van de Bouwstijl wordt gericht:
 
 * Als u meer dan 1000 profielen als doel instelt, initialiseert u de variabele met de waarde &quot;email&quot;.
 * Anders initialiseert u de code met de waarde &quot;sms&quot;.

@@ -33,22 +33,22 @@ Bovendien, kan de vraagmodeler zeer complexe en lange vragen efficiënt beheren,
 
 ## Heb toegang tot de vraagmodeller
 
-De querymodeler is beschikbaar in elke context waarin u regels moet definiëren om gegevens te filteren.
+De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens moet bepalen.
 
 | Gebruik | Voorbeeld |
 |  ---  |  ---  |
-| **bepaalt publiek**: Specificeer de bevolking u in uw berichten of werkschema&#39;s wilt richten, en creeer moeiteloos nieuw publiek dat aan uw behoeften wordt aangepast. [ Leer hoe te om publiek te bouwen ](../audience/one-time-audience.md) | ![](assets/access-audience.png) |
-| **pas werkschemaactiviteiten** aan: pas regels binnen werkschemaactiviteiten, zoals **Gesplitst** en **Verzoening** toe, om op uw specifieke vereisten te richten. [ Leer meer op werkschemaactiviteiten ](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png) |
-| **vooraf bepaalde filters**: Creeer vooraf bepaalde filters die als kortere weg tijdens diverse het filtreren verrichtingen dienen, of u met gegevenslijsten werkt of het publiek voor een levering vormt. [ Leer hoe te met vooraf bepaalde filters ](../get-started/predefined-filters.md) te werken | ![](assets/access-predefined-filter.png) |
-| **de rapporten van de Filter gegevens**: Voeg regel toe om de gegevens te filtreren die in rapporten worden getoond. [ Leer hoe te met rapporten ](../reporting/gs-reports.md) te werken | ![](assets/access-reports.png) |
-| **pas lijsten** aan: Creeer douaneregels om de gegevens te filtreren die in lijsten zoals ontvangers, leveringenlijsten enz. worden getoond. [ Leer hoe te om lijsten ](../get-started/list-filters.md#list-built-in-filters) te filtreren | ![](assets/access-lists.png) |
-| **bouwt voorwaardelijke inhoud**: maak e-mailinhoud dynamisch door voorwaarden te creëren die bepalen welke inhoud aan verschillende ontvangers zou moeten worden getoond, die gepersonaliseerd en relevant overseinen verzekeren. [ Leer hoe te om voorwaardelijke inhoud te bouwen ](../personalization/conditions.md) | ![](assets/conditional-content.png) |
+| **bepaalt publiek**: Specificeer de bevolking u in uw berichten of werkschema&#39;s wilt richten, en creeer moeiteloos nieuw publiek dat aan uw behoeften wordt aangepast. [ Leer hoe te om publiek te bouwen ](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **pas werkschemaactiviteiten** aan: pas regels binnen werkschemaactiviteiten, zoals **Gesplitst** en **Verzoening** toe, om op uw specifieke vereisten te richten. [ Leer meer op werkschemaactiviteiten ](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **vooraf bepaalde filters**: Creeer vooraf bepaalde filters die als kortere weg tijdens diverse het filtreren verrichtingen dienen, of u met gegevenslijsten werkt of het publiek voor een levering vormt. [ Leer hoe te met vooraf bepaalde filters ](../get-started/predefined-filters.md) te werken | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **de rapporten van de Filter gegevens**: Voeg regel toe om de gegevens te filtreren die in rapporten worden getoond. [ Leer hoe te met rapporten ](../reporting/gs-reports.md) te werken | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **pas lijsten** aan: Creeer douaneregels om de gegevens te filtreren die in lijsten zoals ontvangers, leveringenlijsten enz. worden getoond. [ Leer hoe te om lijsten ](../get-started/list-filters.md#list-built-in-filters) te filtreren | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **bouwt voorwaardelijke inhoud**: maak e-mailinhoud dynamisch door voorwaarden te creëren die bepalen welke inhoud aan verschillende ontvangers zou moeten worden getoond, die gepersonaliseerd en relevant overseinen verzekeren. [ Leer hoe te om voorwaardelijke inhoud te bouwen ](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} |
 
 >[!NOTE]
 >
 >Wanneer u een object opent dat is gemaakt in de clientconsole waarop regels zijn toegepast, zoals een publiek of een vooraf gedefinieerd filter, wordt de sectie **[!UICONTROL Refine target]** mogelijk weergegeven. Dit betekent dat de extra parameters zijn gevormd om het regeldoel te verfijnen. Deze parameters kunnen alleen in de console worden gewijzigd.
 >
->![](assets/target-warning.png)
+>![](assets/target-warning.png){zoomable="yes"}
 
 ## Query-modellerinterface {#interface}
 
@@ -59,7 +59,7 @@ De querymodeler is beschikbaar in elke context waarin u regels moet definiëren 
 
 De vraagmodeler verstrekt een centraal canvas waar u uw vraag bouwt, en een juiste ruit die informatie over uw vraag verstrekt.
 
-![](assets/query-interface.png)
+![](assets/query-interface.png){zoomable="yes"}
 
 ### Het centrale canvas {#canvas}
 
@@ -68,7 +68,7 @@ Het centrale canvas van de vraagmodeler is waar u toevoegt en de verschillende c
 De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de querycomponenten eenvoudig kunt manipuleren en op het canvas kunt navigeren:
 
 * **Veelvoudige selectiemodus**: Selecteer veelvoudige het filtreren componenten om hen bij de plaats van uw keus te kopiëren en te kleven.
-* **Roteren**: Wissel het canvas verticaal.
+* **roteer**: Verdraai verticaal het canvas.
 * **Passend aan het scherm**: Pas het het gezoemniveau van het canvas aan uw scherm aan.
 * **Gezoem uit** / **Gezoem binnen**: Gezoem uit of in het canvas.
 * **kaart van de Vertoning**: Opent een momentopname van het canvas die u toont wordt gevestigd.

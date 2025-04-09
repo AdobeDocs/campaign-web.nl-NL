@@ -1,7 +1,8 @@
 ---
 title: Doeltoewijzingen beheren
 description: Leer hoe u doeltoewijzingen beheert.
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 144d5650-9632-4af3-b64e-f6e81503a621
+source-git-commit: 24691b7d6e71e0a6986a1e1fdd0d709cf869e9dd
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Doeltoewijzingen zijn toegankelijk via het menu **[!UICONTROL Administration]** 
 
 ![](assets/target-mappings-list.png)
 
-Voor meer informatie over de ingebouwde doelafbeeldingen die van Adobe Campaign worden verstrekt, verwijs naar de [ de consoledocumentatie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html) {target="_blank"}.
+Voor meer informatie over de ingebouwde doelafbeeldingen die van Adobe Campaign worden verstrekt, verwijs naar de [ de consoledocumentatie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html).
 
 ## Doeltoewijzing maken {#create-mapping}
 
@@ -114,4 +115,4 @@ Nadat u de doeltoewijzing hebt gemaakt, worden twee extra secties op het scherm 
 
      Selecteer **[!UICONTROL Add field]** om dit te doen. Identificeer de informatie u in het **[!UICONTROL Source]** gebied wilt opslaan, en de attributen in het verzenden logboeken te gebruiken om deze informatie in het **[!UICONTROL Destination]** gebied te bewaren.
 
-     ![](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+     ![](assets/target-mappings-additional.png)

@@ -63,13 +63,13 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
    >
    >Als u de ervaring van de ontvanger verder wilt verbeteren, kunt u de naam van een persoon toevoegen, bijvoorbeeld &quot;Oefen van luminantie&quot;.
 
-1. Het adresveld **[!UICONTROL From email]** wordt ook gedefinieerd in de e-mailsjabloon. Zorg ervoor het adresdomein het zelfde als subdomein is dat u aan Adobe delegeerde.
+1. Het adresveld **[!UICONTROL From email]** wordt ook gedefinieerd in de e-mailsjabloon. Zorg ervoor dat het adresdomein hetzelfde is als het subdomein dat u aan Adobe hebt gedelegeerd.
 
    >[!NOTE]
    >
    >U kunt het deel vóór &#39;@&#39; wijzigen, maar niet het domeinadres.
 
-1. Vouw de sectie **[!UICONTROL Reply-to fields]** uit. De naam en het adres van de afzender worden door gebrek gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
+1. Vouw de sectie **[!UICONTROL Reply-to fields]** uit. De naam en het adres van de afzender worden door gebrek gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van je merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
 
    ![](assets/email-edit-content-reply-to.png){zoomable="yes"}
 

@@ -36,7 +36,7 @@ Typologieën zijn toegankelijk via het menu **[!UICONTROL Administration]** > **
 
 >[!NOTE]
 >
->In de lijst **[!UICONTROL Typology rules]** worden alle bestaande regels weergegeven die tot nu toe in de webgebruikersinterface of de clientconsole zijn gemaakt. Nochtans, slechts **Controle** en **het Filtreren** regels kunnen in het Gebruikersinterface van het Web worden gecreeerd. Als u andere typen typologische regels wilt maken, zoals de regels voor druk of capaciteit, gebruikt u de clientconsole van Campagne v8. [ Leer hoe te om typologieregels in de cliëntconsole ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies) tot stand te brengen {target="_blank"}
+>In de lijst **[!UICONTROL Typology rules]** worden alle bestaande regels weergegeven die tot nu toe in de webgebruikersinterface of de clientconsole zijn gemaakt. Nochtans, slechts **Controle** en **het Filtreren** regels kunnen in het Gebruikersinterface van het Web worden gecreeerd. Als u andere typen typologische regels wilt maken, zoals de regels voor druk of capaciteit, gebruikt u de clientconsole van Campagne v8. [ Leer hoe te om typologieregels in de cliëntconsole tot stand te brengen ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 De belangrijkste stappen om typologieën op uw berichten toe te passen zijn:
 
@@ -104,7 +104,7 @@ Definieer de eigenschappen van de typologieregel:
 
    >[!NOTE]
    >
-   >Voor nu, slechts **Controle** en **het Filtreren** typologische regels kunnen van het Gebruikersinterface van het Web worden gecreeerd. Als u andere soorten regels wilt maken, gebruikt u de clientconsole. [ Leer hoe te om typologieregels in de cliëntconsole ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies) tot stand te brengen {target="_blank"}
+   >Voor nu, slechts **Controle** en **het Filtreren** typologische regels kunnen van het Gebruikersinterface van het Web worden gecreeerd. Als u andere soorten regels wilt maken, gebruikt u de clientconsole. [ Leer hoe te om typologieregels in de cliëntconsole tot stand te brengen ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. Selecteer een **[!UICONTROL Channel]** die u aan de regel wilt koppelen.
 

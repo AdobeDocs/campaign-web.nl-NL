@@ -26,7 +26,7 @@ Vooraf gedefinieerde filters zijn aangepaste filters die worden gemaakt en opges
 
 U kunt bestaande ingebouwde filters gebruiken om toegang te krijgen tot een specifieke subset van uw gegevens, of uw eigen vooraf gedefinieerde filters maken en deze opslaan.
 
-![](assets/predefined-filters-menu.png){zoomable="yes"}{zoomable="yes"}
+![](assets/predefined-filters-menu.png)
 
 ## Een vooraf gedefinieerd filter maken {#create-predefined-filter}
 
@@ -47,11 +47,11 @@ U kunt een douanefilter van de [ vraagmodelaar ](../query/query-modeler-overview
 1. Open de vraagmodeler en bepaal uw het filtreren voorwaarden. In het onderstaande voorbeeld filtert u ontvangers die in Madrid wonen en zich op een nieuwsbrief hebben geabonneerd.
 1. Klik **Uitgezocht of sparen filter** knoop, en uitgezocht **sparen als filter**.
 
-   ![](assets/predefined-filters-save.png){zoomable="yes"}
+   ![](assets/predefined-filters-save.png)
 
 1. Selecteer **creeer een nieuwe filter**, en ga een naam en een beschrijving voor die filter in.
 
-   ![](assets/predefined-filters-save-filter.png){zoomable="yes"}
+   ![](assets/predefined-filters-save-filter.png)
 
    U kunt het filter indien nodig opslaan als favoriet. Lees meer in [deze sectie](#fav-filter).
 
@@ -71,12 +71,12 @@ U kunt een filter van de **Vooraf bepaalde filters** ingang in het linkermenu to
 
 1. Definieer de regel voor het filter. Profielen die ouder zijn dan 30.
 
-   ![](assets/filter-30+.png){zoomable="yes"}
+   ![](assets/filter-30+.png)
 
 
 1. Sla uw wijzigingen op.
 
-   ![](assets/new-filter.png){zoomable="yes"}
+   ![](assets/new-filter.png)
 
 
 Het filter wordt toegevoegd aan de vooraf gedefinieerde filterlijst. U kunt het filter indien nodig opslaan als favoriet. Lees meer in [deze sectie](#fav-filter).
@@ -89,7 +89,7 @@ Wanneer het creëren van een vooraf bepaald filter, kunt u **toelaten sparen als
 
 Wanneer een filter als favoriet wordt bewaard, is het beschikbaar aan alle gebruikers in de **favoriete filters** sectie van de lijst van de filterverwezenlijking, zoals hieronder getoond:
 
-![](assets/predefined-filters-favorite.png){zoomable="yes"}{width="30%" align="left"}
+![](assets/predefined-filters-favorite.png)
 
 ## Een vooraf gedefinieerd filter gebruiken {#use-predefined-filter}
 
@@ -103,21 +103,21 @@ Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd f
 1. Ga de publieksnaam in, en klik **creëren de knoop van het Publiek**.
 1. Selecteer de **activiteit van de Vraag**, en, van de juiste ruit, klik **creëren publiek** knoop.
 
-   ![](assets/build-audience-from-filter.png){zoomable="yes"}
+   ![](assets/build-audience-from-filter.png)
 
 1. Van **Uitgezocht of sparen filter** knoop, kies de **Uitgezochte optie van de douanefilter**.
 
-   ![](assets/build-audience-select-custom-filter.png){zoomable="yes"}
+   ![](assets/build-audience-select-custom-filter.png)
 
 1. Blader naar het vooraf gedefinieerde filter dat u wilt gebruiken om het publiek te maken, selecteer het en bevestig het.
 
-   ![](assets/build-audience-filter-list.png){zoomable="yes"}
+   ![](assets/build-audience-filter-list.png)
 
 1. Controleer de regeleigenschappen voor dit filter en bevestig.
 
    Het filter wordt nu gebruikt als vraag in de **activiteit van de Vraag**.
 
-   ![](assets/build-audience-confirm.png){zoomable="yes"}
+   ![](assets/build-audience-confirm.png)
 
 1. Sparen uw veranderingen en klik de **knoop van het Begin** om het publiek te bouwen en het beschikbaar te maken in de publiekslijst.
 
@@ -125,7 +125,7 @@ Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd f
 
 Alle vooraf gedefinieerde filters worden gegroepeerd in de specifieke vermelding van het navigatiemenu links.
 
-![](assets/list-of-filters.png){zoomable="yes"}
+![](assets/list-of-filters.png)
 
 In deze lijst kunt u een nieuw filter maken zoals hierboven beschreven en de onderstaande handelingen uitvoeren:
 

@@ -25,7 +25,7 @@ Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de
 
 In **[!UICONTROL Delivery Overview]** vindt u belangrijke prestatiemetriek (KPI&#39;s) met diepgaande inzichten in de interactie van uw bezoekers met elke direct-maillevering. De meetgegevens worden hieronder beschreven.
 
-![](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
+![](assets/direct-mail-campaign-overview.png)
 
 +++ Meer informatie over overzichtsmetriek voor levering.
 
@@ -48,7 +48,7 @@ In **[!UICONTROL Delivery Overview]** vindt u belangrijke prestatiemetriek (KPI&
 
 In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De metriek worden berekend tijdens levering voorbereiding en toon: het aanvankelijke publiek, het aantal te verzenden berichten, het aantal uitgesloten ontvangers.
 
-![](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
+![](assets/direct-mail-campaign-target-audience.png)
 
 +++Meer informatie over de cijfers voor de aanvankelijke doelpubliek.
 
@@ -90,7 +90,7 @@ De tabel **[!UICONTROL Execution statistics]** geeft een overzicht van het succe
 >title="Gegenereerde klikstromen"
 >abstract="De **Gegenereerde klikstromen** lijst toont de beschikbare gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden."
 
-![](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
+![](assets/direct-mail-campaign-clicks.png)
 
 De **Gegenereerde klikstromen** lijst illustreert de redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, het bericht ontvingen.
 
