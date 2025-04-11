@@ -3,9 +3,9 @@ audience: end-user
 title: Een map maken en beheren
 description: Leer hoe u een map maakt en beheert in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 440fb6d303fc70b3fd0903c485cb6b5e6d3ba0c6
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
@@ -14,21 +14,21 @@ ht-degree: 1%
 
 In Adobe Campaign kunt u nieuwe mappen maken voor het beheer van uw boomstructuur. Ga in **[!UICONTROL Explorer]** naar de map waarin u de nieuwe map wilt maken.
 
-Onder de knop **[!UICONTROL ...]** hebt u **[!UICONTROL Create new folder]**
+Selecteer onder de knop **[!UICONTROL ...]** de optie **[!UICONTROL Create new folder]** .
 
-![](assets/folder_create.png){zoomable="yes"}
+![ het Schermafbeelding die de Create nieuwe omslagoptie onder de... knoop toont ](assets/folder_create.png){zoomable="yes"}
 
-Wanneer u een nieuwe map maakt, is het maptype standaard het type van de bovenliggende map.
-In ons voorbeeld maken we een map in de map **[!UICONTROL Deliveries]** .
+Wanneer u een nieuwe map maakt, wordt het maptype standaard ingesteld op het type bovenliggende map.\
+In dit voorbeeld wordt een map gemaakt in de map **[!UICONTROL Deliveries]** .
 
-![](assets/folder_new.png){zoomable="yes"}
+![ Schermafbeelding die een nieuwe die omslag toont in de omslag van Leveringen wordt gecreeerd ](assets/folder_new.png){zoomable="yes"}
 
-U kunt het type van uw omslag veranderen door op het pictogram van het type van Omslag te klikken, en u kunt het in de voorgestelde lijst kiezen:
+U kunt het maptype wijzigen door op het pictogram Maptype te klikken en een type te selecteren in de weergegeven lijst.
 
-![](assets/folder_type.png){zoomable="yes"}
+![ Schermschot die de lijst van omslagtypes tonen beschikbaar voor selectie ](assets/folder_type.png){zoomable="yes"}
 
-U stelt het maptype in door op de knop **[!UICONTROL Confirm]** te klikken.
+Stel het maptype in door op de knop **[!UICONTROL Confirm]** te klikken.
 
-Als u een map zonder specifiek type wilt maken, kiest u **[!UICONTROL Generic Folder]** type.
+Als u een map zonder specifiek type wilt maken, selecteert u het type **[!UICONTROL Generic Folder]** .
 
-In de console van Adobe Campaign, hebt u het proces van verwezenlijking en beheer van een omslag verklaard [ hier ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views), en u hebt de mogelijkheid om toestemmingen op omslagen te plaatsen. [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+In de console van Adobe Campaign, wordt het proces voor het creëren van en het leiden van omslagen verklaard [ hier ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views). U kunt ook machtigingen voor mappen instellen. [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions).

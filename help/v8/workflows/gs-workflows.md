@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met workflows
 description: Leer hoe u begint met workflows
 exl-id: 3358976d-0e7e-41c3-8bf2-d3315226c2fa
-source-git-commit: 980c19561c9f82a22a59b626d95d72981781af54
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ## Wat is een workflow?
 
-Cross-channel marketing is essentieel voor elk bedrijf dat zijn klanten effectief wil bereiken. Adobe Campaign biedt een uitgebreide grafische omgeving waarmee u complexe processen kunt ontwerpen die u kunnen helpen uw marketingcampagnes eenvoudig te beheren.
+De marketing over de kanalen is essentieel voor om het even welk bedrijf dat zijn klanten effectief probeert te bereiken. Adobe Campaign biedt een uitgebreide grafische omgeving die u in staat stelt complexe processen te ontwerpen om uw marketingcampagnes eenvoudig te beheren.
 
-Met werkschema&#39;s, kunt u de volledige waaier van processen en taken organiseren, de snelheid en de schaal van elk aspect van uw marketing campagnes verbeteren, van het creëren van segmenten en het voorbereiden van berichten aan levering. Bovendien kunt u uw kanalen synchroon maken met één gebruiksvriendelijke interface voor het organiseren van campagnes.
+Met werkschema&#39;s, organiseert u een volledige waaier van processen en taken, die de snelheid en de schaal van elk aspect van uw marketing campagnes verbeteren, van het creëren van segmenten en het voorbereiden van berichten aan levering. Bovendien synchroniseert u uw kanalen met één gebruiksvriendelijke interface voor campagneorchestratie.
 
-Een van de belangrijkste voordelen van het gebruik van workflows is dat het eenvoudig is om gepersonaliseerde inhoud op alle kanalen aan uw klanten te leveren. Of uw klanten nu liever berichten via e-mail of mobiel ontvangen, Adobe Campaign biedt u de mogelijkheid om een consistente en contextafhankelijke ervaring op elk kanaal te leveren, zodat de reis van elke klant in een unieke ervaring wordt omgezet.
+Een van de belangrijkste voordelen van workflows is dat ze de levering van gepersonaliseerde inhoud aan klanten op alle kanalen kunnen vereenvoudigen. Of klanten nu liever berichten ontvangen via e-mail of mobiel, Adobe Campaign zorgt voor een consistente en contextafhankelijke ervaring op elk kanaal, waardoor de reis van elke klant wordt omgezet in een unieke ervaring.
 
 ## Praktisch gebruik voor workflows
 
-Workflows zijn ongelooflijk veelzijdig en kunnen in verschillende contexten worden gebruikt, zoals gericht op het beheren van het publiek of het verzenden van berichten, gegevensbeheer (ETL) voor het manipuleren van gegevens en het importeren van gegevens in de Adobe Campaign-database.
+Workflows zijn zeer veelzijdig en zijn in verschillende contexten van toepassing, zoals gericht op het beheren van het publiek of het verzenden van berichten, gegevensbeheer (ETL) voor het manipuleren van gegevens en het importeren van gegevens in de Adobe Campaign-database.
 
-Met de uitgebreide grafische omgeving van Adobe Campaign kunt u processen ontwerpen, zoals segmentatie, uitvoering van campagnes en bestandsverwerking. De werkschema&#39;s kunnen gebruikers ook impliceren door hen taken toe te wijzen of hen te laten uitgevoerde taken goedkeuren, die het gemakkelijker maken om het werk van uw team te beheren en ervoor te zorgen dat alles correct wordt gedaan.
+Met de grafische Adobe Campaign-omgeving ontwerpt u processen zoals segmentatie, uitvoering van de campagne en bestandsverwerking. Bij workflows worden ook gebruikers betrokken door taken toe te wijzen of goedkeuring voor uitgevoerde taken te vereisen, teambeheer te vereenvoudigen en nauwkeurigheid te garanderen.
 
-Hier volgen enkele voorbeelden van het gebruik van workflows met Adobe Campaign:
+Hier volgen enkele voorbeelden van de manier waarop workflows met Adobe Campaign kunnen worden gebruikt:
 
 * Een follow-upcampagne starten voor niet-actieve klanten,
 * Stuur een welkomstbericht naar alle nieuwe abonnees op een service.
@@ -34,7 +34,7 @@ Hier volgen enkele voorbeelden van het gebruik van workflows met Adobe Campaign:
 
 ## Laten we dieper duiken
 
-Nu u weet welke workflows er zijn en wat u ermee kunt doen in Adobe Campaign, is het tijd om dieper in deze documentatiegedeelten te duiken om met de functie te gaan werken.
+Nu u begrijpt wat workflows zijn en wat hun mogelijkheden zijn in Adobe Campaign, verkent u de volgende documentatiesecties om met deze functie te beginnen werken.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -48,7 +48,7 @@ Nu u weet welke workflows er zijn en wat u ermee kunt doen in Adobe Campaign, is
 </td>
 <td>
 <a href="create-workflow.md">
-<img alt="Lood" src="assets/do-not-localize/workflow-create.jpeg">
+<img alt="Uw eerste workflow maken en uitvoeren" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
 <div><a href="create-workflow.md"><strong> creeer en stel uw eerste werkschema </strong> in werking
 </div>
@@ -56,7 +56,7 @@ Nu u weet welke workflows er zijn en wat u ermee kunt doen in Adobe Campaign, is
 </td>
 <td>
 <a href="activities/about-activities.md">
-<img alt="Onfrequent" src="assets/do-not-localize/workflow-activities.jpeg">
+<img alt="Werken met workflowactiviteiten" src="assets/do-not-localize/workflow-activities.jpeg">
 </a>
 <div>
 <a href="activities/about-activities.md"><strong> Werk met werkschemaactiviteiten </strong></a>

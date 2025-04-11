@@ -3,12 +3,13 @@ audience: end-user
 title: Aan de slag met SMS-berichten
 description: Meer informatie over het maken en verzenden van SMS met Adobe Campaign Web
 exl-id: 642c4180-0439-43dd-ba3f-0c4843bbfe84
-source-git-commit: c3148c9593aa4d323097135601616b9c43bae378
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 0%
+source-wordcount: '158'
+ht-degree: 2%
 
 ---
+
 
 # Aan de slag met SMS-berichten {#sms}
 
@@ -27,7 +28,7 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-sms.md">
-<img alt="Lood" src="assets/do-not-localize/create_sms.png">
+<img alt="Een sms-levering maken" src="assets/do-not-localize/create_sms.png">
 </a>
 <div><a href="create-sms.md"><strong> creeer een levering van SMS </strong>
 </div>
@@ -35,7 +36,7 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 </td>
 <td>
 <a href="content-sms.md">
-<img alt="Onfrequent" src="assets/do-not-localize/design_sms.png">
+<img alt="Een SMS-verzending ontwerpen" src="assets/do-not-localize/design_sms.png">
 </a>
 <div>
 <a href="content-sms.md"><strong> Ontwerp en levering van SMS <strong></strong></a>
@@ -43,7 +44,7 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 <p></td>
 <td>
 <a href="send-sms.md">
-<img alt="Validatie" src="assets/do-not-localize/send_sms.png">
+<img alt="Verzend een SMS-levering" src="assets/do-not-localize/send_sms.png">
 </a>
 <div>
 <a href="send-sms.md"><strong> verzend een levering van SMS </strong></a>
@@ -52,7 +53,7 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 </td>
 <td>
 <a href="send-sms.md">
-<img alt="Validatie" src="assets/do-not-localize/report_sms.jpeg">
+<img alt="SMS-leveringsrapport" src="assets/do-not-localize/report_sms.jpeg">
 </a>
 <div>
 <a href="send-sms.md"><strong> de leveringsrapport van SMS </strong></a>

@@ -4,10 +4,10 @@ title: Werken met sjablonen voor het plaatsen van pagina-inhoud
 description: Leer hoe u landende pagina-inhoud opslaat als ontwerpsjabloon en deze opnieuw gebruikt in Campagne Web
 feature: Landing Pages
 exl-id: 2298265b-6ca6-461f-8c69-c60d98e8f445
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 6%
+source-wordcount: '234'
+ht-degree: 2%
 
 ---
 
@@ -15,43 +15,43 @@ ht-degree: 6%
 
 ## Een pagina opslaan als sjabloon {#save-as-template}
 
-Zodra u uw [ het landen paginainhoud ](lp-content.md) ontwierp, kunt u het voor toekomstig hergebruik bewaren. Volg de onderstaande stappen om dit te doen.
+Zodra u uw [ het landen pagina inhoud ](lp-content.md) ontwerpt, kunt u het voor toekomstig hergebruik bewaren. Volg onderstaande stappen om een pagina als sjabloon op te slaan.
 
 1. Klik op de knop **[!UICONTROL More]** rechtsboven in het scherm.
 
 1. Selecteer **[!UICONTROL Save as content template]** in de vervolgkeuzelijst.
 
-   ![](assets/lp-save-as-template.png){zoomable="yes"}
+   ![ Schermafbeelding die sparen als optie van het inhoudsmalplaatje in het drop-down menu toont ](assets/lp-save-as-template.png){zoomable="yes"}
 
 1. Voeg een naam voor deze sjabloon toe.
 
 1. Klik op **[!UICONTROL Save]**.
 
-De volgende keer dat u een openingspagina maakt, kunt u deze sjabloon gebruiken om uw inhoud samen te stellen. Leer hoe in de [ sectie ](#use-saved-template) hieronder.
+U kunt deze sjabloon gebruiken om uw inhoud samen te stellen wanneer u de volgende keer een bestemmingspagina maakt. Leer hoe in de [ sectie ](#use-saved-template) hieronder.
 
-![](assets/lp-saved-template.png){zoomable="yes"}
+![ Schermafbeelding die een bewaard malplaatje in de het landen paginainterface toont ](assets/lp-saved-template.png){zoomable="yes"}
 
 ## Een opgeslagen sjabloon gebruiken {#use-saved-template}
 
 <!--Not for GA?-->
 
-1. Wanneer u de inhoud van een openingspagina bewerkt, klikt u op de knop **[!UICONTROL More]** en selecteert u **[!UICONTROL Change your design]** .
+1. Wanneer u de inhoud van de openingspagina bewerkt, klikt u op de knop **[!UICONTROL More]** en selecteert u **[!UICONTROL Change your design]** .
 
-   ![](assets/lp-change-your-design.png){zoomable="yes"}
+   ![ Schermschot die de Verandering uw ontwerpoptie in het drop-down menu tonen ](assets/lp-change-your-design.png){zoomable="yes"}
 
 1. Bevestig uw keuze.
 
    >[!NOTE]
    >
-   >Hiermee verwijdert en vervangt u de huidige inhoud door de inhoud uit de nieuwe sjabloon.
+   >Met deze actie verwijdert en vervangt u de huidige inhoud door de inhoud van de nieuwe sjabloon.
 
 1. De lijst met alle eerder opgeslagen sjablonen wordt weergegeven op het tabblad **[!UICONTROL Saved templates]** . U kunt ze **[!UICONTROL By name]** , **[!UICONTROL Last modified]** en **[!UICONTROL Last created]** sorteren.
 
-   ![](assets/lp-saved-templates.png){zoomable="yes"}
+   ![ Schermafbeelding die het Opgeslagen malplaatjes lusje met sorterende opties tonen ](assets/lp-saved-templates.png){zoomable="yes"}
 
-1. Selecteer de gewenste sjabloon in de lijst. Als deze optie is geselecteerd, kunt u met de pijl-rechts en de pijl-links tussen alle opgeslagen sjablonen navigeren.
+1. Selecteer de gewenste sjabloon in de lijst. Als deze optie is geselecteerd, navigeert u tussen alle opgeslagen sjablonen met de rechter- en linkerpijltoets.
 
-   ![](assets/lp-select-saved-template.png){zoomable="yes"}
+   ![ Schermafbeelding die navigatie tussen bewaarde malplaatjes toont gebruikend pijlen ](assets/lp-select-saved-template.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Use this template]**.
 

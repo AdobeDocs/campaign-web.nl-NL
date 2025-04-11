@@ -3,9 +3,9 @@ audience: end-user
 title: Abonnementen en programma's
 description: Leer hoe u plannen en programma's maakt en configureert in Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -14,63 +14,63 @@ ht-degree: 0%
 
 Met Adobe Campaign kunt u uw maphiërarchie configureren voor marketingplannen en -programma&#39;s.
 
-Voor een betere organisatie van de programma&#39;s raadt de Adobe de volgende hiërarchie aan: `>` Programma&#39;s plannen `>`
+Voor een betere organisatie van deze componenten raadt Adobe de volgende hiërarchie aan: `>` Programma&#39;s plannen `>` .
 
-* A **plan** kan veelvoudige programma&#39;s bevatten. In het voorstel worden strategische doelstellingen voor een bepaalde periode vastgesteld.
-* A **programma** kan andere programma&#39;s evenals campagnes, werkschema&#39;s en landende pagina&#39;s bevatten.
-* A **campagne** kan leveringen, werkschema&#39;s en landende pagina&#39;s bevatten.
+* A **plan** kan veelvoudige programma&#39;s bevatten. In het voorstel worden strategische doelstellingen voor een specifieke periode vastgesteld.
+* A **programma** kan andere programma&#39;s evenals campagnes, werkschema&#39;s, en landende pagina&#39;s bevatten.
+* A **campagne** kan leveringen, werkschema&#39;s, en landende pagina&#39;s bevatten.
 
 ## Een abonnement maken en configureren {#create-plan}
 
-Om een plan tot stand te brengen, moet u een omslag met het omslagtype **[!UICONTROL Plan]** [ tot stand brengen meer over het creëren van een omslag ](../get-started/work-with-folders.md) leren.
+Als u een abonnement wilt maken, maakt u een map met het maptype **[!UICONTROL Plan]** . [ Leer meer over het creëren van een omslag ](../get-started/work-with-folders.md)
 
-![](assets/plan_create.png){zoomable="yes"}
+![ Schermafbeelding die de verwezenlijking van een planomslag toont ](assets/plan_create.png){zoomable="yes"}
 
 Ga naar de **[!UICONTROL Folder settings]** van uw plan om het te beheren.
 
-![](assets/plan_settings.png){zoomable="yes"}
+![ Schermafbeelding die de omslagmontages voor een plan toont ](assets/plan_settings.png){zoomable="yes"}
 
-U kunt **[!UICONTROL Custom options]** definiëren en de planningsdatum van uw abonnement instellen.
+Definieer **[!UICONTROL Custom options]** en stel de planningsdatum van uw abonnement in.
 
-![](assets/plan_options.png){zoomable="yes"}
+![ Schermschot die de douaneopties voor een plan tonen ](assets/plan_options.png){zoomable="yes"}
 
 U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 
-1. Bladeren naar de **[!UICONTROL Schemas]**
-1. Kies de **[!UICONTROL Editable]** schema&#39;s in de filters
-1. Klik op het pictogram van **[!UICONTROL Edit custom details]**
+1. Blader naar **[!UICONTROL Schemas]** .
+1. Kies de schema&#39;s **[!UICONTROL Editable]** in de filters.
+1. Klik op het pictogram **[!UICONTROL Edit custom details]** .
 
-![](assets/plan_edit.png){zoomable="yes"}
+![ Schermschot die het uitgeven van douanedetails voor een plan tonen ](assets/plan_edit.png){zoomable="yes"}
 
-U kunt ze configureren:
+Configureer de aangepaste opties:
 
-![](assets/plan_customfields.png){zoomable="yes"}
+![ Schermschot die de configuratie van douanegebieden voor een plan tonen ](assets/plan_customfields.png){zoomable="yes"}
 
 ## Een programma maken en configureren
 
-Om een programma in uw plan ([ te creëren Leer meer over het creëren van een plan ](#create-plan)), moet u in uw plan zijn en een omslag met het omslagtype **[!UICONTROL Program]** tot stand brengen [ Leer meer over het creëren van een omslag ](../get-started/work-with-folders.md).
+Om een programma in uw plan ([ te creëren Leer meer over het creëren van een plan ](#create-plan)), navigeer aan uw plan en creeer een omslag met het omslagtype **[!UICONTROL Program]**. [ Leer meer over het creëren van een omslag ](../get-started/work-with-folders.md).
 
-![](assets/program_create.png){zoomable="yes"}
+![ Schermschot die de verwezenlijking van een programmaomslag ](assets/program_create.png){zoomable="yes"} tonen
 
 Ga naar de **[!UICONTROL Folder settings]** van uw programma om het te beheren.
 
-![](assets/program_settings.png){zoomable="yes"}
+![ Schermafbeelding die de omslagmontages voor een programma toont ](assets/program_settings.png){zoomable="yes"}
 
-U kunt **[!UICONTROL Custom options]** definiëren en de planningsdatum van uw programma instellen.
+Definieer **[!UICONTROL Custom options]** en stel de planningsdatum van uw programma in.
 
-![](assets/program_options.png){zoomable="yes"}
+![ Schermafbeelding die de douaneopties voor een programma tonen ](assets/program_options.png){zoomable="yes"}
 
 U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 
-1. Bladeren naar de **[!UICONTROL Schemas]**
-1. Kies de **[!UICONTROL Editable]** schema&#39;s in de filters
-1. Klik op het pictogram van **[!UICONTROL Edit custom details]**
+1. Blader naar **[!UICONTROL Schemas]** .
+1. Kies de schema&#39;s **[!UICONTROL Editable]** in de filters.
+1. Klik op het pictogram **[!UICONTROL Edit custom details]** .
 
-![](assets/program_edit.png){zoomable="yes"}
+![ Schermschot die het uitgeven van douanedetails voor een programma tonen ](assets/program_edit.png){zoomable="yes"}
 
-U kunt ze configureren:
+Configureer de aangepaste opties:
 
-![](assets/program_customfields.png){zoomable="yes"}
+![ Schermschot die de configuratie van douanegebieden voor een programma tonen ](assets/program_customfields.png){zoomable="yes"}
 
 ## Een campagne koppelen aan een programma
 
@@ -78,28 +78,28 @@ U kunt een campagne op twee manieren koppelen aan een programma:
 
 ### Way #1: U hebt al een programma en wilt een campagne opzetten die eraan gekoppeld is
 
-Als u een nieuwe campagne wilt koppelen aan uw programma, maakt u de campagne rechtstreeks in het programma:
+Als u een nieuwe campagne wilt koppelen aan uw programma, maakt u de campagne rechtstreeks in het programma.
 
-![](assets/program_campaign_create.png){zoomable="yes"}
+![ Schermschot die de verwezenlijking van een campagne binnen een programma tonen ](assets/program_campaign_create.png){zoomable="yes"}
 
-De **[!UICONTROL Folder]** -instellingen worden automatisch ingevuld met het pad naar uw programma.
+De instellingen van **[!UICONTROL Folder]** worden automatisch gevuld met het pad naar uw programma.
 
-![](assets/program_campaign_folder.png){zoomable="yes"}
+![ Schermafbeelding die de omslagmontages voor een campagne toont verbonden aan een programma ](assets/program_campaign_folder.png){zoomable="yes"}
 
 ### Way #2: U hebt al een bestaande campagne en wilt deze koppelen aan een bestaand programma
 
-Ga naar de knop **[!UICONTROL Settings]** van de campagne die u aan uw programma wilt koppelen:
+Ga naar de knop **[!UICONTROL Settings]** van de campagne die u aan uw programma wilt koppelen.
 
-![](assets/campaign_settings.png){zoomable="yes"}
+![ Schermafbeelding die de montagesknoop voor een campagne toont ](assets/campaign_settings.png){zoomable="yes"}
 
-Klik in de **[!UICONTROL Properties]** ervan op het pictogram **[!UICONTROL Folder]** in de **[!UICONTROL Folder]** -instellingen om de **[!UICONTROL Program]** -map te kiezen.
+Klik in de **[!UICONTROL Properties]** -map op het pictogram **[!UICONTROL Folder]** in de **[!UICONTROL Folder]** -instellingen om de **[!UICONTROL Program]** -map te kiezen.
 
-![](assets/campaign_folder.png){zoomable="yes"}
+![ Schermschot die de omslagselectie voor het verbinden van een campagne aan een programma tonen ](assets/campaign_folder.png){zoomable="yes"}
 
-Selecteer de map **[!UICONTROL Program]** en klik op de knop **[!UICONTROL Confirm]** en vervolgens op de knop **[!UICONTROL Save and Close]** .
+Selecteer de map **[!UICONTROL Program]** , klik op de knop **[!UICONTROL Confirm]** en klik vervolgens op de knop **[!UICONTROL Save and Close]** .
 
-![](assets/campaign_linked.png){zoomable="yes"}
+![ Schermafbeelding die een campagne tonen verbonden aan een programma ](assets/campaign_linked.png){zoomable="yes"}
 
-Uw campagne wordt nu vermeld in uw programma:
+Uw campagne wordt nu vermeld in uw programma.
 
-![](assets/campaign_in_program.png){zoomable="yes"}
+![ Schermafbeelding die een campagne tonen die binnen een programma ](assets/campaign_in_program.png){zoomable="yes"} wordt vermeld

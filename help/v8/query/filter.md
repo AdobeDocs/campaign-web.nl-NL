@@ -3,26 +3,26 @@ audience: end-user
 title: Filterlijsten
 description: Leer hoe u Adobe Campaign Web-lijsten filtert met ingebouwde en aangepaste filters.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
 
 # Filterlijsten {#filter-lists}
 
-Adobe Campaign Web verstrekt filters binnen elke lijst van voorwerpen, toelatend u om informatie te filtreren die op specifieke contextuele criteria wordt gebaseerd. U kunt leveringen bijvoorbeeld filteren op de status, het kanaal, de contactdatum of de map. U kunt ook proefdrukken verbergen.
+Adobe Campaign Web verstrekt filters binnen elke lijst van voorwerpen, toelatend u om informatie te filtreren die op specifieke contextuele criteria wordt gebaseerd. U kunt leveringen bijvoorbeeld filteren op basis van hun status, kanaal, contactdatum of map. U kunt ook proefdrukken verbergen.
 
-## Filters toepassen{#apply}
+## Filters toepassen {#apply}
 
 Als u filters wilt toepassen op een lijst, klikt u op de knop **[!UICONTROL Show filters]** in de linkerbovenhoek van de lijst, naast de zoekbalk.
 
-Het venster Filters wordt geopend en hierin worden de beschikbare filters voor de geselecteerde lijst weergegeven. U kunt bijvoorbeeld campagnes filteren op hun status, begin- en einddatum of opslagmap, terwijl de lijst met abonnementenservices kan worden gefilterd op hun kanaal en opslagmap.
+Het venster Filters wordt geopend en hierin worden de beschikbare filters voor de geselecteerde lijst weergegeven. U kunt bijvoorbeeld campagnes filteren op basis van hun status, begin- en einddatum of opslagmap, terwijl de lijst met abonnementsservices kan worden gefilterd op basis van hun kanaal- en opslagmap.
 
-![](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![ ruit van Filters die beschikbare filters voor lijsten tonen ](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-Als u een lijst wilt filteren op basis van uw eigen criteria, maakt u een aangepast filter. Om dit te doen, doorblader aan de bodem van de filterruit en klik **voeg regels** knoop toe. [ Leer hoe te om douanefilters ](#custom) tot stand te brengen
+Als u een lijst wilt filteren op basis van uw eigen criteria, maakt u een aangepast filter. Om dit te doen, doorblader aan de bodem van de filterruit en klik **voeg regels** knoop toe. [ Leer hoe te om douanefilters ](#custom) tot stand te brengen.
 
 Wanneer filters op een lijst zijn toegepast, zijn ze zichtbaar onder de zoekbalk. U kunt een individuele filter op elk ogenblik verwijderen, of alle filters verwijderen door **te klikken ontruimen allen** knoop.
 
@@ -30,12 +30,12 @@ Wanneer filters op een lijst zijn toegepast, zijn ze zichtbaar onder de zoekbalk
 
 Met aangepaste filters kunt u lijsten verfijnen op basis van uw eigen specifieke criteria. Zij worden ontworpen gebruikend de de vraagmodeler van de Campagne. Ga als volgt te werk om een aangepast filter te maken:
 
-1. Open de filterruit en klik **voeg regels** knoop toe die bij de bodem van de ruit wordt gevestigd.
+1. Open de filterruit, en klik **voeg regels** knoop toe die bij de bodem van de ruit wordt gevestigd.
 
 1. De vraagmodeler opent. Definieer en combineer uw filtercriteria aan uw wensen. De gedetailleerde informatie over hoe te om de vraagmodelleur te gebruiken is beschikbaar in [ deze sectie ](../query/query-modeler-overview.md).
 
-   In het onderstaande voorbeeld ziet u een aangepast filter dat is ontworpen om te worden weergegeven in de lijst met campagnes die worden uitgevoerd door exploitanten van de afdelingen Running of Yoga.
+   In het onderstaande voorbeeld ziet u een aangepast filter dat is ontworpen om te worden weergegeven in de lijst met campagnes die worden uitgevoerd door operatoren van de afdelingen Running of Yoga.
 
-   ![](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+   ![ het filtervoorbeeld van de Douane die campagnes van SMS tonen door afdeling ](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"} worden gefilterd
 
 1. Wanneer uw aangepaste filter is geconfigureerd, klikt u op **[!UICONTROL Confirm]** om het toe te passen op de lijst.

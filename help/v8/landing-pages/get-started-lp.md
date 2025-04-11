@@ -4,10 +4,10 @@ title: Aan de slag met bestemmingspagina's
 description: Meer informatie over het landen van pagina's in het campagneweb
 feature: Landing Pages
 exl-id: edd313a3-93f4-4596-8dd6-dfc2bc3db21b
-source-git-commit: 362f657c689ce13c6c1fadc381d43e15c32d4d05
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 4%
+source-wordcount: '254'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen w
 >
 >Landing de pagina&#39;s die u in het de gebruikersinterface van het Web van de Campagne creeert zijn verschillend van de Webvormen die van de cliëntconsole worden gecreeerd. U kunt webformulieren die in de clientconsole zijn gemaakt, niet weergeven of bewerken in de gebruikersinterface van Campagne Web.
 >
->Leer meer op Webvormen in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html) {target="_blank"}.
+>Leer meer over Webvormen in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html) {target="_blank"}.
 
 De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder vermeld:
 
@@ -37,7 +37,7 @@ De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder ver
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-lp.md">
-<img alt="Lood" src="../assets/do-not-localize/lp-subscription.jpeg">
+<img alt="bestemmingspagina&apos;s maken met vooraf ingevulde sjablonen" src="../assets/do-not-localize/lp-subscription.jpeg">
 </a>
 <div><a href="create-lp.md"><strong> creeer het landen pagina's </strong>
 </div>
@@ -45,7 +45,7 @@ De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder ver
 </td>
 <td>
 <a href="../audience/manage-services.md">
-<img alt="Onfrequent" src="../assets/do-not-localize/lp-list.jpg">
+<img alt="Abonnementsservices voor gebruikers instellen" src="../assets/do-not-localize/lp-list.jpg">
 </a>
 <div>
 <a href="../audience/manage-services.md"><strong> creeer de abonnementsdiensten </strong></a>
@@ -53,7 +53,7 @@ De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder ver
 <p></td>
 <td>
 <a href="lp-content.md">
-<img alt="Validatie" src="../assets/do-not-localize/lp-design.jpg">
+<img alt="Responsieve bestemmingspagina&apos;s ontwerpen" src="../assets/do-not-localize/lp-design.jpg">
 </a>
 <div>
 <a href="lp-content.md"><strong> Ontwerpen die pagina's </strong></a> landen
@@ -62,7 +62,7 @@ De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder ver
 </td>
 <td>
 <a href="lp-templates.md">
-<img alt="Validatie" src="../assets/do-not-localize/lp-reporting.jpg">
+<img alt="Werken met inhoudssjablonen voor het landen van pagina&apos;s" src="../assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
 <a href="lp-templates.md"><strong> Werk met inhoudsmalplaatjes </strong></a>

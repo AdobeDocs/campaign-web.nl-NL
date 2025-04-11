@@ -3,26 +3,26 @@ audience: end-user
 title: Een overvulgroep gebruiken
 description: Leer hoe te om een valgroep voor uw levering in het gebruikersinterface van het Web van de Campagne te gebruiken
 exl-id: 48c34581-8825-4798-b24e-c462303f7645
-source-git-commit: 9d022ad4ce9d001d6f5154d2778a538aae560d52
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
 
 # Een overvulgroep gebruiken {#trap-group}
 
-Een **[!UICONTROL trap group]** (ook wel **[!UICONTROL Seed list]** genoemd) wordt gebruikt om specifieke adressen in uw leveringen op te nemen om het distributieproces te controleren en te verifiëren door zich te richten op profielen die niet aan de gedefinieerde doelcriteria voldoen. Op deze manier kunnen ontvangers die buiten het bereik van de levering vallen, de levering ontvangen, net als elke andere doelontvanger.
+Een **[!UICONTROL trap group]** (ook wel **[!UICONTROL Seed list]** genoemd) wordt gebruikt om specifieke adressen in uw leveringen op te nemen om het distributieproces te controleren en te verifiëren door zich te richten op profielen die niet aan de gedefinieerde doelcriteria voldoen. Op deze manier kunnen ontvangers die zich buiten het leveringsbereik bevinden, de levering ontvangen, net als elke andere doelontvanger.
 
-Een **[!UICONTROL trap group]** is een groep **[!UICONTROL seed addresses]** met de naam **[!UICONTROL Test profile]** in de gebruikersinterface van het web van Campagne.
+Een **[!UICONTROL trap group]** is een groep **[!UICONTROL seed addresses]** met de naam **[!UICONTROL Test profile]** in de gebruikersinterface van het web van campagne.
 
 ## Waarom een overvulgroep gebruiken {#why-trap-group}
 
-U kunt **[!UICONTROL trap group]** gebruiken:
+U kunt een **[!UICONTROL trap group]** gebruiken:
 
-1. **als proef**: elk lid van **[!UICONTROL Trap group]** zal de levering ontvangen alsof zij deel van het publiek uitmaakten.
+1. **als proef**: Elk lid van **[!UICONTROL trap group]** ontvangt de levering alsof zij deel van het publiek uitmaakten.
 
-1. **om uw postingslijst** te beschermen: door te ontvangen wat het publiek zal ontvangen, zal elk **[!UICONTROL test profile]** van **[!UICONTROL Trap group]** worden opgemerkt als de postingslijst door een derde wordt gebruikt.
+1. **om uw postingslijst** te beschermen: Door te ontvangen wat het publiek zal ontvangen, zal elk **[!UICONTROL Test profile]** van **[!UICONTROL Trap group]** worden opgemerkt als de postingslijst door een derde wordt gebruikt.
 
 >[!NOTE]
 >
@@ -30,51 +30,51 @@ U kunt **[!UICONTROL trap group]** gebruiken:
 
 ## Overvulgroepen {#about-trap-group}
 
-De profielen van de test worden automatisch uitgesloten van rapporten over de volgende leveringsstatistieken: **klikt**, **opent**, **Abonnementen**. De verslagen gaan alleen over het echte publiek.
+De profielen van de test worden automatisch uitgesloten van rapporten over de volgende leveringsstatistieken: **klikt**, **opent**, **Abonnementen**. De verslagen zijn alleen gericht op het echte publiek.
 
-Voor een e-maillevering is alleen een e-mailadres nodig voor de **[!UICONTROL Trap group]** . Andere velden worden willekeurig door Campagne aangepast.
+Voor een e-maillevering is alleen het e-mailadres vereist voor de **[!UICONTROL Trap group]** . De personalisatie van andere gebieden wordt gevuld willekeurig door Campagne.
 
 ## Een overvulgroep toevoegen in een levering {#trap-group-in-delivery}
 
 Als u een **[!UICONTROL Trap group]** wilt instellen, gaat u naar de **[!UICONTROL Audience]** -instellingen van de levering. U hebt twee opties:
 
-* [Testprofielen selecteren](#select-test-profile)
+* [Testprofielen selecteren](#select-test-profiles)
 * [Voorwaarde maken](#create-condition)
 
-![](assets/trap-group.png){zoomable="yes"}
+[ het schermschot van de de de groepsmontages van de Vulling ](assets/trap-group.png){zoomable="yes"}
 
 ### Testprofielen selecteren {#select-test-profiles}
 
-Wanneer u **Uitgezochte testprofielen** kiest, kunt u **gebruiken voeg testprofiel(s)** knoop zoals hieronder getoond toe:
+Wanneer u **Uitgezochte testprofielen** kiest, gebruik **testprofiel(en)** knoop zoals hieronder getoond:
 
-![](assets/trap-no-test-profile.png){zoomable="yes"}
+[ voeg het screenshot van de de knoopknoop van het testprofiel toe ](assets/trap-no-test-profile.png){zoomable="yes"}
 
-Wanneer u op de knop klikt, hebt u toegang tot de testprofielen die u aan **[!UICONTROL trap group]** kunt toevoegen. Selecteer de methoden die u wilt gebruiken.
+Wanneer u op de knop klikt, kunt u de testprofielen openen om deze aan uw **[!UICONTROL trap group]** toe te voegen. Selecteer de methoden die u wilt gebruiken.
 
 U kunt ook nieuwe testprofielen maken. [Meer informatie](#create-seed)
 
-![](assets/trap-select-test-profiles.png){zoomable="yes"}
+[ Uitgezochte het schermschot van de het interfaceprofielen van de testprofielen ](assets/trap-select-test-profiles.png){zoomable="yes"}
 
-Wanneer u uw testprofielen bevestigt, controleer dat u het correcte aantal onder **[!UICONTROL Trap group]** hebt.
+Nadat u de testprofielen hebt bevestigd, controleert u of het juiste nummer onder **[!UICONTROL Trap group]** staat.
 
-![](assets/trap-check.png){zoomable="yes"}
+[ het schermschot van de de groepsbevestiging van de Vulling ](assets/trap-check.png){zoomable="yes"}
 
 ### Voorwaarde maken {#create-condition}
 
-Met de optie **[!UICONTROL Create condition]** kunt u een query maken om de testprofielen te definiëren die u wilt gebruiken:
+Maak met de optie **[!UICONTROL Create condition]** een query om de testprofielen te definiëren die u wilt gebruiken:
 
-![](assets/trap-create-condition.png){zoomable="yes"}
+[ creeer het schermschot van de voorwaardeninterface ](assets/trap-create-condition.png){zoomable="yes"}
 
 Uw query wordt weergegeven onder **[!UICONTROL Trap group]** .
 
-![](assets/trap-custom.png){zoomable="yes"}
+[ het schermschot van de de vraagvertoning van de groep van de Vulling ](assets/trap-custom.png){zoomable="yes"}
 
 ## Een nieuw testprofiel maken {#create-seed}
 
-U kunt een nieuwe **[!UICONTROL test profile]** maken in de map **[!UICONTROL Explorer]** > **[!UICONTROL Ressources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed members]** .
+U kunt een nieuwe **[!UICONTROL test profile]** maken in de map **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed members]** .
 
-![](assets/trap-create.png){zoomable="yes"}
+[ creeer het schermafbeelding van de het netwerknavigatie van het testprofiel ](assets/trap-create.png){zoomable="yes"}
 
-Configureer alle instellingen voor uw **[!UICONTROL test profile]** net als voor elk profiel:
+Configureer alle instellingen voor uw **[!UICONTROL test profile]** op dezelfde manier als voor elk profiel:
 
-![](assets/trap-create-contact.png){zoomable="yes"}
+[ het schermschot van de profielconfiguratie van de Test ](assets/trap-create-contact.png){zoomable="yes"}

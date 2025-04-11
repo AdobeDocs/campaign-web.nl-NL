@@ -3,55 +3,54 @@ audience: end-user
 title: Overgang van Campaign Standard naar Adobe Campaign Web
 description: Campagne-webgebruikersinterface ontdekken
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: a1c16a9ba5e5ca844eaf82ed3b587f4f7a0b0873
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 0%
+source-wordcount: '587'
+ht-degree: 4%
 
 ---
 
-# Overgang van Campaign Standard naar Campagne v8 {#acs-to-ac}
+# Campaign Standard-overgang naar Campagne v8 {#acs-to-ac}
 
-We zijn blij te kunnen aankondigen dat Adobe Campaign Standard-gebruikers nu in aanmerking komen voor de overgang naar Adobe Campaign Managed Cloud Services v8. Deze overgang biedt veel voordelen:
+Adobe Campaign Standard-gebruikers komen nu in aanmerking voor de overgang naar Adobe Campaign Managed Cloud Services v8. Deze overgang biedt verschillende voordelen:
 
-* Robuuste IT-infrastructuur: met Managed Cloud Servicen v8 kunnen clients gebruikmaken van een robuustere IT-infrastructuur, waardoor hun prestaties, betrouwbaarheid en schaalbaarheid voor hun campagnes worden verbeterd.
-* Verbeterde ondersteuning: ons team van beheerde Cloud Servicen is vastbesloten hulp van topniveau te bieden om een soepele overgang en doorlopende bewaking van uw platform te garanderen. Van het oplossen van problemen tot pro-actief onderhoud, hebben wij u behandeld.
-* Integratie met Adobe Experience Platform: beheerde Cloud Servicen v8 maken naadloos verbinding met Adobe Experience Platform, waardoor klanten optimaal gebruik kunnen maken van hun gegevensmogelijkheden en persoonlijke, impactvolle campagnes kunnen voeren over verschillende kanalen.
-* Consistente gebruikersinterface en ervaring: u bent verzekerd van de rust en de overstap naar beheerde Cloud Servicen v8 zal uw workflow niet verstoren. U zult van het vertrouwde gebruikersinterface en gebruikerservaring blijven genieten, die een minimale het leren kromme voor uw team verzekeren.
+* **robuuste Infrastructuur van IT**: De Beheerde Diensten van de Wolk v8 verstrekt een robuustere infrastructuur van IT, die verbeterde prestaties, betrouwbaarheid, en scalability voor campagnes verzekert.
+* **Verbeterde Steun**: Het Beheerde team van de Diensten van de Wolk biedt top-notch hulp aan om een vlotte overgang en aan de gang zijnde platformcontrole te verzekeren. De steun omvat het oplossen van problemen en pro-actief onderhoud.
+* **Integratie met Adobe Experience Platform**: De Beheerde Diensten van de Wolk v8 verbindt naadloos met Adobe Experience Platform, toelatend gebruikers om hun gegevens volledig te hefboomwerking en gepersonaliseerde, impactful campagnes over kanalen te leveren.
+* **Consistente Gebruikersinterface en Ervaring**: De overgang naar Beheerde Cloud Services v8 onderbreekt geen werkstromen. Gebruikers blijven genieten van de vertrouwde interface en ervaring, waardoor de leercurve voor teams tot een minimum wordt beperkt.
 
-**als Campaign Standard gebruiker die aan Campagne v8 overgaat, leer hoe te [ in dit document ](../../adoption/home.md) te beginnen.**
+**als gebruiker die van Campaign Standard aan Campagne v8 overgaat, leer hoe te [ in dit document ](../../adoption/home.md) te beginnen.**
 
 <!--
 As a Campaign Standard user, we now offer you a way to migrate to Adobe Campaign v8. You will benefit from both the new Campaign Web interface and the v8 console.
+-->
 
+## Belangrijkste mogelijkheden {#key-features}
 
-## Key capabilities {#key-features}
+Gebruikers van Campagne v8 hebben toegang tot zowel de nieuwe webinterface voor campagnes als de v8-console. Gegevens en instellingen synchroniseren tussen omgevingen. Alle gegevens en montages beschikbaar in de cliëntconsole zijn zichtbaar in het de gebruikersinterface van het Web van de Campagne, toegankelijk van de Ontdekkingsreiziger linkernavigatie. [Meer informatie](../get-started/user-interface.md#user-interface-explorer)
 
-As a Campaign v8 user, you have access to both the new Campaign Web interface and the v8 console. Data and settings are synchronized from an environment to another. All your data and settings available in the client console is visible in the Campaign Web user interface, from the Explorer left navigation. [Learn more](../get-started/user-interface.md#user-interface-explorer)
+De gebruikersinterface van het Web van de Campagne wordt ontworpen voor marketers om campagnes gemakkelijk te bouwen en te organiseren. De belangrijkste mogelijkheden van het Web van de Campagne v8 gebruikersinterface omvatten:
 
-Campaign web user interface is designed for marketers to easily build and orchestrate their campaigns. Let's dig deeper in what key capabilities Campaign v8 web user interface will offer you:
+* **Modern, vriendschappelijk, en verenigde ervaring**. [Meer informatie](../get-started/connect-to-campaign.md).
+* **Nieuwe krachtige mogelijkheden en naadloze processen**. [Meer informatie](../get-started/user-interface.md).
+* **Vereenvoudigde en intuïtieve vraagmodeler**. [Meer informatie](../query/query-modeler-overview.md).
+* **Ingebouwde mogelijkheden van het dwars-kanaalcampagnebeheer**. [Meer informatie](../msg/gs-messages.md).
+* **opnieuw ontworpen activiteiten van het campagnewerkschema**. [Meer informatie](../workflows/gs-workflows.md).
+* **Gemakkelijke profielverwezenlijking en beheer**. [Meer informatie](../audience/about-recipients.md).
+* **vooraf bepaalde filters**. [Meer informatie](../get-started/predefined-filters.md).
+* **converter van HTML voor e-mailontwerp**. [Meer informatie](../email/existing-content.md).
+* **SMS met aanbiedingen**. [Meer informatie](../msg/offers.md).
 
-* Modern, friendly, and unified experience. [Learn more](../get-started/connect-to-campaign.md).
-* New powerful capabilities and seamless processes. [Learn more](../get-started/user-interface.md)
-* New simplified and intuitive query modeler. [Learn more](../query/query-modeler-overview.md)
-* Built-in cross-channel campaign management capabilities. [Learn more](../msg/gs-messages.md)
-* New and redesigned campaign workflow activities. [Learn more](../workflows/gs-workflows.md)
-* Easy profile creation and management. [Learn more](../audience/about-recipients.md)
-* Predefined Filters. [Learn more](../get-started/predefined-filters.md)
-* HTML Converter for email design. [Learn more](../email/existing-content.md)
-* SMS with offers. [Learn more](../msg/offers.md)
-
-Campaign client console is designed for administrators and developers to confgure and customize their environment. Key capabilities available in Campaign client console are detailed in [this documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new){target="_blank"}.
+De de cliëntconsole van de Campagne wordt ontworpen voor beheerders en ontwikkelaars om hun milieu te vormen en aan te passen. De zeer belangrijke mogelijkheden beschikbaar in de de cliëntconsole van de Campagne worden gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new) {target="_blank"}.
 
 >[!NOTE]
 >
->Learn more about supported and unsupported capabilities, and interoperability between Campaign Web user interface and Campaign client console [in this page](../get-started/capability-matrix.md)
->
+>Leer meer over gesteunde en niet gestaafde mogelijkheden, en interoperabiliteit tussen het gebruikersinterface van het Web van de Campagne en de de cliëntconsole van de Campagne [ in deze pagina ](../get-started/capability-matrix.md).
 
-## Terminology {#terminology}
+## Terminologie {#terminology}
 
-Most concepts are similar between Campaign v8 and Campaign Standard. However, there are a few differences. Here are some examples of terminology differences between Campaign Standard and the Campaign v8:
--->
+De meeste concepten zijn vergelijkbaar tussen Campagne v8 en Campaign Standard. Er zijn echter enkele terminologische verschillen. Voorbeelden zijn:
+
 <!--
 * Profiles are **Recipients** in the console. [Learn more](../audience/gs-audiences-recipients.md).
 * Test profiles are **Seed addresses**. [Learn more](../preview-test/test-deliveries.md).
@@ -61,29 +60,30 @@ Most concepts are similar between Campaign v8 and Campaign Standard. However, th
 
 <!--
 * Custom resources are **Schemas**
-* Messages are referred as **Deliveries**
+* Messages are referred to as **Deliveries**
 * Roles are configured with **Named Rights**
 * Security Groups are **Operator Groups**
 * Organizational units are managed through **Folder Permissions**
 * Product users are **Operators** in the client console
 * Delivery preparation is the **Delivery analysis** in the client console
+-->
 
-## Specific features {#new-features}
+## Specifieke kenmerken {#new-features}
 
-For you to transition smoothly to Campaign v8, key Campaign Standard capabilities have been added to Campaign v8. They are detailed in [this documentation](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}, and are only available to users transitioning from Campaign Standard.
+Voor een vlotte overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Deze eigenschappen zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) {target="_blank} en zijn beschikbaar slechts aan gebruikers die van Campaign Standard overgaan.
 
-* **Dynamic Reporting**: Dynamic Reporting provides fully customizable and real-time reports to measure the impact of your marketing activities. It adds access to profile data, enabling demographic analysis by profile dimensions such as gender, city and age in addition to functional email campaign data like opens and clicks. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
+* **Dynamische Rapportering**: De dynamische Rapportering verstrekt klantgerichte, rapporten in real time om het effect van marketing activiteiten te meten. Het omvat toegang tot profielgegevens voor demografische analyse door dimensies zoals geslacht, stad, en leeftijd, naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 
-* **Centralized branding**: Every company has brand visual and technical guidelines. With Adobe Campaign, you can define a set of specification to present a consistent brand to your customers, from logos to technical aspects, such as email sender, URL or domains. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+* **Gecentraliseerde Branding**: Adobe Campaign staat bedrijven toe om merk visuele en technische richtlijnen te bepalen. Gebruikers kunnen een consistent merk aan klanten aanbieden, van logo&#39;s tot technische aspecten zoals e-mailzender, URL of domeinen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html).
 
-* **Rest APIs** - As a Campaign Stardard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. [Learn more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+* **REST APIs**: De gemigreerde gebruikers van Campaign Standard kunnen REST APIs gebruiken om integraties voor Adobe Campaign tot stand te brengen en ecosystemen te bouwen door Adobe Campaign met andere technologieën te verbinden. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
 
-* **Landing pages** - Some improvements have been brought to Campaign v8 landing pages to ensure feature parity with Campaign Standard. Learn more in the [release notes](../rn/release-notes.md#new-24-4) and the landing page [documentation](../landing-pages/get-started-lp.md).
+* **Aanlandende Pagina&#39;s**: De campagne v8 landende pagina&#39;s omvat verbeteringen om eigenschappariteit met Campaign Standard te verzekeren. Leer meer in de [ versienota&#39;s ](../rn/release-notes.md#new-24-4) en de het landen pagina [ documentatie ](../landing-pages/get-started-lp.md).
 
-* **Visual fragments** - Visual fragments are reusable visual components that can be referenced in one or more email deliveries or in content templates. When modifying a fragment, every content using it is updated. This functionality allows to prebuild multiple custom content blocks that can be used by marketing users to quickly assemble message contents in an improved design process. [Learn more](../content/use-visual-fragments.md)
+* **Visuele Fragments**: De visuele fragmenten zijn herbruikbare visuele componenten van verwijzingen voorzien in één of meerdere e-mailleveringen of inhoudsmalplaatjes. Als u een fragment wijzigt, wordt alle inhoud bijgewerkt met behulp van dit fragment. Deze functionaliteit staat marketing gebruikers toe om veelvoudige blokken van de douaneinhoud voor snelle berichtassemblage in een verbeterd ontwerpproces prebuild te maken. [Meer informatie](../content/use-visual-fragments.md).
 
- <!--
+<!--
 * Delivery Alerting: In addition to viewing notifications directly in Campaign, Adobe Campaign also provides an email alerting system to trigger email alerts to users or external stakeholders of important system activities. Create, manage, and receive customizable alerts and dashboards to keep track of delivery successes or failures. Adobe Campaign Delivery Alerting boosts efficiency by keeping all involved Adobe Campaign users in a company automatically informed about the delivery execution status, via email and dashboard. 
 
-* Landing Pages: Landing pages are web forms that can be used to capture information on your audiences, offer subscriptions to a service, display data and grow your database. Landing pages can also be used for acquiring or updating existing profiles, and to set up a double opt-in mechanism, allowing you to to protect the platform from wrong or invalid email addresses, or spambots. [Learn more](../landing-pages/get-started-lp.md)
+* Landing Pages: Landing pages are web forms that can be used to capture information on your audiences, offer subscriptions to a service, display data and grow your database. Landing pages can also be used for acquiring or updating existing profiles, and to set up a double opt-in mechanism, allowing you to protect the platform from wrong or invalid email addresses, or spambots. [Learn more](../landing-pages/get-started-lp.md)
 -->

@@ -2,13 +2,12 @@
 title: Aangepaste velden
 description: Leer hoe u aangepaste velden en hun zichtbaarheid in de interface configureert.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 27e44682178267353418de210af51067eee4141b
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
-
 
 # Aangepaste velden configureren {#custom-fields}
 
@@ -46,7 +45,7 @@ ht-degree: 0%
 
 Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan out-of-the-box-schema&#39;s worden toegevoegd. Zij staan u toe om schema&#39;s aan te passen door nieuwe attributen aan de behoeften van uw organisatie te omvatten. Leer hoe te om een schema in de [ Adobe Campaign v8 documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html) uit te breiden {target="_blank"}.
 
-De gebieden van de douane kunnen in diverse schermen zoals profieldetails in de interface van het Web van de Campagne worden getoond. Beheerders kunnen bepalen welke velden zichtbaar zijn en hoe ze worden weergegeven. Deze wijzigingen gelden voor alle campagnegebruikers.
+De gebieden van de douane kunnen in diverse schermen, zoals profieldetails in de interface van het Web van de Campagne worden getoond. Beheerders kunnen bepalen welke velden zichtbaar zijn en hoe ze worden weergegeven. Deze wijzigingen gelden voor alle campagnegebruikers.
 
 >[!NOTE]
 >
@@ -69,30 +68,30 @@ Ga als volgt te werk om aangepaste velden in de interface weer te geven:
 
    Gebruik het filter **[!UICONTROL Editable]** in het venster Filters om schema&#39;s snel te identificeren met aangepaste velden.
 
-   ![](assets/custom-fields-open.png)
+   ![ Schermschot die het menu van Schema&#39;s en het Bewerkbare filter in de navigatieruit tonen ](assets/custom-fields-open.png)
 
-1. Selecteer de schemanaam in de lijst om het te openen. Een gedetailleerde schemameningsvertoningen [ leren meer over schemadetails ](../administration/schemas.md). Klik op de knop **[!UICONTROL Edit custom detail]** om aangepaste velden te openen. In dit voorbeeld willen we velden toevoegen voor het schema **[!UICONTROL Recipients]** .
+1. Selecteer de schemanaam in de lijst om het te openen. Er wordt een gedetailleerde schemaweergave weergegeven. [ leer meer op schemadetails ](../administration/schemas.md). Klik op de knop **[!UICONTROL Edit custom detail]** om aangepaste velden te openen. In dit voorbeeld worden velden toegevoegd voor het schema **[!UICONTROL Recipients]** .
 
-   ![](assets/custom-fields-edit.png)
+   ![ Screenshot die de Edit knoop van het douanedetail in de schemamening toont ](assets/custom-fields-edit.png)
 
-1. De lijst van douanevelden die in de interface voor de schemavertoning worden getoond. Hier is het veld &quot;CRM-id&quot; zichtbaar in het detailscherm van het profiel en is het als verplicht gemarkeerd.
+1. De lijst met aangepaste velden die in de interface voor het schema wordt weergegeven. Hier is het veld &quot;CRM-id&quot; zichtbaar in het detailscherm van het profiel en is het als verplicht gemarkeerd.
 
    | Configuratie van aangepaste velden | Renderen in de interface |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-detail.png){zoomable="yes"} | ![](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+   | ![ Schermafbeelding die de configuratie van douanegebieden toont ](assets/custom-fields-detail.png){zoomable="yes"} | ![ Screenshot die het gebied van CRM Identiteitskaart tonen die in de interface teruggeeft ](assets/custom-fields-detail-crm.png){zoomable="yes"} |
 
 1. Als u een aangepast veld aan de interface wilt toevoegen, klikt u op de knop voor ovaal en kiest u een van de volgende opties:
 
    * **[!UICONTROL Select custom fields]**: selecteer een of meerdere aangepaste velden die u wilt weergeven in de interface.
    * **[!UICONTROL Fill automatically the list of custom fields]**: voeg alle aangepaste velden die voor het schema zijn gedefinieerd, toe aan de interface.
 
-   ![](assets/custom-fields-add.png)
+   ![ Schermafbeelding die de opties toont om douanegebieden toe te voegen ](assets/custom-fields-add.png)
 
 1. Nadat aangepaste velden zijn toegevoegd, kunt u:
 
    * **herordent gebieden**: Gebruik omhoog en onderaan pijlen.
    * **maak gebieden verplicht**: Selecteer **Verplicht** checkbox.
-   * **geeft gebiedsmontages** uit: Klik de elliptische knoop en kies **[!UICONTROL Edit]**. [Meer informatie](#settings)
+   * **geeft gebiedsmontages** uit: Klik de ellipsieknoop en kies **[!UICONTROL Edit]**. [Meer informatie](#settings)
    * **de gebieden van de Schrapping**: Klik de ellipsknoop en kies **[!UICONTROL Delete]**.
    * **organiseer gebieden in sub-secties in de interface**: Klik de elliptische knoop naast omhoog en onderaan pijlen en kies **[!UICONTROL Add separator]**. [Meer informatie](#separator)
 
@@ -100,7 +99,7 @@ Ga als volgt te werk om aangepaste velden in de interface weer te geven:
 
 Als u specifieke instellingen voor elk aangepast veld wilt configureren, klikt u op de knop voor de ovaal naast het gewenste veld en selecteert u **[!UICONTROL Edit]** .
 
-![](assets/custom-fields-settings.png)
+![ Schermafbeelding die het montagesmenu voor douanegebieden toont ](assets/custom-fields-settings.png)
 
 Beschikbare instellingen zijn:
 
@@ -117,7 +116,7 @@ Beschikbare instellingen zijn:
 
   +++Voorbeeld
 
-  ![](assets/custom-fields-ref.png)
+  ![ Schermafbeelding die een voorbeeld van filtermontages voor douanegebieden toont ](assets/custom-fields-ref.png)
 
 +++
 
@@ -125,7 +124,7 @@ Beschikbare instellingen zijn:
 
 ## Aangepaste velden in subsecties ordenen {#separator}
 
-De gebruikersinterface van het Web van de campagne staat u toe om separators toe te voegen om douanevelden in de interface voor betere leesbaarheid te groeperen. Voer hiertoe de volgende stappen uit:
+In de gebruikersinterface van het Web Campagne kunt u scheidingstekens toevoegen om aangepaste velden in de interface te groeperen voor betere leesbaarheid. Voer hiertoe de volgende stappen uit:
 
 1. Klik op de knop met de ellips naast de pijlen omhoog en omlaag en selecteer **[!UICONTROL Add separator]** .
 
@@ -137,4 +136,4 @@ De gebruikersinterface van het Web van de campagne staat u toe om separators toe
 
    | Configuratie van aangepaste velden | Renderen in de interface |
    |  ---  |  ---  |
-   | ![](assets/custom-fields-separator.png){zoomable="yes"} | ![](assets/custom-fields-section.png){zoomable="yes"} |
+   | ![ Schermschot die de configuratie van een separator ](assets/custom-fields-separator.png){zoomable="yes"} tonen | ![ Schermschot die het teruggeven van een onderafdeling in de interface tonen ](assets/custom-fields-section.png){zoomable="yes"} |

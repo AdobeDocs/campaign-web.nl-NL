@@ -3,17 +3,17 @@ audience: end-user
 title: De e-mailinhoud bewerken
 description: Leer hoe u inhoud gaat maken met de gebruikersinterface E-mail Designer in Campagne Web
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: 2feea0c5a1b021786e58bf6a69a2018ec37ea4b1
+source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 7%
+source-wordcount: '384'
+ht-degree: 3%
 
 ---
 
+
 # Aan de slag met Email Designer {#get-started-email-designer}
 
-
-Nadat u in Adobe Campaign een e-mailbericht hebt gemaakt, moet u de content definiëren.
+Nadat u een e-mailbericht hebt gemaakt in Adobe Campaign, moet u de inhoud ervan definiëren.
 
 Met de e-mailtoepassing Designer kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve drag-and-drop interface. Of u nu op een lege site begint, bestaande inhoud importeert of bestaande sjablonen gebruikt, u ontwerpt en verfijnen alle inhoud voor elke e-mail, of het nu gaat om speciale acties of transacties.
 
@@ -23,15 +23,15 @@ The Email Designer allows you to create email content and email content template
 
 * Met [!DNL Campaign] e-mailontwerpmogelijkheden kunt u gemakkelijk responsieve e-mails maken. [Meer informatie](create-email-content.md)
 
-* Verbeter de ervaring van klanten door personaliseerd te creëren op basis van hun profielkenmerken. [Meer informatie](../personalization/personalize.md)
+* Verbeter de ervaring van klanten door persoonlijke e-mails te maken op basis van hun profielkenmerken. [Meer informatie](../personalization/personalize.md)
 
 * Configureer voorwaardelijke inhoudsvelden om een dynamische personalisatie te maken op basis van het profiel van de ontvanger. [Meer informatie](../personalization/conditions.md)
 
 ## Aanbevolen werkwijzen voor e-mailontwerp {#best-practices}
 
-Bij het verzenden van e-mails is het belangrijk om te bedenken dat ontvangers de berichten kunnen doorsturen, wat soms problemen kan veroorzaken met de weergave van de e-mail. Dit geldt met name wanneer u CSS-klassen gebruikt die mogelijk niet worden ondersteund door de e-mailprovider die wordt gebruikt voor het doorsturen, bijvoorbeeld wanneer u de CSS-klasse &#39;is-desktop-hidden&#39; gebruikt om een afbeelding op mobiele apparaten te verbergen.
+Houd er bij het verzenden van e-mails rekening mee dat ontvangers de e-mailberichten kunnen doorsturen, wat soms problemen kan veroorzaken met de weergave van de e-mail. Dit geldt met name wanneer u CSS-klassen gebruikt die mogelijk niet worden ondersteund door de e-mailprovider die wordt gebruikt voor doorsturen. Als u bijvoorbeeld de CSS-klasse &#39;is-desktop-hidden&#39; gebruikt om een afbeelding op mobiele apparaten te verbergen, wordt deze mogelijk niet correct weergegeven.
 
-Om deze weergaveproblemen tot een minimum te beperken, raden we u aan de structuur van uw e-mailontwerp zo eenvoudig mogelijk te houden. Probeer één ontwerp te gebruiken dat goed werkt voor zowel mobiele als desktopapparaten en gebruik geen complexe CSS-klassen of andere ontwerpelementen die mogelijk niet volledig door alle e-mailclients worden ondersteund. Door deze beste praktijken te volgen, kunt u helpen ervoor zorgen dat uw e-mails constant correct worden teruggegeven, ongeacht hoe zij door ontvangers worden bekeken of door:sturen.
+Om deze renderingproblemen tot een minimum te beperken, moet u de structuur van het e-mailontwerp zo eenvoudig mogelijk houden. Gebruik één ontwerp dat goed werkt voor zowel desktops als mobiele apparaten en vermijd het gebruik van complexe CSS-klassen of andere ontwerpelementen die mogelijk niet volledig door alle e-mailclients worden ondersteund. Door deze beste praktijken te volgen, helpt u ervoor te zorgen dat uw e-mails, ongeacht hoe zij door ontvangers worden bekeken of door:sturen consequent teruggeven.
 
 ## Beginnen met het ontwerpen van uw inhoud {#start-authoring}
 
@@ -41,8 +41,8 @@ Van het dashboard van de e-maillevering, ga door [ inhoud ](edit-content.md) sch
 
 * **Code of deeg ruwe HTML** direct in de e-mailontwerper. Leer hoe te om uw eigen inhoud in [ te coderen deze sectie ](code-content.md).
 
-* **de Inhoud van de Invoer bestaande HTML** van een dossier of een .zip omslag. Leer hoe te om een e-mailinhoud in [ in deze sectie ](existing-content.md) in te voeren.
+* **voer bestaande inhoud van HTML** van een dossier of een .zip omslag in. Leer hoe te om e-mailinhoud in [ deze sectie ](existing-content.md) in te voeren.
 
-* **selecteer een bestaande inhoud** van een lijst van ingebouwde of douanesjablonen. Leer hoe te met e-mailmalplaatjes [ deze sectie ](create-email-templates.md) te werken.
+* **selecteer een bestaande inhoud** van een lijst van ingebouwde of douanesjablonen. Leer hoe te met e-mailmalplaatjes in [ deze sectie ](create-email-templates.md) te werken.
 
-  ![](assets/email_designer_create_options.png){zoomable="yes"}
+  ![ Opties beschikbaar in de interface E-mail van Designer voor het creëren van e-mailinhoud ](assets/email_designer_create_options.png){zoomable="yes"}

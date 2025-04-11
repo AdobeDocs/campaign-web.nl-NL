@@ -3,16 +3,17 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: 664876e479b0580f99b77be5fbf31a18b3bfcecb
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2090'
-ht-degree: 52%
+source-wordcount: '2098'
+ht-degree: 28%
 
 ---
 
+
 # Expressies bewerken {#expression}
 
-Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel te vormen. In deze modus kunt u geavanceerde functies gebruiken waarmee u de waarden kunt bewerken die worden gebruikt voor het uitvoeren van specifieke query&#39;s, zoals datums, tekenreeksen, numerieke velden, sorteren, enzovoort.
+Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel te vormen. In deze modus kunt u geavanceerde functies gebruiken, waarmee u de waarden kunt manipuleren die worden gebruikt voor het uitvoeren van specifieke query&#39;s, zoals het manipuleren van datums, tekenreeksen, numerieke velden en sorteren.
 
 >[!IMPORTANT]
 >
@@ -23,24 +24,24 @@ Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel 
 De expressie-editor is beschikbaar via de knop querymodel **[!UICONTROL Edit expression]** , beschikbaar voor de velden **[!UICONTROL Attribute]** en **[!UICONTROL Value]** wanneer u een aangepaste voorwaarde configureert.
 
 | Toegang van het **gebied van Attributen** | Toegang van het **gebied van de Waarde** |
-|  ---  |  ---  |
-| ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| --- | --- |
+| ![ de redacteur van de Uitdrukking voor het gebied van Attributen ](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![ de redacteur van de Uitdrukking voor het gebied van de Waarde ](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 De uitdrukkingsredacteur verstrekt:
 
-* Een **inputgebied (1)** waarin de uitdrukking wordt bepaald.
-* De lijst van beschikbare **gebieden (2)** die in de uitdrukking en het beantwoorden aan de het richten dimensie van de vraag kunnen worden gebruikt.
+* Een **inputgebied (1)** waar de uitdrukking wordt bepaald.
+* Een lijst van beschikbare **gebieden (2)** die in de uitdrukking kunnen worden gebruikt en aan de het richten dimensie van de vraag beantwoorden.
 * **de functies van de Helper (3)**, die door categorie wordt gesorteerd.
 
 Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren. Als u een veld of hulpfunctie wilt toevoegen, plaatst u de cursor in de expressie waar u deze wilt toevoegen en klikt u op +.
 
-![](assets/expression-editor.png){zoomable="yes"}
+![ de redacteurinterface van de Uitdrukking ](assets/expression-editor.png){zoomable="yes"}
 
 Klik op de knop **[!UICONTROL Confirm]** als uw expressie gereed is. De expressie wordt weergegeven in het geselecteerde veld. Als u deze wilt bewerken, opent u de editor voor de expressie en brengt u de gewenste wijzigingen aan.
 
-In het onderstaande voorbeeld ziet u een expressie die is geconfigureerd voor het veld **[!UICONTROL Value]** . Als u de expressie wilt bewerken, moet u de expressie-editor openen met de knop **[!UICONTROL Edit expression]** .
+In het onderstaande voorbeeld ziet u een expressie die is geconfigureerd voor het veld **[!UICONTROL Value]** . Als u deze wilt bewerken, opent u de expressieeditor met de knop **[!UICONTROL Edit expression]** .
 
-![](assets/edit-expression-value.png){zoomable="yes"}
+![ Voorbeeld van het uitgeven van uitdrukking voor het gebied van de Waarde ](assets/edit-expression-value.png){zoomable="yes"}
 
 ## Helpfuncties
 
@@ -48,330 +49,326 @@ Met het gereedschap voor het bewerken van query&#39;s kunt u geavanceerde functi
 
 ### Geaggregeerd
 
-De aggregatiefuncties worden gebruikt voor het uitvoeren van berekeningen op een reeks waarden.
+Samengevoegde functies voeren berekeningen uit op een reeks waarden.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Naam</strong><br /> </td> 
-   <td> <strong>Beschrijving</strong><br /> </td> 
-   <td> <strong>Syntaxis</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong> Avg </strong><br /> </td> 
-   <td> Keert het gemiddelde van een kolom van het aantaltype terug <br /> </td> 
-   <td> Avg(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong> Telling </strong><br /> </td> 
-   <td> Telt de niet-nulwaarden van een kolom <br /> </td> 
-   <td> Count(&lt;value&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong> CountAll </strong><br /> </td> 
-   <td> Telt de teruggekeerde waarden (alle gebieden) <br /> </td> 
-   <td> CountAll()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong> Countdifferent </strong><br /> </td> 
-   <td> Telt de duidelijke niet-krachteloze waarden van een kolom <br /> </td> 
-   <td> Countdifferent(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong> Max </strong><br /> </td> 
-   <td> Keert de maximumwaarde van een aantal, een koord, of een kolom van het datumtype terug <br /> </td> 
-   <td> Max(&lt;value&gt;)<br /></td>  
-  </tr> 
-  <tr> 
-   <td> <strong> Min </strong><br /> </td> 
-   <td> Keert de minimumwaarde van een aantal, een koord of een kolom van het datumtype terug <br /> </td> 
-   <td> Min(&lt;value&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong> StdDev </strong><br /> </td> 
-   <td> Retourneert de standaardafwijking van een getal, tekenreeks of datumkolom <br /> </td> 
-   <td> StdDev(&lt;value&gt;)<br /></td> 
-  </tr>
-  <tr> 
-   <td> <strong> StringAgg </strong><br /> </td> 
-   <td> Keert de aaneenschakeling van de waarden van een koordtype kolom terug, die door het karakter in het tweede argument wordt gescheiden <br /> </td> 
-   <td> StringAgg(&lt;Value&gt;, &lt;String&gt;)<br /></td> 
-  </tr> 
-  <tr> 
-   <td> <strong> Som </strong><br /> </td> 
-   <td> Keert de som waarden van een aantal, een koord, of een kolom van het datumtype terug <br /> </td> 
-   <td> Sum(&lt;value&gt;)<br /></td> 
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>Naam</strong></td>
+<td><strong>Beschrijving</strong></td>
+<td><strong>Syntaxis</strong></td>
+</tr>
+<tr>
+<td><strong>Avg</strong></td>
+<td>Hiermee wordt het gemiddelde van een kolom met het getaltype geretourneerd</td>
+<td>Avg(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>Aantal</strong></td>
+<td>Telt de niet-null waarden van een kolom</td>
+<td>Count(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>CountAll</strong></td>
+<td>Telt de geretourneerde waarden (alle velden)</td>
+<td>CountAll()</td>
+</tr>
+<tr>
+<td><strong>Aftelbaar</strong></td>
+<td>Telt de verschillende niet-null-waarden van een kolom</td>
+<td>Countdifferent(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>Max</strong></td>
+<td>Retourneert de maximumwaarde van een getal, tekenreeks of datumtekstkolom</td>
+<td>Max(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>Min</strong></td>
+<td>Hiermee wordt de minimale waarde van een getal, tekenreeks of kolom met het gegevenstype geretourneerd</td>
+<td>Min(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>StdDev</strong></td>
+<td>Retourneert de standaardafwijking van een getal, tekenreeks of datumkolom</td>
+<td>StdDev(&lt;value&gt;)</td>
+</tr>
+<tr>
+<td><strong>StringAgg</strong></td>
+<td>Retourneert de samenvoeging van de waarden van een kolom met tekenreekstype, gescheiden door het teken in het tweede argument.</td>
+<td>StringAgg(&lt;Value&gt;, &lt;String&gt;)</td>
+</tr>
+<tr>
+<td><strong>Som</strong></td>
+<td>Hiermee wordt de som van de waarden van een getal, tekenreeks of kolom met het gegevenstype geretourneerd</td>
+<td>Sum(&lt;value&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 ### Datum
 
-De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
+Datumfuncties manipuleren datum- of tijdwaarden.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td> <strong>Naam</strong><br /> </td> 
-   <td> <strong>Beschrijving</strong><br /> </td> 
-   <td> <strong>Syntaxis</strong><br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>AddDays</strong><br /> </td> 
-   <td> Hiermee voegt u een aantal dagen toe aan een datum<br /> </td> 
-   <td> AddDays(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddHours</strong><br /> </td> 
-   <td> Hiermee voegt u een aantal uren toe aan een datum<br /> </td> 
-   <td> AddHours(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMinutes</strong><br /> </td> 
-   <td> Hiermee voegt u een aantal minuten toe aan een datum<br /> </td> 
-   <td> AddMinutes(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddMonths</strong><br /> </td> 
-   <td> Hiermee voegt u een aantal maanden toe aan een datum<br /> </td> 
-   <td> AddMonths(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddSeconds</strong><br /> </td> 
-   <td> Hiermee voegt u een aantal seconden toe aan een datum<br /> </td> 
-   <td> AddSeconds(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>AddYears</strong><br /> </td> 
-   <td> Hiermee voegt u een aantal jaren toe aan een datum<br /> </td> 
-   <td> AddYear(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong> ConvertNTZ </strong><br /> </td> 
-   <td> Converteert timestamp NTZ (timestamp zonder timezone) in TZ (timestamp met timezone) het toepassen van bepaalde zitting TZ <br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;) <br /> </td>  
-  </tr>
-  <tr> 
-   <!--<td> <strong>ConvertTimezone</strong><br /> </td> 
-   <td> <br/> </td> 
-   <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
-  </tr>-->
-  <tr> 
-   <td> <strong> DateCmp </strong><br /> </td> 
-   <td> Twee datums vergelijken <br/> </td> 
-   <td> DateCmp (&lt;date&gt;,&lt;date&gt;) <br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong>DateOnly</strong><br /> </td> 
-   <td> Keert de datum slechts (met tijd bij 00:00)* terug <br /> </td> 
-   <td> DateOnly(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Day</strong><br /> </td> 
-   <td> Retourneert het getal dat de dag van de datum vertegenwoordigt<br /> </td> 
-   <td> Day(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> Keert het aantal van de dag in het jaar van de datum terug <br /> </td> 
-   <td> DayOfYear(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgo</strong><br /> </td> 
-   <td> Retourneert de datum die overeenkomt met de huidige datum min n dagen <br /> </td> 
-   <td> DaysAgo(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> Retourneert de datum (geheel getal jjjjmmdd) die overeenkomt met de huidige datum minus n dagen <br /> </td> 
-   <td> DaysAgoInt(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysDiff</strong><br /> </td> 
-   <td> Aantal dagen tussen twee datums<br /> </td> 
-   <td> DaysDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>DaysOld</strong><br /> </td> 
-   <td> Retourneert de leeftijd in dagen van een datum<br /> </td> 
-   <td> DaysOld(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>GetDate</strong><br /> </td> 
-   <td> Hiermee wordt de huidige systeemdatum van de server geretourneerd<br /> </td> 
-   <td> GetDate()<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>Hour</strong><br /> </td> 
-   <td> Retourneert het uur van de datum<br /> </td> 
-   <td> Hour(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>HoursDiff</strong><br /> </td> 
-   <td> Retourneert het aantal uren tussen twee datums<br /> </td> 
-   <td> HoursDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Minute</strong><br /> </td> 
-   <td> Retourneert de minuten van de datum<br /> </td> 
-   <td> Minute(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MinutesDiff</strong><br /> </td> 
-   <td> Retourneert het aantal minuten tussen twee datums<br /> </td> 
-   <td> MinutesDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Month</strong><br /> </td> 
-   <td> Retourneert het getal dat de maand van de datum vertegenwoordigt<br /> </td> 
-   <td> Month(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsAgo</strong><br /> </td> 
-   <td> Retourneert de datum die overeenkomt met de huidige datum minus n maanden<br /> </td> 
-   <td> MonthsAgo(&lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsDiff</strong><br /> </td> 
-   <td> Retourneert het aantal maanden tussen twee datums<br /> </td> 
-   <td> MonthsDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>MonthsOld</strong><br /> </td> 
-   <td> Retourneert de leeftijd in maanden van een datum<br /> </td> 
-   <td> MonthsOld(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Oldest</strong><br /> </td> 
-   <td> Keert de oudste datum in een waaier terug <br /> </td> 
-   <td> Oudst (&lt;date, date&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Second</strong><br /> </td> 
-   <td> Retourneert de seconden van de datum<br /> </td> 
-   <td> Second(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SecondsDiff</strong><br /> </td> 
-   <td> Retourneert het aantal seconden tussen twee datums<br /> </td> 
-   <td> SecondsDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubDays</strong><br /> </td> 
-   <td> Hiermee trekt u een aantal dagen van een datum af<br /> </td> 
-   <td> SubDays(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubHours</strong><br /> </td> 
-   <td> Hiermee trekt u een aantal uren van een datum af<br /> </td> 
-   <td> SubHours(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMinutes</strong><br /> </td> 
-   <td> Hiermee trekt u een aantal aantal minuten van een datum af<br /> </td> 
-   <td> SubMinutes(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubMonths</strong><br /> </td> 
-   <td> Hiermee trekt u een aantal maanden van een datum af<br /> </td> 
-   <td> SubMonths(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubSeconds</strong><br /> </td> 
-   <td> Hiermee trekt u een aantal seconden van een datum af<br /> </td> 
-   <td> SubSeconds(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>SubYears</strong><br /> </td> 
-   <td> Hiermee trekt u een aantal jaren van een datum af<br /> </td> 
-   <td> SubYears(&lt;datum&gt;, &lt;nummer&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDate</strong><br /> </td> 
-   <td> Converteert een datum + tijd als datum<br /> </td> 
-   <td> ToDate(&lt;datum + tijd&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>ToDateTime</strong><br /> </td> 
-   <td> Zet een tekenreeks om in een datum + tijd<br /> </td> 
-   <td> ToDateTime(&lt;tekenreeks&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong> ToTimestamp </strong><br /> </td> 
-   <td> Converteert een koord in timestamp <br /> </td> 
-   <td> ToTimestamp (&lt;string&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong> ToTimeZone </strong><br /> </td> 
-   <td> Converteer een datum + tijd naar tijdzone <br /> </td> 
-   <td> ToTimeZone (&lt;date&gt;,&lt;time zone&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDate</strong><br /> </td> 
-   <td> Rondt een datum+tijd af naar de dichtstbijzijnde seconde<br /> </td> 
-   <td> TruncDate(@lastModified, &lt;aantal seconden&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncDateTZ</strong><br /> </td> 
-   <td> Rondt een datum + tijd af naar een bepaalde precisie die in seconden wordt uitgedrukt<br /> </td> 
-   <td> TruncDateTZ(&lt;datum&gt;, &lt;aantal seconden&gt;, &lt;tijdzone&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>TruncQuarter</strong><br /> </td> 
-   <td> Rondt een datum af naar het kwartaal<br /> </td> 
-   <td> TruncQuarter(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncTime</strong><br /> </td> 
-   <td> Rondt het tijdsdeel af naar de dichtstbijzijnde seconde<br /> </td> 
-   <td> TruncTim (e&lt;date&gt;, &lt;number of seconds&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Rondt een datum af naar de week<br /> </td> 
-   <td> TruncWeek(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>TruncYear</strong><br /> </td> 
-   <td> Rondt een datum + tijd naar 1 januari van het jaar<br /> </td> 
-   <td> TruncYear(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>WeekDay</strong><br /> </td> 
-   <td> Keert een aantal terug dat de dag in de week van de datum vertegenwoordigt (0=Maandag, 6=Zondag) <br /> </td> 
-   <td> WeekDay(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>Year</strong><br /> </td> 
-   <td> Retourneert het getal dat het jaar van de datum vertegenwoordigt<br /> </td> 
-   <td> Year(&lt;datum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearAnd Month</strong><br /> </td> 
-   <td> Retourneert het getal dat het jaar en de maand van de datum vertegenwoordigt.<br /> </td> 
-   <td> YearAndMonth(&lt;datum&gt;)<br /> </td>  
-  </tr>
-  <tr> 
-   <td> <strong> YearAgo </strong><br /> </td> 
-   <td> Keert het aantal jaren tussen een bepaalde datum en de huidige datum terug <br /> </td> 
-   <td> YearAgo (&lt;date&gt;) <br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearDiff</strong><br /> </td> 
-   <td> Retourneert het aantal jaren tussen de twee datums<br /> </td> 
-   <td> YearsDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)<br /> </td>  
-  </tr> 
-  <tr> 
-   <td> <strong>YearsOld</strong><br /> </td> 
-   <td> Retourneert de leeftijd in jaren van een datum<br /> </td> 
-   <td> YearOld(&lt;datum&gt;)<br /> </td>  
-  </tr> 
- </tbody> 
+<table>
+<tbody>
+<tr>
+<td><strong>Naam</strong></td>
+<td><strong>Beschrijving</strong></td>
+<td><strong>Syntaxis</strong></td>
+</tr>
+<tr>
+<td><strong>AddDays</strong></td>
+<td>Hiermee voegt u een aantal dagen toe aan een datum</td>
+<td>AddDays(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddHours</strong></td>
+<td>Hiermee voegt u een aantal uren toe aan een datum</td>
+<td>AddHours(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMinutes</strong></td>
+<td>Hiermee wordt een aantal minuten toegevoegd aan een datum</td>
+<td>AddMinutes(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddMonths</strong></td>
+<td>Hiermee voegt u een aantal maanden toe aan een datum</td>
+<td>AddMonths(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddSeconds</strong></td>
+<td>Hiermee wordt een aantal seconden toegevoegd aan een datum</td>
+<td>AddSeconds(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>AddYaren</strong></td>
+<td>Hiermee wordt een aantal jaren toegevoegd aan een datum</td>
+<td>AddYear(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>ConvertNTZ</strong></td>
+<td>Hiermee wordt tijdstempel NTZ (tijdstempel zonder tijdzone) omgezet in TZ (tijdstempel met tijdzone) door gedefinieerde sessie TZ toe te passen</td>
+<td>ConvertNTZ(&lt;date+time&gt;)</td>
+</tr>
+<tr>
+<td><strong>DateCmp</strong></td>
+<td>Twee datums vergelijken</td>
+<td>DateCmp(&lt;date&gt;, &lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>DateOnly</strong></td>
+<td>Retourneert alleen de datum (met tijd om 00:00)</td>
+<td>DateOnly(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Dag</strong></td>
+<td>Retourneert het getal dat de dag van de datum vertegenwoordigt</td>
+<td>Dag (&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>DayOfYear</strong></td>
+<td>Retourneert het getal van de dag in het jaar van de datum</td>
+<td>DayOfYear(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysAgo</strong></td>
+<td>Retourneert de datum die overeenkomt met de huidige datum min n dagen</td>
+<td>DaysAgo(&lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysAgoInt</strong></td>
+<td>Retourneert de datum (geheel getal jjjjmmdd) die overeenkomt met de huidige datum min n dagen</td>
+<td>DaysAgoInt(&lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysDiff</strong></td>
+<td>Retourneert het aantal dagen tussen twee datums</td>
+<td>DaysDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>DaysOld</strong></td>
+<td>Retourneert de leeftijd in dagen van een datum</td>
+<td>DaysOld(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>GetDate</strong></td>
+<td>Retourneert de huidige systeemdatum van de server</td>
+<td>GetDate()</td>
+</tr>
+<tr>
+<td><strong>Uur</strong></td>
+<td>Retourneert het uur van de datum</td>
+<td>Uur(&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>HoursDiff</strong></td>
+<td>Retourneert het aantal uren tussen twee datums</td>
+<td>HoursDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Minute</strong></td>
+<td>Retourneert de minuten van de datum</td>
+<td>Minuut(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>MinutesDiff</strong></td>
+<td>Retourneert het aantal minuten tussen twee datums</td>
+<td>MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Maand</strong></td>
+<td>Retourneert het getal dat de maand van de datum vertegenwoordigt</td>
+<td>Maand (&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsAgo</strong></td>
+<td>Retourneert de datum die overeenkomt met de huidige datum min n maanden</td>
+<td>MonthsAgo(&lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsDiff</strong></td>
+<td>Retourneert het aantal maanden tussen twee datums</td>
+<td>MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)</td>
+</tr>
+<tr>
+<td><strong>MonthsOld</strong></td>
+<td>Retourneert de leeftijd in maanden van een datum</td>
+<td>MonthsOld(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Oudst</strong></td>
+<td>Retourneert de oudste datum in een bereik</td>
+<td>Oudst(&lt;datum, datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Seconde</strong></td>
+<td>Retourneert de seconden van de datum</td>
+<td>Second(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>SecondsDiff</strong></td>
+<td>Retourneert het aantal seconden tussen twee datums</td>
+<td>SecondsDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>Subdagen</strong></td>
+<td>Hiermee trekt u een aantal dagen van een datum af</td>
+<td>SubDays(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubHours</strong></td>
+<td>Hiermee wordt een aantal uren van een datum afgetrokken</td>
+<td>SubHours(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubMinutes</strong></td>
+<td>Hiermee wordt een aantal minuten van een datum afgetrokken</td>
+<td>SubMinutes(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>Submaanden</strong></td>
+<td>Hiermee trekt u een aantal maanden van een datum af</td>
+<td>SubMonths(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>SubSeconds</strong></td>
+<td>Trekt een aantal seconden van een datum af</td>
+<td>SubSeconds(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>Subjaren</strong></td>
+<td>Hiermee trekt u een aantal jaren van een datum af</td>
+<td>SubYear(&lt;date&gt;, &lt;number&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDate</strong></td>
+<td>Converteert een datum + tijd als datum</td>
+<td>TotDatum (&lt;datum + tijd&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToDateTime</strong></td>
+<td>Zet een tekenreeks om in een datum + tijd</td>
+<td>ToDateTime(&lt;string&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToTimestamp</strong></td>
+<td>Hiermee wordt een tekenreeks omgezet in een tijdstempel</td>
+<td>ToTimestamp(&lt;string&gt;)</td>
+</tr>
+<tr>
+<td><strong>ToTimeZone</strong></td>
+<td>Converteert een datum + tijd naar een tijdzone</td>
+<td>ToTimeZone(&lt;date&gt;, &lt;tijdzone&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDate</strong></td>
+<td>Rondt een datum + tijd aan het dichtstbijzijnde tweede</td>
+<td>TruncDate(@lastModified, &lt;aantal seconden&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncDateTZ</strong></td>
+<td>Rondt een datum + tijd aan een bepaalde precisie die in seconden wordt uitgedrukt</td>
+<td>TruncDateTZ(&lt;date&gt;, &lt;number of seconds&gt;, &lt;time zone&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncQuarter</strong></td>
+<td>Rondt een datum af op het kwartaal</td>
+<td>TruncQuarter(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncTime</strong></td>
+<td>Rondt het tijdsdeel af tot de dichtstbijzijnde seconde</td>
+<td>TruncTime(&lt;date&gt;, &lt;number of seconds&gt;)</td>
+</tr>
+<tr>
+<td><strong>Truncweek</strong></td>
+<td>Rondt een datum af naar de week</td>
+<td>TruncWeek(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>TruncYear</strong></td>
+<td>Rondt een datum + tijd tot 1 januari van het jaar</td>
+<td>TruncYear(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>WeekDay</strong></td>
+<td>Retourneert een getal dat de dag in de week van de datum vertegenwoordigt (0=maandag, 6=zondag)</td>
+<td>WeekDay(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>Jaar</strong></td>
+<td>Retourneert het getal dat het jaar van de datum vertegenwoordigt</td>
+<td>Jaar (&lt;datum&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearAndMonth</strong></td>
+<td>Retourneert het getal dat het jaar en de maand van de datum vertegenwoordigt.</td>
+<td>YearAndMonth(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>JarenAgo</strong></td>
+<td>Geeft als resultaat het aantal jaren tussen een bepaalde datum en de huidige datum</td>
+<td>YearAgo(&lt;date&gt;)</td>
+</tr>
+<tr>
+<td><strong>YearDiff</strong></td>
+<td>Retourneert het aantal jaren tussen twee datums</td>
+<td>YarenDiff(&lt;einddatum&gt;, &lt;begindatum&gt;)</td>
+</tr>
+<tr>
+<td><strong>JarenOud</strong></td>
+<td>Retourneert de leeftijd in jaren van een datum</td>
+<td>YearOld(&lt;date&gt;)</td>
+</tr>
+</tbody>
 </table>
 
 >[!NOTE]
 >
->Merk op dat de **functie Dateonly** rekening houdt met timezone van de server, niet de exploitant.
+>Merk op dat de **DateOnly** functie rekening houdt met timezone van de server, niet de exploitant.
+
 
 ### Geomarketing
 

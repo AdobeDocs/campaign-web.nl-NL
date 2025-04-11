@@ -2,9 +2,9 @@
 title: Gebruiksgevallen van AI Assistant
 description: In deze gevallen leert u hoe u AI Assistant gebruikt
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '481'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees uit verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
+>Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
 
 ## Bestaande inhoud gebruiken
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![ Demonstratie van het opnieuw gebruiken van bestaande inhoud met AI Medewerker ](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. Selecteer **[!UICONTROL Edit content]** nadat u de levering hebt ingesteld.
 
@@ -31,17 +31,17 @@ ht-degree: 0%
 
 1. Ontdek de beschikbare **[!UICONTROL Variations]** en klik op **[!UICONTROL Preview]** om de geselecteerde variatie op het volledige scherm weer te geven.
 
-Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u de levering voorbereiden.
+Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, bereidt u de levering voor.
 
 ## Variatie verfijnen
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![ Demonstratie van het raffineren inhoudsvariaties met AI Medewerker ](assets/do-not-localize/gen-ai-variation.gif)
 
 1. Klik op **[!UICONTROL Edit content]** als uw levering is ingesteld en geconfigureerd.
 
 1. Open het menu **[!UICONTROL AI Assistant]** .
 
-1. Pas de inhoud aan door uw gewenste verzoek in te voeren in het vak **[!UICONTROL Prompt]** en de instellingen naar wens te wijzigen.
+1. Pas de inhoud aan door uw gewenste verzoek in te voeren in het vak **[!UICONTROL Prompt]** en pas de instellingen naar wens aan.
 
 1. Klik op **[!UICONTROL Generate]** als u klaar bent.
 
@@ -49,7 +49,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u de l
 
 1. Ga in het venster **[!UICONTROL Preview]** naar de optie **[!UICONTROL Refine]** voor verdere aanpassing, waaronder:
 
-   * **[!UICONTROL Use as reference content]**: De geselecteerde variatie fungeert als een referentie voor het genereren van meer inhoud.
+   * **[!UICONTROL Use as reference content]**: De geselecteerde variatie fungeert als een verwijzing naar het genereren van meer inhoud.
 
    * **[!UICONTROL Elaborate]**: Laat de AI-assistent op bepaalde punten uitvouwen en geef meer diepte en details voor een betere betrokkenheid.
 
@@ -59,13 +59,13 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u de l
 
    * **[!UICONTROL Use simpler language]**: Vereenvoudig de taal met de AI-assistent om ervoor te zorgen dat het bericht duidelijk en toegankelijk is voor alle lezers.
 
-   Bovendien kunt u de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de inhoud aanpassen.
+   Pas bovendien de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de inhoud aan.
 
-1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
+1. Klik op **[!UICONTROL Select]** als de inhoud gereed is.
 
-## Vergelijkbare afbeelding genereren
+## Een vergelijkbare afbeelding genereren
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![ Demonstratie van het produceren van gelijkaardige beelden met AI Medewerker ](assets/do-not-localize/uc-image-similar.gif)
 
 1. Selecteer **[!UICONTROL Edit content]** nadat u de levering hebt ingesteld.
 
@@ -81,11 +81,11 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u de l
 
 1. Kies **[!UICONTROL Generate Similar]** om afbeeldingsvariaties te verkennen die sterk lijken op de huidige optie en die alternatieve ontwerpen met een vergelijkbaar thema bieden.
 
-1. Klik op **[!UICONTROL Select]** zodra u de juiste inhoud hebt gevonden.
+1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 
 ## Een stijlverwijzing uploaden
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![ Demonstratie van het uploaden van een stijlverwijzing voor AI Medewerker ](assets/do-not-localize/uc-image-reference.gif)
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de levering hebt ingesteld en geconfigureerd.
 
@@ -103,6 +103,6 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, kunt u de l
 
 1. Controleer **[!UICONTROL Variation suggestions]** om het element te zoeken dat u wilt gebruiken.
 
-1. Selecteer **[!UICONTROL Preview]** om de gekozen variatie op het volledige scherm weer te geven.
+1. Selecteer **[!UICONTROL Preview]** om de gekozen variatie op volledig scherm weer te geven.
 
 1. Klik op **[!UICONTROL Select]** als u de geschikte inhoud hebt gevonden.

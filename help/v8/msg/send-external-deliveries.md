@@ -3,25 +3,24 @@ audience: end-user
 title: Aan de slag met externe leveringen
 description: Meer informatie over het maken en verzenden van externe leveringen met Adobe Campaign Web
 exl-id: 08fe9333-aa35-4acf-ba41-4c6895049bbc
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
 
 # Externe leveringen verzenden {#gs-direct-mail}
 
+Met Adobe Campaign kunt u leveringen beheren die u buiten de campagne hebt gemaakt om via een extern systeem persoonlijke e-mails, SMS-berichten of pushberichten (iOS en Android) op grote schaal te verzenden.
 
-Met Adobe Campaign kunt u leveringen verwerken die buiten de campagne zijn gemaakt, zodat u via een extern systeem op grote schaal persoonlijke e-mails, SMS-berichten of pushberichten (iOS en Android) kunt verzenden.
+<!--The supported channels are Email, Mobile (SMS), and Push (iOS and Android).-->
 
-<!--The supported channels are Email, Mobile (SMS), and Push (iOs and Android).-->
-
-Bij het maken van een externe levering genereert Adobe Campaign automatisch een extractiebestand dat alle doelprofielen en geselecteerde gegevens bevat. Dit bestand wordt naar de server van uw keuze verzonden, die het verzendproces voor u zal afhandelen.
+Bij het maken van een externe levering genereert Adobe Campaign automatisch een extractiebestand dat alle doelprofielen en geselecteerde gegevens bevat. Dit bestand wordt naar de server van uw keuze verzonden, die het verzendingsproces afhandelt.
 
 ## Een toegewezen externe account maken {#routing-external-account}
 
-Eerst moet u een specifieke externe account configureren die in uw externe leveringen wordt gebruikt. Het moet van het **[!UICONTROL Routing]** type zijn.
+U moet een specifieke externe account configureren voor gebruik in uw externe leveringen. Het moet van het **[!UICONTROL Routing]** type zijn.
 
 >[!NOTE]
 >
@@ -29,7 +28,7 @@ Eerst moet u een specifieke externe account configureren die in uw externe lever
 
 Selecteer bijvoorbeeld het **[!UICONTROL Mobile (SMS)]** -kanaal voor de externe account. **[!UICONTROL External]** wordt standaard geselecteerd als de **[!UICONTROL Delivery mode]** .
 
-![](../administration/assets/external-account-delivery-mode.png){zoomable="yes"}
+![ Externe de wijzeconfiguratie van de rekeningslevering ](../administration/assets/external-account-delivery-mode.png){zoomable="yes"}
 
 ## De externe levering maken en verzenden {#create-external-delivery}
 
@@ -39,37 +38,37 @@ Zodra de specifieke externe rekening wordt gevormd, creeer de externe levering. 
 
    U hebt drie opties:
 
-   * **in een werkschema**: Voeg een externe kanaalactiviteit (e-mail, SMS of duw) aan uw werkschema toe. Voor gedetailleerde instructies op hoe te om werkschema te vormen, verwijs naar [ deze pagina ](../workflows/gs-workflow-creation.md).
-   * **in een campagne**: Zodra u een campagne hebt gecreeerd, kunt u een e-mail, SMS tot stand brengen of kanaal externe levering duwen. Voor meer informatie bij vestiging uw campagne, verwijs naar [ deze pagina ](../campaigns/gs-campaigns.md).
+   * **in een werkschema**: Voeg een externe kanaalactiviteit (e-mail, SMS, of duw) aan uw werkschema toe. Voor gedetailleerde instructies bij het vormen van werkschema&#39;s, verwijs naar [ deze pagina ](../workflows/gs-workflow-creation.md).
+   * **in een campagne**: Na het creëren van een campagne, kunt u een e-mail, SMS, of de externe levering van het drukkanaal tot stand brengen. Voor meer informatie bij vestiging uw campagne, verwijs naar [ deze pagina ](../campaigns/gs-campaigns.md).
    * **stand-alone levering**: Sluit klanten direct en onmiddellijk met een individuele externe levering aan. [ leren hoe te om een levering ](../msg/gs-deliveries.md) tot stand te brengen
 
-1. In de levering of leveringsmalplaatje [ montages ](../advanced-settings/delivery-settings.md), selecteer de externe rekening die u voor het kanaal van uw keus (in dit voorbeeld, het kanaal van SMS) creeerde en bewaar.
+1. In de levering of leveringsmalplaatje [ montages ](../advanced-settings/delivery-settings.md), selecteer de externe rekening die voor het kanaal van uw keus (in dit voorbeeld, het kanaal van SMS) wordt gecreeerd en sparen.
 
-   ![](assets/external-delivery-routing.png){zoomable="yes"}
+   ![ Externe levering die configuratie ](assets/external-delivery-routing.png){zoomable="yes"} verplettert
 
    >[!NOTE]
    >
-   >Als u een levering creeert, zorg ervoor dat u a [ leveringsmalplaatje ](delivery-template.md) gebruikend een externe rekening van het **[!UICONTROL Routing]** type hebt geselecteerd, anders zult u niet de specifieke rekening kunnen selecteren u [ hierboven ](#routing-external-account) hebt gecreeerd.
+   >Als u een levering creeert, zorg ervoor dat u a [ leveringsmalplaatje ](delivery-template.md) gebruikend een externe rekening van het **[!UICONTROL Routing]** type hebt geselecteerd. Anders, zult u niet de specifieke gecreeerde rekening kunnen selecteren [ hierboven ](#routing-external-account).
 
 1. Klik in de bezorgsectie **[!UICONTROL Content]** op **[!UICONTROL Edit content]** .
 
-   ![](assets/external-delivery-edit-content.png){zoomable="yes"}
+   ![ geef inhoud in externe levering uit ](assets/external-delivery-edit-content.png){zoomable="yes"}
 
-1. In tegenstelling tot een standaardlevering, ontwerpt u niet de inhoud van het bericht zelf. In plaats daarvan moet u de eigenschappen en kolommen definiëren van het bestand dat naar het externe systeem wordt verzonden.
+1. In tegenstelling tot een standaardlevering, ontwerpt u niet de inhoud van het bericht zelf. Definieer in plaats daarvan de eigenschappen en kolommen van het bestand dat naar het externe systeem wordt verzonden.
 
-   ![](assets/external-delivery-file-properties.png){zoomable="yes"}
+   ![ de eigenschappenconfiguratie van het Dossier voor externe levering ](assets/external-delivery-file-properties.png){zoomable="yes"}
 
    Volg de zelfde stappen zoals wanneer het ontwerpen van de inhoud van het extractiedossier door [ wordt geproduceerd direct-mailleveringen ](../direct-mail/content-direct-mail.md):
 
    * Definieer de eigenschappen van het extractiebestand. [Meer informatie](../direct-mail/content-direct-mail.md#properties)
-   * Selecteer de kolommen met de informatie die naar dat bestand moet worden geëxporteerd. [Meer informatie](../direct-mail/content-direct-mail.md#content)
+   * Selecteer de kolommen met de informatie die naar het bestand moet worden geëxporteerd. [Meer informatie](../direct-mail/content-direct-mail.md#content)
 
-1. U kunt een voorvertoning van het bestand bekijken en proefdrukken verzenden <!--not in UI right now - to check--> . [ leer hoe ](../direct-mail/send-direct-mail.md#preview-dm)
+1. Geef een voorvertoning van het bestand weer en verzend proefdrukken <!--not in UI right now - to check--> . [ leer hoe ](../direct-mail/send-direct-mail.md#preview-dm)
 
-   ![](assets/external-delivery-simulate.png){zoomable="yes"}
+   ![ Simuleer externe levering ](assets/external-delivery-simulate.png){zoomable="yes"}
 
 1. Verzend de levering om het extractiebestand te genereren. [ leer hoe ](../direct-mail/send-direct-mail.md#send-dm)
 
-Zodra uw levering wordt verzonden, wordt het extractiedossier automatisch geproduceerd en uitgevoerd naar de plaats die in de [ wordt gespecificeerd externe rekening ](../administration/external-account.md#create-ext-account) in de montages van het leveringsmalplaatje wordt geselecteerd.
+Zodra de levering wordt verzonden, wordt het extractiedossier automatisch geproduceerd en uitgevoerd naar de plaats die in de [ wordt gespecificeerd externe rekening ](../administration/external-account.md#create-ext-account) in de montages van het leveringsmalplaatje wordt geselecteerd.
 
-U kunt de PKIs van de leveringspagina en gegevens van het **[!UICONTROL Logs]** menu volgen.
+Houd de KPI&#39;s bij vanaf de leveringspagina en de gegevens in het menu **[!UICONTROL Logs]** .
