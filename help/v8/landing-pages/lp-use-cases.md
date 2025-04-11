@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 keywords: landen, landingspagina, hoofdletter gebruiken
 exl-id: e51cf54c-9db1-4704-bc5b-0df098d67c7d
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: a9ce4fd103c4af8f47ba887031e8d6d53e8d5f0b
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,7 @@ ht-degree: 0%
 >abstract="Wanneer het creëren van een het landen pagina, staan vier uit-van-de-doos malplaatjes u toe om verschillende gebruiksgevallen uit te voeren: voeg of werk een profiel aan het gegevensbestand van de Campagne bij, abonneer klanten aan de dienst, unsubscribe hen van de dienst, of opt gebruikers uit."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Een landingspagina maken"
 
-Als u uw landingspagina op de juiste manier wilt gebruiken, moet u deze als een koppeling in een levering opgeven met de speciale optie.
-
->[!CAUTION]
->
->Als u de openingspagina volledig wilt benutten, kunt u de koppeling die wordt weergegeven in het gepubliceerde leveringsdashboard, niet rechtstreeks kopiëren naar uw leveringen of naar een webpagina. Leer hoe u dit op de juiste wijze doet in deze sectie.
+Als u de landingspagina op de juiste manier wilt gebruiken, verwijst u ernaar als een koppeling in een bericht met de speciale optie. U kunt de koppeling die wordt weergegeven in het gepubliceerde leveringsdashboard, niet rechtstreeks kopiëren en plakken naar uw leveringen of naar een webpagina. In plaats daarvan, gebruik het **Simuleer inhoud** vermogen om het te testen.
 
 In de [!DNL Adobe Campaign Web] interface, staan vier uit-van-de-doos malplaatjes u toe om verschillende gebruiksgevallen uit te voeren. De belangrijkste stappen blijven echter hetzelfde en worden hieronder beschreven.
 
@@ -40,13 +36,13 @@ In de [!DNL Adobe Campaign Web] interface, staan vier uit-van-de-doos malplaatje
 
 1. Definieer de eigenschappen en instellingen van de bestemmingspagina.
 
-   ![](assets/lp-uc-properties.png){zoomable="yes"}
+   ![ Screenshot die de het landen eigenschappen en montagesinterface toont.](assets/lp-uc-properties.png){zoomable="yes"}
 
 1. Afhankelijk van uw geval selecteert u de pagina **[!UICONTROL Acquisition]** , **[!UICONTROL Subscription]** , **[!UICONTROL Unsubscription]** of **[!UICONTROL Denylist]** .
 
 1. De inhoud van de pagina wordt weergegeven. Selecteer het deel dat overeenkomt met het formulier voor de landingspagina.
 
-   ![](assets/lp-uc-form.png){zoomable="yes"}
+   ![ Screenshot die de het landen paginavorminterface toont.](assets/lp-uc-form.png){zoomable="yes"}
 
 1. Bewerk de inhoud volgens de geselecteerde sjabloon:
 
@@ -59,7 +55,7 @@ In de [!DNL Adobe Campaign Web] interface, staan vier uit-van-de-doos malplaatje
 
 1. Bewerk indien nodig de pagina **[!UICONTROL Confirmation]** en de pagina&#39;s **[!UICONTROL Error]** en **[!UICONTROL Expiration]** . De pagina **[!UICONTROL Confirmation]** wordt weergegeven aan de ontvangers zodra ze het formulier verzenden.
 
-   ![](assets/lp-uc-confirmation-page.png){zoomable="yes"}
+   ![ Screenshot die de interface van de bevestigingspagina toont.](assets/lp-uc-confirmation-page.png){zoomable="yes"}
 
 1. [ Test ](create-lp.md#test-landing-page) en [ publiceert ](create-lp.md#publish-landing-page) uw het landen pagina.
 
@@ -67,7 +63,7 @@ In de [!DNL Adobe Campaign Web] interface, staan vier uit-van-de-doos malplaatje
 
 1. [ Tussenvoegsel een verbinding ](../email/message-tracking.md#insert-links) in uw berichtinhoud. Selecteer **[!UICONTROL Landing page]** als de **[!UICONTROL Link type]** en kies de openingspagina die u hebt gemaakt.
 
-   ![](assets/lp-uc-email-link.png){zoomable="yes"}
+   ![ Scherenshot die de interface van de e-mailverbinding toont.](assets/lp-uc-email-link.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -76,7 +72,6 @@ In de [!DNL Adobe Campaign Web] interface, staan vier uit-van-de-doos malplaatje
 Nadat de ontvangers het e-mailbericht hebben ontvangen, klikt u op de koppeling naar de bestemmingspagina en verzendt u het formulier:
 
 * Ze worden doorgestuurd naar de bevestigingspagina.
-
 * Alle andere handelingen die op de landingspagina zijn gedefinieerd, worden toegepast. Bijvoorbeeld, zullen de gebruikers aan uw dienst worden geabonneerd, of zij zullen geen verdere mededelingen van u ontvangen.
 
 Hieronder volgen enkele voorbeelden van het gebruik van [!DNL Adobe Campaign] -bestemmingspagina&#39;s in de verschillende mogelijke gebruiksgevallen.
@@ -87,15 +82,15 @@ Met de eerste sjabloon kunt u een profiel toevoegen aan of bijwerken naar de Cam
 
 1. Wanneer [ creërend uw het landen pagina ](create-lp.md#create-landing-page), selecteer het **[!UICONTROL Acquisition]** malplaatje.
 
-1. Selecteer in de eigenschappen van de bestemmingspagina de optie **[!UICONTROL Pre-fill with the data referenced in the form]** om alle bestaande informatie uit het profiel vooraf te laden en het maken van duplicaten te voorkomen.
+1. Selecteer in de eigenschappen van de bestemmingspagina de optie **[!UICONTROL Pre-fill with the data referenced in the form]** om bestaande informatie uit het profiel vooraf te laden en het maken van duplicaten te voorkomen.
 
 1. Selecteer de pagina **[!UICONTROL Acquisition]** om de inhoud ervan te bewerken.
 
 1. Bewerk de tekstvelden naar wens op basis van de gegevens die u wilt verzamelen in uw profielen.
 
-1. Daarnaast kunt u een selectievakje toevoegen waarin u uw klanten uitnodigt zich te abonneren op uw nieuwsbrief. [ leer hoe te om de dienst ](../audience/manage-services.md) tot stand te brengen
+1. Voeg een selectievakje toe waarin u uw klanten uitnodigt zich te abonneren op uw nieuwsbrief. [ leer hoe te om de dienst ](../audience/manage-services.md) tot stand te brengen
 
-   ![](assets/lp-uc-acquisition-page.png){zoomable="yes"}
+   ![ Screenshot die de interface van de aanschafpagina met een checkbox van het nieuwsbrief abonnement toont.](assets/lp-uc-acquisition-page.png){zoomable="yes"}
 
 1. Pas de inhoud naar wens aan en sla uw wijzigingen op.
 
@@ -105,11 +100,11 @@ Met de eerste sjabloon kunt u een profiel toevoegen aan of bijwerken naar de Cam
 
 Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de bestemmingspagina klikken en het formulier verzenden, wordt hun profiel toegevoegd aan de Campagne-database of bijgewerkt met de informatie die ze hebben verstrekt.
 
-![](assets/lp-uc-profile-updated.png){zoomable="yes"}
+![ Screenshot die een profiel tonen in het gegevensbestand van de Campagne wordt bijgewerkt.](assets/lp-uc-profile-updated.png){zoomable="yes"}
 
 Als ze ervoor hebben gekozen uw nieuwsbrief te ontvangen, worden ze geabonneerd op de bijbehorende service.
 
-![](assets/lp-uc-newsletter-subscriber.png){zoomable="yes"}
+![ Scherenshot die een bevestiging van het nieuwsbrief abonnement toont.](assets/lp-uc-newsletter-subscriber.png){zoomable="yes"}
 
 ## Abonnement op een service {#lp-subscription}
 
@@ -122,15 +117,15 @@ Als ze ervoor hebben gekozen uw nieuwsbrief te ontvangen, worden ze geabonneerd 
 
 <!--For example, let's say you organize an event next month and you want to launch an event registration campaign. To do this, you're going to send an email including a link to a landing page that will enable your recipients to register for this event. The users who register will be added to the subscription list that you created for this purpose.-->
 
-1. Begin door een bevestigingsmalplaatje voor gebruikers te creëren die aan uw gebeurtenis intekenen, zodat u het gemakkelijk kunt selecteren wanneer het creëren van de dienst. [Meer informatie](../audience/manage-services.md#create-confirmation-message)
+1. Maak een bevestigingssjabloon voor gebruikers die zich abonneren op uw gebeurtenis, zodat u deze eenvoudig kunt selecteren wanneer u de service maakt. [Meer informatie](../audience/manage-services.md#create-confirmation-message)
 
-   ![](assets/lp-uc-confirmation-email.png){zoomable="yes"}
+   ![ Screenshot die de interface van het bevestigingsemailmalplaatje toont.](assets/lp-uc-confirmation-email.png){zoomable="yes"}
 
-1. Maak een abonnementsservice waarmee de geregistreerde gebruikers op uw gebeurtenis worden opgeslagen. [ leer hoe te om de dienst ](../audience/manage-services.md) tot stand te brengen
+1. Maak een abonnementenservice waarin de geregistreerde gebruikers voor uw gebeurtenis worden opgeslagen. [ leer hoe te om de dienst ](../audience/manage-services.md) tot stand te brengen
 
 1. Selecteer de sjabloon die u hebt gemaakt als de bevestigingse-mail die de gebruikers ontvangen bij het abonneren.
 
-   ![](assets/lp-uc-subscription-service.png){zoomable="yes"}
+   ![ Screenshot die de interface van de abonnementendienst toont.](assets/lp-uc-subscription-service.png){zoomable="yes"}
 
 1. [ creeer een het landen pagina ](create-lp.md#create-landing-page) om uw ontvangers toe te laten om voor uw gebeurtenis te registreren. Selecteer de sjabloon **[!UICONTROL Subscription]** .
 
@@ -140,7 +135,7 @@ Als ze ervoor hebben gekozen uw nieuwsbrief te ontvangen, worden ze geabonneerd 
 
 1. Selecteer in het veld **[!UICONTROL Subscriptions & services]** de service die u voor de gebeurtenis hebt gemaakt. Laat de optie **[!UICONTROL Subscribe in if checked]** ingeschakeld.
 
-   ![](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
+   ![ Screenshot die de interface van het abonnementscheckbox toont.](assets/lp-uc-subscription-checkbox-1.png){zoomable="yes"}
 <!--
 1. You can add an additional checkbox to offer subscription to your newsletter for example.-->
 
@@ -152,13 +147,13 @@ Als ze ervoor hebben gekozen uw nieuwsbrief te ontvangen, worden ze geabonneerd 
 
 1. Ontwerp de e-mail om aan te kondigen dat de registratie nu open voor uw gebeurtenis is.
 
-Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de bestemmingspagina klikken en het formulier verzenden, worden ze doorgestuurd naar de bevestigingspagina en worden ze toegevoegd aan de abonnementenlijst.
+Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de bestemmingspagina klikken en het formulier verzenden, worden ze doorgestuurd naar de bevestigingspagina en toegevoegd aan de abonnementenlijst.
 
 ## Abonnement opzeggen {#lp-unsubscription}
 
 U kunt uw klanten toelaten om van de dienst af te zien gebruikend een het landen pagina.
 
-1. Zorg ervoor u een bevestigingsmalplaatje voor gebruikers hebt gecreeerd die van uw dienst afmelden, zodat u het gemakkelijk kunt selecteren wanneer het creëren van de dienst. [Meer informatie](../audience/manage-services.md#create-confirmation-message)
+1. Maak een bevestigingssjabloon voor gebruikers die zich niet meer abonneren op uw service, zodat u deze eenvoudig kunt selecteren wanneer u de service maakt. [Meer informatie](../audience/manage-services.md#create-confirmation-message)
 
 1. In uw [ abonnementsdienst ](../audience/manage-services.md), selecteer het malplaatje dat u als bevestigingse-mail creeerde de gebruikers op het afmelden zullen ontvangen.
 
@@ -168,13 +163,13 @@ U kunt uw klanten toelaten om van de dienst af te zien gebruikend een het landen
 
 1. De inhoud van de pagina wordt weergegeven. Selecteer het deel dat overeenkomt met het formulier voor de landingspagina.
 
-1. U kunt een sectie **[!UICONTROL Checkbox]** toevoegen, de service selecteren en de optie **[!UICONTROL Unsubscribe if checked]** selecteren.
+1. Voeg een sectie **[!UICONTROL Checkbox]** toe, selecteer de service en selecteer de optie **[!UICONTROL Unsubscribe if checked]** .
 
-   ![](assets/lp-uc-unsubscription-checkbox-1.png){zoomable="yes"}
+   ![ Screenshot die de interface van het unsubscription checkbox tonen.](assets/lp-uc-unsubscription-checkbox-1.png){zoomable="yes"}
 
-1. U kunt ook de sectie **[!UICONTROL Call to action]** uitvouwen en de optie **[!UICONTROL Additional updates]** selecteren. Selecteer de service en controleer de optie **[!UICONTROL Opt out]** .
+1. Vouw de sectie **[!UICONTROL Call to action]** uit en selecteer de optie **[!UICONTROL Additional updates]** . Selecteer de service en controleer de optie **[!UICONTROL Opt out]** .
 
-   ![](assets/lp-uc-unsubscription-call-to-action.png){zoomable="yes"}
+   ![ Screenshot die de interface van call-to-action voor unsubscription toont.](assets/lp-uc-unsubscription-call-to-action.png){zoomable="yes"}
 
 1. Pas de inhoud naar wens aan en sla uw wijzigingen op.
 
@@ -182,7 +177,7 @@ U kunt uw klanten toelaten om van de dienst af te zien gebruikend een het landen
 
 1. Creeer een [ e-mail ](../email/create-email.md) en [ voeg een verbinding ](../email/message-tracking.md#insert-links) aan de het landen pagina toe.
 
-Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de bestemmingspagina klikken en het formulier verzenden, worden ze doorgestuurd naar de bevestigingspagina voor abonnementen en worden ze verwijderd van de betreffende abonnementsservice.
+Als de ontvangers eenmaal een e-mail hebben ontvangen en op de koppeling naar de bestemmingspagina klikken en het formulier verzenden, worden ze doorgestuurd naar de pagina voor bevestiging van het abonnement en worden ze verwijderd van de bijbehorende abonnementsservice.
 
 ## Lijst van gewezen personen {#lp-denylist}
 
@@ -196,9 +191,9 @@ U kunt een landingspagina van **[!UICONTROL Denylist]** instellen waarmee gebrui
 
 1. Vouw de sectie **[!UICONTROL Call to action]** uit en selecteer de optie **[!UICONTROL Additional updates]** .
 
-1. Selecteer **[!UICONTROL Channel (email)]** in de bijbehorende vervolgkeuzelijst om uw ontvangers de mogelijkheid te bieden alleen af te zien van e-mailcommunicatie. U kunt ook **[!UICONTROL By all channel]** selecteren om ze allemaal te kiezen via alle communicatie op alle kanalen.
+1. Selecteer **[!UICONTROL Channel (email)]** in de bijbehorende vervolgkeuzelijst om uw ontvangers de mogelijkheid te bieden alleen af te zien van e-mailcommunicatie. U kunt ook **[!UICONTROL By all channel]** selecteren om ze uit alle communicatie op alle kanalen te halen.
 
-   ![](assets/lp-uc-denylist.png){zoomable="yes"}
+   ![ Scherenshot die de interface van call-to-action van de lijst van gewezen personen toont.](assets/lp-uc-denylist.png){zoomable="yes"}
 
 1. Pas de inhoud naar wens aan en sla uw wijzigingen op.
 
@@ -212,6 +207,6 @@ Blader naar het menu **[!UICONTROL Profiles]** en selecteer dat profiel om te co
 
 Als u bijvoorbeeld de optie **[!UICONTROL Channel (email)]** op de bestemmingspagina wilt bijwerken, wordt de optie **[!UICONTROL No longer contact by email]** ingeschakeld.
 
-![](assets/lp-uc-denylist-profile.png){zoomable="yes"}
+![ Schermafbeelding die een profiel tonen dat met de voorkeur van de lijst van gewezen personen wordt bijgewerkt.](assets/lp-uc-denylist-profile.png){zoomable="yes"}
 
 Dit profiel ontvangt geen e-mailberichten van uw merk tenzij u zich opnieuw abonneert.
