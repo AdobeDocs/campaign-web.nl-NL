@@ -3,9 +3,9 @@ audience: end-user
 title: Een uitgebreide pushmelding ontwerpen
 description: Leer hoe u een uitgebreide pushmelding van Android ontwerpt met Adobe Campaign Web
 exl-id: a87cb933-b564-4fa4-b173-6a94d7e27da5
-source-git-commit: 86214576e08df6596860826bb6511c1f4138c2ad
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '3078'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
 * De **[!UICONTROL Notification message]** , die automatisch wordt afgehandeld door de FCM SDK. FCM geeft automatisch het bericht weer op de apparaten van uw gebruikers namens de client-app. Meldingsberichten bevatten een vooraf gedefinieerde set parameters en opties, maar kunnen nog steeds verder worden aangepast met aangepaste toepassingsvariabelen.
 
-![](assets/rich_push.png){zoomable="yes"}
+![ Screenshof van de Leverancier op de pagina van Android ](assets/rich_push.png){zoomable="yes"}
 
 ## De inhoud van het bericht definiëren {#push-message}
 

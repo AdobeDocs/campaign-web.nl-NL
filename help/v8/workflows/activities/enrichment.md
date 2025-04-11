@@ -3,12 +3,13 @@ audience: end-user
 title: De activiteit van de verrijkingsworkflow gebruiken
 description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '2007'
+source-wordcount: '1979'
 ht-degree: 0%
 
 ---
+
 
 # Verrijking {#enrichment}
 
@@ -17,22 +18,19 @@ ht-degree: 0%
 >title="Verrijkingsactiviteit"
 >abstract="De **Verrijking** activiteit staat u toe om de gerichte gegevens met extra informatie van het gegevensbestand te verbeteren. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten."
 
+De **Verrijking** activiteit is a **richtend** activiteit. Het verbetert de gerichte gegevens met extra informatie van het gegevensbestand. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten.
 
-De **Verrijking** activiteit is a **richtend** activiteit. Hiermee kunt u de doelgegevens verbeteren met aanvullende informatie uit de database. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten.
+Verrijkingsgegevens kunnen afkomstig zijn van:
 
-Verrijkingsgegevens kunnen worden verkregen:
+* **de zelfde het werklijst** zoals die in uw werkschema wordt gericht:
+   * Richt een groep klanten en voeg het gebied van de &quot;Datum van de Geboorteplaats&quot;aan de huidige het werklijst toe.
 
-* **van de zelfde het werklijst** zoals die in uw werkschema wordt gericht:
+* **Een andere het werklijst**:
+   * Selecteer een groep klanten en voeg de velden Bedrag en Type product toe uit de tabel Aanschaffen.
 
-  *Doel een groep klanten en voeg het &quot;datum&quot;gebied van de Geboorteplaats aan de huidige het werklijst* toe.
+Zodra de verrijkingsgegevens aan het werkschema worden toegevoegd, kan het in verdere activiteiten worden gebruikt om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd. Het kan ook worden gebruikt om gepersonaliseerde marketing berichten en campagnes tot stand te brengen die met uw doelpubliek resoneren.
 
-* **van een andere het werklijst**:
-
-  *Beoogd een groep klanten en voeg de &quot;Bedrag&quot;en &quot;Type van product&quot;gebieden toe die uit de &quot;lijst van de Aankoop&quot;komen*.
-
-Zodra de verrijkingsgegevens aan het werkschema zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de **Verrijking** activiteit worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of gepersonaliseerde marketing berichten en campagnes te creëren die waarschijnlijker zijn om met uw doelpubliek te resoneren.
-
-U kunt bijvoorbeeld informatie over aankopen van klanten toevoegen aan de werkstroomwerktabel en deze gegevens gebruiken om de e-mails aan te passen aan de laatste aankoop of het bedrag dat aan deze aankopen is besteed.
+U kunt bijvoorbeeld informatie met betrekking tot de aankopen van klanten toevoegen aan de workflowtabel en deze gegevens gebruiken om de e-mails aan te passen met de meest recente aankoop of het bedrag dat aan deze aankopen is besteed.
 
 ## Een verrijkingsactiviteit toevoegen {#enrichment-configuration}
 
@@ -40,7 +38,7 @@ Volg deze stappen om de **1} activiteit van de Verrijking {te vormen:**
 
 1. Voeg activiteiten zoals **toe bouwt publiek** en **combineer** activiteiten.
 1. Voeg een **Verrijking** activiteit toe.
-1. Als er meerdere overgangen zijn geconfigureerd in uw werkstroom, kunt u het veld **[!UICONTROL Primary set]** gebruiken om te definiëren welke overgang moet worden gebruikt als primaire set om te verrijken met gegevens.
+1. Als er meerdere overgangen zijn geconfigureerd in uw workflow, gebruikt u het veld **[!UICONTROL Primary set]** om te definiëren welke overgang moet worden gebruikt als de primaire set voor verrijking.
 
 ## Verrijkingsgegevens toevoegen {#enrichment-add}
 
@@ -52,19 +50,19 @@ Volg deze stappen om de **1} activiteit van de Verrijking {te vormen:**
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_data"
 >title="Verrijkingsactiviteit"
->abstract="Zodra de verrijkingsgegevens aan het werkschema zijn toegevoegd, kan het in de activiteiten worden gebruikt die na de activiteit van de Verrijking worden toegevoegd om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes te creëren die eerder aan uw doelpubliek zullen resoneren."
+>abstract="Zodra de verrijkingsgegevens aan het werkschema worden toegevoegd, kan het in verdere activiteiten worden gebruikt om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes tot stand te brengen die met uw doelpubliek resoneren."
 
-1. Klik **toevoegen verrijkingsgegevens** en selecteer de attributen om de gegevens te gebruiken te verrijken. [ leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../../get-started/attributes.md)
+1. Klik **toevoegen verrijkingsgegevens** en selecteer de attributen om voor verrijking te gebruiken. [ Leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../../get-started/attributes.md).
 
-   U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van de doelafmeting, of een inzamelingsverbinding. Elk van deze typen wordt in de volgende voorbeelden beschreven:
+   U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van de doelafmeting of een inzamelingsverbinding. Elk type wordt in de volgende voorbeelden beschreven:
    * [Enkel verrijkingskenmerk](#single-attribute)
-   * [Verzamelaar](#collection-link)
+   * [Verzamelingskoppeling](#collection-link)
 
    >[!NOTE]
    >
-   >De **geeft uitdrukkingsknoop** in het scherm van de attributenselectie uit staat u toe om geavanceerde uitdrukkingen te bouwen om de attributen te selecteren. [ Leer hoe te met de uitdrukkingsredacteur ](../../query/expression-editor.md) te werken
+   >De **geeft uitdrukkingsknoop** in het scherm van de attributenselectie uit staat u toe om geavanceerde uitdrukkingen te bouwen om de attributen te selecteren. [ Leer hoe te met de uitdrukkingsredacteur ](../../query/expression-editor.md) te werken.
 
-   ![](../assets/workflow-enrichment1.png)
+   ![ Schermafbeelding die het selectiescherm van de verrijkingsgegevens toont ](../assets/workflow-enrichment1.png)
 
 ## Koppelingen maken tussen tabellen {#create-links}
 
@@ -77,15 +75,15 @@ Met de sectie **[!UICONTROL Link definition]** kunt u een koppeling maken tussen
 
 Er zijn verschillende typen koppelingen beschikbaar:
 
-* **[!UICONTROL 1 cardinality simple link]**: Elke record uit de primaire set kan worden gekoppeld aan één record uit de gekoppelde gegevens.
-* **[!UICONTROL 0 or 1 cardinality simple link]**: Elke record uit de primaire set kan worden gekoppeld aan 0- of 1-record uit de gekoppelde gegevens, maar niet aan meer dan één record.
-* **[!UICONTROL N cardinality collection link]**: Elke record uit de primaire set kan worden gekoppeld aan 0, 1 of meer (N) records uit de gekoppelde gegevens.
+* **[!UICONTROL 1 cardinality simple link]**: Elke record uit de primaire set is gekoppeld aan één record uit de gekoppelde gegevens.
+* **[!UICONTROL 0 or 1 cardinality simple link]**: Elke record uit de primaire set wordt gekoppeld aan 0 of 1 record uit de gekoppelde gegevens, maar niet aan meer dan één record.
+* **[!UICONTROL N cardinality collection link]**: Elke record uit de primaire set is gekoppeld aan 0, 1 of meer (N) records uit de gekoppelde gegevens.
 
 Ga als volgt te werk om een koppeling te maken:
 
 1. Klik in de sectie **[!UICONTROL Link definition]** op de knop **[!UICONTROL Add link]** .
 
-   ![](../assets/workflow-enrichment-link.png)
+   ![ Schermafbeelding die de sectie van de verbindingsdefinitie toont ](../assets/workflow-enrichment-link.png)
 
 1. In het **type van Verhouding** drop-down lijst, kies het type van verbinding u wilt tot stand brengen.
 

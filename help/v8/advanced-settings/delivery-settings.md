@@ -4,7 +4,7 @@ title: Leveringsinstellingen configureren
 description: Leer hoe te om leveringsmontages in het Web van de Campagne te vormen
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
 source-wordcount: '2597'
 ht-degree: 4%
@@ -144,7 +144,7 @@ Voor e-mailberichten kunt u ook de **[!UICONTROL Mail formats]** van de verzonde
   >
   >Deze optie omvat beide versies van het document. Daarom is dit van invloed op de snelheid van levering, omdat de e-mailgrootte groter is.
 
-* **[!UICONTROL Send all messages in text format]**: De e-mail wordt verzonden in tekstopmaak. De indeling HTML wordt niet verzonden, maar wordt alleen voor de spiegel gebruikt wanneer de ontvanger op de e-mail klikt.
+* **[!UICONTROL Send all messages in text format]**: De e-mail wordt verzonden in tekstopmaak. De HTML-indeling wordt niet verzonden, maar wordt alleen voor de spiegel gebruikt wanneer de ontvanger op de e-mail klikt.
 
 ## Webanalyse {#web-analytics}
 

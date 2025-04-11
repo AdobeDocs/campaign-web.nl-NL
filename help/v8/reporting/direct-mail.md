@@ -3,16 +3,16 @@ audience: end-user
 title: Rapporten via e-mail
 description: Ontdek hoe u rapporten via Direct mail kunt openen en gebruiken
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: 5cedffdc504ef82cbd3a262beb80d3c55f2831ab
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
 
 # Rapport voor verzending via e-mail {#direct-mail-report}
 
-Het **Directe rapport van de postlevering** biedt uitvoerige inzichten en gegevens specifiek voor uw Directe postlevering aan. Het biedt gedetailleerde informatie over de prestaties, effectiviteit en resultaten van uw afzonderlijke leveringen, zodat u een uitgebreid overzicht krijgt.
+Het **Directe rapport van de postlevering** verstrekt uitvoerige inzichten en gegevens specifiek voor uw Directe postlevering. Het omvat gedetailleerde informatie over de prestaties, de doeltreffendheid, en de resultaten van individuele leveringen, die een volledig overzicht aanbieden.
 
 ## Leveringsoverzicht {#delivery-summary-direct-mail}
 
@@ -23,17 +23,15 @@ Het **Directe rapport van de postlevering** biedt uitvoerige inzichten en gegeve
 >title="Overzicht van levering"
 >abstract="Het **Overzicht van de Levering** stelt zeer belangrijke prestatiesmetriek (KPIs) voor die diepgaande inzichten in de interactie van uw bezoekers met elke directe postlevering aanbieden. De meetgegevens worden hieronder beschreven."
 
-In **[!UICONTROL Delivery Overview]** vindt u gedetailleerde informatie over de manier waarop uw bezoekers omgaan met elke direct-maillevering. Zo ziet u essentiële prestatiemetriek (KPI&#39;s).  De meetgegevens worden hieronder beschreven.
+In **[!UICONTROL Delivery Overview]** vindt u gedetailleerde informatie over de interactie tussen bezoekers met elke direct-maillevering, waarbij essentiële prestatiemetriek (KPI&#39;s) worden weergegeven. De meetgegevens worden hieronder beschreven.
 
-![](assets/direct-overview.png){zoomable="yes"}{align="center"}
+![ grafiek van de overzichtsmetriek van de levering die zeer belangrijke prestatiesindicatoren voor directe postlevering tonen.](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
 +++ Meer informatie over overzichtsmetriek voor levering.
 
 * **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
-
-* **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat voldoet aan de doelprofielen voor uw e-mailberichten.
-
-* **[!UICONTROL To exclude]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat uw e-mailberichten niet ontvangt.
+* **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor direct-mailberichten wordt gekwalificeerd.
+* **[!UICONTROL To exclude]**: Aantal gebruikersprofielen dat is uitgesloten van de doelprofielen en dat geen directe-mailberichten ontvangt.
 +++
 
 ### Oorspronkelijke doelpopulatie {#direct-mail-delivery-targeted-population}
@@ -43,20 +41,18 @@ In **[!UICONTROL Delivery Overview]** vindt u gedetailleerde informatie over de 
 >title="Oorspronkelijke doelpopulatie"
 >abstract="De **Aanvankelijke doelpopulatie** grafiek toont gegevens met betrekking tot uw ontvangers en berichten, die op de resultaten van de leveringsvoorbereiding worden gebaseerd."
 
-In de grafiek van **[!UICONTROL Initial target population]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De metriek worden berekend tijdens levering voorbereiding en toon: het aanvankelijke publiek, het aantal te verzenden berichten, het aantal uitgesloten ontvangers.
+In de grafiek van **[!UICONTROL Initial target population]** worden gegevens weergegeven die betrekking hebben op ontvangers. De metriek worden berekend tijdens levering voorbereiding en omvat het aanvankelijke publiek, het aantal te verzenden berichten, en het aantal uitgesloten ontvangers.
 
-![](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"}
+![ Aanvankelijke grafiek van de doelbevolking die publieksgrootte toont, te verzenden berichten, en uitsluitingen.](assets/direct-mail-delivery-targeted-population.png){zoomable="yes"}
 
-Plaats de muis boven een gedeelte van de grafiek om het exacte getal weer te geven.
+Plaats de muis boven een deel van de grafiek om het exacte getal weer te geven.
 
-![](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
+![ Gedetailleerde mening van de aanvankelijke grafiek van de doelbevolking met muisfunctionaliteit.](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
 +++ Meer informatie over de cijfers van rapporten voor Direct-mail-levering.
 
 * **[!UICONTROL Initial audience]**: het totale aantal beoogde ontvangers.
-
 * **[!UICONTROL To deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
-
 * **[!UICONTROL Exclusion]**: Het totale aantal ontvangers dat is uitgesloten van de doelpopulatie.
 +++
 
@@ -67,20 +63,16 @@ Plaats de muis boven een gedeelte van de grafiek om het exacte getal weer te gev
 >title="Leveringsstatistieken"
 >abstract="De **grafiek van de Statistieken van de Levering** detailleert het succes van uw Directe postlevering, en fouten die voorkwamen."
 
-De grafiek van **[!UICONTROL Delivery statistics]** biedt een uitgebreid overzicht van uw prestaties van de levering, die gedetailleerde metriek aanbieden om succes en doeltreffendheid te meten.
+De grafiek van **[!UICONTROL Delivery statistics]** geeft een overzicht van de prestaties van de levering en biedt gedetailleerde meetgegevens om succes en doeltreffendheid te meten.
 
-![](assets/direct-mail-delivery-stats.png){zoomable="yes"}
+![ grafiek van de statistiek van de Levering die succespercentages, fouten, en quarantines toont.](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
 +++ Meer informatie over de gegevens van het campagnerapport voor Direct mail.
 
 * **[!UICONTROL Message sent]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
-
 * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
-
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
-
-* **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (onbekend, ongeldig domein) in verhouding tot het aantal te leveren berichten.
-
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen en automatische oplaadbewerkingen is geaccumuleerd in vergelijking met het aantal te leveren berichten.
+* **[!UICONTROL New quarantines]**: Het totale aantal adressen dat na mislukte levering in quarantaine is geplaatst (bv. onbekende gebruiker, ongeldig domein) vergeleken met het aantal te leveren berichten.
 +++
 
 ### Oorzaken van uitsluiting {#direct-mail-delivery-exclusions}
@@ -90,26 +82,19 @@ De grafiek van **[!UICONTROL Delivery statistics]** biedt een uitgebreid overzic
 >title="Uitsluitingsoorzaken"
 >abstract="De **Oorzaken van uitsluiting** grafiek illustreert de distributie van verworpen berichten tijdens de voorbereiding voor levering, die door elke regel wordt gecategoriseerd."
 
-De grafiek van **[!UICONTROL Causes of exclusion]** verstrekt een gedetailleerde specificatie van de redenen achter berichten die tijdens het proces van leveringsvoorbereiding worden verworpen. Deze uitsplitsing is volgens verschillende regels georganiseerd en biedt een volledig beeld van de factoren die bijdragen tot uitsluiting van berichten. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types) {_blank}.
+De grafiek **[!UICONTROL Causes of exclusion]** geeft een overzicht van de redenen voor het afwijzen van berichten tijdens de voorbereiding van de levering. Deze uitsplitsing wordt volgens verschillende regels georganiseerd en biedt een gedetailleerd overzicht van de factoren die bijdragen tot uitsluiting van berichten. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types) {_blank}.
 
-![](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
+![ Oorzaken van uitsluitingsgrafiek die distributie van verworpen berichten door regel tonen.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 +++Meer informatie over oorzaken van uitsluitingsmetingen.
 
-* **[!UICONTROL Address in quarantine]**: Fouttype dat wordt gegenereerd wanneer het adres in quarantaine wordt geplaatst.
-
-* **[!UICONTROL Address not specified]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet bestaat.
-
+* **[!UICONTROL Address in quarantine]**: Fouttype dat wordt gegenereerd wanneer een adres in quarantaine wordt geplaatst.
+* **[!UICONTROL Address not specified]**: Fouttype dat wordt gegenereerd wanneer een adres niet bestaat.
 * **[!UICONTROL Bad quality address]**: Fouttype dat wordt gegenereerd wanneer de kwaliteitsbeoordeling van het postadres te laag is.
-
-* **[!UICONTROL Denylisted address]**: Het type van fout produceerde toen de ontvanger werd gevoegd op lijst van gewenste personen toen de levering werd uitgevoerd.
-
-* **[!UICONTROL Double]**: Fouttype dat is gegenereerd toen de ontvanger werd uitgesloten, omdat de toetswaarden niet uniek waren.
-
+* **[!UICONTROL Denylisted address]**: Fouttype dat is gegenereerd toen de ontvanger tijdens de levering werd gevoegd op lijst van gewenste personen.
+* **[!UICONTROL Double]**: Fouttype dat is gegenereerd toen de ontvanger werd uitgesloten vanwege niet-unieke sleutelwaarden.
 * **[!UICONTROL Control group]**: Het adres van de ontvanger maakt deel uit van de controlegroep.
-
 * **[!UICONTROL Target limited in size]**: De maximale leveringsgrootte is bereikt voor de ontvanger.
-
 +++
 
 ### Uitsluitingen {#direct-mail-exclusions}
@@ -119,8 +104,8 @@ De grafiek van **[!UICONTROL Causes of exclusion]** verstrekt een gedetailleerde
 >title="Uitsluitingen"
 >abstract="De tabel **[!UICONTROL Exclusions]** bevat een gedetailleerde uitsplitsing, per regel, van berichten die tijdens de voorbereiding van de levering zijn afgewezen."
 
-De tabel **[!UICONTROL Exclusions]** bevat een diepgaande uitsplitsing, gecategoriseerd op basis van specifieke regels, van berichten die tijdens de voorbereidingsfase van de levering zijn afgewezen. Deze uitgebreide uitsplitsing maakt het mogelijk een duidelijk inzicht te krijgen in de redenen waarom deze berichten van het leveringsproces worden uitgesloten.
+De tabel **[!UICONTROL Exclusions]** bevat een gedetailleerde uitsplitsing, gecategoriseerd op basis van specifieke regels, van berichten die tijdens de voorbereiding van de levering zijn geweigerd. Deze uitsplitsing geeft een duidelijk inzicht in de redenen achter berichtenuitsluitingen.
 
-![](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
+![ lijst van uitsluitingen die gedetailleerde uitsplitsing van verworpen berichten door regel tonen.](assets/direct-mail-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 Beschikbare metriek zijn het zelfde als voor [ hierboven beschreven Oorzaken van uitsluiting ](#direct-mail-delivery-exclusions).

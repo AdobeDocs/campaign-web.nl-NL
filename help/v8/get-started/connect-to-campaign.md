@@ -2,9 +2,9 @@
 title: Verbinding maken met de Adobe Campaign-webinterface
 description: Leer hoe u verbinding maakt met de gebruikersinterface van Adobe Campaign Web
 exl-id: 5a8023a9-5b9e-429f-ba56-b01423993e55
-source-git-commit: 11bad3c29ebeb4e81187ae2c1786262b6ac89a70
+source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -17,34 +17,33 @@ Experience Cloud is een geïntegreerde Adobe-reeks met digitale marketingtoepass
 
 U kunt Single Sign-On (SSO) alleen gebruiken om verbinding te maken met Campaign. Experience Cloud-beheerders verlenen doorgaans toegang tot toepassingen en services. Voer de stappen in uw e-mailuitnodiging voor de Experience Cloud uit.
 
-U kunt zich als volgt aanmelden bij Adobe Experience Cloud:
+Voer de volgende eenvoudige stappen uit om u aan te melden bij Adobe Experience Cloud:
 
-1. Blader naar [ Adobe Experience Cloud ](https://experience.adobe.com/){target="_blank"}.
+1. Blader aan [ Adobe Experience Cloud ](https://experience.adobe.com/) {target="_blank"}.
 
-1. Meld u aan met uw Adobe ID of Enterprise ID. Leer meer over identiteitstypes bij Adobe in [ dit artikel ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+1. Meld u aan met uw Adobe ID of Enterprise ID. Leer meer over identiteitstypes bij Adobe in [ dit artikel ](https://helpx.adobe.com/enterprise/using/identity.html) {target="_blank"}.
 
    Nadat u zich hebt aangemeld bij Experience Cloud, hebt u snel toegang tot al uw oplossingen en toepassingen.
 
-   ![](assets/exc-home.png){zoomable="yes"}
+   ![ Schermafbeelding die de homepage van Adobe Experience Cloud toont ](assets/exc-home.png){zoomable="yes"}
 
 1. Controleer of u zich in de juiste organisatie bevindt.
 
-   ![](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
+   ![ Schermafbeelding die organisatie selectie in Adobe Experience Cloud tonen ](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   Leer meer over Organisaties in Adobe Experience Cloud in [ dit artikel ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl){target="_blank"}.
-
+   Leer meer over organisaties in Adobe Experience Cloud in [ dit artikel ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl) {target="_blank"}.
 
 ## Toegang tot Adobe Campaign {#access-to-campaign}
 
 Om tot uw milieu van de Campagne toegang te hebben, selecteer **Campagne** van de **Snelle sectie van de Toegang** van de homepage van Adobe Experience Cloud.
 
-Als u al bent verbonden met een andere Adobe Experience Cloud-oplossing, kunt u ook vanuit de oplossingsschakelaar rechtsboven in het scherm naar de Campagne-omgeving bladeren.
+Als u al bent verbonden met een andere Adobe Experience Cloud-oplossing, bladert u vanuit de oplossingsschakelaar rechtsboven in het scherm naar de omgeving van uw campagne.
 
-![](assets/solution-switcher.png){zoomable="yes"}
+![ Screenshot die de oplossingsschakelaar in Adobe Experience Cloud ](assets/solution-switcher.png){zoomable="yes"} tonen
 
 Als u toegang tot veelvoudige milieu&#39;s, met inbegrip van het Controlebord van de Campagne hebt, klik de **1} knoop van de Lancering {voor de correcte instantie.**
 
-![](assets/launch-campaign.png){zoomable="yes"}
+![ Schermafbeelding die de knoop van de Lancering voor Adobe Campaign toont ](assets/launch-campaign.png){zoomable="yes"}
 
 U bent nu verbonden met Campagne. Leer hoe te beginnen het gebruikersinterface in [ te gebruiken deze pagina ](user-interface.md).
 
@@ -85,11 +84,11 @@ U bent nu verbonden met Campagne. Leer hoe te beginnen het gebruikersinterface i
 >title="Deze workflow is alleen-lezen"
 >abstract="U hebt geen machtigingen om deze workflow te bewerken. Indien nodig, contacteer uw beheerder om u toegang te verlenen."
 
-Met toegangsbeheer kunt u de toegang tot objecten en gegevens uit hoofdlijsten beperken, zoals leveringen, ontvangers of workflows. Deze beperkingen zijn ook van toepassing in de boomstructuur van de Explorer. Daarnaast hebt u machtigingen nodig om objecten te maken, verwijderen, dupliceren en bewerken vanuit de gebruikersinterface.
+Toegangsbeheer beperkt toegang tot objecten en gegevens uit hoofdlijsten, zoals leveringen, ontvangers of workflows. Deze beperkingen zijn ook van toepassing in de boomstructuur van de Explorer. Daarnaast hebt u machtigingen nodig om objecten te maken, verwijderen, dupliceren en bewerken vanuit de gebruikersinterface.
 
-Alle toestemmingen in het Web van de Campagne worden gesynchroniseerd omhoog met de toestemmingen van de Console van de Cliënt van de Campagne. Alleen campagnebeheerders kunnen gebruikersmachtigingen definiëren en wijzigen.
+Alle toestemmingen in het Web van de Campagne synchroniseren met de toestemmingen van de Console van de Cliënt van de Campagne. Alleen campagnebeheerders kunnen gebruikersmachtigingen definiëren en wijzigen.
 
-Terwijl u door de gebruikersinterface van het Web van de Campagne bladert, kunt u tot gegevens, tot voorwerpen en tot mogelijkheden afhankelijk van uw toestemmingen toegang hebben. Als u bijvoorbeeld geen toegangsmachtigingen hebt voor een map, kunt u deze niet zien. Uw machtigingen zijn ook van toepassing op objecten en gegevensbeheer. Zonder Schrijfmachtigingen voor een specifieke map kunt u geen levering in die map maken, zelfs niet als u deze kunt zien in de gebruikersinterface.
+Wanneer u door de gebruikersinterface van het Web Campagne bladert, hebt u afhankelijk van uw machtigingen toegang tot gegevens, objecten en mogelijkheden. Als u bijvoorbeeld geen toegangsmachtigingen hebt voor een map, kunt u deze niet zien. Uw machtigingen zijn ook van toepassing op objecten en gegevensbeheer. Zonder Schrijfmachtigingen voor een specifieke map kunt u geen levering in die map maken, zelfs niet als u deze kunt zien in de gebruikersinterface.
 
 U kunt leren hoe te [ bekijken en toestemmingen hier beheren ](permissions.md).
 
@@ -97,18 +96,18 @@ U kunt leren hoe te [ bekijken en toestemmingen hier beheren ](permissions.md).
 
 Blader naar de bovenste balk van de interface:
 
-* delen terugkoppelt over de gebruikersinterface van het Web van de Campagne
-* schakelen tussen uw organisaties
-* schakelen tussen uw Adobe Experience Cloud-oplossingen en -toepassingen
-* onderzoek naar hulp op [ de Liga van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/){target="_blank"}
-* productmeldingen controleren
-* geef uw profiel van Adobe uit en beheer montages, zoals [ werk uw favoriete taal ](#language-pref) of [ schakelaar aan licht/donker thema ](#dark-theme) bij
+* Deel feedback over de gebruikersinterface van Campagne Web.
+* Schakel tussen uw organisaties.
+* Schakel tussen uw Adobe Experience Cloud-oplossingen en -toepassingen.
+* Onderzoek naar hulp op [ de Liga van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/) {target="_blank"}.
+* Controleer de productmeldingen.
+* Bewerk uw profiel van Adobe en beheer montages, zoals [ werk uw favoriete taal ](#language-pref) of [ schakelaar aan licht/donker thema ](#dark-theme) bij.
 
-![](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
+![ Schermafbeelding die de bovenste navigatiebalk van Adobe Experience Cloud tonen ](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
 
 ## Ondersteunde browsers {#browsers}
 
-Adobe Campaign Web is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome, Safari en Microsoft Edge. Mogelijk kunt u problemen ondervinden bij het gebruik van bepaalde functies in oudere versies of andere browsers.
+Adobe Campaign Web is ontworpen om optimaal te werken in de nieuwste versie van Google Chrome, Safari en Microsoft Edge. Er kunnen problemen optreden met bepaalde functies in oudere versies of andere browsers.
 
 ## Taalvoorkeuren {#language-pref}
 
@@ -125,19 +124,19 @@ Adobe Campaign Web is momenteel beschikbaar in de volgende talen:
 * Vereenvoudigd Chinees - CHS
 * Traditioneel Chinees - CHT
 
-
 Uw standaardtaal voor het Web van de Campagne wordt bepaald door de aangewezen taal die in uw gebruikersprofiel wordt gespecificeerd. Het heeft geen betrekking op de taal van uw Campagneserver en cliëntconsole.
 
 De taal wijzigen:
 
 1. Klik op uw profielpictogram, op het hoogste recht, dan uitgezochte **Voorkeur**.
-1. Klik vervolgens op de taalkoppeling die onder uw e-mailadres wordt weergegeven.
+1. Klik op de taalkoppeling die onder uw e-mailadres wordt weergegeven.
 1. Selecteer uw aangewezen taal en klik **sparen**. U kunt een tweede taal selecteren als de component die u gebruikt niet in uw eerste taal is gelokaliseerd.
+
 
 ## Donkere en lichte thema&#39;s {#dark-theme}
 
-Adobe Campaign is beschikbaar in lichte en donkere thema&#39;s. Standaard is de gebruikersinterface ingeschakeld in licht thema. Om op het donkere thema over te schakelen, klik op uw profielpictogram, en gebruik **Donkere thema** knevel om het toe te laten/onbruikbaar te maken.
+Adobe Campaign is beschikbaar in lichte en donkere thema&#39;s. Standaard is de gebruikersinterface ingeschakeld in licht thema. Om op het donkere thema over te schakelen, klik op uw profielpictogram, en gebruik **Donkere thema** knevel om het toe te laten of onbruikbaar te maken.
 
-De het profielmontages en de rekeningsvoorkeur van de gebruiker zijn gedetailleerd in [ deze sectie ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}.
+De het profielmontages en de rekeningsvoorkeur van de gebruiker zijn gedetailleerd in [ deze sectie ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences) {target="_blank"}.
 
-Leer meer over de Componenten van de Interface van Experience Cloud Centrale in [ deze documentatie ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}.
+Leer meer over de Componenten van de Interface van Experience Cloud Centrale in [ deze documentatie ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html) {target="_blank"}.

@@ -3,12 +3,13 @@ audience: end-user
 title: Een levering met pushberichten ontwerpen
 description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: 696851865249d420764f1f3efe0974778f7e7dae
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1516'
 ht-degree: 0%
 
 ---
+
 
 # Een pushaanbieding ontwerpen {#content-push}
 
@@ -29,7 +30,6 @@ ht-degree: 0%
 >title="IOS-bericht induwen"
 >abstract="Definieer de inhoud van uw pushmelding voor iOS-apparaten. Om uw bericht samen te stellen, klik de **Titel** en **gebieden van het Bericht**. Gebruik de redacteur van de Uitdrukking om gegevens aan te passen, en dynamische inhoud toe te voegen. Voor meer douaneconfiguratie, doorblader aan de **Geavanceerde montages** sectie."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_android_msg"
 >title="Android-bericht induwen"
@@ -38,63 +38,59 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_ios_silent"
 >title="Stil bericht voor iOS"
->abstract="In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar een mobiele toepassing. De gebruiker wordt niet op de hoogte gebracht van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen."
+>abstract="In de modus Silent Push kan een melding &#39;silent&#39; worden verzonden naar een mobiele toepassing. De gebruiker wordt niet op de hoogte gebracht van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen."
 
-Nadat u de pushservice hebt gemaakt, kunt u de inhoud ervan definiëren. Parameters en instellingen zijn afhankelijk van het mobiele besturingssysteem: Android of iOS. Blader op de onderstaande tabbladen om te leren hoe u uw bericht voor elk besturingssysteem kunt samenstellen.
+Wanneer u de pushservice hebt gemaakt, definieert u de inhoud ervan. Parameters en instellingen zijn afhankelijk van het mobiele besturingssysteem: Android of iOS. Blader op de onderstaande tabbladen om te leren hoe u uw bericht voor elk besturingssysteem kunt samenstellen.
 
 >[!BEGINTABS]
 
 >[!TAB  Android ]
 
-Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
+Kies bij Firebase Cloud Messaging een van de volgende twee typen berichten:
 
 * **[!UICONTROL Data message]** wordt afgehandeld door de clienttoepassing. Deze berichten worden rechtstreeks verzonden naar de mobiele toepassing, die een Android-melding op het apparaat genereert en weergeeft. Gegevensberichten bevatten alleen aangepaste toepassingsvariabelen.
 
-  Als u de inhoud wilt definiëren, gegevens wilt aanpassen en dynamische inhoud wilt toevoegen, klikt u op het veld **[!UICONTROL Message]** en gebruikt u de expressie-editor. U kunt tot deze redacteur toegang hebben om uw berichten aan te passen.
-In het menu **[!UICONTROL Application variables]** worden de toepassingsvariabelen automatisch toegevoegd. Met deze variabelen kunt u berichtgedrag definiëren. U kunt bijvoorbeeld een specifiek toepassingsscherm configureren dat wordt weergegeven wanneer de gebruiker het bericht activeert.
+  Als u de inhoud wilt definiëren, gegevens wilt aanpassen en dynamische inhoud wilt toevoegen, klikt u op het veld **[!UICONTROL Message]** en gebruikt u de expressie-editor. Heb toegang tot deze redacteur om uw berichten aan te passen.
+In het menu **[!UICONTROL Application variables]** worden automatisch toepassingsvariabelen toegevoegd. Met deze variabelen kunt u berichtgedrag definiëren. Configureer bijvoorbeeld een specifiek toepassingsscherm dat moet worden weergegeven wanneer de gebruiker het bericht activeert.
 
-  ![](assets/push_content_4.png){zoomable="yes"}
+  ![ Beschrijving: Voorbeeld van het bepalen van inhoud voor een gegevensbericht in de berichten van Android ](assets/push_content_4.png){zoomable="yes"}
 
 * De **[!UICONTROL Notification message]** , die automatisch wordt afgehandeld door de FCM SDK. FCM geeft automatisch het bericht weer op de apparaten van uw gebruikers namens de client-app. Meldingsberichten bevatten een vooraf gedefinieerde set parameters en opties, maar kunnen nog steeds verder worden aangepast met aangepaste toepassingsvariabelen.
 
-  Klik op de velden **[!UICONTROL Title]** en **[!UICONTROL Message]** om uw bericht samen te stellen. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen.
+  Klik op de velden **[!UICONTROL Title]** en **[!UICONTROL Message]** om uw bericht samen te stellen. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren, en dynamische inhoud toe te voegen.
 
-  Als u uw pushmelding verder wilt aanpassen, kunt u een afbeelding kiezen die u aan uw pushmelding wilt toevoegen, het pictogram van het bericht dat u op de apparaten van uw profielen wilt weergeven en de kleur van het bericht.
+  Als u uw pushmelding verder wilt aanpassen, kiest u een afbeelding die u aan uw pushmelding wilt toevoegen, het pictogram van het bericht dat u op de apparaten van uw profielen wilt weergeven en de kleur van het bericht.
 
-  ![](assets/push_content_3.png){zoomable="yes"}
+  ![ Beschrijving: Voorbeeld van het bepalen van inhoud voor een berichtbericht in de berichten van Android ](assets/push_content_3.png){zoomable="yes"}
 
 >[!TAB  iOS ]
 
-Klik op de velden **[!UICONTROL Title]** en **[!UICONTROL Message]** om uw bericht samen te stellen. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren en dynamische inhoud toe te voegen.
+Klik op de velden **[!UICONTROL Title]** en **[!UICONTROL Message]** om uw bericht samen te stellen. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren, en dynamische inhoud toe te voegen.
 
-U kunt een **[!UICONTROL Subtitle]** -waarde van de ondertitelparameter van de iOS-berichtlading toevoegen. Zie deze sectie.
+U kunt een **[!UICONTROL Subtitle]** toevoegen. Dit is de waarde van de ondertitelparameter van de iOS-berichtlading. Zie deze sectie.
 
 In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar een mobiele toepassing. De gebruiker wordt niet op de hoogte gebracht van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen.
 
-![](assets/push_content_1.png){zoomable="yes"}
+![ Beschrijving: Voorbeeld van het bepalen van inhoud voor de berichten van iOS ](assets/push_content_1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
 ## Geavanceerde instellingen voor pushmeldingen {#push-advanced}
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings"
 >title="Geavanceerde instellingen voor pushberichten"
 >abstract="Definieer geavanceerde instellingen voor uw pushmelding, zoals de prioriteit, het aantal meldingen dat eraan is gekoppeld, toepassingsvariabelen en meer."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_critical"
 >title="Modus Kritieke waarschuwing"
 >abstract="Schakel deze optie in om geluid aan uw melding toe te voegen, zelfs wanneer de telefoon van de gebruiker is ingesteld op de focusmodus of wanneer het apparaat wordt gedempt. Dit zorgt ervoor dat gebruikers in elk geval op de hoogte worden gesteld van belangrijke waarschuwingen."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_count"
 >title="Aantal meldingen"
 >abstract="Gebruik deze optie om het aantal ongelezen meldingen in te stellen dat rechtstreeks op het app-pictogram moet worden weergegeven. Hierdoor kan de gebruiker snel zien hoeveel meldingen in behandeling zijn."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_mutable"
@@ -106,12 +102,10 @@ In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar
 >title="Relevantiescore"
 >abstract="Plaats een relevantiescore van 0 tot 100 om de orde van berichten in de berichtsamenvatting voorrang te geven. Hogere scores duiden op belangrijkere meldingen."
 
-
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_app_variables"
 >title="Toepassingsvariabelen"
 >abstract="Gebruik toepassingsvariabelen om berichtgedrag te bepalen. Deze variabelen kunnen volledig worden aangepast en worden opgenomen in de berichtlading die naar het mobiele apparaat wordt verzonden."
-
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_advanced_settings_category"
@@ -124,7 +118,7 @@ Geavanceerde opties zijn afhankelijk van het mobiele besturingssysteem: Android 
 
 >[!TAB  Android ]
 
-![](assets/push_content_5.png){zoomable="yes"}
+![ Beschrijving: Voorbeeld van geavanceerde montages voor de berichten van Android ](assets/push_content_5.png){zoomable="yes"}
 
 | Parameter | Beschrijving |
 |---------|---------|
@@ -140,7 +134,7 @@ Geavanceerde opties zijn afhankelijk van het mobiele besturingssysteem: Android 
 
 >[!TAB  iOS ]
 
-![](assets/push_content_2.png){zoomable="yes"}
+![ Beschrijving: Voorbeeld van geavanceerde montages voor de berichten van iOS ](assets/push_content_2.png){zoomable="yes"}
 
 | Parameter | Beschrijving |
 |---------|---------|
@@ -150,10 +144,10 @@ Geavanceerde opties zijn afhankelijk van het mobiele besturingssysteem: Android 
 | **[!UICONTROL Volume]** | Volume van het geluid van 0 tot 100. |
 | **[!UICONTROL Mutable content]** | Schakel deze optie in als u wilt dat de mobiele toepassing media-inhoud kan downloaden die aan het bericht is gekoppeld. Zie [Apple Developer documentatie](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html) voor meer informatie hierover. |
 | **[!UICONTROL Relevance score]** | Plaats een relevantiescore van 0 tot 100 om de orde van berichten in de berichtsamenvatting voorrang te geven. Hogere scores duiden op belangrijkere meldingen. |
-| **[!UICONTROL Interruption level]** | <ul> <li>**[!UICONTROL Active]**: standaard ingesteld, geeft het systeem de melding direct weer, licht het scherm op en kan een geluid worden afgespeeld. Meldingen doorbreken niet door de focusmodi.</li><li>**[!UICONTROL Passive]**: het systeem voegt het bericht toe aan de meldingslijst zonder het scherm te belichten of een geluid af te spelen. Meldingen doorbreken niet door de focusmodi.</li><li>**[!UICONTROL Time sensitive]**: Het systeem presenteert de melding direct, licht het scherm op, kan een geluid afspelen en de modus Focus doorbreken. Voor dit niveau is geen speciale toestemming van Apple vereist.</li> <li>**[!UICONTROL Critical]**: Het systeem presenteert de melding direct, licht het scherm op en laat de modi voor demtschakelaar of focus voorbijgaan. Voor dit niveau is een speciale machtiging van Apple vereist.</ul> |
+| **[!UICONTROL Interruption level]** | <ul> <li>**[!UICONTROL Active]**: standaard ingesteld, geeft het systeem de melding direct weer, licht het scherm op en kan een geluid worden afgespeeld. Meldingen doorbreken niet door de focusmodi.</li><li>**[!UICONTROL Passive]**: het systeem voegt het bericht toe aan de meldingslijst zonder het scherm te belichten of een geluid af te spelen. Meldingen doorbreken niet door de focusmodi.</li><li>**[!UICONTROL Time sensitive]**: Het systeem presenteert de melding direct, licht het scherm op, kan een geluid afspelen en doorbreekt de modus Focus. Voor dit niveau is geen speciale toestemming van Apple vereist.</li> <li>**[!UICONTROL Critical]**: Het systeem presenteert de melding direct, licht het scherm op en laat de modi voor demtschakelaar of focus voorbijgaan. Voor dit niveau is speciale toestemming van Apple vereist.</ul> |
 | **[!UICONTROL Thread-id]** | Identifier die wordt gebruikt om gerelateerde meldingen te groeperen. De berichten met zelfde draadidentiteitskaart worden georganiseerd als één enkel gesprek of draad in de berichtlijst. |
 | **[!UICONTROL Category]** | Geef de naam op van de categorie-id die aan het bericht is gekoppeld. Hierdoor kunnen actieknoppen worden weergegeven, zodat de gebruiker verschillende taken rechtstreeks vanuit het bericht kan uitvoeren zonder de toepassing te openen. |
-| **[!UICONTROL Target content ID]** | Identifier die wordt gebruikt om aan te geven welk toepassingsvenster naar voren moet worden gebracht wanneer het bericht wordt geopend. |
+| **[!UICONTROL Target content ID]** | Identifier die wordt gebruikt om aan te geven welk toepassingsvenster moet worden vervroegd wanneer het bericht wordt geopend. |
 | **[!UICONTROL Launch image]** | Geef de naam op van het afbeeldingsbestand dat moet worden weergegeven wanneer de gebruiker de toepassing start via het bericht. De geselecteerde afbeelding wordt weergegeven in plaats van het gewone startscherm van uw toepassing. |
 | **[!UICONTROL Application variables]** | Hiermee kunt u gedrag voor meldingen definiëren. Deze variabelen kunnen volledig worden aangepast en worden opgenomen in de berichtlading die naar het mobiele apparaat wordt verzonden. |
 

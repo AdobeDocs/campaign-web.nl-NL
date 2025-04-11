@@ -3,20 +3,18 @@ audience: end-user
 title: Aanbiedingen toevoegen aan uw berichten
 description: Meer informatie over het toevoegen en verzenden van aanbiedingen
 exl-id: abc3c36d-d475-4474-b4fe-685cf23ff89d
-source-git-commit: 88c6473005cfdf7a43e0d232b75db2b51dbcac40
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
-
 # Aanbiedingen toevoegen aan uw berichten {#offers-content}
 
-In de gebruikersinterface van Adobe Campaign Web kunt u aanbiedingen toevoegen aan uw leveringen. Deze aanbiedingen zijn beschikbaar bij **Aanbiedingen** linker menu dat u tot de lijst van aanbiedingen laat toegang hebben. Al deze aanbiedingen zijn alleen-lezen en moeten zijn gemaakt in de Campagne-clientconsole met de module **[!UICONTROL Interaction]** . Voor meer informatie over Interactie en hoe te om een aanbiedingscatalogus in de console te beheren, verwijs naar de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html) {target="_blank"}.
+In de gebruikersinterface van Adobe Campaign Web kunt u aanbiedingen toevoegen aan uw leveringen. Deze aanbiedingen zijn beschikbaar bij **Aanbiedingen** linkermenu, dat u tot de lijst van aanbiedingen laat toegang hebben. Al deze aanbiedingen zijn read-only en moeten in de de cliëntconsole van de Campagne worden gecreeerd gebruikend de **[!UICONTROL Interaction]** module. Voor meer informatie over Interactie en hoe te om een aanbiedingscatalogus in de console te beheren, verwijs naar de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html) {target="_blank"}.
 
-
-De stappen voor het verzenden van voorstellen met een levering zijn als volgt:
+De stappen voor het verzenden van voorstellen met levering zijn als volgt:
 
 1. [Configureer de aanbiedingen die u wilt voorstellen](#configure)
 1. [Voeg de voorstellen in de levering in](#insert)
@@ -39,13 +37,13 @@ Volg onderstaande stappen om de voorstellen te selecteren die u aan uw levering 
 
 1. Klik op de knop **[!UICONTROL Set up offers]** in het scherm voor de editie van de leveringsinhoud.
 
-   ![](assets/offer-setup.png){zoomable="yes"}
+   ![ Schermschot die de knoop van de aanbiedingsopstelling in het scherm van de uitgave van de leveringsinhoud tonen ](assets/offer-setup.png){zoomable="yes"}
 
 1. Vorm welke aanbiedingen aan de ontvangers zouden moeten worden voorgesteld.
 
    Selecteer eerst de **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving. Leer hoe te om een aanbiedingsruimte in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html) tot stand te brengen {target="_blank"}.
 
-   ![](assets/offer-create-content.png){zoomable="yes"}
+   ![ Schermafbeelding die de selectie van de aanbiedingsruimte in de inhoud van de aanbiedingsverwezenlijking toont ](assets/offer-create-content.png){zoomable="yes"}
 
 1. Als u de keuze van de motor met aanbiedingen wilt verfijnen, selecteert u een specifieke **[!UICONTROL Offer category]** waarin de aanbiedingen worden gesorteerd.
 
@@ -55,7 +53,7 @@ Volg onderstaande stappen om de voorstellen te selecteren die u aan uw levering 
    >
    >Als er geen categorie is opgegeven, worden alle aanbiedingen in de omgeving in aanmerking genomen door de Offertenengine, tenzij er een **[!UICONTROL Offer theme]** is geselecteerd.
 
-1. (optioneel) Voer een thema in om categorieën te filteren. Thema&#39;s zijn trefwoorden die stroomopwaarts in de categorieën zijn gedefinieerd. Ze fungeren als een filter en u kunt het aantal voorstellen dat moet worden gepresenteerd, verfijnen door ze in een set categorieën te selecteren.
+1. (Optioneel) Voer een thema in om categorieën te filteren. Thema&#39;s zijn trefwoorden die stroomopwaarts in de categorieën zijn gedefinieerd. Ze fungeren als een filter en verfijnen het aantal aanbiedingen dat moet worden gepresenteerd door deze in een set categorieën te selecteren.
 
 1. Gebruik het veld **[!UICONTROL Propositions]** om het aantal aanbiedingen op te geven dat u in de levering wilt invoegen.
 
@@ -87,9 +85,9 @@ Volg onderstaande stappen om een aanbieding in te voegen met de expressieeditor.
 
 1. Open de onderwerpregel of de inhoud van een levering.
 
-1. Plaats de cursor van de muis op de plaats waar u de aanbieding wilt invoegen en open de expressieeditor met behulp van het verpersoonlijkingspictogram.
+1. Plaats de curseur waar u de aanbieding wilt opnemen, en open de uitdrukkingsredacteur gebruikend het verpersoonlijkingspictogram.
 
-   ![](assets/offer-insert-perso-icon.png){zoomable="yes"}
+   ![ Schermschot die het verpersoonlijkingspictogram tonen wordt gebruikt om de uitdrukkingsredacteur te openen ](assets/offer-insert-perso-icon.png){zoomable="yes"}
 
 1. Selecteer het menu **[!UICONTROL Propositions]** . De beschikbare voorstellingen worden in de lijst weergegeven.
 
@@ -97,16 +95,16 @@ Volg onderstaande stappen om een aanbieding in te voegen met de expressieeditor.
    >
    >Het aantal voorstellingen wordt bepaald wanneer [ vestiging aanbiedingen ](#configure) voor de huidige levering aanbiedt.
 
-1. Definieer elke voorstelling met behulp van de personalisatievelden, renderfuncties of beschikbare kenmerken.
+1. Definieer elke voorstelling met de velden voor personalisatie, de renderfuncties of de beschikbare kenmerken.
 
-   ![](assets/offer-inserted.png){zoomable="yes"}
+   ![ Schermafbeelding die een aanbieding tonen die in de leveringsinhoud wordt opgenomen ](assets/offer-inserted.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Het aantal beschikbare voorstellen hangt van de manier af de motorvraag wordt gevormd en hun orde hangt van de prioriteit van aanbiedingen af. Leer meer in de [ documentatie van de Campagne v8 (cliëntconsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html) {target="_blank"}.
+   >Het aantal beschikbare voorstellen hangt van de manier af de motorvraag wordt gevormd, en hun orde hangt van de prioriteit van aanbiedingen af. Leer meer in de [ documentatie van de Campagne v8 (cliëntconsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html) {target="_blank"}.
 
 1. Sla uw wijzigingen op.
 
-1. Voltooi de inhoud, test en verzend uw levering. [Meer informatie](gs-messages.md)
+1. Voltooi de inhoud, test en verzend uw levering. [Meer informatie](gs-messages.md).
 
-Wanneer een ontvanger de levering ontvangt, wordt de juiste aanbieding getoond aan dat specifieke profiel.
+Nu, wanneer een ontvanger de levering ontvangt, wordt de juiste aanbieding getoond aan dat specifieke profiel.

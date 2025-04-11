@@ -3,16 +3,16 @@ audience: end-user
 title: Campagnerapporten voor het pushkanaal
 description: Campagnerapporten begrijpen voor het Push-kanaal
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: 717f6f2fb5e07213fb6a16f7ed701f450d1e257e
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
 # Campagnerapporten voor het pushkanaal {#campaign-reports-push-channel}
 
-Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het pushkanaal worden de rapporten en metriek hieronder beschreven. Leer hoe te om tot uw campagnerapporten in [ toegang te hebben deze pagina ](campaign-reports.md).
+Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het pushkanaal worden de rapporten en metriek hieronder beschreven. Leer hoe te om tot uw campagnerapporten op [ toegang te hebben deze pagina ](campaign-reports.md).
 
 ## Leveringsoverzicht {#delivery-summary-push}
 
@@ -23,8 +23,7 @@ Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de
 
 Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop bezoekers de pushmelding uitvoeren. De cijfers worden hieronder beschreven.
 
-![](assets/campaign-reporting-push-summary.png){zoomable="yes"}
-
+![ Summiere metriek van de Levering die in het rapport van het Overzicht van de Levering ](assets/campaign-reporting-push-summary.png){zoomable="yes"} wordt getoond
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
 
@@ -32,7 +31,7 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
-* **[!UICONTROL Errors]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is geaccumuleerd tijdens de levering en automatische retourverwerking, in verhouding tot het totale aantal verzonden berichten.
 
 * **[!UICONTROL Total clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer in een levering heeft geklikt.
 
@@ -40,16 +39,14 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI
 
 ### Eerste doelstatistieken {#delivery-summary-push-initial-target}
 
-
 >[!CONTEXTUALHELP]
 >id="acw_campaign_reporting_push_target"
 >title="Eerste doelstatistieken"
->abstract="De **Aanvankelijke statistieken van het doelpubliek** lijst toont gegevens met betrekking tot uw ontvangers"
+>abstract="De **Aanvankelijke statistieken van het doelpubliek** lijst toont gegevens met betrekking tot uw ontvangers."
 
 In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De cijfers worden hieronder beschreven.
 
-![](assets/campaign-reporting-push-target.png){zoomable="yes"}
-
+![ Aanvankelijke statistieken van het doelpubliek die in het rapport ](assets/campaign-reporting-push-target.png){zoomable="yes"} worden getoond
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
 
@@ -57,7 +54,7 @@ In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens 
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
-* **[!UICONTROL Rejected by rules]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels: adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
+* **[!UICONTROL Rejected by rules]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels, zoals adres mist, quarantined, of op lijst van gewezen personen.
 
 +++
 
@@ -70,17 +67,17 @@ In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens 
 
 In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol de levering is. De cijfers worden hieronder beschreven.
 
-![](assets/campaign-reporting-push-exec.png){zoomable="yes"}
+![ statistieken van de Uitvoering die in het rapport ](assets/campaign-reporting-push-exec.png){zoomable="yes"} worden getoond
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
-* **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
+* **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt, in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat is geaccumuleerd tijdens leveringen en automatische oplaadbewerking, in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL New quarantines]**: Het totale aantal adressen dat na een mislukte levering in quarantaine is geplaatst (ongeldige registratie, berichtafwijzing, payload fout, bijvoorbeeld.) met betrekking tot het aantal te leveren berichten.
+* **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (bijvoorbeeld ongeldige registratie, berichtafwijzing of payload fout), in verhouding tot het aantal te leveren berichten.
 
   De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types) {target="_blank"}.
 
@@ -95,7 +92,7 @@ In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol
 
 In de tabel **[!UICONTROL Generated click streams]** worden gegevens weergegeven die relatief zijn ten opzichte van de manier waarop de ontvangers met de levering hebben gewerkt. De cijfers worden hieronder beschreven.
 
-![](assets/campaign-reporting-push-clicks.png){zoomable="yes"}
+![ Gegenereerde klikstromen die in het rapport ](assets/campaign-reporting-push-clicks.png){zoomable="yes"} worden getoond
 
 +++Meer weten over cijfers voor pushcampagnerapporten?
 
@@ -103,6 +100,6 @@ In de tabel **[!UICONTROL Generated click streams]** worden gegevens weergegeven
 
 * **[!UICONTROL Total clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-* **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
+* **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers die op een levering hebben geklikt, ten opzichte van het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
 +++

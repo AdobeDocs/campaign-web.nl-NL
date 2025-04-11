@@ -3,9 +3,9 @@ audience: end-user
 title: Aan de slag met inhoudsfragmenten
 description: Leer hoe u maakt met inhoudsfragmenten
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: 8fccae9906d7a04ec1e8e10ad7be60f597a43492
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## Wat zijn inhoudsfragmenten? {#what}
 
-Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Wanneer u een fragment wijzigt, wordt alle inhoud die het fragment gebruikt, bijgewerkt. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud samenstellen die marketinggebruikers kunnen gebruiken om snel inhoud van berichten samen te stellen in een verbeterd ontwerpproces.
+Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Wanneer u een fragment wijzigt, wordt alle inhoud die het fragment gebruikt, bijgewerkt. Met deze functionaliteit kunnen marketinggebruikers meerdere blokken aangepaste inhoud vooraf samenstellen en de inhoud van berichten snel samenstellen in een verbeterd ontwerpproces.
 
 Er zijn twee typen fragmenten beschikbaar:
 
-* **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen die van een specifieke ingang in de uitdrukkingsredacteur beschikbaar zijn. De campagne wordt geleverd met een set vooraf gedefinieerde inhoudsblokken die een specifieke rendering bevatten die u in uw leveringen kunt invoegen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. U kunt ook uw eigen expressiefragmenten maken die aan uw wensen voldoen.
+* **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen beschikbaar van een specifieke ingang in de uitdrukkingsredacteur. De campagne omvat een reeks vooraf bepaalde inhoudsblokken die specifieke teruggaven bevatten u in uw leveringen kunt opnemen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. U kunt ook uw eigen expressiefragmenten maken die aan uw wensen voldoen.
 
 * **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige [ e-mailleveringen ](../email/get-started-email-designer.md), of in [ inhoudsmalplaatjes ](../email/use-email-templates.md) kunt hergebruiken.
 
@@ -38,7 +38,7 @@ Er zijn twee typen fragmenten beschikbaar:
 
 ## Laten we dieper duiken
 
-Nu u weet welke inhoudsfragmenten er zijn en wat u ermee kunt doen in Adobe Campaign, is het tijd om dieper in deze documentatiegedeelten te duiken om met de functie te gaan werken.
+Nu u begrijpt wat inhoudsfragmenten zijn en wat u ermee kunt doen in Adobe Campaign, verkent u de volgende documentatiesecties om met de functie te beginnen werken.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

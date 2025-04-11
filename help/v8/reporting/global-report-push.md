@@ -3,16 +3,16 @@ audience: end-user
 title: Globale rapporten voor het kanaal van de Duw
 description: Werken met algemene rapporten voor het pushkanaal
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: 371bccc8371d9ff4a9b1659510953ff7776c2459
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
 
 # Globale rapporten voor het kanaal van de Duw {#campaign-reports-push}
 
-De globale rapporten verstrekken gebruikers een uitvoerig overzicht van verkeer en betrokkenheidsmetriek op kanaal-niveau.
+De globale rapporten verstrekken gebruikers een uitvoerig overzicht van verkeer en betrokkenheidsmetriek op kanaalniveau.
 
 Navigeer naar het menu **[!UICONTROL Reports]** in de sectie **[!UICONTROL Reporting]** . U kunt de gegevens filteren op basis van de rapportdatum, -map of -regels. [Meer informatie](global-reports.md)
 
@@ -27,7 +27,7 @@ Navigeer naar het menu **[!UICONTROL Reports]** in de sectie **[!UICONTROL Repor
 
 Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over hoe uw bezoekers omgaan met elke levering van pushberichten. De cijfers worden hieronder beschreven.
 
-![](assets/global_report_push_delivery_overview.png){zoomable="yes"}
+![ het overzichtsmetriek van de Levering, die KPIs met betrekking tot de prestaties van het dupbericht tonen.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++ Meer informatie over overzichtsmetriek voor levering.
 
@@ -37,7 +37,7 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI
 
 * **[!UICONTROL Total clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer in een levering heeft geklikt.
 
-* **[!UICONTROL Errors]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
+* **[!UICONTROL Errors]**: Totaal aantal fouten die tijdens de levering zijn geaccumuleerd en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
 
 +++
 
@@ -50,7 +50,7 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI
 
 De tabel en grafiek van **[!UICONTROL Targeted audience]** bevatten gegevens die betrekking hebben op uw ontvangers voor elke verzonden pushmelding. De cijfers worden hieronder beschreven.
 
-![](assets/global_report_push_targeted_audience.png){zoomable="yes"}
+![ gerichte publieksmetriek, die gegevens met betrekking tot ontvangers en uitsluitingen voor dupberichten tonen.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++ Meer informatie over de meetgegevens voor doelgroepen.
 
@@ -58,7 +58,7 @@ De tabel en grafiek van **[!UICONTROL Targeted audience]** bevatten gegevens die
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
-* **[!UICONTROL Exclusion]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels: adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
+* **[!UICONTROL Exclusion]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels: het adres ontbreekt, quarantined, op lijst van gewezen personen, en gelijkaardige redenen.
 
 +++
 
@@ -71,7 +71,7 @@ De tabel en grafiek van **[!UICONTROL Targeted audience]** bevatten gegevens die
 
 In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke pushmelding. De cijfers worden hieronder beschreven.
 
-![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
+{de statistieken van 0} levering metriek, die succespercentages, fouten, en quarantines voor duw berichten tonen.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}![
 
 +++ Meer informatie over de statistieken van de Levering metriek.
 
@@ -79,9 +79,9 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke push
 
 * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL Errors / Bounces]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
+* **[!UICONTROL Errors / Bounces]**: Het totale aantal fouten dat tijdens leveringen is geaccumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL New quarantines]**: Het totale aantal adressen dat na een mislukte levering in quarantaine is geplaatst (ongeldige registratie, berichtafwijzing, payload fout, bijvoorbeeld.) met betrekking tot het aantal te leveren berichten.
+* **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine is geplaatst na een mislukte levering (ongeldige registratie, berichtafwijzing, payload fout en vergelijkbare redenen) met betrekking tot het aantal te leveren berichten.
 
   De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types) {target="_blank"}.
 
@@ -105,6 +105,6 @@ De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 
 >title="Leveringsrapport"
 >abstract="Het **rapport van de productie van de Levering** stelt gedetailleerde informatie betreffende de productie van de dupmelding van de levering van het volledige platform binnen een gespecificeerde timeframe voor."
 
-![](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
+![ metriek van de productie van de levering, die succes en foutenpercentages voor dupberichten over een gespecificeerde periode tonen.](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 Het **[!UICONTROL Delivery Throughput]** -rapport biedt uitgebreide inzichten in de doeltreffendheid van het systeem voor de levering van pushberichten, waarmee u een gedetailleerde samenvatting kunt geven van het succes en de foutenpercentages over een bepaalde periode.

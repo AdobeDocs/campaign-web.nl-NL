@@ -3,16 +3,16 @@ audience: end-user
 title: Algemene rapporten voor het e-mailkanaal
 description: Meer informatie over algemene rapporten voor het e-mailkanaal
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: 39dcf11797339ee9800da6c5a32b1a1c3470529a
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1526'
 ht-degree: 1%
 
 ---
 
 # Algemene rapporten voor het e-mailkanaal {#global-report-direct}
 
-De globale rapporten verstrekken gebruikers een uitvoerig overzicht van verkeer en betrokkenheidsmetriek op kanaal-niveau.
+De globale rapporten verstrekken gebruikers een uitvoerig overzicht van verkeer en betrokkenheidsmetriek op kanaalniveau.
 
 Navigeer naar het menu **[!UICONTROL Reports]** in de sectie **[!UICONTROL Reporting]** . U kunt de gegevens filteren op basis van de rapportdatum, -map of -regels. [Meer informatie](global-reports.md)
 
@@ -25,9 +25,9 @@ Navigeer naar het menu **[!UICONTROL Reports]** in de sectie **[!UICONTROL Repor
 >title="Overzicht van levering"
 >abstract="Het **Overzicht van de Levering** stelt zeer belangrijke prestatiesindicatoren (KPIs) voor die diepgaande inzichten in aanbieden hoe uw publiek met de e-mailleveringen en de campagnes interactie aangaat u verzendt."
 
-In **[!UICONTROL Delivery Overview]** vindt u belangrijke prestatiemetriek (KPI&#39;s) met diepgaande inzichten in de interactie van uw bezoekers met elke e-maillevering. De meetgegevens worden hieronder beschreven.
+In **[!UICONTROL Delivery Overview]** worden de belangrijkste prestatiemetriek (KPI&#39;s) gepresenteerd, die diepgaande inzichten biedt in de interactie van uw bezoekers met elke e-maillevering. De meetgegevens worden hieronder beschreven.
 
-![](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
+![ het overzichtsmetriek van de Levering ](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++ Meer informatie over overzichtsmetriek voor levering.
 
@@ -39,7 +39,7 @@ In **[!UICONTROL Delivery Overview]** vindt u belangrijke prestatiemetriek (KPI&
 
 * **[!UICONTROL Total clicks]**: Het totale aantal ontvangers dat minstens één keer op een levering heeft geklikt.
 
-* **[!UICONTROL Bounces & errors]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
+* **[!UICONTROL Bounces & errors]**: Totaal aantal fouten die tijdens de levering zijn geaccumuleerd en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
 
 * **[!UICONTROL Unsubscribes]**: Aantal ontvangers die op Abonnementen hebben geklikt.
 +++
@@ -53,7 +53,7 @@ In **[!UICONTROL Delivery Overview]** vindt u belangrijke prestatiemetriek (KPI&
 
 De tabel en grafiek voor **[!UICONTROL Targeted Audience]** bevatten gegevens over showcase die betrekking hebben op uw ontvangers. Hieronder vindt u gedetailleerde cijfers.
 
-![](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
+![ gerichte publieksmetriek ](assets/global_report_email_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++ Meer informatie over de meetgegevens voor doelgroepen.
 
@@ -61,7 +61,7 @@ De tabel en grafiek voor **[!UICONTROL Targeted Audience]** bevatten gegevens ov
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
-* **[!UICONTROL Exclusion]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels: adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
+* **[!UICONTROL Exclusion]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels, zoals adres mist, quarantined, of op lijst van gewezen personen.
 
 +++
 
@@ -74,7 +74,7 @@ De tabel en grafiek voor **[!UICONTROL Targeted Audience]** bevatten gegevens ov
 
 De tabel **[!UICONTROL Delivery statistics]** bevat een overzicht van het succes van elke e-maillevering. Hieronder vindt u gedetailleerde gegevens.
 
-![](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
+![ metriek van de Statistieken van de Levering ](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
 +++ Meer informatie over de statistieken van de Levering metriek.
 
@@ -82,7 +82,7 @@ De tabel **[!UICONTROL Delivery statistics]** bevat een overzicht van het succes
 
 * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL Errors / Bounces]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
+* **[!UICONTROL Errors / Bounces]**: Het totale aantal fouten dat tijdens leveringen is geaccumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (onbekend, ongeldig domein) in verhouding tot het aantal te leveren berichten.
 
@@ -95,9 +95,9 @@ De tabel **[!UICONTROL Delivery statistics]** bevat een overzicht van het succes
 >title="Oorzaken van uitsluiting"
 >abstract="De **Oorzaken van de grafiek en de lijst van de Uitsluiting** illustreren de specifieke redenen voor berichtverwervingen tijdens leveringsvoorbereiding, die een gedetailleerde uitsplitsing door regel aanbieden."
 
-![](assets/global_report_email_exclusions.png){zoomable="yes"}{align="center"}
+![ Oorzaken van uitsluitingsmetriek ](assets/global_report_email_exclusions.png){zoomable="yes"}{align="center"}
 
-In de grafiek en de tabel met uitsluitingen worden de redenen weergegeven waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
+De uitsluitingsgrafiek en de tabel illustreren de redenen waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
 
 De e-mailfoutentypes zijn vermeld in de [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types) {target="_blank"}.
 
@@ -108,7 +108,7 @@ De e-mailfoutentypes zijn vermeld in de [ Adobe Campaign v8 (cliëntconsole) doc
 >title="Leveringsdoorvoer"
 >abstract="Deze **productie van de Levering** levert uitvoerige inzichten in leveringsproductie, die succes en foutentarieven binnen een gespecificeerd tijdskader benadrukken."
 
-![](assets/global_report_email_delivery_throughput.png){zoomable="yes"}{align="center"}
+![ metriek van de productie van de Levering ](assets/global_report_email_delivery_throughput.png){zoomable="yes"}{align="center"}
 
 Het rapport Leveringsdoorvoer biedt diepgaande inzichten in de efficiëntie van het leveringsproces en biedt een gedetailleerd overzicht van het succes en de foutenpercentages binnen een bepaald tijdsbestek.
 
@@ -116,7 +116,7 @@ Het rapport Leveringsdoorvoer biedt diepgaande inzichten in de efficiëntie van 
 
 * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
+* **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens leveringen is geaccumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
 
 +++
 
@@ -129,7 +129,7 @@ Het rapport Leveringsdoorvoer biedt diepgaande inzichten in de efficiëntie van 
 >title="Uitsplitsing van fouten per type"
 >abstract="De lijst en de grafiek die de **Uitsplitsing van fouten per type** detailleert omvatten informatie over diverse foutentypes die tijdens het proces, met inbegrip van onbekend gebruiker, brievenbus volledig, ongeldig domein, en anderen worden ontmoet."
 
-![](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
+![ Uitsplitsing van fouten per typemetriek ](assets/global_report_email_breakdown_type.png){zoomable="yes"}{align="center"}
 
 In de tabel en grafiek van **[!UICONTROL Breakdown of errors per type]** worden de gegevens weergegeven die betrekking hebben op mogelijke fouten die in verschillende domeinen zijn aangetroffen. Hieronder vindt u specifieke meetgegevens.
 
@@ -145,9 +145,9 @@ De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces
 
 * **[!UICONTROL Account disabled]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet langer bestaat.
 
-* **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door IAP (Internet Access Provider) wordt verworpen, bijvoorbeeld na de toepassing van een veiligheidsregel (anti-spamsoftware).
+* **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door Internet Access Provider wordt verworpen, bijvoorbeeld na de toepassing van een veiligheidsregel (anti-spamsoftware).
 
-* **[!UICONTROL Unreachable]**: Het type van fout dat in het koord van de berichtdistributie voorkomt: incident op het relais SMTP, domein tijdelijk onbereikbaar, etc.
+* **[!UICONTROL Unreachable]**: Het type van fout dat in het koord van de berichtdistributie voorkomt, zoals een incident op het relais SMTP of domein tijdelijk onbereikbaar.
 
 * **[!UICONTROL Not connected]**: Fouttype om aan te geven dat de mobiele telefoon van de ontvanger op het moment van verzending wordt uitgeschakeld of losgekoppeld van het netwerk.
 
@@ -160,7 +160,7 @@ De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces
 >title="Uitsplitsing van fouten per domein"
 >abstract="De lijst en de grafiek die de **Uitsplitsing van Fouten per Domein** illustreren tonen de gegevens die met elk aangetroffen foutentype corresponderen, die door specifieke domeinen worden gecategoriseerd."
 
-![](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
+![ Uitsplitsing van fouten per domeinmetriek ](assets/global_report_email_breakdown_domain.png){zoomable="yes"}{align="center"}
 
 In de tabel en grafiek van **[!UICONTROL Breakdown of errors per domain]** worden de gegevens weergegeven die betrekking hebben op mogelijke fouten binnen elk domein. Metrische gegevens komen veel voor in de tabel **[!UICONTROL Breakdown of errors per type]** en de grafiek die hierboven is beschreven.
 
@@ -171,11 +171,11 @@ In de tabel en grafiek van **[!UICONTROL Breakdown of errors per domain]** worde
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="Leveringsstatistieken"
->abstract="De **Zeer belangrijke Indicatoren van Prestaties van de Statistieken van de Levering van 0} (KPIs) verstrekken een uitvoerig overzicht van uw leverings en campagneprestaties, die inzichten in zowel succesvolle levering aanbieden, ontmoet fouten en gebruikersovereenkomst.**"
+>abstract="De **Zeer belangrijke Indicatoren van Prestaties van de Statistieken van de Levering van 0} {(KPIs) verstrekken een uitvoerig overzicht van uw leverings en campagneprestaties, die inzichten in zowel succesvolle leveranties aanbieden, fouten, en gebruikersovereenkomst ondervonden.**"
 
-De metriek van **[!UICONTROL Delivery statistics]** verstrekt zeer belangrijke prestatiesindicatoren (KPIs) die gedetailleerde informatie betreffende de gegevens verbonden aan elke e-maillevering verstrekken. Hieronder vindt u nadere informatie over deze cijfers.
+De metriek van **[!UICONTROL Delivery statistics]** biedt zeer belangrijke prestatiesindicatoren (KPIs), die gedetailleerde informatie betreffende de gegevens verstrekken verbonden aan elke e-maillevering. Hieronder vindt u nadere informatie over deze cijfers.
 
-![](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
+![ Statistieken die van de Levering metriek volgen ](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
 +++ Meer informatie over de statistieken van de Levering metriek.
 
@@ -194,18 +194,18 @@ De metriek van **[!UICONTROL Delivery statistics]** verstrekt zeer belangrijke p
 * **[!UICONTROL Estimation of forwards]**: schatting van het aantal e-mails dat door de beoogde ontvangers is doorgestuurd.
 +++
 
-### Openen en klikken op dalingssnelheid {#delivery-summary-open-rate}
+### Open- en doorklikfrequentie {#delivery-summary-open-rate}
 
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_open_clickthrough_email"
 >title="Open- en doorklikfrequentie"
 >abstract="De lijst voor **Open en klik-door tarieven** onthult ontvankelijke overeenkomst met uw levering, tonend gegevens over open tarieven en klikthrough tarieven voor een snel en inzichtelijk overzicht."
 
-In de tabel **[!UICONTROL Open and click-trough rate]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De cijfers worden hieronder beschreven.
+In de tabel **[!UICONTROL Open and click-through rate]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De cijfers worden hieronder beschreven.
 
-![](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
+![ Open en klik-door tariefmetriek ](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++ Meer informatie over Open en klik-dalingssnelheden.
++++Meer informatie over Open en doorklikcijfers.
 
 * **[!UICONTROL Sent]**: Het totale aantal verzonden berichten.
 
@@ -227,9 +227,9 @@ In de tabel **[!UICONTROL Open and click-trough rate]** worden gegevens weergege
 >title="URL&#39;s en klikpaden"
 >abstract="**URLs en klik stromen** rapport verstrekt essentiële Zeer belangrijke Indicatoren van Prestaties (KPIs) die gedetailleerde inzichten in meest-geklikte URLs tijdens een levering aanbieden."
 
-Het **[!UICONTROL URLs and click streams]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde inzichten bieden in de URL&#39;s die het hoogste aantal klikken tijdens een levering hebben ontvangen. De cijfers worden hieronder beschreven.
+Het **[!UICONTROL URLs and click streams]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie bieden over de URL&#39;s die het hoogste aantal klikken tijdens een levering hebben ontvangen. De cijfers worden hieronder beschreven.
 
-![](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
+![ URLs en klik stromen metriek ](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
 +++Leer meer op URLs en klik stromen metriek.
 
@@ -239,7 +239,7 @@ Het **[!UICONTROL URLs and click streams]** -rapport bevat prestatie-indicatoren
 
 * **[!UICONTROL Total Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
-* **[!UICONTROL Platform average]**: Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en gecumuleerde kliks), wordt berekend voor leveringen die over de voorafgaande zes maanden worden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
+* **[!UICONTROL Platform average]**: Dit gemiddelde tarief, dat onder elk tarief wordt getoond (reactiviteit, verschillende kliks, en cumulatieve kliks), wordt berekend voor leveringen die over de voorafgaande zes maanden worden verzonden. Alleen leveringen met dezelfde typologie en op hetzelfde kanaal worden in aanmerking genomen. Proefdrukken zijn uitgesloten.
 +++
 
 ### De tien meest bezochte koppelingen bovenaan {#top10-global-report-email}
@@ -251,7 +251,7 @@ Het **[!UICONTROL URLs and click streams]** -rapport bevat prestatie-indicatoren
 
 De **[!UICONTROL Top 10 most visited links]** -grafiek en -tabel bevatten de beschikbare gegevens voor het gedrag van ontvangers per koppeling. De cijfers worden hieronder beschreven.
 
-![](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
+![ Hoogste 10 bezochte verbindingsmetriek ](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
 +++Meer informatie over de tien meest bezochte koppelingen vindt u in de statistieken.
 
@@ -270,7 +270,7 @@ De **[!UICONTROL Top 10 most visited links]** -grafiek en -tabel bevatten de bes
 
 De grafiek **[!UICONTROL Breakdown of clicks over time]** bevat de beschikbare gegevens voor het gedrag van ontvangers per koppeling.
 
-![](assets/global_report_email_breakdown_clicks.png){zoomable="yes"}{align="center"}
+![ Uitsplitsing van kliks over tijdmetriek ](assets/global_report_email_breakdown_clicks.png){zoomable="yes"}{align="center"}
 
 ## Gebruikersactiviteiten {#user-activities-email}
 
@@ -281,7 +281,7 @@ De grafiek **[!UICONTROL Breakdown of clicks over time]** bevat de beschikbare g
 
 Het **[!UICONTROL User activities]** rapport toont de uitsplitsing van opent en klikt in de vorm van een grafiek. De cijfers voor dit rapport worden hieronder beschreven.
 
-![](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
+![ metriek van gebruikersactiviteiten ](assets/global_report_email_user.png){zoomable="yes"}{align="center"}
 
 +++ Meer informatie over de metriek van gebruikersactiviteiten.
 

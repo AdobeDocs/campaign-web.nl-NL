@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: b34b8e95e9fce265de96335f3d7d22aab84a0350
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '414'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Volg deze stappen om **te vormen bouwen publiek** activiteit:
 
-![](../assets/workflow-audience.png)
+![ Screenshot die de interface van de de configuratieconfiguratie van het werkschemapubliek toont.](../assets/workflow-audience.png)
 
 1. Voeg a **toe bouwt publiek** activiteit.
 1. Definieer een label.
@@ -56,7 +56,7 @@ Volg deze stappen om **te vormen bouwen publiek** activiteit:
 Voer de volgende stappen uit om uw eigen query te maken:
 
 1. Selecteer **creeer uw (vraag)**.
-1. Kies de **het richten afmeting**. Met de doeldimensie kunt u de doelgroep van de actie definiëren: ontvangers, begunstigden van contracten, exploitant, abonnees, enz. Standaard is het doel geselecteerd bij de ontvangers. [ leer meer over het richten van dimensies ](../../audience/about-recipients.md#targeting-dimensions)
+1. Kies de **het richten afmeting**. Met de doeldimensie kunt u de doelgroep voor de bewerking definiëren, zoals ontvangers, begunstigden van contracten, exploitanten of abonnees. Standaard is het doel geselecteerd bij de ontvangers. [ leer meer over het richten van dimensies ](../../audience/about-recipients.md#targeting-dimensions)
 1. Klik **verdergaan**.
 1. Gebruik de vraagmodeler om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
 
@@ -70,8 +70,8 @@ Voer de volgende stappen uit om een bestaand publiek te selecteren:
 
 >[!ENDTABS]
 
-## Voorbeelden{#build-audience-examples}
+## Voorbeelden {#build-audience-examples}
 
-Hier is een voorbeeld van een werkschema met twee **bouwt publiek** activiteiten. De eerste is gericht op het publiek van pokerspelers, gevolgd door een e-mailbezorging. De tweede is gericht op het publiek van VIP klanten, gevolgd door een SMS-levering.
+Hier is een voorbeeld van een werkschema met twee **bouwt publiek** activiteiten. De eerste is gericht op het publiek van pokerspelers, gevolgd door een e-mailbezorging. De tweede is gericht op het VIP-publiek, gevolgd door een SMS-levering.
 
-![](../assets/workflow-audience-example.png)
+![ het Schermafbeelding die een voorbeeldwerkschema met twee het publieksactiviteiten van de Bouwstijl tonen die verschillende soorten publiek richten.](../assets/workflow-audience-example.png)

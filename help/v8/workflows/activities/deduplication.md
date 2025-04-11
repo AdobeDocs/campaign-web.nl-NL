@@ -3,10 +3,10 @@ audience: end-user
 title: De deduplicatieworkflowactiviteit gebruiken
 description: Leer hoe u de deduplicatieworkflowactiviteit kunt gebruiken
 exl-id: 8efdc140-6cae-430d-b585-ff581993ff60
-source-git-commit: bb7e014a381801566b95839581d0b4d13278524d
+source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 17%
+source-wordcount: '581'
+ht-degree: 6%
 
 ---
 
@@ -15,54 +15,54 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_fields"
 >title="Velden om duplicaten te identificeren"
->abstract="In de **Gebieden om duplicaten** sectie te identificeren, klik **voegt attribuut** knoop toe om de gebieden te specificeren waarvoor de identieke waarden toestaan om worden geïdentificeerd de duplicaten, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt."
+>abstract="In de **Gebieden om duplicaten** sectie te identificeren, klik **voegt attribuut** knoop toe om de gebieden te specificeren waarvoor de identieke waarden duplicaten toestaan om, zoals e-mailadres, voornaam, en achternaam worden geïdentificeerd. De volgorde van de velden geeft aan welke velden eerst moeten worden verwerkt."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication"
 >title="Deduplicatieactiviteit"
->abstract="De **Deduplicatie** activiteit staat u toe om duplicaten in de resultaten van de binnenkomende activiteiten te schrappen. Het wordt meestal gebruikt na doelgerichte activiteiten en vóór activiteiten die het gebruik van gerichte gegevens mogelijk maken."
+>abstract="De **Deduplicatie** activiteit schrapt duplicaten in de resultaten van binnenkomende activiteiten. Het wordt meestal gebruikt na gerichte activiteiten en vóór activiteiten die gerichte gegevens gebruiken."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_complement"
 >title="Een complement genereren"
->abstract="U kunt een extra uitgaande overgang met de resterende bevolking produceren, die als duplicaat werd uitgesloten. Om dit te doen, op **van een knevel voorzien produceer complement** optie"
+>abstract="U kunt een extra uitgaande overgang produceren met de resterende bevolking uitgesloten als duplicaten. Om dit te doen, op **van een knevel te voorzien produceert complement** optie."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_deduplication_settings"
 >title="Instellingen voor deduplicatie"
->abstract="Als u duplicaten van binnenkomende gegevens wilt verwijderen, definieert u de deduplicatiemethode in de onderstaande velden. Standaard wordt slechts één record bewaard. U moet ook de deduplicatiemodus selecteren op basis van een expressie of een kenmerk. Standaard wordt de record die buiten de duplicaten moet blijven, willekeurig geselecteerd."
+>abstract="Als u duplicaten van binnenkomende gegevens wilt verwijderen, definieert u de deduplicatiemethode in de onderstaande velden. Standaard wordt slechts één record bewaard. Selecteer de deduplicatiemodus op basis van een expressie of een kenmerk. Standaard wordt de record die buiten de duplicaten moet blijven, willekeurig geselecteerd."
 
-De **Deduplicatie** activiteit is a **richtend** activiteit. Met deze activiteit kunt u duplicaten verwijderen uit het resultaat of de resultaten van de binnenkomende activiteiten, bijvoorbeeld gedupliceerde profielen in de lijst met ontvangers. De **Deduplicatie** activiteit wordt over het algemeen gebruikt na het richten van activiteiten, en vóór activiteiten die het gebruik van gerichte gegevens toestaan.
+De **Deduplicatie** activiteit is a **richtend** activiteit. Deze activiteit schrapt duplicaten in de resultaten van binnenkomende activiteiten, zoals gedupliceerde profielen in de ontvankelijke lijst. De **Deduplicatie** activiteit wordt over het algemeen gebruikt na het richten van activiteiten en vóór activiteiten die gerichte gegevens gebruiken.
 
-## De deduplicatieactiviteit configureren{#deduplication-configuration}
+## De deduplicatieactiviteit configureren {#deduplication-configuration}
 
 Voer de volgende stappen uit om de **Deduplication** -activiteit te configureren:
 
-![](../assets/workflow-deduplication.png)
+![ de configuratieproces van de deduplicatie van het Werkschema ](../assets/workflow-deduplication.png)
 
 1. Voeg de activiteit van de a **Deduplicatie** aan uw werkschema toe.
 
-1. In de **Gebieden om duplicaten** sectie te identificeren, klik **voegt attribuut** knoop toe om de gebieden te specificeren waarvoor de identieke waarden toestaan om worden geïdentificeerd de duplicaten, zoals: e-mailadres, voornaam, achternaam, enz. In de volgorde van de velden kunt u opgeven welke velden eerst moeten worden verwerkt. [ leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../../get-started/attributes.md)
+1. In de **Gebieden om duplicaten** sectie te identificeren, klik **voegt attribuut** knoop toe om de gebieden te specificeren waarvoor de identieke waarden duplicaten toestaan om, zoals e-mailadres, voornaam, en achternaam worden geïdentificeerd. De volgorde van de velden geeft aan welke velden eerst moeten worden verwerkt. [ Leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../../get-started/attributes.md).
 
-1. In de **montages van de Deduplicatie** sectie, selecteer het aantal unieke **Duplicaten om** te houden. De standaardwaarde voor dit veld is 1. Met de waarde 0 kunt u alle duplicaten behouden.
+1. In de **montages van de Deduplicatie** sectie, selecteer het aantal unieke **Duplicaten om** te houden. De standaardwaarde voor dit veld is 1. Met de waarde 0 blijven alle duplicaten behouden.
 
-   Stel bijvoorbeeld dat records A en B worden beschouwd als duplicaten van record Y en dat een record C wordt beschouwd als duplicaat van record Z:
+   Bijvoorbeeld, als de verslagen A en B als duplicaten van verslag Y worden beschouwd, en verslag C als duplicaat van verslag Z wordt beschouwd:
 
    * Als de waarde van het veld 1 is: alleen de records Y en Z blijven behouden.
    * Als de waarde van het veld 0 is: alle records blijven behouden.
-   * Als de waarde van het veld 2 is: de records C en Z blijven behouden en twee records van A, B en Y blijven behouden, bij toeval of afhankelijk van de daarna geselecteerde deduplicatiemethode.
+   * Als de waarde van het veld 2 is: de records C en Z worden bewaard en twee records van A, B en Y worden, toevallig of afhankelijk van de geselecteerde deduplicatiemethode, bewaard.
 
 1. Selecteer de **methode van de Deduplicatie** aan gebruik:
 
-   * **Willekeurige selectie**: Selecteert willekeurig het verslag dat uit de duplicaten moet worden gehouden.
-   * **Gebruikend een uitdrukking**: Behoud de verslagen waarin de waarde van de ingevoerde uitdrukking de kleinste of grootste is.
-   * **Niet-lege waarden**: houd de verslagen waarvoor de uitdrukking niet leeg is.
-   * **na een lijst van waarden**: Bepaal een waardeprioriteit voor één of meerdere gebieden. Om de waarden te bepalen, klik **Attribuut** om een gebied te selecteren of een uitdrukking tot stand te brengen, dan voeg de waarde(n) in de aangewezen lijst toe. Om een nieuw gebied te bepalen, klik **toevoegen knoop** boven de lijst van waarden wordt gevestigd die.
+   * **Willekeurige selectie**: Selecteert willekeurig het verslag om uit de duplicaten te houden.
+   * **Gebruikend een uitdrukking**: Houdt de verslagen waarin de waarde van de ingegaan uitdrukking kleinste of grootste is.
+   * **Niet-lege waarden**: Houdt de verslagen waarvoor de uitdrukking niet leeg is.
+   * **na een lijst van waarden**: Bepaalt een waardeprioriteit voor één of meerdere gebieden. Om de waarden te bepalen, klik **Attribuut** om een gebied te selecteren of een uitdrukking tot stand te brengen, dan de waarden in de aangewezen lijst toe te voegen. Om een nieuw gebied te bepalen, klik **voeg** knoop toe die boven de lijst van waarden wordt gevestigd.
 
-1. Controleer **aanvult** optie als u wenst om de resterende bevolking uit te buiten. Het complement bestaat uit alle duplicaten. Er wordt dan een aanvullende overgang toegevoegd aan de activiteit.
+1. Controleer **aanvult** optie om de resterende bevolking te exploiteren. Het complement bestaat uit alle duplicaten. Vervolgens wordt een aanvullende overgang toegevoegd aan de activiteit.
 
-## Voorbeeld{#deduplication-example}
+## Voorbeeld {#deduplication-example}
 
 In het volgende voorbeeld gebruikt u een deduplicatie-activiteit om duplicaten uit te sluiten van het doel voordat u een levering verzendt. De geïdentificeerde gedupliceerde profielen worden toegevoegd aan een specifiek publiek dat indien nodig opnieuw kan worden gebruikt. Kies het **E-mail** adres om de duplicaten te identificeren. Houd 1 ingang en selecteer de **Willekeurige** deduplicatiemethode.
 
-![](../assets/workflow-deduplication-example.png)
+![ Voorbeeld van deduplicatieactiviteit in een werkschema ](../assets/workflow-deduplication-example.png)

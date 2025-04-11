@@ -3,9 +3,9 @@ audience: end-user
 title: Expressiefragmenten toevoegen in de expressie-editor
 description: Leer hoe u maakt met inhoudsfragmenten
 exl-id: 413a28c0-0cbc-4aed-ab0d-642f6245de01
-source-git-commit: 387a69abf4b97cd202c1a7e24bcf14c6af442714
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 0%
 
 <!-- pas vu dans l'UI-->
 
-Expressiefragmenten kunnen worden gebruikt in elk veld dat kan worden bewerkt met de expressie-editor. Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
+Expressiefragmenten kunnen worden gebruikt in elk veld dat u kunt bewerken met de expressie-editor. Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 
-1. Open de [ redacteur van de Uitdrukking ](../personalization/gs-personalization.md) en selecteer het **[!UICONTROL Fragments]** menu in de linkerruit.
+1. Open de [ redacteur van de Uitdrukking ](../personalization/gs-personalization.md), en selecteer het **[!UICONTROL Fragments]** menu in de linkerruit.
 
-   In de lijst worden alle uitdrukkingsfragmenten weergegeven die in de huidige sandbox zijn gemaakt.
+   In de lijst worden alle expressiefragmenten weergegeven die in de huidige sandbox zijn gemaakt.
 
 1. Klik op het pictogram `+` naast een expressiefragment om het toe te voegen aan uw inhoud.
 
-   ![](assets/fragment-add-expression.png)
+   ![ Schermafbeelding die de toevoeging van een uitdrukkingsfragment tonen gebruikend + pictogram ](assets/fragment-add-expression.png)
 
-1. De fragment-id wordt toegevoegd aan de editor. Als u het overeenkomstige uitdrukkingsfragment opent en het uit de interface uitgeeft, worden de veranderingen gesynchroniseerd. Ze worden automatisch doorgegeven aan alle **[!UICONTROL Draft]** -items die die fragment-id bevatten.
+1. De fragment-id wordt toegevoegd aan de editor. Als u het overeenkomstige uitdrukkingsfragment opent en het uit de interface uitgeeft, synchroniseren de veranderingen automatisch. Ze worden doorgegeven aan alle **[!UICONTROL Draft]** -items die die fragment-id bevatten.

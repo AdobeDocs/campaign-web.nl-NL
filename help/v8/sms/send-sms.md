@@ -3,9 +3,9 @@ audience: end-user
 title: Verzend een SMS-levering
 description: Meer informatie over het verzenden van SMS via Adobe Campaign Web
 exl-id: 901faf3b-fcdd-4a4e-8de7-7d088686250f
-source-git-commit: 81fa26e44739d70218b949712a41a3d520900fa0
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -17,58 +17,57 @@ ht-degree: 0%
 >title="Nieuwe metrische quarantines"
 >abstract="Het totale aantal adressen quarantined na een ontbroken levering (onbekend gebruiker, ongeldig domein) met betrekking tot het aantal te leveren berichten."
 
-## Je SMS-aanbieding bekijken{#preview-sms}
+## Je SMS-aanbieding bekijken {#preview-sms}
 
-Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als u gepersonaliseerde inhoud hebt opgenomen, kunt u onderzoeken hoe deze inhoud in het bericht wordt getoond door de gegevens van het testprofiel te gebruiken. Op deze manier kunt u ervoor zorgen dat het bericht op de gewenste manier wordt weergegeven en dat alle gepersonaliseerde gegevens correct worden weergegeven.
+Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als gepersonaliseerde inhoud wordt opgenomen, onderzoek hoe deze inhoud in het bericht door de gegevens van het testprofiel te gebruiken verschijnt. Dit verzekert de berichtvertoningen zoals bedoeld en dat de gepersonaliseerde informatie correct wordt voorgesteld.
 
 De belangrijkste stappen voor een voorvertoning van uw SMS-levering zijn als volgt. Meer details op hoe te voorproef zijn de leveringen beschikbaar in [ deze sectie ](../preview-test/preview-content.md).
 
 1. Gebruik **[!UICONTROL Simulate content]** om een voorvertoning van uw gepersonaliseerde inhoud weer te geven vanaf de pagina met de inhoud van de levering.
 
-   ![](assets/sms_send_1.png){zoomable="yes"}
+   ![ previewing gepersonaliseerde inhoud van SMS ](assets/sms_send_1.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Add test profile(s)]** om een of meerdere testprofielen of profielen te selecteren.
 
    <!--
     Once your test profiles are selected, click **[!UICONTROL Select]**.
-    ![](assets/sms_send_2.png){zoomable="yes"}
+    ![Selecting test profiles for SMS preview](assets/sms_send_2.png){zoomable="yes"}
     -->
 
-1. In het rechterdeelvenster vindt u een voorbeeld van de SMS-levering, waar gepersonaliseerde elementen dynamisch worden vervangen door gegevens uit het geselecteerde profiel.
+1. In de juiste ruit, bekijk een voorproef van de levering van SMS, waar de gepersonaliseerde elementen dynamisch met gegevens van het geselecteerde profiel worden vervangen.
 
-   ![](assets/sms_send_3.png){zoomable="yes"}
+   ![ ruit van de Voorproef die gepersonaliseerde levering van SMS tonen ](assets/sms_send_3.png){zoomable="yes"}
 
-Je kunt je SMS-bericht nu bekijken en naar je publiek sturen.
+Bekijk en verzend je SMS-bericht naar je publiek.
 
 ## Je SMS-levering testen {#test-sms}
 
-Met **Adobe Campaign**, hebt u de capaciteit om een bericht te testen alvorens het naar het belangrijkste publiek te verzenden, dat een essentiële stap in het bevestigen van uw e-mailcampagne en het identificeren van potentiële kwesties is.
+Met **Adobe Campaign**, test een bericht alvorens het naar het belangrijkste publiek te verzenden. Deze stap valideert uw e-mailcampagne en identificeert mogelijke problemen.
 
-Het verzenden van proefdrukken is een belangrijke stap om de kwaliteit en doeltreffendheid van uw levering te verzekeren. De ontvangers van het proef kunnen diverse elementen zoals verbindingen, opt-out verbindingen en beelden herzien, evenals om het even welke fouten in het teruggeven, inhoud, verpersoonlijkingsmontages, en de configuratie van SMS identificeren. Dit proces helpt u uw SMS grondig evalueren en optimaliseren alvorens uw belangrijkste publiek te bereiken.
+Het verzenden van proefdrukken is van cruciaal belang voor de kwaliteit en doeltreffendheid van uw levering. De ontvangers van het proef herzien diverse elementen zoals verbindingen, opt-out verbindingen, en beelden, en identificeren om het even welke fouten in het teruggeven, inhoud, verpersoonlijkingsmontages, en de configuratie van SMS. Dit proces evalueert en optimaliseert grondig uw SMS alvorens uw belangrijkste publiek te bereiken.
 
-![](../assets/do-not-localize/book.png) Leer hoe te om proeven in [ deze sectie ](../preview-test/test-deliveries.md) te verzenden.
+![ pictogram van het Boek voor het verzenden van proeven ](../assets/do-not-localize/book.png) leren hoe te om proeven in [ deze sectie ](../preview-test/test-deliveries.md) te verzenden.
 
-![](assets/sms_send_6.png){zoomable="yes"}
+![ het Testen levering van SMS ](assets/sms_send_6.png){zoomable="yes"}
 
 ## Verstuur je SMS-verzending {#send-sms}
 
 1. Nadat u de SMS-inhoud hebt aangepast, klikt u op **[!UICONTROL Review & send]** op uw **[!UICONTROL Delivery]** -pagina.
 
-   ![](assets/sms_send_4.png){zoomable="yes"}
+   ![ Overzicht en verzend SMS levering ](assets/sms_send_4.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Prepare]** en controleer de voortgang en de beschikbare statistieken.
 
    Als er fouten optreden, raadpleegt u het menu Logs voor meer informatie over de fout.
 
-1. Verzend de berichten door op **[!UICONTROL Send]** te klikken om verder te gaan met het laatste verzendproces.
+1. Verzend de berichten door op **[!UICONTROL Send]** te klikken om door te gaan met het laatste verzendproces.
 
-   ![](assets/sms_send_5.png){zoomable="yes"}
+   ![ verzendt levering van SMS ](assets/sms_send_5.png){zoomable="yes"}
 
    Als de SMS-levering gepland is, klikt u op de knop **[!UICONTROL Send as scheduled]** . Leer meer over levering het plannen in [ deze sectie ](../msg/gs-messages.md#schedule-the-delivery-sending).
 
-
 1. Bevestig de verzendactie door op de knop **[!UICONTROL Send]** te klikken.
 
-Zodra uw levering wordt verzonden, kunt u uw gegevens van KPIs (Zeer belangrijke Indicator van Prestaties) van uw leveringspagina en gegevens van het **[!UICONTROL Logs]** menu volgen.
+Zodra uw levering wordt verzonden, volg uw gegevens van KPIs (Zeer belangrijke Indicator van Prestaties) van uw leveringspagina en gegevens van het **[!UICONTROL Logs]** menu.
 
-U kunt nu beginnen de impact van uw bericht te meten met ingebouwde rapporten. [Meer informatie](../reporting/sms-report.md)
+Begin het effect van uw bericht met ingebouwde rapporten te meten. [Meer informatie](../reporting/sms-report.md)

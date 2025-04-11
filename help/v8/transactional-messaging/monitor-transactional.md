@@ -2,66 +2,65 @@
 audience: end-user
 title: Transactieberichten controleren
 description: Leer hoe te om een transactiebericht in het Gebruikersinterface van het Web van de Campagne te controleren
-source-git-commit: 49434faa92e11841033f0c1fbdf907504765a404
+exl-id: 40dfd1da-e1ec-4161-9be5-f2f10425687d
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Transactieberichten controleren
 
-Na het publiceren en het verzenden van uw transactiemelding, kunt u rapportering en logboeken over het hebben.
+Na het publiceren van en het verzenden van uw transactiemelding, kunt u tot rapportering en tot logboeken toegang hebben verwant met het.
 
 ## Transactionele berichtenlogboeken {#transactional-logs}
 
-Nadat uw bericht is gepubliceerd, kunt u de uitvoering ervan controleren door op de knop **[!UICONTROL Logs]** te klikken.
+Nadat uw bericht is gepubliceerd, controleert u de uitvoering door op de knop **[!UICONTROL Logs]** te klikken.
 
-![](assets/transactional-logs.png){zoomable="yes"}
+![ Screenshot die de knoop van Logs in de transactieberichtinterface toont.](assets/transactional-logs.png){zoomable="yes"}
 
-Zo hebt u toegang tot gedetailleerde logboeken over de publicatie van het bericht op het tabblad **[!UICONTROL logs]** .
+Dit verleent toegang tot gedetailleerde logboeken over de publicatie van het bericht op het **[!UICONTROL logs]** lusje.
 
-![](assets/transactional-logslist.png){zoomable="yes"}
+![ het Schermafbeelding die de gedetailleerde logboekenlijst in de logboeken tabel toont.](assets/transactional-logslist.png){zoomable="yes"}
 
-Daarnaast kunt u op het bijbehorende tabblad de lijst weergeven met **[!UICONTROL Proofs]** die samen met de bijbehorende logbestanden is verzonden.
+Bekijk bovendien de lijst met **[!UICONTROL Proofs]** die samen met hun logbestanden op het corresponderende tabblad is verzonden.
 
 ## Historie van transactieberichten {#transactional-history}
 
-In de sectie **[!UICONTROL Triggered messages]** kunt u details weergeven over alle transactiemeldingen die zijn uitgevoerd. Navigeer naar **[!UICONTROL Transactional messages]** om dit te openen. Op het tabblad **[!UICONTROL History]** kunt u de lijst met uitgevoerde transactieberichten zien, samen met hun status en aanvullende informatie.
+In de sectie **[!UICONTROL Triggered messages]** kunt u details weergeven over alle uitgevoerde transactieberichten. Navigeer naar **[!UICONTROL Transactional messages]** om dit te openen. Zie op het tabblad **[!UICONTROL History]** de lijst met uitgevoerde transactieberichten samen met hun status en aanvullende informatie.
 
-![](assets/transactional-history.png){zoomable="yes"}
+![ Schermafbeelding die het geschiedenislusje met een lijst van uitgevoerde transactionele berichten tonen.](assets/transactional-history.png){zoomable="yes"}
 
-Doe daar een onderzoek om uw boodschap te vinden en erop te klikken.
-U kunt de details hier bekijken.
+Zoek naar uw bericht en klik op het om zijn details te bekijken.
 
-![](assets/transactional-reporting.png){zoomable="yes"}
+![ Schermafbeelding die gedetailleerde rapportering voor een geselecteerd transactiebericht toont.](assets/transactional-reporting.png){zoomable="yes"}
 
 ## Gebeurtenisgeschiedenis {#event-history}
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory"
 >title="Transactionele berichtengebeurtenisgeschiedenis"
->abstract="U kunt een mening over de gebeurtenissen hebben die uw transactiebericht teweegbrengen."
+>abstract="U kunt de gebeurtenissen weergeven die uw transactiemelding activeren."
 
 >[!CONTEXTUALHELP]
 >id="acw_transacmessages_eventhistory_preview"
 >title="Voorvertoning van de historie van de Transactionele berichtengebeurtenis"
->abstract="U kunt een mening over de gebeurtenissen hebben die uw transactiebericht teweegbrengen."
+>abstract="U kunt de gebeurtenissen weergeven die uw transactiemelding activeren."
 
-U kunt ook een weergave hebben van de gebeurtenissen die uw transactiemelding activeren.
-Ga naar **[!UICONTROL Event history]** sectie om ze te zien.
+U kunt de gebeurtenissen weergeven die uw transactiemelding activeren. Ga naar de sectie **[!UICONTROL Event history]** als u ze wilt openen.
 
-U kunt ze zien met de naam van het gebeurtenistype.
+Gebeurtenissen worden weergegeven met hun naam voor het gebeurtenistype.
 
-![](assets/event-history.png){zoomable="yes"}
+![ Screenshot die de sectie van de gebeurtenisgeschiedenis met gebeurtenistypennamen toont.](assets/event-history.png){zoomable="yes"}
 
-U ziet hieronder meer details door op de **[!UICONTROL Event]** ID te klikken:
+Klik op de id van **[!UICONTROL Event]** voor meer informatie, zoals:
 
 * De contactgegevens
-* Alles over de procesdatums
+* Informatie over de procesdatums
 
-U kunt zelfs een voorvertoning weergeven van het bericht dat met de knop **[!UICONTROL Preview]** is verzonden en de ontvangen gegevens zien die het bericht activeren met de knop **[!UICONTROL View data]** .
+Geef een voorvertoning weer van het bericht dat is verzonden met de knop **[!UICONTROL Preview]** en bekijk de ontvangen gegevens die het bericht hebben geactiveerd met de knop **[!UICONTROL View data]** .
 
-![](assets/event-details.png){zoomable="yes"}
+![ Schermafbeelding die gedetailleerde gebeurtenisinformatie, met inbegrip van voorproef en meningsgegevensopties tonen.](assets/event-details.png){zoomable="yes"}
 
 Met de knop **[!UICONTROL More]** kunt u de gebeurtenisgeschiedenis verwijderen.

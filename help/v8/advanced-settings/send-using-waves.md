@@ -4,9 +4,9 @@ title: Verzenden met gebruik van golven
 description: Meer informatie over de leveringsinstellingen in Campagneweb
 feature: Email
 exl-id: d4cd5fe5-f9ac-44ac-a961-ae45131aeb3e
-source-git-commit: e5a17ad1f8316d201dc3b4bc6ce20d61aea7a9c9
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Volg onderstaande stappen om leveringen te verzenden met gebruik van golven.
 
    >[!CAUTION]
    >
-   >Zorg ervoor de laatste golven niet de leveringsdeadline overschrijden, die in het [ lusje van de Geldigheid ](delivery-settings.md#validity) wordt bepaald, anders zouden sommige berichten niet kunnen worden verzonden. Een specifieke typologiecontroleregel, **[!UICONTROL Wave scheduling check]** , zorgt ervoor dat de laatste golf vóór de geldigheidsgrens van de levering wordt gepland. Leer meer op controleregels in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+   >Zorg ervoor de laatste golven niet de leveringsdeadline overschrijden, die in het [ lusje van de Geldigheid ](delivery-settings.md#validity) wordt bepaald, anders zouden sommige berichten niet kunnen worden verzonden. Een specifieke typologiecontroleregel, **[!UICONTROL Wave scheduling check]** , zorgt ervoor dat de laatste golf vóór de geldigheidsgrens van de levering wordt gepland. Leer meer over controleregels in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
    >
    >U moet ook genoeg tijd voor pogingen toestaan wanneer het vormen van de laatste golven. [Meer informatie](delivery-settings.md#retries)
 
@@ -56,7 +56,7 @@ Volg onderstaande stappen om leveringen te verzenden met gebruik van golven.
 
 Als u deze optie selecteert, hebben alle golven de zelfde grootte (behalve laatste), en de vertraging tussen elke golf is altijd het zelfde.
 
-![](assets/waves-same-size.png){zoomable="yes"}
+![ Voorbeeld van golven met de zelfde grootte ](assets/waves-same-size.png){zoomable="yes"}
 
 * Geef de grootte op voor alle golven waarin u de levering wilt splitsen. U kunt een percentage of een numerieke waarde invoeren. Alleen de laatste golf kan in grootte variëren, omdat het resterende aantal berichten moet worden opgenomen.
 
@@ -70,17 +70,17 @@ Gebruikend golven, kunt u het aantal berichten tot 20 per dag beperken, die de d
 
 Selecteer hiervoor de optie **[!UICONTROL Schedule multiple waves of the same size]** . Voer **[!UICONTROL 20]** in als de golfgrootte en **[!UICONTROL 1 day]** in het veld **[!UICONTROL Interval]** .
 
-![](assets/waves-call-center.png){zoomable="yes"}
+![ Voorbeeld van golven voor vraag centreert verwerking ](assets/waves-call-center.png){zoomable="yes"}
 
 ## Golven plannen volgens een kalender {#waves-calendar}
 
-Als u deze optie selecteert, moet u de begindag/tijd voor elke golf bepalen u, evenals de grootte van elke golf verzendt.
+Als u deze optie selecteert, definieert u de begindag/tijd voor elke golf die u verzendt en de grootte van elke golf.
 
 * Geef in de velden **[!UICONTROL Start]** de vertraging op tussen het begin van twee opeenvolgende golven.
 
 * Voer in de kolom **[!UICONTROL Size]** een vast getal of een percentage in.
 
-Voeg zoveel golven toe als u wilt. U kunt de volgorde naar wens aanpassen.
+Voeg zoveel golven toe als u nodig hebt. Pas de volgorde aan uw vereisten aan.
 
 >[!NOTE]
 >
@@ -88,14 +88,14 @@ Voeg zoveel golven toe als u wilt. U kunt de volgorde naar wens aanpassen.
 
 In het onderstaande voorbeeld vertegenwoordigt de eerste golf 25% van het totale aantal berichten dat is opgenomen in de levering en wordt deze onmiddellijk gestart. De volgende twee golven voltooien de levering en zijn geplaatst om met intervallen van zes uur te beginnen.
 
-![](assets/waves-calendar.png){zoomable="yes"}
+![ Voorbeeld van golven die door kalender ](assets/waves-calendar.png){zoomable="yes"} worden gepland
 
-Eén veelgebruikte manier om meerdere golven volgens een kalender te gebruiken, is tijdens het opbladerproces.
+Een veelvoorkomend geval van het gebruik van meerdere golven volgens een kalender is tijdens het oplaadproces.
 
 Wanneer e-mails met een nieuw platform worden verzonden, zijn internetproviders (ISP&#39;s) verdacht van IP-adressen die niet worden herkend. Als er plotseling grote hoeveelheden e-mails worden verzonden, markeren de ISP&#39;s deze vaak als spam.
 
-Als u wilt voorkomen dat spam wordt gemarkeerd, kunt u het verzonden volume progressief verhogen met golven. Dit zou een vlotte ontwikkeling van de startfase moeten verzekeren en u toelaten om het algemene tarief van ongeldige adressen te verminderen.
+Als u wilt voorkomen dat spam wordt gemarkeerd, verhoogt u geleidelijk het verzonden volume met behulp van golven. Dit verzekert vlotte ontwikkeling van de aanloopfase en vermindert het algemene tarief van ongeldige adressen.
 
 Gebruik hiervoor de optie **[!UICONTROL Schedule waves according to a calendar]** . Stel bijvoorbeeld de eerste golf in op 10%, de tweede op 15%, de derde op 20% enzovoort.
 
-![](assets/waves-ramp-up.png){zoomable="yes"}
+![ Voorbeeld van golven voor oprijplaat proces ](assets/waves-ramp-up.png){zoomable="yes"}

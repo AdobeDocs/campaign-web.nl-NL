@@ -1,9 +1,10 @@
 ---
 title: Werken met schema's
 description: Leer hoe u met schema's werkt.
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -16,8 +17,6 @@ ht-degree: 0%
 >abstract="U kunt tot de details van een schema nu toegang hebben door zijn naam in de lijst te selecteren. De de gebiedsuitgave van de douane is ook toegankelijk van **geeft de knoop van het douanedetail** uit."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
-
-
 >[!CONTEXTUALHELP]
 >id="acw_schema"
 >title="Schemas"
@@ -27,8 +26,8 @@ ht-degree: 0%
 
 **[!DNL Adobe Campaign]** gebruikt op XML gebaseerde schema&#39;s om de fysieke en logische structuur van gegevens binnen de toepassing te bepalen. Een schema is een XML-document dat is gekoppeld aan een databasetabel die het volgende definieert:
 
-* De SQL-tabelstructuur (tabelnaam, velden, relaties).
-* De XML-gegevensstructuur (elementen, kenmerken, hiërarchie, typen, standaardwaarden, labels).
+* De SQL-tabelstructuur, inclusief tabelnaam, velden en relaties.
+* De XML-gegevensstructuur, inclusief elementen, kenmerken, hiërarchie, typen, standaardwaarden en labels.
 
 Schema&#39;s spelen een sleutelrol in:
 
@@ -38,19 +37,19 @@ Schema&#39;s spelen een sleutelrol in:
 
 Elke entiteit in Adobe Campaign heeft een speciaal schema, dat zorgt voor consistentie en organisatie van de gegevens.
 
-De gedetailleerde informatie over schema&#39;s is beschikbaar in de [ de consoledocumentatie van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas) {target="_blank"}
+De gedetailleerde informatie over schema&#39;s is beschikbaar in de [ documentatie van de de consoleconsole van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas) {target="_blank"}.
 
 ## De schema&#39;s van de toegang in het Gebruikersinterface van het Web {#access}
 
 Schema&#39;s zijn toegankelijk via het menu **[!UICONTROL Administration]** > **[!UICONTROL Schemas]** .
 
-![](assets/schemas-list.png)
+![ het lijstscherm van Schema&#39;s die beschikbare schema&#39;s en filters tonen ](assets/schemas-list.png)
 
 Vanuit dit scherm kunt u alle bestaande schema&#39;s weergeven. Er zijn filters beschikbaar waarmee u de lijst kunt verfijnen, zoals alleen bewerkbare schema&#39;s weergeven.
 
 Als u een schema wilt openen, selecteert u de naam ervan. Er wordt een gedetailleerde schemaweergave weergegeven.
 
-![](assets/schema-details.png)
+![ het detailscherm van het Schema die schemaeigenschappen en inhoud tonen ](assets/schema-details.png)
 
 ### Overzicht van schema {#overview}
 
@@ -58,7 +57,7 @@ Het tabblad **[!UICONTROL Overview]** biedt een algemene weergave van het schema
 
 * In de sectie **[!UICONTROL Properties]** worden belangrijke gegevens weergegeven, zoals de naam van het schema, de naamruimte en de bijbehorende tabelnaam.
 
-* In de sectie **[!UICONTROL Schema definition]** worden details over de schemadefinitie weergegeven, zoals de primaire sleutel die wordt gebruikt voor het afstemmen van gegevens en de koppelingen naar andere tabellen.
+* In de sectie **[!UICONTROL Schema definition]** worden details weergegeven over de schemadefinitie, waaronder de primaire sleutel die wordt gebruikt voor het afstemmen van gegevens en de koppelingen naar andere tabellen.
 
   Klik op de knop **[!UICONTROL Schema preview]** om de verschillende velden en koppelingen waaruit het schema bestaat, weer te geven. Hierdoor kunt u de volledige structuur van een schema controleren. Als het schema is uitgebreid met aangepaste velden, kunt u alle extensies visualiseren.
 
@@ -68,14 +67,14 @@ Het tabblad **[!UICONTROL Overview]** biedt een algemene weergave van het schema
 
 Het tabblad **[!UICONTROL Data]** bevat informatie over de schemagegevens.
 
-![](assets/schemas-data.png)
+![ de gegevenslusje van het Schema die gegevensstructuur en attributen tonen ](assets/schemas-data.png)
 
 ## Aangepaste velden bewerken {#fields}
 
 Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan out-of-the-box-schema&#39;s worden toegevoegd. Zij staan u toe om schema&#39;s aan te passen door nieuwe attributen aan de behoeften van uw organisatie te omvatten.
 
-De gebieden van de douane kunnen in diverse schermen zoals profieldetails in de interface van het Web van de Campagne worden getoond. U kunt bepalen welke velden zichtbaar zijn en hoe ze in de interface worden weergegeven. Klik hiertoe op de knop **[!UICONTROL Edit custom detail]** in het menu **[!UICONTROL Schemas]** .
+De gebieden van de douane kunnen in diverse schermen, zoals profieldetails in de interface van het Web van de Campagne worden getoond. U kunt bepalen welke velden zichtbaar zijn en hoe ze in de interface worden weergegeven. Klik hiertoe op de knop **[!UICONTROL Edit custom detail]** in het menu **[!UICONTROL Schemas]** .
 
-![](assets/schemas-custom.png)
+![ het scherm van de gebieden van de Douane die editable attributen tonen ](assets/schemas-custom.png)
 
-De gedetailleerde informatie over hoe te om douanegebieden in een schema uit te geven, verwijs naar deze sectie: [ vormt douanegebieden ](../administration/custom-fields.md).
+Voor gedetailleerde informatie over hoe te om douanegebieden in een schema uit te geven, verwijs naar deze sectie: [ vorm douanegebieden ](../administration/custom-fields.md).

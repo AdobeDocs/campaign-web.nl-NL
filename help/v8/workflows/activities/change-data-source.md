@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit van de gegevensbronworkflow wijzigen gebruiken
 description: Leer hoe u de werkstroomactiviteit van de gegevensbronworkflow wijzigen gebruikt
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: 52b129be88e48dd70c0f55b404fd3bbe699dbebb
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '338'
 ht-degree: 1%
 
 ---
@@ -23,15 +23,15 @@ In werkschema&#39;s, wordt het gegeven dat van één activiteit aan een andere d
 
 In sommige gevallen zijn gegevens niet beschikbaar in de huidige database of zijn ze niet efficiënt genoeg om eenheidsbewerkingen uit te voeren. Daarom moet u de workflow mogelijk dwingen een andere database te gebruiken om dergelijke bewerkingen uit te voeren door een **[!UICONTROL Change data source]** -activiteit toe te voegen.
 
-De gedetailleerde informatie over de architectuur van de Campagne is beschikbaar in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html)
+De gedetailleerde informatie over de architectuur van de Campagne is beschikbaar in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
 
 >[!IMPORTANT]
 >
->De activiteiten **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend moet gebruiken, zorg ervoor u een **[!UICONTROL Enrichement]** activiteit binnen tussen hen omvat. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
+>De activiteiten **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend wilt gebruiken, neemt u er een **[!UICONTROL Enrichment]** activiteit tussen op. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
 
 <!--
 
-Let's say you want to send to your  VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
+Let's say you want to send VIP customers a unique offer code that they can redeem on your online store. To do this, you need to:
 
 1. Query VIP customers on the "Profiles" table located on the Cloud database,
 1. Retrieve an offer code for each targeted profile through API calls,
@@ -45,9 +45,9 @@ Before executing the operation, the working table is copied to the local databas
 
 ## Vorm de de gegevensbronactiviteit van de Verandering {#configure}
 
-Volg deze stappen om de **dimensie van de Verandering** activiteit te vormen:
+Volg deze stappen om de **gegevensbron van de Verandering** activiteit te vormen:
 
-![](../assets/workflow-change-data-source-add.png)
+![ Schermafbeelding die toont hoe te om de de gegevensbronactiviteit van de Verandering aan een werkschema toe te voegen.](../assets/workflow-change-data-source-add.png)
 
 1. Voeg de gegevensbron van de a **Verandering** activiteit aan uw werkschema toe.
 
@@ -65,6 +65,6 @@ Volg deze stappen om de **dimensie van de Verandering** activiteit te vormen:
 <!--
 ## Example {#example}
 
-The workflow belows illustrates the use case detailed earlier, i.e. sending VIP customers offer codes that they can redeem on our online store.
+The workflow below illustrates the use case detailed earlier, sending VIP customers offer codes that they can redeem on our online store.
 
 -->

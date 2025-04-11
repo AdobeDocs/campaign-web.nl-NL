@@ -3,10 +3,10 @@ audience: end-user
 title: De werkstroomactiviteit voor het laden van bestanden gebruiken
 description: Leer hoe u de workflowactiviteit Bestand laden gebruikt
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: ac22df907233000bada45ac2c382f1a247f7d21a
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 2%
+source-wordcount: '1164'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile"
 >title="Bestandsactiviteit laden"
->abstract="De **dossier van de Lading** activiteit is a **het beheer van Gegevens** activiteit. Gebruik deze activiteit om met gegevens te werken die in een extern dossier worden opgeslagen. Profielen en gegevens worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor personalisatie, voor het bijwerken van profielen of een andere tabel. "
+>abstract="De **dossier van de Lading** activiteit is a **het beheer van Gegevens** activiteit. Gebruik deze activiteit om met gegevens te werken die in een extern dossier worden opgeslagen. Profielen en gegevens worden niet toegevoegd aan de database, maar alle velden in het invoerbestand zijn beschikbaar voor personalisatie, voor het bijwerken van profielen of een andere tabel."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_outboundtransition"
@@ -27,7 +27,6 @@ ht-degree: 2%
 >title="Uitgaande overgang van beheer afwijzen voor afwijzing"
 >abstract="Uitgaande overgang van beheer afwijzen voor afwijzing"
 
-
 De **dossier van de Lading** activiteit is a **het beheer van Gegevens** activiteit. Gebruik deze activiteit om met profielen en gegevens te werken die in een extern dossier worden opgeslagen. De profielen en de gegevens worden niet toegevoegd aan het gegevensbestand, maar alle gebieden in het inputdossier zijn beschikbaar voor [ verpersoonlijking ](../../personalization/gs-personalization.md), of om profielen, of een andere lijst bij te werken.
 
 >[!NOTE]
@@ -37,9 +36,9 @@ Deze activiteit kan met a [ Verzoening ](reconciliation.md) activiteit worden ge
 
 ## De activiteit van het bestand laden configureren {#load-configuration}
 
-De **dossier van de Lading** activiteitenconfiguratie impliceert twee stappen. Eerst moet u de verwachte bestandsstructuur definiëren door een voorbeeldbestand te uploaden. Als dit is gebeurd, kunt u de oorsprong opgeven van het bestand waarvan de gegevens worden geïmporteerd. Voer de onderstaande stappen uit om de activiteit te configureren.
+De **dossier van de Lading** activiteitenconfiguratie impliceert twee stappen. Definieer eerst de verwachte bestandsstructuur door een voorbeeldbestand te uploaden. Als dit is gebeurd, geeft u de oorsprong op van het bestand waarvan de gegevens worden geïmporteerd. Voer de onderstaande stappen uit om de activiteit te configureren.
 
-![](../assets/workflow-load-file.png)
+![ het Scherm van de Configuratie van de Activiteit van het Werkschema van het Lading van het Dossier ](../assets/workflow-load-file.png)
 
 ### Voorbeeldbestand configureren {#sample}
 
@@ -56,7 +55,7 @@ De **dossier van de Lading** activiteitenconfiguratie impliceert twee stappen. E
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_valueremapping"
 >title="Waarde opnieuw toewijzen voor activiteit van bestand laden"
->abstract="Gebruik deze optie om specifieke waarden van de geladen bestanden toe te wijzen aan nieuwe waarden. Als de kolom bijvoorbeeld waarden &quot;Waar&quot;/&quot;Onwaar&quot; bevat, kunt u een toewijzing toevoegen om die waarden automatisch te vervangen door &quot;0&quot;/&quot;1&quot;-tekens."
+>abstract="Gebruik deze optie om specifieke waarden van de geladen bestanden toe te wijzen aan nieuwe waarden. Als de kolom bijvoorbeeld de waarden &#39;Waar&#39;/&#39;Onwaar&#39; bevat, kunt u een toewijzing toevoegen om die waarden automatisch te vervangen door &#39;0&#39;/&#39;1&#39; tekens."
 
 Voer de volgende stappen uit om het voorbeeldbestand te configureren dat wordt gebruikt om de verwachte bestandsstructuur te definiëren:
 
@@ -66,13 +65,13 @@ Voer de volgende stappen uit om het voorbeeldbestand te configureren dat wordt g
 
    >[!NOTE]
    >
-   >De data van het voorbeeldbestand worden gebruikt voor het configureren van de activiteit, maar worden niet geïmporteerd. We raden u aan een voorbeeldbestand te gebruiken dat weinig gegevens bevat. Het dossierformaat moet met dit [ steekproefdossier ](../../audience/file-audience.md#sample-file) worden gericht.
+   >De data van het voorbeeldbestand worden gebruikt voor het configureren van de activiteit, maar worden niet geïmporteerd. Gebruik een voorbeeldbestand dat weinig gegevens bevat. Het dossierformaat moet met dit [ steekproefdossier ](../../audience/file-audience.md#sample-file) worden gericht.
 
 1. Er wordt een voorbeeld van het voorbeeldbestand weergegeven met maximaal 30 regels.
 
-1. Geef in de vervolgkeuzelijst **[!UICONTROL File type]** op of het bestand kolommen met begrenzingen of kolommen met vaste breedte gebruikt.
+1. Geef in de vervolgkeuzelijst **[!UICONTROL File type]** op of het bestand kolommen met scheidingstekens of kolommen met een vaste breedte gebruikt.
 
-   ![](../assets/workflow-load-file-sample.png)
+   ![ Schermschot van de Configuratie van het Dossier van de Steekproef ](../assets/workflow-load-file-sample.png)
 
 1. Voor afgebakende kolomdossiertypes, gebruik de **sectie van Kolommen** om de eigenschappen van elke kolom te vormen.
 
@@ -83,7 +82,7 @@ Voer de volgende stappen uit om het voorbeeldbestand te configureren dat wordt g
    * **[!UICONTROL Width]** (gegevenstype tekenreeks): maximum aantal tekens dat in de kolom moet worden weergegeven.
    * **[!UICONTROL Data Transformation]** (gegevenstype tekenreeks): pas transformatie toe op de waarden in de kolom.
    * **[!UICONTROL White space management]** (gegevenstype tekenreeks): geef op hoe de spaties in de kolom moeten worden beheerd.
-   * **[!UICONTROL Separators]** (gegevenstypen date, time, integer en number)*: geef de tekens op die u als scheidingstekens wilt gebruiken.
+   * **[!UICONTROL Separators]** (gegevenstypen datum, tijd, geheel getal en getal): geef de tekens op die u als scheidingstekens wilt gebruiken.
    * **[!UICONTROL Allow NULLs]**: geef op hoe u lege waarden in de kolom wilt beheren. De optie Adobe Campaign default geeft een fout weer als er een lege waarde aanwezig is.
    * **[!UICONTROL Error processing]** (gegevenstype tekenreeks): geef het gedrag op bij fouten in een van de regels.
    * **[!UICONTROL Value remapping]**: met deze optie kunt u specifieke waarden toewijzen aan nieuwe waarden. Als de kolom bijvoorbeeld waarden &quot;Waar&quot;/&quot;Onwaar&quot; bevat, kunt u een toewijzing toevoegen om die waarden automatisch te vervangen door &quot;0&quot;/&quot;1&quot;-tekens.
@@ -112,7 +111,7 @@ Voer de volgende stappen uit om het voorbeeldbestand te configureren dat wordt g
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_loadfile_command"
 >title="Bestand laden, opdracht"
->abstract="Het toestaan van arbitraire bevel voor preprocessing is een veiligheidszorg, maak veiligheidsoptie XtkSecurity_Disable_Preproc onbruikbaar om het gebruik van een vooraf bepaalde lijst van bevelen te dwingen."
+>abstract="Het toestaan van willekeurig bevel voor voorverwerking is een veiligheidszorg. Schakel beveiligingsoptie XtkSecurity_Disable_Preproc uit om het gebruik van een vooraf gedefinieerde lijst met opdrachten te forceren."
 
 >[!CAUTION]
 >
@@ -130,7 +129,7 @@ Voer de volgende stappen uit om het te uploaden doelbestand te definiëren:
 
    * **[!UICONTROL Calculated]**: upload het bestand waarvan de naam is opgegeven in het veld **[!UICONTROL File name]** . Klik op het pictogram **[!UICONTROL Open personalization dialog]** om de expressie-editor, inclusief gebeurtenisvariabelen, te gebruiken om de bestandsnaam te berekenen.
 
-   ![](../assets/workflow-load-file-config.png)
+   ![ Schermschot van de Configuratie van het Dossier van het Doel ](../assets/workflow-load-file-config.png)
 
    >[!NOTE]
    >
@@ -148,7 +147,6 @@ Voer de volgende stappen uit om het te uploaden doelbestand te definiëren:
 >title="Bestand verwijderen na importeren"
 >abstract="Wissel het **dossier van de Schrapping na de invoer** om het originele dossier van de server te schrappen nadat het dossier wordt ingevoerd."
 
-
 1. In de **het beheer van de Weigering** sectie, specificeer hoe de activiteit zich in het geval van fouten zou moeten gedragen:
 
    * Geef in het veld **[!UICONTROL Number of errors allowed]** het maximumaantal fouten op dat is toegestaan bij het verwerken van het te laden bestand. Als de waarde bijvoorbeeld is ingesteld op &quot;20&quot;, mislukt de uitvoering van de workflow als er meer dan 20 fouten optreden bij het laden van het bestand.
@@ -159,7 +157,7 @@ Voer de volgende stappen uit om het te uploaden doelbestand te definiëren:
 
 1. Als u het geüploade bestand van de server wilt verwijderen nadat de workflow is uitgevoerd, schakelt u de optie **[!UICONTROL Delete file after import]** in of uit.
 
-   ![](../assets/workflow-load-file-options.png)
+   ![ Extra Schermafbeelding van de Configuratie van Opties ](../assets/workflow-load-file-options.png)
 
 1. Klik **bevestigen** zodra de montages correct zijn.
 

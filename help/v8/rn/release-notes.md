@@ -2,10 +2,10 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 9%
+source-wordcount: '837'
+ht-degree: 8%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 9%
 >title="Aanvullende informatie "
 >abstract="De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Opmerkingen bij de release Campagne worden daarom meerdere keren per maand bijgewerkt met de nieuwste functies, verbeteringen en correcties. We raden u aan deze regelmatig te controleren."
 
-De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel, dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
-De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld [ in deze pagina ](release-notes-24.md).
+De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld [ op deze pagina ](release-notes-24.md).
 
 ## Release van februari &#39;25 {#25-2-release}
 
@@ -37,8 +37,8 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in febru
 <tbody>
 <tr>
 <td>
-<p>U kunt nu typologieën en typologische regels maken in de Adobe Campaign Web User Interface. Met behulp van typologieën kunt u het verzenden van leveringen besturen, filteren en prioriteren. De technologieën worden gebruikt om te bevestigen dat de leveringen altijd verplichte componenten (zoals een unsubscription verbinding of een onderwerpregel) of het filtreren regels bevatten om groepen van uw publiek (zoals abonnees, concurrenten, of niet loyaliteitklanten) uit te sluiten.</p>
-<img src="assets/do-not-localize/typology.gif">
+<p>U kunt nu typologieën en typologische regels maken in de Adobe Campaign Web User Interface. De controle van de typologieën, filter, en geeft voorrang aan het verzenden van leveringen. De technologieën bevestigen dat de leveringen altijd verplichte componenten (zoals een unsubscription verbinding of een onderwerpregel) of het filtreren regels bevatten om groepen van uw publiek (zoals abonnees, concurrenten, of niet loyaliteitklanten) uit te sluiten.</p>
+<img src="assets/do-not-localize/typology.gif" alt="Illustratie van het maken van typologieregels in de Adobe Campaign Web User Interface">
 <p>Raadpleeg de <a href="../administration/typologies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -54,8 +54,8 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in febru
 <tbody>
 <tr>
 <td>
-<p>U kunt doeltoewijzingen in het Gebruikersinterface van het Web van de Campagne nu tot stand brengen. Doeltoewijzingen bepalen hoe verschillende leveringskanalen (e-mail, SMS, pushmeldingen) worden gekoppeld aan de gegevensvelden van een schema. Met de doeltoewijzing kunt u het doelpubliek definiëren: profielen, begunstigden van contracten, operators, abonnees, vooruitzichten, enz.</p>
-<img src="assets/do-not-localize/target-mapping.gif">
+<p>U kunt doeltoewijzingen in het Gebruikersinterface van het Web van de Campagne nu tot stand brengen. Doeltoewijzingen bepalen hoe verschillende leveringskanalen (e-mail, SMS, pushmeldingen) worden gekoppeld aan de gegevensvelden van een schema. In de doelmapping wordt het doelpubliek gedefinieerd: profielen, begunstigden van contracten, exploitanten, abonnees, vooruitzichten en andere.</p>
+<img src="assets/do-not-localize/target-mapping.gif" alt="Afbeelding van doeltoewijzingen maken in Adobe Campaign Web User Interface">
 <p>Raadpleeg de <a href="../administration/target-mappings.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -71,8 +71,8 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in febru
 <tbody>
 <tr>
 <td>
-<p>U kunt tot de details van een schema nu toegang hebben door zijn naam in de lijst te selecteren. De de gebiedsuitgave van de douane is nu toegankelijk van <b> geeft de knoop van douanegebieden </b> beschikbaar in de schemadetails uit.</p>
-<img src="assets/do-not-localize/schemas.gif">
+<p>U kunt tot de details van een schema nu toegang hebben door zijn naam in de lijst te selecteren. De gebieden van de douane het uitgeven zijn nu toegankelijk van <b> geeft de knoop van douanegebieden </b> beschikbaar in de schemadetails uit.</p>
+<img src="assets/do-not-localize/schemas.gif" alt="Afbeelding van schema-details en aangepaste velden die worden bewerkt in de Adobe Campaign Web User Interface">
 <p>Raadpleeg de <a href="../administration/schemas.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -87,7 +87,6 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 
 ### Functies {#25-1-features}
 
-
 <table>
 <thead>
 <tr>
@@ -98,7 +97,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tr>
 <td>
 <p>Visuele fragmenten zijn vooraf gedefinieerde visuele blokken die u kunt hergebruiken voor meerdere e-mailleveringen of in inhoudssjablonen. Deze functie is nu beschikbaar voor alle klanten die op de server bouwen 8.6.4 en hoger.</p>
-<img src="assets/do-not-localize/visual-fragment.gif">
+<img src="assets/do-not-localize/visual-fragment.gif" alt="Afbeelding van visuele fragmenten maken en gebruiken in Adobe Campaign Web User Interface">
 <p>Raadpleeg de <a href="../content/use-visual-fragments.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -115,7 +114,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tr>
 <td>
 <p>U kunt nu externe leveringen en externe leveringssjablonen definiëren in de webinterface van Campagne. In deze modus worden berichten gecompileerd naar een uitvoerbestand dat kan worden gedeeld met uw externe provider. Standaard wordt de externe leveringsmodus gebruikt voor het directe-mailkanaal.</p>
-<img src="assets/do-not-localize/external-delivery.gif">
+<img src="assets/do-not-localize/external-delivery.gif" alt="Illustratie van externe leveringsinstellingen in Adobe Campaign Web User Interface">
 <p>Raadpleeg de <a href="../msg/send-external-deliveries.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -131,8 +130,8 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tbody>
 <tr>
 <td>
-<p>U kunt opsommingen nu rechtstreeks maken via de Adobe Campaign Web User Interface. Een opsomming is een lijst met waarden die door het systeem worden voorgesteld om velden te vullen. Gebruik opsommingen om de waarden van deze velden te standaardiseren, hulp bij gegevensinvoer of gebruik binnen query's.</p>
-<img src="assets/do-not-localize/enumerations.gif">
+<p>U kunt opsommingen nu rechtstreeks maken via de Adobe Campaign Web User Interface. Een opsomming is een lijst met waarden die door het systeem worden voorgesteld om velden te vullen. Gebruik opsommingen om de waarden van deze velden te standaardiseren, te helpen bij de invoer van gegevens of om binnen query's te gebruiken.</p>
+<img src="assets/do-not-localize/enumerations.gif" alt="Illustratie van het opsombeheer in Adobe Campaign Web User Interface">
 <p>Raadpleeg de <a href="../administration/enumerations.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -149,13 +148,12 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tr>
 <td>
 <p>U hebt nu toegang tot technische opties in de Adobe Campaign Web User Interface en kunt uw eigen aangepaste opties maken die aan uw wensen voldoen. Dit is met name handig wanneer u werkt met JavaScript-code-workflowactiviteiten om tussenliggende gegevens op te slaan.</p>
-<img src="assets/do-not-localize/options.gif">
+<img src="assets/do-not-localize/options.gif" alt="Illustratie van het maken van aangepaste opties in de Adobe Campaign Web User Interface">
 <p>Raadpleeg de <a href="../administration/options.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -167,7 +165,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tr>
 <td>
 <p>U kunt nu JavaScript-codes maken in de Adobe Campaign Web User Interface. Op deze manier kunt u herbruikbare functies maken die in verschillende workflows kunnen worden gebruikt, net als in een bibliotheek.</p>
-<img src="assets/do-not-localize/javascript.gif">
+<img src="assets/do-not-localize/javascript.gif" alt="Afbeelding van JavaScript code creation in Adobe Campaign Web User Interface">
 <p>Raadpleeg de <a href="../administration/javascript-codes.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -184,23 +182,21 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <tr>
 <td>
 <p>De AI-assistent is nu beschikbaar bij de levering van de bestemmingspagina, zodat u tekst, afbeeldingen of volledige paginalay-outs kunt genereren.</p>
-<img src="assets/do-not-localize/ai-lp.gif">
+<img src="assets/do-not-localize/ai-lp.gif" alt="Illustratie van het gebruik van AI Assistant voor het genereren van landingspagina&apos;s in de Adobe Campaign Web User Interface">
 <p>Voor meer informatie over AI Medewerker, verwijs naar de <a href="../email/generative-lp.md"> gedetailleerde documentatie </a>.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-
 ### Verbeteringen {#25-1-improvements}
 
 * De weergave van aangepaste velden in de interface aanpassen:
+   * Selecteer aanvullende aangepaste velden die u wilt weergeven in de interface.
+   * Stel regels in voor de weergave van aangepaste velden van het koppelingstype, zoals het beperken van lijstwaarden op basis van invoer van een ander veld.
+   * Velden in de interface flexibeler rangschikken: velden kunnen zich uitstrekken over één kolom of worden gegroepeerd in subsecties voor een betere organisatie.
+   * Stel specifieke velden in als alleen-lezen.
 
-   * U kunt nu aanvullende aangepaste velden selecteren die u wilt weergeven in de interface
-   * U kunt nu regels instellen voor de weergave van aangepaste velden van het koppelingstype, zoals het beperken van lijstwaarden op basis van de invoer van een ander veld
-   * U kunt nu velden in de interface flexibeler rangschikken: velden kunnen zich uitstrekken over één kolom of worden gegroepeerd in subsecties voor een betere organisatie
-   * U kunt nu specifieke velden instellen als alleen-lezen
+* Recente en Favorieten filters: voeg vaak gebruikte attributen aan favorieten voor snelle toegang toe. Naast favorieten, bekijk en gebruik de onlangs geselecteerde attributen.
 
-* Recente filters en Favorieten: als u kenmerken die vaak worden gebruikt snel wilt hergebruiken, kunt u deze nu toevoegen aan Favorieten. Hierdoor zijn ze gemakkelijk toegankelijk voor toekomstige taken. Naast favorieten kunt u ook de laatst geselecteerde kenmerken weergeven en gebruiken.
-
-* Externe accounts: het nieuwe type **[!UICONTROL Routing]** kan worden geselecteerd wanneer u een nieuwe externe account maakt. Het staat u toe om een specifieke externe rekening voor gebruik in uw externe leveringen te vormen. [Meer informatie](../administration/external-account.md#routing)
+* Externe accounts: het nieuwe type **[!UICONTROL Routing]** kan worden geselecteerd wanneer u een nieuwe externe account maakt. Het staat u toe om een specifieke externe rekening voor gebruik in uw externe leveringen te vormen. [Meer informatie](../administration/external-account.md#routing).

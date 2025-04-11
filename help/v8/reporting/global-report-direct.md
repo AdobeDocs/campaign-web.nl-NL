@@ -3,9 +3,9 @@ audience: end-user
 title: Algemene rapporten voor het directe-mailkanaal
 description: Meer informatie over Global-rapporten voor het directe e-mailkanaal
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: 98a0ce67682f8e1ab412be91b5af01e35c638f99
+source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Navigeer naar het menu **[!UICONTROL Reports]** in de sectie **[!UICONTROL Repor
 >title="Overzicht van levering"
 >abstract="Het **Overzicht van de Levering** stelt zeer belangrijke prestatiesmetriek (KPIs) voor die diepgaande inzichten in de interactie van uw bezoekers met elke directe postlevering aanbieden. De meetgegevens worden hieronder beschreven."
 
-In **[!UICONTROL Delivery Overview]** vindt u belangrijke prestatiemetriek (KPI&#39;s) met diepgaande inzichten in de interactie van uw bezoekers met elke direct-maillevering. De meetgegevens worden hieronder beschreven.
+In **[!UICONTROL Delivery Overview]** worden de belangrijkste prestatiemetriek (KPI&#39;s) gepresenteerd, die diepgaande inzichten biedt in de interactie van uw bezoekers met elke directe-maillevering. De meetgegevens worden hieronder beschreven.
 
-![](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
+![ Dit beeld toont de metriek van het leveringsoverzicht voor directe postleveringen.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++ Meer informatie over overzichtsmetriek voor levering.
 
@@ -35,9 +35,10 @@ In **[!UICONTROL Delivery Overview]** vindt u belangrijke prestatiemetriek (KPI&
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
 
-* **[!UICONTROL Errors]**: Totaal aantal fouten gecumuleerd tijdens levering en automatische retourverwerking in verhouding tot het totale aantal verzonden berichten.
+* **[!UICONTROL Errors]**: Totaal aantal fouten die zijn geaccumuleerd tijdens levering en automatische retourverwerking, in verhouding tot het totale aantal verzonden berichten.
 
-* **[!UICONTROL Unsubscribes]**: Aantal ontvangers die op Abonnementen hebben geklikt.
+* **[!UICONTROL Unsubscribes]**: Aantal ontvangers die op abonnementkoppelingen hebben geklikt.
+
 +++
 
 ### Gericht publiek {#delivery-summary-direct-initial-target}
@@ -54,7 +55,7 @@ In **[!UICONTROL Delivery Overview]** vindt u belangrijke prestatiemetriek (KPI&
 
 De tabel en grafiek voor **[!UICONTROL Targeted Audience]** bevatten gegevens over showcase die betrekking hebben op uw ontvangers. Hieronder vindt u gedetailleerde cijfers.
 
-![](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
+![ Dit beeld toont de gerichte publieksmetriek voor directe postleveringen.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++ Meer informatie over de meetgegevens voor doelgroepen.
 
@@ -62,7 +63,7 @@ De tabel en grafiek voor **[!UICONTROL Targeted Audience]** bevatten gegevens ov
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
-* **[!UICONTROL Exclusion]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels: adres ontbreekt, quarantined, op lijst van gewezen personen, enz.
+* **[!UICONTROL Exclusion]**: Het totale aantal adressen dat tijdens de analyse wordt genegeerd wanneer het toepassen van regels, zoals adres mist, quarantined, of op een lijst van gewezen personen.
 
 +++
 
@@ -84,11 +85,11 @@ De grafiek en de tabel van **[!UICONTROL Delivery statistics]** bevatten een ove
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
-* **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
+* **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt, in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL Errors / Bounces]**: Het totale aantal fouten dat tijdens leveringen is gecumuleerd en de automatische oplaadbewerking in verhouding tot het aantal te leveren berichten.
+* **[!UICONTROL Errors / Bounces]**: het totaal van de fouten die tijdens leveringen en automatische oplaadbewerking zijn geaccumuleerd, in verhouding tot het aantal te leveren berichten.
 
-* **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (onbekend, ongeldig domein) in verhouding tot het aantal te leveren berichten.
+* **[!UICONTROL New quarantines]**: Het totale aantal adressen dat na een mislukte levering in quarantaine is geplaatst (bv. onbekende gebruiker, ongeldig domein), in verhouding tot het aantal te leveren berichten.
 
 +++
 
@@ -104,21 +105,21 @@ De grafiek en de tabel van **[!UICONTROL Delivery statistics]** bevatten een ove
 >title="Oorzaken van uitsluiting"
 >abstract="De **Oorzaken van uitsluiting** grafiek illustreert de distributie van verworpen berichten tijdens de voorbereiding voor levering, die door elke regel wordt gecategoriseerd."
 
-![](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
+![ Dit beeld toont de oorzaken van uitsluitingsmetriek voor directe postleveringen.](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 In de grafiek en de tabel met uitsluitingen worden de redenen weergegeven waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
 
 +++Meer informatie over oorzaken van uitsluitingsmetingen.
 
-* **[!UICONTROL Address in quarantine]**: Fouttype dat wordt gegenereerd wanneer het adres in quarantaine wordt geplaatst.
+* **[!UICONTROL Address in quarantine]**: Fouttype dat wordt gegenereerd wanneer een adres in quarantaine wordt geplaatst.
 
 * **[!UICONTROL Address not specified]**: Fouttype dat wordt gegenereerd bij het verzenden van een levering om aan te geven dat het adres niet bestaat.
 
-* **[!UICONTROL Bad quality address]**: Fouttype dat wordt gegenereerd wanneer de kwaliteitsbeoordeling van het postadres te laag is.
+* **[!UICONTROL Bad quality address]**: Fouttype dat wordt gegenereerd wanneer de score van de kwaliteit van het postadres te laag is.
 
 * **[!UICONTROL Denylisted address]**: Het type van fout produceerde toen de ontvanger werd gevoegd op lijst van gewenste personen toen de levering werd uitgevoerd.
 
-* **[!UICONTROL Double]**: Fouttype dat is gegenereerd toen de ontvanger werd uitgesloten, omdat de toetswaarden niet uniek waren.
+* **[!UICONTROL Double]**: Fouttype dat is gegenereerd toen de ontvanger werd uitgesloten, omdat de hoofdwaarden niet uniek waren.
 
 * **[!UICONTROL Control group]**: Het adres van de ontvanger maakt deel uit van de controlegroep.
 

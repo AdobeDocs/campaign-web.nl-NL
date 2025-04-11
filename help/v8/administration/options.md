@@ -2,9 +2,9 @@
 title: Vorm  [!DNL Campaign]  opties
 description: Leer hoe u campagneopties configureert en uw eigen aangepaste opties maakt.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 1f3f3afb9b21ab37aeea73057d832cea172c00bf
+source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -12,30 +12,23 @@ ht-degree: 0%
 # [!DNL Campaign] -opties configureren {#options}
 
 >[!CONTEXTUALHELP]
->id="acw_options_list"
->title="Opties"
->abstract="Opties"
-
->[!CONTEXTUALHELP]
->id="acw_options_create"
->title="Maken, optie"
->abstract="Maken, optie"
-
-Adobe Campaign Web wordt geleverd met technische opties die u toestaan om de toepassing specifieker te vormen. Sommige van deze opties zijn ingebouwd, terwijl andere naar wens handmatig kunnen worden toegevoegd.
-
->[!IMPORTANT]
 >
->Ingebouwde opties zijn vooraf geconfigureerd en mogen alleen door gevorderde gebruikers worden gewijzigd. Neem contact op met uw Adobe-vertegenwoordiger als u een vraag of verzoek hebt.
+[!CONTEXTUALHELP]
+
+Adobe Campaign Web omvat technische opties die u toestaan om de toepassing meer specifiek te vormen. Sommige van deze opties zijn ingebouwd, terwijl andere indien nodig handmatig kunnen worden toegevoegd.
+
+>[!IMPORTANT]\
+Ingebouwde opties zijn vooraf geconfigureerd en mogen alleen door gevorderde gebruikers worden gewijzigd. Neem contact op met uw Adobe-vertegenwoordiger als u vragen of verzoeken hebt.
 
 ## Opties voor Access Campaign {#access}
 
-U kunt opties kiezen in het menu **[!UICONTROL Administration]** / **[!UICONTROL Options]** . Gebruik het filtervenster om de lijst te versmallen en snel de gewenste optie te vinden.
+U kunt opties kiezen in het menu **[!UICONTROL Administration]** / **[!UICONTROL Options]** . Gebruik het filterdeelvenster om de lijst te versmallen en snel de gewenste optie te zoeken.
 
-![](assets/options-list.png)
+![](assets/options-list.png)\
+[ lijst van Opties die in het Beleid/menu van Opties wordt getoond ]
 
->[!NOTE]
->
->Hoewel de locatie van het optiemenu verschilt tussen de Adobe Campaign-console en de webgebruikersinterface, is de lijst identiek en werkt deze als een spiegel. Voor meer informatie over de beschikbare opties, verwijs naar de lijst van opties in [ Campagne v7 documentatie ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options) {target="_blank"}
+>[!NOTE]\
+Hoewel de locatie van het optiemenu verschilt tussen de Adobe Campaign-console en de webgebruikersinterface, is de lijst identiek en werkt deze als een spiegel. Voor meer details over de beschikbare opties, verwijs naar de lijst van opties in [ de documentatie van de Campagne v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options) {target="_blank"}.
 
 In de lijst met opties kunt u:
 
@@ -45,7 +38,7 @@ In de lijst met opties kunt u:
 
 ## Een optie maken {#create}
 
-Met de Adobe Campaign Web-gebruikersinterface kunt u uw eigen aangepaste opties maken die aan uw wensen voldoen. Dit is vooral handig wanneer u met **[!UICONTROL JavaScript code]** -workflowactiviteiten werkt om tussentijdse gegevens op te slaan.
+Met de Adobe Campaign Web-gebruikersinterface kunt u aangepaste opties maken die aan uw vereisten voldoen. Dit is vooral handig wanneer u met **[!UICONTROL JavaScript code]** -workflowactiviteiten werkt om tussentijdse gegevens op te slaan.
 
 Een optie maken:
 
@@ -53,27 +46,27 @@ Een optie maken:
 1. Voer een naam voor de optie in, selecteer het type en stel de gewenste waarde in.
 1. Klik op **[!UICONTROL Create]** om de optie te maken.
 
-   ![](assets/options-create.png)
+![ creeer optieinterface die gebieden voor naam, type, en waarde tonen ](assets/options-create.png)
 
-De opties kunnen als tijdelijke opslagruimte voor gegevens dienst doen, die de volgende voordelen verstrekken:
+De opties kunnen als tijdelijke opslag voor gegevens dienst doen, die de volgende voordelen aanbieden:
 
-* Getypte waarden: de opties ondersteunen specifieke gegevenstypen, zoals datums, gehele getallen, tekenreeksen...
+* Getypte waarden: de opties ondersteunen specifieke gegevenstypen, zoals datums, gehele getallen, tekenreeksen, enzovoort.
 * Flexibiliteit: de opties staan gebruikers toe om gegevens efficiënt op te slaan en terug te winnen zonder de overheadkosten van het beheren van gegevensbestandlijsten.
 
-In het onderstaande voorbeeld maken we een aangepaste optie met de naam `sampleOption` met de beginwaarde &quot;a&quot;. Een **[!UICONTROL JavaScript code]** -activiteit in een workflow wijzigt de waarde van deze optie en slaat deze op in een variabele. De bijgewerkte waarde wordt weergegeven in de logboeken van de workflow en weergegeven in het menu **[!UICONTROL Options]** .
+In het onderstaande voorbeeld wordt een aangepaste optie met de naam `sampleOption` gemaakt met de beginwaarde &quot;a&quot;. Een **[!UICONTROL JavaScript code]** -activiteit in een workflow wijzigt de waarde van deze optie en slaat deze op in een variabele. De bijgewerkte waarde wordt weergegeven in de logboeken van de workflow en weergegeven in het menu **[!UICONTROL Options]** .
 
 1. Maak de optie.
 
-   ![](assets/options-sample-create.png)
+   ![ interface die van de de optiesverwezenlijking van de Douane de naam `sampleOption` en aanvankelijke waarde &quot;a&quot;](assets/options-sample-create.png) toont
 
 1. Configureer een **[!UICONTROL JavaScript code]** -activiteit en start de workflow.
 
-   ![](assets/options-sample-javascript.png)
+   ![ de interface van de de codeactiviteit van JavaScript configuratie ](assets/options-sample-javascript.png)
 
 1. Voer de workflow uit om de bijgewerkte waarde in de logboeken van de workflow te bekijken.
 
-   ![](assets/options-sample-logs.png)
+   ![ Logboeken van het Werkschema die de bijgewerkte waarde van de douaneoptie tonen ](assets/options-sample-logs.png)
 
 1. De bijgewerkte waarde wordt nu weergegeven in het menu **[!UICONTROL Options]** .
 
-   ![](assets/options-sample-updated.png)
+   ![ menu van Opties tonend de bijgewerkte waarde van de douaneoptie ](assets/options-sample-updated.png)

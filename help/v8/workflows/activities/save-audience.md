@@ -3,10 +3,10 @@ audience: end-user
 title: De workflowactiviteit voor het publiek opslaan gebruiken
 description: Leer hoe u de vorkworkflowactiviteit kunt gebruiken
 exl-id: 0f7cbc34-0536-493e-bb3b-0b1ac93d1232
-source-git-commit: 75c612d50d2d4a675829a412e2c4f55ed1cb817c
+source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 1%
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -24,33 +24,32 @@ ht-degree: 1%
 
 **sparen publiek** activiteit is a **richtend** activiteit. Met deze activiteit kunt u een bestaand publiek bijwerken of een nieuw publiek maken van de populatie die stroomopwaarts in een workflow is berekend. Het gecreeerde publiek wordt toegevoegd aan de lijst van toepassingspubliek, en beschikbaar gemaakt via het **publiek** menu.
 
-Deze activiteit wordt hoofdzakelijk gebruikt om populatiegroepen in de zelfde werkschema gegevens te bewaren, door hen in herbruikbaar publiek om te zetten. Verbind het met andere het richten activiteiten zoals a **bouwt publiek** of a **combineer** activiteit.
+Deze activiteit wordt hoofdzakelijk gebruikt om populatiegroepen te behouden die in het zelfde werkschema worden berekend door hen in herbruikbaar publiek om te zetten. Verbind het met andere het richten activiteiten zoals a **bouwt publiek** of a **combineer** activiteit.
 
-## Vorm sparen publieksactiviteit{#save-audience-configuration}
+## Vorm sparen publieksactiviteit {#save-audience-configuration}
 
 Volg deze stappen om **te vormen sparen publiek** activiteit:
 
-![](../assets/workflow-save-audience.png)
+![ Beschrijving: De configuratie van het werkschema voor sparen publieksactiviteit ](../assets/workflow-save-audience.png)
 
 1. Voeg a **sparen publiek** activiteit aan uw werkschema toe.
 
-1. Op de **drop-down Wijze**, selecteer de actie die u zou willen uitvoeren:
+1. Op de **drop-down Wijze**, selecteer de actie u wilt uitvoeren:
 
-   * **creeer of werk een bestaand publiek** bij: bepaal een **etiket van het Publiek**. Als het publiek reeds bestaat, zal het worden bijgewerkt, anders zal een nieuw publiek worden gecreeerd.
+   * **creeer of werk een bestaand publiek** bij: Bepaal een **etiket van het Publiek**. Als het publiek reeds bestaat, wordt het bijgewerkt; anders, wordt een nieuw publiek gecreeerd.
 
-   * **werk een bestaand publiek** bij: kies het **Publiek** u wenst om onder de lijst van bestaand publiek bij te werken.
+   * **werk een bestaand publiek** bij: Kies het **Publiek** u van de lijst van bestaand publiek wilt bijwerken.
 
-1. Selecteer de **wijze van de Update** die voor bestaand publiek zal van toepassing zijn:
+1. Selecteer de **wijze van de Update** die op bestaand publiek van toepassing is:
 
-   * **vervangt publieksinhoud met nieuwe gegevens**: al publieksinhoud wordt vervangen. De oude data gaan verloren. Alleen de gegevens van de binnenkomende overgang van de activiteit voor het opslaan van het publiek blijven behouden. Met deze optie wist u het publiekstype en de doeldimensie van het bijgewerkte publiek.
+   * **vervang publieksinhoud met nieuwe gegevens**: Alle publieksinhoud wordt vervangen, en het oude gegeven wordt verloren. Slechts worden de gegevens van de binnenkomende overgang van **sparen publiek** activiteit behouden. Met deze optie wist u het publiekstype en de doeldimensie van het bijgewerkte publiek.
 
-   * **Volledig publiek met nieuwe gegevens**: de oude publieksinhoud wordt gehouden en de gegevens van de inbound overgang van de sparen publieksactiviteit wordt toegevoegd aan het.
+   * **Volledig publiek met nieuwe gegevens**: De oude publieksinhoud wordt behouden, en de gegevens van de binnenkomende overgang van **sparen publiek** activiteit wordt toegevoegd aan het.
 
-1. Controle **produceert een uitgaande overgang** optie als u wenst om een overgang na **toe te voegen sparen publiek** activiteit.
+1. Controle **produceert een uitgaande overgang** optie als u een overgang na **wilt toevoegen sparen publiek** activiteit.
 
-De inhoud van het bewaarde publiek is dan beschikbaar in de detailmening van het publiek, dat van het **Publiek** menu kan worden betreden. De kolommen beschikbaar van deze mening beantwoorden aan de kolommen van de binnenkomende overgang van het werkschema **sparen publiek** activiteit.
+De inhoud van het bewaarde publiek is dan beschikbaar in de detailmening van het publiek, dat van het **Publiek** menu kan worden betreden. De kolommen beschikbaar in deze mening beantwoorden aan de kolommen van de binnenkomende overgang van het werkschema **sparen publiek** activiteit.
 
+## Voorbeeld {#save-audience-example}
 
-## Voorbeeld{#save-audience-example}
-
-In het volgende voorbeeld ziet u hoe u een eenvoudige publieksupdate maakt. Een planner wordt toegevoegd om het werkschema eens per maand in werking te stellen. Met een query worden alle profielen hersteld die zijn geabonneerd op de verschillende beschikbare toepassingen. **sparen publiek** activiteit werkt het publiek bij door profielen te schrappen die van de dienst sinds de laatste werkschemauitvoering hebben afgemeld en door de onlangs ingetekende profielen toe te voegen.
+In het volgende voorbeeld ziet u hoe u een eenvoudige publieksupdate maakt. Een planner stelt het werkschema eens per maand in werking. Met een query worden alle profielen opgehaald die zijn geabonneerd op de verschillende beschikbare toepassingen. **sparen publiek** activiteit werkt het publiek door profielen uit te verwijderen die van de dienst sinds de laatste werkschemauitvoering hebben afgemeld en onlangs ingetekende profielen toevoegen.
