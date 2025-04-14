@@ -12,8 +12,9 @@ ht-degree: 0%
 # Doelafmetingen {#targeting-dimensions}
 
 >[!CONTEXTUALHELP]
->
-De het richten dimensie, die ook als doelafbeelding wordt bekend, is het type van gegevens dat een verrichting behandelt. Het bepaalt de doelpopulatie, zoals profielen, contractbegunstigden, exploitanten, of abonnees.
+>id="acw_orchestration_build_audience_dimension"
+>title="Select the targeting dimension"
+>abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
 
 ## Doeldimensies van workflows {#workflow}
 

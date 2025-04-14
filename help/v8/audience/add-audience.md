@@ -13,8 +13,10 @@ ht-degree: 0%
 # Bestaande doelgroep selecteren {#add-audience}
 
 >[!CONTEXTUALHELP]
->
-In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren wanneer u de doelpopulatie van een levering definieert. Wanneer u het hoofddoel van een levering definieert, kunt u ook:
+>id="acw_deliveries_email_audience_select"
+>title="Select an existing audience"
+>abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
+
 * [ bouwt een eenmalig publiek ](one-time-audience.md) gebruikend de vraagmodeler.
 * [ Laad een publiek van een extern dossier ](file-audience.md) (voor e-mail slechts).
 

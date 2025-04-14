@@ -13,8 +13,9 @@ ht-degree: 0%
 # Uw e-mailachtergrond aanpassen {#backgrounds}
 
 >[!CONTEXTUALHELP]
->
-Adobe raadt het volgende aan wanneer u achtergronden instelt voor de e-mailtoepassing Designer:
+>id="ac_edition_backgroundimage"
+>title="Background settings"
+>abstract="You can personalize the background color or background image for your content. Note that background image is not supported by all email clients."
 
 1. Pas een achtergrondkleur toe op de tekst van uw e-mail, indien dat door uw ontwerp wordt vereist.
 1. In de meeste gevallen stelt u achtergrondkleuren in op kolomniveau.

@@ -12,8 +12,14 @@ ht-degree: 0%
 # [!DNL Campaign] -opties configureren {#options}
 
 >[!CONTEXTUALHELP]
->
-[!CONTEXTUALHELP]
+>id="acw_options_list"
+>title="Options"
+>abstract="Options"
+
+>[!CONTEXTUALHELP]
+>id="acw_options_create"
+>title="Create option"
+>abstract="Create option"
 
 Adobe Campaign Web omvat technische opties die u toestaan om de toepassing meer specifiek te vormen. Sommige van deze opties zijn ingebouwd, terwijl andere indien nodig handmatig kunnen worden toegevoegd.
 
