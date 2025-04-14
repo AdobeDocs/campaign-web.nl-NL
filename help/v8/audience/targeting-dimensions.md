@@ -2,9 +2,9 @@
 title: Doelafmetingen
 description: Meer informatie over doelgerichte dimensies vindt u op Adobe Campaign Web
 exl-id: b910649a-7300-4f99-8f40-3a8965572ee9
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -13,8 +13,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_build_audience_dimension"
->title="Select the targeting dimension"
->abstract="The targeting dimension lets you define the population targeted by the operation: recipients, contract beneficiaries, operator, subscribers, and more. By default, for emails and SMS, the target is selected from the Recipients built-in table. For Push notifications, the default target dimension is Subscriber applications."
+>title="Doeldimensie selecteren"
+>abstract="Met de doeldimensie kunt u de doelgroep voor de bewerking definiëren: ontvangers, begunstigden van contracten, operator, abonnees en nog veel meer. Standaard is het doel voor e-mails en SMS geselecteerd in de ingebouwde tabel Ontvangers. Voor pushberichten is de standaarddoeldimensie Subscriber-toepassingen."
+
+De het richten dimensie, die ook als doelafbeelding wordt bekend, is het type van gegevens dat een verrichting behandelt. Het bepaalt de doelpopulatie, zoals profielen, contractbegunstigden, exploitanten, of abonnees.
 
 ## Doeldimensies van workflows {#workflow}
 

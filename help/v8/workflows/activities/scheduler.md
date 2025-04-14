@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit van de planner gebruiken
 description: Leer hoe u de workflowactiviteit van de planner gebruikt
 exl-id: 84142fbe-fd8a-4329-88a5-cf7a8f4e8b8f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d982d55a7667442f4ff4751dbaa29dfaa243b22c
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
@@ -14,8 +14,10 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_scheduler"
->title="Scheduler activity"
->abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
+>title="Planningsactiviteit"
+>abstract="De **Planner** activiteit staat u toe om te plannen wanneer het werkschema begonnen wordt. Deze activiteit moet worden beschouwd als een geplande start. Deze kan alleen worden gebruikt als de eerste activiteit van de workflow."
+
+De **planner** activiteit is de controle **activiteit van de a** Stroom. Hiermee kunt u plannen wanneer de workflow wordt gestart. Deze activiteit moet worden beschouwd als een geplande start. Deze kan alleen worden gebruikt als de eerste activiteit van de workflow.
 
 ## Best practices {#scheduler-best-practices}
 
@@ -27,13 +29,13 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_validity"
->title="Scheduler validity"
->abstract="You can define a validity period for the scheduler. It can be permanent (default), or can be valid until a specific date."
+>title="Geldigheid van planner"
+>abstract="U kunt een geldigheidsperiode voor de planner bepalen. Deze kan permanent zijn (standaard) of geldig zijn tot een bepaalde datum."
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_schedule_options"
->title="Scheduler options"
->abstract="Define the frequency of the scheduler. It can be executed at a specific moment, once or several times a day, week or month."
+>title="Planningsopties"
+>abstract="Bepaal de frequentie van de planner. Het kan op een specifiek moment, één keer of verscheidene keren per dag, week of maand worden uitgevoerd."
 
 Volg deze stappen om de **Planner** activiteit te vormen:
 
@@ -59,7 +61,7 @@ Volg deze stappen om de **Planner** activiteit te vormen:
    * **periode van de Geldigheid**: Het werkschema wordt uitgevoerd volgens de gespecificeerde frequentie, tot een specifieke datum. Begin- en einddatum opgeven.
 
 >[!NOTE]\
-Als u het werkschema wilt onmiddellijk beginnen, **voert hangende taak** in de hoogste actiebar van de planner uit. Deze knop is alleen beschikbaar wanneer de workflow is gestart.
+>Als u het werkschema wilt onmiddellijk beginnen, **voert hangende taak** in de hoogste actiebar van de planner uit. Deze knop is alleen beschikbaar wanneer de workflow is gestart.
 
 ## Voorbeeld {#scheduler-example}
 

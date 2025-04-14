@@ -3,9 +3,9 @@ audience: end-user
 title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,10 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_audience_select"
->title="Select an existing audience"
->abstract="Browse the list to select an existing audience. Use the 'Show filters' icon to filter the list, or select a specific folder."
+>title="Bestaande doelgroep selecteren"
+>abstract="Blader in de lijst om een bestaand publiek te selecteren. Gebruik het pictogram Filters tonen om de lijst te filteren of selecteer een specifieke map."
 
+In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren wanneer u de doelpopulatie van een levering definieert. Wanneer u het hoofddoel van een levering definieert, kunt u ook:
 * [ bouwt een eenmalig publiek ](one-time-audience.md) gebruikend de vraagmodeler.
 * [ Laad een publiek van een extern dossier ](file-audience.md) (voor e-mail slechts).
 
