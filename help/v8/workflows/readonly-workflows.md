@@ -13,8 +13,9 @@ ht-degree: 0%
 # Alleen-lezen workflows {#readonly-workflows}
 
 >[!CONTEXTUALHELP]
->
-Sommige workflows zijn alleen-lezen. Ingebouwde technische workflows zijn altijd alleen-lezen, maar deze beperking kan ook van toepassing zijn op andere typen workflows.
+>id="acw_wf_read_only_canvas"
+>title="This workflow is read only"
+>abstract="You cannot edit this workflow due to your rights or the type of the workflow."
 
 Campagnegebruikers hebben mogelijk beperkte toegang tot Adobe Campaign-gegevens. Een beheerder van de Campagne kan hen het recht verlenen om bepaalde eigenschappen te bekijken, maar niet om hen uit te geven of te wijzigen. Gebruikersmachtigingen voor gegevens zijn essentieel om de beveiliging van gegevens en processen te garanderen. Leer meer over toestemmingenbeheer in Campagne in [ deze sectie ](../get-started/permissions.md).
 

@@ -13,8 +13,9 @@ ht-degree: 2%
 # Planner {#scheduler}
 
 >[!CONTEXTUALHELP]
->
->De **planner** activiteit is de controle **activiteit van de a** Stroom. Hiermee kunt u plannen wanneer de workflow wordt gestart. Deze activiteit moet worden beschouwd als een geplande start. Deze kan alleen worden gebruikt als de eerste activiteit van de workflow.
+>id="acw_orchestration_scheduler"
+>title="Scheduler activity"
+>abstract="The **Scheduler** activity allows you to schedule when the workflow gets started. This activity should be considered as a scheduled start. It can only be used as the first activity of the workflow."
 
 ## Best practices {#scheduler-best-practices}
 
