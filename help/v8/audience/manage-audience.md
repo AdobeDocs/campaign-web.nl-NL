@@ -13,12 +13,24 @@ ht-degree: 0%
 # Aan de slag met het publiek {#monitor-manage}
 
 >[!CONTEXTUALHELP]
->
-[!CONTEXTUALHELP]
+>id="acw_audiences_properties"
+>title="Properties"
+>abstract="Here you can find a summary of the audience properties, such as its origin or its storage folder. Click the link in the **Last workflow** section to open the workflow that has been used to create the audience."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_audiences_count"
+>title="Audience size"
+>abstract="Here you can find the total number of profiles within the audience. Click the **Calculate** button to update and recalculate the audience results."
 
-[!CONTEXTUALHELP]
+>[!CONTEXTUALHELP]
+>id="acw_audiences_targeting"
+>title="Targeting"
+>abstract="Targeting"
+
+>[!CONTEXTUALHELP]
+>id="acw_audiences_workflow_error_data_execution"
+>title="Audience error"
+>abstract="Audience data is not available. Please wait for the end of the workflow execution."
 
 Het publiek is het belangrijkste doel van uw levering: de profielen die de berichten ontvangen. De lijst met soorten publiek die beschikbaar zijn voor gebruik in Campagne Web is toegankelijk via het menu **[!UICONTROL Audiences]** .
 
