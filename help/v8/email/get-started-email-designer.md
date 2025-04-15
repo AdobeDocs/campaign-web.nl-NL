@@ -3,10 +3,10 @@ audience: end-user
 title: De e-mailinhoud bewerken
 description: Leer hoe u inhoud gaat maken met de gebruikersinterface E-mail Designer in Campagne Web
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: eccd1ce6f95682d3dcfc224061f747f7da0b6681
+source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 3%
+source-wordcount: '409'
+ht-degree: 2%
 
 ---
 
@@ -31,7 +31,9 @@ The Email Designer allows you to create email content and email content template
 
 Houd er bij het verzenden van e-mails rekening mee dat ontvangers de e-mailberichten kunnen doorsturen, wat soms problemen kan veroorzaken met de weergave van de e-mail. Dit geldt met name wanneer u CSS-klassen gebruikt die mogelijk niet worden ondersteund door de e-mailprovider die wordt gebruikt voor doorsturen. Als u bijvoorbeeld de CSS-klasse &#39;is-desktop-hidden&#39; gebruikt om een afbeelding op mobiele apparaten te verbergen, wordt deze mogelijk niet correct weergegeven.
 
-Om deze renderingproblemen tot een minimum te beperken, moet u de structuur van het e-mailontwerp zo eenvoudig mogelijk houden. Gebruik één ontwerp dat goed werkt voor zowel desktops als mobiele apparaten en vermijd het gebruik van complexe CSS-klassen of andere ontwerpelementen die mogelijk niet volledig door alle e-mailclients worden ondersteund. Door deze beste praktijken te volgen, helpt u ervoor te zorgen dat uw e-mails, ongeacht hoe zij door ontvangers worden bekeken of door:sturen consequent teruggeven.
+Om deze weergaveproblemen tot een minimum te beperken, raden we u aan de structuur van uw e-mailontwerp zo eenvoudig mogelijk te houden. Probeer één ontwerp te gebruiken dat goed werkt voor zowel mobiele als desktopapparaten en gebruik geen complexe CSS-klassen of andere ontwerpelementen die mogelijk niet volledig door alle e-mailclients worden ondersteund. Vermijd afbeeldingen die groter zijn dan 2 MB of gebruik gecodeerde afbeeldingskoppelingen wanneer u afbeeldingen in uw e-mails gebruikt.
+
+Door deze beste praktijken te volgen, kunt u helpen ervoor zorgen dat uw e-mails constant correct worden teruggegeven, ongeacht hoe zij door ontvangers worden bekeken of door:sturen.
 
 ## Beginnen met het ontwerpen van uw inhoud {#start-authoring}
 
