@@ -4,9 +4,9 @@ description: Leer hoe u het beheer van gebruikerstoegang kunt migreren van Campa
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 1dd416d0a1a3579075462821edd4d55e738e602f
+source-git-commit: 9354c07f173f67c23ce64e591f869bdd374c3334
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1401'
 ht-degree: 1%
 
 ---
@@ -178,4 +178,6 @@ Hieronder vindt u een lijst met toewijzingen voor Campaign Standard-beveiligings
 
 * Account terugbetalen
 
-Aangepaste rollen die zijn gemaakt en toegewezen aan gebruikers in Adobe Campaign Standard, worden niet gemigreerd naar Campagne v8.
+>[!NOTE]
+>
+>Aangepaste rollen die zijn gemaakt en toegewezen aan gebruikers in Adobe Campaign Standard, worden niet gemigreerd naar Adobe Campaign v8.
