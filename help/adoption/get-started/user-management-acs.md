@@ -4,9 +4,9 @@ description: Leer hoe u het beheer van gebruikerstoegang kunt migreren van Campa
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 31befa42b04bef1a2777df9f2bd494481ccf67cd
+source-git-commit: cc1f89fe5a67898e0905bd2823f73aa8b9424164
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '1018'
 ht-degree: 1%
 
 ---
@@ -68,13 +68,15 @@ In Adobe Campaign Standard, wordt de termijn **rol van de Gebruiker** bedoeld al
 
 ## Migratieaanpak van de organisatie-eenheid
 
->[!CAUTION]
->
->De organisatorische eenheden in Adobe Campaign Standard zonder **allen (allen)** als directe of indirecte ouder zullen niet gemigreerd worden naar Campagne V8.
-></br>
->De gebruikers in veelvoudige veiligheidsgroepen worden toegewezen de organisatorische eenheid van de hoogst-rangschikkende veiligheidsgroep. Als meerdere groepen parallelle eenheden van het hoogste niveau hebben, is de aanmelding beperkt in Campaign Standard, maar wordt na de migratie ruimere toegang verleend in Campaign v8, wat mogelijk escalerende rechten oplevert. U voorkomt dit door gebruikers niet toe te wijzen aan beveiligingsgroepen met parallelle organisatorische eenheden.
+### Let op:
 
-In Adobe Campaign Standard, wordt de **organisatie uni** niet in kaart gebracht aan het bestaande **de hiërarchiemodel van de Omslag** in Campagne V8 om gelijkaardige toegangscontrole te handhaven. [ Leer meer op omslagbeheer ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+De organisatorische eenheden in Adobe Campaign Standard zonder **allen (allen)** als directe of indirecte ouder zullen niet gemigreerd worden naar Campagne V8.
+
+De gebruikers in veelvoudige veiligheidsgroepen worden toegewezen de organisatorische eenheid van de hoogst-rangschikkende veiligheidsgroep. Als meerdere groepen parallelle eenheden op hoofdniveau hebben, selecteert het systeem de organisatorische eenheid voor de gebruiker in Campaign Standard en heeft de gebruiker alleen toegang tot de door het systeem geselecteerde organisatorische eenheid en de onderliggende elementen. In Campagne v8 na migratie, zou de gebruiker toegang tot **alle toegewezen organisatorische eenheden en hun kinderen** hebben, potentieel het stijgen voorrechten. U voorkomt dit door gebruikers niet toe te wijzen aan beveiligingsgroepen met parallelle organisatorische eenheden. <!--Know more about parallel organizational unit assignment here (link to ' Parallel Organizational Unit Assignment' section)-->
+
+### Org-eenheden en mapbeheer
+
+In Adobe Campaign Standard, wordt de **eenheid van de Organisatie** in kaart gebracht aan het bestaande **de hiërarchiemodel van de Omslag** in Campagne V8 om gelijkaardige toegangscontrole te handhaven. [ Leer meer op omslagbeheer ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campagne V8** |
 |---------|----------|---------|
