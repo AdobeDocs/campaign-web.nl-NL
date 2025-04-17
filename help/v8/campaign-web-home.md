@@ -3,7 +3,7 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: c0a40e8c68b009b6803d8f24e6572c4ea359ba9f
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 3%
@@ -63,7 +63,7 @@ De release van februari is nu live, inclusief Business Rules, Target mappings en
 
 ✨ onderdompelen zich in een hands-on ervaring met onze [ AI Medewerker ](../v8/email/generative-gs.md) levende eigenschapvoorproef, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
-[![ leer meer knoop ](assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator) {target="_blank"}
+[![ leer meer knoop ](assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Veelgestelde vragen]
 
@@ -132,5 +132,5 @@ Veelgestelde vragen over de gebruikersinterface van het Web van de Campagne zijn
 
 ## Verdere bronnen
 
-* [ de Beschrijving van het Product van Adobe Campaign ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html) {target="_blank"}
-* [ Adobe Campaign V8 documentatie ](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=nl) {target="_blank"}
+* [ de Beschrijving van het Product van Adobe Campaign ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [ Adobe Campaign v8 documentatie ](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=nl){target="_blank"}

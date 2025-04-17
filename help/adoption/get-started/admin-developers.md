@@ -3,13 +3,13 @@ title: Ga aan de slag met Adobe Campaign v8 voor beheerders en ontwikkelaars.
 description: Deze zelfstudie geeft een overzicht van de belangrijkste functies voor beheer en gegevensbeheer van Campaign v8. Het is bedoeld voor beheerders en de technische markeertekens die van Campaign Standard naar Campaign v8 migreren.
 role: Admin, Developer
 level: Beginner, Experienced
-source-git-commit: 5323f3db8b29376b15b400a67765c6c0eda37479
+exl-id: 1554f85f-22e1-4b51-a916-194ea0d24816
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2657'
 ht-degree: 3%
 
 ---
-
 
 # Aan de slag met beheerders en ontwikkelaars {#acs-gs-admin}
 
@@ -21,21 +21,21 @@ De de cliëntconsole van de Campagne centraliseert alle mogelijkheden en montage
 
 ![](assets/client_console.png){zoomable="yes"}
 
-[ leer meer over het gebruikersinterface van de cliëntconsole van Adobe Campaign v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access) {target="_blank"}.
+[ Leer meer over het gebruikersinterface van de cliëntconsole van Adobe Campaign v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"}.
 
 ## Campagne v8-architectuur {#acs-gs-admi-archi}
 
-De architectuur van de campagne is gedetailleerd in de documentatie van Campagne v8 (console). Leer grondbeginselen in [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/general-architecture) {target="_blank"}.
+De architectuur van de campagne is gedetailleerd in de documentatie van Campagne v8 (console). Leer grondbeginselen in [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/general-architecture){target="_blank"}.
 
 Nuttige koppeling om te beginnen:
 
-* De componenten van Adobe Campaign en globale architectuur worden beschreven in [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/ac-components) {target="_blank"}.
+* De componenten van Adobe Campaign en globale architectuur worden beschreven in [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/ac-components){target="_blank"}.
 
-* Verwijs naar [ Begonnen krijgen met de architectuur van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture) {target="_blank"} om de architectuur van de Campagne te begrijpen alvorens te beginnen om uw instantie te structureren.
+* Verwijs naar [ Begonnen met de architectuur van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture){target="_blank"} om de architectuur van de Campagne te begrijpen alvorens te beginnen om uw instantie te structureren.
 
 <!--Two deployment models are available: **Campaign FDA deployment** (P1-P3) and **Campaign Enterprise (FFDA)** deployment (P4). As a customer transitioning from Campaign Standard, your deployment model is **Campaign FDA**.-->
 
-* Transactioneel overseinen (het Centrum van het Bericht) is de Campagne v8 module die voor het beheren van teweeggebrachte berichten wordt ontworpen. Het baseert zich op een specifiek architectuurmodel dat in [ dit sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi) {target="_blank"} wordt gedetailleerd.
+* Transactioneel overseinen (het Centrum van het Bericht) is de Campagne v8 module die voor het beheren van teweeggebrachte berichten wordt ontworpen. Het baseert zich op een specifiek architectuurmodel dat in [ dit sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/architecture#transac-msg-archi){target="_blank"} wordt gedetailleerd.
 
 ## Campagne-clientconsole {#acs-gs-console}
 
@@ -49,49 +49,49 @@ In de volgende video wordt uitgelegd hoe u de Adobe Campaign Client Console kunt
 
 >[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
 
-Voor meer informatie, zie [ verbinden met Campagne met de cliëntconsole ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect) {target="_blank"}.
+Voor meer informatie, zie [ verbinden met Campagne met de cliëntconsole ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect){target="_blank"}.
 
-De clientconsole moet in een ondersteunde omgeving worden geïnstalleerd. Leer meer in [ de verenigbaarheidsmatrijs van de Campagne v8 (console) ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/compatibility-matrix#ClientConsoleoperatingsystems) {target="_blank"}.
+De clientconsole moet in een ondersteunde omgeving worden geïnstalleerd. Leer meer in [ de verenigbaarheidsmatrijs van de Campagne v8 (console) ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/compatibility-matrix#ClientConsoleoperatingsystems){target="_blank"}.
 
 ### De interface van de clientconsole detecteren  {#acs-gs-ui}
 
-In deze zelfstudie leert u meer over de gebruikersinterface van Adobe Campaign V8 en hoe u door de hoofdfuncties kunt navigeren.
+In deze zelfstudie leert u meer over de Adobe Campaign v8-gebruikersinterface en hoe u door de hoofdfuncties kunt navigeren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
 
-Zie [ Werk met de cliëntconsole ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui) {target="_blank"} voor meer details.
+Zie [ Werk met de cliëntconsole ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} voor meer details.
 
 ## De omgeving beheren {#acs-gs-admin-env}
 
-Zodra de cliëntconsole wordt geïnstalleerd, volg de stappen in deze documentatie om de verbinding aan de toepassingsserver tot stand te brengen: [ Verbinding aan de documentatie van de toepassingsserver ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection) {target="_blank"}.
+Zodra de cliëntconsole wordt geïnstalleerd, volg de stappen in deze documentatie om de verbinding aan de toepassingsserver tot stand te brengen: [ Verbinding aan de documentatie van de toepassingsserver ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/connect#create-your-connection){target="_blank"}.
 
-Beveiligingspraktijken zijn diep verankerd in onze interne processen en tools voor softwareontwikkeling en -bewerkingen en worden rigoureus gevolgd door onze interfunctionele teams om incidenten op een snelle manier te voorkomen, op te sporen en erop te reageren. Leer meer in [ beste praktijken van de Veiligheid van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security) {target="_blank"}.
+Beveiligingspraktijken zijn diep verankerd in onze interne processen en tools voor softwareontwikkeling en -bewerkingen en worden rigoureus gevolgd door onze interfunctionele teams om incidenten op een snelle manier te voorkomen, op te sporen en erop te reageren. Leer meer in [ beste praktijken van de Veiligheid van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security){target="_blank"}.
 
 ### Toegangsrechten en machtigingen {#acs-gs-admin-rights}
 
 Met Adobe Campaign kunt u de rechten definiëren en beheren die aan gebruikers zijn toegewezen. Deze machtigingen worden gedefinieerd door machtigingen voor groepen van operatoren, benoemde rechten en machtigingen voor mappen te combineren.
 
-Als gebruiker van een Campaign Standard die naar Campagne v8 overgaat, blijven uw toestemmingen en toegangsrechten het zelfde. De groepen van de veiligheid zijn bewogen door Adobe aan de de exploitantgroepen van de Campagne v8, en uw toestemmingen per organisatorische eenheden zijn overgegaan naar omslagtoestemmingen. Campagnegebruikers   gebruik hun Adobe ID om verbinding te maken met Campagne v8 en kan vervolgens dezelfde aanmelding en hetzelfde wachtwoord gebruiken als in Campaign Standard.
+Als Campaign Standard-gebruiker die overschakelt naar Campagne v8, blijven uw machtigingen en toegangsrechten gelijk. Adobe heeft beveiligingsgroepen verplaatst naar de groepen met deelnemers aan Campagne v8 en uw machtigingen per organisatie zijn overgebracht naar mapmachtigingen. Campagnegebruikers   gebruik hun Adobe ID om verbinding te maken met Campagne v8 en kan vervolgens dezelfde aanmelding en hetzelfde wachtwoord gebruiken als in Campaign Standard.
 
-De campagne [ omslagen ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views) {target="_blank"} zijn knopen in de ontdekkingsboom van de cliëntconsole. Gebaseerd op hun type, bevatten zij bepaalde soorten gegevens. Programma&#39;s worden geconcretiseerd door mappen in Campaign v8. U kunt mappen maken en machtigingen voor deze mappen beheren om de toegang te beperken. [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
+De campagne [ omslagen ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views){target="_blank"} zijn knopen in de ontdekkingsboomstructuur van de cliëntconsole. Gebaseerd op hun type, bevatten zij bepaalde soorten gegevens. Programma&#39;s worden geconcretiseerd door mappen in Campaign v8. U kunt mappen maken en machtigingen voor deze mappen beheren om de toegang te beperken. [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"}.
 
-Leer meer in de [ documentatie van de toestemmingen van de Gebruiker ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions) {target="_blank"}.
+Leer meer in de [ documentatie van de toestemmingen van de Gebruiker ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
 
 ### Campaign-configuratiescherm {#acs-gs-admin-cp}
 
-Wat Campaign Standard betreft, kunt u het Controlebord gebruiken om uw milieu te beheren. Voor versie 8 biedt het Configuratiescherm extra mogelijkheden.
+Net als bij Campaign Standard kunt u het Configuratiescherm gebruiken om uw omgeving te beheren. Voor versie 8 biedt het Configuratiescherm extra mogelijkheden.
 
 Met het Configuratiescherm kunt u de efficiëntie van uw werk als productbeheerder van Adobe Campaign verhogen. Zo kunt u instellingen beheren en het gebruik van elk exemplaar bijhouden. Met de intuïtieve interface kunt u eenvoudig het gebruik van belangrijke elementen bewaken en beheertaken uitvoeren, zoals het toevoegen van IP-adressen aan de lijst van gewenste IP-adressen, SFTP-opslagbewaking, sleutelbeheer, enzovoort.
 
-Leer meer in de [ zelfstudies van het Controlebord ](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview) {target="_blank"} en de [ documentatie van het Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) {target="_blank"}.
+Leer meer in de [ zelfstudies van het Controlebord ](https://experienceleague.adobe.com/en/docs/control-panel-learn/tutorials/control-panel-overview){target="_blank"} en de [ documentatie van het Controlebord ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl){target="_blank"}.
 
-* **voegt IP adressen** toe - het Controlebord van de Campagne staat u aan opstelling toe nieuwe verbindingen aan uw instanties door IP adreswaaiers aan de lijst van gewenste personen toe te voegen. Leer meer in [ IP toestaat het vermelden documentatie ](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access) {target="_blank"}
+* **voegt IP adressen** toe - het Controlebord van de Campagne staat u aan opstelling toe nieuwe verbindingen aan uw instanties door IP adreswaaiers aan de lijst van gewenste personen toe te voegen. Leer meer in [ IP toestaan lijstdocumentatie ](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access){target="_blank"}
 
 * **Subdomain configuratie** - u kunt een onderafdeling van uw domein (technisch een &quot;DNS streek&quot;) voor gebruik met Adobe Campaign vormen.
-Leer meer in de [ documentatie van de Subdomeindelegatie ](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding) {target="_blank"}
+Leer meer in de [ documentatie van de Subdomeindelegatie ](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}
 
-* **beheert servers SFTP** - in het Controlebord, kunt u met alle servers in wisselwerking staan SFTP die met de instanties van de Campagne worden verbonden die u toegang tot hebt. Leer meer in de [ het beheersdocumentatie van SFTP ](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/about-sftp-management) {target="_blank"}
+* **beheert servers SFTP** - in het Controlebord, kunt u met alle servers in wisselwerking staan SFTP die met de instanties van de Campagne worden verbonden die u toegang tot hebt. Leer meer in de [ het beheersdocumentatie van SFTP ](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/about-sftp-management){target="_blank"}
 
 
 ### Audit trail {#acs-gs-admin-audit-trail}
@@ -102,9 +102,9 @@ In Adobe Campaign Web User Interface, verstrekt het de spoorvermogen van de Cont
 
 ### Gegevenspakketten {#acs-gs-admin-audit-packages}
 
-Net als bij wat in Campaign Standard kan worden bereikt, kunnen beheerders pakketten definiëren om bronnen tussen verschillende Adobe Campaign-instanties uit te wisselen via gestructureerde XML-bestanden. Dit kunnen configuratieparameters of data zijn.
+Net als in Campaign Standard kunnen beheerders pakketten definiëren voor het uitwisselen van bronnen tussen verschillende Adobe Campaign-instanties via gestructureerde XML-bestanden. Dit kunnen configuratieparameters of data zijn.
 
-Met gegevenspakketten kunt u aangepaste instellingen en gegevens van uw platform exporteren en importeren. Een pakket kan verschillende typen configuraties en componenten bevatten, al dan niet gefilterd. Leer hoe te met gegevenspakketten in Campagne v8 in [ te werken deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages) {target="_blank"}.
+Met gegevenspakketten kunt u aangepaste instellingen en gegevens van uw platform exporteren en importeren. Een pakket kan verschillende typen configuraties en componenten bevatten, al dan niet gefilterd. Leer hoe te met gegevenspakketten in Campagne v8 in [ te werken deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/packages){target="_blank"}.
 
 <!--
 MISSING LINKS: 
@@ -116,7 +116,7 @@ MISSING LINKS:
 
 U kunt de gebruikersinterface in de clientconsole op verschillende manieren aanpassen, zoals:
 
-* **Lijst en gegevensvertoning** - Richtlijnen voor het beheren van gebruikersinterfacemontages zoals lijsten, eenheden, of gegevensvertoning zijn beschikbaar in dit document: [ documentatie van de gebruikersinterfacemontages ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings) {target="_blank"}
+* **Lijst en gegevensvertoning** - Richtlijnen voor het beheren van gebruikersinterfacemontages zoals lijsten, eenheden, of gegevensvertoning zijn beschikbaar in dit document: [ documentatie van de gebruikersinterfacemontages ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings){target="_blank"}
 
 * **het beheer van de Omslag** - de Omslagen zijn voorwerpen in Adobe Campaign die u toestaan om uw componenten en gegevens te organiseren. Zij worden ook gebruikt om toestemmingen te beheren. Leer hoe te [ met omslagen ](../../v8/get-started/work-with-folders.md) werken.
 
@@ -126,13 +126,13 @@ U kunt de gebruikersinterface in de clientconsole op verschillende manieren aanp
 
 Elk bedrijf heeft merkrichtlijnen die zowel visuele elementen als technische details bepalen. Wat Adobe Campaign Standard betreft, helpt Adobe Campaign v8 u deze richtlijnen centraal te beheren, zodat u bij alles wat u doet een consistent merkimago aan uw klanten kunt presenteren, van logo&#39;s in e-mails tot de URL&#39;s en domeinen die in uw campagnes worden gebruikt. Als technisch beheerder kunt u in Adobe Campaign meerdere merken maken en beheren.
 
-Leer meer in de [ Brandende documentatie ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs) {target="_blank"}
+Leer meer in de [ Brandende documentatie ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"}
 
 ## Begrijpen hoe u gegevensmodellen maakt {#acs-gs-admin-data-model-creation}
 
-Net als Campaign Standard wordt Adobe Campaign v8 geleverd met het vooraf gedefinieerde gegevensmodel. Adobe Campaign vertrouwt op een Cloud-database die tabellen bevat die aan elkaar zijn gekoppeld. Leer meer in de [ modeldocumentatie van Gegevens ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel) {target="_blank"}.
+Net als Campaign Standard wordt Adobe Campaign v8 geleverd met het vooraf gedefinieerde gegevensmodel. Adobe Campaign vertrouwt op een Cloud-database die tabellen bevat die aan elkaar zijn gekoppeld. Leer meer in de [ modeldocumentatie van Gegevens ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel){target="_blank"}.
 
-Een schema is een XML-document dat is gekoppeld aan een databasetabel. De code definieert de gegevensstructuur en beschrijft de SQL-definitie van de tabel. Zie de [ documentatie van de schepping van Schema&#39;s ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas) {target="_blank"}
+Een schema is een XML-document dat is gekoppeld aan een databasetabel. De code definieert de gegevensstructuur en beschrijft de SQL-definitie van de tabel. Zie de [ documentatie van de schepping van Schema&#39;s ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}
 
 Leer hoe u een schema maakt en hoe u een bestaand schema in Campagne v8 uitbreidt in deze video:
 
@@ -140,17 +140,17 @@ Leer hoe u een schema maakt en hoe u een bestaand schema in Campagne v8 uitbreid
 
 Net als de mogelijkheden die beschikbaar zijn in Campaign Standard, kunt u aangepaste bronnen maken. IN Campagne v8, zijn de douanemiddelen douane of uitgebreide **schema&#39;s**.
 
-* Leer hoe te met schema in [ te werken deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas) {target="_blank"}.
+* Leer hoe te met schema in [ te werken deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
-* Leer hoe te om een bestaand schema in [ uit te breiden deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema) {target="_blank"}.
+* Leer hoe te om een bestaand schema in [ uit te breiden deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema){target="_blank"}.
 
-* Leer hoe te om een nieuw schema in [ tot stand te brengen deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/create-schema) {target="_blank"}.
+* Leer hoe te om een nieuw schema in [ tot stand te brengen deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/create-schema){target="_blank"}.
 
-* Wanneer u een schema maakt of uitbreidt, moet u de bijbehorende invoerformulieren maken of wijzigen om deze wijzigingen zichtbaar te maken voor eindgebruikers. Met een invoerformulier kunt u een instantie bewerken die is gekoppeld aan een gegevensschema vanuit de Adobe Campaign-clientconsole. Het formulier wordt geïdentificeerd door de naam en naamruimte ervan. Zie de [ documentatie van de de vormenverwezenlijking van de Input ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms) {target="_blank"}.
+* Wanneer u een schema maakt of uitbreidt, moet u de bijbehorende invoerformulieren maken of wijzigen om deze wijzigingen zichtbaar te maken voor eindgebruikers. Met een invoerformulier kunt u een instantie bewerken die is gekoppeld aan een gegevensschema vanuit de Adobe Campaign-clientconsole. Het formulier wordt geïdentificeerd door de naam en naamruimte ervan. Zie de [ documentatie van de de vormenverwezenlijking van de Input ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/forms){target="_blank"}.
 
 ## Werkstromen en gegevensbeheer {#acs-gs-admin-data-management}
 
-Net als bij Adobe Campaign Standard bevat Adobe Campaign v8 een workflowmodule waarmee u het volledige scala aan processen en taken in de verschillende modules van de toepassingsserver kunt ordenen. Met deze uitgebreide grafische omgeving kunt u processen ontwerpen, zoals segmentatie, uitvoering van campagnes, bestandsverwerking, menselijke participatie, enzovoort. Deze processen worden uitgevoerd en bijgehouden door de workflowengine. Leer hoe te met werkschema&#39;s in Campagne v8 in [ te beginnen deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows) {target="_blank"}.
+Net als bij Adobe Campaign Standard bevat Adobe Campaign v8 een workflowmodule waarmee u het volledige scala aan processen en taken in de verschillende modules van de toepassingsserver kunt ordenen. Met deze uitgebreide grafische omgeving kunt u processen ontwerpen, zoals segmentatie, uitvoering van campagnes, bestandsverwerking, menselijke participatie, enzovoort. Deze processen worden uitgevoerd en bijgehouden door de workflowengine. Leer hoe te met werkschema&#39;s in Campagne v8 in [ te beginnen deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/workflows){target="_blank"}.
 
 Zie de koppelingen naar andere nuttige bronnen hieronder:
 
@@ -158,19 +158,19 @@ Zie de koppelingen naar andere nuttige bronnen hieronder:
 
   >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
 
-* Met de campagne kunt u contactpersonen toevoegen aan de Cloud-database. U kunt een dossier laden, veelvoudige contactupdates plannen en automatiseren, gegevens op het Web verzamelen, of profielinformatie direct in de ontvankelijke lijst ingaan.  Leer meer in de [ gegevens van de Invoer (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import) {target="_blank"}.
+* Met de campagne kunt u contactpersonen toevoegen aan de Cloud-database. U kunt een dossier laden, veelvoudige contactupdates plannen en automatiseren, gegevens op het Web verzamelen, of profielinformatie direct in de ontvankelijke lijst ingaan.  Leer meer in de [ gegevens van de Invoer (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
-* U kunt uw verschillende rapporten gemakkelijk naar PDF of formaat CSV uitvoeren, dat u toelaat om hen te delen, te manipuleren of te drukken. Leer meer in de [ documentatie van de Gegevens van de Uitvoer ](../../v8/reporting/export-reports.md).
+* U kunt uw verschillende rapporten eenvoudig exporteren naar de PDF- of CSV-indeling, zodat u deze kunt delen, bewerken of afdrukken. Leer meer in de [ documentatie van de Gegevens van de Uitvoer ](../../v8/reporting/export-reports.md).
 
 ## REST API&#39;s {#acs-gs-admin-apis}
 
 Campagne REST API&#39;s zijn bedoeld om u in staat te stellen integratie voor Adobe Campaign te maken en uw eigen ecosysteem te bouwen door Adobe Campaign te koppelen aan het deelvenster met technologieën dat u gebruikt.
 
-Als gebruiker van het Campaign Standard die naar Campagne v8 overgaat, zijn REST APIs beschikbaar aan u.
+Als Campaign Standard-gebruiker die overschakelt naar Campagne v8, zijn REST API&#39;s beschikbaar voor u.
 
-Leer meer in de [ Rest API documentatie ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis) {target="_blank"}.
+Leer meer in de [ Rest API documentatie ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/get-started-apis){target="_blank"}.
 
-Houd er rekening mee dat sommige aanbevelingen en beperkingen van toepassing zijn op REST API&#39;s bij de overgang van Campaign Standard naar Campagne v8. Zij zijn vermeld in [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/limitations) {target="_blank"}. Specifieke beperkingen zijn ook van toepassing bij de overgang naar Campagne v8 zoals vermeld in de onderstaande Opmerking bij Beschikbaarheid:
+Houd er rekening mee dat sommige aanbevelingen en beperkingen van toepassing zijn op REST API&#39;s bij de overgang van Campaign Standard naar Campaign v8. Zij zijn vermeld in [ deze pagina ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/limitations){target="_blank"}. Specifieke beperkingen zijn ook van toepassing bij de overgang naar Campagne v8 zoals vermeld in de onderstaande Opmerking bij Beschikbaarheid:
 
 >[!AVAILABILITY]
 >
@@ -202,7 +202,7 @@ Using a workflow template is a best practice if you need to regularly import fil
 
 ## Abonnementsdiensten {#acs-gs-admin-sub}
 
-Zoals in Campaign Standard, als beheerder, kunt u de abonnementendiensten tot stand brengen en de marketers kunnen berichten naar hun abonnees verzenden. De belangrijkste concepten en de implementatiestappen worden gericht op Campaign Standard. Hieronder vindt u nuttige koppelingen en video.
+Net als in Campaign Standard kunt u als beheerder abonnementenservices maken en marketers kunnen berichten verzenden naar hun abonnees. Belangrijke concepten en implementatiestappen worden uitgelijnd met Campaign Standard. Hieronder vindt u nuttige koppelingen en video.
 
 Leer lidmaatschappen instellen en beheren en leden targeten.
 
@@ -210,7 +210,7 @@ Leer lidmaatschappen instellen en beheren en leden targeten.
 
 * Zie de documentatie van het gebruikersinterface van het Web van de abonnementsdiensten [ ](../../v8/audience/manage-subscribers.md).
 
-* Zie ook de documentatie om de abonnementendiensten in de cliëntconsole in [ te plaatsen deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/subscriptions) {target="_blank"}.
+* Zie ook de documentatie om de abonnementendiensten in de cliëntconsole in [ te plaatsen deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}.
 
 ## Berichten en leveringen{#acs-gs-msg}
 
@@ -220,16 +220,16 @@ Als Campaign Standard helpt Adobe Campaign v8 u kanaalcampagnes te verzenden, wa
 
 Als beheerder, moet u uw kanaalconfiguraties bepalen. Raadpleeg de onderstaande koppelingen voor meer informatie.
 
-* **E-mail** - De e-mailmontages zijn allen gedetailleerd in [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-parameters) {target="_blank"}.
-* **SMS** - Leer hoe te om uw kanaal van SMS in [ te vormen deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms) {target="_blank"}.
-* **duw berichten** - De Stappen om het kanaal van dupberichten te vormen zijn gedetailleerd [ in deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection) {target="_blank"}.
-* **Transactioneel overseinen** - Stappen om [ Transactioneel overseinen ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional) {target="_blank"} in Campagne v8 te vormen zijn gedetailleerd [ in deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
+* **E-mail** - De e-mailmontages zijn allen gedetailleerd in [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-parameters){target="_blank"}.
+* **SMS** - Leer hoe te om uw kanaal van SMS in [ te vormen deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+* **duw berichten** - De Stappen om het kanaal van dupberichten te vormen zijn gedetailleerd [ in deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+* **Transactioneel overseinen** - Stappen om [ Transactioneel overseinen ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} in Campagne v8 te vormen zijn gedetailleerd [ in deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/transactional-msg-settings)
 
 ### Externe accounts {#acs-gs-ext-accounts}
 
-Als beheerder, bent u verantwoordelijk voor het vormen van en het handhaven van de externe rekeningen van de Campagne. Net als in Campaign Standard worden externe rekeningen gebruikt door technische processen zoals technische workflows of campagneworkflows.
+Als beheerder, bent u verantwoordelijk voor het vormen van en het handhaven van de externe rekeningen van de Campagne. Net als in Campaign Standard worden externe accounts gebruikt door technische processen, zoals technische workflows of workflows voor campagnes.
 
-Het overgangsproces naar Campaign v8 zorgt voor uw bestaande externe accounts van het Campaign Standard.
+Het overgangsproces naar Campaign v8 zorgt voor uw bestaande externe Campaign Standard-accounts.
 
 Leer meer in de [ Externe rekeningsdocumentatie ](../../v8/administration/external-account.md).
 
@@ -268,41 +268,40 @@ Met Campagne v8 kunt u als beheerder dynamische inhoudsblokken definiëren en ho
 
 Nuttige koppelingen:
 
-* [ krijgen begonnen met verpersoonlijking ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalize) {target="_blank"}
-* [ de verpersoonlijkingsblokken van het Gebruik ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-blocks) {target="_blank"}
-* [ creeer voorwaardelijke inhoud ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/conditions) {target="_blank"}
-* [ de gegevensbronnen van Personalization ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-data) {target="_blank"}
+* [ worden begonnen met verpersoonlijking ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalize){target="_blank"}
+* [ de verpersoonlijkingsblokken van het Gebruik ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-blocks){target="_blank"}
+* [ creeer voorwaardelijke inhoud ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/conditions){target="_blank"}
+* [ de gegevensbronnen van Personalization ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/personalize/personalization-data){target="_blank"}
 
 ### Afleveringssjablonen {#acs-gs-templates}
 
 Het gebruik van leveringssjablonen is een vereiste in Campagne v8, zoals in Campaign Standard.
 
-Voor een versnelde en verbeterde ontwerpprocedure, creeer leveringsmalplaatjes om douaneinhoud en montages over uw campagnes gemakkelijk te hergebruiken. Met deze functie kunt u de creatieve vormgeving standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren. Leer hoe te om leveringsmalplaatjes in [ Web van de Campagne gebruikersinterface ](../../v8/msg/delivery-template.md) tot stand te brengen. Zie ook hoe te om leveringsmalplaatjes in de cliëntconsole in [ tot stand te brengen deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates) {target="_blank"}.
+Voor een versnelde en verbeterde ontwerpprocedure, creeer leveringsmalplaatjes om douaneinhoud en montages over uw campagnes gemakkelijk te hergebruiken. Met deze functie kunt u de creatieve vormgeving standaardiseren, zodat u sneller campagnes kunt uitvoeren en lanceren. Leer hoe te om leveringsmalplaatjes in [ Web van de Campagne gebruikersinterface ](../../v8/msg/delivery-template.md) tot stand te brengen. Zie ook hoe te om leveringsmalplaatjes in de cliëntconsole in [ tot stand te brengen deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates){target="_blank"}.
 
 ### Typologische regels {#acs-gs-admin-rules}
 
 Als beheerder, bent u verantwoordelijk voor het creëren van en het handhaven van typologieregels voor uw leveringen. Hetzelfde als in Adobe Campaign Standard, in Campagne v8, zijn de typologische regels bedrijfsregels die u toestaan om controles en het filtreren op uw bericht uit te voeren alvorens het te verzenden.
 
-Wanneer u vanuit een Campaign Standard-omgeving overschakelt naar Campagne v8, worden uw typologieregels verplaatst naar Campagne v8.
+Wanneer u vanuit een Campaign Standard-omgeving overschakelt naar Campaign v8, worden uw typologieregels verplaatst naar Campaign v8.
 
-In Campaign v8 worden typologische regels geleverd met een specifieke &#39;Game-on&#39;-functie voor optimalisatie van campagnes. Deze module waarmee u het verzenden van leveringen kunt beheren, filteren en controleren. Om conflicten tussen campagnes te vermijden kan Adobe Campaign diverse combinaties testen door specifieke beperkingsregels toe te passen. Dit garandeert dat de verzonden berichten voldoen aan de behoeften en verwachtingen van klanten en het communicatiebeleid van het bedrijf. Leer meer in de [ documentatie van de gedragsregels van de Typologie ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies) {target="_blank"}.
+In Campaign v8 worden typologische regels geleverd met een specifieke &#39;Game-on&#39;-functie voor optimalisatie van campagnes. Deze module waarmee u het verzenden van leveringen kunt beheren, filteren en controleren. Om conflicten tussen campagnes te vermijden kan Adobe Campaign diverse combinaties testen door specifieke beperkingsregels toe te passen. Dit garandeert dat de verzonden berichten voldoen aan de behoeften en verwachtingen van klanten en het communicatiebeleid van het bedrijf. Leer meer in de [ documentatie van de Typologieregels ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}.
 
 ### Quarantainebeheer {#acs-gs-admin-quarantine}
 
-Alle in quarantaine geplaatste adressen en quarantaineregels zijn gemigreerd van uw milieu van het Campaign Standard aan Campagne v8. Er is geen specifieke actie nodig voor quarantainebeheer.
+Alle in quarantaine geplaatste adressen en quarantaineregels zijn van uw milieu van Campaign Standard naar Campagne v8 gemigreerd. Er is geen specifieke actie nodig voor quarantainebeheer.
 
-Als beheerder, krijg vertrouwd met quarantainebeheer in Campagne v8 die van [ begint deze pagina ](../../v8/audience/quarantine.md). Zie ook de gedetailleerde documentatie van de cliëntconsole over quarantainebeheer in [ deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses) {target="_blank"}.
+Als beheerder, krijg vertrouwd met quarantainebeheer in Campagne v8 die van [ begint deze pagina ](../../v8/audience/quarantine.md). Zie ook de gedetailleerde documentatie van de cliëntconsole over quarantainebeheer in [ deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses){target="_blank"}.
 
 
 ## Adobe Campaign-integratie beheren {#acs-gs-integrations}
 
-U kunt uw instantie Campagne met de oplossingen van Adobe Experience Cloud verbinden om mogelijkheden te combineren. Adobe Campaign wordt geleverd met verschillende connectors waarmee u kunt communiceren met externe toepassingen, verbinding kunt maken met database-engines, gegevens kunt delen en synchroniseren. Leer hoe te om uw oplossingen in [ te combineren deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration) {target="_blank"}.
+U kunt uw instantie Campagne met de oplossingen van Adobe Experience Cloud verbinden om mogelijkheden te combineren. Adobe Campaign wordt geleverd met verschillende connectors waarmee u kunt communiceren met externe toepassingen, verbinding kunt maken met database-engines, gegevens kunt delen en synchroniseren. Leer hoe te om uw oplossingen in [ deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/integration){target="_blank"} te combineren.
 
-Als gebruiker van een Campaign Standard die naar Campagne v8 migreert, is het volgende op u van toepassing:
+Als Campaign Standard-gebruiker die migreert naar Campaign v8, geldt het volgende voor u:
 
 * Als u deze integratie met Campaign Standard gebruikte, zijn uw **Adobe Analytics** en **Audience Manager** configuraties en gegevens gemigreerd door Adobe.
-* Als uw milieu van het Campaign Standard met **Adobe Experience Manager** werd geïntegreerd, adviseert de Adobe u om **Adobe Experience Manager as a Cloud Service** te bewegen zodat u dit vermogen kunt gebruiken wanneer het ontwerpen van e-mails in het gebruikersinterface van het Web van de Campagne, en het gestroomlijnde beheer van de inhoud en de vormen van de e-maillevering direct binnen uw milieu van Adobe Experience Manager vergemakkelijken. Leer meer in [ deze pagina ](../../v8/integrations/aem-content.md).
-Campagne kan ook worden geïntegreerd met Adobe Experience Manager 6.5. Om deze integratie te vormen, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem) {target="_blank"}.
-* Als uw milieu van het Campaign Standard met **Triggers** werd geïntegreerd, moet u opstelling en deze integratie vormen in Campagne v8 zoals die in [ wordt gedetaillerd deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers) {target="_blank"}.
-* Als uw milieu van het Campaign Standard met **Adobe Target** werd geïntegreerd, moet u opstelling en deze integratie vormen in Campagne v8 zoals die in [ wordt gedetailleerd deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at) {target="_blank"}.
-
+* Als uw milieu van Campaign Standard met **Adobe Experience Manager** werd geïntegreerd, adviseert Adobe u om naar **Adobe Experience Manager as a Cloud Service** te bewegen zodat u dit vermogen kunt gebruiken wanneer het ontwerpen van e-mails in het gebruikersinterface van het Web van de Campagne, en het gestroomlijnde beheer van de inhoud en de vormen van de e-maillevering direct binnen uw milieu van Adobe Experience Manager vergemakkelijken. Leer meer in [ deze pagina ](../../v8/integrations/aem-content.md).
+Campagne kan ook worden geïntegreerd met Adobe Experience Manager 6.5. Om deze integratie te vormen, verwijs naar [ deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"}.
+* Als uw milieu van Campaign Standard met **Trekkers** werd geïntegreerd, moet u opstelling en deze integratie vormen in Campagne v8 zoals die in [ wordt gedetaillerd deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-triggers){target="_blank"}.
+* Als uw milieu van Campaign Standard met **Adobe Target** werd geïntegreerd, moet u opstelling en deze integratie vormen in Campagne v8 zoals die in [ wordt gedetailleerd deze pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/ac-at){target="_blank"}.

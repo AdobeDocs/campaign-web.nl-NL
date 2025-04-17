@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Testprofielen worden gebruikt om proefdrukken te verzenden en uw berichtinhoud e
 
 ➡️ [ ontdekt deze eigenschap in video ](#video)
 
-<!--Learn more on test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 De stappen om proeven naar testprofielen te verzenden zijn gedetailleerd in [ deze sectie ](../preview-test/test-deliveries.md#test-profiles).
 
@@ -96,11 +96,11 @@ You do not need to enter all fields of each tab when creating a seed address. Mi
 
 1. Als u het selectievakje **[!UICONTROL No longer contact (by any channel)]** inschakelt, wordt het testprofiel op lijst van gewezen personen weergegeven. Deze ontvanger is niet langer gericht op enig kanaal (e-mail, SMS, enz.).
 
-1. Voer op het tabblad **[!UICONTROL Additional data]** de aanpassingsgegevens in die worden gebruikt voor de leveringen die in de workflows voor gegevensbeheer zijn gemaakt en waaraan u een specifieke waarde wilt toewijzen. [ leer meer op werkschema&#39;s ](../workflows/gs-workflows.md)
+1. Voer op het tabblad **[!UICONTROL Additional data]** de aanpassingsgegevens in die worden gebruikt voor de leveringen die in de workflows voor gegevensbeheer zijn gemaakt en waaraan u een specifieke waarde wilt toewijzen. [ leer meer over werkschema&#39;s ](../workflows/gs-workflows.md)
 
    ![ Extra gegevens tabel ](assets/test-profile-additional-data.png){zoomable="yes"}
 
-   Controleer of er aanvullende doelgegevens zijn gedefinieerd met een alias, beginnend met &#39;@&#39; in de **[!UICONTROL Enrichment]** -werkstroomactiviteit. Anders, kunt u niet het met uw zaadadressen in de leveringsactiviteit behoorlijk gebruiken. [ leer meer op de activiteit van de Verrijking ](../workflows/activities/enrichment.md)
+   Controleer of er aanvullende doelgegevens zijn gedefinieerd met een alias, beginnend met &#39;@&#39; in de **[!UICONTROL Enrichment]** -werkstroomactiviteit. Anders, kunt u niet het met uw zaadadressen in de leveringsactiviteit behoorlijk gebruiken. [ leer meer over de activiteit van de Verrijking ](../workflows/activities/enrichment.md)
 
 1. Klik op de knop **[!UICONTROL Save]**.
 

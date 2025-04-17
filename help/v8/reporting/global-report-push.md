@@ -3,7 +3,7 @@ audience: end-user
 title: Globale rapporten voor het kanaal van de Duw
 description: Werken met algemene rapporten voor het pushkanaal
 exl-id: 829a9b68-5c41-47dd-843c-412b6d255e8b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%
@@ -29,7 +29,7 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI
 
 ![ het overzichtsmetriek van de Levering, die KPIs met betrekking tot de prestaties van het dupbericht tonen.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++ Meer informatie over overzichtsmetriek voor levering.
++++Meer informatie over de maatstaven van het leveringsoverzicht.
 
 * **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
@@ -73,7 +73,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke push
 
 {de statistieken van 0} levering metriek, die succespercentages, fouten, en quarantines voor duw berichten tonen.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}![
 
-+++ Meer informatie over de statistieken van de Levering metriek.
++++Meer weten over de meetgegevens van de leveringsstatistieken?
 
 * **[!UICONTROL Total messages]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -83,7 +83,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke push
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine is geplaatst na een mislukte levering (ongeldige registratie, berichtafwijzing, payload fout en vergelijkbare redenen) met betrekking tot het aantal te leveren berichten.
 
-  De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types) {target="_blank"}.
+  De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke push
 
 In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** ziet u waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet konden ontvangen.
 
-De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types) {target="_blank"}.
+De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 ## Leveringsdoorvoer {#delivery-throughput-sms}
 

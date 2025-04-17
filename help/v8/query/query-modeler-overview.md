@@ -3,7 +3,7 @@ audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 8006eeb6088d7d6ef99f374b2b846978cd679c01
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 0%
@@ -38,7 +38,7 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
 | Gebruik | Voorbeeld |
 |  ---  |  ---  |
 | **bepaalt publiek**: Specificeer de bevolking u in uw berichten of werkschema&#39;s wilt richten, en creeer moeiteloos nieuw publiek dat aan uw behoeften wordt aangepast. [ Leer hoe te om publiek te bouwen ](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ Beeld die hoe te om tot de interface van de publieksverwezenlijking toegang te hebben ] |
-| **pas werkschemaactiviteiten** aan: Pas regels binnen werkschemaactiviteiten, zoals **Gesplitste** en **Verzoening** toe, om op uw specifieke vereisten te richten. [ Leer meer op werkschemaactiviteiten ](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ Beeld dat hoe te om tot de opties van de werkschemaaanpassing toegang te hebben ] |
+| **pas werkschemaactiviteiten** aan: Pas regels binnen werkschemaactiviteiten, zoals **Gesplitste** en **Verzoening** toe, om op uw specifieke vereisten te richten. [ leer meer over werkschemaactiviteiten ](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ Beeld dat hoe te om tot de opties van de werkschemaaanpassing toegang te hebben ] |
 | **vooraf bepaalde filters**: Creeer vooraf bepaalde filters die als kortere weg tijdens diverse het filtreren verrichtingen dienen, of u met gegevenslijsten werkt of het publiek voor een levering vormt. [ Leer hoe te met vooraf bepaalde filters ](../get-started/predefined-filters.md) te werken | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ Beeld die tonen hoe te om tot vooraf bepaalde filters ] toegang te hebben |
 | **de rapporten van de Filter gegevens**: Voeg regels toe om de gegevens te filtreren die in rapporten worden getoond. [ Leer hoe te met rapporten ](../reporting/gs-reports.md) te werken | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ Beeld dat hoe te om gegevens in rapporten ] toont te filtreren |
 | **pas lijsten** aan: Creeer douaneregels om de gegevens te filtreren die in lijsten zoals ontvangers of leveringslijsten worden getoond. [ Leer hoe te om lijsten ](../get-started/list-filters.md#list-built-in-filters) te filtreren | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ Beeld dat hoe te om lijstfilters ] aan te passen toont |

@@ -3,7 +3,7 @@ audience: end-user
 title: Middelen beheren met Adobe Experience Manager as a Cloud Service
 description: Leer hoe u inhoud beheert met Adobe Experience Manager as a Cloud Service
 exl-id: 43b186c8-294e-4cbe-b269-e127065515ed
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 1%
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Dankzij de integratie van de Adobe Campaign Web-interface met Adobe Experience Manager kunt u inhoud en formulieren voor e-mailbezorging direct binnen het Adobe Experience Manager-platform beheren.
 
-![](assets/do-not-localize/book.png)[ Leer meer op Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
+![](assets/do-not-localize/book.png)[ leer meer over Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
 ## Een sjabloon maken in [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 

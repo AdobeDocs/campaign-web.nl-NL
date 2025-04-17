@@ -3,7 +3,7 @@ audience: end-user
 title: Campagnerapporten voor het SMS-kanaal
 description: Campagnerapporten voor het kanaal van SMS begrijpen
 exl-id: 0df9b999-84c8-4e42-b5da-857b2ef0dd75
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI
 
 ![ het rapport dat van het Overzicht van de Levering de metriek van SMS ](assets/campaign_report_sms_1.png){zoomable="yes"} toont
 
-+++Meer weten over de metriek van het SMS-campagnerapport?
++++Meer weten over de metriek van het de campagnerapport van SMS.
 
 * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
@@ -48,7 +48,7 @@ In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens 
 
 ![ Aanvankelijke lijst van de doelpubliek die ontvankelijke gegevens tonen ](assets/campaign_report_sms_2.png){zoomable="yes"}
 
-+++Meer weten over de metriek van het SMS-campagnerapport?
++++Meer weten over de metriek van het de campagnerapport van SMS.
 
 * **[!UICONTROL Initial audience]**: het totale aantal beoogde ontvangers.
 
@@ -69,7 +69,7 @@ In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol
 
 ![ de statistieklijst van de Uitvoering die de metriek van het leveringssucces toont ](assets/campaign_report_sms_3.png){zoomable="yes"}
 
-+++Meer weten over de metriek van het SMS-campagnerapport?
++++Meer weten over de metriek van het de campagnerapport van SMS.
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -79,7 +79,7 @@ In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (onbekend, ongeldig domein), in verhouding tot het aantal te leveren berichten.
 
-  De de foutentypes van SMS zijn vermeld in de [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines) {target="_blank"}.
+  De de foutentypes van SMS zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 
@@ -94,7 +94,7 @@ In de tabel **[!UICONTROL Generated click streams]** worden gegevens weergegeven
 
 ![ Gegenereerde klikstroomlijst die ontvankelijke interactiegegevens tonen ](assets/campaign_report_sms_4.png){zoomable="yes"}
 
-+++Meer weten over de metriek van het SMS-campagnerapport?
++++Meer weten over de metriek van het de campagnerapport van SMS.
 
 * **[!UICONTROL Distinct clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer in een levering heeft geklikt.
 

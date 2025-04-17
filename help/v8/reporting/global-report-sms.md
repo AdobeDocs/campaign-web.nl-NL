@@ -3,7 +3,7 @@ audience: end-user
 title: Algemene rapporten voor het SMS-kanaal
 description: Werken met wereldwijde rapporten voor het SMS-kanaal
 exl-id: 346cf2ff-b6e4-4d8f-ba26-197eadeaf5e6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat uitgebreide prestatiekerni
 
 ![ A screenshot van het rapport van het Overzicht van de Levering, die zeer belangrijke prestatiesindicatoren voor levering van SMS tonen.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
-+++ Meer informatie over overzichtsmetriek voor levering.
++++Meer informatie over de maatstaven van het leveringsoverzicht.
 
 * **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
@@ -73,7 +73,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u hoe succesvol elke SMS-l
 
 ![ A screenshot van het rapport van de Statistieken van de Levering, die succespercentages, fouten, en quarantines voor de leveringen van SMS tonen.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
-+++ Meer informatie over de statistieken van de Levering metriek.
++++Meer weten over de meetgegevens van de leveringsstatistieken?
 
 * **[!UICONTROL Total messages]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -83,7 +83,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u hoe succesvol elke SMS-l
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat na een mislukte levering in quarantaine is geplaatst (bv. onbekende gebruiker, ongeldig domein), in verhouding tot het aantal te leveren berichten.
 
-  De de foutentypes van SMS zijn vermeld in de [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines) {target="_blank"}.
+  De de foutentypes van SMS zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u hoe succesvol elke SMS-l
 
 In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** ziet u waarom gebruikersprofielen, die zijn uitgesloten van de beoogde profielen, uw SMS-berichten niet konden ontvangen.
 
-De types van fouten zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types) {target="_blank"}.
+De types van fouten zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 ![ A screenshot van de Oorzaken van het rapport van de Uitsluiting, die redenen voor de leveringsuitsluitingen van SMS tonen.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 

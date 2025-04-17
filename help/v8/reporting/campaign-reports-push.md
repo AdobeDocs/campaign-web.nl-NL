@@ -3,7 +3,7 @@ audience: end-user
 title: Campagnerapporten voor het pushkanaal
 description: Campagnerapporten begrijpen voor het Push-kanaal
 exl-id: 5e7ac2b8-b543-427b-846c-7c0b489cc21c
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI
 
 ![ Summiere metriek van de Levering die in het rapport van het Overzicht van de Levering ](assets/campaign-reporting-push-summary.png){zoomable="yes"} wordt getoond
 
-+++Meer weten over cijfers voor pushcampagnerapporten?
++++Meer weten over de cijfers van het pushcampagnerapport?
 
 * **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
@@ -48,7 +48,7 @@ In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens 
 
 ![ Aanvankelijke statistieken van het doelpubliek die in het rapport ](assets/campaign-reporting-push-target.png){zoomable="yes"} worden getoond
 
-+++Meer weten over cijfers voor pushcampagnerapporten?
++++Meer weten over de cijfers van het pushcampagnerapport?
 
 * **[!UICONTROL Initial audience]**: het totale aantal beoogde ontvangers.
 
@@ -69,7 +69,7 @@ In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol
 
 ![ statistieken van de Uitvoering die in het rapport ](assets/campaign-reporting-push-exec.png){zoomable="yes"} worden getoond
 
-+++Meer weten over cijfers voor pushcampagnerapporten?
++++Meer weten over de cijfers van het pushcampagnerapport?
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -79,7 +79,7 @@ In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (bijvoorbeeld ongeldige registratie, berichtafwijzing of payload fout), in verhouding tot het aantal te leveren berichten.
 
-  De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types) {target="_blank"}.
+  De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -94,7 +94,7 @@ In de tabel **[!UICONTROL Generated click streams]** worden gegevens weergegeven
 
 ![ Gegenereerde klikstromen die in het rapport ](assets/campaign-reporting-push-clicks.png){zoomable="yes"} worden getoond
 
-+++Meer weten over cijfers voor pushcampagnerapporten?
++++Meer weten over de cijfers van het pushcampagnerapport?
 
 * **[!UICONTROL Unique clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer in een levering heeft geklikt.
 

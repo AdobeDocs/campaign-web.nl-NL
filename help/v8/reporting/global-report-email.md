@@ -3,7 +3,7 @@ audience: end-user
 title: Algemene rapporten voor het e-mailkanaal
 description: Meer informatie over algemene rapporten voor het e-mailkanaal
 exl-id: 37c575e5-fd18-4a35-a11a-922d5bda1bae
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 1%
@@ -29,7 +29,7 @@ In **[!UICONTROL Delivery Overview]** worden de belangrijkste prestatiemetriek (
 
 ![ het overzichtsmetriek van de Levering ](assets/global_report_email_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++ Meer informatie over overzichtsmetriek voor levering.
++++Meer informatie over de maatstaven van het leveringsoverzicht.
 
 * **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
@@ -76,7 +76,7 @@ De tabel **[!UICONTROL Delivery statistics]** bevat een overzicht van het succes
 
 ![ metriek van de Statistieken van de Levering ](assets/global_report_email_delivery_statistics.png){zoomable="yes"}{align="center"}
 
-+++ Meer informatie over de statistieken van de Levering metriek.
++++Meer weten over de meetgegevens van de leveringsstatistieken?
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -99,7 +99,7 @@ De tabel **[!UICONTROL Delivery statistics]** bevat een overzicht van het succes
 
 De uitsluitingsgrafiek en de tabel illustreren de redenen waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
 
-De e-mailfoutentypes zijn vermeld in de [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types) {target="_blank"}.
+De e-mailfoutentypes zijn vermeld in de [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
@@ -133,9 +133,9 @@ Het rapport Leveringsdoorvoer biedt diepgaande inzichten in de efficiëntie van 
 
 In de tabel en grafiek van **[!UICONTROL Breakdown of errors per type]** worden de gegevens weergegeven die betrekking hebben op mogelijke fouten die in verschillende domeinen zijn aangetroffen. Hieronder vindt u specifieke meetgegevens.
 
-De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html) {target="_blank"}.
+De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-+++ Meer informatie over de uitsplitsing van fouten per type metriek.
++++Meer informatie over de uitsplitsing van fouten per type metriek.
 
 * **[!UICONTROL User unknown]**: Fouttype dat tijdens de levering wordt gegenereerd om aan te geven dat het e-mailadres ongeldig is.
 
@@ -177,7 +177,7 @@ De metriek van **[!UICONTROL Delivery statistics]** biedt zeer belangrijke prest
 
 ![ Statistieken die van de Levering metriek volgen ](assets/global_report_email_delivery_statistics_tracking.png){zoomable="yes"}{align="center"}
 
-+++ Meer informatie over de statistieken van de Levering metriek.
++++Meer weten over de meetgegevens van de leveringsstatistieken?
 
 * **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
@@ -205,7 +205,7 @@ In de tabel **[!UICONTROL Open and click-through rate]** worden gegevens weergeg
 
 ![ Open en klik-door tariefmetriek ](assets/global_report_email_opens.png){zoomable="yes"}{align="center"}
 
-+++Meer informatie over Open en doorklikcijfers.
++++ Meer informatie over Open en klik-door tariefmetriek.
 
 * **[!UICONTROL Sent]**: Het totale aantal verzonden berichten.
 
@@ -231,7 +231,7 @@ Het **[!UICONTROL URLs and click streams]** -rapport bevat prestatie-indicatoren
 
 ![ URLs en klik stromen metriek ](assets/campaign_report_email_9.png){zoomable="yes"}{align="center"}
 
-+++Leer meer op URLs en klik stromen metriek.
++++Meer informatie over URL&#39;s en klik op streammetriek.
 
 * **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
@@ -253,7 +253,7 @@ De **[!UICONTROL Top 10 most visited links]** -grafiek en -tabel bevatten de bes
 
 ![ Hoogste 10 bezochte verbindingsmetriek ](assets/global_report_email_top10.png){zoomable="yes"}{align="center"}
 
-+++Meer informatie over de tien meest bezochte koppelingen vindt u in de statistieken.
++++Meer weten over de tien meest bezochte koppelingen?
 
 * **[!UICONTROL Total Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 

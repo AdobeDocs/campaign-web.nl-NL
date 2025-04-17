@@ -4,7 +4,7 @@ title: Leveringsinstellingen configureren
 description: Leer hoe te om leveringsmontages in het Web van de Campagne te vormen
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '2597'
 ht-degree: 4%
@@ -72,7 +72,7 @@ Er zijn drie modi beschikbaar:
 
 >[!NOTE]
 >
->Het beheer van de vermoeidheid en de drukregels worden gevormd in de de cliëntconsole van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html) {target="_blank"}.
+>Het beheer van de vermoeidheid en de drukregels worden gevormd in de de cliëntconsole van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Capaciteitsinstellingen {#capacity-settings}
 
@@ -92,7 +92,7 @@ Het veld **[!UICONTROL Importance of the recipient]** is een formule die wordt g
 
 >[!NOTE]
 >
->De typologische regels worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html) {target="_blank"}.
+>De typologische regels worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 ## Instellingen voor publiek {#audience}
 
@@ -101,9 +101,9 @@ Het veld **[!UICONTROL Importance of the recipient]** is een formule die wordt g
 >title="Instellingen voor het publiek voor de levering"
 >abstract="Selecteer a **doelafbeelding** onder die beschikbaar. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console. U kunt ook de uitsluitingsparameters voor de levering instellen."
 
-In deze sectie, kunt u a **doelafbeelding** onder die beschikbaar selecteren. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console. De doelafbeelding is het type gegevens dat een bewerking afhandelt. Hiermee kunt u de doelgroep definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz. [ Leer meer op doelafbeeldingen ](../audience/targeting-dimensions.md).
+In deze sectie, kunt u a **doelafbeelding** onder die beschikbaar selecteren. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console. De doelafbeelding is het type gegevens dat een bewerking afhandelt. Hiermee kunt u de doelgroep definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz. [ Leer meer over doelafbeeldingen ](../audience/targeting-dimensions.md).
 
-In het veld **[!UICONTROL Exclusion]** kunt u aangeven of u profielen wilt uitsluiten die niet meer worden benaderd of die in quarantaine zijn geplaatst. [ leer meer ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html) {target="_blank"}
+In het veld **[!UICONTROL Exclusion]** kunt u aangeven of u profielen wilt uitsluiten die niet meer worden benaderd of die in quarantaine zijn geplaatst. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Levering {#delivery}
 
@@ -130,7 +130,7 @@ U kunt de onderstaande **[!UICONTROL Sending]** -instellingen definiëren.
 
 * **[!UICONTROL Test SMTP delivery]** (e-mailkanaal): deze optie wordt gebruikt om het verzenden via SMTP te testen. De e-mail wordt verwerkt tot verbinding aan de server SMTP, maar wordt niet verzonden: voor elke ontvanger van e-mail, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
 
-* **[!UICONTROL Email BCC]** (e-mailkanaal): deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door gewoon een BCC-e-mailadres toe te voegen aan uw berichtdoel. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html) {target="_blank"}.
+* **[!UICONTROL Email BCC]** (e-mailkanaal): deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door gewoon een BCC-e-mailadres toe te voegen aan uw berichtdoel. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 Selecteer in de sectie **[!UICONTROL Wave definition]** de optie **[!UICONTROL Send using multiple waves]** om het volume dat met golven wordt verzonden geleidelijk te verhogen. Zo voorkomt u dat uw berichten als spam worden gemarkeerd of dat u het aantal berichten per dag wilt beperken. Met golven kunt u leveringen in verschillende batches verdelen in plaats van tegelijkertijd grote volumes berichten te verzenden. [Meer informatie](send-using-waves.md)
 
@@ -159,7 +159,7 @@ U kunt ook de tags definiëren die worden gedeeld met het analyseprogramma dat u
 
 >[!NOTE]
 >
->De mogelijkheden van de Analytics van het Web worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac) {target="_blank"}.
+>De mogelijkheden van de Analytics van het Web worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Opnieuw {#retries}
 
@@ -228,7 +228,7 @@ U kunt ook datums opgeven. Selecteer **[!UICONTROL Explicitly set validity dates
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-Leer meer over de periode van de leveringsgeldigheid in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period) {target="_blank"}.
+Leer meer over de periode van de leveringsgeldigheid in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
 ### Paginabeheer spiegelen (e-mailkanaal) {#mirror}
 

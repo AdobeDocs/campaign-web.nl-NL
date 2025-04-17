@@ -3,9 +3,9 @@ audience: end-user
 title: E-mailleveringsrapporten
 description: Leer hoe u rapporten over e-maillevering kunt openen en gebruiken
 exl-id: 2a0bd3e9-5d75-47c8-bd6a-b3e0b1ce0a01
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2324'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Plaats de muis boven een gedeelte van de grafiek om het exacte getal weer te gev
 
 ![ Schermafbeelding van een grafiek met een muis over een gedeelte om het nauwkeurige aantal ](assets/reporting_email_1.1.png){zoomable="yes"} te tonen
 
-+++Meer informatie over de afmetingen van het e-mailleveringsrapport.
++++ Meer weten over de cijfers van het e-mailleveringsrapport?
 
 * **[!UICONTROL Initial audience]**: het totale aantal beoogde ontvangers.
 
@@ -56,7 +56,7 @@ In de grafiek van **[!UICONTROL Delivery statistics]** wordt aangegeven hoe succ
 
 ![ Schermafbeelding van een grafiek die de details van de leveringsstatistieken toont ](assets/reporting_email_2.png){zoomable="yes"}
 
-+++Meer informatie over de afmetingen van het campagnerapport voor e-mail.
++++Meer weten over de cijfers van het e-mailcampagnerapport?
 
 * **[!UICONTROL Message sent]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -75,11 +75,11 @@ In de grafiek van **[!UICONTROL Delivery statistics]** wordt aangegeven hoe succ
 >title="Uitsluitingsoorzaken"
 >abstract="De **Oorzaken van uitsluiting** grafiek en de lijst tonen de onderbreking per regel van berichten die tijdens de leveringsvoorbereiding worden verworpen."
 
-In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** wordt de uitsplitsing per regel weergegeven van berichten die tijdens de voorbereiding van de levering zijn geweigerd. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types) {_blank}.
+In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** wordt de uitsplitsing per regel weergegeven van berichten die tijdens de voorbereiding van de levering zijn geweigerd. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![ Schermafbeelding van de Oorzaken van uitsluitingsgrafiek en lijst ](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Meer informatie over de afmetingen van het e-mailleveringsrapport.
++++ Meer weten over de cijfers van het e-mailleveringsrapport?
 
 * **[!UICONTROL User unknown]**: Fouttype dat tijdens de levering wordt gegenereerd om aan te geven dat het e-mailadres ongeldig is.
 
@@ -120,7 +120,7 @@ De tabel **[!UICONTROL Broadcast statistics]** bevat de beschikbare gegevens voo
 
 ![ Schermafbeelding van de statistieken van de Uitzending ](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Meer informatie over de afmetingen van het e-mailleveringsrapport.
++++ Meer weten over de cijfers van het e-mailleveringsrapport?
 
 * **[!UICONTROL Processed emails]**: Het totale aantal berichten dat door de leveringsserver wordt verwerkt.
 
@@ -153,11 +153,11 @@ De tabel **[!UICONTROL Broadcast statistics]** bevat de beschikbare gegevens voo
 
 De tabel en grafiek van **[!UICONTROL Breakdown of errors per type]** bevatten de beschikbare gegevens voor het fouttype. De cijfers worden hieronder beschreven.
 
-De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html) {target="_blank"}.
+De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
 ![ Scherenshot van de onderbreking van fouten per type ](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-+++Meer informatie over de afmetingen van het e-mailleveringsrapport.
++++ Meer weten over de cijfers van het e-mailleveringsrapport?
 
 * **[!UICONTROL User unknown]**: Fouttype dat tijdens de levering wordt gegenereerd om aan te geven dat het e-mailadres ongeldig is.
 
@@ -218,7 +218,7 @@ Het **[!UICONTROL Delivery statistics]** -rapport bevat prestatie-indicatoren (K
 
 ![ Schermafbeelding van de statistieken van de Levering ](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
-+++Meer informatie over de afmetingen van het e-mailleveringsrapport.
++++ Meer weten over de cijfers van het e-mailleveringsrapport?
 
 * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
@@ -246,7 +246,7 @@ In de tabel **[!UICONTROL Open and click-through rate]** worden gegevens weergeg
 
 ![ Schermafbeelding van de Open en klik-door lijst van het tarief ](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
-+++Meer informatie over de afmetingen van het e-mailleveringsrapport.
++++ Meer weten over de cijfers van het e-mailleveringsrapport?
 
 * **[!UICONTROL Sent]**: Het totale aantal verzonden berichten.
 
@@ -271,7 +271,7 @@ Het rapport **[!UICONTROL URLs and click streams]** bevat prestatie-indicatoren 
 
 ![ Schermafbeelding van URLs en klik stromen rapport ](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
-+++Meer informatie over de afmetingen van het e-mailleveringsrapport.
++++ Meer weten over de cijfers van het e-mailleveringsrapport?
 
 * **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
@@ -296,7 +296,7 @@ De **[!UICONTROL Top 10 most visited links]** -grafiek en -tabel bevatten de bes
 
 ![ Schermafbeelding van de Top 10 meest bezochte verbindingengrafiek ](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
-+++Meer informatie over de afmetingen van het e-mailleveringsrapport.
++++ Meer weten over de cijfers van het e-mailleveringsrapport?
 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
@@ -328,7 +328,7 @@ Het **[!UICONTROL User activities]** rapport toont de uitsplitsing van opent en 
 
 ![ Schermafbeelding van het rapport van de Gebruikersactiviteiten ](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
-+++Meer informatie over de afmetingen van het e-mailleveringsrapport.
++++ Meer weten over de cijfers van het e-mailleveringsrapport?
 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
@@ -347,7 +347,7 @@ De grafiek van **[!UICONTROL Tracking Statistics]** verstrekt statistieken over 
 
 ![ Schermafbeelding van de het Volgen grafiek van statistiek ](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
-+++Meer informatie over de afmetingen van het e-mailleveringsrapport.
++++ Meer weten over de cijfers van het e-mailleveringsrapport?
 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 

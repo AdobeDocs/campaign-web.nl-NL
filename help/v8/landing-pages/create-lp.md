@@ -3,7 +3,7 @@ title: Een landingspagina maken
 description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: bd938c3e2046123a9a9c6b64890bf41d0c272d4d
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 1%
@@ -39,7 +39,7 @@ In de **[!UICONTROL Landing pages]** -voorraad worden alle gemaakte items weerge
 
 >[!CAUTION]
 >
->U kunt bestemmingspagina&#39;s niet tonen of uitgeven die van de cliëntconsole (Webformulieren) in het gebruikersinterface van het Web van de Campagne worden gecreeerd. Leer meer in de [ documentatie van de de consoleconsole van de Campagne ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html) {target="_blank"}.
+>U kunt bestemmingspagina&#39;s niet tonen of uitgeven die van de cliëntconsole (Webformulieren) in het gebruikersinterface van het Web van de Campagne worden gecreeerd. Leer meer in de [ documentatie van de de consoleconsole van de Campagne ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -198,7 +198,7 @@ Nadat de instellingen en inhoud van de bestemmingspagina zijn gedefinieerd, kunt
 
 >[!CAUTION]
 >
->U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. [ leer meer op testprofielen ](../audience/test-profiles.md)
+>U moet testprofielen beschikbaar hebben om een voorbeeld van uw berichten te kunnen bekijken en proefdrukken te kunnen verzenden. [ leer meer over testprofielen ](../audience/test-profiles.md)
 
 Voer de volgende stappen uit om de bestemmingspagina te testen:
 

@@ -6,7 +6,7 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -104,6 +104,6 @@ Gebruikers kunnen de details handmatig invoeren of een document met brandrichtli
 
    ![ Geavanceerde menuopties in het dashboard van Banden ](assets/brands_5.png)
 
-De richtlijnen voor uw merk zijn nu beschikbaar via de vervolgkeuzelijst **[!UICONTROL Brand]** in het menu AI-assistent. Hierdoor kan de AI-assistent inhoud en elementen genereren die zijn uitgelijnd op uw specificaties. [ leer meer op de AI medewerker ](../email/generative-gs.md)
+De richtlijnen voor uw merk zijn nu beschikbaar via de vervolgkeuzelijst **[!UICONTROL Brand]** in het menu AI-assistent. Hierdoor kan de AI-assistent inhoud en elementen genereren die zijn uitgelijnd op uw specificaties. [ leer meer over de AI medewerker ](../email/generative-gs.md)
 
 ![ AI hulpmenu met Merk drop-down ](assets/brands_6.png)

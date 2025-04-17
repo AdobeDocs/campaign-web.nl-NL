@@ -3,7 +3,7 @@ audience: end-user
 title: Bestaande doelgroep selecteren
 description: Leer hoe u een publiek kunt selecteren
 exl-id: 76873315-a2eb-4936-bd10-6759bf603dd0
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -21,7 +21,7 @@ In deze sectie wordt uitgelegd hoe u een bestaand publiek kunt selecteren wannee
 * [ bouwt een eenmalig publiek ](one-time-audience.md) gebruikend de vraagmodeler.
 * [ Laad een publiek van een extern dossier ](file-audience.md) (voor e-mail slechts).
 
-Het publiek dat in leveringen kan worden gericht is toegankelijk van het **Publiek** linkermenu. Zij komen uit veelvoudige bronnen, zoals de console van de Cliënt, de het publiekswerkschema&#39;s van het Web van de Campagne, of Adobe Experience Platform voort. [ leer meer op publiek ](manage-audience.md)
+Het publiek dat in leveringen kan worden gericht is toegankelijk van het **Publiek** linkermenu. Zij komen uit veelvoudige bronnen, zoals de console van de Cliënt, de het publiekswerkschema&#39;s van het Web van de Campagne, of Adobe Experience Platform voort. [ leer meer over publiek ](manage-audience.md)
 
 Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
@@ -33,7 +33,7 @@ Volg onderstaande stappen om een bestaand publiek voor uw bericht te selecteren:
 
    [ Dit het schermschot toont de lijst van bestaand publiek in de huidige omslag.](assets/create-audience2.png){zoomable="yes"}
 
-   Als u een publiek wilt kiezen in Adobe Experience Platform, bladert u naar de `AEP Audiences folder` in de filtersectie van het scherm. [ leer meer op het publiek van Adobe Experience Platform ](manage-audience.md#monitor)
+   Als u een publiek wilt kiezen in Adobe Experience Platform, bladert u naar de `AEP Audiences folder` in de filtersectie van het scherm. [ leer meer over het publiek van Adobe Experience Platform ](manage-audience.md#monitor)
 
    [ Dit het schermschot toont de filtersectie met de geselecteerde omslag van het publiek van AEP.](assets/select-audience-folder.png){zoomable="yes"}
 

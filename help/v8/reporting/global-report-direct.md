@@ -3,7 +3,7 @@ audience: end-user
 title: Algemene rapporten voor het directe-mailkanaal
 description: Meer informatie over Global-rapporten voor het directe e-mailkanaal
 exl-id: a42536fe-375b-4169-8775-d47ed26692f8
-source-git-commit: aa9ddb8841d8ef77c9f76e4d05cdffd4a1c87c66
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
@@ -29,7 +29,7 @@ In **[!UICONTROL Delivery Overview]** worden de belangrijkste prestatiemetriek (
 
 ![ Dit beeld toont de metriek van het leveringsoverzicht voor directe postleveringen.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++ Meer informatie over overzichtsmetriek voor levering.
++++Meer informatie over de maatstaven van het leveringsoverzicht.
 
 * **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
@@ -81,7 +81,7 @@ De tabel en grafiek voor **[!UICONTROL Targeted Audience]** bevatten gegevens ov
 
 De grafiek en de tabel van **[!UICONTROL Delivery statistics]** bevatten een overzicht van het succes van elke directe verzending. Hieronder vindt u gedetailleerde cijfers.
 
-+++ Meer informatie over de statistieken van de Levering metriek.
++++Meer weten over de meetgegevens van de leveringsstatistieken?
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -109,7 +109,7 @@ De grafiek en de tabel van **[!UICONTROL Delivery statistics]** bevatten een ove
 
 In de grafiek en de tabel met uitsluitingen worden de redenen weergegeven waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
 
-+++Meer informatie over oorzaken van uitsluitingsmetingen.
++++Meer informatie over oorzaken van uitsluitingsmetriek.
 
 * **[!UICONTROL Address in quarantine]**: Fouttype dat wordt gegenereerd wanneer een adres in quarantaine wordt geplaatst.
 

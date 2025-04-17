@@ -3,7 +3,7 @@ title: Paginaspecifieke inhoud definiëren
 description: Leer hoe u landende pagina-specifieke inhoud ontwerpt in Campagne Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 1%
@@ -111,7 +111,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
    * **[!UICONTROL Landing page]**: selecteer een andere bestemmingspagina waarnaar gebruikers moeten worden omgeleid. Controleer of u de geselecteerde bestemmingspagina dienovereenkomstig configureert.
 
 1. Als u aanvullende updates wilt uitvoeren wanneer u het formulier verzendt, selecteert u **[!UICONTROL Additional updates]** en selecteert u het item dat u wilt bijwerken:
-   * De dienst van het abonnement [ ](../audience/manage-services.md) - bepaalt als u binnen of opt uit gebruikers bij het voorleggen van de vorm wilt kiezen. Als u bij het ontwerpen van een e-mailbericht een koppeling van het type **[!UICONTROL Landing page]** naar deze bestemmingspagina definieert, wordt automatisch de geselecteerde service gebruikt. [ leer meer bij het opnemen van verbindingen ](../email/message-tracking.md)
+   * De dienst van het abonnement [ ](../audience/manage-services.md) - bepaalt als u binnen of opt uit gebruikers bij het voorleggen van de vorm wilt kiezen. Als u bij het ontwerpen van een e-mailbericht een koppeling van het type **[!UICONTROL Landing page]** naar deze bestemmingspagina definieert, wordt automatisch de geselecteerde service gebruikt. [ leer meer over het opnemen van verbindingen ](../email/message-tracking.md)
 
      >[!NOTE]
      >
@@ -131,7 +131,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    ![ Dienst van montages URL in de vormcomponent ](assets/lp-form-service-from-url.png){zoomable="yes"}
 
-   Als u tijdens het ontwerpen van een e-mailbericht een koppeling van het type **[!UICONTROL Landing page]** naar deze bestemmingspagina definieert, kunt u een willekeurige service in de lijst selecteren. Vervolgens kunt u andere services selecteren wanneer u andere koppelingen naar deze bestemmingspagina definieert. [ leer meer bij het opnemen van verbindingen ](../email/message-tracking.md)
+   Als u tijdens het ontwerpen van een e-mailbericht een koppeling van het type **[!UICONTROL Landing page]** naar deze bestemmingspagina definieert, kunt u een willekeurige service in de lijst selecteren. Vervolgens kunt u andere services selecteren wanneer u andere koppelingen naar deze bestemmingspagina definieert. [ leer meer over het opnemen van verbindingen ](../email/message-tracking.md)
 
    ![ E-mailverbinding aan het landen van paginamontages ](assets/email-link-to-landing-page.png){zoomable="yes"}
 

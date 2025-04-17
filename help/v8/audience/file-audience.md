@@ -3,7 +3,7 @@ audience: end-user
 title: Een e-mailpubliek laden vanuit een bestand
 description: Leer hoe u profielen uit een extern bestand kunt laden om uw e-mailpubliek te maken
 exl-id: e6e0dd01-5573-4261-aace-fd173827c383
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 1%
@@ -99,7 +99,7 @@ Met Campagne Web kunt u proefdrukken weergeven en verzenden wanneer u een publie
 
 1. De profielen in de geüploade bestandsweergave. Selecteer de profielen die u wilt gebruiken om een voorvertoning van uw inhoud weer te geven en klik op **[!UICONTROL Select]** .
 
-1. Een voorvertoning van de leveringsinhoud wordt weergegeven in het rechterdeelvenster van het scherm. Gepersonaliseerde elementen worden vervangen door de gegevens van het profiel dat in het linkerdeelvenster is geselecteerd. [ Leer meer op de voorproef van de leveringsinhoud ](../preview-test/preview-content.md)
+1. Een voorvertoning van de leveringsinhoud wordt weergegeven in het rechterdeelvenster van het scherm. Gepersonaliseerde elementen worden vervangen door de gegevens van het profiel dat in het linkerdeelvenster is geselecteerd. [ Leer meer over de voorproef van de leveringsinhoud ](../preview-test/preview-content.md)
 
    ![ Schermschot die de voorproef van leveringsinhoud met gepersonaliseerde elementen tonen ](assets/file-upload-preview.png){zoomable="yes"}
 
@@ -115,4 +115,4 @@ Met Campagne Web kunt u proefdrukken weergeven en verzenden wanneer u een publie
 
    ![ Schermschot die het bewijs tonen verzendend proces ](assets/file-upload-test.png){zoomable="yes"}
 
-1. U kunt de verzending van de proefdruk op elk gewenst moment controleren met de knop **[!UICONTROL View proofs]** . [ Leer meer op proeven die ](../preview-test/test-deliveries.md#access-test-deliveries) controleren
+1. U kunt de verzending van de proefdruk op elk gewenst moment controleren met de knop **[!UICONTROL View proofs]** . [ Leer meer over proeven die ](../preview-test/test-deliveries.md#access-test-deliveries) controleren

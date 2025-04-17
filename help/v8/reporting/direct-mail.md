@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporten via e-mail
 description: Ontdek hoe u rapporten via Direct mail kunt openen en gebruiken
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ In **[!UICONTROL Delivery Overview]** vindt u gedetailleerde informatie over de 
 
 ![ grafiek van de overzichtsmetriek van de levering die zeer belangrijke prestatiesindicatoren voor directe postlevering tonen.](assets/direct-overview.png){zoomable="yes"}{align="center"}
 
-+++ Meer informatie over overzichtsmetriek voor levering.
++++Meer informatie over de maatstaven van het leveringsoverzicht.
 
 * **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 * **[!UICONTROL Targeted]**: Aantal gebruikersprofielen dat als doelprofielen voor direct-mailberichten wordt gekwalificeerd.
@@ -49,7 +49,7 @@ Plaats de muis boven een deel van de grafiek om het exacte getal weer te geven.
 
 ![ Gedetailleerde mening van de aanvankelijke grafiek van de doelbevolking met muisfunctionaliteit.](assets/direct-mail-delivery-targeted-population_2.png){zoomable="yes"}
 
-+++ Meer informatie over de cijfers van rapporten voor Direct-mail-levering.
++++ Meer weten over de cijfers van het rapport Direct-mail-levering?
 
 * **[!UICONTROL Initial audience]**: het totale aantal beoogde ontvangers.
 * **[!UICONTROL To deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
@@ -67,7 +67,7 @@ De grafiek van **[!UICONTROL Delivery statistics]** geeft een overzicht van de p
 
 ![ grafiek van de statistiek van de Levering die succespercentages, fouten, en quarantines toont.](assets/direct-mail-delivery-stats.png){zoomable="yes"}
 
-+++ Meer informatie over de gegevens van het campagnerapport voor Direct mail.
++++ Meer weten over de gegevens van het campagnerapport voor Direct mail?
 
 * **[!UICONTROL Message sent]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
@@ -82,11 +82,11 @@ De grafiek van **[!UICONTROL Delivery statistics]** geeft een overzicht van de p
 >title="Uitsluitingsoorzaken"
 >abstract="De **Oorzaken van uitsluiting** grafiek illustreert de distributie van verworpen berichten tijdens de voorbereiding voor levering, die door elke regel wordt gecategoriseerd."
 
-De grafiek **[!UICONTROL Causes of exclusion]** geeft een overzicht van de redenen voor het afwijzen van berichten tijdens de voorbereiding van de levering. Deze uitsplitsing wordt volgens verschillende regels georganiseerd en biedt een gedetailleerd overzicht van de factoren die bijdragen tot uitsluiting van berichten. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types) {_blank}.
+De grafiek **[!UICONTROL Causes of exclusion]** geeft een overzicht van de redenen voor het afwijzen van berichten tijdens de voorbereiding van de levering. Deze uitsplitsing wordt volgens verschillende regels georganiseerd en biedt een gedetailleerd overzicht van de factoren die bijdragen tot uitsluiting van berichten. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![ Oorzaken van uitsluitingsgrafiek die distributie van verworpen berichten door regel tonen.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++Meer informatie over oorzaken van uitsluitingsmetingen.
++++Meer informatie over oorzaken van uitsluitingsmetriek.
 
 * **[!UICONTROL Address in quarantine]**: Fouttype dat wordt gegenereerd wanneer een adres in quarantaine wordt geplaatst.
 * **[!UICONTROL Address not specified]**: Fouttype dat wordt gegenereerd wanneer een adres niet bestaat.

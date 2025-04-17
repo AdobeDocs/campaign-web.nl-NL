@@ -4,9 +4,9 @@ description: Belangrijke functionaliteit van Campagne v8 ontdekken. Het is voor 
 role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
-source-git-commit: 22cea48ecdf1233dbbc1dc679ad6fcb2cf18bd2d
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2453'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Deze handleiding geeft een overzicht van de belangrijkste functies van Campaign 
 
 U hebt toegang tot Adobe Campaign v8 via de clientconsole of de webgebruikersinterface. Met de webinterface kunt u belangrijke marketingacties maken, beheren en uitvoeren. De nieuwe Adobe Campaign Web-interface biedt een moderne en intuïtieve gebruikerservaring om het ontwerpen en leveren van marketingcampagnes te vereenvoudigen. [Meer informatie](../../v8/get-started/user-interface.md).
 
-Met de migratie worden al uw gegevens uit Campaign Standard geïmporteerd in Campaign v8, zodat u een soepele overgang hebt met minimale onderbreking van uw huidige bewerkingen.
+Met de migratie worden al uw gegevens uit Campaign Standard geïmporteerd in Campaign v8, zodat u een soepele overgang hebt met minimale onderbreking van uw lopende bewerkingen.
 
 U kunt uw bestaande aanmeldingsgegevens blijven gebruiken om u aan te melden en verbinding te maken met uw nieuwe Adobe Campaign v8-exemplaar. Nadat u zich hebt aangemeld, kunt u al uw profielen en workflows vinden die worden gemigreerd, zodat u aan uw campagnes kunt blijven werken.
 
@@ -75,7 +75,7 @@ Leer hoe te [ om een controlegroep ](../../v8/audience/control-group.md){target=
 
 >[!AVAILABILITY]
 >
->* Alle publiek dat via de activiteit van de Vraag van het Campaign Standard wordt gecreeerd wordt omgezet in vooraf bepaald filter in Campagne v8 tijdens overgang. Campagne v8 ondersteunt ook de zoekactie.
+>* Alle soorten publiek die via Campaign Standard Query-activiteit worden gemaakt, worden tijdens de overgang omgezet in vooraf gedefinieerd filter in Campagne v8. Campagne v8 ondersteunt ook de zoekactie.
 >
 >* Lees publiek wordt omgezet in de activiteit van de Vraag met [ vooraf bepaalde filter ](../../v8/query/build-query.md)
 >
@@ -140,7 +140,7 @@ Volg de onderstaande documentatie voor meer informatie over campagnes:
 
 ### Een workflow maken {#acs-gs-marketers-wf}
 
-De werkschemagebruikersinterface is volledig opnieuw voorgesteld in het gebruikersinterface van het Web van de Campagne om gebruik, configuratie, uitvoering, en het oplossen van problemen te vergemakkelijken. Zoals u reeds in Campaign Standard, met werkschema&#39;s ervaart, kunt u de volledige waaier van processen en taken organiseren, de snelheid en de schaal van elk aspect van uw marketing campagnes verbeteren, van het creëren van segmenten en het voorbereiden van berichten aan levering. Bovendien kunt u uw kanalen synchroon maken met één gebruiksvriendelijke interface voor het organiseren van campagnes.
+De werkschemagebruikersinterface is volledig opnieuw voorgesteld in het gebruikersinterface van het Web van de Campagne om gebruik, configuratie, uitvoering, en het oplossen van problemen te vergemakkelijken. Zoals u reeds in Campaign Standard hebt ervaren, met werkschema&#39;s, kunt u de volledige waaier van processen en taken organiseren, de snelheid en de schaal van elk aspect van uw marketing campagnes verbeteren, van het creëren van segmenten en het voorbereiden van berichten aan levering. Bovendien kunt u uw kanalen synchroon maken met één gebruiksvriendelijke interface voor het organiseren van campagnes.
 
 Begrijp hoe werkstromen werken en hoe te om een het richten werkschema in deze video tot stand te brengen:
 
@@ -158,14 +158,14 @@ Maximaliseer de efficiency van uw werkschema door de [ Grafieken en beperkingen 
 >
 >* De uitvoerings [ geschiedenis en de logboeken van het werkschema ](../../v8/workflows/start-monitor-workflows.md#logs-tasks) zijn beschikbaar in Adobe Campaign v8.
 >
->* Historische logboeken voor werkstromen die op uw instantie van het Campaign Standard worden uitgevoerd worden niet gemigreerd naar Campagne v8.
+>* Historische logboeken voor workflows die worden uitgevoerd op uw Campaign Standard-instantie, worden niet gemigreerd naar Campagne v8.
 >
 >* De organisatorische eenheden worden in kaart gebracht aan concept omslag voor afbeelding en het verzekeren van gelijkaardige toegangsbeheer.
 >
 
 ## Leveringen maken en beheren {#acs-gs-marketers-deliveries}
 
-Met het Gebruikersinterface van het Web van de Campagne, als teller, kunt u standalone leveringen van het **Leveringen** verlaten menu tot stand brengen, of leveringen in de context van een werkschema, inbegrepen of niet in een campagne tot stand brengen. De belangrijkste stappen worden gericht op uw vorige ervaring in Campaign Standard. Leer hoe te om een levering in de volgende sectie tot stand te brengen: [ de verwezenlijking van de Levering en beheersdocumentatie ](../../v8/msg/gs-deliveries.md).
+Met het Gebruikersinterface van het Web van de Campagne, als teller, kunt u standalone leveringen van het **Leveringen** verlaten menu tot stand brengen, of leveringen in de context van een werkschema, inbegrepen of niet in een campagne tot stand brengen. De belangrijkste stappen worden uitgelijnd met uw eerdere ervaring in Campaign Standard. Leer hoe te om een levering in de volgende sectie tot stand te brengen: [ de verwezenlijking van de Levering en beheersdocumentatie ](../../v8/msg/gs-deliveries.md).
 
 Nuttige koppelingen:
 
@@ -192,9 +192,9 @@ Nuttige koppelingen:
 >
 >* Leveringen met een van de volgende status zijn gemigreerd als geannuleerde leveringen: Voor Geannuleerd/Opnieuw uitgevoerd.
 >
->* Koppelingen bijhouden, URL-koppelingen voor spiegelpagina&#39;s en koppelingen voor abonnementen/abonnementen werken op dezelfde manier als in Campaign Standard.
+>* Koppelingen bijhouden, URL-koppelingen van spiegelpagina&#39;s, abonnements- en niet-abonnementkoppelingen werken net als in Campaign Standard.
 >
->Zie ook de volgende secties: [ het Volgen en de Controle ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking) {target="_blank"}, [ het Branden ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs) {target="_blank"} in Adobe Campaign.
+>Zie ook de volgende secties: [ het Volgen en de Controle ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [ het Branding ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign.
 
 ### E-maillevering {#acs-gs-marketers-email}
 
@@ -208,7 +208,7 @@ In Campagne v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
 1. **Ontwerp en bepaal inhoud**
 
-   De Campagne v8 E-mailontwerper is vergelijkbaar met de campagne die beschikbaar is in Campaign Standard. Als herinnering, Campaign Standard [ erfenis e-mailredacteur werd afgekeurd ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features) {target="_blank"} een paar jaar geleden. U had al moeten overstappen op Campagne-mail Designer om uw e-mailinhoud te maken en aan te passen.
+   De Campagne v8 E-mailontwerper is vergelijkbaar met die in Campaign Standard. Als herinnering, Campaign Standard [ erfenis e-mailredacteur werd afgekeurd ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} een paar jaar geleden. U had al moeten overstappen op Campagne-mail Designer om uw e-mailinhoud te maken en aan te passen.
 
    Begrijp hoe u door de Designer-e-mail kunt navigeren. In de volgende video ziet u hoe u een geheel nieuwe e-mail kunt structureren en ontwerpen, hoe u uw e-mail kunt personaliseren en testen:
 
@@ -216,7 +216,7 @@ In Campagne v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
    Met de e-mailtoepassing Designer kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve drag-and-drop interface. Leer meer in de [ documentatie van Designer E-mail ](../../v8/email/get-started-email-designer.md)
 
-   Leer hoe u een e-mail maakt door HTML te uploaden, hoe u deze compatibel maakt met de e-mail-Designer en hoe u deze kunt converteren naar een sjabloon in deze video:
+   Leer hoe u een e-mail kunt maken door HTML te uploaden, hoe u deze compatibel kunt maken met de e-mail-Designer en hoe u deze kunt converteren naar een sjabloon in deze video:
 
    >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
 
@@ -242,7 +242,7 @@ In Campagne v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
 De levering van SMS verstrekt een praktische en efficiënte manier om tekstberichten naar de mobiele apparaten van uw klanten te verzenden. Met deze functie kunt u op tekst gebaseerde berichten maken, personaliseren en voorvertonen voor effectieve communicatie.
 
-In Campaign v8 zijn de gedetailleerde stappen voor het maken, testen en verzenden van een SMS-levering vergelijkbaar met Campaign Standard.
+In Campaign v8 zijn de gedetailleerde stappen voor het maken, testen en verzenden van een SMS-levering vergelijkbaar met die in Campaign Standard.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -277,7 +277,7 @@ In Campaign v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
 Pushberichten zijn essentieel voor het bereiken van een mobiele app-gebruiker, zelfs als deze uw app niet actief gebruikt. Zij dienen diverse doeleinden zoals het verstrekken van updates, het drijven van specifieke acties, en het op de hoogte brengen van overeenkomsten.
 
-In Campagne v8 zijn de gedetailleerde stappen voor het maken, testen en verzenden van een pushmelding vergelijkbaar met die in het Campaign Standard.
+In Campaign v8 zijn de gedetailleerde stappen voor het maken, testen en verzenden van een pushmelding vergelijkbaar met die in Campaign Standard.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -309,16 +309,16 @@ In Campagne v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
 >[!AVAILABILITY]
 >
->* Adobe Campaign v8 ondersteunt zowel Android als iOS Push Channel. Maak verbinding met uw Adobe Campaign Transition Manager voor het overstappen van bestaande workflows en leveringen met Push Channel. Leer meer op [ Opstelling van het Kanaal ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection) {target="_blank"}.
+>* Adobe Campaign v8 ondersteunt zowel Android als iOS Push Channel. Maak verbinding met uw Adobe Campaign Transition Manager voor het overstappen van bestaande workflows en leveringen met Push Channel. Leer meer over [ Opstelling van het Kanaal 1}.](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}
 >
->* Merk op dat SDK V4 voor mobiele toepassingen [ verouderd in Campaign Standard ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features) was {target="_blank"} een paar jaar geleden. U had al moeten overgaan op SDK van Adobe Experience Platform, die het zelfde in Campaign v8 wordt gebruikt.
+>* Merk op dat SDK V4 voor mobiele toepassingen [ werd verouderd in Campaign Standard ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} een paar jaar geleden. U had al moeten overstappen op Adobe Experience Platform SDK, wat hetzelfde is als in Campaign v8.
 > 
 
 ### Direct mail {#acs-gs-marketers-direct-mail}
 
 Directe post is een off-line kanaal dat u toestaat om dossiers aan massa te veroorzaken die gepersonaliseerde brieven aan uw klanten zoals postcards, vliegers, of catalogi leveren. Bij het maken van een directe postbestelling genereert Adobe Campaign automatisch een extractiebestand dat alle doelprofielen en geselecteerde gegevens bevat, zoals postadressen en profielkenmerken.
 
-In Campagne v8 zijn de gedetailleerde stappen voor het maken, testen en verzenden van een directe postbezorging vergelijkbaar met die in Campaign Standard.
+In Campaign v8 zijn de gedetailleerde stappen voor het maken, testen en verzenden van een directe mailbezorging vergelijkbaar met die in Campaign Standard.
 
 
 1. [Direct-maillevering maken](../../v8/direct-mail/create-direct-mail.md)
@@ -327,13 +327,13 @@ In Campagne v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
 ### Kanaal in app {#acs-gs-marketers-in-app}
 
-Het kanaal in de app is niet beschikbaar in Campagne v8. Als u meldingen in de app moet verzenden, neemt u contact op met uw vertegenwoordiger van de Adobe.
+Het kanaal in de app is niet beschikbaar in Campagne v8. Neem contact op met uw Adobe-vertegenwoordiger als u meldingen in de app wilt verzenden.
 
 ## Landingspagina&#39;s maken en beheren {#acs-gs-marketers-lp}
 
 De Adobe Campaign v8-webgebruikersinterface wordt geleverd met een nieuwe gebruikerservaring voor het landen van pagina&#39;s. Met campagnes kunt u bestemmingspagina&#39;s maken, ontwerpen en delen. Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen waar zij hun gegevens kunnen bijwerken, uw communicatie kunnen in- of uitschakelen of zich op een specifieke service zoals een nieuwsbrief kunnen abonneren.
 
-Als gebruiker van het Campaign Standard die naar Campaign v8 overgaat, zijn uw bestaande landingspagina&#39;s gemigreerd naar de gebruikersinterface van het Web van de Campagne. U kunt tot de zelfde waaier van mogelijkheden toegang hebben.
+Als Campaign Standard-gebruiker die overgaat naar Campaign v8, zijn uw bestaande bestemmingspagina&#39;s gemigreerd naar de gebruikersinterface van Campagne Web. U kunt tot de zelfde waaier van mogelijkheden toegang hebben.
 
 Meer informatie over bestemmingspagina&#39;s vindt u in de volgende secties:
 
@@ -369,15 +369,15 @@ Meer informatie over bestemmingspagina&#39;s vindt u in de volgende secties:
 
 ## Rapportage {#acs-gs-marketers-reporting}
 
-Adobe Campaign verstrekt een reeks [ rapporterend hulpmiddelen ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting) {target="_blank"}. Als beheerder, kunt u rapporten tot stand brengen en vormen om met andere gebruikers van de Campagne te delen.
+Adobe Campaign verstrekt een reeks [ rapporteringshulpmiddelen ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}. Als beheerder, kunt u rapporten tot stand brengen en vormen om met andere gebruikers van de Campagne te delen.
 
 De Adobe Campaign-suite met rapportagetools biedt waardevolle inzichten in de effectiviteit van uw marketingactiviteiten, zodat u uw campagnes kunt optimaliseren voor maximale impact. Leer meer in de [ Rapporterende documentatie ](../../v8/reporting/gs-reports.md).
 
-Bovendien is, in overeenstemming met de ervaring van Adobe Campaign Standard, de Dynamic Reporting beschikbaar voor u in Campagne v8, voor uw e-mailleveringen. Het verstrekt volledig klantgerichte en real-time rapporten om de invloed van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Leer meer in de [ Dynamische het melden documentatie ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting) {target="_blank"}
+Bovendien is, in overeenstemming met de ervaring van Adobe Campaign Standard, de Dynamic Reporting beschikbaar voor u in Campagne v8, voor uw e-mailleveringen. Het verstrekt volledig klantgerichte en real-time rapporten om de invloed van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Leer meer in de [ Dynamische het melden documentatie ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
 >[!AVAILABILITY]
 >
->* [ Dynamische rapportering ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting) {target="_blank"} kan voor het melden van e-mailleveringen, campagne met e-mailleveringen en transactionele berichten worden gebruikt. Er is ook demografische analyse per profieldimensie beschikbaar.
+>* [ Dynamische rapportering ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} kan voor het melden van e-mailleveringen, campagne met e-mailleveringen en transactionele berichten worden gebruikt. Er is ook demografische analyse per profieldimensie beschikbaar.
 >
 > * [ het gebruikersinterface melden van het Web van Adobe Campaign ](../../v8/reporting/campaign-reports.md) is ook beschikbaar voor alle gebruikersovergang van Adobe Campaign Standard aan Adobe Campaign v8.
 

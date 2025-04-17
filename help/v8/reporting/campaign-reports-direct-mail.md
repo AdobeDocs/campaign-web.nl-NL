@@ -3,7 +3,7 @@ audience: end-user
 title: Campagnerapporten voor het kanaal Direct mail
 description: Inzicht in campagnerapporten voor het kanaal Direct mail
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -27,7 +27,7 @@ In **[!UICONTROL Delivery Overview]** worden de belangrijkste prestatiemetriek (
 
 ![ Overzicht van de metriek van de campagnelevering van de Directe post ](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
-+++ Meer informatie over overzichtsmetriek voor levering.
++++Meer informatie over de maatstaven van het leveringsoverzicht.
 
 * **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
@@ -50,7 +50,7 @@ In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens 
 
 ![ Statistieken van het aanvankelijke doelpubliek voor Directe postcampagnes ](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
-+++Meer informatie over de cijfers voor de aanvankelijke doelpubliek.
++++Meer weten over de cijfers voor aanvankelijke doelpubliek?
 
 * **[!UICONTROL Initial audience]**: het totale aantal beoogde ontvangers.
 
@@ -71,7 +71,7 @@ In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens 
 
 De tabel **[!UICONTROL Execution statistics]** bevat een overzicht van het succes van elke direct-maillevering. Hieronder vindt u gedetailleerde gegevens.
 
-+++ Meer informatie over de statistieken van de Levering metriek.
++++Meer weten over de meetgegevens van de leveringsstatistieken?
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -94,7 +94,7 @@ De tabel **[!UICONTROL Execution statistics]** bevat een overzicht van het succe
 
 De **Gegenereerde klikstromen** lijst illustreert de redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, het bericht ontvingen.
 
-+++Klik op Metrische gegevens voor gegenereerde streams voor meer informatie.
++++Meer informatie over Gegenereerde klikstreams metriek.
 
 * **[!UICONTROL Unique clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer in een levering heeft geklikt.
 

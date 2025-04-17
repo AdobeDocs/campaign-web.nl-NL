@@ -3,9 +3,9 @@ audience: end-user
 title: Rapporten over levering verzenden
 description: Leer hoe u pushrapporten kunt openen en gebruiken
 exl-id: 4187b553-8de7-40f4-8f30-f62e43323862
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Het **[!UICONTROL Delivery overview]** -rapport bevat prestatie-indicatoren (KPI
 
 ![ Dit schermafbeelding toont het overzichtsrapport van de Levering, dat KPIs over bezoekersbetrokkenheid van duwberichten verstrekt.](assets/reporting_push_3.png){zoomable="yes"}
 
-+++Meer weten over cijfers van verzendrapporten.
++++Meer informatie over de metriek van het verzendrapport van de drukker.
 
 * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten.
@@ -52,7 +52,7 @@ De **gerichte bevolkings** grafiek en lijstvertoningsgegevens met betrekking tot
 
 ![ Dit schermafbeelding toont de Gerichte bevolkingsgrafiek en de lijst, die gegevens over te leveren berichten en uitsluitingen tonen.](assets/reporting_push_4.png){zoomable="yes"}
 
-+++Meer weten over cijfers van verzendrapporten.
++++Meer informatie over de metriek van het verzendrapport van de drukker.
 
 * **[!UICONTROL To deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 * **[!UICONTROL Exclusions]**: aantal profielen dat is uitgesloten van de analyse.
@@ -70,7 +70,7 @@ Het **Algemene statistiek** rapport stelt gegevens voor de verzonden pushbericht
 
 ![ Dit schermafbeelding toont het Algemene statistische rapport, dat gegevens over succes, fouten, en quarantines voor verzonden pushberichten voorstelt.](assets/reporting_push_5.png){zoomable="yes"}
 
-+++Meer weten over cijfers van verzendrapporten.
++++Meer informatie over de metriek van het verzendrapport van de drukker.
 
 * **[!UICONTROL Success]**: Aantal berichten dat is verwerkt.
 * **[!UICONTROL Errors]**: Het totale aantal fouten dat tijdens de levering is opgetreden, waardoor berichten niet naar bepaalde profielen kunnen worden verzonden.
@@ -85,7 +85,7 @@ Het **Algemene statistiek** rapport stelt gegevens voor de verzonden pushbericht
 >title="Uitsluitingen bij duwen"
 >abstract="De **grafiek en de lijst van uitsluitingen 0} {tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen.**"
 
-In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u verschillende redenen waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet hebben ontvangen. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types) {_blank}.
+In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u verschillende redenen waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet hebben ontvangen. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
 ![ Dit het schermschot toont de grafiek en de lijst van Uitzonderingen, die vertoningsredenen verhinderen uitgesloten gebruikersprofielen berichten te ontvangen.](assets/reporting_push_6.png){zoomable="yes"}
 

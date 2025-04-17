@@ -3,7 +3,7 @@ audience: end-user
 title: Componenten voor inhoud van e-mailontwerpers gebruiken
 description: Leer hoe u inhoudcomponenten in uw e-mails kunt gebruiken
 exl-id: a77e7438-4bd3-4f99-a166-b98094a1292b
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
 source-wordcount: '1296'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Voer de onderstaande stappen uit om inhoudcomponenten aan uw e-mail toe te voege
    >
    >U kunt meerdere componenten toevoegen aan één structuur en aan elke kolom van een structuur.
 
-1. Pas de opties voor elke component aan met het contextafhankelijke tabblad **[!UICONTROL Settings]** . Kies bijvoorbeeld of u de presentatie alleen wilt weergeven op het bureaublad of op mobiele apparaten of op beide. U kunt koppelingsopties ook beheren vanuit dit tabblad. [ leer meer bij het beheren van verbindingen ](message-tracking.md)
+1. Pas de opties voor elke component aan met het contextafhankelijke tabblad **[!UICONTROL Settings]** . Kies bijvoorbeeld of u de presentatie alleen wilt weergeven op het bureaublad of op mobiele apparaten of op beide. U kunt koppelingsopties ook beheren vanuit dit tabblad. [ leer meer over het beheren van verbindingen ](message-tracking.md)
 
 1. Pas de opmaakkenmerken voor elke component aan met het tabblad **[!UICONTROL Style]** . Wijzig bijvoorbeeld de tekststijl, opvulling of marge van elke component. [ leer meer over groepering en het opvullen ](alignment-and-padding.md)
 
