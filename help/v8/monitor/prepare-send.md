@@ -18,7 +18,7 @@ Wanneer u uw [ inhoud ](../email/edit-content.md) bepaalt, [ publiek ](../audien
 
 Tijdens de voorbereiding van de levering, wordt de doelbevolking berekend, en de berichtinhoud wordt geproduceerd voor elk profiel inbegrepen in het doel. Zodra de voorbereiding eindigt, zijn de berichten klaar om te worden verzonden, of onmiddellijk of op de geplande datum en de tijd.
 
-De bevestigingsregels die tijdens leveringsvoorbereiding worden gebruikt worden beschreven in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html) {target="_blank"}.
+De bevestigingsregels die tijdens leveringsvoorbereiding worden gebruikt worden beschreven in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
 
 De belangrijkste stappen voor het voorbereiden van de verzending worden hieronder vermeld.
 
