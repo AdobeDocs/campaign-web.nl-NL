@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit voor het laden van bestanden gebruiken
 description: Leer hoe u de workflowactiviteit Bestand laden gebruikt
 exl-id: 230177e2-1926-451a-8a66-0db962ada514
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: b94c1263ea09c9537d1a33983ea78d41b5644fb7
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1187'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 De **dossier van de Lading** activiteit is a **het beheer van Gegevens** activiteit. Gebruik deze activiteit om met profielen en gegevens te werken die in een extern dossier worden opgeslagen. De profielen en de gegevens worden niet toegevoegd aan het gegevensbestand, maar alle gebieden in het inputdossier zijn beschikbaar voor [ verpersoonlijking ](../../personalization/gs-personalization.md), of om profielen, of een andere lijst bij te werken.
 
 >[!NOTE]
->Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV). U kunt bestanden laden met een maximale grootte van 50 MB.
+>Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV). Met de webgebruikersinterfaceconsole kunt u bestanden tot maximaal 50 MB laden. In de clientconsole geldt een limiet van 150 MB voor het laden van gegevens. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Deze activiteit kan met a [ Verzoening ](reconciliation.md) activiteit worden gebruikt om niet geïdentificeerde gegevens met bestaande middelen te verbinden. Bijvoorbeeld, kan de **dossier van de Lading** activiteit vóór a **de activiteit van de Verzoening** worden geplaatst als u niet-standaardgegevens in het gegevensbestand invoert.
 
