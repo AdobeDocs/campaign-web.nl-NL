@@ -2,9 +2,9 @@
 title: Gebruiksgevallen van AI Assistant
 description: In deze gevallen leert u hoe u AI Assistant gebruikt
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 1. Open de sectie **[!UICONTROL AI Assistant]** .
 
-1. Schakel de functie **[!UICONTROL Use original content]** in de AI Assistant in om nieuwe inhoud op maat te maken op basis van uw leveringsgegevens, zoals de naam van de levering en het doelpubliek.
+1. Schakel de functie **[!UICONTROL Use original content]** in AI Assistant in om nieuwe inhoud af te stemmen op uw leveringsgegevens, zoals de naam van de levering en het doelpubliek.
 
 1. Pas de inhoud aan door uw verzoek op te geven in het vak **[!UICONTROL Prompt]** en pas de instellingen naar wens aan.
 
@@ -51,13 +51,13 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, bereidt u d
 
    * **[!UICONTROL Use as reference content]**: De geselecteerde variatie fungeert als een verwijzing naar het genereren van meer inhoud.
 
-   * **[!UICONTROL Elaborate]**: Laat de AI-assistent op bepaalde punten uitvouwen en geef meer diepte en details voor een betere betrokkenheid.
+   * **[!UICONTROL Elaborate]**: Laat AI Assistant op bepaalde punten uitvouwen, zodat u meer diepte en details krijgt voor een betere betrokkenheid.
 
-   * **[!UICONTROL Summarize]**: voor langdurige informatie gebruikt u de AI Assistant om beknopte overzichten te maken die de e-mailontvangers gemakkelijker kunnen samenvatten.
+   * **[!UICONTROL Summarize]**: voor langdurige informatie gebruikt u AI Assistant om beknopte overzichten te maken die de e-mailontvangers gemakkelijker kunnen samenvatten.
 
-   * **[!UICONTROL Rephrase]**: De AI-assistent kan uw bericht op verschillende manieren weergeven, zodat de inhoud vers blijft voor verschillende soorten publiek.
+   * **[!UICONTROL Rephrase]**: AI Assistant kan uw bericht op verschillende manieren weergeven, zodat de inhoud vers blijft voor verschillende soorten publiek.
 
-   * **[!UICONTROL Use simpler language]**: Vereenvoudig de taal met de AI-assistent om ervoor te zorgen dat het bericht duidelijk en toegankelijk is voor alle lezers.
+   * **[!UICONTROL Use simpler language]**: Vereenvoudig de taal met AI Assistant om ervoor te zorgen dat het bericht duidelijk en toegankelijk is voor alle lezers.
 
    Pas bovendien de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de inhoud aan.
 
@@ -89,11 +89,11 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, bereidt u d
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de levering hebt ingesteld en geconfigureerd.
 
-1. Kies het element dat u wilt wijzigen met de AI-assistent.
+1. Kies het element dat u wilt wijzigen met AI Assistant.
 
 1. Kies **[!UICONTROL AI Assistant]** in het menu van het rechterdeelvenster.
 
-1. Schakel de optie **[!UICONTROL Reference style]** in zodat de AI-assistent nieuwe inhoud kan genereren met behulp van het referentiemateriaal.
+1. Schakel de optie **[!UICONTROL Reference style]** in, zodat AI Assistant nieuwe inhoud kan genereren met behulp van het referentiemateriaal.
 
 1. Klik op **[!UICONTROL Upload image]** om een afbeelding op te nemen die context aan uw variatie toevoegt.
 

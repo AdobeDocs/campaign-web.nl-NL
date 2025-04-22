@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: f645d8bf45e92028485ffdab138ed7b637e9a4a5
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 13%
+source-wordcount: '808'
+ht-degree: 14%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 13%
 # Adobe Campaign Web-documentatie {#v8}
 
 + [Adobe Campaign Web User Interface-documentatie](campaign-web-home.md)
-+ Release-opmerkingen {#release-notes}
++ Aanvullende informatie  {#release-notes}
    + [Nieuwe functies](rn/whats-new.md)
    + [Vroege release](rn/e-release-notes.md)
    + [Nieuwste release](rn/release-notes.md)
-   + Eerdere releases {#previous-release-notes}
+   + Eerdere versies {#previous-release-notes}
       + [Releases van 2025](rn/release-notes-25.md)
       + [Releases van 2024](rn/release-notes-24.md)
    + [Documentatie-updates](rn/documentation-updates.md)
@@ -53,7 +53,7 @@ ht-degree: 13%
    + Pushmeldingen {#push}
       + [Aan de slag met pushmeldingen](push/gs-push.md)
       + [Een pushmelding maken](push/create-push.md)
-      + Uitgebreide push {#rich-push}
+      + Rijke duw {#rich-push}
          + [Ontwerpen als een rijke push-service voor Android](push/rich-push.md)
          + [Ontwerpen als een rijke push-service voor iOS](push/rich-push-ios.md)
       + [Een pushaanbieding ontwerpen](push/content-push.md)
@@ -68,7 +68,7 @@ ht-degree: 13%
       + [Een levering voor direct mail maken](direct-mail/create-direct-mail.md)
       + [Het extractiebestand ontwerpen](direct-mail/content-direct-mail.md)
       + [Een voorbeeld bekijken en direct-maillevering verzenden](direct-mail/send-direct-mail.md)
-   + Transactieberichten {#transactional-messages}
+   + Transactionele berichten {#transactional-messages}
       + [Aan de slag met transactieberichten](transactional-messaging/transactional.md)
       + [Een transactiebericht maken](transactional-messaging/create-transactional.md)
       + [Transactiebericht valideren](transactional-messaging/validate-transactional.md)
@@ -77,12 +77,12 @@ ht-degree: 13%
    + [Aanbiedingen toevoegen aan uw berichten](msg/offers.md)
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
-   + De levering bekijken en testen {#preview-test}
+   + Voorbeeld en test de levering {#preview-test}
       + [ Ongeveer voorproef en proef ](preview-test/preview-test.md)
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
       + [Proefdrukken verzenden](preview-test/test-deliveries.md)
       + [De rendering van e-mail testen](preview-test/email-rendering.md)
-   + Leveringswaarschuwing {#delivery-alerting}
+   + Afleveringswaarschuwing {#delivery-alerting}
       + [Aan de slag met leveringsberichten](msg/delivery-alerting.md)
       + [Waarschuwingsdashboards](msg/delivery-alerting-dashboards.md)
       + [Beoordelingscriteria voor aflevering](msg/delivery-alerting-criteria.md)
@@ -100,12 +100,12 @@ ht-degree: 13%
          + [Expressiefragmenten gebruiken in de expressie-editor](content/use-expression-fragments.md)
    + E-mails ontwerpen {#email-design}
       + [Aan de slag met Email Designer](email/get-started-email-designer.md)
-      + Uw e-mail vorm geven {#start-design}
+      + Uw e-mail beginnen te vormen {#start-design}
          + [Opnieuw starten](email/create-email-content.md)
          + [Uw e-mailinhoud importeren](email/existing-content.md)
          + [Uw eigen inhoud coderen](email/code-content.md)
          + [Sjablonen voor e-mailinhoud gebruiken](email/use-email-templates.md)
-      + Inhoud ontwerpen {#design-content}
+      + Uw inhoud ontwerpen {#design-content}
          + [Inhoudscomponenten gebruiken](email/content-components.md)
          + [Koppelingen toevoegen en berichten bijhouden](email/message-tracking.md)
          + [Een koppeling toevoegen aan de spiegelpagina](email/mirror-page.md)
@@ -118,20 +118,20 @@ ht-degree: 13%
          + [Een stijl voor koppelingen definiëren](email/styling-links.md)
          + [Inline-opmaakkenmerken toevoegen](email/inline-styling.md)
    + AI-assistent {#ai-assistant}
-      + [Werken met de AI Assistant](email/generative-gs.md)
+      + [Werken met AI-assistent](email/generative-gs.md)
       + [E-mailgeneratie met AI](email/generative-content.md)
       + [SMS genereren met AI](email/generative-sms.md)
       + [Pushmeldingen genereren met AI](email/generative-push.md)
       + [Genereren van landingspagina&#39;s met AI](email/generative-lp.md)
       + [Gebruiksgevallen van AI Assistant](email/generative-uc.md)
       + [Uw merken maken en beheren (bèta)](content/brands.md)
-+ Landingspagina’s {#landing-pages}
++ Landingspagina&#39;s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](landing-pages/get-started-lp.md)
    + [Een openingspagina maken en publiceren](landing-pages/create-lp.md)
    + [Inhoud landingspagina ontwerpen](landing-pages/lp-content.md)
    + [Werken met sjablonen voor bestemmingspagina&#39;s](landing-pages/lp-templates.md)
    + [Gebruikskwesties leren](landing-pages/lp-use-cases.md)
-+ Profielen en doelgroepen {#audiences}
++ Profielen en publiek {#audiences}
    + [Aan de slag met profielen en doelgroepen](audience/gs-audiences-recipients.md)
    + [Doelafmetingen](audience/targeting-dimensions.md)
    + [Quarantine](audience/quarantine.md)
@@ -206,13 +206,13 @@ ht-degree: 13%
    + [Audit trail](reporting/audit-trail.md)
    + [Uw rapporten exporteren](reporting/export-reports.md)
    + [Belangrijkste prestatie-indicatoren](reporting/kpis.md)
-   + Afleveringsrapporten {#delivery-report}
+   + Leveringsrapporten {#delivery-report}
       + [Aan de slag met leveringsrapporten](reporting/delivery-reports.md)
       + [E-mailleveringsrapport](reporting/email-report.md)
       + [Push-leveringsrapport](reporting/push-report.md)
       + [SMS-leveringsrapport](reporting/sms-report.md)
       + [Rapport voor verzending via e-mail](reporting/direct-mail.md)
-   + Campagnerapporten {#campaign-report}
+   + Campagneverslagen {#campaign-report}
       + [Aan de slag met campagnerapporten](reporting/campaign-reports.md)
       + [E-mailcampagnerapport](reporting/campaign-reports-email.md)
       + [Push-campagnerapport](reporting/campaign-reports-push.md)

@@ -1,21 +1,21 @@
 ---
 audience: end-user
-title: Aan de slag met de AI Assistant
-description: Aan de slag met de AI Assistant
+title: Aan de slag met AI Assistant
+description: Aan de slag met AI Assistant
 exl-id: 0d00cb47-e740-407c-ac42-824f2fee44a6
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
 
-# Werken met de AI Assistant {#generative-gs}
+# Werken met AI-assistent {#generative-gs}
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_settings"
 >title="AI-assistent"
->abstract="Nadat u de levering hebt gemaakt en aangepast, gebruikt u de AI Assistant om de inhoud te verbeteren. Deze functie vereenvoudigt personalisatie en de verbetering van de inhoud door u toe te staan om de inhoud te verfijnen door te beschrijven wat u wilt produceren."
+>abstract="Nadat u de levering hebt gemaakt en aangepast, gebruikt u AI Assistant om de inhoud te verbeteren. Deze functie vereenvoudigt personalisatie en de verbetering van de inhoud door u toe te staan om de inhoud te verfijnen door te beschrijven wat u wilt produceren."
 
 >[!CONTEXTUALHELP]
 >id="acw_generation_context"
@@ -40,11 +40,11 @@ AI Assistant vereenvoudigt het maken en uitvoeren van marketingcampagnes via ver
 >
 >* Alvorens dit vermogen te gebruiken, herzie verwante [ Grafieken en Beperkingen ](#generative-guardrails).
 >
->* U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens de Medewerker AI in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>* U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens AI Medewerker in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-## De AI-assistent openen {#generative-access}
+## AI-assistent openen {#generative-access}
 
-De AI-assistent voor e-mails, pushberichten en SMS is nu beschikbaar voor alle gebruikers. Vereiste machtigingen en stappen voor het verlenen van toegang aan gebruikers worden hieronder beschreven.
+AI Assistant voor e-mails, pushberichten en SMS bevindt zich nu in de algemene beschikbaarheid (GA) en is beschikbaar voor alle gebruikers. Vereiste machtigingen en stappen voor het verlenen van toegang aan gebruikers worden hieronder beschreven.
 
 +++ Leer hoe u machtigingen voor het genereren van inhoud toewijst
 
@@ -61,14 +61,14 @@ Leer hoe te om toestemmingen in Campagne in [ te bepalen deze sectie ](../get-st
 
 ## Afvoerkanalen en beperkingen {#generative-guardrails}
 
-De algemene richtlijnen voor het gebruik van de AI Assistant in Adobe Campaign Web voor het genereren van e-mail worden hieronder weergegeven:
+De algemene richtlijnen voor het gebruiken van AI Medewerker in het Web van Adobe Campaign voor e-mailgeneratie zijn hieronder vermeld:
 
 * De kwaliteit van de gegenereerde inhoud hangt sterk af van het marketingdoel of de vraag die u definieert. Gebruik een duidelijk gedefinieerde prompt voor een juiste interpretatie van het GenAI-model.
 * Upload merkmiddelen om nauwkeurige, on-brand inhoud te garanderen. Anders is de inhoud gebaseerd op openbaar beschikbare informatie. De geüploade inhoud kan de volgende indelingen hebben: PDF-, JPEG-, PNG- of ZIP-bestanden (met ondersteunde bestandsindelingen).
 * De maximale grootte voor geüploade merkenmiddelen is 50 MB. Grotere bestanden of een groot aantal afbeeldingen kan de verwerkingstijd verhogen.
-* Gebruik [ ingebouwde e-mailmalplaatjes ](../email/create-email-templates.md), merkspecifieke malplaatjes, of douanesjablonen om uw e-mailinhoud tot stand te brengen gebruikend de Medewerker AI. E-mailsjablonen met maximaal 8-10 afbeeldingen worden aanbevolen.
+* Gebruik [ ingebouwde e-mailmalplaatjes ](../email/create-email-templates.md), merkspecifieke malplaatjes, of douanesjablonen om uw e-mailinhoud tot stand te brengen gebruikend AI Medewerker. E-mailsjablonen met maximaal 8-10 afbeeldingen worden aanbevolen.
 * Geef bij het selecteren van varianten aan welke problematische uitvoer dan ook de pictogrammen thumbs-up, thumbs-down of Markering moet gebruiken.
-* Op uw gebruik van de AI Assistant zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
+* Op uw gebruik van AI Assistant zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 * Als onderdeel van de Adobe-toezegging om het gebruik van generatieve AI-gereedschappen bij het maken van media transparant te maken, past Adobe Content Credentials toe wanneer inhoud of een project dat een door Firefly gegenereerd element bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/firefly/using/content-credentials.html).
 
 De volgende beperkingen gelden voor AI Assistant in Adobe Campaign Web:
@@ -86,7 +86,7 @@ De volgende beperkingen gelden voor AI Assistant in Adobe Campaign Web:
 <img alt="[E-mailgeneratie met AI Assistant]" src="assets/do-not-localize/text-genai.jpeg">
 </a>
 <div>
-<a href="generative-content.md"><strong> E-mailgeneratie met de Medewerker AI </strong></a>
+<a href="generative-content.md"><strong> E-mailgeneratie met Medewerker AI </strong></a>
 </div>
 <p>
 </td>
@@ -94,7 +94,7 @@ De volgende beperkingen gelden voor AI Assistant in Adobe Campaign Web:
 <a href="generative-sms.md">
 <img alt="[SMS genereren met AI Assistant]" src="assets/do-not-localize/image-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong> generatie van SMS met de Medewerker AI </strong>
+<div><a href="generative-sms.md"><strong> generatie van SMS met AI Medewerker </strong>
 </div>
 <p>
 </td>
@@ -103,7 +103,7 @@ De volgende beperkingen gelden voor AI Assistant in Adobe Campaign Web:
 <img alt="[Push notification generation met AI Assistant]" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong> het bericht van de duw generatie met de Medewerker AI </strong></a>
+<a href="generative-push.md"><strong> de generatie van het pushbericht met AI Medewerker </strong></a>
 </div>
 <p></td>
 </tr></table>

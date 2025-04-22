@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '835'
 ht-degree: 8%
 
 ---
@@ -175,13 +175,13 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <table>
 <thead>
 <tr>
-<th><strong>Pagina's genereren met de AI Assistant</strong><br/></th>
+<th><strong>Openingspagina's genereren met AI Assistant</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>De AI-assistent is nu beschikbaar bij de levering van de bestemmingspagina, zodat u tekst, afbeeldingen of volledige paginalay-outs kunt genereren.</p>
+<p>De AI Assistant is nu beschikbaar bij de opvoerpagina-items, zodat u tekst, afbeeldingen of volledige paginalay-outs kunt genereren.</p>
 <img src="assets/do-not-localize/ai-lp.gif" alt="Illustratie van het gebruik van AI Assistant voor het genereren van landingspagina&apos;s in de Adobe Campaign Web User Interface">
 <p>Voor meer informatie over AI Medewerker, verwijs naar de <a href="../email/generative-lp.md"> gedetailleerde documentatie </a>.</p>
 </td>

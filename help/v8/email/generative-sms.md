@@ -1,25 +1,25 @@
 ---
 audience: end-user
-title: SMS met de AI Assistant
-description: Aan de slag met de AI Assistant
+title: SMS met AI Assistant
+description: Aan de slag met AI Assistant
 exl-id: db0459e5-8759-42d9-8945-8c9667450527
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '791'
 ht-degree: 2%
 
 ---
 
-# SMS genereren met de AI Assistant {#generative-sms}
+# SMS genereren met AI Assistant {#generative-sms}
 
 >[!IMPORTANT]
 >
 >Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens de Medewerker AI in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens AI Medewerker in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Zodra u de berichten van SMS ambt en personaliseert om uw publiek aan te passen, verhoog uw mededeling met de Medewerker van AI in het Web van Adobe Campaign, aangedreven door innovatieve technologie van AI.
+Zodra u de berichten van SMS ambt en personaliseert om uw publiek aan te passen, verhoog uw mededeling met AI Medewerker in het Web van Adobe Campaign, aangedreven door innovatieve technologie van AI.
 
 Dit hulpmiddel verstrekt intelligente suggesties om uw inhoud te verfijnen, ervoor te zorgen dat uw berichten effectief resoneren en betrokkenheid maximaliseren.
 
@@ -46,12 +46,12 @@ Dit hulpmiddel verstrekt intelligente suggesties om uw inhoud te verfijnen, ervo
 1. Tik uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
-   * **[!UICONTROL Tone]**: zorg ervoor dat de toon van uw e-mail op uw publiek afgestemd is. Of u informatief, playful, of overtuigend wilt klinken, past de Medewerker AI de boodschap dienovereenkomstig aan.
+   * **[!UICONTROL Tone]**: zorg ervoor dat de toon van uw e-mail op uw publiek afgestemd is. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker past het bericht dienovereenkomstig aan.
    * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
    ![ Schermafbeelding die de opties van de montages van de Tekst toont ](assets/sms-genai-3.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement met inhoud toe te voegen dat aanvullende context voor de AI-assistent biedt, of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement met inhoud toe te voegen dat extra context biedt aan AI Assistant, of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel de elementen die u wilt opnemen in het genereren in of uit.
 
@@ -64,8 +64,8 @@ Dit hulpmiddel verstrekt intelligente suggesties om uw inhoud te verfijnen, ervo
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties en perfectioneer uw variatie aan uw voorkeuren:
 
    * **[!UICONTROL Use as reference content]**: De gekozen variant fungeert als referentie-inhoud voor het genereren van andere resultaten.
-   * **[!UICONTROL Use simpler language]**: Met de AI-assistent kunt u duidelijke, beknopte berichten schrijven die iedereen kan begrijpen.
-   * **[!UICONTROL Rephrase]**: De AI-assistent vervangt uw bericht om het aantrekkelijk te houden voor verschillende soorten publiek.
+   * **[!UICONTROL Use simpler language]**: Met AI Assistant kunt u duidelijke, beknopte berichten schrijven die iedereen kan begrijpen.
+   * **[!UICONTROL Rephrase]**: AI Assistant hernoemt uw bericht om het aantrekkelijk te houden voor verschillende doelgroepen.
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
@@ -97,7 +97,7 @@ Wanneer u uw inhoud, publiek, en programma bepaalt, bereidt uw levering van SMS 
 
    ![ Screenshot die AI Hulpmenu toont ](assets/sms-text-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use reference content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use reference content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Stel de inhoud nauwkeurig af door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -114,7 +114,7 @@ Wanneer u uw inhoud, publiek, en programma bepaalt, bereidt uw levering van SMS 
 
    ![ Schermafbeelding die de opties van de montages van de Tekst toont ](assets/sms-text-3.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement met inhoud toe te voegen dat aanvullende context voor de AI-assistent biedt, of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement met inhoud toe te voegen dat extra context biedt aan AI Assistant, of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel de elementen die u wilt opnemen in het genereren in of uit.
 
@@ -125,8 +125,8 @@ Wanneer u uw inhoud, publiek, en programma bepaalt, bereidt uw levering van SMS 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties en perfectioneer uw variatie aan uw voorkeuren:
 
    * **[!UICONTROL Use as reference content]**: De gekozen variant fungeert als referentie-inhoud voor het genereren van andere resultaten.
-   * **[!UICONTROL Rephrase]**: De AI-assistent kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
-   * **[!UICONTROL Use simpler language]**: Gebruik de AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
+   * **[!UICONTROL Rephrase]**: AI Assistant kan uw bericht op verschillende manieren herformuleren, zodat u steeds fris schrijft en aantrekkelijk wordt voor verschillende soorten publiek.
+   * **[!UICONTROL Use simpler language]**: Gebruik AI Assistant om uw taal te vereenvoudigen, zodat een groter publiek helderheid en toegankelijkheid krijgt.
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 

@@ -1,11 +1,11 @@
 ---
 audience: end-user
 title: Generatieve inhoud
-description: Aan de slag met de AI Assistant
+description: Aan de slag met AI Assistant
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1385'
 ht-degree: 1%
 
 ---
@@ -17,19 +17,19 @@ ht-degree: 1%
 >Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
 ></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) {target="_blank"} akkoord gaan alvorens de Medewerker AI in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens AI Medewerker in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
-Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u de AI Assistant in Adobe Campaign Web om uw inhoud te verbeteren.
+Zodra u uw e-mails hebt gemaakt en gepersonaliseerd, gebruikt u AI Assistant in Adobe Campaign Web om uw inhoud te verbeteren.
 
 Met de AI Assistant in Adobe Campaign Web kunt u de impact van uw leveringen optimaliseren door volledige e-mails, doelgerichte tekstinhoud en afbeeldingen te genereren die op maat van uw publiek zijn gemaakt. Dit verbetert uw e-mailcampagnes voor betere betrokkenheid.
 
-Met uw e-mailcampagnes gebruikt u de AI Assistant om volledige e-mails, tekst of afbeeldingen te genereren. Bekijk de onderstaande tabbladen om te leren hoe u de AI Assistant in Adobe Campaign Web kunt gebruiken.
+Met uw e-mailcampagnes gebruikt u de AI Assistant om volledige e-mails, tekst of afbeeldingen te genereren. Verken de onderstaande tabbladen om te leren hoe u AI Assistant kunt gebruiken in Adobe Campaign Web.
 
 >[!BEGINTABS]
 
 >[!TAB  Volledige e-mailgeneratie ]
 
-In het volgende voorbeeld gebruikt u de AI Assistant in Adobe Campaign Web om een bestaande e-mail te verfijnen en deze aan te passen voor een speciale gebeurtenis.
+In het volgende voorbeeld gebruikt u AI Assistant in Adobe Campaign Web om een bestaande e-mail te verfijnen en aan te passen voor een speciale gebeurtenis.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de e-maillevering hebt gemaakt en geconfigureerd.
 
@@ -37,9 +37,9 @@ In het volgende voorbeeld gebruikt u de AI Assistant in Adobe Campaign Web om ee
 
 1. Pas de layout naar wens aan en open het menu **[!UICONTROL AI Assistant]** .
 
-   ![ Schermafbeelding die het AI Hulpmenu in het Web van Adobe Campaign toont ](assets/full-email-1.png){zoomable="yes"}
+   ![ Screenshot die AI Hulpmenu in het Web van Adobe Campaign toont ](assets/full-email-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Stel de inhoud nauwkeurig af door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -52,7 +52,7 @@ In het volgende voorbeeld gebruikt u de AI Assistant in Adobe Campaign Web om ee
 1. Tik uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
-   * **[!UICONTROL Tone]**: zorg ervoor dat de toon van uw e-mail op uw publiek afgestemd is. Of u informatief, playful, of overtuigend wilt klinken, past de Medewerker AI de boodschap dienovereenkomstig aan.
+   * **[!UICONTROL Tone]**: zorg ervoor dat de toon van uw e-mail op uw publiek afgestemd is. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker past het bericht dienovereenkomstig aan.
 
    ![ Schermafbeelding die de opties van tekstmontages in het Web van Adobe Campaign tonen ](assets/full-email-3.png){zoomable="yes"}
 
@@ -66,7 +66,7 @@ In het volgende voorbeeld gebruikt u de AI Assistant in Adobe Campaign Web om ee
 
    ![ Schermafbeelding die beeldmontagesopties tonen in het Web van Adobe Campaign ](assets/full-email-4.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die aanvullende context bieden aan de AI-assistent, of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die extra context bieden aan AI Assistant, of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel de elementen die u wilt opnemen in het genereren in of uit.
 
@@ -76,7 +76,7 @@ In het volgende voorbeeld gebruikt u de AI Assistant in Adobe Campaign Web om ee
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
-   * **[!UICONTROL Rephrase]**: De AI-assistent hernoemt uw bericht op verschillende manieren en zorgt ervoor dat uw teksten vers blijven en aantrekkelijk zijn voor verschillende doelgroepen.
+   * **[!UICONTROL Rephrase]**: AI Assistant hernoemt uw bericht op verschillende manieren en zorgt ervoor dat uw teksten vers blijven en aantrekkelijk zijn voor verschillende doelgroepen.
    * **[!UICONTROL Use simpler language]**: Vereenvoudig uw taal voor meer duidelijkheid en toegankelijkheid voor een groter publiek.
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
@@ -93,7 +93,7 @@ Wanneer u uw inhoud, publiek en planning definieert, moet u de e-maillevering vo
 
 >[!TAB  Tekst slechts generatie ]
 
-In het volgende voorbeeld gebruikt u de AI Assistant om de inhoud van uw e-mailuitnodiging voor een aanstaande gebeurtenis te verbeteren.
+In het volgende voorbeeld gebruikt u AI Assistant om de inhoud van uw e-mailuitnodiging voor een aanstaande gebeurtenis te verbeteren.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de e-maillevering hebt gemaakt en geconfigureerd.
 
@@ -103,7 +103,7 @@ In het volgende voorbeeld gebruikt u de AI Assistant om de inhoud van uw e-mailu
 
    ![ Screenshot die de selectie van de tekstcomponent in het Web van Adobe Campaign toont ](assets/text-genai-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Use original content]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Stel de inhoud nauwkeurig af door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -114,12 +114,12 @@ In het volgende voorbeeld gebruikt u de AI Assistant om de inhoud van uw e-mailu
 1. Tik uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
-   * **[!UICONTROL Tone]**: zorg ervoor dat de toon van uw e-mail op uw publiek afgestemd is. Of u informatief, playful, of overtuigend wilt klinken, past de Medewerker AI de boodschap dienovereenkomstig aan.
+   * **[!UICONTROL Tone]**: zorg ervoor dat de toon van uw e-mail op uw publiek afgestemd is. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker past het bericht dienovereenkomstig aan.
    * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
    ![ Schermafbeelding die de opties van tekstmontages in het Web van Adobe Campaign tonen ](assets/text-genai-3.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die aanvullende context bieden aan de AI-assistent, of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die extra context bieden aan AI Assistant, of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel de elementen die u wilt opnemen in het genereren in of uit.
 
@@ -147,7 +147,7 @@ Wanneer u uw inhoud, publiek en planning definieert, moet u de e-maillevering vo
 
 >[!TAB  generatie van het Beeld ]
 
-In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
+In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw middelen te optimaliseren en te verbeteren, zodat u een gebruiksvriendelijker ervaring hebt.
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de e-maillevering hebt gemaakt en geconfigureerd.
 
@@ -155,13 +155,13 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw
 
 1. Vul **[!UICONTROL Basic details]** in voor levering. Klik op **[!UICONTROL Edit email content]** als u klaar bent.
 
-1. Selecteer het element dat u wilt wijzigen met de AI-assistent.
+1. Selecteer het element dat u wilt wijzigen met AI Assistant.
 
 1. Selecteer **[!UICONTROL AI Assistant]** in het rechtermenu.
 
    ![ Schermafbeelding die AI Hulpmenu voor beeldgeneratie tonen in het Web van Adobe Campaign ](assets/image-genai-1.png){zoomable="yes"}
 
-1. Schakel de optie **[!UICONTROL Reference style]** voor de AI-assistent in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
+1. Schakel de optie **[!UICONTROL Reference style]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
 1. Stel de inhoud nauwkeurig af door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
@@ -180,7 +180,7 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw
 
    ![ Schermafbeelding die beeldmontagesopties tonen in het Web van Adobe Campaign ](assets/image-genai-3.png){zoomable="yes"}
 
-1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die aanvullende context bieden aan de AI-assistent, of selecteer een eerder geüpload element.
+1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die extra context bieden aan AI Assistant, of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel de elementen die u wilt opnemen in het genereren in of uit.
 
@@ -206,6 +206,6 @@ In het onderstaande voorbeeld leert u hoe u de AI Assistant kunt gebruiken om uw
 
 ## Hoe kan ik-video {#video}
 
-Leer hoe u de AI Assistant gebruikt om volledige e-mailinhoud, tekst en afbeeldingen te genereren.
+Leer hoe u met AI Assistant volledige e-mailinhoud, tekst en afbeeldingen kunt genereren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428984)

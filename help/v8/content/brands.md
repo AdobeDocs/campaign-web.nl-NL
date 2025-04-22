@@ -6,9 +6,9 @@ hide: true
 hidefromtoc: true
 badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Gebruikers kunnen de details handmatig invoeren of een document met brandrichtli
 
    ![ Visuele inhoudslusje met de opties van het voorbeeldbeeld ](assets/brands_3.png)
 
-1. Als u deze hebt geconfigureerd, klikt u op **[!UICONTROL Save]** en vervolgens op **[!UICONTROL Publish]** om uw merkenhulplijn beschikbaar te maken in de AI-assistent.
+1. Als u de configuratie hebt voltooid, klikt u op **[!UICONTROL Save]** en vervolgens op **[!UICONTROL Publish]** om uw merkenhulplijn beschikbaar te maken in AI Assistant.
 
 1. Klik op **[!UICONTROL Edit brand]** als u uw gepubliceerde merk wilt wijzigen.
 
@@ -104,6 +104,6 @@ Gebruikers kunnen de details handmatig invoeren of een document met brandrichtli
 
    ![ Geavanceerde menuopties in het dashboard van Banden ](assets/brands_5.png)
 
-De richtlijnen voor uw merk zijn nu beschikbaar via de vervolgkeuzelijst **[!UICONTROL Brand]** in het menu AI-assistent. Hierdoor kan de AI-assistent inhoud en elementen genereren die zijn uitgelijnd op uw specificaties. [ leer meer over de AI medewerker ](../email/generative-gs.md)
+De richtlijnen voor uw merk zijn nu beschikbaar in het keuzemenu **[!UICONTROL Brand]** in AI Assistant. Zo kan AI Assistant inhoud en elementen genereren die zijn uitgelijnd op uw specificaties. [ Leer meer over Medewerker AI ](../email/generative-gs.md)
 
 ![ AI hulpmenu met Merk drop-down ](assets/brands_6.png)

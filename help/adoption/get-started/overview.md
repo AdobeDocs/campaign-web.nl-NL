@@ -4,9 +4,9 @@ description: Meer informatie over de stappen die nodig zijn om aan de slag te ga
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 3729a6159affbbb30d2cdab91d1e42dbf9df9c86
+source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1555'
 ht-degree: 1%
 
 ---
@@ -105,19 +105,19 @@ Als Campaign Standard-gebruiker die overschakelt naar Adobe Campaign v8, beschik
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Het verstrekt varianten van e-mailmalplaatjes en produceert en regenereert beelden. Leer meer over de Medewerker AI in [ deze sectie ](../../v8/email/generative-content.md). Adobe Campaign v8 heeft AI hulp beschikbaar voor [ E-mail ](../../v8/email/generative-content.md), [ SMS ](../../v8/email/generative-sms.md), en [ Duw ](../../v8/email/generative-push.md).
+  Het verstrekt varianten van e-mailmalplaatjes en produceert en regenereert beelden. Leer meer over AI Medewerker in [ deze sectie ](../../v8/email/generative-content.md). Adobe Campaign v8 heeft AI hulp beschikbaar voor [ E-mail ](../../v8/email/generative-content.md), [ SMS ](../../v8/email/generative-sms.md), en [ Duw ](../../v8/email/generative-push.md).
 
 * **Verbeterde infrastructuur van SMS - SMS v2.0**
 
   De eenvoud en het gemak van het gebruik van SMS maken het een zeer waardevol communicatiekanaal naast zijn robuustheid en ongeëvenaarde verenigbaarheid over miljarden terminals.
 
-  Adobe Campaign v8 wordt geleverd met een nieuwe infrastructuur die de verzending van SMS verbetert. [ leer meer over nieuwe montages van SMS ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms) {target="_blank"}.
+  Adobe Campaign v8 wordt geleverd met een nieuwe infrastructuur die de verzending van SMS verbetert. [ leer meer over nieuwe montages van SMS ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **Verbeterde infrastructuur van de Duw**
 
   Adobe Campaign v8 introduceert onze nieuwste Push notification service, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken.
 
-  [ leer meer over de Verbeterde infrastructuur van de Duw ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection) {target="_blank"}.
+  [ Leer meer over de Verbeterde infrastructuur van de Duw ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 
 
 ## Managed Services {#ac-managed-services}
@@ -126,7 +126,7 @@ Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service die proactief to
 
 ## Campaign Standard-mogelijkheden toegevoegd aan v8 {#ac-v8-added}
 
-Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Zij zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) {target="_blank"}.
+Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Zij zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
 
 * **Dynamische Rapportering**: De dynamische Rapportering verstrekt volledig klantgerichte en real time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 
