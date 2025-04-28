@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met bedrijfsregels (typologieën)
 description: Leer hoe u met typologieën en typologische regels werkt om het verzenden van leveringen te controleren, filteren en controleren.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,11 @@ ht-degree: 0%
 >title="Typologieën en typologische regels"
 >abstract="Met behulp van typologieën kunt u bedrijfspraktijken voor alle leveringen standaardiseren. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. Profielen die voldoen aan criteria binnen een typologieregel worden tijdens de voorbereidingsfase uitgesloten van de toedieningsdoelgroepen."
 
+>[!CONTEXTUALHELP]
+>id="acw_business_rules_typology_rules_type"
+>title="Filteren"
+>abstract=" Twee types van typologieregels zijn beschikbaar: <br/><br/>**Controle** regels die berichtkwaliteit en geldigheid pre-verzenden, zoals karaktervertoning, de lengte van SMS, adresformaat, of het verkorten URL verzekeren. <br/><br/>**het Filtreren** regels die segmenten van het doelpubliek uitsluiten die op specifieke criteria, zoals leeftijd, plaats, land, of telefoonaantallen worden gebaseerd."
+
 ## Over typologieën
 
 Met behulp van typologieën kunt u bedrijfspraktijken voor alle leveringen standaardiseren. A **typologie** is een inzameling van **typologieregels** die u laat controleren, filtreren, en voorrang geven aan het verzenden van leveringen. Profielen die voldoen aan criteria binnen een typologieregel worden tijdens de voorbereidingsfase uitgesloten van de toedieningsdoelgroepen.
@@ -35,7 +40,7 @@ Typologieën zijn toegankelijk via het menu **[!UICONTROL Administration]** > **
 
 >[!NOTE]
 >
->In de lijst **[!UICONTROL Typology rules]** worden alle bestaande regels weergegeven die tot nu toe in de webgebruikersinterface of de clientconsole zijn gemaakt. Nochtans, slechts **Controle** en **het Filtreren** regels kunnen in het Gebruikersinterface van het Web worden gecreeerd. Als u andere typen typologische regels wilt maken, zoals de regels voor druk of capaciteit, gebruikt u de clientconsole van Campagne v8. [ Leer hoe te om typologieregels in de cliëntconsole ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies) tot stand te brengen {target="_blank"}
+>In de lijst **[!UICONTROL Typology rules]** worden alle bestaande regels weergegeven die tot nu toe in de webgebruikersinterface of de clientconsole zijn gemaakt. Nochtans, slechts **Controle** en **het Filtreren** regels kunnen in het Gebruikersinterface van het Web worden gecreeerd. Als u andere typen typologische regels wilt maken, zoals de regels voor druk of capaciteit, gebruikt u de clientconsole van Campagne v8. [ Leer hoe te om typologieregels in de cliëntconsole tot stand te brengen ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 De belangrijkste stappen om typologieën op uw berichten toe te passen zijn:
 
@@ -103,7 +108,7 @@ Definieer de eigenschappen van de typologieregel:
 
    >[!NOTE]
    >
-   >Momenteel, slechts **Controle** en **het Filtreren** typologische regels kunnen van het Gebruikersinterface van het Web worden gecreeerd. Als u andere soorten regels wilt maken, gebruikt u de clientconsole. [ Leer hoe te om typologieregels in de cliëntconsole ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies) tot stand te brengen {target="_blank"}
+   >Momenteel, slechts **Controle** en **het Filtreren** typologische regels kunnen van het Gebruikersinterface van het Web worden gecreeerd. Als u andere soorten regels wilt maken, gebruikt u de clientconsole. [ Leer hoe te om typologieregels in de cliëntconsole tot stand te brengen ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. Selecteer een **[!UICONTROL Channel]** die u aan de regel wilt koppelen.
 
