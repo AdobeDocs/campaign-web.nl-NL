@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,16 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
 
 De vraagmodeler verstrekt een centraal canvas waar u uw vraag en een juiste ruit bouwt die informatie over uw vraag verstrekt.
 
+>[!IMPORTANT]
+>
+>Er is een gloednieuwe interface beschikbaar voor het Query-model. De Nieuwe regelbouwer staat u toe om uw vraag met meer gemak dankzij zijn vereenvoudigde interface te bouwen. Druk op de schakelknop in de rechterbovenhoek om naar deze ervaring over te schakelen. U kunt naar de klassieke modelleerling van de Vraag terugkeren wanneer u wilt door eenvoudig de knevel terug te duwen om de nieuwe interface onbruikbaar te maken. U kunt de zelfde principes toepassen zoals vraagmodeler in deze nieuwe interface.
+>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
+
+
 >[!CONTEXTUALHELP]
 >id="acw_rule_builder_switch_button"
->title="Nieuwe gebruikerservaring"
->abstract="Gebruik deze knevel om tussen de klassieke vraagmodeler en de nieuwe ervaring van de regelbouwer te schakelen."
+>title="Nieuwe ervaring voor het maken van regels"
+>abstract="Gebruik deze knevel om tussen de Klassieke modelleerling van de Vraag en de Nieuwe ervaring van de regelbouwer te schakelen. De nieuwe regelbouwer staat u toe om uw vraag gemakkelijker te bouwen, dankzij zijn vereenvoudigde en intuïtieve interface."
 
 ![ Beeld dat de interface van de vraagmodeller toont ](assets/query-interface.png){zoomable="yes"}
 
@@ -65,13 +71,31 @@ De vraagmodeler verstrekt een centraal canvas waar u uw vraag en een juiste ruit
 
 Het centrale canvas van de vraagmodeler is waar u toevoegt en de verschillende componenten combineert om uw vraag te bouwen. [ Leer hoe te om een vraag ](build-query.md) te bouwen
 
-De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de querycomponenten eenvoudig kunt manipuleren en door het canvas kunt navigeren:
+>[!BEGINTABS]
+
+>[!TAB  Klassieke modelleerling van de Vraag ]
+
+De werkbalk in de rechterbenedenhoek van het canvas bevat opties waarmee u de querycomponenten eenvoudig kunt manipuleren en door het canvas kunt navigeren:
 
 * **Veelvoudige selectiemodus**: Selecteer veelvoudige het filtreren componenten om hen bij de plaats van uw keus te kopiëren en te kleven.
 * **roteer**: Verdraai verticaal het canvas.
 * **Passend aan het scherm**: Pas het het gezoemniveau van het canvas aan uw scherm aan.
 * **Gezoem uit** / **Gezoem binnen**: Gezoem uit of binnen op het canvas.
 * **kaart van de Vertoning**: Open een momentopname van het canvas die uw huidige plaats tonen.
+
+>[!TAB  Nieuwe ervaring van de regelbouwer ]
+
+De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de querycomponenten eenvoudig kunt manipuleren en door het canvas kunt navigeren:
+
+* **Beweeg omhoog selectie**: Beweeg de component omhoog een rij.
+* **Beweging onderaan selectie**: Beweeg de component onderaan een rij.
+* **selectie van de Groep**: Zet twee componenten in een groep.
+* **ungroup selectie**: Scheid de componenten van één enkele groep.
+* **breid alle** uit: Breid alle groepen uit.
+* **Vouw alle** samen: Vouw alle groepen samen.
+* **verwijder alle**: Verwijder alle groepen en componenten.
+
+>[!ENDTABS]
 
 ### Het deelvenster Eigenschappen van regel {#rule-properties}
 

@@ -2,9 +2,9 @@
 title: Werken met vooraf gedefinieerde filters
 description: Leer hoe u vooraf gedefinieerde filters maakt en beheert in Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '803'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,11 @@ ht-degree: 2%
 >id="acw_predefined-filters-dashboard"
 >title="Vooraf gedefinieerde filters"
 >abstract="De gebruikersinterface van het Web van de campagne biedt een gebruikersvriendelijke interface aan moeiteloos beheren en vooraf bepaalde filters aanpassen om aan uw specifieke behoeften te voldoen. Maak één keer en sla dit op voor toekomstig gebruik."
+
+>[!CONTEXTUALHELP]
+>id="acw_delivery_alerting_filter"
+>title="Een waarschuwingscriterium maken"
+>abstract="U kunt uw eigen leveringsfilters van het Beheer van de Klant > het Vooraf bepaalde menu van filters tot stand brengen."
 
 Vooraf gedefinieerde filters zijn aangepaste filters die zijn gemaakt en opgeslagen voor toekomstig gebruik. Zij doen dienst als kortere weg tijdens het filtreren verrichtingen met de vraagmodeller. Ze kunnen bijvoorbeeld worden gebruikt wanneer een gegevenslijst wordt gefilterd of wanneer het publiek van een levering wordt gemaakt.
 

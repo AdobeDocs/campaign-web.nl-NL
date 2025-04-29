@@ -2,9 +2,9 @@
 title: Werken met schema's
 description: Leer hoe u met schema's werkt.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_homepage_welcome_rn3"
 >title="Werken met schema&#39;s"
->abstract="U kunt tot de details van een schema nu toegang hebben door zijn naam in de lijst te selecteren. De de gebiedsuitgave van de douane is ook toegankelijk van **geeft de knoop van het douanedetail** uit."
+>abstract="U kunt tot de details van een schema nu toegang hebben door zijn naam in de lijst te selecteren. De de gebiedsuitgave van de douane is ook toegankelijk van de **uitgave van het Scherm** knoop."
 >additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
@@ -37,7 +37,7 @@ Schema&#39;s spelen een sleutelrol in:
 
 Elke entiteit in Adobe Campaign heeft een speciaal schema, dat zorgt voor consistentie en organisatie van de gegevens.
 
-De gedetailleerde informatie over schema&#39;s is beschikbaar in de [ documentatie van de de consoleconsole van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas) {target="_blank"}.
+De gedetailleerde informatie over schema&#39;s is beschikbaar in de [ documentatie van de de consoleconsole van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
 ## De schema&#39;s van de toegang in het Gebruikersinterface van het Web {#access}
 
@@ -73,8 +73,10 @@ Het tabblad **[!UICONTROL Data]** bevat informatie over de schemagegevens.
 
 Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan out-of-the-box-schema&#39;s worden toegevoegd. Zij staan u toe om schema&#39;s aan te passen door nieuwe attributen aan de behoeften van uw organisatie te omvatten.
 
-De gebieden van de douane kunnen in diverse schermen, zoals profieldetails in de interface van het Web van de Campagne worden getoond. U kunt bepalen welke velden zichtbaar zijn en hoe ze in de interface worden weergegeven. Klik hiertoe op de knop **[!UICONTROL Edit custom detail]** in het menu **[!UICONTROL Schemas]** .
+De gebieden van de douane kunnen in diverse schermen, zoals profieldetails in de interface van het Web van de Campagne worden getoond. U kunt bepalen welke velden zichtbaar zijn en hoe ze in de interface worden weergegeven. Klik hiertoe op de knop **[!UICONTROL Screen edition]** in het menu **[!UICONTROL Schemas]** .
 
 ![ het scherm van de gebieden van de Douane die editable attributen tonen ](assets/schemas-custom.png)
+
+Klik op **[!UICONTROL Preview]** om de aangepaste velden in een voorbeeldscherm weer te geven.
 
 Voor gedetailleerde informatie over hoe te om douanegebieden in een schema uit te geven, verwijs naar deze sectie: [ vorm douanegebieden ](../administration/custom-fields.md).

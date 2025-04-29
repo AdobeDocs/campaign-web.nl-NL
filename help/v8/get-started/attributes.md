@@ -3,7 +3,7 @@ audience: end-user
 title: Kenmerken selecteren en toevoegen aan favorieten
 description: Leer hoe u met kenmerken werkt en eenvoudig toegang krijgt tot favoriete en onlangs gebruikte kenmerken.
 exl-id: 27663e57-fdab-4371-b7c6-12064ed6526f
-source-git-commit: c0c9c5da3369e55269411b7348004006cd3c139e
+source-git-commit: 6ed904273453ad355c615d330c234462cf3985e8
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 0%
@@ -29,15 +29,15 @@ De interface verstrekt ook een distributie van waardesinstrument, dat u toestaat
 
 Het menu **[!UICONTROL Favorites & Recents]** in de kenmerkenkiezer biedt een geordende weergave van kenmerken die aan favorieten zijn toegevoegd, samen met een lijst met onlangs gebruikte kenmerken. Favoriete kenmerken worden als eerste weergegeven, gevolgd door recent gebruikte kenmerken, zodat u gemakkelijk de vereiste kenmerken kunt vinden.
 
-![ Favorieten en recent kenmerkenmenu, die favoriete en onlangs gebruikte attributen tonen.](assets/attributes-favorites.png)
+![ Favorieten en recent kenmerkenmenu, die favoriete en onlangs gebruikte attributen tonen.](assets/attributes-favorite.png)
 
-Als u een kenmerk aan favorieten wilt toevoegen, beweegt u de muisaanwijzer over de informatieknop en selecteert u het sterpictogram. Het kenmerk wordt vervolgens automatisch toegevoegd aan de lijst met favorieten. Als u een kenmerk uit de favorieten wilt verwijderen, selecteert u het sterpictogram opnieuw.
+Als u een kenmerk aan favorieten wilt toevoegen, klikt u op de knop Uitvouwen en selecteert u **[!UICONTROL Add to favorites]** . Het kenmerk wordt vervolgens automatisch toegevoegd aan de lijst met favorieten. Als u een kenmerk uit de favorieten wilt verwijderen, selecteert u het sterpictogram opnieuw.
 
 Gebruikers kunnen maximaal 20 kenmerken toevoegen aan favorieten. Favoriete en recente kenmerken zijn gekoppeld aan elke gebruiker binnen een organisatie, zodat de toegankelijkheid op verschillende computers gegarandeerd is en een naadloze ervaring op alle apparaten mogelijk is.
 
 ## De verdeling van waarden binnen een tabel identificeren {#distribution}
 
-De **Distributie van Waarden** knoop, beschikbaar in de informatieruit van een attribuut, staat gebruikers toe om de distributie van waarden voor dat attribuut binnen de lijst te analyseren. Deze functie is handig voor het begrijpen van de beschikbare waarden, hun aantallen en percentages. Het helpt ook problemen zoals inconsistente hoofdlettergebruik of spelling te voorkomen bij het maken van query&#39;s of het maken van expressies.
+De **Distributie van Waarden** knoop, beschikbaar wanneer het klikken van de uitvouwknop naast de attributen, staat gebruikers toe om de distributie van waarden voor die attributen binnen de lijst te analyseren. Deze functie is handig voor het begrijpen van de beschikbare waarden, hun aantallen en percentages. Het helpt ook problemen zoals inconsistente hoofdlettergebruik of spelling te voorkomen bij het maken van query&#39;s of het maken van expressies.
 
 ![ Distributie van het hulpmiddel van waarden interface, die tellingen en percentages van attributenwaarden toont.](assets/attributes-distribution-values.png)
 

@@ -3,10 +3,10 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 exl-id: f9a365ac-c8be-423f-a99d-40ad5492223c
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 28%
+source-wordcount: '2184'
+ht-degree: 27%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 28%
 
 Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel te vormen. In deze modus kunt u geavanceerde functies gebruiken, waarmee u de waarden kunt manipuleren die worden gebruikt voor het uitvoeren van specifieke query&#39;s, zoals het manipuleren van datums, tekenreeksen, numerieke velden en sorteren.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >De sectie hieronder verstrekt informatie over hoe te met de uitdrukkingsredacteur te werken om regels te bouwen. Onthoud dat de syntaxis die wordt gebruikt om regels te bouwen verschilt van de syntaxis die wordt gebruikt om personalisatie toe te voegen.
+
+>[!IMPORTANT]
+>
+>Er is een gloednieuwe interface beschikbaar voor het Query-model. Als u wilt overschakelen naar deze nieuwe ervaring voor het maken van regels, drukt u op de schakelknop in de rechterbovenhoek. U kunt naar de klassieke modelleerling van de Vraag terugkeren wanneer u wilt door eenvoudig de knevel terug te duwen om de nieuwe interface onbruikbaar te maken. U kunt de zelfde principes toepassen zoals vraagmodeler in deze nieuwe interface.
+>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Werken met de expressie-editor {#edit}
 
@@ -41,7 +46,17 @@ Klik op de knop **[!UICONTROL Confirm]** als uw expressie gereed is. De expressi
 
 In het onderstaande voorbeeld ziet u een expressie die is geconfigureerd voor het veld **[!UICONTROL Value]** . Als u deze wilt bewerken, opent u de expressieeditor met de knop **[!UICONTROL Edit expression]** .
 
+>[!BEGINTABS]
+
+>[!TAB  Klassieke vraagmodeler ]
+
 ![ Voorbeeld van het uitgeven van uitdrukking voor het gebied van de Waarde ](assets/edit-expression-value.png){zoomable="yes"}
+
+>[!TAB  Nieuwe regelbouwer ]
+
+![ Voorbeeld van het uitgeven van uitdrukking voor het gebied van de Waarde ](assets/ruleb-12.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Helpfuncties
 

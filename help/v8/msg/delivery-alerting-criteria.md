@@ -3,9 +3,9 @@ audience: end-user
 title: Afleveringswaarschuwing
 description: Leer hoe u werkt met waarschuwingsberichten voor leveringen.
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 7b78b6d710fa88be1be60f514b2fe8219bd04d75
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,6 @@ Vooraf gedefinieerde waarschuwingscriteria zijn beschikbaar in de webgebruikersi
 >title="Criteriumfrequentie"
 >abstract="De frequentie van waarschuwingen per dag controleren voor elke levering die aan het criterium voldoet."
 
->[!CONTEXTUALHELP]
->id="acw_delivery_alerting_filter"
->title="Een waarschuwingscriterium maken"
->abstract="Om uw eigen leveringsfilters tot stand te brengen, creeer een nieuw vooraf bepaald filter in de Campagne v8 console van het **Beleid** > **Configuratie** > **Vooraf bepaalde filters** knoop."
-
 Ga als volgt te werk om een nieuw criterium te maken:
 
 1. Navigeer aan het **Waarschuwende van de Levering** menu in de linkernavigatieruit, en selecteer de **Criteria** tabel.
@@ -79,7 +74,7 @@ Ga als volgt te werk om een nieuw criterium te maken:
 
    >[!NOTE]
    >
-   >Als geen van de vooraf gedefinieerde filters aan uw behoeften voldoet, neemt u contact op met de beheerder om uw eigen filter te maken. De gedetailleerde informatie over hoe te om vooraf bepaalde filters in de console van de Campagne tot stand te brengen is beschikbaar in [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-filters) {target="_blank"}.
+   >Als geen van de vooraf bepaalde filters uw behoeften aanpassen, kunt u uw eigen degenen van het **Beheer van de Klant** tot stand brengen > **vooraf bepaald filters** menu. [Meer informatie](../get-started/predefined-filters.md)
    >
    >Deze bewerking mag alleen door gevorderde gebruikers worden uitgevoerd.
 

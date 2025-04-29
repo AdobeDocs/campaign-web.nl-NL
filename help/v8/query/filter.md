@@ -3,9 +3,9 @@ audience: end-user
 title: Filterlijsten
 description: Leer hoe u Adobe Campaign Web-lijsten filtert met ingebouwde en aangepaste filters.
 exl-id: 41c3c4c3-5991-4223-ad02-e2531d76fdda
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,11 @@ ht-degree: 0%
 # Filterlijsten {#filter-lists}
 
 Adobe Campaign Web verstrekt filters binnen elke lijst van voorwerpen, toelatend u om informatie te filtreren die op specifieke contextuele criteria wordt gebaseerd. U kunt leveringen bijvoorbeeld filteren op basis van hun status, kanaal, contactdatum of map. U kunt ook proefdrukken verbergen.
+
+>[!IMPORTANT]
+>
+>Er is een gloednieuwe interface beschikbaar voor het Query-model. De Nieuwe regelbouwer staat u toe om uw vraag met meer gemak dankzij zijn vereenvoudigde interface te bouwen. Druk op de schakelknop in de rechterbovenhoek om naar deze ervaring over te schakelen. U kunt naar de klassieke modelleerling van de Vraag terugkeren wanneer u wilt door eenvoudig de knevel terug te duwen om de nieuwe interface onbruikbaar te maken. U kunt de zelfde principes toepassen zoals vraagmodeler in deze nieuwe interface.
+>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Filters toepassen {#apply}
 

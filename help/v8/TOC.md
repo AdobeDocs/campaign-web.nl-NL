@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 14%
+source-wordcount: '823'
+ht-degree: 13%
 
 ---
 
@@ -68,6 +68,9 @@ ht-degree: 14%
       + [Een levering voor direct mail maken](direct-mail/create-direct-mail.md)
       + [Het extractiebestand ontwerpen](direct-mail/content-direct-mail.md)
       + [Een voorbeeld bekijken en direct-maillevering verzenden](direct-mail/send-direct-mail.md)
+   + Bellen {#call-center}
+      + [Ga aan de slag met de levering van callcenters](call-center/gs-call-center.md)
+      + [Creeer en verzend een levering van het vraagcentrum](call-center/create-call-center.md)
    + Transactionele berichten {#transactional-messages}
       + [Aan de slag met transactieberichten](transactional-messaging/transactional.md)
       + [Een transactiebericht maken](transactional-messaging/create-transactional.md)

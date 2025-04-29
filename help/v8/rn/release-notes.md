@@ -2,10 +2,10 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 589d78737a498ffe91cb49a6f689f4104b244d0b
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 8%
+source-wordcount: '681'
+ht-degree: 12%
 
 ---
 
@@ -16,30 +16,31 @@ ht-degree: 8%
 >title="Aanvullende informatie "
 >abstract="De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Opmerkingen bij de release Campagne worden daarom meerdere keren per maand bijgewerkt met de nieuwste functies, verbeteringen en correcties. We raden u aan deze regelmatig te controleren."
 
-De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel, dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
-De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld [ op deze pagina ](release-notes-24.md).
+De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld in [ 2024 ](release-notes-24.md) en [ 2025 ](release-notes-25.md).
 
-## Release van februari &#39;25 {#25-2-release}
+## Release van april 1925 {#25-4-release}
 
-**de datum van de Versie**: 18 feb, 2025
+**de datum van de Versie**: 29 april, 2025
 
-De volgende functies en verbeteringen zijn beschikbaar vanaf de release in februari.
 
-### Functies {#25-2-features}
+### Nieuwe functies {#25-4-features}
+
+De volgende functies zijn beschikbaar voor alle gebruikers vanaf de release van april.
 
 <table>
 <thead>
 <tr>
-<th><strong>Bedrijfsregels maken (typologieregels)</strong><br/></th>
+<th><strong>Kanaal van callcenter</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt nu typologieën en typologische regels maken in de Adobe Campaign Web User Interface. De controle van de typologieën, filter, en geeft voorrang aan het verzenden van leveringen. De technologieën bevestigen dat de leveringen altijd verplichte componenten (zoals een unsubscription verbinding of een onderwerpregel) of het filtreren regels bevatten om groepen van uw publiek (zoals abonnees, concurrenten, of niet loyaliteitklanten) uit te sluiten.</p>
-<img src="assets/do-not-localize/typology.gif" alt="Illustratie van het maken van typologieregels in de Adobe Campaign Web User Interface">
-<p>Raadpleeg de <a href="../administration/typologies.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Het kanaal van het vraagcentrum is nu beschikbaar in het Gebruikersinterface van het Web van de Campagne. Dit kanaal verwijst naar een communicatie die methode wordt gebruikt om mededelingen of interactie te beheren en te volgen die via een callcenter worden behandeld — typisch telefoonvraag die door agenten aan klanten of vooruitzichten wordt gemaakt.</p>
+<img src="assets/do-not-localize/call-center.gif">
+<p>Raadpleeg de <a href="../call-center/gs-call-center.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -48,15 +49,15 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in febru
 <table>
 <thead>
 <tr>
-<th><strong>Doeltoewijzingen</strong><br/></th>
+<th><strong>Nieuwe regelbouwer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt doeltoewijzingen in het Gebruikersinterface van het Web van de Campagne nu tot stand brengen. Doeltoewijzingen bepalen hoe verschillende leveringskanalen (e-mail, SMS, pushmeldingen) worden gekoppeld aan de gegevensvelden van een schema. In de doelmapping wordt het doelpubliek gedefinieerd: profielen, begunstigden van contracten, exploitanten, abonnees, vooruitzichten en andere.</p>
-<img src="assets/do-not-localize/target-mapping.gif" alt="Afbeelding van doeltoewijzingen maken in Adobe Campaign Web User Interface">
-<p>Raadpleeg de <a href="../administration/target-mappings.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Een nieuwe regelbouwer is nu beschikbaar om u te helpen complexe voorwaarden in een verbeterde gebruikersinterface bepalen. U kunt van oud naar de nieuwe regelbouwer schakelen zoals nodig.</p>
+<img src="assets/do-not-localize/rule-builder-release.gif">
+<p>Raadpleeg de <a href="../query/query-modeler-overview.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -65,138 +66,56 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in febru
 <table>
 <thead>
 <tr>
-<th><strong>Schema-details</strong><br/></th>
+<th><strong>Ontwerpen van externe accounts</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt tot de details van een schema nu toegang hebben door zijn naam in de lijst te selecteren. De gebieden van de douane het uitgeven zijn nu toegankelijk van <b> geeft de knoop van douanegebieden </b> beschikbaar in de schemadetails uit.</p>
-<img src="assets/do-not-localize/schemas.gif" alt="Afbeelding van schema-details en aangepaste velden die worden bewerkt in de Adobe Campaign Web User Interface">
-<p>Raadpleeg de <a href="../administration/schemas.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Als beheerder van de Campagne, kunt u opstelling nieuwe verbindingen met externe systemen van het gebruikersinterface van het Web van de Campagne nu.
+U kunt ook bestaande externe accounts weergeven, bijwerken en beheren.</p>
+<p>Raadpleeg de <a href="../administration/external-account.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-## Release januari 1925 {#25-1-release}
+### Verbeteringen {#25-4-improvements}
 
-**de datum van de Versie**: 5 Feb, 2025
+**Algemene interfaceverbeteringen**
 
-De volgende functies en verbeteringen zijn beschikbaar vanaf de release in januari.
+* De veldbeschrijving, Toevoegen aan Favorieten en Distributie van waardeopties voor schemakenmerken zijn nu beter zichtbaar in de gebruikersinterface. Raadpleeg de [gedetailleerde documentatie](../get-started/attributes.md) voor meer informatie.
+* In de interface worden de datum en tijd nu weergegeven volgens de primaire taal die is ingesteld in de Experience League-voorkeuren. Deze verbetering is alleen beschikbaar voor verschillende talen. Om de volledige lijst van gesteunde talen te zien, verwijs naar de [ gedetailleerde documentatie ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}.
 
-### Functies {#25-1-features}
+<!--
+ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
+ko * The typology rules creation screen has been updated to facilitate the selection of the type of rule.
+-->
 
-<table>
-<thead>
-<tr>
-<th><strong>Visuele fragmenten maken en gebruiken</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Visuele fragmenten zijn vooraf gedefinieerde visuele blokken die u kunt hergebruiken voor meerdere e-mailleveringen of in inhoudssjablonen. Deze functie is nu beschikbaar voor alle klanten die op de server bouwen 8.6.4 en hoger.</p>
-<img src="assets/do-not-localize/visual-fragment.gif" alt="Afbeelding van visuele fragmenten maken en gebruiken in Adobe Campaign Web User Interface">
-<p>Raadpleeg de <a href="../content/use-visual-fragments.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
+**E-mailRedacteur**: Om toegankelijkheid in het Web UI van de Campagne te verbeteren, zijn twee nieuwe gebieden nu beschikbaar in E-mail Designer: zij beantwoorden aan het `title` element en lang attribuut in het `html` element van uw e-mailinhoud. In de sectie Hoofdtekst van e-mail kunt u deze instellingen definiëren in aanvulling op het veld Voorkop.
 
-<table>
-<thead>
-<tr>
-<th><strong>Een systeem van derden gebruiken om leveringen te verzenden</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu externe leveringen en externe leveringssjablonen definiëren in de webinterface van Campagne. In deze modus worden berichten gecompileerd naar een uitvoerbestand dat kan worden gedeeld met uw externe provider. Standaard wordt de externe leveringsmodus gebruikt voor het directe-mailkanaal.</p>
-<img src="assets/do-not-localize/external-delivery.gif" alt="Illustratie van externe leveringsinstellingen in Adobe Campaign Web User Interface">
-<p>Raadpleeg de <a href="../msg/send-external-deliveries.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
+<!--
+**Workflow**: You can now select an existing Javascript code in workflow properties or in a Javascript activity.    
+-->
 
-<table>
-<thead>
-<tr>
-<th><strong>Uw opsommingen beheren</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt opsommingen nu rechtstreeks maken via de Adobe Campaign Web User Interface. Een opsomming is een lijst met waarden die door het systeem worden voorgesteld om velden te vullen. Gebruik opsommingen om de waarden van deze velden te standaardiseren, te helpen bij de invoer van gegevens of om binnen query's te gebruiken.</p>
-<img src="assets/do-not-localize/enumerations.gif" alt="Illustratie van het opsombeheer in Adobe Campaign Web User Interface">
-<p>Raadpleeg de <a href="../administration/enumerations.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
+**Schemas**
 
-<table>
-<thead>
-<tr>
-<th><strong>Aangepaste opties maken</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U hebt nu toegang tot technische opties in de Adobe Campaign Web User Interface en kunt uw eigen aangepaste opties maken die aan uw wensen voldoen. Dit is met name handig wanneer u werkt met JavaScript-code-workflowactiviteiten om tussenliggende gegevens op te slaan.</p>
-<img src="assets/do-not-localize/options.gif" alt="Illustratie van het maken van aangepaste opties in de Adobe Campaign Web User Interface">
-<p>Raadpleeg de <a href="../administration/options.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
+* U kunt het tijdelijke schema van een lijst van het Web van de Campagne nu uitgeven gebruikersinterface. Raadpleeg de [gedetailleerde documentatie](../audience/manage-audience.md) voor meer informatie.
+* U kunt nu de aangepaste velden van een schema voorvertonen in een voorbeeldscherm. Raadpleeg de [gedetailleerde documentatie](../administration/custom-fields.md#add) voor meer informatie.
+* U kunt nu aangepaste velden in de lijst verplaatsen door ze te slepen en neer te zetten. Raadpleeg de [gedetailleerde documentatie](../administration/custom-fields.md#add) voor meer informatie.
 
-<table>
-<thead>
-<tr>
-<th><strong>JavaScript-codes definiëren en aanroepen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu JavaScript-codes maken in de Adobe Campaign Web User Interface. Op deze manier kunt u herbruikbare functies maken die in verschillende workflows kunnen worden gebruikt, net als in een bibliotheek.</p>
-<img src="assets/do-not-localize/javascript.gif" alt="Afbeelding van JavaScript code creation in Adobe Campaign Web User Interface">
-<p>Raadpleeg de <a href="../administration/javascript-codes.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Openingspagina's genereren met AI Assistant</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>De AI Assistant is nu beschikbaar bij de opvoerpagina-items, zodat u tekst, afbeeldingen of volledige paginalay-outs kunt genereren.</p>
-<img src="assets/do-not-localize/ai-lp.gif" alt="Illustratie van het gebruik van AI Assistant voor het genereren van landingspagina&apos;s in de Adobe Campaign Web User Interface">
-<p>Voor meer informatie over AI Medewerker, verwijs naar de <a href="../email/generative-lp.md"> gedetailleerde documentatie </a>.</p>
-</td>
-</tr>
-</tbody>
-</table>
+### Nieuwe functies in beperkte beschikbaarheid {#25-4-features-la}
 
-### Verbeteringen {#25-1-improvements}
+>[!AVAILABILITY]
+>
+>De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld. Ze vereisen een upgrade van de Campagneserver naar v8.7.4.
+>
+>Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
-* De weergave van aangepaste velden in de interface aanpassen:
-   * Selecteer aanvullende aangepaste velden die u wilt weergeven in de interface.
-   * Stel regels in voor de weergave van aangepaste velden van het koppelingstype, zoals het beperken van lijstwaarden op basis van invoer van een ander veld.
-   * Velden in de interface flexibeler rangschikken: velden kunnen zich uitstrekken over één kolom of worden gegroepeerd in subsecties voor een betere organisatie.
-   * Stel specifieke velden in als alleen-lezen.
+* **Meertalige leveringsverwezenlijking** - u kunt veelvoudige e-mailleveringen in verschillende talen in het Gebruikersinterface van het Web van Adobe Campaign nu verzenden. Met de functie Meertalige levering kunt u de standaardtaal van uw levering kiezen en de verschillende talen waarin de levering kan worden verzonden. U kunt deze leveringen ook voorvertonen in de talen die u hebt gekozen. Raadpleeg de [gedetailleerde documentatie](../email/edit-content.md) voor meer informatie.
 
-* Recente en Favorieten filters: voeg vaak gebruikte attributen aan favorieten voor snelle toegang toe. Naast favorieten, bekijk en gebruik de onlangs geselecteerde attributen.
+* **Dynamische Rapportering voor Meertalig** - de Dynamische rapportering is nu beschikbaar voor meertalige e-mailleveringen. Raadpleeg de [gedetailleerde documentatie](../reporting/global-reports.md) voor meer informatie.
 
-* Externe accounts: het nieuwe type **[!UICONTROL Routing]** kan worden geselecteerd wanneer u een nieuwe externe account maakt. Het staat u toe om een specifieke externe rekening voor gebruik in uw externe leveringen te vormen. [Meer informatie](../administration/external-account.md#routing).
+* **de REST API van SMS steun (LA)** - De Transactionele WEERGAVE API van het Overseinen is nu beschikbaar voor het kanaal van SMS. Wanneer zowel e-mail als mobilePhone aanwezig zijn in de lading, kunt u het &quot;wishedChannel&quot;gebied gebruiken om het kanaal te specificeren. Indien niet opgegeven, wordt de e-mail standaard gebruikt, tenzij wishedChannel expliciet om SMS verzoekt. Raadpleeg de [gedetailleerde documentatie](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank} voor meer informatie.
+

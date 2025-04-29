@@ -2,9 +2,9 @@
 title: Aangepaste velden
 description: Leer hoe u aangepaste velden en hun zichtbaarheid in de interface configureert.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema_editcustomfields"
->title="Aangepaste details bewerken"
+>title="Schermeditie"
 >abstract="Alle aangepaste velden die worden weergegeven in de interface voor de geselecteerde schemaweergave. U kunt de volgorde wijzigen waarin ze in de interface worden weergegeven met de pijl-omhoog en -omlaag en velden in subsecties groeperen door scheidingstekens toe te voegen. Als u een aangepast veld wilt verwijderen of instellingen zoals zichtbaarheidsvoorwaarden wilt bewerken, klikt u op de knop voor weglatingsteken."
 
 >[!CONTEXTUALHELP]
@@ -70,15 +70,19 @@ Ga als volgt te werk om aangepaste velden in de interface weer te geven:
 
    ![ Schermschot die het menu van Schema&#39;s en het Bewerkbare filter in de navigatieruit tonen ](assets/custom-fields-open.png)
 
-1. Selecteer de schemanaam in de lijst om het te openen. Er wordt een gedetailleerde schemaweergave weergegeven. [ leer meer over schemadetails ](../administration/schemas.md). Klik op de knop **[!UICONTROL Edit custom detail]** om aangepaste velden te openen. In dit voorbeeld worden velden toegevoegd voor het schema **[!UICONTROL Recipients]** .
+1. Selecteer de schemanaam in de lijst om het te openen. Er wordt een gedetailleerde schemaweergave weergegeven. [ leer meer over schemadetails ](../administration/schemas.md). Klik op de knop **[!UICONTROL Screen edition]** om aangepaste velden te openen. In dit voorbeeld worden velden toegevoegd voor het schema **[!UICONTROL Recipients]** .
 
-   ![ Screenshot die de Edit knoop van het douanedetail in de schemamening toont ](assets/custom-fields-edit.png)
+   ![ Schermschot die de de definitieknop van het Scherm in de schemamening tonen ](assets/custom-fields-edit.png)
 
-1. De lijst met aangepaste velden die in de interface voor het schema wordt weergegeven. Hier is het veld &quot;CRM-id&quot; zichtbaar in het detailscherm van het profiel en is het als verplicht gemarkeerd.
+   De lijst met aangepaste velden die in de interface voor het schema wordt weergegeven.
 
-   | Configuratie van aangepaste velden | Renderen in de interface |
-   |  ---  |  ---  |
-   | ![ Schermafbeelding die de configuratie van douanegebieden toont ](assets/custom-fields-detail.png){zoomable="yes"} | ![ Screenshot die het gebied van CRM Identiteitskaart tonen die in de interface teruggeeft ](assets/custom-fields-detail-crm.png){zoomable="yes"} |
+1. Klik op de knop **[!UICONTROL Preview]** om de aangepaste velden in een voorbeeldscherm weer te geven.
+
+   ![](assets/custom-fields-edit2.png)
+
+   Hier is het veld Bedrag gemarkeerd als verplicht.
+
+   ![](assets/custom-fields-edit3.png)
 
 1. Als u een aangepast veld aan de interface wilt toevoegen, klikt u op de knop voor ovaal en kiest u een van de volgende opties:
 
@@ -89,7 +93,7 @@ Ga als volgt te werk om aangepaste velden in de interface weer te geven:
 
 1. Nadat aangepaste velden zijn toegevoegd, kunt u:
 
-   * **herordent gebieden**: Gebruik omhoog en onderaan pijlen.
+   * **herordent gebieden**: Gebruik omhoog en onderaan pijlen, of beweeg gebieden gebruikend belemmering en daling.
    * **maak gebieden verplicht**: Selecteer **Verplicht** checkbox.
    * **geeft gebiedsmontages** uit: Klik de ellipsieknoop en kies **[!UICONTROL Edit]**. [Meer informatie](#settings)
    * **de gebieden van de Schrapping**: Klik de ellipsknoop en kies **[!UICONTROL Delete]**.

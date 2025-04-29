@@ -3,10 +3,10 @@ audience: end-user
 title: Abonnementen en programma's
 description: Leer hoe u plannen en programma's maakt en configureert in Adobe Campaign
 exl-id: 0307bcb7-7ab5-4226-bad1-cb7cf10e97fc
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 0%
+source-wordcount: '489'
+ht-degree: 1%
 
 ---
 
@@ -38,9 +38,13 @@ U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 
 1. Blader naar **[!UICONTROL Schemas]** .
 1. Kies de schema&#39;s **[!UICONTROL Editable]** in de filters.
-1. Klik op het pictogram **[!UICONTROL Edit custom details]** .
+1. Klik op het schema.
 
 ![ Schermschot die het uitgeven van douanedetails voor een plan tonen ](assets/plan_edit.png){zoomable="yes"}
+
+1. Klik op de knop **[!UICONTROL Screen edition]**.
+
+   ![](assets/plan_edit2.png){zoomable="yes"}
 
 Configureer de aangepaste opties:
 
@@ -64,9 +68,13 @@ U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 
 1. Blader naar **[!UICONTROL Schemas]** .
 1. Kies de schema&#39;s **[!UICONTROL Editable]** in de filters.
-1. Klik op het pictogram **[!UICONTROL Edit custom details]** .
+1. Klik op het schema.
 
 ![ Schermschot die het uitgeven van douanedetails voor een programma tonen ](assets/program_edit.png){zoomable="yes"}
+
+1. Klik op de knop **[!UICONTROL Screen edition]**.
+
+   ![](assets/program_edit2.png){zoomable="yes"}
 
 Configureer de aangepaste opties:
 

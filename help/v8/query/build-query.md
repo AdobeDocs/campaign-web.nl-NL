@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2746'
 ht-degree: 0%
 
 ---
@@ -15,19 +15,48 @@ ht-degree: 0%
 
 Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats van uw keus, afhankelijk van de actie u wilt uitvoeren. De querymodelfunctie wordt geopend met een leeg canvas. Klik **+** knoop om de eerste knoop van uw vraag te vormen.
 
+>[!IMPORTANT]
+>
+>Er is een gloednieuwe interface beschikbaar voor het Query-model. De Nieuwe regelbouwer staat u toe om uw vraag met meer gemak dankzij zijn vereenvoudigde interface te bouwen. Druk op de schakelknop in de rechterbovenhoek om naar deze ervaring over te schakelen. U kunt naar de klassieke modelleerling van de Vraag terugkeren wanneer u wilt door eenvoudig de knevel terug te duwen om de nieuwe interface onbruikbaar te maken. U kunt de zelfde principes toepassen zoals vraagmodeler in deze nieuwe interface.
+>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
+
 U kunt twee typen elementen toevoegen:
 
 * **het Filtreren componenten** (De voorwaarde van de Douane, Uitgezochte publiek, Vooraf bepaald filter) staat u toe om uw eigen regels te bouwen, een publiek te selecteren, of een vooraf bepaald filter te gebruiken om uw vraag te raffineren. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [ leren hoe te met het filtreren componenten ](#filtering) te werken
 
   Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief* intekenden, *Ontvangers die in New York* leven, *Ontvangers die in San Francisco* leven
 
-  ![ Voorbeeld om het filtreren componenten aan een vraag toe te voegen.](assets/query-add-component.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB  Klassieke vraagmodeler ]
+
+![ Voorbeeld om het filtreren componenten aan een vraag toe te voegen.](assets/query-add-component.png){zoomable="yes"}
+
+
+>[!TAB  Nieuwe Bouwer van de Regel ]
+
+![ Voorbeeld om het filtreren componenten aan een vraag toe te voegen.](assets/ruleb-1.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+
 
 * **de exploitanten van de Groep** (EN, OF, BEHALVE) staan u toe om het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [ Leer hoe te met exploitanten ](#filtering) te werken
 
-  Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief **en**intekende die in New York **OF**San Francisco* leven.
+  Voorbeeld: *Ontvangers die Super VIP **EN** VIP zijn om **OF** de Demo van VIP te belonen, **BEHALVE** ontvangers onder 21 jaar en boven 45.
 
-  ![ Beschrijving: Voorbeeld om groepsexploitanten aan een vraag toe te voegen.](assets/query-add-operator.png){zoomable="yes"}
+>[!BEGINTABS]
+
+>[!TAB  Klassieke vraagmodeler ]
+
+![ Beschrijving: Voorbeeld om groepsexploitanten aan een vraag toe te voegen.](assets/ruleb-13.png){zoomable="yes"}
+
+>[!TAB  Nieuwe regelbouwer ]
+
+![ Voorbeeld om het filtreren componenten aan een vraag toe te voegen.](assets/ruleb-14.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 
 ## Verdeling van waarden in een query {#distribution-values-query}
 
@@ -99,11 +128,31 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
    *het voorbeeld van de Vraag die alle profielen terugkeren die 21 of meer zijn:*
 
-   ![ Voorbeeld van een vraag richtend profielen van 21 jaar of meer.](assets/query-custom-condition.png){zoomable="yes"}
+>[!BEGINTABS]
 
-   Voor datumtekstkenmerken zijn vooraf gedefinieerde waarden beschikbaar met de optie **[!UICONTROL Presets]** .
+>[!TAB  Klassieke vraagmodeler ]
 
-   ![ Voorbeeld van het gebruiken van datum stelt in een vraag vooraf in.](assets/date-presets.png){zoomable="yes"}
+![ Voorbeeld van een vraag richtend profielen van 21 jaar of meer.](assets/query-custom-condition.png){zoomable="yes"}
+
+>[!TAB  Nieuwe regelbouwer ]
+
+![ Voorbeeld van een vraag richtend profielen van 21 jaar of meer.](assets/ruleb-3.png){zoomable="yes"}
+
+>[!ENDTABS]
+
+Voor datumtekstkenmerken zijn vooraf gedefinieerde waarden beschikbaar met de optie **[!UICONTROL Presets]** .
+
+>[!BEGINTABS]
+
+>[!TAB  Klassieke vraagmodeler ]
+
+![ Voorbeeld van het gebruiken van datum stelt in een vraag vooraf in.](assets/date-presets.png){zoomable="yes"}
+
+>[!TAB  Nieuwe regelbouwer ]
+
+![ Voorbeeld van het gebruiken van datum stelt in een vraag vooraf in.](assets/ruleb-4.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 #### Aangepaste voorwaarden voor gekoppelde tabellen (1-1 en 1-N koppelingen){#links}
 
@@ -165,7 +214,17 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 
 1. In de eigenschappen ruit, knevel op de **Samengevoegde gegevens** optie en selecteer de gewenste gezamenlijke functie.
 
-   ![ Schermafbeelding van de Samengevoegde gegevensoptie ](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+>[!BEGINTABS]
+
+>[!TAB  Klassieke vraagmodeler ]
+
+![ Schermafbeelding van de Samengevoegde gegevensoptie ](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!TAB  Nieuwe regelbouwer ]
+
+![ Schermafbeelding van de Samengevoegde gegevensoptie ](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
+
+>[!ENDTABS]
 
 ### Een publiek selecteren {#audiences}
 
@@ -176,6 +235,10 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 
 Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
+>[!BEGINTABS]
+
+>[!TAB  Klassieke vraagmodeler ]
+
 1. Klik op de knop **+** op het gewenste knooppunt en kies **[!UICONTROL Select audience]** .
 
 1. De **Uitgezochte publiek** eigenschappen ruit opent op de rechterkant. Kies het publiek dat u wilt gebruiken om uw query te filteren.
@@ -183,6 +246,18 @@ Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
    *voorbeeld van de vraag die alle profielen terugkeert die tot het &quot;publiek van de Goers van het Festival&quot;behoren:*
 
    ![ Screenshof van een vraagvoorbeeld ](assets/query-audience.png){zoomable="yes"}
+
+>[!TAB  Nieuwe regelbouwer ]
+
+1. Klik **uitbreiden** knoop naast de **[!UICONTROL Add condition]** knoop en kies **[!UICONTROL Select audience]**.
+
+1. De **Uitgezochte publiek** eigenschappen ruit opent op de rechterkant. Kies het publiek dat u wilt gebruiken om uw query te filteren.
+
+   *voorbeeld van de Vraag die alle profielen terugkeren die tot het &quot;publiek van de Werken van de Koffie&quot;behoren:*
+
+   ![ Screenshof van een vraagvoorbeeld ](assets/ruleb-7.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ### Een vooraf gedefinieerd filter gebruiken {#predefined-filters}
 
@@ -193,6 +268,10 @@ Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
 Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd filter:
 
+>[!BEGINTABS]
+
+>[!TAB  Klassieke vraagmodeler ]
+
 1. Klik op de knop **+** op het gewenste knooppunt en selecteer **[!UICONTROL Predefined filter]** .
 
 1. De **Vooraf bepaalde filter** eigenschappen ruit opent op de rechterkant. Selecteer een vooraf gedefinieerd filter in de lijst met aangepaste filters of uit favorieten.
@@ -201,6 +280,18 @@ Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd
 
    ![ Schermafbeelding van een vraagvoorbeeld ](assets/query-predefined-filter.png){zoomable="yes"}
 
+>[!TAB  Nieuwe regelbouwer ]
+
+1. Klik **uitbreiden** knoop naast de **[!UICONTROL Add condition]** knoop en selecteren **[!UICONTROL Predefined filter]**.
+
+1. De **Vooraf bepaalde filter** eigenschappen ruit opent op de rechterkant. Selecteer een vooraf gedefinieerd filter in de lijst met aangepaste filters of uit favorieten.
+
+   *voorbeeld van de Vraag die alle profielen terugkeren die aan de &quot;Inactieve klanten&quot;vooraf bepaalde filter beantwoorden:*
+
+   ![ Schermafbeelding van een vraagvoorbeeld ](assets/ruleb-8.png){zoomable="yes"}
+
+>[!ENDTABS]
+
 ### Componenten kopiëren en plakken {#copy}
 
 Met de querymodelfunctie kunt u een of meer filtercomponenten kopiëren en deze aan het einde van een overgang plakken. Deze bewerking kan worden uitgevoerd binnen het huidige querycanvas of op elk canvas in uw instantie.
@@ -208,6 +299,11 @@ Met de querymodelfunctie kunt u een of meer filtercomponenten kopiëren en deze 
 >[!NOTE]
 >
 >De gekopieerde selectie blijft behouden zolang u in uw exemplaar werkt. Als u zich afmeldt en weer aanmeldt, is uw selectie niet meer beschikbaar voor plakken.
+
+>[!IMPORTANT]
+>
+>Het is momenteel onmogelijk om componenten in de Nieuwe de bouwerervaring van de Regel te kopiëren en te kleven. Als u deze volgende stappen wilt volgen, klikt u op de schakeloptie **[!UICONTROL Get back to the classic experience]** bovenaan om het klassieke querymodel te gebruiken.
+
 
 Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
 
@@ -232,7 +328,11 @@ Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
 
 Telkens als u een nieuwe het filtreren component aan uw vraag toevoegt, wordt het automatisch verbonden met de andere component door een **EN** exploitant. Dit betekent dat de resultaten van de twee filtercomponenten worden gecombineerd.
 
-In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten op de tweede overgang toegevoegd. De component is verbonden met de vooraf bepaalde filtervoorwaarde met een **EN** exploitant, betekenend dat de vraagresultaten ontvangers omvatten die door de &quot;Madridians&quot;vooraf bepaalde filter worden gericht EN die tot het &quot;aantal van de Korting jagers&quot;publiek behoren.
+In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten op de tweede overgang toegevoegd. De component is verbonden met de vooraf bepaalde filtervoorwaarde met een **EN** exploitant, betekenend dat de vraagresultaten ontvangers omvatten die door de &quot;Abonnees van de Nieuwsbrief - MADRID&quot;vooraf bepaalde filter EN die tot het &quot;publiek van de Aankopen (Al tijd) behoren.
+
+>[!BEGINTABS]
+
+>[!TAB  Klassieke vraagmodeler ]
 
 ![ Voorbeeld van een vraag ](assets/query-operator.png){zoomable="yes"}
 
@@ -246,11 +346,37 @@ Beschikbare operatoren zijn:
 
 ![ Voorbeeld van een vraag ](assets/query-operator-change.png){zoomable="yes"}
 
-Daarnaast kunt u tussenliggende groepen componenten maken door op de knop **+** in een overgang te klikken. Dit staat u toe om een exploitant bij deze specifieke plaats toe te voegen om veelvoudige componenten samen te groeperen en uw vraag te verfijnen.
+Daarnaast kunt u tussenliggende groepen componenten maken door componenten te groeperen in dezelfde groep en deze aan elkaar te koppelen. Op die manier wordt de operator AND standaard ingesteld, kunt u deze wijzigen in de gewenste operator.
+
+>[!TAB  Nieuwe regelbouwer ]
+
+![ Voorbeeld van een vraag ](assets/ruleb-9.png){zoomable="yes"}
+
+Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen, klikt u erop, verandert deze in OR, EXCEPT en vervolgens terug naar AND en selecteert u de gewenste operator.
+
+Beschikbare operatoren zijn:
+
+* **EN (Doorsnede)**: Combineert resultaten die alle het filtreren componenten in de uitgaande overgangen aanpassen.
+* **OF (Unie)**: Omvat resultaten die minstens één van de het filtreren componenten in de uitgaande overgangen aanpassen.
+* **BEHALVE (Uitsluiting)**: Sluit resultaten uit die alle het filtreren componenten in de uitgaande overgang aanpassen.
+
+![ Voorbeeld van een vraag ](assets/ruleb-10.gif){zoomable="yes"}
+
+>[!ENDTABS]
 
 In het onderstaande voorbeeld hebben we een tussengroep opgericht die resultaten opneemt van het publiek &quot;VIP to bonus&quot; of &quot;Super VIP&quot;.
 
+>[!BEGINTABS]
+
+>[!TAB  Klassieke vraagmodeler ]
+
 ![ Voorbeeld van een vraag ](assets/query-intermediate-group.png){zoomable="yes"}
+
+>[!TAB  Nieuwe regelbouwer ]
+
+![ Voorbeeld van een vraag in de nieuwe regelbouwer ](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]
 
 ## Uw query controleren en valideren
 
@@ -272,7 +398,19 @@ Zodra u uw vraag in het canvas hebt gebouwd, kunt u het controleren gebruikend d
 
 Wanneer uw vraag klaar is, klik de **[!UICONTROL Confirm]** knoop in de hoger-juiste hoek om het te bewaren.
 
+
+>[!BEGINTABS]
+
+>[!TAB  Klassieke vraagmodeler ]
+
 U kunt uw query op elk gewenst moment wijzigen door deze te openen. Houd in mening dat het bij het openen van een bestaande vraag, het in een vereenvoudigde mening zonder de zichtbaarheid van **+** knopen toont. Als u nieuwe elementen aan de query wilt toevoegen, selecteert u een component of operator op het canvas om de knoppen **+** weer te geven.
 
 ![ Voorbeeld van een vraag ](assets/edit-audience.png){zoomable="yes"}
 
+>[!TAB  Nieuwe Bouwer van de Regel ]
+
+U kunt uw query op elk gewenst moment wijzigen door deze te openen. Klik hiertoe op de knop **[!UICONTROL Add condition]** in de linkerbovenhoek.
+
+![ Voorbeeld van een vraag in de nieuwe regelbouwer ](assets/ruleb-11.png){zoomable="yes"}
+
+>[!ENDTABS]
