@@ -3,9 +3,9 @@ audience: end-user
 title: Metagegevens toevoegen aan uw e-mailinhoud
 description: Leer hoe u de leesbaarheid en toegankelijkheid van uw e-mailinhoud kunt verbeteren met metagegevens
 exl-id: 8513b069-7155-45ac-8c98-38576c9ddeda
-source-git-commit: 929151c9907a6a508fef37ef1da9157f8a52d9eb
+source-git-commit: cf83616e8bd22759b9488dd4d8de2895c3ef9cab
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -37,12 +37,12 @@ Volg onderstaande stappen om deze instellingen te configureren.
 
 1. Klik op **[!UICONTROL Body]** in het vak **[!UICONTROL Navigation tree]** aan de linkerkant of op het rechterdeelvenster.
 
-   ![](assets/email_body.png)
+   ![](assets/email_body.png){width="90%"}
 
 1. Typ op het tabblad **[!UICONTROL Settings]** tekst in de velden **[!UICONTROL Preheader]** , **[!UICONTROL Document title]** en/of **[!UICONTROL Document language]** .
 
 1. U kunt ook op het pictogram voor aanpassen naast elk veld klikken om de inhoud aan te passen aan de hand van profielkenmerken, doelgroepen, contextafhankelijke kenmerken en meer. [ leer meer over verpersoonlijking ](../personalization/gs-personalization.md)
 
-   ![](assets/email_body_settings.png)
+   ![](assets/email_body_settings.png){width="70%"}
 
 1. Klik op **[!UICONTROL Save]** om uw wijzigingen te bevestigen.
