@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 9817507124ddbf25c7ece3893f4c4d853ce09372
+source-git-commit: dca4b86cc3317ce7de1aa7975449456ed16d1e91
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '822'
 ht-degree: 13%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 13%
          + [Inhoudscomponenten gebruiken](email/content-components.md)
          + [Koppelingen toevoegen en berichten bijhouden](email/message-tracking.md)
          + [Een koppeling toevoegen aan de spiegelpagina](email/mirror-page.md)
-         + [Een preheader toevoegen](email/preheader.md)
+         + [Metagegevens toevoegen](email/metadata.md)
          + [De tekstversie genereren](email/text-version-email.md)
       + Stijl uw inhoud {#style}
          + [Aan de slag met e-mailstijl](email/get-started-email-style.md)
