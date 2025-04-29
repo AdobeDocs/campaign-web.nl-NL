@@ -3,9 +3,9 @@ audience: end-user
 title: De e-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud bewerkt in de gebruikersinterface van het Campagne Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 498162045a2a58a5326a3cf311a153cf9dfef5c3
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,11 @@ ht-degree: 0%
 >title="Tekstspatiëring bewerken"
 >abstract="Door gebrek, wordt het volgen toegelaten voor de levering, die betekent alle verbindingen inbegrepen in de berichtinhoud worden gevolgd. U kunt deze optie hier uitschakelen."
 >additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Koppelingen toevoegen en berichten bijhouden"
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_email_multilingual"
+>title="Talen toevoegen"
+>abstract="Op dit tabblad vindt u een lijst met talen waarin de levering wordt verzonden. U kunt meer talen toevoegen door op de knop Taal toevoegen te klikken of door een andere taal via dit tabblad te dupliceren."
 
 Met het e-mailscherm **[!UICONTROL Edit content]** kunt u:
 
