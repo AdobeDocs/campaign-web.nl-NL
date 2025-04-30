@@ -3,9 +3,9 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 662b5e6c041b9caa90ac78f1a2ff60bfb9af6101
+source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '460'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 >[!TAB  April &quot;25 versie ]
 
-De release van april is nu live, inclusief Business Rules, Target mappings en meer verbeteringen.
+De versie van april is nu live, met inbegrip van het kanaal van het Centrum van de Vraag, de nieuwe regelbouwer, en meer verbeteringen.
 
 [![ leer meer knoop ](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
