@@ -2,9 +2,10 @@
 audience: end-user
 title: Creeer een levering van het vraagcentrum
 description: Leer hoe te om een levering van het vraagcentrum met het Web van Adobe Campaign te creëren
-source-git-commit: 0721d20ddec3271d9fac5f5645bd5865380ef9ba
+exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
+source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '707'
 ht-degree: 3%
 
 ---
@@ -16,7 +17,7 @@ U kunt een standalone levering van het vraagcentrum tot stand brengen, of in de 
 Om een nieuwe standalone levering van het vraagcentrum tot stand te brengen en te verzenden, volg deze belangrijkste stappen:
 
 1. Creeer de levering, [ lees meer ](#create-delivery)
-1. Selecteer het publiek, [ lees meer ](#select-audience)
+1. Bepaal het publiek, [ lees meer ](#select-audience)
 1. Bewerk de inhoud, [ lees meer ](#edit-content)
 1. De voorproef en verzendt de levering, [ lees meer ](#preview-send)
 
@@ -42,7 +43,7 @@ Voer de volgende stappen uit om de levering te maken en de eigenschappen ervan t
 >
 >U kunt plannen dat de levering op een bepaalde datum wordt verzonden. Raadpleeg deze [sectie](../msg/gs-deliveries.md#gs-schedule) voor meer informatie.
 
-## De doelgroep selecteren{#select-audience}
+## De doelgroep definiëren{#select-audience}
 
 Nu moet u het publiek definiëren dat voor het extractiebestand wordt gebruikt.
 
@@ -65,7 +66,7 @@ Nu moet u het publiek definiëren dat voor het extractiebestand wordt gebruikt.
 
 ## De inhoud bewerken{#edit-content}
 
-Nu, ontwerpen de inhoud van het extractiedossier dat door de levering van het vraagcentrum zal worden geproduceerd.
+Nu, geven de inhoud van het extractiedossier uit dat door de levering van het vraagcentrum zal worden geproduceerd.
 
 1. Klik op de knop **[!UICONTROL Edit content]** vanaf de leveringspagina.
 
@@ -101,7 +102,7 @@ Als de inhoud klaar is voor levering, kunt u een voorvertoning weergeven met tes
 
 De belangrijkste stappen voor het voorvertonen en verzenden van het extractiebestand zijn als volgt. Meer details zijn beschikbaar in [ deze pagina ](../direct-mail/send-direct-mail.md).
 
-1. Gebruik **[!UICONTROL Simulate content]** vanaf de pagina met inhoud voor levering.
+1. Klik op de knop **[!UICONTROL Simulate content]** vanaf de pagina met de inhoud voor levering.
 
    ![ Schermafbeelding die de simulatie inhoudsoptie in de pagina van de leveringsinhoud tonen ](assets/cc-simulate0.png){zoomable="yes"}
 
@@ -124,5 +125,3 @@ Zodra uw levering wordt verzonden, wordt het extractiedossier automatisch geprod
 Houd uw PKIs (Zeer belangrijke Indicator van Prestaties) gegevens van uw leveringspagina en gegevens van het **[!UICONTROL Logs]** menu bij.
 
 Begin het effect van uw bericht met ingebouwde rapporten te meten. [Meer informatie](../reporting/direct-mail.md)
-
-
