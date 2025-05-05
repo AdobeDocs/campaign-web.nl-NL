@@ -252,4 +252,4 @@ Nadat u uw e-mail hebt bekeken en getest, kunt u de voorbereiding starten en ver
 
 Leer hoe u een volledig nieuwe e-maillevering maakt, het publiek definieert, de inhoud ontwerpt, voorvertoning simuleert en een proefdruk verzendt.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3454011/?quality=12&captions=dut)

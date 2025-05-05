@@ -47,7 +47,7 @@ Campagne-clientconsole is een native toepassing die communiceert met de Adobe Ca
 
 In de volgende video wordt uitgelegd hoe u de Adobe Campaign Client Console kunt downloaden en installeren en hoe u de verbinding met uw instantie kunt beheren.
 
->[!VIDEO](https://video.tv.adobe.com/v/335375?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3449887?quality=12&learn=on&captions=dut){transcript=true}
 
 Voor meer informatie, zie [ verbinden met Campagne met de cliëntconsole ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/new/connect){target="_blank"}.
 
@@ -57,7 +57,7 @@ De clientconsole moet in een ondersteunde omgeving worden geïnstalleerd. Leer m
 
 In deze zelfstudie leert u meer over de Adobe Campaign v8-gebruikersinterface en hoe u door de hoofdfuncties kunt navigeren.
 
->[!VIDEO](https://video.tv.adobe.com/v/334496?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426441?quality=12&learn=on&captions=dut){transcript=true}
 
 Zie [ Werk met de cliëntconsole ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} voor meer details.
 
@@ -156,7 +156,7 @@ Zie de koppelingen naar andere nuttige bronnen hieronder:
 
 * In deze video ziet u welke doeldimensies en werktabellen zijn en hoe Adobe Campaign gegevens in verschillende gegevensbronnen beheert:
 
-  >[!VIDEO](https://video.tv.adobe.com/v/339992?quality=12&learn=on){transcript=true}
+  >[!VIDEO](https://video.tv.adobe.com/v/3452599?quality=12&learn=on&captions=dut){transcript=true}
 
 * Met de campagne kunt u contactpersonen toevoegen aan de Cloud-database. U kunt een dossier laden, veelvoudige contactupdates plannen en automatiseren, gegevens op het Web verzamelen, of profielinformatie direct in de ontvankelijke lijst ingaan.  Leer meer in de [ gegevens van de Invoer (console) documentatie ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/data/import){target="_blank"}.
 
@@ -206,7 +206,7 @@ Net als in Campaign Standard kunt u als beheerder abonnementenservices maken en 
 
 Leer lidmaatschappen instellen en beheren en leden targeten.
 
->[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3426562?quality=12&learn=on&captions=dut){transcript=true}
 
 * Zie de documentatie van het gebruikersinterface van het Web van de abonnementsdiensten [&#128279;](../../v8/audience/manage-subscribers.md).
 

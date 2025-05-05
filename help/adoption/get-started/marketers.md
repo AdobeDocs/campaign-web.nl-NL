@@ -33,7 +33,7 @@ Het belangrijkste verschil is in de gebruikersinterface. Onder een vergelijking 
 
 In de video hieronder, leer om tot het Web van de Campagne toegang te hebben en te navigeren gebruikersinterface en hoe te om de inventarislijsten aan te passen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453428?quality=12&learn=on&captions=dut){transcript=true}
 
 Raadpleeg de onderstaande documentatie voor meer informatie:
 
@@ -54,7 +54,7 @@ In Adobe Campaign is een profiel een record die is opgeslagen in de database en 
 
 1. Leer om tot profielen toegang te hebben, te beheren en te onderzoeken gebruikend het Web van de Campagne gebruikersinterface in deze video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3448370?quality=12&learn=on&captions=dut){transcript=true}
 
    Leer meer in [ worden begonnen met de documentatie van Profielen ](../../v8/audience/about-recipients.md).
 
@@ -66,7 +66,7 @@ Soorten publiek zijn groepen profielen met vergelijkbare gedragingen en/of kenme
 
 Leer om publiek te bouwen en te beheren, hoe te om publiek voor een levering te selecteren, en controlegroepen te bepalen, in deze video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453208?quality=12&learn=on&captions=dut){transcript=true}
 
 Verwijs naar [ worden begonnen met Soorten publiek ](../../v8/audience/manage-audience.md){target="_blank"} voor meer informatie.
 
@@ -144,7 +144,7 @@ De werkschemagebruikersinterface is volledig opnieuw voorgesteld in het gebruike
 
 Begrijp hoe werkstromen werken en hoe te om een het richten werkschema in deze video tot stand te brengen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453978?quality=12&learn=on&captions=dut){transcript=true}
 
 Krijg meer details met de [ documentatie van de Werkstroom ](../../v8/workflows/gs-workflows.md).
 
@@ -200,7 +200,7 @@ Nuttige koppelingen:
 
 Leer hoe u een geheel nieuwe e-maillevering maakt, het publiek definieert, de inhoud ontwerpt, voorvertoning simuleert en een proefdruk van deze video verzendt:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3454011?quality=12&learn=on&captions=dut){transcript=true}
 
 Leer hoe te om uw eerste gerichte e-mail in te creëren [ creeer uw eerste e-maildocumentatie ](../../v8/email/create-email.md)
 
@@ -212,13 +212,13 @@ In Campagne v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
    Begrijp hoe u door de Designer-e-mail kunt navigeren. In de volgende video ziet u hoe u een geheel nieuwe e-mail kunt structureren en ontwerpen, hoe u uw e-mail kunt personaliseren en testen:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3453571?quality=12&learn=on&captions=dut){transcript=true}
 
    Met de e-mailtoepassing Designer kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve drag-and-drop interface. Leer meer in de [ documentatie van Designer E-mail ](../../v8/email/get-started-email-designer.md)
 
    Leer hoe u een e-mail kunt maken door HTML te uploaden, hoe u deze compatibel kunt maken met de e-mail-Designer en hoe u deze kunt converteren naar een sjabloon in deze video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3447038?quality=12&learn=on&captions=dut){transcript=true}
 
    Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Leer meer over [ fragmenten van de Inhoud ](../../v8/content/fragments.md) om de verwezenlijking van uw e-maillevering te vereenvoudigen.
 
@@ -228,7 +228,7 @@ In Campagne v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
    In deze video ziet u hoe u een voorbeeld kunt weergeven van de inhoud en de persoonlijke weergave van e-mailberichten, testleveringen (proefdrukken) kunt verzenden en de rendering van e-mailberichten kunt controleren bij populaire desktops, mobiele en webclients:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3450343?quality=12&learn=on&captions=dut){transcript=true}
 
 1. **verzend e-mail en controlelogboeken**
 
