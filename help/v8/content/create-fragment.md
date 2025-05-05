@@ -56,7 +56,7 @@ Voer de onderstaande stappen uit om een volledig nieuw inhoudsfragment te maken.
 
    >[!AVAILABILITY]
    >
-   >Visuele fragmenten moeten worden bijgewerkt naar Campagne v8.6.4. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
+   >Visuele fragmenten moeten worden bijgewerkt naar Campagne v8.6.4. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes).
 
 1. Klik **creeer** knoop.
 

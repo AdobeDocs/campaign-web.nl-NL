@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Aanbiedingen toevoegen aan uw berichten {#offers-content}
 
-In de gebruikersinterface van Adobe Campaign Web kunt u aanbiedingen toevoegen aan uw leveringen. Deze aanbiedingen zijn beschikbaar bij **Aanbiedingen** linkermenu, dat u tot de lijst van aanbiedingen laat toegang hebben. Al deze aanbiedingen zijn read-only en moeten in de de cliëntconsole van de Campagne worden gecreeerd gebruikend de **[!UICONTROL Interaction]** module. Voor meer informatie over Interactie en hoe te om een aanbiedingscatalogus in de console te beheren, verwijs naar de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html){target="_blank"} .
+In de gebruikersinterface van Adobe Campaign Web kunt u aanbiedingen toevoegen aan uw leveringen. Deze aanbiedingen zijn beschikbaar bij **Aanbiedingen** linkermenu, dat u tot de lijst van aanbiedingen laat toegang hebben. Al deze aanbiedingen zijn read-only en moeten in de de cliëntconsole van de Campagne worden gecreeerd gebruikend de **[!UICONTROL Interaction]** module. Voor meer informatie over Interactie en hoe te om een aanbiedingscatalogus in de console te beheren, verwijs naar de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=nl-NL){target="_blank"} .
 
 De stappen voor het verzenden van voorstellen met levering zijn als volgt:
 
@@ -41,7 +41,7 @@ Volg onderstaande stappen om de voorstellen te selecteren die u aan uw levering 
 
 1. Vorm welke aanbiedingen aan de ontvangers zouden moeten worden voorgesteld.
 
-   Selecteer eerst de **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving. Leer hoe te om een aanbiedingsruimte in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html){target="_blank"} tot stand te brengen .
+   Selecteer eerst de **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving. Leer hoe te om een aanbiedingsruimte in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=nl-NL){target="_blank"} tot stand te brengen .
 
    ![ Schermafbeelding die de selectie van de aanbiedingsruimte in de inhoud van de aanbiedingsverwezenlijking toont ](assets/offer-create-content.png){zoomable="yes"}
 
@@ -101,7 +101,7 @@ Volg onderstaande stappen om een aanbieding in te voegen met de expressieeditor.
 
    >[!NOTE]
    >
-   >Het aantal beschikbare voorstellen hangt van de manier af de motorvraag wordt gevormd, en hun orde hangt van de prioriteit van aanbiedingen af. Leer meer in de [ documentatie van de Campagne v8 (cliëntconsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html){target="_blank"} .
+   >Het aantal beschikbare voorstellen hangt van de manier af de motorvraag wordt gevormd, en hun orde hangt van de prioriteit van aanbiedingen af. Leer meer in de [ documentatie van de Campagne v8 (cliëntconsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=nl-NL){target="_blank"} .
 
 1. Sla uw wijzigingen op.
 

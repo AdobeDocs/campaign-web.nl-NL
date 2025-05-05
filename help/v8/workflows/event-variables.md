@@ -26,7 +26,7 @@ Elk type van **voorwerp** wordt geassocieerd met een categorie van **variabelen*
 
 >[!NOTE]
 >
->De extra informatie over scripting en de blootgestelde voorwerpen en de variabelen in Adobe Campaign is beschikbaar in de Campagne v8 (cliëntconsole) documentatie in [ deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
+>De extra informatie over scripting en de blootgestelde voorwerpen en de variabelen in Adobe Campaign is beschikbaar in de Campagne v8 (cliëntconsole) documentatie in [ deze sectie ](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
 >
 >Merk op dat terwijl deze bron waardevolle inzichten aanbiedt, er discrepanties kunnen bestaan aangezien het specifiek op de cliëntconsole eerder dan het Gebruikersinterface van het Web van de Campagne van toepassing is.
 

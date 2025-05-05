@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!INFO]
 >
->Ga in een hands-on ervaring met [ binnen onze levende eigenschapvoorproef ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator), die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
+>Ga in een hands-on ervaring met [ binnen onze levende eigenschapvoorproef ](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator), die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
 Aangezien de marketing industrie concurrerender wordt, zoeken de merken efficiënte manieren om impactful inhoud snel te produceren. AI Assistant in Adobe Campaign Web, aangedreven door Microsoft Azure OpenAI en Adobe Firefly, is een Adobe AI-functie voor het genereren van inhoud die de manier transformeert waarop marketers professionele en merkconsistente inhoud maken via verschillende kanalen, zoals e-mail, SMS en pushberichten. Met geavanceerde GenAI-modellen en een goed begrip van de richtlijnen voor merken genereert AI Assistant automatisch persoonlijke, aantrekkelijke en effectieve inhoud op basis van het marketingdoel, waarbij de inhoud wordt geoptimaliseerd voor stijlen met een merknaam, lay-outs, kleurtinten en meer.
 
@@ -69,7 +69,7 @@ De algemene richtlijnen voor het gebruiken van AI Medewerker in het Web van Adob
 * Gebruik [ ingebouwde e-mailmalplaatjes ](../email/create-email-templates.md), merkspecifieke malplaatjes, of douanesjablonen om uw e-mailinhoud tot stand te brengen gebruikend AI Medewerker. E-mailsjablonen met maximaal 8-10 afbeeldingen worden aanbevolen.
 * Geef bij het selecteren van varianten aan welke problematische uitvoer dan ook de pictogrammen thumbs-up, thumbs-down of Markering moet gebruiken.
 * Op uw gebruik van AI Assistant zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
-* Als onderdeel van de Adobe-toezegging om het gebruik van generatieve AI-gereedschappen bij het maken van media transparant te maken, past Adobe Content Credentials toe wanneer inhoud of een project dat een door Firefly gegenereerd element bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/firefly/using/content-credentials.html).
+* Als onderdeel van de Adobe-toezegging om het gebruik van generatieve AI-gereedschappen bij het maken van media transparant te maken, past Adobe Content Credentials toe wanneer inhoud of een project dat een door Firefly gegenereerd element bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/nl/firefly/using/content-credentials.html).
 
 De volgende beperkingen gelden voor AI Assistant in Adobe Campaign Web:
 

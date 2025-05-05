@@ -160,7 +160,7 @@ Gebruik de component **[!UICONTROL Image]** om een afbeeldingsbestand van uw com
 
 1. Klik op **[!UICONTROL Browse]** om een afbeeldingsbestand uit uw elementen te kiezen. U kunt ook kiezen voor **[!UICONTROL Import your media]** .
 
-   Meer over het uploaden van en het toevoegen van activa in Adobe Experience Manager leren, verwijs naar [ documentatie van Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html).
+   Meer over het uploaden van en het toevoegen van activa in Adobe Experience Manager leren, verwijs naar [ documentatie van Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/add-assets.html?lang=nl-NL).
 
    ![ Schermafbeelding die de bladeroptie voor afbeeldingscomponenten in de e-mail-Designer toont.](assets/email_designer_28.png){zoomable="yes"}
 

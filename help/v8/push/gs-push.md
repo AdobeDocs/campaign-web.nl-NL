@@ -22,7 +22,7 @@ Voor het maken van pushberichten hebt u drie opties:
 
 * **stand-alone leveranties**: Sluit klanten direct en onmiddellijk met individuele levering van het dupbericht aan, zonder werkschema&#39;s of campagnes te vereisen.
 
-![](../assets/do-not-localize/book.png) Leer hoe te om het Push- berichtkanaal in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html){target="_blank"} te vormen .
+![](../assets/do-not-localize/book.png) Leer hoe te om het Push- berichtkanaal in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=nl-NL){target="_blank"} te vormen .
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

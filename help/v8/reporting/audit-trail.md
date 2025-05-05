@@ -26,7 +26,7 @@ De functie **[!UICONTROL Audit trail]** neemt voortdurend een gedetailleerd logb
 
 * **het de controlespoor van het Schema van Source** staat u toe om activiteiten en recente wijzigingen te controleren die aan uw schema&#39;s binnen de de cliëntconsole van de Campagne v8 worden aangebracht.
 
-  Voor gedetailleerde informatie over schema&#39;s, verwijs naar [ de Documentatie van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
+  Voor gedetailleerde informatie over schema&#39;s, verwijs naar [ de Documentatie van de Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
 * **het controletraject van het Werkschema** staat u toe om spoor van activiteiten en recente veranderingen te houden die aan werkschema&#39;s, met inbegrip van hun huidige staten zoals worden aangebracht:
 
@@ -43,7 +43,7 @@ De functie **[!UICONTROL Audit trail]** neemt voortdurend een gedetailleerd logb
 
 * **de controlespoor van de Optie** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw opties in Campagne v8 worden aangebracht.
 
-  Voor meer informatie over opties, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Voor meer informatie over opties, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **de controletrail van de Levering** staat u toe om de activiteiten en de laatste wijzigingen te controleren die aan uw leveringen worden gedaan.
 
@@ -55,11 +55,11 @@ De functie **[!UICONTROL Audit trail]** neemt voortdurend een gedetailleerd logb
 
 * **Afbeelding van de Levering** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw Aflevering in Campagne v8 worden aangebracht.
 
-  Voor meer informatie over leveringsafbeelding, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
+  Voor meer informatie over leveringsafbeelding, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
 * **Toepassing van het Web** staat u toe om wijzigingen te controleren die aan de vormen van het Web in Campagne v8 worden aangebracht, die worden gebruikt om pagina&#39;s met input en selectievelden tot stand te brengen, en die gegevens van het gegevensbestand kunnen omvatten.
 
-  Voor meer informatie over Webtoepassingen, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/webapps).
+  Voor meer informatie over Webtoepassingen, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/content/webapps).
 
 * **Aanbieding** staat u toe om de activiteiten en de laatste wijzigingen te controleren die aan uw aanbiedingen worden gedaan.
 
@@ -67,7 +67,7 @@ De functie **[!UICONTROL Audit trail]** neemt voortdurend een gedetailleerd logb
 
 * **Exploitant** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw Operatoren in Campagne v8 worden aangebracht.
 
-  Voor meer informatie over exploitanten, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
+  Voor meer informatie over exploitanten, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 
 +++
 

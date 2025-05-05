@@ -16,7 +16,7 @@ ht-degree: 1%
 >id="acw_homepage_welcome_rn5"
 >title="Landingspagina&#39;s genereren met AI"
 >abstract="U kunt nu de AI Assistant gebruiken om uw openingspagina-items te maken, zodat u tekst, afbeeldingen of volledige paginalay-outs kunt genereren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 >[!IMPORTANT]
 >

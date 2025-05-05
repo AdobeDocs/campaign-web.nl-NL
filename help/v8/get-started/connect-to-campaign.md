@@ -21,7 +21,7 @@ Voer de volgende eenvoudige stappen uit om u aan te melden bij Adobe Experience 
 
 1. Blader naar [ Adobe Experience Cloud ](https://experience.adobe.com/){target="_blank"}.
 
-1. Meld u aan met uw Adobe ID of Enterprise ID. Leer meer over identiteitstypes bij Adobe in [ dit artikel ](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"}.
+1. Meld u aan met uw Adobe ID of Enterprise ID. Leer meer over identiteitstypes bij Adobe in [ dit artikel ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
 
    Nadat u zich hebt aangemeld bij Experience Cloud, hebt u snel toegang tot al uw oplossingen en toepassingen.
 
@@ -99,7 +99,7 @@ Blader naar de bovenste balk van de interface:
 * Deel feedback over de gebruikersinterface van Campagne Web.
 * Schakel tussen uw organisaties.
 * Schakel tussen uw Adobe Experience Cloud-oplossingen en -toepassingen.
-* Zoek naar hulp op [ de Liga van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/){target="_blank"}.
+* Zoek naar hulp op [ de Liga van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/?lang=nl-NL){target="_blank"}.
 * Controleer de productmeldingen.
 * Bewerk uw profiel van Adobe en beheer montages, zoals [ werk uw favoriete taal ](#language-pref) of [ schakelaar aan licht/donker thema ](#dark-theme) bij.
 
@@ -145,6 +145,6 @@ De taal wijzigen:
 
 Adobe Campaign is beschikbaar in lichte en donkere thema&#39;s. Standaard is de gebruikersinterface ingeschakeld in licht thema. Om op het donkere thema over te schakelen, klik op uw profielpictogram, en gebruik **Donkere thema** knevel om het toe te laten of onbruikbaar te maken.
 
-De het profielmontages en de rekeningsvoorkeur van de gebruiker zijn gedetailleerd in [ deze sectie ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html#preferences){target="_blank"}.
+De het profielmontages en de rekeningsvoorkeur van de gebruiker zijn gedetailleerd in [ deze sectie ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=nl-NL#preferences){target="_blank"}.
 
-Leer meer over de Componenten van de Interface van Experience Cloud Centrale in [ deze documentatie ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html){target="_blank"}.
+Leer meer over de Componenten van de Interface van Experience Cloud Centrale in [ deze documentatie ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=nl-NL){target="_blank"}.

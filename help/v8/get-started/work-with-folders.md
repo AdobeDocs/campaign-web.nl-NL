@@ -62,7 +62,7 @@ Stel het maptype in door op de knop **[!UICONTROL Confirm]** te klikken.
 
 Als u een map zonder specifiek type wilt maken, selecteert u het type **[!UICONTROL Generic Folder]** .
 
-U kunt ook [ omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views) tot stand brengen en leiden.
+U kunt ook [ omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/config/configuration/folders-and-views) tot stand brengen en leiden.
 
 ## Mappen opnieuw ordenen {#reorder-folders}
 
