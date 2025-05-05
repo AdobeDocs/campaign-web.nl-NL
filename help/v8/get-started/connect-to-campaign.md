@@ -41,7 +41,7 @@ Als u al bent verbonden met een andere Adobe Experience Cloud-oplossing, bladert
 
 ![ Screenshot die de oplossingsschakelaar in Adobe Experience Cloud ](assets/solution-switcher.png){zoomable="yes"} tonen
 
-Als u toegang tot veelvoudige milieu&#39;s, met inbegrip van het Controlebord van de Campagne hebt, klik de **1} knoop van de Lancering {voor de correcte instantie.**
+Als u toegang tot veelvoudige milieu&#39;s, met inbegrip van het Controlebord van de Campagne hebt, klik de **1&rbrace; knoop van de Lancering &lbrace;voor de correcte instantie.**
 
 ![ Schermafbeelding die de knoop van de Lancering voor Adobe Campaign toont ](assets/launch-campaign.png){zoomable="yes"}
 

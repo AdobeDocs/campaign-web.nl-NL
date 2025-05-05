@@ -19,7 +19,7 @@ U kunt uw Campagne-omgeving verbinden met Adobe Experience Cloud-oplossingen en 
 
 Adobe Campaign bevat verschillende connectors waarmee u kunt communiceren met externe toepassingen, verbinding kunt maken met database-engines en gegevens kunt delen en synchroniseren. Adobe configureert deze verbindingen.
 
-Leer welke oplossingen en toepassingen met Campagne, samen met de bijbehorende gebruiksgevallen, in [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html) {target="_blank"} kunnen worden verbonden.
+Leer welke oplossingen en toepassingen met Campagne, samen met de bijbehorende gebruiksgevallen, in [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/integration.html){target="_blank"}  kunnen worden verbonden.
 
 Bovendien kunt u met de nieuwe gebruikersinterface van het Web van de Campagne, uw milieu van Adobe Experience Manager as a Cloud Service verbinden om de volgende gebruiksgevallen te bereiken:
 

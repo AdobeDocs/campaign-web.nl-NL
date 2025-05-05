@@ -60,7 +60,8 @@ Volg deze stappen om de **Planner** activiteit te vormen:
    * **Vaste (verloopt nooit)**: Het werkschema wordt uitgevoerd volgens de gespecificeerde frequentie, zonder enige grenzen aan het tijdkader of aantal herhalingen.
    * **periode van de Geldigheid**: Het werkschema wordt uitgevoerd volgens de gespecificeerde frequentie, tot een specifieke datum. Begin- en einddatum opgeven.
 
->[!NOTE]\
+>[!NOTE]
+>\
 >Als u het werkschema wilt onmiddellijk beginnen, **voert hangende taak** in de hoogste actiebar van de planner uit. Deze knop is alleen beschikbaar wanneer de workflow is gestart.
 
 ## Voorbeeld {#scheduler-example}

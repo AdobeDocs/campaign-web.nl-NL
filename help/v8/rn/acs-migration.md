@@ -41,7 +41,7 @@ De gebruikersinterface van het Web van de Campagne wordt ontworpen voor marketer
 * **converter van HTML voor e-mailontwerp**. [Meer informatie](../email/existing-content.md).
 * **SMS met aanbiedingen**. [Meer informatie](../msg/offers.md).
 
-De de cliëntconsole van de Campagne wordt ontworpen voor beheerders en ontwikkelaars om hun milieu te vormen en aan te passen. De zeer belangrijke mogelijkheden beschikbaar in de de cliëntconsole van de Campagne worden gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new) {target="_blank"}.
+De de cliëntconsole van de Campagne wordt ontworpen voor beheerders en ontwikkelaars om hun milieu te vormen en aan te passen. De zeer belangrijke mogelijkheden beschikbaar in de de cliëntconsole van de Campagne worden gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new){target="_blank"} .
 
 >[!NOTE]
 >

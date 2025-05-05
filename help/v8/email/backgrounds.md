@@ -40,7 +40,8 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken:
   [ pas unieke achtergrondkleuren op individuele structuurcomponenten via de navigatieboom toe.]\
   ![](assets/background_3.png){zoomable="yes"}
 
-  >[!NOTE]\
+  >[!NOTE]
+  >\
   >Zorg ervoor dat u geen achtergrondkleur voor de viewport instelt, omdat hierdoor mogelijk de achtergrondkleuren van de structuur worden verborgen.
 
 * Stel een **[!UICONTROL Background image]** in voor de inhoud van een structuurcomponent.
@@ -48,7 +49,8 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken:
   [ voeg een achtergrondbeeld aan de inhoud van een specifieke structuurcomponent toe.]\
   ![](assets/background_4.png){zoomable="yes"}
 
-  >[!NOTE]\
+  >[!NOTE]
+  >\
   >Sommige e-mailprogramma&#39;s ondersteunen achtergrondafbeeldingen niet. Als deze optie niet wordt ondersteund, wordt in plaats daarvan de achtergrondkleur van de rij gebruikt. Selecteer een geschikte achtergrondkleur voor fallback als de afbeelding niet kan worden weergegeven.
 
 * Stel een achtergrondkleur in op kolomniveau.
@@ -56,7 +58,8 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken:
   [ pas een achtergrondkleur op het kolomniveau voor grotere flexibiliteit toe.]\
   ![](assets/background_5.png){zoomable="yes"}
 
-  >[!NOTE]\
+  >[!NOTE]
+  >\
   >Dit is het meest gebruikte geval. Adobe raadt aan achtergrondkleuren in te stellen op kolomniveau, omdat dit meer flexibiliteit biedt bij het bewerken van de volledige e-mailinhoud.
 
   U kunt ook een achtergrondafbeelding instellen op kolomniveau, maar dit wordt zelden gebruikt.

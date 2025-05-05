@@ -134,7 +134,7 @@ Definieer de eigenschappen van de typologieregel:
 
    **[!UICONTROL At the end of the analysis]**: Pas controles toe die volledige berichtpersonalisatie vereisen.
 
-+++
+   +++
 
    * **[!UICONTROL Level]**: geef het waarschuwingsniveau voor de regel op. Vouw de onderstaande sectie uit voor meer informatie.
 
@@ -148,7 +148,7 @@ Definieer de eigenschappen van de typologieregel:
 
    **[!UICONTROL Verbose]**: geef informatie weer in de serverlogboeken.
 
-+++
+   +++
 
 ### Regelinhoud samenstellen {#build}
 

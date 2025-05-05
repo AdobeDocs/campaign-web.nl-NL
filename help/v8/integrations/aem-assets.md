@@ -16,13 +16,13 @@ ht-degree: 1%
 
 [!DNL Adobe Experience Manager Assets as a Cloud Service] is een geïntegreerd platform voor samenwerking dat is ontworpen om uw creatieve workflow te stroomlijnen en digitale middelen te centraliseren voor een naadloze weergave van ervaringen. Het vereenvoudigt de organisatie, het etiketteren, en het terugwinnen van goedgekeurde productiemiddelen, die merkconsistentie tussen teams verzekeren. Met de gebruikersvriendelijke interface van [!DNL Assets as Cloud Service] hebt u direct toegang tot en kunt u elementen delen in uw Adobe Creative- en Experience Cloud-toepassingen.
 
-Leer meer in [ documentatie van Adobe Experience Manager Assets as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html) {target="_blank"}.
+Leer meer in [ documentatie van Adobe Experience Manager Assets as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html){target="_blank"} .
 
 ## Elementen uploaden en invoegen{#add-asset}
 
 Als u bestanden wilt importeren naar [!DNL Assets as Cloud Service] , bladert u naar de map waarin de bestanden worden opgeslagen of maakt u deze. Voeg ze vervolgens in uw e-mailinhoud in.
 
-Voor meer informatie over hoe te om activa te uploaden, verwijs naar [ documentatie van as a Cloud Service van Adobe Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html) {target="_blank"}.
+Voor meer informatie over hoe te om activa te uploaden, verwijs naar [ documentatie van as a Cloud Service van Adobe Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html){target="_blank"} .
 
 1. Open vanaf uw startpagina het geavanceerde menu en selecteer [!DNL Experience Manager Assets] .
 

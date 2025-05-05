@@ -23,7 +23,8 @@ ht-degree: 0%
 
 Adobe Campaign Web omvat technische opties die u toestaan om de toepassing meer specifiek te vormen. Sommige van deze opties zijn ingebouwd, terwijl andere indien nodig handmatig kunnen worden toegevoegd.
 
->[!IMPORTANT]\
+>[!IMPORTANT]
+>\
 >Ingebouwde opties zijn vooraf geconfigureerd en mogen alleen door gevorderde gebruikers worden gewijzigd. Neem contact op met uw Adobe-vertegenwoordiger als u vragen of verzoeken hebt.
 
 ## Opties voor Access Campaign {#access}
@@ -33,8 +34,9 @@ U kunt opties kiezen in het menu **[!UICONTROL Administration]** / **[!UICONTROL
 ![](assets/options-list.png)\
 [ lijst van Opties die in het Beleid/menu van Opties wordt getoond ]
 
->[!NOTE]\
->Hoewel de locatie van het optiemenu verschilt tussen de Adobe Campaign-console en de webgebruikersinterface, is de lijst identiek en werkt deze als een spiegel. Voor meer details over de beschikbare opties, verwijs naar de lijst van opties in [ de documentatie van de Campagne v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options) {target="_blank"}.
+>[!NOTE]
+>\
+>Hoewel de locatie van het optiemenu verschilt tussen de Adobe Campaign-console en de webgebruikersinterface, is de lijst identiek en werkt deze als een spiegel. Voor meer details over de beschikbare opties, verwijs naar de lijst van opties in [ de documentatie van de Campagne v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"} .
 
 In de lijst met opties kunt u:
 

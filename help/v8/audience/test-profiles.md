@@ -57,7 +57,7 @@ Daarna kunt u naar mappen of submappen bladeren, deze maken en beheren, en de bi
 
 ![ de omslagmening van de Profielen van de Test ](assets/test-profiles-folders.png){zoomable="yes"}
 
-Van de **[!UICONTROL Explorer]** mening, kunt u ook filtreren, schrappen, uitgeven, en [ ](#create-test-profile) testprofielen creëren.
+Van de **[!UICONTROL Explorer]** mening, kunt u ook filtreren, schrappen, uitgeven, en [&#128279;](#create-test-profile) testprofielen creëren.
 
 ## Een testprofiel maken {#create-test-profile}
 

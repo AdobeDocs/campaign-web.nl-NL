@@ -33,7 +33,7 @@ Adobe Campaign v8 is het campagneprogramma van de volgende generatie dat is ontw
 
 Campagne gebruiken om:
 
-* **verpersoonlijking van de Aandrijving 1} en overeenkomst door één enkele toegankelijke mening van de klant.**
+* **verpersoonlijking van de Aandrijving 1&rbrace; en overeenkomst door één enkele toegankelijke mening van de klant.**
 * **integreer** e-mail, mobiel, online, en off-line kanalen in de klantenreis.
 * **automatiseer** de levering van zinvolle en geschikte berichten en aanbiedingen.
 

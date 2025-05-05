@@ -38,7 +38,7 @@ Met campagnes kunt u op twee manieren een workflow maken:
 
    ![ Schermafbeelding van de interface voor het creëren van een standalone werkschema ](assets/create-a-standalone-wf.png){zoomable="yes"}
 
-1. De werkschema&#39;s kunnen direct binnen een campagne van het **1} lusje van het Werkschema {van de campagne worden gecreeerd.** Wanneer inbegrepen in een campagne, voert het werkschema samen met alle andere werkschema&#39;s van de campagne uit, en de rapporteringsmetriek wordt gegroepeerd op campagneniveau.
+1. De werkschema&#39;s kunnen direct binnen een campagne van het **1&rbrace; lusje van het Werkschema &lbrace;van de campagne worden gecreeerd.** Wanneer inbegrepen in een campagne, voert het werkschema samen met alle andere werkschema&#39;s van de campagne uit, en de rapporteringsmetriek wordt gegroepeerd op campagneniveau.
 
    ![ Schermafbeelding van de interface voor het creëren van een werkschema binnen een campagne ](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
 

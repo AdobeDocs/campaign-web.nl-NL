@@ -23,7 +23,7 @@ Met bestemmingspagina&#39;s kunt u uw gebruikers naar onlineformulieren sturen w
 >
 >Landing de pagina&#39;s die u in het de gebruikersinterface van het Web van de Campagne creeert zijn verschillend van de Webvormen die van de cliëntconsole worden gecreeerd. U kunt webformulieren die in de clientconsole zijn gemaakt, niet weergeven of bewerken in de gebruikersinterface van Campagne Web.
 >
->Leer meer over Webvormen in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html) {target="_blank"}.
+>Leer meer over Webvormen in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"} .
 
 De belangrijkste mogelijkheden voor bestemmingspagina&#39;s worden hieronder vermeld:
 

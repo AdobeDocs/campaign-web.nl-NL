@@ -89,7 +89,7 @@ De extra instructies op hoe te met publiek te werken zijn beschikbaar in [ deze 
 
    >[!NOTE]
    >
-   >Het publiek dat in de lijst beschikbaar is, komt uit uw Campagne v8-exemplaar of uit Adobe Experience Platform als de integratie tussen Doel en Source op uw exemplaar is geconfigureerd. Dankzij deze integratie kunt u Experience Platform-segmenten naar Adobe Campaign verzenden en Campagne leveren en logbestanden bijhouden naar Adobe Experience Platform. Leer hoe te met Campagne en Adobe Experience Platform in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html) {target="_blank"} te werken.
+   >Het publiek dat in de lijst beschikbaar is, komt uit uw Campagne v8-exemplaar of uit Adobe Experience Platform als de integratie tussen Doel en Source op uw exemplaar is geconfigureerd. Dankzij deze integratie kunt u Experience Platform-segmenten naar Adobe Campaign verzenden en Campagne leveren en logbestanden bijhouden naar Adobe Experience Platform. Leer hoe te met Campagne en Adobe Experience Platform in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}  te werken.
 
 1. Als het publiek is geselecteerd, kunt u het doel verder verfijnen door aanvullende regels toe te passen.
 
@@ -222,7 +222,7 @@ In de volgende gevallen wordt de simulatie van inhoud niet ondersteund:
 
 <!--* When a multilingual delivery contains only one locale,-->
 * met onderling samenhangende leveringen,
-* Wanneer uw de plaatsingsmodel van de Campagne [ Volledige Verbond van de Onderneming van Adobe Campaign Toegang (FFDA) ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment) {target="_blank"} is
+* Wanneer uw de plaatsingsmodel van de Campagne [ Volledige Verbond van de Onderneming van Adobe Campaign Toegang (FFDA) ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/architecture/ffda/enterprise-deployment){target="_blank"}  is
 * Wanneer er geen bestand is geüpload.
 
 ## E-mail verzenden en controleren {#prepare-send}

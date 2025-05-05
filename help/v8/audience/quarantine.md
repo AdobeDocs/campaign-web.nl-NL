@@ -30,7 +30,7 @@ Wanneer een adres in quarantined in Adobe Campaign is, wordt het profiel automat
 
 Quarantine verlaagt de verzendkosten van SMS door onjuiste telefoonnummers uit te sluiten van leveringen.
 
-Leer meer over quarantines in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines) {target="_blank"}.
+Leer meer over quarantines in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"} .
 
 ## Waarom een adres naar quarantaine wordt verzonden {#quarantines-why}
 
@@ -41,7 +41,7 @@ Vele redenen kunnen een adres naar quarantaine verzenden:
 * Voor e-mail, wanneer uw bericht als spam wordt gemeld. Het bericht wordt automatisch opnieuw gericht aan een technische brievenbus die door Adobe wordt beheerd. Het e-mailadres van de gebruiker wordt dan automatisch verzonden naar quarantaine met de Gevoegde op lijst van gewenste personen status.
 * Een e-mailadres kan in quarantaine worden geplaatst, bijvoorbeeld wanneer de brievenbus volledig is, als het adres niet bestaat, of als de e-mailserver niet beschikbaar is.
 
-Leer meer over leveringsmislukkingen in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures) {target="_blank"}.
+Leer meer over leveringsmislukkingen in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"} .
 
 ## Locatie van de quarantaineadressen {#quarantines-where}
 

@@ -18,7 +18,7 @@ Als u berichten naar uw abonnees wilt verzenden, maakt u een specifiek publiek o
 
 1. Maak een publiek. Er wordt automatisch een nieuwe workflow gemaakt. [ leer meer over publiek ](../audience/create-audience.md).
 
-1. Voor betere leesbaarheid, verander de naam van het werkschema op het gebied van het Etiket van de werkschemamontages ****. [ Leer hoe te om werkschemamontages ](../workflows/workflow-settings.md) te vormen.
+1. Voor betere leesbaarheid, verander de naam van het werkschema op het gebied van het Etiket van de werkschemamontages **&#x200B;**. [ Leer hoe te om werkschemamontages ](../workflows/workflow-settings.md) te vormen.
 
 1. Open de **[!UICONTROL Build audience]** -activiteit en selecteer **[!UICONTROL Create audience]** . [ Leer hoe te om een het publieksactiviteit van de Bouwstijl ](../workflows/activities/build-audience.md) te vormen.
 

@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Orchestraten {#orchestrate}
 
-Zodra u een werkschema ](create-workflow.md) hebt gecreeerd, of van het werkschemamenu of binnen een campagne, kunt u beginnen de verschillende taken te ordenen het uitvoert. [ Hiervoor wordt een visueel canvas verschaft, zodat u een workflowdiagram kunt maken. Binnen dit diagram, kunt u diverse activiteiten toevoegen en hen in een opeenvolgende orde verbinden.
+Zodra u een werkschema [&#128279;](create-workflow.md) hebt gecreeerd, of van het werkschemamenu of binnen een campagne, kunt u beginnen de verschillende taken te ordenen het uitvoert.  Hiervoor wordt een visueel canvas verschaft, zodat u een workflowdiagram kunt maken. Binnen dit diagram, kunt u diverse activiteiten toevoegen en hen in een opeenvolgende orde verbinden.
 
 ## Activiteiten toevoegen {#add}
 
@@ -60,7 +60,7 @@ U kunt:
 * **Exemplaar** de activiteit. Zie [deze sectie](#copy).
 * **beweging** een activiteit en al zijn kindknopen aan een andere overgang. Zie [deze sectie](#move).
 * Heb toegang tot de opties van de activiteit **Uitvoering**.
-* Heb toegang tot de Logboeken en de taken van de activiteit ****.
+* Heb toegang tot de Logboeken en de taken van de activiteit **&#x200B;**.
 
 Verscheidene **richtend** activiteiten, zoals **combineren** of **Deduplicatie**, staat u toe om de resterende bevolking te verwerken en het in een extra uitgaande overgang te omvatten. Bijvoorbeeld, als u a **Gesplitste** activiteit gebruikt, bestaat de aanvulling uit de bevolking die om het even welke eerder bepaalde ondergroepen niet aanpast. Om dit vermogen te gebruiken, activeer **aanvult** optie.
 

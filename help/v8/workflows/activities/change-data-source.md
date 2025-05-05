@@ -58,7 +58,7 @@ Volg deze stappen om de **gegevensbron van de Verandering** activiteit te vormen
 
      >[!AVAILABILITY]
      >
-     >De configuratie van de campagne en de verbinding aan externe systemen worden beperkt tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole. [ leer meer ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html) {target="_blank"}
+     >De configuratie van de campagne en de verbinding aan externe systemen worden beperkt tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole. [ leer meer ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"} 
 
 1. Configureer uw workflow om de gewenste bewerkingen uit te voeren met de nieuwe gegevensbron.
 

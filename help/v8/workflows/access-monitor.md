@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Het menu **[!UICONTROL Workflows]** biedt toegang tot de volledige lijst met workflows. Deze lijst omvat zowel **standalone werkschema&#39;s**, die van dit scherm worden gecreeerd, en **campagnewerkschema&#39;s**, binnen een campagne worden gecreeerd.
 
-{het lijstscherm van het 0} Werkschema dat standalone en campagnewerkschema&#39;s toont ](assets/workflow-list.png){zoomable="yes"}![
+{het lijstscherm van het 0} Werkschema dat standalone en campagnewerkschema&#39;s toont ![&#128279;](assets/workflow-list.png){zoomable="yes"}
 
 Elk werkschema in de lijst toont informatie over zijn huidige [ status ](#status), de laatste tijd het werd uitgevoerd of, en de volgende geplande uitvoeringsdatum en tijd gewijzigd.
 

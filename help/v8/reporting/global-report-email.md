@@ -171,7 +171,7 @@ In de tabel en grafiek van **[!UICONTROL Breakdown of errors per domain]** worde
 >[!CONTEXTUALHELP]
 >id="acw_global_delivery_statistics_summary_email"
 >title="Leveringsstatistieken"
->abstract="De **Zeer belangrijke Indicatoren van Prestaties van de Statistieken van de Levering van 0} {(KPIs) verstrekken een uitvoerig overzicht van uw leverings en campagneprestaties, die inzichten in zowel succesvolle leveranties aanbieden, fouten, en gebruikersovereenkomst ondervonden.**"
+>abstract="De **Zeer belangrijke Indicatoren van Prestaties van de Statistieken van de Levering van 0&rbrace; &lbrace;(KPIs) verstrekken een uitvoerig overzicht van uw leverings en campagneprestaties, die inzichten in zowel succesvolle leveranties aanbieden, fouten, en gebruikersovereenkomst ondervonden.**"
 
 De metriek van **[!UICONTROL Delivery statistics]** biedt zeer belangrijke prestatiesindicatoren (KPIs), die gedetailleerde informatie betreffende de gegevens verstrekken verbonden aan elke e-maillevering. Hieronder vindt u nadere informatie over deze cijfers.
 

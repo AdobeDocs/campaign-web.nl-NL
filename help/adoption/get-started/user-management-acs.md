@@ -48,7 +48,7 @@ In zowel Adobe Campaign Standard als Campagne v8, **de groepen van de Veiligheid
 
 >[!IMPORTANT]
 >
->Tijdens migratie van Adobe Campaign Standard aan Campagne v8, zullen de gebruikers met de **rol van het 0} Model van Gegevens maar niet** Beleid **automatisch** toegang van het Beleid **krijgen, aangezien de schemaverwezenlijking in Campagne v8 beleidsrechten vereist.** Om dit te verhinderen, verwijder hun **rol van het 0} Model van Gegevens {vóór migratie.**
+>Tijdens migratie van Adobe Campaign Standard aan Campagne v8, zullen de gebruikers met de **rol van het 0&rbrace; Model van Gegevens maar niet** Beleid **automatisch** toegang van het Beleid **krijgen, aangezien de schemaverwezenlijking in Campagne v8 beleidsrechten vereist.** Om dit te verhinderen, verwijder hun **rol van het 0&rbrace; Model van Gegevens &lbrace;vóór migratie.**
 
 In Adobe Campaign Standard, wordt de termijn **rol van de Gebruiker** bedoeld als **Genoemd recht** in Campagne v8. De lijst beschrijft hieronder de terminologie die voor **wordt gebruikt Genoemde rechten** in Campagne v8 die aan **gebruikersrollen** in Campaign Standard beantwoordt.
 

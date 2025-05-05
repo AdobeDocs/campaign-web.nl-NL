@@ -105,7 +105,7 @@ De types van fouten zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documen
 >[!CONTEXTUALHELP]
 >id="acw_global_reporting_throughput_sms"
 >title="Productie van SMS-berichten"
->abstract="Het **rapport van de productie van 0} Levering {verstrekt uitgebreide inzichten in de efficiency van het systeem van de berichtlevering van SMS, die een gedetailleerd overzicht van succes en foutentarieven binnen een gespecificeerd tijdskader voorstellen.**"
+>abstract="Het **rapport van de productie van 0&rbrace; Levering &lbrace;verstrekt uitgebreide inzichten in de efficiency van het systeem van de berichtlevering van SMS, die een gedetailleerd overzicht van succes en foutentarieven binnen een gespecificeerd tijdskader voorstellen.**"
 
 ![ A screenshot van het rapport van de Output van de Levering, die succes en foutenpercentages voor de leveringen van SMS in tijd tonen.](assets/global_report_sms_delivery_throughput.png){zoomable="yes"}
 
