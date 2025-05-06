@@ -2,20 +2,14 @@
 title: Externe account beheren
 description: Leer hoe u externe accounts kunt configureren
 exl-id: e37d6cb0-f8fa-4f1c-9cdd-46f9666c2d18
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 59f41ed2074484727a66a164b3633cb113b1f4af
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 1%
+source-wordcount: '1221'
+ht-degree: 4%
 
 ---
 
 # Externe accounts beheren {#external-accounts}
-
->[!AVAILABILITY]
->
->* De externe rekeningen zijn momenteel beschikbaar slechts voor Stuitende berichten (POP3), het Verpletteren, en de instantie van de Uitvoering. Aanvullende accounttypen worden later toegevoegd.
->
->* Niet-ondersteunde externe accounts die zijn gemaakt in de Adobe Campaign-console zijn zichtbaar in de webgebruikersinterface, maar kunnen niet worden bewerkt of geopend.
 
 Adobe Campaign bevat vooraf geconfigureerde externe accounts die eenvoudig kunnen worden geïntegreerd met verschillende systemen. Als u verbinding wilt maken met extra platforms of verbindingen wilt aanpassen aan uw workflow, maakt u nieuwe externe accounts met de webgebruikersinterface. Dit zorgt voor naadloze gegevensoverdracht.
 
@@ -63,10 +57,6 @@ Afhankelijk van het geselecteerde externe accounttype voert u de onderstaande st
 
 ### Stuitberichten (POP3) {#bounce}
 
->[!AVAILABILITY]
->
-> OAuth 2.0 wordt momenteel niet ondersteund.
-
 Met de externe account Bounce mails wordt de externe POP3-account opgegeven die wordt gebruikt om verbinding te maken met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen terugkeerpost ontvangen.
 
 ![ Screenshot die de de post van de Stuits (POP3) externe gebieden van de rekeningsconfiguratie toont.](assets/external_account_bounce.png)
@@ -88,6 +78,33 @@ Als u de **[!UICONTROL Bounce mails (POP3)]** externe account wilt configureren,
    * POP3 beveiligd boven SSL (standaard poort 995).
 
 * **[!UICONTROL Function]** - Selecteer **[!UICONTROL Inbound email]** om het account voor het ontvangen van inkomende e-mails te configureren of **[!UICONTROL SOAP router]** om SOAP-aanvragen af te handelen.
+
+>[!IMPORTANT]
+>
+>Voordat u uw POP3-externe account configureert met Microsoft OAuth 2.0, moet u uw toepassing eerst registreren in de Azure-portal. Raadpleeg [deze pagina](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app){target=_blank} voor meer informatie.
+
+Als u een POP3-extern wilt configureren met Microsoft OAuth 2.0, schakelt u de optie Microsoft OAuth 2.0 in en vult u de volgende velden in:
+
+* **[!UICONTROL Azure Tenant]**
+
+  Azure ID (of Directory (huurder) ID) vindt u in de keuzelijst Essentiële elementen van het overzicht van uw toepassing in het Azure-portaal.
+
+* **[!UICONTROL Azure Client ID]**
+
+  Client ID (of Application (client)-id) vindt u in de keuzelijst Essentiële elementen van het overzicht van de toepassing in het Azure-portaal.
+
+* **[!UICONTROL Azure Client Secret]**
+
+  Identiteitskaart van het geheim van de cliënt kan in de geheimkolom van de Cliënt van het Certificaten &amp; geheimen menu van uw toepassing in het Azure portaal worden gevonden.
+
+
+* **[!UICONTROL Azure Redirect URL]**
+
+  De omleiding URL kan in het menu van de Authentificatie van uw toepassing in het Azure portaal worden gevonden. Deze moet eindigen met de volgende syntaxis nl/jsp/oauth.jsp, bijvoorbeeld `https://redirect.adobe.net/nl/jsp/oauth.jsp` .
+
+De toegang van Internet is nodig voor opstelling en om de knoop van de Verbinding van de Test in de cliëntconsole te gebruiken. Na installatie kan het InMail-proces zonder internet communiceren met Microsoft-servers.
+
+Nadat u de verschillende referenties hebt ingevoerd, kunt u op Setup klikken om de configuratie van uw externe account te voltooien.
 
 ### Routering {#routing}
 
@@ -131,6 +148,117 @@ U configureert als volgt de externe account van **[!UICONTROL Execution instance
 
 * **[!UICONTROL Method]** - Kies tussen de webservice of FDA (Federated Data Access).
 
-  Selecteer voor FDA uw FDA-account. Merk op dat de verbinding van de campagne aan externe systemen tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole wordt beperkt. [Meer informatie](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/connect/fda#_blank)
+  Selecteer voor FDA uw FDA-account. Merk op dat de verbinding van de campagne aan externe systemen tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole wordt beperkt. [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Create archiving workflow]** - Voor elke uitvoeringsinstantie die in het Berichtencentrum wordt geregistreerd, ongeacht of u één of meerdere instanties hebt, creeer een afzonderlijke archiveringswerkstroom voor elke externe rekening verbonden aan de uitvoeringsinstantie.
+
+## Externe accounts bij integratie van Adobe-oplossingen
+
+### Adobe Experience Cloud
+
+Als u verbinding wilt maken met de Adobe Campaign-console via een Adobe ID, moet u de externe Adobe Experience Cloud-account (MAC) configureren.
+
+![ Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Adobe Experience Cloud MAC toont.](assets/external-MAC.png)
+
+* **[!UICONTROL IMS server]**
+
+  URL van uw IMS-server. Zorg ervoor zowel stadium als de productie instanties aan het zelfde IMS productieeindpunt richten.
+
+* **[!UICONTROL IMS scope]**
+
+  De hier gedefinieerde bereiken moeten een subset zijn van de gebieden die door IMS zijn ingericht.
+
+* **[!UICONTROL IMS client identifier]**
+
+  ID van uw IMS-client.
+
+* **[!UICONTROL IMS client secret]**
+
+  Credentials van het geheim van de IMS-client.
+
+* **[!UICONTROL Callback server]**
+
+  Toegang tot URL van je Adobe Campaign-instantie.
+
+* **[!UICONTROL IMS organization ID]**
+
+  Id van uw organisatie. Om uw organisatieidentiteitskaart te vinden, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl){target=_blank}.
+
+* **[!UICONTROL Association mask]**
+
+  Syntaxis waarmee configuratienamen in Enterprise-dashboard kunnen worden gesynchroniseerd met de groepen in Adobe Campaign.
+
+* **[!UICONTROL Server]**
+
+  URL van je Adobe Experience Cloud-exemplaar.
+
+* **[!UICONTROL Tenant]**
+
+  Naam van je Adobe Experience Cloud Tenant.
+
+## Externe accounts voor gegevensoverdracht
+
+### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
+
+De Amazon Simple Storage Service (S3)-connector kan worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign. Deze kan worden ingesteld in een workflowactiviteit. Raadpleeg [deze pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank} voor meer informatie.
+
+![](assets/external-AWS.png)
+
+Wanneer u dit nieuwe externe account instelt, moet u de volgende data opgeven:
+
+* **[!UICONTROL AWS S3 Account Server]**
+
+  URL van uw server, zou het als volgt moeten worden gevuld:
+
+  `  <S3bucket name>.s3.amazonaws.com/<s3object path>`
+
+
+* **[!UICONTROL AWS access key ID]**
+
+  Om te weten waar te om uw de toegangs belangrijkste identiteitskaart van AWS te vinden, verwijs naar deze [ pagina ](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
+
+* **[!UICONTROL Secret access key to AWS]**
+
+  Om te weten waar te om uw geheime toegangstoets aan AWS te vinden, verwijs naar deze [ pagina ](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+
+* **[!UICONTROL AWS Region]**
+
+  Om meer op het gebied van AWS te leren, verwijs naar deze [ pagina ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
+
+* Met het selectievakje **[!UICONTROL Use server side encryption]** kunt u het bestand opslaan in de modus S3-versleuteling.
+
+Leren waar te om toegangs zeer belangrijke identiteitskaart en geheime toegangssleutel te vinden, verwijs naar de diensten van het Web van Amazon [ documentatie ](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
+
+### Azure Blob Storage {#azure-blob-external-account}
+
+De **[!UICONTROL Azure Blob Storage]** -externe account kan worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign via een **[!UICONTROL Transfer file]** -workflowactiviteit. Raadpleeg [deze sectie](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank} voor meer informatie.
+
+![](assets/external-azure.png)
+
+Als u **[!UICONTROL Azure external account]** wilt configureren om te werken met Adobe Campaign, moet u de volgende gegevens opgeven:
+
+* **[!UICONTROL Server]**
+
+  URL van uw Azure Blob-opslagserver.
+
+* **[!UICONTROL Encryption]**
+
+  Type gekozen codering tussen **[!UICONTROL None]** of **[!UICONTROL SSL]** .
+
+* **[!UICONTROL Access key]**
+
+  Om te weten waar te om uw **[!UICONTROL Access key]** te vinden, verwijs naar deze [ pagina ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+
+## Hadoop
+
+Met de externe Hadoop-account kunt u uw Campagne-instantie verbinden met uw externe Hadoop-database. U kunt meer over Hadoop in [ Campagne V7 consoledocumentatie ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank} leren.
+
+![ Schermschot die de configuratie voor de externe rekening van Hadoop tonen.](assets/external-hadoop.png)
+
+* **[!UICONTROL Server]**
+
+  URL van uw Hadoop-opslagserver.
+
+* **[!UICONTROL Account]**
+
+  Naam van uw Hadoop-serveraccount.
