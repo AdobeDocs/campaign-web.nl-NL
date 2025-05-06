@@ -15,7 +15,7 @@ ht-degree: 4%
 >id="acw_homepage_welcome_rn3"
 >title="Authoring externe account"
 >abstract="Als beheerder van de Campagne, kunt u opstelling nieuwe verbindingen met externe systemen van het gebruikersinterface van het Web van de Campagne nu. U kunt ook bestaande externe accounts weergeven, bijwerken en beheren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 Adobe Campaign bevat vooraf geconfigureerde externe accounts die eenvoudig kunnen worden geïntegreerd met verschillende systemen. Als u verbinding wilt maken met extra platforms of verbindingen wilt aanpassen aan uw workflow, maakt u nieuwe externe accounts met de webgebruikersinterface. Dit zorgt voor naadloze gegevensoverdracht.
 
@@ -154,7 +154,7 @@ U configureert als volgt de externe account van **[!UICONTROL Execution instance
 
 * **[!UICONTROL Method]** - Kies tussen de webservice of FDA (Federated Data Access).
 
-  Selecteer voor FDA uw FDA-account. Merk op dat de verbinding van de campagne aan externe systemen tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole wordt beperkt. [Meer informatie](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/connect/fda#_blank)
+  Selecteer voor FDA uw FDA-account. Merk op dat de verbinding van de campagne aan externe systemen tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole wordt beperkt. [Meer informatie](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/connect/fda#_blank)
 
 * **[!UICONTROL Create archiving workflow]** - Voor elke uitvoeringsinstantie die in het Berichtencentrum wordt geregistreerd, ongeacht of u één of meerdere instanties hebt, creeer een afzonderlijke archiveringswerkstroom voor elke externe rekening verbonden aan de uitvoeringsinstantie.
 
@@ -206,7 +206,7 @@ Als u verbinding wilt maken met de Adobe Campaign-console via een Adobe ID, moet
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-De Amazon Simple Storage Service (S3)-connector kan worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign. Deze kan worden ingesteld in een workflowactiviteit. Raadpleeg [deze pagina](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank} voor meer informatie.
+De Amazon Simple Storage Service (S3)-connector kan worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign. Deze kan worden ingesteld in een workflowactiviteit. Raadpleeg [deze pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank} voor meer informatie.
 
 ![](assets/external-AWS.png)
 
@@ -237,7 +237,7 @@ Leren waar te om toegangs zeer belangrijke identiteitskaart en geheime toegangss
 
 ### Azure Blob Storage {#azure-blob-external-account}
 
-De **[!UICONTROL Azure Blob Storage]** -externe account kan worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign via een **[!UICONTROL Transfer file]** -workflowactiviteit. Raadpleeg [deze sectie](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank} voor meer informatie.
+De **[!UICONTROL Azure Blob Storage]** -externe account kan worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign via een **[!UICONTROL Transfer file]** -workflowactiviteit. Raadpleeg [deze sectie](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank} voor meer informatie.
 
 ![](assets/external-azure.png)
 
@@ -257,7 +257,7 @@ Als u **[!UICONTROL Azure external account]** wilt configureren om te werken met
 
 ## Hadoop
 
-Met de externe Hadoop-account kunt u uw Campagne-instantie verbinden met uw externe Hadoop-database. U kunt meer over Hadoop in [ Campagne V7 consoledocumentatie ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank} leren.
+Met de externe Hadoop-account kunt u uw Campagne-instantie verbinden met uw externe Hadoop-database. U kunt meer over Hadoop in [ Campagne V7 consoledocumentatie ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank} leren.
 
 ![ Schermschot die de configuratie voor de externe rekening van Hadoop tonen.](assets/external-hadoop.png)
 
