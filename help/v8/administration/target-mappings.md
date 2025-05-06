@@ -84,7 +84,7 @@ Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Target mappings]**
 
    1. **[!UICONTROL Tracking logs]**: activeer de optie **[!UICONTROL Generate a schema for tracking]** om een opslagschema te genereren voor het bijhouden van logbestanden.
 
-+++
+   +++
 
 1. Gebruik de **[!UICONTROL Mapping]** sectie om te identificeren welke attributen van het schema van de doelafbeelding voor elk gebied van het leveringsadres te gebruiken. Selecteer voor elk veld het kenmerk dat u wilt toewijzen. U kunt ook een expressie maken om het veld te identificeren. Pas bijvoorbeeld een lagere functie toe op het adreskenmerk.
 
