@@ -2,20 +2,14 @@
 title: Werken met schema's
 description: Leer hoe u met schema's werkt.
 exl-id: 1433a441-1673-45a2-9fec-be9550fbba0d
-source-git-commit: 4aafc800b971ff9ab5e6d07242af2e00de399379
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
 # Werken met schema&#39;s {#schemas}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Werken met schema&#39;s"
->abstract="U kunt tot de details van een schema nu toegang hebben door zijn naam in de lijst te selecteren. De de gebiedsuitgave van de douane is ook toegankelijk van de **uitgave van het Scherm** knoop."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
@@ -37,7 +31,7 @@ Schema&#39;s spelen een sleutelrol in:
 
 Elke entiteit in Adobe Campaign heeft een speciaal schema, dat zorgt voor consistentie en organisatie van de gegevens.
 
-De gedetailleerde informatie over schema&#39;s is beschikbaar in de [ documentatie van de de consoleconsole van de Campagne ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+De gedetailleerde informatie over schema&#39;s is beschikbaar in de [ documentatie van de de consoleconsole van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
 ## De schema&#39;s van de toegang in het Gebruikersinterface van het Web {#access}
 

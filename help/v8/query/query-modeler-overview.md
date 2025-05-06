@@ -3,14 +3,20 @@ audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 485d8b4b715192cc5edb6442df0fa958e29d15ff
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # Werken met de querymodelfunctie {#segment-builder}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn1"
+>title="Nieuwe regelbouwer"
+>abstract="Een nieuwe regelbouwer is nu beschikbaar om u te helpen complexe voorwaarden in een verbeterde gebruikersinterface bepalen. U kunt van oud naar de nieuwe regelbouwer schakelen zoals nodig."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"

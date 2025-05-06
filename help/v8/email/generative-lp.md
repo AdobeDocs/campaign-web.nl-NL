@@ -3,20 +3,14 @@ audience: end-user
 title: Openingspagina met AI Assistant
 description: Aan de slag met AI Assistant
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1331'
 ht-degree: 1%
 
 ---
 
 # Openingspagina&#39;s genereren met AI Assistant{#generative-lp}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn5"
->title="Landingspagina&#39;s genereren met AI"
->abstract="U kunt nu de AI Assistant gebruiken om uw openingspagina-items te maken, zodat u tekst, afbeeldingen of volledige paginalay-outs kunt genereren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 >[!IMPORTANT]
 >

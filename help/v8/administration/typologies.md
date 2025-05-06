@@ -3,7 +3,7 @@ audience: end-user
 title: Werken met bedrijfsregels (typologieën)
 description: Leer hoe u met typologieën en typologische regels werkt om het verzenden van leveringen te controleren, filteren en controleren.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: f676ecd055cd9b9ea5c0e724c479e9ba6dbda73d
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 0%
@@ -13,10 +13,10 @@ ht-degree: 0%
 # Werken met bedrijfsregels (typologieën) {#typologies}
 
 >[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
+>id="acw_homepage_welcome_rn4"
 >title="Zakelijke regels"
 >abstract="U kunt nu typologieën en typologische regels maken in de Adobe Campaign Web User Interface. Met behulp van typologieën kunt u het verzenden van leveringen besturen, filteren en prioriteren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/previous-release-notes/release-notes-25.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
@@ -40,7 +40,7 @@ Typologieën zijn toegankelijk via het menu **[!UICONTROL Administration]** > **
 
 >[!NOTE]
 >
->In de lijst **[!UICONTROL Typology rules]** worden alle bestaande regels weergegeven die tot nu toe in de webgebruikersinterface of de clientconsole zijn gemaakt. Nochtans, slechts **Controle** en **het Filtreren** regels kunnen in het Gebruikersinterface van het Web worden gecreeerd. Als u andere typen typologische regels wilt maken, zoals de regels voor druk of capaciteit, gebruikt u de clientconsole van Campagne v8. [ Leer hoe te om typologieregels in de cliëntconsole tot stand te brengen ](https://experienceleague.adobe.com/nl/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>In de lijst **[!UICONTROL Typology rules]** worden alle bestaande regels weergegeven die tot nu toe in de webgebruikersinterface of de clientconsole zijn gemaakt. Nochtans, slechts **Controle** en **het Filtreren** regels kunnen in het Gebruikersinterface van het Web worden gecreeerd. Als u andere typen typologische regels wilt maken, zoals de regels voor druk of capaciteit, gebruikt u de clientconsole van Campagne v8. [ Leer hoe te om typologieregels in de cliëntconsole tot stand te brengen ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 De belangrijkste stappen om typologieën op uw berichten toe te passen zijn:
 
@@ -108,7 +108,7 @@ Definieer de eigenschappen van de typologieregel:
 
    >[!NOTE]
    >
-   >Momenteel, slechts **Controle** en **het Filtreren** typologische regels kunnen van het Gebruikersinterface van het Web worden gecreeerd. Als u andere soorten regels wilt maken, gebruikt u de clientconsole. [ Leer hoe te om typologieregels in de cliëntconsole tot stand te brengen ](https://experienceleague.adobe.com/nl/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+   >Momenteel, slechts **Controle** en **het Filtreren** typologische regels kunnen van het Gebruikersinterface van het Web worden gecreeerd. Als u andere soorten regels wilt maken, gebruikt u de clientconsole. [ Leer hoe te om typologieregels in de cliëntconsole tot stand te brengen ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 1. Selecteer een **[!UICONTROL Channel]** die u aan de regel wilt koppelen.
 
@@ -134,7 +134,7 @@ Definieer de eigenschappen van de typologieregel:
 
    **[!UICONTROL At the end of the analysis]**: Pas controles toe die volledige berichtpersonalisatie vereisen.
 
-   +++
++++
 
    * **[!UICONTROL Level]**: geef het waarschuwingsniveau voor de regel op. Vouw de onderstaande sectie uit voor meer informatie.
 
@@ -148,7 +148,7 @@ Definieer de eigenschappen van de typologieregel:
 
    **[!UICONTROL Verbose]**: geef informatie weer in de serverlogboeken.
 
-   +++
++++
 
 ### Regelinhoud samenstellen {#build}
 

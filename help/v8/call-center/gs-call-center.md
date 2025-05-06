@@ -3,14 +3,20 @@ audience: end-user
 title: Beginnen met het kanaal van het vraagcentrum
 description: Leer hoe te om vraag te creëren en te verzenden centreert leveringen met Adobe Campaign Web
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
+source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
 # Beginnen met het kanaal van het vraagcentrum {#gs-call-center}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Kanaal van callcenter"
+>abstract="Het kanaal van het vraagcentrum is nu beschikbaar in het Gebruikersinterface van het Web van de Campagne. Dit kanaal verwijst naar een communicatie die methode wordt gebruikt om mededelingen te beheren en te volgen die via een vraagcentrum worden behandeld."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 Het kanaal van het vraagcentrum laat u gerichte contactlijsten voor uitgaande telefooncampagnes direct van het Web UI van Adobe Campaign uitvoeren. Gebruik het om vraag door interne teams of externe contactcentra te coördineren.
 
