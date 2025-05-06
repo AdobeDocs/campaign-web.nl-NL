@@ -15,7 +15,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn5"
 >title="Doeltoewijzingen"
 >abstract="U kunt doeltoewijzingen in het Gebruikersinterface van het Web van de Campagne nu tot stand brengen. Doeltoewijzingen bepalen hoe verschillende leveringskanalen (e-mail, SMS, pushmeldingen) worden gekoppeld aan de gegevensvelden van een schema."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/previous-release-notes/release-notes-25.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/previous-release-notes/release-notes-25.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_targetmapping_list"
@@ -30,7 +30,7 @@ Doeltoewijzingen zijn toegankelijk via het menu **[!UICONTROL Administration]** 
 
 ![ het scherm van de lijst van de Toewijzingen van het Doel het tonen van beschikbare afbeeldingen ](assets/target-mappings-list.png)
 
-Voor meer informatie over de ingebouwde doelafbeeldingen die van Adobe Campaign worden verstrekt, verwijs naar de [ de consoledocumentatie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+Voor meer informatie over de ingebouwde doelafbeeldingen die van Adobe Campaign worden verstrekt, verwijs naar de [ de consoledocumentatie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=nl-NL){target="_blank"}.
 
 ## Doeltoewijzing maken {#create-mapping}
 
