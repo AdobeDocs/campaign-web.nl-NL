@@ -278,7 +278,7 @@ De verbeteringen hieronder zijn beschikbaar aan alle klanten vanaf de release va
 
 ### Direct Mail Channel {#24-3-dm}
 
-**kanaal van 0} Directe post {is nu beschikbaar voor gebruik in werkschema&#39;s en als standalone leveringen.** Directe post is een off-line kanaal dat u toestaat om een extractiedossiers tot stand te brengen, te personaliseren en te produceren, en het met uw directe postleveranciers te delen om post naar uw klanten te verzenden.
+**kanaal van 0&rbrace; Directe post &lbrace;is nu beschikbaar voor gebruik in werkschema&#39;s en als standalone leveringen.** Directe post is een off-line kanaal dat u toestaat om een extractiedossiers tot stand te brengen, te personaliseren en te produceren, en het met uw directe postleveranciers te delen om post naar uw klanten te verzenden.
 
 ### Nieuwe werkstroomactiviteit gegevensbron wijzigen {#24-3-change-data-source}
 

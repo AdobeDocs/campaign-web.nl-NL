@@ -76,7 +76,7 @@ De **sectie van de Instantie** verstrekt zeer belangrijke informatie over uw con
 
 Zowel versie als bouwstijlaantallen zijn essentieel voor het oplossen van problemen, aangezien zij helpen de eigenschappen en de moeilijke situaties bepalen huidig in uw milieu.
 
-De **sectie van het Web** {toont de versie van uw gebruikersinterface van het Web van de Campagne, samen met de laatste updatedatum, als beschikbaar. Dit helpt veranderingen of verbeteringen volgen die aan het de gebruikersinterface van het Web van de Campagne worden aangebracht.
+De **sectie van het Web** &lbrace;toont de versie van uw gebruikersinterface van het Web van de Campagne, samen met de laatste updatedatum, als beschikbaar. Dit helpt veranderingen of verbeteringen volgen die aan het de gebruikersinterface van het Web van de Campagne worden aangebracht.
 
 De **Geïnstalleerde pakketten** sectie maakt een lijst van alle modules, eigenschappen, en integratie die op uw instantie aanwezig zijn. Deze pakketten breiden de Adobe Campaign-functionaliteit uit, waardoor gespecialiseerde taken mogelijk zijn, zoals integratie met andere Adobe-oplossingen of ondersteuning voor specifieke workflows. Gezien het grote aantal pakketten, kunt u binnen deze sectie zoeken om snel te controleren of een bepaalde module op uw instantie geïnstalleerd is.
 
@@ -103,7 +103,7 @@ Voor meer informatie over de ontdekkingsreiziger van de Campagne, omslaghiërarc
 
 ### Campagnebeheer {#user-interface-campaign-management}
 
-In de **sectie van het beheer van de Campagne 0} {, kunt u tot marketing campagnes, leveringen, en werkschema&#39;s toegang hebben.**
+In de **sectie van het beheer van de Campagne 0&rbrace; &lbrace;, kunt u tot marketing campagnes, leveringen, en werkschema&#39;s toegang hebben.**
 
 * **Campagnes** - dit is de lijst van uw campagnes en campagnemalplaatjes. Standaard kunt u voor elke campagne de begin-, eind-, aanmaak- en laatste wijzigingsdatums, de huidige status en de naam weergeven van de Campagneoperator die deze heeft gemaakt. U kunt de lijst filteren op status, begin-/einddatums, map of een geavanceerd filter maken om uw eigen filtercriteria te definiëren. Leer meer over campagnes [ in deze sectie ](../campaigns/gs-campaigns.md).
 
@@ -144,7 +144,7 @@ In de **het beheersings** sectie van de Klant, kunt u uw profielen, publiek, en 
 
 In de **sectie van het Beheer van het Besluit**, kunt u de aanbiedingen bekijken en malplaatjes aanbieden. Deze lijsten zijn alleen-lezen.
 
-* **Aanbiedingen** - doorblader door de lijst van aanbiedingen en aanbiedingsmalplaatjes die in de console worden gecreeerd gebruikend de **3} module van de Interactie {.** Standaard kunt u hun status, begin- en einddatum en omgeving weergeven. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar.
+* **Aanbiedingen** - doorblader door de lijst van aanbiedingen en aanbiedingsmalplaatjes die in de console worden gecreeerd gebruikend de **3&rbrace; module van de Interactie &lbrace;.** Standaard kunt u hun status, begin- en einddatum en omgeving weergeven. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar.
 
 Leer om aanbiedingen in e-mail en SMS in [ tot stand te brengen en te verzenden deze sectie ](../msg/offers.md).
 
