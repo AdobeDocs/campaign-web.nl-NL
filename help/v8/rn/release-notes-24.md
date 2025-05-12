@@ -86,7 +86,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in oktob
 <tr>
 <td>
 <p>Als je bericht klaar en op maat gemaakt hebt, ga je naar het volgende niveau met AI Assistant in Adobe Campaign Web. Met dit krachtige gereedschap kunt u de impact van uw inhoud optimaliseren door een reeks aansprekende tekst, hoofdtitels en visueel aantrekkelijke afbeeldingen te genereren.</p>
-<p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
+<p>Ga zelf in een hands-on ervaring met <a href="https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator"> binnen onze levende eigenschapvoorproef </a>, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.</a></p>
 <p>Raadpleeg de <a href="../email/generative-gs.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 <img src="assets/do-not-localize/ai-content-webui.gif"/>
 <p>Beschikbaarheidsdatum: september 12</p>
@@ -111,9 +111,9 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in augus
 >
 >De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld.
 >
->Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
+>Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL){target="_blank"}.
 
-* **Branding voor Directe Post** - de Technische beheerders kunnen één of verscheidene merken nu bepalen om de parameters te centraliseren die de identiteit van een merk beïnvloeden. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina&#39;s of de instellingen voor de tracking van berichten. U kunt deze merken nu maken en deze koppelen aan berichten of bestemmingspagina&#39;s. Deze configuratie wordt beheerd in malplaatjes. [Meer informatie](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-assign)
+* **Branding voor Directe Post** - de Technische beheerders kunnen één of verscheidene merken nu bepalen om de parameters te centraliseren die de identiteit van een merk beïnvloeden. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina&#39;s of de instellingen voor de tracking van berichten. U kunt deze merken nu maken en deze koppelen aan berichten of bestemmingspagina&#39;s. Deze configuratie wordt beheerd in malplaatjes. [Meer informatie](https://experienceleague.adobe.com/nl/docs/experience-cloud/campaign/branding/branding-assign)
 
 * **Abonnementen met het Aanvoeren van pagina&#39;s** - u kunt een het landen pagina aan de dienst nu verbinden, en een bevestigingsbericht verzenden wanneer de gebruikers het bevestigen. [Meer informatie](../landing-pages/lp-content.md#lp-message){target="_blank"}.
 
@@ -122,7 +122,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in augus
 * **Captcha in het landen van pagina&#39;s** - u kunt nu Captcha toevoegen om uw landende pagina tegen spam en misbruik te beschermen dat door bots wordt veroorzaakt. Dit is niet opdringerig voor uw klanten omdat het geen enkele interactie van hen vereist en gebaseerd is op interacties met uw site. [Meer informatie](../landing-pages/create-lp.md#captcha)
 
 <!--
-* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.-->
+* **Rest APIs** - As a Campaign Standard migrated user, you can now use Rest APIs to work with transactional messages. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=nl-NL){target="_blank"}.-->
 
 
 ## Release-aantekeningen juli {#24-7-release}
@@ -156,7 +156,7 @@ U kunt nu uitgebreide pushmeldingen verzenden. Een uitgebreide pushmelding is ee
 
 >[!AVAILABILITY]
 >
->Voor deze functie is een update naar Campagne v8.6.3 <!--or v8.7.2--> vereist. Leer meer in de console van de Cliënt van de Campagne v8 [ versienota&#39;s ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>Voor deze functie is een update naar Campagne v8.6.3 <!--or v8.7.2--> vereist. Leer meer in de console van de Cliënt van de Campagne v8 [ versienota&#39;s ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
 
 ### Verbeteringen {#improvements-24-7}
 
@@ -239,13 +239,13 @@ Merk op dat deze eigenschap in **Beperkte Beschikbaarheid** (LA) is.
 >
 >De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld.
 >
->Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+>Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL).
 
-* **Branding** - als Campaign Standard migreerde gebruiker, kunnen uw technische beheerders één of verscheidene merken nu bepalen om de parameters te centraliseren die de identiteit van een merk beïnvloeden. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina&#39;s of de instellingen voor de tracking van berichten. U kunt deze merken maken en deze koppelen aan berichten of bestemmingspagina&#39;s. Deze configuratie wordt beheerd in malplaatjes. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+* **Branding** - als Campaign Standard migreerde gebruiker, kunnen uw technische beheerders één of verscheidene merken nu bepalen om de parameters te centraliseren die de identiteit van een merk beïnvloeden. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina&#39;s of de instellingen voor de tracking van berichten. U kunt deze merken maken en deze koppelen aan berichten of bestemmingspagina&#39;s. Deze configuratie wordt beheerd in malplaatjes. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=nl-NL)
 
-* **Rest APIs** - als Campaign Standard gemigreerde gebruiker, kunt u Rest APIs gebruiken om integraties voor Adobe Campaign tot stand te brengen en uw eigen ecosysteem te bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html)
+* **Rest APIs** - als Campaign Standard gemigreerde gebruiker, kunt u Rest APIs gebruiken om integraties voor Adobe Campaign tot stand te brengen en uw eigen ecosysteem te bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=nl-NL)
 
-* **Dynamische Rapportering** - als Campaign Standard gemigreerde gebruiker, kunt u tot Dynamische Rapportering toegang hebben die volledig klantgerichte en real-time rapporten verstrekt om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html)
+* **Dynamische Rapportering** - als Campaign Standard gemigreerde gebruiker, kunt u tot Dynamische Rapportering toegang hebben die volledig klantgerichte en real-time rapporten verstrekt om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=nl-NL)
 
 * **het Bestaan Pagina&#39;s** - de volgende verbeteringen aan het landen van pagina&#39;s zijn slechts beschikbaar aan gebruikers die van Campaign Standard overgaan:
 
@@ -272,7 +272,7 @@ De verbeteringen hieronder zijn beschikbaar aan alle klanten vanaf de release va
 
 >[!AVAILABILITY]
 >
->Deze versie is beschikbaar aan alle gebruikers die [ Campagne (console) v8.6 versie beginnen ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html). Leer meer over de versies en verbeteringen van de de cliëntconsole van Adobe Campaign in [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html){target="_blank"}.
+>Deze versie is beschikbaar aan alle gebruikers die [ Campagne (console) v8.6 versie beginnen ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=nl-NL). Leer meer over de versies en verbeteringen van de de cliëntconsole van Adobe Campaign in [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=nl-NL){target="_blank"}.
 
 **de datum van de Versie**: Maart 19-20, 2024
 
