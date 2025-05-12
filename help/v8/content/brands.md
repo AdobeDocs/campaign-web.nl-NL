@@ -25,7 +25,7 @@ In [!DNL Adobe Campaign Web] kunnen gebruikers handmatig merkgegevens invoeren e
 
 Als u het menu **[!UICONTROL Brands]** in [!DNL Adobe Campaign Web] wilt openen, moeten gebruikers de productprofielen **[!UICONTROL Administrator (admin)]** en **[!UICONTROL Brand kit]** krijgen toegewezen om merken te maken en te beheren. Gebruikers hebben het productprofiel [!UICONTROL AI assistant] nodig voor alleen-lezen toegang.
 
-[Meer informatie](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[Meer informatie](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Leer hoe u merkgerelateerde machtigingen kunt toewijzen
 
