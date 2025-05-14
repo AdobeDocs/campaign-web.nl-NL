@@ -3,7 +3,7 @@ audience: end-user
 title: Uw e-mailachtergrond aanpassen
 description: Leer hoe u uw e-mailachtergrond kunt aanpassen
 exl-id: 180e61d3-bc1e-4dde-84cf-06bd8ba4d724
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: bf5bfdf94748c526e18adf8687ef5dd12c67f655
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -41,7 +41,6 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken:
   ![](assets/background_3.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Zorg ervoor dat u geen achtergrondkleur voor de viewport instelt, omdat hierdoor mogelijk de achtergrondkleuren van de structuur worden verborgen.
 
 * Stel een **[!UICONTROL Background image]** in voor de inhoud van een structuurcomponent.
@@ -50,7 +49,6 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken:
   ![](assets/background_4.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Sommige e-mailprogramma&#39;s ondersteunen achtergrondafbeeldingen niet. Als deze optie niet wordt ondersteund, wordt in plaats daarvan de achtergrondkleur van de rij gebruikt. Selecteer een geschikte achtergrondkleur voor fallback als de afbeelding niet kan worden weergegeven.
 
 * Stel een achtergrondkleur in op kolomniveau.
@@ -59,7 +57,6 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken:
   ![](assets/background_5.png){zoomable="yes"}
 
   >[!NOTE]
-  >\
   >Dit is het meest gebruikte geval. Adobe raadt aan achtergrondkleuren in te stellen op kolomniveau, omdat dit meer flexibiliteit biedt bij het bewerken van de volledige e-mailinhoud.
 
   U kunt ook een achtergrondafbeelding instellen op kolomniveau, maar dit wordt zelden gebruikt.

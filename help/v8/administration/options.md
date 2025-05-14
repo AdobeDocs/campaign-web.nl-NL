@@ -2,7 +2,7 @@
 title: Vorm  [!DNL Campaign]  opties
 description: Leer hoe u campagneopties configureert en uw eigen aangepaste opties maakt.
 exl-id: 44f90e34-e72e-4506-90d5-06ab68242d34
-source-git-commit: 93a79b471c236e5bf67da0dbd0d76274598dcb0e
+source-git-commit: 10a43da9df57a32f987b3d4c51bea91da10cbf92
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 0%
@@ -24,7 +24,6 @@ ht-degree: 0%
 Adobe Campaign Web omvat technische opties die u toestaan om de toepassing meer specifiek te vormen. Sommige van deze opties zijn ingebouwd, terwijl andere indien nodig handmatig kunnen worden toegevoegd.
 
 >[!IMPORTANT]
->\
 >Ingebouwde opties zijn vooraf geconfigureerd en mogen alleen door gevorderde gebruikers worden gewijzigd. Neem contact op met uw Adobe-vertegenwoordiger als u vragen of verzoeken hebt.
 
 ## Opties voor Access Campaign {#access}
@@ -35,8 +34,7 @@ U kunt opties kiezen in het menu **[!UICONTROL Administration]** / **[!UICONTROL
 [ lijst van Opties die in het Beleid/menu van Opties wordt getoond ]
 
 >[!NOTE]
->\
->Hoewel de locatie van het optiemenu verschilt tussen de Adobe Campaign-console en de webgebruikersinterface, is de lijst identiek en werkt deze als een spiegel. Voor meer details over de beschikbare opties, verwijs naar de lijst van opties in [ de documentatie van de Campagne v7 ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"} .
+>Hoewel de locatie van het optiemenu verschilt tussen de Adobe Campaign-console en de webgebruikersinterface, is de lijst identiek en werkt deze als een spiegel. Voor meer details over de beschikbare opties, verwijs naar de lijst van opties in [ de documentatie van de Campagne v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 In de lijst met opties kunt u:
 
