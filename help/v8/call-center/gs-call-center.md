@@ -3,9 +3,9 @@ audience: end-user
 title: Beginnen met het kanaal van het vraagcentrum
 description: Leer hoe te om vraag te creëren en te verzenden centreert leveringen met Adobe Campaign Web
 exl-id: d176c1ef-875f-4bea-9cc3-d568cf5cf55a
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: ffd0075e79a94443df4a957ee4a72da37476b21b
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '267'
 ht-degree: 0%
 
 ---
@@ -16,13 +16,17 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn2"
 >title="Kanaal van callcenter"
 >abstract="Het kanaal van het vraagcentrum is nu beschikbaar in het Gebruikersinterface van het Web van de Campagne. Dit kanaal verwijst naar een communicatie die methode wordt gebruikt om mededelingen te beheren en te volgen die via een vraagcentrum worden behandeld."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 Het kanaal van het vraagcentrum laat u gerichte contactlijsten voor uitgaande telefooncampagnes direct van het Web UI van Adobe Campaign uitvoeren. Gebruik het om vraag door interne teams of externe contactcentra te coördineren.
 
-U kunt vraagleveringen in werkschema&#39;s of als standalone leveringen vormen, uw publiek bepalen, en klantgerichte uitvoerdossiers met alle noodzakelijke contact en verpersoonlijkingsgegevens produceren.
+U kunt de leveringen van het vraagcentrum in werkschema&#39;s of als standalone leveringen vormen, uw publiek bepalen, en klantgerichte de uitvoerdossiers met alle noodzakelijke contact en verpersoonlijkingsgegevens produceren.
 
 Dit kanaal is ideaal voor lood follow-ups, behoudvraag, of de dienstoutreach, en de hulp breidt uw omnichannel strategie met gepersonaliseerde steminteractie uit.
+
+>[!NOTE]
+>
+>Het melden is niet beschikbaar in het Web UI voor het kanaal van het vraagcentrum. U moet naar de clientconsole bladeren om rapporten te openen.
 
 U kunt het kanaal van het vraagcentrum op één van de volgende manieren gebruiken:
 

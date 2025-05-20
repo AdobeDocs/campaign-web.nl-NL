@@ -3,9 +3,9 @@ audience: end-user
 title: Creeer een levering van het vraagcentrum
 description: Leer hoe te om een levering van het vraagcentrum met het Web van Adobe Campaign te creëren
 exl-id: fe8d4773-2271-46ec-9b2e-f50311a4ccf3
-source-git-commit: c22011fcc25592bfda2999630bb91e311d85fb1a
+source-git-commit: 1581943b0f13cbd4296e1f42fae8560626b61bdf
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
@@ -62,7 +62,7 @@ Nu moet u het publiek definiëren dat voor het extractiebestand wordt gebruikt.
 >
 >Ontvangers van het callcenter moeten ten minste hun naam en telefoonnummer bevatten. Om het even welke ontvangers met onvolledige informatie zullen van de levering van het callcenter worden uitgesloten.
 >
->Leren hoe te om controlegroepen te vormen, verwijs naar deze [ pagina ](../audience/control-group.md)
+>Leren hoe te om controlegroepen te vormen, verwijs naar deze [ pagina ](../audience/control-group.md).
 
 ## De inhoud bewerken{#edit-content}
 
@@ -72,7 +72,7 @@ Nu, geven de inhoud van het extractiedossier uit dat door de levering van het vr
 
    ![ Schermafbeelding die inhoud het uitgeven voor een levering van het vraagcentrum toont ](assets/cc-content0.png){zoomable="yes"}
 
-1. Geef het veld **[!UICONTROL File name]** op. Leren hoe te om het dossier te personaliseren - naam, verwijs naar deze [ pagina ](../personalization/personalize.md).
+1. Geef de waarde **[!UICONTROL File name]** op. Leren hoe te om het dossier te personaliseren - naam, verwijs naar deze [ pagina ](../personalization/personalize.md).
 
 1. Selecteer a **[!UICONTROL File format]**: **Tekst**, **Tekst die kolommen met vaste breedte** gebruikt, **CSV (Excel)**, of **XML**.
 
@@ -120,7 +120,7 @@ De belangrijkste stappen voor het voorvertonen en verzenden van het extractiebes
 
 1. Klik op **[!UICONTROL Send]** om door te gaan met het uiteindelijke verzendproces en bevestig het vervolgens.
 
-Zodra uw levering wordt verzonden, wordt het extractiedossier automatisch geproduceerd en uitgevoerd naar de plaats die in de **[!UICONTROL Routing]** externe rekening wordt gespecificeerd die in de 1&rbrace; wordt geselecteerd geavanceerde montages van het leveringsmalplaatje [&#128279;](../advanced-settings/delivery-settings.md).
+Zodra uw levering wordt verzonden, wordt het extractiedossier automatisch geproduceerd en uitgevoerd naar de plaats die in de **[!UICONTROL Routing]** externe rekening wordt gespecificeerd die in de 1} wordt geselecteerd geavanceerde montages van het leveringsmalplaatje ](../advanced-settings/delivery-settings.md). [ U kunt het dossier ook voorproef door het **dossier van de Voorproef** knoop, in de **Inhoud** sectie van het scherm te klikken.
 
 Houd uw PKIs (Zeer belangrijke Indicator van Prestaties) gegevens van uw leveringspagina en gegevens van het **[!UICONTROL Logs]** menu bij.
 

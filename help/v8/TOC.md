@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+source-git-commit: c47d0fd299d55520d66b08dd8bbfd2cc33e698cc
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '831'
 ht-degree: 13%
 
 ---
@@ -71,6 +71,7 @@ ht-degree: 13%
    + Bellen {#call-center}
       + [Ga aan de slag met de levering van callcenters](call-center/gs-call-center.md)
       + [Creeer en verzend een levering van het vraagcentrum](call-center/create-call-center.md)
+   + [Aangepast extern kanaal](call-center/gs-custom-channel.md)
    + Transactionele berichten {#transactional-messages}
       + [Aan de slag met transactieberichten](transactional-messaging/transactional.md)
       + [Een transactiebericht maken](transactional-messaging/create-transactional.md)
@@ -242,4 +243,4 @@ ht-degree: 13%
    + [Externe accounts configureren](administration/external-account.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

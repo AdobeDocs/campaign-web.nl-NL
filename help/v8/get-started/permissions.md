@@ -3,9 +3,9 @@ audience: end-user
 title: Machtigingsbeheer in de gebruikersinterface van het Web voor campagne
 description: Meer informatie over machtigingen in de gebruikersinterface van Campagne Web
 exl-id: c95b854b-ebbe-4985-8f75-fb6bc795a399
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 692a9badf72e465791e6f964d02753e7f1a25713
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Op basis van hun machtigingen kan een operator:
 * Toegang tot bepaalde gegevens
 * Toegang tot bepaalde handelingen (maken, wijzigen, verwijderen)
 
-Een gedetailleerde procedure voor vestiging toestemmingen in Adobe Campaign is beschikbaar in [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"} .
+Een gedetailleerde procedure voor vestiging toestemmingen in Adobe Campaign is beschikbaar in [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
 ## Machtigingen voor mappen {#folder-permissions}
 
@@ -38,10 +38,16 @@ U kunt rechtstreeks op de machtigingen klikken en deze wijzigen in **[!UICONTROL
 
 ![ Voorbeeld van ontkende toestemmingen in de montages van de omslagveiligheid ](assets/folder_security_denied.png){zoomable="yes"}
 
+>[!NOTE]
+>
+>U mag geen object maken waarvoor u niet ten minste één map met schrijfrechten hebt.
+>
+>U hoeft geen beheerder te zijn om fragmenten te maken, maar u moet schrijfrechten hebben voor ten minste één map voor visueel fragment &quot;Inhoud&quot;. Anders kunt u geen visueel fragment maken.
+
 Als de optie **[!UICONTROL Propagate]** is ingeschakeld, zijn alle machtigingen die voor een map zijn gedefinieerd, van toepassing op alle submappen. Deze machtigingen kunnen voor elke submap worden overschreven.
 
 Als de optie **[!UICONTROL System folder]** is geselecteerd, hebben alle operatoren toegang, ongeacht hun machtigingen.
 
-U kunt ook [ de toestemmingen op omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"} beheren .
+U kunt ook [ de toestemmingen op omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"} beheren.
 
 Alle toestemmingen in het gebruikersinterface van het Web van de Campagne synchroniseren met de toestemmingen van de Console van de Cliënt van de Campagne.
