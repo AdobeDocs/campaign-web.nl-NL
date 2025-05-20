@@ -243,4 +243,4 @@ ht-degree: 13%
    + [Externe accounts configureren](administration/external-account.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)

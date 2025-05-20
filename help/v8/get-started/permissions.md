@@ -20,7 +20,7 @@ Op basis van hun machtigingen kan een operator:
 * Toegang tot bepaalde gegevens
 * Toegang tot bepaalde handelingen (maken, wijzigen, verwijderen)
 
-Een gedetailleerde procedure voor vestiging toestemmingen in Adobe Campaign is beschikbaar in [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
+Een gedetailleerde procedure voor vestiging toestemmingen in Adobe Campaign is beschikbaar in [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
 ## Machtigingen voor mappen {#folder-permissions}
 
@@ -48,6 +48,6 @@ Als de optie **[!UICONTROL Propagate]** is ingeschakeld, zijn alle machtigingen 
 
 Als de optie **[!UICONTROL System folder]** is geselecteerd, hebben alle operatoren toegang, ongeacht hun machtigingen.
 
-U kunt ook [ de toestemmingen op omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"} beheren.
+U kunt ook [ de toestemmingen op omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"} beheren.
 
 Alle toestemmingen in het gebruikersinterface van het Web van de Campagne synchroniseren met de toestemmingen van de Console van de Cliënt van de Campagne.
