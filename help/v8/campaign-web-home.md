@@ -3,9 +3,9 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: f1d244a015f2e8e629567d09bafc571b656857a4
+source-git-commit: c54f56620570ba9520dc9fc11410d3628641d0a5
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 3%
 
 ---
@@ -52,18 +52,18 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 >[!BEGINTABS]
 
 
->[!TAB  April &quot;25 versie ]
+>[!TAB  Mei &quot;25 versie ]
 
-De versie van april is nu live, met inbegrip van het kanaal van het Centrum van de Vraag, de nieuwe regelbouwer, en meer verbeteringen.
+De versie van mei is nu live, met inbegrip van het kanaal van het Centrum van de Vraag, de nieuwe regelbouwer, en meer verbeteringen.
 
 [![ leer meer knoop ](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB  AI Medewerker ]
 
-✨ onderdompelen zich in een hands-on ervaring met onze [ AI Medewerker ](../v8/email/generative-gs.md) levende eigenschapvoorproef, die wordt ontworpen om u zijn eigenschappen eerst te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
+✨ onderdompelt zich in een hands-on ervaring met onze [ AI Medewerker ](../v8/email/generative-gs.md) levende eigenschapvoorproef, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
-[![ leer meer knoop ](assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![ leer meer knoop ](assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Veelgestelde vragen]
 
