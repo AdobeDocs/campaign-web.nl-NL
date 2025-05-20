@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: ea6c38d4c640c15994035d96c7a05934cf22d04b
+source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 7%
