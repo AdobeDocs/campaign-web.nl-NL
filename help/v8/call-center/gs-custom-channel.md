@@ -37,7 +37,7 @@ Eerst, moet u het douane externe kanaal vormen. Hier volgen de belangrijkste sta
 1. Creeer een nieuwe verpletterende externe rekening.
 1. Creeer een nieuw leveringsmalplaatje verbonden aan het nieuwe kanaal.
 
-Voor meer details, verwijs naar de [ documentatie van de Console van de Cliënt ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html)
+Voor meer details, verwijs naar de [ documentatie van de Console van de Cliënt ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=nl-NL)
 
 ## De levering maken{#create-delivery}
 
