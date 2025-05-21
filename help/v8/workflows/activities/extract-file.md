@@ -17,7 +17,7 @@ ht-degree: 1%
 >title="Bestand extraheren"
 >abstract="De **het dossier van het Extraheren** activiteit staat u toe om gegevens van Adobe Campaign in de vorm van een extern dossier uit te voeren. De gegevens kunnen vervolgens naar een serverlocatie worden geëxporteerd, zoals SFTP, Cloud-opslag of uw campagneserver met behulp van bestandsactiviteit voor gegevensoverdracht."
 
-De **activiteit van het 0} dossier van de Extraheren {is het beheer van a** Gegevens **activiteit.** Met deze activiteit kunt u gegevens uit Adobe Campaign exporteren in de vorm van een extern bestand. De gegevens kunnen vervolgens naar een serverlocatie worden geëxporteerd, zoals SFTP, Cloud-opslag of uw campagneserver met behulp van bestandsactiviteit voor gegevensoverdracht.
+De **activiteit van het 0&rbrace; dossier van de Extraheren &lbrace;is het beheer van a** Gegevens **activiteit.** Met deze activiteit kunt u gegevens uit Adobe Campaign exporteren in de vorm van een extern bestand. De gegevens kunnen vervolgens naar een serverlocatie worden geëxporteerd, zoals SFTP, Cloud-opslag of uw campagneserver met behulp van bestandsactiviteit voor gegevensoverdracht.
 
 Om het **dossier** activiteit van het Extraheren te vormen, voeg een **dossier** activiteit van het Extraheren in uw werkschema toe, dan volg de hieronder stappen.
 

@@ -71,7 +71,7 @@ De tabel en grafiek van **[!UICONTROL Targeted audience]** bevatten gegevens die
 
 In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke pushmelding. De cijfers worden hieronder beschreven.
 
-{de statistieken van 0} levering metriek, die succespercentages, fouten, en quarantines voor duw berichten tonen.](assets/global_report_push_delivery_statistics.png){zoomable="yes"}![
+{de statistieken van 0} levering metriek, die succespercentages, fouten, en quarantines voor duw berichten tonen.![&#128279;](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
 +++Meer weten over de meetgegevens van de leveringsstatistieken?
 

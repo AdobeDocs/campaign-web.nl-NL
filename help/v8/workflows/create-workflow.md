@@ -21,7 +21,7 @@ U kunt zelfstandige workflows of workflows in een campagne maken. De eerste stap
 
 Voer hiertoe de volgende stappen uit:
 
-1. Om a **standalone werkschema** tot stand te brengen, doorblader aan het **** menu van Werkschema&#39;s. Om het werkschema van de a **Campagne** tot stand te brengen, doorblader aan het **menu van Campagnes**, en open de campagne waarvoor u een nieuw werkschema wilt creëren.
+1. Om a **standalone werkschema** tot stand te brengen, doorblader aan het **&#x200B;**&#x200B;menu van Werkschema&#39;s. Om het werkschema van de a **Campagne** tot stand te brengen, doorblader aan het **menu van Campagnes**, en open de campagne waarvoor u een nieuw werkschema wilt creëren.
 
 1. Klik op de knop **[!UICONTROL Create workflow]** in de rechterbovenhoek van het scherm.
 

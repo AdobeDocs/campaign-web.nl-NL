@@ -94,7 +94,7 @@ Volg onderstaande stappen om een levering in te stellen in de context van een wo
 
 1. Open uw kanaalactiviteit om het verzenden van de **Overzicht te bevestigen &amp;** knoop te verzenden.
 
-1. Van uw leveringsdashboard, verzendt de klik ****.
+1. Van uw leveringsdashboard, verzendt de klik **&#x200B;**.
 
 ## Voorbeelden {#cross-channel-workflow-sample}
 
