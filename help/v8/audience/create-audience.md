@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een publiek te maken:
    >
    >De werkschema&#39;s van het publiek worden opgeslagen in het **Werkschema&#39;s** menu, naast uw andere werkschema&#39;s van de Campagne. Ze zijn specifiek ontworpen om een publiek te maken en kunnen worden herkend door hun verticale canvas.
 
-1. Voor betere leesbaarheid, verander de naam van het werkschema op het gebied van het Etiket van de werkschemamontages ****. [ Leer hoe te om werkschemamontages ](../workflows/workflow-settings.md) te vormen
+1. Voor betere leesbaarheid, verander de naam van het werkschema op het gebied van het Etiket van de werkschemamontages **&#x200B;**. [ Leer hoe te om werkschemamontages ](../workflows/workflow-settings.md) te vormen
 
 1. Open de **[!UICONTROL Build audience]** activiteit, en gebruik de vraagmodeler om de bevolking te bepalen om in uw publiek te omvatten door gegevens te filtreren in het gegevensbestand. [ leren hoe te om een het publieksactiviteit van de Bouwstijl te vormen ](../workflows/activities/build-audience.md)
 

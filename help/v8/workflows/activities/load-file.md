@@ -87,7 +87,7 @@ Voer de volgende stappen uit om het voorbeeldbestand te configureren dat wordt g
    * **[!UICONTROL Error processing]** (gegevenstype tekenreeks): geef het gedrag op bij fouten in een van de regels.
    * **[!UICONTROL Value remapping]**: met deze optie kunt u specifieke waarden toewijzen aan nieuwe waarden. Als de kolom bijvoorbeeld waarden &quot;Waar&quot;/&quot;Onwaar&quot; bevat, kunt u een toewijzing toevoegen om die waarden automatisch te vervangen door &quot;0&quot;/&quot;1&quot;-tekens.
 
-+++
+   +++
 
 1. In de **Formatterende** sectie, specificeer hoe het dossier wordt geformatteerd om ervoor te zorgen dat het gegeven correct wordt ingevoerd.
 

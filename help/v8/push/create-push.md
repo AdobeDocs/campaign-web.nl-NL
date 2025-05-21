@@ -51,7 +51,8 @@ Configureer uw leveringsinstellingen zoals hieronder beschreven:
    * **[!UICONTROL Delivery code]**: organiseer uw leveringen met behulp van uw eigen naamgevingsconventie.
    * **[!UICONTROL Description]**: geef een beschrijving voor de levering.
    * **[!UICONTROL Nature]**: geef de aard van de levering op voor classificatiedoeleinden.
-+++
+
+   +++
 
 ## Selecteer uw publiek voor pushlevering {#create-audience-push}
 
