@@ -83,7 +83,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke push
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine is geplaatst na een mislukte levering (ongeldige registratie, berichtafwijzing, payload fout en vergelijkbare redenen) met betrekking tot het aantal te leveren berichten.
 
-  De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
+  De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#push-error-types){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke push
 
 In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** ziet u waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet konden ontvangen.
 
-De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
+De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#push-error-types){target="_blank"}.
 
 ## Leveringsdoorvoer {#delivery-throughput-sms}
 

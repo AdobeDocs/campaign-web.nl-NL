@@ -89,7 +89,7 @@ Het **Algemene statistische** rapport stelt gegevens voor de verzonden berichten
 >title="Sms-uitsluitingen"
 >abstract="De **grafiek en de lijst van uitsluitingen 0&rbrace; &lbrace;tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen.**"
 
-In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet konden ontvangen. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){_blank}.
+In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet konden ontvangen. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#sms-quarantines){_blank}.
 
 ![ Beschrijving: Het beeld toont de grafiek en de lijst van Uitzonderingen, die de redenen om gebruikersprofielen van het ontvangen van berichten te uitsluiten gedetailleerd.](assets/reporting_sms_6.png){zoomable="yes"}
 

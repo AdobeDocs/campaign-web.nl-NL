@@ -23,7 +23,7 @@ Testprofielen worden gebruikt om proefdrukken te verzenden en uw berichtinhoud e
 
 ➡️ [Ontdek deze functie in video](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=nl-NL){target="_blank"}.-->
 
 De stappen om proeven naar testprofielen te verzenden zijn gedetailleerd in [ deze sectie ](../preview-test/test-deliveries.md#test-profiles).
 

@@ -20,7 +20,7 @@ Leveringswaarschuwing is een waarschuwingssysteem waarmee groepen gebruikers aut
 
 Meldingen worden aangepast op basis van specifieke waarschuwingscriteria die zijn gedefinieerd via de Adobe Campaign Web User Interface.
 
-Voor meer informatie bij het beheren van leveringsmislukkingen, verwijs naar [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
+Voor meer informatie bij het beheren van leveringsmislukkingen, verwijs naar [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
 
 ## E-mailmeldingsinhoud {#content}
 

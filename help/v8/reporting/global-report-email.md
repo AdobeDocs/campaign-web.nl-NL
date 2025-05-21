@@ -99,7 +99,7 @@ De tabel **[!UICONTROL Delivery statistics]** bevat een overzicht van het succes
 
 De uitsluitingsgrafiek en de tabel illustreren de redenen waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
 
-De e-mailfoutentypes zijn vermeld in de [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){target="_blank"}.
+De e-mailfoutentypes zijn vermeld in de [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#email-error-types){target="_blank"}.
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
@@ -133,7 +133,7 @@ Het rapport Leveringsdoorvoer biedt diepgaande inzichten in de efficiëntie van 
 
 In de tabel en grafiek van **[!UICONTROL Breakdown of errors per type]** worden de gegevens weergegeven die betrekking hebben op mogelijke fouten die in verschillende domeinen zijn aangetroffen. Hieronder vindt u specifieke meetgegevens.
 
-De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=nl-NL){target="_blank"}.
 
 +++Meer informatie over de uitsplitsing van fouten per type metriek.
 
