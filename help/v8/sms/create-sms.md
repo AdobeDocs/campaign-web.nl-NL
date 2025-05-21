@@ -21,13 +21,13 @@ ht-degree: 4%
 >id="acw_deliveries_sms_audience"
 >title="Het SMS-publiek definiëren"
 >abstract="Creeer een nieuw publiek of selecteer bestaande door de **Uitgezochte publiek** knoop te klikken. Voeg zo nodig een controlegroep toe om het effect van de levering te meten."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Een controlegroep instellen"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=nl-NL" text="Een controlegroep instellen"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"
 >title="Sjabloonselectie via SMS"
 >abstract="Selecteer een vooraf gedefinieerde sjabloon om de SMS-levering te starten. Met leveringssjablonen kunt u aangepaste inhoud en instellingen opnieuw gebruiken voor al uw campagnes en leveringen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Leveringssjablonen gebruiken"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=nl-NL" text="Leveringssjablonen gebruiken"
 
 U kunt een standalone levering van SMS tot stand brengen, of SMS in de context van een campagnewerkschema tot stand brengen. De stappen verklaren hieronder de procedure voor een standalone (one-shot) levering van SMS. Als u in de context van een campagnewerkschema werkt, worden de aanmaakstappen verklaard in [ deze sectie ](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 

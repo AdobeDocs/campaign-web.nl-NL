@@ -16,7 +16,7 @@ In transactioneel overseinen, brengt een gebeurtenis het verzenden van een geper
 
 ## Een sjabloon voor een transactiebericht maken {#transactional-template}
 
-In het Gebruikersinterface van het Web van de Campagne, is de eerste stap in transactie overseinenconfiguratie de verwezenlijking van het malplaatje of de directe verwezenlijking van het bericht. Dit verschilt van [ de configuratie van transactionele berichten op de cliëntconsole ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
+In het Gebruikersinterface van het Web van de Campagne, is de eerste stap in transactie overseinenconfiguratie de verwezenlijking van het malplaatje of de directe verwezenlijking van het bericht. Dit verschilt van [ de configuratie van transactionele berichten op de cliëntconsole ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/real-time/transactional).
 
 Een transactiemalplaatje van het bericht kan worden gebruikt om voorproef de leveringsinhoud die door het profiel wordt ontvangen alvorens het het definitieve publiek bereikt. Bijvoorbeeld, kan een beheerder opstelling en de malplaatjes vormen, die hen voor gebruik door marketing gebruikers klaar maken.
 
@@ -66,7 +66,7 @@ De sectie **[!UICONTROL Properties]** van een transactiemelding helpt u bij het 
 * De lus **[!UICONTROL Execution folder]** , waarbij het bericht wordt opgeslagen na de uitvoering.
 * De **[!UICONTROL Delivery code]** . Dit is een code die helpt het bericht voor rapportage te herkennen, indien nodig.
 * De **[!UICONTROL Description]** .
-* **[!UICONTROL Nature]**, die de aard van uw levering is, zoals vermeld in de opsomming *deliveryNature*. [ leer meer over opsommingen ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
+* **[!UICONTROL Nature]**, die de aard van uw levering is, zoals vermeld in de opsomming *deliveryNature*. [ leer meer over opsommingen ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/config/configuration/ui-settings#enumerations).
 
 ![ Screenshot die de eigenschappen sectie van een transactioneel berichtmalplaatje toont.](assets/template-properties.png){zoomable="yes"}
 

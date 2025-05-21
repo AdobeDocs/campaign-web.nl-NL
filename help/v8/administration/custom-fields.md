@@ -43,7 +43,7 @@ ht-degree: 0%
 >title="Kenmerkinstellingen"
 >abstract="Kenmerkinstellingen"
 
-Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan out-of-the-box-schema&#39;s worden toegevoegd. Zij staan u toe om schema&#39;s aan te passen door nieuwe attributen aan de behoeften van uw organisatie te omvatten. Leer hoe te om een schema in de [ Adobe Campaign v8 documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"} uit te breiden.
+Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan out-of-the-box-schema&#39;s worden toegevoegd. Zij staan u toe om schema&#39;s aan te passen door nieuwe attributen aan de behoeften van uw organisatie te omvatten. Leer hoe te om een schema in de [ Adobe Campaign v8 documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=nl-NL){target="_blank"} uit te breiden.
 
 De gebieden van de douane kunnen in diverse schermen, zoals profieldetails in de interface van het Web van de Campagne worden getoond. Beheerders kunnen bepalen welke velden zichtbaar zijn en hoe ze worden weergegeven. Deze wijzigingen gelden voor alle campagnegebruikers.
 
