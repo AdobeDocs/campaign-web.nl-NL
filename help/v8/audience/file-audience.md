@@ -51,7 +51,7 @@ Profielen uit het invoerbestand worden niet toegevoegd aan de database. Ze worde
 Voer de volgende stappen uit om profielen te kiezen uit een bestand in uw e-mails:
 
 1. Open een bestaande e-maillevering, of [ creeer een nieuwe e-maillevering ](../email/create-email.md).
-1. In de **sectie van het publiek 0&rbrace; &lbrace;, klik de** Uitgezochte publiek **knoop, dan kies** Uitgezocht van dossier **.**
+1. In de **sectie van het publiek 0} {, klik de** Uitgezochte publiek **knoop, dan kies** Uitgezocht van dossier **.**
 
    ![ Schermschot die Uitgezocht van dossieroptie in de sectie van het Publiek tonen ](assets/select-from-file.png){zoomable="yes"}
 

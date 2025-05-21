@@ -33,7 +33,7 @@ De **Externe signaal** activiteit is de controle **activiteit van de a** Stroom.
 
 >[!NOTE]
 >
->Deze pagina verklaart de belangrijkste stappen om een **[!UICONTROL External Signal]** activiteit in het Gebruikersinterface van het Web van de Campagne te vormen en het van een andere werkschema of een API vraag teweeg te brengen. De gedetailleerde informatie over hoe te om een werkschema, beste praktijken teweeg te brengen, en hoe te met Campagne APIs te werken is beschikbaar in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
+>Deze pagina verklaart de belangrijkste stappen om een **[!UICONTROL External Signal]** activiteit in het Gebruikersinterface van het Web van de Campagne te vormen en het van een andere werkschema of een API vraag teweeg te brengen. De gedetailleerde informatie over hoe te om een werkschema, beste praktijken teweeg te brengen, en hoe te met Campagne APIs te werken is beschikbaar in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/javascript-in-workflows#trigger-example).
 
 Volg deze stappen om de **Externe signaal** activiteit te vormen en zijn uitvoering teweeg te brengen:
 
@@ -51,7 +51,7 @@ Volg deze stappen om de **Externe signaal** activiteit te vormen en zijn uitvoer
 
      ![ het schermschot toont de interne naam van het werkschema naast zijn etiket.](../assets/external-signal-workflow-name.png)
 
-     +++
++++
 
    * De **Externe naam van de signaalactiviteit**, die in het werkschema **[!UICONTROL Execution options]** toont.
 
@@ -59,7 +59,7 @@ Volg deze stappen om de **Externe signaal** activiteit te vormen en zijn uitvoer
 
      ![ het schermschot toont de Externe naam van de activiteit van het Signaal in de opties van de Uitvoering.](../assets/external-signal-name.png)
 
-     +++
++++
 
 1. Als u de workflow wilt activeren, voert u de functie `PostEvent` JavaScript uit. Deze functie laat u variabelen met de waarden van uw keus overgaan en hen in het teweeggebrachte werkschema gebruiken.
 
@@ -79,6 +79,6 @@ Volg deze stappen om de **Externe signaal** activiteit te vormen en zijn uitvoer
 
    ![ het schermafbeelding toont een voorbeeld van het teweegbrengen van de Externe activiteit van het Signaal gebruikend de functie PostEvent.](../assets/external-signal-sample.png)
 
-   +++
++++
 
-   * Als u een **[!UICONTROL External signal]** -activiteit wilt activeren vanaf een API-aanroep, voert u de stappen uit die in de API-documentatie voor campagne worden beschreven. [ Leer hoe te om de statische `PostEvent` methode ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=nl-NL) te gebruiken.
+   * Als u een **[!UICONTROL External signal]** -activiteit wilt activeren vanaf een API-aanroep, voert u de stappen uit die in de API-documentatie voor campagne worden beschreven. [ Leer hoe te om de statische `PostEvent` methode ](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html) te gebruiken.

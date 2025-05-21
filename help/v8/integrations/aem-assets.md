@@ -16,13 +16,13 @@ ht-degree: 1%
 
 [!DNL Adobe Experience Manager Assets as a Cloud Service] is een geïntegreerd platform voor samenwerking dat is ontworpen om uw creatieve workflow te stroomlijnen en digitale middelen te centraliseren voor een naadloze weergave van ervaringen. Het vereenvoudigt de organisatie, het etiketteren, en het terugwinnen van goedgekeurde productiemiddelen, die merkconsistentie tussen teams verzekeren. Met de gebruikersvriendelijke interface van [!DNL Assets as Cloud Service] hebt u direct toegang tot en kunt u elementen delen in uw Adobe Creative- en Experience Cloud-toepassingen.
 
-Leer meer in [ documentatie van as a Cloud Service van Adobe Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html?lang=nl-NL){target="_blank"}.
+Leer meer in [ documentatie van as a Cloud Service van Adobe Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/home.html){target="_blank"}.
 
 ## Elementen uploaden en invoegen{#add-asset}
 
 Als u bestanden wilt importeren naar [!DNL Assets as Cloud Service] , bladert u naar de map waarin de bestanden worden opgeslagen of maakt u deze. Voeg ze vervolgens in uw e-mailinhoud in.
 
-Voor meer informatie over hoe te om activa te uploaden, verwijs naar [ documentatie van as a Cloud Service van Adobe Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html?lang=nl-NL){target="_blank"}.
+Voor meer informatie over hoe te om activa te uploaden, verwijs naar [ documentatie van as a Cloud Service van Adobe Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/add-delete-assets-view.html){target="_blank"}.
 
 1. Open vanaf uw startpagina het geavanceerde menu en selecteer [!DNL Experience Manager Assets] .
 
@@ -46,11 +46,11 @@ Voor meer informatie over hoe te om activa te uploaden, verwijs naar [ documenta
 
 1. Selecteer het element dat u net hebt geüpload om het menu voor geavanceerd middelenbeheer te openen.
 
-   Meer leren over het beheren van uw activa, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html?lang=nl-NL).
+   Meer leren over het beheren van uw activa, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/manage-organize-assets-view.html).
 
    ![ Schermschot die het geavanceerde menu van het activabeheer in Adobe Experience Manager Assets ](assets/assets_4.png){zoomable="yes"} tonen
 
-1. Als u uw elementen verder wilt bewerken met Adobe Photoshop Express, dubbelklikt u op het element. Selecteer vervolgens in het rechtermenu het pictogram **[!UICONTROL Edit mode]** . [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html?lang=nl-NL#edit-using-express){target="_blank"}.
+1. Als u uw elementen verder wilt bewerken met Adobe Photoshop Express, dubbelklikt u op het element. Selecteer vervolgens in het rechtermenu het pictogram **[!UICONTROL Edit mode]** . [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/assets-view/edit-images-assets-view.html#edit-using-express){target="_blank"}.
 
 1. Selecteer in [!DNL Adobe Campaign] het menu **[!UICONTROL Asset picker]** in het linkerdeelvenster van de e-mailontwerper.
 

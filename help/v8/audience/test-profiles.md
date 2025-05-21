@@ -23,7 +23,7 @@ Testprofielen worden gebruikt om proefdrukken te verzenden en uw berichtinhoud e
 
 ➡️ [Ontdek deze functie in video](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=nl-NL){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 De stappen om proeven naar testprofielen te verzenden zijn gedetailleerd in [ deze sectie ](../preview-test/test-deliveries.md#test-profiles).
 
@@ -57,7 +57,7 @@ Daarna kunt u naar mappen of submappen bladeren, deze maken en beheren, en de bi
 
 ![ de omslagmening van de Profielen van de Test ](assets/test-profiles-folders.png){zoomable="yes"}
 
-Van de **[!UICONTROL Explorer]** mening, kunt u ook filtreren, schrappen, uitgeven, en [&#128279;](#create-test-profile) testprofielen creëren.
+Van de **[!UICONTROL Explorer]** mening, kunt u ook filtreren, schrappen, uitgeven, en [ ](#create-test-profile) testprofielen creëren.
 
 ## Een testprofiel maken {#create-test-profile}
 
@@ -112,4 +112,4 @@ Het testprofiel dat u zojuist hebt gemaakt, kan nu worden gebruikt om een proefd
 
 Leer om testprofielen tot stand te brengen en te beheren gebruikend het Web van de Campagne gebruikersinterface.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442901?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

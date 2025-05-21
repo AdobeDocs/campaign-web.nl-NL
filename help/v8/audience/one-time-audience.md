@@ -28,6 +28,6 @@ Voer de volgende stappen uit om een eenmalig nieuw publiek voor een levering te 
 
    [ Screenshot die de interface van de vraagmodeller toont ](assets/query-modeler.png){zoomable="yes"}
 
-1. Zodra uw vraag klaar is, bevestigt de klik **&#x200B;**&#x200B;om het resulterende publiek als belangrijkste doel van uw levering te gebruiken.
+1. Zodra uw vraag klaar is, bevestigt de klik **** om het resulterende publiek als belangrijkste doel van uw levering te gebruiken.
 
    U kunt ook een controlegroep instellen om het effect van uw campagnes te meten. De controlegroep ontvangt niet het bericht. Dit staat u toe om het gedrag van de bevolking te vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](control-group.md).

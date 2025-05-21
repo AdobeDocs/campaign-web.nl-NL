@@ -60,7 +60,7 @@ Dan, gebruik de **de grens van de Grootte** sectie om het aantal profielen te pl
 Bijvoorbeeld, om een controlegroep met de 100 jongste profielen tot stand te brengen, volg deze stappen:
 
 1. Selecteer het **gebied van de Leeftijd** als sorterend criterium. Verlaat de **Overlopende** soortoptie.
-1. Voeg het **gebied van de Datum van de Verwezenlijking 0&rbrace; &lbrace;toe.** Verandering in de **Aflopende** soortoptie.
+1. Voeg het **gebied van de Datum van de Verwezenlijking 0} {toe.** Verandering in de **Aflopende** soortoptie.
 1. Bepaal 100 als drempel in de **grens van de Grootte** sectie.
 
    ![ de groepsconfiguratie van de Controle voor jongste profielen ](assets/control-group2.png){zoomable="yes"}

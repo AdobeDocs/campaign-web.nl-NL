@@ -82,7 +82,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    ![ montages Checkbox in de vormcomponent ](assets/lp-form-checkbox.png){zoomable="yes"}
 
-   Als u **[!UICONTROL Subscription & services]** selecteert, selecteer de dienst van a [&#128279;](../audience/manage-services.md) van de lijst, en kies tussen de twee hieronder opties:
+   Als u **[!UICONTROL Subscription & services]** selecteert, selecteer de dienst van a [ ](../audience/manage-services.md) van de lijst, en kies tussen de twee hieronder opties:
 
    * **[!UICONTROL Subscribe in if checked]**: gebruikers moeten het selectievakje voor toestemming (opt-in) inschakelen.
    * **[!UICONTROL Unsubscribe if checked]**: gebruikers moeten het selectievakje inschakelen om hun toestemming (opt-out) te verwijderen.
@@ -111,7 +111,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
    * **[!UICONTROL Landing page]**: selecteer een andere bestemmingspagina waarnaar gebruikers moeten worden omgeleid. Controleer of u de geselecteerde bestemmingspagina dienovereenkomstig configureert.
 
 1. Als u aanvullende updates wilt uitvoeren wanneer u het formulier verzendt, selecteert u **[!UICONTROL Additional updates]** en selecteert u het item dat u wilt bijwerken:
-   * De dienst van het abonnement [&#128279;](../audience/manage-services.md) - bepaalt als u binnen of opt uit gebruikers bij het voorleggen van de vorm wilt kiezen. Als u bij het ontwerpen van een e-mailbericht een koppeling van het type **[!UICONTROL Landing page]** naar deze bestemmingspagina definieert, wordt automatisch de geselecteerde service gebruikt. [ leer meer over het opnemen van verbindingen ](../email/message-tracking.md)
+   * De dienst van het abonnement [ ](../audience/manage-services.md) - bepaalt als u binnen of opt uit gebruikers bij het voorleggen van de vorm wilt kiezen. Als u bij het ontwerpen van een e-mailbericht een koppeling van het type **[!UICONTROL Landing page]** naar deze bestemmingspagina definieert, wordt automatisch de geselecteerde service gebruikt. [ leer meer over het opnemen van verbindingen ](../email/message-tracking.md)
 
      >[!NOTE]
      >
