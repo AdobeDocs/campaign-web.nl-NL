@@ -5,7 +5,7 @@ description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Als u de workflow eenmaal hebt gemaakt, worden de resulterende doelgroepen autom
 
 De kolom **[!UICONTROL Origin]** geeft de oorsprong van het publiek aan: **[!UICONTROL Adobe Campaign]** publiek wordt gemaakt in de Adobe Campaign v8-console of de Web User Interface, terwijl **[!UICONTROL Adobe Experience Platform:]** -publiek wordt gemaakt in Adobe Experience Platform en geïntegreerd in Campagne met behulp van de integratie van Adobe Sources en Destures.
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 ## Uw eerste publiek maken {#create}
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een publiek te maken:
    >
    >De werkschema&#39;s van het publiek worden opgeslagen in het **Werkschema&#39;s** menu, naast uw andere werkschema&#39;s van de Campagne. Ze zijn specifiek ontworpen om een publiek te maken en kunnen worden herkend door hun verticale canvas.
 
-1. Voor betere leesbaarheid, verander de naam van het werkschema op het gebied van het Etiket van de werkschemamontages **&#x200B;**. [ Leer hoe te om werkschemamontages ](../workflows/workflow-settings.md) te vormen
+1. Voor betere leesbaarheid, verander de naam van het werkschema op het gebied van het Etiket van de werkschemamontages ****. [ Leer hoe te om werkschemamontages ](../workflows/workflow-settings.md) te vormen
 
 1. Open de **[!UICONTROL Build audience]** activiteit, en gebruik de vraagmodeler om de bevolking te bepalen om in uw publiek te omvatten door gegevens te filtreren in het gegevensbestand. [ leren hoe te om een het publieksactiviteit van de Bouwstijl te vormen ](../workflows/activities/build-audience.md)
 
@@ -98,4 +98,4 @@ Als u verkiest om de bestaande publieksresultaten niet te vervangen, vorm **spar
 
 Leer hoe te om publiek te bouwen en te beheren, hoe te om publiek voor een levering te selecteren, en controlegroepen te bepalen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453208?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)

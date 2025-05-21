@@ -5,7 +5,7 @@ description: Leer hoe u uw e-mailinhoud helemaal zelf ontwerpt
 exl-id: 23e71da3-434d-4619-a48a-334281592d85
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '628'
 ht-degree: 3%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 3%
 
 Met de e-mail Designer kunt u eenvoudig de structuur van uw e-mail definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, ontwerpt u het lichaam van uw e-mail binnen seconden.
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
@@ -110,4 +110,4 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 Begrijp hoe u door de Designer-e-mail kunt navigeren. Leer hoe u een e-mailbericht helemaal zelf kunt structureren en ontwerpen, uw e-mailadres kunt aanpassen en testen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453571/?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Dankzij de integratie van de Adobe Campaign Web-interface met Adobe Experience Manager kunt u inhoud en formulieren voor e-mailbezorging direct binnen het Adobe Experience Manager-platform beheren.
 
-![](assets/do-not-localize/book.png) [ leer meer over Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=nl-NL)
+![](assets/do-not-localize/book.png)[ leer meer over Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=en)
 
 ## Een sjabloon maken in [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
@@ -32,7 +32,7 @@ Dankzij de integratie van de Adobe Campaign Web-interface met Adobe Experience M
 
    ![[ het Schermafbeelding die het &quot;E-mail van Adobe Campaign&quot;malplaatjeselectie en het noemen gebied tonen.]](assets/aem_2.png)
 
-1. Pas uw e-mailinhoud aan door componenten toe te voegen, zoals personalisatievelden van Adobe Campaign. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=nl-NL#editing-email-content)
+1. Pas uw e-mailinhoud aan door componenten toe te voegen, zoals personalisatievelden van Adobe Campaign. [Meer informatie](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=en#editing-email-content)
 
 1. Wanneer uw e-mail gereed is, navigeert u naar het menu **[!UICONTROL Page information]** en klikt u op **[!UICONTROL Start workflow]** .
 

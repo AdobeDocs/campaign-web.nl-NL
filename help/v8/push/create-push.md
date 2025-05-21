@@ -16,7 +16,7 @@ ht-degree: 1%
 >id="acw_push_notification_template"
 >title="Sjabloon voor pushmelding"
 >abstract="Selecteer een sjabloon voor pushmeldingen om de pushlevering te starten. Met leveringssjablonen kunt u eenvoudig aangepaste inhoud en instellingen hergebruiken in al uw campagnes en leveringen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html?lang=nl-NL" text="Leveringssjablonen gebruiken"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/delivery-template.html" text="Leveringssjablonen gebruiken"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_push_properties"
@@ -51,8 +51,7 @@ Configureer uw leveringsinstellingen zoals hieronder beschreven:
    * **[!UICONTROL Delivery code]**: organiseer uw leveringen met behulp van uw eigen naamgevingsconventie.
    * **[!UICONTROL Description]**: geef een beschrijving voor de levering.
    * **[!UICONTROL Nature]**: geef de aard van de levering op voor classificatiedoeleinden.
-
-   +++
++++
 
 ## Selecteer uw publiek voor pushlevering {#create-audience-push}
 
@@ -60,7 +59,7 @@ Configureer uw leveringsinstellingen zoals hieronder beschreven:
 >id="acw_deliveries_push_audience"
 >title="Het publiek voor pushmeldingen definiëren"
 >abstract="Als u het publiek van uw bericht wilt definiëren, moet u eerst de app selecteren die aan de pushlevering is gekoppeld. Uw pushmelding wordt standaard naar alle abonnees van de toepassing verzonden. U kunt tot een specifiek publiek verfijnen door de **Uitgezochte publiek** knoop te klikken. Voeg zo nodig een controlegroep toe om het effect van de levering te meten."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=nl-NL" text="Een controlegroep instellen"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Een controlegroep instellen"
 
 U moet eerst de app selecteren en vervolgens het publiek voor pushmeldingen verfijnen, zoals hieronder wordt beschreven:
 

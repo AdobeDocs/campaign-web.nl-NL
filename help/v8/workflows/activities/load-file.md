@@ -30,7 +30,7 @@ ht-degree: 1%
 De **dossier van de Lading** activiteit is a **het beheer van Gegevens** activiteit. Gebruik deze activiteit om met profielen en gegevens te werken die in een extern dossier worden opgeslagen. De profielen en de gegevens worden niet toegevoegd aan het gegevensbestand, maar alle gebieden in het inputdossier zijn beschikbaar voor [ verpersoonlijking ](../../personalization/gs-personalization.md), of om profielen, of een andere lijst bij te werken.
 
 >[!NOTE]
->Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV). Met de webgebruikersinterfaceconsole kunt u bestanden tot maximaal 50 MB laden. In de clientconsole geldt een limiet van 150 MB voor het laden van gegevens. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=nl-NL){target="_blank"}
+>Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV). Met de webgebruikersinterfaceconsole kunt u bestanden tot maximaal 50 MB laden. In de clientconsole geldt een limiet van 150 MB voor het laden van gegevens. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 Deze activiteit kan met a [ Verzoening ](reconciliation.md) activiteit worden gebruikt om niet geïdentificeerde gegevens met bestaande middelen te verbinden. Bijvoorbeeld, kan de **dossier van de Lading** activiteit vóór a **de activiteit van de Verzoening** worden geplaatst als u niet-standaardgegevens in het gegevensbestand invoert.
 
@@ -87,7 +87,7 @@ Voer de volgende stappen uit om het voorbeeldbestand te configureren dat wordt g
    * **[!UICONTROL Error processing]** (gegevenstype tekenreeks): geef het gedrag op bij fouten in een van de regels.
    * **[!UICONTROL Value remapping]**: met deze optie kunt u specifieke waarden toewijzen aan nieuwe waarden. Als de kolom bijvoorbeeld waarden &quot;Waar&quot;/&quot;Onwaar&quot; bevat, kunt u een toewijzing toevoegen om die waarden automatisch te vervangen door &quot;0&quot;/&quot;1&quot;-tekens.
 
-   +++
++++
 
 1. In de **Formatterende** sectie, specificeer hoe het dossier wordt geformatteerd om ervoor te zorgen dat het gegeven correct wordt ingevoerd.
 

@@ -5,8 +5,8 @@ description: Leer hoe u met het publiek kunt werken op Adobe Campaign Web
 exl-id: ce0785a0-6af5-4ea1-ace7-0ce9d3ff065f
 source-git-commit: b330230a031a366b674ebac37681274ee89ec6c8
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 1%
 
 ---
 
@@ -38,11 +38,11 @@ Het publiek is het belangrijkste doel van uw levering: de profielen die de beric
 
 Het publiek kan uit veelvoudige bronnen voortkomen. De kolom **[!UICONTROL Origin]** geeft aan waar een bepaald publiek is gemaakt:
 
-* **[!UICONTROL Adobe Campaign]**: Deze doelgroepen zijn gecreeerd in [ het Gebruikersinterface van het Web van Adobe Campaign ](create-audience.md) of in de [ Adobe Campaign v8 cliëntconsole ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=nl-NL){target="_blank"}.
+* **[!UICONTROL Adobe Campaign]**: Deze doelgroepen zijn gecreeerd in [ het Gebruikersinterface van het Web van Adobe Campaign ](create-audience.md) of in de [ Adobe Campaign v8 cliëntconsole ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** Deze doelgroepen zijn gemaakt in Adobe Experience Platform en zijn geïntegreerd in Campagne Web met behulp van de integratie van Adobe Sources and Destures. Leer hoe te opstelling deze integratie in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=nl-NL){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** Deze doelgroepen zijn gemaakt in Adobe Experience Platform en zijn geïntegreerd in Campagne Web met behulp van de integratie van Adobe Sources and Destures. Leer hoe te opstelling deze integratie in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
 
-  ➡️ [ ontdekt deze eigenschap in video ](#video)
+  ➡️ [Ontdek deze functie in video](#video)
 
 Als u aanvullende informatie over een publiek wilt opvragen, opent u deze in de lijst. De publiekseigenschappen worden weergegeven, samen met het aantal profielen dat is opgenomen in het publiek. Vernieuw het aantal gebruikers op elk gewenst moment met de knop **[!UICONTROL Calculate]** .
 
@@ -60,4 +60,4 @@ Leer hoe u een bestemming maakt voor het gebruik van een Experience Platform-pub
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-De gedetailleerde informatie over hoe te opstelling is de de Bronnen en integratie van Doelen van Adobe beschikbaar in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=nl-NL){target="_blank"}.
+De gedetailleerde informatie over hoe te opstelling is de de Bronnen en integratie van Doelen van Adobe beschikbaar in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.

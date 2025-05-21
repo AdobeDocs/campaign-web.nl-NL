@@ -61,14 +61,14 @@ Volg de hieronder gedetailleerde stappen om de **het dossier van de Overdracht**
    * **[!UICONTROL Test to see if file exists]**: controleer of een bepaald bestand aanwezig is op de server. Genereert twee uitgaande overgangen na de activiteit: &quot;Bestand bestaat&quot; en &quot;Bestand bestaat niet.&quot;
    * **[!UICONTROL File listing]**: geef een lijst weer van alle bestanden die beschikbaar zijn op de server.
 
-   +++
++++
 
    +++Acties beschikbaar met **download van het Web** type activiteiten
 
    * **[!UICONTROL Simple transfer (GET)]** : Haal een bestand op.
    * **[!UICONTROL Transfer using a form (POST)]**: upload een bestand en aanvullende parameters.
 
-   +++
++++
 
    ![ het Schermafbeelding tonen van de opties van de het dossieractie van de werkschemaoverdracht ](../assets/workflow-transfer-file-action.png)
 
@@ -148,7 +148,7 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de map als volgt gecontrol
    * **[!UICONTROL Display the session logs]**: Wanneer deze optie wordt geactiveerd, wordt informatie over de overdrachtsbewerking weergegeven in de werkstroomlogboeken nadat de workflow is uitgevoerd.
    * **[!UICONTROL List all files]** (Handelingen in bestandenlijsten): met deze optie worden alle bestanden geïndexeerd die zich op de server bevinden in de gebeurtenisvariabele `vars.filenames` , waarin de bestandsnamen worden gescheiden door de tekens `n` . [ Leer hoe te met gebeurtenisvariabelen ](../event-variables.md) te werken
 
-   +++
++++
 
    +++Aanvullende opties voor **[!UICONTROL Web download]** type-activiteiten
 

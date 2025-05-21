@@ -52,4 +52,4 @@ Ingebouwde technische workflows zijn alleen-lezen voor alle campagnegebruikers, 
 
 ![ Technische werkschemainterface op read-only wijze, die opties tonen om werkschema&#39;s te pauzeren of tegen te houden.](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-Leer meer over technische werkschema&#39;s in [ deze sectie ](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).
+Leer meer over technische werkschema&#39;s in [ deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).

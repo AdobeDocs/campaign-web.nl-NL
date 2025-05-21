@@ -34,8 +34,7 @@ Voer de volgende stappen uit om een nieuwe, zelfstandige levering via e-mail te 
    * **[!UICONTROL Delivery code]**: organiseer uw leveringen met behulp van uw eigen naamgevingsconventie.
    * **[!UICONTROL Description]**: geef een beschrijving voor de levering.
    * **[!UICONTROL Nature]**: geef de aard van de levering op voor classificatiedoeleinden.
-
-   +++
++++
 
 1. Klik op de knop **[!UICONTROL Select audience]** om een bestaand publiek als doel in te stellen of uw eigen publiek te maken.
 

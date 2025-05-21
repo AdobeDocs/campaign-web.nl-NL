@@ -57,7 +57,7 @@ Ga als volgt te werk om een bezorgdashboard te maken:
 
 1. Op het **Uitgezochte waakzame groep** gebied, specificeer de **exploitantgroep** om het alarm te ontvangen dat door dit dashboard wordt verzonden. Alle leden van de geselecteerde operatorgroep ontvangen de waarschuwingen.
 
-   Leer meer over toestemmingen en exploitantgroepen in [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+   Leer meer over toestemmingen en exploitantgroepen in [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
 1. In de **sectie van de de alarmerende criteria van de Levering**, voeg criteria toe die u wilt gebruiken om alarm te verzenden. Kies uit vooraf gedefinieerde criteria of maak uw eigen criteria om deze aan te passen aan specifieke behoeften. [ Leer hoe te met criteria ](../msg/delivery-alerting-criteria.md) te werken
 
@@ -65,7 +65,7 @@ Ga als volgt te werk om een bezorgdashboard te maken:
 
    ![ Schermafbeelding die de de parametersectie van Criteria in het leveringsdashboard toont.](assets/alerting-criteria-parameters.png)
 
-   Bijvoorbeeld, door gebrek, wordt de **parameter van het 0&rbrace; doel van de Levering minimumgrootte &lbrace;aan 50 geplaatst, betekenend dat een levering in het alarm zal worden inbegrepen dat door dit dashboard wordt verzonden slechts als het minstens 50 profielen richt.** U kunt deze parameter wijzigen als u leveringen wilt opnemen die betrekking hebben op minder dan 50 profielen.
+   Bijvoorbeeld, door gebrek, wordt de **parameter van het 0} doel van de Levering minimumgrootte {aan 50 geplaatst, betekenend dat een levering in het alarm zal worden inbegrepen dat door dit dashboard wordt verzonden slechts als het minstens 50 profielen richt.** U kunt deze parameter wijzigen als u leveringen wilt opnemen die betrekking hebben op minder dan 50 profielen.
 
    Vouw de onderstaande sectie uit voor meer informatie over elke parameter criteria:
 
@@ -81,7 +81,7 @@ Ga als volgt te werk om een bezorgdashboard te maken:
    * **Minimum verwachte productie (in verzonden berichten per uur)**: Slechts worden de leveringen met een productie lager dan de gespecificeerde waarde in aanmerking genomen voor de Leveringen met laag productiecriterium.
    * **Minimale verwerkte verhouding die voor &quot;Bezig lopende Leveringen&quot;criterium** wordt vereist: Slechts worden de leveringen met een percentage verwerkte berichten hoger dan het gespecificeerde percentage in aanmerking genomen.
 
-   +++
++++
 
 1. Standaard zijn waarschuwingsdashboards uitgeschakeld. Dit houdt in dat e-mailwaarschuwingen die aan dit dashboard zijn gekoppeld, niet worden verzonden. Om het dashboard toe te laten onmiddellijk, knevel **Toegelaten** optie in de **Algemene** sectie, naast het gebied van de waakzame groepsselectie.
 
@@ -107,7 +107,7 @@ Telkens wanneer een levering voldoet aan de criteria die in dit dashboard zijn g
 >title="Geschiedenis van leveringswaarschuwingen"
 >abstract="De **ruit van de Geschiedenis** bevat alle alarm dat van dit dashboard wordt verzonden. Klik op een item om de bijbehorende waarschuwingen te openen die op dat moment worden verzonden."
 
-Alle gecreeerde alarmerende dashboards zijn toegankelijk van het **Alarm van de Levering** menu, in het **&#x200B;**&#x200B;lusje van Dashboards.
+Alle gecreeerde alarmerende dashboards zijn toegankelijk van het **Alarm van de Levering** menu, in het **** lusje van Dashboards.
 
 ![ Schermafbeelding die de lijst van alarmerende dashboards in het het Alarm menu van de Levering toont.](assets/alerting-dashboard-list.png)
 

@@ -31,7 +31,7 @@ Het palet bestaat uit twee tabbladen:
 
   >[!NOTE]
   >
-  >Om het publiek van Adobe Experience Platform te gebruiken, vorm de integratie met Doelen. Verwijs naar de [ documentatie van de Doelen van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"} .
+  >Om het publiek van Adobe Experience Platform te gebruiken, vorm de integratie met Doelen. Verwijs naar de [ documentatie van de Doelen van Adobe Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl){target="_blank"}.
 
 ## Het canvas
 

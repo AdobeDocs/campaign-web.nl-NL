@@ -49,7 +49,7 @@ Volg deze gemeenschappelijke stappen om de **te vormen combineren** activiteit:
 ![](../assets/workflow-combine.png)
 
 1. Voeg veelvoudige activiteiten, zoals **toe bouwt publiek** activiteiten, om minstens twee verschillende uitvoertakken te vormen.
-1. Voeg a **&#x200B;**&#x200B;activiteit aan om het even welke vorige takken combineren.
+1. Voeg a **** activiteit aan om het even welke vorige takken combineren.
 1. Selecteer het segmentatietype: [ unie ](#union), [ intersection ](#intersection), of [ uitsluiting ](#exclusion).
 1. Klik **verdergaan**.
 1. In de **Reeksen om zich bij** sectie aan te sluiten, controleer alle vorige activiteiten u wenst om zich aan te sluiten.
@@ -108,7 +108,7 @@ In **combineer** activiteit, vorm een **Uitsluiting** door deze extra stappen te
 
 ## Voorbeelden {#combine-examples}
 
-In het volgende voorbeeld, combineert a **&#x200B;**&#x200B;activiteit a **Unie** om alle profielen van de twee vragen terug te winnen: personen tussen 18 en 27 jaar oud en personen tussen 34 en 40 jaar oud.
+In het volgende voorbeeld, combineert a **** activiteit a **Unie** om alle profielen van de twee vragen terug te winnen: personen tussen 18 en 27 jaar oud en personen tussen 34 en 40 jaar oud.
 
 ![](../assets/workflow-union-example.png)
 

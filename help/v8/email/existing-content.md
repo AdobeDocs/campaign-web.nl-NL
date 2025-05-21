@@ -5,8 +5,8 @@ description: Leer hoe u e-mailinhoud importeert
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 2%
 
 ---
 
@@ -26,7 +26,7 @@ U kunt bestaande HTML-inhoud importeren in de e-mail-Designer. Deze inhoud kan:
 >
 >Er gelden geen beperkingen voor de .zip-bestandsstructuur. Verwijzingen moeten echter relatief zijn en passen in de boomstructuur van de ZIP-map.
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren.
 
@@ -56,4 +56,4 @@ Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren.
 
 Leer hoe u een e-mail maakt door HTML te uploaden, deze compatibel te maken met de e-mail-Designer en deze om te zetten in een sjabloon.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447038/?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

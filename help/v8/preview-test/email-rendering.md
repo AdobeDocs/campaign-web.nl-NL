@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Voordat u uw e-mail verzendt, moet u ervoor zorgen dat uw bericht optimaal wordt weergegeven voor ontvangers op verschillende webclients en apparaten.
 
-Om dit te bereiken, gebruik uw **rekening 0&rbrace; Litmus &lbrace;binnen [!DNL Adobe Campaign] aan voorproef uw e-mail die onmiddellijk in verschillende contexten teruggeeft.** Op deze manier kunt u de compatibiliteit met belangrijke bureaubladtoepassingen, webmailservices, mobiele apparaten en nog veel meer controleren.
+Om dit te bereiken, gebruik uw **rekening 0} Litmus {binnen [!DNL Adobe Campaign] aan voorproef uw e-mail die onmiddellijk in verschillende contexten teruggeeft.** Op deze manier kunt u de compatibiliteit met belangrijke bureaubladtoepassingen, webmailservices, mobiele apparaten en nog veel meer controleren.
 
 >[!CAUTION]
 >

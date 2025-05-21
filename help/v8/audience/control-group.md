@@ -5,8 +5,8 @@ description: Leer hoe te om een controlegroep voor uw berichten in het gebruiker
 exl-id: 02f3adec-681a-4cec-a895-41c80eb345db
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 4%
+source-wordcount: '793'
+ht-degree: 5%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 Een controlegroep is een subpopulatie die van de levering is uitgesloten. U kunt een controlegroep bepalen vermijden verzendend berichten naar een gedeelte van uw publiek en post-levering gedrag met het belangrijkste doel vergelijken. Met deze optie kunt u de impact van uw campagne meten.
 
-➡️ [ ontdekt deze eigenschap in video ](create-audience.md#video)
+➡️ [Ontdek deze functie in video](create-audience.md#video)
 
 ## Controlegroep inschakelen {#add-a-control-group}
 
@@ -60,7 +60,7 @@ Dan, gebruik de **de grens van de Grootte** sectie om het aantal profielen te pl
 Bijvoorbeeld, om een controlegroep met de 100 jongste profielen tot stand te brengen, volg deze stappen:
 
 1. Selecteer het **gebied van de Leeftijd** als sorterend criterium. Verlaat de **Overlopende** soortoptie.
-1. Voeg het **gebied van de Datum van de Verwezenlijking 0&rbrace; &lbrace;toe.** Verandering in de **Aflopende** soortoptie.
+1. Voeg het **gebied van de Datum van de Verwezenlijking 0} {toe.** Verandering in de **Aflopende** soortoptie.
 1. Bepaal 100 als drempel in de **grens van de Grootte** sectie.
 
    ![ de groepsconfiguratie van de Controle voor jongste profielen ](assets/control-group2.png){zoomable="yes"}

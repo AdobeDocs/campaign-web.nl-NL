@@ -32,11 +32,11 @@ ht-degree: 8%
 >title="Aanvullende informatie"
 >abstract="Geef de gegevens en de oorsprong van het abonnement voor elke record op. U kunt deze sectie leeg laten, in welk geval er geen datum of oorsprong wordt ingesteld wanneer de workflow wordt uitgevoerd. Als de binnenkomende gegevens een kolom bevatten die de abonnementdatum van het profiel aan de dienst aangeeft, kunt u het op het **[!UICONTROL Date]** gebied selecteren. Definieer in het veld **[!UICONTROL Origin path]** de oorsprong van het abonnement. U kunt dit instellen op een van de velden van de binnenkomende gegevens of op een constante waarde van uw keuze door de optie **[!UICONTROL Set a constant as origin]** te selecteren."
 
-De **activiteit van de diensten van het Abonnement van 0&rbrace; is a** het Beheer van Gegevens **activiteit.** Hiermee kunt u een abonnement op een informatieservice maken of verwijderen voor de populatie die is opgegeven in de overgang.
+De **activiteit van de diensten van het Abonnement van 0} is a** het Beheer van Gegevens **activiteit.** Hiermee kunt u een abonnement op een informatieservice maken of verwijderen voor de populatie die is opgegeven in de overgang.
 
 ## Vorm de de dienstenactiviteit van het Abonnement {#subscription-services-configuration}
 
-Volg deze stappen om de **activiteit te vormen van de diensten van het 0&rbrace; Abonnement &lbrace;:**
+Volg deze stappen om de **activiteit te vormen van de diensten van het 0} Abonnement {:**
 
 1. Voeg de diensten van het a **Abonnement** activiteit in uw werkschema toe. U kunt deze activiteit gebruiken na het richten van profielen of het invoeren van een dossier met geïdentificeerde gegevens.
 

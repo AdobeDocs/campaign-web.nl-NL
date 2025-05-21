@@ -7,8 +7,8 @@ level: Beginner
 exl-id: d372713d-3024-46a1-b62e-f271b8ac829f
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 1%
+source-wordcount: '603'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 1%
 
 Testprofielen worden gebruikt om proefdrukken te verzenden en uw berichtinhoud en montages te bevestigen. Deze profielen zijn extra ontvangers waarmee u de personalisatie en rendering kunt voorvertonen en testen voordat u uw berichten verzendt. U kunt een testprofiel selecteren wanneer u een voorbeeld van de inhoud van een bericht weergeeft en proefdrukken naar de testprofielen verzenden om de inhoud en instellingen van uw bericht te controleren en te valideren.
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
-<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=nl-NL){target="_blank"}.-->
+<!--Learn more about test profiles in the [Campaign v8 (client console) documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}.-->
 
 De stappen om proeven naar testprofielen te verzenden zijn gedetailleerd in [ deze sectie ](../preview-test/test-deliveries.md#test-profiles).
 
@@ -57,7 +57,7 @@ Daarna kunt u naar mappen of submappen bladeren, deze maken en beheren, en de bi
 
 ![ de omslagmening van de Profielen van de Test ](assets/test-profiles-folders.png){zoomable="yes"}
 
-Van de **[!UICONTROL Explorer]** mening, kunt u ook filtreren, schrappen, uitgeven, en [&#128279;](#create-test-profile) testprofielen creëren.
+Van de **[!UICONTROL Explorer]** mening, kunt u ook filtreren, schrappen, uitgeven, en [ ](#create-test-profile) testprofielen creëren.
 
 ## Een testprofiel maken {#create-test-profile}
 
@@ -112,4 +112,4 @@ Het testprofiel dat u zojuist hebt gemaakt, kan nu worden gebruikt om een proefd
 
 Leer om testprofielen tot stand te brengen en te beheren gebruikend het Web van de Campagne gebruikersinterface.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442901?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)

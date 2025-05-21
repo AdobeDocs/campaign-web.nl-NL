@@ -4,8 +4,8 @@ description: Leer om profielen in het Web van de Campagne te controleren en te b
 exl-id: 0b28741a-28f6-4f46-8c4c-820c5036aeda
 source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 0%
+source-wordcount: '428'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Bovendien, **[!UICONTROL test profiles]**, die als &quot;zaadprofielen&quot;in d
 
 Zowel profielen als testprofielen zijn handig voor het testen van leveringen voordat ze het beoogde publiek bereiken. Hierdoor kunt u de inhoud en de personalisatie van berichten voorvertonen, proefdrukken voor tests en validatie verzenden, de rendering van e-mail op verschillende platforms en apparaten evalueren en landingspagina&#39;s testen. [ Leer hoe te om leveringen ](../preview-test/preview-test.md) voor te vertonen en te testen
 
-➡️ [ ontdekt deze eigenschap in video ](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 ## De lijst met profielen openen {#access}
 
@@ -46,4 +46,4 @@ Als u een profiel wilt verwijderen, selecteert u de bijbehorende optie in het me
 
 Leer om tot profielen toegang te hebben, te beheren en te onderzoeken gebruikend het Web van de Campagne gebruikersinterface.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448370?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)

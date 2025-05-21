@@ -31,7 +31,7 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="Tekstspatiëring bewerken"
 >abstract="Door gebrek, wordt het volgen toegelaten voor de levering, die betekent alle verbindingen inbegrepen in de berichtinhoud worden gevolgd. U kunt deze optie hier uitschakelen."
->additional-url="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Koppelingen toevoegen en berichten bijhouden"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Koppelingen toevoegen en berichten bijhouden"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
@@ -129,7 +129,7 @@ Ga als volgt te werk om taalvarianten te maken:
 
    >[!IMPORTANT]
    >
-   >De knop **[!UICONTROL Add language]** is alleen beschikbaar als de doeldimensie het schema Taal bevat. Meer over schema&#39;s en de dimensies van het Doel leren, gelieve te verwijzen naar de [ gedetailleerde documentatie ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >De knop **[!UICONTROL Add language]** is alleen beschikbaar als de doeldimensie het schema Taal bevat. Meer over schema&#39;s en de dimensies van het Doel leren, gelieve te verwijzen naar de [ gedetailleerde documentatie ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Ga als volgt te werk om taalvarianten te maken:
 
    >[!NOTE]
    >
-   >De talen die beschikbaar zijn via deze lijst, zijn afhankelijk van de waarden die zijn gedefinieerd door het taalkenmerk (waarden zoals systeem, gebruiker, dbenum, enz.) Leer meer over opsommingsbeheer in deze [ sectie ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >De talen die beschikbaar zijn via deze lijst, zijn afhankelijk van de waarden die zijn gedefinieerd door het taalkenmerk (waarden zoals systeem, gebruiker, dbenum, enz.) Leer meer over opsommingsbeheer in deze [ sectie ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

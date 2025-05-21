@@ -68,7 +68,7 @@ Zodra uw direct-mail klaar is om naar uw klanten te worden verzonden, verzend de
 
    Klik op de knop **[!UICONTROL Send as scheduled]** als de levering via e-mail gepland is. Leer meer over levering het plannen in [ deze sectie ](../msg/gs-messages.md#schedule-the-delivery-sending).
 
-Zodra uw levering wordt verzonden, wordt het extractiedossier automatisch geproduceerd en uitgevoerd naar de plaats die in de **[!UICONTROL Routing]** externe rekening wordt gespecificeerd die in de 1&rbrace; wordt geselecteerd geavanceerde montages van het leveringsmalplaatje [&#128279;](../advanced-settings/delivery-settings.md).
+Zodra uw levering wordt verzonden, wordt het extractiedossier automatisch geproduceerd en uitgevoerd naar de plaats die in de **[!UICONTROL Routing]** externe rekening wordt gespecificeerd die in de 1} wordt geselecteerd geavanceerde montages van het leveringsmalplaatje ](../advanced-settings/delivery-settings.md).[
 
 Houd uw PKIs (Zeer belangrijke Indicator van Prestaties) gegevens van uw leveringspagina en gegevens van het **[!UICONTROL Logs]** menu bij.
 

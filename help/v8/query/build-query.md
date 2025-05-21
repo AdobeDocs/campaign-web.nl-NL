@@ -70,7 +70,7 @@ U opent deze optie door in de query op de selectieknop voor kenmerken te klikken
 >
 >* Voor velden met veel waarden worden alleen de eerste 20 waarden weergegeven. In dergelijke gevallen verschijnt er een waarschuwing **[!UICONTROL Partial load]** .
 >* De optie **[!UICONTROL Distribution of values]** is toegankelijk in elke kenmerkkiezer. [ leer hoe te om attributen ](../get-started/attributes.md) te selecteren
->* U kunt voorwaarden op de resultaten toevoegen door de **[ !AGeavanceerde filters]** te gebruiken. [ leer hier meer ](../get-started/work-with-folders.md#filter-the-values).
+>* U kunt voorwaarden op de resultaten toevoegen door de **[!AGeavanceerde filters]** te gebruiken. [ leer hier meer ](../get-started/work-with-folders.md#filter-the-values).
 
 ## Filtercomponenten toevoegen {#filtering}
 
@@ -122,7 +122,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
    | leuk | Net als bij de operator Bevat kunt u een jokerteken % in de waarde invoegen. | Achternaam (@lastName) zoals &#39;Jon%s&#39;. Het jokerteken fungeert als een &#39;joker&#39; om namen als &#39;Jones&#39; te zoeken. |
    | Niet leuk | Net als bij de operator Bevat kunt u een jokerteken % in de waarde invoegen. | Achternaam (@lastName) houdt niet van &#39;Smi%h&#39;. Ontvangers met de achternaam Smith worden niet geretourneerd. |
 
-   +++
++++
 
 1. Op het **gebied van de Waarde**, bepaal de verwachte waarde. U kunt de de uitdrukkingsredacteur van het Web van de Campagne ook gebruiken om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. Om dit te doen, klik **geef uitdrukking** knoop uit. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 
@@ -166,7 +166,7 @@ U kunt een lijstverbinding in de **plukker van de Waarde** ook direct selecteren
 
 Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
-1. Navigeer binnen de **Merk** lijst en selecteer het **3&rbrace; attribuut van het Etiket &lbrace;.**
+1. Navigeer binnen de **Merk** lijst en selecteer het **3} attribuut van het Etiket {.**
 
    ![ Schermafbeelding van de lijst van het Merk ](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
