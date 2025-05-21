@@ -46,4 +46,4 @@ Als u een profiel wilt verwijderen, selecteert u de bijbehorende optie in het me
 
 Leer om tot profielen toegang te hebben, te beheren en te onderzoeken gebruikend het Web van de Campagne gebruikersinterface.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448370?quality=12&captions=dut)

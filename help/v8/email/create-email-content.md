@@ -110,4 +110,4 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 Begrijp hoe u door de Designer-e-mail kunt navigeren. Leer hoe u een e-mailbericht helemaal zelf kunt structureren en ontwerpen, uw e-mailadres kunt aanpassen en testen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453571/?quality=12&captions=dut)
