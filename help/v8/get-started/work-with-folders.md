@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met mappen
 description: Leer hoe u een map beheert in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,11 @@ ht-degree: 0%
 >id="acw_folder_schedule"
 >title="Mapschema"
 >abstract="Mapschema"
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Favorieten"
+>abstract="Favorieten"
 
 ## Mappen {#about-folders}
 
@@ -62,7 +67,7 @@ Stel het maptype in door op de knop **[!UICONTROL Confirm]** te klikken.
 
 Als u een map zonder specifiek type wilt maken, selecteert u het type **[!UICONTROL Generic Folder]** .
 
-U kunt ook [ omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/config/configuration/folders-and-views) tot stand brengen en leiden.
+U kunt ook [ omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views) tot stand brengen en leiden.
 
 ## Mappen opnieuw ordenen {#reorder-folders}
 
