@@ -2,9 +2,9 @@
 title: Aangepaste velden
 description: Leer hoe u aangepaste velden en hun zichtbaarheid in de interface configureert.
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: f08603afde2493457bc81a0d808b647b70a52f7c
+source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '981'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 0%
 >title="Kenmerkinstellingen"
 >abstract="Kenmerkinstellingen"
 
-Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan out-of-the-box-schema&#39;s worden toegevoegd. Zij staan u toe om schema&#39;s aan te passen door nieuwe attributen aan de behoeften van uw organisatie te omvatten. Leer hoe te om een schema in de [ Adobe Campaign v8 documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=nl-NL){target="_blank"} uit te breiden.
+Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan out-of-the-box-schema&#39;s worden toegevoegd. Zij staan u toe om schema&#39;s aan te passen door nieuwe attributen aan de behoeften van uw organisatie te omvatten. Leer hoe te om een schema in de [ Adobe Campaign v8 documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"} uit te breiden.
 
 De gebieden van de douane kunnen in diverse schermen, zoals profieldetails in de interface van het Web van de Campagne worden getoond. Beheerders kunnen bepalen welke velden zichtbaar zijn en hoe ze worden weergegeven. Deze wijzigingen gelden voor alle campagnegebruikers.
 
@@ -60,7 +60,13 @@ De gebieden van de douane zijn beschikbaar voor de volgende schema&#39;s:
 * Zaadadressen (nms)
 * Leveringen (nms)
 
-## Aangepaste velden toevoegen aan de interface {#add}
+## Aangepaste velden toevoegen aan de interface {#add-custom}
+
+>[!CONTEXTUALHELP]
+>id="acw_schema_screen_definition"
+>title="Schermdefinitie"
+>abstract="Definieer de lijst met aangepaste velden die u wilt bewerken voor het schema en de eigenschappen ervan. Klik de **knoop van de Voorproef** om de douanegebieden in een steekproefscherm te tonen."
+
 
 Ga als volgt te werk om aangepaste velden in de interface weer te geven:
 
@@ -122,7 +128,7 @@ Beschikbare instellingen zijn:
 
   ![ Schermafbeelding die een voorbeeld van filtermontages voor douanegebieden toont ](assets/custom-fields-ref.png)
 
-  +++
++++
 
 * **[!UICONTROL Span two columns]**: Standaard worden aangepaste velden in de interface weergegeven in twee kolommen. Schakel deze optie in om het aangepaste veld over de volledige breedte van het scherm weer te geven in plaats van over twee kolommen.
 
