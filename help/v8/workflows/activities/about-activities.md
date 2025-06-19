@@ -6,7 +6,7 @@ exl-id: 6ba3bcfd-84eb-476c-837d-5aa473b820cd
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -18,11 +18,11 @@ Alle activiteiten worden beschreven in de volgende onderdelen:
 
 * [Gerichte activiteiten en gegevensbeheer](#targeting)
 * [Kanaalactiviteiten](#channel)
-* [Stroombeheeractiviteiten](#flow-control)
+* [Workflowbeheeractiviteiten](#flow-control)
 
 ![ Overzicht van de activiteiten van het Werkschema ](../assets/workflow-activities.png)
 
-## Gerichte activiteiten {#targeting}
+## Targetingactiviteiten {#targeting}
 
 Deze activiteiten zijn specifiek gericht op de doelgroepen. U kunt hiermee een of meer doelgroepen maken door een publiek te definiëren en deze doelgroepen te splitsen of te combineren met een doorsnede, samenvoeging of uitsluitingsbewerking.
 
@@ -52,7 +52,7 @@ Deze activiteiten zijn specifiek gericht op het manipuleren en verrijken van bev
 
 Met Adobe Campaign Web kunt u marketingcampagnes op meerdere kanalen automatiseren en uitvoeren. U kunt kanaalactiviteiten combineren tot het canvas om kanaalworkflows te maken die acties activeren op basis van het gedrag van de klant. De volgende **activiteiten van het Kanaal** zijn beschikbaar: E-mail, SMS, Android, en de Push van iOS berichten. [ Leer hoe te opstelling een levering in de context van een werkschema ](channels.md).
 
-## Stroombeheeractiviteiten {#flow-control}
+## Workflowbeheeractiviteiten {#flow-control}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_end"
