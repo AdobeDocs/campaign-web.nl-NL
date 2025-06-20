@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: c47d0fd299d55520d66b08dd8bbfd2cc33e698cc
+source-git-commit: a9e4d1750cc920b8de87b54faa712c80bece95d2
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 13%
    + [Nieuwe functies](rn/whats-new.md)
    + [Vroege release](rn/e-release-notes.md)
    + [Nieuwste release](rn/release-notes.md)
-   + Eerdere versies {#previous-release-notes}
+   + Eerdere releases {#previous-release-notes}
       + [Releases van 2025](rn/release-notes-25.md)
       + [Releases van 2024](rn/release-notes-24.md)
    + [Documentatie-updates](rn/documentation-updates.md)
 + Aan de slag met Adobe Campaign {#start}
    + [Aan de slag](get-started/get-started.md)
-   + [Verbinding maken met campagne](get-started/connect-to-campaign.md)
+   + [Verbinding maken met Campaign](get-started/connect-to-campaign.md)
    + [De interface detecteren](get-started/user-interface.md)
    + [Bladeren en lijsten filteren](get-started/list-filters.md)
    + [Werken met vooraf gedefinieerde filters](get-started/predefined-filters.md)
@@ -121,6 +121,7 @@ ht-degree: 13%
          + [Verticale uitlijning en opvulling aanpassen](email/alignment-and-padding.md)
          + [Een stijl voor koppelingen definiëren](email/styling-links.md)
          + [Inline-opmaakkenmerken toevoegen](email/inline-styling.md)
+         + [Een aangepaste CSS toevoegen](email/custom-css.md)
    + AI-assistent {#ai-assistant}
       + [Werken met AI-assistent](email/generative-gs.md)
       + [E-mailgeneratie met AI](email/generative-content.md)
@@ -243,4 +244,4 @@ ht-degree: 13%
    + [Externe accounts configureren](administration/external-account.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
