@@ -8,9 +8,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: css, editor, summary, email
-source-git-commit: 4ebe0990f086d6d9ea54ea68c3061e8361344b5c
+source-git-commit: cabc4f810878001102f57a93581ff4be23fcbcd5
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '619'
 ht-degree: 1%
 
 ---
@@ -238,16 +238,19 @@ Houd rekening met de onderstaande opties als uw aangepaste CSS niet wordt toegep
 
 * Zorg ervoor dat uw CSS wordt toegevoegd aan de tag `<style>` met het kenmerk `data-name="global-custom"` en dat `data-disabled` niet wordt toegepast op `global-custom` . [Meer informatie](#implementation)
 
-* Zorg ervoor dat uw CSS niet door andere CSS regels, met inbegrip van om het even welk [ thema ](apply-email-themes.md) wordt met voeten getreden die op uw inhoud wordt toegepast.
+<!--
+* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
+ 
+  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
+  
+  * Consider adding `!important` to your declarations to ensure they take precedence. 
+    
+    For example:
 
-   * Gebruik de browsergereedschappen voor ontwikkelaars om de inhoud te controleren en te controleren of uw CSS zich richt op de juiste kiezers.
+    ```css
+    .acr-Form {
+      background: red !important;
+    }
+    ```
+    -->
 
-   * Voeg `!important` aan uw declaraties toe om ervoor te zorgen dat deze voorrang krijgen.
-
-     Bijvoorbeeld:
-
-     ```css
-     .acr-Form {
-       background: red !important;
-     }
-     ```
