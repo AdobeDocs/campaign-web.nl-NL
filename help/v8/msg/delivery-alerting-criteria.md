@@ -2,14 +2,11 @@
 audience: end-user
 title: Afleveringswaarschuwing
 description: Leer hoe u werkt met waarschuwingsberichten voor leveringen.
-hidefromtoc: true
-hide: true
-robots: noindex
-googlebot: noindex
+badge: label="Beperkte beschikbaarheid"
 exl-id: fc98d4e3-7986-42bb-82d5-b4f874aa71db
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -26,6 +23,10 @@ De gebruikersinterface van het Web van de campagne verstrekt vooraf bepaalde ala
 Het waarschuwen van criteria is toegankelijk van het **Alarm van de Levering** menu in de linkernavigatieruit, onder de **Criteria** tabel.
 
 ![ Lijst van alarmerende criteria die in het het Alarm menu van de Levering worden getoond ](assets/alerting-criteria-list.png)
+
+>[!AVAILABILITY]
+>
+>Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 
 ## Vooraf gedefinieerde waarschuwingscriteria {#ootb-criteria}
 
