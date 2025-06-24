@@ -2,10 +2,10 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cc17e9e6aaf94aacbd8e73a6fe26f2b6ca710458
+source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 7%
+source-wordcount: '286'
+ht-degree: 5%
 
 ---
 
@@ -20,45 +20,22 @@ De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een onond
 
 De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld in [ 2024 ](release-notes-24.md) en [ 2025 ](release-notes-25.md).
 
-## Release mei &#39;25 {#25-5-release}
+## Release van juni 1925 {#25-6-release}
 
-De volgende functies zijn vanaf mei beschikbaar voor alle gebruikers.
+### Verbeteringen {#25-6-improvements}
 
-<table>
-<thead>
-<tr>
-<th><strong>Brand alignment score (Beta)</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>De functie voor de uitlijningsscore voor merken biedt duidelijke feedback rechtstreeks in de e-mailontwerper, zodat u kunt zien of uw inhoud wordt uitgelijnd op de toon, stijl en richtlijnen van uw merk. Deze functie is beschikbaar in Beta.</p>
-<p>Raadpleeg de <a href="../content/brands-score.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<img src="assets/do-not-localize/brand-score.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* Het rapport van het Overzicht van de Levering is nu beschikbaar voor zowel het Centrum van de Vraag als de kanalen van de Douane. [Meer informatie](../reporting/direct-mail.md)
 
-<table>
-<thead>
-<tr>
-<th><strong>Aangepast kanaal voor externe leveringen</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>U kunt nu rechtstreeks vanuit de gebruikersinterface van Adobe Campaign leveringen ordenen en uitvoeren op basis van aangepaste externe kanalen. Deze leveringen kunnen op zichzelf staan of deel uitmaken van een workflow. Het maken van het aangepaste externe kanaal dat met een derde is geïntegreerd, wordt uitgevoerd in de console.</p>
-<p>Nota: Het melden is niet beschikbaar in het Web UI voor het douanekanaal. U moet naar de clientconsole bladeren om rapporten te openen.</p>
-<p>Raadpleeg de <a href="../call-center/gs-custom-channel.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-<img src="assets/do-not-localize/custom-channel.gif">
-</td>
-</tr>
-</tbody>
-</table>
+* Wanneer het vormen van een levering van SMS, hebt u nu toegang tot de specifieke parameters van SMS. Dit zijn dezelfde parameters die beschikbaar zijn in de clientconsole. [Meer informatie](../advanced-settings/delivery-settings.md#sms-tab)
 
-### Verbeteringen {#25-5-improvements}
+* Uw favoriete mappen worden nu boven aan het linkerdeelvenster op de pagina Verkenner weergegeven, zodat ze gemakkelijker toegankelijk zijn. [Meer informatie](../get-started/work-with-folders.md#favorite-folders)
 
-Het aanmaakscherm van de typologieregels is bijgewerkt om de selectie van het type regel te vergemakkelijken.
+* De Bouwer van de Regel steunt nu belemmering-en-daling, toestaand u om componenten van uw vraag efficiënter opnieuw te rangschikken. [Meer informatie](../query/build-query.md#drag-and-drop)
+
+* De &quot;menselijke conditie&quot;in de Bouwer van de Regel is verbeterd. Dit is de geschreven, duidelijke-taalversie van uw regels, die bij de bodem van het scherm wordt getoond:
+
+   * Kenmerken worden nu gemarkeerd en het bijbehorende schema wordt weergegeven.
+   * U kunt op deze elementen klikken om meer gedetailleerde informatie te bekijken.
+   * U kunt nu de menselijke voorwaarde kopiëren met de bijbehorende knop.
+
+* De toegang tot de mappen &#39;Technische workflows&#39; en &#39;Objecten die automatisch worden gemaakt&#39; is nu beperkt om te voorkomen dat ze worden weergegeven. [Meer informatie](../get-started/work-with-folders.md#about-folders)

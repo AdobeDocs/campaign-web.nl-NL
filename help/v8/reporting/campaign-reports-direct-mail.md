@@ -3,16 +3,18 @@ audience: end-user
 title: Campagnerapporten voor het kanaal Direct mail
 description: Inzicht in campagnerapporten voor het kanaal Direct mail
 exl-id: 7817d4c5-1f97-4b17-8a5f-f1a5b8701fe9
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
 
-# Campagnerapporten voor het kanaal Direct mail {#campaign-reports-direct-mail}
+# Campagnerapporten voor externe leveringskanalen {#campaign-reports-direct-mail}
 
-Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het kanaal van de Post, zijn de rapporten en de metriek gedetailleerd hieronder. Leer hoe te om tot uw campagnerapporten in [ toegang te hebben deze pagina ](campaign-reports.md).
+Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor externe leveringskanalen worden de rapporten en de cijfers hieronder beschreven. Leer hoe te om tot uw campagnerapporten in [ toegang te hebben deze pagina ](campaign-reports.md).
+
+Het volgende rapport wordt beschreven in de context van direct mail. Het is ook beschikbaar voor vraagcentrum en douane externe kanalen.
 
 ## Leveringsoverzicht {#delivery-summary-direct}
 

@@ -4,23 +4,15 @@ title: Leveringsinstellingen configureren
 description: Leer hoe te om leveringsmontages in het Web van de Campagne te vormen
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 exl-id: d6025dbd-0438-4fe7-abe7-0459a89e8cfa
-source-git-commit: 3adf28810800c3059e63ec3af675690318051f56
+source-git-commit: 73c9e30ab93787630e973da71f0381b14c64cc2c
 workflow-type: tm+mt
-source-wordcount: '2632'
-ht-degree: 4%
+source-wordcount: '3137'
+ht-degree: 3%
 
 ---
 
 
 # Leveringsinstellingen configureren {#del-settings}
-
-
->[!CONTEXTUALHELP]
->id="acw_sms_delivery_settings"
->title="Instellingen voor SMS-verzending"
->abstract="De leveringsparameters van SMS zijn technische montages die op uw levering van SMS van toepassing zijn. U kunt het afzenderadres, de dienstparameters, transmissiemodus, en meer bepalen. Deze opties zijn beperkt tot deskundige gebruikers."
-
-
 
 De montages van de levering zijn **technische leveringsparameters** die in het leveringsmalplaatje worden bepaald. Deze kunnen voor elke levering worden overbelast. Deze montages zijn beschikbaar bij de **knoop van Montages** beschikbaar wanneer het uitgeven van een levering of een leveringsmalplaatje.
 
@@ -80,7 +72,7 @@ Er zijn drie modi beschikbaar:
 
 >[!NOTE]
 >
->Het beheer van de vermoeidheid en de drukregels worden gevormd in de de cliëntconsole van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=nl-NL){target="_blank"}.
+>Het beheer van de vermoeidheid en de drukregels worden gevormd in de de cliëntconsole van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
 
 ### Capaciteitsinstellingen {#capacity-settings}
 
@@ -100,7 +92,7 @@ Het veld **[!UICONTROL Importance of the recipient]** is een formule die wordt g
 
 >[!NOTE]
 >
->De typologische regels worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=nl-NL){target="_blank"}.
+>De typologische regels worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
 
 ## Instellingen voor publiek {#audience}
 
@@ -111,7 +103,7 @@ Het veld **[!UICONTROL Importance of the recipient]** is een formule die wordt g
 
 In deze sectie, kunt u a **doelafbeelding** onder die beschikbaar selecteren. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console. De doelafbeelding is het type gegevens dat een bewerking afhandelt. Hiermee kunt u de doelgroep definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz. [ Leer meer over doelafbeeldingen ](../audience/targeting-dimensions.md).
 
-In het veld **[!UICONTROL Exclusion]** kunt u aangeven of u profielen wilt uitsluiten die niet meer worden benaderd of die in quarantaine zijn geplaatst. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=nl-NL){target="_blank"}
+In het veld **[!UICONTROL Exclusion]** kunt u aangeven of u profielen wilt uitsluiten die niet meer worden benaderd of die in quarantaine zijn geplaatst. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html){target="_blank"}
 
 ## Levering {#delivery}
 
@@ -138,7 +130,7 @@ U kunt de onderstaande **[!UICONTROL Sending]** -instellingen definiëren.
 
 * **[!UICONTROL Test SMTP delivery]** (e-mailkanaal): deze optie wordt gebruikt om het verzenden via SMTP te testen. De e-mail wordt verwerkt tot verbinding aan de server SMTP, maar wordt niet verzonden: voor elke ontvanger van e-mail, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
 
-* **[!UICONTROL Email BCC]** (e-mailkanaal): deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door gewoon een BCC-e-mailadres toe te voegen aan uw berichtdoel. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=nl-NL){target="_blank"}.
+* **[!UICONTROL Email BCC]** (e-mailkanaal): deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door gewoon een BCC-e-mailadres toe te voegen aan uw berichtdoel. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
 
 Selecteer in de sectie **[!UICONTROL Wave definition]** de optie **[!UICONTROL Send using multiple waves]** om het volume dat met golven wordt verzonden geleidelijk te verhogen. Zo voorkomt u dat uw berichten als spam worden gemarkeerd of dat u het aantal berichten per dag wilt beperken. Met golven kunt u leveringen in verschillende batches verdelen in plaats van tegelijkertijd grote volumes berichten te verzenden. [Meer informatie](send-using-waves.md)
 
@@ -167,7 +159,7 @@ U kunt ook de tags definiëren die worden gedeeld met het analyseprogramma dat u
 
 >[!NOTE]
 >
->De mogelijkheden van de Analytics van het Web worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=nl-NL#external-account-ac){target="_blank"}.
+>De mogelijkheden van de Analytics van het Web worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
 
 ## Opnieuw {#retries}
 
@@ -236,7 +228,7 @@ U kunt ook datums opgeven. Selecteer **[!UICONTROL Explicitly set validity dates
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-Leer meer over de periode van de leveringsgeldigheid in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=nl-NL#validity-period){target="_blank"}.
+Leer meer over de periode van de leveringsgeldigheid in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html#validity-period){target="_blank"}.
 
 ### Paginabeheer spiegelen (e-mailkanaal) {#mirror}
 
@@ -287,8 +279,62 @@ U kunt ook de tabel van de proefdrukken aanpassen:
 * Gebruik **[!UICONTROL Keep the delivery code for the proof]** om aan de proef de zelfde leveringscode te associëren die voor de levering wordt bepaald waarop het betrekking heeft.
 * Standaard wordt het onderwerp van de proefdruk voorafgegaan door &#39;PROOF #&#39;, waarbij # het nummer van de proefdruk is. U kunt dit voorvoegsel wijzigen in het veld **[!UICONTROL Label prefix]** .
 
+## SMS-instellingen (SMS-kanaal) {#sms-tab}
+
+>[!CONTEXTUALHELP]
+>id="acw_sms_delivery_settings"
+>title="Instellingen voor SMS-verzending"
+>abstract="De leveringsparameters van SMS zijn technische montages die op uw levering van SMS van toepassing zijn. U kunt het afzenderadres, de dienstparameters, transmissiemodus, en meer bepalen. Deze opties zijn beperkt tot deskundige gebruikers."
+
+De leveringsparameters van SMS zijn technische montages die op uw levering van SMS van toepassing zijn. U kunt het afzenderadres, de dienstparameters, transmissiemodus, en meer bepalen. Deze opties zijn beperkt tot deskundige gebruikers.
+
+* **[!UICONTROL Sender address]**
+
+  Het veld is door de SMPP-specificatie beperkt tot 21 tekens, maar sommige providers staan mogelijk langere waarden toe. Houd er rekening mee dat in sommige landen zeer strikte beperkingen kunnen worden toegepast (lengte, inhoud, toegestane tekens, ...), zodat u mogelijk moet controleren of de inhoud die u hier plaatst, geldig is. Wees vooral voorzichtig wanneer u gepersonaliseerde velden gebruikt.
 
 
+  Met dit optionele veld kunt u het verzendadres (oADC) overschrijven. Zijn inhoud wordt geplaatst in het *source_addr* gebied van SUBMIT_SM PDU.
+
+  Hoewel dit veld in de SMPP-specificatie wordt beperkt tot 21 tekens, ondersteunen sommige providers mogelijk langere waarden. Houd er rekening mee dat bepaalde landen strenge regels opleggen aan afzenderadressen (met betrekking tot lengte, inhoud, toegestane tekens, enzovoort), dus controleer altijd of uw invoer voldoet aan de lokale vereisten. Wees extra voorzichtig wanneer u werkt met gepersonaliseerde velden.
+
+  Als dit veld leeg blijft, wordt in plaats daarvan de waarde gebruikt van het veld Source-nummer dat in de externe account is gedefinieerd. Als beide waarden leeg zijn, zal het *source_addr* gebied leeg worden verlaten.
+
+* **[!UICONTROL Service type]** :
+
+  Deze parameter wordt doorgegeven aan de provider zoals hij is.
+
+* **[!UICONTROL Service or program ID]**
+
+  >[!NOTE]
+  >
+  >Het gebruik van dit veld wordt afgeraden. De facultatieve parameters SMPP, beschikbaar in de Console van de Cliënt, verstrekken een veel flexibelere implementatie.
+  >
+  >Dit veld kan niet gelijktijdig met optionele SMPP-parameters worden gebruikt.
+
+  In combinatie met de instelling voor de overeenkomende externe account kunt u één optionele parameter met elke MT verzenden. In dit veld wordt het waardegedeelte van het TLV gedefinieerd.
+
+* **[!UICONTROL Transmission mode]**
+
+  In dit veld wordt het type SMS gedefinieerd dat wordt verzonden: of het een normaal of Flash-bericht is en of het op het mobiele apparaat of de SIM-kaart moet worden opgeslagen. Deze instelling wordt verzonden in het optionele veld dest_addr_subunit in de SUBMIT_SM PDU.
+
+   * **de Flits** plaatst de waarde aan 1. Verzendt een flash-SMS-bericht dat direct op het scherm wordt weergegeven en niet wordt opgeslagen.
+   * **Normaal** plaatst de waarde aan 0. Verzendt standaard SMS.
+   * **die op mobiele** wordt bewaard plaatst de waarde aan 2. Geeft het apparaat de opdracht om het SMS in het interne geheugen op te slaan.
+   * **die op terminal** wordt opgeslagen plaatst de waarde aan 3. Geeft het apparaat de opdracht het SMS op de SIM-kaart op te slaan.
+
+* **[!UICONTROL Priority, Communication type]**
+
+  Deze gebieden worden genegeerd door de uitgebreide schakelaar SMPP.
+
+* **[!UICONTROL Maximum number of SMS per message]**
+
+  Deze instelling is alleen effectief als de optie Bericht laden is uitgeschakeld (zie de instellingen voor de externe account voor meer informatie). Als het bericht meer SMS dan deze waarde vereist, wordt een fout teweeggebracht.
+
+  Terwijl het protocol van SMS berichten toestaat om in maximaal 255 delen worden verdeeld, kunnen sommige mobiele apparaten moeite hebben om berichten met meer dan 10 delen opnieuw samen te stellen (de grens hangt van het apparatenmodel af). Voor betrouwbaarheid, is het best om berichten tot 5 delen of minder te beperken.
+
+  Houd er rekening mee dat de berichtgrootten kunnen variëren vanwege de manier waarop persoonlijke berichten in Adobe Campaign werken. Een hoog aantal lange berichten kan resulteren in hogere verzendkosten, dus het gebruik van een verstandige beperking helpt de uitgaven te beheersen.
+
+  Als u deze waarde instelt op 0, wordt de limiet uitgeschakeld.
 
 ## SMTP-instellingen voor e-maillevering {#smtp}
 

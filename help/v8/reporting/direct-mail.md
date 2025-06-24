@@ -3,16 +3,18 @@ audience: end-user
 title: Rapporten via e-mail
 description: Ontdek hoe u rapporten via Direct mail kunt openen en gebruiken
 exl-id: 268fe1e3-bd5c-40f1-8973-7671cd8c9960
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 1a2ab055822bea4cd55230fb63b59234aa114ff7
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
 
-# Rapport voor verzending via e-mail {#direct-mail-report}
+# Extern leveringsverslag {#direct-mail-report}
 
-Het **Directe rapport van de postlevering** verstrekt uitvoerige inzichten en gegevens specifiek voor uw Directe postlevering. Het omvat gedetailleerde informatie over de prestaties, de doeltreffendheid, en de resultaten van individuele leveringen, die een volledig overzicht aanbieden.
+Het **Externe leveringsrapport** verstrekt uitvoerige inzichten en gegevens specifiek voor uw externe levering. Het omvat gedetailleerde informatie over de prestaties, de doeltreffendheid, en de resultaten van individuele leveringen, die een volledig overzicht aanbieden.
+
+Het volgende rapport wordt beschreven in de context van direct mail. Het is ook beschikbaar voor vraagcentrum en douane externe kanalen.
 
 ## Leveringsoverzicht {#delivery-summary-direct-mail}
 
@@ -82,7 +84,7 @@ De grafiek van **[!UICONTROL Delivery statistics]** geeft een overzicht van de p
 >title="Uitsluitingsoorzaken"
 >abstract="De **Oorzaken van uitsluiting** grafiek illustreert de distributie van verworpen berichten tijdens de voorbereiding voor levering, die door elke regel wordt gecategoriseerd."
 
-De grafiek **[!UICONTROL Causes of exclusion]** geeft een overzicht van de redenen voor het afwijzen van berichten tijdens de voorbereiding van de levering. Deze uitsplitsing wordt volgens verschillende regels georganiseerd en biedt een gedetailleerd overzicht van de factoren die bijdragen tot uitsluiting van berichten. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#email-error-types){_blank}.
+De grafiek **[!UICONTROL Causes of exclusion]** geeft een overzicht van de redenen voor het afwijzen van berichten tijdens de voorbereiding van de levering. Deze uitsplitsing wordt volgens verschillende regels georganiseerd en biedt een gedetailleerd overzicht van de factoren die bijdragen tot uitsluiting van berichten. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
 ![ Oorzaken van uitsluitingsgrafiek die distributie van verworpen berichten door regel tonen.](assets/direct-mail-delivery-exclusions.png){zoomable="yes"}{align="center" zoomable="yes"}
 

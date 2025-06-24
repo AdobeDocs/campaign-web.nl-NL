@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: a9e4d1750cc920b8de87b54faa712c80bece95d2
+source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '834'
+ht-degree: 15%
 
 ---
 
@@ -218,13 +218,13 @@ ht-degree: 0%
       + [E-mailleveringsrapport](reporting/email-report.md)
       + [Push-leveringsrapport](reporting/push-report.md)
       + [SMS-leveringsrapport](reporting/sms-report.md)
-      + [Rapport voor verzending via e-mail](reporting/direct-mail.md)
+      + [Extern leveringsverslag](reporting/direct-mail.md)
    + Campagneverslagen {#campaign-report}
       + [Aan de slag met campagnerapporten](reporting/campaign-reports.md)
       + [E-mailcampagnerapport](reporting/campaign-reports-email.md)
       + [Push-campagnerapport](reporting/campaign-reports-push.md)
       + [Rapport voor SMS-campagne](reporting/campaign-reports-sms.md)
-      + [Campagnerapport voor e-mail](reporting/campaign-reports-direct-mail.md)
+      + [Rapport over externe leveringscampagne](reporting/campaign-reports-direct-mail.md)
    + Algemene rapporten {#global-report}
       + [Aan de slag met algemene rapporten](reporting/global-reports.md)
       + [Globaal e-mailrapport](reporting/global-report-email.md)
@@ -244,4 +244,4 @@ ht-degree: 0%
    + [Externe accounts configureren](administration/external-account.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

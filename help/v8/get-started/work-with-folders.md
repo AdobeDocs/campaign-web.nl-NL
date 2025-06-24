@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met mappen
 description: Leer hoe u een map beheert in Adobe Campaign
 exl-id: a4518a21-03cd-46ac-9c40-d181692e1b9b
-source-git-commit: 5f9cc8915f2897ebc14d571357773fef057cf9c1
+source-git-commit: 6901533f1f5c45ce9ebf77a4f1095d8476c6a21b
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,9 @@ ht-degree: 0%
 >abstract="Mapbeveiliging"
 
 >[!CONTEXTUALHELP]
->id="acw_folder_restrictions"
->title="Mapbeperkingen"
->abstract="Mapbeperkingen"
-
->[!CONTEXTUALHELP]
 >id="acw_folder_schedule"
 >title="Mapschema"
 >abstract="Mapschema"
-
->[!CONTEXTUALHELP]
->id="acw_folder_favorites"
->title="Favorieten"
->abstract="Favorieten"
 
 ## Mappen {#about-folders}
 
@@ -46,6 +36,16 @@ U kunt mappen in de navigatiestructuur maken, hernoemen, opnieuw ordenen en verp
 ![ interface die van Mappen omslagorganisatie ](assets/folders.png){zoomable="yes"} tonen
 
 U kunt een maptype instellen. Bijvoorbeeld een map met leveringen. Het mappictogram verandert afhankelijk van het type.
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_restrictions"
+>title="Mapbeperkingen"
+>abstract="De mappen Objecten die automatisch worden gemaakt en Technische workflows zijn beperkt en kunnen niet worden weergegeven in het linkerdeelvenster."
+
+>[!IMPORTANT]
+>
+>De mappen **[!UICONTROL Objects created automatically]** en **[!UICONTROL Technical workflows]** zijn beperkt en kunnen niet worden weergegeven in het linkerdeelvenster.
+
 
 ## Nieuwe map maken {#create-a-folder}
 
@@ -67,7 +67,7 @@ Stel het maptype in door op de knop **[!UICONTROL Confirm]** te klikken.
 
 Als u een map zonder specifiek type wilt maken, selecteert u het type **[!UICONTROL Generic Folder]** .
 
-U kunt ook [ omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/config/configuration/folders-and-views) tot stand brengen en leiden.
+U kunt ook [ omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views) tot stand brengen en leiden.
 
 ## Mappen opnieuw ordenen {#reorder-folders}
 
@@ -80,6 +80,19 @@ In dit voorbeeld, bevat de **Leveringen** omslag vier subfolders.
 U kunt de orde van omslagen veranderen of door **belemmering en daling** of door **op en neer pijlen** te gebruiken.
 
 ![ belemmering-en-dalingsfunctionaliteit voor omslag die ](assets/folder-draganddrop.png){zoomable="yes"} opnieuw rangschikt
+
+### Favoriete mappen {#favorite-folders}
+
+>[!CONTEXTUALHELP]
+>id="acw_folder_favorites"
+>title="Favorieten"
+>abstract="Uw favoriete mappen worden boven aan het linkertabblad weergegeven."
+
+De mappen die als Favoriet zijn gemarkeerd, worden altijd boven aan het linkertabblad weergegeven.
+
+U kunt mappen als favoriet toevoegen door in de rechterbovenhoek op de sterknop te klikken wanneer u een map weergeeft.
+
+![ het schermschot van de de omslagplaats van de Favoriet ](assets/folders-favorite.png){zoomable="yes"}
 
 ## Een map verwijderen {#delete-a-folder}
 
