@@ -3,7 +3,7 @@ audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn1"
 >title="Nieuwe regelbouwer"
 >abstract="Een nieuwe regelbouwer is nu beschikbaar om u te helpen complexe voorwaarden in een verbeterde gebruikersinterface bepalen. U kunt van oud naar de nieuwe regelbouwer schakelen zoals nodig."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
@@ -43,12 +43,12 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
 
 | Gebruik | Voorbeeld |
 |  ---  |  ---  |
-| **bepaalt publiek**: Specificeer de bevolking u in uw berichten of werkschema&#39;s wilt richten, en creeer moeiteloos nieuw publiek dat aan uw behoeften wordt aangepast. [ Leer hoe te om publiek te bouwen ](../audience/one-time-audience.md) | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ Beeld die hoe te om tot de interface van de publieksverwezenlijking toegang te hebben ] |
-| **pas werkschemaactiviteiten** aan: Pas regels binnen werkschemaactiviteiten, zoals **Gesplitste** en **Verzoening** toe, om op uw specifieke vereisten te richten. [ leer meer over werkschemaactiviteiten ](../workflows/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ Beeld dat hoe te om tot de opties van de werkschemaaanpassing toegang te hebben ] |
-| **vooraf bepaalde filters**: Creeer vooraf bepaalde filters die als kortere weg tijdens diverse het filtreren verrichtingen dienen, of u met gegevenslijsten werkt of het publiek voor een levering vormt. [ Leer hoe te met vooraf bepaalde filters ](../get-started/predefined-filters.md) te werken | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ Beeld die tonen hoe te om tot vooraf bepaalde filters ] toegang te hebben |
-| **de rapporten van de Filter gegevens**: Voeg regels toe om de gegevens te filtreren die in rapporten worden getoond. [ Leer hoe te met rapporten ](../reporting/gs-reports.md) te werken | ![](assets/access-reports.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ Beeld dat hoe te om gegevens in rapporten ] toont te filtreren |
-| **pas lijsten** aan: Creeer douaneregels om de gegevens te filtreren die in lijsten zoals ontvangers of leveringslijsten worden getoond. [ Leer hoe te om lijsten ](../get-started/list-filters.md#list-built-in-filters) te filtreren | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} [ Beeld dat hoe te om lijstfilters ] aan te passen toont |
-| **bouwt voorwaardelijke inhoud**: Maak e-mailinhoud dynamisch door voorwaarden te creëren die bepalen welke inhoud aan verschillende ontvangers zou moeten worden getoond, die gepersonaliseerd en relevant overseinen verzekeren. [ Leer hoe te om voorwaardelijke inhoud te bouwen ](../personalization/conditions.md) | ![](assets/conditional-content.png){width="200" align="center" zoomable="yes"} [ Beeld dat hoe te om voorwaardelijke inhoud ] te creëren toont |
+| **bepaalt publiek**: Specificeer de bevolking u in uw berichten of werkschema&#39;s wilt richten, en creeer moeiteloos nieuw publiek dat aan uw behoeften wordt aangepast. [ Leer hoe te om publiek te bouwen ](../audience/one-time-audience.md) | ![ Beeld die tonen hoe te om tot de interface van de publieksverwezenlijking toegang te hebben ](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
+| **pas werkschemaactiviteiten** aan: Pas regels binnen werkschemaactiviteiten, zoals **Gesplitste** en **Verzoening** toe, om op uw specifieke vereisten te richten. [ leer meer over werkschemaactiviteiten ](../workflows/activities/about-activities.md) | ![ Beeld die hoe te om tot de opties van de werkschemaaanpassing toegang te hebben ](assets/access-workflow.png){width="200" align="center" zoomable="yes"} toont |
+| **vooraf bepaalde filters**: Creeer vooraf bepaalde filters die als kortere weg tijdens diverse het filtreren verrichtingen dienen, of u met gegevenslijsten werkt of het publiek voor een levering vormt. [ Leer hoe te met vooraf bepaalde filters ](../get-started/predefined-filters.md) te werken | ![ Beeld die tonen hoe te om tot vooraf bepaalde filters toegang te hebben ](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **de rapporten van de Filter gegevens**: Voeg regels toe om de gegevens te filtreren die in rapporten worden getoond. [ Leer hoe te met rapporten ](../reporting/gs-reports.md) te werken | ![ Beeld dat hoe te om gegevens in rapporten ](assets/access-reports.png){width="200" align="center" zoomable="yes"} toont te filtreren |
+| **pas lijsten** aan: Creeer douaneregels om de gegevens te filtreren die in lijsten zoals ontvangers of leveringslijsten worden getoond. [ Leer hoe te om lijsten ](../get-started/list-filters.md#list-built-in-filters) te filtreren | ![ Beeld die hoe te om lijstfilters ](assets/access-lists.png){width="200" align="center" zoomable="yes"} tonen aan te passen |
+| **bouwt voorwaardelijke inhoud**: Maak e-mailinhoud dynamisch door voorwaarden te creëren die bepalen welke inhoud aan verschillende ontvangers zou moeten worden getoond, die gepersonaliseerd en relevant overseinen verzekeren. [ Leer hoe te om voorwaardelijke inhoud te bouwen ](../personalization/conditions.md) | ![ Beeld dat hoe te om voorwaardelijke inhoud ](assets/conditional-content.png){width="200" align="center" zoomable="yes"} te creëren toont |
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ De vraagmodeler verstrekt een centraal canvas waar u uw vraag en een juiste ruit
 >[!IMPORTANT]
 >
 >Er is een gloednieuwe interface beschikbaar voor het Query-model. De Nieuwe regelbouwer staat u toe om uw vraag met meer gemak dankzij zijn vereenvoudigde interface te bouwen. Druk op de schakelknop in de rechterbovenhoek om naar deze ervaring over te schakelen. U kunt naar de klassieke modelleerling van de Vraag terugkeren wanneer u wilt door eenvoudig de knevel terug te duwen om de nieuwe interface onbruikbaar te maken. U kunt de zelfde principes toepassen zoals vraagmodeler in deze nieuwe interface.
->![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
