@@ -2,9 +2,9 @@
 title: Campagne v8 Web User Interface Opmerkingen bij vorige release
 description: 2025 Campagne Web User Interface-releases
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 8ec342d565bc8418c202cdba834d74a99cff3a47
+source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1437'
 ht-degree: 12%
 
 ---
@@ -12,6 +12,49 @@ ht-degree: 12%
 # Opmerkingen bij de release 2025 {#2025-release}
 
 Deze pagina maakt een lijst van alle veranderingen en verbeteringen beschikbaar met **2025 versies**. De recentste vrije nota&#39;s zijn beschikbaar in [ deze pagina ](release-notes.md).
+
+## Release mei &#39;25 {#25-5-release}
+
+De volgende functies zijn vanaf mei beschikbaar voor alle gebruikers.
+
+<table>
+<thead>
+<tr>
+<th><strong>Brand alignment score (Beta)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De functie voor de uitlijningsscore voor merken biedt duidelijke feedback rechtstreeks in de e-mailontwerper, zodat u kunt zien of uw inhoud wordt uitgelijnd op de toon, stijl en richtlijnen van uw merk. Deze functie is beschikbaar in Beta.</p>
+<p>Raadpleeg de <a href="../content/brands-score.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="assets/do-not-localize/brand-score.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aangepast kanaal voor externe leveringen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu rechtstreeks vanuit de gebruikersinterface van Adobe Campaign leveringen ordenen en uitvoeren op basis van aangepaste externe kanalen. Deze leveringen kunnen op zichzelf staan of deel uitmaken van een workflow. Het maken van het aangepaste externe kanaal dat met een derde is geïntegreerd, wordt uitgevoerd in de console.</p>
+<p>Nota: Het melden is niet beschikbaar in het Web UI voor het douanekanaal. U moet naar de clientconsole bladeren om rapporten te openen.</p>
+<p>Raadpleeg de <a href="../call-center/gs-custom-channel.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<img src="assets/do-not-localize/custom-channel.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+### Verbeteringen {#25-5-improvements}
+
+Het aanmaakscherm van de typologieregels is bijgewerkt om de selectie van het type regel te vergemakkelijken.
 
 ## Release van april 1925 {#25-4-release}
 
@@ -78,7 +121,7 @@ U kunt ook bestaande externe accounts weergeven, bijwerken en beheren.</p>
 **Algemene interfaceverbeteringen**
 
 * De veldbeschrijving, Toevoegen aan Favorieten en Distributie van waardeopties voor schemakenmerken zijn nu beter zichtbaar in de gebruikersinterface. Raadpleeg de [gedetailleerde documentatie](../get-started/attributes.md) voor meer informatie.
-* In de interface worden de datum en tijd nu weergegeven volgens de primaire taal die is ingesteld in de Experience League-voorkeuren. Deze verbetering is alleen beschikbaar voor verschillende talen. Om de volledige lijst van gesteunde talen te zien, verwijs naar de [ gedetailleerde documentatie ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/browser-language){target=_blank}.
+* In de interface worden de datum en tijd nu weergegeven volgens de primaire taal die is ingesteld in de Experience League-voorkeuren. Deze verbetering is alleen beschikbaar voor verschillende talen. Om de volledige lijst van gesteunde talen te zien, verwijs naar de [ gedetailleerde documentatie ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}.
 
 <!--
 ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
@@ -104,13 +147,13 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld. Ze vereisen een upgrade van de Campagneserver naar v8.7.4.
 >
->Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL).
+>Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
 * **Meertalige leveringsverwezenlijking** - u kunt veelvoudige e-mailleveringen in verschillende talen in het Gebruikersinterface van het Web van Adobe Campaign nu verzenden. Met de functie Meertalige levering kunt u de standaardtaal van uw levering kiezen en de verschillende talen waarin de levering kan worden verzonden. U kunt deze leveringen ook voorvertonen in de talen die u hebt gekozen. Raadpleeg de [gedetailleerde documentatie](../email/edit-content.md) voor meer informatie.
 
 * **Dynamische Rapportering voor Meertalig** - de Dynamische rapportering is nu beschikbaar voor meertalige e-mailleveringen. Raadpleeg de [gedetailleerde documentatie](../reporting/global-reports.md) voor meer informatie.
 
-* **de REST API van SMS steun (LA)** - De Transactionele WEERGAVE API van het Overseinen is nu beschikbaar voor het kanaal van SMS. Wanneer zowel e-mail als mobilePhone aanwezig zijn in de lading, kunt u het &quot;wishedChannel&quot;gebied gebruiken om het kanaal te specificeren. Indien niet opgegeven, wordt de e-mail standaard gebruikt, tenzij wishedChannel expliciet om SMS verzoekt. Raadpleeg de [gedetailleerde documentatie](https://experienceleague.adobe.com/nl/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank} voor meer informatie.
+* **de REST API van SMS steun (LA)** - De Transactionele WEERGAVE API van het Overseinen is nu beschikbaar voor het kanaal van SMS. Wanneer zowel e-mail als mobilePhone aanwezig zijn in de lading, kunt u het &quot;wishedChannel&quot;gebied gebruiken om het kanaal te specificeren. Indien niet opgegeven, wordt de e-mail standaard gebruikt, tenzij wishedChannel expliciet om SMS verzoekt. Raadpleeg de [gedetailleerde documentatie](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank} voor meer informatie.
 
 ## Release van februari &#39;25 {#25-2-release}
 
