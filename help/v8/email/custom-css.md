@@ -8,9 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 keywords: css, editor, summary, email
-source-git-commit: cabc4f810878001102f57a93581ff4be23fcbcd5
+exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
+source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '682'
 ht-degree: 1%
 
 ---
@@ -40,14 +41,13 @@ Volg onderstaande stappen om aangepaste CSS toe te voegen aan uw e-mailinhoud.
 
 1. Klik op de knop **[!UICONTROL Add Custom CSS]**.
 
-1. Voer uw CSS-code in in het speciale tekstgebied dat wordt weergegeven. Zorg ervoor dat de aangepaste CSS geldig is en de juiste syntaxis volgt. [Meer informatie](#use-valid-css)
-
-   ![ ga douane CSS in het specifieke tekstgebied ](assets/email-body-custom-css.png){width="65%"} in
-
    >[!NOTE]
    >
    >De knop **[!UICONTROL Add custom CSS]** is alleen beschikbaar wanneer **[!UICONTROL Body]** is geselecteerd. U kunt echter aangepaste CSS-stijlen toepassen op alle componenten in uw inhoud.
 
+1. Voer uw CSS-code in in het speciale tekstgebied dat wordt weergegeven. Zorg ervoor dat de aangepaste CSS geldig is en de juiste syntaxis volgt. [Meer informatie](#use-valid-css)
+
+   ![ ga douane CSS in het specifieke tekstgebied ](assets/email-body-custom-css.png){width="65%"} in
 
 1. Sla uw aangepaste CSS op en controleer of uw aangepaste CSS correct is toegepast op uw inhoud. Als dit niet het geval is, controleer de [ sectie van het Oplossen van problemen ](#troubleshooting).
 
@@ -67,8 +67,9 @@ U kunt elke geldige CSS-tekenreeks invoeren in het tekstgebied **[!UICONTROL Add
 >
 >Vermijd het gebruik van CSS die de lay-out of functionaliteit van de inhoud onbedoeld kan onderbreken.
 
-+++ Voorbeelden van een geldige CSS
++++ Voorbeelden van CSS
 
+Hieronder staan voorbeelden van geldige CSS.
 
 ```css
 .acr-component[data-component-id="form"] {
@@ -207,7 +208,7 @@ Uw aangepaste CSS wordt aan het einde van de sectie `<head>` toegevoegd als onde
 
 De aangepaste CSS wordt niet geïnterpreteerd of gevalideerd door het deelvenster Designer e-mailen **[!UICONTROL Settings]** . Deze is volledig onafhankelijk en kan alleen worden gewijzigd via de optie **[!UICONTROL Add Custom CSS]** .
 
-Als het kenmerk `data-disabled` set to `true` is ingesteld voor de stijltag `global-custom` , wordt de aangepaste CSS niet toegepast.
+Als het kenmerk `global-custom` set to `data-disabled` is ingesteld voor de stijltag `true` , wordt de aangepaste CSS niet toegepast.
 
 +++ Zie voorbeeld
 
@@ -219,7 +220,7 @@ Bijvoorbeeld:
 
 +++
 
-## Guardrails
+## Guardrails - Geïmporteerde inhoud
 
 Houd rekening met het volgende als u aangepaste CSS wilt gebruiken met inhoud die is geïmporteerd in de e-mailtoepassing Designer:
 
@@ -236,21 +237,30 @@ Houd rekening met de onderstaande opties als uw aangepaste CSS niet wordt toegep
 
 * Zorg ervoor dat uw CSS geldig is en geen syntaxisfouten bevat (zoals ontbrekende accolades, onjuiste eigenschapsnamen). [ leer hoe ](#use-valid-css)
 
-* Zorg ervoor dat uw CSS wordt toegevoegd aan de tag `<style>` met het kenmerk `data-name="global-custom"` en dat `data-disabled` niet wordt toegepast op `global-custom` . [Meer informatie](#implementation)
+* Zorg ervoor dat uw CSS wordt toegevoegd aan de tag `<style>` met het kenmerk `data-name="global-custom"` .
 
-<!--
-* Ensure that your CSS is not overridden by other CSS rules, including any [theme](apply-email-themes.md) applied to your content.
- 
-  * Use your browser developer tools to inspect the content and verify that your CSS is targeting the correct selectors.
-  
-  * Consider adding `!important` to your declarations to ensure they take precedence. 
-    
-    For example:
+* Controleer of het kenmerk `global-custom` set to `data-disabled` is ingesteld voor de stijltag `true` . In dat geval wordt de aangepaste CSS niet toegepast.
 
-    ```css
-    .acr-Form {
-      background: red !important;
-    }
-    ```
-    -->
+  +++Bijvoorbeeld:
 
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
+
++++
+
+* Zorg ervoor dat uw CSS niet wordt overschreven door andere CSS-regels.
+
+   * Gebruik de browsergereedschappen voor ontwikkelaars om de inhoud te controleren en te controleren of uw CSS zich richt op de juiste kiezers.
+
+   * Voeg `!important` aan uw declaraties toe om ervoor te zorgen dat deze voorrang krijgen.
+
++++ Bijvoorbeeld:
+
+     ```css
+     .acr-Form {
+       background: red !important;
+     }
+     ```
+
++++
