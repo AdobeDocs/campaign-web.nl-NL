@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 keywords: css, editor, summary, email
 exl-id: 7969b656-8130-49cf-9c85-d80bd74b285a
-source-git-commit: d21538237340bc73ea8505d29d54aea7f541588d
+source-git-commit: 88d1a6bd2b4e36852ee6d5332ff8d24bc5efeed9
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '662'
 ht-degree: 1%
 
 ---
@@ -138,9 +138,9 @@ Hieronder staan voorbeelden van geldige CSS.
 
 +++
 
-+++ Voorbeelden van ongeldige CSS
-
 Als er ongeldige CSS wordt ingevoerd, wordt een foutbericht weergegeven dat aangeeft dat de CSS niet kan worden opgeslagen. Hieronder staan voorbeelden van ongeldige CSS.
+
++++ Voorbeelden van ongeldige CSS
 
 Het gebruik van `<style>` -tags wordt niet geaccepteerd:
 
@@ -208,17 +208,19 @@ Uw aangepaste CSS wordt aan het einde van de sectie `<head>` toegevoegd als onde
 
 De aangepaste CSS wordt niet geïnterpreteerd of gevalideerd door het deelvenster Designer e-mailen **[!UICONTROL Settings]** . Deze is volledig onafhankelijk en kan alleen worden gewijzigd via de optie **[!UICONTROL Add Custom CSS]** .
 
-Als het kenmerk `global-custom` set to `data-disabled` is ingesteld voor de stijltag `true` , wordt de aangepaste CSS niet toegepast.
+<!--
+If the `global-custom` style tag has the attribute `data-disabled` set to `true`, the custom CSS will not be applied. 
 
-+++ Zie voorbeeld
++++ See sample
 
-Bijvoorbeeld:
+For example:
 
 ```html
 <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
 ```
 
 +++
+-->
 
 ## Guardrails - Geïmporteerde inhoud
 
@@ -247,7 +249,7 @@ Houd rekening met de onderstaande opties als uw aangepaste CSS niet wordt toegep
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-  +++
++++
 
 * Zorg ervoor dat uw CSS niet wordt overschreven door andere CSS-regels.
 
