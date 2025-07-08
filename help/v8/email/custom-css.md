@@ -249,7 +249,7 @@ Houd rekening met de onderstaande opties als uw aangepaste CSS niet wordt toegep
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
-+++
+  +++
 
 * Zorg ervoor dat uw CSS niet wordt overschreven door andere CSS-regels.
 
