@@ -3,10 +3,10 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 2c79d81c70d86a3b7c626389870d921ee378bd67
+source-git-commit: bf1b45af28305c07060097280d7cb1e12db87368
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '480'
+ht-degree: 2%
 
 ---
 
@@ -52,9 +52,9 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 >[!BEGINTABS]
 
 
->[!TAB  Mei &quot;25 versie ]
+>[!TAB  juli &quot;25 updates ]
 
-De release van mei is nu live, inclusief het nieuwe aangepaste kanaal, de Brand-uitlijningsscore en de verbeteringen in de typologieregels.
+De nieuwe eigenschappen en de verhogingen zijn nu beschikbaar in het de gebruikersinterface van het Web van de Campagne. Om van deze verbeteringen voordeel te halen, zorg ervoor om uw milieu van de Campagne aan versie 8.8 te bevorderen. Voor een volledig overzicht bekijkt u de opmerkingen bij de release.
 
 [![ leer meer knoop ](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
@@ -63,7 +63,7 @@ De release van mei is nu live, inclusief het nieuwe aangepaste kanaal, de Brand-
 
 ✨ onderdompelt zich in een hands-on ervaring met onze [ AI Medewerker ](../v8/email/generative-gs.md) levende eigenschapvoorproef, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
-[![ leer meer knoop ](assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![ leer meer knoop ](assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Veelgestelde vragen]
 
@@ -84,7 +84,7 @@ Veelgestelde vragen over de gebruikersinterface van het Web van de Campagne zijn
     </td>
     <td>
     <a href="workflows/gs-workflows.md"><img src="assets/do-not-localize/menu-workflows.jpeg"></a>
-    <div></strong><br/> Leer hoe te om werkschema's tot stand te brengen om de volledige waaier van processen en taken te ordenen, en de snelheid en de schaal van elk aspect van uw marketing campagnes te verbeteren.<strong></div><br/>
+    <div><strong> Leer hoe te om werkschema's tot stand te brengen om de volledige waaier van processen en taken te ordenen, en de snelheid en de schaal van elk aspect van uw marketing campagnes te verbeteren.</strong><br/></div><br/>
     </td>
     <td>
     <a href="email/get-started-email-designer.md"><img src="assets/do-not-localize/menu-email.png"></a>
