@@ -2,11 +2,10 @@
 audience: end-user
 title: Afleveringswaarschuwing
 description: Leer hoe u werkt met waarschuwingsberichten voor leveringen.
-badge: label="Beperkte beschikbaarheid"
 exl-id: 120afaa0-7017-4644-b6db-229b4a5c8a91
-source-git-commit: a28bc98d1735232d8aa0b0daaeca3969913e548c
+source-git-commit: 037b04475370b1a34ecec31ef2a774866278ce65
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -17,11 +16,7 @@ Leveringswaarschuwing is een waarschuwingssysteem waarmee groepen gebruikers aut
 
 Meldingen worden aangepast op basis van specifieke waarschuwingscriteria die zijn gedefinieerd via de Adobe Campaign Web User Interface.
 
-Voor meer informatie bij het beheren van leveringsmislukkingen, verwijs naar [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
-
->[!AVAILABILITY]
->
->Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
+Voor meer informatie bij het beheren van leveringsmislukkingen, verwijs naar [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
 
 ## E-mailmeldingsinhoud {#content}
 

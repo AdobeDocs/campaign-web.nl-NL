@@ -3,7 +3,7 @@ audience: end-user
 title: Overgang van Campaign Standard naar Adobe Campaign Web
 description: Campagne-webgebruikersinterface ontdekken
 exl-id: 4cf406af-4cf5-434d-b1c7-a7c102f8dc2f
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 4%
@@ -41,7 +41,7 @@ De gebruikersinterface van het Web van de Campagne wordt ontworpen voor marketer
 * **converter van HTML voor e-mailontwerp**. [Meer informatie](../email/existing-content.md).
 * **SMS met aanbiedingen**. [Meer informatie](../msg/offers.md).
 
-De de cliëntconsole van de Campagne wordt ontworpen voor beheerders en ontwikkelaars om hun milieu te vormen en aan te passen. De zeer belangrijke mogelijkheden beschikbaar in de de cliëntconsole van de Campagne worden gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/new/whats-new){target="_blank"} .
+De de cliëntconsole van de Campagne wordt ontworpen voor beheerders en ontwikkelaars om hun milieu te vormen en aan te passen. De zeer belangrijke mogelijkheden beschikbaar in de de cliëntconsole van de Campagne worden gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/whats-new){target="_blank"}.
 
 >[!NOTE]
 >
@@ -70,13 +70,13 @@ De meeste concepten zijn vergelijkbaar tussen Campagne v8 en Campaign Standard. 
 
 ## Specifieke kenmerken {#new-features}
 
-Voor een vlotte overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Deze eigenschappen zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL) {target="_blank} en zijn beschikbaar slechts aan gebruikers die van Campaign Standard overgaan.
+Voor een vlotte overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Deze eigenschappen zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) {target= &quot;_blank} en zijn beschikbaar slechts aan gebruikers die van Campaign Standard overgaan.
 
-* **Dynamische Rapportering**: De dynamische Rapportering verstrekt klantgerichte, rapporten in real time om het effect van marketing activiteiten te meten. Het omvat toegang tot profielgegevens voor demografische analyse door dimensies zoals geslacht, stad, en leeftijd, naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=nl-NL){target="_blank"}.
+* **Dynamische Rapportering**: De dynamische Rapportering verstrekt klantgerichte, rapporten in real time om het effect van marketing activiteiten te meten. Het omvat toegang tot profielgegevens voor demografische analyse door dimensies zoals geslacht, stad, en leeftijd, naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](../reporting/dynamic-reporting/get-started-reporting.md).
 
-* **Gecentraliseerde Branding**: Adobe Campaign staat bedrijven toe om merk visuele en technische richtlijnen te bepalen. Gebruikers kunnen een consistent merk aan klanten aanbieden, van logo&#39;s tot technische aspecten zoals e-mailzender, URL of domeinen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=nl-NL).
+* **Gecentraliseerde Branding**: Adobe Campaign staat bedrijven toe om merk visuele en technische richtlijnen te bepalen. Gebruikers kunnen een consistent merk aan klanten aanbieden, van logo&#39;s tot technische aspecten zoals e-mailzender, URL of domeinen. [Meer informatie](../administration/branding/branding-gs.md).
 
-* **REST APIs**: De gemigreerde gebruikers van Campaign Standard kunnen REST APIs gebruiken om integraties voor Adobe Campaign tot stand te brengen en ecosystemen te bouwen door Adobe Campaign met andere technologieën te verbinden. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=nl-NL){target="_blank"}.
+* **REST APIs**: De gemigreerde gebruikers van Campaign Standard kunnen REST APIs gebruiken om integraties voor Adobe Campaign tot stand te brengen en ecosystemen te bouwen door Adobe Campaign met andere technologieën te verbinden. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
 
 * **Aanlandende Pagina&#39;s**: De campagne v8 landende pagina&#39;s omvat verbeteringen om eigenschappariteit met Campaign Standard te verzekeren. Leer meer in de [ versienota&#39;s ](../rn/release-notes.md#new-24-4) en de het landen pagina [ documentatie ](../landing-pages/get-started-lp.md).
 

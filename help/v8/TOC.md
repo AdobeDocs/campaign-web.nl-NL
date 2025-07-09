@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: eb0e725c8b3af2f478919fe80b75a4ee20b341f3
+source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 15%
+source-wordcount: '910'
+ht-degree: 20%
 
 ---
 
@@ -209,33 +209,64 @@ ht-degree: 15%
    + [Voorbeelden van query’s](query/query-samples.md)
    + [Filterlijsten](query/filter.md)
 + Rapportage {#reports}
-   + [Aan de slag met rapporten](reporting/gs-reports.md)
    + [Audit trail](reporting/audit-trail.md)
-   + [Uw rapporten exporteren](reporting/export-reports.md)
    + [Belangrijkste prestatie-indicatoren](reporting/kpis.md)
-   + Leveringsrapporten {#delivery-report}
-      + [Aan de slag met leveringsrapporten](reporting/delivery-reports.md)
-      + [E-mailleveringsrapport](reporting/email-report.md)
-      + [Push-leveringsrapport](reporting/push-report.md)
-      + [SMS-leveringsrapport](reporting/sms-report.md)
-      + [Extern leveringsverslag](reporting/direct-mail.md)
-   + Campagneverslagen {#campaign-report}
-      + [Aan de slag met campagnerapporten](reporting/campaign-reports.md)
-      + [E-mailcampagnerapport](reporting/campaign-reports-email.md)
-      + [Push-campagnerapport](reporting/campaign-reports-push.md)
-      + [Rapport voor SMS-campagne](reporting/campaign-reports-sms.md)
-      + [Rapport over externe leveringscampagne](reporting/campaign-reports-direct-mail.md)
-   + Algemene rapporten {#global-report}
-      + [Aan de slag met algemene rapporten](reporting/global-reports.md)
-      + [Globaal e-mailrapport](reporting/global-report-email.md)
-      + [Globaal rapport uitduwen](reporting/global-report-push.md)
-      + [Globaal SMS-rapport](reporting/global-report-sms.md)
-      + [Globaal rapport voor e-mail](reporting/global-report-direct.md)
+   + Standaardrapporten {#standard-reports}
+      + [Aan de slag met rapporten](reporting/gs-reports.md)
+      + [Uw rapporten exporteren](reporting/export-reports.md)
+      + Leveringsrapporten {#delivery-report}
+         + [Aan de slag met leveringsrapporten](reporting/delivery-reports.md)
+         + [E-mailleveringsrapport](reporting/email-report.md)
+         + [Push-leveringsrapport](reporting/push-report.md)
+         + [SMS-leveringsrapport](reporting/sms-report.md)
+         + [Extern leveringsverslag](reporting/direct-mail.md)
+      + Campagneverslagen {#campaign-report}
+         + [Aan de slag met campagnerapporten](reporting/campaign-reports.md)
+         + [E-mailcampagnerapport](reporting/campaign-reports-email.md)
+         + [Push-campagnerapport](reporting/campaign-reports-push.md)
+         + [Rapport voor SMS-campagne](reporting/campaign-reports-sms.md)
+         + [Rapport over externe leveringscampagne](reporting/campaign-reports-direct-mail.md)
+      + Algemene rapporten {#global-report}
+         + [Aan de slag met algemene rapporten](reporting/global-reports.md)
+         + [Globaal e-mailrapport](reporting/global-report-email.md)
+         + [Globaal rapport uitduwen](reporting/global-report-push.md)
+         + [Globaal SMS-rapport](reporting/global-report-sms.md)
+         + [Globaal rapport voor e-mail](reporting/global-report-direct.md)
+   + Dynamische rapportage {#dynamic-reporting}
+      + [Aan de slag met dynamische rapporten](reporting/dynamic-reporting/get-started-reporting.md)
+      + Over rapportage {#about-reporting}
+         + [Informatie over dynamische rapporten](reporting/dynamic-reporting/about-dynamic-reports.md)
+         + [Rapportage-interface](reporting/dynamic-reporting/reporting-interface.md)
+         + [Lijst met componenten](reporting/dynamic-reporting/list-of-components.md)
+         + [Indicatoren berekenen](reporting/dynamic-reporting/indicator-calculation.md)
+         + [Problemen oplossen](reporting/dynamic-reporting/troubleshooting.md)
+      + Lijst met rapporten {#list-of-reports}
+         + [De rapportperiode definiëren](reporting/dynamic-reporting/defining-the-report-period.md)
+         + [Overzicht van niet-bezorging](reporting/dynamic-reporting/bounce-summary.md)
+         + [Uitsplitsing naar domeinen](reporting/dynamic-reporting/breakdown-by-domains.md)
+         + [Klachten](reporting/dynamic-reporting/complaints.md)
+         + [Leveringsoverzicht](reporting/dynamic-reporting/delivery-summary.md)
+         + [Leveringsdoorvoer](reporting/dynamic-reporting/delivery-throughput.md)
+         + [Niet-leverbare items en niet-bezorgingen](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
+         + [Geopende items](reporting/dynamic-reporting/opens.md)
+         + [Trackingsindicatoren](reporting/dynamic-reporting/tracking-indicators.md)
+         + [Uitschrijvingen](reporting/dynamic-reporting/unsubscriptions.md)
+         + [URL&#39;s en klikpaden](reporting/dynamic-reporting/urls-and-click-streams.md)
+      + Rapporten aanpassen {#customizing-reports}
+         + [Deelvensters toevoegen](reporting/dynamic-reporting/adding-panels.md)
+         + [Visualisaties toevoegen](reporting/dynamic-reporting/adding-visualizations.md)
+         + [Componenten toevoegen](reporting/dynamic-reporting/adding-components.md)
+         + [Een aangepaste profieldimensie maken](reporting/dynamic-reporting/creating-a-custom-profile-dimension.md)
+         + [Dynamische gebruiksovereenkomst voor rapportage](reporting/dynamic-reporting/pii-agreement.md)
 + Integraties {#integrations}
    + [Werken met andere Adobe-oplossingen](integrations/integration.md)
    + [Middelen beheren met Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Sjablonen beheren met Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
 + Configuratie {#conf}
+   + Branding {#branding}
+      + [Branding](administration/branding/branding-gs.md)
+      + [Een merk configureren](administration/branding/branding-configure.md)
+      + [Een merk toewijzen](administration/branding/branding-assign.md)
    + [Werken met bedrijfsregels (typologieën)](administration/typologies.md)
    + [Doeltoewijzingen beheren](administration/target-mappings.md)
    + [Werken met schema&#39;s](administration/schemas.md)
@@ -244,4 +275,4 @@ ht-degree: 15%
    + [Externe accounts configureren](administration/external-account.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

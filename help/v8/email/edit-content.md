@@ -3,7 +3,7 @@ audience: end-user
 title: De e-mailinhoud bewerken
 description: Leer hoe u de e-mailinhoud bewerkt in de gebruikersinterface van het Campagne Web
 exl-id: b6316551-bebc-40e0-b75c-4408ce4d6c57
-source-git-commit: df5883f8178bc5287145c587b06dd5664400ed90
+source-git-commit: d64e4c2833757239be181cbd333a9d2ce95aa35f
 workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 >id="acw_deliveries_email_options"
 >title="Tekstspatiëring bewerken"
 >abstract="Door gebrek, wordt het volgen toegelaten voor de levering, die betekent alle verbindingen inbegrepen in de berichtinhoud worden gevolgd. U kunt deze optie hier uitschakelen."
->additional-url="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Koppelingen toevoegen en berichten bijhouden"
+>additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/email-design/design-content/message-tracking" text="Koppelingen toevoegen en berichten bijhouden"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
@@ -113,7 +113,7 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
 1. Nadat de inhoud van uw e-mail is gedefinieerd, controleert u met de knop **[!UICONTROL Simulate content]** hoe het bericht wordt weergegeven voordat u het verzendt. [ Leer hoe te om uw e-mail ](../preview-test/preview-test.md) voor te vertonen en te testen.
 
-## Een meertalige levering configureren
+## Een meertalige levering configureren {#multilingual-delivery}
 
 In de webgebruikersinterface van Campagne kunt u uw e-mailleveringen instellen als meertalig, zodat u berichten kunt verzenden op basis van de voorkeurstaal van een profiel. Wanneer geen voorkeur wordt bepaald, wordt het bericht verzonden in de standaardtaal.
 
@@ -129,7 +129,7 @@ Ga als volgt te werk om taalvarianten te maken:
 
    >[!IMPORTANT]
    >
-   >De knop **[!UICONTROL Add language]** is alleen beschikbaar als de doeldimensie het schema Taal bevat. Meer over schema&#39;s en de dimensies van het Doel leren, gelieve te verwijzen naar de [ gedetailleerde documentatie ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
+   >De knop **[!UICONTROL Add language]** is alleen beschikbaar als de doeldimensie het schema Taal bevat. Meer over schema&#39;s en de dimensies van het Doel leren, gelieve te verwijzen naar de [ gedetailleerde documentatie ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/targeting-dimensions){target=_blank}.
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -138,7 +138,7 @@ Ga als volgt te werk om taalvarianten te maken:
 
    >[!NOTE]
    >
-   >De talen die beschikbaar zijn via deze lijst, zijn afhankelijk van de waarden die zijn gedefinieerd door het taalkenmerk (waarden zoals systeem, gebruiker, dbenum, enz.) Leer meer over opsommingsbeheer in deze [ sectie ](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/conf/enumerations){target=_blank}.
+   >De talen die beschikbaar zijn via deze lijst, zijn afhankelijk van de waarden die zijn gedefinieerd door het taalkenmerk (waarden zoals systeem, gebruiker, dbenum, enz.) Leer meer over opsommingsbeheer in deze [ sectie ](https://experienceleague.adobe.com/en/docs/campaign-web/v8/conf/enumerations){target=_blank}.
 
 
    ![](assets/edit-content_3.png){zoomable="yes"}

@@ -2,16 +2,36 @@
 title: Campagne v8 Web User Interface Opmerkingen bij vorige release
 description: 2025 Campagne Web User Interface-releases
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: d70409846dbe950e3e4e475be6866fb5ed9799de
+source-git-commit: 4f32adbbe360b76d227c431281ef10a47e6a37ba
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 12%
+source-wordcount: '1603'
+ht-degree: 11%
 
 ---
 
 # Opmerkingen bij de release 2025 {#2025-release}
 
 Deze pagina maakt een lijst van alle veranderingen en verbeteringen beschikbaar met **2025 versies**. De recentste vrije nota&#39;s zijn beschikbaar in [ deze pagina ](release-notes.md).
+
+## Release van juni 1925 {#25-6-release}
+
+### Verbeteringen {#25-6-improvements}
+
+* Het rapport van het Overzicht van de Levering is nu beschikbaar voor zowel het Centrum van de Vraag als de kanalen van de Douane. [Meer informatie](../reporting/direct-mail.md)
+
+* Wanneer het vormen van een levering van SMS, hebt u nu toegang tot de specifieke parameters van SMS. Dit zijn dezelfde parameters die beschikbaar zijn in de clientconsole. [Meer informatie](../advanced-settings/delivery-settings.md#sms-tab)
+
+* Uw favoriete mappen worden nu boven aan het linkerdeelvenster op de pagina Verkenner weergegeven, zodat ze gemakkelijker toegankelijk zijn. [Meer informatie](../get-started/work-with-folders.md#favorite-folders)
+
+* De Bouwer van de Regel steunt nu belemmering-en-daling, toestaand u om componenten van uw vraag efficiënter opnieuw te rangschikken. [Meer informatie](../query/build-query.md#drag-and-drop)
+
+* De &quot;menselijke conditie&quot;in de Bouwer van de Regel is verbeterd. Dit is de geschreven, duidelijke-taalversie van uw regels, die bij de bodem van het scherm wordt getoond:
+
+   * Kenmerken worden nu gemarkeerd en het bijbehorende schema wordt weergegeven.
+   * U kunt op deze elementen klikken om meer gedetailleerde informatie te bekijken.
+   * U kunt nu de menselijke voorwaarde kopiëren met de bijbehorende knop.
+
+* De toegang tot de mappen &#39;Technische workflows&#39; en &#39;Objecten die automatisch worden gemaakt&#39; is nu beperkt om te voorkomen dat ze worden weergegeven. [Meer informatie](../get-started/work-with-folders.md#about-folders)
 
 ## Release mei &#39;25 {#25-5-release}
 
@@ -121,7 +141,7 @@ U kunt ook bestaande externe accounts weergeven, bijwerken en beheren.</p>
 **Algemene interfaceverbeteringen**
 
 * De veldbeschrijving, Toevoegen aan Favorieten en Distributie van waardeopties voor schemakenmerken zijn nu beter zichtbaar in de gebruikersinterface. Raadpleeg de [gedetailleerde documentatie](../get-started/attributes.md) voor meer informatie.
-* In de interface worden de datum en tijd nu weergegeven volgens de primaire taal die is ingesteld in de Experience League-voorkeuren. Deze verbetering is alleen beschikbaar voor verschillende talen. Om de volledige lijst van gesteunde talen te zien, verwijs naar de [ gedetailleerde documentatie ](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/browser-language){target=_blank}.
+* In de interface worden de datum en tijd nu weergegeven volgens de primaire taal die is ingesteld in de Experience League-voorkeuren. Deze verbetering is alleen beschikbaar voor verschillende talen. Om de volledige lijst van gesteunde talen te zien, verwijs naar de [ gedetailleerde documentatie ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}.
 
 <!--
 ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
@@ -147,13 +167,13 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld. Ze vereisen een upgrade van de Campagneserver naar v8.7.4.
 >
->Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL).
+>Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
 * **Meertalige leveringsverwezenlijking** - u kunt veelvoudige e-mailleveringen in verschillende talen in het Gebruikersinterface van het Web van Adobe Campaign nu verzenden. Met de functie Meertalige levering kunt u de standaardtaal van uw levering kiezen en de verschillende talen waarin de levering kan worden verzonden. U kunt deze leveringen ook voorvertonen in de talen die u hebt gekozen. Raadpleeg de [gedetailleerde documentatie](../email/edit-content.md) voor meer informatie.
 
 * **Dynamische Rapportering voor Meertalig** - de Dynamische rapportering is nu beschikbaar voor meertalige e-mailleveringen. Raadpleeg de [gedetailleerde documentatie](../reporting/global-reports.md) voor meer informatie.
 
-* **de REST API van SMS steun (LA)** - De Transactionele WEERGAVE API van het Overseinen is nu beschikbaar voor het kanaal van SMS. Wanneer zowel e-mail als mobilePhone aanwezig zijn in de lading, kunt u het &quot;wishedChannel&quot;gebied gebruiken om het kanaal te specificeren. Indien niet opgegeven, wordt de e-mail standaard gebruikt, tenzij wishedChannel expliciet om SMS verzoekt. Raadpleeg de [gedetailleerde documentatie](https://experienceleague.adobe.com/nl/docs/experience-cloud/campaign/apis/managing-transactional-messages){target=_blank} voor meer informatie.
+* **de REST API van SMS steun (LA)** - De Transactionele WEERGAVE API van het Overseinen is nu beschikbaar voor het kanaal van SMS. Wanneer zowel e-mail als mobilePhone aanwezig zijn in de lading, kunt u het &quot;wishedChannel&quot;gebied gebruiken om het kanaal te specificeren. Indien niet opgegeven, wordt de e-mail standaard gebruikt, tenzij wishedChannel expliciet om SMS verzoekt. Raadpleeg de [gedetailleerde documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank} voor meer informatie.
 
 ## Release van februari &#39;25 {#25-2-release}
 

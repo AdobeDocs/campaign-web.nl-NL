@@ -3,9 +3,9 @@ title: Paginaspecifieke inhoud definiëren
 description: Leer hoe u landende pagina-specifieke inhoud ontwerpt in Campagne Web
 feature: Landing Pages
 exl-id: 6ca3c8c1-3633-4e3f-a9a1-f46ae27c5c8a
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1089'
 ht-degree: 1%
 
 ---
@@ -35,10 +35,6 @@ De inhoud van de bestemmingspagina verder ontwerpen:
 * Gebruik dezelfde componenten als de componenten die worden gebruikt om een e-mailbericht te ontwerpen. [Meer informatie](../email/content-components.md#add-content-components)
 
 * Voeg voorwaardelijke inhoud op dezelfde manier toe aan uw bestemmingspagina&#39;s als voor een e-mail. [Meer informatie](../personalization/conditions.md#condition-condition-builder)
-
-  >[!AVAILABILITY]
-  >
-  >Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 
 ## De formuliercomponent gebruiken {#use-form-component}
 
@@ -82,7 +78,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
    ![ montages Checkbox in de vormcomponent ](assets/lp-form-checkbox.png){zoomable="yes"}
 
-   Als u **[!UICONTROL Subscription & services]** selecteert, selecteer de dienst van a [&#128279;](../audience/manage-services.md) van de lijst, en kies tussen de twee hieronder opties:
+   Als u **[!UICONTROL Subscription & services]** selecteert, selecteer de dienst van a [ ](../audience/manage-services.md) van de lijst, en kies tussen de twee hieronder opties:
 
    * **[!UICONTROL Subscribe in if checked]**: gebruikers moeten het selectievakje voor toestemming (opt-in) inschakelen.
    * **[!UICONTROL Unsubscribe if checked]**: gebruikers moeten het selectievakje inschakelen om hun toestemming (opt-out) te verwijderen.
@@ -96,7 +92,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
 1. Als alle velden zijn toegevoegd of bijgewerkt, klikt u op **[!UICONTROL Call to action]** om de bijbehorende sectie uit te vouwen. Hiermee kunt u het gedrag van de knop in de component **[!UICONTROL Form]** definiëren. [ leer hoe ](#define-actions-on-form-submission)
 
-   ![ Vraag aan actiemontages in de vormcomponent ](assets/lp-call-to-action.png){zoomable="yes"}
+   ![ de montages van Call to action in de vormcomponent ](assets/lp-call-to-action.png){zoomable="yes"}
 
 1. Sparen uw inhoud om terug naar de [ het landen paginaeigenschappen ](create-lp.md#create-landing-page) te gaan.
 
@@ -111,7 +107,7 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
    * **[!UICONTROL Landing page]**: selecteer een andere bestemmingspagina waarnaar gebruikers moeten worden omgeleid. Controleer of u de geselecteerde bestemmingspagina dienovereenkomstig configureert.
 
 1. Als u aanvullende updates wilt uitvoeren wanneer u het formulier verzendt, selecteert u **[!UICONTROL Additional updates]** en selecteert u het item dat u wilt bijwerken:
-   * De dienst van het abonnement [&#128279;](../audience/manage-services.md) - bepaalt als u binnen of opt uit gebruikers bij het voorleggen van de vorm wilt kiezen. Als u bij het ontwerpen van een e-mailbericht een koppeling van het type **[!UICONTROL Landing page]** naar deze bestemmingspagina definieert, wordt automatisch de geselecteerde service gebruikt. [ leer meer over het opnemen van verbindingen ](../email/message-tracking.md)
+   * De dienst van het abonnement [ ](../audience/manage-services.md) - bepaalt als u binnen of opt uit gebruikers bij het voorleggen van de vorm wilt kiezen. Als u bij het ontwerpen van een e-mailbericht een koppeling van het type **[!UICONTROL Landing page]** naar deze bestemmingspagina definieert, wordt automatisch de geselecteerde service gebruikt. [ leer meer over het opnemen van verbindingen ](../email/message-tracking.md)
 
      >[!NOTE]
      >
@@ -125,10 +121,6 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 
 1. Selecteer de optie **[!UICONTROL Service from URL]** als u wilt dat de bestemmingspagina kan worden gebruikt voor meerdere services, waardoor deze dynamisch wordt. Definieer of u gebruikers wilt aanmelden of afmelden bij het verzenden van het formulier.
 
-   >[!AVAILABILITY]
-   >
-   >Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
-
    ![ Dienst van montages URL in de vormcomponent ](assets/lp-form-service-from-url.png){zoomable="yes"}
 
    Als u tijdens het ontwerpen van een e-mailbericht een koppeling van het type **[!UICONTROL Landing page]** naar deze bestemmingspagina definieert, kunt u een willekeurige service in de lijst selecteren. Vervolgens kunt u andere services selecteren wanneer u andere koppelingen naar deze bestemmingspagina definieert. [ leer meer over het opnemen van verbindingen ](../email/message-tracking.md)
@@ -138,10 +130,6 @@ Als u specifieke inhoud wilt definiëren waarmee gebruikers hun keuzes vanaf de 
 1. Verzend een bericht op de verzending van de bestemmingspagina. [ leer meer hier ](#lp-message)
 
 ### Een bericht verzenden na verzending {#lp-message}
-
->[!AVAILABILITY]
->
->Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 
 Voer de volgende stappen uit als u automatisch een bevestigingsbericht wilt verzenden nadat u een landingspagina hebt verzonden:
 
@@ -167,7 +155,7 @@ Voer de volgende stappen uit als u automatisch een bevestigingsbericht wilt verz
 
 1. Vouw de sectie **[!UICONTROL Call to action]** uit om de weergave van de knop in het deelformulier te wijzigen. Wijzig bijvoorbeeld het lettertype, voeg een rand toe, bewerk de labelkleur als u de cursor plaatst of pas de uitlijning van de knop aan.
 
-   ![ Vraag aan de montages van de actiestijl ](assets/lp-call-to-action-style.png){zoomable="yes"}
+   ![ de stijlmontages van Call to action ](assets/lp-call-to-action-style.png){zoomable="yes"}
 
    Gebruik de knop **[!UICONTROL Simulate content]** om een voorbeeld van uw instellingen weer te geven, zoals de kleur van knoplabels bij aanwijzen. [Meer informatie](create-lp.md#test-landing-page)
 

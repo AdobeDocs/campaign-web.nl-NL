@@ -3,9 +3,9 @@ title: Een landingspagina maken
 description: Leer hoe te vormen en een het landen pagina in het Web van de Campagne te publiceren
 feature: Landing Pages
 exl-id: d4a49048-5ab1-4b69-9e12-1ffa235c51f4
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1544'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ In de **[!UICONTROL Landing pages]** -voorraad worden alle gemaakte items weerge
 
 >[!CAUTION]
 >
->U kunt bestemmingspagina&#39;s niet tonen of uitgeven die van de cliëntconsole (Webformulieren) in het gebruikersinterface van het Web van de Campagne worden gecreeerd. Leer meer in de [ documentatie van de de consoleconsole van de Campagne ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html?lang=nl-NL){target="_blank"}.
+>U kunt bestemmingspagina&#39;s niet tonen of uitgeven die van de cliëntconsole (Webformulieren) in het gebruikersinterface van het Web van de Campagne worden gecreeerd. Leer meer in de [ documentatie van de de consoleconsole van de Campagne ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/content/webapps.html){target="_blank"}.
 
 <!--If you unpublish a landing page which is referenced in a message, the link to the landing page will be broken and an error page will be displayed. You cannot delete a published landing page. To delete it, you must first unpublish it.-->
 
@@ -116,10 +116,6 @@ Ga als volgt te werk om een bestemmingspagina te maken:
 
    * Met de optie **[!UICONTROL Authorize absence of ID]** heeft een bezoeker toegang tot de openingspagina. Als u deze optie uitschakelt, voorkomt u dat anonieme bezoekers het formulier gebruiken. Dit houdt in dat alleen geïdentificeerde gebruikers het formulier kunnen openen en verzenden.
 
-     >[!AVAILABILITY]
-     >
-     >Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
-
      Voor de sjablonen **[!UICONTROL Acquisition]** en **[!UICONTROL Subscription]** is deze optie standaard geselecteerd. Voor de sjablonen **[!UICONTROL Unsubscription]** en **[!UICONTROL Denylist]** is deze optie standaard uitgeschakeld en kan deze niet worden gewijzigd.
 
 1. Een openingspagina kan volgende pagina&#39;s hebben. Als u pagina&#39;s wilt toevoegen, bladert u door de sectie **[!UICONTROL Pages]** en klikt u op de knop **[!UICONTROL Edit content]** voor elke pagina die u voor deze openingspagina wilt ontwerpen. De inhoud van elke pagina is al vooraf ingevuld. Bewerk deze indien nodig. [Meer informatie](lp-content.md).
@@ -133,10 +129,6 @@ Ga als volgt te werk om een bestemmingspagina te maken:
    ![ Schermafbeelding die de opslagopties voor de landingspagina toont.](assets/lp-storage.png){zoomable="yes"}
 
 1. Maak **[!UICONTROL Additional data]** om interne gegevens op te slaan wanneer de landingspagina wordt verzonden. Deze gegevens zijn niet zichtbaar voor gebruikers die de pagina bezoeken. Alleen constante waarden worden in aanmerking genomen.
-
-   >[!AVAILABILITY]
-   >
-   >Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 
    ![ Schermafbeelding die de extra gegevenssectie toont.](assets/lp-additional-data.png){zoomable="yes"}
 
@@ -161,10 +153,6 @@ Ga als volgt te werk om een bestemmingspagina te maken:
 Zodra u alle montages en [ ontwerp ](lp-content.md) alle pagina&#39;s bepaalt, kunt u [ testen ](#test-landing-page) en [ publiceren ](#publish-landing-page) uw het landen pagina zoals hieronder gedetailleerd.
 
 ## Beveilig uw landingspagina met een captcha {#captcha}
-
->[!AVAILABILITY]
->
->Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **Adobe Campaign v8.7.2 bevorderen met de laatste fixversie** gebruiken, en kan niet op een ander milieu worden opgesteld.
 
 Als u een Captcha instelt, kunt u uw landingspagina beschermen tegen spam en misbruik.
 

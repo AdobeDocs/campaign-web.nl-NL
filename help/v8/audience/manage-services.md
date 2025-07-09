@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met abonnementsservices
 description: Meer informatie over het openen, maken en beheren van abonnementsservices op Adobe Campaign Web
 exl-id: 95b2f2f9-5478-4fdb-9201-9c5bcb7f60b2
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: e82c19df7faecbb75521bca54e32b1ba84ea1f81
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1080'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Verschillende diensten kunnen parallel worden gedefinieerd, bijvoorbeeld: nieuws
 
 Volg onderstaande stappen om abonnementsservices die beschikbaar zijn voor uw platform te openen.
 
-1. Blader onder **[!UICONTROL Customer management]** naar het menu **[!UICONTROL Subscription services]** op de linkernavigatieregel.
+1. Blader onder **[!UICONTROL Subscription services]** naar het menu **[!UICONTROL Customer management]** op de linkernavigatieregel.
 
    ![ Schermafbeelding die het menu van de Diensten van het Abonnement op de linkernavigatiespoor onder het beheer van de Klant toont ](assets/service-list.png){zoomable="yes"}
 
@@ -87,10 +87,6 @@ Voer de onderstaande stappen uit om een abonnementenservice te maken.
 1. Klik op **[!UICONTROL Save and review]**. De nieuwe service wordt toegevoegd aan de lijst **[!UICONTROL Subscription services]** .
 
 1. Selecteer de standaardbestemmingspagina&#39;s voor abonnementen en abonnementen die aan deze service zijn gekoppeld.
-
-   >[!AVAILABILITY]
-   >
-   >Dit vermogen is in Beperkte Beschikbaarheid (LA). Het is beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kan niet op een ander milieu worden opgesteld.
 
    ![ Schermafbeelding die de standaard het landen pagina montages voor de abonnementendienst tonen ](assets/service-create-default-lp.png){zoomable="yes"}
 
