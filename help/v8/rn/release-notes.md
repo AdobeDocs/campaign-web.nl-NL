@@ -24,7 +24,7 @@ De veranderingen en de verbeteringen beschikbaar met vorige versies worden verme
 
 >[!AVAILABILITY]
 >
->Voor deze updates moet uw server zijn geüpgraded naar 8.8.1 min. Verwijs naar de de versienota&#39;s van de Console van de Cliënt [ ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+>Voor deze updates moet uw server zijn geüpgraded naar 8.8.1 min. Verwijs naar de de versienota&#39;s van de Console van de Cliënt [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Eerder vrijgegeven in Beperkte Beschikbaarheid, zijn de volgende mogelijkheden nu beschikbaar aan alle milieu&#39;s (Algemene Beschikbaarheid):
 
@@ -61,7 +61,7 @@ Naast de hierboven vermelde functies wordt deze release ook geleverd met een aan
 * [ Nieuwe SMS verzendende schakelaar ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html).
 * [ Rest APIs ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
 
-Verwijs naar de de versienota&#39;s van de Console van de Cliënt [ ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+Verwijs naar de de versienota&#39;s van de Console van de Cliënt [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 <!--
 ACC * **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html){target="_blank"}

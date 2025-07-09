@@ -70,7 +70,7 @@ De meeste concepten zijn vergelijkbaar tussen Campagne v8 en Campaign Standard. 
 
 ## Specifieke kenmerken {#new-features}
 
-Voor een vlotte overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Deze eigenschappen zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html) {target= &quot;_blank} en zijn beschikbaar slechts aan gebruikers die van Campaign Standard overgaan.
+Voor een vlotte overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Deze eigenschappen zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target=_blank}  en zijn beschikbaar slechts aan gebruikers die van Campaign Standard overgaan.
 
 * **Dynamische Rapportering**: De dynamische Rapportering verstrekt klantgerichte, rapporten in real time om het effect van marketing activiteiten te meten. Het omvat toegang tot profielgegevens voor demografische analyse door dimensies zoals geslacht, stad, en leeftijd, naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](../reporting/dynamic-reporting/get-started-reporting.md).
 
