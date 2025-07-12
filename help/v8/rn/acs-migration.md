@@ -76,7 +76,7 @@ Voor een vlotte overgang naar Campagne v8 zijn de belangrijkste Campaign Standar
 
 * **Gecentraliseerde Branding**: Adobe Campaign staat bedrijven toe om merk visuele en technische richtlijnen te bepalen. Gebruikers kunnen een consistent merk aan klanten aanbieden, van logo&#39;s tot technische aspecten zoals e-mailzender, URL of domeinen. [Meer informatie](../administration/branding/branding-gs.md).
 
-* **REST APIs**: De gemigreerde gebruikers van Campaign Standard kunnen REST APIs gebruiken om integraties voor Adobe Campaign tot stand te brengen en ecosystemen te bouwen door Adobe Campaign met andere technologieën te verbinden. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target="_blank"}.
+* **REST APIs**: De gemigreerde gebruikers van Campaign Standard kunnen REST APIs gebruiken om integraties voor Adobe Campaign tot stand te brengen en ecosystemen te bouwen door Adobe Campaign met andere technologieën te verbinden. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=nl-NL){target="_blank"}.
 
 * **Aanlandende Pagina&#39;s**: De campagne v8 landende pagina&#39;s omvat verbeteringen om eigenschappariteit met Campaign Standard te verzekeren. Leer meer in de [ versienota&#39;s ](../rn/release-notes.md#new-24-4) en de het landen pagina [ documentatie ](../landing-pages/get-started-lp.md).
 

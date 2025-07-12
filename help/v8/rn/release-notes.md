@@ -59,7 +59,7 @@ Eerder vrijgegeven in Beperkte Beschikbaarheid, zijn de volgende mogelijkheden n
 Naast de hierboven vermelde functies wordt deze release ook geleverd met een aantal functies die beschikbaar zijn in de Client Console:
 
 * [ Nieuwe SMS verzendende schakelaar ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=nl-NL).
-* [ Rest APIs ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html)
+* [ Rest APIs ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=nl-NL)
 
 Verwijs naar de de versienota&#39;s van de Console van de Cliënt [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=nl-NL){target="_blank"}.
 
