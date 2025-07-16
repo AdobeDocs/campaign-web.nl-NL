@@ -3,10 +3,10 @@ audience: end-user
 title: Je berichten bijhouden
 description: Leer hoe u koppelingen toevoegt en verzonden berichten bijhoudt
 exl-id: ea0d4214-5f14-470c-8791-e8b179ca3a42
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 53f3cc27ed6d768d134902a9196f0b221fedcde0
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 1%
+source-wordcount: '533'
+ht-degree: 2%
 
 ---
 
@@ -31,10 +31,6 @@ Ga als volgt te werk om koppelingen in te voegen in uw e-mailinhoud:
    ![ Schermschot die de interface voor het opnemen van verbindingen in het bericht het volgen hulpmiddel tonen ](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL External link]**: voeg een koppeling in naar een externe URL.
-
-     >[!AVAILABILITY]
-     >
-     >De volgende mogelijkheden (koppeling naar **[!UICONTROL Landing page]** , **[!UICONTROL Subscription link]** en **[!UICONTROL Unsubscription link]** ) bevinden zich in de beperkte beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld.
 
    * **[!UICONTROL Landing page]**: voeg een koppeling in naar een bestemmingspagina. Als u een dynamische openingspagina selecteert (met de optie **[!UICONTROL Service from URL]** geselecteerd), kunt u om het even welke dienst van de lijst selecteren. [Meer informatie](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
