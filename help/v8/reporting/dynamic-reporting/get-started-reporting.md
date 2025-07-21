@@ -4,14 +4,18 @@ description: Analyseer het succes van uw campagnes in geïntegreerde of aangepas
 audience: end-user
 level: Beginner
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+source-git-commit: 605633bd8351ad3d27edac5de14148f149ff2797
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '291'
 ht-degree: 12%
 
 ---
 
 # Aan de slag met dynamische rapportage {#get-started-reporting}
+
+>[!AVAILABILITY]
+>
+>Deze mogelijkheid is alleen op aanvraag beschikbaar. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 De dynamische Rapportering verstrekt volledig klantgerichte en real-time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt.
 
