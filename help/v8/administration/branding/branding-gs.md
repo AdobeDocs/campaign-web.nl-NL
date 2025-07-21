@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 605633bd8351ad3d27edac5de14148f149ff2797
+source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 16%
+source-wordcount: '332'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 >[!AVAILABILITY]
 >
->Deze mogelijkheid is alleen op aanvraag beschikbaar voor nieuwe implementaties. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
+>Deze mogelijkheid is alleen op verzoek beschikbaar voor nieuwe implementaties. Neem contact op met uw Adobe-vertegenwoordiger voor toegang.
 
 
 >[!IMPORTANT]
@@ -30,7 +30,7 @@ Technische beheerders kunnen meerdere merken binnen Adobe Campaign maken en behe
 
 U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw type van e-mail tot stand brengen dat u onder een verschillend subdomain moet verzenden. Volg onderstaande stappen om dit te doen:
 
-1. **vorm een nieuw subdomain** - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit door [ het Controlebord van de Campagne ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) uitvoeren of uit naar uw technisch contact van Adobe reiken. Leer meer over subdomeinconfiguratie [ in deze pagina ](https://experienceleague.adobe.com/nl/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **vorm een nieuw subdomain** - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit door [ het Controlebord van de Campagne ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) uitvoeren of uit naar uw technisch contact van Adobe reiken. Leer meer over subdomeinconfiguratie [ in deze pagina ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
