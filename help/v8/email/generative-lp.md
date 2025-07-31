@@ -3,9 +3,9 @@ audience: end-user
 title: Openingspagina met AI Assistant
 description: Aan de slag met AI Assistant
 exl-id: f4baa23f-f289-4837-b5b3-c479eaeff86c
-source-git-commit: 609718356ace500b831601dac077f9a3333e00e9
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1445'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >Alvorens te beginnen gebruikend dit vermogen, lees verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
-></br>
+>></br>
 >
 >U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in het Web van Adobe Campaign kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
@@ -68,11 +68,15 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om een besta
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel de elementen die u wilt opnemen in het genereren in of uit.
 
-   ![ Screenshot die het menu van merkactiva toont.](assets/lp_full_gen_5.png){zoomable="yes"}
-
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
-1. Blader door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variatie weer te geven.
+1. Blader door de gegenereerde **[!UICONTROL Variations]** tekst en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
+
+1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
+
+   Leer meer op [ de groeperingsscore van het Merk ](../content/brands-score.md).
+
+   ![](assets/lp_full_gen_5.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -82,6 +86,8 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om een besta
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
    ![ Schermafbeelding die de verfopties toont.](assets/lp_full_gen_6.png){zoomable="yes"}
+
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](../content/brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 
@@ -125,7 +131,13 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om de inhoud
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
-1. Blader door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variatie weer te geven.
+1. Blader door de gegenereerde **[!UICONTROL Variations]** tekst en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
+
+1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
+
+   Leer meer op [ de groeperingsscore van het Merk ](../content/brands-score.md).
+
+   ![ Screenshot die het menu van merkactiva toont.](assets/lp-text-genai-4.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -138,6 +150,8 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om de inhoud
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
    ![ Schermafbeelding die de verfopties toont.](assets/lp-text-genai-5.png){zoomable="yes"}
+
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](../content/brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 
@@ -169,7 +183,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Volg uw vraag met de optie **[!UICONTROL Image settings]** :
 
-   * **[!UICONTROL Aspect ratio]** - Bepaal de breedte en hoogte van het element. Kies een gebruikelijke verhouding, zoals 16:9, 4:3, 3:2 of 1:1, of voer een aangepaste grootte in.
+   * **[!UICONTROL Aspect ratio]** - Bepaal de breedte en hoogte van het element. Kies van gemeenschappelijke verhoudingen zoals 16 :9, 4 :3, 3 :2, of 1 :1, of ga een douanegrootte in.
    * **[!UICONTROL Content type]**: Categoriseer de aard van het visuele element, waarbij onderscheid wordt gemaakt tussen verschillende vormen van visuele representatie, zoals foto&#39;s, afbeeldingen of illustraties.
    * **[!UICONTROL Visual intensity]**: U kunt de invloed van de afbeelding bepalen door de intensiteit aan te passen. Bij een lagere instelling (2) wordt het uiterlijk zachter, terwijl bij een hogere instelling (10) de afbeelding levendiger wordt.
    * **[!UICONTROL Color & tone]**: pas de algemene weergave van de kleuren in een afbeelding en de stemming of atmosfeer die erin wordt weergegeven aan.
@@ -184,13 +198,17 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Als u tevreden bent met de snelle configuratie, klikt u op **[!UICONTROL Generate]** .
 
-1. Blader in **[!UICONTROL Variation suggestions]** om het gewenste element te zoeken.
+1. Blader door de gegenereerde **[!UICONTROL Variations]** tekst en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
 
-   Klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven.
+1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-1. Kies **[!UICONTROL Generate Similar]** als u verwante afbeeldingen met deze variant wilt weergeven.
+   Leer meer op [ de groeperingsscore van het Merk ](../content/brands-score.md).
 
-   ![ Screenshot die de interface van variatiesuggesties toont.](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![ Screenshot die het menu van merkactiva toont.](assets/lp-image-gen-4.png){zoomable="yes"}
+
+1. Kies **[!UICONTROL Generate Similar]** in het **[!UICONTROL Preview]** -venster als u verwante afbeeldingen met deze variant wilt weergeven.
+
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](../content/brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 

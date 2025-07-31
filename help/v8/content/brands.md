@@ -2,20 +2,15 @@
 audience: end-user
 title: Merk beheren
 description: Leer hoe u richtlijnen voor uw merk kunt maken en beheren
-badge: label="Beta" type="Informative"
 exl-id: d4d2c6bb-7fd0-49a0-9d73-356f4a24f021
-source-git-commit: 61078f86bcd433b1bc3a995489f283eb709b3687
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
 
 # Uw merken maken en beheren {#brands}
-
->[!AVAILABILITY]
->
->Dit vermogen wordt vrijgegeven als privé bèta. Het zal geleidelijk beschikbaar worden voor alle klanten in komende versies.
 
 Merkrichtlijnen zijn een uitgebreide reeks regels en normen die de visuele en verbale identiteit van een merk definiëren. Zij dienen als referentie om te zorgen voor een consistente merkweergave op alle marketing- en communicatiekanalen.
 
@@ -25,7 +20,7 @@ In [!DNL Adobe Campaign Web] kunnen gebruikers handmatig merkgegevens invoeren e
 
 Als u het menu **[!UICONTROL Brands]** in [!DNL Adobe Campaign Web] wilt openen, moeten gebruikers de productprofielen **[!UICONTROL Administrator (admin)]** en **[!UICONTROL Brand kit]** krijgen toegewezen om merken te maken en te beheren. Gebruikers hebben het productprofiel [!UICONTROL AI assistant] nodig voor alleen-lezen toegang.
 
-[Meer informatie](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+[Meer informatie](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 +++ Leer hoe u merkgerelateerde machtigingen kunt toewijzen
 

@@ -3,9 +3,9 @@ audience: end-user
 title: Generatieve inhoud
 description: Aan de slag met AI Assistant
 exl-id: d9d35c1d-13db-4d2c-82f8-1629fd1e5848
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1467'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 >[!IMPORTANT]
 >
 >Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
-></br>
+>></br>
 >
 >U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens AI Medewerker in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
@@ -54,7 +54,7 @@ In het volgende voorbeeld gebruikt u AI Assistant in Adobe Campaign Web om een b
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
    * **[!UICONTROL Tone]**: zorg ervoor dat de toon van uw e-mail op uw publiek afgestemd is. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker past het bericht dienovereenkomstig aan.
 
-   ![ Schermafbeelding die de opties van tekstmontages in het Web van Adobe Campaign tonen ](assets/full-email-3.png){zoomable="yes"}
+   ![ Schermafbeelding die de opties van tekstmontages in het Web van Adobe Campaign tonen ](assets/full-email-4.png){zoomable="yes"}
 
 1. Kies uw **[!UICONTROL Image settings]** :
 
@@ -64,15 +64,21 @@ In het volgende voorbeeld gebruikt u AI Assistant in Adobe Campaign Web om een b
    * **[!UICONTROL Lighting]**: wijzig de belichting in de afbeelding om de atmosfeer te bepalen en specifieke elementen te markeren.
    * **[!UICONTROL Composition]**: plaats elementen in het kader van de afbeelding.
 
-   ![ Schermafbeelding die beeldmontagesopties tonen in het Web van Adobe Campaign ](assets/full-email-4.png){zoomable="yes"}
-
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die extra context bieden aan AI Assistant, of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel de elementen die u wilt opnemen in het genereren in of uit.
 
+   ![ Schermafbeelding tonend brands montagesopties in het Web van Adobe Campaign ](assets/full-email-3.png){zoomable="yes"}
+
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
-1. Blader door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variatie weer te geven.
+1. Blader door de gegenereerde **[!UICONTROL Variations]** tekst en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
+
+1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
+
+   Leer meer op [ de groeperingsscore van het Merk ](../content/brands-score.md).
+
+   ![](assets/full-email-7.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -83,11 +89,11 @@ In het volgende voorbeeld gebruikt u AI Assistant in Adobe Campaign Web om een b
 
    ![ Schermafbeelding die verfijnen opties in het Web van Adobe Campaign toont ](assets/full-email-5.png){zoomable="yes"}
 
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](../content/brands.md) richt.
+
 1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 
 1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. Klik vervolgens op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en controleer de instellingen voor aanpassing met testprofielen. [Meer informatie](../preview-test/preview-content.md)
-
-   ![ Schermafbeelding die simuleren inhoudsknoop in het Web van Adobe Campaign tonen ](assets/full-email-6.png){zoomable="yes"}
 
 Wanneer u uw inhoud, publiek en planning definieert, moet u de e-maillevering voorbereiden. [Meer informatie](../monitor/prepare-send.md)
 
@@ -117,7 +123,7 @@ In het volgende voorbeeld gebruikt u AI Assistant om de inhoud van uw e-mailuitn
    * **[!UICONTROL Tone]**: zorg ervoor dat de toon van uw e-mail op uw publiek afgestemd is. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker past het bericht dienovereenkomstig aan.
    * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
-   ![ Schermafbeelding die de opties van tekstmontages in het Web van Adobe Campaign tonen ](assets/text-genai-3.png){zoomable="yes"}
+   ![ Schermafbeelding die de opties van tekstmontages in het Web van Adobe Campaign tonen ](assets/text-genai-4.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die extra context bieden aan AI Assistant, of selecteer een eerder geüpload element.
 
@@ -125,7 +131,13 @@ In het volgende voorbeeld gebruikt u AI Assistant om de inhoud van uw e-mailuitn
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
-1. Blader door de gegenereerde **[!UICONTROL Variations]** en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variatie weer te geven.
+1. Blader door de gegenereerde **[!UICONTROL Variations]** tekst en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
+
+1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
+
+   Leer meer op [ de groeperingsscore van het Merk ](../content/brands-score.md).
+
+   ![](assets/text-genai-6.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -137,7 +149,9 @@ In het volgende voorbeeld gebruikt u AI Assistant om de inhoud van uw e-mailuitn
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
-   ![ Schermafbeelding die verfijnen opties in het Web van Adobe Campaign toont ](assets/text-genai-4.png){zoomable="yes"}
+   ![ Schermafbeelding die verfijnen opties in het Web van Adobe Campaign toont ](assets/text-genai-5.png){zoomable="yes"}
+
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](../content/brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 
@@ -171,14 +185,14 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Tik uw vraag met de optie **[!UICONTROL Image settings]** :
 
-   * **[!UICONTROL Aspect ratio]** - Bepaal de breedte en hoogte van het element. Kies een gebruikelijke verhouding, zoals 16:9, 4:3, 3:2 of 1:1, of voer een aangepaste grootte in.
+   * **[!UICONTROL Aspect ratio]** - Bepaal de breedte en hoogte van het element. Kies van gemeenschappelijke verhoudingen zoals 16 :9, 4 :3, 3 :2, of 1 :1, of ga een douanegrootte in.
    * **[!UICONTROL Content type]**: Categoriseer de aard van het visuele element, waarbij onderscheid wordt gemaakt tussen verschillende vormen van visuele representatie, zoals foto&#39;s, afbeeldingen of illustraties.
    * **[!UICONTROL Visual intensity]**: U kunt de invloed van de afbeelding bepalen door de intensiteit aan te passen. Bij een lagere instelling (2) wordt het uiterlijk zachter, terwijl bij een hogere instelling (10) de afbeelding levendiger wordt.
    * **[!UICONTROL Color & tone]**: pas de algemene weergave van de kleuren en de sfeer of de sfeer die worden weergegeven aan.
    * **[!UICONTROL Lighting]**: wijzig de belichting in de afbeelding om de atmosfeer te bepalen en specifieke elementen te markeren.
    * **[!UICONTROL Composition]**: plaats elementen in het kader van de afbeelding.
 
-   ![ Schermafbeelding die beeldmontagesopties tonen in het Web van Adobe Campaign ](assets/image-genai-3.png){zoomable="yes"}
+   ![ Schermafbeelding die beeldmontagesopties tonen in het Web van Adobe Campaign ](assets/image-genai-4.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die extra context bieden aan AI Assistant, of selecteer een eerder geüpload element.
 
@@ -186,15 +200,17 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Als u tevreden bent met de snelle configuratie, klikt u op **[!UICONTROL Generate]** .
 
-1. Blader in **[!UICONTROL Variation suggestions]** om het gewenste element te zoeken.
+1. Blader door de gegenereerde **[!UICONTROL Variations]** tekst en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
 
-   Klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven.
+1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   ![ Schermafbeelding die variatiesuggesties voor beeldgeneratie tonen in het Web van Adobe Campaign ](assets/image-genai-5.png){zoomable="yes"}
+   Leer meer op [ de groeperingsscore van het Merk ](../content/brands-score.md).
+
+   ![](assets/image-genai-3.png){zoomable="yes"}
 
 1. Kies **[!UICONTROL Generate Similar]** als u verwante afbeeldingen met deze variant wilt weergeven.
 
-   ![ het Schermafbeelding tonen produceert gelijkaardige optie in het Web van Adobe Campaign ](assets/image-genai-6.png){zoomable="yes"}
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](../content/brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 

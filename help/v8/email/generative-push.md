@@ -3,9 +3,9 @@ audience: end-user
 title: Pushmelding met AI Assistant
 description: Aan de slag met AI Assistant
 exl-id: a361f75d-63c2-4fdc-993c-f8414b18e13e
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '528'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
-></br>
+>></br>
 >
 >U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens AI Medewerker in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
@@ -39,7 +39,7 @@ In het volgende voorbeeld, is de Medewerker van AI leveraged aan ambachtelijk dw
 
    ![ Schermafbeelding die de interface van de Bibliotheek van de Vraag toont ](assets/push-genai-2.png){zoomable="yes"}
 
-1. Kies het veld dat u wilt genereren: **[!UICONTROL Title]** , **[!UICONTROL Message]** en/of **[!UICONTROL Image]** .
+1. Kies het veld dat u wilt genereren: **[!UICONTROL Title]** , **[!UICONTROL Subtitle]** , **[!UICONTROL Message]** en/of **[!UICONTROL Image]** .
 
 1. Tik uw vraag met de optie **[!UICONTROL Text settings]** :
 
@@ -63,7 +63,13 @@ In het volgende voorbeeld, is de Medewerker van AI leveraged aan ambachtelijk dw
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
-1. Blader door de gegenereerde **[!UICONTROL Variations]** tekst en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven.
+1. Blader door de gegenereerde **[!UICONTROL Variations]** tekst en klik op **[!UICONTROL Preview]** om een schermvullende versie van de geselecteerde variant weer te geven of op **[!UICONTROL Apply]** om de huidige inhoud te vervangen.
+
+1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
+
+   Leer meer op [ de groeperingsscore van het Merk ](../content/brands-score.md).
+
+   ![](assets/push-genai-6.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -75,10 +81,10 @@ In het volgende voorbeeld, is de Medewerker van AI leveraged aan ambachtelijk dw
 
    ![ Schermafbeelding die verfijnen opties toont ](assets/push-genai-5.png){zoomable="yes"}
 
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](../content/brands.md) richt.
+
 1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 
 1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. Klik vervolgens op de knop **[!UICONTROL Simulate content]** om de rendering te beheren en controleer de instellingen voor aanpassing met testprofielen. [Meer informatie](../preview-test/preview-content.md)
-
-   ![ Schermafbeelding die Simuleert inhoudsknoop tonen ](assets/push-genai-6.png){zoomable="yes"}
 
 Wanneer u de inhoud, het publiek en het programma definieert, bereidt u de levering voor. [Meer informatie](../monitor/prepare-send.md)
