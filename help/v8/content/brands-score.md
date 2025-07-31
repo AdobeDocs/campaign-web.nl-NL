@@ -36,7 +36,7 @@ Zodra [ uw merk opstelling en gepubliceerd ](brands.md) is, bepaal uw merk groep
 
 1. Doorblader door de **Score van de Groepering van het Merk** (Hoog, Medium, Laag) en overzicht gedetailleerde terugkoppelt.
 
-1. Klik het ![ Volledige het schermpictogram van het 1} beeld van de Duik ](assets/do-not-localize/Smock_FullScreen_18_N.svg " om meer inzichten in uw score te zien.")
+1. Klik het ![ Volledige het schermpictogram van het 1&rbrace; beeld van de Duik ](assets/do-not-localize/Smock_FullScreen_18_N.svg " om meer inzichten in uw score te zien.")
 
    ![](assets/brand-score-3.png)
 

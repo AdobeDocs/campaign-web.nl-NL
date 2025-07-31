@@ -15,7 +15,7 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
->></br>
+>&#x200B;></br>
 >
 >U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens AI Medewerker in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
