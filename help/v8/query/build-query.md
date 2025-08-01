@@ -3,9 +3,9 @@ audience: end-user
 title: Bouw uw eerste vraag gebruikend de vraagmodeler
 description: Leer hoe u uw eerste query bouwt in Adobe Campaign Web query modeler.
 exl-id: efd762b5-a7ae-49b4-ab74-5b43da1e574d
-source-git-commit: a9c7ac9a7b43166bd3adba0d3463020b7f9353ab
+source-git-commit: 6a2bc8f2c36db04c466ed51a96e281156b224d48
 workflow-type: tm+mt
-source-wordcount: '2829'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats 
 >[!IMPORTANT]
 >
 >Er is een gloednieuwe interface beschikbaar voor het Query-model. De Nieuwe regelbouwer staat u toe om uw vraag met meer gemak dankzij zijn vereenvoudigde interface te bouwen. Druk op de schakelknop in de rechterbovenhoek om naar deze ervaring over te schakelen. U kunt naar de klassieke modelleerling van de Vraag terugkeren wanneer u wilt door eenvoudig de knevel terug te duwen om de nieuwe interface onbruikbaar te maken. U kunt de zelfde principes toepassen zoals vraagmodeler in deze nieuwe interface.
->&#x200B;>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 U kunt twee typen elementen toevoegen:
 
@@ -70,7 +70,7 @@ U opent deze optie door in de query op de selectieknop voor kenmerken te klikken
 >
 >* Voor velden met veel waarden worden alleen de eerste 20 waarden weergegeven. In dergelijke gevallen verschijnt er een waarschuwing **[!UICONTROL Partial load]** .
 >* De optie **[!UICONTROL Distribution of values]** is toegankelijk in elke kenmerkkiezer. [ leer hoe te om attributen ](../get-started/attributes.md) te selecteren
->* U kunt voorwaarden op de resultaten toevoegen door de **[ !AGeavanceerde filters]** te gebruiken. [ leer hier meer ](../get-started/work-with-folders.md#filter-the-values).
+>* U kunt voorwaarden op de resultaten toevoegen door de **[!AGeavanceerde filters]** te gebruiken. [ leer hier meer ](../get-started/work-with-folders.md#filter-the-values).
 
 ## Filtercomponenten toevoegen {#filtering}
 
@@ -122,7 +122,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
    | leuk | Net als bij de operator Bevat kunt u een jokerteken % in de waarde invoegen. | Achternaam (@lastName) zoals &#39;Jon%s&#39;. Het jokerteken fungeert als een &#39;joker&#39; om namen als &#39;Jones&#39; te zoeken. |
    | Niet leuk | Net als bij de operator Bevat kunt u een jokerteken % in de waarde invoegen. | Achternaam (@lastName) houdt niet van &#39;Smi%h&#39;. Ontvangers met de achternaam Smith worden niet geretourneerd. |
 
-   +++
++++
 
 1. Op het **gebied van de Waarde**, bepaal de verwachte waarde. U kunt de de uitdrukkingsredacteur van het Web van de Campagne ook gebruiken om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. Om dit te doen, klik **geef uitdrukking** knoop uit. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
 
@@ -166,7 +166,7 @@ U kunt een lijstverbinding in de **plukker van de Waarde** ook direct selecteren
 
 Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
-1. Navigeer binnen de **Merk** lijst en selecteer het **3&rbrace; attribuut van het Etiket &lbrace;.**
+1. Navigeer binnen de **Merk** lijst en selecteer het **3} attribuut van het Etiket {.**
 
    ![ Schermafbeelding van de lijst van het Merk ](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -407,6 +407,13 @@ Zodra u uw vraag in het canvas hebt gebouwd, kunt u het controleren gebruikend d
   >[!IMPORTANT]
   >
   >Selecteer een vooraf gedefinieerd filter in het deelvenster Eigenschappen regel om de query die in het canvas is gemaakt te vervangen door het geselecteerde filter.
+
+Wanneer het gebruiken van de nieuwe ervaring van de regelbouwer, kunt u de doelbevolking op elke voorwaarde en groep direct tonen:
+
+* Klik **berekenen het voorwaarde** pictogram op de gewenste voorwaarde of de groep om het aantal verslagen gegevens te verwerken en te tonen die door uw vraag worden bedoeld.
+* Klik op het resultaatnummer om de gedetailleerde lijst met records weer te geven.
+
+![ Bevolking en resultaatvertoning ](assets/ruleb-11bis.png){zoomable="yes"}
 
 Wanneer uw vraag klaar is, klik de **[!UICONTROL Confirm]** knoop in de hoger-juiste hoek om het te bewaren.
 

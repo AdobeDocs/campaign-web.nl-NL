@@ -2,10 +2,10 @@
 title: Werken met vooraf gedefinieerde filters
 description: Leer hoe u vooraf gedefinieerde filters maakt en beheert in Adobe Campaign Web
 exl-id: f6b73792-063d-4371-93e1-efa2aa02ee28
-source-git-commit: 1a751aed6d5185e700dafb1de2afd88300dfcd79
+source-git-commit: 3136381c92a19a7b918372868fb3c242cb312ec1
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 2%
+source-wordcount: '832'
+ht-degree: 1%
 
 ---
 
@@ -131,7 +131,9 @@ In deze lijst kunt u een nieuw filter maken zoals hierboven beschreven en de ond
 * Een vooraf gedefinieerd filter dupliceren.
 * Verwijder een vooraf gedefinieerd filter.
 
-U kunt ook een vooraf gedefinieerd filter toevoegen als een favoriet voor snelle toegang bij het maken van uw publiek. Lees meer in [deze sectie](#fav-filter).
+U kunt een vooraf gedefinieerd filter ook direct uit de regelbouwer bewerken of verwijderen. Van het vooraf bepaalde venster van de filterselectie, gebruik **Meer acties** knoop. U kunt het filter verwijderen of bewerken. U kunt het label wijzigen, een beschrijving toevoegen en toevoegen als favoriet.
+
+![ Uitgave van vooraf bepaalde filters ](assets/filter-edit.png){zoomable="yes"}
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}

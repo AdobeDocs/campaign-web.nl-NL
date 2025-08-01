@@ -3,9 +3,9 @@ audience: end-user
 title: Een iOS-rijke pushmelding ontwerpen
 description: Leer hoe u een uitgebreide pushmelding van iOS ontwerpt met Adobe Campaign Web
 exl-id: e6058d60-9f34-412b-aac2-6e319a3ab898
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1447'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Alvorens een Rich Push Bericht te ontwerpen, moet u uw V2 schakelaar vormen. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) voor de gedetailleerde procedure.
+>Alvorens een Rich Push Bericht te ontwerpen, moet u uw V2 schakelaar vormen. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) voor de gedetailleerde procedure.
 
 ## De inhoud van het bericht definiëren {#push-message}
 
@@ -31,7 +31,7 @@ Navigeer door de lusjes hieronder om meer over te leren hoe te om deze malplaatj
 
 >[!TAB  Gebrek ]
 
-1. Selecteer **[!UICONTROL Default]** in de vervolgkeuzelijst **[!UICONTROL Template]** .
+1. Selecteer **[!UICONTROL Template]** in de vervolgkeuzelijst **[!UICONTROL Default]** .
 
    ![ het scherm van de Standaardmalplaatjeselectie ](assets/rich_push_ios_default_1.png)
 
@@ -63,7 +63,7 @@ Als u de inhoud van uw bericht hebt gedefinieerd, gebruikt u testabonnees om het
 
 >[!TAB  Basis ]
 
-1. Selecteer **[!UICONTROL Basic]** in de vervolgkeuzelijst **[!UICONTROL Template]** .
+1. Selecteer **[!UICONTROL Template]** in de vervolgkeuzelijst **[!UICONTROL Basic]** .
 
    ![ Basis scherm van de malplaatjeselectie ](assets/rich_push_ios_basic_1.png)
 
@@ -97,7 +97,7 @@ Als u de inhoud van uw bericht hebt gedefinieerd, gebruikt u testabonnees om het
 
 >[!TAB  Carousel ]
 
-1. Selecteer **[!UICONTROL Carousel]** in de vervolgkeuzelijst **[!UICONTROL Template]** .
+1. Selecteer **[!UICONTROL Template]** in de vervolgkeuzelijst **[!UICONTROL Carousel]** .
 
    ![ het selectiescherm van de het malplaatjeselectie van Carrousel ](assets/rich_push_ios_carousel_1.png)
 
@@ -140,7 +140,7 @@ Als u de inhoud van uw bericht hebt gedefinieerd, gebruikt u testabonnees om het
 
 >[!TAB  Tijdopnemer ]
 
-1. Selecteer **[!UICONTROL Timer]** in de vervolgkeuzelijst **[!UICONTROL Notification type]** .
+1. Selecteer **[!UICONTROL Notification type]** in de vervolgkeuzelijst **[!UICONTROL Timer]** .
 
    ![ het selectiescherm van het malplaatje van de Tijdopnemer ](assets/rich_push_ios_timer_1.png)
 
@@ -203,6 +203,7 @@ Als u de inhoud van uw bericht hebt gedefinieerd, gebruikt u testabonnees om het
 | Parameter | Beschrijving |
 |-----------|-------------|
 | **[!UICONTROL Mutable content]** | Schakel deze optie in als u wilt dat de mobiele toepassing media-inhoud kan downloaden. |
+| **[!UICONTROL Content available]** | Schakel deze optie in als u wilt dat uw melding updates op de achtergrond op iOS-apparaten activeert, zelfs als de app niet actief is geopend. Zo zorgt u ervoor dat inhoud zoals berichten of gegevensupdates kan worden verwerkt en opgeslagen in de app-inbox zonder dat gebruikersinteractie vereist is. Als deze optie is geselecteerd, wordt de markering `content-available: 1` toegevoegd aan de `aps` -payload conform de APNS-standaarden (Apple Push Notification Service). |
 | **[!UICONTROL Relevance score]** | Stel een relevantiescore in van 0 tot 100. Het systeem gebruikt dit om berichten in het berichtoverzicht te sorteren. |
 | **[!UICONTROL Interruption level]** | <ul><li>**Actief**: Plaats door gebrek, stelt het systeem onmiddellijk het bericht voor, lichten omhoog het scherm, en kan een geluid spelen. Meldingen doorbreken niet door focusmodi.</li><li>**Passief**: Het systeem voegt het bericht aan de berichtlijst toe zonder het scherm omhoog te belichten of een geluid te spelen. Meldingen doorbreken niet door focusmodi.</li><li>**Gevoelige Tijd**: Het systeem stelt onmiddellijk het bericht voor, licht omhoog het scherm, kan een geluid spelen, en onderbrekingen door nadrukwijzen. Voor dit niveau is geen speciale toestemming van Apple vereist.</li><li>**Kritieke**: Het systeem stelt onmiddellijk het bericht voor, licht omhoog het scherm, en negeert de modusschakelaar of nadrukwijzen. Voor dit niveau is speciale toestemming van Apple vereist.</li></ul> |
 | **[!UICONTROL Thread-id]** | Stel de id in die wordt gebruikt om gerelateerde meldingen te groeperen. |

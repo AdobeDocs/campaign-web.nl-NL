@@ -3,9 +3,9 @@ audience: end-user
 title: Een levering met pushberichten ontwerpen
 description: Leer hoe u een pushmelding ontwerpt met Adobe Campaign Web
 exl-id: 031bc38a-2435-4468-8ee6-3bcf1132da55
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 53f4662e9497c8614036f9f89c1ea2b1233756f0
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1577'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,7 @@ Geavanceerde opties zijn afhankelijk van het mobiele besturingssysteem: Android 
 | **[!UICONTROL Notification count]** | Stel een nummer in dat rechtstreeks op het toepassingspictogram wordt weergegeven en dat het aantal nieuwe ongelezen gegevens aangeeft. Dit biedt een snelle visuele referentie voor de gebruiker. |
 | **[!UICONTROL Volume]** | Volume van het geluid van 0 tot 100. |
 | **[!UICONTROL Mutable content]** | Schakel deze optie in als u wilt dat de mobiele toepassing media-inhoud kan downloaden die aan het bericht is gekoppeld. Zie [Apple Developer documentatie](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html) voor meer informatie hierover. |
+| **[!UICONTROL Content available]** | Schakel deze optie in als u wilt dat uw melding updates op de achtergrond op iOS-apparaten activeert, zelfs als de app niet actief is geopend. Zo zorgt u ervoor dat inhoud zoals berichten of gegevensupdates kan worden verwerkt en opgeslagen in de app-inbox zonder dat gebruikersinteractie vereist is. Als deze optie is geselecteerd, wordt de markering `content-available: 1` toegevoegd aan de `aps` -payload conform de APNS-standaarden (Apple Push Notification Service). |
 | **[!UICONTROL Relevance score]** | Plaats een relevantiescore van 0 tot 100 om de orde van berichten in de berichtsamenvatting voorrang te geven. Hogere scores duiden op belangrijkere meldingen. |
 | **[!UICONTROL Interruption level]** | <ul> <li>**[!UICONTROL Active]**: standaard ingesteld, geeft het systeem de melding direct weer, licht het scherm op en kan een geluid worden afgespeeld. Meldingen doorbreken niet door de focusmodi.</li><li>**[!UICONTROL Passive]**: het systeem voegt het bericht toe aan de meldingslijst zonder het scherm te belichten of een geluid af te spelen. Meldingen doorbreken niet door de focusmodi.</li><li>**[!UICONTROL Time sensitive]**: Het systeem presenteert de melding direct, licht het scherm op, kan een geluid afspelen en doorbreekt de modus Focus. Voor dit niveau is geen speciale toestemming van Apple vereist.</li> <li>**[!UICONTROL Critical]**: Het systeem presenteert de melding direct, licht het scherm op en laat de modi voor demtschakelaar of focus voorbijgaan. Voor dit niveau is speciale toestemming van Apple vereist.</ul> |
 | **[!UICONTROL Thread-id]** | Identifier die wordt gebruikt om gerelateerde meldingen te groeperen. De berichten met zelfde draadidentiteitskaart worden georganiseerd als één enkel gesprek of draad in de berichtlijst. |
