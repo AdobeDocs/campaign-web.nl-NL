@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 127c65a466c41e1aba8408aa9cf41c2d89c93801
+source-git-commit: 3acaa4c2bad2f265d8bb24c0840d12ad77a5d248
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '916'
 ht-degree: 20%
 
 ---
@@ -122,6 +122,8 @@ ht-degree: 20%
          + [Een stijl voor koppelingen definiëren](email/styling-links.md)
          + [Inline-opmaakkenmerken toevoegen](email/inline-styling.md)
          + [Een aangepaste CSS toevoegen](email/custom-css.md)
+         + [Inhoud in de donkere modus beheren](email/dark-mode.md)
+      + [Toegankelijke inhoud maken](email/accessible-content.md)
    + AI-assistent {#ai-assistant}
       + [Werken met AI-assistent](email/generative-gs.md)
       + [E-mailgeneratie met AI](email/generative-content.md)
@@ -275,4 +277,4 @@ ht-degree: 20%
    + [Externe accounts configureren](administration/external-account.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
