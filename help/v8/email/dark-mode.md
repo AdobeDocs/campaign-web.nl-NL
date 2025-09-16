@@ -1,7 +1,6 @@
 ---
 title: Overschakelen naar donkere modus
 description: Meer informatie over het gebruik van de donkere modus in de Adobe Campaign Email Designer
-badge: label="Beta" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -9,9 +8,9 @@ level: Beginner, Intermediate
 keywords: donkere modus, e-mail, kleur, editor
 hide: true
 hidefromtoc: true
-source-git-commit: 795a18d14c353666e081c70f6095924bb6d918e1
+source-git-commit: b85a78cf89586679630398f5f3c7d732a59711fd
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
