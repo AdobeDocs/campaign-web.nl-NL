@@ -27,6 +27,7 @@ Deze pagina gaat over het toegankelijk maken van uw inhoud voor al uw ontvangers
 
 <!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
+
 ## Zorg ervoor dat de tekst leesbaar is {#text-readability}
 
 Gebruik de tab **[!UICONTROL Styles]** van de component **[!UICONTROL Text]** om ervoor te zorgen dat de tekst leesbaar is, bijvoorbeeld door een juist kleurcontrast en eenvoudige lettertypen te gebruiken. [Meer informatie](content-components.md#text)
