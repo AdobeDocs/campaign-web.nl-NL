@@ -12,7 +12,7 @@ ht-degree: 5%
 
 ## Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-De Amazon Simple Storage Service (S3)-connector kan worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign. Deze kan worden ingesteld in een workflowactiviteit. Raadpleeg [deze pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank} voor meer informatie.
+De Amazon Simple Storage Service (S3)-connector kan worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign. Deze kan worden ingesteld in een workflowactiviteit. Raadpleeg [deze pagina](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank} voor meer informatie.
 
 ![ Schermafbeelding die de velden voor de configuratie van de externe account van Amazon Simple Storage Service S3 weergeeft.](assets/external-AWS.png)
 
@@ -42,7 +42,7 @@ Leren waar te om toegangs zeer belangrijke identiteitskaart en geheime toegangss
 
 ## Azure Blob Storage {#azure-blob-external-account}
 
-De **[!UICONTROL Azure Blob Storage]** -externe account kan worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign via een **[!UICONTROL Transfer file]** -workflowactiviteit. Raadpleeg [deze sectie](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank} voor meer informatie.
+De **[!UICONTROL Azure Blob Storage]** -externe account kan worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign via een **[!UICONTROL Transfer file]** -workflowactiviteit. Raadpleeg [deze sectie](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank} voor meer informatie.
 
 ![ Screenshot die de de externe gebieden van de de rekeningsconfiguratie van de Opslag van Azure Blob toont.](assets/external-azure.png)
 
