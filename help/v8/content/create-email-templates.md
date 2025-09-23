@@ -199,6 +199,6 @@ U kunt een inhoudssjabloon op twee manieren dupliceren:
 
 * Van de lijst van inhoudsmalplaatjes, klik de ellipsknoop, dan selecteren **Dupliceert**.
 
-* Van het inhoudsmalplaatje zelf, klik **Meer** knoop, dan selecteren **&#x200B;**&#x200B;Dupliceert.
+* Van het inhoudsmalplaatje zelf, klik **Meer** knoop, dan selecteren **** Dupliceert.
 
 In beide gevallen bevestigt u de duplicatie om de nieuwe inhoudssjabloon te maken. Het etiket van het nieuwe inhoudsmalplaatje is **Exemplaar van`<label of the initial campaign>`**. Blader naar de sjablooninstellingen om dit label bij te werken.
