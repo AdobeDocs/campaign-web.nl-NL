@@ -309,7 +309,7 @@ In Campaign v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
 >[!AVAILABILITY]
 >
->* Adobe Campaign v8 ondersteunt zowel Android als iOS Push Channel. Maak verbinding met uw Adobe Campaign Transition Manager voor het overstappen van bestaande workflows en leveringen met Push Channel. Leer meer over [ Opstelling van het Kanaal 1}.](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}
+>* Adobe Campaign v8 ondersteunt zowel Android als iOS Push Channel. Maak verbinding met uw Adobe Campaign Transition Manager voor het overstappen van bestaande workflows en leveringen met Push Channel. Leer meer over [ Opstelling van het Kanaal 1&rbrace;.](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}
 >
 >* Merk op dat SDK V4 voor mobiele toepassingen [ werd verouderd in Campaign Standard ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} een paar jaar geleden. U had al moeten overstappen op Adobe Experience Platform SDK, wat hetzelfde is als in Campaign v8.
 > 

@@ -174,7 +174,7 @@ Naast de hierboven vermelde functies wordt deze release ook geleverd met een aan
 * [ Nieuwe SMS die schakelaar ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) verzenden (milieu&#39;s FDA)
 * [ Rest APIs ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (op bestelling, milieu&#39;s FDA)
 
-Verwijs naar de de versienota&#39;s van de Console van de Cliënt [ ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+Verwijs naar de de versienota&#39;s van de Console van de Cliënt [&#128279;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 <!--
 
