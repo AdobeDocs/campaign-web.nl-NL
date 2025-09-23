@@ -3,7 +3,7 @@ audience: end-user
 title: Aan de slag met inhoudsfragmenten
 description: Leer hoe u maakt met inhoudsfragmenten
 exl-id: d155d102-a5bc-4b9b-b29c-24fde4d95ceb
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -30,11 +30,11 @@ Er zijn twee typen fragmenten beschikbaar:
 
 * **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen beschikbaar van een specifieke ingang in de uitdrukkingsredacteur. De campagne omvat een reeks vooraf bepaalde inhoudsblokken die specifieke teruggaven bevatten u in uw leveringen kunt opnemen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. U kunt ook uw eigen expressiefragmenten maken die aan uw wensen voldoen.
 
-* **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige [ e-mailleveringen ](../email/get-started-email-designer.md), of in [ inhoudsmalplaatjes ](../email/use-email-templates.md) kunt hergebruiken.
+* **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige [ e-mailleveringen ](../email/get-started-email-designer.md), of in [ inhoudsmalplaatjes ](../content/use-email-templates.md) kunt hergebruiken.
 
   >[!AVAILABILITY]
   >
-  >Voor deze functie is een update van Campagne v8.6.4 vereist. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes).
+  >Voor deze functie is een update van Campagne v8.6.4 vereist. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
 ## Laten we dieper duiken
 

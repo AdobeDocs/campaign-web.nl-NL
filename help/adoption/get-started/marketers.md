@@ -4,7 +4,7 @@ description: Belangrijke functionaliteit van Campagne v8 ontdekken. Het is voor 
 role: User
 level: Beginner, Experienced
 exl-id: 514da15d-325b-4d28-9a58-50c1ae2e4925
-source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '2453'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Het belangrijkste verschil is in de gebruikersinterface. Onder een vergelijking 
 
 In de video hieronder, leer om tot het Web van de Campagne toegang te hebben en te navigeren gebruikersinterface en hoe te om de inventarislijsten aan te passen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453428?quality=12&learn=on&captions=dut){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
 
 Raadpleeg de onderstaande documentatie voor meer informatie:
 
@@ -54,11 +54,11 @@ In Adobe Campaign is een profiel een record die is opgeslagen in de database en 
 
 1. Leer om tot profielen toegang te hebben, te beheren en te onderzoeken gebruikend het Web van de Campagne gebruikersinterface in deze video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3448370?quality=12&learn=on&captions=dut){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
 
    Leer meer in [ worden begonnen met de documentatie van Profielen ](../../v8/audience/about-recipients.md).
 
-1. Leer om testprofielen [&#128279;](../../v8/audience/test-profiles.md) in Campagne v8 te creëren en te beheren.
+1. Leer om testprofielen [ in Campagne v8 te creëren en te beheren.](../../v8/audience/test-profiles.md)
 
 ### Soorten publiek beheren {#acs-gs-marketers-audiences}
 
@@ -66,7 +66,7 @@ Soorten publiek zijn groepen profielen met vergelijkbare gedragingen en/of kenme
 
 Leer om publiek te bouwen en te beheren, hoe te om publiek voor een levering te selecteren, en controlegroepen te bepalen, in deze video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3453208?quality=12&learn=on&captions=dut){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
 
 Verwijs naar [ worden begonnen met Soorten publiek ](../../v8/audience/manage-audience.md){target="_blank"} voor meer informatie.
 
@@ -89,27 +89,27 @@ U kunt uw services, zoals nieuwsbrieven, beheren en maken en de abonnementen op 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/audiences/work-with-services/manage-services">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services">
 <img alt="Onfrequent" src="assets/lp-list.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/audiences/work-with-services/manage-services"><strong> creeer de abonnementsdiensten </strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-services"><strong> creeer de abonnementsdiensten </strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers">
 <img alt="Onfrequent" src="assets/workflow-activities.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong> beheer abonnees <strong></strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/audiences/work-with-services/manage-subscribers"><strong> beheer abonnees <strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/send-to-subscribers">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-to-subscribers">
 <img alt="Validatie" src="assets/workflow-create.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/send-to-subscribers"><strong> verzendt berichten naar de abonnees van de dienst </strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-to-subscribers"><strong> verzendt berichten naar de abonnees van de dienst </strong></a>
 </div>
 <p>
 </td>
@@ -144,7 +144,7 @@ De werkschemagebruikersinterface is volledig opnieuw voorgesteld in het gebruike
 
 Begrijp hoe werkstromen werken en hoe te om een het richten werkschema in deze video tot stand te brengen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3453978?quality=12&learn=on&captions=dut){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
 
 Krijg meer details met de [ documentatie van de Werkstroom ](../../v8/workflows/gs-workflows.md).
 
@@ -194,13 +194,13 @@ Nuttige koppelingen:
 >
 >* Koppelingen bijhouden, URL-koppelingen van spiegelpagina&#39;s, abonnements- en niet-abonnementkoppelingen werken net als in Campaign Standard.
 >
->Zie ook de volgende secties: [ het Volgen en de Controle ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [ het Branding ](https://experienceleague.adobe.com/nl/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign.
+>Zie ook de volgende secties: [ het Volgen en de Controle ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking){target="_blank"}, [ het Branding ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/branding/branding-gs){target="_blank"} in Adobe Campaign.
 
 ### E-maillevering {#acs-gs-marketers-email}
 
 Leer hoe u een geheel nieuwe e-maillevering maakt, het publiek definieert, de inhoud ontwerpt, voorvertoning simuleert en een proefdruk van deze video verzendt:
 
->[!VIDEO](https://video.tv.adobe.com/v/3454011?quality=12&learn=on&captions=dut){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
 
 Leer hoe te om uw eerste gerichte e-mail in te creëren [ creeer uw eerste e-maildocumentatie ](../../v8/email/create-email.md)
 
@@ -208,27 +208,27 @@ In Campagne v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
 1. **Ontwerp en bepaal inhoud**
 
-   De Campagne v8 E-mailontwerper is vergelijkbaar met die in Campaign Standard. Als herinnering, Campaign Standard [ erfenis e-mailredacteur werd afgekeurd ](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} een paar jaar geleden. U had al moeten overstappen op Campagne-mail Designer om uw e-mailinhoud te maken en aan te passen.
+   De Campagne v8 E-mailontwerper is vergelijkbaar met die in Campaign Standard. Als herinnering, Campaign Standard [ erfenis e-mailredacteur werd afgekeurd ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} een paar jaar geleden. U had al moeten overstappen op Campagne-mail Designer om uw e-mailinhoud te maken en aan te passen.
 
    Begrijp hoe u door de Designer-e-mail kunt navigeren. In de volgende video ziet u hoe u een geheel nieuwe e-mail kunt structureren en ontwerpen, hoe u uw e-mail kunt personaliseren en testen:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3453571?quality=12&learn=on&captions=dut){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
 
    Met de e-mailtoepassing Designer kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve drag-and-drop interface. Leer meer in de [ documentatie van Designer E-mail ](../../v8/email/get-started-email-designer.md)
 
    Leer hoe u een e-mail kunt maken door HTML te uploaden, hoe u deze compatibel kunt maken met de e-mail-Designer en hoe u deze kunt converteren naar een sjabloon in deze video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3447038?quality=12&learn=on&captions=dut){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
 
    Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Leer meer over [ fragmenten van de Inhoud ](../../v8/content/fragments.md) om de verwezenlijking van uw e-maillevering te vereenvoudigen.
 
-   Voor een versneld en verbeterd ontwerpproces kunt u zelfstandige sjablonen maken om aangepaste inhoud in Adobe Campaign eenvoudig te hergebruiken. Zie [ E-mailmalplaatjes ](../../v8/email/create-email-templates.md) creëren
+   Voor een versneld en verbeterd ontwerpproces kunt u zelfstandige sjablonen maken om aangepaste inhoud in Adobe Campaign eenvoudig te hergebruiken. Zie [ E-mailmalplaatjes ](../../v8/content/create-email-templates.md) creëren
 
 1. **Voorproef en test**
 
    In deze video ziet u hoe u een voorbeeld kunt weergeven van de inhoud en de persoonlijke weergave van e-mailberichten, testleveringen (proefdrukken) kunt verzenden en de rendering van e-mailberichten kunt controleren bij populaire desktops, mobiele en webclients:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3450343?quality=12&learn=on&captions=dut){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
 
 1. **verzend e-mail en controlelogboeken**
 
@@ -247,27 +247,27 @@ In Campaign v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/sms/create-sms">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms">
 <img alt="Lood" src="assets/create_sms.png">
 </a>
-<div><a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/sms/create-sms"><strong> creeer een levering van SMS </strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/create-sms"><strong> creeer een levering van SMS </strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/sms/content-sms">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/content-sms">
 <img alt="Onfrequent" src="assets/design_sms.png">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/sms/content-sms"><strong> Ontwerp en levering van SMS <strong></strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/content-sms"><strong> Ontwerp en levering van SMS <strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/sms/send-sms">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/send-sms">
 <img alt="Validatie" src="assets/send_sms.png">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/sms/send-sms"><strong> Voorproef en verzend een levering van SMS </strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/sms/send-sms"><strong> Voorproef en verzend een levering van SMS </strong></a>
 </div>
 <p>
 </td>
@@ -282,36 +282,36 @@ In Campaign v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/push/create-push">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/create-push">
 <img alt="Lood" src="assets/push_create.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/push/create-push"><strong> creeer een duplevering </strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/create-push"><strong> creeer een duplevering </strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/push/content-push">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/content-push">
 <img alt="Onfrequent" src="assets/push_design.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/push/content-push"><strong> Ontwerp een duplevering <strong></strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/content-push"><strong> Ontwerp een duplevering <strong></strong></a>
 </div>
 <p></td>
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/push/send-push">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/send-push">
 <img alt="Validatie" src="assets/push_send.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/msg/push/send-push"><strong> Voorproef en verzend een duwlevering </strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/push/send-push"><strong> Voorproef en verzend een duwlevering </strong></a>
 </div>
 <p>
 </tr></table>
 
 >[!AVAILABILITY]
 >
->* Adobe Campaign v8 ondersteunt zowel Android als iOS Push Channel. Maak verbinding met uw Adobe Campaign Transition Manager voor het overstappen van bestaande workflows en leveringen met Push Channel. Leer meer over [ Opstelling van het Kanaal 1&rbrace;.](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}
+>* Adobe Campaign v8 ondersteunt zowel Android als iOS Push Channel. Maak verbinding met uw Adobe Campaign Transition Manager voor het overstappen van bestaande workflows en leveringen met Push Channel. Leer meer over [ Opstelling van het Kanaal 1}.](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}
 >
->* Merk op dat SDK V4 voor mobiele toepassingen [ werd verouderd in Campaign Standard ](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} een paar jaar geleden. U had al moeten overstappen op Adobe Experience Platform SDK, wat hetzelfde is als in Campaign v8.
+>* Merk op dat SDK V4 voor mobiele toepassingen [ werd verouderd in Campaign Standard ](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features#deprecated-features){target="_blank"} een paar jaar geleden. U had al moeten overstappen op Adobe Experience Platform SDK, wat hetzelfde is als in Campaign v8.
 > 
 
 ### Direct mail {#acs-gs-marketers-direct-mail}
@@ -339,28 +339,28 @@ Meer informatie over bestemmingspagina&#39;s vindt u in de volgende secties:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/create-lp">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp">
 <img alt="Lood" src="assets/lp-subscription.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/create-lp"><strong> creeer het landen pagina's </strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/create-lp"><strong> creeer het landen pagina's </strong>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/lp-content">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content">
 <img alt="Validatie" src="assets/lp-design.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/lp-content"><strong> Ontwerpen die pagina's </strong></a> landen
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-content"><strong> Ontwerpen die pagina's </strong></a> landen
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/lp-templates">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates">
 <img alt="Validatie" src="assets/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/landing-pages/lp-templates"><strong> Werk met het landen paginasjablonen </strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates"><strong> Werk met het landen paginasjablonen </strong></a>
 </div>
 <p>
 </td>
@@ -369,15 +369,15 @@ Meer informatie over bestemmingspagina&#39;s vindt u in de volgende secties:
 
 ## Rapportage {#acs-gs-marketers-reporting}
 
-Adobe Campaign verstrekt een reeks [ rapporteringshulpmiddelen ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}. Als beheerder, kunt u rapporten tot stand brengen en vormen om met andere gebruikers van de Campagne te delen.
+Adobe Campaign verstrekt een reeks [ rapporteringshulpmiddelen ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/gs-reporting){target="_blank"}. Als beheerder, kunt u rapporten tot stand brengen en vormen om met andere gebruikers van de Campagne te delen.
 
 De Adobe Campaign-suite met rapportagetools biedt waardevolle inzichten in de effectiviteit van uw marketingactiviteiten, zodat u uw campagnes kunt optimaliseren voor maximale impact. Leer meer in de [ Rapporterende documentatie ](../../v8/reporting/gs-reports.md).
 
-Bovendien is, in overeenstemming met de ervaring van Adobe Campaign Standard, de Dynamic Reporting beschikbaar voor u in Campagne v8, voor uw e-mailleveringen. Het verstrekt volledig klantgerichte en real-time rapporten om de invloed van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Leer meer in de [ Dynamische het melden documentatie ](https://experienceleague.adobe.com/nl/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+Bovendien is, in overeenstemming met de ervaring van Adobe Campaign Standard, de Dynamic Reporting beschikbaar voor u in Campagne v8, voor uw e-mailleveringen. Het verstrekt volledig klantgerichte en real-time rapporten om de invloed van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Leer meer in de [ Dynamische het melden documentatie ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
 
 >[!AVAILABILITY]
 >
->* [ Dynamische rapportering ](https://experienceleague.adobe.com/nl/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} kan voor het melden van e-mailleveringen, campagne met e-mailleveringen en transactionele berichten worden gebruikt. Er is ook demografische analyse per profieldimensie beschikbaar.
+>* [ Dynamische rapportering ](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"} kan voor het melden van e-mailleveringen, campagne met e-mailleveringen en transactionele berichten worden gebruikt. Er is ook demografische analyse per profieldimensie beschikbaar.
 >
 > * [ het gebruikersinterface melden van het Web van Adobe Campaign ](../../v8/reporting/campaign-reports.md) is ook beschikbaar voor alle gebruikersovergang van Adobe Campaign Standard aan Adobe Campaign v8.
 
@@ -385,11 +385,11 @@ Adobe Campaign biedt drie verschillende rapporten:
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports">
 <img alt="Validatie" src="./assets/campaign_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong> de rapporten van de Campagne </strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/campaign-report/campaign-reports"><strong> de rapporten van de Campagne </strong></a>
 </div>
 <p>
 <div>
@@ -398,10 +398,10 @@ Adobe Campaign biedt drie verschillende rapporten:
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports">
 <img alt="Lood" src="assets/email_report.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>Leveringsrapporten</strong>
+<div><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/delivery-report/delivery-reports"><strong>Leveringsrapporten</strong>
 </div>
 <p>
 <div>
@@ -410,11 +410,11 @@ Adobe Campaign biedt drie verschillende rapporten:
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/reports/global-report/global-reports">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports">
 <img alt="Algemene rapporten" src="assets/push_report.jpeg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/reports/global-report/global-reports"><strong> Algemene rapporten </strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/global-report/global-reports"><strong> Algemene rapporten </strong></a>
 </div>
 <p>
 <div>

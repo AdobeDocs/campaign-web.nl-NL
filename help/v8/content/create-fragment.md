@@ -3,7 +3,7 @@ audience: end-user
 title: Inhoudsfragmenten maken
 description: Leer hoe u inhoudsfragmenten maakt
 exl-id: 8f37e9e6-3085-4a68-9746-8ca34cfa4242
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Voer de onderstaande stappen uit om een volledig nieuw inhoudsfragment te maken.
 
    >[!AVAILABILITY]
    >
-   >Visuele fragmenten moeten worden bijgewerkt naar Campagne v8.6.4. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes).
+   >Visuele fragmenten moeten worden bijgewerkt naar Campagne v8.6.4. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
 1. Klik **creeer** knoop.
 
@@ -70,7 +70,7 @@ Voer de onderstaande stappen uit om een volledig nieuw inhoudsfragment te maken.
 
 1. Zodra de inhoud klaar is, klik **sparen**.
 
-Het inhoudsfragment is nu klaar om te worden gebruikt wanneer het bouwen van om het even welke levering of [ inhoudsmalplaatje ](../email/use-email-templates.md) binnen Campagne. Leer hoe u visuele fragmenten en expressiefragmenten in deze secties kunt gebruiken:
+Het inhoudsfragment is nu klaar om te worden gebruikt wanneer het bouwen van om het even welke levering of [ inhoudsmalplaatje ](../content/use-email-templates.md) binnen Campagne. Leer hoe u visuele fragmenten en expressiefragmenten in deze secties kunt gebruiken:
 * [Visuele fragmenten toevoegen aan uw e-mails](use-visual-fragments.md)
 * [Expressiefragmenten toevoegen aan de expressie-editor](use-expression-fragments.md)
 
@@ -83,7 +83,7 @@ Het inhoudsfragment is nu klaar om te worden gebruikt wanneer het bouwen van om 
 
 <!--pas vu dans l'UI-->
 
-Alle e-mailinhoud kan worden opgeslagen als een visueel fragment dat u later opnieuw kunt gebruiken. Wanneer het ontwerpen van a [ inhoudsmalplaatje ](../email/use-email-templates.md) of een [ e-mail ](../email/get-started-email-designer.md) levering, sparen een gedeelte van de inhoud als visueel fragment. Hiervoor voert u de volgende stappen uit:
+Alle e-mailinhoud kan worden opgeslagen als een visueel fragment dat u later opnieuw kunt gebruiken. Wanneer het ontwerpen van a [ inhoudsmalplaatje ](../content/use-email-templates.md) of een [ e-mail ](../email/get-started-email-designer.md) levering, sparen een gedeelte van de inhoud als visueel fragment. Hiervoor voert u de volgende stappen uit:
 
 1. In [ E-mail Designer ](../email/get-started-email-designer.md), klik **Meer** knoop bij het hoogste recht van het scherm.
 
@@ -103,7 +103,7 @@ Alle e-mailinhoud kan worden opgeslagen als een visueel fragment dat u later opn
 
    ![ sparen bevestigingsscherm voor visuele fragmenten ](assets/fragment-save-confirm.png)
 
-   Deze inhoud is nu een standalone fragment, dat aan de [ fragmentlijst ](#manage-fragments) wordt toegevoegd, en toegankelijk van het specifieke menu. Gebruik dit fragment wanneer het bouwen van om het even welk [ e-mail ](../email/get-started-email-designer.md) of [ inhoudsmalplaatje ](../email/use-email-templates.md) binnen Campagne. [ leer hoe ](../content/use-visual-fragments.md)
+   Deze inhoud is nu een standalone fragment, dat aan de [ fragmentlijst ](#manage-fragments) wordt toegevoegd, en toegankelijk van het specifieke menu. Gebruik dit fragment wanneer het bouwen van om het even welk [ e-mail ](../email/get-started-email-designer.md) of [ inhoudsmalplaatje ](../content/use-email-templates.md) binnen Campagne. [ leer hoe ](../content/use-visual-fragments.md)
 
 >[!NOTE]
 >

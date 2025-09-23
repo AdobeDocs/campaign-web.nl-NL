@@ -7,7 +7,7 @@ hide: true
 robots: noindex
 googlebot: noindex
 exl-id: 0908c827-aa91-469f-824b-8e3de543876d
-source-git-commit: 19a7540af7502709b7eafdace038b5958e077173
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 1%
@@ -76,7 +76,7 @@ De **sectie van de Instantie** verstrekt zeer belangrijke informatie over uw con
 
 Zowel versie als bouwstijlaantallen zijn essentieel voor het oplossen van problemen, aangezien zij helpen de eigenschappen en de moeilijke situaties bepalen huidig in uw milieu.
 
-De **sectie van het Web** &lbrace;toont de versie van uw gebruikersinterface van het Web van de Campagne, samen met de laatste updatedatum, als beschikbaar. Dit helpt veranderingen of verbeteringen volgen die aan het de gebruikersinterface van het Web van de Campagne worden aangebracht.
+De **sectie van het Web** {toont de versie van uw gebruikersinterface van het Web van de Campagne, samen met de laatste updatedatum, als beschikbaar. Dit helpt veranderingen of verbeteringen volgen die aan het de gebruikersinterface van het Web van de Campagne worden aangebracht.
 
 De **Geïnstalleerde pakketten** sectie maakt een lijst van alle modules, eigenschappen, en integratie die op uw instantie aanwezig zijn. Deze pakketten breiden de Adobe Campaign-functionaliteit uit, waardoor gespecialiseerde taken mogelijk zijn, zoals integratie met andere Adobe-oplossingen of ondersteuning voor specifieke workflows. Gezien het grote aantal pakketten, kunt u binnen deze sectie zoeken om snel te controleren of een bepaalde module op uw instantie geïnstalleerd is.
 
@@ -99,11 +99,11 @@ De punten die in **worden getoond Verkenner** hangen van uw gebruikerstoestemmin
 
 U kunt kolommen vormen om de vertoning aan te passen om alle informatie te bekijken u wenst. Zie deze [ sectie ](#list-screens). U kunt omslagen en sub-omslagen, zoals die in [ worden gedetailleerd ook toevoegen deze sectie ](permissions.md#folders).
 
-Voor meer informatie over de ontdekkingsreiziger van de Campagne, omslaghiërarchie, en middelen, verwijs naar deze [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=nl-NL#ac-explorer-ui){target="_blank"}.
+Voor meer informatie over de ontdekkingsreiziger van de Campagne, omslaghiërarchie, en middelen, verwijs naar deze [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
 
 ### Campagnebeheer {#user-interface-campaign-management}
 
-In de **sectie van het beheer van de Campagne 0&rbrace; &lbrace;, kunt u tot marketing campagnes, leveringen, en werkschema&#39;s toegang hebben.**
+In de **sectie van het beheer van de Campagne 0} {, kunt u tot marketing campagnes, leveringen, en werkschema&#39;s toegang hebben.**
 
 * **Campagnes** - dit is de lijst van uw campagnes en campagnemalplaatjes. Standaard kunt u voor elke campagne de begin-, eind-, aanmaak- en laatste wijzigingsdatums, de huidige status en de naam weergeven van de Campagneoperator die deze heeft gemaakt. U kunt de lijst filteren op status, begin-/einddatums, map of een geavanceerd filter maken om uw eigen filtercriteria te definiëren. Leer meer over campagnes [ in deze sectie ](../campaigns/gs-campaigns.md).
 
@@ -119,7 +119,7 @@ In de **sectie van het beheer van de Campagne 0&rbrace; &lbrace;, kunt u tot mar
 
 In de **sectie van het beheer van de Inhoud**, kunt u uw inhoudsmalplaatjes en fragmenten bekijken.
 
-* **malplaatjes van de Inhoud** - voor een versneld en verbeterd ontwerpproces, kunt u standalone malplaatjes tot stand brengen om douaneinhoud over [!DNL Adobe Campaign] gemakkelijk te hergebruiken. Alleen beschikbaar voor e-mails. Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan zelfstandige sjablonen werken, zodat marketinggebruikers deze opnieuw kunnen gebruiken en aanpassen in hun eigen e-mailcampagnes. Lees meer in [deze sectie](../email/create-email-templates.md).
+* **malplaatjes van de Inhoud** - voor een versneld en verbeterd ontwerpproces, kunt u standalone malplaatjes tot stand brengen om douaneinhoud over [!DNL Adobe Campaign] gemakkelijk te hergebruiken. Alleen beschikbaar voor e-mails. Met deze functionaliteit kunnen gebruikers die op inhoud zijn gericht, aan zelfstandige sjablonen werken, zodat marketinggebruikers deze opnieuw kunnen gebruiken en aanpassen in hun eigen e-mailcampagnes. Lees meer in [deze sectie](../content/create-email-templates.md).
 
 * **Fragmenten** - een fragment is een herbruikbare component die in één of meerdere leveringen over campagnes kan worden van verwijzingen voorzien. Wanneer u een fragment wijzigt, wordt alle inhoud die het fragment gebruikt, bijgewerkt. [ Leer hoe te met fragmenten ](../content/fragments.md) te werken.
 
@@ -131,7 +131,7 @@ In de **het beheersings** sectie van de Klant, kunt u uw profielen, publiek, en 
 
 * **Profielen** - creeer en beheer profielen, en toegang tot uw ontvankelijk gegevensbestand. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Leer meer over profielen in [ deze sectie ](../audience/about-recipients.md).
 * **Soorten publiek** - dit is uw lijst van publiek. Standaard kunt u het type, de oorsprong, het maken, de laatste wijzigingsdatums en het label weergeven. U kunt de lijst filteren op oorsprong. Leer meer over publiek en lijsten in [ deze sectie ](../audience/about-recipients.md).
-* **de diensten van het Abonnement** - doorblader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Leer hoe te om abonnementen en abonnementen in [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=nl-NL){target="_blank"} te beheren.
+* **de diensten van het Abonnement** - doorblader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Leer hoe te om abonnementen en abonnementen in [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"} te beheren.
 * **Vooraf bepaalde filters** - de Vooraf bepaalde filters zijn douanefilters die worden gecreeerd en worden bewaard om voor toekomstig gebruik beschikbaar te zijn. Zij kunnen als kortere weg tijdens om het even welke het filtreren verrichtingen met de vraagmodelleeraar, bijvoorbeeld, worden gebruikt wanneer het filtreren van een lijst van gegevens of het creëren van het publiek van een levering. Lees meer in [deze sectie](predefined-filters.md).
 
 ### Beslissingsbeheer {#decision-management}
@@ -140,11 +140,11 @@ In de **het beheersings** sectie van de Klant, kunt u uw profielen, publiek, en 
 >id="acw_offers_list"
 >title="Aanbiedingen"
 >abstract="Blader door de lijsten van aanbiedingen en aanbiedingsmalplaatjes die in de console gebruikend de **module van de Interactie** zijn gecreeerd. Deze lijsten zijn alleen-lezen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=nl-NL" text="Aanbiedingen toevoegen aan een levering"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Aanbiedingen toevoegen aan een levering"
 
 In de **sectie van het Beheer van het Besluit**, kunt u de aanbiedingen bekijken en malplaatjes aanbieden. Deze lijsten zijn alleen-lezen.
 
-* **Aanbiedingen** - doorblader door de lijst van aanbiedingen en aanbiedingsmalplaatjes die in de console worden gecreeerd gebruikend de **3&rbrace; module van de Interactie &lbrace;.** Standaard kunt u hun status, begin- en einddatum en omgeving weergeven. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar.
+* **Aanbiedingen** - doorblader door de lijst van aanbiedingen en aanbiedingsmalplaatjes die in de console worden gecreeerd gebruikend de **3} module van de Interactie {.** Standaard kunt u hun status, begin- en einddatum en omgeving weergeven. U kunt de lijst filteren op status en begin- en einddatum. Aanbiedingssjablonen zijn ook beschikbaar.
 
 Leer om aanbiedingen in e-mail en SMS in [ tot stand te brengen en te verzenden deze sectie ](../msg/offers.md).
 

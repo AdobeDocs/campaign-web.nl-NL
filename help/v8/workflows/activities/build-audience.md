@@ -3,9 +3,9 @@ audience: end-user
 title: De workflowactiviteit voor het publiek van Build gebruiken
 description: Leer hoe u de workflowactiviteit voor het publiek van Build gebruikt
 exl-id: c07bb025-51b7-428e-ba00-cd552f0db9d4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '454'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,8 @@ Volg deze stappen om **te vormen bouwen publiek** activiteit:
 Voer de volgende stappen uit om uw eigen query te maken:
 
 1. Selecteer **creeer uw (vraag)**.
-1. Kies de **het richten afmeting**. Met de doeldimensie kunt u de doelgroep voor de bewerking definiëren, zoals ontvangers, begunstigden van contracten, exploitanten of abonnees. Standaard is het doel geselecteerd bij de ontvangers. [ leer meer over het richten van dimensies ](../../audience/about-recipients.md#targeting-dimensions)
+1. Kies de **het richten afmeting**. Met de doeldimensie kunt u de doelgroep voor de bewerking definiëren, zoals ontvangers, begunstigden van contracten, exploitanten of abonnees. Standaard is het doel geselecteerd bij de ontvangers. [ leer meer over het richten van dimensies ](../../audience/targeting-dimensions.md#targeting)
+1. Kies de **Filtrerende afmeting** door het pictogram naast de het richten afmeting te klikken. De het filtreren dimensie staat u toe om filters op de gerichte bevolking toe te passen door verwante criteria van verwijzingen te voorzien zonder de belangrijkste het richten dimensie te veranderen. [ leer meer over het richten van dimensies ](../../audience/targeting-dimensions.md#filtering)
 1. Klik **verdergaan**.
 1. Gebruik de vraagmodeler om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
 

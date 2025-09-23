@@ -5,9 +5,9 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 94098841096c06894a5bfed4cbc8ea58b60b96d7
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '929'
 ht-degree: 20%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 20%
    + Bellen {#call-center}
       + [Ga aan de slag met de levering van callcenters](call-center/gs-call-center.md)
       + [Creeer en verzend een levering van het vraagcentrum](call-center/create-call-center.md)
-   + [Aangepast extern kanaal](call-center/gs-custom-channel.md)
+   + [Aangepaste kanalen](call-center/gs-custom-channel.md)
    + Transactionele berichten {#transactional-messages}
       + [Aan de slag met transactieberichten](transactional-messaging/transactional.md)
       + [Een transactiebericht maken](transactional-messaging/create-transactional.md)
@@ -96,7 +96,10 @@ ht-degree: 20%
       + [Aanpassing toevoegen](personalization/personalize.md)
       + [Voorwaardelijke inhoud maken](personalization/conditions.md)
    + Inhoud opnieuw gebruiken {#manage-reusable-content}
-      + [Werken met inhoudssjablonen](email/create-email-templates.md)
+      + Contentsjablonen {#content-templates}
+         + [Werken met inhoudssjablonen](content/create-email-templates.md)
+         + [Sjablonen voor e-mailinhoud gebruiken](content/use-email-templates.md)
+         + [Inhoud in e-mailsjablonen vergrendelen](content/content-locking.md)
       + Inhoudsfragmenten {#fragments}
          + [Aan de slag met inhoudsfragmenten](content/fragments.md)
          + [Inhoudsfragmenten maken en bewerken](content/create-fragment.md)
@@ -108,7 +111,6 @@ ht-degree: 20%
          + [Opnieuw starten](email/create-email-content.md)
          + [Uw e-mailinhoud importeren](email/existing-content.md)
          + [Uw eigen inhoud coderen](email/code-content.md)
-         + [Sjablonen voor e-mailinhoud gebruiken](email/use-email-templates.md)
       + Uw inhoud ontwerpen {#design-content}
          + [Inhoudscomponenten gebruiken](email/content-components.md)
          + [Koppelingen toevoegen en berichten bijhouden](email/message-tracking.md)
@@ -273,7 +275,13 @@ ht-degree: 20%
    + [Werken met schema&#39;s](administration/schemas.md)
    + [Aangepaste velden configureren](administration/custom-fields.md)
    + [Vorm  [!DNL Campaign]  opties](administration/options.md)
-   + [Externe accounts configureren](administration/external-account.md)
+   + Externe accounts {#external-accounts}
+      + [Externe accounts maken](administration/create-external-account.md)
+      + [Integratie van Adobe-oplossingen](administration/integration-external-account.md)
+      + [Campagnespecifiek](administration/external-account.md)
+      + [Externe database](administration/external-account-database.md)
+      + [Hadoop](administration/external-hadoop.md)
+      + [Overdrachtsgegevens](administration/transfer-external-account.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

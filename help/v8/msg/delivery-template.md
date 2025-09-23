@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: cd3d4c2d-7bb2-4574-aeb8-6aac0683ec59
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ Een sjabloon bevat:
 
 >[!NOTE]
 >
->De malplaatjes van de levering verschillen van [ inhoudsmalplaatjes ](../email/create-email-templates.md), die u toestaan om slechts de inhoud van uw e-mail te hergebruiken en beginnen inhoud met één van de steekproef e-mailmalplaatjes te bouwen die uit-van-de-doos worden verstrekt.
+>De malplaatjes van de levering verschillen van [ inhoudsmalplaatjes ](../content/create-email-templates.md), die u toestaan om slechts de inhoud van uw e-mail te hergebruiken en beginnen inhoud met één van de steekproef e-mailmalplaatjes te bouwen die uit-van-de-doos worden verstrekt.
 
 ## Leveringssjablonen openen en beheren {#access-manage-templates}
 

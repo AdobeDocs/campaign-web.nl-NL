@@ -4,9 +4,9 @@ description: Hier vindt u veelgestelde vragen over dynamische rapportage.
 audience: end-user
 level: Intermediate
 exl-id: a58fc8fd-e510-45ef-8fe9-c75ff4498113
-source-git-commit: fb5bcde9c087f73bfe5724463fe280c1e494ef1f
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1222'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # Problemen oplossen{#troubleshooting}
 
 In deze sectie vindt u algemene vragen met betrekking tot dynamische rapportage.
+
+## In welke talen zijn dynamische rapporten beschikbaar? {#langages}
+
+Momenteel is dynamische rapportage alleen beschikbaar in het Engels.
 
 ## Voor Unieke open en Unieke kliks, komt de telling in de gezamenlijke rij niet degenen in individuele rijen overeen {#unique-open-clicks-no-match}
 

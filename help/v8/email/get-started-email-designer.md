@@ -3,7 +3,7 @@ audience: end-user
 title: De e-mailinhoud bewerken
 description: Leer hoe u inhoud gaat maken met de gebruikersinterface E-mail Designer in Campagne Web
 exl-id: a5b966bb-09da-4a50-98d4-010fdfbb75cf
-source-git-commit: d7fc756b2e1d94b43c76ced748e1bf7c7ae5da0d
+source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 2%
@@ -45,6 +45,6 @@ Van het dashboard van de e-maillevering, ga door [ inhoud ](edit-content.md) sch
 
 * **voer bestaande inhoud van HTML** van een dossier of een .zip omslag in. Leer hoe te om e-mailinhoud in [ deze sectie ](existing-content.md) in te voeren.
 
-* **selecteer een bestaande inhoud** van een lijst van ingebouwde of douanesjablonen. Leer hoe te met e-mailmalplaatjes in [ deze sectie ](create-email-templates.md) te werken.
+* **selecteer een bestaande inhoud** van een lijst van ingebouwde of douanesjablonen. Leer hoe te met e-mailmalplaatjes in [ deze sectie ](../content/create-email-templates.md) te werken.
 
   ![ Opties beschikbaar in de interface E-mail van Designer voor het creëren van e-mailinhoud ](assets/email_designer_create_options.png){zoomable="yes"}
