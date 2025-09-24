@@ -1,14 +1,21 @@
 ---
 title: Externe account beheren
 description: Leer hoe u externe accounts kunt configureren
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+exl-id: 52b4ec99-4f55-4e0b-8a54-b25058d97b02
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 2%
+source-wordcount: '223'
+ht-degree: 1%
 
 ---
 
 # Een externe account maken {#create-external-account}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn2"
+>title="Authoring externe account"
+>abstract="Als beheerder van de Campagne, kunt u opstelling nieuwe verbindingen met externe systemen van het gebruikersinterface van het Web van de Campagne nu. U kunt ook bestaande externe accounts weergeven, bijwerken en beheren."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 Volg de onderstaande stappen om een nieuwe externe account te maken. De specifieke configuratie-instellingen zijn afhankelijk van het type externe account dat u maakt.
 

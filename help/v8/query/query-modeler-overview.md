@@ -3,20 +3,14 @@ audience: end-user
 title: Werken met de querymodelfunctie
 description: Leer hoe u met Adobe Campaign Web query modeler werkt.
 exl-id: 56708a66-f654-413a-80ed-1865077b3c0a
-source-git-commit: dfe670447ed3f1e09191460e8ac6aceee9035bb2
+source-git-commit: 1a5f49cfdf56a21faedcef3029b62b88ebd81c8d
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Werken met de querymodelfunctie {#segment-builder}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn1"
->title="Nieuwe regelbouwer"
->abstract="Een nieuwe regelbouwer is nu beschikbaar om u te helpen complexe voorwaarden in een verbeterde gebruikersinterface bepalen. U kunt van oud naar de nieuwe regelbouwer schakelen zoals nodig."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card5"
@@ -63,7 +57,7 @@ De vraagmodeler verstrekt een centraal canvas waar u uw vraag en een juiste ruit
 >[!IMPORTANT]
 >
 >Er is een gloednieuwe interface beschikbaar voor het Query-model. De Nieuwe regelbouwer staat u toe om uw vraag met meer gemak dankzij zijn vereenvoudigde interface te bouwen. Druk op de schakelknop in de rechterbovenhoek om naar deze ervaring over te schakelen. U kunt naar de klassieke modelleerling van de Vraag terugkeren wanneer u wilt door eenvoudig de knevel terug te duwen om de nieuwe interface onbruikbaar te maken. U kunt de zelfde principes toepassen zoals vraagmodeler in deze nieuwe interface.
->&#x200B;>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
+>>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
