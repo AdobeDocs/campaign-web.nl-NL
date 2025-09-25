@@ -216,7 +216,7 @@ Leer lidmaatschappen instellen en beheren en leden targeten.
 
 >[!VIDEO](https://video.tv.adobe.com/v/334305?quality=12&learn=on){transcript=true}
 
-* Zie de documentatie van het gebruikersinterface van het Web van de abonnementsdiensten [ ](../../v8/audience/manage-subscribers.md).
+* Zie de documentatie van het gebruikersinterface van het Web van de abonnementsdiensten [&#128279;](../../v8/audience/manage-subscribers.md).
 
 * Zie ook de documentatie om de abonnementendiensten in de cliëntconsole in [ te plaatsen deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/subscriptions){target="_blank"}.
 
