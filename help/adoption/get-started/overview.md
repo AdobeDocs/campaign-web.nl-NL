@@ -4,9 +4,9 @@ description: Meer informatie over de stappen die nodig zijn om aan de slag te ga
 role: User, Admin, Developer
 level: Beginner
 exl-id: 39d1f1b6-626b-48a2-92c3-9b593a377d66
-source-git-commit: 5f7fe214c1c89b1ee25cea6d512bd1a55b5522ec
+source-git-commit: 2093338e3ba9f31954561171029ec0f7336c73c4
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1553'
 ht-degree: 1%
 
 ---
@@ -111,13 +111,13 @@ Als Campaign Standard-gebruiker die overschakelt naar Adobe Campaign v8, beschik
 
   De eenvoud en het gemak van het gebruik van SMS maken het een zeer waardevol communicatiekanaal naast zijn robuustheid en ongeëvenaarde verenigbaarheid over miljarden terminals.
 
-  Adobe Campaign v8 wordt geleverd met een nieuwe infrastructuur die de verzending van SMS verbetert. [ leer meer over nieuwe montages van SMS ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+  Adobe Campaign v8 wordt geleverd met een nieuwe infrastructuur die de verzending van SMS verbetert. [ leer meer over nieuwe montages van SMS ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **Verbeterde infrastructuur van de Duw**
 
   Adobe Campaign v8 introduceert onze nieuwste Push notification service, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken.
 
-  [ Leer meer over de Verbeterde infrastructuur van de Duw ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [ Leer meer over de Verbeterde infrastructuur van de Duw ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 
 
 ## Managed Services {#ac-managed-services}
@@ -126,13 +126,13 @@ Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service die proactief to
 
 ## Campaign Standard-mogelijkheden toegevoegd aan v8 {#ac-v8-added}
 
-Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Zij zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL){target="_blank"}.
+Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Zij zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
 
-* **Dynamische Rapportering**: De dynamische Rapportering verstrekt volledig klantgerichte en real time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=nl-NL){target="_blank"}.
+* **Dynamische Rapportering**: De dynamische Rapportering verstrekt volledig klantgerichte en real time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
 
-* **Gecentraliseerde branding**: Elk bedrijf heeft merk visuele en technische richtlijnen. Met Adobe Campaign kunt u een reeks specificaties definiëren om uw klanten een consistent merk te bieden, van logo&#39;s tot technische aspecten, zoals e-mailzender, URL of domeinen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=nl-NL)
+* **Gecentraliseerde branding**: Elk bedrijf heeft merk visuele en technische richtlijnen. Met Adobe Campaign kunt u een reeks specificaties definiëren om uw klanten een consistent merk te bieden, van logo&#39;s tot technische aspecten, zoals e-mailzender, URL of domeinen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
 
-* **Rest APIs** - als Gegigreerde gebruiker van de Stard van de Campagne, kunt u Rest APIs gebruiken om integratie voor Adobe Campaign tot stand te brengen en uw eigen ecosysteem te bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=nl-NL){target="_blank"}.
+* **Rest APIs** - als Gegigreerde gebruiker van de Stard van de Campagne, kunt u Rest APIs gebruiken om integratie voor Adobe Campaign tot stand te brengen en uw eigen ecosysteem te bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
 
 * **het Aanvoeren pagina&#39;s** - Sommige verbeteringen zijn gebracht aan het Aanvoeren van de Campagne v8 pagina&#39;s om eigenschappariteit met Campaign Standard te verzekeren. Leer meer in de [ versienota&#39;s ](../../v8/rn/release-notes.md#new-24-4) en de het landen pagina [ documentatie ](../../v8/landing-pages/get-started-lp.md).
 
@@ -141,8 +141,6 @@ Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste Campaign Stan
 ## Belangrijkste verschillen tussen Campaign Standard en Campagne v8 {#experiences}
 
 De meeste concepten zijn vergelijkbaar tussen Adobe Campaign v8 en Adobe Campaign Standard. Er zijn echter enkele verschillen, zoals hieronder beschreven.
-
-### Wijzigingen in terminologie {#terminology-changes}
 
 Hieronder ziet u enkele terminologische verschillen tussen Campaign Standard en Campaign v8.
 
@@ -160,6 +158,7 @@ Houd er als bestaande campagnegebruiker ook rekening mee dat de naam van sommige
 * De analyse van de levering is nu de **leveringsvoorbereiding**. Wanneer u de berichtvoorbereiding moet lanceren, klik **voorbereidingen treffen** knoop. [Meer informatie](../../v8/monitor/prepare-send.md).
 * De e-mailVoorproef is nu beschikbaar door de **Simulate inhoud** knoop. [Meer informatie](../../v8/preview-test/preview-test.md)
 * De lijsten zijn nu **Soorten publiek**. [Meer informatie](../../v8/audience/gs-audiences-recipients.md).
+
 
 ## Nieuwe gebruikerservaring
 
@@ -229,4 +228,4 @@ Toegang tot de relevante naslaggids voor uw rol om de nieuwe gebruikerservaring 
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
