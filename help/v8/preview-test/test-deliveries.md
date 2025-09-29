@@ -3,9 +3,9 @@ audience: end-user
 title: Proefdrukken verzenden
 description: Meer informatie over het definiëren en verzenden van proefdrukken
 exl-id: b2677579-c95d-443d-b207-466af364c208
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: fc794f4eceaed7ca5f49ef8add8e9da8306b6a69
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 >id="acw_email_preview_mode"
 >title="Voorvertoningsmodus"
 >abstract="Geef een voorvertoning van het bericht weer en test het bericht door de testpopulatie op te nemen in het hoofddoel."
+
+>[!CONTEXTUALHELP]
+>id="acw_deliveries_additional_proof_target"
+>title="Aanvullend proefdrukdoel"
+>abstract="Extra proefdrukdoel."
 
 Nadat de inhoud van uw bericht is gedefinieerd, kunt u deze voorvertonen en testen door proefdrukken naar testprofielen te verzenden. Als u gepersonaliseerde inhoud hebt ingevoegd, kunt u met behulp van testprofielgegevens controleren hoe deze inhoud in het bericht wordt weergegeven.
 
@@ -44,7 +49,7 @@ Uw berichtinhoud testen:
 
    * Voor SMS en e-mails, kunt u [ testprofielen ](#test-profiles) gebruiken, die specifieke extra ontvangers in het gegevensbestand zijn. U kunt de [ substitutie van belangrijkste doel ](#substitution-profiles) wijze ook gebruiken, die de proef naar een e-mailtestadres of een telefoonaantal verzendt, en verpersoonlijkingsgegevens van een bestaand profiel gebruikt. Op deze manier kunt u het bericht net zo ervaren als de ontvangers, zodat u een nauwkeurige weergave krijgt van de inhoud die het profiel zal ontvangen.
 
-   * Voor duw berichten, kunt u [ abonnees ](#subscribers) gebruiken, die fictieve abonnees zijn die aan het gegevensbestand worden toegevoegd. Ze worden gemaakt in de [!DNL Campaign] -console. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html?lang=nl-NL){target="_blank"}
+   * Voor duw berichten, kunt u [ abonnees ](#subscribers) gebruiken, die fictieve abonnees zijn die aan het gegevensbestand worden toegevoegd. Ze worden gemaakt in de [!DNL Campaign] -console. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/test-profiles.html){target="_blank"}
 
    De gedetailleerde configuratie voor elke wijze is beschikbaar hieronder.
 
