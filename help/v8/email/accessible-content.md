@@ -6,7 +6,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: e-mail, ontwerp, toegankelijkheid
-source-git-commit: b271ae6ade10fae32253768029dee109b24fd4e1
+exl-id: ddfa989b-8a30-4912-bed6-cc1ee7fa2eaa
+source-git-commit: 82128a2d628a44e2718a9a1d2f848584140d5532
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 0%
@@ -24,10 +25,7 @@ Deze verordening bepaalt dat alle digitale communicatie, inclusief e-mails, nieu
 In lijn hiermee worden de aanbevolen procedures voor het ontwerpen van toegankelijke inhoud met [!DNL Adobe Campaign] hieronder weergegeven.
 
 Deze pagina gaat over het toegankelijk maken van uw inhoud voor al uw ontvangers, zodat mensen met een handicap uw e-mails en landingspagina&#39;s die zijn ontworpen met [!DNL Adobe Campaign] kunnen lezen, begrijpen en ermee kunnen communiceren.
-
-<!--On the other hand, the accessibility of the [!DNL Adobe Campaign] interface itself is detailed in this section.-->
  
-
 ## Zorg ervoor dat de tekst leesbaar is {#text-readability}
 
 Gebruik de tab **[!UICONTROL Styles]** van de component **[!UICONTROL Text]** om ervoor te zorgen dat de tekst leesbaar is, bijvoorbeeld door een juist kleurcontrast en eenvoudige lettertypen te gebruiken. [Meer informatie](content-components.md#text)
