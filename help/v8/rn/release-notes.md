@@ -2,10 +2,10 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 9%
+source-wordcount: '524'
+ht-degree: 8%
 
 ---
 
@@ -19,6 +19,45 @@ ht-degree: 9%
 De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
 De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld in [ 2024 ](release-notes-24.md) en [ 2025 ](release-notes-25.md) pagina&#39;s.
+
+## Updates van oktober 1925 {#25-9-updates}
+
+_9 okt, 2025_
+
+<table>
+<thead>
+<tr>
+<th><strong>Meertalige mogelijkheden voor transactioneel berichtenverkeer, pushberichten en sms (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>U kunt nu meerdere transactieberichten, pushberichten en SMS-berichten in verschillende talen verzenden in de Adobe Campaign Web User Interface. Met de functie Meertalige levering kunt u de standaardtaal van uw levering kiezen en de verschillende talen waarin de levering kan worden verzonden. U kunt deze leveringen ook voorvertonen in de talen die u hebt gekozen.</p>
+<p>Opmerking: deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt in een toekomstige release globaal geïmplementeerd.</p>
+<p>Raadpleeg de <a href="../msg/multilingual.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Profielverrijking in Transactionele Berichten (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Met deze functie kunt u transactieberichten personaliseren door Adobe Campaign-databasevelden aan de inhoud van het bericht te koppelen. U kunt doeltoewijzingen, verrijkingskolommen, en een verzoeningssleutel selecteren om nauwkeurige, real-time verpersoonlijking te verzekeren terwijl het handhaven van prestatiesdrempels.</p>
+<p>Opmerking: deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt in een toekomstige release globaal geïmplementeerd. Deze functie is momenteel alleen beschikbaar voor e-mails.</p>
+<p>Raadpleeg de <a href="../transactional-messaging/profile-enrichment.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 
 ## Release september 1925 {#25-9-release}
 

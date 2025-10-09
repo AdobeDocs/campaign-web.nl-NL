@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 16fe04858870c58b2f0244f33f691f1606050e61
+source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 20%
+source-wordcount: '939'
+ht-degree: 19%
 
 ---
 
@@ -77,8 +77,10 @@ ht-degree: 20%
       + [Een transactiebericht maken](transactional-messaging/create-transactional.md)
       + [Transactiebericht valideren](transactional-messaging/validate-transactional.md)
       + [Transactieberichten controleren](transactional-messaging/monitor-transactional.md)
+      + [Transactieberichten verrijken met profielgegevens](transactional-messaging/profile-enrichment.md)
    + [Externe leveringen verzenden](msg/send-external-deliveries.md)
    + [Aanbiedingen toevoegen aan uw berichten](msg/offers.md)
+   + [Een meertalige levering configureren](msg/multilingual.md)
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
    + Voorbeeld en test de levering {#preview-test}
@@ -284,4 +286,4 @@ ht-degree: 20%
       + [Overdrachtsgegevens](administration/transfer-external-account.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
