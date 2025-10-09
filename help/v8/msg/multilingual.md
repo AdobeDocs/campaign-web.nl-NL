@@ -2,9 +2,9 @@
 audience: end-user
 title: Een meertalige levering configureren
 description: Leer hoe u een meertalige levering configureert
-source-git-commit: 0457e4d0150fe445ae5313377eb299cde40a51b9
+source-git-commit: d8d78f97cdf99e67c59827a91c54851b1cbbeb16
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ In het Web UI van de Campagne, kunt u opstelling uw leveringen als meertalig, di
 
 Bij een meertalige aflevering is het taalbeheer gebaseerd op varianten. Elke variant vertegenwoordigt één taal. Tijdens het creëren van de levering, kunt u veelvoudige taalvarianten toevoegen om het aantal vereiste talen in uw bericht aan te passen. U kunt de standaardtaal ook op elk gewenst moment wijzigen nadat u deze varianten hebt toegevoegd.
 
-De meertalige mogelijkheid is momenteel beschikbaar voor e-mail, pushberichten en transactieberichten.
+De meertalige mogelijkheid is momenteel beschikbaar voor e-mail, pushberichten, transactionele berichten en SMS.
 
 >[!AVAILABILITY]
 >
@@ -28,9 +28,9 @@ De meertalige mogelijkheid is momenteel beschikbaar voor e-mail, pushberichten e
 
 Voer de volgende stappen uit om meertalige leveringen in te stellen:
 
-1. Voeg een taalvariant toe, [&#x200B; lees meer &#x200B;](#add-variant)
-1. Bepaal de inhoud voor elke variant, [&#x200B; lees meer &#x200B;](#define-content)
-1. Beheer taalvarianten, [&#x200B; lees meer &#x200B;](#manage-variant)
+1. Voeg een taalvariant toe, [ lees meer ](#add-variant)
+1. Bepaal de inhoud voor elke variant, [ lees meer ](#define-content)
+1. Beheer taalvarianten, [ lees meer ](#manage-variant)
 
 ## Een taalvariant toevoegen{#add-variant}
 
@@ -40,7 +40,7 @@ Ga als volgt te werk om taalvarianten te maken:
 
    >[!IMPORTANT]
    >
-   >De **[!UICONTROL Add language]** knoop is slechts beschikbaar als de doeldimensie het **2&rbrace; schema van de Taal &lbrace;bevat.** Meer over schema&#39;s en doeldimensies leren, gelieve te verwijzen naar de [&#x200B; gedetailleerde documentatie &#x200B;](../audience/targeting-dimensions.md).
+   >De **[!UICONTROL Add language]** knoop is slechts beschikbaar als de doeldimensie het **2} schema van de Taal {bevat.** Meer over schema&#39;s en doeldimensies leren, gelieve te verwijzen naar de [ gedetailleerde documentatie ](../audience/targeting-dimensions.md).
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
@@ -52,7 +52,7 @@ Ga als volgt te werk om taalvarianten te maken:
 
    >[!NOTE]
    >
-   >De talen beschikbaar door deze lijst hangen van de waarden af die door het **attribuut van de Taal** &lbrace;zijn bepaald (waarden zoals: systeem, gebruiker, dbenum, enz.). Leer meer over opsommingsbeheer in deze [&#x200B; sectie &#x200B;](../administration/enumerations.md).
+   >De talen beschikbaar door deze lijst hangen van de waarden af die door het **attribuut van de Taal** {zijn bepaald (waarden zoals: systeem, gebruiker, dbenum, enz.). Leer meer over opsommingsbeheer in deze [ sectie ](../administration/enumerations.md).
 
 1. Herhaal deze bewerking om andere talen toe te voegen. In het deelvenster **[!UICONTROL Languages]** links ziet u de lijst met talen die u hebt gekozen, het aantal talen en de standaardtaal.
 
@@ -60,7 +60,7 @@ Ga als volgt te werk om taalvarianten te maken:
 
    ![](assets/edit-content_9.png){zoomable="yes"}
 
-   Leren hoe te om taalvarianten te beheren, verwijs naar deze [&#x200B; sectie &#x200B;](#manage-variant).
+   Leren hoe te om taalvarianten te beheren, verwijs naar deze [ sectie ](#manage-variant).
 
 ## De inhoud voor elke variant definiëren{#define-content}
 
@@ -70,7 +70,7 @@ Wanneer talen zijn ingesteld, definieert u de inhoud van de levering voor elke t
 
    ![](assets/edit-content_11.png){zoomable="yes"}
 
-1. Bepaal de inhoud van uw bericht voor deze taal. Leer meer in deze [&#x200B; sectie &#x200B;](../msg/create-deliveries.md).
+1. Bepaal de inhoud van uw bericht voor deze taal. Leer meer in deze [ sectie ](../msg/create-deliveries.md).
 
 1. Herhaal deze bewerking voor elke taal.
 
