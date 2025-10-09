@@ -37,24 +37,24 @@ Met het e-mailscherm **[!UICONTROL Edit content]** kunt u:
 
 * Definieer de basiselementen van uw bericht, zoals het adres van de afzender en de onderwerpregel
 * Extra handelingen uitvoeren, zoals bijlagen toevoegen of aanbiedingen instellen
-* Heb toegang tot [ E-mail Designer ](get-started-email-designer.md#start-authoring) beginnen de juiste inhoud van uw e-mail te bouwen
+* Heb toegang tot [&#x200B; E-mail Designer &#x200B;](get-started-email-designer.md#start-authoring) beginnen de juiste inhoud van uw e-mail te bouwen
 * Voeg taalvarianten aan uw leveringen toe. [Meer informatie](../msg/multilingual.md)
 
 >[!NOTE]
 >
->Alle bewerkbare tekstvelden van dit scherm kunnen worden ingevuld met verpersoonlijkingsvelden. [ Leer hoe te om inhoud ](../personalization/personalize.md) te personaliseren
+>Alle bewerkbare tekstvelden van dit scherm kunnen worden ingevuld met verpersoonlijkingsvelden. [&#x200B; Leer hoe te om inhoud &#x200B;](../personalization/personalize.md) te personaliseren
 
 ## De levering configureren
 
 Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewerken.
 
-1. Klik de **[!UICONTROL Edit content]** knoop van het [ e-mailleveringsdashboard ](../email/create-email.md) scherm.
+1. Klik de **[!UICONTROL Edit content]** knoop van het [&#x200B; e-mailleveringsdashboard &#x200B;](../email/create-email.md) scherm.
 
-   ![ Schermafbeelding die de Edit inhoudsknoop op het dashboard van de e-maillevering toont.](assets/email-edit-content-button.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de Edit inhoudsknoop op het dashboard van de e-maillevering toont.](assets/email-edit-content-button.png){zoomable="yes"}
 
 1. Het e-mailinhoudsopgavescherm wordt geopend.
 
-   ![ Schermafbeelding die het dashboard van de e-mailinhoudsuitgave toont.](assets/email-edit-content-dashboard.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die het dashboard van de e-mailinhoudsuitgave toont.](assets/email-edit-content-dashboard.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -74,9 +74,9 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
 1. Vouw de sectie **[!UICONTROL Reply-to fields]** uit. De naam en het adres van de afzender worden door gebrek gebruikt voor antwoorden. Adobe raadt echter aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal het team van de klantenzorg het kunnen behandelen.
 
-   ![ Schermafbeelding die de sectie Reageren op velden in de e-mailinhoudeditor weergeeft.](assets/email-edit-content-reply-to.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de sectie Reageren op velden in de e-mailinhoudeditor weergeeft.](assets/email-edit-content-reply-to.png){zoomable="yes"}
 
-1. Geef de e-mail op **[!UICONTROL Subject line]** . Typ direct uw onderwerp in het specifieke gebied, of open de Redacteur van de Uitdrukking om [ verpersoonlijking ](../personalization/personalize.md) toe te voegen gebruikend diverse attributen, uitdrukkingsfragmenten, of aanbiedingen.
+1. Geef de e-mail op **[!UICONTROL Subject line]** . Typ direct uw onderwerp in het specifieke gebied, of open de Redacteur van de Uitdrukking om [&#x200B; verpersoonlijking &#x200B;](../personalization/personalize.md) toe te voegen gebruikend diverse attributen, uitdrukkingsfragmenten, of aanbiedingen.
 
 1. Als u een bestand bij de e-mail wilt voegen, klikt u op de knop **[!UICONTROL Add attachment]** en selecteert u een of meer bestanden.
 
@@ -88,11 +88,11 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
 
 1. Als u aanbiedingen met uw e-mail wilt verzenden, selecteert u deze met de knop **[!UICONTROL Set up offers]** .
 
-   Vervolgens kunt u deze bestanden in de e-mail invoegen met behulp van personalisatievelden. [ Leer hoe te om aanbiedingen te verzenden ](../msg/offers.md)
+   Vervolgens kunt u deze bestanden in de e-mail invoegen met behulp van personalisatievelden. [&#x200B; Leer hoe te om aanbiedingen te verzenden &#x200B;](../msg/offers.md)
 
 ## De tekst van de e-mail bewerken
 
-1. Klik de **[!UICONTROL Edit email body]** knoop om de inhoud van e-mail te structureren en te ontwerpen gebruikend [ E-mail Designer ](get-started-email-designer.md#start-authoring).
+1. Klik de **[!UICONTROL Edit email body]** knoop om de inhoud van e-mail te structureren en te ontwerpen gebruikend [&#x200B; E-mail Designer &#x200B;](get-started-email-designer.md#start-authoring).
 
    >[!NOTE]
    >
@@ -104,6 +104,6 @@ Volg onderstaande stappen om de inhoud van een e-mail te configureren of te bewe
    * [E-mails van auteur helemaal opnieuw](create-email-content.md)
    * [Stijl uw inhoud](get-started-email-style.md)
 
-1. Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie uitschakelen in de sectie **[!UICONTROL Optional features]** . [ Leer hoe te om verbindingen toe te voegen en het volgen te beheren ](message-tracking.md)
+1. Standaard is het bijhouden van gegevens ingeschakeld voor levering. U kunt deze optie uitschakelen in de sectie **[!UICONTROL Optional features]** . [&#x200B; Leer hoe te om verbindingen toe te voegen en het volgen te beheren &#x200B;](message-tracking.md)
 
-1. Nadat de inhoud van uw e-mail is gedefinieerd, controleert u met de knop **[!UICONTROL Simulate content]** hoe het bericht wordt weergegeven voordat u het verzendt. [ Leer hoe te om uw e-mail ](../preview-test/preview-test.md) voor te vertonen en te testen.
+1. Nadat de inhoud van uw e-mail is gedefinieerd, controleert u met de knop **[!UICONTROL Simulate content]** hoe het bericht wordt weergegeven voordat u het verzendt. [&#x200B; Leer hoe te om uw e-mail &#x200B;](../preview-test/preview-test.md) voor te vertonen en te testen.
