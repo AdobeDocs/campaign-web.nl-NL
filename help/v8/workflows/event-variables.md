@@ -26,7 +26,7 @@ Elk type van **voorwerp** wordt geassocieerd met een categorie van **variabelen*
 
 >[!NOTE]
 >
->De extra informatie over scripting en de blootgestelde voorwerpen en de variabelen in Adobe Campaign is beschikbaar in de Campagne v8 (cliëntconsole) documentatie in [ deze sectie ](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
+>De extra informatie over scripting en de blootgestelde voorwerpen en de variabelen in Adobe Campaign is beschikbaar in de Campagne v8 (cliëntconsole) documentatie in [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/advanced-management/javascript-scripts-and-templates).
 >
 >Merk op dat terwijl deze bron waardevolle inzichten aanbiedt, er discrepanties kunnen bestaan aangezien het specifiek op de cliëntconsole eerder dan het Gebruikersinterface van het Web van de Campagne van toepassing is.
 
@@ -34,6 +34,6 @@ Elk type van **voorwerp** wordt geassocieerd met een categorie van **variabelen*
 
 De vooraf bepaalde gebeurtenisvariabelen zijn beschikbaar voor gebruik in de de linkerzijruit van de uitdrukkingsredacteur. U kunt ook nieuwe maken door een nieuwe variabele in uw code te initialiseren.
 
-![ Schermafbeelding die vooraf bepaalde gebeurtenisvariabelen in de linkerzijruit van de uitdrukkingsredacteur toont ](assets/event-variables.png)
+![&#x200B; Schermafbeelding die vooraf bepaalde gebeurtenisvariabelen in de linkerzijruit van de uitdrukkingsredacteur toont &#x200B;](assets/event-variables.png)
 
 Naast deze gebeurtenisvariabelen kunt u ook het menu **[!UICONTROL Conditions]** in het linkerdeelvenster gebruiken om voorwaarden te maken en het menu **[!UICONTROL Add current date]** om functies toe te passen die betrekking hebben op datumopmaak.

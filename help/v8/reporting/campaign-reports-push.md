@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Campagnerapporten voor het pushkanaal {#campaign-reports-push-channel}
 
-Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het pushkanaal worden de rapporten en metriek hieronder beschreven. Leer hoe te om tot uw campagnerapporten op [ toegang te hebben deze pagina ](campaign-reports.md).
+Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het pushkanaal worden de rapporten en metriek hieronder beschreven. Leer hoe te om tot uw campagnerapporten op [&#x200B; toegang te hebben deze pagina &#x200B;](campaign-reports.md).
 
 ## Leveringsoverzicht {#delivery-summary-push}
 
@@ -23,7 +23,7 @@ Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de
 
 Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop bezoekers de pushmelding uitvoeren. De cijfers worden hieronder beschreven.
 
-![ Summiere metriek van de Levering die in het rapport van het Overzicht van de Levering ](assets/campaign-reporting-push-summary.png){zoomable="yes"} wordt getoond
+![&#x200B; Summiere metriek van de Levering die in het rapport van het Overzicht van de Levering &#x200B;](assets/campaign-reporting-push-summary.png){zoomable="yes"} wordt getoond
 
 +++Meer weten over de cijfers van het pushcampagnerapport?
 
@@ -46,7 +46,7 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI
 
 In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De cijfers worden hieronder beschreven.
 
-![ Aanvankelijke statistieken van het doelpubliek die in het rapport ](assets/campaign-reporting-push-target.png){zoomable="yes"} worden getoond
+![&#x200B; Aanvankelijke statistieken van het doelpubliek die in het rapport &#x200B;](assets/campaign-reporting-push-target.png){zoomable="yes"} worden getoond
 
 +++Meer weten over de cijfers van het pushcampagnerapport?
 
@@ -67,7 +67,7 @@ In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens 
 
 In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol de levering is. De cijfers worden hieronder beschreven.
 
-![ statistieken van de Uitvoering die in het rapport ](assets/campaign-reporting-push-exec.png){zoomable="yes"} worden getoond
+![&#x200B; statistieken van de Uitvoering die in het rapport &#x200B;](assets/campaign-reporting-push-exec.png){zoomable="yes"} worden getoond
 
 +++Meer weten over de cijfers van het pushcampagnerapport?
 
@@ -79,7 +79,7 @@ In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (bijvoorbeeld ongeldige registratie, berichtafwijzing of payload fout), in verhouding tot het aantal te leveren berichten.
 
-  De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#push-error-types){target="_blank"}.
+  De types van de de berichtfouten van de duw zijn vermeld in [&#x200B; Adobe Campaign v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#push-error-types){target="_blank"}.
 
 +++
 
@@ -92,7 +92,7 @@ In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol
 
 In de tabel **[!UICONTROL Generated click streams]** worden gegevens weergegeven die relatief zijn ten opzichte van de manier waarop de ontvangers met de levering hebben gewerkt. De cijfers worden hieronder beschreven.
 
-![ Gegenereerde klikstromen die in het rapport ](assets/campaign-reporting-push-clicks.png){zoomable="yes"} worden getoond
+![&#x200B; Gegenereerde klikstromen die in het rapport &#x200B;](assets/campaign-reporting-push-clicks.png){zoomable="yes"} worden getoond
 
 +++Meer weten over de cijfers van het pushcampagnerapport?
 

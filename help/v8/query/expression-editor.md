@@ -22,7 +22,7 @@ Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel 
 >[!IMPORTANT]
 >
 >Er is een gloednieuwe interface beschikbaar voor het Query-model. Als u wilt overschakelen naar deze nieuwe ervaring voor het maken van regels, drukt u op de schakelknop in de rechterbovenhoek. U kunt naar de klassieke modelleerling van de Vraag terugkeren wanneer u wilt door eenvoudig de knevel terug te duwen om de nieuwe interface onbruikbaar te maken. U kunt de zelfde principes toepassen zoals vraagmodeler in deze nieuwe interface.
->![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
+>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen &#x200B;](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Werken met de expressie-editor {#edit}
 
@@ -30,7 +30,7 @@ De expressie-editor is beschikbaar via de knop querymodel **[!UICONTROL Edit exp
 
 | Toegang van het **gebied van Attributen** | Toegang van het **gebied van de Waarde** |
 | --- | --- |
-| ![ de redacteur van de Uitdrukking voor het gebied van Attributen ](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![ de redacteur van de Uitdrukking voor het gebied van de Waarde ](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| ![&#x200B; de redacteur van de Uitdrukking voor het gebied van Attributen &#x200B;](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![&#x200B; de redacteur van de Uitdrukking voor het gebied van de Waarde &#x200B;](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 De uitdrukkingsredacteur verstrekt:
 
@@ -40,7 +40,7 @@ De uitdrukkingsredacteur verstrekt:
 
 Bewerk de expressie door een expressie rechtstreeks in het invoerveld in te voeren. Als u een veld of hulpfunctie wilt toevoegen, plaatst u de cursor in de expressie waar u deze wilt toevoegen en klikt u op +.
 
-![ de redacteurinterface van de Uitdrukking ](assets/expression-editor.png){zoomable="yes"}
+![&#x200B; de redacteurinterface van de Uitdrukking &#x200B;](assets/expression-editor.png){zoomable="yes"}
 
 Klik op de knop **[!UICONTROL Confirm]** als uw expressie gereed is. De expressie wordt weergegeven in het geselecteerde veld. Als u deze wilt bewerken, opent u de editor voor de expressie en brengt u de gewenste wijzigingen aan.
 
@@ -50,11 +50,11 @@ In het onderstaande voorbeeld ziet u een expressie die is geconfigureerd voor he
 
 >[!TAB  Klassieke vraagmodeler ]
 
-![ Voorbeeld van het uitgeven van uitdrukking voor het gebied van de Waarde ](assets/edit-expression-value.png){zoomable="yes"}
+![&#x200B; Voorbeeld van het uitgeven van uitdrukking voor het gebied van de Waarde &#x200B;](assets/edit-expression-value.png){zoomable="yes"}
 
 >[!TAB  Nieuwe regelbouwer ]
 
-![ Voorbeeld van het uitgeven van uitdrukking voor het gebied van de Waarde ](assets/ruleb-12.png){zoomable="yes"}
+![&#x200B; Voorbeeld van het uitgeven van uitdrukking voor het gebied van de Waarde &#x200B;](assets/ruleb-12.png){zoomable="yes"}
 
 >[!ENDTABS]
 

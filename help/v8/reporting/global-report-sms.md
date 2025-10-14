@@ -27,7 +27,7 @@ Navigeer naar het menu **[!UICONTROL Reports]** in de sectie **[!UICONTROL Repor
 
 Het **[!UICONTROL Delivery Overview]** -rapport bevat uitgebreide prestatiekernindicatoren (KPI&#39;s) die diepgaande inzichten bieden in de interactiepatronen van uw bezoekers bij elke SMS-levering. De volgende cijfers worden hieronder beschreven.
 
-![ A screenshot van het rapport van het Overzicht van de Levering, die zeer belangrijke prestatiesindicatoren voor levering van SMS tonen.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
+![&#x200B; A screenshot van het rapport van het Overzicht van de Levering, die zeer belangrijke prestatiesindicatoren voor levering van SMS tonen.](assets/global_report_sms_delivery_overview.png){zoomable="yes"}
 
 +++Meer informatie over de maatstaven van het leveringsoverzicht.
 
@@ -50,7 +50,7 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat uitgebreide prestatiekerni
 
 De tabel en grafiek van **[!UICONTROL Targeted audience]** bevatten gegevens die betrekking hebben op uw ontvangers voor elke verzonden SMS-levering. De cijfers worden hieronder beschreven.
 
-![ A screenshot van het gerichte rapport van het Publiek, die gegevens over ontvangers en uitsluitingen voor de leveringen van SMS tonen.](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
+![&#x200B; A screenshot van het gerichte rapport van het Publiek, die gegevens over ontvangers en uitsluitingen voor de leveringen van SMS tonen.](assets/global_report_sms_targeted_audience.png){zoomable="yes"}
 
 +++ Meer informatie over de meetgegevens voor doelgroepen.
 
@@ -71,7 +71,7 @@ De tabel en grafiek van **[!UICONTROL Targeted audience]** bevatten gegevens die
 
 In de tabel **[!UICONTROL Delivery statistics]** ziet u hoe succesvol elke SMS-levering is. De cijfers worden hieronder beschreven.
 
-![ A screenshot van het rapport van de Statistieken van de Levering, die succespercentages, fouten, en quarantines voor de leveringen van SMS tonen.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
+![&#x200B; A screenshot van het rapport van de Statistieken van de Levering, die succespercentages, fouten, en quarantines voor de leveringen van SMS tonen.](assets/global_report_sms_delivery_statistics.png){zoomable="yes"}
 
 +++Meer weten over de meetgegevens van de leveringsstatistieken?
 
@@ -83,7 +83,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u hoe succesvol elke SMS-l
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat na een mislukte levering in quarantaine is geplaatst (bv. onbekende gebruiker, ongeldig domein), in verhouding tot het aantal te leveren berichten.
 
-  De de foutentypes van SMS zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#sms-quarantines){target="_blank"}.
+  De de foutentypes van SMS zijn vermeld in [&#x200B; Adobe Campaign v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#sms-quarantines){target="_blank"}.
 
 +++
 
@@ -96,9 +96,9 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u hoe succesvol elke SMS-l
 
 In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** ziet u waarom gebruikersprofielen, die zijn uitgesloten van de beoogde profielen, uw SMS-berichten niet konden ontvangen.
 
-De types van fouten zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#email-error-types){target="_blank"}.
+De types van fouten zijn vermeld in [&#x200B; Adobe Campaign v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#email-error-types){target="_blank"}.
 
-![ A screenshot van de Oorzaken van het rapport van de Uitsluiting, die redenen voor de leveringsuitsluitingen van SMS tonen.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
+![&#x200B; A screenshot van de Oorzaken van het rapport van de Uitsluiting, die redenen voor de leveringsuitsluitingen van SMS tonen.](assets/global_report_sms_causes_exclusion.png){zoomable="yes"}
 
 ## Leveringsdoorvoer {#delivery-throughput-sms}
 
@@ -107,6 +107,6 @@ De types van fouten zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documen
 >title="Productie van SMS-berichten"
 >abstract="Het **rapport van de productie van 0&rbrace; Levering &lbrace;verstrekt uitgebreide inzichten in de efficiency van het systeem van de berichtlevering van SMS, die een gedetailleerd overzicht van succes en foutentarieven binnen een gespecificeerd tijdskader voorstellen.**"
 
-![ A screenshot van het rapport van de Output van de Levering, die succes en foutenpercentages voor de leveringen van SMS in tijd tonen.](assets/global_report_sms_delivery_throughput.png){zoomable="yes"}
+![&#x200B; A screenshot van het rapport van de Output van de Levering, die succes en foutenpercentages voor de leveringen van SMS in tijd tonen.](assets/global_report_sms_delivery_throughput.png){zoomable="yes"}
 
 Het **[!UICONTROL Delivery Throughput]** -rapport biedt uitgebreide inzichten in de effectiviteit van het SMS-systeem voor het verzenden van berichten en biedt een gedetailleerde samenvatting van het succes en de foutenpercentages over een bepaalde periode.

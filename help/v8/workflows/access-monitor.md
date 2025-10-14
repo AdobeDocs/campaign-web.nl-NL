@@ -21,7 +21,7 @@ Het menu **[!UICONTROL Workflows]** biedt toegang tot de volledige lijst met wor
 
 {het lijstscherm van het 0} Werkschema dat standalone en campagnewerkschema&#39;s toont ![&#128279;](assets/workflow-list.png){zoomable="yes"}
 
-Elk werkschema in de lijst toont informatie over zijn huidige [ status ](#status), de laatste tijd het werd uitgevoerd of, en de volgende geplande uitvoeringsdatum en tijd gewijzigd.
+Elk werkschema in de lijst toont informatie over zijn huidige [&#x200B; status &#x200B;](#status), de laatste tijd het werd uitgevoerd of, en de volgende geplande uitvoeringsdatum en tijd gewijzigd.
 
 Pas de weergegeven kolommen aan door op het pictogram **[!UICONTROL Configure column for a custom layout]** in de rechterbovenhoek van de lijst te klikken. Hierdoor kunt u aanvullende informatie aan de lijst toevoegen, zoals de laatste foutactiviteit voor elke werkstroom of de toegepaste doeldimensie.
 
@@ -41,9 +41,9 @@ Workflows kunnen meerdere statussen hebben:
 * **[!UICONTROL In progress]**: De workflow wordt momenteel uitgevoerd.
 * **[!UICONTROL Finished]**: De uitvoering van de workflow is voltooid.
 * **[!UICONTROL Paused]**: de workflow is gepauzeerd.
-* **[!UICONTROL Erroneous]**: Er is een fout opgetreden in de workflow. Open de workflow en open de logboeken en taken om de fout te identificeren en op te lossen. [ leer hoe te om logboeken en taken te controleren ](start-monitor-workflows.md#logs-tasks)
+* **[!UICONTROL Erroneous]**: Er is een fout opgetreden in de workflow. Open de workflow en open de logboeken en taken om de fout te identificeren en op te lossen. [&#x200B; leer hoe te om logboeken en taken te controleren &#x200B;](start-monitor-workflows.md#logs-tasks)
 
-De gedetailleerde informatie over hoe te om werkschemauitvoering te beginnen en te controleren is beschikbaar op [ deze pagina ](start-monitor-workflows.md).
+De gedetailleerde informatie over hoe te om werkschemauitvoering te beginnen en te controleren is beschikbaar op [&#x200B; deze pagina &#x200B;](start-monitor-workflows.md).
 
 ## Workflowsjablonen {#templates}
 
@@ -51,4 +51,4 @@ Op het tabblad **[!UICONTROL Templates]** worden alle beschikbare werkstroomsjab
 
 De malplaatjes van het werkschema bevatten pre-gevormde activiteiten en algemene bezitsconfiguraties die voor het creëren van nieuwe werkschema&#39;s kunnen worden opnieuw gebruikt.
 
-Workflowsjablonen maken op basis van een bestaande workflow of helemaal opnieuw. [ Leer hoe te om werkschemamalplaatjes ](create-workflow.md#workflow-templates) tot stand te brengen
+Workflowsjablonen maken op basis van een bestaande workflow of helemaal opnieuw. [&#x200B; Leer hoe te om werkschemamalplaatjes &#x200B;](create-workflow.md#workflow-templates) tot stand te brengen

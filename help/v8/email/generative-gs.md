@@ -30,7 +30,7 @@ ht-degree: 2%
 
 >[!INFO]
 >
->Ga in een hands-on ervaring met [ binnen onze levende eigenschapvoorproef ](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator), die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
+>Ga in een hands-on ervaring met [&#x200B; binnen onze levende eigenschapvoorproef &#x200B;](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator), die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
 Aangezien de marketing industrie concurrerender wordt, zoeken de merken efficiënte manieren om impactful inhoud snel te produceren. AI Assistant in Adobe Campaign Web, aangedreven door Microsoft Azure OpenAI en Adobe Firefly, is een Adobe AI-functie voor het genereren van inhoud die de manier transformeert waarop marketers professionele en merkconsistente inhoud maken via verschillende kanalen, zoals e-mail, SMS en pushberichten. Met geavanceerde GenAI-modellen en een goed begrip van de richtlijnen voor merken genereert AI Assistant automatisch persoonlijke, aantrekkelijke en effectieve inhoud op basis van het marketingdoel, waarbij de inhoud wordt geoptimaliseerd voor stijlen met een merknaam, lay-outs, kleurtinten en meer.
 
@@ -38,9 +38,9 @@ AI Assistant vereenvoudigt het maken en uitvoeren van marketingcampagnes via ver
 
 >[!IMPORTANT]
 >
->* Alvorens dit vermogen te gebruiken, herzie verwante [ Grafieken en Beperkingen ](#generative-guardrails).
+>* Alvorens dit vermogen te gebruiken, herzie verwante [&#x200B; Grafieken en Beperkingen &#x200B;](#generative-guardrails).
 >
->* U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens AI Medewerker in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>* U moet met a [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens AI Medewerker in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 ## AI-assistent openen {#generative-access}
 
@@ -48,14 +48,14 @@ AI Assistant voor e-mails, pushberichten en SMS bevindt zich nu in de algemene b
 
 +++ Leer hoe u machtigingen voor het genereren van inhoud toewijst
 
-1. **creeer het Profiel van het Product** - in [ Admin Console ](https://stage.adminconsole.adobe.com/), creeer een productprofiel met het volgende specifieke patroon:
+1. **creeer het Profiel van het Product** - in [&#x200B; Admin Console &#x200B;](https://stage.adminconsole.adobe.com/), creeer een productprofiel met het volgende specifieke patroon:
    `Campaign - <instance-name> - AIAssistant`
 
 1. **voeg gebruikers** toe - voeg de vereiste gebruiker aan dat productprofiel toe,\
    of\
    **creeer de Groep van de Gebruiker** en voeg die gebruikersgroep aan het productprofiel toe, dan voeg gebruikers aan dat productprofiel toe.
 
-Leer hoe te om toestemmingen in Campagne in [ te bepalen deze sectie ](../get-started/permissions.md).
+Leer hoe te om toestemmingen in Campagne in [&#x200B; te bepalen deze sectie &#x200B;](../get-started/permissions.md).
 
 +++
 
@@ -66,7 +66,7 @@ De algemene richtlijnen voor het gebruiken van AI Medewerker in het Web van Adob
 * De kwaliteit van de gegenereerde inhoud hangt sterk af van het marketingdoel of de vraag die u definieert. Gebruik een duidelijk gedefinieerde prompt voor een juiste interpretatie van het GenAI-model.
 * Upload merkmiddelen om nauwkeurige, on-brand inhoud te garanderen. Anders is de inhoud gebaseerd op openbaar beschikbare informatie. De geüploade inhoud kan de volgende indelingen hebben: PDF-, JPEG-, PNG- of ZIP-bestanden (met ondersteunde bestandsindelingen).
 * De maximale grootte voor geüploade merkenmiddelen is 50 MB. Grotere bestanden of een groot aantal afbeeldingen kan de verwerkingstijd verhogen.
-* Gebruik [ ingebouwde e-mailmalplaatjes ](../content/create-email-templates.md), merkspecifieke malplaatjes, of douanesjablonen om uw e-mailinhoud tot stand te brengen gebruikend AI Medewerker. E-mailsjablonen met maximaal 8-10 afbeeldingen worden aanbevolen.
+* Gebruik [&#x200B; ingebouwde e-mailmalplaatjes &#x200B;](../content/create-email-templates.md), merkspecifieke malplaatjes, of douanesjablonen om uw e-mailinhoud tot stand te brengen gebruikend AI Medewerker. E-mailsjablonen met maximaal 8-10 afbeeldingen worden aanbevolen.
 * Geef bij het selecteren van varianten aan welke problematische uitvoer dan ook de pictogrammen thumbs-up, thumbs-down of Markering moet gebruiken.
 * Op uw gebruik van AI Assistant zijn de Adobe Experience Cloud Generative AI-gebruikersrichtlijnen van toepassing. [Meer informatie](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html).
 * Als onderdeel van de Adobe-toezegging om het gebruik van generatieve AI-gereedschappen bij het maken van media transparant te maken, past Adobe Content Credentials toe wanneer inhoud of een project dat een door Firefly gegenereerd element bevat, wordt gedownload of geëxporteerd. [Meer informatie](https://helpx.adobe.com/nl/firefly/using/content-credentials.html).

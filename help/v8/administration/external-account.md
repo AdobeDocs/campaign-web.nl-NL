@@ -16,7 +16,7 @@ Voer de onderstaande stappen uit om de accountinstellingen te configureren op ba
 
 Met de externe account Bounce mails wordt de externe POP3-account opgegeven die wordt gebruikt om verbinding te maken met de e-mailservice. Alle servers die voor POP3 toegang worden gevormd kunnen terugkeerpost ontvangen.
 
-![ Screenshot die de de post van de Stuits (POP3) externe gebieden van de rekeningsconfiguratie toont.](assets/external_account_bounce.png)
+![&#x200B; Screenshot die de de post van de Stuits (POP3) externe gebieden van de rekeningsconfiguratie toont.](assets/external_account_bounce.png)
 
 Als u de **[!UICONTROL Bounce mails (POP3)]** externe account wilt configureren, vult u de volgende velden in:
 
@@ -70,21 +70,21 @@ Volg onderstaande stappen om een specifieke externe account voor externe leverin
 
 1. Selecteer het type **[!UICONTROL Routing]** .
 
-   ![ Screenshot die de Verpletterende externe selectie van accounttype tonen.](assets/external-account-routing.png){zoomable="yes"}
+   ![&#x200B; Screenshot die de Verpletterende externe selectie van accounttype tonen.](assets/external-account-routing.png){zoomable="yes"}
 
 1. Selecteer het gewenste kanaal en klik op **[!UICONTROL Create]** .
 
 1. In de sectie voor de externe account **[!UICONTROL Details]** is **[!UICONTROL External]** standaard geselecteerd als de **[!UICONTROL Delivery mode]** .
 
-   ![ Screenshot die de de wijzeconfiguratie van de Levering voor het Verpletteren van externe rekeningen toont.](assets/external-account-delivery-mode.png){zoomable="yes"}
+   ![&#x200B; Screenshot die de de wijzeconfiguratie van de Levering voor het Verpletteren van externe rekeningen toont.](assets/external-account-delivery-mode.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >Momenteel is **[!UICONTROL External]** de enige beschikbare modus.
 
-1. Als u het proces na de uitvoering van de levering wilt afhandelen, dient u dit uit te besteden aan een workflow voor nabewerking. Creeer een werkschema met een [ Externe signaal ](../workflows/activities/external-signal.md) activiteit en selecteer het van het **[!UICONTROL Post-processing]** gebied.
+1. Als u het proces na de uitvoering van de levering wilt afhandelen, dient u dit uit te besteden aan een workflow voor nabewerking. Creeer een werkschema met een [&#x200B; Externe signaal &#x200B;](../workflows/activities/external-signal.md) activiteit en selecteer het van het **[!UICONTROL Post-processing]** gebied.
 
-   ![ Schermafbeelding die de configuratie van het gebied na verwerking voor het Verpletteren van externe rekeningen toont.](assets/external-account-post-processing.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de configuratie van het gebied na verwerking voor het Verpletteren van externe rekeningen toont.](assets/external-account-post-processing.png){zoomable="yes"}
 
 1. Bewerk in het veld **[!UICONTROL Activity]** de naam van de activiteit van de nabewerkingsworkflow die in de logboeken wordt weergegeven. <!--you can edit the name of the activity that will be created if you add an external or bulk delivery to a workflow-->
 
@@ -92,7 +92,7 @@ Volg onderstaande stappen om een specifieke externe account voor externe leverin
 
 Als u een gesegmenteerde architectuur hebt, identificeer de uitvoeringsinstanties verbonden aan de controleinstantie en vestigt verbindingen tussen hen. De transactionele berichtmalplaatjes worden opgesteld op de uitvoeringsinstantie.
 
-![ Schermafbeelding die de van de Uitvoering instantie externe gebieden van de rekeningsconfiguratie toont.](assets/external_account_exec.png)
+![&#x200B; Schermafbeelding die de van de Uitvoering instantie externe gebieden van de rekeningsconfiguratie toont.](assets/external_account_exec.png)
 
 U configureert als volgt de externe account van **[!UICONTROL Execution instance]** :
 

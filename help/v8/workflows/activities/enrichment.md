@@ -52,7 +52,7 @@ Volg deze stappen om de **1&rbrace; activiteit van de Verrijking &lbrace;te vorm
 >title="Verrijkingsactiviteit"
 >abstract="Zodra de verrijkingsgegevens aan het werkschema worden toegevoegd, kan het in verdere activiteiten worden gebruikt om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes tot stand te brengen die met uw doelpubliek resoneren."
 
-1. Klik **toevoegen verrijkingsgegevens** en selecteer de attributen om voor verrijking te gebruiken. [ Leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../../get-started/attributes.md).
+1. Klik **toevoegen verrijkingsgegevens** en selecteer de attributen om voor verrijking te gebruiken. [&#x200B; Leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten &#x200B;](../../get-started/attributes.md).
 
    U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van de doelafmeting of een inzamelingsverbinding. Elk type wordt in de volgende voorbeelden beschreven:
    * [Enkel verrijkingskenmerk](#single-attribute)
@@ -60,9 +60,9 @@ Volg deze stappen om de **1&rbrace; activiteit van de Verrijking &lbrace;te vorm
 
    >[!NOTE]
    >
-   >De **geeft uitdrukkingsknoop** in het scherm van de attributenselectie uit staat u toe om geavanceerde uitdrukkingen te bouwen om de attributen te selecteren. [ Leer hoe te met de uitdrukkingsredacteur ](../../query/expression-editor.md) te werken.
+   >De **geeft uitdrukkingsknoop** in het scherm van de attributenselectie uit staat u toe om geavanceerde uitdrukkingen te bouwen om de attributen te selecteren. [&#x200B; Leer hoe te met de uitdrukkingsredacteur &#x200B;](../../query/expression-editor.md) te werken.
 
-   ![ Schermafbeelding die het selectiescherm van de verrijkingsgegevens toont ](../assets/workflow-enrichment1.png)
+   ![&#x200B; Schermafbeelding die het selectiescherm van de verrijkingsgegevens toont &#x200B;](../assets/workflow-enrichment1.png)
 
 ## Koppelingen maken tussen tabellen {#create-links}
 
@@ -83,7 +83,7 @@ Ga als volgt te werk om een koppeling te maken:
 
 1. Klik in de sectie **[!UICONTROL Link definition]** op de knop **[!UICONTROL Add link]** .
 
-   ![ Schermafbeelding die de sectie van de verbindingsdefinitie toont ](../assets/workflow-enrichment-link.png)
+   ![&#x200B; Schermafbeelding die de sectie van de verbindingsdefinitie toont &#x200B;](../assets/workflow-enrichment-link.png)
 
 1. In het **type van Verhouding** drop-down lijst, kies het type van verbinding u wilt tot stand brengen.
 
@@ -97,7 +97,7 @@ Ga als volgt te werk om een koppeling te maken:
    * **Eenvoudig sluit zich aan**: Selecteer een specifiek attribuut om gegevens van de twee schema&#39;s aan te passen. Klik **toevoegen toetreedt** en selecteert **Source** en **de attributen van de Bestemming** om als verzoeningscriteria te gebruiken.
    * **Geavanceerd sluit zich aan**: Creeer zich bij gebruikend geavanceerde voorwaarden. Klik **toevoegen toetreedt** en klik **creëren voorwaarde** knoop om de vraagmodelaar te openen.
 
-Een werkschemavoorbeeld dat verbindingen gebruikt is beschikbaar in de [ sectie van Voorbeelden ](#link-example).
+Een werkschemavoorbeeld dat verbindingen gebruikt is beschikbaar in de [&#x200B; sectie van Voorbeelden &#x200B;](#link-example).
 
 ## Gegevensafstemming {#reconciliation}
 
@@ -232,7 +232,7 @@ Gebruik het **Etiket** en **alias** gebieden van uw attribuut om het begrijpelij
 
 #### Filters definiëren{#collection-filters}
 
-Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren items die groter zijn dan 100$. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
+Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren items die groter zijn dan 100$. [&#x200B; Leer hoe te met de vraagmodelaar &#x200B;](../../query/query-modeler-overview.md) te werken
 
 1. Klik **creeer filters**.
 1. Voeg de twee volgende filters toe: **Prijs** bestaat EN **Prijs** is minder dan 100. De eerste filtert NULL-waarden op dezelfde manier als de hoogste waarde.

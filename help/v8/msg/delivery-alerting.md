@@ -16,7 +16,7 @@ Leveringswaarschuwing is een waarschuwingssysteem waarmee groepen gebruikers aut
 
 Meldingen worden aangepast op basis van specifieke waarschuwingscriteria die zijn gedefinieerd via de Adobe Campaign Web User Interface.
 
-Voor meer informatie bij het beheren van leveringsmislukkingen, verwijs naar [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
+Voor meer informatie bij het beheren van leveringsmislukkingen, verwijs naar [&#x200B; Adobe Campaign v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/failures/delivery-failures#send){target="_blank"}.
 
 ## E-mailmeldingsinhoud {#content}
 
@@ -25,17 +25,17 @@ E-mailmeldingen bevatten de volgende secties:
 * **Samenvatting**: Toont het aantal leveringen die aan uw bepaalde criteria voldoen, met etiketten en kleuren voor elk criterium.
 * **Details**: Maakt een lijst van alle bepaalde leveringscriteria voor het dashboard en de overeenkomstige leveringen voor elk criterium.
 
-![ Beschrijving: Dit het schermschot toont de lay-out van het e-mailbericht, met inbegrip van de samenvatting en detailssecties.](assets/alerting-email.png)
+![&#x200B; Beschrijving: Dit het schermschot toont de lay-out van het e-mailbericht, met inbegrip van de samenvatting en detailssecties.](assets/alerting-email.png)
 
 ## Waarschuwingen over levering instellen {#set-up}
 
 Aan opstelling deze alarm, staat het Gebruikersinterface van het Web van de Campagne u toe om tot stand te brengen en te leiden:
 
-* **de alarmerende dashboards van de levering**: Specificeer ontvangers, plaats alarmerende criteria om in het dashboard te omvatten, en toegang tot een geschiedenis van verzonden alarm. [ Leer hoe te met dashboards ](../msg/delivery-alerting-dashboards.md) te werken.
-* **de alarmerende criteria van de Levering**: Het interface van de Gebruiker van het Web van de Campagne verstrekt vooraf bepaalde alarmerende criteria, zoals leveringen met lage productie of leveringen de waarvan voorbereiding ontbrak. U kunt deze criteria aan uw dashboard toevoegen of uw eigen criteria creëren om aan uw behoeften te passen. [ Leer hoe te met criteria ](../msg/delivery-alerting-criteria.md) te werken.
+* **de alarmerende dashboards van de levering**: Specificeer ontvangers, plaats alarmerende criteria om in het dashboard te omvatten, en toegang tot een geschiedenis van verzonden alarm. [&#x200B; Leer hoe te met dashboards &#x200B;](../msg/delivery-alerting-dashboards.md) te werken.
+* **de alarmerende criteria van de Levering**: Het interface van de Gebruiker van het Web van de Campagne verstrekt vooraf bepaalde alarmerende criteria, zoals leveringen met lage productie of leveringen de waarvan voorbereiding ontbrak. U kunt deze criteria aan uw dashboard toevoegen of uw eigen criteria creëren om aan uw behoeften te passen. [&#x200B; Leer hoe te met criteria &#x200B;](../msg/delivery-alerting-criteria.md) te werken.
 
 Stel bijvoorbeeld dat u gebruikers met beheerrechten alleen op de hoogte stelt van mislukte leveringen en marketinggebruikers op de hoogte brengt van leveringen met een hoge soft bounce error ratio. Hiertoe maakt u twee aparte dashboards met de juiste criteria voor elke groep ontvangers.
 
 >[!NOTE]
 >
->Om tot dashboards en alarmerende criteria toegang te hebben en te vormen, moet u **beleidsrechten** hebben of deel van de **Toezicht van de Levering** veiligheidsgroep uitmaken. Standaardgebruikers hebben geen toegang tot dashboards in de Adobe Campaign-interface, maar kunnen waarschuwingsberichten ontvangen. [ leer meer over toegang en toestemmingen ](../get-started/permissions.md).
+>Om tot dashboards en alarmerende criteria toegang te hebben en te vormen, moet u **beleidsrechten** hebben of deel van de **Toezicht van de Levering** veiligheidsgroep uitmaken. Standaardgebruikers hebben geen toegang tot dashboards in de Adobe Campaign-interface, maar kunnen waarschuwingsberichten ontvangen. [&#x200B; leer meer over toegang en toestemmingen &#x200B;](../get-started/permissions.md).

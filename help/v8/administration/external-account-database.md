@@ -20,7 +20,7 @@ Met de externe Amazon Redshift-account kunt u uw Campagne-instantie verbinden me
 
 In Adobe Campaign Web User Interface, vorm uw Amazon Redshift externe rekening.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Amazon opnieuw schuiven als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Amazon opnieuw schuiven als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -42,7 +42,7 @@ In Adobe Campaign Web User Interface, vorm uw Amazon Redshift externe rekening.
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ het Schermafbeelding die de Amazon toont toont de externe gebieden van de rekeningsconfiguratie.](assets/ext-account-amazon.png)
+   ![&#x200B; het Schermafbeelding die de Amazon toont toont de externe gebieden van de rekeningsconfiguratie.](assets/ext-account-amazon.png)
 
 1. Nadat u de verbinding hebt ingesteld, maakt u de Adobe Campaign SQL-functies in de externe Redshift-database. Zodra deze functies beschikbaar zijn, klikt u op **[!UICONTROL Deploy functions]** om deze te activeren.
 
@@ -56,7 +56,7 @@ Met de externe Amazon Redshift-account (verouderd) kunt u uw Campagne-instantie 
 
 In Adobe Campaign Web User Interface, vorm uw Amazon Redshift (erfenis) externe rekening.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Amazon Redshift (erfenis) zoals **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Amazon Redshift (erfenis) zoals **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -76,7 +76,7 @@ In Adobe Campaign Web User Interface, vorm uw Amazon Redshift (erfenis) externe 
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ Schermafbeelding die de Amazon Redshift (verouderd) externe gebieden van de rekeningsconfiguratie toont.](assets/ext-account-amazon-legacy.png)
+   ![&#x200B; Schermafbeelding die de Amazon Redshift (verouderd) externe gebieden van de rekeningsconfiguratie toont.](assets/ext-account-amazon-legacy.png)
 
 1. Nadat u de verbinding hebt ingesteld, maakt u de Adobe Campaign SQL-functies in de externe Redshift-database. Zodra deze functies beschikbaar zijn, klikt u op **[!UICONTROL Deploy functions]** om deze te activeren.
 
@@ -86,7 +86,7 @@ Met de externe account van Azure Synapse Analytics kunt u uw Campagne-instantie 
 
 Configureer in Adobe Campaign Web User Interface uw externe account voor Azure Synapse Analytics.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Amazon opnieuw schuiven als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Amazon opnieuw schuiven als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -108,13 +108,13 @@ Configureer in Adobe Campaign Web User Interface uw externe account voor Azure S
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ Schermafbeelding die de de externe gebieden van de rekeningsconfiguratie van de Analytics van Azure Synapse toont.](assets/ext-account-azure.png)
+   ![&#x200B; Schermafbeelding die de de externe gebieden van de rekeningsconfiguratie van de Analytics van Azure Synapse toont.](assets/ext-account-azure.png)
 
 1. U kunt de optie **[!UICONTROL Use a work tablespace for tables]** inschakelen en vervolgens de **[!UICONTROL Tablespace of tables]** opgeven waar de werktabellen worden opgeslagen.
 
 1. Schakel indien nodig de optie **[!UICONTROL Use a work tablespace for indexes]** in en geef vervolgens de waarde **[!UICONTROL Indexes tablespace]** op.
 
-   ![ Schermafbeelding die de de externe gebieden van de rekeningsconfiguratie van de Analytics van Azure Synapse toont.](assets/ext-account-azure-2.png)
+   ![&#x200B; Schermafbeelding die de de externe gebieden van de rekeningsconfiguratie van de Analytics van Azure Synapse toont.](assets/ext-account-azure-2.png)
 
 1. Nadat u de verbinding hebt ingesteld, maakt u de Adobe Campaign SQL-functies in uw externe Azure Synapse Analytics-database. Zodra deze functies beschikbaar zijn, klikt u op **[!UICONTROL Deploy functions]** om deze te activeren.
 
@@ -124,7 +124,7 @@ De externe rekening van Databases staat u toe om uw instantie van de Campagne me
 
 In Adobe Campaign Web User Interface, vorm uw Gegevensbestanden externe rekening.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Gegevensbestanden zoals **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Gegevensbestanden zoals **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -144,7 +144,7 @@ In Adobe Campaign Web User Interface, vorm uw Gegevensbestanden externe rekening
 
    * **[!UICONTROL Options]**: voeg eventueel geavanceerde configuratieopties toe die nodig zijn voor de omgeving.
 
-   ![ Screenshot die de gebieden van de de rekeningsconfiguratie van Databanken externe toont.](assets/ext-account-databricks.png)
+   ![&#x200B; Screenshot die de gebieden van de de rekeningsconfiguratie van Databanken externe toont.](assets/ext-account-databricks.png)
 
 1. Nadat u de verbinding hebt ingesteld, maakt u de Adobe Campaign SQL-functies in de database van externe databases. Zodra deze functies beschikbaar zijn, klikt u op **[!UICONTROL Deploy functions]** om deze te activeren.
 
@@ -156,7 +156,7 @@ Met de externe Google BigQuery-account kunt u uw Campagne-instantie verbinden me
 
 Configureer in Adobe Campaign Web User Interface uw Google BigQuery-externe account.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Google BigQuery als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Google BigQuery als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -176,7 +176,7 @@ Configureer in Adobe Campaign Web User Interface uw Google BigQuery-externe acco
 
    * **[!UICONTROL Options]**: voeg eventueel geavanceerde configuratieopties toe die nodig zijn voor de omgeving.
 
-   ![ Schermafbeelding die de externe de rekeningsconfiguratiegebieden van Google BigQuery toont.](assets/ext-account-google.png)
+   ![&#x200B; Schermafbeelding die de externe de rekeningsconfiguratiegebieden van Google BigQuery toont.](assets/ext-account-google.png)
 
 1. Plak onder **[!UICONTROL Parameters]** de inhoud van het JSON-bestand met de sleutel van de serviceaccount om Adobe Campaign te verifiëren met Google BigQuery.
 
@@ -193,7 +193,7 @@ Configureer in Adobe Campaign Web User Interface uw Google BigQuery-externe acco
    * **[!UICONTROL Proxy UID]**: De gebruikersnaam voor verificatie met de proxyserver, indien vereist.
    * **[!UICONTROL Proxy Host]**: Het wachtwoord voor de Proxy UID (indien van toepassing).
 
-   ![ Schermafbeelding die de externe de rekeningsconfiguratiegebieden van Google BigQuery toont.](assets/ext-account-google-2.png)
+   ![&#x200B; Schermafbeelding die de externe de rekeningsconfiguratiegebieden van Google BigQuery toont.](assets/ext-account-google-2.png)
 
 ## Microsoft SQL Server
 
@@ -201,7 +201,7 @@ Met de externe Microsoft SQL Server-account kunt u uw Campagne-instantie verbind
 
 In Adobe Campaign Web User Interface, vorm uw externe rekening van de Server van Microsoft SQL.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en de Server van Microsoft SQL als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en de Server van Microsoft SQL als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -223,7 +223,7 @@ In Adobe Campaign Web User Interface, vorm uw externe rekening van de Server van
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van de Server van Microsoft SQL toont.](assets/ext-account-microsoft-sql.png)
+   ![&#x200B; Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van de Server van Microsoft SQL toont.](assets/ext-account-microsoft-sql.png)
 
 1. U kunt de optie **[!UICONTROL Use a work tablespace for tables]** inschakelen en vervolgens de **[!UICONTROL Tablespace of tables]** opgeven waar de werktabellen worden opgeslagen.
 
@@ -236,7 +236,7 @@ In Adobe Campaign Web User Interface, vorm uw externe rekening van de Server van
 Met de externe MySQL-account kunt u uw Campagne-instantie verbinden met uw externe MySQL-database.
 Configureer uw MySQL-externe account in de Adobe Campaign Web User Interface.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en MySQL als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en MySQL als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -254,7 +254,7 @@ Configureer uw MySQL-externe account in de Adobe Campaign Web User Interface.
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ Schermafbeelding die de gebieden van de MySQL externe rekeningsconfiguratie toont.](assets/ext-account-mysql.png)
+   ![&#x200B; Schermafbeelding die de gebieden van de MySQL externe rekeningsconfiguratie toont.](assets/ext-account-mysql.png)
 
 1. U kunt de optie **[!UICONTROL Use a work tablespace for tables]** inschakelen en vervolgens de **[!UICONTROL Tablespace of tables]** opgeven waar de werktabellen worden opgeslagen.
 
@@ -268,7 +268,7 @@ Met de externe Netezza-account kunt u uw Campagne-instantie verbinden met uw ext
 
 Configureer uw Netezza-externe account in de Adobe Campaign Web User Interface.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Netezza als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Netezza als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -286,7 +286,7 @@ Configureer uw Netezza-externe account in de Adobe Campaign Web User Interface.
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Netezza toont.](assets/ext-account-netezza.png)
+   ![&#x200B; Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Netezza toont.](assets/ext-account-netezza.png)
 
 1. U kunt de optie **[!UICONTROL Use a work tablespace for tables]** inschakelen en vervolgens de **[!UICONTROL Tablespace of tables]** opgeven waar de werktabellen worden opgeslagen.
 
@@ -299,7 +299,7 @@ Configureer uw Netezza-externe account in de Adobe Campaign Web User Interface.
 Met de externe ODBC-account (Sybase ASE, Sybase IQ) kunt u uw Campagne-instantie verbinden met uw externe ODBC-database (Sybase ASE, Sybase IQ).
 In Adobe Campaign Web User Interface, vorm uw ODBC (Sybase ASE, Sybase IQ) externe rekening.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en ODBC (Sybase ASE, Sybase IQ) als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en ODBC (Sybase ASE, Sybase IQ) als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -321,7 +321,7 @@ In Adobe Campaign Web User Interface, vorm uw ODBC (Sybase ASE, Sybase IQ) exter
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ Screenshot die de ODBC externe gebieden van de rekeningsconfiguratie toont.](assets/ext-account-odbc.png)
+   ![&#x200B; Screenshot die de ODBC externe gebieden van de rekeningsconfiguratie toont.](assets/ext-account-odbc.png)
 
 1. U kunt de optie **[!UICONTROL Use a work tablespace for tables]** inschakelen en vervolgens de **[!UICONTROL Tablespace of tables]** opgeven waar de werktabellen worden opgeslagen.
 
@@ -335,7 +335,7 @@ Het relais van HTTP aan verre gegevensbestand externe rekening staat u toe om uw
 
 In de Gebruikersinterface van het Web van Adobe Campaign, vorm uw HTTP relais aan verre gegevensbestand externe rekening.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Amazon opnieuw schuiven als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Amazon opnieuw schuiven als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -353,7 +353,7 @@ In de Gebruikersinterface van het Web van Adobe Campaign, vorm uw HTTP relais aa
 
    * **[!UICONTROL Options]**: voeg eventueel geavanceerde configuratieopties toe die nodig zijn voor de omgeving.
 
-   ![ Screenshot die het relais van HTTP aan de verre gebieden van de gegevensbestandexterne rekeningsconfiguratie toont.](assets/ext-account-azure.png)
+   ![&#x200B; Screenshot die het relais van HTTP aan de verre gebieden van de gegevensbestandexterne rekeningsconfiguratie toont.](assets/ext-account-azure.png)
 
 1. U kunt de optie **[!UICONTROL Use a work tablespace for tables]** inschakelen en vervolgens de **[!UICONTROL Tablespace of tables]** opgeven waar de werktabellen worden opgeslagen.
 
@@ -366,7 +366,7 @@ In de Gebruikersinterface van het Web van Adobe Campaign, vorm uw HTTP relais aa
 Met de externe Oracle-account kunt u uw Campagne-instantie verbinden met uw externe Oracle-database.
 Configureer uw Oracle-externe account in de Adobe Campaign Web User Interface.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Oracle als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Oracle als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -382,7 +382,7 @@ Configureer uw Oracle-externe account in de Adobe Campaign Web User Interface.
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Oracle toont.](assets/ext-account-oracle.png)
+   ![&#x200B; Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Oracle toont.](assets/ext-account-oracle.png)
 
 1. U kunt de optie **[!UICONTROL Use a work tablespace for tables]** inschakelen en vervolgens de **[!UICONTROL Tablespace of tables]** opgeven waar de werktabellen worden opgeslagen.
 
@@ -395,7 +395,7 @@ Configureer uw Oracle-externe account in de Adobe Campaign Web User Interface.
 Met de externe PostgreSQL-account kunt u uw Campagne-instantie verbinden met uw externe PostSQL-database.
 Configureer in Adobe Campaign Web User Interface uw PostgreSQL-externe account.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en PostgreSQL als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en PostgreSQL als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -415,7 +415,7 @@ Configureer in Adobe Campaign Web User Interface uw PostgreSQL-externe account.
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ Schermschot die de gebieden van de de rekeningsconfiguratie PostgreSQL tonen.](assets/ext-account-postgresql.png)
+   ![&#x200B; Schermschot die de gebieden van de de rekeningsconfiguratie PostgreSQL tonen.](assets/ext-account-postgresql.png)
 
 1. U kunt de optie **[!UICONTROL Use a work tablespace for tables]** inschakelen en vervolgens de **[!UICONTROL Tablespace of tables]** opgeven waar de werktabellen worden opgeslagen.
 
@@ -429,7 +429,7 @@ Met de externe SAP HANA-account kunt u uw Campagne-instantie verbinden met uw ex
 
 Configureer uw SAP HANA-externe account in de Adobe Campaign Web User Interface.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en SAP HANA als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en SAP HANA als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -449,7 +449,7 @@ Configureer uw SAP HANA-externe account in de Adobe Campaign Web User Interface.
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van SAP HANA toont.](assets/ext-account-saphana.png)
+   ![&#x200B; Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van SAP HANA toont.](assets/ext-account-saphana.png)
 
 1. U kunt de optie **[!UICONTROL Use a work tablespace for tables]** inschakelen en vervolgens de **[!UICONTROL Tablespace of tables]** opgeven waar de werktabellen worden opgeslagen.
 
@@ -463,7 +463,7 @@ Met de externe Snowflake-account kunt u uw Campagne-instantie verbinden met uw e
 
 Configureer uw Snowflake-externe account in de Adobe Campaign Web User Interface.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Snowflake als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Snowflake als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -485,7 +485,7 @@ Configureer uw Snowflake-externe account in de Adobe Campaign Web User Interface
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Snowflake toont.](assets/ext-account-snowflake.png)
+   ![&#x200B; Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Snowflake toont.](assets/ext-account-snowflake.png)
 
 1. Nadat u de verbinding hebt ingesteld, maakt u de Adobe Campaign SQL-functies in uw externe Snowflake-database. Zodra deze functies beschikbaar zijn, klikt u op **[!UICONTROL Deploy functions]** om deze te activeren.
 
@@ -501,7 +501,7 @@ Met de externe Teradata-account kunt u uw Campagne-instantie verbinden met uw ex
 
 Configureer uw Teradata-externe account in de Adobe Campaign Web User Interface.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Teradata als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Teradata als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -521,7 +521,7 @@ Configureer uw Teradata-externe account in de Adobe Campaign Web User Interface.
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Teradata toont.](assets/ext-account-teradata.png)
+   ![&#x200B; Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Teradata toont.](assets/ext-account-teradata.png)
 
 1. U kunt de optie **[!UICONTROL Use a work tablespace for tables]** inschakelen en vervolgens de **[!UICONTROL Tablespace of tables]** opgeven waar de werktabellen worden opgeslagen.
 
@@ -535,7 +535,7 @@ Configureer uw Teradata-externe account in de Adobe Campaign Web User Interface.
 
 Configureer uw Vertica Analytics-externe account in de Adobe Campaign Web User Interface.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Vertica Analytics als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Vertica Analytics als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -557,7 +557,7 @@ Configureer uw Vertica Analytics-externe account in de Adobe Campaign Web User I
 
    * **[!UICONTROL Time zone]**: selecteer of voer de tijdzone van de server in om nauwkeurige op tijd-gebaseerde verrichtingen te verzekeren.
 
-   ![ Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Vertica Analytics toont.](assets/ext-account-vertica.png)
+   ![&#x200B; Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Vertica Analytics toont.](assets/ext-account-vertica.png)
 
 1. Nadat u de verbinding hebt ingesteld, maakt u de Adobe Campaign SQL-functies in uw externe Vertica Analytics-database. Zodra deze functies beschikbaar zijn, klikt u op **[!UICONTROL Deploy functions]** om deze te activeren.
 
@@ -567,7 +567,7 @@ Met de externe Microsoft Fabric-account kunt u uw Campagne-instantie verbinden m
 
 Configureer in Adobe Campaign Web User Interface uw Microsoft Fabric-externe account.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en de Stof van Microsoft zoals **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en de Stof van Microsoft zoals **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -583,7 +583,7 @@ Configureer in Adobe Campaign Web User Interface uw Microsoft Fabric-externe acc
 
    * **[!UICONTROL Options]**: voeg eventueel geavanceerde configuratieopties toe die nodig zijn voor de omgeving.
 
-   ![ Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van de Stof van Microsoft toont.](assets/ext-account-fabric.png)
+   ![&#x200B; Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van de Stof van Microsoft toont.](assets/ext-account-fabric.png)
 
 1. Nadat u de verbinding hebt ingesteld, maakt u de Adobe Campaign SQL-functies in de externe Redshift-database. Zodra deze functies beschikbaar zijn, klikt u op **[!UICONTROL Deploy functions]** om deze te activeren.
 

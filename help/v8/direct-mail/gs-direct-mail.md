@@ -19,9 +19,9 @@ Bij het maken van een directe-maillevering genereert Adobe Campaign een extracti
 
 Voor het maken van directe e-mailleveringen hebt u drie opties:
 
-* **Werkschema&#39;s**: Na het toevoegen van een Directe activiteit van het postkanaal aan uw werkschema en het vormen van de basismontages, ambt de inhoud van uw directe postleveringen van uw juiste paneelmenu. Voor gedetailleerde instructies bij het vormen van werkschema&#39;s, verwijs naar [ deze pagina ](../workflows/gs-workflow-creation.md).
-* **Campagnes**: Zodra u een campagne creeert, kunt u een directe postlevering tot stand brengen. Voor meer informatie bij vestiging uw campagne, verwijs naar [ deze pagina ](../campaigns/gs-campaigns.md).
-* **stand-alone leveringen**: Sluit klanten direct en onmiddellijk met individuele directe postlevering, zonder de behoefte aan werkschema&#39;s of campagnes aan. [ leren hoe te om een levering ](../msg/gs-deliveries.md) tot stand te brengen
+* **Werkschema&#39;s**: Na het toevoegen van een Directe activiteit van het postkanaal aan uw werkschema en het vormen van de basismontages, ambt de inhoud van uw directe postleveringen van uw juiste paneelmenu. Voor gedetailleerde instructies bij het vormen van werkschema&#39;s, verwijs naar [&#x200B; deze pagina &#x200B;](../workflows/gs-workflow-creation.md).
+* **Campagnes**: Zodra u een campagne creeert, kunt u een directe postlevering tot stand brengen. Voor meer informatie bij vestiging uw campagne, verwijs naar [&#x200B; deze pagina &#x200B;](../campaigns/gs-campaigns.md).
+* **stand-alone leveringen**: Sluit klanten direct en onmiddellijk met individuele directe postlevering, zonder de behoefte aan werkschema&#39;s of campagnes aan. [&#x200B; leren hoe te om een levering &#x200B;](../msg/gs-deliveries.md) tot stand te brengen
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0;">

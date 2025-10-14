@@ -33,11 +33,11 @@ Volg deze stappen om de **Test** activiteit te vormen:
 
 1. De **[!UICONTROL Test]** -activiteit geeft standaard een eenvoudige booleaanse test weer. Als aan de voorwaarde in de overgang &quot;Waar&quot; wordt bepaald, wordt deze overgang geactiveerd. Anders wordt de standaardovergang &quot;False&quot; geactiveerd.
 
-1. Klik op het pictogram **[!UICONTROL Open personalization dialog]** om de voorwaarde te configureren die aan een overgang is gekoppeld. Gebruik de uitdrukkingsredacteur om de regels te bepalen die worden vereist om deze overgang te activeren. U kunt ook gebeurtenisvariabelen, voorwaarden en datum-/tijdfuncties gebruiken. [ Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur ](../event-variables.md) te werken.
+1. Klik op het pictogram **[!UICONTROL Open personalization dialog]** om de voorwaarde te configureren die aan een overgang is gekoppeld. Gebruik de uitdrukkingsredacteur om de regels te bepalen die worden vereist om deze overgang te activeren. U kunt ook gebeurtenisvariabelen, voorwaarden en datum-/tijdfuncties gebruiken. [&#x200B; Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur &#x200B;](../event-variables.md) te werken.
 
    Pas bovendien het veld **[!UICONTROL Label]** aan om de naam van de overgang aan te passen op het werkstroomcanvas.
 
-   ![ Standaardconfiguratie van de activiteit van de Test ](../assets/workflow-test-default.png)
+   ![&#x200B; Standaardconfiguratie van de activiteit van de Test &#x200B;](../assets/workflow-test-default.png)
 
 1. Voeg meerdere uitvoerovergangen toe aan een **[!UICONTROL Test]** -activiteit. Klik hiertoe op de knop **[!UICONTROL Add condition]** en configureer het label en de bijbehorende voorwaarde voor elke overgang.
 
@@ -50,8 +50,8 @@ In dit voorbeeld worden verschillende overgangen geactiveerd op basis van het aa
 * Voor 1.000 tot 10.000 profielen, wordt SMS verzonden.
 * Als de doelprofielen lager zijn dan 1.000, worden ze omgeleid naar een overgang &quot;neem geen contact op&quot;.
 
-![ Voorbeeld van de overgangen van de activiteit van de Test ](../assets/workflow-test-example.png)
+![&#x200B; Voorbeeld van de overgangen van de activiteit van de Test &#x200B;](../assets/workflow-test-example.png)
 
 Hiertoe wordt de gebeurtenisvariabele `vars.recCount` in de voorwaarden &quot;email&quot; en &quot;sms&quot; gebruikt om het aantal doelprofielen te tellen en de juiste overgang te activeren.
 
-![ Configuratie van het de activiteitenvoorbeeld van de Test ](../assets/workflow-test-example-config.png)
+![&#x200B; Configuratie van het de activiteitenvoorbeeld van de Test &#x200B;](../assets/workflow-test-example-config.png)

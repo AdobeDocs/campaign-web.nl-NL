@@ -20,15 +20,15 @@ Voer de onderstaande stappen uit als u liever andere inhoud gebruikt voor de ver
 
 1. Selecteer de tab **[!UICONTROL Plain text]** in uw e-mail.
 
-   ![ Schermafbeelding die het Onbewerkte tekstlusje in de E-mailinterface van Designer toont.](assets/text_version_3.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die het Onbewerkte tekstlusje in de E-mailinterface van Designer toont.](assets/text_version_3.png){zoomable="yes"}
 
 1. Schakel synchronisatie uit met de schakeloptie **[!UICONTROL Sync with HTML]** .
 
-   ![ Schermafbeelding die de Synchronisatie met HTML tonen knevel in het Onbewerkte tekstlusje.](assets/text_version_1.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de Synchronisatie met HTML tonen knevel in het Onbewerkte tekstlusje.](assets/text_version_1.png){zoomable="yes"}
 
 1. Klik op het vinkje om uw keuze te bevestigen.
 
-   ![ Schermafbeelding die de knoop van het vinkje toont om het onbruikbaar maken synchronisatie te bevestigen.](assets/text_version_2.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de knoop van het vinkje toont om het onbruikbaar maken synchronisatie te bevestigen.](assets/text_version_2.png){zoomable="yes"}
 
 1. Bewerk de versie zonder opmaak naar wens.
 

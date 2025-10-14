@@ -29,7 +29,7 @@ Metrische gegevens worden standaard berekend voor leveringen die de afgelopen ze
 
 U kunt het kanaal selecteren dat u wilt weergeven. Deze indicatoren weerspiegelen standaard de cijfers voor het e-mailkanaal.
 
-![ Schermschot die de KPI kaart met metriek voor het e-mailkanaal tonen.](assets/kpi.png){zoomable="yes"}
+![&#x200B; Schermschot die de KPI kaart met metriek voor het e-mailkanaal tonen.](assets/kpi.png){zoomable="yes"}
 
 ## Bericht bezorgd {#ui-delivered-kpi}
 

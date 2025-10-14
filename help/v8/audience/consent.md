@@ -41,11 +41,11 @@ Voer de volgende stappen uit:
 
 1. Maak een externe bestemmingspagina en host deze op het externe systeem van uw keuze.
 
-1. Maak een e-maillevering. [ leer hoe ](../email/create-email.md)
+1. Maak een e-maillevering. [&#x200B; leer hoe &#x200B;](../email/create-email.md)
 
-1. Voeg een koppeling in uw e-mailinhoud in. [ leer hoe ](../email/message-tracking.md#insert-links)
+1. Voeg een koppeling in uw e-mailinhoud in. [&#x200B; leer hoe &#x200B;](../email/message-tracking.md#insert-links)
 
-   ![ verbinding van het Tussenvoegsel in e-mailinhoud ](../email/assets/message-tracking-insert-link.png)
+   ![&#x200B; verbinding van het Tussenvoegsel in e-mailinhoud &#x200B;](../email/assets/message-tracking-insert-link.png)
 
 1. Plak in het veld **[!UICONTROL Url]** de koppeling naar de landingspagina van derden.
 
@@ -55,7 +55,7 @@ Voer de volgende stappen uit:
 
 1. Wijzig **[!UICONTROL Tracking Type]** en plaats het aan **[!UICONTROL Opt out]**.
 
-   ![ geef het volgen type voor opt-out ](../email/assets/message-tracking-edit-a-link.png) uit
+   ![&#x200B; geef het volgen type voor opt-out &#x200B;](../email/assets/message-tracking-edit-a-link.png) uit
 
 1. Klik op **[!UICONTROL Save]** en verzend het bericht. [Meer informatie](../monitor/prepare-send.md)
 
@@ -75,7 +75,7 @@ Na een unsubscription (opt-out), worden de profielen toegevoegd aan de **lijst v
 
 In de sectie **[!UICONTROL No longer contact]** van het tabblad **[!UICONTROL Details]** van het profiel kunt u controleren of er zich op de lijst van gewezen personen een of meer kanalen bevinden in de sectie  van het profiel. [Meer informatie](../audience/about-recipients.md#access)
 
-![ de status van de lijst van gewezen personen van de controle in profieldetails ](assets/profile-no-longer-contact.png)
+![&#x200B; de status van de lijst van gewezen personen van de controle in profieldetails &#x200B;](assets/profile-no-longer-contact.png)
 
 <!--Denylisted status on quarantine list
 

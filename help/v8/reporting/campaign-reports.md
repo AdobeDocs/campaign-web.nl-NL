@@ -16,7 +16,7 @@ De **rapporten van de Campagne** verstrekken een uitvoerig overzicht van uw **ca
 
 De volledige lijst van rapporten en bijbehorende metriek voor elk kanaal is beschikbaar op de volgende pagina&#39;s:
 
-* [ E-mail campagnekanaal ](campaign-reports-email.md)
+* [&#x200B; E-mail campagnekanaal &#x200B;](campaign-reports-email.md)
 * [SMS-campagnekanaal](campaign-reports-sms.md)
 * [Push-campagekanaal](campaign-reports-push.md)
 * [Cataloguskanaal voor e-mail](campaign-reports-direct-mail.md)
@@ -27,27 +27,27 @@ Voer de volgende stappen uit om uw campagnerapporten te openen en te beheren:
 
 1. Navigeer aan het **[!UICONTROL Campaigns]** menu, en klik de **knoop van Rapporten** van het dashboard van uw campagne.
 
-   ![ Schermafbeelding die het menu van Campagnes en de knoop van Rapporten toont ](assets/manage_campaign_report_2.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die het menu van Campagnes en de knoop van Rapporten toont &#x200B;](assets/manage_campaign_report_2.png){zoomable="yes"}
 
    Alternatief, gebruik de drie stippen **Meer acties** knoop naast de campagnenaam in de campagnelijst, en selecteer **[!UICONTROL View report]**.
 
-   ![ Schermschot die de Meer actieknoop en het rapportoptie van de Mening tonen ](assets/manage_campaign_report_1.png){zoomable="yes"}
+   ![&#x200B; Schermschot die de Meer actieknoop en het rapportoptie van de Mening tonen &#x200B;](assets/manage_campaign_report_1.png){zoomable="yes"}
 
 1. Selecteer in het linkermenu een rapport in de lijst en navigeer door de tabbladen om de gegevens van elk kanaal weer te geven.
 
-   ![ Schermschot die het linkermenu met rapportopties en lusjes voor kanaalgegevens tonen ](assets/manage_campaign_report_4.png){zoomable="yes"}
+   ![&#x200B; Schermschot die het linkermenu met rapportopties en lusjes voor kanaalgegevens tonen &#x200B;](assets/manage_campaign_report_4.png){zoomable="yes"}
 
 1. Klik op het dashboard op **[!UICONTROL Select deliveries]** om een specifieke levering in uw campagne als doel in te stellen.
 
 1. In het **[!UICONTROL Delivery throughput]** menu, kies a **Begin** en **[!UICONTROL End time]** om zich op specifieke gegevens te concentreren.
 
-   ![ Schermschot die het menu van de Productie van de Levering met de opties van de tijd van het Begin en van het Eind tonen ](assets/manage_campaign_report_3.png){zoomable="yes"}
+   ![&#x200B; Schermschot die het menu van de Productie van de Levering met de opties van de tijd van het Begin en van het Eind tonen &#x200B;](assets/manage_campaign_report_3.png){zoomable="yes"}
 
 1. Selecteer in het veld **[!UICONTROL Pick folder]** of leveringen of campagnes vanuit een specifieke map moeten worden gericht.
 
-   U kunt **[!UICONTROL Add rules]** ook selecteren om vragen te bouwen voor het betere filtreren van het melden van gegevens. [ Leer hoe te om de vraagmodelaar ](../query/query-modeler-overview.md) te gebruiken
+   U kunt **[!UICONTROL Add rules]** ook selecteren om vragen te bouwen voor het betere filtreren van het melden van gegevens. [&#x200B; Leer hoe te om de vraagmodelaar &#x200B;](../query/query-modeler-overview.md) te gebruiken
 
-   ![ Schermafbeelding die het de omslaggebied van de Keuze toont en regeloptie toevoegt ](assets/manage_campaign_report_4.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die het de omslaggebied van de Keuze toont en regeloptie toevoegt &#x200B;](assets/manage_campaign_report_4.png){zoomable="yes"}
 
 1. Kies in het **[!UICONTROL URLs and click streams]** de **[!UICONTROL Top visited Links]** of de **[!UICONTROL Time period]** .
 

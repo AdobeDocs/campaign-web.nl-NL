@@ -26,7 +26,7 @@ De functie **[!UICONTROL Audit trail]** neemt voortdurend een gedetailleerd logb
 
 * **het de controlespoor van het Schema van Source** staat u toe om activiteiten en recente wijzigingen te controleren die aan uw schema&#39;s binnen de de cliëntconsole van de Campagne v8 worden aangebracht.
 
-  Voor gedetailleerde informatie over schema&#39;s, verwijs naar [ de Documentatie van de Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
+  Voor gedetailleerde informatie over schema&#39;s, verwijs naar [&#x200B; de Documentatie van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/developer/shemas-forms/schemas).
 
 * **het controletraject van het Werkschema** staat u toe om spoor van activiteiten en recente veranderingen te houden die aan werkschema&#39;s, met inbegrip van hun huidige staten zoals worden aangebracht:
 
@@ -39,35 +39,35 @@ De functie **[!UICONTROL Audit trail]** neemt voortdurend een gedetailleerd logb
    * Wakeup, dat gelijk is aan de handeling Voer taken uit die in behandeling zijn.
    * Onvoorwaardelijk stoppen
 
-  Voor meer informatie over werkschema&#39;s, verwijs naar deze [ pagina ](../workflows/gs-workflows.md).
+  Voor meer informatie over werkschema&#39;s, verwijs naar deze [&#x200B; pagina &#x200B;](../workflows/gs-workflows.md).
 
 * **de controlespoor van de Optie** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw opties in Campagne v8 worden aangebracht.
 
-  Voor meer informatie over opties, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Voor meer informatie over opties, verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **de controletrail van de Levering** staat u toe om de activiteiten en de laatste wijzigingen te controleren die aan uw leveringen worden gedaan.
 
-  Voor meer informatie over leveringen, verwijs naar deze [ pagina ](../msg/gs-deliveries.md).
+  Voor meer informatie over leveringen, verwijs naar deze [&#x200B; pagina &#x200B;](../msg/gs-deliveries.md).
 
 * **Externe Rekening** staat u toe om wijzigingen te controleren die aan externe rekeningen in Campagne v8 worden aangebracht, die door technische processen zoals technische werkschema&#39;s of campagnewerkschema&#39;s worden gebruikt.
 
-  Voor meer informatie over externe rekeningen, verwijs naar deze [ pagina ](../administration/external-account.md).
+  Voor meer informatie over externe rekeningen, verwijs naar deze [&#x200B; pagina &#x200B;](../administration/external-account.md).
 
 * **Afbeelding van de Levering** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw Aflevering in Campagne v8 worden aangebracht.
 
-  Voor meer informatie over leveringsafbeelding, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
+  Voor meer informatie over leveringsafbeelding, verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/audience/add-profiles/target-mappings).
 
 * **Toepassing van het Web** staat u toe om wijzigingen te controleren die aan de vormen van het Web in Campagne v8 worden aangebracht, die worden gebruikt om pagina&#39;s met input en selectievelden tot stand te brengen, en die gegevens van het gegevensbestand kunnen omvatten.
 
-  Voor meer informatie over Webtoepassingen, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/content/webapps).
+  Voor meer informatie over Webtoepassingen, verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/content/webapps).
 
 * **Aanbieding** staat u toe om de activiteiten en de laatste wijzigingen te controleren die aan uw aanbiedingen worden gedaan.
 
-  Voor meer informatie over aanbiedingen, verwijs naar deze [ pagina ](../msg/offers.md).
+  Voor meer informatie over aanbiedingen, verwijs naar deze [&#x200B; pagina &#x200B;](../msg/offers.md).
 
 * **Exploitant** laat u toe om activiteiten en recente wijzigingen te controleren die aan uw Operatoren in Campagne v8 worden aangebracht.
 
-  Voor meer informatie over exploitanten, verwijs naar deze [ pagina ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
+  Voor meer informatie over exploitanten, verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators).
 
 +++
 
@@ -77,7 +77,7 @@ Ga als volgt te werk om het exemplaar **[!UICONTROL Audit trail]** te openen:
 
 1. Selecteer **[!UICONTROL Audit trail]** onder het menu **[!UICONTROL Administration]** .
 
-   ![ Schermschot die het menu van het Beleid met de geselecteerde het spooroptie van de Controle tonen ](assets/audit-trail-1.png)
+   ![&#x200B; Schermschot die het menu van het Beleid met de geselecteerde het spooroptie van de Controle tonen &#x200B;](assets/audit-trail-1.png)
 
 1. Het venster **[!UICONTROL Audit trail]** wordt geopend met de lijst met entiteiten. De gebruikersinterface van het Web van Adobe Campaign controleert creeert, geeft, en schrapt acties voor werkschema&#39;s, opties, leveringen, en schema&#39;s uit.
 
@@ -93,4 +93,4 @@ Ga als volgt te werk om het exemplaar **[!UICONTROL Audit trail]** te openen:
 
    Het codeblok bevat meer informatie over wat precies in uw entiteit is gewijzigd.
 
-   ![ Schermafbeelding die het venster van de Auditentiteit met gedetailleerde informatie over wijzigingen tonen ](assets/audit-trail-2.png)
+   ![&#x200B; Schermafbeelding die het venster van de Auditentiteit met gedetailleerde informatie over wijzigingen tonen &#x200B;](assets/audit-trail-2.png)

@@ -27,7 +27,7 @@ Navigeer naar het menu **[!UICONTROL Reports]** in de sectie **[!UICONTROL Repor
 
 Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over hoe uw bezoekers omgaan met elke levering van pushberichten. De cijfers worden hieronder beschreven.
 
-![ het overzichtsmetriek van de Levering, die KPIs met betrekking tot de prestaties van het dupbericht tonen.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
+![&#x200B; het overzichtsmetriek van de Levering, die KPIs met betrekking tot de prestaties van het dupbericht tonen.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
 +++Meer informatie over de maatstaven van het leveringsoverzicht.
 
@@ -50,7 +50,7 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI
 
 De tabel en grafiek van **[!UICONTROL Targeted audience]** bevatten gegevens die betrekking hebben op uw ontvangers voor elke verzonden pushmelding. De cijfers worden hieronder beschreven.
 
-![ gerichte publieksmetriek, die gegevens met betrekking tot ontvangers en uitsluitingen voor dupberichten tonen.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
+![&#x200B; gerichte publieksmetriek, die gegevens met betrekking tot ontvangers en uitsluitingen voor dupberichten tonen.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
 +++ Meer informatie over de meetgegevens voor doelgroepen.
 
@@ -83,7 +83,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke push
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine is geplaatst na een mislukte levering (ongeldige registratie, berichtafwijzing, payload fout en vergelijkbare redenen) met betrekking tot het aantal te leveren berichten.
 
-  De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#push-error-types){target="_blank"}.
+  De types van de de berichtfouten van de duw zijn vermeld in [&#x200B; Adobe Campaign v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#push-error-types){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke push
 
 In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** ziet u waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet konden ontvangen.
 
-De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#push-error-types){target="_blank"}.
+De types van de de berichtfouten van de duw zijn vermeld in [&#x200B; Adobe Campaign v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#push-error-types){target="_blank"}.
 
 ## Leveringsdoorvoer {#delivery-throughput-sms}
 
@@ -105,6 +105,6 @@ De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 
 >title="Leveringsrapport"
 >abstract="Het **rapport van de productie van de Levering** stelt gedetailleerde informatie betreffende de productie van de dupmelding van de levering van het volledige platform binnen een gespecificeerde timeframe voor."
 
-![ metriek van de productie van de levering, die succes en foutenpercentages voor dupberichten over een gespecificeerde periode tonen.](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
+![&#x200B; metriek van de productie van de levering, die succes en foutenpercentages voor dupberichten over een gespecificeerde periode tonen.](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 Het **[!UICONTROL Delivery Throughput]** -rapport biedt uitgebreide inzichten in de doeltreffendheid van het systeem voor de levering van pushberichten, waarmee u een gedetailleerde samenvatting kunt geven van het succes en de foutenpercentages over een bepaalde periode.

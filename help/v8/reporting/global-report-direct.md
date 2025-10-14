@@ -27,7 +27,7 @@ Navigeer naar het menu **[!UICONTROL Reports]** in de sectie **[!UICONTROL Repor
 
 In **[!UICONTROL Delivery Overview]** worden de belangrijkste prestatiemetriek (KPI&#39;s) gepresenteerd, die diepgaande inzichten biedt in de interactie van uw bezoekers met elke directe-maillevering. De meetgegevens worden hieronder beschreven.
 
-![ Dit beeld toont de metriek van het leveringsoverzicht voor directe postleveringen.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
+![&#x200B; Dit beeld toont de metriek van het leveringsoverzicht voor directe postleveringen.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
 +++Meer informatie over de maatstaven van het leveringsoverzicht.
 
@@ -55,7 +55,7 @@ In **[!UICONTROL Delivery Overview]** worden de belangrijkste prestatiemetriek (
 
 De tabel en grafiek voor **[!UICONTROL Targeted Audience]** bevatten gegevens over showcase die betrekking hebben op uw ontvangers. Hieronder vindt u gedetailleerde cijfers.
 
-![ Dit beeld toont de gerichte publieksmetriek voor directe postleveringen.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
+![&#x200B; Dit beeld toont de gerichte publieksmetriek voor directe postleveringen.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
 +++ Meer informatie over de meetgegevens voor doelgroepen.
 
@@ -105,7 +105,7 @@ De grafiek en de tabel van **[!UICONTROL Delivery statistics]** bevatten een ove
 >title="Oorzaken van uitsluiting"
 >abstract="De **Oorzaken van uitsluiting** grafiek illustreert de distributie van verworpen berichten tijdens de voorbereiding voor levering, die door elke regel wordt gecategoriseerd."
 
-![ Dit beeld toont de oorzaken van uitsluitingsmetriek voor directe postleveringen.](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
+![&#x200B; Dit beeld toont de oorzaken van uitsluitingsmetriek voor directe postleveringen.](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 In de grafiek en de tabel met uitsluitingen worden de redenen weergegeven waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
 

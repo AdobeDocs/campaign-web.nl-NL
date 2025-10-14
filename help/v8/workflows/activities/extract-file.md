@@ -30,16 +30,16 @@ Om het **dossier** activiteit van het Extraheren te vormen, voeg een **dossier**
 
 In de sectie **[!UICONTROL File to extract]** kunt u de bestandseigenschappen en de gegevens configureren die moeten worden opgenomen.
 
-![ Screenshot die de configuratieopties voor het te halen dossier toont.](../assets/extract-file-file.png)
+![&#x200B; Screenshot die de configuratieopties voor het te halen dossier toont.](../assets/extract-file-file.png)
 
 1. Voer in het veld **[!UICONTROL File name]** de gewenste naam in voor het bestand dat u wilt extraheren.
 
-   U kunt de naam van het bestand aanpassen met behulp van gebeurtenisvariabelen, -voorwaarden en datum-/tijdfuncties. Klik hiertoe op het pictogram **[!UICONTROL Open personalization dialog]** om de expressie-editor te openen. [ Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur ](../event-variables.md) te werken.
+   U kunt de naam van het bestand aanpassen met behulp van gebeurtenisvariabelen, -voorwaarden en datum-/tijdfuncties. Klik hiertoe op het pictogram **[!UICONTROL Open personalization dialog]** om de expressie-editor te openen. [&#x200B; Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur &#x200B;](../event-variables.md) te werken.
 
 1. Geef de kolommen op die in het geëxtraheerde bestand moeten worden weergegeven. Ga als volgt te werk om dit te doen:
 
    1. Klik op **[!UICONTROL Add output column]** .
-   1. Kies het kenmerk dat u in de kolom wilt weergeven en bevestig het vervolgens. Welke kenmerken beschikbaar zijn, is afhankelijk van de doeldimensie van de workflow. [ Leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../../get-started/attributes.md).
+   1. Kies het kenmerk dat u in de kolom wilt weergeven en bevestig het vervolgens. Welke kenmerken beschikbaar zijn, is afhankelijk van de doeldimensie van de workflow. [&#x200B; Leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten &#x200B;](../../get-started/attributes.md).
    1. Nadat de kolom is toegevoegd, kunt u de **[!UICONTROL Label]** ervan wijzigen en de bijbehorende **[!UICONTROL Attribute]** wijzigen.
    1. Als u een transformatie wilt toepassen op de waarden van de kolom, selecteert u deze in de vervolgkeuzelijst. U kunt bijvoorbeeld alle waarden in de geselecteerde kolom in hoofdletters zetten.
 
@@ -75,7 +75,7 @@ Met de indelingssectie **[!UICONTROL Destination]** kunt u configureren hoe het 
 
 +++
 
-   ![ Screenshot die de configuratieopties voor het te halen dossier toont.](../assets/extract-file-format.png)
+   ![&#x200B; Screenshot die de configuratieopties voor het te halen dossier toont.](../assets/extract-file-format.png)
 
 ## Een nabewerkingsfase toevoegen {#script}
 
@@ -86,9 +86,9 @@ Met de indelingssectie **[!UICONTROL Destination]** kunt u configureren hoe het 
 
 Met **[!UICONTROL Export modification script]** kunt u een verwerkingsstadium toepassen dat wordt uitgevoerd tijdens het ophalen van gegevens, zoals comprimeren of coderen. Klik hiertoe op de knop **[!UICONTROL Edit script]** .
 
-De uitdrukkingsredacteur opent, die u toestaat om het bevel in te gaan om op het dossier van toepassing te zijn. Het linkerdeelvenster bevat vooraf gedefinieerde syntaxis waarmee u het script kunt samenstellen. [ Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur ](../event-variables.md) te werken.
+De uitdrukkingsredacteur opent, die u toestaat om het bevel in te gaan om op het dossier van toepassing te zijn. Het linkerdeelvenster bevat vooraf gedefinieerde syntaxis waarmee u het script kunt samenstellen. [&#x200B; Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur &#x200B;](../event-variables.md) te werken.
 
-![ Screenshot die de manuscripteditor voor post-verwerking toont.](../assets/extract-file-script.png)
+![&#x200B; Screenshot die de manuscripteditor voor post-verwerking toont.](../assets/extract-file-script.png)
 
 ## Aanvullende opties {#additiona-options}
 
@@ -112,12 +112,12 @@ Nadat de extractie van het uitvoerbestand is geconfigureerd, zijn aanvullende op
 
 In het volgende voorbeeld, bouwt a **publiek** activiteit wordt gevolgd door een **dossier** activiteit van het Extraheren om alle gerichte profielen in een Csv- dossier te halen.
 
-![ Schermafbeelding die een voorbeeldwerkschema met een het publieksactiviteit toont van de Bouwstijl die door een het dossieractiviteit van de Uittreksel wordt gevolgd.](../assets/extract-file-example.png)
+![&#x200B; Schermafbeelding die een voorbeeldwerkschema met een het publieksactiviteit toont van de Bouwstijl die door een het dossieractiviteit van de Uittreksel wordt gevolgd.](../assets/extract-file-example.png)
 
 * Het veld **[!UICONTROL File name]** is geconfigureerd om de datum van de extractie op te nemen.
 
-  ![ Scherenshot die de configuratie van het dossier toont - noem met de inbegrepen datum.](../assets/extract-file-example-name.png)
+  ![&#x200B; Scherenshot die de configuratie van het dossier toont - noem met de inbegrepen datum.](../assets/extract-file-example-name.png)
 
 * Er worden kolommen toegevoegd om de voor- en achternaam van de profielen, de id&#39;s van de klant en de aanmaakdatums in de database weer te geven.
 
-  ![ Screenshot die de configuratie van kolommen in het gehaalde dossier tonen.](../assets/extract-file-example-columns.png)
+  ![&#x200B; Screenshot die de configuratie van kolommen in het gehaalde dossier tonen.](../assets/extract-file-example-columns.png)

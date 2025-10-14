@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Sjablonen voor e-mailinhoud gebruiken {#use-email-templates}
 
-Wanneer [ creërend een e-mail ](../email/create-email.md), gebruik de **[!UICONTROL Select design template]** sectie van de **[!UICONTROL Create your email]** interface beginnen uw inhoud van een malplaatje te bouwen.
+Wanneer [&#x200B; creërend een e-mail &#x200B;](../email/create-email.md), gebruik de **[!UICONTROL Select design template]** sectie van de **[!UICONTROL Create your email]** interface beginnen uw inhoud van een malplaatje te bouwen.
 
-![ de interface van Designer van de E-mail die beschikbare malplaatjes toont ](assets/email_designer-templates.png){zoomable="yes"}
+![&#x200B; de interface van Designer van de E-mail die beschikbare malplaatjes toont &#x200B;](assets/email_designer-templates.png){zoomable="yes"}
 
 U kunt kiezen uit:
 
@@ -31,27 +31,27 @@ In de onderstaande secties vindt u informatie over het gebruik van sjablonen en 
 
 >[!NOTE]
 >
->E-mailinhoudsmalplaatjes zijn verschillend van [ leveringsmalplaatjes ](../msg/delivery-template.md). Met deze sjablonen kunt u alleen e-mailinhoud hergebruiken, terwijl u met leveringssjablonen de inhoud van de levering en alle leveringsinstellingen en -eigenschappen opnieuw kunt gebruiken, zoals typologieën, het adres van de afzender en het publiek.
+>E-mailinhoudsmalplaatjes zijn verschillend van [&#x200B; leveringsmalplaatjes &#x200B;](../msg/delivery-template.md). Met deze sjablonen kunt u alleen e-mailinhoud hergebruiken, terwijl u met leveringssjablonen de inhoud van de levering en alle leveringsinstellingen en -eigenschappen opnieuw kunt gebruiken, zoals typologieën, het adres van de afzender en het publiek.
 
 Voer de onderstaande stappen uit om uw inhoud te gaan samenstellen met een van de voorbeeldsjablonen of opgeslagen sjablonen.
 
-1. Open [ E-mail Designer ](../email/create-email-content.md).
+1. Open [&#x200B; E-mail Designer &#x200B;](../email/create-email-content.md).
 
 1. In het scherm **[!UICONTROL Create your email]** is de tab **[!UICONTROL Sample templates]** standaard geselecteerd.
 
 1. Blader naar het tabblad **[!UICONTROL Saved templates]** als u een bestaande aangepaste sjabloon wilt gebruiken.
 
-   ![ Opgeslagen malplaatjes lusje in E-mail Designer ](assets/email_designer-saved-templates-tab.png){zoomable="yes"}
+   ![&#x200B; Opgeslagen malplaatjes lusje in E-mail Designer &#x200B;](assets/email_designer-saved-templates-tab.png){zoomable="yes"}
 
-1. De lijst van alle [ bewaarde malplaatjes ](create-email-templates.md#save-as-template) toont. U kunt ze **[!UICONTROL By name]** , **[!UICONTROL Last modified]** en **[!UICONTROL Last created]** sorteren.
+1. De lijst van alle [&#x200B; bewaarde malplaatjes &#x200B;](create-email-templates.md#save-as-template) toont. U kunt ze **[!UICONTROL By name]** , **[!UICONTROL Last modified]** en **[!UICONTROL Last created]** sorteren.
 
-   ![ Lijst van bewaarde malplaatjes in E-mail Designer ](assets/email_designer-saved-templates.png){zoomable="yes"}
+   ![&#x200B; Lijst van bewaarde malplaatjes in E-mail Designer &#x200B;](assets/email_designer-saved-templates.png){zoomable="yes"}
 
 1. Selecteer een sjabloon in de lijst om de inhoud ervan weer te geven.
 
 1. Gebruik de rechter- en linkerpijlen om tussen de sjablonen te navigeren (voorbeeld of opgeslagen afhankelijk van uw selectie).
 
-   ![ de pijlen van de Navigatie voor malplaatjes in E-mail Designer ](assets/email_designer-saved-templates-navigate.png){zoomable="yes"}
+   ![&#x200B; de pijlen van de Navigatie voor malplaatjes in E-mail Designer &#x200B;](assets/email_designer-saved-templates-navigate.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Use this template]** rechtsboven in het scherm.
 

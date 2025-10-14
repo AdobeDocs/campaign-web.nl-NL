@@ -17,13 +17,13 @@ Welkom bij Adobe Campaign v8!
 
 Deze naslaggids is ontworpen voor u als een gebruiker die van Campaign Standard overschakelt naar Campaign v8. Het helpt u zich met uw nieuwe milieu van de Campagne vertrouwd te maken en u door de stappen te lopen die worden vereist om aan de slag te gaan voor uw rol.
 
-1. Begin door [ te leren wat op Adobe Campaign v8 ](#new) nieuw is.
+1. Begin door [&#x200B; te leren wat op Adobe Campaign v8 &#x200B;](#new) nieuw is.
 
-1. Daarna begrijp [ de ervaringsverschillen tussen Adobe Campaign Standard en Adobe Campaign v8 volgens uw rol ](#experiences).
+1. Daarna begrijp [&#x200B; de ervaringsverschillen tussen Adobe Campaign Standard en Adobe Campaign v8 volgens uw rol &#x200B;](#experiences).
 
 ## Nieuwe functies {#new}
 
-Bekijk een glimp van de nieuwste verbeteringen in de Adobe Campaign Web-gebruikersinterface op deze pagina. Voor een uitvoerige lijst van zeer belangrijke mogelijkheden en versie werkt eigenschappen bij, controleer [ deze sectie ](../../v8/rn/whats-new.md).
+Bekijk een glimp van de nieuwste verbeteringen in de Adobe Campaign Web-gebruikersinterface op deze pagina. Voor een uitvoerige lijst van zeer belangrijke mogelijkheden en versie werkt eigenschappen bij, controleer [&#x200B; deze sectie &#x200B;](../../v8/rn/whats-new.md).
 
 ### Verbeteringen met campagne v8 {#ac-enhancements}
 
@@ -35,11 +35,11 @@ Belangrijke verbeteringen die beschikbaar zijn bij Adobe Campaign v8 worden hier
 
   De webgebruikersinterface heeft veel gelijkenissen met Adobe Campaign Standard, hoewel sommige terminologie anders kan zijn.
 
-  U kunt [ meer over het Gebruikersinterface van het Web van Adobe Campaign hier ](../../v8/campaign-web-home.md) leren.
+  U kunt [&#x200B; meer over het Gebruikersinterface van het Web van Adobe Campaign hier &#x200B;](../../v8/campaign-web-home.md) leren.
 
   ![](assets/home.png){zoomable="yes"}
 
-  Alle nieuwe mogelijkheden en verbeteringen worden vermeld in de [ Nota&#39;s van de Versie ](../../v8/rn/release-notes.md). De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
+  Alle nieuwe mogelijkheden en verbeteringen worden vermeld in de [&#x200B; Nota&#39;s van de Versie &#x200B;](../../v8/rn/release-notes.md). De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
 
 * **Prestaties**
@@ -71,9 +71,9 @@ Als Campaign Standard-gebruiker die overschakelt naar Adobe Campaign v8, beschik
 
   U kunt uw meldingen op maat maken op basis van het systeem van de klant:
 
-   * Voor [ Android ](../../v8/push/rich-push.md) malplaatjes
+   * Voor [&#x200B; Android &#x200B;](../../v8/push/rich-push.md) malplaatjes
 
-   * Voor [ iOS ](../../v8/push/rich-push.md) malplaatjes
+   * Voor [&#x200B; iOS &#x200B;](../../v8/push/rich-push.md) malplaatjes
 
   Pushmeldingen zijn een cruciaal hulpmiddel voor het engageren van gebruikers van mobiele apps, zodat u ze ook kunt bereiken wanneer ze uw app niet actief gebruiken.
 
@@ -83,11 +83,11 @@ Als Campaign Standard-gebruiker die overschakelt naar Adobe Campaign v8, beschik
 
   Hier volgen de belangrijkste functies die door deze integratie worden ingeschakeld:
 
-   * *Beheer van Activa*: Binnen Adobe Campaign v8, verstrekt de e-mailontwerper een plukker om tot activa toegang te hebben en te beheren. Deze functie vereenvoudigt de integratie van elementen van Adobe Experience Manager in uw levering, waardoor contentbeheer efficiënter wordt. [ Leer meer over het beheer van Activa ](../../v8/integrations/aem-assets.md)
+   * *Beheer van Activa*: Binnen Adobe Campaign v8, verstrekt de e-mailontwerper een plukker om tot activa toegang te hebben en te beheren. Deze functie vereenvoudigt de integratie van elementen van Adobe Experience Manager in uw levering, waardoor contentbeheer efficiënter wordt. [&#x200B; Leer meer over het beheer van Activa &#x200B;](../../v8/integrations/aem-assets.md)
 
      ![](../../v8/integrations/assets/assets_6.png){zoomable="yes"}
 
-   * *E-mailmalplaatjeinvoer*: Adobe Campaign v8 laat u toe om e-mailmalplaatjes van Adobe Experience Manager direct in Campagne te doorbladeren en in te voeren. [ Leer meer over de invoer van het E-mailmalplaatje ](../../v8/integrations/aem-content.md)
+   * *E-mailmalplaatjeinvoer*: Adobe Campaign v8 laat u toe om e-mailmalplaatjes van Adobe Experience Manager direct in Campagne te doorbladeren en in te voeren. [&#x200B; Leer meer over de invoer van het E-mailmalplaatje &#x200B;](../../v8/integrations/aem-content.md)
 
      ![](../../v8/integrations/assets/aem_6.png){zoomable="yes"}
 
@@ -105,19 +105,19 @@ Als Campaign Standard-gebruiker die overschakelt naar Adobe Campaign v8, beschik
 
   ![](../../v8/email/assets/full-email-2.png){zoomable="yes"}
 
-  Het verstrekt varianten van e-mailmalplaatjes en produceert en regenereert beelden. Leer meer over AI Medewerker in [ deze sectie ](../../v8/email/generative-content.md). Adobe Campaign v8 heeft AI hulp beschikbaar voor [ E-mail ](../../v8/email/generative-content.md), [ SMS ](../../v8/email/generative-sms.md), en [ Duw ](../../v8/email/generative-push.md).
+  Het verstrekt varianten van e-mailmalplaatjes en produceert en regenereert beelden. Leer meer over AI Medewerker in [&#x200B; deze sectie &#x200B;](../../v8/email/generative-content.md). Adobe Campaign v8 heeft AI hulp beschikbaar voor [&#x200B; E-mail &#x200B;](../../v8/email/generative-content.md), [&#x200B; SMS &#x200B;](../../v8/email/generative-sms.md), en [&#x200B; Duw &#x200B;](../../v8/email/generative-push.md).
 
 * **Verbeterde infrastructuur van SMS - SMS v2.0**
 
   De eenvoud en het gemak van het gebruik van SMS maken het een zeer waardevol communicatiekanaal naast zijn robuustheid en ongeëvenaarde verenigbaarheid over miljarden terminals.
 
-  Adobe Campaign v8 wordt geleverd met een nieuwe infrastructuur die de verzending van SMS verbetert. [ leer meer over nieuwe montages van SMS ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+  Adobe Campaign v8 wordt geleverd met een nieuwe infrastructuur die de verzending van SMS verbetert. [&#x200B; leer meer over nieuwe montages van SMS &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **Verbeterde infrastructuur van de Duw**
 
   Adobe Campaign v8 introduceert onze nieuwste Push notification service, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken.
 
-  [ Leer meer over de Verbeterde infrastructuur van de Duw ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [&#x200B; Leer meer over de Verbeterde infrastructuur van de Duw &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 
 
 ## Managed Services {#ac-managed-services}
@@ -126,7 +126,7 @@ Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service die proactief to
 
 ## Campaign Standard-mogelijkheden toegevoegd aan v8 {#ac-v8-added}
 
-Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Zij zijn gedetailleerd in [ deze documentatie ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL){target="_blank"}.
+Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Zij zijn gedetailleerd in [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL){target="_blank"}.
 
 * **Dynamische Rapportering**: De dynamische Rapportering verstrekt volledig klantgerichte en real time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=nl-NL){target="_blank"}.
 
@@ -134,7 +134,7 @@ Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste Campaign Stan
 
 * **Rest APIs** - als Gegigreerde gebruiker van de Stard van de Campagne, kunt u Rest APIs gebruiken om integratie voor Adobe Campaign tot stand te brengen en uw eigen ecosysteem te bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=nl-NL){target="_blank"}.
 
-* **het Aanvoeren pagina&#39;s** - Sommige verbeteringen zijn gebracht aan het Aanvoeren van de Campagne v8 pagina&#39;s om eigenschappariteit met Campaign Standard te verzekeren. Leer meer in de [ versienota&#39;s ](../../v8/rn/release-notes.md#new-24-4) en de het landen pagina [ documentatie ](../../v8/landing-pages/get-started-lp.md).
+* **het Aanvoeren pagina&#39;s** - Sommige verbeteringen zijn gebracht aan het Aanvoeren van de Campagne v8 pagina&#39;s om eigenschappariteit met Campaign Standard te verzekeren. Leer meer in de [&#x200B; versienota&#39;s &#x200B;](../../v8/rn/release-notes.md#new-24-4) en de het landen pagina [&#x200B; documentatie &#x200B;](../../v8/landing-pages/get-started-lp.md).
 
 * **Visuele fragmenten** - de Visuele fragmenten zijn herbruikbare visuele componenten die in één of meerdere e-mailleveringen of in inhoudsmalplaatjes kunnen worden van verwijzingen voorzien. Wanneer u een fragment wijzigt, wordt alle inhoud die het fragment gebruikt, bijgewerkt. Met deze functionaliteit kunt u meerdere blokken met aangepaste inhoud samenstellen die marketinggebruikers kunnen gebruiken om snel inhoud van berichten samen te stellen in een verbeterd ontwerpproces. [Meer informatie](../../v8//content/use-visual-fragments.md)
 

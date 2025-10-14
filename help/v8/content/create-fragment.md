@@ -31,8 +31,8 @@ ht-degree: 0%
 
 U kunt op twee manieren inhoudsfragmenten maken:
 
-* Maak een geheel nieuw fragment met het menu dat u toewijst aan **[!UICONTROL Fragments]** . [ leer hoe ](#create-from-scratch)
-* Sla bij het ontwerpen van inhoud een deel van de inhoud op als een fragment. [ leer hoe ](#save-as-fragment)
+* Maak een geheel nieuw fragment met het menu dat u toewijst aan **[!UICONTROL Fragments]** . [&#x200B; leer hoe &#x200B;](#create-from-scratch)
+* Sla bij het ontwerpen van inhoud een deel van de inhoud op als een fragment. [&#x200B; leer hoe &#x200B;](#save-as-fragment)
 
   >[!NOTE]
   >
@@ -44,33 +44,33 @@ Als het inhoudsfragment eenmaal is opgeslagen, kan het worden gebruikt in elke l
 
 Voer de onderstaande stappen uit om een volledig nieuw inhoudsfragment te maken.
 
-1. [ heb toegang tot de fragmentlijst ](#access-manage-fragments) door **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** linkermenu en selecteer **[!UICONTROL Create fragment]**.
+1. [&#x200B; heb toegang tot de fragmentlijst &#x200B;](#access-manage-fragments) door **[!UICONTROL Content Management]** > **[!UICONTROL Fragments]** linkermenu en selecteer **[!UICONTROL Create fragment]**.
 
-   ![ het lijstscherm dat van het Fragment toont de Create fragmentoptie ](assets/fragments-list.png)
+   ![&#x200B; het lijstscherm dat van het Fragment toont de Create fragmentoptie &#x200B;](assets/fragments-list.png)
 
 1. Voer het label van het fragment in. Definieer zo nodig aanvullende opties, zoals de interne naam van het fragment, de map en een beschrijving.
 
-1. Kies het type van te creëren fragment: **Visueel fragment** of **het fragment van de Uitdrukking**. [ leer de verschillen tussen visuele en uitdrukkingsfragmenten ](fragments.md)
+1. Kies het type van te creëren fragment: **Visueel fragment** of **het fragment van de Uitdrukking**. [&#x200B; leer de verschillen tussen visuele en uitdrukkingsfragmenten &#x200B;](fragments.md)
 
-   ![ het aanmaakscherm van het fragment dat typeselectie ](assets/fragment-create.png) toont
+   ![&#x200B; het aanmaakscherm van het fragment dat typeselectie &#x200B;](assets/fragment-create.png) toont
 
    >[!AVAILABILITY]
    >
-   >Visuele fragmenten moeten worden bijgewerkt naar Campagne v8.6.4. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes).
+   >Visuele fragmenten moeten worden bijgewerkt naar Campagne v8.6.4. Leer meer in de [&#x200B; notities van de de consoleversie van de Cliënt van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes).
 
 1. Klik **creeer** knoop.
 
-   * Voor **visuele fragmenten**, de [ E-mailDesigner ](../email/get-started-email-designer.md) vertoningen. Bewerk de inhoud zoals nodig, de zelfde manier u voor om het even welke e-mail binnen een campagne, dan klik **sparen &amp; sluit** knoop. Afbeeldingen, koppelingen, aanpassingsvelden en dynamische inhoud toevoegen.
+   * Voor **visuele fragmenten**, de [&#x200B; E-mailDesigner &#x200B;](../email/get-started-email-designer.md) vertoningen. Bewerk de inhoud zoals nodig, de zelfde manier u voor om het even welke e-mail binnen een campagne, dan klik **sparen &amp; sluit** knoop. Afbeeldingen, koppelingen, aanpassingsvelden en dynamische inhoud toevoegen.
 
-     ![ E-mail het scherm van Designer voor visuele fragmenten ](assets/fragment-designer.png)
+     ![&#x200B; E-mail het scherm van Designer voor visuele fragmenten &#x200B;](assets/fragment-designer.png)
 
-   * Voor **uitdrukkingsfragmenten**, opent de redacteur van de Uitdrukking. Gebruik zijn verpersoonlijking en auteursmogelijkheden om de inhoud te bouwen, dan klik **bevestigen**. [ Leer hoe te met de uitdrukkingsredacteur ](../personalization/personalize.md) te werken
+   * Voor **uitdrukkingsfragmenten**, opent de redacteur van de Uitdrukking. Gebruik zijn verpersoonlijking en auteursmogelijkheden om de inhoud te bouwen, dan klik **bevestigen**. [&#x200B; Leer hoe te met de uitdrukkingsredacteur &#x200B;](../personalization/personalize.md) te werken
 
-     ![ het redacteursscherm van de Uitdrukking voor uitdrukkingsfragmenten ](assets/fragment-expression.png)
+     ![&#x200B; het redacteursscherm van de Uitdrukking voor uitdrukkingsfragmenten &#x200B;](assets/fragment-expression.png)
 
 1. Zodra de inhoud klaar is, klik **sparen**.
 
-Het inhoudsfragment is nu klaar om te worden gebruikt wanneer het bouwen van om het even welke levering of [ inhoudsmalplaatje ](../content/use-email-templates.md) binnen Campagne. Leer hoe u visuele fragmenten en expressiefragmenten in deze secties kunt gebruiken:
+Het inhoudsfragment is nu klaar om te worden gebruikt wanneer het bouwen van om het even welke levering of [&#x200B; inhoudsmalplaatje &#x200B;](../content/use-email-templates.md) binnen Campagne. Leer hoe u visuele fragmenten en expressiefragmenten in deze secties kunt gebruiken:
 * [Visuele fragmenten toevoegen aan uw e-mails](use-visual-fragments.md)
 * [Expressiefragmenten toevoegen aan de expressie-editor](use-expression-fragments.md)
 
@@ -83,13 +83,13 @@ Het inhoudsfragment is nu klaar om te worden gebruikt wanneer het bouwen van om 
 
 <!--pas vu dans l'UI-->
 
-Alle e-mailinhoud kan worden opgeslagen als een visueel fragment dat u later opnieuw kunt gebruiken. Wanneer het ontwerpen van a [ inhoudsmalplaatje ](../content/use-email-templates.md) of een [ e-mail ](../email/get-started-email-designer.md) levering, sparen een gedeelte van de inhoud als visueel fragment. Hiervoor voert u de volgende stappen uit:
+Alle e-mailinhoud kan worden opgeslagen als een visueel fragment dat u later opnieuw kunt gebruiken. Wanneer het ontwerpen van a [&#x200B; inhoudsmalplaatje &#x200B;](../content/use-email-templates.md) of een [&#x200B; e-mail &#x200B;](../email/get-started-email-designer.md) levering, sparen een gedeelte van de inhoud als visueel fragment. Hiervoor voert u de volgende stappen uit:
 
-1. In [ E-mail Designer ](../email/get-started-email-designer.md), klik **Meer** knoop bij het hoogste recht van het scherm.
+1. In [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-designer.md), klik **Meer** knoop bij het hoogste recht van het scherm.
 
 1. Selecteer **[!UICONTROL Save as fragment]** in de vervolgkeuzelijst.
 
-   ![ sparen als fragmentoptie in E-mail Designer ](assets/fragment-save-as.png)
+   ![&#x200B; sparen als fragmentoptie in E-mail Designer &#x200B;](assets/fragment-save-as.png)
 
 1. Het scherm **[!UICONTROL Save as fragment]** wordt weergegeven. Selecteer de elementen die u in het fragment wilt opnemen, inclusief personalisatievelden en dynamische inhoud.
 
@@ -97,13 +97,13 @@ Alle e-mailinhoud kan worden opgeslagen als een visueel fragment dat u later opn
    >
    >U kunt alleen aangrenzende secties selecteren. Lege structuren of andere inhoudsfragmenten kunnen niet worden geselecteerd.
 
-   ![ sparen als fragmentscherm dat elementselectie ](assets/fragment-save-as-screen.png) toont
+   ![&#x200B; sparen als fragmentscherm dat elementselectie &#x200B;](assets/fragment-save-as-screen.png) toont
 
 1. Klik op **[!UICONTROL Create]**. Vul de fragmentnaam in en sla deze op.
 
-   ![ sparen bevestigingsscherm voor visuele fragmenten ](assets/fragment-save-confirm.png)
+   ![&#x200B; sparen bevestigingsscherm voor visuele fragmenten &#x200B;](assets/fragment-save-confirm.png)
 
-   Deze inhoud is nu een standalone fragment, dat aan de [ fragmentlijst ](#manage-fragments) wordt toegevoegd, en toegankelijk van het specifieke menu. Gebruik dit fragment wanneer het bouwen van om het even welk [ e-mail ](../email/get-started-email-designer.md) of [ inhoudsmalplaatje ](../content/use-email-templates.md) binnen Campagne. [ leer hoe ](../content/use-visual-fragments.md)
+   Deze inhoud is nu een standalone fragment, dat aan de [&#x200B; fragmentlijst &#x200B;](#manage-fragments) wordt toegevoegd, en toegankelijk van het specifieke menu. Gebruik dit fragment wanneer het bouwen van om het even welk [&#x200B; e-mail &#x200B;](../email/get-started-email-designer.md) of [&#x200B; inhoudsmalplaatje &#x200B;](../content/use-email-templates.md) binnen Campagne. [&#x200B; leer hoe &#x200B;](../content/use-visual-fragments.md)
 
 >[!NOTE]
 >
@@ -120,7 +120,7 @@ Voer de onderstaande stappen uit om een inhoudsfragment te bewerken.
 1. Klik op de naam van het fragment dat u wilt bewerken in de lijst **[!UICONTROL Fragments]** .
 1. Klik **uitgeven inhoud** knoop om de inhoud van het fragment te openen.
 
-   ![ geef inhoudsknoop voor fragmenten uit ](assets/fragment-edit-content.png)
+   ![&#x200B; geef inhoudsknoop voor fragmenten uit &#x200B;](assets/fragment-edit-content.png)
 
 1. Breng de gewenste wijzigingen aan en sla de wijzigingen op.
 
@@ -135,11 +135,11 @@ Ga als volgt te werk om een inhoudsfragment te verwijderen:
 1. Blader naar de fragmentlijst en klik op de knop **[!UICONTROL More actions]** naast het fragment dat u wilt verwijderen.
 1. Klik **Schrapping** en bevestig.
 
-   ![ optie van de Schrapping in fragmentlijst ](assets/fragment-list-more-actions.png)
+   ![&#x200B; optie van de Schrapping in fragmentlijst &#x200B;](assets/fragment-list-more-actions.png)
 
 >[!CAUTION]
 >
->Wanneer u een fragment verwijdert, worden de leveringen en sjablonen die dit gebruiken bijgewerkt. Het fragment wordt verwijderd uit de inhoud, maar er wordt nog steeds naar verwezen. Om de fragmentinhoud in die leveringen en malplaatjes te houden, onderbreking erving alvorens het fragment te schrappen, [ zoals die in deze sectie ](use-visual-fragments.md#break-inheritance) wordt gedetaillerd.
+>Wanneer u een fragment verwijdert, worden de leveringen en sjablonen die dit gebruiken bijgewerkt. Het fragment wordt verwijderd uit de inhoud, maar er wordt nog steeds naar verwezen. Om de fragmentinhoud in die leveringen en malplaatjes te houden, onderbreking erving alvorens het fragment te schrappen, [&#x200B; zoals die in deze sectie &#x200B;](use-visual-fragments.md#break-inheritance) wordt gedetaillerd.
 
 ### Een inhoudsfragment archiveren {#archive}
 
@@ -147,7 +147,7 @@ U kunt de lijst met fragmenten opruimen door fragmenten te archiveren die niet m
 
 Voor toegang tot gearchiveerde fragmenten gebruikt u het filtervenster om deze weer te geven. Als u het archiveren van een fragment ongedaan wilt maken, klikt u op de knop **[!UICONTROL More actions]** en selecteert u **[!UICONTROL Unarchive]** .
 
-![ unarchive optie voor fragmenten ](assets/fragment-unarchive.png)
+![&#x200B; unarchive optie voor fragmenten &#x200B;](assets/fragment-unarchive.png)
 
 >[!NOTE]
 >

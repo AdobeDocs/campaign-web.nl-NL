@@ -68,7 +68,7 @@ Volg deze stappen om de **Gesplitste** activiteit te vormen:
 
 1. Het deelvenster voor activiteitenconfiguratie wordt geopend met een standaardsubset. Klik **toevoegen segment** knoop om zo vele ondergroepen toe te voegen zoals gewenst om de inkomende bevolking te segmenteren.
 
-   ![ de ruit van de activiteitenconfiguratie van de Splitsing die subsets ](../assets/workflow-split.png) tonen
+   ![&#x200B; de ruit van de activiteitenconfiguratie van de Splitsing die subsets &#x200B;](../assets/workflow-split.png) tonen
 
    >[!IMPORTANT]
    >
@@ -82,21 +82,21 @@ Volg deze stappen om de **Gesplitste** activiteit te vormen:
 
    1. Open de subset om de eigenschappen ervan weer te geven.
 
-   1. Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en configureert u de gewenste filterregel met de querymodelfunctie. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres bestaat in de database. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken.
+   1. Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en configureert u de gewenste filterregel met de querymodelfunctie. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres bestaat in de database. [&#x200B; Leer hoe te met de vraagmodelaar &#x200B;](../../query/query-modeler-overview.md) te werken.
 
    1. Als u het aantal profielen wilt beperken dat door de subset wordt geselecteerd, schakelt u de optie **[!UICONTROL Enable limit]** in en geeft u het aantal of de percentages van de populatie op die u wilt opnemen.
 
    1. Als u een overgang wilt uitschakelen als de binnenkomende populatie leeg is, schakelt u de optie **[!UICONTROL Skip empty transition]** in of uit. Als geen profiel overeenkomt met de subset, gaat de workflow niet naar de volgende activiteit.
 
-      ![ de configuratieruit van de Subset het filtreren en het sorteren opties ](../assets/workflow-split-subset.png) tonen
+      ![&#x200B; de configuratieruit van de Subset het filtreren en het sorteren opties &#x200B;](../assets/workflow-split-subset.png) tonen
 
       >[!NOTE]
       >
-      >Wanneer het plaatsen van een bevolkingsgrens voor een ondergroep, kunt u de geselecteerde profielen rangschikken die op een specifiek [ profielattributen ](../../get-started/attributes.md) worden gebaseerd, in het stijgen of dalende orde. Schakel hiertoe de optie **[!UICONTROL Enable sorting]** in. U kunt bijvoorbeeld een subset beperken tot alleen de bovenste 50 profielen met het hoogste aankoopbedrag.
+      >Wanneer het plaatsen van een bevolkingsgrens voor een ondergroep, kunt u de geselecteerde profielen rangschikken die op een specifiek [&#x200B; profielattributen &#x200B;](../../get-started/attributes.md) worden gebaseerd, in het stijgen of dalende orde. Schakel hiertoe de optie **[!UICONTROL Enable sorting]** in. U kunt bijvoorbeeld een subset beperken tot alleen de bovenste 50 profielen met het hoogste aankoopbedrag.
 
 1. Zodra u alle ondergroepen hebt gevormd, kunt u de resterende bevolking selecteren die om het even welke ondergroepen niet aanpast en hen in een extra uitgaande overgang omvat. Schakel hiertoe de optie **[!UICONTROL Generate complement]** in.
 
-   ![ Complement de ruit van de overgangsconfiguratie ](../assets/workflow-split-complement.png)
+   ![&#x200B; Complement de ruit van de overgangsconfiguratie &#x200B;](../assets/workflow-split-complement.png)
 
    >[!NOTE]
    >
@@ -117,4 +117,4 @@ In het volgende voorbeeld segmenteert de **[!UICONTROL Split]** -activiteit een 
 * **Subset 2 &quot;sms&quot;**: De mobiele telefoongebruikers: Voor de resterende bevolking die niet in Subset 1 viel, past Subset 2 een het filtreren regel toe om profielen met mobiele telefoons in het gegevensbestand te selecteren.
 * **Complementeer overgang**: Deze overgang vangt alle resterende profielen die Subset 1 of Subset 2 niet aanstemden. Het bevat met name profielen die de mobiele toepassing niet hebben geïnstalleerd en geen mobiele telefoon hebben, zoals gebruikers die de mobiele app niet hebben geïnstalleerd of die geen geregistreerd mobiel nummer hebben.
 
-![ Voorbeeld van een Gesplitste activiteit met ondergroepen en complementeer overgang ](../assets/workflow-split-example.png)
+![&#x200B; Voorbeeld van een Gesplitste activiteit met ondergroepen en complementeer overgang &#x200B;](../assets/workflow-split-example.png)

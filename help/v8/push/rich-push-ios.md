@@ -14,7 +14,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Alvorens een Rich Push Bericht te ontwerpen, moet u uw V2 schakelaar vormen. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) voor de gedetailleerde procedure.
+>Alvorens een Rich Push Bericht te ontwerpen, moet u uw V2 schakelaar vormen. Verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) voor de gedetailleerde procedure.
 
 ## De inhoud van het bericht definiëren {#push-message}
 
@@ -33,7 +33,7 @@ Navigeer door de lusjes hieronder om meer over te leren hoe te om deze malplaatj
 
 1. Selecteer **[!UICONTROL Template]** in de vervolgkeuzelijst **[!UICONTROL Default]** .
 
-   ![ het scherm van de Standaardmalplaatjeselectie ](assets/rich_push_ios_default_1.png)
+   ![&#x200B; het scherm van de Standaardmalplaatjeselectie &#x200B;](assets/rich_push_ios_default_1.png)
 
 1. Voer in het veld **[!UICONTROL Title]** het label in van de titel die u wilt weergeven in de lijst met meldingen die beschikbaar is in het meldingscentrum.
 
@@ -45,17 +45,17 @@ Navigeer door de lusjes hieronder om meer over te leren hoe te om deze malplaatj
 
 1. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren, en dynamische inhoud toe te voegen. [Meer informatie](../personalization/personalize.md)
 
-   ![ het redacteursscherm van de Uitdrukking ](assets/rich_push_ios_default_2.png)
+   ![&#x200B; het redacteursscherm van de Uitdrukking &#x200B;](assets/rich_push_ios_default_2.png)
 
 1. Als u uw pushmelding verder wilt aanpassen, kiest u een **[!UICONTROL Launch image]** URL die u aan uw pushmelding wilt toevoegen.
 
 1. Navigeer in de vervolgkeuzelijst **[!UICONTROL Advanced settings]** naar het tabblad **[!UICONTROL Sound and Badge]** om aanvullende instellingen aan te passen, zoals opties voor geluid en badge voor uw meldingen. [Meer informatie](#sound-badge)
 
-   ![ Geluid en badge montagesscherm ](assets/rich_push_ios_default_3.png)
+   ![&#x200B; Geluid en badge montagesscherm &#x200B;](assets/rich_push_ios_default_3.png)
 
 1. Voor verdere aanpassing verkent u de **[!UICONTROL Additional]** -opties die beschikbaar zijn voor uw pushberichten. [Meer informatie](#push-advanced)
 
-   ![ Extra optiesscherm ](assets/rich_push_ios_default_4.png)
+   ![&#x200B; Extra optiesscherm &#x200B;](assets/rich_push_ios_default_4.png)
 
 1. Via het menu **[!UICONTROL Application variables]** wordt de koppeling **[!UICONTROL Application variables]** automatisch toegevoegd. Hiermee kunt u berichtgedrag definiëren, zoals het configureren van een specifiek toepassingsscherm dat moet worden weergegeven wanneer de gebruiker het bericht activeert.
 
@@ -65,13 +65,13 @@ Als u de inhoud van uw bericht hebt gedefinieerd, gebruikt u testabonnees om het
 
 1. Selecteer **[!UICONTROL Template]** in de vervolgkeuzelijst **[!UICONTROL Basic]** .
 
-   ![ Basis scherm van de malplaatjeselectie ](assets/rich_push_ios_basic_1.png)
+   ![&#x200B; Basis scherm van de malplaatjeselectie &#x200B;](assets/rich_push_ios_basic_1.png)
 
 1. Als u uw bericht wilt samenstellen, voert u de tekst in in de velden **[!UICONTROL Title]** , **[!UICONTROL Expanded title]** , **[!UICONTROL Message]** en **[!UICONTROL Expanded message]** .
 
    De tekst **[!UICONTROL Message]** wordt weergegeven in de samengevouwen weergave, terwijl de tekst **[!UICONTROL Expanded message]** wordt weergegeven wanneer het bericht wordt uitgevouwen.
 
-   ![ het samenstellingsscherm van het Bericht ](assets/rich_push_ios_basic_2.png)
+   ![&#x200B; het samenstellingsscherm van het Bericht &#x200B;](assets/rich_push_ios_basic_2.png)
 
 1. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren, en dynamische inhoud toe te voegen. [Meer informatie](../personalization/personalize.md)
 
@@ -83,11 +83,11 @@ Als u de inhoud van uw bericht hebt gedefinieerd, gebruikt u testabonnees om het
 
 1. Navigeer in de vervolgkeuzelijst **[!UICONTROL Advanced settings]** naar het tabblad **[!UICONTROL Sound and Badge]** om aanvullende instellingen aan te passen, zoals opties voor geluid en badge voor uw meldingen. [Meer informatie](#sound-badge)
 
-   ![ Geluid en badge montagesscherm ](assets/rich_push_ios_basic_3.png)
+   ![&#x200B; Geluid en badge montagesscherm &#x200B;](assets/rich_push_ios_basic_3.png)
 
 1. Voer in het menu **[!UICONTROL Color options]** hexadecimale kleurcodes in voor de **[!UICONTROL Notification background color]** , **[!UICONTROL Notification background color]** en **[!UICONTROL Message text color]** .
 
-   ![ het optiesscherm van de Kleur ](assets/rich_push_ios_basic_4.png)
+   ![&#x200B; het optiesscherm van de Kleur &#x200B;](assets/rich_push_ios_basic_4.png)
 
 1. Voor verdere aanpassing verkent u de **[!UICONTROL Additional]** -opties die beschikbaar zijn voor uw pushberichten. [Meer informatie](#push-advanced)
 
@@ -99,13 +99,13 @@ Als u de inhoud van uw bericht hebt gedefinieerd, gebruikt u testabonnees om het
 
 1. Selecteer **[!UICONTROL Template]** in de vervolgkeuzelijst **[!UICONTROL Carousel]** .
 
-   ![ het selectiescherm van de het malplaatjeselectie van Carrousel ](assets/rich_push_ios_carousel_1.png)
+   ![&#x200B; het selectiescherm van de het malplaatjeselectie van Carrousel &#x200B;](assets/rich_push_ios_carousel_1.png)
 
 1. Als u uw bericht wilt samenstellen, voert u de tekst in in de velden **[!UICONTROL Title]** , **[!UICONTROL Expanded title]** , **[!UICONTROL Message]** en **[!UICONTROL Expanded message]** .
 
    De tekst **[!UICONTROL Message]** wordt weergegeven in de samengevouwen weergave, terwijl de tekst **[!UICONTROL Expanded message]** wordt weergegeven wanneer het bericht wordt uitgevouwen.
 
-   ![ het samenstellingsscherm van het Bericht ](assets/rich_push_ios_carousel_2.png)
+   ![&#x200B; het samenstellingsscherm van het Bericht &#x200B;](assets/rich_push_ios_carousel_2.png)
 
 1. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren, en dynamische inhoud toe te voegen. [Meer informatie](../personalization/personalize.md)
 
@@ -122,7 +122,7 @@ Als u de inhoud van uw bericht hebt gedefinieerd, gebruikt u testabonnees om het
 
    Zorg ervoor dat u minimaal drie en maximaal vijf afbeeldingen opneemt.
 
-   ![ Carrousel scherm van de beeldtoevoeging ](assets/rich_push_ios_carousel_3.png)
+   ![&#x200B; Carrousel scherm van de beeldtoevoeging &#x200B;](assets/rich_push_ios_carousel_3.png)
 
 1. Verwerk de volgorde van de afbeeldingen met de pijl-omlaag en de pijl-omhoog.
 
@@ -130,7 +130,7 @@ Als u de inhoud van uw bericht hebt gedefinieerd, gebruikt u testabonnees om het
 
 1. Voer in het menu **[!UICONTROL Color options]** hexadecimale kleurcodes in voor de **[!UICONTROL Notification background color]** , **[!UICONTROL Notification background color]** en **[!UICONTROL Message text color]** .
 
-   ![ het optiesscherm van de Kleur ](assets/rich_push_ios_carousel_4.png)
+   ![&#x200B; het optiesscherm van de Kleur &#x200B;](assets/rich_push_ios_carousel_4.png)
 
 1. Voor verdere aanpassing verkent u de **[!UICONTROL Additional]** -opties die beschikbaar zijn voor uw pushberichten. [Meer informatie](#push-advanced)
 
@@ -142,13 +142,13 @@ Als u de inhoud van uw bericht hebt gedefinieerd, gebruikt u testabonnees om het
 
 1. Selecteer **[!UICONTROL Notification type]** in de vervolgkeuzelijst **[!UICONTROL Timer]** .
 
-   ![ het selectiescherm van het malplaatje van de Tijdopnemer ](assets/rich_push_ios_timer_1.png)
+   ![&#x200B; het selectiescherm van het malplaatje van de Tijdopnemer &#x200B;](assets/rich_push_ios_timer_1.png)
 
 1. Als u uw bericht wilt samenstellen, voert u de tekst in in de velden **[!UICONTROL Title]** , **[!UICONTROL Expanded title]** , **[!UICONTROL Message]** en **[!UICONTROL Expanded message]** .
 
    De tekst **[!UICONTROL Message]** wordt weergegeven in de samengevouwen weergave, terwijl de tekst **[!UICONTROL Expanded message]** wordt weergegeven wanneer het bericht wordt uitgevouwen.
 
-   ![ het samenstellingsscherm van het Bericht ](assets/rich_push_ios_timer_2.png)
+   ![&#x200B; het samenstellingsscherm van het Bericht &#x200B;](assets/rich_push_ios_timer_2.png)
 
 1. Gebruik de uitdrukkingsredacteur om inhoud te bepalen, gegevens te personaliseren, en dynamische inhoud toe te voegen. [Meer informatie](../personalization/personalize.md)
 
@@ -160,11 +160,11 @@ Als u de inhoud van uw bericht hebt gedefinieerd, gebruikt u testabonnees om het
 
 1. Stel de **[!UICONTROL Timer duration]** in seconden of de **[!UICONTROL Timer end timestamp]** in op een specifieke tijdstempel voor de epoche.
 
-   ![ het scherm van de de duurmontages van de Tijdopnemer ](assets/rich_push_ios_timer_3.png)
+   ![&#x200B; het scherm van de de duurmontages van de Tijdopnemer &#x200B;](assets/rich_push_ios_timer_3.png)
 
 1. Voer de tekst en afbeelding in die worden weergegeven nadat de timer is verlopen in de velden **[!UICONTROL Alternate title]** , **[!UICONTROL Alternate message]** en **[!UICONTROL Alternate launch image]** .
 
-   ![ Afwisselend scherm van berichtmontages ](assets/rich_push_ios_timer_4.png)
+   ![&#x200B; Afwisselend scherm van berichtmontages &#x200B;](assets/rich_push_ios_timer_4.png)
 
 1. Navigeer in de vervolgkeuzelijst **[!UICONTROL Advanced settings]** naar het tabblad **[!UICONTROL Sound and Badge]** om aanvullende instellingen aan te passen, zoals opties voor geluid en badge voor uw meldingen. [Meer informatie](#sound-badge)
 

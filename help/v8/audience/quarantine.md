@@ -30,7 +30,7 @@ Wanneer een adres in quarantined in Adobe Campaign is, wordt het profiel automat
 
 Quarantine verlaagt de verzendkosten van SMS door onjuiste telefoonnummers uit te sluiten van leveringen.
 
-Leer meer over quarantines in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
+Leer meer over quarantines in de [&#x200B; Campagne v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/failures/quarantines){target="_blank"}.
 
 ## Waarom een adres naar quarantaine wordt verzonden {#quarantines-why}
 
@@ -41,20 +41,20 @@ Vele redenen kunnen een adres naar quarantaine verzenden:
 * Voor e-mail, wanneer uw bericht als spam wordt gemeld. Het bericht wordt automatisch opnieuw gericht aan een technische brievenbus die door Adobe wordt beheerd. Het e-mailadres van de gebruiker wordt dan automatisch verzonden naar quarantaine met de Gevoegde op lijst van gewenste personen status.
 * Een e-mailadres kan in quarantaine worden geplaatst, bijvoorbeeld wanneer de brievenbus volledig is, als het adres niet bestaat, of als de e-mailserver niet beschikbaar is.
 
-Leer meer over leveringsmislukkingen in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
+Leer meer over leveringsmislukkingen in de [&#x200B; Campagne v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/failures/delivery-failures){target="_blank"}.
 
 ## Locatie van de quarantaineadressen {#quarantines-where}
 
 U kunt alle quarantaineadressen in uw instantie weergeven via **[!UICONTROL Explorer]** > **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]** . Deze sectie maakt een lijst van quarantined elementen voor e-mail, SMS, en de kanalen van het pushbericht.
 
-![ plaats van de quarantaine in de interface van Adobe Campaign ](assets/quarantine_location.png){zoomable="yes"}
+![&#x200B; plaats van de quarantaine in de interface van Adobe Campaign &#x200B;](assets/quarantine_location.png){zoomable="yes"}
 
 U kunt tot een rapport over quarantaine in uw geval ook toegang hebben:
 
-![ Quarantine rapporten in de interface van Adobe Campaign ](assets/quarantine_reports.png){zoomable="yes"}
+![&#x200B; Quarantine rapporten in de interface van Adobe Campaign &#x200B;](assets/quarantine_reports.png){zoomable="yes"}
 
 Voor elke levering, kunt u het overzichtsrapport van de Levering controleren. Het toont het aantal adressen in quarantaine in het leveringsdoel:
 
-![ Samenvattingsrapport van de Levering die quarantined adressen ](assets/quarantine_delivery.png){zoomable="yes"} tonen
+![&#x200B; Samenvattingsrapport van de Levering die quarantined adressen &#x200B;](assets/quarantine_delivery.png){zoomable="yes"} tonen
 
 U kunt meer opties onderzoeken om quarantaineadressen in de console van Adobe Campaign te beheren. [Meer informatie](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/failures/quarantines#access-quarantined-addresses).

@@ -29,7 +29,7 @@ De **activiteit 0&rbrace; van het Fork &lbrace;is de controle** activiteit van d
 
 Volg deze stappen om de **1&rbrace; activiteit van het Fork &lbrace;te vormen:**
 
-![ het schermschot van de de activiteitenconfiguratie van het de vork van het Werkschema ](../assets/workflow-fork.png)
+![&#x200B; het schermschot van de de activiteitenconfiguratie van het de vork van het Werkschema &#x200B;](../assets/workflow-fork.png)
 
 1. Voeg a **activiteit 0&rbrace; van het Fork &lbrace;aan uw werkschema toe.**
 1. Klik **toevoegen overgang** om een nieuwe uitgaande overgang toe te voegen. Standaard zijn twee overgangen gedefinieerd.
@@ -42,4 +42,4 @@ In het volgende voorbeeld, worden twee **activiteiten van 0&rbrace; Fork gebruik
 * Één vóór de twee vragen, om hen gelijktijdig uit te voeren.
 * Eén na de doorsnede om tegelijkertijd een e-mail en een sms naar de doelgroep te sturen.
 
-![ het schermschot van het het vorkvoorbeeld van het Werkschema ](../assets/workflow-fork-example.png)
+![&#x200B; het schermschot van het het vorkvoorbeeld van het Werkschema &#x200B;](../assets/workflow-fork-example.png)

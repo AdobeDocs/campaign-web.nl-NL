@@ -14,7 +14,7 @@ ht-degree: 5%
 
 De Amazon Simple Storage Service (S3)-connector kan worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign. Deze kan worden ingesteld in een workflowactiviteit. Raadpleeg [deze pagina](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank} voor meer informatie.
 
-![ Schermafbeelding die de velden voor de configuratie van de externe account van Amazon Simple Storage Service S3 weergeeft.](assets/external-AWS.png)
+![&#x200B; Schermafbeelding die de velden voor de configuratie van de externe account van Amazon Simple Storage Service S3 weergeeft.](assets/external-AWS.png)
 
 Wanneer u dit nieuwe externe account instelt, moet u de volgende data opgeven:
 
@@ -26,25 +26,25 @@ Wanneer u dit nieuwe externe account instelt, moet u de volgende data opgeven:
 
 * **[!UICONTROL AWS access key ID]**
 
-  Om te weten waar te om uw de toegangs belangrijkste identiteitskaart van AWS te vinden, verwijs naar deze [ pagina ](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
+  Om te weten waar te om uw de toegangs belangrijkste identiteitskaart van AWS te vinden, verwijs naar deze [&#x200B; pagina &#x200B;](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
 
 * **[!UICONTROL Secret access key to AWS]**
 
-  Om te weten waar te om uw geheime toegangstoets aan AWS te vinden, verwijs naar deze [ pagina ](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+  Om te weten waar te om uw geheime toegangstoets aan AWS te vinden, verwijs naar deze [&#x200B; pagina &#x200B;](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
 * **[!UICONTROL AWS Region]**
 
-  Om meer op het gebied van AWS te leren, verwijs naar deze [ pagina ](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
+  Om meer op het gebied van AWS te leren, verwijs naar deze [&#x200B; pagina &#x200B;](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/).
 
 * Met het selectievakje **[!UICONTROL Use server side encryption]** kunt u het bestand opslaan in de modus S3-versleuteling.
 
-Leren waar te om toegangs zeer belangrijke identiteitskaart en geheime toegangssleutel te vinden, verwijs naar de diensten van het Web van Amazon [ documentatie ](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
+Leren waar te om toegangs zeer belangrijke identiteitskaart en geheime toegangssleutel te vinden, verwijs naar de diensten van het Web van Amazon [&#x200B; documentatie &#x200B;](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
 
 ## Azure Blob Storage {#azure-blob-external-account}
 
 De **[!UICONTROL Azure Blob Storage]** -externe account kan worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign via een **[!UICONTROL Transfer file]** -workflowactiviteit. Raadpleeg [deze sectie](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/wf/design-workflows/transfer-file){target=_blank} voor meer informatie.
 
-![ Screenshot die de de externe gebieden van de de rekeningsconfiguratie van de Opslag van Azure Blob toont.](assets/external-azure.png)
+![&#x200B; Screenshot die de de externe gebieden van de de rekeningsconfiguratie van de Opslag van Azure Blob toont.](assets/external-azure.png)
 
 Als u **[!UICONTROL Azure external account]** wilt configureren om te werken met Adobe Campaign, moet u de volgende gegevens opgeven:
 
@@ -58,13 +58,13 @@ Als u **[!UICONTROL Azure external account]** wilt configureren om te werken met
 
 * **[!UICONTROL Access key]**
 
-  Om te weten waar te om uw **[!UICONTROL Access key]** te vinden, verwijs naar deze [ pagina ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+  Om te weten waar te om uw **[!UICONTROL Access key]** te vinden, verwijs naar deze [&#x200B; pagina &#x200B;](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
 
 ## SFTP
 
 Met de externe SFTP-account kunt u toegang tot een server buiten Adobe Campaign configureren en testen.
 
-![ Screenshot die de gebieden van de SFTP externe rekeningsconfiguratie toont.](assets/ext-account-sftp.png)
+![&#x200B; Screenshot die de gebieden van de SFTP externe rekeningsconfiguratie toont.](assets/ext-account-sftp.png)
 
 Als u de **[!UICONTROL SFTP]** externe account wilt configureren, vult u de volgende velden in:
 
@@ -110,7 +110,7 @@ Als **[!UICONTROL Public key]** -verificatie is geselecteerd, moeten de volgende
 
 Met de externe HTTP-account kunt u toegang tot een server buiten Adobe Campaign configureren en testen.
 
-![ Screenshot die de gebieden van de HTTP externe rekeningsconfiguratie toont.](assets/ext-account-http.png)
+![&#x200B; Screenshot die de gebieden van de HTTP externe rekeningsconfiguratie toont.](assets/ext-account-http.png)
 
 Als u de **[!UICONTROL HTTP]** externe account wilt configureren, vult u de volgende velden in:
 
@@ -149,7 +149,7 @@ Als u **[!UICONTROL Public key]** -verificatie gebruikt, voert u in het menu **[
 
 Met de externe FTP-account kunt u toegang tot een server buiten Adobe Campaign configureren en testen.
 
-![ Schermafbeelding die de gebieden van de FTP externe rekeningsconfiguratie toont.](assets/ext-account-ftp.png)
+![&#x200B; Schermafbeelding die de gebieden van de FTP externe rekeningsconfiguratie toont.](assets/ext-account-ftp.png)
 
 Als u de **[!UICONTROL FTP]** externe account wilt configureren, vult u de volgende velden in:
 

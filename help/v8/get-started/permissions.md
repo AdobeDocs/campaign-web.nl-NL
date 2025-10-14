@@ -20,7 +20,7 @@ Op basis van hun machtigingen kan een operator:
 * Toegang tot bepaalde gegevens
 * Toegang tot bepaalde handelingen (maken, wijzigen, verwijderen)
 
-Een gedetailleerde procedure voor vestiging toestemmingen in Adobe Campaign is beschikbaar in [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
+Een gedetailleerde procedure voor vestiging toestemmingen in Adobe Campaign is beschikbaar in [&#x200B; Adobe Campaign v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}.
 
 ## Machtigingen voor mappen {#folder-permissions}
 
@@ -28,15 +28,15 @@ Op basis van uw rechten kunt u machtigingen voor mappen weergeven en beheren in 
 
 Hieronder ziet u een voorbeeld van een leveringsmap:
 
-![ Voorbeeld van omslagmontages in Adobe Campaign ](assets/folder_settings.png){zoomable="yes"}
+![&#x200B; Voorbeeld van omslagmontages in Adobe Campaign &#x200B;](assets/folder_settings.png){zoomable="yes"}
 
 In de sectie **[!UICONTROL Security]** van **[!UICONTROL Folder settings]** kunt u operatoren of groepen weergeven en beheren (toevoegen of verwijderen) die toegang hebben tot de map.
 
-![ Voorbeeld van de montages van de omslagveiligheid in Adobe Campaign ](assets/folder_security.png){zoomable="yes"}
+![&#x200B; Voorbeeld van de montages van de omslagveiligheid in Adobe Campaign &#x200B;](assets/folder_security.png){zoomable="yes"}
 
 U kunt rechtstreeks op de machtigingen klikken en deze wijzigen in **[!UICONTROL Allowed]** of **[!UICONTROL Denied]** .
 
-![ Voorbeeld van ontkende toestemmingen in de montages van de omslagveiligheid ](assets/folder_security_denied.png){zoomable="yes"}
+![&#x200B; Voorbeeld van ontkende toestemmingen in de montages van de omslagveiligheid &#x200B;](assets/folder_security_denied.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -48,6 +48,6 @@ Als de optie **[!UICONTROL Propagate]** is ingeschakeld, zijn alle machtigingen 
 
 Als de optie **[!UICONTROL System folder]** is geselecteerd, hebben alle operatoren toegang, ongeacht hun machtigingen.
 
-U kunt ook [ de toestemmingen op omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"} beheren.
+U kunt ook [&#x200B; de toestemmingen op omslagen in de console van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/folder-permissions){target="_blank"} beheren.
 
 Alle toestemmingen in het gebruikersinterface van het Web van de Campagne synchroniseren met de toestemmingen van de Console van de Cliënt van de Campagne.

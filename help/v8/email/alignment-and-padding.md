@@ -16,15 +16,15 @@ In dit voorbeeld past u opvulling en verticale uitlijning aan binnen een structu
 
 1. Selecteer de structuurcomponent rechtstreeks in de e-mail of gebruik de **[!UICONTROL Navigation tree]** -component die beschikbaar is in het linkerdeelvenster.
 
-   ![ Schermschot die de selectie van de structuurcomponent in de navigatieboom tonen ](assets/alignment_1.png){zoomable="yes"}
+   ![&#x200B; Schermschot die de selectie van de structuurcomponent in de navigatieboom tonen &#x200B;](assets/alignment_1.png){zoomable="yes"}
 
 1. Klik op de contextafhankelijke werkbalk op **[!UICONTROL Select a column]** en kies de kolom die u wilt bewerken. U kunt het ook selecteren in de boomstructuur aan de linkerkant.
 
-   ![ Schermafbeelding die de kolomselectie van de contextafhankelijke toolbar toont ](assets/alignment_2.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de kolomselectie van de contextafhankelijke toolbar toont &#x200B;](assets/alignment_2.png){zoomable="yes"}
 
 1. De bewerkbare parameters voor de geselecteerde kolom worden weergegeven op het tabblad **[!UICONTROL Styles]** . Pas de **[!UICONTROL Alignment]** aan met behulp van de toegewezen sectie.
 
-   ![ Schermafbeelding die de opties van de groeperingsaanpassing in het lusje van Stijlen toont ](assets/alignment_3.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de opties van de groeperingsaanpassing in het lusje van Stijlen toont &#x200B;](assets/alignment_3.png){zoomable="yes"}
 
    Selecteer bijvoorbeeld **[!UICONTROL Bottom]** . De inhoudscomponent wordt naar de onderkant van de kolom verplaatst.
 
@@ -34,7 +34,7 @@ In dit voorbeeld past u opvulling en verticale uitlijning aan binnen een structu
    >
    >Klik op het vergrendelingspictogram om de synchronisatie tussen de boven- en onderkant of tussen de opvulling aan de linker- en rechterkant te verbreken.
 
-   ![ Schermafbeelding die de opvullingsaanpassingsopties tonen ](assets/alignment_4.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de opvullingsaanpassingsopties tonen &#x200B;](assets/alignment_4.png){zoomable="yes"}
 
 1. Pas de uitlijning en opvulling voor de andere kolommen op dezelfde manier aan.
 

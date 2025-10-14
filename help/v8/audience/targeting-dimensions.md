@@ -22,11 +22,11 @@ De het richten dimensie, die ook als doelafbeelding wordt bekend, is het type va
 
 De doeldimensie van een workflow wordt gedefinieerd door de eerste **[!UICONTROL Build audience]** -activiteit en wordt gebruikt voor alle volgende activiteiten tot het einde van de workflow. Bijvoorbeeld, wanneer het vragen van profielen van het gegevensbestand, bevat de uitgaande overgang gegevens van type &quot;ontvanger&quot;, die aan de volgende activiteit wordt overgebracht.
 
-Schakelaar richtend afmeting in een werkschema gebruikend de afmetingsactiviteit van de a [ Verandering ](../workflows/activities/change-dimension.md). Hierdoor kan de database worden opgevraagd in een specifieke tabel, zoals aankopen of abonnementen, en kan de doeldimensie worden gewijzigd in Ontvangers om leveringen naar de bijbehorende profielen te verzenden.
+Schakelaar richtend afmeting in een werkschema gebruikend de afmetingsactiviteit van de a [&#x200B; Verandering &#x200B;](../workflows/activities/change-dimension.md). Hierdoor kan de database worden opgevraagd in een specifieke tabel, zoals aankopen of abonnementen, en kan de doeldimensie worden gewijzigd in Ontvangers om leveringen naar de bijbehorende profielen te verzenden.
 
 Wanneer het selecteren van een het richten dimensie (in de werkschemamontages of in activiteiten zoals **bouwt publiek**, **Verzoening**, of **dimensie van de Verandering**), wordt een lijst van algemeen gebruikte schema&#39;s getoond door gebrek. Als u alle beschikbare schema&#39;s wilt weergeven, schakelt u de knop **[!UICONTROL Show all schemas]** in of uit. De optie wordt voor elke gebruiker opgeslagen.
 
-![ Screenshot die het richten afmetingsinterface met &quot;toont alle toegelaten schema&#39;s&quot;knoop toont.](assets/targeting-dimension-show-all.png){zoomable="yes"}
+![&#x200B; Screenshot die het richten afmetingsinterface met &quot;toont alle toegelaten schema&#39;s&quot;knoop toont.](assets/targeting-dimension-show-all.png){zoomable="yes"}
 
 Standaard zijn de profielen voor e-mail- en sms-leveringssjablonen bedoeld. Hun doelafmeting gebruikt de gebieden van de **nms:recipient** lijst. Voor de Duw berichten, is de standaarddoelafmeting **toepassingen van de Abonnee nms:appSubscriptionRcp**, die met de lijst van ontvangers verbonden is.
 
@@ -42,7 +42,7 @@ Gebruik andere ingebouwde doeltoewijzingen in workflows en leveringen, zoals hie
 | Extern bestand | Aflevering via een bestand dat alle vereiste informatie bevat | Geen gekoppeld schema, geen doel ingevoerd |
 | Abonnementstoepassingen | Profielen die zijn geabonneerd op een toepassing | nms:appSubscriptionRcp |
 
-Bovendien, creeer nieuwe doelafbeeldingen die op specifieke behoeften worden gebaseerd. Voer deze bewerking alleen uit vanaf de clientconsole. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=nl-NL#new-mapping){target="_blank"}.
+Bovendien, creeer nieuwe doelafbeeldingen die op specifieke behoeften worden gebaseerd. Voer deze bewerking alleen uit vanaf de clientconsole. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=nl-NL#new-mapping){target="_blank"}.
 
 ## Afmetingen filteren {#filtering}
 
@@ -55,6 +55,6 @@ Kies de volgende opties om klanten te selecteren die langer dan vijf jaar een le
 * Het richten dimensie: **Clients**
 * Het filtreren afmeting: **de houder van het Contract**.
 
-U kunt de het filtreren voorwaarden binnen **dan bepalen bouwt de activiteit van het Publiek**. Verwijs naar deze [ pagina ](../workflows/activities/build-audience.md).
+U kunt de het filtreren voorwaarden binnen **dan bepalen bouwt de activiteit van het Publiek**. Verwijs naar deze [&#x200B; pagina &#x200B;](../workflows/activities/build-audience.md).
 
 Tijdens het richten van afmetingsselectie, slechts worden de compatibele het filtreren dimensies getoond in de interface. Deze twee dimensies moeten met elkaar in verband worden gebracht, zodat de inhoud van de filterdimensielijst afhankelijk is van de doeldimensie die in het eerste veld is geselecteerd.

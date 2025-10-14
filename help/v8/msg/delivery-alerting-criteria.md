@@ -21,7 +21,7 @@ De gebruikersinterface van het Web van de campagne verstrekt vooraf bepaalde ala
 
 Het waarschuwen van criteria is toegankelijk van het **Alarm van de Levering** menu in de linkernavigatieruit, onder de **Criteria** tabel.
 
-![ Lijst van alarmerende criteria die in het het Alarm menu van de Levering worden getoond ](assets/alerting-criteria-list.png)
+![&#x200B; Lijst van alarmerende criteria die in het het Alarm menu van de Levering worden getoond &#x200B;](assets/alerting-criteria-list.png)
 
 ## Vooraf gedefinieerde waarschuwingscriteria {#ootb-criteria}
 
@@ -37,7 +37,7 @@ Vooraf gedefinieerde waarschuwingscriteria zijn beschikbaar in de webgebruikersi
 
 >[!NOTE]
 >
->De standaardwaarden worden toegepast op alle parameters voor de bovenstaande criteria. Deze waarden kunnen in de **sectie van Parameters van Criteria** van de levering worden aangepast alarmerende dashboards waar zij worden gebruikt. [ Leer hoe te met dashboards ](../msg/delivery-alerting-dashboards.md) te werken
+>De standaardwaarden worden toegepast op alle parameters voor de bovenstaande criteria. Deze waarden kunnen in de **sectie van Parameters van Criteria** van de levering worden aangepast alarmerende dashboards waar zij worden gebruikt. [&#x200B; Leer hoe te met dashboards &#x200B;](../msg/delivery-alerting-dashboards.md) te werken
 
 ## Een waarschuwingscriterium maken {#criteria}
 
@@ -70,7 +70,7 @@ Ga als volgt te werk om een nieuw criterium te maken:
 
    In het voorbeeld hieronder, is de **Geleveringen in uitvoering (critInProgressDeliveries)** filter geselecteerd, betekenend dat het criterium slechts rekening met leveringen met de &quot;Bezig&quot;status houdt.
 
-   ![ Voorbeeld van het waarschuwen van criteria eigenschappen met geselecteerde filter ](assets/alerting-criteria-properties.png)
+   ![&#x200B; Voorbeeld van het waarschuwen van criteria eigenschappen met geselecteerde filter &#x200B;](assets/alerting-criteria-properties.png)
 
    >[!NOTE]
    >

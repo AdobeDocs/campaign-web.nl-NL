@@ -18,13 +18,13 @@ Wanneer u in de interface E-mail-Designer een element selecteert en de instellin
 
 1. Klik op het tabblad **[!UICONTROL Styles]** op de vervolgkeuzelijst **[!UICONTROL Advanced]** .
 
-   ![ het lusje van Stijlen met het Geavanceerde open drop-down menu.](assets/styles_1.png){zoomable="yes"}
+   ![&#x200B; het lusje van Stijlen met het Geavanceerde open drop-down menu.](assets/styles_1.png){zoomable="yes"}
 
 1. Wijzig de waarden van de bestaande kenmerken.
 
 1. Voeg nieuwe eigenschappen toe gebruikend **+** knoop. Voeg alle kenmerken en waarden toe die CSS-compatibel zijn.
 
-   ![ de Geavanceerde sectie die + knoop toont om nieuwe CSS-volgzame attributen toe te voegen.](assets/styles_2.png){zoomable="yes"}
+   ![&#x200B; de Geavanceerde sectie die + knoop toont om nieuwe CSS-volgzame attributen toe te voegen.](assets/styles_2.png){zoomable="yes"}
 
 De opmaak wordt toegepast op het geselecteerde element.
 

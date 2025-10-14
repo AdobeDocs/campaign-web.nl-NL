@@ -18,11 +18,11 @@ Om te beginnen bouwend een vraag, heb toegang tot de vraagmodeler van de plaats 
 >[!IMPORTANT]
 >
 >Er is een gloednieuwe interface beschikbaar voor het Query-model. De Nieuwe regelbouwer staat u toe om uw vraag met meer gemak dankzij zijn vereenvoudigde interface te bouwen. Druk op de schakelknop in de rechterbovenhoek om naar deze ervaring over te schakelen. U kunt naar de klassieke modelleerling van de Vraag terugkeren wanneer u wilt door eenvoudig de knevel terug te duwen om de nieuwe interface onbruikbaar te maken. U kunt de zelfde principes toepassen zoals vraagmodeler in deze nieuwe interface.
->&#x200B;>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
+>&#x200B;>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen &#x200B;](assets/query-modeler-toggle.png){zoomable="yes"}
 
 U kunt twee typen elementen toevoegen:
 
-* **het Filtreren componenten** (De voorwaarde van de Douane, Uitgezochte publiek, Vooraf bepaald filter) staat u toe om uw eigen regels te bouwen, een publiek te selecteren, of een vooraf bepaald filter te gebruiken om uw vraag te raffineren. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [ leren hoe te met het filtreren componenten ](#filtering) te werken
+* **het Filtreren componenten** (De voorwaarde van de Douane, Uitgezochte publiek, Vooraf bepaald filter) staat u toe om uw eigen regels te bouwen, een publiek te selecteren, of een vooraf bepaald filter te gebruiken om uw vraag te raffineren. Zij worden toegevoegd bij het begin van uw vraag en op gestippelde overgangen. [&#x200B; leren hoe te met het filtreren componenten &#x200B;](#filtering) te werken
 
   Voorbeeld: *Ontvangers die aan &quot;Sports&quot;nieuwsbrief* intekenden, *Ontvangers die in New York* leven, *Ontvangers die in San Francisco* leven
 
@@ -30,18 +30,18 @@ U kunt twee typen elementen toevoegen:
 
 >[!TAB  Klassieke vraagmodeler ]
 
-![ Voorbeeld om het filtreren componenten aan een vraag toe te voegen.](assets/query-add-component.png){zoomable="yes"}
+![&#x200B; Voorbeeld om het filtreren componenten aan een vraag toe te voegen.](assets/query-add-component.png){zoomable="yes"}
 
 
 >[!TAB  Nieuwe Bouwer van de Regel ]
 
-![ Voorbeeld om het filtreren componenten aan een vraag toe te voegen.](assets/ruleb-1.png){zoomable="yes"}
+![&#x200B; Voorbeeld om het filtreren componenten aan een vraag toe te voegen.](assets/ruleb-1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
 
 
-* **de exploitanten van de Groep** (EN, OF, BEHALVE) staan u toe om het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [ Leer hoe te met exploitanten ](#filtering) te werken
+* **de exploitanten van de Groep** (EN, OF, BEHALVE) staan u toe om het filtreren componenten in het diagram te groeperen. Ze worden toegevoegd op bestaande overgangen vóór een filtercomponent. [&#x200B; Leer hoe te met exploitanten &#x200B;](#filtering) te werken
 
   Voorbeeld: *Ontvangers die Super VIP **EN** VIP zijn om **OF** de Demo van VIP te belonen, **BEHALVE** ontvangers onder 21 jaar en boven 45.
 
@@ -49,11 +49,11 @@ U kunt twee typen elementen toevoegen:
 
 >[!TAB  Klassieke vraagmodeler ]
 
-![ Beschrijving: Voorbeeld om groepsexploitanten aan een vraag toe te voegen.](assets/ruleb-13.png){zoomable="yes"}
+![&#x200B; Beschrijving: Voorbeeld om groepsexploitanten aan een vraag toe te voegen.](assets/ruleb-13.png){zoomable="yes"}
 
 >[!TAB  Nieuwe regelbouwer ]
 
-![ Voorbeeld om het filtreren componenten aan een vraag toe te voegen.](assets/ruleb-14.png){zoomable="yes"}
+![&#x200B; Voorbeeld om het filtreren componenten aan een vraag toe te voegen.](assets/ruleb-14.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -64,13 +64,13 @@ De verdeling van waarden toont het percentage van elke waarde van een gebied bin
 
 U opent deze optie door in de query op de selectieknop voor kenmerken te klikken, zoals hieronder wordt weergegeven. Klik vervolgens op het pictogram **[!UICONTROL Information]** naast het geselecteerde kenmerk. U kunt de knop **[!UICONTROL Distribution of values]** openen.
 
-![ Beschrijving: Het toegang hebben tot van de distributie van waardeoptie in een vraag.](assets/values_query.png){zoomable="yes"}
+![&#x200B; Beschrijving: Het toegang hebben tot van de distributie van waardeoptie in een vraag.](assets/values_query.png){zoomable="yes"}
 
 >[!NOTE]
 >
 >* Voor velden met veel waarden worden alleen de eerste 20 waarden weergegeven. In dergelijke gevallen verschijnt er een waarschuwing **[!UICONTROL Partial load]** .
->* De optie **[!UICONTROL Distribution of values]** is toegankelijk in elke kenmerkkiezer. [ leer hoe te om attributen ](../get-started/attributes.md) te selecteren
->* U kunt voorwaarden op de resultaten toevoegen door de **[ !AGeavanceerde filters]** te gebruiken. [ leer hier meer ](../get-started/work-with-folders.md#filter-the-values).
+>* De optie **[!UICONTROL Distribution of values]** is toegankelijk in elke kenmerkkiezer. [&#x200B; leer hoe te om attributen &#x200B;](../get-started/attributes.md) te selecteren
+>* U kunt voorwaarden op de resultaten toevoegen door de **[ !AGeavanceerde filters]** te gebruiken. [&#x200B; leer hier meer &#x200B;](../get-started/work-with-folders.md#filter-the-values).
 
 ## Filtercomponenten toevoegen {#filtering}
 
@@ -91,13 +91,13 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
 1. Klik op de knop **+** op het gewenste knooppunt en selecteer **[!UICONTROL Custom condition]** . Het deelvenster Eigenschappen voor aangepaste voorwaarde wordt aan de rechterkant geopend.
 
-1. Op het **gebied van Attributen**, selecteer de attributen van het gegevensbestand dat u wilt gebruiken om uw voorwaarde tot stand te brengen. De lijst met kenmerken bevat alle kenmerken van uw campagnecedatabase, inclusief kenmerken van gekoppelde tabellen. [ leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../get-started/attributes.md)
+1. Op het **gebied van Attributen**, selecteer de attributen van het gegevensbestand dat u wilt gebruiken om uw voorwaarde tot stand te brengen. De lijst met kenmerken bevat alle kenmerken van uw campagnecedatabase, inclusief kenmerken van gekoppelde tabellen. [&#x200B; leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten &#x200B;](../get-started/attributes.md)
 
-   ![ Selecterend attributen voor een douanetoestand in een vraag.](assets/query-custom-condition-fields.png){zoomable="yes"}
+   ![&#x200B; Selecterend attributen voor een douanetoestand in een vraag.](assets/query-custom-condition-fields.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >De **geeft uitdrukking** knoop uit staat u toe om de de uitdrukkingsredacteur van het Web van de Campagne te gebruiken om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
+   >De **geeft uitdrukking** knoop uit staat u toe om de de uitdrukkingsredacteur van het Web van de Campagne te gebruiken om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. [&#x200B; Leer hoe te om uitdrukkingen uit te geven &#x200B;](expression-editor.md)
 
 1. Selecteer in de vervolgkeuzelijst de operator die u wilt toepassen. Er zijn verschillende operatoren beschikbaar voor gebruik. De operatoren in de vervolgkeuzelijst zijn afhankelijk van het gegevenstype van het kenmerk.
 
@@ -124,7 +124,7 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
    +++
 
-1. Op het **gebied van de Waarde**, bepaal de verwachte waarde. U kunt de de uitdrukkingsredacteur van het Web van de Campagne ook gebruiken om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. Om dit te doen, klik **geef uitdrukking** knoop uit. [ Leer hoe te om uitdrukkingen uit te geven ](expression-editor.md)
+1. Op het **gebied van de Waarde**, bepaal de verwachte waarde. U kunt de de uitdrukkingsredacteur van het Web van de Campagne ook gebruiken om een uitdrukking manueel te bepalen gebruikend gebieden van het gegevensbestand en hulpfuncties. Om dit te doen, klik **geef uitdrukking** knoop uit. [&#x200B; Leer hoe te om uitdrukkingen uit te geven &#x200B;](expression-editor.md)
 
    *het voorbeeld van de Vraag die alle profielen terugkeren die 21 of meer zijn:*
 
@@ -132,11 +132,11 @@ Voer de volgende stappen uit om de query te filteren met behulp van een aangepas
 
 >[!TAB  Klassieke vraagmodeler ]
 
-![ Voorbeeld van een vraag richtend profielen van 21 jaar of meer.](assets/query-custom-condition.png){zoomable="yes"}
+![&#x200B; Voorbeeld van een vraag richtend profielen van 21 jaar of meer.](assets/query-custom-condition.png){zoomable="yes"}
 
 >[!TAB  Nieuwe regelbouwer ]
 
-![ Voorbeeld van een vraag richtend profielen van 21 jaar of meer.](assets/ruleb-3.png){zoomable="yes"}
+![&#x200B; Voorbeeld van een vraag richtend profielen van 21 jaar of meer.](assets/ruleb-3.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -146,11 +146,11 @@ Voor datumtekstkenmerken zijn vooraf gedefinieerde waarden beschikbaar met de op
 
 >[!TAB  Klassieke vraagmodeler ]
 
-![ Voorbeeld van het gebruiken van datum stelt in een vraag vooraf in.](assets/date-presets.png){zoomable="yes"}
+![&#x200B; Voorbeeld van het gebruiken van datum stelt in een vraag vooraf in.](assets/date-presets.png){zoomable="yes"}
 
 >[!TAB  Nieuwe regelbouwer ]
 
-![ Voorbeeld van het gebruiken van datum stelt in een vraag vooraf in.](assets/ruleb-4.png){zoomable="yes"}
+![&#x200B; Voorbeeld van het gebruiken van datum stelt in een vraag vooraf in.](assets/ruleb-4.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -168,15 +168,15 @@ Hier, richt de vraag zich merken het waarvan etiket &quot;loopt&quot;.
 
 1. Navigeer binnen de **Merk** lijst en selecteer het **3&rbrace; attribuut van het Etiket &lbrace;.**
 
-   ![ Schermafbeelding van de lijst van het Merk ](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![&#x200B; Schermafbeelding van de lijst van het Merk &#x200B;](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Definieer de verwachte waarde voor het kenmerk.
 
-   ![ Voorbeeld van een bepaalde verwachte waarde ](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
+   ![&#x200B; Voorbeeld van een bepaalde verwachte waarde &#x200B;](assets/1-1-table.png){zoomable="yes"}{width="85%" align="center"}
 
 Hier volgt een queryvoorbeeld waarin een tabelkoppeling rechtstreeks is geselecteerd. Beschikbare waarden voor deze tabel moeten worden geselecteerd in een speciale kiezer.
 
-![ Voorbeeld van een vraagsteekproef ](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
+![&#x200B; Voorbeeld van een vraagsteekproef &#x200B;](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -188,19 +188,19 @@ Hier richt de query zich op ontvangers die aankopen hebben gedaan met betrekking
 
 1. Selecteer **Aankopen** lijst en bevestig.
 
-   ![ Schermafbeelding van de lijst van de Aankoop ](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
+   ![&#x200B; Schermafbeelding van de lijst van de Aankoop &#x200B;](assets/1-N-collection.png){zoomable="yes"}{width="50%" align="center"}
 
 1. Een uitgaande overgang wordt toegevoegd, toestaand u om ondervoorwaarden tot stand te brengen.
 
-   ![ Voorbeeld van een uitgaande overgang ](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
+   ![&#x200B; Voorbeeld van een uitgaande overgang &#x200B;](assets/1-n-subcondition.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Selecteer de **Prijs** attributen en doelaankopen van 1000$ of meer
 
-   ![ Screenshot van de attributen van de Prijs ](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
+   ![&#x200B; Screenshot van de attributen van de Prijs &#x200B;](assets/1-n-price.png){zoomable="yes"}{width="85%" align="center"}
 
 1. Voeg subvoorwaarden toe die aan uw behoeften voldoen. Hier hebben we een voorwaarde toegevoegd aan de doelprofielen die een BrewMaster-product hebben aangeschaft.
 
-   ![ Voorbeeld van sub-conditions ](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
+   ![&#x200B; Voorbeeld van sub-conditions &#x200B;](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
 +++
 
@@ -210,7 +210,7 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 
 1. Navigeer binnen de gewenste inzamelingstabel en selecteer de attributen waarop u een gezamenlijke verrichting wilt uitvoeren.
 
-   ![ Screenshot van de attributenlijst ](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
+   ![&#x200B; Screenshot van de attributenlijst &#x200B;](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
 1. In de eigenschappen ruit, knevel op de **Samengevoegde gegevens** optie en selecteer de gewenste gezamenlijke functie.
 
@@ -218,11 +218,11 @@ Met aangepaste omstandigheden kunt u gezamenlijke bewerkingen uitvoeren. Hiervoo
 
 >[!TAB  Klassieke vraagmodeler ]
 
-![ Schermafbeelding van de Samengevoegde gegevensoptie ](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
+![&#x200B; Schermafbeelding van de Samengevoegde gegevensoptie &#x200B;](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
 >[!TAB  Nieuwe regelbouwer ]
 
-![ Schermafbeelding van de Samengevoegde gegevensoptie ](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
+![&#x200B; Schermafbeelding van de Samengevoegde gegevensoptie &#x200B;](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
 
 >[!ENDTABS]
 
@@ -245,7 +245,7 @@ Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
    *voorbeeld van de vraag die alle profielen terugkeert die tot het &quot;publiek van de Goers van het Festival&quot;behoren:*
 
-   ![ Screenshof van een vraagvoorbeeld ](assets/query-audience.png){zoomable="yes"}
+   ![&#x200B; Screenshof van een vraagvoorbeeld &#x200B;](assets/query-audience.png){zoomable="yes"}
 
 >[!TAB  Nieuwe regelbouwer ]
 
@@ -255,7 +255,7 @@ Voer de volgende stappen uit om uw query te filteren op een bestaand publiek:
 
    *voorbeeld van de Vraag die alle profielen terugkeren die tot het &quot;publiek van de Werken van de Koffie&quot;behoren:*
 
-   ![ Screenshof van een vraagvoorbeeld ](assets/ruleb-7.png){zoomable="yes"}
+   ![&#x200B; Screenshof van een vraagvoorbeeld &#x200B;](assets/ruleb-7.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -278,7 +278,7 @@ Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd
 
    *voorbeeld van de Vraag die alle profielen terugkeren die aan de &quot;Inactieve klanten&quot;vooraf bepaalde filter beantwoorden:*
 
-   ![ Schermafbeelding van een vraagvoorbeeld ](assets/query-predefined-filter.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding van een vraagvoorbeeld &#x200B;](assets/query-predefined-filter.png){zoomable="yes"}
 
 >[!TAB  Nieuwe regelbouwer ]
 
@@ -288,7 +288,7 @@ Voer de volgende stappen uit om de query te filteren met een vooraf gedefinieerd
 
    *voorbeeld van de Vraag die alle profielen terugkeren die aan de &quot;Inactieve klanten&quot;vooraf bepaalde filter beantwoorden:*
 
-   ![ Schermafbeelding van een vraagvoorbeeld ](assets/ruleb-8.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding van een vraagvoorbeeld &#x200B;](assets/ruleb-8.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -317,7 +317,7 @@ Voer de volgende stappen uit om filtercomponenten te kopiëren en te plakken:
 
 1. Om de component(en) te kleven, klik + knoop aan het eind van de gewenste overgang en selecteer **Deeg in punten**.
 
-   ![ Voorbeeld van het kleven van de componenten ](assets/copy-paste.png){zoomable="yes"}
+   ![&#x200B; Voorbeeld van het kleven van de componenten &#x200B;](assets/copy-paste.png){zoomable="yes"}
 
 ## Componenten slepen en neerzetten {#drag-and-drop}
 
@@ -329,7 +329,7 @@ Wanneer u componenten aan uw vraag toevoegt, kunt u hen bewegen omhoog en neer g
 
 Links van elke component kunt u op de stippen klikken en deze ingedrukt houden om de component omhoog en omlaag te slepen, afhankelijk van waar u de componenten wilt plaatsen en groeperen.
 
-![ Gif die tonen hoe te om de componenten in de nieuwe regelbouwer te slepen en te laten vallen ](assets/ruleb-drag.gif){zoomable="yes"}
+![&#x200B; Gif die tonen hoe te om de componenten in de nieuwe regelbouwer te slepen en te laten vallen &#x200B;](assets/ruleb-drag.gif){zoomable="yes"}
 
 ## Filtercomponenten combineren met operatoren {#operators}
 
@@ -346,7 +346,7 @@ In dit voorbeeld, hebben wij een nieuwe publiek-type het filtreren componenten o
 
 >[!TAB  Klassieke vraagmodeler ]
 
-![ Voorbeeld van een vraag ](assets/query-operator.png){zoomable="yes"}
+![&#x200B; Voorbeeld van een vraag &#x200B;](assets/query-operator.png){zoomable="yes"}
 
 Om de exploitant te veranderen die wordt gebruikt om het filtreren voorwaarden samen te verbinden, klik op het en selecteer de gewenste exploitant in de **ruit van de Groep** die op de rechterkant opent.
 
@@ -356,13 +356,13 @@ Beschikbare operatoren zijn:
 * **OF (Unie)**: Omvat resultaten die minstens één van de het filtreren componenten in de uitgaande overgangen aanpassen.
 * **BEHALVE (Uitsluiting)**: Sluit resultaten uit die alle het filtreren componenten in de uitgaande overgang aanpassen.
 
-![ Voorbeeld van een vraag ](assets/query-operator-change.png){zoomable="yes"}
+![&#x200B; Voorbeeld van een vraag &#x200B;](assets/query-operator-change.png){zoomable="yes"}
 
 Daarnaast kunt u tussenliggende groepen componenten maken door componenten te groeperen in dezelfde groep en deze aan elkaar te koppelen. Op die manier wordt de operator AND standaard ingesteld, kunt u deze wijzigen in de gewenste operator.
 
 >[!TAB  Nieuwe regelbouwer ]
 
-![ Voorbeeld van een vraag ](assets/ruleb-9.png){zoomable="yes"}
+![&#x200B; Voorbeeld van een vraag &#x200B;](assets/ruleb-9.png){zoomable="yes"}
 
 Als u de operator wilt wijzigen die wordt gebruikt om filtervoorwaarden aan elkaar te koppelen, klikt u erop, verandert deze in OR, EXCEPT en vervolgens terug naar AND en selecteert u de gewenste operator.
 
@@ -372,7 +372,7 @@ Beschikbare operatoren zijn:
 * **OF (Unie)**: Omvat resultaten die minstens één van de het filtreren componenten in de uitgaande overgangen aanpassen.
 * **BEHALVE (Uitsluiting)**: Sluit resultaten uit die alle het filtreren componenten in de uitgaande overgang aanpassen.
 
-![ Voorbeeld van een vraag ](assets/ruleb-10.gif){zoomable="yes"}
+![&#x200B; Voorbeeld van een vraag &#x200B;](assets/ruleb-10.gif){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -382,11 +382,11 @@ In het onderstaande voorbeeld hebben we een tussengroep opgericht die resultaten
 
 >[!TAB  Klassieke vraagmodeler ]
 
-![ Voorbeeld van een vraag ](assets/query-intermediate-group.png){zoomable="yes"}
+![&#x200B; Voorbeeld van een vraag &#x200B;](assets/query-intermediate-group.png){zoomable="yes"}
 
 >[!TAB  Nieuwe regelbouwer ]
 
-![ Voorbeeld van een vraag in de nieuwe regelbouwer ](assets/ruleb-11.png){zoomable="yes"}
+![&#x200B; Voorbeeld van een vraag in de nieuwe regelbouwer &#x200B;](assets/ruleb-11.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -402,7 +402,7 @@ Zodra u uw vraag in het canvas hebt gebouwd, kunt u het controleren gebruikend d
 * **resultaten van de Mening:** toont de gegevens die uit uw vraag voortvloeien.
 * **mening van de Code**: Toont een op code-gebaseerde versie van de vraag in SQL.
 * **berekent**: Updates en toont het aantal verslagen die door uw vraag worden gericht.
-* **Uitgezocht of sparen filter**: Kies een bestaand vooraf bepaald filter om in het canvas te gebruiken, of sparen uw vraag als vooraf bepaald filter voor toekomstig hergebruik. [ Leer hoe te met vooraf bepaalde filters ](../get-started/predefined-filters.md) te werken
+* **Uitgezocht of sparen filter**: Kies een bestaand vooraf bepaald filter om in het canvas te gebruiken, of sparen uw vraag als vooraf bepaald filter voor toekomstig hergebruik. [&#x200B; Leer hoe te met vooraf bepaalde filters &#x200B;](../get-started/predefined-filters.md) te werken
 
   >[!IMPORTANT]
   >
@@ -413,7 +413,7 @@ Wanneer het gebruiken van de nieuwe ervaring van de regelbouwer, kunt u de doelb
 * Klik **berekenen het voorwaarde** pictogram op de gewenste voorwaarde of de groep om het aantal verslagen gegevens te verwerken en te tonen die door uw vraag worden bedoeld.
 * Klik op het resultaatnummer om de gedetailleerde lijst met records weer te geven.
 
-![ Bevolking en resultaatvertoning ](assets/ruleb-11bis.png){zoomable="yes"}
+![&#x200B; Bevolking en resultaatvertoning &#x200B;](assets/ruleb-11bis.png){zoomable="yes"}
 
 Wanneer uw vraag klaar is, klik de **[!UICONTROL Confirm]** knoop in de hoger-juiste hoek om het te bewaren.
 
@@ -424,12 +424,12 @@ Wanneer uw vraag klaar is, klik de **[!UICONTROL Confirm]** knoop in de hoger-ju
 
 U kunt uw query op elk gewenst moment wijzigen door deze te openen. Houd in mening dat het bij het openen van een bestaande vraag, het in een vereenvoudigde mening zonder de zichtbaarheid van **+** knopen toont. Als u nieuwe elementen aan de query wilt toevoegen, selecteert u een component of operator op het canvas om de knoppen **+** weer te geven.
 
-![ Voorbeeld van een vraag ](assets/edit-audience.png){zoomable="yes"}
+![&#x200B; Voorbeeld van een vraag &#x200B;](assets/edit-audience.png){zoomable="yes"}
 
 >[!TAB  Nieuwe Bouwer van de Regel ]
 
 U kunt uw query op elk gewenst moment wijzigen door deze te openen. Klik hiertoe op de knop **[!UICONTROL Add condition]** in de linkerbovenhoek.
 
-![ Voorbeeld van een vraag in de nieuwe regelbouwer ](assets/ruleb-11.png){zoomable="yes"}
+![&#x200B; Voorbeeld van een vraag in de nieuwe regelbouwer &#x200B;](assets/ruleb-11.png){zoomable="yes"}
 
 >[!ENDTABS]

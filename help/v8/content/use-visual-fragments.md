@@ -15,11 +15,11 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Voor deze functie is een update van Campagne v8.6.4 vereist. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes).
+>Voor deze functie is een update van Campagne v8.6.4 vereist. Leer meer in de [&#x200B; notities van de de consoleversie van de Cliënt van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes).
 
-In de het Webinterface van de Campagne, **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige [ e-mailleveringen ](../email/get-started-email-designer.md) of in [ inhoudsmalplaatjes ](../content/use-email-templates.md) kunt hergebruiken. Leer hoe te om inhoudsfragmenten in [ tot stand te brengen en te beheren deze sectie ](fragments.md).
+In de het Webinterface van de Campagne, **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige [&#x200B; e-mailleveringen &#x200B;](../email/get-started-email-designer.md) of in [&#x200B; inhoudsmalplaatjes &#x200B;](../content/use-email-templates.md) kunt hergebruiken. Leer hoe te om inhoudsfragmenten in [&#x200B; tot stand te brengen en te beheren deze sectie &#x200B;](fragments.md).
 
-![ Visuele vertegenwoordiging van visuele fragmenten in gebruik ](assets/do-not-localize/fragments.gif)
+![&#x200B; Visuele vertegenwoordiging van visuele fragmenten in gebruik &#x200B;](assets/do-not-localize/fragments.gif)
 
 ## Een visueel fragment gebruiken {#use-fragment}
 
@@ -32,11 +32,11 @@ In de het Webinterface van de Campagne, **Visuele fragmenten** zijn vooraf bepaa
 
 Voer de volgende stappen uit om een visueel fragment in te voegen in e-mailinhoud:
 
-1. Open om het even welke e-mail of malplaatjeinhoud gebruikend [ E-mail Designer ](../email/get-started-email-designer.md).
+1. Open om het even welke e-mail of malplaatjeinhoud gebruikend [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-designer.md).
 
 1. Selecteer het pictogram **[!UICONTROL Fragments]** van de linkerspoorstaaf.
 
-   ![ Schermschot die het pictogram van Fragmenten in de E-mailDesigner interface tonen ](assets/fragments-in-designer.png)
+   ![&#x200B; Schermschot die het pictogram van Fragmenten in de E-mailDesigner interface tonen &#x200B;](assets/fragments-in-designer.png)
 
 1. De lijst met alle visuele fragmenten die in de huidige sandbox zijn gemaakt, wordt weergegeven. U kunt:
 
@@ -54,7 +54,7 @@ Voer de volgende stappen uit om een visueel fragment in te voegen in e-mailinhou
 
 1. Selecteer het fragment om de opties ervan in het rechterdeelvenster weer te geven.
 
-   ![ Schermschot die de fragmentopties in de juiste ruit tonen ](assets/fragment-right-pane.png)
+   ![&#x200B; Schermschot die de fragmentopties in de juiste ruit tonen &#x200B;](assets/fragment-right-pane.png)
 
    Via het tabblad **[!UICONTROL Settings]** kunt u:
 
@@ -75,11 +75,11 @@ Toegangsrechten kunnen van toepassing zijn op visuele fragmenten.
 
 Als de toestemmingsuitgave niet voor een bepaald visueel fragment wordt verleend, wordt het inhoudsmalplaatje getoond in **read-only wijze**. In dit geval wordt de knop **[!UICONTROL Edit content]** vervangen door de knop **[!UICONTROL View content]** , zodat u het fragment kunt bekijken zonder wijzigingen aan te brengen.
 
-![ Schermschot die een visueel fragment op read-only wijze tonen ](assets/fragment-readonly.png){zoomable="yes"}
+![&#x200B; Schermschot die een visueel fragment op read-only wijze tonen &#x200B;](assets/fragment-readonly.png){zoomable="yes"}
 
 Zoals hieronder wordt getoond, worden alle eigenschapspictogrammen gedeactiveerd, die interactie beperken tot het bekijken slechts.
 
-![ Schermafbeelding tonend gedeactiveerde eigenschappictogrammen op read-only wijze ](assets/fragment-readonly-view.png){zoomable="yes"}
+![&#x200B; Schermafbeelding tonend gedeactiveerde eigenschappictogrammen op read-only wijze &#x200B;](assets/fragment-readonly-view.png){zoomable="yes"}
 
 ## Overerving onderbreken {#break-inheritance}
 
@@ -95,6 +95,6 @@ Voer de volgende stappen uit om overerving te onderbreken:
 
 1. Klik op het ontgrendelingspictogram op de contextafhankelijke werkbalk.
 
-   ![ Schermschot die het ontgrendelingspictogram tonen om overerving te breken ](assets/fragment-break-inheritance.png)
+   ![&#x200B; Schermschot die het ontgrendelingspictogram tonen om overerving te breken &#x200B;](assets/fragment-break-inheritance.png)
 
 1. Het fragment wordt een zelfstandig element dat niet meer is gekoppeld aan het oorspronkelijke fragment. Bewerk de inhoud als elke andere inhoudscomponent in de inhoud. [Meer informatie](../email/content-components.md)

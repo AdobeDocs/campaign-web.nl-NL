@@ -16,7 +16,7 @@ Afhankelijk van het type externe account voor Adobe Solution Integration dat u h
 
 Als u verbinding wilt maken met de Adobe Campaign-console via een Adobe ID, moet u de externe Adobe Experience Cloud-account (MAC) configureren.
 
-![ Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Adobe Experience Cloud MAC toont.](assets/external-MAC.png)
+![&#x200B; Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Adobe Experience Cloud MAC toont.](assets/external-MAC.png)
 
 Als u de **[!UICONTROL Adobe Experience Cloud]** externe account wilt configureren, vult u de volgende velden in:
 
@@ -42,7 +42,7 @@ Als u de **[!UICONTROL Adobe Experience Cloud]** externe account wilt configurer
 
 * **[!UICONTROL IMS organization ID]**
 
-  Id van uw organisatie. Om uw organisatieidentiteitskaart te vinden, verwijs naar [ deze pagina ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl){target=_blank}.
+  Id van uw organisatie. Om uw organisatieidentiteitskaart te vinden, verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl){target=_blank}.
 
 * **[!UICONTROL Association mask]**
 

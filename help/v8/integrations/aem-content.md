@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Dankzij de integratie van de Adobe Campaign Web-interface met Adobe Experience Manager kunt u inhoud en formulieren voor e-mailbezorging direct binnen het Adobe Experience Manager-platform beheren.
 
-![](assets/do-not-localize/book.png) [ leer meer over Adobe Experience Manager as a Cloud Service ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=nl-NL)
+![](assets/do-not-localize/book.png) [&#x200B; leer meer over Adobe Experience Manager as a Cloud Service &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/getting-started/quick-start.html?lang=nl-NL)
 
 ## Een sjabloon maken in [!DNL Adobe Experience Manager as a Cloud Service]{#create-aem-template}
 
@@ -26,7 +26,7 @@ Dankzij de integratie van de Adobe Campaign Web-interface met Adobe Experience M
 
 1. Klik op **[!UICONTROL Create]** en selecteer **[!UICONTROL Page]** in het vervolgkeuzemenu.
 
-   ![ Schermschot die de &quot;Create&quot;knoop en &quot;Pagina&quot;optie in het dropdown menu tonen.](assets/aem_1.png)
+   ![&#x200B; Schermschot die de &quot;Create&quot;knoop en &quot;Pagina&quot;optie in het dropdown menu tonen.](assets/aem_1.png)
 
 1. Selecteer de sjabloon **[!UICONTROL Adobe Campaign Email]** en geef de nieuwsbrief een naam.
 
@@ -36,13 +36,13 @@ Dankzij de integratie van de Adobe Campaign Web-interface met Adobe Experience M
 
 1. Wanneer uw e-mail gereed is, navigeert u naar het menu **[!UICONTROL Page information]** en klikt u op **[!UICONTROL Start workflow]** .
 
-   ![ het Schermafbeelding die het menu van de &quot;Informatie van de Pagina&quot;en de optie van het &quot;werkschema van het Begin&quot;toont.](assets/aem_3.png)
+   ![&#x200B; het Schermafbeelding die het menu van de &quot;Informatie van de Pagina&quot;en de optie van het &quot;werkschema van het Begin&quot;toont.](assets/aem_3.png)
 
 1. Selecteer in het eerste vervolgkeuzemenu **[!UICONTROL Approve Adobe Campaign]** als het workflowmodel en klik op **[!UICONTROL Start workflow]** .
 
 1. Boven aan de pagina wordt een disclaimer weergegeven met de tekst `This page is subject to the workflow Approve for Adobe Campaign` . Klik op **[!UICONTROL Complete]** naast de disclaimer om de revisie te bevestigen en klik op **[!UICONTROL Ok]** .
 
-   ![ Scherenshot die de ontkenning en &quot;Volledige&quot;knoop tonen.](assets/aem_4.png)
+   ![&#x200B; Scherenshot die de ontkenning en &quot;Volledige&quot;knoop tonen.](assets/aem_4.png)
 
 1. Klik nogmaals op **[!UICONTROL Complete]** en selecteer **[!UICONTROL Newsletter approval]** in de vervolgkeuzelijst **[!UICONTROL Next Step]** .
 
@@ -56,7 +56,7 @@ Zodra het malplaatje van Experience Manager in het Web van Adobe Campaign als in
 
 1. Selecteer de ingebouwde sjabloon **[!UICONTROL Email delivery with AEM content]** in het venster E-mailsjabloon.
 
-   ![ Screenshot die de &quot;E-maillevering met de inhoud van AEM&quot;malplaatjeselectie toont.](assets/aem_5.png)
+   ![&#x200B; Screenshot die de &quot;E-maillevering met de inhoud van AEM&quot;malplaatjeselectie toont.](assets/aem_5.png)
 
 1. Voer een **[!UICONTROL Label]** in voor de levering en configureer aanvullende opties op basis van uw behoeften:
 
@@ -72,17 +72,17 @@ Zodra het malplaatje van Experience Manager in het Web van Adobe Campaign als in
 
 1. Klik in het menu **[!UICONTROL Edit content]** op **[!UICONTROL Select AEM content]** .
 
-   ![ Schermafbeelding die de optie &quot;AEM-inhoud selecteren&quot; in het menu &quot;Inhoud bewerken&quot; weergeeft.](assets/aem_6.png)
+   ![&#x200B; Schermafbeelding die de optie &quot;AEM-inhoud selecteren&quot; in het menu &quot;Inhoud bewerken&quot; weergeeft.](assets/aem_6.png)
 
 1. Blader door de AEM-sjabloon en selecteer de sjabloon die u wilt importeren in Campagne Web.
 
-   ![ Screenshot die de interface van de het malplaatjeselectie van AEM toont.](assets/aem_8.png)
+   ![&#x200B; Screenshot die de interface van de het malplaatjeselectie van AEM toont.](assets/aem_8.png)
 
 1. Inhoud wordt niet automatisch gesynchroniseerd. Als er direct in Adobe Experience Manager wijzigingen in uw sjablonen worden aangebracht, selecteert u **[!UICONTROL Refresh AEM content]** om bij te werken naar de meest recente versie van uw sjabloon.
 
 1. Als u de koppeling tussen Experience Manager en Campagne wilt verwijderen of de Experience Manager-sjabloon in de e-mailontwerper verder wilt aanpassen, klikt u op **[!UICONTROL Unlink AEM content]** .
 
-   ![ Schermafbeelding die de optie &quot;AEM-inhoud ontkoppelen&quot; weergeeft.](assets/aem_9.png)
+   ![&#x200B; Schermafbeelding die de optie &quot;AEM-inhoud ontkoppelen&quot; weergeeft.](assets/aem_9.png)
 
 1. Als u persoonlijke inhoud hebt toegevoegd aan uw Experience Manager-sjabloon, klikt u op **[!UICONTROL Simulate Content]** om een voorvertoning weer te geven van de inhoud die in het bericht wordt weergegeven met testprofielen.
 

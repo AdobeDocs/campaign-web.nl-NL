@@ -76,7 +76,7 @@ Volg deze stappen om de **Verzoening** activiteit te vormen:
 
 1. Voeg a **Verzoening** activiteit aan uw werkschema toe. Deze activiteit moet volgen op een overgang met een bevolking waarvan de doelgerichtheid niet rechtstreeks uit Adobe Campaign afkomstig is.
 
-1. Selecteer de nieuwe doeldimensie. Een dimensie definieert de doelpopulatie: ontvangers, app-abonnees, operators, abonnees en meer. [ Leer meer over het richten van dimensies ](../../audience/about-recipients.md#targeting-dimensions).
+1. Selecteer de nieuwe doeldimensie. Een dimensie definieert de doelpopulatie: ontvangers, app-abonnees, operators, abonnees en meer. [&#x200B; Leer meer over het richten van dimensies &#x200B;](../../audience/about-recipients.md#targeting-dimensions).
 
 1. Selecteer de velden die u wilt gebruiken voor de afstemming. U kunt een of meer verzoeningscriteria gebruiken.
 
@@ -84,11 +84,11 @@ Volg deze stappen om de **Verzoening** activiteit te vormen:
 
       Om een ander verzoeningscriterium toe te voegen, klik **regel** knoop toevoegen. Als er meerdere samenvoegvoorwaarden zijn opgegeven, moeten deze allemaal worden gecontroleerd voordat de gegevens worden gekoppeld.
 
-      ![ voorbeeld van verzoeningscriteria ](../assets/workflow-reconciliation-criteria.png)
+      ![&#x200B; voorbeeld van verzoeningscriteria &#x200B;](../assets/workflow-reconciliation-criteria.png)
 
-   1. Om andere attributen te gebruiken om gegevens te combineren, selecteer de **Geavanceerde verzoeningsvoorwaarden** optie. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken.
+   1. Om andere attributen te gebruiken om gegevens te combineren, selecteer de **Geavanceerde verzoeningsvoorwaarden** optie. U kunt dan uw eigen verzoeningsvoorwaarde tot stand brengen gebruikend de vraagmodeler. [&#x200B; Leer hoe te met de vraagmodelaar &#x200B;](../../query/query-modeler-overview.md) te werken.
 
-1. De gegevens van de filter om het gebruiken van **te verzoenen leiden filter** knoop. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken.
+1. De gegevens van de filter om het gebruiken van **te verzoenen leiden filter** knoop. Hiermee kunt u een aangepaste voorwaarde maken met behulp van de querymodelfunctie. [&#x200B; Leer hoe te met de vraagmodelaar &#x200B;](../../query/query-modeler-overview.md) te werken.
 
 Standaard worden niet-compatibele gegevens bewaard in de uitgaande overgang en beschikbaar in de werktabel voor toekomstig gebruik. Om unconiled gegevens te verwijderen, deactiveer **houden unconiled gegevens** optie.
 
@@ -98,11 +98,11 @@ In het volgende voorbeeld ziet u een workflow die een doelgroep van profielen re
 
 De workflow is als volgt ontworpen:
 
-![ voorbeeld van het Werkschema ](../assets/workflow-reconciliation-sample-1.0.png)
+![&#x200B; voorbeeld van het Werkschema &#x200B;](../assets/workflow-reconciliation-sample-1.0.png)
 
 Het wordt gebouwd met de volgende activiteiten:
 
-* A [ de dossieractiviteit van de Lading ](load-file.md) uploadt een dossier dat profielgegevens bevat die uit een extern hulpmiddel worden gehaald.
+* A [&#x200B; de dossieractiviteit van de Lading &#x200B;](load-file.md) uploadt een dossier dat profielgegevens bevat die uit een extern hulpmiddel worden gehaald.
 
   Bijvoorbeeld:
 
@@ -117,9 +117,9 @@ Het wordt gebouwd met de volgende activiteiten:
 
 * A **de verzoening** activiteit identificeert de inkomende gegevens als profielen door **E-mail** en **Datum van geboorte** gebieden als verzoeningscriteria te gebruiken.
 
-  ![ het voorbeeld van de Verzoening activiteit ](../assets/workflow-reconciliation-sample-1.1.png)
+  ![&#x200B; het voorbeeld van de Verzoening activiteit &#x200B;](../assets/workflow-reconciliation-sample-1.1.png)
 
-* A [ sparen publiek ](save-audience.md) activiteit leidt tot een nieuw publiek dat op deze updates wordt gebaseerd. U kunt **sparen publiek** activiteit met een **Eind** activiteit ook vervangen als geen specifiek publiek moet worden gecreeerd of worden bijgewerkt. Ontvangersprofielen worden in elk geval bijgewerkt wanneer u de workflow uitvoert.
+* A [&#x200B; sparen publiek &#x200B;](save-audience.md) activiteit leidt tot een nieuw publiek dat op deze updates wordt gebaseerd. U kunt **sparen publiek** activiteit met een **Eind** activiteit ook vervangen als geen specifiek publiek moet worden gecreeerd of worden bijgewerkt. Ontvangersprofielen worden in elk geval bijgewerkt wanneer u de workflow uitvoert.
 
 ## Compatibiliteit {#reconciliation-compat}
 

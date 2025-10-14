@@ -26,7 +26,7 @@ U kunt een **[!UICONTROL trap group]** gebruiken:
 
 >[!NOTE]
 >
->Naast [ verzendend proeven tijdens de verwezenlijking van de levering ](../email/create-email.md#preview-test) en van [ controlegroep ](control-group.md), is het toevoegen van een valgroep een goede manier om uw publiek te testen.
+>Naast [&#x200B; verzendend proeven tijdens de verwezenlijking van de levering &#x200B;](../email/create-email.md#preview-test) en van [&#x200B; controlegroep &#x200B;](control-group.md), is het toevoegen van een valgroep een goede manier om uw publiek te testen.
 
 ## Overvulgroepen {#about-trap-group}
 
@@ -41,40 +41,40 @@ Als u een **[!UICONTROL Trap group]** wilt instellen, gaat u naar de **[!UICONTR
 * [Testprofielen selecteren](#select-test-profiles)
 * [Voorwaarde maken](#create-condition)
 
-[ het schermschot van de de de groepsmontages van de Vulling ](assets/trap-group.png){zoomable="yes"}
+[&#x200B; het schermschot van de de de groepsmontages van de Vulling &#x200B;](assets/trap-group.png){zoomable="yes"}
 
 ### Testprofielen selecteren {#select-test-profiles}
 
 Wanneer u **Uitgezochte testprofielen** kiest, gebruik **testprofiel(en)** knoop zoals hieronder getoond:
 
-[ voeg het screenshot van de de knoopknoop van het testprofiel toe ](assets/trap-no-test-profile.png){zoomable="yes"}
+[&#x200B; voeg het screenshot van de de knoopknoop van het testprofiel toe &#x200B;](assets/trap-no-test-profile.png){zoomable="yes"}
 
 Wanneer u op de knop klikt, kunt u de testprofielen openen om deze aan uw **[!UICONTROL trap group]** toe te voegen. Selecteer de methoden die u wilt gebruiken.
 
 U kunt ook nieuwe testprofielen maken. [Meer informatie](#create-seed)
 
-[ Uitgezochte het schermschot van de het interfaceprofielen van de testprofielen ](assets/trap-select-test-profiles.png){zoomable="yes"}
+[&#x200B; Uitgezochte het schermschot van de het interfaceprofielen van de testprofielen &#x200B;](assets/trap-select-test-profiles.png){zoomable="yes"}
 
 Nadat u de testprofielen hebt bevestigd, controleert u of het juiste nummer onder **[!UICONTROL Trap group]** staat.
 
-[ het schermschot van de de groepsbevestiging van de Vulling ](assets/trap-check.png){zoomable="yes"}
+[&#x200B; het schermschot van de de groepsbevestiging van de Vulling &#x200B;](assets/trap-check.png){zoomable="yes"}
 
 ### Voorwaarde maken {#create-condition}
 
 Maak met de optie **[!UICONTROL Create condition]** een query om de testprofielen te definiëren die u wilt gebruiken:
 
-[ creeer het schermschot van de voorwaardeninterface ](assets/trap-create-condition.png){zoomable="yes"}
+[&#x200B; creeer het schermschot van de voorwaardeninterface &#x200B;](assets/trap-create-condition.png){zoomable="yes"}
 
 Uw query wordt weergegeven onder **[!UICONTROL Trap group]** .
 
-[ het schermschot van de de vraagvertoning van de groep van de Vulling ](assets/trap-custom.png){zoomable="yes"}
+[&#x200B; het schermschot van de de vraagvertoning van de groep van de Vulling &#x200B;](assets/trap-custom.png){zoomable="yes"}
 
 ## Een nieuw testprofiel maken {#create-seed}
 
 U kunt een nieuwe **[!UICONTROL test profile]** maken in de map **[!UICONTROL Explorer]** > **[!UICONTROL Resources]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Seed members]** .
 
-[ creeer het schermafbeelding van de het netwerknavigatie van het testprofiel ](assets/trap-create.png){zoomable="yes"}
+[&#x200B; creeer het schermafbeelding van de het netwerknavigatie van het testprofiel &#x200B;](assets/trap-create.png){zoomable="yes"}
 
 Configureer alle instellingen voor uw **[!UICONTROL test profile]** op dezelfde manier als voor elk profiel:
 
-[ het schermschot van de profielconfiguratie van de Test ](assets/trap-create-contact.png){zoomable="yes"}
+[&#x200B; het schermschot van de profielconfiguratie van de Test &#x200B;](assets/trap-create-contact.png){zoomable="yes"}

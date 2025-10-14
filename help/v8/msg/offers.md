@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Aanbiedingen toevoegen aan uw berichten {#offers-content}
 
-In de gebruikersinterface van Adobe Campaign Web kunt u aanbiedingen toevoegen aan uw leveringen. Deze aanbiedingen zijn beschikbaar bij **Aanbiedingen** linkermenu, dat u tot de lijst van aanbiedingen laat toegang hebben. Al deze aanbiedingen zijn read-only en moeten in de de cliëntconsole van de Campagne worden gecreeerd gebruikend de **[!UICONTROL Interaction]** module. Voor meer informatie over Interactie en hoe te om een aanbiedingencatalogus in de console te beheren, verwijs naar de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=nl-NL){target="_blank"}.
+In de gebruikersinterface van Adobe Campaign Web kunt u aanbiedingen toevoegen aan uw leveringen. Deze aanbiedingen zijn beschikbaar bij **Aanbiedingen** linkermenu, dat u tot de lijst van aanbiedingen laat toegang hebben. Al deze aanbiedingen zijn read-only en moeten in de de cliëntconsole van de Campagne worden gecreeerd gebruikend de **[!UICONTROL Interaction]** module. Voor meer informatie over Interactie en hoe te om een aanbiedingencatalogus in de console te beheren, verwijs naar de [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction.html?lang=nl-NL){target="_blank"}.
 
 De stappen voor het verzenden van voorstellen met levering zijn als volgt:
 
@@ -37,13 +37,13 @@ Volg onderstaande stappen om de voorstellen te selecteren die u aan uw levering 
 
 1. Klik op de knop **[!UICONTROL Set up offers]** in het scherm voor de editie van de leveringsinhoud.
 
-   ![ Schermschot die de knoop van de aanbiedingsopstelling in het scherm van de uitgave van de leveringsinhoud tonen ](assets/offer-setup.png){zoomable="yes"}
+   ![&#x200B; Schermschot die de knoop van de aanbiedingsopstelling in het scherm van de uitgave van de leveringsinhoud tonen &#x200B;](assets/offer-setup.png){zoomable="yes"}
 
 1. Vorm welke aanbiedingen aan de ontvangers zouden moeten worden voorgesteld.
 
-   Selecteer eerst de **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving. Leer hoe te om een aanbiedingsruimte in de [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=nl-NL){target="_blank"} tot stand te brengen.
+   Selecteer eerst de **[!UICONTROL Offer space]** die overeenkomt met uw aanbiedingsomgeving. Leer hoe te om een aanbiedingsruimte in de [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces.html?lang=nl-NL){target="_blank"} tot stand te brengen.
 
-   ![ Schermafbeelding die de selectie van de aanbiedingsruimte in de inhoud van de aanbiedingsverwezenlijking toont ](assets/offer-create-content.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de selectie van de aanbiedingsruimte in de inhoud van de aanbiedingsverwezenlijking toont &#x200B;](assets/offer-create-content.png){zoomable="yes"}
 
 1. Als u de keuze van de motor met aanbiedingen wilt verfijnen, selecteert u een specifieke **[!UICONTROL Offer category]** waarin de aanbiedingen worden gesorteerd.
 
@@ -75,11 +75,11 @@ Zodra u de voorstellen hebt gevormd om in uw levering voor te stellen, kunt u he
 
 ## Aanbiedingen in de levering invoegen {#insert}
 
-De aanbiedingen kunnen in de levering worden toegevoegd gebruikend de [ uitdrukkingsredacteur ](../personalization/gs-personalization.md#access). Zij kunnen in de onderwerpregel of in het leveringsorgaan worden ingevoegd.
+De aanbiedingen kunnen in de levering worden toegevoegd gebruikend de [&#x200B; uitdrukkingsredacteur &#x200B;](../personalization/gs-personalization.md#access). Zij kunnen in de onderwerpregel of in het leveringsorgaan worden ingevoegd.
 
 >[!CAUTION]
 >
->Alvorens een aanbieding in een levering op te nemen, zorg ervoor u [ gevormd hebt die aanbiedingen om met die levering ](#configure) voor te stellen.
+>Alvorens een aanbieding in een levering op te nemen, zorg ervoor u [&#x200B; gevormd hebt die aanbiedingen om met die levering &#x200B;](#configure) voor te stellen.
 
 Volg onderstaande stappen om een aanbieding in te voegen met de expressieeditor.
 
@@ -87,21 +87,21 @@ Volg onderstaande stappen om een aanbieding in te voegen met de expressieeditor.
 
 1. Plaats de curseur waar u de aanbieding wilt opnemen, en open de uitdrukkingsredacteur gebruikend het verpersoonlijkingspictogram.
 
-   ![ Schermschot die het verpersoonlijkingspictogram tonen wordt gebruikt om de uitdrukkingsredacteur te openen ](assets/offer-insert-perso-icon.png){zoomable="yes"}
+   ![&#x200B; Schermschot die het verpersoonlijkingspictogram tonen wordt gebruikt om de uitdrukkingsredacteur te openen &#x200B;](assets/offer-insert-perso-icon.png){zoomable="yes"}
 
 1. Selecteer het menu **[!UICONTROL Propositions]** . De beschikbare voorstellingen worden in de lijst weergegeven.
 
    >[!NOTE]
    >
-   >Het aantal voorstellingen wordt bepaald wanneer [ vestiging aanbiedingen ](#configure) voor de huidige levering aanbiedt.
+   >Het aantal voorstellingen wordt bepaald wanneer [&#x200B; vestiging aanbiedingen &#x200B;](#configure) voor de huidige levering aanbiedt.
 
 1. Definieer elke voorstelling met de velden voor personalisatie, de renderfuncties of de beschikbare kenmerken.
 
-   ![ Schermafbeelding die een aanbieding tonen die in de leveringsinhoud wordt opgenomen ](assets/offer-inserted.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die een aanbieding tonen die in de leveringsinhoud wordt opgenomen &#x200B;](assets/offer-inserted.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >Het aantal beschikbare voorstellen hangt van de manier af de motorvraag wordt gevormd, en hun orde hangt van de prioriteit van aanbiedingen af. Leer meer in de [ documentatie van de Campagne v8 (cliëntconsole) ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=nl-NL){target="_blank"}.
+   >Het aantal beschikbare voorstellen hangt van de manier af de motorvraag wordt gevormd, en hun orde hangt van de prioriteit van aanbiedingen af. Leer meer in de [&#x200B; documentatie van de Campagne v8 (cliëntconsole) &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/offers/interaction-best-practices.html?lang=nl-NL){target="_blank"}.
 
 1. Sla uw wijzigingen op.
 

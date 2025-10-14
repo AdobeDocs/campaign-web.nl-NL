@@ -20,11 +20,11 @@ In dit stadium van de configuratie, wordt het diagram getoond met een beginpicto
 
 Er wordt een lijst met activiteiten weergegeven die aan het diagram kunnen worden toegevoegd. De beschikbare activiteiten zijn afhankelijk van uw positie binnen het werkstroomdiagram. Bijvoorbeeld, wanneer het toevoegen van uw eerste activiteit, kunt u uw werkschema beginnen door een publiek te richten, het werkschemapad te verdelen, of a **te plaatsen wacht** activiteit om de werkschemauitvoering te vertragen. Na a **bouwt publiek** activiteit, kunt u uw doel met het richten van activiteiten verfijnen, een levering naar uw publiek met kanaalactiviteiten verzenden, of het werkschemaproces met de activiteiten van de stroomcontrole organiseren.
 
-![ het beginpictogram van het Werkschema en activiteitenopties ](assets/workflow-start.png){zoomable="yes"}
+![&#x200B; het beginpictogram van het Werkschema en activiteitenopties &#x200B;](assets/workflow-start.png){zoomable="yes"}
 
-Zodra een activiteit aan het diagram wordt toegevoegd, verschijnt een juiste ruit, toestaand u om de onlangs toegevoegde activiteit met specifieke montages te vormen. De gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [ deze sectie ](activities/about-activities.md).
+Zodra een activiteit aan het diagram wordt toegevoegd, verschijnt een juiste ruit, toestaand u om de onlangs toegevoegde activiteit met specifieke montages te vormen. De gedetailleerde informatie over hoe te om elke activiteit te vormen is beschikbaar in [&#x200B; deze sectie &#x200B;](activities/about-activities.md).
 
-![ het configuratiescherm van de Activiteit ](assets/workflow-configure-activities.png){zoomable="yes"}
+![&#x200B; het configuratiescherm van de Activiteit &#x200B;](assets/workflow-configure-activities.png){zoomable="yes"}
 
 Herhaal dit proces om zoveel activiteiten toe te voegen als nodig is, afhankelijk van de taken die uw workflow uitvoert. U kunt ook een nieuwe activiteit invoegen tussen twee activiteiten. Om dit te doen, klik **+** knoop op de overgang tussen de activiteiten, selecteer de gewenste activiteit, en vorm het in de juiste ruit.
 
@@ -44,13 +44,13 @@ De werkbalk bevindt zich in de rechterbovenhoek van het canvas en biedt opties w
 * **Gezoem uit** / **Gezoem binnen**: Gezoem uit of in het canvas.
 * **kaart van de Vertoning**: Open een momentopname van het canvas die uw plaats tonen.
 
-![ Toolbar opties voor werkschemacanvas ](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+![&#x200B; Toolbar opties voor werkschemacanvas &#x200B;](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## Activiteiten beheren {#manage}
 
 Wanneer u activiteiten toevoegt, zijn er actieknoppen beschikbaar in het deelvenster Eigenschappen, zodat u meerdere bewerkingen kunt uitvoeren.
 
-![ de actieknoppen van de Activiteit ](assets/activity-action.png){zoomable="yes"}
+![&#x200B; de actieknoppen van de Activiteit &#x200B;](assets/activity-action.png){zoomable="yes"}
 
 U kunt:
 
@@ -64,7 +64,7 @@ U kunt:
 
 Verscheidene **richtend** activiteiten, zoals **combineren** of **Deduplicatie**, staat u toe om de resterende bevolking te verwerken en het in een extra uitgaande overgang te omvatten. Bijvoorbeeld, als u a **Gesplitste** activiteit gebruikt, bestaat de aanvulling uit de bevolking die om het even welke eerder bepaalde ondergroepen niet aanpast. Om dit vermogen te gebruiken, activeer **aanvult** optie.
 
-![ Gesplitste activiteit met complementeringsoptie ](assets/workflow-split-complement.png)
+![&#x200B; Gesplitste activiteit met complementeringsoptie &#x200B;](assets/workflow-split-complement.png)
 
 ## Verplaatsen of kopiëren {#move-copy}
 
@@ -76,15 +76,15 @@ Voor het kopiëren van activiteiten hebt u twee mogelijkheden:
 
 * Kopieer één activiteit gebruikend de actieknoop.
 
-  ![ Exemplaar enige activiteitenknoop ](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
+  ![&#x200B; Exemplaar enige activiteitenknoop &#x200B;](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
 
 * Kopieer meerdere activiteiten met de werkbalkknop.
 
-  ![ Exemplaar veelvoudige activiteitenknoop ](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
+  ![&#x200B; Exemplaar veelvoudige activiteitenknoop &#x200B;](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
 
 Als u de gekopieerde activiteiten wilt plakken, klikt u op de knop **+** in een overgang en selecteert u &quot;X-activiteit plakken&quot;.
 
-![ Deeg gekopieerde activiteitenoptie ](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+![&#x200B; Deeg gekopieerde activiteitenoptie &#x200B;](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
 
 ### Activiteiten verplaatsen en hun onderliggende knooppunten verplaatsen {#move}
 
@@ -98,13 +98,13 @@ Een activiteit verplaatsen:
 1. In de de eigenschappen van de activiteit ruit, klik de **knoop van de Beweging**.
 1. Selecteer de overgang waar u de activiteit en zijn uitgaande overgang wilt plaatsen, dan bevestig.
 
-![ activiteit van de beweging en kindknopen ](assets/activity-move.png)
+![&#x200B; activiteit van de beweging en kindknopen &#x200B;](assets/activity-move.png)
 
 ## Execution options {#execution}
 
 Met alle activiteiten kunt u de uitvoeropties ervan beheren. Selecteer een activiteit en klik de **opties van de Uitvoering** knoop. Hiermee kunt u de uitvoeringsmodus en het gedrag van de activiteit definiëren in het geval van fouten.
 
-![ het optiespaneel van de Uitvoering ](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
+![&#x200B; het optiespaneel van de Uitvoering &#x200B;](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
 ### Properties
 
@@ -124,13 +124,13 @@ Het **In geval van fout** gebied staat u toe om de actie te specificeren uit te 
 
 ### Initialisatiescript
 
-Het **manuscript van de Initialisatie** laat u variabelen initialiseren of activiteiteneigenschappen wijzigen. Klik **geef code** knoop uit en typ het fragment van uit te voeren code. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd. Verwijs naar de sectie met betrekking tot [ gebeurtenisvariabelen ](../workflows/event-variables.md).
+Het **manuscript van de Initialisatie** laat u variabelen initialiseren of activiteiteneigenschappen wijzigen. Klik **geef code** knoop uit en typ het fragment van uit te voeren code. Het script wordt aangeroepen wanneer de activiteit wordt uitgevoerd. Verwijs naar de sectie met betrekking tot [&#x200B; gebeurtenisvariabelen &#x200B;](../workflows/event-variables.md).
 
 ## Voorbeeld {#example}
 
 Hier volgt een voorbeeld van een workflow die is ontworpen om een e-mail te verzenden naar alle klanten (behalve VIP-klanten) met een e-mail die geïnteresseerd zijn in koffiecomputers.
 
-![ het voorbeelddiagram van het Werkschema ](assets/workflow-example.png){zoomable="yes"}
+![&#x200B; het voorbeelddiagram van het Werkschema &#x200B;](assets/workflow-example.png){zoomable="yes"}
 
 Daartoe zijn de volgende activiteiten toegevoegd:
 
@@ -145,4 +145,4 @@ Daartoe zijn de volgende activiteiten toegevoegd:
 
 Nadat u de workflow hebt voltooid, voegt u een **[!UICONTROL End]** -activiteit toe aan het einde van het diagram. Deze activiteit markeert visueel het eind van een werkschema en heeft geen functioneel effect.
 
-Nadat het werkstroomdiagram met succes is ontworpen, voert u de workflow uit en volgt u de voortgang van de verschillende taken. [ Leer hoe te om een werkschema te beginnen en zijn uitvoering ](start-monitor-workflows.md) te controleren.
+Nadat het werkstroomdiagram met succes is ontworpen, voert u de workflow uit en volgt u de voortgang van de verschillende taken. [&#x200B; Leer hoe te om een werkschema te beginnen en zijn uitvoering &#x200B;](start-monitor-workflows.md) te controleren.

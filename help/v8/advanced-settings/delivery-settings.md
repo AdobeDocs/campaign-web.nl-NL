@@ -32,7 +32,7 @@ De montages van de levering zijn **technische leveringsparameters** die in het l
 >title="Typologische instellingen voor de levering"
 >abstract="Met behulp van typologische regels kunt u bedrijfspraktijken standaardiseren voor alle leveringen. Een typologie is een verzameling typologische regels waarmee u het verzenden van leveringen kunt beheren, filteren en prioriteren. Profielen die voldoen aan criteria binnen een typologieregel worden bij de voorbereidingsfase uitgesloten van de toedieningsdoelgroepen."
 
-De typologieën zijn reeksen **typologieregels** die tijdens de voorbereidingsfase worden uitgevoerd om veelvoudige het filtreren regels op een levering in één keer gemakkelijk toe te passen. Zij staan marketers toe om bedrijfspraktijken over alle leveringen te standaardiseren aangezien zij hen laten controleren, filtreren, en voorrang geven aan het verzenden van leveringen. [ leer hoe te om typologieën en typologieregels tot stand te brengen ](../administration/typologies.md)
+De typologieën zijn reeksen **typologieregels** die tijdens de voorbereidingsfase worden uitgevoerd om veelvoudige het filtreren regels op een levering in één keer gemakkelijk toe te passen. Zij staan marketers toe om bedrijfspraktijken over alle leveringen te standaardiseren aangezien zij hen laten controleren, filtreren, en voorrang geven aan het verzenden van leveringen. [&#x200B; leer hoe te om typologieën en typologieregels tot stand te brengen &#x200B;](../administration/typologies.md)
 
 ![](assets/delivery-settings-typology.png){zoomable="yes"}
 
@@ -72,7 +72,7 @@ Er zijn drie modi beschikbaar:
 
 >[!NOTE]
 >
->Het beheer van de vermoeidheid en de drukregels worden gevormd in de de cliëntconsole van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=nl-NL){target="_blank"}.
+>Het beheer van de vermoeidheid en de drukregels worden gevormd in de de cliëntconsole van de Campagne. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=nl-NL){target="_blank"}.
 
 ### Capaciteitsinstellingen {#capacity-settings}
 
@@ -92,7 +92,7 @@ Het veld **[!UICONTROL Importance of the recipient]** is een formule die wordt g
 
 >[!NOTE]
 >
->De typologische regels worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=nl-NL){target="_blank"}.
+>De typologische regels worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=nl-NL){target="_blank"}.
 
 ## Instellingen voor publiek {#audience}
 
@@ -101,7 +101,7 @@ Het veld **[!UICONTROL Importance of the recipient]** is een formule die wordt g
 >title="Instellingen voor het publiek voor de levering"
 >abstract="Selecteer a **doelafbeelding** onder die beschikbaar. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console. U kunt ook de uitsluitingsparameters voor de levering instellen."
 
-In deze sectie, kunt u a **doelafbeelding** onder die beschikbaar selecteren. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console. De doelafbeelding is het type gegevens dat een bewerking afhandelt. Hiermee kunt u de doelgroep definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz. [ Leer meer over doelafbeeldingen ](../audience/targeting-dimensions.md).
+In deze sectie, kunt u a **doelafbeelding** onder die beschikbaar selecteren. Doeltoewijzingen worden gedefinieerd in de Adobe Campaign v8-console. De doelafbeelding is het type gegevens dat een bewerking afhandelt. Hiermee kunt u de doelgroep definiëren: ontvangers, begunstigden van contracten, exploitanten, abonnees, enz. [&#x200B; Leer meer over doelafbeeldingen &#x200B;](../audience/targeting-dimensions.md).
 
 In het veld **[!UICONTROL Exclusion]** kunt u aangeven of u profielen wilt uitsluiten die niet meer worden benaderd of die in quarantaine zijn geplaatst. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=nl-NL){target="_blank"}
 
@@ -130,7 +130,7 @@ U kunt de onderstaande **[!UICONTROL Sending]** -instellingen definiëren.
 
 * **[!UICONTROL Test SMTP delivery]** (e-mailkanaal): deze optie wordt gebruikt om het verzenden via SMTP te testen. De e-mail wordt verwerkt tot verbinding aan de server SMTP, maar wordt niet verzonden: voor elke ontvanger van e-mail, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
 
-* **[!UICONTROL Email BCC]** (e-mailkanaal): deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door gewoon een BCC-e-mailadres toe te voegen aan uw berichtdoel. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=nl-NL){target="_blank"}.
+* **[!UICONTROL Email BCC]** (e-mailkanaal): deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door gewoon een BCC-e-mailadres toe te voegen aan uw berichtdoel. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=nl-NL){target="_blank"}.
 
 Selecteer in de sectie **[!UICONTROL Wave definition]** de optie **[!UICONTROL Send using multiple waves]** om het volume dat met golven wordt verzonden geleidelijk te verhogen. Zo voorkomt u dat uw berichten als spam worden gemarkeerd of dat u het aantal berichten per dag wilt beperken. Met golven kunt u leveringen in verschillende batches verdelen in plaats van tegelijkertijd grote volumes berichten te verzenden. [Meer informatie](send-using-waves.md)
 
@@ -159,7 +159,7 @@ U kunt ook de tags definiëren die worden gedeeld met het analyseprogramma dat u
 
 >[!NOTE]
 >
->De mogelijkheden van de Analytics van het Web worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=nl-NL#external-account-ac){target="_blank"}.
+>De mogelijkheden van de Analytics van het Web worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=nl-NL#external-account-ac){target="_blank"}.
 
 ## Opnieuw {#retries}
 
@@ -228,7 +228,7 @@ U kunt ook datums opgeven. Selecteer **[!UICONTROL Explicitly set validity dates
 
 <!--Change screenshot to be consistent with prod > not sure which version is correct-->
 
-Leer meer over de periode van de leveringsgeldigheid in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=nl-NL#validity-period){target="_blank"}.
+Leer meer over de periode van de leveringsgeldigheid in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=nl-NL#validity-period){target="_blank"}.
 
 ### Paginabeheer spiegelen (e-mailkanaal) {#mirror}
 
@@ -392,7 +392,7 @@ Op het tabblad **[!UICONTROL SMTP]** van de leveringsinstellingen kunt u ook het
 
 * **[!UICONTROL Bounce address]**: U kunt ook een ander adres definiëren waarnaar de onverwerkte teruggestuurde e-mails worden doorgestuurd. Met dit adres kunt u de redenen voor het stuiteren onderzoeken wanneer e-mails niet automatisch kunnen worden gekwalificeerd door de toepassing.
 
-Deze twee gebieden kunnen worden gepersonaliseerd zoals die in [ wordt beschreven deze sectie ](../personalization/gs-personalization.md).
+Deze twee gebieden kunnen worden gepersonaliseerd zoals die in [&#x200B; wordt beschreven deze sectie &#x200B;](../personalization/gs-personalization.md).
 
 ![](assets/smtp_bounce.png){zoomable="yes"}
 
@@ -428,4 +428,4 @@ Klik op de knop **[!UICONTROL Add Variables]** om de details van de variabele in
 
 ![](assets/variables-add.png){zoomable="yes"}
 
-Leer meer over [ gebruikend variabelen voor verpersoonlijking ](../personalization/personalize.md#variables-personalization) en [ gebruikend variabelen voor dynamische inhoud ](../personalization/conditions.md#variables-conditional).
+Leer meer over [&#x200B; gebruikend variabelen voor verpersoonlijking &#x200B;](../personalization/personalize.md#variables-personalization) en [&#x200B; gebruikend variabelen voor dynamische inhoud &#x200B;](../personalization/conditions.md#variables-conditional).

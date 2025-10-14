@@ -19,19 +19,19 @@ U kunt Single Sign-On (SSO) alleen gebruiken om verbinding te maken met Campaign
 
 Voer de volgende eenvoudige stappen uit om u aan te melden bij Adobe Experience Cloud:
 
-1. Blader naar [ Adobe Experience Cloud ](https://experience.adobe.com/){target="_blank"}.
+1. Blader naar [&#x200B; Adobe Experience Cloud &#x200B;](https://experience.adobe.com/){target="_blank"}.
 
-1. Meld u aan met uw Adobe ID of Enterprise ID. Leer meer over identiteitstypes bij Adobe in [ dit artikel ](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
+1. Meld u aan met uw Adobe ID of Enterprise ID. Leer meer over identiteitstypes bij Adobe in [&#x200B; dit artikel &#x200B;](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"}.
 
    Nadat u zich hebt aangemeld bij Experience Cloud, hebt u snel toegang tot al uw oplossingen en toepassingen.
 
-   ![ Schermafbeelding die de homepage van Adobe Experience Cloud toont ](assets/exc-home.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de homepage van Adobe Experience Cloud toont &#x200B;](assets/exc-home.png){zoomable="yes"}
 
 1. Controleer of u zich in de juiste organisatie bevindt.
 
-   ![ Schermafbeelding die organisatie selectie in Adobe Experience Cloud tonen ](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
+   ![&#x200B; Schermafbeelding die organisatie selectie in Adobe Experience Cloud tonen &#x200B;](assets/exc-orgs.png){zoomable="yes"}{width="50%" align="left"}
 
-   Leer meer over organisaties in Adobe Experience Cloud in [ dit artikel ](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl){target="_blank"}.
+   Leer meer over organisaties in Adobe Experience Cloud in [&#x200B; dit artikel &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl){target="_blank"}.
 
 ## Toegang tot Adobe Campaign {#access-to-campaign}
 
@@ -39,13 +39,13 @@ Om tot uw milieu van de Campagne toegang te hebben, selecteer **Campagne** van d
 
 Als u al bent verbonden met een andere Adobe Experience Cloud-oplossing, bladert u vanuit de oplossingsschakelaar rechtsboven in het scherm naar de omgeving van uw campagne.
 
-![ Screenshot die de oplossingsschakelaar in Adobe Experience Cloud ](assets/solution-switcher.png){zoomable="yes"} tonen
+![&#x200B; Screenshot die de oplossingsschakelaar in Adobe Experience Cloud &#x200B;](assets/solution-switcher.png){zoomable="yes"} tonen
 
 Als u toegang tot veelvoudige milieu&#39;s, met inbegrip van het Controlebord van de Campagne hebt, klik de **1&rbrace; knoop van de Lancering &lbrace;voor de correcte instantie.**
 
-![ Schermafbeelding die de knoop van de Lancering voor Adobe Campaign toont ](assets/launch-campaign.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die de knoop van de Lancering voor Adobe Campaign toont &#x200B;](assets/launch-campaign.png){zoomable="yes"}
 
-U bent nu verbonden met Campagne. Leer hoe te beginnen het gebruikersinterface in [ te gebruiken deze pagina ](user-interface.md).
+U bent nu verbonden met Campagne. Leer hoe te beginnen het gebruikersinterface in [&#x200B; te gebruiken deze pagina &#x200B;](user-interface.md).
 
 ### Toegangsbeheer {#access-control}
 
@@ -90,7 +90,7 @@ Alle toestemmingen in het Web van de Campagne synchroniseren met de toestemminge
 
 Wanneer u door de gebruikersinterface van het Web Campagne bladert, hebt u afhankelijk van uw machtigingen toegang tot gegevens, objecten en mogelijkheden. Als u bijvoorbeeld geen toegangsmachtigingen hebt voor een map, kunt u deze niet zien. Uw machtigingen zijn ook van toepassing op objecten en gegevensbeheer. Zonder Schrijfmachtigingen voor een specifieke map kunt u geen levering in die map maken, zelfs niet als u deze kunt zien in de gebruikersinterface.
 
-U kunt leren hoe te [ bekijken en toestemmingen hier beheren ](permissions.md).
+U kunt leren hoe te [&#x200B; bekijken en toestemmingen hier beheren &#x200B;](permissions.md).
 
 ## Bovenste Adobe Experience Cloud-navigatie {#top-bar}
 
@@ -99,11 +99,11 @@ Blader naar de bovenste balk van de interface:
 * Deel feedback over de gebruikersinterface van Campagne Web.
 * Schakel tussen uw organisaties.
 * Schakel tussen uw Adobe Experience Cloud-oplossingen en -toepassingen.
-* Zoek naar hulp op [ de Liga van de Ervaring van Adobe ](https://experienceleague.adobe.com/docs/?lang=nl-NL){target="_blank"}.
+* Zoek naar hulp op [&#x200B; de Liga van de Ervaring van Adobe &#x200B;](https://experienceleague.adobe.com/docs/?lang=nl-NL){target="_blank"}.
 * Controleer de productmeldingen.
-* Bewerk uw profiel van Adobe en beheer montages, zoals [ werk uw favoriete taal ](#language-pref) of [ schakelaar aan licht/donker thema ](#dark-theme) bij.
+* Bewerk uw profiel van Adobe en beheer montages, zoals [&#x200B; werk uw favoriete taal &#x200B;](#language-pref) of [&#x200B; schakelaar aan licht/donker thema &#x200B;](#dark-theme) bij.
 
-![ Schermafbeelding die de bovenste navigatiebalk van Adobe Experience Cloud tonen ](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
+![&#x200B; Schermafbeelding die de bovenste navigatiebalk van Adobe Experience Cloud tonen &#x200B;](assets/do-not-localize/unified-shell.png){zoomable="yes"}{width="50%" align="left"}
 
 ## Ondersteunde browsers {#browsers}
 
@@ -145,6 +145,6 @@ De taal wijzigen:
 
 Adobe Campaign is beschikbaar in lichte en donkere thema&#39;s. Standaard is de gebruikersinterface ingeschakeld in licht thema. Om op het donkere thema over te schakelen, klik op uw profielpictogram, en gebruik **Donkere thema** knevel om het toe te laten of onbruikbaar te maken.
 
-De het profielmontages en de rekeningsvoorkeur van de gebruiker zijn gedetailleerd in [ deze sectie ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=nl-NL#preferences){target="_blank"}.
+De het profielmontages en de rekeningsvoorkeur van de gebruiker zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=nl-NL#preferences){target="_blank"}.
 
-Leer meer over de Componenten van de Interface van Experience Cloud Centrale in [ deze documentatie ](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=nl-NL){target="_blank"}.
+Leer meer over de Componenten van de Interface van Experience Cloud Centrale in [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=nl-NL){target="_blank"}.

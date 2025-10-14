@@ -17,7 +17,7 @@ Adobe Campaign Web verstrekt filters binnen elke lijst van voorwerpen, toelatend
 >[!IMPORTANT]
 >
 >Er is een gloednieuwe interface beschikbaar voor het Query-model. De Nieuwe regelbouwer staat u toe om uw vraag met meer gemak dankzij zijn vereenvoudigde interface te bouwen. Druk op de schakelknop in de rechterbovenhoek om naar deze ervaring over te schakelen. U kunt naar de klassieke modelleerling van de Vraag terugkeren wanneer u wilt door eenvoudig de knevel terug te duwen om de nieuwe interface onbruikbaar te maken. U kunt de zelfde principes toepassen zoals vraagmodeler in deze nieuwe interface.
->![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
+>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen &#x200B;](assets/query-modeler-toggle.png){zoomable="yes"}
 
 ## Filters toepassen {#apply}
 
@@ -25,9 +25,9 @@ Als u filters wilt toepassen op een lijst, klikt u op de knop **[!UICONTROL Show
 
 Het venster Filters wordt geopend en hierin worden de beschikbare filters voor de geselecteerde lijst weergegeven. U kunt bijvoorbeeld campagnes filteren op basis van hun status, begin- en einddatum of opslagmap, terwijl de lijst met abonnementsservices kan worden gefilterd op basis van hun kanaal- en opslagmap.
 
-![ ruit van Filters die beschikbare filters voor lijsten tonen ](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![&#x200B; ruit van Filters die beschikbare filters voor lijsten tonen &#x200B;](assets/filters-pane.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
-Als u een lijst wilt filteren op basis van uw eigen criteria, maakt u een aangepast filter. Om dit te doen, doorblader aan de bodem van de filterruit en klik **voeg regels** knoop toe. [ Leer hoe te om douanefilters ](#custom) tot stand te brengen.
+Als u een lijst wilt filteren op basis van uw eigen criteria, maakt u een aangepast filter. Om dit te doen, doorblader aan de bodem van de filterruit en klik **voeg regels** knoop toe. [&#x200B; Leer hoe te om douanefilters &#x200B;](#custom) tot stand te brengen.
 
 Wanneer filters op een lijst zijn toegepast, zijn ze zichtbaar onder de zoekbalk. U kunt een individuele filter op elk ogenblik verwijderen, of alle filters verwijderen door **te klikken ontruimen allen** knoop.
 
@@ -37,10 +37,10 @@ Met aangepaste filters kunt u lijsten verfijnen op basis van uw eigen specifieke
 
 1. Open de filterruit, en klik **voeg regels** knoop toe die bij de bodem van de ruit wordt gevestigd.
 
-1. De vraagmodeler opent. Definieer en combineer uw filtercriteria aan uw wensen. De gedetailleerde informatie over hoe te om de vraagmodelleur te gebruiken is beschikbaar in [ deze sectie ](../query/query-modeler-overview.md).
+1. De vraagmodeler opent. Definieer en combineer uw filtercriteria aan uw wensen. De gedetailleerde informatie over hoe te om de vraagmodelleur te gebruiken is beschikbaar in [&#x200B; deze sectie &#x200B;](../query/query-modeler-overview.md).
 
    In het onderstaande voorbeeld ziet u een aangepast filter dat is ontworpen om te worden weergegeven in de lijst met campagnes die worden uitgevoerd door operatoren van de afdelingen Running of Yoga.
 
-   ![ het filtervoorbeeld van de Douane die campagnes van SMS tonen door afdeling ](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"} worden gefilterd
+   ![&#x200B; het filtervoorbeeld van de Douane die campagnes van SMS tonen door afdeling &#x200B;](assets/filters-sample.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"} worden gefilterd
 
 1. Wanneer uw aangepaste filter is geconfigureerd, klikt u op **[!UICONTROL Confirm]** om het toe te passen op de lijst.

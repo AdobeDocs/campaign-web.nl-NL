@@ -28,17 +28,17 @@ Ga als volgt te werk om koppelingen in te voegen in uw e-mailinhoud:
 
 1. Kies het type koppeling dat u wilt maken:
 
-   ![ Schermschot die de interface voor het opnemen van verbindingen in het bericht het volgen hulpmiddel tonen ](assets/message-tracking-insert-link.png){zoomable="yes"}
+   ![&#x200B; Schermschot die de interface voor het opnemen van verbindingen in het bericht het volgen hulpmiddel tonen &#x200B;](assets/message-tracking-insert-link.png){zoomable="yes"}
 
    * **[!UICONTROL External link]**: voeg een koppeling in naar een externe URL.
 
    * **[!UICONTROL Landing page]**: voeg een koppeling in naar een bestemmingspagina. Als u een dynamische openingspagina selecteert (met de optie **[!UICONTROL Service from URL]** geselecteerd), kunt u om het even welke dienst van de lijst selecteren. [Meer informatie](../landing-pages/create-lp.md#define-actions-on-form-submission)
 
-     ![ Schermschot die de interface voor het verbinden met een het landen pagina in de e-mailontwerper ](assets/email-link-to-landing-page.png){zoomable="yes"} tonen
+     ![&#x200B; Schermschot die de interface voor het verbinden met een het landen pagina in de e-mailontwerper &#x200B;](assets/email-link-to-landing-page.png){zoomable="yes"} tonen
 
    * **[!UICONTROL Subscription link]**: voeg een koppeling in naar een abonnementenservice. Wanneer gebruikers op de koppeling klikken, worden ze naar de bestemmingspagina van het abonnement verwezen in de geselecteerde service. [Meer informatie](../audience/manage-services.md#create-service)
 
-     ![ Schermschot die de interface voor het creëren van een standaardabonnementverbinding in het de diensthulpmiddel tonen ](assets/service-create-default-lp-link.png){zoomable="yes"}
+     ![&#x200B; Schermschot die de interface voor het creëren van een standaardabonnementverbinding in het de diensthulpmiddel tonen &#x200B;](assets/service-create-default-lp-link.png){zoomable="yes"}
 
    * **[!UICONTROL Unsubscription link]**: voeg een koppeling in naar een service zonder abonnement. Wanneer abonnees op de koppeling klikken, worden ze naar de bestemmingspagina geleid waarnaar in de geselecteerde service wordt verwezen. [Meer informatie](../audience/manage-services.md#create-service)
 
@@ -55,17 +55,17 @@ Ga als volgt te werk om koppelingen in te voegen in uw e-mailinhoud:
    * Bewerk de koppeling en wijzig de **[!UICONTROL Target]** ervan.
    * Kies of u de koppeling wilt onderstrepen door de bijbehorende optie in te schakelen.
 
-   ![ Schermafbeelding die de montagesinterface toont voor het wijzigen van verbindingseigenschappen in het bericht volgende hulpmiddel ](assets/message-tracking-link-settings.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de montagesinterface toont voor het wijzigen van verbindingseigenschappen in het bericht volgende hulpmiddel &#x200B;](assets/message-tracking-link-settings.png){zoomable="yes"}
 
 >[!NOTE]
 >
 >E-mailberichten van het type Marketing moeten een opt-out-koppeling bevatten, die niet vereist is voor transactiemeldingen. De berichtcategorie (**[!UICONTROL Marketing]** of **[!UICONTROL Transactional]**) wordt bepaald op het niveau van de kanaaloppervlakte en wanneer het creëren van het bericht.
 
-Neem een specifieke koppeling naar de spiegel op in al uw e-mailberichten. Leer meer over de spiegelpagina in [ deze sectie ](mirror-page.md).
+Neem een specifieke koppeling naar de spiegel op in al uw e-mailberichten. Leer meer over de spiegelpagina in [&#x200B; deze sectie &#x200B;](mirror-page.md).
 
 ## Beheer van bijhouden {#manage-tracking}
 
-[ E-mail Designer ](create-email-content.md) staat u toe om gevolgde URLs, zoals het uitgeven van het volgende type voor elke verbinding te beheren.
+[&#x200B; E-mail Designer &#x200B;](create-email-content.md) staat u toe om gevolgde URLs, zoals het uitgeven van het volgende type voor elke verbinding te beheren.
 
 1. Klik op het pictogram **[!UICONTROL Links]** in het linkerdeelvenster om de lijst weer te geven met alle URL&#39;s in de inhoud die u wilt bijhouden.
 
@@ -73,11 +73,11 @@ Neem een specifieke koppeling naar de spiegel op in al uw e-mailberichten. Leer 
 
 1. Als u een koppeling wilt bewerken, klikt u op het bijbehorende potloodpictogram.
 
-   ![ Schermschot die de interface voor het uitgeven van verbindingen in het bericht het volgen hulpmiddel tonen ](assets/message-tracking-edit-links.png){zoomable="yes"}
+   ![&#x200B; Schermschot die de interface voor het uitgeven van verbindingen in het bericht het volgen hulpmiddel tonen &#x200B;](assets/message-tracking-edit-links.png){zoomable="yes"}
 
 1. Wijzig **[!UICONTROL Tracking Type]** indien nodig:
 
-   ![ Schermschot die de interface voor het uitgeven van volgende types in het bericht het volgen hulpmiddel tonen ](assets/message-tracking-edit-a-link.png){zoomable="yes"}
+   ![&#x200B; Schermschot die de interface voor het uitgeven van volgende types in het bericht het volgen hulpmiddel tonen &#x200B;](assets/message-tracking-edit-a-link.png){zoomable="yes"}
 
    Stel voor elke bijgehouden URL een van de volgende waarden in voor de modus Tekstspatiëring:
 
@@ -88,6 +88,6 @@ Neem een specifieke koppeling naar de spiegel op in al uw e-mailberichten. Leer 
 
 1. Voeg een **[!UICONTROL Category]** aan uw koppeling toe om bijgehouden koppelingen te groeperen en klik op **[!UICONTROL Save]** .
 
-   ![ Schermschot die de interface voor het toevoegen van categorieën aan gevolgde verbindingen in het bericht het volgen hulpmiddel ](assets/message-tracking-edit-a-link_2.png){zoomable="yes"} tonen
+   ![&#x200B; Schermschot die de interface voor het toevoegen van categorieën aan gevolgde verbindingen in het bericht het volgen hulpmiddel &#x200B;](assets/message-tracking-edit-a-link_2.png){zoomable="yes"} tonen
 
 1. Na het verzenden van de levering hebt u toegang tot uw leveringsrapport. In het menu **[!UICONTROL Tracking]** geeft het rapport **[!UICONTROL URLs and click streams]** aan welke URL&#39;s van uw levering het meest zijn bezocht. [Meer informatie](../reporting/gs-reports.md)

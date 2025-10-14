@@ -16,13 +16,13 @@ Pushberichten zijn essentieel voor het bereiken van een mobiele app-gebruiker, z
 
 Voor het maken van pushberichten hebt u drie opties:
 
-* **Werkschema&#39;s**: Na het toevoegen van een het kanaalactiviteit van de Duw aan uw werkschema en het vormen van de basismontages, ambt de inhoud van uw duw berichten van het juiste paneelmenu. Voor gedetailleerde instructies bij het vormen van werkschema&#39;s, verwijs naar [ deze pagina ](../workflows/gs-workflows.md).
+* **Werkschema&#39;s**: Na het toevoegen van een het kanaalactiviteit van de Duw aan uw werkschema en het vormen van de basismontages, ambt de inhoud van uw duw berichten van het juiste paneelmenu. Voor gedetailleerde instructies bij het vormen van werkschema&#39;s, verwijs naar [&#x200B; deze pagina &#x200B;](../workflows/gs-workflows.md).
 
-* **Campagnes**: Na het creëren van een campagne, opstelling een het berichtlevering van de Duw. Voor meer informatie bij het vormen van campagnes, verwijs naar [ deze pagina ](../campaigns/gs-campaigns.md).
+* **Campagnes**: Na het creëren van een campagne, opstelling een het berichtlevering van de Duw. Voor meer informatie bij het vormen van campagnes, verwijs naar [&#x200B; deze pagina &#x200B;](../campaigns/gs-campaigns.md).
 
 * **stand-alone leveranties**: Sluit klanten direct en onmiddellijk met individuele levering van het dupbericht aan, zonder werkschema&#39;s of campagnes te vereisen.
 
-![](../assets/do-not-localize/book.png) Leer hoe te om het Push- berichtkanaal in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=nl-NL){target="_blank"} te vormen .
+![](../assets/do-not-localize/book.png) Leer hoe te om het Push- berichtkanaal in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/push.html?lang=nl-NL){target="_blank"} te vormen .
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

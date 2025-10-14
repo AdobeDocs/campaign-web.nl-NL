@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mails, SMS en pushberichten, en de impact ervan meten aan de hand van verschillende speciale rapporten.
 
-Deze berichten worden ontworpen en verzonden door leveringen, en kunnen voor elke ontvanger worden gepersonaliseerd. Deze leveringen kunnen standalone zijn of in werkschema&#39;s in het kader van een marketing campagne inbegrepen zijn. Leer hoe te om leveringen in Adobe Campaign in [ tot stand te brengen en te beheren deze sectie ](gs-deliveries.md).
+Deze berichten worden ontworpen en verzonden door leveringen, en kunnen voor elke ontvanger worden gepersonaliseerd. Deze leveringen kunnen standalone zijn of in werkschema&#39;s in het kader van een marketing campagne inbegrepen zijn. Leer hoe te om leveringen in Adobe Campaign in [&#x200B; tot stand te brengen en te beheren deze sectie &#x200B;](gs-deliveries.md).
 
 Adobe Campaign v8 bevat de volgende leveringskanalen: e-mail, SMS, pushmelding en direct mail. Andere kanalen, zoals in-app berichten of sociale marketing met X (Twitter), worden nog niet ondersteund.
 

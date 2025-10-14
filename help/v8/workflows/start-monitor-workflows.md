@@ -22,7 +22,7 @@ Wanneer de workflow is gestart, wordt elke activiteit op het canvas opeenvolgend
 
 U kunt de voortgang van doelprofielen in real-time bijhouden met behulp van een visuele stroom. Hierdoor kunt u snel de status van elke activiteit en het aantal profielen identificeren dat tussen de activiteiten overgaat.
 
-![ Visuele vertegenwoordiging van werkschemauitvoering lopend.](assets/workflow-execution.png){zoomable="yes"}
+![&#x200B; Visuele vertegenwoordiging van werkschemauitvoering lopend.](assets/workflow-execution.png){zoomable="yes"}
 
 ## Workflowovergangen {#transitions}
 
@@ -31,7 +31,7 @@ In werkstromen, worden de gegevens die van één activiteit aan een andere door 
 * Klik op **[!UICONTROL Preview schema]** om het schema van de werktabel weer te geven.
 * Klik op **[!UICONTROL Preview results]** om de gegevens weer te geven die in de geselecteerde overgang worden verzonden.
 
-![ Voorbeeld van overgangseigenschappen en gegevensvoorproef.](assets/transition.png){zoomable="yes"}
+![&#x200B; Voorbeeld van overgangseigenschappen en gegevensvoorproef.](assets/transition.png){zoomable="yes"}
 
 ## Activiteitenuitvoering controleren {#activities}
 
@@ -48,9 +48,9 @@ De visuele indicatoren in de hoger-juiste hoek van elke activiteitendoos staan u
 
 Het controleren van workflowlogboeken en taken is een belangrijke stap om uw workflows te analyseren en ervoor te zorgen dat deze correct worden uitgevoerd. Logbestanden en taken zijn toegankelijk via het pictogram **[!UICONTROL Logs]** , dat beschikbaar is op de werkbalk Handeling en in het deelvenster Eigenschappen van elke activiteit.
 
-Het menu **[!UICONTROL Logs and tasks]** bevat een geschiedenis van de uitvoering van de workflow, waarin alle handelingen van de gebruiker zijn opgenomen en fouten zijn aangetroffen. Deze geschiedenis wordt bewaard voor de duur die in de werkschema [ wordt gespecificeerd uitvoeringsopties ](workflow-settings.md). Tijdens deze periode worden alle berichten opgeslagen, zelfs nadat de workflow opnieuw is gestart. Als u geen berichten uit een vorige uitvoering wilt opslaan, klikt u op de knop **[!UICONTROL Purge history]** .
+Het menu **[!UICONTROL Logs and tasks]** bevat een geschiedenis van de uitvoering van de workflow, waarin alle handelingen van de gebruiker zijn opgenomen en fouten zijn aangetroffen. Deze geschiedenis wordt bewaard voor de duur die in de werkschema [&#x200B; wordt gespecificeerd uitvoeringsopties &#x200B;](workflow-settings.md). Tijdens deze periode worden alle berichten opgeslagen, zelfs nadat de workflow opnieuw is gestart. Als u geen berichten uit een vorige uitvoering wilt opslaan, klikt u op de knop **[!UICONTROL Purge history]** .
 
-![ Voorbeeld van werkschemalogboeken en takeninterface.](assets/workflow-logs.png){zoomable="yes"}
+![&#x200B; Voorbeeld van werkschemalogboeken en takeninterface.](assets/workflow-logs.png){zoomable="yes"}
 
 Er zijn twee soorten informatie beschikbaar:
 

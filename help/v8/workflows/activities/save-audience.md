@@ -30,7 +30,7 @@ Deze activiteit wordt hoofdzakelijk gebruikt om populatiegroepen te behouden die
 
 Volg deze stappen om **te vormen sparen publiek** activiteit:
 
-![ Beschrijving: De configuratie van het werkschema voor sparen publieksactiviteit ](../assets/workflow-save-audience.png)
+![&#x200B; Beschrijving: De configuratie van het werkschema voor sparen publieksactiviteit &#x200B;](../assets/workflow-save-audience.png)
 
 1. Voeg a **sparen publiek** activiteit aan uw werkschema toe.
 

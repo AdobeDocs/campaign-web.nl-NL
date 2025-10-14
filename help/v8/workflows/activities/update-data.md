@@ -32,7 +32,7 @@ Toggle the **Generate an outbound transition for rejects** option to add an outb
 
 Om de **gegevens van de Update** activiteit te vormen, voeg de activiteit aan uw werkschema toe en bepaal een etiket.
 
-![ Activiteit van de Gegevens van de Update van het Werkschema ](../assets/workflow-update-data.png)
+![&#x200B; Activiteit van de Gegevens van de Update van het Werkschema &#x200B;](../assets/workflow-update-data.png)
 
 ### Type bewerking
 

@@ -53,7 +53,7 @@ Kies bij Firebase Cloud Messaging een van de volgende twee typen berichten:
   Als u de inhoud wilt definiëren, gegevens wilt aanpassen en dynamische inhoud wilt toevoegen, klikt u op het veld **[!UICONTROL Message]** en gebruikt u de expressie-editor. Heb toegang tot deze redacteur om uw berichten aan te passen.
 In het menu **[!UICONTROL Application variables]** worden automatisch toepassingsvariabelen toegevoegd. Met deze variabelen kunt u berichtgedrag definiëren. Configureer bijvoorbeeld een specifiek toepassingsscherm dat moet worden weergegeven wanneer de gebruiker het bericht activeert.
 
-  ![ Beschrijving: Voorbeeld van het bepalen van inhoud voor een gegevensbericht in de berichten van Android ](assets/push_content_4.png){zoomable="yes"}
+  ![&#x200B; Beschrijving: Voorbeeld van het bepalen van inhoud voor een gegevensbericht in de berichten van Android &#x200B;](assets/push_content_4.png){zoomable="yes"}
 
 * De **[!UICONTROL Notification message]** , die automatisch wordt afgehandeld door de FCM SDK. FCM geeft automatisch het bericht weer op de apparaten van uw gebruikers namens de client-app. Meldingsberichten bevatten een vooraf gedefinieerde set parameters en opties, maar kunnen nog steeds verder worden aangepast met aangepaste toepassingsvariabelen.
 
@@ -61,7 +61,7 @@ In het menu **[!UICONTROL Application variables]** worden automatisch toepassing
 
   Als u uw pushmelding verder wilt aanpassen, kiest u een afbeelding die u aan uw pushmelding wilt toevoegen, het pictogram van het bericht dat u op de apparaten van uw profielen wilt weergeven en de kleur van het bericht.
 
-  ![ Beschrijving: Voorbeeld van het bepalen van inhoud voor een berichtbericht in de berichten van Android ](assets/push_content_3.png){zoomable="yes"}
+  ![&#x200B; Beschrijving: Voorbeeld van het bepalen van inhoud voor een berichtbericht in de berichten van Android &#x200B;](assets/push_content_3.png){zoomable="yes"}
 
 >[!TAB  iOS ]
 
@@ -71,7 +71,7 @@ U kunt een **[!UICONTROL Subtitle]** toevoegen. Dit is de waarde van de ondertit
 
 In de modus Silent Push kan een melding &quot;silent&quot; worden verzonden naar een mobiele toepassing. De gebruiker wordt niet op de hoogte gebracht van de aankomst van de melding. Deze wordt rechtstreeks naar de toepassing overgedragen.
 
-![ Beschrijving: Voorbeeld van het bepalen van inhoud voor de berichten van iOS ](assets/push_content_1.png){zoomable="yes"}
+![&#x200B; Beschrijving: Voorbeeld van het bepalen van inhoud voor de berichten van iOS &#x200B;](assets/push_content_1.png){zoomable="yes"}
 
 >[!ENDTABS]
 
@@ -118,7 +118,7 @@ Geavanceerde opties zijn afhankelijk van het mobiele besturingssysteem: Android 
 
 >[!TAB  Android ]
 
-![ Beschrijving: Voorbeeld van geavanceerde montages voor de berichten van Android ](assets/push_content_5.png){zoomable="yes"}
+![&#x200B; Beschrijving: Voorbeeld van geavanceerde montages voor de berichten van Android &#x200B;](assets/push_content_5.png){zoomable="yes"}
 
 | Parameter | Beschrijving |
 |---------|---------|
@@ -127,14 +127,14 @@ Geavanceerde opties zijn afhankelijk van het mobiele besturingssysteem: Android 
 | **[!UICONTROL Channel ID]** | Stel de kanaal-id van uw melding in. De app moet een kanaal met deze kanaal-id maken voordat meldingen met deze kanaal-id worden ontvangen. |
 | **[!UICONTROL Click action]** | Bepaal de actie verbonden aan een gebruiker klikt op uw bericht. Dit bepaalt het gedrag wanneer de gebruiker met het bericht communiceert, zoals het openen van een specifiek scherm of het uitvoeren van een specifieke actie in uw app. |
 | **[!UICONTROL Tag]** | Stel een id in die wordt gebruikt om bestaande meldingen in de meldingslade te vervangen. Dit helpt de accumulatie van meerdere meldingen te voorkomen en zorgt ervoor dat alleen de meest recente relevante kennisgeving wordt weergegeven. |
-| **[!UICONTROL Priority]** | Stel het prioriteitsniveau van uw melding in. Dit kan standaard, minimaal, laag of hoog zijn. Het prioriteitsniveau bepaalt het belang en de urgentie van de melding, en beïnvloedt hoe deze wordt weergegeven en of bepaalde systeeminstellingen kunnen worden omzeild. Voor meer op dit, verwijs naar [ documentatie FCM ](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
-| **[!UICONTROL Visibility]** | Stel het zichtbaarheidsniveau van uw melding in. Dit kan openbaar, privé of geheim zijn. Het zichtbaarheidsniveau bepaalt hoeveel van de inhoud van het bericht wordt weergegeven op het vergrendelingsscherm en andere gevoelige gebieden. Voor meer informatie, verwijs naar de [ documentatie FCM ](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility). |
+| **[!UICONTROL Priority]** | Stel het prioriteitsniveau van uw melding in. Dit kan standaard, minimaal, laag of hoog zijn. Het prioriteitsniveau bepaalt het belang en de urgentie van de melding, en beïnvloedt hoe deze wordt weergegeven en of bepaalde systeeminstellingen kunnen worden omzeild. Voor meer op dit, verwijs naar [&#x200B; documentatie FCM &#x200B;](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
+| **[!UICONTROL Visibility]** | Stel het zichtbaarheidsniveau van uw melding in. Dit kan openbaar, privé of geheim zijn. Het zichtbaarheidsniveau bepaalt hoeveel van de inhoud van het bericht wordt weergegeven op het vergrendelingsscherm en andere gevoelige gebieden. Voor meer informatie, verwijs naar de [&#x200B; documentatie FCM &#x200B;](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility). |
 | **[!UICONTROL Sticky]** | Wanneer geactiveerd, blijft het bericht zichtbaar zelfs nadat de gebruiker erop klikt. <br> als gedeactiveerd, wordt het bericht automatisch verworpen wanneer de gebruiker met het in wisselwerking staat. Dankzij het plakgedrag blijven belangrijke meldingen langer op het scherm staan. |
 | **[!UICONTROL Application variables]** | Hiermee kunt u gedrag voor meldingen definiëren. Deze variabelen kunnen volledig worden aangepast en worden opgenomen in de berichtlading die naar het mobiele apparaat wordt verzonden. |
 
 >[!TAB  iOS ]
 
-![ Beschrijving: Voorbeeld van geavanceerde montages voor de berichten van iOS ](assets/push_content_2.png){zoomable="yes"}
+![&#x200B; Beschrijving: Voorbeeld van geavanceerde montages voor de berichten van iOS &#x200B;](assets/push_content_2.png){zoomable="yes"}
 
 | Parameter | Beschrijving |
 |---------|---------|

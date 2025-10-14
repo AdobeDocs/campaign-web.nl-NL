@@ -27,7 +27,7 @@ Dankzij de mogelijkheden van Campagne Gen AI verbetert deze component uw ervarin
 >
 >* Contextafhankelijke Help op basis van AI is beschikbaar in de Beta-versie en kan zonder voorafgaande kennisgeving worden gewijzigd.
 >
->* Dit vermogen is slechts beschikbaar in **Engels**. Andere talen worden niet ondersteund in deze versie. Dientengevolge, verzeker [ uw aangewezen taal ](connect-to-campaign.md#language-pref) aan Engels alvorens dit vermogen te gebruiken wordt geplaatst.
+>* Dit vermogen is slechts beschikbaar in **Engels**. Andere talen worden niet ondersteund in deze versie. Dientengevolge, verzeker [&#x200B; uw aangewezen taal &#x200B;](connect-to-campaign.md#language-pref) aan Engels alvorens dit vermogen te gebruiken wordt geplaatst.
 >
 >* Contextafhankelijke Help voor AI-bestanden is momenteel niet beschikbaar in Campagne-e-mail Designer.
 
@@ -49,7 +49,7 @@ For information specific to Adobe AI policies in Experience Cloud apps and solut
 
 Vanuit het invoerveld geeft de Contextuele Help van Adobe Campaign AI drie gestelde vragen. Deze vragen worden door AI gegenereerd, hebben betrekking op het Help-vak en zijn afgestemd op de huidige productcontext. Selecteer een vraag om het antwoord te krijgen.
 
-[ Voorbeeld van gesuggereerde vragen in contextafhankelijke hulp ](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+[&#x200B; Voorbeeld van gesuggereerde vragen in contextafhankelijke hulp &#x200B;](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
 
 ## Antwoorden {#answers-ai}
 
@@ -57,7 +57,7 @@ Contextuele Help van Adobe Campaign AI biedt ondersteuning, maar u moet de feite
 
 Kopieer een antwoord aan het klembord gebruikend het **pictogram van het Exemplaar** bij de bodem van hulppopover.
 
-[ Voorbeeld van het kopiëren van een antwoord in contextafhankelijke hulp ](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+[&#x200B; Voorbeeld van het kopiëren van een antwoord in contextafhankelijke hulp &#x200B;](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
 
 ## Feedback {#feedback-ai}
 

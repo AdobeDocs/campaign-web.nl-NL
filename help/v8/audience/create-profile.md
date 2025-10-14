@@ -52,18 +52,18 @@ Voer de volgende stappen uit om een profiel te maken:
 
 1. De lijst met kenmerken die beschikbaar is voor het profiel wordt weergegeven in verschillende secties die in de onderstaande tabel worden beschreven.
 
-   ![ Screenshot die de lijst van attributen tonen beschikbaar voor het profiel, in secties ](assets/create-profile.png){zoomable="yes"} wordt georganiseerd
+   ![&#x200B; Screenshot die de lijst van attributen tonen beschikbaar voor het profiel, in secties &#x200B;](assets/create-profile.png){zoomable="yes"} wordt georganiseerd
 
    | Sectie Kenmerken | Beschrijving |
    |  ---  |  ---  |
-   | **Basisdetails** | Basisinformatie over het profiel, zoals de naam of geboortedatum.<br/> door gebrek, worden de profielen opgeslagen in de **[!UICONTROL Recipients]** omslag. U kunt dit wijzigen door naar de gewenste locatie te bladeren. [ Leer hoe te met omslagen ](../get-started/permissions.md#folders) te werken |
+   | **Basisdetails** | Basisinformatie over het profiel, zoals de naam of geboortedatum.<br/> door gebrek, worden de profielen opgeslagen in de **[!UICONTROL Recipients]** omslag. U kunt dit wijzigen door naar de gewenste locatie te bladeren. [&#x200B; Leer hoe te met omslagen &#x200B;](../get-started/permissions.md#folders) te werken |
    | **de informatie van het Contact** | De contactgegevens van het profiel, zoals het e-mailadres of telefoonnummer. |
    | **Adres** | Het postadres van het profiel. Deze sectie verstrekt ook een evaluatie van de adreskwaliteit. Het adres van een profiel wordt als geldig beschouwd als de velden Achternaam, Plaats en Postcode zijn opgegeven. |
    | **de details van de Rekening** | Informatie over de account van het profiel, zoals de status of het rekeningnummer. |
-   | **niet meer contact** | De contactvoorkeuren van het profiel. Als een van deze opties is geselecteerd, bevindt het profiel zich op de lijst van gewezen personen.<br/> Bijvoorbeeld, als de ontvanger een unsubscription verbinding in een nieuwsbrief klikte, wordt deze informatie toegevoegd aan de contactgegevens. Een dergelijke ontvanger is niet meer gericht op de geselecteerde kanalen. Leer meer over quarantainebeheer in [ Adobe Campaign v8 documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=nl-NL){target="_blank"} |
-   | **de gebieden van de Douane** | Als aangepaste velden zijn geconfigureerd, worden deze weergegeven in deze sectie. Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan het schema **[!UICONTROL Profiles]** worden toegevoegd. Leer meer in de [ Adobe Campaign v8 documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=nl-NL){target="_blank"} |
+   | **niet meer contact** | De contactvoorkeuren van het profiel. Als een van deze opties is geselecteerd, bevindt het profiel zich op de lijst van gewezen personen.<br/> Bijvoorbeeld, als de ontvanger een unsubscription verbinding in een nieuwsbrief klikte, wordt deze informatie toegevoegd aan de contactgegevens. Een dergelijke ontvanger is niet meer gericht op de geselecteerde kanalen. Leer meer over quarantainebeheer in [&#x200B; Adobe Campaign v8 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/quarantines.html?lang=nl-NL){target="_blank"} |
+   | **de gebieden van de Douane** | Als aangepaste velden zijn geconfigureerd, worden deze weergegeven in deze sectie. Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan het schema **[!UICONTROL Profiles]** worden toegevoegd. Leer meer in de [&#x200B; Adobe Campaign v8 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=nl-NL){target="_blank"} |
    | **Anderen** | Aanvullende ingebouwde kenmerken. |
 
 1. Nadat u het profiel hebt geconfigureerd, klikt u op **[!UICONTROL Create]** om het in de database op te slaan.
 
-   Na het opslaan kunt u het profiel op elk gewenst moment bewerken door het te openen in de lijst met profielen. [ leer hoe te om de details van profielen ](profile-view.md) te onderzoeken.
+   Na het opslaan kunt u het profiel op elk gewenst moment bewerken door het te openen in de lijst met profielen. [&#x200B; leer hoe te om de details van profielen &#x200B;](profile-view.md) te onderzoeken.

@@ -24,8 +24,8 @@ Dit kanaal is ideaal voor lood follow-ups, behoudvraag, of de dienstoutreach, en
 
 U kunt het kanaal van het vraagcentrum op één van de volgende manieren gebruiken:
 
-* **Werkschema&#39;s**: voeg een activiteit van het vraagcentrum aan uw werkschema toe en vorm de basismontages en de inhoud. Voor gedetailleerde instructies bij het vormen van werkschema&#39;s, verwijs naar [ deze pagina ](../workflows/gs-workflow-creation.md).
-* **Campagnes**: Zodra u een campagne creeert, kunt u een levering van het vraagcentrum toevoegen. Voor meer informatie bij vestiging campagnes, verwijs naar [ deze pagina ](../campaigns/gs-campaigns.md).
-* **stand-alone leveringen**: creeer een éénmalige levering van het vraagcentrum, zonder de behoefte aan werkschema&#39;s of campagnes. [ leren hoe te om een levering ](../msg/gs-deliveries.md) tot stand te brengen
+* **Werkschema&#39;s**: voeg een activiteit van het vraagcentrum aan uw werkschema toe en vorm de basismontages en de inhoud. Voor gedetailleerde instructies bij het vormen van werkschema&#39;s, verwijs naar [&#x200B; deze pagina &#x200B;](../workflows/gs-workflow-creation.md).
+* **Campagnes**: Zodra u een campagne creeert, kunt u een levering van het vraagcentrum toevoegen. Voor meer informatie bij vestiging campagnes, verwijs naar [&#x200B; deze pagina &#x200B;](../campaigns/gs-campaigns.md).
+* **stand-alone leveringen**: creeer een éénmalige levering van het vraagcentrum, zonder de behoefte aan werkschema&#39;s of campagnes. [&#x200B; leren hoe te om een levering &#x200B;](../msg/gs-deliveries.md) tot stand te brengen
 
-Om te leren om een levering van het vraagcentrum tot stand te brengen en te verzenden, verwijs naar deze [ pagina ](../call-center/create-call-center.md)
+Om te leren om een levering van het vraagcentrum tot stand te brengen en te verzenden, verwijs naar deze [&#x200B; pagina &#x200B;](../call-center/create-call-center.md)

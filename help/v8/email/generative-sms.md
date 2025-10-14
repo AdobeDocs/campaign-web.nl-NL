@@ -14,10 +14,10 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
+>Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [&#x200B; Grafieken en Beperkingen &#x200B;](generative-gs.md#generative-guardrails).
 >&#x200B;></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens AI Medewerker in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens AI Medewerker in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Zodra u de berichten van SMS ambt en personaliseert om uw publiek aan te passen, verhoog uw mededeling met AI Medewerker in het Web van Adobe Campaign, aangedreven door innovatieve technologie van AI.
 
@@ -25,19 +25,19 @@ Dit hulpmiddel verstrekt intelligente suggesties om uw inhoud te verfijnen, ervo
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de SMS-levering hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie bij het vormen van uw levering van SMS, verwijs naar [ deze pagina ](../sms/create-sms.md).
+   Voor meer informatie bij het vormen van uw levering van SMS, verwijs naar [&#x200B; deze pagina &#x200B;](../sms/create-sms.md).
 
 1. Vul **[!UICONTROL Basic details]** in voor levering. Klik op **[!UICONTROL Edit content]** als de bewerking is voltooid.
 
 1. Open het menu **[!UICONTROL Show AI Assistant]** . U kunt deze ook openen naast het veld **[!UICONTROL Message]** .
 
-   ![ Schermafbeelding die het Hulpmenu van AI van de Show tonen ](assets/sms-genai-1.png){zoomable="yes"} toont
+   ![&#x200B; Schermafbeelding die het Hulpmenu van AI van de Show tonen &#x200B;](assets/sms-genai-1.png){zoomable="yes"} toont
 
 1. Stel de inhoud nauwkeurig af door te beschrijven wat u wilt genereren in het veld **[!UICONTROL Prompt]** .
 
    Als u hulp nodig hebt die uw herinnering creeert, toegang **[!UICONTROL Prompt Library]**, die een diverse waaier van snelle ideeën verstrekt om uw leveringen te verbeteren.
 
-   ![ Schermopname die de Snelle Bibliotheek ](assets/sms-genai-2.png){zoomable="yes"} toont
+   ![&#x200B; Schermopname die de Snelle Bibliotheek &#x200B;](assets/sms-genai-2.png){zoomable="yes"} toont
 
 1. Tik uw vraag met de optie **[!UICONTROL Text settings]** :
 
@@ -45,7 +45,7 @@ Dit hulpmiddel verstrekt intelligente suggesties om uw inhoud te verfijnen, ervo
    * **[!UICONTROL Tone]**: zorg ervoor dat de toon van uw e-mail op uw publiek afgestemd is. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker past het bericht dienovereenkomstig aan.
    * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
-   ![ Schermafbeelding die de opties van de montages van de Tekst toont ](assets/sms-genai-3.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de opties van de montages van de Tekst toont &#x200B;](assets/sms-genai-3.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement met inhoud toe te voegen dat extra context biedt aan AI Assistant, of selecteer een eerder geüpload element.
 
@@ -57,7 +57,7 @@ Dit hulpmiddel verstrekt intelligente suggesties om uw inhoud te verfijnen, ervo
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](../content/brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](../content/brands-score.md).
 
    ![](assets/sms-genai-5.png){zoomable="yes"}
 
@@ -69,11 +69,11 @@ Dit hulpmiddel verstrekt intelligente suggesties om uw inhoud te verfijnen, ervo
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
-   ![ Schermafbeelding die verfijningsopties tonen ](assets/sms-genai-4.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die verfijningsopties tonen &#x200B;](assets/sms-genai-4.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 
-1. Voeg personaliseringsgebieden in om uw inhoud van SMS aan te passen die op profielgegevens wordt gebaseerd. [ Leer meer over inhoudstijdpersonalisatie ](../personalization/personalize.md).
+1. Voeg personaliseringsgebieden in om uw inhoud van SMS aan te passen die op profielgegevens wordt gebaseerd. [&#x200B; Leer meer over inhoudstijdpersonalisatie &#x200B;](../personalization/personalize.md).
 
 1. Nadat u de inhoud van uw bericht hebt gedefinieerd, klikt u op de knop **[!UICONTROL Simulate content]** om de weergave te beheren en de instellingen voor aanpassing te controleren met testprofielen. [Meer informatie](../preview-test/preview-content.md).
 

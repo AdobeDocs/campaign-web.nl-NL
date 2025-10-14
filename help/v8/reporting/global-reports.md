@@ -36,17 +36,17 @@ Voer de volgende stappen uit om toegang te krijgen tot uw Global-rapporten en de
 
 1. Selecteer in het linkermenu een rapport in de lijst en navigeer door de tab om de gegevens van elk kanaal weer te geven.
 
-   ![ Schermafbeelding die het linkermenu en de lusjes tonen voor het navigeren van gegevens van elk kanaal ](assets/global_report_manage_3.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die het linkermenu en de lusjes tonen voor het navigeren van gegevens van elk kanaal &#x200B;](assets/global_report_manage_3.png){zoomable="yes"}
 
 1. Van uw dashboard, kies a **Begin** en **[!UICONTROL End time]** om specifieke gegevens te richten.
 
-   ![ Schermschot die het dashboard met opties tonen om begin en eindtijd voor gegevens te selecteren richtend ](assets/global_report_manage_1.png){zoomable="yes"}
+   ![&#x200B; Schermschot die het dashboard met opties tonen om begin en eindtijd voor gegevens te selecteren richtend &#x200B;](assets/global_report_manage_1.png){zoomable="yes"}
 
 1. Selecteer in het veld **[!UICONTROL Pick folder]** of leveringen of campagnes vanuit een specifieke map moeten worden gericht.
 
-   ![ Schermafbeelding die het gebied van de plukmap toont voor het selecteren van leveringen of campagnes ](assets/global_report_manage_2.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die het gebied van de plukmap toont voor het selecteren van leveringen of campagnes &#x200B;](assets/global_report_manage_2.png){zoomable="yes"}
 
-1. Klik op **[!UICONTROL Add rules]** om query&#39;s te maken voor een beter filter voor het rapporteren van gegevens. [ Leer hoe te om de vraagmodelaar ](../query/query-modeler-overview.md) te gebruiken.
+1. Klik op **[!UICONTROL Add rules]** om query&#39;s te maken voor een beter filter voor het rapporteren van gegevens. [&#x200B; Leer hoe te om de vraagmodelaar &#x200B;](../query/query-modeler-overview.md) te gebruiken.
 
 1. Kies in het **[!UICONTROL URLs and click streams]** de **[!UICONTROL Top visited Links]** of de **[!UICONTROL Time period]** .
 

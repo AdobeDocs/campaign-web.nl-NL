@@ -26,19 +26,19 @@ De activiteiten van het werkschema die nog niet in het gebruikersinterface van h
 
 | Console | Web |
 | --- | --- |
-| ![ Schermafbeelding die beperkingen van activiteiten in de console toont ](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![ Schermafbeelding die beperkingen van activiteiten in de Webinterface toont ](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![&#x200B; Schermafbeelding die beperkingen van activiteiten in de console toont &#x200B;](assets/limitations-activities-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![&#x200B; Schermafbeelding die beperkingen van activiteiten in de Webinterface toont &#x200B;](assets/limitations-activities-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 Wanneer de a **Vraag** of een **Verrijking** activiteit met extra gegevens in de console wordt gevormd, wordt het verrijkingsgegeven in het Web van de Campagne in de uitgaande overgang genomen en overgegaan, maar het kan niet worden uitgegeven.
 
 | Console | Web |
 | --- | --- |
-| ![ Schermafbeelding die beperkingen van opties in de console toont ](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![ Schermafbeelding die beperkingen van opties in de Webinterface toont ](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![&#x200B; Schermafbeelding die beperkingen van opties in de console toont &#x200B;](assets/limitations-options-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![&#x200B; Schermafbeelding die beperkingen van opties in de Webinterface toont &#x200B;](assets/limitations-options-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 In de console, kan de **Verrijking** activiteit zowel verzoening als verrijking uitvoeren. Als u verzoeningsmontages in de **Verrijking** activiteit in de cliëntconsole hebt bepaald, zal het als a **Verzoening** activiteit in het gebruikersinterface van het Web van de Campagne worden getoond.
 
 | Console | Web |
 | --- | --- |
-| ![ Schermafbeelding die verrijkingsactiviteit in de console tonen ](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![ Schermafbeelding die verrijkingsactiviteit in de Webinterface tonen ](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![&#x200B; Schermafbeelding die verrijkingsactiviteit in de console tonen &#x200B;](assets/limitations-enrichment-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![&#x200B; Schermafbeelding die verrijkingsactiviteit in de Webinterface tonen &#x200B;](assets/limitations-enrichment-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 ## Workflowcanvas {#wkf-canvas}
 
@@ -46,10 +46,10 @@ Wanneer het creëren van een nieuw werkschema in het gebruikersinterface van het
 
 | Console | Web |
 | --- | --- |
-| ![ Schermafbeelding die veelvoudige ingangspunten in de console tonen ](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![ Schermschot die veelvoudige ingangspunten in de Webinterface tonen ](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![&#x200B; Schermafbeelding die veelvoudige ingangspunten in de console tonen &#x200B;](assets/limitations-multiple-console.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![&#x200B; Schermschot die veelvoudige ingangspunten in de Webinterface tonen &#x200B;](assets/limitations-multiple-web.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
 
 De positionering van de knooppunten wordt telkens vernieuwd wanneer een activiteit wordt toegevoegd of verwijderd. Als u een werkschema in de console creeert, het wijzigt gebruikend het de gebruikersinterface van het Web van de Campagne, en het in de console heropent, kunt u sommige minder belangrijke plaatsende onvolkomenheden opmerken. Dit heeft geen invloed op de processen en taken van de workflow.
 
 | Beginworkflow | Positiewijziging |
 | --- | --- |
-| ![ Schermafbeelding die aanvankelijke werkschema het plaatsen tonen ](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![ Schermafbeelding die plaatsende veranderingen na wijzigingen tonen ](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |
+| ![&#x200B; Schermafbeelding die aanvankelijke werkschema het plaatsen tonen &#x200B;](assets/limitations-positioning1.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} | ![&#x200B; Schermafbeelding die plaatsende veranderingen na wijzigingen tonen &#x200B;](assets/limitations-positioning2.png){zoomable="yes"}{width="800px" align="left" zoomable="yes"} |

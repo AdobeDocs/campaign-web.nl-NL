@@ -30,7 +30,7 @@ Het **de leveringsoverzicht van SMS** verstrekt een gedetailleerde samenvatting 
 
 Het **[!UICONTROL Delivery overview]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie bieden over succes en foutpercentages en over de manier waarop bezoekers uw SMS-berichten gebruiken.
 
-![ Beschrijving: Het beeld toont het overzichtsrapport van de Levering, dat KPIs zoals succespercentages, foutenpercentages, en bezoekersbetrokkenheid omvat.](assets/reporting_sms_3.png){zoomable="yes"}
+![&#x200B; Beschrijving: Het beeld toont het overzichtsrapport van de Levering, dat KPIs zoals succespercentages, foutenpercentages, en bezoekersbetrokkenheid omvat.](assets/reporting_sms_3.png){zoomable="yes"}
 
 +++Meer weten over de cijfers van SMS-verzendrapporten?
 
@@ -53,7 +53,7 @@ Het **[!UICONTROL Delivery overview]** -rapport bevat prestatie-indicatoren (KPI
 
 De **gerichte bevolking** grafiek en lijstvertoningsgegevens met betrekking tot uw publiek. De cijfers worden hieronder beschreven.
 
-![ Beschrijving: Het beeld toont de Gerichte bevolkingsgrafiek en de lijst, die metriek zoals te leveren berichten en uitsluitingen omvatten.](assets/reporting_sms_4.png){zoomable="yes"}
+![&#x200B; Beschrijving: Het beeld toont de Gerichte bevolkingsgrafiek en de lijst, die metriek zoals te leveren berichten en uitsluitingen omvatten.](assets/reporting_sms_4.png){zoomable="yes"}
 
 +++Meer weten over de cijfers van SMS-verzendrapporten?
 
@@ -71,7 +71,7 @@ De **gerichte bevolking** grafiek en lijstvertoningsgegevens met betrekking tot 
 
 Het **Algemene statistische** rapport stelt gegevens voor de verzonden berichten van SMS voor. De cijfers worden hieronder beschreven.
 
-![ Beschrijving: Het beeld toont het Algemene statistische rapport, dat metriek zoals succespercentages, fouten, en quarantines omvat.](assets/reporting_sms_5.png){zoomable="yes"}
+![&#x200B; Beschrijving: Het beeld toont het Algemene statistische rapport, dat metriek zoals succespercentages, fouten, en quarantines omvat.](assets/reporting_sms_5.png){zoomable="yes"}
 
 +++Meer weten over de cijfers van SMS-verzendrapporten?
 
@@ -89,9 +89,9 @@ Het **Algemene statistische** rapport stelt gegevens voor de verzonden berichten
 >title="Sms-uitsluitingen"
 >abstract="De **grafiek en de lijst van uitsluitingen 0&rbrace; &lbrace;tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen.**"
 
-In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet konden ontvangen. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#sms-quarantines){_blank}.
+In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet konden ontvangen. De regels van de uitsluiting zijn gedetailleerd in de [&#x200B; Campagne v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#sms-quarantines){_blank}.
 
-![ Beschrijving: Het beeld toont de grafiek en de lijst van Uitzonderingen, die de redenen om gebruikersprofielen van het ontvangen van berichten te uitsluiten gedetailleerd.](assets/reporting_sms_6.png){zoomable="yes"}
+![&#x200B; Beschrijving: Het beeld toont de grafiek en de lijst van Uitzonderingen, die de redenen om gebruikersprofielen van het ontvangen van berichten te uitsluiten gedetailleerd.](assets/reporting_sms_6.png){zoomable="yes"}
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
@@ -102,4 +102,4 @@ In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u waarom gebruikersp
 
 Dit rapport bevat gedetailleerde informatie over de leveringstijd binnen een opgegeven tijdsperiode. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
 
-![ Beschrijving: Het beeld toont het rapport van de productie van de Levering, dat metriek zoals het aantal berichten omvat die per uur binnen een gespecificeerd tijdkader worden verzonden.](assets/reporting_sms_2.png){zoomable="yes"}
+![&#x200B; Beschrijving: Het beeld toont het rapport van de productie van de Levering, dat metriek zoals het aantal berichten omvat die per uur binnen een gespecificeerd tijdkader worden verzonden.](assets/reporting_sms_2.png){zoomable="yes"}

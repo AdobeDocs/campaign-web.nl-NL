@@ -18,15 +18,15 @@ Gebruik de modus **[!UICONTROL Code your own]** om onbewerkte HTML te importeren
 >
 >Deze methode vereist kennis van HTML.
 
-1. Voor de [ E-mail Designer ](get-started-email-designer.md) homepage, uitgezochte **[!UICONTROL Code your own]**.
+1. Voor de [&#x200B; E-mail Designer &#x200B;](get-started-email-designer.md) homepage, uitgezochte **[!UICONTROL Code your own]**.
 
-   ![ Schermschot die de &quot;Code uw eigen&quot;optie in de E-mail Designer homepage toont ](assets/code-your-own.png){zoomable="yes"}
+   ![&#x200B; Schermschot die de &quot;Code uw eigen&quot;optie in de E-mail Designer homepage toont &#x200B;](assets/code-your-own.png){zoomable="yes"}
 
 1. Voer of plak de onbewerkte HTML-code in het hoofdcanvas.
 
 1. In het linkerdeelvenster hebt u toegang tot de functies voor personalisatie. [Meer informatie](../personalization/gs-personalization.md)
 
-   ![ Schermschot die de coderedacteur met verpersoonlijkingsopties in de linkerruit tonen ](assets/code-editor-personalization.png){zoomable="yes"}
+   ![&#x200B; Schermschot die de coderedacteur met verpersoonlijkingsopties in de linkerruit tonen &#x200B;](assets/code-editor-personalization.png){zoomable="yes"}
 
 1. Klik op de knop **[!UICONTROL Simulate content]** om een voorvertoning van het berichtontwerp en de personalisatie weer te geven met testprofielen. [Meer informatie](../preview-test/preview-test.md)
 

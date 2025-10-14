@@ -26,7 +26,7 @@ Voer de volgende stappen uit om de verzending van een e-mailbericht te plannen:
 
 1. Stel de gewenste datum en tijd in voor het verzenden en klik op de knop **[!UICONTROL Review and send]** .
 
-   ![ activeer het plannen en plaats datum en tijd ](assets/schedule-email-standalone.png){zoomable="yes"}
+   ![&#x200B; activeer het plannen en plaats datum en tijd &#x200B;](assets/schedule-email-standalone.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -35,47 +35,47 @@ Voer de volgende stappen uit om de verzending van een e-mailbericht te plannen:
 
 1. Controleer of het schema juist is en klik op de knop **[!UICONTROL Prepare]** .
 
-![ Controle programma en bereidt levering ](assets/schedule-email-standalone-prepare.png){zoomable="yes"} voor
+![&#x200B; Controle programma en bereidt levering &#x200B;](assets/schedule-email-standalone-prepare.png){zoomable="yes"} voor
 
 1. Zodra de voorbereiding is voltooid, zijn de berichten klaar om te worden verzonden. De belangrijkste metriek voor de levering wordt getoond, met inbegrip van totale doelbevolking, aantal te leveren berichten, en aantal uitgesloten ontvangers. Klik op de knop **[!UICONTROL Send as scheduled]** om te bevestigen dat de levering op de geplande datum en tijd wordt verzonden naar het hoofddoel.
 
-![ bevestigt het verzenden zoals gepland ](assets/schedule-email-standalone-send.png){zoomable="yes"}
+![&#x200B; bevestigt het verzenden zoals gepland &#x200B;](assets/schedule-email-standalone-send.png){zoomable="yes"}
 
 ### Sms
 
-Voer dezelfde stappen uit als voor e-mailleveringen als voor het plannen van de levering van SMS-berichten voor een bepaalde datum en tijd. [ zie hierboven ](#schedule-email-standalone).
+Voer dezelfde stappen uit als voor e-mailleveringen als voor het plannen van de levering van SMS-berichten voor een bepaalde datum en tijd. [&#x200B; zie hierboven &#x200B;](#schedule-email-standalone).
 
-![ levering van SMS van het Programma ](assets/schedule-sms-standalone.png){zoomable="yes"}
+![&#x200B; levering van SMS van het Programma &#x200B;](assets/schedule-sms-standalone.png){zoomable="yes"}
 
 U kunt ook controleren of het schema wordt toegepast:
 
-![ het programma van SMS van de Controle ](assets/schedule-sms-standalone-prepare.png){zoomable="yes"}
+![&#x200B; het programma van SMS van de Controle &#x200B;](assets/schedule-sms-standalone-prepare.png){zoomable="yes"}
 
 ### Pushmelding
 
-Volg dezelfde stappen als voor e-mailleveringen als voor het plannen van een zelfstandige pushlevering voor een specifieke datum en tijd. [ zie hierboven ](#schedule-email-standalone).
+Volg dezelfde stappen als voor e-mailleveringen als voor het plannen van een zelfstandige pushlevering voor een specifieke datum en tijd. [&#x200B; zie hierboven &#x200B;](#schedule-email-standalone).
 
-![ de dupmeldingslevering van het Programma ](assets/schedule-push-standalone.png){zoomable="yes"}
+![&#x200B; de dupmeldingslevering van het Programma &#x200B;](assets/schedule-push-standalone.png){zoomable="yes"}
 
 U kunt ook controleren of het schema wordt toegepast:
 
-![ pushmeldingsprogramma van de Controle ](assets/schedule-push-standalone-prepare.png){zoomable="yes"}
+![&#x200B; pushmeldingsprogramma van de Controle &#x200B;](assets/schedule-push-standalone-prepare.png){zoomable="yes"}
 
 ### Zelfstandige levering in een campagne
 
 U kunt een zelfstandige levering binnen een campagne tot stand brengen zonder een werkschema te gebruiken. Stel de datum en het tijdschema voor deze levering in, zoals hierboven beschreven. De campagne kan een eigen planning hebben, inclusief een begindatum en een einddatum. Dit schema interfereert niet met uw leveringsschema.
 
-![ Standalone levering in een campagne ](assets/schedule-delivery-standalone.png){zoomable="yes"}
+![&#x200B; Standalone levering in een campagne &#x200B;](assets/schedule-delivery-standalone.png){zoomable="yes"}
 
 ## Een levering plannen in een campagneworkflow
 
-In de context van een campagneworkflow kunt u het beste de **[!UICONTROL Scheduler]** -activiteit gebruiken om een datum en tijd toe te passen voor het starten van de workflow, waarbij de levering wordt verzonden. [ leer meer over Planner ](../workflows/activities/scheduler.md).
+In de context van een campagneworkflow kunt u het beste de **[!UICONTROL Scheduler]** -activiteit gebruiken om een datum en tijd toe te passen voor het starten van de workflow, waarbij de levering wordt verzonden. [&#x200B; leer meer over Planner &#x200B;](../workflows/activities/scheduler.md).
 
-![ levering van het Programma in een campagnewerkschema ](assets/schedule-workflow.png){zoomable="yes"}
+![&#x200B; levering van het Programma in een campagnewerkschema &#x200B;](assets/schedule-workflow.png){zoomable="yes"}
 
 Configureer de datum en tijd in de **[!UICONTROL Scheduler]** -activiteit.
 
-![ vorm de activiteit van de Planner ](assets/schedule-workflow-scheduler.png){zoomable="yes"}
+![&#x200B; vorm de activiteit van de Planner &#x200B;](assets/schedule-workflow-scheduler.png){zoomable="yes"}
 
 >[!NOTE]
 >

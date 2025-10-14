@@ -14,10 +14,10 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Alvorens te beginnen gebruikend dit vermogen, lees verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
+>Alvorens te beginnen gebruikend dit vermogen, lees verwante [&#x200B; Grafieken en Beperkingen &#x200B;](generative-gs.md#generative-guardrails).
 >&#x200B;></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in het Web van Adobe Campaign kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens u AI Medewerker in het Web van Adobe Campaign kunt gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Transformeer uw bestemmingspagina&#39;s met AI Assistant in Adobe Campaign Web, aangedreven door generatieve AI.
 
@@ -33,11 +33,11 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om een besta
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [ deze pagina ](../landing-pages/create-lp.md).
+   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../landing-pages/create-lp.md).
 
 1. Pas de layout naar wens aan en open het menu **[!UICONTROL AI Assistant]** .
 
-   ![ Schermafbeelding die AI Hulpmenu in de het landen paginaredacteur toont.](assets/lp_full_gen_1.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die AI Hulpmenu in de het landen paginaredacteur toont.](assets/lp_full_gen_1.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
@@ -45,14 +45,14 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om een besta
 
    Als u hulp bij het maken van uw herinnering nodig hebt, toegang tot **[!UICONTROL Prompt Library]**, die een diverse waaier van snelle ideeën verstrekt om uw landende pagina te verbeteren.
 
-   ![ Schermafbeelding die de interface van de Bibliotheek van de Vragen toont.](assets/lp_full_gen_2.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de interface van de Bibliotheek van de Vragen toont.](assets/lp_full_gen_2.png){zoomable="yes"}
 
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
    * **[!UICONTROL Tone]**: De tint van de bestemmingspagina moet op uw publiek reageren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
 
-   ![ Schermafbeelding die de opties van tekstmontages toont.](assets/lp_full_gen_3.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de opties van tekstmontages toont.](assets/lp_full_gen_3.png){zoomable="yes"}
 
 1. Kies uw **[!UICONTROL Image settings]** :
 
@@ -62,7 +62,7 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om een besta
    * **[!UICONTROL Lighting]**: wijzig de belichting in een afbeelding om de atmosfeer te bepalen en specifieke elementen te markeren.
    * **[!UICONTROL Composition]** : Rangschik elementen in het kader van een afbeelding.
 
-   ![ Schermafbeelding die de opties van beeldmontages toont.](assets/lp_full_gen_4.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de opties van beeldmontages toont.](assets/lp_full_gen_4.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die extra context bieden aan AI Assistant, of selecteer een eerder geüpload element.
 
@@ -74,7 +74,7 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om een besta
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](../content/brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](../content/brands-score.md).
 
    ![](assets/lp_full_gen_5.png){zoomable="yes"}
 
@@ -85,9 +85,9 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om een besta
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
-   ![ Schermafbeelding die de verfopties toont.](assets/lp_full_gen_6.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de verfopties toont.](assets/lp_full_gen_6.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](../content/brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](../content/brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 
@@ -101,11 +101,11 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om de inhoud
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [ deze pagina ](../landing-pages/create-lp.md).
+   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../landing-pages/create-lp.md).
 
 1. Selecteer een **[!UICONTROL Text component]** om specifieke inhoud als doel in te stellen en open het menu **[!UICONTROL AI Assistant]** .
 
-   ![ Screenshot die AI Hulpmenu voor tekstcomponenten toont.](assets/lp-text-genai-1.png){zoomable="yes"}
+   ![&#x200B; Screenshot die AI Hulpmenu voor tekstcomponenten toont.](assets/lp-text-genai-1.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
@@ -113,7 +113,7 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om de inhoud
 
    Als u hulp bij het maken van uw herinnering nodig hebt, toegang tot **[!UICONTROL Prompt Library]**, die een diverse waaier van snelle ideeën verstrekt om uw landende pagina&#39;s te verbeteren.
 
-   ![ Schermafbeelding die de interface van de Bibliotheek van de Vragen toont.](assets/lp-text-genai-2.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de interface van de Bibliotheek van de Vragen toont.](assets/lp-text-genai-2.png){zoomable="yes"}
 
 1. Volg uw vraag met de optie **[!UICONTROL Text settings]** :
 
@@ -121,13 +121,13 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om de inhoud
    * **[!UICONTROL Tone]**: De tint van de bestemmingspagina moet op uw publiek reageren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker kan het bericht dienovereenkomstig aanpassen.
    * **Lengte van de Tekst**: Gebruik de schuif om de gewenste lengte van uw tekst te selecteren.
 
-   ![ Schermafbeelding die de opties van tekstmontages toont.](assets/lp-text-genai-3.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de opties van tekstmontages toont.](assets/lp-text-genai-3.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die extra context bieden aan AI Assistant, of selecteer een eerder geüpload element.
 
    Eerder geüploade bestanden zijn beschikbaar in de vervolgkeuzelijst **[!UICONTROL Uploaded brand assets]** . Schakel de elementen die u wilt opnemen in het genereren in of uit.
 
-   ![ Screenshot die het menu van merkactiva toont.](assets/lp-text-genai-4.png){zoomable="yes"}
+   ![&#x200B; Screenshot die het menu van merkactiva toont.](assets/lp-text-genai-4.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Generate]** als de vraag gereed is.
 
@@ -135,9 +135,9 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om de inhoud
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](../content/brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](../content/brands-score.md).
 
-   ![ Screenshot die het menu van merkactiva toont.](assets/lp-text-genai-4.png){zoomable="yes"}
+   ![&#x200B; Screenshot die het menu van merkactiva toont.](assets/lp-text-genai-4.png){zoomable="yes"}
 
 1. Navigeer naar de optie **[!UICONTROL Refine]** in het **[!UICONTROL Preview]** -venster voor toegang tot extra aanpassingsfuncties:
 
@@ -149,9 +149,9 @@ In het volgende voorbeeld leert u hoe u AI Assistant kunt gebruiken om de inhoud
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
-   ![ Schermafbeelding die de verfopties toont.](assets/lp-text-genai-5.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de verfopties toont.](assets/lp-text-genai-5.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](../content/brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](../content/brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 
@@ -165,13 +165,13 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de bestemmingspagina hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [ deze pagina ](../landing-pages/create-lp.md).
+   Voor meer informatie over hoe te om uw het landen pagina te vormen, verwijs naar [&#x200B; deze pagina &#x200B;](../landing-pages/create-lp.md).
 
 1. Selecteer het element dat u wilt wijzigen met AI Assistant.
 
 1. Selecteer **[!UICONTROL AI Assistant]** in het rechtermenu.
 
-   ![ Schermafbeelding die AI Hulpmenu voor beeldcomponenten toont.](assets/lp-image-gen-1.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die AI Hulpmenu voor beeldcomponenten toont.](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. Schakel de optie **[!UICONTROL Reference style]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de referentie-inhoud. U kunt ook een afbeelding uploaden om context aan uw variatie toe te voegen.
 
@@ -179,7 +179,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
    Als u hulp bij het maken van uw herinnering nodig hebt, toegang tot **[!UICONTROL Prompt Library]**, die een diverse waaier van snelle ideeën verstrekt om uw landende pagina&#39;s te verbeteren.
 
-   ![ Schermafbeelding die de interface van de Bibliotheek van de Vragen toont.](assets/lp-image-gen-2.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de interface van de Bibliotheek van de Vragen toont.](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. Volg uw vraag met de optie **[!UICONTROL Image settings]** :
 
@@ -190,7 +190,7 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
    * **[!UICONTROL Lighting]**: wijzig de belichting in een afbeelding om de atmosfeer te bepalen en specifieke elementen te markeren.
    * **[!UICONTROL Composition]** : Rangschik elementen in het kader van een afbeelding.
 
-   ![ Schermafbeelding die de opties van beeldmontages toont.](assets/lp-image-gen-3.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de opties van beeldmontages toont.](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om merkelementen toe te voegen die extra context bieden aan AI Assistant, of selecteer een eerder geüpload element.
 
@@ -202,13 +202,13 @@ In het onderstaande voorbeeld leert u hoe u AI Assistant kunt gebruiken om uw mi
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](../content/brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](../content/brands-score.md).
 
-   ![ Screenshot die het menu van merkactiva toont.](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![&#x200B; Screenshot die het menu van merkactiva toont.](assets/lp-image-gen-4.png){zoomable="yes"}
 
 1. Kies **[!UICONTROL Generate Similar]** in het **[!UICONTROL Preview]** -venster als u verwante afbeeldingen met deze variant wilt weergeven.
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](../content/brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](../content/brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 

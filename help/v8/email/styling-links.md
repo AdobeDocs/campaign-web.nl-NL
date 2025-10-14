@@ -18,7 +18,7 @@ U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de
 
 1. Schakel op het tabblad **[!UICONTROL Settings]** **[!UICONTROL Underline link]** in om het label te onderstrepen.
 
-   ![ Schermafbeelding die de onderstreepte verbindingsoptie in het lusje van Montages toont.](assets/link_1.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de onderstreepte verbindingsoptie in het lusje van Montages toont.](assets/link_1.png){zoomable="yes"}
 
 1. Kies hoe de doelgroep wordt omgeleid in de vervolgkeuzelijst **[!UICONTROL Target]** :
 
@@ -28,10 +28,10 @@ U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de
    * **[!UICONTROL Parent]** : hiermee opent u de koppeling in het bovenliggende frame.
    * **[!UICONTROL Top]** : hiermee opent u de koppeling in de volledige tekst van het venster.
 
-   ![ Schermafbeelding die de drop-down opties van het Doel op het lusje van Montages toont.](assets/link_2.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de drop-down opties van het Doel op het lusje van Montages toont.](assets/link_2.png){zoomable="yes"}
 
 1. Als u de kleur van de koppeling wilt wijzigen, klikt u op **[!UICONTROL Link color]** op de tab **[!UICONTROL Styles]** .
 
-   ![ Schermafbeelding die de de kleurenoptie van de Verbinding in het lusje van Stijlen toont.](assets/link_3.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de de kleurenoptie van de Verbinding in het lusje van Stijlen toont.](assets/link_3.png){zoomable="yes"}
 
 1. Sla uw wijzigingen op.

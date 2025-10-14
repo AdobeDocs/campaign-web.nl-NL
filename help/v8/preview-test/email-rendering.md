@@ -23,29 +23,29 @@ Om dit te bereiken, gebruik uw **rekening 0&rbrace; Litmus &lbrace;binnen [!DNL 
 Voer de volgende voorwaarden uit om toegang te krijgen tot rendermogelijkheden via e-mail:
 
 * Heb een Litmus account.
-* Selecteer profielen en/of testprofielen. Leer hoe in [ deze sectie ](preview-content.md).
+* Selecteer profielen en/of testprofielen. Leer hoe in [&#x200B; deze sectie &#x200B;](preview-content.md).
 
 Voer vervolgens de onderstaande stappen uit.
 
-1. In [ geef inhoud ](../email/edit-content.md) scherm of in [ E-mail Designer ](../email/get-started-email-designer.md) uit, klik de **[!UICONTROL Simulate content]** knoop.
+1. In [&#x200B; geef inhoud &#x200B;](../email/edit-content.md) scherm of in [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-designer.md) uit, klik de **[!UICONTROL Simulate content]** knoop.
 
 1. Selecteer de knop **[!UICONTROL Render email]**.
 
-   ![ Simuleer inhoudsknoop in de e-mailredacteur ](assets/simulate-rendering-button.png){zoomable="yes"}
+   ![&#x200B; Simuleer inhoudsknoop in de e-mailredacteur &#x200B;](assets/simulate-rendering-button.png){zoomable="yes"}
 
 1. Klik **verbind uw rekening van de Samenhang** in de hogere juiste sectie.
 
-   ![ de optie van de de rekeningsverbinding van de Leiding in de e-mailteruggevende interface ](assets/simulate-rendering-litmus.png){zoomable="yes"}
+   ![&#x200B; de optie van de de rekeningsverbinding van de Leiding in de e-mailteruggevende interface &#x200B;](assets/simulate-rendering-litmus.png){zoomable="yes"}
 
 1. Voer uw gegevens in en meld u aan.
 
-   ![ Login van de rekening Litmus scherm ](assets/simulate-rendering-credentials.png){zoomable="yes"}
+   ![&#x200B; Login van de rekening Litmus scherm &#x200B;](assets/simulate-rendering-credentials.png){zoomable="yes"}
 
 1. Klik de **test van de Looppas** knoop om e-mailvoorproeven te produceren.
 
 1. Bekijk uw e-mailinhoud in populaire desktops, mobiele clients en webclients.
 
-   ![ E-mail teruggevende voorproeven over verschillende cliënten ](assets/simulate-rendering-previews.png){zoomable="yes"}
+   ![&#x200B; E-mail teruggevende voorproeven over verschillende cliënten &#x200B;](assets/simulate-rendering-previews.png){zoomable="yes"}
 
 <!--
 TO CHECK IF user is directed to Litmus or if the email rendering is shown directly in the Campaign UI.

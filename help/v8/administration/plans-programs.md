@@ -22,17 +22,17 @@ Voor een betere organisatie van deze componenten raadt Adobe de volgende hiërar
 
 ## Een abonnement maken en configureren {#create-plan}
 
-Als u een abonnement wilt maken, maakt u een map met het maptype **[!UICONTROL Plan]** . [ Leer meer over het creëren van een omslag ](../get-started/work-with-folders.md)
+Als u een abonnement wilt maken, maakt u een map met het maptype **[!UICONTROL Plan]** . [&#x200B; Leer meer over het creëren van een omslag &#x200B;](../get-started/work-with-folders.md)
 
-![ Schermafbeelding die de verwezenlijking van een planomslag toont ](assets/plan_create.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die de verwezenlijking van een planomslag toont &#x200B;](assets/plan_create.png){zoomable="yes"}
 
 Ga naar de **[!UICONTROL Folder settings]** van uw plan om het te beheren.
 
-![ Schermafbeelding die de omslagmontages voor een plan toont ](assets/plan_settings.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die de omslagmontages voor een plan toont &#x200B;](assets/plan_settings.png){zoomable="yes"}
 
 Definieer **[!UICONTROL Custom options]** en stel de planningsdatum van uw abonnement in.
 
-![ Schermschot die de douaneopties voor een plan tonen ](assets/plan_options.png){zoomable="yes"}
+![&#x200B; Schermschot die de douaneopties voor een plan tonen &#x200B;](assets/plan_options.png){zoomable="yes"}
 
 U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 
@@ -40,7 +40,7 @@ U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 1. Kies de schema&#39;s **[!UICONTROL Editable]** in de filters.
 1. Klik op het schema.
 
-![ Schermschot die het uitgeven van douanedetails voor een plan tonen ](assets/plan_edit.png){zoomable="yes"}
+![&#x200B; Schermschot die het uitgeven van douanedetails voor een plan tonen &#x200B;](assets/plan_edit.png){zoomable="yes"}
 
 1. Klik op de knop **[!UICONTROL Screen edition]**.
 
@@ -48,21 +48,21 @@ U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 
 Configureer de aangepaste opties:
 
-![ Schermschot die de configuratie van douanegebieden voor een plan tonen ](assets/plan_customfields.png){zoomable="yes"}
+![&#x200B; Schermschot die de configuratie van douanegebieden voor een plan tonen &#x200B;](assets/plan_customfields.png){zoomable="yes"}
 
 ## Een programma maken en configureren
 
-Om een programma in uw plan ([ te creëren Leer meer over het creëren van een plan ](#create-plan)), navigeer aan uw plan en creeer een omslag met het omslagtype **[!UICONTROL Program]**. [ Leer meer over het creëren van een omslag ](../get-started/work-with-folders.md).
+Om een programma in uw plan ([&#x200B; te creëren Leer meer over het creëren van een plan &#x200B;](#create-plan)), navigeer aan uw plan en creeer een omslag met het omslagtype **[!UICONTROL Program]**. [&#x200B; Leer meer over het creëren van een omslag &#x200B;](../get-started/work-with-folders.md).
 
-![ Schermschot die de verwezenlijking van een programmaomslag ](assets/program_create.png){zoomable="yes"} tonen
+![&#x200B; Schermschot die de verwezenlijking van een programmaomslag &#x200B;](assets/program_create.png){zoomable="yes"} tonen
 
 Ga naar de **[!UICONTROL Folder settings]** van uw programma om het te beheren.
 
-![ Schermafbeelding die de omslagmontages voor een programma toont ](assets/program_settings.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die de omslagmontages voor een programma toont &#x200B;](assets/program_settings.png){zoomable="yes"}
 
 Definieer **[!UICONTROL Custom options]** en stel de planningsdatum van uw programma in.
 
-![ Schermafbeelding die de douaneopties voor een programma tonen ](assets/program_options.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die de douaneopties voor een programma tonen &#x200B;](assets/program_options.png){zoomable="yes"}
 
 U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 
@@ -70,7 +70,7 @@ U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 1. Kies de schema&#39;s **[!UICONTROL Editable]** in de filters.
 1. Klik op het schema.
 
-![ Schermschot die het uitgeven van douanedetails voor een programma tonen ](assets/program_edit.png){zoomable="yes"}
+![&#x200B; Schermschot die het uitgeven van douanedetails voor een programma tonen &#x200B;](assets/program_edit.png){zoomable="yes"}
 
 1. Klik op de knop **[!UICONTROL Screen edition]**.
 
@@ -78,7 +78,7 @@ U kunt als volgt de **[!UICONTROL Custom options]** beheren:
 
 Configureer de aangepaste opties:
 
-![ Schermschot die de configuratie van douanegebieden voor een programma tonen ](assets/program_customfields.png){zoomable="yes"}
+![&#x200B; Schermschot die de configuratie van douanegebieden voor een programma tonen &#x200B;](assets/program_customfields.png){zoomable="yes"}
 
 ## Een campagne koppelen aan een programma
 
@@ -88,26 +88,26 @@ U kunt een campagne op twee manieren koppelen aan een programma:
 
 Als u een nieuwe campagne wilt koppelen aan uw programma, maakt u de campagne rechtstreeks in het programma.
 
-![ Schermschot die de verwezenlijking van een campagne binnen een programma tonen ](assets/program_campaign_create.png){zoomable="yes"}
+![&#x200B; Schermschot die de verwezenlijking van een campagne binnen een programma tonen &#x200B;](assets/program_campaign_create.png){zoomable="yes"}
 
 De instellingen van **[!UICONTROL Folder]** worden automatisch gevuld met het pad naar uw programma.
 
-![ Schermafbeelding die de omslagmontages voor een campagne toont verbonden aan een programma ](assets/program_campaign_folder.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die de omslagmontages voor een campagne toont verbonden aan een programma &#x200B;](assets/program_campaign_folder.png){zoomable="yes"}
 
 ### Way #2: U hebt al een bestaande campagne en wilt deze koppelen aan een bestaand programma
 
 Ga naar de knop **[!UICONTROL Settings]** van de campagne die u aan uw programma wilt koppelen.
 
-![ Schermafbeelding die de montagesknoop voor een campagne toont ](assets/campaign_settings.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die de montagesknoop voor een campagne toont &#x200B;](assets/campaign_settings.png){zoomable="yes"}
 
 Klik in de **[!UICONTROL Properties]** -map op het pictogram **[!UICONTROL Folder]** in de **[!UICONTROL Folder]** -instellingen om de **[!UICONTROL Program]** -map te kiezen.
 
-![ Schermschot die de omslagselectie voor het verbinden van een campagne aan een programma tonen ](assets/campaign_folder.png){zoomable="yes"}
+![&#x200B; Schermschot die de omslagselectie voor het verbinden van een campagne aan een programma tonen &#x200B;](assets/campaign_folder.png){zoomable="yes"}
 
 Selecteer de map **[!UICONTROL Program]** , klik op de knop **[!UICONTROL Confirm]** en klik vervolgens op de knop **[!UICONTROL Save and Close]** .
 
-![ Schermafbeelding die een campagne tonen verbonden aan een programma ](assets/campaign_linked.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die een campagne tonen verbonden aan een programma &#x200B;](assets/campaign_linked.png){zoomable="yes"}
 
 Uw campagne wordt nu vermeld in uw programma.
 
-![ Schermafbeelding die een campagne tonen die binnen een programma ](assets/campaign_in_program.png){zoomable="yes"} wordt vermeld
+![&#x200B; Schermafbeelding die een campagne tonen die binnen een programma &#x200B;](assets/campaign_in_program.png){zoomable="yes"} wordt vermeld

@@ -29,17 +29,17 @@ ht-degree: 0%
 
 Leveringen zijn toegankelijk via het menu **[!UICONTROL Deliveries]** aan de linkerkant. Alle die leveringen of van de cliëntconsole of het Gebruikersinterface van het Web worden gecreeerd verschijnen in deze lijst. Vanuit dit scherm kunt u alle bestaande leveringen controleren, deze dupliceren of verwijderen of nieuwe leveringen maken.
 
-![ Lijst van leveringen die in de interface ](assets/deliveries-list.png) worden getoond
+![&#x200B; Lijst van leveringen die in de interface &#x200B;](assets/deliveries-list.png) worden getoond
 
 Als u een levering wilt openen, klikt u in de lijst op de naam van de levering. De levering opent, toestaand u om diverse acties uit te voeren zoals het uitgeven van zijn parameters, het controleren van zijn uitvoering, of het controleren van zijn prestaties gebruikend specifieke rapporten.
 
-![ het scherm van de Details van de Levering het tonen van parameters en rapporten ](assets/delivery-details.png)
+![&#x200B; het scherm van de Details van de Levering het tonen van parameters en rapporten &#x200B;](assets/delivery-details.png)
 
 >[!NOTE]
 >
 >Als u een levering opent die in de cliëntconsole wordt gecreeerd, kan de **[!UICONTROL Additional target]** sectie voor het publiek tonen. Dit wijst erop dat de veelvoudige doelstellingen voor deze levering zijn gevormd. Deze parameters kunnen alleen in de console worden gewijzigd.
 >
->![ het bericht van de Waarschuwing over extra doelconfiguratie ](assets/target-warning-audience.png){zoomable="yes"}
+>![&#x200B; het bericht van de Waarschuwing over extra doelconfiguratie &#x200B;](assets/target-warning-audience.png){zoomable="yes"}
 
 ## Een levering dupliceren {#delivery-duplicate}
 
@@ -67,7 +67,7 @@ Voer de volgende stappen uit om een levering te verwijderen uit de lijst met lev
 1. Selecteer **[!UICONTROL Delete]**.
 1. Verwijderen bevestigen.
 
-![ het Schrappen van een levering van de interface van de leveringslijst ](assets/delete-delivery-from-list.png)
+![&#x200B; het Schrappen van een levering van de interface van de leveringslijst &#x200B;](assets/delete-delivery-from-list.png)
 
 Alle leveringen zijn beschikbaar in deze lijsten, maar leveringen die in een workflow zijn gemaakt, kunnen daar niet van worden verwijderd. Als u een levering wilt verwijderen die in de context van een workflow is gemaakt, verwijdert u de leveringsactiviteit uit de workflow.
 
@@ -77,4 +77,4 @@ Ga als volgt te werk om een levering uit een workflow te verwijderen:
 1. Klik op het pictogram **[!UICONTROL Delete]** in het rechterdeelvenster.
 1. Verwijderen bevestigen. Als de levering kindknopen heeft, verkies om hen ook te schrappen of hen te houden.
 
-![ het Schrappen van een leveringsactiviteit binnen een werkschema ](assets/delete-delivery-from-wf.png)
+![&#x200B; het Schrappen van een leveringsactiviteit binnen een werkschema &#x200B;](assets/delete-delivery-from-wf.png)

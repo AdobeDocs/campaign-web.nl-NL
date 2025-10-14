@@ -14,9 +14,9 @@ ht-degree: 7%
 
 # Vroege aanvullende informatie {#e-release}
 
-De gebruikersinterface van het Web van Adobe Campaign levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [ versienota&#39;s ](release-notes.md).
+De gebruikersinterface van het Web van Adobe Campaign levert onophoudelijk nieuwe eigenschappen, verhogingen aan bestaande eigenschappen, en insectenmoeilijke situaties. Alle veranderingen worden geconsolideerd aan het eind van elke maand in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md).
 
-**de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen, en de bijgewerkte documentatie worden gepubliceerd in de [ versienota&#39;s ](release-notes.md) bij de versiedatum.
+**de vroege versienota&#39;s hieronder zijn onderworpen aan verandering zonder voorafgaande kennisgeving tot de datum van de versiebeschikbaarheid**. De verbindingen, de schermen, en de bijgewerkte documentatie worden gepubliceerd in de [&#x200B; versienota&#39;s &#x200B;](release-notes.md) bij de versiedatum.
 
 ## Release van februari &#39;25 {#25-2-ern}
 

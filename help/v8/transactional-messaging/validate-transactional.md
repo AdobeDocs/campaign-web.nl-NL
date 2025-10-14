@@ -22,11 +22,11 @@ Ga als volgt te werk om de inhoud van uw bericht te simuleren:
 
   U kunt de inhoud van het bericht of de contextsteekproef wijzigen om hen te maken richten.
 
-  ![ Schermschot die de controle van verpersoonlijkingspaden in de berichtinhoud tonen ](assets/validate-verification.png){zoomable="yes"}
+  ![&#x200B; Schermschot die de controle van verpersoonlijkingspaden in de berichtinhoud tonen &#x200B;](assets/validate-verification.png){zoomable="yes"}
 
 * Klik op de knop **[!UICONTROL Simulate content]** om een voorvertoning van het transactiebericht weer te geven met de gegevens die in het contextvoorbeeld zijn ingevoerd.
 
-  ![ Schermafbeelding die de Simuleren inhoudsknoop en voorproeffunctionaliteit tonen ](assets/validate-simulate.png){zoomable="yes"}
+  ![&#x200B; Schermafbeelding die de Simuleren inhoudsknoop en voorproeffunctionaliteit tonen &#x200B;](assets/validate-simulate.png){zoomable="yes"}
 
   Klik op de knop **[!UICONTROL Close]** nadat u de inhoud hebt bekeken.
 
@@ -36,12 +36,12 @@ Ga als volgt te werk om de inhoud van uw bericht te simuleren:
 
 Gebruik de proefdrukfunctie om het transactiemelding te testen en te ervaren zoals het via het door u gekozen kanaal wordt verzonden, zoals e-mail, SMS of pushmelding.
 
-In het [ venster van de simulatieinhoud ](#simulate-content), klik op de **[!UICONTROL Send proof]** knoop.
+In het [&#x200B; venster van de simulatieinhoud &#x200B;](#simulate-content), klik op de **[!UICONTROL Send proof]** knoop.
 
-![ Schermafbeelding die de Send proefdrukknoop in het venster van de simulatieinhoud toont ](assets/transactional-proof.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die de Send proefdrukknoop in het venster van de simulatieinhoud toont &#x200B;](assets/transactional-proof.png){zoomable="yes"}
 
 Voer in het nieuwe venster dat wordt weergegeven het e-mailadres of telefoonnummer in, afhankelijk van het kanaal waar u de proefdruk wilt ontvangen. Klik op de knoppen **[!UICONTROL Send proof]** en **[!UICONTROL Confirm]** nadat u het gewenste adres hebt ingevoerd. Deze actie verzendt een steekproef van uw transactiebericht, die ervoor zorgt dat alle verpersoonlijkingen, dynamische inhoud, en het formatteren correct verschijnen zoals zij voor uw eind - gebruikers.
 
-![ Schermschot die de Send functionaliteit van de proefdruk en bevestigingsproces tonen ](assets/transactional-sendproof.png){zoomable="yes"}
+![&#x200B; Schermschot die de Send functionaliteit van de proefdruk en bevestigingsproces tonen &#x200B;](assets/transactional-sendproof.png){zoomable="yes"}
 
 Deze stap is essentieel voor het identificeren van mogelijke problemen voordat u uw transactiebericht publiceert.

@@ -23,7 +23,7 @@ Het SMS-kanaal biedt drie methoden voor het maken van SMS-leveringen:
 
 * **stand-alone leveringen**: Creeer individuele leveringen van SMS voor snelle en directe communicatie met uw klanten, zonder de behoefte aan werkschema&#39;s of campagnes.
 
-![](../assets/do-not-localize/book.png) Leer hoe te om het kanaal van SMS in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html?lang=nl-NL){target="_blank"} te vormen .
+![](../assets/do-not-localize/book.png) Leer hoe te om het kanaal van SMS in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html?lang=nl-NL){target="_blank"} te vormen .
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

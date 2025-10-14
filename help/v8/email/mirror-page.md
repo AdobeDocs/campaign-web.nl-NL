@@ -16,7 +16,7 @@ De spiegelpagina is een online versie van uw e-mail. Het toevoegen van een koppe
 
 De spiegelpagina die door Adobe Campaign wordt gegenereerd, bevat alle aanpassingsgegevens.
 
-![ Steekproef van een spiegelverbinding in e-mail ](assets/mirror-page-link.png){width="600" align="left"}
+![&#x200B; Steekproef van een spiegelverbinding in e-mail &#x200B;](assets/mirror-page-link.png){width="600" align="left"}
 
 ## Een koppeling toevoegen aan de spiegelpagina {#link-to-mirror-page}
 
@@ -26,15 +26,15 @@ Ga als volgt te werk als u een koppeling wilt toevoegen aan een spiegel in uw e-
 
 1. Selecteer een element (tekst of afbeelding) en klik op **[!UICONTROL Insert link]** op de contextafhankelijke werkbalk.
 
-   ![ Contextuele toolbar die de verbindingsoptie van het Tussenvoegsel tonen ](assets/message-tracking-mirror-page.png){zoomable="yes"}
+   ![&#x200B; Contextuele toolbar die de verbindingsoptie van het Tussenvoegsel tonen &#x200B;](assets/message-tracking-mirror-page.png){zoomable="yes"}
 
 1. Selecteer het pictogram **[!UICONTROL Add personalization]** voor toegang tot het menu voor aanpassing.
 
-   ![ het menu van Personalization in Adobe Campaign ](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
+   ![&#x200B; het menu van Personalization in Adobe Campaign &#x200B;](assets/message-tracking-mirror-page_2.png){zoomable="yes"}
 
-1. Selecteer **[!UICONTROL Mirror page URL]** in het menu **[!UICONTROL Fragments]** en klik op **[!UICONTROL Add]** . [ Leer hoe te om uitdrukkingsfragmenten ](../content/use-expression-fragments.md) te gebruiken
+1. Selecteer **[!UICONTROL Mirror page URL]** in het menu **[!UICONTROL Fragments]** en klik op **[!UICONTROL Add]** . [&#x200B; Leer hoe te om uitdrukkingsfragmenten &#x200B;](../content/use-expression-fragments.md) te gebruiken
 
-   ![ spiegel pagina URL optie in het menu van Fragmenten ](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
+   ![&#x200B; spiegel pagina URL optie in het menu van Fragmenten &#x200B;](assets/message-tracking-mirror-page_3.png){zoomable="yes"}
 
 De spiegelpagina wordt automatisch gemaakt.
 

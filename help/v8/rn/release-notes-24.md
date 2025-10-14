@@ -11,7 +11,7 @@ ht-degree: 7%
 
 # Opmerkingen bij de release 2024 {#2024-release}
 
-Deze pagina maakt een lijst van alle veranderingen en verbeteringen beschikbaar met **2024 versies**. De recentste vrije nota&#39;s zijn beschikbaar in [ deze pagina ](release-notes.md).
+Deze pagina maakt een lijst van alle veranderingen en verbeteringen beschikbaar met **2024 versies**. De recentste vrije nota&#39;s zijn beschikbaar in [&#x200B; deze pagina &#x200B;](release-notes.md).
 
 
 ## Release oktober 1924 {#24-10-release}
@@ -111,7 +111,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in augus
 >
 >De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld.
 >
->Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL){target="_blank"}.
+>Verwijs naar de volgende documentatiepagina&#39;s: [&#x200B; overgang Campaign Standard aan Campagne v8 &#x200B;](../rn/acs-migration.md) en [&#x200B; Eigenschappen voor de gebruikers van Campaign Standard &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL){target="_blank"}.
 
 * **Branding voor Directe Post** - de Technische beheerders kunnen één of verscheidene merken nu bepalen om de parameters te centraliseren die de identiteit van een merk beïnvloeden. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina&#39;s of de instellingen voor de tracking van berichten. U kunt deze merken nu maken en deze koppelen aan berichten of bestemmingspagina&#39;s. Deze configuratie wordt beheerd in malplaatjes. [Meer informatie](../administration/branding/branding-assign.md)
 
@@ -156,7 +156,7 @@ U kunt nu uitgebreide pushmeldingen verzenden. Een uitgebreide pushmelding is ee
 
 >[!AVAILABILITY]
 >
->Voor deze functie is een update naar Campagne v8.6.3 <!--or v8.7.2--> vereist. Leer meer in de console van de Cliënt van de Campagne v8 [ versienota&#39;s ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>Voor deze functie is een update naar Campagne v8.6.3 <!--or v8.7.2--> vereist. Leer meer in de console van de Cliënt van de Campagne v8 [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
 
 ### Verbeteringen {#improvements-24-7}
 
@@ -248,7 +248,7 @@ Merk op dat deze eigenschap in **Beperkte Beschikbaarheid** (LA) is.
 >
 >De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld.
 >
->Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL).
+>Verwijs naar de volgende documentatiepagina&#39;s: [&#x200B; overgang Campaign Standard aan Campagne v8 &#x200B;](../rn/acs-migration.md) en [&#x200B; Eigenschappen voor de gebruikers van Campaign Standard &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL).
 
 * **Branding** - als Campaign Standard migreerde gebruiker, kunnen uw technische beheerders één of verscheidene merken nu bepalen om de parameters te centraliseren die de identiteit van een merk beïnvloeden. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina&#39;s of de instellingen voor de tracking van berichten. U kunt deze merken maken en deze koppelen aan berichten of bestemmingspagina&#39;s. Deze configuratie wordt beheerd in malplaatjes. [Meer informatie](../administration/branding/branding-gs.md)
 
@@ -281,7 +281,7 @@ De verbeteringen hieronder zijn beschikbaar aan alle klanten vanaf de release va
 
 >[!AVAILABILITY]
 >
->Deze versie is beschikbaar aan alle gebruikers die [ Campagne (console) v8.6 versie beginnen ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=nl-NL). Leer meer over de versies en verbeteringen van de de cliëntconsole van Adobe Campaign in [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=nl-NL){target="_blank"}.
+>Deze versie is beschikbaar aan alle gebruikers die [&#x200B; Campagne (console) v8.6 versie beginnen &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=nl-NL). Leer meer over de versies en verbeteringen van de de cliëntconsole van Adobe Campaign in [&#x200B; Campagne v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/upgrades.html?lang=nl-NL){target="_blank"}.
 
 **de datum van de Versie**: Maart 19-20, 2024
 

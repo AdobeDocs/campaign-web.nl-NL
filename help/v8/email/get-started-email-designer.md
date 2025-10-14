@@ -37,14 +37,14 @@ Door deze beste praktijken te volgen, kunt u helpen ervoor zorgen dat uw e-mails
 
 ## Beginnen met het ontwerpen van uw inhoud {#start-authoring}
 
-Van het dashboard van de e-maillevering, ga door [ inhoud ](edit-content.md) scherm uitgeven om de E-mail Designer homepage te openen. Kies in dit venster hoe u uw e-mail wilt ontwerpen uit de volgende opties:
+Van het dashboard van de e-maillevering, ga door [&#x200B; inhoud &#x200B;](edit-content.md) scherm uitgeven om de E-mail Designer homepage te openen. Kies in dit venster hoe u uw e-mail wilt ontwerpen uit de volgende opties:
 
-* **Ontwerp uw e-mail van kras** door de interface van de e-mailontwerper. Leer hoe te om uw e-mailinhoud in [ te ontwerpen deze sectie ](create-email-content.md).
+* **Ontwerp uw e-mail van kras** door de interface van de e-mailontwerper. Leer hoe te om uw e-mailinhoud in [&#x200B; te ontwerpen deze sectie &#x200B;](create-email-content.md).
 
-* **Code of deeg ruwe HTML** direct in de e-mailontwerper. Leer hoe te om uw eigen inhoud in [ te coderen deze sectie ](code-content.md).
+* **Code of deeg ruwe HTML** direct in de e-mailontwerper. Leer hoe te om uw eigen inhoud in [&#x200B; te coderen deze sectie &#x200B;](code-content.md).
 
-* **voer bestaande inhoud van HTML** van een dossier of een .zip omslag in. Leer hoe te om e-mailinhoud in [ deze sectie ](existing-content.md) in te voeren.
+* **voer bestaande inhoud van HTML** van een dossier of een .zip omslag in. Leer hoe te om e-mailinhoud in [&#x200B; deze sectie &#x200B;](existing-content.md) in te voeren.
 
-* **selecteer een bestaande inhoud** van een lijst van ingebouwde of douanesjablonen. Leer hoe te met e-mailmalplaatjes in [ deze sectie ](../content/create-email-templates.md) te werken.
+* **selecteer een bestaande inhoud** van een lijst van ingebouwde of douanesjablonen. Leer hoe te met e-mailmalplaatjes in [&#x200B; deze sectie &#x200B;](../content/create-email-templates.md) te werken.
 
-  ![ Opties beschikbaar in de interface E-mail van Designer voor het creëren van e-mailinhoud ](assets/email_designer_create_options.png){zoomable="yes"}
+  ![&#x200B; Opties beschikbaar in de interface E-mail van Designer voor het creëren van e-mailinhoud &#x200B;](assets/email_designer_create_options.png){zoomable="yes"}

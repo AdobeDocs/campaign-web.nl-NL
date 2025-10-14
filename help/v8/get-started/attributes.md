@@ -14,7 +14,7 @@ ht-degree: 0%
 
 De het gebruikersinterface van het Web van de Campagne staat gebruikers toe om attributen van het gegevensbestand bij diverse plaatsen te selecteren, afhankelijk van de actie die wordt uitgevoerd. Kenmerken kunnen bijvoorbeeld worden geselecteerd bij het definiëren van uitvoerkolommen voor direct mail of voor het uitpakken van een bestand. Op dezelfde manier kunnen de attributen worden geselecteerd wanneer het gebruiken van vraagmodeler om regels tot stand te brengen, filters, of publiek te bouwen.
 
-![ Uitgezochte attributen van de gegevensbestandinterface, tonend attributenopties.](assets/attributes-list.png)
+![&#x200B; Uitgezochte attributen van de gegevensbestandinterface, tonend attributenopties.](assets/attributes-list.png)
 
 Als u kenmerken die vaak worden gebruikt snel wilt hergebruiken, voegt u ze toe aan favorieten. Hierdoor zijn ze gemakkelijk toegankelijk voor toekomstige taken. Naast favorieten kunnen gebruikers ook de laatst geselecteerde kenmerken weergeven en gebruiken.
 
@@ -29,7 +29,7 @@ De interface verstrekt ook een distributie van waardesinstrument, dat u toestaat
 
 Het menu **[!UICONTROL Favorites & Recents]** in de kenmerkenkiezer biedt een geordende weergave van kenmerken die aan favorieten zijn toegevoegd, samen met een lijst met onlangs gebruikte kenmerken. Favoriete kenmerken worden als eerste weergegeven, gevolgd door recent gebruikte kenmerken, zodat u gemakkelijk de vereiste kenmerken kunt vinden.
 
-![ Favorieten en recent kenmerkenmenu, die favoriete en onlangs gebruikte attributen tonen.](assets/attributes-favorite.png)
+![&#x200B; Favorieten en recent kenmerkenmenu, die favoriete en onlangs gebruikte attributen tonen.](assets/attributes-favorite.png)
 
 Als u een kenmerk aan favorieten wilt toevoegen, klikt u op de knop Uitvouwen en selecteert u **[!UICONTROL Add to favorites]** . Het kenmerk wordt vervolgens automatisch toegevoegd aan de lijst met favorieten. Als u een kenmerk uit de favorieten wilt verwijderen, selecteert u het sterpictogram opnieuw.
 
@@ -39,9 +39,9 @@ Gebruikers kunnen maximaal 20 kenmerken toevoegen aan favorieten. Favoriete en r
 
 De **Distributie van Waarden** knoop, beschikbaar wanneer het klikken van de uitvouwknop naast de attributen, staat gebruikers toe om de distributie van waarden voor die attributen binnen de lijst te analyseren. Deze functie is handig voor het begrijpen van de beschikbare waarden, hun aantallen en percentages. Het helpt ook problemen zoals inconsistente hoofdlettergebruik of spelling te voorkomen bij het maken van query&#39;s of het maken van expressies.
 
-![ Distributie van het hulpmiddel van waarden interface, die tellingen en percentages van attributenwaarden toont.](assets/attributes-distribution-values.png)
+![&#x200B; Distributie van het hulpmiddel van waarden interface, die tellingen en percentages van attributenwaarden toont.](assets/attributes-distribution-values.png)
 
-Voor kenmerken met een groot aantal waarden wordt alleen de eerste twintig weergegeven. In dergelijke gevallen lijkt een **[!UICONTROL Partial load]** -melding deze beperking aan te geven. Geavanceerde filters toepassen om de weergegeven resultaten te verfijnen en de focus op specifieke waarden of subsets van gegevens te richten. De gedetailleerde begeleiding bij het gebruiken van filters is beschikbaar [ hier ](../get-started/work-with-folders.md#filter-the-values).
+Voor kenmerken met een groot aantal waarden wordt alleen de eerste twintig weergegeven. In dergelijke gevallen lijkt een **[!UICONTROL Partial load]** -melding deze beperking aan te geven. Geavanceerde filters toepassen om de weergegeven resultaten te verfijnen en de focus op specifieke waarden of subsets van gegevens te richten. De gedetailleerde begeleiding bij het gebruiken van filters is beschikbaar [&#x200B; hier &#x200B;](../get-started/work-with-folders.md#filter-the-values).
 
 Raadpleeg de volgende secties voor meer informatie over het gebruik van het gereedschap Waarden in verschillende contexten:
 

@@ -34,13 +34,13 @@ ht-degree: 1%
 
 Het publiek is het belangrijkste doel van uw levering: de profielen die de berichten ontvangen. De lijst met soorten publiek die beschikbaar zijn voor gebruik in Campagne Web is toegankelijk via het menu **[!UICONTROL Audiences]** .
 
-![ Schermschot die de lijst van publiek tonen beschikbaar in het Web van de Campagne.](assets/audiences-list.png){zoomable="yes"}
+![&#x200B; Schermschot die de lijst van publiek tonen beschikbaar in het Web van de Campagne.](assets/audiences-list.png){zoomable="yes"}
 
 Het publiek kan uit veelvoudige bronnen voortkomen. De kolom **[!UICONTROL Origin]** geeft aan waar een bepaald publiek is gemaakt:
 
-* **[!UICONTROL Adobe Campaign]**: Deze doelgroepen zijn gecreeerd in [ het Gebruikersinterface van het Web van Adobe Campaign ](create-audience.md) of in de [ Adobe Campaign v8 cliëntconsole ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=nl-NL){target="_blank"}.
+* **[!UICONTROL Adobe Campaign]**: Deze doelgroepen zijn gecreeerd in [&#x200B; het Gebruikersinterface van het Web van Adobe Campaign &#x200B;](create-audience.md) of in de [&#x200B; Adobe Campaign v8 cliëntconsole &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=nl-NL){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** Deze doelgroepen zijn gemaakt in Adobe Experience Platform en zijn geïntegreerd in Campagne Web met behulp van de integratie van Adobe Sources and Destures. Leer hoe te opstelling deze integratie in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=nl-NL){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** Deze doelgroepen zijn gemaakt in Adobe Experience Platform en zijn geïntegreerd in Campagne Web met behulp van de integratie van Adobe Sources and Destures. Leer hoe te opstelling deze integratie in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=nl-NL){target="_blank"}.
 
   ➡️ [Ontdek deze functie in video](#video)
 
@@ -50,7 +50,7 @@ Als u een voorvertoning van het tijdelijke schema van een publiek wilt weergeven
 
 Op het tabblad **[!UICONTROL Data]** kunt u de profielen visualiseren die deel uitmaken van het publiek. Pas deze weergave aan door extra kolommen toe te voegen of gebruik geavanceerde filters om de weergegeven gegevens te verfijnen.
 
-![ Schermafbeelding die publieksdetails, met inbegrip van profielen en aanpassingsopties toont.](assets/audiences-details.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die publieksdetails, met inbegrip van profielen en aanpassingsopties toont.](assets/audiences-details.png){zoomable="yes"}
 
 Als u een publiek wilt dupliceren of verwijderen, klikt u op de knop **[!UICONTROL More action]** in de lijst met soorten publiek naast de naam van het publiek of in het scherm met publieksdetails.
 
@@ -60,4 +60,4 @@ Leer hoe u een bestemming maakt voor het gebruik van een Experience Platform-pub
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-De gedetailleerde informatie over hoe te opstelling is de de Bronnen en integratie van Doelen van Adobe beschikbaar in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=nl-NL){target="_blank"}.
+De gedetailleerde informatie over hoe te opstelling is de de Bronnen en integratie van Doelen van Adobe beschikbaar in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=nl-NL){target="_blank"}.

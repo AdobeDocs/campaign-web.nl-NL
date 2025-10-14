@@ -31,19 +31,19 @@ Schema&#39;s spelen een sleutelrol in:
 
 Elke entiteit in Adobe Campaign heeft een speciaal schema, dat zorgt voor consistentie en organisatie van de gegevens.
 
-De gedetailleerde informatie over schema&#39;s is beschikbaar in de [ documentatie van de de consoleconsole van de Campagne ](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+De gedetailleerde informatie over schema&#39;s is beschikbaar in de [&#x200B; documentatie van de de consoleconsole van de Campagne &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
 
 ## De schema&#39;s van de toegang in het Gebruikersinterface van het Web {#access}
 
 Schema&#39;s zijn toegankelijk via het menu **[!UICONTROL Administration]** > **[!UICONTROL Schemas]** .
 
-![ het lijstscherm van Schema&#39;s die beschikbare schema&#39;s en filters tonen ](assets/schemas-list.png)
+![&#x200B; het lijstscherm van Schema&#39;s die beschikbare schema&#39;s en filters tonen &#x200B;](assets/schemas-list.png)
 
 Vanuit dit scherm kunt u alle bestaande schema&#39;s weergeven. Er zijn filters beschikbaar waarmee u de lijst kunt verfijnen, zoals alleen bewerkbare schema&#39;s weergeven.
 
 Als u een schema wilt openen, selecteert u de naam ervan. Er wordt een gedetailleerde schemaweergave weergegeven.
 
-![ het detailscherm van het Schema die schemaeigenschappen en inhoud tonen ](assets/schema-details.png)
+![&#x200B; het detailscherm van het Schema die schemaeigenschappen en inhoud tonen &#x200B;](assets/schema-details.png)
 
 ### Overzicht van schema {#overview}
 
@@ -61,7 +61,7 @@ Het tabblad **[!UICONTROL Overview]** biedt een algemene weergave van het schema
 
 Het tabblad **[!UICONTROL Data]** bevat informatie over de schemagegevens.
 
-![ de gegevenslusje van het Schema die gegevensstructuur en attributen tonen ](assets/schemas-data.png)
+![&#x200B; de gegevenslusje van het Schema die gegevensstructuur en attributen tonen &#x200B;](assets/schemas-data.png)
 
 ## Aangepaste velden bewerken {#fields}
 
@@ -69,8 +69,8 @@ Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console a
 
 De gebieden van de douane kunnen in diverse schermen, zoals profieldetails in de interface van het Web van de Campagne worden getoond. U kunt bepalen welke velden zichtbaar zijn en hoe ze in de interface worden weergegeven. Klik hiertoe op de knop **[!UICONTROL Screen edition]** in het menu **[!UICONTROL Schemas]** .
 
-![ het scherm van de gebieden van de Douane die editable attributen tonen ](assets/schemas-custom.png)
+![&#x200B; het scherm van de gebieden van de Douane die editable attributen tonen &#x200B;](assets/schemas-custom.png)
 
 Klik op **[!UICONTROL Preview]** om de aangepaste velden in een voorbeeldscherm weer te geven.
 
-Voor gedetailleerde informatie over hoe te om douanegebieden in een schema uit te geven, verwijs naar deze sectie: [ vorm douanegebieden ](../administration/custom-fields.md).
+Voor gedetailleerde informatie over hoe te om douanegebieden in een schema uit te geven, verwijs naar deze sectie: [&#x200B; vorm douanegebieden &#x200B;](../administration/custom-fields.md).

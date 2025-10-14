@@ -14,10 +14,10 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
+>Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [&#x200B; Grafieken en Beperkingen &#x200B;](generative-gs.md#generative-guardrails).
 >&#x200B;></br>
 >
->U moet met a [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens AI Medewerker in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met a [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) akkoord gaan alvorens AI Medewerker in het Web van Adobe Campaign te gebruiken. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Met AI Assistant kunt u de impact van uw leveringen optimaliseren door verschillende inhoud voor te stellen die op uw publiek past.
 
@@ -25,11 +25,11 @@ In het volgende voorbeeld, is de Medewerker van AI leveraged aan ambachtelijk dw
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de pushmelding hebt gemaakt en geconfigureerd.
 
-   Voor meer informatie bij het vormen van uw pushlevering, verwijs naar [ deze pagina ](../push/create-push.md).
+   Voor meer informatie bij het vormen van uw pushlevering, verwijs naar [&#x200B; deze pagina &#x200B;](../push/create-push.md).
 
 1. Open het menu **[!UICONTROL Show AI Assistant]** .
 
-   ![ Schermafbeelding die het Hulpmenu van AI van de Show tonen ](assets/push-genai-1.png){zoomable="yes"} toont
+   ![&#x200B; Schermafbeelding die het Hulpmenu van AI van de Show tonen &#x200B;](assets/push-genai-1.png){zoomable="yes"} toont
 
 1. Schakel de optie **[!UICONTROL Use original content]** voor AI Assistant in om nieuwe inhoud aan te passen op basis van de geselecteerde inhoud.
 
@@ -37,7 +37,7 @@ In het volgende voorbeeld, is de Medewerker van AI leveraged aan ambachtelijk dw
 
    Als u hulp nodig hebt bij het maken van uw vraag, opent u **[!UICONTROL Prompt Library]** , dat een verscheidenheid aan snelle ideeën biedt om uw leveringen te verbeteren.
 
-   ![ Schermafbeelding die de interface van de Bibliotheek van de Vraag toont ](assets/push-genai-2.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de interface van de Bibliotheek van de Vraag toont &#x200B;](assets/push-genai-2.png){zoomable="yes"}
 
 1. Kies het veld dat u wilt genereren: **[!UICONTROL Title]** , **[!UICONTROL Subtitle]** , **[!UICONTROL Message]** en/of **[!UICONTROL Image]** .
 
@@ -46,7 +46,7 @@ In het volgende voorbeeld, is de Medewerker van AI leveraged aan ambachtelijk dw
    * **[!UICONTROL Communication strategy]**: Kies de meest geschikte communicatiestijl voor de gegenereerde tekst.
    * **[!UICONTROL Tone]**: pas de toon van uw e-mail aan om op uw publiek te resoneren. Of u informatief wilt klinken, playful, of overtuigend, AI Medewerker past het bericht dienovereenkomstig aan.
 
-   ![ Schermafbeelding die de opties van de montages van de Tekst toont ](assets/push-genai-3.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de opties van de montages van de Tekst toont &#x200B;](assets/push-genai-3.png){zoomable="yes"}
 
 1. Kies uw **[!UICONTROL Image settings]** :
 
@@ -55,7 +55,7 @@ In het volgende voorbeeld, is de Medewerker van AI leveraged aan ambachtelijk dw
    * **[!UICONTROL Lighting]**: pas de belichting in de afbeelding aan om de atmosfeer te bepalen en specifieke elementen te markeren.
    * **[!UICONTROL Composition]**: plaats elementen in het kader van de afbeelding.
 
-   ![ Schermafbeelding die de montagesopties van het Beeld tonen ](assets/push-genai-4.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de montagesopties van het Beeld tonen &#x200B;](assets/push-genai-4.png){zoomable="yes"}
 
 1. Klik in het menu **[!UICONTROL Brand assets]** op **[!UICONTROL Upload brand asset]** om een merkelement met inhoud toe te voegen dat extra context biedt aan AI Assistant, of selecteer een eerder geüpload element.
 
@@ -67,7 +67,7 @@ In het volgende voorbeeld, is de Medewerker van AI leveraged aan ambachtelijk dw
 
 1. Klik op het percentagepictogram om uw **[!UICONTROL Brand Alignment Score]** weer te geven en eventuele onjuiste uitlijningen met uw merk te identificeren.
 
-   Leer meer op [ de groeperingsscore van het Merk ](../content/brands-score.md).
+   Leer meer op [&#x200B; de groeperingsscore van het Merk &#x200B;](../content/brands-score.md).
 
    ![](assets/push-genai-6.png){zoomable="yes"}
 
@@ -79,9 +79,9 @@ In het volgende voorbeeld, is de Medewerker van AI leveraged aan ambachtelijk dw
 
    U kunt ook de **[!UICONTROL Tone]** en **[!UICONTROL Communication strategy]** van de tekst wijzigen.
 
-   ![ Schermafbeelding die verfijnen opties toont ](assets/push-genai-5.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die verfijnen opties toont &#x200B;](assets/push-genai-5.png){zoomable="yes"}
 
-1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [ merkrichtlijnen ](../content/brands.md) richt.
+1. Open het **[!UICONTROL Brand Alignment]** lusje om te zien hoe uw inhoud zich op uw [&#x200B; merkrichtlijnen &#x200B;](../content/brands.md) richt.
 
 1. Klik op **[!UICONTROL Select]** als u de juiste inhoud hebt gevonden.
 

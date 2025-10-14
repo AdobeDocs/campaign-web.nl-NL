@@ -10,9 +10,9 @@ ht-degree: 0%
 
 # Externe Hadoop-account {#external-hadoop}
 
-Met de externe Hadoop-account kunt u uw Campagne-instantie verbinden met uw externe Hadoop-database. U kunt meer over Hadoop in [ Campagne V7 consoledocumentatie ](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank} leren.
+Met de externe Hadoop-account kunt u uw Campagne-instantie verbinden met uw externe Hadoop-database. U kunt meer over Hadoop in [&#x200B; Campagne V7 consoledocumentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/configure-fda/config-databases/configure-fda-hadoop){target=_blank} leren.
 
-![ Schermschot die de configuratie voor de externe rekening van Hadoop tonen.](assets/external-hadoop.png)
+![&#x200B; Schermschot die de configuratie voor de externe rekening van Hadoop tonen.](assets/external-hadoop.png)
 
 Als u de **[!UICONTROL Hadoop]** externe account wilt configureren, vult u de volgende velden in:
 

@@ -15,18 +15,18 @@ ht-degree: 0%
 In deze sectie wordt uitgelegd hoe u een publiek kunt maken wanneer u een nieuwe levering maakt. In dit scenario, worden de profielen inbegrepen in het leveringspubliek gericht door het gegevensbestand te vragen gebruikend de vraagmodeler. Het resulterende publiek wordt slechts eenmaal gebruikt voor deze levering en wordt niet opgeslagen in de lijst met soorten publiek.
 
 Wanneer u het hoofddoel van een levering definieert, kunt u ook:
-* [ selecteer een bestaand publiek ](add-audience.md) van de **[!UICONTROL Audiences]** lijst.
-* [ Laad een publiek van een extern dossier ](file-audience.md) (voor e-mail slechts).
+* [&#x200B; selecteer een bestaand publiek &#x200B;](add-audience.md) van de **[!UICONTROL Audiences]** lijst.
+* [&#x200B; Laad een publiek van een extern dossier &#x200B;](file-audience.md) (voor e-mail slechts).
 
 Voer de volgende stappen uit om een eenmalig nieuw publiek voor een levering te maken:
 
 1. Van de **sectie van het publiek** van de medewerker van de leveringsverwezenlijking, klik de **[!UICONTROL Select audience]** knoop.
 
-   [ Schermafbeelding die de sectie van het Publiek van de medewerker van de leveringsverwezenlijking met de Uitgezochte benadrukte publieksknoop toont ](assets/segment-builder0.png){zoomable="yes"}
+   [&#x200B; Schermafbeelding die de sectie van het Publiek van de medewerker van de leveringsverwezenlijking met de Uitgezochte benadrukte publieksknoop toont &#x200B;](assets/segment-builder0.png){zoomable="yes"}
 
-1. Selecteer **creeer uw eigen** om de vraagmodelaar te openen. Met de querymodelfunctie kunt u de doelpopulatie definiëren door gegevens in de database te filteren. [ Leer hoe te om de vraagmodelaar ](../query/query-modeler-overview.md) te gebruiken.
+1. Selecteer **creeer uw eigen** om de vraagmodelaar te openen. Met de querymodelfunctie kunt u de doelpopulatie definiëren door gegevens in de database te filteren. [&#x200B; Leer hoe te om de vraagmodelaar &#x200B;](../query/query-modeler-overview.md) te gebruiken.
 
-   [ Screenshot die de interface van de vraagmodeller toont ](assets/query-modeler.png){zoomable="yes"}
+   [&#x200B; Screenshot die de interface van de vraagmodeller toont &#x200B;](assets/query-modeler.png){zoomable="yes"}
 
 1. Zodra uw vraag klaar is, bevestigt de klik **&#x200B;**&#x200B;om het resulterende publiek als belangrijkste doel van uw levering te gebruiken.
 

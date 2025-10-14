@@ -18,7 +18,7 @@ Met Adobe Campaign Web, kunt u werkschema&#39;s op een visueel canvas bouwen om 
 
 Het werkschemadiagram vertegenwoordigt het geplande proces. Hierin worden de verschillende taken beschreven die moeten worden uitgevoerd en hoe deze aan elkaar zijn gekoppeld.
 
-![ het voorbeelddiagram van het Werkschema dat taken en hun verbindingen toont ](assets/workflow-example.png){zoomable="yes"}
+![&#x200B; het voorbeelddiagram van het Werkschema dat taken en hun verbindingen toont &#x200B;](assets/workflow-example.png){zoomable="yes"}
 
 Elke werkstroom bevat:
 
@@ -36,15 +36,15 @@ Met campagnes kunt u op twee manieren een workflow maken:
 
 1. De werkschema&#39;s kunnen als standalone werkschema&#39;s van het **menu van de Werkschema&#39;s** worden gecreeerd.
 
-   ![ Schermafbeelding van de interface voor het creëren van een standalone werkschema ](assets/create-a-standalone-wf.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding van de interface voor het creëren van een standalone werkschema &#x200B;](assets/create-a-standalone-wf.png){zoomable="yes"}
 
 1. De werkschema&#39;s kunnen direct binnen een campagne van het **1&rbrace; lusje van het Werkschema &lbrace;van de campagne worden gecreeerd.** Wanneer inbegrepen in een campagne, voert het werkschema samen met alle andere werkschema&#39;s van de campagne uit, en de rapporteringsmetriek wordt gegroepeerd op campagneniveau.
 
-   ![ Schermafbeelding van de interface voor het creëren van een werkschema binnen een campagne ](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding van de interface voor het creëren van een werkschema binnen een campagne &#x200B;](assets/create-a-wf-from-a-campaign.png){zoomable="yes"}
 
 De belangrijkste stappen voor het maken van workflows zijn als volgt:
 
-![ Diagram die het proces van de werkschemaverwezenlijking tonen ](assets/workflow-creation-process.png){zoomable="yes"}
+![&#x200B; Diagram die het proces van de werkschemaverwezenlijking tonen &#x200B;](assets/workflow-creation-process.png){zoomable="yes"}
 
 Deze stappen worden beschreven in de volgende secties:
 

@@ -36,24 +36,24 @@ Voer de volgende stappen uit om rapporten weer te geven en te beheren:
 
 1. Klik op het dashboard van **[!UICONTROL Delivery]** **[!UICONTROL Reports]** .
 
-   ![ dashboard die van de Levering de optie van Rapporten toont ](assets/manage_delivery_report_1.png){zoomable="yes"}
+   ![&#x200B; dashboard die van de Levering de optie van Rapporten toont &#x200B;](assets/manage_delivery_report_1.png){zoomable="yes"}
 
    Alternatief, gebruik de drie stippen **Meer acties** knoop naast de leveringsnaam in de leveringslijst, en selecteer **[!UICONTROL View report]**.
 
-   ![ Bevestigingslijst met Meer benadrukte actieknoop ](assets/manage_delivery_report_2.png){zoomable="yes"}
+   ![&#x200B; Bevestigingslijst met Meer benadrukte actieknoop &#x200B;](assets/manage_delivery_report_2.png){zoomable="yes"}
 
 1. Selecteer in het linkermenu een rapport in de lijst.
 
-   ![ het selectiemenu van het Rapport op het linkerpaneel ](assets/manage_delivery_report_3.png){zoomable="yes"}
+   ![&#x200B; het selectiemenu van het Rapport op het linkerpaneel &#x200B;](assets/manage_delivery_report_3.png){zoomable="yes"}
 
 1. Als de levering terugkeert, selecteert u een specifieke levering om over te rapporteren door op **[!UICONTROL Select deliveries]** te klikken.
 
    U kunt ook een tijdsperiode toepassen op uw rapport door **[!UICONTROL Contact date]** te selecteren.
 
-   ![ Terugkomende leveringsselectie met de datumoptie van het Contact ](assets/delivery-recurring.png){zoomable="yes"}
+   ![&#x200B; Terugkomende leveringsselectie met de datumoptie van het Contact &#x200B;](assets/delivery-recurring.png){zoomable="yes"}
 
 1. Kies in het **[!UICONTROL URLs and click streams]** de **[!UICONTROL Top visited Links]** of de **[!UICONTROL Time period]** .
 
    Met de opties van **[!UICONTROL View by]** kunt u filteren op URL&#39;s, labels of categorieën.
 
-   ![ Mening door opties om URLs, Etiketten, of Categorieën te filtreren ](assets/manage_delivery_report_5.png){zoomable="yes"}
+   ![&#x200B; Mening door opties om URLs, Etiketten, of Categorieën te filtreren &#x200B;](assets/manage_delivery_report_5.png){zoomable="yes"}

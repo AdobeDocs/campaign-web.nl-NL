@@ -17,11 +17,11 @@ Nadat u uw e-mailinhoud hebt gemaakt in [!DNL Adobe Campaign] , kunt u een aanta
 
 U kunt uw wijzigingen toepassen op de hoofdtekst van de e-mail, een structuurcomponent of een inhoudscomponent.
 
-![ de instellingenruit van Designer van de E-mail tonend inhoudscomponenten montages ](assets/email_designer_content_components_settings.png){zoomable="yes"}
+![&#x200B; de instellingenruit van Designer van de E-mail tonend inhoudscomponenten montages &#x200B;](assets/email_designer_content_components_settings.png){zoomable="yes"}
 
 Volg de onderstaande koppelingen om te leren hoe u bepaalde stijlinstellingen in uw e-mail kunt aanpassen:
 
-* Leer hoe te [ uw e-mailachtergrond ](backgrounds.md) personaliseren
-* Leer hoe te [ verticale groepering en het opvullen ](alignment-and-padding.md) beheren
-* Leer hoe te [ een stijl voor de verbindingen in uw e-mail ](styling-links.md) bepalen
-* Leer hoe te [ inline het stileren attributen ](inline-styling.md) aanpassen
+* Leer hoe te [&#x200B; uw e-mailachtergrond &#x200B;](backgrounds.md) personaliseren
+* Leer hoe te [&#x200B; verticale groepering en het opvullen &#x200B;](alignment-and-padding.md) beheren
+* Leer hoe te [&#x200B; een stijl voor de verbindingen in uw e-mail &#x200B;](styling-links.md) bepalen
+* Leer hoe te [&#x200B; inline het stileren attributen &#x200B;](inline-styling.md) aanpassen
