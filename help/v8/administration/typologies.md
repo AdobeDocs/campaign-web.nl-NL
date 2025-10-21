@@ -3,9 +3,9 @@ audience: end-user
 title: Werken met bedrijfsregels (typologieën)
 description: Leer hoe u met typologieën en typologische regels werkt om het verzenden van leveringen te controleren, filteren en controleren.
 exl-id: 54fdd03a-e49d-4f22-b6d4-6055c8922e58
-source-git-commit: 4444fc6742754137d1d73d7ea8bc12388ce1bc7d
+source-git-commit: 73dfc1e14e04493a76e1ca91fab0306cd1e88b26
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn4"
 >title="Zakelijke regels"
 >abstract="U kunt nu typologieën en typologische regels maken in de Adobe Campaign Web User Interface. Met behulp van typologieën kunt u het verzenden van leveringen besturen, filteren en prioriteren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules"
@@ -36,18 +36,18 @@ De technologieën verzekeren uw leveringen altijd bepaalde elementen, zoals een 
 
 Typologieën zijn toegankelijk via het menu **[!UICONTROL Administration]** > **[!UICONTROL Business rules]** . Van dit scherm, heb toegang tot alle bestaande typologieën en typologieregels, of creeer nieuwe die op uw behoeften worden gebaseerd.
 
-![&#x200B; Lijst van bedrijfsregels in de interface &#x200B;](assets/business-rules-list.png)
+![ Lijst van bedrijfsregels in de interface ](assets/business-rules-list.png)
 
 >[!NOTE]
 >
->In de lijst **[!UICONTROL Typology rules]** worden alle bestaande regels weergegeven die tot nu toe in de webgebruikersinterface of de clientconsole zijn gemaakt. Nochtans, slechts **Controle** en **het Filtreren** regels kunnen in het Gebruikersinterface van het Web worden gecreeerd. Als u andere typen typologische regels wilt maken, zoals de regels voor druk of capaciteit, gebruikt u de clientconsole van Campagne v8. [&#x200B; Leer hoe te om typologieregels in de cliëntconsole tot stand te brengen &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
+>In de lijst **[!UICONTROL Typology rules]** worden alle bestaande regels weergegeven die tot nu toe in de webgebruikersinterface of de clientconsole zijn gemaakt. Nochtans, slechts **Controle** en **het Filtreren** regels kunnen in het Gebruikersinterface van het Web worden gecreeerd. Als u andere typen typologische regels wilt maken, zoals de regels voor druk of capaciteit, gebruikt u de clientconsole van Campagne v8. [ Leer hoe te om typologieregels in de cliëntconsole tot stand te brengen ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
 De belangrijkste stappen om typologieën op uw berichten toe te passen zijn:
 
-1. [&#x200B; creeer een typologie &#x200B;](#typology).
-1. [&#x200B; creeer typologieregels &#x200B;](#typology-rules).
-1. [&#x200B; typologische regels van de Verwijzing in de typologie &#x200B;](#add-rules).
-1. [&#x200B; pas typologie op een bericht &#x200B;](#message) toe.
+1. [ creeer een typologie ](#typology).
+1. [ creeer typologieregels ](#typology-rules).
+1. [ typologische regels van de Verwijzing in de typologie ](#add-rules).
+1. [ pas typologie op een bericht ](#message) toe.
 
 ## Een typologie maken {#typology}
 
@@ -69,7 +69,7 @@ Voer de volgende stappen uit om een typologie te maken:
 
 1. Vouw de sectie **[!UICONTROL Additional options]** uit om geavanceerde instellingen te definiëren, zoals de interne naam, opslagmap en beschrijving van de typologie.
 
-   ![&#x200B; de aanmaakinterface van de Typologie &#x200B;](assets/business-rules-typology.png)
+   ![ de aanmaakinterface van de Typologie ](assets/business-rules-typology.png)
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ Voer de volgende stappen uit om een typologie te maken:
 1. Klik op **[!UICONTROL Create]** om het maken van de typologie te bevestigen.
 
 De typologische details worden geopend. Verwijs vanuit dit scherm rechtstreeks naar bestaande typologische regels of maak nieuwe typologische regels waarnaar u later wilt verwijzen:
-* [&#x200B; Leer hoe te om een typologieregel tot stand te brengen &#x200B;](#add-rules)
+* [ Leer hoe te om een typologieregel tot stand te brengen ](#add-rules)
 * [Leer hoe u naar regels in een typologie kunt verwijzen](#add-rules)
 
 ## Een typologieregel maken {#typology-rule}
@@ -88,69 +88,25 @@ De typologische details worden geopend. Verwijs vanuit dit scherm rechtstreeks n
 >title="Eigenschappen van typologieregel"
 >abstract="Bepaal de eigenschappen van de typologieregel. **de regels van de controle** verifiëren berichtkwaliteit en geldigheid vooraf verzenden, terwijl **het Filtreren** regels segmenten van het doelpubliek uitsluiten die op specifieke criteria worden gebaseerd.<br/><br/> u kunt de de uitvoeringsorde van de regel ook veranderen om de opeenvolging te beheren waarin de typologische regels zullen worden uitgevoerd wanneer verscheidene regels van het zelfde type tijdens de zelfde fase van de berichtverwerking worden uitgevoerd."
 
-Als u een typologieregel wilt maken, navigeert u naar het menu **[!UICONTROL Business rules]** en selecteert u de tab **[!UICONTROL Typology rules]** .
+Er zijn twee typen typologische regels beschikbaar:
 
-Klik op de knop **[!UICONTROL Create typology rule]** en volg de onderstaande stappen.
+* **Controle**: Verzekert berichtkwaliteit en geldigheid pre-verzendt, zoals karaktervertoning, lengte van SMS, adresformaat, of kortere weg URL. Deze regels worden gecreeerd gebruikend een scripting interface om complexe logica voor inhoudscontroles en wijzigingen te bepalen.
 
-### De eigenschappen van de typologieregel definiëren {#properties}
+* **het Filtreren**: sluit segmenten van het doelpubliek uit die op specifieke criteria, zoals leeftijd, plaats, land, of telefoonaantallen worden gebaseerd. Deze regels zijn gekoppeld aan een doelgerichte dimensie.
 
-Definieer de eigenschappen van de typologieregel:
+>[!NOTE]
+>
+>Momenteel, slechts **Controle** en **het Filtreren** typologische regels kunnen van het Gebruikersinterface van het Web worden gecreeerd. Als u andere soorten regels wilt maken, gebruikt u de clientconsole. [ Leer hoe te om typologieregels in de cliëntconsole tot stand te brengen ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
 
-1. Voer een **[!UICONTROL Label]** voor de regel in.
+Voer de volgende stappen uit om een typologieregel te maken:
 
-   ![&#x200B; interface van de regelverwezenlijking van de Controle &#x200B;](assets/business-rules-control-rule.png)
+1. Navigeer naar het menu **[!UICONTROL Business rules]** en selecteer vervolgens de tab **[!UICONTROL Typology rules]** .
 
-1. Selecteer de typologieregel **[!UICONTROL Type]** :
+1. Klik op de knop **[!UICONTROL Create typology rule]** en volg de onderstaande stappen.
 
-   * **Controle**: Verzekert berichtkwaliteit en geldigheid pre-verzendt, zoals karaktervertoning, lengte van SMS, adresformaat, of kortere weg URL. Deze regels worden gecreeerd gebruikend een scripting interface om complexe logica voor inhoudscontroles en wijzigingen te bepalen.
+[Typologieregel maken](assets/business-rules-create-typo.png)
 
-   * **het Filtreren**: sluit segmenten van het doelpubliek uit die op specifieke criteria, zoals leeftijd, plaats, land, of telefoonaantallen worden gebaseerd. Deze regels zijn gekoppeld aan een doelgerichte dimensie.
-
-   >[!NOTE]
-   >
-   >Momenteel, slechts **Controle** en **het Filtreren** typologische regels kunnen van het Gebruikersinterface van het Web worden gecreeerd. Als u andere soorten regels wilt maken, gebruikt u de clientconsole. [&#x200B; Leer hoe te om typologieregels in de cliëntconsole tot stand te brengen &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"}
-
-1. Selecteer een **[!UICONTROL Channel]** die u aan de regel wilt koppelen.
-
-1. Schakel de optie **[!UICONTROL Active]** uit als u niet wilt dat de regel direct na het maken actief is.
-
-1. Definieer de regelinstellingen **[!UICONTROL Execution order]** .
-
-   Standaard is de volgorde van de typologische regels ingesteld op 50. Pas deze waarde aan om de opeenvolging te beheren waarin de typologische regels zullen worden uitgevoerd wanneer verscheidene regels van het zelfde type tijdens de zelfde fase van de berichtverwerking worden uitgevoerd. Bijvoorbeeld, wordt een het filtreren regel met een uitvoeringsorde van 20 uitgevoerd vóór een het filtreren regel met een uitvoeringsorde van 30.
-
-1. Vouw de sectie **[!UICONTROL Additional options]** uit om toegang te krijgen tot geavanceerde instellingen, zoals de interne naam, mapopslag en beschrijving van de regel.
-
-1. Voor besturingsregels zijn twee extra velden beschikbaar in de aanvullende opties. Geef op wanneer de regel moet worden toegepast en hoe het waarschuwingsniveau moet worden ingesteld:
-
-   * **[!UICONTROL Phase]**: Geef op op welk punt van de levenscyclus van de levering de regel wordt toegepast. Selecteer de waarde in de vervolgkeuzelijst **[!UICONTROL Phase]** . Vouw de onderstaande sectie uit voor meer informatie over de mogelijke waarden.
-
-   +++Regelfasen voor besturing:
-
-   **[!UICONTROL At the start of targeting]**: voorkom dat de personalisatiestap wordt uitgevoerd in het geval van fouten.
-
-   **[!UICONTROL After targeting]**: selecteer deze fase als u het volume van het doel moet kennen om de controleregel toe te passen. De besturingsregel **[!UICONTROL Check proof size]** wordt bijvoorbeeld toegepast na elk doelwerkgebied. Deze regel verhindert berichtverpersoonlijking als er teveel proefontvangers zijn.
-
-   **[!UICONTROL At the start of personalization]**: selecteer deze fase als de controle de goedkeuring van berichtverpersoonlijking betreft. De personalisatie van berichten wordt uitgevoerd tijdens de analysefase.
-
-   **[!UICONTROL At the end of the analysis]**: Pas controles toe die volledige berichtpersonalisatie vereisen.
-
-   +++
-
-   * **[!UICONTROL Level]**: geef het waarschuwingsniveau voor de regel op. Vouw de onderstaande sectie uit voor meer informatie.
-
-   +++regelniveaus voor besturing:
-
-   **[!UICONTROL Error]**: stop de voorbereiding van het bericht.
-
-   **[!UICONTROL Warning]**: geef een waarschuwing weer in de voorbereidingslogboeken.
-
-   **[!UICONTROL Info]**: geef informatie weer in de voorbereidingslogboeken.
-
-   **[!UICONTROL Verbose]**: geef informatie weer in de serverlogboeken.
-
-   +++
-
-### Regelinhoud samenstellen {#build}
+### De hoofdeigenschappen van de regel definiëren {#properties}
 
 >[!CONTEXTUALHELP]
 >id="acw_business_rules_typology_rules_filtering"
@@ -162,17 +118,84 @@ Definieer de eigenschappen van de typologieregel:
 >title="Code"
 >abstract="**de regels van de controle** verifiëren berichtkwaliteit en geldigheid pre-verzendt, zoals karaktervertoning, lengte van SMS, adresformaat, of verkorting URL. Deze regels worden gemaakt met JavaScript-code."
 
-Zodra de eigenschappen van de typologieregel worden bepaald, bouw de inhoud van de regel.
+Dit zijn de belangrijkste eigenschappen wanneer het creëren van een nieuwe typologieregel.
 
-* Voor **Regels van de Controle**, klik **geef code** knoop uit en ga de logica voor de regel in gebruikend JavaScript. In het onderstaande voorbeeld wordt een regel gemaakt om een waarschuwing in de logboeken weer te geven als het doel leeg is.
+>[!BEGINTABS]
 
-  ![&#x200B; de redacteur van de regelcode van de Controle &#x200B;](assets/business-rules-code.png)
+>[!TAB Controleregels]
 
-* Voor **het Filtreren van regels**, selecteer de het richten afmeting en klik de **[!UICONTROL Add rules]** knoop om het filtreren criteria te bepalen gebruikend de [&#x200B; vraagmodelaar &#x200B;](../query/query-modeler-overview.md).
+1. Voer een **[!UICONTROL Label]** voor de regel in.
 
-  ![&#x200B; het Filtreren modelleerapparaat van de regelvraag &#x200B;](assets/business-rules-query.png)
+[Besturingsregel maken](assets/business-rules-create-typo1.png)
 
-Wanneer uw regel klaar is, klikt u op de knop **[!UICONTROL Create]** om de typologieregel te maken. Verwijs naar de regel in een typologie om het op berichten toe te passen.
+1. Vouw de sectie **[!UICONTROL Additional options]** uit om toegang te krijgen tot geavanceerde instellingen, zoals de interne naam, mapopslag en beschrijving van de regel. U kunt ook opgeven wanneer de regel moet worden toegepast en welk waarschuwingsniveau u moet gebruiken. Vouw de onderstaande secties uit voor meer informatie.
+
+   +++Fasen:
+
+   Geef op op welk punt van de levenscyclus van de levering de regel wordt toegepast. Selecteer de waarde in de vervolgkeuzelijst **[!UICONTROL Phase]** :
+
+   * **[!UICONTROL At the start of targeting]**: voorkom dat de personalisatiestap wordt uitgevoerd in het geval van fouten.
+
+   * **[!UICONTROL After targeting]**: selecteer deze fase als u het volume van het doel moet kennen om de controleregel toe te passen. De besturingsregel **[!UICONTROL Check proof size]** wordt bijvoorbeeld toegepast na elk doelwerkgebied. Deze regel verhindert berichtverpersoonlijking als er teveel proefontvangers zijn.
+
+   * **[!UICONTROL At the start of personalization]**: selecteer deze fase als de controle de goedkeuring van berichtverpersoonlijking betreft. De personalisatie van berichten wordt uitgevoerd tijdens de analysefase.
+
+   * **[!UICONTROL At the end of the analysis]**: Pas controles toe die volledige berichtpersonalisatie vereisen.
+
+   +++
+
+   +++Niveau:
+
+   Geef het waarschuwingsniveau voor de regel op:
+
+   * **[!UICONTROL Error]**: stop de voorbereiding van het bericht.
+
+   * **[!UICONTROL Warning]**: geef een waarschuwing weer in de voorbereidingslogboeken.
+
+   * **[!UICONTROL Info]**: geef informatie weer in de voorbereidingslogboeken.
+
+   * **[!UICONTROL Verbose]**: geef informatie weer in de serverlogboeken.
+
+   +++
+
+1. Om de inhoud van de regel te bouwen, klik **geef code** knoop uit en ga de logica voor de regel in gebruikend JavaScript. In het onderstaande voorbeeld wordt een regel gemaakt om een waarschuwing in de logboeken weer te geven als het doel leeg is.
+
+   ![ de redacteur van de regelcode van de Controle ](assets/business-rules-code.png)
+
+1. Klik **creëren**.
+
+
+>[!TAB Regels voor filteren]
+
+1. Voer een **[!UICONTROL Label]** voor de regel in.
+
+[Filterregel maken](assets/business-rules-create-typo2.png)
+
+1. Vouw de sectie **[!UICONTROL Additional options]** uit om toegang te krijgen tot geavanceerde instellingen, zoals de interne naam, mapopslag en beschrijving van de regel.
+
+1. Om de inhoud van de regel te bouwen, selecteer het richten afmeting en klik de **[!UICONTROL Add rules]** knoop om het filtreren criteria te bepalen gebruikend de [ regelbouwer ](../query/query-modeler-overview.md).
+
+   ![ het Filtreren modelleerapparaat van de regelvraag ](assets/business-rules-query.png)
+
+1. Klik **creëren**
+
+>[!ENDTABS]
+
+### De aanvullende eigenschappen van de regel definiëren {#add-properties}
+
+Nu, bepalen wij de extra parameters. In dit scherm kunt u nog steeds de eerder gedefinieerde hoofdeigenschappen wijzigen.
+
+[Aanvullende filterregel maken](assets/business-rules-create-typo2.png)
+
+1. Schakel de optie **[!UICONTROL Active]** uit als u niet wilt dat de regel direct na het maken actief is.
+
+1. Definieer de regelinstellingen **[!UICONTROL Execution order]** .
+
+   Standaard is de volgorde van de typologische regels ingesteld op 50. Pas deze waarde aan om de opeenvolging te beheren waarin de typologische regels zullen worden uitgevoerd wanneer verscheidene regels van het zelfde type tijdens de zelfde fase van de berichtverwerking worden uitgevoerd. Bijvoorbeeld, wordt een het filtreren regel met een uitvoeringsorde van 20 uitgevoerd vóór een het filtreren regel met een uitvoeringsorde van 30.
+
+1. Selecteer een **[!UICONTROL Channel]** die u aan de regel wilt koppelen.
+
+Uw regel is klaar om in een typologie van verwijzingen te worden voorzien om het op berichten toe te passen.
 
 ## Referentietypestvoorschriften in een typologie {#add-rules}
 
@@ -180,13 +203,13 @@ Ga als volgt te werk om naar een of meerdere regels in een typologie te verwijze
 
 1. Navigeer naar het tabblad **[!UICONTROL Typology]** en open de typologie waar u naar de regel(s) wilt verwijzen.
 
-1. Selecteer de tab **[!UICONTROL Typology rules]** en klik op de knop **[!UICONTROL Add typology rule'(s)]** .
+1. Selecteer de tab **[!UICONTROL Typology rules]** en klik op de knop **[!UICONTROL Add rules)]** .
 
-   ![&#x200B; voeg typologieregels toe interface &#x200B;](assets/business-rules-reference.png)
+   ![ voeg typologieregels toe interface ](assets/business-rules-reference.png)
 
 1. Selecteer een of meerdere typologische regels die u aan de typologie wilt koppelen en bevestig.
 
-   ![&#x200B; sparen interface van typologische regels &#x200B;](assets/business-rules-typology-save.png)
+   ![ sparen interface van typologische regels ](assets/business-rules-typology-save.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -194,8 +217,8 @@ U kunt nu de typologie toepassen op berichten. Zodra gedaan, zullen alle geselec
 
 ## Typologieën toepassen op berichten {#message}
 
-Als u een typologie wilt toepassen op een bericht- of berichtsjabloon, selecteert u de typologie in de berichtinstellingen. [&#x200B; Leer hoe te om leveringsmontages &#x200B;](../advanced-settings/delivery-settings.md#typology) te vormen
+Als u een typologie wilt toepassen op een bericht- of berichtsjabloon, selecteert u de typologie in de berichtinstellingen. [ Leer hoe te om leveringsmontages ](../advanced-settings/delivery-settings.md#typology) te vormen
 
-![&#x200B; pas typologie op berichtinterface &#x200B;](assets/business-rules-apply.png) toe
+![ pas typologie op berichtinterface ](assets/business-rules-apply.png) toe
 
 Na toepassing worden de typologische regels die in de typologie zijn opgenomen, uitgevoerd om de geldigheid van de levering tijdens de voorbereiding van het bericht te controleren. Profielen die voldoen aan criteria binnen een typologieregel, worden uitgesloten van het publiek dat ze levert.
