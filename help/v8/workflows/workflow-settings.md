@@ -21,7 +21,7 @@ Als u een workflow maakt of workflowactiviteiten op het canvas ordent, hebt u to
 
 Deze instellingen zijn vooraf geconfigureerd in de sjabloon die is geselecteerd tijdens het maken van de workflow, maar kunnen zo nodig worden bewerkt voor deze specifieke workflow.
 
-![&#x200B; de montages van het Werkschema knoopinterface &#x200B;](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
+![ de montages van het Werkschema knoopinterface ](assets/workflow-settings-button.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Workfloweigenschappen {#properties}
 
@@ -32,7 +32,7 @@ Deze instellingen zijn vooraf geconfigureerd in de sjabloon die is geselecteerd 
 
 De sectie **[!UICONTROL Properties]** biedt algemene instellingen die kunnen worden geconfigureerd wanneer u een workflow maakt. Als u de eigenschappen van een bestaande workflow wilt openen, klikt u op de knop **[!UICONTROL Settings]** in de actiebalk boven het werkstroomcanvas.
 
-![&#x200B; interface van de montages van het Werkschema &#x200B;](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
+![ interface van de montages van het Werkschema ](assets/workflow-settings.png){zoomable="yes"}{width="70%" align="left"}
 
 Deze eigenschappen zijn:
 
@@ -48,7 +48,7 @@ Mogelijke waarden zijn:
 * Wanneer een workflow mislukt, worden de operatoren die tot de groep met operatoren behoren die in het veld **[!UICONTROL Supervisor(s)]** is geselecteerd, via e-mail op de hoogte gebracht.
 * Voer een **[!UICONTROL Description]** van uw workflow in.
 
-Wanneer het werkschema [&#x200B; met een campagne &#x200B;](create-workflow.md) wordt geassocieerd, wordt het getoond op het **[!UICONTROL Linked campaign]** gebied. Open de bijbehorende campagne vanuit dat veld.
+Wanneer het werkschema [ met een campagne ](create-workflow.md) wordt geassocieerd, wordt het getoond op het **[!UICONTROL Linked campaign]** gebied. Open de bijbehorende campagne vanuit dat veld.
 
 ## Segmenteringsinstellingen {#segmentation-settings}
 
@@ -57,7 +57,7 @@ Wanneer het werkschema [&#x200B; met een campagne &#x200B;](create-workflow.md) 
 >title="Segmenteringsinstellingen"
 >abstract="In deze sectie kunt u de doeldimensie selecteren voor doelprofielen in de workflow en ervoor kiezen de workflowresultaten tussen twee uitvoeringen te houden. Deze optie mag alleen voor testdoeleinden worden gebruikt en mag nooit in een productiewerkstroom worden ingeschakeld."
 
-* **[!UICONTROL Targeting dimension]**: selecteer de doeldimensie die u wilt gebruiken voor doelprofielen, zoals ontvangers, begunstigden van contracten, operators, abonnees en andere. [&#x200B; Leer meer over het richten van dimensies &#x200B;](../audience/targeting-dimensions.md).
+* **[!UICONTROL Targeting dimension]**: selecteer de doeldimensie die u wilt gebruiken voor doelprofielen, zoals ontvangers, begunstigden van contracten, operators, abonnees en andere. [ Leer meer over het richten van dimensies ](../audience/targeting-dimensions.md).
 
 * **[!UICONTROL Keep the result of interim populations between two executions]**: Standaard blijven alleen de werktabellen van de laatste uitvoering van de workflow behouden. De werklijsten van vorige uitvoeringen worden gezuiverd door een technische werkschema, die dagelijks loopt.
 
@@ -106,4 +106,4 @@ Wanneer het werkschema [&#x200B; met een campagne &#x200B;](create-workflow.md) 
 >title="Initialisatiescript"
 >abstract="In deze sectie kunt u JavaScript-code definiëren die wordt uitgevoerd aan het begin van de workflow. Het kan worden gebruikt om variabelen te initialiseren, parameters te plaatsen, of gegevens voor te bereiden alvorens om het even welke werkschemaactiviteiten worden uitgevoerd."
 
-Het **manuscript van de Initialisatie** laat u variabelen initialiseren of activiteiteneigenschappen wijzigen. Klik **geef code** knoop uit en typ het fragment van uit te voeren code. Het script wordt aangeroepen wanneer de workflow wordt uitgevoerd. Verwijs naar de sectie met betrekking tot [&#x200B; gebeurtenisvariabelen &#x200B;](../workflows/event-variables.md).
+Het **manuscript van de Initialisatie** laat u variabelen initialiseren of activiteiteneigenschappen wijzigen. Klik **geef code** knoop uit en typ het fragment van uit te voeren code. Het script wordt aangeroepen wanneer de workflow wordt uitgevoerd. Verwijs naar de sectie met betrekking tot [ gebeurtenisvariabelen ](../workflows/event-variables.md).
