@@ -23,7 +23,7 @@ In werkschema&#39;s, wordt het gegeven dat van één activiteit aan een andere d
 
 In sommige gevallen zijn gegevens niet beschikbaar in de huidige database of zijn ze niet efficiënt genoeg om eenheidsbewerkingen uit te voeren. Daarom moet u de workflow mogelijk dwingen een andere database te gebruiken om dergelijke bewerkingen uit te voeren door een **[!UICONTROL Change data source]** -activiteit toe te voegen.
 
-De gedetailleerde informatie over de architectuur van de Campagne is beschikbaar in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
+De gedetailleerde informatie over de architectuur van de Campagne is beschikbaar in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
 
 >[!IMPORTANT]
 >
@@ -51,7 +51,7 @@ Before executing the operation, the working table is copied to the local databas
 
 Volg deze stappen om de **gegevensbron van de Verandering** activiteit te vormen:
 
-![ Schermafbeelding die toont hoe te om de de gegevensbronactiviteit van de Verandering aan een werkschema toe te voegen.](../assets/workflow-change-data-source-add.png)
+![&#x200B; Schermafbeelding die toont hoe te om de de gegevensbronactiviteit van de Verandering aan een werkschema toe te voegen.](../assets/workflow-change-data-source-add.png)
 
 1. Voeg de gegevensbron van de a **Verandering** activiteit aan uw werkschema toe.
 

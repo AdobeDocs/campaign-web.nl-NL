@@ -30,7 +30,7 @@ Technische beheerders kunnen meerdere merken binnen Adobe Campaign maken en behe
 
 U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw type van e-mail tot stand brengen dat u onder een verschillend subdomain moet verzenden. Volg onderstaande stappen om dit te doen:
 
-1. **vorm een nieuw subdomain** - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit door [ het Controlebord van de Campagne ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) uitvoeren of uit naar uw technisch contact van Adobe reiken. Leer meer over subdomeinconfiguratie [ in deze pagina ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **vorm een nieuw subdomain** - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit door [&#x200B; het Controlebord van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) uitvoeren of uit naar uw technisch contact van Adobe reiken. Leer meer over subdomeinconfiguratie [&#x200B; in deze pagina &#x200B;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw 
 
 ## Compatibiliteitsnotitie {#compatibility-note}
 
-Het nieuwe gecentraliseerde branding model is niet compatibel met [ erfenisbranding ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} configuratie die eerder in de Console van de Cliënt werd gebruikt.
+Het nieuwe gecentraliseerde branding model is niet compatibel met [&#x200B; erfenisbranding &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} configuratie die eerder in de Console van de Cliënt werd gebruikt.
 
 In de erfenisbenadering, uitvoerden de klanten branding door de vorm uit te breiden extAccount en het **Brandend** tabel te gebruiken.
 
