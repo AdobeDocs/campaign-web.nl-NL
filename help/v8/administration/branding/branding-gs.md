@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 6f09df9a4686a56b56e837536db11a71ba5158f4
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 15%
+source-wordcount: '405'
+ht-degree: 13%
 
 ---
 
@@ -30,7 +30,7 @@ Technische beheerders kunnen meerdere merken binnen Adobe Campaign maken en behe
 
 U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw type van e-mail tot stand brengen dat u onder een verschillend subdomain moet verzenden. Volg onderstaande stappen om dit te doen:
 
-1. **vorm een nieuw subdomain** - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit door [&#x200B; het Controlebord van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) uitvoeren of uit naar uw technisch contact van Adobe reiken. Leer meer over subdomeinconfiguratie [&#x200B; in deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **vorm een nieuw subdomain** - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit door [ het Controlebord van de Campagne ](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) uitvoeren of uit naar uw technisch contact van Adobe reiken. Leer meer over subdomeinconfiguratie [ in deze pagina ](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
@@ -39,3 +39,13 @@ U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw 
 1. **creeer een leveringsmalplaatje** - Zodra het nieuwe merk beschikbaar is, moeten de beste praktijken minstens één nieuw leeg leveringsmalplaatje tot stand brengen dat dit nieuwe merk van verwijzingen voorziet. [Meer informatie](branding-assign.md).
 
 1. **de leveringsrichtlijnen van de Controle** - alvorens het beginnen gebruiken van het nieuwe domein, zou de strategie met het team van de Leverbaarheid van Adobe moeten worden besproken. Zij zullen helpen om de beste praktijken te bepalen, als een nieuwe affiniteit zou moeten worden gecreeerd om IPs tussen domeinen bijvoorbeeld te verdelen, en/of als een platforminplan zou moeten worden bepaald.
+
+## Compatibiliteitsnotitie {#compatibility-note}
+
+Het nieuwe gecentraliseerde branding model is niet compatibel met [ erfenisbranding ](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.htmml#configuring-multibranding){target="_blank"} configuratie die eerder in de Console van de Cliënt werd gebruikt.
+
+In de erfenisbenadering, uitvoerden de klanten branding door de vorm uit te breiden extAccount en het **Brandend** tabel te gebruiken.
+
+![](assets/branding-legacy.png)
+
+Als uw bestaande omgeving deze oudere configuratie gebruikt, kan deze niet rechtstreeks worden gemigreerd naar het nieuwe gecentraliseerde brandingmodel. Voor de invoering van het nieuwe systeem is een volledige herimplementatie van de branding-instellingen vereist.

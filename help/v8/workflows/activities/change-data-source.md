@@ -3,9 +3,9 @@ audience: end-user
 title: De werkstroomactiviteit van de gegevensbronworkflow wijzigen gebruiken
 description: Leer hoe u de werkstroomactiviteit van de gegevensbronworkflow wijzigen gebruikt
 exl-id: 4dd28746-7bc7-49fc-91ac-3312af02ef45
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '364'
 ht-degree: 2%
 
 ---
@@ -23,11 +23,15 @@ In werkschema&#39;s, wordt het gegeven dat van één activiteit aan een andere d
 
 In sommige gevallen zijn gegevens niet beschikbaar in de huidige database of zijn ze niet efficiënt genoeg om eenheidsbewerkingen uit te voeren. Daarom moet u de workflow mogelijk dwingen een andere database te gebruiken om dergelijke bewerkingen uit te voeren door een **[!UICONTROL Change data source]** -activiteit toe te voegen.
 
-De gedetailleerde informatie over de architectuur van de Campagne is beschikbaar in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html?lang=nl-NL).
+De gedetailleerde informatie over de architectuur van de Campagne is beschikbaar in [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/config/architecture/architecture.html).
 
 >[!IMPORTANT]
 >
 >De activiteiten **[!UICONTROL Change Dimension]** en **[!UICONTROL Change Data source]** mogen niet in één rij worden toegevoegd. Als u beide activiteiten opeenvolgend wilt gebruiken, neemt u er een **[!UICONTROL Enrichment]** activiteit tussen op. Dit zorgt voor een correcte uitvoering en voorkomt mogelijke conflicten of fouten.
+
+>[!NOTE]
+>
+>De **activiteit van de Gegevens van de Verandering Source** kan een maximum van één miljoen verslagen per uitvoering verwerken. Neem contact op met uw Adobe-vertegenwoordiger als u deze limiet wilt verhogen.
 
 <!--
 
@@ -47,7 +51,7 @@ Before executing the operation, the working table is copied to the local databas
 
 Volg deze stappen om de **gegevensbron van de Verandering** activiteit te vormen:
 
-![&#x200B; Schermafbeelding die toont hoe te om de de gegevensbronactiviteit van de Verandering aan een werkschema toe te voegen.](../assets/workflow-change-data-source-add.png)
+![ Schermafbeelding die toont hoe te om de de gegevensbronactiviteit van de Verandering aan een werkschema toe te voegen.](../assets/workflow-change-data-source-add.png)
 
 1. Voeg de gegevensbron van de a **Verandering** activiteit aan uw werkschema toe.
 
@@ -58,7 +62,7 @@ Volg deze stappen om de **gegevensbron van de Verandering** activiteit te vormen
 
      >[!AVAILABILITY]
      >
-     >De configuratie van de campagne en de verbinding aan externe systemen worden beperkt tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=nl-NL){target="_blank"}
+     >De configuratie van de campagne en de verbinding aan externe systemen worden beperkt tot geavanceerde gebruikers en slechts beschikbaar bij de cliëntconsole. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}
 
 1. Configureer uw workflow om de gewenste bewerkingen uit te voeren met de nieuwe gegevensbron.
 

@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 20%
+source-wordcount: '590'
+ht-degree: 14%
 
 ---
 
@@ -47,7 +47,7 @@ U kunt deze sjabloon nu gebruiken om uw leveringen te verzenden.
 
 >[!TAB  Adobe Campaign V8 ]
 
-Om een leveringsmalplaatje tot stand te brengen, kunt u een ingebouwde malplaatje dupliceren, een bestaande levering in een malplaatje omzetten of een leveringsmalplaatje van kras tot stand brengen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=nl-NL)
+Om een leveringsmalplaatje tot stand te brengen, kunt u een ingebouwde malplaatje dupliceren, een bestaande levering in een malplaatje omzetten of een leveringsmalplaatje van kras tot stand brengen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 Nadat u de sjabloon hebt gemaakt, kunt u deze koppelen aan een merk. Dit doet u als volgt:
 
@@ -99,7 +99,7 @@ Volg de onderstaande stappen om een nieuwe, zelfstandige levering te maken.
 
    ![](assets/branding_assign_web_7.png)
 
-1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar [&#x200B; creeer uw eerste e-mail &#x200B;](../../email/create-email.md) sectie.
+1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar [ creeer uw eerste e-mail ](../../email/create-email.md) sectie.
 
 >[!TAB  Adobe Campaign V8 ]
 
@@ -123,6 +123,30 @@ Volg de onderstaande stappen om een nieuwe, zelfstandige levering te maken.
 
 1. Zodra gevormd, uitgezochte **O.K.**.
 
-1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar het [&#x200B; Ontwerp en verzend e-mails &#x200B;](../../email/create-email.md) sectie.
+1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar het [ Ontwerp en verzend e-mails ](../../email/create-email.md) sectie.
 
 >[!ENDTABS]
+
+## Branding controleren die is gekoppeld aan transactieberichten {#check-branding-transactional}
+
+>[!IMPORTANT]
+>
+>Deze sectie is slechts op Transactieoverseinen (het Centrum van het Bericht) van toepassing.
+>
+>Terwijl de transactiemogelijkheden in het Web UI van de Campagne beschikbaar zijn, moeten de controlestappen hieronder in de Console van de Cliënt van de Campagne v8 (controlegeval) worden uitgevoerd.
+
+Transactionele leveringen die van uitvoerinstanties in real time (RT) aan de controleinstantie worden gesynchroniseerd repliceren geen eigenschappen zoals het verpletteren of het brandmerken. Deze gesynchroniseerde leveringen worden geproduceerd wekelijks van het zelfde malplaatje om leveringsindicatoren in de controleinstantie terug te brengen.
+
+Wegens dit, toont de controleinstantie het standaardmerk. Het daadwerkelijke merk en het verpletteren van montages die tijdens berichtuitvoering worden gebruikt worden bepaald in het transactionele berichtmalplaatje op de controleinstantie.
+
+Om te verifiëren welk merk voor een transactiemelding werd gebruikt:
+
+1. Identificeer de interne naam van het transactiesjabloon dat naar Real-Time is gepubliceerd (bijvoorbeeld `TransactionalMessaging4768`).
+
+   ![](assets/branding-transactional.png)
+
+1. In de controleinstantie, onderzoek naar deze interne naam onder **Transactionele berichtmalplaatjes**.
+
+   ![](assets/branding-transactional2.png)
+
+1. Open de sjabloon om het merk en andere verwante eigenschappen weer te geven.
