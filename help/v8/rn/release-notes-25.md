@@ -11,7 +11,7 @@ ht-degree: 11%
 
 # Opmerkingen bij de release 2025 {#2025-release}
 
-Deze pagina maakt een lijst van alle veranderingen en verbeteringen beschikbaar met **2025 versies**. De recentste vrije nota&#39;s zijn beschikbaar in [ deze pagina ](release-notes.md).
+Deze pagina maakt een lijst van alle veranderingen en verbeteringen beschikbaar met **2025 versies**. De recentste vrije nota&#39;s zijn beschikbaar in [&#x200B; deze pagina &#x200B;](release-notes.md).
 
 ## Release september 1925 {#25-9-release}
 
@@ -323,10 +323,10 @@ De volgende functies zijn beschikbaar vanaf de release in juli.
 
 Naast de hierboven vermelde functies wordt deze release ook geleverd met een aantal functies die beschikbaar zijn in de Client Console:
 
-* [ Nieuwe SMS die schakelaar ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) verzenden (milieu&#39;s FDA)
-* [ Rest APIs ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (op bestelling, milieu&#39;s FDA)
+* [&#x200B; Nieuwe SMS die schakelaar &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) verzenden (milieu&#39;s FDA)
+* [&#x200B; Rest APIs &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (op bestelling, milieu&#39;s FDA)
 
-Verwijs naar de de versienota&#39;s van de Console van de Cliënt [ ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
+Verwijs naar de de versienota&#39;s van de Console van de Cliënt [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 <!--
 
@@ -383,7 +383,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * Wanneer het vormen van een levering van SMS, in de **sectie van SMS**, hebt u nu toegang tot de **Facultatieve parameters SMPP (TLV)**. Deze parameter is hetzelfde als in de clientconsole. [Meer informatie](../advanced-settings/delivery-settings.md#sms-tab)
 
-* U kunt achtergrondberichten op iOS nu toelaten gebruikend de nieuwe **Beschikbare Inhoud** optie, beschikbaar in de **Geavanceerde montages** sectie van het scherm van de de inhoudsuitgave van iOS. Hiermee wordt de markering `content-available:1` toegevoegd in de payload van `aps` . Leer meer [ op deze pagina ](../push/content-push.md). Zie ook [ deze pagina ](../push/rich-push-ios.md)
+* U kunt achtergrondberichten op iOS nu toelaten gebruikend de nieuwe **Beschikbare Inhoud** optie, beschikbaar in de **Geavanceerde montages** sectie van het scherm van de de inhoudsuitgave van iOS. Hiermee wordt de markering `content-available:1` toegevoegd in de payload van `aps` . Leer meer [&#x200B; op deze pagina &#x200B;](../push/content-push.md). Zie ook [&#x200B; deze pagina &#x200B;](../push/rich-push-ios.md)
 
 * De volgende verbeteringen op de bestemmingspagina zijn nu beschikbaar:
 
@@ -523,7 +523,7 @@ U kunt ook bestaande externe accounts weergeven, bijwerken en beheren.</p>
 **Algemene interfaceverbeteringen**
 
 * De veldbeschrijving, Toevoegen aan Favorieten en Distributie van waardeopties voor schemakenmerken zijn nu beter zichtbaar in de gebruikersinterface. Raadpleeg de [gedetailleerde documentatie](../get-started/attributes.md) voor meer informatie.
-* In de interface worden de datum en tijd nu weergegeven volgens de primaire taal die is ingesteld in de Experience League-voorkeuren. Deze verbetering is alleen beschikbaar voor verschillende talen. Om de volledige lijst van gesteunde talen te zien, verwijs naar de [ gedetailleerde documentatie ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}.
+* In de interface worden de datum en tijd nu weergegeven volgens de primaire taal die is ingesteld in de Experience League-voorkeuren. Deze verbetering is alleen beschikbaar voor verschillende talen. Om de volledige lijst van gesteunde talen te zien, verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}.
 
 <!--
 ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
@@ -549,7 +549,7 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld. Ze vereisen een upgrade van de Campagneserver naar v8.7.4.
 >
->Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
+>Verwijs naar de volgende documentatiepagina&#39;s: [&#x200B; overgang Campaign Standard aan Campagne v8 &#x200B;](../rn/acs-migration.md) en [&#x200B; Eigenschappen voor de gebruikers van Campaign Standard &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
 * **Meertalige leveringsverwezenlijking** - u kunt veelvoudige e-mailleveringen in verschillende talen in het Gebruikersinterface van het Web van Adobe Campaign nu verzenden. Met de functie Meertalige levering kunt u de standaardtaal van uw levering kiezen en de verschillende talen waarin de levering kan worden verzonden. U kunt deze leveringen ook voorvertonen in de talen die u hebt gekozen. Raadpleeg de [gedetailleerde documentatie](../email/edit-content.md) voor meer informatie.
 

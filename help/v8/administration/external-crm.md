@@ -20,13 +20,13 @@ Met de externe Microsoft Dynamics CRM-account kunt u uw Campagne-instantie verbi
 
 In Adobe Campaign Web User Interface, vorm uw externe rekening van Microsoft Dynamics CRM.
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Microsoft Dynamics CRM als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Microsoft Dynamics CRM als **[!UICONTROL Provider type]**.
 
 1. Klik op **[!UICONTROL Create]**.
 
 1. Als u de **[!UICONTROL Microsoft Dynamics CRM]** externe account wilt configureren, vult u de volgende velden in:
 
-   ![ Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Microsoft Dynamics CRM toont.](assets/crm-microsoft-1.png)
+   ![&#x200B; Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Microsoft Dynamics CRM toont.](assets/crm-microsoft-1.png)
 
    +++ Voor het type CRM OAuth: Wachtwoordreferenties
 
@@ -70,7 +70,7 @@ In Adobe Campaign Web User Interface, vorm uw externe rekening van Microsoft Dyn
 
    Klik op **[!UICONTROL Next]** om de vereiste tabellen te selecteren.
 
-   ![ Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Microsoft Dynamics CRM toont.](assets/crm-microsoft-2.png)
+   ![&#x200B; Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Microsoft Dynamics CRM toont.](assets/crm-microsoft-2.png)
 
 1. Selecteer de Microsoft CRM-tabellen die u wilt ophalen, of voeg een externe tabel toe door de **[!UICONTROL Table label]** en **[!UICONTROL Table internal name]** op te geven en schakel vervolgens de **[!UICONTROL Selected]** -toets in.
 
@@ -82,13 +82,13 @@ In Adobe Campaign Web User Interface, vorm uw externe rekening van Microsoft Dyn
 
 1. Klik op **[!UICONTROL Display marketing history URLs]** om de URL&#39;s voor het integreren van pagina&#39;s met marketinggeschiedenis weer te geven of op **[!UICONTROL Display URLs for lead subscriptions]** om de URL&#39;s voor het integreren van pagina&#39;s met abonnementsbeheer weer te geven.
 
-   ![ Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Microsoft Dynamics CRM toont.](assets/crm-microsoft-3.png)
+   ![&#x200B; Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Microsoft Dynamics CRM toont.](assets/crm-microsoft-3.png)
 
 1. Klik op **[!UICONTROL Save]** als uw externe Microsoft CRM-account is geconfigureerd.
 
 1. Nadat u uw externe account hebt gemaakt, kunt u nu op **[!UICONTROL Synchronizing enumerations...]** klikken om opsommingen automatisch te synchroniseren van Microsoft CRM naar Adobe Campaign Web User Interface.
 
-   ![ Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Microsoft CRM CRM toont.](assets/crm-microsoft-4.png)
+   ![&#x200B; Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Microsoft CRM CRM toont.](assets/crm-microsoft-4.png)
 
 1. Selecteer de opsomming van Adobe Campaign die de opsomming van Microsoft CRM aanpast.
 
@@ -98,9 +98,9 @@ In Adobe Campaign Web User Interface, vorm uw externe rekening van Microsoft Dyn
 
 Als u de externe Salesforce-account wilt configureren voor gebruik met Adobe Campaign, moet u de volgende gegevens opgeven:
 
-1. [ creeer uw externe rekening ](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Salesforce.com als **[!UICONTROL Provider type]**.
+1. [&#x200B; creeer uw externe rekening &#x200B;](external-account.md) en selecteer **[!UICONTROL External database]** als externe rekening **[!UICONTROL Type]** en Salesforce.com als **[!UICONTROL Provider type]**.
 
-   ![ Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Salesforce toont.](assets/crm-salesforce-1.png)
+   ![&#x200B; Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Salesforce toont.](assets/crm-salesforce-1.png)
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -116,11 +116,11 @@ Als u de externe Salesforce-account wilt configureren voor gebruik met Adobe Cam
 
    * **[!UICONTROL API version]**: kies Versie 49.
 
-   ![ Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Salesforce toont.](assets/crm-salesforce-2.png)
+   ![&#x200B; Schermafbeelding die de gebieden van de de externe rekeningsconfiguratie van Salesforce toont.](assets/crm-salesforce-2.png)
 
 1. Open **[!UICONTROL Salesforce CRM configuration wizard]** om uw Salesforce CRM-tabellijst te genereren en klik vervolgens op **[!UICONTROL Next]** .
 
-   ![ Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Salesforce CRM toont.](assets/crm-salesforce-3.png)
+   ![&#x200B; Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Salesforce CRM toont.](assets/crm-salesforce-3.png)
 
 1. Selecteer de Salesforce-tabellen die u wilt ophalen, of voeg een externe tabel toe door de waarden **[!UICONTROL Table label]** en **[!UICONTROL Table internal name]** in te voeren en schakel vervolgens de schakeloptie **[!UICONTROL Selected]** in.
 
@@ -140,11 +140,11 @@ Als u de externe Salesforce-account wilt configureren voor gebruik met Adobe Cam
 
 1. Nadat u uw externe account hebt gemaakt, kunt u nu op **[!UICONTROL Synchronizing enumerations...]** klikken om opsommingen automatisch te synchroniseren van Salesforce naar Adobe Campaign Web User Interface.
 
-   ![ Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Salesforce CRM toont.](assets/crm-salesforce-4.png)
+   ![&#x200B; Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Salesforce CRM toont.](assets/crm-salesforce-4.png)
 
 1. Selecteer de opsomming van Adobe Campaign die de opsomming van Salesforce aanpast.
 
    Schakel de optie **[!UICONTROL Replace]** in als u Adobe Campaign-waarden wilt vervangen door Salesforce-waarden.
 
-   ![ Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Salesforce CRM toont.](assets/crm-salesforce-5.png)
+   ![&#x200B; Scherenshot die de gebieden van de de externe rekeningsconfiguratie van Salesforce CRM toont.](assets/crm-salesforce-5.png)
 
