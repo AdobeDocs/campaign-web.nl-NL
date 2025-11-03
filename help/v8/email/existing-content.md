@@ -3,7 +3,7 @@ audience: end-user
 title: Uw e-mailinhoud importeren
 description: Leer hoe u e-mailinhoud importeert
 exl-id: ef9c8e6f-f422-404e-9ebb-a89d1bd45e7f
-source-git-commit: f1911523c9076188c492da24e0cbe5c760e58a28
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 2%
@@ -30,9 +30,9 @@ U kunt bestaande HTML-inhoud importeren in de e-mail-Designer. Deze inhoud kan:
 
 Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren.
 
-1. Voor de [&#x200B; E-mail Designer &#x200B;](get-started-email-designer.md) homepage, uitgezochte **[!UICONTROL Import HTML]**.
+1. Voor de [ E-mail Designer ](get-started-email-designer.md) homepage, uitgezochte **[!UICONTROL Import HTML]**.
 
-   ![&#x200B; Schermafbeelding die de optie HTML van de Invoer in de homepage van E-mailDesigner toont.](assets/html-import.png){zoomable="yes"}
+   ![ Schermafbeelding die de optie HTML van de Invoer in de homepage van E-mailDesigner toont.](assets/html-import.png){zoomable="yes"}
 
 1. Sleep het HTML- of ZIP-bestand met de HTML-inhoud en klik op **[!UICONTROL Import]** .
 
@@ -40,15 +40,15 @@ Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren.
 
    In deze modus kunt u de tekst aanpassen, koppelingen toevoegen of elementen aan uw inhoud toevoegen.
 
-   ![&#x200B; Schermafbeelding die de geüploade HTML-inhoud in de modus Compatibiliteit weergeeft.](assets/html-imported.png){zoomable="yes"}
+   ![ Schermafbeelding die de geüploade HTML-inhoud in de modus Compatibiliteit weergeeft.](assets/html-imported.png){zoomable="yes"}
 
 1. Als u de Designer-inhoudscomponenten voor e-mail wilt gebruiken, opent u het tabblad **[!UICONTROL HTML converter]** en klikt u op **[!UICONTROL Convert]** .
 
-   ![&#x200B; Schermafbeelding die het converterlusje van HTML en de knoop van de Bekeerling toont.](assets/html-imported-2.png){zoomable="yes"}
+   ![ Schermafbeelding die het converterlusje van HTML en de knoop van de Bekeerling toont.](assets/html-imported-2.png){zoomable="yes"}
 
->[!NOTE]
->
->Als u een `<table>` -tag als eerste laag in een HTML-bestand gebruikt, kan dit leiden tot stijlverlies, zoals de achtergrond- en breedte-instellingen in de bovenste laagtag.
+   >[!NOTE]
+   >
+   >Als u een `<table>` -tag als eerste laag in een HTML-bestand gebruikt, kan dit leiden tot stijlverlies, zoals de achtergrond- en breedte-instellingen in de bovenste laagtag.
 
 1. Pas het geïmporteerde bestand naar wens aan met de functies van e-mail Designer. [Meer informatie](content-components.md)
 
@@ -56,4 +56,4 @@ Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren.
 
 Leer hoe u een e-mail maakt door HTML te uploaden, deze compatibel te maken met de e-mail-Designer en deze om te zetten in een sjabloon.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447038/?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)

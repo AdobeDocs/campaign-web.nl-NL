@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 357d2014ade1e783b3bf1e1c363894084199738d
+source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 20%
+source-wordcount: '954'
+ht-degree: 19%
 
 ---
 
@@ -48,8 +48,8 @@ ht-degree: 20%
       + E-mail verzenden en controleren {#monitor}
          + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
          + [Verzenden met meerdere golven](advanced-settings/send-using-waves.md)
-         + [&#x200B; Logboeken van de levering van de Monitor &#x200B;](monitor/delivery-logs.md)
-         + [&#x200B; Plan het verzenden van een levering &#x200B;](monitor/schedule-sending.md)
+         + [ Logboeken van de levering van de Monitor ](monitor/delivery-logs.md)
+         + [ Plan het verzenden van een levering ](monitor/schedule-sending.md)
    + Pushmeldingen {#push}
       + [Aan de slag met pushmeldingen](push/gs-push.md)
       + [Een pushmelding maken](push/create-push.md)
@@ -84,7 +84,7 @@ ht-degree: 20%
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
    + Voorbeeld en test de levering {#preview-test}
-      + [&#x200B; Ongeveer voorproef en proef &#x200B;](preview-test/preview-test.md)
+      + [ Ongeveer voorproef en proef ](preview-test/preview-test.md)
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
       + [Proefdrukken verzenden](preview-test/test-deliveries.md)
       + [De rendering van e-mail testen](preview-test/email-rendering.md)
@@ -126,6 +126,7 @@ ht-degree: 20%
          + [Een stijl voor koppelingen definiëren](email/styling-links.md)
          + [Inline-opmaakkenmerken toevoegen](email/inline-styling.md)
          + [Een aangepaste CSS toevoegen](email/custom-css.md)
+         + [Inhoud in de donkere modus beheren](email/dark-mode.md)
       + [Toegankelijke inhoud maken](email/accessible-content.md)
    + AI-assistent {#ai-assistant}
       + [Werken met AI-assistent](email/generative-gs.md)
@@ -267,6 +268,7 @@ ht-degree: 20%
    + [Werken met andere Adobe-oplossingen](integrations/integration.md)
    + [Middelen beheren met Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Sjablonen beheren met Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Werken met GenStudio for Performance Marketing](integrations/genstudio.md)
 + Configuratie {#conf}
    + Branding {#branding}
       + [Branding](administration/branding/branding-gs.md)
@@ -285,6 +287,7 @@ ht-degree: 20%
       + [Externe database](administration/external-account-database.md)
       + [Hadoop](administration/external-hadoop.md)
       + [Overdrachtsgegevens](administration/transfer-external-account.md)
+      + [Externe CRM-rekening](administration/external-crm.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [&#x200B; Campagne v8 (console) documentatie > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
