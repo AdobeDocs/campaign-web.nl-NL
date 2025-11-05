@@ -3,9 +3,9 @@ audience: end-user
 title: Soorten publiek maken
 description: Leer hoe u een publiek kunt maken op Adobe Campaign Web
 exl-id: b6134c5d-9915-4a85-baca-54578a570ee4
-source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
+source-git-commit: 2890e5b19cb9b668f3f429cf60dbfd98278b3649
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 >title="Audience settings"
 >abstract="Enter the name of the audience and additional options, then click the **Create Audience** button."-->
 
+## Over publiekscreatie
+
 Met Campagne Web kunt u nieuwe soorten publiek maken in een visueel workflowcanvas. U kunt workflowactiviteiten niet alleen helemaal vanaf het begin gebruiken om een eenvoudig publiek te maken, maar ook om het publiek te verfijnen. U kunt bijvoorbeeld meerdere soorten publiek combineren tot één publiek, uw publiek verrijken met externe kenmerken of het publiek opdelen in meerdere soorten publiek op basis van uw eigen regels.
 
 Als u de workflow eenmaal hebt gemaakt, worden de resulterende doelgroepen automatisch opgeslagen in de Campagne-database naast de bestaande doelgroepen. Deze doelgroepen kunnen dan worden gericht op workflows of op zelfstandige leveringen.
@@ -30,6 +32,14 @@ Als u de workflow eenmaal hebt gemaakt, worden de resulterende doelgroepen autom
 De kolom **[!UICONTROL Origin]** geeft de oorsprong van het publiek aan: **[!UICONTROL Adobe Campaign]** publiek wordt gemaakt in de Adobe Campaign v8-console of de Web User Interface, terwijl **[!UICONTROL Adobe Experience Platform:]** -publiek wordt gemaakt in Adobe Experience Platform en geïntegreerd in Campagne met behulp van de integratie van Adobe Sources en Destures.
 
 ➡️ [Ontdek deze functie in video](#video)
+
+## Machtigingen voor aangepaste operatorgroepen
+
+Wanneer u een nieuw publiek maakt, wordt automatisch een workflow gemaakt en opgeslagen in de map **[!UICONTROL Profiles and Targets]** / **[!UICONTROL Jobs]** / **[!UICONTROL Targeting workflows]** .
+
+Als u aan een groep van de douaneexploitant wordt toegewezen en &quot;u hebt geen rechten&quot;fout wanneer het creëren van publiek ontmoet, moet u ervoor zorgen uw exploitantgroep de noodzakelijke toestemmingen aan deze omslag heeft.
+
+Om dit op te lossen, moet een beheerder uw groep van de douaneexploitant aan de sectie van de omslagveiligheid in de console van de Campagne toevoegen. [ Leer hoe te om toestemmingen op omslagen ](../get-started/permissions.md#folder-permissions) te beheren
 
 ## Uw eerste publiek maken {#create}
 
@@ -43,29 +53,29 @@ Voer de volgende stappen uit om een publiek te maken:
 
    * De activiteit &quot;Nieuw publiek&quot; **[!UICONTROL Save audience]** vertegenwoordigt de laatste stap in uw werkstroom. Hiermee kunt u de resultaten opslaan als een nieuw publiek.
 
-   ![&#x200B; het lege canvas van de publieksverwezenlijking van A met twee standaardactiviteiten: Bouw publiek en sparen publiek.](assets/create-audience-blank.png){zoomable="yes"}
+   ![ het lege canvas van de publieksverwezenlijking van A met twee standaardactiviteiten: Bouw publiek en sparen publiek.](assets/create-audience-blank.png){zoomable="yes"}
 
    >[!IMPORTANT]
    >
    >De werkschema&#39;s van het publiek worden opgeslagen in het **Werkschema&#39;s** menu, naast uw andere werkschema&#39;s van de Campagne. Ze zijn specifiek ontworpen om een publiek te maken en kunnen worden herkend door hun verticale canvas.
 
-1. Voor betere leesbaarheid, verander de naam van het werkschema op het gebied van het Etiket van de werkschemamontages **&#x200B;**. [&#x200B; Leer hoe te om werkschemamontages &#x200B;](../workflows/workflow-settings.md) te vormen
+1. Voor betere leesbaarheid, verander de naam van het werkschema op het gebied van het Etiket van de werkschemamontages ****. [ Leer hoe te om werkschemamontages ](../workflows/workflow-settings.md) te vormen
 
-1. Open de **[!UICONTROL Build audience]** activiteit, en gebruik de vraagmodeler om de bevolking te bepalen om in uw publiek te omvatten door gegevens te filtreren in het gegevensbestand. [&#x200B; leren hoe te om een het publieksactiviteit van de Bouwstijl te vormen &#x200B;](../workflows/activities/build-audience.md)
+1. Open de **[!UICONTROL Build audience]** activiteit, en gebruik de vraagmodeler om de bevolking te bepalen om in uw publiek te omvatten door gegevens te filtreren in het gegevensbestand. [ leren hoe te om een het publieksactiviteit van de Bouwstijl te vormen ](../workflows/activities/build-audience.md)
 
-1. Als u aanvullende bewerkingen wilt uitvoeren op de doelpopulatie in de workflow, voegt u zoveel activiteiten toe als nodig zijn en verbindt u deze met elkaar. Voor meer informatie over hoe te om werkschemaactiviteiten te vormen, verwijs naar de [&#x200B; documentatie van werkschema&#39;s &#x200B;](../workflows/activities/about-activities.md).
+1. Als u aanvullende bewerkingen wilt uitvoeren op de doelpopulatie in de workflow, voegt u zoveel activiteiten toe als nodig zijn en verbindt u deze met elkaar. Voor meer informatie over hoe te om werkschemaactiviteiten te vormen, verwijs naar de [ documentatie van werkschema&#39;s ](../workflows/activities/about-activities.md).
 
    >[!NOTE]
    >
    >Kanaalactiviteiten zijn niet beschikbaar voor gebruik in publieksworkflows.
 
-   ![&#x200B; het canvas van de publieksverwezenlijking met veelvoudige activiteiten verbonden om het publiek te verfijnen.](assets/audience-creation-canvas.png){zoomable="yes"}
+   ![ het canvas van de publieksverwezenlijking met veelvoudige activiteiten verbonden om het publiek te verfijnen.](assets/audience-creation-canvas.png){zoomable="yes"}
 
-1. Configureer de **[!UICONTROL Save audience]** -activiteit om op te geven hoe u de bevolking die stroomopwaarts in de workflow is berekend, wilt opslaan. [&#x200B; Leer hoe te om sparen publieksactiviteit &#x200B;](../workflows/activities/save-audience.md) te vormen
+1. Configureer de **[!UICONTROL Save audience]** -activiteit om op te geven hoe u de bevolking die stroomopwaarts in de workflow is berekend, wilt opslaan. [ Leer hoe te om sparen publieksactiviteit ](../workflows/activities/save-audience.md) te vormen
 
 1. Wanneer uw werkstroom klaar is, klikt u op **[!UICONTROL Start]** om deze uit te voeren.
 
-Het werkschema wordt bewaard in de **[!UICONTROL Workflows]** lijst, terwijl het resulterende publiek(en) in de **[!UICONTROL Audiences]** lijst met het etiket toegankelijk zijn dat in **wordt bepaald sparen publiek** activiteit. Leer hoe te om publiek in [&#x200B; te controleren en te beheren deze sectie &#x200B;](manage-audience.md)
+Het werkschema wordt bewaard in de **[!UICONTROL Workflows]** lijst, terwijl het resulterende publiek(en) in de **[!UICONTROL Audiences]** lijst met het etiket toegankelijk zijn dat in **wordt bepaald sparen publiek** activiteit. Leer hoe te om publiek in [ te controleren en te beheren deze sectie ](manage-audience.md)
 
 U kunt dit publiek nu gebruiken als het hoofddoel van een levering. [Meer informatie](add-audience.md)
 
@@ -73,7 +83,7 @@ U kunt dit publiek nu gebruiken als het hoofddoel van een levering. [Meer inform
 
 In het onderstaande voorbeeld ziet u een publieksworkflow die is geconfigureerd voor vrouwelijke klanten die in New York wonen en die twee nieuwe soorten publiek maakt, afhankelijk van hun laatste aankoop (Yoga of Running tandwieltje).
 
-![&#x200B; een voorbeeld van het publiekswerkschema dat vrouwelijke klanten in New York richt en hen splitst die op hun recentste aankoop worden gebaseerd.](assets/audiences-example.png){zoomable="yes"}
+![ een voorbeeld van het publiekswerkschema dat vrouwelijke klanten in New York richt en hen splitst die op hun recentste aankoop worden gebaseerd.](assets/audiences-example.png){zoomable="yes"}
 
 1. De **[!UICONTROL Build audience]** -activiteit is gericht op alle vrouwelijke profielen die in New York wonen.
 1. De **[!UICONTROL Enrichment]** -activiteit verrijkt het publiek met informatie uit de tabel Aankopen om aan te geven welk type product de klanten hebben gekocht.
@@ -90,12 +100,12 @@ U kunt een publiek dat uit een werkstroom wordt geproduceerd wijzigen wanneer no
 
 Standaard wordt bij het opnieuw uitvoeren van een publieksworkflow de volledige inhoud van het publiek vervangen door nieuwe gegevens, waardoor eerdere gegevens verloren gaan.
 
-Als u verkiest om de bestaande publieksresultaten niet te vervangen, vorm **sparen publiek** activiteiten om met uw vereisten te richten. Bijvoorbeeld, kunt u het **etiket van het Publiek** gebied veranderen om de nieuwe resultaten in een nieuw publiek op te slaan of de nieuwe resultaten aan de bestaande publieksinhoud toe te voegen zonder vorige gegevens te wissen. [&#x200B; Leer hoe te om sparen publieksactiviteit &#x200B;](../workflows/activities/save-audience.md) te vormen
+Als u verkiest om de bestaande publieksresultaten niet te vervangen, vorm **sparen publiek** activiteiten om met uw vereisten te richten. Bijvoorbeeld, kunt u het **etiket van het Publiek** gebied veranderen om de nieuwe resultaten in een nieuw publiek op te slaan of de nieuwe resultaten aan de bestaande publieksinhoud toe te voegen zonder vorige gegevens te wissen. [ Leer hoe te om sparen publieksactiviteit ](../workflows/activities/save-audience.md) te vormen
 
-![&#x200B; sparen het configuratiescherm van de publieksactiviteit met opties om het gedrag van de publieksbesparing aan te passen.](assets/edit-audience-save.png){zoomable="yes"}
+![ sparen het configuratiescherm van de publieksactiviteit met opties om het gedrag van de publieksbesparing aan te passen.](assets/edit-audience-save.png){zoomable="yes"}
 
 ## Hoe kan ik-video {#video}
 
 Leer hoe te om publiek te bouwen en te beheren, hoe te om publiek voor een levering te selecteren, en controlegroepen te bepalen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453208?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
