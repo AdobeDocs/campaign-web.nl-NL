@@ -108,4 +108,4 @@ Als u verkiest om de bestaande publieksresultaten niet te vervangen, vorm **spar
 
 Leer hoe te om publiek te bouwen en te beheren, hoe te om publiek voor een levering te selecteren, en controlegroepen te bepalen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3453208?captions=dut&quality=12)
