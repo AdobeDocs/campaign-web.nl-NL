@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
+source-git-commit: ca1a437f8a8a25c0a15b9148e9c73271795f16c7
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 7%
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
-De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld in [&#x200B; 2024 &#x200B;](release-notes-24.md) en [&#x200B; 2025 &#x200B;](release-notes-25.md) pagina&#39;s.
+De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld in [ 2024 ](release-notes-24.md) en [ 2025 ](release-notes-25.md) pagina&#39;s.
 
 ## Release oktober 1925 {#25-10-updates}
 
@@ -88,7 +88,7 @@ _3 Nov., 2025_
 <tr>
 <td>
 <p>De e-mailweergave van Designer biedt nu de mogelijkheid om over te schakelen naar de weergave in de donkere modus, waarin u aanvullende specifieke aangepaste instellingen kunt definiëren. De uiteindelijke rendering is afhankelijk van de e-mailclient van de ontvanger. Niet alle e-mailclients ondersteunen de donkere modus.</p>
-<p>Raadpleeg de <a href="../email/accessible-content.md#dark-mode">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Raadpleeg de <a href="../email/dark-mode.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
