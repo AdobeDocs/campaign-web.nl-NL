@@ -1,11 +1,11 @@
 ---
 audience: end-user
-title: De activiteit van de verrijkingsworkflow gebruiken
-description: Leer hoe u de activiteit van de verrijkingsworkflow gebruikt
+title: Gebruik de activiteit Verrijking workflow
+description: Leer hoe je de verrijkingsworkflowactiviteit gebruikt
 exl-id: 02f30090-231f-4880-8cf7-77d57751e824
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: 29e8ad045155fc561b1645f91d4a980911bdf259
 workflow-type: tm+mt
-source-wordcount: '1979'
+source-wordcount: '1989'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment"
 >title="Verrijkingsactiviteit"
->abstract="De **Verrijking** activiteit staat u toe om de gerichte gegevens met extra informatie van het gegevensbestand te verbeteren. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten."
+>abstract="De **activiteit Verrijking** stelt je in staat de doelgegevens te verbeteren met extra informatie uit de database. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten."
 
 De **Verrijking** activiteit is a **richtend** activiteit. Het verbetert de gerichte gegevens met extra informatie van het gegevensbestand. Het wordt vaak gebruikt in een werkschema na segmenteringsactiviteiten.
 
@@ -32,9 +32,9 @@ Zodra de verrijkingsgegevens aan het werkschema worden toegevoegd, kan het in ve
 
 U kunt bijvoorbeeld informatie met betrekking tot de aankopen van klanten toevoegen aan de workflowtabel en deze gegevens gebruiken om de e-mails aan te passen met de meest recente aankoop of het bedrag dat aan deze aankopen is besteed.
 
-## Een verrijkingsactiviteit toevoegen {#enrichment-configuration}
+## Voeg een Verrijkingsactiviteit toe {#enrichment-configuration}
 
-Volg deze stappen om de **1&rbrace; activiteit van de Verrijking &lbrace;te vormen:**
+Volg deze stappen om de **Verrijkingsactiviteit** te configureren:
 
 1. Voeg activiteiten zoals **toe bouwt publiek** en **combineer** activiteiten.
 1. Voeg een **Verrijking** activiteit toe.
@@ -52,7 +52,14 @@ Volg deze stappen om de **1&rbrace; activiteit van de Verrijking &lbrace;te vorm
 >title="Verrijkingsactiviteit"
 >abstract="Zodra de verrijkingsgegevens aan het werkschema worden toegevoegd, kan het in verdere activiteiten worden gebruikt om klanten in verschillende groepen te segmenteren die op hun gedrag, voorkeur, en behoeften worden gebaseerd, of om gepersonaliseerde marketing berichten en campagnes tot stand te brengen die met uw doelpubliek resoneren."
 
-1. Klik **toevoegen verrijkingsgegevens** en selecteer de attributen om voor verrijking te gebruiken. [&#x200B; Leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten &#x200B;](../../get-started/attributes.md).
+<!-- /NEO-92684 -->
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_enrichment_settings"
+>title="Verrijkingsinstellingen"
+>abstract="Verrijkingsinstellingen: dimensie als doel instellen, aanvullende kenmerken en opties."
+
+1. Klik **toevoegen verrijkingsgegevens** en selecteer de attributen om voor verrijking te gebruiken. [ Leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../../get-started/attributes.md).
 
    U kunt twee soorten verrijkingsgegevens selecteren: één enkel verrijkingsattribuut van de doelafmeting of een inzamelingsverbinding. Elk type wordt in de volgende voorbeelden beschreven:
    * [Enkel verrijkingskenmerk](#single-attribute)
@@ -60,9 +67,9 @@ Volg deze stappen om de **1&rbrace; activiteit van de Verrijking &lbrace;te vorm
 
    >[!NOTE]
    >
-   >De **geeft uitdrukkingsknoop** in het scherm van de attributenselectie uit staat u toe om geavanceerde uitdrukkingen te bouwen om de attributen te selecteren. [&#x200B; Leer hoe te met de uitdrukkingsredacteur &#x200B;](../../query/expression-editor.md) te werken.
+   >De **geeft uitdrukkingsknoop** in het scherm van de attributenselectie uit staat u toe om geavanceerde uitdrukkingen te bouwen om de attributen te selecteren. [ Leer hoe te met de uitdrukkingsredacteur ](../../query/expression-editor.md) te werken.
 
-   ![&#x200B; Schermafbeelding die het selectiescherm van de verrijkingsgegevens toont &#x200B;](../assets/workflow-enrichment1.png)
+   ![ Schermafbeelding die het selectiescherm van de verrijkingsgegevens toont ](../assets/workflow-enrichment1.png)
 
 ## Koppelingen maken tussen tabellen {#create-links}
 
@@ -79,15 +86,15 @@ Er zijn verschillende typen koppelingen beschikbaar:
 * **[!UICONTROL 0 or 1 cardinality simple link]**: Elke record uit de primaire set wordt gekoppeld aan 0 of 1 record uit de gekoppelde gegevens, maar niet aan meer dan één record.
 * **[!UICONTROL N cardinality collection link]**: Elke record uit de primaire set is gekoppeld aan 0, 1 of meer (N) records uit de gekoppelde gegevens.
 
-Ga als volgt te werk om een koppeling te maken:
+Om een link te maken, volgt u deze stappen:
 
-1. Klik in de sectie **[!UICONTROL Link definition]** op de knop **[!UICONTROL Add link]** .
+1. Klik in de **[!UICONTROL Link definition]** sectie op de **[!UICONTROL Add link]** knop.
 
-   ![&#x200B; Schermafbeelding die de sectie van de verbindingsdefinitie toont &#x200B;](../assets/workflow-enrichment-link.png)
+   ![Screenshot met het sectie voor de linkdefinitie](../assets/workflow-enrichment-link.png)
 
-1. In het **type van Verhouding** drop-down lijst, kies het type van verbinding u wilt tot stand brengen.
+1. Kies in de **keuzemenu Relatietype** het type link dat je wilt maken.
 
-1. Identificeer het doel u de primaire reeks aan wilt verbinden:
+1. Identificeer het doelwit waarmee je de primaire set wilt koppelen:
 
    * Als u een bestaande tabel in de database wilt koppelen, kiest u **[!UICONTROL Database schema]** en selecteert u de gewenste tabel in het veld **[!UICONTROL Target schema]** .
    * Om met gegevens van de inputovergang te verbinden, verkies **Tijdelijk schema** en selecteer de overgang waarvan gegevens u wilt gebruiken.
@@ -97,7 +104,7 @@ Ga als volgt te werk om een koppeling te maken:
    * **Eenvoudig sluit zich aan**: Selecteer een specifiek attribuut om gegevens van de twee schema&#39;s aan te passen. Klik **toevoegen toetreedt** en selecteert **Source** en **de attributen van de Bestemming** om als verzoeningscriteria te gebruiken.
    * **Geavanceerd sluit zich aan**: Creeer zich bij gebruikend geavanceerde voorwaarden. Klik **toevoegen toetreedt** en klik **creëren voorwaarde** knoop om de vraagmodelaar te openen.
 
-Een werkschemavoorbeeld dat verbindingen gebruikt is beschikbaar in de [&#x200B; sectie van Voorbeelden &#x200B;](#link-example).
+Een werkschemavoorbeeld dat verbindingen gebruikt is beschikbaar in de [ sectie van Voorbeelden ](#link-example).
 
 ## Gegevensafstemming {#reconciliation}
 
@@ -106,13 +113,13 @@ Een werkschemavoorbeeld dat verbindingen gebruikt is beschikbaar in de [&#x200B;
 >title="Afstemming"
 >abstract="De **verrijking** activiteit kan worden gebruikt om gegevens van het het gegevensbestandschema van de Campagne met gegevens van een ander schema, of met gegevens te verzoenen die uit een tijdelijk schema zoals gegevens komen die gebruikend een het dossieractiviteit van de Lading worden geupload. Dit type koppeling definieert een koppeling naar een unieke record. Adobe Campaign maakt een koppeling naar een doeltabel door er een externe sleutel aan toe te voegen voor het opslaan van een verwijzing naar de unieke record."
 
-De **verrijking** activiteit kan worden gebruikt om gegevens van het het gegevensbestandschema van de Campagne met gegevens van een ander schema, of met gegevens te verzoenen die uit een tijdelijk schema zoals gegevens komen die gebruikend een het dossieractiviteit van de Lading worden geupload. Dit type koppeling definieert een koppeling naar een unieke record. Adobe Campaign maakt een koppeling naar een doeltabel door er een externe sleutel aan toe te voegen voor het opslaan van een verwijzing naar de unieke record.
+De **Verrijkingsactiviteit** kan worden gebruikt om gegevens uit het Campagne-databaseschema te verzoenen met gegevens uit een ander schema, of met gegevens afkomstig van een tijdelijk schema, zoals data die is geüpload met een Load-bestandsactiviteit. Dit type link definieert een afstemming naar een uniek record. Adobe Campaign maakt een link aan naar een doeltabel door er een vreemde sleutel aan toe te voegen om een referentie naar het unieke record op te slaan.
 
-U kunt deze optie bijvoorbeeld gebruiken om het land van een profiel dat is opgegeven in een geüpload bestand, te combineren met een van de landen die beschikbaar zijn in de specifieke tabel van de Campagne-database.
+Je kunt bijvoorbeeld deze optie gebruiken om het land van een profiel, dat is opgegeven in een geüpload bestand, te verzoenen met een van de landen die beschikbaar zijn in de speciale tabel van de campagnedatabase.
 
-Volg de stappen om een **1&rbrace; activiteit van de Verrijking &lbrace;met een verzoeningsverbinding te vormen:**
+Volg de stappen om een **Verrijkingsactiviteit** te configureren met een afstemmingslink:
 
-1. Klik **toevoegen verbinding** knoop in de **Verzoening** sectie.
+1. Klik op de **knop Link toevoegen** in het **gedeelte Verzoening** .
 1. Identificeer de gegevens u een verzoeningsverbinding met wilt tot stand brengen.
 
    * Om een verzoeningsverbinding met gegevens van het gegevensbestand van de Campagne tot stand te brengen, selecteer **schema van het Gegevensbestand** en kies het schema waar het doel wordt opgeslagen.
@@ -130,11 +137,11 @@ Volg de stappen om een **1&rbrace; activiteit van de Verrijking &lbrace;met een 
 
    * **Geavanceerde treedt** toe: Gebruik de vraagmodeler om de verzoeningscriteria te vormen. Om dit te doen, klik **creeer voorwaarde** knoop dan uw verzoeningscriteria door uw eigen regel te bouwen gebruikend EN EN OF verrichtingen.
 
-Het voorbeeld toont hieronder een werkschema wordt gevormd om een verband tussen de lijst van de gegevensbestandontvangers van Adobe Campaign en een tijdelijke lijst tot stand te brengen die a **dossier** activiteit van de Lading wordt geproduceerd. In dit voorbeeld zorgt de verrijkingsactiviteit ervoor dat beide tabellen worden gecombineerd met het e-mailadres als afstemmingscriteria.
+Het onderstaande voorbeeld toont een workflow die is geconfigureerd om een link te creëren tussen de ontvangertabel van de Adobe Campaign-database en een tijdelijke tabel die een **Load-bestandactiviteit** genereert. In dit voorbeeld verklikt de Verrijkingsactiviteit beide tabellen met het e-mailadres als afstemmingscriteria.
 
 ![](../assets/enrichment-reconciliation.png)
 
-## Aanbiedingen toevoegen {#add-offers}
+## Voeg aanbiedingen toe {#add-offers}
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_enrichment_offer_proposition"
@@ -211,7 +218,7 @@ Hier selecteert u de verzamelingskoppeling die u als verrijkingsgegevens wilt ge
 
 1. Klik binnen het **gebied van Attributen**.
 1. Klik **Geavanceerde attributen van de Vertoning**.
-1. Selecteer het **gebied van de Prijs** &lbrace;van de **Aankopen** lijst.
+1. Selecteer het **gebied van de Prijs** {van de **Aankopen** lijst.
 
 <!-- ![](../assets/workflow-enrichment3.png) -->
 
@@ -232,10 +239,10 @@ Gebruik het **Etiket** en **alias** gebieden van uw attribuut om het begrijpelij
 
 #### Filters definiëren{#collection-filters}
 
-Hier, bepalen wij de maximumwaarde voor de verrijkingsattributen. We filteren items die groter zijn dan 100$. [&#x200B; Leer hoe te met de vraagmodelaar &#x200B;](../../query/query-modeler-overview.md) te werken
+Hier definiëren we de maximale waarde voor het verrijkingsattribuut. We filteren items eruit die meer dan 100$ kosten. [Leer hoe je met de query modeler werkt](../../query/query-modeler-overview.md)
 
-1. Klik **creeer filters**.
-1. Voeg de twee volgende filters toe: **Prijs** bestaat EN **Prijs** is minder dan 100. De eerste filtert NULL-waarden op dezelfde manier als de hoogste waarde.
+1. Klik op **Filters** aanmaken.
+1. Voeg de volgende twee filters toe: **Prijs** bestaat EN **Prijs** is minder dan 100. De eerste filtert NULL-waarden omdat deze als de grootste waarde verschijnen.
 1. Klik **bevestigen**.
 
 ![](../assets/workflow-enrichment6bis.png)
@@ -246,7 +253,7 @@ Wij moeten nu het sorteren toepassen om de drie **recentste** aankopen terug te 
 
 1. Activeer **het sorteren** optie toelaten.
 1. Klik binnen het **gebied van Attributen**.
-1. Selecteer het **gebied van de datum van de Orde 0&rbrace; &lbrace;.**
+1. Selecteer het **gebied van de datum van de Orde 0} {.**
 1. Klik **bevestigen**.
 1. Selecteer **Aflopend** van de **drop-down Soort**.
 
@@ -254,11 +261,11 @@ Wij moeten nu het sorteren toepassen om de drie **recentste** aankopen terug te 
 
 ### Verrijking met gekoppelde gegevens {#link-example}
 
-In het onderstaande voorbeeld ziet u een workflow die is geconfigureerd om een koppeling tussen twee overgangen te maken. De eerste overgangen richten profielgegevens gebruikend de activiteit van de a **Vraag**, terwijl de tweede overgang aankoopgegevens omvat die in een dossier worden opgeslagen dat door een het dossieractiviteit van de Lading wordt geladen.
+In het onderstaande voorbeeld ziet u een workflow die is geconfigureerd om een koppeling tussen twee overgangen te maken. De eerste overgang richt zich op profielgegevens met een **Query-activiteit** , terwijl de tweede overgang aankoopgegevens omvat die zijn opgeslagen in een bestand dat via een Load-bestandactiviteit wordt geladen.
 
 ![](../assets/enrichment-uc-link.png)
 
-* De eerste **Verrijking** activiteit verbindt de primaire reeks (gegevens van de **Vraag** activiteit) met het schema van de **het dossier van de Lading** activiteit. Hierdoor kunnen we elk profiel waarop de query betrekking heeft, afstemmen op de corresponderende aankoopgegevens.
+* De eerste **Verrijkingsactiviteit** koppelt de primaire set (gegevens van de **Query-activiteit** ) aan het schema van de **Load-bestandactiviteit** . Dit stelt ons in staat om elk profiel dat door de zoekopdracht wordt getarget te koppelen aan de bijbehorende aankoopgegevens.
 
   ![](../assets/enrichment-uc-link-purchases.png)
 
