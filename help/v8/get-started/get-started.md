@@ -5,7 +5,7 @@ description: Aan de slag met Adobe Campaign Web
 exl-id: 885d7851-4e5d-4b03-ba6f-71f90ede83e8
 source-git-commit: d58b9e9b32b85acfbd58dfcbef2000f859feb40d
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 1%
 
 ---
@@ -33,23 +33,23 @@ Adobe Campaign v8 is het campagneprogramma van de volgende generatie dat is ontw
 
 Campagne gebruiken om:
 
-* **verpersoonlijking van de Aandrijving 1&rbrace; en overeenkomst door één enkele toegankelijke mening van de klant.**
+* **verpersoonlijking van de Aandrijving 1} en overeenkomst door één enkele toegankelijke mening van de klant.**
 * **integreer** e-mail, mobiel, online, en off-line kanalen in de klantenreis.
 * **automatiseer** de levering van zinvolle en geschikte berichten en aanbiedingen.
 
 ## De gebruikersinterface van het Web van de Campagne ontdekken {#web}
 
-Aanvankelijk beschikbaar slechts door een rijke [&#x200B; cliëntconsole &#x200B;](#ac-client), biedt de Campagne nu een nieuw Webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid, en een nieuw ontwerp aan om uw gebruikerservaring beduidend te verbeteren. Deze moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie met andere Adobe-oplossingen, waaronder Adobe Experience Platform.
+Aanvankelijk beschikbaar slechts door een rijke [ cliëntconsole ](#ac-client), biedt de Campagne nu een nieuw Webgebruikersinterface (UI) met verbeterde bruikbaarheid, toegankelijkheid, en een nieuw ontwerp aan om uw gebruikerservaring beduidend te verbeteren. Deze moderne gebruikersinterface vereenvoudigt het ontwerp en de levering van marketingcampagnes en zorgt voor consistentie met andere Adobe-oplossingen, waaronder Adobe Experience Platform.
 
-![&#x200B; Schermafbeelding van het het gebruikersinterfacehuis van Adobe Campaign scherm &#x200B;](assets/home.png){zoomable="yes"}
+![ Schermafbeelding van het het gebruikersinterfacehuis van Adobe Campaign scherm ](assets/home.png){zoomable="yes"}
 
 Dit nieuwe gebruikersinterface van het Web dient hoofdzakelijk de behoeften van **bedrijfsartsen**. Typische beheertaken zijn niet beschikbaar in deze eerste versie, maar worden in volgende versies uitgevoerd. Merk op dat niet elke functionaliteit of optie beschikbaar in de cliëntconsole momenteel toegankelijk in nieuwe UI is. Nieuwe gebruiksgevallen, opties en functies worden geïntroduceerd in toekomstige releases.
 
-Als beheerder of deskundige gebruiker, als u tot Campagne v8 mogelijkheden moet toegang hebben die niet beschikbaar in het gebruikersinterface van het Web van de Campagne zijn, verbind met de [&#x200B; cliëntconsole &#x200B;](#ac-client).
+Als beheerder of deskundige gebruiker, als u tot Campagne v8 mogelijkheden moet toegang hebben die niet beschikbaar in het gebruikersinterface van het Web van de Campagne zijn, verbind met de [ cliëntconsole ](#ac-client).
 
-Leer hoe te met het Web van Adobe Campaign in [&#x200B; te verbinden deze pagina &#x200B;](connect-to-campaign.md).
+Leer hoe te met het Web van Adobe Campaign in [ te verbinden deze pagina ](connect-to-campaign.md).
 
-➡️ [&#x200B; ontdekken het Web van de Campagne in video &#x200B;](#video)
+➡️ [ ontdekt het Web van de Campagne in video ](#video)
 
 ## Info over Campagne-clientconsole {#ac-client}
 
@@ -59,14 +59,14 @@ Campagnegegevens worden opgeslagen in de toepassingsserver. De gegevens zijn toe
 
 Sommige objecten kunnen alleen in de clientconsole worden gemaakt en beheerd. Deze voorwerpen kunnen in het gebruikersinterface van het Web van de Campagne zichtbaar zijn en worden gebruikt maar kunnen niet van dit milieu worden gecreeerd of worden gewijzigd. Alle Campagneobjecten en -componenten zijn beschikbaar in de Explorer-weergave en zijn toegankelijk via de linkernavigatie.
 
-Voor meer informatie over hoe te om Campagne v8 met zijn cliëntconsole te gebruiken, verwijs naar [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl){target="_blank"}.
+Voor meer informatie over hoe te om Campagne v8 met zijn cliëntconsole te gebruiken, verwijs naar [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=nl){target="_blank"}.
 
 <!--
 ## How-to video {#video}
 
 Learn how to access and navigate the Campaign Web user interface and how to customize the inventory lists. Discover the AI-powered Knowledge Assistant.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453428?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12)
 -->
 
 <!--
@@ -96,7 +96,7 @@ With workflows, you can orchestrate the full range of processes and tasks, impro
 
 Understand how workflows work and how to create a targeting workflow in this how-to video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3448370?quality=12&captions=dut)
+>[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12)
 
 Adobe Campaign Web user interface features a query modeler that simplifies the process of filtering the database based on various criteria. Learn how to use it in [this section](../query/query-modeler-overview.md)
 
