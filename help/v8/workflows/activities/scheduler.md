@@ -39,7 +39,7 @@ De **planner** activiteit is de controle **activiteit van de a** Stroom. Hiermee
 
 Volg deze stappen om de **Planner** activiteit te vormen:
 
-![&#x200B; interface van de de activiteitenconfiguratie van de Planner &#x200B;](../assets/workflow-scheduler.png)
+![ interface van de de activiteitenconfiguratie van de Planner ](../assets/workflow-scheduler.png)
 
 1. Voeg a **Planner** activiteit aan uw werkschema toe.
 
@@ -67,4 +67,4 @@ Volg deze stappen om de **Planner** activiteit te vormen:
 
 In het volgende voorbeeld is de activiteit zo geconfigureerd dat de workflow verschillende keren per dag om 9 en 12 uur wordt uitgevoerd, elke dag van de week van 1 oktober 2023 tot 1 januari 2024.
 
-![&#x200B; de configuratie van het de activiteitenvoorbeeld van de Planner &#x200B;](../assets/workflow-scheduler2.png)
+![ de configuratie van het de activiteitenvoorbeeld van de Planner ](../assets/workflow-scheduler2.png)
