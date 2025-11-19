@@ -21,7 +21,7 @@ U kunt uw rapporten exporteren naar de PDF- of CSV-indeling, zodat u deze kunt d
 
 1. Klik in uw rapport op **[!UICONTROL Export]** en selecteer **[!UICONTROL Export as PDF file]** of **[!UICONTROL Export as CSV file]** .
 
-   ![&#x200B; Schermschot die de uitvoeropties in de globale rapportinterface tonen &#x200B;](assets/global_report_export.png){zoomable="yes"}
+   ![ Schermschot die de uitvoeropties in de globale rapportinterface tonen ](assets/global_report_export.png){zoomable="yes"}
 
 1. Zoek de map waarin u het bestand wilt opslaan, geef het bestand een andere naam, indien nodig, en klik op **[!UICONTROL Save]** .
 
