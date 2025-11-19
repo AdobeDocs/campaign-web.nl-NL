@@ -18,21 +18,21 @@ De meeste verbindingen van de linkerlijsten van de de navigatiemenvertoning van 
 
 De lijsten worden weergegeven in kolommen. U kunt extra informatie tonen door de kolomconfiguratie te veranderen. Om dit te doen, klik **kolom voor een pictogram van de douanelay-out** in de hoogste juiste hoek van de lijst vormen.
 
-![&#x200B; het schermschot toont het Configure kolompictogram wordt gebruikt om de lay-out van lijstkolommen aan te passen dat.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
+![ het schermschot toont het Configure kolompictogram wordt gebruikt om de lay-out van lijstkolommen aan te passen dat.](assets/config-columns.png){zoomable="yes"}{width="70%" align="left"}
 
 In **vorm kolommen** scherm, voeg of verwijder kolommen toe, en verander de orde waarin zij worden getoond.
 
 U kunt de orde van uw lijst of door **slepen en laten vallen** veranderen, of door **op en neer pijlen** te gebruiken zoals hieronder getoond:
 
-![&#x200B; het schermafbeelding toont aan hoe te om lijstkolommen te herschikken gebruikend belemmering-en-daling of pijlknopen.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
+![ het schermafbeelding toont aan hoe te om lijstkolommen te herschikken gebruikend belemmering-en-daling of pijlknopen.](assets/list-reorder.png){zoomable="yes"}{width="70%" align="left"}
 
 Voor bijvoorbeeld deze instellingen:
 
-![&#x200B; het schermschot toont een voorbeeld van kolommontages in het Configure kolommenscherm.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
+![ het schermschot toont een voorbeeld van kolommontages in het Configure kolommenscherm.](assets/columns.png){zoomable="yes"}{width="70%" align="left" zoomable="yes"}
 
 In de lijst worden de volgende kolommen weergegeven:
 
-![&#x200B; het schermschot toont de resulterende lijst met kolommen die zoals per de voorbeeldmontages worden gevormd.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
+![ het schermschot toont de resulterende lijst met kolommen die zoals per de voorbeeldmontages worden gevormd.](assets/column-sample.png){zoomable="yes"}{width="70%" align="left"}
 
 ## Gegevens sorteren {#sort-lists}
 
@@ -44,9 +44,9 @@ Voor numerieke of datumkolommen, wijst de **Omhoog** pijl erop dat de lijst in h
 
 Als u items sneller wilt zoeken, gebruikt u de zoekbalk of ingebouwde en aangepaste filters om de lijst aan te passen op basis van contextuele criteria.
 
-![&#x200B; het schermschot toont de filteropties beschikbaar voor het verfijnen van de lijstmening.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
+![ het schermschot toont de filteropties beschikbaar voor het verfijnen van de lijstmening.](assets/filter.png){zoomable="yes"}{width="70%" align="left"}
 
-De gedetailleerde informatie over hoe te om filters te gebruiken en uw eigen douanefilters tot stand te brengen is beschikbaar in [&#x200B; deze sectie &#x200B;](../query/filter.md).
+De gedetailleerde informatie over hoe te om filters te gebruiken en uw eigen douanefilters tot stand te brengen is beschikbaar in [ deze sectie ](../query/filter.md).
 
 <!--
 ## Use advanced attributes {#adv-attributes}
