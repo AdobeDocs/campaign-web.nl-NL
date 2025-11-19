@@ -30,11 +30,11 @@ Er zijn twee typen fragmenten beschikbaar:
 
 * **de fragmenten van de Uitdrukking** zijn vooraf bepaalde uitdrukkingen beschikbaar van een specifieke ingang in de uitdrukkingsredacteur. De campagne omvat een reeks vooraf bepaalde inhoudsblokken die specifieke teruggaven bevatten u in uw leveringen kunt opnemen. U kunt bijvoorbeeld een logo, een wensbericht of een koppeling naar de spiegelpagina van het bericht toevoegen. U kunt ook uw eigen expressiefragmenten maken die aan uw wensen voldoen.
 
-* **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige [&#x200B; e-mailleveringen &#x200B;](../email/get-started-email-designer.md), of in [&#x200B; inhoudsmalplaatjes &#x200B;](../content/use-email-templates.md) kunt hergebruiken.
+* **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige [ e-mailleveringen ](../email/get-started-email-designer.md), of in [ inhoudsmalplaatjes ](../content/use-email-templates.md) kunt hergebruiken.
 
   >[!AVAILABILITY]
   >
-  >Voor deze functie is een update van Campagne v8.6.4 vereist. Leer meer in de [&#x200B; notities van de de consoleversie van de Cliënt van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes).
+  >Voor deze functie is een update van Campagne v8.6.4 vereist. Leer meer in de [ notities van de de consoleversie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
 
 ## Laten we dieper duiken
 
