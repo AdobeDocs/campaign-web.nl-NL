@@ -75,7 +75,7 @@ Het sluiten van de inhoud kan of op het **structuur** niveau of op het **compone
 
 U kunt contentvergrendeling voor een e-mailsjabloon rechtstreeks inschakelen in de e-mailsjabloon van de Designer. Dit is zowel het geval als het gaat om het maken van een nieuwe sjabloon of het bewerken van een bestaande sjabloon. Voer de volgende stappen uit:
 
-1. Open of creeer een e-mailmalplaatje en heb toegang tot het inhoud het uitgeven scherm in [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-designer.md).
+1. Open of creeer een e-mailmalplaatje en heb toegang tot het inhoud het uitgeven scherm in [ E-mail Designer ](../email/get-started-email-designer.md).
 
 1. Schakel in het deelvenster **[!UICONTROL Body]** aan de rechterkant de optie **[!UICONTROL Governance]** in.
 
@@ -128,7 +128,7 @@ Nadat een structuur is vergrendeld, kunnen er geen verdere inhoudcomponenten of 
 
 1. Schakel de optie **[!UICONTROL Use specific locking]** in.
 
-1. Kies **[!UICONTROL Lock type]** in de vervolgkeuzelijst **[!UICONTROL Editable]** . Selecteer **[!UICONTROL Editable content only]** als u het bewerken van inhoud tijdens het vergrendelen van stijlen wilt toestaan. [&#x200B; leer hoe te om componenten &#x200B;](#lock-components) te sluiten
+1. Kies **[!UICONTROL Lock type]** in de vervolgkeuzelijst **[!UICONTROL Editable]** . Selecteer **[!UICONTROL Editable content only]** als u het bewerken van inhoud tijdens het vergrendelen van stijlen wilt toestaan. [ leer hoe te om componenten ](#lock-components) te sluiten
 
    ![](assets/template-lock-editable-component.png)
 
@@ -152,7 +152,7 @@ Een specifieke component in een structuur vergrendelen:
 
    >[!NOTE]
    >
-   >Met het vergrendelingstype **[!UICONTROL Editable]** kunnen gebruikers een component bewerken, zelfs binnen een vergrendelde structuur. [&#x200B; leer hoe te om structuren &#x200B;](#lock-structures) te sluiten
+   >Met het vergrendelingstype **[!UICONTROL Editable]** kunnen gebruikers een component bewerken, zelfs binnen een vergrendelde structuur. [ leer hoe te om structuren ](#lock-structures) te sluiten
 
 1. Standaard kunnen gebruikers vergrendelde componenten niet verwijderen. U kunt verwijdering inschakelen door de optie **[!UICONTROL Allow delete]** te activeren.
 
@@ -201,4 +201,4 @@ TO REPLACE WITH VIDEO FOR CAMPAIGN IF/WHEN CREATED
 
 Learn how to lock content in email templates.
 
->[!VIDEO](https://video.tv.adobe.com/v/3451613?quality=12&captions=dut)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)-->
