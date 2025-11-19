@@ -27,9 +27,9 @@ Navigeer naar het menu **[!UICONTROL Reports]** in de sectie **[!UICONTROL Repor
 
 In **[!UICONTROL Delivery Overview]** worden de belangrijkste prestatiemetriek (KPI&#39;s) gepresenteerd, die diepgaande inzichten biedt in de interactie van uw bezoekers met elke directe-maillevering. De meetgegevens worden hieronder beschreven.
 
-![&#x200B; Dit beeld toont de metriek van het leveringsoverzicht voor directe postleveringen.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
+![ Dit beeld toont de metriek van het leveringsoverzicht voor directe postleveringen.](assets/global_report_direct_mail_delivery_overview.png){zoomable="yes"}{align="center"}
 
-+++Meer informatie over de maatstaven van het leveringsoverzicht.
++++Meer weten over de maatstaven van het leveringsoverzicht?
 
 * **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
@@ -55,9 +55,9 @@ In **[!UICONTROL Delivery Overview]** worden de belangrijkste prestatiemetriek (
 
 De tabel en grafiek voor **[!UICONTROL Targeted Audience]** bevatten gegevens over showcase die betrekking hebben op uw ontvangers. Hieronder vindt u gedetailleerde cijfers.
 
-![&#x200B; Dit beeld toont de gerichte publieksmetriek voor directe postleveringen.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
+![ Dit beeld toont de gerichte publieksmetriek voor directe postleveringen.](assets/global_report_direct_mail_targeted_audience.png){zoomable="yes"}{align="center"}
 
-+++ Meer informatie over de meetgegevens voor doelgroepen.
++++Meer informatie over meetgegevens voor doelgroepen.
 
 * **[!UICONTROL Targeted audience]**: het totale aantal beoogde ontvangers.
 
@@ -81,7 +81,7 @@ De tabel en grafiek voor **[!UICONTROL Targeted Audience]** bevatten gegevens ov
 
 De grafiek en de tabel van **[!UICONTROL Delivery statistics]** bevatten een overzicht van het succes van elke directe verzending. Hieronder vindt u gedetailleerde cijfers.
 
-+++Meer weten over de meetgegevens van de leveringsstatistieken?
++++Meer weten over statistieken over levering?
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -105,11 +105,11 @@ De grafiek en de tabel van **[!UICONTROL Delivery statistics]** bevatten een ove
 >title="Oorzaken van uitsluiting"
 >abstract="De **Oorzaken van uitsluiting** grafiek illustreert de distributie van verworpen berichten tijdens de voorbereiding voor levering, die door elke regel wordt gecategoriseerd."
 
-![&#x200B; Dit beeld toont de oorzaken van uitsluitingsmetriek voor directe postleveringen.](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
+![ Dit beeld toont de oorzaken van uitsluitingsmetriek voor directe postleveringen.](assets/global_report_direct_mail_exclusions.png){zoomable="yes"}{align="center"}
 
 In de grafiek en de tabel met uitsluitingen worden de redenen weergegeven waarom gebruikersprofielen, die zijn uitgesloten van de doelprofielen, het bericht niet hebben ontvangen.
 
-+++Meer informatie over oorzaken van uitsluitingsmetriek.
++++Meer weten over oorzaken van uitsluitingsmetingen?
 
 * **[!UICONTROL Address in quarantine]**: Fouttype dat wordt gegenereerd wanneer een adres in quarantaine wordt geplaatst.
 
