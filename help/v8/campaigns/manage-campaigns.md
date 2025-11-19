@@ -23,11 +23,11 @@ Als u uw campagnes wilt openen en beheren, klikt u op het menu **[!UICONTROL Cam
 
 In de lijst met campagnes zijn twee tabbladen beschikbaar:
 
-* Het **doorbladert** lusje maakt een lijst van alle bestaande campagnes. U kunt een campagne klikken om zijn dashboard te openen of een nieuwe campagne tot stand te brengen door **te klikken creeert campagneknoop**. Zie deze [&#x200B; sectie &#x200B;](create-campaigns.md#create-campaigns).
+* Het **doorbladert** lusje maakt een lijst van alle bestaande campagnes. U kunt een campagne klikken om zijn dashboard te openen of een nieuwe campagne tot stand te brengen door **te klikken creeert campagneknoop**. Zie deze [ sectie ](create-campaigns.md#create-campaigns).
 
 * Het **lusje van Malplaatjes** maakt een lijst van alle beschikbare campagnemalplaatjes. U kunt een bestaande sjabloon weergeven of een nieuwe sjabloon maken. [Meer informatie](#manage-campaign-templates).
 
-![&#x200B; Beschrijving: Het scherm van de campagnemijst dat de Browse en lusjes van Malplaatjes toont, samen met opties om campagnes tot stand te brengen of te bekijken &#x200B;](assets/campaign-list.png)
+![ Beschrijving: Het scherm van de campagnemijst dat de Browse en lusjes van Malplaatjes toont, samen met opties om campagnes tot stand te brengen of te bekijken ](assets/campaign-list.png)
 
 Standaard geeft elke campagne in de lijst informatie weer over de huidige status, de begin- en einddatum, de aanmaakdatum, de laatste keer dat deze is gewijzigd, enzovoort.
 
@@ -37,7 +37,7 @@ Bovendien zijn er een zoekbalk en filters beschikbaar waarmee u gemakkelijk in d
 
 U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het filterpaneel en gebruik **Begin - de sectie van de Datum van het Eind**:
 
-![&#x200B; Beschrijving: Het filterpaneel dat opties toont om campagnes door begin en einddata te filtreren &#x200B;](assets/campaign-filter-on-dates.png)
+![ Beschrijving: Het filterpaneel dat opties toont om campagnes door begin en einddata te filtreren ](assets/campaign-filter-on-dates.png)
 
 ## Campagne-dashboard {#campaign-dashboard}
 
@@ -53,17 +53,17 @@ U kunt bijvoorbeeld filteren op uw campagneprogramma. Open het filterpaneel en g
 
 In **doorbladert** lusje van de campagnemijst, klik een campagnenaam om zijn details te tonen.
 
-![&#x200B; Beschrijving: Het scherm van het campagnesdashboard dat de status, het programma, en de lusjes voor werkschema&#39;s en leveringen &#x200B;](assets/campaign-dashboard.png) toont
+![ Beschrijving: Het scherm van het campagnesdashboard dat de status, het programma, en de lusjes voor werkschema&#39;s en leveringen ](assets/campaign-dashboard.png) toont
 
-De status en het schema van de campagne worden boven aan het scherm weergegeven. Gebruik de **knoop van Montages** om de eigenschappen van uw campagne, zoals zijn etiket, omslag, en beschrijving bij te werken. U kunt het programma van uw campagne van het montagescherm ook veranderen. Leer meer over campagneschema in [&#x200B; deze sectie &#x200B;](create-campaigns.md#campaign-schedule).
+De status en het schema van de campagne worden boven aan het scherm weergegeven. Gebruik de **knoop van Montages** om de eigenschappen van uw campagne, zoals zijn etiket, omslag, en beschrijving bij te werken. U kunt het programma van uw campagne van het montagescherm ook veranderen. Leer meer over campagneschema in [ deze sectie ](create-campaigns.md#campaign-schedule).
 
-Van het campagnesdashboard, gebruik de **Logboeken** en **Rapporten** knopen om uw campagne te controleren. Leer meer in deze [&#x200B; sectie &#x200B;](create-campaigns.md#create-campaigns).
+Van het campagnesdashboard, gebruik de **Logboeken** en **Rapporten** knopen om uw campagne te controleren. Leer meer in deze [ sectie ](create-campaigns.md#create-campaigns).
 
 Voor elke campagne ziet u op het dashboard twee tabbladen: Workflows en Deliveries.
 
-* Het **lusje van de Werkschema&#39;s** maakt een lijst van alle werkschema&#39;s verbonden aan de campagne. Op dit tabblad kunt u ook een nieuwe workflow in de campagne maken. Zie deze [&#x200B; sectie &#x200B;](create-campaigns.md#create-campaigns).
+* Het **lusje van de Werkschema&#39;s** maakt een lijst van alle werkschema&#39;s verbonden aan de campagne. Op dit tabblad kunt u ook een nieuwe workflow in de campagne maken. Zie deze [ sectie ](create-campaigns.md#create-campaigns).
 
-* Het **lusje van Leveringen** maakt een lijst van alle leveringen die in de huidige campagne worden gecreeerd. U kunt ook een nieuwe levering maken in de campagne. Zie deze [&#x200B; sectie &#x200B;](create-campaigns.md#create-campaigns).
+* Het **lusje van Leveringen** maakt een lijst van alle leveringen die in de huidige campagne worden gecreeerd. U kunt ook een nieuwe levering maken in de campagne. Zie deze [ sectie ](create-campaigns.md#create-campaigns).
 
 >[!NOTE]
 >
@@ -75,11 +75,11 @@ U kunt een campagne op twee manieren verwijderen:
 
 * Van de lijst van campagnes, klik de elliptische knoop, dan uitgezochte **Schrapping**.
 
-  ![&#x200B; Beschrijving: Het scherm van de campagnemijst die de ellipselknoop en de optie van de Schrapping tonen &#x200B;](assets/delete-a-campaign-from-list.png)
+  ![ Beschrijving: Het scherm van de campagnemijst die de ellipselknoop en de optie van de Schrapping tonen ](assets/delete-a-campaign-from-list.png)
 
 * Van de campagne zelf, klik **Meer** knoop, dan uitgezochte **Schrapping**.
 
-  ![&#x200B; Beschrijving: Het scherm van het campagnesdashboard dat de Meer knoop en de optie van de Schrapping toont &#x200B;](assets/delete-a-campaign-from-dashboard.png)
+  ![ Beschrijving: Het scherm van het campagnesdashboard dat de Meer knoop en de optie van de Schrapping toont ](assets/delete-a-campaign-from-dashboard.png)
 
 ## Een campagne dupliceren {#campaign-duplicate}
 
@@ -108,6 +108,6 @@ Volg onderstaande stappen om een campagnemalplaatje te maken:
 1. Selecteer het **Malplaatje** aan gebruik. Zo kunt u uw nieuwe sjabloon baseren op een eerder gemaakte sjabloon.
 1. Geef een label voor de sjabloon op.
 1. Indien nodig, verander de volgende **Extra opties**: interne naam, omslag, toegewezen, beschrijving, en aard.
-1. Bepaal het **Programma** van uw campagne. Leer hoe te om uw campagneschema in [&#x200B; te plaatsen deze sectie &#x200B;](create-campaigns.md#campaign-schedule).
+1. Bepaal het **Programma** van uw campagne. Leer hoe te om uw campagneschema in [ te plaatsen deze sectie ](create-campaigns.md#campaign-schedule).
 1. Klik **creëren**.
 1. Workflows en leveringssjablonen toevoegen aan uw campagne.
