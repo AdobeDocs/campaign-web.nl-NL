@@ -38,11 +38,11 @@ De **Deduplicatie** activiteit is a **richtend** activiteit. Deze activiteit sch
 
 Voer de volgende stappen uit om de **Deduplication** -activiteit te configureren:
 
-![&#x200B; de configuratieproces van de deduplicatie van het Werkschema &#x200B;](../assets/workflow-deduplication.png)
+![ de configuratieproces van de deduplicatie van het Werkschema ](../assets/workflow-deduplication.png)
 
 1. Voeg de activiteit van de a **Deduplicatie** aan uw werkschema toe.
 
-1. In de **Gebieden om duplicaten** sectie te identificeren, klik **voegt attribuut** knoop toe om de gebieden te specificeren waarvoor de identieke waarden duplicaten toestaan om, zoals e-mailadres, voornaam, en achternaam worden geïdentificeerd. De volgorde van de velden geeft aan welke velden eerst moeten worden verwerkt. [&#x200B; Leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten &#x200B;](../../get-started/attributes.md).
+1. In de **Gebieden om duplicaten** sectie te identificeren, klik **voegt attribuut** knoop toe om de gebieden te specificeren waarvoor de identieke waarden duplicaten toestaan om, zoals e-mailadres, voornaam, en achternaam worden geïdentificeerd. De volgorde van de velden geeft aan welke velden eerst moeten worden verwerkt. [ Leer hoe te om attributen te selecteren en hen toe te voegen aan favorieten ](../../get-started/attributes.md).
 
 1. In de **montages van de Deduplicatie** sectie, selecteer het aantal unieke **Duplicaten om** te houden. De standaardwaarde voor dit veld is 1. Met de waarde 0 blijven alle duplicaten behouden.
 
@@ -65,4 +65,4 @@ Voer de volgende stappen uit om de **Deduplication** -activiteit te configureren
 
 In het volgende voorbeeld gebruikt u een deduplicatie-activiteit om duplicaten uit te sluiten van het doel voordat u een levering verzendt. De geïdentificeerde gedupliceerde profielen worden toegevoegd aan een specifiek publiek dat indien nodig opnieuw kan worden gebruikt. Kies het **E-mail** adres om de duplicaten te identificeren. Houd 1 ingang en selecteer de **Willekeurige** deduplicatiemethode.
 
-![&#x200B; Voorbeeld van deduplicatieactiviteit in een werkschema &#x200B;](../assets/workflow-deduplication-example.png)
+![ Voorbeeld van deduplicatieactiviteit in een werkschema ](../assets/workflow-deduplication-example.png)
