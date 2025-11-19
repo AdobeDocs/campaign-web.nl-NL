@@ -27,18 +27,18 @@ ht-degree: 1%
 >title="Uitgaande overgang van beheer afwijzen voor afwijzing"
 >abstract="Uitgaande overgang van beheer afwijzen voor afwijzing"
 
-De **dossier van de Lading** activiteit is a **het beheer van Gegevens** activiteit. Gebruik deze activiteit om met profielen en gegevens te werken die in een extern dossier worden opgeslagen. De profielen en de gegevens worden niet toegevoegd aan het gegevensbestand, maar alle gebieden in het inputdossier zijn beschikbaar voor [&#x200B; verpersoonlijking &#x200B;](../../personalization/gs-personalization.md), of om profielen, of een andere lijst bij te werken.
+De **dossier van de Lading** activiteit is a **het beheer van Gegevens** activiteit. Gebruik deze activiteit om met profielen en gegevens te werken die in een extern dossier worden opgeslagen. De profielen en de gegevens worden niet toegevoegd aan het gegevensbestand, maar alle gebieden in het inputdossier zijn beschikbaar voor [ verpersoonlijking ](../../personalization/gs-personalization.md), of om profielen, of een andere lijst bij te werken.
 
 >[!NOTE]
->Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV). Met de webgebruikersinterfaceconsole kunt u bestanden tot maximaal 50 MB laden. In de clientconsole geldt een limiet van 150 MB voor het laden van gegevens. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=nl-NL){target="_blank"}
+>Ondersteunde bestandsindelingen zijn: tekst (TXT) en door komma&#39;s gescheiden waarden (CSV). Met de webgebruikersinterfaceconsole kunt u bestanden tot maximaal 50 MB laden. In de clientconsole geldt een limiet van 150 MB voor het laden van gegevens. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
-Deze activiteit kan met a [&#x200B; Verzoening &#x200B;](reconciliation.md) activiteit worden gebruikt om niet geïdentificeerde gegevens met bestaande middelen te verbinden. Bijvoorbeeld, kan de **dossier van de Lading** activiteit vóór a **de activiteit van de Verzoening** worden geplaatst als u niet-standaardgegevens in het gegevensbestand invoert.
+Deze activiteit kan met a [ Verzoening ](reconciliation.md) activiteit worden gebruikt om niet geïdentificeerde gegevens met bestaande middelen te verbinden. Bijvoorbeeld, kan de **dossier van de Lading** activiteit vóór a **de activiteit van de Verzoening** worden geplaatst als u niet-standaardgegevens in het gegevensbestand invoert.
 
 ## De activiteit van het bestand laden configureren {#load-configuration}
 
 De **dossier van de Lading** activiteitenconfiguratie impliceert twee stappen. Definieer eerst de verwachte bestandsstructuur door een voorbeeldbestand te uploaden. Als dit is gebeurd, geeft u de oorsprong op van het bestand waarvan de gegevens worden geïmporteerd. Voer de onderstaande stappen uit om de activiteit te configureren.
 
-![&#x200B; het Scherm van de Configuratie van de Activiteit van het Werkschema van het Lading van het Dossier &#x200B;](../assets/workflow-load-file.png)
+![ het Scherm van de Configuratie van de Activiteit van het Werkschema van het Lading van het Dossier ](../assets/workflow-load-file.png)
 
 ### Voorbeeldbestand configureren {#sample}
 
@@ -65,13 +65,13 @@ Voer de volgende stappen uit om het voorbeeldbestand te configureren dat wordt g
 
    >[!NOTE]
    >
-   >De data van het voorbeeldbestand worden gebruikt voor het configureren van de activiteit, maar worden niet geïmporteerd. Gebruik een voorbeeldbestand dat weinig gegevens bevat. Het dossierformaat moet met dit [&#x200B; steekproefdossier &#x200B;](../../audience/file-audience.md#sample-file) worden gericht.
+   >De data van het voorbeeldbestand worden gebruikt voor het configureren van de activiteit, maar worden niet geïmporteerd. Gebruik een voorbeeldbestand dat weinig gegevens bevat. Het dossierformaat moet met dit [ steekproefdossier ](../../audience/file-audience.md#sample-file) worden gericht.
 
 1. Er wordt een voorbeeld van het voorbeeldbestand weergegeven met maximaal 30 regels.
 
 1. Geef in de vervolgkeuzelijst **[!UICONTROL File type]** op of het bestand kolommen met scheidingstekens of kolommen met een vaste breedte gebruikt.
 
-   ![&#x200B; Schermschot van de Configuratie van het Dossier van de Steekproef &#x200B;](../assets/workflow-load-file-sample.png)
+   ![ Schermschot van de Configuratie van het Dossier van de Steekproef ](../assets/workflow-load-file-sample.png)
 
 1. Voor afgebakende kolomdossiertypes, gebruik de **sectie van Kolommen** om de eigenschappen van elke kolom te vormen.
 
@@ -129,7 +129,7 @@ Voer de volgende stappen uit om het te uploaden doelbestand te definiëren:
 
    * **[!UICONTROL Calculated]**: upload het bestand waarvan de naam is opgegeven in het veld **[!UICONTROL File name]** . Klik op het pictogram **[!UICONTROL Open personalization dialog]** om de expressie-editor, inclusief gebeurtenisvariabelen, te gebruiken om de bestandsnaam te berekenen.
 
-   ![&#x200B; Schermschot van de Configuratie van het Dossier van het Doel &#x200B;](../assets/workflow-load-file-config.png)
+   ![ Schermschot van de Configuratie van het Dossier van het Doel ](../assets/workflow-load-file-config.png)
 
    >[!NOTE]
    >
@@ -157,10 +157,10 @@ Voer de volgende stappen uit om het te uploaden doelbestand te definiëren:
 
 1. Als u het geüploade bestand van de server wilt verwijderen nadat de workflow is uitgevoerd, schakelt u de optie **[!UICONTROL Delete file after import]** in of uit.
 
-   ![&#x200B; Extra Schermafbeelding van de Configuratie van Opties &#x200B;](../assets/workflow-load-file-options.png)
+   ![ Extra Schermafbeelding van de Configuratie van Opties ](../assets/workflow-load-file-options.png)
 
 1. Klik **bevestigen** zodra de montages correct zijn.
 
 ## Voorbeeld {#load-example}
 
-Een steekproef van een extern dossier dat met de **Verzoening** activiteit wordt gebruikt is beschikbaar in [&#x200B; deze sectie &#x200B;](reconciliation.md#reconciliation-example).
+Een steekproef van een extern dossier dat met de **Verzoening** activiteit wordt gebruikt is beschikbaar in [ deze sectie ](reconciliation.md#reconciliation-example).
