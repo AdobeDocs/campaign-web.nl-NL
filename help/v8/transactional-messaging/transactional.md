@@ -34,7 +34,7 @@ De module Transactioneel Overseinen integreert naadloos met uw informatiesysteme
 
 U kunt de module **[!UICONTROL Transactional message]** vinden in de sectie **[!UICONTROL Triggered messages]** .
 
-![&#x200B; Transactionele overseineninterface die teweeggebrachte berichten en hun statussen tonen &#x200B;](assets/transactional.png){zoomable="yes"}
+![ Transactionele overseineninterface die teweeggebrachte berichten en hun statussen tonen ](assets/transactional.png){zoomable="yes"}
 
 De **[!UICONTROL Transactional message]** -pagina bevat drie tabbladen:
 
@@ -44,6 +44,6 @@ De **[!UICONTROL Transactional message]** -pagina bevat drie tabbladen:
 
 Leer in deze documentatie hoe te:
 
-* [&#x200B; creeer transactionele berichten &#x200B;](create-transactional.md) met de hulp van een malplaatje en leer de montages nodig,
-* [&#x200B; bevestigt de inhoud van uw transactionele berichten &#x200B;](validate-transactional.md) en simuleert verpersoonlijking,
-* [&#x200B; monitor uw transactionele berichten &#x200B;](monitor-transactional.md).
+* [ creeer transactionele berichten ](create-transactional.md) met de hulp van een malplaatje en leer de montages nodig,
+* [ bevestigt de inhoud van uw transactionele berichten ](validate-transactional.md) en simuleert verpersoonlijking,
+* [ monitor uw transactionele berichten ](monitor-transactional.md).
