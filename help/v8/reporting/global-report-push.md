@@ -27,9 +27,9 @@ Navigeer naar het menu **[!UICONTROL Reports]** in de sectie **[!UICONTROL Repor
 
 Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over hoe uw bezoekers omgaan met elke levering van pushberichten. De cijfers worden hieronder beschreven.
 
-![&#x200B; het overzichtsmetriek van de Levering, die KPIs met betrekking tot de prestaties van het dupbericht tonen.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
+![ het overzichtsmetriek van de Levering, die KPIs met betrekking tot de prestaties van het dupbericht tonen.](assets/global_report_push_delivery_overview.png){zoomable="yes"}
 
-+++Meer informatie over de maatstaven van het leveringsoverzicht.
++++Meer weten over de maatstaven van het leveringsoverzicht?
 
 * **[!UICONTROL Messages to deliver]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
@@ -50,9 +50,9 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI
 
 De tabel en grafiek van **[!UICONTROL Targeted audience]** bevatten gegevens die betrekking hebben op uw ontvangers voor elke verzonden pushmelding. De cijfers worden hieronder beschreven.
 
-![&#x200B; gerichte publieksmetriek, die gegevens met betrekking tot ontvangers en uitsluitingen voor dupberichten tonen.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
+![ gerichte publieksmetriek, die gegevens met betrekking tot ontvangers en uitsluitingen voor dupberichten tonen.](assets/global_report_push_targeted_audience.png){zoomable="yes"}
 
-+++ Meer informatie over de meetgegevens voor doelgroepen.
++++Meer informatie over meetgegevens voor doelgroepen.
 
 * **[!UICONTROL Targeted audience]**: het totale aantal beoogde ontvangers.
 
@@ -71,9 +71,9 @@ De tabel en grafiek van **[!UICONTROL Targeted audience]** bevatten gegevens die
 
 In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke pushmelding. De cijfers worden hieronder beschreven.
 
-{de statistieken van 0} levering metriek, die succespercentages, fouten, en quarantines voor duw berichten tonen.![&#128279;](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
+{de statistieken van 0} levering metriek, die succespercentages, fouten, en quarantines voor duw berichten tonen.![](assets/global_report_push_delivery_statistics.png){zoomable="yes"}
 
-+++Meer weten over de meetgegevens van de leveringsstatistieken?
++++Meer weten over statistieken over levering?
 
 * **[!UICONTROL Total messages]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -83,7 +83,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke push
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine is geplaatst na een mislukte levering (ongeldige registratie, berichtafwijzing, payload fout en vergelijkbare redenen) met betrekking tot het aantal te leveren berichten.
 
-  De types van de de berichtfouten van de duw zijn vermeld in [&#x200B; Adobe Campaign v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#push-error-types){target="_blank"}.
+  De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 +++
 
@@ -96,7 +96,7 @@ In de tabel **[!UICONTROL Delivery statistics]** ziet u het succes van elke push
 
 In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** ziet u waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet konden ontvangen.
 
-De types van de de berichtfouten van de duw zijn vermeld in [&#x200B; Adobe Campaign v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#push-error-types){target="_blank"}.
+De types van de de berichtfouten van de duw zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){target="_blank"}.
 
 ## Leveringsdoorvoer {#delivery-throughput-sms}
 
@@ -105,6 +105,6 @@ De types van de de berichtfouten van de duw zijn vermeld in [&#x200B; Adobe Camp
 >title="Leveringsrapport"
 >abstract="Het **rapport van de productie van de Levering** stelt gedetailleerde informatie betreffende de productie van de dupmelding van de levering van het volledige platform binnen een gespecificeerde timeframe voor."
 
-![&#x200B; metriek van de productie van de levering, die succes en foutenpercentages voor dupberichten over een gespecificeerde periode tonen.](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
+![ metriek van de productie van de levering, die succes en foutenpercentages voor dupberichten over een gespecificeerde periode tonen.](assets/global_report_push_delivery_throughput.png){zoomable="yes"}
 
 Het **[!UICONTROL Delivery Throughput]** -rapport biedt uitgebreide inzichten in de doeltreffendheid van het systeem voor de levering van pushberichten, waarmee u een gedetailleerde samenvatting kunt geven van het succes en de foutenpercentages over een bepaalde periode.
