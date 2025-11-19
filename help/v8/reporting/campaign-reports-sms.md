@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Campagnerapporten voor het SMS-kanaal {#campaign-reports-sms-channel}
 
-Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het kanaal van SMS, zijn de rapporten en de metriek gedetailleerd hieronder. Leer hoe te om tot uw campagnerapporten op [&#x200B; toegang te hebben deze pagina &#x200B;](campaign-reports.md).
+Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor het kanaal van SMS, zijn de rapporten en de metriek gedetailleerd hieronder. Leer hoe te om tot uw campagnerapporten op [ toegang te hebben deze pagina ](campaign-reports.md).
 
 ## Leveringsoverzicht {#delivery-summary-sms}
 
@@ -23,9 +23,9 @@ Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de
 
 Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de manier waarop bezoekers uw SMS-levering gebruiken. De cijfers worden hieronder beschreven.
 
-![&#x200B; het rapport dat van het Overzicht van de Levering de metriek van SMS &#x200B;](assets/campaign_report_sms_1.png){zoomable="yes"} toont
+![ het rapport dat van het Overzicht van de Levering de metriek van SMS ](assets/campaign_report_sms_1.png){zoomable="yes"} toont
 
-+++Meer weten over de metriek van het de campagnerapport van SMS.
++++Meer weten over de metriek van SMS-campagnerapporten?
 
 * **[!UICONTROL Total sent]**: Het totale aantal berichten dat tijdens de voorbereiding van de levering wordt verwerkt.
 
@@ -46,9 +46,9 @@ Het **[!UICONTROL Delivery Overview]** -rapport bevat prestatie-indicatoren (KPI
 
 In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De cijfers worden hieronder beschreven.
 
-![&#x200B; Aanvankelijke lijst van de doelpubliek die ontvankelijke gegevens tonen &#x200B;](assets/campaign_report_sms_2.png){zoomable="yes"}
+![ Aanvankelijke lijst van de doelpubliek die ontvankelijke gegevens tonen ](assets/campaign_report_sms_2.png){zoomable="yes"}
 
-+++Meer weten over de metriek van het de campagnerapport van SMS.
++++Meer weten over de metriek van SMS-campagnerapporten?
 
 * **[!UICONTROL Initial audience]**: het totale aantal beoogde ontvangers.
 
@@ -67,9 +67,9 @@ In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens 
 
 In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol de levering is. De cijfers worden hieronder beschreven.
 
-![&#x200B; de statistieklijst van de Uitvoering die de metriek van het leveringssucces toont &#x200B;](assets/campaign_report_sms_3.png){zoomable="yes"}
+![ de statistieklijst van de Uitvoering die de metriek van het leveringssucces toont ](assets/campaign_report_sms_3.png){zoomable="yes"}
 
-+++Meer weten over de metriek van het de campagnerapport van SMS.
++++Meer weten over de metriek van SMS-campagnerapporten?
 
 * **[!UICONTROL Message to deliver]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -79,7 +79,7 @@ In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol
 
 * **[!UICONTROL New quarantines]**: Het totale aantal adressen dat in quarantaine wordt geplaatst na een mislukte levering (onbekend, ongeldig domein), in verhouding tot het aantal te leveren berichten.
 
-  De de foutentypes van SMS zijn vermeld in [&#x200B; Adobe Campaign v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#sms-quarantines){target="_blank"}.
+  De de foutentypes van SMS zijn vermeld in [ Adobe Campaign v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#sms-quarantines){target="_blank"}.
 
 +++
 
@@ -92,9 +92,9 @@ In de tabel **[!UICONTROL Execution statistics]** wordt aangegeven hoe succesvol
 
 In de tabel **[!UICONTROL Generated click streams]** worden gegevens weergegeven die relatief zijn ten opzichte van de manier waarop de ontvangers met de levering hebben gewerkt. De cijfers worden hieronder beschreven.
 
-![&#x200B; Gegenereerde klikstroomlijst die ontvankelijke interactiegegevens tonen &#x200B;](assets/campaign_report_sms_4.png){zoomable="yes"}
+![ Gegenereerde klikstroomlijst die ontvankelijke interactiegegevens tonen ](assets/campaign_report_sms_4.png){zoomable="yes"}
 
-+++Meer weten over de metriek van het de campagnerapport van SMS.
++++Meer weten over de metriek van SMS-campagnerapporten?
 
 * **[!UICONTROL Distinct clicks]**: Het totale aantal verschillende ontvangers dat minstens één keer in een levering heeft geklikt.
 
