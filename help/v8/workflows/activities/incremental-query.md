@@ -31,7 +31,7 @@ De **Incrementele vraag** activiteit is a **richtend** activiteit die u toestaat
 
 >[!NOTE]
 >
->Terwijl de de cliëntconsole van de Campagne de **[!UICONTROL Incremental query]** activiteit met een ingebouwde planner integreert, behandelt het Gebruikersinterface van het Web van de Campagne deze functionaliteit afzonderlijk. Als u incrementele query-uitvoeringen wilt plannen, voegt u een **[!UICONTROL Scheduler]** -activiteit toe in de workflow vóór de **[!UICONTROL Incremental query]** -activiteit. [&#x200B; Leer hoe te om een activiteit van de Planner te vormen &#x200B;](scheduler.md)
+>Terwijl de de cliëntconsole van de Campagne de **[!UICONTROL Incremental query]** activiteit met een ingebouwde planner integreert, behandelt het Gebruikersinterface van het Web van de Campagne deze functionaliteit afzonderlijk. Als u incrementele query-uitvoeringen wilt plannen, voegt u een **[!UICONTROL Scheduler]** -activiteit toe in de workflow vóór de **[!UICONTROL Incremental query]** -activiteit. [ Leer hoe te om een activiteit van de Planner te vormen ](scheduler.md)
 
 De **[!UICONTROL Incremental query]** -activiteit kan voor verschillende doeleinden worden gebruikt:
 
@@ -53,9 +53,9 @@ Volg deze stappen om de **Incrementele vraag** activiteit te vormen:
 
 1. In de **[!UICONTROL Audience]** sectie, kies de **Doelende afmeting**, dan klik **[!UICONTROL Continue]**.
 
-   De doelgerichte dimensie definieert de bevolking waarop de actie gericht is, zoals ontvangers, begunstigden van contracten, exploitanten of abonnees. Standaard is het doel geselecteerd bij de ontvangers. [&#x200B; leer meer over het richten van dimensies &#x200B;](../../audience/about-recipients.md#targeting-dimensions)
+   De doelgerichte dimensie definieert de bevolking waarop de actie gericht is, zoals ontvangers, begunstigden van contracten, exploitanten of abonnees. Standaard is het doel geselecteerd bij de ontvangers. [ leer meer over het richten van dimensies ](../../audience/about-recipients.md#targeting-dimensions)
 
-1. Gebruik de vraagmodeler om uw vraag te bepalen, gelijkend op hoe u een publiek wanneer het ontwerpen van een nieuwe e-mail creeert. [&#x200B; Leer hoe te met de vraagmodelaar &#x200B;](../../query/query-modeler-overview.md) te werken
+1. Gebruik de vraagmodeler om uw vraag te bepalen, gelijkend op hoe u een publiek wanneer het ontwerpen van een nieuwe e-mail creeert. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
 
 1. Selecteer in de sectie **[!UICONTROL Processed data]** de incrementele modus die u wilt gebruiken:
 
@@ -75,7 +75,7 @@ Volg deze stappen om de **Incrementele vraag** activiteit te vormen:
 
 In het volgende voorbeeld ziet u de configuratie van een workflow die profielen in de Adobe Campaign-database elke week filtert. Het is gericht op personen die zijn geabonneerd op de Yoga Newsletter-service en stuurt hen een welkome e-mail.
 
-![&#x200B; Screenshot van een configuratie van het voorbeeldwerkschema voor het filtreren van profielen die aan de dienst van het Nieuwsbrief Yoga worden ingetekend.](../assets/incremental-query-example.png)
+![ Screenshot van een configuratie van het voorbeeldwerkschema voor het filtreren van profielen die aan de dienst van het Nieuwsbrief Yoga worden ingetekend.](../assets/incremental-query-example.png)
 
 De workflow bevat de volgende elementen:
 
