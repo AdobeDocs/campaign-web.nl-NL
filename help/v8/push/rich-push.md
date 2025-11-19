@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->* Voor deze functie is een update naar Campagne v8.6.3 <!--or v8.7.2--> vereist. Leer meer in de console van de Cliënt van de Campagne v8 [&#x200B; versienota&#39;s &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
+>* Voor deze functie is een update naar Campagne v8.6.3 <!--or v8.7.2--> vereist. Leer meer in de console van de Cliënt van de Campagne v8 [ versienota&#39;s ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes){target="_blank"}.
 >
->* Alvorens een Rich Push Bericht te ontwerpen, moet u eerst uw V2 schakelaar vormen. Verwijs naar [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} voor de gedetailleerde procedure.
+>* Alvorens een Rich Push Bericht te ontwerpen, moet u eerst uw V2 schakelaar vormen. Verwijs naar [ deze pagina ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"} voor de gedetailleerde procedure.
 
 
 Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
@@ -30,7 +30,7 @@ Met Firebase Cloud Messaging kunt u kiezen uit twee typen berichten:
 
 * De **[!UICONTROL Notification message]** , die automatisch wordt afgehandeld door de FCM SDK. FCM geeft automatisch het bericht weer op de apparaten van uw gebruikers namens de client-app. Meldingsberichten bevatten een vooraf gedefinieerde set parameters en opties, maar kunnen nog steeds verder worden aangepast met aangepaste toepassingsvariabelen.
 
-![&#x200B; Screenshof van de Leverancier op de pagina van Android &#x200B;](assets/rich_push.png){zoomable="yes"}
+![ Screenshof van de Leverancier op de pagina van Android ](assets/rich_push.png){zoomable="yes"}
 
 ## De inhoud van het bericht definiëren {#push-message}
 
@@ -60,7 +60,7 @@ Navigeer door de lusjes hieronder om meer te leren over hoe te om deze malplaatj
 
 >[!TAB  Gebrek ]
 
-1. Selecteer **[!UICONTROL Default]** in de vervolgkeuzelijst **[!UICONTROL Template]** .
+1. Selecteer **[!UICONTROL Template]** in de vervolgkeuzelijst **[!UICONTROL Default]** .
 
    ![](assets/rich_push_default.png)
 
@@ -82,7 +82,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  Basis ]
 
-1. Selecteer **[!UICONTROL Basic]** in de vervolgkeuzelijst **[!UICONTROL Template]** .
+1. Selecteer **[!UICONTROL Template]** in de vervolgkeuzelijst **[!UICONTROL Basic]** .
 
    ![](assets/rich_push_basic.png)
 
@@ -104,7 +104,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
    * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
 
-   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [&#128279;](https://developer.android.com/training/app-links).
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [.](https://developer.android.com/training/app-links)
 
    ![](assets/rich_push_basic_3.png)
 
@@ -132,7 +132,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  Carousel ]
 
-1. Selecteer **[!UICONTROL Carousel]** in de vervolgkeuzelijst **[!UICONTROL Template]** .
+1. Selecteer **[!UICONTROL Template]** in de vervolgkeuzelijst **[!UICONTROL Carousel]** .
 
    ![](assets/rich_push_carousel.png)
 
@@ -148,13 +148,13 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 1. Selecteer de **[!UICONTROL Link type]** URL die u aan het veld **[!UICONTROL Click action]** hebt toegevoegd:
 
-   * **[!UICONTROL Web UR]**&#x200B;L: URL&#39;s leiden gebruikers naar online-inhoud. Als ze klikken, wordt de standaardwebbrowser van het apparaat gevraagd om de opgegeven URL te openen en ernaar te navigeren.
+   * **[!UICONTROL Web UR]**L: URL&#39;s leiden gebruikers naar online-inhoud. Als ze klikken, wordt de standaardwebbrowser van het apparaat gevraagd om de opgegeven URL te openen en ernaar te navigeren.
 
    * **[!UICONTROL Deeplink]**: Diepe koppelingen zijn URL&#39;s die gebruikers naar specifieke secties in een app sturen, zelfs als de app is gesloten. Wanneer op deze knop wordt geklikt, wordt een dialoogvenster weergegeven waarin gebruikers kunnen kiezen uit verschillende apps waarmee de koppeling kan worden afgehandeld.
 
    * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
 
-   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [&#128279;](https://developer.android.com/training/app-links).
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [.](https://developer.android.com/training/app-links)
 
    ![](assets/rich_push_carousel_2.png)
 
@@ -181,7 +181,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  de knopen van het Pictogram ]
 
-1. Selecteer **[!UICONTROL Icon buttons]** in de vervolgkeuzelijst **[!UICONTROL Template]** .
+1. Selecteer **[!UICONTROL Template]** in de vervolgkeuzelijst **[!UICONTROL Icon buttons]** .
 
    ![](assets/rich_push_icon_1.png)
 
@@ -195,7 +195,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
    * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
 
-   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [&#128279;](https://developer.android.com/training/app-links).
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [.](https://developer.android.com/training/app-links)
 
    ![](assets/rich_push_icon_2.png)
 
@@ -219,7 +219,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  doos van de Input ]
 
-1. Selecteer **[!UICONTROL Input box]** in de vervolgkeuzelijst **[!UICONTROL Notification type]** .
+1. Selecteer **[!UICONTROL Notification type]** in de vervolgkeuzelijst **[!UICONTROL Input box]** .
 
    ![](assets/rich_push_input_1.png)
 
@@ -241,7 +241,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
    * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
 
-   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [&#128279;](https://developer.android.com/training/app-links).
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [.](https://developer.android.com/training/app-links)
 
 1. Als u uw pushmelding verder wilt aanpassen, kunt u een **[!UICONTROL Image]** URL kiezen om aan uw pushmelding toe te voegen en de meldingen **[!UICONTROL Icon]** om deze weer te geven op de apparaten van uw profielen.
 
@@ -260,7 +260,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  de catalogus van het Product ]
 
-1. Selecteer **[!UICONTROL Product catalog]** in de vervolgkeuzelijst **[!UICONTROL Notification type]** .
+1. Selecteer **[!UICONTROL Notification type]** in de vervolgkeuzelijst **[!UICONTROL Product catalog]** .
 
    ![](assets/rich_push_catalog_1.png)
 
@@ -280,7 +280,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
    * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
 
-   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [&#128279;](https://developer.android.com/training/app-links).
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [.](https://developer.android.com/training/app-links)
 
 1. Als u uw pushmelding verder wilt aanpassen, kunt u de berichttekst **[!UICONTROL Icon]** kiezen om weer te geven op de apparaten van uw profielen.
 
@@ -302,7 +302,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  Rating van het Product ]
 
-1. Selecteer **[!UICONTROL Product rating]** in de vervolgkeuzelijst **[!UICONTROL Notification type]** .
+1. Selecteer **[!UICONTROL Notification type]** in de vervolgkeuzelijst **[!UICONTROL Product rating]** .
 
    ![](assets/rich_push_rating_1.png)
 
@@ -322,7 +322,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
    * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
 
-   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [&#128279;](https://developer.android.com/training/app-links).
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [.](https://developer.android.com/training/app-links)
 
 1. Als u uw pushmelding verder wilt aanpassen, kunt u een **[!UICONTROL Image]** URL kiezen om aan uw pushmelding toe te voegen en de meldingen **[!UICONTROL Icon]** om deze weer te geven op de apparaten van uw profielen.
 
@@ -344,7 +344,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  Tijdopnemer ]
 
-1. Selecteer **[!UICONTROL Timer]** in de vervolgkeuzelijst **[!UICONTROL Notification type]** .
+1. Selecteer **[!UICONTROL Notification type]** in de vervolgkeuzelijst **[!UICONTROL Timer]** .
 
    ![](assets/rich_push_timer_1.png)
 
@@ -364,7 +364,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
    * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
 
-   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [&#128279;](https://developer.android.com/training/app-links).
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [.](https://developer.android.com/training/app-links)
 
    ![](assets/rich_push_timer_3.png)
 
@@ -384,7 +384,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
 >[!TAB  Nul schuine rand ]
 
-1. Selecteer **[!UICONTROL Zero bezel]** in de vervolgkeuzelijst **[!UICONTROL Notification type]** .
+1. Selecteer **[!UICONTROL Notification type]** in de vervolgkeuzelijst **[!UICONTROL Zero bezel]** .
 
    ![](assets/rich_push_bezel_1.png)
 
@@ -406,7 +406,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 
    * **[!UICONTROL Open App]**: Open App URL&#39;s waarmee u rechtstreeks verbinding kunt maken met inhoud binnen een toepassing. Het laat uw toepassing toe om zich als standaardmanager voor een specifiek type van verbinding te vestigen, die de dialoog overslaat.
 
-   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [&#128279;](https://developer.android.com/training/app-links).
+   Voor meer informatie over hoe te om de Verbindingen van de Toepassing van Android te behandelen, verwijs naar {de documentatie van de Ontwikkelaars van 0} Android [.](https://developer.android.com/training/app-links)
 
 1. Als u uw pushmelding verder wilt aanpassen, kunt u een **[!UICONTROL Image]** URL kiezen om aan uw pushmelding toe te voegen en de meldingen **[!UICONTROL Icon]** om deze weer te geven op de apparaten van uw profielen.
 
@@ -435,7 +435,7 @@ Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testabonnees gebruike
 | **[!UICONTROL Notification Count]** | Stel het aantal nieuwe ongelezen gegevens in dat rechtstreeks op het toepassingspictogram moet worden weergegeven. Hierdoor kan de gebruiker snel zien hoeveel meldingen in behandeling zijn. |
 | **[!UICONTROL Channel ID]** | Stel de kanaal-id van uw melding in. De app moet een kanaal met deze kanaal-id maken voordat meldingen met deze kanaal-id worden ontvangen. |
 | **[!UICONTROL Tag]** | Stel een id in die wordt gebruikt om bestaande meldingen in de meldingslade te vervangen. Dit helpt de accumulatie van meerdere meldingen te voorkomen en zorgt ervoor dat alleen de meest recente relevante kennisgeving wordt weergegeven. |
-| **[!UICONTROL Priority]** | Stel het prioriteitsniveau van uw melding in. Dit kan standaard, minimaal, laag of hoog zijn. Het prioriteitsniveau bepaalt het belang en de urgentie van de melding, en beïnvloedt hoe deze wordt weergegeven en of bepaalde systeeminstellingen kunnen worden omzeild. Voor meer op dit, verwijs naar [&#x200B; documentatie FCM &#x200B;](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
-| **[!UICONTROL Visibility]** | Stel het zichtbaarheidsniveau van uw melding in. Dit kan openbaar, privé of geheim zijn. Het zichtbaarheidsniveau bepaalt hoeveel van de inhoud van het bericht wordt weergegeven op het vergrendelingsscherm en andere gevoelige gebieden. Voor meer informatie, verwijs naar de [&#x200B; documentatie FCM &#x200B;](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility). |
+| **[!UICONTROL Priority]** | Stel het prioriteitsniveau van uw melding in. Dit kan standaard, minimaal, laag of hoog zijn. Het prioriteitsniveau bepaalt het belang en de urgentie van de melding, en beïnvloedt hoe deze wordt weergegeven en of bepaalde systeeminstellingen kunnen worden omzeild. Voor meer op dit, verwijs naar [ documentatie FCM ](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#notificationpriority). |
+| **[!UICONTROL Visibility]** | Stel het zichtbaarheidsniveau van uw melding in. Dit kan openbaar, privé of geheim zijn. Het zichtbaarheidsniveau bepaalt hoeveel van de inhoud van het bericht wordt weergegeven op het vergrendelingsscherm en andere gevoelige gebieden. Voor meer informatie, verwijs naar de [ documentatie FCM ](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#visibility). |
 | **[!UICONTROL Sticky notification]** | Wanneer geactiveerd, blijft het bericht zichtbaar zelfs nadat de gebruiker erop klikt. <br> als gedeactiveerd, wordt het bericht automatisch verworpen wanneer de gebruiker met het in wisselwerking staat. Dankzij het plakgedrag blijven belangrijke meldingen langer op het scherm staan. |
 | **[!UICONTROL Application variables]** | Hiermee kunt u gedrag voor meldingen definiëren. Deze variabelen kunnen volledig worden aangepast en worden opgenomen in de berichtlading die naar het mobiele apparaat wordt verzonden. |
