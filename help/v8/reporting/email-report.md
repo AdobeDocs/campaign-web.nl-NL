@@ -30,13 +30,13 @@ Het **E-mailleveringsrapport** biedt uitvoerige inzichten en gegevens specifiek 
 
 In de grafiek van **[!UICONTROL Initial target population]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De metriek worden berekend tijdens levering voorbereiding en toon: het aanvankelijke publiek, het aantal te verzenden berichten, het aantal uitgesloten ontvangers.
 
-![&#x200B; Schermafbeelding van een grafiek die gegevens &#x200B;](assets/reporting_email_1.png){zoomable="yes"} toont
+![ Schermafbeelding van een grafiek die gegevens ](assets/reporting_email_1.png){zoomable="yes"} toont
 
 Plaats de muis boven een gedeelte van de grafiek om het exacte getal weer te geven.
 
-![&#x200B; Schermafbeelding van een grafiek met een muis over een gedeelte om het nauwkeurige aantal &#x200B;](assets/reporting_email_1.1.png){zoomable="yes"} te tonen
+![ Schermafbeelding van een grafiek met een muis over een gedeelte om het nauwkeurige aantal ](assets/reporting_email_1.1.png){zoomable="yes"} te tonen
 
-+++ Meer weten over de cijfers van het e-mailleveringsrapport?
++++Meer weten over de cijfers van e-mailverzendrapporten?
 
 * **[!UICONTROL Initial audience]**: het totale aantal beoogde ontvangers.
 
@@ -54,9 +54,9 @@ Plaats de muis boven een gedeelte van de grafiek om het exacte getal weer te gev
 
 In de grafiek van **[!UICONTROL Delivery statistics]** wordt aangegeven hoe succesvol de levering is. De cijfers worden hieronder beschreven.
 
-![&#x200B; Schermafbeelding van een grafiek die de details van de leveringsstatistieken toont &#x200B;](assets/reporting_email_2.png){zoomable="yes"}
+![ Schermafbeelding van een grafiek die de details van de leveringsstatistieken toont ](assets/reporting_email_2.png){zoomable="yes"}
 
-+++Meer weten over de cijfers van het e-mailcampagnerapport?
++++Meer weten over de cijfers van e-mailcampagnerapporten?
 
 * **[!UICONTROL Message sent]**: Het totale aantal berichten dat na de voorbereiding van de levering moet worden geleverd.
 
@@ -75,11 +75,11 @@ In de grafiek van **[!UICONTROL Delivery statistics]** wordt aangegeven hoe succ
 >title="Uitsluitingsoorzaken"
 >abstract="De **Oorzaken van uitsluiting** grafiek en de lijst tonen de onderbreking per regel van berichten die tijdens de leveringsvoorbereiding worden verworpen."
 
-In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** wordt de uitsplitsing per regel weergegeven van berichten die tijdens de voorbereiding van de levering zijn geweigerd. De regels van de uitsluiting zijn gedetailleerd in de [&#x200B; Campagne v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#email-error-types){_blank}.
+In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** wordt de uitsplitsing per regel weergegeven van berichten die tijdens de voorbereiding van de levering zijn geweigerd. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
 
-![&#x200B; Schermafbeelding van de Oorzaken van uitsluitingsgrafiek en lijst &#x200B;](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
+![ Schermafbeelding van de Oorzaken van uitsluitingsgrafiek en lijst ](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++ Meer weten over de cijfers van het e-mailleveringsrapport?
++++Meer weten over de cijfers van e-mailverzendrapporten?
 
 * **[!UICONTROL User unknown]**: Fouttype dat tijdens de levering wordt gegenereerd om aan te geven dat het e-mailadres ongeldig is.
 
@@ -106,7 +106,7 @@ In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** wordt de uitspli
 
 Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele platform binnen een opgegeven tijdsbestek. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
 
-![&#x200B; Schermafbeelding van de leveringsproductie &#x200B;](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
+![ Schermafbeelding van de leveringsproductie ](assets/reporting_email_3.1.png){zoomable="yes"}{align="center" zoomable="yes"}
 
 
 ## Uitzendstatistieken {#broadcast-statistics}
@@ -118,9 +118,9 @@ Dit rapport bevat gedetailleerde informatie over de leveringstijd van het gehele
 
 De tabel **[!UICONTROL Broadcast statistics]** bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen. De cijfers worden hieronder beschreven.
 
-![&#x200B; Schermafbeelding van de statistieken van de Uitzending &#x200B;](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
+![ Schermafbeelding van de statistieken van de Uitzending ](assets/reporting_email_4.png){zoomable="yes"}{align="center" zoomable="yes"}
 
-+++ Meer weten over de cijfers van het e-mailleveringsrapport?
++++Meer weten over de cijfers van e-mailverzendrapporten?
 
 * **[!UICONTROL Processed emails]**: Het totale aantal berichten dat door de leveringsserver wordt verwerkt.
 
@@ -153,11 +153,11 @@ De tabel **[!UICONTROL Broadcast statistics]** bevat de beschikbare gegevens voo
 
 De tabel en grafiek van **[!UICONTROL Breakdown of errors per type]** bevatten de beschikbare gegevens voor het fouttype. De cijfers worden hieronder beschreven.
 
-De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=nl-NL){target="_blank"}.
+De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [ Campagne v8 (cliëntconsole) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
 
-![&#x200B; Scherenshot van de onderbreking van fouten per type &#x200B;](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
+![ Scherenshot van de onderbreking van fouten per type ](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-+++ Meer weten over de cijfers van het e-mailleveringsrapport?
++++Meer weten over de cijfers van e-mailverzendrapporten?
 
 * **[!UICONTROL User unknown]**: Fouttype dat tijdens de levering wordt gegenereerd om aan te geven dat het e-mailadres ongeldig is.
 
@@ -189,13 +189,13 @@ De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces
 
 In de tabel en grafiek van **[!UICONTROL Breakdown of errors per domain]** worden de beschikbare gegevens weergegeven voor mogelijke fouten die met elk domein worden aangetroffen.
 
-![&#x200B; Screenshot van de mislukking van fouten per domein &#x200B;](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
+![ Screenshot van de mislukking van fouten per domein ](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
 Klik op het pictogram naast de naam van elk domein om details weer te geven.
 
-![&#x200B; Schermafbeelding van de Uitsplitsing van fouten per domein met de details van elk domein &#x200B;](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
+![ Schermafbeelding van de Uitsplitsing van fouten per domein met de details van elk domein ](assets/campaign_report_email_6.1.png){zoomable="yes"}{align="left" zoomable="yes"}
 
-De metriek beschikbaar is het zelfde als voor [&#x200B; Uitsplitsing van fouten door type &#x200B;](#email-delivery-breakdown-type) hierboven beschreven.
+De metriek beschikbaar is het zelfde als voor [ Uitsplitsing van fouten door type ](#email-delivery-breakdown-type) hierboven beschreven.
 
 ## Trackingsindicatoren {#tracking-indicators-email}
 
@@ -216,9 +216,9 @@ De metriek beschikbaar is het zelfde als voor [&#x200B; Uitsplitsing van fouten 
 
 Het **[!UICONTROL Delivery statistics]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over gegevens die beschikbaar zijn voor verzonden e-mails. De cijfers worden hieronder beschreven.
 
-![&#x200B; Schermafbeelding van de statistieken van de Levering &#x200B;](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
+![ Schermafbeelding van de statistieken van de Levering ](assets/reporting_email_5.png){zoomable="yes"}{align="center"}
 
-+++ Meer weten over de cijfers van het e-mailleveringsrapport?
++++Meer weten over de cijfers van e-mailverzendrapporten?
 
 * **[!UICONTROL Success]**: Het aantal berichten dat met succes is verwerkt in verhouding tot het aantal te leveren berichten.
 
@@ -244,9 +244,9 @@ Het **[!UICONTROL Delivery statistics]** -rapport bevat prestatie-indicatoren (K
 
 In de tabel **[!UICONTROL Open and click-through rate]** worden gegevens weergegeven die relatief zijn ten opzichte van de ontvangers. De cijfers worden hieronder beschreven.
 
-![&#x200B; Schermafbeelding van de Open en klik-door lijst van het tarief &#x200B;](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
+![ Schermafbeelding van de Open en klik-door lijst van het tarief ](assets/reporting_email_6.png){zoomable="yes"}{align="center"}
 
-+++ Meer weten over de cijfers van het e-mailleveringsrapport?
++++Meer weten over de cijfers van e-mailverzendrapporten?
 
 * **[!UICONTROL Sent]**: Het totale aantal verzonden berichten.
 
@@ -269,9 +269,9 @@ In de tabel **[!UICONTROL Open and click-through rate]** worden gegevens weergeg
 
 Het rapport **[!UICONTROL URLs and click streams]** bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over de URL&#39;s waarop het meest is geklikt tijdens een levering.
 
-![&#x200B; Schermafbeelding van URLs en klik stromen rapport &#x200B;](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
+![ Schermafbeelding van URLs en klik stromen rapport ](assets/reporting_email_7.png){zoomable="yes"}{align="center"}
 
-+++ Meer weten over de cijfers van het e-mailleveringsrapport?
++++Meer weten over de cijfers van e-mailverzendrapporten?
 
 * **[!UICONTROL Reactivity]**: Verhouding van het aantal beoogde ontvangers dat op een levering heeft geklikt, in verhouding tot het geschatte aantal beoogde ontvangers dat een levering heeft geopend.
 
@@ -294,9 +294,9 @@ Het rapport **[!UICONTROL URLs and click streams]** bevat prestatie-indicatoren 
 
 De **[!UICONTROL Top 10 most visited links]** -grafiek en -tabel bevatten de beschikbare gegevens voor het gedrag van ontvangers per koppeling.
 
-![&#x200B; Schermafbeelding van de Top 10 meest bezochte verbindingengrafiek &#x200B;](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
+![ Schermafbeelding van de Top 10 meest bezochte verbindingengrafiek ](assets/reporting_email_8.png){zoomable="yes"}{align="center"}
 
-+++ Meer weten over de cijfers van het e-mailleveringsrapport?
++++Meer weten over de cijfers van e-mailverzendrapporten?
 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
@@ -315,7 +315,7 @@ De **[!UICONTROL Top 10 most visited links]** -grafiek en -tabel bevatten de bes
 
 De grafiek **[!UICONTROL Breakdown of clicks over time]** bevat de beschikbare gegevens voor het gedrag van ontvangers per koppeling.
 
-![&#x200B; Schermafbeelding van de Uitsplitsing van kliks in tijdgrafiek &#x200B;](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
+![ Schermafbeelding van de Uitsplitsing van kliks in tijdgrafiek ](assets/reporting_email_9.png){zoomable="yes"}{align="center"}
 
 ## Gebruikersactiviteiten {#user-activities-email}
 
@@ -326,9 +326,9 @@ De grafiek **[!UICONTROL Breakdown of clicks over time]** bevat de beschikbare g
 
 Het **[!UICONTROL User activities]** rapport toont de uitsplitsing van opent en klikt in de vorm van een grafiek. U kunt de tijdsperiode kiezen waarin de gegevens moeten worden opgenomen: laatste dag, afgelopen uur of 30 minuten.
 
-![&#x200B; Schermafbeelding van het rapport van de Gebruikersactiviteiten &#x200B;](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
+![ Schermafbeelding van het rapport van de Gebruikersactiviteiten ](assets/reporting_email_10.png){zoomable="yes"}{align="center"}
 
-+++ Meer weten over de cijfers van het e-mailleveringsrapport?
++++Meer weten over de cijfers van e-mailverzendrapporten?
 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
@@ -345,9 +345,9 @@ Het **[!UICONTROL User activities]** rapport toont de uitsplitsing van opent en 
 
 De grafiek van **[!UICONTROL Tracking Statistics]** verstrekt statistieken over opent en klikt. U kunt het specifieke tijdkader selecteren voor het opgeven van gegevens.
 
-![&#x200B; Schermafbeelding van de het Volgen grafiek van statistiek &#x200B;](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
+![ Schermafbeelding van de het Volgen grafiek van statistiek ](assets/reporting_email_11.png){zoomable="yes"}{align="center"}
 
-+++ Meer weten over de cijfers van het e-mailleveringsrapport?
++++Meer weten over de cijfers van e-mailverzendrapporten?
 
 * **[!UICONTROL Clicks]**: Het totale aantal klikken op koppelingen in leveringen.
 
@@ -368,7 +368,7 @@ Het **Uitsplitsing door apparaat** rapport toont de onderbreking van opent door 
 
 Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele apparaten. Het tweede toont het nauwkeurige aantal en het percentage voor elk apparatentype.
 
-![&#x200B; Schermafbeelding van de Onderbreking door apparatenrapport &#x200B;](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
+![ Schermafbeelding van de Onderbreking door apparatenrapport ](assets/reporting_email_13.png){zoomable="yes"}{align="center"}
 
 
 ### Opsplitsing van openen door besturingssysteem {#breakdown-opens-os}
@@ -382,7 +382,7 @@ Het **Uitsplitsing door OS** rapport toont de uitsplitsing van opent door werken
 
 Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele werkende systemen. In het tweede voorbeeld worden het exacte aantal en het exacte percentage voor elk besturingssysteem weergegeven.
 
-![&#x200B; Schermafbeelding van de Onderbreking door OS rapport &#x200B;](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
+![ Schermafbeelding van de Onderbreking door OS rapport ](assets/reporting_email_13.1.png){zoomable="yes"}{align="center"}
 
 ### Indeling van opent via browser {#breakdown-opens-browser}
 
@@ -395,7 +395,7 @@ Het **Uitsplitsing door browser** rapport toont de onderbreking van opent door b
 
 Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken betreffende opent op een computer en mobiele werkende systemen. Het tweede toont het nauwkeurige aantal en het percentage voor elke browser.
 
-![&#x200B; Schermafbeelding van de Breakdown van opent door browser rapport &#x200B;](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
+![ Schermafbeelding van de Breakdown van opent door browser rapport ](assets/reporting_email_13.2.png){zoomable="yes"}{align="center"}
 
 
 ## Hotclicks {#hotclicks}
@@ -407,4 +407,4 @@ Voor elke categorie worden twee grafieken gebruikt. De eerste toont statistieken
 
 Dit rapport toont de berichtinhoud (HTML en/of tekst) met, op elke verbinding, het percentage kliks op verbindingen. De blokken van de verpersoonlijking, unsubscription verbindingen, de verbindingen van de spiegel, en aanbiedingsverbindingen worden in de totale gecumuleerde klikken in aanmerking genomen, maar niet getoond in het rapport.
 
-![&#x200B; Schermafbeelding van het Hotclicks-rapport &#x200B;](assets/reporting11.png){zoomable="yes"}
+![ Schermafbeelding van het Hotclicks-rapport ](assets/reporting11.png){zoomable="yes"}
