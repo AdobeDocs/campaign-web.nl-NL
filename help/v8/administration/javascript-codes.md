@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Met JavaScript-codes kunt u herbruikbare functies maken die in verschillende workflows kunnen worden gebruikt, net als in een bibliotheek. Deze functies worden opgeslagen in het menu **[!UICONTROL Administration]** > **[!UICONTROL JavaScript codes]** in het linkernavigatievenster.
 
-![&#x200B; de interface van de de codelijst van JavaScript die beschikbare opties toont &#x200B;](assets/javascript-list.png)
+![ de interface van de de codelijst van JavaScript die beschikbare opties toont ](assets/javascript-list.png)
 
 In de lijst met JavaScript-codes kunt u:
 
@@ -49,7 +49,7 @@ Ga als volgt te werk om een JavaScript-code te maken:
    * **[!UICONTROL Name]**: De unieke id die wordt gebruikt om naar de code te verwijzen.
    * **[!UICONTROL Label]**: Het beschrijvende label dat wordt weergegeven in de lijst met JavaScript-codes.
 
-   ![&#x200B; de interface die van de de codeverwezenlijking van JavaScript namespace, naam, en etiketgebieden &#x200B;](assets/javascript-create.png) toont
+   ![ de interface die van de de codeverwezenlijking van JavaScript namespace, naam, en etiketgebieden ](assets/javascript-create.png) toont
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ Ga als volgt te werk om een JavaScript-code te maken:
 
 1. Klik op de knop **[!UICONTROL Create code]** om de JavaScript-code te definiëren. Het linkerdeelvenster bevat twee menu&#39;s waarmee u vooraf gedefinieerde functies kunt gebruiken die betrekking hebben op de voorwaarden en datumnotatie.
 
-   ![&#x200B; de interface van de de coderedacteur van JavaScript die predefined functies &#x200B;](assets/javascript-code.png) tonen
+   ![ de interface van de de coderedacteur van JavaScript die predefined functies ](assets/javascript-code.png) tonen
 
 1. Klik op **[!UICONTROL Confirm]** om de code op te slaan.
 
@@ -76,7 +76,7 @@ Ga als volgt te werk om een bibliotheek te laden:
 1. Open een workflow en klik op de knop **[!UICONTROL Settings]** .
 1. Ga naar de sectie **[!UICONTROL Initialization script]** en klik op **[!UICONTROL Create code]** .
 
-   ![&#x200B; het initialiseringsmanuscriptinterface die van het Werkschema codeverwezenlijking optie tonen &#x200B;](assets/javascript-initialization.png)
+   ![ het initialiseringsmanuscriptinterface die van het Werkschema codeverwezenlijking optie tonen ](assets/javascript-initialization.png)
 
 1. Gebruik de onderstaande syntaxis in de code om een bibliotheek te laden:
 
@@ -93,4 +93,4 @@ Ga als volgt te werk om een bibliotheek te laden:
 
 Nadat de JavaScript-bibliotheek is geladen, kunt u rechtstreeks in de workflow verwijzen naar de functies die in de JavaScript-code zijn gedefinieerd, meestal met een **[!UICONTROL JavaScript code]** -activiteit.
 
-![&#x200B; interface die van het Werkschema JavaScript functiegebruik toont &#x200B;](assets/javascript-function.png)
+![ interface die van het Werkschema JavaScript functiegebruik toont ](assets/javascript-function.png)
