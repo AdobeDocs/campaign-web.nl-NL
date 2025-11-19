@@ -33,7 +33,7 @@ Mappen zijn objecten in Adobe Campaign waarmee u uw componenten en gegevens kunt
 
 U kunt mappen in de navigatiestructuur maken, hernoemen, opnieuw ordenen en verplaatsen. U kunt deze ook verwijderen op basis van uw rechten.
 
-![&#x200B; interface die van Mappen omslagorganisatie &#x200B;](assets/folders.png){zoomable="yes"} tonen
+![ interface die van Mappen omslagorganisatie ](assets/folders.png){zoomable="yes"} tonen
 
 U kunt een maptype instellen. Bijvoorbeeld een map met leveringen. Het mappictogram verandert afhankelijk van het type.
 
@@ -51,23 +51,23 @@ U kunt een maptype instellen. Bijvoorbeeld een map met leveringen. Het mappictog
 
 Ga als volgt te werk om een nieuwe map te maken in de gebruikersinterface van Adobe Campaign:
 
-1. Ga in **[!UICONTROL Explorer]** naar de map waarin u de nieuwe map wilt maken. Selecteer **[!UICONTROL Create new folder]** onder het menu **[!UICONTROL ...]** .
+1. Ga in **[!UICONTROL Explorer]** naar de map waarin u de nieuwe map wilt maken. Selecteer **[!UICONTROL ...]** onder het menu **[!UICONTROL Create new folder]** .
 
-![&#x200B; creeer nieuwe omslagoptie in het menu van de Ontdekkingsreiziger &#x200B;](assets/folder_create.png){zoomable="yes"}
+![ creeer nieuwe omslagoptie in het menu van de Ontdekkingsreiziger ](assets/folder_create.png){zoomable="yes"}
 
 Wanneer u een nieuwe map maakt, wordt het maptype standaard ingesteld op het type bovenliggende map. In dit voorbeeld wordt een map gemaakt in de map **[!UICONTROL Deliveries]** .
 
-![&#x200B; Nieuwe die omslag onder de omslag van Leveringen wordt gecreeerd &#x200B;](assets/folder_new.png){zoomable="yes"}
+![ Nieuwe die omslag onder de omslag van Leveringen wordt gecreeerd ](assets/folder_new.png){zoomable="yes"}
 
 1. Wijzig het maptype door indien nodig op het pictogram voor het maptype te klikken en selecteer het gewenste type in de weergegeven lijst, zoals hieronder wordt getoond:
 
-![&#x200B; het type van Omslag selectieinterface &#x200B;](assets/folder_type.png){zoomable="yes"}
+![ het type van Omslag selectieinterface ](assets/folder_type.png){zoomable="yes"}
 
 Stel het maptype in door op de knop **[!UICONTROL Confirm]** te klikken.
 
 Als u een map zonder specifiek type wilt maken, selecteert u het type **[!UICONTROL Generic Folder]** .
 
-U kunt ook [&#x200B; omslagen in de console van Adobe Campaign &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/config/configuration/folders-and-views) tot stand brengen en leiden.
+U kunt ook [ omslagen in de console van Adobe Campaign ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/configuration/folders-and-views) tot stand brengen en leiden.
 
 ## Mappen opnieuw ordenen {#reorder-folders}
 
@@ -75,11 +75,11 @@ U kunt de mappen naar wens opnieuw ordenen. Klik hiertoe op **[!UICONTROL Reorde
 
 In dit voorbeeld, bevat de **Leveringen** omslag vier subfolders.
 
-![&#x200B; Reorder omslaginterface die omslaghiërarchie tonen &#x200B;](assets/folder-reorder.png){zoomable="yes"}
+![ Reorder omslaginterface die omslaghiërarchie tonen ](assets/folder-reorder.png){zoomable="yes"}
 
 U kunt de orde van omslagen veranderen of door **belemmering en daling** of door **op en neer pijlen** te gebruiken.
 
-![&#x200B; belemmering-en-dalingsfunctionaliteit voor omslag die &#x200B;](assets/folder-draganddrop.png){zoomable="yes"} opnieuw rangschikt
+![ belemmering-en-dalingsfunctionaliteit voor omslag die ](assets/folder-draganddrop.png){zoomable="yes"} opnieuw rangschikt
 
 ### Favoriete mappen {#favorite-folders}
 
@@ -92,7 +92,7 @@ De mappen die als Favoriet zijn gemarkeerd, worden altijd boven aan het linkerta
 
 U kunt mappen als favoriet toevoegen door in de rechterbovenhoek op de sterknop te klikken wanneer u een map weergeeft.
 
-![&#x200B; het schermschot van de de omslagplaats van de Favoriet &#x200B;](assets/folders-favorite.png){zoomable="yes"}
+![ het schermschot van de de omslagplaats van de Favoriet ](assets/folders-favorite.png){zoomable="yes"}
 
 ## Een map verwijderen {#delete-a-folder}
 
@@ -102,7 +102,7 @@ U kunt mappen als favoriet toevoegen door in de rechterbovenhoek op de sterknop 
 
 Als u een map wilt verwijderen, selecteert u deze in de **[!UICONTROL Explorer]** -structuur en klikt u op het menu **[!UICONTROL ...]** . Kies **[!UICONTROL Delete folder]** .
 
-![&#x200B; de omslagoptie van de Schrapping in het menu van de Ontdekkingsreiziger &#x200B;](assets/folder_delete.png){zoomable="yes"}
+![ de omslagoptie van de Schrapping in het menu van de Ontdekkingsreiziger ](assets/folder_delete.png){zoomable="yes"}
 
 ## Verdeling van waarden in een map {#distribution-values-folder}
 
@@ -116,11 +116,11 @@ Ga naar de map **[!UICONTROL Deliveries]** en klik op het pictogram **[!UICONTRO
 
 Klik in het venster **[!UICONTROL Configure columns]** op het pictogram **[!UICONTROL Information]** dat betrekking heeft op de kolom die u wilt analyseren. Klik vervolgens op de knop **[!UICONTROL Distribution of values]** .
 
-![&#x200B; Distributie van waardeinterface voor leveringen &#x200B;](assets/values_deliveries.png){zoomable="yes"}
+![ Distributie van waardeinterface voor leveringen ](assets/values_deliveries.png){zoomable="yes"}
 
 Het percentage waarden wordt weergegeven in de kolom **[!UICONTROL Channel]** .
 
-![&#x200B; Procentuele distributie van waarden in de kolom van het Kanaal &#x200B;](assets/values_percentage.png){zoomable="yes"}
+![ Procentuele distributie van waarden in de kolom van het Kanaal ](assets/values_percentage.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -128,11 +128,11 @@ Het percentage waarden wordt weergegeven in de kolom **[!UICONTROL Channel]** .
 
 U kunt ook de verdeling van waarden voor een koppeling weergeven.
 
-Klik in de lijst met kenmerken op de knop **+** naast de gewenste koppeling, zoals hieronder wordt weergegeven. Hiermee voegt u de koppeling toe aan **[!UICONTROL Output columns]** . U hebt nu toegang tot het pictogram **[!UICONTROL Information]** , zodat u de verdeling van de waarden kunt bekijken. Klik op de knop **[!UICONTROL Cancel]** als u de koppeling niet in **[!UICONTROL Output columns]** wilt behouden.
+Klik in de lijst met kenmerken op de knop **+** naast de gewenste koppeling, zoals hieronder wordt weergegeven. Hiermee voegt u de koppeling toe aan **[!UICONTROL Output columns]** . U hebt nu toegang tot het pictogram **[!UICONTROL Information]** , zodat u de verdeling van de waarden kunt bekijken. Klik op de knop **[!UICONTROL Output columns]** als u de koppeling niet in **[!UICONTROL Cancel]** wilt behouden.
 
-![&#x200B; Distributie van waarden voor een verbinding in de kolommen van de Output &#x200B;](assets/values_link.png){zoomable="yes"}
+![ Distributie van waarden voor een verbinding in de kolommen van de Output ](assets/values_link.png){zoomable="yes"}
 
-Het is ook mogelijk om de distributie van waarden in een vraagmodeler te bekijken. [&#x200B; leer hier meer &#x200B;](../query/build-query.md#distribution-of-values-in-a-query).
+Het is ook mogelijk om de distributie van waarden in een vraagmodeler te bekijken. [ leer hier meer ](../query/build-query.md#distribution-of-values-in-a-query).
 
 ### De waarden filteren {#filter-values}
 
@@ -140,4 +140,4 @@ Door **[!UICONTROL Advanced filters]** in de distributie van waardenvenster te g
 
 In het voorbeeld van de leveringslijst hierboven, die de distributie per kanaal toont, kunt u het filtreren om slechts leveringen met een status van **te tonen beëindigde**.
 
-![&#x200B; Geavanceerde filters die op distributie van waarden worden toegepast &#x200B;](assets/values_filter.png){zoomable="yes"}
+![ Geavanceerde filters die op distributie van waarden worden toegepast ](assets/values_filter.png){zoomable="yes"}
