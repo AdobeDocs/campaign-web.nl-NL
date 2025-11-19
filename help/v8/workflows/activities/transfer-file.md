@@ -54,7 +54,7 @@ Volg de hieronder gedetailleerde stappen om de **het dossier van de Overdracht**
 
 1. Selecteer de handeling die u wilt uitvoeren met de activiteit. Welke acties beschikbaar zijn, is afhankelijk van het type overdracht dat u hebt geselecteerd. Vouw de onderstaande secties uit voor meer informatie.
 
-   +++Acties beschikbaar met **de overdracht van het Dossier** type activiteiten
+   +++Acties beschikbaar met **het type van de overdracht van het Dossier** activiteiten
 
    * **[!UICONTROL File download]**: Download een bestand van de server.
    * **[!UICONTROL File upload]** : upload een bestand naar de server.
@@ -70,11 +70,11 @@ Volg de hieronder gedetailleerde stappen om de **het dossier van de Overdracht**
 
    +++
 
-   ![&#x200B; het Schermafbeelding tonen van de opties van de het dossieractie van de werkschemaoverdracht &#x200B;](../assets/workflow-transfer-file-action.png)
+   ![ het Schermafbeelding tonen van de opties van de het dossieractie van de werkschemaoverdracht ](../assets/workflow-transfer-file-action.png)
 
 1. Standaard gebruikt de activiteit voor handelingen voor het uploaden van bestanden het bestand dat is opgegeven in de vorige activiteit. Als u een ander bestand wilt gebruiken, schakelt u de optie **[!UICONTROL Use file from previous activity]** uit en klikt u op de knop **[!UICONTROL Add file]** .
 
-   Voer in het veld **[!UICONTROL Source]** de gewenste bestandsnaam in of gebruik de expressie-editor om de bestandsnaam te berekenen met behulp van gebeurtenisvariabelen. [&#x200B; Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur &#x200B;](../event-variables.md) te werken. Herhaal de bewerking om zoveel bestanden toe te voegen als u nodig hebt.
+   Voer in het veld **[!UICONTROL Source]** de gewenste bestandsnaam in of gebruik de expressie-editor om de bestandsnaam te berekenen met behulp van gebeurtenisvariabelen. [ Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur ](../event-variables.md) te werken. Herhaal de bewerking om zoveel bestanden toe te voegen als u nodig hebt.
 
 ## De overdrachtbestemming definiëren {#destination}
 
@@ -84,7 +84,7 @@ Volg de hieronder gedetailleerde stappen om de **het dossier van de Overdracht**
    * **[!UICONTROL Quick configuration]**: voer de URL in van het bestand (of de map voor handelingen voor het weergeven van bestanden).
    * **[!UICONTROL Adobe Campaign instance]** (Downloadtype-activiteiten voor het web): Download een bestand van een Adobe Campaign-instantieserver.
 
-   ![&#x200B; Schermafbeelding die de configuratieopties van de werkschemaoverhevelingsserver toont &#x200B;](../assets/workflow-transfer-file-server.png)
+   ![ Schermafbeelding die de configuratieopties van de werkschemaoverhevelingsserver toont ](../assets/workflow-transfer-file-server.png)
 
 1. Voor de acties van de POST van de download van het Web, kunt u extra parameters met de verrichting overgaan. Klik hiertoe op de knop **[!UICONTROL Add parameter]** en geef vervolgens de naam en waarde van de parameters op. U kunt zoveel parameters toevoegen als u nodig hebt.
 
@@ -99,7 +99,7 @@ Volg de hieronder gedetailleerde stappen om de **het dossier van de Overdracht**
 
 Telkens wanneer een activiteit **[!UICONTROL Transfer file]** wordt uitgevoerd, worden de geüploade of gedownloade bestanden opgeslagen in een speciale map. Er wordt één map gemaakt voor elke activiteit van een workflow in het overdrachtsbestand. Standaard worden bestanden opgeslagen in de standaard opslagmap van de installatiemap van Adobe Campaign (`/vars` ) voordat ze worden verwerkt. Als u een specifieke map wilt gebruiken, schakelt u de optie **[!UICONTROL Use a default storage directory]** uit en voert u het pad van de map in.
 
-![&#x200B; het Schermafbeelding tonen van het werkschemaoverhevelingsdossier historization montages &#x200B;](../assets/workflow-transfer-file-historization.png)
+![ het Schermafbeelding tonen van het werkschemaoverhevelingsdossier historization montages ](../assets/workflow-transfer-file-historization.png)
 
 Het is belangrijk om de grootte van deze omslag te beperken om fysieke ruimte op de server te bewaren. Hiertoe definieert u een maximumaantal bestanden of totale grootte voor de map van de activiteit. Standaard zijn 100 bestanden en 50 MB geautoriseerd.
 
@@ -146,14 +146,14 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de map als volgt gecontrol
 
    * **[!UICONTROL Delete the source files after transfer]**: Wis de bronbestanden na een geslaagde overdracht.
    * **[!UICONTROL Display the session logs]**: Wanneer deze optie wordt geactiveerd, wordt informatie over de overdrachtsbewerking weergegeven in de werkstroomlogboeken nadat de workflow is uitgevoerd.
-   * **[!UICONTROL List all files]** (Handelingen in bestandenlijsten): met deze optie worden alle bestanden geïndexeerd die zich op de server bevinden in de gebeurtenisvariabele `vars.filenames` , waarin de bestandsnamen worden gescheiden door de tekens `n` . [&#x200B; Leer hoe te met gebeurtenisvariabelen &#x200B;](../event-variables.md) te werken
+   * **[!UICONTROL List all files]** (Handelingen in bestandenlijsten): met deze optie worden alle bestanden geïndexeerd die zich op de server bevinden in de gebeurtenisvariabele `vars.filenames` , waarin de bestandsnamen worden gescheiden door de tekens `n` . [ Leer hoe te met gebeurtenisvariabelen ](../event-variables.md) te werken
 
    +++
 
    +++Aanvullende opties voor **[!UICONTROL Web download]** type-activiteiten
 
    * **[!UICONTROL Follow redirections]**: met Bestandsomleiding kunt u overschrijvingen gebruiken om de invoer of uitvoer van gegevens naar een ander type apparaat te sturen.
-   * **[!UICONTROL Add the HTTP headers to the file]**: In sommige gevallen kunt u extra HTTP-headers aan een bestand toevoegen. Meestal, zullen deze kopballen worden gebruikt om extra informatie voor het oplossen van problemendoeleinden, voor [&#x200B; het Delen van het Middel van de Cross-Origin (CORS) &#x200B;](https://developer.mozilla.org/docs/Web/HTTP/CORS) te verstrekken, of specifieke caching richtlijnen te plaatsen.
+   * **[!UICONTROL Add the HTTP headers to the file]**: In sommige gevallen kunt u extra HTTP-headers aan een bestand toevoegen. Meestal, zullen deze kopballen worden gebruikt om extra informatie voor het oplossen van problemendoeleinden, voor [ het Delen van het Middel van de Cross-Origin (CORS) ](https://developer.mozilla.org/docs/Web/HTTP/CORS) te verstrekken, of specifieke caching richtlijnen te plaatsen.
    * **[!UICONTROL Ignore the HTTP return code]**: HTTP-retourcodes, ook wel HTTP-statuscodes genoemd, geven het resultaat van een HTTP-aanvraag aan.
 
 1. Met de optie **[!UICONTROL Process errors]** kunt u een uitgaande overgang van het type Error activeren na de activiteit als er een fout optreedt tijdens de overdracht.
