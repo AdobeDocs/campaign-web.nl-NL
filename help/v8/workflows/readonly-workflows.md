@@ -19,22 +19,22 @@ ht-degree: 0%
 
 Sommige workflows zijn alleen-lezen. Ingebouwde technische workflows zijn altijd alleen-lezen, maar deze beperking kan ook van toepassing zijn op andere typen workflows.
 
-Campagnegebruikers hebben mogelijk beperkte toegang tot Adobe Campaign-gegevens. Een beheerder van de Campagne kan hen het recht verlenen om bepaalde eigenschappen te bekijken, maar niet om hen uit te geven of te wijzigen. Gebruikersmachtigingen voor gegevens zijn essentieel om de beveiliging van gegevens en processen te garanderen. Leer meer over toestemmingenbeheer in Campagne in [&#x200B; deze sectie &#x200B;](../get-started/permissions.md).
+Campagnegebruikers hebben mogelijk beperkte toegang tot Adobe Campaign-gegevens. Een beheerder van de Campagne kan hen het recht verlenen om bepaalde eigenschappen te bekijken, maar niet om hen uit te geven of te wijzigen. Gebruikersmachtigingen voor gegevens zijn essentieel om de beveiliging van gegevens en processen te garanderen. Leer meer over toestemmingenbeheer in Campagne in [ deze sectie ](../get-started/permissions.md).
 
 Wanneer een workflow alleen-lezen is:
 
 * De vermelding **[!UICONTROL Read-only]** wordt weergegeven bij de knop **[!UICONTROL Settings]** .
 * De actieknoppen zijn niet toegankelijk.
 
-![&#x200B; read-only werkschemainterface die de montagesknoop en gehandicapte actieknopen toont.](assets/readonly-workflow.png){zoomable="yes"}
+![ read-only werkschemainterface die de montagesknoop en gehandicapte actieknopen toont.](assets/readonly-workflow.png){zoomable="yes"}
 
 Gebruikers kunnen niets in een alleen-lezen workflow bewerken. Ze mogen de instellingen van de activiteiten niet wijzigen.
 
-![&#x200B; de interface van de Planner op read-only wijze, tonend gehandicapte montagesopties.](assets/scheduler-readonly.png){zoomable="yes"}
+![ de interface van de Planner op read-only wijze, tonend gehandicapte montagesopties.](assets/scheduler-readonly.png){zoomable="yes"}
 
 Gebruikers kunnen de workflow niet verwijderen.
 
-![&#x200B; Interface die beperkte rechten voor het schrappen van werkschema&#39;s toont.](assets/readonly-rights.png){zoomable="yes"}
+![ Interface die beperkte rechten voor het schrappen van werkschema&#39;s toont.](assets/readonly-rights.png){zoomable="yes"}
 
 ## Typen alleen-lezen workflows {#readonly-workflow-types}
 
@@ -44,12 +44,12 @@ Afhankelijk van het type workflow kan de alleen-lezen modus variëren.
 
 In een alleen-lezen campagneworkflow heeft de gebruiker geen toegang tot de knop Bewaking.
 
-![&#x200B; het werkschemainterface van de campagne op read-only wijze, die gehandicapte controleopties tonen.](assets/readonly-campaign-workflow.png){zoomable="yes"}
+![ het werkschemainterface van de campagne op read-only wijze, die gehandicapte controleopties tonen.](assets/readonly-campaign-workflow.png){zoomable="yes"}
 
 ### Technische workflows {#readonly-tech-wf}
 
 Ingebouwde technische workflows zijn alleen-lezen voor alle campagnegebruikers, inclusief beheerders. Nochtans, kunnen de gebruikers **pauzeren** of **hen ophouden** indien nodig. Dit zijn de enige toegestane acties.
 
-![&#x200B; Technische werkschemainterface op read-only wijze, die opties tonen om werkschema&#39;s te pauzeren of tegen te houden.](assets/readonly-technical-workflow.png){zoomable="yes"}
+![ Technische werkschemainterface op read-only wijze, die opties tonen om werkschema&#39;s te pauzeren of tegen te houden.](assets/readonly-technical-workflow.png){zoomable="yes"}
 
-Leer meer over technische werkschema&#39;s in [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).
+Leer meer over technische werkschema&#39;s in [ deze sectie ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows).
