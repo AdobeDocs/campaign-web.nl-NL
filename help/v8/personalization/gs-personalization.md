@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: cce1da98-924b-415b-99d9-f4def4a4e874
 source-git-commit: d6c6aac9d9127a770732b709873008613ae8c639
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ U kunt uw berichtinhoud dynamisch maken door de constructies van JavaScript in d
 
 * **Personaliseer uw berichten** aan elke specifieke ontvanger door profielgegevens zoals hun voornaam, interesses, waar zij leven, wat zij, en veel meer kochten. U kunt om het even welk gebied selecteren beschikbaar in het gegevensbestand van de verpersoonlijkingsredacteur met betrekking tot de ontvanger, het bericht, of de levering. Deze verpersoonlijkingsattributen kunnen in de onderwerpregel of het lichaam van uw berichten worden opgenomen. De volgende syntaxis voegt de plaats van de ontvanger in uw inhoud in: `<%= recipient.location.city %>`.
 
-  [&#x200B; Beschrijving: Voorbeeld om de plaats van de ontvanger in de onderwerpregel op te nemen gebruikend verpersoonlijkingsattributen.](assets/perso-subject-line.png){zoomable="yes"}{width="800" align="center"}
+  [ Beschrijving: Voorbeeld om de plaats van de ontvanger in de onderwerpregel op te nemen gebruikend verpersoonlijkingsattributen.](assets/perso-subject-line.png){zoomable="yes"}{width="800" align="center"}
 
 * **creeer voorwaardelijke inhoud** om uw leveringen aan elke ontvanger aan te passen en toon slechts de inhoud die voor een bepaalde klant relevant is die op de informatie wordt gebaseerd u over hen hebt. Hierdoor kunt u specifieke tekstblokken en/of afbeeldingen op basis van voorwaarden weergeven. U kunt bijvoorbeeld een e-mailbanner op basis van het abonnement van de ontvangers aanpassen aan een specifieke service.
 
-  [&#x200B; Beschrijving: Voorbeeld van voorwaardelijke inhoud in een e-mailbanner die op het abonnement van de ontvanger wordt gebaseerd.](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
+  [ Beschrijving: Voorbeeld van voorwaardelijke inhoud in een e-mailbanner die op het abonnement van de ontvanger wordt gebaseerd.](assets/condition-sample.png){zoomable="yes"}{width="800" align="center"}
 
-➡️ [&#x200B; ontdekt deze eigenschap in video &#x200B;](#video)
+➡️ [Ontdek deze functie in video](#video)
 
 ## De expressie-editor openen {#access}
 
@@ -49,19 +49,19 @@ Hier volgen enkele voorbeelden van hoe u toegang kunt krijgen tot de expressieed
 
 * *Toegang hebbend tot de uitdrukkingsredacteur van het de naamgebied van de Afzender*
 
-  [&#x200B; Beschrijving: Voorbeeld om tot de uitdrukkingsredacteur van het de naamgebied van de Afzender toegang te hebben.](assets/expression-editor-access.png){zoomable="yes"}{width="800" align="center"}
+  [ Beschrijving: Voorbeeld om tot de uitdrukkingsredacteur van het de naamgebied van de Afzender toegang te hebben.](assets/expression-editor-access.png){zoomable="yes"}{width="800" align="center"}
 
 * *die tot de uitdrukkingsredacteur van een component van de e-mailtekst toegang hebben*
 
-  [&#x200B; Beschrijving: Voorbeeld om tot de uitdrukkingsredacteur van een component van de e-mailtekst toegang te hebben.](assets/expression-editor-access-email.png){zoomable="yes"}{width="800" align="center"}
+  [ Beschrijving: Voorbeeld om tot de uitdrukkingsredacteur van een component van de e-mailtekst toegang te hebben.](assets/expression-editor-access-email.png){zoomable="yes"}{width="800" align="center"}
 
 * *die tot de uitdrukkingsredacteur van een verbinding in e-mail toegang hebben*
 
-  [&#x200B; Beschrijving: Voorbeeld om tot de uitdrukkingsredacteur van een verbinding in e-mail toegang te hebben.](assets/perso-link-insert-icon.png){zoomable="yes"}{width="800" align="center"}
+  [ Beschrijving: Voorbeeld om tot de uitdrukkingsredacteur van een verbinding in e-mail toegang te hebben.](assets/perso-link-insert-icon.png){zoomable="yes"}{width="800" align="center"}
 
 >[!NOTE]
 >
->Naast de expressie-editor kunt u ook een speciale, voorwaardelijke samensteller van inhoud gebruiken bij het ontwerpen van een e-mail. [&#x200B; Leer hoe te om voorwaardelijke inhoud in e-mails te bouwen &#x200B;](conditions.md)
+>Naast de expressie-editor kunt u ook een speciale, voorwaardelijke samensteller van inhoud gebruiken bij het ontwerpen van een e-mail. [ Leer hoe te om voorwaardelijke inhoud in e-mails te bouwen ](conditions.md)
 
 ## Hoe kan ik-video {#video}
 
