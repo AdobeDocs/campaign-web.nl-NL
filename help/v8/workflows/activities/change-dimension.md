@@ -22,7 +22,7 @@ ht-degree: 0%
 >title="Dimensieactiviteit wijzigen"
 >abstract="Met deze activiteit kunt u de doeldimensie wijzigen terwijl u een publiek maakt. Het verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie. U kunt bijvoorbeeld van de dimensie &#39;contracten&#39; overschakelen op de dimensie &#39;clients&#39;."
 
-De **dimensie van de Verandering** activiteit is a **richtend** activiteit. Met deze activiteit kunt u de doeldimensie wijzigen terwijl u uw workflow bouwt. Het verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie. [&#x200B; Leer meer over het richten van dimensies &#x200B;](../../audience/about-recipients.md#targeting-dimensions).
+De **dimensie van de Verandering** activiteit is a **richtend** activiteit. Met deze activiteit kunt u de doeldimensie wijzigen terwijl u uw workflow bouwt. Het verschuift de as afhankelijk van het gegevensmalplaatje en de inputdimensie. [ Leer meer over het richten van dimensies ](../../audience/about-recipients.md#targeting-dimensions).
 
 U kunt bijvoorbeeld de doeldimensie van een workflow veranderen van &quot;Ontvangers&quot; in &quot;Abonnees&quot; om pushberichten naar de beoogde ontvangers te verzenden.
 
@@ -36,7 +36,7 @@ Volg deze stappen om de **dimensie van de Verandering** activiteit te vormen:
 
 1. Voeg de dimensie van de a **Verandering** activiteit aan uw werkschema toe.
 
-   ![&#x200B; Schermafbeelding die de de afmetingsactiviteit van de Verandering tonen die aan een werkschema &#x200B;](../assets/workflow-change-dimension.png) wordt toegevoegd
+   ![ Schermafbeelding die de de afmetingsactiviteit van de Verandering tonen die aan een werkschema ](../assets/workflow-change-dimension.png) wordt toegevoegd
 
 1. Bepaal de **Nieuwe doelafmeting**. Tijdens het wijzigen van de afmetingen worden alle records bewaard. Andere opties zijn nog niet beschikbaar.
 
@@ -48,4 +48,4 @@ In dit voorbeeld verzendt u een SMS-bericht naar alle profielen die een aankoop 
 
 Gebruik vervolgens een **[!UICONTROL Change dimension]** -activiteit om de workflow voor het opgeven van dimensies te veranderen in &quot;Ontvangers&quot;. Dit staat het richten van de ontvangers toe die de vraag aanpassen.
 
-![&#x200B; Schermafbeelding die een voorbeeld van de de afmetingsactiviteit van de Verandering toont die in een werkschema &#x200B;](../assets/workflow-change-dimension-example.png) wordt gebruikt
+![ Schermafbeelding die een voorbeeld van de de afmetingsactiviteit van de Verandering toont die in een werkschema ](../assets/workflow-change-dimension-example.png) wordt gebruikt
