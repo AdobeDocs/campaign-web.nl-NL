@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Met de Dashboards voor leveringswaarschuwingen kunt u opgeven wie e-mailwaarschuwingen ontvangt, de waarschuwingscriteria voor het verzenden van deze waarschuwingen kiezen en configureren en de geschiedenis van alle verzonden berichten openen. Zij zijn toegankelijk van het **Waarschuwende van de Levering** menu in de linkernavigatieruit, onder de **dashboards** tabel.
 
-![&#x200B; Schermafbeelding die de lijst van alarmerende dashboards in het het Alarm menu van de Levering toont.](assets/alerting-dashboard-list.png)
+![ Schermafbeelding die de lijst van alarmerende dashboards in het het Alarm menu van de Levering toont.](assets/alerting-dashboard-list.png)
 
 ## Een leveringsdashboard maken {#dashboards}
 
@@ -47,21 +47,21 @@ Ga als volgt te werk om een bezorgdashboard te maken:
 
 1. Navigeer aan het **Waarschuwende van de Levering** menu in de linkernavigatieruit, en klik **creeer leveringsdashboard**.
 
-   ![&#x200B; Schermafbeelding die de Create optie van het leveringsdashboard in het het Alarm menu van de Levering toont.](assets/alerting-dashboard.png)
+   ![ Schermafbeelding die de Create optie van het leveringsdashboard in het het Alarm menu van de Levering toont.](assets/alerting-dashboard.png)
 
 1. Noem uw dashboard op het **gebied van het Etiket**. Het **Interne naamgebied** is automatisch bevolkt en read-only.
 
 1. Op het **Uitgezochte waakzame groep** gebied, specificeer de **exploitantgroep** om het alarm te ontvangen dat door dit dashboard wordt verzonden. Alle leden van de geselecteerde operatorgroep ontvangen de waarschuwingen.
 
-   Leer meer over toestemmingen en exploitantgroepen in [&#x200B; Adobe Campaign v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+   Leer meer over toestemmingen en exploitantgroepen in [ Adobe Campaign v8 (console) documentatie ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
-1. In de **sectie van de de alarmerende criteria van de Levering**, voeg criteria toe die u wilt gebruiken om alarm te verzenden. Kies uit vooraf gedefinieerde criteria of maak uw eigen criteria om deze aan te passen aan specifieke behoeften. [&#x200B; Leer hoe te met criteria &#x200B;](../msg/delivery-alerting-criteria.md) te werken
+1. In de **sectie van de de alarmerende criteria van de Levering**, voeg criteria toe die u wilt gebruiken om alarm te verzenden. Kies uit vooraf gedefinieerde criteria of maak uw eigen criteria om deze aan te passen aan specifieke behoeften. [ Leer hoe te met criteria ](../msg/delivery-alerting-criteria.md) te werken
 
 1. Criteria hebben standaardparameterwaarden die definiëren hoe deze moeten worden toegepast. U kunt deze waarden veranderen om uw behoeften van de **sectie van de Parameters van Criteria** aan te passen.
 
-   ![&#x200B; Schermafbeelding die de de parametersectie van Criteria in het leveringsdashboard toont.](assets/alerting-criteria-parameters.png)
+   ![ Schermafbeelding die de de parametersectie van Criteria in het leveringsdashboard toont.](assets/alerting-criteria-parameters.png)
 
-   Bijvoorbeeld, door gebrek, wordt de **parameter van het 0&rbrace; doel van de Levering minimumgrootte &lbrace;aan 50 geplaatst, betekenend dat een levering in het alarm zal worden inbegrepen dat door dit dashboard wordt verzonden slechts als het minstens 50 profielen richt.** U kunt deze parameter wijzigen als u leveringen wilt opnemen die betrekking hebben op minder dan 50 profielen.
+   Bijvoorbeeld, door gebrek, wordt de **parameter van het 0} doel van de Levering minimumgrootte {aan 50 geplaatst, betekenend dat een levering in het alarm zal worden inbegrepen dat door dit dashboard wordt verzonden slechts als het minstens 50 profielen richt.** U kunt deze parameter wijzigen als u leveringen wilt opnemen die betrekking hebben op minder dan 50 profielen.
 
    Vouw de onderstaande sectie uit voor meer informatie over elke parameter criteria:
 
@@ -83,7 +83,7 @@ Ga als volgt te werk om een bezorgdashboard te maken:
 
    U kunt het dashboard ook opslaan en later inschakelen.
 
-   ![&#x200B; Schermschot die de Toegelaten kneveloptie in de montages van het leveringsdashboard tonen.](assets/alerting-dashboard-enable.png)
+   ![ Schermschot die de Toegelaten kneveloptie in de montages van het leveringsdashboard tonen.](assets/alerting-dashboard-enable.png)
 
 1. Om het alarmerende dashboard te bewaren, klik **sparen** knoop.
 
@@ -103,14 +103,14 @@ Telkens wanneer een levering voldoet aan de criteria die in dit dashboard zijn g
 >title="Geschiedenis van leveringswaarschuwingen"
 >abstract="De **ruit van de Geschiedenis** bevat alle alarm dat van dit dashboard wordt verzonden. Klik op een item om de bijbehorende waarschuwingen te openen die op dat moment worden verzonden."
 
-Alle gecreeerde alarmerende dashboards zijn toegankelijk van het **Alarm van de Levering** menu, in het **&#x200B;**&#x200B;lusje van Dashboards.
+Alle gecreeerde alarmerende dashboards zijn toegankelijk van het **Alarm van de Levering** menu, in het **** lusje van Dashboards.
 
-![&#x200B; Schermafbeelding die de lijst van alarmerende dashboards in het het Alarm menu van de Levering toont.](assets/alerting-dashboard-list.png)
+![ Schermafbeelding die de lijst van alarmerende dashboards in het het Alarm menu van de Levering toont.](assets/alerting-dashboard-list.png)
 
 U kunt een dashboard dupliceren of schrappen gebruikend **Meer acties** knoop die naast zijn naam wordt gevestigd.
 
 Als u een gedetailleerde weergave van een dashboard wilt openen, klikt u in de lijst op de naam van het dashboard. Vanuit dit scherm kunt u de meest recente verzonden waarschuwing visualiseren. Alle verzonden waarschuwingen worden vermeld in het linkerdeelvenster. Klik op een item om de bijbehorende waarschuwingen te openen die op dat moment worden verzonden.
 
-![&#x200B; Schermschot die de gedetailleerde mening van een alarmerend dashboard tonen.](assets/alerting-dashboard-details.png)
+![ Schermschot die de gedetailleerde mening van een alarmerend dashboard tonen.](assets/alerting-dashboard-details.png)
 
 Om het dashboard uit te geven, klik de **knoop van Montages** in de hoger-juiste hoek en breng de gewenste veranderingen aan.
