@@ -21,12 +21,12 @@ ht-degree: 0%
 
 Expressiefragmenten kunnen worden gebruikt in elk veld dat u kunt bewerken met de expressie-editor. Volg onderstaande stappen om expressiefragmenten aan uw inhoud toe te voegen.
 
-1. Open de [&#x200B; redacteur van de Uitdrukking &#x200B;](../personalization/gs-personalization.md), en selecteer het **[!UICONTROL Fragments]** menu in de linkerruit.
+1. Open de [ redacteur van de Uitdrukking ](../personalization/gs-personalization.md), en selecteer het **[!UICONTROL Fragments]** menu in de linkerruit.
 
    In de lijst worden alle expressiefragmenten weergegeven die in de huidige sandbox zijn gemaakt.
 
 1. Klik op het pictogram `+` naast een expressiefragment om het toe te voegen aan uw inhoud.
 
-   ![&#x200B; Schermafbeelding die de toevoeging van een uitdrukkingsfragment tonen gebruikend + pictogram &#x200B;](assets/fragment-add-expression.png)
+   ![ Schermafbeelding die de toevoeging van een uitdrukkingsfragment tonen gebruikend + pictogram ](assets/fragment-add-expression.png)
 
 1. De fragment-id wordt toegevoegd aan de editor. Als u het overeenkomstige uitdrukkingsfragment opent en het uit de interface uitgeeft, synchroniseren de veranderingen automatisch. Ze worden doorgegeven aan alle **[!UICONTROL Draft]** -items die die fragment-id bevatten.
