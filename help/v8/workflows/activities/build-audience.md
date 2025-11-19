@@ -42,7 +42,7 @@ The **Build audience** activity can be placed at the beginning of the workflow o
 
 Volg deze stappen om **te vormen bouwen publiek** activiteit:
 
-![&#x200B; Screenshot die de interface van de de configuratieconfiguratie van het werkschemapubliek toont.](../assets/workflow-audience.png)
+![ Screenshot die de interface van de de configuratieconfiguratie van het werkschemapubliek toont.](../assets/workflow-audience.png)
 
 1. Voeg a **toe bouwt publiek** activiteit.
 1. Definieer een label.
@@ -56,10 +56,10 @@ Volg deze stappen om **te vormen bouwen publiek** activiteit:
 Voer de volgende stappen uit om uw eigen query te maken:
 
 1. Selecteer **creeer uw (vraag)**.
-1. Kies de **het richten afmeting**. Met de doeldimensie kunt u de doelgroep voor de bewerking definiëren, zoals ontvangers, begunstigden van contracten, exploitanten of abonnees. Standaard is het doel geselecteerd bij de ontvangers. [&#x200B; leer meer over het richten van dimensies &#x200B;](../../audience/targeting-dimensions.md#targeting)
-1. Kies de **Filtrerende afmeting** door het pictogram naast de het richten afmeting te klikken. De het filtreren dimensie staat u toe om filters op de gerichte bevolking toe te passen door verwante criteria van verwijzingen te voorzien zonder de belangrijkste het richten dimensie te veranderen. [&#x200B; leer meer over het richten van dimensies &#x200B;](../../audience/targeting-dimensions.md#filtering)
+1. Kies de **het richten afmeting**. Met de doeldimensie kunt u de doelgroep voor de bewerking definiëren, zoals ontvangers, begunstigden van contracten, exploitanten of abonnees. Standaard is het doel geselecteerd bij de ontvangers. [ leer meer over het richten van dimensies ](../../audience/targeting-dimensions.md#targeting)
+1. Kies de **Filtrerende afmeting** door het pictogram naast de het richten afmeting te klikken. De het filtreren dimensie staat u toe om filters op de gerichte bevolking toe te passen door verwante criteria van verwijzingen te voorzien zonder de belangrijkste het richten dimensie te veranderen. [ leer meer over het richten van dimensies ](../../audience/targeting-dimensions.md#filtering)
 1. Klik **verdergaan**.
-1. Gebruik de vraagmodeler om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. [&#x200B; Leer hoe te met de vraagmodelaar &#x200B;](../../query/query-modeler-overview.md) te werken
+1. Gebruik de vraagmodeler om uw vraag te bepalen, de zelfde manier u creeert een publiek wanneer het ontwerpen van een nieuwe e-mail. [ Leer hoe te met de vraagmodelaar ](../../query/query-modeler-overview.md) te werken
 
 >[!TAB Doelgroep lezen]
 
@@ -67,7 +67,7 @@ Voer de volgende stappen uit om een bestaand publiek te selecteren:
 
 1. Selecteer **Gelezen publiek**.
 1. Klik **verdergaan**.
-1. Selecteer uw publiek, de zelfde manier u een publiek gebruikt wanneer het ontwerpen van een nieuwe levering. Verwijs naar deze [&#x200B; sectie &#x200B;](../../audience/add-audience.md).
+1. Selecteer uw publiek, de zelfde manier u een publiek gebruikt wanneer het ontwerpen van een nieuwe levering. Verwijs naar deze [ sectie ](../../audience/add-audience.md).
 
 >[!ENDTABS]
 
@@ -75,4 +75,4 @@ Voer de volgende stappen uit om een bestaand publiek te selecteren:
 
 Hier is een voorbeeld van een werkschema met twee **bouwt publiek** activiteiten. De eerste is gericht op het publiek van pokerspelers, gevolgd door een e-mailbezorging. De tweede is gericht op het VIP-publiek, gevolgd door een SMS-levering.
 
-![&#x200B; het Schermafbeelding die een voorbeeldwerkschema met twee het publieksactiviteiten van de Bouwstijl tonen die verschillende soorten publiek richten.](../assets/workflow-audience-example.png)
+![ het Schermafbeelding die een voorbeeldwerkschema met twee het publieksactiviteiten van de Bouwstijl tonen die verschillende soorten publiek richten.](../assets/workflow-audience-example.png)
