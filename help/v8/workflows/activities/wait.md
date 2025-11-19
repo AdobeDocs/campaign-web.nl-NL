@@ -33,4 +33,4 @@ Volg deze stappen om **te vormen wachten** activiteit:
 
 Het volgende voorbeeld illustreert **wacht** activiteit in een typisch gebruiksgeval. U stuurt een e-mailuitnodiging voor een evenement. Na 24 uur wordt een SMS-verzending naar dezelfde populatie verzonden.
 
-![&#x200B; Voorbeeld van een werkschema dat de Wachtende activiteit gebruikt om SMS 24 uur na een e-mailuitnodiging te verzenden.](../assets/workflow-wait-example.png)
+![ Voorbeeld van een werkschema dat de Wachtende activiteit gebruikt om SMS 24 uur na een e-mailuitnodiging te verzenden.](../assets/workflow-wait-example.png)
