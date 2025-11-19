@@ -18,7 +18,7 @@ ht-degree: 7%
 
 De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
-De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld in [&#x200B; 2024 &#x200B;](release-notes-24.md) en [&#x200B; 2025 &#x200B;](release-notes-25.md) pagina&#39;s.
+De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld in [ 2024 ](release-notes-24.md) en [ 2025 ](release-notes-25.md) pagina&#39;s.
 
 ## Release oktober 1925 {#25-10-updates}
 
