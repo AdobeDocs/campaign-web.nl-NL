@@ -17,7 +17,7 @@ ht-degree: 0%
 >title="Een preheader definiëren"
 >abstract="Een preheader is een korte samenvattingstekst die op de onderwerpregel volgt wanneer een e-mailbericht van uw e-mailclient wordt weergegeven. In veel gevallen geeft het een korte samenvatting van de e-mail en is het doorgaans één zin lang."
 
-Bij het ontwerpen van uw e-mails kunt u voor betere leesbaarheid en betere toegankelijkheid aanvullende metakenmerken voor uw inhoud definiëren. [!DNL Journey Optimizer] [&#x200B; E-mail Designer &#x200B;](get-started-email-designer.md) laat u toe om de volgende elementen te specificeren:
+Bij het ontwerpen van uw e-mails kunt u voor betere leesbaarheid en betere toegankelijkheid aanvullende metakenmerken voor uw inhoud definiëren. [!DNL Journey Optimizer] [ E-mail Designer ](get-started-email-designer.md) laat u toe om de volgende elementen te specificeren:
 
 ![](assets/email_body_settings_ex.png)
 
@@ -33,7 +33,7 @@ Bij het ontwerpen van uw e-mails kunt u voor betere leesbaarheid en betere toega
 
 Volg onderstaande stappen om deze instellingen te configureren.
 
-1. Van [&#x200B; E-mail Designer &#x200B;](create-email-content.md), voeg minstens a **[!UICONTROL Structure component]** toe beginnen uw e-mail te ontwerpen.
+1. Van [ E-mail Designer ](create-email-content.md), voeg minstens a **[!UICONTROL Structure component]** toe beginnen uw e-mail te ontwerpen.
 
 1. Klik op **[!UICONTROL Body]** in het vak **[!UICONTROL Navigation tree]** aan de linkerkant of op het rechterdeelvenster.
 
@@ -41,7 +41,7 @@ Volg onderstaande stappen om deze instellingen te configureren.
 
 1. Typ op het tabblad **[!UICONTROL Settings]** tekst in de velden **[!UICONTROL Preheader]** , **[!UICONTROL Document title]** en/of **[!UICONTROL Document language]** .
 
-1. U kunt ook op het pictogram voor aanpassen naast elk veld klikken om de inhoud aan te passen aan de hand van profielkenmerken, doelgroepen, contextafhankelijke kenmerken en meer. [&#x200B; leer meer over verpersoonlijking &#x200B;](../personalization/gs-personalization.md)
+1. U kunt ook op het pictogram voor aanpassen naast elk veld klikken om de inhoud aan te passen aan de hand van profielkenmerken, doelgroepen, contextafhankelijke kenmerken en meer. [ leer meer over verpersoonlijking ](../personalization/gs-personalization.md)
 
    ![](assets/email_body_settings.png){width="70%"}
 
