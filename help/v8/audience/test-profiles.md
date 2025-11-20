@@ -112,4 +112,4 @@ Het testprofiel dat u zojuist hebt gemaakt, kan nu worden gebruikt om een proefd
 
 Leer om testprofielen tot stand te brengen en te beheren gebruikend het Web van de Campagne gebruikersinterface.
 
->[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3442901?captions=dut&quality=12)

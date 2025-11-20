@@ -56,4 +56,4 @@ Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren.
 
 Leer hoe u een e-mail maakt door HTML te uploaden, deze compatibel te maken met de e-mail-Designer en deze om te zetten in een sjabloon.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427633/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3447038/?captions=dut&quality=12)
