@@ -85,7 +85,7 @@ Het **Algemene statistiek** rapport stelt gegevens voor de verzonden pushbericht
 >title="Uitsluitingen bij duwen"
 >abstract="De **grafiek en de lijst van uitsluitingen 0&rbrace; &lbrace;tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen.**"
 
-In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u verschillende redenen waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet hebben ontvangen. De regels van de uitsluiting zijn gedetailleerd in de [&#x200B; Campagne v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u verschillende redenen waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet hebben ontvangen. De regels van de uitsluiting zijn gedetailleerd in de [&#x200B; Campagne v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#push-error-types){_blank}.
 
 ![&#x200B; Dit het schermschot toont de grafiek en de lijst van Uitzonderingen, die vertoningsredenen verhinderen uitgesloten gebruikersprofielen berichten te ontvangen.](assets/reporting_push_6.png){zoomable="yes"}
 

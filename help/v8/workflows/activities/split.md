@@ -30,7 +30,7 @@ De **Gesplitste** activiteit is a **richtend** activiteit die inkomende populati
 >id="acw_orchestration_split_filter"
 >title="Activiteitsfilter splitsen"
 >abstract="Als u een filtervoorwaarde op de subset wilt toepassen, klikt u op **[!UICONTROL Create filter]** en configureert u de gewenste filterregel met de querymodelfunctie. Neem bijvoorbeeld profielen op van de binnenkomende populatie waarvan het e-mailadres bestaat in de database."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/query-database/query-modeler-overview" text="Werken met de querymodelfunctie"
+>additional-url="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/query-database/query-modeler-overview" text="Werken met de querymodelfunctie"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_split_limit"

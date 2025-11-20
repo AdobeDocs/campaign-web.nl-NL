@@ -16,7 +16,7 @@ In transactioneel overseinen, brengt een gebeurtenis het verzenden van een geper
 
 ## Een sjabloon voor een transactiebericht maken {#transactional-template}
 
-In het Gebruikersinterface van het Web van de Campagne, is de eerste stap in transactie overseinenconfiguratie de verwezenlijking van het malplaatje of de directe verwezenlijking van het bericht. Dit verschilt van [&#x200B; de configuratie van transactionele berichten op de cliëntconsole &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional).
+In het Gebruikersinterface van het Web van de Campagne, is de eerste stap in transactie overseinenconfiguratie de verwezenlijking van het malplaatje of de directe verwezenlijking van het bericht. Dit verschilt van [&#x200B; de configuratie van transactionele berichten op de cliëntconsole &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/real-time/transactional).
 
 Een transactiemalplaatje van het bericht kan worden gebruikt om voorproef de leveringsinhoud die door het profiel wordt ontvangen alvorens het het definitieve publiek bereikt. Bijvoorbeeld, kan een beheerder opstelling en de malplaatjes vormen, die hen voor gebruik door marketing gebruikers klaar maken.
 

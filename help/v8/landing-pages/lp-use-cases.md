@@ -26,7 +26,7 @@ ht-degree: 0%
 >id="acw_landingpages_templates"
 >title="URL met voorzichtigheid kopiëren"
 >abstract="Wanneer het creëren van een het landen pagina, staan vier uit-van-de-doos malplaatjes u toe om verschillende gebruiksgevallen uit te voeren: voeg of werk een profiel aan het gegevensbestand van de Campagne bij, abonneer klanten aan de dienst, unsubscribe hen van de dienst, of opt gebruikers uit."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#create-landing-page" text="Een landingspagina maken"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=nl-NL#create-landing-page" text="Een landingspagina maken"
 
 Als u de landingspagina op de juiste manier wilt gebruiken, verwijst u ernaar als een koppeling in een bericht met de speciale optie. U kunt de koppeling die wordt weergegeven in het gepubliceerde leveringsdashboard, niet rechtstreeks kopiëren en plakken naar uw leveringen of naar een webpagina. In plaats daarvan, gebruik het **Simuleer inhoud** vermogen om het te testen.
 

@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Voor deze functie is een update van Campagne v8.6.4 vereist. Leer meer in de [&#x200B; notities van de de consoleversie van de Cliënt van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/release-notes).
+>Voor deze functie is een update van Campagne v8.6.4 vereist. Leer meer in de [&#x200B; notities van de de consoleversie van de Cliënt van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/release-notes).
 
 In de het Webinterface van de Campagne, **Visuele fragmenten** zijn vooraf bepaalde visuele blokken die u over veelvoudige [&#x200B; e-mailleveringen &#x200B;](../email/get-started-email-designer.md) of in [&#x200B; inhoudsmalplaatjes &#x200B;](../content/use-email-templates.md) kunt hergebruiken. Leer hoe te om inhoudsfragmenten in [&#x200B; tot stand te brengen en te beheren deze sectie &#x200B;](fragments.md).
 

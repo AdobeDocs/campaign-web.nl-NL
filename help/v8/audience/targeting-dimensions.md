@@ -42,7 +42,7 @@ Gebruik andere ingebouwde doeltoewijzingen in workflows en leveringen, zoals hie
 | Extern bestand | Aflevering via een bestand dat alle vereiste informatie bevat | Geen gekoppeld schema, geen doel ingevoerd |
 | Abonnementstoepassingen | Profielen die zijn geabonneerd op een toepassing | nms:appSubscriptionRcp |
 
-Bovendien, creeer nieuwe doelafbeeldingen die op specifieke behoeften worden gebaseerd. Voer deze bewerking alleen uit vanaf de clientconsole. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html#new-mapping){target="_blank"}.
+Bovendien, creeer nieuwe doelafbeeldingen die op specifieke behoeften worden gebaseerd. Voer deze bewerking alleen uit vanaf de clientconsole. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=nl-NL#new-mapping){target="_blank"}.
 
 ## Afmetingen filteren {#filtering}
 

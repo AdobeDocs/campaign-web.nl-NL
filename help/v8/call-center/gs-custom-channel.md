@@ -16,7 +16,7 @@ ht-degree: 1%
 >id="acw_homepage_welcome_rn1"
 >title="Aangepast kanaal voor API-levering"
 >abstract="U kunt nu rechtstreeks vanuit de gebruikersinterface van Adobe Campaign leveringen ordenen en uitvoeren op basis van aangepaste API-kanalen. Deze leveringen kunnen op zichzelf staan of deel uitmaken van een workflow."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 U kunt, direct van het Web UI van Adobe Campaign, leveringen organiseren en uitvoeren die op douanekanalen worden gebaseerd met derden worden geïntegreerd. De configuratie van het aangepaste kanaal wordt uitgevoerd in de clientconsole.
 
@@ -38,11 +38,11 @@ Ga als volgt te werk om een nieuwe, op zichzelf staande, aangepaste levering te 
 
 Eerst, moet u het douanekanaal vormen. Hier volgen de belangrijkste stappen die in de clientconsole moeten worden uitgevoerd. Deze stappen worden gebruikt voor aangepaste externe en API-kanalen:
 
-1. Vorm het schema om het nieuwe kanaal aan de lijst van beschikbare kanalen toe te voegen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#configure-schema){target="_blank"}
-1. Creeer een nieuwe verpletterende externe rekening. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#reate-ext-account){target="_blank"}
-1. Creeer een nieuw leveringsmalplaatje verbonden aan het nieuwe kanaal. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#create-template){target="_blank"}
+1. Vorm het schema om het nieuwe kanaal aan de lijst van beschikbare kanalen toe te voegen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=nl-NL#configure-schema){target="_blank"}
+1. Creeer een nieuwe verpletterende externe rekening. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=nl-NL#reate-ext-account){target="_blank"}
+1. Creeer een nieuw leveringsmalplaatje verbonden aan het nieuwe kanaal. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=nl-NL#create-template){target="_blank"}
 
-Aangepaste API-kanalen vereisen een extra configuratie. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional){target="_blank"}
+Aangepaste API-kanalen vereisen een extra configuratie. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=nl-NL#api-additional){target="_blank"}
 
 ## De levering maken{#create-delivery}
 
@@ -90,7 +90,7 @@ Laten we nu de inhoud van de levering bewerken.
 
 1. Klik op de knop **[!UICONTROL Edit content]** in het dashboard voor levering.
 
-1. Vul de velden naar wens in. Leren hoe te opstelling dit scherm, naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional-screen){target="_blank"} verwijzen.
+1. Vul de velden naar wens in. Leren hoe te opstelling dit scherm, naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=nl-NL#api-additional-screen){target="_blank"} verwijzen.
 
    ![&#x200B; Screenshot die de opties van de attributenconfiguratie voor het API kanaal toont.](assets/cc-content-attributes-api.png)
 
@@ -118,7 +118,7 @@ Als de inhoud klaar is voor levering, kunt u er een voorvertoning van weergeven 
 
 1. Klik op de pagina met inhoud voor levering op de knop **[!UICONTROL Simulate content]** en selecteer testprofielen.
 
-1. Op de rechterkant, klik **Open voorproef**. Dit vermogen moet worden gevormd gebruikend JSSP. Verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html#api-additional-preview){target="_blank"}.
+1. Op de rechterkant, klik **Open voorproef**. Dit vermogen moet worden gevormd gebruikend JSSP. Verwijs naar deze [&#x200B; pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/custom-channel.html?lang=nl-NL#api-additional-preview){target="_blank"}.
 
    ![&#x200B; Schermafbeelding die de simulatie inhoudsoptie in de pagina van de leveringsinhoud voor API &#x200B;](assets/cus-simulate-api.png){zoomable="yes"} tonen
 

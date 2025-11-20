@@ -53,7 +53,7 @@ Ga als volgt te werk om een bezorgdashboard te maken:
 
 1. Op het **Uitgezochte waakzame groep** gebied, specificeer de **exploitantgroep** om het alarm te ontvangen dat door dit dashboard wordt verzonden. Alle leden van de geselecteerde operatorgroep ontvangen de waarschuwingen.
 
-   Leer meer over toestemmingen en exploitantgroepen in [&#x200B; Adobe Campaign v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
+   Leer meer over toestemmingen en exploitantgroepen in [&#x200B; Adobe Campaign v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target="_blank"}
 
 1. In de **sectie van de de alarmerende criteria van de Levering**, voeg criteria toe die u wilt gebruiken om alarm te verzenden. Kies uit vooraf gedefinieerde criteria of maak uw eigen criteria om deze aan te passen aan specifieke behoeften. [&#x200B; Leer hoe te met criteria &#x200B;](../msg/delivery-alerting-criteria.md) te werken
 

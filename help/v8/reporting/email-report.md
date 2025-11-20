@@ -75,7 +75,7 @@ In de grafiek van **[!UICONTROL Delivery statistics]** wordt aangegeven hoe succ
 >title="Uitsluitingsoorzaken"
 >abstract="De **Oorzaken van uitsluiting** grafiek en de lijst tonen de onderbreking per regel van berichten die tijdens de leveringsvoorbereiding worden verworpen."
 
-In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** wordt de uitsplitsing per regel weergegeven van berichten die tijdens de voorbereiding van de levering zijn geweigerd. De regels van de uitsluiting zijn gedetailleerd in de [&#x200B; Campagne v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#email-error-types){_blank}.
+In de grafiek en tabel van **[!UICONTROL Causes of exclusion]** wordt de uitsplitsing per regel weergegeven van berichten die tijdens de voorbereiding van de levering zijn geweigerd. De regels van de uitsluiting zijn gedetailleerd in de [&#x200B; Campagne v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html?lang=nl-NL#email-error-types){_blank}.
 
 ![&#x200B; Schermafbeelding van de Oorzaken van uitsluitingsgrafiek en lijst &#x200B;](assets/reporting_email_3.png){zoomable="yes"}{align="center" zoomable="yes"}
 
@@ -153,7 +153,7 @@ De tabel **[!UICONTROL Broadcast statistics]** bevat de beschikbare gegevens voo
 
 De tabel en grafiek van **[!UICONTROL Breakdown of errors per type]** bevatten de beschikbare gegevens voor het fouttype. De cijfers worden hieronder beschreven.
 
-De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html){target="_blank"}.
+De fouten die in dit rapport worden weergegeven, activeren het quarantaineproces. Voor meer op quarantainebeheer, verwijs naar [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/failures/delivery-failures.html?lang=nl-NL){target="_blank"}.
 
 ![&#x200B; Scherenshot van de onderbreking van fouten per type &#x200B;](assets/campaign_report_email_6.png){zoomable="yes"}{align="left" zoomable="yes"}
 

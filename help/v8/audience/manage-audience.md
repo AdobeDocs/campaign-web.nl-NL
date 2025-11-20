@@ -38,9 +38,9 @@ Het publiek is het belangrijkste doel van uw levering: de profielen die de beric
 
 Het publiek kan uit veelvoudige bronnen voortkomen. De kolom **[!UICONTROL Origin]** geeft aan waar een bepaald publiek is gemaakt:
 
-* **[!UICONTROL Adobe Campaign]**: Deze doelgroepen zijn gecreeerd in [&#x200B; het Gebruikersinterface van het Web van Adobe Campaign &#x200B;](create-audience.md) of in de [&#x200B; Adobe Campaign v8 cliëntconsole &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html){target="_blank"}.
+* **[!UICONTROL Adobe Campaign]**: Deze doelgroepen zijn gecreeerd in [&#x200B; het Gebruikersinterface van het Web van Adobe Campaign &#x200B;](create-audience.md) of in de [&#x200B; Adobe Campaign v8 cliëntconsole &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/create-audiences/create-audiences.html?lang=nl-NL){target="_blank"}.
 
-* **[!UICONTROL Adobe Experience Platform:]** Deze doelgroepen zijn gemaakt in Adobe Experience Platform en zijn geïntegreerd in Campagne Web met behulp van de integratie van Adobe Sources and Destures. Leer hoe te opstelling deze integratie in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+* **[!UICONTROL Adobe Experience Platform:]** Deze doelgroepen zijn gemaakt in Adobe Experience Platform en zijn geïntegreerd in Campagne Web met behulp van de integratie van Adobe Sources and Destures. Leer hoe te opstelling deze integratie in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=nl-NL){target="_blank"}.
 
   ➡️ [Ontdek deze functie in video](#video)
 
@@ -60,4 +60,4 @@ Leer hoe u een bestemming maakt voor het gebruik van een Experience Platform-pub
 
 >[!VIDEO](https://video.tv.adobe.com/v/3427635?quality=12)
 
-De gedetailleerde informatie over hoe te opstelling is de de Bronnen en integratie van Doelen van Adobe beschikbaar in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"}.
+De gedetailleerde informatie over hoe te opstelling is de de Bronnen en integratie van Doelen van Adobe beschikbaar in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=nl-NL){target="_blank"}.

@@ -46,7 +46,7 @@ Volg onderstaande stappen om leveringen te verzenden met gebruik van golven.
 
    >[!CAUTION]
    >
-   >Zorg ervoor de laatste golven niet de leveringsdeadline overschrijden, die in het [&#x200B; lusje van de Geldigheid &#x200B;](delivery-settings.md#validity) wordt bepaald, anders zouden sommige berichten niet kunnen worden verzonden. Een specifieke typologiecontroleregel, **[!UICONTROL Wave scheduling check]** , zorgt ervoor dat de laatste golf vóór de geldigheidsgrens van de levering wordt gepland. Leer meer over controleregels in de [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html).
+   >Zorg ervoor de laatste golven niet de leveringsdeadline overschrijden, die in het [&#x200B; lusje van de Geldigheid &#x200B;](delivery-settings.md#validity) wordt bepaald, anders zouden sommige berichten niet kunnen worden verzonden. Een specifieke typologiecontroleregel, **[!UICONTROL Wave scheduling check]** , zorgt ervoor dat de laatste golf vóór de geldigheidsgrens van de levering wordt gepland. Leer meer over controleregels in de [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/control-rules.html?lang=nl-NL).
    >
    >U moet ook genoeg tijd voor pogingen toestaan wanneer het vormen van de laatste golven. [Meer informatie](delivery-settings.md#retries)
 

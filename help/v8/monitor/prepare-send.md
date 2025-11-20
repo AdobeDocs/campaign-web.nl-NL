@@ -18,7 +18,7 @@ Wanneer u uw [&#x200B; inhoud &#x200B;](../email/edit-content.md) bepaalt, [&#x2
 
 Tijdens de voorbereiding van de levering, wordt de doelbevolking berekend, en de berichtinhoud wordt geproduceerd voor elk profiel inbegrepen in het doel. Zodra de voorbereiding eindigt, zijn de berichten klaar om te worden verzonden, of onmiddellijk of op de geplande datum en de tijd.
 
-De bevestigingsregels die tijdens leveringsvoorbereiding worden gebruikt worden beschreven in de [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html){target="_blank"}.
+De bevestigingsregels die tijdens leveringsvoorbereiding worden gebruikt worden beschreven in de [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/send.html?lang=nl-NL){target="_blank"}.
 
 De belangrijkste stappen voor het voorbereiden van de verzending worden hieronder vermeld.
 
@@ -115,31 +115,31 @@ Of uw levering gepland of niet <!--TBC--> is, kunnen twee acties op elk ogenblik
 >id="acw_deliveries_email_metrics_delivered"
 >title="Geleverd"
 >abstract="Het aantal berichten dat is afgeleverd. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is gebaseerd op het totale aantal verzonden berichten."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI&#39;s begrijpen"
+>additional-url="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/reports/kpis" text="KPI&#39;s begrijpen"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_opens"
 >title="Geopende items"
 >abstract="Het aantal geopende berichten. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is de verhouding van het aantal verschillende opent in vergelijking met het aantal geleverde berichten."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI&#39;s begrijpen"
+>additional-url="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/reports/kpis" text="KPI&#39;s begrijpen"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_clicks"
 >title="Klikken"
 >abstract="Het aantal ontvangers dat ten minste één keer in de e-mail heeft geklikt. Deze indicator wordt elke 5 minuten bijgewerkt. Het getoonde percentage is de verhouding van het aantal verschillende kliks in vergelijking met het aantal geleverde berichten."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI&#39;s begrijpen"
+>additional-url="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/reports/kpis" text="KPI&#39;s begrijpen"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_sent"
 >title="Verzonden"
 >abstract="Het totale aantal berichten dat tijdens de leveringsanalyse wordt verwerkt."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI&#39;s begrijpen"
+>additional-url="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/reports/kpis" text="KPI&#39;s begrijpen"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_metrics_errors"
 >title="Fouten"
 >abstract="Totaal van fouten die tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten worden gecumuleerd."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/kpis" text="KPI&#39;s begrijpen"
+>additional-url="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/reports/kpis" text="KPI&#39;s begrijpen"
 
 Zodra verzenden volledig is, kunt u getoonde KPIs controleren:
 

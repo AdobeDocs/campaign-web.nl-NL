@@ -15,7 +15,7 @@ ht-degree: 1%
 >id="acw_homepage_welcome_rn2"
 >title="Authoring externe account"
 >abstract="Als beheerder van de Campagne, kunt u opstelling nieuwe verbindingen met externe systemen van het gebruikersinterface van het Web van de Campagne nu. U kunt ook bestaande externe accounts weergeven, bijwerken en beheren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 Volg de onderstaande stappen om een nieuwe externe account te maken. De specifieke configuratie-instellingen zijn afhankelijk van het type externe account dat u maakt.
 
