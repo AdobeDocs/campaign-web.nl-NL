@@ -21,12 +21,12 @@ Met Adobe Campaign kunt u gerichte marketinginitiatieven organiseren met behulp 
 
 Door veelvoudige werkschema&#39;s en leveranties toe te voegen specifiek voor de campagne, creeert u gepersonaliseerde ervaringen over diverse kanalen, die ervoor zorgen dat elk aanraakpunt met het voorgenomen publiek resoneert.
 
-De campagnes verstrekken specifieke rapporteringsmetriek om uitvoerige inzichten in de prestaties van de volledige campagne te bereiken. Deze cijfers helpen doeltreffendheid beoordelen, trends identificeren en gegevensgestuurde beslissingen nemen om toekomstige inspanningen te optimaliseren. Ontdek hoe te om tot campagnerapporten in [ toegang te hebben en te begrijpen deze sectie ](../reporting/campaign-reports.md).
+De campagnes verstrekken specifieke rapporteringsmetriek om uitvoerige inzichten in de prestaties van de volledige campagne te bereiken. Deze cijfers helpen doeltreffendheid beoordelen, trends identificeren en gegevensgestuurde beslissingen nemen om toekomstige inspanningen te optimaliseren. Ontdek hoe te om tot campagnerapporten in [&#x200B; toegang te hebben en te begrijpen deze sectie &#x200B;](../reporting/campaign-reports.md).
 
-![ Diagram die de stroom van een campagne, met inbegrip van werkschema&#39;s en leveringen ](assets/campaign-flow.png) illustreren
+![&#x200B; Diagram die de stroom van een campagne, met inbegrip van werkschema&#39;s en leveringen &#x200B;](assets/campaign-flow.png) illustreren
 
 Leer in de volgende secties campagnes te maken, te beheren en te controleren:
 
 * [Toegang tot en beheer uw campagnes](manage-campaigns.md)
 * [Uw eerste campagne maken](create-campaigns.md)
-* [ doorblader uw campagnerapporten ](../reporting/campaign-reports.md).
+* [&#x200B; doorblader uw campagnerapporten &#x200B;](../reporting/campaign-reports.md).

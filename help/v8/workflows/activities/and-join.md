@@ -30,7 +30,7 @@ Deze activiteit activeert zijn uitgaande overgang slechts nadat alle binnenkomen
 
 Voer de volgende stappen uit om de **EN-lid** activiteit te vormen:
 
-![ Screenshot die de configuratieinterface voor de EN-sluit zich aan activiteit tonen.](../assets/workflow-andjoin.png)
+![&#x200B; Screenshot die de configuratieinterface voor de EN-sluit zich aan activiteit tonen.](../assets/workflow-andjoin.png)
 
 1. Voeg meerdere activiteiten toe, zoals kanaalactiviteiten, om minstens twee verschillende uitvoeringstakken te vormen.
 1. Voeg **toe EN-sluit** activiteit aan om het even welke takken.
@@ -41,4 +41,4 @@ Voer de volgende stappen uit om de **EN-lid** activiteit te vormen:
 
 In het volgende voorbeeld worden twee workflowvertakkingen getoond met een e-mail- en sms-levering. AND-sluit aanzettrekkers aan wanneer beide binnenkomende overgangen worden toegelaten. Pushmeldingen worden alleen verzonden nadat beide leveringen zijn voltooid.
 
-![ Voorbeeld van een werkschema met twee takken, die e-mail en levering van SMS door dupberichten tonen.](../assets/workflow-andjoin-example.png){zoomable="yes"}
+![&#x200B; Voorbeeld van een werkschema met twee takken, die e-mail en levering van SMS door dupberichten tonen.](../assets/workflow-andjoin-example.png){zoomable="yes"}

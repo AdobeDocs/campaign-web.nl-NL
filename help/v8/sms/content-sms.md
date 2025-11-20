@@ -30,11 +30,11 @@ Ga als volgt te werk om de inhoud van een SMS-levering te ontwerpen:
 
    Klik bovendien op **[!UICONTROL Open personalization dialog]** om verpersoonlijkingsvelden, expressiefragmenten en dynamische inhoud in uw bericht op te nemen.
 
-   ![ Schermschot die de Edit inhoudspagina met opties tonen om afzendernaam aan te passen en verpersoonlijkingsgebieden toe te voegen ](assets/sms_content_1.png){zoomable="yes"}
+   ![&#x200B; Schermschot die de Edit inhoudspagina met opties tonen om afzendernaam aan te passen en verpersoonlijkingsgebieden toe te voegen &#x200B;](assets/sms_content_1.png){zoomable="yes"}
 
 1. Typ uw tekstbericht in het veld **[!UICONTROL Message]** of klik op de optie **[!UICONTROL Open personalization dialog]** om inhoud te definiëren en dynamische inhoud toe te voegen. [Meer informatie](../personalization/gs-personalization.md)
 
-   ![ Screenshot die het gebied van het Bericht met opties toont om dynamische inhoud toe te voegen ](assets/sms_content_2.png){zoomable="yes"}
+   ![&#x200B; Screenshot die het gebied van het Bericht met opties toont om dynamische inhoud toe te voegen &#x200B;](assets/sms_content_2.png){zoomable="yes"}
 
 1. Standaard is het bijhouden van gegevens ingeschakeld voor leveringen. Schakel deze optie desgewenst uit in de **[!UICONTROL Optional features section]** .
 

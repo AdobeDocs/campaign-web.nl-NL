@@ -21,10 +21,10 @@ Door kanaalactiviteiten te gebruiken, creeer uitvoerige en gepersonaliseerde cam
 >[!NOTE]
 >
 >U kunt ook een eenmalige levering maken buiten de context van een campagneworkflow. Meer informatie vindt u in de volgende secties:
->* [ creeer standalone e-maillevering ](../../email/create-email.md)
->* [ creeer standalone levering van SMS ](../../sms/create-sms.md)
->* [ creeer standalone duw levering ](../../push/create-push.md)
->* [ creeer standalone directe postlevering ](../../direct-mail/create-direct-mail.md)
+>* [&#x200B; creeer standalone e-maillevering &#x200B;](../../email/create-email.md)
+>* [&#x200B; creeer standalone levering van SMS &#x200B;](../../sms/create-sms.md)
+>* [&#x200B; creeer standalone duw levering &#x200B;](../../push/create-push.md)
+>* [&#x200B; creeer standalone directe postlevering &#x200B;](../../direct-mail/create-direct-mail.md)
 
 ## Vereisten {#channel-activity-prereq}
 
@@ -34,11 +34,11 @@ Begin met het ontwikkelen van uw workflow met de relevante activiteiten:
 
    * A **bouwt publiek** activiteit. [Meer informatie](build-audience.md).
 
-     ![ Schermafbeelding die de toevoeging van een levering in een werkschema tonen ](../../msg/assets/add-delivery-in-wf.png)
+     ![&#x200B; Schermafbeelding die de toevoeging van een levering in een werkschema tonen &#x200B;](../../msg/assets/add-delivery-in-wf.png)
 
    * A **het dossier van de Lading** activiteit die door a **wordt gevolgd verzoening** activiteit. [Meer informatie](load-file.md).
 
-     ![ Schermafbeelding die werkschemaverzoeningscriteria tonen ](../assets/workflow-reconciliation-criteria.png)
+     ![&#x200B; Schermafbeelding die werkschemaverzoeningscriteria tonen &#x200B;](../assets/workflow-reconciliation-criteria.png)
 
 * Om een terugkomende levering te verzenden, begin uw werkschema met a **Planner** activiteit. Gebruik a **Planner** activiteit voor één-ontsproten enige leveringen om de contactdatum voor die levering te plaatsen. Deze contactdatum kan ook worden ingesteld in de leveringsinstellingen. Zie [deze sectie](scheduler.md).
 
@@ -76,13 +76,13 @@ Volg onderstaande stappen om een levering in te stellen in de context van een wo
 1. Selecteer het **Type van levering**: enige of terugkomende.
 
    * A **Enige levering** is één-schot levering slechts één keer, zoals een zwarte Vrijdag e-mail wordt verzonden.
-   * A **Terugkomende levering** wordt verzonden veelvoudige tijden die op zijn uitvoeringsfrequentie worden gebaseerd die in a [ wordt bepaald planneractiviteit ](scheduler.md). Telkens wanneer de werkstroom wordt uitgevoerd, wordt het publiek opnieuw berekend en wordt de levering verzonden naar het bijgewerkte publiek met de bijgewerkte inhoud. Dit kan een wekelijkse nieuwsbrief of een terugkerende verjaardagsmail zijn.
+   * A **Terugkomende levering** wordt verzonden veelvoudige tijden die op zijn uitvoeringsfrequentie worden gebaseerd die in a [&#x200B; wordt bepaald planneractiviteit &#x200B;](scheduler.md). Telkens wanneer de werkstroom wordt uitgevoerd, wordt het publiek opnieuw berekend en wordt de levering verzonden naar het bijgewerkte publiek met de bijgewerkte inhoud. Dit kan een wekelijkse nieuwsbrief of een terugkerende verjaardagsmail zijn.
 
 1. Selecteer een levering **Malplaatje**. Sjablonen zijn vooraf geconfigureerde leveringsinstellingen die specifiek zijn voor een kanaal. Voor elk kanaal is een ingebouwde sjabloon beschikbaar die standaard vooraf is ingevuld. [Meer informatie](../../msg/delivery-template.md)
 
-   ![ Schermafbeelding die leveringsactiviteit in een werkschema tonen ](../assets/delivery-activity-in-wf.png)
+   ![&#x200B; Schermafbeelding die leveringsactiviteit in een werkschema tonen &#x200B;](../assets/delivery-activity-in-wf.png)
 
-   Selecteer de sjabloon in het linkerdeelvenster van de kanaalactiviteitenconfiguratie. Als het eerder geselecteerde publiek niet compatibel is met het kanaal, kunt u geen sjabloon selecteren. Om dit op te lossen, werk **het publiek van de Bouwstijl** activiteit bij om een publiek met de correcte doelafbeelding te selecteren. Leer meer over doelafbeeldingen in [ deze sectie ](../../audience/targeting-dimensions.md).
+   Selecteer de sjabloon in het linkerdeelvenster van de kanaalactiviteitenconfiguratie. Als het eerder geselecteerde publiek niet compatibel is met het kanaal, kunt u geen sjabloon selecteren. Om dit op te lossen, werk **het publiek van de Bouwstijl** activiteit bij om een publiek met de correcte doelafbeelding te selecteren. Leer meer over doelafbeeldingen in [&#x200B; deze sectie &#x200B;](../../audience/targeting-dimensions.md).
 
 1. Klik **creeer levering**. Definieer de berichtinstellingen en de inhoud op dezelfde manier als u een zelfstandige levering maakt. Test en simuleer de inhoud. [Meer informatie](../../msg/gs-messages.md)
 
@@ -94,17 +94,17 @@ Volg onderstaande stappen om een levering in te stellen in de context van een wo
 
 1. Open uw kanaalactiviteit om het verzenden van de **Overzicht te bevestigen &amp;** knoop te verzenden.
 
-1. Van uw leveringsdashboard, verzendt de klik ****.
+1. Van uw leveringsdashboard, verzendt de klik **&#x200B;**.
 
 ## Voorbeelden {#cross-channel-workflow-sample}
 
 Hier volgt een voorbeeld van een workflow tussen kanalen met segmentatie en twee leveringen. De workflow is gericht op alle klanten die in Parijs wonen en geïnteresseerd zijn in koffiezetapparaten. Onder deze populatie wordt een e-mail verzonden naar gewone klanten en wordt een SMS verzonden naar VIP-klanten.
 
-![ Schermschot die een dwars-kanaalwerkschemavoorbeeld toont ](../assets/workflow-channel-example.png)
+![&#x200B; Schermschot die een dwars-kanaalwerkschemavoorbeeld toont &#x200B;](../assets/workflow-channel-example.png)
 
 U kunt ook een terugkerende workflow maken om elke eerste dag van de maand om 21.00 uur een gepersonaliseerd sms te verzenden naar alle klanten in Parijs.
 
-![ Schermafbeelding die een terugkerend werkschemavoorbeeld toont ](../assets/workflow-channel-example2.png)
+![&#x200B; Schermafbeelding die een terugkerend werkschemavoorbeeld toont &#x200B;](../assets/workflow-channel-example2.png)
 
 <!--
 description, which use case you can perform (common other activities that you can link before or after the activity)

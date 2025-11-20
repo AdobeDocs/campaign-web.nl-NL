@@ -30,9 +30,9 @@ U kunt bestaande HTML-inhoud importeren in de e-mail-Designer. Deze inhoud kan:
 
 Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren.
 
-1. Voor de [ E-mail Designer ](get-started-email-designer.md) homepage, uitgezochte **[!UICONTROL Import HTML]**.
+1. Voor de [&#x200B; E-mail Designer &#x200B;](get-started-email-designer.md) homepage, uitgezochte **[!UICONTROL Import HTML]**.
 
-   ![ Schermafbeelding die de optie HTML van de Invoer in de homepage van E-mailDesigner toont.](assets/html-import.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de optie HTML van de Invoer in de homepage van E-mailDesigner toont.](assets/html-import.png){zoomable="yes"}
 
 1. Sleep het HTML- of ZIP-bestand met de HTML-inhoud en klik op **[!UICONTROL Import]** .
 
@@ -40,11 +40,11 @@ Voer de onderstaande stappen uit om een bestand met HTML-inhoud te importeren.
 
    In deze modus kunt u de tekst aanpassen, koppelingen toevoegen of elementen aan uw inhoud toevoegen.
 
-   ![ Schermafbeelding die de geüploade HTML-inhoud in de modus Compatibiliteit weergeeft.](assets/html-imported.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de geüploade HTML-inhoud in de modus Compatibiliteit weergeeft.](assets/html-imported.png){zoomable="yes"}
 
 1. Als u de Designer-inhoudscomponenten voor e-mail wilt gebruiken, opent u het tabblad **[!UICONTROL HTML converter]** en klikt u op **[!UICONTROL Convert]** .
 
-   ![ Schermafbeelding die het converterlusje van HTML en de knoop van de Bekeerling toont.](assets/html-imported-2.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die het converterlusje van HTML en de knoop van de Bekeerling toont.](assets/html-imported-2.png){zoomable="yes"}
 
    >[!NOTE]
    >

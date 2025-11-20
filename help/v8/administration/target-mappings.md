@@ -28,9 +28,9 @@ Elk communicatiekanaal gebruikt een standaarddoelafbeelding om hun ontvangers te
 
 Doeltoewijzingen zijn toegankelijk via het menu **[!UICONTROL Administration]** > **[!UICONTROL Target mappings]** . Vanuit dit scherm hebt u toegang tot details over elke doeltoewijzing of kunt u nieuwe doeltoewijzingen maken die aan uw behoeften voldoen.
 
-![ het scherm van de lijst van de Toewijzingen van het Doel het tonen van beschikbare afbeeldingen ](assets/target-mappings-list.png)
+![&#x200B; het scherm van de lijst van de Toewijzingen van het Doel het tonen van beschikbare afbeeldingen &#x200B;](assets/target-mappings-list.png)
 
-Voor meer informatie over de ingebouwde doelafbeeldingen die van Adobe Campaign worden verstrekt, verwijs naar de [ de consoledocumentatie van de Cliënt van de Campagne v8 ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+Voor meer informatie over de ingebouwde doelafbeeldingen die van Adobe Campaign worden verstrekt, verwijs naar de [&#x200B; de consoledocumentatie van de Cliënt van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
 
 ## Doeltoewijzing maken {#create-mapping}
 
@@ -65,7 +65,7 @@ Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Target mappings]**
    * **[!UICONTROL Use the targeting dimension directly]**: selecteer de dimensie die u rechtstreeks wilt gebruiken in de lijst met beschikbare afmetingen.
    * **[!UICONTROL Use linked data]**: Begin van een het richten dimensie (bijvoorbeeld abonnementen), en schakel dan aan de het richten dimensie over die u (bijvoorbeeld ontvangers) wilt richten.
 
-   ![ het scherm van de eigenschappen van de Toewijzingen van het Doel het tonen van populatieopties ](assets/target-mappings-properties.png)
+   ![&#x200B; het scherm van de eigenschappen van de Toewijzingen van het Doel het tonen van populatieopties &#x200B;](assets/target-mappings-properties.png)
 
 1. Als de geselecteerde afmeting niet reeds door een bestaande doelafbeelding wordt gebruikt, moeten de schema&#39;s om de logboeken op te slaan worden gecreeerd. Aanvullende opties zijn beschikbaar in de sectie **[!UICONTROL Storage]** . Vouw de onderstaande sectie uit voor meer informatie.
 
@@ -76,7 +76,7 @@ Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Target mappings]**
 
       In het onderstaande voorbeeld is de naam van de broadlog &#39;cusbroadlogSupplier&#39;.
 
-      ![ Voorbeeld van opslagopties voor nieuwe het richten dimensies ](assets/target-mappings-new.png)
+      ![&#x200B; Voorbeeld van opslagopties voor nieuwe het richten dimensies &#x200B;](assets/target-mappings-new.png)
 
    1. **[!UICONTROL Delivery logs]**: activeer de opties in deze sectie om de verzendende logboeken te verrijken met een gebied van de segmentcode of een gebied dat het bezorgingsIP adres bevat. Sla bijvoorbeeld een segmentcode op die tijdens de workflow wordt berekend, in de verzendende logboeken om het doel later te verfijnen. Dit staat het richten van profielen met deze specifieke segmentcode toe.
 
@@ -88,7 +88,7 @@ Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Target mappings]**
 
 1. Gebruik de **[!UICONTROL Mapping]** sectie om te identificeren welke attributen van het schema van de doelafbeelding voor elk gebied van het leveringsadres te gebruiken. Selecteer voor elk veld het kenmerk dat u wilt toewijzen. U kunt ook een expressie maken om het veld te identificeren. Pas bijvoorbeeld een lagere functie toe op het adreskenmerk.
 
-   ![ sectie die van de Toewijzing kenmerkenselectie voor de gebieden van het leveringsadres toont ](assets/target-mappings-mapping.png)
+   ![&#x200B; sectie die van de Toewijzing kenmerkenselectie voor de gebieden van het leveringsadres toont &#x200B;](assets/target-mappings-mapping.png)
 
 1. Klik op de knop **[!UICONTROL Create]** wanneer de doeltoewijzing gereed is. Het systeem leidt automatisch tot de doelafbeelding en alle verwante schema&#39;s voor de logboeken.
 
@@ -96,11 +96,11 @@ Nadat u de doeltoewijzing hebt gemaakt, worden twee extra secties op het scherm 
 
 * **[!UICONTROL Denylisting]**: In deze sectie kunt u de kenmerken van het schema van de doeltoewijzing identificeren die voor lijsten van gewezen personen moeten worden gebruikt.
 
-  ![ Voegend op lijst van gewenste personen sectie die attributenselectie ](assets/target-mappings-denylisting.png) tonen
+  ![&#x200B; Voegend op lijst van gewenste personen sectie die attributenselectie &#x200B;](assets/target-mappings-denylisting.png) tonen
 
 * **[!UICONTROL Storage]**: in deze sectie kunt u de tabellen identificeren die u wilt gebruiken voor het opslaan van logbestanden.
 
-  ![ sectie van de Opslag die lijstopties voor logboeken tonen ](assets/target-mappings-storage.png)
+  ![&#x200B; sectie van de Opslag die lijstopties voor logboeken tonen &#x200B;](assets/target-mappings-storage.png)
 
    * **[!UICONTROL Message schema]**: identificeert het schema dat moet worden gebruikt om de verzendende logboeken op te slaan.
    * **[!UICONTROL Messages excluded]** - Geeft aan hoe u de opslag van bezorgings- en uitsluitingslogbestanden beheert.
@@ -114,4 +114,4 @@ Nadat u de doeltoewijzing hebt gemaakt, worden twee extra secties op het scherm 
 
      Selecteer **[!UICONTROL Add field]** om dit te doen. Identificeer de informatie die u wilt opslaan in het veld **[!UICONTROL Source]** en het kenmerk dat u wilt gebruiken in de verzendende logboeken om deze informatie op te slaan in het veld **[!UICONTROL Destination]** .
 
-     ![ Extra gebieden sectie die opties tonen om extra gegevens op te slaan ](assets/target-mappings-additional.png){width="50%" zoomable="yes"}
+     ![&#x200B; Extra gebieden sectie die opties tonen om extra gegevens op te slaan &#x200B;](assets/target-mappings-additional.png){width="50%" zoomable="yes"}

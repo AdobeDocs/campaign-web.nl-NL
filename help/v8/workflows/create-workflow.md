@@ -21,23 +21,23 @@ U kunt zelfstandige workflows of workflows in een campagne maken. De eerste stap
 
 Voer hiertoe de volgende stappen uit:
 
-1. Om a **standalone werkschema** tot stand te brengen, doorblader aan het **** menu van Werkschema&#39;s. Om het werkschema van de a **Campagne** tot stand te brengen, doorblader aan het **menu van Campagnes**, en open de campagne waarvoor u een nieuw werkschema wilt creëren.
+1. Om a **standalone werkschema** tot stand te brengen, doorblader aan het **&#x200B;**&#x200B;menu van Werkschema&#39;s. Om het werkschema van de a **Campagne** tot stand te brengen, doorblader aan het **menu van Campagnes**, en open de campagne waarvoor u een nieuw werkschema wilt creëren.
 
 1. Klik op de knop **[!UICONTROL Create workflow]** in de rechterbovenhoek van het scherm.
 
-   ![ Schermschot die de Create werkschemaknoop in de hoger-juiste hoek van het scherm tonen.](assets/workflow-create.png){zoomable="yes"}
+   ![&#x200B; Schermschot die de Create werkschemaknoop in de hoger-juiste hoek van het scherm tonen.](assets/workflow-create.png){zoomable="yes"}
 
-1. In het werkschema{**dialoog 0} Eigenschappen, selecteer het malplaatje om het werkschema tot stand te brengen (u kunt het gebrek ingebouwde malplaatje ook gebruiken).** [ Leer meer over werkschemamalplaatjes ](#workflow-templates).
+1. In het werkschema{**dialoog 0} Eigenschappen, selecteer het malplaatje om het werkschema tot stand te brengen (u kunt het gebrek ingebouwde malplaatje ook gebruiken).** [&#x200B; Leer meer over werkschemamalplaatjes &#x200B;](#workflow-templates).
 
 1. Voer een label in voor de workflow. Voeg bovendien een beschrijving toe aan uw workflow in het specifieke veld van de sectie **[!UICONTROL Additional options]** van het scherm.
 
-1. Vouw de sectie **[!UICONTROL Additional options]** uit om aanvullende instellingen voor de workflow te configureren. Leer hoe te om de werkschemaeigenschappen in [ te vormen deze pagina ](workflow-settings.md#properties).
+1. Vouw de sectie **[!UICONTROL Additional options]** uit om aanvullende instellingen voor de workflow te configureren. Leer hoe te om de werkschemaeigenschappen in [&#x200B; te vormen deze pagina &#x200B;](workflow-settings.md#properties).
 
-   ![ Schermafbeelding die de Extra optiessectie voor het vormen van werkschemamontages toont.](assets/workflow-additional-options.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de Extra optiessectie voor het vormen van werkschemamontages toont.](assets/workflow-additional-options.png){zoomable="yes"}
 
 1. Klik op de knop **[!UICONTROL Create workflow]** om het maken van uw workflow te bevestigen.
 
-Uw workflow wordt nu gemaakt en beschikbaar in de lijst met workflows. U kunt tot zijn visueel canvas toegang hebben en beginnen toevoegend, vormend, en de taken te ordenen het zal uitvoeren. [ Leer hoe te om werkschemaactiviteiten ](orchestrate-activities.md) te ordenen.
+Uw workflow wordt nu gemaakt en beschikbaar in de lijst met workflows. U kunt tot zijn visueel canvas toegang hebben en beginnen toevoegend, vormend, en de taken te ordenen het zal uitvoeren. [&#x200B; Leer hoe te om werkschemaactiviteiten &#x200B;](orchestrate-activities.md) te ordenen.
 
 ## Werken met workflowsjablonen {#workflow-templates}
 
@@ -64,14 +64,14 @@ Voer de volgende stappen uit om een werkstroomsjabloon te maken op basis van een
 1. Open het **menu van Werkschema&#39;s** en doorblader aan het werkschema om als malplaatje te bewaren.
 1. Klik de drie punten op het recht van de naam van het werkschema, en kies **Exemplaar als malplaatje**.
 
-   ![ Screenshot die het Exemplaar als malplaatjeoptie in het werkschemamenu toont.](assets/wf-copy-as-template.png){zoomable="yes"}
+   ![&#x200B; Screenshot die het Exemplaar als malplaatjeoptie in het werkschemamenu toont.](assets/wf-copy-as-template.png){zoomable="yes"}
 
 1. Bevestig het maken van de sjabloon in het pop-upvenster.
 1. In het canvas van het werkschemamalplaatje, controleer, voeg, en vorm de activiteiten toe zoals nodig.
 1. Blader naar de montages, van de **knoop van Montages**, om de naam van het werkschemamalplaatje te veranderen, en een beschrijving in te gaan.
 1. Selecteer de **omslag** en **uitvoeringsomslag** van het malplaatje. De map is de locatie waar het werkstroomsjabloon wordt opgeslagen. De uitvoeringsmap is de map waarin workflows worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
 
-   ![ Schermafbeelding die de montages voor omslag en uitvoeringsomslag in het werkschemamalplaatje toont.](assets/wf-settings-template.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de montages voor omslag en uitvoeringsomslag in het werkschemamalplaatje toont.](assets/wf-settings-template.png){zoomable="yes"}
 
    De andere eigenschappen komen veel voor in workflows. Meer informatie vindt u [op deze pagina](workflow-settings.md#properties).
 
@@ -88,14 +88,14 @@ Ga als volgt te werk om een werkstroomsjabloon helemaal zelf te maken:
 1. Voer het label in en open de aanvullende opties om een beschrijving van de werkstroomsjabloon in te voeren.
 1. Selecteer de map en de uitvoeringsmap van de sjabloon. De map is de locatie waar het werkstroomsjabloon wordt opgeslagen. De uitvoeringsmap is de map waarin workflows worden opgeslagen die op basis van deze sjabloon zijn gemaakt.
 
-   ![ Scherenshot die de verwezenlijking van een nieuw werkschemamalplaatje met omslag en uitvoeringsomslagmontages toont.](assets/new-wf-template.png){zoomable="yes"}
+   ![&#x200B; Scherenshot die de verwezenlijking van een nieuw werkschemamalplaatje met omslag en uitvoeringsomslagmontages toont.](assets/new-wf-template.png){zoomable="yes"}
 
    De andere eigenschappen komen veel voor in workflows. Meer informatie vindt u [op deze pagina](workflow-settings.md#properties).
 
 1. Klik **creeer** knoop om uw montages te bevestigen.
 1. In het canvas van het werkschemamalplaatje, voeg en vorm de activiteiten toe zoals nodig.
 
-   ![ Schermschot die het canvas van het werkschemamalplaatje voor het toevoegen van en het vormen van activiteiten tonen.](assets/wf-template-activities.png){zoomable="yes"}
+   ![&#x200B; Schermschot die het canvas van het werkschemamalplaatje voor het toevoegen van en het vormen van activiteiten tonen.](assets/wf-template-activities.png){zoomable="yes"}
 
 1. Sla uw wijzigingen op.
 

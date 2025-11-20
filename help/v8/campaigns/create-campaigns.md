@@ -30,18 +30,18 @@ Voer de volgende stappen uit om een nieuwe campagne te maken:
 
 1. Klik op het menu **[!UICONTROL Campaigns]** en klik op de knop **[!UICONTROL Create campaign]** .
 
-   ![ Schermschot die de &quot;Create campagne&quot;knoop in het menu van Campagnes ](assets/create-campaign-button.png) tonen
+   ![&#x200B; Schermschot die de &quot;Create campagne&quot;knoop in het menu van Campagnes &#x200B;](assets/create-campaign-button.png) tonen
 
 1. Selecteer het **Malplaatje** te gebruiken, en een etiket voor de campagne te verstrekken. [Meer informatie](manage-campaigns.md#manage-campaign-templates).
 1. Indien nodig, verander de volgende **Extra opties**: interne naam, omslag, toegewezen, beschrijving, en aard.
-1. Bepaal het **Programma** van uw campagne. Leer hoe te om uw campagneschema in [ te plaatsen deze sectie ](#campaign-schedule).
+1. Bepaal het **Programma** van uw campagne. Leer hoe te om uw campagneschema in [&#x200B; te plaatsen deze sectie &#x200B;](#campaign-schedule).
 1. Klik **creëren**.
 
-   ![ Schermafbeelding die het scherm van campagneeigenschappen, met inbegrip van gebieden voor interne naam, omslag, toegewezen, beschrijving, en aard tonen.](assets/create-a-campaign-properties.png)
+   ![&#x200B; Schermafbeelding die het scherm van campagneeigenschappen, met inbegrip van gebieden voor interne naam, omslag, toegewezen, beschrijving, en aard tonen.](assets/create-a-campaign-properties.png)
 
 1. Workflows en leveringen toevoegen aan uw campagne:
 
-   * Van het **lusje van de Werkschema&#39;s**, klik **creeer werkschema**. Er wordt automatisch een standaardworkflow toegevoegd wanneer u een campagne maakt. Leer meer over hoe te [ een werkschema ](../workflows/create-workflow.md) creëren.
+   * Van het **lusje van de Werkschema&#39;s**, klik **creeer werkschema**. Er wordt automatisch een standaardworkflow toegevoegd wanneer u een campagne maakt. Leer meer over hoe te [&#x200B; een werkschema &#x200B;](../workflows/create-workflow.md) creëren.
 
    * Van het **Leveringen** lusje, klik **creeer levering**. [Meer informatie](../msg/gs-messages.md)
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een nieuwe campagne te maken:
 
 Campagne-controle is een belangrijke stap om de doeltreffendheid van uw campagne te analyseren. Open uw campagne, en klik de **Logboeken** knoop.
 
-U kunt de specifieke rapporten ook bekijken door de **knoop van Rapporten** te klikken. Zie deze [ sectie ](../reporting/campaign-reports.md).
+U kunt de specifieke rapporten ook bekijken door de **knoop van Rapporten** te klikken. Zie deze [&#x200B; sectie &#x200B;](../reporting/campaign-reports.md).
 
 ## Het campagnereschema definiëren {#campaign-schedule}
 
@@ -60,11 +60,11 @@ U kunt de specifieke rapporten ook bekijken door de **knoop van Rapporten** te k
 
 De campagne begint wanneer de begindatum is bereikt. Zolang de begindatum niet is bereikt, heeft de campagne de **[!UICONTROL Draft]** status. Wanneer de begindatum is bereikt, wordt deze ingesteld op **[!UICONTROL In progress]** . Wanneer de einddatum is bereikt, wordt de campagne ingesteld op **[!UICONTROL Completed]** .
 
-Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt. Zie deze [ sectie ](manage-campaigns.md#access-campaigns).
+Begin- en einddatums worden weergegeven in de lijst met campagnes en kunnen als filter worden gebruikt. Zie deze [&#x200B; sectie &#x200B;](manage-campaigns.md#access-campaigns).
 
 >[!NOTE]
 >
->U kunt deze eigenschappen later wijzigen, van **vormen campagnemontages** pictogram naast het campagneetiket. Zie deze [ sectie ](gs-campaigns.md#campaign-dashboard).
+>U kunt deze eigenschappen later wijzigen, van **vormen campagnemontages** pictogram naast het campagneetiket. Zie deze [&#x200B; sectie &#x200B;](gs-campaigns.md#campaign-dashboard).
 
 Nadat de datum is bereikt, worden de leveringen die in die campagne zijn gemaakt in het kader van een workflow en die klaar zijn om te worden verzonden, daadwerkelijk verzonden. Hiervoor moet de workflow zijn gestart.
 

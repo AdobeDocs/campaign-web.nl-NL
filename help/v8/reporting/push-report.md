@@ -30,7 +30,7 @@ Het **Push leveringsrapport** verstrekt een grondig overzicht van het duw kanaal
 
 Het **[!UICONTROL Delivery overview]** -rapport bevat prestatie-indicatoren (KPI&#39;s) die gedetailleerde informatie geven over hoe uw bezoekers uw pushberichten gebruiken.
 
-![ Dit schermafbeelding toont het overzichtsrapport van de Levering, dat KPIs over bezoekersbetrokkenheid van duwberichten verstrekt.](assets/reporting_push_3.png){zoomable="yes"}
+![&#x200B; Dit schermafbeelding toont het overzichtsrapport van de Levering, dat KPIs over bezoekersbetrokkenheid van duwberichten verstrekt.](assets/reporting_push_3.png){zoomable="yes"}
 
 +++Meer weten over cijfers van pushrapporten?
 
@@ -50,7 +50,7 @@ Het **[!UICONTROL Delivery overview]** -rapport bevat prestatie-indicatoren (KPI
 
 De **gerichte bevolkings** grafiek en lijstvertoningsgegevens met betrekking tot uw publiek: berichten te leveren en uitsluitingen. De cijfers worden hieronder beschreven.
 
-![ Dit schermafbeelding toont de Gerichte bevolkingsgrafiek en de lijst, die gegevens over te leveren berichten en uitsluitingen tonen.](assets/reporting_push_4.png){zoomable="yes"}
+![&#x200B; Dit schermafbeelding toont de Gerichte bevolkingsgrafiek en de lijst, die gegevens over te leveren berichten en uitsluitingen tonen.](assets/reporting_push_4.png){zoomable="yes"}
 
 +++Meer weten over cijfers van pushrapporten?
 
@@ -68,7 +68,7 @@ De **gerichte bevolkings** grafiek en lijstvertoningsgegevens met betrekking tot
 
 Het **Algemene statistiek** rapport stelt gegevens voor de verzonden pushberichten voor: succes, fouten, en quarantines. De cijfers worden hieronder beschreven.
 
-![ Dit schermafbeelding toont het Algemene statistische rapport, dat gegevens over succes, fouten, en quarantines voor verzonden pushberichten voorstelt.](assets/reporting_push_5.png){zoomable="yes"}
+![&#x200B; Dit schermafbeelding toont het Algemene statistische rapport, dat gegevens over succes, fouten, en quarantines voor verzonden pushberichten voorstelt.](assets/reporting_push_5.png){zoomable="yes"}
 
 +++Meer weten over cijfers van pushrapporten?
 
@@ -83,11 +83,11 @@ Het **Algemene statistiek** rapport stelt gegevens voor de verzonden pushbericht
 >[!CONTEXTUALHELP]
 >id="acw_delivery_reporting_push_exclusions"
 >title="Uitsluitingen bij duwen"
->abstract="De **grafiek en de lijst van uitsluitingen 0} {tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen.**"
+>abstract="De **grafiek en de lijst van uitsluitingen 0&rbrace; &lbrace;tonen de diverse redenen die gebruikersprofielen, die van de gerichte profielen werden uitgesloten, verhinderden het bericht te ontvangen.**"
 
-In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u verschillende redenen waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet hebben ontvangen. De regels van de uitsluiting zijn gedetailleerd in de [ Campagne v8 (console) documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
+In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u verschillende redenen waarom gebruikersprofielen, die waren uitgesloten van de doelprofielen, het bericht niet hebben ontvangen. De regels van de uitsluiting zijn gedetailleerd in de [&#x200B; Campagne v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/failures/delivery-failures.html#push-error-types){_blank}.
 
-![ Dit het schermschot toont de grafiek en de lijst van Uitzonderingen, die vertoningsredenen verhinderen uitgesloten gebruikersprofielen berichten te ontvangen.](assets/reporting_push_6.png){zoomable="yes"}
+![&#x200B; Dit het schermschot toont de grafiek en de lijst van Uitzonderingen, die vertoningsredenen verhinderen uitgesloten gebruikersprofielen berichten te ontvangen.](assets/reporting_push_6.png){zoomable="yes"}
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
@@ -98,4 +98,4 @@ In de grafiek en tabel van **[!UICONTROL Exclusions]** ziet u verschillende rede
 
 Het **rapport van de productie van de Levering** stelt gedetailleerde informatie betreffende de leveringsproductie van het volledige platform binnen een gespecificeerd timeframe voor. Primaire metrisch die wordt gebruikt om de snelheid van berichtlevering te meten is het aantal berichten per uur worden verzonden.
 
-![ Dit schermafbeelding toont het rapport van de productie van de Levering, dat details over de snelheid van de het berichtlevering van het platform binnen een gespecificeerd tijdkader verstrekt.](assets/reporting_push_2.png){zoomable="yes"}
+![&#x200B; Dit schermafbeelding toont het rapport van de productie van de Levering, dat details over de snelheid van de het berichtlevering van het platform binnen een gespecificeerd tijdkader verstrekt.](assets/reporting_push_2.png){zoomable="yes"}

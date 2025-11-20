@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Campagnerapporten voor externe leveringskanalen {#campaign-reports-direct-mail}
 
-Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor externe leveringskanalen worden de rapporten en de cijfers hieronder beschreven. Leer hoe te om tot uw campagnerapporten in [ toegang te hebben deze pagina ](campaign-reports.md).
+Elk campagnerapport is verdeeld in verschillende widgets waarin het succes en de fouten van uw campagne worden beschreven. Voor externe leveringskanalen worden de rapporten en de cijfers hieronder beschreven. Leer hoe te om tot uw campagnerapporten in [&#x200B; toegang te hebben deze pagina &#x200B;](campaign-reports.md).
 
 Het volgende rapport wordt beschreven in de context van direct mail. Het is ook beschikbaar voor vraagcentrum en douane externe kanalen.
 
@@ -27,7 +27,7 @@ Het volgende rapport wordt beschreven in de context van direct mail. Het is ook 
 
 In **[!UICONTROL Delivery Overview]** worden de belangrijkste prestatiemetriek (KPI&#39;s) gepresenteerd, die diepgaande inzichten biedt in de interactie van uw bezoekers met elke direct-maillevering. De meetgegevens worden hieronder beschreven.
 
-![ Overzicht van de metriek van de campagnelevering van de Directe post ](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
+![&#x200B; Overzicht van de metriek van de campagnelevering van de Directe post &#x200B;](assets/direct-mail-campaign-overview.png){zoomable="yes"}{align="center"}
 
 +++Meer weten over de maatstaven van het leveringsoverzicht?
 
@@ -50,7 +50,7 @@ In **[!UICONTROL Delivery Overview]** worden de belangrijkste prestatiemetriek (
 
 In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens weergegeven die betrekking hebben op uw ontvangers. De metriek worden berekend tijdens leveringsvoorbereiding en tonen het aanvankelijke publiek, het aantal te verzenden berichten, en het aantal uitgesloten ontvangers.
 
-![ Statistieken van het aanvankelijke doelpubliek voor Directe postcampagnes ](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
+![&#x200B; Statistieken van het aanvankelijke doelpubliek voor Directe postcampagnes &#x200B;](assets/direct-mail-campaign-target-audience.png){zoomable="yes"}
 
 +++Meer informatie over de statistische gegevens van het Eerste doelpubliek.
 
@@ -69,7 +69,7 @@ In de tabel **[!UICONTROL Initial target audience statistics]** worden gegevens 
 >title="Leveringsstatistieken"
 >abstract="De **statistieken van de Uitvoering** lijst specificeert het succes van uw Directe postlevering, en fouten die voorkwamen."
 
-![ de statistieken van de Uitvoering voor Directe postcampagnes ](assets/direct-mail-campaign-exec.png)
+![&#x200B; de statistieken van de Uitvoering voor Directe postcampagnes &#x200B;](assets/direct-mail-campaign-exec.png)
 
 De tabel **[!UICONTROL Execution statistics]** bevat een overzicht van het succes van elke direct-maillevering. Hieronder vindt u gedetailleerde gegevens.
 
@@ -92,7 +92,7 @@ De tabel **[!UICONTROL Execution statistics]** bevat een overzicht van het succe
 >title="Gegenereerde klikstromen"
 >abstract="De **Gegenereerde klikstromen** lijst toont de beschikbare gegevens met betrekking tot hoe uw ontvangers met uw levering interactie hadden."
 
-![ klik stroomgegevens voor Directe postcampagnes ](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
+![&#x200B; klik stroomgegevens voor Directe postcampagnes &#x200B;](assets/direct-mail-campaign-clicks.png){zoomable="yes"}{align="center"}
 
 De **Gegenereerde klikstromen** lijst illustreert de redenen die gebruikersprofielen, uitgesloten van de gerichte profielen, het bericht ontvingen.
 

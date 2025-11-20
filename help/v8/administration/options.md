@@ -34,7 +34,7 @@ U kunt opties kiezen in het menu **[!UICONTROL Administration]** / **[!UICONTROL
 [ lijst van Opties die in het Beleid/menu van Opties wordt getoond ]
 
 >[!NOTE]
->Hoewel de locatie van het optiemenu verschilt tussen de Adobe Campaign-console en de webgebruikersinterface, is de lijst identiek en werkt deze als een spiegel. Voor meer details over de beschikbare opties, verwijs naar de lijst van opties in [ de documentatie van de Campagne v7 ](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
+>Hoewel de locatie van het optiemenu verschilt tussen de Adobe Campaign-console en de webgebruikersinterface, is de lijst identiek en werkt deze als een spiegel. Voor meer details over de beschikbare opties, verwijs naar de lijst van opties in [&#x200B; de documentatie van de Campagne v7 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options){target="_blank"}.
 
 In de lijst met opties kunt u:
 
@@ -52,7 +52,7 @@ Een optie maken:
 1. Voer een naam voor de optie in, selecteer het type en stel de gewenste waarde in.
 1. Klik op **[!UICONTROL Create]** om de optie te maken.
 
-![ creeer optieinterface die gebieden voor naam, type, en waarde tonen ](assets/options-create.png)
+![&#x200B; creeer optieinterface die gebieden voor naam, type, en waarde tonen &#x200B;](assets/options-create.png)
 
 De opties kunnen als tijdelijke opslag voor gegevens dienst doen, die de volgende voordelen aanbieden:
 
@@ -63,16 +63,16 @@ In het onderstaande voorbeeld wordt een aangepaste optie met de naam `sampleOpti
 
 1. Maak de optie.
 
-   ![ interface die van de de optiesverwezenlijking van de Douane de naam `sampleOption` en aanvankelijke waarde &quot;a&quot;](assets/options-sample-create.png) toont
+   ![&#x200B; interface die van de de optiesverwezenlijking van de Douane de naam `sampleOption` en aanvankelijke waarde &quot;a&quot;](assets/options-sample-create.png) toont
 
 1. Configureer een **[!UICONTROL JavaScript code]** -activiteit en start de workflow.
 
-   ![ de interface van de de codeactiviteit van JavaScript configuratie ](assets/options-sample-javascript.png)
+   ![&#x200B; de interface van de de codeactiviteit van JavaScript configuratie &#x200B;](assets/options-sample-javascript.png)
 
 1. Voer de workflow uit om de bijgewerkte waarde in de logboeken van de workflow te bekijken.
 
-   ![ Logboeken van het Werkschema die de bijgewerkte waarde van de douaneoptie tonen ](assets/options-sample-logs.png)
+   ![&#x200B; Logboeken van het Werkschema die de bijgewerkte waarde van de douaneoptie tonen &#x200B;](assets/options-sample-logs.png)
 
 1. De bijgewerkte waarde wordt nu weergegeven in het menu **[!UICONTROL Options]** .
 
-   ![ menu van Opties tonend de bijgewerkte waarde van de douaneoptie ](assets/options-sample-updated.png)
+   ![&#x200B; menu van Opties tonend de bijgewerkte waarde van de douaneoptie &#x200B;](assets/options-sample-updated.png)

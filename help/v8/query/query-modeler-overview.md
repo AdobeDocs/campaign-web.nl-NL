@@ -37,18 +37,18 @@ De vraagmodeler is beschikbaar in elke context waar u regels aan filtergegevens 
 
 | Gebruik | Voorbeeld |
 |  ---  |  ---  |
-| **bepaalt publiek**: Specificeer de bevolking u in uw berichten of werkschema&#39;s wilt richten, en creeer moeiteloos nieuw publiek dat aan uw behoeften wordt aangepast. [ Leer hoe te om publiek te bouwen ](../audience/one-time-audience.md) | ![ Beeld die tonen hoe te om tot de interface van de publieksverwezenlijking toegang te hebben ](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
-| **pas werkschemaactiviteiten** aan: Pas regels binnen werkschemaactiviteiten, zoals **Gesplitste** en **Verzoening** toe, om op uw specifieke vereisten te richten. [ leer meer over werkschemaactiviteiten ](../workflows/activities/about-activities.md) | ![ Beeld die hoe te om tot de opties van de werkschemaaanpassing toegang te hebben ](assets/access-workflow.png){width="200" align="center" zoomable="yes"} toont |
-| **vooraf bepaalde filters**: Creeer vooraf bepaalde filters die als kortere weg tijdens diverse het filtreren verrichtingen dienen, of u met gegevenslijsten werkt of het publiek voor een levering vormt. [ Leer hoe te met vooraf bepaalde filters ](../get-started/predefined-filters.md) te werken | ![ Beeld die tonen hoe te om tot vooraf bepaalde filters toegang te hebben ](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
-| **de rapporten van de Filter gegevens**: Voeg regels toe om de gegevens te filtreren die in rapporten worden getoond. [ Leer hoe te met rapporten ](../reporting/gs-reports.md) te werken | ![ Beeld dat hoe te om gegevens in rapporten ](assets/access-reports.png){width="200" align="center" zoomable="yes"} toont te filtreren |
-| **pas lijsten** aan: Creeer douaneregels om de gegevens te filtreren die in lijsten zoals ontvangers of leveringslijsten worden getoond. [ Leer hoe te om lijsten ](../get-started/list-filters.md#list-built-in-filters) te filtreren | ![ Beeld die hoe te om lijstfilters ](assets/access-lists.png){width="200" align="center" zoomable="yes"} tonen aan te passen |
-| **bouwt voorwaardelijke inhoud**: Maak e-mailinhoud dynamisch door voorwaarden te creëren die bepalen welke inhoud aan verschillende ontvangers zou moeten worden getoond, die gepersonaliseerd en relevant overseinen verzekeren. [ Leer hoe te om voorwaardelijke inhoud te bouwen ](../personalization/conditions.md) | ![ Beeld dat hoe te om voorwaardelijke inhoud ](assets/conditional-content.png){width="200" align="center" zoomable="yes"} te creëren toont |
+| **bepaalt publiek**: Specificeer de bevolking u in uw berichten of werkschema&#39;s wilt richten, en creeer moeiteloos nieuw publiek dat aan uw behoeften wordt aangepast. [&#x200B; Leer hoe te om publiek te bouwen &#x200B;](../audience/one-time-audience.md) | ![&#x200B; Beeld die tonen hoe te om tot de interface van de publieksverwezenlijking toegang te hebben &#x200B;](assets/access-audience.png){width="200" align="center" zoomable="yes"} |
+| **pas werkschemaactiviteiten** aan: Pas regels binnen werkschemaactiviteiten, zoals **Gesplitste** en **Verzoening** toe, om op uw specifieke vereisten te richten. [&#x200B; leer meer over werkschemaactiviteiten &#x200B;](../workflows/activities/about-activities.md) | ![&#x200B; Beeld die hoe te om tot de opties van de werkschemaaanpassing toegang te hebben &#x200B;](assets/access-workflow.png){width="200" align="center" zoomable="yes"} toont |
+| **vooraf bepaalde filters**: Creeer vooraf bepaalde filters die als kortere weg tijdens diverse het filtreren verrichtingen dienen, of u met gegevenslijsten werkt of het publiek voor een levering vormt. [&#x200B; Leer hoe te met vooraf bepaalde filters &#x200B;](../get-started/predefined-filters.md) te werken | ![&#x200B; Beeld die tonen hoe te om tot vooraf bepaalde filters toegang te hebben &#x200B;](assets/access-predefined-filter.png){width="200" align="center" zoomable="yes"} |
+| **de rapporten van de Filter gegevens**: Voeg regels toe om de gegevens te filtreren die in rapporten worden getoond. [&#x200B; Leer hoe te met rapporten &#x200B;](../reporting/gs-reports.md) te werken | ![&#x200B; Beeld dat hoe te om gegevens in rapporten &#x200B;](assets/access-reports.png){width="200" align="center" zoomable="yes"} toont te filtreren |
+| **pas lijsten** aan: Creeer douaneregels om de gegevens te filtreren die in lijsten zoals ontvangers of leveringslijsten worden getoond. [&#x200B; Leer hoe te om lijsten &#x200B;](../get-started/list-filters.md#list-built-in-filters) te filtreren | ![&#x200B; Beeld die hoe te om lijstfilters &#x200B;](assets/access-lists.png){width="200" align="center" zoomable="yes"} tonen aan te passen |
+| **bouwt voorwaardelijke inhoud**: Maak e-mailinhoud dynamisch door voorwaarden te creëren die bepalen welke inhoud aan verschillende ontvangers zou moeten worden getoond, die gepersonaliseerd en relevant overseinen verzekeren. [&#x200B; Leer hoe te om voorwaardelijke inhoud te bouwen &#x200B;](../personalization/conditions.md) | ![&#x200B; Beeld dat hoe te om voorwaardelijke inhoud &#x200B;](assets/conditional-content.png){width="200" align="center" zoomable="yes"} te creëren toont |
 
 >[!NOTE]
 >
 >Wanneer u een object opent dat is gemaakt in de clientconsole waarop regels zijn toegepast, zoals een publiek of een vooraf gedefinieerd filter, wordt de sectie **[!UICONTROL Refine target]** mogelijk weergegeven. Dit betekent dat de extra parameters zijn gevormd om het regeldoel te verfijnen. Deze parameters kunnen alleen in de console worden gewijzigd.
 >
->![ Beeld dat een waarschuwing over het raffineren van doelstellingen toont ](assets/target-warning.png){zoomable="yes"}
+>![&#x200B; Beeld dat een waarschuwing over het raffineren van doelstellingen toont &#x200B;](assets/target-warning.png){zoomable="yes"}
 
 ## Query-modellerinterface {#interface}
 
@@ -57,7 +57,7 @@ De vraagmodeler verstrekt een centraal canvas waar u uw vraag en een juiste ruit
 >[!IMPORTANT]
 >
 >Er is een gloednieuwe interface beschikbaar voor het Query-model. De Nieuwe regelbouwer staat u toe om uw vraag met meer gemak dankzij zijn vereenvoudigde interface te bouwen. Druk op de schakelknop in de rechterbovenhoek om naar deze ervaring over te schakelen. U kunt naar de klassieke modelleerling van de Vraag terugkeren wanneer u wilt door eenvoudig de knevel terug te duwen om de nieuwe interface onbruikbaar te maken. U kunt de zelfde principes toepassen zoals vraagmodeler in deze nieuwe interface.
->![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen ](assets/query-modeler-toggle.png){zoomable="yes"}
+>![Beeld die knevel voor de nieuwe interface van de regelbouwer tonen &#x200B;](assets/query-modeler-toggle.png){zoomable="yes"}
 
 
 >[!CONTEXTUALHELP]
@@ -65,11 +65,11 @@ De vraagmodeler verstrekt een centraal canvas waar u uw vraag en een juiste ruit
 >title="Nieuwe ervaring voor het maken van regels"
 >abstract="Gebruik deze knevel om tussen de Klassieke modelleerling van de Vraag en de Nieuwe ervaring van de regelbouwer te schakelen. De nieuwe regelbouwer staat u toe om uw vraag gemakkelijker te bouwen, dankzij zijn vereenvoudigde en intuïtieve interface."
 
-![ Beeld dat de interface van de vraagmodeller toont ](assets/query-interface.png){zoomable="yes"}
+![&#x200B; Beeld dat de interface van de vraagmodeller toont &#x200B;](assets/query-interface.png){zoomable="yes"}
 
 ### Het centrale canvas {#canvas}
 
-Het centrale canvas van de vraagmodeler is waar u toevoegt en de verschillende componenten combineert om uw vraag te bouwen. [ Leer hoe te om een vraag ](build-query.md) te bouwen
+Het centrale canvas van de vraagmodeler is waar u toevoegt en de verschillende componenten combineert om uw vraag te bouwen. [&#x200B; Leer hoe te om een vraag &#x200B;](build-query.md) te bouwen
 
 >[!BEGINTABS]
 
@@ -99,4 +99,4 @@ De werkbalk in de rechterbovenhoek van het canvas bevat opties waarmee u de quer
 
 ### Het deelvenster Eigenschappen van regel {#rule-properties}
 
-Aan de rechterkant bevat het deelvenster **[!UICONTROL Rule properties]** informatie over de query. Het staat u toe om diverse handelingen uit te voeren om de vraag te controleren en ervoor te zorgen het uw behoeften aanpast. Dit deelvenster wordt weergegeven wanneer u een query samenstelt om een publiek te maken. [ leer hoe te om uw vraag te controleren en te bevestigen ](build-query.md#check-and-validate-your-query)
+Aan de rechterkant bevat het deelvenster **[!UICONTROL Rule properties]** informatie over de query. Het staat u toe om diverse handelingen uit te voeren om de vraag te controleren en ervoor te zorgen het uw behoeften aanpast. Dit deelvenster wordt weergegeven wanneer u een query samenstelt om een publiek te maken. [&#x200B; leer hoe te om uw vraag te controleren en te bevestigen &#x200B;](build-query.md#check-and-validate-your-query)

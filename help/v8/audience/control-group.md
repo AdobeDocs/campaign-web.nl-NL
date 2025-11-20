@@ -29,11 +29,11 @@ Alle profielen die deel uitmaken van de controlegroep bij de voorbereidingsstap 
 
 >[!CAUTION]
 >
->U kunt geen controlegroepen gebruiken wanneer het laden van de doelbevolking [ van een extern dossier ](file-audience.md).
+>U kunt geen controlegroepen gebruiken wanneer het laden van de doelbevolking [&#x200B; van een extern dossier &#x200B;](file-audience.md).
 
 Om een controlegroep aan een levering toe te voegen, activeer de **[!UICONTROL Enable control group]** knevel van de **sectie van het Publiek** van het scherm van de leveringsverwezenlijking.
 
-![ laat de schakelaar van de controlegroep van een knevel op het scherm van de leveringsverwezenlijking ](assets/control-group1.png) toe
+![&#x200B; laat de schakelaar van de controlegroep van een knevel op het scherm van de leveringsverwezenlijking &#x200B;](assets/control-group1.png) toe
 
 ## Extraheren uit doel {#extract-target}
 
@@ -44,7 +44,7 @@ Om een controlegroep aan een levering toe te voegen, activeer de **[!UICONTROL E
 
 ### Een controlegroep samenstellen {#build-extract-target}
 
-Om een controlegroep te bepalen, verkies om, willekeurig of gebaseerd op een sortering, een percentage of een vast aantal profielen uit de doelpopulatie te halen. Als het toevoegen van een extra bevolking, kies de **Geen extractie** optie en selecteer de extra bevolking [ zoals hier gedetailleerd ](#extra-population).
+Om een controlegroep te bepalen, verkies om, willekeurig of gebaseerd op een sortering, een percentage of een vast aantal profielen uit de doelpopulatie te halen. Als het toevoegen van een extra bevolking, kies de **Geen extractie** optie en selecteer de extra bevolking [&#x200B; zoals hier gedetailleerd &#x200B;](#extra-population).
 
 Bepaal eerst hoe de profielen uit het doel worden gehaald: willekeurig of gebaseerd op het sorteren.
 
@@ -60,10 +60,10 @@ Dan, gebruik de **de grens van de Grootte** sectie om het aantal profielen te pl
 Bijvoorbeeld, om een controlegroep met de 100 jongste profielen tot stand te brengen, volg deze stappen:
 
 1. Selecteer het **gebied van de Leeftijd** als sorterend criterium. Verlaat de **Overlopende** soortoptie.
-1. Voeg het **gebied van de Datum van de Verwezenlijking 0} {toe.** Verandering in de **Aflopende** soortoptie.
+1. Voeg het **gebied van de Datum van de Verwezenlijking 0&rbrace; &lbrace;toe.** Verandering in de **Aflopende** soortoptie.
 1. Bepaal 100 als drempel in de **grens van de Grootte** sectie.
 
-   ![ de groepsconfiguratie van de Controle voor jongste profielen ](assets/control-group2.png){zoomable="yes"}
+   ![&#x200B; de groepsconfiguratie van de Controle voor jongste profielen &#x200B;](assets/control-group2.png){zoomable="yes"}
 
 Deze 100 jongste profielen worden dan van het hoofddoel uitgesloten.
 
@@ -71,17 +71,17 @@ Deze 100 jongste profielen worden dan van het hoofddoel uitgesloten.
 
 Bekijk de logboeken om de uitgesloten profielen te controleren en te identificeren. Neem bijvoorbeeld een willekeurige uitsluiting van vijf profielen.
 
-![ Voorbeeld van uitgesloten profielen in logboeken ](assets/control-group4.png){zoomable="yes"}
+![&#x200B; Voorbeeld van uitgesloten profielen in logboeken &#x200B;](assets/control-group4.png){zoomable="yes"}
 
 Controleer na de voorbereiding van de levering hoe de uitsluitingen zijn toegepast:
 
 * In het leveringsdashboard, alvorens te verzenden, controleer **om** KPI uit te sluiten.
 
-  ![ dashboard die van de Levering &quot;toont om&quot;KPI ](assets/control-group5.png){zoomable="yes"} uit te sluiten
+  ![&#x200B; dashboard die van de Levering &quot;toont om&quot;KPI &#x200B;](assets/control-group5.png){zoomable="yes"} uit te sluiten
 
 * In de leveringslogboeken, toont het lusje van Logs de uitsluitingsstap.
 
-  ![ Logboeken van de Levering die uitsluitingsstap tonen ](assets/control-group-sample-logs.png){zoomable="yes"}
+  ![&#x200B; Logboeken van de Levering die uitsluitingsstap tonen &#x200B;](assets/control-group-sample-logs.png){zoomable="yes"}
 
 <!--
 
@@ -93,9 +93,9 @@ Controleer na de voorbereiding van de levering hoe de uitsluitingen zijn toegepa
 
 * De **Uitsluiting veroorzaakt** lusje toont het aantal uitgesloten profielen voor elke typologieregel.
 
-  ![ Uitsluiting veroorzaakt lusje dat typologische regeluitsluitingen toont ](assets/control-group7.png){zoomable="yes"}
+  ![&#x200B; Uitsluiting veroorzaakt lusje dat typologische regeluitsluitingen toont &#x200B;](assets/control-group7.png){zoomable="yes"}
 
-Voor meer informatie over leveringslogboeken, verwijs naar deze [ sectie ](../monitor/delivery-logs.md).
+Voor meer informatie over leveringslogboeken, verwijs naar deze [&#x200B; sectie &#x200B;](../monitor/delivery-logs.md).
 
 ## Een extra populatie toevoegen {#extra-population}
 
@@ -108,7 +108,7 @@ Een andere manier om een controlegroep te bepalen is een specifieke bevolking in
 
 Van de **Extra bevolking** sectie van het **de definitiescherm van de Groep van de Controle**, klik de **[!UICONTROL Select Audience]** knoop.
 
-![ het Extra scherm van de bevolkingsselectie ](assets/control-group3.png){zoomable="yes"}
+![&#x200B; het Extra scherm van de bevolkingsselectie &#x200B;](assets/control-group3.png){zoomable="yes"}
 
 * Om een bestaand publiek te gebruiken, klik **Uitgezochte publiek**. Lees meer in [deze sectie](add-audience.md).
 * Om een nieuwe vraag te bepalen, creeer **uw eigen** en bepaal de uitsluitingscriteria gebruikend de vraagmodeler. Lees meer in [deze sectie](../query/query-modeler-overview.md).
@@ -119,4 +119,4 @@ De profielen inbegrepen in het publiek of het aanpassen van het resultaat van de
 
 Zodra de levering wordt verzonden, haal de verzendende logboeken om gedrag tussen de profielen te vergelijken die niet de mededeling en het efficiënte doel ontvingen. Gebruik de leveringslogboeken om een nieuwe het richten te bouwen.
 
-Om te zien welke profielen van het doel werden verwijderd, controleer de **Logboeken van de Levering**. Leer meer [ in deze sectie ](#check-control-group).
+Om te zien welke profielen van het doel werden verwijderd, controleer de **Logboeken van de Levering**. Leer meer [&#x200B; in deze sectie &#x200B;](#check-control-group).

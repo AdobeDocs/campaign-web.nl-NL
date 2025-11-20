@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Nadat u de inhoud van uw bericht hebt gedefinieerd, kunt u testprofielen gebruiken om een voorbeeld van de inhoud weer te geven en deze te testen. Als gepersonaliseerde inhoud wordt opgenomen, onderzoek hoe deze inhoud in het bericht door de gegevens van het testprofiel te gebruiken verschijnt. Dit verzekert de berichtvertoningen zoals bedoeld en dat de gepersonaliseerde informatie correct wordt voorgesteld.
 
-De belangrijkste stappen voor een voorvertoning van uw SMS-levering zijn als volgt. Meer details op hoe te voorproef zijn de leveringen beschikbaar in [ deze sectie ](../preview-test/preview-content.md).
+De belangrijkste stappen voor een voorvertoning van uw SMS-levering zijn als volgt. Meer details op hoe te voorproef zijn de leveringen beschikbaar in [&#x200B; deze sectie &#x200B;](../preview-test/preview-content.md).
 
 1. Gebruik **[!UICONTROL Simulate content]** om een voorvertoning van uw gepersonaliseerde inhoud weer te geven vanaf de pagina met de inhoud van de levering.
 
-   ![ previewing gepersonaliseerde inhoud van SMS ](assets/sms_send_1.png){zoomable="yes"}
+   ![&#x200B; previewing gepersonaliseerde inhoud van SMS &#x200B;](assets/sms_send_1.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Add test profile(s)]** om een of meerdere testprofielen of profielen te selecteren.
 
@@ -36,7 +36,7 @@ De belangrijkste stappen voor een voorvertoning van uw SMS-levering zijn als vol
 
 1. In de juiste ruit, bekijk een voorproef van de levering van SMS, waar de gepersonaliseerde elementen dynamisch met gegevens van het geselecteerde profiel worden vervangen.
 
-   ![ ruit van de Voorproef die gepersonaliseerde levering van SMS tonen ](assets/sms_send_3.png){zoomable="yes"}
+   ![&#x200B; ruit van de Voorproef die gepersonaliseerde levering van SMS tonen &#x200B;](assets/sms_send_3.png){zoomable="yes"}
 
 Bekijk en verzend je SMS-bericht naar je publiek.
 
@@ -46,15 +46,15 @@ Met **Adobe Campaign**, test een bericht alvorens het naar het belangrijkste pub
 
 Het verzenden van proefdrukken is van cruciaal belang voor de kwaliteit en doeltreffendheid van uw levering. De ontvangers van het proef herzien diverse elementen zoals verbindingen, opt-out verbindingen, en beelden, en identificeren om het even welke fouten in het teruggeven, inhoud, verpersoonlijkingsmontages, en de configuratie van SMS. Dit proces evalueert en optimaliseert grondig uw SMS alvorens uw belangrijkste publiek te bereiken.
 
-![ pictogram van het Boek voor het verzenden van proeven ](../assets/do-not-localize/book.png) leren hoe te om proeven in [ deze sectie ](../preview-test/test-deliveries.md) te verzenden.
+![&#x200B; pictogram van het Boek voor het verzenden van proeven &#x200B;](../assets/do-not-localize/book.png) leren hoe te om proeven in [&#x200B; deze sectie &#x200B;](../preview-test/test-deliveries.md) te verzenden.
 
-![ het Testen levering van SMS ](assets/sms_send_6.png){zoomable="yes"}
+![&#x200B; het Testen levering van SMS &#x200B;](assets/sms_send_6.png){zoomable="yes"}
 
 ## Verstuur je SMS-verzending {#send-sms}
 
 1. Nadat u de SMS-inhoud hebt aangepast, klikt u op **[!UICONTROL Review & send]** op uw **[!UICONTROL Delivery]** -pagina.
 
-   ![ Overzicht en verzend SMS levering ](assets/sms_send_4.png){zoomable="yes"}
+   ![&#x200B; Overzicht en verzend SMS levering &#x200B;](assets/sms_send_4.png){zoomable="yes"}
 
 1. Klik op **[!UICONTROL Prepare]** en controleer de voortgang en de beschikbare statistieken.
 
@@ -62,9 +62,9 @@ Het verzenden van proefdrukken is van cruciaal belang voor de kwaliteit en doelt
 
 1. Verzend de berichten door op **[!UICONTROL Send]** te klikken om door te gaan met het laatste verzendproces.
 
-   ![ verzendt levering van SMS ](assets/sms_send_5.png){zoomable="yes"}
+   ![&#x200B; verzendt levering van SMS &#x200B;](assets/sms_send_5.png){zoomable="yes"}
 
-   Als de SMS-levering gepland is, klikt u op de knop **[!UICONTROL Send as scheduled]** . Leer meer over levering het plannen in [ deze sectie ](../msg/gs-messages.md#schedule-the-delivery-sending).
+   Als de SMS-levering gepland is, klikt u op de knop **[!UICONTROL Send as scheduled]** . Leer meer over levering het plannen in [&#x200B; deze sectie &#x200B;](../msg/gs-messages.md#schedule-the-delivery-sending).
 
 1. Bevestig de verzendactie door op de knop **[!UICONTROL Send]** te klikken.
 

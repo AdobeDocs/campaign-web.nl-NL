@@ -49,8 +49,8 @@ Volg deze gemeenschappelijke stappen om de **te vormen combineren** activiteit:
 ![](../assets/workflow-combine.png)
 
 1. Voeg veelvoudige activiteiten, zoals **toe bouwt publiek** activiteiten, om minstens twee verschillende uitvoertakken te vormen.
-1. Voeg a **** activiteit aan om het even welke vorige takken combineren.
-1. Selecteer het segmentatietype: [ unie ](#union), [ intersection ](#intersection), of [ uitsluiting ](#exclusion).
+1. Voeg a **&#x200B;**&#x200B;activiteit aan om het even welke vorige takken combineren.
+1. Selecteer het segmentatietype: [&#x200B; unie &#x200B;](#union), [&#x200B; intersection &#x200B;](#intersection), of [&#x200B; uitsluiting &#x200B;](#exclusion).
 1. Klik **verdergaan**.
 1. In de **Reeksen om zich bij** sectie aan te sluiten, controleer alle vorige activiteiten u wenst om zich aan te sluiten.
 
@@ -75,7 +75,7 @@ In **combineer** activiteit, vorm a **Unie** door het **Verzoeningstype** te sel
 
 In **combineer** activiteit, vorm een **Intersection** door deze extra stappen te volgen:
 
-1. Selecteer het **Type van Verzoening** om te bepalen hoe de duplicaten worden behandeld. Zie [ Unie ](#union) sectie.
+1. Selecteer het **Type van Verzoening** om te bepalen hoe de duplicaten worden behandeld. Zie [&#x200B; Unie &#x200B;](#union) sectie.
 1. Controleer **aanvult** optie als u wenst om de resterende bevolking te verwerken. Het complement omvat de samenvoeging van de resultaten van alle binnenkomende activiteiten min de doorsnede. Een extra uitgaande overgang wordt dan toegevoegd aan de activiteit.
 
 ## Uitsluiting {#combine-exclusion}
@@ -104,11 +104,11 @@ In **combineer** activiteit, vorm een **Uitsluiting** door deze extra stappen te
 
 1. In de **Reeksen om zich bij** sectie aan te sluiten, selecteer de **Primaire reeks** van de binnenkomende overgangen. Dit is de set waaruit elementen worden uitgesloten. De andere sets komen overeen met de elementen voordat deze worden uitgesloten van de primaire set.
 1. Bewerk indien nodig binnenkomende tabellen. Als u een doel wilt uitsluiten van een andere dimensie, keert u dit doel terug naar dezelfde doeldimensie als het hoofddoel. Klik **toevoegen een regel** in de **sectie van de Regels van de Uitsluiting** en specificeer de voorwaarden van de afmetingsverandering. Afstemming van gegevens vindt plaats via een attribuut of een join-functie.
-1. Controleer **aanvult** optie als u wenst om de resterende bevolking te verwerken. Zie de [ sectie van de Intersectie ](#intersection).
+1. Controleer **aanvult** optie als u wenst om de resterende bevolking te verwerken. Zie de [&#x200B; sectie van de Intersectie &#x200B;](#intersection).
 
 ## Voorbeelden {#combine-examples}
 
-In het volgende voorbeeld, combineert a **** activiteit a **Unie** om alle profielen van de twee vragen terug te winnen: personen tussen 18 en 27 jaar oud en personen tussen 34 en 40 jaar oud.
+In het volgende voorbeeld, combineert a **&#x200B;**&#x200B;activiteit a **Unie** om alle profielen van de twee vragen terug te winnen: personen tussen 18 en 27 jaar oud en personen tussen 34 en 40 jaar oud.
 
 ![](../assets/workflow-union-example.png)
 

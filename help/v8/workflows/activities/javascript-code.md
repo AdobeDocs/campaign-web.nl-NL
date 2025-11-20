@@ -48,19 +48,19 @@ Volg deze stappen om de **code van JavaScript** activiteit te vormen:
 1. Kies het type activiteit dat u wilt maken:
 
    * **Eenvoudig**: Voer één codefragment uit.
-   * **Geavanceerd**: Voer geavanceerdere verrichtingen door twee verschillende codefragmenten uit te voeren. [ Leer hoe te om een geavanceerde activiteit van JavaScript te vormen ](#advanced)
+   * **Geavanceerd**: Voer geavanceerdere verrichtingen door twee verschillende codefragmenten uit te voeren. [&#x200B; Leer hoe te om een geavanceerde activiteit van JavaScript te vormen &#x200B;](#advanced)
 
    >[!NOTE]
    >
    >Met het Gebruikersinterface van het Web van de Campagne, zijn twee activiteiten geconsolideerd in door zowel **Eenvoudige** als **Geavanceerde** de codefunctionaliteit van JavaScript samen te voegen. Deze consolidatie heeft geen invloed op de functionaliteit van de activiteit.
 
-1. Bevestig en klik op de knop **[!UICONTROL Edit code]** om de expressie-editor te openen. Het linkerdeelvenster bevat vooraf gedefinieerde syntaxis waarmee u code kunt maken, inclusief gebeurtenisvariabelen. [ Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur ](../event-variables.md) te werken.
+1. Bevestig en klik op de knop **[!UICONTROL Edit code]** om de expressie-editor te openen. Het linkerdeelvenster bevat vooraf gedefinieerde syntaxis waarmee u code kunt maken, inclusief gebeurtenisvariabelen. [&#x200B; Leer hoe te met gebeurtenisvariabelen en de uitdrukkingsredacteur &#x200B;](../event-variables.md) te werken.
 
-   ![ de redacteurinterface van de Uitdrukking voor de codeactiviteit van JavaScript ](../assets/javascript-editor.png)
+   ![&#x200B; de redacteurinterface van de Uitdrukking voor de codeactiviteit van JavaScript &#x200B;](../assets/javascript-editor.png)
 
 1. Configureer in de sectie **[!UICONTROL Execution]** de vertraging om de activiteit na een uitvoeringsperiode te stoppen. Standaard kan de uitvoeringsfase niet langer duren dan 1 uur. Na deze vertraging wordt het proces afgebroken met een foutbericht en mislukt de uitvoering van de activiteit. Als u deze limiet wilt negeren, stelt u de waarde in op 0.
 
-   ![ interface van de Configuratie voor uitvoeringsvertraging ](../assets/javascript-config.png)
+   ![&#x200B; interface van de Configuratie voor uitvoeringsvertraging &#x200B;](../assets/javascript-config.png)
 
 1. Schakel de optie **[!UICONTROL Process errors]** in of uit om fouten te behouden die optreden tijdens de uitvoering van het script in een extra uitvoerovergang.
 
@@ -82,7 +82,7 @@ Voer de volgende stappen uit om een geavanceerde JavaScript-codeactiviteit te co
 
    In dit voorbeeld worden twee overgangen geconfigureerd en geactiveerd door het script in het codefragment op basis van specifieke voorwaarden.
 
-   ![ Voorbeeld van gevormde overgangen ](../assets/javascript-transitions.png)
+   ![&#x200B; Voorbeeld van gevormde overgangen &#x200B;](../assets/javascript-transitions.png)
 
 1. Voltooi de activiteitenconfiguratie en begin het werkschema.
 
@@ -92,7 +92,7 @@ Voer de volgende stappen uit om een geavanceerde JavaScript-codeactiviteit te co
 
 In dit voorbeeld ziet u hoe u een variabele initialiseert op basis van het aantal profielen dat wordt gebruikt door een workflow.
 
-![ Voorbeeld van veranderlijke initialisering die op profieltelling wordt gebaseerd ](../assets/javascript-example1.png)
+![&#x200B; Voorbeeld van veranderlijke initialisering die op profieltelling wordt gebaseerd &#x200B;](../assets/javascript-example1.png)
 
 In dit voorbeeld worden VIP-profielen uit de database als doel ingesteld. Een variabele genoemd &quot;kanaal&quot;wordt gecreeerd met een waarde die van het aantal profielen afhangt die door de het publieksactiviteit van de Bouwstijl wordt gericht:
 
@@ -118,7 +118,7 @@ Om dit te bereiken, volg deze stappen:
 
 In dit voorbeeld wordt getoond hoe u een overgang activeert op basis van de waarde van een variabele.
 
-![ Voorbeeld van overgangen die door veranderlijke waarden ](../assets/javascript-example2-transitions.png) worden teweeggebracht
+![&#x200B; Voorbeeld van overgangen die door veranderlijke waarden &#x200B;](../assets/javascript-example2-transitions.png) worden teweeggebracht
 
 In dit voorbeeld, begint het werkschema met een **Externe signaal** activiteit, waarin een variabele (`interest`) van een ander werkschema wordt overgegaan. De waarde van de variabele is ‘actief’ of ‘yoga’, afhankelijk van de filterbewerkingen die in de eerste workflow zijn uitgevoerd.
 
