@@ -48,8 +48,8 @@ ht-degree: 19%
       + E-mail verzenden en controleren {#monitor}
          + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
          + [Verzenden met meerdere golven](advanced-settings/send-using-waves.md)
-         + [ Logboeken van de levering van de Monitor ](monitor/delivery-logs.md)
-         + [ Plan het verzenden van een levering ](monitor/schedule-sending.md)
+         + [&#x200B; Logboeken van de levering van de Monitor &#x200B;](monitor/delivery-logs.md)
+         + [&#x200B; Plan het verzenden van een levering &#x200B;](monitor/schedule-sending.md)
    + Pushmeldingen {#push}
       + [Aan de slag met pushmeldingen](push/gs-push.md)
       + [Een pushmelding maken](push/create-push.md)
@@ -84,7 +84,7 @@ ht-degree: 19%
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
    + Voorbeeld en test de levering {#preview-test}
-      + [ Ongeveer voorproef en proef ](preview-test/preview-test.md)
+      + [&#x200B; Ongeveer voorproef en proef &#x200B;](preview-test/preview-test.md)
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
       + [Proefdrukken verzenden](preview-test/test-deliveries.md)
       + [De rendering van e-mail testen](preview-test/email-rendering.md)
@@ -290,4 +290,4 @@ ht-degree: 19%
       + [Externe CRM-rekening](administration/external-crm.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [&#x200B; Campagne v8 (console) documentatie > &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
