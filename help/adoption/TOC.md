@@ -20,5 +20,5 @@ ht-degree: 30%
 + [&#x200B; krijgen begonnen voor Marketers &#x200B;](get-started/marketers.md)
 + [Aan de slag met Admin/Developer](get-started/admin-developers.md)
 + [Toegangsbeheer van gebruikers](get-started/user-management-acs.md)
-+ [&lt; Terug naar de documentatie bij Campagne v8 (web) &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home)
-+ [&lt; Terug naar de documentatie van Campagne v8 (console) &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [&lt; Terug naar de documentatie bij Campagne v8 (web) &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web/v8/campaign-web-home)
++ [&lt; Terug naar de documentatie van Campagne v8 (console) &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
