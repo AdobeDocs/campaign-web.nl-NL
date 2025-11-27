@@ -6,9 +6,9 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 1ed20f88d9a11dcac7aa4a3aa93e3058b18c04ff
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '623'
 ht-degree: 14%
 
 ---
@@ -47,7 +47,7 @@ U kunt deze sjabloon nu gebruiken om uw leveringen te verzenden.
 
 >[!TAB  Adobe Campaign V8 ]
 
-Om een leveringsmalplaatje tot stand te brengen, kunt u een ingebouwde malplaatje dupliceren, een bestaande levering in een malplaatje omzetten of een leveringsmalplaatje van kras tot stand brengen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html?lang=nl-NL)
+Om een leveringsmalplaatje tot stand te brengen, kunt u een ingebouwde malplaatje dupliceren, een bestaande levering in een malplaatje omzetten of een leveringsmalplaatje van kras tot stand brengen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-templates.html)
 
 Nadat u de sjabloon hebt gemaakt, kunt u deze koppelen aan een merk. Dit doet u als volgt:
 
@@ -99,7 +99,7 @@ Volg de onderstaande stappen om een nieuwe, zelfstandige levering te maken.
 
    ![](assets/branding_assign_web_7.png)
 
-1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar [&#x200B; creeer uw eerste e-mail &#x200B;](../../email/create-email.md) sectie.
+1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar [ creeer uw eerste e-mail ](../../email/create-email.md) sectie.
 
 >[!TAB  Adobe Campaign V8 ]
 
@@ -123,9 +123,12 @@ Volg de onderstaande stappen om een nieuwe, zelfstandige levering te maken.
 
 1. Zodra gevormd, uitgezochte **O.K.**.
 
-1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar het [&#x200B; Ontwerp en verzend e-mails &#x200B;](../../email/create-email.md) sectie.
+1. Pas uw leveringen verder aan. Voor meer informatie over het creëren van een e-mail verwijs naar het [ Ontwerp en verzend e-mails ](../../email/create-email.md) sectie.
+
+1. U kunt ook merkgegevens toevoegen met de aanpassingsvelden. Navigeer naar **[!UICONTROL Branding]** en selecteer de merkgerelateerde aanpassingsblokken die u wilt invoegen (zoals de merknaam, de URL van het logo, de URL van de website, informatie over de afzender, enz.).
 
 >[!ENDTABS]
+
 
 ## Branding controleren die is gekoppeld aan transactieberichten {#check-branding-transactional}
 

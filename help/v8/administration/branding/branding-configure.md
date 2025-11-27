@@ -6,10 +6,10 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
-source-git-commit: 2b4a818c819ae598d5555c1a2d64447b0793b5b8
+source-git-commit: 8b93ddd9c655c9ca461f28392c70872e4005b44f
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 27%
+source-wordcount: '497'
+ht-degree: 17%
 
 ---
 
@@ -60,3 +60,29 @@ A **[!UICONTROL Brand]** wordt bepaald door de volgende kenmerken:
   Gebruik het menu **[!UICONTROL Additional URL Parameters]** om extra parameters als sleutel-waardeparen samen met hun toepassingsvoorwaarden tot stand te brengen. Elke parameternaam moet uniek en niet leeg zijn en elke parameterwaarde moet niet leeg zijn. De toepassingsvoorwaarde kan leeg zijn, maar geen van deze waarden kan JST-tags bevatten.
 
   Deze parameters worden toegepast op bijgehouden URL&#39;s die overeenkomen met een domeinnaam die is opgegeven in de **[!UICONTROL List of Domain Names]** . Deze parameters kunnen reguliere expressies bevatten.
+
+  **Voorbeeld:** Een bijgehouden URL als `https://www.example.com` zal `https://www.example.com/?age=21&deliveryName=DM101` worden wanneer de extra parameters `age=21` en `deliveryName=DM101` voor dat domein worden gevormd.
+
+## Branding voor transactiemeldingen configureren {#branding-transactional-config}
+
+>[!IMPORTANT]
+>
+>Deze sectie is slechts op Transactieoverseinen (het Centrum van het Bericht) van toepassing.
+>
+>Terwijl de transactiemogelijkheden in het Web UI van de Campagne beschikbaar zijn, moeten de hieronder stappen in de Console van de Cliënt van de Campagne v8 (controlegeval) worden uitgevoerd.
+
+Als u het Transactionele overseinen (het Centrum van het Bericht) met branding gebruikt, wordt de extra configuratie vereist.
+
+### Formules bijhouden voor Real-Time instanties
+
+Wanneer branding op een Real-Time (RT) controleinstantie wordt geactiveerd, worden de specifieke het volgen opties gebruikt om het volgen formules te beheren. Deze formules worden gevormd centraal op de instantie van de Controle van RT eerder dan individueel op elke instantie van de Uitvoering van RT.
+
+De volgende opties bepalen de volgende formules die door levering RT worden gebruikt:
+
+* **`NmsTracking_RT_ClickFormula`**: geeft de formule aan die wordt gebruikt voor klikken op bijhouden bij RT-instanties
+
+* **`NmsTracking_RT_OpenFormula`**: geeft de formule aan die wordt gebruikt voor open tracking bij RT-instanties
+
+Als voor uw implementatie aangepaste volgformules voor transactieberichten zijn vereist, gebruikt u de onderstaande optie:
+
+* **`Branding_RT_ListXtkOptions_toPublish`**: vermeld hier de XTK-optienamen voor uw aangepaste formules (gescheiden door komma&#39;s). Dit zorgt ervoor dat de levering van RT de aangepaste het volgen formules kan toepassen.
