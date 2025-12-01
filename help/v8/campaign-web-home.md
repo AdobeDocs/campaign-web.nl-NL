@@ -3,7 +3,7 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: cf576041294efc1c699fee4cb5ffb7ad68b78953
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 2%
@@ -47,7 +47,7 @@ We zijn blij om de nieuwe versie van Adobe Campaign Web User Interface te introd
 
 ## Nieuwe functies
 
-Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and documentation! Voor een uitvoerige lijst van zeer belangrijke mogelijkheden en versie werkt eigenschappen bij, controleer [&#x200B; deze pagina &#x200B;](rn/whats-new.md).
+Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and documentation! Voor een uitvoerige lijst van zeer belangrijke mogelijkheden en versie werkt eigenschappen bij, controleer [ deze pagina ](rn/whats-new.md).
 
 >[!BEGINTABS]
 
@@ -56,20 +56,20 @@ Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and
 
 Oktober-release is live. De nieuwe eigenschappen en de verhogingen zijn nu beschikbaar in het de gebruikersinterface van het Web van de Campagne, met inbegrip van Meertalige Mogelijkheden voor Transactionaal Overseinen, Push Meldingen en SMS, Integratie met Adobe GenStudio en de verrijking van het Profiel in Transactionele Berichten. Voor een volledig overzicht bekijkt u de opmerkingen bij de release.
 
-[![&#x200B; leer meer knoop &#x200B;](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+[![ leer meer knoop ](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB  AI Medewerker ]
 
-✨ onderdompelt zich in een hands-on ervaring met onze [&#x200B; AI Medewerker &#x200B;](../v8/email/generative-gs.md) levende eigenschapvoorproef, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
+✨ onderdompelt zich in een hands-on ervaring met onze [ AI Medewerker ](../v8/content/generative-gs.md) levende eigenschapvoorproef, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
-[![&#x200B; leer meer knoop &#x200B;](assets/do-not-localize/try-it-button.svg) &#x200B;](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![ leer meer knoop ](assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Veelgestelde vragen]
 
 Veelgestelde vragen over de gebruikersinterface van het Web van de Campagne zijn vermeld in een nieuwe specifieke pagina.
 
-[![&#x200B; leer meer knoop &#x200B;](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
+[![ leer meer knoop ](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]
@@ -132,5 +132,5 @@ Veelgestelde vragen over de gebruikersinterface van het Web van de Campagne zijn
 
 ## Verdere bronnen
 
-* [&#x200B; de Beschrijving van het Product van Adobe Campaign &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [&#x200B; Adobe Campaign v8 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=nl){target="_blank"}
+* [ de Beschrijving van het Product van Adobe Campaign ](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [ Adobe Campaign v8 documentatie ](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=nl){target="_blank"}

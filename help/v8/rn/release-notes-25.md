@@ -2,7 +2,7 @@
 title: Campagne v8 Web User Interface Opmerkingen bij vorige release
 description: 2025 Campagne Web User Interface-releases
 exl-id: eecb4b18-4826-47a6-88b2-f2ed7b576d3e
-source-git-commit: 934a37cfebfacd2df0b7610285252d883611f252
+source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
 workflow-type: tm+mt
 source-wordcount: '2664'
 ht-degree: 11%
@@ -11,7 +11,7 @@ ht-degree: 11%
 
 # Opmerkingen bij de release 2025 {#2025-release}
 
-Deze pagina maakt een lijst van alle veranderingen en verbeteringen beschikbaar met **2025 versies**. De recentste vrije nota&#39;s zijn beschikbaar in [&#x200B; deze pagina &#x200B;](release-notes.md).
+Deze pagina maakt een lijst van alle veranderingen en verbeteringen beschikbaar met **2025 versies**. De recentste vrije nota&#39;s zijn beschikbaar in [ deze pagina ](release-notes.md).
 
 ## Release september 1925 {#25-9-release}
 
@@ -190,7 +190,7 @@ De volgende functies zijn beschikbaar vanaf de release in juli.
 <td>
 <p>You can now send multiple email and SMS deliveries in different languages in Adobe Campaign Web UI. The multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen.
 </p>
-<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=nl-NL" target="_blank">release notes</a>.
+<p>For Multilingual email, your server must be upgraded to 8.8.1 minimum. Refer to the Client Console <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank">release notes</a>.
 <p>For more information, refer to the <a href="../email/edit-content.md#multilingual-delivery">detailed documentation</a>.</p>
 </td>
 </tr>
@@ -297,7 +297,7 @@ De volgende functies zijn beschikbaar vanaf de release in juli.
 <tr>
 <td>
 <p>U kunt tot Dynamische Rapportering nu toegang hebben die volledig klantgerichte en real-time rapporten verstrekt om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Dynamische rapportage is ook beschikbaar voor meertalige e-mailleveringen en transactieberichten.</p>
-<p>Deze mogelijkheid is alleen op aanvraag beschikbaar. Neem contact op met uw Adobe-vertegenwoordiger voor toegang. De upgrade van uw server moet minimaal 8.8.1 uitvoeren. Verwijs naar de de versienota's van de Console van de Cliënt <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=nl-NL" target="_blank"> </a>.
+<p>Deze mogelijkheid is alleen op aanvraag beschikbaar. Neem contact op met uw Adobe-vertegenwoordiger voor toegang. De upgrade van uw server moet minimaal 8.8.1 uitvoeren. Verwijs naar de de versienota's van de Console van de Cliënt <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank"> </a>.
 <p>Raadpleeg de <a href="../reporting/dynamic-reporting/get-started-reporting.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -314,7 +314,7 @@ De volgende functies zijn beschikbaar vanaf de release in juli.
 <tr>
 <td>
 <p>Uw technische beheerders kunnen nu een of meerdere merken definiëren om de parameters die de identiteit van een merk beïnvloeden, te centraliseren. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina's of de instellingen voor de tracking van berichten. U kunt deze merken maken en deze koppelen aan berichten of bestemmingspagina's. Deze configuratie wordt beheerd in malplaatjes. Brandingsopties zijn beschikbaar voor alle kanalen, waaronder SMS en Direct mail.</p>
-<p>Deze mogelijkheid is alleen op aanvraag beschikbaar voor nieuwe implementaties. Neem contact op met uw Adobe-vertegenwoordiger voor toegang. De upgrade van uw server moet minimaal 8.8.1 uitvoeren. Verwijs naar de de versienota's van de Console van de Cliënt <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=nl-NL" target="_blank"> </a>.
+<p>Deze mogelijkheid is alleen op aanvraag beschikbaar voor nieuwe implementaties. Neem contact op met uw Adobe-vertegenwoordiger voor toegang. De upgrade van uw server moet minimaal 8.8.1 uitvoeren. Verwijs naar de de versienota's van de Console van de Cliënt <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html" target="_blank"> </a>.
 <p>Raadpleeg de <a href="../administration/branding/branding-gs.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
@@ -323,10 +323,10 @@ De volgende functies zijn beschikbaar vanaf de release in juli.
 
 Naast de hierboven vermelde functies wordt deze release ook geleverd met een aantal functies die beschikbaar zijn in de Client Console:
 
-* [&#x200B; Nieuwe SMS die schakelaar &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=nl-NL) verzenden (milieu&#39;s FDA)
-* [&#x200B; Rest APIs &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=nl-NL) (op bestelling, milieu&#39;s FDA)
+* [ Nieuwe SMS die schakelaar ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) verzenden (milieu&#39;s FDA)
+* [ Rest APIs ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (op bestelling, milieu&#39;s FDA)
 
-Verwijs naar de de versienota&#39;s van de Console van de Cliënt [&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=nl-NL){target="_blank"}.
+Verwijs naar de de versienota&#39;s van de Console van de Cliënt [ ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 <!--
 
@@ -334,14 +334,14 @@ Verwijs naar de de versienota&#39;s van de Console van de Cliënt [&#x200B; &#x2
 
 >[!AVAILABILITY]
 >
->To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=nl-NL){target="_blank"}.
+>To benefit from these updates, your server must be upgrated to 8.8.1 mininum. Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 Previously released in Limited Availability, the following capabilities are now available to all environments (General Availability):
 
 * **Multilingual delivery creation** - You can now send multiple email deliveries in different languages in Adobe Campaign Web User Interface. The Multilingual delivery feature allows you to choose the default language of your delivery as well as the different languages in which the delivery can be sent. You can also preview these deliveries in the languages you have chosen. [Read more](../email/edit-content.md#multilingual-delivery).
 
 
-* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html?lang=nl-NL){target="_blank"}
+* **Visual fragments** - You can now create, use and archive content fragments. Visual fragments are pre-defined visual blocks that you can reuse across multiple email deliveries, or in content templates. [Learn more](https://experienceleague.adobe.com/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments.html){target="_blank"}
 
 * **Delivery alerting** - The Delivery alerting feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries. [Read more](../msg/delivery-alerting.md)
 
@@ -368,10 +368,10 @@ Previously released in Limited Availability, the following capabilities are now 
 
 In addition to the features listed above, this release also comes with a set of functionalities available in the Client Console:
 
-* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=nl-NL) (FDA environments)
-* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=nl-NL) (on demand, FDA environments)
+* [New SMS sending connector](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html) (FDA environments)
+* [Rest APIs](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html) (on demand, FDA environments)
 
-Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html?lang=nl-NL){target="_blank"}.
+Refer to the Client Console [release notes](https://experienceleague.adobe.com/docs/campaign/campaign-v8/releases/release-notes.html){target="_blank"}.
 
 -->
 
@@ -383,7 +383,7 @@ Refer to the Client Console [release notes](https://experienceleague.adobe.com/d
 
 * Wanneer het vormen van een levering van SMS, in de **sectie van SMS**, hebt u nu toegang tot de **Facultatieve parameters SMPP (TLV)**. Deze parameter is hetzelfde als in de clientconsole. [Meer informatie](../advanced-settings/delivery-settings.md#sms-tab)
 
-* U kunt achtergrondberichten op iOS nu toelaten gebruikend de nieuwe **Beschikbare Inhoud** optie, beschikbaar in de **Geavanceerde montages** sectie van het scherm van de de inhoudsuitgave van iOS. Hiermee wordt de markering `content-available:1` toegevoegd in de payload van `aps` . Leer meer [&#x200B; op deze pagina &#x200B;](../push/content-push.md). Zie ook [&#x200B; deze pagina &#x200B;](../push/rich-push-ios.md)
+* U kunt achtergrondberichten op iOS nu toelaten gebruikend de nieuwe **Beschikbare Inhoud** optie, beschikbaar in de **Geavanceerde montages** sectie van het scherm van de de inhoudsuitgave van iOS. Hiermee wordt de markering `content-available:1` toegevoegd in de payload van `aps` . Leer meer [ op deze pagina ](../push/content-push.md). Zie ook [ deze pagina ](../push/rich-push-ios.md)
 
 * De volgende verbeteringen op de bestemmingspagina zijn nu beschikbaar:
 
@@ -523,7 +523,7 @@ U kunt ook bestaande externe accounts weergeven, bijwerken en beheren.</p>
 **Algemene interfaceverbeteringen**
 
 * De veldbeschrijving, Toevoegen aan Favorieten en Distributie van waardeopties voor schemakenmerken zijn nu beter zichtbaar in de gebruikersinterface. Raadpleeg de [gedetailleerde documentatie](../get-started/attributes.md) voor meer informatie.
-* In de interface worden de datum en tijd nu weergegeven volgens de primaire taal die is ingesteld in de Experience League-voorkeuren. Deze verbetering is alleen beschikbaar voor verschillende talen. Om de volledige lijst van gesteunde talen te zien, verwijs naar de [&#x200B; gedetailleerde documentatie &#x200B;](https://experienceleague.adobe.com/nl/docs/core-services/interface/features/browser-language){target=_blank}.
+* In de interface worden de datum en tijd nu weergegeven volgens de primaire taal die is ingesteld in de Experience League-voorkeuren. Deze verbetering is alleen beschikbaar voor verschillende talen. Om de volledige lijst van gesteunde talen te zien, verwijs naar de [ gedetailleerde documentatie ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language){target=_blank}.
 
 <!--
 ko * Built-in options are now only visible in the list of options if the **Show advanced options** toggle is activated.
@@ -549,13 +549,13 @@ ko * The typology rules creation screen has been updated to facilitate the selec
 >
 >De volgende mogelijkheden zijn in Beperkte Beschikbaarheid (LA). Zij zijn beperkt tot klanten die **van Adobe Campaign Standard aan Adobe Campaign v8** migreren, en kunnen niet op een ander milieu worden opgesteld. Ze vereisen een upgrade van de Campagneserver naar v8.7.4.
 >
->Verwijs naar de volgende documentatiepagina&#39;s: [&#x200B; overgang Campaign Standard aan Campagne v8 &#x200B;](../rn/acs-migration.md) en [&#x200B; Eigenschappen voor de gebruikers van Campaign Standard &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL).
+>Verwijs naar de volgende documentatiepagina&#39;s: [ overgang Campaign Standard aan Campagne v8 ](../rn/acs-migration.md) en [ Eigenschappen voor de gebruikers van Campaign Standard ](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html).
 
 * **Meertalige leveringsverwezenlijking** - u kunt veelvoudige e-mailleveringen in verschillende talen in het Gebruikersinterface van het Web van Adobe Campaign nu verzenden. Met de functie Meertalige levering kunt u de standaardtaal van uw levering kiezen en de verschillende talen waarin de levering kan worden verzonden. U kunt deze leveringen ook voorvertonen in de talen die u hebt gekozen. Raadpleeg de [gedetailleerde documentatie](../email/edit-content.md) voor meer informatie.
 
 * **Dynamische Rapportering voor Meertalig** - de Dynamische rapportering is nu beschikbaar voor meertalige e-mailleveringen. Raadpleeg de [gedetailleerde documentatie](../reporting/global-reports.md) voor meer informatie.
 
-* **de REST API van SMS steun (LA)** - De Transactionele WEERGAVE API van het Overseinen is nu beschikbaar voor het kanaal van SMS. Wanneer zowel e-mail als mobilePhone aanwezig zijn in de lading, kunt u het &quot;wishedChannel&quot;gebied gebruiken om het kanaal te specificeren. Indien niet opgegeven, wordt de e-mail standaard gebruikt, tenzij wishedChannel expliciet om SMS verzoekt. Raadpleeg de [gedetailleerde documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html?lang=nl-NL){target=_blank} voor meer informatie.
+* **de REST API van SMS steun (LA)** - De Transactionele WEERGAVE API van het Overseinen is nu beschikbaar voor het kanaal van SMS. Wanneer zowel e-mail als mobilePhone aanwezig zijn in de lading, kunt u het &quot;wishedChannel&quot;gebied gebruiken om het kanaal te specificeren. Indien niet opgegeven, wordt de e-mail standaard gebruikt, tenzij wishedChannel expliciet om SMS verzoekt. Raadpleeg de [gedetailleerde documentatie](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/apis/get-started-apis.html){target=_blank} voor meer informatie.
 
 ## Release van februari &#39;25 {#25-2-release}
 
@@ -722,7 +722,7 @@ De volgende functies en verbeteringen zijn beschikbaar vanaf de release in janua
 <td>
 <p>De AI-assistent is nu beschikbaar bij de levering van de bestemmingspagina, zodat u tekst, afbeeldingen of volledige paginalay-outs kunt genereren.</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>Voor meer informatie over AI Medewerker, verwijs naar de <a href="../email/generative-lp.md"> gedetailleerde documentatie </a>.</p>
+<p>Voor meer informatie over AI Medewerker, verwijs naar de <a href="../content/generative-full-content.md"> gedetailleerde documentatie </a>.</p>
 </td>
 </tr>
 </tbody>
