@@ -111,13 +111,13 @@ Als Campaign Standard-gebruiker die overschakelt naar Adobe Campaign v8, beschik
 
   De eenvoud en het gemak van het gebruik van SMS maken het een zeer waardevol communicatiekanaal naast zijn robuustheid en ongeëvenaarde verenigbaarheid over miljarden terminals.
 
-  Adobe Campaign v8 wordt geleverd met een nieuwe infrastructuur die de verzending van SMS verbetert. [&#x200B; leer meer over nieuwe montages van SMS &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
+  Adobe Campaign v8 wordt geleverd met een nieuwe infrastructuur die de verzending van SMS verbetert. [&#x200B; leer meer over nieuwe montages van SMS &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/sms/sms){target="_blank"}.
 
 * **Verbeterde infrastructuur van de Duw**
 
   Adobe Campaign v8 introduceert onze nieuwste Push notification service, aangedreven door een robuust raamwerk dat is gebaseerd op een moderne, geavanceerde technologie. Deze service is ontworpen om nieuwe schaalbaarheidsniveaus te ontgrendelen, zodat uw meldingen een groter publiek met naadloze efficiëntie kunnen bereiken. Met onze verbeterde infrastructuur en geoptimaliseerde processen kunt u een hogere schaal en betrouwbaarheid verwachten, zodat u uw mobiele App-gebruikers net als nooit tevoren kunt gebruiken en er verbinding mee kunt maken.
 
-  [&#x200B; Leer meer over de Verbeterde infrastructuur van de Duw &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
+  [&#x200B; Leer meer over de Verbeterde infrastructuur van de Duw &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/send/push/push-data-collection){target="_blank"}.
 
 
 ## Managed Services {#ac-managed-services}
@@ -126,13 +126,13 @@ Adobe Campaign v8 is beschikbaar als een beheerde Cloud Service die proactief to
 
 ## Campaign Standard-mogelijkheden toegevoegd aan v8 {#ac-v8-added}
 
-Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Zij zijn gedetailleerd in [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html){target="_blank"}.
+Voor een vloeiende overgang naar Campagne v8 zijn de belangrijkste Campaign Standard-mogelijkheden toegevoegd aan Campagne v8. Zij zijn gedetailleerd in [&#x200B; deze documentatie &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/campaign/campaign-standard-migration-home.html?lang=nl-NL){target="_blank"}.
 
-* **Dynamische Rapportering**: De dynamische Rapportering verstrekt volledig klantgerichte en real time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html){target="_blank"}.
+* **Dynamische Rapportering**: De dynamische Rapportering verstrekt volledig klantgerichte en real time rapporten om het effect van uw marketing activiteiten te meten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=nl-NL){target="_blank"}.
 
-* **Gecentraliseerde branding**: Elk bedrijf heeft merk visuele en technische richtlijnen. Met Adobe Campaign kunt u een reeks specificaties definiëren om uw klanten een consistent merk te bieden, van logo&#39;s tot technische aspecten, zoals e-mailzender, URL of domeinen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html)
+* **Gecentraliseerde branding**: Elk bedrijf heeft merk visuele en technische richtlijnen. Met Adobe Campaign kunt u een reeks specificaties definiëren om uw klanten een consistent merk te bieden, van logo&#39;s tot technische aspecten, zoals e-mailzender, URL of domeinen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=nl-NL)
 
-* **Rest APIs** - als Gegigreerde gebruiker van de Stard van de Campagne, kunt u Rest APIs gebruiken om integratie voor Adobe Campaign tot stand te brengen en uw eigen ecosysteem te bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html){target="_blank"}.
+* **Rest APIs** - als Gegigreerde gebruiker van de Stard van de Campagne, kunt u Rest APIs gebruiken om integratie voor Adobe Campaign tot stand te brengen en uw eigen ecosysteem te bouwen door Adobe Campaign met het paneel van technologieën te verbinden die u gebruikt. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=nl-NL){target="_blank"}.
 
 * **het Aanvoeren pagina&#39;s** - Sommige verbeteringen zijn gebracht aan het Aanvoeren van de Campagne v8 pagina&#39;s om eigenschappariteit met Campaign Standard te verzekeren. Leer meer in de [&#x200B; versienota&#39;s &#x200B;](../../v8/rn/release-notes.md#new-24-4) en de het landen pagina [&#x200B; documentatie &#x200B;](../../v8/landing-pages/get-started-lp.md).
 
@@ -228,4 +228,4 @@ Toegang tot de relevante naslaggids voor uw rol om de nieuwe gebruikerservaring 
 
 Adobe constantly evaluates product capabilities to identify older features that should be replaced with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
 
-Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/en/docs/campaign-standard/using/release-notes/deprecated-features).-->
+Please refer to [this documentation for information on deprecated items](https://experienceleague.adobe.com/nl/docs/campaign-standard/using/release-notes/deprecated-features).-->
