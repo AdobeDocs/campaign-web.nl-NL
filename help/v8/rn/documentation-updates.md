@@ -20,5 +20,5 @@ Deze pagina maakt een lijst van alle documentatieupdates voor het Web van Adobe 
 
 **Datum: 1 December, 2025**
 
-* De opnieuw georganiseerde AI Hulp documentatiegids met geconsolideerde pagina&#39;s voor [ volledige-inhoudgeneratie ](../content/generative-full-content.md), [ tekstgeneratie ](../content/generative-text.md), en [ beeldgeneratie ](../content/generative-image.md)
-* Toegevoegde [ AI Hulp snelle gids van beste praktijken ](../content/ai-assistant-prompting-guide.md) om gebruikers te helpen efficiënte herinneringen
+* De opnieuw georganiseerde AI Hulp documentatiegids met geconsolideerde pagina&#39;s voor [&#x200B; volledige-inhoudgeneratie &#x200B;](../content/generative-full-content.md), [&#x200B; tekstgeneratie &#x200B;](../content/generative-text.md), en [&#x200B; beeldgeneratie &#x200B;](../content/generative-image.md)
+* Toegevoegde [&#x200B; AI Hulp snelle gids van beste praktijken &#x200B;](../content/ai-assistant-prompting-guide.md) om gebruikers te helpen efficiënte herinneringen
