@@ -13,11 +13,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
+>Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [&#x200B; Grafieken en Beperkingen &#x200B;](generative-gs.md#generative-guardrails).
 
 ## Bestaande inhoud gebruiken
 
-![ Demonstratie van het opnieuw gebruiken van bestaande inhoud met AI Medewerker ](assets/do-not-localize/gen-ai-reuse-text.gif)
+![&#x200B; Demonstratie van het opnieuw gebruiken van bestaande inhoud met AI Medewerker &#x200B;](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. Selecteer **[!UICONTROL Edit content]** nadat u de levering hebt ingesteld.
 
@@ -35,7 +35,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, bereidt u d
 
 ## Variatie verfijnen {#refine}
 
-![ Demonstratie van het raffineren inhoudsvariaties met AI Medewerker ](assets/do-not-localize/gen-ai-variation.gif)
+![&#x200B; Demonstratie van het raffineren inhoudsvariaties met AI Medewerker &#x200B;](assets/do-not-localize/gen-ai-variation.gif)
 
 1. Klik op **[!UICONTROL Edit content]** als uw levering is ingesteld en geconfigureerd.
 
@@ -65,7 +65,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, bereidt u d
 
 ## Een vergelijkbare afbeelding genereren
 
-![ Demonstratie van het produceren van gelijkaardige beelden met AI Medewerker ](assets/do-not-localize/uc-image-similar.gif)
+![&#x200B; Demonstratie van het produceren van gelijkaardige beelden met AI Medewerker &#x200B;](assets/do-not-localize/uc-image-similar.gif)
 
 1. Selecteer **[!UICONTROL Edit content]** nadat u de levering hebt ingesteld.
 
@@ -85,7 +85,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, bereidt u d
 
 ## Een stijlverwijzing uploaden
 
-![ Demonstratie van het uploaden van een stijlverwijzing voor AI Medewerker ](assets/do-not-localize/uc-image-reference.gif)
+![&#x200B; Demonstratie van het uploaden van een stijlverwijzing voor AI Medewerker &#x200B;](assets/do-not-localize/uc-image-reference.gif)
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de levering hebt ingesteld en geconfigureerd.
 
@@ -109,7 +109,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, bereidt u d
 
 ## Inhoud genereren in ondersteunde talen{#languages}
 
-![ Geanimeerde demonstratie van AI Medewerker die inhoud in veelvoudige talen met inbegrip van Frans, Spaans, en Duits produceert ](assets/do-not-localize/ai-language.gif)
+![&#x200B; Geanimeerde demonstratie van AI Medewerker die inhoud in veelvoudige talen met inbegrip van Frans, Spaans, en Duits produceert &#x200B;](assets/do-not-localize/ai-language.gif)
 
 1. Klik op **[!UICONTROL Edit content]** als uw levering is ingesteld en geconfigureerd.
 

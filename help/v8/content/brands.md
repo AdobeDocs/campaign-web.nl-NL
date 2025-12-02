@@ -22,17 +22,17 @@ Als u het menu **[!UICONTROL Brands]** in [!DNL Adobe Campaign Web] wilt openen,
 
 +++ Leer hoe u merkgerelateerde machtigingen kunt toewijzen
 
-1. In de [ Admin Console ](https://adminconsole.adobe.com/enterprise) homepage, heb toegang tot uw product van de Campagne.
+1. In de [&#x200B; Admin Console &#x200B;](https://adminconsole.adobe.com/enterprise) homepage, heb toegang tot uw product van de Campagne.
 
-   ![ Admin Console homepage die de producttoegang van de Campagne toont ](assets/brands_admin_1.png)
+   ![&#x200B; Admin Console homepage die de producttoegang van de Campagne toont &#x200B;](assets/brands_admin_1.png)
 
 1. Selecteer **[!DNL Product profile]** op basis van het niveau van toestemmingen u uw gebruiker wilt verlenen.
 
-   ![ de profielselectie van het Product in Admin Console ](assets/brands_admin_2.png)
+   ![&#x200B; de profielselectie van het Product in Admin Console &#x200B;](assets/brands_admin_2.png)
 
 1. Klik op **[!DNL Add users]** om het geselecteerde productprofiel toe te wijzen.
 
-   ![ voegt gebruikersoptie in Admin Console ](assets/brands_admin_3.png) toe
+   ![&#x200B; voegt gebruikersoptie in Admin Console &#x200B;](assets/brands_admin_3.png) toe
 
 1. Typ de naam, de gebruikersgroep of het e-mailadres van de gebruiker.
 
@@ -50,7 +50,7 @@ Gebruikers kunnen de details handmatig invoeren of een document met brandrichtli
 
 1. Klik in het menu **[!UICONTROL Brands]** op **[!UICONTROL Create brand]** .
 
-   ![ het menu van Merken met Create merkoptie ](assets/brands-1.png)
+   ![&#x200B; het menu van Merken met Create merkoptie &#x200B;](assets/brands-1.png)
 
 1. Voer een **[!UICONTROL Name]** in voor uw merk.
 
@@ -58,7 +58,7 @@ Gebruikers kunnen de details handmatig invoeren of een document met brandrichtli
 
    Het uitpakken van informatie begint nu. Het kan enkele minuten duren voordat de bewerking is voltooid.
 
-   ![ uploadt van het dossier voor de extractie van merkrichtlijnen ](assets/brands-2.png)
+   ![&#x200B; uploadt van het dossier voor de extractie van merkrichtlijnen &#x200B;](assets/brands-2.png)
 
 1. Uw standaarden voor het maken van inhoud en visuele weergave worden nu automatisch ingevuld. Blader door de verschillende tabbladen om de informatie naar wens aan te passen. [Meer informatie](#personalize)
 
@@ -76,7 +76,7 @@ Gebruikers kunnen de details handmatig invoeren of een document met brandrichtli
    >
    >Er wordt dan een tijdelijke kopie gemaakt in de bewerkingsmodus, waarbij de live versie wordt vervangen nadat deze is gepubliceerd.
 
-   ![ geef merkoptie in het menu van Merken uit ](assets/brands-8.png)
+   ![&#x200B; geef merkoptie in het menu van Merken uit &#x200B;](assets/brands-8.png)
 
 1. Open het geavanceerde menu op het dashboard van **[!UICONTROL Brands]** door op het pictogram ![](assets/do-not-localize/Smock_More_18_N.svg) te klikken op:
 
@@ -88,11 +88,11 @@ Gebruikers kunnen de details handmatig invoeren of een document met brandrichtli
    * Publiceren ongedaan maken
    * Verwijderen
 
-   ![ Geavanceerde menuopties in het dashboard van Banden ](assets/brands-6.png)
+   ![&#x200B; Geavanceerde menuopties in het dashboard van Banden &#x200B;](assets/brands-6.png)
 
-De richtlijnen voor uw merk zijn nu beschikbaar in het keuzemenu **[!UICONTROL Brand]** in AI Assistant. Zo kan AI Assistant inhoud en elementen genereren die zijn uitgelijnd op uw specificaties. [ Leer meer over Medewerker AI ](../content/generative-gs.md)
+De richtlijnen voor uw merk zijn nu beschikbaar in het keuzemenu **[!UICONTROL Brand]** in AI Assistant. Zo kan AI Assistant inhoud en elementen genereren die zijn uitgelijnd op uw specificaties. [&#x200B; Leer meer over Medewerker AI &#x200B;](../content/generative-gs.md)
 
-![ AI hulpmenu met Merk drop-down ](assets/brands_6.png)
+![&#x200B; AI hulpmenu met Merk drop-down &#x200B;](assets/brands_6.png)
 
 ### Een standaardmerk instellen {#default-brand}
 
@@ -100,7 +100,7 @@ U kunt een standaardmerk aanwijzen dat automatisch moet worden toegepast bij het
 
 Als u een standaardmerk wilt instellen, gaat u naar het **[!UICONTROL Brands]** -dashboard. Open het geavanceerde menu door op het pictogram ![](assets/do-not-localize/Smock_More_18_N.svg) te klikken en **[!UICONTROL Mark as default brand]** te selecteren.
 
-![ Geavanceerde menuopties in het dashboard van Banden ](assets/brands-6.png)
+![&#x200B; Geavanceerde menuopties in het dashboard van Banden &#x200B;](assets/brands-6.png)
 
 ## Uw merk aanpassen {#personalize}
 
@@ -120,7 +120,7 @@ Gebruik het tabblad **[!UICONTROL About the brand]** om de belangrijkste identit
 
    * **[!UICONTROL Default Tagline]**: voeg de primaire coderegel toe die aan het merk is gekoppeld.
 
-     ![ Zeer belangrijke detailscategorie ](assets/brands-about-1.png)
+     ![&#x200B; Zeer belangrijke detailscategorie &#x200B;](assets/brands-about-1.png)
 
 1. Geef in de categorie **[!UICONTROL Guiding principles]** uitleg over de kernrichting en filosofie van uw merk:
 
@@ -130,9 +130,9 @@ Gebruik het tabblad **[!UICONTROL About the brand]** om de belangrijkste identit
 
    * **[!UICONTROL Market Positioning]**: leg uit hoe uw merk zich op de markt bevindt.
 
-   ![ Geleidende principencategorie ](assets/brands-about-2.png)
+   ![&#x200B; Geleidende principencategorie &#x200B;](assets/brands-about-2.png)
 
-1. Van de **[!UICONTROL Core brand values]** categorie, klik ![ Beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Add_18_N.svg " pictogram ") toevoegen om de kernwaarden van het merk toe te voegen en de details in te vullen:
+1. Van de **[!UICONTROL Core brand values]** categorie, klik ![&#x200B; Beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Add_18_N.svg " pictogram ") toevoegen om de kernwaarden van het merk toe te voegen en de details in te vullen:
 
    * **[!UICONTROL Value]**: geef een naam op voor een kernmerk.
 
@@ -144,11 +144,11 @@ Gebruik het tabblad **[!UICONTROL About the brand]** om de belangrijkste identit
 
      ![](assets/brands-12.png)
 
-1. Indien nodig, klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") pictogram om één van uw waarde van het kernmerk bij te werken of te schrappen.
+1. Indien nodig, klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") pictogram om één van uw waarde van het kernmerk bij te werken of te schrappen.
 
-   ![ geef uw waarde ](assets/brands-10.png) uit
+   ![&#x200B; geef uw waarde &#x200B;](assets/brands-10.png) uit
 
-U kunt uw merk verder personaliseren of [ uw merk ](#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
 
 ### Schrijfstijl {#writing-style}
 
@@ -254,11 +254,11 @@ U past de **[!UICONTROL Writing Style]** als volgt aan:
 1. Klik op **[!UICONTROL Add]** als uw hulplijn, uitzondering of uitsluiting is ingesteld.
 1. Selecteer zo nodig een van de hulplijnen of uitsluitingen die u wilt bijwerken of verwijderen.
 
-1. Klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") om uw voorbeeld of het ![Alternatieve tekst voor afbeelding duwen](assets/do-not-localize/Smock_Delete_18_N.svg "Verwijderen") pictogram uit te geven om het te schrappen.
+1. Klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") om uw voorbeeld of het ![Alternatieve tekst voor afbeelding duwen](assets/do-not-localize/Smock_Delete_18_N.svg "Verwijderen") pictogram uit te geven om het te schrappen.
 
    ![](assets/brands-11.png)
 
-U kunt uw merk verder personaliseren of [ uw merk ](#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
 
 ### Visuele inhoud {#visual-content}
 
@@ -307,7 +307,7 @@ U past de **[!UICONTROL Visual content]** als volgt aan:
 
 1. Voer uw richtlijn, uitsluiting of voorbeeld in.
 
-   ![ voeg uitsluiting of voorbeeldknoop toe ](assets/brands-4.png)
+   ![&#x200B; voeg uitsluiting of voorbeeldknoop toe &#x200B;](assets/brands-4.png)
 
 1. Geef de **[!UICONTROL Usage context]** op voor uw hulplijn of uitsluiting:
 
@@ -315,18 +315,18 @@ U past de **[!UICONTROL Visual content]** als volgt aan:
 
    * **[!UICONTROL Element type]**: geef op op op welk inhoudselement de regel van toepassing is. Dit kan elementen bevatten zoals koppen, knoppen, koppelingen of andere componenten in de inhoud.
 
-     ![ voeg de inhoud van het Gebruik ](assets/brands-17.png) toe
+     ![&#x200B; voeg de inhoud van het Gebruik &#x200B;](assets/brands-17.png) toe
 
 1. Klik op **[!UICONTROL Add]** als uw hulplijn, uitzondering of uitsluiting is ingesteld.
 
 1. Als u een afbeelding met het juiste gebruik wilt toevoegen, selecteert u **[!UICONTROL Example]** en klikt u op **[!UICONTROL Select image]** . U kunt ook een afbeelding toevoegen waarin onjuist gebruik wordt getoond als uitsluitingsvoorbeeld.
 
-   ![ voeg een beeld als voorbeeld ](assets/brands-13.png) toe
+   ![&#x200B; voeg een beeld als voorbeeld &#x200B;](assets/brands-13.png) toe
 
 1. Selecteer een van de hulplijnen of uitsluitingen die u wilt bijwerken of verwijderen.
 
-1. Selecteer een van uw richtlijnen of uitsluitingen om deze bij te werken. Klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Delete_18_N.svg " Schrapping ") pictogram om het te schrappen.
+1. Selecteer een van uw richtlijnen of uitsluitingen om deze bij te werken. Klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg " Schrapping ") pictogram om het te schrappen.
 
-   ![ Schrapping uitsluiting of richtlijn ](assets/brands-14.png)
+   ![&#x200B; Schrapping uitsluiting of richtlijn &#x200B;](assets/brands-14.png)
 
-U kunt uw merk verder personaliseren of [ uw merk ](#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
