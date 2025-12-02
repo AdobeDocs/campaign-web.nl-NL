@@ -4,7 +4,7 @@ description: Leer hoe u het beheer van gebruikerstoegang kunt migreren van Campa
 feature: Technote
 role: Admin
 exl-id: a7f333ba-0b84-47de-8f91-b6c8f3f3322a
-source-git-commit: 9354c07f173f67c23ce64e591f869bdd374c3334
+source-git-commit: 85ebbbe1e318cf0561b33d4c14250cded6ffbc65
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 1%
@@ -28,7 +28,7 @@ De volgende concepten worden gebruikt in Adobe Campaign Standard en Campagne v8 
 
 >[!IMPORTANT]
 >
->De mogelijkheden van deze rollen/Benoemde rechten kunnen in implementatie variëren, wat machtigingsproblemen kan veroorzaken (bijvoorbeeld verhoging van bevoegdheden of functieonderbrekingen). Wij adviseren gebruikers om deze afbeeldingen na de overgang te herzien om behoorlijk toegangsbeheer te verzekeren. [&#x200B; leer meer over toestemmingen &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+>De mogelijkheden van deze rollen/Benoemde rechten kunnen in implementatie variëren, wat machtigingsproblemen kan veroorzaken (bijvoorbeeld verhoging van bevoegdheden of functieonderbrekingen). Wij adviseren gebruikers om deze afbeeldingen na de overgang te herzien om behoorlijk toegangsbeheer te verzekeren. [ leer meer over toestemmingen ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 De onderstaande tabel geeft een overzicht van de migratiebenadering voor gebruikersrolgroepen bij de overgang van Adobe Campaign Standard naar Campagne v8. In Campaign Standard, wordt de groep van de a **Veiligheid**, die als **wordt bedoeld groep van de Exploitant** in Campagne v8, gebruikt om een reeks rollen aan een gebruiker toe te wijzen. Terwijl sommige veiligheidsgroepen/exploitantgroepen uit-van-de-doos beschikbaar zijn, kunnen de gebruikers nieuwe groepen tot stand brengen of bestaande te wijzigen indien nodig.
 
@@ -36,7 +36,7 @@ De onderstaande tabel geeft een overzicht van de migratiebenadering voor gebruik
 |---------|----------|---------|
 | **Terminologie**  | Beveiligingsgroep | Operator Group |
 
-In zowel Adobe Campaign Standard als Campagne v8, **de groepen van de Veiligheid** en **groepen van de Exploitant** worden in kaart gebracht aan de profielen van het Product in de console Admin. Als u de groep van de a **Veiligheid** of **Exploitant** aan een gebruiker wilt toewijzen, kunt u het overeenkomstige **profiel van het Product** in de console Admin verbinden. Deze koppeling wordt gesynchroniseerd wanneer de gebruiker zich aanmeldt. [&#x200B; leer meer over het profiel van het Product &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
+In zowel Adobe Campaign Standard als Campagne v8, **de groepen van de Veiligheid** en **groepen van de Exploitant** worden in kaart gebracht aan de profielen van het Product in de console Admin. Als u de groep van de a **Veiligheid** of **Exploitant** aan een gebruiker wilt toewijzen, kunt u het overeenkomstige **profiel van het Product** in de console Admin verbinden. Deze koppeling wordt gesynchroniseerd wanneer de gebruiker zich aanmeldt. [ leer meer over het profiel van het Product ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/manage-permissions)
 
 | **de groep van de Veiligheid van Campaign Standard** | **de groep van de Exploitant van de Campagne v8** |
 |----------|---------|
@@ -48,7 +48,7 @@ In zowel Adobe Campaign Standard als Campagne v8, **de groepen van de Veiligheid
 
 >[!IMPORTANT]
 >
->Tijdens migratie van Adobe Campaign Standard aan Campagne v8, zullen de gebruikers met de **rol van het 0&rbrace; Model van Gegevens maar niet** Beleid **automatisch** toegang van het Beleid **krijgen, aangezien de schemaverwezenlijking in Campagne v8 beleidsrechten vereist.** Om dit te verhinderen, verwijder hun **rol van het 0&rbrace; Model van Gegevens &lbrace;vóór migratie.**
+>Tijdens migratie van Adobe Campaign Standard aan Campagne v8, zullen de gebruikers met de **rol van het 0} Model van Gegevens maar niet** Beleid **automatisch** toegang van het Beleid **krijgen, aangezien de schemaverwezenlijking in Campagne v8 beleidsrechten vereist.** Om dit te verhinderen, verwijder hun **rol van het 0} Model van Gegevens {vóór migratie.**
 
 In Adobe Campaign Standard, wordt de termijn **rol van de Gebruiker** bedoeld als **Genoemd recht** in Campagne v8. De lijst beschrijft hieronder de terminologie die voor **wordt gebruikt Genoemde rechten** in Campagne v8 die aan **gebruikersrollen** in Campaign Standard beantwoordt.
 
@@ -72,10 +72,10 @@ In Adobe Campaign Standard, wordt de termijn **rol van de Gebruiker** bedoeld al
 >
 >De organisatorische eenheden in Adobe Campaign Standard zonder **allen (allen)** als directe of indirecte ouder zullen niet gemigreerd worden naar Campagne v8.
 ></br>
->De gebruikers in veelvoudige veiligheidsgroepen worden toegewezen de organisatorische eenheid van de hoogst-rangschikkende veiligheidsgroep. Als meerdere groepen parallelle eenheden op hoofdniveau hebben, selecteert het systeem de organisatorische eenheid voor de gebruiker in Campaign Standard en heeft de gebruiker alleen toegang tot de door het systeem geselecteerde organisatorische eenheid en de onderliggende elementen. In Campagne v8 na migratie, zou de gebruiker toegang tot **alle toegewezen organisatorische eenheden en hun kinderen** hebben, potentieel het stijgen voorrechten. U voorkomt dit door gebruikers niet toe te wijzen aan beveiligingsgroepen met parallelle organisatorische eenheden. Leer meer over [&#x200B; parallelle organisatorische eenheidstaak &#x200B;](#parallel-assignments).
+>De gebruikers in veelvoudige veiligheidsgroepen worden toegewezen de organisatorische eenheid van de hoogst-rangschikkende veiligheidsgroep. Als meerdere groepen parallelle eenheden op hoofdniveau hebben, selecteert het systeem de organisatorische eenheid voor de gebruiker in Campaign Standard en heeft de gebruiker alleen toegang tot de door het systeem geselecteerde organisatorische eenheid en de onderliggende elementen. In Campagne v8 na migratie, zou de gebruiker toegang tot **alle toegewezen organisatorische eenheden en hun kinderen** hebben, potentieel het stijgen voorrechten. U voorkomt dit door gebruikers niet toe te wijzen aan beveiligingsgroepen met parallelle organisatorische eenheden. Leer meer over [ parallelle organisatorische eenheidstaak ](#parallel-assignments).
 
 
-In Adobe Campaign Standard, wordt de **eenheid van de Organisatie** in kaart gebracht aan het bestaande **de hiërarchiemodel van de Omslag** in Campagne v8 om gelijkaardige toegangscontrole te handhaven. [&#x200B; Leer meer over omslagbeheer &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+In Adobe Campaign Standard, wordt de **eenheid van de Organisatie** in kaart gebracht aan het bestaande **de hiërarchiemodel van de Omslag** in Campagne v8 om gelijkaardige toegangscontrole te handhaven. [ Leer meer over omslagbeheer ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 | | **Campaign Standard** | **Campaign v8** |
 |---------|----------|---------|
@@ -88,17 +88,17 @@ Een parallelle organisatorische eenheidstoewijzing komt voor wanneer een gebruik
 
 Neem bijvoorbeeld de volgende hiërarchie van de organisatie:
 
-![&#x200B; Parallelle organisatorische steekproefdiagram van de eenheidstoewijzing &#x200B;](assets/do-not-localize/parallel-org-units-sample.png){width="50%" zoomable="yes"}
+![ Parallelle organisatorische steekproefdiagram van de eenheidstoewijzing ](assets/do-not-localize/parallel-org-units-sample.png){width="50%" zoomable="yes"}
 
 Een toewijzing zonder parallelle organisatorische eenheden zou er als volgt uitzien:
 
-![&#x200B; Zonder parallel org de steekproefdiagram van de eenheid &#x200B;](assets/do-not-localize/without-parallel-org-units-assignment.png){width="50%" zoomable="yes"}
+![ Zonder parallel org de steekproefdiagram van de eenheid ](assets/do-not-localize/without-parallel-org-units-assignment.png){width="50%" zoomable="yes"}
 
 Hier, heeft de gebruiker toegang tot organisatorische eenheden A, A1, en A2-1, allen verbonden onder de ouder org eenheid A. De gebruiker heeft toegang tot alles onder A.
 
 De volgende toewijzing bevat parallelle organisatorische eenheden:
 
-![&#x200B; met parallel org de steekproefdiagram van de eenheid &#x200B;](assets/do-not-localize/with-parallel-org-units-assignment.png){width="50%" zoomable="yes"}
+![ met parallel org de steekproefdiagram van de eenheid ](assets/do-not-localize/with-parallel-org-units-assignment.png){width="50%" zoomable="yes"}
 
 De gebruiker heeft toegang tot A1-1, A2 en A2-1, die in afzonderlijke takken zonder gemeenschappelijke toegewezen ouder bestaan.
 
@@ -140,7 +140,7 @@ In het bovenstaande voorbeeld waarin een gebruiker toegang heeft tot A1-1, A2 en
 
 In Campagne v8, **Programma&#39;s** worden vertegenwoordigd als **Omslagen**. Met Campagne v8 kunnen mappen worden gemaakt en is de toegang tot deze mappen beperkt.
 
-Door **Groepen** en **Genoemde rechten** te gebruiken, **de Exploitanten** kunnen toegang tot specifieke **Omslagen** binnen de navigatiehiërarchie, met de capaciteit worden verleend om gelezen toe te wijzen, te schrijven en toestemmingen te schrappen. [&#x200B; Leer meer over omslagbeheer &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
+Door **Groepen** en **Genoemde rechten** te gebruiken, **de Exploitanten** kunnen toegang tot specifieke **Omslagen** binnen de navigatiehiërarchie, met de capaciteit worden verleend om gelezen toe te wijzen, te schrijven en toestemmingen te schrappen. [ Leer meer over omslagbeheer ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/folder-permissions)
 
 Aangezien a **Programma** als a **Omslag** in Campagne v8 wordt behandeld, kan zijn toegang op de zelfde manier zoals een andere omslag worden beheerd. Na de migratie kunnen Campaign Standard-beheerders de volgende stappen uitvoeren:
 

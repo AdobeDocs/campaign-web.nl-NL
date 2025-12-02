@@ -2,9 +2,9 @@
 title: Gebruiksgevallen van AI Assistant
 description: In deze gevallen leert u hoe u AI Assistant gebruikt
 exl-id: ead51ef0-f7ba-4bc4-8d4a-f6a6d1df6a0f
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: 2066f29b0867f82f2130361c8ccdb15889085886
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [&#x200B; Grafieken en Beperkingen &#x200B;](generative-gs.md#generative-guardrails).
+>Alvorens te beginnen om dit vermogen te gebruiken, lees verwante [ Grafieken en Beperkingen ](generative-gs.md#generative-guardrails).
 
 ## Bestaande inhoud gebruiken
 
-![&#x200B; Demonstratie van het opnieuw gebruiken van bestaande inhoud met AI Medewerker &#x200B;](assets/do-not-localize/gen-ai-reuse-text.gif)
+![ Demonstratie van het opnieuw gebruiken van bestaande inhoud met AI Medewerker ](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. Selecteer **[!UICONTROL Edit content]** nadat u de levering hebt ingesteld.
 
@@ -35,7 +35,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, bereidt u d
 
 ## Variatie verfijnen {#refine}
 
-![&#x200B; Demonstratie van het raffineren inhoudsvariaties met AI Medewerker &#x200B;](assets/do-not-localize/gen-ai-variation.gif)
+![ Demonstratie van het raffineren inhoudsvariaties met AI Medewerker ](assets/do-not-localize/gen-ai-variation.gif)
 
 1. Klik op **[!UICONTROL Edit content]** als uw levering is ingesteld en geconfigureerd.
 
@@ -65,7 +65,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, bereidt u d
 
 ## Een vergelijkbare afbeelding genereren
 
-![&#x200B; Demonstratie van het produceren van gelijkaardige beelden met AI Medewerker &#x200B;](assets/do-not-localize/uc-image-similar.gif)
+![ Demonstratie van het produceren van gelijkaardige beelden met AI Medewerker ](assets/do-not-localize/uc-image-similar.gif)
 
 1. Selecteer **[!UICONTROL Edit content]** nadat u de levering hebt ingesteld.
 
@@ -85,7 +85,7 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, bereidt u d
 
 ## Een stijlverwijzing uploaden
 
-![&#x200B; Demonstratie van het uploaden van een stijlverwijzing voor AI Medewerker &#x200B;](assets/do-not-localize/uc-image-reference.gif)
+![ Demonstratie van het uploaden van een stijlverwijzing voor AI Medewerker ](assets/do-not-localize/uc-image-reference.gif)
 
 1. Klik op **[!UICONTROL Edit content]** nadat u de levering hebt ingesteld en geconfigureerd.
 
@@ -104,5 +104,23 @@ Wanneer u de inhoud, het publiek en het programma hebt gedefinieerd, bereidt u d
 1. Controleer **[!UICONTROL Variation suggestions]** om het element te zoeken dat u wilt gebruiken.
 
 1. Selecteer **[!UICONTROL Preview]** om de gekozen variatie op volledig scherm weer te geven.
+
+1. Klik op **[!UICONTROL Select]** als u de geschikte inhoud hebt gevonden.
+
+## Inhoud genereren in ondersteunde talen{#languages}
+
+![ Geanimeerde demonstratie van AI Medewerker die inhoud in veelvoudige talen met inbegrip van Frans, Spaans, en Duits produceert ](assets/do-not-localize/ai-language.gif)
+
+1. Klik op **[!UICONTROL Edit content]** als uw levering is ingesteld en geconfigureerd.
+
+1. Open het menu **[!UICONTROL AI Assistant]** .
+
+1. Pas de inhoud aan door uw gewenste verzoek in te voeren in het tekstvak **[!UICONTROL Prompt]** in het Frans, Spaans, Duits, Italiaans, Japans, Zweeds, Nederlands of Noors.
+
+1. Til uw vraag aan met de optie **[!UICONTROL Text settings]** en selecteer de gewenste **[!UICONTROL Languages]** voor de gegenereerde inhoud.
+
+1. Pas de vraag desgewenst verder aan en klik op **[!UICONTROL Generate]** .
+
+1. Bekijk de **[!UICONTROL Variation suggestions]** in de geselecteerde taal.
 
 1. Klik op **[!UICONTROL Select]** als u de geschikte inhoud hebt gevonden.
