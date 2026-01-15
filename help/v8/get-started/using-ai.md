@@ -5,7 +5,7 @@ badge: label="Beta"
 hide: true
 hidefromtoc: true
 exl-id: 577f4652-b3e5-4fa1-9a98-91815fe92d83
-source-git-commit: b2de0d0061e5c2b582c3e73ccaf2dab1490cc854
+source-git-commit: c29259234059270d01af4ae1d0cb813e777eb826
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Dankzij de mogelijkheden van Campagne Gen AI verbetert deze component uw ervarin
 >
 >* Contextafhankelijke Help op basis van AI is beschikbaar in de Beta-versie en kan zonder voorafgaande kennisgeving worden gewijzigd.
 >
->* Dit vermogen is slechts beschikbaar in **Engels**. Andere talen worden niet ondersteund in deze versie. Dientengevolge, verzeker [&#x200B; uw aangewezen taal &#x200B;](connect-to-campaign.md#language-pref) aan Engels alvorens dit vermogen te gebruiken wordt geplaatst.
+>* Dit vermogen is slechts beschikbaar in **Engels**. Andere talen worden niet ondersteund in deze versie. Dientengevolge, verzeker [ uw aangewezen taal ](connect-to-campaign.md#language-pref) aan Engels alvorens dit vermogen te gebruiken wordt geplaatst.
 >
 >* Contextafhankelijke Help voor AI-bestanden is momenteel niet beschikbaar in Campagne-e-mail Designer.
 
@@ -42,14 +42,14 @@ Your data is encrypted and private following our standard data protection practi
 
 The knowledge assistant AI capability does not use your data to train our models. We do not allow any partners or third parties to use your data for training their models or any other purpose.
 
-For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/nl/products/sensei/adobe-sensei.html){target="_blank"}.
+For information specific to Adobe AI policies in Experience Cloud apps and solutions, refer to [this page](https://business.adobe.com/ai.html){target="_blank"}.
 -->
 
 ## Voorgestelde vragen {#questions-ai}
 
 Vanuit het invoerveld geeft de Contextuele Help van Adobe Campaign AI drie gestelde vragen. Deze vragen worden door AI gegenereerd, hebben betrekking op het Help-vak en zijn afgestemd op de huidige productcontext. Selecteer een vraag om het antwoord te krijgen.
 
-[&#x200B; Voorbeeld van gesuggereerde vragen in contextafhankelijke hulp &#x200B;](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
+[ Voorbeeld van gesuggereerde vragen in contextafhankelijke hulp ](assets/do-not-localize/suggested-questions.png){width="600" align="left"}{zoomable="yes"}
 
 ## Antwoorden {#answers-ai}
 
@@ -57,7 +57,7 @@ Contextuele Help van Adobe Campaign AI biedt ondersteuning, maar u moet de feite
 
 Kopieer een antwoord aan het klembord gebruikend het **pictogram van het Exemplaar** bij de bodem van hulppopover.
 
-[&#x200B; Voorbeeld van het kopiëren van een antwoord in contextafhankelijke hulp &#x200B;](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
+[ Voorbeeld van het kopiëren van een antwoord in contextafhankelijke hulp ](assets/do-not-localize/copy-answer.png){width="600" align="left"}{zoomable="yes"}
 
 ## Feedback {#feedback-ai}
 
