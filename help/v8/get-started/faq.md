@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # Veelgestelde vragen
 
-In de volgende sectie worden veelgestelde vragen over de nieuwe interface Campagne weergegeven. Hebt u nog meer vragen? Wilt u uw ervaring delen of gedachten uitwisselen met uw collega&#39;s? Of hebt u feedback over de leercontent voor het Adobe-team? Sluit me aan bij het gesprek in de [&#x200B; gemeenschap van Adobe Campaign &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"} .
+In de volgende sectie worden veelgestelde vragen over de nieuwe interface Campagne weergegeven. Hebt u nog meer vragen? Wilt u uw ervaring delen of gedachten uitwisselen met uw collega&#39;s? Of hebt u feedback over de leercontent voor het Adobe-team? Sluit me aan bij het gesprek in de [&#x200B; gemeenschap van Adobe Campaign &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=nl){target="_blank"} .
 
 +++ Welke versie van Adobe Campaign moet ik zijn om tot het nieuwe Web gebruikersinterface toegang te hebben?
 
