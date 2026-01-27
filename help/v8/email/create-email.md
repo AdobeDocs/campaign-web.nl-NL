@@ -74,8 +74,8 @@ Volg onderstaande stappen om een nieuwe, zelfstandige e-maillevering te maken.
 >id="acw_deliveries_email_audience"
 >title="Selecteer een publiek voor uw levering"
 >abstract="Selecteer het beste publiek voor uw marketingbericht. U kunt een bestaand publiek kiezen (al gedefinieerd in een Campagne v8-instantie of in Adobe Experience Platform), een nieuw publiek maken met de querymodelfunctie of een bestand uploaden dat uw publiek bevat. De groepen van de controle worden niet toegelaten voor **Uitgezocht van dossier** optie en vice versa."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html" text="Het grote publiek selecteren"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Een controlegroep instellen"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/add-audience.html?lang=nl-NL" text="Het grote publiek selecteren"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=nl-NL" text="Een controlegroep instellen"
 
 In dit geval stuurt u de e-mail naar een bestaand publiek.
 
@@ -89,7 +89,7 @@ De extra instructies op hoe te met publiek te werken zijn beschikbaar in [&#x200
 
    >[!NOTE]
    >
-   >Het publiek dat in de lijst beschikbaar is, komt uit uw Campagne v8-exemplaar of uit Adobe Experience Platform als de integratie tussen Doel en Source op uw exemplaar is geconfigureerd. Dankzij deze integratie kunt u Experience Platform-segmenten naar Adobe Campaign verzenden en Campagne leveren en logbestanden bijhouden naar Adobe Experience Platform. Leer hoe te met Campagne en Adobe Experience Platform in de [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html){target="_blank"} te werken.
+   >Het publiek dat in de lijst beschikbaar is, komt uit uw Campagne v8-exemplaar of uit Adobe Experience Platform als de integratie tussen Doel en Source op uw exemplaar is geconfigureerd. Dankzij deze integratie kunt u Experience Platform-segmenten naar Adobe Campaign verzenden en Campagne leveren en logbestanden bijhouden naar Adobe Experience Platform. Leer hoe te met Campagne en Adobe Experience Platform in de [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aep/ac-aep.html?lang=nl-NL){target="_blank"} te werken.
 
 1. Als het publiek is geselecteerd, kunt u het doel verder verfijnen door aanvullende regels toe te passen.
 
