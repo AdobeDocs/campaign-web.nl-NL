@@ -5,10 +5,10 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 19%
+source-wordcount: '973'
+ht-degree: 20%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 19%
    + [Van Campaign Standard naar v8](rn/acs-migration.md)
    + [Contextafhankelijke Help voor AI](get-started/using-ai.md)
    + [Veelgestelde vragen](get-started/faq.md)
-+ Berichten en leveringen {#msg}
+   + Berichten en leveringen {#msg}
    + [Aan de slag met berichten](msg/gs-messages.md)
    + [Toegang tot leveringen](msg/gs-deliveries.md)
    + [Een levering maken](msg/create-deliveries.md)
@@ -45,11 +45,12 @@ ht-degree: 19%
    + E-mails {#email}
       + [Uw eerste e-mail maken](email/create-email.md)
       + [E-mailinhoud configureren](email/edit-content.md)
+      + [Inhoud-experimenten maken](email/ab-testing.md)
       + E-mail verzenden en controleren {#monitor}
          + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
          + [Verzenden met meerdere golven](advanced-settings/send-using-waves.md)
-         + [&#x200B; Logboeken van de levering van de Monitor &#x200B;](monitor/delivery-logs.md)
-         + [&#x200B; Plan het verzenden van een levering &#x200B;](monitor/schedule-sending.md)
+         + [ Logboeken van de levering van de Monitor ](monitor/delivery-logs.md)
+         + [Plaats de verzending van een levering](monitor/schedule-sending.md)
    + Pushmeldingen {#push}
       + [Aan de slag met pushmeldingen](push/gs-push.md)
       + [Een pushmelding maken](push/create-push.md)
@@ -84,7 +85,7 @@ ht-degree: 19%
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
    + Voorbeeld en test de levering {#preview-test}
-      + [&#x200B; Ongeveer voorproef en proef &#x200B;](preview-test/preview-test.md)
+      + [ Ongeveer voorproef en proef ](preview-test/preview-test.md)
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
       + [Proefdrukken verzenden](preview-test/test-deliveries.md)
       + [De rendering van e-mail testen](preview-test/email-rendering.md)
@@ -137,7 +138,8 @@ ht-degree: 19%
       + [Gebruiksgevallen van AI Assistant](content/generative-uc.md)
       + Merken {#ai-assistant}
          + [Uw merken maken en beheren](content/brands.md)
-         + [Uw Brand-uitlijningsscore evalueren](content/brands-score.md)
+         + [Uw merk aanpassen](content/brands-personalize.md)
+         + [Uw inhoud evalueren](content/brands-score.md)
 + Landingspagina&#39;s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](landing-pages/get-started-lp.md)
    + [Een openingspagina maken en publiceren](landing-pages/create-lp.md)
@@ -170,6 +172,7 @@ ht-degree: 19%
    + [Aan de slag met campagnes](campaigns/gs-campaigns.md)
    + [Toegang tot en beheer uw campagnes](campaigns/manage-campaigns.md)
    + [Uw eerste campagne maken](campaigns/create-campaigns.md)
+   + [Het goedkeuringsproces instellen en beheren](campaigns/campaign-approvals.md)
    + [Abonnementen en programma&#39;s](administration/plans-programs.md)
 + Workflows {#wf}
    + [Aan de slag met workflows](workflows/gs-workflows.md)
@@ -190,6 +193,7 @@ ht-degree: 19%
       + [Databron wijzigen](workflows/activities/change-data-source.md)
       + [Dimensie wijzigen](workflows/activities/change-dimension.md)
       + [Combineren](workflows/activities/combine.md)
+      + [Doorlopende levering](workflows/activities/continuous-delivery.md)
       + [Deduplicatie](workflows/activities/deduplication.md)
       + [E-mail, SMS, Push, Direct mail](workflows/activities/channels.md)
       + [Verrijking](workflows/activities/enrichment.md)
@@ -268,6 +272,7 @@ ht-degree: 19%
    + [Werken met andere Adobe-oplossingen](integrations/integration.md)
    + [Middelen beheren met Adobe Experience Manager Assets as a Cloud Service](integrations/aem-assets.md)
    + [Sjablonen beheren met Adobe Experience Manager as a Cloud Service](integrations/aem-content.md)
+   + [Taalkopieën beheren met Adobe Experience Manager](integrations/aem-multilingual.md)
    + [Werken met GenStudio for Performance Marketing](integrations/genstudio.md)
 + Configuratie {#conf}
    + Branding {#branding}
@@ -290,4 +295,4 @@ ht-degree: 19%
       + [Externe CRM-rekening](administration/external-crm.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [&#x200B; Campagne v8 (console) documentatie > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)

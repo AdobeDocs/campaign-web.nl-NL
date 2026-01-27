@@ -3,7 +3,7 @@ audience: end-user
 title: Nieuw in de Gebruikersinterface van het Web van de Campagne
 description: Ontdek nieuwe eigenschap die met het Web van de Campagne Gebruikersinterface komt
 exl-id: 3d8c07be-665e-46af-ba5d-f04b25b40880
-source-git-commit: 336845c8d21a39c9f9124a5c6f7d0667cd111dcb
+source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 4%
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Wij zijn opgetogen om de nieuwe versie van **het Gebruikersinterface van het Web van Adobe Campaign** te introduceren. Onze nieuwste release is voorzien van intuïtieve functies die zijn ontworpen om het maken van gepersonaliseerde cross-channel campagnes te vereenvoudigen, buitengewone resultaten te behalen en u een concurrentievoordeel te bieden op alle kanalen. De gebruikersinterface van het Web van de campagne (UI) brengt een verbonden canvas met Adobe Experience Platform voor een verenigde ervaring.
 
-De veranderingen, de nieuwe mogelijkheden en de verbeteringen worden vermeld in de [&#x200B; maandelijkse versienota&#39;s &#x200B;](release-notes.md).
+De veranderingen, de nieuwe mogelijkheden en de verbeteringen worden vermeld in de [ maandelijkse versienota&#39;s ](release-notes.md).
 
 
 ## Belangrijkste mogelijkheden {#key-features}
@@ -31,7 +31,7 @@ De nieuwe gebruikersinterface van het Web van de campagne biedt een nieuwe gebru
 * Oplossing- en organisatie-switches van de bovenste balk
 * De verenigde integratie van Shell, met een directe toegang tot gemeenschap, hulpcentrum, en steun
 
-Leer hoe te binnen aan Adobe Experience Cloud te ondertekenen en met Campagne in [&#x200B; te verbinden deze pagina &#x200B;](../get-started/connect-to-campaign.md).
+Leer hoe te binnen aan Adobe Experience Cloud te ondertekenen en met Campagne in [ te verbinden deze pagina ](../get-started/connect-to-campaign.md).
 
 
 **Nieuwe krachtige mogelijkheden en naadloze processen**
@@ -43,7 +43,7 @@ De gebruikersinterface van het Web van Adobe Campaign verstrekt een uitvoerig gr
 * Native integratie met het publiek van Adobe Experience Platform
 * Sjabloonbeheer voor workflows, leveringen, campagnes en inhoud
 
-Leer meer over het nieuwe gebruikersinterface van het Web in [&#x200B; deze pagina &#x200B;](../get-started/user-interface.md).
+Leer meer over het nieuwe gebruikersinterface van het Web in [ deze pagina ](../get-started/user-interface.md).
 
 **Nieuwe vereenvoudigde en intuïtieve vraagmodeler**
 
@@ -64,12 +64,12 @@ Met Adobe Campaign kunt u kanaalcampagnes verzenden, waaronder e-mailberichten, 
 
 Gebruik de nieuwe gebruikersinterface van het Web van de Campagne aan:
 
-* Creeer, ontwerp, personaliseren, plannen, en verzend e-mail, SMS, en dupberichten - [&#x200B; leer meer &#x200B;](../msg/gs-messages.md)
-* Ontwerp gepersonaliseerde e-mailinhoud met de e-mailontwerper - [&#x200B; Leer meer &#x200B;](../email/edit-content.md)
-* Verzend kanaalcampagnes, met inbegrip van SMS en duw berichten - [&#x200B; leer meer &#x200B;](../workflows/activities/channels.md)
-* Bepaal doelpubliek met de vraagmodelleur - [&#x200B; leer meer &#x200B;](../audience/about-recipients.md)
-* De voorproef, test en verzendt uw berichten - [&#x200B; Leer meer &#x200B;](../monitor/prepare-send.md)
-* De monitor verzendt en meet resultaten met ingebouwde rapporten - [&#x200B; leert meer &#x200B;](../reporting/delivery-reports.md)
+* Creeer, ontwerp, personaliseren, plannen, en verzend e-mail, SMS, en dupberichten - [ leer meer ](../msg/gs-messages.md)
+* Ontwerp gepersonaliseerde e-mailinhoud met de e-mailontwerper - [ Leer meer ](../email/edit-content.md)
+* Verzend kanaalcampagnes, met inbegrip van SMS en duw berichten - [ leer meer ](../workflows/activities/channels.md)
+* Bepaal doelpubliek met de vraagmodelleur - [ leer meer ](../audience/about-recipients.md)
+* De voorproef, test en verzendt uw berichten - [ Leer meer ](../monitor/prepare-send.md)
+* De monitor verzendt en meet resultaten met ingebouwde rapporten - [ leert meer ](../reporting/delivery-reports.md)
 
 
 **Inhoudsgeneratie met AI Medewerker**
@@ -128,13 +128,13 @@ Het nieuwe gebruikersinterface van het Web van de Campagne laat u toe om **aanbi
 
 Als gebruiker van de Campagne, kunt u tot de cliëntconsole nog toegang hebben om de middelen en de componenten van de Campagne te bouwen en te beheren. Gegevens en instellingen worden gesynchroniseerd van een omgeving naar een andere. Lees meer in [deze sectie](../get-started/get-started.md#ac-client).
 
-Bovendien zijn al uw gegevens en montages reeds beschikbaar in de cliëntconsole zichtbaar in het gebruikersinterface van het Web van de Campagne, van de Ontdekkingsreiziger linkernavigatie. Leer meer over de mening van de Ontdekkingsreiziger in [&#x200B; deze sectie &#x200B;](../get-started/user-interface.md#user-interface-explorer).
+Bovendien zijn al uw gegevens en montages reeds beschikbaar in de cliëntconsole zichtbaar in het gebruikersinterface van het Web van de Campagne, van de Ontdekkingsreiziger linkernavigatie. Leer meer over de mening van de Ontdekkingsreiziger in [ deze sectie ](../get-started/user-interface.md#user-interface-explorer).
 
-Met het gebruikersinterface van het Web van de Campagne, wijst het gebruikersinterface op de toestemmingen van de gebruiker. Leer meer over toestemmingen in [&#x200B; deze pagina &#x200B;](../get-started/permissions.md).
+Met het gebruikersinterface van het Web van de Campagne, wijst het gebruikersinterface op de toestemmingen van de gebruiker. Leer meer over toestemmingen in [ deze pagina ](../get-started/permissions.md).
 
-Ondersteunde en niet gesteunde mogelijkheden en interoperabiliteit tussen het gebruikersinterface van het Web van de Campagne en de cliëntconsole van de Campagne [&#x200B; in deze pagina &#x200B;](../get-started/capability-matrix.md).
+Ondersteunde en niet gesteunde mogelijkheden en interoperabiliteit tussen het gebruikersinterface van het Web van de Campagne en de cliëntconsole van de Campagne [ in deze pagina ](../get-started/capability-matrix.md).
 
-Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, [&#x200B; verwijs naar deze pagina &#x200B;](../rn/acs-migration.md).
+Als gebruiker die van Campaign Standard aan Campagne v8 overgaat, [ verwijs naar deze pagina ](../rn/acs-migration.md).
 
 ## Terminologie-updates {#terminology-updates}
 
@@ -156,6 +156,6 @@ De onderstaande beperkingen gelden voor deze versie:
 * KPI&#39;s voor het leveringsdashboard worden elke 5 minuten bijgewerkt. - maar de voorbereiding van de levering is in real-time.
 * Adobe Experience Cloud-meldingen en de Unified Help die beschikbaar zijn in de bovenste balk, zijn nog niet geïntegreerd.
 
-Wanneer het werken in het gebruikersinterface van het Web van de Campagne met werkschema&#39;s die in de cliëntconsole van de Campagne worden gecreeerd of worden gewijzigd, zijn de specifieke gidsen en de beperkingen van toepassing. Zij zijn vermeld [&#x200B; in deze sectie &#x200B;](../get-started/guardrails.md).
+Wanneer het werken in het gebruikersinterface van het Web van de Campagne met werkschema&#39;s die in de cliëntconsole van de Campagne worden gecreeerd of worden gewijzigd, zijn de specifieke gidsen en de beperkingen van toepassing. Zij zijn vermeld [ in deze sectie ](../get-started/guardrails.md).
 
-Leer meer over gesteunde/niet gesteunde mogelijkheden en interoperabiliteit tussen het gebruikersinterface van het Web van de Campagne en de cliëntconsole van de Campagne [&#x200B; in deze pagina &#x200B;](../get-started/capability-matrix.md).
+Leer meer over gesteunde/niet gesteunde mogelijkheden en interoperabiliteit tussen het gebruikersinterface van het Web van de Campagne en de cliëntconsole van de Campagne [ in deze pagina ](../get-started/capability-matrix.md).
