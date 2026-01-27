@@ -23,8 +23,8 @@ Dankzij de Adobe Experience Manager-integratie kunt u meertalige e-mailleveringe
 Voordat u een meertalige e-maillevering maakt, moet u controleren of u beschikt over:
 
 * Toegang tot een Adobe Experience Manager-instantie die is geconfigureerd voor de integratie van de Adobe Campaign-webinterface.
-* Adobe Experience Manager-inhoud met reeds gemaakte en goedgekeurde taalkopieën. Leer meer over de Tovenaar van het Exemplaar van de Taal in [ documentatie van Adobe Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
-* Sjabloon voor e-maillevering geconfigureerd voor ontvangst van Adobe Experience Manager-inhoud. Verwijs naar de stappen die in [ worden gedetailleerd toelaten meertalige wijze ](#enable-multilingual) sectie.
+* Adobe Experience Manager-inhoud met reeds gemaakte en goedgekeurde taalkopieën. Leer meer over de Tovenaar van het Exemplaar van de Taal in [&#x200B; documentatie van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Sjabloon voor e-maillevering geconfigureerd voor ontvangst van Adobe Experience Manager-inhoud. Verwijs naar de stappen die in [&#x200B; worden gedetailleerd toelaten meertalige wijze &#x200B;](#enable-multilingual) sectie.
 
 ## Maak uw meertalige levering
 
@@ -79,7 +79,7 @@ Selecteer de Adobe Experience Manager-inhoud en kies welke taalvarianten u wilt 
 
 1. Klik op **[!UICONTROL Save]**.
 
-1. Bekijk de taalvarianten in de inhoudseditor. U kunt nu [ elke variant individueel ](#manage-variants) beheren of met [ te werk gaan verzendend de levering ](../monitor/prepare-send.md).
+1. Bekijk de taalvarianten in de inhoudseditor. U kunt nu [&#x200B; elke variant individueel &#x200B;](#manage-variants) beheren of met [&#x200B; te werk gaan verzendend de levering &#x200B;](../monitor/prepare-send.md).
 
    ![](assets/lg-copy-7.png)
 

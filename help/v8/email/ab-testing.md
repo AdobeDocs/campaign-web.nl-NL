@@ -31,17 +31,17 @@ U kunt A/B tests op diverse e-mailelementen uitvoeren zoals:
 
 Voer de volgende stappen uit om een inhoudexperiment toe te voegen aan uw e-maillevering:
 
-1. Maak een e-maillevering of open een bestaande conceptlevering. [ Leer hoe te om een e-mail ](create-email.md) tot stand te brengen
+1. Maak een e-maillevering of open een bestaande conceptlevering. [&#x200B; Leer hoe te om een e-mail &#x200B;](create-email.md) tot stand te brengen
 
 1. Klik op de knop **[!UICONTROL Create experiment]** in de sectie **[!UICONTROL Content]** vanaf de pagina met eigenschappen voor e-maillevering.
 
-   ![ Schermafbeelding die de Create experimenteerknop in e-maileigenschappen toont ](assets/ab-testing-1.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die de Create experimenteerknop in e-maileigenschappen toont &#x200B;](assets/ab-testing-1.png){zoomable="yes"}
 
 ## De experimentele instellingen configureren {#configure-experiment}
 
 Configureer uw experiment met behulp van de volgende secties:
 
-![ Schermafbeelding die de Experimentele montages ](assets/ab-testing-2.png){zoomable="yes"} toont
+![&#x200B; Schermafbeelding die de Experimentele montages &#x200B;](assets/ab-testing-2.png){zoomable="yes"} toont
 
 ### Instellingen voor publiek {#audience-settings}
 
@@ -86,7 +86,7 @@ Bepaal hoe lang het experiment moet lopen en selecteer de verzendende methode:
    * **[!UICONTROL Automatic sending]** geactiveerd: het systeem stuurt de winnende variant automatisch naar het resterende publiek zodra het experiment is beëindigd.
    * **[!UICONTROL Automatic sending]** gedeactiveerd: u moet handmatig op de knop **[!UICONTROL Send]** klikken om de winnende variant te verzenden nadat u de resultaten van het experiment hebt bekeken.
 
-Als geen enkele variant aan het eind van het experiment significant betere resultaten bereikt dan de andere, stuurt het systeem de eerste variant naar de resterende populatie. Zie deze [ sectie ](#send-deliveries).
+Als geen enkele variant aan het eind van het experiment significant betere resultaten bereikt dan de andere, stuurt het systeem de eerste variant naar de resterende populatie. Zie deze [&#x200B; sectie &#x200B;](#send-deliveries).
 
 ## De inhoudsbehandelingen definiëren {#define-content}
 
@@ -94,7 +94,7 @@ Nadat u de instellingen voor het experiment hebt opgeslagen, wordt standaard een
 
 1. Klik op **[!UICONTROL Edit content]** in de leveringseigenschappen. De behandelingen worden links weergegeven.
 
-   ![ Schermafbeelding die het paneel van inhoudexperimenten toont ](assets/ab-testing-3.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die het paneel van inhoudexperimenten toont &#x200B;](assets/ab-testing-3.png){zoomable="yes"}
 
 1. Klik op de knop **[!UICONTROL Add treatment]** en definieer de naam ervan. Herhaal deze bewerking voor alle behandelingen die u wilt toevoegen. Vervolgens kunt u de naam wijzigen, de naam dupliceren en verwijderen.
 
@@ -104,7 +104,7 @@ Nadat u de instellingen voor het experiment hebt opgeslagen, wordt standaard een
    * **Onderwerpregel**: Schrijf een unieke onderwerpregel voor elke behandeling
    * **E-maillichaam**: Ontwerp verschillende inhoudsversies gebruikend e-mail Designer
 
-   ![ Schermafbeelding die verscheidene behandelingen tonen ](assets/ab-testing-4.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die verscheidene behandelingen tonen &#x200B;](assets/ab-testing-4.png){zoomable="yes"}
 
 1. Geef een voorvertoning van elke behandeling weer door op de behandeling te klikken en vervolgens op **[!UICONTROL Simulate content]** te klikken.
 
@@ -116,7 +116,7 @@ Nadat u al uw inhoudsbehandelingen hebt gedefinieerd, kunt u het experiment vali
 
 1. Klik vervolgens op **[!UICONTROL Start experimentation]** om de A/B-test te starten.
 
-   ![ Schermafbeelding die de knoop van het begin experimenteren ](assets/ab-testing-5.png){zoomable="yes"} tonen
+   ![&#x200B; Schermafbeelding die de knoop van het begin experimenteren &#x200B;](assets/ab-testing-5.png){zoomable="yes"} tonen
 
 1. Wanneer uw experiment is uitgevoerd, controleert u de verschillende meetgegevens die worden weergegeven in het dashboard voor levering.
 
@@ -128,7 +128,7 @@ Tijdens het experiment kunt u op **[!UICONTROL Stop sending]** klikken om het ex
 
 ## De leveringen verzenden {#send-deliveries}
 
-Verzenden kan automatisch of handmatig worden uitgevoerd, afhankelijk van wat u hebt gekozen in de instellingen van **[!UICONTROL Winner sending method]** . Zie deze [ sectie ](#sending-method).
+Verzenden kan automatisch of handmatig worden uitgevoerd, afhankelijk van wat u hebt gekozen in de instellingen van **[!UICONTROL Winner sending method]** . Zie deze [&#x200B; sectie &#x200B;](#sending-method).
 
 ### Automatisch verzenden {#automatic-sending}
 

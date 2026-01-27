@@ -22,17 +22,17 @@ Als u het menu **[!UICONTROL Brands]** in [!DNL Adobe Campaign Web] wilt openen,
 
 +++ Leer hoe u merkgerelateerde machtigingen kunt toewijzen
 
-1. In de [ Admin Console ](https://adminconsole.adobe.com/enterprise) homepage, heb toegang tot uw product van de Campagne.
+1. In de [&#x200B; Admin Console &#x200B;](https://adminconsole.adobe.com/enterprise) homepage, heb toegang tot uw product van de Campagne.
 
-   ![ Admin Console homepage die de producttoegang van de Campagne toont ](assets/brands_admin_1.png)
+   ![&#x200B; Admin Console homepage die de producttoegang van de Campagne toont &#x200B;](assets/brands_admin_1.png)
 
 1. Selecteer **[!DNL Product profile]** op basis van het niveau van toestemmingen u uw gebruiker wilt verlenen.
 
-   ![ de profielselectie van het Product in Admin Console ](assets/brands_admin_2.png)
+   ![&#x200B; de profielselectie van het Product in Admin Console &#x200B;](assets/brands_admin_2.png)
 
 1. Klik op **[!DNL Add users]** om het geselecteerde productprofiel toe te wijzen.
 
-   ![ voegt gebruikersoptie in Admin Console ](assets/brands_admin_3.png) toe
+   ![&#x200B; voegt gebruikersoptie in Admin Console &#x200B;](assets/brands_admin_3.png) toe
 
 1. Typ de naam, de gebruikersgroep of het e-mailadres van de gebruiker.
 
@@ -50,7 +50,7 @@ Gebruikers kunnen de details handmatig invoeren of een document met brandrichtli
 
 1. Klik in het menu **[!UICONTROL Brands]** op **[!UICONTROL Create brand]** .
 
-   ![ het menu van Merken met Create merkoptie ](assets/brands-1.png)
+   ![&#x200B; het menu van Merken met Create merkoptie &#x200B;](assets/brands-1.png)
 
 1. Voer een **[!UICONTROL Name]** in voor uw merk.
 
@@ -58,7 +58,7 @@ Gebruikers kunnen de details handmatig invoeren of een document met brandrichtli
 
    Het uitpakken van informatie begint nu. Het kan enkele minuten duren voordat de bewerking is voltooid.
 
-   ![ uploadt van het dossier voor de extractie van merkrichtlijnen ](assets/brands-2.png)
+   ![&#x200B; uploadt van het dossier voor de extractie van merkrichtlijnen &#x200B;](assets/brands-2.png)
 
 1. Uw standaarden voor het maken van inhoud en visuele weergave worden nu automatisch ingevuld. Blader door de verschillende tabbladen om de informatie naar wens aan te passen. [Meer informatie](#personalize)
 
@@ -76,7 +76,7 @@ Gebruikers kunnen de details handmatig invoeren of een document met brandrichtli
    >
    >Er wordt dan een tijdelijke kopie gemaakt in de bewerkingsmodus, waarbij de live versie wordt vervangen nadat deze is gepubliceerd.
 
-   ![ geef merkoptie in het menu van Merken uit ](assets/brands-8.png)
+   ![&#x200B; geef merkoptie in het menu van Merken uit &#x200B;](assets/brands-8.png)
 
 1. Open het geavanceerde menu op het dashboard van **[!UICONTROL Brands]** door op het pictogram ![](assets/do-not-localize/Smock_More_18_N.svg) te klikken op:
 
@@ -88,13 +88,13 @@ Gebruikers kunnen de details handmatig invoeren of een document met brandrichtli
    * Publiceren ongedaan maken
    * Verwijderen
 
-   ![ Geavanceerde menuopties in het dashboard van Banden ](assets/brands-6.png)
+   ![&#x200B; Geavanceerde menuopties in het dashboard van Banden &#x200B;](assets/brands-6.png)
 
-De richtlijnen voor uw merk zijn nu beschikbaar in het keuzemenu **[!UICONTROL Brand]** in AI Assistant. Zo kan AI Assistant inhoud en elementen genereren die zijn uitgelijnd op uw specificaties. [ Leer meer over Medewerker AI ](../content/generative-gs.md)
+De richtlijnen voor uw merk zijn nu beschikbaar in het keuzemenu **[!UICONTROL Brand]** in AI Assistant. Zo kan AI Assistant inhoud en elementen genereren die zijn uitgelijnd op uw specificaties. [&#x200B; Leer meer over Medewerker AI &#x200B;](../content/generative-gs.md)
 
-U kunt ook de richtlijnen van uw merk gebruiken om de kwaliteit van uw inhoud en de uitlijning van uw merk te evalueren. [ leer meer over de bevestiging van de inhoudskwaliteit ](brands-score.md#validate-quality)
+U kunt ook de richtlijnen van uw merk gebruiken om de kwaliteit van uw inhoud en de uitlijning van uw merk te evalueren. [&#x200B; leer meer over de bevestiging van de inhoudskwaliteit &#x200B;](brands-score.md#validate-quality)
 
-![ AI hulpmenu met Merk drop-down ](assets/brands_6.png)
+![&#x200B; AI hulpmenu met Merk drop-down &#x200B;](assets/brands_6.png)
 
 ### Een standaardmerk instellen {#default-brand}
 
@@ -102,5 +102,5 @@ U kunt een standaardmerk aanwijzen dat automatisch moet worden toegepast bij het
 
 Als u een standaardmerk wilt instellen, gaat u naar het **[!UICONTROL Brands]** -dashboard. Open het geavanceerde menu door op het pictogram ![](assets/do-not-localize/Smock_More_18_N.svg) te klikken en **[!UICONTROL Mark as default brand]** te selecteren.
 
-![ Geavanceerde menuopties in het dashboard van Banden ](assets/brands-6.png)
+![&#x200B; Geavanceerde menuopties in het dashboard van Banden &#x200B;](assets/brands-6.png)
 

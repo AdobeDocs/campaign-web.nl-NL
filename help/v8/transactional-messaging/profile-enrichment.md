@@ -19,11 +19,11 @@ Met deze functie kunt u transactieberichten personaliseren door Adobe Campaign-d
 
 Ga als volgt te werk om profielverrijking in te stellen:
 
-1. Creeer het transactionele bericht, [ lees meer ](#create-enrichment)
-1. Bepaal het gebeurtenistype, [ lees meer ](#event-enrichment)
-1. Opstelling de verrijkingsmontages, [ lees meer ](#settings-enrichment)
-1. Bepaal de inhoud, [ lees meer ](#content-enrichment)
-1. Valideren en verzenden, [ lees meer ](#send-enrichment)
+1. Creeer het transactionele bericht, [&#x200B; lees meer &#x200B;](#create-enrichment)
+1. Bepaal het gebeurtenistype, [&#x200B; lees meer &#x200B;](#event-enrichment)
+1. Opstelling de verrijkingsmontages, [&#x200B; lees meer &#x200B;](#settings-enrichment)
+1. Bepaal de inhoud, [&#x200B; lees meer &#x200B;](#content-enrichment)
+1. Valideren en verzenden, [&#x200B; lees meer &#x200B;](#send-enrichment)
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Nu, voegen wij gebieden aan de gebeurtenis toe die u zal toestaan om het transac
 
 Vervolgens moet u de inhoud van het transactiebericht definiëren.
 
-1. In de **sectie van de Inhoud**, klik **geef inhoud** knoop uit en bepaal uw berichtinhoud. Verwijs naar deze [ pagina ](create-transactional.md#transactional-content).
+1. In de **sectie van de Inhoud**, klik **geef inhoud** knoop uit en bepaal uw berichtinhoud. Verwijs naar deze [&#x200B; pagina &#x200B;](create-transactional.md#transactional-content).
 
    ![](assets/template-content.png){zoomable="yes"}
 
@@ -102,7 +102,7 @@ Vervolgens moet u de inhoud van het transactiebericht definiëren.
 
 Tot slot moet u de levering bevestigen en verzenden.
 
-1. Valideer de levering door de inhoud te simuleren en proefdrukken te verzenden. Verwijs naar deze [ pagina ](validate-transactional.md).
+1. Valideer de levering door de inhoud te simuleren en proefdrukken te verzenden. Verwijs naar deze [&#x200B; pagina &#x200B;](validate-transactional.md).
 
 1. Klik op de knop **[!UICONTROL Review and publish]** om het bericht te maken en te publiceren. De triggers kunnen nu het verzenden van uw transactiebericht starten.
 

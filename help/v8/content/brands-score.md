@@ -14,7 +14,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->U moet met de [ gebruikersovereenkomst ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker kunt gebruiken AI. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>U moet met de [&#x200B; gebruikersovereenkomst &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} akkoord gaan alvorens u de Medewerker kunt gebruiken AI. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 De functie van de inhoudsherziening verstrekt uitvoerige evaluatiemiddelen om te meten hoe goed uw campagnes zich aan uw merkrichtlijnen richten en de normen van de inhoudkwaliteit over alle mededelingen handhaven:
 
@@ -23,13 +23,13 @@ De functie van de inhoudsherziening verstrekt uitvoerige evaluatiemiddelen om te
 
 ## Uw inhoud valideren met uitlijning van het merk {#validate-content}
 
-Zodra [ uw merk opstelling en gepubliceerd ](brands.md) is, bepaal uw merk groeperingsscore direct binnen uw e-mailcampagne om uw inhoud te verzekeren richt zich op uw merkrichtlijnen:
+Zodra [&#x200B; uw merk opstelling en gepubliceerd &#x200B;](brands.md) is, bepaal uw merk groeperingsscore direct binnen uw e-mailcampagne om uw inhoud te verzekeren richt zich op uw merkrichtlijnen:
 
-1. Creeer uw [ e-mailcampagne ](../email/create-email.md).
+1. Creeer uw [&#x200B; e-mailcampagne &#x200B;](../email/create-email.md).
 
 1. Open het menu **[!UICONTROL Brand Alignment]** in de e-mailontwerper.
 
-   Uw inhoud wordt automatisch geëvalueerd op basis van uw standaardmerk. [ Leer hoe te om een standaardmerk ](brands.md) toe te wijzen.
+   Uw inhoud wordt automatisch geëvalueerd op basis van uw standaardmerk. [&#x200B; Leer hoe te om een standaardmerk &#x200B;](brands.md) toe te wijzen.
 
    ![](assets/brand-score-1.png)
 
@@ -39,7 +39,7 @@ Zodra [ uw merk opstelling en gepubliceerd ](brands.md) is, bepaal uw merk groep
 
 1. Doorblader door de **Score van de Groepering van het Merk** (Hoog, Medium, Laag) en overzicht gedetailleerde terugkoppelt.
 
-1. Klik het ![ Volledige het schermpictogram van het 1} beeld van de Duik ](assets/do-not-localize/Smock_FullScreen_18_N.svg " om meer inzichten in uw score te zien.")
+1. Klik het ![&#x200B; Volledige het schermpictogram van het 1&rbrace; beeld van de Duik &#x200B;](assets/do-not-localize/Smock_FullScreen_18_N.svg " om meer inzichten in uw score te zien.")
 
    ![](assets/brand-score-3.png)
 
@@ -61,7 +61,7 @@ Naast de uitlijning van merken kunt u de algemene kwaliteit van de inhoud beoord
 
 De kwaliteit van uw inhoud evalueren:
 
-1. Creeer uw [ e-maillevering ](../email/create-email.md).
+1. Creeer uw [&#x200B; e-maillevering &#x200B;](../email/create-email.md).
 
 1. Open het menu **[!UICONTROL Brand Alignment]** in de E-mail-Designer.
 
@@ -75,7 +75,7 @@ De kwaliteit van uw inhoud evalueren:
 
    ![](assets/quality-score-3.png)
 
-1. Klik het ![ Volledige het schermpictogram voor gedetailleerde inzichten ](assets/do-not-localize/Smock_FullScreen_18_N.svg " Volledig scherm ") pictogram voor een gedetailleerde mening van uw kwaliteitsscore.
+1. Klik het ![&#x200B; Volledige het schermpictogram voor gedetailleerde inzichten &#x200B;](assets/do-not-localize/Smock_FullScreen_18_N.svg " Volledig scherm ") pictogram voor een gedetailleerde mening van uw kwaliteitsscore.
 
    ![](assets/quality-score-4.png)
 

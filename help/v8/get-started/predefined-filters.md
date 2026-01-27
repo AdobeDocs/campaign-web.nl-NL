@@ -35,7 +35,7 @@ Vooraf gedefinieerde filters zijn aangepaste filters die zijn gemaakt en opgesla
 
 U kunt bestaande ingebouwde filters gebruiken om tot een specifieke ondergroep van uw gegevens toegang te hebben of uw eigen vooraf bepaalde filters tot stand te brengen en hen te bewaren.
 
-![ Vooraf bepaalde interface van het filtermenu ](assets/predefined-filters-menu.png){zoomable="yes"}
+![&#x200B; Vooraf bepaalde interface van het filtermenu &#x200B;](assets/predefined-filters-menu.png){zoomable="yes"}
 
 ## Een vooraf gedefinieerd filter maken {#create-predefined-filter}
 
@@ -56,18 +56,18 @@ U kunt bestaande ingebouwde filters gebruiken om tot een specifieke ondergroep v
 
 ### Een filter maken op basis van de querymodelfunctie {#create-from-rule-builder}
 
-Sparen een douanefilter van [ vraagmodeler ](../query/query-modeler-overview.md) om het voor toekomstig gebruik beschikbaar te maken. Voer de volgende stappen uit:
+Sparen een douanefilter van [&#x200B; vraagmodeler &#x200B;](../query/query-modeler-overview.md) om het voor toekomstig gebruik beschikbaar te maken. Voer de volgende stappen uit:
 
 1. Open de vraagmodeler en bepaal uw het filtreren voorwaarden. In het onderstaande voorbeeld worden ontvangers die in Madrid wonen en zich op een nieuwsbrief abonneren, gefilterd.
 1. Klik **Uitgezocht of sparen filter** knoop, en uitgezocht **sparen als filter**.
 
-   ![ sparen vooraf bepaalde filterinterface ](assets/predefined-filters-save.png){zoomable="yes"}
+   ![&#x200B; sparen vooraf bepaalde filterinterface &#x200B;](assets/predefined-filters-save.png){zoomable="yes"}
 
 1. Selecteer **creeer een nieuwe filter**, en ga een naam en een beschrijving voor die filter in.
 
-   ![ sparen interface van filterdetails ](assets/predefined-filters-save-filter.png){zoomable="yes"}
+   ![&#x200B; sparen interface van filterdetails &#x200B;](assets/predefined-filters-save-filter.png){zoomable="yes"}
 
-   U kunt het filter indien nodig opslaan als favoriet. Leer meer in [ deze sectie ](#fav-filter). U kunt de optie **[!UICONTROL Shared filter]** ook inschakelen om het filter toegankelijk te maken voor andere gebruikers. Lees meer in [deze sectie](#share-filter).
+   U kunt het filter indien nodig opslaan als favoriet. Leer meer in [&#x200B; deze sectie &#x200B;](#fav-filter). U kunt de optie **[!UICONTROL Shared filter]** ook inschakelen om het filter toegankelijk te maken voor andere gebruikers. Lees meer in [deze sectie](#share-filter).
 
 1. Klik **bevestigen** om uw veranderingen te bewaren.
 
@@ -83,13 +83,13 @@ Creeer een filter van de **Vooraf bepaalde filters** ingang in het linkermenu. V
 
 1. Definieer de regel voor het filter. Profielen die ouder zijn dan 30.
 
-   ![ regel van de Filter voor profielen ouder dan 30 ](assets/filter-30+.png){zoomable="yes"}
+   ![&#x200B; regel van de Filter voor profielen ouder dan 30 &#x200B;](assets/filter-30+.png){zoomable="yes"}
 
 1. Sla uw wijzigingen op.
 
-   ![ Nieuwe filter bewaarde interface ](assets/new-filter.png){zoomable="yes"}
+   ![&#x200B; Nieuwe filter bewaarde interface &#x200B;](assets/new-filter.png){zoomable="yes"}
 
-Het filter wordt toegevoegd aan de vooraf gedefinieerde filterlijst. U kunt het filter indien nodig opslaan als favoriet. Leer meer in [ deze sectie ](#fav-filter). U kunt het filter ook met andere gebruikers delen door de optie **[!UICONTROL Shared filter]** in te schakelen. Lees meer in [deze sectie](#share-filter).
+Het filter wordt toegevoegd aan de vooraf gedefinieerde filterlijst. U kunt het filter indien nodig opslaan als favoriet. Leer meer in [&#x200B; deze sectie &#x200B;](#fav-filter). U kunt het filter ook met andere gebruikers delen door de optie **[!UICONTROL Shared filter]** in te schakelen. Lees meer in [deze sectie](#share-filter).
 
 ## Filter opslaan als favoriet {#fav-filter}
 
@@ -97,13 +97,13 @@ Wanneer het creëren van een vooraf bepaald filter, laat **sparen als favoriete*
 
 Wanneer een filter als favoriet wordt bewaard, is het beschikbaar aan alle gebruikers in de **favoriete filters** sectie van de lijst van de filterverwezenlijking, zoals hieronder getoond:
 
-![ Favoriete filterssectie ](assets/predefined-filters-favorite.png){zoomable="yes"}
+![&#x200B; Favoriete filterssectie &#x200B;](assets/predefined-filters-favorite.png){zoomable="yes"}
 
 ## Een vooraf gedefinieerd filter delen {#share-filter}
 
 Vooraf gedefinieerde filters die u maakt, zijn standaard persoonlijk en zijn alleen voor u zichtbaar. Schakel de optie **[!UICONTROL Shared filter]** in als u een filter toegankelijk wilt maken voor andere operatoren in uw organisatie.
 
-![ Gedeelde filteroptie ](assets/predefined-filters-shared.png){zoomable="yes"}
+![&#x200B; Gedeelde filteroptie &#x200B;](assets/predefined-filters-shared.png){zoomable="yes"}
 
 De gedeelde filters verschijnen in de vooraf bepaalde filterlijst voor alle gebruikers, die hen toestaan om deze filters in hun eigen werkschema&#39;s en vragen te gebruiken.
 
@@ -111,7 +111,7 @@ De gedeelde filters verschijnen in de vooraf bepaalde filterlijst voor alle gebr
 
 Vooraf gedefinieerde filters zijn beschikbaar wanneer u regeleigenschappen definieert. Om tot vooraf bepaalde filters toegang te hebben, verkies de **Uitgezochte optie van de douanefilter** in de drop-down van de vraagmodelleur.
 
-Heb toegang tot de volledige lijst van vooraf bepaalde filters beschikbaar voor de huidige context, en gebruikskortere weg in de **Favoriete filters** sectie van de drop-down. Leer meer over favorieten in [ deze sectie ](#fav-filter).
+Heb toegang tot de volledige lijst van vooraf bepaalde filters beschikbaar voor de huidige context, en gebruikskortere weg in de **Favoriete filters** sectie van de drop-down. Leer meer over favorieten in [&#x200B; deze sectie &#x200B;](#fav-filter).
 
 Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd filter, voert u de volgende stappen uit:
 
@@ -119,15 +119,15 @@ Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd f
 1. Ga de publieksnaam in, en klik **creëren de knoop van het Publiek**.
 1. Selecteer de **activiteit van de Vraag**, en, van de juiste ruit, klik **creëren publiek** knoop.
 
-   ![ creeer publieksinterface ](assets/build-audience-from-filter.png){zoomable="yes"}
+   ![&#x200B; creeer publieksinterface &#x200B;](assets/build-audience-from-filter.png){zoomable="yes"}
 
 1. Van **Uitgezocht of sparen filter** knoop, kies de **Uitgezochte optie van de douanefilter**.
 
-   ![ Uitgezochte optie van de douanefilter ](assets/build-audience-select-custom-filter.png){zoomable="yes"}
+   ![&#x200B; Uitgezochte optie van de douanefilter &#x200B;](assets/build-audience-select-custom-filter.png){zoomable="yes"}
 
 1. Blader naar het vooraf gedefinieerde filter dat u wilt gebruiken om het publiek te maken, selecteer het en bevestig het.
 
-   ![ Vooraf bepaalde interface van de filterlijst ](assets/build-audience-filter-list.png){zoomable="yes"}
+   ![&#x200B; Vooraf bepaalde interface van de filterlijst &#x200B;](assets/build-audience-filter-list.png){zoomable="yes"}
 
    U kunt een bestaand vooraf gedefinieerd filter ook bewerken of verwijderen met de knop ![](../content/assets/do-not-localize/Smock_More_18_N.svg) .
 
@@ -135,7 +135,7 @@ Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd f
 
    Het filter wordt nu gebruikt als vraag in de **activiteit van de Vraag**.
 
-   ![ de activiteit van de Vraag met vooraf bepaalde filter ](assets/build-audience-confirm.png){zoomable="yes"}
+   ![&#x200B; de activiteit van de Vraag met vooraf bepaalde filter &#x200B;](assets/build-audience-confirm.png){zoomable="yes"}
 
 1. Sparen uw veranderingen en klik de **knoop van het Begin** om het publiek te bouwen en het beschikbaar te maken in de publiekslijst.
 
@@ -143,7 +143,7 @@ Als u bijvoorbeeld een publiek wilt maken op basis van een vooraf gedefinieerd f
 
 Alle vooraf gedefinieerde filters worden gegroepeerd in de specifieke vermelding van het navigatiemenu links.
 
-![ Lijst van vooraf bepaalde filters ](assets/list-of-filters.png){zoomable="yes"}
+![&#x200B; Lijst van vooraf bepaalde filters &#x200B;](assets/list-of-filters.png){zoomable="yes"}
 
 In deze lijst kunt u een nieuw filter maken zoals hierboven beschreven en de onderstaande handelingen uitvoeren:
 
@@ -153,7 +153,7 @@ In deze lijst kunt u een nieuw filter maken zoals hierboven beschreven en de ond
 
 U kunt een vooraf gedefinieerd filter ook direct uit de regelbouwer bewerken of verwijderen. Van het vooraf bepaalde venster van de filterselectie, gebruik **Meer acties** knoop. U kunt het filter verwijderen of bewerken. U kunt het label wijzigen, een beschrijving toevoegen, het toevoegen als favoriet of de optie **[!UICONTROL Shared filter]** inschakelen om te bepalen wie toegang heeft tot het filter.
 
-![ Uitgave van vooraf bepaalde filters ](assets/filter-edit.png){zoomable="yes"}
+![&#x200B; Uitgave van vooraf bepaalde filters &#x200B;](assets/filter-edit.png){zoomable="yes"}
 
 <!--
 ## Built-in predefined filters {#ootb-predefined-filter}
