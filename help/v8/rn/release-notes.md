@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '670'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
-De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld in [&#x200B; 2024 &#x200B;](release-notes-24.md) en [&#x200B; 2025 &#x200B;](release-notes-25.md) pagina&#39;s.
+De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld in [ 2024 ](release-notes-24.md) en [ 2025 ](release-notes-25.md) pagina&#39;s.
 
 ## Release januari 1926 {#26-1-release}
 
@@ -133,4 +133,3 @@ _jan 27, 2026_
 * Vooraf gedefinieerde filters - Met een nieuwe optie Gedeeld filter kunt u een vooraf gedefinieerd filter beschikbaar maken voor andere gebruikers in uw organisatie. [Meer informatie](../get-started/predefined-filters.md#share-filter)
 * Velden voor persoonlijke voorkeur die zijn gemaakt in Adobe Experience Manager, zoals Naam, E-mail, Datum en adres, worden nu opgenomen en beschikbaar wanneer u de inhoudssjabloon gebruikt.
 * De evaluatie van de kwaliteit van de inhoud controleert nu op leesbaarheid, coherentie, en doeltreffendheid kwesties onafhankelijk van merkrichtlijnen, het identificeren van onduidelijk overseinen, inconsistente toon, of structurele hiaten. [Meer informatie](../content/brands-score.md)
-* De richtlijnen voor merken bevatten nu een sectie Kleuren waarin standaarden voor het kleursysteem van uw merk worden gedefinieerd, zodat u overal waar u werkt altijd dezelfde primaire, secundaire, accentueerde en neutrale kleuren gebruikt. [Meer informatie](../content/brands-personalize.md)
