@@ -16,8 +16,8 @@ ht-degree: 0%
 >id="acw_deliveries_simulate"
 >title="Inhoud voorvertonen en testen"
 >abstract="Nadat u de inhoud hebt gedefinieerd, kunt u profielen en testprofielen gebruiken om deze voor te vertonen en te testen."
->additional-url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/preview-test/preview-test" text="Proefdrukken verzenden"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html#test-landing-page" text="Testopeningspagina&#39;s"
+>additional-url="https://experienceleague.adobe.com/nl/docs/campaign-web/v8/start/preview-test/preview-test" text="Proefdrukken verzenden"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/landing-pages/create-lp.html?lang=nl-NL#test-landing-page" text="Testopeningspagina&#39;s"
 
 Nadat u de inhoud van de levering hebt gedefinieerd, kunt u profielen en testprofielen gebruiken om deze voor te vertonen en te testen voordat u het bericht verzendt. Deze stap zorgt voor nauwkeurigheid en elimineert fouten in zowel inhoud als verpersoonlijkingsmontages.
 
