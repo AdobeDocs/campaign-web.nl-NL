@@ -23,7 +23,7 @@ ht-degree: 2%
 >title="Eigenschappen van push-levering"
 >abstract="Definieer de eigenschappen voor het leveren van de push. Ga het etiket van de duw in en gebruik **Extra Opties** om de interne naam, de leveringsomslag, en de code te vormen. U kunt ook een aangepaste beschrijving invoeren."
 
-U kunt een zelfstandige levering van pushberichten maken of een pushmelding maken in de context van een campagneworkflow. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) pushlevering. Als u in de context van een campagnewerkschema werkt, zijn de aanmaakstappen gedetailleerd in [ deze sectie ](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
+U kunt een zelfstandige levering van pushberichten maken of een pushmelding maken in de context van een campagneworkflow. In de onderstaande stappen wordt de procedure beschreven voor een zelfstandige (one-shot) pushlevering. Als u in de context van een campagnewerkschema werkt, zijn de aanmaakstappen gedetailleerd in [&#x200B; deze sectie &#x200B;](../workflows/activities/channels.md#create-a-delivery-in-a-campaign-workflow).
 
 ## Een pushbericht maken {#create-push-delivery}
 
@@ -31,11 +31,11 @@ Ga als volgt te werk om een nieuwe zelfstandige pushaanbieding te maken:
 
 1. Blader naar het menu **[!UICONTROL Deliveries]** op de linkertrack en klik op de knop **[!UICONTROL Create delivery]** .
 
-1. Onder de **[!UICONTROL Channel]** sectie, kies **Push bericht** als kanaal, en selecteer een malplaatje, afhankelijk van het gekozen apparaat werkende systeem: Android of iOS. [ Leer meer over malplaatjes ](../msg/delivery-template.md)
+1. Onder de **[!UICONTROL Channel]** sectie, kies **Push bericht** als kanaal, en selecteer een malplaatje, afhankelijk van het gekozen apparaat werkende systeem: Android of iOS. [&#x200B; Leer meer over malplaatjes &#x200B;](../msg/delivery-template.md)
 
 1. Klik op de knop **[!UICONTROL Create delivery]** ter bevestiging.
 
-   ![ Screenshot die de verwezenlijking van een duw levering ](assets/push_create_1.png){zoomable="yes"} tonen
+   ![&#x200B; Screenshot die de verwezenlijking van een duw levering &#x200B;](assets/push_create_1.png){zoomable="yes"} tonen
 
 ## De leveringsinstellingen configureren {#configure-push-settings}
 
@@ -67,13 +67,13 @@ U moet eerst de app selecteren en vervolgens het publiek voor pushmeldingen verf
 
 1. Selecteer in de sectie **[!UICONTROL Audience]** de toepassing die u voor deze levering wilt gebruiken. Uw pushmelding wordt standaard naar alle abonnees van de toepassing verzonden. U kunt een bepaald publiek verfijnen door op de knop **[!UICONTROL Select audience]** te klikken.
 
-   ![ Schermafbeelding die publieksenselectie voor duwlevering tonen ](assets/push_create_2.png){zoomable="yes"}
+   ![&#x200B; Schermafbeelding die publieksenselectie voor duwlevering tonen &#x200B;](assets/push_create_2.png){zoomable="yes"}
 
-1. Selecteer een bestaand publiek of maak uw eigen publiek om de doelpopulatie voor uw pushlevering te verfijnen. Voor het pushbericht, is de standaard [ doelafmeting ](../audience/about-recipients.md#targeting-dimensions) **toepassing van de Abonnee** (nms :appSubscriptionRcp), die met de lijst van ontvangers wordt verbonden.
+1. Selecteer een bestaand publiek of maak uw eigen publiek om de doelpopulatie voor uw pushlevering te verfijnen. Voor het pushbericht, is de standaard [&#x200B; doelafmeting &#x200B;](../audience/about-recipients.md#targeting-dimensions) **toepassing van de Abonnee** (nms :appSubscriptionRcp), die met de lijst van ontvangers wordt verbonden.
 
-   Leer hoe te om een bestaand publiek in [ te selecteren deze pagina ](../audience/add-audience.md).
+   Leer hoe te om een bestaand publiek in [&#x200B; te selecteren deze pagina &#x200B;](../audience/add-audience.md).
 
-   Leer hoe te om een nieuw publiek in [ tot stand te brengen deze pagina ](../audience/one-time-audience.md).
+   Leer hoe te om een nieuw publiek in [&#x200B; tot stand te brengen deze pagina &#x200B;](../audience/one-time-audience.md).
 
 1. Schakel de optie **[!UICONTROL Enable control group]** in om een besturingsgroep in te stellen om de impact van de levering te meten. De berichten worden niet verzonden naar die controlegroep, zodat kunt u het gedrag van de bevolking vergelijken die het bericht met het gedrag van contacten ontving die niet. [Meer informatie](../audience/control-group.md).
 
@@ -81,13 +81,13 @@ U moet eerst de app selecteren en vervolgens het publiek voor pushmeldingen verf
 
 Klik op **[!UICONTROL Edit content]** om de inhoud van uw melding te definiëren. [Meer informatie](content-push.md).
 
-![ Schermafbeelding die inhoud het uitgeven voor duplevering ](assets/push_create_5.png){zoomable="yes"} tonen
+![&#x200B; Schermafbeelding die inhoud het uitgeven voor duplevering &#x200B;](assets/push_create_5.png){zoomable="yes"} tonen
 
-Van dit scherm, kunt u ook [ uw inhoud ](../preview-test/preview-test.md) simuleren en [ opstellingsaanbiedingen ](../msg/offers.md).
+Van dit scherm, kunt u ook [&#x200B; uw inhoud &#x200B;](../preview-test/preview-test.md) simuleren en [&#x200B; opstellingsaanbiedingen &#x200B;](../msg/offers.md).
 
 ## Plaats de verzending van de levering {#schedule-push}
 
-Wanneer een levering in de context van een werkschema wordt verzonden, moet u de **Planner** activiteit gebruiken. Leer meer in [ deze pagina ](../workflows/activities/scheduler.md). Onderstaande stappen zijn alleen van toepassing op zelfstandige leveringen.
+Wanneer een levering in de context van een werkschema wordt verzonden, moet u de **Planner** activiteit gebruiken. Leer meer in [&#x200B; deze pagina &#x200B;](../workflows/activities/scheduler.md). Onderstaande stappen zijn alleen van toepassing op zelfstandige leveringen.
 
 Voer de volgende stappen uit om een zelfstandige pushlevering naar een bepaalde datum en tijd te plannen:
 
@@ -99,12 +99,12 @@ Voer de volgende stappen uit om een zelfstandige pushlevering naar een bepaalde 
 
 Nadat u de levering in werking stelt, wordt het bericht automatisch verzonden op de nauwkeurige datum en de tijd die u voor de ontvanger hebt bepaald.
 
-![ Schermafbeelding die het plannen opties voor duplevering toont ](assets/push_create_3.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die het plannen opties voor duplevering toont &#x200B;](assets/push_create_3.png){zoomable="yes"}
 
-Leer meer over levering het plannen in [ deze sectie ](../msg/gs-deliveries.md#gs-schedule).
+Leer meer over levering het plannen in [&#x200B; deze sectie &#x200B;](../msg/gs-deliveries.md#gs-schedule).
 
 ## Geavanceerde instellingen voor levering {#adv-push}
 
 Klik op **[!UICONTROL Configure delivery settings]** voor toegang tot geavanceerde opties met betrekking tot de leveringssjabloon. [Meer informatie](../advanced-settings/delivery-settings.md).
 
-![ Schermafbeelding die geavanceerde montages voor duwlevering toont ](assets/push_create_4.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die geavanceerde montages voor duwlevering toont &#x200B;](assets/push_create_4.png){zoomable="yes"}
