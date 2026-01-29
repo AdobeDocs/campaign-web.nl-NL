@@ -2,7 +2,7 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
+source-git-commit: 62e064b5a2e2c0d8b81755d2a8a9ea04c512e6f2
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 9%
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
-De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld in [&#x200B; 2024 &#x200B;](release-notes-24.md) en [&#x200B; 2025 &#x200B;](release-notes-25.md) pagina&#39;s.
+De veranderingen en de verbeteringen beschikbaar met vorige versies worden vermeld in [ 2024 ](release-notes-24.md) en [ 2025 ](release-notes-25.md) pagina&#39;s.
 
 ## Release januari 1926 {#26-1-release}
 
