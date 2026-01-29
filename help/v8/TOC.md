@@ -5,7 +5,7 @@ user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interfa
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
 breadcrumb-title: Campaign Web User Interface
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: 0f12c504e92d564bdd7a07915a54905975ffbe10
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 20%
@@ -37,7 +37,7 @@ ht-degree: 20%
    + [Van Campaign Standard naar v8](rn/acs-migration.md)
    + [Contextafhankelijke Help voor AI](get-started/using-ai.md)
    + [Veelgestelde vragen](get-started/faq.md)
-   + Berichten en leveringen {#msg}
++ Berichten en leveringen {#msg}
    + [Aan de slag met berichten](msg/gs-messages.md)
    + [Toegang tot leveringen](msg/gs-deliveries.md)
    + [Een levering maken](msg/create-deliveries.md)
@@ -49,7 +49,7 @@ ht-degree: 20%
       + E-mail verzenden en controleren {#monitor}
          + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
          + [Verzenden met meerdere golven](advanced-settings/send-using-waves.md)
-         + [&#x200B; Logboeken van de levering van de Monitor &#x200B;](monitor/delivery-logs.md)
+         + [ Logboeken van de levering van de Monitor ](monitor/delivery-logs.md)
          + [Plaats de verzending van een levering](monitor/schedule-sending.md)
    + Pushmeldingen {#push}
       + [Aan de slag met pushmeldingen](push/gs-push.md)
@@ -85,7 +85,7 @@ ht-degree: 20%
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
    + Voorbeeld en test de levering {#preview-test}
-      + [&#x200B; Ongeveer voorproef en proef &#x200B;](preview-test/preview-test.md)
+      + [ Ongeveer voorproef en proef ](preview-test/preview-test.md)
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
       + [Proefdrukken verzenden](preview-test/test-deliveries.md)
       + [De rendering van e-mail testen](preview-test/email-rendering.md)
@@ -295,4 +295,4 @@ ht-degree: 20%
       + [Externe CRM-rekening](administration/external-crm.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [&#x200B; Campagne v8 (console) documentatie > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
