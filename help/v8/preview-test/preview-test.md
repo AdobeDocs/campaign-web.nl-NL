@@ -23,17 +23,17 @@ Nadat u de inhoud van de levering hebt gedefinieerd, kunt u profielen en testpro
 [!DNL Adobe Campaign Web user interface] biedt de volgende mogelijkheden:
 
 * [Een voorvertoning weergeven van de inhoud en personalisatie van het bericht](preview-content.md)
-* [ verzendt proef ](test-deliveries.md) naar specifieke ontvangers of abonnees voor het testen en bevestiging
-* [ Controle e-mailteruggevend ](email-rendering.md) in populaire Desktop, mobiele, en web-based cliënten
-* [ bevestigt uw inhoudskwaliteit ](../content/brands-score.md#validate-quality) om leesbaarheid, de doeltreffendheid van CTA, onderwerpregel kwaliteit, en meer te beoordelen
+* [&#x200B; verzendt proef &#x200B;](test-deliveries.md) naar specifieke ontvangers of abonnees voor het testen en bevestiging
+* [&#x200B; Controle e-mailteruggevend &#x200B;](email-rendering.md) in populaire Desktop, mobiele, en web-based cliënten
+* [&#x200B; bevestigt uw inhoudskwaliteit &#x200B;](../content/brands-score.md#validate-quality) om leesbaarheid, de doeltreffendheid van CTA, onderwerpregel kwaliteit, en meer te beoordelen
 * [De openingspagina&#39;s voorvertonen en testen](../landing-pages/create-lp.md#test-landing-page)
 
-Voer deze acties uit gebruikend de **[!UICONTROL Simulate content]** knoop, die van het uitgeven inhoudsscherm van uw levering of van [ E-mail Designer ](../email/get-started-email-designer.md) toegankelijk is.
+Voer deze acties uit gebruikend de **[!UICONTROL Simulate content]** knoop, die van het uitgeven inhoudsscherm van uw levering of van [&#x200B; E-mail Designer &#x200B;](../email/get-started-email-designer.md) toegankelijk is.
 
-![ Simuleer inhoudsknoop in geef inhoudsscherm van uw levering uit ](assets/simulate-button.png){zoomable="yes"}
+![&#x200B; Simuleer inhoudsknoop in geef inhoudsscherm van uw levering uit &#x200B;](assets/simulate-button.png){zoomable="yes"}
 
 >[!NOTE]
 >
->De simulatie van de inhoud is ook beschikbaar bij de [ leveringssamenvatting ](../monitor/prepare-send.md) na het klikken van de **[!UICONTROL Review and send]** knoop.
+>De simulatie van de inhoud is ook beschikbaar bij de [&#x200B; leveringssamenvatting &#x200B;](../monitor/prepare-send.md) na het klikken van de **[!UICONTROL Review and send]** knoop.
 >
->Als u een publiek richt dat van een dossier wordt geupload, verwijs naar [ deze sectie ](../audience/file-audience.md#preview--test-your-email-test) om te leren hoe te om uw levering voor te vertonen en te testen.
+>Als u een publiek richt dat van een dossier wordt geupload, verwijs naar [&#x200B; deze sectie &#x200B;](../audience/file-audience.md#preview--test-your-email-test) om te leren hoe te om uw levering voor te vertonen en te testen.
