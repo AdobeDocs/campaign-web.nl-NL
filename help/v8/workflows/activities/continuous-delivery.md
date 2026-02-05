@@ -2,14 +2,20 @@
 audience: end-user
 title: Activiteit van de doorlopende leveringsworkflow gebruiken
 description: Leer hoe u de activiteit van de workflow voor continue levering gebruikt
-source-git-commit: f238fde4a79d3303f2b5c9a2d26b11ffad8ac54e
+source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
 
 # Doorlopende levering {#continuous-delivery}
+
+>[!CONTEXTUALHELP]
+>id="acw_homepage_welcome_rn5"
+>title="Continue leveringsactiviteit"
+>abstract="U kunt nu nieuwe ontvangers toevoegen aan een bestaande levering. Dit leveringstype vermijdt het moeten een nieuwe levering tot stand brengen telkens als, die het voor laagvolumealarm of berichten efficiënter maakt die worden verzonden zoals nodig."
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 De **Ononderbroken levering** activiteit staat u toe om nieuwe ontvangers aan een bestaande levering toe te voegen. Dit leveringstype vermijdt het moeten een nieuwe levering tot stand brengen telkens als, die het voor laagvolumealarm of berichten efficiënter maakt die worden verzonden zoals nodig.
 
@@ -19,7 +25,7 @@ Een ononderbroken levering leidt tot één enkele leveringsinstantie. Alle lever
 
 1. Voeg a **Ononderbroken levering** activiteit aan uw werkschemacanvas toe.
 
-   ![&#x200B; Schermafbeelding die de Ononderbroken leveringsactiviteit &#x200B;](../assets/continuous-delivery.png){zoomable="yes"} tonen
+   ![ Schermafbeelding die de Ononderbroken leveringsactiviteit ](../assets/continuous-delivery.png){zoomable="yes"} tonen
 
 1. Voer een aangepaste waarde **[!UICONTROL Label]** in voor de activiteit (optioneel). Standaard krijgt deze het label &quot;Continue levering&quot;.
 
