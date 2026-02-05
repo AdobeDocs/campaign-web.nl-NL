@@ -21,7 +21,7 @@ ht-degree: 5%
 >id="acw_deliveries_sms_audience"
 >title="Het SMS-publiek definiëren"
 >abstract="Creeer een nieuw publiek of selecteer bestaande door de **Uitgezochte publiek** knoop te klikken. Voeg zo nodig een controlegroep toe om het effect van de levering te meten."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html" text="Een controlegroep instellen"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/audiences/target-audiences/control-group.html?lang=nl-NL" text="Een controlegroep instellen"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_sms_template_selection"

@@ -24,7 +24,7 @@ Doeltoewijzingen zijn toegankelijk via het menu **[!UICONTROL Administration]** 
 
 ![&#x200B; het scherm van de lijst van de Toewijzingen van het Doel het tonen van beschikbare afbeeldingen &#x200B;](assets/target-mappings-list.png)
 
-Voor meer informatie over de ingebouwde doelafbeeldingen die van Adobe Campaign worden verstrekt, verwijs naar de [&#x200B; de consoledocumentatie van de Cliënt van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html){target="_blank"}.
+Voor meer informatie over de ingebouwde doelafbeeldingen die van Adobe Campaign worden verstrekt, verwijs naar de [&#x200B; de consoledocumentatie van de Cliënt van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/audience/add-profiles/target-mappings.html?lang=nl-NL){target="_blank"}.
 
 ## Doeltoewijzing maken {#create-mapping}
 

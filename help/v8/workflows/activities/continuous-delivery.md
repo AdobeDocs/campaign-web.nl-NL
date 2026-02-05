@@ -15,7 +15,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn5"
 >title="Continue leveringsactiviteit"
 >abstract="U kunt nu nieuwe ontvangers toevoegen aan een bestaande levering. Dit leveringstype vermijdt het moeten een nieuwe levering tot stand brengen telkens als, die het voor laagvolumealarm of berichten efficiënter maakt die worden verzonden zoals nodig."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 De **Ononderbroken levering** activiteit staat u toe om nieuwe ontvangers aan een bestaande levering toe te voegen. Dit leveringstype vermijdt het moeten een nieuwe levering tot stand brengen telkens als, die het voor laagvolumealarm of berichten efficiënter maakt die worden verzonden zoals nodig.
 
