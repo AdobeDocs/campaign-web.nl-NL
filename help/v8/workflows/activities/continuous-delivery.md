@@ -25,7 +25,7 @@ Een ononderbroken levering leidt tot één enkele leveringsinstantie. Alle lever
 
 1. Voeg a **Ononderbroken levering** activiteit aan uw werkschemacanvas toe.
 
-   ![ Schermafbeelding die de Ononderbroken leveringsactiviteit ](../assets/continuous-delivery.png){zoomable="yes"} tonen
+   ![&#x200B; Schermafbeelding die de Ononderbroken leveringsactiviteit &#x200B;](../assets/continuous-delivery.png){zoomable="yes"} tonen
 
 1. Voer een aangepaste waarde **[!UICONTROL Label]** in voor de activiteit (optioneel). Standaard krijgt deze het label &quot;Continue levering&quot;.
 
