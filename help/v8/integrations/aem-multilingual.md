@@ -6,13 +6,13 @@ feature: Email
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 1%
 
 ---
-
 
 # Meertalige e-mails maken met Adobe Experience Manager {#aem-multilingual}
 
@@ -20,7 +20,7 @@ ht-degree: 1%
 >id="acw_homepage_welcome_rn3"
 >title="Experience Manager-kopieën voor levende en talen"
 >abstract="U hebt nu rechtstreeks toegang tot de Adobe Experience Manager-taal en live kopieën in Campagne. Inhoud in realtime vernieuwen voorkomt handmatige synchronisatie voor gestroomlijnde workflows in meerdere talen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 Dankzij de Adobe Experience Manager-integratie kunt u meertalige e-mailleveringen maken met Adobe Experience Manager-taalkopieën. Zo kunt u varianten in de inhoud van verschillende talen beheren en persoonlijke e-mails aanbieden op basis van de taalvoorkeuren van de ontvanger.
 
@@ -29,8 +29,8 @@ Dankzij de Adobe Experience Manager-integratie kunt u meertalige e-mailleveringe
 Voordat u een meertalige e-maillevering maakt, moet u controleren of u beschikt over:
 
 * Toegang tot een Adobe Experience Manager-instantie die is geconfigureerd voor de integratie van de Adobe Campaign-webinterface.
-* Adobe Experience Manager-inhoud met reeds gemaakte en goedgekeurde taalkopieën. Leer meer over de Tovenaar van het Exemplaar van de Taal in [&#x200B; documentatie van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
-* Sjabloon voor e-maillevering geconfigureerd voor ontvangst van Adobe Experience Manager-inhoud. Verwijs naar de stappen die in [&#x200B; worden gedetailleerd toelaten meertalige wijze &#x200B;](#enable-multilingual) sectie.
+* Adobe Experience Manager-inhoud met reeds gemaakte en goedgekeurde taalkopieën. Leer meer over de Tovenaar van het Exemplaar van de Taal in [ documentatie van Adobe Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Sjabloon voor e-maillevering geconfigureerd voor ontvangst van Adobe Experience Manager-inhoud. Verwijs naar de stappen die in [ worden gedetailleerd toelaten meertalige wijze ](#enable-multilingual) sectie.
 
 ## Maak uw meertalige levering
 
@@ -85,7 +85,7 @@ Selecteer de Adobe Experience Manager-inhoud en kies welke taalvarianten u wilt 
 
 1. Klik op **[!UICONTROL Save]**.
 
-1. Bekijk de taalvarianten in de inhoudseditor. U kunt nu [&#x200B; elke variant individueel &#x200B;](#manage-variants) beheren of met [&#x200B; te werk gaan verzendend de levering &#x200B;](../monitor/prepare-send.md).
+1. Bekijk de taalvarianten in de inhoudseditor. U kunt nu [ elke variant individueel ](#manage-variants) beheren of met [ te werk gaan verzendend de levering ](../monitor/prepare-send.md).
 
    ![](assets/lg-copy-7.png)
 
@@ -116,5 +116,3 @@ Nadat u inhoudsvarianten hebt gemaakt, kunt u deze rechtstreeks in de levering b
    >[!CAUTION]
    >
    >Na het ontkoppelen kunt u de inhoud van Adobe Experience Manager niet vernieuwen of nieuwe varianten maken. De inhoud wordt onafhankelijk van Adobe Experience Manager.
-
-

@@ -2,7 +2,8 @@
 audience: end-user
 title: Een meertalige levering configureren
 description: Leer hoe u een meertalige levering configureert
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: eea0e997-4da2-4998-b010-234626b21353
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1501'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn1"
 >title="Meertalige leveringen"
 >abstract="U kunt berichten in veelvoudige talen in het Web UI van de Campagne nu verzenden. Voor pushberichten vult u alle taalvarianten door een CSV-bestand te uploaden."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
@@ -35,9 +36,9 @@ De meertalige mogelijkheid is momenteel beschikbaar voor e-mail, pushberichten, 
 
 Voer de volgende stappen uit om meertalige leveringen in te stellen:
 
-1. Voeg een taalvariant toe, [&#x200B; lees meer &#x200B;](#add-variant)
-1. Bepaal de inhoud voor elke variant, [&#x200B; lees meer &#x200B;](#define-content)
-1. Beheer taalvarianten, [&#x200B; lees meer &#x200B;](#manage-variant)
+1. Voeg een taalvariant toe, [ lees meer ](#add-variant)
+1. Bepaal de inhoud voor elke variant, [ lees meer ](#define-content)
+1. Beheer taalvarianten, [ lees meer ](#manage-variant)
 
 ## Een taalvariant toevoegen{#add-variant}
 
@@ -47,11 +48,11 @@ Ga als volgt te werk om taalvarianten te maken:
 
    >[!IMPORTANT]
    >
-   >De **[!UICONTROL Add language]** knoop is slechts beschikbaar als de doeldimensie het **2&rbrace; schema van de Taal &lbrace;bevat.** Meer over schema&#39;s en doeldimensies leren, gelieve te verwijzen naar de [&#x200B; gedetailleerde documentatie &#x200B;](../audience/targeting-dimensions.md).
+   >De **[!UICONTROL Add language]** knoop is slechts beschikbaar als de doeldimensie het **2} schema van de Taal {bevat.** Meer over schema&#39;s en doeldimensies leren, gelieve te verwijzen naar de [ gedetailleerde documentatie ](../audience/targeting-dimensions.md).
 
    ![](assets/edit-content_2.png){zoomable="yes"}
 
-1. Van **voeg taal** drop-down toe, selecteer de taal om toe te voegen, dan bevestig. Voor duw berichten, kunt u een Csv- dossier [&#x200B; ook uploaden om alle taalvarianten in één keer in te voeren.](#csv-upload)
+1. Van **voeg taal** drop-down toe, selecteer de taal om toe te voegen, dan bevestig. Voor duw berichten, kunt u een Csv- dossier [ ook uploaden om alle taalvarianten in één keer in te voeren.](#csv-upload)
 
    De eerste taal die u toevoegt, wordt automatisch als de standaardtaal ingesteld en de bestaande inhoud wordt de standaardversie. Wanneer extra talen worden toegevoegd, wordt hun inhoud eerst gekopieerd uit de standaardtaal.
 
@@ -59,7 +60,7 @@ Ga als volgt te werk om taalvarianten te maken:
 
    >[!NOTE]
    >
-   >De talen beschikbaar door deze lijst hangen van de waarden af die door het **attribuut van de Taal** &lbrace;zijn bepaald (waarden zoals: systeem, gebruiker, dbenum, enz.). Leer meer over opsommingsbeheer in deze [&#x200B; sectie &#x200B;](../administration/enumerations.md).
+   >De talen beschikbaar door deze lijst hangen van de waarden af die door het **attribuut van de Taal** {zijn bepaald (waarden zoals: systeem, gebruiker, dbenum, enz.). Leer meer over opsommingsbeheer in deze [ sectie ](../administration/enumerations.md).
 
 1. Herhaal deze bewerking om andere talen toe te voegen. In het deelvenster **[!UICONTROL Languages]** links ziet u de lijst met talen die u hebt gekozen, het aantal talen en de standaardtaal.
 
@@ -67,7 +68,7 @@ Ga als volgt te werk om taalvarianten te maken:
 
    ![](assets/edit-content_9.png){zoomable="yes"}
 
-   Leren hoe te om taalvarianten te beheren, verwijs naar deze [&#x200B; sectie &#x200B;](#manage-variant).
+   Leren hoe te om taalvarianten te beheren, verwijs naar deze [ sectie ](#manage-variant).
 
 ## De inhoud voor elke variant definiëren{#define-content}
 
@@ -77,7 +78,7 @@ Wanneer talen zijn ingesteld, definieert u de inhoud van de levering voor elke t
 
    ![](assets/edit-content_11.png){zoomable="yes"}
 
-1. Bepaal de inhoud van uw bericht voor deze taal. Leer meer in deze [&#x200B; sectie &#x200B;](../msg/create-deliveries.md).
+1. Bepaal de inhoud van uw bericht voor deze taal. Leer meer in deze [ sectie ](../msg/create-deliveries.md).
 
 1. Herhaal deze bewerking voor elke taal.
 
@@ -153,7 +154,7 @@ Volg deze aanbevolen procedures om te zorgen dat CSV-bestanden correct worden ge
 
 >[!NOTE]
 >
->De structuur van de kolom is gedetailleerd in deze [&#x200B; sectie &#x200B;](#csv-columns).
+>De structuur van de kolom is gedetailleerd in deze [ sectie ](#csv-columns).
 
 ### Het CSV-bestand importeren {#csv-steps}
 
@@ -161,17 +162,17 @@ Ga als volgt te werk om taalvarianten uit een CSV-bestand te importeren:
 
 1. Klik in de inhoudseditor voor levering op **[!UICONTROL Add language]** .
 
-   ![&#x200B; Schermafbeelding die de Add taalknoop in de redacteur van de de inhoudsopgave van het dupmelding tonen &#x200B;](assets/multilingual-csv.png){zoomable="yes"}
+   ![ Schermafbeelding die de Add taalknoop in de redacteur van de de inhoudsopgave van het dupmelding tonen ](assets/multilingual-csv.png){zoomable="yes"}
 
 1. Selecteer het CSV-bestand door het naar het uploadgebied te slepen of klik om naar de computer te bladeren.
 
-   Het systeem valideert de bestandsindeling en de inhoud. Als de validatie mislukt, geven foutberichten aan welke kolommen of gegevens onjuist zijn. Los de problemen in uw CSV-bestand op en upload het opnieuw. Zie deze [&#x200B; sectie &#x200B;](#csv-troubleshooting).
+   Het systeem valideert de bestandsindeling en de inhoud. Als de validatie mislukt, geven foutberichten aan welke kolommen of gegevens onjuist zijn. Los de problemen in uw CSV-bestand op en upload het opnieuw. Zie deze [ sectie ](#csv-troubleshooting).
 
-   ![&#x200B; Schermafbeelding die succesvolle bevestiging CSV met alle ingevoerde talen tonen &#x200B;](assets//multilingual-csv2.png){zoomable="yes"}
+   ![ Schermafbeelding die succesvolle bevestiging CSV met alle ingevoerde talen tonen ](assets//multilingual-csv2.png){zoomable="yes"}
 
 1. Controleer de geïmporteerde inhoud in het deelvenster Taalvarianten om te controleren of alle correct geladen vertalingen zijn.
 
-   ![&#x200B; Schermschot die de voorproef van ingevoerde meertalige inhoudvarianten &#x200B;](assets/multilingual-csv3.png){zoomable="yes"} tonen
+   ![ Schermschot die de voorproef van ingevoerde meertalige inhoudvarianten ](assets/multilingual-csv3.png){zoomable="yes"} tonen
 
 ### Kolomstructuur {#csv-columns}
 
@@ -179,7 +180,7 @@ Hier is de juiste kolomstructuur die moet worden gebruikt:
 
 >[!NOTE]
 >
->U kunt een andere volgorde gebruiken, maar alle kolommen moeten aanwezig zijn. Voor meer beste praktijken, zie deze [&#x200B; sectie &#x200B;](#csv-best-practices).
+>U kunt een andere volgorde gebruiken, maar alle kolommen moeten aanwezig zijn. Voor meer beste praktijken, zie deze [ sectie ](#csv-best-practices).
 
 1. **titel**: (Vereiste) titel van het Bericht
 1. **messageBody**: (vereiste) berichtlichaam van het Bericht
@@ -255,5 +256,4 @@ Tijdens levering, vervangt de Campagne deze placeholders met daadwerkelijke ontv
 | Malformed JSON | customFields column contains invalid JSON | Controleer of de JSON-syntaxis correct is: `{"key":"value"}` of laat leeg |
 | Kolomnaam komt niet overeen | Kolomnamen komen niet exact overeen | Kolomnamen zijn hoofdlettergevoelig - gebruik de exacte namen die hierboven worden weergegeven (bijvoorbeeld `badge` , niet `Badge` of `BADGE` ) |
 
->De beste praktijken zijn vermeld in deze [&#x200B; sectie &#x200B;](#csv-best-practices). De structuur van de kolom is gedetailleerd in deze [&#x200B; sectie &#x200B;](#csv-columns).
-
+>De beste praktijken zijn vermeld in deze [ sectie ](#csv-best-practices). De structuur van de kolom is gedetailleerd in deze [ sectie ](#csv-columns).

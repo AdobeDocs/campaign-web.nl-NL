@@ -2,7 +2,8 @@
 audience: end-user
 title: Inhoud-experimenten maken
 description: Leer hoe u experimenten met inhoud maakt in Adobe Campaign Web
-source-git-commit: f772e19fd033b007680777f75b48775b6d7851b9
+exl-id: 476aaaef-c4b2-4007-a050-9b88460435a6
+source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn4"
 >title="Inhoudsexperimenten - A/B-tests"
 >abstract="U kunt nu meerdere leveringsvarianten definiëren om te testen welke het beste presteert. Wijzig de inhoud, het onderwerp of de afzender in e-mailelementen om de beste resultaten te bepalen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
 
 ## Informatie over contentexperimenten {#about-content-experiment}
 
@@ -37,17 +38,17 @@ U kunt A/B tests op diverse e-mailelementen uitvoeren zoals:
 
 Voer de volgende stappen uit om een inhoudexperiment toe te voegen aan uw e-maillevering:
 
-1. Maak een e-maillevering of open een bestaande conceptlevering. [&#x200B; Leer hoe te om een e-mail &#x200B;](create-email.md) tot stand te brengen
+1. Maak een e-maillevering of open een bestaande conceptlevering. [ Leer hoe te om een e-mail ](create-email.md) tot stand te brengen
 
 1. Klik op de knop **[!UICONTROL Create experiment]** in de sectie **[!UICONTROL Content]** vanaf de pagina met eigenschappen voor e-maillevering.
 
-   ![&#x200B; Schermafbeelding die de Create experimenteerknop in e-maileigenschappen toont &#x200B;](assets/ab-testing-1.png){zoomable="yes"}
+   ![ Schermafbeelding die de Create experimenteerknop in e-maileigenschappen toont ](assets/ab-testing-1.png){zoomable="yes"}
 
 ## De experimentele instellingen configureren {#configure-experiment}
 
 Configureer uw experiment met behulp van de volgende secties:
 
-![&#x200B; Schermafbeelding die de Experimentele montages &#x200B;](assets/ab-testing-2.png){zoomable="yes"} toont
+![ Schermafbeelding die de Experimentele montages ](assets/ab-testing-2.png){zoomable="yes"} toont
 
 ### Instellingen voor publiek {#audience-settings}
 
@@ -92,7 +93,7 @@ Bepaal hoe lang het experiment moet lopen en selecteer de verzendende methode:
    * **[!UICONTROL Automatic sending]** geactiveerd: het systeem stuurt de winnende variant automatisch naar het resterende publiek zodra het experiment is beëindigd.
    * **[!UICONTROL Automatic sending]** gedeactiveerd: u moet handmatig op de knop **[!UICONTROL Send]** klikken om de winnende variant te verzenden nadat u de resultaten van het experiment hebt bekeken.
 
-Als geen enkele variant aan het eind van het experiment significant betere resultaten bereikt dan de andere, stuurt het systeem de eerste variant naar de resterende populatie. Zie deze [&#x200B; sectie &#x200B;](#send-deliveries).
+Als geen enkele variant aan het eind van het experiment significant betere resultaten bereikt dan de andere, stuurt het systeem de eerste variant naar de resterende populatie. Zie deze [ sectie ](#send-deliveries).
 
 ## De inhoudsbehandelingen definiëren {#define-content}
 
@@ -100,7 +101,7 @@ Nadat u de instellingen voor het experiment hebt opgeslagen, wordt standaard een
 
 1. Klik op **[!UICONTROL Edit content]** in de leveringseigenschappen. De behandelingen worden links weergegeven.
 
-   ![&#x200B; Schermafbeelding die het paneel van inhoudexperimenten toont &#x200B;](assets/ab-testing-3.png){zoomable="yes"}
+   ![ Schermafbeelding die het paneel van inhoudexperimenten toont ](assets/ab-testing-3.png){zoomable="yes"}
 
 1. Klik op de knop **[!UICONTROL Add treatment]** en definieer de naam ervan. Herhaal deze bewerking voor alle behandelingen die u wilt toevoegen. Vervolgens kunt u de naam wijzigen, de naam dupliceren en verwijderen.
 
@@ -110,7 +111,7 @@ Nadat u de instellingen voor het experiment hebt opgeslagen, wordt standaard een
    * **Onderwerpregel**: Schrijf een unieke onderwerpregel voor elke behandeling
    * **E-maillichaam**: Ontwerp verschillende inhoudsversies gebruikend e-mail Designer
 
-   ![&#x200B; Schermafbeelding die verscheidene behandelingen tonen &#x200B;](assets/ab-testing-4.png){zoomable="yes"}
+   ![ Schermafbeelding die verscheidene behandelingen tonen ](assets/ab-testing-4.png){zoomable="yes"}
 
 1. Geef een voorvertoning van elke behandeling weer door op de behandeling te klikken en vervolgens op **[!UICONTROL Simulate content]** te klikken.
 
@@ -122,7 +123,7 @@ Nadat u al uw inhoudsbehandelingen hebt gedefinieerd, kunt u het experiment vali
 
 1. Klik vervolgens op **[!UICONTROL Start experimentation]** om de A/B-test te starten.
 
-   ![&#x200B; Schermafbeelding die de knoop van het begin experimenteren &#x200B;](assets/ab-testing-5.png){zoomable="yes"} tonen
+   ![ Schermafbeelding die de knoop van het begin experimenteren ](assets/ab-testing-5.png){zoomable="yes"} tonen
 
 1. Wanneer uw experiment is uitgevoerd, controleert u de verschillende meetgegevens die worden weergegeven in het dashboard voor levering.
 
@@ -134,7 +135,7 @@ Tijdens het experiment kunt u op **[!UICONTROL Stop sending]** klikken om het ex
 
 ## De leveringen verzenden {#send-deliveries}
 
-Verzenden kan automatisch of handmatig worden uitgevoerd, afhankelijk van wat u hebt gekozen in de instellingen van **[!UICONTROL Winner sending method]** . Zie deze [&#x200B; sectie &#x200B;](#sending-method).
+Verzenden kan automatisch of handmatig worden uitgevoerd, afhankelijk van wat u hebt gekozen in de instellingen van **[!UICONTROL Winner sending method]** . Zie deze [ sectie ](#sending-method).
 
 ### Automatisch verzenden {#automatic-sending}
 
