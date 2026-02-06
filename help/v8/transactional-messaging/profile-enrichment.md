@@ -16,7 +16,7 @@ ht-degree: 1%
 >id="acw_homepage_welcome_rn2"
 >title="Profielverrijking"
 >abstract="U kunt transactionele berichten nu personaliseren door de gegevensbestandgebieden van de Campagne aan inhoud te verbinden. Selecteer doeltoewijzingen, verrijkingskolommen en afstemmingssleutels voor nauwkeurige realtime personalisatie."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 Met deze functie kunt u transactieberichten personaliseren door Adobe Campaign-databasevelden aan berichtinhoud te koppelen. U kunt doeltoewijzingen, verrijkingskolommen, en een verzoeningssleutel selecteren om nauwkeurige, real-time verpersoonlijking te verzekeren terwijl het handhaven van prestatiesdrempels.
 

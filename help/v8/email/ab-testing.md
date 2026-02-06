@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn4"
 >title="Inhoudsexperimenten - A/B-tests"
 >abstract="U kunt nu meerdere leveringsvarianten definiëren om te testen welke het beste presteert. Wijzig de inhoud, het onderwerp of de afzender in e-mailelementen om de beste resultaten te bepalen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 ## Informatie over contentexperimenten {#about-content-experiment}
 

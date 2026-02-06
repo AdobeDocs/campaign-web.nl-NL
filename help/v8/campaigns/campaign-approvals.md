@@ -17,7 +17,7 @@ ht-degree: 1%
 >id="acw_homepage_welcome_rn6"
 >title="Goedkeuringsbeheer voor campagnes"
 >abstract="U kunt nu de validatie van belanghebbenden coördineren voordat u leveringen verzendt. Vereisen goedkeuring van marketingmanagers, gegevensanalisten of andere teams voor kwaliteitscontrole."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 >[!IMPORTANT]
 >

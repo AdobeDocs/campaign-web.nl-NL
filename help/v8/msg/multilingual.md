@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn1"
 >title="Meertalige leveringen"
 >abstract="U kunt berichten in veelvoudige talen in het Web UI van de Campagne nu verzenden. Voor pushberichten vult u alle taalvarianten door een CSV-bestand te uploaden."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_deliveries_email_multilingual"
