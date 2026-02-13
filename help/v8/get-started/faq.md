@@ -11,11 +11,11 @@ ht-degree: 4%
 
 # Veelgestelde vragen
 
-In de volgende sectie worden veelgestelde vragen over de nieuwe interface Campagne weergegeven. Hebt u nog meer vragen? Wilt u uw ervaring delen of gedachten uitwisselen met uw collega&#39;s? Of hebt u feedback over de leercontent voor het Adobe-team? Sluit me aan bij het gesprek in de [&#x200B; gemeenschap van Adobe Campaign &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community){target="_blank"}.
+In de volgende sectie worden veelgestelde vragen over de nieuwe interface Campagne weergegeven. Hebt u nog meer vragen? Wilt u uw ervaring delen of gedachten uitwisselen met uw collega&#39;s? Of hebt u feedback over de leercontent voor het Adobe-team? Sluit me aan bij het gesprek in de [&#x200B; gemeenschap van Adobe Campaign &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-v7/ct-p/adobe-campaign-classic-community?profile.language=nl){target="_blank"}.
 
 +++ Welke versie van Adobe Campaign moet ik zijn om tot het nieuwe Web gebruikersinterface toegang te hebben?
 
-Om tot het nieuwe gebruikersinterface toegang te hebben, wordt versie 8.6 van Adobe Campaign vereist, en [&#x200B; Adobe Identity Management Systeem (IMS) &#x200B;](https://helpx.adobe.com/enterprise/using/identity.html){target="_blank"} is verplicht. De extra informatie over IMS kan [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims){target="_blank"} worden herzien. Neem contact op met de toegewezen Overgangsmanager voor klanten van Adobe Campaign Managed Cloud Services die aanvullende informatie willen over de upgrade naar de nieuwe release.
+Om tot het nieuwe gebruikersinterface toegang te hebben, wordt versie 8.6 van Adobe Campaign vereist, en [&#x200B; Adobe Identity Management Systeem (IMS) &#x200B;](https://helpx.adobe.com/nl/enterprise/using/identity.html){target="_blank"} is verplicht. De extra informatie over IMS kan [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims){target="_blank"} worden herzien. Neem contact op met de toegewezen Overgangsmanager voor klanten van Adobe Campaign Managed Cloud Services die aanvullende informatie willen over de upgrade naar de nieuwe release.
 
 +++
 
@@ -29,7 +29,7 @@ Om over waar te leren begonnen worden, bezoek [&#x200B; deze pagina &#x200B;](..
 
 De nieuwe gebruikersinterface in Adobe Campaign v8 zorgt voor consistentie met Adobe Experience Platform en is ontworpen voor marketingefficiëntie. De nieuwe werkstroomcanvas biedt een intuïtieve en geavanceerde werkruimte voor publiekscompositie, workflowbeheer en inhoudsontwerp, en geïntegreerde gebruiksscenario&#39;s met eigen Adobe Experience Platform-toepassingen zoals Journey Optimizer en Real-Time CDP. Creatief maken, productiviteit verhogen en kanaalcampagnes op schaal personaliseren met AI Assistant, native ingesloten in de WYSIWYG-berichtenontwerper.
 
-Marketers kunnen generatieve AI gebruiken voor volledige HTML-e-mailidentificatie, het genereren van tekst en afbeeldingen met verfijning en variantsuggesties. De nieuwe eigenschappen en de mogelijkheden kunnen op [&#x200B; worden herzien deze pagina &#x200B;](../rn/whats-new.md). Om meer over de nieuwe interface te leren en het in actie te zien, bezoek [&#x200B; deze pagina &#x200B;](../get-started/user-interface.md). Bovendien, bezoek de [&#x200B; Zelfstudies &#x200B;](https://experienceleague.adobe.com/en/docs/campaign-web-learn/tutorials/overview){target="_blank"} om meer over de nieuwe interface door een reeks hoe te video&#39;s te leren.
+Marketers kunnen generatieve AI gebruiken voor volledige HTML-e-mailidentificatie, het genereren van tekst en afbeeldingen met verfijning en variantsuggesties. De nieuwe eigenschappen en de mogelijkheden kunnen op [&#x200B; worden herzien deze pagina &#x200B;](../rn/whats-new.md). Om meer over de nieuwe interface te leren en het in actie te zien, bezoek [&#x200B; deze pagina &#x200B;](../get-started/user-interface.md). Bovendien, bezoek de [&#x200B; Zelfstudies &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign-web-learn/tutorials/overview){target="_blank"} om meer over de nieuwe interface door een reeks hoe te video&#39;s te leren.
 
 +++
 
@@ -47,13 +47,13 @@ De veranderingen en de nieuwe eigenschappen worden aangekondigd in de versienota
 
 +++ Ik ben momenteel in Adobe Campaign Classic v7 - wat is mijn pad voor toegang tot de nieuwe gebruikersinterface?
 
-Voor toegang tot de nieuwe gebruikersinterface moet u zich op Adobe Campaign v8.6 bevinden en verbinding maken met Campagne met uw Adobe ID. De eerste stap bestaat uit een licentie voor Managed Cloud Services, Advanced of Enterprise SKU&#39;s. Neem contact op met uw Adobe-team of het primaire contactpunt. Als u al werkt met Beheerde Cloud Services Advanced of Enterprise, neemt u contact op met uw Overgangsmanager om de upgrade naar v8 te plannen. Bezoek de specifieke [&#x200B; Pagina van de Overgang &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"} voor extra informatie.
+Voor toegang tot de nieuwe gebruikersinterface moet u zich op Adobe Campaign v8.6 bevinden en verbinding maken met Campagne met uw Adobe ID. De eerste stap bestaat uit een licentie voor Managed Cloud Services, Advanced of Enterprise SKU&#39;s. Neem contact op met uw Adobe-team of het primaire contactpunt. Als u al werkt met Beheerde Cloud Services Advanced of Enterprise, neemt u contact op met uw Overgangsmanager om de upgrade naar v8 te plannen. Bezoek de specifieke [&#x200B; Pagina van de Overgang &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"} voor extra informatie.
 
 +++
 
 +++ Ik ben momenteel op Adobe Campaign Classic v7 Hybrid of op gebouw - wat is mijn weg om tot de nieuwe gebruikersinterface toegang te hebben?
 
-Voor toegang tot de nieuwe gebruikersinterface moet u zich op Adobe Campaign v8.6 bevinden en verbinding maken met Campagne met uw Adobe ID. De eerste stap bestaat uit het in licentie geven op &#39;Managed Cloud Services Advanced&#39; of Enterprise-SKU&#39;s en het vervolgens migreren naar de cloud met de hulp van Adobe Consulting of een partner. Neem contact op met het contactpunt van Adobe. Leer meer in de specifieke [&#x200B; Pagina van de Overgang &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}.
+Voor toegang tot de nieuwe gebruikersinterface moet u zich op Adobe Campaign v8.6 bevinden en verbinding maken met Campagne met uw Adobe ID. De eerste stap bestaat uit het in licentie geven op &#39;Managed Cloud Services Advanced&#39; of Enterprise-SKU&#39;s en het vervolgens migreren naar de cloud met de hulp van Adobe Consulting of een partner. Neem contact op met het contactpunt van Adobe. Leer meer in de specifieke [&#x200B; Pagina van de Overgang &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/new/v7-to-v8){target="_blank"}.
 
 +++
 
@@ -77,6 +77,6 @@ Momenteel zijn alle functies beschikbaar via de console als deze niet beschikbaa
 
 +++ Zijn er aanwijzingen of beperkingen van de nieuwe webgebruikersinterface?
 
-De begeleiding en de beperkingen voor Campagne v8 zijn vermeld [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. Daarnaast zijn specifieke instructies van toepassing op workflows in de webgebruikersinterface. Zij kunnen op [&#x200B; worden herzien deze pagina &#x200B;](../get-started/guardrails.md). Zie ook [&#x200B; Adobe Campaign Managed Cloud Services | Productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} .
+De begeleiding en de beperkingen voor Campagne v8 zijn vermeld [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/releases/ac-guardrails){target="_blank"}. Daarnaast zijn specifieke instructies van toepassing op workflows in de webgebruikersinterface. Zij kunnen op [&#x200B; worden herzien deze pagina &#x200B;](../get-started/guardrails.md). Zie ook [&#x200B; Adobe Campaign Managed Cloud Services | Productbeschrijving &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} .
 
 +++
