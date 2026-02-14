@@ -59,7 +59,7 @@ Voor toegang tot de nieuwe gebruikersinterface moet u zich op Adobe Campaign v8.
 
 +++ Betekent dit dat er een einde komt aan de steun voor Adobe Campaign Classic v7?
 
-Bezoek de [&#x200B; Producten en de technische steunperiodes &#x200B;](https://helpx.adobe.com/support/programs/eol-matrix.html){target="_blank"} pagina voor Adobe Campaign Classic v7 eind-van-steundata.
+Bezoek de [&#x200B; Producten en de technische steunperiodes &#x200B;](https://helpx.adobe.com/nl/support/programs/eol-matrix.html){target="_blank"} pagina voor Adobe Campaign Classic v7 eind-van-steundata.
 
 +++
 
