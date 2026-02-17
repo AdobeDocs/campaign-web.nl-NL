@@ -99,7 +99,7 @@ De punten die in **worden getoond Verkenner** hangen van uw gebruikerstoestemmin
 
 U kunt kolommen vormen om de vertoning aan te passen om alle informatie te bekijken u wenst. Zie deze [&#x200B; sectie &#x200B;](#list-screens). U kunt omslagen en sub-omslagen, zoals die in [&#x200B; worden gedetailleerd ook toevoegen deze sectie &#x200B;](permissions.md#folders).
 
-Voor meer informatie over de ontdekkingsreiziger van de Campagne, omslaghiërarchie, en middelen, verwijs naar deze [&#x200B; Campagne v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html#ac-explorer-ui){target="_blank"}.
+Voor meer informatie over de ontdekkingsreiziger van de Campagne, omslaghiërarchie, en middelen, verwijs naar deze [&#x200B; Campagne v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/new/campaign-ui.html?lang=nl-NL#ac-explorer-ui){target="_blank"}.
 
 ### Campagnebeheer {#user-interface-campaign-management}
 
@@ -131,7 +131,7 @@ In de **het beheersings** sectie van de Klant, kunt u uw profielen, publiek, en 
 
 * **Profielen** - creeer en beheer profielen, en toegang tot uw ontvankelijk gegevensbestand. Standaard kunt u hun e-mailadres, voornaam en achternaam weergeven. Leer meer over profielen in [&#x200B; deze sectie &#x200B;](../audience/about-recipients.md).
 * **Soorten publiek** - dit is uw lijst van publiek. Standaard kunt u het type, de oorsprong, het maken, de laatste wijzigingsdatums en het label weergeven. U kunt de lijst filteren op oorsprong. Leer meer over publiek en lijsten in [&#x200B; deze sectie &#x200B;](../audience/about-recipients.md).
-* **de diensten van het Abonnement** - doorblader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Leer hoe te om abonnementen en abonnementen in [&#x200B; Adobe Campaign v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html){target="_blank"} te beheren.
+* **de diensten van het Abonnement** - doorblader door uw abonnementenlijsten. Standaard kunt u het type, de modus en het label ervan bekijken. Leer hoe te om abonnementen en abonnementen in [&#x200B; Adobe Campaign v8 (console) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/send/subscriptions.html?lang=nl-NL){target="_blank"} te beheren.
 * **Vooraf bepaalde filters** - de Vooraf bepaalde filters zijn douanefilters die worden gecreeerd en worden bewaard om voor toekomstig gebruik beschikbaar te zijn. Zij kunnen als kortere weg tijdens om het even welke het filtreren verrichtingen met de vraagmodelleeraar, bijvoorbeeld, worden gebruikt wanneer het filtreren van een lijst van gegevens of het creëren van het publiek van een levering. Lees meer in [deze sectie](predefined-filters.md).
 
 ### Beslissingsbeheer {#decision-management}
@@ -140,7 +140,7 @@ In de **het beheersings** sectie van de Klant, kunt u uw profielen, publiek, en 
 >id="acw_offers_list"
 >title="Aanbiedingen"
 >abstract="Blader door de lijsten van aanbiedingen en aanbiedingsmalplaatjes die in de console gebruikend de **module van de Interactie** zijn gecreeerd. Deze lijsten zijn alleen-lezen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html" text="Aanbiedingen toevoegen aan een levering"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/msg/offers.html?lang=nl-NL" text="Aanbiedingen toevoegen aan een levering"
 
 In de **sectie van het Beheer van het Besluit**, kunt u de aanbiedingen bekijken en malplaatjes aanbieden. Deze lijsten zijn alleen-lezen.
 
