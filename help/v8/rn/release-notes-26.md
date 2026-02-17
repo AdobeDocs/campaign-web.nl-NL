@@ -10,7 +10,7 @@ ht-degree: 9%
 
 # Opmerkingen bij de release 2026 {#2026-release}
 
-Deze pagina maakt een lijst van alle veranderingen en verbeteringen beschikbaar met **2026 versies**. De recentste versienota&#39;s zijn beschikbaar in [ deze pagina ](release-notes.md).
+Deze pagina maakt een lijst van alle veranderingen en verbeteringen beschikbaar met **2026 versies**. De recentste versienota&#39;s zijn beschikbaar in [&#x200B; deze pagina &#x200B;](release-notes.md).
 
 ## Release januari 1926 {#26-1-release}
 
