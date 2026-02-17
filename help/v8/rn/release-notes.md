@@ -2,10 +2,10 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 4e671c438092342b6a53dd8ef3df8276b08d36a3
+source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 1%
+source-wordcount: '274'
+ht-degree: 8%
 
 ---
 
@@ -66,7 +66,7 @@ _feb 17, 2026_
 <tr>
 <td>
 <p>De campagnevoorraad bevat nu een tijdlijnweergave waarmee u campagnes in de loop van de tijd kunt visualiseren en beheren: schakelen tussen lijst en tijdlijn, navigeren per week, maand of dag, de knop Vandaag gebruiken om naar de huidige datum te gaan en campagnedetails (status, workflows, leveringen) openen in een rechterdeelvenster—met dezelfde filters en zoekopdracht als de lijstweergave.</p>
-<!--p>For more information, refer to the detailed documentation.</p-->
+<p>Raadpleeg de <a href="../campaigns/manage-campaigns.md#timeline">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
@@ -82,16 +82,16 @@ _feb 17, 2026_
 <tr>
 <td>
 <p>U kunt schema's van het Web van de Campagne direct tot stand brengen en beheren Gebruikersinterface. Met deze functie kunt u nieuwe tabellen maken, bestaande schema's uitbreiden en aangepaste formulieren maken. U kunt de structuren van douanegegevens bepalen om uw specifieke bedrijfsbehoeften te steunen zonder toegang tot de Console van de Cliënt te vereisen.</p>
-<!--p>For more information, refer to the <a href="../administration/schemas.md">detailed documentation</a>.</p-->
+<p>Raadpleeg de <a href="../administration/schemas.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### Verbeteringen {#26-2-improvements}
+### Verbetering {#26-2-improvements}
 
 * De richtlijnen voor merken bevatten nu een sectie Kleuren waarin standaarden voor het kleursysteem van uw merk worden gedefinieerd, zodat u overal waar u werkt altijd dezelfde primaire, secundaire, accentueerde en neutrale kleuren gebruikt.
-  <!--[Learn more](../content/brands-personalize.md)-->
+  [Meer informatie](../content/brands-personalize.md)
 
 
 
