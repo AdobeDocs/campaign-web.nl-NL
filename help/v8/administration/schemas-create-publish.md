@@ -21,13 +21,13 @@ Een schema maken of uitbreiden:
 1. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Schemas]**.
 1. Klik op **[!UICONTROL Create schema]**.
 
-   ![ de aanmaakdialoog van het Schema ](assets/schemas-create1.png)
+   ![&#x200B; de aanmaakdialoog van het Schema &#x200B;](assets/schemas-create1.png)
 
 1. Voer een naamruimte in voor uw schema (bijvoorbeeld `cus` voor aangepaste schema&#39;s).
 1. Voer een unieke naam en een uniek label in en kies of u een nieuw schema wilt maken of een bestaand schema wilt uitbreiden.
 
 1. Klik op **[!UICONTROL Create]**.
-   ![ de aanmaakdialoog van het Schema ](assets/schemas-create2.png)
+   ![&#x200B; de aanmaakdialoog van het Schema &#x200B;](assets/schemas-create2.png)
 
 Het schema wordt gecreeerd en de geproduceerde schemastructuur wordt getoond.
 
@@ -36,7 +36,7 @@ Het schema is standaard leeg. U moet nu de gebieden toevoegen u in uw schema wil
 1. Klik op het potloodpictogram in de sectie **[!UICONTROL Content]** van het scherm Schema-details.
 2. Voeg de benodigde elementen toe en sla deze op. Hier volgt een voorbeeld van een aangepaste schemastructuur:
 
-   ![ de aanmaakdialoog van het Schema ](assets/schemas-create3.png)
+   ![&#x200B; de aanmaakdialoog van het Schema &#x200B;](assets/schemas-create3.png)
 
 Het systeem valideert automatisch de XML-structuur en genereert het schema.
 
@@ -44,7 +44,7 @@ Het systeem valideert automatisch de XML-structuur en genereert het schema.
 
 Nadat u het schema hebt gemaakt, moet u de schermeditie definiëren.
 
-Voor meer informatie over het scherm van de het schermdefinitie en hoe te om tot het toegang te hebben, verwijs naar [ toegang tot de sectie van de het schermdefinitie ](schemas-browse-access.md#screen-def).
+Voor meer informatie over het scherm van de het schermdefinitie en hoe te om tot het toegang te hebben, verwijs naar [&#x200B; toegang tot de sectie van de het schermdefinitie &#x200B;](schemas-browse-access.md#screen-def).
 
 In ons voorbeeld voegen we gewoon twee aangepaste velden toe:
 
@@ -53,7 +53,7 @@ In ons voorbeeld voegen we gewoon twee aangepaste velden toe:
 1. Klik op het pictogram van de ovaal boven de tabel **[!UICONTROL List of custom fields]** en kies **[!UICONTROL Select attributes]** .
 1. Selecteer de aangepaste velden die u wilt toevoegen en bevestigen.
 
-   ![ de aanmaakdialoog van het Schema ](assets/schemas-create4.png)
+   ![&#x200B; de aanmaakdialoog van het Schema &#x200B;](assets/schemas-create4.png)
 
 ## Schema&#39;s publiceren en synchroniseren {#publish}
 
@@ -70,11 +70,11 @@ Uw schemawijzigingen publiceren:
 1. Navigeer naar **[!UICONTROL Administration]** > **[!UICONTROL Schemas]** om het schema te openen.
 1. Klik op **[!UICONTROL Publishing]** en bevestig het.
 
-   ![ de publicatiedialoog die van het Schema veranderingen toont om worden toegepast ](assets/schemas-publish1.png)
+   ![&#x200B; de publicatiedialoog die van het Schema veranderingen toont om worden toegepast &#x200B;](assets/schemas-publish1.png)
 
 1. Selecteer in de lijst het schema dat u wilt synchroniseren.
 
-   ![ de publicatiedialoog die van het Schema veranderingen toont om worden toegepast ](assets/schemas-publish2.png)
+   ![&#x200B; de publicatiedialoog die van het Schema veranderingen toont om worden toegepast &#x200B;](assets/schemas-publish2.png)
 
 1. Controleer het SQL-script dat wordt uitgevoerd om de databasestructuur bij te werken.
 1. Klik op **[!UICONTROL Publish]** en bevestig om door te gaan met de publicatie.
@@ -89,9 +89,9 @@ Na het publiceren van een douaneschema, kunt u een navigatieingang in de Ontdekk
 
 1. Navigeer naar het menu **[!UICONTROL Explorer]** en selecteer een map waarin u het aangepaste schema wilt plaatsen.
 1. Klik op het pictogram voor de ovaal en klik op **[!UICONTROL Create new folder]** .
-   ![ de ingangsverwezenlijking van de Navigatie voor douaneschema ](assets/schemas-publish3.png)
+   ![&#x200B; de ingangsverwezenlijking van de Navigatie voor douaneschema &#x200B;](assets/schemas-publish3.png)
 1. Voeg een label toe en kies uw schema in het **[!UICONTROL Folder type]** gebied.
-   ![ de ingangsverwezenlijking van de Navigatie voor douaneschema ](assets/schemas-publish5.png)
+   ![&#x200B; de ingangsverwezenlijking van de Navigatie voor douaneschema &#x200B;](assets/schemas-publish5.png)
 1. Het aangepaste schema is nu toegankelijk vanuit de weergave **[!UICONTROL Explorer]** .
 
 Vanuit de nieuwe map kunt u:

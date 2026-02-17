@@ -20,7 +20,7 @@ Aangepaste formulieren zijn gebaseerd op de formulierdefinitie (schermdefinitie)
 
 ## Aangepaste schema&#39;s maken en publiceren {#form-schema}
 
-U moet eerst uw aangepaste schema&#39;s maken en publiceren. Voor gedetailleerde instructies, verwijs naar deze [ sectie ](schemas-create-publish.md).
+U moet eerst uw aangepaste schema&#39;s maken en publiceren. Voor gedetailleerde instructies, verwijs naar deze [&#x200B; sectie &#x200B;](schemas-create-publish.md).
 
 Hier volgt het gegevensmodel dat voor dit voorbeeld wordt gebruikt:
 
@@ -30,26 +30,26 @@ Hier volgt het gegevensmodel dat voor dit voorbeeld wordt gebruikt:
 
 Voor dit gebruik worden drie schema&#39;s gemaakt: de schema&#39;s Aankopen, Producten en Merk. Hier volgt een voorbeeld:
 
-![ de vormen van de Douane ](assets/schemas-forms.png)
+![&#x200B; de vormen van de Douane &#x200B;](assets/schemas-forms.png)
 
 ## Schermdefinitie configureren {#form-screen-schema}
 
-Bepaal welke velden worden weergegeven en hoe deze worden ingedeeld. Voor gedetailleerde instructies, verwijs naar deze [ sectie ](schemas-browse-access.md#screen-def).
+Bepaal welke velden worden weergegeven en hoe deze worden ingedeeld. Voor gedetailleerde instructies, verwijs naar deze [&#x200B; sectie &#x200B;](schemas-browse-access.md#screen-def).
 
 Hier is een voorbeeld voor het schema van het Merk waar de de douanelijst van Producten wordt toegevoegd. Het formulier bevat vervolgens een lijst met producten die aan het merk zijn gekoppeld.
 
-![ de vormen van de Douane ](assets/schemas-forms2.png)
+![&#x200B; de vormen van de Douane &#x200B;](assets/schemas-forms2.png)
 
 Voor het schema van Producten, voegen wij de Aankopen douanelijst toe. En voor het schema van Aankopen, de gebieden van het Product en van de Ontvanger.
 
 ## Navigatie-items maken {#form-screen-entries}
 
-Maak mappen in de Verkenner voor toegang tot uw aangepaste formulier. Voor gedetailleerde instructies, verwijs naar deze [ sectie ](schemas-create-publish.md#navigation).
+Maak mappen in de Verkenner voor toegang tot uw aangepaste formulier. Voor gedetailleerde instructies, verwijs naar deze [&#x200B; sectie &#x200B;](schemas-create-publish.md#navigation).
 
-![ de vormen van de Douane ](assets/schemas-forms3.png)
+![&#x200B; de vormen van de Douane &#x200B;](assets/schemas-forms3.png)
 
 In de lijstweergave worden alle records voor dat schema weergegeven. Als voor het schema een formulierdefinitie is geconfigureerd, is de lijst bewerkbaar en kunt u records maken, bewerken en verwijderen.
-![ de vormen van de Douane ](assets/schemas-forms4.png)
+![&#x200B; de vormen van de Douane &#x200B;](assets/schemas-forms4.png)
 
 U kunt dan:
 

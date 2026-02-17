@@ -12,13 +12,13 @@ ht-degree: 0%
 
 Schema&#39;s zijn toegankelijk via het menu **[!UICONTROL Administration]** > **[!UICONTROL Schemas]** .
 
-![ het lijstscherm van Schema&#39;s die beschikbare schema&#39;s en filters tonen ](assets/schemas-list.png)
+![&#x200B; het lijstscherm van Schema&#39;s die beschikbare schema&#39;s en filters tonen &#x200B;](assets/schemas-list.png)
 
 Vanuit dit scherm kunt u alle bestaande schema&#39;s weergeven. Er zijn filters beschikbaar waarmee u de lijst kunt verfijnen, zoals alleen bewerkbare schema&#39;s weergeven.
 
 Als u een schema wilt openen, selecteert u de naam ervan. Er wordt een gedetailleerde schemaweergave weergegeven.
 
-![ het detailscherm van het Schema die schemaeigenschappen en inhoud tonen ](assets/schema-details.png)
+![&#x200B; het detailscherm van het Schema die schemaeigenschappen en inhoud tonen &#x200B;](assets/schema-details.png)
 
 ## Overzicht van schema {#overview}
 
@@ -36,7 +36,7 @@ Het tabblad **[!UICONTROL Overview]** biedt een algemene weergave van het schema
 
 Het tabblad **[!UICONTROL Data]** bevat informatie over de schemagegevens.
 
-![ de gegevenslusje van het Schema die gegevensstructuur en attributen tonen ](assets/schemas-data.png)
+![&#x200B; de gegevenslusje van het Schema die gegevensstructuur en attributen tonen &#x200B;](assets/schemas-data.png)
 
 ## Schermweergave aanpassen {#screen-def}
 
@@ -46,18 +46,18 @@ De schermdefinitie openen:
 
 1. Blader naar het menu **[!UICONTROL Schemas]** en zoek bewerkbare schema&#39;s met de filters.
 
-   ![ het lijstscherm van Schema&#39;s die beschikbare schema&#39;s en filters tonen ](assets/schemas-list2.png)
+   ![&#x200B; het lijstscherm van Schema&#39;s die beschikbare schema&#39;s en filters tonen &#x200B;](assets/schemas-list2.png)
 
 1. Selecteer de schemanaam in de lijst om het te openen en de **[!UICONTROL Screen edition]** knoop in de mening van schemadetails te klikken om tot de het schermdefinitie toegang te hebben.
 
-   ![ het lijstscherm van Schema&#39;s die beschikbare schema&#39;s en filters tonen ](assets/schemas-list3.png)
+   ![&#x200B; het lijstscherm van Schema&#39;s die beschikbare schema&#39;s en filters tonen &#x200B;](assets/schemas-list3.png)
 
    Met de verschillende lijsten kunt u elementen opnieuw ordenen met de pictogrammen Pijl-omhoog en Pijl-omlaag of door ze te slepen en neer te zetten. Als u items wilt verwijderen, klikt u op het prullenbakpictogram op een bepaalde rij of selecteert u **[!UICONTROL Delete all]** in het ellipspictogram.
 
-   ![ de definitie van het Scherm Algemene sectie ](assets/schemas-general.png)
+   ![&#x200B; de definitie van het Scherm Algemene sectie &#x200B;](assets/schemas-general.png)
 
 Vanuit de schermdefinitie kunt u:
 
-* [ vorm standaardlijstkolommen ](schemas-list-columns.md) - vorm welke kolommen door gebrek in lijstmeningen worden getoond.
-* [ geef douanegebieden ](schemas-custom-fields.md) uit - vorm welke douanegebieden op detailschermen worden getoond en organiseer hen in secties.
-* [ voeg inzamelingslijsten ](schemas-collection-lists.md) toe - voeg inzamelingslijsten toe om verwante gegevens in profielschermen te tonen.
+* [&#x200B; vorm standaardlijstkolommen &#x200B;](schemas-list-columns.md) - vorm welke kolommen door gebrek in lijstmeningen worden getoond.
+* [&#x200B; geef douanegebieden &#x200B;](schemas-custom-fields.md) uit - vorm welke douanegebieden op detailschermen worden getoond en organiseer hen in secties.
+* [&#x200B; voeg inzamelingslijsten &#x200B;](schemas-collection-lists.md) toe - voeg inzamelingslijsten toe om verwante gegevens in profielschermen te tonen.

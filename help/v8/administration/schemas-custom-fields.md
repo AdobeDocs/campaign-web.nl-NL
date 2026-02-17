@@ -14,7 +14,7 @@ Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console a
 
 Aangepaste velden kunnen op verschillende schermen worden weergegeven, zoals profieldetails in de interface. U kunt bepalen welke velden zichtbaar zijn en hoe ze in de interface worden weergegeven.
 
-Voor meer informatie over het scherm van de het schermdefinitie en hoe te om tot het toegang te hebben, verwijs naar [ toegang tot de sectie van de het schermdefinitie ](schemas-browse-access.md#screen-def).
+Voor meer informatie over het scherm van de het schermdefinitie en hoe te om tot het toegang te hebben, verwijs naar [&#x200B; toegang tot de sectie van de het schermdefinitie &#x200B;](schemas-browse-access.md#screen-def).
 
 Aangepaste velden toevoegen aan de lijst:
 
@@ -23,10 +23,10 @@ Aangepaste velden toevoegen aan de lijst:
 1. Selecteer de schemanaam in de lijst om het te openen en de **[!UICONTROL Screen edition]** knoop in de mening van schemadetails te klikken om tot de het schermdefinitie toegang te hebben.
 
 1. Klik op het pictogram van de ovaal boven de **[!UICONTROL List of custom fields]** -tabel en kies **[!UICONTROL Select attributes]** om een of meerdere aangepaste velden te selecteren die in de interface moeten worden weergegeven.
-   ![ het scherm van de gebieden van de Douane die editable attributen tonen ](assets/schemas-custom5.png)
+   ![&#x200B; het scherm van de gebieden van de Douane die editable attributen tonen &#x200B;](assets/schemas-custom5.png)
 1. Selecteer de aangepaste velden die u wilt toevoegen en bevestigen.
 
-   ![ het scherm van de gebieden van de Douane die editable attributen tonen ](assets/schemas-custom2.png)
+   ![&#x200B; het scherm van de gebieden van de Douane die editable attributen tonen &#x200B;](assets/schemas-custom2.png)
 
    >[!NOTE]
    >
@@ -38,7 +38,7 @@ Nadat u aangepaste velden hebt toegevoegd, kunt u deze voorvertonen, opnieuw ran
 
 Als u specifieke instellingen voor elk aangepast veld wilt configureren, klikt u op het pictogram met de ellips op een veldrij in de lijst en selecteert u **[!UICONTROL Edit]** .
 
-![ de instellingendialoog van Attributen ](assets/schemas-attribute-settings.png)
+![&#x200B; de instellingendialoog van Attributen &#x200B;](assets/schemas-attribute-settings.png)
 
 Beschikbare instellingen zijn:
 
@@ -55,7 +55,7 @@ Beschikbare instellingen zijn:
 
   In het onderstaande voorbeeld controleert de voorwaarde of de waarde van het veld @ref overeenkomt met de waarde die is ingevoerd in het veld @refCom. Als u daarentegen `@refCom` in plaats van `$(@refCom)` gebruikt, verwijst u naar de waarde van het veld @ref zoals dit in de database bestaat.
 
-  ![ Schermafbeelding die een voorbeeld van filtermontages voor douanegebieden toont ](assets/custom-fields-ref.png)
+  ![&#x200B; Schermafbeelding die een voorbeeld van filtermontages voor douanegebieden toont &#x200B;](assets/custom-fields-ref.png)
 
   +++
 
@@ -65,7 +65,7 @@ Beschikbare instellingen zijn:
 
 Klik op **[!UICONTROL Preview]** om de aangepaste velden in een voorbeeldscherm weer te geven. Zo kunt u zien hoe de velden in de interface worden weergegeven, inclusief welke velden als verplicht zijn gemarkeerd.
 
-![ Voorproef douanegebieden ](assets/schemas-custom4.png)
+![&#x200B; Voorproef douanegebieden &#x200B;](assets/schemas-custom4.png)
 
 ## Velden indelen in subsecties {#separator}
 
@@ -77,7 +77,7 @@ Voor betere leesbaarheid kunt u scheidingstekens toevoegen aan aangepaste velden
 
 1. Voer een **[!UICONTROL Label]** in voor het scheidingsteken en (optioneel) stel een **[!UICONTROL Visible if]** -voorwaarde in om te bepalen wanneer het scheidingsteken wordt weergegeven.
 
-   ![ de eigenschappendialoog van de Scheiding ](assets/schemas-custom3.png)
+   ![&#x200B; de eigenschappendialoog van de Scheiding &#x200B;](assets/schemas-custom3.png)
 
 1. Gebruik de pijlen omhoog en omlaag om het scheidingsteken naar de gewenste locatie te verplaatsen. Velden die onder het scheidingsteken worden weergegeven, worden erin gegroepeerd.
 
@@ -85,4 +85,4 @@ Voor betere leesbaarheid kunt u scheidingstekens toevoegen aan aangepaste velden
 
    | Configuratie van aangepaste velden | Renderen in de interface |
    |  ---  |  ---  |
-   | ![ Schermschot die de configuratie van een separator ](assets/custom-fields-separator.png){zoomable="yes"} tonen | ![ Schermschot die het teruggeven van een onderafdeling in de interface tonen ](assets/custom-fields-section.png){zoomable="yes"} |
+   | ![&#x200B; Schermschot die de configuratie van een separator &#x200B;](assets/custom-fields-separator.png){zoomable="yes"} tonen | ![&#x200B; Schermschot die het teruggeven van een onderafdeling in de interface tonen &#x200B;](assets/custom-fields-section.png){zoomable="yes"} |
