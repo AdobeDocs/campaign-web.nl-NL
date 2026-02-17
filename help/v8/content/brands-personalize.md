@@ -4,9 +4,10 @@ title: Merk beheren
 description: Leer hoe u uw merkrichtlijnen kunt aanpassen
 role: User
 level: Beginner, Intermediate
-source-git-commit: 36d2b7a67ef087d628151199a223ceee54f84180
+exl-id: e02f8137-d6a8-46ec-a317-2ac5fb5d0c48
+source-git-commit: 3426490deea7dc8653b30f29c530ecc21b52f7b6
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -18,8 +19,9 @@ Om een uitvoerige merkkit te creëren die consistentie over al uw inhoud en kana
 * **[!UICONTROL About the brand]** stelt de belangrijkste identiteit en waarden van uw merk vast.
 * **[!UICONTROL Writing style]** definieert taal- en inhoudsstandaarden.
 * **[!UICONTROL Visual content]** stelt richtlijnen voor afbeeldingen en ontwerpen in.
+* **[!UICONTROL Colors]** beheert het kleursysteem en het gebruik van uw merk.
 
-Zodra gevormd, kunt u uw merkrichtlijnen gebruiken om inhoudskwaliteit en merkgroepering te bevestigen. [&#x200B; leer meer over de bevestiging van de inhoudskwaliteit &#x200B;](brands-score.md#validate-quality)
+Zodra gevormd, kunt u uw merkrichtlijnen gebruiken om inhoudskwaliteit en merkgroepering te bevestigen. [ leer meer over de bevestiging van de inhoudskwaliteit ](brands-score.md#validate-quality)
 
 ## Informatie over het merk {#about-brand}
 
@@ -37,7 +39,7 @@ Gebruik het tabblad **[!UICONTROL About the brand]** om de belangrijkste identit
 
    * **[!UICONTROL Default Tagline]**: voeg de primaire coderegel toe die aan het merk is gekoppeld.
 
-     ![&#x200B; Zeer belangrijke detailscategorie &#x200B;](assets/brands-about-1.png)
+     ![ Zeer belangrijke detailscategorie ](assets/brands-about-1.png)
 
 1. Geef in de categorie **[!UICONTROL Guiding principles]** uitleg over de kernrichting en filosofie van uw merk:
 
@@ -47,9 +49,9 @@ Gebruik het tabblad **[!UICONTROL About the brand]** om de belangrijkste identit
 
    * **[!UICONTROL Market Positioning]**: leg uit hoe uw merk zich op de markt bevindt.
 
-   ![&#x200B; Geleidende principencategorie &#x200B;](assets/brands-about-2.png)
+   ![ Geleidende principencategorie ](assets/brands-about-2.png)
 
-1. Van de **[!UICONTROL Core brand values]** categorie, klik ![&#x200B; Beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Add_18_N.svg " pictogram ") toevoegen om de kernwaarden van het merk toe te voegen en de details in te vullen:
+1. Van de **[!UICONTROL Core brand values]** categorie, klik ![ Beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Add_18_N.svg " pictogram ") toevoegen om de kernwaarden van het merk toe te voegen en de details in te vullen:
 
    * **[!UICONTROL Value]**: geef een naam op voor een kernmerk.
 
@@ -61,11 +63,11 @@ Gebruik het tabblad **[!UICONTROL About the brand]** om de belangrijkste identit
 
      ![](assets/brands-12.png)
 
-1. Indien nodig, klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") pictogram om één van uw waarde van het kernmerk bij te werken of te schrappen.
+1. Indien nodig, klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") pictogram om één van uw waarde van het kernmerk bij te werken of te schrappen.
 
-   ![&#x200B; geef uw waarde &#x200B;](assets/brands-10.png) uit
+   ![ geef uw waarde ](assets/brands-10.png) uit
 
-U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [ uw merk ](#create-brand-kit) publiceren.
 
 ## Schrijfstijl {#writing-style}
 
@@ -171,11 +173,11 @@ U past de **[!UICONTROL Writing Style]** als volgt aan:
 1. Klik op **[!UICONTROL Add]** als uw hulplijn, uitzondering of uitsluiting is ingesteld.
 1. Selecteer zo nodig een van de hulplijnen of uitsluitingen die u wilt bijwerken of verwijderen.
 
-1. Klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") om uw voorbeeld of het ![Alternatieve tekst voor afbeelding duwen](assets/do-not-localize/Smock_Delete_18_N.svg "Verwijderen") pictogram uit te geven om het te schrappen.
+1. Klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") om uw voorbeeld of het ![Alternatieve tekst voor afbeelding duwen](assets/do-not-localize/Smock_Delete_18_N.svg "Verwijderen") pictogram uit te geven om het te schrappen.
 
    ![](assets/brands-11.png)
 
-U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [ uw merk ](#create-brand-kit) publiceren.
 
 ## Visuele inhoud {#visual-content}
 
@@ -224,7 +226,7 @@ U past de **[!UICONTROL Visual content]** als volgt aan:
 
 1. Voer uw richtlijn, uitsluiting of voorbeeld in.
 
-   ![&#x200B; voeg uitsluiting of voorbeeldknoop toe &#x200B;](assets/brands-4.png)
+   ![ voeg uitsluiting of voorbeeldknoop toe ](assets/brands-4.png)
 
 1. Geef de **[!UICONTROL Usage context]** op voor uw hulplijn of uitsluiting:
 
@@ -232,77 +234,76 @@ U past de **[!UICONTROL Visual content]** als volgt aan:
 
    * **[!UICONTROL Element type]**: geef op op op welk inhoudselement de regel van toepassing is. Dit kan elementen bevatten zoals koppen, knoppen, koppelingen of andere componenten in de inhoud.
 
-     ![&#x200B; voeg de inhoud van het Gebruik &#x200B;](assets/brands-17.png) toe
+     ![ voeg de inhoud van het Gebruik ](assets/brands-17.png) toe
 
 1. Klik op **[!UICONTROL Add]** als uw hulplijn, uitzondering of uitsluiting is ingesteld.
 
 1. Als u een afbeelding met het juiste gebruik wilt toevoegen, selecteert u **[!UICONTROL Example]** en klikt u op **[!UICONTROL Select image]** . U kunt ook een afbeelding toevoegen waarin onjuist gebruik wordt getoond als uitsluitingsvoorbeeld.
 
-   ![&#x200B; voeg een beeld als voorbeeld &#x200B;](assets/brands-13.png) toe
+   ![ voeg een beeld als voorbeeld ](assets/brands-13.png) toe
 
 1. Selecteer een van de hulplijnen of uitsluitingen die u wilt bijwerken of verwijderen.
 
-1. Selecteer een van uw richtlijnen of uitsluitingen om deze bij te werken. Klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg " Schrapping ") pictogram om het te schrappen.
+1. Selecteer een van uw richtlijnen of uitsluitingen om deze bij te werken. Klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Delete_18_N.svg " Schrapping ") pictogram om het te schrappen.
 
-   ![&#x200B; Schrapping uitsluiting of richtlijn &#x200B;](assets/brands-14.png)
+   ![ Schrapping uitsluiting of richtlijn ](assets/brands-14.png)
 
-U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [ uw merk ](#create-brand-kit) publiceren.
 
-<!--
-## Colors {#colors}
+## Kleuren {#colors}
 
-The **[!UICONTROL Colors]** section the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to maintain a cohesive, accessible, and recognizable brand identity.
+In de sectie **[!UICONTROL Colors]** worden de standaarden voor het kleursysteem van uw merk beschreven, waarin wordt beschreven hoe kleuren worden geselecteerd, geordend en toegepast op verschillende manieren. Het zorgt voor consistent gebruik van primaire, secundaire, accenten en neutrale kleuren om een consistente, toegankelijke en herkenbare merkidentiteit te behouden.
 
-+++ Available categories and examples
++++ Beschikbare categorieën en voorbeelden
 
 <table>
   <thead>
     <tr>
-      <th>Category</th>
-      <th>Guidelines Example</th>
-      <th>Exclusions Example</th>
+      <th>Categorie</th>
+      <th>Voorbeeld van richtlijnen</th>
+      <th>Voorbeeld van uitsluitingen</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Primary colors</td>
-      <td>Use primary brand colors for logos, headers, and main call-to-action elements.</td>
-      <td>Do not substitute or modify primary brand colors.</td>
+      <td>Primaire kleuren</td>
+      <td>Gebruik primaire merkkleuren voor logo's, kopteksten en call-to-action-hoofdelementen.</td>
+      <td>Vervang of wijzig de primaire merkkleuren niet.</td>
     </tr>
     <tr>
-      <td>Secondary colors</td>
-      <td>Use secondary colors to support layouts, illustrations, and UI components.</td>
-      <td>Do not let secondary colors overpower primary brand colors.</td>
+      <td>Secundaire kleuren</td>
+      <td>Gebruik secundaire kleuren om lay-outs, illustraties, en UI componenten te steunen.</td>
+      <td>Laat secundaire kleuren niet overdrijven op primaire merkkleuren.</td>
     </tr>
     <tr>
-      <td>Accent colors</td>
-      <td>Use accent colors sparingly for buttons, links, and alerts.</td>
-      <td>Do not use accent colors for large background areas.</td>
+      <td>Acceptabele kleuren</td>
+      <td>Maak spaarzaam gebruik van accentkleuren voor knoppen, koppelingen en waarschuwingen.</td>
+      <td>Gebruik geen accentkleuren voor grote achtergronden.</td>
     </tr>
     <tr>
-      <td>Neutral colors</td>
-      <td>Use neutral colors for text, dividers, borders, and subtle UI elements.</td>
-      <td>Avoid using neutrals with poor contrast or heavy color casts.</td>
+      <td>Neutrale kleuren</td>
+      <td>Gebruik neutrale kleuren voor tekst, scheidingslijnen, randen en subtiele UI-elementen.</td>
+      <td>Vermijd het gebruik van neutrale kleuren met een laag contrast of met veel kleurzwemen.</td>
     </tr>
     <tr>
-      <td>Background colors</td>
-      <td>Use light or neutral backgrounds to ensure readability and visual clarity.</td>
-      <td>Do not place text or logos on low-contrast backgrounds.</td>
+      <td>Achtergrondkleuren</td>
+      <td>Gebruik lichte of neutrale achtergronden om leesbaarheid en visuele helderheid te garanderen.</td>
+      <td>Plaats geen tekst of logo's op een achtergrond met weinig contrast.</td>
     </tr>
     <tr>
-      <td>Additional colors</td>
-      <td>Use additional colors only for data visualization or approved campaigns.</td>
-      <td>Do not introduce unapproved or off-brand colors.</td>
+      <td>Aanvullende kleuren</td>
+      <td>Gebruik alleen extra kleuren voor gegevensvisualisatie of goedgekeurde campagnes.</td>
+      <td>Gebruik geen niet-goedgekeurde of niet-merkkleuren.</td>
     </tr>
     <tr>
-      <td>Color scales</td>
-      <td>Use approved tints and shades for UI states such as hover, active, and disabled.</td>
-      <td>Do not create unofficial shades or gradients.</td>
+      <td>Kleurenschalen</td>
+      <td>Gebruik goedgekeurde tinten en schaduwen voor UI-staten zoals aanwijzen, actief en uitgeschakeld.</td>
+      <td>Maak geen onofficiële schaduwen of verlopen.</td>
     </tr>
     <tr>
-      <td>Usage guidelines</td>
-      <td>Maintain consistent color usage and accessible contrast across all assets.</td>
-      <td>Do not mix conflicting palettes or apply colors inconsistently.</td>
+      <td>Richtlijnen voor gebruik</td>
+      <td>Houd consistent kleurgebruik en toegankelijk contrast voor alle elementen.</td>
+      <td>Meng conflicterende paletten niet en pas kleuren niet consistent toe.</td>
     </tr>
 </table>
 
@@ -310,40 +311,39 @@ The **[!UICONTROL Colors]** section the standards for your brand's color system,
 
 </br>
 
-To personalize your **[!UICONTROL Colors]**:
+U past de **[!UICONTROL Colors]** als volgt aan:
 
-1. From the **[!UICONTROL Colors]** tab, click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add a color, guideline or exclusion. 
+1. Klik op het tabblad **[!UICONTROL Colors]** op ![](assets/do-not-localize/Smock_Add_18_N.svg) om een kleur, hulplijn of uitsluiting toe te voegen.
 
-1. Enter your color information to define it accurately:
+1. Voer de kleurgegevens in om deze nauwkeurig te definiëren:
 
-    * **Color name**: Provide a clear, descriptive name to identify the color within your brand system.
+   * **Naam van de Kleur**: Verstrek een duidelijke, beschrijvende naam om de kleur binnen uw merksysteem te identificeren.
 
-    * **Color value**: Choose your color using the hue picker or enter precise values using RGB, HEX, or Pantone name/code to ensure consistency across digital and print assets.
+   * **waarde van de Kleur**: Kies uw kleur gebruikend de kleurtoonkiezer of ga nauwkeurige waarden in gebruikend RGB, HEX, of de naam/de code van Pantone om consistentie over digitale en drukactiva te verzekeren.
 
-    ![](assets/brands-color-1.png)
+   ![](assets/brands-color-1.png)
 
-1. Review your selection to confirm accuracy and visual consistency and click **[!UICONTROL Add]** to save your color.
+1. Controleer uw selectie om de nauwkeurigheid en visuele consistentie te bevestigen en klik op **[!UICONTROL Add]** om de kleur op te slaan.
 
-1. Then, enter your guideline or exclusion.
+1. Voer vervolgens uw richtlijn of uitsluiting in.
 
-1. Specify the Usage context for your guideline or exclusion:
+1. Geef de context voor het gebruik op voor uw hulplijn of uitsluiting:
 
-    * **[!UICONTROL Channel type]**: Choose where this guideline, exception, or exclusion should apply. For example, you may want a specific writing style to appear only in Email, Mobile, Prints, or other communication channels.
+   * **[!UICONTROL Channel type]**: kies waar deze richtlijn, uitzondering of uitsluiting van toepassing moet zijn. U wilt bijvoorbeeld dat een specifieke schrijfstijl alleen wordt weergegeven in e-mail, mobiel, Afdrukken of andere communicatiekanalen.
 
-    * **[!UICONTROL Element type]**: Specify which content element the rule applies to. This could include elements such as Headings, Buttons, Links, or other components within your content.
+   * **[!UICONTROL Element type]**: geef op op op welk inhoudselement de regel van toepassing is. Dit kan elementen bevatten zoals koppen, knoppen, koppelingen of andere componenten in de inhoud.
 
-      ![](assets/brands-color-2.png)
-  
-1. Once your guideline, exception, or exclusion is set up, click **[!UICONTROL Add]**. 
+     ![](assets/brands-color-2.png)
 
-1. If needed, select one of your guideline or exclusion to update or delete.
+1. Klik op **[!UICONTROL Add]** als uw hulplijn, uitzondering of uitsluiting is ingesteld.
 
-1. Select one your guideline or exclusion to update it. Click the ![Dive image alt text](assets/do-not-localize/Smock_Delete_18_N.svg "Delete")icon to delete it. 
+1. Selecteer zo nodig een van de hulplijnen of uitsluitingen die u wilt bijwerken of verwijderen.
 
-    ![](assets/brands-color-3.png)
+1. Selecteer een van uw richtlijnen of uitsluitingen om deze bij te werken. Klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Delete_18_N.svg " Schrapping ") pictogram om het te schrappen.
 
-1. Click **[!UICONTROL Add group]** to define additional colors for your brand or to add a color scale group.
+   ![](assets/brands-color-3.png)
 
-You can now further personalize your brand or [publish your brand](brands.md#create-brand-kit).
+1. Klik op **[!UICONTROL Add group]** om extra kleuren voor uw merk te definiëren of om een kleurschaalgroep toe te voegen.
 
--->
+U kunt uw merk verder personaliseren of [ uw merk ](brands.md#create-brand-kit) publiceren.
+
