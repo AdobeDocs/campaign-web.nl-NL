@@ -1,8 +1,10 @@
 ---
 title: Aangepaste velden
 description: Leer hoe u aangepaste velden en hun zichtbaarheid in de interface configureert.
+hide: true
+hidefromtoc: true
 exl-id: 34e7e0b7-3981-43b1-95a5-6c672adafdc9
-source-git-commit: 2c047d85df42503815c6ff15f43066ec5fb83755
+source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 0%
@@ -43,7 +45,7 @@ ht-degree: 0%
 >title="Kenmerkinstellingen"
 >abstract="Kenmerkinstellingen"
 
-Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan out-of-the-box-schema&#39;s worden toegevoegd. Zij staan u toe om schema&#39;s aan te passen door nieuwe attributen aan de behoeften van uw organisatie te omvatten. Leer hoe te om een schema in de [&#x200B; Adobe Campaign v8 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html?lang=nl-NL){target="_blank"} uit te breiden.
+Aangepaste velden zijn aanvullende kenmerken die via de Adobe Campaign-console aan out-of-the-box-schema&#39;s worden toegevoegd. Zij staan u toe om schema&#39;s aan te passen door nieuwe attributen aan de behoeften van uw organisatie te omvatten. Leer hoe te om een schema in de [ Adobe Campaign v8 documentatie ](https://experienceleague.adobe.com/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema.html){target="_blank"} uit te breiden.
 
 De gebieden van de douane kunnen in diverse schermen, zoals profieldetails in de interface van het Web van de Campagne worden getoond. Beheerders kunnen bepalen welke velden zichtbaar zijn en hoe ze worden weergegeven. Deze wijzigingen gelden voor alle campagnegebruikers.
 
@@ -74,11 +76,11 @@ Ga als volgt te werk om aangepaste velden in de interface weer te geven:
 
    Gebruik het filter **[!UICONTROL Editable]** in het venster Filters om schema&#39;s snel te identificeren met aangepaste velden.
 
-   ![&#x200B; Schermschot die het menu van Schema&#39;s en het Bewerkbare filter in de navigatieruit tonen &#x200B;](assets/custom-fields-open.png)
+   ![ Schermschot die het menu van Schema&#39;s en het Bewerkbare filter in de navigatieruit tonen ](assets/custom-fields-open.png)
 
-1. Selecteer de schemanaam in de lijst om het te openen. Er wordt een gedetailleerde schemaweergave weergegeven. [&#x200B; leer meer over schemadetails &#x200B;](../administration/schemas.md). Klik op de knop **[!UICONTROL Screen edition]** om aangepaste velden te openen. In dit voorbeeld worden velden toegevoegd voor het schema **[!UICONTROL Recipients]** .
+1. Selecteer de schemanaam in de lijst om het te openen. Er wordt een gedetailleerde schemaweergave weergegeven. [ leer meer over schemadetails ](../administration/schemas.md). Klik op de knop **[!UICONTROL Screen edition]** om aangepaste velden te openen. In dit voorbeeld worden velden toegevoegd voor het schema **[!UICONTROL Recipients]** .
 
-   ![&#x200B; Schermschot die de de definitieknop van het Scherm in de schemamening tonen &#x200B;](assets/custom-fields-edit.png)
+   ![ Schermschot die de de definitieknop van het Scherm in de schemamening tonen ](assets/custom-fields-edit.png)
 
    De lijst met aangepaste velden die in de interface voor het schema wordt weergegeven.
 
@@ -95,7 +97,7 @@ Ga als volgt te werk om aangepaste velden in de interface weer te geven:
    * **[!UICONTROL Select custom fields]**: selecteer een of meerdere aangepaste velden die u wilt weergeven in de interface.
    * **[!UICONTROL Fill automatically the list of custom fields]**: voeg alle aangepaste velden die voor het schema zijn gedefinieerd, toe aan de interface.
 
-   ![&#x200B; Schermafbeelding die de opties toont om douanegebieden toe te voegen &#x200B;](assets/custom-fields-add.png)
+   ![ Schermafbeelding die de opties toont om douanegebieden toe te voegen ](assets/custom-fields-add.png)
 
 1. Nadat aangepaste velden zijn toegevoegd, kunt u:
 
@@ -109,7 +111,7 @@ Ga als volgt te werk om aangepaste velden in de interface weer te geven:
 
 Als u specifieke instellingen voor elk aangepast veld wilt configureren, klikt u op de knop voor de ovaal naast het gewenste veld en selecteert u **[!UICONTROL Edit]** .
 
-![&#x200B; Schermafbeelding die het montagesmenu voor douanegebieden toont &#x200B;](assets/custom-fields-settings.png)
+![ Schermafbeelding die het montagesmenu voor douanegebieden toont ](assets/custom-fields-settings.png)
 
 Beschikbare instellingen zijn:
 
@@ -126,7 +128,7 @@ Beschikbare instellingen zijn:
 
   +++Voorbeeld weergeven
 
-  ![&#x200B; Schermafbeelding die een voorbeeld van filtermontages voor douanegebieden toont &#x200B;](assets/custom-fields-ref.png)
+  ![ Schermafbeelding die een voorbeeld van filtermontages voor douanegebieden toont ](assets/custom-fields-ref.png)
 
   +++
 
@@ -146,4 +148,4 @@ In de gebruikersinterface van het Web Campagne kunt u scheidingstekens toevoegen
 
    | Configuratie van aangepaste velden | Renderen in de interface |
    |  ---  |  ---  |
-   | ![&#x200B; Schermschot die de configuratie van een separator &#x200B;](assets/custom-fields-separator.png){zoomable="yes"} tonen | ![&#x200B; Schermschot die het teruggeven van een onderafdeling in de interface tonen &#x200B;](assets/custom-fields-section.png){zoomable="yes"} |
+   | ![ Schermschot die de configuratie van een separator ](assets/custom-fields-separator.png){zoomable="yes"} tonen | ![ Schermschot die het teruggeven van een onderafdeling in de interface tonen ](assets/custom-fields-section.png){zoomable="yes"} |
