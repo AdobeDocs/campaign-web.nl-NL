@@ -21,7 +21,7 @@ Om een uitvoerige merkkit te creëren die consistentie over al uw inhoud en kana
 * **[!UICONTROL Visual content]** stelt richtlijnen voor afbeeldingen en ontwerpen in.
 * **[!UICONTROL Colors]** beheert het kleursysteem en het gebruik van uw merk.
 
-Zodra gevormd, kunt u uw merkrichtlijnen gebruiken om inhoudskwaliteit en merkgroepering te bevestigen. [ leer meer over de bevestiging van de inhoudskwaliteit ](brands-score.md#validate-quality)
+Zodra gevormd, kunt u uw merkrichtlijnen gebruiken om inhoudskwaliteit en merkgroepering te bevestigen. [&#x200B; leer meer over de bevestiging van de inhoudskwaliteit &#x200B;](brands-score.md#validate-quality)
 
 ## Informatie over het merk {#about-brand}
 
@@ -39,7 +39,7 @@ Gebruik het tabblad **[!UICONTROL About the brand]** om de belangrijkste identit
 
    * **[!UICONTROL Default Tagline]**: voeg de primaire coderegel toe die aan het merk is gekoppeld.
 
-     ![ Zeer belangrijke detailscategorie ](assets/brands-about-1.png)
+     ![&#x200B; Zeer belangrijke detailscategorie &#x200B;](assets/brands-about-1.png)
 
 1. Geef in de categorie **[!UICONTROL Guiding principles]** uitleg over de kernrichting en filosofie van uw merk:
 
@@ -49,9 +49,9 @@ Gebruik het tabblad **[!UICONTROL About the brand]** om de belangrijkste identit
 
    * **[!UICONTROL Market Positioning]**: leg uit hoe uw merk zich op de markt bevindt.
 
-   ![ Geleidende principencategorie ](assets/brands-about-2.png)
+   ![&#x200B; Geleidende principencategorie &#x200B;](assets/brands-about-2.png)
 
-1. Van de **[!UICONTROL Core brand values]** categorie, klik ![ Beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Add_18_N.svg " pictogram ") toevoegen om de kernwaarden van het merk toe te voegen en de details in te vullen:
+1. Van de **[!UICONTROL Core brand values]** categorie, klik ![&#x200B; Beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Add_18_N.svg " pictogram ") toevoegen om de kernwaarden van het merk toe te voegen en de details in te vullen:
 
    * **[!UICONTROL Value]**: geef een naam op voor een kernmerk.
 
@@ -63,11 +63,11 @@ Gebruik het tabblad **[!UICONTROL About the brand]** om de belangrijkste identit
 
      ![](assets/brands-12.png)
 
-1. Indien nodig, klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") pictogram om één van uw waarde van het kernmerk bij te werken of te schrappen.
+1. Indien nodig, klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") pictogram om één van uw waarde van het kernmerk bij te werken of te schrappen.
 
-   ![ geef uw waarde ](assets/brands-10.png) uit
+   ![&#x200B; geef uw waarde &#x200B;](assets/brands-10.png) uit
 
-U kunt uw merk verder personaliseren of [ uw merk ](#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
 
 ## Schrijfstijl {#writing-style}
 
@@ -173,11 +173,11 @@ U past de **[!UICONTROL Writing Style]** als volgt aan:
 1. Klik op **[!UICONTROL Add]** als uw hulplijn, uitzondering of uitsluiting is ingesteld.
 1. Selecteer zo nodig een van de hulplijnen of uitsluitingen die u wilt bijwerken of verwijderen.
 
-1. Klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") om uw voorbeeld of het ![Alternatieve tekst voor afbeelding duwen](assets/do-not-localize/Smock_Delete_18_N.svg "Verwijderen") pictogram uit te geven om het te schrappen.
+1. Klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg " uitgeven ") om uw voorbeeld of het ![Alternatieve tekst voor afbeelding duwen](assets/do-not-localize/Smock_Delete_18_N.svg "Verwijderen") pictogram uit te geven om het te schrappen.
 
    ![](assets/brands-11.png)
 
-U kunt uw merk verder personaliseren of [ uw merk ](#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
 
 ## Visuele inhoud {#visual-content}
 
@@ -226,7 +226,7 @@ U past de **[!UICONTROL Visual content]** als volgt aan:
 
 1. Voer uw richtlijn, uitsluiting of voorbeeld in.
 
-   ![ voeg uitsluiting of voorbeeldknoop toe ](assets/brands-4.png)
+   ![&#x200B; voeg uitsluiting of voorbeeldknoop toe &#x200B;](assets/brands-4.png)
 
 1. Geef de **[!UICONTROL Usage context]** op voor uw hulplijn of uitsluiting:
 
@@ -234,21 +234,21 @@ U past de **[!UICONTROL Visual content]** als volgt aan:
 
    * **[!UICONTROL Element type]**: geef op op op welk inhoudselement de regel van toepassing is. Dit kan elementen bevatten zoals koppen, knoppen, koppelingen of andere componenten in de inhoud.
 
-     ![ voeg de inhoud van het Gebruik ](assets/brands-17.png) toe
+     ![&#x200B; voeg de inhoud van het Gebruik &#x200B;](assets/brands-17.png) toe
 
 1. Klik op **[!UICONTROL Add]** als uw hulplijn, uitzondering of uitsluiting is ingesteld.
 
 1. Als u een afbeelding met het juiste gebruik wilt toevoegen, selecteert u **[!UICONTROL Example]** en klikt u op **[!UICONTROL Select image]** . U kunt ook een afbeelding toevoegen waarin onjuist gebruik wordt getoond als uitsluitingsvoorbeeld.
 
-   ![ voeg een beeld als voorbeeld ](assets/brands-13.png) toe
+   ![&#x200B; voeg een beeld als voorbeeld &#x200B;](assets/brands-13.png) toe
 
 1. Selecteer een van de hulplijnen of uitsluitingen die u wilt bijwerken of verwijderen.
 
-1. Selecteer een van uw richtlijnen of uitsluitingen om deze bij te werken. Klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Delete_18_N.svg " Schrapping ") pictogram om het te schrappen.
+1. Selecteer een van uw richtlijnen of uitsluitingen om deze bij te werken. Klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg " Schrapping ") pictogram om het te schrappen.
 
-   ![ Schrapping uitsluiting of richtlijn ](assets/brands-14.png)
+   ![&#x200B; Schrapping uitsluiting of richtlijn &#x200B;](assets/brands-14.png)
 
-U kunt uw merk verder personaliseren of [ uw merk ](#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](#create-brand-kit) publiceren.
 
 ## Kleuren {#colors}
 
@@ -339,11 +339,11 @@ U past de **[!UICONTROL Colors]** als volgt aan:
 
 1. Selecteer zo nodig een van de hulplijnen of uitsluitingen die u wilt bijwerken of verwijderen.
 
-1. Selecteer een van uw richtlijnen of uitsluitingen om deze bij te werken. Klik het ![ beeld van de Duik alt tekst ](assets/do-not-localize/Smock_Delete_18_N.svg " Schrapping ") pictogram om het te schrappen.
+1. Selecteer een van uw richtlijnen of uitsluitingen om deze bij te werken. Klik het ![&#x200B; beeld van de Duik alt tekst &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg " Schrapping ") pictogram om het te schrappen.
 
    ![](assets/brands-color-3.png)
 
 1. Klik op **[!UICONTROL Add group]** om extra kleuren voor uw merk te definiëren of om een kleurschaalgroep toe te voegen.
 
-U kunt uw merk verder personaliseren of [ uw merk ](brands.md#create-brand-kit) publiceren.
+U kunt uw merk verder personaliseren of [&#x200B; uw merk &#x200B;](brands.md#create-brand-kit) publiceren.
 
