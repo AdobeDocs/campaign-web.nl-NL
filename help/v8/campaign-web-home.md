@@ -63,7 +63,7 @@ Release van februari is live. De nieuwe eigenschappen en de verhogingen zijn nu 
 
 ✨ onderdompelt zich in een hands-on ervaring met onze [&#x200B; AI Medewerker &#x200B;](../v8/content/generative-gs.md) levende eigenschapvoorproef, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
-[![&#x200B; leer meer knoop &#x200B;](assets/do-not-localize/try-it-button.svg) &#x200B;](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![&#x200B; leer meer knoop &#x200B;](assets/do-not-localize/try-it-button.svg) &#x200B;](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB Veelgestelde vragen]
 
