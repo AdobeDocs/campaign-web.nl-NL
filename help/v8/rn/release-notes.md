@@ -2,9 +2,9 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: c1c081688c6e7f48baf0514fbea1292ea40d96c7
+source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '243'
 ht-degree: 8%
 
 ---
@@ -88,10 +88,12 @@ _feb 17, 2026_
 </tbody>
 </table>
 
-### Verbetering {#26-2-improvements}
+<!--
 
-* De richtlijnen voor merken bevatten nu een sectie Kleuren waarin standaarden voor het kleursysteem van uw merk worden gedefinieerd, zodat u overal waar u werkt altijd dezelfde primaire, secundaire, accentueerde en neutrale kleuren gebruikt.
-  [Meer informatie](../content/brands-personalize.md)
+### Improvement {#26-2-improvements}
+
+* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
+[Learn more](../content/brands-personalize.md)-->
 
 
 
