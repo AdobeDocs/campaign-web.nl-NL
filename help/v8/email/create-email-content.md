@@ -58,9 +58,9 @@ Met de e-mail Designer kunt u eenvoudig de structuur van uw e-mail definiëren. 
 
 Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
-1. Van de [&#x200B; E-mail Designer &#x200B;](get-started-email-designer.md#start-authoring) homepage, selecteer de **[!UICONTROL Design from scratch]** optie.
+1. Van de [ E-mail Designer ](get-started-email-designer.md#start-authoring) homepage, selecteer de **[!UICONTROL Design from scratch]** optie.
 
-   ![&#x200B; Schermafbeelding die de e-mailhomepage van Designer toont met de optie &quot;Ontwerpen vanaf nul&quot; gemarkeerd.](assets/email_designer-from-scratch.png){zoomable="yes"}
+   ![ Schermafbeelding die de e-mailhomepage van Designer toont met de optie &quot;Ontwerpen vanaf nul&quot; gemarkeerd.](assets/email_designer-from-scratch.png){zoomable="yes"}
 
 1. Begin met het ontwerpen van uw e-mailinhoud door **[!UICONTROL Structures]** naar het canvas te slepen en neer te zetten om de lay-out van uw e-mail te definiëren.
 
@@ -70,7 +70,7 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 1. Voeg zo veel **[!UICONTROL Structures]** toe als nodig is en bewerk de instellingen in het daarvoor bestemde venster aan de rechterkant.
 
-   ![&#x200B; Schermafbeelding die de ruit van structuurcomponenten in E-mail Designer toont.](assets/email_designer_structure_components.png){zoomable="yes"}
+   ![ Schermafbeelding die de ruit van structuurcomponenten in E-mail Designer toont.](assets/email_designer_structure_components.png){zoomable="yes"}
 
 1. Selecteer de **[!UICONTROL n:nkolom]** component om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. Definieer de breedte van elke kolom door de pijlen onder aan elke kolom te verplaatsen.
 
@@ -78,13 +78,13 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
    >
    >Elke kolomgrootte mag niet kleiner zijn dan 10% van de totale breedte van de structuurcomponent. U kunt geen kolom verwijderen die niet leeg is.
 
-1. Sleep vanuit de sectie **[!UICONTROL Components]** zoveel elementen als nodig zijn naar een of meer structuren. [&#x200B; leer meer over inhoudscomponenten &#x200B;](content-components.md)
+1. Sleep vanuit de sectie **[!UICONTROL Components]** zoveel elementen als nodig zijn naar een of meer structuren. [ leer meer over inhoudscomponenten ](content-components.md)
 
-1. Pas elke component aan met de tabbladen **[!UICONTROL Settings]** of **[!UICONTROL Style]** aan de rechterkant. Wijzig bijvoorbeeld de tekststijl, opvulling of marge van elke component. [&#x200B; leer meer over groepering en het opvullen &#x200B;](alignment-and-padding.md)
+1. Pas elke component aan met de tabbladen **[!UICONTROL Settings]** of **[!UICONTROL Style]** aan de rechterkant. Wijzig bijvoorbeeld de tekststijl, opvulling of marge van elke component. [ leer meer over groepering en het opvullen ](alignment-and-padding.md)
 
-   ![&#x200B; Schermafbeelding die de opties van de stijlaanpassing in E-mail Designer toont.](assets/email_designer-styles.png){zoomable="yes"}
+   ![ Schermafbeelding die de opties van de stijlaanpassing in E-mail Designer toont.](assets/email_designer-styles.png){zoomable="yes"}
 
-1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. [&#x200B; Leer meer over inhoudstijdpersonalisatie &#x200B;](../personalization/personalize.md)
+1. Voeg verpersoonlijkingsgebieden in om uw e-mailinhoud aan te passen die op profielgegevens wordt gebaseerd. [ Leer meer over inhoudstijdpersonalisatie ](../personalization/personalize.md)
 
 1. Voeg koppelingen toe aan uw inhoud.
 
@@ -92,19 +92,19 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 [Meer informatie over koppelingen en berichtregistratie](message-tracking.md)
 
-   ![&#x200B; Schermafbeelding die het verbindingslusje in E-mail Designer toont.](assets/email_designer-links.png){zoomable="yes"}
+   ![ Schermafbeelding die het verbindingslusje in E-mail Designer toont.](assets/email_designer-links.png){zoomable="yes"}
 
-1. Pas indien nodig uw e-mail verder aan door op **[!UICONTROL Switch to code editor]** in het geavanceerde menu te klikken. Zo kunt u de broncode van de e-mail bewerken, bijvoorbeeld om trackingtags of aangepaste HTML-tags toe te voegen. [&#x200B; leer meer over de coderedacteur &#x200B;](code-content.md)
+1. Pas indien nodig uw e-mail verder aan door op **[!UICONTROL Switch to code editor]** in het geavanceerde menu te klikken. Zo kunt u de broncode van de e-mail bewerken, bijvoorbeeld om trackingtags of aangepaste HTML-tags toe te voegen. [ leer meer over de coderedacteur ](code-content.md)
 
    >[!CAUTION]
    >
    >U kunt niet terugkeren naar de visuele ontwerper voor deze e-mail na het schakelen naar de coderedacteur.
 
-1. Als de inhoud gereed is, klikt u op **[!UICONTROL Simulate content]** om de rendering van e-mailberichten te controleren. Kies de weergave Computer of Mobiel. [&#x200B; Leer meer over het voorvertonen van uw e-mail &#x200B;](../preview-test/preview-test.md)
+1. Als de inhoud gereed is, klikt u op **[!UICONTROL Simulate content]** om de rendering van e-mailberichten te controleren. Kies de weergave Computer of Mobiel. [ Leer meer over het voorvertonen van uw e-mail ](../preview-test/preview-test.md)
 
-   ![&#x200B; Schermafbeelding die de simulatieopties in E-mail Designer toont.](assets/email_designer-simulate.png){zoomable="yes"}
+   ![ Schermafbeelding die de simulatieopties in E-mail Designer toont.](assets/email_designer-simulate.png){zoomable="yes"}
 
-1. U kunt ook de kwaliteit van uw inhoud valideren om de leesbaarheid, de CTA-effectiviteit, de kwaliteit van de onderwerpregel en meer te beoordelen. [&#x200B; leer meer over de bevestiging van de inhoudskwaliteit &#x200B;](../content/brands-score.md#validate-quality)
+1. U kunt ook de kwaliteit van uw inhoud valideren om de leesbaarheid, de CTA-effectiviteit, de kwaliteit van de onderwerpregel en meer te beoordelen. [ leer meer over de bevestiging van de inhoudskwaliteit ](../content/brands-score.md#validate-quality)
 
 1. Klik op **[!UICONTROL Save]** als uw e-mailbericht gereed is.
 
@@ -112,4 +112,4 @@ Volg onderstaande stappen om uw e-mailinhoud te gaan samenstellen.
 
 Begrijp hoe u door de Designer-e-mail kunt navigeren. Leer hoe u een e-mailbericht helemaal zelf kunt structureren en ontwerpen, uw e-mailadres kunt aanpassen en testen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3453571/?captions=dut&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425867/?quality=12)

@@ -32,7 +32,7 @@ Een opsomming is een lijst met waarden die door het systeem worden voorgesteld o
 
 De waarden voor dit type veld worden gedefinieerd via het menu **[!UICONTROL Administration]** / **[!UICONTROL Enumerations]** in het linkernavigatievenster.
 
-![&#x200B; Lijst van de Opsomming die in het menu van het Beleid &#x200B;](assets/enumeration-list.png) wordt getoond
+![ Lijst van de Opsomming die in het menu van het Beleid ](assets/enumeration-list.png) wordt getoond
 
 ## Een opsomming maken {#create}
 
@@ -42,7 +42,7 @@ Ga als volgt te werk om een opsomming te maken:
 
 1. Voer een **[!UICONTROL Label]** en een **[!UICONTROL Internal name]** in voor de opsomming.
 
-   ![&#x200B; creeer opsommingsscherm dat etiket en interne naamgebieden toont &#x200B;](assets/enumeration-create.png)
+   ![ creeer opsommingsscherm dat etiket en interne naamgebieden toont ](assets/enumeration-create.png)
 
 1. Selecteer de opsomming **[!UICONTROL Type]** :
 
@@ -53,7 +53,7 @@ Ga als volgt te werk om een opsomming te maken:
 
 1. Klik op **[!UICONTROL Create]**. De weergave van de opsommingsdetails, waarmee u waarden aan de lijst kunt toevoegen.
 
-   ![&#x200B; het scherm van de detail van de Opsomming die opties tonen om waarden toe te voegen &#x200B;](assets/enumeration-details.png)
+   ![ het scherm van de detail van de Opsomming die opties tonen om waarden toe te voegen ](assets/enumeration-details.png)
 
 1. Als u een waarde wilt toevoegen, klikt u op de knop **[!UICONTROL Add value]** en configureert u deze vervolgens naar wens:
 
@@ -61,7 +61,7 @@ Ga als volgt te werk om een opsomming te maken:
    * **[!UICONTROL Internal name]**: de interne naam van de waarde (voor systeemopsommingen).
    * **[!UICONTROL U+ (internal name)]** (emoticon opsommingen): De unicode-code voor het emoticon (voor emoticon opsommingen).
 
-   ![&#x200B; voeg waardescherm toe die gebieden voor etiket, interne naam, en unicode code tonen &#x200B;](assets/enumeration-emoticon.png)
+   ![ voeg waardescherm toe die gebieden voor etiket, interne naam, en unicode code tonen ](assets/enumeration-emoticon.png)
 
 1. Sla uw wijzigingen op. De opsomming wordt bijgewerkt in de schermen waar deze wordt gebruikt.
 
@@ -69,11 +69,11 @@ Ga als volgt te werk om een opsomming te maken:
 
 Standaard kunnen gebruikers met het veld Oorsprong in het scherm met profieldetails elke waarde vrij invoeren.
 
-![&#x200B; de detailsscherm die van het Profiel het gebied van de Oorsprong tonen &#x200B;](assets/enumeration-uc-profile.png)
+![ de detailsscherm die van het Profiel het gebied van de Oorsprong tonen ](assets/enumeration-uc-profile.png)
 
 Elke keer dat een gebruiker een waarde voor het veld invoert, wordt de waarde automatisch toegevoegd aan de opsomming &#39;Oorsprong&#39;. Dit kan in de loop der tijd leiden tot overbodige, inconsistente of onjuiste waarden in de lijst met waarden.
 
-![&#x200B; opsomming van de Oorsprong die inconsistente user-entered waarden &#x200B;](assets/enumeration-uc-choice.png) tonen
+![ opsomming van de Oorsprong die inconsistente user-entered waarden ](assets/enumeration-uc-choice.png) tonen
 
 Definieer een set vooraf gedefinieerde waarden om de consistentie van de gegevens te garanderen en gebruikers te helpen bij het invullen van het veld. Voer de volgende stappen uit:
 
@@ -81,14 +81,14 @@ Definieer een set vooraf gedefinieerde waarden om de consistentie van de gegeven
 
 2. Controleer de lijst met door de gebruiker ingevoerde waarden en pas deze op. Klik op de knop met de ellips naast een waarde om deze te verwijderen. Als de lijst te veel inconsistenties bevat, verwijdert u de volledige opsomming en maakt u deze helemaal opnieuw.
 
-   ![&#x200B; het Scherm die opties tonen om user-Enter waarden &#x200B;](assets/enumeration-uc-clean.png) op te schonen
+   ![ het Scherm die opties tonen om user-Enter waarden ](assets/enumeration-uc-clean.png) op te schonen
 
 3. Voeg vooraf gedefinieerde waarden toe. Klik hiertoe op de knop **[!UICONTROL Add value]** en voer de vooraf gedefinieerde waarden in die gebruikers moeten selecteren.
 
-   ![&#x200B; het Scherm die vooraf bepaalde waarden tonen die aan de opsomming worden toegevoegd &#x200B;](assets/enumeration-uc-create.png)
+   ![ het Scherm die vooraf bepaalde waarden tonen die aan de opsomming worden toegevoegd ](assets/enumeration-uc-create.png)
 
 4. Als u consistentie wilt afdwingen, schakelt u het opsommingstype over op **[!UICONTROL Closed]** . Hiermee beperkt u gebruikers tot vooraf gedefinieerde waarden. Als flexibiliteit nodig is, houdt u deze **[!UICONTROL Open]** aan om invoer van nieuwe gebruikers toe te staan.
 
 5. Ga terug naar het scherm met profieldetails. In het veld Oorsprong worden nu de vooraf gedefinieerde waarden voor de selectie weergegeven.
 
-   ![&#x200B; de detailsscherm die van het Profiel vooraf bepaalde waarden op het gebied van de Oorsprong tonen &#x200B;](assets/enumeration-uc-populated.png)
+   ![ de detailsscherm die van het Profiel vooraf bepaalde waarden op het gebied van de Oorsprong tonen ](assets/enumeration-uc-populated.png)

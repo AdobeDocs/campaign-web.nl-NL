@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
->title="Schemas"
+>title="Schema&#39;s"
 >abstract="Adobe Campaign gebruikt op XML gebaseerde schema&#39;s om de fysieke en logische structuur van gegevens binnen de toepassing te bepalen. Van dit scherm, kunt u alle bestaande schema&#39;s bekijken, tot schemadetails toegang hebben, douaneformulieren vormen, en schema&#39;s tot stand brengen of uitbreiden direct van het Gebruikersinterface van het Web."
 
 **[!DNL Adobe Campaign]** gebruikt op XML gebaseerde schema&#39;s om de fysieke en logische structuur van gegevens binnen de toepassing te bepalen. Een schema is een XML-document dat is gekoppeld aan een databasetabel die het volgende definieert:
@@ -31,16 +31,16 @@ Elke entiteit in Adobe Campaign heeft een speciaal schema, dat zorgt voor consis
 
 De schemainterface staat u toe:
 
-* [&#x200B; toegang en pas schema&#39;s &#x200B;](schemas-browse-access.md) aan - bekijk beschikbare schema&#39;s, onderzoek hun details en pas het schermvertoning aan
-* [&#x200B; vormt lijstkolommen &#x200B;](schemas-list-columns.md) - vorm welke kolommen door gebrek in lijstmeningen worden getoond.
-* [&#x200B; geef douanegebieden &#x200B;](schemas-custom-fields.md) uit - vorm welke douanegebieden op detailschermen worden getoond en organiseer hen in secties.
-* [&#x200B; voeg inzamelingslijsten &#x200B;](schemas-collection-lists.md) toe - voeg inzamelingslijsten toe om verwante gegevens in profielschermen te tonen.
-* [&#x200B; creeer en beheer schema&#39;s &#x200B;](schemas-create-publish.md#create-schemas) - creeer nieuwe schema&#39;s en breid bestaande degenen uit
-* [&#x200B; publiceer en synchroniseer schema&#39;s &#x200B;](schemas-create-publish.md#publish) - synchroniseer schemaveranderingen met de gegevensbestandstructuur.
-* [&#x200B; Werk met douaneformulieren &#x200B;](schemas-custom-forms.md) - creeer, geef, en beheer verslagen in douaneschema&#39;s uit gebruikend de vormen van de gegevensingang.
+* [ toegang en pas schema&#39;s ](schemas-browse-access.md) aan - bekijk beschikbare schema&#39;s, onderzoek hun details en pas het schermvertoning aan
+* [ vormt lijstkolommen ](schemas-list-columns.md) - vorm welke kolommen door gebrek in lijstmeningen worden getoond.
+* [ geef douanegebieden ](schemas-custom-fields.md) uit - vorm welke douanegebieden op detailschermen worden getoond en organiseer hen in secties.
+* [ voeg inzamelingslijsten ](schemas-collection-lists.md) toe - voeg inzamelingslijsten toe om verwante gegevens in profielschermen te tonen.
+* [ creeer en beheer schema&#39;s ](schemas-create-publish.md#create-schemas) - creeer nieuwe schema&#39;s en breid bestaande degenen uit
+* [ publiceer en synchroniseer schema&#39;s ](schemas-create-publish.md#publish) - synchroniseer schemaveranderingen met de gegevensbestandstructuur.
+* [ Werk met douaneformulieren ](schemas-custom-forms.md) - creeer, geef, en beheer verslagen in douaneschema&#39;s uit gebruikend de vormen van de gegevensingang.
 
 >[!NOTE]
 >
 >U moet beheerdersrechten hebben om schema&#39;s te beheren.
 
-De gedetailleerde informatie over schema&#39;s is beschikbaar in de [&#x200B; documentatie van de de consoleconsole van de Campagne &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
+De gedetailleerde informatie over schema&#39;s is beschikbaar in de [ documentatie van de de consoleconsole van de Campagne ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/schemas){target="_blank"}.
