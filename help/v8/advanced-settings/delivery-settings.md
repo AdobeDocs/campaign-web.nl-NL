@@ -72,7 +72,7 @@ Er zijn drie modi beschikbaar:
 
 >[!NOTE]
 >
->Het beheer van de vermoeidheid en de drukregels worden gevormd in de de cliëntconsole van de Campagne. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html){target="_blank"}.
+>Het beheer van de vermoeidheid en de drukregels worden gevormd in de de cliëntconsole van de Campagne. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=nl-NL){target="_blank"}.
 
 ### Capaciteitsinstellingen {#capacity-settings}
 
@@ -92,7 +92,7 @@ Het veld **[!UICONTROL Importance of the recipient]** is een formule die wordt g
 
 >[!NOTE]
 >
->De typologische regels worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html){target="_blank"}.
+>De typologische regels worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/consistency-rules.html?lang=nl-NL){target="_blank"}.
 
 ## Instellingen voor publiek {#audience}
 
@@ -130,7 +130,7 @@ U kunt de onderstaande **[!UICONTROL Sending]** -instellingen definiëren.
 
 * **[!UICONTROL Test SMTP delivery]** (e-mailkanaal): deze optie wordt gebruikt om het verzenden via SMTP te testen. De e-mail wordt verwerkt tot verbinding aan de server SMTP, maar wordt niet verzonden: voor elke ontvanger van e-mail, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
 
-* **[!UICONTROL Email BCC]** (e-mailkanaal): deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door gewoon een BCC-e-mailadres toe te voegen aan uw berichtdoel. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html){target="_blank"}.
+* **[!UICONTROL Email BCC]** (e-mailkanaal): deze optie wordt gebruikt om e-mailberichten op een extern systeem op te slaan via BCC door gewoon een BCC-e-mailadres toe te voegen aan uw berichtdoel. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=nl-NL){target="_blank"}.
 
 Selecteer in de sectie **[!UICONTROL Wave definition]** de optie **[!UICONTROL Send using multiple waves]** om het volume dat met golven wordt verzonden geleidelijk te verhogen. Zo voorkomt u dat uw berichten als spam worden gemarkeerd of dat u het aantal berichten per dag wilt beperken. Met golven kunt u leveringen in verschillende batches verdelen in plaats van tegelijkertijd grote volumes berichten te verzenden. [Meer informatie](send-using-waves.md)
 
@@ -159,7 +159,7 @@ U kunt ook de tags definiëren die worden gedeeld met het analyseprogramma dat u
 
 >[!NOTE]
 >
->De mogelijkheden van de Analytics van het Web worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html#external-account-ac){target="_blank"}.
+>De mogelijkheden van de Analytics van het Web worden gevormd in de console van de Cliënt van de Campagne. Leer meer in [&#x200B; Campagne v8 (cliëntconsole) documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-aa.html?lang=nl-NL#external-account-ac){target="_blank"}.
 
 ## Opnieuw {#retries}
 
