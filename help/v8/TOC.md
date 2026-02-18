@@ -303,4 +303,4 @@ ht-degree: 20%
       + [Externe CRM-rekening](administration/external-crm.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [&#x200B; Campagne v8 (console) documentatie > &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
++ [&#x200B; Campagne v8 (console) documentatie > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
