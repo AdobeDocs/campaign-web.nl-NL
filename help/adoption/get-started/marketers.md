@@ -33,7 +33,7 @@ Het belangrijkste verschil is in de gebruikersinterface. Onder een vergelijking 
 
 In de video hieronder, leer om tot het Web van de Campagne toegang te hebben en te navigeren gebruikersinterface en hoe te om de inventarislijsten aan te passen.
 
->[!VIDEO](https://video.tv.adobe.com/v/3427278?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453428?captions=dut&quality=12&learn=on){transcript=true}
 
 Raadpleeg de onderstaande documentatie voor meer informatie:
 
@@ -54,13 +54,13 @@ In Adobe Campaign is een profiel een record die is opgeslagen in de database en 
 
 1. Leer om tot profielen toegang te hebben, te beheren en te onderzoeken gebruikend het Web van de Campagne gebruikersinterface in deze video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427293?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3448370?captions=dut&quality=12&learn=on){transcript=true}
 
    Leer meer in [&#x200B; worden begonnen met de documentatie van Profielen &#x200B;](../../v8/audience/about-recipients.md).
 
 1. Leer testprofielen maken en beheren in Campagne v8
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3442844?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3442901?captions=dut&quality=12&learn=on){transcript=true}
 
 ### Soorten publiek beheren {#acs-gs-marketers-audiences}
 
@@ -68,7 +68,7 @@ Soorten publiek zijn groepen profielen met vergelijkbare gedragingen en/of kenme
 
 Leer om publiek te bouwen en te beheren, hoe te om publiek voor een levering te selecteren, en controlegroepen te bepalen, in deze video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425861?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453208?captions=dut&quality=12&learn=on){transcript=true}
 
 Verwijs naar [&#x200B; worden begonnen met Soorten publiek &#x200B;](../../v8/audience/manage-audience.md){target="_blank"} voor meer informatie.
 
@@ -146,7 +146,7 @@ De werkschemagebruikersinterface is volledig opnieuw voorgesteld in het gebruike
 
 Begrijp hoe werkstromen werken en hoe te om een het richten werkschema in deze video tot stand te brengen:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425873?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453978?captions=dut&quality=12&learn=on){transcript=true}
 
 Krijg meer details met de [&#x200B; documentatie van de Werkstroom &#x200B;](../../v8/workflows/gs-workflows.md).
 
@@ -202,7 +202,7 @@ Nuttige koppelingen:
 
 Leer hoe u een geheel nieuwe e-maillevering maakt, het publiek definieert, de inhoud ontwerpt, voorvertoning simuleert en een proefdruk van deze video verzendt:
 
->[!VIDEO](https://video.tv.adobe.com/v/3425866?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3454011?captions=dut&quality=12&learn=on){transcript=true}
 
 Leer hoe te om uw eerste gerichte e-mail in te creëren [&#x200B; creeer uw eerste e-maildocumentatie &#x200B;](../../v8/email/create-email.md)
 
@@ -214,13 +214,13 @@ In Campagne v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
    Begrijp hoe u door de Designer-e-mail kunt navigeren. In de volgende video ziet u hoe u een geheel nieuwe e-mail kunt structureren en ontwerpen, hoe u uw e-mail kunt personaliseren en testen:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3453571?captions=dut&quality=12&learn=on){transcript=true}
 
    Met de e-mailtoepassing Designer kunt u fascinerende, individueel aangepaste e-mails maken via een intuïtieve drag-and-drop interface. Leer meer in de [&#x200B; documentatie van Designer E-mail &#x200B;](../../v8/email/get-started-email-designer.md)
 
    Leer hoe u een e-mail kunt maken door HTML te uploaden, hoe u deze compatibel kunt maken met de e-mail-Designer en hoe u deze kunt converteren naar een sjabloon in deze video:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3427633?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3447038?captions=dut&quality=12&learn=on){transcript=true}
 
    Een inhoudsfragment is een herbruikbare component waarnaar in een of meer berichten kan worden verwezen. Leer meer over [&#x200B; fragmenten van de Inhoud &#x200B;](../../v8/content/fragments.md) om de verwezenlijking van uw e-maillevering te vereenvoudigen.
 
@@ -230,7 +230,7 @@ In Campagne v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
    In deze video ziet u hoe u een voorbeeld kunt weergeven van de inhoud en de persoonlijke weergave van e-mailberichten, testleveringen (proefdrukken) kunt verzenden en de rendering van e-mailberichten kunt controleren bij populaire desktops, mobiele en webclients:
 
-   >[!VIDEO](https://video.tv.adobe.com/v/3425862?quality=12&learn=on){transcript=true}
+   >[!VIDEO](https://video.tv.adobe.com/v/3450343?captions=dut&quality=12&learn=on){transcript=true}
 
 1. **verzend e-mail en controlelogboeken**
 
@@ -320,7 +320,7 @@ In Campaign v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 
 Directe post is een off-line kanaal dat u toestaat om dossiers aan massa te veroorzaken die gepersonaliseerde brieven aan uw klanten zoals postcards, vliegers, of catalogi leveren. Bij het maken van een directe postbestelling genereert Adobe Campaign automatisch een extractiebestand dat alle doelprofielen en geselecteerde gegevens bevat, zoals postadressen en profielkenmerken.
 
->[!VIDEO](https://video.tv.adobe.com/v/3433316/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451789/?captions=dut&learn=on)
 
 In Campaign v8 zijn de gedetailleerde stappen voor het maken, testen en verzenden van een directe mailbezorging vergelijkbaar met die in Campaign Standard.
 
@@ -328,7 +328,7 @@ In Campaign v8 zijn de gedetailleerde stappen voor het maken, testen en verzende
 1. [&#x200B; bepaalt het extractiedossier &#x200B;](../../v8/direct-mail/content-direct-mail.md)
 1. [Voorvertonen en verzenden](../../v8/direct-mail/send-direct-mail.md)
 
->[!VIDEO](https://video.tv.adobe.com/v/3425867?quality=12&learn=on){transcript=true}
+>[!VIDEO](https://video.tv.adobe.com/v/3453571?captions=dut&quality=12&learn=on){transcript=true}
 
 ### Kanaal in app {#acs-gs-marketers-in-app}
 
