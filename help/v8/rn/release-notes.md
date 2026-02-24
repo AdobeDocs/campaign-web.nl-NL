@@ -2,10 +2,10 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: 46ea5bf6355de875947bda84b25f3e779ab08539
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 8%
+source-wordcount: '267'
+ht-degree: 7%
 
 ---
 
@@ -75,13 +75,14 @@ _feb 17, 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Ontwerpprogramma's</strong><br/></th> 
+<th><strong>Schema authoring (LA)</strong><br/></th> 
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>U kunt schema's van het Web van de Campagne direct tot stand brengen en beheren Gebruikersinterface. Met deze functie kunt u nieuwe tabellen maken, bestaande schema's uitbreiden en aangepaste formulieren maken. U kunt de structuren van douanegegevens bepalen om uw specifieke bedrijfsbehoeften te steunen zonder toegang tot de Console van de Cliënt te vereisen.</p>
+<p>Opmerking: deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt in een toekomstige release globaal geïmplementeerd.</p>
 <p>Raadpleeg de <a href="../administration/schemas.md">gedetailleerde documentatie</a> voor meer informatie.</p>
 </td>
 </tr>

@@ -1,9 +1,10 @@
 ---
 title: Schema's maken en publiceren
 description: Leer hoe u schema's maakt, uitbreidt en publiceert.
-source-git-commit: 28f7bcf5f65671136be25c79b414f149532b749f
+exl-id: 1da53fe0-1d64-4907-ba06-206f69e83d7c
+source-git-commit: 4cd545973f21ba4a77faa9b3cd421b49047dd243
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -14,6 +15,10 @@ ht-degree: 0%
 
 U kunt nieuwe schema&#39;s tot stand brengen, bestaande schema&#39;s uitbreiden, en tot externe gegevensbestanden toegang hebben.
 
+>[!NOTE]
+>
+>Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt globaal geïmplementeerd in een toekomstige release.
+
 ### Een schema maken of uitbreiden {#create-new}
 
 Een schema maken of uitbreiden:
@@ -21,13 +26,13 @@ Een schema maken of uitbreiden:
 1. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Schemas]**.
 1. Klik op **[!UICONTROL Create schema]**.
 
-   ![&#x200B; de aanmaakdialoog van het Schema &#x200B;](assets/schemas-create1.png)
+   ![ de aanmaakdialoog van het Schema ](assets/schemas-create1.png)
 
 1. Voer een naamruimte in voor uw schema (bijvoorbeeld `cus` voor aangepaste schema&#39;s).
 1. Voer een unieke naam en een uniek label in en kies of u een nieuw schema wilt maken of een bestaand schema wilt uitbreiden.
 
 1. Klik op **[!UICONTROL Create]**.
-   ![&#x200B; de aanmaakdialoog van het Schema &#x200B;](assets/schemas-create2.png)
+   ![ de aanmaakdialoog van het Schema ](assets/schemas-create2.png)
 
 Het schema wordt gecreeerd en de geproduceerde schemastructuur wordt getoond.
 
@@ -36,7 +41,7 @@ Het schema is standaard leeg. U moet nu de gebieden toevoegen u in uw schema wil
 1. Klik op het potloodpictogram in de sectie **[!UICONTROL Content]** van het scherm Schema-details.
 2. Voeg de benodigde elementen toe en sla deze op. Hier volgt een voorbeeld van een aangepaste schemastructuur:
 
-   ![&#x200B; de aanmaakdialoog van het Schema &#x200B;](assets/schemas-create3.png)
+   ![ de aanmaakdialoog van het Schema ](assets/schemas-create3.png)
 
 Het systeem valideert automatisch de XML-structuur en genereert het schema.
 
@@ -44,7 +49,7 @@ Het systeem valideert automatisch de XML-structuur en genereert het schema.
 
 Nadat u het schema hebt gemaakt, moet u de schermeditie definiëren.
 
-Voor meer informatie over het scherm van de het schermdefinitie en hoe te om tot het toegang te hebben, verwijs naar [&#x200B; toegang tot de sectie van de het schermdefinitie &#x200B;](schemas-browse-access.md#screen-def).
+Voor meer informatie over het scherm van de het schermdefinitie en hoe te om tot het toegang te hebben, verwijs naar [ toegang tot de sectie van de het schermdefinitie ](schemas-browse-access.md#screen-def).
 
 In ons voorbeeld voegen we gewoon twee aangepaste velden toe:
 
@@ -53,7 +58,7 @@ In ons voorbeeld voegen we gewoon twee aangepaste velden toe:
 1. Klik op het pictogram van de ovaal boven de tabel **[!UICONTROL List of custom fields]** en kies **[!UICONTROL Select attributes]** .
 1. Selecteer de aangepaste velden die u wilt toevoegen en bevestigen.
 
-   ![&#x200B; de aanmaakdialoog van het Schema &#x200B;](assets/schemas-create4.png)
+   ![ de aanmaakdialoog van het Schema ](assets/schemas-create4.png)
 
 ## Schema&#39;s publiceren en synchroniseren {#publish}
 
@@ -70,11 +75,11 @@ Uw schemawijzigingen publiceren:
 1. Navigeer naar **[!UICONTROL Administration]** > **[!UICONTROL Schemas]** om het schema te openen.
 1. Klik op **[!UICONTROL Publishing]** en bevestig het.
 
-   ![&#x200B; de publicatiedialoog die van het Schema veranderingen toont om worden toegepast &#x200B;](assets/schemas-publish1.png)
+   ![ de publicatiedialoog die van het Schema veranderingen toont om worden toegepast ](assets/schemas-publish1.png)
 
 1. Selecteer in de lijst het schema dat u wilt synchroniseren.
 
-   ![&#x200B; de publicatiedialoog die van het Schema veranderingen toont om worden toegepast &#x200B;](assets/schemas-publish2.png)
+   ![ de publicatiedialoog die van het Schema veranderingen toont om worden toegepast ](assets/schemas-publish2.png)
 
 1. Controleer het SQL-script dat wordt uitgevoerd om de databasestructuur bij te werken.
 1. Klik op **[!UICONTROL Publish]** en bevestig om door te gaan met de publicatie.
@@ -89,9 +94,9 @@ Na het publiceren van een douaneschema, kunt u een navigatieingang in de Ontdekk
 
 1. Navigeer naar het menu **[!UICONTROL Explorer]** en selecteer een map waarin u het aangepaste schema wilt plaatsen.
 1. Klik op het pictogram voor de ovaal en klik op **[!UICONTROL Create new folder]** .
-   ![&#x200B; de ingangsverwezenlijking van de Navigatie voor douaneschema &#x200B;](assets/schemas-publish3.png)
+   ![ de ingangsverwezenlijking van de Navigatie voor douaneschema ](assets/schemas-publish3.png)
 1. Voeg een label toe en kies uw schema in het **[!UICONTROL Folder type]** gebied.
-   ![&#x200B; de ingangsverwezenlijking van de Navigatie voor douaneschema &#x200B;](assets/schemas-publish5.png)
+   ![ de ingangsverwezenlijking van de Navigatie voor douaneschema ](assets/schemas-publish5.png)
 1. Het aangepaste schema is nu toegankelijk vanuit de weergave **[!UICONTROL Explorer]** .
 
 Vanuit de nieuwe map kunt u:
