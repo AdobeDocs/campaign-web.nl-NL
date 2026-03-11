@@ -3,9 +3,9 @@ audience: end-user
 title: De activiteit van de AND-join-workflow gebruiken
 description: Leer hoe u de workflowactiviteit AND-join gebruikt
 exl-id: 2470e5fa-5596-4441-b9b9-7e8b5d1d53aa
-source-git-commit: b9f3deb579cf786e0eafa57f42a728b3f7a002d1
+source-git-commit: f0929390f9873516afec641d2febf3e58cb67e3d
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,11 @@ ht-degree: 0%
 >id="acw_orchestration_and-join"
 >title="AND-join-activiteit"
 >abstract="De **en-sluit zich aan** activiteit staat u toe om veelvoudige uitvoeringstakken van een werkschema te synchroniseren. De regeling wordt in werking gesteld zodra alle voorgaande activiteiten zijn beëindigd. Zo weet u zeker dat bepaalde activiteiten zijn voltooid voordat u doorgaat met het uitvoeren van de workflow."
+
+>[!CONTEXTUALHELP]
+>id="acw_orchestration_join"
+>title="Deelnemen aan activiteit"
+>abstract="Tijdelijke aanduiding voor samenvoegactiviteit."
 
 De **en-sluit zich aan** activiteit is de controle **activiteit van de a** Stroom. Meerdere uitvoeringstakken van een workflow worden gesynchroniseerd.
 
@@ -30,7 +35,7 @@ Deze activiteit activeert zijn uitgaande overgang slechts nadat alle binnenkomen
 
 Voer de volgende stappen uit om de **EN-lid** activiteit te vormen:
 
-![&#x200B; Screenshot die de configuratieinterface voor de EN-sluit zich aan activiteit tonen.](../assets/workflow-andjoin.png)
+![ Screenshot die de configuratieinterface voor de EN-sluit zich aan activiteit tonen.](../assets/workflow-andjoin.png)
 
 1. Voeg meerdere activiteiten toe, zoals kanaalactiviteiten, om minstens twee verschillende uitvoeringstakken te vormen.
 1. Voeg **toe EN-sluit** activiteit aan om het even welke takken.
@@ -41,4 +46,4 @@ Voer de volgende stappen uit om de **EN-lid** activiteit te vormen:
 
 In het volgende voorbeeld worden twee workflowvertakkingen getoond met een e-mail- en sms-levering. AND-sluit aanzettrekkers aan wanneer beide binnenkomende overgangen worden toegelaten. Pushmeldingen worden alleen verzonden nadat beide leveringen zijn voltooid.
 
-![&#x200B; Voorbeeld van een werkschema met twee takken, die e-mail en levering van SMS door dupberichten tonen.](../assets/workflow-andjoin-example.png){zoomable="yes"}
+![ Voorbeeld van een werkschema met twee takken, die e-mail en levering van SMS door dupberichten tonen.](../assets/workflow-andjoin-example.png){zoomable="yes"}
