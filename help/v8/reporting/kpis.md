@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_kpi"
->title="Belangrijkste prestatie-indicatoren"
+>title="Kernprestatie-indicatoren"
 >abstract="De **Zeer belangrijke prestatiesindicatoren** sectie laat u uw platformdoeltreffendheid door gemeenschappelijke KPIs controleren."
 
 <!-- à enlever? -->
@@ -29,13 +29,13 @@ Metrische gegevens worden standaard berekend voor leveringen die de afgelopen ze
 
 U kunt het kanaal selecteren dat u wilt weergeven. Deze indicatoren weerspiegelen standaard de cijfers voor het e-mailkanaal.
 
-![&#x200B; Schermschot die de KPI kaart met metriek voor het e-mailkanaal tonen.](assets/kpi.png){zoomable="yes"}
+![ Schermschot die de KPI kaart met metriek voor het e-mailkanaal tonen.](assets/kpi.png){zoomable="yes"}
 
 ## Bericht bezorgd {#ui-delivered-kpi}
 
 >[!CONTEXTUALHELP]
 >id="acw_keyindicators_delivered"
->title="Geleverd"
+>title="Afgeleverd"
 >abstract="Deze metrisch toont, voor het geselecteerde kanaal, de som van alle berichten die met succes worden verwerkt, en het percentage berichten die met succes in vergelijking met het totale aantal verzonden berichten worden geleverd."
 
 Het aantal geleverde berichten komt overeen met de snelheid van de levering. Het kan nooit 100% om de volgende redenen zijn: sommige adressen of telefoonnummers kunnen onjuist zijn, spamblokkers bij e-mailproviders kunnen uw berichten afwijzen of er kunnen zich problemen voordoen met de levering.

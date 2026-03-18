@@ -16,4 +16,4 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
 >title="Geautomatiseerde leveringsactiviteit"
->abstract="De **Geautomatiseerde levering** activiteit laat u, leveringsacties binnen uw werkschema creëren vormen en uitvoeren. U kunt een nieuwe levering van een malplaatje tot stand brengen, een bestaande expliciete levering selecteren die afzonderlijk werd gecreeerd, of een levering gebruiken die in de binnenkomende overgang wordt gespecificeerd. Configureer ontvangers en inhoud en kies vervolgens de uitvoeringshandeling."
+>abstract="De **Geautomatiseerde levering** activiteit laat u, leveringsacties binnen uw werkschema creëren vormen en uitvoeren. U kunt een nieuwe levering van een malplaatje tot stand brengen, een bestaande expliciete levering selecteren die afzonderlijk werd gecreeerd, of een levering gebruiken die in de binnenkomende overgang wordt gespecificeerd. Configureer ontvangers en inhoud en kies vervolgens de uitvoeringshandeling.
