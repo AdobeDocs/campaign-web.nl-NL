@@ -69,7 +69,7 @@ Voor een volledig overzicht bekijkt u de opmerkingen bij de release.
 
 ✨ onderdompelt zich in een hands-on ervaring met onze [&#x200B; AI Medewerker &#x200B;](../v8/content/generative-gs.md) levende eigenschapvoorproef, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
-[![&#x200B; leer meer knoop &#x200B;](assets/do-not-localize/try-it-button.svg) &#x200B;](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![&#x200B; leer meer knoop &#x200B;](assets/do-not-localize/try-it-button.svg) &#x200B;](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB  Veelgestelde vragen ]
 
@@ -138,5 +138,5 @@ Veelgestelde vragen over de gebruikersinterface van het Web van de Campagne zijn
 
 ## Aanvullende bronnen
 
-* [&#x200B; de Beschrijving van het Product van Adobe Campaign &#x200B;](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [&#x200B; Adobe Campaign v8 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-v8.html){target="_blank"}
+* [&#x200B; de Beschrijving van het Product van Adobe Campaign &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [&#x200B; Adobe Campaign v8 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=nl-NL){target="_blank"}

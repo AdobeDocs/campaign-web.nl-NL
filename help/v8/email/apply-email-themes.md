@@ -22,7 +22,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn2"
 >title="Thema&#39;s in de e-mail-Designer (LA)"
 >abstract="Pas herbruikbare themastijlen en -variabelen toe om e-mailinhoud consistent te houden met uw merk. Deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid)"
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_email_apply_theme"

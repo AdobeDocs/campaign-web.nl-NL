@@ -23,7 +23,7 @@ Dankzij de Adobe Experience Manager-integratie kunt u meertalige e-mailleveringe
 Voordat u een meertalige e-maillevering maakt, moet u controleren of u beschikt over:
 
 * Toegang tot een Adobe Experience Manager-instantie die is geconfigureerd voor de integratie van de Adobe Campaign-webinterface.
-* Adobe Experience Manager-inhoud met reeds gemaakte en goedgekeurde taalkopieën. Leer meer over de Tovenaar van het Exemplaar van de Taal in [&#x200B; documentatie van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Adobe Experience Manager-inhoud met reeds gemaakte en goedgekeurde taalkopieën. Leer meer over de Tovenaar van het Exemplaar van de Taal in [&#x200B; documentatie van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
 * Sjabloon voor e-maillevering geconfigureerd voor ontvangst van Adobe Experience Manager-inhoud. Verwijs naar de stappen die in [&#x200B; worden gedetailleerd toelaten meertalige wijze &#x200B;](#enable-multilingual) sectie.
 
 ## Maak uw meertalige levering

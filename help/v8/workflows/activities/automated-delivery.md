@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn4"
 >title="Geautomatiseerde leveringsactiviteit"
 >abstract="De activiteit van de geautomatiseerde leveringswerkstroom is nu beschikbaar in het werkschemapalet. U kunt het gebruiken om leveringsacties (voorbereidingen treffen, een proef verzenden, voorbereidingen treffen en beginnen, enz.) direct binnen uw werkschema tot stand te brengen of uit te voeren."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_automated-delivery"
@@ -51,7 +51,7 @@ Wanneer u de activiteit vormt, kiest u waar de levering uit komt. In deze sectie
 
 >[!NOTE]
 >
->**specificeerde in de overgang** en **die door manuscript** opties wordt verwerkt, voor geavanceerde gebruiksgevallen wordt gebruikt, kan slechts in de Console van de Cliënt worden gevormd. Zie de [&#x200B; documentatie van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
+>**specificeerde in de overgang** en **die door manuscript** opties wordt verwerkt, voor geavanceerde gebruiksgevallen wordt gebruikt, kan slechts in de Console van de Cliënt worden gevormd. Zie de [&#x200B; documentatie van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
 
 ## Selecteer de uit te voeren actie {#action-to-execute}
 
