@@ -2,23 +2,58 @@
 title: Opmerkingen bij de release Campagne v8 Web User Interface
 description: Ontdek nieuwe eigenschappen die met de recentste versie van de Gebruikersinterface van het Web van de Campagne komen
 exl-id: a0d2ab24-1854-4ad6-8a8c-b55488b20bf9
-source-git-commit: f77c4998c3db462c3caaece98a65be1226ab7c69
+source-git-commit: 304e3771ee55777d2eaf7a6c83ee4af3c97aa3b6
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 7%
+source-wordcount: '568'
+ht-degree: 0%
 
 ---
 
-# Aanvullende informatie  {#latest-release}
+# Aanvullende informatie {#latest-release}
 
 >[!CONTEXTUALHELP]
 >id="acw_homepage_learning_card2"
->title="Aanvullende informatie "
+>title="Aanvullende informatie"
 >abstract="De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Opmerkingen bij de release Campagne worden daarom meerdere keren per maand bijgewerkt met de nieuwste functies, verbeteringen en correcties. We raden u aan deze regelmatig te controleren."
 
 De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een ononderbroken leveringsmodel dat voor een scalable, gefaseerde benadering van eigenschapplaatsing toestaat. Deze releaseopmerkingen worden daarom meerdere keren per maand bijgewerkt. Controleer ze regelmatig.
 
-## Update van maart 1926 {#26-3-release}
+## Release van maart 1926 {#26-3-release}
+
+### Nieuwe functies {#26-3-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>Schema-authoring (GA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>De functie voor het ontwerpen van schema's is nu beschikbaar voor alle klanten (GA). Dit vermogen staat u toe om schema's van het Web van de Campagne direct tot stand te brengen en te beheren Gebruikersinterface. U kunt nieuwe tabellen maken, bestaande schema's uitbreiden en aangepaste formulieren maken. U kunt de structuren van douanegegevens bepalen om uw specifieke bedrijfsbehoeften te steunen zonder toegang tot de Console van de Cliënt te vereisen.</p>
+<p>Voor meer informatie, verwijs naar de <a href="../administration/schemas.md"> gedetailleerde documentatie </a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Thema's in de e-mail-Designer (LA)</strong><br/></th> 
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Thema's bieden een verbeterde ontwerpervaring voor e-mails doordat u herbruikbare themastijlen kunt definiëren die aan de richtlijnen van uw merk voldoen. U kunt nu themariabelen in fragmenten gebruiken, zodat u consistent stijlen in uw e-mailsjablonen kunt gebruiken. Met deze functie kunt u sneller e-mails samenstellen met vooraf gedefinieerde modules die elementen in de inhoud, zoals titels, beschrijvingen, afbeeldingen en koppelingen, abstract maken, terwijl de consistentie van uw merk behouden blijft.</p>
+<p>Opmerking: deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt in een toekomstige release globaal geïmplementeerd.</p>
+<p>Voor meer informatie, verwijs naar de <a href="../email/apply-email-themes.md"> gedetailleerde documentatie </a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -32,61 +67,7 @@ De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een onond
 <p>Zorgt voor een naadloze integratie van standaard- en aangepaste Firefly-modellen in combinatie met goedgekeurde externe afbeeldingsmodellen voor meer flexibiliteit, controle en uitlijning van merken bij het genereren van afbeeldingen.</p>
 <p>Kies het juiste model voor uw behoeften:</p>
 <ul><li> <strong> Adobe model </strong> (aangedreven door Firefly Image Model 4) voor directe beeldgeneratie zonder extra opstelling</li><li> <strong> model van de Partner </strong> (aangedreven door Gemini 2.5 Flits) voor gespecialiseerde mogelijkheden</li><li><strong> de modellen van de Douane </strong> (merkspecifieke modellen die op uw eigen activa worden opgeleid) voor de generatie van het merk die precies op uw merkidentiteit, stijl, en visuele richtlijnen richt.</li></ul>
-<p>Raadpleeg de <a href="../content/generative-models.md">gedetailleerde documentatie</a> voor meer informatie.</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-## Release van februari &#39;26 {#26-2-release}
-
-_feb 17, 2026_
-
-### Nieuwe functies {#26-2-features}
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Delivery scheduling compute process</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now use a delivery scheduling compute process similar to the one available in Adobe Campaign Standard. This feature allows you to calculate sending dates based on recipient timezones, enabling you to send communications at the optimal time for each recipient. This is particularly useful for organizations operating across multiple timezones, as it allows you to target regions with different timezones using a single delivery configuration.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Themes in the Email Designer (Beta)</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Themes provide an improved authoring experience for emails by allowing you to define reusable theme styles that fit your brand guidelines. You can now use theme variables in fragments, ensuring consistent styling across your email templates. This feature enables you to build emails faster with predefined modules that abstract content elements such as titles, descriptions, images, and links, while maintaining brand consistency.</p>
-<p>For more information, refer to the detailed documentation.</p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Tijdlijnweergave in campagneoverzicht</strong><br/></th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>De campagnevoorraad bevat nu een tijdlijnweergave waarmee u campagnes in de loop van de tijd kunt visualiseren en beheren: schakelen tussen lijst en tijdlijn, navigeren per week, maand of dag, de knop Vandaag gebruiken om naar de huidige datum te gaan en campagnedetails (status, workflows, leveringen) openen in een rechterdeelvenster—met dezelfde filters en zoekopdracht als de lijstweergave.</p>
-<p>Raadpleeg de <a href="../campaigns/manage-campaigns.md#timeline">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>Voor meer informatie, verwijs naar de <a href="../content/generative-models.md"> gedetailleerde documentatie </a>.</p>
 </td>
 </tr>
 </tbody>
@@ -95,26 +76,40 @@ _feb 17, 2026_
 <table>
 <thead>
 <tr>
-<th><strong>Schema authoring (LA)</strong><br/></th> 
+<th><strong>Geautomatiseerde leveringsactiviteit</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>U kunt schema's van het Web van de Campagne direct tot stand brengen en beheren Gebruikersinterface. Met deze functie kunt u nieuwe tabellen maken, bestaande schema's uitbreiden en aangepaste formulieren maken. U kunt de structuren van douanegegevens bepalen om uw specifieke bedrijfsbehoeften te steunen zonder toegang tot de Console van de Cliënt te vereisen.</p>
-<p>Opmerking: deze mogelijkheid is alleen beschikbaar voor een aantal organisaties (Beperkte beschikbaarheid) en wordt in een toekomstige release globaal geïmplementeerd.</p>
-<p>Raadpleeg de <a href="../administration/schemas.md">gedetailleerde documentatie</a> voor meer informatie.</p>
+<p>De <strong> Geautomatiseerde levering </strong> werkschemaactiviteit is nu beschikbaar in het werkschemapalet. U kunt het gebruiken om leveringsacties (voorbereidingen treffen, een proef verzenden, voorbereidingen treffen en beginnen, enz.) direct binnen uw werkschema tot stand te brengen of uit te voeren. Selecteer een bestaande levering die buiten de workflow is gemaakt om deze bij elke uitvoering opnieuw te gebruiken of maak een nieuwe levering van een sjabloon telkens wanneer de activiteit wordt uitgevoerd.</p>
+<p><img src="assets/do-not-localize/workflow-automated-delivery.gif"/></p>
+<p>Voor meer informatie, verwijs naar <a href="../workflows/activities/automated-delivery.md"> gedetailleerde documentatie.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-<!--
+<table>
+<thead>
+<tr>
+<th><strong>Meerdere workflowvertakkingen en activiteiten samenvoegen</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
 
-### Improvement {#26-2-improvements}
+<p><strong> Veelvoudige takken </strong> worden nu gesteund. In plaats van het gebruiken van a <strong> Fork </strong>, kunt u <strong> vertakking </strong> op de toolbar klikken toevoegen. De <strong> EN-lid </strong> activiteit is ook verbeterd. Het is nu een generische <strong> verbind </strong> activiteit die u tussen EN laat kiezen en OF zich bij opties aansluiten.</p>
+<p><img src="assets/do-not-localize/workflow-branches-join.gif"/></p>
+<p>Voor meer informatie, verwijs naar <a href="../workflows/orchestrate-activities.md#toolbar"> Orchestrate activiteiten </a> en <a href="../workflows/activities/join.md"> verbind </a> documentatiepagina's.</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-* Brand guidelines now include a Colors section that defines standards for your brand's color system, ensuring consistent use of primary, secondary, accent, and neutral colors across all experiences. 
-[Learn more](../content/brands-personalize.md)-->
+### Verbeteringen {#26-3-improvements}
 
-
-
+* De **het werkschemaactiviteit van het Begin** is toegevoegd om verenigbaarheid met de Console van de Cliënt te verbeteren. Deze activiteit is optioneel en wordt niet standaard in nieuwe workflows ingevoegd. Deze wordt echter automatisch toegevoegd aan bestaande workflows.
+  [ Leer meer ](../workflows/activities/about-activities.md#flow-control)
+* Het gebied van de tijdzoneselectie op de **montages van het Programma** van een levering is bewogen onder het **3} gebied van de Datum van het Contact.** [ Leer meer ](../msg/create-deliveries.md#gs-schedule)
