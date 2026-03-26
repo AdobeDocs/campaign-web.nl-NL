@@ -4,11 +4,11 @@ user-guide-title: Adobe Campaign Web User Interface
 user-guide-description: Productdocumentatie voor Adobe Campaign Web User Interface.
 title: Adobe Campaign-webdocumentatie
 description: Campagne Web-documentatie
-breadcrumb-title: Campaign Web User Interface
-source-git-commit: 881412b57de83ed7a7098653a03a77523e86c790
+breadcrumb-title: Campagne Web User Interface
+source-git-commit: 0cc09a983d412889f2b734a5bfb30bf422247ec0
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 20%
+source-wordcount: '1011'
+ht-degree: 6%
 
 ---
 
@@ -16,18 +16,18 @@ ht-degree: 20%
 # Adobe Campaign Web-documentatie {#v8}
 
 + [Adobe Campaign Web User Interface-documentatie](campaign-web-home.md)
-+ Aanvullende informatie  {#release-notes}
++ Aanvullende informatie {#release-notes}
    + [Nieuwe functies](rn/whats-new.md)
    + [Vroege release](rn/e-release-notes.md)
-   + [Nieuwste release](rn/release-notes.md)
-   + Eerdere releases {#previous-release-notes}
-      + [Releases van 2026](rn/release-notes-26.md)
-      + [Releases van 2025](rn/release-notes-25.md)
-      + [Releases van 2024](rn/release-notes-24.md)
+   + [Laatste release](rn/release-notes.md)
+   + Eerdere versies {#previous-release-notes}
+      + [2026 releases](rn/release-notes-26.md)
+      + [2025 releases](rn/release-notes-25.md)
+      + [2024 releases](rn/release-notes-24.md)
    + [Documentatie-updates](rn/documentation-updates.md)
 + Aan de slag met Adobe Campaign {#start}
    + [Aan de slag](get-started/get-started.md)
-   + [Verbinding maken met Campaign](get-started/connect-to-campaign.md)
+   + [Verbinding maken met campagne](get-started/connect-to-campaign.md)
    + [De interface detecteren](get-started/user-interface.md)
    + [Bladeren en lijsten filteren](get-started/list-filters.md)
    + [Werken met vooraf gedefinieerde filters](get-started/predefined-filters.md)
@@ -50,7 +50,7 @@ ht-degree: 20%
       + E-mail verzenden en controleren {#monitor}
          + [Een e-mail voorbereiden en verzenden](monitor/prepare-send.md)
          + [Verzenden met meerdere golven](advanced-settings/send-using-waves.md)
-         + [&#x200B; Logboeken van de levering van de Monitor &#x200B;](monitor/delivery-logs.md)
+         + [ Logboeken van de levering van de Monitor ](monitor/delivery-logs.md)
          + [Plaats de verzending van een levering](monitor/schedule-sending.md)
    + Pushmeldingen {#push}
       + [Aan de slag met pushmeldingen](push/gs-push.md)
@@ -60,14 +60,14 @@ ht-degree: 20%
          + [Ontwerpen als een rijke push-service voor iOS](push/rich-push-ios.md)
       + [Een pushaanbieding ontwerpen](push/content-push.md)
       + [Een pushbericht voorvertonen en verzenden](push/send-push.md)
-   + Sms {#sms}
+   + SMS {#sms}
       + [Aan de slag met SMS-berichten](sms/gs-sms.md)
       + [Een sms-levering maken](sms/create-sms.md)
       + [Een SMS-verzending ontwerpen](sms/content-sms.md)
       + [Een SMS-verzending bekijken en verzenden](sms/send-sms.md)
-   + Direct mail {#direct-mail}
+   + Directe post {#direct-mail}
       + [Aan de slag met directe mailleveringen](direct-mail/gs-direct-mail.md)
-      + [Een levering voor direct mail maken](direct-mail/create-direct-mail.md)
+      + [Een directe postbezorging maken](direct-mail/create-direct-mail.md)
       + [Het extractiebestand ontwerpen](direct-mail/content-direct-mail.md)
       + [Een voorbeeld bekijken en direct-maillevering verzenden](direct-mail/send-direct-mail.md)
    + Bellen {#call-center}
@@ -86,7 +86,7 @@ ht-degree: 20%
    + [Berichten verzenden naar uw abonnees](msg/send-to-subscribers.md)
    + [Leveringsinstellingen configureren](advanced-settings/delivery-settings.md)
    + Voorbeeld en test de levering {#preview-test}
-      + [&#x200B; Ongeveer voorproef en proef &#x200B;](preview-test/preview-test.md)
+      + [ Ongeveer voorproef en proef ](preview-test/preview-test.md)
       + [Een voorvertoning weergeven van de inhoud van het bericht](preview-test/preview-content.md)
       + [Proefdrukken verzenden](preview-test/test-deliveries.md)
       + [De rendering van e-mail testen](preview-test/email-rendering.md)
@@ -110,11 +110,12 @@ ht-degree: 20%
          + [Visuele fragmenten in uw e-mails gebruiken](content/use-visual-fragments.md)
          + [Expressiefragmenten gebruiken in de expressie-editor](content/use-expression-fragments.md)
    + E-mails ontwerpen {#email-design}
-      + [Aan de slag met Email Designer](email/get-started-email-designer.md)
+      + [Ga aan de slag met de e-mail Designer](email/get-started-email-designer.md)
       + Uw e-mail beginnen te vormen {#start-design}
          + [Opnieuw starten](email/create-email-content.md)
          + [Uw e-mailinhoud importeren](email/existing-content.md)
          + [Uw eigen inhoud coderen](email/code-content.md)
+         + [Thema&#39;s toepassen op uw e-mailinhoud](email/apply-email-themes.md)
       + Uw inhoud ontwerpen {#design-content}
          + [Inhoudscomponenten gebruiken](email/content-components.md)
          + [Koppelingen toevoegen en berichten bijhouden](email/message-tracking.md)
@@ -142,14 +143,14 @@ ht-degree: 20%
          + [Uw merk aanpassen](content/brands-personalize.md)
          + [Generatieve modellen maken en beheren](content/generative-models.md)
          + [Uw inhoud evalueren](content/brands-score.md)
-+ Landingspagina&#39;s {#landing-pages}
++ Openingspagina&#39;s {#landing-pages}
    + [Aan de slag met bestemmingspagina&#39;s](landing-pages/get-started-lp.md)
    + [Een openingspagina maken en publiceren](landing-pages/create-lp.md)
    + [Inhoud landingspagina ontwerpen](landing-pages/lp-content.md)
    + [Werken met sjablonen voor bestemmingspagina&#39;s](landing-pages/lp-templates.md)
    + [Gebruikskwesties leren](landing-pages/lp-use-cases.md)
 + Profielen en publiek {#audiences}
-   + [Aan de slag met profielen en doelgroepen](audience/gs-audiences-recipients.md)
+   + [Aan de slag met profielen en publiek](audience/gs-audiences-recipients.md)
    + [Doelafmetingen](audience/targeting-dimensions.md)
    + [Quarantine](audience/quarantine.md)
    + Werken met profielen {#work-with-profiles}
@@ -190,7 +191,7 @@ ht-degree: 20%
       + [Uw workflows starten en controleren](workflows/start-monitor-workflows.md)
    + Werken met workflowactiviteiten {#design-workflows}
       + [Workflowactiviteiten](workflows/activities/about-activities.md)
-      + [En-join](workflows/activities/and-join.md)
+      + [Geautomatiseerde levering](workflows/activities/automated-delivery.md)
       + [publiek opbouwen](workflows/activities/build-audience.md)
       + [Databron wijzigen](workflows/activities/change-data-source.md)
       + [Dimensie wijzigen](workflows/activities/change-dimension.md)
@@ -204,6 +205,7 @@ ht-degree: 20%
       + [Vertakking](workflows/activities/fork.md)
       + [Incrementele query](workflows/activities/incremental-query.md)
       + [JavaScript-code](workflows/activities/javascript-code.md)
+      + [Verbinden](workflows/activities/join.md)
       + [Bestand laden](workflows/activities/load-file.md)
       + [Afstemming](workflows/activities/reconciliation.md)
       + [Doelgroep opslaan](workflows/activities/save-audience.md)
@@ -218,15 +220,15 @@ ht-degree: 20%
    + [Werken met de querymodelfunctie](query/query-modeler-overview.md)
    + [Uw eerste query samenstellen](query/build-query.md)
    + [Expressies bewerken](query/expression-editor.md)
-   + [Voorbeelden van query’s](query/query-samples.md)
+   + [Zoekvoorbeelden](query/query-samples.md)
    + [Filterlijsten](query/filter.md)
 + Rapportage {#reports}
    + [Audit trail](reporting/audit-trail.md)
-   + [Belangrijkste prestatie-indicatoren](reporting/kpis.md)
+   + [Kernprestatie-indicatoren](reporting/kpis.md)
    + Standaardrapporten {#standard-reports}
       + [Aan de slag met rapporten](reporting/gs-reports.md)
       + [Uw rapporten exporteren](reporting/export-reports.md)
-      + Leveringsrapporten {#delivery-report}
+      + Afleveringsrapporten {#delivery-report}
          + [Aan de slag met leveringsrapporten](reporting/delivery-reports.md)
          + [E-mailleveringsrapport](reporting/email-report.md)
          + [Push-leveringsrapport](reporting/push-report.md)
@@ -247,19 +249,19 @@ ht-degree: 20%
    + Dynamische rapportage {#dynamic-reporting}
       + [Aan de slag met dynamische rapporten](reporting/dynamic-reporting/get-started-reporting.md)
       + Over rapportage {#about-reporting}
-         + [Informatie over dynamische rapporten](reporting/dynamic-reporting/about-dynamic-reports.md)
-         + [Rapportage-interface](reporting/dynamic-reporting/reporting-interface.md)
+         + [Dynamische rapporten](reporting/dynamic-reporting/about-dynamic-reports.md)
+         + [Rapportageinterface](reporting/dynamic-reporting/reporting-interface.md)
          + [Lijst met componenten](reporting/dynamic-reporting/list-of-components.md)
-         + [Indicatoren berekenen](reporting/dynamic-reporting/indicator-calculation.md)
+         + [Indicatorberekening](reporting/dynamic-reporting/indicator-calculation.md)
          + [Problemen oplossen](reporting/dynamic-reporting/troubleshooting.md)
-      + Lijst met rapporten {#list-of-reports}
-         + [De rapportperiode definiëren](reporting/dynamic-reporting/defining-the-report-period.md)
-         + [Overzicht van niet-bezorging](reporting/dynamic-reporting/bounce-summary.md)
-         + [Uitsplitsing naar domeinen](reporting/dynamic-reporting/breakdown-by-domains.md)
+      + Lijst van verslagen {#list-of-reports}
+         + [Vaststelling van de rapportperiode](reporting/dynamic-reporting/defining-the-report-period.md)
+         + [Overzicht van stuit](reporting/dynamic-reporting/bounce-summary.md)
+         + [Uitsplitsing naar domein](reporting/dynamic-reporting/breakdown-by-domains.md)
          + [Klachten](reporting/dynamic-reporting/complaints.md)
          + [Leveringsoverzicht](reporting/dynamic-reporting/delivery-summary.md)
          + [Leveringsdoorvoer](reporting/dynamic-reporting/delivery-throughput.md)
-         + [Niet-leverbare items en niet-bezorgingen](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
+         + [Niet-te leveren producten en bedragen](reporting/dynamic-reporting/non-deliverables-and-bounces.md)
          + [Geopende items](reporting/dynamic-reporting/opens.md)
          + [Trackingsindicatoren](reporting/dynamic-reporting/tracking-indicators.md)
          + [Uitschrijvingen](reporting/dynamic-reporting/unsubscriptions.md)
@@ -294,7 +296,7 @@ ht-degree: 20%
    + [Aangepaste velden configureren](administration/custom-fields.md)
    + [Vorm  [!DNL Campaign]  opties](administration/options.md)
    + [Tijdzonebeheer](administration/timezone-management.md)
-   + Externe accounts {#external-accounts}
+   + Externe rekeningen {#external-accounts}
       + [Externe accounts maken](administration/create-external-account.md)
       + [Integratie van Adobe-oplossingen](administration/integration-external-account.md)
       + [Campagnespecifiek](administration/external-account.md)
@@ -304,4 +306,4 @@ ht-degree: 20%
       + [Externe CRM-rekening](administration/external-crm.md)
    + [Opsommingen beheren](administration/enumerations.md)
    + [Werken met JavaScript-codes](administration/javascript-codes.md)
-+ [&#x200B; Campagne v8 (console) documentatie > &#x200B;](https://experienceleague.adobe.com/nl/docs/campaign/campaign-v8/campaign-home)
++ [ Campagne v8 (console) documentatie > ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/campaign-home)
