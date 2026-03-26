@@ -30,16 +30,16 @@ De **Geautomatiseerde levering** activiteit laat u, leveringsacties direct binne
 
 Voer de volgende stappen uit om deze activiteit te configureren:
 
-1. Bepaal de leveringsmontages, [ lees meer ](#delivery-settings)
-1. Selecteer de uit te voeren actie, [ lees meer ](#action-to-execute)
-1. Opstelling de overgang, [ lees meer ](#transition-to-execute)
-1. Bepaal een wijzigingsmanuscript, [ lees meer ](#script)
+1. Bepaal de leveringsmontages, [&#x200B; lees meer &#x200B;](#delivery-settings)
+1. Selecteer de uit te voeren actie, [&#x200B; lees meer &#x200B;](#action-to-execute)
+1. Opstelling de overgang, [&#x200B; lees meer &#x200B;](#transition-to-execute)
+1. Bepaal een wijzigingsmanuscript, [&#x200B; lees meer &#x200B;](#script)
 
 ## De leveringsinstellingen definiëren {#delivery-settings}
 
 Wanneer u de activiteit vormt, kiest u waar de levering uit komt. In deze sectie zijn twee opties beschikbaar:
 
-![ Screenshot die de geautomatiseerde levering ](../assets/automated-delivery.png){zoomable="yes"} tonen
+![&#x200B; Screenshot die de geautomatiseerde levering &#x200B;](../assets/automated-delivery.png){zoomable="yes"} tonen
 
 * Selecteer **Expliciete levering** wanneer u op een bestaande levering, bijvoorbeeld een stand-alone levering of een levering wilt handelen die van een campagne wordt gecreeerd. Kies de levering gebruikend **Uitgezochte levering** knoop. Telkens als de werkschemalooppas en deze activiteit bereikt, handelt het op **de zelfde** levering. Er wordt geen nieuwe levering gemaakt per uitvoering. De activiteit gebruikt dezelfde levering opnieuw. Dit is nuttig wanneer u één enkele levering hebt die u wilt voorbereiden of herhaaldelijk verzenden, bijvoorbeeld op een programma of na een goedkeuringsstap.
 
@@ -51,13 +51,13 @@ Wanneer u de activiteit vormt, kiest u waar de levering uit komt. In deze sectie
 
 >[!NOTE]
 >
->**specificeerde in de overgang** en **die door manuscript** opties wordt verwerkt, voor geavanceerde gebruiksgevallen wordt gebruikt, kan slechts in de Console van de Cliënt worden gevormd. Zie de [ documentatie van de Campagne v8 ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
+>**specificeerde in de overgang** en **die door manuscript** opties wordt verwerkt, voor geavanceerde gebruiksgevallen wordt gebruikt, kan slechts in de Console van de Cliënt worden gevormd. Zie de [&#x200B; documentatie van de Campagne v8 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"}.
 
 ## Selecteer de uit te voeren actie {#action-to-execute}
 
 Kies in deze sectie wat de activiteit doet met de levering. De volgende opties zijn beschikbaar:
 
-![ Schermschot die de acties tonen in de geautomatiseerde levering uit te voeren ](../assets/automated-delivery2.png){zoomable="yes"}
+![&#x200B; Schermschot die de acties tonen in de geautomatiseerde levering uit te voeren &#x200B;](../assets/automated-delivery2.png){zoomable="yes"}
 
 * **sparen**: Creeert en bewaart de levering zonder het te analyseren of te verzenden.
 * **Schatting het doel**: Berekent het leveringsdoel om zijn potentieel (eerste analysefase) te beoordelen.
@@ -69,7 +69,7 @@ Kies in deze sectie wat de activiteit doet met de levering. De volgende opties z
 
 In deze sectie kunt u kiezen of u na de activiteit overgangen wilt genereren. De volgende opties zijn beschikbaar:
 
-![ Schermafbeelding die de overgangen in de geautomatiseerde levering tonen ](../assets/automated-delivery3.png){zoomable="yes"}
+![&#x200B; Schermafbeelding die de overgangen in de geautomatiseerde levering tonen &#x200B;](../assets/automated-delivery3.png){zoomable="yes"}
 
 * **produceer een uitgaande overgang**: Produceert een uitgaande overgang wanneer de activiteit eindigt.
 * **etiket van de Overgang**: Staat u toe om het etiket aan te passen dat op de overgang in het canvas wordt getoond.
