@@ -111,5 +111,5 @@ De gebruikersinterfaceversies van het Web van Adobe Campaign werken op een onond
 ### Verbeteringen {#26-3-improvements}
 
 * De **het werkschemaactiviteit van het Begin** is toegevoegd om verenigbaarheid met de Console van de Cliënt te verbeteren. Deze activiteit is optioneel en wordt niet standaard in nieuwe workflows ingevoegd. Deze wordt echter automatisch toegevoegd aan bestaande workflows.
-  [ Leer meer ](../workflows/activities/about-activities.md#flow-control)
-* Het gebied van de tijdzoneselectie op de **montages van het Programma** van een levering is bewogen onder het **3} gebied van de Datum van het Contact.** [ Leer meer ](../msg/create-deliveries.md#gs-schedule)
+  [&#x200B; Leer meer &#x200B;](../workflows/activities/about-activities.md#flow-control)
+* Het gebied van de tijdzoneselectie op de **montages van het Programma** van een levering is bewogen onder het **3&rbrace; gebied van de Datum van het Contact.** [&#x200B; Leer meer &#x200B;](../msg/create-deliveries.md#gs-schedule)
