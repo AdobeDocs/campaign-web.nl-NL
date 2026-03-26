@@ -3,20 +3,14 @@ audience: end-user
 title: Profielverrijking in transactieberichten
 description: Leer hoe te om een transactiebericht in het Gebruikersinterface van het Web van de Campagne tot stand te brengen
 exl-id: 933c73ba-ca00-447a-99fd-a7490bb101a4
-source-git-commit: bc43288d58145aa28e914f7a9480cb9ab90f5a54
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 1%
+source-wordcount: '457'
+ht-degree: 0%
 
 ---
 
 # Transactieberichten verrijken met profielgegevens{#profile-enrichment}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn2"
->title="Profielverrijking"
->abstract="U kunt transactionele berichten nu personaliseren door de gegevensbestandgebieden van de Campagne aan inhoud te verbinden. Selecteer doeltoewijzingen, verrijkingskolommen en afstemmingssleutels voor nauwkeurige realtime personalisatie."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 Met deze functie kunt u transactieberichten personaliseren door Adobe Campaign-databasevelden aan berichtinhoud te koppelen. U kunt doeltoewijzingen, verrijkingskolommen, en een verzoeningssleutel selecteren om nauwkeurige, real-time verpersoonlijking te verzekeren terwijl het handhaven van prestatiesdrempels.
 
@@ -25,11 +19,11 @@ Met deze functie kunt u transactieberichten personaliseren door Adobe Campaign-d
 
 Ga als volgt te werk om profielverrijking in te stellen:
 
-1. Creeer het transactionele bericht, [&#x200B; lees meer &#x200B;](#create-enrichment)
-1. Bepaal het gebeurtenistype, [&#x200B; lees meer &#x200B;](#event-enrichment)
-1. Opstelling de verrijkingsmontages, [&#x200B; lees meer &#x200B;](#settings-enrichment)
-1. Bepaal de inhoud, [&#x200B; lees meer &#x200B;](#content-enrichment)
-1. Valideren en verzenden, [&#x200B; lees meer &#x200B;](#send-enrichment)
+1. Creeer het transactionele bericht, [ lees meer ](#create-enrichment)
+1. Bepaal het gebeurtenistype, [ lees meer ](#event-enrichment)
+1. Opstelling de verrijkingsmontages, [ lees meer ](#settings-enrichment)
+1. Bepaal de inhoud, [ lees meer ](#content-enrichment)
+1. Valideren en verzenden, [ lees meer ](#send-enrichment)
 
 >[!NOTE]
 >
@@ -45,7 +39,7 @@ Eerst, moet u een nieuw transactiebericht tot stand brengen.
 
    ![](assets/transactional-browse.png){zoomable="yes"}
 
-1. Kies een sjabloon en definieer de eigenschappen. Raadpleeg [deze pagina](create-transactional.md#transactional-message) voor meer informatie.
+1. Kies een sjabloon en definieer de eigenschappen. Voor meer op dit, verwijs naar deze [ pagina ](create-transactional.md#transactional-message).
 
 ## Het gebeurtenistype definiëren{#event-enrichment}
 
@@ -95,7 +89,7 @@ Nu, voegen wij gebieden aan de gebeurtenis toe die u zal toestaan om het transac
 
 Vervolgens moet u de inhoud van het transactiebericht definiëren.
 
-1. In de **sectie van de Inhoud**, klik **geef inhoud** knoop uit en bepaal uw berichtinhoud. Verwijs naar deze [&#x200B; pagina &#x200B;](create-transactional.md#transactional-content).
+1. In de **sectie van de Inhoud**, klik **geef inhoud** knoop uit en bepaal uw berichtinhoud. Verwijs naar deze [ pagina ](create-transactional.md#transactional-content).
 
    ![](assets/template-content.png){zoomable="yes"}
 
@@ -108,7 +102,7 @@ Vervolgens moet u de inhoud van het transactiebericht definiëren.
 
 Tot slot moet u de levering bevestigen en verzenden.
 
-1. Valideer de levering door de inhoud te simuleren en proefdrukken te verzenden. Verwijs naar deze [&#x200B; pagina &#x200B;](validate-transactional.md).
+1. Valideer de levering door de inhoud te simuleren en proefdrukken te verzenden. Verwijs naar deze [ pagina ](validate-transactional.md).
 
 1. Klik op de knop **[!UICONTROL Review and publish]** om het bericht te maken en te publiceren. De triggers kunnen nu het verzenden van uw transactiebericht starten.
 

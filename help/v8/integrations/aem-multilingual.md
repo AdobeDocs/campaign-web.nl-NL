@@ -7,20 +7,14 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fc6ff43-ac7f-46c7-aa1a-9489ffc45423
-source-git-commit: 3a5121a4dca59532e1aada49c26de6ece1a58e4b
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 1%
+source-wordcount: '469'
+ht-degree: 0%
 
 ---
 
 # Meertalige e-mails maken met Adobe Experience Manager {#aem-multilingual}
-
->[!CONTEXTUALHELP]
->id="acw_homepage_welcome_rn3"
->title="Live Experience Manager en taalkopieën"
->abstract="U hebt nu rechtstreeks toegang tot de Adobe Experience Manager-taal en live kopieën in Campagne. Inhoud in realtime vernieuwen voorkomt handmatige synchronisatie voor gestroomlijnde workflows in meerdere talen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 Dankzij de Adobe Experience Manager-integratie kunt u meertalige e-mailleveringen maken met Adobe Experience Manager-taalkopieën. Zo kunt u varianten in de inhoud van verschillende talen beheren en persoonlijke e-mails aanbieden op basis van de taalvoorkeuren van de ontvanger.
 
@@ -29,8 +23,8 @@ Dankzij de Adobe Experience Manager-integratie kunt u meertalige e-mailleveringe
 Voordat u een meertalige e-maillevering maakt, moet u controleren of u beschikt over:
 
 * Toegang tot een Adobe Experience Manager-instantie die is geconfigureerd voor de integratie van de Adobe Campaign-webinterface.
-* Adobe Experience Manager-inhoud met reeds gemaakte en goedgekeurde taalkopieën. Leer meer over de Tovenaar van het Exemplaar van de Taal in [&#x200B; documentatie van Adobe Experience Manager &#x200B;](https://experienceleague.adobe.com/nl/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
-* Sjabloon voor e-maillevering geconfigureerd voor ontvangst van Adobe Experience Manager-inhoud. Verwijs naar de stappen die in [&#x200B; worden gedetailleerd toelaten meertalige wijze &#x200B;](#enable-multilingual) sectie.
+* Adobe Experience Manager-inhoud met reeds gemaakte en goedgekeurde taalkopieën. Leer meer over de Tovenaar van het Exemplaar van de Taal in [ documentatie van Adobe Experience Manager ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/reusing-content/translation/wizard)
+* Sjabloon voor e-maillevering geconfigureerd voor ontvangst van Adobe Experience Manager-inhoud. Verwijs naar de stappen die in [ worden gedetailleerd toelaten meertalige wijze ](#enable-multilingual) sectie.
 
 ## Maak uw meertalige levering
 
@@ -48,7 +42,7 @@ Maak een nieuwe levering en schakel de meertalige optie in de geavanceerde inste
 
    ![](assets/lg-copy-2.png)
 
-1. Ga een etiket voor de levering in en vorm uw publiek. [Meer informatie](../email/create-email.md)
+1. Ga een etiket voor de levering in en vorm uw publiek. [ Leer meer ](../email/create-email.md)
 
 1. Open de levering **[!UICONTROL Settings]** en navigeer naar de sectie **[!UICONTROL Advanced]** .
 
@@ -61,15 +55,15 @@ Maak een nieuwe levering en schakel de meertalige optie in de geavanceerde inste
    * **[!UICONTROL Content editing mode]** wordt ingesteld op **[!UICONTROL AEM]** .
    * De juiste Adobe Experience Manager **[!UICONTROL External account]** is geselecteerd.
 
-1. Klik op **[!UICONTROL Save and close]**.
+1. Klik op **[!UICONTROL Save and close]** .
 
 ### Inhoudsvarianten maken {#create-variants}
 
 Selecteer de Adobe Experience Manager-inhoud en kies welke taalvarianten u wilt opnemen in de levering.
 
-1. Klik op **[!UICONTROL Edit content]**.
+1. Klik op **[!UICONTROL Edit content]** .
 
-1. Selecteer **[!UICONTROL Create content variant]**.
+1. Selecteer **[!UICONTROL Create content variant]** .
 
    ![](assets/lg-copy-4.png)
 
@@ -83,9 +77,9 @@ Selecteer de Adobe Experience Manager-inhoud en kies welke taalvarianten u wilt 
 
    ![](assets/lg-copy-6.png)
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** .
 
-1. Bekijk de taalvarianten in de inhoudseditor. U kunt nu [&#x200B; elke variant individueel &#x200B;](#manage-variants) beheren of met [&#x200B; te werk gaan verzendend de levering &#x200B;](../monitor/prepare-send.md).
+1. Bekijk de taalvarianten in de inhoudseditor. U kunt nu [ elke variant individueel ](#manage-variants) beheren of met [ te werk gaan verzendend de levering ](../monitor/prepare-send.md).
 
    ![](assets/lg-copy-7.png)
 

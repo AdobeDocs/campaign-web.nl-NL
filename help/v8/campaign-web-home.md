@@ -3,10 +3,10 @@ keywords: Campagne Web;huis;populaire onderwerpen
 description: Campagne Web Help Center
 title: Adobe Campaign Web productdocumentatie
 exl-id: 86bfefdf-41b9-4d3f-9962-a6ae69140845
-source-git-commit: 48e7712a3471a063537f4e8e05d389acd77c7123
+source-git-commit: 9b51dc84a5b6954c973e1560aad877ef770eb8f9
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 2%
+source-wordcount: '530'
+ht-degree: 0%
 
 ---
 
@@ -47,34 +47,40 @@ We zijn blij om de nieuwe versie van Adobe Campaign Web User Interface te introd
 
 ## Nieuwe functies
 
-Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and documentation! Voor een uitvoerige lijst van zeer belangrijke mogelijkheden en versie werkt eigenschappen bij, controleer [&#x200B; deze pagina &#x200B;](rn/whats-new.md).
+Bekijk een glimp van de nieuwste verbeteringen in Adobe Campaign Web product and documentation! Voor een uitvoerige lijst van zeer belangrijke mogelijkheden en versie werkt eigenschappen bij, controleer [ deze pagina ](rn/whats-new.md).
 
 >[!BEGINTABS]
 
 
->[!TAB  Februari &quot;26 versie ]
+>[!TAB  Maart &quot;26 versie ]
 
-Release van februari is live. De nieuwe eigenschappen en de verhogingen zijn nu beschikbaar in het de gebruikersinterface van het Web van de Campagne. Voor een volledig overzicht bekijkt u de opmerkingen bij de release.
+Release van maart is live. De nieuwe eigenschappen en de verhogingen zijn nu beschikbaar in het de gebruikersinterface van het Web van de Campagne. Tot de hooglichten behoren:
 
-[![&#x200B; leer meer knoop &#x200B;](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
+* **het auteursrecht van het Schema (GA)** - creeer en beheer direct schema&#39;s in het Web UI van de Campagne.
+* **Thema&#39;s in E-mail Designer (LA)** - pas herbruikbare themastijlen en variabelen toe om e-mailinhoud verenigbaar met uw merk te houden.
+* {de verhogingen van het 0} Werkschema **- de** Geautomatiseerde levering **en** Begin **activiteiten zijn nu beschikbaar en** sluit zich aan **steunt nu de OF optie.** U kunt nu ook meerdere vertakkingen toevoegen aan uw workflows.
+
+Voor een volledig overzicht bekijkt u de opmerkingen bij de release.
+
+[![ leer meer knoop ](assets/do-not-localize/learn-more-button.svg)](../v8/rn/release-notes.md)
 
 
 >[!TAB  AI Medewerker ]
 
-✨ onderdompelt zich in een hands-on ervaring met onze [&#x200B; AI Medewerker &#x200B;](../v8/content/generative-gs.md) levende eigenschapvoorproef, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
+✨ onderdompelt zich in een hands-on ervaring met onze [ AI Medewerker ](../v8/content/generative-gs.md) levende eigenschapvoorproef, die wordt ontworpen om u zijn eigenschappen te laten onderzoeken en volledig zijn mogelijkheden te begrijpen.
 
-[![&#x200B; leer meer knoop &#x200B;](assets/do-not-localize/try-it-button.svg) &#x200B;](https://experienceleague.adobe.com/nl/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![ leer meer knoop ](assets/do-not-localize/try-it-button.svg) ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB Veelgestelde vragen]
+>[!TAB  Veelgestelde vragen ]
 
 Veelgestelde vragen over de gebruikersinterface van het Web van de Campagne zijn vermeld in een nieuwe specifieke pagina.
 
-[![&#x200B; leer meer knoop &#x200B;](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
+[![ leer meer knoop ](assets/do-not-localize/learn-more-button.svg)](get-started/faq.md)
 
 
 >[!ENDTABS]
 
-## Starten met de basisprincipes
+## Beginnen met de basisbeginselen
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -103,7 +109,7 @@ Veelgestelde vragen over de gebruikersinterface van het Web van de Campagne zijn
     </tr>
 </table>
 
-## De documentatie verkennen
+## Documentatie verkennen
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
@@ -130,7 +136,7 @@ Veelgestelde vragen over de gebruikersinterface van het Web van de Campagne zijn
   </tr>
 </table>
 
-## Verdere bronnen
+## Aanvullende bronnen
 
-* [&#x200B; de Beschrijving van het Product van Adobe Campaign &#x200B;](https://helpx.adobe.com/nl/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
-* [&#x200B; Adobe Campaign v8 documentatie &#x200B;](https://experienceleague.adobe.com/docs/campaign-v8.html?lang=nl){target="_blank"}
+* [ de Beschrijving van het Product van Adobe Campaign ](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}
+* [ Adobe Campaign v8 documentatie ](https://experienceleague.adobe.com/docs/campaign-v8.html){target="_blank"}
