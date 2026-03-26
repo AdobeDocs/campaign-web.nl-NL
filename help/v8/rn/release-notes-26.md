@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Opmerkingen bij de release 2026 {#2026-release}
 
-Deze pagina maakt een lijst van alle veranderingen en verbeteringen beschikbaar met **2026 versies**. De recentste versienota&#39;s zijn beschikbaar in [ deze pagina ](release-notes.md).
+Deze pagina maakt een lijst van alle veranderingen en verbeteringen beschikbaar met **2026 versies**. De recentste versienota&#39;s zijn beschikbaar in [&#x200B; deze pagina &#x200B;](release-notes.md).
 
 ## Release van februari &#39;26 {#26-2-release}
 
@@ -200,7 +200,7 @@ _jan 27, 2026_
 
 ### Verbeteringen {#26-1-improvements}
 
-* Dynamische rapportage ondersteunt nu pushberichten en SMS. [ Leer meer ](../reporting/dynamic-reporting/get-started-reporting.md)
-* Vooraf gedefinieerde filters - Met een nieuwe optie Gedeeld filter kunt u een vooraf gedefinieerd filter beschikbaar maken voor andere gebruikers in uw organisatie. [ Leer meer ](../get-started/predefined-filters.md#share-filter)
+* Dynamische rapportage ondersteunt nu pushberichten en SMS. [&#x200B; Leer meer &#x200B;](../reporting/dynamic-reporting/get-started-reporting.md)
+* Vooraf gedefinieerde filters - Met een nieuwe optie Gedeeld filter kunt u een vooraf gedefinieerd filter beschikbaar maken voor andere gebruikers in uw organisatie. [&#x200B; Leer meer &#x200B;](../get-started/predefined-filters.md#share-filter)
 * Velden voor persoonlijke voorkeur die zijn gemaakt in Adobe Experience Manager, zoals Naam, E-mail, Datum en adres, worden nu opgenomen en beschikbaar wanneer u de inhoudssjabloon gebruikt.
-* De evaluatie van de kwaliteit van de inhoud controleert nu op leesbaarheid, coherentie, en doeltreffendheid kwesties onafhankelijk van merkrichtlijnen, het identificeren van onduidelijk overseinen, inconsistente toon, of structurele hiaten. [ Leer meer ](../content/brands-score.md)
+* De evaluatie van de kwaliteit van de inhoud controleert nu op leesbaarheid, coherentie, en doeltreffendheid kwesties onafhankelijk van merkrichtlijnen, het identificeren van onduidelijk overseinen, inconsistente toon, of structurele hiaten. [&#x200B; Leer meer &#x200B;](../content/brands-score.md)
