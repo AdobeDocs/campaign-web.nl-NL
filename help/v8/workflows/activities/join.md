@@ -47,13 +47,13 @@ Wanneer **OF** wordt geselecteerd, gaat de uitvoering voort zodra één van de g
 
 Volg deze stappen om **te vormen verbind** activiteit:
 
-1. Voeg meerdere activiteiten toe, zoals kanaalactiviteiten, om minstens twee verschillende uitvoeringstakken te vormen. U kunt a **Vonk** gebruiken of een afzonderlijke tak toevoegen gebruikend **vertakking** (+) toolbarknoop toevoegen. Zie [ Orchestrate activiteiten ](../orchestrate-activities.md#toolbar).
+1. Voeg meerdere activiteiten toe, zoals kanaalactiviteiten, om minstens twee verschillende uitvoeringstakken te vormen. U kunt a **Vonk** gebruiken of een afzonderlijke tak toevoegen gebruikend **vertakking** (+) toolbarknoop toevoegen. Zie [&#x200B; Orchestrate activiteiten &#x200B;](../orchestrate-activities.md#toolbar).
 
-   ![ Screenshot die twee takken toont.](../assets/workflow-join.png)
+   ![&#x200B; Screenshot die twee takken toont.](../assets/workflow-join.png)
 
-1. Voeg a **** activiteit aan om het even welke takken toe.
+1. Voeg a **&#x200B;**&#x200B;activiteit aan om het even welke takken toe.
 
-   ![ Screenshot die de Join toegevoegde activiteit tonen.](../assets/workflow-join2.png)
+   ![&#x200B; Screenshot die de Join toegevoegde activiteit tonen.](../assets/workflow-join2.png)
 
 1. In sluit zich aan bij opties, kies **EN** of **OF** en klik **verdergaan**.
 1. In de **het samenvoegen opties** sectie, controleer alle vorige activiteiten u zich wilt aansluiten.
@@ -63,10 +63,10 @@ Volg deze stappen om **te vormen verbind** activiteit:
    >
    >Het **Primaire vastgestelde** gebied is slechts beschikbaar voor **EN** sluit zich aan bij optie.
 
-   ![ Scherenshot die gevormde verbindingen toont.](../assets/workflow-join3.png)
+   ![&#x200B; Scherenshot die gevormde verbindingen toont.](../assets/workflow-join3.png)
 
 ## Voorbeeld {#join-example}
 
 In het volgende voorbeeld worden twee workflowvertakkingen getoond met een e-mail- en sms-levering. **sluit zich aan** activiteit aan, die aan **EN** wordt geplaatst, trekkers wanneer beide binnenkomende overgangen worden toegelaten. Pushmeldingen worden alleen verzonden nadat beide leveringen zijn voltooid. Als u plaatst sluit zich aan bij optie aan **OF**, worden de duwberichten verzonden zodra de eerste binnenkomende leveringsactiviteit wordt voltooid.
 
-![ Voorbeeld van een werkschema met twee takken, die e-mail en levering van SMS door dupberichten tonen.](../assets/workflow-join4.png){zoomable="yes"}
+![&#x200B; Voorbeeld van een werkschema met twee takken, die e-mail en levering van SMS door dupberichten tonen.](../assets/workflow-join4.png){zoomable="yes"}
