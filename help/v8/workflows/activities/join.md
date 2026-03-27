@@ -16,7 +16,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn5"
 >title="Meerdere workflowvertakkingen en activiteiten samenvoegen"
 >abstract="Meerdere vertakkingen worden nu ondersteund. In plaats van een vork te gebruiken, kunt u op Add tak op de toolbar klikken. De AND-join-activiteit is ook verbeterd. Het is nu een generische samenvoegactiviteit die u tussen EN en OF laat zich aansluiten opties kiezen."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_orchestration_and-join"

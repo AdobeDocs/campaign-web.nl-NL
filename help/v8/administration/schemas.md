@@ -15,7 +15,7 @@ ht-degree: 0%
 >id="acw_homepage_welcome_rn1"
 >title="Ontwerpprogramma&#39;s"
 >abstract="U kunt schema&#39;s van het Web van de Campagne direct tot stand brengen en beheren Gebruikersinterface. U kunt nieuwe tabellen maken, bestaande schema&#39;s uitbreiden en aangepaste formulieren maken."
->additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html" text="Zie opmerkingen bij releases"
+>additional-url="https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=nl-NL" text="Zie opmerkingen bij releases"
 
 >[!CONTEXTUALHELP]
 >id="acw_schema"
